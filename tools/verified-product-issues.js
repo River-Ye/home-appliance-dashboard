@@ -1,8 +1,8 @@
 const reportLedger = require("../product_issue_report_evidence.json");
 const { canonicalWebsite, normalize } = require("./product-issue-validation");
 
-const CHECKED_AT = "2026-08-20";
-const DEFAULT_EVIDENCE_CHECKED_AT = "2026-07-10";
+const CHECKED_AT = "2026-09-02";
+const DEFAULT_EVIDENCE_CHECKED_AT = "2026-08-29";
 const REVIEW_DATE_PATTERN = /^\d{4}-\d{2}-\d{2}$/;
 
 function isValidReviewDate(value) {
@@ -13,41 +13,616 @@ function isValidReviewDate(value) {
 
 const verifiedRows = [
   {
-    id: "wifi-unifi-u7-pro",
-    summary: "多位同型號使用者回報 2.4GHz IoT 裝置會頻繁斷線、無法連網或反覆重連。",
-    title: "2.4GHz IoT 裝置斷線與相容性不穩",
-    detail: "問題常集中在 2.4GHz 智慧家電，且可能受韌體版本影響；部署前應先更新穩定韌體，並用實際 IoT 裝置測試連線與漫遊。",
-    reportCount: 9,
-    sources: [
+    "id": "mouse-logitech-mx-vertical",
+    "checkedAt": "2026-08-31",
+    "summary": "MX Vertical 有跨 Reddit、iFixit 的六位独立使用者回報左鍵異常連點或持續拖曳時自行鬆開。",
+    "title": "左鍵異常連點或拖曳中斷",
+    "detail": "已核對六位第一人稱同型號回報；部分作者更換滑鼠或微動後改善，也有人替換機再次出現。這是回報集合而非故障率估算，不推定所有新品或地域批次都會發生。建議在退換貨期間測試持續選取、拖曳和單擊，異常時優先向台灣售後處理，勿因網路教學自行拆焊影響保固。",
+    "reportCount": 6,
+    "sources": [
       {
-        platform: "Ubiquiti Community",
-        title: "U7-Pro 2.4ghz issues",
-        url: "https://community.ui.com/questions/U7-Pro-2-4ghz-issues/4dff7816-5c14-4686-9f9a-ab99f9b93700",
-        authors: ["Kurisu112", "DUDL3Y"],
-        evidenceSnippet: "兩位 U7 Pro 使用者回報 2.4GHz IoT 裝置持續掉線或同樣異常。",
+        "platform": "Reddit",
+        "title": "MX Vertical mouse issues",
+        "url": "https://www.reddit.com/r/logitech/comments/148fo27/mx_vertical_mouse_issues/",
+        "authors": [
+          "PolymathUX"
+        ],
+        "evidenceSnippet": "PolymathUX 自述 MX Vertical 持續按住左鍵拖動時會自行釋放，有時選取檔案反而直接開啟。"
       },
       {
-        platform: "Reddit",
-        title: "U7 pro iot issue explained",
-        url: "https://www.reddit.com/r/Ubiquiti/comments/1g1funp/u7_pro_iot_issue_explained/",
-        authors: ["Capt_shadab", "jrd2me", "Confucius_said", "m4c1n0", "Sp1cedaddy", "Vertigo103"],
-        evidenceSnippet: "六位同型號使用者描述 IoT 裝置短暫斷線後重連或無法穩定使用。",
+        "platform": "Reddit",
+        "title": "Logitech MX Vertical Mouse Intermittent Left",
+        "url": "https://www.reddit.com/r/logitech/comments/17av6vm/logitech_mx_vertical_mouse_intermittent_left/",
+        "authors": [
+          "Smosh962"
+        ],
+        "evidenceSnippet": "Smosh962 的 MX Vertical 左鍵維持按住時會間歇斷開，跨裝置仍出現；原帖更新換保固新品後恢復。"
       },
       {
-        platform: "Reddit",
-        title: "2.4GHz IoT device constant disconnect",
-        url: "https://www.reddit.com/r/Ubiquiti/comments/1h600kz/24ghz_iot_device_constant_disconnect_5_6ghz_wifi/",
-        authors: ["Mattycee2K15"],
-        evidenceSnippet: "原發文者明確回報 U7 Pro 的 IoT 裝置每天多次斷線。",
+        "platform": "Reddit",
+        "title": "Logi MX Vertical Mouse Left Click Acting Weird",
+        "url": "https://www.reddit.com/r/LogitechG/comments/ql05u5/logi_mx_vertical_mouse_left_click_acting_weird/",
+        "authors": [
+          "Haitsmelol",
+          "tmkang"
+        ],
+        "evidenceSnippet": "Haitsmelol 說 MX Vertical 拖曳會提早放開或被當成双擊；改Windows設定一度以為改善但又復發，替換機約一年後同樣出現。 tmkang 明寫兩支 MX Vertical 各使用約一年後，左鍵按住卻無法維持；自行拆焊換微動後恢復正常。"
       },
-    ],
+      {
+        "platform": "Reddit",
+        "title": "Do not buy MX Vertical",
+        "url": "https://www.reddit.com/r/logitech/comments/1ja2xsx/do_not_buy_mx_vertical/",
+        "authors": [
+          "Maximum_Molasses_433"
+        ],
+        "evidenceSnippet": "Maximum_Molasses_433 自述自己的 MX Vertical 使用不多，卻開始出現左鍵額外點擊、拖曳保持不住；文中的Master 2S是另一款正常對照機。"
+      },
+      {
+        "platform": "iFixit",
+        "title": "Logitech MX Vertical Left and Right Mouse Button Microswitch Replacement",
+        "url": "https://www.ifixit.com/Guide/Logitech+MX+Vertical+Left+and+Right+Mouse+Button+Microswitch+Replacement/138168",
+        "authors": [
+          "May D"
+        ],
+        "evidenceSnippet": "May D 在原創維修指南介紹自述 MX Vertical 約用一年後，左鍵出現非預期双擊，於過保後拆開更換微動。"
+      }
+    ]
+  },
+  {
+    "id": "mouse-logitech-g304",
+    "checkedAt": "2026-08-31",
+    "summary": "G304 有跨 PTT 與 Reddit 的六位獨立使用者回報按鍵異常連點；替換機及同一人多支不重複計數。",
+    "title": "按鍵異常連點",
+    "detail": "保守採六位獨立使用者的原始G304第一人稱回報，替換機與同一人多支只算一次。這不是故障率估算；斷線、休眠、電池套筒及滾輪老化不合併。建議保留購買憑證，在退換貨期間測試單擊及拖曳，出現異常優先走原廠售後；不把網友噴油、吹氣或自行拆焊作為通用安全修復建議。",
+    "reportCount": 6,
+    "sources": [
+      {
+        "platform": "PTT",
+        "title": "[閒聊] 羅技G304滑鼠常常瞬斷的問題",
+        "url": "https://www.ptt.cc/bbs/Key_Mou_Pad/M.1709636091.A.5A3.html",
+        "authors": [
+          "qqq15963"
+        ],
+        "evidenceSnippet": "qqq15963 自述目前用第三支 G304，前兩支皆因連點退役；第三支的瞬斷是另外症狀。"
+      },
+      {
+        "platform": "PTT",
+        "title": "Re: [滑鼠] 羅技 G304 首發拆解 & 改裝",
+        "url": "https://www.ptt.cc/bbs/Key_Mou_Pad/M.1609601887.A.17E.html",
+        "authors": [
+          "shomie"
+        ],
+        "evidenceSnippet": "shomie 自述自己的 G304 右鍵開始連點、估計約70%觸發率，因而拆解更換微動。"
+      },
+      {
+        "platform": "PTT",
+        "title": "[心得] G304滑鼠連點，不用換微動開關，WD40搞定",
+        "url": "https://www.ptt.cc/bbs/PC_Shopping/M.1689938296.A.A0C.html",
+        "authors": [
+          "kcboy123"
+        ],
+        "evidenceSnippet": "kcboy123 的 G304 最近出現左鍵連點，自述清潔微動後當下恢復，並說會再回報可維持多久。"
+      },
+      {
+        "platform": "PTT",
+        "title": "[心得] 羅技G304 RMA完整心得 ft. SSR客服 (圖多",
+        "url": "https://www.ptt.cc/bbs/PC_Shopping/M.1676135808.A.1F4.html",
+        "authors": [
+          "E7lijah"
+        ],
+        "evidenceSnippet": "E7lijah 自述 G304 於2022年6月左右出現連點，經官方線上客服保固流程後獲替換產品。"
+      },
+      {
+        "platform": "Reddit",
+        "title": "~200 Rs. DIY Fix for Double click issue",
+        "url": "https://www.reddit.com/r/IndianGaming/comments/1h0e70g/200_rs_diy_fix_for_double_click_issue/",
+        "authors": [
+          "crystalMaxi"
+        ],
+        "evidenceSnippet": "crystalMaxi 的 G304 在一年內連點，保固替換機又於一年半後連點，後來送店更換微動。"
+      },
+      {
+        "platform": "Reddit",
+        "title": "Double click issue on Logitech G304 wireless",
+        "url": "https://www.reddit.com/r/IndianGaming/comments/p59d12/double_click_issue_on_logitech_g304_wireless/",
+        "authors": [
+          "Kirito_5"
+        ],
+        "evidenceSnippet": "Kirito_5 自述購入三個月的 G304 經常誤觸雙擊，仍在保固內並準備送保固。"
+      }
+    ]
+  },
+  {
+    "id": "mouse-logitech-g502-hero",
+    "checkedAt": "2026-08-31",
+    "summary": "G502 HERO 有跨 PTT 與 Reddit 的六位獨立使用者回報按鍵異常連點或按住時中斷。",
+    "title": "按鍵異常連點或保持中斷",
+    "detail": "保守採六位同型號第一人稱回報，保固替換品與同人多次留言只計一次。現售官店已改塑料線，但回報者的線材／生產批次未逐筆確認，不能推定目前批次故障率；2020年的25K更新屬官方軟體升級。退換貨期間宜測單擊、拖曳與長按；異常優先找台灣售後，不把敲擊或自行拆焊當通用修復方法。",
+    "reportCount": 6,
+    "sources": [
+      {
+        "platform": "PTT",
+        "title": "[問題] 江子翠附近修滑鼠微動",
+        "url": "https://www.ptt.cc/bbs/BigBanciao/M.1636585555.A.62D.html",
+        "authors": [
+          "midgrad"
+        ],
+        "evidenceSnippet": "midgrad 自述 G502 HERO 左鍵開始連點，正在找可當日取回的微動維修店。"
+      },
+      {
+        "platform": "PTT",
+        "title": "[公告] 公關帳號水桶",
+        "url": "https://www.ptt.cc/bbs/PC_Shopping/M.1729069800.A.DAF.html",
+        "authors": [
+          "leo255112"
+        ],
+        "evidenceSnippet": "leo255112 明寫自己的 G502 HERO 微動時好時壞，連點發作時機隨機，但仍喜歡握感。"
+      },
+      {
+        "platform": "Reddit",
+        "title": "G502 Hero Double Click issue",
+        "url": "https://www.reddit.com/r/LogitechG/comments/cxm3vh/g502_hero_double_click_issue/",
+        "authors": [
+          "SladetheUnlucky"
+        ],
+        "evidenceSnippet": "SladetheUnlucky 自述替換取得的 G502 HERO 使用四個月後左鍵連點，換USB埠與另一台電腦仍重現。"
+      },
+      {
+        "platform": "Reddit",
+        "title": "G502 Hero double clicking issue",
+        "url": "https://www.reddit.com/r/LogitechG/comments/hg2woh/g502_hero_double_clicking_issue/",
+        "authors": [
+          "CESARBC"
+        ],
+        "evidenceSnippet": "CESARBC 的 G502 HERO 使用約八個月後，左鍵一次輸入兩次，有時需更大力才反應。"
+      },
+      {
+        "platform": "Reddit",
+        "title": "Logitech G502 Hero double-click issue",
+        "url": "https://www.reddit.com/r/LogitechG/comments/kng7no/logitech_g502_hero_doubleclick_issue/",
+        "authors": [
+          "ImminentFallout"
+        ],
+        "evidenceSnippet": "ImminentFallout 自述 G502 HERO 第三個月開始連點並惡化，按住左右鍵在遊戲中仍會中斷，右鍵特別明顯。"
+      },
+      {
+        "platform": "Reddit",
+        "title": "G502 Hero Double-click issue",
+        "url": "https://www.reddit.com/r/LogitechG/comments/15f4fea/g502_hero_doubleclick_issue/",
+        "authors": [
+          "j0kep0ke"
+        ],
+        "evidenceSnippet": "j0kep0ke 自述 G502 HERO 右鍵反覆連點／瞄準中斷，清潔只短暫改善；更新說更換微動後恢復。"
+      }
+    ]
+  },
+  {
+    "id": "mouse-logitech-m720",
+    "checkedAt": "2026-08-31",
+    "summary": "M720 有跨 Reddit、Mobile01 的八位獨立使用者回報左鍵異常連點或持續拖曳時無法保持。",
+    "title": "左鍵異常連點或拖曳中斷",
+    "detail": "八位第一人稱回報來自四個原始討論頁、兩個網站，已逐人核對。部分在使用多年後出現，有人清理或維修後改善，不代表全部新品會故障，也不能由自選網路回報估算故障率。退換貨期宜測單擊、持續選取與拖曳，異常優先使用台灣售後，不建議因論壇教學自行拆焊影響保固。",
+    "reportCount": 8,
+    "sources": [
+      {
+        "platform": "Mobile01",
+        "title": "羅技M720滑鼠連點 DIY換微動開關",
+        "url": "https://www.mobile01.com/topicdetail.php?f=497&t=6406235",
+        "authors": [
+          "therb"
+        ],
+        "evidenceSnippet": "therb 描述自己的M720用數年後左鍵連點，並記錄拆修。其他回覆的零件問答、換開關但未述症狀、M705/G502均不增算。"
+      },
+      {
+        "platform": "Mobile01",
+        "title": "請問有可以快速切換配對裝置的藍芽滑鼠嗎？",
+        "url": "https://www.mobile01.com/topicdetail.php?f=497&t=5769430",
+        "authors": [
+          "一個怪人"
+        ],
+        "evidenceSnippet": "一個怪人回覆自己使用M720两年后左鍵連點，並說明側邊切換鍵的方便性；樓主只是問購不計入。"
+      },
+      {
+        "platform": "Reddit",
+        "title": "Two and a half years: a normal life span for a M720 mouse?",
+        "url": "https://www.reddit.com/r/logitech/comments/1aydrnj/two_and_a_half_years_a_normal_life_span_for_a/",
+        "authors": [
+          "Fernando1dois3",
+          "erolmacc",
+          "iFrog42",
+          "TemporaryAd1061"
+        ],
+        "evidenceSnippet": "Fernando1dois3、erolmacc、iFrog42及TemporaryAd1061各自描述M720左鍵連點或拖曳失常；後兩人的清理／維修改善也保留，不當成持續未解決故障。"
+      },
+      {
+        "platform": "Reddit",
+        "title": "M720 Click Issue. Recommendations?",
+        "url": "https://www.reddit.com/r/logitech/comments/pdhoi6/m720_click_issue_recommendations/",
+        "authors": [
+          "leakywaterjug",
+          "real_justindra"
+        ],
+        "evidenceSnippet": "leakywaterjug與real_justindra本人M720在按住拖曳時變多次點擊、拖放無法保持；客服排錯與其他中鍵問題不當作者人數。"
+      }
+    ]
+  },
+  {
+    "id": "mouse-razer-cobra",
+    "checkedAt": "2026-09-01",
+    "summary": "Cobra 有線電競滑鼠 黑色有六位跨Reddit與Razer Insider的獨立使用者回報「滾輪跳動或滾動異常」。",
+    "title": "滾輪跳動或滾動異常",
+    "detail": "逐人採標準有線Cobra，不混入Pro、HyperSpeed或Viper Mini。 本批保守六位、跨Reddit與Razer Insider兩原始網站；自選網路回報不能推算故障率，也不代表所有現售批次同一根因，異常宜走台灣售後。",
+    "reportCount": 6,
+    "sources": [
+      {
+        "platform": "Reddit",
+        "title": "bought RAZOR COBRA.",
+        "url": "https://www.reddit.com/r/mkindia/comments/1tgpvxl/bought_razor_cobra/",
+        "authors": [
+          "Pure_Bed_6357",
+          "ayushraj_real"
+        ],
+        "evidenceSnippet": "自述此有線Cobra使用約1.5年，光學按鍵仍好，但滾輪開始表現異常。 在有線Cobra購買文中自述買鼠後四個月內出現滾輪問題。"
+      },
+      {
+        "platform": "Reddit",
+        "title": "Unpopular opinion: Razer Cobras are great!",
+        "url": "https://www.reddit.com/r/MouseReview/comments/1rzf0gc/unpopular_opinion_razer_cobras_are_great/",
+        "authors": [
+          "KhajiitWithCoin",
+          "IX199xmnl"
+        ],
+        "evidenceSnippet": "My Razer Cobra 使用未滿一年，滾輪開始跳動，之後改買G203。 自己Cobra有相同滾輪跳動，拆開看到輪側纏狗毛，清理後指出毛髮造成干擾。"
+      },
+      {
+        "platform": "Razer Insider",
+        "title": "Mouse scroll wheel jumps up and down",
+        "url": "https://insider.razer.com/razer-support-45/mouse-scroll-wheel-jumps-up-and-down-69357",
+        "authors": [
+          "erhank10"
+        ],
+        "evidenceSnippet": "2024-10-27自述兩隻Cobra都遇到滾輪上下跳動，第二隻2024-07-16購於Amazon。"
+      },
+      {
+        "platform": "Razer Insider",
+        "title": "What mice has the most durable scrollwheel and side buttons",
+        "url": "https://insider.razer.com/mice-and-surfaces-9/what-mice-has-the-most-durable-scrollwheel-and-side-buttons-85764?postid=276890",
+        "authors": [
+          "alleySaffronurban937"
+        ],
+        "evidenceSnippet": "2026-01-21自述Cobra用約1.5年，滾輪隨機上下跳，吹氣只能暫時改善。"
+      }
+    ]
+  },
+  {
+    "id": "mouse-razer-basilisk-v3",
+    "checkedAt": "2026-09-01",
+    "summary": "Basilisk V3 有線 26K 黑色有六位跨Reddit與Razer Insider的獨立使用者回報「USB反覆斷接、短暫亮燈後失去辨識」。",
+    "title": "USB反覆斷接、短暫亮燈後失去辨識",
+    "detail": "5位Insider加1位Reddit本人原文；同頁引用原文不重計。只描述供電/辨識症狀，不斷言全部由同一硬體根因造成；自行拆切線材的回覆僅保留已恢復的結果，不轉述為操作建議。 本批保守六位、跨Reddit與Razer Insider兩原始網站；自選網路回報不能推算故障率，也不代表所有現售批次同一根因，異常宜走台灣售後。",
+    "reportCount": 6,
+    "sources": [
+      {
+        "platform": "Razer Insider",
+        "title": "Basilisk V3 Wired RZ01-0400 blinking, can't update or do anything",
+        "url": "https://insider.razer.com/razer-support-45/basilisk-v3-wired-rz01-0400-blinking-can-t-update-or-do-anything-64500?sort=mostRecentFirst",
+        "authors": [
+          "danluckner"
+        ],
+        "evidenceSnippet": "本人RZ01-0400每秒亮滅與USB斷接；換無Synapse電腦初恢復，韌體更新後又反覆斷接。"
+      },
+      {
+        "platform": "Razer Insider",
+        "title": "Basilisk V3 Wired RZ01-0400 blinking and not detected on any device",
+        "url": "https://insider.razer.com/razer-support-45/basilisk-v3-wired-rz01-0400-blinking-and-not-detected-on-any-device-61916",
+        "authors": [
+          "storysmartQueenBlue665"
+        ],
+        "evidenceSnippet": "2024-05-07自述RZ01-0400持續閃燈、短暫連接立即斷線，重装Synapse及驅動仍無效。"
+      },
+      {
+        "platform": "Razer Insider",
+        "title": "Razer Basilisk V3 stopped working completely",
+        "url": "https://insider.razer.com/razer-support-45/razer-basilisk-v3-stopped-working-completely-48689?postid=240700",
+        "authors": [
+          "lpachecs",
+          "sillysausa9e",
+          "JohnR0ck"
+        ],
+        "evidenceSnippet": "2024-08-14自述RZ01-0400用2.5年後亮約一秒即滅、USB不能正常使用；改動滾輪線路後恢復但失去自由滾動功能。 2025-02-12引用處理法之後另以本人說明其wired Basilisk V3也有相同故障，測試滾輪連線後鼠恢復供電。 2025-03-03自述Basilisk V3開機LED亮一秒、游標暫動後凍結；重置後進Bootloader且無LED/游標，更新中斷。"
+      },
+      {
+        "platform": "Reddit",
+        "title": "Basilisk V3 bug glitch",
+        "url": "https://www.reddit.com/r/razer/comments/1uct5ue/basilisk_v3_bug_glitch/",
+        "authors": [
+          "zyadamini"
+        ],
+        "evidenceSnippet": "本人原版有線Basilisk V3多年後出現連接/斷接循環；回覆明說mine is wired，另一電腦也相同。"
+      }
+    ]
+  },
+  {
+    "id": "mouse-razer-deathadder-v4-pro",
+    "checkedAt": "2026-09-01",
+    "summary": "DeathAdder V4 Pro 黑色有六位跨Reddit與Razer Insider的獨立使用者回報「無線接收器無法連線、間歇失去辨識或需反覆重插」。",
+    "title": "無線接收器無法連線、間歇失去辨識或需反覆重插",
+    "detail": "逐頁覆核一般零售DeathAdder V4 Pro回報，採4位Insider及2位Reddit可辨識原作者。跨板AirSuch2770去重；三隻換貨也只一人。不同症狀（滾輪異音、回彈黏、USB慢充、完全死機、睡眠短暫凍結）不併入本問題；非零售電競隊版本及明示其他型號/白綠外觀候選不作本筆計數。此為使用者歷史回報，不能推定新批次必然故障或共同根因。 本批保守六位，網路自選回報不代表故障率或已證實共同根因。",
+    "reportCount": 6,
+    "sources": [
+      {
+        "platform": "Razer Insider",
+        "title": "DeathAdder V4 Pro 黑色 — Im_in_YourWalls 原始回報",
+        "url": "https://insider.razer.com/razer-support-45/deathadder-v4-pro-dongle-stopped-working-randomly-89502",
+        "authors": [
+          "Im_in_YourWalls"
+        ],
+        "evidenceSnippet": "充至100%後接回接收器毫無反應，有線與Synapse正常；換USB、另一PC、重裝驅動及配對工具仍無線失效。"
+      },
+      {
+        "platform": "Razer Insider",
+        "title": "DeathAdder V4 Pro 黑色 — Nesmohten 原始回報",
+        "url": "https://insider.razer.com/razer-support-45/razer-deathadder-v4-pro-dongle-doesnt-turn-on-85831",
+        "authors": [
+          "Nesmohten"
+        ],
+        "evidenceSnippet": "使用1.5月有四次開機接收器不亮，電池全滿，换埠線及重啟無效；有線正常，反覆插拔接收器十餘次後恢復。"
+      },
+      {
+        "platform": "Razer Insider",
+        "title": "DeathAdder V4 Pro 黑色 — Anxu211 原始回報",
+        "url": "https://insider.razer.com/razer-support-45/razer-deathadder-v4-pro-dongle-doesn-t-work-83468",
+        "authors": [
+          "Anxu211"
+        ],
+        "evidenceSnippet": "新買DeathAdder V4 Pro已註冊Synapse，有線能用；接收器LED不亮，不同電腦同樣無線不能用。"
+      },
+      {
+        "platform": "Razer Insider",
+        "title": "DeathAdder V4 Pro 黑色 — fnord0 原始回報",
+        "url": "https://insider.razer.com/razer-support-45/deathadder-v4-pro-defective-dongle-less-than-1-week-old-86141",
+        "authors": [
+          "fnord0"
+        ],
+        "evidenceSnippet": "Amazon購買未滿一週接收器全滅失去無線；改有線五分鐘再插接收器才恢復，兩日後暫無復發。"
+      },
+      {
+        "platform": "Reddit",
+        "title": "DeathAdder V4 Pro 黑色 — AirSuch2770 原始回報",
+        "url": "https://www.reddit.com/r/razer/comments/1radofd/razer_deathadder_v4_pro_issuesrecommendations/",
+        "authors": [
+          "AirSuch2770"
+        ],
+        "evidenceSnippet": "自己換三隻DeathAdder V4 Pro，2025第38週兩隻/31週一隻，皆偶爾接不上dongle並短暫斷線。"
+      },
+      {
+        "platform": "Reddit",
+        "title": "DeathAdder V4 Pro 黑色 — NunoSM 原始回報",
+        "url": "https://www.reddit.com/r/razer/comments/1q39nqw/deathadder_v4_pro_problem/",
+        "authors": [
+          "NunoSM"
+        ],
+        "evidenceSnippet": "自己的DeathAdder V4 Pro開機不工作，重插鼠與接收器才恢復；另一次充電後卻低電，需要再做相同插拔程序。"
+      }
+    ]
+  },
+  {
+    "id": "mouse-razer-viper-v3-pro",
+    "checkedAt": "2026-09-01",
+    "summary": "Viper V3 Pro 黑色 35K 非SE有六位跨Reddit與Razer Insider的獨立使用者回報「連線中斷或接收器失去辨識」。",
+    "title": "連線中斷或接收器失去辨識",
+    "detail": "原版Viper V3 Pro非V3 HyperSpeed／V2／SE；顏色不是獨立收錄變體，但回報未都寫區域SKU或顏色，不宣稱已確認黑色特定批次或共同硬體根因。四位Insider加兩位Reddit，僅集中相同連線/辨識症狀，不混入追蹤、按鍵、充電或其他世代以湊數。 本批保守六位，網路自選回報不代表故障率或已證實共同根因。",
+    "reportCount": 6,
+    "sources": [
+      {
+        "platform": "Razer Insider",
+        "title": "Viper V3 Pro 黑色 35K 非SE — TownPablo 原始回報",
+        "url": "https://insider.razer.com/razer-support-45/mouse-randomly-stop-working-razer-viper-v3-pro-87204",
+        "authors": [
+          "TownPablo"
+        ],
+        "evidenceSnippet": "2026-03-15自述Viper V3 Pro約每十分鐘斷線；後續接收器可被Windows識別但鼠不連線、有線也未即時識別，等待數分鐘恢復且電量90%，換USB口及韌體更新仍持續。"
+      },
+      {
+        "platform": "Razer Insider",
+        "title": "Viper V3 Pro 黑色 35K 非SE — autoZaffrenexus116 原始回報",
+        "url": "https://insider.razer.com/razer-support-45/issue-viper-v3-pro-wireless-mode-87233",
+        "authors": [
+          "autoZaffrenexus116"
+        ],
+        "evidenceSnippet": "2026-03-16自述無線模式週期性短暫關閉數毫秒，明顯干擾操作；客服次日確認其Viper V3 Pro dongle連線問題。"
+      },
+      {
+        "platform": "Razer Insider",
+        "title": "Viper V3 Pro 黑色 35K 非SE — miztersex 原始回報",
+        "url": "https://insider.razer.com/razer-support-45/viper-v3-pro-issue-disconnecting-66740",
+        "authors": [
+          "miztersex"
+        ],
+        "evidenceSnippet": "2024-08-25明說自己全新約三天的Viper V3 Pro頻繁斷接或停止工作，更新韌體沒有解決。"
+      },
+      {
+        "platform": "Razer Insider",
+        "title": "Viper V3 Pro 黑色 35K 非SE — the_yutman 原始回報",
+        "url": "https://insider.razer.com/razer-support-45/razer-viper-v3-pro-keeps-disconnecting-85434",
+        "authors": [
+          "the_yutman"
+        ],
+        "evidenceSnippet": "2026-01-07自述買兩週的Viper V3 Pro原本正常，數日前開始隨機斷線2至30秒，頻率持續增加。"
+      },
+      {
+        "platform": "Reddit",
+        "title": "Viper V3 Pro 黑色 35K 非SE — JayThaPistola 原始回報",
+        "url": "https://www.reddit.com/r/razer/comments/1q39nqw/deathadder_v4_pro_problem/",
+        "authors": [
+          "JayThaPistola"
+        ],
+        "evidenceSnippet": "在DeathAdder討論下明確另說自己擁有Viper V3 Pro，電量幾乎滿時仍在遊戲隨機斷線。"
+      },
+      {
+        "platform": "Reddit",
+        "title": "Viper V3 Pro 黑色 35K 非SE — Omrops40 原始回報",
+        "url": "https://www.reddit.com/r/MouseReview/comments/1rocxui/",
+        "authors": [
+          "Omrops40"
+        ],
+        "evidenceSnippet": "本人V3 Pro用了六個月正常，HyperPolling接收器突然不被PC識別，換另一電腦仍相同，目前只能有線使用。"
+      }
+    ]
+  },
+  {
+    "id": "keyboard-razer-ornata-v3-x",
+    "checkedAt": "2026-08-31",
+    "summary": "已核對同款 Ornata V3 X 薄膜完整版至少7位獨立使用者、跨Reddit與Razer Insider回報，涉及WASD、Space、Caps Lock等特定複鍵組合；官方亦明示無key rollover。這是功能限制與使用風險，不宣稱所有鍵都不能三鍵同按，也不把V3非X、清潔後連發或軟體Alt問題混算。",
+    "title": "特定複鍵組合漏輸入／按鍵衝突",
+    "detail": "人工逐人確認Reddit 2位與Razer Insider 5位均明說自用Ornata V3 X完整薄膜版，特定WASD／Space／Caps Lock組合的輸入會遺漏；不併V3非X或清潔後連發。官方技術表與客服亦明示無key rollover，是遊戲組合鍵能力限制而非所有三鍵都必失效，不能據此推定每批故障率。重視複雜同按操作者宜改選具明確KRO能力的鍵盤。",
+    "reportCount": 7,
+    "sources": [
+      {
+        "platform": "Reddit",
+        "title": "Razer Ornata V3 X ghosting for 3-keys",
+        "url": "https://www.reddit.com/r/razer/comments/x034bi/razer_ornata_v3_x_ghosting_for_3keys/",
+        "authors": [
+          "encee222"
+        ],
+        "evidenceSnippet": "正文明确本人V3 X，Windows/Linux及Space+W+Q漏輸入，後續回覆同人不重計。"
+      },
+      {
+        "platform": "Reddit",
+        "title": "Ornata V3 X",
+        "url": "https://www.reddit.com/r/razer/comments/17m1rps/ornata_v3_x/",
+        "authors": [
+          "killerskrr"
+        ],
+        "evidenceSnippet": "原評論明確V3 X、比較WA+N失效而WD+N可，結尾本人退貨。comment獨立URLwebtimeout但全文在父原頁可見，非搜尋摘要。"
+      },
+      {
+        "platform": "Razer Insider",
+        "title": "Pressing more than 3 keys simultaneously is not supported on the Razer Ornata V3 X",
+        "url": "https://insider.razer.com/razer-support-45/pressing-more-than-3-keys-simultaneously-is-not-supported-on-the-razer-ornata-v3-x-87379",
+        "authors": [
+          "Timaus"
+        ],
+        "evidenceSnippet": "標題與tag明確Ornata V3 X，自己Dota2/CS2/Arma3使用三鍵後第四鍵失效並說替代鍵盤沒問題，非轉述。"
+      },
+      {
+        "platform": "Razer Insider",
+        "title": "Razer Ornata V3 X keyboard issue",
+        "url": "https://insider.razer.com/razer-support-45/razer-ornata-v3-x-keyboard-issue-49656",
+        "authors": [
+          "infoheadTealGreen951"
+        ],
+        "evidenceSnippet": "原PO標題V3 X、自己Fifa複鍵L不認；DeezNutez失效/拔插是不同症狀不併算，客服不計。"
+      },
+      {
+        "platform": "Razer Insider",
+        "title": "The most ridicilous defect with Razer Ornata V3X",
+        "url": "https://insider.razer.com/razer-support-45/the-most-ridicilous-defect-with-razer-ornata-v3x-50443",
+        "authors": [
+          "Inchwormhomehead563"
+        ],
+        "evidenceSnippet": "正文明确自己Razer Ornata V3 X及QW第三鍵失效；官方Razer.Aero隔日說no key rollover是預期行為，客服不計入作者。"
+      },
+      {
+        "platform": "Razer Insider",
+        "title": "Razer Ornata V3 ghosting",
+        "url": "https://insider.razer.com/keyboards-8/razer-ornata-v3-ghosting-39028",
+        "authors": [
+          "emay_",
+          "Jigsaw_Actual"
+        ],
+        "evidenceSnippet": "混V3論壇中只採此明說自購V3X者，列TABWR及AWE不動，不用其他V3非X多數留言。；明說自購V3X，CapsLock單鍵正常而按住時其他鍵失效；兩筆電多USB且關Synapse仍重現，沒有液體或髒污；同作者長文只算一人。"
+      }
+    ]
+  },
+  {
+    "id": "soundbar-klipsch-flexus-core-200",
+    "checkedAt": "2026-08-31",
+    "summary": "多位 Flexus Core 200 使用者回報有線重低音輸出出現間歇爆音或敲擊聲；部分換機後改善，也有換機後復發的回報。",
+    "title": "有線重低音輸出間歇爆音／敲擊聲",
+    "detail": "2026-08-31 逐人覆核 Reddit 5 位與 Best Buy 2 位獨立使用者，共 7 人回報 Core 200 有線重低音輸出異常。有人更換線材或不同重低音仍重現；部分保固換機後改善，另有復發案例。這是同型號症狀回報，不能據此推定故障率、所有批次都受影響或已確定內部故障零件。購前確認退換貨及保固，若要外接有線重低音，需用實際訊源長時間測試。",
+    "reportCount": 7,
+    "sources": [
+      {
+        "platform": "Reddit",
+        "title": "Clicks and pops come from Flexus Core 200 after connecting rear satellites via wireless",
+        "url": "https://www.reddit.com/r/Klipsch/comments/1hx317y/clicks_and_pops_come_from_flexus_core_200_after/",
+        "authors": [
+          "Strong_Salt000",
+          "pelletjunky",
+          "First-Independent671",
+          "PracticalGovernment4",
+          "homagcncguy"
+        ],
+        "evidenceSnippet": "五位作者皆明確回報 Core 200 的有線重低音爆音；沒有把樓主的數位啁啾、無線重低音及後環繞症狀混入。"
+      },
+      {
+        "platform": "Best Buy",
+        "title": "Klipsch Flexus CORE 200 3.1.2 Soundbar customer reviews",
+        "url": "https://www.bestbuy.com/product/klipsch-flexus-core-200-3-1-2-soundbar-black/JX44FCZPQ7/sku/6580304/reviews",
+        "authors": [
+          "JOHND",
+          "Alex"
+        ],
+        "evidenceSnippet": "Chrome 在 exact Core 200 SKU 6580304 的 Search Reviews 搜尋 popping，親讀 JOHND 與 Alex 的兩則原始購買者回報；兩人皆標示 Verified Purchaser／Incentivized。"
+      }
+    ]
+  },
+  {
+    "id": "soundbar-asus-rog-gjallar",
+    "checkedAt": "2026-08-31",
+    "summary": "多位 ROG Gjallar 使用者回報無線重低音會間歇斷線、低頻消失後重新連線；官方已提供更新工具，仍須確認個別設備改善。",
+    "title": "無線重低音間歇斷線與重連",
+    "detail": "以 Mobile01 與 ASUS ZenTalk 6 位逐人覆核的獨立使用者為保守樣本。官方已提供 Firmware Update Tool v1.00.15，2026-08-20 FAQ 亦要求更新韌體；部分使用者表示改善，但不能推定所有批次、訊源與環境均已解決。購買前確認更新與退換貨條件，到貨後測試低音連線穩定性。",
+    "reportCount": 6,
+    "sources": [
+      {
+        "platform": "Mobile01",
+        "title": "【開箱】ROG Gjallar電競soundbar",
+        "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7285601",
+        "authors": [
+          "老何"
+        ],
+        "evidenceSnippet": "第5樓老何描述自己的重低音連線間歇中斷。"
+      },
+      {
+        "platform": "Mobile01",
+        "title": "【開箱】ROG Gjallar電競soundbar（第2頁）",
+        "url": "https://www.mobile01.com/topicdetail.php?f=348&p=2&t=7285601",
+        "authors": [
+          "LuIsAnDrUw",
+          "ROGYES"
+        ],
+        "evidenceSnippet": "第17樓及其留言兩位獨立使用者描述重低音反覆斷線，並各自測試移除鍵鼠接收器或僅用手機藍牙。"
+      },
+      {
+        "platform": "ASUS ZenTalk",
+        "title": "Rog gjallar",
+        "url": "https://zentalk.asus.com/t5/%E9%9F%B3%E6%95%88%E5%8D%A1-dac/rog-gjallar/td-p/510259",
+        "authors": [
+          "zza",
+          "jacoblin3067260"
+        ],
+        "evidenceSnippet": "首樓zza與jacoblin3067260分別描述重低音斷開重連、紅藍燈狀態與FAQ無法排除的情形。"
+      },
+      {
+        "platform": "ASUS ZenTalk",
+        "title": "Rog gjallar（第2頁）",
+        "url": "https://zentalk.asus.com/t5/%E9%9F%B3%E6%95%88%E5%8D%A1-dac/rog-gjallar/m-p/510334/highlight/true",
+        "authors": [
+          "老詹9981"
+        ],
+        "evidenceSnippet": "老詹9981移動路由器、只留2.4GHz仍重現相同低音斷連。"
+      }
+    ]
   },
   {
     id: "wifi-unifi-u7-pro-max",
-    summary: "多位同型號使用者回報 2.4GHz IoT 裝置會出現 DHCP／DNS timeout、高封包遺失或斷線重連。",
+    checkedAt: "2026-08-31",
+    summary: "多位 U7 Pro Max 使用者曾回報 2.4GHz IoT 裝置 DHCP／DNS timeout、封包遺失或斷線重連；後續改善程度需依韌體與實際裝置確認。",
     title: "2.4GHz IoT 連線、DHCP／DNS 與封包遺失問題",
-    detail: "智慧家電可能在連上後很快掉線，或出現嚴重封包遺失；建議先以目前穩定韌體及獨立 IoT SSID 實測，再決定大量部署。",
-    reportCount: 8,
+    detail: "2026-08-31 以 6 位型號明確的獨立使用者重核歷史回報。部分後續使用者表示韌體改善，但不能用 U7 Pro 的更新結果代替 Pro Max；官方 7.0.95 公告更明文排除 U7 Pro Max。先確認 Pro Max 適用的穩定韌體，以獨立 IoT SSID 及實際家電測試數日，再決定大量部署。",
+    reportCount: 6,
     sources: [
       {
         platform: "Ubiquiti Community",
@@ -60,15 +635,15 @@ const verifiedRows = [
         platform: "Reddit",
         title: "IoT 2GHz issues on new U7 Pro Max",
         url: "https://www.reddit.com/r/Ubiquiti/comments/1d9peae/iot_2ghz_issues_on_new_u7_pro_max/",
-        authors: ["Spaceman_Splff", "BluThunder2k", "aladd04"],
-        evidenceSnippet: "三位同型號使用者描述 2.4GHz IoT 連線異常，其中一例約有 95% 封包遺失。",
+        authors: ["Spaceman_Splff", "BluThunder2k"],
+        evidenceSnippet: "兩位明確使用 U7 Pro Max／7PM 的作者回報 IoT 斷線；Spaceman_Splff 約有 95% 封包遺失，並撤回早先誤以為更新已修好的判斷。",
       },
       {
         platform: "Reddit",
         title: "IoT devices won't connect to WiFi",
         url: "https://www.reddit.com/r/Ubiquiti/comments/1fnsctj/new_and_some_old_iot_devices_wont_connect_to_wifi/",
-        authors: ["VampireSix", "spford", "Capt_shadab"],
-        evidenceSnippet: "三位使用者回報 IoT 裝置只能短暫連線、隨即斷線或完全無法加入。",
+        authors: ["VampireSix", "Capt_shadab"],
+        evidenceSnippet: "VampireSix 與 Capt_shadab 皆明確寫出自用 U7 Pro Max，回報 IoT 裝置連線後隨即斷開或不能完成設定。",
       },
       {
         platform: "Reddit",
@@ -468,6 +1043,30 @@ const verifiedRows = [
     ],
   },
   {
+    id: "wifi-synology-rt6600ax",
+    checkedAt: "2026-08-29",
+    summary: "多位 RT6600ax 使用者回報 5GHz 無線涵蓋與吞吐異常偏低，近距離或隔一面牆即大幅降速，部分甚至掉線。",
+    title: "5GHz 無線涵蓋與吞吐異常偏低",
+    detail: "回報集中在 2022 年早期韌體；Synology 曾提供小型修補，部分案例改善、另有使用者表示未改善。建議先更新最新穩定 SRM，並在退換貨期以 5GHz-1／5GHz-2、隔牆與遠距離實測。",
+    reportCount: 6,
+    sources: [
+      {
+        platform: "Reddit",
+        title: "RT6600ax HORRIBLE wireless performance compared with RT2600ac",
+        url: "https://www.reddit.com/r/synology/comments/vom2ch/rt6600ax_horrible_wireless_performance_compared/",
+        authors: ["d0cx", "Appropriate_Map_3572", "crismasjay", "PNWalpha", "VoltPug"],
+        evidenceSnippet: "五位 RT6600ax 使用者回報 5GHz 涵蓋與吞吐明顯偏低，部分隔牆或短距離即大幅降速或掉線。",
+      },
+      {
+        platform: "SNBForums",
+        title: "Synology RT6600AX",
+        url: "https://www.snbforums.com/threads/synology-rt6600ax.78823/",
+        authors: ["hyelton"],
+        evidenceSnippet: "使用者比較 RT6600ax 與既有路由器後，回報 5GHz 遠距離涵蓋明顯較弱、難以維持連線。",
+      },
+    ],
+  },
+  {
     id: "wifi-netgear-rs300",
     summary: "多位 RS300 使用者回報路由器會隨機讓有線或無線裝置失去 Internet，部分情況必須斷電重啟。",
     title: "有線與無線裝置隨機失去網路",
@@ -513,9 +1112,9 @@ const verifiedRows = [
   },
   {
     id: "wifi-aruba-ap22",
-    summary: "多位 AP22 使用者回報舊版 3.0.0 韌體會使 iPhone 或 Android 掉線、拒絕重連或顯示密碼錯誤；後續 hotfix 已針對此問題修正。",
+    summary: "多位 AP22 使用者回報舊版 3.0.0 韌體會使 iPhone 或 Android 掉線、拒絕重連或顯示密碼錯誤；官方已發布後續修補，但不宜視為所有環境均已解決。",
     title: "舊版 3.0.0 韌體造成行動裝置斷線與錯誤密碼",
-    detail: "這是 2024 年 3.0.0 版本的歷史韌體災情；HPE 已於 2024-08-23 發布 3.0.0.1 hotfix。購買或部署後應先確認已升級修正版，不代表目前最新版仍必然發生。",
+    detail: "這是 2024 年 3.0.0 的歷史韌體事件。2026-08-31 補核 HPE 公告：3.0.0.1 後仍於 2024-10-14 公告 3.0.0.2，針對 WPA3 異常框架重啟與記憶體洩漏再修補；同串 AP22 使用者仍有不同結果。保留原六人證據日期，不將舊版災情推定為目前最新版必然發生，也不宣稱全面修復。",
     reportCount: 6,
     sources: [
       {
@@ -538,7 +1137,7 @@ const verifiedRows = [
     id: "monitor-dell-aw3225qf",
     summary: "多位 AW3225QF 使用者回報早期包裝保護材會摩擦 OLED 面板，開箱即出現污痕、蜂巢壓痕或微刮痕。",
     title: "包裝保護材造成面板污痕或微刮痕",
-    detail: "部分痕跡無法完全擦除且換貨後仍可能出現；收貨時應在強光下立即檢查整片面板，發現刮痕便在退換貨期內處理。",
+    detail: "這是早期包裝的歷史回報。2026-08-31 補核 Dell 官方 KB 000321630，已明確記載後期 AW3225QF 的可撕保護膜；另有 2024 年 5 月買家確認收到有膜且完好的機器。官方 KB 說明的是撕膜聲音，不能據此推定所有批次刮痕均已排除。保留原逐人證據日期，收貨仍應立即檢查面板並在退換貨期內處理異常。",
     reportCount: 11,
     sources: [
       {
@@ -1220,7 +1819,7 @@ const verifiedRows = [
   },
   {
     id: "robot-ecovacs-t80-omni",
-    checkedAt: "2026-07-11",
+    checkedAt: "2026-08-29",
     summary: "多位 DEEBOT T80 OMNI 使用者跨站回報，拖地後滾筒、機內污水箱或水路容易產生明顯異味，需要頻繁清洗與晾乾。",
     title: "拖地後滾筒／污水路徑異味",
     detail: "回報涵蓋滾筒拖布、機內污水箱與清潔縫隙；部分可藉由清洗、晾乾或清潔錠暫時改善，也有污水未正常排空而送修仍未解決的案例。若對異味敏感，應在退換貨期內連續測試拖地、基站排水與烘乾，並依原廠方式清潔水路。",
@@ -1265,7 +1864,7 @@ const verifiedRows = [
   },
   {
     id: "robot-ecovacs-t90-pro",
-    checkedAt: "2026-08-18",
+    checkedAt: "2026-08-29",
     summary: "多位 DEEBOT T90 PRO OMNI 使用者跨站回報，導航／避障會跳過或拒絕清掃實際可到達的區域。",
     title: "導航／避障跳過可到達區域",
     detail: "回報包含漏掃房間邊緣、整塊地毯、局部區域與可通過的家具兩側，也有物件移走後仍繞開舊位置的情況；部分可透過調整 AIVI、另建區域或重新建圖改善。建議在退換貨期內以全屋不同地面連續測試，確認地圖與實際覆蓋範圍。",
@@ -1317,7 +1916,7 @@ const verifiedRows = [
   },
   {
     id: "monitor-msi-271qrx",
-    checkedAt: "2026-08-18",
+    checkedAt: "2026-08-29",
     summary: "多位 MPG 271QRX 使用者跨站回報，使用中會隨機短暫黑屏，約一至數秒後自行恢復。",
     title: "隨機短暫黑屏後自行恢復",
     detail: "回報涵蓋不同更新率、DisplayPort 與 HDMI 情境，部分換線、更新韌體或調整系統設定後仍發生；現有證據不足以判定單一根因。建議在退換貨期內以實際顯卡、線材、HDR 與更新率長時間測試。",
@@ -1341,7 +1940,7 @@ const verifiedRows = [
   },
   {
     id: "wifi-unifi-u6-pro",
-    checkedAt: "2026-08-18",
+    checkedAt: "2026-08-29",
     summary: "多位 U6 Pro 使用者跨站回報，特定批次在屏蔽網路線或接地金屬安裝下會漏電、產生火花或斷電重啟。",
     title: "特定批次接地／STP 造成漏電、火花或斷電重啟",
     detail: "Ubiquiti 官方公告 2022 年 6 至 8 月製造的特定批次與 STP 網路線不相容，可能持續重啟或無法上電；使用者原頁另記錄外殼／網路線屏蔽帶電、安裝時火花及 PoE 中斷。官方稱後續製造已修正；買二手或舊庫存時仍應核對製造日期，並依現場接地與布線條件測試。",
@@ -1363,10 +1962,93 @@ const verifiedRows = [
       },
     ],
   },
+  {
+    id: "wifi-unifi-u6-pro",
+    checkedAt: "2026-08-29",
+    summary: "多位 U6 Pro 使用者跨站回報，中央燈環蓋會在未受外力時自行脫落，常見固定卡榫或塑膠柱斷裂。",
+    title: "中央蓋／卡榫自行脫落",
+    detail: "回報涵蓋吊頂後約一年半至三年的設備，部分中央蓋落下時砸到人；若仍在保固期應優先申請 RMA，過保設備則需檢查卡榫、避免蓋板再度墜落，並留意自行黏合可能影響後續維修。",
+    reportCount: 8,
+    sources: [
+      {
+        platform: "Reddit",
+        title: "U6-Pro lids falling off — Is this a widespread manufacturing defect?",
+        url: "https://www.reddit.com/r/UNIFI/comments/1qayv1k/u6pro_lids_falling_off_is_this_a_widespread/",
+        authors: ["gregstrawberries", "ArchimedesMP"],
+        evidenceSnippet: "兩位 U6 Pro 使用者回報吊頂且沒有外力的設備中央蓋自行落下，其中一人已有兩台先後發生。",
+      },
+      {
+        platform: "Reddit",
+        title: "Center cap fell out of my U6-Pro",
+        url: "https://www.reddit.com/r/UNIFI/comments/1f4ao57/center_cap_fell_out_of_my_u6pro/",
+        authors: ["JimmyReagan", "scotty83"],
+        evidenceSnippet: "兩位 U6 Pro 使用者回報設備安裝後未再碰觸，中央卡榫仍自行碎裂並讓蓋板脫落。",
+      },
+      {
+        platform: "Reddit",
+        title: "U6 Access Point Cap Broken",
+        url: "https://www.reddit.com/r/Ubiquiti/comments/14mq3bx/u6_access_point_cap_broken/",
+        authors: ["TrevorPerth", "outie2k"],
+        evidenceSnippet: "兩位 U6 Pro 使用者回報固定卡榫無外力斷裂，中央蓋自行掉落，其中一例砸到使用者頭部。",
+      },
+      {
+        platform: "Ubiquiti Community",
+        title: "Unifi U6-Pro Falling Apart",
+        url: "https://community.ui.com/questions/Unifi-U6-Pro-Falling-Apart/f080c0df-d004-47be-8724-d52494b58f5b",
+        authors: ["Statecowboy"],
+        evidenceSnippet: "使用者回報客廳天花板上的 U6 Pro 中央燈環蓋自行掉落，設備剛過保固。",
+      },
+      {
+        platform: "Ubiquiti Community",
+        title: "U6 Pro Cap Broken - COMPLAINT",
+        url: "https://community.ui.com/questions/U6-Pro-Cap-Broken-COMPLAINT/0682ca4d-645b-49db-ac47-5571ffeca795",
+        authors: ["thpap"],
+        evidenceSnippet: "使用者回報 U6 Pro 中央蓋自行從天花板落下，塑膠固定柱已斷裂，過保後 RMA 未獲受理。",
+      },
+    ],
+  },
+  {
+    id: "wifi-asus-rt-be86u",
+    checkedAt: "2026-09-02",
+    summary: "多位 RT-BE86U 使用者回報特定韌體下 Wi-Fi 用戶端或無線電會反覆斷線、重啟，嚴重時需重新開機或降版才暫時恢復。",
+    title: "特定韌體下 Wi-Fi 反覆斷線或無線電重啟",
+    detail: "七位可辨識使用者在 Reddit、ASUS ZenTalk 與 Whirlpool 回報 RT-BE86U 的 Wi-Fi 用戶端、整個無線電或網路服務反覆掉線／重啟；部分案例降版後改善。ASUS 後續韌體說明曾提及改善漫遊、連接埠穩定與部分斷線原因，但不能據此推定所有案例已解決。建議先更新最新穩定版、必要時恢復原廠設定，並於退換貨期內同時壓測 2.4GHz、5GHz、有線連接與 AiMesh。",
+    reportCount: 7,
+    sources: [
+      {
+        platform: "Reddit",
+        title: "After firmware update RT-BE86U randomly disconnects and reconnects",
+        url: "https://www.reddit.com/r/ASUS/comments/1p24n2y/after_firmware_update_rtbe86u_randomly/",
+        authors: ["swfanatic717", "HenrikGustavsson", "J_Bug"],
+        evidenceSnippet: "三位 RT-BE86U 使用者回報特定韌體後網路反覆斷線、Wi-Fi 凍結或重啟，其中有人降版後才恢復穩定。",
+      },
+      {
+        platform: "ASUS ZenTalk",
+        title: "Critical kernel panics / instability by Broadcom Wi-Fi driver bug",
+        url: "https://zentalk.asus.com/t5/networking/critical-kernel-panics-instability-by-broadcom-wi-fi-driver-bug/td-p/494971/page/2",
+        authors: ["VolkovRA"],
+        evidenceSnippet: "RT-BE86U 使用者在 39112 回報個別裝置或整個 Wi-Fi 會斷線並重新啟動，而有線網路維持正常。",
+      },
+      {
+        platform: "ASUS ZenTalk",
+        title: "RT-BE86U Kernel: WLC_SCB_DEAUTHORIZE error -30",
+        url: "https://zentalk.asus.com/t5/networking/rt-be86u-kernel-wlc-scb-deauthorize-error-30/td-p/485994/page/3",
+        authors: ["Hesster92", "RNA"],
+        evidenceSnippet: "兩位 RT-BE86U 使用者回報整體連線掉線、韌體崩潰或重啟，恢復原廠設定與換機仍可能復發。",
+      },
+      {
+        platform: "Whirlpool",
+        title: "ASUS RT-BE86U discussion",
+        url: "https://forums.whirlpool.net.au/archive/3246v0yj",
+        authors: ["Edd"],
+        evidenceSnippet: "RT-BE86U 使用者回報原廠最新韌體下 Wi-Fi 不穩且 LAN4 偶發斷線，約每半小時掉線一次，最後退貨。",
+      },
+    ],
+  },
 ];
 
-if (new Set(verifiedRows.map((row) => row.id)).size !== verifiedRows.length) {
-  throw new Error("Duplicate product IDs in verified product issue evidence");
+if (new Set(verifiedRows.map((row) => `${row.id}\n${row.title}`)).size !== verifiedRows.length) {
+  throw new Error("Duplicate product issue rows in verified product issue evidence");
 }
 
 function verifiedRowCheckedAt(row) {
@@ -1377,18 +2059,23 @@ function verifiedRowCheckedAt(row) {
   return checkedAt;
 }
 
-const verifiedIssueById = new Map(verifiedRows.map((row) => [row.id, {
+const verifiedRowsById = new Map();
+for (const row of verifiedRows) {
+  const rows = verifiedRowsById.get(row.id) || [];
+  rows.push(row);
+  verifiedRowsById.set(row.id, rows);
+}
+
+const verifiedIssueById = new Map([...verifiedRowsById].map(([id, rows]) => [id, {
   status: "common_issue",
-  checkedAt: verifiedRowCheckedAt(row),
-  summary: row.summary,
-  issues: [
-    {
-      title: row.title,
-      detail: row.detail,
-      reportCount: row.reportCount,
-      sources: row.sources.map(({ platform, title, url }) => ({ platform, title, url })),
-    },
-  ],
+  checkedAt: rows.map(verifiedRowCheckedAt).sort().at(-1),
+  summary: rows.map((row) => row.summary).join(""),
+  issues: rows.map((row) => ({
+    title: row.title,
+    detail: row.detail,
+    reportCount: row.reportCount,
+    sources: row.sources.map(({ platform, title, url }) => ({ platform, title, url })),
+  })),
 }]));
 
 if (reportLedger.checkedAt !== CHECKED_AT || !Array.isArray(reportLedger.reports)) {
@@ -1498,7 +2185,7 @@ function sourceReports(row, source) {
   }));
 }
 
-const evidenceById = new Map(verifiedRows.map((row) => [row.id, row.sources.map((source) => {
+const evidenceRowsByRow = new Map(verifiedRows.map((row) => [row, row.sources.map((source) => {
   const reports = sourceReports(row, source);
   return {
     issueTitle: row.title,
@@ -1513,8 +2200,13 @@ const evidenceById = new Map(verifiedRows.map((row) => [row.id, row.sources.map(
   };
 })]));
 
+const evidenceById = new Map();
 for (const row of verifiedRows) {
-  const evidenceRows = evidenceById.get(row.id) || [];
+  evidenceById.set(row.id, [...(evidenceById.get(row.id) || []), ...evidenceRowsByRow.get(row)]);
+}
+
+for (const row of verifiedRows) {
+  const evidenceRows = evidenceRowsByRow.get(row) || [];
   const websites = new Set(evidenceRows.map((evidence) => canonicalWebsite(evidence.url)).filter(Boolean));
   if (websites.size < 2) throw new Error(`Verified issue does not span two independent websites: ${row.id}`);
 

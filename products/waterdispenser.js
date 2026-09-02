@@ -17,7 +17,7 @@
       "currency": "TWD",
       "amount": 9190,
       "converted": 9190,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -72,7 +72,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -174,7 +174,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -221,9 +221,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMAW25A900G453U/000001_1781668075.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 8333,
-      "converted": 8333,
-      "confidence": "Yahoo購物中心 2026-08-19 exact-model 公開結構化價格"
+      "amount": 8590,
+      "converted": 8590,
+      "confidence": "Yahoo購物中心 2026-08-31 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -277,7 +277,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -324,9 +324,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMCI1NA900HIJUW/000001_1782095197.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 9108,
-      "converted": 9108,
-      "confidence": "Yahoo購物中心 2026-08-19 exact-model 公開結構化價格"
+      "amount": 9900,
+      "converted": 9900,
+      "confidence": "Yahoo購物中心 2026-08-31 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -365,9 +365,22 @@
     ],
     "category": "waterdispenser",
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-11",
+      "note": "既有史低證據是相容濾芯／耗材，而不是目標整機；應撤銷 found 並重新查核整機史低。 已撤銷錯誤史低；本輪重新查核仍找不到同型號、同尺寸／容量／規格且可公開驗證的可信新品整機史低。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -402,19 +415,6 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 7990,
-      "currency": "TWD",
-      "converted": 7990,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1274747648&cgp=7990",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【Coway】【Coway】P-150N 奈米超淨化淨水器｜櫥下型｜0.01微米濾芯 需自行安裝",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【Coway】【Coway】P-150N 奈米超淨化淨水器｜櫥下型｜0.01微米濾芯 需自行安裝」最低價為 NT$7,990，最低點日期 2026-08-20。",
-      "sourceKind": "price_history",
-      "confidence": "medium",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -427,9 +427,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMCI0PA900HEQ1J/000001_1756977419.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 12255,
-      "converted": 12255,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 12900,
+      "converted": 12900,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -483,7 +483,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -585,7 +585,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -686,7 +686,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -733,9 +733,10 @@
     "image": "https://cs-a.ecimg.tw/items/DMAC6RA900IUC3J/000001_1761017834.png",
     "price": {
       "currency": "TWD",
-      "amount": 26999,
-      "converted": 26999,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 28980,
+      "converted": 28980,
+      "basis": "retailer_current",
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -772,9 +773,22 @@
     ],
     "category": "waterdispenser",
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "found",
+      "amount": 25500,
+      "currency": "TWD",
+      "converted": 25500,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1269639153&cgp=28999",
+      "sourceTitle": "比價撿便宜：Momo Philips AUT7005 RO 廚下型瞬熱淨水器完整主機價格歷史",
+      "evidenceSnippet": "2026-08-31 以 Philips AUT7005 查詢，卡片1269639153明確對應 Momo RO廚下型瞬熱淨水器(AUT7005)完整主機，轉往Momo14917456；13筆歷史價格點中2026-08-11為NT$25,500，Chrome同卡片歷史圖亦可見此低點。不是相容濾芯，也不是cgp=28999所帶入的查核現價。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-08-31",
+      "note": "採可驗證的Momo同型號完整新品追蹤低點，不保證涵蓋全網或終身最低價；未計信用卡、點數或個人化優惠。限量30台是被追蹤賣場名稱，不代表目前仍有該低價庫存。AUT821/AUT822/AUT823濾芯pid1281366826仍排除，現價另依PChome公開頁。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -809,19 +823,6 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 25500,
-      "currency": "TWD",
-      "converted": 25500,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1269639153&cgp=28999",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Philips 飛利浦】RO 廚下型瞬熱淨水器(AUT7005) 限量30台",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Philips 飛利浦】RO 廚下型瞬熱淨水器(AUT7005) 限量30台」最低價為 NT$25,500，最低點日期 2026-08-11。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -836,7 +837,7 @@
       "currency": "TWD",
       "amount": 16020,
       "converted": 16020,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -889,7 +890,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -990,7 +991,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1092,7 +1093,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1139,9 +1140,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMAWEMA900GDIXH/000001_1774485785.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 18810,
-      "converted": 18810,
-      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 20900,
+      "converted": 20900,
+      "confidence": "PChome 2026-08-31 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1194,7 +1195,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1295,7 +1296,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1344,7 +1345,7 @@
       "currency": "TWD",
       "amount": 25020,
       "converted": 25020,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1383,20 +1384,20 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 25020,
+      "amount": 24464,
       "currency": "TWD",
-      "converted": 25020,
-      "sourceUrl": "https://24h.pchome.com.tw/prod/DMBM2H-A900GH7MW",
-      "sourceTitle": "PChome 商品 API：SAKURA櫻花 廚下觸控式熱飲機 P0563 / 【南紡購物中心】 ★送5%P幣★SAKURA櫻花 廚下觸控式熱飲機 P0563",
-      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「SAKURA櫻花 廚下觸控式熱飲機 P0563 / 【南紡購物中心】 ★送5%P幣★SAKURA櫻花 廚下觸控式熱飲機 P0563」查核價 NT$25,020，低於原先記錄史低。",
+      "converted": 24464,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMAWFM-A900H55UK",
+      "sourceTitle": "PChome 24h 購物：SAKURA 櫻花 廚下觸控式熱飲機(P0563)",
+      "evidenceSnippet": "PChome 24h 購物於 2026-08-21 顯示同型號可信新品公開價 NT$24,464，低於既有史低 NT$25,020。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-10",
-      "note": "採用可信通路同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
+      "checkedAt": "2026-08-21",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1484,9 +1485,22 @@
     ],
     "category": "waterdispenser",
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-11",
+      "note": "未找到 NOBLE CHP-3140N 單機加原廠安裝可公開驗證的可信新品史低；已排除另含美膳雅蒸鮮鍋的不同套裝。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1521,19 +1535,6 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 50830,
-      "currency": "TWD",
-      "converted": 50830,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1260180295&cgp=59800",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Coway】櫥下型冰溫熱智慧淨濾水器(瞬冰瞬熱/五道濾芯/基本安裝/NOBLE CHP-3140N)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Coway】櫥下型冰溫熱智慧淨濾水器(瞬冰瞬熱/五道濾芯/基本安裝/NOBLE CHP-3140N)」最低價為 NT$50,830，最低點日期 2026-06-18。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1549,7 +1550,7 @@
       "currency": "TWD",
       "amount": 30600,
       "converted": 30600,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBE1FA900GSOLN/000001_1698896380.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMCI17-A900I6OFW",
@@ -1595,7 +1596,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1643,9 +1644,9 @@
     "name": "聲控櫥下 RO 瞬熱飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 41220,
-      "converted": 41220,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 45800,
+      "converted": 45800,
+      "confidence": "PChome 2026-08-21 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMCI2FA900JBNK6/000001_1782095017.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMCI2F-A900JBNK6",
@@ -1692,7 +1693,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1791,7 +1792,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1841,7 +1842,7 @@
       "currency": "TWD",
       "amount": 33129,
       "converted": 33129,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMCI0OA900JT66N/000001_1773306819.png",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMCI0O-A900JI1JA",
@@ -1887,7 +1888,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1983,7 +1984,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2031,9 +2032,9 @@
     "name": "廚下型飲用水加熱器",
     "price": {
       "currency": "TWD",
-      "amount": 21150,
-      "converted": 21150,
-      "confidence": "Yahoo購物中心 2026-08-19 exact-model 公開結構化價格"
+      "amount": 23500,
+      "converted": 23500,
+      "confidence": "Yahoo購物中心 2026-08-31 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWB8A900BVEOG/000001_1760685693.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/BWT%E5%BE%B7%E5%9C%8B%E5%80%8D%E4%B8%96-%E6%99%BA%E6%85%A7%E5%9E%8B%E6%AB%A5%E4%B8%8B%E5%8A%A0%E7%86%B1%E5%99%A8-DWH30A-9802406.html",
@@ -2079,7 +2080,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2127,12 +2128,12 @@
     "name": "Circle Reverse Osmosis Water Filtration System",
     "price": {
       "currency": "USD",
-      "amount": 369.99,
-      "converted": 11800,
-      "confidence": "Costco US 2026-07-21 來源價；ExchangeRate-API 2026-08-19 匯率換算"
+      "amount": 289.99,
+      "converted": 9193,
+      "confidence": "Costco US 2026-08-28 exact-model 分類頁折後公開價；ExchangeRate-API 2026-09-01 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/4xjr3phfqx7p9vvxzfhp3jp/100457228-847_chrome_1?auto=webp&format=jpg",
-    "buyUrl": "https://www.costco.com/brondell-circle-reverse-osmosis-water-filtration-system.product.100457228.html",
+    "buyUrl": "https://www.costco.com/p/-/brondell-circle-reverse-osmosis-water-filtration-system/100457228",
     "buyLabel": "Costco US",
     "specs": [
       "廚下/櫥下 RO 淨水系統",
@@ -2162,21 +2163,21 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 289.99,
       "currency": "USD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：BigGo Brondell Circle Reverse Osmosis: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/Brondell%20Circle%20Reverse%20Osmosis/product?p=1；BigGo Circle Reverse Osmosis: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/Circle%20Reverse%20Osmosis/product?p=1。"
+      "converted": 9193,
+      "sourceUrl": "https://www.costco.com/CategoryDisplay?catalogId=10701&identifier=water-dispensers-filtration-water-filtration&storeId=10301",
+      "sourceTitle": "Costco US：Brondell Circle Reverse Osmosis Water Filtration System",
+      "evidenceSnippet": "Costco US exact-model 分類頁於 2026-08-28 顯示 Brondell Circle 折後 US$289.99，原價 US$369.99，優惠 US$80。",
+      "sourceKind": "retailer_promo",
+      "confidence": "medium",
+      "checkedAt": "2026-08-28",
+      "note": "採 Costco US 公開 exact-model 折價作為本次可重現最低觀測價；未含國際運費、進口稅、耗材與台灣安裝／保固風險；依 2026-09-01 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-08-29",
       "summary": "多位 Brondell Circle RC100 使用者反映，使用一段時間後出水量會從正常流量降為涓流或近乎無水。",
       "issues": [
         {
@@ -2266,7 +2267,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2315,9 +2316,9 @@
     "name": "PREMIER 廚下冰溫瞬熱旗艦飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 33120,
-      "converted": 33120,
-      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 36800,
+      "converted": 36800,
+      "confidence": "PChome 2026-08-31 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWI0A900ITF3M/000001_1781688918.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAWI0-A900ITF3M",
@@ -2370,7 +2371,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2456,7 +2457,7 @@
       "窄機身",
       "220V"
     ],
-    "releaseDate": "2024-09-01",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -2472,7 +2473,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2523,7 +2524,7 @@
       "currency": "TWD",
       "amount": 25920,
       "converted": 25920,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWHTA900JVB6I/000001_1775031754.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAWHT-A900JVB6I",
@@ -2574,7 +2575,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2676,7 +2677,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2778,7 +2779,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2881,7 +2882,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2984,7 +2985,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3087,7 +3088,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3189,7 +3190,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3291,7 +3292,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3378,7 +3379,7 @@
       "MIT",
       "需搭淨水器"
     ],
-    "releaseDate": "2025-06-05",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
       "amount": 24999,
@@ -3394,7 +3395,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3483,7 +3484,7 @@
       "非RO",
       "櫥下型"
     ],
-    "releaseDate": "2023-05-12",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -3499,7 +3500,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3605,7 +3606,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3695,7 +3696,7 @@
       "PF-207",
       "廚下型"
     ],
-    "releaseDate": "2026-04-01",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -3711,7 +3712,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3806,7 +3807,7 @@
       "110V",
       "櫥下型"
     ],
-    "releaseDate": "2026-03-02",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -3822,7 +3823,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3929,7 +3930,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3962,6 +3963,99 @@
           "query": "\"Rinnai RWP-H300\" problem issue defect failure broken 災情 故障 異常",
           "queryUrl": "https://www.youtube.com/results?search_query=%22Rinnai%20RWP-H300%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
           "targetHost": "youtube.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "waterdispenser-buder-bd-3006bf-ro",
+    "category": "waterdispenser",
+    "rank": 40,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Buder",
+    "model": "BD-3006BF-RO",
+    "name": "BD-3006BF 冷水煮沸飲水機＋RO-2604 逆滲透系統",
+    "price": {
+      "currency": "TWD",
+      "amount": 44712,
+      "converted": 44712,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "basis": "retailer_current"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMAWFHA900F2DDI/000001_1692262957.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAWFH-A900F2DDI",
+    "buyLabel": "PChome 24h",
+    "installation": {
+      "status": "included_basic",
+      "note": "PChome exact-model 頁明載免費標準安裝；水源、電源與排水需在 3m 內，建議水壓 2–3 kg/cm²，偏遠地區、特殊樓層或超出標準施工範圍可能加價，離島不提供安裝。"
+    },
+    "specs": [
+      "櫥下型／五道 RO 逆滲透過濾；冷水為煮沸後冷卻",
+      "熱水槽 3.6L；溫水槽 3.6L",
+      "加熱器尺寸：寬 20 x 深 42 x 高 44.5 cm（±1%）",
+      "四合一龍頭尺寸：寬 15.5 x 深 4.5 x 高 31.5 cm；旋轉半徑 22 cm",
+      "RO 主機尺寸：寬 26 x 深 20 x 高 47 cm；壓力桶直徑 28 x 高 40 cm",
+      "重量：查不到",
+      "AC 110V／750W；安裝前需確認水源、排水、插座與 2–3 kg/cm² 水壓"
+    ],
+    "description": "普德 BD-3006BF-RO 把 RO-2604 逆滲透、熱水、溫水與煮沸後冷水整合在櫥下，PChome 公司貨頁並明列兩年保固與免費標準安裝。",
+    "pros": [
+      "補足站內缺少的台灣老牌 Buder，exact model、公開現價與新品庫存可重現",
+      "冷水先煮沸再冷卻，並整合 3.6L 熱水與 3.6L 溫水槽",
+      "110V、兩年原廠保固及標準安裝邊界公開"
+    ],
+    "cons": [
+      "主機、RO 系統與壓力桶共占多個櫥下空間，需先依分件尺寸丈量",
+      "有儲水槽與壓力桶，不是無桶瞬熱型；濾芯更換與槽體清潔需列入長期成本",
+      "來源未公開淨重；偏遠、特殊樓層或超過 3m 的水電排水施工可能加價"
+    ],
+    "bestFor": "希望以 110V 櫥下系統整合 RO、熱水、溫水與煮沸冷水，並重視台灣品牌安裝與售後的家庭。",
+    "recommendation": "Buder 品牌補充推薦：資料完整度足以比較，但下單前仍應以分件尺寸確認櫥下空間、壓力桶位置、水壓及免費標準安裝範圍。",
+    "score": 88,
+    "voltage": "AC 110V／750W；需就近安全插座，並依安裝頁確認水源、排水與水壓",
+    "warranty": "原廠保固 2 年；以 PChome exact-model 公司貨頁及原廠保固條款為準",
+    "tags": [
+      "Buder",
+      "RO逆滲透",
+      "冷水煮沸",
+      "三溫",
+      "110V",
+      "含標準安裝",
+      "櫥下型"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-20",
+      "note": "已查 PChome exact-model 新品頁與 SKU API、BigGo、FindPrice、LBJ 的 BD-3006BF-RO exact-model 查詢；PChome 現價 NT$49,680 只證明本次通路現價，未取得具日期且可重現的同型號可信新品歷史最低點，因此不以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-29",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"BD-3006BF-RO\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22BD-3006BF-RO%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"BD-3006BF-RO\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22BD-3006BF-RO%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
         }
       ]
     }

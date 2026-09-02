@@ -17,9 +17,9 @@
     "name": "27L 蒸烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 14000,
-      "converted": 14000,
-      "confidence": "PChome 2026-08-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 14310,
+      "converted": 14310,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ02A900G62BM/000001_1756899692.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ02-A900G62BM",
@@ -67,7 +67,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -115,12 +115,13 @@
     "name": "26L 8 合 1 變頻氣炸蒸烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 17766,
-      "converted": 17766,
-      "confidence": "Yahoo購物中心 2026-08-14 exact-model 公開結構化價格"
+      "amount": 17955,
+      "converted": 17955,
+      "basis": "retailer_current",
+      "confidence": "2026-08-31 16:38 台灣時間人工核對Yahoo同SKU11705976雲霧白MWP269TMT，公開95折主價NT$17,955（原NT$18,900），單台達滿699門檻；活動浮層至2026-09-15 09:59，立即購買與加入購物車可用。排除已到期94折、點數及銀行回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ02A900J1WEX/000001_1753093870.jpg",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool-%E6%83%A0%E8%80%8C%E6%B5%A6-26L-MWP269TMT-%E9%9B%B2%E9%9C%A7%E7%99%BD-%E8%AE%8A%E9%A0%BB%E6%B0%A3%E7%82%B8%E8%92%B8%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-8%E5%90%881-Chef-12003584.html",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool%E6%83%A0%E8%80%8C%E6%B5%A6-Coloris%E7%B3%BB%E5%88%97-26%E5%85%AC%E5%8D%878%E5%90%88%E4%B8%80%E5%85%A8%E8%83%BD%E8%AE%8A%E9%A0%BB%E6%B0%A3%E7%82%B8%E8%92%B8%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-%E9%9B%B2%E9%9C%A7%E7%99%BD-MWP2-11705976.html",
     "buyLabel": "Yahoo購物中心",
     "specs": [
       "26L",
@@ -165,7 +166,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -263,7 +264,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -361,7 +362,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -410,8 +411,8 @@
     "price": {
       "currency": "USD",
       "amount": 499.95,
-      "converted": 15945,
-      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-08-19 匯率換算"
+      "converted": 15848,
+      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-09-01 匯率換算"
     },
     "image": "https://assets.breville.com/cdn-cgi/image/width=1300,format=auto/BOV950/BOV950BSS1BUS1/pdp3.png?pdp=",
     "buyUrl": "https://www.breville.com/en-us/product/bov950",
@@ -459,7 +460,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -507,9 +508,11 @@
     "name": "微波大師 27L 氣炸烤箱微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 8990,
-      "converted": 8990,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 8630,
+      "converted": 8630,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "basis": "retailer_current",
+      "note": "2026-08-31 Chrome核對PChome同SKU公開折扣價；促銷限時，未扣會員券、點數或信用卡回饋，結帳前請再確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ02A900I9LQ2/000001_1782379010.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ02-A900I9LQ2",
@@ -557,7 +560,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -655,7 +658,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -703,13 +706,13 @@
     "name": "30L 蒸氣烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 27900,
-      "converted": 27900,
-      "confidence": "Yahoo購物中心 2026-08-14 exact-model 公開結構化價格"
+      "amount": 27342,
+      "converted": 27342,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ7P1900HCI3E/000001_1782972848.jpg",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-30L%E5%B9%B3%E5%8F%B0%E5%BC%8F%E8%AE%8A%E9%A0%BB%E8%92%B8%E7%83%98%E7%83%A4%E5%BE%AE%E9%9B%BB%E8%85%A6%E5%BE%AE%E6%B3%A2%E7%88%90-NN-BS1700-9469543.html",
-    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ02-A900FP6N8",
+    "buyLabel": "PChome 24h",
     "specs": [
       "30L",
       "尺寸：寬 49.4 x 深 48.6 x 高 37 cm",
@@ -753,7 +756,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -851,7 +854,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -949,7 +952,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-20",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -997,9 +1000,10 @@
     "name": "25 公升獨立式蒸烤爐",
     "price": {
       "currency": "TWD",
-      "amount": 9400,
-      "converted": 9400,
-      "confidence": "Yahoo購物中心 2026-07-21 頁面公開價"
+      "amount": 9500,
+      "converted": 9500,
+      "basis": "retailer_current",
+      "confidence": "2026-08-31 16:32 台灣時間人工核對Yahoo同SKU9918063 WSO2500B，公開95折主價NT$9,500（原NT$9,999），單台達滿699門檻；活動浮層至2026-09-15 09:59，立即購買與加入購物車可用。排除點數、贈品及銀行回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ6QA900EO5DH/000001_1704094465.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool%E6%83%A0%E8%80%8C%E6%B5%A6-25%E5%85%AC%E5%8D%87%E7%8D%A8%E7%AB%8B%E5%BC%8F%E8%92%B8%E7%83%A4%E7%88%90-WSO2500B-9918063.html",
@@ -1047,7 +1051,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1145,7 +1149,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-20",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1228,9 +1232,22 @@
       "省空間"
     ],
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Panasonic NU-SC180B: 樂天市場 - Panasonic授權新北新莊淯麒電器 Panasonic授權新北新莊淯麒電器 現貨領券獨家最高9折 Panasonic 蒸氣烘烤爐NU-SC180B 型號/規格不相符；LBJ Panasonic NU-SC180B: Momo富邦購物 (店+)【Panasonic 國際牌】Panasonic國際牌20公升蒸氣烘烤爐NU-SC180B 型號/規格不相符；LBJ Panasonic NU-SC180B: 樂天市場 - Panasonic授權新竹東區誼鴻電器 Panasonic授權新竹東區誼鴻電器 Panasonic 蒸氣烘烤爐NU-SC180B 型號/規格不相符。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1265,19 +1282,6 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 9499,
-      "currency": "TWD",
-      "converted": 9499,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1250397092&cgp=10490",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Panasonic 國際牌】20L蒸氣烘烤爐(NU-SC180B)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Panasonic 國際牌】20L蒸氣烘烤爐(NU-SC180B)」最低價為 NT$9,499，最低點日期 2026-06-19。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1341,7 +1345,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1439,7 +1443,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1537,7 +1541,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1635,7 +1639,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-20",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1683,9 +1687,10 @@
     "name": "過熱水蒸氣烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 21534,
-      "converted": 21534,
-      "confidence": "Yahoo購物中心 2026-07-21 頁面公開價"
+      "amount": 21763,
+      "converted": 21763,
+      "basis": "retailer_current",
+      "confidence": "Yahoo購物中心 2026-08-31 下午人工核對 MROS800AT 公開95折現價 NT$21,763，單台達滿699門檻；活動至2026-09-15 09:59，未扣點數或銀行回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ031900I80DM/000001_1778655849.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/HITACHI-%E6%97%A5%E7%AB%8B-%E9%81%8E%E7%86%B1%E6%B0%B4%E8%92%B8%E6%B0%A3%E7%83%98%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-%E7%88%B5%E8%89%B2%E9%BB%91-MROS800AT-11995105.html",
@@ -1733,7 +1738,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1781,9 +1786,10 @@
     "name": "過熱水蒸氣烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 45748,
-      "converted": 45748,
-      "confidence": "Yahoo購物中心 2026-07-21 頁面公開價"
+      "amount": 46235,
+      "converted": 46235,
+      "basis": "retailer_current",
+      "confidence": "Yahoo購物中心 2026-08-31 下午人工核對 MROBK5000AT 公開95折現價 NT$46,235，單台達滿699門檻；活動至2026-09-15 09:59，未扣點數或銀行回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ5PA900GN8PM/000001_1750840663.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/HITACHI-%E6%97%A5%E7%AB%8B-%E9%81%8E%E7%86%B1%E6%B0%B4%E8%92%B8%E6%B0%A3%E7%83%98%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-MROBK5000AT-11995474.html",
@@ -1831,7 +1837,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1881,7 +1887,9 @@
       "currency": "TWD",
       "amount": 41724,
       "converted": 41724,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "basis": "retailer_current",
+      "note": "2026-08-31 Chrome核對PChome同SKU公開折扣價；促銷限時，未扣會員券、點數或信用卡回饋，結帳前請再確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900H5125/000001_1783054719.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM0G-A900H5125",
@@ -1929,7 +1937,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2027,7 +2035,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2128,7 +2136,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2229,7 +2237,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2278,9 +2286,10 @@
     "name": "Crispi 5.5qt 氣炸微波爐",
     "price": {
       "currency": "USD",
-      "amount": 449.99,
-      "converted": 14351,
-      "confidence": "SharkNinja 美國官方 2026-07-21 商品頁現貨價；ExchangeRate-API 2026-08-19 匯率換算"
+      "amount": 399.99,
+      "converted": 12680,
+      "confidence": "2026-08-31 人工核對 SharkNinja 美國官方 MW101 公開可購主價 USD 399.99；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-09-01 匯率換算",
+      "basis": "retailer_current"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/MW101_01.jpg",
     "buyUrl": "https://www.sharkninja.com/ninja-crispi-microwave/MW101.html",
@@ -2334,7 +2343,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2439,7 +2448,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [

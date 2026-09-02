@@ -92,6 +92,10 @@ function productAnchor(productId) {
   return `product-${String(productId).replace(/[^a-zA-Z0-9_-]/g, "-")}`;
 }
 
+function catalogProductAnchor(productId) {
+  return `catalog-${productAnchor(productId)}`;
+}
+
 function historicalLowText(product) {
   const historicalLow = product.historicalLow || {};
   if (product.price?.basis === "official_suggested") {
@@ -127,6 +131,12 @@ function issueResearchText(product) {
     .map((issue) => `${issue.title}，${issue.reportCount} 位獨立使用者反映`)
     .join("；");
   return `${summary}${details ? `；${details}` : ""}（查核日：${research.checkedAt || "未標示"}）。`;
+}
+
+function prioritizedSpecs(product) {
+  if (!MEASUREMENT_PRIORITY_CATEGORIES.has(product.category)) return product.specs;
+  const measurements = product.specs.filter((item) => /^(尺寸|重量)：/.test(item));
+  return [...measurements, ...product.specs.filter((item) => !/^(尺寸|重量)：/.test(item))];
 }
 
 function validateGuides(categories) {
@@ -204,7 +214,7 @@ function homepageStructuredData(categories, products, meta) {
   };
 }
 
-function categoryStructuredData(category, topFive, meta, description) {
+function categoryStructuredData(category, products, meta, description) {
   const url = categoryUrl(category.id);
   const heading = categoryPageHeading(meta.dataDate.slice(0, 4), category.label);
   return {
@@ -221,7 +231,7 @@ function categoryStructuredData(category, topFive, meta, description) {
         isPartOf: { "@id": `${SITE_URL}#website` },
         publisher: { "@id": `${SITE_URL}#editorial-team` },
         breadcrumb: { "@id": `${url}#breadcrumb` },
-        mainEntity: { "@id": `${url}#recommendations` },
+        mainEntity: { "@id": `${url}#catalog` },
       },
       {
         "@type": "BreadcrumbList",
@@ -233,18 +243,18 @@ function categoryStructuredData(category, topFive, meta, description) {
       },
       {
         "@type": "ItemList",
-        "@id": `${url}#recommendations`,
-        name: `${category.label}前 5 名比較清單`,
-        numberOfItems: topFive.length,
-        itemListElement: topFive.map((product, index) => ({
+        "@id": `${url}#catalog`,
+        name: `${category.label}完整比較清單`,
+        numberOfItems: products.length,
+        itemListElement: products.map((product, index) => ({
           "@type": "ListItem",
           position: index + 1,
           item: {
             "@type": "Thing",
-            "@id": `${url}#${productAnchor(product.id)}`,
-            url: `${url}#${productAnchor(product.id)}`,
+            "@id": `${url}#${catalogProductAnchor(product.id)}`,
+            url: `${url}#${catalogProductAnchor(product.id)}`,
             name: `${product.brand} ${product.model}`,
-            description: product.recommendation,
+            identifier: product.model,
           },
         })),
       },
@@ -282,12 +292,7 @@ function productMarkup(product, index) {
   const sourceAction = officialSuggested ? "查看官方資料" : "查看價格來源";
   const pros = product.pros.map((item) => `<li>${escapeHtml(item)}</li>`).join("");
   const cons = product.cons.map((item) => `<li>${escapeHtml(item)}</li>`).join("");
-  const measurementSpecs = product.specs.filter((item) => /^(尺寸|重量)：/.test(item));
-  const otherSpecs = product.specs.filter((item) => !/^(尺寸|重量)：/.test(item));
-  const prioritizedSpecs = MEASUREMENT_PRIORITY_CATEGORIES.has(product.category)
-    ? [...measurementSpecs, ...otherSpecs]
-    : product.specs;
-  const specs = prioritizedSpecs
+  const specs = prioritizedSpecs(product)
     .slice(0, 4)
     .map((item) => `<li>${escapeHtml(item)}</li>`)
     .join("");
@@ -332,16 +337,37 @@ function productMarkup(product, index) {
         </article>`;
 }
 
+function catalogProductMarkup(product, index) {
+  const priceBasis = product.price?.basis === "official_suggested"
+    ? "官方建議售價"
+    : product.price?.basis === "retailer_current"
+      ? "通路現價"
+      : "價格基準未標示";
+  const priceDetail = product.price.currency === "TWD"
+    ? priceBasis
+    : `${formatOriginal(product.price)} 換算 · ${priceBasis}`;
+  return `
+              <li id="${escapeHtml(catalogProductAnchor(product.id))}" class="editorial-catalog-item">
+                <span class="editorial-catalog-rank" aria-label="第 ${index + 1} 名">${String(index + 1).padStart(2, "0")}</span>
+                <div class="editorial-catalog-body">
+                  <h3><span translate="no">${escapeHtml(`${product.brand} ${product.model}`)}</span></h3>
+                  <p class="editorial-catalog-name">${escapeHtml(product.name)}</p>
+                  <p class="editorial-catalog-meta"><strong>${escapeHtml(formatTwd(product.price.converted))}</strong><span>${escapeHtml(priceDetail)}</span><span>上市／發售 ${escapeHtml(product.releaseDate)}</span></p>
+                  <p class="editorial-catalog-description">${escapeHtml(product.description)}</p>
+                </div>
+              </li>`;
+}
+
 function renderCategoryPage(category, categoryProducts, guide, meta, categories) {
-  const topFive = [...categoryProducts]
-    .sort((left, right) => left.rank - right.rank || left.id.localeCompare(right.id))
-    .slice(0, 5);
+  const rankedProducts = [...categoryProducts]
+    .sort((left, right) => left.rank - right.rank || left.id.localeCompare(right.id));
+  const topFive = rankedProducts.slice(0, 5);
   if (topFive.length !== 5) throw new Error(`${category.id} does not have five products for its shortlist`);
   const year = meta.dataDate.slice(0, 4);
   const url = categoryUrl(category.id);
   const title = categoryPageHeading(year, category.label);
   const description = `${year} ${category.label}推薦比較，整理 ${categoryProducts.length} 筆可信新品的價格、規格、優缺點、歷史最低價與負評查核，並提供台灣選購重點與常見問題。`;
-  const structuredData = categoryStructuredData(category, topFive, meta, description);
+  const structuredData = categoryStructuredData(category, rankedProducts, meta, description);
   const criteria = guide.criteria.map((item, index) => `
           <article>
             <span>${String(index + 1).padStart(2, "0")}</span>
@@ -417,6 +443,7 @@ ${jsonLdStringify(structuredData).split("\n").map((line) => `      ${line}`).joi
         </div>
         <nav class="editorial-page-nav" aria-label="本頁導覽">
           <a href="#shortlistHeading">推薦摘要</a>
+          <a href="#catalogHeading">完整型號</a>
           <a href="#buyingGuideHeading">選購重點</a>
           <a href="#faqHeading">常見問題</a>
           <a href="#methodHeading">查核方法</a>
@@ -432,6 +459,14 @@ ${jsonLdStringify(structuredData).split("\n").map((line) => `      ${line}`).joi
         </div>
         <div class="editorial-product-list">${topFive.map(productMarkup).join("")}
         </div>
+      </section>
+      <section class="editorial-section editorial-catalog" aria-labelledby="catalogHeading">
+        <div class="editorial-section-heading">
+          <div><p class="editorial-kicker">Full model index</p><h2 id="catalogHeading">完整型號索引：${rankedProducts.length} 款 ${escapeHtml(category.label)}</h2></div>
+          <p>所有品牌與型號都直接寫在本頁初始 HTML，不需執行 JavaScript；價格、規格與保固仍以來源頁為準。</p>
+        </div>
+        <ol class="editorial-catalog-list">${rankedProducts.map(catalogProductMarkup).join("")}
+        </ol>
       </section>
       <section class="editorial-section editorial-buying-guide" aria-labelledby="buyingGuideHeading">
         <div class="editorial-section-heading">
@@ -522,6 +557,11 @@ ${description}
 - 海外價格未含國際運費、進口稅，並有電壓、插頭與台灣保固風險。
 - 本站的推薦排序與比較分數是專案內部評估，不是消費者星等、專業認證或效果保證。
 - 本檔只是供機器理解網站結構的補充說明，不是正式排名標準，也不保證任何搜尋引擎或 AI 系統收錄、排名或引用。
+
+## 完整型號擷取
+
+- 每個分類指南的初始 HTML 都包含該分類全部商品的品牌、完整型號、名稱、參考價、價格基準、上市／發售日期與摘要，無需執行 JavaScript。
+- 分類頁保留前 5 名詳細推薦，「完整型號索引」則覆蓋該類所有候選；商品事實仍來自同一份分類商品資料。
 
 ## 分類選購指南
 

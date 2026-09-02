@@ -66,7 +66,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -114,9 +114,9 @@
     "name": "特仕版 2.0 人體工學椅",
     "price": {
       "currency": "TWD",
-      "amount": 10900,
-      "converted": 10900,
-      "confidence": "PChome 2026-08-18 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 11900,
+      "converted": 11900,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAKHPA900HEQ4H/000001_1760581993.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAKHP-A900HEQ4H",
@@ -163,7 +163,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -260,7 +260,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -308,9 +308,9 @@
     "name": "T03 NEO 人體工學椅",
     "price": {
       "currency": "TWD",
-      "amount": 8470,
-      "converted": 8470,
-      "confidence": "PChome 2026-08-15 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 8540,
+      "converted": 8540,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900HS19G/000001_1773036067.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4C-A900HS19G",
@@ -357,7 +357,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -405,9 +405,9 @@
     "name": "T05 PLUS 人體工學辦公椅",
     "price": {
       "currency": "TWD",
-      "amount": 15800,
-      "converted": 15800,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 15280,
+      "converted": 15280,
+      "confidence": "PChome 2026-08-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/QABD80A900AS2SD/000001_1773039881.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/QABD80-A900AS2SD",
@@ -454,7 +454,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -535,7 +535,7 @@
       "人體工學",
       "台灣品牌"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2024-01-25",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -551,7 +551,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -599,9 +599,9 @@
     "name": "Fujin 風靈網狀人體工學電競椅",
     "price": {
       "currency": "TWD",
-      "amount": 11691,
-      "converted": 11691,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 11091,
+      "converted": 11091,
+      "confidence": "PChome 2026-08-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBT0KA900GSDTK/000001_1762771347.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBT0K-A900GSDTK",
@@ -633,9 +633,22 @@
       "電競"
     ],
     "releaseDate": "2023-09-21",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Razer Fujin: Momo富邦購物 (店+)【Razer 雷蛇】Razer 雷蛇 Fujin/Fujin Pro 風靈 人體工學電競椅 透氣網布 3D軟墊扶手 電競椅 電腦椅 辦公椅 型號/規格不相符；LBJ Razer Fujin: Momo富邦購物 (店+)【Razer 雷蛇】Razer 雷蛇 Fujin/Fujin Pro 風靈 人體工學電競椅 3D軟墊扶手 透氣網布 辦公椅 電腦椅 電競椅 型號/規格不相符；LBJ Razer Fujin: 蝦皮商城 - PCHOT 線上電競 | 3C旗艦店 Razer 雷蛇 Fujin Headrest 風靈頭枕 透氣立體支撐 人體工學 頭枕 透氣網布 3D曲線設計 型號/規格不相符。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -670,19 +683,6 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 11691,
-      "currency": "TWD",
-      "converted": 11691,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1272849361&cgp=12900",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Razer 雷蛇】Fujin風靈網狀人體工學電競椅/電腦椅(RZ38-04950100-R3U1需自行安裝)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Razer 雷蛇】Fujin風靈網狀人體工學電競椅/電腦椅(RZ38-04950100-R3U1需自行安裝)」最低價為 NT$11,691，最低點日期 2026-04-01。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -745,7 +745,7 @@
     },
     "issueResearch": {
       "status": "common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-08-29",
       "summary": "多位 Iskur V2 使用者反映座墊明顯偏硬或緩衝不足，部分使用者久坐後出現臀部、髖部疼痛或因此退貨。",
       "issues": [
         {
@@ -784,9 +784,9 @@
     "name": "Enki 電競椅",
     "price": {
       "currency": "TWD",
-      "amount": 13410,
-      "converted": 13410,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 12810,
+      "converted": 12810,
+      "confidence": "PChome 2026-08-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAKFOA900BWWGS/000001_1755481797.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAKFO-A900BWWGS",
@@ -833,7 +833,7 @@
     },
     "issueResearch": {
       "status": "common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-08-29",
       "summary": "多位 Razer Enki 使用者反映氣壓棒失效、漏壓、無法維持高度或需更換氣壓棒。",
       "issues": [
         {
@@ -921,7 +921,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1002,7 +1002,7 @@
       "Steelcase",
       "辦公椅"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2023-04-25",
     "historicalLow": {
       "status": "found",
       "amount": 62605,
@@ -1018,7 +1018,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-20",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1115,7 +1115,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1212,7 +1212,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1260,9 +1260,9 @@
     "name": "OC2 SEAT SET 坐躺兩用電腦椅",
     "price": {
       "currency": "TWD",
-      "amount": 2999,
-      "converted": 2999,
-      "confidence": "PChome 2026-08-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 3499,
+      "converted": 3499,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DEBHA6A9007ZPEF/000001_1768553712.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEBHA6-A9007ZPEF",
@@ -1309,7 +1309,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1406,7 +1406,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1456,7 +1456,7 @@
       "currency": "TWD",
       "amount": 5890,
       "converted": 5890,
-      "confidence": "PChome 2026-08-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ0AA900JSBYX/000001_1780972580.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ0A-A900JSBYX",
@@ -1502,7 +1502,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1598,7 +1598,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1646,9 +1646,9 @@
     "name": "透氣皮革工學賽車電競椅",
     "price": {
       "currency": "TWD",
-      "amount": 3280,
-      "converted": 3280,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 3199,
+      "converted": 3199,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ6ZA900HNDMY/000001_1720591564.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ6Z-A900HNDMY",
@@ -1694,7 +1694,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1790,7 +1790,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1886,7 +1886,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1982,7 +1982,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2081,7 +2081,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2180,7 +2180,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2264,10 +2264,23 @@
       "3D扶手",
       "官方通路"
     ],
-    "releaseDate": "2026-07-06",
+    "releaseDate": "2026",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-24",
+      "note": "Orca 為 Backbone 於 2026-07-06 發表的新品；已查官方商品頁、BigGo、FindPrice 與 LBJ，未找到同型號可公開重現且符合可信新品條件的歷史最低價，官方現價 NT$10,800 不直接視為歷史最低價。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2302,19 +2315,6 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 10800,
-      "currency": "TWD",
-      "converted": 10800,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1283993262&cgp=10800",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Backbone】Orca 人體工學椅 (高階電腦椅/透氣全網椅/辦公椅｜無腳踏款)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Backbone】Orca 人體工學椅 (高階電腦椅/透氣全網椅/辦公椅｜無腳踏款)」最低價為 NT$10,800，最低點日期 2026-08-20。",
-      "sourceKind": "price_history",
-      "confidence": "medium",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2328,9 +2328,10 @@
     "name": "T36 人體工學椅",
     "price": {
       "currency": "TWD",
-      "amount": 6641,
-      "converted": 6641,
-      "confidence": "PCPARTY 2026-08-04 exact-model 結構化公開現貨價"
+      "amount": 6470,
+      "converted": 6470,
+      "confidence": "2026-08-31 人工核對 PC PARTY i-Rocks T36 主商品公開特價 NT$6,470；藍、灰、綠三變體同價且非預購，未採會員限定價格。",
+      "basis": "retailer_current"
     },
     "image": "https://img.shoplineapp.com/media/image_clips/6a3bb7831f653f80a5328a3b/original.jpg?1782298499=&owner_id=58463ef36170691735790100",
     "buyUrl": "https://www.pcparty.com.tw/en/products/i-rocks-i-rocks-t36",
@@ -2364,7 +2365,7 @@
       "4D扶手",
       "可調座深"
     ],
-    "releaseDate": "2026-07-01",
+    "releaseDate": "2026",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -2380,7 +2381,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2468,7 +2469,7 @@
       "Class 4",
       "居家工作"
     ],
-    "releaseDate": "2025-08-26",
+    "releaseDate": "2025-10",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -2484,7 +2485,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2516,6 +2517,114 @@
           "platform": "YouTube",
           "query": "\"COUGAR CGR-STD-BLB\" problem issue defect failure broken 災情 故障 異常",
           "queryUrl": "https://www.youtube.com/results?search_query=%22COUGAR%20CGR-STD-BLB%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "chair-sidiz-t50",
+    "category": "chair",
+    "rank": 27,
+    "topPick": false,
+    "budget": "balanced",
+    "channel": "tw",
+    "brand": "SIDIZ",
+    "model": "T50",
+    "name": "T50 高階人體工學椅",
+    "price": {
+      "currency": "TWD",
+      "amount": 8999,
+      "converted": 8999,
+      "confidence": "SIDIZ 台灣官方網站 2026-08-20 公開售價，頁面可選色並加入購物車",
+      "basis": "retailer_current"
+    },
+    "image": "https://www.sidiz.com.tw/cdn/shop/files/SIDIZ_MOMO_T50_5_1200x1200.jpg?v=1699345664",
+    "buyUrl": "https://www.sidiz.com.tw/products/sidiz-t50",
+    "buyLabel": "SIDIZ 台灣官方網站",
+    "installation": {
+      "status": "excluded",
+      "note": "SIDIZ 台灣官方頁提供組裝說明，商品需自行組裝；已組裝商品會影響退貨權益，頁面未把到府組裝列入售價。"
+    },
+    "specs": [
+      "網布椅背、布面泡棉座墊與 S 形背靠",
+      "可調頭枕、腰靠、3D 扶手、座深與座墊傾角",
+      "同步傾仰、多段後傾鎖定與後仰阻力調整",
+      "尺寸：寬 73.5 x 深 48-55 x 高 116-131 cm",
+      "承重：120 kg"
+    ],
+    "description": "SIDIZ T50 是韓國長銷的多調整人體工學椅，補進九千元級、具座深與座墊傾角調整的非電競椅選項。",
+    "pros": [
+      "頭枕、腰靠、扶手、座深與傾仰可調範圍完整",
+      "網背搭配泡棉座墊，兼顧背部通風與坐墊支撐",
+      "台灣官方商城現售並提供五年原廠保固"
+    ],
+    "cons": [
+      "座墊軟硬、腰靠位置與頭枕角度對身形差異敏感，建議先試坐",
+      "需自行組裝，組裝後會影響退貨權益",
+      "人工覆核找到少量 T50 座盤左右晃動與張力旋鈕回報，但只集中於 Reddit，未達跨兩站六位使用者門檻"
+    ],
+    "bestFor": "預算約一萬元，希望有完整座深、腰靠、扶手與同步傾仰調整，並願意先試坐確認身形適配的人。",
+    "recommendation": "中階人體工學品牌補強：調整機能完整且台灣官方現售；不能只看規格下單，最好實際確認座墊、腰靠、頭枕與後仰張力是否適合。",
+    "score": 88,
+    "voltage": "非電器；市電不適用",
+    "warranty": "SIDIZ 台灣官方／官方旗艦店標示五年原廠保固，實際涵蓋零件依保固條款",
+    "tags": [
+      "人體工學椅",
+      "3D扶手",
+      "座深調整",
+      "同步傾仰",
+      "120kg",
+      "韓國品牌"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-20",
+      "note": "已查 SIDIZ 台灣官方商城、官方蝦皮旗艦店、PChome、momo 活動資料與 exact-model 價格搜尋；搜尋到的優惠價缺乏可重現的活動日期或涉及平台即時折扣，未採為可信歷史最低價。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-29",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"SIDIZ T50\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SIDIZ%20T50%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"SIDIZ T50\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SIDIZ%20T50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"SIDIZ T50\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22SIDIZ%20T50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"SIDIZ T50\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22SIDIZ%20T50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"SIDIZ T50\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22SIDIZ%20T50%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
           "targetHost": "youtube.com"
         }
       ]

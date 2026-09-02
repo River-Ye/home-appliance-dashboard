@@ -122,7 +122,7 @@
           </div>
         </div>`;
     }
-    return `<img class="product-image" data-src="${utils.escapeHtml(product.image)}" alt="${brand} ${model}" width="${width}" height="${height}" loading="lazy" decoding="async" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">${fallback}`;
+    return `<img class="product-image" data-src="${utils.escapeHtml(product.image)}" alt="${brand} ${model}" width="${width}" height="${height}" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">${fallback}`;
   }
 
   function specItemMarkup(label, value) {
@@ -247,7 +247,7 @@
     const priceNote = officialSuggested
       ? "台灣官方公開建議售價，非通路成交價"
       : retailerCurrent && product.price.currency === "TWD"
-        ? "台灣通路現價"
+        ? product.channel === "global" ? "海外通路新台幣報價；未含國際運費/進口稅" : "台灣通路現價"
         : retailerCurrent
           ? `${product.price.confidence}，匯率 ${product.price.currency} 轉 TWD；未含國際運費/進口稅`
           : "價格基準未標示，請開啟來源確認";

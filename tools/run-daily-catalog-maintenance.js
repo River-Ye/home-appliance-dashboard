@@ -8,6 +8,7 @@ const {
   isExplicitlyDiscontinued,
   isExplicitlyUnavailable,
   isReviewedPchomeBinding,
+  tokenizedIdentity,
 } = require("./catalog-maintenance-policy");
 const {
   matchesPchomeProductId,
@@ -15,6 +16,8 @@ const {
 } = require("./pchome-product-api");
 const { normalizeExchangeDate } = require("./update-maintenance-metadata");
 const { readDashboardProducts } = require("./read-dashboard-products");
+const { CHECKED_AT } = require("./verified-product-issues");
+const { readEvidenceDocuments, resolveIssueEvidenceDate } = require("./incremental-catalog-audit");
 const {
   buildJapaneseBrandReview,
   sameCatalogIdentity,
@@ -46,6 +49,9 @@ if (WRITE && !/^\d{4}-\d{2}-\d{2}$/.test(MAINTENANCE_DATE)) {
   throw new Error("--write requires --date=YYYY-MM-DD");
 }
 if (WRITE && DRAFT) throw new Error("Choose either --write or --draft");
+if (process.argv.some((argument) => /^--audit-scope(?:=|$)/.test(argument))) {
+  throw new Error("maintain:catalog performs a full audit and does not accept an incremental scope");
+}
 
 function readProductSource(source, filename) {
   let categoryId = null;
@@ -74,7 +80,8 @@ function loadCatalogFromDisk() {
     .map((fileName) => {
       const filePath = path.join(PRODUCT_DIR, fileName);
       const source = fs.readFileSync(filePath, "utf8");
-      return { fileName, filePath, source, ...readProductSource(source, filePath) };
+      const parsed = readProductSource(source, filePath);
+      return { fileName, filePath, source, ...parsed, originalItemsJson: JSON.stringify(parsed.items) };
     });
   const products = categories.flatMap((category) => category.items);
   return { categories, products, productById: new Map(products.map((product) => [product.id, product])) };
@@ -109,8 +116,13 @@ function productFileMarkup(categoryId, products) {
   return `(() => {\n  const dashboard = globalThis.applianceDashboard;\n  if (!dashboard || typeof dashboard.registerProducts !== "function") {\n    throw new Error("appliance dashboard registry is not ready");\n  }\n\n  dashboard.registerProducts(${JSON.stringify(categoryId)}, ${JSON.stringify(products, null, 2)});\n})();\n`;
 }
 
+function categoryProductsChanged(category) {
+  return JSON.stringify(category.items) !== category.originalItemsJson;
+}
+
 function writeChangedCategories(categories) {
   for (const category of categories) {
+    if (!categoryProductsChanged(category)) continue;
     const next = productFileMarkup(category.categoryId, category.items);
     if (next !== category.source) fs.writeFileSync(category.filePath, next);
   }
@@ -183,7 +195,6 @@ async function fetchPage(url) {
     const response = await fetchWithTimeout(url, {
       headers: {
         accept: "text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.5",
-        range: `bytes=0-${TEXT_LIMIT_BYTES - 1}`,
       },
     });
     const contentType = response.headers.get("content-type") || "";
@@ -275,6 +286,19 @@ function pchomeQuantity(record) {
   return Number.isFinite(quantity) ? quantity : null;
 }
 
+function pchomeEvidenceTitle(record, product) {
+  const clean = (value) => String(value || "").replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
+  const titles = [record?.Name, record?.Nick].map(clean).filter(Boolean);
+  const modelTokens = [product?.model, product?.modelPair?.indoor, product?.modelPair?.outdoor, ...(product?.componentModels || [])]
+    .flatMap(tokenizedIdentity)
+    .filter((token) => token.length > 1);
+  const score = (title) => {
+    const titleTokens = new Set(tokenizedIdentity(title));
+    return modelTokens.filter((token) => titleTokens.has(token)).length;
+  };
+  return titles.reduce((best, title) => (score(title) > score(best) ? title : best), titles[0] || clean(product?.name));
+}
+
 function updatePrice(product, amount) {
   const previous = Number(product.price.amount);
   product.price.amount = amount;
@@ -358,7 +382,7 @@ async function auditPchome(product, raw) {
       updatePrice(product, amount);
     }
     if (status === "verified_available" && product.price?.basis !== "official_suggested") {
-      const historicalChange = promoteCurrentHistoricalLow(product, amount, product.buyUrl, String(record.Name || product.name));
+      const historicalChange = promoteCurrentHistoricalLow(product, amount, product.buyUrl, pchomeEvidenceTitle(record, product));
       if (historicalChange) raw.historicalLowChanges.push(historicalChange);
     }
     return true;
@@ -368,20 +392,40 @@ async function auditPchome(product, raw) {
   }
 }
 
-function structuredPriceCandidates(text) {
+function costcoProductId(url) {
+  try {
+    const parsed = new URL(url);
+    return parsed.hostname === "www.costco.com.tw" ? parsed.pathname.match(/\/p\/(\d+)\/?$/)?.[1] || null : null;
+  } catch (_error) {
+    return null;
+  }
+}
+
+function structuredPriceCandidates(text, productUrl) {
   const candidates = [];
-  const add = (amount, currency, source) => {
+  const costcoSku = costcoProductId(productUrl);
+  const activeHtml = text.replace(/<template\b[^>]*>[\s\S]*?<\/template>/gi, " ");
+  const add = (amount, currency, source, availability) => {
     const numeric = Number(String(amount || "").replace(/[,\s]/g, ""));
-    if (Number.isFinite(numeric) && numeric > 0) candidates.push({ amount: numeric, currency: currency || null, source });
+    const validPrice = Number.isFinite(numeric) && numeric > 0;
+    if (validPrice || availability) candidates.push({ amount: validPrice ? numeric : null, currency: currency || null, source, ...(availability ? { availability } : {}) });
   };
-  for (const match of text.matchAll(/<script[^>]+type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)) {
+  for (const match of activeHtml.matchAll(/<script[^>]+type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)) {
     try {
       const queue = [JSON.parse(match[1])];
       while (queue.length) {
         const value = queue.shift();
         if (Array.isArray(value)) queue.push(...value);
         else if (value && typeof value === "object") {
-          if (value.price !== undefined) add(value.price, value.priceCurrency, "json_ld");
+          if (costcoSku) {
+            if (String(value["@type"]).toLowerCase() === "product" && String(value.sku) === costcoSku) {
+              for (const offer of [value.offers].flat().filter(Boolean)) {
+                if (!offer.url || costcoProductId(offer.url) === costcoSku) {
+                  add(offer.price, offer.priceCurrency, "json_ld", offer.availability);
+                }
+              }
+            }
+          } else if (value.price !== undefined) add(value.price, value.priceCurrency, "json_ld", value.availability);
           queue.push(...Object.values(value).filter((item) => item && typeof item === "object"));
         }
       }
@@ -389,10 +433,40 @@ function structuredPriceCandidates(text) {
       // Invalid third-party JSON-LD is ignored and never written automatically.
     }
   }
-  for (const match of text.matchAll(/<(?:meta|input)[^>]+(?:property|itemprop|name)=["'](?:product:price:amount|price)["'][^>]+content=["']([^"']+)["'][^>]*>/gi)) {
-    add(match[1], null, "meta");
+  for (const match of activeHtml.matchAll(/<(?:meta|input)[^>]+(?:property|itemprop|name)=["'](?:product:price:amount|price)["'][^>]+content=["']([^"']+)["'][^>]*>/gi)) {
+    if (!costcoSku) add(match[1], null, "meta");
   }
-  const unique = new Map(candidates.map((candidate) => [`${candidate.currency}:${candidate.amount}`, candidate]));
+  const yahooId = (() => {
+    try {
+      const url = new URL(productUrl);
+      if (url.hostname !== "tw.buy.yahoo.com") return null;
+      return url.searchParams.get("gdid") || url.pathname.match(/-(\d+)\.html$/)?.[1] || null;
+    } catch (_error) {
+      return null;
+    }
+  })();
+  if (yahooId) {
+    try {
+      const state = JSON.parse(activeHtml.match(/<script[^>]+id=["']gqlstate-data["'][^>]*>([\s\S]*?)<\/script>/i)?.[1] || "null");
+      const product = state?.[`Shopping_Product:${yahooId}`];
+      const currentPrice = Number(product?.currentPrice);
+      const promotionPrice = Number(product?.promotionPrice);
+      const publicPromotion = candidates.find((candidate) => candidate.amount === promotionPrice);
+      const expiresToday = product?.promotions?.some(({ __ref }) => (
+        String(state?.[__ref]?.endTs || "").slice(0, 10) === MAINTENANCE_DATE
+        && state?.[__ref]?.rules?.some((rule) => {
+          const percent = String(rule?.discountDescription || "").match(/(\d+(?:\.\d+)?)折/);
+          return percent && Math.round(currentPrice * Number(percent[1]) / 100) === promotionPrice;
+        })
+      ));
+      if (expiresToday && publicPromotion && Number.isFinite(currentPrice) && currentPrice > 0) {
+        return [{ ...publicPromotion, amount: currentPrice, currency: "TWD", source: "yahoo_current_price_same_day_promotion_excluded" }];
+      }
+    } catch (_error) {
+      // Invalid third-party state falls back to the public structured price.
+    }
+  }
+  const unique = new Map(candidates.map((candidate) => [`${candidate.currency}:${candidate.amount}:${candidate.availability || ""}`, candidate]));
   return [...unique.values()];
 }
 
@@ -405,7 +479,8 @@ function trustedStructuredPrice(url, candidates, currency) {
   }
   const trustedHosts = new Set(["tw.buy.yahoo.com", "www.costco.com.tw"]);
   if (!trustedHosts.has(hostname)) return null;
-  const matching = candidates.filter((candidate) => candidate.currency === currency);
+  const matching = candidates.filter((candidate) => candidate.currency === currency && Number.isFinite(candidate.amount) && candidate.amount > 0
+    && (hostname !== "www.costco.com.tw" || /(?:^|\/)(?:InStock|LimitedAvailability|OnlineOnly)$/i.test(candidate.availability || "")));
   const uniqueAmounts = [...new Set(matching.map((candidate) => candidate.amount))];
   return uniqueAmounts.length === 1 ? uniqueAmounts[0] : null;
 }
@@ -415,14 +490,19 @@ async function auditNonPchome(product, raw) {
   let status;
   let exact = false;
   let excluded = false;
+  let priceCandidates = [];
   if (!page.ok) status = page.blocked ? "blocked" : "request_failed";
   else {
     exact = exactProductModelMatch(`${page.title}\n${page.text}`, product);
     excluded = isExcludedListing(page.title);
-    const unavailable = exact && isExplicitlyUnavailable(visiblePageText(page.text));
+    priceCandidates = exact && !excluded ? structuredPriceCandidates(page.text, product.buyUrl) : [];
+    const availability = priceCandidates.map((candidate) => candidate.availability || "");
+    const structuredUnavailable = availability.some((value) => /(?:^|\/)(?:OutOfStock|SoldOut|Discontinued|PreOrder|PreSale|BackOrder)$/i.test(value));
+    const structuredAvailable = availability.some((value) => /(?:^|\/)(?:InStock|LimitedAvailability|OnlineOnly)$/i.test(value));
+    const unavailable = exact && (structuredUnavailable || /^(?:預購|pre[\s-]?order)(?:\s|$)/iu.test(page.title)
+      || (!structuredAvailable && isExplicitlyUnavailable(visiblePageText(page.text))));
     status = excluded ? "excluded_listing" : unavailable ? "tracking_out_of_stock" : exact ? "verified_available" : "model_unverified";
   }
-  const priceCandidates = page.ok && exact && !excluded ? structuredPriceCandidates(page.text) : [];
   const trustedPrice = status === "verified_available"
     ? trustedStructuredPrice(product.buyUrl, priceCandidates, product.price.currency)
     : null;
@@ -498,7 +578,7 @@ async function auditHistoricalSource(product, raw) {
 function exchangeRatesFromPayload(payload) {
   if (payload.result !== "success") throw new Error("Exchange rate payload is incomplete");
   const rates = payload.rates;
-  for (const currency of ["TWD", "GBP", "EUR", "JPY", "CNY", "KRW"]) {
+  for (const currency of ["TWD", "GBP", "EUR", "JPY", "CNY", "HKD", "KRW"]) {
     if (!Number.isFinite(Number(rates?.[currency])) || Number(rates[currency]) <= 0) {
       throw new Error(`Exchange rate payload is missing a positive ${currency} rate`);
     }
@@ -512,6 +592,7 @@ function exchangeRatesFromPayload(payload) {
     EUR_TWD: Number(rates.TWD) / Number(rates.EUR),
     JPY_TWD: Number(rates.TWD) / Number(rates.JPY),
     CNY_TWD: Number(rates.TWD) / Number(rates.CNY),
+    HKD_TWD: Number(rates.TWD) / Number(rates.HKD),
     KRW_TWD: Number(rates.TWD) / Number(rates.KRW),
   };
 }
@@ -555,6 +636,7 @@ function applyExchangeRates(products, exchange, raw, baselineById = new Map()) {
     EUR: exchange.EUR_TWD,
     JPY: exchange.JPY_TWD,
     CNY: exchange.CNY_TWD,
+    HKD: exchange.HKD_TWD,
     KRW: exchange.KRW_TWD,
   };
   for (const product of products) {
@@ -615,6 +697,7 @@ function updateConfig(exchange, productCount, categoryCount, checkedAt) {
     .replace(/EUR_TWD: [^,]+,/, `EUR_TWD: ${exchange.EUR_TWD},`)
     .replace(/JPY_TWD: [^,]+,/, `JPY_TWD: ${exchange.JPY_TWD},`)
     .replace(/CNY_TWD: [^,]+,/, `CNY_TWD: ${exchange.CNY_TWD},`)
+    .replace(/HKD_TWD: [^,]+,/, `HKD_TWD: ${exchange.HKD_TWD},`)
     .replace(/KRW_TWD: [^,]+,/, `KRW_TWD: ${exchange.KRW_TWD},`);
   fs.writeFileSync(filePath, source);
 }
@@ -756,6 +839,7 @@ function syncHistoricalResearch(products, exchange, compact) {
       EUR_TWD: exchange.EUR_TWD,
       JPY_TWD: exchange.JPY_TWD,
       CNY_TWD: exchange.CNY_TWD,
+      HKD_TWD: exchange.HKD_TWD,
       KRW_TWD: exchange.KRW_TWD,
     },
     lastMaintenanceCheckAt: compact.checkedAt,
@@ -782,7 +866,7 @@ function syncHistoricalResearch(products, exchange, compact) {
 function selectPreviousCategoryReview(reports, maintenanceDate) {
   const candidates = reports.filter((report) => {
     const reportDate = report.dataDate;
-    return reportDate === maintenanceDate && Array.isArray(report.categoryScan);
+    return report.auditScope === undefined && reportDate === maintenanceDate && Array.isArray(report.categoryScan);
   });
   if (candidates.length === 0) return { rows: [], sourceCheckedAt: null };
 
@@ -881,7 +965,8 @@ function carriedCategoryReviewMatchesCatalog({
 }
 
 function maintenanceReviewReady(report, maintenanceDate, catalogContext = null) {
-  const structurallyReady = report?.dataDate === maintenanceDate
+  const structurallyReady = report?.auditScope === undefined
+    && report?.dataDate === maintenanceDate
     && Array.isArray(report.categoryScan)
     && report.categoryScan.length > 0
     && report.categoryScan.every((row) => categoryReviewReady(row, report.checkedAt, maintenanceDate));
@@ -1138,7 +1223,7 @@ function buildCompactReport({ catalog, baselineById, raw, exchange, checkedAt, c
     schemaVersion: 3,
     dataDate: MAINTENANCE_DATE,
     checkedAt,
-    baselineRef: BASELINE_REF,
+    baselineRef: raw.baselineRef || BASELINE_REF,
     policy: {
       exactModelOrReviewedSourceBindingOnly: true,
       trustedNewProductsOnly: true,
@@ -1224,13 +1309,16 @@ async function main() {
   const catalog = loadCatalogFromDisk();
   if (catalog.products.length === 0 || catalog.categories.length === 0) throw new Error("Catalog is empty");
   const categoryDefinitions = readDashboardProducts(ROOT).categories;
-  const baselineById = loadCatalogFromGit(BASELINE_REF, catalog.categories.map((category) => category.fileName));
+  const baselineRef = execFileSync("git", ["rev-parse", "--verify", "--end-of-options", `${BASELINE_REF}^{commit}`], { cwd: ROOT, encoding: "utf8" }).trim();
+  const baselineById = loadCatalogFromGit(baselineRef, catalog.categories.map((category) => category.fileName));
+  // Full price maintenance may carry existing issue evidence, but cannot relabel or rewrite it.
+  resolveIssueEvidenceDate(ROOT, { baselineRef, dataDate: MAINTENANCE_DATE }, catalog.products, readEvidenceDocuments(ROOT), CHECKED_AT);
   const checkedAt = new Date().toISOString();
   const raw = {
     schemaVersion: 3,
     dataDate: MAINTENANCE_DATE,
     checkedAt,
-    baselineRef: BASELINE_REF,
+    baselineRef,
     sourceRows: [],
     imageRows: [],
     historicalRows: [],
@@ -1308,16 +1396,20 @@ if (require.main === module) {
 
 module.exports = {
   applyExchangeRates,
+  auditNonPchome,
   buildCompactReport,
+  categoryProductsChanged,
   categoryReviewProvenance,
   currentCategoryScan,
   carriedCategoryReviewMatchesCatalog,
   exchangeRateRequestUrl,
   exchangeRatesFromPayload,
+  fetchPage,
   loadCatalogFromGit,
   maintenanceCacheVersion,
   maintenanceReviewReady,
   mergeDiscontinuationReviews,
+  pchomeEvidenceTitle,
   pchomeProductId,
   selectPreviousCategoryReview,
   structuredPriceCandidates,

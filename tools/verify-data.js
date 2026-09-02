@@ -11,12 +11,19 @@ const {
   DIMENSION_CATEGORIES,
   EXPECTED_DIMENSION_PRODUCT_COUNT,
   NEW_DIMENSION_CATEGORIES,
-  DIMENSION_PATTERN,
+  dimensionPatternForCategory,
   DIMENSION_CONFIDENCE_VALUES,
   WEIGHT_CATEGORY_COUNTS,
   WEIGHT_CATEGORIES,
   EXPECTED_WEIGHT_PRODUCT_COUNT,
-  WEIGHT_PATTERN,
+  weightPatternForCategory,
+  PERIPHERAL_TYPES,
+  PERIPHERAL_BUDGET_COUNTS,
+  PERIPHERAL_SPEC_PREFIXES,
+  BEDDING_TYPES,
+  BEDDING_BUDGET_COUNTS,
+  BEDDING_SPEC_PREFIXES,
+  POSITIVE_MEASUREMENT_VALUE_PATTERN,
   WEIGHT_CONFIDENCE_VALUES,
   HISTORICAL_LOW_STATUSES,
   HISTORICAL_LOW_SOURCE_KINDS,
@@ -28,6 +35,12 @@ const {
   AIRCON_CAPACITY_BAND_LIMITS,
   WATERHEATER_TYPE_COUNTS,
   WATERHEATER_ELECTRIC_SUBTYPE_COUNTS,
+  NETWORK_SWITCH_TYPE_MIN_COUNTS,
+  NETWORK_SWITCH_MANAGEMENT_VALUES,
+  NETWORK_SWITCH_COOLING_VALUES,
+  NETWORK_SWITCH_TOP_PICK_MODEL,
+  NETWORK_SWITCH_SPEC_PREFIXES,
+  MONITOR_LIGHT_SPEC_PREFIXES,
   AIRCON_SPEC_PREFIXES,
   WATERHEATER_SPEC_PREFIXES,
   JAPANESE_BRAND_ROSTER,
@@ -54,6 +67,7 @@ const { readDashboardProducts } = require("./read-dashboard-products");
 const {
   hasCompleteCompositeSystemIdentityAndPrice,
   hasOfficialSuggestedPriceSource,
+  isExcludedListing,
   normalizeIdentity,
 } = require("./catalog-maintenance-policy");
 const {
@@ -67,13 +81,48 @@ const {
   queryTargetsProduct,
   queryTargetsWebsite,
   queryUrlMatchesRecord,
+  reviewedCandidateKeySet,
 } = require("./product-issue-validation");
 const { canonicalModel } = require("./research-product-issues");
-const { CHECKED_AT } = require("./verified-product-issues");
+const { CHECKED_AT, verifiedIssueById } = require("./verified-product-issues");
+const {
+  ADDED_PRODUCTS_SCOPE, assertIncrementalBaselinePreserved, loadIncrementalBaseline, readEvidenceDocuments, resolveIssueEvidenceDate,
+} = require("./incremental-catalog-audit");
 
 const ISSUE_RESEARCH_STATUSES = new Set(["common_issue", "no_common_issue"]);
 const ISSUE_RESEARCH_DATE_PATTERN = /^\d{4}-\d{2}-\d{2}$/;
 const NO_COMMON_ISSUE_SUMMARY = "截至查核日，查無達門檻的集中負評／災情";
+const BEDDING_TYPE_PATTERNS = {
+  bedsheet: {
+    cotton: /棉/u,
+    lyocell: /萊賽爾|天絲/iu,
+    linen: /亞麻|linen/iu,
+    synthetic: /化纖|聚酯|尼龍|聚乙烯|synthetic/iu,
+    other_natural: /竹纖維|莫代爾|modal|bamboo|hemp/iu,
+  },
+  comforter: {
+    cotton: /棉/u,
+    down: /羽絨|羽毛|鴨絨|鴨毛|鵝絨|鵝毛|down|feather/iu,
+    synthetic: /化纖|聚酯|科技蠶絲|超細纖維|樹脂纖維|synthetic/iu,
+    wool: /羊毛|wool/iu,
+    silk: /(?<!科技)蠶絲|silk/iu,
+  },
+  pillow: {
+    latex: /乳膠|latex/iu,
+    memory_foam: /記憶|感溫|泡棉|黑鑽石棉|支撐棉|hypergel|memory foam/iu,
+    down: /羽絨|羽毛|鴨絨|鴨毛|鵝絨|鵝毛|down|feather/iu,
+    fiber: /纖維|聚酯|fiber/iu,
+    hybrid: /混合|複合|airgrid|網格/iu,
+  },
+};
+const NETWORK_SWITCH_OFFICIAL_DOMAINS = new Map([
+  ["D-Link", ["dlink.com"]],
+  ["TP-Link", ["tp-link.com"]],
+  ["Mercusys", ["mercusys.com"]],
+  ["Zyxel", ["zyxel.com"]],
+  ["NETGEAR", ["netgear.com"]],
+  ["QNAP", ["qnap.com"]],
+]);
 const REQUESTED_MODELS = new Set(["R-HW620YJ", "LEGEE-Q10 PRO", "LEGEE-Q10PRO", "NA-V170RPH-K", "AQ928"]);
 const JAPANESE_GAP_MODELS = new Set([
   "SDM-27U9M2",
@@ -107,6 +156,45 @@ function compactIdentity(value) {
     .replace(/[^\p{L}\p{N}]+/gu, "");
 }
 
+function beddingFamilyIdentity(value) {
+  return compactIdentity(String(value || "")
+    .replace(/\b(?:series|collection|fitted sheet|sheet|comforter|duvet|pillow|white|black|gray|grey|blue|pink|red|green|yellow|beige|brown|purple|orange)\b/giu, " ")
+    .replace(/天絲|萊賽爾|涼感|床包|棉被|枕頭|系列|花色|圖案|白色|黑色|灰色|藍色|粉色|紅色|綠色|黃色|米色|棕色|紫色|橘色|卡其色/gu, " "));
+}
+
+function measurementEvidenceSupportsSpec(spec, evidenceSnippet) {
+  const [field = "", ...valueParts] = String(spec || "").split("：");
+  const recorded = valueParts.join("：").trim();
+  const evidence = String(evidenceSnippet || "");
+  const fieldPattern = {
+    尺寸: /尺寸|長\s*\d.*寬\s*\d|寬\s*\d.*(?:長|深)\s*\d/u,
+    可包覆高度: /包覆.*高度|床墊.*(?:厚度|高度)/u,
+    填充重量: /填充(?:物)?.{0,4}(?:重量|重)/u,
+    重量: /淨重|本體重量|產品總重|商品重量|整件重量|(?:^|[，,\s])重量[：:]/u,
+  }[field];
+  if (!fieldPattern || !recorded) return false;
+  const missingPattern = /查不到|未標示|未找到|未提供|未列|未明示|無法確認|沒有/u;
+  const segments = evidence.split(/[；;。!?]/u);
+  if (/^(?:查不到|未標示)$/u.test(recorded)) {
+    return segments.some((segment) => fieldPattern.test(segment) && missingPattern.test(segment));
+  }
+  const evidenceKey = compactIdentity(evidence);
+  const valueKey = compactIdentity(recorded);
+  if (field === "尺寸") return evidenceKey.includes(valueKey);
+  if (field === "可包覆高度" || field === "填充重量") {
+    return evidenceKey.includes(compactIdentity(spec));
+  }
+  const specKey = compactIdentity(spec);
+  for (let index = evidenceKey.indexOf(specKey); index >= 0; index = evidenceKey.indexOf(specKey, index + 1)) {
+    if (!/填充(?:物)?$/u.test(evidenceKey.slice(Math.max(0, index - 4), index))) return true;
+  }
+  return segments.some((segment) => {
+    if (!fieldPattern.test(segment)) return false;
+    if (/填充(?:物)?.{0,4}(?:重量|重)/u.test(segment) && !/淨重|本體重量|產品總重|商品重量|整件重量/u.test(segment)) return false;
+    return !missingPattern.test(segment) && compactIdentity(segment).includes(valueKey);
+  });
+}
+
 function productText(product) {
   return [
     product.brand,
@@ -136,10 +224,29 @@ function assert(condition, message, failures) {
   if (!condition) failures.push(message);
 }
 
+function readResearchDocument(root, file, failures, documents) {
+  const document = documents
+    ? documents[file]
+    : fs.existsSync(path.join(root, file)) ? JSON.parse(fs.readFileSync(path.join(root, file), "utf8")) : null;
+  assert(document && typeof document === "object" && !Array.isArray(document), `${file} is missing or invalid`, failures);
+  return document;
+}
+
 function isHttpUrl(value) {
   try {
     const parsed = new URL(value);
     return parsed.protocol === "http:" || parsed.protocol === "https:";
+  } catch (_error) {
+    return false;
+  }
+}
+
+function isOfficialNetworkSwitchSpecSource(product) {
+  try {
+    const parsed = new URL(product.switchProfile?.specSourceUrl);
+    const domains = NETWORK_SWITCH_OFFICIAL_DOMAINS.get(product.brand) || [];
+    return parsed.protocol === "https:"
+      && domains.some((domain) => parsed.hostname === domain || parsed.hostname.endsWith(`.${domain}`));
   } catch (_error) {
     return false;
   }
@@ -181,12 +288,12 @@ function validateCandidateReview(candidate, prefix, checkedAt, failures) {
     `${prefix} reviewedAt must not exceed the product review date`,
     failures,
   );
-  assert(candidate.exactModel === true, `${prefix} must confirm the exact model`, failures);
+  assert(typeof candidate.exactModel === "boolean", `${prefix} must explicitly record whether the model matches`, failures);
   assert(typeof candidate.sourceExcerpt === "string" && candidate.sourceExcerpt.trim().length >= 12, `${prefix} requires a specific original-page excerpt`, failures);
   assert(Number.isInteger(candidate.independentAuthors) && candidate.independentAuthors >= 0, `${prefix} requires an independent author count`, failures);
   assert(typeof candidate.specificReason === "string" && candidate.specificReason.trim().length >= 20, `${prefix} requires a specific exclusion reason`, failures);
   assert(
-    !candidate.sourceExcerpt.includes("討論群組 小惡魔市集"),
+    !String(candidate.sourceExcerpt || "").includes("討論群組 小惡魔市集"),
     `${prefix} sourceExcerpt must be a reviewer-written trace, not a copied page header/navigation block`,
     failures,
   );
@@ -425,6 +532,205 @@ function validateOrderedSpecPrefixes(product, prefixes, failures) {
   }
 }
 
+function validateMonitorLightProduct(product, failures) {
+  if (product.category !== "monitor-light") return;
+  validateOrderedSpecPrefixes(product, MONITOR_LIGHT_SPEC_PREFIXES, failures);
+  const compatibility = product.specs.find((spec) => spec.startsWith("安裝相容性：")) || "";
+  assert(/夾具厚度/.test(compatibility) && /曲面/.test(compatibility), `${product.id} monitor-light must disclose clamp thickness and curved-screen compatibility`, failures);
+  if (!product.topPick) return;
+  assert(product.channel === "tw", `${product.id} monitor-light Top Pick requires a Taiwan channel`, failures);
+  assert(/夾具厚度[^；]*\d+(?:\.\d+)?\s*(?:[-–—~～]|至)\s*\d+(?:\.\d+)?\s*(?:mm|cm)/iu.test(compatibility), `${product.id} monitor-light Top Pick requires an explicit clamp-thickness range`, failures);
+  assert(/曲面[^；]*(?:支援|不支援|適用|不適用)/u.test(compatibility) && !/未標示|未確認|查不到|未知|待確認/u.test(compatibility), `${product.id} monitor-light Top Pick requires confirmed curved-screen compatibility`, failures);
+  assert(hasTaiwanCompatiblePower(product), `${product.id} monitor-light Top Pick requires rated Taiwan-compatible power`, failures);
+  assert(/台灣|公司貨/u.test(product.warranty || ""), `${product.id} monitor-light Top Pick requires Taiwan after-sales warranty`, failures);
+}
+
+function validatePeripheralProduct(product, failures) {
+  const types = PERIPHERAL_TYPES[product.category];
+  if (!types) return;
+  assert(types.includes(product.type), `${product.id} has invalid peripheral type: ${product.type}`, failures);
+  const listing = `${product.model || ""} ${product.name || ""}`;
+  assert(!isExcludedListing(listing), `${product.id} must be a new complete peripheral, not an excluded listing`, failures);
+  assert(!/裸(?:套|軸|板)|\bbare[ -]?bones?\b|\b(?:touchpad|trackpad|numpad)\b|獨立數字鍵盤|單(?:獨|售)(?:鍵帽|軸體)|替換(?:腳貼|鍵帽|軸體)|(?:鍵帽|軸體)(?:組|套裝)$/iu.test(listing), `${product.id} must be a complete mouse, keyboard or mousepad, not a kit or separate input accessory`, failures);
+  validateOrderedSpecPrefixes(product, PERIPHERAL_SPEC_PREFIXES[product.category], failures);
+  if (["keyboard", "mousepad"].includes(product.category)) {
+    assert(typeof product.variantFamily === "string" && product.variantFamily.trim(), `${product.id} requires variantFamily`, failures);
+  }
+  if (product.category === "mousepad") {
+    const thickness = product.specs.find((spec) => spec.startsWith("厚度：")) || "";
+    assert(/^厚度：(查不到|(?:約 )?\d+(?:\.\d+)?(?:[-–／/]\d+(?:\.\d+)?)? mm)$/u.test(thickness), `${product.id} requires explicit thickness in mm or 查不到`, failures);
+  }
+  if (product.topPick) {
+    assert(product.channel === "tw", `${product.id} peripheral Top Pick requires a Taiwan channel`, failures);
+    assert(/台灣|公司貨/u.test(product.warranty || ""), `${product.id} peripheral Top Pick requires Taiwan after-sales warranty`, failures);
+    assert(!/無(?:台灣)?保固|不提供保固|no warranty/iu.test(product.warranty || ""), `${product.id} peripheral Top Pick cannot have no warranty`, failures);
+    assert(hasTaiwanCompatiblePower(product), `${product.id} peripheral Top Pick requires confirmed power or a non-electric product`, failures);
+  }
+}
+
+function validatePeripheralCatalog(products, failures) {
+  for (const [category, types] of Object.entries(PERIPHERAL_TYPES)) {
+    const items = products.filter((product) => product.category === category);
+    if (!items.length) continue;
+    assert(items.length === 30, `${category} must contain 30 products`, failures);
+    for (const [budget, count] of PERIPHERAL_BUDGET_COUNTS) {
+      assert(items.filter((product) => product.budget === budget).length === count, `${category} budget ${budget} must contain ${count} products`, failures);
+    }
+    for (const type of types) {
+      assert(items.some((product) => product.type === type), `${category} must cover type ${type}`, failures);
+    }
+    assert(items.filter((product) => product.topPick).length === 1, `${category} must have exactly one Top Pick`, failures);
+    for (const tag of ["辦公推薦", "電競推薦"]) {
+      assert(items.some((product) => product.tags?.includes(tag)), `${category} must include ${tag}`, failures);
+    }
+    if (category === "mouse") continue;
+    const families = new Map();
+    for (const product of items) {
+      const key = `${normalize(product.brand)}||${normalize(product.variantFamily)}`;
+      const family = families.get(key) || [];
+      family.push(product);
+      families.set(key, family);
+    }
+    for (const [family, variants] of families) {
+      assert(variants.length <= 3, `${category} ${family} must have at most 3 variants`, failures);
+      const prefix = category === "keyboard" ? "軸體：" : "尺寸：";
+      const identities = variants.map((product) => {
+        const spec = product.specs.find((value) => value.startsWith(prefix)) || "";
+        // The first segment is the full switch identity; extra specifications do not create a variant.
+        if (category === "keyboard") return normalize(spec.slice(prefix.length).split(/[；;]/u)[0]);
+        if (variants.length === 1) return normalize(spec);
+        // Separate thickness cannot make another size variant; orientation cannot either.
+        const planar = /^尺寸：[長寬深高] (\d+(?:\.\d+)?) x [長寬深高] (\d+(?:\.\d+)?) mm$/u.exec(spec);
+        assert(planar, `${product.id} size variants require two explicit planar dimensions; record thickness separately`, failures);
+        return planar ? planar.slice(1).map(Number).sort((a, b) => a - b).join("x") : normalize(spec);
+      });
+      assert(new Set(identities).size === identities.length, `${category} ${family} contains a duplicate variant (${prefix})`, failures);
+      if (variants.length > 1) assert(identities.every((identity) => identity && !/查不到|未標示/u.test(identity)), `${category} ${family} variants require explicit ${prefix}`, failures);
+    }
+  }
+}
+
+function validateBeddingProduct(product, failures) {
+  const types = BEDDING_TYPES[product.category];
+  if (!types) return;
+  assert(types.includes(product.type), `${product.id} has invalid bedding type: ${product.type}`, failures);
+  assert(typeof product.variantFamily === "string" && product.variantFamily.trim(), `${product.id} requires variantFamily`, failures);
+  validateOrderedSpecPrefixes(product, BEDDING_SPEC_PREFIXES[product.category], failures);
+  const visibleTypeSpec = product.specs.find((spec) => spec.startsWith("類型：")) || "";
+  const materialSpecPrefix = {
+    bedsheet: "材質：",
+    comforter: "填充材質：",
+    pillow: "填充／核心材質：",
+  }[product.category];
+  const materialSpec = product.specs.find((spec) => spec.startsWith(materialSpecPrefix)) || "";
+  const typePatterns = BEDDING_TYPE_PATTERNS[product.category];
+  const detectedVisibleTypes = Object.entries(typePatterns)
+    .filter(([, pattern]) => pattern.test(visibleTypeSpec))
+    .map(([type]) => type);
+  assert(
+    (!detectedVisibleTypes.length || detectedVisibleTypes.includes(product.type))
+      && typePatterns[product.type].test(materialSpec),
+    `${product.id} type spec contradicts bedding type ${product.type}`,
+    failures,
+  );
+  const listing = `${product.model || ""} ${product.name || ""}`;
+  const excluded = {
+    bedsheet: /被套|床罩|保潔墊|四件套|寢具(?:大)?套組|\b(?:duvet cover|mattress (?:protector|pad|topper)|bedspread|bed cover|flat sheet|sheet set)\b/iu,
+    comforter: /被套|毛毯|電熱毯|涼感薄毯|涼被|\b(?:duvet cover|blanket|throw|electric blanket|heated blanket|cooling blanket)\b/iu,
+    pillow: /抱枕|長枕|長版|旅行(?:頸|脖)枕|嬰幼兒枕|嬰兒枕|兒童枕|枕套|替換填充|\b(?:travel (?:neck|cervical) pillow|(?:neck|cervical) travel pillow|u[- ]?shaped (?:neck )?pillow|body pillow|bolster pillow|baby pillow|infant pillow|toddler pillow|kids? pillow|pillow ?case)\b/iu,
+  }[product.category];
+  assert(!isExcludedListing(listing) && !excluded.test(listing), `${product.id} is outside the approved bedding scope`, failures);
+  const combination = (product.specs.find((spec) => spec.startsWith("組合內容：")) || "")
+    .replace(/不含[^；。]*/gu, "")
+    .replace(/[；;。]+$/u, "")
+    .trim();
+  const bedsheetContents = combination.replace(/^組合內容：/u, "");
+  const excludedCombination = product.category === "bedsheet"
+    ? !/^(?:伸縮)?床包(?:\s*\d+\s*件)?(?:\s*[＋+、，,]\s*枕套(?:\s*\d+\s*件)?)*$/u.test(bedsheetContents)
+    : product.category === "comforter"
+      ? /被套|毛毯|電熱毯|涼感薄毯/iu.test(combination)
+        || (/涼被/u.test(combination) && !/暖被|冬被|四季/u.test(combination))
+      : false;
+  assert(!excludedCombination, `${product.id} is outside the approved bedding scope`, failures);
+
+  if (product.category === "bedsheet") {
+    const height = product.specs.find((spec) => spec.startsWith("可包覆高度：")) || "";
+    assert(new RegExp(`^可包覆高度：(查不到|(?:約 )?${POSITIVE_MEASUREMENT_VALUE_PATTERN} cm)$`, "u").test(height), `${product.id} requires mattress pocket height in cm or 查不到`, failures);
+  }
+  if (product.category === "comforter") {
+    const fillWeight = product.specs.find((spec) => spec.startsWith("填充重量：")) || "";
+    const fillWeightSegment = `(?:[^；]+ )?(?:約 )?${POSITIVE_MEASUREMENT_VALUE_PATTERN} (?:g|kg)`;
+    assert(new RegExp(`^填充重量：(查不到|${fillWeightSegment}(?:；${fillWeightSegment})*)$`, "u").test(fillWeight), `${product.id} requires fill weight or 查不到`, failures);
+    assert(!/包裝|外箱|毛重|shipping|gross/iu.test(fillWeight), `${product.id} fill weight cannot use packaging or gross weight`, failures);
+  }
+  if (product.topPick) {
+    const warranty = String(product.warranty || "");
+    assert(product.channel === "tw", `${product.id} bedding Top Pick requires a Taiwan channel`, failures);
+    assert(/台灣官方[^；。]*(?:\d+\s*年保固|售後|客服|門市|退換)|台灣(?:客服|門市|售後)|公司貨[^；。]*(?:保固|售後|客服)/u.test(warranty), `${product.id} bedding Top Pick requires a concrete Taiwan after-sales channel`, failures);
+    assert(!/無(?:台灣)?保固|不提供保固|no warranty|(?:保固|售後)[^；。]{0,10}未標示/iu.test(warranty), `${product.id} bedding Top Pick cannot have no warranty`, failures);
+    assert(hasTaiwanCompatiblePower(product), `${product.id} bedding Top Pick requires a non-electric or Taiwan-compatible power statement`, failures);
+  }
+}
+
+function beddingPlanarVariantIdentity(product) {
+  const dimension = product.specs.find((value) => value.startsWith("尺寸：")) || "";
+  const axes = new Map([...dimension.matchAll(/([長寬深高]) (\d+(?:\.\d+)?(?:[-–／/]\d+(?:\.\d+)?)?)/gu)]
+    .map(([, axis, value]) => [axis, value]));
+  const planar = [axes.get("寬"), axes.get("長") || axes.get("深")];
+  return planar.every(Boolean)
+    ? planar.map((value) => normalize(value)).sort((left, right) => Number.parseFloat(left) - Number.parseFloat(right)).join("x")
+    : "";
+}
+
+function pillowVariantIdentity(product) {
+  const heightSpec = product.specs.find((value) => value.startsWith("高度／軟硬度：")) || "";
+  const primary = heightSpec.slice("高度／軟硬度：".length).split(/[；;]/u)[0];
+  const measurements = [...primary.matchAll(/\d+(?:\.\d+)?(?:[-–／/]\d+(?:\.\d+)?)?\s*cm/giu)]
+    .map(([value]) => normalize(value));
+  const descriptors = primary.match(/\b(?:extra small|small|medium|large|queen [smlx]+|xs|s|m|l|low|high|soft|firm)\b|低枕|高枕|偏軟|偏硬|適中|中等|柔軟|硬度可調|軟硬可調|可調支撐/giu) || [];
+  return [...measurements, ...descriptors.map(normalize)].join("|");
+}
+
+function validateBeddingCatalog(products, failures) {
+  const recommendationTags = {
+    bedsheet: ["涼爽推薦", "親膚推薦"],
+    comforter: ["四季推薦", "冬季保暖推薦"],
+    pillow: ["仰睡推薦", "側睡推薦"],
+  };
+  for (const [category, types] of Object.entries(BEDDING_TYPES)) {
+    const items = products.filter((product) => product.category === category);
+    if (!items.length) continue;
+    assert(items.length === 30, `${category} must contain 30 products`, failures);
+    for (const [budget, count] of BEDDING_BUDGET_COUNTS) {
+      assert(items.filter((product) => product.budget === budget).length === count, `${category} budget ${budget} must contain ${count} products`, failures);
+    }
+    for (const type of types) {
+      assert(items.some((product) => product.type === type), `${category} must cover type ${type}`, failures);
+    }
+    assert(items.filter((product) => product.topPick).length === 1, `${category} must have exactly one Top Pick`, failures);
+    for (const tag of recommendationTags[category]) {
+      assert(items.some((product) => product.tags?.includes(tag)), `${category} must include ${tag}`, failures);
+    }
+
+    const families = new Map();
+    for (const product of items) {
+      const key = `${compactIdentity(product.brand)}||${beddingFamilyIdentity(product.variantFamily)}`;
+      const variants = families.get(key) || [];
+      variants.push(product);
+      families.set(key, variants);
+    }
+    for (const [family, variants] of families) {
+      assert(variants.length <= 3, `${category} ${family} must have at most 3 variants`, failures);
+      const prefix = category === "pillow" ? "高度／軟硬度：" : "尺寸：";
+      const identities = variants.map((product) => (
+        category === "pillow" ? pillowVariantIdentity(product) : beddingPlanarVariantIdentity(product)
+      ));
+      assert(new Set(identities).size === identities.length, `${category} ${family} contains a duplicate ${prefix} variant`, failures);
+      if (variants.length > 1) assert(identities.every((identity) => identity && !/查不到|未標示/u.test(identity)), `${category} ${family} variants require explicit ${prefix}`, failures);
+    }
+  }
+}
+
 function measurementSegments(value) {
   return String(value || "")
     .split("；")
@@ -449,15 +755,28 @@ function visibleRoomSizeUpperBound(value) {
   return range ? Number(range[1]) : null;
 }
 
-function validatePriceAndInstallationContract(product, failures, forceRequired = false) {
-  const contractRequired = forceRequired
-    || ["aircon", "waterheater"].includes(product.category)
+function validatePriceAndInstallationContract(product, failures, forceRequired = false, exchange = {}) {
+  const taiwanRequired = ["aircon", "waterheater", "network-switch"].includes(product.category)
     || REQUESTED_MODELS.has(product.model)
     || JAPANESE_GAP_MODELS.has(product.model);
+  const contractRequired = forceRequired || taiwanRequired;
+  const globalCatalogEntry = forceRequired && !taiwanRequired && product.channel === "global";
   if (contractRequired) {
     assert(Number.isFinite(product.price?.amount) && product.price.amount > 0, `${product.id} requires a positive public numeric price amount`, failures);
-    assert(product.price?.currency === "TWD", `${product.id} requires a TWD Taiwan price`, failures);
-    assert(product.price?.converted === product.price?.amount, `${product.id} TWD amount and converted price must match`, failures);
+    if (globalCatalogEntry && product.price?.currency !== "TWD") {
+      assert(product.price?.currency, `${product.id} global entry requires its source currency`, failures);
+      const rate = exchange[`${product.price?.currency}_TWD`];
+      assert(Number.isFinite(rate) && rate > 0, `${product.id} global entry requires a supported exchange rate`, failures);
+      assert(
+        Number.isFinite(product.price?.converted)
+          && product.price.converted === Math.round(product.price.amount * rate),
+        `${product.id} global entry TWD conversion must match the source amount and exchange rate`,
+        failures,
+      );
+    } else {
+      assert(product.price?.currency === "TWD", `${product.id} requires a TWD Taiwan price`, failures);
+      assert(product.price?.converted === product.price?.amount, `${product.id} TWD amount and converted price must match`, failures);
+    }
   }
   if (contractRequired || product.price?.basis !== undefined) {
     assert(PRICE_BASIS_VALUES.has(product.price?.basis), `${product.id} has invalid price basis: ${product.price?.basis}`, failures);
@@ -474,10 +793,21 @@ function validatePriceAndInstallationContract(product, failures, forceRequired =
   }
   if (contractRequired) {
     const marketRisk = `${product.voltage || ""} ${product.warranty || ""}`;
-    assert(product.channel === "tw", `${product.id} new catalog entry requires a Taiwan sales channel`, failures);
-    assert(hasTaiwanCompatiblePower(product), `${product.id} requires a Taiwan-compatible power specification`, failures);
-    assert(/(?:台灣|公司貨)/u.test(String(product.warranty || "")), `${product.id} requires an explicit Taiwan warranty`, failures);
-    assert(!/(?:50\s*Hz(?![^；,，]*60\s*Hz)|日本地區保固|無台灣保固|不提供台灣|海外通路|跨境)/iu.test(marketRisk), `${product.id} cannot use a 50Hz-only or non-Taiwan warranty product`, failures);
+    if (globalCatalogEntry) {
+      const disclosure = `${product.description || ""} ${(product.cons || []).join(" ")} ${product.installation?.note || ""} ${marketRisk}`;
+      for (const term of ["國際運費", "進口稅", "台灣保固", "電壓", "插頭"]) {
+        assert(disclosure.includes(term), `${product.id} global entry must disclose ${term} risk`, failures);
+      }
+    } else {
+      assert(product.channel === "tw", `${product.id} new catalog entry requires a Taiwan sales channel`, failures);
+      // Peripheral specs disclose USB/battery/non-electric power, including unknown
+      // ratings; only their Top Pick must meet the stricter confirmed-power rule.
+      if (!PERIPHERAL_TYPES[product.category]) {
+        assert(hasTaiwanCompatiblePower(product), `${product.id} requires a Taiwan-compatible power specification`, failures);
+      }
+      assert(/(?:台灣|公司貨)/u.test(String(product.warranty || "")), `${product.id} requires an explicit Taiwan warranty`, failures);
+      assert(!/(?:50\s*Hz(?![^；,，]*60\s*Hz)|日本地區保固|無台灣保固|不提供台灣|海外通路|跨境)/iu.test(marketRisk), `${product.id} cannot use a 50Hz-only or non-Taiwan warranty product`, failures);
+    }
     assert(/^https?:\/\//u.test(String(product.image || "")), `${product.id} requires a trusted http(s) product image`, failures);
   }
   if (product.price?.basis === "official_suggested") {
@@ -599,6 +929,82 @@ function validateWaterheaterProduct(product, failures) {
   validateOrderedSpecPrefixes(product, WATERHEATER_SPEC_PREFIXES, failures);
 }
 
+function validateNetworkSwitchProduct(product, failures) {
+  if (product.category !== "network-switch") return;
+
+  validatePriceAndInstallationContract(product, failures, true);
+  assert(NETWORK_SWITCH_TYPE_MIN_COUNTS.has(product.type), `${product.id} has invalid network-switch type: ${product.type}`, failures);
+  const profile = product.switchProfile;
+  assert(profile && typeof profile === "object" && !Array.isArray(profile), `${product.id} requires switchProfile`, failures);
+  if (!profile || typeof profile !== "object" || Array.isArray(profile)) return;
+
+  const expectedKeys = [
+    "cooling",
+    "dimensionsCm",
+    "enclosure",
+    "extraUplinks",
+    "management",
+    "maxPowerW",
+    "mounting",
+    "operatingTemperatureC",
+    "poe",
+    "primaryPortSpeedsGbps",
+    "rj45PortCount",
+    "specSourceUrl",
+    "speedTier",
+  ];
+  assert(
+    JSON.stringify(Object.keys(profile).sort()) === JSON.stringify(expectedKeys),
+    `${product.id} switchProfile keys do not match the contract`,
+    failures,
+  );
+  assert(profile.rj45PortCount === 8, `${product.id} must have exactly 8 primary RJ45 ports`, failures);
+  assert(profile.speedTier === product.type, `${product.id} speedTier must match type`, failures);
+  assert(
+    Array.isArray(profile.primaryPortSpeedsGbps)
+      && profile.primaryPortSpeedsGbps.length > 0
+      && profile.primaryPortSpeedsGbps.every((speed) => Number.isFinite(speed) && speed > 0),
+    `${product.id} requires numeric primary port speeds`,
+    failures,
+  );
+  const requiredTierSpeed = { "1g": 1, "2_5g": 2.5, "10g": 10 }[product.type];
+  assert(profile.primaryPortSpeedsGbps?.includes(requiredTierSpeed), `${product.id} primary ports do not support ${requiredTierSpeed}G`, failures);
+  if (product.type === "10g") {
+    for (const speed of [1, 2.5, 10]) {
+      assert(profile.primaryPortSpeedsGbps.includes(speed), `${product.id} 10G primary ports must also support ${speed}G`, failures);
+    }
+  }
+  assert(Array.isArray(profile.extraUplinks), `${product.id} extraUplinks must be an array`, failures);
+  for (const uplink of profile.extraUplinks || []) {
+    assert(Number.isInteger(uplink?.count) && uplink.count > 0, `${product.id} uplink count must be positive`, failures);
+    assert(typeof uplink?.media === "string" && uplink.media.trim(), `${product.id} uplink media is required`, failures);
+    assert(Array.isArray(uplink?.speedsGbps) && uplink.speedsGbps.length > 0, `${product.id} uplink speeds are required`, failures);
+  }
+  assert(NETWORK_SWITCH_MANAGEMENT_VALUES.has(profile.management), `${product.id} has invalid management type`, failures);
+  assert(profile.poe === false, `${product.id} must not support PoE`, failures);
+  assert(profile.enclosure === "metal", `${product.id} must use a metal enclosure`, failures);
+  assert(NETWORK_SWITCH_COOLING_VALUES.has(profile.cooling), `${product.id} has invalid cooling type`, failures);
+  assert(Number.isFinite(profile.maxPowerW) && profile.maxPowerW > 0, `${product.id} requires positive max power`, failures);
+  assert(
+    Number.isFinite(profile.operatingTemperatureC?.min)
+      && Number.isFinite(profile.operatingTemperatureC?.max)
+      && profile.operatingTemperatureC.max >= 40,
+    `${product.id} requires an official operating-temperature maximum of at least 40C`,
+    failures,
+  );
+  assert(
+    ["width", "depth", "height"].every((key) => Number.isFinite(profile.dimensionsCm?.[key]) && profile.dimensionsCm[key] > 0),
+    `${product.id} requires positive width/depth/height dimensions`,
+    failures,
+  );
+  assert(Array.isArray(profile.mounting) && profile.mounting.length > 0, `${product.id} mounting options are required`, failures);
+  assert(isOfficialNetworkSwitchSpecSource(product), `${product.id} requires an official brand specSourceUrl`, failures);
+  validateOrderedSpecPrefixes(product, NETWORK_SWITCH_SPEC_PREFIXES, failures);
+  assert(product.specs.includes("PoE：不支援"), `${product.id} must disclose that PoE is unsupported`, failures);
+  assert(product.specs.includes("外殼：金屬"), `${product.id} must disclose its metal enclosure`, failures);
+  assert(/台灣|公司貨/u.test(String(product.warranty || "")) && /保固/u.test(String(product.warranty || "")), `${product.id} must state Taiwan warranty`, failures);
+}
+
 function validateProduct(product, categoryIds, failures) {
   for (const field of REQUIRED_FIELDS) {
     assert(product[field] !== undefined && product[field] !== null && product[field] !== "", `${product.id || "(missing id)"} missing ${field}`, failures);
@@ -615,6 +1021,10 @@ function validateProduct(product, categoryIds, failures) {
   validatePriceAndInstallationContract(product, failures);
   validateAirconProduct(product, failures);
   validateWaterheaterProduct(product, failures);
+  validateNetworkSwitchProduct(product, failures);
+  validateMonitorLightProduct(product, failures);
+  validatePeripheralProduct(product, failures);
+  validateBeddingProduct(product, failures);
   validateHistoricalLow(product, failures);
   validateIssueResearch(product, failures);
 
@@ -632,7 +1042,7 @@ function validateProduct(product, categoryIds, failures) {
     assert(dimensionSpecs.length === 1, `${product.id} must include exactly one dimension spec`, failures);
     if (dimensionSpecs.length === 1) {
       const normalizedDimensionSpec = String(dimensionSpecs[0]).trim();
-      assert(DIMENSION_PATTERN.test(normalizedDimensionSpec), `${product.id} has invalid dimension spec: ${dimensionSpecs[0]}`, failures);
+      assert(dimensionPatternForCategory(product.category).test(normalizedDimensionSpec), `${product.id} has invalid dimension spec: ${dimensionSpecs[0]}`, failures);
       if (NEW_DIMENSION_CATEGORIES.has(product.category)) {
         assert(normalizedDimensionSpec !== "尺寸：未標示", `${product.id} must use 尺寸：查不到 when the new lookup has no result`, failures);
       }
@@ -652,7 +1062,7 @@ function validateProduct(product, categoryIds, failures) {
     assert(weightSpecs.length === 1, `${product.id} must include exactly one weight spec`, failures);
     if (weightSpecs.length === 1) {
       const normalizedWeightSpec = String(weightSpecs[0]).trim();
-      assert(WEIGHT_PATTERN.test(normalizedWeightSpec), `${product.id} has invalid weight spec: ${weightSpecs[0]}`, failures);
+      assert(weightPatternForCategory(product.category).test(normalizedWeightSpec), `${product.id} has invalid weight spec: ${weightSpecs[0]}`, failures);
       assert(normalizedWeightSpec !== "重量：未標示", `${product.id} must use 重量：查不到 when the new lookup has no result`, failures);
       if (product.category === "waterheater" && Array.isArray(product.componentModels) && product.componentModels.length > 1) {
         assert(normalizedWeightSpec !== "重量：查不到", `${product.id} composite system requires net weights for every component`, failures);
@@ -737,23 +1147,19 @@ function validateIssueEvidence(row, evidence, evidenceIndex, issueTitles, failur
   }
 }
 
-function validateIssueResearchFile(root, products, failures) {
-  const researchFile = path.join(root, "product_issue_research.json");
-  const reportLedgerFile = path.join(root, "product_issue_report_evidence.json");
-  assert(fs.existsSync(researchFile), "product_issue_research.json is missing", failures);
-  assert(fs.existsSync(reportLedgerFile), "product_issue_report_evidence.json is missing", failures);
-  if (!fs.existsSync(researchFile) || !fs.existsSync(reportLedgerFile)) return;
-
-  const research = JSON.parse(fs.readFileSync(researchFile, "utf8"));
-  const reportLedger = JSON.parse(fs.readFileSync(reportLedgerFile, "utf8"));
+function validateIssueResearchFile(root, products, failures, incremental = null, documents = null, expectedIssueDate = CHECKED_AT) {
+  const research = readResearchDocument(root, "product_issue_research.json", failures, documents);
+  const reportLedger = readResearchDocument(root, "product_issue_report_evidence.json", failures, documents);
+  if (!research || !reportLedger) return;
   const ledgerReports = Array.isArray(reportLedger.reports) ? reportLedger.reports : [];
   const researchReports = [];
   const aggregateCheckedAt = research.summary?.checkedAt?.slice(0, 10);
-  assert(aggregateCheckedAt === CHECKED_AT, "product issue research aggregate date mismatch", failures);
+  const expectedCheckedAt = incremental?.report.dataDate || expectedIssueDate;
+  assert(aggregateCheckedAt === expectedCheckedAt, "product issue research aggregate date mismatch", failures);
   assert(reportLedger.checkedAt === research.summary?.checkedAt?.slice(0, 10), "product issue report ledger date mismatch", failures);
-  assert(reportLedger.checkedAt === CHECKED_AT, "product issue report ledger aggregate date mismatch", failures);
+  assert(reportLedger.checkedAt === expectedCheckedAt, "product issue report ledger aggregate date mismatch", failures);
   assert(typeof reportLedger.policy === "string" && reportLedger.policy.trim(), "product issue report ledger requires policy", failures);
-  assert(ledgerReports.length > 0, "product issue report ledger requires explicit reports", failures);
+  assert(Array.isArray(reportLedger.reports), "product issue report ledger requires an explicit reports array", failures);
   const ledgerReportKeys = new Set(ledgerReports.map((report) => [
     report.productId,
     report.issueTitle,
@@ -877,9 +1283,10 @@ function validateIssueResearchFile(root, products, failures) {
     const searchCandidateKeys = searchCandidates.map(candidateReviewKey).sort();
     const manualCandidateKeys = manualCandidateReviews.map(candidateReviewKey).sort();
     const manualCandidateKeySet = new Set(manualCandidateKeys);
+    const reviewedKeys = reviewedCandidateKeySet(row.manualReview, product.issueResearch);
     assert(manualCandidateKeySet.size === manualCandidateKeys.length, `${product.id} manual candidate reviews must be unique`, failures);
     assert(
-      searchCandidateKeys.every((key) => manualCandidateKeySet.has(key)),
+      searchCandidateKeys.every((key) => reviewedKeys.has(key)),
       `${product.id} every exact-model search candidate requires one explicit manual review`,
       failures,
     );
@@ -1041,18 +1448,15 @@ function validateIssueResearchFile(root, products, failures) {
   );
 }
 
-function validateIssueReviewManifest(root, products, failures) {
-  const manifestFile = path.join(root, "product_issue_review_manifest.json");
-  assert(fs.existsSync(manifestFile), "product_issue_review_manifest.json is missing", failures);
-  if (!fs.existsSync(manifestFile)) return;
-
-  const manifest = JSON.parse(fs.readFileSync(manifestFile, "utf8"));
-  const research = JSON.parse(fs.readFileSync(path.join(root, "product_issue_research.json"), "utf8"));
+function validateIssueReviewManifest(root, products, failures, incremental = null, documents = null, expectedIssueDate = CHECKED_AT) {
+  const manifest = readResearchDocument(root, "product_issue_review_manifest.json", failures, documents);
+  const research = readResearchDocument(root, "product_issue_research.json", failures, documents);
+  if (!manifest || !research) return;
   const researchById = new Map((research.results || []).map((row) => [row.id, row]));
   const rows = Array.isArray(manifest.results) ? manifest.results : [];
   const byId = new Map(rows.map((row) => [row.id, row]));
   assert(ISSUE_RESEARCH_DATE_PATTERN.test(String(manifest.checkedAt || "")), "issue review manifest requires checkedAt", failures);
-  assert(manifest.checkedAt === CHECKED_AT, "issue review manifest aggregate date mismatch", failures);
+  assert(manifest.checkedAt === (incremental?.report.dataDate || expectedIssueDate), "issue review manifest aggregate date mismatch", failures);
   assert(manifest.checkedAt === research.summary?.checkedAt?.slice(0, 10), "issue review manifest and research aggregate dates must match", failures);
   assert(manifest.methodVersion === 3, "issue review manifest must use explicit methodVersion 3", failures);
   assert(typeof manifest.policy === "string" && manifest.policy.trim(), "issue review manifest requires policy", failures);
@@ -1083,7 +1487,9 @@ function validateIssueReviewManifest(root, products, failures) {
     assert(Array.isArray(row.candidateReviews), `${product.id} issue review manifest candidateReviews must be an array`, failures);
     assert(Array.isArray(row.queries) && row.queries.length >= 2, `${product.id} issue review manifest requires explicit queries`, failures);
     try {
-      validateExplicitReview(row, product);
+      // Pending bundles are checked against their own compact/detailed/ledger evidence below,
+      // before the persisted verified-issue registry can include a newly added product.
+      validateExplicitReview(row, product, verifiedIssueById.get(product.id) || (documents ? product.issueResearch : undefined));
     } catch (error) {
       failures.push(`${product.id} issue review manifest explicit validation failed: ${error.message}`);
     }
@@ -1129,9 +1535,10 @@ function validateIssueReviewManifest(root, products, failures) {
       .sort();
     const manifestCandidateKeys = (row.candidateReviews || []).map(candidateReviewKey).sort();
     const manifestCandidateKeySet = new Set(manifestCandidateKeys);
+    const reviewedKeys = reviewedCandidateKeySet(row, product.issueResearch);
     assert(manifestCandidateKeySet.size === manifestCandidateKeys.length, `${product.id} manifest candidate reviews must be unique`, failures);
     assert(
-      expectedCandidateKeys.every((key) => manifestCandidateKeySet.has(key)),
+      expectedCandidateKeys.every((key) => reviewedKeys.has(key)),
       `${product.id} manifest must explicitly review every exact-model search candidate`,
       failures,
     );
@@ -1158,14 +1565,11 @@ function validateIssueReviewManifest(root, products, failures) {
   }
 }
 
-function validateHistoricalPriceResearch(root, products, failures) {
-  const researchFile = path.join(root, "historical_price_research.json");
+function validateHistoricalPriceResearch(root, products, failures, incremental = null, documents = null) {
   const maintenanceReportFile = path.join(root, "catalog_maintenance_latest.json");
-  assert(fs.existsSync(researchFile), "historical_price_research.json is missing", failures);
-  if (!fs.existsSync(researchFile)) return;
-
-  const research = JSON.parse(fs.readFileSync(researchFile, "utf8"));
-  const maintenanceReport = fs.existsSync(maintenanceReportFile)
+  const research = readResearchDocument(root, "historical_price_research.json", failures, documents);
+  if (!research) return;
+  const maintenanceReport = documents ? documents["catalog_maintenance_latest.json"] : fs.existsSync(maintenanceReportFile)
     ? JSON.parse(fs.readFileSync(maintenanceReportFile, "utf8"))
     : null;
   const researchRows = Array.isArray(research.results) ? research.results : [];
@@ -1201,7 +1605,7 @@ function validateHistoricalPriceResearch(root, products, failures) {
       assert(summary[key] === expected, `historical price research summary ${key} is stale`, failures);
     }
     assert(summary.checkedAt === `${maintenanceReport.dataDate}T00:00:00.000+08:00`, "historical price research summary checkedAt is stale", failures);
-    assert(summary.researchedThisRun === products.length, "historical price research researchedThisRun is stale", failures);
+    assert(summary.researchedThisRun === (incremental?.addedIds.length ?? products.length), "historical price research researchedThisRun is stale", failures);
     assert(summary.sourcePolicy?.includes(maintenanceReport.dataDate), "historical price research source policy date is stale", failures);
     assert(summary.exchange?.USD_TWD === maintenanceReport.exchange?.USD_TWD, "historical price research USD exchange rate is stale", failures);
     assert(summary.exchange?.currentUSD_TWD === maintenanceReport.exchange?.USD_TWD, "historical price research current USD exchange rate is stale", failures);
@@ -1247,12 +1651,10 @@ function validateHistoricalPriceResearch(root, products, failures) {
   }
 }
 
-function validateReleaseResearch(root, products, failures) {
-  const researchFile = path.join(root, "release_date_research.json");
-  assert(fs.existsSync(researchFile), "release_date_research.json is missing", failures);
-  if (!fs.existsSync(researchFile)) return;
-
-  const research = JSON.parse(fs.readFileSync(researchFile, "utf8"));
+function validateReleaseResearch(root, products, failures, incremental = null, documents = null) {
+  const research = readResearchDocument(root, "release_date_research.json", failures, documents);
+  if (!research) return;
+  if (incremental) assert(research.summary?.checkedAt?.slice(0, 10) === incremental.report.dataDate, "incremental release research aggregate date mismatch", failures);
   const researchById = new Map((research.results || []).map((row) => [row.id, row]));
   assert(researchById.size === products.length, `release research count ${researchById.size} does not match products ${products.length}`, failures);
 
@@ -1260,6 +1662,9 @@ function validateReleaseResearch(root, products, failures) {
     const row = researchById.get(product.id);
     assert(row, `${product.id} missing release research row`, failures);
     if (!row) continue;
+    for (const field of ["category", "brand", "model", "name"]) {
+      assert(row[field] === product[field], `${product.id} release research ${field} mismatch`, failures);
+    }
     assert(row.releaseDate === product.releaseDate, `${product.id} release research date mismatch`, failures);
     if (product.releaseDate !== "找不到") {
       assert(row.sourceUrl, `${product.id} non-empty releaseDate requires sourceUrl`, failures);
@@ -1269,41 +1674,50 @@ function validateReleaseResearch(root, products, failures) {
   }
 }
 
-function validateDimensionResearch(root, products, failures) {
+function validateDimensionResearch(root, products, failures, incremental = null, documents = null, { skipCatalogCounts = false } = {}) {
   const dimensionProducts = products.filter((product) => DIMENSION_CATEGORIES.has(product.category));
   const weightProducts = products.filter((product) => WEIGHT_CATEGORIES.has(product.category));
-  assert(dimensionProducts.length === EXPECTED_DIMENSION_PRODUCT_COUNT, `expected ${EXPECTED_DIMENSION_PRODUCT_COUNT} dimension products, got ${dimensionProducts.length}`, failures);
-  for (const [categoryId, expectedCount] of DIMENSION_CATEGORY_COUNTS) {
-    const count = dimensionProducts.filter((product) => product.category === categoryId).length;
-    assert(count === expectedCount, `${categoryId} must have ${expectedCount} dimension products, got ${count}`, failures);
-  }
-  assert(weightProducts.length === EXPECTED_WEIGHT_PRODUCT_COUNT, `expected ${EXPECTED_WEIGHT_PRODUCT_COUNT} weight products, got ${weightProducts.length}`, failures);
-  for (const [categoryId, expectedCount] of WEIGHT_CATEGORY_COUNTS) {
-    const count = weightProducts.filter((product) => product.category === categoryId).length;
-    assert(count === expectedCount, `${categoryId} must have ${expectedCount} weight products, got ${count}`, failures);
+  if (!skipCatalogCounts) {
+    assert(dimensionProducts.length === EXPECTED_DIMENSION_PRODUCT_COUNT, `expected ${EXPECTED_DIMENSION_PRODUCT_COUNT} dimension products, got ${dimensionProducts.length}`, failures);
+    for (const [categoryId, expectedCount] of DIMENSION_CATEGORY_COUNTS) {
+      const count = dimensionProducts.filter((product) => product.category === categoryId).length;
+      assert(count === expectedCount, `${categoryId} must have ${expectedCount} dimension products, got ${count}`, failures);
+    }
+    assert(weightProducts.length === EXPECTED_WEIGHT_PRODUCT_COUNT, `expected ${EXPECTED_WEIGHT_PRODUCT_COUNT} weight products, got ${weightProducts.length}`, failures);
+    for (const [categoryId, expectedCount] of WEIGHT_CATEGORY_COUNTS) {
+      const count = weightProducts.filter((product) => product.category === categoryId).length;
+      assert(count === expectedCount, `${categoryId} must have ${expectedCount} weight products, got ${count}`, failures);
+    }
   }
 
-  const researchFile = path.join(root, "dimension_research.json");
-  assert(fs.existsSync(researchFile), "dimension_research.json is missing", failures);
-  if (!fs.existsSync(researchFile)) return;
-
-  const research = JSON.parse(fs.readFileSync(researchFile, "utf8"));
+  const research = readResearchDocument(root, "dimension_research.json", failures, documents);
+  if (!research) return;
+  if (incremental) assert(research.generatedAt === incremental.report.dataDate, "incremental dimension research aggregate date mismatch", failures);
   assert(/^\d{4}-\d{2}-\d{2}$/.test(String(research.generatedAt || "")), "dimension research requires YYYY-MM-DD generatedAt", failures);
-  for (const categoryLabel of [
-    "電視",
-    "Soundbar",
-    "洗衣機",
-    "烘衣機",
-    "洗烘衣機",
-    "電子衣櫥",
-    "冰箱",
-    "咖啡機",
-    "多功能氣炸烤箱／微波爐",
-    "洗碗機",
-    "免治馬桶",
-    "冷氣",
-    "熱水器",
+  for (const [category, categoryLabel] of [
+    ["tv", "電視"],
+    ["soundbar", "Soundbar"],
+    ["washer", "洗衣機"],
+    ["dryer", "烘衣機"],
+    ["washerdryer", "洗烘衣機"],
+    ["garmentcare", "電子衣櫥"],
+    ["refrigerator", "冰箱"],
+    ["coffee", "咖啡機"],
+    ["oven", "多功能氣炸烤箱／微波爐"],
+    ["dishwasher", "洗碗機"],
+    ["bidet", "免治馬桶"],
+    ["aircon", "冷氣"],
+    ["waterheater", "熱水器"],
+    ["network-switch", "網路交換器"],
+    ["monitor-light", "螢幕燈"],
+    ["mouse", "滑鼠"],
+    ["keyboard", "鍵盤"],
+    ["mousepad", "滑鼠墊"],
+    ["bedsheet", "床包"],
+    ["comforter", "棉被"],
+    ["pillow", "枕頭"],
   ]) {
+    if (!dimensionProducts.some((product) => product.category === category)) continue;
     assert(
       String(research.sourcePolicy || "").includes(categoryLabel),
       `dimension research source policy must include ${categoryLabel}`,
@@ -1325,15 +1739,37 @@ function validateDimensionResearch(root, products, failures) {
     const row = researchById.get(product.id);
     assert(row, `${product.id} missing dimension research row`, failures);
     if (!row) continue;
+    if (PERIPHERAL_TYPES[product.category] || BEDDING_TYPES[product.category]) {
+      for (const field of ["category", "brand", "model", "name"]) {
+        assert(row[field] === product[field], `${product.id} dimension research ${field} mismatch`, failures);
+      }
+    }
 
     const dimensionSpecs = product.specs.filter((spec) => String(spec).trim().startsWith("尺寸："));
     const dimensionSpec = dimensionSpecs[0];
     assert(row.dimension === dimensionSpec, `${product.id} dimension research mismatch`, failures);
-    assert(DIMENSION_PATTERN.test(String(row.dimension || "").trim()), `${product.id} dimension research has invalid dimension: ${row.dimension}`, failures);
+    if (product.category === "bedsheet") {
+      const pocketHeight = product.specs.find((spec) => String(spec).startsWith("可包覆高度："));
+      assert(row.pocketHeight === pocketHeight, `${product.id} pocket-height research mismatch`, failures);
+    }
+    if (product.category === "comforter") {
+      const fillWeight = product.specs.find((spec) => String(spec).startsWith("填充重量："));
+      assert(row.fillWeight === fillWeight, `${product.id} fill-weight research mismatch`, failures);
+    }
+    assert(dimensionPatternForCategory(product.category).test(String(row.dimension || "").trim()), `${product.id} dimension research has invalid dimension: ${row.dimension}`, failures);
     assert(isHttpUrl(row.sourceUrl), `${product.id} dimension research requires a valid http(s) sourceUrl`, failures);
     assert(!isSearchDiscoveryUrl(row.sourceUrl), `${product.id} dimension research must cite an original product/spec page`, failures);
     assert(row.sourceTitle, `${product.id} dimension research requires sourceTitle`, failures);
     assert(row.evidenceSnippet, `${product.id} dimension research requires evidenceSnippet`, failures);
+    if (BEDDING_TYPES[product.category]) {
+      assert(measurementEvidenceSupportsSpec(row.dimension, row.evidenceSnippet), `${product.id} dimension evidence does not support the recorded value`, failures);
+      if (product.category === "bedsheet") {
+        assert(measurementEvidenceSupportsSpec(row.pocketHeight, row.evidenceSnippet), `${product.id} pocket-height evidence does not support the recorded value`, failures);
+      }
+      if (product.category === "comforter") {
+        assert(measurementEvidenceSupportsSpec(row.fillWeight, row.evidenceSnippet), `${product.id} fill-weight evidence does not support the recorded value`, failures);
+      }
+    }
     assert(DIMENSION_CONFIDENCE_VALUES.has(row.confidence), `${product.id} dimension research has invalid confidence: ${row.confidence}`, failures);
     assert(typeof row.isOfficialSource === "boolean", `${product.id} dimension research requires boolean isOfficialSource`, failures);
     assert(/^\d{4}-\d{2}-\d{2}$/.test(String(row.checkedAt || "")), `${product.id} dimension research requires YYYY-MM-DD checkedAt`, failures);
@@ -1359,11 +1795,14 @@ function validateDimensionResearch(root, products, failures) {
       const weightSpecs = product.specs.filter((spec) => String(spec).trim().startsWith("重量："));
       const weightSpec = weightSpecs[0];
       assert(row.weight === weightSpec, `${product.id} weight research mismatch`, failures);
-      assert(WEIGHT_PATTERN.test(String(row.weight || "").trim()), `${product.id} weight research has invalid weight: ${row.weight}`, failures);
+      assert(weightPatternForCategory(product.category).test(String(row.weight || "").trim()), `${product.id} weight research has invalid weight: ${row.weight}`, failures);
       assert(isHttpUrl(row.weightSourceUrl), `${product.id} weight research requires a valid http(s) weightSourceUrl`, failures);
       assert(!isSearchDiscoveryUrl(row.weightSourceUrl), `${product.id} weight research must cite an original product/spec page`, failures);
       assert(row.weightSourceTitle, `${product.id} weight research requires weightSourceTitle`, failures);
       assert(row.weightEvidenceSnippet, `${product.id} weight research requires weightEvidenceSnippet`, failures);
+      if (BEDDING_TYPES[product.category]) {
+        assert(measurementEvidenceSupportsSpec(row.weight, row.weightEvidenceSnippet), `${product.id} weight evidence does not support the recorded value`, failures);
+      }
       assert(WEIGHT_CONFIDENCE_VALUES.has(row.weightConfidence), `${product.id} weight research has invalid weightConfidence: ${row.weightConfidence}`, failures);
       assert(typeof row.weightIsOfficialSource === "boolean", `${product.id} weight research requires boolean weightIsOfficialSource`, failures);
       assert(/^\d{4}-\d{2}-\d{2}$/.test(String(row.weightCheckedAt || "")), `${product.id} weight research requires YYYY-MM-DD weightCheckedAt`, failures);
@@ -1386,7 +1825,32 @@ function validateDimensionResearch(root, products, failures) {
   }
 }
 
+function expectedIssueEvidenceDate(root, products, documents, failures, incremental) {
+  if (incremental) return incremental.report.dataDate;
+  try {
+    return resolveIssueEvidenceDate(root, documents["catalog_maintenance_latest.json"], products, documents, CHECKED_AT);
+  } catch (error) {
+    failures.push(error.message);
+    return CHECKED_AT;
+  }
+}
+
+function validateResearchDocuments(products, documents, failures, incremental = null, { root = path.resolve(__dirname, ".."), skipCatalogCounts = true } = {}) {
+  const issueDate = expectedIssueEvidenceDate(root, products, documents, failures, incremental);
+  products.forEach((product) => validateIssueResearch(product, failures));
+  validateReleaseResearch(null, products, failures, incremental, documents);
+  // Bundle preflight checks every supplied product, independently of final catalog quotas.
+  validateDimensionResearch(null, products, failures, incremental, documents, { skipCatalogCounts });
+  validateHistoricalPriceResearch("", products, failures, incremental, documents);
+  validateIssueReviewManifest(null, products, failures, incremental, documents, issueDate);
+  validateIssueResearchFile(null, products, failures, incremental, documents, issueDate);
+}
+
 function validateCategoryContent(products, failures) {
+  validatePeripheralCatalog(products, failures);
+  validateBeddingCatalog(products, failures);
+  const monitorLightProducts = categoryProducts(products, "monitor-light");
+  if (monitorLightProducts.length) assert(monitorLightProducts.filter((product) => product.topPick).length === 1, "monitor-light must have exactly one Top Pick", failures);
   for (const [categoryId, requiredTerms] of REQUIRED_CATEGORY_TERMS) {
     const productsInCategory = categoryProducts(products, categoryId);
     for (const term of requiredTerms) {
@@ -1409,6 +1873,19 @@ function validateCategoryContent(products, failures) {
   for (const product of categoryProducts(products, "wifi")) {
     assert(/wi-fi (6|6e|7)/.test(productText(product)), `${product.id} router missing Wi-Fi 6+ standard`, failures);
   }
+
+  const networkSwitchProducts = categoryProducts(products, "network-switch");
+  assert(networkSwitchProducts.length === 20, `network-switch must contain exactly 20 products, got ${networkSwitchProducts.length}`, failures);
+  for (const [type, minimumCount] of NETWORK_SWITCH_TYPE_MIN_COUNTS) {
+    const count = networkSwitchProducts.filter((product) => product.type === type).length;
+    assert(count >= minimumCount, `network-switch ${type} count must be at least ${minimumCount}, got ${count}`, failures);
+  }
+  const networkSwitchTopPicks = networkSwitchProducts.filter((product) => product.topPick);
+  assert(
+    networkSwitchTopPicks.length === 1 && networkSwitchTopPicks[0].model === NETWORK_SWITCH_TOP_PICK_MODEL,
+    `network-switch Top Pick must be ${NETWORK_SWITCH_TOP_PICK_MODEL}`,
+    failures,
+  );
 
   for (const product of categoryProducts(products, "tv")) {
     assert(productText(product).includes("手機投影："), `${product.id} TV missing mobile casting spec`, failures);
@@ -1649,12 +2126,23 @@ function validateJapaneseBrandReview(category, row, productById, dataDate, expec
   }
 }
 
-function validateMaintenanceReport(root, categories, products, dataDate, failures) {
+function validateMaintenanceReport(root, categories, products, dataDate, exchange, failures, reportOverride = null) {
   const reportFile = path.join(root, "catalog_maintenance_latest.json");
   assert(fs.existsSync(reportFile), `missing maintenance report for ${dataDate}`, failures);
   if (!fs.existsSync(reportFile)) return;
 
-  const report = JSON.parse(fs.readFileSync(reportFile, "utf8"));
+  const report = reportOverride || JSON.parse(fs.readFileSync(reportFile, "utf8"));
+  let incremental = null;
+  assert(report.auditScope === undefined || report.auditScope === ADDED_PRODUCTS_SCOPE, "unsupported maintenance auditScope", failures);
+  if (report.auditScope === ADDED_PRODUCTS_SCOPE) {
+    try {
+      const baseline = loadIncrementalBaseline(root, report.baselineRef);
+      incremental = assertIncrementalBaselinePreserved({ report, catalog: { categories, products, exchange }, baseline, documents: readEvidenceDocuments(root) });
+      validateMaintenanceReport(root, baseline.categories, baseline.products, baseline.meta.dataDate, baseline.exchange, failures, baseline.report);
+    } catch (error) {
+      failures.push(error.message);
+    }
+  }
   const productIds = products.map((product) => product.id).sort();
   const productIdSet = new Set(productIds);
   const historicalProductIds = products
@@ -1689,7 +2177,7 @@ function validateMaintenanceReport(root, categories, products, dataDate, failure
   ]);
   for (const id of addedIds) {
     assert(productById.has(id), `maintenance summary references unknown added product ${id}`, failures);
-    if (productById.has(id)) validatePriceAndInstallationContract(productById.get(id), failures, true);
+    if (productById.has(id)) validatePriceAndInstallationContract(productById.get(id), failures, true, exchange);
   }
   const baselineById = new Map(products
     .filter((product) => !addedIds.has(product.id))
@@ -1710,6 +2198,8 @@ function validateMaintenanceReport(root, categories, products, dataDate, failure
     );
     assert(row?.finalProductCount === count, `${category.id} maintenance scan product count is stale`, failures);
     assert(row?.minimumSatisfied === (count >= MIN_PRODUCTS_PER_CATEGORY), `${category.id} maintenance minimum flag is stale`, failures);
+    // Only immutable, unchanged baseline rows may retain their original review date.
+    if (incremental?.baseline.categories.some((previous) => previous.id === category.id)) continue;
     const expectedReviews = buildJapaneseBrandReview({
       category,
       products,
@@ -1735,6 +2225,17 @@ function validateMaintenanceReport(root, categories, products, dataDate, failure
       carriedReviewMatches,
       failures,
     );
+  }
+  for (const [categoryId, reviews] of Object.entries(report.addedProductReview?.manualJapaneseBrandReview || {})) {
+    const canonicalReviews = new Map((categoryScan.get(categoryId)?.japaneseBrandReview || []).map((review) => [review.brand, review]));
+    for (const review of reviews) {
+      const canonical = canonicalReviews.get(review.brand);
+      assert(
+        canonical?.status === review.status && canonical?.checkedAt === review.checkedAt,
+        `${categoryId} ${review.brand} manual Japanese-brand review contradicts categoryScan`,
+        failures,
+      );
+    }
   }
 
   const validateCompactAudit = (name, audit, expectedIds, verifiedKey, expectedExceptionCount) => {
@@ -1791,18 +2292,29 @@ function validateMaintenanceReport(root, categories, products, dataDate, failure
     .filter((row) => row.disposition === "manual_official_evidence_required");
   assert(pendingDiscontinuationReviews.length === 0, "maintenance report has unreviewed official discontinuation candidates", failures);
   assert(report.summary?.officialDiscontinuedPendingReview === 0, "maintenance discontinuation review summary is stale", failures);
+  return incremental;
 }
 
 function main() {
   const root = path.resolve(__dirname, "..");
   const failures = [];
-  const { categories, products, meta } = readDashboardProducts(root);
+  const { categories, products, exchange, meta } = readDashboardProducts(root);
   const categoryIds = new Set(categories.map((category) => category.id));
 
   assert(categories.length === EXPECTED_CATEGORY_COUNT, `expected ${EXPECTED_CATEGORY_COUNT} categories, got ${categories.length}`, failures);
   assert(products.length === EXPECTED_PRODUCT_COUNT, `expected ${EXPECTED_PRODUCT_COUNT} products, got ${products.length}`, failures);
   const coffeeCategoryIndex = categories.findIndex((category) => category.id === "coffee");
   assert(coffeeCategoryIndex > 0 && categories[coffeeCategoryIndex - 1]?.id === "blender", "coffee category must appear immediately after blender", failures);
+  const beddingCategoryIndex = categories.findIndex((category) => category.id === "bedsheet");
+  assert(
+    beddingCategoryIndex > 0
+      && categories[beddingCategoryIndex - 1]?.id === "garmentcare"
+      && categories.slice(beddingCategoryIndex, beddingCategoryIndex + 3).map((category) => category.id).join(",") === "bedsheet,comforter,pillow"
+      && categories[beddingCategoryIndex + 3]?.id === "refrigerator"
+      && categories.slice(beddingCategoryIndex, beddingCategoryIndex + 3).every((category) => category.group === "臥室寢具"),
+    "bedding categories must form the 臥室寢具 group between garmentcare and refrigerator",
+    failures,
+  );
   const missingIssueResearchIds = products
     .filter((product) => !product.issueResearch || typeof product.issueResearch !== "object" || Array.isArray(product.issueResearch))
     .map((product) => product.id);
@@ -1872,13 +2384,12 @@ function main() {
     }
   }
 
-  validateReleaseResearch(root, products, failures);
-  validateDimensionResearch(root, products, failures);
-  validateHistoricalPriceResearch(root, products, failures);
-  validateIssueReviewManifest(root, products, failures);
-  validateIssueResearchFile(root, products, failures);
+  const incremental = validateMaintenanceReport(root, categories, products, meta.dataDate, exchange, failures);
+  validateResearchDocuments(products, {
+    ...readEvidenceDocuments(root),
+    "catalog_maintenance_latest.json": JSON.parse(fs.readFileSync(path.join(root, "catalog_maintenance_latest.json"), "utf8")),
+  }, failures, incremental, { root, skipCatalogCounts: false });
   validateCategoryContent(products, failures);
-  validateMaintenanceReport(root, categories, products, meta.dataDate, failures);
 
   if (failures.length) {
     console.error(failures.map((failure) => `- ${failure}`).join("\n"));
@@ -1898,7 +2409,17 @@ function main() {
 if (require.main === module) main();
 
 module.exports = {
+  validateCandidateReview,
   validateAirconProduct,
+  validateNetworkSwitchProduct,
+  validateMonitorLightProduct,
+  validatePeripheralProduct,
+  validatePeripheralCatalog,
+  validateBeddingProduct,
+  validateBeddingCatalog,
+  measurementEvidenceSupportsSpec,
+  validateMaintenanceReport,
   validatePriceAndInstallationContract,
   validateWaterheaterProduct,
+  validateResearchDocuments,
 };

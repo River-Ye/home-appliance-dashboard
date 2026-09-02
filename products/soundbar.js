@@ -17,9 +17,9 @@
     "name": "11.1.4 聲道旗艦 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 42655,
-      "converted": 42655,
-      "confidence": "Yahoo購物中心 2026-08-18 exact-model 公開結構化價格"
+      "amount": 44900,
+      "converted": 44900,
+      "confidence": "Yahoo購物中心 2026-08-31 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900JMDR5/000001_1773978957.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Samsung-%E4%B8%89%E6%98%9F-11-1-4%E8%81%B2%E9%81%93-%E8%97%8D%E7%89%99%E8%81%B2%E9%9C%B8-HW-Q990F-ZW-11688500.html",
@@ -51,10 +51,23 @@
       "後環繞",
       "旗艦"
     ],
-    "releaseDate": "2025",
+    "releaseDate": "2025-03-26",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-14",
+      "note": "原記錄的 PChome HW-Q990F 商品 API 已不再回傳商品資料；本輪重新查核後找不到可公開重現 NT$42,914 的可信新品來源，因此不再保留無法驗證的 found 判定。"
+    },
     "issueResearch": {
       "status": "common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-08-29",
       "summary": "多位 HW-Q990F 使用者回報播放途中會隨機斷音，部分同時凍結、重置或必須重新啟動才能恢復。",
       "issues": [
         {
@@ -85,19 +98,6 @@
           ]
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 42655,
-      "currency": "TWD",
-      "converted": 42655,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1251959744&cgp=44900",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：三星 HW-Q990F SoundBar重低音與後環繞喇叭 11.1.4聲道",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / 三星 HW-Q990F SoundBar重低音與後環繞喇叭 11.1.4聲道」最低價為 NT$42,655，最低點日期 2026-08-13。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -145,7 +145,7 @@
       "均衡",
       "後環繞"
     ],
-    "releaseDate": "2026",
+    "releaseDate": "2026-04",
     "historicalLow": {
       "status": "found",
       "amount": 31255,
@@ -161,7 +161,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -243,7 +243,7 @@
       "重低音",
       "對白"
     ],
-    "releaseDate": "2025",
+    "releaseDate": "2026-01-06",
     "historicalLow": {
       "status": "found",
       "amount": 10700,
@@ -259,7 +259,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-20",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -307,9 +307,9 @@
     "name": "BRAVIA Theatre Bar 7 5.0.2 聲道 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 20610,
-      "converted": 20610,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 21755,
+      "converted": 21755,
+      "confidence": "PChome 2026-08-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAAN8A900K0Y8L/000001_1779181877.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAN8-A900K0Y8L",
@@ -360,7 +360,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -442,7 +442,7 @@
       "音樂",
       "Wi-Fi"
     ],
-    "releaseDate": "2024-10-15",
+    "releaseDate": "2024-10-29",
     "historicalLow": {
       "status": "found",
       "amount": 37710,
@@ -458,7 +458,7 @@
     },
     "issueResearch": {
       "status": "common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-08-29",
       "summary": "多位 Arc Ultra 使用者回報播放不同內容時會隨機出現爆音、啪聲或靜電聲，部分伴隨短暫音訊中斷。",
       "issues": [
         {
@@ -531,7 +531,7 @@
       "電影",
       "中價位"
     ],
-    "releaseDate": "2023",
+    "releaseDate": "2025-06",
     "historicalLow": {
       "status": "found",
       "amount": 20899,
@@ -547,7 +547,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-20",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -595,9 +595,9 @@
     "name": "Q 系列 9.1.4 聲道 Soundbar 家庭劇院",
     "price": {
       "currency": "TWD",
-      "amount": 42886,
-      "converted": 42886,
-      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 49900,
+      "converted": 49900,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900K3QSM/000001_1782969828.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAOD-A900K3QSM",
@@ -645,7 +645,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -727,7 +727,7 @@
       "中階",
       "電視搭配"
     ],
-    "releaseDate": "2025-01-15",
+    "releaseDate": "2025-04-09",
     "historicalLow": {
       "status": "found",
       "amount": 17900,
@@ -743,7 +743,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-20",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -841,7 +841,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-20",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -889,9 +889,9 @@
     "name": "Q 系列 11.1.4 聲道 Soundbar 家庭劇院",
     "price": {
       "currency": "TWD",
-      "amount": 56905,
-      "converted": 56905,
-      "confidence": "Yahoo購物中心 2026-08-18 exact-model 公開結構化價格"
+      "amount": 59900,
+      "converted": 59900,
+      "confidence": "Yahoo購物中心 2026-08-31 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADO2A900K5VUT/000001_1782993730.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Samsung%E4%B8%89%E6%98%9F-11-1-4%E8%81%B2%E9%81%93-%E8%97%8D%E7%89%99%E8%81%B2%E9%9C%B8-HW-Q990H-ZW-12124621.html",
@@ -923,7 +923,7 @@
       "旗艦",
       "劇院"
     ],
-    "releaseDate": "2026",
+    "releaseDate": "2026-04",
     "historicalLow": {
       "status": "found",
       "amount": 56905,
@@ -939,7 +939,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -987,9 +987,9 @@
     "name": "Q 系列 7.1.2 聲道 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 35055,
-      "converted": 35055,
-      "confidence": "Yahoo購物中心 2026-08-18 exact-model 公開結構化價格"
+      "amount": 36900,
+      "converted": 36900,
+      "confidence": "Yahoo購物中心 2026-08-31 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900K5489/000001_1782988490.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Samsung%E4%B8%89%E6%98%9F-7-1-2%E8%81%B2%E9%81%93-%E8%97%8D%E7%89%99%E8%81%B2%E9%9C%B8-HW-QS90H-ZW-12124562.html",
@@ -1021,7 +1021,7 @@
       "客廳",
       "均衡"
     ],
-    "releaseDate": "2026-04-02",
+    "releaseDate": "2026-04",
     "historicalLow": {
       "status": "found",
       "amount": 35055,
@@ -1037,7 +1037,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1087,7 +1087,7 @@
       "currency": "TWD",
       "amount": 8541,
       "converted": 8541,
-      "confidence": "Yahoo購物中心 2026-08-18 exact-model 公開結構化價格"
+      "confidence": "Yahoo購物中心 2026-09-02 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900GHTFE/000001_1776774078.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SONY-%E7%B4%A2%E5%B0%BC-5-1-%E8%81%B2%E9%81%93-SOUNDBAR-%E5%AE%B6%E5%BA%AD%E5%8A%87%E9%99%A2%E7%B5%84-HT-S40R-10067449.html",
@@ -1119,7 +1119,7 @@
       "入門劇院",
       "Sony"
     ],
-    "releaseDate": "2025",
+    "releaseDate": "2021-05",
     "historicalLow": {
       "status": "found",
       "amount": 7751,
@@ -1135,7 +1135,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-20",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1233,7 +1233,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-20",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1315,7 +1315,7 @@
       "小客廳",
       "均衡"
     ],
-    "releaseDate": "2026",
+    "releaseDate": "2025-06",
     "historicalLow": {
       "status": "found",
       "amount": 13261,
@@ -1331,7 +1331,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1379,9 +1379,9 @@
     "name": "7.1 聲道家庭劇院喇叭",
     "price": {
       "currency": "TWD",
-      "amount": 27161,
-      "converted": 27161,
-      "confidence": "Yahoo購物中心 2026-08-18 exact-model 公開結構化價格"
+      "amount": 28590,
+      "converted": 28590,
+      "confidence": "Yahoo購物中心 2026-08-31 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAHGA900J56OK/000001_1755250707.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/JBL-BAR800-MK2-7-1%E8%81%B2%E9%81%93%E5%AE%B6%E5%BA%AD%E5%8A%87%E9%99%A2%E5%96%87%E5%8F%AD-%E8%8B%B1%E5%A4%A7%E5%85%AC%E5%8F%B8%E8%B2%A8%E4%B8%80%E5%B9%B4%E4%BF%9D%E5%9B%BA-12156647.html",
@@ -1413,7 +1413,7 @@
       "後環繞",
       "客廳"
     ],
-    "releaseDate": "2022",
+    "releaseDate": "2025-06",
     "historicalLow": {
       "status": "found",
       "amount": 27161,
@@ -1429,7 +1429,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-20",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1511,7 +1511,7 @@
       "音樂",
       "簡潔"
     ],
-    "releaseDate": "2022-10-10",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -1527,7 +1527,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1625,7 +1625,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1675,7 +1675,7 @@
       "currency": "TWD",
       "amount": 29900,
       "converted": 29900,
-      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900HTC64/000001_1781747501.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM1D-A900HTC64",
@@ -1707,7 +1707,7 @@
       "Sony",
       "高階"
     ],
-    "releaseDate": "2026",
+    "releaseDate": "2024-06-01",
     "historicalLow": {
       "status": "found",
       "amount": 20900,
@@ -1723,7 +1723,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1773,7 +1773,7 @@
       "currency": "TWD",
       "amount": 42900,
       "converted": 42900,
-      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900I0ZKD/000001_1783764143.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM1D-A900I0ZKD",
@@ -1805,7 +1805,7 @@
       "Atmos",
       "Sony"
     ],
-    "releaseDate": "2024-04-17",
+    "releaseDate": "2024-06-01",
     "historicalLow": {
       "status": "found",
       "amount": 27900,
@@ -1821,7 +1821,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1903,7 +1903,7 @@
       "可拆環繞",
       "重低音"
     ],
-    "releaseDate": "2025-06-12",
+    "releaseDate": "2025-06",
     "historicalLow": {
       "status": "found",
       "amount": 40755,
@@ -1919,7 +1919,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1967,9 +1967,9 @@
     "name": "Fidelio 7.1.2 Dolby Atmos 旗艦聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 38900,
-      "converted": 38900,
-      "confidence": "PChome 2026-07-31 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 34930,
+      "converted": 34930,
+      "confidence": "PChome 2026-08-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAF02A900H2G5R/000001_1704612188.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAF02-A900H2G5R",
@@ -2004,20 +2004,20 @@
     "releaseDate": "2022",
     "historicalLow": {
       "status": "found",
-      "amount": 35010,
+      "amount": 34930,
       "currency": "TWD",
-      "converted": 35010,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1277745007&cgp=35010",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：PHILIPS飛利浦 7.1.2聲道 重低音聲霸喇叭 TAFB1/96 天空聲道",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / PHILIPS飛利浦 7.1.2聲道 重低音聲霸喇叭 TAFB1/96 天空聲道」最低價為 NT$35,010，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 34930,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMAF02-A900H2G5R",
+      "sourceTitle": "PChome 24h 購物：飛利浦 PHILIPS TAFB1/96 Fidelio Soundbar 7.1.2聲道Dolby Atmos IMAX 無線家庭劇院旗艦級聲霸音響",
+      "evidenceSnippet": "PChome 24h 購物於 2026-08-29 顯示同型號可信新品公開價 NT$34,930，低於既有史低 NT$35,010。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-08-29",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2066,8 +2066,8 @@
     "price": {
       "currency": "USD",
       "amount": 1299.99,
-      "converted": 41460,
-      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-08-19 匯率換算"
+      "converted": 41209,
+      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-09-01 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/2C2sn9CKoKFdIyd94Gm9z5/f3019d4e721511167ebe5c229bf490dd/heston-120_plp.jpg",
     "buyUrl": "https://www.marshall.com/us/en/product/heston-120",
@@ -2117,7 +2117,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-20",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2165,9 +2165,10 @@
     "name": "5.1 聲道 Dolby Atmos 緊湊型 Soundbar",
     "price": {
       "currency": "USD",
-      "amount": 699.99,
-      "converted": 22324,
-      "confidence": "Marshall US 官方 2026-07-21 現貨價；ExchangeRate-API 2026-08-19 匯率換算"
+      "amount": 549.99,
+      "converted": 17435,
+      "confidence": "2026-08-31 人工核對 Marshall US 官方 Heston 60 公開可購主價 USD 549.99；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-09-01 匯率換算",
+      "basis": "retailer_current"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/3yitHqjPBTgQk5qRE72PSn/2788206646aa153f71f2c0ebefaff580/Heston-60-black_plp_800x800-v3.jpeg",
     "buyUrl": "https://www.marshall.com/us/en/product/heston-60?pid=1008949",
@@ -2218,7 +2219,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-20",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2300,7 +2301,7 @@
       "Atmos",
       "重低音"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2022-01",
     "historicalLow": {
       "status": "found",
       "amount": 11599,
@@ -2316,7 +2317,7 @@
     },
     "issueResearch": {
       "status": "common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-08-29",
       "summary": "多位 DHT-S517 使用者回報 HDMI ARC/eARC 或 Bluetooth 播放時會隨機短暫斷音，部分需切換輸入或重新啟動才恢復。",
       "issues": [
         {
@@ -2360,9 +2361,9 @@
     "name": "2.1 聲道無線重低音 Dolby Atmos 聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 6039,
-      "converted": 6039,
-      "confidence": "Costco 好市多 2026-08-17 exact-model 公開結構化價格"
+      "amount": 7599,
+      "converted": 7599,
+      "confidence": "Costco 好市多 2026-08-31 exact-model 公開結構化價格"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h84/h32/278946106834974.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Soundbars-Home-Theater/Philips-21-CH-Soundbar-TAB6309/p/147918",
@@ -2397,7 +2398,7 @@
       "Atmos",
       "重低音"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2024-06",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -2413,7 +2414,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2463,7 +2464,7 @@
       "currency": "TWD",
       "amount": 602,
       "converted": 602,
-      "confidence": "Yahoo購物中心 2026-08-18 exact-model 公開結構化價格"
+      "confidence": "Yahoo購物中心 2026-09-02 exact-model 公開結構化價格"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h21/hac/367883491278878.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Soodatek-2-0%E8%81%B2%E9%81%93%E4%BA%8C%E5%90%88%E4%B8%80Soundbar-SS0220-CS2000PBK-11633433.html",
@@ -2513,7 +2514,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2602,20 +2603,20 @@
     "releaseDate": "2025-10",
     "historicalLow": {
       "status": "found",
-      "amount": 176107,
+      "amount": 176091,
       "currency": "JPY",
-      "converted": 35193,
+      "converted": 34934,
       "sourceUrl": "https://kakaku.com/item/K0001712395/pricehistory/",
       "sourceTitle": "価格.com：JBL BAR 1300MK2 [ブラック] 価格推移",
-      "evidenceSnippet": "価格.com 日別價格歷史顯示 exact-model「JBL BAR 1300MK2 [ブラック]」於 2026-06-22、2026-06-23 的新品最低價為 ¥176,107；2025-10 初始價格為 ¥205,306。",
+      "evidenceSnippet": "価格.com 日別價格歷史顯示 exact-model「JBL BAR 1300MK2 [ブラック]」於 2026-06-17 的新品最低價為 ¥176,091；2025-10 初始價格為 ¥205,306。",
       "sourceKind": "price_history",
       "confidence": "medium",
-      "checkedAt": "2026-07-24",
-      "note": "採日本市場 exact-model 公開價格歷史並依 2026-08-19 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
+      "checkedAt": "2026-08-25",
+      "note": "採日本市場 exact-model 公開價格歷史並依 2026-09-01 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-20",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2669,7 +2670,7 @@
       "confidence": "雅光電器 2026-08-14 exact-model 新品頁公開售價並標示尚有庫存",
       "basis": "retailer_current"
     },
-    "image": "https://img.yk01.com.tw/product/SC-HTB334GTK-2.png",
+    "image": "https://cdn1-next.cybassets.com/media/W1siZiIsIjI3Njc0L3Byb2R1Y3RzLzYxNzQwOTc0LzE3NjI0MTAxMDVfNGMwMjA0ZGE2MzI5MzI3ZTA2ZmYucG5nIl0sWyJwIiwidGh1bWIiLCI0ODB4NDgwIl1d.png?sha=57bf19743a9c3d5b",
     "buyUrl": "https://www.yk01.com.tw/products/schtb334gtk",
     "buyLabel": "雅光電器",
     "installation": {
@@ -2722,7 +2723,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2758,6 +2759,514 @@
         }
       ]
     }
+  },
+  {
+    "id": "soundbar-sennheiser-ambeo-mini",
+    "category": "soundbar",
+    "rank": 29,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Sennheiser",
+    "model": "AMBEO Soundbar Mini",
+    "name": "AMBEO Soundbar Mini 7.1.4 虛擬聲道 Dolby Atmos 聲霸",
+    "price": {
+      "currency": "TWD",
+      "amount": 19900,
+      "converted": 19900,
+      "confidence": "Sennheiser 台灣官方商城於 2026-08-20 的 exact-model 可購公開售價 NT$19,900",
+      "basis": "retailer_current"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "台灣官方商城價格為主機商品價，未標示含到府或壁掛安裝；桌上擺放可自行連接 HDMI eARC，壁掛配件與施工需另行確認。"
+    },
+    "image": "https://tw.sennheiser-hearing.com/cdn/shop/files/SBMiniwithicon_1810a5e8-dd2e-4343-af92-ed6036565d5e.png?v=1757563435",
+    "buyUrl": "https://tw.sennheiser-hearing.com/zh-tw/products/ambeo-soundbar-mini",
+    "buyLabel": "Sennheiser 台灣官方商城 exact-model 新品",
+    "specs": [
+      "虛擬 7.1.4 聲道；Dolby Atmos、DTS:X、MPEG-H、360 Reality Audio",
+      "6 組 Class-D 擴大模組，總輸出 250W RMS",
+      "4 組全音域單體與 2 組 4 吋低音單體",
+      "HDMI eARC；Wi-Fi、Bluetooth、AirPlay 2、Chromecast built-in、Spotify Connect、TIDAL Connect",
+      "尺寸：不含腳墊 寬 70 x 深 10.1 x 高 6.7 cm；含腳墊 寬 70 x 深 10.1 x 高 6.9 cm",
+      "重量：主機 3.3 kg",
+      "可加購最多 4 顆 AMBEO Sub，原價未含重低音或後環繞"
+    ],
+    "description": "70 公分短機身把 Sennheiser 的 AMBEO 空間校正與虛擬 7.1.4 帶進小型客廳，補上重視單機音質與小空間擺位的知名音響品牌。",
+    "pros": [
+      "短機身仍支援 Dolby Atmos、DTS:X 與自動空間校正",
+      "AirPlay 2、Chromecast built-in 與主流串流協定完整",
+      "台灣官方商城直接現售，規格、電力與售後來源一致"
+    ],
+    "cons": [
+      "原價不含獨立重低音與實體後環繞，低頻量感及包圍感仍受單機限制",
+      "少數 exact-model 原始討論提到 HDMI eARC 喚醒或輸出異常，但同症狀未達 6 人且未跨 2 站門檻；建議在退換期測試電視連動",
+      "官方商城未標示含壁掛安裝"
+    ],
+    "bestFor": "電視櫃寬度有限、重視人聲與空間校正，並希望以單機先建立 Atmos 系統的小至中型客廳。",
+    "recommendation": "小空間音質推薦：不是靠超長機身或多件套取勝，而是以 AMBEO 處理、完整串流與可後加重低音提供不同擴充路線。",
+    "releaseDate": "2023-09-01",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-20",
+      "note": "已查台灣官方商城、PChome exact-model 公司貨頁與台灣比價入口；目前 NT$19,900 為可購現價，未找到帶日期、可公開重現且排除會員個人化折扣的可信新品史低，故不把現價冒充史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-29",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Sennheiser AMBEO Soundbar Mini\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Sennheiser%20AMBEO%20Soundbar%20Mini%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Sennheiser AMBEO Soundbar Mini\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Sennheiser%20AMBEO%20Soundbar%20Mini%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Sennheiser AMBEO Soundbar Mini\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Sennheiser%20AMBEO%20Soundbar%20Mini%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Sennheiser AMBEO Soundbar Mini\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Sennheiser%20AMBEO%20Soundbar%20Mini%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Sennheiser AMBEO Soundbar Mini\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Sennheiser%20AMBEO%20Soundbar%20Mini%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
+        }
+      ]
+    },
+    "score": 90,
+    "voltage": "AC 100–240V／50–60Hz；台灣官方商城版本可直接使用台灣 110V／60Hz",
+    "warranty": "Sennheiser 台灣官方商城公司貨；消費性耳機／聲霸依台灣官方保固政策為 24 個月",
+    "tags": [
+      "7.1.4虛擬聲道",
+      "Dolby Atmos",
+      "DTS:X",
+      "HDMI eARC",
+      "AirPlay 2",
+      "Chromecast"
+    ]
+  },
+  {
+    "id": "soundbar-klipsch-flexus-core-200",
+    "category": "soundbar",
+    "rank": 30,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Klipsch",
+    "model": "Flexus Core 200",
+    "name": "Flexus Core 200 3.1.2 聲道 Dolby Atmos 聲霸",
+    "price": {
+      "currency": "TWD",
+      "amount": 14399,
+      "converted": 14399,
+      "confidence": "Costco 好市多台灣於 2026-08-29 的 exact-model 可購公開售價 NT$14,399",
+      "basis": "retailer_current"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "Costco 商品價只含聲霸主機；原廠規格表明列隨附 L 型壁掛支架與安裝五金，但到府與壁掛施工未包含，Flexus 重低音與後環繞需另購。"
+    },
+    "image": "https://klipsch.imgix.net/product-images/Klipsch-Flexus-CORE-200-Hero_2000x2000.png?crop=focalpoint&domain=klipsch.imgix.net&fit=crop&fm=webp&fp-x=0.5&fp-y=0.5&h=1000&ixlib=php-3.3.1&q=90&w=1000",
+    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Soundbars-Home-Theater/Klipsch-Flexus-312-Channel-Dolby-Atmos-SoundBar-Core-200/p/148021",
+    "buyLabel": "Costco 好市多台灣 exact-model 新品",
+    "specs": [
+      "3.1.2 聲道；Dolby Atmos；Klipsch 號角中置高音與 2 組天空聲道單體",
+      "185W RMS；頻率響應 43Hz–20kHz；內建 2 組 4 吋低音單體",
+      "HDMI eARC、光纖、USB-C、Bluetooth、RCA Sub Out；沒有額外 HDMI 輸入",
+      "尺寸：主機 寬 111.8 x 深 12.6 x 高 7.8 cm",
+      "重量：主機 8.5 kg",
+      "可加購 Flexus SUB 100／200 與 SURR 100／200；目前價格不含重低音或後環繞"
+    ],
+    "description": "Klipsch 與 Onkyo 合作的模組化 3.1.2 聲道主機，以實體中置、天空聲道和內建雙低音補上品牌缺口，也能日後擴充 Flexus 重低音與後環繞。",
+    "pros": [
+      "實體中置與號角高音有利於電影對白清晰度",
+      "主機內建雙 4 吋低音，未加購重低音也能先使用",
+      "Flexus 同系列重低音與後環繞可分階段擴充"
+    ],
+    "cons": [
+      "沒有額外 HDMI 輸入，訊源需接電視再由 eARC 回傳",
+      "Costco 現價不含重低音與後環繞，完整環繞系統總價會提高",
+      "有線 RCA 重低音爆音候選在 Reddit 可辨識多位 exact-model 使用者，但未跨第二個原始網站，未達集中災情門檻；建議在退換期測試"
+    ],
+    "bestFor": "中型客廳、重視電影對白與 Atmos 高度感，並希望先買主機、日後再加重低音或後環繞的使用者。",
+    "recommendation": "Klipsch 模組化推薦：Core 200 是三款中價格、實體天空聲道與擴充性最均衡的起點。",
+    "releaseDate": "2024-04-08",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-29",
+      "note": "已查 Costco、PChome 與台灣 exact-model 比價入口；目前 NT$14,399 為可購現價，未找到帶日期、可公開重現且排除會員個人化優惠的可信新品史低，故不把現價冒充史低。"
+    },
+    "issueResearch": {
+      "status": "common_issue",
+      "checkedAt": "2026-08-31",
+      "summary": "多位 Flexus Core 200 使用者回報有線重低音輸出出現間歇爆音或敲擊聲；部分換機後改善，也有換機後復發的回報。",
+      "issues": [
+        {
+          "title": "有線重低音輸出間歇爆音／敲擊聲",
+          "detail": "2026-08-31 逐人覆核 Reddit 5 位與 Best Buy 2 位獨立使用者，共 7 人回報 Core 200 有線重低音輸出異常。有人更換線材或不同重低音仍重現；部分保固換機後改善，另有復發案例。這是同型號症狀回報，不能據此推定故障率、所有批次都受影響或已確定內部故障零件。購前確認退換貨及保固，若要外接有線重低音，需用實際訊源長時間測試。",
+          "reportCount": 7,
+          "sources": [
+            {
+              "platform": "Reddit",
+              "title": "Clicks and pops come from Flexus Core 200 after connecting rear satellites via wireless",
+              "url": "https://www.reddit.com/r/Klipsch/comments/1hx317y/clicks_and_pops_come_from_flexus_core_200_after/"
+            },
+            {
+              "platform": "Best Buy",
+              "title": "Klipsch Flexus CORE 200 3.1.2 Soundbar customer reviews",
+              "url": "https://www.bestbuy.com/product/klipsch-flexus-core-200-3-1-2-soundbar-black/JX44FCZPQ7/sku/6580304/reviews"
+            }
+          ]
+        }
+      ]
+    },
+    "score": 90,
+    "voltage": "AC 100–240V／50–60Hz；Costco 台灣現售規格可直接使用台灣 110V／60Hz",
+    "warranty": "Costco 台灣頁標示 1 年保固；代理商與送修流程以賣場資訊為準",
+    "tags": [
+      "3.1.2聲道",
+      "Dolby Atmos",
+      "HDMI eARC",
+      "模組化擴充",
+      "內建雙低音"
+    ]
+  },
+  {
+    "id": "soundbar-klipsch-flexus-core-100",
+    "category": "soundbar",
+    "rank": 31,
+    "topPick": false,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Klipsch",
+    "model": "Flexus Core 100",
+    "name": "Flexus Core 100 2.1 聲道虛擬 Dolby Atmos 聲霸",
+    "price": {
+      "currency": "TWD",
+      "amount": 9999,
+      "converted": 9999,
+      "confidence": "2026-08-31 人工查核：Flexus Core 100 主商品 NT$9,999，可直接購買／放入購物車；舊 94 折活動價已不顯示，特惠商品不適用折價券。",
+      "basis": "retailer_current"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "momo 商品價只含聲霸主機；原廠規格表明列隨附 L 型壁掛支架與安裝五金，但到府與壁掛施工未包含，Flexus 重低音與後環繞需另購。"
+    },
+    "image": "https://klipsch.imgix.net/product-images/Klipsch-Flexus-CORE-100-Hero_2000x2000.png?crop=focalpoint&domain=klipsch.imgix.net&fit=crop&fm=webp&fp-x=0.5&fp-y=0.5&h=1000&ixlib=php-3.3.1&q=90&w=1000",
+    "buyUrl": "https://www.momoshop.com.tw/product/12737009",
+    "buyLabel": "momo 購物網 exact-model 新品",
+    "specs": [
+      "2.1 聲道；Virtualized Dolby Atmos",
+      "100W RMS；頻率響應 45Hz–20kHz；內建 2 組 4 吋低音單體",
+      "HDMI eARC、光纖、USB-C、Bluetooth、RCA Sub Out",
+      "尺寸：主機 寬 71.1 x 深 12.7 x 高 7.6 cm",
+      "重量：主機 4.54 kg",
+      "可加購 Flexus SUB 100／200 與 SURR 100／200；目前價格不含重低音或後環繞"
+    ],
+    "description": "71.1 公分短機身的 Flexus 入門款，以內建雙 4 吋低音和虛擬 Atmos 提供簡潔起步方案，仍保留同系列重低音與後環繞擴充路線。",
+    "pros": [
+      "短機身適合空間有限的電視櫃",
+      "內建雙 4 吋低音，萬元價位即可先建立完整單機系統",
+      "保留 HDMI eARC、藍牙與 Flexus 配件擴充能力"
+    ],
+    "cons": [
+      "虛擬 Atmos 且沒有上射單體，高度感較依賴數位處理與空間反射",
+      "沒有獨立中置聲道，對白定位不如 Core 200／300",
+      "跨 Reddit 與 Mobile01 僅見少數主觀音色或複雜內容細節評論，未達集中災情門檻"
+    ],
+    "bestFor": "小型客廳、臥室或電視櫃寬度有限，想以較低預算進入 Klipsch Flexus 系統的使用者。",
+    "recommendation": "Klipsch 入門推薦：萬元現價換得短機身、內建雙低音與可擴充架構，但不是實體天空聲道方案。",
+    "releaseDate": "2024-04-08",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-29",
+      "note": "已查 momo、Yahoo 自營、Costco、PChome 與台灣 exact-model 比價入口；目前公開自動折扣 NT$9,399 為可購現價，未找到帶日期、可公開重現且排除會員個人化優惠的可信新品史低，故不把現價冒充史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-31",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Flexus Core 100\" problem issue",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Flexus%20Core%20100%22%20problem%20issue",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Flexus Core 100\" 問題 故障",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Flexus%20Core%20100%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C",
+          "targetHost": "mobile01.com"
+        }
+      ]
+    },
+    "score": 86,
+    "voltage": "AC 100–240V／50–60Hz；Costco 台灣現售規格可直接使用台灣 110V／60Hz",
+    "warranty": "momo 台灣頁標示 1 年保固",
+    "tags": [
+      "2.1聲道",
+      "虛擬Dolby Atmos",
+      "HDMI eARC",
+      "短機身",
+      "模組化擴充"
+    ]
+  },
+  {
+    "id": "soundbar-klipsch-flexus-core-300",
+    "category": "soundbar",
+    "rank": 32,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Klipsch",
+    "model": "Flexus Core 300",
+    "name": "Flexus Core 300 5.1.2 聲道 Dirac Live Dolby Atmos 聲霸",
+    "price": {
+      "currency": "TWD",
+      "amount": 42048,
+      "converted": 42048,
+      "confidence": "momo 購物網於 2026-08-29 的 exact-model 釪環公司貨頁顯示公開滿 1 件 96 折價 NT$42,048，並標示特惠商品不適用折價券",
+      "basis": "retailer_current"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "momo 商品價只含聲霸主機，未標示含到府或壁掛安裝；原廠 Core 300 壁掛支架、Flexus 重低音、後環繞與施工均需另購或另行確認。"
+    },
+    "image": "https://klipsch.imgix.net/product-images/Klipsch-Flexus-CORE_300-Hero_2000x2000.png?crop=focalpoint&domain=klipsch.imgix.net&fit=crop&fm=webp&fp-x=0.5&fp-y=0.5&h=1000&ixlib=php-3.3.1&q=90&w=1000",
+    "buyUrl": "https://www.momoshop.com.tw/product/14043582",
+    "buyLabel": "momo 購物網釪環公司貨 exact-model 新品",
+    "specs": [
+      "5.1.2 聲道；Dolby Atmos；Dirac Live 房間校正；共 13 組單體",
+      "4 組內建 4 吋低音單體；頻率響應 43Hz–20kHz",
+      "HDMI 2.1 輸入直通與 HDMI eARC；Wi-Fi、AirPlay、Google Cast、Spotify Connect、TIDAL Connect、Bluetooth、光纖、USB-C、RCA Sub Out",
+      "尺寸：主機 寬 137.2 x 深 12.6 x 高 7.8 cm",
+      "重量：主機 8.5 kg",
+      "可加購 Flexus SUB 100／200 與 SURR 100／200；目前價格不含重低音或後環繞"
+    ],
+    "description": "Flexus 旗艦主機以 5.1.2 聲道、側向單體、四組內建低音與 Dirac Live 校正提高單機包圍感，並加入 HDMI 輸入與網路串流。",
+    "pros": [
+      "Dirac Live 可依房間量測修正頻率與時間響應",
+      "13 組單體、側向聲道與四組內建低音提供三款中最完整的單機規格",
+      "額外 HDMI 輸入與 Wi-Fi 串流比 Core 100／200 完整"
+    ],
+    "cons": [
+      "137.2 公分機身需先確認電視櫃寬度，且可能遮擋低腳座電視",
+      "NT$42,048 現價仍不含實體後環繞與獨立重低音",
+      "目前只在 Reddit 找到少數 exact-model CEC／連線候選，未跨第二個原始網站，未達集中災情門檻；建議在退換期測試 HDMI 連動"
+    ],
+    "bestFor": "較大客廳、願意為房間校正、完整單機聲場與網路串流付費，並可能日後擴充實體後環繞的使用者。",
+    "recommendation": "Klipsch 旗艦推薦：Core 300 適合重視 Dirac 與單機聲場者；若只需要對白與 Atmos，Core 200 的價格更容易平衡。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-29",
+      "note": "已查 momo、Yahoo 自營、PChome、台灣 exact-model 比價入口與套裝頁；目前公開自動折扣 NT$42,048 為可購現價，未找到帶日期、可公開重現且排除會員個人化優惠與套裝差異的可信新品史低，故不把現價冒充史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-31",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Flexus Core 300\" problem issue",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Flexus%20Core%20300%22%20problem%20issue",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Flexus Core 300\" 問題 故障",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Flexus%20Core%20300%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C",
+          "targetHost": "mobile01.com"
+        }
+      ]
+    },
+    "score": 92,
+    "voltage": "AC 100–240V／50–60Hz；台灣釪環公司貨可直接使用台灣 110V／60Hz",
+    "warranty": "釪環台灣公司貨 1 年保固",
+    "tags": [
+      "5.1.2聲道",
+      "Dolby Atmos",
+      "Dirac Live",
+      "HDMI 2.1輸入",
+      "AirPlay",
+      "Google Cast"
+    ]
+  },
+  {
+    "id": "soundbar-asus-rog-gjallar",
+    "category": "soundbar",
+    "rank": 33,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "ASUS",
+    "model": "ROG Gjallar",
+    "name": "ROG Gjallar 2.1.2 聲道電競 Soundbar 與無線重低音",
+    "price": {
+      "currency": "TWD",
+      "amount": 17300,
+      "converted": 17300,
+      "confidence": "2026-08-31 人工查核：PChome DCAIAM-A900K9HQX 新品網路價NT$17,900，08/24–08/31公開滿額折扣後NT$17,300；實際商品頁『下單再折』對話框顯示此金額且加入購物車按鈕可用。API Low=17300、Qty=10；未計會員券、信用卡或P幣。",
+      "basis": "retailer_current"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "商品包含Soundbar主機、5GHz無線重低音與控制中樞；原廠列隨附可拆式腳墊、變壓器和兩條AC線。需自行擺放接線；到府、壁掛施工未標示包含。"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DCAIAMA900K9HQX/000001_1785489874.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DCAIAM-A900K9HQX",
+    "buyLabel": "PChome 24h exact-model 台灣新品",
+    "specs": [
+      "2.1.2 聲道 Dolby Atmos；左右聲道、上射式天空聲道與獨立無線重低音；不含實體後環繞",
+      "4 x 50mm 全音域、2 x 27mm 高音；6.5吋（165mm）65W重低音，以5GHz無線連接",
+      "HDMI IN、HDMI OUT eARC、USB-C、光纖、AUX、Bluetooth 5.3；最高4K@120Hz影像直通",
+      "LCD控制中樞、AEC麥克風、Gear Link EQ與RGB設定；麥克風只支援USB或Bluetooth模式",
+      "PC Dolby Atmos需HDMI及相容軟體/內容；雙USB-A集線器需主機USB-C連接電腦才可使用",
+      "尺寸：主機 寬 60.7 x 深 9.2 x 高 8.2 cm",
+      "其他組件：重低音、控制中樞的寬深高順序查不到",
+      "重量：主機 2.4 kg；重低音 5.7 kg；控制中樞 0.191 kg",
+      "供電：主機使用隨附變壓器接DC輸入、重低音獨立AC供電；需預留兩個插座，額定AC電壓與頻率未標示"
+    ],
+    "description": "以PC桌面為主的60.7公分Soundbar，將實體上射聲道、無線重低音、LCD控制中樞與USB集線器合為一套；適合在PC與遊戲主機間切換，但上市初期有跨站重低音斷線回報。",
+    "pros": [
+      "完整套裝含5GHz無線重低音，不必另購低音箱",
+      "短機身仍有HDMI 2.1輸入/eARC及4K120直通，方便PC與遊戲主機共用",
+      "可在桌邊切換訊源、調EQ，USB/藍牙模式可用AEC麥克風"
+    ],
+    "cons": [
+      "無線重低音間歇斷線已達6位獨立使用者、2個原始網站門檻；官方更新工具已提供，不能推定各批次均已解決",
+      "2.1.2不含獨立中置與後環繞，不能取代實體包圍系統",
+      "內建麥克風不支援HDMI模式，PC Atmos與語音需求須先確認接法；另有少數HDMI/CEC相容性回報"
+    ],
+    "bestFor": "桌面空間有限、希望PC與遊戲主機共用聲霸，且願意先更新韌體並在退換貨期實測的玩家。",
+    "recommendation": "桌面電競比較候選，非Top Pick：接口與完整2.1.2套裝有特色，但先確認正式韌體、退換貨及電源規格，再以實際訊源測試重低音與HDMI穩定性；追求低維護成本或實體後環繞者宜優先比較其他成熟方案。",
+    "releaseDate": "2026-07",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-31",
+      "note": "已查ROG Gjallar官方台灣公告、PChome兩個exact-model新品SKU與飛比/BigGo價格搜尋；現價NT$17,300及其他頁的NT$17,900均未提供可重現的歷史價格曲線。飛比及BigGo原搜尋頁讀取失敗，搜尋摘要僅作發現線索；不把現價、會員券、卡片回饋或二手價格冒充史低。"
+    },
+    "issueResearch": {
+      "status": "common_issue",
+      "checkedAt": "2026-08-31",
+      "summary": "多位 ROG Gjallar 使用者回報無線重低音會間歇斷線、低頻消失後重新連線；官方已提供更新工具，仍須確認個別設備改善。",
+      "issues": [
+        {
+          "title": "無線重低音間歇斷線與重連",
+          "detail": "以 Mobile01 與 ASUS ZenTalk 6 位逐人覆核的獨立使用者為保守樣本。官方已提供 Firmware Update Tool v1.00.15，2026-08-20 FAQ 亦要求更新韌體；部分使用者表示改善，但不能推定所有批次、訊源與環境均已解決。購買前確認更新與退換貨條件，到貨後測試低音連線穩定性。",
+          "reportCount": 6,
+          "sources": [
+            {
+              "platform": "Mobile01",
+              "title": "【開箱】ROG Gjallar電競soundbar",
+              "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7285601"
+            },
+            {
+              "platform": "Mobile01",
+              "title": "【開箱】ROG Gjallar電競soundbar（第2頁）",
+              "url": "https://www.mobile01.com/topicdetail.php?f=348&p=2&t=7285601"
+            },
+            {
+              "platform": "ASUS ZenTalk",
+              "title": "Rog gjallar",
+              "url": "https://zentalk.asus.com/t5/%E9%9F%B3%E6%95%88%E5%8D%A1-dac/rog-gjallar/td-p/510259"
+            },
+            {
+              "platform": "ASUS ZenTalk",
+              "title": "Rog gjallar（第2頁）",
+              "url": "https://zentalk.asus.com/t5/%E9%9F%B3%E6%95%88%E5%8D%A1-dac/rog-gjallar/m-p/510334/highlight/true"
+            }
+          ]
+        }
+      ],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"ROG Gjallar\" (problem OR issue OR defect OR failure)",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22ROG%20Gjallar%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"ROG Gjallar\" (災情 OR 問題 OR 故障 OR 負評)",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22ROG%20Gjallar%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+        }
+      ]
+    },
+    "score": 74,
+    "voltage": "台灣公司貨；原廠Q28387手冊確認主機由隨附變壓器供電、重低音獨立AC供電，共兩條AC電源線。官方台灣規格頁、快速手冊與選定通路未列額定AC電壓/頻率，請依隨附電源銘牌確認，勿以USB供電或通用100–240V推定。",
+    "warranty": "選定PChome SKU明列2年保固、雙向到府收送；其他通路保固標示不同，下單前確認適用條件與台灣維修。",
+    "tags": [
+      "2.1.2聲道",
+      "Dolby Atmos",
+      "HDMI 2.1",
+      "4K120直通",
+      "PC桌面",
+      "無線重低音",
+      "韌體風險"
+    ]
   }
 ]);
 })();

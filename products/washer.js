@@ -72,7 +72,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -119,9 +119,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/2E9A754FA4-SP-22052141.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 19104,
-      "converted": 19104,
-      "confidence": "Yahoo購物中心 2026-08-18 exact-model 公開結構化價格"
+      "amount": 19900,
+      "converted": 19900,
+      "confidence": "Yahoo購物中心 2026-09-01 exact-model 公開結構化價格",
+      "basis": "retailer_current",
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -176,7 +177,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -225,7 +226,8 @@
       "currency": "TWD",
       "amount": 20900,
       "converted": 20900,
-      "confidence": "Yahoo購物中心 2026-08-13 exact-model 公開結構化價格"
+      "confidence": "Yahoo購物中心 2026-09-01 exact-model 公開結構化價格",
+      "basis": "retailer_current",
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -280,7 +282,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -384,7 +386,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -433,7 +435,7 @@
       "currency": "TWD",
       "amount": 20152,
       "converted": 20152,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -488,7 +490,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -592,7 +594,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -696,7 +698,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -800,7 +802,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -847,9 +849,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/8ae7f866d6-Gd-10743682.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 8900,
-      "converted": 8900,
-      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 8712,
+      "converted": 8712,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -904,7 +906,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -951,9 +953,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/ae6170dd95-Gd-10609233.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 6890,
-      "converted": 6890,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 7290,
+      "converted": 7290,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1008,7 +1010,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1112,7 +1114,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1159,9 +1161,9 @@
     "image": "https://cs-a.ecimg.tw/items/DPAIB6A900IM3H3/000001_1750206335.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 8190,
-      "converted": 8190,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 8490,
+      "converted": 8490,
+      "confidence": "PChome 2026-08-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1216,7 +1218,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1320,7 +1322,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1424,7 +1426,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1528,7 +1530,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1632,7 +1634,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1736,7 +1738,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1783,9 +1785,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/df3ca3dcf3-Gd-10425979.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 5990,
-      "converted": 5990,
-      "confidence": "Yahoo購物中心 2026-08-01 exact-model 公開結構化價格"
+      "amount": 5691,
+      "converted": 5691,
+      "confidence": "Yahoo購物中心 2026-08-26 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1839,7 +1841,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1943,7 +1945,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2047,7 +2049,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2145,7 +2147,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2229,7 +2231,7 @@
       "直立式",
       "AI"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2025-05-27",
     "historicalLow": {
       "status": "found",
       "amount": 12799,
@@ -2245,7 +2247,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2345,7 +2347,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2449,7 +2451,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2498,9 +2500,9 @@
     "name": "17kg 變頻溫水直立式洗衣機",
     "price": {
       "currency": "TWD",
-      "amount": 19770,
-      "converted": 19770,
-      "confidence": "PChome 24h 2026-08-14 exact-model 新品頁公開售價，標示 InStock",
+      "amount": 22490,
+      "converted": 22490,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMBM1PA900IE3KH/000001_1775150195.jpg",
@@ -2542,9 +2544,22 @@
       "槽自動清潔"
     ],
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已查 HITACHI 台灣官方頁、PChome 與 exact-model 價格搜尋；只能重現本輪 NT$19,770，未找到具日期的可信新品史低。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2579,19 +2594,96 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 19770,
+    }
+  },
+  {
+    "id": "washer-toshiba-aw-t26d1600xta-mg",
+    "category": "washer",
+    "rank": 26,
+    "topPick": false,
+    "budget": "balanced",
+    "channel": "tw",
+    "brand": "Toshiba",
+    "model": "AW-T26D1600XTA(MG)",
+    "name": "15kg DDM 變頻直立式洗衣機",
+    "price": {
       "currency": "TWD",
-      "converted": 19770,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1278964290&cgp=19770",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【HITACHI 日立】17KG 三段溫控變頻直立式洗衣機(SF-170ZHV-GG)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【HITACHI 日立】17KG 三段溫控變頻直立式洗衣機(SF-170ZHV-GG)」最低價為 NT$19,770，最低點日期 2026-08-20。",
-      "sourceKind": "price_history",
-      "confidence": "medium",
+      "amount": 19490,
+      "converted": 19490,
+      "confidence": "PChome 24h 2026-08-20 exact-model SKU API 公開價 NT$19,490，Qty 5",
+      "basis": "retailer_current"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DPAI1GA900K9EPD/000001_1785143567.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1G-A900K9EPD",
+    "buyLabel": "PChome 24h購物",
+    "installation": {
+      "status": "included_basic",
+      "note": "PChome exact-model 頁明列基本運送、拆箱定位與舊機回收；跨區、偏遠、無電梯樓層、吊車／拆窗與特殊進排水施工另計，插座、門寬及地面水平仍須先確認。"
+    },
+    "specs": [
+      "洗衣容量 15kg；直立式 DDM 變頻",
+      "SenseDose 智慧洗劑自動投入、THE GREATWAVES 與 ColorAlive",
+      "AROMA+ 香氛強化、金級省水標章",
+      "尺寸：寬 59.9 x 深 64 x 高 106.9 cm",
+      "本體重量 47kg；額定消耗功率 600W",
+      "110V / 60Hz；上掀式需預留開蓋高度與進排水空間"
+    ],
+    "description": "Toshiba AW-T26D1600XTA(MG) 是官方規格表標示 15kg 的 DDM 直立單洗機，以自動投入補強大容量洗衣選擇。",
+    "pros": [
+      "15kg 容量搭配 DDM 變頻，適合家庭大量衣物",
+      "SenseDose 自動投入與 THE GREATWAVES 降低日常操作負擔",
+      "官方本體尺寸明確，PChome 明列基本配送定位與回收"
+    ],
+    "cons": [
+      "官方頁標題與規格表容量文字不一致，本資料依 exact-model 規格表採 15kg",
+      "106.9cm 高且上掀開門，需確認上方櫃體與操作空間",
+      "無烘衣功能，滿載床單仍需另行晾乾或烘乾"
+    ],
+    "bestFor": "需要大容量直立單洗、自動投入與 110V 台灣規格，又不需要一體烘乾的家庭。",
+    "recommendation": "Toshiba 品牌補強：以官方規格表的 15kg 為準；購買前先量門寬、上掀高度、進排水與地面水平。",
+    "score": 88,
+    "voltage": "110V / 60Hz、600W；需接地插座與穩定進排水",
+    "warranty": "台灣公司貨；全機 1 年、控制基板與軸心 3 年、變頻馬達本體 10 年（依原廠與通路條款）",
+    "tags": [
+      "15kg",
+      "DDM變頻",
+      "自動投入",
+      "直立式",
+      "110V"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
       "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "note": "已查 Toshiba 台灣官方、PChome exact-model SKU API 與價格搜尋；本輪 NT$19,490 是現價，未找到同型號具日期且可重現的可信新品史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-29",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Toshiba AW-T26D1600XTA(MG)\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Toshiba%20AW-T26D1600XTA(MG)%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Toshiba AW-T26D1600XTA(MG)\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Toshiba%20AW-T26D1600XTA(MG)%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        }
+      ]
     }
   }
 ]);

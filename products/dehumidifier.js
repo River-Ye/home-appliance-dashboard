@@ -17,9 +17,9 @@
     "name": "16 公升高效型變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 14027,
-      "converted": 14027,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 15210,
+      "converted": 15210,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900J0L88/000001_1776323540.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3P-A900J0L88",
@@ -65,7 +65,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -145,7 +145,7 @@
       "變頻",
       "智慧"
     ],
-    "releaseDate": "2025-12-18",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
       "amount": 19999,
@@ -161,7 +161,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -241,7 +241,7 @@
       "清淨",
       "旗艦"
     ],
-    "releaseDate": "2026",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
       "amount": 26116,
@@ -257,7 +257,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -305,9 +305,9 @@
     "name": "19.6 公升 PuriCare 雙變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 19458,
-      "converted": 19458,
-      "confidence": "Yahoo購物中心 2026-08-04 exact-model 公開結構化價格"
+      "amount": 19499,
+      "converted": 19499,
+      "confidence": "Yahoo購物中心 2026-09-02 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4OA900JX7GH/000001_1783563034.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-DD201MEE0-19-6%E5%85%AC%E5%8D%87-PuriCare-%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9F-11884613.html",
@@ -353,7 +353,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -449,7 +449,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -529,7 +529,7 @@
       "變頻",
       "節能"
     ],
-    "releaseDate": "2026-04-10",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
       "amount": 14747,
@@ -545,7 +545,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -641,7 +641,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -689,9 +689,9 @@
     "name": "8 公升清淨除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 10898,
-      "converted": 10898,
-      "confidence": "Yahoo購物中心 2026-08-04 exact-model 公開結構化價格"
+      "amount": 10899,
+      "converted": 10899,
+      "confidence": "Yahoo購物中心 2026-08-29 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU0FA900B1HPU/000001_1782813379.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-8L-HEPA%E6%B8%85%E6%B7%A8%E9%99%A4%E6%BF%95-7996517.html",
@@ -721,7 +721,7 @@
       "小坪數",
       "清淨"
     ],
-    "releaseDate": "2025-01-08",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -737,7 +737,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -785,9 +785,9 @@
     "name": "9 公升除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 8263,
-      "converted": 8263,
-      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 8451,
+      "converted": 8451,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ00A900JB38A/000001_1776329911.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ00-A900JB38A",
@@ -833,7 +833,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -881,9 +881,9 @@
     "name": "PuriCare WiFi 變頻除濕機粉紅 16 公升",
     "price": {
       "currency": "TWD",
-      "amount": 14111,
-      "converted": 14111,
-      "confidence": "PChome 2026-08-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 14900,
+      "converted": 14900,
+      "confidence": "PChome 2026-08-30 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ07A900HQ3L5/000001_1761827365.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ07-A900HQ3L5",
@@ -913,7 +913,7 @@
       "WiFi",
       "16L"
     ],
-    "releaseDate": "2026",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -929,7 +929,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -977,9 +977,9 @@
     "name": "PuriCare 12 公升雙變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 11656,
-      "converted": 11656,
-      "confidence": "Yahoo購物中心 2026-08-04 exact-model 公開結構化價格"
+      "amount": 12730,
+      "converted": 12730,
+      "confidence": "Yahoo購物中心 2026-08-27 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4NA900JF9HP/000001_1778165423.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-12%E5%85%AC%E5%8D%87-%E6%97%A5UV%E6%AE%BA%E8%8F%8C%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9FDD121QWE0-11864251.html",
@@ -1009,7 +1009,7 @@
       "12L",
       "變頻"
     ],
-    "releaseDate": "2026-04-03",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
       "amount": 11656,
@@ -1025,7 +1025,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-20",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1105,7 +1105,7 @@
       "變頻",
       "均衡"
     ],
-    "releaseDate": "2026-03-04",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
       "amount": 14220,
@@ -1121,7 +1121,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1171,7 +1171,7 @@
       "currency": "TWD",
       "amount": 18522,
       "converted": 18522,
-      "confidence": "Yahoo購物中心 2026-08-18 exact-model 公開結構化價格"
+      "confidence": "Yahoo購物中心 2026-09-02 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ07A900GFBVP/000001_1767340170.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-PuriCare-%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9F-25-6%E5%85%AC%E5%8D%87-%E6%9B%9C%E9%BB%91-WD261VKF0-11970685.html",
@@ -1201,7 +1201,7 @@
       "大容量",
       "高階"
     ],
-    "releaseDate": "2026-03-05",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
       "amount": 17955,
@@ -1217,7 +1217,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1267,7 +1267,7 @@
       "currency": "TWD",
       "amount": 17542,
       "converted": 17542,
-      "confidence": "Yahoo購物中心 2026-08-19 exact-model 公開結構化價格"
+      "confidence": "Yahoo購物中心 2026-09-02 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4NA900JCHFZ/000001_1783342859.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-PuriCare-18%E5%85%AC%E5%8D%87%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9F-%E7%99%BD%E8%89%B2-DD181MWE0-11971018.html",
@@ -1300,20 +1300,20 @@
     "releaseDate": "2025-10-29",
     "historicalLow": {
       "status": "found",
-      "amount": 17005,
+      "amount": 16856,
       "currency": "TWD",
-      "converted": 17005,
-      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/LG樂金-PuriCare-18公升雙變頻除濕機-白色-DD181MWE0-11971018.html",
-      "sourceTitle": "Yahoo 購物中心：LG PuriCare 18公升雙變頻除濕機 DD181MWE0",
-      "evidenceSnippet": "Yahoo 購物中心同型號新品頁於 2026-07-11 顯示滿 1 件 95 折，結構資料實付 NT$17,005、庫存正常；活動至 2026-07-13 09:59。",
-      "sourceKind": "retailer_promo",
-      "confidence": "high",
-      "checkedAt": "2026-07-11",
-      "note": "採用同型號 Yahoo 新品頁公開、無會員資格前提的 95 折活動價；排除信用卡回饋、點數、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 16856,
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-PuriCare-18%E5%85%AC%E5%8D%87%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9F-%E7%99%BD%E8%89%B2-DD181MWE0-11971018.html",
+      "sourceTitle": "Yahoo購物中心：LG 樂金 PuriCare 18公升雙變頻除濕機 白色 DD181MWE0 | 14.1L以上 | Yahoo購物中心",
+      "evidenceSnippet": "Yahoo購物中心於 2026-08-21 顯示同型號可信新品公開價 NT$16,856，低於既有史低 NT$17,005。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-08-21",
+      "note": "採用 Yahoo購物中心當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1361,9 +1361,9 @@
     "name": "20L 第六感智能除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 8991,
-      "converted": 8991,
-      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
+      "amount": 9191,
+      "converted": 9191,
+      "confidence": "Yahoo購物中心 2026-09-02 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3SA900K13ZR/000001_1779265654.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool%E6%83%A0%E8%80%8C%E6%B5%A6-WDEE20TW-20L-%E7%AC%AC%E5%85%AD%E6%84%9F%E6%99%BA%E8%83%BD%E9%99%A4%E6%BF%95%E6%A9%9F-12132430.html",
@@ -1393,10 +1393,23 @@
       "20L",
       "高 CP"
     ],
-    "releaseDate": "2026-02-09",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Whirlpool WDEE20TW: Yahoo購物中心 (福利品)Whirlpool惠而浦 20L 第六感智能除濕機 WDEE20TW 高效除濕型 能效3級 非採用通路或含排除條件；LBJ Whirlpool WDEE20TW: Yahoo購物中心 Whirlpool惠而浦 福利品 20公升/日 WDEE20TW 除濕機 WDEE20TW-D 非採用通路或含排除條件；LBJ Whirlpool WDEE20TW: 樂天市場 - 北霸天 北霸天 (福利品)Whirlpool惠而浦 20L 第六感智能除濕機 WDEE20TW 高效除濕型 能效3級 非採用通路或含排除條件。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1431,19 +1444,6 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 8988,
-      "currency": "TWD",
-      "converted": 8988,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=565181145&cgp=8988",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【現貨】Whirlpool惠而浦 WDEE20TW 高效除濕型 20公升 第六感智能除濕機 公司貨",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - 集盛電器旗艦館 / 【現貨】Whirlpool惠而浦 WDEE20TW 高效除濕型 20公升 第六感智能除濕機 公司貨」最低價為 NT$8,988，最低點日期 2026-08-20。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1489,7 +1489,7 @@
       "節能",
       "預算"
     ],
-    "releaseDate": "2026-02-09",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
       "amount": 3511,
@@ -1505,7 +1505,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1585,7 +1585,7 @@
       "衣物乾燥",
       "SHARP"
     ],
-    "releaseDate": "2026-02-10",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
       "amount": 3990,
@@ -1601,7 +1601,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1649,9 +1649,9 @@
     "name": "6L 除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 4805,
-      "converted": 4805,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 5211,
+      "converted": 5211,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900J9FH9/000001_1776325410.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3P-A900J9FH9",
@@ -1697,7 +1697,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1745,9 +1745,9 @@
     "name": "12公升 PCI 自動除菌離子除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 7999,
-      "converted": 7999,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 8990,
+      "converted": 8990,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ08A900JPCL1/000001_1770962000.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ08-A900JPCL1",
@@ -1777,7 +1777,7 @@
       "PCI",
       "中坪數"
     ],
-    "releaseDate": "2026",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
       "amount": 7999,
@@ -1793,7 +1793,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1874,9 +1874,22 @@
       "11L"
     ],
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ HITACHI RD-22FC: Momo富邦購物 (店+)適用Hitachi日立RD-18FC RD-22FC空氣清淨除濕機替換用HEPA濾網濾芯 型號/規格不相符；LBJ HITACHI RD-22FC: 蝦皮商城 - 怡悅健康生活館 怡悅 HEPA濾網 適用 日立除濕機 RD-18FC RD-22FC RD-14FJ RD-18FJ RD-22FJ 型號/規格不相符；LBJ HITACHI RD-22FC: 蝦皮商城 - 淨博-外銷歐美日專業空氣清淨濾網 適用Hitachi日立RD-18FC RD-22FC空氣清淨除濕機替換用HEPA濾網濾芯 型號/規格不相符。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1911,19 +1924,6 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 9408,
-      "currency": "TWD",
-      "converted": 9408,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1285181764&cgp=9600",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：日立江森11公升/日空氣清淨榮耀紫除濕機RD-22FC",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / 日立江森11公升/日空氣清淨榮耀紫除濕機RD-22FC」最低價為 NT$9,408，最低點日期 2026-08-19。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1986,7 +1986,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2085,7 +2085,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2184,7 +2184,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2288,7 +2288,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2395,7 +2395,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2431,6 +2431,206 @@
         }
       ]
     }
+  },
+  {
+    "id": "dehumidifier-electrolux-ed1031wd",
+    "category": "dehumidifier",
+    "rank": 26,
+    "topPick": false,
+    "budget": "balanced",
+    "channel": "tw",
+    "brand": "Electrolux",
+    "model": "ED1031WD",
+    "name": "UltimateHome 300 10L 清淨除濕機",
+    "price": {
+      "currency": "TWD",
+      "amount": 12900,
+      "converted": 12900,
+      "confidence": "2026-08-31 人工查核：Electrolux 台灣官方 ED1031WD 晨曦白主價 NT$12,900，明示『有現貨』『加到購物車』；排除相似產品 PA91-606GY 與其他除濕機。",
+      "basis": "retailer_current"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "台灣官方商城價格為直立式除濕機商品價，未標示含到府安裝；一般水箱使用可自行就位，連續排水需另備合適排水管與落差。"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMBH1IA900JEGA9/000001_1766458713.jpg",
+    "buyUrl": "https://www.electrolux.com.tw/appliances/dehumidifier/ed1031wd/",
+    "buyLabel": "Electrolux 台灣官方商城 exact-model 新品",
+    "specs": [
+      "除濕能力：10 L／日；除濕適用約 13 坪",
+      "清淨適用約 12 坪；搭配濾網空氣清淨",
+      "水箱 4.8L；能源因數值 2.74 L/kWh；能源效率第 1 級",
+      "運轉音 35–39 dB；R290 環保冷媒",
+      "尺寸：寬 37 x 深 27.6 x 高 60 cm",
+      "淨重：16.6 kg；額定消耗功率 152W",
+      "支援連續排水，排水管與場地落差需自行確認"
+    ],
+    "description": "10L／日除濕結合約 12 坪空氣清淨與 4.8L 水箱，補上 Electrolux 在中小宅清淨除濕二合一的品牌與功能帶。",
+    "pros": [
+      "一級能效、2.74 L/kWh，規格透明",
+      "35–39 dB 與 4.8L 水箱兼顧臥室和日常減少倒水",
+      "台灣官方 exact-model 頁、規格 PDF、說明書與新品現售可交叉驗證"
+    ],
+    "cons": [
+      "16.6 kg 機身跨樓層搬動仍吃力",
+      "空氣清淨濾網屬後續耗材成本",
+      "找到的 exact-model 原始討論為購前詢問或系列泛稱，沒有形成同症狀 6 人且跨 2 站的災情"
+    ],
+    "bestFor": "約 6–13 坪房間，希望一台兼顧梅雨除濕、衣物乾燥與基礎空氣清淨的家庭。",
+    "recommendation": "清淨除濕平衡推薦：以一級能效、大水箱和低速運轉音形成比較價值，適合不想另擺一台清淨機的小宅。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-20",
+      "note": "已查 Electrolux 台灣官方商城、PChome exact-model 新品頁、BigGo 與 FindPrice；未取得可公開重現、帶日期且排除會員券、點數與福利展示品的可信新品史低，未以查核日現價推定。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-29",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Electrolux ED1031WD\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Electrolux%20ED1031WD%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Electrolux ED1031WD\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Electrolux%20ED1031WD%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Electrolux ED1031WD\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Electrolux%20ED1031WD%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Electrolux ED1031WD\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Electrolux%20ED1031WD%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Electrolux ED1031WD\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Electrolux%20ED1031WD%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
+        }
+      ]
+    },
+    "score": 88,
+    "voltage": "110V／60Hz 台灣公司貨；額定消耗功率 152W",
+    "warranty": "Electrolux 台灣公司貨；全機 3 年、壓縮機 5 年保固，依原廠登錄與保證書條件",
+    "tags": [
+      "10L",
+      "一級能效",
+      "清淨除濕",
+      "4.8L水箱",
+      "低噪音"
+    ]
+  },
+  {
+    "id": "dehumidifier-sharp-dw-uw25ht-w",
+    "category": "dehumidifier",
+    "rank": 27,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "SHARP",
+    "model": "DW-UW25HT-W",
+    "name": "乾淨方 Pro 雙氣流變頻美學 25L 除濕機",
+    "price": {
+      "currency": "TWD",
+      "amount": 20700,
+      "converted": 20700,
+      "confidence": "HOTAI購於 2026-08-28 的 exact-model 現貨公開價",
+      "basis": "retailer_current"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "HOTAI購未標示含到府安裝；水箱使用可自行就位於平坦乾燥處，連續排水需另備合適排水管並確認向下坡度與排水位置。"
+    },
+    "image": "https://tw.sharp/sites/default/files/2026-04/DW-UW25HT-W_1.png",
+    "buyUrl": "https://www.hotaigo.com.tw/productdetail/hotai1785980593-4550556198233.html",
+    "buyLabel": "HOTAI購 exact-model 現貨新品",
+    "specs": [
+      "除濕能力：25 L／日；官方標示適用約 31 坪",
+      "雙變頻壓縮機與風扇；Plasmacluster PCI 25000 淨化離子",
+      "水箱 5.8L；支援連續排水；四輪萬向移動",
+      "能源效率第 1 級（2026）；能源因數值 3.06 L/kWh、年耗電量 184 kWh",
+      "尺寸：寬 37.4 x 深 31.5 x 高 69.3 cm；淨重 18.8 kg",
+      "弱運轉音 38 dB；額定消耗功率 340W",
+      "電源：110V／60Hz"
+    ],
+    "description": "SHARP 2026 年台灣現售的大坪數乾淨方 Pro，以 25L、雙變頻、5.8L 水箱、PCI 25000 與一級能效，補上 20L 以上客廳／全室除濕的日系旗艦比較。",
+    "pros": [
+      "25L、約 31 坪與 5.8L 大水箱適合大客廳或連續梅雨",
+      "雙變頻、一級能效與 38dB 弱運轉兼顧效率和低速噪音",
+      "台灣官方 exact-model 尺寸、淨重、110V／60Hz 與延長保固條件均可核對"
+    ],
+    "cons": [
+      "18.8 kg 且高度 69.3 cm，跨樓層搬動與收納負擔較大",
+      "PCI 淨化不等同完整 HEPA 空氣清淨機，過敏需求仍需另評估",
+      "本輪只找到 2026 新品陣容與促銷活動，未找到 exact-model 正式上市日期"
+    ],
+    "bestFor": "約 15–31 坪客餐廳、開放式空間或梅雨期需大量除濕，並偏好日系公司貨長保固的家庭。",
+    "recommendation": "大坪數日系變頻推薦：25L、高能源因數與大水箱提供明確比較價值；若只用於小臥室，可改選體積與價格更低的 10–14L 機型。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "found",
+      "amount": 20700,
+      "currency": "TWD",
+      "converted": 20700,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1286065599&cgp=20700",
+      "sourceTitle": "LBJ 歷史價格：HOTAI購 SHARP DW-UW25HT-W 25L 除濕機",
+      "evidenceSnippet": "LBJ 的 HOTAI購 exact-model 新品價格歷史於 2026-07-28、08-06 與 08-28 均記錄 NT$20,700。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-28",
+      "note": "採完全相同台灣型號、HOTAI購現貨新品的公開歷史曲線；未扣除信用卡、點數或會員個人化回饋。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-29",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"SHARP DW-UW25HT-W\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SHARP%20DW-UW25HT-W%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"SHARP DW-UW25HT-W\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SHARP%20DW-UW25HT-W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        }
+      ]
+    },
+    "score": 91,
+    "voltage": "110V／60Hz 台灣公司貨；額定消耗功率 340W",
+    "warranty": "SHARP 台灣公司貨；本體 3 年、壓縮機 5 年，DW-UW25HT-W 完成官方登錄後壓縮機可延長至 10 年，依活動條款",
+    "tags": [
+      "25L",
+      "雙變頻",
+      "一級能效",
+      "5.8L水箱",
+      "PCI 25000"
+    ]
   }
 ]);
 })();

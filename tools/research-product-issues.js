@@ -11,6 +11,7 @@ const {
   queryTargetsProduct,
   queryTargetsWebsite,
   queryUrlMatchesRecord,
+  reviewedCandidateKeySet,
 } = require("./product-issue-validation");
 
 const SEARCH_CONCURRENCY = 3;
@@ -94,15 +95,22 @@ function canonicalModel(product) {
     .trim();
 }
 
+function requiresFullVariantModel(model) {
+  return /(?:^|\s)(?:v\d+|pro|max|plus|lite|ultra|x|edition\s+\d+)$/i.test(model);
+}
+
 function modelAliases(product) {
   const normalizedModel = String(product.model || "").replace(/\s+/g, " ").trim();
   const withoutPack = canonicalModel(product);
   const skuTokens = (normalizedModel.match(/[A-Z][A-Z0-9]*(?:-[A-Z0-9]+)+|[A-Z]{1,}[A-Z0-9]{2,}/gi) || [])
     .filter((token) => /\d/.test(token));
+  const skuAliases = requiresFullVariantModel(withoutPack)
+    ? []
+    : skuTokens.map((token) => `${product.brand} ${token}`);
   return [...new Set([
     `${product.brand} ${normalizedModel}`,
     `${product.brand} ${withoutPack}`,
-    ...skuTokens.map((token) => `${product.brand} ${token}`),
+    ...skuAliases,
   ].map((value) => value.replace(/\s+/g, " ").trim()).filter(Boolean))];
 }
 
@@ -174,7 +182,7 @@ function candidateMatchesExactModel(product, candidate) {
   const longerVariant = new RegExp(`${escapedCanonical}[\\s_-]*(?:pro|max|plus|lite|ultra|v\\d+|gen[\\s_-]*\\d+|x)\\b`, "i");
   if (canonical.length >= 4 && longerVariant.test(rawCandidate)) return false;
 
-  const requiresFullVariant = /(?:^|\s)(?:v\d+|pro|max|plus|lite|ultra|x)$/i.test(canonical);
+  const requiresFullVariant = requiresFullVariantModel(canonical);
   const escapedBrand = String(product.brand || "")
     .split(/[\s_-]+/)
     .map((part) => part.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))
@@ -245,7 +253,7 @@ function writeJsonAtomic(file, value) {
   fs.renameSync(temporary, file);
 }
 
-function buildResearchDocument(products, rowById, { lastRecheck = null, searchLimitations = [] } = {}) {
+function buildResearchDocument(products, rowById, { searchLimitations = [] } = {}) {
   const results = products.map((product) => rowById.get(product.id)).filter(Boolean);
   const commonIssues = results.filter((row) => row.issueResearch?.status === "common_issue");
   const noCommonIssues = results.filter((row) => row.issueResearch?.status === "no_common_issue");
@@ -254,7 +262,6 @@ function buildResearchDocument(products, rowById, { lastRecheck = null, searchLi
     row.searchChecks.length && row.searchChecks.every((check) => check.result === "search_unavailable")
   ));
   return {
-    ...(lastRecheck ? { lastRecheck } : {}),
     summary: {
       checkedAt: `${CHECKED_AT}T00:00:00+08:00`,
       total: results.length,
@@ -280,13 +287,13 @@ function candidateReviewKey(candidate) {
   return `${candidate.url}\n${candidate.title}`;
 }
 
-function candidateReviewsMatchSearch(review, searchCheck) {
+function candidateReviewsMatchSearch(review, searchCheck, issueEvidence) {
   if (!Array.isArray(review.candidateReviews)) return false;
   const candidates = searchCheck.candidates || [];
   const expectedKeys = candidates.map(candidateReviewKey).sort();
   const reviewKeys = review.candidateReviews.map(candidateReviewKey).sort();
   if (new Set(reviewKeys).size !== reviewKeys.length) return false;
-  const reviewKeySet = new Set(reviewKeys);
+  const reviewKeySet = reviewedCandidateKeySet(review, issueEvidence);
   if (!expectedKeys.every((key) => reviewKeySet.has(key))) return false;
   return review.candidateReviews.every((candidate) => (
     candidate.outcome === "excluded"
@@ -294,7 +301,7 @@ function candidateReviewsMatchSearch(review, searchCheck) {
     && candidate.platform.trim()
     && isValidReviewDate(candidate.reviewedAt)
     && candidate.reviewedAt <= review.reviewedAt
-    && candidate.exactModel === true
+    && typeof candidate.exactModel === "boolean"
     && typeof candidate.sourceExcerpt === "string"
     && candidate.sourceExcerpt.trim().length >= 12
     && Number.isInteger(candidate.independentAuthors)
@@ -399,7 +406,7 @@ function reviewedDecision(product, reviewById, searchCheck = { candidates: [] })
     || typeof review.candidateDisposition !== "string"
     || !review.candidateDisposition.includes(product.model)
     || !Array.isArray(review.representativeSources)
-    || !candidateReviewsMatchSearch(review, searchCheck)
+    || !candidateReviewsMatchSearch(review, searchCheck, verifiedIssueById.get(product.id))
     || !representativeSourcesMatchReview(review, product)
     || !decisionMatchesEvidence
   ) return null;
@@ -482,10 +489,7 @@ async function main() {
   const existing = reuseExisting
     ? JSON.parse(fs.readFileSync(researchFile, "utf8"))
     : { results: [] };
-  const documentOptions = {
-    lastRecheck: existing.lastRecheck || null,
-    searchLimitations: existing.summary?.searchLimitations || [],
-  };
+  const documentOptions = { searchLimitations: existing.summary?.searchLimitations || [] };
   const rowById = new Map((existing.results || []).map((row) => [row.id, row]));
   const selected = products
     .filter((product) => !args.category || product.category === args.category)

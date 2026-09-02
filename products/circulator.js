@@ -65,7 +65,7 @@
     },
     "issueResearch": {
       "status": "common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-08-29",
       "summary": "多位 Vornado 660 使用者反映高／Turbo 檔噪音明顯，部分使用者認為連最低檔都不適合睡眠。",
       "issues": [
         {
@@ -106,7 +106,7 @@
       "currency": "TWD",
       "amount": 1771,
       "converted": 1771,
-      "confidence": "momo購物 2026-07-13 公開折後價"
+      "confidence": "2026-08-31 人工查核：PCF-SC15T 沙黑雖顯示單件 9 折 NT$2,061、數量 1 與到貨日期，但載入後只有『可訂購時通知我』，沒有直接購買／購物車；不以數量選單或預計到貨文字推定現售。保留原紀錄價 1,771，不因缺貨移除。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBE18A900J27XM/000001_1754619793.jpg",
     "buyUrl": "https://www.momoshop.com.tw/product/8033074",
@@ -152,7 +152,7 @@
     },
     "issueResearch": {
       "status": "common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-08-29",
       "summary": "多位 PCF-SC15T 使用者反映上下／左右擺頭時會出現塑膠摩擦、喀喀或尖銳異音。",
       "issues": [
         {
@@ -244,7 +244,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -325,9 +325,22 @@
       "Vornado"
     ],
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Vornado 52-TW: 蝦皮商城 - 雯麗國際百貨家電官方旗艦店 【VORNADO】三段風速 3-5坪｜52-TW｜渦流空氣循環扇 非採用通路或含排除條件；LBJ Vornado 52-TW: 百利市購物中心 【百利市購物中心】【美國 VORNADO 沃拿多】三段風速 渦流空氣循環扇 52-TW 黑/白 非採用通路或含排除條件；LBJ Vornado 52-TW: 博客來 VORNADO 沃拿多 52-TW 渦流空氣循環扇 非採用通路或含排除條件。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -362,19 +375,6 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 2390,
-      "currency": "TWD",
-      "converted": 2390,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1246011466&cgp=2534",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【VORNADO 沃拿多】52-TW(渦流空氣循環扇)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【VORNADO 沃拿多】52-TW(渦流空氣循環扇)」最低價為 NT$2,390，最低點日期 2026-08-06。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -388,9 +388,9 @@
     "name": "62-TW 黑色渦流空氣循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 3880,
-      "converted": 3880,
-      "confidence": "PChome 2026-07-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 3414,
+      "converted": 3414,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB3XA900IIGO1/000001_1765272569.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAB3X-A900IIGO1",
@@ -436,7 +436,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -532,7 +532,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-20",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -628,7 +628,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -676,9 +676,9 @@
     "name": "FLYMAX-TW 破風渦流空氣循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 5922,
-      "converted": 5922,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 5211,
+      "converted": 5211,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB3XA900JY5I9/000001_1777019492.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAB3X-A900JY5I9",
@@ -711,20 +711,20 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 5329,
+      "amount": 5211,
       "currency": "TWD",
-      "converted": 5329,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1274404632&cgp=5625",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【VORNADO 沃拿多】VORNADO沃拿多美國 FLYMAX-TW 破風渦流空氣循環扇",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【VORNADO 沃拿多】VORNADO沃拿多美國 FLYMAX-TW 破風渦流空氣循環扇」最低價為 NT$5,329，最低點日期 2026-06-18。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 5211,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMAB3X-A900JY5I9",
+      "sourceTitle": "PChome 24h 購物：美國VORNADO沃拿多 FLYMAX-TW 破風渦流空氣循環扇",
+      "evidenceSnippet": "PChome 24h 購物於 2026-09-01 顯示同型號可信新品公開價 NT$5,211，低於既有史低 NT$5,329。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-09-01",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -820,7 +820,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -916,7 +916,7 @@
     },
     "issueResearch": {
       "status": "common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-08-29",
       "summary": "多位 Vornado 6303DC 使用者反映風速提高後噪音快速增加，臥室使用容易受干擾。",
       "issues": [
         {
@@ -998,7 +998,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1036,102 +1036,6 @@
     }
   },
   {
-    "id": "circulator-extra-15-dmbm3g-a900fhkj2",
-    "category": "circulator",
-    "rank": 13,
-    "budget": "value",
-    "channel": "tw",
-    "brand": "IRIS OHYAMA",
-    "model": "PCF-HM23W",
-    "name": "擺動式循環扇 10 坪專用",
-    "price": {
-      "currency": "TWD",
-      "amount": 1990,
-      "converted": 1990,
-      "confidence": "PChome 2026-07-11 API 查核價"
-    },
-    "image": "https://cs-a.ecimg.tw/items/DMBM3GA900FHKJ2/000001_1773203478.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMBM3G-A900FHKJ2",
-    "buyLabel": "PChome",
-    "specs": [
-      "10 坪",
-      "擺動式",
-      "循環扇",
-      "家用"
-    ],
-    "description": "IRIS OHYAMA PCF-HM23W 是循環扇類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
-    "pros": [
-      "體積小、移動容易",
-      "搭配冷氣可改善溫度分布"
-    ],
-    "cons": [
-      "直吹舒適度不如電風扇",
-      "高風量款噪音需留意"
-    ],
-    "bestFor": "需要冷氣輔助循環、跨房間送風或小坪數空氣流動的人。",
-    "recommendation": "同類推薦：補入桌上、渦流、復古與直立型，方便依擺放位置篩選。",
-    "score": 78,
-    "voltage": "110V 台灣通路",
-    "warranty": "依 PChome/供應商頁面",
-    "tags": [
-      "IRIS",
-      "10 坪",
-      "均衡"
-    ],
-    "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ IRIS OHYAMA PCF-HM23W: 樂天市場 - 采躍科技 采躍科技 IRIS OHYAMA PCF-HM23W 擺動式循環扇 電風扇 靜音 節能 省電 原廠公司貨 型號/規格不相符；LBJ IRIS OHYAMA PCF-HM23W: 家樂福線上購物網 IRIS OHYAMA PCF-HM23W 擺動式循環扇 電風扇 靜音 節能 省電 10坪 公司貨 型號/規格不相符；LBJ IRIS OHYAMA PCF-HM23W: HOTAI購 【HOTAI購】【IRIS】桃苗選品— OHYAMA PCF-HM23W 擺動式循環扇 型號/規格不相符。"
-    },
-    "issueResearch": {
-      "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
-      "summary": "截至查核日，查無達門檻的集中負評／災情",
-      "issues": [],
-      "checkedSources": [
-        {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"IRIS OHYAMA PCF-HM23W\" (problem OR issue OR defect OR failure)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22IRIS%20OHYAMA%20PCF-HM23W%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-          "targetHost": "reddit.com"
-        },
-        {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"IRIS OHYAMA PCF-HM23W\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22IRIS%20OHYAMA%20PCF-HM23W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "mobile01.com"
-        },
-        {
-          "platform": "PTT",
-          "query": "site:ptt.cc \"IRIS OHYAMA PCF-HM23W\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22IRIS%20OHYAMA%20PCF-HM23W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "ptt.cc"
-        },
-        {
-          "platform": "Dcard",
-          "query": "site:dcard.tw \"IRIS OHYAMA PCF-HM23W\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22IRIS%20OHYAMA%20PCF-HM23W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "dcard.tw"
-        },
-        {
-          "platform": "YouTube",
-          "query": "\"IRIS OHYAMA PCF-HM23W\" problem issue defect failure broken 災情 故障 異常",
-          "queryUrl": "https://www.youtube.com/results?search_query=%22IRIS%20OHYAMA%20PCF-HM23W%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
-          "targetHost": "youtube.com"
-        }
-      ]
-    }
-  },
-  {
     "id": "circulator-extra-16-dmablya900jx0yj",
     "category": "circulator",
     "rank": 14,
@@ -1142,9 +1046,9 @@
     "name": "11吋智能聲控 DC 3D 循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 1607,
-      "converted": 1607,
-      "confidence": "Yahoo購物中心 2026-08-01 exact-model 公開結構化價格"
+      "amount": 1890,
+      "converted": 1890,
+      "confidence": "Yahoo購物中心 2026-08-25 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBE18A900K5EJK/000001_1782367256.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/TECO%E6%9D%B1%E5%85%83-11%E5%90%8B%E6%99%BA%E8%83%BD%E8%81%B2%E6%8E%A7DC%E9%A6%AC%E9%81%943D%E5%BE%AA%E7%92%B0%E6%89%87-XYFXA1101CB-12063164.html",
@@ -1190,7 +1094,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1286,7 +1190,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1382,7 +1286,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1478,7 +1382,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1574,7 +1478,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1622,9 +1526,9 @@
     "name": "9吋 DC 直流馬達空氣循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 3029,
-      "converted": 3029,
-      "confidence": "Costco 好市多 2026-08-11 exact-model 公開結構化價格"
+      "amount": 3799,
+      "converted": 3799,
+      "confidence": "Costco 好市多 2026-08-25 exact-model 公開結構化價格"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h4c/h76/333377583546398.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Heating-Cooling/Airmate-9-inch-DC-Inverter-Air-Circulator-FB2393DR/p/149328",
@@ -1670,7 +1574,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1768,7 +1672,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1867,7 +1771,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1953,9 +1857,22 @@
       "官方通路"
     ],
     "releaseDate": "2026",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-19",
+      "note": "PCF-CDP18TEC 為台灣官方標示的 2026 新品；已查官方商品頁、BigGo、FindPrice 與 LBJ，未找到同型號可公開重現且符合可信新品條件的歷史最低價，官方現價 NT$3,990 不直接視為歷史最低價。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1990,19 +1907,6 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 3512,
-      "currency": "TWD",
-      "converted": 3512,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1281928361&cgp=3990",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：IRIS PCF-CDP18TEC 360度美型空氣循環扇",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / IRIS PCF-CDP18TEC 360度美型空氣循環扇」最低價為 NT$3,512，最低點日期 2026-06-28。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2016,9 +1920,10 @@
     "name": "森呼吸 NEXT 自動除菌離子 3D 清淨循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 5990,
-      "converted": 5990,
-      "confidence": "momo購物 2026-07-24 exact-model 商品頁公開現貨價"
+      "amount": 5690,
+      "converted": 5690,
+      "confidence": "2026-08-31 人工查核：PK-18S03T 主商品 NT$5,690，可直接購買／放入購物車；不採推薦區其他型號。",
+      "basis": "retailer_current"
     },
     "image": "https://www.tw.sharp/sites/default/files/styles/resize_640x640/public/2026-05/PK-18S03T-H.png?itok=HVyf5ufH",
     "buyUrl": "https://www.momoshop.com.tw/product/15360868",
@@ -2070,7 +1975,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2174,7 +2079,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2210,6 +2115,114 @@
         }
       ]
     }
+  },
+  {
+    "id": "circulator-balmuda-egf-3300-wk",
+    "category": "circulator",
+    "rank": 25,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "BALMUDA",
+    "model": "EGF-3300-WK",
+    "name": "GreenFan Cirq 綠化循環扇",
+    "price": {
+      "currency": "TWD",
+      "amount": 4990,
+      "converted": 4990,
+      "confidence": "BALMUDA 台灣官方商城於 2026-08-20 的 exact-model 可購公開售價 NT$4,990",
+      "basis": "retailer_current"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "台灣官方商城價格為可自行擺放使用的循環扇商品價，未標示含到府安裝；隨附交流電源線與遙控器。"
+    },
+    "image": "https://www.balmuda.com.tw/upload/products/b_2509151128590000001.jpg",
+    "buyUrl": "https://www.balmuda.com.tw/shop.php?cID=4",
+    "buyLabel": "BALMUDA 台灣官方商城 exact-model 新品",
+    "specs": [
+      "雙層 14 葉片 GreenFan 結構；4 段風量",
+      "最大風量 52 m³/min；官方標示最遠送風 15m",
+      "手動仰角 0–90°；附遙控器",
+      "尺寸：寬 34 x 深 25.6 x 高 36 cm",
+      "淨重：約 2.5 kg；消費電力 3–20W",
+      "本體額定 DC 12V；隨附台灣版交流電源線／專用變壓器"
+    ],
+    "description": "以 15 公尺遠距送風和 3–20W 低耗電補上設計家電品牌 BALMUDA，適合比較小機身、遠距循環與造型質感的差異。",
+    "pros": [
+      "最大 52 m³/min、15m 送風，適合配合冷暖氣循環",
+      "34 x 25.6 cm 佔地與 2.5 kg 重量都容易移動",
+      "台灣官方 exact-model 規格、支援與直營現售頁完整"
+    ],
+    "cons": [
+      "仰角為手動調整，沒有左右自動 3D 擺頭",
+      "四段風量比平價 DC 循環扇的多段細調少",
+      "品牌與設計溢價仍高於一般桌上循環扇"
+    ],
+    "bestFor": "重視遠距送風、低功耗與外觀，想搭配空調做固定方向室內循環的客廳或工作室。",
+    "recommendation": "設計與遠距送風推薦：以 15m 送風、低耗電和緊湊機身形成差異，並誠實揭露沒有 3D 自動擺頭。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-20",
+      "note": "已查 BALMUDA 台灣官方商城、BigGo 與 FindPrice exact-model 價格入口；NT$4,990 為查核日現價，未取得帶日期且可公開重現的可信新品史低，未以現價或劃線價推定。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-29",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"BALMUDA EGF-3300-WK\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22BALMUDA%20EGF-3300-WK%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"BALMUDA EGF-3300-WK\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22BALMUDA%20EGF-3300-WK%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"BALMUDA EGF-3300-WK\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22BALMUDA%20EGF-3300-WK%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"BALMUDA EGF-3300-WK\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22BALMUDA%20EGF-3300-WK%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"BALMUDA EGF-3300-WK\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22BALMUDA%20EGF-3300-WK%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
+        }
+      ]
+    },
+    "score": 88,
+    "voltage": "台灣官方版交流輸入 100–240V／50–60Hz 專用變壓器；本體 DC 12V",
+    "warranty": "BALMUDA 台灣官方公司貨；官方包裝含產品保證書，期間與範圍依保證書及台灣代理商規定",
+    "tags": [
+      "15m送風",
+      "DC",
+      "低耗電",
+      "遙控",
+      "設計家電"
+    ]
   }
 ]);
 })();

@@ -3,23 +3,24 @@
   const dashboard = root.applianceDashboard || {};
 
   const meta = {
-    dataDate: "2026-08-20",
-    costcoDate: "2026-08-20",
-    expectedCategoryCount: 29,
-    expectedProductCount: 859,
-    cacheVersion: "20260820-170101-catalog",
-    exchangeSummary: "USD 1 = TWD 31.892",
+    dataDate: "2026-09-02",
+    costcoDate: "2026-09-02",
+    expectedCategoryCount: 37,
+    expectedProductCount: 1126,
+    cacheVersion: "20260902-231548-catalog",
+    exchangeSummary: "USD 1 = TWD 31.700",
   };
 
   const exchange = {
     source: "ExchangeRate-API",
-    date: "2026-08-19 00:02 UTC",
-    USD_TWD: 31.892204,
-    GBP_TWD: 43.16506213092632,
-    EUR_TWD: 36.9179988563041,
-    JPY_TWD: 0.19983736655887557,
-    CNY_TWD: 4.719938445245172,
-    KRW_TWD: 0.02258765283333393,
+    date: "2026-09-01 00:02 UTC",
+    USD_TWD: 31.69974,
+    GBP_TWD: 42.93269263325835,
+    EUR_TWD: 36.80021267679049,
+    JPY_TWD: 0.19838657570991045,
+    CNY_TWD: 4.705874493743214,
+    HKD_TWD: 4.04395160842797,
+    KRW_TWD: 0.023163470020205783,
   };
 
   const categories = [
@@ -36,6 +37,9 @@
     { id: "dryer", label: "烘衣機", group: "洗衣家務" },
     { id: "washerdryer", label: "洗烘衣機(多功能型)", group: "洗衣家務" },
     { id: "garmentcare", label: "電子衣櫥（衣物護理機）", group: "洗衣家務" },
+    { id: "bedsheet", label: "床包", group: "臥室寢具" },
+    { id: "comforter", label: "棉被", group: "臥室寢具" },
+    { id: "pillow", label: "枕頭", group: "臥室寢具" },
     { id: "refrigerator", label: "冰箱", group: "廚房餐飲" },
     { id: "cookware", label: "鍋具", group: "廚房餐飲" },
     { id: "knife", label: "刀具", group: "廚房餐飲" },
@@ -48,10 +52,15 @@
     { id: "bidet", label: "免治馬桶", group: "衛浴安全" },
     { id: "smartlock", label: "電子鎖", group: "衛浴安全" },
     { id: "wifi", label: "無線路由器", group: "工作網路" },
+    { id: "network-switch", label: "網路交換器", group: "工作網路" },
     { id: "standingdesk", label: "升降桌", group: "工作網路" },
     { id: "chair", label: "電腦椅", group: "工作網路" },
     { id: "monitor", label: "電腦螢幕", group: "工作網路" },
+    { id: "monitor-light", label: "螢幕燈", group: "工作網路" },
     { id: "monitorarm", label: "懸臂支架", group: "工作網路" },
+    { id: "mouse", label: "滑鼠", group: "工作網路" },
+    { id: "keyboard", label: "鍵盤", group: "工作網路" },
+    { id: "mousepad", label: "滑鼠墊", group: "工作網路" },
   ];
 
   const products = dashboard.products || [];

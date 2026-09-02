@@ -66,7 +66,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -147,7 +147,7 @@
       "CP 值",
       "TP-Link"
     ],
-    "releaseDate": "2024-08-30",
+    "releaseDate": "2024-09",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -163,7 +163,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -260,7 +260,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -310,7 +310,8 @@
       "currency": "TWD",
       "amount": 3515,
       "converted": 3515,
-      "confidence": "Yahoo購物中心 2026-08-18 exact-model 公開結構化價格"
+      "confidence": "Yahoo購物中心 2026-09-02 exact-model 公開結構化價格",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLPA900JKWXK/000001_1783555436.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/ASUS-%E8%8F%AF%E7%A2%A9-RT-BE58U-V2-BE3600-%E9%9B%99%E9%A0%BB-Wi-Fi-7-%E5%8F%AF%E6%93%B4%E5%85%85%E5%BC%8F%E8%B7%AF%E7%94%B1%E5%99%A8-12005854.html",
@@ -341,10 +342,23 @@
       "CP 值",
       "ASUS"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2026-03",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ ASUS RT-BE58U V2: Momo富邦購物 (店+)【ASUS 華碩】RT-BE58U V2 BE3600 雙頻 Wi-Fi 7 可擴充式路由器 型號/規格不相符；LBJ ASUS RT-BE58U V2: 蝦皮商城 - 三井3C購物網 【ASUS 華碩】RT-BE58U V2 BE3600 雙頻 Wi-Fi 7 可擴充式路由器 型號/規格不相符；LBJ ASUS RT-BE58U V2: 百利市購物中心 【百利市購物中心】【ASUS 華碩】RT-BE58U V2 BE3600 雙頻 Wi-Fi 7 可擴充式路由器 型號/規格不相符。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -379,19 +393,6 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 3299,
-      "currency": "TWD",
-      "converted": 3299,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1275055660&cgp=3699",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【ASUS 華碩】RT-BE58U-V2 BE3600 雙頻 WiFi7 AiMesh 可擴充路由器",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【ASUS 華碩】RT-BE58U-V2 BE3600 雙頻 WiFi7 AiMesh 可擴充路由器」最低價為 NT$3,299，最低點日期 2026-06-03。",
-      "sourceKind": "price_history",
-      "confidence": "medium",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -454,7 +455,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -552,7 +553,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -600,9 +601,9 @@
     "name": "BE5000 Wi-Fi 7 Mesh 延伸系統路由器+2衛星",
     "price": {
       "currency": "TWD",
-      "amount": 9900,
-      "converted": 9900,
-      "confidence": "PChome 2026-08-15 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 8900,
+      "converted": 8900,
+      "confidence": "PChome 2026-08-31 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJAA900JG5AK/000001_1763014538.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJA-A900JG5AK",
@@ -649,7 +650,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-20",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -697,9 +698,9 @@
     "name": "Wi-Fi 6E 三頻無線網狀路由器一入",
     "price": {
       "currency": "TWD",
-      "amount": 2840,
-      "converted": 2840,
-      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 7990,
+      "converted": 7990,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFL7A900IJMF6/000001_1744352670.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFL7-A900IJMF6",
@@ -746,7 +747,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -828,9 +829,22 @@
       "2.5G"
     ],
     "releaseDate": "2022-11-02",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Synology WRX560: Momo富邦購物 【Synology 群暉科技】WRX560 雙頻 WiFi 6 Mesh 路由器/分享器 型號/規格不相符；LBJ Synology WRX560: 樂天市場 - 昌運監視器官方旗艦店 昌運監視器 Synology群暉 WRX560路由器 5.9GHz 雙頻 Wi-Fi 6 2.5GbE高速傳輸 型號/規格不相符；LBJ Synology WRX560: 家樂福線上購物網 昌運監視器 Synology群暉 WRX560路由器 5.9GHz 雙頻 Wi-Fi 6 2.5GbE高速傳輸 型號/規格不相符。"
+    },
     "issueResearch": {
       "status": "common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-08-29",
       "summary": "多位 WRX560 使用者回報單機或 Mesh 節點會讓用戶端掉線、拒絕重連或誤報密碼錯誤；切換 Wi-Fi radio 或重啟只能暫時恢復。",
       "issues": [
         {
@@ -861,19 +875,6 @@
           ]
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 6899,
-      "currency": "TWD",
-      "converted": 6899,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1273681476&cgp=6899",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Synology 群暉科技】WRX560 雙頻 WiFi 6 Mesh 路由器/分享器",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Synology 群暉科技】WRX560 雙頻 WiFi 6 Mesh 路由器/分享器」最低價為 NT$6,899，最低點日期 2026-08-20。",
-      "sourceKind": "price_history",
-      "confidence": "medium",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -887,8 +888,8 @@
     "price": {
       "currency": "USD",
       "amount": 189,
-      "converted": 6028,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-19 匯率換算"
+      "converted": 5991,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-09-01 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/fa8dd4e4-36c8-4c79-a928-22c7bff2ce29/ab5bc8a4-6135-402e-a695-e3ea5e16d3e6.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-pro",
@@ -921,7 +922,7 @@
       "商用 AP"
     ],
     "rank": 10,
-    "releaseDate": "找不到",
+    "releaseDate": "2024-01-08",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -936,31 +937,22 @@
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ UniFi U7 Pro: 蝦皮購物 - NE Technologies UniFi U6 Lite/PLUS/Pro/LR/U7 PRO XGS倒置AP托架桌面支架收納架 非採用通路或含排除條件；LBJ UniFi U7 Pro: iOPEN Mall - MikroTik 台灣代理 (284人次購買) UniFi U6+ U6-Pro U7-Pro 專用造型檯燈座 非採用通路或含排除條件；LBJ UniFi U7 Pro: 蝦皮購物 - MikroTik 台灣代理 UniFi U6+ U6-Pro U7-Pro 專用造型檯燈座 非採用通路或含排除條件。"
     },
     "issueResearch": {
-      "status": "common_issue",
-      "checkedAt": "2026-07-10",
-      "summary": "多位同型號使用者回報 2.4GHz IoT 裝置會頻繁斷線、無法連網或反覆重連。",
-      "issues": [
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-31",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
         {
-          "title": "2.4GHz IoT 裝置斷線與相容性不穩",
-          "detail": "問題常集中在 2.4GHz 智慧家電，且可能受韌體版本影響；部署前應先更新穩定韌體，並用實際 IoT 裝置測試連線與漫遊。",
-          "reportCount": 9,
-          "sources": [
-            {
-              "platform": "Ubiquiti Community",
-              "title": "U7-Pro 2.4ghz issues",
-              "url": "https://community.ui.com/questions/U7-Pro-2-4ghz-issues/4dff7816-5c14-4686-9f9a-ab99f9b93700"
-            },
-            {
-              "platform": "Reddit",
-              "title": "U7 pro iot issue explained",
-              "url": "https://www.reddit.com/r/Ubiquiti/comments/1g1funp/u7_pro_iot_issue_explained/"
-            },
-            {
-              "platform": "Reddit",
-              "title": "2.4GHz IoT device constant disconnect",
-              "url": "https://www.reddit.com/r/Ubiquiti/comments/1h600kz/24ghz_iot_device_constant_disconnect_5_6ghz_wifi/"
-            }
-          ]
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"U7 Pro\" \"問題\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22U7%20Pro%22%20%22%E5%95%8F%E9%A1%8C%22",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"U7 Pro\" \"IoT\" \"fixed\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22U7%20Pro%22%20%22IoT%22%20%22fixed%22",
+          "targetHost": "reddit.com"
         }
       ]
     }
@@ -976,8 +968,8 @@
     "price": {
       "currency": "USD",
       "amount": 159,
-      "converted": 5071,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-19 匯率換算"
+      "converted": 5040,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-09-01 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/8e88b222-7a55-4cf0-8677-ae9b6347fe84/e16aa122-b5e5-4ffb-9f1a-27ee14d9ab3d.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u6-pro",
@@ -1027,8 +1019,8 @@
     },
     "issueResearch": {
       "status": "common_issue",
-      "checkedAt": "2026-08-18",
-      "summary": "多位 U6 Pro 使用者跨站回報，特定批次在屏蔽網路線或接地金屬安裝下會漏電、產生火花或斷電重啟。",
+      "checkedAt": "2026-08-29",
+      "summary": "多位 U6 Pro 使用者跨站回報，特定批次在屏蔽網路線或接地金屬安裝下會漏電、產生火花或斷電重啟。多位 U6 Pro 使用者跨站回報，中央燈環蓋會在未受外力時自行脫落，常見固定卡榫或塑膠柱斷裂。",
       "issues": [
         {
           "title": "特定批次接地／STP 造成漏電、火花或斷電重啟",
@@ -1046,6 +1038,38 @@
               "url": "https://www.reddit.com/r/Ubiquiti/comments/x39m35/multiple_shielded_cable_on_uswlite8poe_cause_issue/"
             }
           ]
+        },
+        {
+          "title": "中央蓋／卡榫自行脫落",
+          "detail": "回報涵蓋吊頂後約一年半至三年的設備，部分中央蓋落下時砸到人；若仍在保固期應優先申請 RMA，過保設備則需檢查卡榫、避免蓋板再度墜落，並留意自行黏合可能影響後續維修。",
+          "reportCount": 8,
+          "sources": [
+            {
+              "platform": "Reddit",
+              "title": "U6-Pro lids falling off — Is this a widespread manufacturing defect?",
+              "url": "https://www.reddit.com/r/UNIFI/comments/1qayv1k/u6pro_lids_falling_off_is_this_a_widespread/"
+            },
+            {
+              "platform": "Reddit",
+              "title": "Center cap fell out of my U6-Pro",
+              "url": "https://www.reddit.com/r/UNIFI/comments/1f4ao57/center_cap_fell_out_of_my_u6pro/"
+            },
+            {
+              "platform": "Reddit",
+              "title": "U6 Access Point Cap Broken",
+              "url": "https://www.reddit.com/r/Ubiquiti/comments/14mq3bx/u6_access_point_cap_broken/"
+            },
+            {
+              "platform": "Ubiquiti Community",
+              "title": "Unifi U6-Pro Falling Apart",
+              "url": "https://community.ui.com/questions/Unifi-U6-Pro-Falling-Apart/f080c0df-d004-47be-8724-d52494b58f5b"
+            },
+            {
+              "platform": "Ubiquiti Community",
+              "title": "U6 Pro Cap Broken - COMPLAINT",
+              "url": "https://community.ui.com/questions/U6-Pro-Cap-Broken-COMPLAINT/0682ca4d-645b-49db-ac47-5571ffeca795"
+            }
+          ]
         }
       ]
     }
@@ -1061,8 +1085,8 @@
     "price": {
       "currency": "USD",
       "amount": 99,
-      "converted": 3157,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-19 匯率換算"
+      "converted": 3138,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-09-01 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/253cc208-4b09-4b2e-9d1a-7aa1e8f93507/49241c96-878f-4e40-8541-c2e89c1c5e6e.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-lite",
@@ -1095,7 +1119,7 @@
       "低價 AP"
     ],
     "rank": 12,
-    "releaseDate": "找不到",
+    "releaseDate": "2025-02-27",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -1111,7 +1135,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1209,12 +1233,12 @@
     },
     "issueResearch": {
       "status": "common_issue",
-      "checkedAt": "2026-07-10",
-      "summary": "多位 AP22 使用者回報舊版 3.0.0 韌體會使 iPhone 或 Android 掉線、拒絕重連或顯示密碼錯誤；後續 hotfix 已針對此問題修正。",
+      "checkedAt": "2026-08-29",
+      "summary": "多位 AP22 使用者回報舊版 3.0.0 韌體會使 iPhone 或 Android 掉線、拒絕重連或顯示密碼錯誤；官方已發布後續修補，但不宜視為所有環境均已解決。",
       "issues": [
         {
           "title": "舊版 3.0.0 韌體造成行動裝置斷線與錯誤密碼",
-          "detail": "這是 2024 年 3.0.0 版本的歷史韌體災情；HPE 已於 2024-08-23 發布 3.0.0.1 hotfix。購買或部署後應先確認已升級修正版，不代表目前最新版仍必然發生。",
+          "detail": "這是 2024 年 3.0.0 的歷史韌體事件。2026-08-31 補核 HPE 公告：3.0.0.1 後仍於 2024-10-14 公告 3.0.0.2，針對 WPA3 異常框架重啟與記憶體洩漏再修補；同串 AP22 使用者仍有不同結果。保留原六人證據日期，不將舊版災情推定為目前最新版必然發生，也不宣稱全面修復。",
           "reportCount": 6,
           "sources": [
             {
@@ -1293,7 +1317,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1391,7 +1415,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1489,7 +1513,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1537,8 +1561,8 @@
     "price": {
       "currency": "USD",
       "amount": 129,
-      "converted": 4114,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-19 匯率換算"
+      "converted": 4089,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-09-01 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/6d5c6141-e2e9-416a-b789-53e59416bb1a/853bc73b-f65b-4e59-a171-75c9a4a4615e.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u6-plus",
@@ -1587,7 +1611,7 @@
     },
     "issueResearch": {
       "status": "common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-08-29",
       "summary": "多位 U6+ 使用者回報 Wi-Fi 用戶端整批斷線、拒絕重新連接，或 SSID 停止廣播；重啟通常只能暫時恢復。",
       "issues": [
         {
@@ -1641,8 +1665,8 @@
     "price": {
       "currency": "USD",
       "amount": 279,
-      "converted": 8898,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-19 匯率換算"
+      "converted": 8844,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-09-01 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/350070a0-ae43-431b-b052-8e849c3b0a75/bad94693-bc54-4ab4-b060-9b972401941c.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-pro-max",
@@ -1675,7 +1699,7 @@
       "旗艦 AP"
     ],
     "rank": 18,
-    "releaseDate": "找不到",
+    "releaseDate": "2024",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -1691,13 +1715,13 @@
     },
     "issueResearch": {
       "status": "common_issue",
-      "checkedAt": "2026-07-10",
-      "summary": "多位同型號使用者回報 2.4GHz IoT 裝置會出現 DHCP／DNS timeout、高封包遺失或斷線重連。",
+      "checkedAt": "2026-08-31",
+      "summary": "多位 U7 Pro Max 使用者曾回報 2.4GHz IoT 裝置 DHCP／DNS timeout、封包遺失或斷線重連；後續改善程度需依韌體與實際裝置確認。",
       "issues": [
         {
           "title": "2.4GHz IoT 連線、DHCP／DNS 與封包遺失問題",
-          "detail": "智慧家電可能在連上後很快掉線，或出現嚴重封包遺失；建議先以目前穩定韌體及獨立 IoT SSID 實測，再決定大量部署。",
-          "reportCount": 8,
+          "detail": "2026-08-31 以 6 位型號明確的獨立使用者重核歷史回報。部分後續使用者表示韌體改善，但不能用 U7 Pro 的更新結果代替 Pro Max；官方 7.0.95 公告更明文排除 U7 Pro Max。先確認 Pro Max 適用的穩定韌體，以獨立 IoT SSID 及實際家電測試數日，再決定大量部署。",
+          "reportCount": 6,
           "sources": [
             {
               "platform": "Ubiquiti Community",
@@ -1735,9 +1759,10 @@
     "name": "BE6500 雙頻 Wi-Fi 7 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 4741,
-      "converted": 4741,
-      "confidence": "Yahoo購物中心 2026-08-18 exact-model 公開結構化價格"
+      "amount": 4990,
+      "converted": 4990,
+      "confidence": "Yahoo購物中心 2026-09-01 exact-model 公開結構化價格",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLPA900IV4B6/000001_1783556530.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/ASUS-%E8%8F%AF%E7%A2%A9-RT-BE82U-WiFi-7-%E9%9B%99%E9%A0%BB-BE6500-%E8%B7%AF%E7%94%B1%E5%99%A8-%E5%88%86%E4%BA%AB%E5%99%A8-11798654.html",
@@ -1769,9 +1794,22 @@
       "Wi-Fi 7"
     ],
     "releaseDate": "2025-04-30",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ ASUS RT-BE82U: Momo富邦購物 (店+)【ASUS 華碩】RT-BE82U BE6500 雙頻 WiFi 7 AiMesh 路由器 分享器 型號/規格不相符；LBJ ASUS RT-BE82U: 蝦皮商城 - 蝦皮直營 - 3C家電館 ASUS 華碩 RT-BE82U 路由器 WiFi 7 Ai Mesh 6500Mbps 分享器 廠商直送 型號/規格不相符；LBJ ASUS RT-BE82U: 蝦皮商城 - ROG 華碩授權店 | 電競周邊館 ASUS 華碩 RT-BE82U 路由器 WiFi 7 雙頻 AiMesh 分享器 Wifi分享器 網路交換器 型號/規格不相符。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1806,19 +1844,6 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 3988,
-      "currency": "TWD",
-      "converted": 3988,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1261039160&cgp=4990",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：ASUS 華碩 RT-BE82U WiFi 7 雙頻 BE6500 路由器/分享器",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / ASUS 華碩 RT-BE82U WiFi 7 雙頻 BE6500 路由器/分享器」最低價為 NT$3,988，最低點日期 2026-03-11。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1832,9 +1857,9 @@
     "name": "BE15000 三頻 Wi-Fi 7 10G 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 7999,
-      "converted": 7999,
-      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 5999,
+      "converted": 5999,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJBA900I4F5A/000001_1780372394.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJB-A900I4F5A",
@@ -1881,7 +1906,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1931,7 +1956,7 @@
       "currency": "TWD",
       "amount": 5499,
       "converted": 5499,
-      "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJ6A900IZ71A/000001_1755490950.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJ6-A900IZ71A",
@@ -1962,7 +1987,7 @@
       "D-Link",
       "2.5G"
     ],
-    "releaseDate": "2026-04-16",
+    "releaseDate": "2025-07-03",
     "historicalLow": {
       "status": "found",
       "amount": 4599,
@@ -1978,7 +2003,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2028,7 +2053,7 @@
       "currency": "TWD",
       "amount": 5490,
       "converted": 5490,
-      "confidence": "PChome 2026-08-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAF02A900I473A/000001_1732699929.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAF02-A900I473A",
@@ -2059,7 +2084,7 @@
       "Acer",
       "三頻"
     ],
-    "releaseDate": "2024-01-08",
+    "releaseDate": "2024-08",
     "historicalLow": {
       "status": "found",
       "amount": 5290,
@@ -2075,7 +2100,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2123,9 +2148,9 @@
     "name": "AX3000 Wi-Fi 6 Mesh 網狀路由器三入組",
     "price": {
       "currency": "TWD",
-      "amount": 4199,
-      "converted": 4199,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 5499,
+      "converted": 5499,
+      "confidence": "PChome 2026-08-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFEMA900F9H1Y/000001_1774858877.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFEM-A900F9H1Y",
@@ -2156,7 +2181,7 @@
       "Wi-Fi 6",
       "低價"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2022-07-14",
     "historicalLow": {
       "status": "found",
       "amount": 2799,
@@ -2172,7 +2197,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2269,7 +2294,7 @@
     },
     "issueResearch": {
       "status": "common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-08-29",
       "summary": "多位 Xiaomi AX3000 使用者回報多層 Mesh 節點常只連主路由器，不能穩定串接較近的 AX3000，造成遠端節點訊號或速度不佳。",
       "issues": [
         {
@@ -2303,9 +2328,9 @@
     "name": "BE3600 雙頻 Gigabit Wi-Fi 7 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 2299,
-      "converted": 2299,
-      "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 2099,
+      "converted": 2099,
+      "confidence": "PChome 2026-08-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLVA900K13CR/000001_1779257487.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAN09-A900IK1F1",
@@ -2352,7 +2377,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2433,7 +2458,7 @@
       "EasyMesh",
       "Mercusys"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2024-11",
     "historicalLow": {
       "status": "found",
       "amount": 1399,
@@ -2449,7 +2474,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-20",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2546,7 +2571,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2643,7 +2668,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2691,9 +2716,9 @@
     "name": "BE3600 雙頻 Wi-Fi 7 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 3990,
-      "converted": 3990,
-      "confidence": "PChome 2026-08-18 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 3690,
+      "converted": 3690,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJAA900JUQYP/000001_1774520642.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJA-A900JUQYP",
@@ -2740,7 +2765,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2821,7 +2846,7 @@
       "Linksys",
       "Wi-Fi 6"
     ],
-    "releaseDate": "2021-12",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
       "amount": 9680,
@@ -2837,7 +2862,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2885,13 +2910,13 @@
     "name": "三頻 Wi-Fi 6 Router 無線路由器",
     "price": {
       "currency": "TWD",
-      "amount": 9500,
-      "converted": 9500,
-      "confidence": "Yahoo購物中心 2026-08-18 exact-model 公開結構化價格"
+      "amount": 9999,
+      "converted": 9999,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4VA900JIQU0/000001_1764896894.jpg",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E6%98%8C%E9%81%8B%E7%9B%A3%E8%A6%96%E5%99%A8-Synology%E7%BE%A4%E6%9A%89-RT6600AX-%E4%B8%89%E9%A0%BB-Wi-Fi-6-Router-%E7%84%A1%E7%B7%9A%E8%B7%AF%E7%94%B1%E5%99%A8-11898475.html",
-    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4V-A900JIQU0",
+    "buyLabel": "PChome",
     "specs": [
       "Wi-Fi 6",
       "AX6600 三頻",
@@ -2933,40 +2958,26 @@
       "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     },
     "issueResearch": {
-      "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
-      "summary": "截至查核日，查無達門檻的集中負評／災情",
-      "issues": [],
-      "checkedSources": [
+      "status": "common_issue",
+      "checkedAt": "2026-08-29",
+      "summary": "多位 RT6600ax 使用者回報 5GHz 無線涵蓋與吞吐異常偏低，近距離或隔一面牆即大幅降速，部分甚至掉線。",
+      "issues": [
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Synology RT6600ax\" (problem OR issue OR defect OR failure)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Synology%20RT6600ax%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-          "targetHost": "reddit.com"
-        },
-        {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"Synology RT6600ax\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Synology%20RT6600ax%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "mobile01.com"
-        },
-        {
-          "platform": "PTT",
-          "query": "site:ptt.cc \"Synology RT6600ax\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Synology%20RT6600ax%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "ptt.cc"
-        },
-        {
-          "platform": "Dcard",
-          "query": "site:dcard.tw \"Synology RT6600ax\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Synology%20RT6600ax%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "dcard.tw"
-        },
-        {
-          "platform": "YouTube",
-          "query": "\"Synology RT6600ax\" problem issue defect failure broken 災情 故障 異常",
-          "queryUrl": "https://www.youtube.com/results?search_query=%22Synology%20RT6600ax%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
-          "targetHost": "youtube.com"
+          "title": "5GHz 無線涵蓋與吞吐異常偏低",
+          "detail": "回報集中在 2022 年早期韌體；Synology 曾提供小型修補，部分案例改善、另有使用者表示未改善。建議先更新最新穩定 SRM，並在退換貨期以 5GHz-1／5GHz-2、隔牆與遠距離實測。",
+          "reportCount": 6,
+          "sources": [
+            {
+              "platform": "Reddit",
+              "title": "RT6600ax HORRIBLE wireless performance compared with RT2600ac",
+              "url": "https://www.reddit.com/r/synology/comments/vom2ch/rt6600ax_horrible_wireless_performance_compared/"
+            },
+            {
+              "platform": "SNBForums",
+              "title": "Synology RT6600AX",
+              "url": "https://www.snbforums.com/threads/synology-rt6600ax.78823/"
+            }
+          ]
         }
       ]
     }
@@ -3015,7 +3026,7 @@
       "ASUS",
       "多埠"
     ],
-    "releaseDate": "2024-03-27",
+    "releaseDate": "2024-04-01",
     "historicalLow": {
       "status": "found",
       "amount": 8111,
@@ -3031,7 +3042,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3112,7 +3123,7 @@
       "TP-Link",
       "旗艦"
     ],
-    "releaseDate": "2024-08-30",
+    "releaseDate": "2024-09",
     "historicalLow": {
       "status": "found",
       "amount": 8388,
@@ -3128,7 +3139,7 @@
     },
     "issueResearch": {
       "status": "common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-08-29",
       "summary": "多位 Archer BE805 使用者回報 2.4／5GHz SSID 或全部 Wi-Fi 用戶端會隨機消失或斷線，通常需重新啟動。",
       "issues": [
         {
@@ -3200,7 +3211,7 @@
       "旗艦",
       "TP-Link"
     ],
-    "releaseDate": "2022-12-31",
+    "releaseDate": "2023-04-17",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -3216,7 +3227,7 @@
     },
     "issueResearch": {
       "status": "common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-08-29",
       "summary": "多位 Archer BE900 使用者回報路由器會不定時自行重新啟動或完全凍結，造成所有裝置斷線。",
       "issues": [
         {
@@ -3270,9 +3281,9 @@
     "name": "BE9300 三頻 Wi-Fi 7 旗艦路由器",
     "price": {
       "currency": "TWD",
-      "amount": 8700,
-      "converted": 8700,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 7777,
+      "converted": 7777,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJAA900IFBVA/000001_1780997121.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJA-A900IFBVA",
@@ -3303,7 +3314,7 @@
       "單台",
       "高階"
     ],
-    "releaseDate": "2024-06-19",
+    "releaseDate": "2024-06-11",
     "historicalLow": {
       "status": "found",
       "amount": 5990,
@@ -3319,7 +3330,7 @@
     },
     "issueResearch": {
       "status": "common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-08-29",
       "summary": "多位 RS300 使用者回報路由器會隨機讓有線或無線裝置失去 Internet，部分情況必須斷電重啟。",
       "issues": [
         {
@@ -3368,9 +3379,9 @@
     "name": "AX6000 Wi-Fi 6 雲端安全路由器",
     "price": {
       "currency": "TWD",
-      "amount": 6470,
-      "converted": 6470,
-      "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 6250,
+      "converted": 6250,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAF0IA900HO2DR/000001_1777023675.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAF0I-A900HO2DR",
@@ -3401,7 +3412,7 @@
       "小辦公",
       "Wi-Fi 6"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2024-06-03",
     "historicalLow": {
       "status": "found",
       "amount": 5661,
@@ -3417,7 +3428,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3465,9 +3476,9 @@
     "name": "Wi-Fi 6E 三頻電競路由器",
     "price": {
       "currency": "TWD",
-      "amount": 7590,
-      "converted": 7590,
-      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 7990,
+      "converted": 7990,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFKSA900HEQVN/000001_1713512948.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFKS-A900HEQVN",
@@ -3514,7 +3525,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3611,7 +3622,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3708,7 +3719,7 @@
     },
     "issueResearch": {
       "status": "common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-08-29",
       "summary": "多位 Xiaomi AX3000 使用者回報多層 Mesh 節點常只連主路由器，不能穩定串接較近的 AX3000，造成遠端節點訊號或速度不佳。",
       "issues": [
         {
@@ -3791,7 +3802,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3839,9 +3850,9 @@
     "name": "Wi-Fi 6 雙 10GbE SD-WAN 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 7590,
-      "converted": 7590,
-      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 7990,
+      "converted": 7990,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAG6JA900AUW3D/000001_1626400932.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAG6J-A900AUW3D",
@@ -3888,7 +3899,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3985,7 +3996,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -4082,7 +4093,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -4132,7 +4143,7 @@
       "currency": "TWD",
       "amount": 3299,
       "converted": 3299,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJ5A900K6OV8/000001_1783069758.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJ5-A900K6OV8",
@@ -4179,7 +4190,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -4276,7 +4287,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -4324,9 +4335,9 @@
     "name": "BE3600 雙頻真 Mesh Wi-Fi 7 路由器二入組",
     "price": {
       "currency": "TWD",
-      "amount": 3499,
-      "converted": 3499,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 4699,
+      "converted": 4699,
+      "confidence": "PChome 2026-08-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJ9A900IZ7Y3/000001_1753463373.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFLT-A900K123M",
@@ -4358,9 +4369,22 @@
       "Mercusys"
     ],
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-11",
+      "note": "既有史低證據同頁混列 2／3 入規格，無法確認最低價屬於目標 2 入套裝；應撤銷 found 並重新查核相同套裝史低。 已撤銷錯誤史低；本輪重新查核仍找不到同型號、同尺寸／容量／規格且可公開驗證的可信新品整機史低。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-20",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -4395,19 +4419,6 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 2999,
-      "currency": "TWD",
-      "converted": 2999,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1255208707&cgp=4699",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Mercusys 水星 (2入組) Halo H25BE Wi-Fi 7 雙頻 BE3600 全1G埠 真Mesh路由器 wifi分享器 全屋網狀",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / Mercusys 水星 (2入組) Halo H25BE Wi-Fi 7 雙頻 BE3600 全1G埠 真Mesh路由器 wifi分享器 全屋網狀」最低價為 NT$2,999，最低點日期 2026-02-20。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -4421,9 +4432,9 @@
     "name": "AX3000 Wi-Fi 6 雙頻 Mesh 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 1999,
-      "converted": 1999,
-      "confidence": "Costco 好市多 2026-07-09 查核價"
+      "amount": 2199,
+      "converted": 2199,
+      "confidence": "Costco 好市多 2026-09-02 exact-model 公開結構化價格"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h66/hc1/98612373651486.jpg",
     "buyUrl": "https://www.costco.com.tw/Digital-Mobile/Laptops-Computers/Keyboards-Mice-Computer-Accessories/TP-Link-AX3000-Mesh-Wi-Fi-6-System-Deco-X55/p/134457",
@@ -4454,7 +4465,7 @@
       "Wi-Fi 6",
       "Mesh"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2022-01-12",
     "historicalLow": {
       "status": "found",
       "amount": 1999,
@@ -4470,7 +4481,7 @@
     },
     "issueResearch": {
       "status": "common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-08-29",
       "summary": "多位 Deco X55 使用者回報網路會隨機凍結、節點紅燈或自行重啟，常需手動重開才能恢復。",
       "issues": [
         {
@@ -4554,7 +4565,7 @@
       "BE3600",
       "單台路由器"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2024-11-14",
     "historicalLow": {
       "status": "found",
       "amount": 1639,
@@ -4570,7 +4581,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -4618,9 +4629,9 @@
     "name": "BE9300 三頻 Wi-Fi 7 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 4699,
-      "converted": 4699,
-      "confidence": "Costco 好市多 2026-07-11 頁面查核價"
+      "amount": 4899,
+      "converted": 4899,
+      "confidence": "Costco 好市多 2026-09-02 exact-model 公開結構化價格"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h31/h45/366793143058462.jpg",
     "buyUrl": "https://www.costco.com.tw/Digital-Mobile/Laptops-Computers/Keyboards-Mice-Computer-Accessories/TP-Link-BE9300-Tri-Band-Wi-Fi-7-Router-Archer-BE550/p/154270",
@@ -4653,7 +4664,7 @@
       "BE9300",
       "三頻"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2024-03-28",
     "historicalLow": {
       "status": "found",
       "amount": 3999,
@@ -4669,7 +4680,7 @@
     },
     "issueResearch": {
       "status": "common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-08-29",
       "summary": "多位 Archer BE550 使用者回報路由器或 Wi-Fi 用戶端會隨機短暫斷線，數秒後才重新連上。",
       "issues": [
         {
@@ -4703,9 +4714,10 @@
     "name": "BE19000 三頻 Wi-Fi 7 AI 電競路由器",
     "price": {
       "currency": "TWD",
-      "amount": 26591,
-      "converted": 26591,
-      "confidence": "Yahoo購物中心 2026-08-18 exact-model 公開結構化價格"
+      "amount": 27990,
+      "converted": 27990,
+      "confidence": "Yahoo購物中心 2026-09-01 exact-model 公開結構化價格",
+      "basis": "retailer_current"
     },
     "image": "https://dlcdnwebimgs.asus.com/gain/FF5DB299-9708-4259-ABF9-167FDC7166BD",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E6%98%8C%E9%81%8B%E7%9B%A3%E8%A6%96%E5%99%A8-ASUS-%E8%8F%AF%E7%A2%A9-ROG-Rapture-GT-BE19000AI-WiFi-7-%E4%B8%89%E9%A0%BB%E9%9B%BB%E7%AB%B6-12032656.html",
@@ -4746,9 +4758,22 @@
       "雙 10G"
     ],
     "releaseDate": "2026-03-18",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-05",
+      "note": "已查 Yahoo購物中心、momo、FindPrice 與 BigGo 的 ROG Rapture GT-BE19000AI exact-model 頁；只取得本輪 NT$26,871 至 NT$27,990 現價，沒有可重現的可信新品歷史曲線與最低點日期。FindPrice 的 NT$20,999 候選標題僅寫四頻 Rapture、未含 GT-BE19000AI，與本款三頻 exact model 不符，已排除。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-20",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -4783,19 +4808,6 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 25219,
-      "currency": "TWD",
-      "converted": 25219,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=564386105&cgp=27990",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：華碩 ROG Rapture GT-BE19000AI 無線 路由器 ASUS WiFi 7 三頻 廠商直送",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - 蝦皮直營 - 3C家電館 / 華碩 ROG Rapture GT-BE19000AI 無線 路由器 ASUS WiFi 7 三頻 廠商直送」最低價為 NT$25,219，最低點日期 2026-08-08。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -4850,7 +4862,7 @@
       "EasyMesh",
       "MLO"
     ],
-    "releaseDate": "2026-03-03",
+    "releaseDate": "2025-05-20",
     "historicalLow": {
       "status": "found",
       "amount": 5499,
@@ -4866,7 +4878,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -4899,6 +4911,203 @@
           "query": "\"TP-Link Archer BE600\" problem issue defect failure broken 災情 故障 異常",
           "queryUrl": "https://www.youtube.com/results?search_query=%22TP-Link%20Archer%20BE600%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
           "targetHost": "youtube.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "wifi-asus-rog-gt-be25000-edition-20",
+    "category": "wifi",
+    "rank": 52,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "ASUS",
+    "model": "ROG Rapture GT-BE25000 Edition 20",
+    "name": "BE25000 四頻 Wi-Fi 7 20 週年電競路由器",
+    "price": {
+      "currency": "TWD",
+      "amount": 25888,
+      "converted": 25888,
+      "confidence": "eclife 良興蝦皮商城 2026-08-28 exact-model 公開價，頁面顯示現貨數量",
+      "basis": "retailer_current"
+    },
+    "image": "https://dlcdnwebimgs.asus.com/gain/FA249918-389C-497B-9E90-71E3E88A2E99",
+    "buyUrl": "https://shopee.tw/ASUS-%E8%8F%AF%E7%A2%A9-ROG-Rapture-GT-BE25000-Edition-20-WiFi7%E8%B7%AF%E7%94%B1%E5%99%A8-i.28706135.43232449392",
+    "buyLabel": "eclife 良興蝦皮商城",
+    "installation": {
+      "status": "not_stated",
+      "note": "售價為單台路由器與原廠變壓器；不含網路佈線、10GbE 交換器、到府設定或額外 AiMesh 節點。"
+    },
+    "specs": [
+      "Wi-Fi 7 / BE25000 四頻（2.4GHz、雙 5GHz、6GHz），支援 MLO 與 320MHz",
+      "Mesh：支援 AiMesh，可作主路由、節點或 AP",
+      "有線：10G WAN/LAN x1、2.5G WAN/LAN x1、10G LAN x1、2.5G LAN x3、1G LAN x1",
+      "八支外接天線、Gaming Network、Guest Network Pro 與 AiProtection",
+      "尺寸：350.41 x 350.41 x 220.6 mm；重量：2 kg"
+    ],
+    "description": "GT-BE25000 Edition 20 是 ROG 20 週年四頻 Wi-Fi 7 旗艦，以雙 10GbE、四個 2.5GbE、AiMesh 和透明機構設計補進收藏型高階路由器比較。",
+    "pros": [
+      "四頻 Wi-Fi 7、雙 10GbE 與四個 2.5GbE 適合高速 NAS 和多 Gigabit 網路",
+      "支援 AiMesh、MLO、320MHz 與完整 ROG 遊戲網路功能",
+      "台灣正式上市且主機三年保固"
+    ],
+    "cons": [
+      "NT$25,888 定位很高，週年外觀溢價明顯",
+      "機身寬深皆約 35cm，不適合狹小弱電箱或隱藏擺放",
+      "基礎 GT-BE25000／海外 GT-BE98 有零星 2.4GHz 與 IoT 連線回報，Edition 20 尚未形成 exact-model 集中問題"
+    ],
+    "bestFor": "需要四頻 Wi-Fi 7、雙 10GbE、AiMesh 與多台 2.5GbE 設備，也重視 ROG 20 週年收藏外觀的進階玩家。",
+    "recommendation": "週年旗艦補強：效能與高速埠完整，但不是一般家庭的 CP 值選擇；部署後應針對 2.4GHz IoT、MLO、漫遊和長時間穩定性逐一壓測。",
+    "score": 87,
+    "voltage": "AC 110-240V、50-60Hz；DC 19.5V/3.33A 或 12V/5A，台灣電力可用",
+    "warranty": "ASUS 台灣網通產品主機 36 個月；變壓器、電源線與天線 12 個月",
+    "tags": [
+      "Wi-Fi 7",
+      "BE25000",
+      "四頻",
+      "AiMesh",
+      "雙10G",
+      "2.5G",
+      "20週年"
+    ],
+    "releaseDate": "2026-06-26",
+    "historicalLow": {
+      "status": "found",
+      "amount": 25888,
+      "currency": "TWD",
+      "converted": 25888,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=588834401&cgp=25888",
+      "sourceTitle": "LBJ 比價撿便宜歷史價格：ASUS ROG Rapture GT-BE25000 Edition 20",
+      "evidenceSnippet": "LBJ 的 eclife 良興蝦皮商城 exact-model 歷史曲線在 2026-07-28、08-17、08-28 均記錄 NT$25,888。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-08-28",
+      "note": "新品上市時間短，目前可信公開歷史曲線最低仍為建議售價 NT$25,888；未計聊聊議價、折價券、蝦幣或信用卡回饋。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-29",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"ROG Rapture GT-BE25000 Edition 20\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22ROG%20Rapture%20GT-BE25000%20Edition%2020%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"ROG Rapture GT-BE25000 Edition 20\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22ROG%20Rapture%20GT-BE25000%20Edition%2020%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "wifi-asus-rt-be86u",
+    "category": "wifi",
+    "rank": 53,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "ASUS",
+    "model": "RT-BE86U",
+    "name": "BE6800 雙頻 Wi-Fi 7 AiMesh 路由器",
+    "price": {
+      "currency": "TWD",
+      "amount": 7199,
+      "converted": 7199,
+      "confidence": "PChome 2026-09-02 API 與公開頁 exact-model 查核價；Price.P=NT$7,199、Price.Low 無有效低價、Qty 20",
+      "basis": "retailer_current"
+    },
+    "image": "https://dlcdnwebimgs.asus.com/gain/c591d551-742d-40f9-8c16-f5386255909e/",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJ5-A900HUUKE",
+    "buyLabel": "PChome 24h購物",
+    "installation": {
+      "status": "not_stated",
+      "note": "售價為單台路由器與原廠變壓器；不含網路佈線、到府設定、交換器或額外 AiMesh 節點。"
+    },
+    "specs": [
+      "Wi-Fi 7 / BE6800 雙頻（5GHz 5764Mbps＋2.4GHz 1032Mbps），支援 MLO、160MHz 與 4096-QAM",
+      "無線：5GHz 4x4、2.4GHz 3x3；三支外接天線＋一支內建天線",
+      "Mesh：支援 AiMesh，可作 AiMesh 主路由或節點",
+      "有線：10G WAN/LAN x1、2.5G WAN/LAN x1、2.5G LAN x3；USB 3.2 Gen 1 x1、USB 2.0 x1",
+      "2.6GHz 四核心處理器、1GB RAM、256MB Flash；AiProtection Pro 與 Guest Network Pro",
+      "尺寸：235 x 90 x 316 mm；重量：854 g"
+    ],
+    "description": "RT-BE86U 是雙頻 BE6800 Wi-Fi 7 路由器，將 10GbE、四個 2.5GbE 等級連接埠、AiMesh 與 ASUS 網路安全功能放進萬元內級距；適合已布建多 Gigabit 網路、但不需要 6GHz 的家庭。",
+    "pros": [
+      "10G WAN/LAN 加四個 2.5GbE 等級連接埠，適合高速 NAS 與多 Gigabit 寬頻",
+      "支援 AiMesh、MLO、160MHz 與完整 ASUSWRT 管理功能",
+      "台灣正式販售，主機享 ASUS 台灣 36 個月保固"
+    ],
+    "cons": [
+      "雙頻設計沒有 6GHz，無法使用 320MHz 頻寬",
+      "單台不是完整 Mesh 套組，多樓層仍可能需要額外節點或有線回程",
+      "已有跨三個網站的 exact-model 使用者回報特定韌體後 Wi-Fi 反覆斷線或無線電重啟"
+    ],
+    "bestFor": "需要 10GbE、多個 2.5GbE、AiMesh 與成熟 ASUSWRT 功能，但不打算部署 6GHz／320MHz 的進階家庭與小型工作室。",
+    "recommendation": "高速有線與 AiMesh 補充推薦；購買後先更新至最新穩定韌體，再於退換貨期內長時間測試 2.4GHz IoT、5GHz 負載、漫遊與重啟後穩定性。",
+    "score": 84,
+    "voltage": "AC 110-240V、50-60Hz；DC 12V/5A 或 19.5V/2.31A，台灣電力可用",
+    "warranty": "ASUS 台灣網通產品主機 36 個月；變壓器、電源線與天線 12 個月（限台灣代理商銷售產品）",
+    "tags": [
+      "Wi-Fi 7",
+      "BE6800",
+      "雙頻",
+      "AiMesh",
+      "10G",
+      "2.5G",
+      "MLO"
+    ],
+    "releaseDate": "2024-08-21",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-09-02",
+      "note": "已跨 PChome、Yahoo購物中心、ASUS 台灣官方商城與比價來源查核 RT-BE86U exact model；Yahoo NT$6,999／活動價 NT$6,618 是本輪仍顯示的即時促銷，沒有可回溯的歷史最低日期，其他更低候選亦無法同時確認新品、賣家與台灣保固，因此不以現價或促銷價推定史低。"
+    },
+    "issueResearch": {
+      "status": "common_issue",
+      "checkedAt": "2026-09-02",
+      "summary": "多位 RT-BE86U 使用者回報特定韌體後 Wi-Fi 用戶端或無線電會反覆斷線、重啟，嚴重時需重新開機或降版才暫時恢復。",
+      "issues": [
+        {
+          "title": "特定韌體下 Wi-Fi 反覆斷線或無線電重啟",
+          "detail": "七位可辨識使用者在 Reddit、ASUS ZenTalk 與 Whirlpool 回報 RT-BE86U 的 Wi-Fi 用戶端、整個無線電或網路服務反覆掉線／重啟；部分案例降版後改善。ASUS 後續韌體說明曾提及改善漫遊、連接埠穩定與部分斷線原因，但不能據此推定所有案例已解決。建議先更新最新穩定版、必要時恢復原廠設定，並於退換貨期內同時壓測 2.4GHz、5GHz、有線連接與 AiMesh。",
+          "reportCount": 7,
+          "sources": [
+            {
+              "platform": "Reddit",
+              "title": "After firmware update RT-BE86U randomly disconnects and reconnects",
+              "url": "https://www.reddit.com/r/ASUS/comments/1p24n2y/after_firmware_update_rtbe86u_randomly/"
+            },
+            {
+              "platform": "ASUS ZenTalk",
+              "title": "Critical kernel panics / instability by Broadcom Wi-Fi driver bug",
+              "url": "https://zentalk.asus.com/t5/networking/critical-kernel-panics-instability-by-broadcom-wi-fi-driver-bug/td-p/494971/page/2"
+            },
+            {
+              "platform": "ASUS ZenTalk",
+              "title": "RT-BE86U Kernel: WLC_SCB_DEAUTHORIZE error -30",
+              "url": "https://zentalk.asus.com/t5/networking/rt-be86u-kernel-wlc-scb-deauthorize-error-30/td-p/485994/page/3"
+            },
+            {
+              "platform": "Whirlpool",
+              "title": "ASUS RT-BE86U discussion",
+              "url": "https://forums.whirlpool.net.au/archive/3246v0yj"
+            }
+          ]
         }
       ]
     }

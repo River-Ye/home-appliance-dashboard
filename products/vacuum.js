@@ -49,7 +49,7 @@
       "顯塵",
       "乾吸"
     ],
-    "releaseDate": "2022-06-22",
+    "releaseDate": "2024-04-10",
     "historicalLow": {
       "status": "found",
       "amount": 15900,
@@ -65,7 +65,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -113,9 +113,9 @@
     "name": "自動集塵無線吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 16900,
-      "converted": 16900,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 17900,
+      "converted": 17900,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX8KA900HLX9W/000001_1744871467.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAX8K-A900HLX9W",
@@ -161,7 +161,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-20",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -257,7 +257,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -337,7 +337,7 @@
       "熱水洗",
       "寵物"
     ],
-    "releaseDate": "2024",
+    "releaseDate": "2025",
     "historicalLow": {
       "status": "found",
       "amount": 17559,
@@ -353,7 +353,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -401,9 +401,10 @@
     "name": "乾濕全能洗地吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 20900,
-      "converted": 20900,
-      "confidence": "momo購物 2026-07-11 頁面查核價"
+      "amount": 22900,
+      "converted": 22900,
+      "confidence": "2026-08-31 人工查核：V12s Detect Slim Submarine SV46 雙主吸頭整機 NT$22,900、2 年保固，直接購買／購物車可用；贈品價值、點數及加購不抵減現價。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBF05A900GCL8W/000001_1780460543.jpg",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=11408347",
@@ -449,7 +450,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-09-01",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -529,7 +530,7 @@
       "輕量",
       "無線"
     ],
-    "releaseDate": "2021-05",
+    "releaseDate": "2024-04-10",
     "historicalLow": {
       "status": "found",
       "amount": 16044,
@@ -545,7 +546,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -625,7 +626,7 @@
       "Dyson",
       "寵物"
     ],
-    "releaseDate": "2025-11",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
       "amount": 15888,
@@ -641,7 +642,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -691,7 +692,7 @@
       "currency": "TWD",
       "amount": 18900,
       "converted": 18900,
-      "confidence": "PChome 2026-08-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX00A900HC7B6/000001_1782183523.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAX00-A900HC7B6",
@@ -721,7 +722,7 @@
       "Dyson",
       "高吸力"
     ],
-    "releaseDate": "2021",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
       "amount": 17363,
@@ -737,7 +738,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -833,7 +834,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -883,7 +884,7 @@
       "currency": "TWD",
       "amount": 26900,
       "converted": 26900,
-      "confidence": "PChome 2026-07-16 API 公開價"
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX8KA900HLXAQ/000001_1744871444.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAX8K-A900HLXAQ",
@@ -913,7 +914,7 @@
       "蒸氣",
       "LG"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2024-06-11",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -929,7 +930,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1009,7 +1010,7 @@
       "輕量",
       "低價"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2024-06-11",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -1025,7 +1026,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1105,7 +1106,7 @@
       "輕量",
       "均衡"
     ],
-    "releaseDate": "2018-12-18",
+    "releaseDate": "2024-06-11",
     "historicalLow": {
       "status": "found",
       "amount": 6966,
@@ -1121,7 +1122,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1202,9 +1203,22 @@
       "小宅"
     ],
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Siroca SV-SP3710: 博客來 日本 Siroca 超輕量無線吸塵器 SV-SP3710 白 型號/規格不相符；LBJ Siroca SV-SP3710: Momo富邦購物 【Siroca】官方直營 SV-SP3710超輕量無線吸塵器(無線吸塵器) 型號/規格不相符；LBJ Siroca SV-SP3710: Momo富邦購物 (店+)【Siroca】超輕量無線吸塵器 SV-SP3710 型號/規格不相符。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1239,19 +1253,6 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 2699,
-      "currency": "TWD",
-      "converted": 2699,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1267673255&cgp=2966",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Siroca】官方直營 SV-SP3710超輕量無線吸塵器(無線吸塵器)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Siroca】官方直營 SV-SP3710超輕量無線吸塵器(無線吸塵器)」最低價為 NT$2,699，最低點日期 2026-03-12。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1298,9 +1299,22 @@
       "設計"
     ],
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：BigGo DSBE1A-A900J8H81: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/DSBE1A-A900J8H81/product?p=1；BigGo Plus Minus Zero XJC-Y011: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/Plus%20Minus%20Zero%20XJC-Y011/product?p=1。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1335,19 +1349,6 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 3512,
-      "currency": "TWD",
-      "converted": 3512,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1258656426&cgp=3591",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【±0正負零】XJC-Y011 無線吸塵器",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / 【±0正負零】XJC-Y011 無線吸塵器」最低價為 NT$3,512，最低點日期 2026-06-18。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1409,7 +1410,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1505,7 +1506,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-20",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1586,9 +1587,22 @@
       "筆型"
     ],
     "releaseDate": "2025",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Dyson SV50: 蝦皮商城 - 瘋旅遊 Crazy Travel 適用Dyson吸塵器 Pencilvac Fluffycones SV50 濾網 鉛筆濾網 濾網 過濾芯 戴森濾網 最低價 NT$285 低於現價合理比例，疑似月付/配件/錯類；LBJ Dyson SV50: 蝦皮商城 - 愛濾屋-清淨專家 濾網領航 台灣製造 品質出眾 適用Dyson戴森Pencilvac Fluffycones SV50 SV50FF筆型/鉛筆吸塵器HEPA集塵濾網芯 最低價 NT$325 低於現價合理比例，疑似月付/配件/錯類；LBJ Dyson SV50: Momo富邦購物 (店+)適用Dyson戴森Pencilvac Fluffycones SV50 SV50FF筆型吸塵器HEPA集塵濾網芯 最低價 NT$350 低於現價合理比例，疑似月付/配件/錯類。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1623,19 +1637,6 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 17900,
-      "currency": "TWD",
-      "converted": 17900,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=604061122&cgp=19900",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Dyson PencilVac™ Fluffycones SV50 筆型/鉛筆吸塵器 超輕量 360度靈活吸頭 全新上市",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - dyson戴森｜恆隆行官方旗艦館 / Dyson PencilVac™ Fluffycones SV50 筆型/鉛筆吸塵器 超輕量 360度靈活吸頭 全新上市」最低價為 NT$17,900，最低點日期 2026-08-10。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1681,7 +1682,7 @@
       "AI",
       "平躺"
     ],
-    "releaseDate": "2025",
+    "releaseDate": "2025-07-17",
     "historicalLow": {
       "status": "found",
       "amount": 13618,
@@ -1697,7 +1698,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1793,7 +1794,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1841,9 +1842,9 @@
     "name": "微塵感知極淨光無線吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 11815,
-      "converted": 11815,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 11713,
+      "converted": 11713,
+      "confidence": "Yahoo購物中心 2026-08-21 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX0ZA900K4IQZ/000001_1781668428.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-%E7%84%A1%E7%B7%9A%E7%9B%B4%E7%AB%8B-%E6%89%8B%E6%8C%81%E5%BC%8F%E5%BE%AE%E5%A1%B5%E6%84%9F%E7%9F%A5%E6%A5%B5%E6%B7%A8%E5%85%89%E5%90%B8%E5%A1%B5%E5%99%A8-MC-SBR70-12134025.html",
@@ -1874,9 +1875,22 @@
       "Panasonic"
     ],
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Panasonic MC-SBR70: 樂天市場 - Panasonic授權台北中山佳麗寶電器 Panasonic授權台北中山佳麗寶電器 【Panasonic】極淨光吸塵器 (MC-SBR70) 型號/規格不相符；LBJ Panasonic MC-SBR70: 樂天市場 - Panasonic授權新店達澄電器行 Panasonic授權新店達澄電器行 【Panasonic】極淨光吸塵器 (MC-SBR70) 型號/規格不相符；LBJ Panasonic MC-SBR70: 樂天市場 - Panasonic授權高雄梓官協福電器 Panasonic授權高雄梓官協福電器 【Panasonic】極淨光吸塵器 (MC-SBR70) 型號/規格不相符。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1911,19 +1925,6 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 11670,
-      "currency": "TWD",
-      "converted": 11670,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282767017&cgp=11760",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Panasonic 國際牌】極淨光吸塵器 MC-SBR70-K",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Panasonic 國際牌】極淨光吸塵器 MC-SBR70-K」最低價為 NT$11,670，最低點日期 2026-06-16。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1937,9 +1938,10 @@
     "name": "無線吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 9282,
-      "converted": 9282,
-      "confidence": "momo購物 2026-08-07 exact-model 公開價"
+      "amount": 10900,
+      "converted": 10900,
+      "confidence": "2026-08-31 人工查核：Well Q7 WQ71-2BSWF 冰雪白主價 NT$10,900，2 年保固、直接購買／購物車可用；濾網加購 NT$840 為配件，不是主價。",
+      "basis": "retailer_current"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h52/h5d/351316137377822.jpg",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=13546308",
@@ -1984,7 +1986,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2022,52 +2024,64 @@
     }
   },
   {
-    "id": "vacuum-costco-iris-ic-h50",
+    "id": "vacuum-dyson-v8-cyclone-sv55",
     "category": "vacuum",
     "rank": 22,
-    "budget": "value",
+    "topPick": false,
+    "budget": "balanced",
     "channel": "tw",
-    "brand": "IRIS OHYAMA",
-    "model": "IC-H50",
-    "name": "手持式充電吸塵器",
+    "brand": "Dyson",
+    "model": "V8 Cyclone SV55",
+    "name": "V8 Cyclone 無線吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 1959,
-      "converted": 1959,
-      "confidence": "Costco 好市多 2026-07-11 頁面查核價"
+      "amount": 9900,
+      "converted": 9900,
+      "confidence": "Dyson 台灣官方商城 2026-09-01 exact-model SV55／商品 SKU 630933-01 頁面顯示原價 NT$14,900、特價 NT$9,900、InStock 並可加入購物車；贈品價值不抵減現價",
+      "basis": "retailer_current"
     },
-    "image": "https://www.costco.com.tw/medias/sys_master/images/h13/he5/220050298077214.jpg",
-    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Small-Appliances/Vacuums-Floor-Care/IRIS-OHYAMA-Handy-Rechargeable-Cleaner-IC-H50/p/144463",
-    "buyLabel": "Costco 好市多",
+    "image": "https://dysonshop.blob.core.windows.net/products/dyson-v8-cyclone-sv55-vacuum-sale/hero-1787682803-480x480.jpg",
+    "buyUrl": "https://shop.dyson.tw/vacuums/cordless-vacuums/dyson-v8-cyclone-sv55-vacuum-sale-630933-01",
+    "buyLabel": "Dyson 台灣官方商城",
+    "installation": {
+      "status": "not_stated",
+      "note": "官方商城未列到府安裝；本品為無線直立／手持吸塵器，使用者需依說明書裝妥吸頭、壁掛充電座並定期清潔集塵筒與濾網。"
+    },
     "specs": [
-      "手持充電式",
-      "重量：約500公克",
-      "110V 充電",
-      "含充電座與縫隙吸頭",
-      "Costco 評價 4.8 / 94 則"
+      "類型：乾式無線直立／手持吸塵器；台灣 exact model SV55、Dyson 商品 SKU 630933-01",
+      "最大吸力 150AW；節能／中／強效三段吸力；單鍵電源控制",
+      "最長約 60 分鐘續航；充電最長約 4 小時；電池可拆換",
+      "全機密封過濾系統可捕捉 99.99% 小至 0.3 微米微塵；15 個雙層多圓錐氣旋",
+      "集塵筒 0.54L；機身尺寸 1,150 x 250 x 210mm；淨重 2.37kg",
+      "包裝含 Fluffy 軟絨毛滾筒吸頭、迷你電動吸頭、隙縫清潔吸頭、壁掛架與充電器；2026-09-01 官方頁另贈多功能置物架"
     ],
-    "description": "Costco 評價不錯的吸塵器候選，補進手持與輕量清潔比較池。",
+    "description": "V8 Cyclone SV55 是新版 V8 乾式無線主力，將吸力提升至 150AW、續航延長至最長 60 分鐘，並改為單鍵啟動與可換電池；台灣官方現售 Fluffy 組適合想壓在萬元內兼顧硬地板、床墊與寵物毛髮的人。",
     "pros": [
-      "價格親民",
-      "小空間與局部清潔方便"
+      "150AW、最長 60 分鐘與三段模式，比舊 V8 更適合完整居家乾吸",
+      "2.37kg 機身、單鍵啟動與可換電池兼顧操作負擔和續航彈性",
+      "Fluffy 主吸頭與迷你電動吸頭可分別處理硬地板、床墊與寵物毛髮",
+      "台灣官方現貨、110–220V 電力標示、BSMI 與原廠 2 年保固證據完整"
     ],
     "cons": [
-      "不適合作為大坪數主力機",
-      "續航與吸力需依小型機期待"
+      "沒有雷射顯塵、灰塵數量顯示或自動吸力調節等 V12／V15 智慧功能",
+      "官方 NT$9,900 組合只有 Fluffy 主吸頭，沒有電動碳纖維地毯主吸頭",
+      "0.54L 集塵筒仍需手動倒塵，壁掛座也沒有自動集塵",
+      "強效模式續航遠短於 60 分鐘標稱值，實際時間會隨吸頭與地面類型變動",
+      "官網贈品與組合內容可能隨檔期變動，購買前需重新核對"
     ],
-    "bestFor": "租屋、車內、桌面或局部快速清潔的人",
-    "recommendation": "好市多補充推薦：手持式充電吸塵器 評價不錯，補進吸塵器分類作為 Costco 候選比較。",
-    "score": 87,
-    "voltage": "110V 充電",
-    "warranty": "依 Costco 好市多商品頁與品牌 1 年保固標示",
+    "bestFor": "預算約一萬元、以硬地板乾式清潔為主，想要 Dyson 吸力、可換電池與床墊用迷你電動吸頭，但不需要雷射顯塵或自動集塵的家庭。",
+    "recommendation": "萬元內乾吸補強：SV55 以 150AW、最長 60 分鐘和 Fluffy 組補上舊 V8 與 V12 之間的價位帶；沒有地毯主吸頭、智慧偵測與自動集塵，因此不取代目前綜合 Top Pick。",
+    "score": 88,
+    "voltage": "Yahoo購物中心 exact-model SV55 台灣新品頁明示 110–220V、BSMI R31692；以台灣公司貨隨附充電器銘牌為準",
+    "warranty": "Dyson 台灣原廠 2 年保固，官方商城明示包含零件與人工；Yahoo exact-model 新品頁亦標示原廠 2 年保固",
     "tags": [
-      "Costco",
-      "好市多",
-      "手持",
-      "輕量",
-      "小空間"
+      "150AW",
+      "60 分鐘",
+      "可換電池",
+      "Fluffy 吸頭",
+      "台灣公司貨"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2025-09-05",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -2078,44 +2092,26 @@
       "evidenceSnippet": "",
       "sourceKind": "not_found",
       "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ IRIS OHYAMA IC-H50: Momo富邦購物 (店+)【D+ 滴家】IRIS Ohyama IC-H50 無線車用手持式 吸塵器 HEPA 濾網 濾心 IC-HH50 ICH50 (副廠) 非採用通路或含排除條件；LBJ IRIS OHYAMA IC-H50: 蝦皮商城 - Renza Filtration 濾網專家 適用 IRIS OHYAMA 愛麗思歐雅瑪 IC-H50 攜帶式充電吸塵器 HEPA濾網 濾芯 濾心 非採用通路或含排除條件；LBJ IRIS OHYAMA IC-H50: 蝦皮商城 - 淨博-外銷歐美日專業空氣清淨濾網 適用Iris Ohyama 無線車用手持式吸塵器IC-H50 (costco款)替換用HEPA微塵濾網濾心IC-HH50 非採用通路或含排除條件。"
+      "checkedAt": "2026-09-01",
+      "note": "已查 Dyson 台灣官方商城、momo、PChome、Yahoo購物中心、LINE 購物與飛比 exact-model SV55；官方 Fluffy 組只能確認本輪 NT$9,900 公開特價，頁面未列可重現的最低點日期。排除 momo 滿件折 NT$1,000、Yahoo 券／會員價、遠傳門號方案價、福利品 NT$8,999 與不同吸頭／贈品組，現價不得直接推定為史低。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-09-01",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Reddit",
-          "query": "site:reddit.com \"IRIS OHYAMA IC-H50\" (problem OR issue OR defect OR failure)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22IRIS%20OHYAMA%20IC-H50%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "query": "site:reddit.com \"Dyson V8 Cyclone SV55\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dyson%20V8%20Cyclone%20SV55%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
           "targetHost": "reddit.com"
         },
         {
           "platform": "Mobile01",
-          "query": "site:mobile01.com \"IRIS OHYAMA IC-H50\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22IRIS%20OHYAMA%20IC-H50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "query": "site:mobile01.com \"Dyson V8 Cyclone SV55\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Dyson%20V8%20Cyclone%20SV55%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
-        },
-        {
-          "platform": "PTT",
-          "query": "site:ptt.cc \"IRIS OHYAMA IC-H50\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22IRIS%20OHYAMA%20IC-H50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "ptt.cc"
-        },
-        {
-          "platform": "Dcard",
-          "query": "site:dcard.tw \"IRIS OHYAMA IC-H50\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22IRIS%20OHYAMA%20IC-H50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "dcard.tw"
-        },
-        {
-          "platform": "YouTube",
-          "query": "\"IRIS OHYAMA IC-H50\" problem issue defect failure broken 災情 故障 異常",
-          "queryUrl": "https://www.youtube.com/results?search_query=%22IRIS%20OHYAMA%20IC-H50%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
-          "targetHost": "youtube.com"
         }
       ]
     }
@@ -2166,7 +2162,7 @@
       "延長管",
       "輕量"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2023-09-29",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -2182,7 +2178,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2231,8 +2227,8 @@
     "price": {
       "currency": "USD",
       "amount": 679.99,
-      "converted": 21686,
-      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-08-19 匯率換算"
+      "converted": 21556,
+      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-09-01 匯率換算"
     },
     "image": "https://m.media-amazon.com/images/I/61Yuy5vtWFL._AC_SL1500_.jpg",
     "buyUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
@@ -2271,18 +2267,18 @@
       "status": "found",
       "amount": 679.99,
       "currency": "USD",
-      "converted": 21686,
+      "converted": 21556,
       "sourceUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
       "sourceTitle": "Dreame Aero Ultra Steam Wet Dry Vacuum – Dreame Vacuum Mop",
       "evidenceSnippet": "Dreame 原廠美國商品頁於 2026-07-16 公開顯示特價 US$679.99、原價 US$799.99，且可 Add to Cart / Buy It Now。",
       "sourceKind": "official_sale",
       "confidence": "high",
       "checkedAt": "2026-07-16",
-      "note": "新上市商品目前可公開驗證的最低售價；未套用會員碼、信用卡、點數或個人化折扣，且未含國際運費、進口稅、插頭／供電與台灣保固風險；依 2026-08-19 USD/TWD 匯率換算。"
+      "note": "新上市商品目前可公開驗證的最低售價；未套用會員碼、信用卡、點數或個人化折扣，且未含國際運費、進口稅、插頭／供電與台灣保固風險；依 2026-09-01 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2368,7 +2364,7 @@
       "Fluffy Optic",
       "寵物家庭"
     ],
-    "releaseDate": "2025-09-04",
+    "releaseDate": "2026",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -2384,7 +2380,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2486,7 +2482,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2593,7 +2589,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2626,6 +2622,370 @@
           "query": "\"HITACHI PV-XH4P\" problem issue defect failure broken 災情 故障 異常",
           "queryUrl": "https://www.youtube.com/results?search_query=%22HITACHI%20PV-XH4P%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
           "targetHost": "youtube.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "vacuum-samsung-vs70h18gzg-tw",
+    "category": "vacuum",
+    "rank": 28,
+    "topPick": false,
+    "budget": "balanced",
+    "channel": "tw",
+    "brand": "Samsung",
+    "model": "VS70H18GZG/TW",
+    "name": "Jet Fit 180W 輕量無線吸塵器",
+    "price": {
+      "currency": "TWD",
+      "amount": 13900,
+      "converted": 13900,
+      "confidence": "新光三越 skm online 2026-08-20 exact-model 台灣新品頁公開售價",
+      "basis": "retailer_current"
+    },
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tw/vs70h18gzg-tw/gallery/tw-jet-fit-stick-vs70h18gzg-tw-550961394?$624_468_PNG$",
+    "buyUrl": "https://online.skm.com.tw/product/863012300004104123",
+    "buyLabel": "新光三越 skm online",
+    "installation": {
+      "status": "not_stated",
+      "note": "通路未列到府安裝；本品為無線直立／手持吸塵器，充電座、配件與充電位置由使用者依原廠說明完成。"
+    },
+    "specs": [
+      "最大吸力 180W；HexaJet Motor",
+      "最長約 50 分鐘（最低功率搭配非電動工具）；Jet 模式約 6 分鐘",
+      "整機 1.96kg、手持 1.18kg；集塵容量 0.35L",
+      "尺寸：本體寬 25 x 深 18.1 x 高 104 cm；含集塵筒寬 28.2 x 深 26.9 x 高 108.5 cm",
+      "18V、2400mAh 可拆電池；充電約 210 分鐘",
+      "99.999% 多層過濾、可水洗集塵筒、LCD 顯示與智慧待機"
+    ],
+    "description": "Samsung VS70H18GZG/TW 以 1.96kg、180W 與可拆電池，補進韓系輕量無線吸塵器帶。",
+    "pros": [
+      "1.96kg 整機與 1.18kg 手持重量適合樓梯及高處清潔",
+      "180W 吸力、99.999% 多層過濾與可水洗集塵筒規格完整",
+      "可拆式電池、LCD 與智慧待機便於日常管理"
+    ],
+    "cons": [
+      "Jet 模式續航約 6 分鐘，50 分鐘是最低功率條件",
+      "0.35L 集塵筒清理頻率較高",
+      "替換電池、濾網與電動吸頭價格需另查"
+    ],
+    "bestFor": "重視輕量操控、韓系售後與可拆電池，主要清潔中小坪數硬地板的家庭。",
+    "recommendation": "Samsung 品牌補強：重量、吸力與台灣公司貨平衡，但續航比較要使用相同檔位與吸頭條件。",
+    "score": 88,
+    "voltage": "18V 電池系統；原廠充電設備供台灣公司貨使用",
+    "warranty": "Samsung 台灣公司貨；電池依原廠條款 2 年，HexaJet Motor 零件依條款 10 年（不含工資）",
+    "tags": [
+      "180W",
+      "1.96kg",
+      "可拆電池",
+      "多層過濾",
+      "LCD"
+    ],
+    "releaseDate": "2026-01",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-20",
+      "note": "已查 Samsung 台灣官方、skm online 與 exact-model 價格搜尋；只能確認本輪 NT$13,900 新品現價，未找到具日期且可重現的可信新品史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-29",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Samsung VS70H18GZG/TW\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20VS70H18GZG%2FTW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Samsung VS70H18GZG/TW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20VS70H18GZG%2FTW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "vacuum-roborock-f25-ace-pro-wd5m14a",
+    "category": "vacuum",
+    "rank": 29,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Roborock",
+    "model": "WD5M14A",
+    "name": "F25 ACE Pro 石沫吸泡沫洗地機",
+    "price": {
+      "currency": "TWD",
+      "amount": 14888,
+      "converted": 14888,
+      "confidence": "Roborock 台灣官網 2026-08-26 exact-model Shopify SKU WD5M14A 公開價；available=true 且可立即購買",
+      "basis": "retailer_current"
+    },
+    "image": "https://taiwan.roborock.com/cdn/shop/files/F25_ACE_Pro_1_1200x1200.jpg?v=1787311249",
+    "buyUrl": "https://taiwan.roborock.com/products/roborock-f25-ace-pro",
+    "buyLabel": "Roborock 台灣官網",
+    "installation": {
+      "status": "not_stated",
+      "note": "台灣官方與通路未列到府安裝；本品為手持洗地機，使用者需依原廠說明放置充電座、注水並清潔污水箱。"
+    },
+    "specs": [
+      "JetFoaming 超微能量泡沫洗；1ml 清潔液可產生 1.67 億個微米級泡沫",
+      "25,000Pa 吸力、30N 對地壓力、430RPM 滾刷；三側 0mm 貼邊",
+      "180° FlatReach 2.0 平躺；平躺機身高度 12.5cm；SlideTech 2.0 雙輪助力",
+      "95°C 滾刷高溫自清潔；95°C 熱風 5 分鐘速烘或 30 分鐘靜音烘乾",
+      "Eco 模式最長約 60 分鐘；4000mAh 電池；清水箱 1,000ml、污水箱 720ml",
+      "尺寸：主機寬 26.5 x 深 25 x 高 110cm；含充電座寬 31.6 x 深 35.3 x 高 116.5cm；淨重 5.1kg",
+      "Roborock App、語音提示、自動清潔液投放；配件含充電座、滾刷、濾網與泡沫清潔液"
+    ],
+    "description": "台灣正式上市的泡沫洗地旗艦款，以 JetFoaming、25,000Pa、三側貼邊與 95°C 洗烘補足既有洗地機缺少的定點泡沫去污方案。",
+    "pros": [
+      "泡沫可先包覆油污與食物殘渣，和蒸氣／單純清水洗地形成明確差異",
+      "25,000Pa、三側貼邊、180° 平躺與雙輪助力兼顧吸洗效率和低處操控",
+      "1L 清水箱、最長 60 分鐘續航與 95°C 洗烘，適合較大硬地板空間"
+    ],
+    "cons": [
+      "5.1kg 機身與含座 116.5cm 高度需要固定收納空間，搬樓層不算輕巧",
+      "泡沫清潔液與滾刷屬持續耗材，使用後仍需倒污水並清理固液分離件",
+      "台灣通路標 110V／60Hz，原廠 FCC 手冊的 MDS29LRR 座充標 120V／60Hz；到貨後應核對銘牌"
+    ],
+    "bestFor": "硬地板油污、寵物或幼兒食物污漬較多，重視泡沫去污、平躺貼邊與高溫洗烘的家庭。",
+    "recommendation": "值得納入但不取代乾式吸塵器；差異化在泡沫去污與 95°C 自清潔／烘乾，購買前要確認 5.1kg 重量、耗材與座充銘牌。",
+    "score": 91,
+    "voltage": "台灣燦坤 exact-model WD5M14A 頁標 110V／60Hz、400W；Roborock FCC 手冊將 WD5M14A 配對 MDS29LRR 並標座充 120V／60Hz，實際以台灣公司貨銘牌為準",
+    "warranty": "Roborock 台灣原廠保固 1 年；台灣官方商城與燦坤 exact-model 頁均有公開保固資訊",
+    "tags": [
+      "JetFoaming",
+      "25,000Pa",
+      "95°C 洗烘",
+      "180° 平躺",
+      "三側貼邊"
+    ],
+    "releaseDate": "2026",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-26",
+      "note": "已查 Roborock 台灣官網、燦坤、FindPrice 與飛比 exact-model WD5M14A；只能確認現價／比價快照，沒有具日期且可重現的可信新品歷史曲線。飛比的 Coupang NT$14,788 候選未在原頁同時核對 exact model 與最低點日期，現價也不直接推定為史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-29",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Roborock WD5M14A\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Roborock%20WD5M14A%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Roborock WD5M14A\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Roborock%20WD5M14A%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "vacuum-xiaomi-mijia-wet-dry-vacuum-5-pro-f302hw",
+    "category": "vacuum",
+    "rank": 30,
+    "topPick": false,
+    "budget": "balanced",
+    "channel": "tw",
+    "brand": "Xiaomi",
+    "model": "F302HW",
+    "name": "米家無線洗地機 5 Pro",
+    "price": {
+      "currency": "TWD",
+      "amount": 11499,
+      "converted": 11499,
+      "confidence": "Xiaomi 台灣官方規格頁將米家無線洗地機 5 Pro 綁定 F302HW；momo 小米官方旗艦館同名台灣新品頁於 2026-08-29 顯示 NT$11,499、in stock，通路原頁未明示型號",
+      "basis": "retailer_current"
+    },
+    "image": "https://i4.momoshop.com.tw/1786613003/goodsimg/0015/540/464/15540464_R_m.webp",
+    "buyUrl": "https://www.momoshop.com.tw/product/15540464",
+    "buyLabel": "momo購物（小米官方旗艦館）",
+    "installation": {
+      "status": "not_stated",
+      "note": "官方與通路未列到府安裝；本品為手持洗地機，使用者需依原廠說明放置 F302HW-JZ 清潔基座、注水，並於每次使用後清理污水箱與固液分離件。"
+    },
+    "specs": [
+      "類型：無線乾濕兩用蒸氣洗地機",
+      "26,000Pa 吸力、400RPM 滾刷；鍋爐出口蒸氣最高 160°C",
+      "標準／蒸氣／吸水／強勁四模式；吸水模式最長約 40 分鐘",
+      "100°C 熱水自清潔；5 分鐘快速高溫烘乾；標準烘乾噪音不高於 45dB(A)",
+      "清水箱 1,000mL、污水箱 700mL；固液分離、雙側貼邊與 PPA 防纏繞",
+      "180° 平躺；機身尺寸 292 x 265 x 1,140mm；淨重 6.1kg",
+      "主機 F302HW 額定功率 400W；清潔基座 F302HW-JZ 輸入 110–120V、50/60Hz，額定功率 1,000W"
+    ],
+    "description": "米家台灣正式款蒸氣洗地機，以 26,000Pa、160°C 鍋爐出口蒸氣、100°C 熱洗與快速烘乾，補進現有目錄缺少的萬元級高規格蒸氣洗地選項。",
+    "pros": [
+      "NT$11,499 即有 26,000Pa、蒸氣、100°C 熱水自清潔與快速烘乾，規格價格比突出",
+      "1L 清水箱、最長 40 分鐘、雙側貼邊與防纏設計適合較大硬地板空間",
+      "台灣官方規格明示 110–120V／50–60Hz，並有台灣售後保固"
+    ],
+    "cons": [
+      "主機 6.1kg、基座 2.3kg，搬樓層與固定收納負擔明顯",
+      "官方 FAQ 說明蒸氣約需 40 秒預熱且輸出會逐步減少，較適合局部頑垢而非全屋連續蒸氣",
+      "污水箱、固液分離件與滾刷仍需每次清理；滾刷、濾網屬持續耗材",
+      "台灣主機／清潔基座保固僅 1 年，且新品尚缺長期價格與使用者口碑"
+    ],
+    "bestFor": "硬地板比例高、家有寵物或幼兒、常處理油污與黏性污漬，且能接受較重機身與每次清潔維護的家庭。",
+    "recommendation": "蒸氣洗地 CP 值推薦：NT$11,499 提供 26,000Pa、160°C 蒸氣、100°C 熱洗與快速烘乾；但 6.1kg、1 年保固與新機長期口碑空白，先不列 Top Pick。",
+    "score": 88,
+    "voltage": "清潔基座 F302HW-JZ 輸入 110–120V、50/60Hz；台灣官方規格與公司貨通路均可核對",
+    "warranty": "Xiaomi 台灣保固：主機 F302HW／清潔基座 F302HW-JZ 1 年、電源線 6 個月；滾刷與濾網等耗材不保固",
+    "tags": [
+      "26,000Pa",
+      "160°C 蒸氣",
+      "100°C 熱洗",
+      "快速烘乾",
+      "180° 平躺"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-29",
+      "note": "已查 Xiaomi 台灣 F302HW 官方規格頁、momo 官方旗艦館同名現售頁、LBJ exact-model 查詢、FindPrice 與 Yahoo 購物；只能以官方型號頁與同名通路頁交叉確認 NT$11,499 當期公開價，沒有具日期且可重現的可信新品歷史曲線。momo 先前標示的 2026-08-26 是預計出貨日，不是價格最低點日期，現價不得推定為史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-29",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Xiaomi F302HW\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Xiaomi%20F302HW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Xiaomi F302HW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Xiaomi%20F302HW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "vacuum-dyson-pencilwash-wr04-a",
+    "category": "vacuum",
+    "rank": 31,
+    "topPick": false,
+    "budget": "balanced",
+    "channel": "tw",
+    "brand": "Dyson",
+    "model": "WR04-A",
+    "name": "PencilWash 鉛筆洗地機",
+    "price": {
+      "currency": "TWD",
+      "amount": 12900,
+      "converted": 12900,
+      "confidence": "Dyson 台灣官方商城 2026-08-29 exact product/SKU 637244-01 顯示單購 NT$12,900、全新現貨並可加入購物車",
+      "basis": "retailer_current"
+    },
+    "image": "https://dysonshop.blob.core.windows.net/products/dyson-pencilwash/hero-1780482874-480x480.jpg",
+    "buyUrl": "https://shop.dyson.tw/vacuums/wet-and-dry-vacuums/dyson-pencilwash-637244-01",
+    "buyLabel": "Dyson 台灣官方商城",
+    "installation": {
+      "status": "not_stated",
+      "note": "官方商城未列到府安裝；本品為手持硬地板洗地機，使用者需依說明書組裝握把、放置充電座，並於每次使用後清洗水箱、吸頭與滾筒。"
+    },
+    "specs": [
+      "類型：硬質地板乾濕洗地機；以滾筒帶走髒污，不是乾式真空吸塵器",
+      "每平方公分 64,000 根高密度纖維滾筒；自動／強效兩種供水模式",
+      "最長約 30 分鐘；清水箱 300mL、污水箱 340mL；單箱約可清潔 100m²（約 30 坪）",
+      "38mm 窄握把、可 170° 平躺；手持負重約 380g",
+      "機身尺寸 267 x 198 x 1,155mm；淨重 2.2kg；充電約 3.5 小時",
+      "台灣 exact model WR04-A（通路完整標示 WR04-A 970A TW/PH Co）；110V、BSMI R31692"
+    ],
+    "description": "Dyson 台灣正式款超輕量硬地板洗地機，以 2.2kg、約 380g 手持負重、38mm 窄握把與 170° 平躺，補進現有洗地機缺少的低操作負擔專用選項。",
+    "pros": [
+      "2.2kg 機身、約 380g 手持負重，和現有 5–6kg 洗地機形成明確差異",
+      "38mm 窄握把與 170° 平躺適合小宅、低矮家具與窄小收納",
+      "台灣官方現貨、110V exact model 與 2 年原廠服務資料完整",
+      "清水持續供應滾筒，可同時處理硬地板上的輕量乾濕髒污"
+    ],
+    "cons": [
+      "不是有真空吸力的乾式吸塵器，僅適用硬質地板，不能取代家中乾吸主力機",
+      "未提供自清潔或熱風烘乾行程，使用後需拆洗吸頭、滾筒並充分風乾",
+      "300／340mL 水箱與 30 分鐘續航較適合日常小範圍清潔，不是大坪數深度清潔首選"
+    ],
+    "bestFor": "已擁有乾式吸塵器、硬地板為主的小宅，重視低手持負擔與窄小收納，並願意每次手動清洗滾筒的人。",
+    "recommendation": "輕量專用洗地推薦：適合已有乾式吸塵器、把低手持負擔與窄小收納擺第一順位的家庭；它不是有吸力的全能洗地吸塵器，也沒有自清潔烘乾，因此不列 Top Pick。",
+    "score": 83,
+    "voltage": "110V 台灣公司貨；中華電信 exact-model 頁明示 WR04-A 970A TW/PH Co、110V 與 BSMI R31692",
+    "warranty": "Dyson 台灣原廠 2 年服務保固，官方條款明示包含零件與人工",
+    "tags": [
+      "2.2kg",
+      "380g 手持負重",
+      "170° 平躺",
+      "硬地板洗地",
+      "小宅收納"
+    ],
+    "releaseDate": "2026-02-19",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-29",
+      "note": "已查 Dyson 台灣官方商城、momo exact product/SKU、LBJ exact-model 與 FindPrice；Dyson、momo 與可信比價只證明本輪 NT$12,900 現價，沒有可重現的最低點日期。排除一般個人賣場 NT$9,800 與中華電信綁約方案價，現價不得推定為史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-29",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Dyson WR04-A\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dyson%20WR04-A%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Dyson WR04-A\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Dyson%20WR04-A%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         }
       ]
     }

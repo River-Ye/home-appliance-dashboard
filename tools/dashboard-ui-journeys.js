@@ -4,6 +4,8 @@ const {
   EXPECTED_CATEGORY_COUNT,
   EXPECTED_PRODUCT_COUNT,
   EXPECTED_CATEGORY_PRODUCT_COUNTS,
+  PERIPHERAL_TYPES,
+  BEDDING_TYPES,
 } = require("./dashboard-contract");
 const { readDashboardProducts } = require("./read-dashboard-products");
 const {
@@ -49,6 +51,7 @@ const EXPECTED_FAN_COUNT = EXPECTED_CATEGORY_PRODUCT_COUNTS.get("fan");
 const EXPECTED_ROBOT_COUNT = EXPECTED_CATEGORY_PRODUCT_COUNTS.get("robot");
 const EXPECTED_SMARTLOCK_COUNT = EXPECTED_CATEGORY_PRODUCT_COUNTS.get("smartlock");
 const EXPECTED_WIFI_COUNT = EXPECTED_CATEGORY_PRODUCT_COUNTS.get("wifi");
+const EXPECTED_NETWORK_SWITCH_COUNT = EXPECTED_CATEGORY_PRODUCT_COUNTS.get("network-switch");
 const EXPECTED_KNIFE_COUNT = EXPECTED_CATEGORY_PRODUCT_COUNTS.get("knife");
 const EXPECTED_WATER_DISPENSER_COUNT = EXPECTED_CATEGORY_PRODUCT_COUNTS.get("waterdispenser");
 const EXPECTED_DISHWASHER_COUNT = EXPECTED_CATEGORY_PRODUCT_COUNTS.get("dishwasher");
@@ -65,6 +68,11 @@ const OFFICIAL_SUGGESTED_PRODUCT = DASHBOARD_PRODUCTS.find((product) => (
 const COFFEE_PRODUCTS = DASHBOARD_PRODUCTS.filter((product) => product.category === "coffee");
 const COFFEE_BRANDS = [...new Set(COFFEE_PRODUCTS.map((product) => product.brand))].sort();
 const COFFEE_TOP_PICK = COFFEE_PRODUCTS.find((product) => product.topPick);
+const NETWORK_SWITCH_PRODUCTS = DASHBOARD_PRODUCTS.filter((product) => product.category === "network-switch");
+const NETWORK_SWITCH_TOP_PICK = NETWORK_SWITCH_PRODUCTS.find((product) => product.topPick);
+const EXPECTED_NETWORK_SWITCH_1G_COUNT = NETWORK_SWITCH_PRODUCTS.filter((product) => product.type === "1g").length;
+const EXPECTED_NETWORK_SWITCH_25G_COUNT = NETWORK_SWITCH_PRODUCTS.filter((product) => product.type === "2_5g").length;
+const EXPECTED_NETWORK_SWITCH_10G_COUNT = NETWORK_SWITCH_PRODUCTS.filter((product) => product.type === "10g").length;
 
 function attachRuntimeIssueCollector(page) {
   const issues = [];
@@ -341,13 +349,13 @@ async function assertGarmentCareJourney(page, name) {
   }
 
   await selectComboboxOption(page, "#channelInput", '#channelOptions [data-value="tw"]', "台灣");
-  await waitForVisibleCount(page, 7);
-  await waitForProductCards(page, 7);
+  await waitForVisibleCount(page, 8);
+  await waitForProductCards(page, 8);
   await selectComboboxOption(page, "#channelInput", '#channelOptions [data-value="global"]', "海外");
-  await waitForVisibleCount(page, 13);
+  await waitForVisibleCount(page, 12);
   await loadAllVisibleProducts(page);
   const overseasCards = await page.$$eval(".product-card", (cards) => cards.map((card) => card.textContent || ""));
-  if (overseasCards.length !== 13) throw new Error(`${name}: garmentcare overseas count should be 13`);
+  if (overseasCards.length !== 12) throw new Error(`${name}: garmentcare overseas count should be 12`);
   for (const [index, text] of overseasCards.entries()) {
     for (const warning of ["國際運費", "進口稅", "台灣保固"]) {
       if (!text.includes(warning)) throw new Error(`${name}: garmentcare overseas card ${index + 1} missing ${warning}`);
@@ -1046,6 +1054,46 @@ async function assertUrlHashRestore(page, name) {
   await resetFilters(page);
 }
 
+async function assertProductTypeFilters(page, name, mobile = false) {
+  for (const [category, types] of Object.entries({ ...PERIPHERAL_TYPES, ...BEDDING_TYPES })) {
+    const products = DASHBOARD_PRODUCTS.filter((product) => product.category === category);
+    for (const type of mobile ? types.slice(0, 1) : types) {
+      const count = products.filter((product) => product.type === type).length;
+      if (!count) throw new Error(`${name}: missing ${category}/${type} fixture`);
+      await page.goto(`${fileUrl}?category=${category}&type=${type}`, { waitUntil: "domcontentloaded" });
+      await waitForVisibleCount(page, count);
+      await page.waitForFunction(() => document.querySelector("#activeFilterCount")?.textContent.trim() === "2");
+      if (mobile) await page.getByRole("button", { name: /^篩選/ }).click();
+      if (!await page.locator("#typeInput").isVisible()) throw new Error(`${name}: ${category} type filter not visible`);
+      if (!await page.locator('#activeFilterChips [data-clear-filter="type"]').count()) throw new Error(`${name}: ${category} type chip missing`);
+      if (new URL(page.url()).searchParams.get("type") !== type) throw new Error(`${name}: ${type} missing from share URL`);
+      await assertNoHorizontalOverflow(page, `${name}-${category}-${type}`);
+      await page.locator("#brandInput").click();
+      const actualBrands = await page.locator('#brandOptions [data-value]:not([data-value="all"])').evaluateAll((nodes) => nodes.map((node) => node.dataset.value).sort());
+      const expectedBrands = [...new Set(products.map((product) => product.brand))].sort();
+      if (JSON.stringify(actualBrands) !== JSON.stringify(expectedBrands)) throw new Error(`${name}: ${category} leaked unrelated brands`);
+      await page.locator("#searchInput").click();
+    }
+    await selectComboboxOption(page, "#categoryInput", '#categoryOptions [data-value="monitor"]', "電腦螢幕");
+    if (new URL(page.url()).searchParams.has("type")) throw new Error(`${name}: ${category} type survived category switch`);
+    await page.goto(`${fileUrl}?category=${category}&type=gas`, { waitUntil: "domcontentloaded" });
+    await waitForVisibleCount(page, 30);
+    if (new URL(page.url()).searchParams.has("type")) throw new Error(`${name}: ${category} invalid type survived`);
+    const topPick = products.find((product) => product.topPick);
+    if (!topPick) throw new Error(`${name}: ${category} Top Pick missing`);
+    await page.locator(`#topPicks [data-focus-product="${topPick.id}"]`).click();
+    const target = page.locator(`.product-card[data-product-id="${topPick.id}"]`);
+    await page.waitForSelector(".product-card.is-targeted");
+    await target.locator(".compare-button").click();
+    if (!await page.locator("#compareTable").getByText(topPick.model, { exact: false }).count()) throw new Error(`${name}: ${category} comparison missing selected SKU`);
+    // Full-text search also matches related model names in descriptions; the selected version name is unique.
+    await page.fill("#searchInput", topPick.name);
+    await waitForVisibleCount(page, 1);
+    await resetFilters(page);
+    if (new URL(page.url()).searchParams.has("type")) throw new Error(`${name}: reset retained type`);
+  }
+}
+
 async function runTypeFilterJourney(browser) {
   const name = "dashboard-type-filter";
   const page = await browser.newPage({ viewport: { width: 1100, height: 900 } });
@@ -1062,11 +1110,46 @@ async function runTypeFilterJourney(browser) {
     }
     await assertNoHorizontalOverflow(page, `${name}-1100px`);
 
+    for (const { type, label, count } of [
+      { type: "1g", label: "1G（8 埠）", count: EXPECTED_NETWORK_SWITCH_1G_COUNT },
+      { type: "2_5g", label: "2.5G（8 埠）", count: EXPECTED_NETWORK_SWITCH_25G_COUNT },
+      { type: "10g", label: "10G（8 埠）", count: EXPECTED_NETWORK_SWITCH_10G_COUNT },
+    ]) {
+      await page.goto(`${fileUrl}?category=network-switch&type=${type}`, { waitUntil: "domcontentloaded" });
+      await page.waitForSelector(".product-card");
+      await page.waitForFunction((expected) => document.querySelector("#typeInput")?.value === expected, label);
+      await waitForVisibleCount(page, count);
+      if (!page.url().includes(`type=${type}`)) throw new Error(`${name}: switch speed query ${type} was not retained`);
+      if (!await page.locator('#activeFilterChips [data-clear-filter="type"]', { hasText: `型態：${label}` }).count()) {
+        throw new Error(`${name}: switch speed active chip ${type} is missing`);
+      }
+    }
+    await page.goto(`${fileUrl}?category=aircon&type=heat_cool`, { waitUntil: "domcontentloaded" });
+    await page.waitForSelector(".product-card");
+    await page.goto(`${fileUrl}?category=network-switch&type=2_5g`, { waitUntil: "domcontentloaded" });
+    await page.waitForSelector(".product-card");
+    await page.waitForFunction(() => document.querySelector("#typeInput")?.value === "2.5G（8 埠）");
+    await waitForVisibleCount(page, EXPECTED_NETWORK_SWITCH_25G_COUNT);
+    if (!NETWORK_SWITCH_TOP_PICK || !await page.locator(`#topPicks [data-focus-product="${NETWORK_SWITCH_TOP_PICK.id}"]`).count()) {
+      throw new Error(`${name}: network-switch Top Pick is missing`);
+    }
+    await page.locator(".product-card .compare-button").first().click();
+    const comparison = page.locator("#compareTable .compare-table");
+    if (!await comparison.count() || !await comparison.getByText(NETWORK_SWITCH_TOP_PICK.model, { exact: false }).count()) {
+      throw new Error(`${name}: network-switch comparison did not render the selected model`);
+    }
+    await assertNoHorizontalOverflow(page, `${name}-switch-1100px`);
+
     await page.goto(`${fileUrl}?category=monitor&type=gas`, { waitUntil: "domcontentloaded" });
     await page.waitForSelector(".product-card");
     await page.waitForFunction(() => document.querySelector("#categoryInput")?.value === "電腦螢幕");
     if (!await page.locator("#typeFilterField").isHidden()) throw new Error(`${name}: incompatible category displayed type filter`);
     if (page.url().includes("type=")) throw new Error(`${name}: invalid direct type value remained in URL`);
+
+    await page.goBack({ waitUntil: "domcontentloaded" });
+    await page.waitForSelector(".product-card");
+    await page.waitForFunction(() => document.querySelector("#typeInput")?.value === "2.5G（8 埠）");
+    await waitForVisibleCount(page, EXPECTED_NETWORK_SWITCH_25G_COUNT);
 
     await page.goBack({ waitUntil: "domcontentloaded" });
     await page.waitForSelector(".product-card");
@@ -1099,6 +1182,7 @@ async function runTypeFilterJourney(browser) {
     if (!await basisRow.getByText("官方建議售價", { exact: true }).count()) throw new Error(`${name}: comparison price basis is missing`);
     const installationRow = page.locator("#compareTable tr", { has: page.getByRole("rowheader", { name: "安裝" }) });
     if (!await installationRow.locator("td").count()) throw new Error(`${name}: comparison installation disclosure is missing`);
+    await assertProductTypeFilters(page, name);
     assertNoRuntimeIssues(page, name);
   } finally {
     await page.close();
@@ -1116,6 +1200,15 @@ async function runTypeFilterJourney(browser) {
     await mobile.waitForFunction(() => document.querySelector("#typeFilterField")?.hidden === false);
     if (await mobile.locator("#typeInput").inputValue() !== "冷暖") throw new Error(`${mobileName}: mobile type value is stale`);
     await assertNoHorizontalOverflow(mobile, mobileName);
+
+    await mobile.goto(`${fileUrl}?category=network-switch&type=10g`, { waitUntil: "domcontentloaded" });
+    await mobile.waitForSelector(".product-card");
+    await mobile.waitForFunction(() => document.querySelector("#typeInput")?.value === "10G（8 埠）");
+    await waitForVisibleCount(mobile, EXPECTED_NETWORK_SWITCH_10G_COUNT);
+    if (await mobile.locator("#typeInput").inputValue() !== "10G（8 埠）") throw new Error(`${mobileName}: mobile switch speed is stale`);
+    if (EXPECTED_NETWORK_SWITCH_COUNT !== 20) throw new Error(`${mobileName}: network-switch fixture count is stale`);
+    await assertNoHorizontalOverflow(mobile, `${mobileName}-switch`);
+    await assertProductTypeFilters(mobile, mobileName, true);
     assertNoRuntimeIssues(mobile, mobileName);
   } finally {
     await mobile.close();
@@ -1196,9 +1289,7 @@ async function runDesktopJourney(browser) {
 
     await page.getByRole("button", { name: "再載入 40 筆" }).click();
     await waitForProductCards(page, 52);
-    if (!await page.locator("#loadMoreProducts").evaluate((node) => document.activeElement === node)) {
-      throw new Error(`${name}: manual lazy loading did not restore button focus`);
-    }
+    await page.waitForFunction(() => document.activeElement === document.querySelector("#loadMoreProducts"));
     await page.getByRole("button", { name: "載入全部" }).click();
     await waitForProductCards(page, EXPECTED_PRODUCT_COUNT);
     if (await page.locator("#loadAllProducts").isVisible()) {
@@ -1220,9 +1311,7 @@ async function runDesktopJourney(browser) {
     await emptyState.getByRole("button", { name: "重設全部條件" }).click();
     await waitForVisibleCount(page, EXPECTED_PRODUCT_COUNT);
     await waitForProductCards(page, 12);
-    if (!await page.locator("#resetFilters").evaluate((node) => document.activeElement === node)) {
-      throw new Error(`${name}: zero-result reset did not restore visible desktop focus`);
-    }
+    await page.waitForFunction(() => document.activeElement === document.querySelector("#resetFilters"));
 
     await selectComboboxOption(page, "#categoryInput", '#categoryOptions [data-value="smartlock"]', "電子");
     await waitForVisibleCount(page, EXPECTED_SMARTLOCK_COUNT);
@@ -1276,9 +1365,7 @@ async function runDesktopJourney(browser) {
     await marshallCompareButton.scrollIntoViewIfNeeded();
     await marshallCompareButton.click();
     await page.waitForFunction(() => document.querySelector("#compareCount")?.textContent?.trim() === "1");
-    if (!await page.locator(".compare-button").first().evaluate((node) => document.activeElement === node)) {
-      throw new Error(`${name}: compare action lost keyboard focus after render`);
-    }
+    await page.waitForFunction(() => document.activeElement === document.querySelector(".compare-button"));
     if (!await page.locator("#compareTray").isVisible()) throw new Error(`${name}: desktop compare tray is not visible`);
     if (!await page.locator(".product-card details.card-details").first().evaluate((node) => node.open)) {
       throw new Error(`${name}: product details closed after compare render`);
@@ -1331,9 +1418,7 @@ async function runMobileJourney(browser) {
     await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "0");
     await page.getByRole("button", { name: "重設全部條件" }).click();
     await waitForVisibleCount(page, EXPECTED_PRODUCT_COUNT);
-    if (!await filterToggle.evaluate((node) => document.activeElement === node)) {
-      throw new Error(`${name}: zero-result reset did not restore visible mobile focus`);
-    }
+    await page.waitForFunction(() => document.activeElement === document.querySelector("#filterToggle"));
     await filterToggle.click();
     let expanded = await filterToggle.getAttribute("aria-expanded");
     if (expanded !== "true") throw new Error(`${name}: mobile filter did not expand`);
@@ -1354,9 +1439,7 @@ async function runMobileJourney(browser) {
     if (collapsedFilterCount < 2) throw new Error(`${name}: collapsed filter count did not reflect active chips`);
     await page.locator('#activeFilterChips [data-clear-filter="brand"]').click();
     await waitForVisibleCount(page, EXPECTED_SOUNDBAR_COUNT);
-    if (!await filterToggle.evaluate((node) => document.activeElement === node)) {
-      throw new Error(`${name}: clearing a collapsed mobile filter focused a hidden control`);
-    }
+    await page.waitForFunction(() => document.activeElement === document.querySelector("#filterToggle"));
     await filterToggle.click();
     await page.waitForFunction(() => document.querySelector("#advancedFilters") && !document.querySelector("#advancedFilters").hidden);
     await selectComboboxOption(page, "#brandInput", '#brandOptions [data-value="Marshall"]', "Marshall");

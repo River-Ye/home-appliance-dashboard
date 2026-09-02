@@ -72,7 +72,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -176,7 +176,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -280,7 +280,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -329,7 +329,7 @@
       "currency": "TWD",
       "amount": 12490,
       "converted": 12490,
-      "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -384,7 +384,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -488,7 +488,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -535,9 +535,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/50A8962C97-SP-12443254.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 42543,
-      "converted": 42543,
-      "confidence": "Yahoo購物中心 2026-08-05 exact-model 公開結構化價格"
+      "amount": 43032,
+      "converted": 43032,
+      "confidence": "Yahoo購物中心 2026-08-26 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -592,7 +592,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -641,7 +641,7 @@
       "currency": "TWD",
       "amount": 29900,
       "converted": 29900,
-      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -696,7 +696,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -743,9 +743,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/1f2a33ce70-Gd-10053955.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 43563,
-      "converted": 43563,
-      "confidence": "Yahoo購物中心 2026-08-19 exact-model 公開結構化價格"
+      "amount": 44910,
+      "converted": 44910,
+      "confidence": "Yahoo購物中心 2026-09-01 exact-model 公開結構化價格",
+      "basis": "retailer_current",
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -800,7 +801,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -904,7 +905,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1008,7 +1009,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1096,7 +1097,7 @@
       "多功能"
     ],
     "category": "washerdryer",
-    "releaseDate": "找不到",
+    "releaseDate": "2024-10",
     "historicalLow": {
       "status": "found",
       "amount": 31960,
@@ -1112,7 +1113,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1159,9 +1160,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/32FF0A7411-SP-21060003.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 38900,
-      "converted": 38900,
-      "confidence": "PChome 2026-08-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 19900,
+      "converted": 19900,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1200,23 +1201,23 @@
       "多功能"
     ],
     "category": "washerdryer",
-    "releaseDate": "找不到",
+    "releaseDate": "2024-10",
     "historicalLow": {
       "status": "found",
-      "amount": 24900,
+      "amount": 19900,
       "currency": "TWD",
-      "converted": 24900,
+      "converted": 19900,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DPAI1N-A900I8IJ8",
       "sourceTitle": "PChome 24h 購物：SAMSUNG三星 12公斤變頻Bespoke蒸洗脫烘滾筒洗衣機 WD12DB9B84GDTW",
-      "evidenceSnippet": "PChome 24h 購物於 2026-08-01 顯示同型號可信新品公開價 NT$24,900，低於既有史低 NT$32,900。",
+      "evidenceSnippet": "PChome 24h 購物於 2026-09-01 顯示同型號可信新品公開價 NT$19,900，低於既有史低 NT$24,900。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-08-01",
+      "checkedAt": "2026-09-01",
       "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1320,7 +1321,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1424,7 +1425,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1473,7 +1474,7 @@
       "currency": "TWD",
       "amount": 35910,
       "converted": 35910,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1528,7 +1529,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1575,9 +1576,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/BBB6EC9A68-SP-20100014.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 19055,
-      "converted": 19055,
-      "confidence": "Yahoo購物中心 2026-07-14 頁面查核價"
+      "amount": 18846,
+      "converted": 18846,
+      "confidence": "Yahoo購物中心 2026-08-23 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1632,7 +1633,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-20",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1679,9 +1680,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/41046DB844-SP-12334280.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 33976,
-      "converted": 33976,
-      "confidence": "Yahoo購物中心 2026-08-18 exact-model 公開結構化價格"
+      "amount": 36930,
+      "converted": 36930,
+      "confidence": "Yahoo購物中心 2026-09-01 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1736,7 +1737,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1840,7 +1841,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1944,7 +1945,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2048,7 +2049,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2145,7 +2146,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2244,7 +2245,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2343,7 +2344,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2449,7 +2450,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2496,9 +2497,9 @@
     "image": "https://img.pchome.com.tw/cs/items/DPAI1LA900IXKBU/000007_1752484626.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 92900,
-      "converted": 92900,
-      "confidence": "PChome 2026-07-22 exact-model 新品公開價"
+      "amount": 89900,
+      "converted": 89900,
+      "confidence": "PChome 2026-08-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -2552,7 +2553,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2657,7 +2658,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2706,7 +2707,7 @@
       "currency": "TWD",
       "amount": 39512,
       "converted": 39512,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -2762,7 +2763,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2867,7 +2868,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2916,9 +2917,9 @@
     "name": "17公斤 Heat Pump 智慧聯網洗脫烘（夜幕黑）",
     "price": {
       "currency": "TWD",
-      "amount": 54800,
-      "converted": 54800,
-      "confidence": "myfone 購物 2026-08-14 exact-model 夜幕黑新品頁公開網路價；牌價 NT$64,900",
+      "amount": 55990,
+      "converted": 55990,
+      "confidence": "2026-08-31 人工核對 myfone 商品P0000203670244，Panasonic NA-V170RPH-K 夜幕黑網路限定價 NT$55,990，含基本定位安裝；額外施工與搬運依通路規則。未採白色款或定價。",
       "basis": "retailer_current"
     },
     "image": "https://www.myfone.com.tw/website_twmf/uploads_product/website_2041/036/699/ECP0204103669957_1_20458150.jpg",
@@ -2978,7 +2979,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-20",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3011,6 +3012,188 @@
           "query": "\"Panasonic NA-V170RPH-K\" problem issue defect failure broken 災情 故障 異常",
           "queryUrl": "https://www.youtube.com/results?search_query=%22Panasonic%20NA-V170RPH-K%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
           "targetHost": "youtube.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "washerdryer-bosch-wnc554a0tc",
+    "category": "washerdryer",
+    "rank": 30,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Bosch",
+    "model": "WNC554A0TC",
+    "name": "10/7kg i-DOS 智慧聯網洗脫烘",
+    "price": {
+      "currency": "TWD",
+      "amount": 46000,
+      "converted": 46000,
+      "confidence": "Yahoo購物中心 2026-08-20 exact-model 台灣新品頁公開售價",
+      "basis": "retailer_current"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DPAID7A900IHEVX/000001_1776657918.jpg",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/BOSCH%E5%8D%9A%E4%B8%96-10-7%E5%85%AC%E6%96%A4%E9%AB%98%E6%95%88%E6%99%BA%E6%85%A7%E6%BB%BE%E7%AD%92%E6%B4%97%E8%84%AB%E7%83%98-%E5%90%AB%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-220V%E6%8B%89%E9%9B%BB-WNC554A0TC-11546320.html",
+    "buyLabel": "Yahoo購物中心",
+    "installation": {
+      "status": "included_basic",
+      "note": "Yahoo exact-model 頁標示含基本安裝與 220V 拉電；Bosch 當期活動的拉線範圍為 10m，超距、換配電、鑽孔、無電梯樓層與特殊進排水施工另計，須先確認單相 220V 接地迴路。"
+    },
+    "specs": [
+      "洗/乾容量：10kg / 7kg",
+      "最高脫水轉速 1400 rpm；AutoDry 濕度感測",
+      "i-DOS 智慧洗劑自動投入、Home Connect 與少量衣物 45 分鐘洗烘",
+      "尺寸：寬 59.8 x 深 61.6 x 高 84.8 cm",
+      "左鉸鏈門、不可改門向；Aqua Secure 進水防護",
+      "單相 220V / 60Hz、2000W、10A"
+    ],
+    "description": "Bosch WNC554A0TC 是 10/7kg 歐規洗脫烘，以 i-DOS、AutoDry、Home Connect 與 220V 基本拉電方案補足智慧洗乾帶。",
+    "pros": [
+      "10/7kg 容量、1400rpm 與 AutoDry 規格清楚",
+      "i-DOS 自動投入、Home Connect 與 45 分鐘少量洗烘實用",
+      "官方尺寸、電力與不可改門向資訊完整，通路標示含基本安裝"
+    ],
+    "cons": [
+      "乾衣 7kg 小於洗衣 10kg，滿載洗衣時需分批乾燥",
+      "必須使用單相 220V 接地迴路，超出基本拉線範圍會加價",
+      "全程洗烘時間與整合機維修成本通常高於單洗、單烘組合"
+    ],
+    "bestFor": "可配置 220V、重視自動投入與遠端管理，且能接受 10/7kg 洗乾容量差的家庭。",
+    "recommendation": "Bosch 220V 歐規補強：功能與尺寸完整；採購前先核對 10m 拉線邊界、插座、進排水、左開門與維修空間。",
+    "score": 89,
+    "voltage": "單相 220V / 60Hz、2000W、10A；需獨立接地迴路並由合格人員施工",
+    "warranty": "Bosch 台灣公司貨；全機 2 年、EcoSilence Drive 無刷馬達 10 年（依原廠登錄與條款）",
+    "tags": [
+      "洗/乾容量：10kg / 7kg",
+      "i-DOS",
+      "AutoDry",
+      "Home Connect",
+      "220V"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-20",
+      "note": "已查 Bosch 台灣官方、Yahoo、PChome 與 exact-model 價格搜尋；本輪 NT$46,000 為新品現價，未找到同型號具日期且可重現的可信新品史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-29",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Bosch WNC554A0TC\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Bosch%20WNC554A0TC%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Bosch WNC554A0TC\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Bosch%20WNC554A0TC%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "washerdryer-xiaomi-wd125mja12tw",
+    "category": "washerdryer",
+    "rank": 31,
+    "topPick": false,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Xiaomi",
+    "model": "WD125MJA12TW",
+    "name": "米家智慧滾筒洗衣機 Pro 洗脫烘 12.5kg",
+    "price": {
+      "currency": "TWD",
+      "amount": 16999,
+      "converted": 16999,
+      "confidence": "小米台灣官方商城 2026-08-28 exact-model 現售頁公開售價；頁面可直接選購",
+      "basis": "retailer_current"
+    },
+    "image": "https://i02.appmifile.com/848_item_tw/10/08/2026/71e821007cadfa79a8a0ff484e14242a!600x600!85.png",
+    "buyUrl": "https://www.mi.com/tw/buy/product/mijia-front-load-washer-dryer-pro-12-5-kg",
+    "buyLabel": "小米台灣官方商城",
+    "installation": {
+      "status": "not_stated",
+      "note": "小米台灣另有洗衣機授權到府安裝服務與收費條款，但 exact-model 購買頁未明示基本安裝是否包含；樓層搬運、舊機拆卸、進排水、插座與特殊施工費用需於下單前確認。"
+    },
+    "specs": [
+      "洗/乾容量：12.5kg / 8kg",
+      "尺寸：寬 59.8 x 深 61 x 高 85 cm",
+      "淨重 71kg；最高脫水轉速 1400 rpm",
+      "雙重智慧投放、智慧注水、90°C 高溫蒸氣與清新防皺",
+      "3D 智慧柔烘與衣乾即停；少量 300g 洗烘最快 59 分鐘",
+      "米家 App 遠端控制、AI 洗衣專家與 OTA 行程更新",
+      "110–120V / 60Hz；洗滌與烘乾額定輸入功率各 950W",
+      "官方建議頂部至少 2cm、左右各 1.5cm、後方 3cm，另留門開、進排水與搬運空間"
+    ],
+    "description": "Xiaomi 首款台灣正式上市洗脫烘，以 12.5/8kg、雙重自動投入、蒸氣、濕度感測烘乾與米家 App，切入兩萬元內的大容量智慧洗乾帶。",
+    "pros": [
+      "NT$16,999 即有 12.5/8kg、1400rpm 與自動投入，規格價格比突出",
+      "3D 濕度感測、蒸氣、清新防皺與 App 遠端控制功能完整",
+      "台灣官方商城現售，整機 2 年、直驅馬達 12 年原廠保固"
+    ],
+    "cons": [
+      "乾衣 8kg 小於洗衣 12.5kg，滿載洗衣時通常需分批乾燥",
+      "2026-08-28 才在台灣首發，尚缺長期在地使用與維修經驗",
+      "淨重 71kg，購買頁未明示基本安裝是否包含，搬運與施工邊界要先確認"
+    ],
+    "bestFor": "預算約兩萬元、需要大容量洗衣與中容量乾衣，且已使用米家生態系的家庭。",
+    "recommendation": "新品高 CP 候選：WD125MJA12TW 的容量、智慧功能與原廠保固很有競爭力；因台灣首發且長期口碑仍待累積，先不取代既有 Top Pick。",
+    "score": 90,
+    "voltage": "110–120V / 60Hz；需確認接地插座、進排水、地面水平、門開與散熱空間",
+    "warranty": "整機 2 年、直驅馬達 12 年（依小米台灣官方產品頁與保固條款）",
+    "tags": [
+      "洗/乾容量：12.5kg / 8kg",
+      "雙重自動投入",
+      "3D 智慧柔烘",
+      "米家 App",
+      "110–120V"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-28",
+      "note": "本機 2026-08-28 才正式發售；小米官方與 PChome NT$16,999 只證明首發現價。BigGo exact-model 查無結果、FindPrice 無符合商品、LBJ 無符合商品與歷史 pid，未找到具日期可重現的可信新品歷史價格，故不以首發現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-29",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Xiaomi WD125MJA12TW\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Xiaomi%20WD125MJA12TW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Xiaomi WD125MJA12TW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Xiaomi%20WD125MJA12TW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         }
       ]
     }

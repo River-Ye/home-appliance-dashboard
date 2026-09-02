@@ -6,7 +6,7 @@ const { chromium } = require("playwright");
 
 const ROOT_DIR = path.resolve(__dirname, "..");
 const HOST = "127.0.0.1";
-const REPRESENTATIVE_CATEGORY_PATH = "/categories/soundbar/";
+const REPRESENTATIVE_CATEGORY_PATH = "/categories/monitor/";
 
 const MIME_TYPES = new Map([
   [".css", "text/css; charset=utf-8"],
@@ -300,7 +300,7 @@ async function main() {
     const baseUrl = `http://${HOST}:${serverPort}`;
     const pages = [
       { label: "homepage", path: "/", validate: validateHomepage },
-      { label: "category/soundbar", path: REPRESENTATIVE_CATEGORY_PATH, validate: validateCategory },
+      { label: "category/monitor", path: REPRESENTATIVE_CATEGORY_PATH, validate: validateCategory },
     ];
     const failures = [];
 

@@ -19,7 +19,7 @@
       "currency": "TWD",
       "amount": 5900,
       "converted": 5900,
-      "confidence": "PChome 2026-08-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-28 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3EA900AU9PA/000001_1782107657.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU3E-A900AU9PA",
@@ -65,7 +65,7 @@
     },
     "issueResearch": {
       "status": "common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-08-29",
       "summary": "多位同型號使用者反映，AP-1019C 在靜音／夜間或最低風量運轉時仍會出現規律低頻共鳴、嗡嗡聲或馬達振動，可能影響睡眠。",
       "issues": [
         {
@@ -109,9 +109,9 @@
     "name": "14-29 坪智能 Wi-Fi 空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 12990,
-      "converted": 12990,
-      "confidence": "PChome 2026-07-13 API 查核價"
+      "amount": 9490,
+      "converted": 9490,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAUE4A900I5SSZ/000001_1780654673.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUE4-A900I5SSZ",
@@ -141,7 +141,7 @@
       "低噪",
       "Wi-Fi"
     ],
-    "releaseDate": "2023-09-25",
+    "releaseDate": "2023",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -157,7 +157,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -205,9 +205,9 @@
     "name": "Purifier Cool 二合一涼風智能空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 11662,
-      "converted": 11662,
-      "confidence": "Yahoo購物中心 2026-08-18 exact-model 公開結構化價格"
+      "amount": 11900,
+      "converted": 11900,
+      "confidence": "Yahoo購物中心 2026-09-01 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3CA900K0T3T/000001_1779087672.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Dyson-%E6%88%B4%E6%A3%AE-Purifier-Cool-%E4%BA%8C%E5%90%88%E4%B8%80%E6%B6%BC%E9%A2%A8%E6%99%BA%E8%83%BD%E7%A9%BA%E6%B0%A3%E6%B8%85%E6%B7%A8%E6%A9%9FTP11-%E7%99%BD%E8%89%B2-12000846.html",
@@ -238,9 +238,22 @@
       "設計"
     ],
     "releaseDate": "2025-03-12",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Dyson TP11: Momo富邦購物 【dyson 戴森】限量福利品 TP11 Purifier Cool 二合一涼風智能空氣清淨機(新機上市) 型號/規格不相符；LBJ Dyson TP11: 誠品線上 【超值福利品】dyson Purifier Cool 二合一涼風智能空氣清淨機TP11 型號/規格不相符；LBJ Dyson TP11: Momo富邦購物 【dyson 戴森】TP11 Purifier Cool 二合一涼風智能空氣清淨機(黑色) 型號/規格不相符。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -275,19 +288,6 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 9999,
-      "currency": "TWD",
-      "converted": 9999,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=580991988&cgp=11900",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Dyson TP11 WIFI智能二合一涼風空氣清淨機/循環扇 白色/黑色 過敏協會認證【TP10 WIFI升級款】",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - dyson戴森｜恆隆行官方旗艦館 / Dyson TP11 WIFI智能二合一涼風空氣清淨機/循環扇 白色/黑色 過敏協會認證【TP10 WIFI升級款】」最低價為 NT$9,999，最低點日期 2025-11-29。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -301,9 +301,9 @@
     "name": "17 坪 360 度高效過濾空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 7110,
-      "converted": 7110,
-      "confidence": "PChome 2026-08-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 7199,
+      "converted": 7199,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900GH5RL/000001_1781800112.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAC2O-A900GH5RL",
@@ -333,7 +333,7 @@
       "360 度",
       "安全牌"
     ],
-    "releaseDate": "2021-12-16",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -349,7 +349,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -445,7 +445,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -493,9 +493,9 @@
     "name": "ClassicPro CP9i 空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 26190,
-      "converted": 26190,
-      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 24990,
+      "converted": 24990,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAUE4A900IJCAP/000001_1780654528.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUE4-A900IJCAP",
@@ -541,7 +541,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -589,9 +589,9 @@
     "name": "Blue Signature SP4i 極夜藍空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 19990,
-      "converted": 19990,
-      "confidence": "PChome 2026-07-13 API 查核價"
+      "amount": 18490,
+      "converted": 18490,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAUE4A900J9KNK/000001_1780654611.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUE4-A900J9KNK",
@@ -621,7 +621,7 @@
       "Blueair",
       "設計"
     ],
-    "releaseDate": "2025-06-26",
+    "releaseDate": "2025-08-08",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -637,7 +637,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -687,7 +687,7 @@
       "currency": "TWD",
       "amount": 4990,
       "converted": 4990,
-      "confidence": "PChome 2026-07-14 API 查核價"
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAUE4A900I7DJ1/000001_1780654701.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUE4-A900I7DJ1",
@@ -717,7 +717,7 @@
       "WiFi",
       "CP 值"
     ],
-    "releaseDate": "2023-09-25",
+    "releaseDate": "2023",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -733,7 +733,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -781,9 +781,9 @@
     "name": "BlueMax 智能 WiFi 空氣清淨機 3350i",
     "price": {
       "currency": "TWD",
-      "amount": 6490,
-      "converted": 6490,
-      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 7490,
+      "converted": 7490,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAUE4A900I7DN1/000001_1780654653.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUE4-A900I7DN1",
@@ -813,7 +813,7 @@
       "WiFi",
       "均衡"
     ],
-    "releaseDate": "2023-09-25",
+    "releaseDate": "2023",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -829,7 +829,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -877,9 +877,9 @@
     "name": "ComfortPure 智能三合一涼暖空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 17990,
-      "converted": 17990,
-      "confidence": "PChome 2026-07-13 API 查核價"
+      "amount": 16490,
+      "converted": 16490,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAUE4A900J40NE/000001_1780654570.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUE4-A900J40NE",
@@ -925,7 +925,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1021,7 +1021,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1069,9 +1069,9 @@
     "name": "Purifier Hot+Cool De-NOx 甲醛 NOx 偵測涼暖空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 25382,
-      "converted": 25382,
-      "confidence": "Yahoo購物中心 2026-08-18 exact-model 公開結構化價格"
+      "amount": 25900,
+      "converted": 25900,
+      "confidence": "Yahoo購物中心 2026-09-01 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3CA900I7ORK/000001_1782810487.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Dyson-Purifier-Hot-Cool-De-NOx-%E7%94%B2%E9%86%9BNOx-%E5%81%B5%E6%B8%AC%E6%B6%BC%E6%9A%96%E7%A9%BA%E6%B0%A3%E6%B8%85%E6%B7%A8%E6%A9%9F-HP1-12000848.html",
@@ -1102,9 +1102,22 @@
       "旗艦"
     ],
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Dyson HP12: Momo富邦購物 【dyson 戴森】限量福利品 HP12 Purifier Hot+Cool De-NOx三合一甲醛NOx偵測涼暖空氣清淨機(白金色) 型號/規格不相符；LBJ Dyson HP12: 蝦皮商城 - dyson戴森｜恆隆行官方旗艦館 Dyson Purifier Hot+Cool HP12 De-NOx 甲醛NOx偵測涼暖清淨機【限量福利品】1年保固 型號/規格不相符；LBJ Dyson HP12: 誠品線上 【超值福利品】dyson Purifier Hot+Cool De-NOx​甲醛NOx偵測涼暖空氣清淨機HP12​ 白金色 型號/規格不相符。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1139,19 +1152,6 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 22111,
-      "currency": "TWD",
-      "converted": 22111,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=571740787&cgp=25900",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Dyson Purifier Hot+Cool HP12 De-NOx 甲醛NOx偵測涼暖空氣清淨機 公司貨 2年保固",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - dyson戴森｜恆隆行官方旗艦館 / Dyson Purifier Hot+Cool HP12 De-NOx 甲醛NOx偵測涼暖空氣清淨機 公司貨 2年保固」最低價為 NT$22,111，最低點日期 2025-12-12。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1165,9 +1165,9 @@
     "name": "Purifier Hot+Cool 三合一涼暖智能空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 14602,
-      "converted": 14602,
-      "confidence": "Yahoo購物中心 2026-08-18 exact-model 公開結構化價格"
+      "amount": 14900,
+      "converted": 14900,
+      "confidence": "Yahoo購物中心 2026-09-01 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3CA900J2MV6/000001_1767758338.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Dyson%E6%88%B4%E6%A3%AE-Purifier-Hot-Cool-%E4%B8%89%E5%90%88%E4%B8%80%E6%B6%BC%E6%9A%96%E6%99%BA%E8%83%BD%E7%A9%BA%E6%B0%A3%E6%B8%85%E6%B7%A8%E6%A9%9F-HP11-%E7%99%BD%E8%89%B2-%E8%B4%88%E7%BE%8E%E9%AB%AE-11937837.html",
@@ -1213,7 +1213,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1261,9 +1261,9 @@
     "name": "Purifier Cool De-NOx 甲醛 NOx 偵測涼風空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 20482,
-      "converted": 20482,
-      "confidence": "Yahoo購物中心 2026-08-18 exact-model 公開結構化價格"
+      "amount": 20900,
+      "converted": 20900,
+      "confidence": "Yahoo購物中心 2026-09-01 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3CA900HTKRG/000001_1767758629.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Dyson-%E6%88%B4%E6%A3%AE-Purifier-Cool-%E7%94%B2%E9%86%9BNOx-%E5%81%B5%E6%B8%AC%E6%B6%BC%E9%A2%A8%E7%A9%BA%E6%B0%A3%E6%B8%85%E6%B7%A8%E6%A9%9FTP12-%E4%BA%8C%E8%89%B2%E5%8F%AF%E9%81%B8-11903396.html",
@@ -1294,9 +1294,22 @@
       "客廳"
     ],
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Dyson TP12: 蝦皮商城 - dyson戴森｜恆隆行官方旗艦館 Dyson Purifier Cool TP12 De-NOx 甲醛NOx偵測涼風空氣清淨機 原廠公司2年保固 型號/規格不相符；LBJ Dyson TP12: Momo富邦購物 【dyson 戴森】TP12 Purifier Cool De-NOx 二合一甲醛NOx偵測涼風空氣清淨機(鎳金色) 型號/規格不相符；LBJ Dyson TP12: Momo富邦購物 【dyson 戴森】TP12 Purifier Cool De-NOx 二合一甲醛NOx偵測涼風空氣清淨機(白金色) 型號/規格不相符。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1331,19 +1344,6 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 19900,
-      "currency": "TWD",
-      "converted": 19900,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=571741241&cgp=20900",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Dyson Purifier Cool TP12 De-NOx 甲醛NOx偵測涼風空氣清淨機 原廠公司2年保固",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - dyson戴森｜恆隆行官方旗艦館 / Dyson Purifier Cool TP12 De-NOx 甲醛NOx偵測涼風空氣清淨機 原廠公司2年保固」最低價為 NT$19,900，最低點日期 2026-06-18。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1357,9 +1357,9 @@
     "name": "奈米級空氣清淨機 MUJI AC0650",
     "price": {
       "currency": "TWD",
-      "amount": 4590,
-      "converted": 4590,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 4491,
+      "converted": 4491,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900GD1ZV/000001_1781800174.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAC2O-A900GD1ZV",
@@ -1389,7 +1389,7 @@
       "低價",
       "簡約"
     ],
-    "releaseDate": "2023-04-20",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
       "amount": 4111,
@@ -1405,7 +1405,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-20",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1501,7 +1501,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1597,7 +1597,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1645,9 +1645,9 @@
     "name": "10坪圓嘟嘟空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 5288,
-      "converted": 5288,
-      "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 4999,
+      "converted": 4999,
+      "confidence": "PChome 2026-08-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU6TA900IVWE0/000001_1748922662.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU6T-A900IVWE0",
@@ -1680,20 +1680,20 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 5288,
+      "amount": 4288,
       "currency": "TWD",
-      "converted": 5288,
+      "converted": 4288,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DMAU6T-A900IVWE0",
       "sourceTitle": "PChome 24h 購物：SHARP 夏普 10坪圓嘟嘟空氣清淨機 雞蛋白 FU-J41T-W",
-      "evidenceSnippet": "PChome 24h 購物於 2026-08-14 顯示同型號可信新品公開價 NT$5,288，低於既有史低 NT$5,688。",
+      "evidenceSnippet": "PChome 24h 購物於 2026-08-26 顯示同型號可信新品公開價 NT$4,288，低於既有史低 NT$4,999。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-08-14",
+      "checkedAt": "2026-08-26",
       "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1741,9 +1741,9 @@
     "name": "寵物抗敏空氣清淨機輕量版",
     "price": {
       "currency": "TWD",
-      "amount": 10110,
-      "converted": 10110,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 9891,
+      "converted": 9891,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900J7SBO/000001_1781799851.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAC2O-A900J7SBO",
@@ -1789,7 +1789,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1839,7 +1839,7 @@
       "currency": "TWD",
       "amount": 6810,
       "converted": 6810,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU0BA900GI0Q1/000001_1763349087.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU0B-A900GI0Q1",
@@ -1869,7 +1869,7 @@
       "PuriCare",
       "中坪數"
     ],
-    "releaseDate": "2026",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -1885,7 +1885,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-20",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1981,7 +1981,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2065,9 +2065,22 @@
       "濾網組"
     ],
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Dyson BP02: 蝦皮商城 - 怡悅健康生活館 怡悅 適用 Dyson 戴森 BP02 BP03 BP04 BP06 甲醛 空氣清淨機 抗病毒 HEPA 活性碳 濾網 最低價 NT$1,850 低於現價合理比例，疑似月付/配件/錯類；LBJ Dyson BP02: 蝦皮商城 - 淨博-外銷歐美日專業空氣清淨濾網 適用Dyson戴森Big+Quiet BP03 BP04 BP06 BP02甲醛偵測空氣清淨機HEPA&活性碳濾網濾芯 最低價 NT$2,080 低於現價合理比例，疑似月付/配件/錯類；LBJ Dyson BP02: 蝦皮商城 - Renza Filtration 濾網專家 適用 Dyson 戴森 BP02 BP03 BP04 BP06 強效極靜甲醛偵測空氣清淨機 HEPA+活性碳 濾網 濾芯 最低價 NT$1,980 低於現價合理比例，疑似月付/配件/錯類。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2102,19 +2115,6 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 15717,
-      "currency": "TWD",
-      "converted": 15717,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1271266676&cgp=16900",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【dyson 戴森】BP02 Purifier Big+Quiet 強效極靜抗敏空氣清淨機(白色及柔霧銀 適用30坪)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【dyson 戴森】BP02 Purifier Big+Quiet 強效極靜抗敏空氣清淨機(白色及柔霧銀 適用30坪)」最低價為 NT$15,717，最低點日期 2026-07-19。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2128,9 +2128,10 @@
     "name": "HushJet Purifier Compact 噴射氣流空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 10900,
-      "converted": 10900,
-      "confidence": "Dyson 台灣官方 2026-07-22 至 2026-07-28 exact-model 限時公開價"
+      "amount": 11490,
+      "converted": 11490,
+      "confidence": "2026-08-31 人工查核：Dyson 台灣官方 HJ10 冰川藍單機主價 NT$11,490，加入購物車可用；單機優惠不含贈品，延長保固預設不需要。排除兩入組、加購與濾網促銷。",
+      "basis": "retailer_current"
     },
     "image": "https://dysonshop.blob.core.windows.net/products/dyson-hushjet-purifier-compact-black-teal-1fliter/hero-1784558247-480x480.jpg",
     "buyUrl": "https://shop.dyson.tw/fans-and-heaters/purifiers/dyson-hushjet-purifier-compact-black-teal-1fliter-293084-01",
@@ -2170,7 +2171,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2228,9 +2229,9 @@
     "name": "迷你奈抗敏奈米級空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 7350,
-      "converted": 7350,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 7191,
+      "converted": 7191,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAUFVA900JZR3M/000001_1785203322.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUFV-A900JZR3M",
@@ -2283,7 +2284,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2389,7 +2390,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2496,7 +2497,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2529,6 +2530,205 @@
           "query": "\"DAIKIN MC655ASCT\" problem issue defect failure broken 災情 故障 異常",
           "queryUrl": "https://www.youtube.com/results?search_query=%22DAIKIN%20MC655ASCT%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
           "targetHost": "youtube.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "purifier-honeywell-hpa-100aptw",
+    "category": "purifier",
+    "rank": 27,
+    "topPick": false,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Honeywell",
+    "model": "HPA-100APTW",
+    "name": "4–8 坪抗敏系列空氣清淨機",
+    "price": {
+      "currency": "TWD",
+      "amount": 3540,
+      "converted": 3540,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "basis": "retailer_current"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "通路價格為免施工的直立式空氣清淨機商品價，未標示含到府安裝；首次使用須拆除濾網包裝並保留進出風空間。"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMAU00A77331975/000001_1747044686.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAU00-A77331975",
+    "buyLabel": "PChome 24h exact-model 台灣公司貨新品",
+    "specs": [
+      "適用坪數：約 4–8 坪；CADR 100 cfm（約 170 m³/h）",
+      "True HEPA 濾網搭配活性碳前置濾網",
+      "四段風速含 Turbo；最低運轉音約 38 dB",
+      "尺寸：寬 34.4 x 深 22.6 x 高 35.4 cm",
+      "淨重：約 3.51 kg；額定消耗功率 49W",
+      "相容濾網：HRF-R1；前置濾網 HRF-APP1"
+    ],
+    "description": "以 Honeywell 經典抗敏系列補上四千元內、小房間 True HEPA 與耗材型號清楚的國際品牌選項。",
+    "pros": [
+      "4–8 坪定位清楚，100 cfm CADR 適合小臥室",
+      "機身僅約 3.51 kg，房間間移動容易",
+      "HRF-R1 與 HRF-APP1 耗材型號明確，台灣授權通路仍可取得"
+    ],
+    "cons": [
+      "屬較早期機型，沒有 App、PM2.5 數值顯示或自動聯網功能",
+      "高風速噪音與濾網長期成本需納入比較",
+      "原始討論中的面板按壓、濾網氣味或密合候選各自僅少數作者，未達同症狀 6 人且跨 2 站門檻"
+    ],
+    "bestFor": "預算四千元左右、房間約 4–8 坪，優先要 True HEPA 與容易理解的實體按鍵而不需要智慧聯網者。",
+    "recommendation": "小房間經典款推薦：規格不新潮，但品牌、CADR 與耗材型號都清楚，能補足低預算可靠基礎清淨的比較帶。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-20",
+      "note": "已查 PChome 與恆隆行 exact-model 台灣新品頁、BigGo 及 FindPrice；沒有取得帶日期、可公開重現且排除會員券、點數與福利展示品的可信新品史低，未以查核日現價或低價欄位推定。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-29",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Honeywell HPA-100APTW\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Honeywell%20HPA-100APTW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Honeywell HPA-100APTW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Honeywell%20HPA-100APTW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Honeywell HPA-100APTW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Honeywell%20HPA-100APTW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Honeywell HPA-100APTW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Honeywell%20HPA-100APTW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Honeywell HPA-100APTW\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Honeywell%20HPA-100APTW%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
+        }
+      ]
+    },
+    "score": 83,
+    "voltage": "110V／60Hz 台灣公司貨；額定消耗功率 49W",
+    "warranty": "Honeywell 台灣公司貨；主機零件 1 年，授權通路登錄馬達 5 年，依代理商登錄與保固條件",
+    "tags": [
+      "4-8坪",
+      "True HEPA",
+      "CADR 100 cfm",
+      "小房間",
+      "平價"
+    ]
+  },
+  {
+    "id": "purifier-xiaomi-ac-m25-sc",
+    "category": "purifier",
+    "rank": 28,
+    "topPick": false,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Xiaomi",
+    "model": "AC-M25-SC",
+    "name": "米家智慧空氣清淨機 6",
+    "price": {
+      "currency": "TWD",
+      "amount": 5580,
+      "converted": 5580,
+      "confidence": "momo 小米官方授權代理頁 2026-08-30 明列 AC-M25-SC、新品現貨、NT$5,580 與一年保固",
+      "basis": "retailer_current"
+    },
+    "image": "https://i1.momoshop.com.tw/1786110782/goodsimg/0015/189/670/15189670_R_m.webp",
+    "buyUrl": "https://www.momoshop.com.tw/product/15189670",
+    "buyLabel": "momo 小米官方授權代理新品",
+    "installation": {
+      "status": "not_stated",
+      "note": "momo exact-model 頁未列到府安裝；本品為可移動式清淨機，首次使用需拆除濾芯包裝、保留進出風空間並核對台灣公司貨機身銘牌。"
+    },
+    "specs": [
+      "台灣通路標示適用 10–15 坪；Xiaomi 全球頁標示有效涵蓋 29–50 m²",
+      "顆粒 CADR：測試值 443 m³/h（Xiaomi 全球頁與 momo 台灣頁）；多語說明書額定 PCADR 420 m³/h",
+      "PM1、PM2.5、粗顆粒、溫度與濕度五感測系統；LCD 彩色顯示",
+      "五層複合淨化：初效、高效濾芯、活性碳、UVC 紫外線與負離子",
+      "Xiaomi Home App、2.4GHz Wi-Fi、Alexa／Google Assistant（視區域與語言可用性）",
+      "尺寸：寬 25 x 深 25 x 高 55.5 cm；淨重約 5.2 kg；額定功率 40W；睡眠模式約 32 dB(A)",
+      "100–240V／50–60Hz（多語含繁中說明書）；Xiaomi 全球規格頁另列 200–240V，購買後應核對台灣公司貨銘牌"
+    ],
+    "description": "AC-M25-SC 用高風量、五感測、UVC 與負離子補進六千元內智慧清淨機；但 Xiaomi 區域文件的輸入電壓不一致，台灣購入後須以實機銘牌為準。",
+    "pros": [
+      "443 m³/h 測試 CADR 與 29–50 m² 有效涵蓋對中型空間有價格競爭力",
+      "PM1／PM2.5／粗顆粒加溫濕度感測，能用彩色螢幕與 App 查看狀態",
+      "UVC、負離子與活性碳比單純顆粒過濾的功能完整"
+    ],
+    "cons": [
+      "多語含繁中說明書列 100–240V，Xiaomi 全球規格頁卻列 200–240V，必須核對台灣機身銘牌",
+      "濾芯 6–12 個月建議週期會受粉塵、寵物與運轉時數影響，長期耗材要另編預算",
+      "AC-M25-SC 在部分海外頁面稱空氣淨化器 5，跨區價格、電壓與評論不能直接等同台灣版清淨機 6"
+    ],
+    "bestFor": "預算約六千元、空間約 10–15 坪，想把顆粒感測、App、UVC 與負離子整合在同一台機器的家庭。",
+    "recommendation": "新品高 CP 候選：AC-M25-SC 的風量與感測功能完整，但台灣長期口碑尚少且區域電壓文件有差異，先不取代既有 Top Pick。",
+    "score": 88,
+    "voltage": "100–240V／50–60Hz（多語含繁中說明書；全球規格頁另列 200–240V，購買後核對台灣公司貨銘牌）",
+    "warranty": "台灣 momo 小米官方授權代理新品頁明列一年保固；實際送修與耗材條件依代理商保證書",
+    "tags": [
+      "10-15坪",
+      "CADR測試值443",
+      "PM1感測",
+      "UVC",
+      "Xiaomi Home"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-30",
+      "note": "已查 momo exact-model 台灣公司貨新品頁、momo 8/28 開賣活動頁、FindPrice、BigGo 與 LBJ exact-model 入口。momo NT$5,580 和活動頁 NT$6,999 只能證明查核時現價，FindPrice 又混入部分海外／中國市場的米家淨化器 5。未取得可公開重現、具日期且同為台灣保固新品的歷史曲線，故不以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-30",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Xiaomi AC-M25-SC\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Xiaomi%20AC-M25-SC%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Xiaomi AC-M25-SC\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Xiaomi%20AC-M25-SC%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         }
       ]
     }

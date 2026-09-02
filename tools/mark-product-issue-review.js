@@ -51,11 +51,11 @@ function validateCandidateReview(candidate, productId, reviewedAt) {
   }
   if (
     candidate.outcome !== "excluded"
-    || candidate.exactModel !== true
+    || typeof candidate.exactModel !== "boolean"
     || !isValidReviewDate(candidate.reviewedAt)
     || candidate.reviewedAt > reviewedAt
   ) {
-    throw new Error(`Candidate review requires explicit exclusion, exact model, and a review date no later than the product review: ${productId}`);
+    throw new Error(`Candidate review requires explicit exclusion, a model-match decision, and a review date no later than the product review: ${productId}`);
   }
   if (typeof candidate.sourceExcerpt !== "string" || candidate.sourceExcerpt.trim().length < 12) {
     throw new Error(`Candidate review requires an original-page excerpt: ${productId}`);
@@ -68,7 +68,7 @@ function validateCandidateReview(candidate, productId, reviewedAt) {
   }
 }
 
-function validateExplicitReview(review, product) {
+function validateExplicitReview(review, product, issueEvidence = verifiedIssueById.get(product?.id)) {
   if (!product) throw new Error(`Unknown product in audit batch: ${review.id}`);
   if (review.category !== product.category || review.brand !== product.brand || review.model !== product.model) {
     throw new Error(`Product identity mismatch in audit batch: ${review.id}`);
@@ -138,12 +138,12 @@ function validateExplicitReview(review, product) {
     }
   }
 
-  const verified = verifiedIssueById.has(review.id);
+  const verified = issueEvidence?.status === "common_issue";
   if ((review.decision === "common_issue") !== verified) {
     throw new Error(`Explicit decision does not match verified threshold evidence: ${review.id}`);
   }
   if (verified) {
-    const expectedSources = verifiedIssueById.get(review.id).issues.flatMap((issue) => issue.sources);
+    const expectedSources = issueEvidence.issues.flatMap((issue) => issue.sources);
     if (JSON.stringify(review.representativeSources) !== JSON.stringify(expectedSources)) {
       throw new Error(`Representative sources do not match verified threshold evidence: ${review.id}`);
     }
@@ -191,7 +191,6 @@ function main() {
   for (const review of reviews) byId.set(review.id, review);
   const productOrder = new Map(products.map((product, index) => [product.id, index]));
   const manifest = {
-    ...(existing.lastRecheck ? { lastRecheck: existing.lastRecheck } : {}),
     checkedAt: CHECKED_AT,
     methodVersion: 3,
     policy: "每筆決策須保存 exact-model 跨站查詢與人工 attestation；每個搜尋候選須逐頁保存摘要、獨立作者數與具體排除理由，研究工具不得自行生成拒絕結論。",

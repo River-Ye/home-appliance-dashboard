@@ -67,9 +67,22 @@
     "bestFor": "小房間或書房，且能先確認 220V 專用迴路、排水、室外機位置與配管路徑的台灣住宅",
     "recommendation": "綜合推薦：完整組價與安裝邊界清楚；實際能力仍應由合格空調技師依熱負載場勘。",
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已查核 BigGo 與 FindPrice 的 exact indoor／outdoor model pair 價格結果；未取得可公開重現且符合新品、完整室內外機組、非會員個人化優惠的歷史最低價。現價與官方建議售價均未冒充史低。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -116,20 +129,7 @@
       "一級能效",
       "含基本安裝",
       "日系品牌"
-    ],
-    "historicalLow": {
-      "status": "found",
-      "amount": 31199,
-      "currency": "TWD",
-      "converted": 31199,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1129480932&cgp=33959",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【HITACHI 日立】空調速配★2-3坪R32尊榮WiFi一級變頻冷暖2.2kW分離式空調(RAC-22NP/RAS-22NTB)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【HITACHI 日立】空調速配★2-3坪R32尊榮WiFi一級變頻冷暖2.2kW分離式空調(RAC-22NP/RAS-22NTB)」最低價為 NT$31,199，最低點日期 2024-01-24。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。 史低方案標題未明示安裝是否包含，安裝、耗材與追加施工須另向通路確認。 現行商品資料安裝邊界為「含基本安裝」：玉明公開完整組價含室內外機安裝與銅管、控制線 5 公尺內；鑽孔、室外機架、遮雨棚、排水器、超長配管、樓層與危險施工另計，且僅承作公告服務區。"
-    }
+    ]
   },
   {
     "id": "aircon-hitachi-ras-40ntb-rac-40np",
@@ -192,9 +192,22 @@
     "bestFor": "一般臥室或中型工作空間，且能先確認 220V 專用迴路、排水、室外機位置與配管路徑的台灣住宅",
     "recommendation": "冷暖推薦：完整組價與安裝邊界清楚；實際能力仍應由合格空調技師依熱負載場勘。",
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已查核 BigGo 與 FindPrice 的 exact indoor／outdoor model pair 價格結果；未取得可公開重現且符合新品、完整室內外機組、非會員個人化優惠的歷史最低價。現價與官方建議售價均未冒充史低。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -241,20 +254,7 @@
       "一級能效",
       "含基本安裝",
       "日系品牌"
-    ],
-    "historicalLow": {
-      "status": "found",
-      "amount": 44894,
-      "currency": "TWD",
-      "converted": 44894,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1130825370&cgp=49711",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【HITACHI 日立】空調速配★5-7坪R32尊榮WiFi一級變頻冷暖4.1kW分離式空調(RAC-40NP/RAS-40NTB)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【HITACHI 日立】空調速配★5-7坪R32尊榮WiFi一級變頻冷暖4.1kW分離式空調(RAC-40NP/RAS-40NTB)」最低價為 NT$44,894，最低點日期 2024-01-24。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。 史低方案標題未明示安裝是否包含，安裝、耗材與追加施工須另向通路確認。 現行商品資料安裝邊界為「含基本安裝」：玉明公開完整組價含室內外機安裝與銅管、控制線 5 公尺內；鑽孔、室外機架、遮雨棚、排水器、超長配管、樓層與危險施工另計，且僅承作公告服務區。"
-    }
+    ]
   },
   {
     "id": "aircon-hitachi-ras-71ntb-rac-71np",
@@ -317,9 +317,22 @@
     "bestFor": "大客廳、開放式客餐廳或高熱負載空間，且能先確認 220V 專用迴路、排水、室外機位置與配管路徑的台灣住宅",
     "recommendation": "冷暖推薦：完整組價與安裝邊界清楚；實際能力仍應由合格空調技師依熱負載場勘。",
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已查核 BigGo 與 FindPrice 的 exact indoor／outdoor model pair 價格結果；未取得可公開重現且符合新品、完整室內外機組、非會員個人化優惠的歷史最低價。現價與官方建議售價均未冒充史低。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -366,20 +379,7 @@
       "一級能效",
       "含基本安裝",
       "日系品牌"
-    ],
-    "historicalLow": {
-      "status": "found",
-      "amount": 65800,
-      "currency": "TWD",
-      "converted": 65800,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1139997972&cgp=70371",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【HITACHI 日立】空調速配★10-12坪R32尊榮WiFi一級變頻冷暖7.2kW分離式空調(RAC-71NP/RAS-71NTB)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【HITACHI 日立】空調速配★10-12坪R32尊榮WiFi一級變頻冷暖7.2kW分離式空調(RAC-71NP/RAS-71NTB)」最低價為 NT$65,800，最低點日期 2024-01-20。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。 史低方案標題未明示安裝是否包含，安裝、耗材與追加施工須另向通路確認。 現行商品資料安裝邊界為「含基本安裝」：玉明公開完整組價含室內外機安裝與銅管、控制線 5 公尺內；鑽孔、室外機架、遮雨棚、排水器、超長配管、樓層與危險施工另計，且僅承作公告服務區。"
-    }
+    ]
   },
   {
     "id": "aircon-panasonic-cs-vx40fa2-cu-ux40fha2",
@@ -457,7 +457,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -582,7 +582,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -707,7 +707,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -817,9 +817,22 @@
     "bestFor": "小房間或書房，且能先確認 220V 專用迴路、排水、室外機位置與配管路徑的台灣住宅",
     "recommendation": "冷暖推薦：完整組價與安裝邊界清楚；實際能力仍應由合格空調技師依熱負載場勘。",
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已查核 BigGo 與 FindPrice 的 exact indoor／outdoor model pair 價格結果；未取得可公開重現且符合新品、完整室內外機組、非會員個人化優惠的歷史最低價。現價與官方建議售價均未冒充史低。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -866,20 +879,7 @@
       "一級能效",
       "含基本安裝",
       "日系品牌"
-    ],
-    "historicalLow": {
-      "status": "found",
-      "amount": 38953,
-      "currency": "TWD",
-      "converted": 38953,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1247514616&cgp=38953",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：DAIKIN大金 RXM36ZVLT/FTXM36ZVLT 4-6坪 橫綱Z系列 變頻冷暖空調 贈基本安裝",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / DAIKIN大金 RXM36ZVLT/FTXM36ZVLT 4-6坪 橫綱Z系列 變頻冷暖空調 贈基本安裝」最低價為 NT$38,953，最低點日期 2026-08-20。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。 史低方案標題標示含基本／標準安裝；實際服務區、材料與追加施工仍以通路及現勘為準。 現行商品資料安裝邊界為「含基本安裝」：玉明公開完整組價含室內外機安裝與銅管、控制線 5 公尺內；鑽孔、室外機架、遮雨棚、排水器、超長配管、樓層與危險施工另計，且僅承作公告服務區。"
-    }
+    ]
   },
   {
     "id": "aircon-daikin-ftxm41zvlt-rxm41zvlt",
@@ -942,9 +942,22 @@
     "bestFor": "一般臥室或中型工作空間，且能先確認 220V 專用迴路、排水、室外機位置與配管路徑的台灣住宅",
     "recommendation": "冷暖推薦：完整組價與安裝邊界清楚；實際能力仍應由合格空調技師依熱負載場勘。",
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已查核 BigGo 與 FindPrice 的 exact indoor／outdoor model pair 價格結果；未取得可公開重現且符合新品、完整室內外機組、非會員個人化優惠的歷史最低價。現價與官方建議售價均未冒充史低。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -991,20 +1004,7 @@
       "一級能效",
       "含基本安裝",
       "日系品牌"
-    ],
-    "historicalLow": {
-      "status": "found",
-      "amount": 43133,
-      "currency": "TWD",
-      "converted": 43133,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1247514618&cgp=43133",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：DAIKIN大金 RXM41ZVLT/FTXM41ZVLT 5-7坪 橫綱Z系列 變頻冷暖空調 贈基本安裝",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / DAIKIN大金 RXM41ZVLT/FTXM41ZVLT 5-7坪 橫綱Z系列 變頻冷暖空調 贈基本安裝」最低價為 NT$43,133，最低點日期 2026-08-20。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。 史低方案標題標示含基本／標準安裝；實際服務區、材料與追加施工仍以通路及現勘為準。 現行商品資料安裝邊界為「含基本安裝」：玉明公開完整組價含室內外機安裝與銅管、控制線 5 公尺內；鑽孔、室外機架、遮雨棚、排水器、超長配管、樓層與危險施工另計，且僅承作公告服務區。"
-    }
+    ]
   },
   {
     "id": "aircon-daikin-ftxm60zvlt-rxm60zvlt",
@@ -1067,9 +1067,22 @@
     "bestFor": "大臥室或中型客餐廳，且能先確認 220V 專用迴路、排水、室外機位置與配管路徑的台灣住宅",
     "recommendation": "冷暖推薦：完整組價與安裝邊界清楚；實際能力仍應由合格空調技師依熱負載場勘。",
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已查核 BigGo 與 FindPrice 的 exact indoor／outdoor model pair 價格結果；未取得可公開重現且符合新品、完整室內外機組、非會員個人化優惠的歷史最低價。現價與官方建議售價均未冒充史低。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1116,20 +1129,7 @@
       "一級能效",
       "含基本安裝",
       "日系品牌"
-    ],
-    "historicalLow": {
-      "status": "found",
-      "amount": 55445,
-      "currency": "TWD",
-      "converted": 55445,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1247562021&cgp=55445",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：DAIKIN大金 RXM60ZVLT/FTXM60ZVLT 8-10坪 橫綱Z系列 變頻冷暖空調 贈基本安裝",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / DAIKIN大金 RXM60ZVLT/FTXM60ZVLT 8-10坪 橫綱Z系列 變頻冷暖空調 贈基本安裝」最低價為 NT$55,445，最低點日期 2026-08-20。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。 史低方案標題標示含基本／標準安裝；實際服務區、材料與追加施工仍以通路及現勘為準。 現行商品資料安裝邊界為「含基本安裝」：玉明公開完整組價含室內外機安裝與銅管、控制線 5 公尺內；鑽孔、室外機架、遮雨棚、排水器、超長配管、樓層與危險施工另計，且僅承作公告服務區。"
-    }
+    ]
   },
   {
     "id": "aircon-mitsubishi-electric-msy-ga42nj-muy-ga42nj",
@@ -1207,7 +1207,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1332,7 +1332,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1442,9 +1442,22 @@
     "bestFor": "大客廳、開放式客餐廳或高熱負載空間，且能先確認 220V 專用迴路、排水、室外機位置與配管路徑的台灣住宅",
     "recommendation": "冷專推薦：完整組價與安裝邊界清楚；實際能力仍應由合格空調技師依熱負載場勘。",
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已查核 BigGo 與 FindPrice 的 exact indoor／outdoor model pair 價格結果；未取得可公開重現且符合新品、完整室內外機組、非會員個人化優惠的歷史最低價。現價與官方建議售價均未冒充史低。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1491,20 +1504,7 @@
       "一級能效",
       "含基本安裝",
       "日系品牌"
-    ],
-    "historicalLow": {
-      "status": "found",
-      "amount": 60716,
-      "currency": "TWD",
-      "converted": 60716,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1237902979&cgp=63430",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【MITSUBISHI 三菱電機】9-13坪 R32 一級變頻冷專7.2kW分離式空調(MUY-GA71NJ/MSY-GA71NJ)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【MITSUBISHI 三菱電機】9-13坪 R32 一級變頻冷專7.2kW分離式空調(MUY-GA71NJ/MSY-GA71NJ)」最低價為 NT$60,716，最低點日期 2025-05-01。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。 史低方案標題未明示安裝是否包含，安裝、耗材與追加施工須另向通路確認。 現行商品資料安裝邊界為「含基本安裝」：玉明公開完整組價含室內外機安裝與銅管、控制線 5 公尺內；鑽孔、室外機架、遮雨棚、排水器、超長配管、樓層與危險施工另計，且僅承作公告服務區。"
-    }
+    ]
   },
   {
     "id": "aircon-sanlux-sae-v28hj3-sac-v28hj3",
@@ -1582,7 +1582,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1706,7 +1706,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1830,7 +1830,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1896,9 +1896,9 @@
     "name": "HERAN HI-SL36 / HO-SL36 一對一分離式變頻冷專",
     "price": {
       "currency": "TWD",
-      "amount": 36000,
-      "converted": 36000,
-      "confidence": "玉明電器 exact-pair 完整室內外機新品公開價 2026-08-14 可公開重現現價；型號與室內外機完整組合已核對",
+      "amount": 26500,
+      "converted": 26500,
+      "confidence": "2026-08-31 人工核對 玉明電器 exact-pair 完整室內外機新品公開價 HI-SL36 / HO-SL36 公開可購主價 TWD 26,500；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。",
       "basis": "retailer_current",
       "scope": "complete_system"
     },
@@ -1939,9 +1939,22 @@
     "bestFor": "小房間或書房，且能先確認 220V 專用迴路、排水、室外機位置與配管路徑的台灣住宅",
     "recommendation": "冷專推薦：完整組價與安裝邊界清楚；實際能力仍應由合格空調技師依熱負載場勘。",
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已查核 BigGo 與 FindPrice 的 exact indoor／outdoor model pair 價格結果；未取得可公開重現且符合新品、完整室內外機組、非會員個人化優惠的歷史最低價。現價與官方建議售價均未冒充史低。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1987,20 +2000,7 @@
       "R32",
       "一級能效",
       "含基本安裝"
-    ],
-    "historicalLow": {
-      "status": "found",
-      "amount": 26803,
-      "currency": "TWD",
-      "converted": 26803,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282220407&cgp=26803",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【HERAN 禾聯】家電速配 SL尊榮系列4-6坪沼氣防護2.0霜效潔淨抗菌銀離子濾網WIFI冷專分離式HI-SL36/HO-SL36",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【HERAN 禾聯】家電速配 SL尊榮系列4-6坪沼氣防護2.0霜效潔淨抗菌銀離子濾網WIFI冷專分離式HI-SL36/HO-SL36」最低價為 NT$26,803，最低點日期 2026-08-20。",
-      "sourceKind": "price_history",
-      "confidence": "medium",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。 史低方案標題未明示安裝是否包含，安裝、耗材與追加施工須另向通路確認。 現行商品資料安裝邊界為「含基本安裝」：玉明公開完整組價含室內外機安裝與銅管、控制線 5 公尺內；鑽孔、室外機架、遮雨棚、排水器、超長配管、樓層與危險施工另計，且僅承作公告服務區。"
-    }
+    ]
   },
   {
     "id": "aircon-heran-hi-sl41r-ho-sl41r",
@@ -2020,9 +2020,9 @@
     "name": "HERAN HI-SL41R / HO-SL41R 一對一分離式變頻冷專",
     "price": {
       "currency": "TWD",
-      "amount": 36400,
-      "converted": 36400,
-      "confidence": "玉明電器 exact-pair 完整室內外機新品公開價 2026-08-14 可公開重現現價；型號與室內外機完整組合已核對",
+      "amount": 28800,
+      "converted": 28800,
+      "confidence": "2026-08-31 人工核對 玉明電器 exact-pair 完整室內外機新品公開價 HI-SL41R / HO-SL41R 公開可購主價 TWD 28,800；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。",
       "basis": "retailer_current",
       "scope": "complete_system"
     },
@@ -2063,9 +2063,22 @@
     "bestFor": "一般臥室或中型工作空間，且能先確認 220V 專用迴路、排水、室外機位置與配管路徑的台灣住宅",
     "recommendation": "冷專推薦：完整組價與安裝邊界清楚；實際能力仍應由合格空調技師依熱負載場勘。",
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已查核 BigGo 與 FindPrice 的 exact indoor／outdoor model pair 價格結果；未取得可公開重現且符合新品、完整室內外機組、非會員個人化優惠的歷史最低價。現價與官方建議售價均未冒充史低。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2111,20 +2124,7 @@
       "R32",
       "一級能效",
       "含基本安裝"
-    ],
-    "historicalLow": {
-      "status": "found",
-      "amount": 28846,
-      "currency": "TWD",
-      "converted": 28846,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282220408&cgp=28846",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【HERAN 禾聯】家電速配 SL尊榮系列5-7坪沼氣防護2.0霜效潔淨抗菌銀離子濾網WIFI冷專分離式HI-SL41R/HO-SL41R",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【HERAN 禾聯】家電速配 SL尊榮系列5-7坪沼氣防護2.0霜效潔淨抗菌銀離子濾網WIFI冷專分離式HI-SL41R/HO-SL41R」最低價為 NT$28,846，最低點日期 2026-08-20。",
-      "sourceKind": "price_history",
-      "confidence": "medium",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。 史低方案標題未明示安裝是否包含，安裝、耗材與追加施工須另向通路確認。 現行商品資料安裝邊界為「含基本安裝」：玉明公開完整組價含室內外機安裝與銅管、控制線 5 公尺內；鑽孔、室外機架、遮雨棚、排水器、超長配管、樓層與危險施工另計，且僅承作公告服務區。"
-    }
+    ]
   },
   {
     "id": "aircon-heran-hi-sl80-ho-sl80",
@@ -2144,9 +2144,9 @@
     "name": "HERAN HI-SL80 / HO-SL80 一對一分離式變頻冷專",
     "price": {
       "currency": "TWD",
-      "amount": 57900,
-      "converted": 57900,
-      "confidence": "玉明電器 exact-pair 完整室內外機新品公開價 2026-08-14 可公開重現現價；型號與室內外機完整組合已核對",
+      "amount": 46300,
+      "converted": 46300,
+      "confidence": "2026-08-31 人工核對 玉明電器 exact-pair 完整室內外機新品公開價 HI-SL80 / HO-SL80 公開可購主價 TWD 46,300；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。",
       "basis": "retailer_current",
       "scope": "complete_system"
     },
@@ -2187,9 +2187,22 @@
     "bestFor": "大客廳、開放式客餐廳或高熱負載空間，且能先確認 220V 專用迴路、排水、室外機位置與配管路徑的台灣住宅",
     "recommendation": "冷專推薦：完整組價與安裝邊界清楚；實際能力仍應由合格空調技師依熱負載場勘。",
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已查核 BigGo 與 FindPrice 的 exact indoor／outdoor model pair 價格結果；未取得可公開重現且符合新品、完整室內外機組、非會員個人化優惠的歷史最低價。現價與官方建議售價均未冒充史低。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2235,20 +2248,7 @@
       "R32",
       "一級能效",
       "含基本安裝"
-    ],
-    "historicalLow": {
-      "status": "found",
-      "amount": 45670,
-      "currency": "TWD",
-      "converted": 45670,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282220412&cgp=45670",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【HERAN 禾聯】家電速配SL尊榮系列12-13坪沼氣防護2.0霜效潔淨抗菌銀離子濾網WIFI冷專分離式HI-SL80/HO-SL80",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【HERAN 禾聯】家電速配SL尊榮系列12-13坪沼氣防護2.0霜效潔淨抗菌銀離子濾網WIFI冷專分離式HI-SL80/HO-SL80」最低價為 NT$45,670，最低點日期 2026-08-20。",
-      "sourceKind": "price_history",
-      "confidence": "medium",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。 史低方案標題未明示安裝是否包含，安裝、耗材與追加施工須另向通路確認。 現行商品資料安裝邊界為「含基本安裝」：玉明公開完整組價含室內外機安裝與銅管、控制線 5 公尺內；鑽孔、室外機架、遮雨棚、排水器、超長配管、樓層與危險施工另計，且僅承作公告服務區。"
-    }
+    ]
   },
   {
     "id": "aircon-gree-gks-23ci-gks-23co",
@@ -2311,9 +2311,22 @@
     "bestFor": "小房間或書房，且能先確認 220V 專用迴路、排水、室外機位置與配管路徑的台灣住宅",
     "recommendation": "冷專推薦：完整組價與安裝邊界清楚；實際能力仍應由合格空調技師依熱負載場勘。",
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已查核 BigGo 與 FindPrice 的 exact indoor／outdoor model pair 價格結果；未取得可公開重現且符合新品、完整室內外機組、非會員個人化優惠的歷史最低價。現價與官方建議售價均未冒充史低。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2359,20 +2372,7 @@
       "R32",
       "一級能效",
       "含基本安裝"
-    ],
-    "historicalLow": {
-      "status": "found",
-      "amount": 17063,
-      "currency": "TWD",
-      "converted": 17063,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1203471354&cgp=17873",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(含標準安裝)格力變頻分離式冷氣3坪GKS-23CO/GKS-23CI",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / (含標準安裝)格力變頻分離式冷氣3坪GKS-23CO/GKS-23CI」最低價為 NT$17,063，最低點日期 2025-09-02。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。 史低方案標題標示含基本／標準安裝；實際服務區、材料與追加施工仍以通路及現勘為準。 現行商品資料安裝邊界為「含基本安裝」：玉明公開完整組價含室內外機安裝與銅管、控制線 5 公尺內；鑽孔、室外機架、遮雨棚、排水器、超長配管、樓層與危險施工另計，且僅承作公告服務區。"
-    }
+    ]
   },
   {
     "id": "aircon-gree-gks-41ci-gks-41co",
@@ -2435,9 +2435,22 @@
     "bestFor": "一般臥室或中型工作空間，且能先確認 220V 專用迴路、排水、室外機位置與配管路徑的台灣住宅",
     "recommendation": "冷專推薦：完整組價與安裝邊界清楚；實際能力仍應由合格空調技師依熱負載場勘。",
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已查核 BigGo 與 FindPrice 的 exact indoor／outdoor model pair 價格結果；未取得可公開重現且符合新品、完整室內外機組、非會員個人化優惠的歷史最低價。現價與官方建議售價均未冒充史低。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2483,20 +2496,7 @@
       "R32",
       "一級能效",
       "含基本安裝"
-    ],
-    "historicalLow": {
-      "status": "found",
-      "amount": 25001,
-      "currency": "TWD",
-      "converted": 25001,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1227516567&cgp=29833",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【GREE 格力】《單冷型-GKS系列》變頻分離式冷氣空調 GKS-41CO/GKS-41CI◆含拆箱定位+舊機回收",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / 【GREE 格力】《單冷型-GKS系列》變頻分離式冷氣空調 GKS-41CO/GKS-41CI◆含拆箱定位+舊機回收」最低價為 NT$25,001，最低點日期 2024-07-24。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。 史低方案標題僅標示拆箱定位／舊機回收，未宣稱包含基本安裝。 現行商品資料安裝邊界為「含基本安裝」：玉明公開完整組價含室內外機安裝與銅管、控制線 5 公尺內；鑽孔、室外機架、遮雨棚、排水器、超長配管、樓層與危險施工另計，且僅承作公告服務區。"
-    }
+    ]
   },
   {
     "id": "aircon-gree-gks-63ci-gks-63co",
@@ -2559,9 +2559,22 @@
     "bestFor": "大臥室或中型客餐廳，且能先確認 220V 專用迴路、排水、室外機位置與配管路徑的台灣住宅",
     "recommendation": "冷專推薦：完整組價與安裝邊界清楚；實際能力仍應由合格空調技師依熱負載場勘。",
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已查核 BigGo 與 FindPrice 的 exact indoor／outdoor model pair 價格結果；未取得可公開重現且符合新品、完整室內外機組、非會員個人化優惠的歷史最低價。現價與官方建議售價均未冒充史低。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2607,144 +2620,133 @@
       "R32",
       "一級能效",
       "含基本安裝"
-    ],
-    "historicalLow": {
-      "status": "found",
-      "amount": 36711,
-      "currency": "TWD",
-      "converted": 36711,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1227459444&cgp=43913",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【GREE 格力】《單冷型-GKS系列》變頻分離式冷氣空調 GKS-63CO/GKS-63CI◆含基本安裝+舊機回收",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / 【GREE 格力】《單冷型-GKS系列》變頻分離式冷氣空調 GKS-63CO/GKS-63CI◆含基本安裝+舊機回收」最低價為 NT$36,711，最低點日期 2025-12-27。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。 史低方案標題標示含基本／標準安裝；實際服務區、材料與追加施工仍以通路及現勘為準。 現行商品資料安裝邊界為「含基本安裝」：玉明公開完整組價含室內外機安裝與銅管、控制線 5 公尺內；鑽孔、室外機架、遮雨棚、排水器、超長配管、樓層與危險施工另計，且僅承作公告服務區。"
-    }
+    ]
   },
   {
-    "id": "aircon-lg-lsn28ddhs-lsu28dhs",
+    "id": "aircon-sharp-ay-28zamh-w-ae-28zamh",
     "category": "aircon",
     "rank": 22,
-    "budget": "value",
+    "topPick": false,
+    "budget": "balanced",
     "channel": "tw",
     "type": "heat_cool",
     "capacityBand": "small",
-    "roomSizeUpperPing": 4,
-    "brand": "LG",
-    "model": "LSN28DDHS / LSU28DHS",
+    "roomSizeUpperPing": 5,
+    "brand": "SHARP",
+    "model": "AY-28ZAMH-W / AE-28ZAMH",
     "modelPair": {
-      "indoor": "LSN28DDHS",
-      "outdoor": "LSU28DHS"
+      "indoor": "AY-28ZAMH-W",
+      "outdoor": "AE-28ZAMH"
     },
-    "name": "LG LSN28DDHS / LSU28DHS 一對一分離式變頻冷暖",
+    "name": "SHARP AY-28ZAMH-W / AE-28ZAMH 一對一分離式變頻冷暖",
     "price": {
       "currency": "TWD",
-      "amount": 26800,
-      "converted": 26800,
-      "confidence": "玉明電器 exact-pair 完整室內外機新品公開價 2026-08-14 可公開重現現價；型號與室內外機完整組合已核對",
+      "amount": 33900,
+      "converted": 33900,
+      "confidence": "PChome 24h 於 2026-08-20 的 exact indoor／outdoor pair 新品頁公開價 NT$33,900，完整室內外機組庫存數量為正",
       "basis": "retailer_current",
       "scope": "complete_system"
     },
     "installation": {
       "status": "included_basic",
-      "note": "玉明公開完整組價含室內外機安裝與銅管、控制線 5 公尺內；鑽孔、室外機架、遮雨棚、排水器、超長配管、樓層與危險施工另計，且僅承作公告服務區。"
+      "note": "PChome exact-pair 公開價含完整室內外機、配送、5 公尺銅管基本安裝與舊機回收；超長配管、鑽孔、室外機架、排水器、高空／危險施工、偏遠地區與特殊電力工程另計。"
     },
-    "image": "https://www.3uo.tw/wp-content/uploads/LSN28DDHS-LSU28DHS.jpg",
-    "buyUrl": "https://www.3uo.tw/ecommerce/LSN28DDHS/",
-    "buyLabel": "玉明電器 exact-pair 完整室內外機新品公開價",
+    "image": "https://cs-a.ecimg.tw/items/DPAF0WA900JIYV8/000001_1765173479.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPAF0W-A900JIYV8",
+    "buyLabel": "PChome 24h exact-pair 完整室內外機公司貨新品",
     "specs": [
       "型式：一對一分離式變頻冷暖",
-      "組合型號：室內機 LSN28DDHS；室外機 LSU28DHS",
-      "適用坪數：4 坪內（官方／品牌 exact-model 規格建議上限；西曬、頂樓與挑高須重新估算）",
+      "組合型號：室內機 AY-28ZAMH-W；室外機 AE-28ZAMH",
+      "適用坪數：5 坪內（官方規格建議上限；西曬、頂樓、挑高與開放空間須依熱負載重新估算）",
       "冷房能力：2.8 kW",
       "暖房能力：3.4 kW",
-      "CSPF／能源效率：6.35 kWh/kWh",
+      "CSPF／能源效率：7.00 kWh/kWh",
       "能源效率等級：第 1 級",
-      "尺寸：室內機 寬 89.5 x 深 23.5 x 高 30.7 cm；室外機 寬 77 x 深 28.8 x 高 54.5 cm",
-      "重量：室內機 11 kg；室外機 32.8 kg",
-      "電壓／頻率：單相 220V／60Hz（台灣住宅規格；須配置合規專用迴路與接地）",
+      "尺寸：室內機 寬 87.9 x 深 22.9 x 高 28.9 cm；室外機 寬 78 x 深 26.9 x 高 54 cm",
+      "重量：室內機 9 kg；室外機 30 kg",
+      "電壓／頻率：單相 220V／60Hz（台灣住宅規格；須配置合規專用迴路、接地與無熔絲開關）",
       "冷媒：R32",
-      "運轉音：查不到（公開 exact-model 規格未列完整室內／室外 dB）",
-      "智慧功能：內建 Wi-Fi，可用 LG ThinQ 遠端控制與管理用電",
-      "安裝／配管：液管 2 分／氣管 3 分；玉明公開完整組價含室內外機安裝與銅管、控制線 5 公尺內；鑽孔、室外機架、遮雨棚、排水器、超長配管、樓層與危險施工另計，且僅承作公告服務區。"
+      "運轉音：官方公開頁未完整列出室內／室外各模式 dB，故不推定",
+      "智慧功能：AIoT 智慧聯網、人體感知與 Plasmacluster 25000 自動除菌離子",
+      "安裝／配管：液管 2 分／氣管 3 分；標準配管 7.5m、最大 15m、高低差最大 7m；PChome 公開價含 5m 基本安裝，超出與特殊施工另計"
     ],
-    "description": "一對一分離式變頻冷暖完整室內外機組，適用上限 4 坪；公開價格、安裝範圍與追加施工分開標示，方便比較實際落地總價。",
+    "description": "SHARP 台灣住宅一對一冷暖完整機組，5 坪內提供 CSPF 7.00、AIoT、人體感知與 Plasmacluster，替換同配額但分數較低的 LG 小坪數冷暖組。",
     "pros": [
-      "exact indoor／outdoor model pair 與完整組價可公開核對",
-      "CSPF 6.35、能源效率第 1 級",
-      "尺寸：室內機 寬 89.5 x 深 23.5 x 高 30.7 cm；室外機 寬 77 x 深 28.8 x 高 54.5 cm；重量：室內機 11 kg；室外機 32.8 kg"
+      "室內 AY-28ZAMH-W／室外 AE-28ZAMH exact pair 由官方說明書與可信新品通路交叉確認",
+      "CSPF 7.00、能源效率第 1 級",
+      "完整室內外機公開價含 5m 基本安裝，追加施工邊界可比較"
     ],
     "cons": [
-      "基本安裝仍有配管長度與施工區域限制",
-      "西曬、頂樓、挑高或開放空間不可只按坪數上限選機",
-      "公開 exact-model 規格未列完整室內外機運轉音"
+      "220V 專用迴路、排水與室外機空間仍須先場勘",
+      "PChome 基本安裝只含 5m 配管，架台、鑽孔、排水器與高空施工另計",
+      "官方產品頁室外機規格列曾出現 AE-28VAMH 字樣；本筆以官方說明書封面與通路 exact pair 的 AE-28ZAMH 為準"
     ],
-    "bestFor": "小房間或書房，且能先確認 220V 專用迴路、排水、室外機位置與配管路徑的台灣住宅",
-    "recommendation": "冷暖推薦：完整組價與安裝邊界清楚；實際能力仍應由合格空調技師依熱負載場勘。",
+    "bestFor": "5 坪內臥室或書房，想要冷暖、AIoT、人體感知與空氣機能，並能先確認 220V 專用迴路與基本安裝外加價的台灣住宅。",
+    "recommendation": "小坪數冷暖品牌補足推薦：在固定 30 組與 heat_cool／small 配額不變下，增加 SHARP 的 AIoT、人體感知與 Plasmacluster 差異。",
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-20",
+      "note": "已查 PChome exact indoor／outdoor pair 現售頁、BigGo 與 FindPrice 價格入口；未取得可公開重現、帶日期且涵蓋完整室內外機與相同基本安裝範圍的可信新品史低，未以現價推定。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Reddit",
-          "query": "site:reddit.com \"LG LSN28DDHS / LSU28DHS\" (problem OR issue OR defect OR failure)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20LSN28DDHS%20%2F%20LSU28DHS%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "query": "site:reddit.com \"SHARP AY-28ZAMH-W / AE-28ZAMH\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SHARP%20AY-28ZAMH-W%20%2F%20AE-28ZAMH%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
           "targetHost": "reddit.com"
         },
         {
           "platform": "Mobile01",
-          "query": "site:mobile01.com \"LG LSN28DDHS / LSU28DHS\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20LSN28DDHS%20%2F%20LSU28DHS%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "query": "site:mobile01.com \"SHARP AY-28ZAMH-W / AE-28ZAMH\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SHARP%20AY-28ZAMH-W%20%2F%20AE-28ZAMH%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "PTT",
-          "query": "site:ptt.cc \"LG LSN28DDHS / LSU28DHS\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22LG%20LSN28DDHS%20%2F%20LSU28DHS%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "query": "site:ptt.cc \"SHARP AY-28ZAMH-W / AE-28ZAMH\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22SHARP%20AY-28ZAMH-W%20%2F%20AE-28ZAMH%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "ptt.cc"
         },
         {
           "platform": "Dcard",
-          "query": "site:dcard.tw \"LG LSN28DDHS / LSU28DHS\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22LG%20LSN28DDHS%20%2F%20LSU28DHS%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "query": "site:dcard.tw \"SHARP AY-28ZAMH-W / AE-28ZAMH\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22SHARP%20AY-28ZAMH-W%20%2F%20AE-28ZAMH%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "dcard.tw"
         },
         {
           "platform": "YouTube",
-          "query": "\"LG LSN28DDHS / LSU28DHS\" problem issue defect failure broken 災情 故障 異常",
-          "queryUrl": "https://www.youtube.com/results?search_query=%22LG%20LSN28DDHS%20%2F%20LSU28DHS%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "query": "\"SHARP AY-28ZAMH-W / AE-28ZAMH\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22SHARP%20AY-28ZAMH-W%20%2F%20AE-28ZAMH%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
           "targetHost": "youtube.com"
         }
       ]
     },
-    "score": 89,
+    "score": 90,
     "voltage": "單相 220V／60Hz 台灣住宅規格；安裝前須確認專用迴路、線徑、接地與無熔絲開關",
-    "warranty": "LG 台灣公司貨；全機保固 7 年、主機板 7 年、壓縮機 10 年，依保證書與活動條件",
+    "warranty": "SHARP 台灣公司貨；PChome exact-pair 新品頁標示原廠 1 年保固，依保證書與安裝登錄條件",
     "tags": [
       "一對一分離式變頻冷暖",
-      "4坪內",
+      "5坪內",
       "small",
       "R32",
       "一級能效",
+      "AIoT",
       "含基本安裝"
-    ],
-    "historicalLow": {
-      "status": "found",
-      "amount": 23134,
-      "currency": "TWD",
-      "converted": 23134,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1248256281&cgp=23134",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【LG 樂金】3-5坪極淨系列 DUALCOOL WiFi 雙迴轉冷暖變頻2.8kW分離式冷氣空調(LSU28DHS+LSN28DDHS)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【LG 樂金】3-5坪極淨系列 DUALCOOL WiFi 雙迴轉冷暖變頻2.8kW分離式冷氣空調(LSU28DHS+LSN28DDHS)」最低價為 NT$23,134，最低點日期 2026-08-20。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。 史低方案標題未明示安裝是否包含，安裝、耗材與追加施工須另向通路確認。 現行商品資料安裝邊界為「含基本安裝」：玉明公開完整組價含室內外機安裝與銅管、控制線 5 公尺內；鑽孔、室外機架、遮雨棚、排水器、超長配管、樓層與危險施工另計，且僅承作公告服務區。"
-    }
+    ]
   },
   {
     "id": "aircon-lg-lsn50ddhst-lsu50dhst",
@@ -2807,9 +2809,22 @@
     "bestFor": "大臥室或中型客餐廳，且能先確認 220V 專用迴路、排水、室外機位置與配管路徑的台灣住宅",
     "recommendation": "冷暖推薦：完整組價與安裝邊界清楚；實際能力仍應由合格空調技師依熱負載場勘。",
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已查核 BigGo 與 FindPrice 的 exact indoor／outdoor model pair 價格結果；未取得可公開重現且符合新品、完整室內外機組、非會員個人化優惠的歷史最低價。現價與官方建議售價均未冒充史低。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2855,20 +2870,7 @@
       "R32",
       "一級能效",
       "含基本安裝"
-    ],
-    "historicalLow": {
-      "status": "found",
-      "amount": 45125,
-      "currency": "TWD",
-      "converted": 45125,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1273667468&cgp=45125",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【LG 樂金】變頻冷暖分離式冷氣8坪LSN50DDHST-LSU50DHST",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【LG 樂金】變頻冷暖分離式冷氣8坪LSN50DDHST-LSU50DHST」最低價為 NT$45,125，最低點日期 2026-08-20。",
-      "sourceKind": "price_history",
-      "confidence": "medium",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。 史低方案標題未明示安裝是否包含，安裝、耗材與追加施工須另向通路確認。 現行商品資料安裝邊界為「含基本安裝」：玉明公開完整組價含室內外機安裝與銅管、控制線 5 公尺內；鑽孔、室外機架、遮雨棚、排水器、超長配管、樓層與危險施工另計，且僅承作公告服務區。"
-    }
+    ]
   },
   {
     "id": "aircon-lg-lsn72ddhst-lsu72dhst",
@@ -2931,9 +2933,22 @@
     "bestFor": "大客廳、開放式客餐廳或高熱負載空間，且能先確認 220V 專用迴路、排水、室外機位置與配管路徑的台灣住宅",
     "recommendation": "冷暖推薦：完整組價與安裝邊界清楚；實際能力仍應由合格空調技師依熱負載場勘。",
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已查核 BigGo 與 FindPrice 的 exact indoor／outdoor model pair 價格結果；未取得可公開重現且符合新品、完整室內外機組、非會員個人化優惠的歷史最低價。現價與官方建議售價均未冒充史低。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2979,20 +2994,7 @@
       "R32",
       "一級能效",
       "含基本安裝"
-    ],
-    "historicalLow": {
-      "status": "found",
-      "amount": 56810,
-      "currency": "TWD",
-      "converted": 56810,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1274951602&cgp=56810",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(含標準安裝)LG樂金變頻冷暖分離式冷氣11坪LSN72DDHST-LSU72DHST",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / (含標準安裝)LG樂金變頻冷暖分離式冷氣11坪LSN72DDHST-LSU72DHST」最低價為 NT$56,810，最低點日期 2026-08-20。",
-      "sourceKind": "price_history",
-      "confidence": "medium",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。 史低方案標題標示含基本／標準安裝；實際服務區、材料與追加施工仍以通路及現勘為準。 現行商品資料安裝邊界為「含基本安裝」：玉明公開完整組價含室內外機安裝與銅管、控制線 5 公尺內；鑽孔、室外機架、遮雨棚、排水器、超長配管、樓層與危險施工另計，且僅承作公告服務區。"
-    }
+    ]
   },
   {
     "id": "aircon-general-ascg022kmtc-aocg022kmtc",
@@ -3070,7 +3072,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3195,7 +3197,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3320,7 +3322,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3429,7 +3431,7 @@
     ],
     "bestFor": "小房間或書房，且能先確認 220V 專用迴路、排水、室外機位置與配管路徑的台灣住宅",
     "recommendation": "冷專推薦：完整組價與安裝邊界清楚；實際能力仍應由合格空調技師依熱負載場勘。",
-    "releaseDate": "2024-06-01",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -3445,7 +3447,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3553,7 +3555,7 @@
     ],
     "bestFor": "大客廳、開放式客餐廳或高熱負載空間，且能先確認 220V 專用迴路、排水、室外機位置與配管路徑的台灣住宅",
     "recommendation": "冷專推薦：完整組價與安裝邊界清楚；實際能力仍應由合格空調技師依熱負載場勘。",
-    "releaseDate": "2024-06-01",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -3569,7 +3571,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3677,7 +3679,7 @@
     ],
     "bestFor": "大客廳、開放式客餐廳或高熱負載空間，且能先確認 220V 專用迴路、排水、室外機位置與配管路徑的台灣住宅",
     "recommendation": "冷專推薦：完整組價與安裝邊界清楚；實際能力仍應由合格空調技師依熱負載場勘。",
-    "releaseDate": "2024-06-01",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -3693,7 +3695,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [

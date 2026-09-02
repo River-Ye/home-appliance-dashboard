@@ -17,7 +17,7 @@
       "currency": "TWD",
       "amount": 9143,
       "converted": 9143,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -54,9 +54,22 @@
     ],
     "category": "dryer",
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Panasonic NH-80RZ-W: Momo富邦購物 【Panasonic 國際牌】8公斤電子式乾衣機-釉光白(NH-80RZ-W) 型號/規格不相符；LBJ Panasonic NH-80RZ-W: Momo富邦購物 【Panasonic 國際牌】8公斤電子式乾衣機 (NH-80RZ-W) 型號/規格不相符；LBJ Panasonic NH-80RZ-W: Momo富邦購物 【Panasonic 國際牌】家電快配★8公斤乾衣機-釉光白(NH-80RZ-W) 型號/規格不相符。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -91,19 +104,6 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 9143,
-      "currency": "TWD",
-      "converted": 9143,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=632886332&cgp=9351",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Panasonic國際8KG電子式乾衣機NH-80RZ-W_含配送+安裝(預購)【愛買】",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - 愛買線上購物 / Panasonic國際8KG電子式乾衣機NH-80RZ-W_含配送+安裝(預購)【愛買】」最低價為 NT$9,143，最低點日期 2026-06-07。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -171,7 +171,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -258,9 +258,22 @@
     ],
     "category": "dryer",
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Whirlpool 8TWGD5010PW: 誠品線上 【Whirlpool 惠而浦】12公斤 快烘瓦斯型乾衣機_典雅白 8TWGD5010PW 型號/規格不相符；LBJ Whirlpool 8TWGD5010PW: 生活市集 【生活市集】【Whirlpool 惠而浦】8TWGD5010PW 12公斤瓦斯型下拉門烘衣機 型號/規格不相符；LBJ Whirlpool 8TWGD5010PW: 樂天市場 - 簡單生活館 簡單生活館 【Whirlpool 惠而浦】12公斤快烘瓦斯型乾衣機 8TWGD5010PW (含標準安裝/舊機回收) 型號/規格不相符。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -295,19 +308,6 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 20740,
-      "currency": "TWD",
-      "converted": 20740,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1273072123&cgp=22620",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【Whirlpool 惠而浦】8TWGD5010PW 12KG 快烘瓦斯型下拉門烘衣機(含基本安裝)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【Whirlpool 惠而浦】8TWGD5010PW 12KG 快烘瓦斯型下拉門烘衣機(含基本安裝)」最低價為 NT$20,740，最低點日期 2026-05-20。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -375,7 +375,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -477,7 +477,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -524,9 +524,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/1178FF80D6-SP-21903027.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 31865,
-      "converted": 31865,
-      "confidence": "Yahoo購物中心 2026-08-19 exact-model 公開結構化價格"
+      "amount": 32850,
+      "converted": 32850,
+      "confidence": "Yahoo購物中心 2026-09-01 exact-model 公開結構化價格",
+      "basis": "retailer_current",
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -579,7 +580,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -626,9 +627,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/2618755F67-Product-24570513.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 6621,
-      "converted": 6621,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 7120,
+      "converted": 7120,
+      "confidence": "PChome 2026-08-28 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -680,7 +681,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -781,7 +782,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -882,7 +883,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -983,7 +984,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1085,7 +1086,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1186,7 +1187,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1288,7 +1289,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1390,7 +1391,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1491,7 +1492,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1593,7 +1594,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1640,9 +1641,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/C0FA586EC4-SP-18495887.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 7990,
-      "converted": 7990,
-      "confidence": "Yahoo購物中心 2026-08-01 exact-model 公開結構化價格"
+      "amount": 7591,
+      "converted": 7591,
+      "confidence": "Yahoo購物中心 2026-08-26 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1694,7 +1695,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1795,7 +1796,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1844,7 +1845,7 @@
       "currency": "TWD",
       "amount": 36900,
       "converted": 36900,
-      "confidence": "Yahoo購物中心 2026-08-19 exact-model 公開結構化價格"
+      "confidence": "Yahoo購物中心 2026-09-01 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1897,7 +1898,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1999,7 +2000,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2096,7 +2097,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2197,7 +2198,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2290,9 +2291,22 @@
       "110V"
     ],
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已查台灣林內官方、PChome 與 exact-model 價格搜尋；論壇中的推估價與含不同安裝範圍報價不可直接比較，故不推定史低。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2327,19 +2341,97 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 35020,
+    }
+  },
+  {
+    "id": "dryer-lg-wr-20dw",
+    "category": "dryer",
+    "rank": 24,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "LG",
+    "model": "WR-20DW",
+    "name": "20kg AI Heat Pump 免曬衣乾衣機",
+    "price": {
       "currency": "TWD",
-      "converted": 35020,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1107025562&cgp=40788",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【林內Rinnai】RDT-90-TR-W - 瓦斯乾衣機 - 9kg容量 - 僅北北基含基本安裝",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「東森購物 / 【林內Rinnai】RDT-90-TR-W - 瓦斯乾衣機 - 9kg容量 - 僅北北基含基本安裝」最低價為 NT$35,020，最低點日期 2025-06-02。",
-      "sourceKind": "price_history",
-      "confidence": "high",
+      "amount": 42900,
+      "converted": 42900,
+      "confidence": "PChome 24h 2026-08-20 exact-model SKU API 公開價 NT$42,900，Qty 6",
+      "basis": "retailer_current"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DPAI1LA900HQ772/000001_1762826049.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900HQ772",
+    "buyLabel": "PChome 24h購物",
+    "installation": {
+      "status": "included_basic",
+      "note": "PChome 大型家電服務包含運送與定位；本機為 110V Heat Pump 冷凝式，可手動倒水箱而不必固定排水。疊放、無電梯樓層、特殊搬運、另接排水與現場改電仍可能加價。"
+    },
+    "specs": [
+      "乾衣容量 20kg；Heat Pump 冷凝式",
+      "AI Dry、6 Motion、5 段乾燥程度與 99.9% 抑菌除蟎行程",
+      "雙層細緻濾網、自動洗淨冷凝器、ThinQ Wi-Fi",
+      "尺寸：寬 70 x 深 82 x 高 99 cm",
+      "本體重量 75kg；開門後總深度約 134cm",
+      "110V 插電；無瓦斯、排風與明火需求，可使用水箱免固定排水"
+    ],
+    "description": "LG WR-20DW 是 20kg 大容量 Heat Pump 乾衣機，以 110V、AI Dry 與免固定排水補強高容量獨立乾衣帶。",
+    "pros": [
+      "20kg 容量適合大家庭、寢具與大量衣物",
+      "Heat Pump 低溫乾衣、AI Dry 與自動洗淨冷凝器功能完整",
+      "110V 且可倒水箱，不需瓦斯、排風或固定排水"
+    ],
+    "cons": [
+      "82cm 深、開門後約 134cm，洗衣陽台需先量搬運與操作空間",
+      "75kg 搬運與疊放應由專業人員處理",
+      "20kg 大容量採水箱時需定期倒水與清潔濾網，疊放另須核對相容套件"
+    ],
+    "bestFor": "需要 20kg 大容量獨立乾衣、偏好 110V Heat Pump 且現場不便接瓦斯或固定排水的家庭。",
+    "recommendation": "LG 大容量補強：安裝門檻低於瓦斯機，但機身深度、開門空間、疊放相容性與水箱清理仍要先確認。",
+    "score": 90,
+    "voltage": "110V 台灣公司貨；需獨立接地插座並依現場決定水箱或排水管方式",
+    "warranty": "LG 台灣公司貨；通路明列全機 1 年，其他零組件延長保固依 LG 原廠當期條款",
+    "tags": [
+      "20kg",
+      "Heat Pump",
+      "110V",
+      "AI Dry",
+      "ThinQ",
+      "免固定排水"
+    ],
+    "releaseDate": "2024-09-12",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
       "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "note": "已查 LG 台灣官方、PChome exact-model SKU API 與價格搜尋；只能確認本輪 NT$42,900 新品現價，未找到具日期且可重現的可信新品史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-29",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"LG WR-20DW\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20WR-20DW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"LG WR-20DW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20WR-20DW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        }
+      ]
     }
   }
 ]);

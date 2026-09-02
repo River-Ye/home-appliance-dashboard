@@ -1,17 +1,20 @@
 const fs = require("fs");
 const path = require("path");
 const { readDashboardProducts } = require("./read-dashboard-products");
+const { exactModelMatch, exactProductModelMatch } = require("./catalog-maintenance-policy");
 
 const ARGS = parseArgs();
 const REQUESTED_DATE = ARGS.date || process.env.HISTORICAL_LOW_DATE;
 const CHECKED_AT = REQUESTED_DATE
   || new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Taipei" }).format(new Date());
+const AGENT_VERIFIED_CHECKED_AT = "2026-07-11";
 const CONCURRENCY = Number(process.env.HISTORICAL_LOW_CONCURRENCY || 6);
 const QUERY_LIMIT = Number(process.env.HISTORICAL_LOW_QUERY_LIMIT || 2);
 const HISTORY_LIMIT_PER_SOURCE = Number(process.env.HISTORICAL_LOW_HISTORY_LIMIT || 3);
 const FETCH_TIMEOUT_MS = Number(process.env.HISTORICAL_LOW_FETCH_TIMEOUT_MS || 12000);
 const BIGGO_SEARCH_ORIGIN = "https://biggo.com.tw";
 const BIGGO_API_ORIGIN = "https://biggo.com.tw/api/v1/spa";
+let catalogProducts = null;
 
 if (!/^\d{4}-\d{2}-\d{2}$/.test(CHECKED_AT)) {
   throw new Error("Historical-low date must use YYYY-MM-DD");
@@ -42,7 +45,7 @@ const agentVerifiedHistoricalLows = new Map([
       evidenceSnippet: "LBJ price_data contains 2026-03-03 at NT$20,999 for the exact-match Yahoo購物中心 product.",
       sourceKind: "price_history",
       confidence: "high",
-      checkedAt: CHECKED_AT,
+      checkedAt: AGENT_VERIFIED_CHECKED_AT,
       note: "已由 worker 查核 BigGo、FindPrice、LBJ、Yahoo 與 PChome；採 LBJ Yahoo購物中心 exact-match 商品歷史低點 2026-03-03 NT$20,999。排除會員券、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。",
     },
     checkedSources: [
@@ -69,7 +72,7 @@ const agentVerifiedHistoricalLows = new Map([
       evidenceSnippet: "LBJ pid=1260248195 price_data shows NT$1,860 on 2025-07-09, 2025-09-17, and 2025-09-24.",
       sourceKind: "price_history",
       confidence: "high",
-      checkedAt: CHECKED_AT,
+      checkedAt: AGENT_VERIFIED_CHECKED_AT,
       note: "已由 worker 查核 BigGo、FindPrice、LBJ 與 Xiaomi 官方規格；採 LBJ Yahoo 官方旗艦館歷史最低 NT$1,860。低於此價的福利品、二手、再生工場或非 MJPBJ01DEMTW 候選均排除。",
     },
     checkedSources: [
@@ -96,7 +99,7 @@ const agentVerifiedHistoricalLows = new Map([
       evidenceSnippet: "BigGo displayed the same PChome item at NT$12,999 with a NT$1,125 increase, and the same search snapshot showed NT$11,874.",
       sourceKind: "price_history",
       confidence: "medium",
-      checkedAt: CHECKED_AT,
+      checkedAt: AGENT_VERIFIED_CHECKED_AT,
       note: "已由 worker 查核 BigGo、FindPrice、LBJ 與 PChome；採 BigGo 對同一 PChome 商品追蹤到的前低 NT$11,874。低價訂金、詢價、不同型號或無法確認新品官方保固候選均排除。",
     },
     checkedSources: [
@@ -122,7 +125,7 @@ const agentVerifiedHistoricalLows = new Map([
       evidenceSnippet: "LBJ history for the Xiaomi Taiwan official two-pack contains 2026-06-19 at NT$1,839.",
       sourceKind: "price_history",
       confidence: "medium",
-      checkedAt: CHECKED_AT,
+      checkedAt: AGENT_VERIFIED_CHECKED_AT,
       note: "已由 worker 查核 BigGo、FindPrice、LBJ 與 PChome/小米官方；採 LBJ 小米台灣官方同款兩件裝 2026-06-19 NT$1,839。低於此價的不同型號、單件裝、福利品、二手或個人賣場候選均排除。",
     },
     checkedSources: [
@@ -149,7 +152,7 @@ const agentVerifiedHistoricalLows = new Map([
       evidenceSnippet: "LBJ PChome history shows NT$1,095 on 2025-07-09, 2024-08-05, and 2024-07-09 for the one-pack.",
       sourceKind: "price_history",
       confidence: "high",
-      checkedAt: CHECKED_AT,
+      checkedAt: AGENT_VERIFIED_CHECKED_AT,
       note: "已由 worker 查核 PChome、LBJ、BigGo 與 FindPrice；採 LBJ PChome 同品一件裝歷史低點 NT$1,095。低於此價的福利品、二手、已下架、非 AX3000 Mesh 一件裝或拍賣非官方來源均排除。",
     },
     checkedSources: [
@@ -175,7 +178,7 @@ const agentVerifiedHistoricalLows = new Map([
       evidenceSnippet: "LBJ PChome history shows NT$3,499 on 2026-01-09 and 2026-01-17 for Xiaomi A27Qi 2026.",
       sourceKind: "price_history",
       confidence: "high",
-      checkedAt: CHECKED_AT,
+      checkedAt: AGENT_VERIFIED_CHECKED_AT,
       note: "已由 worker 查核 LBJ、BigGo 與 FindPrice；採 LBJ PChome 同型號歷史低點 NT$3,499。低於此價的福利品、拍賣混列或非可信新品通路候選均排除。",
     },
     checkedSources: [
@@ -262,23 +265,38 @@ function modelTokens(product) {
   return unique(tokens).slice(0, 10);
 }
 
+function candidateMatchesKnownSibling(product, title) {
+  if (!product.id) return false;
+  if (!catalogProducts) catalogProducts = readDashboardProducts().products;
+  const targetLength = compactCode(product.model).length;
+  return catalogProducts.some((sibling) => sibling.id !== product.id
+    && sibling.category === product.category
+    && normalize(sibling.brand) === normalize(product.brand)
+    && compactCode(sibling.model).length >= targetLength
+    && exactProductModelMatch(title, sibling));
+}
+
 function candidateMatchesExactModel(product, title) {
   const model = String(product.model || "").trim();
-  const candidate = compactCode(title);
-  const fullModel = compactCode(model);
-  if (/適用(?:於)?/i.test(title) && /濾[芯心]|配件|耗材/i.test(title)) return false;
+  const candidateTitle = String(title || "").normalize("NFKC");
+  const boundaryTitle = candidateTitle
+    .replace(/(\p{Script=Han})(?=[a-z0-9])/giu, "$1 ")
+    .replace(/([a-z0-9])(?=\p{Script=Han})/giu, "$1 ");
+  if (candidateMatchesKnownSibling(product, boundaryTitle)) return false;
+  if (/適用(?:於)?/i.test(candidateTitle) && /濾[芯心]|配件|耗材/i.test(candidateTitle)) return false;
   const normalizedModel = normalize(model);
-  if (/^[a-z][a-z0-9]*$/i.test(normalizedModel)) {
+  if (/^[a-z]+$/i.test(normalizedModel)) {
     const escapedModel = normalizedModel.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-    const suffixedVariant = new RegExp(`(?:^|\\s)${escapedModel}\\s+(?:x|pro|max|plus|lite|ultra|v\\d+)(?=\\s|\\p{Letter})`, "iu");
-    if (suffixedVariant.test(normalize(title))) return false;
+    const suffixedVariant = new RegExp(`(?:^|\\s)${escapedModel}\\s+(?:x|pro|max|plus|lite|ultra|v\\d+)(?=$|[^\\p{Letter}\\p{Number}])`, "iu");
+    if (suffixedVariant.test(normalize(boundaryTitle))) return false;
   }
 
-  const targetPackCounts = [...`${model} ${product.name || ""} ${(product.specs || []).join(" ")}`.matchAll(/(\d+)\s*(?:入|件)(?:組)?/g)]
+  const targetPackCounts = [...`${model} ${product.name || ""}`.matchAll(/(\d+)\s*(?:入|件)(?:組)?/g)]
     .map((match) => match[1]);
-  const candidatePackCounts = [...String(title || "").matchAll(/(\d+)\s*(?:入|件)(?:組)?/g)]
+  const candidatePackCounts = [...candidateTitle.matchAll(/(\d+)\s*(?:入|件)(?:組)?/g)]
     .map((match) => match[1]);
-  if (candidatePackCounts.some((count) => !targetPackCounts.includes(count))) return false;
+  if (targetPackCounts.some((count) => !candidatePackCounts.includes(count))
+      || candidatePackCounts.some((count) => !targetPackCounts.includes(count))) return false;
 
   const variantValues = (value) => [...String(value || "").matchAll(/(\d+(?:\.\d+)?)\s*(吋|型|kg(?![a-z])|公斤|l(?![a-z])|公升|cm(?![a-z])|mm(?![a-z]))/gi)]
     .map((match) => ({
@@ -289,22 +307,47 @@ function candidateMatchesExactModel(product, title) {
             : match[2].toLowerCase(),
     }));
   const targetVariants = variantValues(`${model} ${product.name || ""}`);
-  const candidateVariants = variantValues(title);
-  for (const target of targetVariants) {
-    const comparable = candidateVariants.filter((variant) => variant.unit === target.unit);
-    if (comparable.length && !comparable.some((variant) => variant.value === target.value)) return false;
+  const candidateVariants = variantValues(candidateTitle);
+  for (const unit of unique(targetVariants.map((variant) => variant.unit))) {
+    const targetValues = unique(targetVariants.filter((variant) => variant.unit === unit).map((variant) => variant.value));
+    const candidateValues = unique(candidateVariants.filter((variant) => variant.unit === unit).map((variant) => variant.value));
+    if (candidateValues.length
+        && (targetValues.some((value) => !candidateValues.includes(value))
+          || candidateValues.some((value) => !targetValues.includes(value)))) return false;
   }
+  const dimensionPairs = (value) => [...String(value || "").matchAll(/(\d+(?:\.\d+)?)\s*[x×]\s*(\d+(?:\.\d+)?)/gi)]
+    .map((match) => `${match[1]}x${match[2]}`);
+  const targetDimensions = dimensionPairs(model);
+  const candidateDimensions = dimensionPairs(candidateTitle);
+  if (targetDimensions.length
+      && (targetDimensions.some((dimensions) => !candidateDimensions.includes(dimensions))
+        || candidateDimensions.some((dimensions) => !targetDimensions.includes(dimensions)))) return false;
 
-  if (!weakModelPattern.test(model) && fullModel.length >= 4 && candidate.includes(fullModel)) return true;
+  if (!weakModelPattern.test(model) && compactCode(model).length >= 3 && exactProductModelMatch(boundaryTitle, product)) return true;
 
-  const codes = unique([...model.matchAll(/[A-Z][A-Z0-9]*(?:[-/][A-Z0-9]+)+|[A-Z][A-Z0-9]*\d[A-Z0-9]*/gi)]
-    .map((match) => compactCode(match[0]))
-    .filter((token) => token.length >= 2));
-  if (!codes.length || !codes.every((token) => candidate.includes(token))) return false;
-
+  const modelParts = normalize(model).split(" ").filter(Boolean);
+  const codes = unique(modelParts
+    .filter((token) => (/[a-z]/i.test(token) && /\d/.test(token)) || /^\d{2,}$/.test(token))
+    .filter((token) => !targetDimensions.some((dimensions) => token.startsWith(dimensions))));
+  const familyTokens = modelParts.filter((token) => /^\p{Letter}+$/u.test(token));
   const variants = unique([...model.matchAll(/(?:^|\s)(\d{2,4}(?:\.\d+)?)(?=\s|$|吋|型|gb|tb|kg|l)/gi)]
-    .map((match) => compactCode(match[1])));
-  return variants.every((token) => candidate.includes(token));
+    .map((match) => match[1]));
+  if (!codes.length) return false;
+  const strictIdentityMatch = (value) => {
+    const pattern = normalize(value).split(" ")
+      .map((token) => token.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))
+      .join("[\\s\\p{P}\\p{S}_]*");
+    return Boolean(pattern) && new RegExp(`(?:^|[^\\p{L}\\p{N}])${pattern}(?=$|[^\\p{L}\\p{N}])`, "iu").test(boundaryTitle);
+  };
+  if (!codes.every(strictIdentityMatch)
+      || familyTokens.length && !strictIdentityMatch(familyTokens.join(" "))) {
+    const candidate = compactCode(candidateTitle);
+    if (!variants.length
+        || !familyTokens.length
+        || !familyTokens.every((token) => candidate.includes(token))
+        || !codes.every((token) => new RegExp(`${compactCode(token)}(?!\\d)`, "i").test(candidate))) return false;
+  }
+  return variants.every((token) => new RegExp(`(?:^|\\D)${token.replace(".", "\\.")}(?=\\D|$)`).test(candidateTitle));
 }
 
 function policyCompliantHistoricalAmount(product, amount) {
@@ -873,6 +916,7 @@ function writeNotFoundAudit(root, products, results) {
 async function main() {
   const root = path.resolve(__dirname, "..");
   const { categories, products, exchange } = readDashboardProducts(root);
+  catalogProducts = products;
   const selectedProducts = products
     .filter((product) => !ARGS.auditNotFound || product.historicalLow?.status === "not_found")
     .filter((product) => !ARGS.ids || ARGS.ids.has(product.id))
@@ -968,17 +1012,65 @@ async function main() {
 
 function runSelfCheck() {
   const assert = require("assert");
+  catalogProducts = readDashboardProducts().products;
+  assert([...agentVerifiedHistoricalLows.values()]
+    .every(({ historicalLow }) => historicalLow.checkedAt === AGENT_VERIFIED_CHECKED_AT));
   assert.strictEqual(priceNumber("12,230"), 12230);
   assert.strictEqual(priceNumber("12,230-35,633"), null);
   assert(candidateMatchesExactModel({ model: "HW-Q990F" }, "Samsung HW-Q990F Soundbar"));
   assert(!candidateMatchesExactModel({ model: "HW-Q990F" }, "Samsung HW-Q990D Soundbar"));
+  assert(!candidateMatchesExactModel({ model: "G-11" }, "Panasonic G-110 smart lock"));
+  assert(!candidateMatchesExactModel({ model: "HW-Q990F" }, "Samsung HW-Q990F2 Soundbar"));
+  assert(!candidateMatchesExactModel({ model: "RT-BE58U V2" }, "ASUS RT-BE58U V20 router"));
+  assert(!candidateMatchesExactModel({ model: "BAR 1300MK2" }, "JBL BAR 500 MK2 soundbar"));
+  assert(!candidateMatchesExactModel({ model: "G502 X LIGHTSPEED" }, "Logitech G502 HERO mouse"));
+  assert(!candidateMatchesExactModel({ model: "U6 Pro" }, "UniFi U6+ access point"));
+  assert(candidateMatchesExactModel({ model: "PV32GL" }, "PV32GL Xiaomi 空氣清淨機"));
+  assert(candidateMatchesExactModel({ model: "BN701" }, "BN701 Professional 人體工學椅"));
+  assert(candidateMatchesExactModel({ model: "KBKCV6MR1" }, "KBKCV6MR1 V6 Max 鍵盤"));
+  assert(!candidateMatchesExactModel({ model: "RZ01-05240100-R3A1" }, "Razer RZ01-05330100-R3A1 mouse"));
+  assert(!candidateMatchesExactModel({ model: "C3-430" }, "C3-150 cookware"));
+  assert(!candidateMatchesExactModel({ model: "CAHP-1.5DT-80" }, "CAHP-1.5DT-120 heat pump"));
+  assert(!candidateMatchesExactModel({ model: "LS-104-M1" }, "LS-129-M1 monitor light"));
+  for (const [category, model, siblingTitle] of [
+    ["robot", "Saros 20 水立方", "Roborock Saros 20 Sonic 掃拖機器人"],
+    ["robot", "DEEBOT X11 PRO", "ECOVACS DEEBOT X11 PRO 上下水款"],
+    ["wifi", "U7 Pro", "UniFi U7 Pro Max"],
+    ["blender", "VITA PREP", "Vitamix VITA PREP 3"],
+    ["monitor-light", "ScreenBar", "BenQ ScreenBar Halo 2"],
+    ["circulator", "PCF-SC15T", "IRIS PCF-SC15T-CT"],
+    ["network-switch", "TL-SG108", "TP-Link TL-SG108-M2"],
+  ]) {
+    const product = catalogProducts.find((item) => item.category === category && item.model === model);
+    assert(product && !candidateMatchesExactModel(product, siblingTitle));
+  }
+  assert(candidateMatchesExactModel({ model: "Mara X PL62X V2" }, "【LELIT】MARAX 半自動義式咖啡機-PL62X V2(家用110V)"));
+  assert(!candidateMatchesExactModel({ model: "Mara X PL62X V2" }, "【LELIT】MARAX 半自動義式咖啡機-PL62X V20"));
+  assert(!candidateMatchesExactModel({ model: "Mara X PL62X V2" }, "【LELIT】MARAX 半自動義式咖啡機-PL62XA V2"));
+  assert(!candidateMatchesExactModel({ model: "Mara X PL62X V2" }, "【LELIT】MARAX 半自動義式咖啡機-PL62XPRO V2"));
+  assert(candidateMatchesExactModel({ model: "D01-SL-DX 160x80" }, "irocks D01-SL-DX 電動升降桌 160x80 公分"));
+  assert(!candidateMatchesExactModel({ model: "D01-SL-DX 160x80" }, "irocks D01-SL-DX 電動升降桌 140x70 公分"));
+  assert(!candidateMatchesExactModel({ model: "D01-SL-DX 160x80" }, "irocks D01-SL-DX 電動升降桌 160x80 / 140x70 公分"));
+  assert(candidateMatchesExactModel({
+    category: "aircon",
+    model: "RAS-22NTB / RAC-22NP",
+    modelPair: { indoor: "RAS-22NTB", outdoor: "RAC-22NP" },
+  }, "HITACHI RAC-22NP/RAS-22NTB 一對一冷暖空調"));
+  assert(candidateMatchesExactModel({ model: "TS-27GF40CTK", name: "27 吋 4K 電競螢幕" }, "Panasonic TS-27GF40CTK 電競螢幕"));
   assert(candidateMatchesExactModel({ model: "OLED C4 77" }, "LG OLED77C4PVA 77 吋電視"));
   assert(!candidateMatchesExactModel({ model: "OLED C4 77" }, "LG OLED65C4PVA 65 吋電視"));
+  assert(!candidateMatchesExactModel({ model: "OLED C4 77", name: "77 吋電視" }, "LG OLED77C4PVA 77吋/65吋電視"));
   assert(!candidateMatchesExactModel({ model: "Enki", name: "Enki 電競椅" }, "Razer Enki X 人體工學電競椅"));
   assert(candidateMatchesExactModel({ model: "Halo H25BE 2入", name: "二入組" }, "Halo H25BE Mesh 路由器 2入組"));
+  assert(!candidateMatchesExactModel({ model: "Halo H25BE 2入", name: "二入組" }, "Halo H25BE Mesh 路由器"));
   assert(!candidateMatchesExactModel({ model: "Halo H25BE 2入", name: "二入組" }, "Halo H25BE Mesh 路由器 2入/3入"));
+  assert(candidateMatchesExactModel({ model: "DF90H24R5C", name: "AirDresser", specs: ["容量：9件；衣架：3件"] }, "Samsung DF90H24R5C AirDresser"));
   assert(!candidateMatchesExactModel({ model: "Gourmet 17cm", name: "17cm 三德刀" }, "GOURMET 17cm 三德刀 3件組"));
   assert(candidateMatchesExactModel({ model: "SJ-DF58G-BK", name: "575 公升四門冰箱" }, "SHARP SJ-DF58G-BK 575L 四門冰箱"));
+  assert(!candidateMatchesExactModel({ model: "SJ-DF58G-BK", name: "575 公升四門冰箱" }, "SHARP SJ-DF58G-BK 575L/583L 四門冰箱"));
+  assert(candidateMatchesExactModel({ model: "G-11" }, "Panasonic 國際牌 G-11指紋密碼電子鎖"));
+  assert(candidateMatchesExactModel({ model: "SJ-DF58G-BK" }, "四門冰箱SJ-DF58G-BK ★公司貨"));
+  assert(candidateMatchesExactModel({ model: "70PQT8159" }, "Philips 智慧顯示器70PQT8159"));
   assert(!candidateMatchesExactModel({ model: "SJ-DF58G-BK", name: "575 公升四門冰箱" }, "SHARP SJ-DF58G-BK 583 公升雙門冰箱"));
   assert(candidateMatchesExactModel({ model: "JSQ25-13E3 LPG", name: "13L 熱水器" }, "Haier 13L 熱水器 JSQ25-13E3(LPG/FE式)"));
   assert(!candidateMatchesExactModel({ model: "AUT7005", name: "RO 淨水器" }, "AUT821 RO濾芯 適用於 AUT7005"));

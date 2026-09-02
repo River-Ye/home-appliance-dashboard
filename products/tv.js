@@ -17,9 +17,9 @@
     "name": "65 型 OLED evo C5 4K 智慧顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 52900,
-      "converted": 52900,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 49900,
+      "converted": 49900,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADYE1900JG394/000001_1762971547.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADYE-A900JC4MY",
@@ -52,10 +52,23 @@
       "遊戲",
       "電影"
     ],
-    "releaseDate": "2025-03-11",
+    "releaseDate": "2025",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-11",
+      "note": "未找到台灣型號 OLED65C5PTA 可公開驗證的可信新品史低；已排除 Amazon 美國版 65 吋 C5，因區域 SKU 並非完全相同型號。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -90,19 +103,6 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 48626,
-      "currency": "TWD",
-      "converted": 48626,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1270239534&cgp=49618",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：LG 樂金 65吋 OLED evo AI 4K 智慧顯示器 OLED65C5PTA(含基本安裝)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / LG 樂金 65吋 OLED evo AI 4K 智慧顯示器 OLED65C5PTA(含基本安裝)」最低價為 NT$48,626，最低點日期 2026-08-16。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -116,9 +116,9 @@
     "name": "65 型 S90F OLED 4K 智慧顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 50900,
-      "converted": 50900,
-      "confidence": "PChome 2026-08-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 46900,
+      "converted": 46900,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADEW1900K4WRT/000001_1782056882.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADEW-A900IUE7F",
@@ -151,10 +151,23 @@
       "CP 值",
       "遊戲"
     ],
-    "releaseDate": "2025",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-11",
+      "note": "未找到台灣型號 QA65S90FAEXZW 可公開驗證的可信新品史低；已排除 Amazon 美國版 S90F，因來源只證明同系列 65 吋而非完全相同區域 SKU。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -189,19 +202,6 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 47900,
-      "currency": "TWD",
-      "converted": 47900,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1250744439&cgp=50900",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Samsung 三星】65型 4K 144Hz OLED AI智慧顯示器 65S90F 壁掛安裝(QA65S90FAEXZW)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Samsung 三星】65型 4K 144Hz OLED AI智慧顯示器 65S90F 壁掛安裝(QA65S90FAEXZW)」最低價為 NT$47,900，最低點日期 2026-04-10。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -215,9 +215,9 @@
     "name": "BRAVIA 7 65 型 Mini LED 4K Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 56900,
-      "converted": 56900,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 53910,
+      "converted": 53910,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADFNA900K7VQ8/000001_1784011502.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADFN-A900K7VQ8",
@@ -266,7 +266,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -366,7 +366,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -416,7 +416,7 @@
       "currency": "TWD",
       "amount": 108323,
       "converted": 108323,
-      "confidence": "Yahoo購物中心 2026-08-15 exact-model 公開結構化價格"
+      "confidence": "Yahoo購物中心 2026-09-02 exact-model 公開結構化價格"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/F326F9F0C5-SP-23019953.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E5%90%AB%E6%A8%99%E6%BA%96%E5%AE%89%E8%A3%9D-SONY%E7%B4%A2%E5%B0%BC65%E5%90%8B%E5%90%8BRGB-4K%E9%80%A3%E7%B6%B2%E6%99%BA%E6%85%A7%E9%A1%AF%E7%A4%BA%E5%99%A8Y-65XR90M2-12159450.html",
@@ -467,7 +467,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -567,7 +567,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -650,7 +650,7 @@
       "CP 值",
       "144Hz"
     ],
-    "releaseDate": "2024",
+    "releaseDate": "2024-05",
     "historicalLow": {
       "status": "found",
       "amount": 28159,
@@ -666,7 +666,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-20",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -765,7 +765,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -813,9 +813,9 @@
     "name": "BRAVIA 8 65 型 XR OLED 4K HDR Google TV 顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 93900,
-      "converted": 93900,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 84510,
+      "converted": 84510,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD06A900HLBJO/000001_1776334113.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAD06-A900HLBJO",
@@ -864,7 +864,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -902,105 +902,6 @@
     }
   },
   {
-    "id": "tv-extra-7-dpadye-1900jgoya",
-    "category": "tv",
-    "rank": 10,
-    "budget": "premium",
-    "channel": "tw",
-    "brand": "LG",
-    "model": "OLED65G5PTA",
-    "name": "65 型 OLED evo G5 零間隙藝廊系列 4K 顯示器",
-    "price": {
-      "currency": "TWD",
-      "amount": 71910,
-      "converted": 71910,
-      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
-    },
-    "image": "https://cs-a.ecimg.tw/items/DPADYE1900JGOYA/000001_1778348657.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DPADYE-A900JFBEC",
-    "buyLabel": "PChome",
-    "specs": [
-      "尺寸：不含底座 寬 144.1 x 深 2.43 x 高 82.6 cm；含底座 寬 144.1 x 深 26.3 x 高 86.5–91 cm",
-      "重量：不含底座 22 kg；含底座 26.6 kg",
-      "65 吋 OLED evo",
-      "4K 120Hz",
-      "零間隙藝廊設計",
-      "AI 物聯網智慧顯示器",
-      "手機投影：AirPlay / Chromecast"
-    ],
-    "description": "LG OLED65G5PTA 是電視類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
-    "pros": [
-      "同尺寸規格可直接比價",
-      "台灣通路資訊與圖片完整"
-    ],
-    "cons": [
-      "套組贈品與活動價波動大",
-      "內建音響仍建議另搭 Soundbar"
-    ],
-    "bestFor": "想把綜合推薦之外的同尺寸或同級顯示器一起列入比價的人。",
-    "recommendation": "同類推薦：可用來橫向比較面板技術、刷新率、系統與套組價格。",
-    "score": 86,
-    "voltage": "110V 台灣通路",
-    "warranty": "依 PChome/供應商頁面",
-    "tags": [
-      "OLED",
-      "藝廊",
-      "旗艦"
-    ],
-    "releaseDate": "2025-01",
-    "historicalLow": {
-      "status": "found",
-      "amount": 62521,
-      "currency": "TWD",
-      "converted": 62521,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1250629133&cgp=69618",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：LG樂金 OLED65G5PTA 65 吋 OLED evo AI 4K 智慧顯示器",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / LG樂金 OLED65G5PTA 65 吋 OLED evo AI 4K 智慧顯示器」最低價為 NT$62,521，最低點日期 2026-04-15。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
-    },
-    "issueResearch": {
-      "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
-      "summary": "截至查核日，查無達門檻的集中負評／災情",
-      "issues": [],
-      "checkedSources": [
-        {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"LG OLED65G5PTA\" (problem OR issue OR defect OR failure)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20OLED65G5PTA%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-          "targetHost": "reddit.com"
-        },
-        {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"LG OLED65G5PTA\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20OLED65G5PTA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "mobile01.com"
-        },
-        {
-          "platform": "PTT",
-          "query": "site:ptt.cc \"LG OLED65G5PTA\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22LG%20OLED65G5PTA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "ptt.cc"
-        },
-        {
-          "platform": "Dcard",
-          "query": "site:dcard.tw \"LG OLED65G5PTA\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22LG%20OLED65G5PTA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "dcard.tw"
-        },
-        {
-          "platform": "YouTube",
-          "query": "\"LG OLED65G5PTA\" problem issue defect failure broken 災情 故障 異常",
-          "queryUrl": "https://www.youtube.com/results?search_query=%22LG%20OLED65G5PTA%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
-          "targetHost": "youtube.com"
-        }
-      ]
-    }
-  },
-  {
     "id": "tv-extra-8-dpad09-a900j9faz",
     "category": "tv",
     "rank": 11,
@@ -1013,7 +914,7 @@
       "currency": "TWD",
       "amount": 72072,
       "converted": 72072,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-31 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD09A900J9FAZ/000001_1761888394.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAD09-A900J9FAZ",
@@ -1046,7 +947,7 @@
       "電影",
       "均衡"
     ],
-    "releaseDate": "2025",
+    "releaseDate": "2025-06",
     "historicalLow": {
       "status": "found",
       "amount": 65032,
@@ -1062,7 +963,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1110,9 +1011,9 @@
     "name": "65 型 4K 144Hz VRR OLED Google TV 顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 79900,
-      "converted": 79900,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 69900,
+      "converted": 69900,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADIKA900HJGF2/000001_1782900149.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADIK-A900HJGF2",
@@ -1145,23 +1046,23 @@
       "遊戲",
       "Google TV"
     ],
-    "releaseDate": "2024",
+    "releaseDate": "2024-05",
     "historicalLow": {
       "status": "found",
-      "amount": 74900,
+      "amount": 69900,
       "currency": "TWD",
-      "converted": 74900,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1250838362&cgp=74900",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)飛利浦65吋OLED連網智慧顯示器65OLED809 無安裝",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)飛利浦65吋OLED連網智慧顯示器65OLED809 無安裝」最低價為 NT$74,900，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 69900,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DPADIK-A900HJGF2",
+      "sourceTitle": "PChome 24h 購物：Philips 飛利浦 65型4K 144Hz VRR OLED Google TV智慧聯網顯示器(65OLED809)",
+      "evidenceSnippet": "PChome 24h 購物於 2026-09-02 顯示同型號可信新品公開價 NT$69,900，低於既有史低 NT$74,900。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-09-02",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1244,7 +1145,7 @@
       "高亮度",
       "旗艦"
     ],
-    "releaseDate": "2025-04-10",
+    "releaseDate": "2025-04-09",
     "historicalLow": {
       "status": "found",
       "amount": 79360,
@@ -1260,7 +1161,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1343,7 +1244,7 @@
       "Google TV",
       "客廳"
     ],
-    "releaseDate": "2026-05-05",
+    "releaseDate": "2026-05-13",
     "historicalLow": {
       "status": "found",
       "amount": 52000,
@@ -1359,7 +1260,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1458,7 +1359,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1541,7 +1442,7 @@
       "遊戲",
       "CP 值"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2025-09-26",
     "historicalLow": {
       "status": "found",
       "amount": 20999,
@@ -1557,7 +1458,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1640,7 +1541,7 @@
       "Mini LED",
       "旗艦"
     ],
-    "releaseDate": "2025",
+    "releaseDate": "2025-03-26",
     "historicalLow": {
       "status": "found",
       "amount": 59800,
@@ -1656,7 +1557,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1755,7 +1656,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-20",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1839,9 +1740,22 @@
       "CP 值"
     ],
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-11",
+      "note": "未找到 65U8040 可公開驗證的可信新品史低；原 NT$13,511 候選明確標示特價 B 品，依資料契約排除。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1876,19 +1790,6 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 13999,
-      "currency": "TWD",
-      "converted": 13999,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1265602616&cgp=13999",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：AOC 65型 4K QLED Google TV 雙杜比認證 量子點智慧顯示器 含無線HDMI傳輸器 (65U8040)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / AOC 65型 4K QLED Google TV 雙杜比認證 量子點智慧顯示器 含無線HDMI傳輸器 (65U8040)」最低價為 NT$13,999，最低點日期 2026-08-20。",
-      "sourceKind": "price_history",
-      "confidence": "medium",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1937,7 +1838,7 @@
       "QLED",
       "REGZA"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2024",
     "historicalLow": {
       "status": "found",
       "amount": 17900,
@@ -1953,7 +1854,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2003,7 +1904,7 @@
       "currency": "TWD",
       "amount": 12591,
       "converted": 12591,
-      "confidence": "PChome 2026-08-15 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADTOA900JNE73/000001_1768523868.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADTO-A900JNMOP",
@@ -2052,7 +1953,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2151,7 +2052,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2250,7 +2151,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2298,9 +2199,9 @@
     "name": "Regza 75型 4K QLED 144Hz 全陣列背光智慧顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 39999,
-      "converted": 39999,
-      "confidence": "Costco 好市多 2026-07-13 頁面查核價"
+      "amount": 38299,
+      "converted": 38299,
+      "confidence": "Costco 好市多 2026-09-01 exact-model 公開結構化價格"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/hfe/ha8/438072160518174.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Televisions-TV-Accessories/70-79-TVs/Toshiba-Regza-75-inch-Full-Array-4K-QLED-144Hz-Smart-Monitor-75Z670NT/p/152535",
@@ -2349,7 +2250,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2434,7 +2335,7 @@
       "Google TV",
       "65吋"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2025-05-20",
     "historicalLow": {
       "status": "found",
       "amount": 39900,
@@ -2450,7 +2351,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2551,7 +2452,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2638,9 +2539,22 @@
       "旗艦"
     ],
     "releaseDate": "2026-06-08",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-18",
+      "note": "MRA65R95HAXXZW 於 2026-06-08 在台新上市；查核 exact-model 價格歷史與比價來源僅見 PChome 等可信通路上市現價 NT$106,900，未找到可公開驗證的可信新品歷史最低價。上市現價不得直接推定為史低；FindPrice 的更低候選為一般賣家或附最低購買量等不合規條件，均未採用。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2675,19 +2589,6 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 106900,
-      "currency": "TWD",
-      "converted": 106900,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282776794&cgp=106900",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【Samsung 三星】【贈壁掛安裝服務】65吋 Micro RGB R95H 智慧顯示器 MRA65R95HAXXZW 液晶電視 台灣公司貨",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【Samsung 三星】【贈壁掛安裝服務】65吋 Micro RGB R95H 智慧顯示器 MRA65R95HAXXZW 液晶電視 台灣公司貨」最低價為 NT$106,900，最低點日期 2026-08-20。",
-      "sourceKind": "price_history",
-      "confidence": "medium",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2741,9 +2642,22 @@
       "高CP值"
     ],
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-26",
+      "note": "已查 PChome、BigGo、FindPrice 與 Mobile01 exact-model 資料；NT$16,999 為本次現價，未找到可公開重現且符合可信新品條件的歷史最低價紀錄，未以現價推定史低。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2778,19 +2692,6 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 16999,
-      "currency": "TWD",
-      "converted": 16999,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1259105630&cgp=16999",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【AOC】70型 4K QLED Google TV 智慧顯示器(70U8040)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【AOC】70型 4K QLED Google TV 智慧顯示器(70U8040)」最低價為 NT$16,999，最低點日期 2026-08-20。",
-      "sourceKind": "price_history",
-      "confidence": "medium",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2844,9 +2745,22 @@
       "三年保固"
     ],
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-26",
+      "note": "已查 PChome、BigGo、FindPrice 與 JVC 台灣 exact-model 資料；NT$18,888 為本次現價，未找到可公開重現且符合可信新品條件的歷史最低價紀錄，未以現價或點數回饋推定史低。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2881,19 +2795,6 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 16729,
-      "currency": "TWD",
-      "converted": 16729,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1237926459&cgp=18888",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【JVC】70型 Apple認證AirPlay2 4K HDR 飛輪體感連網液晶顯示器(70TG2)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【JVC】70型 Apple認證AirPlay2 4K HDR 飛輪體感連網液晶顯示器(70TG2)」最低價為 NT$16,729，最低點日期 2025-11-09。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2907,9 +2808,9 @@
     "name": "70 型 4K QLED Google TV 智慧顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 22999,
-      "converted": 22999,
-      "confidence": "PChome 2026-07-26 exact-model API 公開價，庫存 5"
+      "amount": 25999,
+      "converted": 25999,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-b.ecimg.tw/items/DPADIKA900JFCPA/000001_1762407157.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADIK-A900JFCPA",
@@ -2947,9 +2848,22 @@
       "32GB"
     ],
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-26",
+      "note": "已查 PChome、Yahoo、BigGo、FindPrice 與 Philips exact-model 資料；NT$22,999 為本次現價，未找到可公開重現且符合可信新品條件的歷史最低價紀錄，未以現價推定史低。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2984,19 +2898,6 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 21999,
-      "currency": "TWD",
-      "converted": 21999,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1265967186&cgp=24999",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：PHILIPS 飛利浦 70型4K QLED Google TV 智慧顯示器 70PQT8169/96",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / PHILIPS 飛利浦 70型4K QLED Google TV 智慧顯示器 70PQT8169/96」最低價為 NT$21,999，最低點日期 2026-04-10。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -3050,9 +2951,22 @@
       "同價備選"
     ],
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-26",
+      "note": "已查 PChome、Yahoo、BigGo、FindPrice 與 Philips exact-model 資料；NT$22,999 為本次現價，未找到可公開重現且符合可信新品條件的歷史最低價紀錄，未以現價推定史低。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3087,19 +3001,6 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 22999,
-      "currency": "TWD",
-      "converted": 22999,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1275100008&cgp=22999",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：PHILIPS 飛利浦 70型 4K QLED Google TV智慧顯示器70PQT8159",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / PHILIPS 飛利浦 70型 4K QLED Google TV智慧顯示器70PQT8159」最低價為 NT$22,999，最低點日期 2026-08-20。",
-      "sourceKind": "price_history",
-      "confidence": "medium",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -3168,7 +3069,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3270,7 +3171,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-20",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3319,9 +3220,10 @@
     "name": "83 型 OLED evo W6 Wallpaper 4K 智慧顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 299000,
-      "converted": 299000,
-      "confidence": "全聯全電商 2026-08-06 exact-model 結構化資料顯示 NewCondition、InStock 與公開價"
+      "amount": 284050,
+      "converted": 284050,
+      "confidence": "2026-08-31 人工核對 全聯全電商 OLED83W6PTA 公開可購主價 TWD 284,050；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://b2eimg.pxec.com.tw/00475238/d2eafa4e251644ef8089a6092793b798.jpg",
     "buyUrl": "https://pxbox.es.pxmart.com.tw/product/744284",
@@ -3359,9 +3261,22 @@
       "壁掛"
     ],
     "releaseDate": "2026-07-08",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-06",
+      "note": "已查 LG 台灣官方、全聯全電商、BigGo 與 FindPrice exact-model 頁；NT$299,000 只證明本輪公開現價，沒有可重現的可信新品歷史價格曲線或明確最低點日期，因此不以現價推定史低。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3396,20 +3311,310 @@
           "targetHost": "youtube.com"
         }
       ]
+    }
+  },
+  {
+    "id": "tv-sharp-4t-c65hu8500x",
+    "category": "tv",
+    "rank": 35,
+    "topPick": false,
+    "budget": "balanced",
+    "channel": "tw",
+    "brand": "SHARP",
+    "model": "4T-C65HU8500X",
+    "name": "65 型 Xtreme Mini LED 144Hz Google TV 顯示器",
+    "price": {
+      "currency": "TWD",
+      "amount": 42900,
+      "converted": 42900,
+      "confidence": "PChome 24h 於 2026-08-20 的 exact-model 新品頁公開價 NT$42,900，庫存數量為正",
+      "basis": "retailer_current"
     },
+    "installation": {
+      "status": "included_basic",
+      "note": "PChome exact-model 新品頁標示含標準桌上型基本安裝與舊機回收；壁掛架、壁掛施工、特殊牆面、偏遠地區及吊車等另計。"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DPADO2A900JNY07/000001_1778569654.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPADO2-A900JNY07",
+    "buyLabel": "PChome 24h exact-model 台灣公司貨新品",
+    "specs": [
+      "65 吋 4K（3840 x 2160）Xtreme Mini LED",
+      "原生 144Hz；X7 AI 影像處理器與 Deep Chroma QD",
+      "HDR10、HLG、Dolby Vision IQ",
+      "Google TV；手機投影：Google Cast（Chromecast built-in）、Miracast",
+      "HDMI x 4（含 eARC）；喇叭輸出 40W",
+      "尺寸：不含底座 寬 144.78 x 深 6.96 x 高 83.5 cm；含底座 寬 144.78 x 深 33 x 高 89.3 cm",
+      "重量：不含底座 21.3 kg；含底座 26.8 kg",
+      "額定消耗功率：315W"
+    ],
+    "description": "補上 SHARP 在台灣現售的 65 吋 Mini LED 代表款，兼具 144Hz、高階分區背光與 Google TV，讓同尺寸比較不只集中在韓系與中國品牌。",
+    "pros": [
+      "Xtreme Mini LED、量子點廣色域與 144Hz 規格完整",
+      "Google Cast 與 Miracast 都有官方明示，手機投影選擇完整",
+      "台灣官方 exact-model 規格、公司貨活動與新品通路可交叉核對"
+    ],
+    "cons": [
+      "機身含底座 26.8 kg，搬運與壁掛應至少兩人並核對牆體承重",
+      "壁掛架與特殊施工不在標準基本安裝範圍",
+      "本輪未找到可公開重現的可信同型號史低"
+    ],
+    "bestFor": "想在 65 吋級距比較 Mini LED、144Hz 遊戲與 Google TV，並重視台灣公司貨安裝售後的客廳使用者。",
+    "recommendation": "Mini LED 品牌補足推薦：在 SHARP 既有色彩與日本品牌偏好之外，補上高刷新與雙手機投影協定的實質比較差異。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-20",
+      "note": "已查 exact model 的 PChome 現售頁、FindPrice 與 BigGo／LBJ 價格入口；沒有取得可公開重現、帶日期且排除會員券、點數、福利品與展示機的可信新品史低，未以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-29",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"SHARP 4T-C65HU8500X\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SHARP%204T-C65HU8500X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"SHARP 4T-C65HU8500X\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SHARP%204T-C65HU8500X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"SHARP 4T-C65HU8500X\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22SHARP%204T-C65HU8500X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"SHARP 4T-C65HU8500X\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22SHARP%204T-C65HU8500X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"SHARP 4T-C65HU8500X\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22SHARP%204T-C65HU8500X%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
+        }
+      ]
+    },
+    "score": 91,
+    "voltage": "110V／60Hz 台灣公司貨；額定消耗功率 315W",
+    "warranty": "SHARP 台灣公司貨；PChome exact-model 新品頁標示全機 3 年保固，依原廠保證書與登錄條件",
+    "tags": [
+      "65吋",
+      "Mini LED",
+      "144Hz",
+      "Google TV",
+      "Chromecast",
+      "Miracast"
+    ]
+  },
+  {
+    "id": "tv-samsung-qn80h-65",
+    "category": "tv",
+    "rank": 36,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Samsung",
+    "model": "QA65QN80HAXXZW",
+    "name": "65 型 QN80H Neo QLED 4K Vision AI 智慧顯示器",
+    "price": {
+      "currency": "TWD",
+      "amount": 48900,
+      "converted": 48900,
+      "confidence": "PChome 24h 於 2026-08-28 的 exact-model 新品公開價",
+      "basis": "retailer_current"
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "PChome exact-model 頁明示含基本安裝與舊機回收；壁掛架、特殊牆面、偏遠地區、樓層搬運或吊車等追加施工未由頁面完整說明，應於下單前確認。"
+    },
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tw/qa65qn80haxxzw/gallery/tw-qled-tv-qa65qn80haxxzw-----neo-qled-qn--h--k-samsung-vision-ai--------------titanium-black-552632420?$1164_776_PNG$",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPADO2-A900K4NKW",
+    "buyLabel": "PChome exact-model 新品含基本安裝",
+    "specs": [
+      "65 吋 Neo QLED Mini LED；4K 解析度、最高 144Hz",
+      "HDMI 4 組皆支援 4K 144Hz；含 eARC、USB-A 2 組",
+      "Wi-Fi 6E、Bluetooth 5.3；手機投影：Apple AirPlay、Google Cast",
+      "尺寸：不含底座 寬 144.29 x 深 5.2 x 高 83.12 cm；含底座 寬 144.29 x 深 25.68 x 高 86.71 cm",
+      "重量：不含底座 17.2 kg；含底座 17.6 kg",
+      "VESA：400 x 300 mm；寬／窄兩種桌架間距可調",
+      "電源：AC 100–240V／50–60Hz"
+    ],
+    "description": "Samsung 2026 年在台 Neo QLED Mini LED 中階 65 吋款，以四組 4K 144Hz HDMI、Wi-Fi 6E 與雙手機投影協定補上 OLED 與更高價旗艦之外的遊戲／客廳平衡選項。",
+    "pros": [
+      "四組 HDMI 全數支援 4K 144Hz，多主機與電競 PC 接線彈性高",
+      "Apple AirPlay、Google Cast、Wi-Fi 6E 與 eARC 連線規格完整",
+      "台灣官方 exact-model 尺寸、重量、電力與官方在台發表日期證據齊全"
+    ],
+    "cons": [
+      "Mini LED 光暈與黑位表現仍須依觀影環境實機比較，不能等同 OLED",
+      "現價高於可驗證的 NT$43,866 歷史最低點",
+      "壁掛與特殊施工不在已證明的基本安裝範圍"
+    ],
+    "bestFor": "同時接遊戲主機與電競 PC、重視 4K 144Hz、多 HDMI、AirPlay／Google Cast，又不想承擔 OLED 烙印疑慮的家庭。",
+    "recommendation": "65 吋 Mini LED 遊戲平衡推薦：四組 144Hz HDMI 與完整投影協定形成明確比較價值；接近 NT$43,866 史低時更值得入手。",
+    "releaseDate": "2026-06-08",
     "historicalLow": {
       "status": "found",
-      "amount": 284050,
+      "amount": 43866,
       "currency": "TWD",
-      "converted": 284050,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282359272&cgp=284050",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：LG樂金 83吋OLED 4K連網智慧顯示器OLED83W6PTA 含壁掛安裝+附原廠壁掛架",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / LG樂金 83吋OLED 4K連網智慧顯示器OLED83W6PTA 含壁掛安裝+附原廠壁掛架」最低價為 NT$284,050，最低點日期 2026-08-20。",
+      "converted": 43866,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282767496&cgp=43866",
+      "sourceTitle": "LBJ 歷史價格：Samsung QA65QN80HAXXZW 65 型 Neo QLED 4K AI 智慧顯示器",
+      "evidenceSnippet": "LBJ 的 exact-model 新品價格歷史於 2026-08-07、08-12 與 08-28 記錄 NT$43,866；2026-05-28、06-12、07-28、08-10 可見節點為 NT$48,900。",
       "sourceKind": "price_history",
-      "confidence": "medium",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
-    }
+      "confidence": "high",
+      "checkedAt": "2026-08-28",
+      "note": "採完全相同台灣型號、含桌放基本安裝與舊機回收的可信新品公開歷史曲線；未扣除信用卡、點數或會員個人化回饋。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-29",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Samsung QA65QN80HAXXZW\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20QA65QN80HAXXZW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Samsung QA65QN80HAXXZW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20QA65QN80HAXXZW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        }
+      ]
+    },
+    "score": 92,
+    "voltage": "官方規格 AC 100–240V／50–60Hz，適用台灣 110V／60Hz",
+    "warranty": "Samsung 台灣公司貨；PChome exact-model 新品頁標示原廠 2 年保固，依原廠條款與保證書",
+    "tags": [
+      "65吋",
+      "Neo QLED",
+      "Mini LED",
+      "144Hz",
+      "AirPlay",
+      "Google Cast"
+    ]
+  },
+  {
+    "id": "tv-sony-xr80m2-65",
+    "category": "tv",
+    "rank": 37,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Sony",
+    "model": "Y-65XR80M2",
+    "name": "BRAVIA 8 II 65 型 QD-OLED 4K Google TV 顯示器",
+    "price": {
+      "currency": "TWD",
+      "amount": 119900,
+      "converted": 119900,
+      "confidence": "Sony Store 台灣官方購物網站於 2026-09-01 的 exact-model 公開可購價",
+      "basis": "retailer_current"
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "Sony Store exact-model 頁連到全系列電視精緻安裝說明，包含專人約送、開箱定位、隨附配件安裝／連接、頻道設定、功能測試、操作說明、包材與舊機回收；不含壁掛等特殊安裝方式。"
+    },
+    "image": "https://store.sony.com.tw/resource/product_files/Y-65XR80M2/Y-65XR80M2_pi.jpg",
+    "buyUrl": "https://store.sony.com.tw/product/Y-65XR80M2",
+    "buyLabel": "Sony Store 台灣官方購物網站",
+    "specs": [
+      "65 吋 QD-OLED；4K（3840 x 2160）、原生 120Hz",
+      "XR 認知智慧處理器；XR TRILUMINOS Max、XR Contrast Booster 25",
+      "HDR10、HLG、Dolby Vision；IMAX Enhanced 與 Studio Calibrated 模式",
+      "HDMI 4 組；HDMI 3／4 支援 4K120／VRR／ALLM，eARC 僅 HDMI 3；支援 SBTM",
+      "Google TV；手機投影：Apple AirPlay、Chromecast built-in",
+      "尺寸：不含底座 約 寬 144.3 x 深 3.4 x 高 83.0 cm；含底座（外部）約 寬 144.3 x 深 33.9 x 高 84.4 cm",
+      "重量：不含底座 約 22.9 kg；含底座 約 24.2 kg",
+      "電源：AC 110V／60Hz；待機耗電 0.5W"
+    ],
+    "description": "Sony BRAVIA 8 II 以 QD-OLED、XR 影像處理、Dolby Vision 與螢幕發聲補上台灣 65 吋高階 OLED 比較；Sony Store 已有 exact-model 官方現貨購買頁與 24 個月保固。",
+    "pros": [
+      "QD-OLED、XR 原色顯示 Max 與 XR 對比增強 25 兼顧黑位、色彩體積與電影調校",
+      "Dolby Vision、Apple AirPlay、Chromecast built-in 與 Wi-Fi 6E 規格完整",
+      "台灣官方 exact-model 現售、110V／60Hz、尺寸重量與 24 個月保固證據齊全"
+    ],
+    "cons": [
+      "官方現價 NT$119,900，65 吋入手門檻高",
+      "VRR 集中於 HDMI 3／4，多台高頻寬遊戲設備需先規劃連接埠",
+      "本輪未找到可公開重現、帶日期且條件清楚的可信新品史低"
+    ],
+    "bestFor": "重視電影色彩、OLED 黑位、Sony 影像處理與台灣官方售後，且可接受高階 65 吋預算的家庭劇院使用者。",
+    "recommendation": "高階 QD-OLED 補充推薦：相較既有 BRAVIA 8，8 II 的 QD-OLED 與更新 XR 調校形成實質差異；若不急，因目前沒有可信史低可比，宜先觀察後續公開降價。",
+    "releaseDate": "2025",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-09-01",
+      "note": "已查 Sony Store 台灣官方 exact-model 現售頁、FindPrice、LBJ 與 BigGo exact-model 價格入口；只取得查核日現價或無日期的比價結果，沒有可公開重現、帶日期且能排除會員券、點數、信用卡回饋、福利品、展示機與拆封品的可信新品史低，未以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-09-01",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Sony Y-65XR80M2\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Sony%20Y-65XR80M2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Sony Y-65XR80M2\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Sony%20Y-65XR80M2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Sony Y-65XR80M2\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Sony%20Y-65XR80M2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        }
+      ]
+    },
+    "score": 93,
+    "voltage": "Sony 台灣官方規格明示 AC 110V／60Hz",
+    "warranty": "Sony Store 台灣官方購物網站標示保固 24 個月",
+    "tags": [
+      "65吋",
+      "QD-OLED",
+      "120Hz",
+      "Dolby Vision",
+      "Google TV",
+      "AirPlay",
+      "Chromecast"
+    ]
   }
 ]);
 })();

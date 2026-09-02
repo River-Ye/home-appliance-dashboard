@@ -15,9 +15,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEES01A900ILXUX/000001_1779237227.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 999,
-      "converted": 999,
-      "confidence": "PChome 2026-07-13 頁面與 API 查核價"
+      "amount": 799,
+      "converted": 799,
+      "confidence": "PChome 2026-08-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -70,7 +70,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -172,7 +172,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -219,9 +219,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWMWA900JMZB6/000001_1768290450.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1399,
-      "converted": 1399,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 1259,
+      "converted": 1259,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -258,23 +258,23 @@
       "台灣通路"
     ],
     "category": "cookware",
-    "releaseDate": "2023",
+    "releaseDate": "2024-02-21",
     "historicalLow": {
       "status": "found",
-      "amount": 1299,
+      "amount": 1259,
       "currency": "TWD",
-      "converted": 1299,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1268723556&cgp=1299",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【THERMOS 膳魔師】新一代厚鑄耐摩不沾鍋單柄深煎鍋30cm(KFM-030D R)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【THERMOS 膳魔師】新一代厚鑄耐摩不沾鍋單柄深煎鍋30cm(KFM-030D R)」最低價為 NT$1,299，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 1259,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DEAWMW-A900JMZB6",
+      "sourceTitle": "PChome 24h 購物：新一代厚鑄耐摩不沾鍋單柄深煎鍋30cm(KFM-030D-R)",
+      "evidenceSnippet": "PChome 24h 購物於 2026-08-23 顯示同型號可信新品公開價 NT$1,259，低於既有史低 NT$1,299。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-08-23",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -321,9 +321,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWMWA900JCBKJ/000001_1760418137.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 2690,
-      "converted": 2690,
-      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 2555,
+      "converted": 2555,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -375,7 +375,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -422,9 +422,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWN3A900JSN52/000001_1772965996.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 2490,
-      "converted": 2490,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 2116,
+      "converted": 2116,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -476,7 +476,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -578,7 +578,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -679,7 +679,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -780,7 +780,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -881,7 +881,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -982,7 +982,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1031,7 +1031,8 @@
       "currency": "TWD",
       "amount": 1099,
       "converted": 1099,
-      "confidence": "Yahoo購物中心 2026-08-19 exact-model 公開結構化價格"
+      "basis": "retailer_current",
+      "confidence": "2026-08-31 16:33 台灣時間人工核對Yahoo同SKU10238240饗樂四件組，公開主價NT$1,099、立即購買及加入購物車可用；本頁未見另套95折活動，滿額贈品與銀行回饋不折抵。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1084,7 +1085,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1186,7 +1187,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1233,9 +1234,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAW03A900BSUA7/000001_1632301011.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 6042,
-      "converted": 6042,
-      "confidence": "PChome 2026-07-18 API 公開價"
+      "amount": 6360,
+      "converted": 6360,
+      "confidence": "PChome 2026-08-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1287,7 +1288,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1334,9 +1335,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWGAA900B4V1I/000001_1670815636.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1490,
-      "converted": 1490,
-      "confidence": "PChome 2026-08-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 1415,
+      "converted": 1415,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1388,7 +1389,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1489,7 +1490,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1585,7 +1586,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1633,13 +1634,13 @@
     "name": "陶晶壺型鍋 1.7L",
     "price": {
       "currency": "TWD",
-      "amount": 6630,
-      "converted": 6630,
-      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 6864,
+      "converted": 6864,
+      "confidence": "Yahoo購物中心 2026-08-28 自營 exact-model 新品頁公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DEAWMJA900JMZA5/000001_1768290148.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DEAWMJ-A900JMZA5",
-    "buyLabel": "PChome",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/WMF%E5%BE%B7%E5%9C%8B%E8%A3%BDFusiontecMineral%E5%A3%BA%E5%9E%8B%E9%8D%8B12-5cm1-7L%E9%89%91%E9%87%91%E8%89%B2%E9%99%B6%E6%99%B6%E9%8D%8B-11964316.html",
+    "buyLabel": "Yahoo購物中心自營",
     "specs": [
       "12.5cm",
       "1.7L",
@@ -1681,7 +1682,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1777,7 +1778,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1825,9 +1826,9 @@
     "name": "醇火系列不沾炒鍋",
     "price": {
       "currency": "TWD",
-      "amount": 1439,
-      "converted": 1439,
-      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 1599,
+      "converted": 1599,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DEES01A900IQ6X3/000001_1764832269.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEES01-A900IQ6X3",
@@ -1873,7 +1874,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1969,7 +1970,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2065,7 +2066,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2164,7 +2165,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2263,7 +2264,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2349,7 +2350,7 @@
       "18/10不鏽鋼",
       "電磁爐"
     ],
-    "releaseDate": "2026-07-17",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -2365,7 +2366,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2454,7 +2455,7 @@
       "再生鋁",
       "電磁爐"
     ],
-    "releaseDate": "2026-07",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -2470,7 +2471,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2574,7 +2575,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2665,7 +2666,7 @@
       "鑄鋁",
       "不適用IH"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2022-02-01",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -2681,7 +2682,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2714,6 +2715,96 @@
           "query": "\"Rinnai RBO-MN22(WH)\" problem issue defect failure broken 災情 故障 異常",
           "queryUrl": "https://www.youtube.com/results?search_query=%22Rinnai%20RBO-MN22(WH)%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
           "targetHost": "youtube.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "cookware-debuyer-5214-28",
+    "category": "cookware",
+    "rank": 28,
+    "topPick": false,
+    "budget": "balanced",
+    "channel": "tw",
+    "brand": "de Buyer",
+    "model": "5214.28",
+    "name": "BLUE CARBON 28cm 深型鄉村煎鍋",
+    "price": {
+      "currency": "TWD",
+      "amount": 2552,
+      "converted": 2552,
+      "confidence": "Coupang 酷澎 2026-08-20 exact-model 5214.28 公開新品價 NT$2,552，頁面顯示 8 件",
+      "basis": "retailer_current"
+    },
+    "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/772459132424242-86a3f0c9-b0b5-49df-bd77-11459011362f.jpg",
+    "buyUrl": "https://www.tw.coupang.com/products/de-Buyer-%E7%95%A2%E8%80%B6-%E8%BC%95%E7%A4%A6%E8%97%8D%E9%90%B5%E7%B3%BB%E5%88%97-%E5%96%AE%E6%9F%84%E6%B7%B1%E7%85%8E%E7%82%92%E9%8D%8B-5214.28-1960g%2C-28cm%2C-1%E5%80%8B-466833169661956?itemId=466833169694727&vendorItemId=466833169678337",
+    "buyLabel": "Coupang 酷澎",
+    "installation": {
+      "status": "not_stated",
+      "note": "鍋具不需到府安裝；初次開鍋、養鍋、清潔與熱源使用需依 de Buyer 官方說明。"
+    },
+    "specs": [
+      "28cm BLUE CARBON 藍碳鋼深型鄉村煎鍋；可用容量 4L",
+      "鍋高 7cm；總長 51.5cm、直徑 28cm",
+      "重量 1.96kg；IH 接觸底徑 20cm",
+      "適用瓦斯、電爐、電陶爐、IH 與烤箱",
+      "法國製、無化學不沾塗層；需開鍋養鍋"
+    ],
+    "description": "de Buyer 5214.28 是法製 28cm 藍碳鋼深型鍋，以 4L 容量、IH 相容與可養鍋表面補足無塗層鐵鍋帶。",
+    "pros": [
+      "28cm、4L 深型鍋身可煎、炒、燉與烤箱料理",
+      "無化學塗層且適用包含 IH 的多種熱源",
+      "台灣官方 exact-model 頁可核對尺寸、1.96kg 重量與法國製"
+    ],
+    "cons": [
+      "必須開鍋與持續養鍋，洗後需立即擦乾防鏽",
+      "不適合洗碗機與長時間接觸酸性食材",
+      "1.96kg 加上食材後偏重，單手拋鍋負擔較高"
+    ],
+    "bestFor": "願意養鍋、需要 IH 相容的 28cm 深型無塗層鐵鍋，並重視法國製造的人。",
+    "recommendation": "de Buyer 品牌與無塗層碳鋼補強：耐用且熱源相容廣，但保養成本和重量比不沾鍋高。",
+    "score": 88,
+    "voltage": "不適用（非電器；可用 IH、瓦斯、電爐、電陶爐與烤箱）",
+    "warranty": "全球官方頁標示終身保固；台灣申請與排除條件依 de Buyer 台灣代理／銷售條款",
+    "tags": [
+      "28cm",
+      "4L",
+      "藍碳鋼",
+      "法國製",
+      "IH",
+      "無塗層"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-20",
+      "note": "已查 de Buyer 台灣／全球官方、Coupang exact-model 5214.28 新品頁與價格搜尋；NT$2,552 是本輪公開現價，無日期歷程可證明為可信新品史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-29",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"de Buyer 5214.28\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22de%20Buyer%205214.28%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"de Buyer 5214.28\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22de%20Buyer%205214.28%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         }
       ]
     }

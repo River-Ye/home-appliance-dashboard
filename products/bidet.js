@@ -66,7 +66,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -163,7 +163,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -260,7 +260,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -357,7 +357,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -454,7 +454,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -551,7 +551,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -648,7 +648,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -745,7 +745,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -842,7 +842,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -924,9 +924,22 @@
       "除臭"
     ],
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ TOTO TCF33461GTW S2: Momo富邦購物 【TOTO】S2 進階款 除菌溫水洗淨便座 TCF33461GTW(電解除菌水/強力除臭/暖風烘乾/WASHLET/免治馬桶座) 型號/規格不相符；LBJ TOTO TCF33461GTW S2: Homebox好博家 【Homebox 好博家】TOTO瞬熱式免治馬桶座 暖風烘乾 電解除菌水 S2/TCF33461GTW 桃竹苗提供安裝服務 型號/規格不相符；LBJ TOTO TCF33461GTW S2: PCHome購物 TOTO S2 進階款 除菌溫水洗淨便座 TCF33461GTW(電解除菌水/強力除臭/暖風烘乾/WASHLET/免治馬桶座) 型號/規格不相符。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -961,19 +974,6 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 14900,
-      "currency": "TWD",
-      "converted": 14900,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1267962268&cgp=14900",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【TOTO】S2 進階款 除菌溫水洗淨便座 TCF33461GTW(電解除菌水/強力除臭/暖風烘乾/WASHLET/免治馬桶座)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【TOTO】S2 進階款 除菌溫水洗淨便座 TCF33461GTW(電解除菌水/強力除臭/暖風烘乾/WASHLET/免治馬桶座)」最低價為 NT$14,900，最低點日期 2026-08-20。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1036,7 +1036,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1133,7 +1133,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1181,9 +1181,9 @@
     "name": "瞬熱式溫水洗淨便座",
     "price": {
       "currency": "TWD",
-      "amount": 12232,
-      "converted": 12232,
-      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 13900,
+      "converted": 13900,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAL6WA900JEEZE/000001_1776140283.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAL6W-A900JEEZE",
@@ -1230,7 +1230,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1312,9 +1312,22 @@
       "衛浴品牌"
     ],
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ KOHLER C3-150: Yahoo購物中心 【麗室衛浴】美國 KOHLER K8297 C3-150 電腦馬桶蓋專用零件固定板1240758-SP 型號/規格不相符；LBJ KOHLER C3-150: Momo富邦購物 (店+)【KOHLER】✦築昂✦美國KOHLER C3-150電腦馬桶蓋 K-8297TW-0 型號/規格不相符；LBJ KOHLER C3-150: Yahoo購物中心 【 麗室衛浴】美國 KOHLER K-8297 電腦馬桶蓋 C3-150 (110V/60HZ) 型號/規格不相符。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1349,19 +1362,6 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 13410,
-      "currency": "TWD",
-      "converted": 13410,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1286067123&cgp=13410",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【KOHLER】瞬熱式電腦免治馬桶蓋 C3-150 標準型(五檔溫控 溫座烘乾 免治馬桶座)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【KOHLER】瞬熱式電腦免治馬桶蓋 C3-150 標準型(五檔溫控 溫座烘乾 免治馬桶座)」最低價為 NT$13,410，最低點日期 2026-08-20。",
-      "sourceKind": "price_history",
-      "confidence": "medium",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1424,7 +1424,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1521,7 +1521,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1618,7 +1618,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1715,7 +1715,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1812,7 +1812,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1860,24 +1860,24 @@
     "name": "Bidet Toilet Seat",
     "price": {
       "currency": "USD",
-      "amount": 399.99,
-      "converted": 12757,
-      "confidence": "Costco US 2026-07-21 來源價；ExchangeRate-API 2026-08-19 匯率換算"
+      "amount": 383.99,
+      "converted": 12172,
+      "confidence": "Brondell US 官方 2026-08-28 exact-model 公開特價；ExchangeRate-API 2026-09-01 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/k83n76pfjhvqcf9gfrz74sx/1432187-847__1?auto=webp&format=jpg",
-    "buyUrl": "https://www.costco.com/brondell-swash-cl1700-bidet-toilet-seat.product.100648788.html",
-    "buyLabel": "Costco US",
+    "buyUrl": "https://www.brondell.com/swash-cl1700-advanced-bidet-seat/",
+    "buyLabel": "Brondell US 官方",
     "specs": [
       "溫水洗淨便座",
       "遙控/電動式",
       "美規 elongated 座型",
-      "Costco US 3,994 則評論",
+      "Brondell US 官方 exact-model 現售",
       "需確認 120V、馬桶尺寸與安裝",
       "尺寸：查不到"
     ],
-    "description": "台灣 Costco 未找到明確免治馬桶新品頁，故補入 Costco US 高評論的 Brondell Swash CL1700 作海外參考。",
+    "description": "台灣通路未找到明確新品頁，故補入 Brondell US 官方現售 Swash CL1700 作海外參考。",
     "pros": [
-      "Costco US 評論量非常高",
+      "Brondell US 官方 exact-model 頁可直接核對價格與規格",
       "價格相對 TOTO 高階款低"
     ],
     "cons": [
@@ -1885,32 +1885,32 @@
       "未含國際運費、進口稅與台灣保固"
     ],
     "bestFor": "可自行確認尺寸、電壓與保固風險的海外採購使用者。",
-    "recommendation": "好市多海外補充：CL1700 評論量高，可作為 Costco US 免治便座價格參考，不建議未確認尺寸就直接下單。",
+    "recommendation": "Brondell 海外補充：CL1700 可作美規免治便座價格參考，不建議未確認尺寸、電壓與保固就直接下單。",
     "score": 84,
     "voltage": "美規 120V；需確認台灣插座、接地與馬桶尺寸",
-    "warranty": "Costco US / 海外通路，可能無台灣保固",
+    "warranty": "Brondell US 官方 1 年有限保固；海外購買無台灣保固",
     "tags": [
-      "Costco US",
+      "Brondell US",
       "免治",
       "海外參考"
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 383.99,
       "currency": "USD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：BigGo Brondell Swash CL1700: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/Brondell%20Swash%20CL1700/product?p=1；BigGo Swash CL1700: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/Swash%20CL1700/product?p=1。"
+      "converted": 12172,
+      "sourceUrl": "https://www.brondell.com/swash-cl1700-advanced-bidet-seat/",
+      "sourceTitle": "Brondell US：Swash CL1700 Advanced Bidet Seat",
+      "evidenceSnippet": "Brondell US 官方 exact-model 頁於 2026-08-28 顯示 Swash CL1700 sale price US$383.99。",
+      "sourceKind": "official_sale",
+      "confidence": "medium",
+      "checkedAt": "2026-08-28",
+      "note": "採品牌官方公開特價作為本次可重現最低觀測價；同頁 US$299.99 為 Open-Box 開箱品，依規則排除。未含國際運費、進口稅、美規 elongated 尺寸、120V 插座與台灣保固風險；依 2026-09-01 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1943,6 +1943,98 @@
           "query": "\"Brondell Swash CL1700\" problem issue defect failure broken 災情 故障 異常",
           "queryUrl": "https://www.youtube.com/results?search_query=%22Brondell%20Swash%20CL1700%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
           "targetHost": "youtube.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "bidet-inax-cw-rl31-tw-bw1",
+    "category": "bidet",
+    "rank": 22,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "INAX",
+    "model": "CW-RL31-TW/BW1",
+    "name": "E-Bidet 微電腦洗淨便座（除臭／烘乾）",
+    "price": {
+      "currency": "TWD",
+      "amount": 19232,
+      "converted": 19232,
+      "confidence": "momo購物 2026-08-20 exact-model 公司貨新品頁現價",
+      "basis": "retailer_current"
+    },
+    "image": "https://i1.momoshop.com.tw/1752761457/goodsimg/0014/229/297/14229297_R_m.webp",
+    "buyUrl": "https://www.momoshop.com.tw/product/14229297",
+    "buyLabel": "momo購物",
+    "installation": {
+      "status": "excluded",
+      "note": "momo exact-model 商品標題明載不含安裝；購買前需確認馬桶尺寸與孔距、110V 浴廁安全插座、進水位置及 0.1MPa 動壓至 0.75MPa 靜壓條件，實際施工費另洽安裝人員。"
+    },
+    "specs": [
+      "儲熱式溫水洗淨便座；日本製",
+      "除臭、溫風乾燥、一體成形便座、女性專用噴嘴與噴嘴前端快拆",
+      "尺寸：寬 47.4 x 深 55.4 x 高 14.9 cm",
+      "重量：約 4.1 kg",
+      "直接連接自來水；需求水壓 0.1MPa（動壓）至 0.75MPa（靜壓）",
+      "110V；國際 SIAA 抗菌認證，商檢字號 R36719"
+    ],
+    "description": "INAX CW-RL31-TW/BW1 是台灣官方現行的日本製儲熱式洗淨便座，具除臭、溫風乾燥與便座／噴嘴快拆；本筆採 momo 不含安裝的公司貨現價。",
+    "pros": [
+      "補足站內缺少的 INAX／LIXIL 日系衛浴品牌",
+      "官方 exact-model 尺寸、供水壓力與台灣通路 110V 資料完整",
+      "具除臭、溫風乾燥、SIAA 抗菌與清潔快拆設計"
+    ],
+    "cons": [
+      "通路價不含安裝，插座、進水與馬桶相容性需另行評估",
+      "儲熱式會持續保溫，能耗與連續多人使用表現不如部分瞬熱款",
+      "本體約 4.1 kg，安裝時仍需留意便座搬放與固定"
+    ],
+    "bestFor": "想補充 TOTO、Panasonic 以外日系選擇，重視日本製、除臭、烘乾與易清潔設計的家庭。",
+    "recommendation": "INAX 品牌補充推薦：功能、尺寸與台灣電力證據完整；下單前應先確認馬桶尺寸、孔距、水壓、插座與不含安裝的施工費。",
+    "score": 89,
+    "voltage": "110V 台灣公司貨；浴廁需有安全接地插座並避開淋水區",
+    "warranty": "台灣公司貨原廠保固 1 年；momo exact-model 頁載明 1 年保固期，實際依原廠官網公告為主",
+    "tags": [
+      "INAX",
+      "日本製",
+      "儲熱式",
+      "除臭",
+      "溫風乾燥",
+      "110V",
+      "SIAA抗菌"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-20",
+      "note": "已查 INAX 台灣官方 exact-model 頁、momo、BigGo、FindPrice 與 LBJ 的 CW-RL31-TW/BW1 exact-model 查詢；各頁只能證明目前牌價或通路現價，未取得具日期且可重現的同型號可信新品歷史最低點，因此不以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-29",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"CW-RL31-TW/BW1\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22CW-RL31-TW%2FBW1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"CW-RL31-TW/BW1\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22CW-RL31-TW%2FBW1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
         }
       ]
     }

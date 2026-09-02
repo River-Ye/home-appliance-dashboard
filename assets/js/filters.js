@@ -12,6 +12,49 @@
       { value: "electric", label: "電熱", keywords: "electric 電熱 儲熱 瞬熱" },
       { value: "heat_pump", label: "熱泵", keywords: "heat pump 熱泵" },
     ],
+    "network-switch": [
+      { value: "1g", label: "1G（8 埠）", keywords: "1g gigabit 1000mbps 八埠 8 port" },
+      { value: "2_5g", label: "2.5G（8 埠）", keywords: "2.5g multi gig multigig 八埠 8 port" },
+      { value: "10g", label: "10G（8 埠）", keywords: "10g 10gbe multi gig multigig 八埠 8 port" },
+    ],
+    mouse: [
+      { value: "standard", label: "一般滑鼠", keywords: "standard 辦公 電競" },
+      { value: "vertical", label: "直立式", keywords: "vertical 垂直 人體工學" },
+      { value: "trackball", label: "軌跡球", keywords: "trackball 軌跡球" },
+    ],
+    keyboard: [
+      { value: "membrane", label: "薄膜", keywords: "membrane 薄膜" },
+      { value: "scissor", label: "剪刀腳", keywords: "scissor 剪刀腳" },
+      { value: "mechanical", label: "機械", keywords: "mechanical 機械軸" },
+      { value: "magnetic", label: "磁軸", keywords: "magnetic hall effect 磁軸 霍爾" },
+      { value: "optical", label: "光軸", keywords: "optical 光軸" },
+    ],
+    mousepad: [
+      { value: "cloth", label: "布面", keywords: "cloth 布面 長桌墊" },
+      { value: "hard", label: "硬質", keywords: "hard 硬質 非玻璃" },
+      { value: "glass", label: "玻璃", keywords: "glass 玻璃" },
+    ],
+    bedsheet: [
+      { value: "cotton", label: "棉", keywords: "cotton 棉 純棉" },
+      { value: "lyocell", label: "萊賽爾（天絲）", keywords: "lyocell tencel 天絲 萊賽爾" },
+      { value: "linen", label: "亞麻", keywords: "linen 亞麻" },
+      { value: "synthetic", label: "化纖", keywords: "synthetic polyester 聚酯 化纖" },
+      { value: "other_natural", label: "其他天然纖維", keywords: "natural bamboo hemp 天然纖維 竹纖維" },
+    ],
+    comforter: [
+      { value: "cotton", label: "棉", keywords: "cotton 棉 棉花" },
+      { value: "down", label: "羽絨", keywords: "down feather 羽絨 羽毛" },
+      { value: "synthetic", label: "化纖", keywords: "synthetic polyester 聚酯 化纖" },
+      { value: "wool", label: "羊毛", keywords: "wool 羊毛" },
+      { value: "silk", label: "蠶絲", keywords: "silk 蠶絲" },
+    ],
+    pillow: [
+      { value: "latex", label: "乳膠", keywords: "latex 乳膠" },
+      { value: "memory_foam", label: "記憶棉", keywords: "memory foam 記憶棉 慢回彈" },
+      { value: "down", label: "羽絨／羽毛", keywords: "down feather 羽絨 羽毛" },
+      { value: "fiber", label: "纖維", keywords: "fiber polyester 纖維 聚酯" },
+      { value: "hybrid", label: "混合材質", keywords: "hybrid blend 混合 複合" },
+    ],
   };
 
   function defaultSortCompare(a, b) {
@@ -205,6 +248,7 @@
 
   function applyFilterValue(name, value) {
     if (name === "category") {
+      if (state.category !== value) state.type = "all";
       state.category = value;
       ensureSelectedBrandIsAvailable();
       ensureSelectedTypeIsAvailable();

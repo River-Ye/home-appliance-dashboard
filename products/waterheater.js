@@ -59,9 +59,22 @@
     "bestFor": "已有合規瓦斯與排氣條件、希望連續熱水的住宅",
     "recommendation": "綜合推薦：即開即熱，連續供水能力適合日常淋浴；仍要由合格技師完成場勘與施工。",
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已實際查核 BigGo 與 FindPrice exact-model 價格頁；未取得可公開重現的同型號可信新品歷史最低價。排除會員券、點數、信用卡回饋、二手、福利品、展示、拆封、整新品、配件價與僅單一組件價。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -105,20 +118,7 @@
       "Rinnai",
       "台灣瓦斯規格",
       "施工另估"
-    ],
-    "historicalLow": {
-      "status": "found",
-      "amount": 20400,
-      "currency": "TWD",
-      "converted": 20400,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1284398210&cgp=20400",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Rinnai 林內 屋內型16L強制排氣熱水器 RUA-D1620WF (NG/LPG FE式)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / Rinnai 林內 屋內型16L強制排氣熱水器 RUA-D1620WF (NG/LPG FE式)」最低價為 NT$20,400，最低點日期 2026-08-20。",
-      "sourceKind": "price_history",
-      "confidence": "medium",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。 史低方案標題未明示安裝是否包含，安裝、耗材與追加施工須另向通路確認。 現行商品資料安裝邊界為「不含安裝」：定價未含現場耗材；瓦斯別、排氣孔與管長須由合格技師確認"
-    }
+    ]
   },
   {
     "id": "waterheater-rinnai-rua-uc1628wf",
@@ -173,9 +173,22 @@
     "bestFor": "已有合規瓦斯與排氣條件、希望連續熱水的住宅",
     "recommendation": "選購重點：即開即熱，連續供水能力適合日常淋浴；仍要由合格技師完成場勘與施工。",
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已實際查核 BigGo 與 FindPrice exact-model 價格頁；未取得可公開重現的同型號可信新品歷史最低價。排除會員券、點數、信用卡回饋、二手、福利品、展示、拆封、整新品、配件價與僅單一組件價。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -219,20 +232,7 @@
       "Rinnai",
       "台灣瓦斯規格",
       "施工另估"
-    ],
-    "historicalLow": {
-      "status": "found",
-      "amount": 26600,
-      "currency": "TWD",
-      "converted": 26600,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1249486321&cgp=28600",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【林內】RUA-UC1628WF UFB 屋內型 16L 強制排氣熱水器 限定區域含基本安裝",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【林內】RUA-UC1628WF UFB 屋內型 16L 強制排氣熱水器 限定區域含基本安裝」最低價為 NT$26,600，最低點日期 2026-03-22。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。 史低方案標題標示含基本／標準安裝；實際服務區、材料與追加施工仍以通路及現勘為準。 現行商品資料安裝邊界為「不含安裝」：定價未含現場耗材；先確認排氣孔、管長與瓦斯別"
-    }
+    ]
   },
   {
     "id": "waterheater-rinnai-rua-ud1620wf",
@@ -287,9 +287,22 @@
     "bestFor": "已有合規瓦斯與排氣條件、希望連續熱水的住宅",
     "recommendation": "選購重點：即開即熱，連續供水能力適合日常淋浴；仍要由合格技師完成場勘與施工。",
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已實際查核 BigGo 與 FindPrice exact-model 價格頁；未取得可公開重現的同型號可信新品歷史最低價。排除會員券、點數、信用卡回饋、二手、福利品、展示、拆封、整新品、配件價與僅單一組件價。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -333,20 +346,7 @@
       "Rinnai",
       "台灣瓦斯規格",
       "施工另估"
-    ],
-    "historicalLow": {
-      "status": "found",
-      "amount": 22610,
-      "currency": "TWD",
-      "converted": 22610,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1283948649&cgp=23800",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【林內】UFB 屋內型16L強制排氣熱水器RUA-UD1620WF(FE式/基本安裝)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【林內】UFB 屋內型16L強制排氣熱水器RUA-UD1620WF(FE式/基本安裝)」最低價為 NT$22,610，最低點日期 2026-07-20。",
-      "sourceKind": "price_history",
-      "confidence": "medium",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。 史低方案標題標示含基本／標準安裝；實際服務區、材料與追加施工仍以通路及現勘為準。 現行商品資料安裝邊界為「不含安裝」：官方定價未含未列耗材；排氣與瓦斯管線須現勘"
-    }
+    ]
   },
   {
     "id": "waterheater-sakura-dh1693f",
@@ -401,9 +401,22 @@
     "bestFor": "已有合規瓦斯與排氣條件、希望連續熱水的住宅",
     "recommendation": "選購重點：即開即熱，連續供水能力適合日常淋浴；仍要由合格技師完成場勘與施工。",
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已實際查核 BigGo 與 FindPrice exact-model 價格頁；未取得可公開重現的同型號可信新品歷史最低價。排除會員券、點數、信用卡回饋、二手、福利品、展示、拆封、整新品、配件價與僅單一組件價。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -447,20 +460,7 @@
       "SAKURA",
       "台灣瓦斯規格",
       "含基本安裝"
-    ],
-    "historicalLow": {
-      "status": "found",
-      "amount": 22320,
-      "currency": "TWD",
-      "converted": 22320,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1160356646&cgp=23436",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【SAKURA 櫻花】16L_四季溫渦輪增壓恆溫熱水器(DH1693F NG1/LPG 原廠保固 基本安裝)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【SAKURA 櫻花】16L_四季溫渦輪增壓恆溫熱水器(DH1693F NG1/LPG 原廠保固 基本安裝)」最低價為 NT$22,320，最低點日期 2026-08-08。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。 史低方案標題標示含基本／標準安裝；實際服務區、材料與追加施工仍以通路及現勘為準。 現行商品資料安裝邊界為「含基本安裝」：建議售價含基本安裝，不含耗材及運送；低水壓可能加裝恆壓馬達"
-    }
+    ]
   },
   {
     "id": "waterheater-sakura-dh1670f",
@@ -515,9 +515,22 @@
     "bestFor": "已有合規瓦斯與排氣條件、希望連續熱水的住宅",
     "recommendation": "選購重點：即開即熱，連續供水能力適合日常淋浴；仍要由合格技師完成場勘與施工。",
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已實際查核 BigGo 與 FindPrice exact-model 價格頁；未取得可公開重現的同型號可信新品歷史最低價。排除會員券、點數、信用卡回饋、二手、福利品、展示、拆封、整新品、配件價與僅單一組件價。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -561,20 +574,7 @@
       "SAKURA",
       "台灣瓦斯規格",
       "含基本安裝"
-    ],
-    "historicalLow": {
-      "status": "found",
-      "amount": 17899,
-      "currency": "TWD",
-      "converted": 17899,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1259131875&cgp=18540",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【SAKURA 櫻花】DH1670F 16L 智能恆溫熱水器 DH1670 智慧型水量調節控制 強制排氣設計",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【SAKURA 櫻花】DH1670F 16L 智能恆溫熱水器 DH1670 智慧型水量調節控制 強制排氣設計」最低價為 NT$17,899，最低點日期 2026-07-20。",
-      "sourceKind": "price_history",
-      "confidence": "medium",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。 史低方案標題未明示安裝是否包含，安裝、耗材與追加施工須另向通路確認。 現行商品資料安裝邊界為「含基本安裝」：建議售價含基本安裝，不含耗材及運送；低水壓可能加裝恆壓馬達"
-    }
+    ]
   },
   {
     "id": "waterheater-sakura-dh1628",
@@ -629,9 +629,22 @@
     "bestFor": "已有合規瓦斯與排氣條件、希望連續熱水的住宅",
     "recommendation": "選購重點：即開即熱，連續供水能力適合日常淋浴；仍要由合格技師完成場勘與施工。",
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已實際查核 BigGo 與 FindPrice exact-model 價格頁；未取得可公開重現的同型號可信新品歷史最低價。排除會員券、點數、信用卡回饋、二手、福利品、展示、拆封、整新品、配件價與僅單一組件價。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -675,20 +688,7 @@
       "SAKURA",
       "台灣瓦斯規格",
       "含基本安裝"
-    ],
-    "historicalLow": {
-      "status": "found",
-      "amount": 19575,
-      "currency": "TWD",
-      "converted": 19575,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1272408594&cgp=19575",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【SAKURA 櫻花】16L無線遙控智能恆溫強制排氣熱水器(DH1628 原廠保固服務 不含安裝)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【SAKURA 櫻花】16L無線遙控智能恆溫強制排氣熱水器(DH1628 原廠保固服務 不含安裝)」最低價為 NT$19,575，最低點日期 2026-08-20。",
-      "sourceKind": "price_history",
-      "confidence": "medium",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。 史低方案標題明示不含安裝，安裝與現場耗材另計。 現行商品資料安裝邊界為「含基本安裝」：建議售價含基本安裝，不含耗材及運送"
-    }
+    ]
   },
   {
     "id": "waterheater-hcg-gh160i",
@@ -743,9 +743,22 @@
     "bestFor": "已有合規瓦斯與排氣條件、希望連續熱水的住宅",
     "recommendation": "選購重點：即開即熱，連續供水能力適合日常淋浴；仍要由合格技師完成場勘與施工。",
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已實際查核 BigGo 與 FindPrice exact-model 價格頁；未取得可公開重現的同型號可信新品歷史最低價。排除會員券、點數、信用卡回饋、二手、福利品、展示、拆封、整新品、配件價與僅單一組件價。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -789,20 +802,7 @@
       "HCG",
       "台灣瓦斯規格",
       "施工另估"
-    ],
-    "historicalLow": {
-      "status": "found",
-      "amount": 11007,
-      "currency": "TWD",
-      "converted": 11007,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1262678604&cgp=11585",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：HCG 和成 屋內型數位恆溫16L強制排器熱水器GH160i(NG/LPG/FE式)北北基基本安裝-原廠保固",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / HCG 和成 屋內型數位恆溫16L強制排器熱水器GH160i(NG/LPG/FE式)北北基基本安裝-原廠保固」最低價為 NT$11,007，最低點日期 2026-02-20。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。 史低方案標題標示含基本／標準安裝；實際服務區、材料與追加施工仍以通路及現勘為準。 現行商品資料安裝邊界為「不含安裝」：官方建議售價不代表所有現場材料；排氣孔與瓦斯管需現勘"
-    }
+    ]
   },
   {
     "id": "waterheater-hcg-gh1688b",
@@ -857,9 +857,22 @@
     "bestFor": "已有合規瓦斯與排氣條件、希望連續熱水的住宅",
     "recommendation": "選購重點：即開即熱，連續供水能力適合日常淋浴；仍要由合格技師完成場勘與施工。",
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已實際查核 BigGo 與 FindPrice exact-model 價格頁；未取得可公開重現的同型號可信新品歷史最低價。排除會員券、點數、信用卡回饋、二手、福利品、展示、拆封、整新品、配件價與僅單一組件價。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -903,20 +916,7 @@
       "HCG",
       "台灣瓦斯規格",
       "施工另估"
-    ],
-    "historicalLow": {
-      "status": "found",
-      "amount": 13952,
-      "currency": "TWD",
-      "converted": 13952,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1233740194&cgp=19053",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：HCG 和成 屋內大廈型智慧水量恆溫強制排氣熱水器16L(GH1688B 原廠安裝)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / HCG 和成 屋內大廈型智慧水量恆溫強制排氣熱水器16L(GH1688B 原廠安裝)」最低價為 NT$13,952，最低點日期 2024-11-09。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。 史低方案標題標示含基本／標準安裝；實際服務區、材料與追加施工仍以通路及現勘為準。 現行商品資料安裝邊界為「不含安裝」：官方建議售價不代表所有現場材料；排氣孔與瓦斯管需現勘"
-    }
+    ]
   },
   {
     "id": "waterheater-hcg-gh1011",
@@ -971,9 +971,22 @@
     "bestFor": "已有合規瓦斯與排氣條件、希望連續熱水的住宅",
     "recommendation": "選購重點：即開即熱，連續供水能力適合日常淋浴；仍要由合格技師完成場勘與施工。",
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已實際查核 BigGo 與 FindPrice exact-model 價格頁；未取得可公開重現的同型號可信新品歷史最低價。排除會員券、點數、信用卡回饋、二手、福利品、展示、拆封、整新品、配件價與僅單一組件價。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1017,20 +1030,7 @@
       "HCG",
       "台灣瓦斯規格",
       "施工另估"
-    ],
-    "historicalLow": {
-      "status": "found",
-      "amount": 6264,
-      "currency": "TWD",
-      "converted": 6264,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1222573790&cgp=7029",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【HCG 和成】屋外型熱水器 10L(GH1011 原廠安裝)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【HCG 和成】屋外型熱水器 10L(GH1011 原廠安裝)」最低價為 NT$6,264，最低點日期 2024-06-13。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。 史低方案標題標示含基本／標準安裝；實際服務區、材料與追加施工仍以通路及現勘為準。 現行商品資料安裝邊界為「不含安裝」：官方建議售價未列現場耗材；安裝位置必須由合格技師判定"
-    }
+    ]
   },
   {
     "id": "waterheater-paotien-ph-2001fel",
@@ -1100,7 +1100,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1214,7 +1214,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1328,7 +1328,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1427,9 +1427,22 @@
     "bestFor": "已有合規瓦斯與排氣條件、希望連續熱水的住宅",
     "recommendation": "選購重點：即開即熱，連續供水能力適合日常淋浴；仍要由合格技師完成場勘與施工。",
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已實際查核 BigGo 與 FindPrice exact-model 價格頁；未取得可公開重現的同型號可信新品歷史最低價。排除會員券、點數、信用卡回饋、二手、福利品、展示、拆封、整新品、配件價與僅單一組件價。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1473,20 +1486,7 @@
       "Haier",
       "台灣瓦斯規格",
       "施工另估"
-    ],
-    "historicalLow": {
-      "status": "found",
-      "amount": 7820,
-      "currency": "TWD",
-      "converted": 7820,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1104083884&cgp=8500",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Haier 海爾】13L智能恆溫強制排氣熱水器LPG 數位恆溫 基本安裝JSQ25-13E3(LPG/FE式)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Haier 海爾】13L智能恆溫強制排氣熱水器LPG 數位恆溫 基本安裝JSQ25-13E3(LPG/FE式)」最低價為 NT$7,820，最低點日期 2026-02-21。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。 史低方案標題標示含基本／標準安裝；實際服務區、材料與追加施工仍以通路及現勘為準。 現行商品資料安裝邊界為「不含安裝」：官方建議售價未含未列材料；桶裝瓦斯調整器與排氣管須現勘"
-    }
+    ]
   },
   {
     "id": "waterheater-haier-jsq30-16e1-lpg",
@@ -1541,9 +1541,22 @@
     "bestFor": "已有合規瓦斯與排氣條件、希望連續熱水的住宅",
     "recommendation": "選購重點：即開即熱，連續供水能力適合日常淋浴；仍要由合格技師完成場勘與施工。",
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已實際查核 BigGo 與 FindPrice exact-model 價格頁；未取得可公開重現的同型號可信新品歷史最低價。排除會員券、點數、信用卡回饋、二手、福利品、展示、拆封、整新品、配件價與僅單一組件價。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1587,20 +1600,7 @@
       "Haier",
       "台灣瓦斯規格",
       "施工另估"
-    ],
-    "historicalLow": {
-      "status": "found",
-      "amount": 10350,
-      "currency": "TWD",
-      "converted": 10350,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1227814912&cgp=10580",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Haier 海爾】16L智能恆溫強制排氣熱水器LPG 數位恆溫 基本安裝JSQ30-16E1(LPG/FE式)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Haier 海爾】16L智能恆溫強制排氣熱水器LPG 數位恆溫 基本安裝JSQ30-16E1(LPG/FE式)」最低價為 NT$10,350，最低點日期 2026-08-08。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。 史低方案標題標示含基本／標準安裝；實際服務區、材料與追加施工仍以通路及現勘為準。 現行商品資料安裝邊界為「不含安裝」：官方建議售價未含未列材料；桶裝瓦斯調整器與排氣管須現勘"
-    }
+    ]
   },
   {
     "id": "waterheater-haier-jsq34-16dc3-ng1",
@@ -1655,9 +1655,22 @@
     "bestFor": "已有合規瓦斯與排氣條件、希望連續熱水的住宅",
     "recommendation": "選購重點：即開即熱，連續供水能力適合日常淋浴；仍要由合格技師完成場勘與施工。",
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已實際查核 BigGo 與 FindPrice exact-model 價格頁；未取得可公開重現的同型號可信新品歷史最低價。排除會員券、點數、信用卡回饋、二手、福利品、展示、拆封、整新品、配件價與僅單一組件價。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1701,20 +1714,7 @@
       "Haier",
       "台灣瓦斯規格",
       "施工另估"
-    ],
-    "historicalLow": {
-      "status": "found",
-      "amount": 9200,
-      "currency": "TWD",
-      "converted": 9200,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1191529351&cgp=10000",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Haier 海爾】16L智能恆溫熱水器DC3 數位恆溫(JSQ34-16DC3/NG1 基本安裝)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Haier 海爾】16L智能恆溫熱水器DC3 數位恆溫(JSQ34-16DC3/NG1 基本安裝)」最低價為 NT$9,200，最低點日期 2026-02-21。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。 史低方案標題標示含基本／標準安裝；實際服務區、材料與追加施工仍以通路及現勘為準。 現行商品資料安裝邊界為「不含安裝」：官方建議售價未含未列材料；僅適用 NG1，須確認瓦斯別與排氣施工"
-    }
+    ]
   },
   {
     "id": "waterheater-rinnai-reh-0856p4",
@@ -1770,9 +1770,22 @@
     "bestFor": "無瓦斯條件且可配置合規 220V 專用迴路的住宅",
     "recommendation": "選購重點：不燃燒瓦斯，沒有燃燒廢氣；仍要由合格技師完成場勘與施工。",
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已實際查核 BigGo 與 FindPrice exact-model 價格頁；未取得可公開重現的同型號可信新品歷史最低價。排除會員券、點數、信用卡回饋、二手、福利品、展示、拆封、整新品、配件價與僅單一組件價。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1816,20 +1829,7 @@
       "Rinnai",
       "儲熱式",
       "施工另估"
-    ],
-    "historicalLow": {
-      "status": "found",
-      "amount": 13623,
-      "currency": "TWD",
-      "converted": 13623,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1285428423&cgp=13900",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(全省安裝)林內8加侖倍容型儲熱式4KW電熱水器REH-0856P4",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / (全省安裝)林內8加侖倍容型儲熱式4KW電熱水器REH-0856P4」最低價為 NT$13,623，最低點日期 2026-07-28。",
-      "sourceKind": "price_history",
-      "confidence": "medium",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。 史低方案標題標示含基本／標準安裝；實際服務區、材料與追加施工仍以通路及現勘為準。 現行商品資料安裝邊界為「不含安裝」：官方定價未列現場配線與管材；需 220V 專用迴路、接地與排水"
-    }
+    ]
   },
   {
     "id": "waterheater-rinnai-reh-1256p4",
@@ -1885,9 +1885,22 @@
     "bestFor": "無瓦斯條件且可配置合規 220V 專用迴路的住宅",
     "recommendation": "選購重點：不燃燒瓦斯，沒有燃燒廢氣；仍要由合格技師完成場勘與施工。",
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已實際查核 BigGo 與 FindPrice exact-model 價格頁；未取得可公開重現的同型號可信新品歷史最低價。排除會員券、點數、信用卡回饋、二手、福利品、展示、拆封、整新品、配件價與僅單一組件價。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1931,20 +1944,7 @@
       "Rinnai",
       "儲熱式",
       "施工另估"
-    ],
-    "historicalLow": {
-      "status": "found",
-      "amount": 15093,
-      "currency": "TWD",
-      "converted": 15093,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1285428422&cgp=15400",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(全省安裝)林內12加侖倍容型儲熱式4KW電熱水器REH-1256P4",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / (全省安裝)林內12加侖倍容型儲熱式4KW電熱水器REH-1256P4」最低價為 NT$15,093，最低點日期 2026-07-28。",
-      "sourceKind": "price_history",
-      "confidence": "medium",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。 史低方案標題標示含基本／標準安裝；實際服務區、材料與追加施工仍以通路及現勘為準。 現行商品資料安裝邊界為「不含安裝」：官方定價未列現場配線與管材；需 220V 專用迴路、接地與排水"
-    }
+    ]
   },
   {
     "id": "waterheater-rinnai-reh-2056p4",
@@ -2000,9 +2000,22 @@
     "bestFor": "無瓦斯條件且可配置合規 220V 專用迴路的住宅",
     "recommendation": "選購重點：不燃燒瓦斯，沒有燃燒廢氣；仍要由合格技師完成場勘與施工。",
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已實際查核 BigGo 與 FindPrice exact-model 價格頁；未取得可公開重現的同型號可信新品歷史最低價。排除會員券、點數、信用卡回饋、二手、福利品、展示、拆封、整新品、配件價與僅單一組件價。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2046,20 +2059,7 @@
       "Rinnai",
       "儲熱式",
       "施工另估"
-    ],
-    "historicalLow": {
-      "status": "found",
-      "amount": 17347,
-      "currency": "TWD",
-      "converted": 17347,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1285428419&cgp=17700",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(全省安裝)林內20加侖倍容型儲熱式4KW電熱水器REH-2056P4",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / (全省安裝)林內20加侖倍容型儲熱式4KW電熱水器REH-2056P4」最低價為 NT$17,347，最低點日期 2026-07-28。",
-      "sourceKind": "price_history",
-      "confidence": "medium",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。 史低方案標題標示含基本／標準安裝；實際服務區、材料與追加施工仍以通路及現勘為準。 現行商品資料安裝邊界為「不含安裝」：官方定價未列現場配線與管材；需 220V 專用迴路、接地與排水"
-    }
+    ]
   },
   {
     "id": "waterheater-paotien-peh-8gs",
@@ -2130,7 +2130,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2245,7 +2245,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2360,7 +2360,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2460,9 +2460,22 @@
     "bestFor": "無瓦斯條件且可配置合規 220V 專用迴路的住宅",
     "recommendation": "選購重點：不燃燒瓦斯，沒有燃燒廢氣；仍要由合格技師完成場勘與施工。",
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已實際查核 BigGo 與 FindPrice exact-model 價格頁；未取得可公開重現的同型號可信新品歷史最低價。排除會員券、點數、信用卡回饋、二手、福利品、展示、拆封、整新品、配件價與僅單一組件價。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2506,20 +2519,7 @@
       "SAKURA",
       "儲熱式",
       "含基本安裝"
-    ],
-    "historicalLow": {
-      "status": "found",
-      "amount": 10400,
-      "currency": "TWD",
-      "converted": 10400,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1203204634&cgp=11700",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【SAKURA 櫻花】8加侖6KW儲熱式電熱水器(EH0810A6基本安裝)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【SAKURA 櫻花】8加侖6KW儲熱式電熱水器(EH0810A6基本安裝)」最低價為 NT$10,400，最低點日期 2026-08-08。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。 史低方案標題標示含基本／標準安裝；實際服務區、材料與追加施工仍以通路及現勘為準。 現行商品資料安裝邊界為「含基本安裝」：建議售價含基本安裝，不含耗材及運送；須配置 220V 專用迴路"
-    }
+    ]
   },
   {
     "id": "waterheater-sakura-sh125",
@@ -2590,7 +2590,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2705,7 +2705,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2820,7 +2820,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2935,7 +2935,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3050,7 +3050,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3165,7 +3165,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3280,7 +3280,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3395,7 +3395,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3494,9 +3494,22 @@
     "bestFor": "用水量較大、有屋外或半戶外空間且重視長期能耗的住宅",
     "recommendation": "選購重點：以熱泵搬運熱能，長期用電效率通常優於純電熱；仍要由合格技師完成場勘與施工。",
     "releaseDate": "2025",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已實際查核 BigGo 與 FindPrice exact-model 價格頁；未取得可公開重現的同型號可信新品歷史最低價。排除會員券、點數、信用卡回饋、二手、福利品、展示、拆封、整新品、配件價與僅單一組件價。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3540,20 +3553,7 @@
       "RECHI",
       "空氣源熱泵",
       "含基本安裝"
-    ],
-    "historicalLow": {
-      "status": "found",
-      "amount": 81900,
-      "currency": "TWD",
-      "converted": 81900,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1269426116&cgp=81900",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：瑞智高效能 一體直熱式 台灣製熱泵熱水器 AT-062AI11(YDLE)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「HOLA特力和樂 / 瑞智高效能 一體直熱式 台灣製熱泵熱水器 AT-062AI11(YDLE)」最低價為 NT$81,900，最低點日期 2026-08-20。",
-      "sourceKind": "price_history",
-      "confidence": "medium",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。 史低方案標題未明示安裝是否包含，安裝、耗材與追加施工須另向通路確認。 現行商品資料安裝邊界為「含基本安裝」：標準安裝到好含稅總價；現場升級材料、吊掛、基礎與超額配管配電另計"
-    }
+    ]
   },
   {
     "id": "waterheater-hmk-hmt-010200",
@@ -3623,7 +3623,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3738,7 +3738,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3852,7 +3852,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3966,7 +3966,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -4080,7 +4080,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -4194,7 +4194,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -4308,7 +4308,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -4422,7 +4422,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -4536,7 +4536,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -4650,7 +4650,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -4764,7 +4764,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -4878,7 +4878,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -4977,9 +4977,22 @@
     "bestFor": "用水量較大、有屋外或半戶外空間且重視長期能耗的住宅",
     "recommendation": "選購重點：以熱泵搬運熱能，長期用電效率通常優於純電熱；仍要由合格技師完成場勘與施工。",
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已實際查核 BigGo 與 FindPrice exact-model 價格頁；未取得可公開重現的同型號可信新品歷史最低價。排除會員券、點數、信用卡回饋、二手、福利品、展示、拆封、整新品、配件價與僅單一組件價。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -5023,20 +5036,7 @@
       "Dajinan 大金安",
       "空氣源熱泵",
       "施工另估"
-    ],
-    "historicalLow": {
-      "status": "found",
-      "amount": 43380,
-      "currency": "TWD",
-      "converted": 43380,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1115381374&cgp=48150",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Dajinan 大金安】200L空氣能熱泵熱水器立地式一體機不含安裝(DJNHP-200L)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Dajinan 大金安】200L空氣能熱泵熱水器立地式一體機不含安裝(DJNHP-200L)」最低價為 NT$43,380，最低點日期 2024-08-20。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。 史低方案標題明示不含安裝，安裝與現場耗材另計。 現行商品資料安裝邊界為「不含安裝」：商品價含到府配送、不含安裝；標準安裝 NT$6,000，樓層、吊車與額外材料另計"
-    }
+    ]
   },
   {
     "id": "waterheater-a-o-smith-hpi-50d1-0bt",
@@ -5050,9 +5050,9 @@
     "name": "A.O. Smith HPI-50D1.0BT 一體式空氣源熱泵熱水器",
     "price": {
       "currency": "TWD",
-      "amount": 72600,
-      "converted": 72600,
-      "confidence": "Yahoo 購物中心 exact-model 新品公開價 2026-08-14 exact-model 公開新品價",
+      "amount": 75000,
+      "converted": 75000,
+      "confidence": "Yahoo購物中心 2026-08-25 exact-model 公開結構化價格",
       "basis": "retailer_current",
       "scope": "single_unit"
     },
@@ -5091,9 +5091,22 @@
     "bestFor": "用水量較大、有屋外或半戶外空間且重視長期能耗的住宅",
     "recommendation": "選購重點：以熱泵搬運熱能，長期用電效率通常優於純電熱；仍要由合格技師完成場勘與施工。",
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已實際查核 BigGo 與 FindPrice exact-model 價格頁；未取得可公開重現的同型號可信新品歷史最低價。排除會員券、點數、信用卡回饋、二手、福利品、展示、拆封、整新品、配件價與僅單一組件價。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -5137,20 +5150,7 @@
       "A.O. Smith",
       "空氣源熱泵",
       "施工另估"
-    ],
-    "historicalLow": {
-      "status": "found",
-      "amount": 72600,
-      "currency": "TWD",
-      "converted": 72600,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1272934417&cgp=72600",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【AOSmith】50加侖/190L超節能熱泵熱水器 HPI-50D1.0BT",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / 【AOSmith】50加侖/190L超節能熱泵熱水器 HPI-50D1.0BT」最低價為 NT$72,600，最低點日期 2026-08-20。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。 史低方案標題未明示安裝是否包含，安裝、耗材與追加施工須另向通路確認。 現行商品資料安裝邊界為「不含安裝」：公開價未含基本安裝；官方基本安裝費 NT$5,800，吊運、樓層、基礎與超額配管配電另計"
-    }
+    ]
   }
 ]);
 })();

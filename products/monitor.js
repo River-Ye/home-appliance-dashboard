@@ -17,9 +17,9 @@
     "name": "27 型 2K 180Hz IPS USB-C 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 5068,
-      "converted": 5068,
-      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 5218,
+      "converted": 5218,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABKBA900JZ3CV/000001_1777866944.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABKB-A900JZ3CV",
@@ -69,7 +69,7 @@
     },
     "issueResearch": {
       "status": "common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-08-29",
       "summary": "多位 XG27ACS 使用者回報在 180Hz／DisplayPort 下會隨機閃出白色水平線或畫面閃爍，部分伴隨短暫黑屏。",
       "issues": [
         {
@@ -154,7 +154,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -237,7 +237,7 @@
       "USB-C",
       "文書"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2025-02",
     "historicalLow": {
       "status": "found",
       "amount": 3781,
@@ -253,7 +253,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -352,7 +352,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -400,9 +400,9 @@
     "name": "27 型 FHD 144Hz IPS 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 2840,
-      "converted": 2840,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 2990,
+      "converted": 2990,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABPDA900JTLEG/000001_1773715062.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABPD-A900JTLEG",
@@ -451,7 +451,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -534,7 +534,7 @@
       "210Hz",
       "CP 值"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2026-08-20",
     "historicalLow": {
       "status": "found",
       "amount": 4488,
@@ -550,7 +550,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -649,7 +649,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -748,7 +748,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-20",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -847,7 +847,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -895,9 +895,9 @@
     "name": "27 型 4K USB-C 70W 商務螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 28900,
-      "converted": 28900,
-      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 29900,
+      "converted": 29900,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABGVA900JG58D/000001_1763013340.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABGV-A900JG58D",
@@ -946,7 +946,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -994,9 +994,9 @@
     "name": "27 型 2K 120Hz 電腦螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 3699,
-      "converted": 3699,
-      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 3399,
+      "converted": 3399,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABVOA900JMD8B/000001_1768285501.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABVO-A900JMD8B",
@@ -1029,23 +1029,23 @@
       "120Hz",
       "低價"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2026-02-24",
     "historicalLow": {
       "status": "found",
-      "amount": 3499,
+      "amount": 3399,
       "currency": "TWD",
-      "converted": 3499,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1268930064&cgp=3699",
-      "sourceTitle": "LBJ 比價撿便宜歷史價格：PChome Xiaomi A27Qi 2026",
-      "evidenceSnippet": "LBJ PChome history shows NT$3,499 on 2026-01-09 and 2026-01-17 for Xiaomi A27Qi 2026.",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "已由 worker 查核 LBJ、BigGo 與 FindPrice；採 LBJ PChome 同型號歷史低點 NT$3,499。低於此價的福利品、拍賣混列或非可信新品通路候選均排除。"
+      "converted": 3399,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DSABVO-A900JMD8B",
+      "sourceTitle": "PChome 24h 購物：小米 Xiaomi 2K 電腦螢幕 A27Qi 2026(27型/2K/120Hz)",
+      "evidenceSnippet": "PChome 24h 購物於 2026-09-01 顯示同型號可信新品公開價 NT$3,399，低於既有史低 NT$3,499。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-09-01",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1144,7 +1144,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1227,7 +1227,7 @@
       "160Hz",
       "USB-C"
     ],
-    "releaseDate": "2024-11",
+    "releaseDate": "2024-11-22",
     "historicalLow": {
       "status": "found",
       "amount": 7980,
@@ -1243,7 +1243,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1342,7 +1342,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1441,7 +1441,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1540,7 +1540,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1623,7 +1623,7 @@
       "雙模",
       "KVM"
     ],
-    "releaseDate": "2025-10-24",
+    "releaseDate": "2025-06-12",
     "historicalLow": {
       "status": "found",
       "amount": 8540,
@@ -1639,7 +1639,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1722,7 +1722,7 @@
       "4K",
       "USB-C"
     ],
-    "releaseDate": "2026-02-15",
+    "releaseDate": "2024-09-27",
     "historicalLow": {
       "status": "found",
       "amount": 14144,
@@ -1738,7 +1738,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-20",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1821,7 +1821,7 @@
       "4K",
       "USB-C"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2025-03-05",
     "historicalLow": {
       "status": "found",
       "amount": 14144,
@@ -1837,7 +1837,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1936,7 +1936,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1984,9 +1984,9 @@
     "name": "27 型 4K Thunderbolt USB-C UltraSharp 螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 26888,
-      "converted": 26888,
-      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 24888,
+      "converted": 24888,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOLA900IIFQG/000001_1744702043.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABOL-A900IIFQG",
@@ -2035,7 +2035,7 @@
     },
     "issueResearch": {
       "status": "common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-08-29",
       "summary": "多位 U2725QE 使用者回報明顯線圈噪音，常在低亮度、待機或低供電負載時較嚴重。",
       "issues": [
         {
@@ -2114,7 +2114,7 @@
       "32吋",
       "ASUS"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2025-10-31",
     "historicalLow": {
       "status": "found",
       "amount": 20888,
@@ -2130,7 +2130,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2213,10 +2213,23 @@
       "240Hz",
       "ROG"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2026-07-24",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-17",
+      "note": "原 PChome XG27AQDMES 史低頁於 2026-07-17 雖回應 HTTP 200，但商品 API 已回傳空白商品，無法再重現同型號與 NT$10,343 證據；其他可信通路只確認目前新品價，未找到可替代的公開史低證據，因此誠實改為找不到。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2251,19 +2264,6 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 10388,
-      "currency": "TWD",
-      "converted": 10388,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1268707725&cgp=10888",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【ASUS 華碩】ROG Strix OLED XG27AQDMES 27型 1440p 240Hz 電競螢幕(0.03ms/QD-OLED)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【ASUS 華碩】ROG Strix OLED XG27AQDMES 27型 1440p 240Hz 電競螢幕(0.03ms/QD-OLED)」最低價為 NT$10,388，最低點日期 2026-08-19。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2277,9 +2277,9 @@
     "name": "27 型 WQHD 360Hz QD-OLED 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 17955,
-      "converted": 17955,
-      "confidence": "Yahoo購物中心 2026-08-19 exact-model 公開結構化價格"
+      "amount": 18900,
+      "converted": 18900,
+      "confidence": "Yahoo購物中心 2026-09-01 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBC1ZA900HE04M/000001_1757303897.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/MSI%E5%BE%AE%E6%98%9F-MPG-271QRX-QD-OLED-27%E5%9E%8B-2K-360Hz-HDR%E9%9B%BB%E7%AB%B6%E8%9E%A2%E5%B9%95-10958143.html",
@@ -2313,7 +2313,7 @@
       "360Hz",
       "MSI"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2024-03-21",
     "historicalLow": {
       "status": "found",
       "amount": 17955,
@@ -2329,7 +2329,7 @@
     },
     "issueResearch": {
       "status": "common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "多位 MPG 271QRX 使用者跨站回報，使用中會隨機短暫黑屏，約一至數秒後自行恢復。",
       "issues": [
         {
@@ -2414,7 +2414,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2462,9 +2462,9 @@
     "name": "27 型 4K IPS USB-C 人體工學螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 7599,
-      "converted": 7599,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 7999,
+      "converted": 7999,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABEZA900K1N6R/000001_1782816950.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABEZ-A900K1N6R",
@@ -2497,7 +2497,7 @@
       "USB-C",
       "人體工學"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2026-07",
     "historicalLow": {
       "status": "found",
       "amount": 6890,
@@ -2513,7 +2513,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2561,9 +2561,9 @@
     "name": "27 型 4K 160Hz IPS 雙模電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 8599,
-      "converted": 8599,
-      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 8999,
+      "converted": 8999,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOIA900K129O/000001_1779250013.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABOI-A900K129O",
@@ -2612,7 +2612,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2695,7 +2695,7 @@
       "260Hz",
       "Philips"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2025-11",
     "historicalLow": {
       "status": "found",
       "amount": 4833,
@@ -2711,7 +2711,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2794,7 +2794,7 @@
       "2K",
       "HDR"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2025-04-17",
     "historicalLow": {
       "status": "found",
       "amount": 7208,
@@ -2810,7 +2810,7 @@
     },
     "issueResearch": {
       "status": "common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-08-29",
       "summary": "多位 Q27G40XMN 使用者反映，在 VRR、高更新率或遊戲幀率變動時會出現畫面閃爍。",
       "issues": [
         {
@@ -2879,7 +2879,7 @@
       "500Hz",
       "旗艦"
     ],
-    "releaseDate": "2025-08-13",
+    "releaseDate": "2025-08-12",
     "historicalLow": {
       "status": "found",
       "amount": 19900,
@@ -2895,7 +2895,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2943,9 +2943,9 @@
     "name": "32 型 4K 240Hz OLED Alienware 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 32888,
-      "converted": 32888,
-      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 33888,
+      "converted": 33888,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOKA900HB1B5/000001_1710325731.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABOK-A900HB1B5",
@@ -2994,12 +2994,12 @@
     },
     "issueResearch": {
       "status": "common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-08-29",
       "summary": "多位 AW3225QF 使用者回報早期包裝保護材會摩擦 OLED 面板，開箱即出現污痕、蜂巢壓痕或微刮痕。",
       "issues": [
         {
           "title": "包裝保護材造成面板污痕或微刮痕",
-          "detail": "部分痕跡無法完全擦除且換貨後仍可能出現；收貨時應在強光下立即檢查整片面板，發現刮痕便在退換貨期內處理。",
+          "detail": "這是早期包裝的歷史回報。2026-08-31 補核 Dell 官方 KB 000321630，已明確記載後期 AW3225QF 的可撕保護膜；另有 2024 年 5 月買家確認收到有膜且完好的機器。官方 KB 說明的是撕膜聲音，不能據此推定所有批次刮痕均已排除。保留原逐人證據日期，收貨仍應立即檢查面板並在退換貨期內處理異常。",
           "reportCount": 11,
           "sources": [
             {
@@ -3080,7 +3080,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3164,7 +3164,7 @@
       "WQHD",
       "曲面"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2025-08-22",
     "historicalLow": {
       "status": "found",
       "amount": 5990,
@@ -3180,7 +3180,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3280,7 +3280,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3330,7 +3330,7 @@
       "currency": "TWD",
       "amount": 6888,
       "converted": 6888,
-      "confidence": "PChome 2026-08-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABQRA900JPRWC/000001_1770367990.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABQR-A900JPRWC",
@@ -3380,7 +3380,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3464,7 +3464,7 @@
       "200Hz",
       "電競"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2026-07-09",
     "historicalLow": {
       "status": "found",
       "amount": 5499,
@@ -3480,7 +3480,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3564,7 +3564,7 @@
       "280Hz",
       "USB-C"
     ],
-    "releaseDate": "2026-05-07",
+    "releaseDate": "2026-07-24",
     "historicalLow": {
       "status": "found",
       "amount": 25543,
@@ -3580,7 +3580,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3680,7 +3680,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3728,9 +3728,9 @@
     "name": "34 型 Porsche Design 240Hz QD-OLED 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 30988,
-      "converted": 30988,
-      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 31988,
+      "converted": 31988,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABQRA900K5BI4/000001_1782298311.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABQR-A900K5BI4",
@@ -3764,7 +3764,7 @@
       "240Hz",
       "設計"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2024-09-18",
     "historicalLow": {
       "status": "found",
       "amount": 28488,
@@ -3780,7 +3780,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3880,7 +3880,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3928,9 +3928,9 @@
     "name": "49 型 Odyssey OLED G9 Dual QHD 240Hz 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 34999,
-      "converted": 34999,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 34900,
+      "converted": 34900,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900HZCPE/000001_1781766568.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900HZCPE",
@@ -3967,20 +3967,20 @@
     "releaseDate": "2024",
     "historicalLow": {
       "status": "found",
-      "amount": 34999,
+      "amount": 34900,
       "currency": "TWD",
-      "converted": 34999,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282898133&cgp=36900",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Samsung 三星 49吋 Odyssey OLED G9 S49DG932SCXZW 曲面電競螢幕 G93SD",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / Samsung 三星 49吋 Odyssey OLED G9 S49DG932SCXZW 曲面電競螢幕 G93SD」最低價為 NT$34,999，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 34900,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900HZCPE",
+      "sourceTitle": "PChome 24h 購物：【限時快閃】SAMSUNG 三星 49吋 Odyssey OLED G9 曲面電競螢幕 S49DG932SCXZW",
+      "evidenceSnippet": "PChome 24h 購物於 2026-08-21 顯示同型號可信新品公開價 NT$34,900，低於既有史低 NT$34,999。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-08-21",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -4080,7 +4080,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -4164,7 +4164,7 @@
       "OLED",
       "智慧聯網"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2025-04-03",
     "historicalLow": {
       "status": "found",
       "amount": 37900,
@@ -4180,7 +4180,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -4230,7 +4230,7 @@
       "currency": "TWD",
       "amount": 66500,
       "converted": 66500,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900GQLSE/000001_1783054239.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900GQLSE",
@@ -4280,7 +4280,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -4330,7 +4330,7 @@
       "currency": "TWD",
       "amount": 39888,
       "converted": 39888,
-      "confidence": "PChome 2026-08-17 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOMA900HIJN3/000001_1716881117.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABOM-A900HIJN3",
@@ -4380,7 +4380,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -4428,9 +4428,9 @@
     "name": "49 型 DQHD QD-OLED 144Hz Type-C 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 31900,
-      "converted": 31900,
-      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 32900,
+      "converted": 32900,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABPDA900H9PEB/000001_1709257135.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABPD-A900H9PEB",
@@ -4480,7 +4480,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -4578,7 +4578,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -4677,7 +4677,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -4776,7 +4776,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -4881,7 +4881,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -4969,7 +4969,7 @@
       "KVM",
       "專業色彩"
     ],
-    "releaseDate": "2026-07",
+    "releaseDate": "2026-07-22",
     "historicalLow": {
       "status": "found",
       "amount": 25544,
@@ -4985,7 +4985,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -5076,9 +5076,22 @@
       "專業色彩"
     ],
     "releaseDate": "2026-05",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-26",
+      "note": "已查 ASUS 台灣官方商城、官方產品列表、BigGo、FindPrice、LBJ 與海外 exact-model 價格歷史；台灣官方現價為 NT$69,900，但未找到同一台灣料號 90LM04N0-B013D1 可公開重現的可信新品歷史最低價，因此不把現價直接視為史低。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -5113,19 +5126,6 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 69900,
-      "currency": "TWD",
-      "converted": 69900,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=589268350&cgp=69900",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：ASUS華碩 ProArt PA27USD【26.5吋】專業螢幕/OLED/4K/12G-SDI/原價屋【廠商直送】",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - 原價屋Coolpc / ASUS華碩 ProArt PA27USD【26.5吋】專業螢幕/OLED/4K/12G-SDI/原價屋【廠商直送】」最低價為 NT$69,900，最低點日期 2026-08-20。",
-      "sourceKind": "price_history",
-      "confidence": "medium",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -5140,9 +5140,10 @@
     "name": "27 型 4K 內建校色器專業色彩管理螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 49888,
-      "converted": 49888,
-      "confidence": "momo購物 2026-07-26 exact-model 公開促銷可購價"
+      "amount": 59888,
+      "converted": 59888,
+      "confidence": "2026-08-31 人工核對 momo 品號15221341，BenQ PD2770U 公開促銷價 NT$59,888；頁面載入完成後可直接購買或放入購物車。未扣贈品、mo點或信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://image.benq.com/is/image/benqco/1pd2770u-front-hood-hotkey-2?$ResponsivePreset$",
     "buyUrl": "https://www.momoshop.com.tw/product/15221341",
@@ -5199,7 +5200,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -5248,9 +5249,9 @@
     "name": "32 型 Odyssey G8 G80HS 6K 165Hz／3K 330Hz 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 28900,
-      "converted": 28900,
-      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 29900,
+      "converted": 29900,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABSKA900K0G32/000001_1778746645.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABSK-A900K0G32",
@@ -5289,7 +5290,7 @@
       "DisplayPort 2.1",
       "HDR10+ Gaming"
     ],
-    "releaseDate": "2026-05-18",
+    "releaseDate": "2026-05",
     "historicalLow": {
       "status": "found",
       "amount": 28405,
@@ -5305,7 +5306,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -5397,10 +5398,23 @@
       "HDMI 2.1",
       "PS5"
     ],
-    "releaseDate": "2024-10-08",
+    "releaseDate": "2024-10-25",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已查 Sony 台灣官方購物頁及 exact-model 價格搜尋；本輪可重現現價為 NT$26,990，搜尋到的活動數字無法在具日期的可信新品原頁重現，因此不以現價或摘要推定史低。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -5435,19 +5449,6 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 21990,
-      "currency": "TWD",
-      "converted": 21990,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1236843002&cgp=26990",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：[Sony 索尼] INZONE M9 II 電競螢幕SDM-27U9M2 (27型/4K IPS/160Hz/1ms/24.5”模式 /HDMI2.1/DP2.1)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / [Sony 索尼] INZONE M9 II 電競螢幕SDM-27U9M2 (27型/4K IPS/160Hz/1ms/24.5”模式 /HDMI2.1/DP2.1)」最低價為 NT$21,990，最低點日期 2026-07-25。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -5468,7 +5469,7 @@
       "basis": "retailer_current"
     },
     "image": "https://pstw.panasonic.com.tw/shop/Upload/Product/20260528094209UW0X8VGU.jpg",
-    "buyUrl": "https://pstw.panasonic.com.tw/Shop/Product/gamingmonitor?Ordery=MAXPRICE",
+    "buyUrl": "https://pstw.panasonic.com.tw/Shop/product/detail/GNYAUT3ACIGK79EA4TIT/TS-27GF40CTK",
     "buyLabel": "Panasonic 台灣官方商城會員價",
     "installation": {
       "status": "not_stated",
@@ -5496,7 +5497,7 @@
     "recommendation": "Panasonic 日系螢幕補強：雙模式規格清楚且官方現售，但不因品牌直接取代既有 Top Pick。",
     "score": 89,
     "voltage": "原廠適配器輸出 19V／3.42A；BSMI 驗證登錄 R31417、證書 CI315064175992；台灣官方公司貨",
-    "warranty": "Panasonic 台灣公司貨；期限依官方商城與保證書",
+    "warranty": "Panasonic 台灣公司貨；自購買日起 3 年全機保固，依 2026-07-01 官方公告，線材等配件耗損不含在延長範圍",
     "tags": [
       "27吋",
       "4K 160Hz",
@@ -5506,9 +5507,22 @@
       "5kg"
     ],
     "releaseDate": "2026-04-29",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已查 Panasonic 官方產品頁、官方商城及 exact-model 價格搜尋；目前只能重現官方商城 NT$12,900，尚無具日期且可公開重現的更低可信新品價。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -5543,19 +5557,385 @@
           "targetHost": "youtube.com"
         }
       ]
+    }
+  },
+  {
+    "id": "monitor-lenovo-loq-27q-10",
+    "category": "monitor",
+    "rank": 61,
+    "topPick": false,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Lenovo",
+    "model": "LOQ 27Q-10",
+    "name": "LOQ 27Q-10 27 吋 QHD 180Hz Fast IPS 電競螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 4191,
+      "converted": 4191,
+      "confidence": "Lenovo 台灣官方商城 2026-08-20 exact part 68F3GACBTW 公開價，頁面可加入購物車並顯示預估 6-9 天出貨",
+      "basis": "retailer_current"
     },
+    "image": "https://p2-ofp.static.pub/ShareResource/ww/visuals/LOQ-10series/LOQ-27Q-10-list.png?width=584&height=584",
+    "buyUrl": "https://www.lenovo.com/tw/zh/p/accessories-and-software/monitors/gaming/68f3gacbtw",
+    "buyLabel": "Lenovo 台灣官方商城",
+    "installation": {
+      "status": "not_stated",
+      "note": "Lenovo 台灣官方商城提供宅配，未把桌面組裝或 VESA 壁掛施工列入售價；改用螢幕支架時需自行核對 VESA、承重與桌板。"
+    },
+    "specs": [
+      "27 吋 QHD 2560 x 1440 Fast IPS；最高 180Hz",
+      "0.5ms MPRT／1ms GtG、99% sRGB、HDR10",
+      "AMD FreeSync Premium、VESA Adaptive Sync",
+      "HDMI 2.1 TMDS x2、DisplayPort 1.4 x1；VESA 100 x 100 mm",
+      "尺寸：不含底座寬 61.3 x 深 4.6 x 高 36.73 cm；含底座寬 61.3 x 深 21.6 x 高 45.16 cm",
+      "重量：不含底座 4.1 kg；含底座 4.5 kg"
+    ],
+    "description": "Lenovo LOQ 27Q-10 以四千元級官方價提供 QHD 180Hz Fast IPS、雙 HDMI 與三年保固，補進主流品牌的入門 2K 高刷新帶。",
+    "pros": [
+      "QHD 180Hz、FreeSync Premium 與 1ms GtG 規格完整",
+      "99% sRGB、雙 HDMI 及 DisplayPort 適合 PC 與主機共用",
+      "Lenovo 台灣官方直售並提供三年保固"
+    ],
+    "cons": [
+      "HDR10 只代表訊號相容，非 Mini LED 或高階 HDR 顯示",
+      "底座調整以傾斜為主，沒有 USB-C 或 USB Hub",
+      "新款上市時間短，長期使用回報仍少"
+    ],
+    "bestFor": "預算五千元內，希望從 FHD 升級到 27 吋 QHD 高刷新，並重視官方直售與三年保固的人。",
+    "recommendation": "入門 QHD 高刷新補強：官方價與規格很有競爭力，但不把 HDR10 標籤等同高階 HDR；購買前確認顯示卡能否在 QHD 下穩定輸出目標幀率。",
+    "score": 89,
+    "voltage": "AC 100-240V、50/60Hz；台灣官方商城公司貨",
+    "warranty": "Lenovo 台灣官方頁明載三年保固",
+    "tags": [
+      "27吋",
+      "QHD",
+      "180Hz",
+      "Fast IPS",
+      "FreeSync Premium",
+      "平價電競"
+    ],
+    "releaseDate": "2026-03-24",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-20",
+      "note": "已查 Lenovo 台灣官方商城、PSREF、FindPrice、BigGo、LBJ 與 exact-model 價格搜尋；官方頁當下 NT$4,191 是現價而非具日期歷史曲線，未以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-29",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Lenovo LOQ 27Q-10\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Lenovo%20LOQ%2027Q-10%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Lenovo LOQ 27Q-10\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Lenovo%20LOQ%2027Q-10%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Lenovo LOQ 27Q-10\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Lenovo%20LOQ%2027Q-10%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Lenovo LOQ 27Q-10\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Lenovo%20LOQ%2027Q-10%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Lenovo LOQ 27Q-10\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Lenovo%20LOQ%2027Q-10%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "monitor-apple-studio-display-xdr-mfel4ta-a",
+    "category": "monitor",
+    "rank": 62,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Apple",
+    "model": "Studio Display XDR MFEL4TA/A",
+    "name": "27 吋 5K 120Hz Mini LED 顯示器（標準玻璃／可調高度支架）",
+    "price": {
+      "currency": "TWD",
+      "amount": 106603,
+      "converted": 106603,
+      "confidence": "momo 2026-08-28 exact part MFEL4TA/A 公開限時 97 折價；活動原價 NT$109,900，活動截止後需重查",
+      "basis": "retailer_current"
+    },
+    "image": "https://www.apple.com/v/studio-display-xdr/b/images/meta/studio_display_xdr__dvvwjvcv36uu_og.png?202607062342",
+    "buyUrl": "https://www.momoshop.com.tw/product/15103887",
+    "buyLabel": "momo購物網",
+    "installation": {
+      "status": "not_stated",
+      "note": "通路售價為標準玻璃與可調整斜度／高度支架的完整顯示器；桌面擺放不含 VESA 壁掛或懸臂施工。"
+    },
+    "specs": [
+      "27 吋 5120 x 2880 5K Retina XDR；Mini LED 2,304 分區",
+      "最高 120Hz、SDR 1,000 nits、HDR 峰值 2,000 nits",
+      "Thunderbolt 5 x2、USB-C x2；內建 12MP Center Stage 相機與六揚聲器",
+      "尺寸：寬 62.3 x 深 21.4 x 高 47.8-58.3 cm（可調整斜度與高度支架）",
+      "重量：8.5 kg"
+    ],
+    "description": "2026 Studio Display XDR 把 5K、120Hz 與 2,304 分區 Mini LED 整合在 27 吋 Mac 桌面顯示器中，是現有清單少見的高亮度 5K HDR 參考選項。",
+    "pros": [
+      "27 吋 5K、120Hz 與 Mini LED 分區背光兼顧細緻度和 HDR",
+      "Thunderbolt 5、相機、麥克風與六揚聲器對 Mac 使用者整合度高",
+      "標準玻璃加可調高度支架是可直接桌面使用的完整配置"
+    ],
+    "cons": [
+      "價格遠高於一般 27 吋 4K／5K 螢幕",
+      "沒有 HDMI 或 DisplayPort，非 Mac 裝置相容性需另行確認",
+      "Mini LED 仍可能出現光暈，且不是 OLED 的像素級控光"
+    ],
+    "bestFor": "需要 5K 文字細緻度、120Hz、HDR 高亮度與 Mac 單線整合的影音、設計及 Apple 生態系使用者。",
+    "recommendation": "高階 Mac 5K HDR 補強：規格獨特但價格極高；購買前確認 Thunderbolt 相容性，並把它和專業 OLED／Mini LED 顯示器的色彩、介面與保固成本一起比較。",
+    "score": 90,
+    "voltage": "AC 100-240V、50-60Hz；台灣電力可用",
+    "warranty": "Apple 台灣一年有限保固；momo exact-model 頁亦標示一年保固",
+    "tags": [
+      "27吋",
+      "5K",
+      "120Hz",
+      "Mini LED",
+      "Thunderbolt 5",
+      "Mac"
+    ],
+    "releaseDate": "2026",
     "historicalLow": {
       "status": "found",
-      "amount": 12900,
+      "amount": 105504,
       "currency": "TWD",
-      "converted": 12900,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1286588242&cgp=12900",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【神腦生活】Panasonic TS-27GF40CTK 4K 雙模式電競顯示器",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「神腦生活 / 【神腦生活】Panasonic TS-27GF40CTK 4K 雙模式電競顯示器」最低價為 NT$12,900，最低點日期 2026-08-20。",
+      "converted": 105504,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1286686070&cgp=105504",
+      "sourceTitle": "LBJ 比價撿便宜歷史價格：Studio Display XDR 標準玻璃／可調整斜度與高度支架",
+      "evidenceSnippet": "LBJ 的 PChome exact-configuration 歷史曲線在 2026-07-28、08-19、08-28 均記錄 NT$105,504。",
       "sourceKind": "price_history",
       "confidence": "medium",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-08-28",
+      "note": "採同尺寸、標準玻璃與可調整斜度／高度支架的完整新品配置；排除奈米紋理玻璃、固定斜度支架、二手與個人化回饋。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-29",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Studio Display XDR MFEL4TA/A\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Studio%20Display%20XDR%20MFEL4TA%2FA%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Studio Display XDR MFEL4TA/A\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Studio%20Display%20XDR%20MFEL4TA%2FA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "monitor-samsung-odyssey-g80hf-ls27hg806efxzw",
+    "category": "monitor",
+    "rank": 63,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Samsung",
+    "model": "Odyssey G8 G80HF LS27HG806EFXZW",
+    "name": "27 吋 5K 180Hz／QHD 360Hz 雙模式電競螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 19900,
+      "converted": 19900,
+      "confidence": "PChome 2026-08-28 exact-model S27HG806EF 公開價且可加入購物車",
+      "basis": "retailer_current"
+    },
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tw/ls27hg806efxzw/gallery/tw-odyssey-g8-g80hf-ls27hg806efxzw-551950593?$1164_776_PNG$",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABON-A900K2NJE",
+    "buyLabel": "PChome 24h購物",
+    "installation": {
+      "status": "not_stated",
+      "note": "通路售價為螢幕與原廠底座；桌面組裝、VESA 壁掛或懸臂支架施工未列入售價。"
+    },
+    "specs": [
+      "27 吋 Fast IPS；5K 5120 x 2880 最高 180Hz",
+      "雙模式切換 QHD 2560 x 1440 最高 360Hz；1ms GtG",
+      "峰值亮度 400 cd/㎡；HDR10、HDR10+ Gaming、AMD FreeSync Premium、CoreSync",
+      "尺寸：不含底座寬 61.41 x 深 5.96 x 高 36.51 cm；含底座寬 61.41 x 深 26.39 x 高 56.66 cm",
+      "重量：不含底座 3.7 kg；含底座 6.2 kg"
+    ],
+    "description": "Odyssey G80HF 讓使用者在原生 5K 180Hz 的細緻度與 QHD 360Hz 的競技更新率間切換，補上現有 32 吋 6K G80HS 之外更偏電競的 27 吋選項。",
+    "pros": [
+      "5K 180Hz 與 QHD 360Hz 雙模式涵蓋高畫質和競技需求",
+      "HDR10+ Gaming、FreeSync Premium 與完整人體工學底座",
+      "台灣三星正式型號與三年螢幕保固"
+    ],
+    "cons": [
+      "5K 180Hz 對顯示卡與傳輸介面要求高",
+      "不是 Mini LED 或 OLED，HDR 黑位不及像素級控光",
+      "切換 QHD 會犧牲原生 5K 的文字細緻度"
+    ],
+    "bestFor": "同一台螢幕要兼顧 5K 工作桌面與 360Hz 競技遊戲，且願意搭配高階顯示卡的人。",
+    "recommendation": "5K／360Hz 雙模式推薦：用 NT$2 萬級補進少見的 5K 高刷新選擇；先確認顯示卡、線材和接口能否輸出 5K 180Hz。",
+    "score": 92,
+    "voltage": "AC 100-240V、50/60Hz 外接變壓器；台灣官方型號",
+    "warranty": "Samsung 台灣顯示器主機與變壓器 36 個月保固",
+    "tags": [
+      "27吋",
+      "5K",
+      "180Hz",
+      "QHD 360Hz",
+      "雙模式",
+      "HDR10+ Gaming"
+    ],
+    "releaseDate": "2026-05",
+    "historicalLow": {
+      "status": "found",
+      "amount": 17900,
+      "currency": "TWD",
+      "converted": 17900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282228385&cgp=18900",
+      "sourceTitle": "LBJ 比價撿便宜歷史價格：Samsung S27HG806EF Odyssey G8 G80HF",
+      "evidenceSnippet": "LBJ 的 momo exact-model 歷史曲線記錄 2026-08-18 與 08-23 最低 NT$17,900。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-28",
+      "note": "採台灣 S27HG806EF／LS27HG806EFXZW 同型號新品公開價；未計聊天議價、信用卡回饋、點數或贈品折現。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-29",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Odyssey G8 G80HF LS27HG806EFXZW\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Odyssey%20G8%20G80HF%20LS27HG806EFXZW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Odyssey G8 G80HF LS27HG806EFXZW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Odyssey%20G8%20G80HF%20LS27HG806EFXZW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "monitor-asus-rog-strix-xg27jcg",
+    "category": "monitor",
+    "rank": 64,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "ASUS",
+    "model": "ROG Strix 5K XG27JCG",
+    "name": "27 吋 5K 180Hz／QHD 330Hz 雙模式電競螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 19888,
+      "converted": 19888,
+      "confidence": "PChome 2026-08-28 exact-model 公開價且可加入購物車",
+      "basis": "retailer_current"
+    },
+    "image": "https://dlcdnwebimgs.asus.com/gain/8A87687D-B574-4D77-A9E2-D14D960EBE84",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABKB-A900JO7QP",
+    "buyLabel": "PChome 24h購物",
+    "installation": {
+      "status": "not_stated",
+      "note": "通路售價為螢幕與原廠底座；桌面組裝、VESA 壁掛或懸臂支架施工未列入售價。"
+    },
+    "specs": [
+      "27 吋 Fast IPS；5K 5120 x 2880 最高 180Hz",
+      "雙模式切換 QHD 2560 x 1440 最高 330Hz；0.3ms",
+      "VESA DisplayHDR 600、ELMB 2、USB-C 顯示與供電",
+      "尺寸：不含底座寬 61.4 x 深 9.0 x 高 36.7 cm；含底座寬 61.4 x 深 21.9 x 高 51.0 cm",
+      "重量：不含底座 4.8 kg；含底座 6.9 kg"
+    ],
+    "description": "XG27JCG 是 ASUS 首批 27 吋 5K 雙模式電競螢幕，以 5K 180Hz、QHD 330Hz、HDR600 和 USB-C 對打同級 Samsung G80HF。",
+    "pros": [
+      "5K 180Hz／QHD 330Hz 雙模式兼顧工作與競技遊戲",
+      "DisplayHDR 600、ELMB 2 與 USB-C 規格完整",
+      "台灣通路現貨與 ASUS 三年螢幕保固"
+    ],
+    "cons": [
+      "5K 180Hz 需要高階顯示卡與正確介面／線材",
+      "Fast IPS 黑位與 HDR 控光不及 OLED 或 Mini LED",
+      "部分新機個案回報 DOA 或 ELMB 拖影，仍未形成跨站集中問題"
+    ],
+    "bestFor": "希望一台螢幕同時提供 5K 生產力、300Hz 以上競技模式與 USB-C 的 PC 使用者。",
+    "recommendation": "5K 雙模式補強：與 Samsung G80HF 同價位但更新率、USB-C 與電競功能取向不同；收到後應在退換期內測試 5K 高刷新、ELMB 與休眠喚醒。",
+    "score": 91,
+    "voltage": "AC 100-240V、50/60Hz；台灣公司貨",
+    "warranty": "ASUS 台灣 LCD 顯示器 36 個月保固；PChome exact-model 頁標示原廠三年保固",
+    "tags": [
+      "27吋",
+      "5K",
+      "180Hz",
+      "QHD 330Hz",
+      "雙模式",
+      "USB-C"
+    ],
+    "releaseDate": "2026",
+    "historicalLow": {
+      "status": "found",
+      "amount": 17800,
+      "currency": "TWD",
+      "converted": 17800,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=585700558&cgp=17800",
+      "sourceTitle": "LBJ 比價撿便宜歷史價格：ASUS ROG Strix 5K XG27JCG",
+      "evidenceSnippet": "LBJ 的 eclife 良興蝦皮商城 exact-model 歷史曲線在 2026-07-28、08-08、08-28 均記錄 NT$17,800。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-28",
+      "note": "排除 ASUS 授權店 NT$17,500 候選，因同一商品頁混有福利品／已拆封選項；採良興新品 exact-model 歷史。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-29",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"ROG Strix 5K XG27JCG\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22ROG%20Strix%205K%20XG27JCG%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"ROG Strix 5K XG27JCG\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22ROG%20Strix%205K%20XG27JCG%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        }
+      ]
     }
   }
 ]);

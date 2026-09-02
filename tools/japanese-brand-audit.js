@@ -9,7 +9,7 @@ const BRAND_CATALOGS = new Map([
   ["Mitsubishi Electric", "https://www.mitsubishielectric.com.tw/home/"],
   ["Daikin", "https://www.hotaidev.com.tw/web/"],
   ["GENERAL", "https://www.fujitsu-general.com/tw/products/"],
-  ["Rinnai", "https://www.rinnai.com.tw/Product"],
+  ["Rinnai", "https://www.rinnai.tw/"],
   ["Noritz", "https://www.noritz.co.jp/product/"],
   ["TOTO", "https://www.twtoto.com.tw/"],
 ]);
@@ -18,7 +18,7 @@ const BRAND_CATALOGS = new Map([
 // map can still resolve to no_eligible_taiwan_model when no exact model meets
 // the catalog's price, voltage, warranty, channel, and evidence contracts.
 const RELEVANT_CATEGORY_IDS = new Map([
-  ["Sony", new Set(["tv", "soundbar", "monitor"])],
+  ["Sony", new Set(["tv", "soundbar", "monitor", "mouse", "keyboard", "mousepad"])],
   ["Panasonic", new Set([
     "tv", "soundbar", "fan", "circulator", "dehumidifier", "purifier", "aircon",
     "vacuum", "washer", "dryer", "washerdryer", "garmentcare", "refrigerator",
@@ -26,8 +26,8 @@ const RELEVANT_CATEGORY_IDS = new Map([
     "bidet", "smartlock", "monitor",
   ])],
   ["HITACHI", new Set([
-    "dehumidifier", "aircon", "vacuum", "washer", "dryer",
-    "washerdryer", "refrigerator", "oven", "smartlock", "waterheater",
+    "dehumidifier", "aircon", "robot", "vacuum", "washer", "dryer",
+    "washerdryer", "refrigerator", "oven", "dishwasher", "smartlock", "purifier", "waterheater",
   ])],
   ["Mitsubishi Electric", new Set(["fan", "dehumidifier", "aircon", "refrigerator"])],
   ["Daikin", new Set(["dehumidifier", "purifier", "aircon", "waterheater"])],
@@ -41,19 +41,58 @@ const CATEGORY_SOURCES = new Map([
   ["Sony:tv", "https://www.sony.com.tw/zh/bravia"],
   ["Sony:soundbar", "https://www.sony.com.tw/zh/home-theatre-sound-bars"],
   ["Sony:monitor", "https://www.sony.com.tw/zh/gaming-gear"],
+  ["Sony:mouse", "https://store.sony.com.tw/product/MSE-G500/B"],
+  ["Sony:keyboard", "https://store.sony.com.tw/product/KBD-G900/B"],
+  ["Sony:mousepad", "https://store.sony.com.tw/product/MPD-F900/B"],
   ["Panasonic:monitor", "https://www.panasonic.com/tw/consumer/digital-av/monitor/ts-27gf40ctk.html"],
+  ["Panasonic:coffee", "https://pstw.panasonic.com.tw/Shop/Product/coffee"],
   ["Panasonic:waterheater", "https://www.panasonic.com/tw/consumer/all-products.html"],
+  ["HITACHI:dishwasher", "https://hitachi-homeappliances.com.tw/products/products_03.php?pid=HDFF168CV"],
+  ["HITACHI:purifier", "https://www.jci-hitachi.tw/products/products_level2.aspx?pid=11"],
+  ["HITACHI:robot", "https://hitachi-homeappliances.com.tw/products/products_compare.php?gid=B05&prod=RVX20DPA"],
   ["HITACHI:waterheater", "https://www.jci-hitachi.tw/service/download/RoHS.aspx/download.aspx"],
   ["Daikin:aircon", "https://www.hotaidev.com.tw/web/product-home-dm.html"],
   ["Daikin:purifier", "https://www.hotaidev.com.tw/web/product/4.html"],
   ["Daikin:waterheater", "https://www.hotaidev.com.tw/web/seven-core-tech.html"],
   ["GENERAL:aircon", "https://www.fujitsu-general.com/tw/products/split/wall/"],
-  ["Rinnai:waterheater", "https://www.rinnai.com.tw/Product/V1/8"],
+  ["Rinnai:waterheater", "https://www.rinnai.tw/"],
   ["Noritz:waterheater", "https://www.hosun.com.tw/tw/html/faq/show.aspx?id=2911&kid=6"],
 ]);
 
+// Manually read on 2026-09-01 for all three peripheral categories; not inferred
+// from absence in RELEVANT_CATEGORY_IDS. Recheck these catalogs before a full audit.
+const PERIPHERAL_CATALOG_REVIEWS = new Map([
+  ["Sony", { source: "https://www.sony.com.tw/corporate/home/NewsCenter/Detail/INZONESERIES", note: "官方台灣公告明列 INZONE Mouse-A、KBD-H75、Mat-F 與 Mat-D，屬正式鍵鼠周邊產品線。" }],
+  ["Panasonic", { source: "https://www.panasonic.com/tw/consumer/all-products.html", note: "已讀台灣全部商品目錄，列影音通訊、空調、大家電、廚房、美容及住宅用品，未見獨立成品滑鼠、鍵盤或滑鼠墊；電視說明書的 USB／藍牙輸入支援不是販售鍵鼠。" }],
+  ["HITACHI", { source: "https://hitachi-homeappliances.com.tw/products/", note: "已讀台灣產品情報，現列冰箱、洗衣機、吸塵器、多功能料理爐與洗碗機，未見本次三類獨立鍵鼠周邊。" }],
+  ["Mitsubishi Electric", { source: "https://www.mitsubishielectric.com.tw/home/", note: "已讀台灣家電全產品選單，列冰箱／冷凍櫃、除濕機、風扇、烘被機與空調；CNC 文件的螢幕軟體鍵盤不是完整實體電腦鍵盤，亦非滑鼠或滑鼠墊。" }],
+  ["Daikin", { source: "https://www.hotaidev.com.tw/web/product/3.html", note: "已讀和泰大金完整家用／商用產品選單，涵蓋空調、清淨、除濕、冰水機、換氣及智能控制；控制器不是電腦鍵鼠，未見本次三類產品線。" }],
+  ["GENERAL", { source: "https://www.generalww.com/tw/products/index.html", note: "已讀將軍台灣產品目錄，只有變頻分離式、一對多與 VRF 空調；排除富士通電腦的鍵鼠保固文件，不能以不同企業的 Fujitsu 電腦周邊當 GENERAL 空調品牌。" }],
+  ["Rinnai", { source: "https://www.rinnai.tw/", note: "已讀台灣產品入口，列熱水器、瓦斯爐、排油煙機、烘碗機、洗碗機、無水鍋、乾衣機及商用設備，未見獨立電腦鍵鼠或滑鼠墊。" }],
+  ["Noritz", { source: "https://www.noritz.co.jp/product/", note: "已讀日本官方商品目錄，涵蓋給湯、浴室、廚房與暖房；面板按鍵及遙控器不屬本次完整電腦鍵盤，也未見滑鼠或滑鼠墊產品線。" }],
+  ["TOTO", { source: "https://www.twtoto.com.tw/", note: "已讀台灣全商品分類，涵蓋馬桶、便座、臉盆、龍頭、浴缸、暖房、烘手機及浴室配件，未見本次電腦鍵鼠周邊；不把 TOTOLINK 視為 TOTO。" }],
+]);
+
+// Manually read on 2026-09-01 for bedsheet, comforter, and pillow. These notes
+// are shared because the same official catalog boundary was checked for all three.
+const BEDDING_CATALOG_REVIEWS = new Map([
+  ["Sony", "Chrome 人工逐項檢視台灣官方全產品目錄；現列影音、相機、行動與遊戲等電子產品，未見成人床包、完整被芯或睡眠枕產品線。"],
+  ["Panasonic", "Chrome 人工逐項檢視台灣官方家電、美容健康與住宅設備目錄，未見成人床包、完整被芯或睡眠枕產品線。"],
+  ["HITACHI", "Chrome 人工逐項檢視台灣官方冰箱、洗衣、吸塵、料理爐與洗碗機目錄，未見成人床包、完整被芯或睡眠枕產品線。"],
+  ["Mitsubishi Electric", "Chrome 人工逐項檢視官方家電目錄；烘被機屬電器而非寢具，未見成人床包、完整被芯或睡眠枕產品線。"],
+  ["Daikin", "Chrome 人工逐項檢視和泰大金官方空調、空氣與冷凍系統目錄，未見成人床包、完整被芯或睡眠枕產品線。"],
+  ["GENERAL", "Chrome 人工逐項檢視台灣官方分離式、多聯式與 VRF 空調目錄，未見成人床包、完整被芯或睡眠枕產品線。"],
+  ["Rinnai", "Chrome 人工逐項檢視台灣官方熱水、廚房與乾衣設備目錄，未見成人床包、完整被芯或睡眠枕產品線。"],
+  ["Noritz", "Chrome 人工逐項檢視日本官方給湯、浴室、廚房與住宅設備目錄，未見成人床包、完整被芯或睡眠枕產品線。"],
+  ["TOTO", "Chrome 人工逐項檢視台灣官方衛浴與住宅設備目錄，未見成人床包、完整被芯或睡眠枕產品線。"],
+]);
+
 const NO_ELIGIBLE_REASONS = new Map([
-  ["Panasonic:coffee", "台灣官方咖啡產品線不是本分類限定的全自動或半自動義式咖啡機，故不以滴濾或其他機型補數。"],
+  ["Sony:keyboard", "台灣 Sony Store 現售 KBD-G900/B 完整成品鍵盤，具公開新台幣售價及台灣保固；官方資料確認 USB 有線供電但未明示電壓／電流，不推定額定值，因此可收錄比較，尚不列為符合嚴格供電查核的日系覆蓋代表。"],
+  ["Sony:mousepad", "台灣 Sony Store 有 MPD-F900/B 與 MPD-D700/Z 正式新品滑鼠墊，但原商品頁明示本商品無保固；可作無保固比較參考，不冒充具台灣保固的日系覆蓋代表或 Top Pick。"],
+  ["HITACHI:robot", "台灣官方有 RV-X20DPA 掃拖機器人產品線，但本次即時查核 Yahoo 售完、PChome 舊 SKU 無資料，momo 候選頁亦已下架；未確認可購新品通路前保留追蹤，不以官方產品頁或搜尋快取推定現售。"],
+  ["HITACHI:purifier", "台灣日立江森官方空氣清淨機分類仍列 exact model UDP-J60，但本次查核可信大型通路僅見蝦皮商城已售罄，另 UDP-PF120J 於 Yahoo 購物中心已停售；未找到同時符合台灣現售新品、公開數字價格與台灣保固的 exact model。"],
+  ["Panasonic:coffee", "台灣官方商城有 NC-EA801 全自動義式咖啡機，但本次查核顯示售完、貨到通知；未完成可信現售與等額替換評估前保留追蹤。NC-A701 為美式機，不以相近型態補數。"],
   ["Panasonic:waterheater", "Panasonic 台灣官方全部商品目錄沒有住宅熱水器分類或現售型號，故不以海外型號、熱水瓶或溫水便座誤補。"],
   ["Daikin:waterheater", "和泰興業台灣官方技術頁提及熱泵熱水解決方案，但未找到同時符合本分類住宅邊界、台灣現售 exact model、公開整套數字價格與台灣保固的機種。"],
   ["Rinnai:oven", "台灣官方相關機型以嵌入式廚房設備為主，不符合本分類以家電櫃多功能檯面機為主的收錄邊界。"],
@@ -120,11 +159,14 @@ function sortProducts(products) {
 
 function hasTaiwanCompatiblePower(product) {
   const voltage = String(product?.voltage || "");
-  const explicitMainsVoltage = /(?:\b(?:110|120|220|230|240)\s*V\b|\b100\s*(?:[-–—~～]|至)\s*240\s*V\b|電池|非電器|市電不適用)/iu.test(voltage);
+  const explicitMainsVoltage = /(?:\b(?:110|120|220|230|240)\s*V\b|\b100\s*(?:[-–—~～]|至)\s*240\s*V\b|電池|非電器|市電不適用|[不無]需供電)/iu.test(voltage);
   const certifiedExternalAdapter = /(?:BSMI|驗證登錄)/iu.test(voltage)
     && /(?:適配器|變壓器)/u.test(voltage)
     && /\b(?:DC\s*)?\d+(?:\.\d+)?\s*V\b/iu.test(voltage);
-  return explicitMainsVoltage || certifiedExternalAdapter;
+  const ratedUsbPower = /USB/iu.test(voltage)
+    && /(?:\bDC\s*5\s*V\b|\b5\s*V\s*DC\b)/iu.test(voltage)
+    && [...voltage.matchAll(/\b(\d+(?:\.\d+)?)\s*(?:m?A|W)\b/giu)].some((match) => Number(match[1]) > 0);
+  return explicitMainsVoltage || certifiedExternalAdapter || ratedUsbPower;
 }
 
 function isEligibleTaiwanCoverageProduct(product, options = {}) {
@@ -136,7 +178,8 @@ function isEligibleTaiwanCoverageProduct(product, options = {}) {
     && price.converted > 0
     && !/(?:50\s*Hz(?![^；,，]*60\s*Hz)|日本地區保固|無台灣保固|不提供台灣|海外通路|跨境)/iu.test(marketRisk);
   if (!baselineEligible || !options.requireNewContract) return baselineEligible;
-  return Number.isFinite(price.amount)
+  return !/無(?:台灣)?保固|不提供保固|no warranty/iu.test(String(product.warranty || ""))
+    && Number.isFinite(price.amount)
     && price.amount > 0
     && price.amount === price.converted
     && ["retailer_current", "official_suggested"].includes(price.basis)
@@ -199,7 +242,9 @@ function reviewReason({ brand, categoryId, categoryLabel, status, existingProduc
     return NO_ELIGIBLE_REASONS.get(`${brand}:${categoryId}`)
       || `${checkedAt} 核對 ${brand} 官方產品目錄；雖有與${label}相關的產品線，但未找到同時符合台灣現售 exact model、新品公開數字價格、適用電壓、台灣保固與證據完整度的機種。`;
   }
-  return `${checkedAt} 核對 ${brand} 官方產品目錄；未見與${label}收錄邊界相符的台灣產品線，因此不以相近品、配件或海外型號補數。`;
+  const peripheralNote = ["mouse", "keyboard", "mousepad"].includes(categoryId) ? PERIPHERAL_CATALOG_REVIEWS.get(brand)?.note : "";
+  const beddingNote = ["bedsheet", "comforter", "pillow"].includes(categoryId) ? BEDDING_CATALOG_REVIEWS.get(brand) : "";
+  return `${checkedAt} 核對 ${brand} 官方產品目錄；${peripheralNote || beddingNote || `未見與${label}收錄邊界相符的台灣產品線，因此不以相近品、配件或海外型號補數。`}`;
 }
 
 function buildJapaneseBrandReview({ category, products, baselineById, checkedAt }) {
@@ -228,7 +273,8 @@ function buildJapaneseBrandReview({ category, products, baselineById, checkedAt 
       checkedAt,
       officialSources: [...new Set([
         CATEGORY_SOURCES.get(`${brand}:${category.id}`),
-        BRAND_CATALOGS.get(brand),
+        ...(["mouse", "keyboard", "mousepad"].includes(category.id) ? [PERIPHERAL_CATALOG_REVIEWS.get(brand)?.source] : []),
+        ...(["mouse", "keyboard", "mousepad"].includes(category.id) ? [] : [BRAND_CATALOGS.get(brand)]),
       ].filter(Boolean))],
       ...ids,
       reason: reviewReason({

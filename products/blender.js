@@ -64,7 +64,7 @@
     },
     "issueResearch": {
       "status": "common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-08-29",
       "summary": "多位 A3500i 使用者回報 SELF-DETECT 無法辨識原廠杯壺，會顯示三點或禁止符號、途中停止，部分更換杯壺後仍反覆發生。",
       "issues": [
         {
@@ -157,7 +157,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -205,9 +205,9 @@
     "name": "免清洗多功能破壁調理機",
     "price": {
       "currency": "TWD",
-      "amount": 10115,
-      "converted": 10115,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 12900,
+      "converted": 12900,
+      "confidence": "PChome 2026-08-28 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY4YA900HB8CN/000001_1780309793.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAY4Y-A900HB8CN",
@@ -253,7 +253,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-20",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -349,7 +349,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -397,9 +397,10 @@
     "name": "Professional Plus Blender",
     "price": {
       "currency": "USD",
-      "amount": 119.99,
-      "converted": 3827,
-      "confidence": "SharkNinja 官方 2026-07-21 來源價；ExchangeRate-API 2026-08-19 匯率換算"
+      "amount": 99.98,
+      "converted": 3169,
+      "confidence": "2026-08-31 人工核對 SharkNinja 官方 BN701 公開可購主價 USD 99.98；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-09-01 匯率換算",
+      "basis": "retailer_current"
     },
     "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/d1c25153baa2aa99eae7831be826d2a51d87c485/Ninja-BN701-Professional-Plus-Blender-with-Auto-iQ.jpg",
     "buyUrl": "https://www.sharkninja.com/ninja-professional-plus-blender-with-auto-iq/BN701.html",
@@ -445,7 +446,7 @@
     },
     "issueResearch": {
       "status": "common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-08-29",
       "summary": "多位 BN701 使用者回報塑膠調理壺在一次至數月使用後，底部或刀座周圍產生裂紋，部分進一步漏液；替換壺也可能在相同位置再裂。",
       "issues": [
         {
@@ -486,7 +487,7 @@
       "currency": "TWD",
       "amount": 23980,
       "converted": 23980,
-      "confidence": "PChome 2026-07-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/QBAO0FA9008QMG3/000001_1782719707.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/QBAO0F-A9008QMG3",
@@ -532,7 +533,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -580,9 +581,10 @@
     "name": "VITA PREP3 多功能營養調理機",
     "price": {
       "currency": "TWD",
-      "amount": 24300,
-      "converted": 24300,
-      "confidence": "momo 2026-07-30 exact-model 公開限時折後價"
+      "amount": 24900,
+      "converted": 24900,
+      "confidence": "2026-08-31 人工查核：VITA PREP 3 台灣公司貨，08/19–08/31 滿 1 件折 2,100，頁面折後 NT$24,900；直接購買／購物車可用。不採另列的保險或個資同意。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY9TA900G068X/000001_1782790517.jpg",
     "buyUrl": "https://www.momoshop.com.tw/product/622427",
@@ -628,7 +630,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -724,7 +726,7 @@
     },
     "issueResearch": {
       "status": "common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-08-29",
       "summary": "多位 E320 使用者形容高轉速噪音刺耳或震耳，量測約 90 dB、手錶發出高分貝警告，部分因此使用聽力防護或退貨。",
       "issues": [
         {
@@ -826,7 +828,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -922,7 +924,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1018,7 +1020,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1114,7 +1116,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1210,7 +1212,7 @@
     },
     "issueResearch": {
       "status": "common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-08-29",
       "summary": "多位 Blendtec Total Blender 使用者回報調理壺漏液；多數案例指向壺底刀軸、墊圈、密封或軸承劣化。",
       "issues": [
         {
@@ -1307,7 +1309,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1403,7 +1405,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1499,7 +1501,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1595,7 +1597,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1691,7 +1693,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1739,9 +1741,9 @@
     "name": "多功能變頻輕音冷熱調理機",
     "price": {
       "currency": "TWD",
-      "amount": 10915,
-      "converted": 10915,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 11490,
+      "converted": 11490,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY4YA900I3ILD/000001_1783328441.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAY4Y-A900I3ILD",
@@ -1787,7 +1789,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1883,7 +1885,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1981,7 +1983,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2077,7 +2079,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2176,7 +2178,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2275,7 +2277,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-20",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2382,7 +2384,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [

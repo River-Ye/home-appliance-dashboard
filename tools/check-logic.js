@@ -2,6 +2,8 @@ const fs = require("fs");
 const path = require("path");
 const vm = require("vm");
 const { readDashboardProducts } = require("./read-dashboard-products");
+const { checkIncrementalCatalogAudit } = require("./check-incremental-catalog-audit");
+const { checkPeripherals } = require("./check-peripherals");
 const {
   exactModelMatch,
   exactProductModelMatch,
@@ -17,16 +19,23 @@ const {
 const { matchesPchomeProductId, selectPchomeCurrentPrice } = require("./pchome-product-api");
 const {
   AIRCON_SPEC_PREFIXES,
+  dimensionPatternForCategory,
   DIMENSION_PATTERN,
   JAPANESE_BRAND_ROSTER,
   MEASUREMENT_PRIORITY_CATEGORIES,
+  NETWORK_SWITCH_SPEC_PREFIXES,
   NEW_DIMENSION_CATEGORIES,
   WEIGHT_CATEGORIES,
+  weightPatternForCategory,
   WEIGHT_PATTERN,
   WATERHEATER_SPEC_PREFIXES,
 } = require("./dashboard-contract");
 const {
   validateAirconProduct,
+  validateBeddingCatalog,
+  validateBeddingProduct,
+  measurementEvidenceSupportsSpec,
+  validateNetworkSwitchProduct,
   validatePriceAndInstallationContract,
   validateWaterheaterProduct,
 } = require("./verify-data");
@@ -40,19 +49,24 @@ const {
   normalizeExchangeDate,
   replaceMarkerBlock,
   renderMaintenanceSummary,
+  updateIndexMetadata,
   updateReadmeMetadata,
 } = require("./update-maintenance-metadata");
 const {
   applyExchangeRates,
+  auditNonPchome,
   buildCompactReport,
+  categoryProductsChanged,
   categoryReviewProvenance,
   currentCategoryScan,
   exchangeRateRequestUrl,
   exchangeRatesFromPayload,
+  fetchPage,
   loadCatalogFromGit,
   maintenanceCacheVersion,
   maintenanceReviewReady,
   mergeDiscontinuationReviews,
+  pchomeEvidenceTitle,
   pchomeProductId,
   selectPreviousCategoryReview,
   structuredPriceCandidates,
@@ -461,6 +475,8 @@ async function assertRejects(promise, pattern) {
 }
 
 async function main() {
+  checkIncrementalCatalogAudit();
+  checkPeripherals();
   assert(
     DIMENSION_PATTERN.test("尺寸：不含底座 寬 144.1 x 深 4.5 x 高 82.6 cm；含底座 寬 144.1 x 深 26.7 x 高 89.6 cm"),
     "dimension contract should accept separate TV stand configurations",
@@ -484,6 +500,230 @@ async function main() {
   assert(WEIGHT_PATTERN.test("重量：約 15.7 kg"), "weight contract should preserve an explicit approximate qualifier");
   assert(WEIGHT_PATTERN.test("重量：75±5 kg"), "weight contract should preserve an official plus-minus tolerance");
   assert(!WEIGHT_PATTERN.test("重量：毛重 20 kg"), "weight contract should reject gross weight");
+  assert(
+    dimensionPatternForCategory("pillow").test("尺寸：長 60 x 寬 40 x 高 12 cm"),
+    "bedding dimension contract should accept a positive labeled pillow size",
+  );
+  assert(
+    !dimensionPatternForCategory("pillow").test("尺寸：深 40 x 高 10 cm")
+      && !dimensionPatternForCategory("bedsheet").test("尺寸：長 0 x 寬 0 cm"),
+    "bedding dimension contract must require positive planar axes",
+  );
+  assert(
+    weightPatternForCategory("comforter").test("重量：涼被 1.08 kg；暖被 1.47 kg")
+      && !weightPatternForCategory("comforter").test("重量：填充物重量 0.7 kg")
+      && !weightPatternForCategory("pillow").test("重量：shipping weight 1.2 kg")
+      && !weightPatternForCategory("pillow").test("重量：0 kg"),
+    "bedding net-weight contract must reject fill, shipping and zero weights",
+  );
+
+  const mismatchedBeddingTypeFailures = [];
+  validateBeddingProduct({
+    id: "pillow-type-mismatch-fixture",
+    category: "pillow",
+    type: "latex",
+    variantFamily: "fixture",
+    model: "TYPE-MISMATCH",
+    name: "成人睡眠枕 TYPE-MISMATCH",
+    specs: [
+      "類型：記憶泡棉完整成品枕",
+      "枕型／睡姿：仰睡",
+      "表布材質：聚酯纖維",
+      "填充／核心材質：記憶泡棉",
+      "高度／軟硬度：高 10 cm／適中",
+      "尺寸：長 60 x 寬 40 x 高 10 cm",
+      "重量：1 kg",
+      "透氣／溫控：未標示",
+      "認證／產地：未標示",
+      "清潔保養：依洗標",
+    ],
+  }, mismatchedBeddingTypeFailures);
+  assert(
+    mismatchedBeddingTypeFailures.some((failure) => failure.includes("type spec")),
+    "bedding validation must reject a type enum that contradicts the visible type spec",
+  );
+
+  const mismatchedComforterFillFailures = [];
+  validateBeddingProduct({
+    id: "comforter-fill-type-mismatch-fixture",
+    category: "comforter",
+    type: "cotton",
+    variantFamily: "fixture",
+    model: "FILL-TYPE-MISMATCH",
+    name: "成人棉被 FILL-TYPE-MISMATCH",
+    specs: [
+      "類型：棉質完整被芯",
+      "組合內容：棉被 1 件",
+      "表布材質：100% 棉",
+      "填充材質：100% 聚酯纖維",
+      "填充比例／蓬鬆度：未標示",
+      "適用季節／保暖性：四季",
+      "尺寸：長 210 x 寬 180 cm",
+      "填充重量：1 kg",
+      "重量：2 kg",
+      "認證／產地：未標示",
+      "清潔保養：依洗標",
+    ],
+  }, mismatchedComforterFillFailures);
+  assert(
+    mismatchedComforterFillFailures.some((failure) => failure.includes("type spec")),
+    "comforter type must follow the filling material rather than the shell",
+  );
+
+  const excludedBeddingSetFailures = [];
+  validateBeddingProduct({
+    id: "bedsheet-duvet-set-fixture",
+    category: "bedsheet",
+    type: "cotton",
+    variantFamily: "fixture",
+    model: "DUVET-SET",
+    name: "成人床包組 DUVET-SET",
+    specs: [
+      "類型：棉質床包",
+      "組合內容：床包 1 件＋枕套 2 件＋兩用被 1 件",
+      "材質：100% 棉",
+      "織法／支數：平織",
+      "適用床墊：雙人",
+      "尺寸：長 188 x 寬 152 cm",
+      "可包覆高度：30 cm",
+      "認證／產地：未標示",
+      "清潔保養：依洗標",
+      "重量：1 kg",
+    ],
+  }, excludedBeddingSetFailures);
+  assert(
+    excludedBeddingSetFailures.some((failure) => failure.includes("approved bedding scope")),
+    "bedsheet validation must allow only the fitted sheet and optional pillowcases",
+  );
+  const englishBeddingScopeFailures = [];
+  validateBeddingProduct({
+    id: "pillow-travel-neck-fixture",
+    category: "pillow",
+    type: "memory_foam",
+    variantFamily: "travel-neck",
+    model: "TRAVEL-NECK",
+    name: "Adult Travel Neck Pillow",
+    specs: [
+      "類型：記憶泡棉完整成品枕", "枕型／睡姿：仰睡", "表布材質：聚酯纖維", "填充／核心材質：記憶泡棉", "高度／軟硬度：高 10 cm／適中",
+      "尺寸：長 60 x 寬 40 x 高 10 cm", "重量：1 kg", "透氣／溫控：未標示", "認證／產地：未標示", "清潔保養：依洗標",
+    ],
+  }, englishBeddingScopeFailures);
+  validateBeddingProduct({
+    id: "comforter-electric-blanket-fixture",
+    category: "comforter",
+    type: "synthetic",
+    variantFamily: "electric-blanket",
+    model: "ELECTRIC-BLANKET",
+    name: "Adult Electric Blanket",
+    specs: [
+      "類型：化纖完整被芯", "組合內容：棉被 1 件", "表布材質：棉", "填充材質：聚酯纖維", "填充比例／蓬鬆度：未標示", "適用季節／保暖性：冬季",
+      "尺寸：長 210 x 寬 180 cm", "填充重量：1 kg", "重量：2 kg", "認證／產地：未標示", "清潔保養：依洗標",
+    ],
+  }, englishBeddingScopeFailures);
+  assert(
+    englishBeddingScopeFailures.filter((failure) => failure.includes("approved bedding scope")).length === 2,
+    "bedding validation must exclude English travel-neck pillows and electric blankets",
+  );
+  const cervicalSleepPillowFailures = [];
+  validateBeddingProduct({
+    id: "pillow-cervical-sleep-fixture",
+    category: "pillow",
+    type: "memory_foam",
+    variantFamily: "cervical-sleep",
+    model: "CERVICAL-SLEEP",
+    name: "Ergonomic Cervical Pillow for Back and Side Sleepers",
+    specs: [
+      "類型：記憶泡棉完整成品枕", "枕型／睡姿：仰睡／側睡", "表布材質：聚酯纖維", "填充／核心材質：記憶泡棉", "高度／軟硬度：高 10 cm／適中",
+      "尺寸：長 60 x 寬 40 x 高 10 cm", "重量：1 kg", "透氣／溫控：未標示", "認證／產地：未標示", "清潔保養：依洗標",
+    ],
+  }, cervicalSleepPillowFailures);
+  assert(
+    !cervicalSleepPillowFailures.some((failure) => failure.includes("approved bedding scope")),
+    "a full-size cervical sleep pillow must not be mistaken for a travel neck pillow",
+  );
+  const zeroBeddingMeasurementFailures = [];
+  validateBeddingProduct({
+    id: "bedsheet-zero-pocket-fixture",
+    category: "bedsheet",
+    type: "cotton",
+    variantFamily: "fixture",
+    model: "ZERO-POCKET",
+    name: "成人床包 ZERO-POCKET",
+    specs: [
+      "類型：棉質床包",
+      "組合內容：床包 1 件",
+      "材質：100% 棉",
+      "織法／支數：平織",
+      "適用床墊：雙人",
+      "尺寸：長 188 x 寬 152 cm",
+      "可包覆高度：0 cm",
+      "認證／產地：未標示",
+      "清潔保養：依洗標",
+      "重量：1 kg",
+    ],
+  }, zeroBeddingMeasurementFailures);
+  validateBeddingProduct({
+    id: "comforter-zero-fill-fixture",
+    category: "comforter",
+    type: "synthetic",
+    variantFamily: "fixture",
+    model: "ZERO-FILL",
+    name: "成人棉被 ZERO-FILL",
+    specs: [
+      "類型：化纖完整被芯",
+      "組合內容：棉被 1 件",
+      "表布材質：棉",
+      "填充材質：聚酯纖維",
+      "填充比例／蓬鬆度：未標示",
+      "適用季節／保暖性：四季",
+      "尺寸：長 210 x 寬 180 cm",
+      "填充重量：0 kg",
+      "重量：1 kg",
+      "認證／產地：未標示",
+      "清潔保養：依洗標",
+    ],
+  }, zeroBeddingMeasurementFailures);
+  assert(
+    zeroBeddingMeasurementFailures.some((failure) => failure.includes("bedsheet-zero-pocket-fixture requires mattress pocket height"))
+      && zeroBeddingMeasurementFailures.some((failure) => failure.includes("comforter-zero-fill-fixture requires fill weight")),
+    "bedding pocket height and fill weight must be positive",
+  );
+  assert(
+    measurementEvidenceSupportsSpec("尺寸：寬 152 x 長 188 cm", "官方規格明示尺寸：寬 152 x 長 188 cm")
+      && !measurementEvidenceSupportsSpec("尺寸：寬 152 x 長 188 cm", "官方頁沒有提供尺寸")
+      && !measurementEvidenceSupportsSpec("可包覆高度：30 cm", "枕套寬 30 cm；可包覆高度未提供")
+      && !measurementEvidenceSupportsSpec("重量：1 kg", "僅列填充重量 1 kg；整件淨重未提供"),
+    "bedding measurement evidence must reproduce each recorded value",
+  );
+  const unsupportedBeddingTopPickFailures = [];
+  validateBeddingProduct({
+    id: "pillow-unsupported-top-pick-fixture",
+    category: "pillow",
+    type: "latex",
+    variantFamily: "fixture",
+    model: "UNSUPPORTED-TOP-PICK",
+    name: "乳膠成人睡眠枕 UNSUPPORTED-TOP-PICK",
+    channel: "tw",
+    topPick: true,
+    voltage: "不需供電。",
+    warranty: "台灣官方資料；保固與售後均未標示。",
+    specs: [
+      "類型：乳膠完整成品枕",
+      "枕型／睡姿：仰睡",
+      "表布材質：棉",
+      "填充／核心材質：乳膠",
+      "高度／軟硬度：高 10 cm／適中",
+      "尺寸：長 60 x 寬 40 x 高 10 cm",
+      "重量：1 kg",
+      "透氣／溫控：未標示",
+      "認證／產地：未標示",
+      "清潔保養：依洗標",
+    ],
+  }, unsupportedBeddingTopPickFailures);
+  assert(
+    unsupportedBeddingTopPickFailures.some((failure) => failure.includes("Taiwan after-sales")),
+    "a bedding Top Pick must name a concrete Taiwan official or after-sales channel",
+  );
   assert(NEW_DIMENSION_CATEGORIES.has("bidet"), "dimension contract should cover bidets");
   assert(MEASUREMENT_PRIORITY_CATEGORIES.has("garmentcare"), "measurement display contract should surface garment-care dimensions");
   assert(!MEASUREMENT_PRIORITY_CATEGORIES.has("monitor"), "measurement display contract should not reorder unrelated monitor specs");
@@ -511,6 +751,16 @@ async function main() {
     () => replaceMarkerBlock("missing markers", "maintenance", "summary"),
     "maintenance metadata should reject documents without its markers",
   );
+  const indexMetadataFixture = '<small>價格與購買連結已全量查核；<span id="exchangeSummary">old</span></small>';
+  const indexMetadata = { exchangeSummary: "USD 1 = TWD 31.649" };
+  const incrementalIndex = updateIndexMetadata(indexMetadataFixture, indexMetadata, {
+    auditScope: "added_products_only",
+    summary: { newProductsAdded: Array(20).fill("new"), baselineProducts: 923 },
+    exchange: { date: "2026-08-31 00:02 UTC" },
+  });
+  assert(incrementalIndex.includes("新增查核 20 款，其餘 923 款沿用；匯率沿用 2026-08-31 00:02 UTC") && !incrementalIndex.includes("已全量查核"), "incremental homepage must distinguish new checks from retained evidence and exchange date");
+  assert(updateIndexMetadata(incrementalIndex, indexMetadata, {}).includes("價格與購買連結已全量查核"), "a later full audit must replace the incremental homepage claim");
+  assertThrows(() => updateIndexMetadata(indexMetadataFixture, indexMetadata, { auditScope: "unknown" }), "homepage metadata must reject unknown audit scope");
   assert(
     normalizeExchangeDate("Wed, 22 Jul 2026 00:02:31 +0000") === "2026-07-22 00:02 UTC",
     "exchange metadata should normalize API timestamps",
@@ -522,6 +772,26 @@ async function main() {
   assert(
     pchomeProductId("https://example.com/prod/DPADYE-A900JC4MY") === null,
     "daily maintenance should reject non-PChome product URLs",
+  );
+  assert(
+    pchomeEvidenceTitle(
+      {
+        Name: "膳魔師新一代厚鑄耐摩不沾鍋單柄深煎鍋30cm(KFH-030D-R)",
+        Nick: "新一代厚鑄耐摩不沾鍋單柄深煎鍋30cm(KFM-030D-R)",
+      },
+      { model: "KFM-030D-R 30cm", name: "THERMOS KFM-030D-R 30cm" },
+    ).includes("KFM-030D-R"),
+    "historical-low evidence should prefer the PChome title that matches the exact model",
+  );
+  assert(
+    pchomeEvidenceTitle(
+      {
+        Name: "Blueair ClassicPro CP9i 空氣清淨機",
+        Nick: "手術室級紫藍光 定義空氣新淨",
+      },
+      { model: "ClassicPro CP9i", name: "ClassicPro CP9i 空氣清淨機" },
+    ).includes("CP9i"),
+    "historical-low evidence should reject a promotional Nick when Name has the exact model",
   );
   assert(
     isReviewedPchomeBinding("robot-ecovacs-x11-pro", "DMBL0L-A900J5HJ0"),
@@ -549,6 +819,7 @@ async function main() {
       ["knife-wmf-18cm", "DEAWRU-A900HDL2T"],
       ["monitor-dell-aw3225qf", "DSABOK-A900HB1B5"],
       ["monitor-samsung-s32hg806es", "DSABSK-A900K0G32"],
+      ["network-switch-qnap-qsw-3216r-8s8t", "DRAFE2-A900JCMNO"],
       ["refrigerator-hitachi-hrbn5366df", "DPAC95-A900HE4RJ"],
       ["refrigerator-hitachi-rv469", "DPACGV-A900BFMHM"],
       ["robot-roborock-qrevo-edge-2-flow", "DMBL1C-A900K7R6R"],
@@ -568,6 +839,38 @@ async function main() {
       ["wifi-asus-zenwifi-bd5-2pack", "DSBC0Z-A900I6OJ2"],
     ].every(([productId, pchomeProductId]) => isReviewedPchomeBinding(productId, pchomeProductId)),
     "manually verified exact-model PChome pages should keep their approved product bindings",
+  );
+  assert(
+    [
+      ["chair-irocks-t05-plus", "QABD80-A900AS2SD"],
+      ["cookware-fissler-cianmic-28cm", "DEAWN3-A900JSN52"],
+      ["cookware-sambonet-titan-28cm", "DEAW03-A900BSUA7"],
+      ["cookware-tefal-daisy-28cm-ih", "DEES01-A900ILXUX"],
+      ["cookware-thermos-kfm-030d-r-30cm", "DEAWMW-A900JMZB6"],
+      ["dehumidifier-extra-9-dmbq00-a900jb38a", "DMBQ00-A900JB38A"],
+      ["fan-extra-10-dmab30-a900eoq5x", "DMAB30-A900EOQ5X"],
+      ["knife-kai-16-5cm", "DEAGRW-A900JUUQL"],
+      ["knife-kai-18cm", "DEAGRW-A900GMT17"],
+      ["knife-tefal-ice-force-15cm", "DEES09-A900HK440"],
+      ["oven-extra-6-dmbj02-a900i9lq2", "DMBJ02-A900I9LQ2"],
+      ["ap-blueair-3450i", "DMAUE4-A900I5SSZ"],
+      ["purifier-extra-6-dmaue4-a900ijcap", "DMAUE4-A900IJCAP"],
+      ["purifier-extra-7-dmaue4-a900j9knk", "DMAUE4-A900J9KNK"],
+      ["purifier-extra-8-dmaue4-a900i7dj1", "DMAUE4-A900I7DJ1"],
+      ["purifier-extra-9-dmaue4-a900i7dn1", "DMAUE4-A900I7DN1"],
+      ["purifier-extra-10-dmaue4-a900j40ne", "DMAUE4-A900J40NE"],
+      ["robot-narwal-freo-z-ultra", "DMBL4U-A900JA072"],
+      ["robot-xiaomi-vacuum-6-pro-pv21gl", "DMBL53-A900KAFL2"],
+      ["smartlock-aqara-a100", "DQBS4N-A900I8573"],
+      ["smartlock-fibre-fb90", "DQBS4N-A900J43AP"],
+      ["vacuum-extra-10-dmax8k-a900hlxaq", "DMAX8K-A900HLXAQ"],
+      ["washer-heran-hwm-1061v", "DPAIB6-A900IM3H3"],
+      ["washer-panasonic-na-90eb-w", "DPAI1H-A900ALPGU"],
+      ["washerdryer-lg-wd-s2220b", "DPAI1L-A900IXKBU"],
+      ["wifi-mercusys-halo-h25be-2pack", "DRAFLT-A900K123M"],
+      ["wifi-mercusys-halo-h80x-3pack", "DRAFEM-A900F9H1Y"],
+    ].every(([productId, pchomeProductId]) => isReviewedPchomeBinding(productId, pchomeProductId)),
+    "newly reviewed exact-model PChome pages should keep their approved product bindings",
   );
   assert(
     [
@@ -605,6 +908,51 @@ async function main() {
     ) === 7490,
     "daily maintenance should accept one exact public Yahoo structured price",
   );
+  const sameDayYahooPrice = structuredPriceCandidates(`
+    <script type="application/ld+json">
+      {"@type":"Product","offers":{"price":"4,741","priceCurrency":"TWD","availability":"https://schema.org/OutOfStock"}}
+    </script>
+    <script id="gqlstate-data" type="mime/invalid">{
+      "Shopping_Product:11798654": {
+        "currentPrice": "4990",
+        "promotionPrice": "4741",
+        "promotions": [{"__ref":"Shopping_Promotion:788489"}]
+      },
+      "Shopping_Promotion:788489": {
+        "endTs":"${new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Taipei" }).format(new Date())}T08:00:59+08:00",
+        "rules":[{"discountDescription":"滿1件享95折"}]
+      }
+    }</script>
+  `, "https://tw.buy.yahoo.com/gdsale/asus-rt-be82u-11798654.html");
+  assert(
+    sameDayYahooPrice.length === 1
+      && sameDayYahooPrice[0].amount === 4990
+      && sameDayYahooPrice[0].availability === "https://schema.org/OutOfStock"
+      && sameDayYahooPrice[0].source === "yahoo_current_price_same_day_promotion_excluded",
+    "daily maintenance should keep Yahoo's base public price and availability when its matching flash promotion expires on the data date",
+  );
+  const unrelatedSameDayYahooPromotion = structuredPriceCandidates(`
+    <script type="application/ld+json">
+      {"@type":"Product","offers":{"price":"4,500","priceCurrency":"TWD"}}
+    </script>
+    <script id="gqlstate-data" type="mime/invalid">{
+      "Shopping_Product:11798654": {
+        "currentPrice": "4990",
+        "promotionPrice": "4800",
+        "promotions": [{"__ref":"Shopping_Promotion:gift"}]
+      },
+      "Shopping_Promotion:gift": {
+        "endTs":"${new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Taipei" }).format(new Date())}T08:00:59+08:00",
+        "rules":[{"discountDescription":"滿1件贈好禮"}]
+      }
+    }</script>
+  `, "https://tw.buy.yahoo.com/gdsale/asus-rt-be82u-11798654.html");
+  assert(
+    unrelatedSameDayYahooPromotion.length === 1
+      && unrelatedSameDayYahooPromotion[0].amount === 4500
+      && unrelatedSameDayYahooPromotion[0].source === "json_ld",
+    "daily maintenance should not discard a public price for an unrelated same-day Yahoo promotion",
+  );
   assert(
     trustedStructuredPrice(
       "https://brand.example/products/model",
@@ -613,6 +961,109 @@ async function main() {
     ) === null,
     "daily maintenance should not auto-write structured prices from unapproved hosts",
   );
+  const originalFetch = global.fetch;
+  try {
+    global.fetch = async (_url, options) => {
+      const amount = new Headers(options.headers).has("range") ? 11900 : 11662;
+      return new Response(`
+        <title>Dyson TP11</title>
+        <script type="application/ld+json">
+          {"@type":"Product","offers":{"price":"${amount}","priceCurrency":"TWD"}}
+        </script>
+      `, { status: 200, headers: { "content-type": "text/html" } });
+    };
+    const yahooPage = await fetchPage("https://tw.buy.yahoo.com/gdsale/dyson-tp11-12000846.html");
+    assert(
+      trustedStructuredPrice(
+        yahooPage.finalUrl,
+        structuredPriceCandidates(yahooPage.text),
+        "TWD",
+      ) === 11662,
+      "daily maintenance must use Yahoo's full HTML representation instead of the Range variant's secondary price",
+    );
+    const preorderProduct = {
+      id: "dehumidifier-yahoo-preorder-fixture",
+      model: "DD121QWE0",
+      buyUrl: "https://tw.buy.yahoo.com/gdsale/lg-dd121qwe0-11864251.html",
+      price: { amount: 12730, converted: 12730, currency: "TWD", basis: "retailer_current" },
+      historicalLow: { status: "not_found" },
+    };
+    const preorderRaw = { sourceRows: [], structuredPriceChanges: [], historicalLowChanges: [], discontinuedCandidates: [] };
+    global.fetch = async () => new Response(`
+      <title>預購 LG 樂金 DD121QWE0</title>
+      <main><h1>預購 LG 樂金 DD121QWE0</h1></main>
+      <script type="application/ld+json">
+        {"@type":"Product","offers":{"price":"13400","priceCurrency":"TWD"}}
+      </script>
+    `, { status: 200, headers: { "content-type": "text/html" } });
+    await auditNonPchome(preorderProduct, preorderRaw);
+    assert(
+      preorderRaw.sourceRows[0].status === "tracking_out_of_stock"
+        && preorderProduct.price.amount === 12730
+        && preorderRaw.structuredPriceChanges.length === 0,
+      "an exact Yahoo preorder must be tracked without rewriting the current price",
+    );
+  } finally {
+    global.fetch = originalFetch;
+  }
+  const costcoFixture = {
+    id: "wifi-costco-stock-fixture", model: "Archer BE3600",
+    buyUrl: "https://www.costco.com.tw/router/p/154268",
+    price: { amount: 1639, converted: 1639, currency: "TWD", basis: "retailer_current" },
+    historicalLow: { status: "found", amount: 2200, converted: 2200, currency: "TWD" },
+  };
+  const costcoProductSchema = (availability, sku = "154268", amount = 2049) => ({
+    "@type": "product", sku, name: "TP-Link Archer BE3600",
+    offers: { "@type": "Offer", price: amount, priceCurrency: "TWD", availability: `http://schema.org/${availability}`, url: `https://www.costco.com.tw/p/${sku}` },
+  });
+  const runCostcoFixture = async (schemas, extraHtml = "") => {
+    const product = structuredClone(costcoFixture);
+    const raw = { sourceRows: [], structuredPriceChanges: [], historicalLowChanges: [], discontinuedCandidates: [] };
+    global.fetch = async () => new Response(`<title>TP-Link Archer BE3600</title>
+      <script type="application/ld+json">${JSON.stringify({ "@graph": schemas })}</script>${extraHtml}`,
+    { status: 200, headers: { "content-type": "text/html" } });
+    await auditNonPchome(product, raw);
+    return { product, raw };
+  };
+  try {
+    const unavailable = await runCostcoFixture([costcoProductSchema("OutOfStock")]);
+    assert(
+      unavailable.raw.sourceRows[0].status === "tracking_out_of_stock"
+        && unavailable.product.price.amount === 1639
+        && unavailable.product.historicalLow.amount === 2200
+        && unavailable.raw.structuredPriceChanges.length === 0
+        && unavailable.raw.historicalLowChanges.length === 0,
+      "Costco's own OutOfStock Offer must be tracked without rewriting the current or historical price",
+    );
+    const available = await runCostcoFixture([
+      costcoProductSchema("OutOfStock", "999999", 99),
+      costcoProductSchema("InStock"),
+    ], '<div hidden>已售完</div><template>Out of stock, coming soon</template>');
+    assert(
+      available.raw.sourceRows[0].status === "verified_available"
+        && available.product.price.amount === 2049
+        && available.raw.structuredPriceChanges.length === 1,
+      "Costco's own InStock Offer must retain its price despite hidden sold templates and another product's Offer",
+    );
+    const unrelated = await runCostcoFixture([costcoProductSchema("InStock", "999999", 99)]);
+    assert(
+      unrelated.product.price.amount === 1639 && unrelated.raw.structuredPriceChanges.length === 0,
+      "an exact model mentioned on the page must not authorize a different Costco SKU's price",
+    );
+    const noPrice = await runCostcoFixture([costcoProductSchema("OutOfStock", "154268", null)]);
+    assert(
+      noPrice.raw.sourceRows[0].status === "tracking_out_of_stock" && noPrice.product.price.amount === 1639,
+      "Costco inventory evidence must survive a missing Offer price",
+    );
+    const templateOffer = await runCostcoFixture([costcoProductSchema("InStock")],
+      `<template><script type="application/ld+json">${JSON.stringify(costcoProductSchema("OutOfStock"))}</script></template>`);
+    assert(
+      templateOffer.raw.sourceRows[0].status === "verified_available" && templateOffer.product.price.amount === 2049,
+      "inactive template JSON-LD must not override the live Costco Product Offer",
+    );
+  } finally {
+    global.fetch = originalFetch;
+  }
   const retainedDiscontinuationReview = mergeDiscontinuationReviews(
     [{ id: "oven-breville-joule", url: "https://www.breville.com/en-us/product/bov950", disposition: "manual_official_evidence_required" }],
     new Map([["oven-breville-joule", {
@@ -689,6 +1140,10 @@ async function main() {
   assert(
     maintenanceReviewReady(semanticReport, semanticReviewDate, semanticContext),
     "the maintenance write gate should accept a Japanese-brand matrix derived from the current catalog and baseline",
+  );
+  assert(
+    !maintenanceReviewReady({ ...semanticReport, auditScope: "added_products_only" }, semanticReviewDate, semanticContext),
+    "an incremental report must never pass the full-maintenance write gate even with complete same-date reviews",
   );
   const carriedSemanticProduct = {
     ...semanticProduct,
@@ -935,6 +1390,39 @@ async function main() {
   assert(
     japaneseReview.find((review) => review.brand === "HITACHI")?.status === "no_relevant_line",
     "Japanese-brand audit must record an explicit no-line decision for uncovered categories",
+  );
+  const beddingJapaneseReview = buildJapaneseBrandReview({
+    category: { id: "bedsheet", label: "床包" },
+    products: [],
+    baselineById: new Map(),
+    checkedAt: "2026-09-01",
+  });
+  assert(
+    beddingJapaneseReview.every((review) => review.reason.includes("Chrome 人工逐項檢視")),
+    "bedding Japanese-brand rows must use the manual catalog-review basis rather than a default no-line conclusion",
+  );
+  for (const id of ["dishwasher", "robot"]) assert(
+    buildJapaneseBrandReview({
+      category: { id },
+      products: [],
+      baselineById: new Map(),
+      checkedAt: "2026-08-31",
+    }).find((review) => review.brand === "HITACHI")?.status === "no_eligible_taiwan_model",
+    `HITACHI ${id} is an official product line even before an eligible model is catalogued`,
+  );
+  const hitachiPurifierReview = buildJapaneseBrandReview({
+    category: { id: "purifier", label: "空氣清淨機" },
+    products: [],
+    baselineById: new Map(),
+    checkedAt: "2026-09-02",
+  }).find((review) => review.brand === "HITACHI");
+  assert(
+    hitachiPurifierReview.status === "no_eligible_taiwan_model"
+      && hitachiPurifierReview.officialSources.includes("https://www.jci-hitachi.tw/products/products_level2.aspx?pid=11")
+      && hitachiPurifierReview.reason.includes("UDP-J60")
+      && hitachiPurifierReview.reason.includes("已售罄")
+      && hitachiPurifierReview.reason.includes("已停售"),
+    "HITACHI purifier review must retain its official line while rejecting unavailable Taiwan models",
   );
   const overseasJapaneseReview = buildJapaneseBrandReview({
     category: { id: "garmentcare", label: "電子衣櫥（衣物護理機）" },
@@ -1351,6 +1839,19 @@ async function main() {
     "historical research sync should reject not-found rows with an empty checked-source list",
   );
   const baselineCalls = [];
+  const unchangedCategory = {
+    items: [{ id: "compact-source", price: 100 }],
+    originalItemsJson: JSON.stringify([{ id: "compact-source", price: 100 }]),
+  };
+  assert(
+    !categoryProductsChanged(unchangedCategory),
+    "catalog maintenance should preserve a compact product source when its data is unchanged",
+  );
+  unchangedCategory.items[0].price = 90;
+  assert(
+    categoryProductsChanged(unchangedCategory),
+    "catalog maintenance should rewrite a product source when its data changes",
+  );
   const baselineById = loadCatalogFromGit("origin/main", ["tv.js", "garmentcare.js"], {
     root,
     execGit(args) {
@@ -1377,7 +1878,7 @@ async function main() {
     result: "success",
     time_last_update_utc: "Wed, 22 Jul 2026 00:02:31 +0000",
     time_last_update_unix: 1784678551,
-    rates: { TWD: 32, USD: 1, GBP: 0.8, EUR: 0.9, JPY: 160, CNY: 7.2, KRW: 1280 },
+    rates: { TWD: 32, USD: 1, GBP: 0.8, EUR: 0.9, JPY: 160, CNY: 7.2, HKD: 8, KRW: 1280 },
   });
   const firstExchangeRequest = exchangeRateRequestUrl("2026-07-30", 1785370200000);
   const retryExchangeRequest = exchangeRateRequestUrl("2026-07-30", 1785370260000);
@@ -1398,6 +1899,7 @@ async function main() {
     "exchange-rate request cache nonces must be finite timestamps",
   );
   assert(krwExchange.KRW_TWD === 0.025, "exchange-rate parser should derive KRW/TWD from the USD base");
+  assert(krwExchange.HKD_TWD === 4, "exchange-rate parser should derive HKD/TWD from the USD base");
   const krwProduct = {
     id: "garmentcare-samsung-fixture",
     price: {
@@ -1487,10 +1989,10 @@ async function main() {
   );
   assert(
     updateReadmeMetadata(
-      "純前端靜態頁面，整理 2026-07-22 查核的家電推薦清單。",
-      { dataDate: "2026-07-23" },
-    ) === "純前端靜態頁面，整理 2026-07-23 查核的家電推薦清單。",
-    "maintenance metadata sync should refresh the README overview date",
+      "純前端靜態頁面，整理 2026-07-22 查核的家電推薦清單。\n- 共 26 類商品，每種商品至少 20 個，共 707 筆。\n不為 707 筆商品建立重複、薄內容的獨立頁面。",
+      { dataDate: "2026-07-23", expectedCategoryCount: 27, expectedProductCount: 729 },
+    ) === "純前端靜態頁面，整理 2026-07-23 查核的家電推薦清單。\n- 共 27 類商品，每種商品至少 20 個，共 729 筆。\n不為 729 筆商品建立重複、薄內容的獨立頁面。",
+    "maintenance metadata sync should refresh the README date and catalog counts",
   );
   assert(
     renderMaintenanceSummary({
@@ -1817,6 +2319,108 @@ async function main() {
     invalidTaiwanWarrantyFailures.some((failure) => failure.includes("50Hz-only or non-Taiwan warranty")),
     "all new products must reject an explicitly non-Taiwan warranty fixture",
   );
+  const globalFixture = {
+    id: "new-global-product-fixture",
+    category: "smartlock",
+    channel: "global",
+    model: "GLOBAL-1",
+    price: { basis: "retailer_current", currency: "HKD", amount: 100, converted: 999 },
+    installation: { status: "excluded", note: "台灣不含安裝" },
+    description: "未含國際運費、進口稅；台灣保固、電壓與插頭須確認",
+    voltage: "電壓與插頭須確認",
+    warranty: "無台灣保固",
+    image: "https://example.test/global.jpg",
+  };
+  const invalidGlobalConversionFailures = [];
+  validatePriceAndInstallationContract(globalFixture, invalidGlobalConversionFailures, true, { HKD_TWD: 4 });
+  assert(
+    invalidGlobalConversionFailures.some((failure) => failure.includes("conversion must match")),
+    "global catalog contracts must reject an incorrect TWD conversion",
+  );
+  const unsupportedGlobalCurrencyFailures = [];
+  validatePriceAndInstallationContract({
+    ...globalFixture,
+    price: { ...globalFixture.price, currency: "AUD", converted: 2000 },
+  }, unsupportedGlobalCurrencyFailures, true, { HKD_TWD: 4 });
+  assert(
+    unsupportedGlobalCurrencyFailures.some((failure) => failure.includes("supported exchange rate")),
+    "global catalog contracts must reject an unsupported source currency",
+  );
+  const globalTwdFixture = {
+    ...globalFixture,
+    price: { ...globalFixture.price, currency: "TWD", amount: 6437, converted: 6437 },
+  };
+  const globalTwdFailures = [];
+  validatePriceAndInstallationContract(globalTwdFixture, globalTwdFailures, true);
+  assert(globalTwdFailures.length === 0, "overseas stores may quote TWD directly without invented exchange rates");
+  validatePriceAndInstallationContract({ ...globalTwdFixture, price: { ...globalTwdFixture.price, converted: 6400 } }, globalTwdFailures, true);
+  assert(globalTwdFailures.some((failure) => failure.includes("must match")), "direct TWD quotes must preserve the source amount");
+  const usbPeripheralFixture = {
+    ...globalTwdFixture, category: "keyboard", channel: "tw",
+    voltage: "USB 有線供電；電壓與電流未標示", warranty: "台灣公司貨兩年保固",
+  };
+  const peripheralPowerFailures = [];
+  validatePriceAndInstallationContract(usbPeripheralFixture, peripheralPowerFailures, true);
+  assert(peripheralPowerFailures.length === 0, "non-Top-Pick peripherals may truthfully disclose unknown USB ratings");
+  validatePriceAndInstallationContract({ ...usbPeripheralFixture, category: "monitor-light" }, peripheralPowerFailures, true);
+  assert(peripheralPowerFailures.some((failure) => failure.includes("power specification")), "peripheral exception must not weaken appliance power requirements");
+  const unsafePeripheralFailures = [];
+  validatePriceAndInstallationContract({ ...usbPeripheralFixture, voltage: "220V／50Hz" }, unsafePeripheralFailures, true);
+  assert(unsafePeripheralFailures.some((failure) => failure.includes("50Hz-only")), "peripherals must still reject incompatible mains power");
+  const validNetworkSwitchFixture = {
+    id: "network-switch-fixture",
+    category: "network-switch",
+    brand: "TP-Link",
+    type: "2_5g",
+    channel: "tw",
+    model: "SWITCH-8",
+    price: { basis: "retailer_current", currency: "TWD", amount: 2999, converted: 2999 },
+    installation: { status: "not_stated", note: "桌上或壁掛；弱電箱需保留通風空間" },
+    voltage: "100–240V／50–60Hz 變壓器",
+    warranty: "台灣公司貨 3 年保固",
+    image: "https://example.test/switch.jpg",
+    switchProfile: {
+      rj45PortCount: 8,
+      speedTier: "2_5g",
+      primaryPortSpeedsGbps: [0.1, 1, 2.5],
+      extraUplinks: [],
+      management: "unmanaged",
+      poe: false,
+      enclosure: "metal",
+      cooling: "fanless",
+      maxPowerW: 8,
+      operatingTemperatureC: { min: 0, max: 40 },
+      dimensionsCm: { width: 16, depth: 10, height: 2.5 },
+      mounting: ["desktop", "wall"],
+      specSourceUrl: "https://www.tp-link.com/tw/spec",
+    },
+    specs: NETWORK_SWITCH_SPEC_PREFIXES.map((prefix) => ({
+      "PoE：": "PoE：不支援",
+      "外殼：": "外殼：金屬",
+    })[prefix] || `${prefix}fixture`),
+  };
+  const validNetworkSwitchFailures = [];
+  validateNetworkSwitchProduct(validNetworkSwitchFixture, validNetworkSwitchFailures);
+  assert(validNetworkSwitchFailures.length === 0, `valid network-switch fixture failed: ${validNetworkSwitchFailures.join(", ")}`);
+  const invalidNetworkSwitchFailures = [];
+  validateNetworkSwitchProduct({
+    ...validNetworkSwitchFixture,
+    switchProfile: { ...validNetworkSwitchFixture.switchProfile, rj45PortCount: 7, poe: true },
+  }, invalidNetworkSwitchFailures);
+  assert(
+    invalidNetworkSwitchFailures.some((failure) => failure.includes("exactly 8 primary RJ45"))
+      && invalidNetworkSwitchFailures.some((failure) => failure.includes("must not support PoE")),
+    "network-switch contract must reject non-eight-port or PoE-capable models",
+  );
+  const invalidNetworkSwitchSourceFailures = [];
+  validateNetworkSwitchProduct({
+    ...validNetworkSwitchFixture,
+    switchProfile: { ...validNetworkSwitchFixture.switchProfile, specSourceUrl: "https://example.test/spec" },
+  }, invalidNetworkSwitchSourceFailures);
+  assert(
+    invalidNetworkSwitchSourceFailures.some((failure) => failure.includes("official brand specSourceUrl")),
+    "network-switch contract must reject a non-brand spec source",
+  );
   const infiniteRoomSizeFailures = [];
   validateAirconProduct({
     id: "aircon-infinite-room-size-fixture",
@@ -1946,6 +2550,30 @@ async function main() {
     !isExcludedListing("POIEMA P50 空氣清淨機（無耗材、水洗濾網）"),
     "catalog policy should not treat an explicit no-consumables benefit as a consumable listing",
   );
+  assert(
+    !isExcludedListing("ASUS ROG Ergo Monitor Arm AAS01R 螢幕支架（快拆式底座／雙面理線槽）"),
+    "catalog policy should not treat an included quick-release base as an accessory listing",
+  );
+  assert(
+    !isExcludedListing("LG OLED65C5PTA 電視（含原廠底座）"),
+    "catalog policy should keep a complete TV that includes its original base",
+  );
+  assert(
+    !isExcludedListing("ASUS ROG 螢幕附原廠底座與電源線"),
+    "catalog policy should keep a complete monitor that includes its original base",
+  );
+  assert(
+    isExcludedListing("LG 洗衣機專用底座 WD100CV"),
+    "catalog policy should still exclude a standalone appliance base accessory",
+  );
+  assert(
+    isExcludedListing("LG 原廠底座 單售"),
+    "catalog policy should still exclude a standalone original base",
+  );
+  assert(
+    isExcludedListing("ASUS AAS01R 螢幕支架替換底座 單售"),
+    "catalog policy should still exclude a replacement stand accessory",
+  );
 
   for (const statement of [
     "本產品已停產。",
@@ -1994,6 +2622,60 @@ async function main() {
   assert(products.length === meta.expectedProductCount, "meta product count should match products");
   assert(productLoader.productScriptUrl(categories[0]) === `./products/tv.js?v=${meta.cacheVersion}`, "loader URL should use category id and cache version");
 
+  const punctuationFamilyProducts = JSON.parse(JSON.stringify(products.filter((product) => product.category === "pillow")));
+  const punctuationFamilyTarget = punctuationFamilyProducts.find((product) => product.id === "pillow-emma-black-diamond");
+  punctuationFamilyTarget.brand = "3M";
+  punctuationFamilyTarget.variantFamily = "3m longlife antibacterial washable";
+  punctuationFamilyTarget.specs = punctuationFamilyTarget.specs.map((spec) => (
+    spec.startsWith("高度／軟硬度：") ? "高度／軟硬度：高 17–23 cm／加高偏硬支撐" : spec
+  ));
+  const punctuationFamilyFailures = [];
+  validateBeddingCatalog(punctuationFamilyProducts, punctuationFamilyFailures);
+  assert(
+    punctuationFamilyFailures.some((failure) => failure.includes("at most 3 variants")),
+    "bedding variant families must not be split by punctuation or spaces",
+  );
+
+  const descriptiveFamilyProducts = JSON.parse(JSON.stringify(products.filter((product) => product.category === "bedsheet")));
+  const descriptiveFamilyAliases = ["ORCHID 白色", "天絲 ORCHID 藍色床包", "涼感 ORCHID 灰色系列", "ORCHID 粉色"];
+  descriptiveFamilyProducts.slice(0, 4).forEach((product, index) => {
+    product.brand = "Fixture Brand";
+    product.variantFamily = descriptiveFamilyAliases[index];
+  });
+  const descriptiveFamilyFailures = [];
+  validateBeddingCatalog(descriptiveFamilyProducts, descriptiveFamilyFailures);
+  assert(
+    descriptiveFamilyFailures.some((failure) => failure.includes("at most 3 variants")),
+    "bedding variant families must not be split by color, material, or category words",
+  );
+
+  const pillowColorVariantProducts = JSON.parse(JSON.stringify(products.filter((product) => product.category === "pillow")));
+  const pillowColorVariantSource = pillowColorVariantProducts.find((product) => product.id === "pillow-ikea-kvarnven-side-back");
+  const pillowColorVariantTarget = pillowColorVariantProducts.find((product) => product.id === "pillow-ikea-kvarnven-stomach");
+  pillowColorVariantTarget.specs = pillowColorVariantTarget.specs.map((spec) => {
+    if (spec.startsWith("高度／軟硬度：")) return "高度／軟硬度：高 13 cm／側仰睡穩固支撐／灰色";
+    if (spec.startsWith("尺寸：")) return pillowColorVariantSource.specs.find((value) => value.startsWith("尺寸："));
+    return spec;
+  });
+  const pillowColorVariantFailures = [];
+  validateBeddingCatalog(pillowColorVariantProducts, pillowColorVariantFailures);
+  assert(
+    pillowColorVariantFailures.some((failure) => failure.includes("duplicate 高度／軟硬度")),
+    "pillow color text must not create another height or firmness variant",
+  );
+
+  const bedsheetThirdAxisProducts = JSON.parse(JSON.stringify(products.filter((product) => product.category === "bedsheet")));
+  const bedsheetThirdAxisTarget = bedsheetThirdAxisProducts.find((product) => product.id === "bedsheet-ikea-60482454");
+  bedsheetThirdAxisTarget.specs = bedsheetThirdAxisTarget.specs.map((spec) => (
+    spec.startsWith("尺寸：") ? "尺寸：寬 150 x 長 200 x 高 35 cm" : spec
+  ));
+  const bedsheetThirdAxisFailures = [];
+  validateBeddingCatalog(bedsheetThirdAxisProducts, bedsheetThirdAxisFailures);
+  assert(
+    bedsheetThirdAxisFailures.some((failure) => failure.includes("duplicate 尺寸")),
+    "bedsheet pocket or third-axis changes must not create another planar-size variant",
+  );
+
   const sample = [
     { id: "unknown", category: "tv", rank: 1, releaseDate: "找不到" },
     { id: "year", category: "tv", rank: 2, releaseDate: "2024" },
@@ -2026,7 +2708,36 @@ async function main() {
   assert(filters.activeAdvancedFilterCount() === 2, "category and type must both contribute to the active mobile filter count");
   filters.applyFilterValue("category", "monitor");
   assert(dashboard.state.type === "all", "switching to an incompatible category must reset type");
-  assert(!filters.typeFilterAvailable(), "type filter must hide outside aircon and waterheater");
+  assert(!filters.typeFilterAvailable(), "type filter must hide outside aircon, waterheater, and network-switch");
+  dashboard.state.category = "network-switch";
+  const networkSwitchTypeValues = filters.filterOptions("type").map((option) => option.value);
+  assert(
+    networkSwitchTypeValues.join(",") === "all,1g,2_5g,10g",
+    "network-switch type filter must expose the three approved speed tiers",
+  );
+  dashboard.state.type = "2_5g";
+  assert(
+    filters.filteredProducts().every((product) => product.category === "network-switch" && product.type === "2_5g"),
+    "network-switch speed filtering must apply to the complete product dataset",
+  );
+  filters.applyFilterValue("category", "wifi");
+  assert(dashboard.state.type === "all", "switching from network-switch to wifi must clear the speed tier");
+  dashboard.state.category = "bedsheet";
+  const bedsheetTypeValues = filters.filterOptions("type").map((option) => option.value);
+  assert(
+    bedsheetTypeValues.join(",") === "all,cotton,lyocell,linen,synthetic,other_natural",
+    "bedsheet type filter must expose only the approved material values",
+  );
+  dashboard.state.type = "lyocell";
+  assert(
+    filters.filteredProducts().every((product) => product.category === "bedsheet" && product.type === "lyocell"),
+    "bedding type filtering must apply to the complete product dataset",
+  );
+  dashboard.state.type = "cotton";
+  filters.applyFilterValue("category", "comforter");
+  assert(dashboard.state.type === "all", "switching categories must clear a shared type value");
+  filters.applyFilterValue("category", "refrigerator");
+  assert(dashboard.state.type === "all", "switching away from bedding must clear the material type");
   dashboard.state.category = "all";
 
   assert(
@@ -2050,6 +2761,7 @@ async function main() {
     "official suggested prices must not be presented as retailer historical-low comparisons",
   );
   const officialSuggestedMarkup = templates.cardMarkup(officialSuggestedProduct);
+  assert(officialSuggestedMarkup.includes('referrerpolicy="no-referrer"'), "external product images must omit the page referrer so brand images can load without disclosing the shared search URL");
   assert(
     officialSuggestedMarkup.includes("建議售價") && officialSuggestedMarkup.includes("查看官方資料"),
     "official suggested prices must render explicit label and official-data CTA",
@@ -2058,6 +2770,11 @@ async function main() {
     ...products[0],
     price: { ...products[0].price },
   };
+  const globalTwdMarkup = templates.cardMarkup({
+    ...products[0], channel: "global",
+    price: { ...products[0].price, basis: "retailer_current", currency: "TWD", amount: 6437, converted: 6437 },
+  });
+  assert(globalTwdMarkup.includes("海外通路新台幣報價") && !globalTwdMarkup.includes("台灣通路現價"), "direct TWD prices must not mislabel an overseas seller as a Taiwan channel");
   delete legacyPriceProduct.price.basis;
   const legacyPriceMarkup = templates.cardMarkup(legacyPriceProduct);
   assert(
@@ -2322,6 +3039,10 @@ async function main() {
   };
   assert(queryTargetsProduct(youtubeQuery, c5), "a YouTube query should preserve the exact model");
   assert(queryTargetsWebsite(youtubeQuery), "a YouTube search URL should target YouTube");
+  const insiderQuery = { platform: "Razer Insider", targetHost: "insider.razer.com", query: 'site:insider.razer.com "RZ01-04000100-R3M1"', queryUrl: "https://www.google.com/search?q=site%3Ainsider.razer.com%20%22RZ01-04000100-R3M1%22" };
+  assert(queryTargetsWebsite(insiderQuery), "Razer Insider must count as the Razer website");
+  assert(!queryTargetsWebsite({ ...insiderQuery, targetHost: "mobile01.com" }), "Razer Insider cannot claim a different target website");
+  assert(!queryTargetsWebsite({ ...insiderQuery, query: 'site:insider.razer.com.evil.example "RZ01-04000100-R3M1"' }), "deceptive Insider host must not count");
   assert(queryUrlMatchesRecord(youtubeQuery), "a YouTube search URL should reproduce search_query");
   assert(queryUrlMatchesRecord({
     query: youtubeQuery.query,
@@ -2388,6 +3109,34 @@ async function main() {
     }),
     "a longer numeric model token must not count as the exact model",
   );
+  assert(
+    !candidateMatchesExactModel({ brand: "ASUS", model: "ROG Rapture GT-BE25000 Edition 20" }, {
+      title: "ASUS GT-BE25000 firmware discussion",
+      url: "https://www.snbforums.com/threads/asus-gt-be25000-firmware.12345/",
+    }),
+    "a base model must not count as a numbered edition variant",
+  );
+  const editionResearchRow = researchRow({
+    id: "wifi-asus-rog-gt-be25000-edition-20",
+    category: "wifi",
+    brand: "ASUS",
+    model: "ROG Rapture GT-BE25000 Edition 20",
+    name: "Edition 20 router",
+    buyUrl: "https://example.com/edition-20",
+  }, {
+    platform: "Yahoo Search",
+    query: "edition 20 exact-model query",
+    searchUrl: "https://search.yahoo.com/search?p=edition-20",
+    result: "no_exact_model_result",
+    resultCount: 0,
+    candidateUrls: [],
+    candidates: [],
+    inspectedAt: "2026-08-28T00:00:00+08:00",
+  }, new Map());
+  assert(
+    JSON.stringify(editionResearchRow.identity.aliases) === JSON.stringify(["ASUS ROG Rapture GT-BE25000 Edition 20"]),
+    "a numbered edition research query must not include the base-model SKU alias",
+  );
   const sanitizedSearch = sanitizeSearchCheck(c5, {
     platform: "Yahoo Search",
     query: "exact model query",
@@ -2433,6 +3182,19 @@ async function main() {
     candidateReviews: [{ ...candidateReview, reviewedAt: "2026-07-10" }],
   };
   validateExplicitReview(refreshedReviewWithOlderCandidate, c5);
+  const differentVersionReview = {
+    ...completedReview,
+    candidateReviews: [{ ...candidateReview, exactModel: false, independentAuthors: 0,
+      sourceExcerpt: "原頁標題提及 OLED65C5PTA，但第一人稱回報明確屬其他尺寸版本。",
+      specificReason: "原頁實際使用的是其他尺寸版本，不能將該位作者列入收錄型號的相同問題人數。" }],
+  };
+  validateExplicitReview(differentVersionReview, c5);
+  assert(researchRow(c5, sanitizedSearch, new Map([[c5.id, differentVersionReview]])).workflowStatus === "completed",
+    "an original-page review excluding a different version must remain a completed manual decision");
+  assertThrows(
+    () => validateExplicitReview({ ...completedReview, candidateReviews: [{ ...candidateReview, exactModel: undefined }] }, c5),
+    "an excluded candidate must still explicitly record its model-match decision",
+  );
   assertThrows(
     () => validateExplicitReview({
       ...refreshedReviewWithOlderCandidate,
@@ -2529,11 +3291,32 @@ async function main() {
   dashboard.urlState.syncToQuery();
   assert(context.history.lastUrl.includes("category=aircon&type=heat_cool"), "query sync should persist compatible type");
 
+  for (const type of ["1g", "2_5g", "10g"]) {
+    context.location = new URL(`https://example.test/index.html?category=network-switch&type=${type}`);
+    context.history.lastUrl = "";
+    dashboard.urlState.applyFromQuery();
+    assert(dashboard.state.category === "network-switch" && dashboard.state.type === type, `query should restore switch speed tier ${type}`);
+    dashboard.urlState.syncToQuery();
+    assert(context.history.lastUrl.includes(`category=network-switch&type=${type}`), `query sync should persist switch speed tier ${type}`);
+  }
+
+  context.location = new URL("https://example.test/index.html?category=comforter&type=down");
+  context.history.lastUrl = "";
+  dashboard.urlState.applyFromQuery();
+  assert(dashboard.state.category === "comforter" && dashboard.state.type === "down", "query should restore a compatible bedding type");
+  dashboard.urlState.syncToQuery();
+  assert(context.history.lastUrl.includes("category=comforter&type=down"), "query sync should persist a compatible bedding type");
+
   context.location = new URL("https://example.test/index.html?category=monitor&type=gas");
   context.history.lastUrl = "";
   dashboard.urlState.applyFromQuery();
   assert(dashboard.state.category === "monitor" && dashboard.state.type === "all", "invalid direct type must be ignored");
   assert(!context.history.lastUrl.includes("type="), "invalid direct type must be removed from synchronized URL");
+
+  const mergeResearchSource = fs.readFileSync(path.join(root, "tools/merge-product-research-bundles.js"), "utf8");
+  assert(mergeResearchSource.includes("--date=YYYY-MM-DD"), "research bundle merger must require an explicit date");
+  assert(!mergeResearchSource.includes('const CHECKED_AT = "2026-08-20"'), "research bundle merger must not retain a hardcoded date");
+  assert(mergeResearchSource.includes("${dimensionCategoryCount} 類尺寸、${weightCategoryCount} 類重量"), "research bundle merger must derive measurement category counts from the actual catalog");
 
   Object.assign(dashboard.state, {
     search: "",

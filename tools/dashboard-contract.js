@@ -1,71 +1,94 @@
-const EXPECTED_CATEGORY_COUNT = 29;
-const EXPECTED_PRODUCT_COUNT = 859;
+const EXPECTED_CATEGORY_COUNT = 37;
+const EXPECTED_PRODUCT_COUNT = 1126;
 const MIN_PRODUCTS_PER_CATEGORY = 20;
 const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
-  ["tv", 34],
-  ["soundbar", 28],
-  ["fan", 23],
+  ["tv", 36],
+  ["soundbar", 33],
+  ["fan", 24],
   ["circulator", 23],
-  ["dehumidifier", 25],
-  ["purifier", 26],
+  ["dehumidifier", 27],
+  ["purifier", 28],
   ["aircon", 30],
-  ["robot", 36],
-  ["vacuum", 27],
-  ["washer", 25],
-  ["dryer", 23],
-  ["washerdryer", 29],
+  ["robot", 43],
+  ["vacuum", 31],
+  ["washer", 26],
+  ["dryer", 24],
+  ["washerdryer", 31],
   ["garmentcare", 20],
+  ["bedsheet", 30],
+  ["comforter", 30],
+  ["pillow", 30],
   ["refrigerator", 26],
-  ["cookware", 27],
-  ["knife", 22],
+  ["cookware", 28],
+  ["knife", 23],
   ["blender", 25],
   ["coffee", 24],
   ["oven", 25],
-  ["waterdispenser", 39],
-  ["dishwasher", 27],
+  ["waterdispenser", 40],
+  ["dishwasher", 30],
   ["waterheater", 45],
-  ["bidet", 20],
-  ["smartlock", 48],
-  ["wifi", 51],
-  ["standingdesk", 26],
-  ["chair", 26],
-  ["monitor", 56],
-  ["monitorarm", 23],
+  ["bidet", 21],
+  ["smartlock", 51],
+  ["wifi", 53],
+  ["network-switch", 20],
+  ["standingdesk", 27],
+  ["chair", 27],
+  ["monitor", 60],
+  ["monitor-light", 20],
+  ["monitorarm", 25],
+  ["mouse", 30],
+  ["keyboard", 30],
+  ["mousepad", 30],
 ]);
 const DATE_PATTERN = /^(找不到|\d{4}(?:[-/.]\d{1,2}(?:[-/.]\d{1,2})?)?)$/;
 const WASHER_DRYER_CAPACITY_PATTERN = /^洗\/乾容量：\d+(?:\.\d+)?kg \/ \d+(?:\.\d+)?kg$/;
 const DIMENSION_CATEGORY_COUNTS = new Map([
-  ["tv", 34],
-  ["soundbar", 28],
-  ["washer", 25],
-  ["dryer", 23],
-  ["washerdryer", 29],
+  ["tv", 36],
+  ["soundbar", 33],
+  ["washer", 26],
+  ["dryer", 24],
+  ["washerdryer", 31],
   ["garmentcare", 20],
+  ["bedsheet", 30],
+  ["comforter", 30],
+  ["pillow", 30],
   ["refrigerator", 26],
   ["coffee", 24],
   ["oven", 25],
-  ["dishwasher", 27],
-  ["bidet", 20],
+  ["dishwasher", 30],
+  ["bidet", 21],
   ["aircon", 30],
   ["waterheater", 45],
+  ["network-switch", 20],
+  ["monitor-light", 20],
+  ["mouse", 30],
+  ["keyboard", 30],
+  ["mousepad", 30],
 ]);
 const DIMENSION_CATEGORIES = new Set(DIMENSION_CATEGORY_COUNTS.keys());
 const EXPECTED_DIMENSION_PRODUCT_COUNT = [...DIMENSION_CATEGORY_COUNTS.values()]
   .reduce((sum, count) => sum + count, 0);
-const NEW_DIMENSION_CATEGORIES = new Set(["tv", "soundbar", "coffee", "oven", "dishwasher", "bidet", "aircon", "waterheater"]);
-const MEASUREMENT_PRIORITY_CATEGORIES = new Set(["tv", "soundbar", "garmentcare", "coffee", "oven", "dishwasher", "bidet", "aircon", "waterheater"]);
+const NEW_DIMENSION_CATEGORIES = new Set(["tv", "soundbar", "coffee", "oven", "dishwasher", "bidet", "aircon", "waterheater", "network-switch", "monitor-light", "mouse", "keyboard", "mousepad", "bedsheet", "comforter", "pillow"]);
+const MEASUREMENT_PRIORITY_CATEGORIES = new Set(["tv", "soundbar", "garmentcare", "coffee", "oven", "dishwasher", "bidet", "aircon", "waterheater", "network-switch"]);
 const MEASUREMENT_VALUE_PATTERN = "\\d+(?:\\.\\d+)?(?:[-–／/]\\d+(?:\\.\\d+)?)?";
 const DIMENSION_SEGMENT_PATTERN = `(?:[^；]+ )?寬 ${MEASUREMENT_VALUE_PATTERN} x 深 ${MEASUREMENT_VALUE_PATTERN} x 高 ${MEASUREMENT_VALUE_PATTERN} cm`;
 const FORBIDDEN_MEASUREMENT_LABEL_PATTERN = "(?!.*(?:包裝|外箱|紙箱|毛重|gross|carton))";
 const DIMENSION_PATTERN = new RegExp(`^尺寸：${FORBIDDEN_MEASUREMENT_LABEL_PATTERN}(未標示|查不到|${DIMENSION_SEGMENT_PATTERN}(?:；${DIMENSION_SEGMENT_PATTERN})*)$`, "i");
 const DIMENSION_CONFIDENCE_VALUES = new Set(["high", "medium", "low", "not_found"]);
 const WEIGHT_CATEGORY_COUNTS = new Map([
-  ["tv", 34],
-  ["soundbar", 28],
+  ["tv", 36],
+  ["soundbar", 33],
   ["coffee", 24],
   ["oven", 25],
   ["aircon", 30],
   ["waterheater", 45],
+  ["monitor-light", 20],
+  ["mouse", 30],
+  ["keyboard", 30],
+  ["mousepad", 30],
+  ["bedsheet", 30],
+  ["comforter", 30],
+  ["pillow", 30],
 ]);
 const WEIGHT_CATEGORIES = new Set(WEIGHT_CATEGORY_COUNTS.keys());
 const EXPECTED_WEIGHT_PRODUCT_COUNT = [...WEIGHT_CATEGORY_COUNTS.values()]
@@ -73,6 +96,55 @@ const EXPECTED_WEIGHT_PRODUCT_COUNT = [...WEIGHT_CATEGORY_COUNTS.values()]
 const WEIGHT_MEASUREMENT_VALUE_PATTERN = `(?:${MEASUREMENT_VALUE_PATTERN}|\\d+(?:\\.\\d+)?\\s*±\\s*\\d+(?:\\.\\d+)?)`;
 const WEIGHT_SEGMENT_PATTERN = `(?:[^；]+ )?(?:約 )?${WEIGHT_MEASUREMENT_VALUE_PATTERN} kg`;
 const WEIGHT_PATTERN = new RegExp(`^重量：${FORBIDDEN_MEASUREMENT_LABEL_PATTERN}(未標示|查不到|${WEIGHT_SEGMENT_PATTERN}(?:；${WEIGHT_SEGMENT_PATTERN})*)$`, "i");
+const PERIPHERAL_TYPES = {
+  mouse: ["standard", "vertical", "trackball"],
+  keyboard: ["membrane", "scissor", "mechanical", "magnetic", "optical"],
+  mousepad: ["cloth", "hard", "glass"],
+};
+const PERIPHERAL_BUDGET_COUNTS = new Map([["value", 6], ["mid", 12], ["premium", 12]]);
+const PERIPHERAL_SPEC_PREFIXES = {
+  mouse: ["類型：", "握型／慣用手：", "連線：", "感測器／解析度：", "回報率：", "按鍵／滾輪：", "供電／續航：", "系統／軟體：", "尺寸：", "重量：", "隨附配件："],
+  keyboard: ["類型：", "配列：", "鍵帽語言／材質：", "軸體：", "熱插拔：", "連線：", "回報率：", "供電／續航：", "系統／軟體：", "尺寸：", "重量：", "隨附配件："],
+  mousepad: ["類型：", "表面材質：", "表面特性：", "底材／防滑：", "尺寸：", "厚度：", "重量：", "邊緣處理：", "清潔保養：", "供電／功能：", "隨附配件："],
+};
+const PERIPHERAL_TWO_AXES = `(?:握持(?=寬))?(?<axis1>[長寬深高]) ${MEASUREMENT_VALUE_PATTERN} x (?:握持(?=寬))?(?!\\k<axis1>)(?<axis2>[長寬深高]) ${MEASUREMENT_VALUE_PATTERN}`;
+const PERIPHERAL_THIRD_AXIS = ` x (?:握持(?=寬))?(?!\\k<axis1>|\\k<axis2>)[長寬深高] ${MEASUREMENT_VALUE_PATTERN}`;
+const PERIPHERAL_MEASUREMENT_NOTE = "(?:（[^（）0-9]*）)?";
+const PERIPHERAL_DIMENSION_SEGMENT = `(?:[^0-9；]+?)?${PERIPHERAL_TWO_AXES}`;
+const PERIPHERAL_DIMENSION_END = ` mm${PERIPHERAL_MEASUREMENT_NOTE}(?:；前高 ${MEASUREMENT_VALUE_PATTERN} mm)?(?:；(?=.)|$)`;
+// Repeat one capture group so each component independently checks its own axis labels.
+const PERIPHERAL_DIMENSION_PATTERN = new RegExp(`^尺寸：${FORBIDDEN_MEASUREMENT_LABEL_PATTERN}(查不到|(?:${PERIPHERAL_DIMENSION_SEGMENT}${PERIPHERAL_THIRD_AXIS}${PERIPHERAL_DIMENSION_END})+)$`, "iu");
+const MOUSEPAD_DIMENSION_PATTERN = new RegExp(`^尺寸：${FORBIDDEN_MEASUREMENT_LABEL_PATTERN}(查不到|(?:${PERIPHERAL_DIMENSION_SEGMENT}(?:${PERIPHERAL_THIRD_AXIS})?${PERIPHERAL_DIMENSION_END})+)$`, "iu");
+const PERIPHERAL_WEIGHT_SEGMENT_PATTERN = WEIGHT_SEGMENT_PATTERN.replace(/ kg$/, ` g${PERIPHERAL_MEASUREMENT_NOTE}`);
+const PERIPHERAL_WEIGHT_PATTERN = new RegExp(`^重量：${FORBIDDEN_MEASUREMENT_LABEL_PATTERN}(查不到|${PERIPHERAL_WEIGHT_SEGMENT_PATTERN}(?:；${PERIPHERAL_WEIGHT_SEGMENT_PATTERN})*)$`, "i");
+const BEDDING_TYPES = {
+  bedsheet: ["cotton", "lyocell", "linen", "synthetic", "other_natural"],
+  comforter: ["cotton", "down", "synthetic", "wool", "silk"],
+  pillow: ["latex", "memory_foam", "down", "fiber", "hybrid"],
+};
+const BEDDING_BUDGET_COUNTS = new Map([["value", 6], ["mid", 12], ["premium", 12]]);
+const BEDDING_SPEC_PREFIXES = {
+  bedsheet: ["類型：", "組合內容：", "材質：", "織法／支數：", "適用床墊：", "尺寸：", "可包覆高度：", "認證／產地：", "清潔保養：", "重量："],
+  comforter: ["類型：", "組合內容：", "表布材質：", "填充材質：", "填充比例／蓬鬆度：", "適用季節／保暖性：", "尺寸：", "填充重量：", "重量：", "認證／產地：", "清潔保養："],
+  pillow: ["類型：", "枕型／睡姿：", "表布材質：", "填充／核心材質：", "高度／軟硬度：", "尺寸：", "重量：", "透氣／溫控：", "認證／產地：", "清潔保養："],
+};
+const POSITIVE_MEASUREMENT_NUMBER = "(?:0*[1-9]\\d*(?:\\.\\d+)?|0+\\.\\d*[1-9]\\d*)";
+const POSITIVE_MEASUREMENT_VALUE_PATTERN = `${POSITIVE_MEASUREMENT_NUMBER}(?:[-–／/]${POSITIVE_MEASUREMENT_NUMBER})?`;
+const BEDDING_DIMENSION_SEGMENT = `(?=[^；]*寬 ${POSITIVE_MEASUREMENT_VALUE_PATTERN})(?=[^；]*(?:長|深) ${POSITIVE_MEASUREMENT_VALUE_PATTERN})(?<beddingAxis1>[長寬深高]) ${POSITIVE_MEASUREMENT_VALUE_PATTERN} x (?!\\k<beddingAxis1>)(?<beddingAxis2>[長寬深高]) ${POSITIVE_MEASUREMENT_VALUE_PATTERN}(?: x (?!\\k<beddingAxis1>|\\k<beddingAxis2>)[長寬深高] ${POSITIVE_MEASUREMENT_VALUE_PATTERN})? cm`;
+const BEDDING_DIMENSION_PATTERN = new RegExp(`^尺寸：${FORBIDDEN_MEASUREMENT_LABEL_PATTERN}(查不到|${BEDDING_DIMENSION_SEGMENT})$`, "iu");
+const BEDDING_WEIGHT_SEGMENT = `(?:[^；]+ )?(?:約 )?${POSITIVE_MEASUREMENT_VALUE_PATTERN} kg`;
+const BEDDING_WEIGHT_PATTERN = new RegExp(`^重量：(?!.*(?:包裝|外箱|紙箱|毛重|gross|carton|shipping|填充(?:物)?重量))(查不到|${BEDDING_WEIGHT_SEGMENT}(?:；${BEDDING_WEIGHT_SEGMENT})*)$`, "iu");
+
+function dimensionPatternForCategory(category) {
+  if (category === "mousepad") return MOUSEPAD_DIMENSION_PATTERN;
+  if (Object.hasOwn(BEDDING_TYPES, category)) return BEDDING_DIMENSION_PATTERN;
+  return Object.hasOwn(PERIPHERAL_TYPES, category) ? PERIPHERAL_DIMENSION_PATTERN : DIMENSION_PATTERN;
+}
+
+function weightPatternForCategory(category) {
+  if (Object.hasOwn(BEDDING_TYPES, category)) return BEDDING_WEIGHT_PATTERN;
+  return Object.hasOwn(PERIPHERAL_TYPES, category) ? PERIPHERAL_WEIGHT_PATTERN : WEIGHT_PATTERN;
+}
 const WEIGHT_CONFIDENCE_VALUES = new Set(["high", "medium", "low", "not_found"]);
 const HISTORICAL_LOW_STATUSES = new Set(["found", "not_found"]);
 const HISTORICAL_LOW_SOURCE_KINDS = new Set([
@@ -124,6 +196,43 @@ const WATERHEATER_ELECTRIC_SUBTYPE_COUNTS = new Map([
   ["storage", 8],
   ["instant", 7],
 ]);
+const NETWORK_SWITCH_TYPE_MIN_COUNTS = new Map([
+  ["1g", 4],
+  ["2_5g", 4],
+  ["10g", 4],
+]);
+const NETWORK_SWITCH_MANAGEMENT_VALUES = new Set(["unmanaged", "easy_managed", "managed"]);
+const NETWORK_SWITCH_COOLING_VALUES = new Set(["fanless", "active_fan", "smart_fan"]);
+const NETWORK_SWITCH_TOP_PICK_MODEL = "DMS-108";
+const NETWORK_SWITCH_SPEC_PREFIXES = [
+  "主連接埠：",
+  "速率等級：",
+  "額外 uplink：",
+  "管理方式：",
+  "PoE：",
+  "外殼：",
+  "散熱：",
+  "最大功耗：",
+  "操作溫度：",
+  "尺寸：",
+  "安裝方式：",
+  "弱電箱提醒：",
+];
+const MONITOR_LIGHT_SPEC_PREFIXES = [
+  "類型：",
+  "配光：",
+  "照度：",
+  "色溫：",
+  "顯色性：",
+  "調光／控制：",
+  "自動感光：",
+  "背光：",
+  "安裝相容性：",
+  "供電／功率：",
+  "尺寸：",
+  "重量：",
+  "隨附配件：",
+];
 const AIRCON_SPEC_PREFIXES = [
   "型式：",
   "組合型號：",
@@ -249,7 +358,7 @@ const GARMENTCARE_MODELS = new Set([
   "DF80H24R1C",
   "DF80H24R1D",
   "HCC-R600AL-X",
-  "HCC-R600AR-X",
+  "N-RGB1R-W",
 ]);
 const GARMENTCARE_BRAND_COUNTS = new Map([
   ["LG", 12],
@@ -257,8 +366,8 @@ const GARMENTCARE_BRAND_COUNTS = new Map([
   ["Panasonic", 2],
 ]);
 const GARMENTCARE_CHANNEL_COUNTS = new Map([
-  ["tw", 7],
-  ["global", 13],
+  ["tw", 8],
+  ["global", 12],
 ]);
 const GARMENTCARE_SPEC_PREFIXES = [
   "容量：",
@@ -338,6 +447,15 @@ module.exports = {
   WEIGHT_CATEGORIES,
   EXPECTED_WEIGHT_PRODUCT_COUNT,
   WEIGHT_PATTERN,
+  PERIPHERAL_TYPES,
+  PERIPHERAL_BUDGET_COUNTS,
+  PERIPHERAL_SPEC_PREFIXES,
+  BEDDING_TYPES,
+  BEDDING_BUDGET_COUNTS,
+  BEDDING_SPEC_PREFIXES,
+  POSITIVE_MEASUREMENT_VALUE_PATTERN,
+  dimensionPatternForCategory,
+  weightPatternForCategory,
   WEIGHT_CONFIDENCE_VALUES,
   HISTORICAL_LOW_STATUSES,
   HISTORICAL_LOW_SOURCE_KINDS,
@@ -354,6 +472,12 @@ module.exports = {
   AIRCON_CAPACITY_BAND_LIMITS,
   WATERHEATER_TYPE_COUNTS,
   WATERHEATER_ELECTRIC_SUBTYPE_COUNTS,
+  NETWORK_SWITCH_TYPE_MIN_COUNTS,
+  NETWORK_SWITCH_MANAGEMENT_VALUES,
+  NETWORK_SWITCH_COOLING_VALUES,
+  NETWORK_SWITCH_TOP_PICK_MODEL,
+  NETWORK_SWITCH_SPEC_PREFIXES,
+  MONITOR_LIGHT_SPEC_PREFIXES,
   AIRCON_SPEC_PREFIXES,
   WATERHEATER_SPEC_PREFIXES,
   JAPANESE_BRAND_ROSTER,

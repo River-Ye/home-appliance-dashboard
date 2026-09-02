@@ -21,7 +21,7 @@
       "converted": 18800,
       "confidence": "PChome 2026-08-09 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
-    "image": "https://img.pchome.com.tw/cs/items/DMATI9A900HPMCA/000001_1722852018.jpg",
+    "image": "https://cs-a.ecimg.tw/items/DMATI9A900HPMCA/000001_1722852018.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMATI9-A900HPMCA",
     "buyLabel": "PChome 24h｜公司貨，含基本安裝與教學",
     "specs": [
@@ -67,7 +67,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -129,7 +129,7 @@
       "converted": 14900,
       "confidence": "台灣飛利浦家電官方網站 2026-08-04 exact-model 公開新品價；台灣公司貨／原廠通路"
     },
-    "image": "https://cdn-general.cybassets.com/media/W1siZiIsIjE4NDIyL3Byb2R1Y3RzLzQ3OTU0MzY0LzE3ODQ1MzY4MTRfZWE2Mjk4ZGM3MzAwYmI3MjhlYmMuanBlZyJdLFsicCIsInRodW1iIiwiMjQweDI0MCJdXQ.jpeg?sha=b9508f33295648d9",
+    "image": "https://images.philips.com/is/image/philipsconsumer/vrs_ac10e200_8033_4a0d_a1b1306abcbc18f8?$pnglarge$",
     "buyUrl": "https://www.philips-da.com.tw/products/ep3326",
     "buyLabel": "台灣飛利浦家電官方網站",
     "specs": [
@@ -175,7 +175,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -236,7 +236,7 @@
       "converted": 26900,
       "confidence": "De'Longhi Taiwan 官方網站 2026-08-04 exact-model 公開新品價；台灣公司貨／原廠通路"
     },
-    "image": "https://cdn-general.cybassets.com/media/W1siZiIsIjIwMTI5L3Byb2R1Y3RzLzUyNTQzNjI0LzE3ODY0MzY3NjVfOGM0MmZmYTY1ZGI5ZDNkMmI1MDQuanBlZyJdLFsicCIsInRodW1iIiwiMjQweDI0MCJdXQ.jpeg?sha=7d566d5833ed09aa",
+    "image": "https://i3.momoshop.com.tw/1787104171/goodsimg/0013/120/356/13120356_R4_m.webp",
     "buyUrl": "https://www.idelonghi.com.tw/id/products/ecam22022",
     "buyLabel": "De'Longhi Taiwan 官方網站",
     "specs": [
@@ -282,7 +282,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -341,7 +341,7 @@
       "currency": "TWD",
       "amount": 27900,
       "converted": 27900,
-      "confidence": "PChome 2026-08-17 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAT01A900GG8P0/000001_1777224847.png",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAT01-A900GG8P0",
@@ -389,7 +389,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -496,7 +496,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -557,7 +557,7 @@
       "converted": 33900,
       "confidence": "台灣飛利浦家電官方網站 2026-08-04 exact-model 公開新品價；台灣公司貨／原廠通路"
     },
-    "image": "https://cdn-general.cybassets.com/media/W1siZiIsIjE4NDIyL3Byb2R1Y3RzLzU0MDUxNzE0LzE3ODQyNzIxNDVfNzliM2I5ZmU3OWM0OTYwZTAwY2IuanBlZyJdLFsicCIsInRodW1iIiwiMjQweDI0MCJdXQ.jpeg?sha=86441169b27c4b33",
+    "image": "https://images.philips.com/is/image/philipsconsumer/vrs_8236e6d7_84b6_4a40_a27587047fae427e?$pnglarge$",
     "buyUrl": "https://www.philips-da.com.tw/products/ep554790",
     "buyLabel": "台灣飛利浦家電官方網站",
     "specs": [
@@ -603,7 +603,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -664,7 +664,7 @@
       "converted": 25900,
       "confidence": "De'Longhi Taiwan 官方網站 2026-08-04 exact-model 公開新品價；台灣公司貨／原廠通路"
     },
-    "image": "https://cdn-general.cybassets.com/media/W1siZiIsIjIwMTI5L3Byb2R1Y3RzLzQzMzY4ODY5LzE3MzQ2NzU4MjVfZGYwOGRmMjA3MDU2NGZhZWQ3MGIuanBlZyJdLFsicCIsInRodW1iIiwiMjQweDI0MCJdXQ.jpeg?sha=ef46d793ef543011",
+    "image": "https://cs-a.ecimg.tw/items/DMAT03A900GX8R8/000007_1700470715.jpg",
     "buyUrl": "https://www.idelonghi.com.tw/ja/products/ecam29043",
     "buyLabel": "De'Longhi Taiwan 官方網站",
     "specs": [
@@ -710,7 +710,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -817,7 +817,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -924,7 +924,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -981,9 +981,9 @@
     "name": "JURA E8 Chrome (NAC) 全自動咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 65250,
-      "converted": 65250,
-      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 63800,
+      "converted": 63800,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAT3GA900JFELW/000001_1762414552.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAT3G-A900JFELW",
@@ -1031,7 +1031,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1090,7 +1090,7 @@
       "currency": "TWD",
       "amount": 34232,
       "converted": 34232,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAT00A900BQG97/000001_1777222745.png",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAT00-A900BQG97",
@@ -1138,7 +1138,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1245,7 +1245,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1302,9 +1302,10 @@
     "name": "1公升極致美味500 半自動義式咖啡機（不鏽鋼觸控式）",
     "price": {
       "currency": "TWD",
-      "amount": 4690,
-      "converted": 4690,
-      "confidence": "伊萊克斯台灣官方 2026-08-04 exact-model 公開新品價；台灣公司貨／原廠通路"
+      "amount": 7990,
+      "converted": 7990,
+      "confidence": "2026-08-31 人工核對 Electrolux 台灣官方 E5EC1-51ST 主商品售價 NT$7,990，頁面標示有現貨並可加到購物車；不採推薦區不同型號或福利品價格。",
+      "basis": "retailer_current"
     },
     "image": "https://www.electrolux.com.tw/globalassets/appliances/coffee-machine/e5ec1-51st/e5ec1-51st-fr-1500x1500.png?width=1200&height=630",
     "buyUrl": "https://www.electrolux.com.tw/appliances/coffee-machines/e5ec1-51st/",
@@ -1352,7 +1353,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1410,9 +1411,9 @@
     "name": "Saeco 半自動義式咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 4591,
-      "converted": 4591,
-      "confidence": "Yahoo購物中心 2026-08-19 exact-model 公開結構化價格"
+      "amount": 4990,
+      "converted": 4990,
+      "confidence": "Yahoo購物中心 2026-09-01 exact-model 公開結構化價格"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/69fb8a2ae4-Gd-11322933.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Philips-%E9%A3%9B%E5%88%A9%E6%B5%A6-Saeco%E5%8D%8A%E8%87%AA%E5%8B%95%E7%BE%A9%E5%BC%8F%E5%92%96%E5%95%A1%E6%A9%9F-EMS5110-02-11322933.html",
@@ -1460,7 +1461,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1521,7 +1522,7 @@
       "converted": 6490,
       "confidence": "De'Longhi 台灣品牌官方網站 2026-08-04 exact-model 公開新品價；台灣公司貨／原廠通路"
     },
-    "image": "https://cdn-general.cybassets.com/media/W1siZiIsIjIwMTI5L3Byb2R1Y3RzLzU3MzA3MTkzLzE3NTE4Njk0NzJfYzNhZjU5ZDY2ZWUwMmNmNTMwMDkuanBlZyJdLFsicCIsInRodW1iIiwiMjQweDI0MCJdXQ.jpeg?sha=d3321e3722bdeff2",
+    "image": "https://cs-a.ecimg.tw/items/DMAT03A900J5HMT/000007_1755771859.jpg",
     "buyUrl": "https://www.stilusa.com.tw/zh-TW/products/em450m",
     "buyLabel": "De'Longhi 台灣品牌官方網站",
     "specs": [
@@ -1567,7 +1568,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1628,7 +1629,7 @@
       "converted": 9999,
       "confidence": "momo購物網 2026-08-04 exact-model 公開新品價；台灣公司貨／原廠通路"
     },
-    "image": "https://cdn-general.cybassets.com/media/W1siZiIsIjE4NDIyL3Byb2R1Y3RzLzQ2NjkxOTgyLzE3ODQ1Mzc4NTdfNDkzZDM5OTEzZWMyMjIxNzg5MDkuanBlZyJdLFsicCIsInRodW1iIiwiMjQweDI0MCJdXQ.jpeg?sha=995b6ee0a82de2c9",
+    "image": "https://images.philips.com/is/image/philipsconsumer/vrs_8fcb89a37f563817f34e4329e9054edf32f33cc3?wid=700&hei=700&$pnglarge$",
     "buyUrl": "https://www.momoshop.com.tw/product/12830517",
     "buyLabel": "momo購物網",
     "specs": [
@@ -1674,7 +1675,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1731,9 +1732,10 @@
     "name": "the Bambino 半自動義式咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 8300,
-      "converted": 8300,
-      "confidence": "momo 購物網｜Breville 台灣總代理公司貨 2026-08-04 exact-model 公開新品價；台灣公司貨／原廠通路"
+      "amount": 12800,
+      "converted": 12800,
+      "confidence": "2026-08-31 人工核對 momo 品號14547707，BES450XL 金屬銀總代理公司貨公開促銷價 NT$12,800；頁面載入完成後可直接購買或放入購物車。未扣點數、信用卡或個人化優惠。",
+      "basis": "retailer_current"
     },
     "image": "https://storage.googleapis.com/uni-splendor.appspot.com/images/p/4ef71aab-221e-42be-80b7-67676515bb0d.png",
     "buyUrl": "https://www.momoshop.com.tw/product/14547707",
@@ -1781,7 +1783,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1842,7 +1844,7 @@
       "converted": 18900,
       "confidence": "PChome 24h購物 2026-08-04 exact-model 公開新品價；台灣公司貨／原廠通路"
     },
-    "image": "https://cdn-general.cybassets.com/media/W1siZiIsIjE4NDIyL3Byb2R1Y3RzLzQ1MTIzMTk1LzE3ODQ1Mzc4MjVfZTRlNGMxOGYzN2YzZGFiZjQwMzEuanBlZyJdLFsicCIsInRodW1iIiwiMjQweDI0MCJdXQ.jpeg?sha=6b35ec1eb4e0079b",
+    "image": "https://cs-a.ecimg.tw/items/DMAC4WA900H8QLE/000001_1786352320.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAC4W-A900H8QLE",
     "buyLabel": "PChome 24h購物",
     "specs": [
@@ -1888,7 +1890,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1995,7 +1997,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-20",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2103,7 +2105,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2164,7 +2166,7 @@
       "converted": 27900,
       "confidence": "De'Longhi 台灣總代理官方商城 2026-08-05 exact-model 結構化公開新品價與 InStock 狀態；PChome exact-model API 同價且 Qty 9"
     },
-    "image": "https://cdn-general.cybassets.com/media/W1siZiIsIjIwMTI5L3Byb2R1Y3RzLzY2NTU3MDg1LzE3NzM0MTM4NDNfZjVlZWUxZTIwYjUzYTExM2ZmZDEuanBlZyJdLFsicCIsInRodW1iIiwiNjAweDYwMCJdXQ.jpeg?sha=3f6d953c1b860ddc",
+    "image": "https://cs-a.ecimg.tw/items/DMAT03A900K4F0K/000007_1781601666.jpg",
     "buyUrl": "https://www.stilusa.com.tw/zh-TW/products/ec9255m",
     "buyLabel": "De'Longhi 台灣總代理官方商城",
     "specs": [
@@ -2195,9 +2197,22 @@
     "bestFor": "想練習手動萃取與奶泡，同時需要內建磨豆與冷萃功能的進階家庭用戶",
     "recommendation": "半自動新品推薦：EC9255M 用約 5 分鐘冷萃、三段溫控與內建磨豆擴充飲品與調整範圍；但仍需手動填壓、奶泡與清潔。",
     "releaseDate": "2026",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-05",
+      "note": "已查 De'Longhi 台灣官方、PChome exact-model 原始頁與 API、FindPrice 與 BigGo；本輪只能重現 27,900–35,900 元現價，沒有附明確日期的可信新品價格曲線。另網頁中的 25,900 元候選實為 TCL 65Q6C 電視，型號不符，不採作本機史低。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2241,20 +2256,7 @@
       "旗艦",
       "內建磨豆",
       "台灣公司貨"
-    ],
-    "historicalLow": {
-      "status": "found",
-      "amount": 25900,
-      "currency": "TWD",
-      "converted": 25900,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1274402018&cgp=26900",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Delonghi 迪朗奇】官方直營 EC9255M 半自動義式咖啡機 (2026新上市)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Delonghi 迪朗奇】官方直營 EC9255M 半自動義式咖啡機 (2026新上市)」最低價為 NT$25,900，最低點日期 2026-05-20。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
-    }
+    ]
   },
   {
     "id": "coffee-breville-bes878xl",
@@ -2267,9 +2269,10 @@
     "name": "the Barista Pro 專業級複合式研磨義式咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 29300,
-      "converted": 29300,
-      "confidence": "momo 購物網｜Breville 台灣總代理公司貨 2026-08-04 exact-model 公開新品價；台灣公司貨／原廠通路"
+      "amount": 32000,
+      "converted": 32000,
+      "confidence": "2026-08-31 人工核對 momo 品號14956869，BES878XL 雪花白總代理公司貨公開促銷價 NT$32,000；頁面載入完成後可直接購買或放入購物車。未扣點數、信用卡或個人化優惠。",
+      "basis": "retailer_current"
     },
     "image": "https://storage.googleapis.com/uni-splendor.appspot.com/images/p/6cf71d58-a653-465a-a6c3-7089f7f37314.png",
     "buyUrl": "https://www.momoshop.com.tw/product/14956869",
@@ -2317,7 +2320,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2409,9 +2412,22 @@
     "bestFor": "願意投入磨豆機與水質管理、追求 E61 手感和連續奶咖的人",
     "recommendation": "分型建議：E61 沖煮頭與 HX 溫控模式兼顧濃縮穩定和蒸汽續航。",
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-04",
+      "note": "已查台灣代理 exact-model 現價、可信新品通路與 BigGo exact-model 比價；目前只找到 43,800／44,800 元現價，沒有可重現日期或價格曲線，因此不以現價推定史低。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2455,20 +2471,7 @@
       "旗艦",
       "外接磨豆",
       "台灣公司貨"
-    ],
-    "historicalLow": {
-      "status": "found",
-      "amount": 43800,
-      "currency": "TWD",
-      "converted": 43800,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1248177666&cgp=43800",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【LELIT】MARAX 半自動義式咖啡機-PL62X V2(家用110V)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【LELIT】MARAX 半自動義式咖啡機-PL62X V2(家用110V)」最低價為 NT$43,800，最低點日期 2026-08-20。",
-      "sourceKind": "price_history",
-      "confidence": "medium",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
-    }
+    ]
   },
   {
     "id": "coffee-rancilio-silvia-pro-x",
@@ -2531,7 +2534,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [

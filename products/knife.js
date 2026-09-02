@@ -70,7 +70,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -171,7 +171,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -272,7 +272,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -321,7 +321,7 @@
       "currency": "TWD",
       "amount": 799,
       "converted": 799,
-      "confidence": "PChome 2026-07-12 API 查核價"
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -374,7 +374,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -421,9 +421,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAGY1A900JBVOD/000001_1759990405.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 2280,
-      "converted": 2280,
-      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 2166,
+      "converted": 2166,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -475,7 +475,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -522,9 +522,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWRUA900HDL2T/000001_1712729313.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 3494,
-      "converted": 3494,
-      "confidence": "PChome 2026-08-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 3319,
+      "converted": 3319,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -576,7 +576,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -662,9 +662,22 @@
     ],
     "category": "knife",
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-11",
+      "note": "既有史低證據是 3 件組，目標商品是單品，套裝條件不一致。 已撤銷錯誤史低；本輪重新查核仍找不到同型號、同尺寸／容量／規格且可公開驗證的可信新品整機史低。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -699,19 +712,6 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 2356,
-      "currency": "TWD",
-      "converted": 2356,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1159547005&cgp=4288",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【WUSTHOF 三叉】德國三叉牌 GOURMET 17cm 三德刀(德國製刀具 日式廚刀)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【WUSTHOF 三叉】德國三叉牌 GOURMET 17cm 三德刀(德國製刀具 日式廚刀)」最低價為 NT$2,356，最低點日期 2024-06-09。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -724,9 +724,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEES09A900HK440/000001_1718174769.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 690,
-      "converted": 690,
-      "confidence": "PChome 24h 低價查核"
+      "amount": 655,
+      "converted": 655,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -777,7 +777,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -877,7 +877,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -926,7 +926,7 @@
       "currency": "TWD",
       "amount": 1546,
       "converted": 1546,
-      "confidence": "PChome 2026-07-12 API 查核價"
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -979,7 +979,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1081,7 +1081,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1182,7 +1182,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1283,7 +1283,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1385,7 +1385,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1481,7 +1481,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1577,7 +1577,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1673,7 +1673,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1769,7 +1769,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1865,7 +1865,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1961,7 +1961,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2060,7 +2060,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2164,7 +2164,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2197,6 +2197,95 @@
           "query": "\"IKEA FJÄLLRÖDING 006.314.66\" problem issue defect failure broken 災情 故障 異常",
           "queryUrl": "https://www.youtube.com/results?search_query=%22IKEA%20FJ%C3%84LLR%C3%96DING%20006.314.66%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
           "targetHost": "youtube.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "knife-zwilling-pro-38401-201",
+    "category": "knife",
+    "rank": 23,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "ZWILLING",
+    "model": "38401-201",
+    "name": "PRO 西式主廚刀 20cm",
+    "price": {
+      "currency": "TWD",
+      "amount": 8183,
+      "converted": 8183,
+      "confidence": "ZWILLING 台灣官方 2026-08-20 exact-model 新品頁公開優惠價",
+      "basis": "retailer_current"
+    },
+    "image": "https://cdn-general.cybassets.com/media/W1siZiIsIjI5NjAzL3Byb2R1Y3RzLzUzMTI2MDA1LzE3MzcwMTg5MTdfNmRjNmM5NDFjMGZiZDVjNTkwOTUuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=0cd518c4a2d18c0d",
+    "buyUrl": "https://www.zwilling.com.tw/products/38401-201",
+    "buyLabel": "ZWILLING 台灣官方",
+    "installation": {
+      "status": "not_stated",
+      "note": "廚刀不需到府安裝；需搭配穩固砧板、正確磨刀方式與防護刀鞘／刀座安全收納。"
+    },
+    "specs": [
+      "西式主廚刀；刀刃長 20cm、全長 33cm",
+      "刀柄長 13cm、刀柄寬 2cm；產品高 5cm",
+      "重量 0.25kg",
+      "德國特殊配方鋼、冷鍛製程與弧形刀枕",
+      "德國製；三鉚釘人體工學刀柄"
+    ],
+    "description": "ZWILLING PRO 38401-201 是德製 20cm 西式主廚刀，以弧形刀枕和三鉚釘握柄補足高階經典廚刀帶。",
+    "pros": [
+      "20cm 刃長兼顧多數家庭砧板與備料用途",
+      "弧形刀枕利於捏握，三鉚釘刀柄穩定",
+      "台灣官方 exact-model 頁可核對尺寸、重量與德國製"
+    ],
+    "cons": [
+      "優惠價仍高於多數入門主廚刀",
+      "需定期磨刀並避免洗碗機、硬骨與冷凍食材",
+      "0.25kg 手感需實際試握，偏好輕刀者可能覺得厚重"
+    ],
+    "bestFor": "重視德國製、經典西式主廚刀手感與售後，願意正確手洗及磨刀的人。",
+    "recommendation": "ZWILLING 品牌補強：20cm 規格通用且做工成熟；價格之外應把握持、刀枕偏好與後續磨刀納入比較。",
+    "score": 90,
+    "voltage": "不適用（非電器；需注意刃口保養、磨刀方式與安全收納）",
+    "warranty": "依 ZWILLING 台灣官方產品保證與使用條款",
+    "tags": [
+      "20cm主廚刀",
+      "德國製",
+      "冷鍛",
+      "弧形刀枕",
+      "三鉚釘"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-20",
+      "note": "已查 ZWILLING 台灣官方與 exact-model 價格搜尋；NT$8,183 是本輪優惠現價，沒有可重現日期歷程，故不把目前折扣推定為歷史最低價。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-29",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"ZWILLING PRO 38401-201\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22ZWILLING%20PRO%2038401-201%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"ZWILLING PRO 38401-201\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22ZWILLING%20PRO%2038401-201%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         }
       ]
     }

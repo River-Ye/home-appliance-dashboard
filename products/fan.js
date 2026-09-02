@@ -65,7 +65,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-20",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -113,9 +113,10 @@
     "name": "16 吋自動除菌離子 DC 電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 3125,
-      "converted": 3125,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 3890,
+      "converted": 3890,
+      "basis": "retailer_current",
+      "confidence": "PChome 2026-08-31 exact-model API 與 Chrome 主商品公開現價 NT$3,890，主購買控制可用。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABPEA900JYOWP/000001_1779868844.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMABPM-A900K2ITT",
@@ -161,7 +162,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -257,7 +258,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -353,7 +354,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-20",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -401,9 +402,9 @@
     "name": "16 吋 DC 變頻電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 2379,
-      "converted": 2379,
-      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 2279,
+      "converted": 2279,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABLMA900EOROV/000001_1757038312.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMABLM-A900EOROV",
@@ -433,7 +434,7 @@
       "16 吋",
       "CP 值"
     ],
-    "releaseDate": "2025-05-13",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
       "amount": 2111,
@@ -449,7 +450,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -545,7 +546,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -593,9 +594,9 @@
     "name": "14 吋 DC 微電腦定時電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 3996,
-      "converted": 3996,
-      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 3896,
+      "converted": 3896,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABLMA900EORP0/000001_1697161466.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMABLM-A900EORP0",
@@ -628,20 +629,20 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 3920,
+      "amount": 3896,
       "currency": "TWD",
-      "converted": 3920,
+      "converted": 3896,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DMABLM-A900EORP0",
-      "sourceTitle": "PChome 商品頁：Panasonic國際牌14吋DC微電腦定時立扇F-H14LXD-K / Panasonic國際牌14吋DC微電腦定時立扇F-H14LXD-K",
-      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「Panasonic國際牌14吋DC微電腦定時立扇F-H14LXD-K / Panasonic國際牌14吋DC微電腦定時立扇F-H14LXD-K」查核價 NT$3,920，低於原先記錄史低。",
+      "sourceTitle": "PChome 24h 購物：Panasonic國際牌14吋DC微電腦定時立扇F-H14LXD-K",
+      "evidenceSnippet": "PChome 24h 購物於 2026-09-01 顯示同型號可信新品公開價 NT$3,896，低於既有史低 NT$3,920。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-10",
-      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
+      "checkedAt": "2026-09-01",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -691,7 +692,7 @@
       "currency": "TWD",
       "amount": 1444,
       "converted": 1444,
-      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB1FA900EZLVB/000001_1685607577.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAB1F-A900EZLVB",
@@ -722,9 +723,22 @@
       "租屋"
     ],
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-16",
+      "note": "原 momo 史低頁已不再呈現 F-S14KM 商品與價格，逐型號重查 LBJ、FindPrice、PChome、Yahoo 與 momo 後仍找不到可公開重現的同型號可信新品史低；因此撤銷原 NT$1,319 證據，不以現價推定史低。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -759,19 +773,6 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 1349,
-      "currency": "TWD",
-      "converted": 1349,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1272082365&cgp=1349",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【Panasonic 國際牌】Panasonic國際牌 14吋微電腦DC直流電風扇 F-S14KM (無遙控)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【Panasonic 國際牌】Panasonic國際牌 14吋微電腦DC直流電風扇 F-S14KM (無遙控)」最低價為 NT$1,349，最低點日期 2026-08-20。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -785,9 +786,9 @@
     "name": "16 吋 DC 變頻高級型溫感遙控電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 3231,
-      "converted": 3231,
-      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 3090,
+      "converted": 3090,
+      "confidence": "PChome 2026-08-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB30A900EOQ5X/000001_1693793932.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAB30-A900EOQ5X",
@@ -820,20 +821,20 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 3231,
+      "amount": 3090,
       "currency": "TWD",
-      "converted": 3231,
+      "converted": 3090,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DMAB30-A900EOQ5X",
-      "sourceTitle": "PChome 商品頁：Panasonic國際牌 16吋DC變頻高級型溫感遙控立扇F-L16GMD / Panasonic國際牌 16吋DC變頻高級型溫感遙控立扇F-L16GMD",
-      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「Panasonic國際牌 16吋DC變頻高級型溫感遙控立扇F-L16GMD / Panasonic國際牌 16吋DC變頻高級型溫感遙控立扇F-L16GMD」查核價 NT$3,231，低於原先記錄史低。",
+      "sourceTitle": "PChome 24h 購物：Panasonic國際牌 16吋DC變頻高級型溫感遙控立扇F-L16GMD",
+      "evidenceSnippet": "PChome 24h 購物於 2026-08-26 顯示同型號可信新品公開價 NT$3,090，低於既有史低 NT$3,231。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-10",
-      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
+      "checkedAt": "2026-08-26",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -929,7 +930,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1025,7 +1026,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1121,7 +1122,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1217,7 +1218,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1313,7 +1314,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1394,9 +1395,22 @@
       "預算"
     ],
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Philips ACR2142SF: Momo富邦購物 (店+)【Philips 飛利浦】PHILIPS 12吋 窄邊框時尚風扇 【百年匠心系列】 電風扇 涼風扇 遙控風扇 循環扇 循環風扇 ACR2142SF 型號/規格不相符；LBJ Philips ACR2142SF: 蝦皮商城 - 萬家福線上購物 PHILIPS 12吋時尚美型風扇ACR2142SF 1台【萬家福】 型號/規格不相符；LBJ Philips ACR2142SF: 家樂福線上購物網 【Philips 飛利浦】12吋時尚美型風扇 ACR2142SF 型號/規格不相符。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-20",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1431,19 +1445,6 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 918,
-      "currency": "TWD",
-      "converted": 918,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1274112757&cgp=1150",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Philips 飛利浦】12吋 7片扇葉 可定時窄邊框時尚美型風扇(ACR2142SF)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Philips 飛利浦】12吋 7片扇葉 可定時窄邊框時尚美型風扇(ACR2142SF)」最低價為 NT$918，最低點日期 2026-07-24。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1489,10 +1490,23 @@
       "DC",
       "循環"
     ],
-    "releaseDate": "2026-03-17",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Philips ACR3142CF: Momo富邦購物 (店+)【Philips 飛利浦】【PHILIPS飛利浦】ACR3142CF-DC立式循環扇 型號/規格不相符；LBJ Philips ACR3142CF: Momo富邦購物 (店+)【Philips 飛利浦】【PHILIPS 飛利浦】ACR3142CF PHILIPS 飛利浦 DC 立式循環扇 型號/規格不相符；LBJ Philips ACR3142CF: HOTAI購 【HOTAI購】【PHILIPS飛利浦】ACR3142CF-DC立式循環扇 型號/規格不相符。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1527,19 +1541,6 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 2167,
-      "currency": "TWD",
-      "converted": 2167,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1215431560&cgp=2542",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【PHILIPS 飛利浦】直立式DC渦流循環扇 液晶觸控LED 遠距離遙控設計-ACR3142CF",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / 【PHILIPS 飛利浦】直立式DC渦流循環扇 液晶觸控LED 遠距離遙控設計-ACR3142CF」最低價為 NT$2,167，最低點日期 2025-09-06。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1585,7 +1586,7 @@
       "DC",
       "冷氣搭配"
     ],
-    "releaseDate": "2026-03-17",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
       "amount": 2106,
@@ -1601,7 +1602,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-20",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1681,10 +1682,23 @@
       "塔扇",
       "省空間"
     ],
-    "releaseDate": "2026-03-17",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Philips ACR3144WTF: Momo富邦購物 【Philips 飛利浦】負離子淨化DC直流塔式風扇 定時大廈扇 液晶觸控顯示-可遙控(ACR3144WTF) 型號/規格不相符；LBJ Philips ACR3144WTF: 蝦皮商城 - 綠風潮網路商城 飛利浦ACR3144WTF DC塔式風扇- 綠風潮 型號/規格不相符；LBJ Philips ACR3144WTF: Yahoo購物中心 【PHILIPS 飛利浦】DC塔式風扇 LED顯示 24H 定時調節 低噪音 遠距離遙控-ACR3144WTF 型號/規格不相符。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1719,19 +1733,6 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 2863,
-      "currency": "TWD",
-      "converted": 2863,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1129483467&cgp=3476",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Philips 飛利浦】負離子淨化DC直流塔式風扇 定時大廈扇 液晶觸控顯示-可遙控(ACR3144WTF)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Philips 飛利浦】負離子淨化DC直流塔式風扇 定時大廈扇 液晶觸控顯示-可遙控(ACR3144WTF)」最低價為 NT$2,863，最低點日期 2026-08-09。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1778,9 +1779,22 @@
       "冷暖"
     ],
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Philips AHR5164FD: 百利市購物中心 【百利市購物中心】飛利浦 DC冷暖兩用無扇葉風扇冷暖風扇無葉風扇電暖器【AHR5164FD】 型號/規格不相符；LBJ Philips AHR5164FD: HOTAI購 【HOTAI購】飛利浦【AHR5164FD】DC冷暖兩用無扇葉風扇冷暖風扇無葉風扇電暖器 型號/規格不相符；LBJ Philips AHR5164FD: 樂天市場 - 兆眾 兆眾 【APP 4%點數】【Philips 飛利浦】 DC冷暖兩用無扇葉風扇AHR5164FD 全新未拆封 台灣公司貨 此商品沒有7天鑑賞期 沒有辦法退貨 都是走維修保固 您可以在下單 型號/規格不相符。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-20",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1815,19 +1829,6 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 7286,
-      "currency": "TWD",
-      "converted": 7286,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1178218395&cgp=8415",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Philips 飛利浦】DC冷暖兩用無扇葉風扇 暖風機 電暖器 定時 液晶觸控顯示-可遙控(AHR5164FD)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Philips 飛利浦】DC冷暖兩用無扇葉風扇 暖風機 電暖器 定時 液晶觸控顯示-可遙控(AHR5164FD)」最低價為 NT$7,286，最低點日期 2025-03-20。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1889,7 +1890,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1937,9 +1938,9 @@
     "name": "40 公分鼓風扇",
     "price": {
       "currency": "TWD",
-      "amount": 2399,
-      "converted": 2399,
-      "confidence": "Costco 好市多 2026-08-10 exact-model 公開結構化價格"
+      "amount": 2999,
+      "converted": 2999,
+      "confidence": "Costco 好市多 2026-08-24 exact-model 公開結構化價格"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/hc9/h49/348867521806366.webp",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Heating-Cooling/DeWALT-40-cm-Drum-Fan/p/9631000",
@@ -1988,7 +1989,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2036,9 +2037,9 @@
     "name": "14 吋 DC 直流遙控立扇",
     "price": {
       "currency": "TWD",
-      "amount": 1679,
-      "converted": 1679,
-      "confidence": "Costco 好市多 2026-08-19 exact-model 公開結構化價格"
+      "amount": 2099,
+      "converted": 2099,
+      "confidence": "Costco 好市多 2026-08-31 exact-model 公開結構化價格"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h33/h32/333377590099998.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Heating-Cooling/Airmate-14-inch-DC-Inverter-Stand-Fan-FS35150R/p/149335",
@@ -2087,7 +2088,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2180,9 +2181,22 @@
       "MR褐紅"
     ],
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已查三菱電機台灣官方、Yahoo、甫佳與 exact-model 價格搜尋；PTT NT$8,500 候選為個人轉售且明確排除，本輪未找到可採用的具日期可信新品史低。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2217,20 +2231,115 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 10499,
-      "currency": "TWD",
-      "converted": 10499,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1270950304&cgp=10499",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【MITSUBISHI 三菱電機】12吋 5段速微電腦遙控3D擺頭DC直流電風扇 R12A-DA IV象牙白/MR褐紅",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【MITSUBISHI 三菱電機】12吋 5段速微電腦遙控3D擺頭DC直流電風扇 R12A-DA IV象牙白/MR褐紅」最低價為 NT$10,499，最低點日期 2026-08-20。",
-      "sourceKind": "price_history",
-      "confidence": "medium",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
+  },
+  {
+    "id": "fan-tatung-tf-l14d7t",
+    "category": "fan",
+    "rank": 24,
+    "topPick": false,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "TATUNG",
+    "model": "TF-L14D7T",
+    "name": "14 吋 7 葉片 DC 遙控立扇",
+    "price": {
+      "currency": "TWD",
+      "amount": 2690,
+      "converted": 2690,
+      "confidence": "PChome 24h 於 2026-08-20 的 exact-model 新品頁公開價 NT$2,690，庫存數量為正",
+      "basis": "retailer_current"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "通路頁為箱裝立扇商品價，未標示含到府組裝；消費者需依說明書自行組裝底座與扇葉護網。"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMABHZA900IH4WH/000001_1742354251.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMABHZ-A900IH4WH",
+    "buyLabel": "PChome 24h exact-model 台灣公司貨新品",
+    "specs": [
+      "14 吋 7 葉片；DC 馬達",
+      "24 段風速；水平自動擺頭、垂直手動調整",
+      "最長 15 小時預約開機／關機",
+      "尺寸：寬 38.5 x 深 35.4 x 高 90–105 cm",
+      "淨重：3.5 kg；額定消耗功率 30W",
+      "BSMI：R63999"
+    ],
+    "description": "以台灣老牌大同補足兩千元級 DC 立扇，24 段風速、遙控與 7 葉片規格兼顧臥室細調和日常售後。",
+    "pros": [
+      "24 段風速比同價位常見三至十二段更細",
+      "30W DC 馬達適合長時間使用",
+      "exact-model 台灣官方與即時有庫存新品通路可交叉核對"
+    ],
+    "cons": [
+      "垂直角度需手動調整，不是完整 3D 自動擺頭",
+      "通路未標示含組裝服務",
+      "未找到可公開重現的可信同型號史低"
+    ],
+    "bestFor": "想在三千元內選台灣品牌、需要細緻風速與遙控定時的臥室或小客廳。",
+    "recommendation": "台灣品牌入門推薦：不是以造型取勝，而是用 24 段 DC 風速、低功耗與較容易取得的在地售後補足比較帶。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-20",
+      "note": "已查 PChome exact-model 現售頁、BigGo 與 FindPrice 價格入口；沒有取得可公開重現、帶日期且排除會員券、點數、福利品、展示機的可信新品史低，未以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-29",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"TATUNG TF-L14D7T\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TATUNG%20TF-L14D7T%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"TATUNG TF-L14D7T\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22TATUNG%20TF-L14D7T%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"TATUNG TF-L14D7T\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22TATUNG%20TF-L14D7T%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"TATUNG TF-L14D7T\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22TATUNG%20TF-L14D7T%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"TATUNG TF-L14D7T\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22TATUNG%20TF-L14D7T%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
+        }
+      ]
+    },
+    "score": 86,
+    "voltage": "110V／60Hz 台灣公司貨；額定消耗功率 30W",
+    "warranty": "TATUNG 台灣公司貨；PChome exact-model 新品頁標示原廠 1 年保固",
+    "tags": [
+      "14吋",
+      "DC",
+      "24段風速",
+      "遙控",
+      "台灣品牌"
+    ]
   }
 ]);
 })();

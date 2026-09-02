@@ -17,7 +17,7 @@
       "currency": "TWD",
       "amount": 17800,
       "converted": 17800,
-      "confidence": "PChome 2026-08-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -70,7 +70,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -117,9 +117,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR0PA900IX8N8/000001_1770277214.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 7290,
-      "converted": 7290,
-      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 7990,
+      "converted": 7990,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -172,7 +172,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -221,7 +221,7 @@
       "currency": "TWD",
       "amount": 10900,
       "converted": 10900,
-      "confidence": "PChome 2026-07-13 API 查核價"
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -274,7 +274,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -321,9 +321,9 @@
     "image": "https://cs-a.ecimg.tw/items/DCBE34A900HUR37/000001_1779329303.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 15900,
-      "converted": 15900,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 15600,
+      "converted": 15600,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -376,7 +376,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -425,7 +425,7 @@
       "currency": "TWD",
       "amount": 30900,
       "converted": 30900,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -478,7 +478,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -527,7 +527,7 @@
       "currency": "TWD",
       "amount": 29900,
       "converted": 29900,
-      "confidence": "PChome 2026-08-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-28 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -580,7 +580,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -683,7 +683,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -785,7 +785,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -832,9 +832,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR25A900IUNDB/000001_1747970581.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 25600,
-      "converted": 25600,
-      "confidence": "PChome 2026-08-10 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 24320,
+      "converted": 24320,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -888,7 +888,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -991,7 +991,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1093,7 +1093,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-20",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1196,7 +1196,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1299,7 +1299,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1401,7 +1401,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1450,7 +1450,7 @@
       "currency": "TWD",
       "amount": 75050,
       "converted": 75050,
-      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1504,7 +1504,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1554,7 +1554,7 @@
       "currency": "TWD",
       "amount": 11000,
       "converted": 11000,
-      "confidence": "PChome 2026-08-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR0PA900JBV02/000001_1762938951.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR0P-A900JBV02",
@@ -1601,7 +1601,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1649,9 +1649,9 @@
     "name": "免安裝自動 6 人份洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 16560,
-      "converted": 16560,
-      "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 16559,
+      "converted": 16559,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR17A900IHTZ3/000001_1777540146.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR17-A900IHTZ3",
@@ -1698,7 +1698,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1746,9 +1746,9 @@
     "name": "VORTEX KW1 桌上型全自動洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 15990,
-      "converted": 15990,
-      "confidence": "PChome 2026-08-18 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 16141,
+      "converted": 16141,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR25A900J5BGP/000001_1782112645.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR25-A900J5BGP",
@@ -1795,7 +1795,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-20",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1892,7 +1892,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1989,7 +1989,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2086,7 +2086,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2186,7 +2186,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2234,9 +2234,9 @@
     "name": "60 公分 15 人份 AirDry 獨立式洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 21599,
-      "converted": 21599,
-      "confidence": "Costco 好市多 2026-08-17 exact-model 公開結構化價格"
+      "amount": 26999,
+      "converted": 26999,
+      "confidence": "Costco 好市多 2026-08-31 exact-model 公開結構化價格"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/heb/hf0/379632229416990.webp",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Kitchen-Appliances/Dishwashers-Dish-Dryers/Electrolux-60cm-UltimateCare-300-AirDry-Freestanding-Dishwasher/p/155128",
@@ -2286,7 +2286,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2391,7 +2391,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2495,7 +2495,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2601,7 +2601,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2693,9 +2693,22 @@
       "持續乾燥"
     ],
     "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已查台灣林內、momo 與 exact-model 價格搜尋；比價頁的舊價格無法確認同一安裝範圍及可購新品原頁，因此不採為史低。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2730,19 +2743,316 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 40851,
+    }
+  },
+  {
+    "id": "dishwasher-bosch-smi4ecs00x",
+    "category": "dishwasher",
+    "rank": 28,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Bosch",
+    "model": "SMI4ECS00X",
+    "name": "4 系列 14 人份半嵌式洗碗機",
+    "price": {
       "currency": "TWD",
-      "converted": 40851,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1240478394&cgp=49400",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【林內】抽屜式六段清洗流程洗碗機(RKW-601C-SV-TR基本安裝)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【林內】抽屜式六段清洗流程洗碗機(RKW-601C-SV-TR基本安裝)」最低價為 NT$40,851，最低點日期 2025-04-26。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "amount": 44030,
+      "converted": 44030,
+      "confidence": "KW 廚房世界於 2026-08-24 的 exact-model 台灣新品頁公開特價 NT$44,030，結構化資料標示 InStock、頁面庫存 8",
+      "basis": "retailer_current"
+    },
+    "image": "https://media3.bsh-group.com/Product_Shots/27963852_SMI4ECS00X_STP_def.webp",
+    "buyUrl": "https://kitchenworld.com.tw/product/2606081629271/BOSCHSMI4ECS00X4%E7%B3%BB%E5%88%97AirDry%2B%E8%87%AA%E5%8B%95",
+    "buyLabel": "KW 廚房世界 exact-model 現貨新品（限定區域基本安裝）",
+    "installation": {
+      "status": "included_basic",
+      "note": "KW exact-model 頁明示售價含限定區域基本安裝，限台北市、新北市、桃園市、台中市、台南市、高雄市與屏東市，偏遠及山區除外；材料、櫥櫃／門板修改、遠距進排水與電路施工另計。"
+    },
+    "specs": [
+      "4 系列半嵌式 60cm；14 人份；Flex 碗籃與刀叉抽屜",
+      "AirDry+ 節能自動開門、熱能交換裝置；AquaStop 防漏水",
+      "經濟程序耗水 9.5L；運轉噪音 46dB",
+      "Home Connect 智慧物聯、超省時與加強烘乾",
+      "尺寸：寬 59.8 x 深 57.3 x 高 81.5 cm",
+      "110V / 60Hz、1100W / 10A；需接地、進水與排水"
+    ],
+    "description": "SMI4ECS00X 以外露操作面板的半嵌式設計，提供 14 人份、AirDry+ 自動開門與 Home Connect，補足 Bosch 4 系列中比全嵌式更直覺操作的台灣現售選項。",
+    "pros": [
+      "半嵌式面板不必開門即可操作與查看狀態",
+      "14 人份、9.5L 經濟程序、AirDry+ 與 46dB 規格完整",
+      "KW exact-model 現貨價低於 Bosch 官方商城 NT$51,800，且有限定區域基本安裝"
+    ],
+    "cons": [
+      "半嵌式仍需 60cm 櫃位、門板與現場進排水規劃",
+      "基本安裝有限定縣市，材料、櫃體修改與長距離水電可能加價",
+      "未找到可信的 exact-model 上市日期或可重現歷史價格時間軸"
+    ],
+    "bestFor": "裝修時可預留 60cm 櫃位、偏好外露操作面板，並重視 110V、AirDry+ 與智慧連線的 4–8 人家庭。",
+    "recommendation": "4 系列半嵌式比較款：操作面板可直接看見，與同價全嵌式的外觀完整性形成清楚取捨；下單前先取得櫥櫃、門板與水電加價明細。",
+    "score": 88,
+    "voltage": "Bosch 台灣官方規格 110V / 60Hz、1100W / 10A；嵌入式安裝需專用接地插座並確認進排水",
+    "warranty": "Bosch 台灣官方商城規格明列全機 2 年；實際保固資格應保留購買發票並以機身序號向 Bosch 台灣確認，安裝與耗材依原廠條款",
+    "tags": [
+      "14人份",
+      "60cm",
+      "半嵌式",
+      "AirDry+",
+      "Home Connect",
+      "110V"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-24",
+      "note": "已查 Bosch 台灣官方商城現價 NT$51,800、KW 廚房世界 exact-model 現貨價 NT$44,030 與 momo exact-model 新品頁；這些頁面只證明查核日價格，未提供帶日期的完整歷史曲線，故不以目前最低觀察價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-29",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Bosch SMI4ECS00X\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Bosch%20SMI4ECS00X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Bosch SMI4ECS00X\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Bosch%20SMI4ECS00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Bosch SMI4ECS00X\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Bosch%20SMI4ECS00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Bosch SMI4ECS00X\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Bosch%20SMI4ECS00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Bosch SMI4ECS00X\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Bosch%20SMI4ECS00X%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "dishwasher-bosch-smv4ecx00x",
+    "category": "dishwasher",
+    "rank": 29,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Bosch",
+    "model": "SMV4ECX00X",
+    "name": "4 系列 14 人份全嵌式洗碗機",
+    "price": {
+      "currency": "TWD",
+      "amount": 44030,
+      "converted": 44030,
+      "confidence": "KW 廚房世界於 2026-08-24 的 exact-model 台灣新品頁公開特價 NT$44,030，結構化資料標示 InStock、頁面庫存 1",
+      "basis": "retailer_current"
+    },
+    "image": "https://media3.bsh-group.com/Product_Shots/27963856_SMV4ECX00X_STP_def.webp",
+    "buyUrl": "https://kitchenworld.com.tw/product/260610125117/BOSCHSMV4ECX00X4%E7%B3%BB%E5%88%97%E5%85%A8%E5%B5%8C%E5%BC%8F%E6%B4%97%E7%A2%97%E6%A9%9F60",
+    "buyLabel": "KW 廚房世界 exact-model 現貨新品（限定區域基本安裝）",
+    "installation": {
+      "status": "included_basic",
+      "note": "KW exact-model 頁明示售價含限定區域基本安裝，限台北市、新北市、桃園市、台中市、台南市、高雄市與屏東市，偏遠及山區除外；材料、櫥櫃／門板修改、遠距進排水與電路施工另計。"
+    },
+    "specs": [
+      "4 系列全嵌式 60cm；14 人份；Flex 碗籃與刀叉抽屜",
+      "AirDry+ 節能自動開門、熱能交換裝置；AquaStop 防漏水",
+      "經濟程序耗水 9.5L；運轉噪音 46dB",
+      "Home Connect 智慧物聯；InfoLight 投影燈顯示運行狀態",
+      "尺寸：寬 59.8 x 深 55 x 高 81.5 cm",
+      "110V / 60Hz、1100W / 10A；需接地、進水與排水"
+    ],
+    "description": "SMV4ECX00X 是 14 人份 4 系列全嵌式款，以家具門板保持廚房立面完整，並用 InfoLight、AirDry+ 與 Home Connect 補足關門後的狀態辨識與遠端操作。",
+    "pros": [
+      "全嵌式外觀完整，InfoLight 可在門板關閉時提示洗程運行",
+      "14 人份、9.5L 經濟程序、AirDry+ 與 46dB 規格完整",
+      "KW exact-model 現貨價低於 Bosch 官方建議售價 NT$51,800，且有限定區域基本安裝"
+    ],
+    "cons": [
+      "全嵌式必須另行核對家具門板尺寸、重量、鉸鏈與櫥櫃施工",
+      "KW 查核時只剩 1 台現貨，庫存與基本安裝服務區域可能快速變動",
+      "未找到可信的 exact-model 上市日期或可重現歷史價格時間軸"
+    ],
+    "bestFor": "裝修時可完整規劃 60cm 櫃位與家具門板，重視廚房立面一致性、110V 與自動開門乾燥的 4–8 人家庭。",
+    "recommendation": "4 系列全嵌式比較款：同價換取更完整立面與 InfoLight；下單前務必讓櫥櫃、門板、插座及進排水由安裝方共同確認。",
+    "score": 87,
+    "voltage": "Bosch 台灣官方規格 110V / 60Hz、1100W / 10A；嵌入式安裝需專用接地插座並確認進排水",
+    "warranty": "Bosch 台灣官方商城規格明列全機 2 年；實際保固資格應保留購買發票並以機身序號向 Bosch 台灣確認，安裝與耗材依原廠條款",
+    "tags": [
+      "14人份",
+      "60cm",
+      "全嵌式",
+      "AirDry+",
+      "InfoLight",
+      "110V"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-24",
+      "note": "已查 Bosch 台灣官方商城建議售價 NT$51,800（查核時已售完）、KW 廚房世界 exact-model 現貨價 NT$44,030 與 momo exact-model 預購頁；這些頁面未提供帶日期的完整歷史曲線，故不以目前最低觀察價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-29",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Bosch SMV4ECX00X\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Bosch%20SMV4ECX00X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Bosch SMV4ECX00X\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Bosch%20SMV4ECX00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Bosch SMV4ECX00X\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Bosch%20SMV4ECX00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Bosch SMV4ECX00X\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Bosch%20SMV4ECX00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Bosch SMV4ECX00X\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Bosch%20SMV4ECX00X%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "dishwasher-hitachi-hdff168cvgb",
+    "category": "dishwasher",
+    "brand": "HITACHI",
+    "model": "HDFF168CVGB",
+    "name": "16 人份獨立式洗碗機（琉璃黑）",
+    "rank": 30,
+    "budget": "premium",
+    "channel": "tw",
+    "price": {
+      "currency": "TWD",
+      "amount": 39468,
+      "converted": 39468,
+      "basis": "retailer_current",
+      "confidence": "PChome 24h 2026-08-31 exact-model SKU DMBR0N-A900JXF2E 公開售價；API Qty 5，原頁有加入購物車與立即購買，不含信用卡及點數回饋。"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMBR0NA900JXF2E/000001_1786589992.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBR0N-A900JXF2E",
+    "buyLabel": "PChome 24h（含運／拆箱定位）",
+    "installation": {
+      "status": "not_stated",
+      "note": "PChome 原頁僅明載含運與拆箱定位，未明確包含水電接管或基本安裝；規格表為 120V／60Hz，官方安裝圖要求鄰近 110V 接地三孔插座且不可使用延長線；進排水、櫥櫃修改及額外材料須下單前評估與報價。"
+    },
+    "specs": [
+      "獨立式、16 人份；8 大洗程，40–70°C 水溫控制",
+      "Surround Wash 迴旋洗臂、家庭安心洗區、可調整魔術餐具籃",
+      "自動開門烘乾；BLDC 變頻馬達，官方噪音 43dBA",
+      "尺寸：寬 59.8 x 深 60 x 高 85 cm",
+      "開門尺寸：寬 59.8 x 深 115 x 高 85 cm；高度含上蓋 3cm",
+      "安裝空間：嵌入櫥櫃需預留寬至少 60cm、深至少 63cm；門全開需預留 120cm，實際依現場丈量評估",
+      "重量：57.4kg（琉璃黑 GB 淨重）",
+      "120V / 60Hz、1200W；需接地插座及進水／排水",
+      "官方標示耗電量 1.01kWh、用水量 9.9L，實際依洗程及環境而異"
+    ],
+    "description": "HITACHI HDFF168CVGB 是台灣正式販售的 16 人份獨立式洗碗機，提供自動開門烘乾與可調整餐具籃；琉璃黑款為單一代表型號，不另以銀色變體重複湊數。",
+    "pros": [
+      "16 人份與可調整餐具籃能容納家庭鍋碗及中式餐具",
+      "提供深鍋奶瓶清洗區、8 種洗程及自動開門烘乾",
+      "台灣官方 exact-model 規格、PChome 新品現貨與原廠保固可核對"
+    ],
+    "cons": [
+      "機身開門深度 115cm 不等於安裝淨空；門全開需預留 120cm，嵌櫃深至少 63cm，非免安裝桌上機",
+      "規格是 120V／60Hz，應先由合格人員確認插座與配線條件",
+      "含運與拆箱定位不代表包含水電施工，接管與櫥櫃調整可能加價"
+    ],
+    "bestFor": "有獨立式 60cm 洗碗機空間、重視大容量和黑色面板的家庭。",
+    "recommendation": "補齊日立台灣洗碗機代表款；以 16 人份容量、家庭安心洗區與原廠售後作比較，不列為低門檻 Top Pick。先核對 120V 供電、接地、進排水及自動開門淨空，再確認施工費用。",
+    "score": 86,
+    "voltage": "120V / 60Hz、1200W；需合格接地插座與進排水",
+    "warranty": "台灣公司貨；原廠全機保固 1 年（依原廠保固條款）",
+    "tags": [
+      "16人份",
+      "獨立式",
+      "自動開門",
+      "120V",
+      "台灣公司貨"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-31",
+      "note": "已查 PChome exact-model 現價、FindPrice 同型號比價及比價撿便宜價格搜尋；搜尋所列 Yahoo 37,100 元是舊活動頁，混合銀色 X／黑色 GB 的最低起價與會員、折價券、回饋不能當琉璃黑史低。未找到可追溯日期且同型號同安裝範圍的歷史紀錄，現價不推定為史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-31",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "\"HDFF168CVGB\" site:mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=%22HDFF168CVGB%22%20site%3Amobile01.com",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "\"HDFF168CVGB\" site:ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=%22HDFF168CVGB%22%20site%3Aptt.cc",
+          "targetHost": "ptt.cc"
+        }
+      ]
     }
   }
 ]);

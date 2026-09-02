@@ -18,7 +18,7 @@
       "currency": "TWD",
       "amount": 36980,
       "converted": 36980,
-      "confidence": "PChome 2026-08-18 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900IGHHM/000001_1782870336.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900IGHHM",
@@ -48,7 +48,7 @@
       "機械手臂",
       "零纏繞"
     ],
-    "releaseDate": "2025",
+    "releaseDate": "2025-05-09",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -64,7 +64,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-20",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -114,7 +114,7 @@
       "currency": "TWD",
       "amount": 34980,
       "converted": 34980,
-      "confidence": "PChome 2026-08-18 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JNELR/000001_1769062030.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JNELR",
@@ -144,7 +144,7 @@
       "熱水洗拖",
       "越障"
     ],
-    "releaseDate": "2026-04-06",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -160,7 +160,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -198,9 +198,97 @@
     }
   },
   {
-    "id": "robot-roborock-saros-20",
+    "id": "robot-roborock-saros-20-sonic",
     "category": "robot",
     "rank": 4,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Roborock",
+    "model": "Saros 20 Sonic",
+    "name": "Saros 20 Sonic 聲波拖地旗艦掃拖機器人",
+    "price": {
+      "currency": "TWD",
+      "amount": 34980,
+      "converted": 34980,
+      "confidence": "2026-08-31 人工查核：Saros 20 Sonic 顯示 NT$33,980，但實際購買控制為『開賣通知我』『9/1 00:00 開賣』；本輪 8/31 尚未可購。保留原紀錄價 34,980，低價僅追蹤，不改現價或史低。",
+      "basis": "retailer_current"
+    },
+    "installation": {
+      "status": "excluded",
+      "note": "通路價格只含機器人與基站，不含到府網路設定、家具移動、門檻改造、固定給排水或電源施工。"
+    },
+    "image": "https://taiwan.roborock.com/cdn/shop/files/Saros20_Sonic_album_pic1_asia_web.jpg",
+    "buyUrl": "https://www.momoshop.com.tw/product/15103194",
+    "buyLabel": "Momo 購物網",
+    "specs": [
+      "36000Pa HyperForce 吸力",
+      "VibraRise 5.0 聲波拖地：每分鐘 4000 次、14N 下壓力",
+      "100°C 熱水洗拖布、55°C 暖風烘乾",
+      "最小通過高度 7.95 cm（本體高 7.98 cm）；最高跨越 8.8 cm 雙層門檻",
+      "機器人尺寸：寬 35 x 深 35.3 x 高 7.98 cm",
+      "基站尺寸：寬 44 x 深 40.9 x 高 47 cm"
+    ],
+    "description": "Roborock Saros 20 Sonic 是台灣現售的聲波拖地旗艦，與採旋轉拖布／水立方基站的 Saros 20 變體不同；主打 36000Pa、VibraRise 5.0 與高溫洗烘基站。",
+    "pros": [
+      "聲波拖布可升降與伸縮，較適合需要反覆刷洗的硬質地板",
+      "最小通過高度 7.95 cm 與 8.8 cm 雙門檻越障兼顧低矮家具與複雜動線",
+      "台灣官方、通路、120V／60Hz 手冊與一年保固資料完整"
+    ],
+    "cons": [
+      "旗艦價格高，耗材與大型基站空間仍需預留",
+      "聲波拖布和旋轉拖布手感不同，建議依地板材質選擇",
+      "Reddit 有少量無回應、錯誤碼與拖地痕跡個案，但尚未達跨站集中災情門檻"
+    ],
+    "bestFor": "想要高吸力、超薄機身與聲波擦洗，且家中有多層門檻或低矮家具的使用者。",
+    "recommendation": "聲波拖地旗艦候選：與 Saros 20 水立方版形成不同拖地路線；重視硬地刷洗可優先比較此款。",
+    "score": 94,
+    "voltage": "台灣公司貨；官方 FCC 手冊明載 120V AC、60Hz",
+    "warranty": "台灣公司貨 1 年保固；範圍與送修方式依 Roborock 台灣及 Momo 購買憑證",
+    "tags": [
+      "旗艦",
+      "聲波拖地",
+      "36000Pa",
+      "超薄越障"
+    ],
+    "releaseDate": "2026-04-15",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-25",
+      "note": "已查 Roborock 台灣官方、Momo exact-model 現售頁及公開比價／價格搜尋；可確認查核日通路價，但找不到具日期、可重現且排除個人化優惠的 exact-model 歷史價格曲線，因此不以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-29",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com/r/Roborock \"Saros 20 Sonic\" (problem OR issue OR error OR unresponsive)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%2Fr%2FRoborock%20%22Saros%2020%20Sonic%22%20%28problem%20OR%20issue%20OR%20error%20OR%20unresponsive%29",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Saros 20 Sonic\" (問題 OR 災情 OR 使用)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Saros%2020%20Sonic%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E4%BD%BF%E7%94%A8%29",
+          "targetHost": "mobile01.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "robot-roborock-saros-20",
+    "category": "robot",
+    "rank": 5,
     "budget": "premium",
     "channel": "tw",
     "brand": "Roborock",
@@ -210,7 +298,7 @@
       "currency": "TWD",
       "amount": 32980,
       "converted": 32980,
-      "confidence": "PChome 2026-08-18 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JMMCO/000001_1769061975.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JMMCO",
@@ -240,7 +328,7 @@
       "越障",
       "寵物毛"
     ],
-    "releaseDate": "2026-01-06",
+    "releaseDate": "2026-03-23",
     "historicalLow": {
       "status": "found",
       "amount": 29682,
@@ -256,7 +344,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -296,7 +384,7 @@
   {
     "id": "robot-roborock-qrevo-edge-2-pro",
     "category": "robot",
-    "rank": 5,
+    "rank": 6,
     "budget": "mid",
     "channel": "tw",
     "brand": "Roborock",
@@ -306,7 +394,7 @@
       "currency": "TWD",
       "amount": 26980,
       "converted": 26980,
-      "confidence": "PChome 2026-08-18 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JPHOP/000001_1782870240.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JPHOP",
@@ -337,9 +425,22 @@
       "熱水洗拖"
     ],
     "releaseDate": "2026-02-17",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Roborock Qrevo Edge 2 Pro: 蝦皮商城 - Roborock 石頭科技官方旗艦店 Roborock石頭科技Saros 20、G20S Ultra、Qrevo Edge 2 Pro 水洗濾網 型號/規格不相符；LBJ Roborock Qrevo Edge 2 Pro: Momo富邦購物 【Roborock 石頭科技】Qrevo Edge 2 Pro白馬王子 (100度熱水洗/3+1cm越障/25000Pa/7.98超薄機身/零纏繞) 型號/規格不相符；LBJ Roborock Qrevo Edge 2 Pro: Momo富邦購物 【Roborock 石頭科技】Qrevo Edge 2 Pro白馬王子-清潔組(100度熱水洗/3+1cm越障/2.5萬Pa/零纏繞) 型號/規格不相符。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -374,19 +475,6 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 26980,
-      "currency": "TWD",
-      "converted": 26980,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1270241015&cgp=26980",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Roborock 石頭科技 Qrevo Edge 2 Pro 白馬王子掃拖機器人(7.98cm超薄機身/25000Pa/100度熱水洗/雙門檻越障3+1cm)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / Roborock 石頭科技 Qrevo Edge 2 Pro 白馬王子掃拖機器人(7.98cm超薄機身/25000Pa/100度熱水洗/雙門檻越障3+1cm)」最低價為 NT$26,980，最低點日期 2026-08-20。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -403,7 +491,7 @@
       "currency": "TWD",
       "amount": 18999,
       "converted": 18999,
-      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JA04J/000001_1783562731.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JA04J",
@@ -433,7 +521,7 @@
       "滾筒拖地",
       "自動洗烘"
     ],
-    "releaseDate": "2026-01-06",
+    "releaseDate": "2026-01-19",
     "historicalLow": {
       "status": "found",
       "amount": 18388,
@@ -449,7 +537,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-20",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -489,7 +577,7 @@
   {
     "id": "robot-ecovacs-x11-pro-plumbed",
     "category": "robot",
-    "rank": 6,
+    "rank": 7,
     "budget": "premium",
     "channel": "tw",
     "brand": "Ecovacs",
@@ -529,10 +617,23 @@
       "上下水",
       "滾筒洗地"
     ],
-    "releaseDate": "2025-09",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Ecovacs DEEBOT X11 PRO 上下水款: Yahoo購物中心 【ECOVACS 科沃斯】DEEBOT X11 PRO 上下水款 無限續航滾筒洗地機器人(滾筒恆壓洗地/超能基站/掃地機器人/自動上下水) 型號/規格不相符；LBJ Ecovacs DEEBOT X11 PRO 上下水款: 蝦皮商城 - 蝦皮直營 - 3C家電館 ECOVACS 科沃斯 DEEBOT X11 PRO 上下水款 無限續航滾筒洗地機器人 廠商直送 型號/規格不相符；LBJ Ecovacs DEEBOT X11 PRO 上下水款: 蝦皮商城 - Beutii質感家電選品 ECOVACS 科沃斯 DEEBOT X11 PRO 上下水款 無限續航滾筒洗地機器人 超能基站 Beutii 型號/規格不相符。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -567,25 +668,12 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 22999,
-      "currency": "TWD",
-      "converted": 22999,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=516630890&cgp=22999",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：ECOVACS 科沃斯 全新旗艦DEEBOT X11 PRO 上下水款 無限續航滾筒洗地機器人(拒絕水電焦慮/超能基站)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - ECOVACS 科沃斯 官方旗艦店 / ECOVACS 科沃斯 全新旗艦DEEBOT X11 PRO 上下水款 無限續航滾筒洗地機器人(拒絕水電焦慮/超能基站)」最低價為 NT$22,999，最低點日期 2026-08-20。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
     "id": "robot-ecovacs-x11-pro",
     "category": "robot",
-    "rank": 7,
+    "rank": 8,
     "budget": "premium",
     "channel": "tw",
     "brand": "Ecovacs",
@@ -641,7 +729,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -681,7 +769,7 @@
   {
     "id": "robot-ecovacs-t80-omni",
     "category": "robot",
-    "rank": 10,
+    "rank": 11,
     "budget": "mid",
     "channel": "tw",
     "brand": "Ecovacs",
@@ -737,7 +825,7 @@
     },
     "issueResearch": {
       "status": "common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-29",
       "summary": "多位 DEEBOT T80 OMNI 使用者跨站回報，拖地後滾筒、機內污水箱或水路容易產生明顯異味，需要頻繁清洗與晾乾。",
       "issues": [
         {
@@ -778,7 +866,7 @@
   {
     "id": "robot-ecovacs-t50-pro",
     "category": "robot",
-    "rank": 11,
+    "rank": 12,
     "budget": "mid",
     "channel": "tw",
     "brand": "Ecovacs",
@@ -818,7 +906,7 @@
       "超薄",
       "沿邊清潔"
     ],
-    "releaseDate": "2025-03-19",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -834,7 +922,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -874,7 +962,7 @@
   {
     "id": "robot-ecovacs-n50",
     "category": "robot",
-    "rank": 12,
+    "rank": 13,
     "budget": "mid",
     "channel": "tw",
     "brand": "Ecovacs",
@@ -914,7 +1002,7 @@
       "CP 值",
       "全能基站"
     ],
-    "releaseDate": "2026-03-05",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -930,7 +1018,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -970,7 +1058,7 @@
   {
     "id": "robot-dreame-x60-master",
     "category": "robot",
-    "rank": 13,
+    "rank": 14,
     "budget": "premium",
     "channel": "tw",
     "brand": "Dreame",
@@ -980,7 +1068,7 @@
       "currency": "TWD",
       "amount": 31980,
       "converted": 31980,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-31 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL3EA900JZ3SP/000001_1780033309.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL3E-A900JZ3SP",
@@ -1010,7 +1098,7 @@
       "超薄",
       "AI 辨識"
     ],
-    "releaseDate": "2026",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -1026,7 +1114,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1066,7 +1154,7 @@
   {
     "id": "robot-dreame-d30-ultra-ce",
     "category": "robot",
-    "rank": 14,
+    "rank": 15,
     "budget": "mid",
     "channel": "tw",
     "brand": "Dreame",
@@ -1074,9 +1162,9 @@
     "name": "全能掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 8999,
-      "converted": 8999,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 9999,
+      "converted": 9999,
+      "confidence": "PChome 2026-08-31 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL3EA900JY4G0/000001_1780033612.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL3E-A900JY4G0",
@@ -1109,20 +1197,20 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 8999,
+      "amount": 8982,
       "currency": "TWD",
-      "converted": 8999,
+      "converted": 8982,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DMBL3E-A900JY4G0",
-      "sourceTitle": "PChome 商品頁：【Dreame 追覓科技】D30 Ultra CE 全能掃拖機器人 / 【Dreame 追覓科技】D30 Ultra CE 全能掃拖機器人",
-      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「【Dreame 追覓科技】D30 Ultra CE 全能掃拖機器人 / 【Dreame 追覓科技】D30 Ultra CE 全能掃拖機器人」查核價 NT$8,999，低於原先記錄史低。",
+      "sourceTitle": "PChome 24h 購物：【Dreame 追覓科技】D30 Ultra CE 全能掃拖機器人",
+      "evidenceSnippet": "PChome 24h 購物於 2026-08-28 顯示同型號可信新品公開價 NT$8,982，低於既有史低 NT$8,999。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-10",
-      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
+      "checkedAt": "2026-08-28",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1162,7 +1250,7 @@
   {
     "id": "robot-narwal-freo-z-ultra",
     "category": "robot",
-    "rank": 15,
+    "rank": 16,
     "budget": "premium",
     "channel": "tw",
     "brand": "Narwal",
@@ -1170,9 +1258,9 @@
     "name": "真雙目 AI 掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 23888,
-      "converted": 23888,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 15900,
+      "converted": 15900,
+      "confidence": "PChome 2026-08-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL4UA900JA072/000001_1766479545.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL4U-A900JA072",
@@ -1218,7 +1306,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1258,7 +1346,7 @@
   {
     "id": "robot-narwal-flow-2",
     "category": "robot",
-    "rank": 16,
+    "rank": 17,
     "budget": "premium",
     "channel": "global",
     "brand": "Narwal",
@@ -1266,13 +1354,13 @@
     "name": "滾筒洗地旗艦掃拖機器人",
     "price": {
       "currency": "EUR",
-      "amount": 999,
-      "converted": 36881,
-      "confidence": "Boulanger 2026-07-21 來源價；ExchangeRate-API 2026-08-19 匯率換算"
+      "amount": 1099,
+      "converted": 40443,
+      "confidence": "Narwal 德國官方 2026-08-28 exact-model 標準套裝公開價 €1,099，目前所有變體售罄；ExchangeRate-API 2026-09-01 匯率換算"
     },
-    "image": "https://boulanger.scene7.com/is/image/Boulanger/6972075738536_h_f_l_0?fmt=png-alpha&wid=640&hei=640",
-    "buyUrl": "https://www.boulanger.com/ref/1238998",
-    "buyLabel": "Boulanger",
+    "image": "https://de.narwal.com/cdn/shop/files/narwal-flow-2-saugroboter-mit-selbstreinigung-9224922_1200x1200.png?v=1781597108",
+    "buyUrl": "https://de.narwal.com/products/narwal-flow-2-saugroboter-mit-selbstreinigung?variant=52366680523028",
+    "buyLabel": "Narwal 德國官方 exact-model 標準套裝（目前售罄）",
     "specs": [
       "31000Pa",
       "60 度熱水洗",
@@ -1285,6 +1373,7 @@
       "避障、拖地或基站通常是品牌當代主力"
     ],
     "cons": [
+      "官方頁目前所有變體售罄，無法立即購買",
       "海外購買價格波動大",
       "需確認電壓、插頭、耗材與台灣保固"
     ],
@@ -1298,7 +1387,7 @@
       "海外參考",
       "滾筒洗地"
     ],
-    "releaseDate": "2026",
+    "releaseDate": "2026-04-20",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -1309,12 +1398,12 @@
       "evidenceSnippet": "",
       "sourceKind": "not_found",
       "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Flow 2: iHerb 【iHerb】WishGarden Herbs, Flow Stopper Lingering Cycle，2 液量盎司（59 毫升） 型號/規格不相符；LBJ Flow 2: iHerb 【iHerb】WishGarden Herbs, Happy Ducts Free The Flow，2 液量盎司（59 毫升） 非採用通路或含排除條件；LBJ Flow 2: Momo富邦購物 【Insta360】Flow 2 Pro / Flow 2 收納包(原廠公司貨) 非採用通路或含排除條件。"
+      "checkedAt": "2026-08-28",
+      "note": "已查 Narwal 德國官方 exact-model 標準套裝、BigGo、FindPrice 與 LBJ；官方頁可重現本輪 €1,099 標價，但所有變體目前售罄，且未取得帶日期的可信新品歷史低點，未以現價推定史低。原 Boulanger 頁現已改由第三方 techzedeal 販售且價格 €1,299.99，故不再作現價來源。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1354,7 +1443,7 @@
   {
     "id": "robot-narwal-freo-z10-ultra",
     "category": "robot",
-    "rank": 17,
+    "rank": 18,
     "budget": "mid",
     "channel": "global",
     "brand": "Narwal",
@@ -1363,8 +1452,8 @@
     "price": {
       "currency": "USD",
       "amount": 551.69,
-      "converted": 17595,
-      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-08-19 匯率換算"
+      "converted": 17488,
+      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-09-01 匯率換算"
     },
     "image": "https://img.gkbcdn.com/p/2025-04-11/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438-0._w315_.jpg",
     "buyUrl": "https://www.geekbuying.com/item/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438.html",
@@ -1394,7 +1483,7 @@
       "海外參考",
       "熱水洗拖"
     ],
-    "releaseDate": "2026-05-12",
+    "releaseDate": "2025-04-15",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -1410,7 +1499,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1450,7 +1539,7 @@
   {
     "id": "robot-irobot-max-705",
     "category": "robot",
-    "rank": 18,
+    "rank": 19,
     "budget": "premium",
     "channel": "tw",
     "brand": "iRobot",
@@ -1458,9 +1547,9 @@
     "name": "全能滾筒旗艦機皇掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 28692,
-      "converted": 28692,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 22980,
+      "converted": 22980,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0JA900JCCJT/000001_1782802020.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0J-A900JCCJT",
@@ -1490,7 +1579,7 @@
       "滾筒",
       "Roomba"
     ],
-    "releaseDate": "2025-07-22",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -1506,7 +1595,7 @@
     },
     "issueResearch": {
       "status": "common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-08-29",
       "summary": "多位 Roomba Max 705 Combo 使用者回報 AutoWash 基站排水或密封異常，造成髒水滯留、滴漏或基站淹水。",
       "issues": [
         {
@@ -1547,7 +1636,7 @@
   {
     "id": "robot-irobot-plus-505",
     "category": "robot",
-    "rank": 19,
+    "rank": 20,
     "budget": "mid",
     "channel": "tw",
     "brand": "iRobot",
@@ -1555,9 +1644,9 @@
     "name": "熱旋風延邊避障全能掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 19692,
-      "converted": 19692,
-      "confidence": "PChome 2026-08-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 13480,
+      "converted": 13480,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0JA900ITF7U/000001_1782802931.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0J-A900ITF7U",
@@ -1603,7 +1692,7 @@
     },
     "issueResearch": {
       "status": "common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-08-29",
       "summary": "多位 Roomba Plus 505 Combo 使用者回報基站雖啟動自動集塵，機器內集塵盒仍未排空，必須手動倒垃圾。",
       "issues": [
         {
@@ -1634,7 +1723,7 @@
   {
     "id": "robot-irobot-plus-405",
     "category": "robot",
-    "rank": 20,
+    "rank": 21,
     "budget": "mid",
     "channel": "tw",
     "brand": "iRobot",
@@ -1642,9 +1731,9 @@
     "name": "旋風全能掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 15192,
-      "converted": 15192,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 13980,
+      "converted": 13980,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0JA900ITF88/000001_1782803241.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0J-A900ITF88",
@@ -1674,7 +1763,7 @@
       "Roomba",
       "均衡"
     ],
-    "releaseDate": "2025-03",
+    "releaseDate": "2025-03-23",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -1690,7 +1779,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1730,7 +1819,7 @@
   {
     "id": "robot-irobot-205-combo",
     "category": "robot",
-    "rank": 21,
+    "rank": 22,
     "budget": "mid",
     "channel": "tw",
     "brand": "iRobot",
@@ -1786,7 +1875,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1826,7 +1915,7 @@
   {
     "id": "robot-eufy-omni-s2",
     "category": "robot",
-    "rank": 22,
+    "rank": 23,
     "budget": "premium",
     "channel": "tw",
     "brand": "eufy",
@@ -1834,9 +1923,9 @@
     "name": "12 合 1 自清潔 AI 掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 29990,
-      "converted": 29990,
-      "confidence": "PChome 2026-08-18 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 28990,
+      "converted": 28990,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL2DA900JOEN3/000001_1782120334.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL2D-A900JOEN3",
@@ -1866,7 +1955,7 @@
       "AI 掃拖",
       "自清潔"
     ],
-    "releaseDate": "2025",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -1882,7 +1971,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1922,7 +2011,7 @@
   {
     "id": "robot-eufy-omni-e25",
     "category": "robot",
-    "rank": 23,
+    "rank": 24,
     "budget": "mid",
     "channel": "tw",
     "brand": "eufy",
@@ -1930,9 +2019,9 @@
     "name": "自清潔掃拖一體全能機器人",
     "price": {
       "currency": "TWD",
-      "amount": 14888,
-      "converted": 14888,
-      "confidence": "PChome 2026-08-18 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 14990,
+      "converted": 14990,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL2DA900IUBA2/000001_1782120226.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL2D-A900IUBA2",
@@ -1962,7 +2051,7 @@
       "活水洗地",
       "零纏繞"
     ],
-    "releaseDate": "2025-11-13",
+    "releaseDate": "2025-05-27",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -1978,7 +2067,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2018,7 +2107,7 @@
   {
     "id": "robot-eufy-omni-c28",
     "category": "robot",
-    "rank": 24,
+    "rank": 25,
     "budget": "mid",
     "channel": "tw",
     "brand": "eufy",
@@ -2026,9 +2115,9 @@
     "name": "自清潔掃拖一體全能機器人",
     "price": {
       "currency": "TWD",
-      "amount": 12244,
-      "converted": 12244,
-      "confidence": "Yahoo購物中心 2026-08-18 exact-model 公開結構化價格"
+      "amount": 13990,
+      "converted": 13990,
+      "confidence": "Yahoo購物中心 2026-08-26 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL2DA900K13C9/000001_1782120164.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/eufy-Omni-C28-%E8%87%AA%E6%B8%85%E6%BD%94%E6%8E%83%E6%8B%96%E4%B8%80%E9%AB%94%E5%85%A8%E8%83%BD%E6%A9%9F%E5%99%A8%E4%BA%BA-%E9%BB%91-11990604.html",
@@ -2058,10 +2147,23 @@
       "CP 值",
       "自清潔"
     ],
-    "releaseDate": "2026-02-06",
+    "releaseDate": "2026-02",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ eufy Omni C28: 蝦皮商城 - Renza Filtration 濾網專家 適用 eufy 悠飛 Omni C28 自清潔掃拖一體全能機器人 掃拖機器人 耗材 配件 主刷 邊刷 集塵 型號/規格不相符；LBJ eufy Omni C28: Yahoo購物中心 eufy Omni C28全能機器人配件包 型號/規格不相符；LBJ eufy Omni C28: Momo富邦購物 【eufy】Omni C28全能機器人配件包 型號/規格不相符。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2096,25 +2198,12 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 12244,
-      "currency": "TWD",
-      "converted": 12244,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1273838537&cgp=12244",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：eufy Omni C28 自清潔掃拖一體全能機器人-黑",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / eufy Omni C28 自清潔掃拖一體全能機器人-黑」最低價為 NT$12,244，最低點日期 2026-08-20。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
     "id": "robot-mova-s70-ultra-roller",
     "category": "robot",
-    "rank": 25,
+    "rank": 26,
     "budget": "premium",
     "channel": "tw",
     "brand": "MOVA",
@@ -2122,9 +2211,9 @@
     "name": "極薄滾筒掃拖機器人旗艦版",
     "price": {
       "currency": "TWD",
-      "amount": 24681,
-      "converted": 24681,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 25980,
+      "converted": 25980,
+      "confidence": "PChome 2026-08-31 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL5WA900JXBY3/000001_1776393356.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL5W-A900JXBY3",
@@ -2154,7 +2243,7 @@
       "極薄",
       "滾筒洗地"
     ],
-    "releaseDate": "2026-04-08",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
       "amount": 24681,
@@ -2170,7 +2259,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2210,7 +2299,7 @@
   {
     "id": "robot-mova-s70-roller",
     "category": "robot",
-    "rank": 26,
+    "rank": 27,
     "budget": "mid",
     "channel": "tw",
     "brand": "MOVA",
@@ -2266,7 +2355,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2306,7 +2395,7 @@
   {
     "id": "robot-lg-r5t-ultimate",
     "category": "robot",
-    "rank": 27,
+    "rank": 28,
     "budget": "mid",
     "channel": "tw",
     "brand": "LG",
@@ -2346,7 +2435,7 @@
       "LG 生態",
       "濕拖"
     ],
-    "releaseDate": "2025",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
       "amount": 12816,
@@ -2362,7 +2451,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2402,7 +2491,7 @@
   {
     "id": "robot-lg-r5-proplus",
     "category": "robot",
-    "rank": 28,
+    "rank": 29,
     "budget": "mid",
     "channel": "tw",
     "brand": "LG",
@@ -2442,7 +2531,7 @@
       "CP 值",
       "濕拖"
     ],
-    "releaseDate": "2025-03-11",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
       "amount": 7999,
@@ -2458,7 +2547,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2498,7 +2587,7 @@
   {
     "id": "robot-shark-powerdetect-nevertouch-pro",
     "category": "robot",
-    "rank": 29,
+    "rank": 30,
     "budget": "premium",
     "channel": "global",
     "brand": "Shark",
@@ -2507,8 +2596,8 @@
     "price": {
       "currency": "USD",
       "amount": 999.99,
-      "converted": 31892,
-      "confidence": "SharkNinja US 2026-07-21 來源價；ExchangeRate-API 2026-08-19 匯率換算"
+      "converted": 31699,
+      "confidence": "SharkNinja US 2026-07-21 來源價；ExchangeRate-API 2026-09-01 匯率換算"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/RV2820ZE_01.jpg",
     "buyUrl": "https://www.sharkninja.com/shark-powerdetect-2-in-1-robot-vacuum-and-mop-with-nevertouch-pro-base/RV2820ZE.html",
@@ -2538,7 +2627,7 @@
       "海外參考",
       "自動洗烘"
     ],
-    "releaseDate": "2024-10-05",
+    "releaseDate": "2024",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -2554,7 +2643,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-20",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2594,7 +2683,7 @@
   {
     "id": "robot-dyson-spot-scrub-ai",
     "category": "robot",
-    "rank": 30,
+    "rank": 31,
     "budget": "premium",
     "channel": "tw",
     "brand": "Dyson",
@@ -2652,7 +2741,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2692,7 +2781,7 @@
   {
     "id": "robot-costco-us-roborock-qx-revo",
     "category": "robot",
-    "rank": 31,
+    "rank": 32,
     "budget": "mid",
     "channel": "global",
     "brand": "Roborock",
@@ -2701,8 +2790,8 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 12757,
-      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-08-19 匯率換算"
+      "converted": 12680,
+      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-09-01 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/tkj772p4357mmh3bwz8kcq/1791272-847__1?auto=webp&format=jpg",
     "buyUrl": "https://www.costco.com/p/-/roborock-qx-revo-robot-vacuum-and-mop-with-multifunctional-dock/4000233271",
@@ -2749,7 +2838,7 @@
     },
     "issueResearch": {
       "status": "common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-08-29",
       "summary": "多位 QX Revo 使用者回報使用一段時間或清洗拖布時，基站或機器會漏水至底盤或地板。",
       "issues": [
         {
@@ -2775,7 +2864,7 @@
   {
     "id": "robot-costco-eufy-e20",
     "category": "robot",
-    "rank": 32,
+    "rank": 33,
     "budget": "mid",
     "channel": "tw",
     "brand": "eufy",
@@ -2818,7 +2907,7 @@
       "集塵",
       "中階"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2025-02",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -2834,7 +2923,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2874,7 +2963,7 @@
   {
     "id": "robot-xiaomi-vacuum-6-max",
     "category": "robot",
-    "rank": 33,
+    "rank": 34,
     "budget": "premium",
     "channel": "tw",
     "brand": "Xiaomi",
@@ -2920,7 +3009,7 @@
       "35,000Pa",
       "6cm 越障"
     ],
-    "releaseDate": "2026-06-16",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -2936,7 +3025,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2976,7 +3065,7 @@
   {
     "id": "robot-ecovacs-t90-pro",
     "category": "robot",
-    "rank": 9,
+    "rank": 10,
     "budget": "premium",
     "channel": "tw",
     "brand": "Ecovacs",
@@ -2984,9 +3073,9 @@
     "name": "ECOVACS DEEBOT T90 PRO OMNI",
     "price": {
       "currency": "TWD",
-      "amount": 20999,
-      "converted": 20999,
-      "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 18999,
+      "converted": 18999,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900JWVON/000001_1776138874.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0L-A900JWVON",
@@ -3038,7 +3127,7 @@
     },
     "issueResearch": {
       "status": "common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "多位 DEEBOT T90 PRO OMNI 使用者跨站回報，導航／避障會跳過或拒絕清掃實際可到達的區域。",
       "issues": [
         {
@@ -3084,7 +3173,7 @@
   {
     "id": "robot-ecovacs-x12-pro",
     "category": "robot",
-    "rank": 8,
+    "rank": 9,
     "budget": "premium",
     "channel": "tw",
     "brand": "Ecovacs",
@@ -3146,7 +3235,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3186,7 +3275,7 @@
   {
     "id": "robot-xiaomi-h50-pro",
     "category": "robot",
-    "rank": 34,
+    "rank": 35,
     "budget": "mid",
     "channel": "tw",
     "brand": "Xiaomi",
@@ -3248,7 +3337,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3288,7 +3377,7 @@
   {
     "id": "robot-hobot-legee-q10-pro",
     "category": "robot",
-    "rank": 35,
+    "rank": 36,
     "topPick": false,
     "budget": "premium",
     "channel": "tw",
@@ -3344,9 +3433,22 @@
       "台灣公司貨"
     ],
     "releaseDate": "2025-07-11",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已查 HOBOT 台灣官方規格、和康總代理上市與 exact-model 商品頁、PChome 及 exact-model 價格搜尋；PChome NT$19,800 與官方商城 NT$20,800 都是本輪現價，未找到可公開重現且具日期的可信新品歷史曲線，因此不推定史低。"
+    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3381,25 +3483,12 @@
           "targetHost": "youtube.com"
         }
       ]
-    },
-    "historicalLow": {
-      "status": "found",
-      "amount": 17800,
-      "currency": "TWD",
-      "converted": 17800,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1251253062&cgp=18900",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【HOBOT 玻妞】雷姬環保壓縮掃拖地機器人旗艦版LEGEE-Q10 PRO(熱風直烘/自動充電補水/語音聲控)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【HOBOT 玻妞】雷姬環保壓縮掃拖地機器人旗艦版LEGEE-Q10 PRO(熱風直烘/自動充電補水/語音聲控)」最低價為 NT$17,800，最低點日期 2026-05-20。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-20",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
     "id": "robot-roborock-qrevo-edge-2-flow",
     "category": "robot",
-    "rank": 36,
+    "rank": 37,
     "topPick": false,
     "budget": "premium",
     "channel": "tw",
@@ -3410,7 +3499,7 @@
       "currency": "TWD",
       "amount": 25980,
       "converted": 25980,
-      "confidence": "PChome 2026-08-18 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900K7R6R/000001_1785985365.jpg",
@@ -3451,7 +3540,7 @@
       "零纏繞",
       "台灣公司貨"
     ],
-    "releaseDate": "2026-07-21",
+    "releaseDate": "2026-07-22",
     "historicalLow": {
       "status": "found",
       "amount": 25980,
@@ -3467,7 +3556,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-29",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3503,6 +3592,602 @@
         }
       ]
     }
+  },
+  {
+    "id": "robot-tplink-tapo-rv30-max-plus",
+    "category": "robot",
+    "rank": 38,
+    "topPick": false,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "TP-Link",
+    "model": "Tapo RV30 Max Plus",
+    "name": "5300Pa LiDAR 自動集塵掃拖機器人",
+    "price": {
+      "currency": "TWD",
+      "amount": 7999,
+      "converted": 7999,
+      "confidence": "2026-08-31 人工查核：Tapo RV30 Max Plus 整套主價 NT$7,999、低庫存 3 組，直接購買／購物車可用；排除 RV50 與耗材推薦價。",
+      "basis": "retailer_current"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "momo 商品價含掃拖主機與 Plus 自動集塵座，未標示含到府設定；需自行安置集塵座、連接 Tapo App、整理地面線材並建立地圖。"
+    },
+    "image": "https://i4.momoshop.com.tw/1769046836/goodsimg/0013/838/076/13838076_R_m.webp",
+    "buyUrl": "https://www.momoshop.com.tw/product/13838076",
+    "buyLabel": "momo exact-model 台灣公司貨新品",
+    "specs": [
+      "最大吸力 5300Pa；LiDAR + IMU 導航",
+      "Plus 自動集塵座 3L 集塵袋；集塵吸力 17000Pa",
+      "機器人集塵盒 300ml；水箱 300ml；H11 濾網",
+      "機身尺寸：直徑 33 x 高 10 cm；集塵座：寬 22.8 x 深 16.4 x 高 33 cm",
+      "2600mAh 電池；最長約 150 分鐘；充電約 4 小時",
+      "機器人最大功率 45W；集塵座最大功率 650W",
+      "支援 Tapo App、多樓層地圖、禁區、房間與排程清掃"
+    ],
+    "description": "不到七千元把 5300Pa、LiDAR 與 3L 自動集塵帶進比較，補上 TP-Link／Tapo 智慧家庭生態系與高 CP 入門自集塵路線。",
+    "pros": [
+      "5300Pa、LiDAR 與自動集塵在價格帶內規格突出",
+      "3L 集塵袋減少日常倒塵頻率",
+      "可與既有 Tapo 智慧家庭 App 共用，台灣官方保固政策明確"
+    ],
+    "cons": [
+      "沒有洗拖布、烘乾或自動補排水等高階基座功能",
+      "避障以 LiDAR／感測器為主，線材、襪子與窗簾仍應先整理",
+      "Reddit exact-model 曾出現少數地圖、拖地導航或回座候選，但同症狀未達 6 人且只集中單一網站；建議到貨後完整測試地圖與回座"
+    ],
+    "bestFor": "想用入門預算取得 LiDAR 與自動集塵，家中已有 Tapo 裝置且願意自行整理線材、定期清洗拖布的使用者。",
+    "recommendation": "自動集塵 CP 推薦：用低價補上 5300Pa、LiDAR 與 3L 集塵，適合和高階全能基座清楚比較功能取捨。",
+    "releaseDate": "2024-11-14",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-20",
+      "note": "已查 momo exact-model 台灣新品頁、TP-Link 台灣 2025 公開促銷頁與比價入口；現價 NT$6,888 低於舊促銷價不等同已驗證史低，未找到完整價格時間軸，故不推定。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-29",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"TP-Link Tapo RV30 Max Plus\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TP-Link%20Tapo%20RV30%20Max%20Plus%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"TP-Link Tapo RV30 Max Plus\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22TP-Link%20Tapo%20RV30%20Max%20Plus%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"TP-Link Tapo RV30 Max Plus\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22TP-Link%20Tapo%20RV30%20Max%20Plus%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"TP-Link Tapo RV30 Max Plus\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22TP-Link%20Tapo%20RV30%20Max%20Plus%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"TP-Link Tapo RV30 Max Plus\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22TP-Link%20Tapo%20RV30%20Max%20Plus%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
+        }
+      ]
+    },
+    "score": 87,
+    "voltage": "台灣授權通路版本集塵座 AC 100–120V／50–60Hz；不可與 220–240V 海外版集塵座跨區混用",
+    "warranty": "TP-Link 台灣公司貨；Tapo 掃地機器人主機 1 年、電源供應器 3 個月，耗材不保固，依台灣官方政策",
+    "tags": [
+      "5300Pa",
+      "LiDAR",
+      "自動集塵",
+      "3L集塵袋",
+      "Tapo App"
+    ]
+  },
+  {
+    "id": "robot-electrolux-efr81223",
+    "category": "robot",
+    "rank": 39,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Electrolux",
+    "model": "EFR81223",
+    "name": "安心管家 800 全能掃拖機器人",
+    "price": {
+      "currency": "TWD",
+      "amount": 16900,
+      "converted": 16900,
+      "confidence": "PChome 24h 於 2026-08-24 的 exact-model 台灣新品頁公開價 NT$16,900，結構化資料標示 InStock，API 顯示 Qty 20",
+      "basis": "retailer_current"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "PChome 與伊萊克斯官方頁均未標示含到府設定；水箱式基座不需固定給排水，但仍須預留平坦乾燥位置、110V 接地插座與基座前方回充空間。"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMBL5XA900K8CTK/000001_1787109949.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBL5X-A900K8CTK",
+    "buyLabel": "PChome 24h exact-model 現貨新品",
+    "specs": [
+      "一體式基座：自動集塵、自動補水、自動添加清潔劑與污水回收",
+      "ThermoWash 65°C 熱水洗拖布；60°C 熱風烘乾",
+      "LiDAR、雙線雷射與 AI 攝影鏡頭避障；多樓層地圖；最高跨越 20mm 門檻",
+      "雙旋轉拖布 180rpm；地毯感應抬升 10mm；FlexReach 延伸拖布",
+      "機器人尺寸：寬 35 x 深 35.2 x 高 11 cm；基座：寬 31 x 深 46.8 x 高 60.1 cm",
+      "機器人集塵盒 0.3L、水箱 0.1L；110V / 60Hz、CNS 690 接地插頭"
+    ],
+    "description": "EFR81223 是 Electrolux 台灣 2026 年推出的全能基座代表款，以 65°C 熱水洗布、60°C 烘乾、AI 避障與延伸拖布，補上不同於既有中國掃拖品牌的台灣官方售後比較。",
+    "pros": [
+      "官方現貨、110V / 60Hz 與掃地機器人 2 年保固均有明確台灣證據",
+      "自動集塵、補水、加清潔劑、洗布與烘乾整合完整",
+      "LiDAR、雙線雷射、AI 攝影鏡頭與 20mm 越障兼顧導航和避障"
+    ],
+    "cons": [
+      "11cm 機身與 60.1cm 高基座需要先核對床底、櫃下與擺放空間",
+      "只有水箱式基座，仍須人工換清水、倒污水與補充耗材",
+      "官方評論 feed 有 5 位 exact-model 作者提到拖布／集水盤積水或誤報，但只在單一原始評論網站；App 候選亦不足 6 位且症狀不完全相同，未達跨站集中災情門檻，仍建議到貨優先驗收"
+    ],
+    "bestFor": "重視台灣官方售後、想要完整自清潔基座與 AI 避障，又不打算施作固定給排水的家庭。",
+    "recommendation": "台灣售後差異化推薦：功能完整且有 110V 與 2 年保固證據；到貨後應優先驗收 App 連線、地圖、排程與清掃紀錄。",
+    "score": 89,
+    "voltage": "台灣官方規格 110V / 60Hz；CNS 690 C4012、12A 125V 雙極接地插頭",
+    "warranty": "伊萊克斯台灣官方保固資訊：掃地機器人全機 2 年；耗材與非正常使用依原廠條款",
+    "tags": [
+      "65°C熱水洗布",
+      "60°C熱風烘乾",
+      "AI避障",
+      "自動集塵補水",
+      "台灣2年保固"
+    ],
+    "releaseDate": "2026-03",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-24",
+      "note": "已查伊萊克斯官方 exact-model 現價 NT$21,900、PChome 24h exact-model 現價 NT$16,900，以及嘖嘖 2026-03-05 至 2026-06-08 的 NT$16,900 預購回饋；嘖嘖方案包含 EFR81223＋ERK7 耗材組，商品內容不同，未找到單機同條件的可重現歷史價格時間軸，故不推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-29",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Electrolux EFR81223\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Electrolux%20EFR81223%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Electrolux EFR81223\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Electrolux%20EFR81223%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Electrolux EFR81223\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Electrolux%20EFR81223%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Electrolux EFR81223\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Electrolux%20EFR81223%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Electrolux EFR81223\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Electrolux%20EFR81223%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "robot-xiaomi-vacuum-6-pv32gl",
+    "category": "robot",
+    "rank": 40,
+    "topPick": false,
+    "budget": "balanced",
+    "channel": "tw",
+    "brand": "Xiaomi",
+    "model": "PV32GL",
+    "name": "Xiaomi 掃拖機器人 6",
+    "price": {
+      "currency": "TWD",
+      "amount": 15999,
+      "converted": 15999,
+      "confidence": "PChome 24h 於 2026-08-28 的 exact-model 新品公開價",
+      "basis": "retailer_current"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "台灣通路未標示含到府設定；水箱式全功能底座不需固定給排水，仍須預留平坦乾燥位置、100–120V／50–60Hz 接地插座與基座前方回充空間。"
+    },
+    "image": "https://i02.appmifile.com/518_operatorx_operatorx_xm/01/06/2026/2f6dd7e2204db8a3e0090a511888fff7.png",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBL53-A900KAFM1",
+    "buyLabel": "PChome 24h exact-model 新品",
+    "specs": [
+      "吸力：30,000Pa；主動活水滾筒拖布",
+      "AI 避障可辨識 220 種以上物體；機身高度 9cm",
+      "雙段式越障最高 4cm；基座 80°C 熱水洗布、45°C 熱風烘乾",
+      "機器人尺寸：直徑 35 x 高 9 cm；淨重 5.2 kg",
+      "基座尺寸：寬 34.7 x 深 28.8 x 高 55 cm；含延伸板深 47 cm",
+      "電池額定 4,800mAh、標稱 5,200mAh；最長約 75 天免倒垃圾",
+      "基座輸入 100–120V／50–60Hz；集塵 600W、熱水洗布 1,250W、烘乾充電 145W"
+    ],
+    "description": "Xiaomi 2026 年台灣現售的次旗艦滾筒掃拖款，以 30,000Pa、活水滾筒、9cm 薄型機身與 4cm 越障補進較低於 Pro 的完整基座價位帶。",
+    "pros": [
+      "活水滾筒持續刮洗，比傳統旋轉拖布更強調污水即時分離",
+      "9cm 薄型機身與 4cm 雙段越障兼顧低矮家具和門檻",
+      "台灣官方 exact-model 規格、110V 相容電力與可信通路現貨均可核對"
+    ],
+    "cons": [
+      "不含 Pro 的污漬辨識、遠端鏡頭與更高溫基座洗烘",
+      "水箱式基座仍須人工補清水、倒污水與更換集塵袋",
+      "新上市型號的長期耗材成本與可靠度仍待累積"
+    ],
+    "bestFor": "想以約一萬六千元取得活水滾筒、熱水洗烘與超薄越障機身，但不需要遠端看家鏡頭的家庭。",
+    "recommendation": "活水滾筒均衡推薦：相較同系列 Pro 保留主要清潔與越障能力，以較低價格提供清楚的功能分層。",
+    "releaseDate": "2026",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-28",
+      "note": "已查 PChome、Momo 小米官方旗艦店、LBJ 與 FindPrice 的 exact-model PV32GL；PChome 與 Momo 的 NT$15,999 只能證明本輪現價，LBJ 結果為相容耗材而非主機，未找到具日期且可重現的可信新品歷史價格曲線，故不以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-29",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Xiaomi PV32GL\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Xiaomi%20PV32GL%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Xiaomi PV32GL\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Xiaomi%20PV32GL%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        }
+      ]
+    },
+    "score": 92,
+    "voltage": "機器人 14.4V DC；基座輸入 100–120V／50–60Hz，適用台灣 110V／60Hz",
+    "warranty": "台灣公司貨；Momo 小米官方旗艦店 exact-model 頁標示主機 1 年保固，耗材不在保固範圍",
+    "tags": [
+      "30,000Pa",
+      "活水滾筒",
+      "9cm薄型",
+      "4cm越障",
+      "80°C熱水洗布"
+    ]
+  },
+  {
+    "id": "robot-xiaomi-vacuum-6-pro-pv21gl",
+    "category": "robot",
+    "rank": 41,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Xiaomi",
+    "model": "PV21GL",
+    "name": "Xiaomi 掃拖機器人 6 Pro",
+    "price": {
+      "currency": "TWD",
+      "amount": 20999,
+      "converted": 20999,
+      "confidence": "PChome 2026-08-31 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "basis": "retailer_current"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "台灣通路未標示含到府設定；水箱式全功能底座不需固定給排水，仍須預留平坦乾燥位置、100–120V／50–60Hz 接地插座與基座前方回充空間。"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DMBL53A900KAFL2/000001_1786094362.png",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBL53-A900KAFL2",
+    "buyLabel": "PChome 24h exact-model 新品",
+    "specs": [
+      "吸力：30,000Pa；主動活水滾筒拖布",
+      "AI 可辨識 47 種污漬與 280 種以上障礙物，支援污漬複拖與遠端鏡頭",
+      "升降式雷達收起後機身高度 9cm；雙段式越障最高 4cm",
+      "基座 85°C 熱水洗布、50°C 熱風烘乾與自動集塵",
+      "機器人尺寸：直徑 35 x 高 9 cm；官方只列含配件總淨重 15 kg，未列機器人單機淨重",
+      "基座尺寸：寬 36 x 深 28.9 x 高 58.2 cm；含延伸板深 47 cm",
+      "基座輸入 100–120V／50–60Hz；集塵 650W、熱水洗布 1,200W、烘乾充電 120W"
+    ],
+    "description": "Xiaomi 2026 年台灣現售高階滾筒掃拖款，以污漬辨識、主動複拖、遠端鏡頭和升降雷達，形成介於標準版 6 與既有 6 Max 間的功能比較。",
+    "pros": [
+      "可辨識污漬並決定複拖，讓滾筒洗地不只依固定路徑運作",
+      "升降雷達維持 9cm 薄型機身，並保留 4cm 雙段越障",
+      "85°C 洗布、50°C 烘乾與遠端鏡頭補足標準版 6 的功能缺口"
+    ],
+    "cons": [
+      "遠端鏡頭涉及居家隱私，應設定帳號安全與依需求關閉",
+      "官方未分列機器人單機淨重，只能保守標示含配件總淨重",
+      "新上市型號的長期維修、耗材成本與可靠度仍待累積"
+    ],
+    "bestFor": "有寵物、餐桌污漬或複雜低矮家具，重視主動污漬處理、遠端查看與完整熱水洗烘的家庭。",
+    "recommendation": "污漬辨識進階推薦：用約兩萬元補上主動複拖、鏡頭與升降雷達，和標準版及 6 Max 形成清楚的三級比較。",
+    "releaseDate": "2026",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-28",
+      "note": "已查 PChome、Momo、小米蝦皮官方旗艦店、LBJ 與 FindPrice 的 exact-model PV21GL；NT$19,949／20,999 均只證明本輪現價，LBJ 結果為相容耗材而非主機，未找到具日期且可重現的可信新品歷史價格曲線，故不以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-29",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Xiaomi PV21GL\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Xiaomi%20PV21GL%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Xiaomi PV21GL\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Xiaomi%20PV21GL%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        }
+      ]
+    },
+    "score": 94,
+    "voltage": "機器人 14.4V DC；基座輸入 100–120V／50–60Hz，適用台灣 110V／60Hz",
+    "warranty": "台灣公司貨；小米蝦皮官方旗艦店 exact-model 頁標示主機與充電座 1 年保固，耗材不在保固範圍",
+    "tags": [
+      "污漬辨識",
+      "活水滾筒",
+      "遠端鏡頭",
+      "4cm越障",
+      "85°C熱水洗布"
+    ]
+  },
+  {
+    "id": "robot-hitachi-rv-x20p",
+    "category": "robot",
+    "rank": 42,
+    "topPick": false,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "HITACHI",
+    "model": "RV-X20P",
+    "name": "LDS 雷射濕拖掃地機器人（香檳金／無自動集塵）",
+    "price": {
+      "currency": "TWD",
+      "amount": 6099,
+      "converted": 6099,
+      "basis": "retailer_current",
+      "confidence": "信源電器 3cu 2026-08-31 exact-model 公開售價；原頁 JSON-LD TWD6099／InStock，香檳金變體庫存3件，is_preorder=false、sold_out=false；未扣LINE會員購物金或回饋，實際出貨依通路確認。"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "含原廠充電底座與電源供應器；通路未明列到府設定服務。底座置於硬質水平地面，前方保留1.5m、左右各0.5m，使用獨立110V插座，水箱與拖布由使用者手動維護。"
+    },
+    "image": "https://img.shoplineapp.com/media/image_clips/691575d90fcefd9c855f48f0/original.png?1763014105=&owner_id=660818d6bfec170041bd5ec5",
+    "buyUrl": "https://www.3cu.com.tw/products/rvx20prvx20p",
+    "buyLabel": "信源電器（台灣原廠授權通路）",
+    "specs": [
+      "LDS 雷射導航；HomeDirect App，最多保存5張地圖",
+      "最高吸力5,000Pa、4段吸力；電子水量控制，越障最高2cm",
+      "集塵盒0.4L、水箱0.3L；無自動集塵站，拖布須手動清洗",
+      "電池14.4V／5.0Ah；安靜模式最長250分鐘，標準模式180分鐘，超強模式65分鐘",
+      "充電時間6–7.5小時；Wi-Fi 2.4GHz，802.11b/g/n",
+      "充電底座尺寸：寬15.5 x 深14.6 x 高9cm；官方本體只列342 x 94.5mm，未標示完整三軸順序與淨重",
+      "原廠配件包含充電底座、電源供應器、拖地工具、拖布、邊刷、濾網與清潔刷",
+      "電源供應器 ZD024D240100US：輸入100–240V／50–60Hz，輸出24V DC／1A；台灣說明書指定獨立110V插座"
+    ],
+    "description": "HITACHI RV-X20P 是台灣官方仍列示的基礎雷射掃拖款，附小型充電底座但沒有自動集塵、洗布或烘布。以日立台灣公司貨與六千元級公開價補足入門品牌比較，不把它描述為2026新發表或技術旗艦。",
+    "pros": [
+      "LDS 地圖導航與 App 分區、水量、吸力調整可供基本日常掃拖",
+      "小型充電底座不需大型洗烘基座或固定給排水",
+      "台灣官方 exact-model 說明書、相容電力及可信通路新品庫存可核對"
+    ],
+    "cons": [
+      "每次仍需手動倒塵、加水與清洗拖布，自動化程度低於同價位部分集塵款",
+      "最高續航是安靜模式條件，超強模式約65分鐘，不能同時當成最大吸力續航",
+      "通路未單列本型號保固年限；購前應確認隨附保證書、耗材型號與供貨"
+    ],
+    "bestFor": "偏好日立台灣售後、只需基礎雷射掃拖，且可接受自行倒塵與洗布的家庭。",
+    "recommendation": "日系品牌入門比較款，不列 Top Pick。重視品牌售後可納入比較；若更在意少做家務，應同時比較相近價位的自動集塵款。購前向通路確認庫存、保固年限與拖布／濾網供應。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-31",
+      "note": "已查信源電器 RV-X20P exact-model NT$6,099 現價、樂天秀翔 NT$6,480 及 FindPrice、BigGo、比價撿便宜的同型號比價／歷史入口。比較頁混有 RV-X20DPA、耗材及拍賣，搜尋舊快照與相對時間降價敘述不能證明可重現的同型號新品歷史最低價；未取得具日期的可靠歷史價格序列，不以 NT$6,099 現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-31",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"RV-X20P\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22RV-X20P%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"RV-X20P\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22RV-X20P%22",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"RV-X20P\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22RV-X20P%22",
+          "targetHost": "reddit.com"
+        }
+      ]
+    },
+    "score": 80,
+    "voltage": "原廠電源供應器100–240V／50–60Hz，輸出24V DC／1A；台灣說明書指定獨立110V插座",
+    "warranty": "台灣信源電器通路；依隨附原廠保證書，商品頁未明載本型號保固年限，下單前須確認",
+    "tags": [
+      "日系品牌",
+      "LDS雷射導航",
+      "台灣公司貨",
+      "手動集塵",
+      "基礎濕拖"
+    ]
+  },
+  {
+    "id": "robot-hitachi-rv-x20dpa",
+    "category": "robot",
+    "brand": "HITACHI",
+    "model": "RV-X20DPA",
+    "name": "LDS 雷射自動集塵濕拖掃地機器人（香檳金／4L 集塵站）",
+    "rank": 43,
+    "topPick": false,
+    "budget": "value",
+    "channel": "tw",
+    "price": {
+      "currency": "TWD",
+      "amount": 10500,
+      "converted": 10500,
+      "basis": "retailer_current",
+      "confidence": "2026-08-31 Chrome 人工核對雅光 exact SKU RVX20DPABKCG 公開主價 NT$10,500、頁面庫存1及可用購買控制；NT$12,900 是刪除線原價。未扣會員、信用卡或點數回饋。頁首圖片另要求購前電話確認，與門市共用庫存，不保證立即出貨。",
+      "note": "雅光頁面標示尚有庫存1；與門市共用庫存，下單前須致電(02)2796-5866確認，實際出貨以通路確認為準。"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "附自動集塵與充電站；通路未明載到府設定服務。底座放於硬質水平地面，前方保留1.5m、左右各0.5m，依台灣說明書使用獨立110V插座，不用延長線；水箱與拖布須手動維護。"
+    },
+    "image": "https://cdn1-next.cybassets.com/media/W1siZiIsIjI3Njc0L3Byb2R1Y3RzLzU4MDIxNDA0LzE3NTM5NDk5NzNfZWUyODg4NmIxYTg2Y2FhODAzM2MucG5nIl0sWyJwIiwidGh1bWIiLCI2MDB4NjAwIl1d.png?sha=5790e10d1db1f9b6",
+    "buyUrl": "https://www.yk01.com.tw/products/rvx20dpabkcg",
+    "buyLabel": "雅光電器（購前電話確認庫存）",
+    "specs": [
+      "LDS 雷射導航；HomeDirect App，最多保存5張地圖",
+      "最高吸力5,000Pa、4段吸力；App 調整水量，越障最高2cm",
+      "集塵盒0.4L、水箱0.3L、4L自動集塵站；沒有拖布自清潔，須手動清洗",
+      "電池14.4V／5Ah；安靜模式最長250分鐘、標準180分鐘、強力120分鐘、超強65分鐘",
+      "充電6–7.5小時；Wi-Fi 2.4GHz，802.11b/g/n",
+      "集塵站尺寸：寬22.6 x 深18.5 x 高38.3cm；官方本體僅列342 x 94.5mm，未明示完整三軸順序與淨重",
+      "附自動集塵與充電站、拖地工具、拖布x2、邊刷x2、濾網x2、清潔刷與集塵袋x3",
+      "集塵座輸入100–120V／50–60Hz，充電狀態0.6A、集塵狀態9A，輸出24V DC／1.5A；台灣說明書指定獨立110V插座"
+    ],
+    "description": "HITACHI RV-X20DPA 是台灣官方仍列示的自動集塵雷射掃拖款，以4L集塵站與既有無自動集塵的RV-X20P區隔；不是2026新發表，也不具自動洗布或烘布。雅光公開頁標示庫存1，但與實體門市共用庫存，頁首要求購前電話確認，不能當成保證立即出貨。",
+    "pros": [
+      "自動回收集塵盒灰塵，可減少手動倒塵頻率",
+      "LDS 地圖、分區及App吸力／水量調整適合基本日常掃拖",
+      "台灣官方 exact-model 說明書可核對集塵站電力、使用限制及維修據點"
+    ],
+    "cons": [
+      "仍需自行加水、拆洗拖布；拖地後應即時移除濕拖布，不在地毯上拖地",
+      "最高250分鐘僅是安靜模式，超強模式約65分鐘；集塵袋仍是消耗品",
+      "通路要求購前電話確認庫存，且未單列本型保固年限；耗材型號與供應也應先問清楚"
+    ],
+    "bestFor": "偏好日立台灣公司貨、希望減少倒塵但可接受手洗拖布，且可先向門市確認供貨與保固的家庭。",
+    "recommendation": "日系自動集塵比較款，不列Top Pick。購前致電雅光確認與門市共用的庫存、原廠保證書及耗材供應；NT$10,500為查核時頁面主價，不代表保留庫存或保證出貨。重視拖地自動化者應同時比較洗布／烘布型。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-31",
+      "note": "已查雅光 RV-X20DPA NT$10,500 現價、Yahoo 同型頁、玉明電器及 BigGo／FindPrice／比價撿便宜的同型號價格入口。比價頁混有耗材與非新品拍賣，搜尋快取舊價格與目前售價缺少可重現的日期價格序列；未取得同型號可信新品的具日期史低證據，不以 NT$10,500 現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-31",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"RV-X20DPA\" (災情 OR 問題 OR 故障 OR 負評)",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22RV-X20DPA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"RV-X20DPA\"",
+          "targetHost": "ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22RV-X20DPA%22"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"RV-X20DPA\"",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22RV-X20DPA%22"
+        }
+      ]
+    },
+    "score": 82,
+    "voltage": "集塵座100–120V／50–60Hz，充電0.6A／集塵9A，輸出24V DC／1.5A；台灣說明書指定獨立110V插座",
+    "warranty": "雅光台灣原廠公司貨；依隨附原廠保證書，商品頁未明載本型號保固年限，下單前須確認",
+    "tags": [
+      "日系品牌",
+      "LDS雷射導航",
+      "台灣公司貨",
+      "自動集塵",
+      "手洗拖布"
+    ]
   }
 ]);
 })();

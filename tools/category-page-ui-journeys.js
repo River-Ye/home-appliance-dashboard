@@ -8,7 +8,13 @@ const firstPartyPrefix = pathToFileURL(`${root}${path.sep}`).href;
 const editorialTeam = "家電推薦比較工作台專案編輯團隊";
 const representativeCategories = [
   { id: "tv", label: "電視" },
-  { id: "soundbar", label: "Soundbar" },
+  { id: "monitor", label: "電腦螢幕" },
+  { id: "mouse", label: "滑鼠" },
+  { id: "keyboard", label: "鍵盤" },
+  { id: "mousepad", label: "滑鼠墊" },
+  { id: "bedsheet", label: "床包" },
+  { id: "comforter", label: "棉被" },
+  { id: "pillow", label: "枕頭" },
 ];
 const viewports = [
   { name: "category-desktop", viewport: { width: 1440, height: 1100 } },
@@ -95,16 +101,23 @@ async function assertNoJavaScriptCategoryPage(browser, category, name, viewport)
     const main = page.locator("main");
     if (!await main.isVisible()) throw new Error(`${name}: main content is not visible without JavaScript`);
     const text = (await main.innerText()).replace(/\s+/g, " ");
-    for (const phrase of ["選購重點", "常見問題", "資料限制", editorialTeam]) {
+    for (const phrase of ["完整型號索引", "選購重點", "常見問題", "資料限制", editorialTeam]) {
       if (!text.includes(phrase)) throw new Error(`${name}: no-JS content is missing ${phrase}`);
     }
-    const topFive = products
+    const categoryProducts = products
       .filter((product) => product.category === category.id)
-      .sort((left, right) => left.rank - right.rank || left.id.localeCompare(right.id))
-      .slice(0, 5);
-    for (const product of topFive) {
-      if (!text.includes(product.model)) {
-        throw new Error(`${name}: no-JS recommendation content is missing ${product.model}`);
+      .sort((left, right) => left.rank - right.rank || left.id.localeCompare(right.id));
+    const catalog = page.locator(".editorial-catalog-list");
+    if (!await catalog.isVisible()) {
+      throw new Error(`${name}: no-JS catalog is not visibly rendered`);
+    }
+    if (await catalog.locator(".editorial-catalog-item").count() !== categoryProducts.length) {
+      throw new Error(`${name}: no-JS catalog does not contain all ${categoryProducts.length} products`);
+    }
+    const catalogText = (await catalog.innerText()).replace(/\s+/g, " ");
+    for (const product of categoryProducts) {
+      if (!catalogText.includes(product.model)) {
+        throw new Error(`${name}: no-JS catalog content is missing ${product.model}`);
       }
     }
     await assertLocalStaticTargetsExist(page, name);
