@@ -17,9 +17,9 @@
     "name": "5-10 坪綠淨力玩美雙禦空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 5900,
-      "converted": 5900,
-      "confidence": "PChome 2026-08-28 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 5288,
+      "converted": 5288,
+      "confidence": "PChome 2026-09-03 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3EA900AU9PA/000001_1782107657.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU3E-A900AU9PA",
@@ -1837,9 +1837,9 @@
     "name": "PuriCare 超淨化大白空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 7399,
-      "converted": 7399,
-      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 6810,
+      "converted": 6810,
+      "confidence": "PChome 2026-09-03 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU0BA900GI0Q1/000001_1763349087.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU0B-A900GI0Q1",
@@ -2546,9 +2546,9 @@
     "name": "4–8 坪抗敏系列空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 3990,
-      "converted": 3990,
-      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 3160,
+      "converted": 3160,
+      "confidence": "PChome 2026-09-03 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current"
     },
     "installation": {

@@ -113,9 +113,9 @@
     "name": "22 公升 PuriCare 雙變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 18500,
-      "converted": 18500,
-      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 20900,
+      "converted": 20900,
+      "confidence": "PChome 2026-09-03 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4NA900JMY77/000001_1783337653.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ4N-A900JMY77",

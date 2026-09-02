@@ -601,9 +601,9 @@
     "name": "BE5000 Wi-Fi 7 Mesh 延伸系統路由器+2衛星",
     "price": {
       "currency": "TWD",
-      "amount": 8900,
-      "converted": 8900,
-      "confidence": "PChome 2026-08-31 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 8100,
+      "converted": 8100,
+      "confidence": "PChome 2026-09-03 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJAA900JG5AK/000001_1763014538.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJA-A900JG5AK",
@@ -637,16 +637,16 @@
     "releaseDate": "2025-07-29",
     "historicalLow": {
       "status": "found",
-      "amount": 8400,
+      "amount": 8100,
       "currency": "TWD",
-      "converted": 8400,
+      "converted": 8100,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DRAFJA-A900JG5AK",
-      "sourceTitle": "PChome 商品 API：【NETGEAR】Orbi RBE373 BE5000 雙頻WiFi 7Mesh延伸系統 路由器+2衛星1.5GHz四核+1GB RAM(Orbi RBE373)",
-      "evidenceSnippet": "PChome 商品 API 於 2026-07-13 顯示同型號新品公開價 NT$8,400，低於既有可驗證史低。",
+      "sourceTitle": "PChome 24h 購物：【NETGEAR】Orbi RBE373 BE5000 雙頻WiFi 7Mesh延伸系統 路由器+2衛星1.5GHz四核+1GB RAM(Orbi RBE373)",
+      "evidenceSnippet": "PChome 24h 購物於 2026-09-03 顯示同型號可信新品公開價 NT$8,100，低於既有史低 NT$8,400。",
       "sourceKind": "retailer_page",
-      "confidence": "high",
-      "checkedAt": "2026-07-13",
-      "note": "採用同型號、同尺寸／容量／規格的可信新品公開價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示、拆封與整新品。"
+      "confidence": "medium",
+      "checkedAt": "2026-09-03",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2716,9 +2716,9 @@
     "name": "BE3600 雙頻 Wi-Fi 7 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 3690,
-      "converted": 3690,
-      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 3390,
+      "converted": 3390,
+      "confidence": "PChome 2026-09-03 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJAA900JUQYP/000001_1774520642.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJA-A900JUQYP",
@@ -2752,16 +2752,16 @@
     "releaseDate": "2025",
     "historicalLow": {
       "status": "found",
-      "amount": 3595,
+      "amount": 3390,
       "currency": "TWD",
-      "converted": 3595,
+      "converted": 3390,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DRAFJA-A900JUQYP",
-      "sourceTitle": "PChome 商品 API：NETGEAR 夜鷹NIGHTHAWK RS100 BE3600 雙頻 WiFi 7 分享器/路由器",
-      "evidenceSnippet": "PChome 商品 API 於 2026-07-13 顯示同型號新品公開價 NT$3,595，低於既有可驗證史低。",
+      "sourceTitle": "PChome 24h 購物：NIGHTHAWK RS100 BE3600 雙頻 WiFi 7 分享器/路由器 (美國品牌 資安有保障)",
+      "evidenceSnippet": "PChome 24h 購物於 2026-09-03 顯示同型號可信新品公開價 NT$3,390，低於既有史低 NT$3,595。",
       "sourceKind": "retailer_page",
-      "confidence": "high",
-      "checkedAt": "2026-07-13",
-      "note": "採用同型號、同尺寸／容量／規格的可信新品公開價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示、拆封與整新品。"
+      "confidence": "medium",
+      "checkedAt": "2026-09-03",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",

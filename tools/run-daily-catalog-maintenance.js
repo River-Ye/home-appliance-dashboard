@@ -456,7 +456,9 @@ function structuredPriceCandidates(text, productUrl) {
         String(state?.[__ref]?.endTs || "").slice(0, 10) === MAINTENANCE_DATE
         && state?.[__ref]?.rules?.some((rule) => {
           const percent = String(rule?.discountDescription || "").match(/(\d+(?:\.\d+)?)折/);
-          return percent && Math.round(currentPrice * Number(percent[1]) / 100) === promotionPrice;
+          if (!percent) return false;
+          const discount = Number(percent[1]);
+          return Math.ceil(currentPrice * discount / (discount < 10 ? 10 : 100)) === promotionPrice;
         })
       ));
       if (expiresToday && publicPromotion && Number.isFinite(currentPrice) && currentPrice > 0) {

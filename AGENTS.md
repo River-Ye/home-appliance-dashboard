@@ -300,7 +300,7 @@
 
 ### 電腦螢幕
 
-- 至少 30 筆以上，現有 57 筆。
+- 至少 30 筆以上，現有 60 筆。
 - 需涵蓋 ASUS、Acer、BenQ、LG、Dell、Samsung、MSI、GIGABYTE、ViewSonic、AOC、Philips、EIZO、Xiaomi 等主流品牌。
 - 要混合入門 FHD、2K 高刷新、4K/USB-C、生產力、OLED、Mini LED、專業色彩等用途。
 - 必須涵蓋寬螢幕/超寬螢幕，例如 34 吋 21:9、45 吋 OLED、49 吋 32:9、57 吋 Dual UHD 等；描述要提醒桌深、顯卡與支架承重。
@@ -413,9 +413,9 @@
 ## 價格與匯率
 
 <!-- catalog-maintenance-summary:start -->
-- 2026-09-02 17:31（台灣時間）完成 1133 筆商品、37 類全量查核；497 筆 PChome SKU API 已完成（270 筆 exact model、68 筆人工 SKU 綁定可寫入，75 筆型號未自動確認），更新 6 筆公開價格（4 筆下修、2 筆上修），55 筆 Qty 0 只列追蹤。
-- 本次增量新增 soundbar-sony-ht-a8、soundbar-sony-ht-s60、tv-hisense-u7q-65、tv-samsung-s90h-65、tv-sony-xr70m2-65、vacuum-hitachi-pv-xh4q；本次增量沒有移除停產產品。沿用本資料日已完成的逐類人工新品覆核（原覆核時間保留），所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
-- 圖片查核覆蓋 1133 筆；832 筆來源可由 exact model 或人工 SKU 綁定確認，301 筆來源例外與 0 筆圖片例外保留原資料。史低為 504 筆 `found`、629 筆 `not_found`，本輪異動 0 筆；127 筆來源可自動重現，其餘保留原逐筆證據且未臆測失效。
+- 2026-09-03 07:14（台灣時間）完成 1133 筆商品、37 類全量查核；497 筆 PChome SKU API 已完成（271 筆 exact model、67 筆人工 SKU 綁定可寫入，75 筆型號未自動確認），更新 26 筆公開價格（25 筆下修、1 筆上修），55 筆 Qty 0 只列追蹤。
+- 本次增量沒有納入新產品；本次增量沒有移除停產產品。逐類人工新品覆核已完成，所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
+- 圖片查核覆蓋 1133 筆；835 筆來源可由 exact model 或人工 SKU 綁定確認，298 筆來源例外與 0 筆圖片例外保留原資料。史低為 504 筆 `found`、629 筆 `not_found`，本輪下修 2 筆；141 筆來源可自動重現，其餘保留原逐筆證據且未臆測失效。
 - ExchangeRate-API 最新批次為 2026-09-02 00:02 UTC，USD/TWD 31.71834；38 筆外幣商品已重算。完整摘要與例外保存在 `catalog_maintenance_latest.json`。
 <!-- catalog-maintenance-summary:end -->
 

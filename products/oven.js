@@ -508,9 +508,9 @@
     "name": "微波大師 27L 氣炸烤箱微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 8990,
-      "converted": 8990,
-      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 8630,
+      "converted": 8630,
+      "confidence": "PChome 2026-09-03 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
       "note": "2026-08-31 Chrome核對PChome同SKU公開折扣價；促銷限時，未扣會員券、點數或信用卡回饋，結帳前請再確認。"
     },
@@ -1885,9 +1885,9 @@
     "name": "蒸烘烤變頻微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 43920,
-      "converted": 43920,
-      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 41724,
+      "converted": 41724,
+      "confidence": "PChome 2026-09-03 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
       "note": "2026-08-31 Chrome核對PChome同SKU公開折扣價；促銷限時，未扣會員券、點數或信用卡回饋，結帳前請再確認。"
     },

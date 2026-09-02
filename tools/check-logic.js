@@ -910,26 +910,48 @@ async function main() {
   );
   const sameDayYahooPrice = structuredPriceCandidates(`
     <script type="application/ld+json">
-      {"@type":"Product","offers":{"price":"4,741","priceCurrency":"TWD","availability":"https://schema.org/OutOfStock"}}
+      {"@type":"Product","offers":{"price":"8,541","priceCurrency":"TWD","availability":"https://schema.org/OutOfStock"}}
     </script>
     <script id="gqlstate-data" type="mime/invalid">{
-      "Shopping_Product:11798654": {
-        "currentPrice": "4990",
-        "promotionPrice": "4741",
+      "Shopping_Product:10067449": {
+        "currentPrice": "9490",
+        "promotionPrice": "8541",
         "promotions": [{"__ref":"Shopping_Promotion:788489"}]
       },
       "Shopping_Promotion:788489": {
         "endTs":"${new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Taipei" }).format(new Date())}T08:00:59+08:00",
+        "rules":[{"discountDescription":"滿1件享9折"}]
+      }
+    }</script>
+  `, "https://tw.buy.yahoo.com/gdsale/sony-ht-s40r-10067449.html");
+  assert(
+    sameDayYahooPrice.length === 1
+      && sameDayYahooPrice[0].amount === 9490
+      && sameDayYahooPrice[0].availability === "https://schema.org/OutOfStock"
+      && sameDayYahooPrice[0].source === "yahoo_current_price_same_day_promotion_excluded",
+    "daily maintenance should treat Yahoo's single-digit 折 notation as tenths when excluding a same-day promotion",
+  );
+  const sameDayYahooCeilingPrice = structuredPriceCandidates(`
+    <script type="application/ld+json">
+      {"@type":"Product","offers":{"price":"602","priceCurrency":"TWD"}}
+    </script>
+    <script id="gqlstate-data" type="mime/invalid">{
+      "Shopping_Product:11633433": {
+        "currentPrice": "633",
+        "promotionPrice": "602",
+        "promotions": [{"__ref":"Shopping_Promotion:788490"}]
+      },
+      "Shopping_Promotion:788490": {
+        "endTs":"${new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Taipei" }).format(new Date())}T08:00:59+08:00",
         "rules":[{"discountDescription":"滿1件享95折"}]
       }
     }</script>
-  `, "https://tw.buy.yahoo.com/gdsale/asus-rt-be82u-11798654.html");
+  `, "https://tw.buy.yahoo.com/gdsale/soodatek-11633433.html");
   assert(
-    sameDayYahooPrice.length === 1
-      && sameDayYahooPrice[0].amount === 4990
-      && sameDayYahooPrice[0].availability === "https://schema.org/OutOfStock"
-      && sameDayYahooPrice[0].source === "yahoo_current_price_same_day_promotion_excluded",
-    "daily maintenance should keep Yahoo's base public price and availability when its matching flash promotion expires on the data date",
+    sameDayYahooCeilingPrice.length === 1
+      && sameDayYahooCeilingPrice[0].amount === 633
+      && sameDayYahooCeilingPrice[0].source === "yahoo_current_price_same_day_promotion_excluded",
+    "daily maintenance should use Yahoo's ceiling rule when matching a same-day percentage promotion",
   );
   const unrelatedSameDayYahooPromotion = structuredPriceCandidates(`
     <script type="application/ld+json">
