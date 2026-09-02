@@ -1,13 +1,13 @@
 {
   "summary": {
     "checkedAt": "2026-09-02T00:00:00+08:00",
-    "total": 1127,
-    "researchedThisRun": 2,
-    "found": 332,
-    "missing": 795,
+    "total": 1133,
+    "researchedThisRun": 7,
+    "found": 335,
+    "missing": 798,
     "byConfidence": {
-      "official": 182,
-      "not_found": 792,
+      "official": 185,
+      "not_found": 795,
       "retailer_explicit": 22,
       "credible_article": 52,
       "high": 60,
@@ -1416,20 +1416,20 @@
       "brand": "Sony",
       "model": "HT-A9000",
       "name": "BRAVIA Theatre Bar 9 旗艦聲霸",
-      "previousReleaseDate": "2024-04-17",
-      "releaseDate": "2024-06-01",
-      "sourceUrl": "https://www.sony.jp/CorporateCruise/Press/202404/24-0419/",
-      "sourceTitle": "サウンドバー BRAVIA Theatre Bar 9／Bar 8 を発売 | Sony",
-      "evidenceSnippet": "Sony's official release table lists HT-A9000 and HT-A8000 with a June 1, 2024 release date; the April announcement and preorder period were excluded.",
+      "previousReleaseDate": "2024-06-01",
+      "releaseDate": "2024-08-06",
+      "sourceUrl": "https://www.sony.com.tw/corporate/home/NewsCenter/Detail/BRAVIATheater",
+      "sourceTitle": "Sony BRAVIA Theatre Bar 9／Bar 8 在台上市",
+      "evidenceSnippet": "Sony 台灣 2024-08-06 官方新聞稿明確寫 HT-A9000 與 HT-A8000 即日起在台上市，HT-A9000 建議售價 NT$42,900。",
       "confidence": "official",
-      "query": "Sony HT-A8000 HT-A9000 official introduction April 17 2024",
+      "query": "\"Sony HT-A9000\" 台灣 上市 發售 開賣 推出",
       "auditQueries": [
-        "\"Sony HT-A9000\" release date launch launched available",
-        "\"Sony HT-A9000\" 上市 發售 開賣 推出"
+        "\"Sony HT-A9000\" Taiwan release date",
+        "site:sony.com.tw \"HT-A9000\" 在台上市"
       ],
-      "sourceKind": "official_exact_model_release_date",
-      "reason": "Replaced the announcement date with Sony's explicit exact-model sale date.",
-      "checkedAt": "2026-08-28",
+      "sourceKind": "official_exact_model_taiwan_launch",
+      "reason": "改用 Sony 台灣 exact-model 在台上市公告，取代日本市場 2024-06-01 發售日。",
+      "checkedAt": "2026-09-02",
       "auditDisposition": "corrected"
     },
     {
@@ -34672,6 +34672,138 @@
           "outcome": "可信媒體稱新加坡已推出，但未另載實際發售日期；文章發布日不替代上市日。"
         }
       ]
+    },
+    {
+      "id": "tv-sony-xr70m2-65",
+      "category": "tv",
+      "brand": "Sony",
+      "model": "Y-65XR70M2",
+      "name": "BRAVIA 7 II 65 型 True RGB LED 4K Google TV 顯示器",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2026-06-17",
+      "sourceUrl": "https://www.sony.com.tw/corporate/home/NewsCenter/Detail/BRAVIATrueRGB",
+      "sourceTitle": "Sony BRAVIA 7 II True RGB LED 顯示技術在台上市",
+      "evidenceSnippet": "Sony 台灣 2026-06-16 官方新聞稿明示 BRAVIA 7 II Y-65XR70M2 將於隔日 6 月 17 日在台上市。",
+      "confidence": "official",
+      "query": "\"Sony Y-65XR70M2\" 上市 發售 開賣 推出",
+      "auditQueries": [
+        "\"Sony Y-65XR70M2\" release date launch available",
+        "site:sony.com.tw \"Y-65XR70M2\" 上市"
+      ],
+      "sourceKind": "official_exact_model_taiwan_launch",
+      "reason": "Sony 台灣官方新聞稿明確列出 exact model 與在台上市日；未以文章上架日或型號年份推定。",
+      "checkedAt": "2026-09-02",
+      "auditDisposition": "added"
+    },
+    {
+      "id": "tv-samsung-s90h-65",
+      "category": "tv",
+      "brand": "Samsung",
+      "model": "QA65S90HAEXZW",
+      "name": "65 型 S90H OLED 4K Samsung Vision AI 智慧顯示器",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "https://www.samsung.com/tw/tvs/oled-tv/s90h-65-inch-4k-smart-tv-qa65s90haexzw/",
+      "sourceTitle": "65 型 S90H OLED 4K Samsung Vision AI 智慧顯示器",
+      "evidenceSnippet": "Samsung 台灣 exact-model 頁可確認 QA65S90HAEXZW 為現行產品，但未標示上市或發售日；2026-06-08 全陣容發表稿未點名 S90H，2026-08-17 點名 S90H 的官方稿日期也只是文章發布日。",
+      "confidence": "not_found",
+      "query": "\"Samsung QA65S90HAEXZW\" 上市 發售 開賣 推出",
+      "auditQueries": [
+        "\"Samsung QA65S90HAEXZW\" release date launch available",
+        "site:news.samsung.com/tw S90H 在台推出"
+      ],
+      "sourceKind": "not_found",
+      "reason": "已查 exact-model 官方產品頁與 Samsung 台灣 2026 年官方發表稿，仍找不到可直接支持 QA65S90HAEXZW 上市或發售日期的文字；不以未點名型號的全陣容發表日或後續文章日期推定。",
+      "checkedAt": "2026-09-02",
+      "auditDisposition": "added"
+    },
+    {
+      "id": "tv-hisense-u7q-65",
+      "category": "tv",
+      "brand": "Hisense",
+      "model": "65U7Q",
+      "name": "65 型 U7Q ULED MiniLED 4K VIDAA 智慧顯示器",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "https://www.hisense.com.tw/product/%E6%B6%B2%E6%99%B6%E9%A1%AF%E7%A4%BA%E5%99%A8-65u7q/",
+      "sourceTitle": "Hisense 65U7Q 液晶顯示器｜Hisense 台灣",
+      "evidenceSnippet": "官方 exact-model 產品頁與快速指南可確認規格及保固，但未標示上市／發售日期；官方影片只有上傳日。",
+      "confidence": "not_found",
+      "query": "\"Hisense 65U7Q\" 上市 發售 開賣 推出",
+      "auditQueries": [
+        "\"Hisense 65U7Q\" release date launch available",
+        "site:hisense.com.tw \"65U7Q\" 上市"
+      ],
+      "sourceKind": "not_found",
+      "reason": "官方 exact-model 頁、分類頁、說明書清單與影片均未明示台灣上市日；影片上傳日及 PDF 路徑年月不得替代。",
+      "checkedAt": "2026-09-02",
+      "auditDisposition": "added"
+    },
+    {
+      "id": "soundbar-sony-ht-a8",
+      "category": "soundbar",
+      "brand": "Sony",
+      "model": "HT-A8",
+      "name": "BRAVIA Theatre Trio 三件式旗艦環繞家庭劇院",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2026-06-05",
+      "sourceUrl": "https://www.sony.com.tw/corporate/home/NewsCenter/Detail/BRAVIATheatreTrio",
+      "sourceTitle": "Sony 全新概念 BRAVIA Theatre Trio 三件式旗艦環繞家庭劇院",
+      "evidenceSnippet": "Sony 台灣新聞稿日期為 2026-06-05，正文明確寫 Sony 今日在台推出 BRAVIA Theatre Trio（型號 HT-A8）。",
+      "confidence": "official",
+      "query": "\"Sony HT-A8\" 上市 發售 開賣 推出",
+      "auditQueries": [
+        "\"Sony HT-A8\" release date launch available",
+        "site:sony.com.tw \"HT-A8\" 在台推出"
+      ],
+      "sourceKind": "official_exact_model_taiwan_launch",
+      "reason": "Sony 台灣官方新聞稿明確使用 exact model HT-A8 並寫在台推出；未以支援文件日期代替。",
+      "checkedAt": "2026-09-02",
+      "auditDisposition": "added"
+    },
+    {
+      "id": "soundbar-sony-ht-s60",
+      "category": "soundbar",
+      "brand": "Sony",
+      "model": "HT-S60",
+      "name": "BRAVIA Theatre System 6 實體 5.1 聲道家庭劇院",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2025-06-05",
+      "sourceUrl": "https://www.sony.com.tw/corporate/home/NewsCenter/Detail/BRAVIA-2025",
+      "sourceTitle": "2025 Sony BRAVIA 全新系列發表",
+      "evidenceSnippet": "Sony 台灣 2025-06-05 官方稿明確寫同步在台推出 BRAVIA Theatre System 6；官方商店 exact-model 頁對應 HT-S60。",
+      "confidence": "official",
+      "query": "\"Sony HT-S60\" 上市 發售 開賣 推出",
+      "auditQueries": [
+        "\"Sony HT-S60\" release date launch available",
+        "site:sony.com.tw \"BRAVIA Theatre System 6\" 在台推出"
+      ],
+      "sourceKind": "official_taiwan_product_launch",
+      "reason": "Sony 台灣官方發表稿明確寫 Theatre System 6 同步在台推出，且官方商店確認型號 HT-S60；未用支援或韌體日期。",
+      "checkedAt": "2026-09-02",
+      "auditDisposition": "added"
+    },
+    {
+      "id": "vacuum-hitachi-pv-xh4q",
+      "category": "vacuum",
+      "brand": "HITACHI",
+      "model": "PV-XH4Q",
+      "name": "160AW 防纏零貼邊無線吸塵器",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "https://www.hitachi-homeappliances.com.tw/products/products_feature.php?pid=PVXH4Q",
+      "sourceTitle": "HITACHI PV-XH4Q 無線吸塵器｜HITACHI 台灣",
+      "evidenceSnippet": "台灣官方 exact-model 頁及 2026 冬季型錄可確認 PV-XH4Q 並標 NEW，但均未明示上市／發售日。",
+      "confidence": "not_found",
+      "query": "\"HITACHI PV-XH4Q\" 上市 發售 開賣 推出",
+      "auditQueries": [
+        "\"HITACHI PV-XH4Q\" release date launch available",
+        "site:hitachi-homeappliances.com.tw \"PV-XH4Q\" 上市"
+      ],
+      "sourceKind": "not_found",
+      "reason": "官方 NEW 標記與型錄印刷日期不是上市日；查無 exact-model 明確上市／發售文字，故保留找不到。",
+      "checkedAt": "2026-09-02",
+      "auditDisposition": "added"
     }
   ]
 }

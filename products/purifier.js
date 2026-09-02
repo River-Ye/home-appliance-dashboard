@@ -2546,8 +2546,8 @@
     "name": "4–8 坪抗敏系列空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 3540,
-      "converted": 3540,
+      "amount": 3990,
+      "converted": 3990,
       "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current"
     },

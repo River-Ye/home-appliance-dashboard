@@ -83315,6 +83315,542 @@
       ],
       "reviewerNote": "Aqua 10 Pro Track 已逐頁人工核對 13 個 Reddit、Dcard、PTT 與 Mobile01 候選；同一問題最高仍是 Reddit 單站約 5 位清潔液盒偵測個案，其他均為不同零星問題、跨文重複、轉述、他型號或一般取捨，未達 6 人且跨 2 個原始網站。",
       "attestation": "manual_original_pages_reviewed"
+    },
+    {
+      "id": "tv-sony-xr70m2-65",
+      "category": "tv",
+      "brand": "Sony",
+      "model": "Y-65XR70M2",
+      "reviewedAt": "2026-09-02",
+      "reviewBatch": "tv",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01",
+        "PTT"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Sony Y-65XR70M2\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Sony%20Y-65XR70M2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Sony Y-65XR70M2\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Sony%20Y-65XR70M2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Sony Y-65XR70M2\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Sony%20Y-65XR70M2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        }
+      ],
+      "candidateDisposition": "Y-65XR70M2 已人工覆核 Reddit、Mobile01 與 PTT；僅見兩篇 PTT 銷售／報價頁，0 位第一人稱問題作者，未達同題 6 人／2 站門檻。",
+      "representativeSources": [
+        {
+          "platform": "PTT",
+          "title": "Sony Y-65XR70M2 銷售資訊",
+          "url": "https://www.ptt.cc/bbs/Digitalhome/M.1782915983.A.508.html"
+        },
+        {
+          "platform": "PTT",
+          "title": "2026 Sony 電視現售型號與報價",
+          "url": "https://www.ptt.cc/bbs/Digitalhome/M.1780328201.A.D3D.html"
+        }
+      ],
+      "candidateReviews": [
+        {
+          "url": "https://www.ptt.cc/bbs/Digitalhome/M.1782915983.A.508.html",
+          "title": "Sony Y-65XR70M2 銷售資訊",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-02",
+          "sourceExcerpt": "原頁列出 Y-65XR70M2 型號與售價，內容為經銷商商品銷售資訊。",
+          "independentAuthors": 0,
+          "specificReason": "原頁是經銷商銷售／報價文，沒有可辨識使用者第一人稱故障回報，不能計入災情人數。",
+          "platform": "PTT"
+        },
+        {
+          "url": "https://www.ptt.cc/bbs/Digitalhome/M.1780328201.A.D3D.html",
+          "title": "2026 Sony 電視現售型號與報價",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-02",
+          "sourceExcerpt": "原頁列出 Y-65XR70M2 與其他 Sony 電視型號、價格及促銷資訊。",
+          "independentAuthors": 0,
+          "specificReason": "內容是業者現售清單及促銷報價，不是 exact-model 持有者的第一人稱問題回報。",
+          "platform": "PTT"
+        }
+      ],
+      "reviewerNote": "Y-65XR70M2：逐頁核對兩個 PTT 候選，均為銷售資訊；Reddit／Mobile01 無可確認原頁候選，故 no_common_issue（不代表完全沒有負評）。",
+      "attestation": "manual_original_pages_reviewed"
+    },
+    {
+      "id": "tv-samsung-s90h-65",
+      "category": "tv",
+      "brand": "Samsung",
+      "model": "QA65S90HAEXZW",
+      "reviewedAt": "2026-09-02",
+      "reviewBatch": "tv",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01",
+        "PTT",
+        "Samsung"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Samsung QA65S90HAEXZW\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20QA65S90HAEXZW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Samsung QA65S90HAEXZW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20QA65S90HAEXZW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Samsung QA65S90HAEXZW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Samsung%20QA65S90HAEXZW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        }
+      ],
+      "candidateDisposition": "QA65S90HAEXZW 已人工覆核 PTT 銷售頁與 Samsung 混合型號評論池；0 位可計入 exact-model 第一人稱問題作者，未達同題 6 人／2 站門檻。",
+      "representativeSources": [
+        {
+          "platform": "PTT",
+          "title": "2026 Samsung 電視現售型號與報價",
+          "url": "https://www.ptt.cc/bbs/Digitalhome/M.1780328201.A.D3D.html"
+        },
+        {
+          "platform": "Samsung",
+          "title": "Samsung S90H 官方產品頁評論池",
+          "url": "https://www.samsung.com/tw/tvs/oled-tv/s90h-65-inch-4k-smart-tv-qa65s90haexzw/"
+        }
+      ],
+      "candidateReviews": [
+        {
+          "url": "https://www.ptt.cc/bbs/Digitalhome/M.1780328201.A.D3D.html",
+          "title": "2026 Samsung 電視現售型號與報價",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-02",
+          "sourceExcerpt": "作者列出 QA65S90HAEXZW 與售價，內容為經銷商銷售報價。",
+          "independentAuthors": 0,
+          "specificReason": "銷售／報價文沒有使用者第一人稱故障回報，不能計入 QA65S90HAEXZW 災情人數。",
+          "platform": "PTT"
+        },
+        {
+          "url": "https://www.samsung.com/tw/tvs/oled-tv/s90h-65-inch-4k-smart-tv-qa65s90haexzw/",
+          "title": "Samsung S90H 官方產品頁評論池",
+          "outcome": "excluded",
+          "exactModel": false,
+          "reviewedAt": "2026-09-02",
+          "sourceExcerpt": "官方產品頁的評論區混合不同尺寸、區域與其他電視型號，低星留言亦未建立台灣 QA65S90HAEXZW 身分。",
+          "independentAuthors": 0,
+          "specificReason": "評論池混合尺寸／區域／其他型號；可見低星評論明載 Neo QLED、QN80H 或未建立 exact model，不能計入本型號。",
+          "platform": "Samsung"
+        }
+      ],
+      "reviewerNote": "QA65S90HAEXZW：候選均不是可計入的台灣 exact-model 第一人稱故障回報，故 no_common_issue（不代表完全沒有負評）。",
+      "attestation": "manual_original_pages_reviewed"
+    },
+    {
+      "id": "tv-hisense-u7q-65",
+      "category": "tv",
+      "brand": "Hisense",
+      "model": "65U7Q",
+      "reviewedAt": "2026-09-02",
+      "reviewBatch": "tv",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01",
+        "PTT"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Hisense 65U7Q\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Hisense%2065U7Q%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Hisense 65U7Q\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Hisense%2065U7Q%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Hisense 65U7Q\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Hisense%2065U7Q%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        }
+      ],
+      "candidateDisposition": "65U7Q 已人工覆核 Reddit 與 Mobile01；兩個不同問題各只有 1 位 Reddit 作者，U7Q Pro 嚴格排除，沒有同一問題 6 人與第二原始站。",
+      "representativeSources": [
+        {
+          "platform": "Reddit",
+          "title": "Hisense TV Black Friday 2025 deals",
+          "url": "https://www.reddit.com/r/Hisense/comments/1o5gzwn/hisense_tv_black_friday_2025_deals_are_they/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "PS5 with Hisense U7Q HDR discussion",
+          "url": "https://www.reddit.com/r/Hisense/comments/1055jk1/ps5_with_hisense_65u8h_colors_washed_out/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Q0610 firmware broke HDR on U7Q Pro",
+          "url": "https://www.reddit.com/r/Hisense/comments/1v6jpwx/q0610_firmware_broke_hdr_on_my_u7q_pro_ps5_hdr_is/"
+        },
+        {
+          "platform": "Mobile01",
+          "title": "Costco Hisense 65U7Q 價格與機種討論",
+          "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7269997"
+        }
+      ],
+      "candidateReviews": [
+        {
+          "url": "https://www.reddit.com/r/Hisense/comments/1o5gzwn/hisense_tv_black_friday_2025_deals_are_they/",
+          "title": "Hisense TV Black Friday 2025 deals",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-02",
+          "sourceExcerpt": "TomorrowMedium8133 自述購入 65U7Q，認為非 4K 內容有顆粒感、VIDAA 慢並打算退貨。",
+          "independentAuthors": 1,
+          "specificReason": "僅 1 位作者、1 個網站，且為德國區域機；沒有同一問題 6 人與第二個原始網站。",
+          "platform": "Reddit"
+        },
+        {
+          "url": "https://www.reddit.com/r/Hisense/comments/1055jk1/ps5_with_hisense_65u8h_colors_washed_out/",
+          "title": "PS5 with Hisense U7Q HDR discussion",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-02",
+          "sourceExcerpt": "needed_a_better_name 自述 65U7Q 開啟 FreeSync 時沒有 HDR。",
+          "independentAuthors": 1,
+          "specificReason": "僅 1 位作者且仍是 Reddit；與另一候選的 VIDAA／畫質抱怨不是同一問題。",
+          "platform": "Reddit"
+        },
+        {
+          "url": "https://www.reddit.com/r/Hisense/comments/1v6jpwx/q0610_firmware_broke_hdr_on_my_u7q_pro_ps5_hdr_is/",
+          "title": "Q0610 firmware broke HDR on U7Q Pro",
+          "outcome": "excluded",
+          "exactModel": false,
+          "reviewedAt": "2026-09-02",
+          "sourceExcerpt": "原頁討論 65U7Q PRO、55E7Q PRO、65U8Q 與區域韌體，不是台灣 65U7Q。",
+          "independentAuthors": 0,
+          "specificReason": "原頁是 U7Q Pro 與其他型號／區域韌體，並非台灣 exact model 65U7Q，嚴格排除。",
+          "platform": "Reddit"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7269997",
+          "title": "Costco Hisense 65U7Q 價格與機種討論",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-02",
+          "sourceExcerpt": "OISKEN 討論 Costco 65U7Q 價格及機種選擇，未回報自己的機器發生故障。",
+          "independentAuthors": 0,
+          "specificReason": "頁面是購買與價格比較，沒有第一人稱 exact-model 故障回報，不能構成第二個問題網站。",
+          "platform": "Mobile01"
+        }
+      ],
+      "reviewerNote": "65U7Q：兩則不同問題各僅一位 Reddit 作者，沒有同題 6 人或第二原始網站，故 no_common_issue（不代表完全沒有負評）。",
+      "attestation": "manual_original_pages_reviewed"
+    },
+    {
+      "id": "soundbar-sony-ht-a8",
+      "category": "soundbar",
+      "brand": "Sony",
+      "model": "HT-A8",
+      "reviewedAt": "2026-09-02",
+      "reviewBatch": "soundbar",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01",
+        "AVForums"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Sony HT-A8\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Sony%20HT-A8%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Sony HT-A8\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Sony%20HT-A8%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        }
+      ],
+      "candidateDisposition": "HT-A8 已逐頁覆核 Reddit、Mobile01 與 AVForums；同作者跨文去重後任一同題遠低於 6 人，且只有 Reddit 有第一人稱候選。",
+      "representativeSources": [
+        {
+          "platform": "Reddit",
+          "title": "Upgraded from Samsung Q990D to Sony Trio (+ RS9 + SW9)",
+          "url": "https://www.reddit.com/r/Soundbars/comments/1uamid3/upgraded_from_the_king_of_soundbars_samsung_q990d/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Sony BRAVIA Theatre Trio (HT-A8) 2-Week Honest Review",
+          "url": "https://www.reddit.com/r/Soundbars/comments/1ubh64w/sony_bravia_theatre_trio_hta8_2week_honest_review/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Sony Bravia Theatre Trio setup discussion",
+          "url": "https://www.reddit.com/r/Soundbars/comments/1to3vvs/sony_bravia_theatre_trio_new_quad_style_system/"
+        },
+        {
+          "platform": "Mobile01",
+          "title": "Sony 最新 BRAVIA Theatre TRIO",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7265357"
+        },
+        {
+          "platform": "AVForums",
+          "title": "Discussion of Sony BRAVIA Theatre Trio review",
+          "url": "https://www.avforums.com/threads/discussion-of-our-review-of-sony-bravia-theatre-trio-home-cinema-speaker-system.2556779/"
+        }
+      ],
+      "candidateReviews": [
+        {
+          "url": "https://www.reddit.com/r/Soundbars/comments/1uamid3/upgraded_from_the_king_of_soundbars_samsung_q990d/",
+          "title": "Upgraded from Samsung Q990D to Sony Trio (+ RS9 + SW9)",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-02",
+          "sourceExcerpt": "Shallwey 自購 Trio 完整組合後回報對白偏弱、調整受限、自動待機與一次右側無線喇叭斷線。",
+          "independentAuthors": 1,
+          "specificReason": "同頁只有 1 位 HT-A8 第一人稱作者；其另一篇心得為同帳號同部設備，已跨文去重。",
+          "platform": "Reddit"
+        },
+        {
+          "url": "https://www.reddit.com/r/Soundbars/comments/1ubh64w/sony_bravia_theatre_trio_hta8_2week_honest_review/",
+          "title": "Sony BRAVIA Theatre Trio (HT-A8) 2-Week Honest Review",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-02",
+          "sourceExcerpt": "Shallwey 兩週使用後詳述弱中央／模糊對白、調整選項少及軟體限制。",
+          "independentAuthors": 1,
+          "specificReason": "與同作者較早評測是同一帳號／同一套設備，去重後不增加獨立人數；留言未形成 6 位同題使用者。",
+          "platform": "Reddit"
+        },
+        {
+          "url": "https://www.reddit.com/r/Soundbars/comments/1to3vvs/sony_bravia_theatre_trio_new_quad_style_system/",
+          "title": "Sony Bravia Theatre Trio setup discussion",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-02",
+          "sourceExcerpt": "Elegant_Link_8497 回報無法完成校正、韌體更新錯誤、Spotify 間歇無聲且 App 曾失去系統。",
+          "independentAuthors": 1,
+          "specificReason": "這是一位不同作者的零星校正／網路／韌體問題，沒有 6 位同題作者，其他回覆多為價格與定位討論。",
+          "platform": "Reddit"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7265357",
+          "title": "Sony 最新 BRAVIA Theatre TRIO",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-02",
+          "sourceExcerpt": "Mobile01 原頁明列 HT-A8，內容為規格、價格、擴充方式與 A9／A9M2 比較，沒有持有者故障回報。",
+          "independentAuthors": 0,
+          "specificReason": "頁面只有上市／選購討論及試聽觀感，沒有 exact-model 第一人稱問題，不能作為第二個原始網站。",
+          "platform": "Mobile01"
+        },
+        {
+          "url": "https://www.avforums.com/threads/discussion-of-our-review-of-sony-bravia-theatre-trio-home-cinema-speaker-system.2556779/",
+          "title": "Discussion of Sony BRAVIA Theatre Trio review",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-02",
+          "sourceExcerpt": "AVForums 討論串連結媒體評測，留言主要批評價格／性價比，未確認留言者持有 HT-A8 並遭遇故障。",
+          "independentAuthors": 0,
+          "specificReason": "評論或價格意見不是可辨識第一人稱 exact-model 故障事件，不能計入問題人數或第二站門檻。",
+          "platform": "AVForums"
+        }
+      ],
+      "reviewerNote": "HT-A8：五個原頁逐筆核對型號、作者與症狀；同作者跨文去重後任一同題均低於 6 人且無第二站，故 no_common_issue（不代表完全沒有負評）。",
+      "attestation": "manual_original_pages_reviewed"
+    },
+    {
+      "id": "soundbar-sony-ht-s60",
+      "category": "soundbar",
+      "brand": "Sony",
+      "model": "HT-S60",
+      "reviewedAt": "2026-09-02",
+      "reviewBatch": "soundbar",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Sony HT-S60\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Sony%20HT-S60%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Sony HT-S60\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Sony%20HT-S60%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        }
+      ],
+      "candidateDisposition": "HT-S60 已逐頁覆核 Reddit 與 Mobile01；最高同題為 Reddit 開機尖鳴 3 人，未達 6 人且無第二站相同問題。",
+      "representativeSources": [
+        {
+          "platform": "Reddit",
+          "title": "Sony Bravia Theater System 6 Loud Screeching Sound When Booting Up",
+          "url": "https://www.reddit.com/r/Soundbars/comments/1t5izaj/sony_bravia_theater_system_6_loud_screeching/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Testing the Sony HT-S60 and Samsung Q930F",
+          "url": "https://www.reddit.com/r/Soundbars/comments/1p0b085/testing_the_sony_hts60_and_samsung_q930f_and_i/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "HT-S60 rear speakers distorting",
+          "url": "https://www.reddit.com/r/Soundbars/comments/1tlp7ad/anyone_elses_sony_bravia_theater_system_6_rear/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "HT-S60 rear-left speaker very low",
+          "url": "https://www.reddit.com/r/SonyBravia/comments/1trdbyt/sony_bravia_theatre_system_6_hts60_rearleft/"
+        },
+        {
+          "platform": "Mobile01",
+          "title": "Sony HT-S60 安裝問題詢問",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7146964"
+        },
+        {
+          "platform": "Mobile01",
+          "title": "Sony HT-S60 使用評價",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7222904"
+        }
+      ],
+      "candidateReviews": [
+        {
+          "url": "https://www.reddit.com/r/Soundbars/comments/1t5izaj/sony_bravia_theater_system_6_loud_screeching/",
+          "title": "Sony Bravia Theater System 6 Loud Screeching Sound When Booting Up",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-02",
+          "sourceExcerpt": "Intelligent_Fortune8 回報每次開機尖鳴；另一作者回報近似問題，停用 Bluetooth Standby 後尖鳴消失。",
+          "independentAuthors": 2,
+          "specificReason": "同串只有 2 位 exact-model 第一人稱作者；連同另一 Reddit ringing 個案共 3 位，仍低於 6 人且只有單站。",
+          "platform": "Reddit"
+        },
+        {
+          "url": "https://www.reddit.com/r/Soundbars/comments/1p0b085/testing_the_sony_hts60_and_samsung_q930f_and_i/",
+          "title": "Testing the Sony HT-S60 and Samsung Q930F",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-02",
+          "sourceExcerpt": "corredorjuan 的 Best Buy open-box HT-S60 偶爾在開機時出現數秒 ringing sound。",
+          "independentAuthors": 1,
+          "specificReason": "併入開機尖鳴題後仍只有 3 位且單站；open-box 身分也降低作為新品共同缺陷證據的代表性。",
+          "platform": "Reddit"
+        },
+        {
+          "url": "https://www.reddit.com/r/Soundbars/comments/1tlp7ad/anyone_elses_sony_bravia_theater_system_6_rear/",
+          "title": "HT-S60 rear speakers distorting",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-02",
+          "sourceExcerpt": "兩位作者分別回報特定場景後環繞失真及 crackling。",
+          "independentAuthors": 2,
+          "specificReason": "後環繞失真只有 2 位 Reddit 使用者；未達 6 人，也沒有 Mobile01 相同問題的第一人稱候選。",
+          "platform": "Reddit"
+        },
+        {
+          "url": "https://www.reddit.com/r/SonyBravia/comments/1trdbyt/sony_bravia_theatre_system_6_hts60_rearleft/",
+          "title": "HT-S60 rear-left speaker very low",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-02",
+          "sourceExcerpt": "Various_Bullfrog6300 回報後左聲道顯著低於後右，更新、重啟及交換接線後仍在左輸出端。",
+          "independentAuthors": 1,
+          "specificReason": "這是單一輸出不均個案，與 crackling／distortion 不等同；各題皆未達 6 人或跨站門檻。",
+          "platform": "Reddit"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7146964",
+          "title": "Sony HT-S60 安裝問題詢問",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-02",
+          "sourceExcerpt": "作者起初回報 HDMI／CEC 間歇偵測不到，後續排除第四台機上盒 CEC 干擾後恢復正常。",
+          "independentAuthors": 1,
+          "specificReason": "原作者確認原因為外接機上盒 CEC 干擾且已排除，不是可計入 HT-S60 固有缺陷的第二站同題回報。",
+          "platform": "Mobile01"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7222904",
+          "title": "Sony HT-S60 使用評價",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-02",
+          "sourceExcerpt": "作者主觀認為前方聲場平、重低音單調、Netflix 後環繞較小聲，留言多為設定與混音差異。",
+          "independentAuthors": 1,
+          "specificReason": "僅一位第一人稱作者且屬音質／內容混音取捨，未與 Reddit 的尖鳴或 crackling 形成相同問題。",
+          "platform": "Mobile01"
+        }
+      ],
+      "reviewerNote": "HT-S60：逐頁人工核對六個候選並按問題與作者去重；最高同題 3 人且單站，故 no_common_issue（不代表完全沒有負評）。",
+      "attestation": "manual_original_pages_reviewed"
+    },
+    {
+      "id": "vacuum-hitachi-pv-xh4q",
+      "category": "vacuum",
+      "brand": "HITACHI",
+      "model": "PV-XH4Q",
+      "reviewedAt": "2026-09-02",
+      "reviewBatch": "vacuum",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01",
+        "YouTube"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"HITACHI PV-XH4Q\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22HITACHI%20PV-XH4Q%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"HITACHI PV-XH4Q\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22HITACHI%20PV-XH4Q%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "YouTube",
+          "query": "site:youtube.com \"HITACHI PV-XH4Q\" (problem OR issue OR defect OR failure OR 災情 OR 故障)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Ayoutube.com%20%22HITACHI%20PV-XH4Q%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C)",
+          "targetHost": "youtube.com"
+        }
+      ],
+      "candidateDisposition": "PV-XH4Q／PVXH4Q exact-model 跨站人工搜尋未發現可確認原頁候選；0 位作者／0 原始站，未達同題 6 人／2 站門檻。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "reviewerNote": "PV-XH4Q／PVXH4Q：Reddit、Mobile01、YouTube 跨站人工搜尋無可確認原頁候選，故 no_common_issue（不代表完全沒有負評）。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate"
     }
   ]
 }

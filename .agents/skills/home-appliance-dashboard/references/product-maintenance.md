@@ -7,6 +7,7 @@ Use this reference for recurring catalog work: new products, price/link/image up
 - Read `AGENTS.md`, `README.md`, `assets/js/config.js`, `tools/dashboard-contract.js`, and `tools/read-dashboard-products.js`.
 - Treat `assets/js/config.js` `meta` and `tools/dashboard-contract.js` as the code-side source for product/category counts and dates.
 - Keep every category at 20+ products, preserve required brand/category coverage, and update research JSON files whenever evidence-backed fields change.
+- On every full catalog review, map each existing exact model or family to the brand's current Taiwan lineup and look for a direct successor. Add an eligible successor without removing the old model. `covered_existing` proves brand coverage only; it never proves that the generation check is complete. Record the per-category successor decision or concrete rejection reason in `categoryScan`, including when nothing is added.
 - Start a new data date with `npm run maintain:catalog -- --draft --date=YYYY-MM-DD --baseline-ref=origin/main`. Review `.maintenance-draft.json`, record every category as `manually_reviewed`, then rerun with `--write`; the daily workflow uploads a draft instead of failing or mutating data when same-date decisions do not yet exist.
 
 ## Price, Link, And Image Audits

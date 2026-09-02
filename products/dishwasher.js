@@ -15,8 +15,8 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR1PA900I386D/000001_1738721735.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 22900,
-      "converted": 22900,
+      "amount": 19900,
+      "converted": 19900,
       "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
@@ -219,8 +219,8 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR241900I024G/000001_1737106327.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 10900,
-      "converted": 10900,
+      "amount": 7999,
+      "converted": 7999,
       "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",

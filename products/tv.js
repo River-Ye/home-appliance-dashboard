@@ -3615,6 +3615,310 @@
       "AirPlay",
       "Chromecast"
     ]
+  },
+  {
+    "id": "tv-sony-xr70m2-65",
+    "category": "tv",
+    "rank": 38,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Sony",
+    "model": "Y-65XR70M2",
+    "name": "BRAVIA 7 II 65 型 True RGB LED 4K Google TV 顯示器",
+    "price": {
+      "currency": "TWD",
+      "amount": 69900,
+      "converted": 69900,
+      "confidence": "Sony Store 台灣 2026-09-02 exact-model 官方現售價",
+      "basis": "retailer_current"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "Sony Store exact-model 頁未在商品主頁明示本款安裝內容；桌上擺放、壁掛、特殊牆面與舊機回收範圍應於下單前確認。"
+    },
+    "image": "https://store.sony.com.tw/resource/product_files/Y-65XR70M2/Y-65XR70M2_pis.jpg",
+    "buyUrl": "https://store.sony.com.tw/product/Y-65XR70M2",
+    "buyLabel": "Sony Store 台灣官方購物網站",
+    "specs": [
+      "65 吋 True RGB LED 區域控光；4K（3840 x 2160）、原生 120Hz",
+      "XR 認知智慧處理器；RGB Backlight Master Drive Pro、RGB TRILUMINOS Max、XR Contrast Booster 20",
+      "HDR10、HLG、Dolby Vision；IMAX Enhanced 與 Studio Calibrated 模式",
+      "HDMI 4 組；HDMI 3／4 支援 4K120／VRR，HDMI 3 支援 eARC；支援 ALLM／SBTM",
+      "Google TV；手機投影：Apple AirPlay、Chromecast built-in；Wi-Fi 6E",
+      "音效：40W、4 單體；Dolby Atmos、DTS:X、Acoustic Center Sync、Voice Zoom 3",
+      "尺寸：不含底座 寬 144.7 x 深 5.5 x 高 82.7 cm；含底座 寬 144.7 x 深 34.1 x 高 90.7 cm",
+      "重量：不含底座 26.6 kg；含底座 30.7 kg",
+      "電源：AC 110V／60Hz；待機耗電 0.5W；VESA 300 x 300 mm"
+    ],
+    "description": "Sony 2026 年 BRAVIA 7 II 以 True RGB LED、精密區域控光與 XR 影像處理補上 Mini LED／OLED 之外的高階 65 吋比較；既有 BRAVIA 7 舊款仍保留。",
+    "pros": [
+      "True RGB LED、RGB Backlight Master Drive Pro 與 XR 對比增強 20 形成新世代實質差異",
+      "Dolby Vision、Apple AirPlay、Chromecast built-in、Wi-Fi 6E 與 4K120 規格完整",
+      "台灣官方 exact-model 現售、110V／60Hz、尺寸重量與 24 個月保固證據齊全"
+    ],
+    "cons": [
+      "官方現價 NT$69,900，入手門檻高於保留的 BRAVIA 7 舊款",
+      "4K120／VRR 集中於 HDMI 3／4，多台高頻寬設備需先規劃連接埠",
+      "本輪未找到可公開重現、帶日期且條件清楚的可信新品史低"
+    ],
+    "bestFor": "重視高亮度 HDR、色彩純度、Sony 影像處理與台灣官方售後，又希望避開 OLED 使用顧慮的主客廳。",
+    "recommendation": "True RGB LED 新世代補充推薦：影像背光技術與連線規格具明確差異；若預算優先，保留的 BRAVIA 7 舊款仍值得比價。",
+    "score": 92,
+    "voltage": "Sony 台灣官方規格明示 AC 110V／60Hz",
+    "warranty": "Sony Store 台灣官方購物網站標示保固 24 個月",
+    "tags": [
+      "2026 新世代",
+      "65吋",
+      "True RGB LED",
+      "120Hz",
+      "Dolby Vision",
+      "Google TV",
+      "AirPlay",
+      "Chromecast"
+    ],
+    "releaseDate": "2026-06-17",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-09-02",
+      "note": "已查 Sony Store 台灣、PChome exact-model API、BigGo、FindPrice 與 LBJ exact-model 入口；只能確認查核日現價，未找到具日期且可重現的可信新品歷史曲線。排除會員券、點數、信用卡回饋、福利、展示、拆封與整新品，未以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-09-02",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Sony Y-65XR70M2\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Sony%20Y-65XR70M2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Sony Y-65XR70M2\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Sony%20Y-65XR70M2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Sony Y-65XR70M2\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Sony%20Y-65XR70M2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tv-samsung-s90h-65",
+    "category": "tv",
+    "rank": 39,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Samsung",
+    "model": "QA65S90HAEXZW",
+    "name": "65 型 S90H OLED 4K Samsung Vision AI 智慧顯示器",
+    "price": {
+      "currency": "TWD",
+      "amount": 84900,
+      "converted": 84900,
+      "confidence": "Yahoo購物中心自營 2026-09-02 exact-model 公開價",
+      "basis": "retailer_current"
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "Yahoo購物中心自營 exact-model 頁明示含桌上型基本安裝；壁掛、特殊牆面、樓層搬運與偏遠地區等追加費用需另向通路確認。"
+    },
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tw/qa65s90haexzw/gallery/tw-oled-tv-qa65s90haexzw-oled-s--h--k-samsung-vision-ai--------------graphite-551951611?$1164_776_PNG$",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=12124522",
+    "buyLabel": "Yahoo購物中心自營｜含桌上型基本安裝",
+    "specs": [
+      "尺寸：不含底座 寬 144.43 x 深 3.99 x 高 83.17 cm；含底座 寬 144.43 x 深 26.52 x 高 89.67 cm",
+      "重量：不含底座 19.1 kg；含底座 20.4 kg",
+      "65 吋 4K OLED 自體發光；3840 x 2160、最高 165Hz VRR",
+      "抗反光真星黑面板；NQ4 AI 第三代高效處理器、OLED HDR+、HDR10+",
+      "遊戲：ALLM、VRR、AMD FreeSync Premium Pro、NVIDIA G-SYNC Compatible",
+      "HDMI 4 組皆最高支援 4K 165Hz；eARC、USB-A 2 組",
+      "Wi-Fi 6E、Bluetooth 5.3；手機投影：Smart View、Apple AirPlay、Google Cast",
+      "2.1 聲道 40W；Dolby Atmos",
+      "One UI Tizen；SmartThings／Matter、多重視窗最多 2 視窗",
+      "VESA 300 x 200 mm；電源 AC 100–240V／50–60Hz"
+    ],
+    "description": "Samsung 2026 年 S90H 以最高 165Hz OLED、抗反光真星黑面板與第三代 NQ4 AI 處理器接續 S90F；舊款 S90F 仍保留比較。",
+    "pros": [
+      "OLED 黑位、最高 165Hz VRR 與四組高頻寬 HDMI 適合電影與遊戲",
+      "AirPlay、Google Cast、SmartThings／Matter 與 Wi-Fi 6E 連線完整",
+      "台灣自營 exact-model 現售、基本安裝與兩年到府保固證據齊全"
+    ],
+    "cons": [
+      "現價 NT$84,900，高於保留的 S90F 舊款",
+      "OLED 長時間固定畫面仍需注意面板保護與使用習慣",
+      "本輪沒有可公開重現、帶日期且條件清楚的可信新品史低"
+    ],
+    "bestFor": "重視 OLED 黑位、最高 165Hz 遊戲、抗反光與智慧家庭整合的高階客廳。",
+    "recommendation": "2026 OLED 遊戲補充推薦：S90H 的 165Hz、抗反光與新版 AI 平台具明確世代差異；預算優先者仍可比較保留的 S90F。",
+    "score": 92,
+    "voltage": "Samsung 台灣官方規格 AC 100–240V／50–60Hz，適用台灣 110V／60Hz",
+    "warranty": "Samsung 台灣官方保固頁：電視／智慧顯示器主體 24 個月到府服務；遙控器 12 個月",
+    "tags": [
+      "2026 新世代",
+      "65吋",
+      "OLED",
+      "165Hz",
+      "AirPlay",
+      "Google Cast"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-09-02",
+      "note": "已查 Yahoo 自營、PChome exact-model API、FindPrice、LBJ 與 BigGo；可驗證頁僅見現價。LBJ 顯示的 NT$80,655 當前比價沒有可重現最低點日期／歷史曲線且無法排除訂單折扣，因此不以現價或快照推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-09-02",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Samsung QA65S90HAEXZW\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20QA65S90HAEXZW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Samsung QA65S90HAEXZW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20QA65S90HAEXZW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Samsung QA65S90HAEXZW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Samsung%20QA65S90HAEXZW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tv-hisense-u7q-65",
+    "category": "tv",
+    "rank": 40,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Hisense",
+    "model": "65U7Q",
+    "name": "65 型 U7Q ULED MiniLED 4K VIDAA 智慧顯示器",
+    "price": {
+      "currency": "TWD",
+      "amount": 33999,
+      "converted": 33999,
+      "confidence": "Costco 台灣 2026-09-02 exact-model 主商品公開含運價，可加入購物車",
+      "basis": "retailer_current"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "Costco exact-model 主商品頁明示含運與到府保固收送，但未明示桌上型／基本安裝；不得把配送或舊機回收推定為安裝。"
+    },
+    "image": "https://www.hisense.com.tw/wp-content/uploads/2025/08/65U7Q_3Y.jpeg",
+    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Televisions-TV-Accessories/60-69-TVs/Hisense-65-inch-4K-Mini-LED-QLED-Voice-Control-AI-Smart-Monitor-SolarCell-Remote-65U7Q/p/155012",
+    "buyLabel": "Costco 台灣現價（含運）",
+    "specs": [
+      "尺寸：不含底座 寬 144.6 x 深 7.5 x 高 83.7 cm；含底座 寬 144.6 x 深 32.6 x 高 89.6 cm",
+      "重量：不含底座 19.6 kg；含底座 20.7 kg",
+      "65 吋 ULED MiniLED 4K；3840 x 2160、8bit + FRC、560 區控光",
+      "HDR 2,000 nits；Quantum Dot、黑曜屏 Pro、Hi-View Engine Pro AI",
+      "原生 165Hz Game Mode；HSR 288、VRR、ALLM、AMD FreeSync Premium",
+      "Dolby Vision／Dolby Atmos；內建重低音、2.1.2 聲道",
+      "VIDAA 智慧平台；手機投影：Apple AirPlay 2",
+      "HDMI 4 組；USB 2.0 x 1、USB 3.0 x 1；光纖、耳機與 LAN",
+      "此機種不含數位／類比調諧器",
+      "電源：AC 100–240V／50–60Hz；最大 240W、待機低於 0.5W"
+    ],
+    "description": "Hisense U7Q 以 560 區 MiniLED、原生 165Hz、Dolby Vision 與 2.1.2 聲道接續既有 U7N；舊款 U7N 仍保留比較。",
+    "pros": [
+      "560 區 MiniLED、原生 165Hz 與 FreeSync Premium 兼顧 HDR 與遊戲",
+      "Dolby Vision、AirPlay 2 與內建 2.1.2 聲道規格完整",
+      "台灣 exact-model 現售、三年原廠保固與官方尺寸重量證據齊全"
+    ],
+    "cons": [
+      "VIDAA App 生態與操作習慣需先確認",
+      "Costco 頁只證明含運，未明示基本安裝",
+      "本輪沒有可公開重現、帶日期且條件清楚的可信新品史低"
+    ],
+    "bestFor": "想在中高階預算取得高亮度 MiniLED、165Hz 遊戲與內建較完整音效的家庭。",
+    "recommendation": "MiniLED 遊戲性價比補充推薦：U7Q 的 165Hz、560 區控光與 2.1.2 聲道具明確世代差異；仍可和保留的 U7N 比價。",
+    "score": 90,
+    "voltage": "Hisense 台灣官方快速指南明示 AC 100–240V／50–60Hz，適用台灣 110V／60Hz",
+    "warranty": "Hisense 台灣官方頁：購買 30 日內上傳發票，購買日起 36 個月原廠保固；未登錄則自出廠日起算 36 個月",
+    "tags": [
+      "新世代",
+      "65吋",
+      "MiniLED",
+      "165Hz",
+      "Dolby Vision",
+      "AirPlay 2"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-09-02",
+      "note": "已查 Costco、PChome exact-model API、LBJ、LINE 購物與 Mobile01。LINE 購物價格未提供可重現最低點日期；Mobile01 的 Costco 價格為論壇轉述，無通路歷史頁與優惠條件可核，因此均不採，現價亦不推定為史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-09-02",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Hisense 65U7Q\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Hisense%2065U7Q%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Hisense 65U7Q\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Hisense%2065U7Q%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Hisense 65U7Q\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Hisense%2065U7Q%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        }
+      ]
+    }
   }
 ]);
 })();

@@ -1773,16 +1773,22 @@
       "currency": "TWD",
       "amount": 42900,
       "converted": 42900,
-      "confidence": "PChome 2026-08-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "Sony Store 台灣 2026-09-02 exact-model 官方現售價",
+      "basis": "retailer_current"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "Sony Store 台灣頁未列到府安裝；桌面擺放可自行完成，壁掛施工與配線另詢。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900I0ZKD/000001_1783764143.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMBM1D-A900I0ZKD",
-    "buyLabel": "PChome",
+    "buyUrl": "https://store.sony.com.tw/product/HT-A9000",
+    "buyLabel": "Sony Store 台灣",
     "specs": [
-      "13 單體",
-      "360 空間音場",
-      "Dolby Atmos",
-      "旗艦",
+      "聲道／單體：7.0.2 聲道、13 單體",
+      "空間音效：360 Spatial Sound Mapping、Sound Field Optimization",
+      "音訊格式：Dolby Atmos、DTS:X、IMAX Enhanced",
+      "連線：HDMI 輸入 1／輸出 1（eARC／ARC）、Bluetooth 5.2、Wi-Fi",
+      "串流：AirPlay、Spotify Connect",
       "尺寸：主機 寬 130 x 深 11.3 x 高 6.4 cm",
       "重量：主機 5.5 kg"
     ],
@@ -1798,14 +1804,14 @@
     "bestFor": "想依預算補強電視音效，並比較入門、Atmos 與實體環繞的人。",
     "recommendation": "補充推薦：BRAVIA Theatre Bar 9 旗艦聲霸 的優勢在Sony 旗艦單件式聲霸，但仍建議把價格高納入取捨。",
     "score": 84,
-    "voltage": "110V 台灣通路",
-    "warranty": "依台灣通路/品牌保固",
+    "voltage": "Sony 台灣版說明書明示 AC 120V／50–60Hz",
+    "warranty": "Sony Store 台灣官方頁標示註冊保固 12 個月，無延長保固",
     "tags": [
       "旗艦",
       "Atmos",
       "Sony"
     ],
-    "releaseDate": "2024-06-01",
+    "releaseDate": "2024-08-06",
     "historicalLow": {
       "status": "found",
       "amount": 27900,
@@ -3267,6 +3273,197 @@
       "無線重低音",
       "韌體風險"
     ]
+  },
+  {
+    "id": "soundbar-sony-ht-a8",
+    "category": "soundbar",
+    "rank": 34,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Sony",
+    "model": "HT-A8",
+    "name": "BRAVIA Theatre Trio 三件式旗艦環繞家庭劇院",
+    "price": {
+      "currency": "TWD",
+      "amount": 68900,
+      "converted": 68900,
+      "confidence": "Sony Store 台灣 2026-09-02 exact-model 官方公開現售價；購買須洽專屬展售店",
+      "basis": "retailer_current"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "Sony Store 台灣未標示到府安裝；三件揚聲器各自供電。桌面設定依 BRAVIA Connect 指引；壁掛應由 Sony 經銷商或合格承包商施工，壁材適用螺絲未隨附，中央揚聲器至少兩人安裝。"
+    },
+    "image": "https://store.sony.com.tw/resource/product_files/HT-A8/HT-A8_pi.jpg",
+    "buyUrl": "https://store.sony.com.tw/product/HT-A8",
+    "buyLabel": "Sony Store 台灣（洽專屬展售店）",
+    "specs": [
+      "聲道／單體：3.0.2 聲道、9 單體；9 聲道數位 S-Master 擴大",
+      "輸出：總功率 405W（左／中／右各 135W）",
+      "空間音效：進階 360 Spatial Sound Mapping（最多 24 個幻影喇叭）、Sound Field Optimization、USB-C 校正麥克風",
+      "音訊格式：Dolby Atmos、Dolby TrueHD、DTS:X、DTS-HD Master Audio、IMAX Enhanced、LPCM 7.1",
+      "連線：HDMI 輸入 1／輸出 1（eARC／ARC）、8K HDR、4K120、Dolby Vision、VRR、ALLM、SBTM",
+      "無線／串流：Wi-Fi a/b/g/n/ac/ax、Bluetooth 6.0（SBC／AAC／LDAC）、AirPlay、Spotify Connect",
+      "擴充：支援選購後環繞與兩顆相同型號重低音；BRAVIA Connect、相容 BRAVIA 的 Voice Zoom 3",
+      "耗電：中置 31W；左右前置各 26W",
+      "尺寸：中置 寬 58.9 x 深 16.5 x 高 6.4 cm；左右前置各 寬 16 x 深 16.5 x 高 33.7 cm",
+      "重量：中置 3.2 kg；左右前置各 3.6 kg"
+    ],
+    "description": "Sony 2026 年台灣新款三件式前方聲場系統，以獨立中央、左右前置和 360 空間音場擴大大尺寸電視的前方定位；原套裝不含重低音與後環繞。",
+    "pros": [
+      "三件式前方實體分離，對大尺寸電視的聲場與定位比單條聲霸更有彈性",
+      "9 單體、405W、Atmos／DTS:X／IMAX Enhanced 與完整 HDMI 2.1 passthrough",
+      "可後加後環繞及雙重低音，且台灣官方電力、尺寸與保固證據完整"
+    ],
+    "cons": [
+      "NT$68,900 且原套裝只有 3.0.2 聲道；完整後方環繞與低頻需另購",
+      "三件主機各需 AC 插座，壁掛配線與施工成本較高",
+      "早期使用者有零星校正、App／韌體、對白調整與無線連線抱怨，尚未達集中災情門檻"
+    ],
+    "bestFor": "85 吋以上大尺寸電視、重視寬廣前方聲場與後續模組擴充，且能預留三組電源與高預算的人。",
+    "recommendation": "2026 Sony 新世代比較候選：三件式前場定位與雙重低音擴充有明顯差異化；不是完整環繞套裝，購買前應把後環繞／重低音、插座與壁掛施工一併估價。",
+    "score": 91,
+    "voltage": "台灣型號三件揚聲器皆 AC 120V／50–60Hz（Sony 官方台灣參考指南）",
+    "warranty": "Sony Store 台灣註冊保固 12 個月，無延長保固",
+    "tags": [
+      "Sony",
+      "2026新款",
+      "三件式",
+      "Atmos",
+      "360空間音場",
+      "HDMI 2.1",
+      "可擴充"
+    ],
+    "releaseDate": "2026-06-05",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-09-02",
+      "note": "已查 Sony Store、FindPrice、LBJ 與 Yahoo exact-model 頁；上市未滿三個月，僅取得目前 NT$68,900 與混雜套組／他型號候選，沒有可公開重現且具日期的可信新品價格歷史，不以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-09-02",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Sony HT-A8\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Sony%20HT-A8%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Sony HT-A8\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Sony%20HT-A8%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "soundbar-sony-ht-s60",
+    "category": "soundbar",
+    "rank": 35,
+    "topPick": false,
+    "budget": "balanced",
+    "channel": "tw",
+    "brand": "Sony",
+    "model": "HT-S60",
+    "name": "BRAVIA Theatre System 6 實體 5.1 聲道家庭劇院",
+    "price": {
+      "currency": "TWD",
+      "amount": 18900,
+      "converted": 18900,
+      "confidence": "Sony Store 台灣 2026-09-02 exact-model 官方頁可加入購物車",
+      "basis": "retailer_current"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "Sony Store 台灣未標示到府安裝；聲霸、後環繞與無線擴大機可依官方指引桌放／壁掛，壁掛固定件與施工條件應另向 Sony 經銷商或合格承包商確認。"
+    },
+    "image": "https://store.sony.com.tw/resource/product_files/HT-S60/HT-S60_pi.jpg",
+    "buyUrl": "https://store.sony.com.tw/product/HT-S60",
+    "buyLabel": "Sony Store 台灣",
+    "specs": [
+      "聲道／單體：實體 5.1 聲道、10 單體",
+      "輸出：總功率 1000W；有線重低音與無線後環繞擴大機",
+      "音訊格式：Dolby Atmos、Dolby TrueHD、DTS:X、DTS-HD、LPCM 7.1",
+      "虛擬環繞：S-Force PRO、Vertical Surround Engine、DTS Virtual:X；DSEE、夜間／語音模式",
+      "連線：HDMI 輸入 0／輸出 1（eARC／ARC）、光纖、3.5mm 類比輸入、Bluetooth 5.3（SBC／AAC）",
+      "操作：BRAVIA Connect；相容 BRAVIA 的 Voice Zoom 3／快速設定",
+      "耗電：重低音 60W；無線擴大機 30W",
+      "尺寸：聲霸 寬 90.7 x 深 9 x 高 6.4 cm；重低音 寬 27.5 x 深 38.8 x 高 38.8 cm；後環繞各 寬 10.6 x 深 9.8 x 高 21.6 cm；無線擴大機 寬 17.5 x 深 17.5 x 高 5.2 cm",
+      "重量：聲霸 2.6 kg；重低音 11.6 kg；後環繞各 0.89 kg；無線擴大機 0.76 kg"
+    ],
+    "description": "Sony 台灣現售的多件式實體 5.1 聲道套裝，包含聲霸、重低音、兩顆後環繞與無線擴大機；以一次補齊實體後聲道、Atmos／DTS:X 和 1000W 輸出為主要價值。",
+    "pros": [
+      "NT$18,900 已包含聲霸、重低音及兩顆實體後環繞，套裝完整度高",
+      "1000W、Dolby Atmos／DTS:X、eARC 與 BRAVIA Connect 規格完整",
+      "Sony 台灣官方現售、12 個月保固，尺寸與各組件重量都有 exact-model 官方證據"
+    ],
+    "cons": [
+      "沒有 HDMI 輸入，外接播放機須經電視 eARC 或改用光纖／類比",
+      "天空音效為虛擬處理而非實體上射單體",
+      "後環繞需接無線擴大機及安排配線；零星尖鳴、失真或輸出不均回報未達集中災情門檻"
+    ],
+    "bestFor": "希望兩萬元內一次補齊實體 5.1 後環繞與重低音、可接受後方配線，且電視具 eARC 的家庭。",
+    "recommendation": "Sony 實體環繞套裝推薦：完整 5.1 組件與價格有競爭力；購買前確認電視 eARC／CEC 相容、後方電源與無線擴大機擺位。",
+    "score": 88,
+    "voltage": "AC 120V／60Hz（Sony 官方 exact-model 參考指南；Sony 台灣商品頁未另列電壓）",
+    "warranty": "Sony Store 台灣註冊保固 12 個月，無延長保固",
+    "tags": [
+      "Sony",
+      "實體5.1",
+      "Atmos",
+      "後環繞",
+      "重低音",
+      "eARC",
+      "台灣公司貨"
+    ],
+    "releaseDate": "2025-06-05",
+    "historicalLow": {
+      "status": "found",
+      "amount": 15660,
+      "currency": "TWD",
+      "converted": 15660,
+      "sourceUrl": "https://m.momoshop.com.tw/goods.momo?i_code=14080920",
+      "sourceTitle": "momo：Sony BRAVIA Theatre System 6 HT-S60 公司貨保固12個月",
+      "evidenceSnippet": "momo exact-model 商品頁的 2026 年 5 月公開快照列滿 1 件享 9 折、限時折後價 NT$15,660、促銷價 NT$17,400、市售價 NT$19,900；特惠商品不適用折價券。",
+      "sourceKind": "retailer_promo",
+      "confidence": "high",
+      "checkedAt": "2026-09-02",
+      "note": "採 exact-model 台灣公司貨公開滿件折；FindPrice exact 商品群與 Yahoo 購物中心歷史頁亦顯示 NT$15,660。排除會員個人券、信用卡回饋、點數、二手、福利、展示與拆封品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-09-02",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Sony HT-S60\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Sony%20HT-S60%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Sony HT-S60\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Sony%20HT-S60%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        }
+      ]
+    }
   }
 ]);
 })();

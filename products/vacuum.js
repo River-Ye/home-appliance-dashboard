@@ -2989,6 +2989,105 @@
         }
       ]
     }
+  },
+  {
+    "id": "vacuum-hitachi-pv-xh4q",
+    "category": "vacuum",
+    "rank": 32,
+    "topPick": false,
+    "budget": "balanced",
+    "channel": "tw",
+    "brand": "HITACHI",
+    "model": "PV-XH4Q",
+    "name": "160AW 防纏零貼邊無線吸塵器",
+    "price": {
+      "currency": "TWD",
+      "amount": 8270,
+      "converted": 8270,
+      "confidence": "PChome 2026-09-02 exact-model API Price.P；Qty 19，原頁可加入購物車",
+      "basis": "retailer_current"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "通路未列到府安裝；本品為無線直立／手持吸塵器，由使用者依說明書組裝延長管、吸頭與充電／收納底座。"
+    },
+    "image": "https://www.hitachi-homeappliances.com.tw/upload/products/pgroup23522605045647.png",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAX03-A900K8PLW",
+    "buyLabel": "PChome exact-model 新品",
+    "specs": [
+      "類型：無線直立／手持兩用乾式吸塵器；金屬藍 MBATW；泰國製",
+      "清潔：最大 160AW；450W 旋風馬達；3 向集塵、0mm 貼壁",
+      "主吸頭：防纏結拋光絨毛滾刷、順吸齒梳、綠光 LED、電動自走",
+      "過濾／集塵：HEPA H13 四重過濾；最大刻度 0.4L、總容量 0.5L；可水洗、一鍵倒塵",
+      "電池／續航：Li-ion 25.2V、可拆；手持低／中／高約 60／25／8 分，直立約 45／20／8 分；充電約 3 小時",
+      "尺寸：直立 長 354 x 寬 253 x 高 1150 mm；手持 長 181 x 寬 90 x 高 470 mm",
+      "重量：直立 2.15 kg；手持 1.45 kg",
+      "電力：台灣通路標示 110V；BSMI R31270",
+      "配件：AC 變壓器、主吸頭、延長管、立式底座／壁掛件、多角度微塵毛刷、迷你電動毛刷、二合一隙縫刷、手持毛刷、集塵盒撥塵毛刷"
+    ],
+    "description": "HITACHI 2026 年新世代無線吸塵器，以 0mm 三向貼壁、防纏絨毛滾刷與 HEPA H13 補強毛髮家庭的貼邊清潔；舊款 PV-XH4P 仍保留比較。",
+    "pros": [
+      "0mm 三向貼壁與防纏絨毛滾刷適合牆邊與毛髮清潔",
+      "HEPA H13 四重過濾、綠光 LED 與完整吸頭配件",
+      "台灣 exact model 現售、110V 與一年原廠保固證據完整"
+    ],
+    "cons": [
+      "160AW 低於舊款 PV-XH4P 的 225AW，不能視為吸力全面升級",
+      "直立 2.15kg 重於舊款 1.95kg",
+      "強力檔續航約 8 分鐘"
+    ],
+    "bestFor": "木地板／磁磚與毛髮家庭，重視貼邊、防纏與配件完整度的人。",
+    "recommendation": "新世代貼邊清潔補充推薦：0mm 貼壁、防纏與 HEPA H13 是實質差異；若優先追求吸力或低重量，仍應比較保留的 PV-XH4P。",
+    "score": 84,
+    "voltage": "台灣公司貨；通路標示 110V；內建 25.2V Li-ion 電池",
+    "warranty": "HITACHI 台灣公司貨；PChome 標示原廠保固 1 年",
+    "tags": [
+      "2026 新世代",
+      "160AW",
+      "0mm 貼壁",
+      "防纏滾刷",
+      "HEPA H13"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-09-02",
+      "note": "已查 BigGo exact-model 當日現價、FindPrice、PChome 與 Yahoo 原頁；無具日期且可重現的可信新品歷史價格序列。Yahoo 95 折為當期活動現價，不作史低；排除會員券、點數、信用卡回饋、二手、福利、展示、拆封、整新及配件。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-09-02",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"HITACHI PV-XH4Q\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22HITACHI%20PV-XH4Q%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"HITACHI PV-XH4Q\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22HITACHI%20PV-XH4Q%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"HITACHI PV-XH4Q\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22HITACHI%20PV-XH4Q%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
+        }
+      ]
+    }
   }
 ]);
 })();

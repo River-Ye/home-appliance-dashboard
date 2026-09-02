@@ -106,6 +106,7 @@ const REVIEWED_PCHOME_BINDINGS = new Map([
   ["tv-philips-70pqt8159", "DPADIK-A900K0GIF"],
   ["vac-lg-a9x", "DMAX8K-A900HLX9W"],
   ["vacuum-extra-10-dmax8k-a900hlxaq", "DMAX8K-A900HLXAQ"],
+  ["vacuum-hitachi-pv-xh4q", "DMAX03-A900K8PLW"],
   ["waterdispenser--uw-2262hw-1", "DMAWEM-A900GDIXH"],
   ["waterdispenser-extra-16-dsbe1fa900gsoln", "DMCI17-A900I6OFW"],
   ["waterdispenser-sakura-p0532", "DMCI0O-A900K3T62"],

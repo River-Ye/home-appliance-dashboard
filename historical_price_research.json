@@ -1,14 +1,14 @@
 {
   "summary": {
     "checkedAt": "2026-09-02T00:00:00.000+08:00",
-    "sourcePolicy": "2026-09-02 以 1126 筆基準清單全量查核公開價格基準（通路現價或明示官方建議售價）、購買連結與可信新品狀態，並複核最終 1127 筆商品圖片、全部 503 筆 found 史低來源、原廠停產訊號與同批次匯率。官方建議售價不自動寫成通路現價或史低；PChome exact-model 現貨頁有正值 Price.Low 時採公開折扣價，否則採 Price.P；Qty 0、福利品、展示機與配件不寫回。其他頁面的結構化價格差異列入人工覆核候選，阻擋、暫時錯誤與單次頁面失效只列稽核，不臆測停產或史低失效。",
-    "total": 1127,
-    "researchedThisRun": 1127,
-    "found": 503,
-    "missing": 624,
+    "sourcePolicy": "2026-09-02 以 1127 筆基準清單全量查核公開價格基準（通路現價或明示官方建議售價）、購買連結與可信新品狀態，並複核最終 1133 筆商品圖片、全部 504 筆 found 史低來源、原廠停產訊號與同批次匯率。官方建議售價不自動寫成通路現價或史低；PChome exact-model 現貨頁有正值 Price.Low 時採公開折扣價，否則採 Price.P；Qty 0、福利品、展示機與配件不寫回。其他頁面的結構化價格差異列入人工覆核候選，阻擋、暫時錯誤與單次頁面失效只列稽核，不臆測停產或史低失效。",
+    "total": 1133,
+    "researchedThisRun": 1133,
+    "found": 504,
+    "missing": 629,
     "byConfidence": {
-      "not_found": 624,
-      "high": 322,
+      "not_found": 629,
+      "high": 323,
       "medium": 181
     },
     "exchange": {
@@ -21,19 +21,19 @@
       "HKD_TWD": 4.045100899431642,
       "KRW_TWD": 0.0230884140556408
     },
-    "lastMaintenanceCheckAt": "2026-09-02T07:29:17.337Z",
-    "currentPriceChanged": 30,
-    "currentBuyLinkChanged": 0,
-    "currentPriceDrops": 5,
-    "currentPriceRises": 25,
+    "lastMaintenanceCheckAt": "2026-09-02T09:31:51.593Z",
+    "currentPriceChanged": 6,
+    "currentBuyLinkChanged": 1,
+    "currentPriceDrops": 4,
+    "currentPriceRises": 2,
     "currentPriceFallbacks": 0,
-    "historicalLowUpdated": 2,
+    "historicalLowUpdated": 0,
     "historicalLowInvalidated": 0,
     "catalogEntriesReplaced": 0,
     "catalogReplacementNotes": [],
     "currentImageChanged": 0,
     "discontinuedRemoved": 0,
-    "newProductsAdded": 1,
+    "newProductsAdded": 6,
     "discontinuedRemovalNotes": [],
     "catalogEntriesRemoved": 0,
     "catalogRemovalNotes": [],
@@ -2423,8 +2423,8 @@
       "name": "BRAVIA Theatre Bar 9 旗艦聲霸",
       "currentPrice": 42900,
       "currentCurrency": "TWD",
-      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMBM1D-A900I0ZKD",
-      "currentBuyLabel": "PChome",
+      "currentBuyUrl": "https://store.sony.com.tw/product/HT-A9000",
+      "currentBuyLabel": "Sony Store 台灣",
       "historicalLow": {
         "status": "found",
         "amount": 27900,
@@ -2447,7 +2447,8 @@
         "https://24h.pchome.com.tw/prod/DMBM1D-A900IUZUJ",
         "https://biggo.com.tw/api/v1/spa/search/Sony%20HT-A9000/product?p=1",
         "https://www.lbj.tw/BJ/rd.ashx?ck=Dc3HEcAwDMTAlpjDk5R0%2FZdkvzGzGCbDnuXnhWeQhmQR6kTyZHtaE%2BIgIz2nKR%2Fa23Td39tbyC7GqK6qaRivCALR7FmHijNs5kaXST2Gi8yPkf6u2hWFXX6oK3%2FwJddO9pInrMruKsVUp2R3jr%2FI%2F8pLN9e2gpDn%2BE8LxmRRHw%3D%3D",
-        "https://24h.pchome.com.tw/prod/DMBM1D-A900I0ZKD"
+        "https://24h.pchome.com.tw/prod/DMBM1D-A900I0ZKD",
+        "https://store.sony.com.tw/product/HT-A9000"
       ],
       "rejectedCandidates": [
         "LBJ Sony HT-A9000: 蝦皮商城 - 樂邁3C SONY HT-S100F 家庭劇院 單件式聲霸 HT-S40R 藍牙 soundbar 2.0雙聲道 HT-A9000 最低價 NT$5,880 低於現價合理比例，疑似月付/配件/錯類",
@@ -2462,8 +2463,8 @@
         "[2026-07-11] 蝦皮商城 - 樂坊生活旗艦館  Love Fun：LBJ candidate is not a trusted PChome/Yahoo/momo/Costco/official source；SONY 索尼 HT-A9000【現貨+聊聊再折+蝦幣10%回饋】7.0.2聲道 家庭劇院 聲霸 揚聲器 A9000 https://www.lbj.tw/BJ/rd.ashx?ck=DcbJAcAgCATAljhchSeI239JybymVBb7tj4E3yI1K5Ze0lXU%2FQAziBqiZ%2FmgE41q2ckdHh32%2F5albs4yJeg4PKr5niVNSjaScm8y7QM%3D",
         "[2026-07-11] Yahoo購物中心：fetch failed；SONY 索尼 BRAVIA Theatre Bar 9 HT-A9000 旗艦級聲霸 https://www.lbj.tw/BJ/rd.ashx?ck=Dc3HEcAwDMTAlpjDk5R0%2FZdkvzGzGCbDnuXnhWeQhmQR6kTyZHtaE%2BIgIz2nKR%2Fa23Td39tbyC7GqK6qaRivCALR7FmHijNs5kaXST2Gi8yPkf6u2hWFXX6oK3%2FwJddO9pInrMruKsVUp2R3jr%2FI%2F8pLN9e2gpDn%2BE8LxmRRHw%3D%3D"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "soundbar-extra-19-dmaahga900j5777",
@@ -3414,7 +3415,7 @@
       "brand": "Panasonic",
       "model": "F-S14KM",
       "name": "14 吋微電腦 DC 直流電風扇",
-      "currentPrice": 1444,
+      "currentPrice": 1350,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMAB1F-A900EZLVB",
       "currentBuyLabel": "PChome",
@@ -5735,7 +5736,7 @@
       "brand": "Panasonic",
       "model": "F-YV32MH",
       "name": "16 公升變頻高效型清淨除濕機",
-      "currentPrice": 19097,
+      "currentPrice": 20495,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-16L-W-HEXS%E9%AB%98%E6%95%88%E5%BE%AE%E9%9B%BB%E8%85%A6%E9%99%A4%E6%BF%95%E6%A9%9F-F-YV32MH-10762034.html",
       "currentBuyLabel": "Yahoo購物中心",
@@ -8048,7 +8049,7 @@
       "brand": "Honeywell",
       "model": "HPA-100APTW",
       "name": "4–8 坪抗敏系列空氣清淨機",
-      "currentPrice": 3540,
+      "currentPrice": 3990,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMAU00-A77331975",
       "currentBuyLabel": "PChome 24h exact-model 台灣公司貨新品",
@@ -21881,7 +21882,7 @@
       "brand": "Gaggia",
       "model": "ANIMA CMF",
       "name": "Gaggia 佳吉亞 ANIMA CMF 星耀型全自動咖啡機",
-      "currentPrice": 27900,
+      "currentPrice": 27600,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMAT01-A900GG8P0",
       "currentBuyLabel": "PChome 24h｜Gaggia 台灣原廠公司貨",
@@ -26045,7 +26046,7 @@
       "brand": "Panasonic",
       "model": "NP-K1YWHR2TW",
       "name": "Panasonic NP-K1YWHR2TW",
-      "currentPrice": 22900,
+      "currentPrice": 19900,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMBR1P-A900I386D",
       "currentBuyLabel": "PChome",
@@ -26131,7 +26132,7 @@
       "brand": "Toshiba",
       "model": "DWS-34BTW",
       "name": "Toshiba DWS-34BTW",
-      "currentPrice": 10900,
+      "currentPrice": 7999,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMBR0P-A900I01YW",
       "currentBuyLabel": "PChome",
@@ -52341,6 +52342,231 @@
         "2025 台灣官方 NT$34,980 文字屬首批預購，沒有可重現的正式發售價格序列，未採用。"
       ],
       "reviewNote": "以 Aqua 10 Pro Track 完整型號查核官方商城與四個比價／通路來源；可驗證的價格不是具日期歷史曲線，就是缺貨、原頁失效或預購條件，因此維持 not_found。",
+      "checkedAt": "2026-09-02"
+    },
+    {
+      "id": "tv-sony-xr70m2-65",
+      "category": "tv",
+      "brand": "Sony",
+      "model": "Y-65XR70M2",
+      "name": "BRAVIA 7 II 65 型 True RGB LED 4K Google TV 顯示器",
+      "currentPrice": 69900,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://store.sony.com.tw/product/Y-65XR70M2",
+      "currentBuyLabel": "Sony Store 台灣官方購物網站",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-02",
+        "note": "已查 Sony Store 台灣、PChome exact-model API、BigGo、FindPrice 與 LBJ exact-model 入口；只能確認查核日現價，未找到具日期且可重現的可信新品歷史曲線。排除會員券、點數、信用卡回饋、福利、展示、拆封與整新品，未以現價推定史低。"
+      },
+      "checkedSources": [
+        "https://store.sony.com.tw/product/Y-65XR70M2",
+        "https://24h.pchome.com.tw/prod/DPAD06-A900K4KCD",
+        "https://biggo.com.tw/s/Y-65XR70M2",
+        "https://www.findprice.com.tw/g/Y-65XR70M2",
+        "https://www.lbj.tw/BJ/Query.aspx?k=Y-65XR70M2"
+      ],
+      "rejectedCandidates": [
+        "BigGo、FindPrice 與 LBJ 只顯示現價或無日期快照，未形成可重現的 exact-model 歷史曲線。"
+      ],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "reviewNote": "現價不得推定為史低，維持 not_found。",
+      "checkedAt": "2026-09-02"
+    },
+    {
+      "id": "tv-samsung-s90h-65",
+      "category": "tv",
+      "brand": "Samsung",
+      "model": "QA65S90HAEXZW",
+      "name": "65 型 S90H OLED 4K Samsung Vision AI 智慧顯示器",
+      "currentPrice": 84900,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=12124522",
+      "currentBuyLabel": "Yahoo購物中心自營｜含桌上型基本安裝",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-02",
+        "note": "已查 Yahoo 自營、PChome exact-model API、FindPrice、LBJ 與 BigGo；可驗證頁僅見現價。LBJ 顯示的 NT$80,655 當前比價沒有可重現最低點日期／歷史曲線且無法排除訂單折扣，因此不以現價或快照推定史低。"
+      },
+      "checkedSources": [
+        "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=12124522",
+        "https://24h.pchome.com.tw/prod/DPADEW-A900K2QSL",
+        "https://www.findprice.com.tw/g/QA65S90HAEXZW",
+        "https://www.lbj.tw/BJ/Query.aspx?k=QA65S90HAEXZW",
+        "https://biggo.com.tw/s/QA65S90HAEXZW"
+      ],
+      "rejectedCandidates": [
+        "LBJ 的 NT$80,655 為無最低點日期的當前比價，且無法排除訂單折扣，未採用。"
+      ],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "reviewNote": "沒有可公開重現的日期型價格曲線，維持 not_found。",
+      "checkedAt": "2026-09-02"
+    },
+    {
+      "id": "tv-hisense-u7q-65",
+      "category": "tv",
+      "brand": "Hisense",
+      "model": "65U7Q",
+      "name": "65 型 U7Q ULED MiniLED 4K VIDAA 智慧顯示器",
+      "currentPrice": 33999,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Televisions-TV-Accessories/60-69-TVs/Hisense-65-inch-4K-Mini-LED-QLED-Voice-Control-AI-Smart-Monitor-SolarCell-Remote-65U7Q/p/155012",
+      "currentBuyLabel": "Costco 台灣現價（含運）",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-02",
+        "note": "已查 Costco、PChome exact-model API、LBJ、LINE 購物與 Mobile01。LINE 購物價格未提供可重現最低點日期；Mobile01 的 Costco 價格為論壇轉述，無通路歷史頁與優惠條件可核，因此均不採，現價亦不推定為史低。"
+      },
+      "checkedSources": [
+        "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Televisions-TV-Accessories/60-69-TVs/Hisense-65-inch-4K-Mini-LED-QLED-Voice-Control-AI-Smart-Monitor-SolarCell-Remote-65U7Q/p/155012",
+        "https://24h.pchome.com.tw/prod/DPAD98-A900JV2BT",
+        "https://www.lbj.tw/BJ/Query.aspx?k=Hisense+65U7Q",
+        "https://buy.line.me/u/search?q=Hisense%2065U7Q",
+        "https://www.mobile01.com/topicdetail.php?f=347&t=7269997"
+      ],
+      "rejectedCandidates": [
+        "LINE 購物價格沒有可重現最低點日期；Mobile01 價格為論壇轉述，均未採用。"
+      ],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "reviewNote": "只確認查核日現價，維持 not_found。",
+      "checkedAt": "2026-09-02"
+    },
+    {
+      "id": "soundbar-sony-ht-a8",
+      "category": "soundbar",
+      "brand": "Sony",
+      "model": "HT-A8",
+      "name": "BRAVIA Theatre Trio 三件式旗艦環繞家庭劇院",
+      "currentPrice": 68900,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://store.sony.com.tw/product/HT-A8",
+      "currentBuyLabel": "Sony Store 台灣（洽專屬展售店）",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-02",
+        "note": "已查 Sony Store、FindPrice、LBJ 與 Yahoo exact-model 頁；上市未滿三個月，僅取得目前 NT$68,900 與混雜套組／他型號候選，沒有可公開重現且具日期的可信新品價格歷史，不以現價推定史低。"
+      },
+      "checkedSources": [
+        "https://store.sony.com.tw/product/HT-A8",
+        "https://www.findprice.com.tw/g/ht-a8",
+        "https://www.lbj.tw/BJ/Query.aspx?k=sony+a8",
+        "https://tw.buy.yahoo.com/gdsale/%E8%B4%88%E7%8D%A8%E5%AE%B6%E5%A5%BD%E7%A6%AE-SONY-%E7%B4%A2%E5%B0%BC-HT-A8-BRAVIA-Theatre-Trio-%E7%92%B0%E7%B9%9E%E5%AE%B6%E5%BA%AD%E5%8A%87%E9%99%A2-12130567.html"
+      ],
+      "rejectedCandidates": [
+        "FindPrice／LBJ 混入 HT-A8000、HT-A9000、A9M2 套組等非 exact model；Yahoo exact 頁已售完且高於官方現價。"
+      ],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "reviewNote": "只有現價，查無日期型價格曲線，維持 not_found。",
+      "checkedAt": "2026-09-02"
+    },
+    {
+      "id": "soundbar-sony-ht-s60",
+      "category": "soundbar",
+      "brand": "Sony",
+      "model": "HT-S60",
+      "name": "BRAVIA Theatre System 6 實體 5.1 聲道家庭劇院",
+      "currentPrice": 18900,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://store.sony.com.tw/product/HT-S60",
+      "currentBuyLabel": "Sony Store 台灣",
+      "historicalLow": {
+        "status": "found",
+        "amount": 15660,
+        "currency": "TWD",
+        "converted": 15660,
+        "sourceUrl": "https://m.momoshop.com.tw/goods.momo?i_code=14080920",
+        "sourceTitle": "momo：Sony BRAVIA Theatre System 6 HT-S60 公司貨保固12個月",
+        "evidenceSnippet": "momo exact-model 商品頁的 2026 年 5 月公開快照列滿 1 件享 9 折、限時折後價 NT$15,660、促銷價 NT$17,400、市售價 NT$19,900；特惠商品不適用折價券。",
+        "sourceKind": "retailer_promo",
+        "confidence": "high",
+        "checkedAt": "2026-09-02",
+        "note": "採 exact-model 台灣公司貨公開滿件折；FindPrice exact 商品群與 Yahoo 購物中心歷史頁亦顯示 NT$15,660。排除會員個人券、信用卡回饋、點數、二手、福利、展示與拆封品。"
+      },
+      "checkedSources": [
+        "https://store.sony.com.tw/product/HT-S60",
+        "https://m.momoshop.com.tw/goods.momo?i_code=14080920",
+        "https://www.findprice.com.tw/fg/%E3%80%90SONY%20%E7%B4%A2%E5%B0%BC%E3%80%91BRAVIA%20Theatre%20System%206%20%E5%A4%9A%E4%BB%B6%E5%BC%8F%E7%92%B0%E7%B9%9E%20%E5%AE%B6%E5%BA%AD%E5%8A%87%E9%99%A2%28HT-S60%29",
+        "https://tw.buy.yahoo.com/gdsale/Sony%E7%B4%A2%E5%B0%BC-BRAVIA-Theatre-System-6-%E5%A4%9A%E4%BB%B6%E5%BC%8F%E7%92%B0%E7%B9%9E%E5%AE%B6%E5%BA%AD%E5%8A%87%E9%99%A2-HT-S60-%E5%85%AC%E5%8F%B8-11735301.html"
+      ],
+      "rejectedCandidates": [
+        "FindPrice 更低候選未回到可信 exact 原頁確認賣家、庫存與台灣保固；信用卡回饋、點數與個人券不計。"
+      ],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "reviewNote": "NT$15,660 有 momo exact 原頁與兩個 exact-model 比價頁交叉，可列 retailer_promo 史低。",
+      "checkedAt": "2026-09-02"
+    },
+    {
+      "id": "vacuum-hitachi-pv-xh4q",
+      "category": "vacuum",
+      "brand": "HITACHI",
+      "model": "PV-XH4Q",
+      "name": "160AW 防纏零貼邊無線吸塵器",
+      "currentPrice": 8270,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMAX03-A900K8PLW",
+      "currentBuyLabel": "PChome exact-model 新品",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-02",
+        "note": "已查 BigGo exact-model 當日現價、FindPrice、PChome 與 Yahoo 原頁；無具日期且可重現的可信新品歷史價格序列。Yahoo 95 折為當期活動現價，不作史低；排除會員券、點數、信用卡回饋、二手、福利、展示、拆封、整新及配件。"
+      },
+      "checkedSources": [
+        "https://biggo.com.tw/s/PVXH4Q",
+        "https://www.findprice.com.tw/g/PVXH4Q",
+        "https://24h.pchome.com.tw/prod/DMAX03-A900K8PLW",
+        "https://tw.buy.yahoo.com/gdsale/HITACHI%E6%97%A5%E7%AB%8B-%E5%A4%9A%E5%90%88%E4%B8%80%E5%85%A8%E8%83%BD%E5%90%B8%E5%A1%B5%E5%99%A8PVXH4Q-12182725.html"
+      ],
+      "rejectedCandidates": [
+        "Yahoo NT$7,857 為當期 95 折活動現價，沒有歷史最低點日期，未採用。"
+      ],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "reviewNote": "查無具日期且可重現的可信新品歷史價格序列，維持 not_found。",
       "checkedAt": "2026-09-02"
     }
   ]
