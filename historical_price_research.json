@@ -36,7 +36,34 @@
     "newProductsAdded": 1,
     "discontinuedRemovalNotes": [],
     "catalogEntriesRemoved": 0,
-    "catalogRemovalNotes": []
+    "catalogRemovalNotes": [],
+    "notFoundRecheck": {
+      "checkedAt": "2026-09-02T00:00:00.000+08:00",
+      "scope": "pr_5_historical_low_candidates",
+      "total": 95,
+      "candidateReviewed": 95,
+      "candidateAccepted": 0,
+      "candidateRejected": 95,
+      "trackedPolicyCompliantCandidate": 0,
+      "noPolicyCompliantCandidate": 95,
+      "searchUnavailable": 0,
+      "originalSourceUnavailable": 95,
+      "sourceAvailability": {
+        "biggo": {
+          "available": 0,
+          "unavailable": 95
+        },
+        "lbj": {
+          "available": 0,
+          "unavailable": 95
+        },
+        "findPrice": {
+          "available": 95,
+          "unavailable": 0
+        }
+      },
+      "policy": "2026-09-02 重新覆核 PR #5 的 95 筆史低候選；只接受可現場重現原始頁、完整 exact model／尺寸／容量／件數／系統版本相符，且不高於目前公開價的可信新品價格歷史。95 個 LBJ 原始 sourceUrl 全數連線逾時，BigGo 亦不可用；FindPrice 95 筆皆可搜尋但沒有符合政策的候選；另有 4 筆舊數值高於目前公開價，因此 95 筆全部維持 not_found，未改寫商品或逐筆證據日期。"
+    }
   },
   "results": [
     {
