@@ -601,9 +601,9 @@
     "name": "BE5000 Wi-Fi 7 Mesh 延伸系統路由器+2衛星",
     "price": {
       "currency": "TWD",
-      "amount": 8100,
-      "converted": 8100,
-      "confidence": "PChome 2026-09-03 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 8900,
+      "converted": 8900,
+      "confidence": "PChome 2026-09-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJAA900JG5AK/000001_1763014538.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJA-A900JG5AK",
@@ -1759,9 +1759,9 @@
     "name": "BE6500 雙頻 Wi-Fi 7 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 4741,
-      "converted": 4741,
-      "confidence": "Yahoo購物中心 2026-09-03 exact-model 公開結構化價格",
+      "amount": 4990,
+      "converted": 4990,
+      "confidence": "Yahoo購物中心 2026-09-04 exact-model 公開結構化價格",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLPA900IV4B6/000001_1783556530.jpg",
@@ -2716,9 +2716,9 @@
     "name": "BE3600 雙頻 Wi-Fi 7 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 3390,
-      "converted": 3390,
-      "confidence": "PChome 2026-09-03 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 3690,
+      "converted": 3690,
+      "confidence": "PChome 2026-09-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJAA900JUQYP/000001_1774520642.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJA-A900JUQYP",
@@ -4714,9 +4714,9 @@
     "name": "BE19000 三頻 Wi-Fi 7 AI 電競路由器",
     "price": {
       "currency": "TWD",
-      "amount": 26591,
-      "converted": 26591,
-      "confidence": "Yahoo購物中心 2026-09-03 exact-model 公開結構化價格",
+      "amount": 27990,
+      "converted": 27990,
+      "confidence": "Yahoo購物中心 2026-09-04 exact-model 公開結構化價格",
       "basis": "retailer_current"
     },
     "image": "https://dlcdnwebimgs.asus.com/gain/FF5DB299-9708-4259-ABF9-167FDC7166BD",
