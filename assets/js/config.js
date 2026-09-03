@@ -3,11 +3,11 @@
   const dashboard = root.applianceDashboard || {};
 
   const meta = {
-    dataDate: "2026-09-03",
-    costcoDate: "2026-09-03",
+    dataDate: "2026-09-04",
+    costcoDate: "2026-09-04",
     expectedCategoryCount: 37,
     expectedProductCount: 1133,
-    cacheVersion: "20260903-124855-catalog",
+    cacheVersion: "20260904-233819-catalog",
     exchangeSummary: "USD 1 = TWD 31.758",
   };
 
