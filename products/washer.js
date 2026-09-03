@@ -119,9 +119,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/2E9A754FA4-SP-22052141.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 19900,
-      "converted": 19900,
-      "confidence": "Yahoo購物中心 2026-09-01 exact-model 公開結構化價格",
+      "amount": 19104,
+      "converted": 19104,
+      "confidence": "Yahoo購物中心 2026-09-03 exact-model 公開結構化價格",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -224,9 +224,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/7A7EBA14D6-SP-22052251.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 20900,
-      "converted": 20900,
-      "confidence": "Yahoo購物中心 2026-09-01 exact-model 公開結構化價格",
+      "amount": 20064,
+      "converted": 20064,
+      "confidence": "Yahoo購物中心 2026-09-03 exact-model 公開結構化價格",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -1057,9 +1057,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/ce2bc90225-Gd-9291102.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 5490,
-      "converted": 5490,
-      "confidence": "Yahoo購物中心 2026-08-13 exact-model 公開結構化價格"
+      "amount": 5890,
+      "converted": 5890,
+      "confidence": "Yahoo購物中心 2026-09-03 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -2500,9 +2500,9 @@
     "name": "17kg 變頻溫水直立式洗衣機",
     "price": {
       "currency": "TWD",
-      "amount": 22490,
-      "converted": 22490,
-      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 20690,
+      "converted": 20690,
+      "confidence": "PChome 2026-09-03 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMBM1PA900IE3KH/000001_1775150195.jpg",
