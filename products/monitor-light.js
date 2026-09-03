@@ -1170,9 +1170,9 @@
     "price": {
       "currency": "USD",
       "amount": 103.99,
-      "converted": 3298,
+      "converted": 3302,
       "basis": "retailer_current",
-      "confidence": "Yeelight 美國官方商店 2026-08-31 Chrome原頁USD公開新品單件價（1-pack）。本輪重取ExchangeRate-API同批次USD/TWD 31.649299（2026-08-31 00:02 UTC）換算；海外新品價格未含國際運費、進口稅；需核對電壓、插頭與USB變壓器額定，台灣保固及跨國送修不保證。；ExchangeRate-API 2026-09-02 匯率換算"
+      "confidence": "Yeelight 美國官方商店 2026-08-31 Chrome原頁USD公開新品單件價（1-pack）。本輪重取ExchangeRate-API同批次USD/TWD 31.649299（2026-08-31 00:02 UTC）換算；海外新品價格未含國際運費、進口稅；需核對電壓、插頭與USB變壓器額定，台灣保固及跨國送修不保證。；ExchangeRate-API 2026-09-03 匯率換算"
     },
     "installation": {
       "status": "not_stated",
@@ -1266,9 +1266,9 @@
     "price": {
       "currency": "USD",
       "amount": 79.99,
-      "converted": 2537,
+      "converted": 2540,
       "basis": "retailer_current",
-      "confidence": "Quntis 官方商店 2026-08-31 Chrome原頁USD公開新品單件價。本輪重取ExchangeRate-API同批次USD/TWD 31.649299（2026-08-31 00:02 UTC）換算；海外新品價格未含國際運費、進口稅；需核對電壓、插頭與USB變壓器額定，台灣保固及跨國送修不保證。；ExchangeRate-API 2026-09-02 匯率換算"
+      "confidence": "Quntis 官方商店 2026-08-31 Chrome原頁USD公開新品單件價。本輪重取ExchangeRate-API同批次USD/TWD 31.649299（2026-08-31 00:02 UTC）換算；海外新品價格未含國際運費、進口稅；需核對電壓、插頭與USB變壓器額定，台灣保固及跨國送修不保證。；ExchangeRate-API 2026-09-03 匯率換算"
     },
     "installation": {
       "status": "not_stated",
@@ -1362,9 +1362,9 @@
     "price": {
       "currency": "USD",
       "amount": 75.99,
-      "converted": 2410,
+      "converted": 2413,
       "basis": "retailer_current",
-      "confidence": "Quntis 官方商店 2026-08-31 Chrome原頁USD公開新品單件價。本輪重取ExchangeRate-API同批次USD/TWD 31.649299（2026-08-31 00:02 UTC）換算；海外新品價格未含國際運費、進口稅；需核對電壓、插頭與USB變壓器額定，台灣保固及跨國送修不保證。；ExchangeRate-API 2026-09-02 匯率換算"
+      "confidence": "Quntis 官方商店 2026-08-31 Chrome原頁USD公開新品單件價。本輪重取ExchangeRate-API同批次USD/TWD 31.649299（2026-08-31 00:02 UTC）換算；海外新品價格未含國際運費、進口稅；需核對電壓、插頭與USB變壓器額定，台灣保固及跨國送修不保證。；ExchangeRate-API 2026-09-03 匯率換算"
     },
     "installation": {
       "status": "not_stated",
@@ -1458,9 +1458,9 @@
     "price": {
       "currency": "USD",
       "amount": 72.99,
-      "converted": 2315,
+      "converted": 2318,
       "basis": "retailer_current",
-      "confidence": "Quntis 官方商店 2026-08-31 Chrome原頁USD公開新品單件價。本輪重取ExchangeRate-API同批次USD/TWD 31.649299（2026-08-31 00:02 UTC）換算；海外新品價格未含國際運費、進口稅；需核對電壓、插頭與USB變壓器額定，台灣保固及跨國送修不保證。；ExchangeRate-API 2026-09-02 匯率換算"
+      "confidence": "Quntis 官方商店 2026-08-31 Chrome原頁USD公開新品單件價。本輪重取ExchangeRate-API同批次USD/TWD 31.649299（2026-08-31 00:02 UTC）換算；海外新品價格未含國際運費、進口稅；需核對電壓、插頭與USB變壓器額定，台灣保固及跨國送修不保證。；ExchangeRate-API 2026-09-03 匯率換算"
     },
     "installation": {
       "status": "not_stated",
@@ -1554,9 +1554,9 @@
     "price": {
       "currency": "USD",
       "amount": 66.99,
-      "converted": 2125,
+      "converted": 2127,
       "basis": "retailer_current",
-      "confidence": "Quntis 官方商店 2026-08-31 Chrome原頁USD公開新品單件價。本輪重取ExchangeRate-API同批次USD/TWD 31.649299（2026-08-31 00:02 UTC）換算；海外新品價格未含國際運費、進口稅；需核對電壓、插頭與USB變壓器額定，台灣保固及跨國送修不保證。；ExchangeRate-API 2026-09-02 匯率換算"
+      "confidence": "Quntis 官方商店 2026-08-31 Chrome原頁USD公開新品單件價。本輪重取ExchangeRate-API同批次USD/TWD 31.649299（2026-08-31 00:02 UTC）換算；海外新品價格未含國際運費、進口稅；需核對電壓、插頭與USB變壓器額定，台灣保固及跨國送修不保證。；ExchangeRate-API 2026-09-03 匯率換算"
     },
     "installation": {
       "status": "not_stated",
@@ -1650,9 +1650,9 @@
     "price": {
       "currency": "USD",
       "amount": 75.99,
-      "converted": 2410,
+      "converted": 2413,
       "basis": "retailer_current",
-      "confidence": "Quntis 官方商店 2026-08-31 Chrome原頁USD公開新品單件價（Warmwhite／US）。本輪重取ExchangeRate-API同批次USD/TWD 31.649299（2026-08-31 00:02 UTC）換算；海外新品價格未含國際運費、進口稅；需核對電壓、插頭與USB變壓器額定，台灣保固及跨國送修不保證。；ExchangeRate-API 2026-09-02 匯率換算"
+      "confidence": "Quntis 官方商店 2026-08-31 Chrome原頁USD公開新品單件價（Warmwhite／US）。本輪重取ExchangeRate-API同批次USD/TWD 31.649299（2026-08-31 00:02 UTC）換算；海外新品價格未含國際運費、進口稅；需核對電壓、插頭與USB變壓器額定，台灣保固及跨國送修不保證。；ExchangeRate-API 2026-09-03 匯率換算"
     },
     "installation": {
       "status": "not_stated",
@@ -1746,9 +1746,9 @@
     "price": {
       "currency": "USD",
       "amount": 75.99,
-      "converted": 2410,
+      "converted": 2413,
       "basis": "retailer_current",
-      "confidence": "Quntis 官方商店 2026-08-31 Chrome原頁USD公開新品單件價（RGB／US）。本輪重取ExchangeRate-API同批次USD/TWD 31.649299（2026-08-31 00:02 UTC）換算；海外新品價格未含國際運費、進口稅；需核對電壓、插頭與USB變壓器額定，台灣保固及跨國送修不保證。；ExchangeRate-API 2026-09-02 匯率換算"
+      "confidence": "Quntis 官方商店 2026-08-31 Chrome原頁USD公開新品單件價（RGB／US）。本輪重取ExchangeRate-API同批次USD/TWD 31.649299（2026-08-31 00:02 UTC）換算；海外新品價格未含國際運費、進口稅；需核對電壓、插頭與USB變壓器額定，台灣保固及跨國送修不保證。；ExchangeRate-API 2026-09-03 匯率換算"
     },
     "installation": {
       "status": "not_stated",
@@ -1842,9 +1842,9 @@
     "price": {
       "currency": "USD",
       "amount": 79.99,
-      "converted": 2537,
+      "converted": 2540,
       "basis": "retailer_current",
-      "confidence": "Quntis 官方商店 2026-08-31 Chrome原頁USD公開新品單件價。本輪重取ExchangeRate-API同批次USD/TWD 31.649299（2026-08-31 00:02 UTC）換算；海外新品價格未含國際運費、進口稅；需核對電壓、插頭與USB變壓器額定，台灣保固及跨國送修不保證。；ExchangeRate-API 2026-09-02 匯率換算"
+      "confidence": "Quntis 官方商店 2026-08-31 Chrome原頁USD公開新品單件價。本輪重取ExchangeRate-API同批次USD/TWD 31.649299（2026-08-31 00:02 UTC）換算；海外新品價格未含國際運費、進口稅；需核對電壓、插頭與USB變壓器額定，台灣保固及跨國送修不保證。；ExchangeRate-API 2026-09-03 匯率換算"
     },
     "installation": {
       "status": "not_stated",

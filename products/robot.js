@@ -1355,8 +1355,8 @@
     "price": {
       "currency": "EUR",
       "amount": 1099,
-      "converted": 40415,
-      "confidence": "Narwal 德國官方 2026-08-28 exact-model 標準套裝公開價 €1,099，目前所有變體售罄；ExchangeRate-API 2026-09-02 匯率換算"
+      "converted": 40426,
+      "confidence": "Narwal 德國官方 2026-08-28 exact-model 標準套裝公開價 €1,099，目前所有變體售罄；ExchangeRate-API 2026-09-03 匯率換算"
     },
     "image": "https://de.narwal.com/cdn/shop/files/narwal-flow-2-saugroboter-mit-selbstreinigung-9224922_1200x1200.png?v=1781597108",
     "buyUrl": "https://de.narwal.com/products/narwal-flow-2-saugroboter-mit-selbstreinigung?variant=52366680523028",
@@ -1452,8 +1452,8 @@
     "price": {
       "currency": "USD",
       "amount": 551.69,
-      "converted": 17499,
-      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-09-02 匯率換算"
+      "converted": 17520,
+      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-09-03 匯率換算"
     },
     "image": "https://img.gkbcdn.com/p/2025-04-11/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438-0._w315_.jpg",
     "buyUrl": "https://www.geekbuying.com/item/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438.html",
@@ -2596,8 +2596,8 @@
     "price": {
       "currency": "USD",
       "amount": 999.99,
-      "converted": 31718,
-      "confidence": "SharkNinja US 2026-07-21 來源價；ExchangeRate-API 2026-09-02 匯率換算"
+      "converted": 31757,
+      "confidence": "SharkNinja US 2026-07-21 來源價；ExchangeRate-API 2026-09-03 匯率換算"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/RV2820ZE_01.jpg",
     "buyUrl": "https://www.sharkninja.com/shark-powerdetect-2-in-1-robot-vacuum-and-mop-with-nevertouch-pro-base/RV2820ZE.html",
@@ -2790,8 +2790,8 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 12687,
-      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-09-02 匯率換算"
+      "converted": 12703,
+      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-09-03 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/tkj772p4357mmh3bwz8kcq/1791272-847__1?auto=webp&format=jpg",
     "buyUrl": "https://www.costco.com/p/-/roborock-qx-revo-robot-vacuum-and-mop-with-multifunctional-dock/4000233271",

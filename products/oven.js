@@ -411,8 +411,8 @@
     "price": {
       "currency": "USD",
       "amount": 499.95,
-      "converted": 15858,
-      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-09-02 匯率換算"
+      "converted": 15877,
+      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-09-03 匯率換算"
     },
     "image": "https://assets.breville.com/cdn-cgi/image/width=1300,format=auto/BOV950/BOV950BSS1BUS1/pdp3.png?pdp=",
     "buyUrl": "https://www.breville.com/en-us/product/bov950",
@@ -508,8 +508,8 @@
     "name": "微波大師 27L 氣炸烤箱微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 8630,
-      "converted": 8630,
+      "amount": 8990,
+      "converted": 8990,
       "confidence": "PChome 2026-09-03 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
       "note": "2026-08-31 Chrome核對PChome同SKU公開折扣價；促銷限時，未扣會員券、點數或信用卡回饋，結帳前請再確認。"
@@ -1885,8 +1885,8 @@
     "name": "蒸烘烤變頻微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 41724,
-      "converted": 41724,
+      "amount": 43920,
+      "converted": 43920,
       "confidence": "PChome 2026-09-03 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
       "note": "2026-08-31 Chrome核對PChome同SKU公開折扣價；促銷限時，未扣會員券、點數或信用卡回饋，結帳前請再確認。"
@@ -2287,8 +2287,8 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 12687,
-      "confidence": "2026-08-31 人工核對 SharkNinja 美國官方 MW101 公開可購主價 USD 399.99；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-09-02 匯率換算",
+      "converted": 12703,
+      "confidence": "2026-08-31 人工核對 SharkNinja 美國官方 MW101 公開可購主價 USD 399.99；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-09-03 匯率換算",
       "basis": "retailer_current"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/MW101_01.jpg",
