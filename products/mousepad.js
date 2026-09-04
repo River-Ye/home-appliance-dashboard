@@ -2611,10 +2611,10 @@
     "topPick": false,
     "price": {
       "currency": "TWD",
-      "amount": 1150,
-      "converted": 1150,
+      "amount": 1050,
+      "converted": 1050,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 Chrome原頁核對所選版本新品公開售價；不扣會員、信用卡、點數或加購優惠。"
+      "confidence": "PChome 2026-09-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "installation": {
       "status": "not_stated",

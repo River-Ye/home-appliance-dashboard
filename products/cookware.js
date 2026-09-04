@@ -1029,8 +1029,8 @@
     "image": "https://cs-a.ecimg.tw/items/DEDG3BA900GQDVZ/000001_1776769920.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1099,
-      "converted": 1099,
+      "amount": 990,
+      "converted": 990,
       "basis": "retailer_current",
       "confidence": "Yahoo購物中心 2026-09-04 exact-model 公開結構化價格"
     },
