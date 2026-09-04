@@ -1407,9 +1407,9 @@
     "name": "17-32 吋 2-9KG 人體工學螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 800,
-      "converted": 800,
-      "confidence": "Yahoo購物中心 2026-09-01 exact-model 公開結構化價格"
+      "amount": 770,
+      "converted": 770,
+      "confidence": "Yahoo購物中心 2026-09-04 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGQ5A900JUC1W/000001_1774344481.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E6%A8%82%E6%AD%8CLoctek-%E4%BA%BA%E9%AB%94%E5%B7%A5%E5%AD%B8-%E8%9E%A2%E5%B9%95%E6%94%AF%E6%9E%B6D5S-12033991.html",
