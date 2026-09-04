@@ -398,8 +398,8 @@
     "price": {
       "currency": "USD",
       "amount": 99.98,
-      "converted": 3175,
-      "confidence": "2026-08-31 人工核對 SharkNinja 官方 BN701 公開可購主價 USD 99.98；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-09-03 匯率換算",
+      "converted": 3168,
+      "confidence": "2026-08-31 人工核對 SharkNinja 官方 BN701 公開可購主價 USD 99.98；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-09-04 匯率換算",
       "basis": "retailer_current"
     },
     "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/d1c25153baa2aa99eae7831be826d2a51d87c485/Ninja-BN701-Professional-Plus-Blender-with-Auto-iQ.jpg",

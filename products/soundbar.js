@@ -2072,8 +2072,8 @@
     "price": {
       "currency": "USD",
       "amount": 1299.99,
-      "converted": 41285,
-      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-09-03 匯率換算"
+      "converted": 41193,
+      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-09-04 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/2C2sn9CKoKFdIyd94Gm9z5/f3019d4e721511167ebe5c229bf490dd/heston-120_plp.jpg",
     "buyUrl": "https://www.marshall.com/us/en/product/heston-120",
@@ -2172,8 +2172,8 @@
     "price": {
       "currency": "USD",
       "amount": 549.99,
-      "converted": 17466,
-      "confidence": "2026-08-31 人工核對 Marshall US 官方 Heston 60 公開可購主價 USD 549.99；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-09-03 匯率換算",
+      "converted": 17428,
+      "confidence": "2026-08-31 人工核對 Marshall US 官方 Heston 60 公開可購主價 USD 549.99；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-09-04 匯率換算",
       "basis": "retailer_current"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/3yitHqjPBTgQk5qRE72PSn/2788206646aa153f71f2c0ebefaff580/Heston-60-black_plp_800x800-v3.jpeg",
@@ -2611,14 +2611,14 @@
       "status": "found",
       "amount": 176091,
       "currency": "JPY",
-      "converted": 35152,
+      "converted": 35764,
       "sourceUrl": "https://kakaku.com/item/K0001712395/pricehistory/",
       "sourceTitle": "価格.com：JBL BAR 1300MK2 [ブラック] 価格推移",
       "evidenceSnippet": "価格.com 日別價格歷史顯示 exact-model「JBL BAR 1300MK2 [ブラック]」於 2026-06-17 的新品最低價為 ¥176,091；2025-10 初始價格為 ¥205,306。",
       "sourceKind": "price_history",
       "confidence": "medium",
       "checkedAt": "2026-08-25",
-      "note": "採日本市場 exact-model 公開價格歷史並依 2026-09-03 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
+      "note": "採日本市場 exact-model 公開價格歷史並依 2026-09-04 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
     },
     "issueResearch": {
       "status": "no_common_issue",

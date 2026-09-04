@@ -301,8 +301,8 @@
     "name": "17 坪 360 度高效過濾空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 7359,
-      "converted": 7359,
+      "amount": 7999,
+      "converted": 7999,
       "confidence": "PChome 2026-09-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900GH5RL/000001_1781800112.jpg",
@@ -1357,8 +1357,8 @@
     "name": "奈米級空氣清淨機 MUJI AC0650",
     "price": {
       "currency": "TWD",
-      "amount": 4590,
-      "converted": 4590,
+      "amount": 4990,
+      "converted": 4990,
       "confidence": "PChome 2026-09-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900GD1ZV/000001_1781800174.jpg",
@@ -1741,8 +1741,8 @@
     "name": "寵物抗敏空氣清淨機輕量版",
     "price": {
       "currency": "TWD",
-      "amount": 10110,
-      "converted": 10110,
+      "amount": 10990,
+      "converted": 10990,
       "confidence": "PChome 2026-09-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900J7SBO/000001_1781799851.jpg",
@@ -1837,8 +1837,8 @@
     "name": "PuriCare 超淨化大白空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 6810,
-      "converted": 6810,
+      "amount": 7399,
+      "converted": 7399,
       "confidence": "PChome 2026-09-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU0BA900GI0Q1/000001_1763349087.jpg",
@@ -2229,8 +2229,8 @@
     "name": "迷你奈抗敏奈米級空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 7350,
-      "converted": 7350,
+      "amount": 7990,
+      "converted": 7990,
       "confidence": "PChome 2026-09-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAUFVA900JZR3M/000001_1785203322.jpg",
