@@ -17,8 +17,8 @@
     "name": "11.1.4 聲道旗艦 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 44900,
-      "converted": 44900,
+      "amount": 42655,
+      "converted": 42655,
       "confidence": "Yahoo購物中心 2026-09-05 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900JMDR5/000001_1773978957.jpg",
@@ -408,9 +408,9 @@
     "name": "旗艦級無線智能聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 37710,
-      "converted": 37710,
-      "confidence": "K.Wild 2026-07-15 頁面查核價"
+      "amount": 37500,
+      "converted": 37500,
+      "confidence": "www.kwildglamping.com 2026-09-05 人工核對 exact-model 公開單件價及可購狀態；非會員券、紅利或加購價"
     },
     "image": "https://cdn1-next.cybassets.com/media/W1siZiIsIjI2MjU4L3Byb2R1Y3RzLzU4MjgzOTMzLzE3NTQ5OTA1MTVfODE4MTljZGJmN2RmMTY1MzE3NTUuanBlZyJdLFsicCIsInRodW1iIiwiNjAweDYwMCJdXQ.jpeg?sha=3ad41c6aa447363c",
     "buyUrl": "https://www.kwildglamping.com/products/sonos-arc-ultra",
@@ -445,16 +445,16 @@
     "releaseDate": "2024-10-29",
     "historicalLow": {
       "status": "found",
-      "amount": 37710,
+      "amount": 37500,
       "currency": "TWD",
-      "converted": 37710,
+      "converted": 37500,
       "sourceUrl": "https://www.kwildglamping.com/products/sonos-arc-ultra",
-      "sourceTitle": "K.Wild：SONOS Arc Ultra 旗艦級無線智能聲霸（台灣公司貨、兩年保固）",
-      "evidenceSnippet": "K.Wild 同型號新品頁於 2026-07-15 顯示公開售價 NT$37,710、供貨狀況「尚有庫存」，並載明台灣公司貨、原廠兩年保固與約 1 至 2 個工作天出貨。",
+      "sourceTitle": "Kwild Glamping SONOS Arc Ultra 旗艦級無線智能聲霸 台灣公司貨兩年保固",
+      "evidenceSnippet": "2026-09-05 原購買通路的 Sonos Arc Ultra 同型號新品頁顯示公開售價 NT$37,500 並可立即購買，低於既有可驗證史低 NT$37,710；黑／白同價，未扣會員券、紅利或回饋。",
       "sourceKind": "retailer_page",
-      "confidence": "high",
-      "checkedAt": "2026-07-15",
-      "note": "採用 K.Wild 同型號公司貨新品現貨頁可公開查核售價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示、箱損、拆封與整新品。"
+      "confidence": "medium",
+      "checkedAt": "2026-09-05",
+      "note": "採同型號可購新品公開價格；不含個人化折扣、點數、信用卡回饋、加購、二手、福利、展示或拆封品。"
     },
     "issueResearch": {
       "status": "common_issue",
@@ -889,8 +889,8 @@
     "name": "Q 系列 11.1.4 聲道 Soundbar 家庭劇院",
     "price": {
       "currency": "TWD",
-      "amount": 59900,
-      "converted": 59900,
+      "amount": 56905,
+      "converted": 56905,
       "confidence": "Yahoo購物中心 2026-09-05 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADO2A900K5VUT/000001_1782993730.jpg",
@@ -987,8 +987,8 @@
     "name": "Q 系列 7.1.2 聲道 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 36900,
-      "converted": 36900,
+      "amount": 35055,
+      "converted": 35055,
       "confidence": "Yahoo購物中心 2026-09-05 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900K5489/000001_1782988490.jpg",
@@ -1379,8 +1379,8 @@
     "name": "7.1 聲道家庭劇院喇叭",
     "price": {
       "currency": "TWD",
-      "amount": 28590,
-      "converted": 28590,
+      "amount": 27161,
+      "converted": 27161,
       "confidence": "Yahoo購物中心 2026-09-05 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAHGA900J56OK/000001_1755250707.jpg",
@@ -1673,9 +1673,9 @@
     "name": "BRAVIA Theatre Bar 8 聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 29900,
-      "converted": 29900,
-      "confidence": "PChome 2026-08-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 26910,
+      "converted": 26910,
+      "confidence": "PChome 2026-09-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900HTC64/000001_1781747501.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM1D-A900HTC64",
@@ -2468,8 +2468,8 @@
     "name": "2.0 聲道二合一分離式聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 633,
-      "converted": 633,
+      "amount": 602,
+      "converted": 602,
       "confidence": "Yahoo購物中心 2026-09-05 exact-model 公開結構化價格"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h21/hac/367883491278878.jpg",
@@ -2982,9 +2982,9 @@
     "name": "Flexus Core 100 2.1 聲道虛擬 Dolby Atmos 聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 9999,
-      "converted": 9999,
-      "confidence": "2026-08-31 人工查核：Flexus Core 100 主商品 NT$9,999，可直接購買／放入購物車；舊 94 折活動價已不顯示，特惠商品不適用折價券。",
+      "amount": 9399,
+      "converted": 9399,
+      "confidence": "www.momoshop.com.tw 2026-09-05 人工核對 exact-model 公開單件價及可購狀態；非會員券、紅利或加購價",
       "basis": "retailer_current"
     },
     "installation": {

@@ -581,9 +581,9 @@
     "name": "VITA PREP3 多功能營養調理機",
     "price": {
       "currency": "TWD",
-      "amount": 24900,
-      "converted": 24900,
-      "confidence": "2026-08-31 人工查核：VITA PREP 3 台灣公司貨，08/19–08/31 滿 1 件折 2,100，頁面折後 NT$24,900；直接購買／購物車可用。不採另列的保險或個資同意。",
+      "amount": 24750,
+      "converted": 24750,
+      "confidence": "www.momoshop.com.tw 2026-09-05 人工核對 exact-model 公開單件價及可購狀態；非會員券、紅利或加購價",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY9TA900G068X/000001_1782790517.jpg",
@@ -1261,9 +1261,9 @@
     "name": "1.2L 高速調理果汁機",
     "price": {
       "currency": "TWD",
-      "amount": 1290,
-      "converted": 1290,
-      "confidence": "momo 2026-07-30 exact-model 公開促銷價"
+      "amount": 1099,
+      "converted": 1099,
+      "confidence": "www.momoshop.com.tw 2026-09-05 人工核對 exact-model 公開單件價及可購狀態；非會員券、紅利或加購價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY7KA900JXOTJ/000001_1779933584.jpg",
     "buyUrl": "https://www.momoshop.com.tw/product/14949449",
@@ -1741,8 +1741,8 @@
     "name": "多功能變頻輕音冷熱調理機",
     "price": {
       "currency": "TWD",
-      "amount": 11490,
-      "converted": 11490,
+      "amount": 10800,
+      "converted": 10800,
       "confidence": "PChome 2026-09-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY4YA900I3ILD/000001_1783328441.jpg",

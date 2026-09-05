@@ -2232,9 +2232,9 @@
     "name": "12L 一級能效極致薄型清新淨味除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 7990,
-      "converted": 7990,
-      "confidence": "momo購物網 2026-07-18 UTC 商品頁公開現貨價"
+      "amount": 8111,
+      "converted": 8111,
+      "confidence": "www.momoshop.com.tw 2026-09-05 人工核對 exact-model 公開單件價及可購狀態；非會員券、紅利或加購價"
     },
     "image": "https://i2.momoshop.com.tw/1781626760/goodsimg/0015/034/893/15034893_R_m.webp",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15034893",
@@ -2444,9 +2444,9 @@
     "name": "UltimateHome 300 10L 清淨除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 12900,
-      "converted": 12900,
-      "confidence": "2026-08-31 人工查核：Electrolux 台灣官方 ED1031WD 晨曦白主價 NT$12,900，明示『有現貨』『加到購物車』；排除相似產品 PA91-606GY 與其他除濕機。",
+      "amount": 9900,
+      "converted": 9900,
+      "confidence": "ED1031WD 官方商品頁 2026-09-05 人工核對 exact-model 公開現價及可購狀態；非會員券、紅利或加購價",
       "basis": "retailer_current"
     },
     "installation": {

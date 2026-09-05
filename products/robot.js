@@ -1354,9 +1354,9 @@
     "name": "滾筒洗地旗艦掃拖機器人",
     "price": {
       "currency": "EUR",
-      "amount": 1099,
-      "converted": 40368,
-      "confidence": "Narwal 德國官方 2026-08-28 exact-model 標準套裝公開價 €1,099，目前所有變體售罄；ExchangeRate-API 2026-09-05 匯率換算"
+      "amount": 1299,
+      "converted": 47714,
+      "confidence": "Narwal Flow 2 德國官方黑色標準基站套裝 2026-09-05 人工核對 exact-model 公開現價及可購狀態；非會員券、紅利或加購價；ExchangeRate-API 2026-09-05 匯率換算"
     },
     "image": "https://de.narwal.com/cdn/shop/files/narwal-flow-2-saugroboter-mit-selbstreinigung-9224922_1200x1200.png?v=1781597108",
     "buyUrl": "https://de.narwal.com/products/narwal-flow-2-saugroboter-mit-selbstreinigung?variant=52366680523028",
@@ -4102,10 +4102,10 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 10500,
-      "converted": 10500,
+      "amount": 9590,
+      "converted": 9590,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 Chrome 人工核對雅光 exact SKU RVX20DPABKCG 公開主價 NT$10,500、頁面庫存1及可用購買控制；NT$12,900 是刪除線原價。未扣會員、信用卡或點數回饋。頁首圖片另要求購前電話確認，與門市共用庫存，不保證立即出貨。",
+      "confidence": "www.yk01.com.tw 2026-09-05 人工核對 exact-model 公開單件價及可購狀態；非會員券、紅利或加購價",
       "note": "雅光頁面標示尚有庫存1；與門市共用庫存，下單前須致電(02)2796-5866確認，實際出貨以通路確認為準。"
     },
     "installation": {
@@ -4288,6 +4288,137 @@
       "台灣公司貨",
       "履帶式洗地",
       "25,000Pa",
+      "高門檻越障",
+      "110V基站"
+    ]
+  },
+  {
+    "id": "robot-dreame-x60-track",
+    "category": "robot",
+    "brand": "Dreame",
+    "model": "X60 Track",
+    "name": "履帶式活熱水洗地掃拖機器人（主機 RLR82DE／基站 RCZE0204）",
+    "rank": 45,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "price": {
+      "currency": "TWD",
+      "amount": 32980,
+      "converted": 32980,
+      "basis": "retailer_current",
+      "confidence": "2026-09-05 台灣官方商城瀏覽器核對黑色款顯示 NT$32,980，主商品 JSON-LD Offer 為 TWD 32980、InStock，實際頁面有啟用的加入購物車與立即購買控制。",
+      "note": "採主機與水箱式基站的公開現價；未扣折扣碼、會員回饋或贈品價值。自動上下水模組另購，其九月中下旬預購訊息不套用主商品。"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "未明示包含到府安裝；水箱式基站建議放瓷質或石質地面，左右各預留超過 5cm、前方超過 1m，另預留上方約 30cm 取水箱。自動上下水模組另購，可自行安裝或自費洽官方合作廠商。"
+    },
+    "image": "https://img.shoplineapp.com/media/image_clips/6a866311ab09943069ad9bc8/original.jpg?1787192081=&owner_id=61dbf2e6069266001658ea21",
+    "buyUrl": "https://www.dreametech.com.tw/products/x60-track",
+    "buyLabel": "Dreame 追覓台灣官方商城",
+    "specs": [
+      "主機型號 RLR82DE；基站型號 RCZE0204；履帶拖布以最高 45°C 活熱水洗地，主機內置清／污水箱",
+      "最高吸力 36,000Pa；鰻魚防纏雙滾刷 2.0、邊刷及拖布外擴；AI 藍光髒污檢測與 AI 雙鏡頭，官方宣稱辨識 300+ 種障礙物",
+      "最高 6cm 連續門檻越障；升降 LDS 雷達；基站最高 100°C 沸水洗布、自動集塵、烘乾及紫外線殺菌",
+      "基站清水／污水箱 4L／3.5L；主機清水／污水箱 160mL／150mL；集塵袋 3.2L；電池 6400mAh；充電約 4.5 小時",
+      "Dreamehome App；Wi-Fi 僅支援 2.4GHz；掃拖、先掃後拖、單掃、單拖四種模式；污水箱建議每次使用後清理",
+      "主機額定 14.4V／75W；基站輸入 110V~50–60Hz、輸出 20V DC／2A／40W；集塵 650W、熱水清洗 420W、充電＋烘乾 96W",
+      "尺寸：主機 35×35×9.75cm（LDS 雷達降下）／35×35×11.9cm（雷達升起）；基站寬 42×深 44×高 50cm；依通路原廠圖示，取水箱上方須另預留約 30cm",
+      "重量：查不到；未取得台灣 exact model 的主機與基站分件淨重，不以通路 5.1kg以上級距代替",
+      "隨附配件：基站與延伸板、清潔刷、污水箱除臭模組、銀離子除菌模組、防纏邊刷、鰻魚滾刷 2.0、集塵袋等；清潔液／除臭液與活動贈品依訂單內容確認"
+    ],
+    "description": "X60 Track 是追覓台灣在售的履帶式活熱水掃拖機器人，主機 RLR82DE 搭配 RCZE0204 基站。相較既有 Aqua 10 Pro Track，官方規格提高至 36,000Pa 並加入 AI 藍光髒污檢測，仍保留履帶邊拖邊洗與 6cm 連續越障。適合將熱水拖地、髒污辨識與基站維護負擔一起評估的高階使用者。",
+    "pros": [
+      "履帶拖布邊拖邊洗，45°C 活熱水與雙水箱設計適合重視硬地拖洗的家庭",
+      "AI 藍光髒污檢測、雙鏡頭與升降 LDS，兼顧髒污辨識與低矮區清潔",
+      "台灣官方現售、110V／50–60Hz 手冊與台灣代理售後證據可核對"
+    ],
+    "cons": [
+      "價格高於既有 Aqua 10 Pro Track；功能升級不代表每個家庭都需要",
+      "水箱式基站仍須倒污水、補水與定期清潔，自動上下水模組及施工另計",
+      "主機與基站分件淨重仍查不到，搬運及櫃位承重需向台灣代理確認"
+    ],
+    "bestFor": "偏好履帶式熱水拖地、家中有乾濕髒污與門檻，並願意定期清理水箱、確認基站空間的家庭。",
+    "recommendation": "高階履帶洗地比較款，不列 Top Pick；已核對台灣主機／基站型號與 110V 電力。購買前確認水箱取用空間、清潔維護負擔與額外上下水施工費，並留存保固活動及訂單證明。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-09-05",
+      "note": "已查官方現價、BigGo 730 天價格歷史、FindPrice 與 LBJ；BigGo 綁定同型號 PChome 頁的 2026-06-19 低點為 NT$30,256，但原頁目前為預購且無庫存，歷史點沒有保存當時可交付新品或預購狀態，未採用。momo 黑色版歷史低點 NT$33,618 也缺當時可交付狀態；FindPrice 僅作現價比對、LBJ 連線逾時。不以目前官方 NT$32,980 推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-09-05",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"X60 Track\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22X60%20Track%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20failure%29",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"X60 Track\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22X60%20Track%22%20%28%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95%29",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"X60 Track\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22X60%20Track%22%20%28%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95%29",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"X60 Track\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22X60%20Track%22%20%28%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95%29",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"X60 Track\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22X60%20Track%22",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"X60 Track\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22X60%20Track%22",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"X60 Track\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22X60%20Track%22",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"X60 Track\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22X60%20Track%22",
+          "targetHost": "ptt.cc"
+        }
+      ]
+    },
+    "score": 92,
+    "voltage": "主機 14.4V／75W；基站 110V~50–60Hz，輸出 20V DC／2A／40W；集塵 650W、熱水清洗 420W、充電＋烘乾 96W",
+    "warranty": "台灣官方說明書免費保固 12 個月，自發票日起算；官方商品頁另列 X60 Track 加碼 3 年原廠保固活動，實際條件及期限依訂單與活動辦法，不把活動延長視為永久基本保固",
+    "tags": [
+      "台灣公司貨",
+      "履帶式洗地",
+      "AI藍光檢測",
+      "36,000Pa",
       "高門檻越障",
       "110V基站"
     ]

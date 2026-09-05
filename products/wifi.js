@@ -1759,8 +1759,8 @@
     "name": "BE6500 雙頻 Wi-Fi 7 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 4990,
-      "converted": 4990,
+      "amount": 4741,
+      "converted": 4741,
       "confidence": "Yahoo購物中心 2026-09-05 exact-model 公開結構化價格",
       "basis": "retailer_current"
     },
@@ -4530,9 +4530,9 @@
     "name": "BE3600 雙頻 Wi-Fi 7 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 1639,
-      "converted": 1639,
-      "confidence": "Costco 好市多 2026-08-03 exact-model 公開結構化價格"
+      "amount": 2149,
+      "converted": 2149,
+      "confidence": "Costco 好市多 2026-09-05 exact-model 公開結構化價格"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h75/h55/366793139191838.jpg",
     "buyUrl": "https://www.costco.com.tw/Digital-Mobile/Laptops-Computers/Keyboards-Mice-Computer-Accessories/TP-Link-BE3600-Dual-Band-Wi-Fi-7-Router-Archer-BE3600/p/154268",
@@ -4714,8 +4714,8 @@
     "name": "BE19000 三頻 Wi-Fi 7 AI 電競路由器",
     "price": {
       "currency": "TWD",
-      "amount": 27990,
-      "converted": 27990,
+      "amount": 26591,
+      "converted": 26591,
       "confidence": "Yahoo購物中心 2026-09-05 exact-model 公開結構化價格",
       "basis": "retailer_current"
     },

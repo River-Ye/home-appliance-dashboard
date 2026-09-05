@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-02",
+  "checkedAt": "2026-09-05",
   "methodVersion": 3,
   "policy": "每筆決策須保存 exact-model 跨站查詢與人工 attestation；每個搜尋候選須逐頁保存摘要、獨立作者數與具體排除理由，研究工具不得自行生成拒絕結論。",
   "results": [
@@ -83851,6 +83851,110 @@
       "candidateReviews": [],
       "reviewerNote": "PV-XH4Q／PVXH4Q：Reddit、Mobile01、YouTube 跨站人工搜尋無可確認原頁候選，故 no_common_issue（不代表完全沒有負評）。",
       "attestation": "manual_cross_site_search_reviewed_no_candidate"
+    },
+    {
+      "id": "robot-dreame-x60-track",
+      "category": "robot",
+      "brand": "Dreame",
+      "model": "X60 Track",
+      "reviewedAt": "2026-09-05",
+      "reviewBatch": "robot",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01",
+        "Dcard",
+        "PTT"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"X60 Track\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22X60%20Track%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20failure%29",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"X60 Track\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22X60%20Track%22%20%28%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95%29",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"X60 Track\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22X60%20Track%22%20%28%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95%29",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"X60 Track\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22X60%20Track%22%20%28%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95%29",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"X60 Track\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22X60%20Track%22",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"X60 Track\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22X60%20Track%22",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"X60 Track\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22X60%20Track%22",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"X60 Track\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22X60%20Track%22",
+          "targetHost": "ptt.cc"
+        }
+      ],
+      "candidateDisposition": "X60 Track：逐一人工核對 Reddit、Mobile01、Dcard、PTT exact-model 搜尋；僅發現2個不同的 Mobile01 原串，已開啟並完整檢視6樓／4樓。兩串都是選購／下單，未有可確認同型號第一人稱故障者；X60 Ultra、Saros 20及未透露型號回覆排除。",
+      "representativeSources": [
+        {
+          "platform": "Mobile01",
+          "title": "石頭Saros 20 Sonic、追覓X60 track都是今年旗艦，該買哪台好呢？（已購入Saros 20 Sonic）",
+          "url": "https://www.mobile01.com/topicdetail.php?f=728&t=7267079"
+        },
+        {
+          "platform": "Mobile01",
+          "title": "終於想買掃地機器人，可否推薦2026年的掃拖旗艦機種？",
+          "url": "https://www.mobile01.com/topicdetail.php?f=728&t=7259095"
+        }
+      ],
+      "candidateReviews": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=728&t=7267079",
+          "title": "石頭Saros 20 Sonic、追覓X60 track都是今年旗艦，該買哪台好呢？（已購入Saros 20 Sonic）",
+          "platform": "Mobile01",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-05",
+          "sourceExcerpt": "ltp 在 #1（文章93215665）比較 X60 Track 與 Saros 20 Sonic，尚未購入；#5（93293568）說明最後買 Saros 20 Sonic。雙面浪人沒有揭露持有哪款，Eurotta 明確持有 Saros 20 Sonic，Quim5959 推薦的是 X60 Ultra，chengyu1226 只談一般客服信心。",
+          "independentAuthors": 0,
+          "specificReason": "完整檢視6樓及樓中回覆；X60 Track 只出現在選購題目及專櫃沒展示的描述。ltp 並未持有 X60 Track，未透露型號與 X60 Ultra／Saros 回覆不能計入。沒有一位可確認為 X60 Track 的第一人稱產品故障作者，因此不成立同題6人／2站集中負評。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=728&t=7259095",
+          "title": "終於想買掃地機器人，可否推薦2026年的掃拖旗艦機種？",
+          "platform": "Mobile01",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-05",
+          "sourceExcerpt": "Lacelouy 在 #3（文章93148861，2026-05-16）只表示剛下單 X60 Track；ltp 在 #4（93153612）把 AI 回覆的路徑規劃／保固維修疑慮拿來詢價。dummyball 在 #2 明示使用 Saros 20，並非 X60 Track。",
+          "independentAuthors": 0,
+          "specificReason": "完整檢視4樓；Lacelouy 的下單身分不等於已使用後的問題回報，ltp 的 AI 摘要疑慮也不是第一人稱產品故障。沒有可計入的 X60 Track 故障作者，亦無第二原始網站的同題報告；p=1及m.mobile01版本已與此原串去重。"
+        }
+      ],
+      "reviewerNote": "X60 Track：2026-09-05晚間人工跨站搜尋與原頁覆核完成；2個原串、0位可計入的 exact-model 第一人稱故障作者，Reddit／Dcard／PTT未找到 exact-model 原頁候選。尚未達同一問題至少6名獨立使用者且跨2個原始網站，故 no_common_issue；不代表完全沒有負評，不借用 X60 Master／X60 Ultra／X60 Max 或 X50 的問題證據。 查詢由網頁搜尋工具執行；queryUrl 是相同完整字串的可重播入口，並非宣稱已成功開啟 Google 原生搜尋頁。",
+      "attestation": "manual_original_pages_reviewed"
     }
   ]
 }

@@ -882,9 +882,9 @@
     "name": "14 吋五片扇葉 ECO 溫度感知 DC 馬達電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 2071,
-      "converted": 2071,
-      "confidence": "momo購物 2026-07-11 頁面查核價"
+      "amount": 2152,
+      "converted": 2152,
+      "confidence": "www.momoshop.com.tw 2026-09-05 人工核對 exact-model 公開單件價及可購狀態；非會員券、紅利或加購價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB1FA900JXKNN/000001_1776674767.jpg",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15180635",
