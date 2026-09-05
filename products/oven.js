@@ -411,8 +411,8 @@
     "price": {
       "currency": "USD",
       "amount": 499.95,
-      "converted": 15842,
-      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-09-04 匯率換算"
+      "converted": 15813,
+      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-09-05 匯率換算"
     },
     "image": "https://assets.breville.com/cdn-cgi/image/width=1300,format=auto/BOV950/BOV950BSS1BUS1/pdp3.png?pdp=",
     "buyUrl": "https://www.breville.com/en-us/product/bov950",
@@ -2287,8 +2287,8 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 12675,
-      "confidence": "2026-08-31 人工核對 SharkNinja 美國官方 MW101 公開可購主價 USD 399.99；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-09-04 匯率換算",
+      "converted": 12652,
+      "confidence": "2026-08-31 人工核對 SharkNinja 美國官方 MW101 公開可購主價 USD 399.99；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-09-05 匯率換算",
       "basis": "retailer_current"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/MW101_01.jpg",
