@@ -2328,9 +2328,9 @@
     "name": "T36 人體工學椅",
     "price": {
       "currency": "TWD",
-      "amount": 6470,
-      "converted": 6470,
-      "confidence": "2026-08-31 人工核對 PC PARTY i-Rocks T36 主商品公開特價 NT$6,470；藍、灰、綠三變體同價且非預購，未採會員限定價格。",
+      "amount": 6641,
+      "converted": 6641,
+      "confidence": "www.pcparty.com.tw 2026-09-05 人工核對 exact-model 公開單件價及可購狀態；非會員券、紅利或加購價",
       "basis": "retailer_current"
     },
     "image": "https://img.shoplineapp.com/media/image_clips/6a3bb7831f653f80a5328a3b/original.jpg?1782298499=&owner_id=58463ef36170691735790100",

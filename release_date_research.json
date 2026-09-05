@@ -1,13 +1,13 @@
 {
   "summary": {
-    "checkedAt": "2026-09-02T00:00:00+08:00",
-    "total": 1133,
-    "researchedThisRun": 7,
+    "checkedAt": "2026-09-05T13:22:12.370Z",
+    "total": 1134,
+    "researchedThisRun": 1,
     "found": 335,
-    "missing": 798,
+    "missing": 799,
     "byConfidence": {
       "official": 185,
-      "not_found": 795,
+      "not_found": 796,
       "retailer_explicit": 22,
       "credible_article": 52,
       "high": 60,
@@ -34804,6 +34804,29 @@
       "reason": "官方 NEW 標記與型錄印刷日期不是上市日；查無 exact-model 明確上市／發售文字，故保留找不到。",
       "checkedAt": "2026-09-02",
       "auditDisposition": "added"
+    },
+    {
+      "id": "robot-dreame-x60-track",
+      "category": "robot",
+      "brand": "Dreame",
+      "model": "X60 Track",
+      "name": "履帶式活熱水洗地掃拖機器人（主機 RLR82DE／基站 RCZE0204）",
+      "releaseDate": "找不到",
+      "checkedAt": "2026-09-05",
+      "sourceUrl": "https://www.dreametech.com.tw/pages/x60-track-guide",
+      "sourceTitle": "Dreame X60 Track 台灣官方使用指南與繁體中文手冊",
+      "evidenceSnippet": "官方手冊封面明示 X60 Track TW-A00，規格頁確認主機 RLR82DE、基站 RCZE0204 與 110V 50–60Hz；產品頁、指南及影片均未明載可採用的上市／發售日。",
+      "confidence": "not_found",
+      "checkedSources": [
+        "https://www.dreametech.com.tw/products/x60-track",
+        "https://www.dreametech.com.tw/pages/x60-track",
+        "https://www.youtube.com/watch?v=2SwuH5yPUcA",
+        "https://www.dreametech.com.tw/pages/x60-track-guide",
+        "https://drive.google.com/file/d/1qQmNNM9xu3U2YrR8eH9dJw6E5on2WQQv/view"
+      ],
+      "note": "官方現售頁與發表內容未提供可採用的明確發售日期；官方2026-04-15影片仍邀請登記開賣通知，不能把影片日期當上市日。沒有採用頁面上架、PDF日期或第三方文章發布日。",
+      "sourceKind": "not_found",
+      "reason": "官方現售頁與發表內容未提供可採用的明確發售日期；官方2026-04-15影片仍邀請登記開賣通知，不能把影片日期當上市日。沒有採用頁面上架、PDF日期或第三方文章發布日。"
     }
   ]
 }

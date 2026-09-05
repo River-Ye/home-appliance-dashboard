@@ -314,9 +314,9 @@
     "name": "27KG 57 吋鋁合金氣壓式螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 3099,
-      "converted": 3099,
-      "confidence": "2026-08-31 人工查核：T101-12U 27kg 57 吋款主價 NT$3,099、低庫存 2 組，直接購買／購物車可用；不是低承重其他型號。",
+      "amount": 2634,
+      "converted": 2634,
+      "confidence": "www.momoshop.com.tw 2026-09-05 人工核對 exact-model 公開單件價及可購狀態；非會員券、紅利或加購價",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBB69A900INQG2/000001_1745485048.jpg",
@@ -1107,9 +1107,9 @@
     "name": "LX Pro 桌上型單螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 6120,
-      "converted": 6120,
-      "confidence": "2026-08-31 人工查核：LX Pro 標準單螢幕支架，08/03–08/31 滿 1 件 9 折，頁面折後價 NT$6,120（原促銷 6,800），直接購買／購物車可用；不以其他加高款比價。",
+      "amount": 4999,
+      "converted": 4999,
+      "confidence": "www.momoshop.com.tw 2026-09-05 人工核對 exact-model 公開單件價及可購狀態；非會員券、紅利或加購價",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DGBJPWA900IO3XY/000001_1745568644.jpg",

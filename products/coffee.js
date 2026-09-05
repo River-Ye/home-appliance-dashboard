@@ -232,9 +232,9 @@
     "name": "De'Longhi ECAM220.22.SB Magnifica Start 全自動義式咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 26900,
-      "converted": 26900,
-      "confidence": "De'Longhi Taiwan 官方網站 2026-08-04 exact-model 公開新品價；台灣公司貨／原廠通路"
+      "amount": 21900,
+      "converted": 21900,
+      "confidence": "ECAM220.22.SB 官方商品頁 2026-09-05 人工核對 exact-model 公開現價及可購狀態；非會員券、紅利或加購價"
     },
     "image": "https://i3.momoshop.com.tw/1787104171/goodsimg/0013/120/356/13120356_R4_m.webp",
     "buyUrl": "https://www.idelonghi.com.tw/id/products/ecam22022",
@@ -269,16 +269,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 26900,
+      "amount": 21900,
       "currency": "TWD",
-      "converted": 26900,
+      "converted": 21900,
       "sourceUrl": "https://www.idelonghi.com.tw/id/products/ecam22022",
-      "sourceTitle": "De'Longhi Taiwan Magnifica Start ECAM220.22.SB 官方商品頁",
-      "evidenceSnippet": "官方頁以商品編號 ECAM22022SB 列出公開價 NT$26,900、原價 NT$32,900。",
-      "sourceKind": "official_sale",
-      "confidence": "high",
-      "checkedAt": "2026-08-04",
-      "note": "截至查核日，台灣官方 exact-model 頁的 NT$26,900 為本輪可重現最低公開新品促銷價；未採會員個人化折扣、卡回饋或點數。"
+      "sourceTitle": "ECAM220.22.SB 官方商品頁",
+      "evidenceSnippet": "DeLonghi 台灣官方商城於 2026-09-05 顯示 ECAM220.22.SB 同型號新品公開價 NT$21,900 且可購，低於既有可驗證史低 NT$26,900；未套用紅利或個人優惠券。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-09-05",
+      "note": "採用官方商城同型號可購新品公開價格；不含會員個人化折扣、點數、信用卡回饋、加購、二手、福利、展示或拆封品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -553,9 +553,9 @@
     "name": "Philips 飛利浦 EP5547/90 LatteGo 雙溫萃取全自動義式咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 33900,
-      "converted": 33900,
-      "confidence": "台灣飛利浦家電官方網站 2026-08-04 exact-model 公開新品價；台灣公司貨／原廠通路"
+      "amount": 36900,
+      "converted": 36900,
+      "confidence": "EP5547/90 官方商品頁 2026-09-05 人工核對 exact-model 公開現價及可購狀態；非會員券、紅利或加購價"
     },
     "image": "https://images.philips.com/is/image/philipsconsumer/vrs_8236e6d7_84b6_4a40_a27587047fae427e?$pnglarge$",
     "buyUrl": "https://www.philips-da.com.tw/products/ep554790",
@@ -660,9 +660,9 @@
     "name": "De'Longhi ECAM290.43.SB Magnifica Evo 全自動義式咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 25900,
-      "converted": 25900,
-      "confidence": "De'Longhi Taiwan 官方網站 2026-08-04 exact-model 公開新品價；台灣公司貨／原廠通路"
+      "amount": 23900,
+      "converted": 23900,
+      "confidence": "ECAM290.43.SB 官方商品頁 2026-09-05 人工核對 exact-model 公開現價及可購狀態；非會員券、紅利或加購價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAT03A900GX8R8/000007_1700470715.jpg",
     "buyUrl": "https://www.idelonghi.com.tw/ja/products/ecam29043",
@@ -1302,9 +1302,9 @@
     "name": "1公升極致美味500 半自動義式咖啡機（不鏽鋼觸控式）",
     "price": {
       "currency": "TWD",
-      "amount": 7990,
-      "converted": 7990,
-      "confidence": "2026-08-31 人工核對 Electrolux 台灣官方 E5EC1-51ST 主商品售價 NT$7,990，頁面標示有現貨並可加到購物車；不採推薦區不同型號或福利品價格。",
+      "amount": 3990,
+      "converted": 3990,
+      "confidence": "E5EC1-51ST 官方商品頁 2026-09-05 人工核對 exact-model 公開現價及可購狀態；非會員券、紅利或加購價",
       "basis": "retailer_current"
     },
     "image": "https://www.electrolux.com.tw/globalassets/appliances/coffee-machine/e5ec1-51st/e5ec1-51st-fr-1500x1500.png?width=1200&height=630",
@@ -1411,9 +1411,9 @@
     "name": "Saeco 半自動義式咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 4990,
-      "converted": 4990,
-      "confidence": "Yahoo購物中心 2026-09-01 exact-model 公開結構化價格"
+      "amount": 4591,
+      "converted": 4591,
+      "confidence": "Yahoo購物中心 2026-09-05 exact-model 公開結構化價格"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/69fb8a2ae4-Gd-11322933.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Philips-%E9%A3%9B%E5%88%A9%E6%B5%A6-Saeco%E5%8D%8A%E8%87%AA%E5%8B%95%E7%BE%A9%E5%BC%8F%E5%92%96%E5%95%A1%E6%A9%9F-EMS5110-02-11322933.html",
@@ -1518,9 +1518,9 @@
     "name": "啡行家半自動義式咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 6490,
-      "converted": 6490,
-      "confidence": "De'Longhi 台灣品牌官方網站 2026-08-04 exact-model 公開新品價；台灣公司貨／原廠通路"
+      "amount": 5990,
+      "converted": 5990,
+      "confidence": "EM450.M 官方商品頁 2026-09-05 人工核對 exact-model 公開現價及可購狀態；非會員券、紅利或加購價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAT03A900J5HMT/000007_1755771859.jpg",
     "buyUrl": "https://www.stilusa.com.tw/zh-TW/products/em450m",
@@ -1947,9 +1947,9 @@
     "name": "3公升極致美味700 半自動義式咖啡機（珍珠黑）",
     "price": {
       "currency": "TWD",
-      "amount": 22900,
-      "converted": 22900,
-      "confidence": "伊萊克斯台灣官方 2026-08-04 exact-model 公開新品價；台灣公司貨／原廠通路"
+      "amount": 13900,
+      "converted": 13900,
+      "confidence": "E7EC1-610P 官方商品頁 2026-09-05 人工核對 exact-model 公開現價及可購狀態；非會員券、紅利或加購價"
     },
     "image": "https://www.electrolux.com.tw/globalassets/appliances/coffee-machine/e7ec1-610p/fr-e7ec1-610p-1500x1500.png?width=1200&height=630",
     "buyUrl": "https://www.electrolux.com.tw/appliances/coffee-machines/e7ec1-610p/",
@@ -2162,9 +2162,9 @@
     "name": "La Specialista Arte Evo 半自動義式咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 27900,
-      "converted": 27900,
-      "confidence": "De'Longhi 台灣總代理官方商城 2026-08-05 exact-model 結構化公開新品價與 InStock 狀態；PChome exact-model API 同價且 Qty 9"
+      "amount": 26900,
+      "converted": 26900,
+      "confidence": "EC9255M 官方商品頁 2026-09-05 人工核對 exact-model 公開現價及可購狀態；非會員券、紅利或加購價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAT03A900K4F0K/000007_1781601666.jpg",
     "buyUrl": "https://www.stilusa.com.tw/zh-TW/products/ec9255m",

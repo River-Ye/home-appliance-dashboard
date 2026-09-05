@@ -3928,9 +3928,9 @@
     "name": "49 型 Odyssey OLED G9 Dual QHD 240Hz 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 34900,
-      "converted": 34900,
-      "confidence": "PChome 2026-09-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 36900,
+      "converted": 36900,
+      "confidence": "PChome 2026-09-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900HZCPE/000001_1781766568.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900HZCPE",
@@ -4228,9 +4228,9 @@
     "name": "57 型 Odyssey Neo G9 Dual UHD 240Hz Mini LED 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 66500,
-      "converted": 66500,
-      "confidence": "PChome 2026-09-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 69900,
+      "converted": 69900,
+      "confidence": "PChome 2026-09-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900GQLSE/000001_1783054239.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900GQLSE",
@@ -5140,9 +5140,9 @@
     "name": "27 型 4K 內建校色器專業色彩管理螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 59888,
-      "converted": 59888,
-      "confidence": "2026-08-31 人工核對 momo 品號15221341，BenQ PD2770U 公開促銷價 NT$59,888；頁面載入完成後可直接購買或放入購物車。未扣贈品、mo點或信用卡回饋。",
+      "amount": 56893,
+      "converted": 56893,
+      "confidence": "www.momoshop.com.tw 2026-09-05 人工核對 exact-model 公開單件價及可購狀態；非會員券、紅利或加購價",
       "basis": "retailer_current"
     },
     "image": "https://image.benq.com/is/image/benqco/1pd2770u-front-hood-hotkey-2?$ResponsivePreset$",

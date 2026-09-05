@@ -414,8 +414,8 @@
     "name": "BRAVIA 9 II 65 型 RGB LED 4K Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 110533,
-      "converted": 110533,
+      "amount": 108323,
+      "converted": 108323,
       "confidence": "Yahoo購物中心 2026-09-05 exact-model 公開結構化價格"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/F326F9F0C5-SP-23019953.jpg",

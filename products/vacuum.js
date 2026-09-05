@@ -1266,9 +1266,9 @@
     "name": "正負零 XJC-Y011 無線手持吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 3990,
-      "converted": 3990,
-      "confidence": "正負零台灣官網 2026-07-14 頁面查核價"
+      "amount": 2990,
+      "converted": 2990,
+      "confidence": "XJC-Y011 官方商品頁 2026-09-05 人工核對 exact-model 公開現價及可購狀態；非會員券、紅利或加購價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBE1AA900J8H81/000001_1757576197.jpg",
     "buyUrl": "https://plusminuszero.com.tw/shop-d.php?Key=1&W=Index",
@@ -2728,9 +2728,9 @@
     "name": "F25 ACE Pro 石沫吸泡沫洗地機",
     "price": {
       "currency": "TWD",
-      "amount": 14888,
-      "converted": 14888,
-      "confidence": "Roborock 台灣官網 2026-08-26 exact-model Shopify SKU WD5M14A 公開價；available=true 且可立即購買",
+      "amount": 14999,
+      "converted": 14999,
+      "confidence": "WD5M14A 官方商品頁 2026-09-05 人工核對 exact-model 公開現價及可購狀態；非會員券、紅利或加購價",
       "basis": "retailer_current"
     },
     "image": "https://taiwan.roborock.com/cdn/shop/files/F25_ACE_Pro_1_1200x1200.jpg?v=1787311249",
