@@ -2128,13 +2128,13 @@
     "name": "Circle Reverse Osmosis Water Filtration System",
     "price": {
       "currency": "USD",
-      "amount": 289.99,
-      "converted": 9189,
-      "confidence": "Costco US 2026-08-28 exact-model 分類頁折後公開價；ExchangeRate-API 2026-09-04 匯率換算"
+      "amount": 359.99,
+      "converted": 11386,
+      "confidence": "Brondell US 官方 2026-09-05 exact-model 公開特價；ExchangeRate-API 2026-09-05 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/4xjr3phfqx7p9vvxzfhp3jp/100457228-847_chrome_1?auto=webp&format=jpg",
-    "buyUrl": "https://www.costco.com/p/-/brondell-circle-reverse-osmosis-water-filtration-system/100457228",
-    "buyLabel": "Costco US",
+    "buyUrl": "https://www.brondell.com/circle-reverse-osmosis-water-filter-system/",
+    "buyLabel": "Brondell US 官方",
     "specs": [
       "廚下/櫥下 RO 淨水系統",
       "Reverse Osmosis",
@@ -2142,22 +2142,22 @@
       "Costco US 2,606 則評論",
       "海外購買需確認耗材、尺寸與安裝規格"
     ],
-    "description": "台灣 Costco 目前未找到符合櫥下 RO 條件的新品頁，故補入 Costco US 上評論量高的 Brondell Circle 作海外比較。",
+    "description": "台灣通路目前未找到符合櫥下 RO 條件的新品頁，故補入 Brondell US 官方現售 Circle 作海外比較；Costco US 評論量另供口碑參考。",
     "pros": [
-      "Costco US 評論量高",
+      "Brondell US 官方 exact-model 可購，Costco US 評論量高",
       "符合櫥下 RO 淨水分類，不是桌上型或濾心耗材"
     ],
     "cons": [
       "未含國際運費、進口稅與台灣保固",
       "美規耗材、龍頭孔徑與安裝尺寸需自行確認"
     ],
-    "bestFor": "願意承擔海外採購與安裝確認，想比較 Costco RO 系統價格的人。",
-    "recommendation": "好市多海外補充：Brondell Circle 是 Costco US 高評論 RO 淨水系統，可作為台灣櫥下飲水機候選的海外參考。",
+    "bestFor": "願意承擔海外採購與安裝確認，想比較美國 RO 系統價格的人。",
+    "recommendation": "Brondell 海外補充：Circle 是官方現售且在 Costco US 有高評論量的 RO 淨水系統，可作為台灣櫥下飲水機候選的海外參考。",
     "score": 84,
     "voltage": "RO 淨水系統通常無主要電壓需求；仍需確認美規安裝與耗材",
-    "warranty": "Costco US / 海外通路，可能無台灣保固",
+    "warranty": "Brondell US 官方 / 海外通路，可能無台灣保固",
     "tags": [
-      "Costco US",
+      "Brondell US",
       "RO",
       "櫥下"
     ],
@@ -2166,14 +2166,14 @@
       "status": "found",
       "amount": 289.99,
       "currency": "USD",
-      "converted": 9189,
+      "converted": 9172,
       "sourceUrl": "https://www.costco.com/CategoryDisplay?catalogId=10701&identifier=water-dispensers-filtration-water-filtration&storeId=10301",
       "sourceTitle": "Costco US：Brondell Circle Reverse Osmosis Water Filtration System",
       "evidenceSnippet": "Costco US exact-model 分類頁於 2026-08-28 顯示 Brondell Circle 折後 US$289.99，原價 US$369.99，優惠 US$80。",
       "sourceKind": "retailer_promo",
       "confidence": "medium",
       "checkedAt": "2026-08-28",
-      "note": "採 Costco US 公開 exact-model 折價作為本次可重現最低觀測價；未含國際運費、進口稅、耗材與台灣安裝／保固風險；依 2026-09-04 USD/TWD 匯率換算。"
+      "note": "採 Costco US 公開 exact-model 折價作為本次可重現最低觀測價；未含國際運費、進口稅、耗材與台灣安裝／保固風險；依 2026-09-05 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "common_issue",

@@ -406,15 +406,15 @@
       "amount": 899,
       "converted": 899,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 Chrome 原頁核對所選台灣新品版本公開售價；不扣會員、信用卡、點數或加購優惠。"
+      "confidence": "良興 EcLife 2026-09-05 exact-model 新品公開價；不扣會員、信用卡、點數或加購優惠。"
     },
     "installation": {
       "status": "not_stated",
       "note": "成品滑鼠墊，無固定配線或到府安裝；桌面空間與滑鼠感測相容性需自行確認。"
     },
     "image": "https://store.logitech.tw/cdn/shop/products/g640-454660.jpg?v=1729179250&width=1220",
-    "buyUrl": "https://store.logitech.tw/collections/%E9%81%8A%E6%88%B2%E6%BB%91%E9%BC%A0%E5%A2%8A/products/g640",
-    "buyLabel": "Logitech 台灣官方商城",
+    "buyUrl": "https://www.eclife.com.tw/keyboard/moreinfo_208256.htm",
+    "buyLabel": "良興 EcLife exact-model 新品公開價",
     "specs": [
       "類型：布面滑鼠墊；G640 943-000802",
       "表面材質：布面",
@@ -477,7 +477,7 @@
     },
     "score": 90,
     "voltage": "不需供電；被動式滑鼠墊。",
-    "warranty": "台灣羅技官方商城新品，一年有限硬體保固；正常磨耗、污損等受保範圍依原廠條款確認。",
+    "warranty": "良興 EcLife 台灣新品；保固一年內可由通路代辦送修，正常磨耗、污損等受保範圍依原廠條款確認。",
     "tags": [
       "電競推薦",
       "辦公",
