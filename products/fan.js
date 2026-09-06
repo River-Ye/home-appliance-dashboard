@@ -1074,9 +1074,9 @@
     "name": "16 吋 DC 節能直流馬達立扇",
     "price": {
       "currency": "TWD",
-      "amount": 2961,
-      "converted": 2961,
-      "confidence": "momo購物 2026-07-11 頁面查核價"
+      "amount": 3290,
+      "converted": 3290,
+      "confidence": "www.momoshop.com.tw 2026-09-06 exact-model 公開新品價人工覆核"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABPEA900JZZ0Q/000001_1778477239.jpg",
     "buyUrl": "https://www.momoshop.com.tw/TP/TP0001524/goodsDetail/TP00015240000436",

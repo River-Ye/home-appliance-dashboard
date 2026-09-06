@@ -848,9 +848,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/826F52E782-SP-22137065.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 34022,
-      "converted": 34022,
-      "confidence": "momo購物網 2026-07-18 UTC 商品頁公開現貨價"
+      "amount": 31990,
+      "converted": 31990,
+      "confidence": "www.momoshop.com.tw 2026-09-06 exact-model 公開新品價人工覆核"
     },
     "channel": "tw",
     "buyLabel": "momo購物",
@@ -892,16 +892,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 32172,
+      "amount": 31990,
       "currency": "TWD",
-      "converted": 32172,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1130764808&cgp=34021",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【HITACHI 日立】10KG 日製變頻直立洗脫烘洗衣機(BWDV100EJ-N)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【HITACHI 日立】10KG 日製變頻直立洗脫烘洗衣機(BWDV100EJ-N)」最低價為 NT$32,172，最低點日期 2025-05-10。",
-      "sourceKind": "price_history",
+      "converted": 31990,
+      "sourceUrl": "https://www.momoshop.com.tw/TP/TP0006837/goodsDetail/TP00068370000303",
+      "sourceTitle": "【HITACHI 日立】日製10/5.5kg直立式洗脫烘變頻洗衣機 BWDV100EJ - 含基本安裝+舊機回收",
+      "evidenceSnippet": "2026-09-06 原始商品頁明示 BWDV100EJ 新品促銷價 NT$31,990，可直接購買；低於既有可驗證史低，排除會員券、點數及信用卡回饋。",
+      "sourceKind": "retailer_page",
       "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-09-06",
+      "note": "2026-09-06 人工核對 momo exact-model 公開新品價 NT$31,990，低於先前已驗證的 NT$32,172；採本輪可重現的新低觀察，不計個人券、信用卡回饋或點數。"
     },
     "issueResearch": {
       "status": "no_common_issue",

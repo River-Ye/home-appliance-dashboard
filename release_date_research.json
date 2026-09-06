@@ -1,13 +1,13 @@
 {
   "summary": {
-    "checkedAt": "2026-09-05T13:22:12.370Z",
-    "total": 1134,
-    "researchedThisRun": 1,
-    "found": 335,
-    "missing": 799,
+    "checkedAt": "2026-09-06T02:25:50.185Z",
+    "total": 1139,
+    "researchedThisRun": 5,
+    "found": 337,
+    "missing": 802,
     "byConfidence": {
-      "official": 185,
-      "not_found": 796,
+      "official": 187,
+      "not_found": 799,
       "retailer_explicit": 22,
       "credible_article": 52,
       "high": 60,
@@ -34827,6 +34827,169 @@
       "note": "官方現售頁與發表內容未提供可採用的明確發售日期；官方2026-04-15影片仍邀請登記開賣通知，不能把影片日期當上市日。沒有採用頁面上架、PDF日期或第三方文章發布日。",
       "sourceKind": "not_found",
       "reason": "官方現售頁與發表內容未提供可採用的明確發售日期；官方2026-04-15影片仍邀請登記開賣通知，不能把影片日期當上市日。沒有採用頁面上架、PDF日期或第三方文章發布日。"
+    },
+    {
+      "id": "refrigerator-mitsubishi-mr-wz54n",
+      "category": "refrigerator",
+      "brand": "Mitsubishi Electric",
+      "model": "MR-WZ54N",
+      "name": "543L SMART AI 日製六門玻璃鏡面變頻冰箱（星光白 MR-WZ54N-W-C）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"Mitsubishi Electric MR-WZ54N\" (release OR launch OR 上市 OR 發售)",
+      "sourceKind": "not_found_after_full_recheck",
+      "reason": "官方新品頁與型錄未載明 exact-model 上市日期。遠百原頁明寫8月新品上市，但未附年份；不把202608型錄月份、2027能效新制、搜尋抓取時間、商品上架或促銷日補成年月。",
+      "checkedAt": "2026-09-06",
+      "auditDisposition": "confirmed_not_found",
+      "auditQueries": [
+        "site:mitsubishielectric.com.tw \"MR-WZ54N\" 上市",
+        "\"MR-WZ54N\" \"2026\" \"上市\""
+      ],
+      "checkedSources": [
+        {
+          "url": "https://www.mitsubishielectric.com.tw/home/refrigerator/PRODUCT_MR_WZ54N.html",
+          "title": "三菱電機 MR-WZ54N 官方產品頁",
+          "outcome": "明示全新設計與規格，沒有明確上市年月日。"
+        },
+        {
+          "url": "https://www.mitsubishielectric.com.tw/home/refrigerator/assets/Mitsubishi_Fridge_202608.pdf",
+          "title": "三菱電機冰箱202608型錄",
+          "outcome": "實看印刷頁20列NEW MR-WZ54N，頁尾2026年08月為型錄月份，不能作上市日期。"
+        },
+        {
+          "url": "https://cdn.feds.com.tw/tw/53/Shop/Detail/182146",
+          "title": "遠百 MR-WZ54N 543L",
+          "outcome": "明示8月新品上市但未附年份，不擅自補成年月。"
+        },
+        {
+          "url": "https://24h.pchome.com.tw/prod/DPAC34-A900KEBDC",
+          "title": "PChome MR-WZ54N-W-C 星光白",
+          "outcome": "新品現售與促銷資訊可確認，未取得明確上市日期。"
+        }
+      ]
+    },
+    {
+      "id": "monitor-asus-xg27acsr",
+      "category": "monitor",
+      "brand": "ASUS",
+      "model": "XG27ACSR",
+      "name": "ROG Strix XG27ACS Gen2 27 型 QHD 220Hz Fast IPS 電競螢幕（黑色）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found_after_full_recheck",
+      "query": "site:asus.com \"XG27ACSR\" (launch OR release OR 上市)",
+      "auditQueries": [
+        "site:asus.com \"XG27ACSR\" (launch OR release OR 上市)",
+        "\"XG27ACSR\" \"上市\" \"2026\""
+      ],
+      "reason": "台灣官方產品／規格頁沒有明確上市年月；原價屋 2026-07-13 文章明示黑白同步上市，但未另明定上市日期。依契約不把文章發布日、促銷日或相近舊款上市日當成 exact-model 上市日。",
+      "checkedAt": "2026-09-06",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://rog.asus.com/tw/monitors/27-to-31-5-inches/rog-strix-xg27acs-gen2-xg27acsr/spec/",
+          "title": "ROG 台灣 XG27ACS Gen2 規格",
+          "outcome": "確認 XG27ACSR 為 Gen2，未載上市日期"
+        },
+        {
+          "url": "https://www.coolpc.com.tw/tw/shop/monitor/rog-strix-xg27acsr-rog-strix-xg27acsr-w/",
+          "title": "原價屋上市優惠",
+          "outcome": "2026-07-13 為文章時間；未將其推定為上市日"
+        }
+      ]
+    },
+    {
+      "id": "wifi-unifi-u7-pro-xg",
+      "category": "wifi",
+      "brand": "Ubiquiti",
+      "model": "U7 Pro XG",
+      "name": "UniFi 三頻 Wi-Fi 7 10GbE 管理型 AP（黑色 U7-Pro-XG-B）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found_after_full_recheck",
+      "query": "\"U7-Pro-XG-B\" (release OR launch OR 上市 OR 發售)",
+      "auditQueries": [
+        "\"U7-Pro-XG-B\" (release OR launch OR 上市 OR 發售)",
+        "site:ui.com \"U7 Pro XG\" launch"
+      ],
+      "reason": "已讀官方 Introducing U7 Pro XG 公告與台灣 SKU 頁，但未取得台灣黑色 U7-Pro-XG-B 的明確上市年月；不把白色／全球發表日、Network 軟體最低版本或庫存日期套到黑色 SKU。",
+      "checkedAt": "2026-09-06",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.reddit.com/r/Ubiquiti/comments/1j8tn9u/introducing_u7_pro_xg_access_points_with_105251/",
+          "title": "Ubiquiti-Inc Introducing U7 Pro XG",
+          "outcome": "官方帳號介紹機型，但未明載本次台灣黑色 SKU 發售日期"
+        },
+        {
+          "url": "https://tw.store.ui.com/tw/zh-tw/products/u7-pro-xg?variant=u7-pro-xg-b",
+          "title": "台灣黑色 U7-Pro-XG-B 新品",
+          "outcome": "現售 SKU 頁未明列上市日期"
+        }
+      ]
+    },
+    {
+      "id": "chair-razer-iskur-v2-newgen",
+      "category": "chair",
+      "brand": "Razer",
+      "model": "Iskur V2 NewGen",
+      "name": "Iskur V2 NewGen 人體工學電競椅（黑色 RZ38-04900800-R3CA）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2026",
+      "sourceUrl": "https://www.razer.com/newsroom/featured/iskur-v2-most-used-gaming-chair-by-esports-pros",
+      "sourceTitle": "Razer Newsroom — Iskur V2 與 NewGen 新旗艦",
+      "evidenceSnippet": "Razer 官方新聞明確表示於 2026 年擴充椅款產品線，加入新旗艦 Iskur V2 NewGen，並於結尾稱其 launch。",
+      "confidence": "official",
+      "sourceKind": "official_news",
+      "query": "site:razer.com \"Iskur V2 NewGen\" launch 2026",
+      "auditQueries": [
+        "site:razer.com \"Iskur V2 NewGen\" launch 2026",
+        "\"Iskur V2 NewGen\" 台灣 上市"
+      ],
+      "reason": "採官方明載的 2026 年新款推出資訊；不把文章 4 月 7 日或 CES 預購 1 月 6 日當 exact 發售日，也不擅自補月份。這是機型全球上市年份，不宣稱黑色台灣 SKU 確切上市日。",
+      "checkedAt": "2026-09-06",
+      "auditDisposition": "new_found",
+      "checkedSources": [
+        {
+          "url": "https://www.razer.com/newsroom/featured/iskur-v2-most-used-gaming-chair-by-esports-pros",
+          "title": "Razer 官方 2026 年 NewGen launch 敘述",
+          "outcome": "官方明示型號與 2026 年擴充推出"
+        },
+        {
+          "url": "https://www.razer.com/newsroom/company-news/razer-at-ces-2026",
+          "title": "Razer CES 2026",
+          "outcome": "1 月 6 日資訊含預購，沒有套為上市日"
+        }
+      ]
+    },
+    {
+      "id": "soundbar-bose-lifestyle-ultra",
+      "category": "soundbar",
+      "brand": "Bose",
+      "model": "Lifestyle Ultra Soundbar",
+      "name": "LifeStyle Ultra Soundbar 家庭娛樂揚聲器（黑色單機）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2026-05-15",
+      "sourceUrl": "https://www.bose.com/pressroom/bose-lifestyle-collection",
+      "sourceTitle": "Bose Reimagines Home Audio with New Lifestyle Collection",
+      "evidenceSnippet": "Bose官方2026年5月5日新聞稿明示Lifestyle Collection將於5月15日開售，Soundbar售價US$1,099。",
+      "confidence": "official",
+      "query": "site:bose.com \"Lifestyle Ultra Soundbar\" \"May 15\"",
+      "sourceKind": "official_announcement",
+      "reason": "採品牌官方明確開售日期，代表海外首發，不宣稱台灣上市日期。",
+      "checkedAt": "2026-09-06"
     }
   ]
 }

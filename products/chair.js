@@ -2629,6 +2629,105 @@
         }
       ]
     }
+  },
+  {
+    "id": "chair-razer-iskur-v2-newgen",
+    "category": "chair",
+    "rank": 31,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Razer",
+    "model": "Iskur V2 NewGen",
+    "name": "Iskur V2 NewGen 人體工學電競椅（黑色 RZ38-04900800-R3CA）",
+    "price": {
+      "currency": "TWD",
+      "amount": 20990,
+      "converted": 20990,
+      "basis": "retailer_current",
+      "confidence": "PCPARTY 2026-09-06 exact 黑色自行安裝版公開價 NT$20,990；頁面黑色選项 quantity 5、價格 20,990；未扣券、回饋或贈品價值"
+    },
+    "image": "https://img.shoplineapp.com/media/image_clips/698440eaaf86b2249a0dc975/original.jpg?1770275049=&owner_id=58463ef36170691735790100",
+    "buyUrl": "https://www.pcparty.com.tw/products/razer-iskur-v2-newgen-gaming-chair",
+    "buyLabel": "PCPARTY",
+    "installation": {
+      "status": "excluded",
+      "note": "此價格為黑色完整電競椅自行安裝版；需自行組裝。樓層搬運、特殊地區配送與到府安裝費用須向通路另行確認。"
+    },
+    "specs": [
+      "類型：Iskur V2 NewGen 完整電競椅；黑色料號 RZ38-04900800-R3CA（非 V2 X NewGen）",
+      "使用者：建議身高 160–200 cm；最大承重 136 kg",
+      "表面／坐墊：第 2 代 Razer EPU 皮革與 CoolTouch 技術；雙密度冷固化泡棉",
+      "腰部支撐：Razer HyperFlex 動態腰靠，可調高低與前後；記憶泡棉頭枕",
+      "扶手／傾斜：4D 扶手；最大後躺 152°、多段傾斜機構",
+      "框架／腳輪：鋼製框架、5 爪粉烤鋼製基座、6 cm PU 腳輪、4 級氣壓棒",
+      "座墊：深 45 cm；寬 40 cm、含兩側 53 cm；靠背高 85 × 寬 54 cm",
+      "整體約略尺寸：寬 68 × 長 70 × 高 130–140 cm（依通路原軸序）",
+      "重量：27.6 kg；此為商品重量，未使用 88×69×37 cm 包裝尺寸",
+      "隨附：記憶泡棉頭枕與自行組裝所需椅身組件；贈品依通路活動，不折抵參考價"
+    ],
+    "description": "Iskur V2 的 NewGen 直接後繼款保留動態腰靠與 4D 扶手，改用第 2 代 EPU 皮革和雙密度冷固化泡棉。完整椅身採黑色台灣公司貨自行安裝版本，久坐舒適度仍應親自試坐。",
+    "pros": [
+      "腰靠可隨姿勢動作並細調高低／前後",
+      "4D 扶手與 152° 後躺，調整項目完整",
+      "台灣可信新品通路與 3 年保固資訊"
+    ],
+    "cons": [
+      "27.6 kg 搬運與組裝需預留空間",
+      "皮革體感及腰靠適配因人而異，應先試坐",
+      "新款長期使用者回報仍少"
+    ],
+    "bestFor": "希望使用動態腰靠、可調扶手並接受皮革坐感的工作與遊戲使用者。",
+    "recommendation": "NewGen更新表面材料與坐墊，可與Iskur V2比較試坐；先確認身形、座深、桌下扶手高度與組裝條件。",
+    "score": 87,
+    "voltage": "非電器，無需供電",
+    "warranty": "台灣PCPARTY exact-model 頁明列3年保固並連至捷元在地售後；正常磨耗與人為損壞依原廠條款",
+    "tags": [
+      "電競椅",
+      "動態腰靠",
+      "4D 扶手",
+      "136kg",
+      "NewGen"
+    ],
+    "releaseDate": "2026",
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-09-06",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"Iskur V2 NewGen\" (問題 OR 故障 OR 缺點 OR 心得)",
+          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22Iskur%20V2%20NewGen%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%BC%BA%E9%BB%9E%20OR%20%E5%BF%83%E5%BE%97)"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"Iskur V2 NewGen\" (problem OR issue OR defect OR failure OR uncomfortable)",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22Iskur%20V2%20NewGen%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20uncomfortable)"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"Iskur V2 NewGen\"",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22Iskur%20V2%20NewGen%22"
+        }
+      ]
+    },
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-09-06",
+      "note": "已查黑色 RZ38-04900800-R3CA／Iskur V2 NewGen 的歷史價搜尋、飛比與 FindPrice，再核對 PCPARTY 公開現價；比價索引中的 20,920–20,990 為當下不同通路／顏色報價，沒有可信附日期的歷史最低原頁。排除較便宜的 V2 X NewGen、原 V2、贈品價值與個人折扣，不把 20,990 現價推作史低。"
+    }
   }
 ]);
 })();

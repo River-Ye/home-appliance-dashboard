@@ -1420,7 +1420,7 @@ async function main() {
     checkedAt: "2026-09-01",
   });
   assert(
-    beddingJapaneseReview.every((review) => review.reason.includes("Chrome 人工逐項檢視")),
+    beddingJapaneseReview.every((review) => review.reason.includes("人工逐項檢視")),
     "bedding Japanese-brand rows must use the manual catalog-review basis rather than a default no-line conclusion",
   );
   for (const id of ["dishwasher", "robot"]) assert(
@@ -3065,6 +3065,10 @@ async function main() {
   assert(queryTargetsWebsite(insiderQuery), "Razer Insider must count as the Razer website");
   assert(!queryTargetsWebsite({ ...insiderQuery, targetHost: "mobile01.com" }), "Razer Insider cannot claim a different target website");
   assert(!queryTargetsWebsite({ ...insiderQuery, query: 'site:insider.razer.com.evil.example "RZ01-04000100-R3M1"' }), "deceptive Insider host must not count");
+  const ubiquitiQuery = { platform: "Ubiquiti Community", targetHost: "community.ui.com", query: 'site:community.ui.com "U7 Pro XG"', queryUrl: "https://www.google.com/search?q=site%3Acommunity.ui.com%20%22U7%20Pro%20XG%22" };
+  assert(queryTargetsWebsite(ubiquitiQuery), "Ubiquiti Community must count as the Ubiquiti website");
+  assert(!queryTargetsWebsite({ ...ubiquitiQuery, targetHost: "reddit.com" }), "Ubiquiti Community cannot claim a different target website");
+  assert(!queryTargetsWebsite({ ...ubiquitiQuery, query: 'site:community.ui.com.evil.example "U7 Pro XG"' }), "deceptive Ubiquiti host must not count");
   assert(queryUrlMatchesRecord(youtubeQuery), "a YouTube search URL should reproduce search_query");
   assert(queryUrlMatchesRecord({
     query: youtubeQuery.query,

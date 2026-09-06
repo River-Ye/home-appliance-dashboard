@@ -446,9 +446,9 @@
     "name": "Philips 飛利浦 EP3347/84 LatteGo 雙溫萃取全自動義式咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 26400,
-      "converted": 26400,
-      "confidence": "全國電子｜台灣公司貨新品 2026-08-04 exact-model 公開新品價；台灣公司貨／原廠通路"
+      "amount": 25900,
+      "converted": 25900,
+      "confidence": "www.elifemall.com.tw 2026-09-06 exact-model 公開新品價人工覆核"
     },
     "image": "https://images.philips.com/is/image/philipsconsumer/vrs_635dc934_7995_4bd3_9be963f05e9b68b4?$pnglarge$",
     "buyUrl": "https://www.elifemall.com.tw/product/2149579",

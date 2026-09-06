@@ -39,6 +39,7 @@ const EXPLICIT_DISCONTINUATION_PATTERNS = [
 ];
 
 const REVIEWED_PCHOME_BINDINGS = new Map([
+  ["refrigerator-mitsubishi-mr-wz54n", "DPAC34-A900KEBDC"],
   ["blender-extra-8-dmay0g-a900agmd8", "DMAY0G-A900AGMD8"],
   ["blender-extra-9-qbao0f-a900as2dj", "QBAO0F-A900AS2DJ"],
   ["blender-extra-16-dmay01a900gfjco", "DMAY01-A900GFJCO"],

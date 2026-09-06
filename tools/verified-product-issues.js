@@ -1,7 +1,7 @@
 const reportLedger = require("../product_issue_report_evidence.json");
 const { canonicalWebsite, normalize } = require("./product-issue-validation");
 
-const CHECKED_AT = "2026-09-05";
+const CHECKED_AT = "2026-09-06";
 const DEFAULT_EVIDENCE_CHECKED_AT = "2026-08-29";
 const REVIEW_DATE_PATTERN = /^\d{4}-\d{2}-\d{2}$/;
 
@@ -12,6 +12,38 @@ function isValidReviewDate(value) {
 }
 
 const verifiedRows = [
+{
+  "id": "wifi-unifi-u7-pro-xg",
+  "checkedAt": "2026-09-06",
+  "summary": "六位 U7 Pro XG 使用者跨兩個原始網站回報：部分 2.5GbE 連線組合會丟包、斷線或速度崩落，固定 1GbE 後改善。",
+  "title": "2.5GbE 上行在部分組合丟包或中斷，固定 1GbE 後改善",
+  "detail": "已逐人核對 Community 五位及 Reddit 一位独立作者；排除 XGS、相近機種與跨站轉貼。部分其他使用者在 2.5GbE 正常，換線、降發射功率或韌體更新的改善也不一致，尚不能認定通用根因或全數已修復。採購時核對 PoE 與線材，並在退換貨期測試實際 2.5GbE 交換器、持續傳輸和漫遊；若必須固定 1GbE，需接受上行受限。",
+  "reportCount": 6,
+  "sources": [
+    {
+      "platform": "Ubiquiti Community",
+      "title": "U7 Pro XG issues with speed set to 2.5GbE",
+      "url": "https://community.ui.com/questions/U7-Pro-XG-issues-with-speed-set-to-2-5GbE/af53b148-b666-4239-a2e0-6a2ec989a1f2",
+      "authors": [
+        "Network_Guru",
+        "e.ts",
+        "mikemcd",
+        "morini3andahalf",
+        "fidecastro"
+      ],
+      "evidenceSnippet": "五位具名 XG 作者各自回報 2.5G 上行異常與 1G 改善，設備及韌體各異。"
+    },
+    {
+      "platform": "Reddit",
+      "title": "In case anyone else has this issue - U7 Pro XG and 6ghz connection issues on 2.5gbps uplink",
+      "url": "https://www.reddit.com/r/UNIFI/comments/1jq2p81/in_case_anyone_else_has_this_issue_u7_pro_xg_and/",
+      "authors": [
+        "dpgator33"
+      ],
+      "evidenceSnippet": "一位 XG 作者以同一 AP 改接 1G 埠後，本地流量恢復；XGS 作者排除。"
+    }
+  ]
+},
   {
     "id": "mouse-logitech-mx-vertical",
     "checkedAt": "2026-08-31",

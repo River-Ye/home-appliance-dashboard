@@ -68,6 +68,7 @@ function queryTargetsWebsite(query) {
     ["ptt", "ptt.cc"],
     ["reddit", "reddit.com"],
     ["razer insider", "razer.com"],
+    ["ubiquiti community", "ui.com"],
     ["youtube", "youtube.com"],
   ]);
   const expected = expectedByPlatform.get(normalize(query?.platform));

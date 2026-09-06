@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02",
+  "generatedAt": "2026-09-06",
   "sourcePolicy": "本站共 21 類尺寸、13 類重量研究，尺寸涵蓋 電視、Soundbar、冷氣、洗衣機、烘衣機、洗烘衣機(多功能型)、電子衣櫥（衣物護理機）、床包、棉被、枕頭、冰箱、咖啡機、多功能氣炸烤箱／微波爐、洗碗機、熱水器、免治馬桶、網路交換器、螢幕燈、滑鼠、鍵盤、滑鼠墊。優先採 exact-model／相同版本的官方產品頁、官方規格表或官方 PDF，其次為可信新品通路。只採本體／機身／明確組件的尺寸與淨重，排除包裝、外箱尺寸與毛重；來源沒有明示軸序時不自行推定。既有家電與床包、棉被、枕頭維持 cm／kg，滑鼠、鍵盤與滑鼠墊使用 mm／g 並保留來源軸序。滑鼠墊厚度、床包可包覆高度另列；棉被的填充重量與整件淨重分開記錄。冷氣分列室內機與室外機，熱泵複合熱水器分列主機與儲槽。generatedAt 為最新證據批次日期，既有逐筆 checkedAt 與 weightCheckedAt 保留原查核日期，不表示重新查核。",
   "results": [
     {
@@ -9661,6 +9661,33 @@
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
       "weightCheckedAt": "2026-09-02"
+    },
+    {
+      "id": "refrigerator-mitsubishi-mr-wz54n",
+      "dimension": "尺寸：寬 65 x 深 69.9 x 高 183.3 cm",
+      "sourceUrl": "https://www.mitsubishielectric.com.tw/home/refrigerator/assets/Mitsubishi_Fridge_202608.pdf",
+      "sourceTitle": "三菱電機冰箱202608官方型錄，印刷頁20／PDF第11頁",
+      "evidenceSnippet": "MR-WZ54N欄明載寬650×深699×高1833(mm)、重量117kg；另列含腳架深709mm，未將裝設深度當機身尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-09-06"
+    },
+    {
+      "id": "soundbar-bose-lifestyle-ultra",
+      "dimension": "尺寸：主機 寬 109.94 x 深 12.5 x 高 6.73 cm",
+      "sourceUrl": "https://www.bose.co.jp/p/home-theater/bose-lifestyle-ultra-soundbar/LSULT-SOUNDBAR.html?dwvar_LSULT-SOUNDBAR_color=BLACK",
+      "sourceTitle": "Bose Lifestyle Ultra Soundbar 日本官方規格（黑色）",
+      "evidenceSnippet": "官方Speaker列高6.73cm、寬109.94cm、深12.5cm及6.5kg。另列Entire Product System的6.69kg，組合定義不同，本筆只採主機Speaker。台灣Yahoo頁誤列舊Smart Ultra尺寸，不採用。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-09-06",
+      "weight": "重量：主機 6.5 kg",
+      "weightSourceUrl": "https://www.bose.co.jp/p/home-theater/bose-lifestyle-ultra-soundbar/LSULT-SOUNDBAR.html?dwvar_LSULT-SOUNDBAR_color=BLACK",
+      "weightSourceTitle": "Bose Lifestyle Ultra Soundbar 日本官方主機淨重",
+      "weightEvidenceSnippet": "官方Speaker尺寸／重量欄列6.5kg；不採Entire Product System的6.69kg或舊Smart Ultra的5.75kg。",
+      "weightConfidence": "high",
+      "weightIsOfficialSource": true,
+      "weightCheckedAt": "2026-09-06"
     }
   ]
 }

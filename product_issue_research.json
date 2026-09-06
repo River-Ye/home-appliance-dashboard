@@ -1,11 +1,11 @@
 {
   "summary": {
-    "checkedAt": "2026-09-05T13:22:12.370Z",
-    "total": 1134,
-    "commonIssueProducts": 51,
-    "noCommonIssueProducts": 1083,
+    "checkedAt": "2026-09-06T00:00:00+08:00",
+    "total": 1139,
+    "commonIssueProducts": 52,
+    "noCommonIssueProducts": 1087,
     "pendingManualReview": 0,
-    "commonIssues": 52,
+    "commonIssues": 53,
     "searchUnavailable": 616,
     "threshold": {
       "minimumDistinctUsers": 6,
@@ -21,9 +21,11 @@
       "2026-09-01 對 1125 款執行 Yahoo exact-model 新候選發現；本輪 1010 款搜尋回應不可用，未以失敗結果自動改判。唯一新增候選為 Dyson V12s Detect Slim Submarine 的 PTT 頁，連同既有 Mobile01 候選逐頁人工覆核後仍未達同一問題 6 人／2 個原始網站門檻；其餘既有人工決策與真實覆核日期原樣保留，不宣稱全部原頁同日重讀。",
       "2026-09-02 增量加入 ASUS RT-BE86U；逐頁核對 Reddit、ASUS ZenTalk 與 Whirlpool 共 7 位可辨識 exact-model 第一人稱回報，成立一項特定韌體下 Wi-Fi 反覆斷線或無線電重啟的 common_issue。",
       "2026-09-02 增量加入 Dreame Aqua 10 Pro Track；人工覆核 Reddit、Dcard、PTT 與 Mobile01 exact-model 候選。Reddit 同題最高為單站約 5 位清潔液盒偵測個案，Dcard 的 SPC 黑印為另一個單一案例，未達同一問題 6 人且跨 2 個原始網站門檻。",
-      "2026-09-02 新世代批次逐頁人工覆核 Y-65XR70M2、QA65S90HAEXZW、65U7Q、HT-A8、HT-S60 與 PV-XH4Q；搜尋候選均保存原頁處置，六款皆未達同一問題 6 位獨立使用者且跨 2 個原始網站門檻。"
+      "2026-09-02 新世代批次逐頁人工覆核 Y-65XR70M2、QA65S90HAEXZW、65U7Q、HT-A8、HT-S60 與 PV-XH4Q；搜尋候選均保存原頁處置，六款皆未達同一問題 6 位獨立使用者且跨 2 個原始網站門檻。",
+      "2026-09-06 增量加入 Mitsubishi Electric MR-WZ54N；人工覆核 Mobile01/PTT exact-model 搜尋及 momo 原頁，未達6人／2站門檻。原1134筆商品逐型負評決策及真實覆核日期保留，不表示本轮全部重新閱讀原始評價。",
+      "2026-09-06 本輪僅對新增的 MR-WZ54N、XG27ACSR、U7 Pro XG、Iskur V2 NewGen、Lifestyle Ultra Soundbar 完成逐型號跨站負評覆核；既有商品逐筆查核日期維持原值。U7 Pro XG 有六名作者、兩個原始網站的同症狀回報，Bose不同症狀分開計數未達門檻。"
     ],
-    "researchedThisRun": 1
+    "researchedThisRun": 5
   },
   "results": [
     {
@@ -192407,6 +192409,3692 @@
           "independentAuthors": 0,
           "specificReason": "完整檢視4樓；Lacelouy 的下單身分不等於已使用後的問題回報，ltp 的 AI 摘要疑慮也不是第一人稱產品故障。沒有可計入的 X60 Track 故障作者，亦無第二原始網站的同題報告；p=1及m.mobile01版本已與此原串去重。",
           "reason": "完整檢視4樓；Lacelouy 的下單身分不等於已使用後的問題回報，ltp 的 AI 摘要疑慮也不是第一人稱產品故障。沒有可計入的 X60 Track 故障作者，亦無第二原始網站的同題報告；p=1及m.mobile01版本已與此原串去重。"
+        }
+      ]
+    },
+    {
+      "id": "refrigerator-mitsubishi-mr-wz54n",
+      "category": "refrigerator",
+      "brand": "Mitsubishi Electric",
+      "model": "MR-WZ54N",
+      "name": "543L SMART AI 日製六門玻璃鏡面變頻冰箱（星光白 MR-WZ54N-W-C）",
+      "identity": {
+        "canonicalModel": "MR-WZ54N",
+        "lookupLabel": "Mitsubishi Electric MR-WZ54N",
+        "aliases": [
+          "MR-WZ54N-W-C",
+          "Mitsubishi Electric MR-WZ54N"
+        ],
+        "evidenceUrl": "https://www.mitsubishielectric.com.tw/home/refrigerator/PRODUCT_MR_WZ54N.html"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-09-06",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT",
+          "momo"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"MR-WZ54N\" (問題 OR 故障 OR 缺點 OR 心得)",
+            "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22MR-WZ54N%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%BC%BA%E9%BB%9E%20OR%20%E5%BF%83%E5%BE%97%29",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"MR-WZ54N-W-C\" (問題 OR 故障 OR 缺點 OR 心得)",
+            "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22MR-WZ54N-W-C%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%BC%BA%E9%BB%9E%20OR%20%E5%BF%83%E5%BE%97%29",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"MR-WZ54N\" (問題 OR 故障 OR 缺點 OR 心得)",
+            "queryUrl": "https://www.bing.com/search?q=site%3Aptt.cc%20%22MR-WZ54N%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%BC%BA%E9%BB%9E%20OR%20%E5%BF%83%E5%BE%97%29",
+            "targetHost": "ptt.cc"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"MR-WZ54N-W-C\" (問題 OR 故障 OR 缺點 OR 心得)",
+            "queryUrl": "https://www.bing.com/search?q=site%3Aptt.cc%20%22MR-WZ54N-W-C%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%BC%BA%E9%BB%9E%20OR%20%E5%BF%83%E5%BE%97%29",
+            "targetHost": "ptt.cc"
+          }
+        ],
+        "candidateDisposition": "2026-09-06 人工檢視 Mobile01 與 PTT 的 MR-WZ54N 及 MR-WZ54N-W-C exact-model 問題/心得搜尋，兩站皆未取得 exact-model 原頁候選；另開啟 momo exact-model 商品評價區，明示尚無評價。沒有可計入的獨立第一人稱問題回報，未達同一問題6人且跨2原始網站門檻；此結果不表示完全沒有負評。",
+        "representativeSources": [
+          {
+            "platform": "momo",
+            "title": "momo MR-WZ54N 商品評價",
+            "url": "https://www.momoshop.com.tw/TP/TP0003734/goodsDetail/TP00037340003155"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "url": "https://www.momoshop.com.tw/TP/TP0003734/goodsDetail/TP00037340003155",
+            "title": "momo MR-WZ54N 商品評價",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "商品頁標題明示 MR-WZ54N；商品評價區目前顯示「尚無評價」。",
+            "independentAuthors": 0,
+            "specificReason": "評價區没有使用者評論，沒有可計入的第一人稱問題回報；零售頁規格及退貨條款不能當作故障證據。",
+            "platform": "momo"
+          }
+        ],
+        "reviewerNote": "2026-09-06 人工檢視 Mobile01 與 PTT 的 MR-WZ54N 及 MR-WZ54N-W-C exact-model 問題/心得搜尋，兩站皆未取得 exact-model 原頁候選；另開啟 momo exact-model 商品評價區，明示尚無評價。沒有可計入的獨立第一人稱問題回報，未達同一問題6人且跨2原始網站門檻；此結果不表示完全沒有負評。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-09-06",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"MR-WZ54N\" (問題 OR 故障 OR 缺點 OR 心得)",
+            "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22MR-WZ54N%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%BC%BA%E9%BB%9E%20OR%20%E5%BF%83%E5%BE%97%29",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"MR-WZ54N-W-C\" (問題 OR 故障 OR 缺點 OR 心得)",
+            "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22MR-WZ54N-W-C%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%BC%BA%E9%BB%9E%20OR%20%E5%BF%83%E5%BE%97%29",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"MR-WZ54N\" (問題 OR 故障 OR 缺點 OR 心得)",
+            "queryUrl": "https://www.bing.com/search?q=site%3Aptt.cc%20%22MR-WZ54N%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%BC%BA%E9%BB%9E%20OR%20%E5%BF%83%E5%BE%97%29",
+            "targetHost": "ptt.cc"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"MR-WZ54N-W-C\" (問題 OR 故障 OR 缺點 OR 心得)",
+            "queryUrl": "https://www.bing.com/search?q=site%3Aptt.cc%20%22MR-WZ54N-W-C%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%BC%BA%E9%BB%9E%20OR%20%E5%BF%83%E5%BE%97%29",
+            "targetHost": "ptt.cc"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"MR-WZ54N\" (問題 OR 故障 OR 缺點 OR 心得)",
+          "searchUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22MR-WZ54N%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%BC%BA%E9%BB%9E%20OR%20%E5%BF%83%E5%BE%97%29",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-09-06T01:58:31.621980+00:00",
+          "note": "本次透過網頁搜尋工具執行此完整字串；searchUrl 為可重播入口，不宣稱已讀取 Bing 原生搜尋頁。"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"MR-WZ54N-W-C\" (問題 OR 故障 OR 缺點 OR 心得)",
+          "searchUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22MR-WZ54N-W-C%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%BC%BA%E9%BB%9E%20OR%20%E5%BF%83%E5%BE%97%29",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-09-06T01:58:31.621980+00:00",
+          "note": "本次透過網頁搜尋工具執行此完整字串；searchUrl 為可重播入口，不宣稱已讀取 Bing 原生搜尋頁。"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"MR-WZ54N\" (問題 OR 故障 OR 缺點 OR 心得)",
+          "searchUrl": "https://www.bing.com/search?q=site%3Aptt.cc%20%22MR-WZ54N%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%BC%BA%E9%BB%9E%20OR%20%E5%BF%83%E5%BE%97%29",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-09-06T01:58:31.621980+00:00",
+          "note": "本次透過網頁搜尋工具執行此完整字串；searchUrl 為可重播入口，不宣稱已讀取 Bing 原生搜尋頁。"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"MR-WZ54N-W-C\" (問題 OR 故障 OR 缺點 OR 心得)",
+          "searchUrl": "https://www.bing.com/search?q=site%3Aptt.cc%20%22MR-WZ54N-W-C%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%BC%BA%E9%BB%9E%20OR%20%E5%BF%83%E5%BE%97%29",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-09-06T01:58:31.621980+00:00",
+          "note": "本次透過網頁搜尋工具執行此完整字串；searchUrl 為可重播入口，不宣稱已讀取 Bing 原生搜尋頁。"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "url": "https://www.momoshop.com.tw/TP/TP0003734/goodsDetail/TP00037340003155",
+          "title": "momo MR-WZ54N 商品評價",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "商品頁標題明示 MR-WZ54N；商品評價區目前顯示「尚無評價」。",
+          "independentAuthors": 0,
+          "specificReason": "評價區没有使用者評論，沒有可計入的第一人稱問題回報；零售頁規格及退貨條款不能當作故障證據。",
+          "platform": "momo",
+          "reason": "評價區没有使用者評論，沒有可計入的第一人稱問題回報；零售頁規格及退貨條款不能當作故障證據。"
+        }
+      ]
+    },
+    {
+      "id": "monitor-asus-xg27acsr",
+      "category": "monitor",
+      "brand": "ASUS",
+      "model": "XG27ACSR",
+      "name": "ROG Strix XG27ACS Gen2 27 型 QHD 220Hz Fast IPS 電競螢幕（黑色）",
+      "identity": {
+        "canonicalModel": "XG27ACSR",
+        "lookupLabel": "ASUS XG27ACSR",
+        "aliases": [
+          "ROG Strix XG27ACS Gen2 (XG27ACSR)",
+          "ROG Strix XG27ACSR"
+        ],
+        "evidenceUrl": "https://rog.asus.com/tw/monitors/27-to-31-5-inches/rog-strix-xg27acs-gen2-xg27acsr/spec/"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-09-06",
+        "checkedPlatforms": [
+          "Reddit",
+          "Mobile01",
+          "欣亞"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"XG27ACSR\" (problem OR issue OR defect)",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22XG27ACSR%22%20%28problem%20OR%20issue%20OR%20defect%29"
+          },
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"XG27ACSR\" (問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22XG27ACSR%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95%29"
+          }
+        ],
+        "candidateDisposition": "2026-09-06 人工閱讀 4 個 Reddit 原始串的型號相關主文／回覆，排除舊 XG27ACS、ACMG、ACMES 與非第一人稱選購內容；Mobile01 exact XG27ACSR 查詢未取得候選。欣亞所呈現 David 筆電套版評價亦逐項排除。沒有可計入的同型號故障作者，未達同一問題 6 人、跨 2 原始網站門檻；不表示產品完全沒有負評。",
+        "representativeSources": [
+          {
+            "platform": "Reddit",
+            "title": "ROG Strix XG27ACS Gen2 XG27ACSR",
+            "url": "https://www.reddit.com/r/Monitors/comments/1v9mvqr/rog_strix_xg27acs_gen2_xg27acsr/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Monitor suggestion plsss",
+            "url": "https://www.reddit.com/r/Monitors/comments/1v65t7z/monitor_suggestion_plsss/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "ASUS ROG Strix XG27ACS or XG27ACMES",
+            "url": "https://www.reddit.com/r/Monitors/comments/1uktghy/asus_rog_strix_xg27acs_or_xg27acmes/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Should I get XG27ACMG or XG27ACS",
+            "url": "https://www.reddit.com/r/buildapcmonitors/comments/1w52lum/should_i_get_the_asus_rog_xg27acmg_or_xg27acs/"
+          },
+          {
+            "platform": "欣亞",
+            "title": "欣亞 XG27ACSR 商品評價區",
+            "url": "https://www.sinya.com.tw/prod/227313"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "url": "https://www.reddit.com/r/Monitors/comments/1v9mvqr/rog_strix_xg27acs_gen2_xg27acsr/",
+            "title": "ROG Strix XG27ACS Gen2 XG27ACSR",
+            "platform": "Reddit",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "NateDeMaster 徵求使用經驗；HrmhsMox 表示已購入 ACSR，但沒有敘述故障。Demarwal 的維修不滿明確指原 XG27ACS。",
+            "independentAuthors": 0,
+            "specificReason": "原 XG27ACS 的維修／塗層回報不可套用 Gen2 XG27ACSR；新款購買及詢問不構成第一人稱問題。"
+          },
+          {
+            "url": "https://www.reddit.com/r/Monitors/comments/1v65t7z/monitor_suggestion_plsss/",
+            "title": "Monitor suggestion plsss",
+            "platform": "Reddit",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "n1kl8skr 推薦新 ACSR；Practical-Serve5462 問舊 ACS 塗層及新款是否相同。",
+            "independentAuthors": 0,
+            "specificReason": "選購建議與未驗證的塗層疑問，沒有 ACSR 本人故障回報。"
+          },
+          {
+            "url": "https://www.reddit.com/r/Monitors/comments/1uktghy/asus_rog_strix_xg27acs_or_xg27acmes/",
+            "title": "ASUS ROG Strix XG27ACS or XG27ACMES",
+            "platform": "Reddit",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "SCValtar 提到新 Gen2 的區域供應和 RMA 出現；主要比較 ACS 與 ACMES。",
+            "independentAuthors": 0,
+            "specificReason": "僅提到新款可取得，不是作者自己的 XG27ACSR 故障；近似型號排除。"
+          },
+          {
+            "url": "https://www.reddit.com/r/buildapcmonitors/comments/1w52lum/should_i_get_the_asus_rog_xg27acmg_or_xg27acs/",
+            "title": "Should I get XG27ACMG or XG27ACS",
+            "platform": "Reddit",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "LyuboA 推薦 ACSR，The_EXLTUS 表示所在地找不到新款；討論其他螢幕比較。",
+            "independentAuthors": 0,
+            "specificReason": "產品推薦和可購性問題，沒有新款的第一人稱硬體故障。"
+          },
+          {
+            "url": "https://www.sinya.com.tw/prod/227313",
+            "title": "欣亞 XG27ACSR 商品評價區",
+            "platform": "欣亞",
+            "outcome": "excluded",
+            "exactModel": false,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "評價區重複 David 2020-02-01 的 SF114-34-C2QF 金色 15 吋筆電文字，與本頁螢幕不符。",
+            "independentAuthors": 0,
+            "specificReason": "頁面套版／他品評價不能作 XG27ACSR 證據，全部排除。"
+          }
+        ],
+        "reviewerNote": "2026-09-06 人工閱讀 4 個 Reddit 原始串的型號相關主文／回覆，排除舊 XG27ACS、ACMG、ACMES 與非第一人稱選購內容；Mobile01 exact XG27ACSR 查詢未取得候選。欣亞所呈現 David 筆電套版評價亦逐項排除。沒有可計入的同型號故障作者，未達同一問題 6 人、跨 2 原始網站門檻；不表示產品完全沒有負評。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-09-06",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"XG27ACSR\" (problem OR issue OR defect)",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22XG27ACSR%22%20%28problem%20OR%20issue%20OR%20defect%29"
+          },
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"XG27ACSR\" (問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22XG27ACSR%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95%29"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"XG27ACSR\" (problem OR issue OR defect)",
+          "searchUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22XG27ACSR%22%20%28problem%20OR%20issue%20OR%20defect%29",
+          "targetHost": "reddit.com",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 4,
+          "candidateUrls": [
+            "https://www.reddit.com/r/Monitors/comments/1v9mvqr/rog_strix_xg27acs_gen2_xg27acsr/",
+            "https://www.reddit.com/r/Monitors/comments/1v65t7z/monitor_suggestion_plsss/",
+            "https://www.reddit.com/r/Monitors/comments/1uktghy/asus_rog_strix_xg27acs_or_xg27acmes/",
+            "https://www.reddit.com/r/buildapcmonitors/comments/1w52lum/should_i_get_the_asus_rog_xg27acmg_or_xg27acs/"
+          ],
+          "candidates": [
+            {
+              "title": "ROG Strix XG27ACS Gen2 XG27ACSR",
+              "url": "https://www.reddit.com/r/Monitors/comments/1v9mvqr/rog_strix_xg27acs_gen2_xg27acsr/",
+              "exactModel": true
+            },
+            {
+              "title": "Monitor suggestion plsss",
+              "url": "https://www.reddit.com/r/Monitors/comments/1v65t7z/monitor_suggestion_plsss/",
+              "exactModel": true
+            },
+            {
+              "title": "ASUS ROG Strix XG27ACS or XG27ACMES",
+              "url": "https://www.reddit.com/r/Monitors/comments/1uktghy/asus_rog_strix_xg27acs_or_xg27acmes/",
+              "exactModel": true
+            },
+            {
+              "title": "Should I get XG27ACMG or XG27ACS",
+              "url": "https://www.reddit.com/r/buildapcmonitors/comments/1w52lum/should_i_get_the_asus_rog_xg27acmg_or_xg27acs/",
+              "exactModel": true
+            }
+          ],
+          "inspectedAt": "2026-09-06T02:10:09.878816+00:00",
+          "note": "完整字串由 web search 執行；query URL 是可重播入口，不宣稱 Google 原生頁已開啟。搜尋只發現候選，處置來自人工原頁閱讀。"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"XG27ACSR\" (問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22XG27ACSR%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95%29",
+          "targetHost": "mobile01.com",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-09-06T02:10:09.878816+00:00",
+          "note": "完整字串由 web search 執行；query URL 是可重播入口，不宣稱 Google 原生頁已開啟。搜尋只發現候選，處置來自人工原頁閱讀。"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "url": "https://www.reddit.com/r/Monitors/comments/1v9mvqr/rog_strix_xg27acs_gen2_xg27acsr/",
+          "title": "ROG Strix XG27ACS Gen2 XG27ACSR",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "NateDeMaster 徵求使用經驗；HrmhsMox 表示已購入 ACSR，但沒有敘述故障。Demarwal 的維修不滿明確指原 XG27ACS。",
+          "independentAuthors": 0,
+          "specificReason": "原 XG27ACS 的維修／塗層回報不可套用 Gen2 XG27ACSR；新款購買及詢問不構成第一人稱問題。",
+          "reason": "原 XG27ACS 的維修／塗層回報不可套用 Gen2 XG27ACSR；新款購買及詢問不構成第一人稱問題。"
+        },
+        {
+          "url": "https://www.reddit.com/r/Monitors/comments/1v65t7z/monitor_suggestion_plsss/",
+          "title": "Monitor suggestion plsss",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "n1kl8skr 推薦新 ACSR；Practical-Serve5462 問舊 ACS 塗層及新款是否相同。",
+          "independentAuthors": 0,
+          "specificReason": "選購建議與未驗證的塗層疑問，沒有 ACSR 本人故障回報。",
+          "reason": "選購建議與未驗證的塗層疑問，沒有 ACSR 本人故障回報。"
+        },
+        {
+          "url": "https://www.reddit.com/r/Monitors/comments/1uktghy/asus_rog_strix_xg27acs_or_xg27acmes/",
+          "title": "ASUS ROG Strix XG27ACS or XG27ACMES",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "SCValtar 提到新 Gen2 的區域供應和 RMA 出現；主要比較 ACS 與 ACMES。",
+          "independentAuthors": 0,
+          "specificReason": "僅提到新款可取得，不是作者自己的 XG27ACSR 故障；近似型號排除。",
+          "reason": "僅提到新款可取得，不是作者自己的 XG27ACSR 故障；近似型號排除。"
+        },
+        {
+          "url": "https://www.reddit.com/r/buildapcmonitors/comments/1w52lum/should_i_get_the_asus_rog_xg27acmg_or_xg27acs/",
+          "title": "Should I get XG27ACMG or XG27ACS",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "LyuboA 推薦 ACSR，The_EXLTUS 表示所在地找不到新款；討論其他螢幕比較。",
+          "independentAuthors": 0,
+          "specificReason": "產品推薦和可購性問題，沒有新款的第一人稱硬體故障。",
+          "reason": "產品推薦和可購性問題，沒有新款的第一人稱硬體故障。"
+        },
+        {
+          "url": "https://www.sinya.com.tw/prod/227313",
+          "title": "欣亞 XG27ACSR 商品評價區",
+          "platform": "欣亞",
+          "outcome": "excluded",
+          "exactModel": false,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "評價區重複 David 2020-02-01 的 SF114-34-C2QF 金色 15 吋筆電文字，與本頁螢幕不符。",
+          "independentAuthors": 0,
+          "specificReason": "頁面套版／他品評價不能作 XG27ACSR 證據，全部排除。",
+          "reason": "頁面套版／他品評價不能作 XG27ACSR 證據，全部排除。"
+        }
+      ]
+    },
+    {
+      "id": "wifi-unifi-u7-pro-xg",
+      "category": "wifi",
+      "brand": "Ubiquiti",
+      "model": "U7 Pro XG",
+      "name": "UniFi 三頻 Wi-Fi 7 10GbE 管理型 AP（黑色 U7-Pro-XG-B）",
+      "identity": {
+        "canonicalModel": "U7 Pro XG",
+        "lookupLabel": "Ubiquiti U7 Pro XG",
+        "aliases": [
+          "U7-Pro-XG",
+          "U7-Pro-XG-B",
+          "UniFi U7 Pro XG"
+        ],
+        "evidenceUrl": "https://techspecs.ui.com/unifi/wifi/u7-pro-xg"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "common_issue",
+        "reviewedAt": "2026-09-06",
+        "checkedPlatforms": [
+          "Ubiquiti Community",
+          "Reddit",
+          "Mobile01"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com/r/Ubiquiti \"U7 Pro XG\" issues",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com/r/Ubiquiti%20%22U7%20Pro%20XG%22%20issues"
+          },
+          {
+            "platform": "Ubiquiti Community",
+            "targetHost": "community.ui.com",
+            "query": "site:community.ui.com \"U7 Pro XG\" problem",
+            "queryUrl": "https://www.google.com/search?q=site%3Acommunity.ui.com%20%22U7%20Pro%20XG%22%20problem"
+          },
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"U7 Pro XG\" 問題",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22U7%20Pro%20XG%22%20%E5%95%8F%E9%A1%8C"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"U7 Pro XG\" \"2.5\" \"packet loss\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22U7%20Pro%20XG%22%20%222.5%22%20%22packet%20loss%22"
+          }
+        ],
+        "candidateDisposition": "U7 Pro XG 於 2026-09-06 完成人工原頁覆核，採 Community 的 Network_Guru、e.ts、mikemcd、morini3andahalf、fidecastro，及 Reddit dpgator33 共六人／兩網站。Community 先以 in-app browser，後以 Chrome 讀到主串後段及展開回覆；保留 DOM data-id 可重建的 replyId／父回覆定位。e.ts 與 Reddit evtsir 重複段落去重，XGS／In Wall／U7 Pro 不混型；報告為部分組合的觀察，未證明所有台灣黑色 SKU 都會發生。其他候選依症狀及型號逐筆處置，不宣稱未讀取的大量延伸回覆已全部覆核。",
+        "representativeSources": [
+          {
+            "platform": "Ubiquiti Community",
+            "title": "U7 Pro XG issues with speed set to 2.5GbE",
+            "url": "https://community.ui.com/questions/U7-Pro-XG-issues-with-speed-set-to-2-5GbE/af53b148-b666-4239-a2e0-6a2ec989a1f2"
+          },
+          {
+            "platform": "Reddit",
+            "title": "In case anyone else has this issue - U7 Pro XG and 6ghz connection issues on 2.5gbps uplink",
+            "url": "https://www.reddit.com/r/UNIFI/comments/1jq2p81/in_case_anyone_else_has_this_issue_u7_pro_xg_and/"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "url": "https://www.reddit.com/r/Ubiquiti/comments/1v9pp5d/u7_pro_xg_problems/",
+            "title": "U7 Pro XG problems",
+            "platform": "Reddit",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "evtsir 描述 2.5GbE 丟包且 1GbE 正常，與 Community e.ts 的段落幾乎逐字一致。robertoleonardo 提到閣樓熱環境但沒明示 exact 型號；Excellent_Milk_3110 描述 10 台 XG DHCP 問題、升版後改善。",
+            "independentAuthors": 1,
+            "specificReason": "evtsir 與 e.ts 在候選處置明確去重並只保留 e.ts 的 ledger，已計 Community e.ts 一人；其餘未明型號或未完成 2.5 對 1GbE 條件核對，不額外擴大人數。"
+          },
+          {
+            "url": "https://www.reddit.com/r/Ubiquiti/comments/1ppc255/u7_pro_xg_stability_issues/",
+            "title": "U7 Pro XG stability issues",
+            "platform": "Reddit",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "quattrotom 的 S22 Ultra 與 Brother 印表機在近距離掉 Wi-Fi；原帖只有機器人回覆。",
+            "independentAuthors": 1,
+            "specificReason": "可辨識一位無線連線問題作者，但未指向 2.5GbE 上行與固定 1GbE 改善的同一條件，不併入本次集中問題。"
+          },
+          {
+            "url": "https://www.reddit.com/r/Ubiquiti/comments/1u7cwmf/unifi_u7_pro_xg_goes_offline/",
+            "title": "UniFi U7 Pro XG goes offline",
+            "platform": "Reddit",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "LieOrdinary398 指 AP 在使用六個月後每隔 5–10 分鐘離線上線；回覆建議檢查 PoE、線與韌體。",
+            "independentAuthors": 1,
+            "specificReason": "這是整台 AP 離線回報，未核定為 2.5GbE 丟包；其他留言是建議，不增加独立案例。"
+          },
+          {
+            "url": "https://www.reddit.com/r/Ubiquiti/comments/1v2dsqf/u7_pro_xg_wifi_clients_stuck_until_ap_restart_ucg/",
+            "title": "U7 Pro XG wifi clients stuck until AP restart",
+            "platform": "Reddit",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "evtsir 的 UCG Fiber 2.5GbE PoE 接 XG，AP 藍燈在線但客戶端無流量，重開 AP 才恢復。",
+            "independentAuthors": 1,
+            "specificReason": "作者與另串及 Community e.ts 轉貼屬同一案例鏈，不把多篇相同作者回報重複計人。"
+          },
+          {
+            "url": "https://www.reddit.com/r/Ubiquiti/comments/1ts70er/overall_impressed_u7_pro_xg_is_hot_garbage/",
+            "title": "Overall impressed U7 Pro XG is hot garbage",
+            "platform": "Reddit",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "me00711 的主文描述走幾步訊號大幅下降，換 E7 後好轉。",
+            "independentAuthors": 1,
+            "specificReason": "主文是覆蓋範圍經驗，不符合有線 2.5GbE 對 1GbE 的問題界線；未將整串所有回覆宣称為同症狀。"
+          },
+          {
+            "url": "https://www.reddit.com/r/Ubiquiti/comments/1v8rddv/two_u7_pro_xgxgs_aps_dead_with_identical_symptoms/",
+            "title": "Two U7 Pro XG/XGS APs dead",
+            "platform": "Reddit",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "xGuenth 的一台 XG 與一台 XGS 顯示白燈且無法採用／重設。",
+            "independentAuthors": 1,
+            "specificReason": "同作者兩設備只算一人，XGS 排除；XG 為開機／採用故障，不等同 2.5GbE 丟包。"
+          },
+          {
+            "url": "https://www.reddit.com/r/Ubiquiti/comments/1ne5118/disappointed_with_u7_pro_xg_did_i_buy_the_wrong/",
+            "title": "Disappointed with U7 Pro XG",
+            "platform": "Reddit",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "ioncodes 比較隔間後的 5GHz 速度，調整頻寬後改善；The_Taurus_70s 壁掛轉天花板後改善。chili_oil 提及弱 RSSI 但仍可達 600Mbps。",
+            "independentAuthors": 1,
+            "specificReason": "覆蓋、安裝位置、頻寬設定的差異未證明相同 2.5GbE 問題；XGS 與未明示型號者不計。"
+          },
+          {
+            "url": "https://www.reddit.com/r/Ubiquiti/comments/1sod35l/u7_pro_xg_weak_5ghz_design_center_planning/",
+            "title": "U7 Pro XG weak 5ghz design center planning",
+            "platform": "Reddit",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "Materidan 尚在 Design Center 模擬選購；whiskey-water 簡述自己 XG 的覆蓋和 IoT 不滿，沒有 2.5 對 1G 測試。",
+            "independentAuthors": 1,
+            "specificReason": "模擬圖不是實際故障；其他泛稱覆蓋／IoT 抱怨未符合本次有線鏈路問題界線。"
+          },
+          {
+            "url": "https://www.reddit.com/r/Ubiquiti/comments/1vkmikb/u7_in_wall_uplink_issues/",
+            "title": "U7 In Wall uplink issues",
+            "platform": "Reddit",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "Hefty_Remove7965 主文是 U7 In Wall；mahlfors 回覆自己 U7 Pro XG 也有類似速率下降，未提供固定 1GbE 對照。",
+            "independentAuthors": 1,
+            "specificReason": "In Wall 與 XG Wall 不同型號排除；mahlfors 的相似速率協商描述尚不足併入所選六人的明確同症狀集合。"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7192472",
+            "title": "Ubiquiti U7 Pro／XG 討論",
+            "platform": "Mobile01",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "已讀 10 則：derliang 原本持有 U7 Pro，僅提新 XG 的價差；其他為購買與設定建議。",
+            "independentAuthors": 0,
+            "specificReason": "未有作者明確持有 U7 Pro XG 並回報故障；原 U7 Pro 不能套為 XG。"
+          },
+          {
+            "url": "https://community.ui.com/questions/Root-cause-of-random-client-disconnects-on-U7-E7-Qualcomm-firmware-kickout-with-fix/e5ee377e-01ba-4495-8614-5cd6381cc7d0",
+            "title": "Random client disconnects on U7/E7",
+            "platform": "Ubiquiti Community",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "rmk 自述 4 台 U7 Pro XG 的客戶端踢除，sirgrant618 自述 U7 Lite 和 XG 類似；CohesionJC 反而沒有使用問題。",
+            "independentAuthors": 2,
+            "specificReason": "兩位同型號客戶端掉線作者未做 2.5GbE／1GbE 條件對照，不與有線上行事件混算。Kickout 或根因說明是作者解釋，非官方定論。"
+          },
+          {
+            "url": "https://community.ui.com/questions/U7-Pro-XG-issues-6ghz-wont-work-unless-completely-isolated/f327483c-8f73-48c9-9cdd-a9eda7e97121?page=0",
+            "title": "U7 Pro XG issues 6ghz isolated",
+            "platform": "Ubiquiti Community",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "dpgator33 描述 iPhone 16 在 6GHz 不穩，SSID/VLAN 隔離暫改善；vkirienko 的兩台 XG 曾不穩但重啟後五日穩定，achujacob 使用 XGS。",
+            "independentAuthors": 1,
+            "specificReason": "dpgator33 在 Reddit 另有明確 2.5→1GbE 對照且只計一次；其他未符合相同條件或不同型號。"
+          },
+          {
+            "url": "https://community.ui.com/questions/U7-Pro-XG-having-trouble-connecting-wireless-clients-between-each-other-whilst-they-both-connect-to/e04f549f-516e-44f7-9da7-175321c962b6",
+            "title": "U7 Pro XG wireless clients between each other",
+            "platform": "Ubiquiti Community",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "rogervn 的無線客戶端彼此無法 ping，但可上網並可連有線設備，重新連線改善。",
+            "independentAuthors": 1,
+            "specificReason": "局域網客戶端互通／DHCP 更新症狀，未顯示相同 2.5GbE 上行條件；只有一名作者。"
+          },
+          {
+            "url": "https://community.ui.com/questions/U7-PRO-XG-refuses-to-provide-Internet/6e317142-9e60-42e4-b996-fc2d240db9cc",
+            "title": "U7 PRO XG refuses to provide Internet",
+            "platform": "Ubiquiti Community",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "HiPS-CA 的 UCG Fiber＋XG 可連本地服務但無 WAN，重设 AP 改善；Merlin4321 有手機部分應用逾時。",
+            "independentAuthors": 2,
+            "specificReason": "這兩種症狀未確認為同一 2.5GbE 問題；Jordan_Lewis 未明示自身 exact 型號，建議回覆不計人。"
+          },
+          {
+            "url": "https://community.ui.com/questions/Slow-upload-speed-with-U7-Pro-XG-on-2-5GbE/35b5b5e4-c6be-4810-aaa6-53a741280094",
+            "title": "Slow upload speed with U7 Pro XG on 2.5GbE",
+            "platform": "Ubiquiti Community",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "rasmusb234 的 UCG Fiber 連 XG 在 2.5GbE 為 900/400，1GbE 為 900/900；icediele 使用 U7 Pro 與 UDR7。",
+            "independentAuthors": 1,
+            "specificReason": "單向速度下降沒有同時報告丟包或連線失效，採較窄問題集合，未增加這一人；U7 Pro 不同型號排除。"
+          },
+          {
+            "url": "https://community.ui.com/questions/WiFi-issue-after-upgrade-from-u6-pro-to-u7-pro-xg/ea066985-9a3a-47a0-b310-04a994fff667",
+            "title": "WiFi issue after upgrade from U6 Pro to U7 Pro XG",
+            "platform": "Ubiquiti Community",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "andyaw 升級 XG 與新交換器後漫遊至 U6 取得 169 位址；後續發現兩台交換器間隔離。",
+            "independentAuthors": 1,
+            "specificReason": "跨交换器／跨型號網路拓撲問題，不能歸因為 exact XG 的 2.5GbE 集中事件。"
+          },
+          {
+            "url": "https://community.ui.com/questions/U7-Outdoor-will-not-mesh-connect-to-U7-PRO-XG/6b6ce05b-623c-4a28-acda-8883333c06a4",
+            "title": "U7 Outdoor will not mesh connect to U7 PRO XG",
+            "platform": "Ubiquiti Community",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "ohlhome 的 Outdoor 不能連 XG 父 AP，切換 Outdoor Omni 天線後可連；lwsrbrts 是 Outdoor 模式解法。",
+            "independentAuthors": 1,
+            "specificReason": "問題由 Outdoor 天線設定改善，屬另一设备／Mesh 配置，不計作 XG 的有線丟包。"
+          },
+          {
+            "url": "https://www.reddit.com/r/UNIFI/comments/1q6064x/packet_loss_on_u7_pro_xg/",
+            "title": "Packet loss on U7 Pro XG",
+            "platform": "Reddit",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "lynxblaine 的 UCG Max＋XG 有間歇乙太鏈路丟包；vlkivlki 以 1GbE 避免丟包，但其 Cat5e 線品質尚未排除。",
+            "independentAuthors": 2,
+            "specificReason": "是相關候選但線材／PoE／Gateway 因子尚未解清；本輪以另六位更直接對照回報建立門檻，不再擴大報告人數。lynxblaine 跨 subreddit 自述轉貼只是一人。"
+          },
+          {
+            "url": "https://www.reddit.com/r/Ubiquiti/comments/1ktwoxe/issues_with_cg_fiber_and_u7_pro_xg/",
+            "title": "Issues with CG Fiber and U7 Pro Xg",
+            "platform": "Reddit",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "BustedSwitch21 的 2.5G 問題後來換 Cat6A 解決；dormamused 暫以 1GbE，佈線含多段耦合；Kind_Sail1183 是 PoE 警告後改交換器。",
+            "independentAuthors": 2,
+            "specificReason": "有 exact XG 相關問題，但原作者換線解決且其他案例尚有供電／多段線材變因；不額外計入本次明確六人的集中問題集合。"
+          },
+          {
+            "url": "https://www.reddit.com/r/Ubiquiti/comments/1snjry4/u7_pro_xg_shows_online_but_devices_have_no/",
+            "title": "U7 Pro XG shows online but devices have no internet",
+            "platform": "Reddit",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "j2chulo 說客服要求改 1Gbps，但改後仍只有約 30Mbps；AP 在線但客戶端無 WAN。",
+            "independentAuthors": 1,
+            "specificReason": "没有確認固定 1GbE 能恢復正常的對照結果，與所採用問題界線不同；提議換線的留言不是本人故障。"
+          }
+        ],
+        "reviewerNote": "U7 Pro XG 於 2026-09-06 完成人工原頁覆核，採 Community 的 Network_Guru、e.ts、mikemcd、morini3andahalf、fidecastro，及 Reddit dpgator33 共六人／兩網站。Community 先以 in-app browser，後以 Chrome 讀到主串後段及展開回覆；保留 DOM data-id 可重建的 replyId／父回覆定位。e.ts 與 Reddit evtsir 重複段落去重，XGS／In Wall／U7 Pro 不混型；報告為部分組合的觀察，未證明所有台灣黑色 SKU 都會發生。其他候選依症狀及型號逐筆處置，不宣稱未讀取的大量延伸回覆已全部覆核。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "common_issue",
+        "checkedAt": "2026-09-06",
+        "summary": "六位 U7 Pro XG 使用者跨兩個原始網站回報：部分 2.5GbE 連線組合會丟包、斷線或速度崩落，固定 1GbE 後改善。",
+        "issues": [
+          {
+            "title": "2.5GbE 上行在部分組合丟包或中斷，固定 1GbE 後改善",
+            "detail": "已逐人核對 Community 五位及 Reddit 一位独立作者；排除 XGS、相近機種與跨站轉貼。部分其他使用者在 2.5GbE 正常，換線、降發射功率或韌體更新的改善也不一致，尚不能認定通用根因或全數已修復。採購時核對 PoE 與線材，並在退換貨期測試實際 2.5GbE 交換器、持續傳輸和漫遊；若必須固定 1GbE，需接受上行受限。",
+            "reportCount": 6,
+            "sources": [
+              {
+                "platform": "Ubiquiti Community",
+                "title": "U7 Pro XG issues with speed set to 2.5GbE",
+                "url": "https://community.ui.com/questions/U7-Pro-XG-issues-with-speed-set-to-2-5GbE/af53b148-b666-4239-a2e0-6a2ec989a1f2"
+              },
+              {
+                "platform": "Reddit",
+                "title": "In case anyone else has this issue - U7 Pro XG and 6ghz connection issues on 2.5gbps uplink",
+                "url": "https://www.reddit.com/r/UNIFI/comments/1jq2p81/in_case_anyone_else_has_this_issue_u7_pro_xg_and/"
+              }
+            ]
+          }
+        ],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com/r/Ubiquiti \"U7 Pro XG\" issues",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com/r/Ubiquiti%20%22U7%20Pro%20XG%22%20issues"
+          },
+          {
+            "platform": "Ubiquiti Community",
+            "targetHost": "community.ui.com",
+            "query": "site:community.ui.com \"U7 Pro XG\" problem",
+            "queryUrl": "https://www.google.com/search?q=site%3Acommunity.ui.com%20%22U7%20Pro%20XG%22%20problem"
+          },
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"U7 Pro XG\" 問題",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22U7%20Pro%20XG%22%20%E5%95%8F%E9%A1%8C"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"U7 Pro XG\" \"2.5\" \"packet loss\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22U7%20Pro%20XG%22%20%222.5%22%20%22packet%20loss%22"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com/r/Ubiquiti \"U7 Pro XG\" issues",
+          "searchUrl": "https://www.google.com/search?q=site%3Areddit.com/r/Ubiquiti%20%22U7%20Pro%20XG%22%20issues",
+          "targetHost": "reddit.com",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 13,
+          "candidateUrls": [
+            "https://www.reddit.com/r/Ubiquiti/comments/1v9pp5d/u7_pro_xg_problems/",
+            "https://www.reddit.com/r/Ubiquiti/comments/1ppc255/u7_pro_xg_stability_issues/",
+            "https://www.reddit.com/r/Ubiquiti/comments/1u7cwmf/unifi_u7_pro_xg_goes_offline/",
+            "https://www.reddit.com/r/Ubiquiti/comments/1v2dsqf/u7_pro_xg_wifi_clients_stuck_until_ap_restart_ucg/",
+            "https://www.reddit.com/r/Ubiquiti/comments/1ts70er/overall_impressed_u7_pro_xg_is_hot_garbage/",
+            "https://www.reddit.com/r/Ubiquiti/comments/1v8rddv/two_u7_pro_xgxgs_aps_dead_with_identical_symptoms/",
+            "https://www.reddit.com/r/Ubiquiti/comments/1ne5118/disappointed_with_u7_pro_xg_did_i_buy_the_wrong/",
+            "https://www.reddit.com/r/Ubiquiti/comments/1sod35l/u7_pro_xg_weak_5ghz_design_center_planning/",
+            "https://www.reddit.com/r/Ubiquiti/comments/1vkmikb/u7_in_wall_uplink_issues/",
+            "https://www.reddit.com/r/UNIFI/comments/1q6064x/packet_loss_on_u7_pro_xg/",
+            "https://www.reddit.com/r/Ubiquiti/comments/1ktwoxe/issues_with_cg_fiber_and_u7_pro_xg/",
+            "https://www.reddit.com/r/Ubiquiti/comments/1snjry4/u7_pro_xg_shows_online_but_devices_have_no/",
+            "https://www.reddit.com/r/UNIFI/comments/1jq2p81/in_case_anyone_else_has_this_issue_u7_pro_xg_and/"
+          ],
+          "candidates": [
+            {
+              "title": "U7 Pro XG problems",
+              "url": "https://www.reddit.com/r/Ubiquiti/comments/1v9pp5d/u7_pro_xg_problems/"
+            },
+            {
+              "title": "U7 Pro XG stability issues",
+              "url": "https://www.reddit.com/r/Ubiquiti/comments/1ppc255/u7_pro_xg_stability_issues/"
+            },
+            {
+              "title": "UniFi U7 Pro XG goes offline",
+              "url": "https://www.reddit.com/r/Ubiquiti/comments/1u7cwmf/unifi_u7_pro_xg_goes_offline/"
+            },
+            {
+              "title": "U7 Pro XG wifi clients stuck until AP restart",
+              "url": "https://www.reddit.com/r/Ubiquiti/comments/1v2dsqf/u7_pro_xg_wifi_clients_stuck_until_ap_restart_ucg/"
+            },
+            {
+              "title": "Overall impressed U7 Pro XG is hot garbage",
+              "url": "https://www.reddit.com/r/Ubiquiti/comments/1ts70er/overall_impressed_u7_pro_xg_is_hot_garbage/"
+            },
+            {
+              "title": "Two U7 Pro XG/XGS APs dead",
+              "url": "https://www.reddit.com/r/Ubiquiti/comments/1v8rddv/two_u7_pro_xgxgs_aps_dead_with_identical_symptoms/"
+            },
+            {
+              "title": "Disappointed with U7 Pro XG",
+              "url": "https://www.reddit.com/r/Ubiquiti/comments/1ne5118/disappointed_with_u7_pro_xg_did_i_buy_the_wrong/"
+            },
+            {
+              "title": "U7 Pro XG weak 5ghz design center planning",
+              "url": "https://www.reddit.com/r/Ubiquiti/comments/1sod35l/u7_pro_xg_weak_5ghz_design_center_planning/"
+            },
+            {
+              "title": "U7 In Wall uplink issues",
+              "url": "https://www.reddit.com/r/Ubiquiti/comments/1vkmikb/u7_in_wall_uplink_issues/"
+            },
+            {
+              "title": "Packet loss on U7 Pro XG",
+              "url": "https://www.reddit.com/r/UNIFI/comments/1q6064x/packet_loss_on_u7_pro_xg/"
+            },
+            {
+              "title": "Issues with CG Fiber and U7 Pro Xg",
+              "url": "https://www.reddit.com/r/Ubiquiti/comments/1ktwoxe/issues_with_cg_fiber_and_u7_pro_xg/"
+            },
+            {
+              "title": "U7 Pro XG shows online but devices have no internet",
+              "url": "https://www.reddit.com/r/Ubiquiti/comments/1snjry4/u7_pro_xg_shows_online_but_devices_have_no/"
+            },
+            {
+              "title": "In case anyone else has this issue - U7 Pro XG and 6ghz connection issues on 2.5gbps uplink",
+              "url": "https://www.reddit.com/r/UNIFI/comments/1jq2p81/in_case_anyone_else_has_this_issue_u7_pro_xg_and/"
+            }
+          ],
+          "inspectedAt": "2026-09-06T02:17:03.313140+00:00",
+          "note": "web search 完整字串發現之相關候選集合；查詢 URL 可重播，不宣稱 Google 原生頁已讀。原頁逐人覆核與排除紀錄見 manualReview；兩個 Reddit 查詢共用其交叉發現的去重候選集合。"
+        },
+        {
+          "platform": "Ubiquiti Community",
+          "query": "site:community.ui.com \"U7 Pro XG\" problem",
+          "searchUrl": "https://www.google.com/search?q=site%3Acommunity.ui.com%20%22U7%20Pro%20XG%22%20problem",
+          "targetHost": "community.ui.com",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 8,
+          "candidateUrls": [
+            "https://community.ui.com/questions/Root-cause-of-random-client-disconnects-on-U7-E7-Qualcomm-firmware-kickout-with-fix/e5ee377e-01ba-4495-8614-5cd6381cc7d0",
+            "https://community.ui.com/questions/U7-Pro-XG-issues-6ghz-wont-work-unless-completely-isolated/f327483c-8f73-48c9-9cdd-a9eda7e97121?page=0",
+            "https://community.ui.com/questions/U7-Pro-XG-having-trouble-connecting-wireless-clients-between-each-other-whilst-they-both-connect-to/e04f549f-516e-44f7-9da7-175321c962b6",
+            "https://community.ui.com/questions/U7-PRO-XG-refuses-to-provide-Internet/6e317142-9e60-42e4-b996-fc2d240db9cc",
+            "https://community.ui.com/questions/Slow-upload-speed-with-U7-Pro-XG-on-2-5GbE/35b5b5e4-c6be-4810-aaa6-53a741280094",
+            "https://community.ui.com/questions/WiFi-issue-after-upgrade-from-u6-pro-to-u7-pro-xg/ea066985-9a3a-47a0-b310-04a994fff667",
+            "https://community.ui.com/questions/U7-Outdoor-will-not-mesh-connect-to-U7-PRO-XG/6b6ce05b-623c-4a28-acda-8883333c06a4",
+            "https://community.ui.com/questions/U7-Pro-XG-issues-with-speed-set-to-2-5GbE/af53b148-b666-4239-a2e0-6a2ec989a1f2"
+          ],
+          "candidates": [
+            {
+              "title": "Random client disconnects on U7/E7",
+              "url": "https://community.ui.com/questions/Root-cause-of-random-client-disconnects-on-U7-E7-Qualcomm-firmware-kickout-with-fix/e5ee377e-01ba-4495-8614-5cd6381cc7d0"
+            },
+            {
+              "title": "U7 Pro XG issues 6ghz isolated",
+              "url": "https://community.ui.com/questions/U7-Pro-XG-issues-6ghz-wont-work-unless-completely-isolated/f327483c-8f73-48c9-9cdd-a9eda7e97121?page=0"
+            },
+            {
+              "title": "U7 Pro XG wireless clients between each other",
+              "url": "https://community.ui.com/questions/U7-Pro-XG-having-trouble-connecting-wireless-clients-between-each-other-whilst-they-both-connect-to/e04f549f-516e-44f7-9da7-175321c962b6"
+            },
+            {
+              "title": "U7 PRO XG refuses to provide Internet",
+              "url": "https://community.ui.com/questions/U7-PRO-XG-refuses-to-provide-Internet/6e317142-9e60-42e4-b996-fc2d240db9cc"
+            },
+            {
+              "title": "Slow upload speed with U7 Pro XG on 2.5GbE",
+              "url": "https://community.ui.com/questions/Slow-upload-speed-with-U7-Pro-XG-on-2-5GbE/35b5b5e4-c6be-4810-aaa6-53a741280094"
+            },
+            {
+              "title": "WiFi issue after upgrade from U6 Pro to U7 Pro XG",
+              "url": "https://community.ui.com/questions/WiFi-issue-after-upgrade-from-u6-pro-to-u7-pro-xg/ea066985-9a3a-47a0-b310-04a994fff667"
+            },
+            {
+              "title": "U7 Outdoor will not mesh connect to U7 PRO XG",
+              "url": "https://community.ui.com/questions/U7-Outdoor-will-not-mesh-connect-to-U7-PRO-XG/6b6ce05b-623c-4a28-acda-8883333c06a4"
+            },
+            {
+              "title": "U7 Pro XG issues with speed set to 2.5GbE",
+              "url": "https://community.ui.com/questions/U7-Pro-XG-issues-with-speed-set-to-2-5GbE/af53b148-b666-4239-a2e0-6a2ec989a1f2"
+            }
+          ],
+          "inspectedAt": "2026-09-06T02:17:03.313140+00:00",
+          "note": "web search 完整字串發現之相關候選集合；查詢 URL 可重播，不宣稱 Google 原生頁已讀。原頁逐人覆核與排除紀錄見 manualReview；兩個 Reddit 查詢共用其交叉發現的去重候選集合。"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"U7 Pro XG\" 問題",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22U7%20Pro%20XG%22%20%E5%95%8F%E9%A1%8C",
+          "targetHost": "mobile01.com",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=110&t=7192472"
+          ],
+          "candidates": [
+            {
+              "title": "Ubiquiti U7 Pro／XG 討論",
+              "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7192472"
+            }
+          ],
+          "inspectedAt": "2026-09-06T02:17:03.313140+00:00",
+          "note": "web search 完整字串發現之相關候選集合；查詢 URL 可重播，不宣稱 Google 原生頁已讀。原頁逐人覆核與排除紀錄見 manualReview；兩個 Reddit 查詢共用其交叉發現的去重候選集合。"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"U7 Pro XG\" \"2.5\" \"packet loss\"",
+          "searchUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22U7%20Pro%20XG%22%20%222.5%22%20%22packet%20loss%22",
+          "targetHost": "reddit.com",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 13,
+          "candidateUrls": [
+            "https://www.reddit.com/r/Ubiquiti/comments/1v9pp5d/u7_pro_xg_problems/",
+            "https://www.reddit.com/r/Ubiquiti/comments/1ppc255/u7_pro_xg_stability_issues/",
+            "https://www.reddit.com/r/Ubiquiti/comments/1u7cwmf/unifi_u7_pro_xg_goes_offline/",
+            "https://www.reddit.com/r/Ubiquiti/comments/1v2dsqf/u7_pro_xg_wifi_clients_stuck_until_ap_restart_ucg/",
+            "https://www.reddit.com/r/Ubiquiti/comments/1ts70er/overall_impressed_u7_pro_xg_is_hot_garbage/",
+            "https://www.reddit.com/r/Ubiquiti/comments/1v8rddv/two_u7_pro_xgxgs_aps_dead_with_identical_symptoms/",
+            "https://www.reddit.com/r/Ubiquiti/comments/1ne5118/disappointed_with_u7_pro_xg_did_i_buy_the_wrong/",
+            "https://www.reddit.com/r/Ubiquiti/comments/1sod35l/u7_pro_xg_weak_5ghz_design_center_planning/",
+            "https://www.reddit.com/r/Ubiquiti/comments/1vkmikb/u7_in_wall_uplink_issues/",
+            "https://www.reddit.com/r/UNIFI/comments/1q6064x/packet_loss_on_u7_pro_xg/",
+            "https://www.reddit.com/r/Ubiquiti/comments/1ktwoxe/issues_with_cg_fiber_and_u7_pro_xg/",
+            "https://www.reddit.com/r/Ubiquiti/comments/1snjry4/u7_pro_xg_shows_online_but_devices_have_no/",
+            "https://www.reddit.com/r/UNIFI/comments/1jq2p81/in_case_anyone_else_has_this_issue_u7_pro_xg_and/"
+          ],
+          "candidates": [
+            {
+              "title": "U7 Pro XG problems",
+              "url": "https://www.reddit.com/r/Ubiquiti/comments/1v9pp5d/u7_pro_xg_problems/"
+            },
+            {
+              "title": "U7 Pro XG stability issues",
+              "url": "https://www.reddit.com/r/Ubiquiti/comments/1ppc255/u7_pro_xg_stability_issues/"
+            },
+            {
+              "title": "UniFi U7 Pro XG goes offline",
+              "url": "https://www.reddit.com/r/Ubiquiti/comments/1u7cwmf/unifi_u7_pro_xg_goes_offline/"
+            },
+            {
+              "title": "U7 Pro XG wifi clients stuck until AP restart",
+              "url": "https://www.reddit.com/r/Ubiquiti/comments/1v2dsqf/u7_pro_xg_wifi_clients_stuck_until_ap_restart_ucg/"
+            },
+            {
+              "title": "Overall impressed U7 Pro XG is hot garbage",
+              "url": "https://www.reddit.com/r/Ubiquiti/comments/1ts70er/overall_impressed_u7_pro_xg_is_hot_garbage/"
+            },
+            {
+              "title": "Two U7 Pro XG/XGS APs dead",
+              "url": "https://www.reddit.com/r/Ubiquiti/comments/1v8rddv/two_u7_pro_xgxgs_aps_dead_with_identical_symptoms/"
+            },
+            {
+              "title": "Disappointed with U7 Pro XG",
+              "url": "https://www.reddit.com/r/Ubiquiti/comments/1ne5118/disappointed_with_u7_pro_xg_did_i_buy_the_wrong/"
+            },
+            {
+              "title": "U7 Pro XG weak 5ghz design center planning",
+              "url": "https://www.reddit.com/r/Ubiquiti/comments/1sod35l/u7_pro_xg_weak_5ghz_design_center_planning/"
+            },
+            {
+              "title": "U7 In Wall uplink issues",
+              "url": "https://www.reddit.com/r/Ubiquiti/comments/1vkmikb/u7_in_wall_uplink_issues/"
+            },
+            {
+              "title": "Packet loss on U7 Pro XG",
+              "url": "https://www.reddit.com/r/UNIFI/comments/1q6064x/packet_loss_on_u7_pro_xg/"
+            },
+            {
+              "title": "Issues with CG Fiber and U7 Pro Xg",
+              "url": "https://www.reddit.com/r/Ubiquiti/comments/1ktwoxe/issues_with_cg_fiber_and_u7_pro_xg/"
+            },
+            {
+              "title": "U7 Pro XG shows online but devices have no internet",
+              "url": "https://www.reddit.com/r/Ubiquiti/comments/1snjry4/u7_pro_xg_shows_online_but_devices_have_no/"
+            },
+            {
+              "title": "In case anyone else has this issue - U7 Pro XG and 6ghz connection issues on 2.5gbps uplink",
+              "url": "https://www.reddit.com/r/UNIFI/comments/1jq2p81/in_case_anyone_else_has_this_issue_u7_pro_xg_and/"
+            }
+          ],
+          "inspectedAt": "2026-09-06T02:17:03.313140+00:00",
+          "note": "web search 完整字串發現之相關候選集合；查詢 URL 可重播，不宣稱 Google 原生頁已讀。原頁逐人覆核與排除紀錄見 manualReview；兩個 Reddit 查詢共用其交叉發現的去重候選集合。"
+        }
+      ],
+      "evidence": [
+        {
+          "issueTitle": "2.5GbE 上行在部分組合丟包或中斷，固定 1GbE 後改善",
+          "platform": "Ubiquiti Community",
+          "title": "U7 Pro XG issues with speed set to 2.5GbE",
+          "url": "https://community.ui.com/questions/U7-Pro-XG-issues-with-speed-set-to-2-5GbE/af53b148-b666-4239-a2e0-6a2ec989a1f2",
+          "evidenceSnippet": "五位具名 XG 作者各自回報 2.5G 上行異常與 1G 改善，設備及韌體各異。",
+          "authors": [
+            "Network_Guru",
+            "e.ts",
+            "mikemcd",
+            "morini3andahalf",
+            "fidecastro"
+          ],
+          "distinctReportCount": 5,
+          "checkedAt": "2026-09-06",
+          "reports": [
+            {
+              "author": "Network_Guru",
+              "permalink": "https://community.ui.com/questions/U7-Pro-XG-issues-with-speed-set-to-2-5GbE/af53b148-b666-4239-a2e0-6a2ec989a1f2?replyId=ad968ff4-7d8f-4378-aa4f-0f2b0396dca8&parentReplyIds=b0b24306-5490-4dd5-be2a-ba98884a37c6%2C4f7046db-d7b2-44fa-9ff6-0aa96ddbad7a",
+              "locator": "回覆 ad968ff4；同作者 2d0cc94c 明示 U7 Pro XG／USW Pro Max 16 PoE",
+              "evidenceExcerpt": "自己的 XG 直連 Pro Max 16 PoE；升至 8.7.11 RC 在 2.5G 仍失去內外網連線，改回 1G 才恢復。",
+              "auditNote": "自己的 XG 直連 Pro Max 16 PoE；升至 8.7.11 RC 在 2.5G 仍失去內外網連線，改回 1G 才恢復。 Chrome 人工讀取作者自身設備和升版後追蹤；兩則同作者合併一人，非借用 XGS 回覆。",
+              "exactModel": true,
+              "firstPerson": true,
+              "crossPostKey": null,
+              "reviewBasis": "manual_original_page",
+              "reviewedAt": "2026-09-06"
+            },
+            {
+              "author": "e.ts",
+              "permalink": "https://community.ui.com/questions/U7-Pro-XG-issues-with-speed-set-to-2-5GbE/af53b148-b666-4239-a2e0-6a2ec989a1f2?replyId=4c3f8837-d6d5-4315-8fa4-8d97279debc5",
+              "locator": "回覆 4c3f8837；搜尋作者 e.ts 及 8.7.11",
+              "evidenceExcerpt": "明示自己的 U7 Pro XG 在 2.5GbE 有丟包與不穩，強制 1GbE 才穩定。",
+              "auditNote": "明示自己的 U7 Pro XG 在 2.5GbE 有丟包與不穩，強制 1GbE 才穩定。 Chrome 原頁確認第一人稱和 exact XG；Reddit evtsir 相同段落在 candidateReviews 顯式排除，只保留 e.ts 一筆 ledger，不把跨站轉貼再算人。",
+              "exactModel": true,
+              "firstPerson": true,
+              "crossPostKey": null,
+              "reviewBasis": "manual_original_page",
+              "reviewedAt": "2026-09-06"
+            },
+            {
+              "author": "mikemcd",
+              "permalink": "https://community.ui.com/questions/U7-Pro-XG-issues-with-speed-set-to-2-5GbE/af53b148-b666-4239-a2e0-6a2ec989a1f2?replyId=3ee1c765-6139-4372-aa28-ba77aa3ce438",
+              "locator": "回覆 3ee1c765，後續 f97a7d10",
+              "evidenceExcerpt": "XG 經 10G PoE++ 注入器接 Flex 2.5G-5，在自動或固定 2.5G 會丟包；1G 正常，升 8.7.11 仍重現。",
+              "auditNote": "XG 經 10G PoE++ 注入器接 Flex 2.5G-5，在自動或固定 2.5G 會丟包；1G 正常，升 8.7.11 仍重現。 Chrome 逐讀本人原帖及次日追蹤，明示 XG 和供電器／交換器，後續回覆只算同一作者。",
+              "exactModel": true,
+              "firstPerson": true,
+              "crossPostKey": null,
+              "reviewBasis": "manual_original_page",
+              "reviewedAt": "2026-09-06"
+            },
+            {
+              "author": "morini3andahalf",
+              "permalink": "https://community.ui.com/questions/U7-Pro-XG-issues-with-speed-set-to-2-5GbE/af53b148-b666-4239-a2e0-6a2ec989a1f2?replyId=de96e6ff-6935-4c8a-b3f2-28ca4cbb9898",
+              "locator": "回覆 de96e6ff；後續 d5643d15 對照中功率／1G",
+              "evidenceExcerpt": "AC Pro 換 XG 後在 2.5G 有斷線、丟包，需每日重開；固定 1G 後連續五日穩定，中發射功率未解決。",
+              "auditNote": "AC Pro 換 XG 後在 2.5G 有斷線、丟包，需每日重開；固定 1G 後連續五日穩定，中發射功率未解決。 Chrome 確認作者自身換機和速度對照，後續仍是本人測試，不把家人抱怨加算作者。",
+              "exactModel": true,
+              "firstPerson": true,
+              "crossPostKey": null,
+              "reviewBasis": "manual_original_page",
+              "reviewedAt": "2026-09-06"
+            },
+            {
+              "author": "fidecastro",
+              "permalink": "https://community.ui.com/questions/U7-Pro-XG-issues-with-speed-set-to-2-5GbE/af53b148-b666-4239-a2e0-6a2ec989a1f2?replyId=bbebbe49-4621-45ef-b341-a9c2057a3a69&parentReplyIds=c3856631-fac0-46bb-a203-c45b3e74a305",
+              "locator": "回覆 bbebbe49；後續 00e2b9c0",
+              "evidenceExcerpt": "XG 8.6.11 直連 UCG Fiber 的 2.5G 在重開後開始丟包；降發射功率曾暫好，後續又復發並需 1G。",
+              "auditNote": "XG 8.6.11 直連 UCG Fiber 的 2.5G 在重開後開始丟包；降發射功率曾暫好，後續又復發並需 1G。 Chrome 人工讀本人设备與後續事件；只採本人觀察，不採其 AI 協作 PHY 根因推論，也未下載附件。",
+              "exactModel": true,
+              "firstPerson": true,
+              "crossPostKey": null,
+              "reviewBasis": "manual_original_page",
+              "reviewedAt": "2026-09-06"
+            }
+          ]
+        },
+        {
+          "issueTitle": "2.5GbE 上行在部分組合丟包或中斷，固定 1GbE 後改善",
+          "platform": "Reddit",
+          "title": "In case anyone else has this issue - U7 Pro XG and 6ghz connection issues on 2.5gbps uplink",
+          "url": "https://www.reddit.com/r/UNIFI/comments/1jq2p81/in_case_anyone_else_has_this_issue_u7_pro_xg_and/",
+          "evidenceSnippet": "一位 XG 作者以同一 AP 改接 1G 埠後，本地流量恢復；XGS 作者排除。",
+          "authors": [
+            "dpgator33"
+          ],
+          "distinctReportCount": 1,
+          "checkedAt": "2026-09-06",
+          "reports": [
+            {
+              "author": "dpgator33",
+              "permalink": "https://www.reddit.com/r/UNIFI/comments/1jq2p81/in_case_anyone_else_has_this_issue_u7_pro_xg_and/",
+              "locator": "原帖作者 dpgator33；首段 Pro Max 16 POE port 15 與下一段改接 1G",
+              "evidenceExcerpt": "自己的 XG 接 Pro Max 16 PoE 2.5G 時，多台 6GHz 設備只有個位數 Mbps；改 1G 埠後本地測速恢復接近 1Gbps。",
+              "auditNote": "自己的 XG 接 Pro Max 16 PoE 2.5G 時，多台 6GHz 設備只有個位數 Mbps；改 1G 埠後本地測速恢復接近 1Gbps。 人工閱讀 Reddit 原帖與本人未切回 2.5G 的追蹤；XGS 回覆 w35t3r0s 排除。同名 Community 6GHz 串只作背景、不重複計人。",
+              "exactModel": true,
+              "firstPerson": true,
+              "crossPostKey": null,
+              "reviewBasis": "manual_original_page",
+              "reviewedAt": "2026-09-06"
+            }
+          ]
+        }
+      ],
+      "rejectedCandidates": [
+        {
+          "url": "https://www.reddit.com/r/Ubiquiti/comments/1v9pp5d/u7_pro_xg_problems/",
+          "title": "U7 Pro XG problems",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "evtsir 描述 2.5GbE 丟包且 1GbE 正常，與 Community e.ts 的段落幾乎逐字一致。robertoleonardo 提到閣樓熱環境但沒明示 exact 型號；Excellent_Milk_3110 描述 10 台 XG DHCP 問題、升版後改善。",
+          "independentAuthors": 1,
+          "specificReason": "evtsir 與 e.ts 在候選處置明確去重並只保留 e.ts 的 ledger，已計 Community e.ts 一人；其餘未明型號或未完成 2.5 對 1GbE 條件核對，不額外擴大人數。",
+          "reason": "evtsir 與 e.ts 在候選處置明確去重並只保留 e.ts 的 ledger，已計 Community e.ts 一人；其餘未明型號或未完成 2.5 對 1GbE 條件核對，不額外擴大人數。"
+        },
+        {
+          "url": "https://www.reddit.com/r/Ubiquiti/comments/1ppc255/u7_pro_xg_stability_issues/",
+          "title": "U7 Pro XG stability issues",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "quattrotom 的 S22 Ultra 與 Brother 印表機在近距離掉 Wi-Fi；原帖只有機器人回覆。",
+          "independentAuthors": 1,
+          "specificReason": "可辨識一位無線連線問題作者，但未指向 2.5GbE 上行與固定 1GbE 改善的同一條件，不併入本次集中問題。",
+          "reason": "可辨識一位無線連線問題作者，但未指向 2.5GbE 上行與固定 1GbE 改善的同一條件，不併入本次集中問題。"
+        },
+        {
+          "url": "https://www.reddit.com/r/Ubiquiti/comments/1u7cwmf/unifi_u7_pro_xg_goes_offline/",
+          "title": "UniFi U7 Pro XG goes offline",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "LieOrdinary398 指 AP 在使用六個月後每隔 5–10 分鐘離線上線；回覆建議檢查 PoE、線與韌體。",
+          "independentAuthors": 1,
+          "specificReason": "這是整台 AP 離線回報，未核定為 2.5GbE 丟包；其他留言是建議，不增加独立案例。",
+          "reason": "這是整台 AP 離線回報，未核定為 2.5GbE 丟包；其他留言是建議，不增加独立案例。"
+        },
+        {
+          "url": "https://www.reddit.com/r/Ubiquiti/comments/1v2dsqf/u7_pro_xg_wifi_clients_stuck_until_ap_restart_ucg/",
+          "title": "U7 Pro XG wifi clients stuck until AP restart",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "evtsir 的 UCG Fiber 2.5GbE PoE 接 XG，AP 藍燈在線但客戶端無流量，重開 AP 才恢復。",
+          "independentAuthors": 1,
+          "specificReason": "作者與另串及 Community e.ts 轉貼屬同一案例鏈，不把多篇相同作者回報重複計人。",
+          "reason": "作者與另串及 Community e.ts 轉貼屬同一案例鏈，不把多篇相同作者回報重複計人。"
+        },
+        {
+          "url": "https://www.reddit.com/r/Ubiquiti/comments/1ts70er/overall_impressed_u7_pro_xg_is_hot_garbage/",
+          "title": "Overall impressed U7 Pro XG is hot garbage",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "me00711 的主文描述走幾步訊號大幅下降，換 E7 後好轉。",
+          "independentAuthors": 1,
+          "specificReason": "主文是覆蓋範圍經驗，不符合有線 2.5GbE 對 1GbE 的問題界線；未將整串所有回覆宣称為同症狀。",
+          "reason": "主文是覆蓋範圍經驗，不符合有線 2.5GbE 對 1GbE 的問題界線；未將整串所有回覆宣称為同症狀。"
+        },
+        {
+          "url": "https://www.reddit.com/r/Ubiquiti/comments/1v8rddv/two_u7_pro_xgxgs_aps_dead_with_identical_symptoms/",
+          "title": "Two U7 Pro XG/XGS APs dead",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "xGuenth 的一台 XG 與一台 XGS 顯示白燈且無法採用／重設。",
+          "independentAuthors": 1,
+          "specificReason": "同作者兩設備只算一人，XGS 排除；XG 為開機／採用故障，不等同 2.5GbE 丟包。",
+          "reason": "同作者兩設備只算一人，XGS 排除；XG 為開機／採用故障，不等同 2.5GbE 丟包。"
+        },
+        {
+          "url": "https://www.reddit.com/r/Ubiquiti/comments/1ne5118/disappointed_with_u7_pro_xg_did_i_buy_the_wrong/",
+          "title": "Disappointed with U7 Pro XG",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "ioncodes 比較隔間後的 5GHz 速度，調整頻寬後改善；The_Taurus_70s 壁掛轉天花板後改善。chili_oil 提及弱 RSSI 但仍可達 600Mbps。",
+          "independentAuthors": 1,
+          "specificReason": "覆蓋、安裝位置、頻寬設定的差異未證明相同 2.5GbE 問題；XGS 與未明示型號者不計。",
+          "reason": "覆蓋、安裝位置、頻寬設定的差異未證明相同 2.5GbE 問題；XGS 與未明示型號者不計。"
+        },
+        {
+          "url": "https://www.reddit.com/r/Ubiquiti/comments/1sod35l/u7_pro_xg_weak_5ghz_design_center_planning/",
+          "title": "U7 Pro XG weak 5ghz design center planning",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "Materidan 尚在 Design Center 模擬選購；whiskey-water 簡述自己 XG 的覆蓋和 IoT 不滿，沒有 2.5 對 1G 測試。",
+          "independentAuthors": 1,
+          "specificReason": "模擬圖不是實際故障；其他泛稱覆蓋／IoT 抱怨未符合本次有線鏈路問題界線。",
+          "reason": "模擬圖不是實際故障；其他泛稱覆蓋／IoT 抱怨未符合本次有線鏈路問題界線。"
+        },
+        {
+          "url": "https://www.reddit.com/r/Ubiquiti/comments/1vkmikb/u7_in_wall_uplink_issues/",
+          "title": "U7 In Wall uplink issues",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "Hefty_Remove7965 主文是 U7 In Wall；mahlfors 回覆自己 U7 Pro XG 也有類似速率下降，未提供固定 1GbE 對照。",
+          "independentAuthors": 1,
+          "specificReason": "In Wall 與 XG Wall 不同型號排除；mahlfors 的相似速率協商描述尚不足併入所選六人的明確同症狀集合。",
+          "reason": "In Wall 與 XG Wall 不同型號排除；mahlfors 的相似速率協商描述尚不足併入所選六人的明確同症狀集合。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7192472",
+          "title": "Ubiquiti U7 Pro／XG 討論",
+          "platform": "Mobile01",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "已讀 10 則：derliang 原本持有 U7 Pro，僅提新 XG 的價差；其他為購買與設定建議。",
+          "independentAuthors": 0,
+          "specificReason": "未有作者明確持有 U7 Pro XG 並回報故障；原 U7 Pro 不能套為 XG。",
+          "reason": "未有作者明確持有 U7 Pro XG 並回報故障；原 U7 Pro 不能套為 XG。"
+        },
+        {
+          "url": "https://community.ui.com/questions/Root-cause-of-random-client-disconnects-on-U7-E7-Qualcomm-firmware-kickout-with-fix/e5ee377e-01ba-4495-8614-5cd6381cc7d0",
+          "title": "Random client disconnects on U7/E7",
+          "platform": "Ubiquiti Community",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "rmk 自述 4 台 U7 Pro XG 的客戶端踢除，sirgrant618 自述 U7 Lite 和 XG 類似；CohesionJC 反而沒有使用問題。",
+          "independentAuthors": 2,
+          "specificReason": "兩位同型號客戶端掉線作者未做 2.5GbE／1GbE 條件對照，不與有線上行事件混算。Kickout 或根因說明是作者解釋，非官方定論。",
+          "reason": "兩位同型號客戶端掉線作者未做 2.5GbE／1GbE 條件對照，不與有線上行事件混算。Kickout 或根因說明是作者解釋，非官方定論。"
+        },
+        {
+          "url": "https://community.ui.com/questions/U7-Pro-XG-issues-6ghz-wont-work-unless-completely-isolated/f327483c-8f73-48c9-9cdd-a9eda7e97121?page=0",
+          "title": "U7 Pro XG issues 6ghz isolated",
+          "platform": "Ubiquiti Community",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "dpgator33 描述 iPhone 16 在 6GHz 不穩，SSID/VLAN 隔離暫改善；vkirienko 的兩台 XG 曾不穩但重啟後五日穩定，achujacob 使用 XGS。",
+          "independentAuthors": 1,
+          "specificReason": "dpgator33 在 Reddit 另有明確 2.5→1GbE 對照且只計一次；其他未符合相同條件或不同型號。",
+          "reason": "dpgator33 在 Reddit 另有明確 2.5→1GbE 對照且只計一次；其他未符合相同條件或不同型號。"
+        },
+        {
+          "url": "https://community.ui.com/questions/U7-Pro-XG-having-trouble-connecting-wireless-clients-between-each-other-whilst-they-both-connect-to/e04f549f-516e-44f7-9da7-175321c962b6",
+          "title": "U7 Pro XG wireless clients between each other",
+          "platform": "Ubiquiti Community",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "rogervn 的無線客戶端彼此無法 ping，但可上網並可連有線設備，重新連線改善。",
+          "independentAuthors": 1,
+          "specificReason": "局域網客戶端互通／DHCP 更新症狀，未顯示相同 2.5GbE 上行條件；只有一名作者。",
+          "reason": "局域網客戶端互通／DHCP 更新症狀，未顯示相同 2.5GbE 上行條件；只有一名作者。"
+        },
+        {
+          "url": "https://community.ui.com/questions/U7-PRO-XG-refuses-to-provide-Internet/6e317142-9e60-42e4-b996-fc2d240db9cc",
+          "title": "U7 PRO XG refuses to provide Internet",
+          "platform": "Ubiquiti Community",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "HiPS-CA 的 UCG Fiber＋XG 可連本地服務但無 WAN，重设 AP 改善；Merlin4321 有手機部分應用逾時。",
+          "independentAuthors": 2,
+          "specificReason": "這兩種症狀未確認為同一 2.5GbE 問題；Jordan_Lewis 未明示自身 exact 型號，建議回覆不計人。",
+          "reason": "這兩種症狀未確認為同一 2.5GbE 問題；Jordan_Lewis 未明示自身 exact 型號，建議回覆不計人。"
+        },
+        {
+          "url": "https://community.ui.com/questions/Slow-upload-speed-with-U7-Pro-XG-on-2-5GbE/35b5b5e4-c6be-4810-aaa6-53a741280094",
+          "title": "Slow upload speed with U7 Pro XG on 2.5GbE",
+          "platform": "Ubiquiti Community",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "rasmusb234 的 UCG Fiber 連 XG 在 2.5GbE 為 900/400，1GbE 為 900/900；icediele 使用 U7 Pro 與 UDR7。",
+          "independentAuthors": 1,
+          "specificReason": "單向速度下降沒有同時報告丟包或連線失效，採較窄問題集合，未增加這一人；U7 Pro 不同型號排除。",
+          "reason": "單向速度下降沒有同時報告丟包或連線失效，採較窄問題集合，未增加這一人；U7 Pro 不同型號排除。"
+        },
+        {
+          "url": "https://community.ui.com/questions/WiFi-issue-after-upgrade-from-u6-pro-to-u7-pro-xg/ea066985-9a3a-47a0-b310-04a994fff667",
+          "title": "WiFi issue after upgrade from U6 Pro to U7 Pro XG",
+          "platform": "Ubiquiti Community",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "andyaw 升級 XG 與新交換器後漫遊至 U6 取得 169 位址；後續發現兩台交換器間隔離。",
+          "independentAuthors": 1,
+          "specificReason": "跨交换器／跨型號網路拓撲問題，不能歸因為 exact XG 的 2.5GbE 集中事件。",
+          "reason": "跨交换器／跨型號網路拓撲問題，不能歸因為 exact XG 的 2.5GbE 集中事件。"
+        },
+        {
+          "url": "https://community.ui.com/questions/U7-Outdoor-will-not-mesh-connect-to-U7-PRO-XG/6b6ce05b-623c-4a28-acda-8883333c06a4",
+          "title": "U7 Outdoor will not mesh connect to U7 PRO XG",
+          "platform": "Ubiquiti Community",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "ohlhome 的 Outdoor 不能連 XG 父 AP，切換 Outdoor Omni 天線後可連；lwsrbrts 是 Outdoor 模式解法。",
+          "independentAuthors": 1,
+          "specificReason": "問題由 Outdoor 天線設定改善，屬另一设备／Mesh 配置，不計作 XG 的有線丟包。",
+          "reason": "問題由 Outdoor 天線設定改善，屬另一设备／Mesh 配置，不計作 XG 的有線丟包。"
+        },
+        {
+          "url": "https://www.reddit.com/r/UNIFI/comments/1q6064x/packet_loss_on_u7_pro_xg/",
+          "title": "Packet loss on U7 Pro XG",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "lynxblaine 的 UCG Max＋XG 有間歇乙太鏈路丟包；vlkivlki 以 1GbE 避免丟包，但其 Cat5e 線品質尚未排除。",
+          "independentAuthors": 2,
+          "specificReason": "是相關候選但線材／PoE／Gateway 因子尚未解清；本輪以另六位更直接對照回報建立門檻，不再擴大報告人數。lynxblaine 跨 subreddit 自述轉貼只是一人。",
+          "reason": "是相關候選但線材／PoE／Gateway 因子尚未解清；本輪以另六位更直接對照回報建立門檻，不再擴大報告人數。lynxblaine 跨 subreddit 自述轉貼只是一人。"
+        },
+        {
+          "url": "https://www.reddit.com/r/Ubiquiti/comments/1ktwoxe/issues_with_cg_fiber_and_u7_pro_xg/",
+          "title": "Issues with CG Fiber and U7 Pro Xg",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "BustedSwitch21 的 2.5G 問題後來換 Cat6A 解決；dormamused 暫以 1GbE，佈線含多段耦合；Kind_Sail1183 是 PoE 警告後改交換器。",
+          "independentAuthors": 2,
+          "specificReason": "有 exact XG 相關問題，但原作者換線解決且其他案例尚有供電／多段線材變因；不額外計入本次明確六人的集中問題集合。",
+          "reason": "有 exact XG 相關問題，但原作者換線解決且其他案例尚有供電／多段線材變因；不額外計入本次明確六人的集中問題集合。"
+        },
+        {
+          "url": "https://www.reddit.com/r/Ubiquiti/comments/1snjry4/u7_pro_xg_shows_online_but_devices_have_no/",
+          "title": "U7 Pro XG shows online but devices have no internet",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "j2chulo 說客服要求改 1Gbps，但改後仍只有約 30Mbps；AP 在線但客戶端無 WAN。",
+          "independentAuthors": 1,
+          "specificReason": "没有確認固定 1GbE 能恢復正常的對照結果，與所採用問題界線不同；提議換線的留言不是本人故障。",
+          "reason": "没有確認固定 1GbE 能恢復正常的對照結果，與所採用問題界線不同；提議換線的留言不是本人故障。"
+        }
+      ]
+    },
+    {
+      "id": "chair-razer-iskur-v2-newgen",
+      "category": "chair",
+      "brand": "Razer",
+      "model": "Iskur V2 NewGen",
+      "name": "Iskur V2 NewGen 人體工學電競椅（黑色 RZ38-04900800-R3CA）",
+      "identity": {
+        "canonicalModel": "Iskur V2 NewGen",
+        "lookupLabel": "Razer Iskur V2 NewGen",
+        "aliases": [
+          "RZ38-04900800-R3CA"
+        ],
+        "evidenceUrl": "https://www.pcparty.com.tw/products/razer-iskur-v2-newgen-gaming-chair"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-09-06",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"Iskur V2 NewGen\" (問題 OR 故障 OR 缺點 OR 心得)",
+            "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22Iskur%20V2%20NewGen%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%BC%BA%E9%BB%9E%20OR%20%E5%BF%83%E5%BE%97)"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"Iskur V2 NewGen\" (problem OR issue OR defect OR failure OR uncomfortable)",
+            "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22Iskur%20V2%20NewGen%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20uncomfortable)"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"Iskur V2 NewGen\"",
+            "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22Iskur%20V2%20NewGen%22"
+          }
+        ],
+        "candidateDisposition": "Iskur V2 NewGen：2026-09-06 人工閱讀 Mobile01 串 7269035 目前實際可見的第 1–12 頁（#1–111）及原頁回覆。氣壓棒回報未確認 NewGen，舊 V2 的縫線裂明確不同款；其餘熱感多為購買前疑問、皮椅泛論或媒體短期觀察，無可計入的 exact NewGen 消費者集中問題。Reddit 完整型號及 New Gen 變體查詢均未返回 exact-model 候選。搜尋索引稱 355 回覆／36 頁，但 web 原頁與 Chrome p=36 均只提供第 12 頁至 #111；未宣稱閱讀不可見的其餘回覆。未達同一問題 6 名獨立使用者、2 個原始網站門檻；不表示完全沒有負評。",
+        "representativeSources": [
+          {
+            "platform": "Mobile01",
+            "title": "Razer Iskur V2 NewGen 開箱體驗：第 1 頁 #1–10",
+            "url": "https://www.mobile01.com/topicdetail.php?f=685&t=7269035"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "Razer Iskur V2 NewGen 開箱體驗：第 2 頁 #11–20",
+            "url": "https://www.mobile01.com/topicdetail.php?f=685&t=7269035&p=2"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "Razer Iskur V2 NewGen 開箱體驗：第 3 頁 #21–30",
+            "url": "https://www.mobile01.com/topicdetail.php?f=685&t=7269035&p=3"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "Razer Iskur V2 NewGen 開箱體驗：第 4 頁 #31–40",
+            "url": "https://www.mobile01.com/topicdetail.php?f=685&t=7269035&p=4"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "Razer Iskur V2 NewGen 開箱體驗：第 5 頁 #41–50",
+            "url": "https://www.mobile01.com/topicdetail.php?f=685&t=7269035&p=5"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "Razer Iskur V2 NewGen 開箱體驗：第 6 頁 #51–60",
+            "url": "https://www.mobile01.com/topicdetail.php?f=685&t=7269035&p=6"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "Razer Iskur V2 NewGen 開箱體驗：第 7 頁 #61–70",
+            "url": "https://www.mobile01.com/topicdetail.php?f=685&t=7269035&p=7"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "Razer Iskur V2 NewGen 開箱體驗：第 8 頁 #71–80",
+            "url": "https://www.mobile01.com/topicdetail.php?f=685&t=7269035&p=8"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "Razer Iskur V2 NewGen 開箱體驗：第 9 頁 #81–90",
+            "url": "https://www.mobile01.com/topicdetail.php?f=685&t=7269035&p=9"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "Razer Iskur V2 NewGen 開箱體驗：第 10 頁 #91–100",
+            "url": "https://www.mobile01.com/topicdetail.php?f=685&t=7269035&p=10"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "Razer Iskur V2 NewGen 開箱體驗：第 11 頁 #101–110",
+            "url": "https://www.mobile01.com/topicdetail.php?f=685&t=7269035&p=11"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "Razer Iskur V2 NewGen 開箱體驗：第 12 頁 #111",
+            "url": "https://www.mobile01.com/topicdetail.php?f=685&t=7269035&p=12"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=685&t=7269035",
+            "title": "Razer Iskur V2 NewGen 開箱體驗：第 1 頁 #1–10",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "Bryan.S 的媒體開箱含不到一個月的 NewGen 體驗；長坐仍會感到熱，但比上一代更晚。文中縫線微裂明確描述使用近兩年的舊 Iskur V2。ives71 詢問透氣、有錢人小迷糊談別牌耐久期待。",
+            "independentAuthors": 0,
+            "specificReason": "媒體評測不作獨立消費者災情人數；舊 V2 縫線問題型號不符，其餘為疑問／期望。",
+            "locator": "討論串 7269035，第 1 頁，#1–10",
+            "note": "exactModel=true 表示串主 NewGen 型號；個別回覆仍各自核對，不代表每位回覆者持有 NewGen。independentAuthors 為此候選中可計入集中問題的獨立作者數。"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=685&t=7269035&p=2",
+            "title": "Razer Iskur V2 NewGen 開箱體驗：第 2 頁 #11–20",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "samchen1023（#14）擔心透氣，InCompleteKelly（#19）詢問久坐熱感；restv（#18）認為價格高且需試坐；wilddog（#20）評論椅體視覺比例。",
+            "independentAuthors": 0,
+            "specificReason": "未有 exact NewGen 第一人稱故障；熱感疑問與價格／尺寸偏好不計故障作者。",
+            "locator": "討論串 7269035，第 2 頁，#11–20",
+            "note": "exactModel=true 表示串主 NewGen 型號；個別回覆仍各自核對，不代表每位回覆者持有 NewGen。independentAuthors 為此候選中可計入集中問題的獨立作者數。"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=685&t=7269035&p=3",
+            "title": "Razer Iskur V2 NewGen 開箱體驗：第 3 頁 #21–30",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "bugatti（#27／93240301）自述 Razer 椅三年內換三次氣壓棒、過保後下沉，但全文沒寫 NewGen；Anting7964（#28）只詢問皮革及氣壓棒壽命；一起飛高高（#21）是皮椅熱感推論。",
+            "independentAuthors": 0,
+            "specificReason": "bugatti 具第一人稱但型號未明，三年使用期亦不能證明 NewGen，排除；詢問及推測不計人數。",
+            "locator": "討論串 7269035，第 3 頁，#21–30",
+            "note": "exactModel=true 表示串主 NewGen 型號；個別回覆仍各自核對，不代表每位回覆者持有 NewGen。independentAuthors 為此候選中可計入集中問題的獨立作者數。"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=685&t=7269035&p=4",
+            "title": "Razer Iskur V2 NewGen 開箱體驗：第 4 頁 #31–40",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "肯楊（#34）問透氣；m3poser（#35）不滿後仰角度不到 170–180 度；天空之辰（#37）希望腳托並說皮椅需要冷氣；Floyd4923（#39）認為皮革不適合久坐。",
+            "independentAuthors": 0,
+            "specificReason": "後仰角及腳托為規格／偏好評論；熱感均未證實持有此 exact model。",
+            "locator": "討論串 7269035，第 4 頁，#31–40",
+            "note": "exactModel=true 表示串主 NewGen 型號；個別回覆仍各自核對，不代表每位回覆者持有 NewGen。independentAuthors 為此候選中可計入集中問題的獨立作者數。"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=685&t=7269035&p=5",
+            "title": "Razer Iskur V2 NewGen 開箱體驗：第 5 頁 #41–50",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "beaszero（#45）推想夏季不開冷氣會悶；KHeresy（#46）使用網椅並說皮椅看起來熱；goalie（#49）偏好網椅；nicklove34346117（#47）評論價格。",
+            "independentAuthors": 0,
+            "specificReason": "未有 exact NewGen 第一人稱問題；外觀推測及價格偏好不計。",
+            "locator": "討論串 7269035，第 5 頁，#41–50",
+            "note": "exactModel=true 表示串主 NewGen 型號；個別回覆仍各自核對，不代表每位回覆者持有 NewGen。independentAuthors 為此候選中可計入集中問題的獨立作者數。"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=685&t=7269035&p=6",
+            "title": "Razer Iskur V2 NewGen 開箱體驗：第 6 頁 #51–60",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "romanprince（#54／93244833）說皮椅熱並會加竹蓆，未表明這張 NewGen；srxmkiii（#53）泛談 Razer 舒適度及台灣夏季偏好網椅；車車168（#51）談品牌已有五六年。",
+            "independentAuthors": 0,
+            "specificReason": "romanprince 泛指皮椅，缺 exact-model 持有證據；品牌年資及一般比較不轉成 NewGen 災情。",
+            "locator": "討論串 7269035，第 6 頁，#51–60",
+            "note": "exactModel=true 表示串主 NewGen 型號；個別回覆仍各自核對，不代表每位回覆者持有 NewGen。independentAuthors 為此候選中可計入集中問題的獨立作者數。"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=685&t=7269035&p=7",
+            "title": "Razer Iskur V2 NewGen 開箱體驗：第 7 頁 #61–70",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "左柔飛（#62）詢問皮椅與網椅；k078787878（#66）覺得看起來熱需冷氣；tommybatistuta（#63）及做工的傑克（#65）提出功能想法。",
+            "independentAuthors": 0,
+            "specificReason": "詢問、外觀熱感及新增功能願望，均非已使用 NewGen 的故障回報。",
+            "locator": "討論串 7269035，第 7 頁，#61–70",
+            "note": "exactModel=true 表示串主 NewGen 型號；個別回覆仍各自核對，不代表每位回覆者持有 NewGen。independentAuthors 為此候選中可計入集中問題的獨立作者數。"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=685&t=7269035&p=8",
+            "title": "Razer Iskur V2 NewGen 開箱體驗：第 8 頁 #71–80",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "gn01201229（#71）打算找機會試坐；emptyheart（#75）目前用網椅；風鈴吟（#78）仍不確定透氣；zzcc（#79）想試坐。",
+            "independentAuthors": 0,
+            "specificReason": "購買前考慮及其他椅款持有經驗，沒有 NewGen 第一人稱問題。",
+            "locator": "討論串 7269035，第 8 頁，#71–80",
+            "note": "exactModel=true 表示串主 NewGen 型號；個別回覆仍各自核對，不代表每位回覆者持有 NewGen。independentAuthors 為此候選中可計入集中問題的獨立作者數。"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=685&t=7269035&p=9",
+            "title": "Razer Iskur V2 NewGen 開箱體驗：第 9 頁 #81–90",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "yanchung168（#81）問是否改善熱感；蒼天海樹（#88）目前用網椅並打算試坐；其餘以外觀、功能描述、福利留言為主。",
+            "independentAuthors": 0,
+            "specificReason": "熱感疑問及未持有／未試坐評論，不計問題作者。",
+            "locator": "討論串 7269035，第 9 頁，#81–90",
+            "note": "exactModel=true 表示串主 NewGen 型號；個別回覆仍各自核對，不代表每位回覆者持有 NewGen。independentAuthors 為此候選中可計入集中問題的獨立作者數。"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=685&t=7269035&p=10",
+            "title": "Razer Iskur V2 NewGen 開箱體驗：第 10 頁 #91–100",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "se3p（#92）問實體展示地點；kyoko（#94）、D.T.M（#95）不確定透氣；wai612124（#99）問香港販售；夜涼如水（#96）考慮換椅。",
+            "independentAuthors": 0,
+            "specificReason": "展示／購買詢問及未確認的透氣疑慮，没有可計入的 exact NewGen 故障。",
+            "locator": "討論串 7269035，第 10 頁，#91–100",
+            "note": "exactModel=true 表示串主 NewGen 型號；個別回覆仍各自核對，不代表每位回覆者持有 NewGen。independentAuthors 為此候選中可計入集中問題的獨立作者數。"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=685&t=7269035&p=11",
+            "title": "Razer Iskur V2 NewGen 開箱體驗：第 11 頁 #101–110",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "dwhuang（#102）打算到三創試坐；rt6537（#105）問熱感；monga122（#109／93406487）希望網布版、評論通風差異但未證實持有 NewGen。",
+            "independentAuthors": 0,
+            "specificReason": "試坐前疑問及材質偏好，不足以確認 exact-model 第一人稱問題。",
+            "locator": "討論串 7269035，第 11 頁，#101–110",
+            "note": "exactModel=true 表示串主 NewGen 型號；個別回覆仍各自核對，不代表每位回覆者持有 NewGen。independentAuthors 為此候選中可計入集中問題的獨立作者數。"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=685&t=7269035&p=12",
+            "title": "Razer Iskur V2 NewGen 開箱體驗：第 12 頁 #111",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "lzyle（#111／93507438，2026-08-29 16:45）為制式福利留言；原頁最後一頁只有此樓。",
+            "independentAuthors": 0,
+            "specificReason": "無產品問題；請求 p=36 時 Chrome 仍呈現第 12 頁及同一最後樓，不將索引頁數視為已閱讀內容。",
+            "locator": "討論串 7269035，第 12 頁，#111",
+            "note": "exactModel=true 表示串主 NewGen 型號；個別回覆仍各自核對，不代表每位回覆者持有 NewGen。independentAuthors 為此候選中可計入集中問題的獨立作者數。"
+          }
+        ],
+        "reviewerNote": "Iskur V2 NewGen：2026-09-06 人工閱讀 Mobile01 串 7269035 目前實際可見的第 1–12 頁（#1–111）及原頁回覆。氣壓棒回報未確認 NewGen，舊 V2 的縫線裂明確不同款；其餘熱感多為購買前疑問、皮椅泛論或媒體短期觀察，無可計入的 exact NewGen 消費者集中問題。Reddit 完整型號及 New Gen 變體查詢均未返回 exact-model 候選。搜尋索引稱 355 回覆／36 頁，但 web 原頁與 Chrome p=36 均只提供第 12 頁至 #111；未宣稱閱讀不可見的其餘回覆。未達同一問題 6 名獨立使用者、2 個原始網站門檻；不表示完全沒有負評。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-09-06",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"Iskur V2 NewGen\" (問題 OR 故障 OR 缺點 OR 心得)",
+            "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22Iskur%20V2%20NewGen%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%BC%BA%E9%BB%9E%20OR%20%E5%BF%83%E5%BE%97)"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"Iskur V2 NewGen\" (problem OR issue OR defect OR failure OR uncomfortable)",
+            "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22Iskur%20V2%20NewGen%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20uncomfortable)"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"Iskur V2 NewGen\"",
+            "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22Iskur%20V2%20NewGen%22"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"Iskur V2 NewGen\" (問題 OR 故障 OR 缺點 OR 心得)",
+          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22Iskur%20V2%20NewGen%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%BC%BA%E9%BB%9E%20OR%20%E5%BF%83%E5%BE%97)",
+          "searchUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22Iskur%20V2%20NewGen%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%BC%BA%E9%BB%9E%20OR%20%E5%BF%83%E5%BE%97)",
+          "result": "candidates_unverified_by_search_only",
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=685&t=7269035"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=685&t=7269035",
+              "title": "Razer Iskur V2 NewGen 開箱體驗：第 1 頁 #1–10",
+              "exactModel": true
+            }
+          ],
+          "inspectedAt": "2026-09-06T02:08:58.187Z",
+          "note": "搜尋導覽頁重複引用同串，不計第二來源。",
+          "resultCount": 1,
+          "schemaNote": "result 僅表示搜尋發現狀態；人工型號判讀、作者與門檻決策以同 URL／title 的 manifest candidateReviews 為準。候選標題沿用已讀原頁定位，不改作者或結論。"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"Iskur V2 NewGen\" (problem OR issue OR defect OR failure OR uncomfortable)",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22Iskur%20V2%20NewGen%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20uncomfortable)",
+          "searchUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22Iskur%20V2%20NewGen%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20uncomfortable)",
+          "result": "no_exact_model_result",
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-09-06T02:08:58.188Z",
+          "note": "實際搜尋未返回 exact NewGen 原頁；未宣稱閱讀不存在的 Reddit 候選。",
+          "resultCount": 0,
+          "schemaNote": "result 僅表示搜尋發現狀態；人工型號判讀、作者與門檻決策以同 URL／title 的 manifest candidateReviews 為準。候選標題沿用已讀原頁定位，不改作者或結論。"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"Iskur V2 NewGen\"",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22Iskur%20V2%20NewGen%22",
+          "searchUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22Iskur%20V2%20NewGen%22",
+          "result": "no_exact_model_result",
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-09-06T02:08:58.188Z",
+          "note": "實際搜尋未返回 exact NewGen 原頁；未宣稱閱讀不存在的 Reddit 候選。",
+          "resultCount": 0,
+          "schemaNote": "result 僅表示搜尋發現狀態；人工型號判讀、作者與門檻決策以同 URL／title 的 manifest candidateReviews 為準。候選標題沿用已讀原頁定位，不改作者或結論。"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"Iskur\" \"NewGen\" \"problem\"",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22Iskur%22%20%22NewGen%22%20%22problem%22",
+          "searchUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22Iskur%22%20%22NewGen%22%20%22problem%22",
+          "result": "no_exact_model_result",
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-09-06T02:08:58.188Z",
+          "note": "實際搜尋未返回 exact NewGen 原頁；未宣稱閱讀不存在的 Reddit 候選。",
+          "resultCount": 0,
+          "schemaNote": "result 僅表示搜尋發現狀態；人工型號判讀、作者與門檻決策以同 URL／title 的 manifest candidateReviews 為準。候選標題沿用已讀原頁定位，不改作者或結論。"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"Iskur V2\" \"New Gen\"",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22Iskur%20V2%22%20%22New%20Gen%22",
+          "searchUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22Iskur%20V2%22%20%22New%20Gen%22",
+          "result": "no_exact_model_result",
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-09-06T02:08:58.188Z",
+          "note": "實際搜尋未返回 exact NewGen 原頁；未宣稱閱讀不存在的 Reddit 候選。",
+          "resultCount": 0,
+          "schemaNote": "result 僅表示搜尋發現狀態；人工型號判讀、作者與門檻決策以同 URL／title 的 manifest candidateReviews 為準。候選標題沿用已讀原頁定位，不改作者或結論。"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=685&t=7269035",
+          "title": "Razer Iskur V2 NewGen 開箱體驗：第 1 頁 #1–10",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "Bryan.S 的媒體開箱含不到一個月的 NewGen 體驗；長坐仍會感到熱，但比上一代更晚。文中縫線微裂明確描述使用近兩年的舊 Iskur V2。ives71 詢問透氣、有錢人小迷糊談別牌耐久期待。",
+          "independentAuthors": 0,
+          "specificReason": "媒體評測不作獨立消費者災情人數；舊 V2 縫線問題型號不符，其餘為疑問／期望。",
+          "locator": "討論串 7269035，第 1 頁，#1–10",
+          "note": "exactModel=true 表示串主 NewGen 型號；個別回覆仍各自核對，不代表每位回覆者持有 NewGen。independentAuthors 為此候選中可計入集中問題的獨立作者數。",
+          "reason": "媒體評測不作獨立消費者災情人數；舊 V2 縫線問題型號不符，其餘為疑問／期望。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=685&t=7269035&p=2",
+          "title": "Razer Iskur V2 NewGen 開箱體驗：第 2 頁 #11–20",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "samchen1023（#14）擔心透氣，InCompleteKelly（#19）詢問久坐熱感；restv（#18）認為價格高且需試坐；wilddog（#20）評論椅體視覺比例。",
+          "independentAuthors": 0,
+          "specificReason": "未有 exact NewGen 第一人稱故障；熱感疑問與價格／尺寸偏好不計故障作者。",
+          "locator": "討論串 7269035，第 2 頁，#11–20",
+          "note": "exactModel=true 表示串主 NewGen 型號；個別回覆仍各自核對，不代表每位回覆者持有 NewGen。independentAuthors 為此候選中可計入集中問題的獨立作者數。",
+          "reason": "未有 exact NewGen 第一人稱故障；熱感疑問與價格／尺寸偏好不計故障作者。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=685&t=7269035&p=3",
+          "title": "Razer Iskur V2 NewGen 開箱體驗：第 3 頁 #21–30",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "bugatti（#27／93240301）自述 Razer 椅三年內換三次氣壓棒、過保後下沉，但全文沒寫 NewGen；Anting7964（#28）只詢問皮革及氣壓棒壽命；一起飛高高（#21）是皮椅熱感推論。",
+          "independentAuthors": 0,
+          "specificReason": "bugatti 具第一人稱但型號未明，三年使用期亦不能證明 NewGen，排除；詢問及推測不計人數。",
+          "locator": "討論串 7269035，第 3 頁，#21–30",
+          "note": "exactModel=true 表示串主 NewGen 型號；個別回覆仍各自核對，不代表每位回覆者持有 NewGen。independentAuthors 為此候選中可計入集中問題的獨立作者數。",
+          "reason": "bugatti 具第一人稱但型號未明，三年使用期亦不能證明 NewGen，排除；詢問及推測不計人數。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=685&t=7269035&p=4",
+          "title": "Razer Iskur V2 NewGen 開箱體驗：第 4 頁 #31–40",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "肯楊（#34）問透氣；m3poser（#35）不滿後仰角度不到 170–180 度；天空之辰（#37）希望腳托並說皮椅需要冷氣；Floyd4923（#39）認為皮革不適合久坐。",
+          "independentAuthors": 0,
+          "specificReason": "後仰角及腳托為規格／偏好評論；熱感均未證實持有此 exact model。",
+          "locator": "討論串 7269035，第 4 頁，#31–40",
+          "note": "exactModel=true 表示串主 NewGen 型號；個別回覆仍各自核對，不代表每位回覆者持有 NewGen。independentAuthors 為此候選中可計入集中問題的獨立作者數。",
+          "reason": "後仰角及腳托為規格／偏好評論；熱感均未證實持有此 exact model。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=685&t=7269035&p=5",
+          "title": "Razer Iskur V2 NewGen 開箱體驗：第 5 頁 #41–50",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "beaszero（#45）推想夏季不開冷氣會悶；KHeresy（#46）使用網椅並說皮椅看起來熱；goalie（#49）偏好網椅；nicklove34346117（#47）評論價格。",
+          "independentAuthors": 0,
+          "specificReason": "未有 exact NewGen 第一人稱問題；外觀推測及價格偏好不計。",
+          "locator": "討論串 7269035，第 5 頁，#41–50",
+          "note": "exactModel=true 表示串主 NewGen 型號；個別回覆仍各自核對，不代表每位回覆者持有 NewGen。independentAuthors 為此候選中可計入集中問題的獨立作者數。",
+          "reason": "未有 exact NewGen 第一人稱問題；外觀推測及價格偏好不計。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=685&t=7269035&p=6",
+          "title": "Razer Iskur V2 NewGen 開箱體驗：第 6 頁 #51–60",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "romanprince（#54／93244833）說皮椅熱並會加竹蓆，未表明這張 NewGen；srxmkiii（#53）泛談 Razer 舒適度及台灣夏季偏好網椅；車車168（#51）談品牌已有五六年。",
+          "independentAuthors": 0,
+          "specificReason": "romanprince 泛指皮椅，缺 exact-model 持有證據；品牌年資及一般比較不轉成 NewGen 災情。",
+          "locator": "討論串 7269035，第 6 頁，#51–60",
+          "note": "exactModel=true 表示串主 NewGen 型號；個別回覆仍各自核對，不代表每位回覆者持有 NewGen。independentAuthors 為此候選中可計入集中問題的獨立作者數。",
+          "reason": "romanprince 泛指皮椅，缺 exact-model 持有證據；品牌年資及一般比較不轉成 NewGen 災情。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=685&t=7269035&p=7",
+          "title": "Razer Iskur V2 NewGen 開箱體驗：第 7 頁 #61–70",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "左柔飛（#62）詢問皮椅與網椅；k078787878（#66）覺得看起來熱需冷氣；tommybatistuta（#63）及做工的傑克（#65）提出功能想法。",
+          "independentAuthors": 0,
+          "specificReason": "詢問、外觀熱感及新增功能願望，均非已使用 NewGen 的故障回報。",
+          "locator": "討論串 7269035，第 7 頁，#61–70",
+          "note": "exactModel=true 表示串主 NewGen 型號；個別回覆仍各自核對，不代表每位回覆者持有 NewGen。independentAuthors 為此候選中可計入集中問題的獨立作者數。",
+          "reason": "詢問、外觀熱感及新增功能願望，均非已使用 NewGen 的故障回報。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=685&t=7269035&p=8",
+          "title": "Razer Iskur V2 NewGen 開箱體驗：第 8 頁 #71–80",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "gn01201229（#71）打算找機會試坐；emptyheart（#75）目前用網椅；風鈴吟（#78）仍不確定透氣；zzcc（#79）想試坐。",
+          "independentAuthors": 0,
+          "specificReason": "購買前考慮及其他椅款持有經驗，沒有 NewGen 第一人稱問題。",
+          "locator": "討論串 7269035，第 8 頁，#71–80",
+          "note": "exactModel=true 表示串主 NewGen 型號；個別回覆仍各自核對，不代表每位回覆者持有 NewGen。independentAuthors 為此候選中可計入集中問題的獨立作者數。",
+          "reason": "購買前考慮及其他椅款持有經驗，沒有 NewGen 第一人稱問題。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=685&t=7269035&p=9",
+          "title": "Razer Iskur V2 NewGen 開箱體驗：第 9 頁 #81–90",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "yanchung168（#81）問是否改善熱感；蒼天海樹（#88）目前用網椅並打算試坐；其餘以外觀、功能描述、福利留言為主。",
+          "independentAuthors": 0,
+          "specificReason": "熱感疑問及未持有／未試坐評論，不計問題作者。",
+          "locator": "討論串 7269035，第 9 頁，#81–90",
+          "note": "exactModel=true 表示串主 NewGen 型號；個別回覆仍各自核對，不代表每位回覆者持有 NewGen。independentAuthors 為此候選中可計入集中問題的獨立作者數。",
+          "reason": "熱感疑問及未持有／未試坐評論，不計問題作者。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=685&t=7269035&p=10",
+          "title": "Razer Iskur V2 NewGen 開箱體驗：第 10 頁 #91–100",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "se3p（#92）問實體展示地點；kyoko（#94）、D.T.M（#95）不確定透氣；wai612124（#99）問香港販售；夜涼如水（#96）考慮換椅。",
+          "independentAuthors": 0,
+          "specificReason": "展示／購買詢問及未確認的透氣疑慮，没有可計入的 exact NewGen 故障。",
+          "locator": "討論串 7269035，第 10 頁，#91–100",
+          "note": "exactModel=true 表示串主 NewGen 型號；個別回覆仍各自核對，不代表每位回覆者持有 NewGen。independentAuthors 為此候選中可計入集中問題的獨立作者數。",
+          "reason": "展示／購買詢問及未確認的透氣疑慮，没有可計入的 exact NewGen 故障。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=685&t=7269035&p=11",
+          "title": "Razer Iskur V2 NewGen 開箱體驗：第 11 頁 #101–110",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "dwhuang（#102）打算到三創試坐；rt6537（#105）問熱感；monga122（#109／93406487）希望網布版、評論通風差異但未證實持有 NewGen。",
+          "independentAuthors": 0,
+          "specificReason": "試坐前疑問及材質偏好，不足以確認 exact-model 第一人稱問題。",
+          "locator": "討論串 7269035，第 11 頁，#101–110",
+          "note": "exactModel=true 表示串主 NewGen 型號；個別回覆仍各自核對，不代表每位回覆者持有 NewGen。independentAuthors 為此候選中可計入集中問題的獨立作者數。",
+          "reason": "試坐前疑問及材質偏好，不足以確認 exact-model 第一人稱問題。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=685&t=7269035&p=12",
+          "title": "Razer Iskur V2 NewGen 開箱體驗：第 12 頁 #111",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "lzyle（#111／93507438，2026-08-29 16:45）為制式福利留言；原頁最後一頁只有此樓。",
+          "independentAuthors": 0,
+          "specificReason": "無產品問題；請求 p=36 時 Chrome 仍呈現第 12 頁及同一最後樓，不將索引頁數視為已閱讀內容。",
+          "locator": "討論串 7269035，第 12 頁，#111",
+          "note": "exactModel=true 表示串主 NewGen 型號；個別回覆仍各自核對，不代表每位回覆者持有 NewGen。independentAuthors 為此候選中可計入集中問題的獨立作者數。",
+          "reason": "無產品問題；請求 p=36 時 Chrome 仍呈現第 12 頁及同一最後樓，不將索引頁數視為已閱讀內容。"
+        }
+      ]
+    },
+    {
+      "id": "soundbar-bose-lifestyle-ultra",
+      "category": "soundbar",
+      "brand": "Bose",
+      "model": "Lifestyle Ultra Soundbar",
+      "name": "LifeStyle Ultra Soundbar 家庭娛樂揚聲器（黑色單機）",
+      "identity": {
+        "canonicalModel": "Lifestyle Ultra Soundbar",
+        "lookupLabel": "Bose Lifestyle Ultra Soundbar",
+        "aliases": [
+          "Bose Lifestyle Ultra Soundbar",
+          "Bose LifeStyle Ultra Soundbar",
+          "Bose LS Ultra Soundbar"
+        ],
+        "evidenceUrl": "https://www.mobile01.com/topicdetail.php?f=348&t=7276976"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-09-06",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"Lifestyle Ultra Soundbar\" (問題 OR 故障 OR 缺點 OR 心得)",
+            "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22Lifestyle%20Ultra%20Soundbar%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%BC%BA%E9%BB%9E%20OR%20%E5%BF%83%E5%BE%97)"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"Lifestyle Ultra Soundbar\" (problem OR issue OR defect)",
+            "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22Lifestyle%20Ultra%20Soundbar%22%20(problem%20OR%20issue%20OR%20defect)"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"Lifestyle Ultra Soundbar\" (issue OR problem OR defect OR noise)",
+            "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22Lifestyle%20Ultra%20Soundbar%22%20(issue%20OR%20problem%20OR%20defect%20OR%20noise)"
+          }
+        ],
+        "candidateDisposition": "Lifestyle Ultra Soundbar：2026-09-06 人工覆核 Reddit exact-model 候選與 Mobile01 原頁。7276976 預設可見串第 1–11 頁 #1–106 已讀，第一頁由 Chrome、其餘由 web 原頁；7288352 的 2 頁 #1–19 為 root 當輪人工覆核摘要。辨識到新款個別回報：CEC 無聲2人、後環繞底噪3人、無線設定／斷線3人、更新連線卡住1人、App設定阻礙1人、低音雜振2人、換台延遲1人、AirPlay探索1人。逐問題去重後均未達6人且跨2原始網站；reddit兩subreddit只算同一站。原款 Smart Ultra、700/900、單獨 Lifestyle Speakers、未持有、媒體與型號不明者均不計。故使用 no_common_issue 固定文案，但不隱匿已找到的個案。",
+        "representativeSources": [
+          {
+            "platform": "Reddit",
+            "title": "lifestyle ultra issue",
+            "url": "https://www.reddit.com/r/bose/comments/1w6on2x/lifestyle_ultra_issue/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Static noise in new Lifestyle Ultra rears",
+            "url": "https://www.reddit.com/r/bose/comments/1u0dsmq/static_noise_in_new_lifestyle_ultra_rears/?sort=old"
+          },
+          {
+            "platform": "Reddit",
+            "title": "had a chance to take the new lifestyle ultra",
+            "url": "https://www.reddit.com/r/bose/comments/1te3bii/had_a_chance_to_take_the_new_lifestyle_ultra/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "bose lifestyle ultra sound issue",
+            "url": "https://www.reddit.com/r/bose/comments/1vw0axf/bose_lifestyle_ultra_sound_issue/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "share opinions on the new bose lifestyle ultra",
+            "url": "https://www.reddit.com/r/bose/comments/1tki03d/share_opinions_on_the_new_bose_lifestyle_ultra/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "lifestyle ultra soundbar and surround a true",
+            "url": "https://www.reddit.com/r/bose/comments/1ugypy4/lifestyle_ultra_soundbar_and_surround_a_true/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "i got the bose lifestyle ultra soundbar",
+            "url": "https://www.reddit.com/r/bose/comments/1tizyz7/i_got_the_bose_lifestyle_ultra_soundbar/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "help with lifestyle ultra speaker",
+            "url": "https://www.reddit.com/r/bose/comments/1tu60dy/help_with_lifestyle_ultra_speaker/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "smart ultra soundbar not compatible with",
+            "url": "https://www.reddit.com/r/bose/comments/1tgbazt/smart_ultra_soundbar_not_compatible_with/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "lifestyle ultra soundbar",
+            "url": "https://www.reddit.com/r/bose/comments/1u08xlj/lifestyle_ultra_soundbar/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "bose ultra soundbar lifestyle ultra subwoofer",
+            "url": "https://www.reddit.com/r/bose/comments/1vt3965/bose_ultra_soundbar_lifestyle_ultra_subwoofer/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "bose lifestyle ultra speaker not working",
+            "url": "https://www.reddit.com/r/bose/comments/1th4kt5/bose_lifestyle_ultra_speaker_not_working/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "is it a good price to buy",
+            "url": "https://www.reddit.com/r/bose/comments/1vky2yn/is_it_a_good_price_to_buy/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "bose lifestyle ultra sound bar reviews",
+            "url": "https://www.reddit.com/r/bose/comments/1v70tb1/bose_lifestyle_ultra_sound_bar_reviews/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "any thoughts on the new bose lifestyle ultra",
+            "url": "https://www.reddit.com/r/Soundbars/comments/1u6hudt/any_thoughts_on_the_new_bose_lifestyle_ultra/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "picked up lifestyle ultra collection",
+            "url": "https://www.reddit.com/r/bose/comments/1vxfem4/picked_up_lifestyle_ultra_collection/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "i bought and compared the lifestyle ultra",
+            "url": "https://www.reddit.com/r/bose/comments/1vt2q69/i_bought_and_compared_the_lifestyle_ultra/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "i pulled the trigger who else is getting one",
+            "url": "https://www.reddit.com/r/bose/comments/1tejrpb/i_pulled_the_trigger_who_else_is_getting_one/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "lifestyle ultra sound bar any current thoughts",
+            "url": "https://www.reddit.com/r/bose/comments/1uxwynx/lifestyle_ultra_sound_bar_any_current_thoughts/"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "Bose Lifestyle Collection 體驗串，第 1 頁 #1–10",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7276976"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "Bose Lifestyle Collection 體驗串，第 2 頁 #11–20",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7276976&p=2"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "Bose Lifestyle Collection 體驗串，第 3 頁 #21–30",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7276976&p=3"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "Bose Lifestyle Collection 體驗串，第 4 頁 #31–40",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7276976&p=4"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "Bose Lifestyle Collection 體驗串，第 5 頁 #41–50",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7276976&p=5"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "Bose Lifestyle Collection 體驗串，第 6 頁 #51–60",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7276976&p=6"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "Bose Lifestyle Collection 體驗串，第 7 頁 #61–70",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7276976&p=7"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "Bose Lifestyle Collection 體驗串，第 8 頁 #71–80",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7276976&p=8"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "Bose Lifestyle Collection 體驗串，第 9 頁 #81–90",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7276976&p=9"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "Bose Lifestyle Collection 體驗串，第 10 頁 #91–100",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7276976&p=10"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "Bose Lifestyle Collection 體驗串，第 11 頁 #101–106",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7276976&p=11"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "BOSE LifeStyle Ultra Soundbar 劇院組使用心得，2 頁",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7288352"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/bose/comments/1w6on2x/lifestyle_ultra_issue/",
+            "title": "lifestyle ultra issue",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "Davego、a_j3000 回報新款 HDMI CEC 開機無聲，前者另有後環繞不同步；evolude 型號未明、bojacker 為 Smart Ultra。",
+            "independentAuthors": 2,
+            "specificReason": "2 名新款第一人稱只在 Reddit，未達 6 人／2 原始網站；不同型號建議不增人數。"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/bose/comments/1u0dsmq/static_noise_in_new_lifestyle_ultra_rears/?sort=old",
+            "title": "Static noise in new Lifestyle Ultra rears",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "Slogoin、notanomad、bellinra 描述新款整套接後環繞的低底噪；LawJolla 身分配置不足。",
+            "independentAuthors": 3,
+            "specificReason": "3 名明確新款個案，只有 Reddit；聲霸單機與後環繞套裝情境不可混寫。"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/bose/comments/1te3bii/had_a_chance_to_take_the_new_lifestyle_ultra/",
+            "title": "had a chance to take the new lifestyle ultra",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "SouthernGuy776、Terrible_Positive_81 有低音雜振；macjazzz 有 App 初次設定小阻礙；媒體 DaveCarr_SG 不計消費者人數。",
+            "independentAuthors": 3,
+            "specificReason": "雜振與 App hiccups 分開；同作者跨串重複及舊 Smart Ultra 變磚排除，各問題未達門檻。"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/bose/comments/1vw0axf/bose_lifestyle_ultra_sound_issue/",
+            "title": "bose lifestyle ultra sound issue",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "AdhesivenessFancy791 新款整套換台後音訊延遲數秒，明確不是嘴形不同步。",
+            "independentAuthors": 1,
+            "specificReason": "單一人／單站；不能和開機無聲或後環繞不同步合併。"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/bose/comments/1tki03d/share_opinions_on_the_new_bose_lifestyle_ultra/",
+            "title": "share opinions on the new bose lifestyle ultra",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "dpg81、Appropriate-Row-372、dat_tallguy 的新款設定／斷線個案；NIGHTMARE31000 另有 AirPlay 找不到聲霸。",
+            "independentAuthors": 4,
+            "specificReason": "連線三人與 AirPlay 一人分列；macjazzz 正面升級不重複計為此頁問題。"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/bose/comments/1ugypy4/lifestyle_ultra_soundbar_and_surround_a_true/",
+            "title": "lifestyle ultra soundbar and surround a true",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "Lifestyle48 使用一個月滿意；AdVegetable9772 說舊款，CanCommercial3254 是單獨 Speakers 立體聲 Wi-Fi 問題。",
+            "independentAuthors": 0,
+            "specificReason": "不同款／單獨 Speakers 不算 Lifestyle Soundbar 問題。"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/bose/comments/1tizyz7/i_got_the_bose_lifestyle_ultra_soundbar/",
+            "title": "i got the bose lifestyle ultra soundbar",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "Terrible_Positive_81 比較自己新買 Lifestyle 與 Arc Ultra，偏好後者低音；其雜振另在 1te3bii 已留一人。",
+            "independentAuthors": 0,
+            "specificReason": "本串音質價值主觀比較；同作者不增問題人數。"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/bose/comments/1tu60dy/help_with_lifestyle_ultra_speaker/",
+            "title": "help with lifestyle ultra speaker",
+            "outcome": "excluded",
+            "exactModel": false,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "Select-Respond-4506 的禮物是一顆 Lifestyle Ultra Speaker；AUX 接電視有延遲，並未買 soundbar。",
+            "independentAuthors": 0,
+            "specificReason": "Select-Respond-4506 使用單獨 Lifestyle Ultra Speaker 的 AUX 連線，並非 Lifestyle Ultra Soundbar，不能計入此型號回報。"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/bose/comments/1tgbazt/smart_ultra_soundbar_not_compatible_with/",
+            "title": "smart ultra soundbar not compatible with",
+            "outcome": "excluded",
+            "exactModel": false,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "rstassi 持有舊 Smart Ultra，買新 Speakers 無法作其環繞；另一候選 1th4kt5 為同作者同情況。",
+            "independentAuthors": 0,
+            "specificReason": "rstassi 使用舊 Smart Ultra Soundbar，與新 Speakers 的相容性問題不屬本型號；1th4kt5 亦為同作者同情況，不能重複計數。"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/bose/comments/1u08xlj/lifestyle_ultra_soundbar/",
+            "title": "lifestyle ultra soundbar",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "AdhesivenessFancy791 問伸縮壁掛架；沒有故障回報。",
+            "independentAuthors": 0,
+            "specificReason": "AdhesivenessFancy791 只詢問伸縮壁掛架的安裝配件，未陳述 Lifestyle Ultra Soundbar 發生故障，不计為問題作者。"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/bose/comments/1vt3965/bose_ultra_soundbar_lifestyle_ultra_subwoofer/",
+            "title": "bose ultra soundbar lifestyle ultra subwoofer",
+            "outcome": "excluded",
+            "exactModel": false,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "ThanksNo9604 說預算選 2023 Ultra，詢問新 Lifestyle Subwoofer 有線搭配。",
+            "independentAuthors": 0,
+            "specificReason": "完整 Soundbar 型號是舊款，排除。"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/bose/comments/1th4kt5/bose_lifestyle_ultra_speaker_not_working/",
+            "title": "bose lifestyle ultra speaker not working",
+            "outcome": "excluded",
+            "exactModel": false,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "rstassi 原文直接寫 Lifestyle Speakers 不可配自己的 Smart Ultra Soundbar。",
+            "independentAuthors": 0,
+            "specificReason": "和 1tgbazt 同作者同一相容性疑問；不是新款聲霸故障。"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/bose/comments/1vky2yn/is_it_a_good_price_to_buy/",
+            "title": "is it a good price to buy",
+            "outcome": "excluded",
+            "exactModel": false,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "Mean-Singer-8212 問價；多人回報三年／一年以上旧機的整合問題，StepBro_71 對比新 Lifestyle 更滿意。",
+            "independentAuthors": 0,
+            "specificReason": "未確認 exact 新款的舊世代回報不能灌入新款。"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/bose/comments/1v70tb1/bose_lifestyle_ultra_sound_bar_reviews/",
+            "title": "bose lifestyle ultra sound bar reviews",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "ZeroCool6991 問評價，StepBro_71 及 nyctophobiax 回報新款音效改善與滿意。",
+            "independentAuthors": 0,
+            "specificReason": "ZeroCool6991 僅詢問新款評價；StepBro_71 和 nyctophobiax 分享滿意體驗，原頁沒有可計入的新款第一人稱故障。"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/Soundbars/comments/1u6hudt/any_thoughts_on_the_new_bose_lifestyle_ultra/",
+            "title": "any thoughts on the new bose lifestyle ultra",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "Saint_Knowles 肯定單機，Remarkable_Can6112 無故障但因雙低音需求退貨；其餘為購前或規格比較。",
+            "independentAuthors": 0,
+            "specificReason": "r/Soundbars 與 r/bose 均是 reddit.com，不能算兩個原始網站。"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/bose/comments/1vxfem4/picked_up_lifestyle_ultra_collection/",
+            "title": "picked up lifestyle ultra collection",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "Neat_Visit_3143 詢問 EQ；聲音正常，後環繞稍弱及支架走線偏好；Lifestyle48 稱更新後 Atmos 改善。",
+            "independentAuthors": 0,
+            "specificReason": "沒有可計的 soundbar 故障，購前他人詢問不作回報。"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/bose/comments/1vt2q69/i_bought_and_compared_the_lifestyle_ultra/",
+            "title": "i bought and compared the lifestyle ultra",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "incremantalg 實購比較新款與 900，認為提升不足所以退貨。",
+            "independentAuthors": 0,
+            "specificReason": "incremantalg 認為新款相對自有 900 的升級幅度不足而退貨；屬主觀音質與成本評估，沒有回報功能失效。"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/bose/comments/1tejrpb/i_pulled_the_trigger_who_else_is_getting_one/",
+            "title": "i pulled the trigger who else is getting one",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "SeriousChampion 分享購買；主要負面是他及其他人的舊 SoundTouch／700／900／Smart Ultra，另有新款双低音限制。",
+            "independentAuthors": 0,
+            "specificReason": "舊系統問題與新款功能邊界分開，不作新款集中故障。"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/bose/comments/1uxwynx/lifestyle_ultra_sound_bar_any_current_thoughts/",
+            "title": "lifestyle ultra sound bar any current thoughts",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "ZeroCool6991 購前問穩定性；incremantalg、AdVegetable9772、bloomingbluemel 談舊系統相容，Ditman013 尚未聽新款。",
+            "independentAuthors": 0,
+            "specificReason": "無新款第一人稱故障，詢問／生態批評／未持有排除。"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7276976",
+            "title": "Bose Lifestyle Collection 體驗串，第 1 頁 #1–10",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "Bryan.S #1 媒體試聽；chienter、wellmore、lys0329 等主要評論價格，creayuk 用舊 Solo 15 II。",
+            "independentAuthors": 0,
+            "specificReason": "媒體、外觀與價格評論；無新款獨立消費者故障。",
+            "locator": "串 7276976；第 1 頁 #1–10"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7276976&p=2",
+            "title": "Bose Lifestyle Collection 體驗串，第 2 頁 #11–20",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "幸福人生遊四海考慮買五組，Mustang GT500 討論價值，tifosichang 問與 Sony 比較。",
+            "independentAuthors": 0,
+            "specificReason": "幸福人生遊四海、Mustang GT500 與 tifosichang 的留言屬購前、價格和品牌比較，沒有本人使用新款發生故障的敘述。",
+            "locator": "串 7276976；第 2 頁 #11–20"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7276976&p=3",
+            "title": "Bose Lifestyle Collection 體驗串，第 3 頁 #21–30",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "yclee033 #29／93332560 泛評 App 穩定性和相容性有進步空間。",
+            "independentAuthors": 0,
+            "specificReason": "未說本人持有及具體症狀，不作第一人稱問題。",
+            "locator": "串 7276976；第 3 頁 #21–30"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7276976&p=4",
+            "title": "Bose Lifestyle Collection 體驗串，第 4 頁 #31–40",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "st800800800 #31／93332613 明指舊款斷線重開，詢問新款改善；其他價格外觀。",
+            "independentAuthors": 0,
+            "specificReason": "st800800800 明說斷線重開發生於舊款並詢問新款是否改善，未提供 Lifestyle Ultra Soundbar 的本人故障，不能挪用舊機回報。",
+            "locator": "串 7276976；第 4 頁 #31–40"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7276976&p=5",
+            "title": "Bose Lifestyle Collection 體驗串，第 5 頁 #41–50",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "小丸子一朗 #43／93333741 泛指這類型產品連線不順；其他為價格、造型。",
+            "independentAuthors": 0,
+            "specificReason": "一般風險評論，未提供 exact-model 第一人稱。",
+            "locator": "串 7276976；第 5 頁 #41–50"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7276976&p=6",
+            "title": "Bose Lifestyle Collection 體驗串，第 6 頁 #51–60",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "Gamestar #51 問單機音效且不喜歡沒遙控器；其他外觀價格與家中空間。",
+            "independentAuthors": 0,
+            "specificReason": "Gamestar 對沒有遙控器與單機音效提出購買偏好，其餘留言為空間、外觀或價格評估，未描述新款功能失效。",
+            "locator": "串 7276976；第 6 頁 #51–60"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7276976&p=7",
+            "title": "Bose Lifestyle Collection 體驗串，第 7 頁 #61–70",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "lantain1 #62 問主機壞後配件是否全滅；aaa010387 #68 轉述店員稱新晶片解決舊連線問題。",
+            "independentAuthors": 0,
+            "specificReason": "假設問題和店員轉述均不計實際使用者故障。",
+            "locator": "串 7276976；第 7 頁 #61–70"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7276976&p=8",
+            "title": "Bose Lifestyle Collection 體驗串，第 8 頁 #71–80",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "asd80 #71 使用兩週滿意且稱連線穩定度要更久才評論；Yun . #75 說向上發聲不適合吊頂。",
+            "independentAuthors": 0,
+            "specificReason": "未發生故障；擺放限制／後續觀察不推定失效。",
+            "locator": "串 7276976；第 8 頁 #71–80"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7276976&p=9",
+            "title": "Bose Lifestyle Collection 體驗串，第 9 頁 #81–90",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "Jenny1313 #82 惋惜沒 aptX/LDAC；g6889688、beexxn 用 900／700 舊款，其他問比較。",
+            "independentAuthors": 0,
+            "specificReason": "Jenny1313 批評未提供 aptX／LDAC 屬規格取捨；g6889688 與 beexxn 使用的是 900／700，均不能計為此新款故障。",
+            "locator": "串 7276976；第 9 頁 #81–90"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7276976&p=10",
+            "title": "Bose Lifestyle Collection 體驗串，第 10 頁 #91–100",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "紫電青霜 用舊 Bose；jasonay1 考慮新家安裝，其他價格與外型。",
+            "independentAuthors": 0,
+            "specificReason": "紫電青霜 談舊款 Bose，jasonay1 尚在考慮新家安裝，其餘是價格與外型討論，沒有本型號第一人稱故障。",
+            "locator": "串 7276976；第 10 頁 #91–100"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7276976&p=11",
+            "title": "Bose Lifestyle Collection 體驗串，第 11 頁 #101–106",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "naoki700kimo #101／93440499：新 LS Ultra soundbar 無法連線，更新卡住。雷獸其下稱 Ethernet 解決但型號未明；HealthChang #102／93457473 說自己連線順暢。",
+            "independentAuthors": 1,
+            "specificReason": "1 名 exact 新款更新卡住；雷獸未確認型號，且各問題不能泛稱連線後加總湊數。",
+            "locator": "串 7276976；第 11 頁 #101–106"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7288352",
+            "title": "BOSE LifeStyle Ultra Soundbar 劇院組使用心得，2 頁",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "root 當輪已完整閱讀 #1–19：HealthChang 93456945／93516701 使用滿意，天空反射較弱屬空間及聽感；其他詢價、外觀。naoki700kimo #7 93458892 為安裝問題詢問，和另一串 #101 同作者，不加人數。",
+            "independentAuthors": 0,
+            "specificReason": "沒有新增加的故障作者；沿用本輪 root 的人工原頁摘要，有清楚 provenance，並非本子代理宣稱重讀。",
+            "reviewProvenance": "當輪 root 人工原頁覆核；本子代理核對搜尋候選及同作者邊界"
+          }
+        ],
+        "reviewerNote": "Lifestyle Ultra Soundbar：2026-09-06 人工覆核 Reddit exact-model 候選與 Mobile01 原頁。7276976 預設可見串第 1–11 頁 #1–106 已讀，第一頁由 Chrome、其餘由 web 原頁；7288352 的 2 頁 #1–19 為 root 當輪人工覆核摘要。辨識到新款個別回報：CEC 無聲2人、後環繞底噪3人、無線設定／斷線3人、更新連線卡住1人、App設定阻礙1人、低音雜振2人、換台延遲1人、AirPlay探索1人。逐問題去重後均未達6人且跨2原始網站；reddit兩subreddit只算同一站。原款 Smart Ultra、700/900、單獨 Lifestyle Speakers、未持有、媒體與型號不明者均不計。故使用 no_common_issue 固定文案，但不隱匿已找到的個案。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-09-06",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"Lifestyle Ultra Soundbar\" (問題 OR 故障 OR 缺點 OR 心得)",
+            "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22Lifestyle%20Ultra%20Soundbar%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%BC%BA%E9%BB%9E%20OR%20%E5%BF%83%E5%BE%97)"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"Lifestyle Ultra Soundbar\" (problem OR issue OR defect)",
+            "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22Lifestyle%20Ultra%20Soundbar%22%20(problem%20OR%20issue%20OR%20defect)"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"Lifestyle Ultra Soundbar\" (issue OR problem OR defect OR noise)",
+            "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22Lifestyle%20Ultra%20Soundbar%22%20(issue%20OR%20problem%20OR%20defect%20OR%20noise)"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"Lifestyle Ultra Soundbar\" (問題 OR 故障 OR 缺點 OR 心得)",
+          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22Lifestyle%20Ultra%20Soundbar%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%BC%BA%E9%BB%9E%20OR%20%E5%BF%83%E5%BE%97)",
+          "searchUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22Lifestyle%20Ultra%20Soundbar%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%BC%BA%E9%BB%9E%20OR%20%E5%BF%83%E5%BE%97)",
+          "result": "candidates_unverified_by_search_only",
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=348&t=7276976",
+            "https://www.mobile01.com/topicdetail.php?f=348&t=7288352"
+          ],
+          "inspectedAt": "2026-09-06T02:18:16.945Z",
+          "note": "查詢候選另加 root 當輪提供清單共同覆核；原頁判讀見 candidateReviews，不以搜尋摘要計作者。",
+          "candidates": [
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7276976",
+              "title": "Bose Lifestyle Collection 體驗串，第 1 頁 #1–10",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7288352",
+              "title": "BOSE LifeStyle Ultra Soundbar 劇院組使用心得，2 頁",
+              "exactModel": true
+            }
+          ],
+          "resultCount": 2,
+          "schemaNote": "result 僅表示搜尋發現狀態；人工型號判讀、作者與門檻決策以同 URL／title 的 manifest candidateReviews 為準。候選標題沿用已讀原頁定位，不改作者或結論。"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"Lifestyle Ultra Soundbar\" (problem OR issue OR defect)",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22Lifestyle%20Ultra%20Soundbar%22%20(problem%20OR%20issue%20OR%20defect)",
+          "searchUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22Lifestyle%20Ultra%20Soundbar%22%20(problem%20OR%20issue%20OR%20defect)",
+          "result": "candidates_unverified_by_search_only",
+          "candidateUrls": [
+            "https://www.reddit.com/r/bose/comments/1w6on2x/lifestyle_ultra_issue/",
+            "https://www.reddit.com/r/bose/comments/1u0dsmq/static_noise_in_new_lifestyle_ultra_rears/?sort=old",
+            "https://www.reddit.com/r/bose/comments/1te3bii/had_a_chance_to_take_the_new_lifestyle_ultra/",
+            "https://www.reddit.com/r/bose/comments/1vw0axf/bose_lifestyle_ultra_sound_issue/",
+            "https://www.reddit.com/r/bose/comments/1tki03d/share_opinions_on_the_new_bose_lifestyle_ultra/",
+            "https://www.reddit.com/r/bose/comments/1ugypy4/lifestyle_ultra_soundbar_and_surround_a_true/",
+            "https://www.reddit.com/r/bose/comments/1tizyz7/i_got_the_bose_lifestyle_ultra_soundbar/",
+            "https://www.reddit.com/r/bose/comments/1u08xlj/lifestyle_ultra_soundbar/",
+            "https://www.reddit.com/r/bose/comments/1uxwynx/lifestyle_ultra_sound_bar_any_current_thoughts/"
+          ],
+          "inspectedAt": "2026-09-06T02:18:16.945Z",
+          "note": "查詢候選另加 root 當輪提供清單共同覆核；原頁判讀見 candidateReviews，不以搜尋摘要計作者。",
+          "candidates": [
+            {
+              "url": "https://www.reddit.com/r/bose/comments/1w6on2x/lifestyle_ultra_issue/",
+              "title": "lifestyle ultra issue",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.reddit.com/r/bose/comments/1u0dsmq/static_noise_in_new_lifestyle_ultra_rears/?sort=old",
+              "title": "Static noise in new Lifestyle Ultra rears",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.reddit.com/r/bose/comments/1te3bii/had_a_chance_to_take_the_new_lifestyle_ultra/",
+              "title": "had a chance to take the new lifestyle ultra",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.reddit.com/r/bose/comments/1vw0axf/bose_lifestyle_ultra_sound_issue/",
+              "title": "bose lifestyle ultra sound issue",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.reddit.com/r/bose/comments/1tki03d/share_opinions_on_the_new_bose_lifestyle_ultra/",
+              "title": "share opinions on the new bose lifestyle ultra",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.reddit.com/r/bose/comments/1ugypy4/lifestyle_ultra_soundbar_and_surround_a_true/",
+              "title": "lifestyle ultra soundbar and surround a true",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.reddit.com/r/bose/comments/1tizyz7/i_got_the_bose_lifestyle_ultra_soundbar/",
+              "title": "i got the bose lifestyle ultra soundbar",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.reddit.com/r/bose/comments/1u08xlj/lifestyle_ultra_soundbar/",
+              "title": "lifestyle ultra soundbar",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.reddit.com/r/bose/comments/1uxwynx/lifestyle_ultra_sound_bar_any_current_thoughts/",
+              "title": "lifestyle ultra sound bar any current thoughts",
+              "exactModel": true
+            }
+          ],
+          "resultCount": 9,
+          "excludedNonExactCandidates": [
+            {
+              "url": "https://www.reddit.com/r/bose/comments/1tu60dy/help_with_lifestyle_ultra_speaker/",
+              "title": "help with lifestyle ultra speaker",
+              "exactModel": false,
+              "reason": "Select-Respond-4506 使用單獨 Lifestyle Ultra Speaker 的 AUX 連線，並非 Lifestyle Ultra Soundbar，不能計入此型號回報。"
+            },
+            {
+              "url": "https://www.reddit.com/r/bose/comments/1tgbazt/smart_ultra_soundbar_not_compatible_with/",
+              "title": "smart ultra soundbar not compatible with",
+              "exactModel": false,
+              "reason": "rstassi 使用舊 Smart Ultra Soundbar，與新 Speakers 的相容性問題不屬本型號；1th4kt5 亦為同作者同情況，不能重複計數。"
+            },
+            {
+              "url": "https://www.reddit.com/r/bose/comments/1th4kt5/bose_lifestyle_ultra_speaker_not_working/",
+              "title": "bose lifestyle ultra speaker not working",
+              "exactModel": false,
+              "reason": "和 1tgbazt 同作者同一相容性疑問；不是新款聲霸故障。"
+            }
+          ],
+          "schemaNote": "result 僅表示搜尋發現狀態；人工型號判讀、作者與門檻決策以同 URL／title 的 manifest candidateReviews 為準。候選標題沿用已讀原頁定位，不改作者或結論。"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"Lifestyle Ultra Soundbar\" (issue OR problem OR defect OR noise)",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22Lifestyle%20Ultra%20Soundbar%22%20(issue%20OR%20problem%20OR%20defect%20OR%20noise)",
+          "searchUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22Lifestyle%20Ultra%20Soundbar%22%20(issue%20OR%20problem%20OR%20defect%20OR%20noise)",
+          "result": "candidates_unverified_by_search_only",
+          "candidateUrls": [
+            "https://www.reddit.com/r/bose/comments/1w6on2x/lifestyle_ultra_issue/",
+            "https://www.reddit.com/r/bose/comments/1u0dsmq/static_noise_in_new_lifestyle_ultra_rears/?sort=old",
+            "https://www.reddit.com/r/bose/comments/1te3bii/had_a_chance_to_take_the_new_lifestyle_ultra/",
+            "https://www.reddit.com/r/bose/comments/1vw0axf/bose_lifestyle_ultra_sound_issue/",
+            "https://www.reddit.com/r/bose/comments/1tki03d/share_opinions_on_the_new_bose_lifestyle_ultra/",
+            "https://www.reddit.com/r/bose/comments/1ugypy4/lifestyle_ultra_soundbar_and_surround_a_true/",
+            "https://www.reddit.com/r/bose/comments/1tizyz7/i_got_the_bose_lifestyle_ultra_soundbar/",
+            "https://www.reddit.com/r/bose/comments/1u08xlj/lifestyle_ultra_soundbar/"
+          ],
+          "inspectedAt": "2026-09-06T02:18:16.945Z",
+          "note": "查詢候選另加 root 當輪提供清單共同覆核；原頁判讀見 candidateReviews，不以搜尋摘要計作者。",
+          "candidates": [
+            {
+              "url": "https://www.reddit.com/r/bose/comments/1w6on2x/lifestyle_ultra_issue/",
+              "title": "lifestyle ultra issue",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.reddit.com/r/bose/comments/1u0dsmq/static_noise_in_new_lifestyle_ultra_rears/?sort=old",
+              "title": "Static noise in new Lifestyle Ultra rears",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.reddit.com/r/bose/comments/1te3bii/had_a_chance_to_take_the_new_lifestyle_ultra/",
+              "title": "had a chance to take the new lifestyle ultra",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.reddit.com/r/bose/comments/1vw0axf/bose_lifestyle_ultra_sound_issue/",
+              "title": "bose lifestyle ultra sound issue",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.reddit.com/r/bose/comments/1tki03d/share_opinions_on_the_new_bose_lifestyle_ultra/",
+              "title": "share opinions on the new bose lifestyle ultra",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.reddit.com/r/bose/comments/1ugypy4/lifestyle_ultra_soundbar_and_surround_a_true/",
+              "title": "lifestyle ultra soundbar and surround a true",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.reddit.com/r/bose/comments/1tizyz7/i_got_the_bose_lifestyle_ultra_soundbar/",
+              "title": "i got the bose lifestyle ultra soundbar",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.reddit.com/r/bose/comments/1u08xlj/lifestyle_ultra_soundbar/",
+              "title": "lifestyle ultra soundbar",
+              "exactModel": true
+            }
+          ],
+          "resultCount": 8,
+          "excludedNonExactCandidates": [
+            {
+              "url": "https://www.reddit.com/r/bose/comments/1tu60dy/help_with_lifestyle_ultra_speaker/",
+              "title": "help with lifestyle ultra speaker",
+              "exactModel": false,
+              "reason": "Select-Respond-4506 使用單獨 Lifestyle Ultra Speaker 的 AUX 連線，並非 Lifestyle Ultra Soundbar，不能計入此型號回報。"
+            },
+            {
+              "url": "https://www.reddit.com/r/bose/comments/1tgbazt/smart_ultra_soundbar_not_compatible_with/",
+              "title": "smart ultra soundbar not compatible with",
+              "exactModel": false,
+              "reason": "rstassi 使用舊 Smart Ultra Soundbar，與新 Speakers 的相容性問題不屬本型號；1th4kt5 亦為同作者同情況，不能重複計數。"
+            }
+          ],
+          "schemaNote": "result 僅表示搜尋發現狀態；人工型號判讀、作者與門檻決策以同 URL／title 的 manifest candidateReviews 為準。候選標題沿用已讀原頁定位，不改作者或結論。"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/bose/comments/1w6on2x/lifestyle_ultra_issue/",
+          "title": "lifestyle ultra issue",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "Davego、a_j3000 回報新款 HDMI CEC 開機無聲，前者另有後環繞不同步；evolude 型號未明、bojacker 為 Smart Ultra。",
+          "independentAuthors": 2,
+          "specificReason": "2 名新款第一人稱只在 Reddit，未達 6 人／2 原始網站；不同型號建議不增人數。",
+          "reason": "2 名新款第一人稱只在 Reddit，未達 6 人／2 原始網站；不同型號建議不增人數。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/bose/comments/1u0dsmq/static_noise_in_new_lifestyle_ultra_rears/?sort=old",
+          "title": "Static noise in new Lifestyle Ultra rears",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "Slogoin、notanomad、bellinra 描述新款整套接後環繞的低底噪；LawJolla 身分配置不足。",
+          "independentAuthors": 3,
+          "specificReason": "3 名明確新款個案，只有 Reddit；聲霸單機與後環繞套裝情境不可混寫。",
+          "reason": "3 名明確新款個案，只有 Reddit；聲霸單機與後環繞套裝情境不可混寫。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/bose/comments/1te3bii/had_a_chance_to_take_the_new_lifestyle_ultra/",
+          "title": "had a chance to take the new lifestyle ultra",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "SouthernGuy776、Terrible_Positive_81 有低音雜振；macjazzz 有 App 初次設定小阻礙；媒體 DaveCarr_SG 不計消費者人數。",
+          "independentAuthors": 3,
+          "specificReason": "雜振與 App hiccups 分開；同作者跨串重複及舊 Smart Ultra 變磚排除，各問題未達門檻。",
+          "reason": "雜振與 App hiccups 分開；同作者跨串重複及舊 Smart Ultra 變磚排除，各問題未達門檻。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/bose/comments/1vw0axf/bose_lifestyle_ultra_sound_issue/",
+          "title": "bose lifestyle ultra sound issue",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "AdhesivenessFancy791 新款整套換台後音訊延遲數秒，明確不是嘴形不同步。",
+          "independentAuthors": 1,
+          "specificReason": "單一人／單站；不能和開機無聲或後環繞不同步合併。",
+          "reason": "單一人／單站；不能和開機無聲或後環繞不同步合併。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/bose/comments/1tki03d/share_opinions_on_the_new_bose_lifestyle_ultra/",
+          "title": "share opinions on the new bose lifestyle ultra",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "dpg81、Appropriate-Row-372、dat_tallguy 的新款設定／斷線個案；NIGHTMARE31000 另有 AirPlay 找不到聲霸。",
+          "independentAuthors": 4,
+          "specificReason": "連線三人與 AirPlay 一人分列；macjazzz 正面升級不重複計為此頁問題。",
+          "reason": "連線三人與 AirPlay 一人分列；macjazzz 正面升級不重複計為此頁問題。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/bose/comments/1ugypy4/lifestyle_ultra_soundbar_and_surround_a_true/",
+          "title": "lifestyle ultra soundbar and surround a true",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "Lifestyle48 使用一個月滿意；AdVegetable9772 說舊款，CanCommercial3254 是單獨 Speakers 立體聲 Wi-Fi 問題。",
+          "independentAuthors": 0,
+          "specificReason": "不同款／單獨 Speakers 不算 Lifestyle Soundbar 問題。",
+          "reason": "不同款／單獨 Speakers 不算 Lifestyle Soundbar 問題。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/bose/comments/1tizyz7/i_got_the_bose_lifestyle_ultra_soundbar/",
+          "title": "i got the bose lifestyle ultra soundbar",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "Terrible_Positive_81 比較自己新買 Lifestyle 與 Arc Ultra，偏好後者低音；其雜振另在 1te3bii 已留一人。",
+          "independentAuthors": 0,
+          "specificReason": "本串音質價值主觀比較；同作者不增問題人數。",
+          "reason": "本串音質價值主觀比較；同作者不增問題人數。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/bose/comments/1tu60dy/help_with_lifestyle_ultra_speaker/",
+          "title": "help with lifestyle ultra speaker",
+          "outcome": "excluded",
+          "exactModel": false,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "Select-Respond-4506 的禮物是一顆 Lifestyle Ultra Speaker；AUX 接電視有延遲，並未買 soundbar。",
+          "independentAuthors": 0,
+          "specificReason": "Select-Respond-4506 使用單獨 Lifestyle Ultra Speaker 的 AUX 連線，並非 Lifestyle Ultra Soundbar，不能計入此型號回報。",
+          "reason": "Select-Respond-4506 使用單獨 Lifestyle Ultra Speaker 的 AUX 連線，並非 Lifestyle Ultra Soundbar，不能計入此型號回報。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/bose/comments/1tgbazt/smart_ultra_soundbar_not_compatible_with/",
+          "title": "smart ultra soundbar not compatible with",
+          "outcome": "excluded",
+          "exactModel": false,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "rstassi 持有舊 Smart Ultra，買新 Speakers 無法作其環繞；另一候選 1th4kt5 為同作者同情況。",
+          "independentAuthors": 0,
+          "specificReason": "rstassi 使用舊 Smart Ultra Soundbar，與新 Speakers 的相容性問題不屬本型號；1th4kt5 亦為同作者同情況，不能重複計數。",
+          "reason": "rstassi 使用舊 Smart Ultra Soundbar，與新 Speakers 的相容性問題不屬本型號；1th4kt5 亦為同作者同情況，不能重複計數。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/bose/comments/1u08xlj/lifestyle_ultra_soundbar/",
+          "title": "lifestyle ultra soundbar",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "AdhesivenessFancy791 問伸縮壁掛架；沒有故障回報。",
+          "independentAuthors": 0,
+          "specificReason": "AdhesivenessFancy791 只詢問伸縮壁掛架的安裝配件，未陳述 Lifestyle Ultra Soundbar 發生故障，不计為問題作者。",
+          "reason": "AdhesivenessFancy791 只詢問伸縮壁掛架的安裝配件，未陳述 Lifestyle Ultra Soundbar 發生故障，不计為問題作者。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/bose/comments/1vt3965/bose_ultra_soundbar_lifestyle_ultra_subwoofer/",
+          "title": "bose ultra soundbar lifestyle ultra subwoofer",
+          "outcome": "excluded",
+          "exactModel": false,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "ThanksNo9604 說預算選 2023 Ultra，詢問新 Lifestyle Subwoofer 有線搭配。",
+          "independentAuthors": 0,
+          "specificReason": "完整 Soundbar 型號是舊款，排除。",
+          "reason": "完整 Soundbar 型號是舊款，排除。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/bose/comments/1th4kt5/bose_lifestyle_ultra_speaker_not_working/",
+          "title": "bose lifestyle ultra speaker not working",
+          "outcome": "excluded",
+          "exactModel": false,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "rstassi 原文直接寫 Lifestyle Speakers 不可配自己的 Smart Ultra Soundbar。",
+          "independentAuthors": 0,
+          "specificReason": "和 1tgbazt 同作者同一相容性疑問；不是新款聲霸故障。",
+          "reason": "和 1tgbazt 同作者同一相容性疑問；不是新款聲霸故障。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/bose/comments/1vky2yn/is_it_a_good_price_to_buy/",
+          "title": "is it a good price to buy",
+          "outcome": "excluded",
+          "exactModel": false,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "Mean-Singer-8212 問價；多人回報三年／一年以上旧機的整合問題，StepBro_71 對比新 Lifestyle 更滿意。",
+          "independentAuthors": 0,
+          "specificReason": "未確認 exact 新款的舊世代回報不能灌入新款。",
+          "reason": "未確認 exact 新款的舊世代回報不能灌入新款。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/bose/comments/1v70tb1/bose_lifestyle_ultra_sound_bar_reviews/",
+          "title": "bose lifestyle ultra sound bar reviews",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "ZeroCool6991 問評價，StepBro_71 及 nyctophobiax 回報新款音效改善與滿意。",
+          "independentAuthors": 0,
+          "specificReason": "ZeroCool6991 僅詢問新款評價；StepBro_71 和 nyctophobiax 分享滿意體驗，原頁沒有可計入的新款第一人稱故障。",
+          "reason": "ZeroCool6991 僅詢問新款評價；StepBro_71 和 nyctophobiax 分享滿意體驗，原頁沒有可計入的新款第一人稱故障。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Soundbars/comments/1u6hudt/any_thoughts_on_the_new_bose_lifestyle_ultra/",
+          "title": "any thoughts on the new bose lifestyle ultra",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "Saint_Knowles 肯定單機，Remarkable_Can6112 無故障但因雙低音需求退貨；其餘為購前或規格比較。",
+          "independentAuthors": 0,
+          "specificReason": "r/Soundbars 與 r/bose 均是 reddit.com，不能算兩個原始網站。",
+          "reason": "r/Soundbars 與 r/bose 均是 reddit.com，不能算兩個原始網站。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/bose/comments/1vxfem4/picked_up_lifestyle_ultra_collection/",
+          "title": "picked up lifestyle ultra collection",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "Neat_Visit_3143 詢問 EQ；聲音正常，後環繞稍弱及支架走線偏好；Lifestyle48 稱更新後 Atmos 改善。",
+          "independentAuthors": 0,
+          "specificReason": "沒有可計的 soundbar 故障，購前他人詢問不作回報。",
+          "reason": "沒有可計的 soundbar 故障，購前他人詢問不作回報。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/bose/comments/1vt2q69/i_bought_and_compared_the_lifestyle_ultra/",
+          "title": "i bought and compared the lifestyle ultra",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "incremantalg 實購比較新款與 900，認為提升不足所以退貨。",
+          "independentAuthors": 0,
+          "specificReason": "incremantalg 認為新款相對自有 900 的升級幅度不足而退貨；屬主觀音質與成本評估，沒有回報功能失效。",
+          "reason": "incremantalg 認為新款相對自有 900 的升級幅度不足而退貨；屬主觀音質與成本評估，沒有回報功能失效。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/bose/comments/1tejrpb/i_pulled_the_trigger_who_else_is_getting_one/",
+          "title": "i pulled the trigger who else is getting one",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "SeriousChampion 分享購買；主要負面是他及其他人的舊 SoundTouch／700／900／Smart Ultra，另有新款双低音限制。",
+          "independentAuthors": 0,
+          "specificReason": "舊系統問題與新款功能邊界分開，不作新款集中故障。",
+          "reason": "舊系統問題與新款功能邊界分開，不作新款集中故障。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/bose/comments/1uxwynx/lifestyle_ultra_sound_bar_any_current_thoughts/",
+          "title": "lifestyle ultra sound bar any current thoughts",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "ZeroCool6991 購前問穩定性；incremantalg、AdVegetable9772、bloomingbluemel 談舊系統相容，Ditman013 尚未聽新款。",
+          "independentAuthors": 0,
+          "specificReason": "無新款第一人稱故障，詢問／生態批評／未持有排除。",
+          "reason": "無新款第一人稱故障，詢問／生態批評／未持有排除。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7276976",
+          "title": "Bose Lifestyle Collection 體驗串，第 1 頁 #1–10",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "Bryan.S #1 媒體試聽；chienter、wellmore、lys0329 等主要評論價格，creayuk 用舊 Solo 15 II。",
+          "independentAuthors": 0,
+          "specificReason": "媒體、外觀與價格評論；無新款獨立消費者故障。",
+          "locator": "串 7276976；第 1 頁 #1–10",
+          "reason": "媒體、外觀與價格評論；無新款獨立消費者故障。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7276976&p=2",
+          "title": "Bose Lifestyle Collection 體驗串，第 2 頁 #11–20",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "幸福人生遊四海考慮買五組，Mustang GT500 討論價值，tifosichang 問與 Sony 比較。",
+          "independentAuthors": 0,
+          "specificReason": "幸福人生遊四海、Mustang GT500 與 tifosichang 的留言屬購前、價格和品牌比較，沒有本人使用新款發生故障的敘述。",
+          "locator": "串 7276976；第 2 頁 #11–20",
+          "reason": "幸福人生遊四海、Mustang GT500 與 tifosichang 的留言屬購前、價格和品牌比較，沒有本人使用新款發生故障的敘述。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7276976&p=3",
+          "title": "Bose Lifestyle Collection 體驗串，第 3 頁 #21–30",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "yclee033 #29／93332560 泛評 App 穩定性和相容性有進步空間。",
+          "independentAuthors": 0,
+          "specificReason": "未說本人持有及具體症狀，不作第一人稱問題。",
+          "locator": "串 7276976；第 3 頁 #21–30",
+          "reason": "未說本人持有及具體症狀，不作第一人稱問題。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7276976&p=4",
+          "title": "Bose Lifestyle Collection 體驗串，第 4 頁 #31–40",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "st800800800 #31／93332613 明指舊款斷線重開，詢問新款改善；其他價格外觀。",
+          "independentAuthors": 0,
+          "specificReason": "st800800800 明說斷線重開發生於舊款並詢問新款是否改善，未提供 Lifestyle Ultra Soundbar 的本人故障，不能挪用舊機回報。",
+          "locator": "串 7276976；第 4 頁 #31–40",
+          "reason": "st800800800 明說斷線重開發生於舊款並詢問新款是否改善，未提供 Lifestyle Ultra Soundbar 的本人故障，不能挪用舊機回報。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7276976&p=5",
+          "title": "Bose Lifestyle Collection 體驗串，第 5 頁 #41–50",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "小丸子一朗 #43／93333741 泛指這類型產品連線不順；其他為價格、造型。",
+          "independentAuthors": 0,
+          "specificReason": "一般風險評論，未提供 exact-model 第一人稱。",
+          "locator": "串 7276976；第 5 頁 #41–50",
+          "reason": "一般風險評論，未提供 exact-model 第一人稱。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7276976&p=6",
+          "title": "Bose Lifestyle Collection 體驗串，第 6 頁 #51–60",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "Gamestar #51 問單機音效且不喜歡沒遙控器；其他外觀價格與家中空間。",
+          "independentAuthors": 0,
+          "specificReason": "Gamestar 對沒有遙控器與單機音效提出購買偏好，其餘留言為空間、外觀或價格評估，未描述新款功能失效。",
+          "locator": "串 7276976；第 6 頁 #51–60",
+          "reason": "Gamestar 對沒有遙控器與單機音效提出購買偏好，其餘留言為空間、外觀或價格評估，未描述新款功能失效。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7276976&p=7",
+          "title": "Bose Lifestyle Collection 體驗串，第 7 頁 #61–70",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "lantain1 #62 問主機壞後配件是否全滅；aaa010387 #68 轉述店員稱新晶片解決舊連線問題。",
+          "independentAuthors": 0,
+          "specificReason": "假設問題和店員轉述均不計實際使用者故障。",
+          "locator": "串 7276976；第 7 頁 #61–70",
+          "reason": "假設問題和店員轉述均不計實際使用者故障。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7276976&p=8",
+          "title": "Bose Lifestyle Collection 體驗串，第 8 頁 #71–80",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "asd80 #71 使用兩週滿意且稱連線穩定度要更久才評論；Yun . #75 說向上發聲不適合吊頂。",
+          "independentAuthors": 0,
+          "specificReason": "未發生故障；擺放限制／後續觀察不推定失效。",
+          "locator": "串 7276976；第 8 頁 #71–80",
+          "reason": "未發生故障；擺放限制／後續觀察不推定失效。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7276976&p=9",
+          "title": "Bose Lifestyle Collection 體驗串，第 9 頁 #81–90",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "Jenny1313 #82 惋惜沒 aptX/LDAC；g6889688、beexxn 用 900／700 舊款，其他問比較。",
+          "independentAuthors": 0,
+          "specificReason": "Jenny1313 批評未提供 aptX／LDAC 屬規格取捨；g6889688 與 beexxn 使用的是 900／700，均不能計為此新款故障。",
+          "locator": "串 7276976；第 9 頁 #81–90",
+          "reason": "Jenny1313 批評未提供 aptX／LDAC 屬規格取捨；g6889688 與 beexxn 使用的是 900／700，均不能計為此新款故障。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7276976&p=10",
+          "title": "Bose Lifestyle Collection 體驗串，第 10 頁 #91–100",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "紫電青霜 用舊 Bose；jasonay1 考慮新家安裝，其他價格與外型。",
+          "independentAuthors": 0,
+          "specificReason": "紫電青霜 談舊款 Bose，jasonay1 尚在考慮新家安裝，其餘是價格與外型討論，沒有本型號第一人稱故障。",
+          "locator": "串 7276976；第 10 頁 #91–100",
+          "reason": "紫電青霜 談舊款 Bose，jasonay1 尚在考慮新家安裝，其餘是價格與外型討論，沒有本型號第一人稱故障。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7276976&p=11",
+          "title": "Bose Lifestyle Collection 體驗串，第 11 頁 #101–106",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "naoki700kimo #101／93440499：新 LS Ultra soundbar 無法連線，更新卡住。雷獸其下稱 Ethernet 解決但型號未明；HealthChang #102／93457473 說自己連線順暢。",
+          "independentAuthors": 1,
+          "specificReason": "1 名 exact 新款更新卡住；雷獸未確認型號，且各問題不能泛稱連線後加總湊數。",
+          "locator": "串 7276976；第 11 頁 #101–106",
+          "reason": "1 名 exact 新款更新卡住；雷獸未確認型號，且各問題不能泛稱連線後加總湊數。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7288352",
+          "title": "BOSE LifeStyle Ultra Soundbar 劇院組使用心得，2 頁",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "root 當輪已完整閱讀 #1–19：HealthChang 93456945／93516701 使用滿意，天空反射較弱屬空間及聽感；其他詢價、外觀。naoki700kimo #7 93458892 為安裝問題詢問，和另一串 #101 同作者，不加人數。",
+          "independentAuthors": 0,
+          "specificReason": "沒有新增加的故障作者；沿用本輪 root 的人工原頁摘要，有清楚 provenance，並非本子代理宣稱重讀。",
+          "reviewProvenance": "當輪 root 人工原頁覆核；本子代理核對搜尋候選及同作者邊界",
+          "reason": "沒有新增加的故障作者；沿用本輪 root 的人工原頁摘要，有清楚 provenance，並非本子代理宣稱重讀。"
+        }
+      ],
+      "observedIndividualReports": [
+        {
+          "author": "Davego",
+          "url": "https://www.reddit.com/r/bose/comments/1w6on2x/lifestyle_ultra_issue/",
+          "locator": "原文主帖，LG C3 / ShieldTV Pro 段落",
+          "exactModelConfirmed": true,
+          "firstPersonConfirmed": true,
+          "issueKey": "hdmi_cec_no_sound",
+          "excerpt": "自述完整 Lifestyle Ultra 組合連 LG C3 與 ShieldTV Pro；約三分之一 CEC 開機無聲，重開電視恢復，另有後環繞不同步。",
+          "reason": "明確新款持有；CEC 無聲只與相同情境比對，不和 Wi-Fi 設定或底噪加總。",
+          "reportId": "soundbar-bose-lifestyle-ultra-observed-1",
+          "evidenceExcerpt": "自述完整 Lifestyle Ultra 組合連 LG C3 與 ShieldTV Pro；約三分之一 CEC 開機無聲，重開電視恢復，另有後環繞不同步。",
+          "reviewedAt": "2026-09-06",
+          "reviewedBy": "人工原頁覆核",
+          "manualReviewNote": "明確新款持有；CEC 無聲只與相同情境比對，不和 Wi-Fi 設定或底噪加總。",
+          "eligibleIndividualObservation": true,
+          "countedTowardPublishedCommonIssue": false,
+          "crossPostKey": "davego-hdmi_cec_no_sound",
+          "sourceWebsite": "reddit.com"
+        },
+        {
+          "author": "a_j3000",
+          "url": "https://www.reddit.com/r/bose/comments/1w6on2x/comment/p82r5xi/",
+          "locator": "a_j3000 回覆，LG G6 / Apple TV 段落",
+          "exactModelConfirmed": true,
+          "firstPersonConfirmed": true,
+          "issueKey": "hdmi_cec_no_sound",
+          "excerpt": "明寫 Bose Ultra Lifestyle soundbar 加後環繞與低音，LG G6 / Apple TV 曾有相同問題；全部重設後未再發生。",
+          "reason": "新款與自身問題均確認；保留已緩解狀態。",
+          "reportId": "soundbar-bose-lifestyle-ultra-observed-2",
+          "evidenceExcerpt": "明寫 Bose Ultra Lifestyle soundbar 加後環繞與低音，LG G6 / Apple TV 曾有相同問題；全部重設後未再發生。",
+          "reviewedAt": "2026-09-06",
+          "reviewedBy": "人工原頁覆核",
+          "manualReviewNote": "新款與自身問題均確認；保留已緩解狀態。",
+          "eligibleIndividualObservation": true,
+          "countedTowardPublishedCommonIssue": false,
+          "crossPostKey": "a_j3000-hdmi_cec_no_sound",
+          "sourceWebsite": "reddit.com"
+        },
+        {
+          "author": "Slogoin",
+          "url": "https://www.reddit.com/r/bose/comments/1u0dsmq/static_noise_in_new_lifestyle_ultra_rears/?sort=old",
+          "locator": "主帖及 UPDATE",
+          "exactModelConfirmed": true,
+          "firstPersonConfirmed": true,
+          "issueKey": "surround_static",
+          "excerpt": "新 Lifestyle 整套含 soundbar，主機走 Ethernet；後環繞近距離底噪，換住處多插座與工作場所仍有，最後退貨。",
+          "reason": "標題及整套新款語境明確；限定 soundbar 配後環繞情境，不能宣稱單機普遍底噪。",
+          "reportId": "soundbar-bose-lifestyle-ultra-observed-3",
+          "evidenceExcerpt": "新 Lifestyle 整套含 soundbar，主機走 Ethernet；後環繞近距離底噪，換住處多插座與工作場所仍有，最後退貨。",
+          "reviewedAt": "2026-09-06",
+          "reviewedBy": "人工原頁覆核",
+          "manualReviewNote": "標題及整套新款語境明確；限定 soundbar 配後環繞情境，不能宣稱單機普遍底噪。",
+          "eligibleIndividualObservation": true,
+          "countedTowardPublishedCommonIssue": false,
+          "crossPostKey": "slogoin-surround_static",
+          "sourceWebsite": "reddit.com"
+        },
+        {
+          "author": "notanomad",
+          "url": "https://www.reddit.com/r/bose/comments/1u0dsmq/comment/oqrvioi/",
+          "locator": "notanomad 回覆",
+          "exactModelConfirmed": true,
+          "firstPersonConfirmed": true,
+          "issueKey": "surround_static",
+          "excerpt": "Lifestyle Ultra 喇叭作立體聲正常；收到同款 soundbar、Ethernet 連接並改設後環繞後出现沙沙聲。",
+          "reason": "明確指出 soundbar 及從立體聲到環繞的觸發條件。",
+          "reportId": "soundbar-bose-lifestyle-ultra-observed-4",
+          "evidenceExcerpt": "Lifestyle Ultra 喇叭作立體聲正常；收到同款 soundbar、Ethernet 連接並改設後環繞後出现沙沙聲。",
+          "reviewedAt": "2026-09-06",
+          "reviewedBy": "人工原頁覆核",
+          "manualReviewNote": "明確指出 soundbar 及從立體聲到環繞的觸發條件。",
+          "eligibleIndividualObservation": true,
+          "countedTowardPublishedCommonIssue": false,
+          "crossPostKey": "notanomad-surround_static",
+          "sourceWebsite": "reddit.com"
+        },
+        {
+          "author": "bellinra",
+          "url": "https://www.reddit.com/r/bose/comments/1u0dsmq/comment/oz5xttf/",
+          "locator": "bellinra 德文回覆",
+          "exactModelConfirmed": true,
+          "firstPersonConfirmed": true,
+          "issueKey": "surround_static",
+          "excerpt": "從 Soundbar 700 升到完整 Ultra Lifestyle；新 soundbar 有輕微噪聲，後環繞在安靜房間更明顯，嘗試排除無效後退回 Bose。",
+          "reason": "新舊款區分明確；保留為同套環繞底噪個案。",
+          "reportId": "soundbar-bose-lifestyle-ultra-observed-5",
+          "evidenceExcerpt": "從 Soundbar 700 升到完整 Ultra Lifestyle；新 soundbar 有輕微噪聲，後環繞在安靜房間更明顯，嘗試排除無效後退回 Bose。",
+          "reviewedAt": "2026-09-06",
+          "reviewedBy": "人工原頁覆核",
+          "manualReviewNote": "新舊款區分明確；保留為同套環繞底噪個案。",
+          "eligibleIndividualObservation": true,
+          "countedTowardPublishedCommonIssue": false,
+          "crossPostKey": "bellinra-surround_static",
+          "sourceWebsite": "reddit.com"
+        },
+        {
+          "author": "dpg81",
+          "url": "https://www.reddit.com/r/bose/comments/1tki03d/comment/oo1t9lh/",
+          "locator": "dpg81 後續 Netgear Orbi 870 回覆",
+          "exactModelConfirmed": true,
+          "firstPersonConfirmed": true,
+          "issueKey": "wireless_setup_or_disconnect",
+          "excerpt": "換用 Orbi 870 後新款系統出現連線及校正問題，獨立 5 GHz SSID 仍有；soundbar 改 Ethernet 後恢復，原 Nest Wi-Fi Pro 正常。",
+          "reason": "明確網路變更情境，不能推為所有網路或 CEC 故障。",
+          "reportId": "soundbar-bose-lifestyle-ultra-observed-6",
+          "evidenceExcerpt": "換用 Orbi 870 後新款系統出現連線及校正問題，獨立 5 GHz SSID 仍有；soundbar 改 Ethernet 後恢復，原 Nest Wi-Fi Pro 正常。",
+          "reviewedAt": "2026-09-06",
+          "reviewedBy": "人工原頁覆核",
+          "manualReviewNote": "明確網路變更情境，不能推為所有網路或 CEC 故障。",
+          "eligibleIndividualObservation": true,
+          "countedTowardPublishedCommonIssue": false,
+          "crossPostKey": "dpg81-wireless_setup_or_disconnect",
+          "sourceWebsite": "reddit.com"
+        },
+        {
+          "author": "Appropriate-Row-372",
+          "url": "https://www.reddit.com/r/bose/comments/1tki03d/comment/onbptlz/",
+          "locator": "主串 Appropriate-Row-372 回覆，Setup was a bit buggy 段落",
+          "exactModelConfirmed": true,
+          "firstPersonConfirmed": true,
+          "issueKey": "wireless_setup_or_disconnect",
+          "excerpt": "新 Lifestyle soundbar 加兩後環繞，初始設定重設兩次後才無斷線或中斷地播放；之後肯定音效。",
+          "reason": "原串正文已讀；獨立 permalink 請求 timeout，定位可由完整主串作者及句子重現。",
+          "reportId": "soundbar-bose-lifestyle-ultra-observed-7",
+          "evidenceExcerpt": "新 Lifestyle soundbar 加兩後環繞，初始設定重設兩次後才無斷線或中斷地播放；之後肯定音效。",
+          "reviewedAt": "2026-09-06",
+          "reviewedBy": "人工原頁覆核",
+          "manualReviewNote": "原串正文已讀；獨立 permalink 請求 timeout，定位可由完整主串作者及句子重現。",
+          "eligibleIndividualObservation": true,
+          "countedTowardPublishedCommonIssue": false,
+          "crossPostKey": "appropriate-row-372-wireless_setup_or_disconnect",
+          "sourceWebsite": "reddit.com"
+        },
+        {
+          "author": "dat_tallguy",
+          "url": "https://www.reddit.com/r/bose/comments/1tki03d/comment/oncapgr/",
+          "locator": "dat_tallguy 回覆",
+          "exactModelConfirmed": true,
+          "firstPersonConfirmed": true,
+          "issueKey": "wireless_setup_or_disconnect",
+          "excerpt": "賣掉 Smart Ultra 改買新 Lifestyle soundbar、sub、surrounds，開箱連線需四次原廠重設，後環繞仍離線。",
+          "reason": "自身新款連線明確；客服所稱許多人反映為轉述，不增加人數。",
+          "reportId": "soundbar-bose-lifestyle-ultra-observed-8",
+          "evidenceExcerpt": "賣掉 Smart Ultra 改買新 Lifestyle soundbar、sub、surrounds，開箱連線需四次原廠重設，後環繞仍離線。",
+          "reviewedAt": "2026-09-06",
+          "reviewedBy": "人工原頁覆核",
+          "manualReviewNote": "自身新款連線明確；客服所稱許多人反映為轉述，不增加人數。",
+          "eligibleIndividualObservation": true,
+          "countedTowardPublishedCommonIssue": false,
+          "crossPostKey": "dat_tallguy-wireless_setup_or_disconnect",
+          "sourceWebsite": "reddit.com"
+        },
+        {
+          "author": "naoki700kimo",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7276976&p=11",
+          "locator": "第 11 頁 #101，文章 93440499，2026-08-08 15:31",
+          "exactModelConfirmed": true,
+          "firstPersonConfirmed": true,
+          "issueKey": "initial_update_connection_block",
+          "excerpt": "買整組後 LS ultra soundbar 一直無法連線，更新階段卡住，仍在求解。",
+          "reason": "型號與持有確認，但更新卡住和播放中斷仍分列；不自行推定根因。",
+          "reportId": "soundbar-bose-lifestyle-ultra-observed-9",
+          "evidenceExcerpt": "買整組後 LS ultra soundbar 一直無法連線，更新階段卡住，仍在求解。",
+          "reviewedAt": "2026-09-06",
+          "reviewedBy": "人工原頁覆核",
+          "manualReviewNote": "型號與持有確認，但更新卡住和播放中斷仍分列；不自行推定根因。",
+          "eligibleIndividualObservation": true,
+          "countedTowardPublishedCommonIssue": false,
+          "crossPostKey": "naoki700kimo-initial_update_connection_block",
+          "sourceWebsite": "mobile01.com"
+        },
+        {
+          "author": "macjazzz",
+          "url": "https://www.reddit.com/r/bose/comments/1te3bii/comment/on8et6m/",
+          "locator": "macjazzz 升級 Bose Smart SB 900 的回覆",
+          "exactModelConfirmed": true,
+          "firstPersonConfirmed": true,
+          "issueKey": "app_setup_hiccups",
+          "excerpt": "升級完整 Lifestyle Ultra 後設定時需重啟 App 幾次；設定完成後以 Apple TV 播 Atmos 正常且滿意。",
+          "reason": "具體回報只有 App 設定阻礙，未指明 Wi-Fi 斷線／更新失敗，不和其他連線問題湊數。",
+          "reportId": "soundbar-bose-lifestyle-ultra-observed-10",
+          "evidenceExcerpt": "升級完整 Lifestyle Ultra 後設定時需重啟 App 幾次；設定完成後以 Apple TV 播 Atmos 正常且滿意。",
+          "reviewedAt": "2026-09-06",
+          "reviewedBy": "人工原頁覆核",
+          "manualReviewNote": "具體回報只有 App 設定阻礙，未指明 Wi-Fi 斷線／更新失敗，不和其他連線問題湊數。",
+          "eligibleIndividualObservation": true,
+          "countedTowardPublishedCommonIssue": false,
+          "crossPostKey": "macjazzz-app_setup_hiccups",
+          "sourceWebsite": "reddit.com"
+        },
+        {
+          "author": "SouthernGuy776",
+          "url": "https://www.reddit.com/r/bose/comments/1te3bii/comment/om2qneo/",
+          "locator": "SouthernGuy776 回覆與其當日後續，bass ports 段落",
+          "exactModelConfirmed": true,
+          "firstPersonConfirmed": true,
+          "issueKey": "bass_port_rattle",
+          "excerpt": "當日購入新款後發現低音反射孔附近雜振；已更新、校正並添購低音，靠近確認聲音來自 soundbar，準備退货。",
+          "reason": "同作者重複留言及引用媒體只計一人。",
+          "reportId": "soundbar-bose-lifestyle-ultra-observed-11",
+          "evidenceExcerpt": "當日購入新款後發現低音反射孔附近雜振；已更新、校正並添購低音，靠近確認聲音來自 soundbar，準備退货。",
+          "reviewedAt": "2026-09-06",
+          "reviewedBy": "人工原頁覆核",
+          "manualReviewNote": "同作者重複留言及引用媒體只計一人。",
+          "eligibleIndividualObservation": true,
+          "countedTowardPublishedCommonIssue": false,
+          "crossPostKey": "southernguy776-bass_port_rattle",
+          "sourceWebsite": "reddit.com"
+        },
+        {
+          "author": "Terrible_Positive_81",
+          "url": "https://www.reddit.com/r/bose/comments/1te3bii/comment/omxxjif/",
+          "locator": "Terrible_Positive_81 回覆；同作者新款持有亦見 1tizyz7 主帖",
+          "exactModelConfirmed": true,
+          "firstPersonConfirmed": true,
+          "issueKey": "bass_port_rattle",
+          "excerpt": "新購入後有雜振，數小時後在相同影片已不再發生；作者另一篇明確比較自己購入的 Lifestyle Ultra 與 Arc Ultra。",
+          "reason": "記錄曾發生及已消失，跨串同作者不重複計數。",
+          "reportId": "soundbar-bose-lifestyle-ultra-observed-12",
+          "evidenceExcerpt": "新購入後有雜振，數小時後在相同影片已不再發生；作者另一篇明確比較自己購入的 Lifestyle Ultra 與 Arc Ultra。",
+          "reviewedAt": "2026-09-06",
+          "reviewedBy": "人工原頁覆核",
+          "manualReviewNote": "記錄曾發生及已消失，跨串同作者不重複計數。",
+          "eligibleIndividualObservation": true,
+          "countedTowardPublishedCommonIssue": false,
+          "crossPostKey": "terrible_positive_81-bass_port_rattle",
+          "sourceWebsite": "reddit.com"
+        },
+        {
+          "author": "AdhesivenessFancy791",
+          "url": "https://www.reddit.com/r/bose/comments/1vw0axf/bose_lifestyle_ultra_sound_issue/",
+          "locator": "主帖及回覆確認完整 Lifestyle Ultra surround system",
+          "exactModelConfirmed": true,
+          "firstPersonConfirmed": true,
+          "issueKey": "channel_switch_audio_delay",
+          "excerpt": "Lifestyle Ultra 整套接 2026 Samsung 與 Sky Q，換台後數秒無聲才恢復，恢復後影音同步；電視揚聲器無此現象。",
+          "reason": "頻道音訊啟動延遲，明說非嘴形同步；不和 CEC 開機或後環繞同步合併。",
+          "reportId": "soundbar-bose-lifestyle-ultra-observed-13",
+          "evidenceExcerpt": "Lifestyle Ultra 整套接 2026 Samsung 與 Sky Q，換台後數秒無聲才恢復，恢復後影音同步；電視揚聲器無此現象。",
+          "reviewedAt": "2026-09-06",
+          "reviewedBy": "人工原頁覆核",
+          "manualReviewNote": "頻道音訊啟動延遲，明說非嘴形同步；不和 CEC 開機或後環繞同步合併。",
+          "eligibleIndividualObservation": true,
+          "countedTowardPublishedCommonIssue": false,
+          "crossPostKey": "adhesivenessfancy791-channel_switch_audio_delay",
+          "sourceWebsite": "reddit.com"
+        },
+        {
+          "author": "NIGHTMARE31000",
+          "url": "https://www.reddit.com/r/bose/comments/1tki03d/share_opinions_on_the_new_bose_lifestyle_ultra/",
+          "locator": "NIGHTMARE31000 法文回覆，AirPlay / Apple Music 段落",
+          "exactModelConfirmed": true,
+          "firstPersonConfirmed": true,
+          "issueKey": "airplay_discovery",
+          "excerpt": "新款聲霸播放效果滿意，但手機 Apple Music 的 AirPlay 清單能看到 Apple TV、電視及 HomePod，無法找到 soundbar。",
+          "reason": "AirPlay 探索問題只有一位；和其他配對／CEC 根因不同，不合併。",
+          "reportId": "soundbar-bose-lifestyle-ultra-observed-14",
+          "evidenceExcerpt": "新款聲霸播放效果滿意，但手機 Apple Music 的 AirPlay 清單能看到 Apple TV、電視及 HomePod，無法找到 soundbar。",
+          "reviewedAt": "2026-09-06",
+          "reviewedBy": "人工原頁覆核",
+          "manualReviewNote": "AirPlay 探索問題只有一位；和其他配對／CEC 根因不同，不合併。",
+          "eligibleIndividualObservation": true,
+          "countedTowardPublishedCommonIssue": false,
+          "crossPostKey": "nightmare31000-airplay_discovery",
+          "sourceWebsite": "reddit.com"
+        }
+      ],
+      "excludedAuthorReviews": [
+        {
+          "author": "evolude",
+          "url": "https://www.reddit.com/r/bose/comments/1w6on2x/lifestyle_ultra_issue/",
+          "decision": "excluded",
+          "reason": "只寫 Bose Ultra，雖有 LG C1 / Apple TV 待機握手問題，未確認 Lifestyle 新款。",
+          "evidenceExcerpt": "只寫 Bose Ultra，雖有 LG C1 / Apple TV 待機握手問題，未確認 Lifestyle 新款。",
+          "firstPersonConfirmed": true,
+          "exactModelConfirmed": false,
+          "reviewedAt": "2026-09-06",
+          "counted": false
+        },
+        {
+          "author": "bojacker",
+          "url": "https://www.reddit.com/r/bose/comments/1w6on2x/lifestyle_ultra_issue/",
+          "decision": "excluded",
+          "reason": "明說自己的 Smart Ultra Soundbar，提供 CEC 設定建議；不同款。",
+          "evidenceExcerpt": "明說自己的 Smart Ultra Soundbar，提供 CEC 設定建議；不同款。",
+          "firstPersonConfirmed": true,
+          "exactModelConfirmed": false,
+          "reviewedAt": "2026-09-06",
+          "counted": false
+        },
+        {
+          "author": "LawJolla",
+          "url": "https://www.reddit.com/r/bose/comments/1u0dsmq/static_noise_in_new_lifestyle_ultra_rears/?sort=old",
+          "decision": "excluded",
+          "reason": "僅稱相同問題及距離 3–5 呎可聽見，沒有獨立確認 soundbar 型號／完整配置；從嚴不計。",
+          "evidenceExcerpt": "僅稱相同問題及距離 3–5 呎可聽見，沒有獨立確認 soundbar 型號／完整配置；從嚴不計。",
+          "firstPersonConfirmed": true,
+          "exactModelConfirmed": false,
+          "reviewedAt": "2026-09-06",
+          "counted": false
+        },
+        {
+          "author": "雷獸",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7276976&p=11",
+          "decision": "excluded",
+          "reason": "於 #101 下表示自己改插 Ethernet 解決；未明說所持型號、故障階段及配置，保留有用個案但不足精確確認。",
+          "evidenceExcerpt": "於 #101 下表示自己改插 Ethernet 解決；未明說所持型號、故障階段及配置，保留有用個案但不足精確確認。",
+          "firstPersonConfirmed": true,
+          "exactModelConfirmed": false,
+          "reviewedAt": "2026-09-06",
+          "counted": false
+        },
+        {
+          "author": "yclee033",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7276976&p=3",
+          "decision": "excluded",
+          "reason": "第 3 頁 #29／93332560 泛評 App 穩定性／相容性可進步，無持有敘述、觸發條件或具體故障。",
+          "evidenceExcerpt": "第 3 頁 #29／93332560 泛評 App 穩定性／相容性可進步，無持有敘述、觸發條件或具體故障。",
+          "firstPersonConfirmed": false,
+          "exactModelConfirmed": false,
+          "reviewedAt": "2026-09-06",
+          "counted": false
+        },
+        {
+          "author": "st800800800",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7276976&p=4",
+          "decision": "excluded",
+          "reason": "第 4 頁 #31／93332613 明說舊款斷線，詢問新款是否改善；不轉成新款問題。",
+          "evidenceExcerpt": "第 4 頁 #31／93332613 明說舊款斷線，詢問新款是否改善；不轉成新款問題。",
+          "firstPersonConfirmed": true,
+          "exactModelConfirmed": false,
+          "reviewedAt": "2026-09-06",
+          "counted": false
+        },
+        {
+          "author": "小丸子一朗",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7276976&p=5",
+          "decision": "excluded",
+          "reason": "第 5 頁 #43／93333741 泛指此類產品連線不順，未回報自己的 exact-model 經驗。",
+          "evidenceExcerpt": "第 5 頁 #43／93333741 泛指此類產品連線不順，未回報自己的 exact-model 經驗。",
+          "firstPersonConfirmed": false,
+          "exactModelConfirmed": false,
+          "reviewedAt": "2026-09-06",
+          "counted": false
+        },
+        {
+          "author": "Bryan.S",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7276976",
+          "decision": "excluded",
+          "reason": "第 1 頁 #1／93331009 媒體試聽；環境有人聲時校正失败屬操作環境觀察，不作獨立消費者故障人數。",
+          "evidenceExcerpt": "第 1 頁 #1／93331009 媒體試聽；環境有人聲時校正失败屬操作環境觀察，不作獨立消費者故障人數。",
+          "firstPersonConfirmed": true,
+          "exactModelConfirmed": true,
+          "reviewedAt": "2026-09-06",
+          "counted": false
+        },
+        {
+          "author": "DaveCarr_SG",
+          "url": "https://www.reddit.com/r/bose/comments/1te3bii/had_a_chance_to_take_the_new_lifestyle_ultra/",
+          "decision": "excluded",
+          "reason": "媒體評測作者自述 App 設定 hiccups；不作獨立消費者集中故障人數。",
+          "evidenceExcerpt": "媒體評測作者自述 App 設定 hiccups；不作獨立消費者集中故障人數。",
+          "firstPersonConfirmed": true,
+          "exactModelConfirmed": true,
+          "reviewedAt": "2026-09-06",
+          "counted": false
+        },
+        {
+          "author": "New_Supermarket1578",
+          "url": "https://www.reddit.com/r/bose/comments/1te3bii/had_a_chance_to_take_the_new_lifestyle_ultra/",
+          "decision": "excluded",
+          "reason": "韌體把機器變磚及連線問題明說舊 Smart Ultra；新 Lifestyle 升級及更新正常。",
+          "evidenceExcerpt": "韌體把機器變磚及連線問題明說舊 Smart Ultra；新 Lifestyle 升級及更新正常。",
+          "firstPersonConfirmed": true,
+          "exactModelConfirmed": false,
+          "reviewedAt": "2026-09-06",
+          "counted": false
+        },
+        {
+          "author": "SnooDonuts9693",
+          "url": "https://www.reddit.com/r/bose/comments/1te3bii/had_a_chance_to_take_the_new_lifestyle_ultra/",
+          "decision": "excluded",
+          "reason": "詢問是否有低頻轟鳴及 CustomTune 後加重，未獨立明示持有此 exact model；不從問題句推定作者。",
+          "evidenceExcerpt": "詢問是否有低頻轟鳴及 CustomTune 後加重，未獨立明示持有此 exact model；不從問題句推定作者。",
+          "firstPersonConfirmed": false,
+          "exactModelConfirmed": false,
+          "reviewedAt": "2026-09-06",
+          "counted": false
+        },
+        {
+          "author": "StepBro_71",
+          "url": "https://www.reddit.com/r/bose/comments/1te3bii/had_a_chance_to_take_the_new_lifestyle_ultra/",
+          "decision": "excluded",
+          "reason": "回覆新拆箱聲霸低音 6 有聲音，該則沒有完整型號；同帳號後續主串表示新款滿意，保留邊界但不把不明雜音算獨立故障。",
+          "evidenceExcerpt": "回覆新拆箱聲霸低音 6 有聲音，該則沒有完整型號；同帳號後續主串表示新款滿意，保留邊界但不把不明雜音算獨立故障。",
+          "firstPersonConfirmed": true,
+          "exactModelConfirmed": false,
+          "reviewedAt": "2026-09-06",
+          "counted": false
+        },
+        {
+          "author": "rstassi",
+          "url": "https://www.reddit.com/r/bose/comments/1tgbazt/smart_ultra_soundbar_not_compatible_with/",
+          "decision": "excluded",
+          "reason": "1tgbazt 與 1th4kt5 同作者；原持有 Smart Ultra 搭新 Lifestyle Speakers，不相容屬不同 soundbar 且跨串同一人。",
+          "evidenceExcerpt": "1tgbazt 與 1th4kt5 同作者；原持有 Smart Ultra 搭新 Lifestyle Speakers，不相容屬不同 soundbar 且跨串同一人。",
+          "firstPersonConfirmed": true,
+          "exactModelConfirmed": false,
+          "reviewedAt": "2026-09-06",
+          "counted": false
+        },
+        {
+          "author": "ThanksNo9604",
+          "url": "https://www.reddit.com/r/bose/comments/1vt3965/bose_ultra_soundbar_lifestyle_ultra_subwoofer/",
+          "decision": "excluded",
+          "reason": "明寫 2023 Ultra Soundbar，詢問搭新款低音箱，並非持有 Lifestyle soundbar。",
+          "evidenceExcerpt": "明寫 2023 Ultra Soundbar，詢問搭新款低音箱，並非持有 Lifestyle soundbar。",
+          "firstPersonConfirmed": true,
+          "exactModelConfirmed": false,
+          "reviewedAt": "2026-09-06",
+          "counted": false
+        },
+        {
+          "author": "No_Relationship_9061 / Sass23 / myspamaccount007 / Iflyu2",
+          "url": "https://www.reddit.com/r/bose/comments/1vky2yn/is_it_a_good_price_to_buy/",
+          "decision": "excluded",
+          "reason": "購買價討論中的斷線／CEC 回報未確認 Lifestyle；前三年使用、一年以上機齡、光纖接法、Smart Ultra 文字都不能作此新品 exact-model 證據。",
+          "evidenceExcerpt": "購買價討論中的斷線／CEC 回報未確認 Lifestyle；前三年使用、一年以上機齡、光纖接法、Smart Ultra 文字都不能作此新品 exact-model 證據。",
+          "firstPersonConfirmed": true,
+          "exactModelConfirmed": false,
+          "reviewedAt": "2026-09-06",
+          "counted": false
+        },
+        {
+          "author": "Select-Respond-4506",
+          "url": "https://www.reddit.com/r/bose/comments/1tu60dy/help_with_lifestyle_ultra_speaker/",
+          "decision": "excluded",
+          "reason": "僅收到 Lifestyle Ultra Speaker 一顆，以 AUX 接電視延遲，明說未購入 soundbar。",
+          "evidenceExcerpt": "僅收到 Lifestyle Ultra Speaker 一顆，以 AUX 接電視延遲，明說未購入 soundbar。",
+          "firstPersonConfirmed": true,
+          "exactModelConfirmed": false,
+          "reviewedAt": "2026-09-06",
+          "counted": false
+        },
+        {
+          "author": "CanCommercial3254",
+          "url": "https://www.reddit.com/r/bose/comments/1ugypy4/lifestyle_ultra_soundbar_and_surround_a_true/",
+          "decision": "excluded",
+          "reason": "說兩顆 Lifestyle Ultra Speakers 立體聲 Wi-Fi 問題；沒有 Lifestyle Soundbar。",
+          "evidenceExcerpt": "說兩顆 Lifestyle Ultra Speakers 立體聲 Wi-Fi 問題；沒有 Lifestyle Soundbar。",
+          "firstPersonConfirmed": true,
+          "exactModelConfirmed": false,
+          "reviewedAt": "2026-09-06",
+          "counted": false
+        },
+        {
+          "author": "AdVegetable9772",
+          "url": "https://www.reddit.com/r/bose/comments/1ugypy4/lifestyle_ultra_soundbar_and_surround_a_true/",
+          "decision": "excluded",
+          "reason": "抱怨舊 SoundTouch／900／Ultra 生態及 sub 二極體；新款持有未確認。",
+          "evidenceExcerpt": "抱怨舊 SoundTouch／900／Ultra 生態及 sub 二極體；新款持有未確認。",
+          "firstPersonConfirmed": true,
+          "exactModelConfirmed": false,
+          "reviewedAt": "2026-09-06",
+          "counted": false
+        },
+        {
+          "author": "incremantalg",
+          "url": "https://www.reddit.com/r/bose/comments/1vt2q69/i_bought_and_compared_the_lifestyle_ultra/",
+          "decision": "excluded",
+          "reason": "實購 Lifestyle 對照 900 後覺得提升不足而退貨，屬主觀價值與聲音偏好，未回報故障。",
+          "evidenceExcerpt": "實購 Lifestyle 對照 900 後覺得提升不足而退貨，屬主觀價值與聲音偏好，未回報故障。",
+          "firstPersonConfirmed": true,
+          "exactModelConfirmed": true,
+          "reviewedAt": "2026-09-06",
+          "counted": false
+        },
+        {
+          "author": "Neat_Visit_3143",
+          "url": "https://www.reddit.com/r/bose/comments/1vxfem4/picked_up_lifestyle_ultra_collection/",
+          "decision": "excluded",
+          "reason": "覺得環繞稍弱、後喇叭電源線接第三方支架要轉彎；其餘聲音良好，非 soundbar 故障。",
+          "evidenceExcerpt": "覺得環繞稍弱、後喇叭電源線接第三方支架要轉彎；其餘聲音良好，非 soundbar 故障。",
+          "firstPersonConfirmed": true,
+          "exactModelConfirmed": true,
+          "reviewedAt": "2026-09-06",
+          "counted": false
+        },
+        {
+          "author": "Remarkable_Can6112",
+          "url": "https://www.reddit.com/r/Soundbars/comments/1u6hudt/any_thoughts_on_the_new_bose_lifestyle_ultra/",
+          "decision": "excluded",
+          "reason": "明說使用中沒有問題，因不能用雙低音需求而退貨；規格偏好不算故障。",
+          "evidenceExcerpt": "明說使用中沒有問題，因不能用雙低音需求而退貨；規格偏好不算故障。",
+          "firstPersonConfirmed": true,
+          "exactModelConfirmed": true,
+          "reviewedAt": "2026-09-06",
+          "counted": false
+        },
+        {
+          "author": "SnooMuffins873",
+          "url": "https://www.reddit.com/r/bose/comments/1tejrpb/i_pulled_the_trigger_who_else_is_getting_one/",
+          "decision": "excluded",
+          "reason": "新款雙低音配置不支援，試過有線覆蓋無線；為規格不符合需求，非失效回報。",
+          "evidenceExcerpt": "新款雙低音配置不支援，試過有線覆蓋無線；為規格不符合需求，非失效回報。",
+          "firstPersonConfirmed": true,
+          "exactModelConfirmed": true,
+          "reviewedAt": "2026-09-06",
+          "counted": false
+        },
+        {
+          "author": "Ditman013",
+          "url": "https://www.reddit.com/r/bose/comments/1uxwynx/lifestyle_ultra_sound_bar_any_current_thoughts/",
+          "decision": "excluded",
+          "reason": "明說只聽过舊 Smart Ultra、尚未聽新 Lifestyle，後買 Arc Ultra；不能作新款負評持有者。",
+          "evidenceExcerpt": "明說只聽过舊 Smart Ultra、尚未聽新 Lifestyle，後買 Arc Ultra；不能作新款負評持有者。",
+          "firstPersonConfirmed": false,
+          "exactModelConfirmed": false,
+          "reviewedAt": "2026-09-06",
+          "counted": false
+        }
+      ],
+      "issueClusters": [
+        {
+          "issueKey": "hdmi_cec_no_sound",
+          "authors": [
+            "Davego",
+            "a_j3000"
+          ],
+          "websites": [
+            "reddit.com"
+          ],
+          "decision": "below_threshold",
+          "note": "2 名；Davego 的後環繞不同步仍不得与其他底噪合併。"
+        },
+        {
+          "issueKey": "surround_static",
+          "authors": [
+            "Slogoin",
+            "notanomad",
+            "bellinra"
+          ],
+          "websites": [
+            "reddit.com"
+          ],
+          "decision": "below_threshold",
+          "note": "3 名；LawJolla 型號配置未確認。"
+        },
+        {
+          "issueKey": "wireless_setup_or_disconnect",
+          "authors": [
+            "dpg81",
+            "Appropriate-Row-372",
+            "dat_tallguy"
+          ],
+          "websites": [
+            "reddit.com"
+          ],
+          "decision": "below_threshold",
+          "note": "3 名；naoki700kimo 更新卡住另列。即使寬鬆合併也僅 4 名確定型號。雷獸型號未明；macjazzz 只有 App hiccups 不能擅認同故障。"
+        },
+        {
+          "issueKey": "initial_update_connection_block",
+          "authors": [
+            "naoki700kimo"
+          ],
+          "websites": [
+            "mobile01.com"
+          ],
+          "decision": "below_threshold"
+        },
+        {
+          "issueKey": "app_setup_hiccups",
+          "authors": [
+            "macjazzz"
+          ],
+          "websites": [
+            "reddit.com"
+          ],
+          "decision": "below_threshold"
+        },
+        {
+          "issueKey": "bass_port_rattle",
+          "authors": [
+            "SouthernGuy776",
+            "Terrible_Positive_81"
+          ],
+          "websites": [
+            "reddit.com"
+          ],
+          "decision": "below_threshold"
+        },
+        {
+          "issueKey": "channel_switch_audio_delay",
+          "authors": [
+            "AdhesivenessFancy791"
+          ],
+          "websites": [
+            "reddit.com"
+          ],
+          "decision": "below_threshold"
+        },
+        {
+          "issueKey": "airplay_discovery",
+          "authors": [
+            "NIGHTMARE31000"
+          ],
+          "websites": [
+            "reddit.com"
+          ],
+          "decision": "below_threshold"
         }
       ]
     }

@@ -888,8 +888,8 @@
     "price": {
       "currency": "USD",
       "amount": 189,
-      "converted": 5978,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-09-05 匯率換算"
+      "converted": 5980,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-09-06 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/fa8dd4e4-36c8-4c79-a928-22c7bff2ce29/ab5bc8a4-6135-402e-a695-e3ea5e16d3e6.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-pro",
@@ -968,8 +968,8 @@
     "price": {
       "currency": "USD",
       "amount": 159,
-      "converted": 5029,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-09-05 匯率換算"
+      "converted": 5031,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-09-06 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/8e88b222-7a55-4cf0-8677-ae9b6347fe84/e16aa122-b5e5-4ffb-9f1a-27ee14d9ab3d.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u6-pro",
@@ -1085,8 +1085,8 @@
     "price": {
       "currency": "USD",
       "amount": 99,
-      "converted": 3131,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-09-05 匯率換算"
+      "converted": 3132,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-09-06 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/253cc208-4b09-4b2e-9d1a-7aa1e8f93507/49241c96-878f-4e40-8541-c2e89c1c5e6e.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-lite",
@@ -1561,8 +1561,8 @@
     "price": {
       "currency": "USD",
       "amount": 129,
-      "converted": 4080,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-09-05 匯率換算"
+      "converted": 4081,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-09-06 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/6d5c6141-e2e9-416a-b789-53e59416bb1a/853bc73b-f65b-4e59-a171-75c9a4a4615e.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u6-plus",
@@ -1665,8 +1665,8 @@
     "price": {
       "currency": "USD",
       "amount": 279,
-      "converted": 8825,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-09-05 匯率換算"
+      "converted": 8827,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-09-06 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/350070a0-ae43-431b-b052-8e849c3b0a75/bad94693-bc54-4ab4-b060-9b972401941c.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-pro-max",
@@ -1759,9 +1759,9 @@
     "name": "BE6500 雙頻 Wi-Fi 7 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 4741,
-      "converted": 4741,
-      "confidence": "Yahoo購物中心 2026-09-05 exact-model 公開結構化價格",
+      "amount": 4990,
+      "converted": 4990,
+      "confidence": "Yahoo購物中心 2026-09-06 exact-model 公開結構化價格",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLPA900IV4B6/000001_1783556530.jpg",
@@ -4714,9 +4714,9 @@
     "name": "BE19000 三頻 Wi-Fi 7 AI 電競路由器",
     "price": {
       "currency": "TWD",
-      "amount": 26591,
-      "converted": 26591,
-      "confidence": "Yahoo購物中心 2026-09-05 exact-model 公開結構化價格",
+      "amount": 27990,
+      "converted": 27990,
+      "confidence": "Yahoo購物中心 2026-09-06 exact-model 公開結構化價格",
       "basis": "retailer_current"
     },
     "image": "https://dlcdnwebimgs.asus.com/gain/FF5DB299-9708-4259-ABF9-167FDC7166BD",
@@ -5108,6 +5108,130 @@
               "url": "https://forums.whirlpool.net.au/archive/3246v0yj"
             }
           ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "wifi-unifi-u7-pro-xg",
+    "category": "wifi",
+    "rank": 54,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Ubiquiti",
+    "model": "U7 Pro XG",
+    "name": "UniFi 三頻 Wi-Fi 7 10GbE 管理型 AP（黑色 U7-Pro-XG-B）",
+    "price": {
+      "currency": "TWD",
+      "amount": 8307,
+      "converted": 8307,
+      "basis": "retailer_current",
+      "confidence": "Ubiquiti 台灣官方商店 2026-09-06 黑色 SKU 公開價：基價 NT$7,699，含增值稅及記憶體附加費合計 NT$8,307；未加入 UI Care 或 PoE 配件"
+    },
+    "image": "https://cdn.ecomm.ui.com/products/a433b9e5-4dd1-4784-adf8-9d12bcba4c87/45a6a9f0-1596-46f3-bebd-9f98c0dfde21.png",
+    "buyUrl": "https://tw.store.ui.com/tw/zh-tw/products/u7-pro-xg?variant=u7-pro-xg-b",
+    "buyLabel": "Ubiquiti 台灣官方商店",
+    "installation": {
+      "status": "excluded",
+      "note": "AP 單台與 Lite Mount 安裝板；PoE 供電器／交換器、Gateway、網路線、控制器主機及現場配線安裝另計。"
+    },
+    "specs": [
+      "類型：UniFi 管理型 AP，不具一般家用一體式 NAT 路由器功能；需既有 Gateway／路由器",
+      "無線：Wi-Fi 7，2.4／5／6GHz 三頻，每頻段 2×2，共 6 空間串流",
+      "管理與 Mesh：UniFi Network 管理、Wireless Meshing；多 AP 通常以有線回程建置較容易維持效能",
+      "有線：1 個 RJ45，10／5／2.5／1GbE 自動協商",
+      "供電：PoE+，42.5–57V DC，最大功耗 22W；AP 價格不含供電器",
+      "尺寸：直徑 20.6 × 厚 3.25 cm；重量：0.75 kg",
+      "安裝：天花板／牆面，隨附 Lite Mount；操作溫度 -30 至 40°C",
+      "容量：官方標示覆蓋 140m²、300+ 用戶端，實際視牆體、干擾及流量而定",
+      "軟體：黑色 U7-Pro-XG-B 需 UniFi Network 9.1.120 或更新版本",
+      "連線注意：已達跨站門檻的 2.5GbE 丟包／不穩回報；部署時須測試所用交換器、線材與韌體組合"
+    ],
+    "description": "U7 Pro XG 把 U7 Pro 的有線上行升至 10GbE，維持三頻 Wi-Fi 7 與 UniFi 集中管理。適合已有 Gateway 和 PoE 架構的人；2.5GbE 連線相容性存在跨站集中回報，應在退換貨期驗收。",
+    "pros": [
+      "10GbE 上行與三頻 Wi-Fi 7",
+      "可統一管理多 AP 並支援無線 Mesh",
+      "台灣官方直營新品與明確 2 年有限保固"
+    ],
+    "cons": [
+      "需額外 Gateway、PoE 及 UniFi 管理環境",
+      "2.5GbE 在部分交換器／韌體組合有丟包與連線中斷集中回報",
+      "6GHz 穿牆、覆蓋與用戶端能力需現場評估"
+    ],
+    "bestFor": "已有 UniFi 架構、願意測試線材與多 Gigabit 連線的進階使用者。",
+    "recommendation": "適合已有UniFi架構且需要10GbE上行的擴充用途；若網路主要使用2.5GbE，應把已記錄的連線問題納入選型與驗收。",
+    "score": 83,
+    "voltage": "AP本體市電不適用；PoE+ 42.5–57V DC，最大22W。另購供電器或PoE交換器，須核對供電設備台灣AC輸入規格",
+    "warranty": "Ubiquiti台灣官方網店直接購買，自交付日起2年有限保固；UI Care 5年為付費加購，回運與拆裝依官方條款",
+    "tags": [
+      "Wi-Fi 7",
+      "UniFi",
+      "Mesh",
+      "10GbE",
+      "PoE+",
+      "管理型 AP"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-09-06",
+      "note": "已查 exact U7-Pro-XG-B 價格歷史搜尋、FindPrice 與台灣官方商店。僅取得現價、代購／配件混合索引及美國第三方歷史頁，未取得同黑色完整新品、可信通路的附日期最低紀錄；不把當前 8,307 或未含附加費的 7,699 推為史低。"
+    },
+    "issueResearch": {
+      "status": "common_issue",
+      "checkedAt": "2026-09-06",
+      "summary": "六位 U7 Pro XG 使用者跨兩個原始網站回報：部分 2.5GbE 連線組合會丟包、斷線或速度崩落，固定 1GbE 後改善。",
+      "issues": [
+        {
+          "title": "2.5GbE 上行在部分組合丟包或中斷，固定 1GbE 後改善",
+          "detail": "已逐人核對 Community 五位及 Reddit 一位独立作者；排除 XGS、相近機種與跨站轉貼。部分其他使用者在 2.5GbE 正常，換線、降發射功率或韌體更新的改善也不一致，尚不能認定通用根因或全數已修復。採購時核對 PoE 與線材，並在退換貨期測試實際 2.5GbE 交換器、持續傳輸和漫遊；若必須固定 1GbE，需接受上行受限。",
+          "reportCount": 6,
+          "sources": [
+            {
+              "platform": "Ubiquiti Community",
+              "title": "U7 Pro XG issues with speed set to 2.5GbE",
+              "url": "https://community.ui.com/questions/U7-Pro-XG-issues-with-speed-set-to-2-5GbE/af53b148-b666-4239-a2e0-6a2ec989a1f2"
+            },
+            {
+              "platform": "Reddit",
+              "title": "In case anyone else has this issue - U7 Pro XG and 6ghz connection issues on 2.5gbps uplink",
+              "url": "https://www.reddit.com/r/UNIFI/comments/1jq2p81/in_case_anyone_else_has_this_issue_u7_pro_xg_and/"
+            }
+          ]
+        }
+      ],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com/r/Ubiquiti \"U7 Pro XG\" issues",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com/r/Ubiquiti%20%22U7%20Pro%20XG%22%20issues"
+        },
+        {
+          "platform": "Ubiquiti Community",
+          "targetHost": "community.ui.com",
+          "query": "site:community.ui.com \"U7 Pro XG\" problem",
+          "queryUrl": "https://www.google.com/search?q=site%3Acommunity.ui.com%20%22U7%20Pro%20XG%22%20problem"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"U7 Pro XG\" 問題",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22U7%20Pro%20XG%22%20%E5%95%8F%E9%A1%8C"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"U7 Pro XG\" \"2.5\" \"packet loss\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22U7%20Pro%20XG%22%20%222.5%22%20%22packet%20loss%22"
         }
       ]
     }

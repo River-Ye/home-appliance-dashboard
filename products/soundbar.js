@@ -17,9 +17,9 @@
     "name": "11.1.4 聲道旗艦 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 42655,
-      "converted": 42655,
-      "confidence": "Yahoo購物中心 2026-09-05 exact-model 公開結構化價格"
+      "amount": 44900,
+      "converted": 44900,
+      "confidence": "Yahoo購物中心 2026-09-06 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900JMDR5/000001_1773978957.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Samsung-%E4%B8%89%E6%98%9F-11-1-4%E8%81%B2%E9%81%93-%E8%97%8D%E7%89%99%E8%81%B2%E9%9C%B8-HW-Q990F-ZW-11688500.html",
@@ -889,9 +889,9 @@
     "name": "Q 系列 11.1.4 聲道 Soundbar 家庭劇院",
     "price": {
       "currency": "TWD",
-      "amount": 56905,
-      "converted": 56905,
-      "confidence": "Yahoo購物中心 2026-09-05 exact-model 公開結構化價格"
+      "amount": 59900,
+      "converted": 59900,
+      "confidence": "Yahoo購物中心 2026-09-06 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADO2A900K5VUT/000001_1782993730.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Samsung%E4%B8%89%E6%98%9F-11-1-4%E8%81%B2%E9%81%93-%E8%97%8D%E7%89%99%E8%81%B2%E9%9C%B8-HW-Q990H-ZW-12124621.html",
@@ -987,9 +987,9 @@
     "name": "Q 系列 7.1.2 聲道 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 35055,
-      "converted": 35055,
-      "confidence": "Yahoo購物中心 2026-09-05 exact-model 公開結構化價格"
+      "amount": 36900,
+      "converted": 36900,
+      "confidence": "Yahoo購物中心 2026-09-06 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900K5489/000001_1782988490.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Samsung%E4%B8%89%E6%98%9F-7-1-2%E8%81%B2%E9%81%93-%E8%97%8D%E7%89%99%E8%81%B2%E9%9C%B8-HW-QS90H-ZW-12124562.html",
@@ -1379,9 +1379,9 @@
     "name": "7.1 聲道家庭劇院喇叭",
     "price": {
       "currency": "TWD",
-      "amount": 27161,
-      "converted": 27161,
-      "confidence": "Yahoo購物中心 2026-09-05 exact-model 公開結構化價格"
+      "amount": 28590,
+      "converted": 28590,
+      "confidence": "Yahoo購物中心 2026-09-06 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAHGA900J56OK/000001_1755250707.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/JBL-BAR800-MK2-7-1%E8%81%B2%E9%81%93%E5%AE%B6%E5%BA%AD%E5%8A%87%E9%99%A2%E5%96%87%E5%8F%AD-%E8%8B%B1%E5%A4%A7%E5%85%AC%E5%8F%B8%E8%B2%A8%E4%B8%80%E5%B9%B4%E4%BF%9D%E5%9B%BA-12156647.html",
@@ -2072,8 +2072,8 @@
     "price": {
       "currency": "USD",
       "amount": 1299.99,
-      "converted": 41119,
-      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-09-05 匯率換算"
+      "converted": 41130,
+      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-09-06 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/2C2sn9CKoKFdIyd94Gm9z5/f3019d4e721511167ebe5c229bf490dd/heston-120_plp.jpg",
     "buyUrl": "https://www.marshall.com/us/en/product/heston-120",
@@ -2172,8 +2172,8 @@
     "price": {
       "currency": "USD",
       "amount": 549.99,
-      "converted": 17396,
-      "confidence": "2026-08-31 人工核對 Marshall US 官方 Heston 60 公開可購主價 USD 549.99；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-09-05 匯率換算",
+      "converted": 17401,
+      "confidence": "2026-08-31 人工核對 Marshall US 官方 Heston 60 公開可購主價 USD 549.99；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-09-06 匯率換算",
       "basis": "retailer_current"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/3yitHqjPBTgQk5qRE72PSn/2788206646aa153f71f2c0ebefaff580/Heston-60-black_plp_800x800-v3.jpeg",
@@ -2468,9 +2468,9 @@
     "name": "2.0 聲道二合一分離式聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 602,
-      "converted": 602,
-      "confidence": "Yahoo購物中心 2026-09-05 exact-model 公開結構化價格"
+      "amount": 633,
+      "converted": 633,
+      "confidence": "Yahoo購物中心 2026-09-06 exact-model 公開結構化價格"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h21/hac/367883491278878.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Soodatek-2-0%E8%81%B2%E9%81%93%E4%BA%8C%E5%90%88%E4%B8%80Soundbar-SS0220-CS2000PBK-11633433.html",
@@ -2611,14 +2611,14 @@
       "status": "found",
       "amount": 176091,
       "currency": "JPY",
-      "converted": 35668,
+      "converted": 35674,
       "sourceUrl": "https://kakaku.com/item/K0001712395/pricehistory/",
       "sourceTitle": "価格.com：JBL BAR 1300MK2 [ブラック] 価格推移",
       "evidenceSnippet": "価格.com 日別價格歷史顯示 exact-model「JBL BAR 1300MK2 [ブラック]」於 2026-06-17 的新品最低價為 ¥176,091；2025-10 初始價格為 ¥205,306。",
       "sourceKind": "price_history",
       "confidence": "medium",
       "checkedAt": "2026-08-25",
-      "note": "採日本市場 exact-model 公開價格歷史並依 2026-09-05 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
+      "note": "採日本市場 exact-model 公開價格歷史並依 2026-09-06 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -3461,6 +3461,106 @@
           "query": "site:mobile01.com \"Sony HT-S60\" (災情 OR 問題 OR 故障 OR 負評)",
           "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Sony%20HT-S60%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "soundbar-bose-lifestyle-ultra",
+    "category": "soundbar",
+    "brand": "Bose",
+    "model": "Lifestyle Ultra Soundbar",
+    "name": "LifeStyle Ultra Soundbar 家庭娛樂揚聲器（黑色單機）",
+    "rank": 36,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "price": {
+      "currency": "TWD",
+      "amount": 39900,
+      "converted": 39900,
+      "confidence": "PChome 2026-09-06 exact-model 商品頁及 API Price.P=39900、Qty=5；黑色單機，不含重低音或後環繞。",
+      "basis": "retailer_current"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DMAANJA900K048L/000001_1778571515.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAANJ-A900K048L",
+    "buyLabel": "PChome",
+    "installation": {
+      "status": "excluded",
+      "note": "單機價格不含壁掛支架、壁掛施工、獨立重低音與後環繞。原廠要求頂部及兩側保持開放，不放封閉櫃內；壁掛於電視下方時至少留10cm。"
+    },
+    "specs": [
+      "類型：5.1.2聲道 Dolby Atmos 單件式聲霸；此價只含黑色主機",
+      "擴充：可另購 Lifestyle Ultra Subwoofer 與一對 Lifestyle Ultra Speaker，組成7.1.4系統",
+      "校正／對白：以手機進行CustomTune空間校正，SpeechClarity可調整對白強度",
+      "連接：HDMI eARC／ARC連接電視；不具額外HDMI影像輸入直通",
+      "串流：Wi-Fi、AirPlay 2、Google Cast、Spotify Connect、Bluetooth 5.3",
+      "控制：Bose App、主機觸控與電視HDMI-CEC；未隨附傳統遙控器",
+      "相容性：舊Bose Surround Speakers及Surround Speakers 700不相容；Bass Module 700僅支援有線連接",
+      "尺寸：主機 寬 109.94 x 深 12.5 x 高 6.73 cm",
+      "重量：主機 6.5 kg",
+      "供電：100–240V／50–60Hz，額定輸入96W；隨附電源線及HDMI線"
+    ],
+    "description": "承接Smart Ultra的5.1.2聲道新款，加入手機CustomTune校正及可調SpeechClarity，適合先升級電視對白、之後再擴充同代喇叭。單機售價不含獨立重低音及後環繞，舊款環繞喇叭也不能直接沿用。",
+    "pros": [
+      "手機即可完成空間校正，對白強度可調",
+      "支援AirPlay 2、Google Cast與Spotify Connect，音樂來源選擇多",
+      "可逐步擴充同代重低音與後環繞至7.1.4"
+    ],
+    "cons": [
+      "單機價格高，完整7.1.4系統需另購三件喇叭",
+      "舊Bose環繞喇叭不相容，既有器材需逐項確認",
+      "沒有額外HDMI影像直通輸入，訊源需接電視"
+    ],
+    "bestFor": "重視電視對白、手機串流，並打算逐步擴充Bose新系統的客廳",
+    "recommendation": "適合先用單機改善對白與空間感；若已持有Bose舊環繞喇叭，先核對換代成本。下單前核對自家電視的eARC／CEC與網路需求，到貨後及時完成連線驗收，退換貨依通路條款辦理。",
+    "releaseDate": "2026-05-15",
+    "historicalLow": {
+      "status": "found",
+      "amount": 37905,
+      "currency": "TWD",
+      "converted": 37905,
+      "sourceUrl": "https://biggo.com.tw/s/Lifestyle%20Ultra%20Soundbar",
+      "sourceTitle": "BigGo Yahoo購物中心 Bose LifeStyle Ultra Soundbar 黑色價格歷史",
+      "evidenceSnippet": "人工展開 Yahoo 黑色單機（商品12090717）的兩年價格歷史表，共55個時間點；2026-05-15首次記錄39,900元，2026-07-06 20:00出現37,905元，2026-09-04 23:00亦為37,905元；表內最低37,905元。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-09-06",
+      "note": "採 exact-model 黑色台灣公司貨的公開95折價格歷史，不計信用卡回饋、點數或個人券。本輪另開 Yahoo 原始商品頁已回到39,900元，因此不把比價站37,905元當今天現價；此為已驗證的台灣通路低價紀錄，非保證全網最低。"
+    },
+    "score": 87,
+    "voltage": "100–240V／50–60Hz，額定輸入96W；依Bose官方多語快速入門文件，適用台灣110V／60Hz。",
+    "warranty": "台灣公司貨原廠1年保固；非人為損壞，依購買憑證及台灣保固條款。",
+    "tags": [
+      "Dolby Atmos",
+      "5.1.2",
+      "對白",
+      "可擴充",
+      "台灣公司貨"
+    ],
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-09-06",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"Lifestyle Ultra Soundbar\" (問題 OR 故障 OR 缺點 OR 心得)",
+          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22Lifestyle%20Ultra%20Soundbar%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%BC%BA%E9%BB%9E%20OR%20%E5%BF%83%E5%BE%97)"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"Lifestyle Ultra Soundbar\" (problem OR issue OR defect)",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22Lifestyle%20Ultra%20Soundbar%22%20(problem%20OR%20issue%20OR%20defect)"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"Lifestyle Ultra Soundbar\" (issue OR problem OR defect OR noise)",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22Lifestyle%20Ultra%20Soundbar%22%20(issue%20OR%20problem%20OR%20defect%20OR%20noise)"
         }
       ]
     }

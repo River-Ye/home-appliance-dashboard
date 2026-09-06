@@ -221,9 +221,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/5D663CB1FD-SP-22040968.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 11900,
-      "converted": 11900,
-      "confidence": "Yahoo購物中心 2026-08-27 exact-model 公開結構化價格"
+      "amount": 10900,
+      "converted": 10900,
+      "confidence": "Yahoo購物中心 2026-09-06 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -737,9 +737,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/E1024B61CD-SP-22132101.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 31648,
-      "converted": 31648,
-      "confidence": "momo購物網 2026-07-18 UTC 商品頁公開現貨價"
+      "amount": 30990,
+      "converted": 30990,
+      "confidence": "www.momoshop.com.tw 2026-09-06 exact-model 公開新品價人工覆核"
     },
     "channel": "tw",
     "buyLabel": "momo購物",
@@ -840,9 +840,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/3F8C495537-SP-22128108.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 20148,
-      "converted": 20148,
-      "confidence": "momo購物網 2026-07-18 UTC 商品頁公開現貨價"
+      "amount": 19190,
+      "converted": 19190,
+      "confidence": "www.momoshop.com.tw 2026-09-06 exact-model 公開新品價人工覆核"
     },
     "channel": "tw",
     "buyLabel": "momo購物",
@@ -2686,6 +2686,112 @@
         }
       ]
     }
+  },
+  {
+    "id": "refrigerator-mitsubishi-mr-wz54n",
+    "category": "refrigerator",
+    "brand": "Mitsubishi Electric",
+    "model": "MR-WZ54N",
+    "name": "543L SMART AI 日製六門玻璃鏡面變頻冰箱（星光白 MR-WZ54N-W-C）",
+    "rank": 27,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "price": {
+      "currency": "TWD",
+      "amount": 68310,
+      "converted": 68310,
+      "confidence": "PChome MR-WZ54N-W-C 星光白公開新品價；2026-09-06 以商品頁及 API Price.P=68310、Qty=5核對，不含信用卡或點數回饋。",
+      "basis": "retailer_current"
+    },
+    "image": "https://www.mitsubishielectric.com.tw/home/refrigerator/images/mrwz54n_pd2.png",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPAC34-A900KEBDC",
+    "buyLabel": "PChome",
+    "installation": {
+      "status": "not_stated",
+      "note": "採用的 PChome 購買頁未取得明確基本安裝費用邊界；下單前確認定位、樓層搬運、偏遠配送與舊機回收費用。官方型錄最小散熱間隙為上方5cm、左右各0.5cm，並須另核對開門及搬運動線。"
+    },
+    "specs": [
+      "類型：日本製六門變頻冰箱，玻璃鏡面；選定星光白 MR-WZ54N-W-C",
+      "容量：總543L；冷藏294L、製冰20L、瞬冷凍29L、冷凍99L、蔬果101L",
+      "保鮮：SMART AI 全室獨立隔間、超冰保鮮D AI、美味瞬冷凍AI、鮮摘蔬果室",
+      "收納：埋入式水箱、可調層架、觸控面板及冷藏室自動關門",
+      "製冰：自動製冰，給水管路可拆洗；保養依原廠指引",
+      "能源：能源效率第1級，年耗電288kWh，EF值27.4L/kWh/月",
+      "尺寸：寬 65 x 深 69.9 x 高 183.3 cm",
+      "重量：本體117kg（不採外箱125kg）",
+      "安裝：官方型錄最小散熱間隙上方5cm、左右各0.5cm；最小裝設深度含腳架70.9cm，需另留開門與搬運空間",
+      "電力：110V／60Hz（台灣可信通路 exact-model 規格）"
+    ],
+    "description": "65cm寬的543L六門日製機，加入SMART AI學習各庫室使用習慣與埋入式製冰水箱，讓生鮮分區及層架調整更方便。機身高183.3cm、重117kg，購買前需核對櫃位散熱與搬運路徑。",
+    "pros": [
+      "65cm寬機身提供543L分區容量，適合需要多門收納的家庭",
+      "SMART AI配合獨立隔間及保鮮功能，減少日常手動設定",
+      "埋入式水箱與可調層架提高冷藏區收納彈性"
+    ],
+    "cons": [
+      "價格較高；參考價未宣稱全網最低或歷史最低",
+      "183.3cm高且117kg，搬運、門框及上方散熱需確認",
+      "新型號可查的長期使用回報有限，沒有足夠資料證明耐用度優於舊款"
+    ],
+    "bestFor": "偏好日本製六門分區、65cm寬櫃位並重視生鮮收納的家庭",
+    "recommendation": "可與既有 MR-WX53C 比較容量、SMART AI 及新水箱布局；適合重視六門分區與65cm寬機身的家庭，選購前確認配送安裝總價和散熱空間。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-09-06",
+      "note": "已查 MR-WZ54N exact-model 價格搜尋、FindPrice 與飛比，並檢視 PChome、momo、全聯現售頁；只取得當下售價或比價索引，未取得附日期的可信新品歷史價格。MR-WZ54K、分期每期金額、個人券與回饋均不採。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-09-06",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"MR-WZ54N\" (問題 OR 故障 OR 缺點 OR 心得)",
+          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22MR-WZ54N%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%BC%BA%E9%BB%9E%20OR%20%E5%BF%83%E5%BE%97%29",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"MR-WZ54N-W-C\" (問題 OR 故障 OR 缺點 OR 心得)",
+          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22MR-WZ54N-W-C%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%BC%BA%E9%BB%9E%20OR%20%E5%BF%83%E5%BE%97%29",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"MR-WZ54N\" (問題 OR 故障 OR 缺點 OR 心得)",
+          "queryUrl": "https://www.bing.com/search?q=site%3Aptt.cc%20%22MR-WZ54N%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%BC%BA%E9%BB%9E%20OR%20%E5%BF%83%E5%BE%97%29",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"MR-WZ54N-W-C\" (問題 OR 故障 OR 缺點 OR 心得)",
+          "queryUrl": "https://www.bing.com/search?q=site%3Aptt.cc%20%22MR-WZ54N-W-C%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%BC%BA%E9%BB%9E%20OR%20%E5%BF%83%E5%BE%97%29",
+          "targetHost": "ptt.cc"
+        }
+      ]
+    },
+    "score": 88,
+    "voltage": "110V／60Hz；順發 MR-WZ54N-W-C 與全聯 MR-WZ54N 規格一致，官方新品頁及型錄未列電力欄。",
+    "warranty": "台灣三菱電機家電保固：一般住家正常使用全機1年、冰箱壓縮機3年；依保證書及官方條款，營業或特殊場所另有期限限制。冰箱提供到府維修，家電客服0800-55-3030。",
+    "tags": [
+      "日本製",
+      "六門",
+      "543L",
+      "SMART AI",
+      "台灣公司貨"
+    ]
   }
 ]);
 })();

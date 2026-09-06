@@ -59,7 +59,7 @@ const CATEGORY_SOURCES = new Map([
   ["Noritz:waterheater", "https://www.hosun.com.tw/tw/html/faq/show.aspx?id=2911&kid=6"],
 ]);
 
-// Manually read on 2026-09-01 for all three peripheral categories; not inferred
+// Official catalog boundaries rechecked on 2026-09-06; not inferred
 // from absence in RELEVANT_CATEGORY_IDS. Recheck these catalogs before a full audit.
 const PERIPHERAL_CATALOG_REVIEWS = new Map([
   ["Sony", { source: "https://www.sony.com.tw/corporate/home/NewsCenter/Detail/INZONESERIES", note: "官方台灣公告明列 INZONE Mouse-A、KBD-H75、Mat-F 與 Mat-D，屬正式鍵鼠周邊產品線。" }],
@@ -73,18 +73,18 @@ const PERIPHERAL_CATALOG_REVIEWS = new Map([
   ["TOTO", { source: "https://www.twtoto.com.tw/", note: "已讀台灣全商品分類，涵蓋馬桶、便座、臉盆、龍頭、浴缸、暖房、烘手機及浴室配件，未見本次電腦鍵鼠周邊；不把 TOTOLINK 視為 TOTO。" }],
 ]);
 
-// Manually read on 2026-09-01 for bedsheet, comforter, and pillow. These notes
+// Official catalog boundaries rechecked on 2026-09-06 for bedding. These notes
 // are shared because the same official catalog boundary was checked for all three.
 const BEDDING_CATALOG_REVIEWS = new Map([
-  ["Sony", "Chrome 人工逐項檢視台灣官方全產品目錄；現列影音、相機、行動與遊戲等電子產品，未見成人床包、完整被芯或睡眠枕產品線。"],
-  ["Panasonic", "Chrome 人工逐項檢視台灣官方家電、美容健康與住宅設備目錄，未見成人床包、完整被芯或睡眠枕產品線。"],
-  ["HITACHI", "Chrome 人工逐項檢視台灣官方冰箱、洗衣、吸塵、料理爐與洗碗機目錄，未見成人床包、完整被芯或睡眠枕產品線。"],
-  ["Mitsubishi Electric", "Chrome 人工逐項檢視官方家電目錄；烘被機屬電器而非寢具，未見成人床包、完整被芯或睡眠枕產品線。"],
-  ["Daikin", "Chrome 人工逐項檢視和泰大金官方空調、空氣與冷凍系統目錄，未見成人床包、完整被芯或睡眠枕產品線。"],
-  ["GENERAL", "Chrome 人工逐項檢視台灣官方分離式、多聯式與 VRF 空調目錄，未見成人床包、完整被芯或睡眠枕產品線。"],
-  ["Rinnai", "Chrome 人工逐項檢視台灣官方熱水、廚房與乾衣設備目錄，未見成人床包、完整被芯或睡眠枕產品線。"],
-  ["Noritz", "Chrome 人工逐項檢視日本官方給湯、浴室、廚房與住宅設備目錄，未見成人床包、完整被芯或睡眠枕產品線。"],
-  ["TOTO", "Chrome 人工逐項檢視台灣官方衛浴與住宅設備目錄，未見成人床包、完整被芯或睡眠枕產品線。"],
+  ["Sony", "人工逐項檢視台灣官方全產品目錄；現列影音、相機、行動與遊戲等電子產品，未見成人床包、完整被芯或睡眠枕產品線。"],
+  ["Panasonic", "人工逐項檢視台灣官方家電、美容健康與住宅設備目錄，未見成人床包、完整被芯或睡眠枕產品線。"],
+  ["HITACHI", "人工逐項檢視台灣官方冰箱、洗衣、吸塵、料理爐與洗碗機目錄，未見成人床包、完整被芯或睡眠枕產品線。"],
+  ["Mitsubishi Electric", "人工逐項檢視官方家電目錄；烘被機屬電器而非寢具，未見成人床包、完整被芯或睡眠枕產品線。"],
+  ["Daikin", "人工逐項檢視和泰大金官方空調、空氣與冷凍系統目錄，未見成人床包、完整被芯或睡眠枕產品線。"],
+  ["GENERAL", "人工逐項檢視台灣官方分離式、多聯式與 VRF 空調目錄，未見成人床包、完整被芯或睡眠枕產品線。"],
+  ["Rinnai", "人工逐項檢視台灣官方熱水、廚房與乾衣設備目錄，未見成人床包、完整被芯或睡眠枕產品線。"],
+  ["Noritz", "人工逐項檢視日本官方給湯、浴室、廚房與住宅設備目錄，未見成人床包、完整被芯或睡眠枕產品線。"],
+  ["TOTO", "人工逐項檢視台灣官方衛浴與住宅設備目錄，未見成人床包、完整被芯或睡眠枕產品線。"],
 ]);
 
 const NO_ELIGIBLE_REASONS = new Map([
