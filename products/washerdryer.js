@@ -1056,9 +1056,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/0150C6484E-SP-18861499.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 33900,
-      "converted": 33900,
-      "confidence": "momo購物 2026-07-11 頁面查核價"
+      "amount": 24900,
+      "converted": 24900,
+      "confidence": "2026-09-06 人工覆核同型號原購買頁：促銷價 24,900 元；市售價40,680；數量1/2/3；庫存低於3組；直接購買、加入購物車可用；含基本安裝＋舊機回收；保固1年；收單後專人聯繫約配。 不需會員券或結帳折扣；24,900直接顯示於公開促銷價區，mo點3%另列且未折抵。僅基本安裝，不承諾進階施工；特殊商品配送可能有額外費用。本賣場不參與原廠好禮活動。"
     },
     "channel": "tw",
     "buyLabel": "momo購物",
@@ -1100,16 +1100,16 @@
     "releaseDate": "2024-10",
     "historicalLow": {
       "status": "found",
-      "amount": 31960,
+      "amount": 24900,
       "currency": "TWD",
-      "converted": 31960,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1261206564&cgp=38900",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【Samsung 三星】原廠控價 私訊我更便宜 WD12DB9B84GNTW 12KG 蒸洗脫烘智慧變頻滾筒洗衣機(含基本安裝)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【Samsung 三星】原廠控價 私訊我更便宜 WD12DB9B84GNTW 12KG 蒸洗脫烘智慧變頻滾筒洗衣機(含基本安裝)」最低價為 NT$31,960，最低點日期 2025-11-11。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 24900,
+      "sourceUrl": "https://www.momoshop.com.tw/TP/TP0003952/goodsDetail/TP00039520005819",
+      "sourceTitle": "【Samsung 三星】12公斤AI蒸洗脫烘白色智慧洗劑添加滾筒洗衣機WD12DB9B84GNTW",
+      "evidenceSnippet": "2026-09-06 人工覆核：促銷價 24,900 元；市售價40,680；數量1/2/3；庫存低於3組；直接購買、加入購物車可用；含基本安裝＋舊機回收；保固1年；收單後專人聯繫約配。 低於既有同型號史低 NT$31,960。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-09-06",
+      "note": "採公開可購新品價格；不含會員券、點數、信用卡回饋、福利、展示、拆封或整新品。不需會員券或結帳折扣；24,900直接顯示於公開促銷價區，mo點3%另列且未折抵。僅基本安裝，不承諾進階施工；特殊商品配送可能有額外費用。本賣場不參與原廠好禮活動。"
     },
     "issueResearch": {
       "status": "no_common_issue",

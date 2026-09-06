@@ -1490,10 +1490,10 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 649,
-      "converted": 649,
+      "amount": 468,
+      "converted": 468,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 Chrome燦坤117872明列910-002258，市價與會員價同為649，可加入購物車。"
+      "confidence": "2026-09-06 人工覆核同型號原購買頁：原頁標示產品型號910-002258；會員價649、公開促銷價468；加入購物車可用。 採直接顯示的促銷價468，不採649會員比較價；不涉及會員券或回饋。"
     },
     "installation": {
       "status": "not_stated",

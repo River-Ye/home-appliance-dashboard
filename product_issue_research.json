@@ -1,9 +1,9 @@
 {
   "summary": {
     "checkedAt": "2026-09-06T00:00:00+08:00",
-    "total": 1139,
+    "total": 1140,
     "commonIssueProducts": 52,
-    "noCommonIssueProducts": 1087,
+    "noCommonIssueProducts": 1088,
     "pendingManualReview": 0,
     "commonIssues": 53,
     "searchUnavailable": 616,
@@ -23,9 +23,10 @@
       "2026-09-02 增量加入 Dreame Aqua 10 Pro Track；人工覆核 Reddit、Dcard、PTT 與 Mobile01 exact-model 候選。Reddit 同題最高為單站約 5 位清潔液盒偵測個案，Dcard 的 SPC 黑印為另一個單一案例，未達同一問題 6 人且跨 2 個原始網站門檻。",
       "2026-09-02 新世代批次逐頁人工覆核 Y-65XR70M2、QA65S90HAEXZW、65U7Q、HT-A8、HT-S60 與 PV-XH4Q；搜尋候選均保存原頁處置，六款皆未達同一問題 6 位獨立使用者且跨 2 個原始網站門檻。",
       "2026-09-06 增量加入 Mitsubishi Electric MR-WZ54N；人工覆核 Mobile01/PTT exact-model 搜尋及 momo 原頁，未達6人／2站門檻。原1134筆商品逐型負評決策及真實覆核日期保留，不表示本轮全部重新閱讀原始評價。",
-      "2026-09-06 本輪僅對新增的 MR-WZ54N、XG27ACSR、U7 Pro XG、Iskur V2 NewGen、Lifestyle Ultra Soundbar 完成逐型號跨站負評覆核；既有商品逐筆查核日期維持原值。U7 Pro XG 有六名作者、兩個原始網站的同症狀回報，Bose不同症狀分開計數未達門檻。"
+      "2026-09-06 本輪僅對新增的 MR-WZ54N、XG27ACSR、U7 Pro XG、Iskur V2 NewGen、Lifestyle Ultra Soundbar 完成逐型號跨站負評覆核；既有商品逐筆查核日期維持原值。U7 Pro XG 有六名作者、兩個原始網站的同症狀回報，Bose不同症狀分開計數未達門檻。",
+      "2026-09-06 下午僅新增 AC3681/81 的跨站人工負評覆核：PTT、Mobile01、Dcard 候選有型號後綴未明的系列個案或購前內容，均保留具體排除理由；沒有達到同一 exact 型號問題 6 人／2 站門檻。原 1139 筆研究與逐人證據保留原日期。"
     ],
-    "researchedThisRun": 5
+    "researchedThisRun": 1
   },
   "results": [
     {
@@ -196096,6 +196097,331 @@
           ],
           "decision": "below_threshold"
         }
+      ]
+    },
+    {
+      "id": "purifier-philips-ac3681-81",
+      "category": "purifier",
+      "brand": "Philips",
+      "model": "AC3681/81",
+      "name": "毛小奈寵物抗敏空氣清淨機",
+      "identity": {
+        "canonicalModel": "AC3681/81",
+        "lookupLabel": "Philips AC3681/81",
+        "aliases": [
+          "Philips AC3681/81"
+        ],
+        "evidenceUrl": "https://www.philips-da.com.tw/products/ac368180"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "reviewBatch": "purifier",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-09-06",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit",
+          "PTT",
+          "Dcard"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"AC3681/81\" (災情 OR 問題 OR 故障 OR 負評)",
+            "targetHost": "mobile01.com",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22AC3681%2F81%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"AC3681/81\" (problem OR issue OR defect OR failure)",
+            "targetHost": "reddit.com",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22AC3681%2F81%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"AC3681/81\"",
+            "targetHost": "ptt.cc",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22AC3681%2F81%22"
+          },
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"AC3681/81\"",
+            "targetHost": "dcard.tw",
+            "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22AC3681%2F81%22"
+          }
+        ],
+        "candidateDisposition": "AC3681/81：已人工覆核 Mobile01、Reddit、PTT、Dcard exact 後綴查詢，並以 AC3681 家族查詢補查 PTT、Mobile01 第1–2頁及 Dcard 可讀原帖。PTT SunKidMoon 與 Mobile01 dute 為兩位不同的系列吸毛效果個案，但均未確認持有 /81；不移用 /80 或 AC3360 Lite，也不將購前、別牌、泛論或留言數計人。未發現同一 exact /81 問題達至少6位獨立使用者且跨2原始網站。Dcard 部分留言未載入及一個原頁讀取失敗已揭露，結論不代表完全沒有負評。",
+        "representativeSources": [
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/cat/M.1774526655.A.D30.html",
+            "title": "[問題] 空氣清淨機選擇 - 看板 cat"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=731&t=7236513",
+            "title": "飛利浦AC3681空淨機這台推嗎? 第1頁"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=731&p=2&t=7236513",
+            "title": "飛利浦AC3681空淨機這台推嗎? 第2頁"
+          },
+          {
+            "platform": "Dcard",
+            "url": "https://www.dcard.tw/f/house/p/261204228",
+            "title": "#發問 空氣清淨機 - 居家生活板"
+          },
+          {
+            "platform": "Dcard",
+            "url": "https://www.dcard.tw/f/house/p/259936361",
+            "title": "#發問 求推薦空氣清淨機 - 居家生活板"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/cat/M.1774526655.A.D30.html",
+            "title": "[問題] 空氣清淨機選擇 - 看板 cat",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "tgozero 的購前選擇明列 Philips AC3681/81；SunKidMoon 留言稱自己有兩台 LG 與一台毛小奈，擺一年吸不到多少毛或灰塵。其他留言推薦 LG 或 Panasonic。",
+            "independentAuthors": 0,
+            "specificReason": "原帖雖明列 /81，作者尚在購前比較；SunKidMoon 的本人毛小奈回報未標 /80 或 /81，不能將其他人的候選 SKU 自動套給其持有機器。保留系列吸毛表現個案，但不計入 /81 的 exact-model 人數。",
+            "locator": "tgozero 原帖；03/28 01:24 SunKidMoon 兩則連續推文"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=731&t=7236513",
+            "title": "飛利浦AC3681空淨機這台推嗎? 第1頁",
+            "outcome": "excluded",
+            "exactModel": false,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "dute #5/92929151 表示2025年在台茂買毛小奈，櫃上擺放及自動模式時集毛盒空、除毛無感，但滿意除臭，寵物高速音較明顯；未標 /81。Troutenheimer 泛論除毛別期待，其他多為滿意或購前詢問。",
+            "independentAuthors": 0,
+            "specificReason": "已讀第1頁 #1–10及可見嵌入留言；dute 確為第一人稱但 exact /81 後綴未確認，其餘沒有可計數的 exact /81 問題。擺位、模式、使用年份或系列外觀均不足以補推 SKU；不拿規格限制或別牌心得湊災情。",
+            "locator": "串7236513，第1頁 #1–10；dute 文章編號92929151"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=731&p=2&t=7236513",
+            "title": "飛利浦AC3681空淨機這台推嗎? 第2頁",
+            "outcome": "excluded",
+            "exactModel": false,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "第2頁僅 amolin #11/92939371 回覆謝謝大家分享、決定入手這台；本頁沒有購後使用故障或追加型號後綴。",
+            "independentAuthors": 0,
+            "specificReason": "已讀結尾 #11，屬採購決定而非本人使用後負評，且仍未確認 /81，不能算獨立故障使用者。",
+            "locator": "串7236513，第2頁 #11／92939371"
+          },
+          {
+            "platform": "Dcard",
+            "url": "https://www.dcard.tw/f/house/p/261204228",
+            "title": "#發問 空氣清淨機 - 居家生活板",
+            "outcome": "excluded",
+            "exactModel": false,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "風一樣的女子詢問養貓是否需要寵物空氣清淨機，並比較 Costco 特價的 AC3681 與 LG；可讀正文未給 /81，留言區僅顯示數量。",
+            "independentAuthors": 0,
+            "specificReason": "可讀正文只有購前系列詢問，沒有 exact /81 第一人稱問題；留言正文未載入，未宣稱完整覆核4則留言，也不由留言數推定負評或作者。",
+            "locator": "原帖正文；留言4則僅數量可讀"
+          },
+          {
+            "platform": "Dcard",
+            "url": "https://www.dcard.tw/f/house/p/259936361",
+            "title": "#發問 求推薦空氣清淨機 - 居家生活板",
+            "outcome": "excluded",
+            "exactModel": false,
+            "reviewedAt": "2026-09-06",
+            "sourceExcerpt": "嘉南藥理大學帳號比較 Electrolux、Panasonic F-P90MH 與 Philips AC3681，說外型還好並詢問使用心得；正文未提供 /81 或已購機器。",
+            "independentAuthors": 0,
+            "specificReason": "購前外型評估不能算本人使用問題，且沒有 exact /81。只人工讀到原帖正文，14則留言未展開，不以未讀留言推定沒有負評。",
+            "locator": "原帖第3款 AC3681 及末段購前詢問"
+          }
+        ],
+        "reviewerNote": "AC3681/81：已人工覆核 Mobile01、Reddit、PTT、Dcard exact 後綴查詢，並以 AC3681 家族查詢補查 PTT、Mobile01 第1–2頁及 Dcard 可讀原帖。PTT SunKidMoon 與 Mobile01 dute 為兩位不同的系列吸毛效果個案，但均未確認持有 /81；不移用 /80 或 AC3360 Lite，也不將購前、別牌、泛論或留言數計人。未發現同一 exact /81 問題達至少6位獨立使用者且跨2原始網站。Dcard 部分留言未載入及一個原頁讀取失敗已揭露，結論不代表完全沒有負評。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-09-06",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"AC3681/81\" (災情 OR 問題 OR 故障 OR 負評)",
+            "targetHost": "mobile01.com",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22AC3681%2F81%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"AC3681/81\" (problem OR issue OR defect OR failure)",
+            "targetHost": "reddit.com",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22AC3681%2F81%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"AC3681/81\"",
+            "targetHost": "ptt.cc",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22AC3681%2F81%22"
+          },
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"AC3681/81\"",
+            "targetHost": "dcard.tw",
+            "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22AC3681%2F81%22"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Web Search",
+          "query": "site:mobile01.com \"AC3681/81\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22AC3681%2F81%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-09-06T08:23:52Z"
+        },
+        {
+          "platform": "Web Search",
+          "query": "site:reddit.com \"AC3681/81\" (problem OR issue OR defect OR failure)",
+          "searchUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22AC3681%2F81%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-09-06T08:23:52Z"
+        },
+        {
+          "platform": "Web Search",
+          "query": "site:ptt.cc \"AC3681/81\"",
+          "searchUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22AC3681%2F81%22",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.ptt.cc/bbs/cat/M.1774526655.A.D30.html"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.ptt.cc/bbs/cat/M.1774526655.A.D30.html",
+              "title": "[問題] 空氣清淨機選擇 - 看板 cat",
+              "platform": "PTT"
+            }
+          ],
+          "inspectedAt": "2026-09-06T08:23:52Z"
+        },
+        {
+          "platform": "Web Search",
+          "query": "site:dcard.tw \"AC3681/81\"",
+          "searchUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22AC3681%2F81%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-09-06T08:23:52Z"
+        },
+        {
+          "platform": "Web Search",
+          "query": "\"AC3681\" site:mobile01.com 故障 問題",
+          "searchUrl": "https://www.google.com/search?q=%22AC3681%22%20site%3Amobile01.com%20%E6%95%85%E9%9A%9C%20%E5%95%8F%E9%A1%8C",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 2,
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=731&t=7236513",
+            "https://www.mobile01.com/topicdetail.php?f=731&p=2&t=7236513"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=731&t=7236513",
+              "title": "飛利浦AC3681空淨機這台推嗎? 第1頁",
+              "platform": "Mobile01"
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=731&p=2&t=7236513",
+              "title": "飛利浦AC3681空淨機這台推嗎? 第2頁",
+              "platform": "Mobile01"
+            }
+          ],
+          "inspectedAt": "2026-09-06T08:23:52Z",
+          "limitations": "AC3681家族查詢僅補查候選；/80、Lite或未明示/81不得用於exact問題人數。其他舊系列購前串於型號邊界排除。"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "platform": "PTT",
+          "url": "https://www.ptt.cc/bbs/cat/M.1774526655.A.D30.html",
+          "title": "[問題] 空氣清淨機選擇 - 看板 cat",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "tgozero 的購前選擇明列 Philips AC3681/81；SunKidMoon 留言稱自己有兩台 LG 與一台毛小奈，擺一年吸不到多少毛或灰塵。其他留言推薦 LG 或 Panasonic。",
+          "independentAuthors": 0,
+          "specificReason": "原帖雖明列 /81，作者尚在購前比較；SunKidMoon 的本人毛小奈回報未標 /80 或 /81，不能將其他人的候選 SKU 自動套給其持有機器。保留系列吸毛表現個案，但不計入 /81 的 exact-model 人數。",
+          "locator": "tgozero 原帖；03/28 01:24 SunKidMoon 兩則連續推文",
+          "reason": "原帖雖明列 /81，作者尚在購前比較；SunKidMoon 的本人毛小奈回報未標 /80 或 /81，不能將其他人的候選 SKU 自動套給其持有機器。保留系列吸毛表現個案，但不計入 /81 的 exact-model 人數。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=731&t=7236513",
+          "title": "飛利浦AC3681空淨機這台推嗎? 第1頁",
+          "outcome": "excluded",
+          "exactModel": false,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "dute #5/92929151 表示2025年在台茂買毛小奈，櫃上擺放及自動模式時集毛盒空、除毛無感，但滿意除臭，寵物高速音較明顯；未標 /81。Troutenheimer 泛論除毛別期待，其他多為滿意或購前詢問。",
+          "independentAuthors": 0,
+          "specificReason": "已讀第1頁 #1–10及可見嵌入留言；dute 確為第一人稱但 exact /81 後綴未確認，其餘沒有可計數的 exact /81 問題。擺位、模式、使用年份或系列外觀均不足以補推 SKU；不拿規格限制或別牌心得湊災情。",
+          "locator": "串7236513，第1頁 #1–10；dute 文章編號92929151",
+          "reason": "已讀第1頁 #1–10及可見嵌入留言；dute 確為第一人稱但 exact /81 後綴未確認，其餘沒有可計數的 exact /81 問題。擺位、模式、使用年份或系列外觀均不足以補推 SKU；不拿規格限制或別牌心得湊災情。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=731&p=2&t=7236513",
+          "title": "飛利浦AC3681空淨機這台推嗎? 第2頁",
+          "outcome": "excluded",
+          "exactModel": false,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "第2頁僅 amolin #11/92939371 回覆謝謝大家分享、決定入手這台；本頁沒有購後使用故障或追加型號後綴。",
+          "independentAuthors": 0,
+          "specificReason": "已讀結尾 #11，屬採購決定而非本人使用後負評，且仍未確認 /81，不能算獨立故障使用者。",
+          "locator": "串7236513，第2頁 #11／92939371",
+          "reason": "已讀結尾 #11，屬採購決定而非本人使用後負評，且仍未確認 /81，不能算獨立故障使用者。"
+        },
+        {
+          "platform": "Dcard",
+          "url": "https://www.dcard.tw/f/house/p/261204228",
+          "title": "#發問 空氣清淨機 - 居家生活板",
+          "outcome": "excluded",
+          "exactModel": false,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "風一樣的女子詢問養貓是否需要寵物空氣清淨機，並比較 Costco 特價的 AC3681 與 LG；可讀正文未給 /81，留言區僅顯示數量。",
+          "independentAuthors": 0,
+          "specificReason": "可讀正文只有購前系列詢問，沒有 exact /81 第一人稱問題；留言正文未載入，未宣稱完整覆核4則留言，也不由留言數推定負評或作者。",
+          "locator": "原帖正文；留言4則僅數量可讀",
+          "reason": "可讀正文只有購前系列詢問，沒有 exact /81 第一人稱問題；留言正文未載入，未宣稱完整覆核4則留言，也不由留言數推定負評或作者。"
+        },
+        {
+          "platform": "Dcard",
+          "url": "https://www.dcard.tw/f/house/p/259936361",
+          "title": "#發問 求推薦空氣清淨機 - 居家生活板",
+          "outcome": "excluded",
+          "exactModel": false,
+          "reviewedAt": "2026-09-06",
+          "sourceExcerpt": "嘉南藥理大學帳號比較 Electrolux、Panasonic F-P90MH 與 Philips AC3681，說外型還好並詢問使用心得；正文未提供 /81 或已購機器。",
+          "independentAuthors": 0,
+          "specificReason": "購前外型評估不能算本人使用問題，且沒有 exact /81。只人工讀到原帖正文，14則留言未展開，不以未讀留言推定沒有負評。",
+          "locator": "原帖第3款 AC3681 及末段購前詢問",
+          "reason": "購前外型評估不能算本人使用問題，且沒有 exact /81。只人工讀到原帖正文，14則留言未展開，不以未讀留言推定沒有負評。"
+        }
+      ],
+      "searchLimitations": [
+        "Dcard /f/house/p/261166082 原頁兩次讀取失敗；搜尋只有AC3681購前正文，不確認/81。",
+        "Dcard已開原帖的留言文字未載入；只判讀可見正文，不宣稱未讀區段沒有負評。"
       ]
     }
   ]

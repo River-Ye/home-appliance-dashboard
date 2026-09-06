@@ -4138,19 +4138,19 @@
     "name": "Atlantic EXP 200 一體式空氣源熱泵熱水器",
     "price": {
       "currency": "TWD",
-      "amount": 165000,
-      "converted": 165000,
-      "confidence": "Atlantic 亞緹娜台灣官方代理頁 2026-08-14 exact-model 建議售價／定價",
-      "basis": "official_suggested",
-      "scope": "single_unit"
+      "amount": 123750,
+      "converted": 123750,
+      "basis": "retailer_current",
+      "scope": "single_unit",
+      "confidence": "玉山淨水 2026-09-06 手動選取 EXP-200（200 公升）核實公開新品價；不含基本安裝"
     },
     "installation": {
-      "status": "not_stated",
-      "note": "官方代理建議售價頁未清楚列出基本安裝範圍；須索取場勘明細"
+      "status": "excluded",
+      "note": "玉山選項明示不含基本安裝；配管、配線、冷凝排水、導風及吊運等施工費用須另向通路確認"
     },
-    "image": "https://www.atlantic.tw/images/ATLANTIC%20PIC/EXP4.jpg",
-    "buyUrl": "https://www.atlantic.tw/%E4%BA%9E%E7%B7%B9%E5%A8%9C%E7%86%B1%E6%B3%B5.html#EXP-200",
-    "buyLabel": "Atlantic 亞緹娜台灣官方代理頁",
+    "image": "https://img.gogoshop.cloud/db5b8816/81ABAIZdwBa.png",
+    "buyUrl": "https://www.yushanwater.com.tw/products/atn_whexplorer",
+    "buyLabel": "玉山淨水｜選 EXP-200（200 公升，不含基本安裝）",
     "specs": [
       "類型：一體式空氣源熱泵熱水器",
       "能源／氣源：電力；200 L 儲槽",
@@ -4163,7 +4163,7 @@
       "排氣／給排水：免燃燒排氣；需進排風、冷凝排水、冷熱水與洩壓排水",
       "安全裝置：壓縮機、過熱、漏電與洩壓保護",
       "溫控／操作：電子定溫與熱泵／輔助加熱模式",
-      "安裝／加價：官方代理建議售價頁未清楚列出基本安裝範圍；須索取場勘明細"
+      "安裝／加價：玉山選項明示不含基本安裝；配管、配線、冷凝排水、導風及吊運等施工費用須另向通路確認"
     ],
     "description": "台灣住宅空氣源熱泵熱水系統；效率高，但設備、儲水與施工空間須先場勘。 本表價格採公開新品價或 exact-model 官方建議售價，實際施工總價仍以現場報價為準。",
     "pros": [
@@ -4252,19 +4252,19 @@
     "name": "Atlantic EXP 270 一體式空氣源熱泵熱水器",
     "price": {
       "currency": "TWD",
-      "amount": 179000,
-      "converted": 179000,
-      "confidence": "Atlantic 亞緹娜台灣官方代理頁 2026-08-14 exact-model 建議售價／定價",
-      "basis": "official_suggested",
-      "scope": "single_unit"
+      "amount": 134250,
+      "converted": 134250,
+      "basis": "retailer_current",
+      "scope": "single_unit",
+      "confidence": "玉山淨水 2026-09-06 現行原商品頁明列 EXP-270（270 公升）134,250 元；連往購物頁後須手動選 EXP-270，已核實同價；安裝另計"
     },
     "installation": {
-      "status": "not_stated",
-      "note": "官方代理建議售價頁未清楚列出基本安裝範圍；須索取場勘明細"
+      "status": "excluded",
+      "note": "原商品頁明示安裝費用另計；連往玉山購物頁後須選 EXP-270（270 公升、不含基本安裝），配管、配線、冷凝排水、導風及吊運等施工費用另向通路確認"
     },
-    "image": "https://www.atlantic.tw/images/ATLANTIC%20PIC/EXP4.jpg",
-    "buyUrl": "https://www.atlantic.tw/%E4%BA%9E%E7%B7%B9%E5%A8%9C%E7%86%B1%E6%B3%B5.html#EXP-270",
-    "buyLabel": "Atlantic 亞緹娜台灣官方代理頁",
+    "image": "https://img.gogoshop.cloud/db5b8816/wIDBAYZdwBa.png",
+    "buyUrl": "https://www.yushan-water.com.tw/product-detail-3344702.html",
+    "buyLabel": "玉山淨水｜EXP-270 270 公升（購物頁手選 270、安裝另計）",
     "specs": [
       "類型：一體式空氣源熱泵熱水器",
       "能源／氣源：電力；270 L 儲槽",
@@ -4277,7 +4277,7 @@
       "排氣／給排水：免燃燒排氣；需進排風、冷凝排水、冷熱水與洩壓排水",
       "安全裝置：壓縮機、過熱、漏電與洩壓保護",
       "溫控／操作：電子定溫與熱泵／輔助加熱模式",
-      "安裝／加價：官方代理建議售價頁未清楚列出基本安裝範圍；須索取場勘明細"
+      "安裝／加價：玉山原商品頁明示安裝費用另計；購物頁須手選 EXP-270（270 公升、不含基本安裝），配管、配線、冷凝排水、導風及吊運等施工費用另行確認"
     ],
     "description": "台灣住宅空氣源熱泵熱水系統；效率高，但設備、儲水與施工空間須先場勘。 本表價格採公開新品價或 exact-model 官方建議售價，實際施工總價仍以現場報價為準。",
     "pros": [
@@ -4368,17 +4368,17 @@
       "currency": "TWD",
       "amount": 145000,
       "converted": 145000,
-      "confidence": "Atlantic 亞緹娜台灣官方代理頁 2026-08-14 exact-model 建議售價／定價",
       "basis": "official_suggested",
-      "scope": "single_unit"
+      "scope": "single_unit",
+      "confidence": "Atlantic 台灣代理熱海實業 Egeo 官方頁 2026-09-06 重查：EGEO250 建議售價145,000元"
     },
     "installation": {
       "status": "not_stated",
       "note": "官方代理建議售價頁未清楚列出基本安裝範圍；須索取場勘明細"
     },
-    "image": "https://www.atlantic.tw/images/ATLANTIC%20PIC/EGEOIN.jpg",
-    "buyUrl": "https://www.atlantic.tw/%E4%BA%9E%E7%B7%B9%E5%A8%9C%E5%85%A8%E8%87%AA%E5%8B%95%E7%86%B1%E6%B3%B5.html",
-    "buyLabel": "Atlantic 亞緹娜台灣官方代理頁",
+    "image": "https://www.taada.com.tw/legacy/%E7%B0%A1%E5%A0%B139.jpg",
+    "buyUrl": "https://www.taada.com.tw/products/atlantic-egeo-heat-pump/",
+    "buyLabel": "Atlantic 台灣代理熱海實業｜官方資料",
     "specs": [
       "類型：一體式空氣源熱泵熱水器",
       "能源／氣源：電力；250 L 儲槽",

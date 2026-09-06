@@ -1111,9 +1111,9 @@
     "name": "LG Styler Smart Steam Closet White",
     "price": {
       "currency": "USD",
-      "amount": 1349,
-      "converted": 42680,
-      "confidence": "www.lg.com 2026-09-06 exact-model 公開新品價人工覆核；ExchangeRate-API 2026-09-06 匯率換算"
+      "amount": 1499,
+      "converted": 47426,
+      "confidence": "2026-09-06 人工覆核同型號原購買頁：LG US原頁白色S3WFBN主商品$1,499.00、$400 OFF對照原價$1,899.00；Add to Cart可用；主商品JSON-LD InStock。 當前公开美元價1,499，未見原先1,349；bundle額外200–1000優惠與相關配件價不採，保留原海外運費/稅費/電力/保固風險。；ExchangeRate-API 2026-09-06 匯率換算"
     },
     "image": "https://media.us.lg.com/transform/ecomm-PDPGallery-1100x730/40e1eddc-4b4d-446b-afcf-fc792acdf3f8/Styler-S3WFBN-gallery-01_5000x5000?io=transform:fill,width:1024",
     "buyUrl": "https://www.lg.com/us/washers-dryers/lg-s3wfbn-styler-steam-closet",

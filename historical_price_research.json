@@ -1,15 +1,15 @@
 {
   "summary": {
     "checkedAt": "2026-09-06T00:00:00.000+08:00",
-    "sourcePolicy": "2026-09-06 以 1134 筆基準清單全量查核公開價格基準（通路現價或明示官方建議售價）、購買連結與可信新品狀態，並複核最終 1139 筆商品圖片、全部 506 筆 found 史低來源、原廠停產訊號與同批次匯率。官方建議售價不自動寫成通路現價或史低；PChome exact-model 現貨頁有正值 Price.Low 時採公開折扣價，否則採 Price.P；Qty 0、福利品、展示機與配件不寫回。其他頁面的結構化價格差異列入人工覆核候選，阻擋、暫時錯誤與單次頁面失效只列稽核，不臆測停產或史低失效。",
-    "total": 1139,
-    "researchedThisRun": 1139,
+    "sourcePolicy": "2026-09-06 以 1139 筆基準清單全量查核公開價格基準（通路現價或明示官方建議售價）、購買連結與可信新品狀態，並複核最終 1140 筆商品圖片、全部 506 筆 found 史低來源、原廠停產訊號與同批次匯率。官方建議售價不自動寫成通路現價或史低；PChome exact-model 現貨頁有正值 Price.Low 時採公開折扣價，否則採 Price.P；Qty 0、福利品、展示機與配件不寫回。其他頁面的結構化價格差異列入人工覆核候選，阻擋、暫時錯誤與單次頁面失效只列稽核，不臆測停產或史低失效。",
+    "total": 1140,
+    "researchedThisRun": 1140,
     "found": 506,
-    "missing": 633,
+    "missing": 634,
     "byConfidence": {
-      "not_found": 633,
-      "high": 319,
-      "medium": 187
+      "not_found": 634,
+      "high": 318,
+      "medium": 188
     },
     "exchange": {
       "USD_TWD": 31.638424,
@@ -21,19 +21,19 @@
       "HKD_TWD": 4.035017637501924,
       "KRW_TWD": 0.02343869147446322
     },
-    "lastMaintenanceCheckAt": "2026-09-06T02:30:50.404Z",
-    "currentPriceChanged": 40,
-    "currentBuyLinkChanged": 0,
-    "currentPriceDrops": 8,
-    "currentPriceRises": 32,
+    "lastMaintenanceCheckAt": "2026-09-06T08:43:18.401Z",
+    "currentPriceChanged": 8,
+    "currentBuyLinkChanged": 3,
+    "currentPriceDrops": 6,
+    "currentPriceRises": 2,
     "currentPriceFallbacks": 0,
     "historicalLowUpdated": 1,
     "historicalLowInvalidated": 0,
     "catalogEntriesReplaced": 0,
     "catalogReplacementNotes": [],
-    "currentImageChanged": 0,
+    "currentImageChanged": 3,
     "discontinuedRemoved": 0,
-    "newProductsAdded": 5,
+    "newProductsAdded": 1,
     "discontinuedRemovalNotes": [],
     "catalogEntriesRemoved": 0,
     "catalogRemovalNotes": [],
@@ -12385,7 +12385,7 @@
       "brand": "Dyson",
       "model": "SV50",
       "name": "PencilVac Fluffycones 筆型吸塵器",
-      "currentPrice": 21900,
+      "currentPrice": 19900,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://shop.dyson.tw/vacuums/cordless-vacuums/dyson-pencilvac-fluffycones-black-sale-492694-01",
       "currentBuyLabel": "Dyson 台灣官網",
@@ -15772,22 +15772,22 @@
       "brand": "Samsung",
       "model": "WD12DB9B84GNTW",
       "name": "Samsung WD12DB9B84GNTW",
-      "currentPrice": 33900,
+      "currentPrice": 24900,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://www.momoshop.com.tw/TP/TP0003952/goodsDetail/TP00039520005819",
       "currentBuyLabel": "momo購物",
       "historicalLow": {
         "status": "found",
-        "amount": 31960,
+        "amount": 24900,
         "currency": "TWD",
-        "converted": 31960,
-        "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1261206564&cgp=38900",
-        "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【Samsung 三星】原廠控價 私訊我更便宜 WD12DB9B84GNTW 12KG 蒸洗脫烘智慧變頻滾筒洗衣機(含基本安裝)",
-        "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【Samsung 三星】原廠控價 私訊我更便宜 WD12DB9B84GNTW 12KG 蒸洗脫烘智慧變頻滾筒洗衣機(含基本安裝)」最低價為 NT$31,960，最低點日期 2025-11-11。",
-        "sourceKind": "price_history",
-        "confidence": "high",
-        "checkedAt": "2026-07-09",
-        "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+        "converted": 24900,
+        "sourceUrl": "https://www.momoshop.com.tw/TP/TP0003952/goodsDetail/TP00039520005819",
+        "sourceTitle": "【Samsung 三星】12公斤AI蒸洗脫烘白色智慧洗劑添加滾筒洗衣機WD12DB9B84GNTW",
+        "evidenceSnippet": "2026-09-06 人工覆核：促銷價 24,900 元；市售價40,680；數量1/2/3；庫存低於3組；直接購買、加入購物車可用；含基本安裝＋舊機回收；保固1年；收單後專人聯繫約配。 低於既有同型號史低 NT$31,960。",
+        "sourceKind": "retailer_page",
+        "confidence": "medium",
+        "checkedAt": "2026-09-06",
+        "note": "採公開可購新品價格；不含會員券、點數、信用卡回饋、福利、展示、拆封或整新品。不需會員券或結帳折扣；24,900直接顯示於公開促銷價區，mo點3%另列且未折抵。僅基本安裝，不承諾進階施工；特殊商品配送可能有額外費用。本賣場不參與原廠好禮活動。"
       },
       "checkedSources": [
         "https://www.lbj.tw/BJ/Query.aspx?k=Samsung%20WD12DB9B84GNTW",
@@ -16990,7 +16990,7 @@
       "brand": "LG",
       "model": "S3WFBN",
       "name": "LG Styler Smart Steam Closet White",
-      "currentPrice": 42680,
+      "currentPrice": 47426,
       "currentCurrency": "USD",
       "currentBuyUrl": "https://www.lg.com/us/washers-dryers/lg-s3wfbn-styler-steam-closet",
       "currentBuyLabel": "LG 美國官網",
@@ -19919,7 +19919,7 @@
       "brand": "Wusthof",
       "model": "Gourmet 17cm",
       "name": "Wusthof Gourmet 17cm",
-      "currentPrice": 3234,
+      "currentPrice": 3080,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://www.momoshop.com.tw/TP/TP0002057/goodsDetail/TP00020570002377",
       "currentBuyLabel": "momo購物",
@@ -29220,10 +29220,10 @@
       "brand": "Atlantic",
       "model": "EXP 200",
       "name": "Atlantic EXP 200 一體式空氣源熱泵熱水器",
-      "currentPrice": 165000,
+      "currentPrice": 123750,
       "currentCurrency": "TWD",
-      "currentBuyUrl": "https://www.atlantic.tw/%E4%BA%9E%E7%B7%B9%E5%A8%9C%E7%86%B1%E6%B3%B5.html#EXP-200",
-      "currentBuyLabel": "Atlantic 亞緹娜台灣官方代理頁",
+      "currentBuyUrl": "https://www.yushanwater.com.tw/products/atn_whexplorer",
+      "currentBuyLabel": "玉山淨水｜選 EXP-200（200 公升，不含基本安裝）",
       "historicalLow": {
         "status": "not_found",
         "amount": null,
@@ -29258,12 +29258,12 @@
       "rejectedCandidates": [
         "排除會員券、點數、信用卡回饋、二手、福利品、展示、拆封、整新品、配件、耗材、非 exact model 與熱泵僅單一組件價。"
       ],
-      "priceBasis": "official_suggested",
-      "priceLabel": "官方建議售價",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
       "priceScope": "single_unit",
       "installation": {
-        "status": "not_stated",
-        "note": "官方代理建議售價頁未清楚列出基本安裝範圍；須索取場勘明細"
+        "status": "excluded",
+        "note": "玉山選項明示不含基本安裝；配管、配線、冷凝排水、導風及吊運等施工費用須另向通路確認"
       }
     },
     {
@@ -29272,10 +29272,10 @@
       "brand": "Atlantic",
       "model": "EXP 270",
       "name": "Atlantic EXP 270 一體式空氣源熱泵熱水器",
-      "currentPrice": 179000,
+      "currentPrice": 134250,
       "currentCurrency": "TWD",
-      "currentBuyUrl": "https://www.atlantic.tw/%E4%BA%9E%E7%B7%B9%E5%A8%9C%E7%86%B1%E6%B3%B5.html#EXP-270",
-      "currentBuyLabel": "Atlantic 亞緹娜台灣官方代理頁",
+      "currentBuyUrl": "https://www.yushan-water.com.tw/product-detail-3344702.html",
+      "currentBuyLabel": "玉山淨水｜EXP-270 270 公升（購物頁手選 270、安裝另計）",
       "historicalLow": {
         "status": "not_found",
         "amount": null,
@@ -29310,12 +29310,12 @@
       "rejectedCandidates": [
         "排除會員券、點數、信用卡回饋、二手、福利品、展示、拆封、整新品、配件、耗材、非 exact model 與熱泵僅單一組件價。"
       ],
-      "priceBasis": "official_suggested",
-      "priceLabel": "官方建議售價",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
       "priceScope": "single_unit",
       "installation": {
-        "status": "not_stated",
-        "note": "官方代理建議售價頁未清楚列出基本安裝範圍；須索取場勘明細"
+        "status": "excluded",
+        "note": "原商品頁明示安裝費用另計；連往玉山購物頁後須選 EXP-270（270 公升、不含基本安裝），配管、配線、冷凝排水、導風及吊運等施工費用另向通路確認"
       }
     },
     {
@@ -29326,8 +29326,8 @@
       "name": "Atlantic EGEO 250 一體式空氣源熱泵熱水器",
       "currentPrice": 145000,
       "currentCurrency": "TWD",
-      "currentBuyUrl": "https://www.atlantic.tw/%E4%BA%9E%E7%B7%B9%E5%A8%9C%E5%85%A8%E8%87%AA%E5%8B%95%E7%86%B1%E6%B3%B5.html",
-      "currentBuyLabel": "Atlantic 亞緹娜台灣官方代理頁",
+      "currentBuyUrl": "https://www.taada.com.tw/products/atlantic-egeo-heat-pump/",
+      "currentBuyLabel": "Atlantic 台灣代理熱海實業｜官方資料",
       "historicalLow": {
         "status": "not_found",
         "amount": null,
@@ -40667,7 +40667,7 @@
       "brand": "BenQ",
       "model": "PD2770U",
       "name": "27 型 4K 內建校色器專業色彩管理螢幕",
-      "currentPrice": 56893,
+      "currentPrice": 59888,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://www.momoshop.com.tw/product/15221341",
       "currentBuyLabel": "momo購物",
@@ -43855,7 +43855,7 @@
       "brand": "Logitech",
       "model": "M185",
       "name": "M185 灰色 910-002258 三鍵無線滑鼠",
-      "currentPrice": 649,
+      "currentPrice": 468,
       "currentBuyUrl": "https://www.tk3c.com/product/117872",
       "currentBuyLabel": "燦坤3C",
       "currentCurrency": "TWD",
@@ -52807,6 +52807,119 @@
         "LBJ原頁連線回傳200，但此次讀取正文為空，未取得可重現的歷史圖表。",
         "Kakaku日本價格歷史有123,800日圓紀錄，但未確認該時間點實際賣家與台灣保固，不套用為台灣公司貨史低。",
         "PChome Price.Low=null；不以現價39,900元推定歷史最低，也不將套組91,600元誤作單機。"
+      ]
+    },
+    {
+      "id": "purifier-philips-ac3681-81",
+      "category": "purifier",
+      "brand": "Philips",
+      "model": "AC3681/81",
+      "name": "毛小奈寵物抗敏空氣清淨機",
+      "currentPrice": 12139,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Air-Purifiers-Filters-Accessories/Philips-Pet-Air-Purifier-AC368181/p/155617",
+      "currentBuyLabel": "Costco 好市多",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-06",
+        "note": "已比對 Costco、官店、PChome exact /81 與飛比現價，並查 LBJ、FindPrice、BigGo 和 exact 型號低價搜尋。PTT 2026-03-26稱 Costco 8,990、Mobile01稱不到9,000，但未找回可驗日期、SKU與售價條件的當期通路證據；LBJ驗證/連線逾時、FindPrice502、BigGo原頁失敗。排除個人拍賣低價、濾網、雙機組及 /80 舊款；不將本次12,139現價推為史低。"
+      },
+      "checkedSources": [
+        "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Air-Purifiers-Filters-Accessories/Philips-Pet-Air-Purifier-AC368181/p/155617",
+        "https://www.philips-da.com.tw/products/ac368180",
+        "https://24h.pchome.com.tw/prod/DMAC2O-A900J2SUR",
+        "https://24h.pchome.com.tw/prod/DMAUFV-1900KEA69",
+        "https://feebee.com.tw/all/ac3681%2F81/",
+        "https://www.lbj.tw/BJ/Query.aspx?k=Philips%20AC3681%2F81",
+        "https://www.findprice.com.tw/g/ac3681%2F81",
+        "https://biggo.com.tw/s/AC3681%2F81/",
+        "https://www.ptt.cc/bbs/cat/M.1774526655.A.D30.html",
+        "https://www.google.com/search?q=%22155617%22%20%228990%22%20Costco",
+        "https://www.feds.com.tw/Uploads/EdmDownload/0b32307a-0692-46e6-a1f1-7a1d824eb949.pdf"
+      ],
+      "priceChecks": [
+        {
+          "query": "\"Philips AC3681/81\" Costco current price",
+          "url": "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Air-Purifiers-Filters-Accessories/Philips-Pet-Air-Purifier-AC368181/p/155617",
+          "purpose": "current_retailer_price",
+          "outcome": "主SKU155617 JSON-LD為NewCondition、LimitedAvailability、TWD12139，shippingRate0；僅採公開現價，非歷史最低證明。"
+        },
+        {
+          "query": "\"Philips AC3681/81\" 官方價格",
+          "url": "https://www.philips-da.com.tw/products/ac368180",
+          "purpose": "current_official_shop_price",
+          "outcome": "官店exact81公開13990；當輪先前browser動態按鈕可用。"
+        },
+        {
+          "query": "\"Philips AC3681/81\" 價格",
+          "url": "https://24h.pchome.com.tw/prod/DMAC2O-A900J2SUR",
+          "purpose": "current_retailer_price",
+          "outcome": "當輪API Price.P14990/Low null/Qty20；與後來發現同主商品別頁13990區分，不用目前較高價當史低。"
+        },
+        {
+          "query": "\"Philips AC3681/81\" 價格",
+          "url": "https://24h.pchome.com.tw/prod/DMAUFV-1900KEA69",
+          "purpose": "current_retailer_price",
+          "outcome": "exact /81公開13990，與官店一致；行銷舊圖提 /80，不挪用其年份和高度。"
+        },
+        {
+          "query": "ac3681/81",
+          "url": "https://feebee.com.tw/all/ac3681%2F81/",
+          "purpose": "price_comparison",
+          "outcome": "實際原頁列Costco12139、官店13990等；6600/8000/11000多為旋轉拍賣，2410為濾網，23980雙機組排除。沒有可重現歷史最低點日期。"
+        },
+        {
+          "query": "Philips AC3681/81",
+          "url": "https://www.lbj.tw/BJ/Query.aspx?k=Philips%20AC3681%2F81",
+          "purpose": "price_history_lookup",
+          "outcome": "web原頁失敗且獨立HTTP連線逾時；另實開LBJ17坪頁只有驗證文字，未讀到可用歷史曲線。"
+        },
+        {
+          "query": "ac3681/81",
+          "url": "https://www.findprice.com.tw/g/ac3681%2F81",
+          "purpose": "price_comparison",
+          "outcome": "搜尋可見現價列表，原頁502；不採快取作歷史證明。"
+        },
+        {
+          "query": "AC3681/81",
+          "url": "https://biggo.com.tw/s/AC3681%2F81/",
+          "purpose": "price_history_lookup",
+          "outcome": "原頁讀取失敗，不能宣稱已看到歷史價格曲線。"
+        },
+        {
+          "query": "\"AC3681/81\" \"8990\"",
+          "url": "https://www.ptt.cc/bbs/cat/M.1774526655.A.D30.html",
+          "purpose": "historical_price_candidate",
+          "outcome": "tgozero在2026-03-26購前文寫好市多8990，但沒有通路原始價卡、活動條件或可驗存檔；不採為史低。"
+        },
+        {
+          "query": "\"155617\" \"8990\" Costco",
+          "url": "https://www.google.com/search?q=%22155617%22%20%228990%22%20Costco",
+          "purpose": "exact_sku_historical_price_search",
+          "outcome": "未找到可核實Costco主SKU155617當期8990原始價格證據；異域無關數字匹配排除。"
+        },
+        {
+          "query": "\"AC3681/81\" \"8990\"",
+          "url": "https://www.feds.com.tw/Uploads/EdmDownload/0b32307a-0692-46e6-a1f1-7a1d824eb949.pdf",
+          "purpose": "historical_price_candidate",
+          "outcome": "搜尋將其他品項8990與AC3681/81並列，原始PDF403，未確認同一品項價格，排除。"
+        }
+      ],
+      "rejectedCandidates": [
+        "web原頁失敗且独立HTTP連線逾時；另實開LBJ17坪頁只有驗證文字，未讀到可用歷史曲線。",
+        "原頁讀取失敗，不能宣稱已看到歷史價格曲線。",
+        "tgozero在2026-03-26購前文寫好市多8990，但沒有通路原始價卡、活動條件或可驗存檔；不採為史低。",
+        "搜尋將其他品項8990與AC3681/81並列，原始PDF403，未確認同一品項價格，排除。"
       ]
     }
   ]

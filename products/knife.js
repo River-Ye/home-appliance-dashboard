@@ -623,9 +623,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAGY2A900G9G4W/000001_1682409496.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 3234,
-      "converted": 3234,
-      "confidence": "momo購物 2026-07-11 頁面查核價"
+      "amount": 3080,
+      "converted": 3080,
+      "confidence": "2026-09-06 人工覆核同型號原購買頁：促銷價3,080 元；市售價3,850；數量1；庫存低於1組；直接購買、加入購物車可用；預計2026/09/07出貨；平行輸入新品。 不需會員券或結帳折扣；保留既有平輸規格，非配件/福利品。"
     },
     "channel": "tw",
     "buyLabel": "momo購物",

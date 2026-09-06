@@ -1,13 +1,13 @@
 {
   "summary": {
-    "checkedAt": "2026-09-06T02:25:50.185Z",
-    "total": 1139,
-    "researchedThisRun": 5,
+    "checkedAt": "2026-09-06T08:31:03.220Z",
+    "total": 1140,
+    "researchedThisRun": 1,
     "found": 337,
-    "missing": 802,
+    "missing": 803,
     "byConfidence": {
       "official": 187,
-      "not_found": 799,
+      "not_found": 800,
       "retailer_explicit": 22,
       "credible_article": 52,
       "high": 60,
@@ -34990,6 +34990,56 @@
       "sourceKind": "official_announcement",
       "reason": "採品牌官方明確開售日期，代表海外首發，不宣稱台灣上市日期。",
       "checkedAt": "2026-09-06"
+    },
+    {
+      "id": "purifier-philips-ac3681-81",
+      "category": "purifier",
+      "brand": "Philips",
+      "model": "AC3681/81",
+      "name": "毛小奈寵物抗敏空氣清淨機",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"Philips AC3681/81\" release date launch 上市 發售",
+      "auditQueries": [
+        "\"AC3681/81\" \"上市\" site:philips-da.com.tw",
+        "\"AC3681/81\" \"上市\" site:philips.com.tw",
+        "\"AC3681/81\" \"launch\" OR \"released\""
+      ],
+      "sourceKind": "not_found",
+      "reason": "官方exact /81產品頁沒有可核實上市年月日；官店連出的2024-03-15手冊頁明列AC3681/80，Costco/PChome重用的2024全新升級圖片也出現/80，不能把系列舊款年份套給/81。能源標籤登錄年份、百貨檔期、PChome上架或促銷日也排除。",
+      "checkedAt": "2026-09-06",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.philips-da.com.tw/products/ac368180",
+          "title": "台灣飛利浦家電 AC3681/81",
+          "outcome": "exact 型號、價錢和規格齊全，沒有明確上市日期。"
+        },
+        {
+          "url": "https://www.philips-da.com.tw/blogs/news",
+          "title": "新聞及公關訊息 台灣飛利浦家電",
+          "outcome": "實際開啟官方新聞入口及以exact /81官網限定搜尋，未找到可採/81上市公告。"
+        },
+        {
+          "url": "https://www.philips-da.com.tw/blogs/%E7%A9%BA%E6%B0%A3%E6%B8%85%E6%B7%A8%E6%A9%9F%E7%94%A2%E5%93%81%E6%89%8B%E5%86%8A/150109",
+          "title": "產品手冊-飛利浦寵物抗敏空氣清淨機 (AC3681/80)",
+          "outcome": "官店所連手冊為/80且文章日期屬手冊頁，非/81上市證據。"
+        },
+        {
+          "url": "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Air-Purifiers-Filters-Accessories/Philips-Pet-Air-Purifier-AC368181/p/155617",
+          "title": "Costco 飛利浦 AC3681/81 #155617",
+          "outcome": "主SKU exact /81；2024升級行銷圖沒有足夠/81上市證明，不採為上市年份。"
+        },
+        {
+          "url": "https://24h.pchome.com.tw/prod/DMAUFV-1900KEA69",
+          "title": "PChome 毛小奈 AC3681/81",
+          "outcome": "/81標題重用寫/80的2024升級行銷圖，排除年份移用。"
+        }
+      ]
     }
   ]
 }

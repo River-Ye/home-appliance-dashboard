@@ -1,5 +1,5 @@
 const EXPECTED_CATEGORY_COUNT = 37;
-const EXPECTED_PRODUCT_COUNT = 1139;
+const EXPECTED_PRODUCT_COUNT = 1140;
 const MIN_PRODUCTS_PER_CATEGORY = 20;
 const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["tv", 39],
@@ -7,7 +7,7 @@ const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["fan", 24],
   ["circulator", 23],
   ["dehumidifier", 27],
-  ["purifier", 28],
+  ["purifier", 29],
   ["aircon", 30],
   ["robot", 45],
   ["vacuum", 32],
@@ -169,6 +169,7 @@ const OFFICIAL_SUGGESTED_PRICE_HOSTS = new Set([
   "paotien.com.tw",
   "haierpro.com.tw",
   "atlantic.tw",
+  "taada.com.tw",
   "homemark.com.tw",
 ]);
 const AIRCON_TYPE_COUNTS = new Map([

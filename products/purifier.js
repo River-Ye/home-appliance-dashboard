@@ -2732,6 +2732,110 @@
         }
       ]
     }
+  },
+  {
+    "id": "purifier-philips-ac3681-81",
+    "category": "purifier",
+    "brand": "Philips",
+    "model": "AC3681/81",
+    "name": "毛小奈寵物抗敏空氣清淨機",
+    "rank": 29,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "price": {
+      "currency": "TWD",
+      "amount": 12139,
+      "converted": 12139,
+      "basis": "retailer_current",
+      "confidence": "Costco 2026-09-06 主SKU155617公開現價，JSON-LD LimitedAvailability/NewCondition，含運；未扣個人優惠或回饋"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "通路未另列安裝服務；依隨附說明書放置與使用，先核對進出風及維護空間。"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h00/h26/418236463743006.jpg",
+    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Air-Purifiers-Filters-Accessories/Philips-Pet-Air-Purifier-AC368181/p/155617",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "CADR：360 m³/h；官方建議適用 15–17 坪",
+      "濾網：前置濾網、奈米級 HEPA 與寵物活性碳濾網；替換型號 FY3129",
+      "浮毛處理：自動浮毛清潔刷將前置濾網浮毛收集至集毛倉；地面重毛髮仍需吸塵器",
+      "偵測／模式：PM2.5、IAI 過敏原、Gas；自動、舒眠、寵物與三段風速",
+      "噪音：官方標示 15.7–46.5 dB；低噪數字對應舒眠條件",
+      "尺寸：長 52.66 × 寬 25.4 × 高 56.66 cm；重量：不含包裝 9.6 kg",
+      "電力：110V／60Hz、消耗功率 46W；官方待機 1.00W、一級能效",
+      "耗材：官方建議 FY3129 約 12 個月更換，視環境而定；內容含主機及濾網一片"
+    ],
+    "description": "以自動刮浮毛與集毛倉減少前置濾網清理負擔，適用寵物家庭。CADR 360 m³/h，選購時可和 AC3360/80 Lite 比較機身占地、噪音與濾網成本。",
+    "pros": [
+      "自動浮毛清潔刷與集毛倉可減少前置濾網浮毛清理負擔",
+      "台灣 110V／60Hz 電力規格、兩年保固，並有原廠 FY3129 替換濾網",
+      "CADR 360、六種模式，可依寵物活動與夜間需求調整"
+    ],
+    "cons": [
+      "9.6kg、長約52.7cm，換房移動與擺放空間需先評估",
+      "FY3129為持續耗材，自動刮毛不免除集毛倉清理及濾網更換",
+      "清淨機主要處理飄浮毛髮與皮屑，地板重毛髮仍需吸塵；Costco購買須符合會員資格"
+    ],
+    "bestFor": "有貓狗、希望減輕前置濾網浮毛清理負擔，並能安排中大型清淨機空間的家庭。",
+    "recommendation": "適合希望減輕浮毛清理負擔的寵物家庭；選購時比較自動刮毛、CADR 360、9.6kg 機身與濾網成本，並保留進出風及維護空間。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-09-06",
+      "note": "已比對 Costco、官店、PChome exact /81 與飛比現價，並查 LBJ、FindPrice、BigGo 和 exact 型號低價搜尋。PTT 2026-03-26稱 Costco 8,990、Mobile01稱不到9,000，但未找回可驗日期、SKU與售價條件的當期通路證據；LBJ驗證/連線逾時、FindPrice502、BigGo原頁失敗。排除個人拍賣低價、濾網、雙機組及 /80 舊款；不將本次12,139現價推為史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-09-06",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"AC3681/81\" (災情 OR 問題 OR 故障 OR 負評)",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22AC3681%2F81%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"AC3681/81\" (problem OR issue OR defect OR failure)",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22AC3681%2F81%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"AC3681/81\"",
+          "targetHost": "ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22AC3681%2F81%22"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"AC3681/81\"",
+          "targetHost": "dcard.tw",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22AC3681%2F81%22"
+        }
+      ]
+    },
+    "score": 85,
+    "voltage": "台灣 Costco AC3681/81 exact 產品規格：110V／60Hz；46W",
+    "warranty": "台灣官店及 Costco 均標示兩年保固；依購買通路、憑證及原廠條件辦理。",
+    "tags": [
+      "寵物家庭",
+      "自動刮毛",
+      "15–17坪",
+      "一級能效",
+      "台灣公司貨"
+    ]
   }
 ]);
 })();

@@ -5140,9 +5140,9 @@
     "name": "27 型 4K 內建校色器專業色彩管理螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 56893,
-      "converted": 56893,
-      "confidence": "www.momoshop.com.tw 2026-09-05 人工核對 exact-model 公開單件價及可購狀態；非會員券、紅利或加購價",
+      "amount": 59888,
+      "converted": 59888,
+      "confidence": "2026-09-06 人工覆核同型號原購買頁：促銷價59,888；庫存低於2組；數量1/2；直接購買及放入購物車可用；保固3年；特惠商品不適用折價券。 公開標價已由56,893變59,888，無本商品未開始限搶價格標籤。",
       "basis": "retailer_current"
     },
     "image": "https://image.benq.com/is/image/benqco/1pd2770u-front-hood-hotkey-2?$ResponsivePreset$",

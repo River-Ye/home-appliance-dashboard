@@ -1554,9 +1554,9 @@
     "name": "PencilVac Fluffycones 筆型吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 21900,
-      "converted": 21900,
-      "confidence": "Dyson 台灣官網 2026-07-15 頁面查核價"
+      "amount": 19900,
+      "converted": 19900,
+      "confidence": "2026-09-06 人工覆核同型號原購買頁：主商品：送旅行包 Dyson PencilVac Fluffycones；原價21,900、特價19,900、現省2,000；加入購物車可用；延長保固預設不需要。 公開直接特價19,900，不需要加購或會員券；JSON-LD仍顯示原價21,900不可覆寫主商品可見促銷。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX00A900JPJ7H/000001_1777291832.jpg",
     "buyUrl": "https://shop.dyson.tw/vacuums/cordless-vacuums/dyson-pencilvac-fluffycones-black-sale-492694-01",
