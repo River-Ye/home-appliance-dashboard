@@ -4059,6 +4059,314 @@
         }
       ]
     }
+  },
+  {
+    "id": "waterdispenser-waterspace-ws-rch601",
+    "category": "waterdispenser",
+    "rank": 41,
+    "topPick": false,
+    "brand": "水空間",
+    "model": "WS-RCH601",
+    "name": "RO 淨熱飲水機（六機合一）",
+    "image": "https://waterspace.com.tw/uploads/product/202512/560_560/20251231163427d262.jpg",
+    "specs": [
+      "類型：櫥下 RO 淨水與儲熱一體機；無冰水功能",
+      "過濾：600G RO；WS-RCH601-MRO 複合濾芯，單芯五層過濾",
+      "溫控：常溫、45、55、65、75、85、95°C 七段；316 不鏽鋼熱膽 2.1L",
+      "流量：常溫水 1.58L/min、95°C 熱水 1.4L/min（官方規格值）",
+      "控制：觸控龍頭、濾芯更換與水質提示燈；側抽換芯",
+      "尺寸：寬 17 x 深 45 x 高 43.65 cm（依官方深×寬×高換序）",
+      "重量：查不到",
+      "電源：110V；頻率與額定功率未標示，安裝前確認機身銘牌與迴路",
+      "耗材：WS-RCH601-MRO；官方參考壽命約 12–18 個月，依水質及用量調整",
+      "安裝：需櫥下空間、龍頭孔位、進水、RO 排水與電源；另預留側面抽芯空間"
+    ],
+    "description": "把 RO 過濾與 2.1L 儲熱整合在同一機身，七段水溫適合泡茶、沖飲與一般常溫飲水。這款有熱膽，應依家庭尖峰用水量評估連續熱水需求。",
+    "pros": [
+      "600G RO 與七段溫控整合，減少分開配置加熱器的需求",
+      "17cm 機身寬度、側抽換芯，方便規劃櫥下空間",
+      "台灣通路可購買整機與專用替換濾芯"
+    ],
+    "cons": [
+      "沒有製冷冰水，且有 2.1L 熱膽與儲熱保養需求",
+      "RO 需排水及定期更換專用複合濾芯",
+      "淨重、頻率、額定功率及保固年限未完整公開，需向安裝商確認"
+    ],
+    "bestFor": "希望在櫥下整合 RO 與多段熱水，並能安排排水、電源及換芯空間的家庭。",
+    "recommendation": "適合需要常溫與多段熱水的 RO 使用者；先依 45cm 機身深度、側抽換芯方向和 2.1L 熱膽評估空間與用量，再確認安裝加價範圍。",
+    "score": 87,
+    "budget": "premium",
+    "voltage": "110V；官方規格圖未明示頻率與額定功率，依機身銘牌及安裝商確認專用迴路與接地",
+    "warranty": "台灣玉山淨水提供購買與售後窗口；原廠保固年限未標示，請於下單前書面確認，濾芯耗材另計",
+    "tags": [
+      "水空間",
+      "WATERSPACE",
+      "RO淨熱一體",
+      "七段溫控",
+      "2.1L熱膽",
+      "110V",
+      "櫥下型"
+    ],
+    "channel": "tw",
+    "price": {
+      "amount": 28800,
+      "currency": "TWD",
+      "converted": 28800,
+      "basis": "retailer_current",
+      "note": "2026-09-07 查核公開售價；含基本安裝；追加施工及地區服務須向通路確認。",
+      "confidence": "2026-09-07 查核公開售價；含基本安裝；追加施工及地區服務須向通路確認。"
+    },
+    "buyUrl": "https://www.yushanwater.com.tw/products/ws_wsrch601",
+    "buyLabel": "玉山淨水",
+    "installation": {
+      "status": "included_basic",
+      "note": "玉山淨水同型號頁明示售價含基本安裝與濾芯；超出標準施工的檯面鑽孔、管線修改及服務地區需另確認。"
+    },
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "found",
+      "amount": 28800,
+      "currency": "TWD",
+      "converted": 28800,
+      "sourceUrl": "https://www.dreammall.com.tw/files/DM/2026BeautyNewYear.pdf#page=12",
+      "sourceTitle": "夢時代 2026 美麗迎新春 DM｜三心科技 WS-RCH601",
+      "evidenceSnippet": "夢時代B2 三心科技 水空間 RO淨熱飲水機 WS-RCH601；原價32,800元，特價28,800元。",
+      "sourceKind": "retailer_promo",
+      "confidence": "high",
+      "checkedAt": "2026-09-07",
+      "note": "已下載夢時代官方 2026 年 1 月 DM 並人工核對 PDF 第 12 頁（印刷頁碼 11）；NT$28,800 為獨立商品特價，未扣滿額贈券、信用卡或會員回饋。本次找到的最低可信新品歷史記錄，非宣稱全市場絕對最低；DM 未明示基本安裝邊界。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-09-07",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"WS-RCH601\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22WS-RCH601%22",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"WS-RCH601\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22WS-RCH601%22",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"WS-RCH601\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22WS-RCH601%22",
+          "targetHost": "dcard.tw"
+        }
+      ]
+    }
+  },
+  {
+    "id": "waterdispenser-waterspace-mino-r2",
+    "category": "waterdispenser",
+    "rank": 42,
+    "topPick": false,
+    "brand": "水空間",
+    "model": "WS-Min'O-R2",
+    "name": "Min'O R2 直出 RO 淨水器（黑色 LED 龍頭）",
+    "image": "https://waterspace.com.tw/uploads/product/202310/560_560/20251231152558d212.jpg",
+    "specs": [
+      "類型：櫥下無儲水桶直出 RO 淨水器；提供常溫淨水，沒有加熱或製冷",
+      "過濾：第一道 PCB 複合活性碳＋PP，第二道 RO 膜",
+      "製水：600 加侖/日；淨水流速 1400–1600mL/min（官方規格值）",
+      "尺寸：長 12.4 x 寬 27.3 x 高 38.2 cm（保留官方長／寬／高軸序）",
+      "重量：約 5.5 kg（官方淨重）",
+      "用水：進水水溫 5–40°C；適用水壓 2–5kg（官方原文，單位未完整標示）",
+      "電源：110V；頻率與功率未標示",
+      "龍頭：本次價格採黑色 LED 龍頭配置；其他龍頭版本依通路另行確認",
+      "耗材：兩道快拆濾芯；台灣製造，需確認專用濾芯費用與更換週期",
+      "安裝：需進水、RO 排水、插座、龍頭孔位及下方換芯空間"
+    ],
+    "description": "Min'O R2 以兩道快拆濾芯與無儲水桶設計提供常溫 RO 淨水，適合想保留較多櫥下收納空間的人。此筆採可直接購買的黑色 LED 龍頭整機配置。",
+    "pros": [
+      "無儲水桶，省去壓力桶占用的櫥下空間",
+      "600G 直出 RO，官方公開機身尺寸與淨重",
+      "兩道快拆濾芯與台灣通路安裝服務便於維護"
+    ],
+    "cons": [
+      "沒有加熱與製冷，熱水需求須另搭加熱設備",
+      "需 110V 插座、RO 排水及足夠進水水壓",
+      "不同龍頭與通路報價需分開確認，較低詢價價位未證明現貨"
+    ],
+    "bestFor": "以常溫 RO 淨水為主、希望省下儲水桶空間，且已有其他熱水來源的家庭。",
+    "recommendation": "適合單純需要常溫 RO 的小櫥櫃；丈量時保留官方長寬高方向，並把濾芯抽換、RO 排水與日後耗材費一起評估。",
+    "score": 86,
+    "budget": "mid",
+    "voltage": "110V；官方規格未明示頻率與額定功率，安裝前確認適用插座及銘牌",
+    "warranty": "台灣玉山淨水提供購買與售後窗口；保固年限未標示，需書面確認原廠條款，濾芯耗材另計",
+    "tags": [
+      "水空間",
+      "WATERSPACE",
+      "Min'O R2",
+      "無桶直出RO",
+      "600G",
+      "110V",
+      "櫥下型"
+    ],
+    "channel": "tw",
+    "price": {
+      "amount": 18800,
+      "currency": "TWD",
+      "converted": 18800,
+      "basis": "retailer_current",
+      "note": "2026-09-07 查核公開售價；富山較低公開價 NT$17,000 僅詢價且庫存待確認，三心同價已售罄；本筆採玉山黑色 LED 龍頭可購買頁。",
+      "confidence": "2026-09-07 查核公開售價；富山較低公開價 NT$17,000 僅詢價且庫存待確認，三心同價已售罄；本筆採玉山黑色 LED 龍頭可購買頁。"
+    },
+    "buyUrl": "https://www.yushanwater.com.tw/products/ws_wsminor2_black",
+    "buyLabel": "玉山淨水",
+    "installation": {
+      "status": "included_basic",
+      "note": "玉山淨水黑色 LED 換芯提醒龍頭款，售價含基本安裝；檯面鑽孔、管線修改及服務地區需另確認。"
+    },
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-09-07",
+      "note": "已查富山／三心／玉山 exact-model 完整新品頁、FindPrice 與飛比 exact-model 價格查詢；三心 NT$17,000 已售罄，富山 NT$17,000 僅詢價且庫存待確認，玉山黑色 LED 龍頭 NT$18,800 為現價；飛比的富山 NT$19,800 無具日期歷史低點。因此維持 not_found，不以現價推定史低；耗材與配件價格已排除。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-09-07",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"WS-Min'O-R2\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22WS-Min'O-R2%22",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"WS-Min'O-R2\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22WS-Min'O-R2%22",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"WS-Min'O-R2\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22WS-Min'O-R2%22",
+          "targetHost": "dcard.tw"
+        }
+      ]
+    }
+  },
+  {
+    "id": "waterdispenser-waterspace-ws-uvn500",
+    "category": "waterdispenser",
+    "rank": 43,
+    "topPick": false,
+    "brand": "水空間",
+    "model": "WS-UVN500",
+    "name": "五層超濾淨水器（含 LED-UV 模組）",
+    "image": "https://waterspace.com.tw/uploads/product/202309/560_560/20251231153127d224.jpg",
+    "specs": [
+      "類型：櫥下超濾淨水器；提供常溫淨水，沒有加熱或製冷",
+      "過濾：兩道濾芯＋LED-UV 模組，包含無鈉樹脂、複合中空絲膜與 UV 處理",
+      "流量：0.5 加侖/分鐘，依進水壓力而定；總淨水量 6000L，依水質硬度與用量調整",
+      "尺寸：長 27.5 x 寬 13 x 高 38.5 cm（保留官方長／寬／高軸序）",
+      "重量：約 2.8 kg（官方淨重）",
+      "進水：壓力 3–5kg（官方原文，單位未完整標示）",
+      "電源：110–220V；LED-UV 模組需供電，頻率與功率未標示",
+      "耗材：WS-UVN500-F01、WS-UVN500-F02、WS-UVN500-LED03，需分別確認更換週期與費用",
+      "安裝：需龍頭孔位、進水及供電；無 RO 膜，不能把超濾規格當成 RO 除鹽能力"
+    ],
+    "description": "以無鈉樹脂、複合中空絲膜與 LED-UV 模組組成櫥下淨水系統。官方描述保留礦物質，適合比較非 RO 常溫飲水方案；UV 模組仍需要電源。",
+    "pros": [
+      "兩道濾芯整合樹脂與超濾，另具 LED-UV 模組",
+      "機身淨重約 2.8kg，官方公開本體尺寸",
+      "品牌官方列出的三心科技通路有整機售價與基本安裝配置"
+    ],
+    "cons": [
+      "沒有加熱、製冷與 RO 膜，不適合直接套用 RO 除鹽需求",
+      "LED-UV 模組需供電，且仍有多項耗材保養成本",
+      "水壓、濾芯壽命與保固條款需按實際水質和安裝條件確認"
+    ],
+    "bestFor": "需要非 RO 常溫超濾方案，願意依水質管理濾芯並預留 UV 供電的家庭。",
+    "recommendation": "適合重視常溫超濾與可更換耗材的人；先確認家中水質適用性、龍頭位置、水壓與 LED-UV 供電，再比較長期濾芯成本。",
+    "score": 84,
+    "budget": "mid",
+    "voltage": "110–220V；LED-UV 模組需供電，官方未標頻率與功率，請安裝商確認變壓器與插座",
+    "warranty": "水空間官方列出的三心科技提供台灣安裝、保固維修與保養窗口；年限未標示，依書面保固條款，濾芯耗材另計",
+    "tags": [
+      "水空間",
+      "WATERSPACE",
+      "超濾",
+      "LED-UV",
+      "常溫淨水",
+      "含基本安裝",
+      "櫥下型"
+    ],
+    "channel": "tw",
+    "price": {
+      "amount": 22800,
+      "currency": "TWD",
+      "converted": 22800,
+      "basis": "retailer_current",
+      "note": "2026-09-07 查核公開售價；含基本安裝；追加施工及地區服務須向通路確認。",
+      "confidence": "2026-09-07 查核公開售價；含基本安裝；追加施工及地區服務須向通路確認。"
+    },
+    "buyUrl": "https://www.3-heart.com.tw/product-219.html",
+    "buyLabel": "三心科技",
+    "installation": {
+      "status": "included_basic",
+      "note": "三心科技本款規格明示免運含基本安裝；檯面鑽孔、管線修改及特殊施工費用須另確認。"
+    },
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-09-07",
+      "note": "已查富山／三心 exact-model 完整新品頁、FindPrice 與飛比的價格查詢及原始比價候選；NT$22,800 只確認本次通路／比價價格，沒有可重現的具日期歷史低點。因此維持 not_found，不以現價推定史低；耗材與配件價格已排除。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-09-07",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"WS-UVN500\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22WS-UVN500%22",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"WS-UVN500\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22WS-UVN500%22",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"WS-UVN500\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22WS-UVN500%22",
+          "targetHost": "dcard.tw"
+        }
+      ]
+    }
   }
 ]);
 })();

@@ -1,9 +1,9 @@
 {
   "summary": {
     "checkedAt": "2026-09-07T00:00:00+08:00",
-    "total": 1149,
+    "total": 1152,
     "commonIssueProducts": 53,
-    "noCommonIssueProducts": 1096,
+    "noCommonIssueProducts": 1099,
     "pendingManualReview": 0,
     "commonIssues": 54,
     "searchUnavailable": 616,
@@ -25,7 +25,8 @@
       "2026-09-06 增量加入 Mitsubishi Electric MR-WZ54N；人工覆核 Mobile01/PTT exact-model 搜尋及 momo 原頁，未達6人／2站門檻。原1134筆商品逐型負評決策及真實覆核日期保留，不表示本轮全部重新閱讀原始評價。",
       "2026-09-06 本輪僅對新增的 MR-WZ54N、XG27ACSR、U7 Pro XG、Iskur V2 NewGen、Lifestyle Ultra Soundbar 完成逐型號跨站負評覆核；既有商品逐筆查核日期維持原值。U7 Pro XG 有六名作者、兩個原始網站的同症狀回報，Bose不同症狀分開計數未達門檻。",
       "2026-09-06 下午僅新增 AC3681/81 的跨站人工負評覆核：PTT、Mobile01、Dcard 候選有型號後綴未明的系列個案或購前內容，均保留具體排除理由；沒有達到同一 exact 型號問題 6 人／2 站門檻。原 1139 筆研究與逐人證據保留原日期。",
-      "2026-09-07 下午僅新增 MPG 271QR QD-OLED X50 與 WDEE123HTW 的逐型號跨站人工負評覆核；既有1147筆研究與53款集中問題保留原始逐筆日期。MSI人體感測／面板保護與Whirlpool噪音／到貨外觀個案均揭露，尚未達同一問題6人且跨2個原始網站門檻。"
+      "2026-09-07 下午僅新增 MPG 271QR QD-OLED X50 與 WDEE123HTW 的逐型號跨站人工負評覆核；既有1147筆研究與53款集中問題保留原始逐筆日期。MSI人體感測／面板保護與Whirlpool噪音／到貨外觀個案均揭露，尚未達同一問題6人且跨2個原始網站門檻。",
+      "2026-09-07 本輪僅新增水空間 WS-RCH601、WS-Min'O-R2、WS-UVN500 三款逐型號跨站人工覆核；WS-RCH601 的門市體驗文章非故障回報，其餘兩款未發現 exact-model 使用者候選，均未達同問題 6 人／2 站門檻。既有 1149 筆研究與逐人證據原樣保留，不宣稱同日重讀。"
     ]
   },
   "results": [
@@ -201497,6 +201498,447 @@
           "reason": "這是一則有購買標記的正向短期評價，沒有故障自述；獎勵標記與一週使用不能推導长期可靠，也不能湊負評人數。此為第二個實際讀過exact-model原始評價網站，與Reddit獨立。"
         }
       ]
+    },
+    {
+      "id": "waterdispenser-waterspace-ws-rch601",
+      "category": "waterdispenser",
+      "brand": "水空間",
+      "model": "WS-RCH601",
+      "name": "RO 淨熱飲水機（六機合一）",
+      "identity": {
+        "canonicalModel": "WS-RCH601",
+        "lookupLabel": "水空間 WS-RCH601",
+        "aliases": [
+          "水空間 WS-RCH601"
+        ],
+        "evidenceUrl": "https://www.yushanwater.com.tw/products/ws_wsrch601"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-09-07",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT",
+          "Dcard",
+          "Stanma 部落格"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"WS-RCH601\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22WS-RCH601%22",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"WS-RCH601\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22WS-RCH601%22",
+            "targetHost": "ptt.cc"
+          },
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"WS-RCH601\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22WS-RCH601%22",
+            "targetHost": "dcard.tw"
+          }
+        ],
+        "candidateDisposition": "WS-RCH601：Mobile01、PTT、Dcard 的完整型號定站搜尋皆沒有可辨識原始社群討論；擴大至評價、問題、故障搜尋找到 Stanma 門市體驗文章，已逐頁排除其非故障回報內容，無同問題 6 位獨立使用者跨 2 站證據。",
+        "representativeSources": [
+          {
+            "platform": "Stanma 部落格",
+            "title": "台南淨水器推薦 富山淨水台南好市多旗艦店水空間 WS-RCH601 RO淨熱一體機，滿足家中冷熱飲需求，質感生活一蹴可及！",
+            "url": "https://stanma.tw/fushan-water/"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "platform": "Stanma 部落格",
+            "title": "台南淨水器推薦 富山淨水台南好市多旗艦店水空間 WS-RCH601 RO淨熱一體機，滿足家中冷熱飲需求，質感生活一蹴可及！",
+            "url": "https://stanma.tw/fushan-water/",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-07",
+            "sourceExcerpt": "Stanma 在 2026-03-17 的門市體驗文章中介紹 WS-RCH601 的溫控、側抽換芯與省電功能，敘述店員帶領屎蛋一家選購並正面推薦；全文未出現本機故障或售後失敗的第一人稱回報。",
+            "independentAuthors": 0,
+            "specificReason": "已回到文章原頁核對 WS-RCH601 段落與全文。可辨識作者 Stanma 的內容是門市選購體驗及正面功能介紹，未主張自家長期持有本機或發生具體故障；計入本型號負評的獨立作者為 0，不能把宣傳式推荐內容或文章中的一般用水問題當成集中災情。",
+            "authorReviews": [
+              {
+                "author": "Stanma",
+                "exactModelConfirmed": true,
+                "firstPersonConfirmed": false,
+                "reviewerNote": "第一人稱指門市參訪選購，未核實為本機實際持有者的故障回報；不計入災情作者。"
+              }
+            ]
+          }
+        ],
+        "reviewerNote": "WS-RCH601：已人工檢視三站完整型號查詢結果，並開啟 Stanma 評價候選原頁核對作者、型號與內容。玉山淨水商品評價欄明示暫無評價、德克生活為商品介紹；兩者不視為使用者災情候選。Facebook／Threads 的補充故障搜尋亦未找到 exact-model 回報。這是公開搜尋及可讀原頁範圍的未達門檻決策，不代表完全沒有負評，也不包含未公開社團或未被索引留言。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-09-07",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"WS-RCH601\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22WS-RCH601%22",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"WS-RCH601\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22WS-RCH601%22",
+            "targetHost": "ptt.cc"
+          },
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"WS-RCH601\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22WS-RCH601%22",
+            "targetHost": "dcard.tw"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Web Search（人工檢視）",
+          "query": "site:mobile01.com \"WS-RCH601\"",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22WS-RCH601%22",
+          "targetHost": "mobile01.com",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-09-07T13:39:29.745Z",
+          "reviewerNote": "已人工讀取 Mobile01 定站完整型號搜尋，本次沒有結果。"
+        },
+        {
+          "platform": "Web Search（人工檢視）",
+          "query": "site:ptt.cc \"WS-RCH601\"",
+          "searchUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22WS-RCH601%22",
+          "targetHost": "ptt.cc",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-09-07T13:39:29.745Z",
+          "reviewerNote": "已人工讀取 PTT 定站完整型號搜尋，本次沒有結果。"
+        },
+        {
+          "platform": "Web Search（人工檢視）",
+          "query": "site:dcard.tw \"WS-RCH601\"",
+          "searchUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22WS-RCH601%22",
+          "targetHost": "dcard.tw",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-09-07T13:39:29.745Z",
+          "reviewerNote": "已人工讀取 Dcard 定站完整型號搜尋，本次沒有結果。"
+        },
+        {
+          "platform": "Web Search（人工檢視）",
+          "query": "\"WS-RCH601\" 評價 問題 故障",
+          "searchUrl": "https://www.google.com/search?q=%22WS-RCH601%22%20%E8%A9%95%E5%83%B9%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://stanma.tw/fushan-water/"
+          ],
+          "candidates": [
+            {
+              "platform": "Stanma 部落格",
+              "title": "台南淨水器推薦 富山淨水台南好市多旗艦店水空間 WS-RCH601 RO淨熱一體機，滿足家中冷熱飲需求，質感生活一蹴可及！",
+              "url": "https://stanma.tw/fushan-water/",
+              "exactModel": true
+            }
+          ],
+          "inspectedAt": "2026-09-07T13:39:29.745Z"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "platform": "Stanma 部落格",
+          "title": "台南淨水器推薦 富山淨水台南好市多旗艦店水空間 WS-RCH601 RO淨熱一體機，滿足家中冷熱飲需求，質感生活一蹴可及！",
+          "url": "https://stanma.tw/fushan-water/",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-07",
+          "sourceExcerpt": "Stanma 在 2026-03-17 的門市體驗文章中介紹 WS-RCH601 的溫控、側抽換芯與省電功能，敘述店員帶領屎蛋一家選購並正面推薦；全文未出現本機故障或售後失敗的第一人稱回報。",
+          "independentAuthors": 0,
+          "specificReason": "已回到文章原頁核對 WS-RCH601 段落與全文。可辨識作者 Stanma 的內容是門市選購體驗及正面功能介紹，未主張自家長期持有本機或發生具體故障；計入本型號負評的獨立作者為 0，不能把宣傳式推荐內容或文章中的一般用水問題當成集中災情。",
+          "authorReviews": [
+            {
+              "author": "Stanma",
+              "exactModelConfirmed": true,
+              "firstPersonConfirmed": false,
+              "reviewerNote": "第一人稱指門市參訪選購，未核實為本機實際持有者的故障回報；不計入災情作者。"
+            }
+          ],
+          "reason": "已回到文章原頁核對 WS-RCH601 段落與全文。可辨識作者 Stanma 的內容是門市選購體驗及正面功能介紹，未主張自家長期持有本機或發生具體故障；計入本型號負評的獨立作者為 0，不能把宣傳式推荐內容或文章中的一般用水問題當成集中災情。"
+        }
+      ]
+    },
+    {
+      "id": "waterdispenser-waterspace-mino-r2",
+      "category": "waterdispenser",
+      "brand": "水空間",
+      "model": "WS-Min'O-R2",
+      "name": "Min'O R2 直出 RO 淨水器（黑色 LED 龍頭）",
+      "identity": {
+        "canonicalModel": "WS-Min'O-R2",
+        "lookupLabel": "水空間 WS-Min'O-R2",
+        "aliases": [
+          "水空間 WS-Min'O-R2",
+          "水空間 O-R2"
+        ],
+        "evidenceUrl": "https://www.yushanwater.com.tw/products/ws_wsminor2_black"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-09-07",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT",
+          "Dcard"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"WS-Min'O-R2\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22WS-Min'O-R2%22",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"WS-Min'O-R2\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22WS-Min'O-R2%22",
+            "targetHost": "ptt.cc"
+          },
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"WS-Min'O-R2\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22WS-Min'O-R2%22",
+            "targetHost": "dcard.tw"
+          }
+        ],
+        "candidateDisposition": "WS-Min'O-R2（官網標題 Min'O R2）：Mobile01、PTT、Dcard 的完整型號定站搜尋均無可辨識原始社群討論；再查 WS-Min'O-R2、分詞 Min'O 與 R2，以及 Mino R2 拼法，沒有可核實的本型號負評候選。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "WS-Min'O-R2：人工逐一檢視完整型號及通路 WS-Min'O-R2 寫法的三站搜尋；廣泛問題／評價搜尋只見水空間官方、整機與替換濾芯販售頁。MINO 香氛機說明書、電腦水冷或其他 R2 命中品牌與用途皆不符，於型號邊界篩除，未把它們當成本機故障。此次未發現應開原頁的使用者回報候選，採 no-candidate attestation；公開搜尋未達同問題 6 人／2 站，不代表完全没有負評。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-09-07",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"WS-Min'O-R2\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22WS-Min'O-R2%22",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"WS-Min'O-R2\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22WS-Min'O-R2%22",
+            "targetHost": "ptt.cc"
+          },
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"WS-Min'O-R2\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22WS-Min'O-R2%22",
+            "targetHost": "dcard.tw"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Web Search（人工檢視）",
+          "query": "site:mobile01.com \"WS-Min'O-R2\"",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22WS-Min'O-R2%22",
+          "targetHost": "mobile01.com",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-09-07T13:39:29.745Z",
+          "reviewerNote": "已人工讀取 Mobile01 定站完整型號搜尋，本次沒有結果。"
+        },
+        {
+          "platform": "Web Search（人工檢視）",
+          "query": "site:ptt.cc \"WS-Min'O-R2\"",
+          "searchUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22WS-Min'O-R2%22",
+          "targetHost": "ptt.cc",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-09-07T13:39:29.745Z",
+          "reviewerNote": "已人工讀取 PTT 定站完整型號搜尋，本次沒有結果。"
+        },
+        {
+          "platform": "Web Search（人工檢視）",
+          "query": "site:dcard.tw \"WS-Min'O-R2\"",
+          "searchUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22WS-Min'O-R2%22",
+          "targetHost": "dcard.tw",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-09-07T13:39:29.745Z",
+          "reviewerNote": "已人工讀取 Dcard 定站完整型號搜尋，本次沒有結果。"
+        },
+        {
+          "platform": "Web Search（人工檢視）",
+          "query": "\"Min'O R2\" 問題 故障 評價",
+          "searchUrl": "https://www.google.com/search?q=%22Min'O%20R2%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C%20%E8%A9%95%E5%83%B9",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-09-07T13:39:29.745Z",
+          "reviewerNote": "別名補充搜尋只見商品／耗材及品牌用途不符的噪音結果，無可核實本機使用者回報候選。"
+        },
+        {
+          "platform": "Web Search（人工檢視）",
+          "query": "水空間 Mino R2 問題 評價 災情",
+          "searchUrl": "https://www.google.com/search?q=%E6%B0%B4%E7%A9%BA%E9%96%93%20Mino%20R2%20%E5%95%8F%E9%A1%8C%20%E8%A9%95%E5%83%B9%20%E7%81%BD%E6%83%85",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-09-07T13:39:29.745Z",
+          "reviewerNote": "別名補充搜尋只見商品／耗材及品牌用途不符的噪音結果，無可核實本機使用者回報候選。"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "waterdispenser-waterspace-ws-uvn500",
+      "category": "waterdispenser",
+      "brand": "水空間",
+      "model": "WS-UVN500",
+      "name": "五層超濾淨水器（含 LED-UV 模組）",
+      "identity": {
+        "canonicalModel": "WS-UVN500",
+        "lookupLabel": "水空間 WS-UVN500",
+        "aliases": [
+          "水空間 WS-UVN500"
+        ],
+        "evidenceUrl": "https://www.3-heart.com.tw/product-219.html"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-09-07",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT",
+          "Dcard"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"WS-UVN500\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22WS-UVN500%22",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"WS-UVN500\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22WS-UVN500%22",
+            "targetHost": "ptt.cc"
+          },
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"WS-UVN500\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22WS-UVN500%22",
+            "targetHost": "dcard.tw"
+          }
+        ],
+        "candidateDisposition": "WS-UVN500：Mobile01、PTT、Dcard 的完整型號定站搜尋均無可辨識原始社群討論；問題、故障、漏水與評價補充查詢未找到本型號使用者回報候選。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "WS-UVN500：人工檢視三站完整型號搜尋及全網故障／漏水結果。命中主要為官方／通路規格、NSF 認證清單與 F01／F02 濾芯配件，均非使用者災情；jistgogo 商品結果明示尚未有任何評價，沒有作者原文可覆核。未為形式將商品或認證頁列為故障候選，採 no-candidate attestation。判定限公開可搜尋內容，不能推論所有使用者均無問題。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-09-07",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"WS-UVN500\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22WS-UVN500%22",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"WS-UVN500\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22WS-UVN500%22",
+            "targetHost": "ptt.cc"
+          },
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"WS-UVN500\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22WS-UVN500%22",
+            "targetHost": "dcard.tw"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Web Search（人工檢視）",
+          "query": "site:mobile01.com \"WS-UVN500\"",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22WS-UVN500%22",
+          "targetHost": "mobile01.com",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-09-07T13:39:29.745Z",
+          "reviewerNote": "已人工讀取 Mobile01 定站完整型號搜尋，本次沒有結果。"
+        },
+        {
+          "platform": "Web Search（人工檢視）",
+          "query": "site:ptt.cc \"WS-UVN500\"",
+          "searchUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22WS-UVN500%22",
+          "targetHost": "ptt.cc",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-09-07T13:39:29.745Z",
+          "reviewerNote": "已人工讀取 PTT 定站完整型號搜尋，本次沒有結果。"
+        },
+        {
+          "platform": "Web Search（人工檢視）",
+          "query": "site:dcard.tw \"WS-UVN500\"",
+          "searchUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22WS-UVN500%22",
+          "targetHost": "dcard.tw",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-09-07T13:39:29.745Z",
+          "reviewerNote": "已人工讀取 Dcard 定站完整型號搜尋，本次沒有結果。"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
     }
   ]
 }

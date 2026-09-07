@@ -1,13 +1,13 @@
 {
   "summary": {
-    "checkedAt": "2026-09-07T09:30:44.002Z",
-    "total": 1149,
-    "researchedThisRun": 2,
+    "checkedAt": "2026-09-07T13:44:24.903Z",
+    "total": 1152,
+    "researchedThisRun": 3,
     "found": 342,
-    "missing": 807,
+    "missing": 810,
     "byConfidence": {
       "official": 187,
-      "not_found": 804,
+      "not_found": 807,
       "retailer_explicit": 23,
       "credible_article": 52,
       "high": 64,
@@ -35311,6 +35311,106 @@
           "url": "https://www.energylabel.org.tw/purchasing/product/item.aspx?itemp0=73575",
           "title": "節能標章WDEE123HTW證書1150092",
           "outcome": "官方搜尋索引顯示認證日期；原頁逾時，認證日期不當上市日。"
+        }
+      ]
+    },
+    {
+      "category": "waterdispenser",
+      "brand": "水空間",
+      "id": "waterdispenser-waterspace-ws-rch601",
+      "model": "WS-RCH601",
+      "name": "RO 淨熱飲水機（六機合一）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"WS-RCH601\" 上市 發售 launch released",
+      "auditQueries": [
+        "\"WS-RCH601\" 上市 發售 launch released"
+      ],
+      "sourceKind": "not_found",
+      "reason": "已搜尋 exact model 的中英文上市／發售敘述並開啟官方及可信通路原頁；只確認規格及銷售狀態，未見明確上市／發售日期。2026 年 1 月夢時代 DM 只證明當期促銷，不能當上市日期。",
+      "checkedAt": "2026-09-07",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://waterspace.com.tw/product-81.html",
+          "title": "水空間官方｜WS-RCH601",
+          "outcome": "原頁核對 exact model；未見明確上市／發售日期。"
+        },
+        {
+          "url": "https://www.yushanwater.com.tw/products/ws_wsrch601",
+          "title": "玉山淨水｜WS-RCH601",
+          "outcome": "原頁確認完整設備與公開售價；未見明確上市／發售日期。"
+        }
+      ]
+    },
+    {
+      "category": "waterdispenser",
+      "brand": "水空間",
+      "id": "waterdispenser-waterspace-mino-r2",
+      "model": "WS-Min'O-R2",
+      "name": "Min'O R2 直出 RO 淨水器（黑色 LED 龍頭）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"Min'O R2\" 上市 發售 launch released",
+      "auditQueries": [
+        "\"Min'O R2\" 上市 發售 launch released",
+        "\"WS-Min'O-R2\" 上市 發售 launch released"
+      ],
+      "sourceKind": "not_found",
+      "reason": "已搜尋 exact model 的中英文上市／發售敘述並開啟官方及可信通路原頁；只確認規格及銷售狀態，未見明確上市／發售日期。不把圖片檔名、頁面日期、認證更新日或網站版權年份當上市日。",
+      "checkedAt": "2026-09-07",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://waterspace.com.tw/product-79.html",
+          "title": "水空間官方｜WS-Min'O-R2",
+          "outcome": "原頁核對 exact model；未見明確上市／發售日期。"
+        },
+        {
+          "url": "https://www.yushanwater.com.tw/products/ws_wsminor2_black",
+          "title": "玉山淨水｜WS-Min'O-R2",
+          "outcome": "原頁確認完整設備與公開售價；未見明確上市／發售日期。"
+        }
+      ]
+    },
+    {
+      "category": "waterdispenser",
+      "brand": "水空間",
+      "id": "waterdispenser-waterspace-ws-uvn500",
+      "model": "WS-UVN500",
+      "name": "五層超濾淨水器（含 LED-UV 模組）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"WS-UVN500\" 上市 發售 launch released",
+      "auditQueries": [
+        "\"WS-UVN500\" 上市 發售 launch released"
+      ],
+      "sourceKind": "not_found",
+      "reason": "已搜尋 exact model 的中英文上市／發售敘述並開啟官方及可信通路原頁；只確認規格及銷售狀態，未見明確上市／發售日期。不把圖片檔名、頁面日期、認證更新日或網站版權年份當上市日。",
+      "checkedAt": "2026-09-07",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://waterspace.com.tw/product-74.html",
+          "title": "水空間官方｜WS-UVN500",
+          "outcome": "原頁核對 exact model；未見明確上市／發售日期。"
+        },
+        {
+          "url": "https://www.3-heart.com.tw/product-219.html",
+          "title": "三心科技｜WS-UVN500",
+          "outcome": "原頁確認完整設備與公開售價；未見明確上市／發售日期。"
         }
       ]
     }

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 3,
   "dataDate": "2026-09-07",
-  "checkedAt": "2026-09-07T09:31:41.945Z",
-  "baselineRef": "d5a8acd046f8284a215b92ee831588e29176489a",
+  "checkedAt": "2026-09-07T13:44:24.903Z",
+  "baselineRef": "a7aa69438ad63a4e34402dc4ba4c55f65709a5d4",
   "policy": {
     "exactModelOrReviewedSourceBindingOnly": true,
     "trustedNewProductsOnly": true,
@@ -23,24 +23,25 @@
     ]
   },
   "summary": {
-    "baselineProducts": 1147,
-    "finalProducts": 1149,
+    "baselineProducts": 1149,
+    "finalProducts": 1152,
     "categories": 37,
     "minimumProductsPerCategory": 20,
     "newProductsAdded": [
-      "dehumidifier-whirlpool-wdee123htw",
-      "monitor-msi-mpg271qr-x50"
+      "waterdispenser-waterspace-ws-rch601",
+      "waterdispenser-waterspace-mino-r2",
+      "waterdispenser-waterspace-ws-uvn500"
     ],
     "catalogEntriesReplaced": [],
-    "priceChanges": 21,
-    "priceDrops": 7,
-    "priceRises": 14,
+    "priceChanges": 0,
+    "priceDrops": 0,
+    "priceRises": 0,
     "linkChanges": 0,
     "imageChanges": 0,
     "historicalLowChanges": 0,
     "historicalLowPriceChanges": 0,
-    "historicalFound": 508,
-    "historicalMissing": 641,
+    "historicalFound": 509,
+    "historicalMissing": 643,
     "pchomeAudited": 500,
     "pchomeExactModelVerified": 267,
     "pchomeReviewedBindingVerified": 65,
@@ -49,18 +50,18 @@
     "pchomeInvalidPrices": 0,
     "pchomeRequestFailures": 0,
     "pchomeOtherExceptions": 41,
-    "sourcesAudited": 1149,
-    "sourcesVerifiedAvailable": 839,
+    "sourcesAudited": 1152,
+    "sourcesVerifiedAvailable": 842,
     "sourcesModelUnverified": 165,
     "sourceExceptions": 310,
-    "imagesAudited": 1149,
+    "imagesAudited": 1152,
     "imageExceptions": 0,
-    "historicalSourcesAudited": 508,
-    "historicalSourcesVerified": 84,
+    "historicalSourcesAudited": 509,
+    "historicalSourcesVerified": 85,
     "historicalSourcesBlocked": 68,
     "historicalSourcesModelUnverified": 355,
     "historicalSourceExceptions": 424,
-    "foreignPricesRecomputed": 38,
+    "foreignPricesRecomputed": 0,
     "officialDiscontinuedCandidates": 0,
     "officialDiscontinuedPendingReview": 0,
     "officialDiscontinuedFalsePositives": 0,
@@ -78,7 +79,7 @@
     "HKD_TWD": 4.034151054639978,
     "KRW_TWD": 0.023490770129374824
   },
-  "categoryReviewProvenance": "mixed_current_and_carried_forward",
+  "categoryReviewProvenance": "same_date_carried_forward",
   "categoryScan": [
     {
       "category": "tv",
@@ -29207,485 +29208,11 @@
     }
   ],
   "changes": {
-    "prices": [
-      {
-        "id": "circulator-sharp-pk-18s03t",
-        "before": 5990,
-        "after": 4990,
-        "currency": "TWD",
-        "basis": "retailer_current",
-        "source": "https://www.momoshop.com.tw/product/15360868"
-      },
-      {
-        "id": "dishwasher-panasonic-np-k1ywhr2tw",
-        "before": 17800,
-        "after": 19900,
-        "currency": "TWD",
-        "basis": "not_stated",
-        "source": "https://24h.pchome.com.tw/prod/DMBR1P-A900I386D"
-      },
-      {
-        "id": "dryer-heran-hdm-0841",
-        "before": 7591,
-        "after": 7990,
-        "currency": "TWD",
-        "basis": "not_stated",
-        "source": "https://tw.buy.yahoo.com/gdsale/HERAN%E7%A6%BE%E8%81%AF-8KG-%E4%B9%BE%E8%A1%A3%E6%A9%9F-HDM-0841-11396347.html"
-      },
-      {
-        "id": "dryer-panasonic-nh-80rz-w",
-        "before": 9143,
-        "after": 9351,
-        "currency": "TWD",
-        "basis": "not_stated",
-        "source": "https://24h.pchome.com.tw/prod/DPAI1H-A900I7ZB7"
-      },
-      {
-        "id": "dryer-panasonic-nh-l70g-l",
-        "before": 8440,
-        "after": 8631,
-        "currency": "TWD",
-        "basis": "not_stated",
-        "source": "https://tw.buy.yahoo.com/gdsale/Panasonic%E5%9C%8B%E9%9A%9B%E7%89%8C-7%E5%85%AC%E6%96%A4-%E6%9E%B6%E4%B8%8A%E5%9E%8B%E4%B9%BE%E8%A1%A3%E6%A9%9F-NH-L70G-L-%E5%85%89%E6%9B%9C%E7%81%B0-9325579.html"
-      },
-      {
-        "id": "dryer-whirlpool-8twgd5620hw",
-        "before": 32850,
-        "after": 29950,
-        "currency": "TWD",
-        "basis": "retailer_current",
-        "source": "https://tw.buy.yahoo.com/gdsale/Whirlpool%E6%83%A0%E8%80%8C%E6%B5%A6-16%E5%85%AC%E6%96%A4-%E5%BF%AB%E7%83%98%E7%93%A6%E6%96%AF%E5%9E%8B%E6%BB%BE%E7%AD%92%E4%B9%BE%E8%A1%A3%E6%A9%9F-8TWGD5620HW-%E6%A1%B6%E8%A3%9D%E7%93%A6%E6%96%AF-10509173.html"
-      },
-      {
-        "id": "monitor-benq-pd2770u",
-        "before": 56893,
-        "after": 59888,
-        "currency": "TWD",
-        "basis": "retailer_current",
-        "source": "https://www.momoshop.com.tw/product/15221341"
-      },
-      {
-        "id": "refrigerator-panasonic-nr-c505xv-w",
-        "before": 35464,
-        "after": 36270,
-        "currency": "TWD",
-        "basis": "not_stated",
-        "source": "https://tw.buy.yahoo.com/gdsale/Panasonic%E5%9C%8B%E9%9A%9B%E7%89%8C-500%E5%85%AC%E5%8D%87%E4%B8%80%E7%B4%9A%E8%83%BD%E6%95%88%E4%B8%89%E9%96%80%E8%AE%8A%E9%A0%BB%E5%86%B0%E7%AE%B1%E9%9B%AA%E9%9C%A7%E7%99%BDNR-C505XV-W-11322787.html"
-      },
-      {
-        "id": "robot-irobot-plus-505",
-        "before": 13499,
-        "after": 13480,
-        "currency": "TWD",
-        "basis": "not_stated",
-        "source": "https://24h.pchome.com.tw/prod/DMBL0J-A900ITF7U"
-      },
-      {
-        "id": "smartlock-hitachi-fy10t",
-        "before": 36860,
-        "after": 36800,
-        "currency": "TWD",
-        "basis": "not_stated",
-        "source": "https://24h.pchome.com.tw/prod/DQBS4N-A900K2QWO"
-      },
-      {
-        "id": "soundbar-klipsch-flexus-core-100",
-        "before": 9399,
-        "after": 9999,
-        "currency": "TWD",
-        "basis": "retailer_current",
-        "source": "https://www.momoshop.com.tw/product/12737009"
-      },
-      {
-        "id": "standingdesk-costco-loctek-et200",
-        "before": 8999,
-        "after": 7199,
-        "currency": "TWD",
-        "basis": "not_stated",
-        "source": "https://www.costco.com.tw/Furniture-Kitchen/Furniture/Computer-Desk-Chair-Sets/Loctek-Adjustable-Desk-ET200-White/p/141578"
-      },
-      {
-        "id": "tv-extra-6-dpad06-a900hlbjo",
-        "before": 84510,
-        "after": 93900,
-        "currency": "TWD",
-        "basis": "not_stated",
-        "source": "https://24h.pchome.com.tw/prod/DPAD06-A900HLBJO"
-      },
-      {
-        "id": "washer-heran-hwm-0691",
-        "before": 5691,
-        "after": 5990,
-        "currency": "TWD",
-        "basis": "not_stated",
-        "source": "https://tw.buy.yahoo.com/gdsale/HERAN%E7%A6%BE%E8%81%AF-6-5KG%E5%85%A8%E8%87%AA%E5%8B%95%E6%B4%97%E8%A1%A3%E6%A9%9F-HWM-0691-10425979.html"
-      },
-      {
-        "id": "washer-panasonic-na-90eb-w",
-        "before": 8712,
-        "after": 8910,
-        "currency": "TWD",
-        "basis": "not_stated",
-        "source": "https://24h.pchome.com.tw/prod/DPAI1H-A900ALPGU"
-      },
-      {
-        "id": "washer-panasonic-na-v150nm-pn",
-        "before": 20152,
-        "after": 20610,
-        "currency": "TWD",
-        "basis": "not_stated",
-        "source": "https://24h.pchome.com.tw/prod/DPAI1H-A900GMG8F"
-      },
-      {
-        "id": "washerdryer-panasonic-na-sd10tb",
-        "before": 39512,
-        "after": 44900,
-        "currency": "TWD",
-        "basis": "not_stated",
-        "source": "https://24h.pchome.com.tw/prod/DPAI1H-A900JXCDB"
-      },
-      {
-        "id": "washerdryer-panasonic-na-v170mdh-w",
-        "before": 43032,
-        "after": 44010,
-        "currency": "TWD",
-        "basis": "not_stated",
-        "source": "https://tw.buy.yahoo.com/gdsale/Panasonic%E5%9C%8B%E9%9A%9B%E7%89%8C-17%E5%85%AC%E6%96%A4-%E8%AE%8A%E9%A0%BB%E6%BA%AB%E6%B0%B4%E6%B4%97%E8%84%AB%E7%83%98%E6%BB%BE%E7%AD%92%E6%B4%97%E8%A1%A3%E6%A9%9F-%E6%99%B6%E9%91%BD%E7%99%BD-NA-V170MDH-W-10287718.html"
-      },
-      {
-        "id": "washerdryer-whirlpool-8twfc6820lw",
-        "before": 44910,
-        "after": 43900,
-        "currency": "TWD",
-        "basis": "retailer_current",
-        "source": "https://tw.buy.yahoo.com/gdsale/%E6%83%A0%E8%80%8C%E6%B5%A6Whirlpool-8TWFC6820LW-17-10kg-%E6%BB%BE%E7%AD%92%E6%B4%97%E8%A1%A3%E6%A9%9F-%E6%B4%97%E8%84%AB%E7%83%98-10053955.html"
-      },
-      {
-        "id": "waterdispenser-extra-20-dmawb8a900bveog",
-        "before": 21620,
-        "after": 23500,
-        "currency": "TWD",
-        "basis": "not_stated",
-        "source": "https://tw.buy.yahoo.com/gdsale/BWT%E5%BE%B7%E5%9C%8B%E5%80%8D%E4%B8%96-%E6%99%BA%E6%85%A7%E5%9E%8B%E6%AB%A5%E4%B8%8B%E5%8A%A0%E7%86%B1%E5%99%A8-DWH30A-9802406.html"
-      },
-      {
-        "id": "waterdispenser-philips-aut7005",
-        "before": 32220,
-        "after": 32000,
-        "currency": "TWD",
-        "basis": "retailer_current",
-        "source": "https://24h.pchome.com.tw/prod/DMAC6R-A900IUC3J"
-      }
-    ],
+    "prices": [],
     "links": [],
     "images": [],
     "historicalLows": [],
-    "foreignConversions": [
-      {
-        "id": "bidet-costco-us-brondell-cl1700",
-        "currency": "USD",
-        "amount": 383.99,
-        "before": 12146,
-        "after": 12146,
-        "rate": 31.631847
-      },
-      {
-        "id": "blender-ninja-bn701",
-        "currency": "USD",
-        "amount": 99.98,
-        "before": 3163,
-        "after": 3163,
-        "rate": 31.631847
-      },
-      {
-        "id": "garmentcare-lg-sc5gmr80h",
-        "currency": "USD",
-        "amount": 2199,
-        "before": 69558,
-        "after": 69558,
-        "rate": 31.631847
-      },
-      {
-        "id": "garmentcare-lg-sc5mar4g",
-        "currency": "USD",
-        "amount": 1799,
-        "before": 56906,
-        "after": 56906,
-        "rate": 31.631847
-      },
-      {
-        "id": "garmentcare-lg-s3mfbn",
-        "currency": "USD",
-        "amount": 1699,
-        "before": 53743,
-        "after": 53743,
-        "rate": 31.631847
-      },
-      {
-        "id": "garmentcare-lg-s3wfbn",
-        "currency": "USD",
-        "amount": 1499,
-        "before": 47416,
-        "after": 47416,
-        "rate": 31.631847
-      },
-      {
-        "id": "garmentcare-lg-s3rfbn",
-        "currency": "USD",
-        "amount": 1499,
-        "before": 47416,
-        "after": 47416,
-        "rate": 31.631847
-      },
-      {
-        "id": "garmentcare-samsung-df90h24r5c",
-        "currency": "KRW",
-        "amount": 2443730,
-        "before": 57405,
-        "after": 57405,
-        "rate": 0.023490770129374824
-      },
-      {
-        "id": "garmentcare-samsung-df90h24r4d",
-        "currency": "KRW",
-        "amount": 2172430,
-        "before": 51032,
-        "after": 51032,
-        "rate": 0.023490770129374824
-      },
-      {
-        "id": "garmentcare-samsung-df90h24r4p",
-        "currency": "KRW",
-        "amount": 2203310,
-        "before": 51757,
-        "after": 51757,
-        "rate": 0.023490770129374824
-      },
-      {
-        "id": "garmentcare-samsung-df90h24r4b",
-        "currency": "KRW",
-        "amount": 2017980,
-        "before": 47404,
-        "after": 47404,
-        "rate": 0.023490770129374824
-      },
-      {
-        "id": "garmentcare-samsung-df80h24r1c",
-        "currency": "KRW",
-        "amount": 2018400,
-        "before": 47414,
-        "after": 47414,
-        "rate": 0.023490770129374824
-      },
-      {
-        "id": "garmentcare-samsung-df80h24r1d",
-        "currency": "KRW",
-        "amount": 1791170,
-        "before": 42076,
-        "after": 42076,
-        "rate": 0.023490770129374824
-      },
-      {
-        "id": "garmentcare-panasonic-hcc-r600al-x",
-        "currency": "JPY",
-        "amount": 328680,
-        "before": 66570,
-        "after": 66570,
-        "rate": 0.20253843249695694
-      },
-      {
-        "id": "monitor-light-yeelight-yltd003",
-        "currency": "USD",
-        "amount": 103.99,
-        "before": 3289,
-        "after": 3289,
-        "rate": 31.631847
-      },
-      {
-        "id": "monitor-light-quntis-f51bk",
-        "currency": "USD",
-        "amount": 79.99,
-        "before": 2530,
-        "after": 2530,
-        "rate": 31.631847
-      },
-      {
-        "id": "monitor-light-quntis-fr52gy",
-        "currency": "USD",
-        "amount": 75.99,
-        "before": 2404,
-        "after": 2404,
-        "rate": 31.631847
-      },
-      {
-        "id": "monitor-light-quntis-f45bk",
-        "currency": "USD",
-        "amount": 72.99,
-        "before": 2309,
-        "after": 2309,
-        "rate": 31.631847
-      },
-      {
-        "id": "monitor-light-quntis-i51gy",
-        "currency": "USD",
-        "amount": 66.99,
-        "before": 2119,
-        "after": 2119,
-        "rate": 31.631847
-      },
-      {
-        "id": "monitor-light-quntis-g66bk",
-        "currency": "USD",
-        "amount": 75.99,
-        "before": 2404,
-        "after": 2404,
-        "rate": 31.631847
-      },
-      {
-        "id": "monitor-light-quntis-i66bk",
-        "currency": "USD",
-        "amount": 75.99,
-        "before": 2404,
-        "after": 2404,
-        "rate": 31.631847
-      },
-      {
-        "id": "monitor-light-quntis-ims45bk",
-        "currency": "USD",
-        "amount": 79.99,
-        "before": 2530,
-        "after": 2530,
-        "rate": 31.631847
-      },
-      {
-        "id": "oven-breville-joule",
-        "currency": "USD",
-        "amount": 499.95,
-        "before": 15814,
-        "after": 15814,
-        "rate": 31.631847
-      },
-      {
-        "id": "oven-ninja-crispi-mw101",
-        "currency": "USD",
-        "amount": 399.99,
-        "before": 12652,
-        "after": 12652,
-        "rate": 31.631847
-      },
-      {
-        "id": "robot-narwal-flow-2",
-        "currency": "EUR",
-        "amount": 1299,
-        "before": 47719,
-        "after": 47719,
-        "rate": 36.73542630581415
-      },
-      {
-        "id": "robot-narwal-freo-z10-ultra",
-        "currency": "USD",
-        "amount": 551.69,
-        "before": 17451,
-        "after": 17451,
-        "rate": 31.631847
-      },
-      {
-        "id": "robot-shark-powerdetect-nevertouch-pro",
-        "currency": "USD",
-        "amount": 999.99,
-        "before": 31632,
-        "after": 31632,
-        "rate": 31.631847
-      },
-      {
-        "id": "robot-costco-us-roborock-qx-revo",
-        "currency": "USD",
-        "amount": 399.99,
-        "before": 12652,
-        "after": 12652,
-        "rate": 31.631847
-      },
-      {
-        "id": "smartlock-lockin-v7-max",
-        "currency": "HKD",
-        "amount": 9638,
-        "before": 38881,
-        "after": 38881,
-        "rate": 4.034151054639978
-      },
-      {
-        "id": "soundbar-marshall-heston-120",
-        "currency": "USD",
-        "amount": 1299.99,
-        "before": 41121,
-        "after": 41121,
-        "rate": 31.631847
-      },
-      {
-        "id": "soundbar-marshall-heston-60",
-        "currency": "USD",
-        "amount": 549.99,
-        "before": 17397,
-        "after": 17397,
-        "rate": 31.631847
-      },
-      {
-        "id": "vacuum-dreame-aero-ultra-steam",
-        "currency": "USD",
-        "amount": 679.99,
-        "before": 21509,
-        "after": 21509,
-        "rate": 31.631847
-      },
-      {
-        "id": "waterdispenser-costco-us-brondell-circle",
-        "currency": "USD",
-        "amount": 359.99,
-        "before": 11387,
-        "after": 11387,
-        "rate": 31.631847
-      },
-      {
-        "id": "wifi-unifi-u7-pro",
-        "currency": "USD",
-        "amount": 189,
-        "before": 5978,
-        "after": 5978,
-        "rate": 31.631847
-      },
-      {
-        "id": "wifi-unifi-u6-pro",
-        "currency": "USD",
-        "amount": 159,
-        "before": 5029,
-        "after": 5029,
-        "rate": 31.631847
-      },
-      {
-        "id": "wifi-unifi-u7-lite",
-        "currency": "USD",
-        "amount": 99,
-        "before": 3132,
-        "after": 3132,
-        "rate": 31.631847
-      },
-      {
-        "id": "wifi-unifi-u6-plus",
-        "currency": "USD",
-        "amount": 129,
-        "before": 4081,
-        "after": 4081,
-        "rate": 31.631847
-      },
-      {
-        "id": "wifi-unifi-u7-pro-max",
-        "currency": "USD",
-        "amount": 279,
-        "before": 8825,
-        "after": 8825,
-        "rate": 31.631847
-      }
-    ]
+    "foreignConversions": []
   },
   "sourceAudit": {
     "checkedProductIds": [
@@ -30837,7 +30364,10 @@
       "wifi-unifi-u7-pro-xg",
       "wifi-xiaomi-ax3000-1pack",
       "wifi-xiaomi-ax3000-2pack",
-      "wifi-zyxel-usg-lite-60ax"
+      "wifi-zyxel-usg-lite-60ax",
+      "waterdispenser-waterspace-ws-rch601",
+      "waterdispenser-waterspace-mino-r2",
+      "waterdispenser-waterspace-ws-uvn500"
     ],
     "verifiedAvailableIds": [
       "aircon-daikin-ftxm36zvlt-rxm36zvlt",
@@ -31678,7 +31208,10 @@
       "wifi-unifi-u7-pro",
       "wifi-unifi-u7-pro-max",
       "wifi-unifi-u7-pro-xg",
-      "wifi-zyxel-usg-lite-60ax"
+      "wifi-zyxel-usg-lite-60ax",
+      "waterdispenser-waterspace-ws-rch601",
+      "waterdispenser-waterspace-mino-r2",
+      "waterdispenser-waterspace-ws-uvn500"
     ],
     "exceptions": [
       {
@@ -36169,7 +35702,10 @@
       "wifi-unifi-u7-pro-xg",
       "wifi-xiaomi-ax3000-1pack",
       "wifi-xiaomi-ax3000-2pack",
-      "wifi-zyxel-usg-lite-60ax"
+      "wifi-zyxel-usg-lite-60ax",
+      "waterdispenser-waterspace-ws-rch601",
+      "waterdispenser-waterspace-mino-r2",
+      "waterdispenser-waterspace-ws-uvn500"
     ],
     "verifiedIds": [
       "aircon-daikin-ftxm36zvlt-rxm36zvlt",
@@ -37320,7 +36856,10 @@
       "wifi-unifi-u7-pro-xg",
       "wifi-xiaomi-ax3000-1pack",
       "wifi-xiaomi-ax3000-2pack",
-      "wifi-zyxel-usg-lite-60ax"
+      "wifi-zyxel-usg-lite-60ax",
+      "waterdispenser-waterspace-ws-rch601",
+      "waterdispenser-waterspace-mino-r2",
+      "waterdispenser-waterspace-ws-uvn500"
     ],
     "exceptions": []
   },
@@ -37833,7 +37372,8 @@
       "wifi-tplink-deco-be77",
       "wifi-xiaomi-ax3000-1pack",
       "wifi-xiaomi-ax3000-2pack",
-      "wifi-zyxel-usg-lite-60ax"
+      "wifi-zyxel-usg-lite-60ax",
+      "waterdispenser-waterspace-ws-rch601"
     ],
     "verifiedIds": [
       "ap-dyson-hj10",
@@ -37919,7 +37459,8 @@
       "washerdryer-sampo-es-nd10dh",
       "washerdryer-sanlux-awd-1390ha",
       "wifi-costco-tplink-archer-be3600",
-      "wifi-tplink-archer-be600"
+      "wifi-tplink-archer-be600",
+      "waterdispenser-waterspace-ws-rch601"
     ],
     "exceptions": [
       {
@@ -40741,6 +40282,274 @@
         "節能標章原頁逾時，規格主證採Whirlpool原廠，證書日期未拿來補上市日。",
         "WDEE123HTW保留no_common_issue門檻判斷及真實個別負評，不把同站7個不同問題湊成災情。"
       ]
+    },
+    {
+      "id": "waterdispenser-waterspace-ws-rch601",
+      "model": "WS-RCH601",
+      "checkedAt": "2026-09-07",
+      "sourceVerified": true,
+      "imageVerified": true,
+      "sourceUrls": [
+        "https://waterspace.com.tw/product-81.html",
+        "https://www.yushanwater.com.tw/products/ws_wsrch601",
+        "https://www.yushan-water.com.tw/product-detail-4047624.html",
+        "https://waterspace.com.tw/uploads/water/images/202512311633581800.jpg",
+        "https://waterspace.com.tw/uploads/product/202512/560_560/20251231163427d262.jpg",
+        "https://www.fusanwater.com/product-316.html",
+        "https://www.3-heart.com.tw/product-354.html",
+        "https://www.dreammall.com.tw/files/DM/2026BeautyNewYear.pdf#page=12"
+      ],
+      "priceAndAvailability": {
+        "sourceUrl": "https://www.yushanwater.com.tw/products/ws_wsrch601",
+        "sourceTitle": "玉山淨水｜水空間 WS-RCH601",
+        "evidenceSnippet": "WS-RCH601：NT$28800；直接購買／加入購物車。",
+        "checkedAt": "2026-09-07",
+        "installationSourceUrl": "https://www.yushan-water.com.tw/product-detail-4047624.html",
+        "installationEvidenceSnippet": "售價(含基本安裝、濾芯)：NT $32800 $28800",
+        "amount": 28800,
+        "currency": "TWD",
+        "basis": "retailer_current",
+        "method": "人工覆核原始通路頁；主商品價格、完整型號及可購買狀態分別核對。"
+      },
+      "installation": {
+        "status": "included_basic",
+        "note": "玉山淨水同型號頁明示售價含基本安裝與濾芯；超出標準施工的檯面鑽孔、管線修改及服務地區需另確認。",
+        "sourceUrl": "https://www.yushan-water.com.tw/product-detail-4047624.html",
+        "evidenceSnippet": "售價(含基本安裝、濾芯)：NT $32800 $28800"
+      },
+      "alternatePrices": [
+        {
+          "url": "https://www.fusanwater.com/product-316.html",
+          "amount": 28800,
+          "outcome": "富山品牌通路公開優惠價；按鈕為立即詢價，未提供庫存數量或基本安裝明示。"
+        },
+        {
+          "url": "https://www.3-heart.com.tw/product-354.html",
+          "amount": 29800,
+          "outcome": "三心品牌通路原頁公開優惠價與庫存 5；未明示本品基本安裝是否包含。"
+        }
+      ],
+      "imageEvidence": {
+        "sourceUrl": "https://waterspace.com.tw/product-81.html",
+        "imageUrl": "https://waterspace.com.tw/uploads/product/202512/560_560/20251231163427d262.jpg",
+        "httpStatus": 200,
+        "naturalWidth": 560,
+        "visualReviewed": true,
+        "method": "主代理以 Chrome 核對官方 exact-model 原頁及主商品圖，確認圖片載入成功。"
+      },
+      "specificationEvidence": {
+        "sourceUrl": "https://waterspace.com.tw/product-81.html",
+        "specificationImage": "https://waterspace.com.tw/uploads/water/images/202512311633581800.jpg",
+        "visualReviewed": true,
+        "specs": [
+          "類型：櫥下 RO 淨水與儲熱一體機；無冰水功能",
+          "過濾：600G RO；WS-RCH601-MRO 複合濾芯，單芯五層過濾",
+          "溫控：常溫、45、55、65、75、85、95°C 七段；316 不鏽鋼熱膽 2.1L",
+          "流量：常溫水 1.58L/min、95°C 熱水 1.4L/min（官方規格值）",
+          "控制：觸控龍頭、濾芯更換與水質提示燈；側抽換芯",
+          "尺寸：寬 17 x 深 45 x 高 43.65 cm（依官方深×寬×高換序）",
+          "重量：查不到",
+          "電源：110V；頻率與額定功率未標示，安裝前確認機身銘牌與迴路",
+          "耗材：WS-RCH601-MRO；官方參考壽命約 12–18 個月，依水質及用量調整",
+          "安裝：需櫥下空間、龍頭孔位、進水、RO 排水與電源；另預留側面抽芯空間"
+        ],
+        "method": "主代理以 Chrome 逐欄閱讀官方規格圖；保留原圖明示的尺寸軸序及已知缺口。"
+      },
+      "historicalReview": {
+        "status": "found",
+        "amount": 28800,
+        "currency": "TWD",
+        "converted": 28800,
+        "sourceUrl": "https://www.dreammall.com.tw/files/DM/2026BeautyNewYear.pdf#page=12",
+        "sourceTitle": "夢時代 2026 美麗迎新春 DM｜三心科技 WS-RCH601",
+        "evidenceSnippet": "夢時代B2 三心科技 水空間 RO淨熱飲水機 WS-RCH601；原價32,800元，特價28,800元。",
+        "sourceKind": "retailer_promo",
+        "confidence": "high",
+        "checkedAt": "2026-09-07",
+        "note": "已下載夢時代官方 2026 年 1 月 DM 並人工核對 PDF 第 12 頁（印刷頁碼 11）；NT$28,800 為獨立商品特價，未扣滿額贈券、信用卡或會員回饋。本次找到的最低可信新品歷史記錄，非宣稱全市場絕對最低；DM 未明示基本安裝邊界。"
+      },
+      "limitations": [
+        "已搜尋 exact model 的中英文上市／發售敘述並開啟官方及可信通路原頁；只確認規格及銷售狀態，未見明確上市／發售日期。2026 年 1 月夢時代 DM 只證明當期促銷，不能當上市日期。",
+        "110V；官方規格圖未明示頻率與額定功率，依機身銘牌及安裝商確認專用迴路與接地",
+        "台灣玉山淨水提供購買與售後窗口；原廠保固年限未標示，請於下單前書面確認，濾芯耗材另計"
+      ],
+      "name": "RO 淨熱飲水機（六機合一）"
+    },
+    {
+      "id": "waterdispenser-waterspace-mino-r2",
+      "model": "WS-Min'O-R2",
+      "checkedAt": "2026-09-07",
+      "sourceVerified": true,
+      "imageVerified": true,
+      "sourceUrls": [
+        "https://waterspace.com.tw/product-79.html",
+        "https://www.yushanwater.com.tw/products/ws_wsminor2_black",
+        "https://www.yushan-water.com.tw/product-detail-3831092.html",
+        "https://waterspace.com.tw/uploads/water/images/202408281314224646.jpg",
+        "https://waterspace.com.tw/uploads/product/202310/560_560/20251231152558d212.jpg",
+        "https://www.fusanwater.com/product-210.html",
+        "https://www.3-heart.com.tw/product-222.html"
+      ],
+      "priceAndAvailability": {
+        "sourceUrl": "https://www.yushanwater.com.tw/products/ws_wsminor2_black",
+        "sourceTitle": "玉山淨水｜水空間 WS-Min'O-R2",
+        "evidenceSnippet": "WS-Min'O-R2 黑色龍頭：NT$18800；直接購買／加入購物車。",
+        "checkedAt": "2026-09-07",
+        "installationSourceUrl": "https://www.yushan-water.com.tw/product-detail-3831092.html",
+        "installationEvidenceSnippet": "售價(含基本安裝)：黑色龍頭款 NT $18800",
+        "amount": 18800,
+        "currency": "TWD",
+        "basis": "retailer_current",
+        "method": "人工覆核原始通路頁；主商品價格、完整型號及可購買狀態分別核對。"
+      },
+      "installation": {
+        "status": "included_basic",
+        "note": "玉山淨水黑色 LED 換芯提醒龍頭款，售價含基本安裝；檯面鑽孔、管線修改及服務地區需另確認。",
+        "sourceUrl": "https://www.yushan-water.com.tw/product-detail-3831092.html",
+        "evidenceSnippet": "售價(含基本安裝)：黑色龍頭款 NT $18800"
+      },
+      "alternatePrices": [
+        {
+          "url": "https://www.fusanwater.com/product-210.html",
+          "amount": 17000,
+          "outcome": "富山原頁公開優惠價與含基本安裝規格；按鈕為立即詢價且庫存未標示，保留較低價待確認候選，不宣稱可立即買到。"
+        },
+        {
+          "url": "https://www.3-heart.com.tw/product-222.html",
+          "amount": 17000,
+          "outcome": "三心原頁明示已售罄，排除為可購買現價。"
+        }
+      ],
+      "imageEvidence": {
+        "sourceUrl": "https://waterspace.com.tw/product-79.html",
+        "imageUrl": "https://waterspace.com.tw/uploads/product/202310/560_560/20251231152558d212.jpg",
+        "httpStatus": 200,
+        "naturalWidth": 560,
+        "visualReviewed": true,
+        "method": "主代理以 Chrome 核對官方 exact-model 原頁及主商品圖，確認圖片載入成功。"
+      },
+      "specificationEvidence": {
+        "sourceUrl": "https://waterspace.com.tw/product-79.html",
+        "specificationImage": "https://waterspace.com.tw/uploads/water/images/202408281314224646.jpg",
+        "visualReviewed": true,
+        "specs": [
+          "類型：櫥下無儲水桶直出 RO 淨水器；提供常溫淨水，沒有加熱或製冷",
+          "過濾：第一道 PCB 複合活性碳＋PP，第二道 RO 膜",
+          "製水：600 加侖/日；淨水流速 1400–1600mL/min（官方規格值）",
+          "尺寸：長 12.4 x 寬 27.3 x 高 38.2 cm（保留官方長／寬／高軸序）",
+          "重量：約 5.5 kg（官方淨重）",
+          "用水：進水水溫 5–40°C；適用水壓 2–5kg（官方原文，單位未完整標示）",
+          "電源：110V；頻率與功率未標示",
+          "龍頭：本次價格採黑色 LED 龍頭配置；其他龍頭版本依通路另行確認",
+          "耗材：兩道快拆濾芯；台灣製造，需確認專用濾芯費用與更換週期",
+          "安裝：需進水、RO 排水、插座、龍頭孔位及下方換芯空間"
+        ],
+        "method": "主代理以 Chrome 逐欄閱讀官方規格圖；保留原圖明示的尺寸軸序及已知缺口。"
+      },
+      "historicalReview": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-07",
+        "note": "已查富山／三心／玉山 exact-model 完整新品頁、FindPrice 與飛比 exact-model 價格查詢；三心 NT$17,000 已售罄，富山 NT$17,000 僅詢價且庫存待確認，玉山黑色 LED 龍頭 NT$18,800 為現價；飛比的富山 NT$19,800 無具日期歷史低點。因此維持 not_found，不以現價推定史低；耗材與配件價格已排除。"
+      },
+      "limitations": [
+        "已搜尋 exact model 的中英文上市／發售敘述並開啟官方及可信通路原頁；只確認規格及銷售狀態，未見明確上市／發售日期。不把圖片檔名、頁面日期、認證更新日或網站版權年份當上市日。",
+        "110V；官方規格未明示頻率與額定功率，安裝前確認適用插座及銘牌",
+        "台灣玉山淨水提供購買與售後窗口；保固年限未標示，需書面確認原廠條款，濾芯耗材另計",
+        "已查富山／三心／玉山 exact-model 完整新品頁、FindPrice 與飛比 exact-model 價格查詢；三心 NT$17,000 已售罄，富山 NT$17,000 僅詢價且庫存待確認，玉山黑色 LED 龍頭 NT$18,800 為現價；飛比的富山 NT$19,800 無具日期歷史低點。因此維持 not_found，不以現價推定史低；耗材與配件價格已排除。"
+      ],
+      "name": "Min'O R2 直出 RO 淨水器（黑色 LED 龍頭）"
+    },
+    {
+      "id": "waterdispenser-waterspace-ws-uvn500",
+      "model": "WS-UVN500",
+      "checkedAt": "2026-09-07",
+      "sourceVerified": true,
+      "imageVerified": true,
+      "sourceUrls": [
+        "https://waterspace.com.tw/product-74.html",
+        "https://www.3-heart.com.tw/product-219.html",
+        "https://waterspace.com.tw/uploads/water/images/202309190825299964.jpg",
+        "https://waterspace.com.tw/uploads/product/202309/560_560/20251231153127d224.jpg",
+        "https://www.fusanwater.com/product-207.html"
+      ],
+      "priceAndAvailability": {
+        "sourceUrl": "https://www.3-heart.com.tw/product-219.html",
+        "sourceTitle": "三心科技｜水空間 WS-UVN500",
+        "evidenceSnippet": "WS-UVN500 優惠價：22800；庫存：5；WS-UVN500-免運含基本安裝。",
+        "checkedAt": "2026-09-07",
+        "installationSourceUrl": "https://www.3-heart.com.tw/product-219.html",
+        "installationEvidenceSnippet": "WS-UVN500-免運含基本安裝",
+        "amount": 22800,
+        "currency": "TWD",
+        "basis": "retailer_current",
+        "method": "人工覆核原始通路頁；主商品價格、完整型號及可購買狀態分別核對。"
+      },
+      "installation": {
+        "status": "included_basic",
+        "note": "三心科技本款規格明示免運含基本安裝；檯面鑽孔、管線修改及特殊施工費用須另確認。",
+        "sourceUrl": "https://www.3-heart.com.tw/product-219.html",
+        "evidenceSnippet": "WS-UVN500-免運含基本安裝"
+      },
+      "alternatePrices": [
+        {
+          "url": "https://www.fusanwater.com/product-207.html",
+          "amount": 22800,
+          "outcome": "富山同價且規格明示含基本安裝，按鈕為立即詢價、庫存未標示。"
+        }
+      ],
+      "imageEvidence": {
+        "sourceUrl": "https://waterspace.com.tw/product-74.html",
+        "imageUrl": "https://waterspace.com.tw/uploads/product/202309/560_560/20251231153127d224.jpg",
+        "httpStatus": 200,
+        "naturalWidth": 560,
+        "visualReviewed": true,
+        "method": "主代理以 Chrome 核對官方 exact-model 原頁及主商品圖，確認圖片載入成功。"
+      },
+      "specificationEvidence": {
+        "sourceUrl": "https://waterspace.com.tw/product-74.html",
+        "specificationImage": "https://waterspace.com.tw/uploads/water/images/202309190825299964.jpg",
+        "visualReviewed": true,
+        "specs": [
+          "類型：櫥下超濾淨水器；提供常溫淨水，沒有加熱或製冷",
+          "過濾：兩道濾芯＋LED-UV 模組，包含無鈉樹脂、複合中空絲膜與 UV 處理",
+          "流量：0.5 加侖/分鐘，依進水壓力而定；總淨水量 6000L，依水質硬度與用量調整",
+          "尺寸：長 27.5 x 寬 13 x 高 38.5 cm（保留官方長／寬／高軸序）",
+          "重量：約 2.8 kg（官方淨重）",
+          "進水：壓力 3–5kg（官方原文，單位未完整標示）",
+          "電源：110–220V；LED-UV 模組需供電，頻率與功率未標示",
+          "耗材：WS-UVN500-F01、WS-UVN500-F02、WS-UVN500-LED03，需分別確認更換週期與費用",
+          "安裝：需龍頭孔位、進水及供電；無 RO 膜，不能把超濾規格當成 RO 除鹽能力"
+        ],
+        "method": "主代理以 Chrome 逐欄閱讀官方規格圖；保留原圖明示的尺寸軸序及已知缺口。"
+      },
+      "historicalReview": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-07",
+        "note": "已查富山／三心 exact-model 完整新品頁、FindPrice 與飛比的價格查詢及原始比價候選；NT$22,800 只確認本次通路／比價價格，沒有可重現的具日期歷史低點。因此維持 not_found，不以現價推定史低；耗材與配件價格已排除。"
+      },
+      "limitations": [
+        "已搜尋 exact model 的中英文上市／發售敘述並開啟官方及可信通路原頁；只確認規格及銷售狀態，未見明確上市／發售日期。不把圖片檔名、頁面日期、認證更新日或網站版權年份當上市日。",
+        "110–220V；LED-UV 模組需供電，官方未標頻率與功率，請安裝商確認變壓器與插座",
+        "水空間官方列出的三心科技提供台灣安裝、保固維修與保養窗口；年限未標示，依書面保固條款，濾芯耗材另計",
+        "已查富山／三心 exact-model 完整新品頁、FindPrice 與飛比的價格查詢及原始比價候選；NT$22,800 只確認本次通路／比價價格，沒有可重現的具日期歷史低點。因此維持 not_found，不以現價推定史低；耗材與配件價格已排除。"
+      ],
+      "name": "五層超濾淨水器（含 LED-UV 模組）"
     }
   ],
   "imageRechecks": [
@@ -41693,10 +41502,12 @@
     }
   ],
   "auditLimitations": [
+    "本次僅新增水空間3款：waterdispenser-waterspace-ws-rch601、waterdispenser-waterspace-mino-r2、waterdispenser-waterspace-ws-uvn500；基準a7aa69438ad63a4e34402dc4ba4c55f65709a5d4的1149筆商品、37類覆核、333格日系品牌盤點、來源／圖片／史低確認及例外逐列原樣承接；以下既有查核限制與先前newProductEvidence保留原文及日期，描述的是基準查核，不代表本次重查。",
     "本輪以當日上午已發布1147筆為固定基準，下午全量重查1149筆價格來源、圖片、508筆已成立史低來源及同批匯率；更新21筆價格並新增2筆，不把來源阻擋或缺貨當作停產。",
     "37類與9日系品牌的官方目錄邊界及具名候選於下午另有實讀紀錄；上午逐款modelGenerationReview與原始覆核時間保留。分類已有合格品牌不表示每款後繼映射已確認，下午未宣稱再次完成所有1147款逐型號世代比對。",
     "原1147筆上市與負評研究、386筆逐人證據保留原值與真實日期；只有新增2款完成本輪逐型號跨站人工負評研究。MSI海外同名SKU規格映射未確認，史低採台灣原價屋23900元。",
     "Tapo RV30 Max Plus原頁僅到貨通知；Quntis FR52GY較低價標9/30交貨。兩者以實際可見狀態覆蓋自動InStock判斷，保留原參考價。",
     "史低來源本次有阻擋、動態內容與型號無法自動重現；例外均保留原逐筆證據，不自動宣告史低失效。EGEO250圖片曾回404，後以同網址HTTP200及實際解碼覆核，不需更換來源。"
-  ]
+  ],
+  "auditScope": "added_products_only"
 }

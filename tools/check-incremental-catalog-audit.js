@@ -105,6 +105,34 @@ function researchMergeFixture({ newCommonIssue = false } = {}) {
 
 function checkIncrementalCatalogAudit() {
   assert.deepEqual(assertIncrementalBaselinePreserved(fixture()).addedIds, ["added"]);
+  const sameCategory = fixture();
+  sameCategory.catalog.categories = clone(sameCategory.baseline.categories);
+  sameCategory.catalog.products[1].category = "tv";
+  sameCategory.report.summary.categories = 1;
+  Object.assign(sameCategory.baseline.report.categoryScan[0], { finalProductCount: 1, minimumSatisfied: false });
+  sameCategory.report.categoryScan = clone(sameCategory.baseline.report.categoryScan);
+  const validatorModule = { exports: {} };
+  vm.runInNewContext(fs.readFileSync(path.join(__dirname, "verify-data.js"), "utf8"), {
+    module: validatorModule, URL,
+    require: (name) => name === "./incremental-catalog-audit"
+      ? { ...require(name), loadIncrementalBaseline: () => sameCategory.baseline, readEvidenceDocuments: () => sameCategory.documents }
+      : require(name),
+  });
+  const validateCategoryCount = (report) => {
+    const failures = [];
+    const incremental = validatorModule.exports.validateMaintenanceReport(
+      path.resolve(__dirname, ".."), sameCategory.catalog.categories, sameCategory.catalog.products,
+      report.dataDate, sameCategory.catalog.exchange, failures, report,
+    );
+    return { incremental, failures };
+  };
+  const sameCategoryResult = validateCategoryCount(sameCategory.report);
+  assert(sameCategoryResult.incremental, "same-category additions must retain valid baseline preservation");
+  assert(!sameCategoryResult.failures.some((failure) => failure.includes("maintenance scan product count")),
+    "same-category additions retain the count that was actually reviewed in the baseline");
+  assert(validateCategoryCount({ ...sameCategory.report, auditScope: undefined }).failures
+    .some((failure) => failure.includes("maintenance scan product count")),
+  "full maintenance still requires current category counts");
   const mutations = [
     (x) => { x.report.baselineRef = "main"; },
     (x) => { x.baseline.report.auditScope = "unrecognized"; },
@@ -117,6 +145,7 @@ function checkIncrementalCatalogAudit() {
     (x) => { x.report.changes.prices.push({ id: "old", before: 10, after: 11 }); },
     (x) => { x.report.summary.foreignPricesRecomputed = 1; },
     (x) => { x.report.summary.priceDrops = 1; },
+    (x) => { x.report.categoryScan[0].finalProductCount = 2; },
     (x) => { x.report.categoryScan[0].japaneseBrandReview[0].checkedAt = "2026-09-01"; },
     (x) => { x.report.sourceAudit.exceptions[0].note = "rewritten"; },
     (x) => { x.report.imageAudit.verifiedIds = ["added"]; },

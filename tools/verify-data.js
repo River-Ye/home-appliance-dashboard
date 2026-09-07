@@ -2184,7 +2184,8 @@ function validateMaintenanceReport(root, categories, products, dataDate, exchang
     .map((product) => [product.id, product]));
   for (const category of categories) {
     const row = categoryScan.get(category.id);
-    const count = categoryProducts(products, category.id).length;
+    const carriedCategory = incremental?.baseline.categories.some((previous) => previous.id === category.id);
+    const count = categoryProducts(carriedCategory ? incremental.baseline.products : products, category.id).length;
     assert(row?.status === "manually_reviewed", `${category.id} maintenance scan still requires manual review`, failures);
     assert(
       /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d{3})?Z$/.test(String(row?.reviewedAt || "")),
@@ -2199,7 +2200,7 @@ function validateMaintenanceReport(root, categories, products, dataDate, exchang
     assert(row?.finalProductCount === count, `${category.id} maintenance scan product count is stale`, failures);
     assert(row?.minimumSatisfied === (count >= MIN_PRODUCTS_PER_CATEGORY), `${category.id} maintenance minimum flag is stale`, failures);
     // Only immutable, unchanged baseline rows may retain their original review date.
-    if (incremental?.baseline.categories.some((previous) => previous.id === category.id)) continue;
+    if (carriedCategory) continue;
     const expectedReviews = buildJapaneseBrandReview({
       category,
       products,

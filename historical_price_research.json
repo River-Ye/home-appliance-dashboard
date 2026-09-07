@@ -1,14 +1,14 @@
 {
   "summary": {
     "checkedAt": "2026-09-07T00:00:00.000+08:00",
-    "sourcePolicy": "2026-09-07 以 1147 筆基準清單全量查核公開價格基準（通路現價或明示官方建議售價）、購買連結與可信新品狀態，並複核最終 1149 筆商品圖片、全部 508 筆 found 史低來源、原廠停產訊號與同批次匯率。官方建議售價不自動寫成通路現價或史低；PChome exact-model 現貨頁有正值 Price.Low 時採公開折扣價，否則採 Price.P；Qty 0、福利品、展示機與配件不寫回。其他頁面的結構化價格差異列入人工覆核候選，阻擋、暫時錯誤與單次頁面失效只列稽核，不臆測停產或史低失效。",
-    "total": 1149,
-    "researchedThisRun": 1149,
-    "found": 508,
-    "missing": 641,
+    "sourcePolicy": "2026-09-07 本輪只查核新增水空間 WS-RCH601、WS-Min'O-R2、WS-UVN500 三款的可信新品現價與歷史最低價；原 1149 筆商品及逐筆證據沿用不可變基準，未重新查價。WS-RCH601 採夢時代 2026 年 1 月官方 DM 的 NT$28,800 歷史促銷，其餘兩款 not_found；不以現價推定史低，排除會員、信用卡回饋與耗材配件。",
+    "total": 1152,
+    "researchedThisRun": 3,
+    "found": 509,
+    "missing": 643,
     "byConfidence": {
-      "not_found": 641,
-      "high": 320,
+      "not_found": 643,
+      "high": 321,
       "medium": 188
     },
     "exchange": {
@@ -21,11 +21,11 @@
       "HKD_TWD": 4.034151054639978,
       "KRW_TWD": 0.023490770129374824
     },
-    "lastMaintenanceCheckAt": "2026-09-07T09:31:41.945Z",
-    "currentPriceChanged": 21,
+    "lastMaintenanceCheckAt": "2026-09-07T13:44:24.903Z",
+    "currentPriceChanged": 0,
     "currentBuyLinkChanged": 0,
-    "currentPriceDrops": 7,
-    "currentPriceRises": 14,
+    "currentPriceDrops": 0,
+    "currentPriceRises": 0,
     "currentPriceFallbacks": 0,
     "historicalLowUpdated": 0,
     "historicalLowInvalidated": 0,
@@ -33,7 +33,7 @@
     "catalogReplacementNotes": [],
     "currentImageChanged": 0,
     "discontinuedRemoved": 0,
-    "newProductsAdded": 2,
+    "newProductsAdded": 3,
     "discontinuedRemovalNotes": [],
     "catalogEntriesRemoved": 0,
     "catalogRemovalNotes": [],
@@ -64,7 +64,7 @@
       },
       "policy": "2026-09-02 重新覆核 PR #5 的 95 筆史低候選；只接受可現場重現原始頁、完整 exact model／尺寸／容量／件數／系統版本相符，且不高於目前公開價的可信新品價格歷史。95 個 LBJ 原始 sourceUrl 全數連線逾時，BigGo 亦不可用；FindPrice 95 筆皆可搜尋但沒有符合政策的候選；另有 4 筆舊數值高於目前公開價，因此 95 筆全部維持 not_found，未改寫商品或逐筆證據日期。"
     },
-    "maintenanceCheckedAt": "2026-09-07T09:31:41.945Z"
+    "maintenanceCheckedAt": "2026-09-07T13:44:24.903Z"
   },
   "results": [
     {
@@ -53578,6 +53578,210 @@
           "note": "FindPrice列12900，轉址請求遭遠端關閉，web亦無法開啟；未取得原商品價格與庫存，不能採用。"
         }
       ]
+    },
+    {
+      "category": "waterdispenser",
+      "brand": "水空間",
+      "id": "waterdispenser-waterspace-ws-rch601",
+      "model": "WS-RCH601",
+      "name": "RO 淨熱飲水機（六機合一）",
+      "currentPrice": 28800,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.yushanwater.com.tw/products/ws_wsrch601",
+      "currentBuyLabel": "玉山淨水",
+      "historicalLow": {
+        "status": "found",
+        "amount": 28800,
+        "currency": "TWD",
+        "converted": 28800,
+        "sourceUrl": "https://www.dreammall.com.tw/files/DM/2026BeautyNewYear.pdf#page=12",
+        "sourceTitle": "夢時代 2026 美麗迎新春 DM｜三心科技 WS-RCH601",
+        "evidenceSnippet": "夢時代B2 三心科技 水空間 RO淨熱飲水機 WS-RCH601；原價32,800元，特價28,800元。",
+        "sourceKind": "retailer_promo",
+        "confidence": "high",
+        "checkedAt": "2026-09-07",
+        "note": "已下載夢時代官方 2026 年 1 月 DM 並人工核對 PDF 第 12 頁（印刷頁碼 11）；NT$28,800 為獨立商品特價，未扣滿額贈券、信用卡或會員回饋。本次找到的最低可信新品歷史記錄，非宣稱全市場絕對最低；DM 未明示基本安裝邊界。"
+      },
+      "checkedSources": [
+        "https://waterspace.com.tw/product-81.html",
+        "https://www.yushanwater.com.tw/products/ws_wsrch601",
+        "https://www.yushan-water.com.tw/product-detail-4047624.html",
+        "https://www.fusanwater.com/product-316.html",
+        "https://www.3-heart.com.tw/product-354.html",
+        "https://www.findprice.com.tw/g/WS-RCH601",
+        "https://feebee.com.tw/s/WS-RCH601/",
+        "https://www.dreammall.com.tw/files/DM/2026BeautyNewYear.pdf"
+      ],
+      "rejectedCandidates": [
+        "現有通路原價／優惠價及比價頁當下價格不是具日期的歷史最低點；不使用現價推定史低。",
+        "不同型號、濾芯／紫外線燈匣／配件及淨熱套組不與本機價格混用。"
+      ],
+      "priceChecks": [
+        {
+          "query": "\"WS-RCH601\" 價格 歷史 最低",
+          "url": "https://www.findprice.com.tw/g/WS-RCH601",
+          "purpose": "exact-model 價格搜尋／歷史價發現",
+          "outcome": "web 原頁擷取不可用，未取得可採的具日期價格歷史；另以搜尋引擎檢索該站候選並回原頁核對。"
+        },
+        {
+          "query": "\"WS-RCH601\" 價格 歷史 最低",
+          "url": "https://feebee.com.tw/s/WS-RCH601/",
+          "purpose": "exact-model 價格搜尋／歷史價發現",
+          "outcome": "web 原頁擷取不可用，未取得可採的具日期價格歷史；另以搜尋引擎檢索該站候選並回原頁核對。"
+        },
+        {
+          "query": "\"WS-RCH601\" 價格",
+          "url": "https://www.yushanwater.com.tw/products/ws_wsrch601",
+          "purpose": "可信新品通路現價",
+          "outcome": "確認公開售價 TWD 28800；現價本身不作歷史最低價。"
+        },
+        {
+          "query": "\"WS-RCH601\" 歷史 價格 最低",
+          "url": "https://www.dreammall.com.tw/files/DM/2026BeautyNewYear.pdf",
+          "purpose": "具日期可信通路歷史促銷",
+          "outcome": "採用；2026 年 1 月 DM PDF 第 12 頁明示 WS-RCH601 特價 NT$28,800，視覺核對完整設備與無回饋折算。"
+        }
+      ],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
+    },
+    {
+      "category": "waterdispenser",
+      "brand": "水空間",
+      "id": "waterdispenser-waterspace-mino-r2",
+      "model": "WS-Min'O-R2",
+      "name": "Min'O R2 直出 RO 淨水器（黑色 LED 龍頭）",
+      "currentPrice": 18800,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.yushanwater.com.tw/products/ws_wsminor2_black",
+      "currentBuyLabel": "玉山淨水",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-07",
+        "note": "已查富山／三心／玉山 exact-model 完整新品頁、FindPrice 與飛比 exact-model 價格查詢；三心 NT$17,000 已售罄，富山 NT$17,000 僅詢價且庫存待確認，玉山黑色 LED 龍頭 NT$18,800 為現價；飛比的富山 NT$19,800 無具日期歷史低點。因此維持 not_found，不以現價推定史低；耗材與配件價格已排除。"
+      },
+      "checkedSources": [
+        "https://waterspace.com.tw/product-79.html",
+        "https://www.yushanwater.com.tw/products/ws_wsminor2_black",
+        "https://www.yushan-water.com.tw/product-detail-3831092.html",
+        "https://www.fusanwater.com/product-210.html",
+        "https://www.3-heart.com.tw/product-222.html",
+        "https://www.findprice.com.tw/g/Min%27O%20R2",
+        "https://feebee.com.tw/s/Min%27O%20R2/",
+        "https://feebee.com.tw/s/%E5%AF%8C%E5%B1%B1%E6%B7%A8%E6%B0%B4/"
+      ],
+      "rejectedCandidates": [
+        "現有通路原價／優惠價及比價頁當下價格不是具日期的歷史最低點；不使用現價推定史低。",
+        "不同型號、濾芯／紫外線燈匣／配件及淨熱套組不與本機價格混用。",
+        "三心 NT$17,000 原頁明示已售罄；富山同價無庫存數量且僅詢價，因此不採為可立即購買價，並且均無歷史價格日期。"
+      ],
+      "priceChecks": [
+        {
+          "query": "\"Min'O R2\" 價格 歷史 最低",
+          "url": "https://www.findprice.com.tw/g/Min%27O%20R2",
+          "purpose": "exact-model 價格搜尋／歷史價發現",
+          "outcome": "web 原頁擷取不可用，未取得可採的具日期價格歷史；另以搜尋引擎檢索該站候選並回原頁核對。"
+        },
+        {
+          "query": "\"Min'O R2\" 價格 歷史 最低",
+          "url": "https://feebee.com.tw/s/Min%27O%20R2/",
+          "purpose": "exact-model 價格搜尋／歷史價發現",
+          "outcome": "web 原頁擷取不可用，未取得可採的具日期價格歷史；另以搜尋引擎檢索該站候選並回原頁核對。"
+        },
+        {
+          "query": "\"WS-Min'O-R2\" 價格",
+          "url": "https://www.yushanwater.com.tw/products/ws_wsminor2_black",
+          "purpose": "可信新品通路現價",
+          "outcome": "確認公開售價 TWD 18800；現價本身不作歷史最低價。"
+        },
+        {
+          "query": "\"Min'O R2\" site:feebee.com.tw",
+          "url": "https://feebee.com.tw/s/%E5%AF%8C%E5%B1%B1%E6%B7%A8%E6%B0%B4/",
+          "purpose": "原始比價候選覆核",
+          "outcome": "頁面項目 29 顯示 Min'O R2 富山蝦皮商城 NT$19,800；沒有具日期歷史低點。"
+        }
+      ],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
+    },
+    {
+      "category": "waterdispenser",
+      "brand": "水空間",
+      "id": "waterdispenser-waterspace-ws-uvn500",
+      "model": "WS-UVN500",
+      "name": "五層超濾淨水器（含 LED-UV 模組）",
+      "currentPrice": 22800,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.3-heart.com.tw/product-219.html",
+      "currentBuyLabel": "三心科技",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-07",
+        "note": "已查富山／三心 exact-model 完整新品頁、FindPrice 與飛比的價格查詢及原始比價候選；NT$22,800 只確認本次通路／比價價格，沒有可重現的具日期歷史低點。因此維持 not_found，不以現價推定史低；耗材與配件價格已排除。"
+      },
+      "checkedSources": [
+        "https://waterspace.com.tw/product-74.html",
+        "https://www.3-heart.com.tw/product-219.html",
+        "https://www.fusanwater.com/product-207.html",
+        "https://www.findprice.com.tw/g/WS-UVN500",
+        "https://feebee.com.tw/s/WS-UVN500/",
+        "https://feebee.com.tw/s/%E5%AF%8C%E5%B1%B1%E6%B7%A8%E6%B0%B4/",
+        "https://www.findprice.com.tw/fg/%E3%80%90WATERSPACE%20%E6%B0%B4%E7%A9%BA%E9%96%93%E3%80%91%E8%87%BA%E7%81%A3%E8%A3%BD%E9%80%A05%E5%B1%A4%E8%B6%85%E6%BF%BE%E6%B7%A8%E6%B0%B4%E5%99%A8WS-UVN500%EF%BD%9C%E6%90%AD%E8%BC%89%E7%B4%AB%E5%A4%96%E7%B7%9A%E6%AE%BA%E8%8F%8C%E7%87%88%EF%BD%9C%E5%AF%8C%E5%B1%B1%E6%B7%A8%E6%B0%B4%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8"
+      ],
+      "rejectedCandidates": [
+        "現有通路原價／優惠價及比價頁當下價格不是具日期的歷史最低點；不使用現價推定史低。",
+        "不同型號、濾芯／紫外線燈匣／配件及淨熱套組不與本機價格混用。"
+      ],
+      "priceChecks": [
+        {
+          "query": "\"WS-UVN500\" 價格 歷史 最低",
+          "url": "https://www.findprice.com.tw/g/WS-UVN500",
+          "purpose": "exact-model 價格搜尋／歷史價發現",
+          "outcome": "web 原頁擷取不可用，未取得可採的具日期價格歷史；另以搜尋引擎檢索該站候選並回原頁核對。"
+        },
+        {
+          "query": "\"WS-UVN500\" 價格 歷史 最低",
+          "url": "https://feebee.com.tw/s/WS-UVN500/",
+          "purpose": "exact-model 價格搜尋／歷史價發現",
+          "outcome": "web 原頁擷取不可用，未取得可採的具日期價格歷史；另以搜尋引擎檢索該站候選並回原頁核對。"
+        },
+        {
+          "query": "\"WS-UVN500\" 價格",
+          "url": "https://www.3-heart.com.tw/product-219.html",
+          "purpose": "可信新品通路現價",
+          "outcome": "確認公開售價 TWD 22800；現價本身不作歷史最低價。"
+        },
+        {
+          "query": "\"WS-UVN500\" site:feebee.com.tw",
+          "url": "https://feebee.com.tw/s/%E5%AF%8C%E5%B1%B1%E6%B7%A8%E6%B0%B4/",
+          "purpose": "原始比價候選覆核",
+          "outcome": "頁面項目 30 顯示 WS-UVN500 富山蝦皮商城 NT$22,800；沒有具日期歷史低點。"
+        },
+        {
+          "query": "\"WS-UVN500\" site:findprice.com.tw",
+          "url": "https://www.findprice.com.tw/fg/%E3%80%90WATERSPACE%20%E6%B0%B4%E7%A9%BA%E9%96%93%E3%80%91%E8%87%BA%E7%81%A3%E8%A3%BD%E9%80%A05%E5%B1%A4%E8%B6%85%E6%BF%BE%E6%B7%A8%E6%B0%B4%E5%99%A8WS-UVN500%EF%BD%9C%E6%90%AD%E8%BC%89%E7%B4%AB%E5%A4%96%E7%B7%9A%E6%AE%BA%E8%8F%8C%E7%87%88%EF%BD%9C%E5%AF%8C%E5%B1%B1%E6%B7%A8%E6%B0%B4%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+          "purpose": "原始比價候選覆核",
+          "outcome": "原頁可讀，WS-UVN500 完整設備富山蝦皮商城 NT$22,800；未提供具日期歷史低點，排除史低採用。"
+        }
+      ],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     }
   ]
 }

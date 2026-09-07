@@ -59,9 +59,9 @@ function renderMaintenanceSummary(report, baselineReport = null) {
     const baselineDate = baselineReport?.dataDate || "不可變 Git 基準所記錄的日期";
     return [
       `- ${taipeiTimestamp(report.checkedAt)}（台灣時間）完成 ${added.length} 款新增商品查核；目前共 ${summary.categories} 類、${summary.finalProducts} 筆商品，原 ${summary.baselineProducts} 筆沿用 ${baselineDate} 的證據，沒有重新查價或修改舊商品。`,
-      `- 本次增量新增 ${added.join("、")}；沒有移除或替換商品。既有逐類與日系品牌覆核保留原內容及日期，只補查新增分類；所有分類至少 ${summary.minimumProductsPerCategory} 筆。`,
+      `- 本次增量新增 ${added.join("、")}；沒有移除或替換商品。既有逐類與日系品牌覆核保留原內容及日期，本輪只補查新增商品；所有分類至少 ${summary.minimumProductsPerCategory} 筆。`,
       `- 本輪來源與圖片查核限新增 ${added.length} 款；累積來源／圖片覆蓋 ${summary.sourcesAudited}／${summary.imagesAudited} 筆，包含沿用的舊查核與例外。史低累積 ${summary.historicalFound} 筆 \`found\`、${summary.historicalMissing} 筆 \`not_found\`；既有逐筆證據與查核日期保留，累積覆蓋不代表本輪重新查核。`,
-      `- 匯率沿用 ExchangeRate-API ${exchange.date}，USD/TWD ${exchange.USD_TWD}；本輪未重抓匯率，既有外幣價格未重算，新增海外款使用同一保留匯率換算。完整摘要、不可變基準與例外保存在 \`catalog_maintenance_latest.json\`。`,
+      `- 匯率沿用 ExchangeRate-API ${exchange.date}，USD/TWD ${exchange.USD_TWD}；本輪未重抓匯率，既有外幣價格未重算。完整摘要、不可變基準與例外保存在 \`catalog_maintenance_latest.json\`。`,
     ].join("\n");
   }
   if (report.auditScope !== undefined) throw new Error(`Unsupported maintenance auditScope: ${report.auditScope}`);
