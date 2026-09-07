@@ -337,7 +337,7 @@ async function assertGarmentCareJourney(page, name) {
     '#categoryOptions [data-value="garmentcare"]',
     "電子衣櫥",
   );
-  await waitForVisibleCount(page, 20);
+  await waitForVisibleCount(page, 21);
   await page.locator("#brandInput").click();
   const brands = await page.$$eval(
     "#brandOptions [data-value]",
@@ -349,8 +349,8 @@ async function assertGarmentCareJourney(page, name) {
   }
 
   await selectComboboxOption(page, "#channelInput", '#channelOptions [data-value="tw"]', "台灣");
-  await waitForVisibleCount(page, 8);
-  await waitForProductCards(page, 8);
+  await waitForVisibleCount(page, 9);
+  await waitForProductCards(page, 9);
   await selectComboboxOption(page, "#channelInput", '#channelOptions [data-value="global"]', "海外");
   await waitForVisibleCount(page, 12);
   await loadAllVisibleProducts(page);
@@ -370,7 +370,7 @@ async function assertGarmentCareJourney(page, name) {
     '#categoryOptions [data-value="garmentcare"]',
     "電子衣櫥",
   );
-  await waitForVisibleCount(page, 20);
+  await waitForVisibleCount(page, 21);
   await waitForProductCards(page, 12);
   if (!await page.locator('.product-card[data-product-id="garmentcare-lg-e523mw"]', { hasText: "入門推薦" }).count()) {
     throw new Error(`${name}: garmentcare E523MW entry recommendation is missing`);

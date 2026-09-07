@@ -2984,10 +2984,10 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 3690,
-      "converted": 3690,
+      "amount": 3990,
+      "converted": 3990,
       "basis": "retailer_current",
-      "confidence": "Chrome 原頁顯示 910-007567、Logitech MX Master 4 無線智能滑鼠、石墨灰已選取；原價4190，公開Sale3690，加入購物車可用。未採會員或加購價格。 查核日期 2026-08-31"
+      "confidence": "2026-09-07 人工覆核：Chrome官方旗艦店exact 910-007567一般版石墨灰，公開Sale3990，加入購物車可用；非For Mac、非會員券或加購。"
     },
     "installation": {
       "status": "not_stated",

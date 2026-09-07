@@ -1,7 +1,7 @@
 const reportLedger = require("../product_issue_report_evidence.json");
 const { canonicalWebsite, normalize } = require("./product-issue-validation");
 
-const CHECKED_AT = "2026-09-06";
+const CHECKED_AT = "2026-09-07";
 const DEFAULT_EVIDENCE_CHECKED_AT = "2026-08-29";
 const REVIEW_DATE_PATTERN = /^\d{4}-\d{2}-\d{2}$/;
 
@@ -12,6 +12,62 @@ function isValidReviewDate(value) {
 }
 
 const verifiedRows = [
+{
+  "id": "wifi-ubiquiti-u7-pro-xgs",
+  "checkedAt": "2026-09-07",
+  "summary": "六位 U7 Pro XGS 使用者跨 Reddit 與 Ubiquiti Community 回報 AP 本體離線、無回應或停止服務；部分藉重啟／斷電恢復，其中一位的後續韌體更新已解決場域問題。",
+  "title": "AP 本體離線或無回應，需重啟／斷電恢復",
+  "detail": "只計thesnowdog、alexgarrett、Builda、itsjakerobb、thankyourob、iFeeltech六位明述AP本體offline、無回應或重啟的作者；不把僅clients重連、SSID消失、DNS/IPv6、低速或PoE不足混入。thankyourob為十個月首次，不能宣稱每人反覆；iFeeltech本人後續稱韌體更新已修復，未列build。證據支持可觀察的AP失聯現象，尚未證明共同根因、現版全數未修、硬體故障率或台灣白款每台均受影響。採購時應核實PoE++與實際線材/交換器，保留韌體與失聯監測紀錄，在退換貨期進行多日測試。",
+  "reportCount": 6,
+  "sources": [
+    {
+      "platform": "Ubiquiti Community",
+      "title": "Constant disconnects from multiple U7 Pro XGS APs",
+      "url": "https://community.ui.com/questions/Constant-disconnects-from-multiple-U7-Pro-XGS-APs/bdb65953-e2ce-4961-96a7-3f520c02b51c",
+      "authors": [
+        "thesnowdog",
+        "alexgarrett"
+      ],
+      "evidenceSnippet": "僅thesnowdog明述XGS AP斷線/重啟、alexgarrett明述XGS offline且ping無回應；psionn缺失聯層級及wander1236已歸因UDM OS均不計。"
+    },
+    {
+      "platform": "Reddit",
+      "title": "Incredibly unstable U7 Pro XG's major packet loss after running for some hours",
+      "url": "https://www.reddit.com/r/Ubiquiti/comments/1l4j2g4/incredibly_unstable_u7_pro_xgs_major_packet_loss/",
+      "authors": [
+        "Builda"
+      ],
+      "evidenceSnippet": "主帖是 XG 複數而非 XGS；僅 Builda 留言明示 XGS，回報設定變更後 AP 離線須拔插網路線，並持續客戶端斷線。"
+    },
+    {
+      "platform": "Reddit",
+      "title": "U7 Pro XGSes keep going offline. Help?",
+      "url": "https://www.reddit.com/r/Ubiquiti/comments/1vklrsg/u7_pro_xgses_keep_going_offline_help/",
+      "authors": [
+        "itsjakerobb"
+      ],
+      "evidenceSnippet": "三台XGS由SNMP監測發現AP無回應，Device Auto-Recovery重置PoE恢復；只算一名作者。"
+    },
+    {
+      "platform": "Reddit",
+      "title": "U7 In-Wall APs randomly going offline weekly",
+      "url": "https://www.reddit.com/r/Ubiquiti/comments/1slil9g/comment/oppguuc/",
+      "authors": [
+        "thankyourob"
+      ],
+      "evidenceSnippet": "僅thankyourob回覆明示两台XGS OFFLINE且重啟恢復；主帖U7 In-Wall不採。"
+    },
+    {
+      "platform": "Ubiquiti Community",
+      "title": "Multiple U7 APs Randomly Going Offline in One Specific Office Location",
+      "url": "https://community.ui.com/questions/Multiple-U7-APs-Randomly-Going-Offline-in-One-Specific-Office-Location/bb14a280-59af-45dd-a0cd-58982e86b4ea",
+      "authors": [
+        "iFeeltech"
+      ],
+      "evidenceSnippet": "本人XGS在UniFi offline且無回應需重啟；自家2026-05-28後續稱FW更新已修site問題與RMA退化單體，保留修復結果。"
+    }
+  ]
+},
 {
   "id": "wifi-unifi-u7-pro-xg",
   "checkedAt": "2026-09-06",

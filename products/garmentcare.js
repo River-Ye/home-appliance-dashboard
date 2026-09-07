@@ -780,8 +780,8 @@
     "price": {
       "currency": "USD",
       "amount": 2199,
-      "converted": 69573,
-      "confidence": "2026-08-31 人工核對 LG 美國官網 SC5GMR80H 公開可購主價 USD 2,199；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-09-06 匯率換算",
+      "converted": 69558,
+      "confidence": "2026-08-31 人工核對 LG 美國官網 SC5GMR80H 公開可購主價 USD 2,199；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-09-07 匯率換算",
       "basis": "retailer_current"
     },
     "image": "https://media.us.lg.com/transform/ecomm-PDPGallery-1100x730/80ff5e54-eada-4b61-a822-7b8e27555153/Styler-SC5GMR80H-gallery-01_5000x5000?io=transform:fill,width:1024",
@@ -891,8 +891,8 @@
     "price": {
       "currency": "USD",
       "amount": 1799,
-      "converted": 56918,
-      "confidence": "2026-08-31 人工核對 LG 美國官網 SC5MAR4G 公開可購主價 USD 1,799；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-09-06 匯率換算",
+      "converted": 56906,
+      "confidence": "2026-08-31 人工核對 LG 美國官網 SC5MAR4G 公開可購主價 USD 1,799；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-09-07 匯率換算",
       "basis": "retailer_current"
     },
     "image": "https://media.us.lg.com/transform/ecomm-PDPGallery-1100x730/98065e7a-bef7-4fef-9ab3-8354575893da/Styler-SC5MAR4G-gallery-01_5000x5000?io=transform:fill,width:1024",
@@ -1002,8 +1002,8 @@
     "price": {
       "currency": "USD",
       "amount": 1699,
-      "converted": 53754,
-      "confidence": "LG 美國 2026-07-23 官方現售型錄公開價；ExchangeRate-API 2026-09-06 匯率換算"
+      "converted": 53743,
+      "confidence": "LG 美國 2026-07-23 官方現售型錄公開價；ExchangeRate-API 2026-09-07 匯率換算"
     },
     "image": "https://media.us.lg.com/transform/ecomm-PDPGallery-1100x730/f09c059c-80e3-415a-afec-17d204454e7c/Styler-S3MFBN-gallery-01_5000x5000?io=transform:fill,width:1024",
     "buyUrl": "https://www.lg.com/us/washers-dryers/lg-s3mfbn-styler-steam-closet",
@@ -1112,8 +1112,8 @@
     "price": {
       "currency": "USD",
       "amount": 1499,
-      "converted": 47426,
-      "confidence": "2026-09-06 人工覆核同型號原購買頁：LG US原頁白色S3WFBN主商品$1,499.00、$400 OFF對照原價$1,899.00；Add to Cart可用；主商品JSON-LD InStock。 當前公开美元價1,499，未見原先1,349；bundle額外200–1000優惠與相關配件價不採，保留原海外運費/稅費/電力/保固風險。；ExchangeRate-API 2026-09-06 匯率換算"
+      "converted": 47416,
+      "confidence": "2026-09-06 人工覆核同型號原購買頁：LG US原頁白色S3WFBN主商品$1,499.00、$400 OFF對照原價$1,899.00；Add to Cart可用；主商品JSON-LD InStock。 當前公开美元價1,499，未見原先1,349；bundle額外200–1000優惠與相關配件價不採，保留原海外運費/稅費/電力/保固風險。；ExchangeRate-API 2026-09-07 匯率換算"
     },
     "image": "https://media.us.lg.com/transform/ecomm-PDPGallery-1100x730/40e1eddc-4b4d-446b-afcf-fc792acdf3f8/Styler-S3WFBN-gallery-01_5000x5000?io=transform:fill,width:1024",
     "buyUrl": "https://www.lg.com/us/washers-dryers/lg-s3wfbn-styler-steam-closet",
@@ -1222,8 +1222,8 @@
     "price": {
       "currency": "USD",
       "amount": 1499,
-      "converted": 47426,
-      "confidence": "LG 美國 2026-07-23 官方現售型錄公開價；ExchangeRate-API 2026-09-06 匯率換算"
+      "converted": 47416,
+      "confidence": "LG 美國 2026-07-23 官方現售型錄公開價；ExchangeRate-API 2026-09-07 匯率換算"
     },
     "image": "https://media.us.lg.com/transform/ecomm-PDPGallery-1100x730/d0843109-3129-40be-b3b9-325bb4ef78de/Styler-S3RFBN-gallery-01_5000x5000?io=transform:fill,width:1024",
     "buyUrl": "https://www.lg.com/us/washers-dryers/lg-s3rfbn-styler-steam-closet",
@@ -1332,8 +1332,8 @@
     "price": {
       "currency": "KRW",
       "amount": 2443730,
-      "converted": 57278,
-      "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照；ExchangeRate-API 2026-09-06 匯率換算"
+      "converted": 57405,
+      "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照；ExchangeRate-API 2026-09-07 匯率換算"
     },
     "image": "https://images.samsung.com/kdp/goods/2026/01/13/bcebeb93-4709-4c18-b685-e159e476dcfd.png",
     "buyUrl": "https://prod.danawa.com/info/?pcode=108410873",
@@ -1442,8 +1442,8 @@
     "price": {
       "currency": "KRW",
       "amount": 2172430,
-      "converted": 50919,
-      "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照；ExchangeRate-API 2026-09-06 匯率換算"
+      "converted": 51032,
+      "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照；ExchangeRate-API 2026-09-07 匯率換算"
     },
     "image": "https://images.samsung.com/kdp/goods/2026/01/13/a5e2b9e4-2578-420b-a4e9-03f9af8a98a4.png",
     "buyUrl": "https://prod.danawa.com/info/?pcode=107770493",
@@ -1552,8 +1552,8 @@
     "price": {
       "currency": "KRW",
       "amount": 2203310,
-      "converted": 51643,
-      "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照；ExchangeRate-API 2026-09-06 匯率換算"
+      "converted": 51757,
+      "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照；ExchangeRate-API 2026-09-07 匯率換算"
     },
     "image": "https://images.samsung.com/kdp/goods/2026/01/13/b79b910e-17e9-4844-b199-726f9a7a3810.png",
     "buyUrl": "https://prod.danawa.com/info/?pcode=107770475",
@@ -1662,8 +1662,8 @@
     "price": {
       "currency": "KRW",
       "amount": 2017980,
-      "converted": 47299,
-      "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照；ExchangeRate-API 2026-09-06 匯率換算"
+      "converted": 47404,
+      "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照；ExchangeRate-API 2026-09-07 匯率換算"
     },
     "image": "https://images.samsung.com/kdp/goods/2026/01/13/76d4f74e-0c3a-42e1-89f8-426d5859c6d0.png",
     "buyUrl": "https://prod.danawa.com/info/?pcode=107770397",
@@ -1772,8 +1772,8 @@
     "price": {
       "currency": "KRW",
       "amount": 2018400,
-      "converted": 47309,
-      "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照；ExchangeRate-API 2026-09-06 匯率換算"
+      "converted": 47414,
+      "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照；ExchangeRate-API 2026-09-07 匯率換算"
     },
     "image": "https://images.samsung.com/kdp/goods/2026/01/13/51d56ac5-a158-40ac-8c0a-40369bd7fd13.png",
     "buyUrl": "https://prod.danawa.com/info/?pcode=108411020",
@@ -1882,8 +1882,8 @@
     "price": {
       "currency": "KRW",
       "amount": 1791170,
-      "converted": 41983,
-      "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照；ExchangeRate-API 2026-09-06 匯率換算"
+      "converted": 42076,
+      "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照；ExchangeRate-API 2026-09-07 匯率換算"
     },
     "image": "https://images.samsung.com/kdp/goods/2026/01/13/a6dfd1ea-ae12-4bd7-b437-8fbbab8ccbe7.png",
     "buyUrl": "https://prod.danawa.com/info/?pcode=108411242",
@@ -1992,8 +1992,8 @@
     "price": {
       "currency": "JPY",
       "amount": 328680,
-      "converted": 66586,
-      "confidence": "BicCamera 2026-07-23 exact-model 新品公開價；ExchangeRate-API 2026-09-06 匯率換算"
+      "converted": 66570,
+      "confidence": "BicCamera 2026-07-23 exact-model 新品公開價；ExchangeRate-API 2026-09-07 匯率換算"
     },
     "image": "https://panasonic.jp/content/experience-fragments/panasonic/jp/ja/content/smartcloset/products/HCC-R600AR/lp4_ind1_HCC-R600AR_cxf/master/_jcr_content/root/c_lay014/c_lay001_434717760_c_1343778137/c_lay011/c_gen003.coreimg.png/1743734842467/hcc-r600al-link-864x648-250403.png",
     "buyUrl": "https://www.biccamera.com/bc/item/11581815/",
@@ -2186,6 +2186,111 @@
           "query": "site:mobile01.com \"Panasonic N-RGB1R-W\" (災情 OR 問題 OR 故障 OR 負評)",
           "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Panasonic%20N-RGB1R-W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "garmentcare-panasonic-n-r600ar-x1",
+    "category": "garmentcare",
+    "rank": 21,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Panasonic",
+    "model": "N-R600AR-X1",
+    "name": "鏡面黑 3 件式熱泵蒸氣電子衣櫥",
+    "price": {
+      "currency": "TWD",
+      "amount": 35890,
+      "converted": 35890,
+      "basis": "retailer_current",
+      "confidence": "myfone 2026-09-07 exact N-R600AR-X1 公開價，Chrome 確認放入購物車按鈕可用；含標準安裝及舊機回收，不扣會員券、點數或回饋"
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "myfone 明示含標準安裝與舊機回收；超出原廠隨附材料、無電梯樓層、特殊搬運與跨區另計，偏遠及外島不送或須先報價；配送由物流約定。"
+    },
+    "image": "https://www.myfone.com.tw/website_twmf/uploads_product/website_1088/037/442/ECP0108803744271_1_20934781.jpg",
+    "buyUrl": "https://www.myfone.com.tw/mfo/buy/prod/P0000203744460",
+    "buyLabel": "myfone 網路門市",
+    "specs": [
+      "容量：3 件吊掛衣物",
+      "護理技術：nanoe X 48兆除菌消臭、高溫蒸氣除皺",
+      "行程：蒸氣標準／急速／大衣；nanoe X 除菌消臭／衣櫥護理；智慧烘乾標準／急速／大衣／定時",
+      "乾燥方式：Heat Pump 熱泵除濕式烘乾",
+      "尺寸：寬 45 x 深 61.3 x 高 173.4 cm",
+      "重量：69 kg",
+      "水箱／給排水：獨立給水與排水箱，蒸氣行程需補水及倒除排水，免固定給排水",
+      "電壓／頻率：110V / 60Hz",
+      "耗電：1450W",
+      "噪音：nanoe X 除菌消臭行程約30dB；其餘行程未標示",
+      "連線功能：可讀官方資料未標示 Wi-Fi／App",
+      "門向：可讀官方資料未明列可改門向；下單前確認開門方向及迴轉空間",
+      "安裝間距：依原廠說明書與安裝人員確認散熱及防傾倒條件；不可貼牆或直接嵌入密閉櫃體",
+      "材質限制：依洗標選擇行程，絲綢、人造絲等不可水洗衣物不得使用蒸氣除皺；不能取代洗衣、乾洗、熨燙或大量烘衣。",
+      "配件：小物層架；摺褲架另購"
+    ],
+    "description": "台灣110V的鏡面黑封閉式吊掛護理櫃，結合nanoe X、蒸氣除皺與熱泵乾燥，補足Panasonic在台現售鏡面款選擇；與既有34cm窄機身N-RGB1R-W並列比較。",
+    "pros": [
+      "台灣110V／60Hz與在地原廠售後",
+      "nanoe X、蒸氣及Heat Pump行程可依衣物選擇",
+      "3件式鏡面設計，給排水箱免固定管線"
+    ],
+    "cons": [
+      "45cm寬、69kg，須先量搬運轉角與門片空間",
+      "摺褲架另購，一次3件不適合大量烘衣",
+      "不可水洗材質不能任意使用蒸氣，不能取代洗衣"
+    ],
+    "bestFor": "常穿西裝、外套，需要台灣售後與鏡面3件式衣物護理櫃的家庭。",
+    "recommendation": "以完整台灣型號N-R600AR-X1比較，保留N-RGB1R-W窄機身及日本HCC款；依衣物量、45cm寬度、1450W專用插座與安裝條件選擇。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-09-07",
+      "note": "已查 myfone、PChome、Panasonic 官店、飛比、FindPrice 與新光三越歷史型錄。新光三越 2026 新春型錄第39頁 exact N-R600AR-X1 是42,800，鄰近34,200是Liebherr酒櫃，不能移用；樂天搜尋低價含領券與配送限制，未核實可重現最低點。myfone35,890僅為本次公開現價，不據此推定歷史最低價。"
+    },
+    "score": 88,
+    "voltage": "110V / 60Hz、1450W；依原廠要求使用接地插座，避免延長線共用高功率設備",
+    "warranty": "Panasonic 台灣公司貨，全機1年；依原廠保證書，myfone售後與原廠0800-098-800可洽詢",
+    "tags": [
+      "台灣現售",
+      "3件",
+      "鏡面黑",
+      "nanoe X",
+      "Heat Pump",
+      "110V"
+    ],
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-09-07",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"N-R600AR-X1\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22N-R600AR-X1%22",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"N-R600AR-X1\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22N-R600AR-X1%22",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"N-R600AR-X1\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22N-R600AR-X1%22",
+          "targetHost": "dcard.tw"
         }
       ]
     }

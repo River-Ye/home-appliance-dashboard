@@ -68,7 +68,7 @@
 
 ## GEO / AI 搜尋規則
 
-- 網站由現有 37 類資料產生 37 個 `/categories/<id>/` 靜態分類指南頁；不建立 1140 個重複商品事實的薄內容頁。
+- 網站由現有 37 類資料產生 37 個 `/categories/<id>/` 靜態分類指南頁；不建立 1147 個重複商品事實的薄內容頁。
 - 每個分類指南的初始 HTML 必須含該類全部商品的品牌、完整型號、名稱、參考價、價格基準、上市／發售日期與摘要；前 5 名繼續顯示完整評估卡。
 - `tools/category-guides.js` 只維護分類層級的繁中導讀、3 項選購條件與 3 組 FAQ；商品名稱、價格、排名、規格、史低與負評仍從既有商品資料產生，避免第二套事實來源。
 - 站名、首頁 title、description、H1 與 AI 揭露集中在 `tools/geo-config.js`；首頁 metadata、JSON-LD、分類頁與 `llms.txt` 必須共用此契約。首頁與分類頁首屏皆需可見 AI 協作、資料日期、查核方法與 GitHub 原始碼。
@@ -81,16 +81,16 @@
 
 ## 目前資料規模
 
-- 共 37 類、1140 筆商品。
+- 共 37 類、1147 筆商品。
 - 所有分類每類至少 20 筆；新增分類或補資料時不可讓任何分類低於 20 筆。
 - 特殊分類目前數量：
-  - `電視`：39 筆，其中 5 筆為 exact 70 吋，需涵蓋主流顯示技術與可信台灣新品通路。
-  - `Soundbar`：36 筆，需涵蓋不同聲道、擴充方式與空間需求。
+  - `電視`：41 筆，其中 5 筆為 exact 70 吋，需涵蓋主流顯示技術與可信台灣新品通路。
+  - `Soundbar`：37 筆，需涵蓋不同聲道、擴充方式與空間需求。
   - `吸塵器`：32 筆，乾式吸塵、洗地與輕量用途需明確區分；新世代不得只看型號或年份，需核對實際規格取捨。
   - `掃拖機器人`：45 筆，需涵蓋知名品牌旗艦與次旗艦。
-  - `無線路由器`：54 筆，只收 Wi-Fi 6 以上，Mesh/多 AP/商用管理支援要寫清楚。
+  - `無線路由器`：56 筆，只收 Wi-Fi 6 以上，Mesh/多 AP/商用管理支援要寫清楚。
   - `網路交換器`：20 筆，固定 8 個主要 RJ45 埠，1G／2.5G／10G 各至少 4 款；只收台灣公司貨、金屬外殼與非 PoE 型號。
-  - `電腦螢幕`：61 筆，需涵蓋主流品牌、不同用途帶與 34/40/45/49/57 吋寬螢幕。
+  - `電腦螢幕`：62 筆，需涵蓋主流品牌、不同用途帶與 34/40/45/49/57 吋寬螢幕。
   - `螢幕燈`：20 筆，只收桌機螢幕掛燈，台灣通路優先、可信海外通路補充；需核對夾具厚度、曲面限制、配光、供電、燈體尺寸與淨重。
   - `懸臂支架`：25 筆，需標示支援尺寸、承重重量與是否適合 49/57 吋大寬螢幕。
   - `滑鼠`：30 筆、`鍵盤`：30 筆、`滑鼠墊`：30 筆，各類選購定位固定 6／12／12，辦公與電競並重，型態與版本規則見下方特別分類規則。
@@ -98,7 +98,7 @@
   - `電子鎖`：51 筆，需涵蓋知名品牌且注意安裝條件。
   - `鍋具`：28 筆、`刀具`：23 筆、`櫥下飲水機`：40 筆、`洗碗機`：30 筆，需排除配件、耗材、桌上/直立誤判、福利品與展示機。
   - `冰箱`：27 筆、`洗衣機`：26 筆、`烘衣機`：24 筆、`洗烘衣機(多功能型)`：31 筆，需排除配件、耗材、福利品、展示機、箱損品、組合包誤判與單功能錯類，且每筆需標示機身尺寸。
-  - `電子衣櫥（衣物護理機）`：20 筆，只收以吊掛衣物為核心、具除味／除皺／抑菌／柔護乾燥功能的封閉式櫃體設備；排除烘衣機、洗脫烘、除濕機、手持掛燙機、布罩烘衣櫃、配件與停產機種。
+  - `電子衣櫥（衣物護理機）`：21 筆，只收以吊掛衣物為核心、具除味／除皺／抑菌／柔護乾燥功能的封閉式櫃體設備；排除烘衣機、洗脫烘、除濕機、手持掛燙機、布罩烘衣櫃、配件與停產機種。
   - `空氣清淨機`：29 筆，已補入 POIEMA 新氣几系列、Philips AC0921/84、AC3681/81 與 Xiaomi AC-M25-SC；後續若替換資料，除非無可信新品通路，需保留 POIEMA 候選。
   - `電風扇`：24 筆，已補入 Philips 風扇/循環扇/塔扇/無葉片款；後續若替換資料，除非無可信新品通路，需保留 Philips 候選。
   - `循環扇`：23 筆，已納入有台灣官方現貨、上市年份與 exact-model 查核證據的 IRIS PCF-CDP18TEC、IRIS KSF-SDC151TEC 與 SHARP PK-18S03T。
@@ -209,7 +209,7 @@
 - 電壓明顯不適合台灣者不可列為 Top Pick。
 - 使用者曾要求「全網最低價」，實作上要以可信通路與同型號可查低價為準；不要為了低價改放不可信網站或非新品頁。
 - 新增商品的 `price.basis` 只允許 `retailer_current` 或 `official_suggested`；後者必須顯示「建議售價／查看官方資料」，不可被卡片、史低或 maintenance 文案稱為通路現價。`installation.status` 只允許 `included_basic`、`excluded`、`not_stated`，並須用 `installation.note` 說明邊界與可能加價。
-- 日系品牌固定盤點 Sony、Panasonic、HITACHI、Mitsubishi Electric、Daikin、GENERAL、Rinnai、Noritz、TOTO；`Hitachi` 統一為 `HITACHI`，`Mitsubishi` 只在確認為 Mitsubishi Electric 時收錄，GENERAL 可接受 Fujitsu General alias，TOTO 不得誤中 TOTOLINK。37 類 × 9 品牌的完整 `japaneseBrandReview` 保存在 `catalog_maintenance_latest.json`，不新增第七份公開 audit JSON；本次寢具增量只新增 27 格，基準 306 格與日期原樣承接，不宣稱 333 格同日重查，也不把未知分類的預設值當研究結論。
+- 日系品牌固定盤點 Sony、Panasonic、HITACHI、Mitsubishi Electric、Daikin、GENERAL、Rinnai、Noritz、TOTO；`Hitachi` 統一為 `HITACHI`，`Mitsubishi` 只在確認為 Mitsubishi Electric 時收錄，GENERAL 可接受 Fujitsu General alias，TOTO 不得誤中 TOTOLINK。37 類 × 9 品牌的完整 `japaneseBrandReview` 保存在 `catalog_maintenance_latest.json`，不新增第七份公開 audit JSON；寢具增量當次只新增 27 格，基準 306 格與日期原樣承接；後續明確要求全量維護時，需重新完成當日 333 格品牌邊界盤點，並於逐類紀錄揭露型號世代查核的來源限制，不把未知分類的預設值當研究結論。
 - 商品內容若有「排除福利/展示/拆封品」等說明文字是允許的，但商品名稱、型號與購買頁本身不能是這類商品。
 - 每筆商品都必須標示 `releaseDate`，代表上市/發售日期；若可信通路或品牌頁找不到明確日期，需填「找不到」，不要用評論日期、促銷日期、上架日或型號年份猜測。
 - 日期查核需保留 `release_date_research.json` 證據檔；非「找不到」項目必須有 `sourceUrl`、`sourceTitle`、`evidenceSnippet` 與 `confidence`，且 `releaseDate` 只能使用 `YYYY-MM-DD`、`YYYY-MM`、`YYYY`。
@@ -300,7 +300,7 @@
 
 ### 電腦螢幕
 
-- 至少 30 筆以上，現有 61 筆。
+- 至少 30 筆以上，現有 62 筆。
 - 需涵蓋 ASUS、Acer、BenQ、LG、Dell、Samsung、MSI、GIGABYTE、ViewSonic、AOC、Philips、EIZO、Xiaomi 等主流品牌。
 - 要混合入門 FHD、2K 高刷新、4K/USB-C、生產力、OLED、Mini LED、專業色彩等用途。
 - 必須涵蓋寬螢幕/超寬螢幕，例如 34 吋 21:9、45 吋 OLED、49 吋 32:9、57 吋 Dual UHD 等；描述要提醒桌深、顯卡與支架承重。
@@ -378,7 +378,7 @@
 - 嚴格限於封閉式櫃體、以吊掛衣物為核心並具除味／除皺／抑菌／柔護乾燥功能的設備；不得混入滾筒烘衣機、洗脫烘、除濕機、手持掛燙機、布罩式烘衣櫃、配件或停產庫存。
 - 每筆至少標示容量、護理技術、行程、乾燥方式、機身尺寸與重量、水箱／給排水、電壓頻率、耗電、噪音、連線功能、門向、安裝間距與材質限制。
 - 電子衣櫥不能取代洗衣、乾洗、熨燙或大量烘衣；海外款不得列為台灣 Top Pick，且需明確標示原幣、TWD 換算、國際運費、進口稅、插頭／電壓與台灣保固風險。
-- 目前 20 筆包含 LG 12、Samsung 6、Panasonic 2，並涵蓋不同容量、外觀、門向與台灣／海外正式款；同系列變體仍需以 exact model 分別查核。
+- 目前 21 筆包含 LG 12、Samsung 6、Panasonic 3，並涵蓋不同容量、外觀、門向與台灣／海外正式款；同系列變體仍需以 exact model 分別查核。
 
 ## UI / UX 規則
 
@@ -413,10 +413,10 @@
 ## 價格與匯率
 
 <!-- catalog-maintenance-summary:start -->
-- 2026-09-06 16:43（台灣時間）完成 1140 筆商品、37 類全量查核；499 筆 PChome SKU API 已完成（267 筆 exact model、65 筆人工 SKU 綁定可寫入，74 筆型號未自動確認），更新 8 筆公開價格（6 筆下修、2 筆上修），57 筆 Qty 0 只列追蹤。
-- 本次增量新增 purifier-philips-ac3681-81；本次增量沒有移除停產產品。沿用本資料日既有逐類人工新品覆核，並補查部分分類（原覆核時間保留），所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
-- 圖片查核覆蓋 1140 筆；827 筆來源可由 exact model 或人工 SKU 綁定確認，313 筆來源例外與 0 筆圖片例外保留原資料。史低為 506 筆 `found`、634 筆 `not_found`，本輪下修 1 筆；142 筆來源可自動重現，其餘保留原逐筆證據且未臆測失效。
-- ExchangeRate-API 最新批次為 2026-09-06 00:02 UTC，USD/TWD 31.638424；38 筆外幣商品已重算。完整摘要與例外保存在 `catalog_maintenance_latest.json`。
+- 2026-09-07 08:49（台灣時間）完成 1147 筆商品、37 類全量查核；500 筆 PChome SKU API 已完成（268 筆 exact model、65 筆人工 SKU 綁定可寫入，74 筆型號未自動確認），更新 47 筆公開價格（11 筆下修、36 筆上修），56 筆 Qty 0 只列追蹤。
+- 本次增量新增 garmentcare-panasonic-n-r600ar-x1、monitor-asus-xg27ucgr、soundbar-philips-tab8750-96、tv-benq-s65-960、tv-lg-65mrgb86bta、wifi-tplink-deco-be65-pro-2pack、wifi-ubiquiti-u7-pro-xgs；本次增量沒有移除停產產品。逐類人工新品覆核已完成，所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
+- 圖片查核覆蓋 1147 筆；839 筆來源可由 exact model 或人工 SKU 綁定確認，308 筆來源例外與 0 筆圖片例外保留原資料。史低為 507 筆 `found`、640 筆 `not_found`，本輪其他更正 5 筆；142 筆來源可自動重現，其餘保留原逐筆證據且未臆測失效。
+- ExchangeRate-API 最新批次為 2026-09-07 00:02 UTC，USD/TWD 31.631847；38 筆外幣商品已重算。完整摘要與例外保存在 `catalog_maintenance_latest.json`。
 <!-- catalog-maintenance-summary:end -->
 
 ## 驗證清單
@@ -427,7 +427,7 @@
 - `npm run check:logic`：純邏輯回歸，涵蓋排序、品牌依分類限制、史低／負評文案、問題摘要搜尋、來源 URL 安全、HTML escape 與 product-loader URL/錯誤。
 - `npm run check:data`：商品總數、分類數、必要欄位、日期格式、負評逐型號人工覆核、逐位反映者與研究檔對齊、重複 URL 與重複型號檢查通過。
 - `npm run check:docs`：README、AGENTS、index/config 的商品數、分類數、日期與 cache version 不漂移。
-- `npm run check:geo`：37 個分類頁、1140 款靜態型號索引、metadata、結構化資料、首頁分類入口、sitemap、llms、六份公開證據檔、Pages artifact、38 個 canonical URL 的 IndexNow contract 與產生結果均無漂移。
+- `npm run check:geo`：37 個分類頁、1147 款靜態型號索引、metadata、結構化資料、首頁分類入口、sitemap、llms、六份公開證據檔、Pages artifact、38 個 canonical URL 的 IndexNow contract 與產生結果均無漂移。
 - `npm run check:ui`：桌機與手機版主要互動流程通過。
 - `npm run check:quality`：Lighthouse 的 Performance、LCP、CLS、Accessibility 與 SEO 採瀏覽器行動 throttling，TBT 採 Lantern 標準化模擬；首頁 Performance ≥ 90、LCP ≤ 2.5s、CLS ≤ 0.1、TBT ≤ 200ms、Accessibility = 100、SEO ≥ 95；代表分類頁 Performance、Accessibility、SEO 均 ≥ 95。
 - 商品總數仍符合 README 與分類 tab 顯示。

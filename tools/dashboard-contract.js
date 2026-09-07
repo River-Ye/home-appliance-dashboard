@@ -1,9 +1,9 @@
 const EXPECTED_CATEGORY_COUNT = 37;
-const EXPECTED_PRODUCT_COUNT = 1140;
+const EXPECTED_PRODUCT_COUNT = 1147;
 const MIN_PRODUCTS_PER_CATEGORY = 20;
 const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
-  ["tv", 39],
-  ["soundbar", 36],
+  ["tv", 41],
+  ["soundbar", 37],
   ["fan", 24],
   ["circulator", 23],
   ["dehumidifier", 27],
@@ -14,7 +14,7 @@ const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["washer", 26],
   ["dryer", 24],
   ["washerdryer", 31],
-  ["garmentcare", 20],
+  ["garmentcare", 21],
   ["bedsheet", 30],
   ["comforter", 30],
   ["pillow", 30],
@@ -29,11 +29,11 @@ const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["waterheater", 45],
   ["bidet", 21],
   ["smartlock", 51],
-  ["wifi", 54],
+  ["wifi", 56],
   ["network-switch", 20],
   ["standingdesk", 27],
   ["chair", 28],
-  ["monitor", 61],
+  ["monitor", 62],
   ["monitor-light", 20],
   ["monitorarm", 25],
   ["mouse", 30],
@@ -43,12 +43,12 @@ const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
 const DATE_PATTERN = /^(找不到|\d{4}(?:[-/.]\d{1,2}(?:[-/.]\d{1,2})?)?)$/;
 const WASHER_DRYER_CAPACITY_PATTERN = /^洗\/乾容量：\d+(?:\.\d+)?kg \/ \d+(?:\.\d+)?kg$/;
 const DIMENSION_CATEGORY_COUNTS = new Map([
-  ["tv", 39],
-  ["soundbar", 36],
+  ["tv", 41],
+  ["soundbar", 37],
   ["washer", 26],
   ["dryer", 24],
   ["washerdryer", 31],
-  ["garmentcare", 20],
+  ["garmentcare", 21],
   ["bedsheet", 30],
   ["comforter", 30],
   ["pillow", 30],
@@ -76,8 +76,8 @@ const FORBIDDEN_MEASUREMENT_LABEL_PATTERN = "(?!.*(?:包裝|外箱|紙箱|毛重
 const DIMENSION_PATTERN = new RegExp(`^尺寸：${FORBIDDEN_MEASUREMENT_LABEL_PATTERN}(未標示|查不到|${DIMENSION_SEGMENT_PATTERN}(?:；${DIMENSION_SEGMENT_PATTERN})*)$`, "i");
 const DIMENSION_CONFIDENCE_VALUES = new Set(["high", "medium", "low", "not_found"]);
 const WEIGHT_CATEGORY_COUNTS = new Map([
-  ["tv", 39],
-  ["soundbar", 36],
+  ["tv", 41],
+  ["soundbar", 37],
   ["coffee", 24],
   ["oven", 25],
   ["aircon", 30],
@@ -360,14 +360,15 @@ const GARMENTCARE_MODELS = new Set([
   "DF80H24R1D",
   "HCC-R600AL-X",
   "N-RGB1R-W",
+  "N-R600AR-X1",
 ]);
 const GARMENTCARE_BRAND_COUNTS = new Map([
   ["LG", 12],
   ["Samsung", 6],
-  ["Panasonic", 2],
+  ["Panasonic", 3],
 ]);
 const GARMENTCARE_CHANNEL_COUNTS = new Map([
-  ["tw", 8],
+  ["tw", 9],
   ["global", 12],
 ]);
 const GARMENTCARE_SPEC_PREFIXES = [

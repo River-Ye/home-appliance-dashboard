@@ -690,9 +690,9 @@
     "name": "14 吋微電腦 DC 直流電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 1299,
-      "converted": 1299,
-      "confidence": "PChome 2026-09-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 1350,
+      "converted": 1350,
+      "confidence": "PChome 2026-09-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB1FA900EZLVB/000001_1685607577.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAB1F-A900EZLVB",
@@ -2142,7 +2142,7 @@
       "confidence": "Yahoo 購物中心 2026-08-14 exact canonical model 頁公開售價，IV 象牙白／MR 褐紅皆可加入購物車",
       "basis": "retailer_current"
     },
-    "image": "https://www.mitsubishielectric.com.tw/home/fan/images/r12adw_pd1.png",
+    "image": "https://img.yec.tw/cl/api/res/1.2/B_q0Phl5t4Acg.FQem2uPA--/YXBwaWQ9eXR3bWFsbDtoPTYwMDtxPTEwMDt3PTYwMA--/https://img.yec.tw/fy/1510/item/p0713236680756-item-c826xf4x1000x1000-m.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=p0713236680756",
     "buyLabel": "Yahoo 購物中心",
     "installation": {

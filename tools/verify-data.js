@@ -1904,7 +1904,7 @@ function validateCategoryContent(products, failures) {
   assert(
     garmentCareModels.size === GARMENTCARE_MODELS.size
       && [...GARMENTCARE_MODELS].every((model) => garmentCareModels.has(model)),
-    "garmentcare exact-model roster does not match the approved 20 models",
+    `garmentcare exact-model roster does not match the approved ${GARMENTCARE_MODELS.size} models`,
     failures,
   );
   for (const [brand, expectedCount] of GARMENTCARE_BRAND_COUNTS) {

@@ -888,8 +888,8 @@
     "price": {
       "currency": "USD",
       "amount": 189,
-      "converted": 5980,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-09-06 匯率換算"
+      "converted": 5978,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-09-07 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/fa8dd4e4-36c8-4c79-a928-22c7bff2ce29/ab5bc8a4-6135-402e-a695-e3ea5e16d3e6.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-pro",
@@ -968,8 +968,8 @@
     "price": {
       "currency": "USD",
       "amount": 159,
-      "converted": 5031,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-09-06 匯率換算"
+      "converted": 5029,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-09-07 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/8e88b222-7a55-4cf0-8677-ae9b6347fe84/e16aa122-b5e5-4ffb-9f1a-27ee14d9ab3d.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u6-pro",
@@ -1086,7 +1086,7 @@
       "currency": "USD",
       "amount": 99,
       "converted": 3132,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-09-06 匯率換算"
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-09-07 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/253cc208-4b09-4b2e-9d1a-7aa1e8f93507/49241c96-878f-4e40-8541-c2e89c1c5e6e.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-lite",
@@ -1562,7 +1562,7 @@
       "currency": "USD",
       "amount": 129,
       "converted": 4081,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-09-06 匯率換算"
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-09-07 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/6d5c6141-e2e9-416a-b789-53e59416bb1a/853bc73b-f65b-4e59-a171-75c9a4a4615e.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u6-plus",
@@ -1665,8 +1665,8 @@
     "price": {
       "currency": "USD",
       "amount": 279,
-      "converted": 8827,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-09-06 匯率換算"
+      "converted": 8825,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-09-07 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/350070a0-ae43-431b-b052-8e849c3b0a75/bad94693-bc54-4ab4-b060-9b972401941c.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-pro-max",
@@ -4141,9 +4141,9 @@
     "name": "BE3600 Wi-Fi 7 AiMesh 雙頻可擴充路由器",
     "price": {
       "currency": "TWD",
-      "amount": 3299,
-      "converted": 3299,
-      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 2999,
+      "converted": 2999,
+      "confidence": "PChome 2026-09-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJ5A900K6OV8/000001_1783069758.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJ5-A900K6OV8",
@@ -5232,6 +5232,220 @@
           "targetHost": "reddit.com",
           "query": "site:reddit.com \"U7 Pro XG\" \"2.5\" \"packet loss\"",
           "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22U7%20Pro%20XG%22%20%222.5%22%20%22packet%20loss%22"
+        }
+      ]
+    }
+  },
+  {
+    "id": "wifi-tplink-deco-be65-pro-2pack",
+    "category": "wifi",
+    "rank": 55,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "TP-Link",
+    "model": "Deco BE65 Pro 2入",
+    "name": "BE11000 三頻 Wi-Fi 7 5G 真 Mesh 路由器二入組",
+    "price": {
+      "currency": "TWD",
+      "amount": 14999,
+      "converted": 14999,
+      "basis": "retailer_current",
+      "confidence": "momo 2026-09-07 exact 二入組現售價；商品 14057325，頁面可直接購買、顯示當日到貨"
+    },
+    "image": "https://i4.momoshop.com.tw/1749042676/goodsimg/0014/057/325/14057325_R_m.webp",
+    "buyUrl": "https://www.momoshop.com.tw/product/14057325",
+    "buyLabel": "momo",
+    "specs": [
+      "Wi-Fi 7；台灣版 BE11000 三頻（6 GHz 5764 Mbps／5 GHz 4324 Mbps／2.4 GHz 688 Mbps）",
+      "Mesh：支援 Deco Mesh，二入組；可與其他 Deco 擴充，支援有線與無線同時回程",
+      "無線功能：6 GHz 320 MHz、MLO、4K-QAM；需相容終端與所在地可用頻道",
+      "網路埠：每台 2 個 5G WAN/LAN＋1 個 2.5G WAN/LAN，自動偵測 WAN/LAN；1 個 USB 埠",
+      "工作模式：無線路由器／Access Point；Deco App 管理，HomeShield 進階功能另需訂閱",
+      "尺寸：每台寬 10.75 × 深 10.75 × 高 17.6 cm",
+      "供電：隨附變壓器；輸入 AC 100–240V／50–60Hz／1A，輸出 DC 12V／3.3A；每台本體最大功耗 29W（不含變壓器）",
+      "操作溫度：0–40°C；每台需插電並保持散熱空間"
+    ],
+    "description": "台灣 BE11000 版 Deco BE65 Pro 二入組將 BE65 的有線連接升級為每台兩個 5G 埠，另保留一個 2.5G 埠，適合已有高速寬頻與多 Gigabit 有線回程的 Deco Mesh 家庭。",
+    "pros": [
+      "每台兩個 5G 埠，可同時安排高速 WAN 與有線回程",
+      "三頻 Wi-Fi 7、6 GHz 與有線／無線混合回程，支援其他 Deco 擴充",
+      "台灣公司貨二入現售，具在地本體三年保固"
+    ],
+    "cons": [
+      "同名海外版本可能為 BE9300；採購與韌體須確認台灣 BE11000 型號及硬體版本",
+      "6 GHz 穿牆與實際速率受擺位、牆面和終端影響；HomeShield 進階服務需訂閱",
+      "二入套組保固須整套送修；隨附電源供應器保固僅三個月",
+      "部分舊韌體／混合Mesh有連線與重啟個案；依台灣硬體版更新原廠韌體，部署後實測有線／無線回程、IoT與多Gig設備。"
+    ],
+    "bestFor": "準備以兩台 Deco 建立 5G 有線回程，並保留三頻 Wi-Fi 7 無線擴充彈性的家庭。",
+    "recommendation": "5G 回程升級推薦：相較 Deco BE65 的全 2.5G 埠，Pro 每台提供兩個 5G 埠；若家中設備與網路仍以 1G／2.5G 為主，既有 BE65 的成本較低。",
+    "score": 88,
+    "voltage": "台灣官方下載頁連結之 BE11000 Pro 規格表：變壓器 AC 100–240V／50–60Hz／1A → DC 12V／3.3A，適用台灣 110V／60Hz；每台本體最大 29W（不含變壓器）。 購買頁未明示硬體版號，實際出貨須以機身銘牌確認。",
+    "warranty": "台灣公司貨本體三年；momo 標示一年換新。官方規定隨附電源供應器三個月、二入套組須整套送修；快換須符合官方資格與備品條件。",
+    "installation": {
+      "status": "not_stated",
+      "note": "通路未標示到府網路安裝；自行插電並使用 Deco App 設定，另需既有網路服務，有線回程佈線費用未含。"
+    },
+    "tags": [
+      "Wi-Fi 7",
+      "Mesh",
+      "三頻",
+      "5G",
+      "2.5G",
+      "二入組",
+      "台灣公司貨"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "found",
+      "amount": 11999,
+      "currency": "TWD",
+      "converted": 11999,
+      "sourceUrl": "https://www.tp-link.com/tw/press/news/21798/",
+      "sourceTitle": "TP-Link 618盛夏購物節開跑！",
+      "evidenceSnippet": "2025年6月2日台灣官方公告的「momo購物網｜6/3品牌日」列Deco BE65 pro BE11000二入組優惠11,999元、原價14,999元。",
+      "sourceKind": "official_sale",
+      "confidence": "high",
+      "checkedAt": "2026-09-07",
+      "note": "本輪可公開核實的台灣同型BE11000二入組歷史促銷低價，活動日2025-06-03；不是由本輪14999現價推定，也不保證全網終身最低。採官方直接列出的11999特惠價，不另外疊扣同頁滿額折扣、不計mo幣、抽獎、會員個人券或信用卡回饋。BigGo泛型號頁另混非Pro/PoE/單入/三入，未取得更低的可採Pro二入時間點。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-09-07",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "\"Deco BE65 Pro\" site:reddit.com problem disconnect",
+          "queryUrl": "https://www.google.com/search?q=%22Deco%20BE65%20Pro%22%20site%3Areddit.com%20problem%20disconnect",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "\"Deco BE65 Pro\" site:mobile01.com 問題",
+          "queryUrl": "https://www.google.com/search?q=%22Deco%20BE65%20Pro%22%20site%3Amobile01.com%20%E5%95%8F%E9%A1%8C",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "\"Deco BE65 Pro\" site:ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=%22Deco%20BE65%20Pro%22%20site%3Aptt.cc",
+          "targetHost": "ptt.cc"
+        }
+      ]
+    }
+  },
+  {
+    "id": "wifi-ubiquiti-u7-pro-xgs",
+    "category": "wifi",
+    "rank": 56,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Ubiquiti",
+    "model": "U7 Pro XGS",
+    "name": "UniFi 三頻 Wi-Fi 7 10GbE 管理型 AP（白色 U7-Pro-XGS）",
+    "price": {
+      "currency": "TWD",
+      "amount": 12515,
+      "converted": 12515,
+      "basis": "retailer_current",
+      "confidence": "Ubiquiti 台灣官方商店 2026-09-07 白色單台公開可購買價；基價 11,599 元，含 VAT 及附加費合計 12,515 元，未加 UI Care 或 PoE 配件"
+    },
+    "image": "https://cdn.ecomm.ui.com/products/1604d78c-6e51-4fe8-a8e5-0110cc332ba0/9ab19ab5-f76f-4d66-b91f-b31062fae149.png",
+    "buyUrl": "https://tw.store.ui.com/tw/en/category/wifi-flagship/products/u7-pro-xgs",
+    "buyLabel": "Ubiquiti 台灣官方商店",
+    "installation": {
+      "status": "excluded",
+      "note": "AP 單台與 Lite Mount；需另備 PoE++ 供電器或交換器、Gateway／路由器、UniFi 管理環境、網路線及現場配線安裝。"
+    },
+    "specs": [
+      "類型：UniFi 管理型 AP，不具一般家用一體式 NAT 路由器功能；需既有 Gateway／路由器",
+      "無線：Wi-Fi 7 三頻，共 8 空間串流；2.4 GHz 2×2、5 GHz 4×4、6 GHz 2×2",
+      "管理與 Mesh：UniFi Network 管理及 Wireless Meshing；多 AP 可採有線回程，支援 802.11k／v／r 漫遊",
+      "有線：1 個 RJ45，10／5／2.5／1GbE；獨立頻譜掃描無線電及即時頻譜分析",
+      "供電：PoE++，42.5–57V DC，最大功耗 29W；AP 價格不含供電器",
+      "尺寸：直徑 21.5 × 厚 3.25 cm；重量：0.8 kg",
+      "安裝：天花板／牆面，隨附 Lite Mount；操作溫度 -30 至 40°C",
+      "容量：官方標示覆蓋 160m²、500+ 用戶端，實際視牆體、干擾與流量而定",
+      "軟體：白色 U7-Pro-XGS 需 UniFi Network 9.0.114 或更新版本；6 GHz 頻道與頻寬須按台灣可用範圍設定"
+    ],
+    "description": "U7 Pro XGS 在 U7 Pro XG 的 10GbE 與三頻 Wi-Fi 7 架構上，增加 5 GHz 4×4、共八空間串流與獨立頻譜掃描。適合已有 UniFi 管理與 PoE 架構、需要分析干擾和服務較多終端的住宅或工作空間。",
+    "pros": [
+      "10GbE 上行、5 GHz 4×4 與八空間串流，擴充多終端容量",
+      "獨立頻譜掃描與 UniFi 多 AP 管理，可協助調整干擾環境",
+      "台灣官方直營新品，自交付日起兩年有限保固"
+    ],
+    "cons": [
+      "必須另備 PoE++，供電與建置成本高於使用 PoE+ 的 U7 Pro XG",
+      "不能取代 Gateway／路由器；單台 AP 價格未含供電器、網路線及施工",
+      "6 GHz 穿牆、實際速率和漫遊仍受環境與終端限制，需在安裝後驗收",
+      "六名同型號使用者跨兩站回報 AP 離線或無回應，部分需重啟；含十個月首次及後續韌體已修復的個案，不能推定共同根因或目前版本均受影響。需在退換貨期以實際 PoE++、線材與交換器長時間驗收。"
+    ],
+    "bestFor": "已有 UniFi 架構，重視 5 GHz 多終端容量、10GbE 上行與無線干擾分析的進階使用者。",
+    "recommendation": "進階多 AP 比較候選：相較 U7 Pro XG 增加 5 GHz 串流與獨立掃描；有達門檻的 AP 失聯回報，應先小規模驗收。若終端少且不需頻譜分析，現有 XG 成本較低。",
+    "score": 86,
+    "voltage": "AP 本體市電不適用；PoE++ 42.5–57V DC，最大 29W。另購供電器或 PoE 交換器須核對台灣 AC 輸入與總供電預算。",
+    "warranty": "Ubiquiti 台灣官方網店直接購買，自交付日起兩年有限保固；透過 support.tw@ui.com／RMA 申請，回運及拆裝費依官方條款。UI Care 五年為另付費選項。",
+    "tags": [
+      "Wi-Fi 7",
+      "UniFi",
+      "Mesh",
+      "10GbE",
+      "PoE++",
+      "管理型 AP",
+      "頻譜分析"
+    ],
+    "releaseDate": "2025-03-10",
+    "historicalLow": {
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "status": "not_found",
+      "checkedAt": "2026-09-07",
+      "note": "當日台灣官方白色單台含VAT/附加費12515僅為現價，不回填史低；11599為未稅基價不能直接比。BuyWisely有2026-06-08 AUD399.45歷史低點，但同頁合併白U7-Pro-XGS與黑-B，未辨明該日店家/顏色/新品條件，不採本SKU史低。台灣BigGo搜尋未找到可用歷史點且直開受阻。未找到可獨立核實的同SKU可靠新品歷史最低價。"
+    },
+    "issueResearch": {
+      "status": "common_issue",
+      "checkedAt": "2026-09-07",
+      "summary": "六位 U7 Pro XGS 使用者跨 Reddit 與 Ubiquiti Community 回報 AP 本體離線、無回應或停止服務；部分藉重啟／斷電恢復，其中一位的後續韌體更新已解決場域問題。",
+      "issues": [
+        {
+          "title": "AP 本體離線或無回應，需重啟／斷電恢復",
+          "detail": "只計thesnowdog、alexgarrett、Builda、itsjakerobb、thankyourob、iFeeltech六位明述AP本體offline、無回應或重啟的作者；不把僅clients重連、SSID消失、DNS/IPv6、低速或PoE不足混入。thankyourob為十個月首次，不能宣稱每人反覆；iFeeltech本人後續稱韌體更新已修復，未列build。證據支持可觀察的AP失聯現象，尚未證明共同根因、現版全數未修、硬體故障率或台灣白款每台均受影響。採購時應核實PoE++與實際線材/交換器，保留韌體與失聯監測紀錄，在退換貨期進行多日測試。",
+          "reportCount": 6,
+          "sources": [
+            {
+              "platform": "Ubiquiti Community",
+              "title": "Constant disconnects from multiple U7 Pro XGS APs",
+              "url": "https://community.ui.com/questions/Constant-disconnects-from-multiple-U7-Pro-XGS-APs/bdb65953-e2ce-4961-96a7-3f520c02b51c"
+            },
+            {
+              "platform": "Reddit",
+              "title": "Incredibly unstable U7 Pro XG's major packet loss after running for some hours",
+              "url": "https://www.reddit.com/r/Ubiquiti/comments/1l4j2g4/incredibly_unstable_u7_pro_xgs_major_packet_loss/"
+            },
+            {
+              "platform": "Reddit",
+              "title": "U7 Pro XGSes keep going offline. Help?",
+              "url": "https://www.reddit.com/r/Ubiquiti/comments/1vklrsg/u7_pro_xgses_keep_going_offline_help/"
+            },
+            {
+              "platform": "Reddit",
+              "title": "U7 In-Wall APs randomly going offline weekly",
+              "url": "https://www.reddit.com/r/Ubiquiti/comments/1slil9g/comment/oppguuc/"
+            },
+            {
+              "platform": "Ubiquiti Community",
+              "title": "Multiple U7 APs Randomly Going Offline in One Specific Office Location",
+              "url": "https://community.ui.com/questions/Multiple-U7-APs-Randomly-Going-Offline-in-One-Specific-Office-Location/bb14a280-59af-45dd-a0cd-58982e86b4ea"
+            }
+          ]
         }
       ]
     }

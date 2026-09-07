@@ -1,16 +1,16 @@
 {
   "summary": {
-    "checkedAt": "2026-09-06T08:31:03.220Z",
-    "total": 1140,
-    "researchedThisRun": 1,
-    "found": 337,
-    "missing": 803,
+    "checkedAt": "2026-09-07T00:42:01.981Z",
+    "total": 1147,
+    "researchedThisRun": 7,
+    "found": 341,
+    "missing": 806,
     "byConfidence": {
       "official": 187,
-      "not_found": 800,
+      "not_found": 803,
       "retailer_explicit": 22,
       "credible_article": 52,
-      "high": 60,
+      "high": 64,
       "medium": 16,
       "unknown": 3
     }
@@ -35040,6 +35040,203 @@
           "outcome": "/81標題重用寫/80的2024升級行銷圖，排除年份移用。"
         }
       ]
+    },
+    {
+      "id": "garmentcare-panasonic-n-r600ar-x1",
+      "category": "garmentcare",
+      "brand": "Panasonic",
+      "model": "N-R600AR-X1",
+      "name": "鏡面黑 3 件式熱泵蒸氣電子衣櫥",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"N-R600AR-X1\" 上市 發售",
+      "checkedAt": "2026-09-07",
+      "sourceKind": "not_found",
+      "auditDisposition": "confirmed_not_found",
+      "reason": "已查官方產品、官店、PoME與202510官方型錄搜尋。型錄僅寫預計12月上市且原PDF本次404；2025/12/22 PoME手織活動是文章發布日，不是上市公告；百貨新品標示與型號上架日也不替代明確上市日期。",
+      "checkedSources": [
+        {
+          "url": "https://www.panasonic.com/tw/consumer/washing-machine/e-wardrobe/n-r600ar-x1.html",
+          "title": "Panasonic 台灣 N-R600AR-X1",
+          "outcome": "可读原頁尺寸與功能，未有明確上市年月日。"
+        },
+        {
+          "url": "https://pstw.panasonic.com.tw/PoME/news-detail-new-product/30278/",
+          "title": "PoME 愛(AI)上秋冬手織的溫暖時尚",
+          "outcome": "2025/12/22為活動文章發布日，不能當上市日。"
+        }
+      ]
+    },
+    {
+      "id": "soundbar-philips-tab8750-96",
+      "category": "soundbar",
+      "brand": "Philips",
+      "model": "TAB8750/96",
+      "name": "7.1.4 聲道無線重低音與後環繞 Dolby Atmos 聲霸套裝",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"TAB8750/96\" 上市 發售 推出",
+      "auditQueries": [
+        "\"TAB8750/96\" \"上市\"",
+        "\"TAB8750/96\" \"發售\"",
+        "\"TAB8750\" \"launch\" Philips",
+        "\"TAB8750\" \"推出\""
+      ],
+      "sourceKind": "not_found",
+      "reason": "官方exact產品/支援與Costco已確認現售，但沒有可核對上市/發售日期；4/3手冊、4/7小冊子及3/23快速指南日期是文件發布，6/25日本VGP獲獎公告不是台灣/96上市。Flying Acoustic只寫上市資訊洽客服，均不採為上市日。",
+      "checkedAt": "2026-09-07",
+      "auditDisposition": "not_found",
+      "checkedSources": [
+        "https://www.philips.com.tw/c-p/TAB8750_96/soundbar-soundbar-714-with-wireless-subwoofer",
+        "https://www.philips.com.tw/c-p/TAB8750_96/soundbar-soundbar-714-with-wireless-subwoofer/support",
+        "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Soundbars-Home-Theater/Philips-714-Dolby-Atmos-Soundbar-TAB875096/p/159453",
+        "https://www.flyingacoustic.com/zh-hant/pages/philips-tab8750-soundbar"
+      ]
+    },
+    {
+      "id": "tv-benq-s65-960",
+      "category": "tv",
+      "brand": "BenQ",
+      "model": "S65-960",
+      "name": "65 型 S-960 Mini LED 量子點 144Hz 遊戲 Google TV",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2025-12-22",
+      "sourceUrl": "https://www.newspie.com.tw/benq-s-960-j-770-google-tv-20251201/",
+      "sourceTitle": "News Pie：BenQ推出S-960與J-770全新Mini LED量子點遊戲Google TV系列",
+      "evidenceSnippet": "報導明載S-960系列65吋及85吋於2025年12月22日上市，並列S65-960建議售價49900元。",
+      "confidence": "high",
+      "query": "\"BenQ S65-960\" 上市 發售 開賣",
+      "auditQueries": [
+        "\"S65-960\" \"12月22\"",
+        "site:benq.com/zh-tw \"S65-960\" 上市"
+      ],
+      "sourceKind": "credible_media",
+      "reason": "採明確指出65吋開賣日的台灣新品報導，不以文章發布日或型號年份推定。",
+      "checkedAt": "2026-09-07",
+      "auditDisposition": "added"
+    },
+    {
+      "id": "tv-lg-65mrgb86bta",
+      "category": "tv",
+      "brand": "LG",
+      "model": "65MRGB86BTA",
+      "name": "65 吋 Mini RGB evo AI 4K 智慧顯示器 86系列",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2026-07-08",
+      "sourceUrl": "https://www.lg.com/tw/about-lg/press-and-media/lg-tv-smart-monitor-new-launch-20260708/",
+      "sourceTitle": "LG台灣：「壁畫系列」經典再現 LG OLED evo W6 極薄登場！",
+      "evidenceSnippet": "官方稿明示2026年7月8日台北訊，正式推出2026全新智慧顯示器陣容，包含Mini RGB evo 86系列；本款官方exact頁列65MRGB86BTA為該86系列。",
+      "confidence": "high",
+      "query": "site:lg.com/tw/about-lg/press-and-media \"Mini RGB\" \"正式\"",
+      "auditQueries": [
+        "\"65MRGB86BTA\" 上市 發售",
+        "site:lg.com/tw \"Mini RGB evo 86\" \"7月8日\""
+      ],
+      "sourceKind": "official_announcement",
+      "reason": "採台灣官方明確宣布86系列推出之日期；未以產品頁2026型號年份或促銷日期代替。",
+      "checkedAt": "2026-09-07",
+      "auditDisposition": "added"
+    },
+    {
+      "id": "wifi-tplink-deco-be65-pro-2pack",
+      "category": "wifi",
+      "brand": "TP-Link",
+      "model": "Deco BE65 Pro 2入",
+      "name": "BE11000 三頻 Wi-Fi 7 5G 真 Mesh 路由器二入組",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "query": "\"Deco BE65 Pro\" \"上市\" 台灣",
+      "auditQueries": [
+        "\"Deco BE65 Pro\" \"上市\" 台灣",
+        "\"Deco BE65 Pro\" \"launch\" site:tp-link.com",
+        "site:tp-link.com/jp/press/news/ \"Deco BE65 Pro\" \"2024\""
+      ],
+      "reason": "查台灣官方產品/新聞、CES2024報導及日本官方發售公告。台灣現售BE11000頁無明確首次上市日；CES報導的台灣近期上市指非Pro的BE65。日本2024-10-10發售為BE9300（5GHz2882Mbps），不同地域規格，不能填台灣BE11000（4324Mbps）的上市日。US首版韌體2024-04-15、官方CMS/PDF日期、促銷2025-06-03都不當產品上市日期。",
+      "checkedAt": "2026-09-07",
+      "auditDisposition": "new_not_found",
+      "checkedSources": [
+        "https://www.tp-link.com/tw/home-networking/deco/deco-be65-pro/",
+        "https://www.tp-link.com/tw/press/news/21798/",
+        "https://www.tp-link.com/jp/press/news/21361/",
+        "https://www.mobile01.com/topicdetail.php?f=110&t=6907971",
+        "https://www.tp-link.com/us/support/download/deco-be65-pro/v1/"
+      ]
+    },
+    {
+      "id": "monitor-asus-xg27ucgr",
+      "category": "monitor",
+      "brand": "ASUS",
+      "model": "XG27UCGR",
+      "name": "ROG Strix XG27UCG Gen2 27 型 4K 162Hz／FHD 485Hz 雙模 Fast IPS 電競螢幕（黑色）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2026-04",
+      "sourceUrl": "https://press.asus.com/news/press-releases/asus-rog-strix-tuf-gaming-4k-dual-mode-monitors/",
+      "sourceTitle": "ASUS Announces Availability of ROG Strix and TUF Gaming Dual Mode Monitors",
+      "evidenceSnippet": "ASUS 2026-04-24 官方新聞稿明文宣布 ROG Strix XG27UCG Gen2（XG27UCGR）現已供貨（are now available）。",
+      "confidence": "high",
+      "sourceKind": "official_press_release",
+      "query": "\"XG27UCGR\" site:asus.com \"2026\"",
+      "auditQueries": [
+        "ASUS XG27UCGR 上市 發售",
+        "\"XG27UCGR\" site:asus.com \"2026\"",
+        "\"XG27UCGR\" \"上市\" site:asus.com/tw",
+        "\"XG27UCGR\" \"12888\" \"上市\""
+      ],
+      "checkedAt": "2026-09-07",
+      "auditDisposition": "new_found",
+      "reason": "官方2026-04-24明文 availability 公告與台灣原價屋2026-04-20上市促銷同月，採2026-04，保留官方全球/台灣通路日差異，不聲稱最早首賣日。PTT 2/16 是多款情報，已有貨文字指XG27UCSR / XG27JCG；中國3月、韓國登錄月、手冊日期與PChome9/1評價日期均不套為台灣首賣。",
+      "checkedSources": [
+        "https://press.asus.com/news/press-releases/asus-rog-strix-tuf-gaming-4k-dual-mode-monitors/",
+        "https://www.coolpc.com.tw/tw/shop/monitor/rog-strix-xg27ucg-gen2/",
+        "https://www.ptt.cc/bbs/LCD/M.1771217063.A.579.html",
+        "https://www.asus.com/sg/news/r68cbyp6aalq4x1d/"
+      ],
+      "regionalBoundary": {
+        "taiwanRetailerAnnouncement": "2026-04-20",
+        "officialGlobalAvailabilityAnnouncement": "2026-04-24",
+        "singaporeAvailabilityAnnouncement": "2026-05-07",
+        "safeTaiwanMonth": "2026-04"
+      }
+    },
+    {
+      "id": "wifi-ubiquiti-u7-pro-xgs",
+      "category": "wifi",
+      "brand": "Ubiquiti",
+      "model": "U7 Pro XGS",
+      "name": "UniFi 三頻 Wi-Fi 7 10GbE 管理型 AP（白色 U7-Pro-XGS）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2025-03-10",
+      "sourceUrl": "https://blog.ui.com/article/introducing-pro-xg-line-up",
+      "sourceTitle": "Introducing Pro XG Lineup",
+      "evidenceSnippet": "Ubiquiti 官方2025-03-10介紹全新Pro XG產品線，明確分列標準六串流U7 Pro XG及八串流、獨立頻譜掃描的U7 Pro XGS，並描述白/黑配色。",
+      "confidence": "high",
+      "sourceKind": "official_product_announcement",
+      "query": "\"U7-Pro-XGS\" \"上市\" 台灣",
+      "auditQueries": [
+        "\"U7-Pro-XGS\" \"上市\" 台灣",
+        "\"U7 Pro XGS\" launch release March 2025"
+      ],
+      "checkedAt": "2026-09-07",
+      "auditDisposition": "new_found",
+      "reason": "採官方全球產品發表日期；不是台灣首批現售日期，台灣上市日另未確認。沒有把韌體8.0.49/8.6.10/8.7.11發行日或NCC/文件日期當產品上市日。",
+      "checkedSources": [
+        "https://blog.ui.com/article/introducing-pro-xg-line-up",
+        "https://tw.store.ui.com/tw/en/category/wifi-flagship/products/u7-pro-xgs"
+      ],
+      "regionalBoundary": "2025-03-10為官方全球介紹/發表；台灣首次開賣日找不到，當日台灣現售資格由review_work另核。"
     }
   ]
 }

@@ -324,9 +324,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/4455399AAF-SP-22083802.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 13920,
-      "converted": 13920,
-      "confidence": "Yahoo購物中心 2026-09-04 exact-model 公開結構化價格",
+      "amount": 14500,
+      "converted": 14500,
+      "confidence": "Yahoo購物中心 2026-09-07 exact-model 公開結構化價格",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -737,9 +737,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/E1024B61CD-SP-22132101.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 30990,
-      "converted": 30990,
-      "confidence": "www.momoshop.com.tw 2026-09-06 exact-model 公開新品價人工覆核"
+      "amount": 33488,
+      "converted": 33488,
+      "confidence": "2026-09-07 人工覆核：Chrome人工核對exact型號促銷價與數量選擇、直接購買/加入購物車；排除另領商店券、點數、信用卡回饋，不將標準配送約期當預購。"
     },
     "channel": "tw",
     "buyLabel": "momo購物",
@@ -840,9 +840,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/3F8C495537-SP-22128108.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 19190,
-      "converted": 19190,
-      "confidence": "www.momoshop.com.tw 2026-09-06 exact-model 公開新品價人工覆核"
+      "amount": 20148,
+      "converted": 20148,
+      "confidence": "2026-09-07 人工覆核：Chrome人工核對exact型號促銷價與數量選擇、直接購買/加入購物車；排除另領商店券、點數、信用卡回饋，不將標準配送約期當預購。"
     },
     "channel": "tw",
     "buyLabel": "momo購物",
@@ -2596,7 +2596,7 @@
       "confidence": "雅光電器 2026-08-14 exact-model 新品頁公開售價並標示尚有庫存",
       "basis": "retailer_current"
     },
-    "image": "https://www.mitsubishielectric.com.tw/product1_list/home/refrigerator/images/mrwx53c_pd1.png",
+    "image": "https://cdn1-next.cybassets.com/media/W1siZiIsIjI3Njc0L3Byb2R1Y3RzLzQ0NjYyNTkzLzE3MDYxNTcxODVfYTJlOWQ3ZWJkYzE5NzZjNjk5NTYuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=04b5f131ce6672e3",
     "buyUrl": "https://www.yk01.com.tw/products/mrwx53c",
     "buyLabel": "雅光電器",
     "installation": {
@@ -2704,7 +2704,7 @@
       "confidence": "PChome MR-WZ54N-W-C 星光白公開新品價；2026-09-06 以商品頁及 API Price.P=68310、Qty=5核對，不含信用卡或點數回饋。",
       "basis": "retailer_current"
     },
-    "image": "https://www.mitsubishielectric.com.tw/home/refrigerator/images/mrwz54n_pd2.png",
+    "image": "https://img.pchome.com.tw/cs/items/DPAC34A900KEBDC/000001_1788243890.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAC34-A900KEBDC",
     "buyLabel": "PChome",
     "installation": {

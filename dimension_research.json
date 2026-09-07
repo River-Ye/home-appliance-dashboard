@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06",
+  "generatedAt": "2026-09-07",
   "sourcePolicy": "本站共 21 類尺寸、13 類重量研究，尺寸涵蓋 電視、Soundbar、冷氣、洗衣機、烘衣機、洗烘衣機(多功能型)、電子衣櫥（衣物護理機）、床包、棉被、枕頭、冰箱、咖啡機、多功能氣炸烤箱／微波爐、洗碗機、熱水器、免治馬桶、網路交換器、螢幕燈、滑鼠、鍵盤、滑鼠墊。優先採 exact-model／相同版本的官方產品頁、官方規格表或官方 PDF，其次為可信新品通路。只採本體／機身／明確組件的尺寸與淨重，排除包裝、外箱尺寸與毛重；來源沒有明示軸序時不自行推定。既有家電與床包、棉被、枕頭維持 cm／kg，滑鼠、鍵盤與滑鼠墊使用 mm／g 並保留來源軸序。滑鼠墊厚度、床包可包覆高度另列；棉被的填充重量與整件淨重分開記錄。冷氣分列室內機與室外機，熱泵複合熱水器分列主機與儲槽。generatedAt 為最新證據批次日期，既有逐筆 checkedAt 與 weightCheckedAt 保留原查核日期，不表示重新查核。",
   "results": [
     {
@@ -9688,6 +9688,83 @@
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
       "weightCheckedAt": "2026-09-06"
+    },
+    {
+      "id": "garmentcare-panasonic-n-r600ar-x1",
+      "category": "garmentcare",
+      "brand": "Panasonic",
+      "model": "N-R600AR-X1",
+      "name": "鏡面黑 3 件式熱泵蒸氣電子衣櫥",
+      "dimension": "尺寸：寬 45 x 深 61.3 x 高 173.4 cm",
+      "sourceUrl": "https://www.panasonic.com/tw/consumer/washing-machine/e-wardrobe/n-r600ar-x1.html",
+      "sourceTitle": "Panasonic 台灣 N-R600AR-X1 官方產品與官店規格圖",
+      "evidenceSnippet": "官方產品頁尺寸與重量圖明列高1734mm、寬450mm、深613mm，換算W45×D61.3×H173.4cm。官店原始規格圖另明列exact N-R600AR-X1、110V/60Hz/1450W、產品重量69kg；未採包装尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-09-07",
+      "weight": "重量：69 kg",
+      "weightSourceUrl": "https://pstw.panasonic.com.tw/shop/Upload/Product/20251217182616KITUBD3X.jpg",
+      "weightSourceTitle": "Panasonic 官方商城 N-R600AR-X1 詳細規格原圖",
+      "weightEvidenceSnippet": "圖尾詳細規格：N-R600AR-X1，產品重量69kg；非毛重。",
+      "weightConfidence": "high",
+      "weightCheckedAt": "2026-09-07",
+      "checkedSources": [
+        "https://www.panasonic.com/tw/consumer/washing-machine/e-wardrobe/n-r600ar-x1.html",
+        "https://pstw.panasonic.com.tw/Shop/product/detail/YWPRU0ZUDKYIQ757QL6H",
+        "https://pstw.panasonic.com.tw/shop/Upload/Product/20251217182616KITUBD3X.jpg"
+      ]
+    },
+    {
+      "id": "soundbar-philips-tab8750-96",
+      "dimension": "尺寸：主機 寬 98 x 深 13 x 高 6.6 cm；重低音 寬 23.8 x 深 23.8 x 高 35 cm；後環繞喇叭（每支） 寬 6.6 x 深 13 x 高 23.3 cm",
+      "sourceUrl": "https://www.documents.philips.com/assets/20260403/ad4745b71ad34f339e5db4210030f5e9.pdf",
+      "sourceTitle": "Philips TAB8750/96 台灣版使用手冊第18頁",
+      "evidenceSnippet": "第18頁寬×高×深：主機980×66×130mm、重低音238×350×238mm、環繞66×233×130mm；已視覺覆核表格軸序，換算cm並排為寬深高。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-09-07",
+      "weight": "重量：主機 3.45 kg；重低音 4.2 kg；後環繞喇叭（每支，共 2 支） 0.8 kg",
+      "weightSourceUrl": "https://www.documents.philips.com/assets/20260403/ad4745b71ad34f339e5db4210030f5e9.pdf",
+      "weightSourceTitle": "Philips TAB8750/96 台灣版使用手冊第18頁",
+      "weightEvidenceSnippet": "主機3.45kg、重低音4.2kg、環繞0.8kg×2；已視覺覆核。",
+      "weightConfidence": "high",
+      "weightIsOfficialSource": true,
+      "weightCheckedAt": "2026-09-07",
+      "note": "官方exact產品頁與台灣版手冊一致，優先於Costco較大尺寸/9.8kg彙總。排除官方頁包裝12.845kg及外箱27.335kg，不使用合計/包裝重量。"
+    },
+    {
+      "id": "tv-benq-s65-960",
+      "dimension": "尺寸：不含底座 寬 144.55 x 深 6.59 x 高 83.92 cm；含底座 寬 144.55 x 深 35.2 x 高 87.58 cm",
+      "sourceUrl": "https://www.benq.com/zh-tw/tv/miniled/s65-960/spec.html",
+      "sourceTitle": "BenQ S65-960 台灣官方規格",
+      "evidenceSnippet": "官方W×H×D：不含腳架1445.5×839.2×65.9mm；含腳架1445.5×875.8×352mm，換算cm且依原軸序對應。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-09-07",
+      "weight": "重量：不含底座 21.8 kg；含底座 22.7 kg",
+      "weightSourceUrl": "https://www.benq.com/zh-tw/tv/miniled/s65-960/spec.html",
+      "weightSourceTitle": "BenQ S65-960 台灣官方規格",
+      "weightEvidenceSnippet": "官方重量：不含腳架21.8kg；含腳架22.7kg。",
+      "weightConfidence": "high",
+      "weightIsOfficialSource": true,
+      "weightCheckedAt": "2026-09-07"
+    },
+    {
+      "id": "tv-lg-65mrgb86bta",
+      "dimension": "尺寸：不含底座 寬 145.6 x 深 4.99 x 高 84.6 cm；含底座 寬 145.6 x 深 28.5 x 高 92.8／89.1 cm",
+      "sourceUrl": "https://www.lg.com/tw/tv-soundbars/mini-rgb-evo/65mrgb86bta/",
+      "sourceTitle": "LG65MRGB86BTA台灣官方規格",
+      "evidenceSnippet": "官方WxHxD：不含底座1456×846×49.9mm；含底座1456×928/891×285mm，保留雙高度並換算cm。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-09-07",
+      "weight": "重量：不含底座 22.8 kg；含底座 26.6 kg",
+      "weightSourceUrl": "https://www.lg.com/tw/tv-soundbars/mini-rgb-evo/65mrgb86bta/",
+      "weightSourceTitle": "LG65MRGB86BTA台灣官方規格",
+      "weightEvidenceSnippet": "官方淨重不含底座22.8kg、含底座26.6kg，排除32.7kg外箱重量。",
+      "weightConfidence": "high",
+      "weightIsOfficialSource": true,
+      "weightCheckedAt": "2026-09-07"
     }
   ]
 }

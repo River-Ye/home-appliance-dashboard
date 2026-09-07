@@ -743,9 +743,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/1f2a33ce70-Gd-10053955.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 43563,
-      "converted": 43563,
-      "confidence": "Yahoo購物中心 2026-09-04 exact-model 公開結構化價格",
+      "amount": 44910,
+      "converted": 44910,
+      "confidence": "Yahoo購物中心 2026-09-07 exact-model 公開結構化價格",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -848,9 +848,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/826F52E782-SP-22137065.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 31990,
-      "converted": 31990,
-      "confidence": "www.momoshop.com.tw 2026-09-06 exact-model 公開新品價人工覆核"
+      "amount": 34022,
+      "converted": 34022,
+      "confidence": "2026-09-07 人工覆核：Chrome人工核對exact型號促銷價與數量選擇、直接購買/加入購物車；排除另領商店券、點數、信用卡回饋，不將標準配送約期當預購。"
     },
     "channel": "tw",
     "buyLabel": "momo購物",
@@ -1680,9 +1680,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/41046DB844-SP-12334280.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 34345,
-      "converted": 34345,
-      "confidence": "Yahoo購物中心 2026-09-04 exact-model 公開結構化價格"
+      "amount": 36930,
+      "converted": 36930,
+      "confidence": "Yahoo購物中心 2026-09-07 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",

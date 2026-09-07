@@ -17,9 +17,9 @@
     "name": "27 型 2K 180Hz IPS USB-C 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 5068,
-      "converted": 5068,
-      "confidence": "PChome 2026-09-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 5218,
+      "converted": 5218,
+      "confidence": "PChome 2026-09-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABKBA900JZ3CV/000001_1777866944.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABKB-A900JZ3CV",
@@ -400,9 +400,9 @@
     "name": "27 型 FHD 144Hz IPS 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 2840,
-      "converted": 2840,
-      "confidence": "PChome 2026-09-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 2990,
+      "converted": 2990,
+      "confidence": "PChome 2026-09-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABPDA900JTLEG/000001_1773715062.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABPD-A900JTLEG",
@@ -895,9 +895,9 @@
     "name": "27 型 4K USB-C 70W 商務螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 28900,
-      "converted": 28900,
-      "confidence": "PChome 2026-09-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 29900,
+      "converted": 29900,
+      "confidence": "PChome 2026-09-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABGVA900JG58D/000001_1763013340.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABGV-A900JG58D",
@@ -1984,9 +1984,9 @@
     "name": "27 型 4K Thunderbolt USB-C UltraSharp 螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 23888,
-      "converted": 23888,
-      "confidence": "PChome 2026-09-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 24888,
+      "converted": 24888,
+      "confidence": "PChome 2026-09-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOLA900IIFQG/000001_1744702043.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABOL-A900IIFQG",
@@ -2277,9 +2277,9 @@
     "name": "27 型 WQHD 360Hz QD-OLED 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 18333,
-      "converted": 18333,
-      "confidence": "Yahoo購物中心 2026-09-04 exact-model 公開結構化價格"
+      "amount": 18900,
+      "converted": 18900,
+      "confidence": "Yahoo購物中心 2026-09-07 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBC1ZA900HE04M/000001_1757303897.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/MSI%E5%BE%AE%E6%98%9F-MPG-271QRX-QD-OLED-27%E5%9E%8B-2K-360Hz-HDR%E9%9B%BB%E7%AB%B6%E8%9E%A2%E5%B9%95-10958143.html",
@@ -2462,9 +2462,9 @@
     "name": "27 型 4K IPS USB-C 人體工學螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 7599,
-      "converted": 7599,
-      "confidence": "PChome 2026-09-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 7999,
+      "converted": 7999,
+      "confidence": "PChome 2026-09-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABEZA900K1N6R/000001_1782816950.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABEZ-A900K1N6R",
@@ -2561,9 +2561,9 @@
     "name": "27 型 4K 160Hz IPS 雙模電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 8599,
-      "converted": 8599,
-      "confidence": "PChome 2026-09-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 8999,
+      "converted": 8999,
+      "confidence": "PChome 2026-09-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOIA900K129O/000001_1779250013.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABOI-A900K129O",
@@ -2943,9 +2943,9 @@
     "name": "32 型 4K 240Hz OLED Alienware 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 32888,
-      "converted": 32888,
-      "confidence": "PChome 2026-09-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 33888,
+      "converted": 33888,
+      "confidence": "PChome 2026-09-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOKA900HB1B5/000001_1710325731.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABOK-A900HB1B5",
@@ -3128,9 +3128,9 @@
     "name": "34 型 21:9 WQHD 120Hz 1500R 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 7190,
-      "converted": 7190,
-      "confidence": "PChome 2026-09-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 6831,
+      "converted": 6831,
+      "confidence": "PChome 2026-09-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABSZA900JOMA1/000001_1769572714.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABSZ-A900JOMA1",
@@ -3728,9 +3728,9 @@
     "name": "34 型 Porsche Design 240Hz QD-OLED 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 30988,
-      "converted": 30988,
-      "confidence": "PChome 2026-09-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 31988,
+      "converted": 31988,
+      "confidence": "PChome 2026-09-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABQRA900K5BI4/000001_1782298311.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABQR-A900K5BI4",
@@ -4028,9 +4028,9 @@
     "name": "45 型 21:9 OLED 240Hz 800R 曲面電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 38588,
-      "converted": 38588,
-      "confidence": "www.momoshop.com.tw 2026-09-06 exact-model 公開新品價人工覆核"
+      "amount": 38888,
+      "converted": 38888,
+      "confidence": "2026-09-07 人工覆核：Chrome人工核對exact型號促銷價與數量選擇、直接購買/加入購物車；排除另領商店券、點數、信用卡回饋，不將標準配送約期當預購。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABW9A900K5BHI/000001_1782298284.jpg",
     "buyUrl": "https://www.momoshop.com.tw/TP/TP0001232/goodsDetail/TP00012320000398",
@@ -4428,9 +4428,9 @@
     "name": "49 型 DQHD QD-OLED 144Hz Type-C 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 31900,
-      "converted": 31900,
-      "confidence": "PChome 2026-09-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 32900,
+      "converted": 32900,
+      "confidence": "PChome 2026-09-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABPDA900H9PEB/000001_1709257135.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABPD-A900H9PEB",
@@ -4540,7 +4540,7 @@
       "1920 x 1080",
       "100Hz",
       "HDMI 1.4 / DVI / VGA",
-      "重量：6.6kg",
+      "重量：3.57 kg（不含底座）；3.99 kg（含底座）",
       "Costco 評價 4.5 / 79 則"
     ],
     "description": "Philips 27E1N1100D 是 Costco 低價 27 吋 IPS 螢幕，適合文書、雙螢幕與基本居家辦公。",
@@ -4735,7 +4735,7 @@
     "specs": [
       "32 吋 VA",
       "4K (3840 x 2160)",
-      "重量：8公斤",
+      "重量：4.4 kg（不含底座）；5.9 kg（含底座）",
       "AC 100-240V",
       "Costco 評價 4.5 / 31 則"
     ],
@@ -5140,9 +5140,9 @@
     "name": "27 型 4K 內建校色器專業色彩管理螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 59888,
-      "converted": 59888,
-      "confidence": "2026-09-06 人工覆核同型號原購買頁：促銷價59,888；庫存低於2組；數量1/2；直接購買及放入購物車可用；保固3年；特惠商品不適用折價券。 公開標價已由56,893變59,888，無本商品未開始限搶價格標籤。",
+      "amount": 56893,
+      "converted": 56893,
+      "confidence": "2026-09-07 人工覆核：Chrome現頁09/06 22:00–09/07滿1件95折，限時折後56,893，直接購買及放入購物車，未扣點數或會員券。",
       "basis": "retailer_current"
     },
     "image": "https://image.benq.com/is/image/benqco/1pd2770u-front-hood-hotkey-2?$ResponsivePreset$",
@@ -5249,9 +5249,9 @@
     "name": "32 型 Odyssey G8 G80HS 6K 165Hz／3K 330Hz 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 28900,
-      "converted": 28900,
-      "confidence": "PChome 2026-09-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 29900,
+      "converted": 29900,
+      "confidence": "PChome 2026-09-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABSKA900K0G32/000001_1778746645.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABSK-A900K0G32",
@@ -6028,6 +6028,107 @@
           "targetHost": "mobile01.com",
           "query": "site:mobile01.com \"XG27ACSR\" (問題 OR 故障 OR 負評)",
           "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22XG27ACSR%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95%29"
+        }
+      ]
+    }
+  },
+  {
+    "id": "monitor-asus-xg27ucgr",
+    "category": "monitor",
+    "rank": 66,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "ASUS",
+    "model": "XG27UCGR",
+    "name": "ROG Strix XG27UCG Gen2 27 型 4K 162Hz／FHD 485Hz 雙模 Fast IPS 電競螢幕（黑色）",
+    "price": {
+      "currency": "TWD",
+      "amount": 10888,
+      "converted": 10888,
+      "basis": "retailer_current",
+      "confidence": "myfone 網路門市 2026-09-07 exact XG27UCGR 黑色新品公開網路價 NT$10,888（定價 NT$11,888）；未扣會員、信用卡或點數回饋"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DSABKBA900K47R9/000001_1781515856.jpg",
+    "buyUrl": "https://www.myfone.com.tw/buy/prod/P0000203775885",
+    "buyLabel": "myfone 網路門市",
+    "installation": {
+      "status": "not_stated",
+      "note": "含原廠底座；通路未明示到府組裝服務，另購支架／壁掛施工費需另詢。"
+    },
+    "specs": [
+      "27 吋 Fast IPS；雙模式 3840 × 2160 4K 162Hz／1920 × 1080 FHD 485Hz",
+      "反應時間：1ms GTG／0.3ms 最低值，非所有轉換均可達到",
+      "色彩：DCI-P3 95%、sRGB 130%；HDR10、VESA DisplayHDR 400",
+      "亮度：400 cd/m²（典型與 HDR 峰值）；對比 1300:1",
+      "同步：G-SYNC Compatible、FreeSync Premium、ELMB Sync；Smart Pixel 低解析度影像強化",
+      "介面：DisplayPort 1.4 HBR3 ×1、HDMI 2.1 FRL ×1、USB-C DP Alt Mode ×1（15W PD）、耳機孔；無內建喇叭",
+      "調整：升降 110mm、俯仰 +20°／-5°、左右 ±40°、直立旋轉 ±90°；VESA 100 × 100mm",
+      "尺寸：不含底座 61.4 × 36.7 × 8.6 cm；含底座 61.4 × 50.3 × 18.8 cm（寬 × 高 × 深）",
+      "重量：4.7 kg（不含底座）；6.8 kg（含底座）",
+      "供電：AC 100–240V／50–60Hz；功耗 <30W、節能模式 <0.5W、關機 <0.3W",
+      "隨附配件：DisplayPort 線、電源線、快速指南、ROG 收納袋、ROG 貼紙、保固卡"
+    ],
+    "description": "XG27UCG 的官方 Gen2 後繼款，把雙模提升至 4K 162Hz 與 FHD 485Hz，適合一台螢幕兼顧精細畫面與競技高刷新；USB-C 支援影像但僅 15W 供電。",
+    "pros": [
+      "4K 工作與 FHD 485Hz 遊戲可切換",
+      "完整可調底座，DP、HDMI 與 USB-C 影像输入齊全",
+      "台灣可信新品通路，ASUS Store exact-model 明示 3 年保固"
+    ],
+    "cons": [
+      "USB-C 15W 通常不足以替代筆電充電器",
+      "HDR 400 與 1300:1 對比不等於 OLED 黑位表現",
+      "FHD 485Hz 須搭配足夠效能及支援的輸出設定，且解析度較 4K 低",
+      "少量原始回報提到異音、喚醒延遲或 DisplayWidget Center 控制失效；尚未達集中災情門檻，建議在退換期檢查不同亮度下異音、休眠喚醒、USB-C與雙模切換。"
+    ],
+    "bestFor": "需要 4K 桌面細緻度，又想在競技遊戲切換超高刷新模式的人。",
+    "recommendation": "XG27UCG Gen2 新款推薦：著重 FHD 485Hz 與 Smart Pixel 可比較此款；舊 XG27UCG 價格較低時仍適合一般 4K 高刷新需求。",
+    "score": 90,
+    "voltage": "AC 100–240V／50–60Hz；ASUS 台灣 exact-model 技術規格，適用台灣 110V／60Hz",
+    "warranty": "ASUS Store 台灣同型 XG27UCGR（90LM0CS0-B013D1）明示 3 年保固；myfone 規格未另述期限，亮暗點與人為損壞依 ASUS 台灣條款",
+    "tags": [
+      "4K",
+      "FHD 485Hz",
+      "Fast IPS",
+      "USB-C 15W",
+      "Gen2 後繼款"
+    ],
+    "releaseDate": "2026-04",
+    "historicalLow": {
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "status": "not_found",
+      "checkedAt": "2026-09-07",
+      "note": "找到原價屋2026-04-20黑款12888有日期促銷紀錄，但已高於本輪myfone10888現價，保留於研究datedHistoricalPrices，不稱目前可驗史低。BigGo10888與漲98缺歷史日期點；未找到其他較低、具日期且符合公開新品條件的歷史價。不由現價或價格變動算式推定史低，亦不採會員PLUS、信用卡點數或白色-W/前代價格。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-09-07",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "\"XG27UCGR\" site:reddit.com problem",
+          "queryUrl": "https://www.google.com/search?q=%22XG27UCGR%22%20site%3Areddit.com%20problem",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "\"XG27UCGR\" site:ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=%22XG27UCGR%22%20site%3Aptt.cc",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "\"XG27UCGR\" site:mobile01.com 問題",
+          "queryUrl": "https://www.google.com/search?q=%22XG27UCGR%22%20site%3Amobile01.com%20%E5%95%8F%E9%A1%8C",
+          "targetHost": "mobile01.com"
         }
       ]
     }

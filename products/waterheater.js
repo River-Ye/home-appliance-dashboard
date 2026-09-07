@@ -5050,9 +5050,9 @@
     "name": "A.O. Smith HPI-50D1.0BT 一體式空氣源熱泵熱水器",
     "price": {
       "currency": "TWD",
-      "amount": 75000,
-      "converted": 75000,
-      "confidence": "Yahoo購物中心 2026-08-25 exact-model 公開結構化價格",
+      "amount": 73500,
+      "converted": 73500,
+      "confidence": "Yahoo購物中心 2026-09-07 exact-model 公開結構化價格",
       "basis": "retailer_current",
       "scope": "single_unit"
     },

@@ -1413,6 +1413,24 @@ async function main() {
     japaneseReview.find((review) => review.brand === "HITACHI")?.status === "no_relevant_line",
     "Japanese-brand audit must record an explicit no-line decision for uncovered categories",
   );
+  const noritzTvReview = buildJapaneseBrandReview({
+    category: { id: "tv" }, products: [], baselineById: new Map(), checkedAt: "2026-09-07",
+  }).find((review) => review.brand === "Noritz");
+  assert(
+    noritzTvReview.status === "no_relevant_line"
+      && noritzTvReview.reason.includes("16V 型及 5V 型防水浴室電視")
+      && noritzTvReview.reason.includes("台灣客廳電視收錄邊界"),
+    "Noritz TV exclusion must acknowledge bathroom TVs and retain the Taiwan living-room scope",
+  );
+  const panasonicSwitchReview = buildJapaneseBrandReview({
+    category: { id: "network-switch" }, products: [], baselineById: new Map(), checkedAt: "2026-09-07",
+  }).find((review) => review.brand === "Panasonic");
+  assert(
+    panasonicSwitchReview.status === "no_relevant_line"
+      && panasonicSwitchReview.reason.includes("照明控制")
+      && panasonicSwitchReview.reason.includes("8 個主要 RJ45 埠、非 PoE"),
+    "Panasonic lighting controls must not count as eligible eight-port non-PoE network switches",
+  );
   const beddingJapaneseReview = buildJapaneseBrandReview({
     category: { id: "bedsheet", label: "床包" },
     products: [],

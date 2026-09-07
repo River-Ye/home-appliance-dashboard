@@ -3919,6 +3919,199 @@
         }
       ]
     }
+  },
+  {
+    "id": "tv-benq-s65-960",
+    "category": "tv",
+    "rank": 41,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "BenQ",
+    "model": "S65-960",
+    "name": "65 型 S-960 Mini LED 量子點 144Hz 遊戲 Google TV",
+    "price": {
+      "currency": "TWD",
+      "amount": 39900,
+      "converted": 39900,
+      "basis": "retailer_current",
+      "confidence": "2026-09-07 PChome exact SKU DPAD0O-A900JIZTK-000 API Low=39900、Qty=8；商品頁9/4–9/9任選1件39900為公開活動，不含信用卡或會員回饋。"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "PChome頁提供快速安裝選項，但本次可讀文字未明確分清39900是否含基本桌上安裝；壁掛架、壁掛施工、特殊牆面、樓層搬運及舊架拆卸需由通路另確認。"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DPAD0OA900JIZTK/000001_1766126599.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPAD0O-A900JIZTK",
+    "buyLabel": "PChome 公開活動價（9/4–9/9）",
+    "specs": [
+      "65 吋 Mini LED 量子點 LCD／4K UHD 3840 x 2160",
+      "更新率：最高 144Hz；HDMI 1／2支援4K 120／144Hz，HDMI 3／4最高4K 60Hz",
+      "HDR：HDR10／HLG／Dolby Vision IQ；AI微距控光與AI光動態演算2.0",
+      "遊戲：VRR／ALLM／FreeSync Premium／Game Zone 2.0",
+      "系統：Google TV；記憶體4GB／儲存64GB",
+      "手機投影：Chromecast／螢幕鏡射；官方未標示AirPlay",
+      "連接：HDMI 2.1 x 4；HDMI 2支援eARC；Wi-Fi 2.4／5／6GHz、Bluetooth 5",
+      "音效：2.1.2聲道65W，含15W重低音與兩顆10W向上發聲單體；Dolby Atmos",
+      "供電／功率：110V～50／60Hz；最大消耗功率269W",
+      "尺寸：不含底座 寬 144.55 x 深 6.59 x 高 83.92 cm；含底座 寬 144.55 x 深 35.2 x 高 87.58 cm",
+      "重量：不含底座 21.8 kg；含底座 22.7 kg",
+      "腳座佔地：寬128.39 x 深35.2 cm；搬運與安裝建議兩人操作"
+    ],
+    "description": "以4K高更新率、Google TV與內建天空聲道整合客廳遊戲及影音需求。四個HDMI中只有1、2支援4K120／144Hz，外接eARC音響會占用其中一個高更新率埠，安排主機與電腦前先規劃。",
+    "pros": [
+      "4K144Hz、VRR與ALLM，適合PS5與PC遊戲",
+      "65W 2.1.2內建音響及Google TV串流整合",
+      "台灣官方面板與機身三年保固"
+    ],
+    "cons": [
+      "只有HDMI1／2支援4K120／144Hz，eARC共用HDMI2",
+      "腳架寬128.39cm、深35.2cm，窄電視櫃需先量測",
+      "Mini LED明暗交界仍受控光演算法影響；AirPlay未獲官方明示"
+    ],
+    "bestFor": "想以約四萬元整合65吋高更新率遊戲、串流與較完整內建音響的家庭。",
+    "recommendation": "遊戲推薦：高更新率輸入與天空聲道配置完整，先核對電視櫃腳架空間及eARC埠位。",
+    "releaseDate": "2025-12-22",
+    "score": 89,
+    "voltage": "110V～50／60Hz；台灣市電相容",
+    "warranty": "台灣合法通路購買：面板與機身3年；隨機遙控器3個月。26吋以上提供到府服務，偏遠／離島與壁掛拆裝有範圍限制。",
+    "tags": [
+      "Mini LED",
+      "量子點",
+      "4K144Hz",
+      "Google TV",
+      "台灣公司貨",
+      "遊戲推薦"
+    ],
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-09-07",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"S65-960\" 問題",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22S65-960%22%20%E5%95%8F%E9%A1%8C",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"S65-960\" 問題",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22S65-960%22%20%E5%95%8F%E9%A1%8C",
+          "targetHost": "mobile01.com"
+        }
+      ]
+    },
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-09-07",
+      "note": "已實際查S65-960歷史價格：PChome39900是目前9/4–9/9公開活動；LBJ列表顯示其他通路較低現價但未取得可重現同SKU歷史最低點日期；LINE購物連結混有其他尺寸型號。不能把現價或搜尋結果當歷史最低，保留not_found。"
+    }
+  },
+  {
+    "id": "tv-lg-65mrgb86bta",
+    "category": "tv",
+    "rank": 42,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "LG",
+    "model": "65MRGB86BTA",
+    "name": "65 吋 Mini RGB evo AI 4K 智慧顯示器 86系列",
+    "price": {
+      "currency": "TWD",
+      "amount": 56905,
+      "converted": 56905,
+      "basis": "retailer_current",
+      "confidence": "2026-09-07 myfone exact商品P0000203766917公開網路限定價56905；未登入瀏覽器確認可放入購物車。頁面另標9/14前結帳97折，但未核實結帳條件，未折算或計入會員/信用卡/點數回饋。"
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "myfone明示價格包含標準安裝與舊機回收。無電梯2樓起約100–200元/樓，特殊搬運與施工另報價；偏遠地區與外島不送或須另詢。標準安裝不等於免費壁掛，壁掛架、牆體與拆舊架另確認。"
+    },
+    "image": "https://www.myfone.com.tw/website_twmf/uploads_product/website_1088/037/668/ECP0108803766894_1_21078722.jpg",
+    "buyUrl": "https://www.myfone.com.tw/mfo/buy/prod/P0000203766917",
+    "buyLabel": "myfone 公開價（含標準安裝）",
+    "specs": [
+      "65 吋 Mini RGB evo LCD／4K Ultra HD 3840 x 2160",
+      "顯色：RGB Primary Color Pro；DCI-P3與Adobe RGB雙色域100%認證",
+      "技術：Tandem LED多層RGB色彩層；此Mini RGB款未搭載R晶片LED，LED晶片並非獨立驅動",
+      "更新率：原生120Hz；VRR最高144Hz；HDMI支援4K120fps",
+      "影像處理：α8第三代AI 4K影音處理晶片；Dolby Vision／HDR10／HLG",
+      "遊戲：ALLM／AMD FreeSync Premium／HGIG／遊戲最佳化選單",
+      "手機投影：Apple AirPlay／Google Cast；LG ThinQ手機遙控",
+      "系統：webOS 26；Apple Home相容",
+      "連接：HDMI x 3（4K120／eARC／VRR／ALLM／QMS／QFT）；HDMI 2支援eARC",
+      "供電／功率：AC110–240V、50–60Hz；待機低於0.5W；最大消耗功率官方頁未標示",
+      "尺寸：不含底座 寬 145.6 x 深 4.99 x 高 84.6 cm；含底座 寬 145.6 x 深 28.5 x 高 92.8／89.1 cm",
+      "重量：不含底座 22.8 kg；含底座 26.6 kg",
+      "安裝：底座寬44 x 深28.5 cm；VESA 300 x 200mm；底座高度依選定配置確認"
+    ],
+    "description": "LG 2026 Mini RGB evo 86系列以Tandem LED顯色、α8第三代處理器與原生120Hz面板服務明亮客廳與遊戲。支援AirPlay及Google Cast；台灣通路以56905元含標準安裝公開販售，安裝前先核對兩段底座高度及外接音響空间。",
+    "pros": [
+      "支援AirPlay和Google Cast，手機投影選擇完整",
+      "原生120Hz、VRR144Hz及Dolby Vision，兼顧遊戲與影音",
+      "雙色域100%認證，含標準安裝及台灣官方售後"
+    ],
+    "cons": [
+      "Mini RGB此款不具獨立RGB LED驅動，需辨清與Micro RGB的差異",
+      "通路標準安裝未涵蓋所有壁掛或特殊搬運，需先確認現場加價",
+      "最高144Hz需相容VRR輸入；底座雙高度會影響櫃內空間"
+    ],
+    "bestFor": "重視手機投影、色彩與120Hz遊戲，並希望含基本安裝的65吋客廳家庭。",
+    "recommendation": "色彩與連線推薦：適合比較OLED以外的高色域LCD；依官方Mini RGB規格評估，先確認安裝高度。",
+    "releaseDate": "2026-07-08",
+    "score": 88,
+    "voltage": "AC110–240V、50–60Hz；台灣市電相容",
+    "warranty": "LG台灣LCD／LED智慧顯示器整機2年、主機板與面板2年；依發票及官方保固除外條款，特殊拆卸/搬運另計。",
+    "tags": [
+      "Mini RGB",
+      "4K120Hz",
+      "VRR144Hz",
+      "AirPlay",
+      "Google Cast",
+      "台灣公司貨"
+    ],
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-09-07",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"65MRGB86BTA\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%2265MRGB86BTA%22",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"65MRGB86BTA\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%2265MRGB86BTA%22",
+          "targetHost": "mobile01.com"
+        }
+      ]
+    },
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-09-07",
+      "note": "已查65MRGB86BTA歷史價格與LBJ列表。myfone56905為查核日公開價，97折需結帳條件未採；LBJ有其他通路當期报价但未取得同SKU可重現歷史最低點日期與優惠條件，不能用現價推定史低。"
+    }
   }
 ]);
 })();

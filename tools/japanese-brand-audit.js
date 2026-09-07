@@ -4,11 +4,11 @@ const {
 
 const BRAND_CATALOGS = new Map([
   ["Sony", "https://www.sony.com.tw/zh/all-products"],
-  ["Panasonic", "https://www.panasonic.com/tw/consumer.html"],
+  ["Panasonic", "https://www.panasonic.com/tw/consumer/all-products.html"],
   ["HITACHI", "https://hitachi-homeappliances.com.tw/products/"],
-  ["Mitsubishi Electric", "https://www.mitsubishielectric.com.tw/home/"],
+  ["Mitsubishi Electric", "https://tw.mitsubishielectric.com/zh/products-solutions/home/"],
   ["Daikin", "https://www.hotaidev.com.tw/web/"],
-  ["GENERAL", "https://www.fujitsu-general.com/tw/products/"],
+  ["GENERAL", "https://www.generalww.com/tw/products/"],
   ["Rinnai", "https://www.rinnai.tw/"],
   ["Noritz", "https://www.noritz.co.jp/product/"],
   ["TOTO", "https://www.twtoto.com.tw/"],
@@ -54,7 +54,7 @@ const CATEGORY_SOURCES = new Map([
   ["Daikin:aircon", "https://www.hotaidev.com.tw/web/product-home-dm.html"],
   ["Daikin:purifier", "https://www.hotaidev.com.tw/web/product/4.html"],
   ["Daikin:waterheater", "https://www.hotaidev.com.tw/web/seven-core-tech.html"],
-  ["GENERAL:aircon", "https://www.fujitsu-general.com/tw/products/split/wall/"],
+  ["GENERAL:aircon", "https://www.generalww.com/tw/products/split/wall/"],
   ["Rinnai:waterheater", "https://www.rinnai.tw/"],
   ["Noritz:waterheater", "https://www.hosun.com.tw/tw/html/faq/show.aspx?id=2911&kid=6"],
 ]);
@@ -65,9 +65,9 @@ const PERIPHERAL_CATALOG_REVIEWS = new Map([
   ["Sony", { source: "https://www.sony.com.tw/corporate/home/NewsCenter/Detail/INZONESERIES", note: "官方台灣公告明列 INZONE Mouse-A、KBD-H75、Mat-F 與 Mat-D，屬正式鍵鼠周邊產品線。" }],
   ["Panasonic", { source: "https://www.panasonic.com/tw/consumer/all-products.html", note: "已讀台灣全部商品目錄，列影音通訊、空調、大家電、廚房、美容及住宅用品，未見獨立成品滑鼠、鍵盤或滑鼠墊；電視說明書的 USB／藍牙輸入支援不是販售鍵鼠。" }],
   ["HITACHI", { source: "https://hitachi-homeappliances.com.tw/products/", note: "已讀台灣產品情報，現列冰箱、洗衣機、吸塵器、多功能料理爐與洗碗機，未見本次三類獨立鍵鼠周邊。" }],
-  ["Mitsubishi Electric", { source: "https://www.mitsubishielectric.com.tw/home/", note: "已讀台灣家電全產品選單，列冰箱／冷凍櫃、除濕機、風扇、烘被機與空調；CNC 文件的螢幕軟體鍵盤不是完整實體電腦鍵盤，亦非滑鼠或滑鼠墊。" }],
+  ["Mitsubishi Electric", { source: "https://tw.mitsubishielectric.com/zh/products-solutions/home/", note: "已讀台灣家電全產品選單，列冰箱／冷凍櫃、除濕機、風扇、烘被機與空調；CNC 文件的螢幕軟體鍵盤不是完整實體電腦鍵盤，亦非滑鼠或滑鼠墊。" }],
   ["Daikin", { source: "https://www.hotaidev.com.tw/web/product/3.html", note: "已讀和泰大金完整家用／商用產品選單，涵蓋空調、清淨、除濕、冰水機、換氣及智能控制；控制器不是電腦鍵鼠，未見本次三類產品線。" }],
-  ["GENERAL", { source: "https://www.generalww.com/tw/products/index.html", note: "已讀將軍台灣產品目錄，只有變頻分離式、一對多與 VRF 空調；排除富士通電腦的鍵鼠保固文件，不能以不同企業的 Fujitsu 電腦周邊當 GENERAL 空調品牌。" }],
+  ["GENERAL", { source: "https://www.generalww.com/tw/products/", note: "已讀將軍台灣產品目錄，只有變頻分離式、一對多與 VRF 空調；排除富士通電腦的鍵鼠保固文件，不能以不同企業的 Fujitsu 電腦周邊當 GENERAL 空調品牌。" }],
   ["Rinnai", { source: "https://www.rinnai.tw/", note: "已讀台灣產品入口，列熱水器、瓦斯爐、排油煙機、烘碗機、洗碗機、無水鍋、乾衣機及商用設備，未見獨立電腦鍵鼠或滑鼠墊。" }],
   ["Noritz", { source: "https://www.noritz.co.jp/product/", note: "已讀日本官方商品目錄，涵蓋給湯、浴室、廚房與暖房；面板按鍵及遙控器不屬本次完整電腦鍵盤，也未見滑鼠或滑鼠墊產品線。" }],
   ["TOTO", { source: "https://www.twtoto.com.tw/", note: "已讀台灣全商品分類，涵蓋馬桶、便座、臉盆、龍頭、浴缸、暖房、烘手機及浴室配件，未見本次電腦鍵鼠周邊；不把 TOTOLINK 視為 TOTO。" }],
@@ -241,6 +241,12 @@ function reviewReason({ brand, categoryId, categoryLabel, status, existingProduc
   if (status === "no_eligible_taiwan_model") {
     return NO_ELIGIBLE_REASONS.get(`${brand}:${categoryId}`)
       || `${checkedAt} 核對 ${brand} 官方產品目錄；雖有與${label}相關的產品線，但未找到同時符合台灣現售 exact model、新品公開數字價格、適用電壓、台灣保固與證據完整度的機種。`;
+  }
+  if (brand === "Noritz" && categoryId === "tv") {
+    return `${checkedAt} 核對 Noritz 日本官方商品目錄；現列 16V 型及 5V 型防水浴室電視，屬浴室配套設備，未見符合本分類台灣客廳電視收錄邊界及可信新品通路的型號，不以日本浴室設備補數。`;
+  }
+  if (brand === "Panasonic" && categoryId === "network-switch") {
+    return `${checkedAt} 核對 Panasonic 台灣產品目錄；照明控制資料中的智慧控制網路交換器不等同一般乙太網路交換器，未確認符合固定 8 個主要 RJ45 埠、非 PoE、金屬外殼及台灣新品公開售價等收錄條件的型號。`;
   }
   const peripheralNote = ["mouse", "keyboard", "mousepad"].includes(categoryId) ? PERIPHERAL_CATALOG_REVIEWS.get(brand)?.note : "";
   const beddingNote = ["bedsheet", "comforter", "pillow"].includes(categoryId) ? BEDDING_CATALOG_REVIEWS.get(brand) : "";

@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-06",
+  "checkedAt": "2026-09-07",
   "methodVersion": 3,
   "policy": "每筆決策須保存 exact-model 跨站查詢與人工 attestation；每個搜尋候選須逐頁保存摘要、獨立作者數與具體排除理由，研究工具不得自行生成拒絕結論。",
   "results": [
@@ -85349,6 +85349,1581 @@
         }
       ],
       "reviewerNote": "AC3681/81：已人工覆核 Mobile01、Reddit、PTT、Dcard exact 後綴查詢，並以 AC3681 家族查詢補查 PTT、Mobile01 第1–2頁及 Dcard 可讀原帖。PTT SunKidMoon 與 Mobile01 dute 為兩位不同的系列吸毛效果個案，但均未確認持有 /81；不移用 /80 或 AC3360 Lite，也不將購前、別牌、泛論或留言數計人。未發現同一 exact /81 問題達至少6位獨立使用者且跨2原始網站。Dcard 部分留言未載入及一個原頁讀取失敗已揭露，結論不代表完全沒有負評。",
+      "attestation": "manual_original_pages_reviewed"
+    },
+    {
+      "id": "garmentcare-panasonic-n-r600ar-x1",
+      "category": "garmentcare",
+      "brand": "Panasonic",
+      "model": "N-R600AR-X1",
+      "name": "鏡面黑 3 件式熱泵蒸氣電子衣櫥",
+      "reviewBatch": "garmentcare",
+      "decision": "no_common_issue",
+      "reviewedAt": "2026-09-07",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT",
+        "Dcard"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"N-R600AR-X1\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22N-R600AR-X1%22"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"N-R600AR-X1\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22N-R600AR-X1%22"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "site:dcard.tw \"N-R600AR-X1\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22N-R600AR-X1%22"
+        }
+      ],
+      "candidateDisposition": "N-R600AR-X1：2026-09-07 人工檢視 Mobile01、PTT、Dcard 的完整型號查詢，均無可確認原頁候選；另以不含後綴N-R600AR及完整型號跨站補查，未找到可核實的第一人稱同型號集中故障回報。不移用日本HCC-R600AR/AL或舊N-RGB1R的評價，也不把通路退貨條款當故障回報。此結論不表示完全沒有負評。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "reviewerNote": "N-R600AR-X1：2026-09-07 人工檢視 Mobile01、PTT、Dcard 的完整型號查詢，均無可確認原頁候選；另以不含後綴N-R600AR及完整型號跨站補查，未找到可核實的第一人稱同型號集中故障回報。不移用日本HCC-R600AR/AL或舊N-RGB1R的評價，也不把通路退貨條款當故障回報。此結論不表示完全沒有負評。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate"
+    },
+    {
+      "id": "soundbar-philips-tab8750-96",
+      "category": "soundbar",
+      "brand": "Philips",
+      "model": "TAB8750/96",
+      "reviewedAt": "2026-09-07",
+      "reviewBatch": "soundbar",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01",
+        "PTT",
+        "Dcard",
+        "Costco"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"Philips TAB8750/96\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Philips%20TAB8750/96%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20failure%29"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"Philips TAB8750/96\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Philips%20TAB8750/96%22%20%28%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95%29"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"TAB8750/96\" 災情 問題 評價",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22TAB8750/96%22%20%E7%81%BD%E6%83%85%20%E5%95%8F%E9%A1%8C%20%E8%A9%95%E5%83%B9"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "site:dcard.tw \"TAB8750/96\" 評價",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22TAB8750/96%22%20%E8%A9%95%E5%83%B9"
+        }
+      ],
+      "candidateDisposition": "TAB8750/96：已逐一人工檢視Reddit/Mobile01/PTT/Dcard exact-model搜尋，皆無exact /96回報；另讀Costco原頁，僅評分彙總無逐人原文，無法成立同一問題6人2站。",
+      "representativeSources": [
+        {
+          "platform": "Costco",
+          "title": "Costco TAB8750/96 商品及評價入口",
+          "url": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Soundbars-Home-Theater/Philips-714-Dolby-Atmos-Soundbar-TAB875096/p/159453"
+        }
+      ],
+      "reviewerNote": "TAB8750/96：查核保留/96區域SKU；另以TAB8750無後綴搜索Reddit/Mobile01亦無候選，不將日本/11、TAB8947、TAB8967或TAFB1問題套用。Costco7則評分未提供原文作者，計入故障作者0。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "url": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Soundbars-Home-Theater/Philips-714-Dolby-Atmos-Soundbar-TAB875096/p/159453",
+          "title": "Costco TAB8750/96 商品及評價入口",
+          "platform": "Costco",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07",
+          "exactModel": true,
+          "sourceExcerpt": "原商品頁明列TAB8750/96與商品評價入口，分類頁顯示4.3/7則；可讀原頁未呈現逐人作者及問題敘述。",
+          "independentAuthors": 0,
+          "specificReason": "7則評分彙總沒有可辨識作者或逐人故障原文，不能當7名相同問題第一人稱回報；Reddit與Mobile01 exact搜尋亦未找到可核對同型號原討論，未達6人/2原始網站門檻。"
+        }
+      ]
+    },
+    {
+      "id": "tv-benq-s65-960",
+      "category": "tv",
+      "brand": "BenQ",
+      "model": "S65-960",
+      "reviewedAt": "2026-09-07",
+      "reviewBatch": "tv",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"S65-960\" 問題",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22S65-960%22%20%E5%95%8F%E9%A1%8C",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"S65-960\" 問題",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22S65-960%22%20%E5%95%8F%E9%A1%8C",
+          "targetHost": "mobile01.com"
+        }
+      ],
+      "candidateDisposition": "S65-960：人工閱讀PTT與Mobile01原頁；一名持有人詢問背板溫度但沒有故障，多數為開箱、選購及旧型號討論；未找到同一問題六名獨立作者且跨兩原始網站，採no_common_issue。",
+      "representativeSources": [
+        {
+          "platform": "PTT",
+          "title": "[問題] BenQ S65-960 與 LG OLED55C5 選擇",
+          "url": "https://www.ptt.cc/bbs/Digitalhome/M.1771774840.A.696.html"
+        },
+        {
+          "platform": "Mobile01",
+          "title": "BenQ S65-960 背板溫度與壁掛散熱討論",
+          "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7284904"
+        },
+        {
+          "platform": "Mobile01",
+          "title": "BenQ 這次做對了什麼？S-960 開箱！",
+          "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7267997"
+        },
+        {
+          "platform": "Mobile01",
+          "title": "BenQ S65-960 MiniLED 遊戲顯示器開箱",
+          "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7223180"
+        },
+        {
+          "platform": "Mobile01",
+          "title": "benq推新電視了 s-960",
+          "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7199331"
+        }
+      ],
+      "candidateReviews": [
+        {
+          "url": "https://www.ptt.cc/bbs/Digitalhome/M.1771774840.A.696.html",
+          "title": "[問題] BenQ S65-960 與 LG OLED55C5 選擇",
+          "platform": "PTT",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-07",
+          "sourceExcerpt": "sings123正在比較S65-960與OLED55C5；白畫面與綠畫面經歷是先前用了四年/七年的舊BenQ電視。",
+          "independentAuthors": 0,
+          "specificReason": "作者尚在選購，故障敘述屬舊電視且未確定型號，不能當成S65-960第一人稱故障個案。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7284904",
+          "title": "BenQ S65-960 背板溫度與壁掛散熱討論",
+          "platform": "Mobile01",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-07",
+          "sourceExcerpt": "BESKUR購入S65-960兩週，以紅外線量測電源板區約43°C、主板區約39°C，詢問壁掛散熱與長期可靠性。",
+          "independentAuthors": 1,
+          "specificReason": "只有一名實際持有人量測溫度且未報告機器故障；討論中的S65-940藍屏為不同型號，無同題六人或第二原始網站。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7267997",
+          "title": "BenQ 這次做對了什麼？S-960 開箱！",
+          "platform": "Mobile01",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-07",
+          "sourceExcerpt": "magicanson在2026/6/6說明選擇65吋S65-960，用於新工作室；描述高更新率、聲音、控制及外觀的正面體驗。",
+          "independentAuthors": 0,
+          "specificReason": "這是同一作者的開箱及YouTube同步版本，沒有第一人稱故障；跨站同文不能再計一名使用者或第二問題網站。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7223180",
+          "title": "BenQ S65-960 MiniLED 遊戲顯示器開箱",
+          "platform": "Mobile01",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-07",
+          "sourceExcerpt": "chujy開箱S65-960並討論Mini LED畫質與控光，後續回覆表示家人使用滿意。",
+          "independentAuthors": 0,
+          "specificReason": "原頁屬開箱與畫質偏好讨论，沒有可辨識的同型號同問題六名故障回報，不能把技術取捨當集中災情。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7199331",
+          "title": "benq推新電視了 s-960",
+          "platform": "Mobile01",
+          "outcome": "excluded",
+          "exactModel": false,
+          "reviewedAt": "2026-09-07",
+          "sourceExcerpt": "討論於2025/12/1新品公布時展開，包含S-960規格期待與舊S950亮度比較。",
+          "independentAuthors": 0,
+          "specificReason": "以新品發表前規格與舊S950為主，未形成exact S65-960使用後故障證據，不能將系列期待或舊型號問題算入。"
+        }
+      ],
+      "reviewerNote": "S65-960：人工閱讀PTT與Mobile01原頁；一名持有人詢問背板溫度但沒有故障，多數為開箱、選購及旧型號討論；未找到同一問題六名獨立作者且跨兩原始網站，採no_common_issue。",
+      "attestation": "manual_original_pages_reviewed"
+    },
+    {
+      "id": "tv-lg-65mrgb86bta",
+      "category": "tv",
+      "brand": "LG",
+      "model": "65MRGB86BTA",
+      "reviewedAt": "2026-09-07",
+      "reviewBatch": "tv",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"65MRGB86BTA\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%2265MRGB86BTA%22",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"65MRGB86BTA\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%2265MRGB86BTA%22",
+          "targetHost": "mobile01.com"
+        }
+      ],
+      "candidateDisposition": "65MRGB86BTA：人工檢視PTT與Mobile01跨站exact型號搜尋，未找到同型號第一人稱問題候選；搜尋浮現的較舊LG型號不算本款。採manual_cross_site_search_reviewed_no_candidate及no_common_issue，不表示完全沒有負評。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "reviewerNote": "65MRGB86BTA：人工檢視PTT與Mobile01跨站exact型號搜尋，未找到同型號第一人稱問題候選；搜尋浮現的較舊LG型號不算本款。採manual_cross_site_search_reviewed_no_candidate及no_common_issue，不表示完全沒有負評。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate"
+    },
+    {
+      "id": "wifi-tplink-deco-be65-pro-2pack",
+      "category": "wifi",
+      "brand": "TP-Link",
+      "model": "Deco BE65 Pro 2入",
+      "reviewedAt": "2026-09-07",
+      "reviewBatch": "wifi",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01",
+        "PTT",
+        "TP-Link Community"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "\"Deco BE65 Pro\" site:reddit.com problem disconnect",
+          "queryUrl": "https://www.google.com/search?q=%22Deco%20BE65%20Pro%22%20site%3Areddit.com%20problem%20disconnect",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "\"Deco BE65 Pro\" site:mobile01.com 問題",
+          "queryUrl": "https://www.google.com/search?q=%22Deco%20BE65%20Pro%22%20site%3Amobile01.com%20%E5%95%8F%E9%A1%8C",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "\"Deco BE65 Pro\" site:ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=%22Deco%20BE65%20Pro%22%20site%3Aptt.cc",
+          "targetHost": "ptt.cc"
+        }
+      ],
+      "candidateDisposition": "Deco BE65 Pro 2入：已人工查Reddit、Mobile01、PTT並讀TP-Link原論壇。確有WiFi/IoT重連、有線衛星LAN重連、全网Internet失聯、特定FW重啟、下載降速及重載延遲等不同現象；逐人與症狀分組後未確認任何同一問題有6名独立同型使用者跨2個原始網站。不可把不同症狀、BE65/BE63/BE11000非Pro、疑似跨站貼文、客服建議或正面反例湊人數；未讀成功的原頁只列明阻擋，不據搜尋摘要加人。海外同名BE9300與台灣BE11000差異另列，不能以此一概否認已讀Pro負評。",
+      "representativeSources": [
+        {
+          "platform": "Reddit",
+          "title": "Lots of Issues with BE65 Pro and XE75 Pro Mixed mesh",
+          "url": "https://www.reddit.com/r/TpLink/comments/1p8ffrg/lots_of_issues_with_be65_pro_and_xe75_pro_mixed/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "BE65 Pro constant disconnect/reconnect",
+          "url": "https://www.reddit.com/r/TpLink/comments/1vhnvrz/be65_pro_constant_disconnectreconnect/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "BE65 Pro Wi-Fi dropping packets",
+          "url": "https://www.reddit.com/r/TpLink/comments/1p1hudl/be65_pro_wifi_dropping_packets/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Unstable internet",
+          "url": "https://www.reddit.com/r/TpLink/comments/1jlntps/unstable_internet/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "TP Link Deco BE65 Pro download drops from 900+ to ~600 Mbps after a few minutes, upload stays full",
+          "url": "https://www.reddit.com/r/TpLink/comments/1pqpjg7/tp_link_deco_be65_pro_download_drops_from_900_to/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Deco BE65 Pro: heavy uploads tank latency network-wide, VoIP unusable",
+          "url": "https://www.reddit.com/r/TpLink/comments/1v4j9p0/deco_be65_pro_heavy_uploads_tank_latency/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "TP Link Deco Mesh System",
+          "url": "https://www.reddit.com/r/router/comments/1v791wx/tp_link_deco_mesh_system/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Lots of devices on a BE65 Pro network..",
+          "url": "https://www.reddit.com/r/TpLink/comments/1qrar4h/lots_of_devices_on_a_be65_pro_network/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Hulp nodig be65Pro",
+          "url": "https://www.reddit.com/r/TpLink/comments/1tvyqgw/hulp_nodig_be65pro/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Deco BE63, BE65, BE65 Pro, BE11000 are now officially WIFI-7 Certified Mesh Routers",
+          "url": "https://www.reddit.com/r/TpLink/comments/1djf59n/deco_be63_be65_be65_pro_be11000_are_now/"
+        },
+        {
+          "platform": "Mobile01",
+          "title": "【CES2024】tp-Link WiFi 7 新品大軍齊出！搭配 Tapo 系列智慧家庭套件更完整",
+          "url": "https://www.mobile01.com/topicdetail.php?f=110&t=6907971"
+        },
+        {
+          "platform": "TP-Link Community",
+          "title": "wifi unstable",
+          "url": "https://community.tp-link.com/en/home/forum/topic/855618"
+        },
+        {
+          "platform": "TP-Link Community",
+          "title": "Google Meet dropouts using BE65 Pro",
+          "url": "https://community.tp-link.com/en/home/forum/topic/684176"
+        },
+        {
+          "platform": "TP-Link Community",
+          "title": "Deco BE65Pro rebooting after firmware upgrade",
+          "url": "https://community.tp-link.com/en/home/threads/topic/866592"
+        },
+        {
+          "platform": "TP-Link Community",
+          "title": "BE65pro green light but not giving out internet",
+          "url": "https://community.tp-link.com/en/home/forum/topic/855048?replyId=1657758"
+        },
+        {
+          "platform": "TP-Link Community",
+          "title": "Critical Instability/Session Flapping on Deco BE65 Pro (v1.1.3) - Affects All Bands/Clients",
+          "url": "https://community.tp-link.com/en/home/forum/topic/849732"
+        },
+        {
+          "platform": "TP-Link Community",
+          "title": "BE65 Pro wifi instabilities and slow down",
+          "url": "https://community.tp-link.com/en/smart-home/forum/topic/847478"
+        },
+        {
+          "platform": "TP-Link Community",
+          "title": "TP Link Deco BE65 Pro download drops from 900+ to ~600 Mbps after a few minutes, upload stays full",
+          "url": "https://community.tp-link.com/en/home/forum/topic/852060?moduleId=39"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Decco BE65 Pro and Ethernet connectivity intermittently dropping",
+          "url": "https://www.reddit.com/r/TpLink/comments/1jr2753/decco_be65_pro_and_ethernet_connectivity/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "B65 Pro Ping spikes and loss of connection for brief moments",
+          "url": "https://www.reddit.com/r/TpLink/comments/1jc1g59/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Connection Issues with new Router",
+          "url": "https://www.reddit.com/r/smarthome/comments/1h2pyx9/"
+        }
+      ],
+      "candidateReviews": [
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/TpLink/comments/1p8ffrg/lots_of_issues_with_be65_pro_and_xe75_pro_mixed/",
+          "title": "Lots of Issues with BE65 Pro and XE75 Pro Mixed mesh",
+          "exactModel": true,
+          "independentAuthors": 2,
+          "authors": [
+            "VPrime",
+            "Noleafclover1337"
+          ],
+          "sourceExcerpt": "VPrime: \"I bought the be65 pro 2 pack to replace two nodes\"；後續說移除XE75混網、僅兩顆BE65 Pro仍有IoT反覆重連。Noleafclover1337另述3顆Pro、FW1.20反覆重開機。",
+          "specificReason": "VPrime可識別為雙入Pro的一位原始回報者，IoT重連與Noleafclover1337的重開機分開計數；Slakatarmen/Stoopie36只寫BE65、aswanviking為BE95/BE16000、Intelligent_Two8819為BE67均不計。dubmshi僅附和未明確自己的完整SKU。VPrime與TP-Link Murtaza911的相同兩Pro替換三XE75故事高度疑似跨站，未證實独立，不額外加一人。",
+          "pageLocator": "主文、VPrime第1個更新與2-pack回覆；Noleafclover1337回覆",
+          "issueGroups": [
+            "wireless_client_reconnect",
+            "router_reboot"
+          ],
+          "originalReadStatus": "read",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/TpLink/comments/1vhnvrz/be65_pro_constant_disconnectreconnect/",
+          "title": "BE65 Pro constant disconnect/reconnect",
+          "exactModel": true,
+          "independentAuthors": 2,
+          "authors": [
+            "bleh321",
+            "ArtemUskov"
+          ],
+          "sourceExcerpt": "bleh321描述三入Pro原本穩定六個月，無線回程的衛星以LAN接電腦後每幾分鐘短斷重連；ArtemUskov描述兩顆Pro的PS5在約兩年中發生2–3次類似訊息。",
+          "specificReason": "兩位可辨識第一人稱，但頻率、終端與拓樸不同；屬衛星LAN鏈路現象，不能與WiFi IoT association flapping、CPU重啟或上傳壅塞合併湊6人。未有台灣BE11000硬體地域對照，先保留有限案例。",
+          "pageLocator": "bleh321主文與ArtemUskov第一則回覆",
+          "issueGroups": [
+            "wired_satellite_link_reconnect"
+          ],
+          "originalReadStatus": "read",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/TpLink/comments/1p1hudl/be65_pro_wifi_dropping_packets/",
+          "title": "BE65 Pro Wi-Fi dropping packets",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "authors": [
+            "toumei64"
+          ],
+          "sourceExcerpt": "toumei64寫WiFi端每小時多次丟包，筆電偶發5–10秒中斷、IoT燈泡掉線；有線衛星端没有同樣掉包。ArtemUskov回覆自己3顆Pro加pi-hole無此丟包。",
+          "specificReason": "一位原始負評；ArtemUskov在此是正常使用反例，不列負評人數；Teenage_techboy1234使用BE63也排除。可與VPrime的WiFi client重連追蹤，已確認者仍不足6名，且回程含MoCA與WiFi並用，不能當所有台灣雙入組必然故障。",
+          "pageLocator": "toumei64主文與其ping測試回覆；ArtemUskov反例回覆",
+          "issueGroups": [
+            "wireless_client_reconnect"
+          ],
+          "originalReadStatus": "read",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/TpLink/comments/1jlntps/unstable_internet/",
+          "title": "Unstable internet",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "authors": [
+            "Safe_Woodpecker2280"
+          ],
+          "sourceExcerpt": "Safe_Woodpecker2280把一顆BE65 Pro接入3顆X20，裝置仍連著網路但短暫失去Internet，IP電話與視訊約5–7秒無聲或斷流，Deco仍綠燈。",
+          "specificReason": "一位使用者明說裝置沒有斷開局域網，因此歸短暫WAN/Internet中斷，不當WiFi client association flapping的相同問題。robotboy199只提供App可能原因和其他討論連結，沒有自己的exact Pro回報，不加人數。",
+          "pageLocator": "Safe_Woodpecker2280主文及綠燈補充",
+          "issueGroups": [
+            "internet_loss_while_lan_connected"
+          ],
+          "originalReadStatus": "read",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/TpLink/comments/1pqpjg7/tp_link_deco_be65_pro_download_drops_from_900_to/",
+          "title": "TP Link Deco BE65 Pro download drops from 900+ to ~600 Mbps after a few minutes, upload stays full",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "authors": [
+            "Legal_Art6210"
+          ],
+          "sourceExcerpt": "Legal_Art6210重開主機後WiFi約900/900Mbps，接上另一顆Deco後download降約600而upload仍900；後續表示退貨。ArtemUskov說自己的500Mbps對稱線無此現象。",
+          "specificReason": "屬下載吞吐衰減，非中斷/重連；只有一名原始回報。Lost_Soul_22未明自己的exact型號、OhSixTJ僅說BE65且未同症狀，均不計。TP-Link852060同標題索引疑似同案，原頁403不能另計独立站與作者。",
+          "pageLocator": "Legal_Art6210主文與最後returning it回覆",
+          "issueGroups": [
+            "downstream_throughput_cap"
+          ],
+          "originalReadStatus": "read",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/TpLink/comments/1v4j9p0/deco_be65_pro_heavy_uploads_tank_latency/",
+          "title": "Deco BE65 Pro: heavy uploads tank latency network-wide, VoIP unusable",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "authors": [
+            "icrmbwnhb"
+          ],
+          "sourceExcerpt": "icrmbwnhb明列BE65 Pro BE11000三入、FW1.3.1 Build26042912，Lightroom大量上傳時全網延遲增大，Discord/Teams受影響，換回Google WiFi消失。",
+          "specificReason": "明確BE11000版本但為一人的滿載上傳延遲/壅塞案例，不能與空載IoT重連、下載掉速、CPU重啟合併。MeatOk9730及Ryan_TP-Link為建議/客服回覆，沒有自己的同型負評，不加人。",
+          "pageLocator": "icrmbwnhb主文與TKID260755021補充",
+          "issueGroups": [
+            "upload_load_latency"
+          ],
+          "originalReadStatus": "read",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/router/comments/1v791wx/tp_link_deco_mesh_system/",
+          "title": "TP Link Deco Mesh System",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "authors": [
+            "MrRiveter63"
+          ],
+          "sourceExcerpt": "MrRiveter63說Amazon三件Pro系統IPTV經常buffering，換舊路由器/ASUS改善；後半主要抱怨加拿大RMA與換新品流程。",
+          "specificReason": "一名加拿大三入組的串流/RMA經驗；未提供相同台灣保固流程，也沒有以ping或association證明和WiFi重連同因。評論者只有泛論服務或別款BE65/BE63，不列額外同型使用者。",
+          "pageLocator": "MrRiveter63主文（Canadian subsidiary/RMA段落）",
+          "issueGroups": [
+            "iptv_buffering_and_regional_support"
+          ],
+          "originalReadStatus": "read",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/TpLink/comments/1qrar4h/lots_of_devices_on_a_be65_pro_network/",
+          "title": "Lots of devices on a BE65 Pro network..",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "authors": [
+            "soulbarn"
+          ],
+          "sourceExcerpt": "soulbarn的五顆BE65 Pro與50–75個IoT裝置常失聯，但電腦/串流正常；開High Capacity後24小時明顯改善。",
+          "specificReason": "一名exact Pro負評，改善後仍保留追蹤；Plus_Comment9741未說完整型號，schwaggyhawk明說BE65/11000且混X50 Outdoor，不能冒充Pro。與VPrime/toumei64同類WiFi IoT案例目前3人，不因留言數湊滿門檻。",
+          "pageLocator": "soulbarn主文及24-hour High Capacity改善回覆",
+          "issueGroups": [
+            "wireless_client_reconnect"
+          ],
+          "originalReadStatus": "read",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/TpLink/comments/1tvyqgw/hulp_nodig_be65pro/",
+          "title": "Hulp nodig be65Pro",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "authors": [
+            "Remarkable_Brain4567"
+          ],
+          "sourceExcerpt": "Remarkable_Brain4567使用四顆Pro，荷蘭KPN光纖、switch與有線/無線混回程，部分時候完全無Internet；回覆質疑KPN路由功能是否真正關閉。",
+          "specificReason": "只一名第一人稱，KPN數據機/雙NAT設定未釐清，且荷蘭EU同名Pro為BE9300分支，未證實台灣BE11000硬體。保留海外設定案例，不列台灣同規格同問題6人之中。",
+          "pageLocator": "荷蘭文主文與pittigepiet釐清bridge/AP回覆",
+          "issueGroups": [
+            "internet_loss_configuration_unresolved"
+          ],
+          "originalReadStatus": "read",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/TpLink/comments/1djf59n/deco_be63_be65_be65_pro_be11000_are_now/",
+          "title": "Deco BE63, BE65, BE65 Pro, BE11000 are now officially WIFI-7 Certified Mesh Routers",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "authors": [],
+          "sourceExcerpt": "aljsky_g分享Wi-Fi Alliance認證；RBBrittain討論BE63、BE11000與Pro規格名稱，沒有第一人稱故障。",
+          "specificReason": "這是認證/型號差異討論，並非使用者故障回報；認證月份也不等於台灣雙入組產品上市日，不計負評人數。",
+          "pageLocator": "aljsky_g主文及RBBrittain回覆",
+          "issueGroups": [],
+          "originalReadStatus": "read",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=110&t=6907971",
+          "title": "【CES2024】tp-Link WiFi 7 新品大軍齊出！搭配 Tapo 系列智慧家庭套件更完整",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "authors": [],
+          "sourceExcerpt": "陳拔的CES現場報導比較BE65 Pro兩個5GbE加一個2.5GbE，台灣近期上市的描述指BE65。留言多為分享感謝、設計與品牌泛論。",
+          "specificReason": "媒體展場介紹而非消費者exact Pro故障。泛稱TP-Link/Tapo/mesh的留言沒有完整同型第一人稱產品識別，因此不納入負評與上市日期。",
+          "pageLocator": "陳拔主文BE65 Pro段落，2024-01-22帖子",
+          "issueGroups": [],
+          "originalReadStatus": "read",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07"
+        },
+        {
+          "platform": "TP-Link Community",
+          "url": "https://community.tp-link.com/en/home/forum/topic/855618",
+          "title": "wifi unstable",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "authors": [
+            "Mici"
+          ],
+          "sourceExcerpt": "Mici: \"My wifi is unstable. Its on and off\"。1/26曾認為換光纖modem解決，1/29又補充全屋有線和WiFi仍會中斷數秒至1分鐘。",
+          "specificReason": "一位作者的後續更新不得重複計人；不能只看Accepted Solution就稱已修好。全網中斷與僅WiFi IoT association重連並未證實同症狀同因；硬體地域也未明示。",
+          "pageLocator": "主文#1、2026-01-26#3、2026-01-29#5",
+          "issueGroups": [
+            "internet_loss_while_lan_connected"
+          ],
+          "originalReadStatus": "read",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07"
+        },
+        {
+          "platform": "TP-Link Community",
+          "url": "https://community.tp-link.com/en/home/forum/topic/684176",
+          "title": "Google Meet dropouts using BE65 Pro",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "authors": [
+            "nreh"
+          ],
+          "sourceExcerpt": "nreh: \"Google Meet will frequently drop out momentarily and then reconnect\"；FW1.0.7，停用Mesh Technology未改善。",
+          "specificReason": "只有一名使用者，尚未釐清Google Meet、網際網路或WiFi斷線層級；Joseph-TP是客服排查建議，不能計為第二位。也不能將2024韌體單案視為所有新版台灣雙入共同缺陷。",
+          "pageLocator": "nreh主文2024-08-16 #1；Joseph-TP客服#2",
+          "issueGroups": [
+            "video_call_dropouts_unisolated"
+          ],
+          "originalReadStatus": "read",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07"
+        },
+        {
+          "platform": "TP-Link Community",
+          "url": "https://community.tp-link.com/en/home/threads/topic/866592",
+          "title": "Deco BE65Pro rebooting after firmware upgrade",
+          "exactModel": true,
+          "independentAuthors": 2,
+          "authors": [
+            "rjtc",
+            "afonsoacp"
+          ],
+          "sourceExcerpt": "rjtc: \"it restarts every 8-10 minutes\"。11顆X50/XE75衛星混網，Pro主機升1.3.1後CPU衝100%。afonsoacp同版每10分鐘重啟，改BE65主機後改善。",
+          "specificReason": "已辨識rjtc與afonsoacp兩位独立者；兩人的重複回覆及客服Solla-topee不加人。另加Reddit Noleafclover1337的1.20三顆Pro重啟也僅3人、不同FW；不能把重啟和association flapping/延遲合併湊6。",
+          "pageLocator": "2026-06-16#1、6/17#3、6/22#5與#7",
+          "issueGroups": [
+            "router_reboot"
+          ],
+          "originalReadStatus": "read",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07"
+        },
+        {
+          "platform": "TP-Link Community",
+          "url": "https://community.tp-link.com/en/home/forum/topic/855048?replyId=1657758",
+          "title": "BE65pro green light but not giving out internet",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "authors": [
+            "Kukwang"
+          ],
+          "sourceExcerpt": "Kukwang: \"All my devices connects to it but no internet\"；V1/1.2.0，App可測速但clients不能上網；再次reset並互換主/副機後恢復。",
+          "specificReason": "僅一名原始使用者及其修復更新；持續clients無Internet而App可測速的轉發現象與短暫WiFi重連不等同，先保留單案，不冒稱普遍台灣雙入故障。",
+          "pageLocator": "Kukwang主文2026-01-17#1與Accepted Solution",
+          "issueGroups": [
+            "client_forwarding_failure"
+          ],
+          "originalReadStatus": "read",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07"
+        },
+        {
+          "platform": "TP-Link Community",
+          "url": "https://community.tp-link.com/en/home/forum/topic/849732",
+          "title": "Critical Instability/Session Flapping on Deco BE65 Pro (v1.1.3) - Affects All Bands/Clients",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "authors": [],
+          "sourceExcerpt": "原頁讀取未完成：索引描述2xPro+3xXE75、FW1.1.3，與VPrime網路結構與歷程高度相似；原頁、replyId與第4頁均403。不得用索引反推6名獨立者，亦不能將疑似跨貼算第二站独立人。",
+          "specificReason": "索引描述2xPro+3xXE75、FW1.1.3，與VPrime網路結構與歷程高度相似；原頁、replyId與第4頁均403。不得用索引反推6名獨立者，亦不能將疑似跨貼算第二站独立人。 本列0是本輪可確認原頁獨立作者數，不代表實際無人回報。",
+          "originalReadStatus": "unavailable",
+          "searchIndexedAuthor": "Murtaza911",
+          "issueGroups": [],
+          "pageLocator": "已記錄原URL；原頁HTTP403/timeout，待原頁重新可讀",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07"
+        },
+        {
+          "platform": "TP-Link Community",
+          "url": "https://community.tp-link.com/en/smart-home/forum/topic/847478",
+          "title": "BE65 Pro wifi instabilities and slow down",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "authors": [],
+          "sourceExcerpt": "原頁讀取未完成：索引為4xPro替換2xXE75 Pro/2xX50、AP模式串流失敗；原頁403。未核完整回覆作者、地域和同問題，不能當已讀人數。",
+          "specificReason": "索引為4xPro替換2xXE75 Pro/2xX50、AP模式串流失敗；原頁403。未核完整回覆作者、地域和同問題，不能當已讀人數。 本列0是本輪可確認原頁獨立作者數，不代表實際無人回報。",
+          "originalReadStatus": "unavailable",
+          "searchIndexedAuthor": "Fabounnet",
+          "issueGroups": [],
+          "pageLocator": "已記錄原URL；原頁HTTP403/timeout，待原頁重新可讀",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07"
+        },
+        {
+          "platform": "TP-Link Community",
+          "url": "https://community.tp-link.com/en/home/forum/topic/852060?moduleId=39",
+          "title": "TP Link Deco BE65 Pro download drops from 900+ to ~600 Mbps after a few minutes, upload stays full",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "authors": [],
+          "sourceExcerpt": "原頁讀取未完成：原頁403；與Reddit Legal_Art6210同標題及情節，疑似跨貼，沒有原始作者核對不能當第二個獨立站回報。",
+          "specificReason": "原頁403；與Reddit Legal_Art6210同標題及情節，疑似跨貼，沒有原始作者核對不能當第二個獨立站回報。 本列0是本輪可確認原頁獨立作者數，不代表實際無人回報。",
+          "originalReadStatus": "unavailable",
+          "searchIndexedAuthor": null,
+          "issueGroups": [],
+          "pageLocator": "已記錄原URL；原頁HTTP403/timeout，待原頁重新可讀",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/TpLink/comments/1jr2753/decco_be65_pro_and_ethernet_connectivity/",
+          "title": "Decco BE65 Pro and Ethernet connectivity intermittently dropping",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "authors": [],
+          "sourceExcerpt": "原頁讀取未完成：原頁多次timeout/400，raw僅Reddit動態殼；雖有搜尋索引，未取得可核完整作者正文，不用此摘要湊有線斷線人數。",
+          "specificReason": "原頁多次timeout/400，raw僅Reddit動態殼；雖有搜尋索引，未取得可核完整作者正文，不用此摘要湊有線斷線人數。 本列0是本輪可確認原頁獨立作者數，不代表實際無人回報。",
+          "originalReadStatus": "unavailable",
+          "searchIndexedAuthor": null,
+          "issueGroups": [],
+          "pageLocator": "已記錄原URL；原頁HTTP403/timeout，待原頁重新可讀",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/TpLink/comments/1jc1g59/",
+          "title": "B65 Pro Ping spikes and loss of connection for brief moments",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "authors": [],
+          "sourceExcerpt": "原頁讀取未完成：原頁timeout；索引提1.1.2、PC有線瞬斷，但尚未取得可識別原始作者與完整版號，不計入已確認報告。",
+          "specificReason": "原頁timeout；索引提1.1.2、PC有線瞬斷，但尚未取得可識別原始作者與完整版號，不計入已確認報告。 本列0是本輪可確認原頁獨立作者數，不代表實際無人回報。",
+          "originalReadStatus": "unavailable",
+          "searchIndexedAuthor": null,
+          "issueGroups": [],
+          "pageLocator": "已記錄原URL；原頁HTTP403/timeout，待原頁重新可讀",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/smarthome/comments/1h2pyx9/",
+          "title": "Connection Issues with new Router",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "authors": [],
+          "sourceExcerpt": "原頁讀取未完成：原頁timeout；搜尋索引只確認提及Deco BE65 pro，缺原頁作者、症狀與版型核對，不宣稱沒有負評或已讀完。",
+          "specificReason": "原頁timeout；搜尋索引只確認提及Deco BE65 pro，缺原頁作者、症狀與版型核對，不宣稱沒有負評或已讀完。 本列0是本輪可確認原頁獨立作者數，不代表實際無人回報。",
+          "originalReadStatus": "unavailable",
+          "searchIndexedAuthor": null,
+          "issueGroups": [],
+          "pageLocator": "已記錄原URL；原頁HTTP403/timeout，待原頁重新可讀",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07"
+        }
+      ],
+      "reviewerNote": "Deco BE65 Pro 2入：已人工查Reddit、Mobile01、PTT並讀TP-Link原論壇。確有WiFi/IoT重連、有線衛星LAN重連、全网Internet失聯、特定FW重啟、下載降速及重載延遲等不同現象；逐人與症狀分組後未確認任何同一問題有6名独立同型使用者跨2個原始網站。不可把不同症狀、BE65/BE63/BE11000非Pro、疑似跨站貼文、客服建議或正面反例湊人數；未讀成功的原頁只列明阻擋，不據搜尋摘要加人。海外同名BE9300與台灣BE11000差異另列，不能以此一概否認已讀Pro負評。 人工覆核範圍限於下列可重現查詢與已讀原頁；這不是完全沒有負評或全网所有回覆均取得的聲明。",
+      "attestation": "manual_original_pages_reviewed",
+      "issueAggregation": [
+        {
+          "symptom": "WiFi/IoT clients反覆掉線重連",
+          "confirmedIndependentAuthors": [
+            "VPrime",
+            "toumei64",
+            "soulbarn"
+          ],
+          "count": 3,
+          "websites": [
+            "reddit.com"
+          ],
+          "note": "TP-Link Murtaza911原頁受阻且高度疑似VPrime跨貼，不加人；dubmshi未明自己的SKU，其他BE65/BE67/BE95排除。"
+        },
+        {
+          "symptom": "路由器自動重啟",
+          "confirmedIndependentAuthors": [
+            "Noleafclover1337",
+            "rjtc",
+            "afonsoacp"
+          ],
+          "count": 3,
+          "websites": [
+            "reddit.com",
+            "tp-link.com"
+          ],
+          "note": "1.20三顆Pro與1.3.1混11衛星不同FW/拓樸；即先寬鬆合計也僅3名，不是6名。"
+        },
+        {
+          "symptom": "衛星LAN斷開後重連",
+          "confirmedIndependentAuthors": [
+            "bleh321",
+            "ArtemUskov"
+          ],
+          "count": 2,
+          "websites": [
+            "reddit.com"
+          ],
+          "note": "一者每幾分鐘、一者兩年僅2–3次；另一Ethernet原帖受阻未計。"
+        },
+        {
+          "symptom": "裝置仍連LAN但Internet短暫中斷",
+          "confirmedIndependentAuthors": [
+            "Safe_Woodpecker2280",
+            "Mici"
+          ],
+          "count": 2,
+          "websites": [
+            "reddit.com",
+            "tp-link.com"
+          ],
+          "note": "nreh只具GoogleMeet應用層症狀，Kukwang為持續forwarding故障，荷蘭KPN案例設定與EU地域未確定，分開保留。"
+        },
+        {
+          "symptom": "下載約600Mbps上限",
+          "confirmedIndependentAuthors": [
+            "Legal_Art6210"
+          ],
+          "count": 1,
+          "websites": [
+            "reddit.com"
+          ],
+          "note": "原廠論壇852060索引同標題高度疑似跨貼，不加站與人數。"
+        },
+        {
+          "symptom": "大量上傳造成全網延遲",
+          "confirmedIndependentAuthors": [
+            "icrmbwnhb"
+          ],
+          "count": 1,
+          "websites": [
+            "reddit.com"
+          ],
+          "note": "明確BE11000與1.3.1版本，單案未達門檻。"
+        }
+      ]
+    },
+    {
+      "id": "monitor-asus-xg27ucgr",
+      "category": "monitor",
+      "brand": "ASUS",
+      "model": "XG27UCGR",
+      "reviewedAt": "2026-09-07",
+      "reviewBatch": "monitor",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "PTT",
+        "Mobile01",
+        "ASUS ROG Forum",
+        "PChome"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "\"XG27UCGR\" site:reddit.com problem",
+          "queryUrl": "https://www.google.com/search?q=%22XG27UCGR%22%20site%3Areddit.com%20problem",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "\"XG27UCGR\" site:ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=%22XG27UCGR%22%20site%3Aptt.cc",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "\"XG27UCGR\" site:mobile01.com 問題",
+          "queryUrl": "https://www.google.com/search?q=%22XG27UCGR%22%20site%3Amobile01.com%20%E5%95%8F%E9%A1%8C",
+          "targetHost": "mobile01.com"
+        }
+      ],
+      "candidateDisposition": "XG27UCGR：人工查Reddit、PTT、Mobile01並讀ASUS ROG原論壇，逐人確認ShinyDuckE異音/OSD搖桿、Rjeezyx喚醒延遲/iOS USB-C相容及Beinvictus DDC/CI控制/自行開關等零星不同現象；未確認同一問題至少6名獨立使用者跨2原站。PTT轉錄去重，-W、XG27UCG無R前代、XG32UCG與XG27JCG全部按型號區分。兩個無法讀取的Reddit原頁不以索引計人，候選來源有正面反例也完整保存，不聲稱完全沒有負評。",
+      "reviewerNote": "XG27UCGR：人工查Reddit、PTT、Mobile01並讀ASUS ROG原論壇，逐人確認ShinyDuckE異音/OSD搖桿、Rjeezyx喚醒延遲/iOS USB-C相容及Beinvictus DDC/CI控制/自行開關等零星不同現象；未確認同一問題至少6名獨立使用者跨2原站。PTT轉錄去重，-W、XG27UCG無R前代、XG32UCG與XG27JCG全部按型號區分。兩個無法讀取的Reddit原頁不以索引計人，候選來源有正面反例也完整保存，不聲稱完全沒有負評。 覆核在2026-09-07完成；代表性原頁包括委派root核實的PChome正評，來源分工明示。",
+      "representativeSources": [
+        {
+          "platform": "Reddit",
+          "title": "Letter to Sanity. Looking for buying suggetions.",
+          "url": "https://www.reddit.com/r/Monitors/comments/1tgp3jh/letter_to_sanity_looking_for_buying_suggetions/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Need help finding a 4K 27\" Monitor",
+          "url": "https://www.reddit.com/r/Monitors/comments/1swdkm5/need_help_finding_a_4k_27_monitor/"
+        },
+        {
+          "platform": "ASUS ROG Forum",
+          "title": "DDC/CI not working – ASUS DisplayWidget Center error on ROG Strix XG27UCG Gen2 (XG27UCGR)",
+          "url": "https://rog-forum.asus.com/t5/gaming-monitors/ddc-ci-not-working-asus-displaywidget-center-error-on-rog-strix/td-p/1157681"
+        },
+        {
+          "platform": "PTT",
+          "title": "[情報] Asus XG27UCSR/XG27UCGR",
+          "url": "https://www.ptt.cc/bbs/LCD/M.1771217063.A.579.html"
+        },
+        {
+          "platform": "PTT",
+          "title": "Fw: [情報] Asus XG27UCSR/XG27UCGR",
+          "url": "https://www.ptt.cc/bbs/PC_Shopping/M.1771226319.A.0BB.html"
+        },
+        {
+          "platform": "PTT",
+          "title": "[情報] 電腦家 XG27UCG 4K 160HZ $6988",
+          "url": "https://www.ptt.cc/bbs/PC_Shopping/M.1779956623.A.D1A.html"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Alternatives to ROG Strix XG32UCG",
+          "url": "https://www.reddit.com/r/Monitors/comments/1rmflcu/alternatives_to_rog_strix_xg32ucg/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Help choosing a monitor",
+          "url": "https://www.reddit.com/r/Monitors/comments/1w3pumr/help_choosing_a_monitor/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "ASUS ROG Strix XG27JCG Initial impressions",
+          "url": "https://www.reddit.com/r/Monitors/comments/1tq8fiv/asus_rog_strix_xg27jcg_initial_impressions/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "About dual mode displays",
+          "url": "https://www.reddit.com/r/Monitors/comments/1nrnc06/about_dual_mode_displays/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Alienware AW2725DF OR ASUS ROG Strix OLED XG27ACDMS ?",
+          "url": "https://www.reddit.com/r/OLED_Gaming/comments/1upu69r/alienware_aw2725df_or_asus_rog_strix_oled/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Monitor recommendations",
+          "url": "https://www.reddit.com/r/buildapcmonitors/comments/1w070x0/monitor_recommendations/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Best gaming monitor under 25k(indian rupees)",
+          "url": "https://www.reddit.com/r/buildapcmonitors/comments/1vs9d43/best_gaming_monitor_under_25kindian_rupees/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Please help me finding the correct monitor after 2 year journey of eye pain/strain",
+          "url": "https://www.reddit.com/r/buildapcmonitors/comments/1vy2y24/please_help_me_finding_the_correct_monitor_after/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "I need serious help. I must be too stupid for this.",
+          "url": "https://www.reddit.com/r/OLED_Gaming/comments/1w5eydm/i_need_serious_help_i_must_be_too_stupid_for_this/"
+        },
+        {
+          "platform": "PChome",
+          "title": "ASUS 華碩 ROG Strix XG27UCGR 27吋 4K 162Hz/FHD 485Hz 電競螢幕",
+          "url": "https://24h.pchome.com.tw/prod/DSABKB-A900K47R9"
+        }
+      ],
+      "candidateReviews": [
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Monitors/comments/1tgp3jh/letter_to_sanity_looking_for_buying_suggetions/",
+          "title": "Letter to Sanity. Looking for buying suggetions.",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "authors": [
+            "ShinyDuckE"
+          ],
+          "sourceExcerpt": "ShinyDuckE 列自己2026/05用過XG27UCGR，描述低鳴、coil whine、撕裂及OSD搖桿鬆動；回覆說全亮度時無異音，降低亮度則變大，關螢幕聲音消失。",
+          "specificReason": "一名可辨識第一人稱；同一作者多次補充不能重複計人。Ch0miczeq/OttawaDog質疑供電或顯卡僅是排查建議，沒有自己的同型回報，其他多款OLED/前代問題不借用。雖真有負評，未達6名同一問題2站門檻。",
+          "pageLocator": "ShinyDuckE主文XG27UCGR - 05.26段、對OttawaDog亮度/關機測試回覆",
+          "originalReadStatus": "read",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Monitors/comments/1swdkm5/need_help_finding_a_4k_27_monitor/",
+          "title": "Need help finding a 4K 27\" Monitor",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "authors": [
+            "Rjeezyx"
+          ],
+          "sourceExcerpt": "Rjeezyx 明說有新版XG27UCGR，整體滿意但有時喚醒需5–6秒，另提iPad/iPhone USB-C不識別；MinJunMaru自購同型後表示目前沒有coil whine。",
+          "specificReason": "一名同型喚醒/相容性案例，MinJunMaru是正常使用反例不加負評。Siy92的異音與退货屬XG32UCG，不是XG27UCGR；不能把他對Gen2的詢問算第一人稱故障。喚醒耗時、異音、DDC控制失敗為不同症狀，不合併湊門檻。",
+          "pageLocator": "Rjeezyx首則長回覆、Siy92及MinJunMaru回覆",
+          "originalReadStatus": "read",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07"
+        },
+        {
+          "platform": "ASUS ROG Forum",
+          "url": "https://rog-forum.asus.com/t5/gaming-monitors/ddc-ci-not-working-asus-displaywidget-center-error-on-rog-strix/td-p/1157681",
+          "title": "DDC/CI not working – ASUS DisplayWidget Center error on ROG Strix XG27UCG Gen2 (XG27UCGR)",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "authors": [
+            "Beinvictus"
+          ],
+          "sourceExcerpt": "Beinvictus以HDMI2.1接RTX4080 Laptop，DisplayWidget Center突然不能透過DDC/CI控制；重裝軟體、換HDMI線與斷電後仍有，並提螢幕自行關閉再開。",
+          "specificReason": "一名原始作者；Yun_ROG是Customer Service Agent提供換裝置/驅動回退與蒐集資訊，並非第二位故障使用者。回覆permalink1157710、作者profile與多個community activity索引是同一討論，不另算站/人。未和ShinyDuckE異音或Rjeezyx喚醒耗時合併為同一問題。",
+          "pageLocator": "Beinvictus主文Monitor/What I already tried與turns off段落、Yun_ROG客服回覆",
+          "originalReadStatus": "read",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07"
+        },
+        {
+          "platform": "PTT",
+          "url": "https://www.ptt.cc/bbs/LCD/M.1771217063.A.579.html",
+          "title": "[情報] Asus XG27UCSR/XG27UCGR",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "authors": [],
+          "sourceExcerpt": "Rust於LCD板貼三款官方規格，XG27UCGR為4K162/FHD485；僅bmxhedfxc、Misohagi留言討論漫遊網路/IP，沒有同型故障。",
+          "specificReason": "新品情報而非使用者故障，PTT 2026/02/16發布日也不能當此款台灣上市；原價屋有貨文字分別在UCSR、JCG項下，未聲稱UCGR首賣。PC_Shopping轉錄為同作者同站，不重複計數。",
+          "pageLocator": "Rust主文與全部可見2則其他作者留言",
+          "crossPostKey": "ptt-rust-xg27ucgr-1771217063",
+          "originalReadStatus": "read",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07"
+        },
+        {
+          "platform": "PTT",
+          "url": "https://www.ptt.cc/bbs/PC_Shopping/M.1771226319.A.0BB.html",
+          "title": "Fw: [情報] Asus XG27UCSR/XG27UCGR",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "authors": [],
+          "sourceExcerpt": "Rust轉錄LCD原帖後補充兩款原價屋已上市；留言討論5K/OLED/IPS用途、價格、前代UCG降價，未取得XG27UCGR同一故障原始回報。",
+          "specificReason": "同一作者同一原帖的站內轉錄，不是第二個独立網站；5K的JCG、前代UCG價差與泛OLED眼睛不適均非本黑款exact使用者故障，不從推文數產生災情。",
+          "pageLocator": "主文Fw標頭、Rust補充與XG27UCG/OLED/5K相關留言",
+          "crossPostKey": "ptt-rust-xg27ucgr-1771217063",
+          "originalReadStatus": "read",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07"
+        },
+        {
+          "platform": "PTT",
+          "url": "https://www.ptt.cc/bbs/PC_Shopping/M.1779956623.A.D1A.html",
+          "title": "[情報] 電腦家 XG27UCG 4K 160HZ $6988",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "authors": [],
+          "sourceExcerpt": "主文促銷機種是無R的XG27UCG，Rust留言提醒已出二代XG27UCGR；lai830902後來描述1080模糊，但沒有聲稱使用R版。",
+          "specificReason": "搜尋因後繼款留言命中XG27UCGR，父帖的6988價/1080p模糊抱怨屬無R前代，不能把前代的作者數或價格搬到本款。",
+          "pageLocator": "baby850811主文及Rust 05/29 14:13、lai830902 06/01 12:30留言",
+          "originalReadStatus": "read",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Monitors/comments/1rmflcu/alternatives_to_rog_strix_xg32ucg/",
+          "title": "Alternatives to ROG Strix XG32UCG",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "authors": [],
+          "sourceExcerpt": "ironredpizza找XG32UCG替代款；ASUSTechMKTJJ介紹即將推出XG27UCGR Gen2的規格，並表示品牌有用戶欣賞現有設計。",
+          "specificReason": "XG27UCGR只是ASUS品牌帳號的後繼款建議，沒有已購XG27UCGR的故障回報；主文嫌外觀不是故障，也不是本27吋黑款的第一人稱災情。",
+          "pageLocator": "ASUSTechMKTJJ launching soon回覆",
+          "originalReadStatus": "read",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Monitors/comments/1w3pumr/help_choosing_a_monitor/",
+          "title": "Help choosing a monitor",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "authors": [],
+          "sourceExcerpt": "TrueLeader2148有RTX5070與三台舊螢幕，列XG27UCSR、XG27UCGR及XG27ACDMS為新購候選；頁面可見回覆只有AutoModerator。",
+          "specificReason": "尚未購買的選型問題，不是exact型號第一人稱故障；主文對GPU跑4K能力的疑慮不能變成此顯示器災情。",
+          "pageLocator": "TrueLeader2148主文與AutoModerator回覆",
+          "originalReadStatus": "read",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Monitors/comments/1tq8fiv/asus_rog_strix_xg27jcg_initial_impressions/",
+          "title": "ASUS ROG Strix XG27JCG Initial impressions",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "authors": [],
+          "sourceExcerpt": "Dunis96及xacadil對XG27JCG的SDR亮度有疑慮；ASUSTechMKTJJ回覆建議改看XG27UCGR，Dunis96表示會再查看。",
+          "specificReason": "負評主角為5K的XG27JCG；XG27UCGR僅品牌客服推薦的替代款，不能把JCG兩位亮度抱怨者視為R款已購者。",
+          "pageLocator": "Dunis96主文及ASUSTechMKTJJ、xacadil亮度回覆",
+          "originalReadStatus": "read",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Monitors/comments/1nrnc06/about_dual_mode_displays/",
+          "title": "About dual mode displays",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "authors": [],
+          "sourceExcerpt": "ParkGGoki與zghr討論双模像素分組和帶寬；zghr詢問XG27UCGR為何三倍而不是四倍刷新率，沒有自己使用後的故障。",
+          "specificReason": "原理/規格推論非第一人稱exact款故障，不把轉貼、專利討論或其他面板的畫質批評當本款災情。",
+          "pageLocator": "zghr What’s up with XG27UCGR回覆及ParkGGoki回答",
+          "originalReadStatus": "read",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/OLED_Gaming/comments/1upu69r/alienware_aw2725df_or_asus_rog_strix_oled/",
+          "title": "Alienware AW2725DF OR ASUS ROG Strix OLED XG27ACDMS ?",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "authors": [],
+          "sourceExcerpt": "Sweet_Sir_2143詢問兩款OLED，ASUSTechMKTJJ建議XG27UCGR Gen2可兼顧工作與遊戲，並提330美元促銷。",
+          "specificReason": "品牌建議而非獨立購買者故障；OLED保護與文字問題不能移到Fast IPS UCGR。本回覆概述美國促銷也不代台灣歷史成交證據。",
+          "pageLocator": "ASUSTechMKTJJ Our XG27UCGR Gen2長回覆",
+          "originalReadStatus": "read",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/buildapcmonitors/comments/1w070x0/monitor_recommendations/",
+          "title": "Monitor recommendations",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "authors": [],
+          "sourceExcerpt": "Able-Bonus2658請問入門整套遊戲預算；LyuboA推薦ASUS各款，將XG27UCGR列為400歐元4K選項，並泛論IPS/OLED。",
+          "specificReason": "推薦/預算討論未明確自用該款且未回報故障；不以泛稱IPS沒問題作本款完全無負評證據，也不把另一篇同作者品牌建議重複計人。",
+          "pageLocator": "LyuboA首則回覆",
+          "originalReadStatus": "read",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/buildapcmonitors/comments/1vs9d43/best_gaming_monitor_under_25kindian_rupees/",
+          "title": "Best gaming monitor under 25k(indian rupees)",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "authors": [],
+          "sourceExcerpt": "原頁RestNational2100選型，LyuboA實際自述有XG27ACMS、XG32UCG及XG27AQNGV；當日可讀正文未找到XG27UCGR，索引曾提推薦它。",
+          "specificReason": "搜尋摘要提到型號但原頁可見內容缺本款自用回報；泛稱ASUS薄邊框需查漏光不是exact UCGR故障，不能從索引增加一人。",
+          "pageLocator": "LyuboA自述現有機種與原頁exact文字搜尋",
+          "originalReadStatus": "read",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/buildapcmonitors/comments/1vy2y24/please_help_me_finding_the_correct_monitor_after/",
+          "title": "Please help me finding the correct monitor after 2 year journey of eye pain/strain",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "authors": [],
+          "sourceExcerpt": "原頁未取得：兩種URL開啟皆timeout/Internal Error；索引僅把XG27UCGR列為4K建議，尚未取得作者及第一人稱正文核對。",
+          "specificReason": "原頁受阻，0只表示本輪未確認原始作者數，非實際沒負評。不可由推薦摘要推定原帖眼睛疼痛發生在本款，也不宣稱讀完全部討論。",
+          "pageLocator": "完整URL及短URL均失敗",
+          "originalReadStatus": "unavailable",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/OLED_Gaming/comments/1w5eydm/i_need_serious_help_i_must_be_too_stupid_for_this/",
+          "title": "I need serious help. I must be too stupid for this.",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "authors": [],
+          "sourceExcerpt": "原頁未取得：完整與短URL皆讀取失敗；索引中XG27UCGR只是27吋IPS建議，作者另述32吋XG32UCG與OLED。",
+          "specificReason": "不把其他OLED/32吋自用抱怨視為UCGR第一人稱。原頁受阻未讀，不依摘要證明完全無負評，保留等待可讀的邊界。",
+          "pageLocator": "完整URL及短URL均失敗",
+          "originalReadStatus": "unavailable",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07"
+        },
+        {
+          "platform": "PChome",
+          "url": "https://24h.pchome.com.tw/prod/DSABKB-A900K47R9",
+          "title": "ASUS 華碩 ROG Strix XG27UCGR 27吋 4K 162Hz/FHD 485Hz 電競螢幕",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "authors": [],
+          "sourceExcerpt": "root於當日原頁人工確認一則陳**在2026/09/01五星正評，100%評分，沒有問題文字；商品為黑款XG27UCGR、12888、Qty6。",
+          "specificReason": "委派人工原頁覆核的正評，沒有可計的同型故障；不得以一則好評推定完全無負評，9/1評價日也不是上市日期。價格/庫存由root原頁與API核實，不冒稱本子代理重做該頁。",
+          "pageLocator": "PChome商品評價區，陳** 2026/09/01",
+          "originalReadStatus": "delegated_manual_read_by_root",
+          "reviewedBy": "root",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07"
+        }
+      ],
+      "attestation": "manual_original_pages_reviewed",
+      "issueAggregation": [
+        {
+          "issue": "異音/coil whine（另含同一人的鬆動OSD搖桿、撕裂）",
+          "authors": [
+            "ShinyDuckE"
+          ],
+          "independentUsers": 1,
+          "websites": [
+            "reddit.com"
+          ],
+          "decision": "未達6人2站"
+        },
+        {
+          "issue": "喚醒5–6秒 / USB-C與iOS顯示相容性",
+          "authors": [
+            "Rjeezyx"
+          ],
+          "independentUsers": 1,
+          "websites": [
+            "reddit.com"
+          ],
+          "decision": "同一人的不同現象，未與DDC/CI停止控制或全机自動開關混成同問題"
+        },
+        {
+          "issue": "DisplayWidget Center DDC/CI控制失敗 / 自行開關",
+          "authors": [
+            "Beinvictus"
+          ],
+          "independentUsers": 1,
+          "websites": [
+            "asus.com"
+          ],
+          "decision": "客服Yun_ROG不計；同一原帖的回覆頁/個人頁不另計人或站"
+        }
+      ]
+    },
+    {
+      "id": "wifi-ubiquiti-u7-pro-xgs",
+      "category": "wifi",
+      "brand": "Ubiquiti",
+      "model": "U7 Pro XGS",
+      "name": "UniFi 三頻 Wi-Fi 7 10GbE 管理型 AP（白色 U7-Pro-XGS）",
+      "reviewedAt": "2026-09-07",
+      "reviewBatch": "wifi",
+      "decision": "common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Ubiquiti Community",
+        "Mobile01",
+        "PTT",
+        "HardwareZone"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "\"U7 Pro XGS\" site:reddit.com problem",
+          "queryUrl": "https://www.google.com/search?q=%22U7%20Pro%20XGS%22%20site%3Areddit.com%20problem",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Ubiquiti Community",
+          "query": "\"U7 Pro XGS\" site:community.ui.com",
+          "queryUrl": "https://www.google.com/search?q=%22U7%20Pro%20XGS%22%20site%3Acommunity.ui.com",
+          "targetHost": "community.ui.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "\"U7 Pro XGS\" site:mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=%22U7%20Pro%20XGS%22%20site%3Amobile01.com",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "\"U7 Pro XGS\" site:ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=%22U7%20Pro%20XGS%22%20site%3Aptt.cc",
+          "targetHost": "ptt.cc"
+        }
+      ],
+      "candidateDisposition": "U7 Pro XGS：完成較窄AP本體offline/無回應現象的六名逐人覆核，跨Reddit與Ubiquiti Community；不再採client斷線OR AP離線的廣泛分組。psionn、deanhales、lifereinspired缺同一失聯層級移至排除；aakrol重啟循環仍單列候選、不加入count。",
+      "representativeSources": [
+        {
+          "platform": "Ubiquiti Community",
+          "title": "Constant disconnects from multiple U7 Pro XGS APs",
+          "url": "https://community.ui.com/questions/Constant-disconnects-from-multiple-U7-Pro-XGS-APs/bdb65953-e2ce-4961-96a7-3f520c02b51c"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Incredibly unstable U7 Pro XG's major packet loss after running for some hours",
+          "url": "https://www.reddit.com/r/Ubiquiti/comments/1l4j2g4/incredibly_unstable_u7_pro_xgs_major_packet_loss/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "U7 Pro XGSes keep going offline. Help?",
+          "url": "https://www.reddit.com/r/Ubiquiti/comments/1vklrsg/u7_pro_xgses_keep_going_offline_help/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "U7 In-Wall APs randomly going offline weekly",
+          "url": "https://www.reddit.com/r/Ubiquiti/comments/1slil9g/comment/oppguuc/"
+        },
+        {
+          "platform": "Ubiquiti Community",
+          "title": "Multiple U7 APs Randomly Going Offline in One Specific Office Location",
+          "url": "https://community.ui.com/questions/Multiple-U7-APs-Randomly-Going-Offline-in-One-Specific-Office-Location/bb14a280-59af-45dd-a0cd-58982e86b4ea"
+        }
+      ],
+      "candidateReviews": [
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Ubiquiti/comments/1upzq1t/u7_pro_xgs_connected_wo_internet/",
+          "title": "U7 Pro XGS - Connected W/O Internet",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07",
+          "exactModel": true,
+          "sourceExcerpt": "Vellenash 的裝置仍連在Wi-Fi但每日數分鐘沒有Internet；8.6.11→8.6.10→8.5.21改善，最新EDIT2仍有偶發且另提區域封鎖設定。",
+          "specificReason": "保留1名第一人稱個案，但這是保持association時失去Internet，不足證明與本次AP/clients斷線同一問題，未計入六人。CatLumpy9152明說沒有U7 Pro，不能算第二人。",
+          "independentAuthors": 1,
+          "authors": [
+            "Vellenash"
+          ],
+          "originalReadStatus": "read",
+          "pageLocator": "主帖Vellenash及EDIT1/EDIT2；CatLumpy9152回覆"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Ubiquiti/comments/1qidxkb/u7_pro_xgs_constantly_dropping_internet/",
+          "title": "U7 Pro XGS constantly dropping internet",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07",
+          "exactModel": true,
+          "sourceExcerpt": "ghunterx21 及 Valuable-Iron5376 曾回報有訊號但無Internet；兩人後續各自更換線路或縮短為10呎線後表示恢復。",
+          "specificReason": "兩名真實XGS使用者均保留後續線路處置，不僅引用初始抱怨；已歸因或藉換線解決的個案，不加入此次未解AP反覆斷線集合，亦非韌體修復證据。",
+          "independentAuthors": 2,
+          "authors": [
+            "ghunterx21",
+            "Valuable-Iron5376"
+          ],
+          "originalReadStatus": "read",
+          "pageLocator": "主帖及兩位作者最後的cable/new cable更新"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Ubiquiti/comments/1qquavo/troubleshooting_question_u7_pro_xgs_on_a_poe_port/",
+          "title": "Troubleshooting question - U7 Pro XGS on a PoE+ port?",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07",
+          "exactModel": true,
+          "sourceExcerpt": "lifereinspired 重述SSID消失與1500次斷線；DrewBeer 說自己XGS嚴重丟包、6GHz更糟且已PoE++；imen1991只說相同問題。",
+          "specificReason": "lifereinspired與1qq0w2k為同一作者事件，去重且未證明AP本體失聯；DrewBeer僅丟包、imen1991型號不明，皆不加入六人。",
+          "independentAuthors": 1,
+          "authors": [
+            "DrewBeer"
+          ],
+          "originalReadStatus": "read",
+          "pageLocator": "lifereinspired主帖/回覆及DrewBeer、imen1991"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/UNIFI/comments/1sc9kqy/u7_pro_xgs_disconnects_the_network_if_run_with/",
+          "title": "U7 Pro XGS, disconnects the network if run with 2.5Gb port speed, 1Gb works fine",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07",
+          "exactModel": true,
+          "sourceExcerpt": "tigsman 的XGS在Flex2.5G auto/2.5G不穩、固定1G正常，最終換另一條10ft線後恢复，表示目前性能好於先前1G限制。",
+          "specificReason": "已讀tigsman原始拓樸與最後感謝換線回覆，不能省略修复後續而算AP災情。soapboxracers轉述別站XG(S)討論非其本人exact-XGS事件。",
+          "independentAuthors": 1,
+          "authors": [
+            "tigsman"
+          ],
+          "originalReadStatus": "read",
+          "pageLocator": "tigsman主帖與Thank you/10ft amazon special後續"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Ubiquiti/comments/1suyuxb/u7_pro_xgs_even_hotter_after_8521/",
+          "title": "U7 Pro XGS even hotter after 8.5.21",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07",
+          "exactModel": true,
+          "sourceExcerpt": "BuckMurdock5 一台放桌上的XGS升8.5.21後過熱停機，退8.4.6改善；另一台吸頂正常。Old-Caramel-9138嫌速度低而推測是熱；user_none改善空隙降溫。",
+          "specificReason": "過熱停機1名、速度較慢且推測熱1名，不能推成同一災情六人，亦不與無熱證據的斷線案例合併；吸頂/擺桌及通風差異保留為採購條件。",
+          "independentAuthors": 2,
+          "authors": [
+            "BuckMurdock5",
+            "Old-Caramel-9138"
+          ],
+          "originalReadStatus": "read",
+          "pageLocator": "主帖BuckMurdock5與Old-Caramel-9138/user_none留言"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Ubiquiti/comments/1sxwyqu/u7_pro_xgs_usw_flex_xg_5gbe/",
+          "title": "U7 Pro XGS / USW Flex XG - 5Gbe",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07",
+          "exactModel": true,
+          "sourceExcerpt": "Elohim_JLTC 的XGS經10G PoE++供應器接Flex XG只協商5G，強設10G便斷開；同線接Pro HD24可10G。",
+          "specificReason": "單一埠速協商組合個案，不是反覆AP/client斷線的六人集合。JohnSnow__自稱U7 Pro XG而非XGS；Foreign-Reindeer-574是switch-to-switch耦合器問題，不計XGS作者。",
+          "independentAuthors": 1,
+          "authors": [
+            "Elohim_JLTC"
+          ],
+          "originalReadStatus": "read",
+          "pageLocator": "主帖及JohnSnow__/Foreign-Reindeer-574"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Ubiquiti/comments/1u84jo9/u7_pro_xgs_cons/",
+          "title": "U7 Pro XGS cons",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07",
+          "exactModel": true,
+          "sourceExcerpt": "RJ24CBA為購前詢問；angrydave提醒PoE++與較小安裝盤但自己無抱怨；ace72ace、parabola19使用正常。",
+          "specificReason": "這是選型成本/供電/熱量/安裝討論，原頁沒有可新增同問題的第一人稱故障者；5台或3台只代表設備數，也不能湊成獨立負評人數。",
+          "independentAuthors": 0,
+          "authors": [],
+          "originalReadStatus": "read",
+          "pageLocator": "RJ24CBA主帖與angrydave/ace72ace/parabola19"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/UNIFI/comments/1qd0pgh/u7pro_misbehaving/",
+          "title": "U7-Pro Misbehaving",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07",
+          "exactModel": false,
+          "sourceExcerpt": "Simple-Answer-1662 明寫U7-Pro-XGS-B黑款，在UXG-Pro/USW/Flex2.5G PoE++下不穩；回覆lynxblaine要求更明確症狀。",
+          "specificReason": "此為明示-B黑款且未交代不穩的具體表現，未能對上白款條目及本次斷線層級；保留候選，不當作沒有负評，也不靠通用unstable湊第七人。",
+          "independentAuthors": 1,
+          "authors": [
+            "Simple-Answer-1662"
+          ],
+          "originalReadStatus": "read",
+          "pageLocator": "主帖Simple-Answer-1662與lynxblaine澄清"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Ubiquiti/comments/1msu74j/u7_pros_mixed_with_u7_pro_xgs_problems/",
+          "title": "u7 pros mixed with u7 pro xgs problems",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07",
+          "exactModel": true,
+          "sourceExcerpt": "ethernaut85 用XGS替換地下室AC Pro、與三台U7 Pro混用；表示XGS的2.5G上行很好，但手機漫遊Wi-Fi通話不順。",
+          "specificReason": "一名混合AP漫遊/通話相容性個案，沒有AP反覆離線或重啟證據；與fablefish同屬漫遊候選仍未達6人，不能藉混搭設備數加人。",
+          "independentAuthors": 1,
+          "authors": [
+            "ethernaut85"
+          ],
+          "originalReadStatus": "read",
+          "pageLocator": "ethernaut85主帖2.5gbe/roaming during Wi-Fi calls"
+        },
+        {
+          "platform": "Ubiquiti Community",
+          "url": "https://community.ui.com/releases/UniFi-Access-Point-all-U7-and-E7-models-8-7-11/42b6f9d9-3dba-4cda-bde1-b8157edc1299?replyId=442357c0-b4ef-4f71-b927-c30466b0d785",
+          "title": "UniFi Access Point (all U7 and E7 models) 8.7.11",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07",
+          "exactModel": true,
+          "sourceExcerpt": "aakrol的XGS更新後重啟循環且確認Pro XG8 PoE++供電；Lumon則為8.7.11下Apple Thread IPv6到Home Assistant不通、退8.6.11恢復。bluechris正常。",
+          "specificReason": "aakrol重啟循環單列候選，不加入已選六人的AP/client斷線數，待root判斷；Lumon是特定IPv6/Matter路徑且Apple Home始終正常，不能混算。jroback/looney128等為E7/Wall/XG，均未套XGS。",
+          "independentAuthors": 2,
+          "authors": [
+            "aakrol",
+            "Lumon"
+          ],
+          "originalReadStatus": "read_chrome",
+          "pageLocator": "Newest討論aakrol及其PoE++補述；Lumon回覆brohde04；bluechris正常對照"
+        },
+        {
+          "platform": "Ubiquiti Community",
+          "url": "https://community.ui.com/questions/Help-with-U7-Pro-XGS/14767642-6bf5-4c5a-8531-68c4fedf2c0e",
+          "title": "Help with U7 Pro XGS",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07",
+          "exactModel": true,
+          "sourceExcerpt": "SeanKly 用Cloud Gateway Fibre的PoE+埠供XGS，無法在iOS找到AP；UI-Team原頁確認供電不相容，需PoE++。",
+          "specificReason": "Chrome已讀本人與官方回覆，屬未滿足供電要求的初次設定事件，不與供電已符合而反覆斷線者混計；一台亮白燈不代表電力合格。",
+          "independentAuthors": 1,
+          "authors": [
+            "SeanKly"
+          ],
+          "originalReadStatus": "read_chrome",
+          "pageLocator": "SeanKly主帖及UI-Team唯一回覆"
+        },
+        {
+          "platform": "Ubiquiti Community",
+          "url": "https://community.ui.com/questions/Home-setup-U7-pro-xgs/fdb099b7-42c3-4d93-9ad0-59b4b5f48e30",
+          "title": "Home setup U7 pro xgs",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07",
+          "exactModel": true,
+          "sourceExcerpt": "bokelsu1三台接非網管PoE switch，App可看見但無法完成設定；AlexWilsonsBlog詢問802.3bt與約90W預算，its3am詢問controller版本。",
+          "specificReason": "初次採用/PoE預算及控制器版本尚未確認，沒有證據表示成功安裝後反覆失聯；未把三台當三人，也沒有宣稱此案已確定由供電修復。",
+          "independentAuthors": 1,
+          "authors": [
+            "bokelsu1"
+          ],
+          "originalReadStatus": "read_chrome",
+          "pageLocator": "bokelsu1主帖及两位回覆者"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7212336",
+          "title": "gs be18000",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07",
+          "exactModel": true,
+          "sourceExcerpt": "f520k510 的香港約50坪住宅混用U7 Pro×2、XGS×1、Lite×1，認為覆蓋比Linksys MX5400差，後續轉問ASUS VPN及區域版本。",
+          "specificReason": "一名混合AP與香港環境的覆蓋不滿，沒有隔離XGS或台灣版本，也沒有確認AP/clients反覆斷線；其他樓層多為擺位/通道建議，不計更多XGS負評作者。",
+          "independentAuthors": 1,
+          "authors": [
+            "f520k510"
+          ],
+          "originalReadStatus": "read",
+          "pageLocator": "文章92632105，2026-01-02樓主及後續VPN內容"
+        },
+        {
+          "platform": "HardwareZone",
+          "url": "https://forums.hardwarezone.com.sg/threads/new-ubiquiti-setup-still-a-work-in-progress.5680023/page-105",
+          "title": "New Ubiquiti setup! Still a work in progress. page 105",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07",
+          "exactModel": false,
+          "sourceExcerpt": "stanlawj在#2082討論自己的U7 Pro XG固定1G改善，隨後貼上官方社群連結及一段別人XGS的敘述，#2083再被引用。",
+          "specificReason": "已讀原頁辨識XG作者與貼文中的XGS引用；該段是連結後的引用內容而非本地獨立XGS本人，不能以stanlawj/SNAG計成跨站XGS人數；須回UI原作者才可計。",
+          "independentAuthors": 0,
+          "authors": [],
+          "originalReadStatus": "read",
+          "pageLocator": "#2082、#2083；af53b148原文引用起訖"
+        },
+        {
+          "platform": "Ubiquiti Community",
+          "url": "https://community.ui.com/releases/UniFi-Access-Point-all-U7-and-E7-models-8-6-10/6cfd2afd-d990-4e77-8251-f7f31bae1bd1",
+          "title": "UniFi Access Point (all U7 and E7 models) 8.6.10",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07",
+          "exactModel": true,
+          "sourceExcerpt": "deanhales自述clients反覆掉線、回8.4.6改善；fablefish有漫遊/DNS/認證錯誤；numera-it回報所維護客戶XGS無Wi-Fi。",
+          "specificReason": "縮窄AP本體失聯群後，deanhales沒有明示APoffline/無回應；fablefish是client漫遊/驗證，numera-it失聯層級與終端本人不充分。這三名候選保留不混入六人，mark.weber型號不明及XG/Wall/E7他人不計。",
+          "independentAuthors": 3,
+          "authors": [
+            "deanhales",
+            "fablefish",
+            "numera-it"
+          ],
+          "originalReadStatus": "read_chrome",
+          "pageLocator": "8.6.10回覆各作者本人的訊息"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Ubiquiti/comments/1qq0w2k/unifi_u7_pro_xgs_constant_disconnections/",
+          "title": "UniFi U7 Pro XGS constant disconnections",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-07",
+          "exactModel": true,
+          "sourceExcerpt": "lifereinspired明述clients掉線及SSID消失，但沒有AP在controlleroffline/無回應的證明；inkjamarye則仍連AP但Internet不通。",
+          "specificReason": "此為不同失聯層級，不能因同樣影響服務而併入AP本體offline六人。lifereinspired同作者PoE後續串去重，設備/斷線事件不增加作者；兩個客端問題也未各自達六人。",
+          "independentAuthors": 2,
+          "authors": [
+            "lifereinspired",
+            "inkjamarye"
+          ],
+          "originalReadStatus": "read",
+          "pageLocator": "lifereinspired主帖、inkjamarye本人回覆及同作者1qquavo後續"
+        }
+      ],
+      "reviewerNote": "U7 Pro XGS：review_home與review_living獨立讀取原文後採交集六人thesnowdog、alexgarrett、Builda、itsjakerobb、thankyourob、iFeeltech。顯式保留各自拓樸/FW/復原、thankyourob首次及iFeeltech後續已修復；未宣稱同一根因/台灣故障率或現版全未修。iFeeltech blog僅作本人後續資料，不增加一位作者或第三站計數；ledger只有UI原始一列，故crossPostKey為null，followupSources明示eventDedupKey及不計人。",
       "attestation": "manual_original_pages_reviewed"
     }
   ]

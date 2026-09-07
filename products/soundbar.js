@@ -1085,9 +1085,9 @@
     "name": "5.1 聲道 Soundbar 家庭劇院組",
     "price": {
       "currency": "TWD",
-      "amount": 8541,
-      "converted": 8541,
-      "confidence": "Yahoo購物中心 2026-09-04 exact-model 公開結構化價格"
+      "amount": 9490,
+      "converted": 9490,
+      "confidence": "Yahoo購物中心 2026-09-07 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900GHTFE/000001_1776774078.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SONY-%E7%B4%A2%E5%B0%BC-5-1-%E8%81%B2%E9%81%93-SOUNDBAR-%E5%AE%B6%E5%BA%AD%E5%8A%87%E9%99%A2%E7%B5%84-HT-S40R-10067449.html",
@@ -1673,9 +1673,9 @@
     "name": "BRAVIA Theatre Bar 8 聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 26910,
-      "converted": 26910,
-      "confidence": "PChome 2026-09-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 29900,
+      "converted": 29900,
+      "confidence": "PChome 2026-09-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900HTC64/000001_1781747501.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM1D-A900HTC64",
@@ -2072,8 +2072,8 @@
     "price": {
       "currency": "USD",
       "amount": 1299.99,
-      "converted": 41130,
-      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-09-06 匯率換算"
+      "converted": 41121,
+      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-09-07 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/2C2sn9CKoKFdIyd94Gm9z5/f3019d4e721511167ebe5c229bf490dd/heston-120_plp.jpg",
     "buyUrl": "https://www.marshall.com/us/en/product/heston-120",
@@ -2172,8 +2172,8 @@
     "price": {
       "currency": "USD",
       "amount": 549.99,
-      "converted": 17401,
-      "confidence": "2026-08-31 人工核對 Marshall US 官方 Heston 60 公開可購主價 USD 549.99；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-09-06 匯率換算",
+      "converted": 17397,
+      "confidence": "2026-08-31 人工核對 Marshall US 官方 Heston 60 公開可購主價 USD 549.99；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-09-07 匯率換算",
       "basis": "retailer_current"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/3yitHqjPBTgQk5qRE72PSn/2788206646aa153f71f2c0ebefaff580/Heston-60-black_plp_800x800-v3.jpeg",
@@ -2611,14 +2611,14 @@
       "status": "found",
       "amount": 176091,
       "currency": "JPY",
-      "converted": 35674,
+      "converted": 35665,
       "sourceUrl": "https://kakaku.com/item/K0001712395/pricehistory/",
       "sourceTitle": "価格.com：JBL BAR 1300MK2 [ブラック] 価格推移",
       "evidenceSnippet": "価格.com 日別價格歷史顯示 exact-model「JBL BAR 1300MK2 [ブラック]」於 2026-06-17 的新品最低價為 ¥176,091；2025-10 初始價格為 ¥205,306。",
       "sourceKind": "price_history",
       "confidence": "medium",
       "checkedAt": "2026-08-25",
-      "note": "採日本市場 exact-model 公開價格歷史並依 2026-09-06 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
+      "note": "採日本市場 exact-model 公開價格歷史並依 2026-09-07 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -3564,6 +3564,111 @@
         }
       ]
     }
+  },
+  {
+    "id": "soundbar-philips-tab8750-96",
+    "category": "soundbar",
+    "rank": 37,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Philips",
+    "model": "TAB8750/96",
+    "name": "7.1.4 聲道無線重低音與後環繞 Dolby Atmos 聲霸套裝",
+    "price": {
+      "currency": "TWD",
+      "amount": 18999,
+      "converted": 18999,
+      "basis": "retailer_current",
+      "confidence": "Costco 好市多 2026-09-07 exact-model 公開含運價；商品159453可加入購物車"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "商品價含一般包裹運送；未明示到府安裝。壁掛施工、喇叭腳架、延長線與隱藏配線費用須另確認。"
+    },
+    "image": "https://images.philips.com/is/image/philipsconsumer/8ded56f05d1a41cb879eb3950070ec96?$pnglarge$",
+    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Soundbars-Home-Theater/Philips-714-Dolby-Atmos-Soundbar-TAB875096/p/159453",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "7.1.4 聲道；聲霸、6.5 吋無線重低音及 2 支無線後環繞",
+      "Dolby Atmos／Dolby Digital Plus；485W RMS（THD ≤10%）／970W 最大輸出",
+      "HDMI 輸入 x 1、HDMI 輸出 eARC/ARC x 1；官方明示 4K 視訊直通",
+      "藍牙 5.4（SBC）、光纖、3.5mm AUX、USB 播放；沒有手機 App 控制",
+      "四種 EQ、夜間模式、高低音與音訊同步調整；HDMI-CEC",
+      "尺寸：主機 寬 98 x 深 13 x 高 6.6 cm；重低音 寬 23.8 x 深 23.8 x 高 35 cm；後環繞喇叭（每支） 寬 6.6 x 深 13 x 高 23.3 cm",
+      "重量：主機 3.45 kg；重低音 4.2 kg；後環繞喇叭（每支，共 2 支） 0.8 kg",
+      "供電：主機與重低音 AC 100–240V／50–60Hz；後環繞使用 DC 20V／1.5A、30W 原配變壓器",
+      "功耗：主機 45W、重低音 30W；後環繞的 30W 為變壓器額定，非實測耗電",
+      "隨附：遙控器與 AAA 電池、HDMI 線、2 條電源線、2 個後環繞變壓器及壁掛套件（依台灣版手冊）"
+    ],
+    "description": "TAB8750/96 以獨立重低音與兩支後環繞組成 7.1.4 套裝，適合一次補齊客廳 Dolby Atmos 環繞配置。台灣 Costco 公開含運價 18,999 元，提供一年保固；主機寬 98 cm，需預留後方喇叭位置及電源。",
+    "pros": [
+      "套裝包含重低音與兩支後環繞，無須另外配成套",
+      "具 eARC 與額外 HDMI 輸入，連接選擇完整",
+      "台灣可信新品通路、公開含運價與一年保固"
+    ],
+    "cons": [
+      "無線音訊仍需為後環繞與重低音安排供電",
+      "沒有手機 App 控制，進階設定以遙控器為主",
+      "台灣原頁的可辨識使用者經驗較少，宜於退換貨期測試電視 eARC 與擺位"
+    ],
+    "bestFor": "預算約兩萬元，想一次取得獨立重低音和實體後環繞的客廳影音使用者。",
+    "recommendation": "完整套裝推薦：以約兩萬元取得 7.1.4 聲道及兩支後環繞；先確認主機高度、沙發後方擺位與四個元件的供電。若需要手機 App 或確定的高刷新遊戲直通規格，應另比較具明確官方證據的型號。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-09-07",
+      "note": "已查LBJ、FindPrice、BigGo及Costco歷史價雷達；LBJ exact入口與BigGo無法取回完整歷史，FindPrice只有支架，雷達只讀到7/20最近價18,999而未取得可核對最低點的歷史序列。蝦皮16,149候選未完整確認 /96 型號、一般公開付款價及商品狀態，不採為史低；Costco當日18,999只記現價，不推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-09-07",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Philips TAB8750/96\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Philips%20TAB8750/96%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20failure%29",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Philips TAB8750/96\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Philips%20TAB8750/96%22%20%28%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95%29",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"TAB8750/96\" 災情 問題 評價",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22TAB8750/96%22%20%E7%81%BD%E6%83%85%20%E5%95%8F%E9%A1%8C%20%E8%A9%95%E5%83%B9",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"TAB8750/96\" 評價",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22TAB8750/96%22%20%E8%A9%95%E5%83%B9",
+          "targetHost": "dcard.tw"
+        }
+      ]
+    },
+    "score": 86,
+    "voltage": "主機／重低音 AC 100–240V、50–60Hz；後環繞 DC 20V、1.5A、30W，使用隨附台灣版變壓器",
+    "warranty": "台灣 Costco 好市多販售公司貨，商品頁明示 1 年保固",
+    "tags": [
+      "Dolby Atmos",
+      "7.1.4",
+      "實體後環繞",
+      "無線重低音",
+      "Costco"
+    ]
   }
 ]);
 })();
