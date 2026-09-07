@@ -210,7 +210,7 @@
       "currency": "TWD",
       "amount": 34980,
       "converted": 34980,
-      "confidence": "2026-08-31 人工查核：Saros 20 Sonic 顯示 NT$33,980，但實際購買控制為『開賣通知我』『9/1 00:00 開賣』；本輪 8/31 尚未可購。保留原紀錄價 34,980，低價僅追蹤，不改現價或史低。",
+      "confidence": "2026-09-07 下午 momo 原頁完成動態載入後，Saros 20 Sonic 限時單件折後34,980、直接購買／放入購物車均可用；未扣點數、會員券或贈險回饋。",
       "basis": "retailer_current"
     },
     "installation": {
@@ -1644,9 +1644,9 @@
     "name": "熱旋風延邊避障全能掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 13499,
-      "converted": 13499,
-      "confidence": "PChome 2026-09-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 13480,
+      "converted": 13480,
+      "confidence": "PChome 2026-09-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0JA900ITF7U/000001_1782802931.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0J-A900ITF7U",
@@ -3607,7 +3607,7 @@
       "currency": "TWD",
       "amount": 7999,
       "converted": 7999,
-      "confidence": "2026-08-31 人工查核：Tapo RV30 Max Plus 整套主價 NT$7,999、低庫存 3 組，直接購買／購物車可用；排除 RV50 與耗材推薦價。",
+      "confidence": "2026-09-07 下午 momo 原頁顯示7,999，但只有可訂購時通知我／加入追蹤；保留原紀錄價，現貨待確認，不採推薦區RV50或耗材價。",
       "basis": "retailer_current"
     },
     "installation": {
@@ -3626,7 +3626,7 @@
       "機器人最大功率 45W；集塵座最大功率 650W",
       "支援 Tapo App、多樓層地圖、禁區、房間與排程清掃"
     ],
-    "description": "不到七千元把 5300Pa、LiDAR 與 3L 自動集塵帶進比較，補上 TP-Link／Tapo 智慧家庭生態系與高 CP 入門自集塵路線。",
+    "description": "5300Pa、LiDAR 與 3L 自動集塵補上 TP-Link／Tapo 智慧家庭生態系與入門自集塵路線；目前購買頁只提供到貨通知，需待恢復可購後確認價格。",
     "pros": [
       "5300Pa、LiDAR 與自動集塵在價格帶內規格突出",
       "3L 集塵袋減少日常倒塵頻率",

@@ -2631,6 +2631,105 @@
       "5.8L水箱",
       "PCI 25000"
     ]
+  },
+  {
+    "id": "dehumidifier-whirlpool-wdee123htw",
+    "category": "dehumidifier",
+    "rank": 28,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Whirlpool",
+    "model": "WDEE123HTW",
+    "name": "Puri-Pro 12L 第六感智能清淨除濕機",
+    "price": {
+      "currency": "TWD",
+      "amount": 12999,
+      "converted": 12999,
+      "basis": "retailer_current",
+      "confidence": "2026-09-07 台灣 Costco exact WDEE123HTW 商品158446公開價12,999元含運；主商品可加入購物車，JSON-LD為NewCondition/InStock。未扣貨物稅退稅、回饋或私人優惠。"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "落地插電式除濕機；Costco列含運，未另列到府安裝。須有接地110V插座並依說明書預留通風與排水空間；運送限台灣本島。"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/hca/h21/434451464323102.jpg",
+    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Dehumidifiers-Dry-Cabinets/Whirlpool-12-L-Air-Purifier-Dehumidifier-WDEE123HTW/p/158446",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "除濕能力：12L／日（27°C、RH60%）；原廠除濕適用15坪，實際依濕度與空間條件調整",
+      "空氣清淨：可單獨運轉；HEPA等多重過濾與負離子；CASR 1.89cmm，原廠清淨適用3坪",
+      "能源效率：一級能效；EF 2.75L/kWh；額定功率182W",
+      "水箱：6L；水滿防溢停機容量5.4L",
+      "控制：第六感智能、多段濕度、乾衣／夜間模式與1–24小時預約開關機",
+      "尺寸：寬40 × 高59 × 深19cm；機身淨重14kg（原廠說明書及官方規格一致）",
+      "電源：110V／60Hz；適用環境5–35°C；冷媒R290 98g",
+      "維護：濾網建議約一年更換，依環境調整；耗材費另計，向惠而浦台灣客服確認相容濾網"
+    ],
+    "description": "以19cm薄型機身、12L除濕與獨立HEPA清淨功能，補入小空間二合一比較。官方清淨適用約3坪，不能將15坪除濕範圍當成同等清淨能力。",
+    "pros": [
+      "原廠明示110V／60Hz、一級能效及12L日除濕能力",
+      "19cm深機身搭配6L水箱，並可獨立使用HEPA清淨功能",
+      "台灣Costco有公開含運售價與可購新品，惠而浦台灣售後可查"
+    ],
+    "cons": [
+      "Costco原始評價已有運轉噪音、葉片卡聲、機身熱感及到貨外觀問題；尚未達同一問題6人跨2站門檻，仍須驗貨並實測聲音",
+      "清淨適用約3坪，涵蓋範圍明顯小於除濕；HEPA濾網有後續耗材成本",
+      "須符合Costco購物資格；查無可採用的明確上市日及可靠史低證據"
+    ],
+    "bestFor": "空間有限、想用一台兼顧12L除濕與小房間清淨，且願意確認噪音接受度的人。",
+    "recommendation": "功能比較補充：WDEE123HTW具獨立HEPA清淨、薄型機身與大水箱，但現價高於既有WDEE1200TW，且原始評價已有噪音與外觀疑慮；優先衡量清淨需求及實際擺放空間。",
+    "score": 82,
+    "voltage": "110V／60Hz；台灣官方exact-model規格與說明書明示，使用接地插座",
+    "warranty": "台灣惠而浦正常品：全機／主機板1年、壓縮機5年、冷凍系統／冷凝器／蒸發器3年；Costco商品頁另列1年。範圍依隨貨保固卡，濾網等耗材除外；台灣客服0800-258-558。",
+    "tags": [
+      "Whirlpool",
+      "12L",
+      "一級能效",
+      "HEPA",
+      "清淨除濕二合一",
+      "19cm薄型",
+      "6L水箱"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-09-07",
+      "note": "已查FindPrice exact-model比價、LBJ價格搜尋、Costco/PChome新品頁及Costco第三方價格快照；查得目前售價與短期持平快照，未找到可驗證完整條件的同型號歷史最低價。未以現價、退稅、私人優惠或配件推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-09-07",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"WDEE123HTW\" 問題",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22WDEE123HTW%22%20%E5%95%8F%E9%A1%8C",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"WDEE123HTW\" 問題",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22WDEE123HTW%22%20%E5%95%8F%E9%A1%8C",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"WDEE123HTW\" 問題",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22WDEE123HTW%22%20%E5%95%8F%E9%A1%8C",
+          "targetHost": "dcard.tw"
+        }
+      ]
+    }
   }
 ]);
 })();

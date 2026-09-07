@@ -1,14 +1,14 @@
 {
   "summary": {
-    "checkedAt": "2026-09-07T00:42:01.981Z",
-    "total": 1147,
-    "researchedThisRun": 7,
-    "found": 341,
-    "missing": 806,
+    "checkedAt": "2026-09-07T09:30:44.002Z",
+    "total": 1149,
+    "researchedThisRun": 2,
+    "found": 342,
+    "missing": 807,
     "byConfidence": {
       "official": 187,
-      "not_found": 803,
-      "retailer_explicit": 22,
+      "not_found": 804,
+      "retailer_explicit": 23,
       "credible_article": 52,
       "high": 64,
       "medium": 16,
@@ -35237,6 +35237,82 @@
         "https://tw.store.ui.com/tw/en/category/wifi-flagship/products/u7-pro-xgs"
       ],
       "regionalBoundary": "2025-03-10為官方全球介紹/發表；台灣首次開賣日找不到，當日台灣現售資格由review_work另核。"
+    },
+    {
+      "id": "monitor-msi-mpg271qr-x50",
+      "category": "monitor",
+      "brand": "MSI",
+      "model": "MPG 271QR QD-OLED X50",
+      "name": "27 型 WQHD 500Hz QD-OLED 電競螢幕（台灣公司貨）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2025-12",
+      "sourceUrl": "https://www.coolpc.tw/tw/shop/monitor/msi-mpg-271qr-qd-oled-x50/",
+      "sourceTitle": "用OLED點亮璀璨聖誕夜！MSI MPG 271QR QD-OLED X50螢幕上市獨家優惠三千。",
+      "evidenceSnippet": "原價屋2025/12/25公告在完整X50型號段落明示現在由原價屋獨家開賣，並說新品上市；採可確認台灣開賣月份2025-12，不直接把公告日當全球最早上市日。",
+      "confidence": "retailer_explicit",
+      "sourceKind": "retailer_launch_announcement",
+      "query": "\"MPG 271QR QD-OLED X50\" \"上市\"",
+      "auditQueries": [
+        "\"MPG 271QR QD-OLED X50\" \"上市\" \"台灣\"",
+        "site:msi.com/news \"MPG 271QR QD-OLED X50\""
+      ],
+      "checkedAt": "2026-09-07",
+      "auditDisposition": "new_found",
+      "reason": "台灣可信通路原文明示正在獨家開賣及新品上市，並有2025-12-25日期，保守採月份。MSI台灣2025-08-20為正式發表但未載明台灣一般販售日；中國8/26與日本10/3為其他地區日期，不套台灣。手冊/韌體日期與現官店新品標記不作上市證據。",
+      "checkedSources": [
+        "https://www.coolpc.tw/tw/shop/monitor/msi-mpg-271qr-qd-oled-x50/",
+        "https://tw.msi.com/news/detail/MSI-Unveils-MPG-271QR-QD-OLED-X50--TRUE-AI-QD-OLED-Gaming-Monitor-146901",
+        "https://www.msi.cn/news/detail/MSI-Unveils-MPG-271QR-QD-OLED-X50--TRUE-AI-QD-OLED-Gaming-Monitor-146901"
+      ],
+      "regionalBoundary": {
+        "taiwanRetailerLaunchAnnouncement": "2025-12-25",
+        "adoptedTaiwanMonth": "2025-12",
+        "officialTaiwanProductUnveiling": "2025-08-20",
+        "chinaSaleAnnouncement": "2025-08-26"
+      }
+    },
+    {
+      "id": "dehumidifier-whirlpool-wdee123htw",
+      "category": "dehumidifier",
+      "brand": "Whirlpool",
+      "model": "WDEE123HTW",
+      "name": "Puri-Pro 12L 第六感智能清淨除濕機",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"WDEE123HTW\" 上市 發售 推出",
+      "auditQueries": [
+        "\"WDEE123HTW\" 上市 發售 推出"
+      ],
+      "sourceKind": "not_found",
+      "reason": "台灣官方公開產品文件僅標新上市，startDate/createTime/updateTime為網站資料欄位，不是明確上市公告；節能證書日期、手冊日期、Costco上架/促銷與Mobile01購前討論日期均排除，找不到可採用的精確發售日。",
+      "checkedAt": "2026-09-07",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://firestore.googleapis.com/v1/projects/whirlpool-master/databases/(default)/documents/tw/products/list/Yb53bQEktNp1gOBDupvS",
+          "title": "Whirlpool官方公開WDEE123HTW產品文件",
+          "outcome": "salesStatus新上市；startDate是官網排程欄位，不推定為上市日。"
+        },
+        {
+          "url": "https://firebasestorage.googleapis.com/v0/b/whirlpool-master.appspot.com/o/products%2FWDEE123HTW%2FprodPDF%2F1772790863945-3.%20WDEE123HTW%20WDEE103HTW%20%E4%BD%BF%E7%94%A8%E8%AA%AA%E6%98%8E%E6%9B%B8-final.pdf?alt=media&token=70e22a40-532f-496e-9c7d-7b49c3b70540",
+          "title": "Whirlpool官方WDEE123HTW/WDEE103HTW說明書",
+          "outcome": "規格與使用內容，沒有明示上市/發售日期。"
+        },
+        {
+          "url": "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Dehumidifiers-Dry-Cabinets/Whirlpool-12-L-Air-Purifier-Dehumidifier-WDEE123HTW/p/158446",
+          "title": "Costco WDEE123HTW 商品158446",
+          "outcome": "現售商品頁與評價日期不能視為上市日。"
+        },
+        {
+          "url": "https://www.energylabel.org.tw/purchasing/product/item.aspx?itemp0=73575",
+          "title": "節能標章WDEE123HTW證書1150092",
+          "outcome": "官方搜尋索引顯示認證日期；原頁逾時，認證日期不當上市日。"
+        }
+      ]
     }
   ]
 }

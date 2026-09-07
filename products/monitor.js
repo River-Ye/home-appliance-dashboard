@@ -5140,9 +5140,9 @@
     "name": "27 型 4K 內建校色器專業色彩管理螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 56893,
-      "converted": 56893,
-      "confidence": "2026-09-07 人工覆核：Chrome現頁09/06 22:00–09/07滿1件95折，限時折後56,893，直接購買及放入購物車，未扣點數或會員券。",
+      "amount": 59888,
+      "converted": 59888,
+      "confidence": "momo購物 2026-09-07 下午人工核對 exact-model 公開單件現價及可購狀態；非會員券、點數或加購價",
       "basis": "retailer_current"
     },
     "image": "https://image.benq.com/is/image/benqco/1pd2770u-front-hood-hotkey-2?$ResponsivePreset$",
@@ -6128,6 +6128,102 @@
           "platform": "Mobile01",
           "query": "\"XG27UCGR\" site:mobile01.com 問題",
           "queryUrl": "https://www.google.com/search?q=%22XG27UCGR%22%20site%3Amobile01.com%20%E5%95%8F%E9%A1%8C",
+          "targetHost": "mobile01.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "monitor-msi-mpg271qr-x50",
+    "category": "monitor",
+    "rank": 67,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "MSI",
+    "model": "MPG 271QR QD-OLED X50",
+    "name": "27 型 WQHD 500Hz QD-OLED 電競螢幕（台灣公司貨）",
+    "price": {
+      "currency": "TWD",
+      "amount": 23900,
+      "converted": 23900,
+      "basis": "retailer_current",
+      "confidence": "MSI台灣品牌旗艦館2026-09-07 exact-model含稅公開售價NT$23,900；瀏覽器可見加入購物車與一般三個工作日出貨，主品無預購標示，未扣回饋/會員價"
+    },
+    "image": "https://tw-store.msi.com/cdn/shop/files/product_1753757129eb9023f1f26e69800fb4ca8cd584c1c0.webp?v=1787564187",
+    "buyUrl": "https://tw-store.msi.com/products/mpg-271qr-qd-oled-x50",
+    "buyLabel": "MSI 台灣品牌旗艦館",
+    "installation": {
+      "status": "not_stated",
+      "note": "含原廠底座及VESA螺絲；官店未明示到府組裝，另購支架/壁掛安裝費另計。"
+    },
+    "specs": [
+      "26.5 吋平面 QD-OLED；2560 × 1440 WQHD、500Hz、0.03ms GtG",
+      "色彩：10-bit；DCI-P3 99%、Adobe RGB 98%（CIE1976）；Delta E ≤2",
+      "亮度：SDR 300 nits；HDR True Black 500 模式典型515 nits（10% APL）、Peak 1000模式典型1000 nits（3% APL）",
+      "同步：G-SYNC Compatible、FreeSync Premium Pro；48–500Hz；DisplayHDR True Black 500、ClearMR 21000",
+      "介面：DisplayPort 2.1a UHBR20 ×1、HDMI 2.1 ×2、USB-C DP Alt Mode ×1（98W PD）、耳機孔",
+      "USB／多機：USB 5Gbps Type-A ×2、Type-B ×1；KVM、PIP/PBP",
+      "OLED保護：OLED Care 3.0、AI人體感測；PC軟體/系統模式需依手冊接上USB上行線並設定",
+      "底座：升降110mm、仰角-5°至20°；VESA 100 × 100mm",
+      "尺寸：不含底座60.93 × 7.23 × 37.39 cm；含底座60.93 × 24.19 × 41.61 cm（寬 × 深 × 高；MSI台灣技術規格）",
+      "重量：8.4 kg（官方淨重NW）；不含底座重量：台灣官方未標示，選支架前需確認實際掛載重量",
+      "供電：AC 100–240V／50–60Hz；隨附C13電源線，適用台灣110V／60Hz",
+      "隨附配件：HDMI 2.1線、DP 2.1a線、USB Type-B轉A線、電源線、VESA螺絲、拭鏡布、色彩報告與快速指南"
+    ],
+    "description": "MPG 271QR QD-OLED X50 將27型WQHD OLED提升到500Hz，結合DP2.1a UHBR20與98W USB-C，適合高幀率競技與筆電共用；它是現有271QRX 360Hz之外的進階選項。",
+    "pros": [
+      "500Hz QD-OLED兼顧高刷新與黑位表現",
+      "DP2.1a UHBR20、98W USB-C與KVM可連接多台設備",
+      "台灣官店公開現售並明示3年防烙印保固"
+    ],
+    "cons": [
+      "500Hz需遊戲、顯卡與輸出頻寬共同配合；不是4K原生面板",
+      "OLED長時間靜態桌面仍需保護機制；文字彩邊/強環境光表現應實際確認",
+      "原始使用者回報包括面板保護反覆提示與人體感測喚醒異常，尚未達本站跨兩站集中災情門檻；建議到貨先測試待機喚醒、保護週期、USB上行與HDR/DSC設定"
+    ],
+    "bestFor": "已有高階顯卡、偏重WQHD高幀率FPS，並需要USB-C與多機切換的人。",
+    "recommendation": "500Hz OLED進階選項：比較現有271QRX 360Hz的價差與實際遊戲幀率；購後在退換期內測試面板保護、人體感測、500Hz及多機切換，不只依AI功能決定。",
+    "score": 89,
+    "voltage": "AC 100–240V／50–60Hz；MSI台灣exact-model官方規格，適用台灣110V／60Hz。",
+    "warranty": "MSI台灣品牌旗艦館公司貨；產品頁明示3年防烙印保固，依原廠保固條款。",
+    "tags": [
+      "QD-OLED",
+      "WQHD 500Hz",
+      "DP 2.1a UHBR20",
+      "USB-C 98W",
+      "KVM"
+    ],
+    "releaseDate": "2025-12",
+    "historicalLow": {
+      "status": "found",
+      "amount": 23900,
+      "currency": "TWD",
+      "converted": 23900,
+      "sourceUrl": "https://www.coolpc.tw/tw/shop/monitor/msi-mpg-271qr-qd-oled-x50/",
+      "sourceTitle": "用OLED點亮璀璨聖誕夜！MSI MPG 271QR QD-OLED X50螢幕上市獨家優惠三千。",
+      "evidenceSnippet": "2025-12-25原價屋活動品項分列X50公開售價由26900降至23900，限時兩週；另行提及蝦皮券而非23900的必要條件。",
+      "sourceKind": "retailer_promo",
+      "confidence": "high",
+      "checkedAt": "2026-09-07",
+      "priceDate": "2025-12-25",
+      "note": "截至查核日，可驗證的台灣同完整型號新品公開歷史低價為原價屋2025-12-25促銷NT$23,900；未套用另述蝦皮券、贈品折現、信用卡或點數回饋。這是已讀可信來源中的最低紀錄，不宣稱全市場所有時間最低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-09-07",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "\"MPG 271QR QD-OLED X50\" site:reddit.com problem",
+          "queryUrl": "https://www.google.com/search?q=%22MPG%20271QR%20QD-OLED%20X50%22%20site%3Areddit.com%20problem",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "\"MPG 271QR QD-OLED X50\" site:mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=%22MPG%20271QR%20QD-OLED%20X50%22%20site%3Amobile01.com",
           "targetHost": "mobile01.com"
         }
       ]

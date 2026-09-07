@@ -1876,9 +1876,9 @@
     "name": "電動升降桌 白色",
     "price": {
       "currency": "TWD",
-      "amount": 8999,
-      "converted": 8999,
-      "confidence": "Costco 好市多 2026-07-11 頁面查核價"
+      "amount": 7199,
+      "converted": 7199,
+      "confidence": "Costco 好市多 2026-09-07 exact-model 公開結構化價格"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/hc9/hb9/261465662193694.jpg",
     "buyUrl": "https://www.costco.com.tw/Furniture-Kitchen/Furniture/Computer-Desk-Chair-Sets/Loctek-Adjustable-Desk-ET200-White/p/141578",

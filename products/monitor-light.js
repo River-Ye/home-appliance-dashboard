@@ -1364,7 +1364,7 @@
       "amount": 75.99,
       "converted": 2404,
       "basis": "retailer_current",
-      "confidence": "Quntis 官方商店 2026-08-31 Chrome原頁USD公開新品單件價。本輪重取ExchangeRate-API同批次USD/TWD 31.649299（2026-08-31 00:02 UTC）換算；海外新品價格未含國際運費、進口稅；需核對電壓、插頭與USB變壓器額定，台灣保固及跨國送修不保證。；ExchangeRate-API 2026-09-07 匯率換算"
+      "confidence": "2026-09-07 下午官方FR52GY顯示USD72.99，但購物區仍標 Ship by September 30th；保留先前USD75.99參考價，較低延後交貨價只追蹤，不作即時現貨價或史低。海外價未含國際運費、進口稅；須核對電壓／插頭／USB 供電，台灣保固及跨國送修不保證。；ExchangeRate-API 2026-09-07 匯率換算"
     },
     "installation": {
       "status": "not_stated",

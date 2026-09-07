@@ -86925,6 +86925,523 @@
       ],
       "reviewerNote": "U7 Pro XGS：review_home與review_living獨立讀取原文後採交集六人thesnowdog、alexgarrett、Builda、itsjakerobb、thankyourob、iFeeltech。顯式保留各自拓樸/FW/復原、thankyourob首次及iFeeltech後續已修復；未宣稱同一根因/台灣故障率或現版全未修。iFeeltech blog僅作本人後續資料，不增加一位作者或第三站計數；ledger只有UI原始一列，故crossPostKey為null，followupSources明示eventDedupKey及不計人。",
       "attestation": "manual_original_pages_reviewed"
+    },
+    {
+      "id": "dehumidifier-whirlpool-wdee123htw",
+      "category": "dehumidifier",
+      "brand": "Whirlpool",
+      "model": "WDEE123HTW",
+      "reviewedAt": "2026-09-07",
+      "reviewBatch": "dehumidifier",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT",
+        "Dcard",
+        "Costco"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"WDEE123HTW\" 問題",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22WDEE123HTW%22%20%E5%95%8F%E9%A1%8C",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"WDEE123HTW\" 問題",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22WDEE123HTW%22%20%E5%95%8F%E9%A1%8C",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"WDEE123HTW\" 問題",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22WDEE123HTW%22%20%E5%95%8F%E9%A1%8C",
+          "targetHost": "dcard.tw"
+        }
+      ],
+      "candidateDisposition": "WDEE123HTW：Mobile01購前討論不計入；Costco有7位不同負面/混合文字作者，但同問題人數不足6且僅一原始站，保留具體回報而不成立common_issue。",
+      "representativeSources": [
+        {
+          "platform": "Mobile01",
+          "title": "Mobile01：清淨除濕機建議",
+          "url": "https://www.mobile01.com/topicdetail.php?f=731&t=7249083"
+        },
+        {
+          "platform": "Costco",
+          "title": "Costco：Whirlpool WDEE123HTW 商品158446原始買家評價",
+          "url": "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Dehumidifiers-Dry-Cabinets/Whirlpool-12-L-Air-Purifier-Dehumidifier-WDEE123HTW/p/158446"
+        }
+      ],
+      "reviewerNote": "WDEE123HTW：逐條人工閱讀Costco原始21筆評價及Mobile01原頁，排除僅星等、正評與購前討論；PTT/Dcard精確搜尋未找到可核對候選。no_common_issue不代表沒有負評，產品cons已揭露噪音、熱感與外觀疑慮。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=731&t=7249083",
+          "title": "Mobile01：清淨除濕機建議",
+          "platform": "Mobile01",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-07",
+          "sourceExcerpt": "樓主選購前比較WDEE1200TW與WDEE123HTW，確認店員所指型號；其他回覆討論HEPA、競品及容量，沒有WDEE123HTW擁有者的實際故障回報。",
+          "independentAuthors": 0,
+          "specificReason": "WDEE123HTW雖精確出現在樓主比較留言，但屬購前詢問，沒有該型號第一人稱負面使用經驗，不能計入相同問題作者。"
+        },
+        {
+          "url": "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Dehumidifiers-Dry-Cabinets/Whirlpool-12-L-Air-Purifier-Dehumidifier-WDEE123HTW/p/158446",
+          "title": "Costco：Whirlpool WDEE123HTW 商品158446原始買家評價",
+          "platform": "Costco",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-07",
+          "sourceExcerpt": "人工讀取Costco使用的Bazaarvoice原始158446評價，21筆中7位具文字負面或混合回報：噪音/卡聲3位、機身熱感2位、外觀或到貨狀況4位，部分作者跨問題重疊。",
+          "independentAuthors": 7,
+          "specificReason": "7位並非同一問題，噪音3位、熱感2位、外觀/到貨4位均不足6人；全部來自Costco同一原始站，Mobile01未有第二站相同型號第一人稱故障，不能成立跨2站災情。"
+        }
+      ]
+    },
+    {
+      "id": "monitor-msi-mpg271qr-x50",
+      "category": "monitor",
+      "brand": "MSI",
+      "model": "MPG 271QR QD-OLED X50",
+      "reviewedAt": "2026-09-07",
+      "reviewBatch": "monitor",
+      "decision": "no_common_issue",
+      "attestation": "manual_original_pages_reviewed",
+      "checkedPlatforms": [
+        "Reddit",
+        "MSI Forum",
+        "Mobile01",
+        "Best Buy"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "\"MPG 271QR QD-OLED X50\" site:reddit.com problem",
+          "queryUrl": "https://www.google.com/search?q=%22MPG%20271QR%20QD-OLED%20X50%22%20site%3Areddit.com%20problem",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "\"MPG 271QR QD-OLED X50\" site:mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=%22MPG%20271QR%20QD-OLED%20X50%22%20site%3Amobile01.com",
+          "targetHost": "mobile01.com"
+        }
+      ],
+      "representativeSources": [
+        {
+          "platform": "Reddit",
+          "title": "AVOID MPG 271QR QD-OLED X50!",
+          "url": "https://www.reddit.com/r/MSI_Gaming/comments/1qmrsd7/avoid_mpg_271qr_qdoled_x50/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "MPG 271QR QD-OLED X50 (issues?)",
+          "url": "https://www.reddit.com/r/OLED_Gaming/comments/1p92jdz/mpg_271qr_qdoled_x50_issues/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "MSI OLED Care 3.0",
+          "url": "https://www.reddit.com/r/OLED_Gaming/comments/1sg6d5e/msi_oled_care_30/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Issues with monitor",
+          "url": "https://www.reddit.com/r/OLED_Gaming/comments/1s53xr7/issues_with_monitor/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Issue with monitor",
+          "url": "https://www.reddit.com/r/MSI_Gaming/comments/1s5i1mw/issue_with_monitor/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "MSI Gaming Intelligence does not handle 2 identical monitors well",
+          "url": "https://www.reddit.com/r/MSI_Gaming/comments/1tp9ifc/msi_gaming_intelligence_does_not_handle_2/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "How do I set up my monitor? Please help",
+          "url": "https://www.reddit.com/r/MSI_Gaming/comments/1szrl6y/how_do_i_set_up_my_monitor_please_help/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Issues with HDR on my MSI Oled Monitor",
+          "url": "https://www.reddit.com/r/OLED_Gaming/comments/1txsmqf/issues_with_hdr_on_my_msi_oled_monitor/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "MSI MPG 271QR QD-OLED X50 DSC question",
+          "url": "https://www.reddit.com/r/OLED_Gaming/comments/1teulp5/msi_mpg_271qr_qdoled_x50_dsc_question/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Before I return this monitor, anyone else have an issue with MSI's OLED Care stuck in a persistent loop of panel protecting?",
+          "url": "https://www.reddit.com/r/oled_monitors/comments/1u568oe/before_i_return_this_monitor_anyone_else_have_an/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Finally did it. IPS to QD-OLED",
+          "url": "https://www.reddit.com/r/OLED_Gaming/comments/1vn7qcj/finally_did_it_ips_to_qdoled/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Any reason NOT to buy the 500hz 1440p MSI MPG 271QR QD-OLED X50?",
+          "url": "https://www.reddit.com/r/OLED_Gaming/comments/1r2cdhf/any_reason_not_to_buy_the_500hz_1440p_msi_mpg/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "MSI MPG 271QR X50 or ROG Swift OLED PG27AQWP-W?",
+          "url": "https://www.reddit.com/r/OLED_Gaming/comments/1rbsx5v/msi_mpg_271qr_x50_or_rog_swift_oled_pg27aqwpw/"
+        },
+        {
+          "platform": "Mobile01",
+          "title": "【Computex 2025】微星推出新一代 QD-OLED 顯示器 導入兩大 AI 功能提供更好使用體驗",
+          "url": "https://www.mobile01.com/topicdetail.php?f=350&t=7121487"
+        },
+        {
+          "platform": "Mobile01",
+          "title": "【Computex 2025】微星推出新一代 QD-OLED 顯示器（第2頁）",
+          "url": "https://www.mobile01.com/topicdetail.php?f=350&p=2&t=7121487"
+        },
+        {
+          "platform": "Mobile01",
+          "title": "windwithme COMPUTEX 2025 AI NEXT新品分享(文長圖多影片多)",
+          "url": "https://www.mobile01.com/topicdetail.php?f=514&t=7126348"
+        },
+        {
+          "platform": "Best Buy",
+          "title": "Customer Reviews: MSI MPG 271QR QD-OLED X50 (SKU 6673814)",
+          "url": "https://www.bestbuy.com/product/msi-mpg-271qr-qd-oled-x50-27-qhd-500hz-0-03ms-gaming-monitor-g-sync-freesync-premium-pro-tb-400-hdmi-dp-usb-c-metallic-black-rgb/J3P7TXQYVQ/sku/6673814/reviews"
+        }
+      ],
+      "candidateReviews": [
+        {
+          "url": "https://www.reddit.com/r/MSI_Gaming/comments/1qmrsd7/avoid_mpg_271qr_qdoled_x50/",
+          "title": "AVOID MPG 271QR QD-OLED X50!",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-07",
+          "sourceExcerpt": "Art_Weingartner 描述人體感測返回不喚醒、低光無效與面板保護反覆失敗；Efugi 明示 MPG 271QR X50 且保護完成後重複提示；NoMisZx 明示同型號在座位上仍自動關閉；Xbadest 明示此型號返回座位後約5–6秒才亮。",
+          "independentAuthors": 4,
+          "specificReason": "四名可辨識且在原頁明示型號的使用者涉及不同問題，不能全部合算同一災情。面板保護先計 Art_Weingartner、Efugi 兩人；感測失準為 Art_Weingartner、NoMisZx，Xbadest 為喚醒延遲。TheOmen_75、Head-Ground-2630、CatchAggravating8515、Pure-Reputation-8514 另有上下文相關回覆但未明示精確版號，保留追蹤而不加確定人數；重複發言不增人。所有本串均屬 reddit.com，未有第二原始網站同問題回報達門檻。",
+          "authorReviews": [
+            {
+              "author": "Art_Weingartner",
+              "topic": "panel_protect_and_presence_sensor",
+              "exactModelConfirmed": true,
+              "firstPersonConfirmed": true,
+              "reviewerNote": "原貼標題 exact 型號；同一作者後續回覆僅計一次，亦有 FW.020 改善 popup 的回報，不能宣稱所有新韌體皆未解。"
+            },
+            {
+              "author": "Efugi",
+              "topic": "panel_protect",
+              "exactModelConfirmed": true,
+              "firstPersonConfirmed": true,
+              "reviewerNote": "原頁明文MPG271QRX50與完成後重複提示；permalink /comment/o8nbiug/。"
+            },
+            {
+              "author": "NoMisZx",
+              "topic": "presence_sensor",
+              "exactModelConfirmed": true,
+              "firstPersonConfirmed": true,
+              "reviewerNote": "原頁明文買MSIMPG271QRX50，在面前仍熄屏需手動喚醒；關掉感測後繼續使用。"
+            },
+            {
+              "author": "Xbadest",
+              "topic": "wake_delay",
+              "exactModelConfirmed": true,
+              "firstPersonConfirmed": true,
+              "reviewerNote": "完整型號且實際喚醒5–6秒；permalink /comment/o2hmsc0/，不將延遲混作完全無法喚醒。"
+            }
+          ]
+        },
+        {
+          "url": "https://www.reddit.com/r/OLED_Gaming/comments/1p92jdz/mpg_271qr_qdoled_x50_issues/",
+          "title": "MPG 271QR QD-OLED X50 (issues?)",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-07",
+          "sourceExcerpt": "moonlitfarewell 的 Gaming Intelligence 偵測不到支援螢幕且 AI Care Sensor 無效，後續明說接上隨附 upstream USB 線已改善；Fibula_ 另稱 same monitor 但沒有完整型號。",
+          "independentAuthors": 1,
+          "specificReason": "這是有第一人稱的精確型號案例，但原作者已指出上行USB線缺漏及接線後改善，不直接判為硬體共同故障。Fibula_ 的同款說法未另核 exact SKU，暫不增確定人数。單站單個已明示型號作者，沒有六人跨站同問題門檻。",
+          "authorReviews": [
+            {
+              "author": "moonlitfarewell",
+              "topic": "software_detection_and_presence_sensor",
+              "exactModelConfirmed": true,
+              "firstPersonConfirmed": true,
+              "reviewerNote": "已讀原貼及補充接上USB線解決，保留設定條件；不把OSD選項或驅動日期當上市。"
+            }
+          ]
+        },
+        {
+          "url": "https://www.reddit.com/r/OLED_Gaming/comments/1sg6d5e/msi_oled_care_30/",
+          "title": "MSI OLED Care 3.0",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-07",
+          "sourceExcerpt": "原貼明示MPG271QRQD-OLEDX50，每四小時GamingIntelligence提示使遊戲跳出；後續說待機後保護仍會執行。原作者已顯示[deleted]。",
+          "independentAuthors": 0,
+          "specificReason": "雖然原頁有具體exact-model症狀，但作者已刪除而不可識別，不得計入獨立使用者門檻；四小時應用程式提示亦須與保護未完成/循環失敗分開，不跨問題合併。"
+        },
+        {
+          "url": "https://www.reddit.com/r/OLED_Gaming/comments/1s53xr7/issues_with_monitor/",
+          "title": "Issues with monitor",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-07",
+          "sourceExcerpt": "wait_im_eating 明示買MPG271QRQD-OLEDX50，喚醒時反覆顯示panel protect未完成，且曾單次閃藍紅白綠。",
+          "independentAuthors": 1,
+          "specificReason": "可辨識exact-model的一人症狀；與其r/MSI_Gaming的1s5i1mw逐字同作者重貼，以同一crossPostKey去重。單次彩色畫面不和面板保護提示合算同問題；尚無跨站六人證據。",
+          "authorReviews": [
+            {
+              "author": "wait_im_eating",
+              "topic": "panel_protect",
+              "exactModelConfirmed": true,
+              "firstPersonConfirmed": true,
+              "reviewerNote": "完整型號/第一人稱，與另一看板原貼屬同一作者。"
+            }
+          ],
+          "crossPostKey": "reddit-wait_im_eating-mpg271qr-x50-panel-protect-20260327"
+        },
+        {
+          "url": "https://www.reddit.com/r/MSI_Gaming/comments/1s5i1mw/issue_with_monitor/",
+          "title": "Issue with monitor",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-07",
+          "sourceExcerpt": "wait_im_eating 重貼同型號、喚醒顯示保護未完成的內容；後續說出門一週拔除電源後自行恢復。Corbinator要求修正但未明示自有exact型號。",
+          "independentAuthors": 1,
+          "specificReason": "與r/OLED_Gaming同作者同內容，不新增第二人或第二網站。後續改善應一併保留，不能當永久未解故障。Corbinator不是已確認的第一人稱exact-model回報者，不加計。",
+          "authorReviews": [
+            {
+              "author": "wait_im_eating",
+              "topic": "panel_protect",
+              "exactModelConfirmed": true,
+              "firstPersonConfirmed": true,
+              "reviewerNote": "與1s53xr7同作者去重；已保留長時間斷電後恢復的更新。"
+            }
+          ],
+          "crossPostKey": "reddit-wait_im_eating-mpg271qr-x50-panel-protect-20260327"
+        },
+        {
+          "url": "https://www.reddit.com/r/MSI_Gaming/comments/1tp9ifc/msi_gaming_intelligence_does_not_handle_2/",
+          "title": "MSI Gaming Intelligence does not handle 2 identical monitors well",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-07",
+          "sourceExcerpt": "United_Staff_7243 明示有兩台MPG271QRQD-OLEDX50，USB接軟體後主螢幕提示但副螢幕執行保護，並反覆說保護未完成。",
+          "independentAuthors": 1,
+          "specificReason": "兩台設備屬同一使用者，只計一人；是雙螢幕應用程式操作/保護提示案例，不能用兩台當兩位作者。與其他Reddit串仍同站，沒有第二原始網站同症狀達門檻。",
+          "authorReviews": [
+            {
+              "author": "United_Staff_7243",
+              "topic": "dual_monitor_panel_protect",
+              "exactModelConfirmed": true,
+              "firstPersonConfirmed": true,
+              "reviewerNote": "兩台同型號但同作者；實際文字明確，不預設Windows或韌體為已證明根因。"
+            }
+          ]
+        },
+        {
+          "url": "https://www.reddit.com/r/MSI_Gaming/comments/1szrl6y/how_do_i_set_up_my_monitor_please_help/",
+          "title": "How do I set up my monitor? Please help",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-07",
+          "sourceExcerpt": "United_Staff_7243 明示1台IPS與2台X50，sRGB亮度70先一台後兩台顯色灰淡，5090/Windows11，仍用.16韌體且計畫更新。",
+          "independentAuthors": 1,
+          "specificReason": "同一作者的另一種色彩設定症狀，不加成面板保護的第二位使用者；原頁沒有可確認共同硬體根因，也沒有其他網站六人一致回報。需與HDR瀏覽器灰淡及DSC色格式問題分別追蹤。",
+          "authorReviews": [
+            {
+              "author": "United_Staff_7243",
+              "topic": "srgb_color_settings",
+              "exactModelConfirmed": true,
+              "firstPersonConfirmed": true,
+              "reviewerNote": "兩台不等於兩人；未完成新韌體驗證，保留原作者條件。"
+            }
+          ]
+        },
+        {
+          "url": "https://www.reddit.com/r/OLED_Gaming/comments/1txsmqf/issues_with_hdr_on_my_msi_oled_monitor/",
+          "title": "Issues with HDR on my MSI Oled Monitor",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-07",
+          "sourceExcerpt": "NiNJA_CoffiNN 明示購買完整X50型號，觀看HDR影片顏色灰淡；後續明说停用自動色彩並改用Edge後看起來正常。",
+          "independentAuthors": 1,
+          "specificReason": "原作者已確認軟體/瀏覽器設定改善，不能寫成硬體集中災情；Desmond624只說MPG未指明X50，不計為該exact型號另一回報者。此串僅一位可識別exact-model作者。",
+          "authorReviews": [
+            {
+              "author": "NiNJA_CoffiNN",
+              "topic": "hdr_video_washed_out",
+              "exactModelConfirmed": true,
+              "firstPersonConfirmed": true,
+              "reviewerNote": "實讀後续更換瀏覽器與色彩設定改善；不推定所有HDR問題都同原因。"
+            }
+          ]
+        },
+        {
+          "url": "https://www.reddit.com/r/OLED_Gaming/comments/1teulp5/msi_mpg_271qr_qdoled_x50_dsc_question/",
+          "title": "MSI MPG 271QR QD-OLED X50 DSC question",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-07",
+          "sourceExcerpt": "DzR-ALF 關閉DSC時RGB10bit變成YCbCr422 8bit，回覆說用5070與櫥櫃找到的DP線，原附DP線尚未拆封。",
+          "independentAuthors": 1,
+          "specificReason": "有一名exact-model第一人稱色格式案例，但未完成原附DP2.1線驗證；不能只憑網友猜測定義GPU/線材根因，更不和HDR影片灰淡算成同一六人災情。其餘回覆屬建議或正常使用。",
+          "authorReviews": [
+            {
+              "author": "DzR-ALF",
+              "topic": "dsc_color_format",
+              "exactModelConfirmed": true,
+              "firstPersonConfirmed": true,
+              "reviewerNote": "原貼及回覆確定使用舊來源不明線材；沒有後續換原線成功證據，不宣稱已解決。"
+            }
+          ]
+        },
+        {
+          "url": "https://www.reddit.com/r/oled_monitors/comments/1u568oe/before_i_return_this_monitor_anyone_else_have_an/",
+          "title": "Before I return this monitor, anyone else have an issue with MSI's OLED Care stuck in a persistent loop of panel protecting?",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": false,
+          "reviewedAt": "2026-09-07",
+          "sourceExcerpt": "原頁楼主everbodyh8schris實際買的是MAG272QPQD-OLEDX24，面板保護循環；搜尋索引另含一則9/1寫X50的回覆，但本次可讀原頁未展示該回覆的作者與permalink。",
+          "independentAuthors": 0,
+          "specificReason": "樓主機型為MAG272QP X24，不能套給MPG271QR X50；索引中的X50句子未回到可辨識作者的原文定位，故不計人數、不以搜尋摘要補造報告。已明確保留可讀原頁與索引差異。"
+        },
+        {
+          "url": "https://www.reddit.com/r/OLED_Gaming/comments/1vn7qcj/finally_did_it_ips_to_qdoled/",
+          "title": "Finally did it. IPS to QD-OLED",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-07",
+          "sourceExcerpt": "DeclaredSnow 明示MPG271QRX50並列500Hz/QD-OLED規格，使用一週整體滿意，但提到AI camera在暗房效果普通，改以手動關閉螢幕。",
+          "independentAuthors": 1,
+          "specificReason": "可辨識同型號一人對暗室感測的使用觀察，沒有跨網站共同故障成立；不把泛稱OLED烙印疑問或其他人的紫色表情當作X50已烙印回報。",
+          "authorReviews": [
+            {
+              "author": "DeclaredSnow",
+              "topic": "presence_sensor_low_light",
+              "exactModelConfirmed": true,
+              "firstPersonConfirmed": true,
+              "reviewerNote": "明示X50及500Hz排除271QRX；暗室觀察保留，不解讀為已發生烙印。"
+            }
+          ]
+        },
+        {
+          "url": "https://www.reddit.com/r/OLED_Gaming/comments/1r2cdhf/any_reason_not_to_buy_the_500hz_1440p_msi_mpg/",
+          "title": "Any reason NOT to buy the 500hz 1440p MSI MPG 271QR QD-OLED X50?",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-07",
+          "sourceExcerpt": "樓主pretentious42是在購買前比較；Baaarni提換貨後VRR閃爍、josefgazdick提選500Hz變1080p，但兩段未另寫完整X50型號。",
+          "independentAuthors": 0,
+          "specificReason": "頁面包含多款ASUS/三星與MSI比較；楼主不是故障自述，其餘不明確同型號的零星回覆保留追蹤但不擅自推定exact-model。正常回覆、轉述及其他型號不能湊成6人。"
+        },
+        {
+          "url": "https://www.reddit.com/r/OLED_Gaming/comments/1rbsx5v/msi_mpg_271qr_x50_or_rog_swift_oled_pg27aqwpw/",
+          "title": "MSI MPG 271QR X50 or ROG Swift OLED PG27AQWP-W?",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-07",
+          "sourceExcerpt": "樓主為購買前選擇；Xdfghijujsw 明示試過兩款且後續指名完整X50，偏好ASUS較少文字彩邊/眼疲勞。NoMisZx 同時表示自己留下MSI並只在強光照黑畫面時注意到紫色。",
+          "independentAuthors": 1,
+          "specificReason": "Xdfghijujsw是一名有明示型號的主觀比較，不能和感測/面板保護算同問題。NoMisZx與其他串同作者且此處偏正向，不重複增人；ASUS垂直條紋回報全部排除，不轉嫁MSI。",
+          "authorReviews": [
+            {
+              "author": "Xdfghijujsw",
+              "topic": "text_fringing_and_eye_strain",
+              "exactModelConfirmed": true,
+              "firstPersonConfirmed": true,
+              "reviewerNote": "全文後續回覆完整確認兩款型號；主觀體感不是跨站6人硬體故障。"
+            }
+          ]
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=350&t=7121487",
+          "title": "【Computex 2025】微星推出新一代 QD-OLED 顯示器 導入兩大 AI 功能提供更好使用體驗",
+          "platform": "Mobile01",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-07",
+          "sourceExcerpt": "陳拔為2025-05-18展前媒體預覽報導，包含X50、MAG272QP X50與其他機種；1–10樓多是規格討論與期待。",
+          "independentAuthors": 0,
+          "specificReason": "實讀報導與第一頁留言，未見可識別的X50購入後故障自述；報導者/展示體驗與讀者期待不能計作獨立災情使用者，亦不把媒體發布日期當實際上市日。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=350&p=2&t=7121487",
+          "title": "【Computex 2025】微星推出新一代 QD-OLED 顯示器（第2頁）",
+          "platform": "Mobile01",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-07",
+          "sourceExcerpt": "本次實讀第11–17樓，均為AI功能期待、其他600Hz機種或想買MiniLED的討論，最後回覆為2025-05-31。",
+          "independentAuthors": 0,
+          "specificReason": "第2頁沒有X50購入後第一人稱同問題回報；不可把其他600Hz型號/MPG274URDFW E16M的選購討論當本款災情，頁數也不增加獨立網站數。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=514&t=7126348",
+          "title": "windwithme COMPUTEX 2025 AI NEXT新品分享(文長圖多影片多)",
+          "platform": "Mobile01",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-07",
+          "sourceExcerpt": "windwithme 的COMPUTEX會場分享介紹X50第三代QD-OLED、2K500Hz與AI感測器，原頁是跨品牌展場觀察。",
+          "independentAuthors": 0,
+          "specificReason": "原頁為新品展覽與規格分享，不是自家持有X50的故障報告；沒有同問題六名獨立使用者資料，不能把這位展覽作者計入產品災情。"
+        },
+        {
+          "url": "https://www.bestbuy.com/product/msi-mpg-271qr-qd-oled-x50-27-qhd-500hz-0-03ms-gaming-monitor-g-sync-freesync-premium-pro-tb-400-hdmi-dp-usb-c-metallic-black-rgb/J3P7TXQYVQ/sku/6673814/reviews",
+          "title": "Customer Reviews: MSI MPG 271QR QD-OLED X50 (SKU 6673814)",
+          "platform": "Best Buy",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-07",
+          "sourceExcerpt": "原頁同型號只有SnooTangerines一則5星購買評價，標示Incentivized/Verified Purchaser/Owned for1week，稱從VA升級後畫面佳。",
+          "independentAuthors": 0,
+          "specificReason": "這是一則有購買標記的正向短期評價，沒有故障自述；獎勵標記與一週使用不能推導长期可靠，也不能湊負評人數。此為第二個實際讀過exact-model原始評價網站，與Reddit獨立。"
+        }
+      ],
+      "candidateDisposition": "MPG 271QR QD-OLED X50：17個原始頁面候選逐一覆核。面板保護、人體感測、色彩設定、DSC與文字彩邊分開處置；wait_im_eating同文跨看板去重，刪除作者與只見索引的X50留言不計，沒有同問題至少6位可識別作者且跨2原始網站的證據。",
+      "reviewerNote": "MPG 271QR QD-OLED X50：本次人工讀取Reddit多篇原貼/可見留言、Mobile01兩篇（含其中一篇兩頁）及BestBuy exact評價頁；非由空搜尋批次推定no_common_issue。Reddit可見個案確實存在，故產品缺點與驗收建議揭露。MSI Forum搜尋結果中舊topic網址實際回到論壇導覽，未核得原始精確討論，不宣稱該論壇零負評；未展開所有隱藏巢狀回覆/作者不明者不加入門檻。保留候選而不借用現有MPG271QRX已成立黑屏問題。",
+      "checkedAtTimestamp": "2026-09-07T09:25:30+00:00",
+      "additionalQueries": [
+        {
+          "platform": "MSI Forum",
+          "query": "\"MPG 271QR QD-OLED X50\" site:forum-en.msi.com",
+          "queryUrl": "https://www.google.com/search?q=%22MPG%20271QR%20QD-OLED%20X50%22%20site%3Aforum-en.msi.com",
+          "targetHost": "forum-en.msi.com"
+        },
+        {
+          "platform": "MSI Forum",
+          "query": "\"MPG 271QR QD-OLED X50\" \"sensor\" site:forum-en.msi.com",
+          "queryUrl": "https://www.google.com/search?q=%22MPG%20271QR%20QD-OLED%20X50%22%20%22sensor%22%20site%3Aforum-en.msi.com",
+          "targetHost": "forum-en.msi.com"
+        },
+        {
+          "platform": "Best Buy",
+          "query": "\"MPG 271QR QD-OLED X50\" site:bestbuy.com",
+          "queryUrl": "https://www.google.com/search?q=%22MPG%20271QR%20QD-OLED%20X50%22%20site%3Abestbuy.com",
+          "targetHost": "bestbuy.com"
+        }
+      ],
+      "additionalQueryNote": "以上MSI Forum與Best Buy查詢均為實際已查的額外來源；目前工具queryTargetsWebsite固定支援清單不含這兩平台，因此保存additionalQueries，兩組核心queries以已實查Reddit與Mobile01滿足跨網站門檻；沒有改寫查詢或偽稱平台。"
     }
   ]
 }

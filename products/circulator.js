@@ -1920,9 +1920,9 @@
     "name": "森呼吸 NEXT 自動除菌離子 3D 清淨循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 5990,
-      "converted": 5990,
-      "confidence": "www.momoshop.com.tw 2026-09-05 人工核對 exact-model 公開單件價及可購狀態；非會員券、紅利或加購價",
+      "amount": 4990,
+      "converted": 4990,
+      "confidence": "momo購物 2026-09-07 下午人工核對 exact-model 公開單件現價及可購狀態；非會員券、點數或加購價",
       "basis": "retailer_current"
     },
     "image": "https://www.tw.sharp/sites/default/files/styles/resize_640x640/public/2026-05/PK-18S03T-H.png?itok=HVyf5ufH",
@@ -1943,11 +1943,11 @@
       "AC 100–240V 變壓器，台灣使用相容"
     ],
     "cons": [
-      "現價比公開專案史低高 NT$1,000",
+      "公開促銷可能隨檔期變動，購買前須再確認售價與庫存",
       "2026 新品，長期耐用度與實際使用口碑仍待累積"
     ],
     "bestFor": "想搭配冷氣、除濕機或室內乾衣，並重視小體積、3D 擺頭與低噪的人。",
-    "recommendation": "2026 新品補充比較：功能與台灣購買證據完整，但現價高於早鳥史低；不急用可等待接近 NT$4,990 的公開促銷。",
+    "recommendation": "功能與台灣購買證據完整；2026-09-07 公開售價 NT$4,990 已與可驗證早鳥史低相同，適合近期有循環或乾衣需求者比較。",
     "score": 87,
     "voltage": "AC 100–240V / 50–60Hz（變壓器）",
     "warranty": "momo 商品頁標示原廠保固 1 年",

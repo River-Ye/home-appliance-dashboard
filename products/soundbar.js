@@ -2982,9 +2982,9 @@
     "name": "Flexus Core 100 2.1 聲道虛擬 Dolby Atmos 聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 9399,
-      "converted": 9399,
-      "confidence": "www.momoshop.com.tw 2026-09-05 人工核對 exact-model 公開單件價及可購狀態；非會員券、紅利或加購價",
+      "amount": 9999,
+      "converted": 9999,
+      "confidence": "momo購物 2026-09-07 下午人工核對 exact-model 公開單件現價及可購狀態；非會員券、點數或加購價",
       "basis": "retailer_current"
     },
     "installation": {
