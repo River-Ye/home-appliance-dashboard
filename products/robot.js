@@ -208,9 +208,9 @@
     "name": "Saros 20 Sonic 聲波拖地旗艦掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 34980,
-      "converted": 34980,
-      "confidence": "2026-09-07 下午 momo 原頁完成動態載入後，Saros 20 Sonic 限時單件折後34,980、直接購買／放入購物車均可用；未扣點數、會員券或贈險回饋。",
+      "amount": 33999,
+      "converted": 33999,
+      "confidence": "momo 2026-09-09 人工核對 exact-model 公開現價與可購狀態；不含會員券、點數、信用卡回饋或加購",
       "basis": "retailer_current"
     },
     "installation": {
@@ -681,13 +681,14 @@
     "name": "無限續航滾筒洗地機器人",
     "price": {
       "currency": "TWD",
-      "amount": 19999,
-      "converted": 19999,
-      "confidence": "PChome 2026-08-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 20999,
+      "converted": 20999,
+      "basis": "retailer_current",
+      "confidence": "2026-09-09官方exact X11 PRO水箱版公開20,999元，原頁可加入購物車，product.js selected variant available=true；不採會員折扣。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900J5HJ0/000001_1766715791.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0L-A900J5HJ0",
-    "buyLabel": "PChome",
+    "buyUrl": "https://storetw.ecovacs.com/zh-tw/products/deebot-x11-pro?variant=48145109549271",
+    "buyLabel": "ECOVACS台灣官方商城",
     "specs": [
       "滾筒洗地",
       "氮化鎵瞬時閃充",
@@ -970,9 +971,9 @@
     "name": "強清潔全能掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 12999,
-      "converted": 12999,
-      "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 11699,
+      "converted": 11699,
+      "confidence": "PChome 2026-09-09 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900J0KF3/000001_1765762606.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0L-A900J0KF3",
@@ -1068,11 +1069,12 @@
       "currency": "TWD",
       "amount": 31980,
       "converted": 31980,
-      "confidence": "PChome 2026-08-31 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-31 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-09-09原購買頁明示預購，預計9/15–9/17出貨；API 28782非可確認現貨價，保留最後參考價31980。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL3EA900JZ3SP/000001_1780033309.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL3E-A900JZ3SP",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（預購；保留參考價）",
     "specs": [
       "7.95cm 超薄",
       "36000Pa",
@@ -1164,11 +1166,12 @@
       "currency": "TWD",
       "amount": 9999,
       "converted": 9999,
-      "confidence": "PChome 2026-09-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-09-09原購買頁明示預購，預計9/17–9/21出貨；API 9980非可確認現貨價，保留最後參考價9999。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL3EA900JY4G0/000001_1780033612.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL3E-A900JY4G0",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（預購；保留參考價）",
     "specs": [
       "全能基站",
       "掃拖一體",
@@ -1731,9 +1734,9 @@
     "name": "旋風全能掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 13980,
-      "converted": 13980,
-      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 12582,
+      "converted": 12582,
+      "confidence": "PChome 2026-09-09 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0JA900ITF88/000001_1782803241.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0J-A900ITF88",
@@ -2211,9 +2214,9 @@
     "name": "極薄滾筒掃拖機器人旗艦版",
     "price": {
       "currency": "TWD",
-      "amount": 25980,
-      "converted": 25980,
-      "confidence": "PChome 2026-08-31 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 24681,
+      "converted": 24681,
+      "confidence": "PChome 2026-09-09 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL5WA900JXBY3/000001_1776393356.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL5W-A900JXBY3",
@@ -2307,13 +2310,14 @@
     "name": "極薄滾筒掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 16140,
-      "converted": 16140,
-      "confidence": "PChome 2026-08-18 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 16990,
+      "converted": 16990,
+      "basis": "retailer_current",
+      "confidence": "2026-09-09台灣官方S70 Roller普通版16,990元，原頁可加入購物車、variant44342888792157 available true。不是S70 Ultra Roller。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL5WA900K13VT/000001_1779264098.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMBL5W-A900K13VT",
-    "buyLabel": "PChome",
+    "buyUrl": "https://tw.mova.tech/collections/mova-robot-vacuums/products/mova-s70-roller",
+    "buyLabel": "MOVA台灣官方商城",
     "specs": [
       "極薄機身",
       "滾筒掃拖",
@@ -2974,9 +2978,9 @@
     "name": "ECOVACS DEEBOT T90 PRO OMNI",
     "price": {
       "currency": "TWD",
-      "amount": 18999,
-      "converted": 18999,
-      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 17099,
+      "converted": 17099,
+      "confidence": "PChome 2026-09-09 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900JWVON/000001_1776138874.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0L-A900JWVON",
@@ -3082,9 +3086,9 @@
     "name": "ECOVACS DEEBOT X12 PRO OMNI",
     "price": {
       "currency": "TWD",
-      "amount": 26999,
-      "converted": 26999,
-      "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 24299,
+      "converted": 24299,
+      "confidence": "PChome 2026-09-09 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900JS61Y/000001_1772592930.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0L-A900JS61Y",
@@ -4323,6 +4327,111 @@
       "高門檻越障",
       "110V基站"
     ]
+  },
+  {
+    "id": "robot-mova-z70-ultra-roller-complete",
+    "category": "robot",
+    "rank": 46,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "MOVA",
+    "model": "Z70 Ultra Roller Complete",
+    "name": "旗艦滾筒活水掃拖機器人（台灣R5765U）",
+    "price": {
+      "currency": "TWD",
+      "amount": 32980,
+      "converted": 32980,
+      "basis": "retailer_current",
+      "confidence": "2026-09-09 MOVA台灣官方商城公開32,980元且可加購物車；同價PChome有量。PChome31,331優惠原頁期限為9/7–9/8，不採為今日價。"
+    },
+    "installation": {
+      "status": "excluded",
+      "note": "水箱版自行放置、Wi-Fi配對及加水；上下水配件與施工另購，本價不含上下水安裝。"
+    },
+    "image": "https://tw.mova.tech/cdn/shop/files/Z70.jpg?v=1786086555",
+    "buyUrl": "https://tw.mova.tech/products/mova-z70-ultra-roller-complete",
+    "buyLabel": "MOVA台灣官方商城",
+    "specs": [
+      "類型：活水滾筒掃拖；台灣型號 R5765U／Complete配件組",
+      "吸力：36,000Pa（原廠標示；不同品牌測試不可直接等同清潔效果）",
+      "拖地：HydroForce 2.0／27cm滾筒／270RPM／18N下壓",
+      "貼邊：MaxiReach 2.0邊刷與拖布雙伸出；地毯自動滾筒遮罩",
+      "越障：最高9cm組合台階（4.8cm＋4.2cm、間隔24cm）；非9cm垂直單階",
+      "導航：升降dToF、RGB AI與雙線雷射；最低機高9.6cm",
+      "基站：最高100°C熱水洗拖布／70°C熱風烘乾；5.5L淨水、4.5L污水、4L塵袋",
+      "電源：基座110V／50–60Hz；集塵770W、熱水清洗1160W、烘乾充電83W",
+      "尺寸：主機35 x 35 x 11.95／9.6 cm（LDS升／降）；基站42 x 43.2 x 50 cm（通路未標軸序）",
+      "配件：Complete包含邊刷、滾筒拖布、塵袋、HEPA濾網、地面清潔液及寵物除臭液；依台灣配件清單"
+    ],
+    "description": "以大水箱、活水滾筒及可升降導航補足大面積硬地板與寵物家庭的旗艦需求；機械越障與基站維護功能完整，但機身及基站占地需先量測。",
+    "pros": [
+      "活水滾筒搭配雙伸出貼邊",
+      "大水箱及熱水洗拖布降低手動換水頻率",
+      "台灣110V基站、官方商城及兩年保固"
+    ],
+    "cons": [
+      "體積與運轉聲需先評估；海外有噪音及App延遲個案",
+      "海外原廠論壇有滾筒錯誤、出水偏乾與地毯辨識零星回報，未達集中災情門檻",
+      "9cm僅特定組合台階；台灣實際上下水施工另計"
+    ],
+    "bestFor": "大面積硬地板、願意保養水箱與滾筒，並已確認家具底部及基站空間的家庭。",
+    "recommendation": "旗艦補充：36,000Pa、活水滾筒與大水箱提供不同於S70薄型路線的選擇；官方把Z70定位為Z60平台升級，保留S70用途差異，不把Z70當S70直接替代。",
+    "score": 89,
+    "voltage": "台灣R5765U基座110V／50–60Hz；主機14.4V電池，熱水清洗最高1160W",
+    "warranty": "台灣PChome exact-model列全機2年；依MOVA台灣原廠保固條款，耗材除外",
+    "tags": [
+      "活水滾筒",
+      "旗艦補充",
+      "36,000Pa",
+      "台灣保固"
+    ],
+    "releaseDate": "2026-06",
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-09-09",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"Z70 Ultra Roller Complete\" problem issue",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Z70%20Ultra%20Roller%20Complete%22%20problem%20issue"
+        },
+        {
+          "platform": "MOVA Forum",
+          "targetHost": "forum.mova-tech.com",
+          "query": "site:forum.mova-tech.com \"Z70 Ultra Roller Complete\" problem",
+          "queryUrl": "https://www.google.com/search?q=site%3Aforum.mova-tech.com%20%22Z70%20Ultra%20Roller%20Complete%22%20problem"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"Z70 Ultra Roller Complete\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Z70%20Ultra%20Roller%20Complete%22"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "site:dcard.tw \"Z70 Ultra Roller Complete\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22Z70%20Ultra%20Roller%20Complete%22"
+        }
+      ]
+    },
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-09-09",
+      "note": "已查MOVA台灣官價、PChome exact型號及BigGo/FindPrice價格入口；後兩者無法取回，未得完整可靠歷史序列。PChome頁仍顯9/7–9/8限時95折31,331元，已過期且只證短期促銷，不足斷言全歷史最低；採台灣官方32,980為現價，不推定史低。"
+    }
   }
 ]);
 })();

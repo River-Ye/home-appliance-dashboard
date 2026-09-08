@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08",
+  "generatedAt": "2026-09-09",
   "sourcePolicy": "本站共 21 類尺寸、13 類重量研究，尺寸涵蓋 電視、Soundbar、冷氣、洗衣機、烘衣機、洗烘衣機(多功能型)、電子衣櫥（衣物護理機）、床包、棉被、枕頭、冰箱、咖啡機、多功能氣炸烤箱／微波爐、洗碗機、熱水器、免治馬桶、網路交換器、螢幕燈、滑鼠、鍵盤、滑鼠墊。優先採 exact-model／相同版本的官方產品頁、官方規格表或官方 PDF，其次為可信新品通路。只採本體／機身／明確組件的尺寸與淨重，排除包裝、外箱尺寸與毛重；來源沒有明示軸序時不自行推定。既有家電與床包、棉被、枕頭維持 cm／kg，滑鼠、鍵盤與滑鼠墊使用 mm／g 並保留來源軸序。滑鼠墊厚度、床包可包覆高度另列；棉被的填充重量與整件淨重分開記錄。冷氣分列室內機與室外機，熱泵複合熱水器分列主機與儲槽。generatedAt 為最新證據批次日期，既有逐筆 checkedAt 與 weightCheckedAt 保留原查核日期，不表示重新查核。",
   "results": [
     {
@@ -9782,6 +9782,40 @@
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
       "weightCheckedAt": "2026-09-08"
+    },
+    {
+      "id": "washer-panasonic-na-v150sw",
+      "dimension": "尺寸：寬 64 x 深 77.8 x 高 103.5 cm",
+      "sourceUrl": "https://www.panasonic.com/tw/consumer/washing-machine/roller/na-v150sw.html",
+      "sourceTitle": "Panasonic台灣NA-V150SW尺寸",
+      "evidenceSnippet": "官方欄位高1035mm、寬640mm、深778mm；PChome補充不含給、排水管。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-09-09",
+      "dimensionNote": "不含給、排水管"
+    },
+    {
+      "id": "dishwasher-haier-w32",
+      "dimension": "尺寸：含檯面 寬 59.8 x 深 60 x 高 79.5–80.5 cm；移除檯面 寬 59.8 x 深 57.2 x 高 76.5–77.5 cm",
+      "sourceUrl": "https://www.haierpro.com.tw/wp-content/uploads/HDWE16-58GY3TW-W32洗碗機-說明書-20250616_-fix-1_compressed.pdf",
+      "sourceTitle": "海爾 HDWE16-58GY3TW W32 使用說明書，第4、5、24頁",
+      "evidenceSnippet": "手冊p24技術表明示寬×深×高含檯面598×600×795mm、去檯面598×572×765mm；p4/p5圖示高度可調795–805/765–775mm。此為機身尺寸非外箱；官方型錄獨立式寬深表與手冊不一致，以手冊明示轴序及圖採用。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-09-09",
+      "weight": "重量：查不到",
+      "weightSourceUrl": "https://www.haierpro.com.tw/wp-content/uploads/HDWE16-58GY3TW-W32洗碗機-說明書-20250616_-fix-1_compressed.pdf",
+      "weightSourceTitle": "海爾 HDWE16-58GY3TW W32 使用說明書及官方商品頁",
+      "weightEvidenceSnippet": "檢視手冊28頁縮圖並放大規格/安裝/保固頁、官方產品頁與momo規格；來源皆未列W32機身淨重。exact型號淨重/重量搜尋無可靠結果，不借用H600的50kg。",
+      "weightConfidence": "not_found",
+      "weightIsOfficialSource": true,
+      "weightCheckedAt": "2026-09-09",
+      "weightCheckedSources": [
+        "https://www.haierpro.com.tw/product/w32/",
+        "https://www.haierpro.com.tw/wp-content/uploads/HDWE16-58GY3TW-W32洗碗機-說明書-20250616_-fix-1_compressed.pdf",
+        "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=14498165"
+      ],
+      "dimensionNote": "高度含 0–1 cm 可調腳"
     }
   ]
 }

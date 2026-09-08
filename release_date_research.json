@@ -1,19 +1,20 @@
 {
   "summary": {
-    "checkedAt": "2026-09-08T00:05:24.372Z",
-    "total": 1153,
-    "researchedThisRun": 2,
-    "found": 342,
-    "missing": 811,
+    "checkedAt": "2026-09-09T00:00:00+08:00",
+    "total": 1156,
+    "researchedThisRun": 3,
+    "found": 343,
+    "missing": 813,
     "byConfidence": {
       "official": 186,
-      "not_found": 808,
+      "not_found": 810,
       "retailer_explicit": 23,
       "credible_article": 52,
-      "high": 65,
+      "high": 66,
       "medium": 16,
       "unknown": 3
-    }
+    },
+    "scopeNote": "本輪新增3款逐型號研究；既有逐筆上市與負評日期保留，不表示全部重新研究。"
   },
   "results": [
     {
@@ -35472,6 +35473,121 @@
           "url": "https://tw-store.msi.com/collections/gaming-monitor-mpg/products/mpg-491cqpx-qd-oled",
           "title": "MSI台灣商城",
           "outcome": "台灣SKU9S6-3FA84T-019，未將商品上架日當上市。"
+        }
+      ]
+    },
+    {
+      "id": "washer-panasonic-na-v150sw",
+      "category": "washer",
+      "brand": "Panasonic",
+      "model": "NA-V150SW",
+      "name": "15公斤高效抑菌溫水滾筒洗衣機（冰鑽白）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "query": "\"NA-V150SW\" 上市 發售",
+      "auditQueries": [
+        "\"NA-V150SW\" 上市 發售",
+        "\"NA-V150SW\" \"110V\" \"60Hz\""
+      ],
+      "reason": "官方202510型錄標示預計11月上市，只有預定月份，沒有實際開賣公告；節能標章2025/09/18是證書有效期，不作上市日，商城上架或2026論壇日期亦不採。",
+      "checkedAt": "2026-09-09",
+      "checkedSources": [
+        {
+          "url": "https://www.panasonic.com/tw/consumer/washing-machine/roller/na-v150sw.html",
+          "title": "Panasonic台灣NA-V150SW",
+          "outcome": "確認exact15kg單洗與尺寸，未明示正式上市日期。"
+        },
+        {
+          "url": "https://pstw.panasonic.com.tw/catalog/files/1_consumer/WM/202510_Panasonic_%E6%B4%97%E4%B9%BE%E8%A1%A3%E6%A9%9F%EF%BC%8E%E9%9B%BB%E5%AD%90%E8%A1%A3%E6%AB%A5.pdf",
+          "title": "Panasonic202510洗乾衣機型錄",
+          "outcome": "NA-V150SW與170SW預計11月上市，不採為實際上市。"
+        },
+        {
+          "url": "https://www.energylabel.org.tw/purchasing/product/fprint.aspx?itemp0=71806",
+          "title": "節能標章NA-V150SW",
+          "outcome": "證書有效期限不等於上市日。"
+        }
+      ]
+    },
+    {
+      "id": "robot-mova-z70-ultra-roller-complete",
+      "category": "robot",
+      "brand": "MOVA",
+      "model": "Z70 Ultra Roller Complete",
+      "name": "旗艦滾筒活水掃拖機器人（台灣R5765U）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2026-06",
+      "sourceUrl": "https://www.presseportal.de/pm/182374/6291661",
+      "sourceTitle": "MOVA原廠新聞稿：Z70 Ultra Roller Complete德國上市與6月開賣",
+      "evidenceSnippet": "MOVA於2026-06-10發布原廠Markteinführung公告；Verfügbarkeit列6月15至26日上市優惠與6月15日起Amazon可訂購。",
+      "confidence": "high",
+      "sourceKind": "official_press_release",
+      "query": "\"Z70 Ultra Roller\" release launch",
+      "auditQueries": [
+        "\"Z70 Ultra Roller\" release launch",
+        "\"MOVA\" \"Z70\" \"上市\""
+      ],
+      "reason": "採官方明示德國上市月份2026-06；不把較早Q2計畫或商城2026-08-07上架時間當台灣上市。台灣R5765U與歐洲區域電力/保固分開依台灣來源，不套三年歐洲保固。",
+      "checkedAt": "2026-09-09",
+      "market": "Germany",
+      "taiwanReleaseDate": "找不到",
+      "checkedSources": [
+        {
+          "url": "https://www.presseportal.de/pm/182374/6291661",
+          "title": "MOVA經news aktuell發送原廠新聞稿",
+          "outcome": "原廠明示6月德國上市/可訂購資訊，保留月份不硬填全球首次日。"
+        },
+        {
+          "url": "https://www.mova.tech/blogs/news/mova-2026-new-product-launch",
+          "title": "MOVA 2026新品發布",
+          "outcome": "Z70建立於前代Z60平台；Q2是預計推出時程。"
+        },
+        {
+          "url": "https://tw.mova.tech/products/mova-z70-ultra-roller-complete",
+          "title": "MOVA台灣商城",
+          "outcome": "目前現售，未標正式台灣上市日。"
+        }
+      ]
+    },
+    {
+      "id": "dishwasher-haier-w32",
+      "category": "dishwasher",
+      "brand": "Haier",
+      "model": "HDWE16-58GY3TW",
+      "name": "W32 16 人份 AI 變頻獨嵌兩用洗碗機",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "checkedAt": "2026-09-09",
+      "query": "\"HDWE16-58GY3TW\" 上市 發售",
+      "auditQueries": [
+        "\"HDWE16-58GY3TW\" 上市 發售",
+        "site:haierpro.com.tw \"W32\" \"上市\""
+      ],
+      "reason": "官方商品頁無明確發售日；2025/07/10是介紹文章發布日，20250616為說明書檔名日期，均不可當上市日；媒體2025/05/27測試及留言預購8月出貨亦非官方明示上市公告。",
+      "checkedSources": [
+        {
+          "url": "https://www.haierpro.com.tw/product/w32/",
+          "title": "Haier W32 官方商品頁",
+          "outcome": "規格與售價可核實，無明示上市日。"
+        },
+        {
+          "url": "https://www.haierpro.com.tw/dishwasher-w32-introduction/",
+          "title": "家庭新寵！海爾W32 AI變頻洗碗機",
+          "outcome": "2025/07/10文章介紹，沒有明示當日上市。"
+        },
+        {
+          "url": "https://www.haierpro.com.tw/wp-content/uploads/HDWE16-58GY3TW-W32洗碗機-說明書-20250616_-fix-1_compressed.pdf",
+          "title": "W32官方說明書",
+          "outcome": "檔名日期排除，不是上市公告。"
         }
       ]
     }

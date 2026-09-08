@@ -2055,9 +2055,9 @@
     "name": "Barista EX 系列經典義式濃縮咖啡機（爵士灰）",
     "price": {
       "currency": "TWD",
-      "amount": 7888,
-      "converted": 7888,
-      "confidence": "PChome 2026-08-09 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 6990,
+      "converted": 6990,
+      "confidence": "PChome 2026-09-09 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAT09A900IXUVD/000001_1769478978.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAT09-A900IXUVD",

@@ -597,7 +597,7 @@
       "currency": "TWD",
       "amount": 49900,
       "converted": 49900,
-      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "2026-09-09原始商品頁人工覆核；原頁公開49900，API Low42886未顯示可適用單品折扣或期限；未扣信用卡/P幣/贈品，保留公開價49900。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900K3QSM/000001_1782969828.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAOD-A900K3QSM",
@@ -1673,9 +1673,9 @@
     "name": "BRAVIA Theatre Bar 8 聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 29900,
-      "converted": 29900,
-      "confidence": "PChome 2026-09-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 26910,
+      "converted": 26910,
+      "confidence": "PChome 2026-09-09 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900HTC64/000001_1781747501.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM1D-A900HTC64",
@@ -3479,7 +3479,7 @@
       "currency": "TWD",
       "amount": 39900,
       "converted": 39900,
-      "confidence": "PChome 2026-09-06 exact-model 商品頁及 API Price.P=39900、Qty=5；黑色單機，不含重低音或後環繞。",
+      "confidence": "2026-09-09原始商品頁人工覆核；原頁公開39900；API Low37506的折扣條件未能在公開頁重現，查看折價券轉登入。不採未知條件折扣，保留公開價39900與既有史低37905。",
       "basis": "retailer_current"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAANJA900K048L/000001_1778571515.jpg",

@@ -908,7 +908,7 @@ async function main() {
     ) === 7490,
     "daily maintenance should accept one exact public Yahoo structured price",
   );
-  const sameDayYahooPrice = structuredPriceCandidates(`
+  const yahooPromotionHtml = `
     <script type="application/ld+json">
       {"@type":"Product","offers":{"price":"8,541","priceCurrency":"TWD","availability":"https://schema.org/OutOfStock"}}
     </script>
@@ -919,17 +919,24 @@ async function main() {
         "promotions": [{"__ref":"Shopping_Promotion:788489"}]
       },
       "Shopping_Promotion:788489": {
-        "endTs":"${new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Taipei" }).format(new Date())}T08:00:59+08:00",
+        "endTs":"2026-09-09T08:00:59+08:00",
         "rules":[{"discountDescription":"滿1件享9折"}]
       }
     }</script>
-  `, "https://tw.buy.yahoo.com/gdsale/sony-ht-s40r-10067449.html");
+  `;
+  const yahooPromotionUrl = "https://tw.buy.yahoo.com/gdsale/sony-ht-s40r-10067449.html";
+  const activeYahooPrice = structuredPriceCandidates(yahooPromotionHtml, yahooPromotionUrl, Date.parse("2026-09-09T06:00:00+08:00"));
+  assert(
+    activeYahooPrice[0].amount === 8541 && activeYahooPrice[0].source === "json_ld",
+    "daily maintenance must retain a public Yahoo discount until its actual expiration time",
+  );
+  const sameDayYahooPrice = structuredPriceCandidates(yahooPromotionHtml, yahooPromotionUrl, Date.parse("2026-09-09T08:01:00+08:00"));
   assert(
     sameDayYahooPrice.length === 1
       && sameDayYahooPrice[0].amount === 9490
       && sameDayYahooPrice[0].availability === "https://schema.org/OutOfStock"
-      && sameDayYahooPrice[0].source === "yahoo_current_price_same_day_promotion_excluded",
-    "daily maintenance should treat Yahoo's single-digit 折 notation as tenths when excluding a same-day promotion",
+      && sameDayYahooPrice[0].source === "yahoo_current_price_expired_promotion_excluded",
+    "daily maintenance should exclude an expired Yahoo promotion while preserving stock and single-digit 折 notation",
   );
   const sameDayYahooCeilingPrice = structuredPriceCandidates(`
     <script type="application/ld+json">
@@ -942,16 +949,16 @@ async function main() {
         "promotions": [{"__ref":"Shopping_Promotion:788490"}]
       },
       "Shopping_Promotion:788490": {
-        "endTs":"${new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Taipei" }).format(new Date())}T08:00:59+08:00",
+        "endTs":"2026-09-09T08:00:59+08:00",
         "rules":[{"discountDescription":"滿1件享95折"}]
       }
     }</script>
-  `, "https://tw.buy.yahoo.com/gdsale/soodatek-11633433.html");
+  `, "https://tw.buy.yahoo.com/gdsale/soodatek-11633433.html", Date.parse("2026-09-10T08:01:00+08:00"));
   assert(
     sameDayYahooCeilingPrice.length === 1
       && sameDayYahooCeilingPrice[0].amount === 633
-      && sameDayYahooCeilingPrice[0].source === "yahoo_current_price_same_day_promotion_excluded",
-    "daily maintenance should use Yahoo's ceiling rule when matching a same-day percentage promotion",
+      && sameDayYahooCeilingPrice[0].source === "yahoo_current_price_expired_promotion_excluded",
+    "daily maintenance should use Yahoo's ceiling rule and exclude expired promotions from earlier dates",
   );
   const unrelatedSameDayYahooPromotion = structuredPriceCandidates(`
     <script type="application/ld+json">
@@ -3087,6 +3094,9 @@ async function main() {
   assert(queryTargetsWebsite(ubiquitiQuery), "Ubiquiti Community must count as the Ubiquiti website");
   assert(!queryTargetsWebsite({ ...ubiquitiQuery, targetHost: "reddit.com" }), "Ubiquiti Community cannot claim a different target website");
   assert(!queryTargetsWebsite({ ...ubiquitiQuery, query: 'site:community.ui.com.evil.example "U7 Pro XG"' }), "deceptive Ubiquiti host must not count");
+  const movaQuery = { platform: "MOVA Forum", targetHost: "forum.mova-tech.com", query: 'site:forum.mova-tech.com "Z70 Ultra Roller Complete"', queryUrl: "https://www.google.com/search" };
+  assert(queryTargetsWebsite(movaQuery), "MOVA Forum must count as the MOVA community website");
+  assert(!queryTargetsWebsite({ ...movaQuery, query: 'site:forum.mova-tech.com.evil.example "Z70 Ultra Roller Complete"' }), "deceptive MOVA host must not count");
   assert(queryUrlMatchesRecord(youtubeQuery), "a YouTube search URL should reproduce search_query");
   assert(queryUrlMatchesRecord({
     query: youtubeQuery.query,

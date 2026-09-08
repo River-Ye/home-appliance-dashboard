@@ -1,9 +1,9 @@
 {
   "summary": {
-    "checkedAt": "2026-09-08T00:00:00+08:00",
-    "total": 1153,
+    "checkedAt": "2026-09-09T00:00:00+08:00",
+    "total": 1156,
     "commonIssueProducts": 53,
-    "noCommonIssueProducts": 1100,
+    "noCommonIssueProducts": 1103,
     "pendingManualReview": 0,
     "commonIssues": 54,
     "searchUnavailable": 616,
@@ -28,7 +28,9 @@
       "2026-09-07 下午僅新增 MPG 271QR QD-OLED X50 與 WDEE123HTW 的逐型號跨站人工負評覆核；既有1147筆研究與53款集中問題保留原始逐筆日期。MSI人體感測／面板保護與Whirlpool噪音／到貨外觀個案均揭露，尚未達同一問題6人且跨2個原始網站門檻。",
       "2026-09-07 本輪僅新增水空間 WS-RCH601、WS-Min'O-R2、WS-UVN500 三款逐型號跨站人工覆核；WS-RCH601 的門市體驗文章非故障回報，其餘兩款未發現 exact-model 使用者候選，均未達同問題 6 人／2 站門檻。既有 1149 筆研究與逐人證據原樣保留，不宣稱同日重讀。",
       "2026-09-08 全量維護僅對新增 MPG 491CQPX QD-OLED 與 NA-LX128EL 完成逐型號跨站負評人工覆核；既有商品保留原始逐筆研究日期。MSI 的零星訊號／VRR／OSD問題及 Panasonic 的烘後桶體燙感分開處置，均未達同一問題6人且跨2個原始網站門檻。依eufy官方停產公告移除E20及其現行研究列，既有386筆逐人證據不變。"
-    ]
+    ],
+    "researchedThisRun": 3,
+    "scopeNote": "本輪新增3款逐型號研究；既有逐筆上市與負評日期保留，不表示全部重新研究。"
   },
   "results": [
     {
@@ -203382,6 +203384,1672 @@
               "specificReason": "蔡**為遮蔽姓名、無獨立作者頁，不能確定唯一身份；即使作候選，單一OSD/輸入切換使用感受與BestBuy也未達六人同題，其他評價不是故障。"
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "washer-panasonic-na-v150sw",
+      "category": "washer",
+      "brand": "Panasonic",
+      "model": "NA-V150SW",
+      "name": "15公斤高效抑菌溫水滾筒洗衣機（冰鑽白）",
+      "identity": {
+        "canonicalModel": "NA-V150SW",
+        "lookupLabel": "Panasonic NA-V150SW",
+        "aliases": [
+          "Panasonic NA-V150SW"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DPAIGJ-A900JLZ3V"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-09-09",
+        "reviewTimestamp": "2026-09-08T22:48:44.691Z",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT",
+          "Dcard"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"Panasonic\" \"NA-V150SW\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Panasonic%22%20%22NA-V150SW%22"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"Panasonic\" \"NA-V150SW\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22Panasonic%22%20%22NA-V150SW%22"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"Panasonic\" \"NA-V150SW\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22Panasonic%22%20%22NA-V150SW%22"
+          }
+        ],
+        "candidateDisposition": "NA-V150SW：人工覆核Mobile01/PTT/Dcard exact-model搜尋；唯一相關Mobile01兩頁是舊NA-V158TW故障與新機購前比較，PTT/Dcard查詢未發現可計本型號第一人稱故障候選。未達同一問題6名獨立作者跨2站；不表示沒有負評。",
+        "representativeSources": [
+          {
+            "platform": "Mobile01",
+            "title": "Panasonic NA-V158TW 滾筒旋轉時聲音變大了?",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7221878"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "Panasonic NA-V158TW 滾筒旋轉時聲音變大了? 第2頁",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&p=2&t=7221878"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7221878",
+            "title": "Panasonic NA-V158TW 滾筒旋轉時聲音變大了?",
+            "outcome": "excluded",
+            "exactModel": false,
+            "reviewedAt": "2026-09-09",
+            "checkedAt": "2026-09-08T22:48:44.691Z",
+            "sourceExcerpt": "et182567反映家中十幾年NA-V158TW旋轉異音；#9才考慮NA-V150SW/170SW並偏好17kg，仍在等貨。",
+            "independentAuthors": 1,
+            "specificReason": "故障為NA-V158TW舊機，NA-V150SW只是選購候選，不能計為本型號第一人稱故障。",
+            "platform": "Mobile01",
+            "countMeaning": "本頁實際人工覆核相關作者數；不是成立集中災情的人數",
+            "reviewedAuthors": [
+              "et182567"
+            ]
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&p=2&t=7221878",
+            "title": "Panasonic NA-V158TW 滾筒旋轉時聲音變大了? 第2頁",
+            "outcome": "excluded",
+            "exactModel": false,
+            "reviewedAt": "2026-09-09",
+            "checkedAt": "2026-09-08T22:48:44.691Z",
+            "sourceExcerpt": "cinnamon coffee貼熱泵機建議；steven35泛稱品牌冰箱異音/洗衣晃動；et182567表示不需烘衣。",
+            "independentAuthors": 3,
+            "specificReason": "無NA-V150SW持有經驗；泛品牌負評、推薦及另款熱泵都不能計入本型號。",
+            "platform": "Mobile01",
+            "countMeaning": "本頁實際人工覆核相關作者數；不是成立集中災情的人數",
+            "reviewedAuthors": [
+              "cinnamon coffee",
+              "steven35",
+              "et182567"
+            ]
+          }
+        ],
+        "reviewerNote": "NA-V150SW：人工覆核Mobile01/PTT/Dcard exact-model搜尋；唯一相關Mobile01兩頁是舊NA-V158TW故障與新機購前比較，PTT/Dcard查詢未發現可計本型號第一人稱故障候選。未達同一問題6名獨立作者跨2站；不表示沒有負評。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-09-09",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"Panasonic\" \"NA-V150SW\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Panasonic%22%20%22NA-V150SW%22"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"Panasonic\" \"NA-V150SW\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22Panasonic%22%20%22NA-V150SW%22"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"Panasonic\" \"NA-V150SW\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22Panasonic%22%20%22NA-V150SW%22"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"Panasonic\" \"NA-V150SW\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Panasonic%22%20%22NA-V150SW%22",
+          "outcome": "原始查詢候選及無候選邊界已由人工覆核；處置見 candidateReviews",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Panasonic%22%20%22NA-V150SW%22",
+          "candidates": [
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7221878",
+              "title": "Panasonic NA-V158TW 滾筒旋轉時聲音變大了?",
+              "snippet": "et182567反映家中十幾年NA-V158TW旋轉異音；#9才考慮NA-V150SW/170SW並偏好17kg，仍在等貨。",
+              "platform": "Mobile01",
+              "exactModel": false
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=730&p=2&t=7221878",
+              "title": "Panasonic NA-V158TW 滾筒旋轉時聲音變大了? 第2頁",
+              "snippet": "cinnamon coffee貼熱泵機建議；steven35泛稱品牌冰箱異音/洗衣晃動；et182567表示不需烘衣。",
+              "platform": "Mobile01",
+              "exactModel": false
+            }
+          ],
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=730&t=7221878",
+            "https://www.mobile01.com/topicdetail.php?f=730&p=2&t=7221878"
+          ],
+          "resultCount": 2,
+          "result": "candidates_unverified_by_search_only",
+          "inspectedAt": "2026-09-08T22:48:44.691Z",
+          "structureNote": "依本批既有人工候選及無候選紀錄整理；候選包含搜尋後延伸原頁，數量為已記錄頁面，不是搜尋引擎總命中數。"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"Panasonic\" \"NA-V150SW\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22Panasonic%22%20%22NA-V150SW%22",
+          "outcome": "原始查詢候選及無候選邊界已由人工覆核；處置見 candidateReviews",
+          "searchUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22Panasonic%22%20%22NA-V150SW%22",
+          "candidates": [],
+          "candidateUrls": [],
+          "resultCount": 0,
+          "result": "no_exact_model_result",
+          "inspectedAt": "2026-09-08T22:48:44.691Z",
+          "structureNote": "依本批既有人工候選及無候選紀錄整理；候選包含搜尋後延伸原頁，數量為已記錄頁面，不是搜尋引擎總命中數。"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "site:dcard.tw \"Panasonic\" \"NA-V150SW\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22Panasonic%22%20%22NA-V150SW%22",
+          "outcome": "原始查詢候選及無候選邊界已由人工覆核；處置見 candidateReviews",
+          "searchUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22Panasonic%22%20%22NA-V150SW%22",
+          "candidates": [],
+          "candidateUrls": [],
+          "resultCount": 0,
+          "result": "no_exact_model_result",
+          "inspectedAt": "2026-09-08T22:48:44.691Z",
+          "structureNote": "依本批既有人工候選及無候選紀錄整理；候選包含搜尋後延伸原頁，數量為已記錄頁面，不是搜尋引擎總命中數。"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7221878",
+          "title": "Panasonic NA-V158TW 滾筒旋轉時聲音變大了?",
+          "outcome": "excluded",
+          "exactModel": false,
+          "reviewedAt": "2026-09-09",
+          "checkedAt": "2026-09-08T22:48:44.691Z",
+          "sourceExcerpt": "et182567反映家中十幾年NA-V158TW旋轉異音；#9才考慮NA-V150SW/170SW並偏好17kg，仍在等貨。",
+          "independentAuthors": 1,
+          "specificReason": "故障為NA-V158TW舊機，NA-V150SW只是選購候選，不能計為本型號第一人稱故障。",
+          "platform": "Mobile01",
+          "countMeaning": "本頁實際人工覆核相關作者數；不是成立集中災情的人數",
+          "reviewedAuthors": [
+            "et182567"
+          ],
+          "reason": "故障為NA-V158TW舊機，NA-V150SW只是選購候選，不能計為本型號第一人稱故障。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&p=2&t=7221878",
+          "title": "Panasonic NA-V158TW 滾筒旋轉時聲音變大了? 第2頁",
+          "outcome": "excluded",
+          "exactModel": false,
+          "reviewedAt": "2026-09-09",
+          "checkedAt": "2026-09-08T22:48:44.691Z",
+          "sourceExcerpt": "cinnamon coffee貼熱泵機建議；steven35泛稱品牌冰箱異音/洗衣晃動；et182567表示不需烘衣。",
+          "independentAuthors": 3,
+          "specificReason": "無NA-V150SW持有經驗；泛品牌負評、推薦及另款熱泵都不能計入本型號。",
+          "platform": "Mobile01",
+          "countMeaning": "本頁實際人工覆核相關作者數；不是成立集中災情的人數",
+          "reviewedAuthors": [
+            "cinnamon coffee",
+            "steven35",
+            "et182567"
+          ],
+          "reason": "無NA-V150SW持有經驗；泛品牌負評、推薦及另款熱泵都不能計入本型號。"
+        }
+      ],
+      "manualSourceChecks": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7221878",
+          "title": "Panasonic NA-V158TW 滾筒旋轉時聲音變大了?",
+          "outcome": "excluded",
+          "exactModel": false,
+          "reviewedAt": "2026-09-09",
+          "checkedAt": "2026-09-08T22:48:44.691Z",
+          "sourceExcerpt": "et182567反映家中十幾年NA-V158TW旋轉異音；#9才考慮NA-V150SW/170SW並偏好17kg，仍在等貨。",
+          "independentAuthors": 1,
+          "specificReason": "故障為NA-V158TW舊機，NA-V150SW只是選購候選，不能計為本型號第一人稱故障。",
+          "platform": "Mobile01",
+          "countMeaning": "本頁實際人工覆核相關作者數；不是成立集中災情的人數",
+          "reviewedAuthors": [
+            "et182567"
+          ]
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&p=2&t=7221878",
+          "title": "Panasonic NA-V158TW 滾筒旋轉時聲音變大了? 第2頁",
+          "outcome": "excluded",
+          "exactModel": false,
+          "reviewedAt": "2026-09-09",
+          "checkedAt": "2026-09-08T22:48:44.691Z",
+          "sourceExcerpt": "cinnamon coffee貼熱泵機建議；steven35泛稱品牌冰箱異音/洗衣晃動；et182567表示不需烘衣。",
+          "independentAuthors": 3,
+          "specificReason": "無NA-V150SW持有經驗；泛品牌負評、推薦及另款熱泵都不能計入本型號。",
+          "platform": "Mobile01",
+          "countMeaning": "本頁實際人工覆核相關作者數；不是成立集中災情的人數",
+          "reviewedAuthors": [
+            "cinnamon coffee",
+            "steven35",
+            "et182567"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "robot-mova-z70-ultra-roller-complete",
+      "category": "robot",
+      "brand": "MOVA",
+      "model": "Z70 Ultra Roller Complete",
+      "name": "旗艦滾筒活水掃拖機器人（台灣R5765U）",
+      "identity": {
+        "canonicalModel": "Z70 Ultra Roller Complete",
+        "lookupLabel": "MOVA Z70 Ultra Roller Complete",
+        "aliases": [
+          "MOVA Z70 Ultra Roller Complete"
+        ],
+        "evidenceUrl": "https://tw.mova.tech/products/mova-z70-ultra-roller-complete"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-09-09",
+        "reviewTimestamp": "2026-09-08T22:51:54.748Z",
+        "checkedPlatforms": [
+          "Reddit",
+          "MOVA Forum",
+          "Mobile01",
+          "Dcard"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"Z70 Ultra Roller Complete\" problem issue",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Z70%20Ultra%20Roller%20Complete%22%20problem%20issue"
+          },
+          {
+            "platform": "MOVA Forum",
+            "targetHost": "forum.mova-tech.com",
+            "query": "site:forum.mova-tech.com \"Z70 Ultra Roller Complete\" problem",
+            "queryUrl": "https://www.google.com/search?q=site%3Aforum.mova-tech.com%20%22Z70%20Ultra%20Roller%20Complete%22%20problem"
+          },
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"Z70 Ultra Roller Complete\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Z70%20Ultra%20Roller%20Complete%22"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"Z70 Ultra Roller Complete\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22Z70%20Ultra%20Roller%20Complete%22"
+          }
+        ],
+        "candidateDisposition": "Z70 Ultra Roller Complete：人工讀Reddit及德/法MOVA論壇10個原頁；滾筒錯誤2人、出水偏乾2人、地毯辨識2人，其餘噪音/App/轉圈/留水各為個案。KC898386、DM583583、QX975210跨帖去重；MOVA各語系和子網域只算1站。Mobile01/Dcard精確全型號查詢未得原始候選。不把不同故障湊6人，也不把德國R5765H…EU個案等同台灣R5765U發生率；未達集中災情門檻但保留全部實際負評。",
+        "representativeSources": [
+          {
+            "platform": "Reddit",
+            "title": "MOVA Z70 Ultra Roller review after 1.5 weeks",
+            "url": "https://www.reddit.com/r/RobotVacuums/comments/1v7wbdl/mova_z70_ultra_roller_review_after_15_weeks/"
+          },
+          {
+            "platform": "MOVA Forum",
+            "title": "Erfahrung Support und Gerät-Qualität",
+            "url": "https://forum.mova-tech.com/de/forum.php?mod=viewthread&tid=4379"
+          },
+          {
+            "platform": "MOVA Forum",
+            "title": "Wischen",
+            "url": "https://forum.mova-tech.com/de/forum.php?mod=viewthread&tid=4037"
+          },
+          {
+            "platform": "MOVA Forum",
+            "title": "Wischwalze wischt sehr trocken",
+            "url": "https://forum.mova-tech.com/de/forum.php?extra=page%3D1&mod=viewthread&tid=3796"
+          },
+          {
+            "platform": "MOVA Forum",
+            "title": "Wischt mangelhaft",
+            "url": "https://de.forum.mova-tech.com/forum.php?mod=viewthread&tid=4084"
+          },
+          {
+            "platform": "MOVA Forum",
+            "title": "Beim Wischen werden alle Teppiche mit abgefahren",
+            "url": "https://forum.mova-tech.com/de/forum.php?back=index&mobile=no&mod=viewthread&pa=96&tid=4258"
+          },
+          {
+            "platform": "MOVA Forum",
+            "title": "Teppich Erkennung",
+            "url": "https://forum.mova-tech.com/de/forum.php?mod=viewthread&tid=4437"
+          },
+          {
+            "platform": "MOVA Forum",
+            "title": "Z70 Ultra dreht sich im Kreis und reinigt nicht richtig",
+            "url": "https://de.forum.mova-tech.com/forum.php?mod=viewthread&tid=4553"
+          },
+          {
+            "platform": "MOVA Forum",
+            "title": "Probleme d aspiration d eau",
+            "url": "https://fr.forum.mova-tech.com/forum.php?mod=viewthread&tid=1105"
+          },
+          {
+            "platform": "MOVA Forum",
+            "title": "Z70 Ultra Roller Complete 發售詢問",
+            "url": "https://forum.mova-tech.com/de/forum.php?mod=viewthread&tid=3408"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "url": "https://www.reddit.com/r/RobotVacuums/comments/1v7wbdl/mova_z70_ultra_roller_review_after_15_weeks/",
+            "title": "MOVA Z70 Ultra Roller review after 1.5 weeks",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-09",
+            "checkedAt": "2026-09-08T22:51:54.748Z",
+            "sourceExcerpt": "Jonny0r稱自購Z70後硬地清潔出色，但主機太高進不了櫥櫃下方、正常吸拖較Saros10吵，App選單延遲1–2秒；回覆澄清不是短暫自動集塵聲。",
+            "independentAuthors": 1,
+            "reviewedAuthors": [
+              "Jonny0r"
+            ],
+            "specificReason": "同一作者主文及多次回覆算1人；其他回覆是未到貨、詢問或廠商，不增加噪音/App問題人數。歐洲使用情境與台灣R5765U區域細節未等同。",
+            "platform": "Reddit",
+            "countMeaning": "逐頁覆核相關作者，跨帖及回覆去重後判斷；不代表集中災情成立人數"
+          },
+          {
+            "url": "https://forum.mova-tech.com/de/forum.php?mod=viewthread&tid=4379",
+            "title": "Erfahrung Support und Gerät-Qualität",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-09",
+            "checkedAt": "2026-09-08T22:51:54.748Z",
+            "sourceExcerpt": "NL009358原機三週後持續滾筒錯誤，換機又無法開機/充電；BR475新機兩次相同滾筒錯誤並有刺鼻氣味。",
+            "independentAuthors": 2,
+            "reviewedAuthors": [
+              "NL009358",
+              "BR475"
+            ],
+            "specificReason": "滾筒錯誤2名同站；NL009358兩台仍是1名作者，客服延遲及換機DOA分開，不把不同問題合計六人。",
+            "platform": "MOVA Forum",
+            "countMeaning": "逐頁覆核相關作者，跨帖及回覆去重後判斷；不代表集中災情成立人數"
+          },
+          {
+            "url": "https://forum.mova-tech.com/de/forum.php?mod=viewthread&tid=4037",
+            "title": "Wischen",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-09",
+            "checkedAt": "2026-09-08T22:51:54.748Z",
+            "sourceExcerpt": "DM583583稱水箱有水但拖後地板不濕；KC898386附和最高水量仍偏乾，客服建議檢查出水孔與10平方米回洗。",
+            "independentAuthors": 2,
+            "reviewedAuthors": [
+              "DM583583",
+              "KC898386"
+            ],
+            "specificReason": "只有2名；KC898386/DM583583也在3796及4084重複回報，跨帖不可加人；偏乾不等於漏水或滾筒錯誤。",
+            "platform": "MOVA Forum",
+            "countMeaning": "逐頁覆核相關作者，跨帖及回覆去重後判斷；不代表集中災情成立人數"
+          },
+          {
+            "url": "https://forum.mova-tech.com/de/forum.php?extra=page%3D1&mod=viewthread&tid=3796",
+            "title": "Wischwalze wischt sehr trocken",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-09",
+            "checkedAt": "2026-09-08T22:51:54.748Z",
+            "sourceExcerpt": "KC898386新機最高水量仍僅微濕且很快乾；DM583583稱自己的也全乾；KC898386後續稱未改善。",
+            "independentAuthors": 2,
+            "reviewedAuthors": [
+              "KC898386",
+              "DM583583"
+            ],
+            "specificReason": "與4037、4084同作者同事件；兩人一個網站，無獨立第三回報。",
+            "platform": "MOVA Forum",
+            "countMeaning": "逐頁覆核相關作者，跨帖及回覆去重後判斷；不代表集中災情成立人數"
+          },
+          {
+            "url": "https://de.forum.mova-tech.com/forum.php?mod=viewthread&tid=4084",
+            "title": "Wischt mangelhaft",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-09",
+            "checkedAt": "2026-09-08T22:51:54.748Z",
+            "sourceExcerpt": "KC898386稱出水偏少、清潔後無堵塞，技術更新仍未改善；本人重複追問支援。",
+            "independentAuthors": 1,
+            "reviewedAuthors": [
+              "KC898386"
+            ],
+            "specificReason": "同一KC898386後續，不增加人數；提及Amazon/YouTube他人不能當可辨識原始報告。本人序號前綴為R5765H…EU，台灣標R5765U，硬體區域等同未證。",
+            "platform": "MOVA Forum",
+            "countMeaning": "逐頁覆核相關作者，跨帖及回覆去重後判斷；不代表集中災情成立人數"
+          },
+          {
+            "url": "https://forum.mova-tech.com/de/forum.php?back=index&mobile=no&mod=viewthread&pa=96&tid=4258",
+            "title": "Beim Wischen werden alle Teppiche mit abgefahren",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-09",
+            "checkedAt": "2026-09-08T22:51:54.748Z",
+            "sourceExcerpt": "QX975210稱CleanGenius先吸後拖時仍反覆駛過已正確辨識地毯，但沒有濕拖地毯；換模式後地毯局部未吸。",
+            "independentAuthors": 1,
+            "reviewedAuthors": [
+              "QX975210"
+            ],
+            "specificReason": "1名作者、模式相關；與4437同人後續去重，不和單純噪音或出水混算。",
+            "platform": "MOVA Forum",
+            "countMeaning": "逐頁覆核相關作者，跨帖及回覆去重後判斷；不代表集中災情成立人數"
+          },
+          {
+            "url": "https://forum.mova-tech.com/de/forum.php?mod=viewthread&tid=4437",
+            "title": "Teppich Erkennung",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-09",
+            "checkedAt": "2026-09-08T22:51:54.748Z",
+            "sourceExcerpt": "XI654436說有時濕滾筒經過地毯、手動畫地毯後自動識別未恢復；QX975210附和但称最近韌體略改善。",
+            "independentAuthors": 2,
+            "reviewedAuthors": [
+              "XI654436",
+              "QX975210"
+            ],
+            "specificReason": "地毯辨識2名同站，QX975210與4258去重；Dust Vader只給設定建議，客服不計使用者。",
+            "platform": "MOVA Forum",
+            "countMeaning": "逐頁覆核相關作者，跨帖及回覆去重後判斷；不代表集中災情成立人數"
+          },
+          {
+            "url": "https://de.forum.mova-tech.com/forum.php?mod=viewthread&tid=4553",
+            "title": "Z70 Ultra dreht sich im Kreis und reinigt nicht richtig",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-09",
+            "checkedAt": "2026-09-08T22:51:54.748Z",
+            "sourceExcerpt": "MA-srb称電量約70%、韌體最新時CleanGenius開始後原地轉圈、邊角未清，客服要求查輪/LDS/感測器。",
+            "independentAuthors": 1,
+            "reviewedAuthors": [
+              "MA-srb"
+            ],
+            "specificReason": "只有1名，未揭確切根因；不能與正常模式繞行地毯或不同品牌导航問題合計。",
+            "platform": "MOVA Forum",
+            "countMeaning": "逐頁覆核相關作者，跨帖及回覆去重後判斷；不代表集中災情成立人數"
+          },
+          {
+            "url": "https://fr.forum.mova-tech.com/forum.php?mod=viewthread&tid=1105",
+            "title": "Probleme d aspiration d eau",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-09",
+            "checkedAt": "2026-09-08T22:51:54.748Z",
+            "sourceExcerpt": "NW287821稱每次清洗後仍在家中一處留大水痕；客服建議水量/金屬濾網/刮條/污水入口檢查。",
+            "independentAuthors": 1,
+            "reviewedAuthors": [
+              "NW287821"
+            ],
+            "specificReason": "1名留水個案；法語/德語為同MOVA論壇站，不能當兩個原始網站，tqt為建議不是自述故障。",
+            "platform": "MOVA Forum",
+            "countMeaning": "逐頁覆核相關作者，跨帖及回覆去重後判斷；不代表集中災情成立人數"
+          },
+          {
+            "url": "https://forum.mova-tech.com/de/forum.php?mod=viewthread&tid=3408",
+            "title": "Z70 Ultra Roller Complete 發售詢問",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-09",
+            "checkedAt": "2026-09-08T22:51:54.748Z",
+            "sourceExcerpt": "BR125146詢問何時可買，Liftwart引瑞士/德國推估，Mova Support引用Q2規劃。",
+            "independentAuthors": 2,
+            "reviewedAuthors": [
+              "BR125146",
+              "Liftwart"
+            ],
+            "specificReason": "未持有的上市諮詢，不是故障，不以論壇推估日作上市證據。",
+            "platform": "MOVA Forum",
+            "countMeaning": "逐頁覆核相關作者，跨帖及回覆去重後判斷；不代表集中災情成立人數"
+          }
+        ],
+        "reviewerNote": "Z70 Ultra Roller Complete：人工讀Reddit及德/法MOVA論壇10個原頁；滾筒錯誤2人、出水偏乾2人、地毯辨識2人，其餘噪音/App/轉圈/留水各為個案。KC898386、DM583583、QX975210跨帖去重；MOVA各語系和子網域只算1站。Mobile01/Dcard精確全型號查詢未得原始候選。不把不同故障湊6人，也不把德國R5765H…EU個案等同台灣R5765U發生率；未達集中災情門檻但保留全部實際負評。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-09-09",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"Z70 Ultra Roller Complete\" problem issue",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Z70%20Ultra%20Roller%20Complete%22%20problem%20issue"
+          },
+          {
+            "platform": "MOVA Forum",
+            "targetHost": "forum.mova-tech.com",
+            "query": "site:forum.mova-tech.com \"Z70 Ultra Roller Complete\" problem",
+            "queryUrl": "https://www.google.com/search?q=site%3Aforum.mova-tech.com%20%22Z70%20Ultra%20Roller%20Complete%22%20problem"
+          },
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"Z70 Ultra Roller Complete\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Z70%20Ultra%20Roller%20Complete%22"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"Z70 Ultra Roller Complete\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22Z70%20Ultra%20Roller%20Complete%22"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"Z70 Ultra Roller Complete\" problem issue",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Z70%20Ultra%20Roller%20Complete%22%20problem%20issue",
+          "outcome": "已逐頁覆核可辨識候選；相關負評/去重/區域限制见candidateReviews",
+          "searchUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Z70%20Ultra%20Roller%20Complete%22%20problem%20issue",
+          "candidates": [
+            {
+              "url": "https://www.reddit.com/r/RobotVacuums/comments/1v7wbdl/mova_z70_ultra_roller_review_after_15_weeks/",
+              "title": "MOVA Z70 Ultra Roller review after 1.5 weeks",
+              "snippet": "Jonny0r稱自購Z70後硬地清潔出色，但主機太高進不了櫥櫃下方、正常吸拖較Saros10吵，App選單延遲1–2秒；回覆澄清不是短暫自動集塵聲。",
+              "platform": "Reddit",
+              "exactModel": true
+            }
+          ],
+          "candidateUrls": [
+            "https://www.reddit.com/r/RobotVacuums/comments/1v7wbdl/mova_z70_ultra_roller_review_after_15_weeks/"
+          ],
+          "resultCount": 1,
+          "result": "candidates_unverified_by_search_only",
+          "inspectedAt": "2026-09-08T22:51:54.748Z",
+          "structureNote": "依本批既有人工候選及無候選紀錄整理；候選包含搜尋後延伸原頁，數量為已記錄頁面，不是搜尋引擎總命中數。"
+        },
+        {
+          "platform": "MOVA Forum",
+          "targetHost": "forum.mova-tech.com",
+          "query": "site:forum.mova-tech.com \"Z70 Ultra Roller Complete\" problem",
+          "queryUrl": "https://www.google.com/search?q=site%3Aforum.mova-tech.com%20%22Z70%20Ultra%20Roller%20Complete%22%20problem",
+          "outcome": "已逐頁覆核可辨識候選；相關負評/去重/區域限制见candidateReviews",
+          "searchUrl": "https://www.google.com/search?q=site%3Aforum.mova-tech.com%20%22Z70%20Ultra%20Roller%20Complete%22%20problem",
+          "candidates": [
+            {
+              "url": "https://forum.mova-tech.com/de/forum.php?mod=viewthread&tid=4379",
+              "title": "Erfahrung Support und Gerät-Qualität",
+              "snippet": "NL009358原機三週後持續滾筒錯誤，換機又無法開機/充電；BR475新機兩次相同滾筒錯誤並有刺鼻氣味。",
+              "platform": "MOVA Forum",
+              "exactModel": true
+            },
+            {
+              "url": "https://forum.mova-tech.com/de/forum.php?mod=viewthread&tid=4037",
+              "title": "Wischen",
+              "snippet": "DM583583稱水箱有水但拖後地板不濕；KC898386附和最高水量仍偏乾，客服建議檢查出水孔與10平方米回洗。",
+              "platform": "MOVA Forum",
+              "exactModel": true
+            },
+            {
+              "url": "https://forum.mova-tech.com/de/forum.php?extra=page%3D1&mod=viewthread&tid=3796",
+              "title": "Wischwalze wischt sehr trocken",
+              "snippet": "KC898386新機最高水量仍僅微濕且很快乾；DM583583稱自己的也全乾；KC898386後續稱未改善。",
+              "platform": "MOVA Forum",
+              "exactModel": true
+            },
+            {
+              "url": "https://de.forum.mova-tech.com/forum.php?mod=viewthread&tid=4084",
+              "title": "Wischt mangelhaft",
+              "snippet": "KC898386稱出水偏少、清潔後無堵塞，技術更新仍未改善；本人重複追問支援。",
+              "platform": "MOVA Forum",
+              "exactModel": true
+            },
+            {
+              "url": "https://forum.mova-tech.com/de/forum.php?back=index&mobile=no&mod=viewthread&pa=96&tid=4258",
+              "title": "Beim Wischen werden alle Teppiche mit abgefahren",
+              "snippet": "QX975210稱CleanGenius先吸後拖時仍反覆駛過已正確辨識地毯，但沒有濕拖地毯；換模式後地毯局部未吸。",
+              "platform": "MOVA Forum",
+              "exactModel": true
+            },
+            {
+              "url": "https://forum.mova-tech.com/de/forum.php?mod=viewthread&tid=4437",
+              "title": "Teppich Erkennung",
+              "snippet": "XI654436說有時濕滾筒經過地毯、手動畫地毯後自動識別未恢復；QX975210附和但称最近韌體略改善。",
+              "platform": "MOVA Forum",
+              "exactModel": true
+            },
+            {
+              "url": "https://de.forum.mova-tech.com/forum.php?mod=viewthread&tid=4553",
+              "title": "Z70 Ultra dreht sich im Kreis und reinigt nicht richtig",
+              "snippet": "MA-srb称電量約70%、韌體最新時CleanGenius開始後原地轉圈、邊角未清，客服要求查輪/LDS/感測器。",
+              "platform": "MOVA Forum",
+              "exactModel": true
+            },
+            {
+              "url": "https://fr.forum.mova-tech.com/forum.php?mod=viewthread&tid=1105",
+              "title": "Probleme d aspiration d eau",
+              "snippet": "NW287821稱每次清洗後仍在家中一處留大水痕；客服建議水量/金屬濾網/刮條/污水入口檢查。",
+              "platform": "MOVA Forum",
+              "exactModel": true
+            },
+            {
+              "url": "https://forum.mova-tech.com/de/forum.php?mod=viewthread&tid=3408",
+              "title": "Z70 Ultra Roller Complete 發售詢問",
+              "snippet": "BR125146詢問何時可買，Liftwart引瑞士/德國推估，Mova Support引用Q2規劃。",
+              "platform": "MOVA Forum",
+              "exactModel": true
+            }
+          ],
+          "candidateUrls": [
+            "https://forum.mova-tech.com/de/forum.php?mod=viewthread&tid=4379",
+            "https://forum.mova-tech.com/de/forum.php?mod=viewthread&tid=4037",
+            "https://forum.mova-tech.com/de/forum.php?extra=page%3D1&mod=viewthread&tid=3796",
+            "https://de.forum.mova-tech.com/forum.php?mod=viewthread&tid=4084",
+            "https://forum.mova-tech.com/de/forum.php?back=index&mobile=no&mod=viewthread&pa=96&tid=4258",
+            "https://forum.mova-tech.com/de/forum.php?mod=viewthread&tid=4437",
+            "https://de.forum.mova-tech.com/forum.php?mod=viewthread&tid=4553",
+            "https://fr.forum.mova-tech.com/forum.php?mod=viewthread&tid=1105",
+            "https://forum.mova-tech.com/de/forum.php?mod=viewthread&tid=3408"
+          ],
+          "resultCount": 9,
+          "result": "candidates_unverified_by_search_only",
+          "inspectedAt": "2026-09-08T22:51:54.748Z",
+          "structureNote": "依本批既有人工候選及無候選紀錄整理；候選包含搜尋後延伸原頁，數量為已記錄頁面，不是搜尋引擎總命中數。"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"Z70 Ultra Roller Complete\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Z70%20Ultra%20Roller%20Complete%22",
+          "outcome": "已逐頁覆核可辨識候選；相關負評/去重/區域限制见candidateReviews",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Z70%20Ultra%20Roller%20Complete%22",
+          "candidates": [],
+          "candidateUrls": [],
+          "resultCount": 0,
+          "result": "no_exact_model_result",
+          "inspectedAt": "2026-09-08T22:51:54.748Z",
+          "structureNote": "依本批既有人工候選及無候選紀錄整理；候選包含搜尋後延伸原頁，數量為已記錄頁面，不是搜尋引擎總命中數。"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "site:dcard.tw \"Z70 Ultra Roller Complete\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22Z70%20Ultra%20Roller%20Complete%22",
+          "outcome": "已逐頁覆核可辨識候選；相關負評/去重/區域限制见candidateReviews",
+          "searchUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22Z70%20Ultra%20Roller%20Complete%22",
+          "candidates": [],
+          "candidateUrls": [],
+          "resultCount": 0,
+          "result": "no_exact_model_result",
+          "inspectedAt": "2026-09-08T22:51:54.748Z",
+          "structureNote": "依本批既有人工候選及無候選紀錄整理；候選包含搜尋後延伸原頁，數量為已記錄頁面，不是搜尋引擎總命中數。"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "url": "https://www.reddit.com/r/RobotVacuums/comments/1v7wbdl/mova_z70_ultra_roller_review_after_15_weeks/",
+          "title": "MOVA Z70 Ultra Roller review after 1.5 weeks",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-09",
+          "checkedAt": "2026-09-08T22:51:54.748Z",
+          "sourceExcerpt": "Jonny0r稱自購Z70後硬地清潔出色，但主機太高進不了櫥櫃下方、正常吸拖較Saros10吵，App選單延遲1–2秒；回覆澄清不是短暫自動集塵聲。",
+          "independentAuthors": 1,
+          "reviewedAuthors": [
+            "Jonny0r"
+          ],
+          "specificReason": "同一作者主文及多次回覆算1人；其他回覆是未到貨、詢問或廠商，不增加噪音/App問題人數。歐洲使用情境與台灣R5765U區域細節未等同。",
+          "platform": "Reddit",
+          "countMeaning": "逐頁覆核相關作者，跨帖及回覆去重後判斷；不代表集中災情成立人數",
+          "reason": "同一作者主文及多次回覆算1人；其他回覆是未到貨、詢問或廠商，不增加噪音/App問題人數。歐洲使用情境與台灣R5765U區域細節未等同。"
+        },
+        {
+          "url": "https://forum.mova-tech.com/de/forum.php?mod=viewthread&tid=4379",
+          "title": "Erfahrung Support und Gerät-Qualität",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-09",
+          "checkedAt": "2026-09-08T22:51:54.748Z",
+          "sourceExcerpt": "NL009358原機三週後持續滾筒錯誤，換機又無法開機/充電；BR475新機兩次相同滾筒錯誤並有刺鼻氣味。",
+          "independentAuthors": 2,
+          "reviewedAuthors": [
+            "NL009358",
+            "BR475"
+          ],
+          "specificReason": "滾筒錯誤2名同站；NL009358兩台仍是1名作者，客服延遲及換機DOA分開，不把不同問題合計六人。",
+          "platform": "MOVA Forum",
+          "countMeaning": "逐頁覆核相關作者，跨帖及回覆去重後判斷；不代表集中災情成立人數",
+          "reason": "滾筒錯誤2名同站；NL009358兩台仍是1名作者，客服延遲及換機DOA分開，不把不同問題合計六人。"
+        },
+        {
+          "url": "https://forum.mova-tech.com/de/forum.php?mod=viewthread&tid=4037",
+          "title": "Wischen",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-09",
+          "checkedAt": "2026-09-08T22:51:54.748Z",
+          "sourceExcerpt": "DM583583稱水箱有水但拖後地板不濕；KC898386附和最高水量仍偏乾，客服建議檢查出水孔與10平方米回洗。",
+          "independentAuthors": 2,
+          "reviewedAuthors": [
+            "DM583583",
+            "KC898386"
+          ],
+          "specificReason": "只有2名；KC898386/DM583583也在3796及4084重複回報，跨帖不可加人；偏乾不等於漏水或滾筒錯誤。",
+          "platform": "MOVA Forum",
+          "countMeaning": "逐頁覆核相關作者，跨帖及回覆去重後判斷；不代表集中災情成立人數",
+          "reason": "只有2名；KC898386/DM583583也在3796及4084重複回報，跨帖不可加人；偏乾不等於漏水或滾筒錯誤。"
+        },
+        {
+          "url": "https://forum.mova-tech.com/de/forum.php?extra=page%3D1&mod=viewthread&tid=3796",
+          "title": "Wischwalze wischt sehr trocken",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-09",
+          "checkedAt": "2026-09-08T22:51:54.748Z",
+          "sourceExcerpt": "KC898386新機最高水量仍僅微濕且很快乾；DM583583稱自己的也全乾；KC898386後續稱未改善。",
+          "independentAuthors": 2,
+          "reviewedAuthors": [
+            "KC898386",
+            "DM583583"
+          ],
+          "specificReason": "與4037、4084同作者同事件；兩人一個網站，無獨立第三回報。",
+          "platform": "MOVA Forum",
+          "countMeaning": "逐頁覆核相關作者，跨帖及回覆去重後判斷；不代表集中災情成立人數",
+          "reason": "與4037、4084同作者同事件；兩人一個網站，無獨立第三回報。"
+        },
+        {
+          "url": "https://de.forum.mova-tech.com/forum.php?mod=viewthread&tid=4084",
+          "title": "Wischt mangelhaft",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-09",
+          "checkedAt": "2026-09-08T22:51:54.748Z",
+          "sourceExcerpt": "KC898386稱出水偏少、清潔後無堵塞，技術更新仍未改善；本人重複追問支援。",
+          "independentAuthors": 1,
+          "reviewedAuthors": [
+            "KC898386"
+          ],
+          "specificReason": "同一KC898386後續，不增加人數；提及Amazon/YouTube他人不能當可辨識原始報告。本人序號前綴為R5765H…EU，台灣標R5765U，硬體區域等同未證。",
+          "platform": "MOVA Forum",
+          "countMeaning": "逐頁覆核相關作者，跨帖及回覆去重後判斷；不代表集中災情成立人數",
+          "reason": "同一KC898386後續，不增加人數；提及Amazon/YouTube他人不能當可辨識原始報告。本人序號前綴為R5765H…EU，台灣標R5765U，硬體區域等同未證。"
+        },
+        {
+          "url": "https://forum.mova-tech.com/de/forum.php?back=index&mobile=no&mod=viewthread&pa=96&tid=4258",
+          "title": "Beim Wischen werden alle Teppiche mit abgefahren",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-09",
+          "checkedAt": "2026-09-08T22:51:54.748Z",
+          "sourceExcerpt": "QX975210稱CleanGenius先吸後拖時仍反覆駛過已正確辨識地毯，但沒有濕拖地毯；換模式後地毯局部未吸。",
+          "independentAuthors": 1,
+          "reviewedAuthors": [
+            "QX975210"
+          ],
+          "specificReason": "1名作者、模式相關；與4437同人後續去重，不和單純噪音或出水混算。",
+          "platform": "MOVA Forum",
+          "countMeaning": "逐頁覆核相關作者，跨帖及回覆去重後判斷；不代表集中災情成立人數",
+          "reason": "1名作者、模式相關；與4437同人後續去重，不和單純噪音或出水混算。"
+        },
+        {
+          "url": "https://forum.mova-tech.com/de/forum.php?mod=viewthread&tid=4437",
+          "title": "Teppich Erkennung",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-09",
+          "checkedAt": "2026-09-08T22:51:54.748Z",
+          "sourceExcerpt": "XI654436說有時濕滾筒經過地毯、手動畫地毯後自動識別未恢復；QX975210附和但称最近韌體略改善。",
+          "independentAuthors": 2,
+          "reviewedAuthors": [
+            "XI654436",
+            "QX975210"
+          ],
+          "specificReason": "地毯辨識2名同站，QX975210與4258去重；Dust Vader只給設定建議，客服不計使用者。",
+          "platform": "MOVA Forum",
+          "countMeaning": "逐頁覆核相關作者，跨帖及回覆去重後判斷；不代表集中災情成立人數",
+          "reason": "地毯辨識2名同站，QX975210與4258去重；Dust Vader只給設定建議，客服不計使用者。"
+        },
+        {
+          "url": "https://de.forum.mova-tech.com/forum.php?mod=viewthread&tid=4553",
+          "title": "Z70 Ultra dreht sich im Kreis und reinigt nicht richtig",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-09",
+          "checkedAt": "2026-09-08T22:51:54.748Z",
+          "sourceExcerpt": "MA-srb称電量約70%、韌體最新時CleanGenius開始後原地轉圈、邊角未清，客服要求查輪/LDS/感測器。",
+          "independentAuthors": 1,
+          "reviewedAuthors": [
+            "MA-srb"
+          ],
+          "specificReason": "只有1名，未揭確切根因；不能與正常模式繞行地毯或不同品牌导航問題合計。",
+          "platform": "MOVA Forum",
+          "countMeaning": "逐頁覆核相關作者，跨帖及回覆去重後判斷；不代表集中災情成立人數",
+          "reason": "只有1名，未揭確切根因；不能與正常模式繞行地毯或不同品牌导航問題合計。"
+        },
+        {
+          "url": "https://fr.forum.mova-tech.com/forum.php?mod=viewthread&tid=1105",
+          "title": "Probleme d aspiration d eau",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-09",
+          "checkedAt": "2026-09-08T22:51:54.748Z",
+          "sourceExcerpt": "NW287821稱每次清洗後仍在家中一處留大水痕；客服建議水量/金屬濾網/刮條/污水入口檢查。",
+          "independentAuthors": 1,
+          "reviewedAuthors": [
+            "NW287821"
+          ],
+          "specificReason": "1名留水個案；法語/德語為同MOVA論壇站，不能當兩個原始網站，tqt為建議不是自述故障。",
+          "platform": "MOVA Forum",
+          "countMeaning": "逐頁覆核相關作者，跨帖及回覆去重後判斷；不代表集中災情成立人數",
+          "reason": "1名留水個案；法語/德語為同MOVA論壇站，不能當兩個原始網站，tqt為建議不是自述故障。"
+        },
+        {
+          "url": "https://forum.mova-tech.com/de/forum.php?mod=viewthread&tid=3408",
+          "title": "Z70 Ultra Roller Complete 發售詢問",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-09",
+          "checkedAt": "2026-09-08T22:51:54.748Z",
+          "sourceExcerpt": "BR125146詢問何時可買，Liftwart引瑞士/德國推估，Mova Support引用Q2規劃。",
+          "independentAuthors": 2,
+          "reviewedAuthors": [
+            "BR125146",
+            "Liftwart"
+          ],
+          "specificReason": "未持有的上市諮詢，不是故障，不以論壇推估日作上市證據。",
+          "platform": "MOVA Forum",
+          "countMeaning": "逐頁覆核相關作者，跨帖及回覆去重後判斷；不代表集中災情成立人數",
+          "reason": "未持有的上市諮詢，不是故障，不以論壇推估日作上市證據。"
+        }
+      ],
+      "manualSourceChecks": [
+        {
+          "url": "https://www.reddit.com/r/RobotVacuums/comments/1v7wbdl/mova_z70_ultra_roller_review_after_15_weeks/",
+          "title": "MOVA Z70 Ultra Roller review after 1.5 weeks",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-09",
+          "checkedAt": "2026-09-08T22:51:54.748Z",
+          "sourceExcerpt": "Jonny0r稱自購Z70後硬地清潔出色，但主機太高進不了櫥櫃下方、正常吸拖較Saros10吵，App選單延遲1–2秒；回覆澄清不是短暫自動集塵聲。",
+          "independentAuthors": 1,
+          "reviewedAuthors": [
+            "Jonny0r"
+          ],
+          "specificReason": "同一作者主文及多次回覆算1人；其他回覆是未到貨、詢問或廠商，不增加噪音/App問題人數。歐洲使用情境與台灣R5765U區域細節未等同。",
+          "platform": "Reddit",
+          "countMeaning": "逐頁覆核相關作者，跨帖及回覆去重後判斷；不代表集中災情成立人數"
+        },
+        {
+          "url": "https://forum.mova-tech.com/de/forum.php?mod=viewthread&tid=4379",
+          "title": "Erfahrung Support und Gerät-Qualität",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-09",
+          "checkedAt": "2026-09-08T22:51:54.748Z",
+          "sourceExcerpt": "NL009358原機三週後持續滾筒錯誤，換機又無法開機/充電；BR475新機兩次相同滾筒錯誤並有刺鼻氣味。",
+          "independentAuthors": 2,
+          "reviewedAuthors": [
+            "NL009358",
+            "BR475"
+          ],
+          "specificReason": "滾筒錯誤2名同站；NL009358兩台仍是1名作者，客服延遲及換機DOA分開，不把不同問題合計六人。",
+          "platform": "MOVA Forum",
+          "countMeaning": "逐頁覆核相關作者，跨帖及回覆去重後判斷；不代表集中災情成立人數"
+        },
+        {
+          "url": "https://forum.mova-tech.com/de/forum.php?mod=viewthread&tid=4037",
+          "title": "Wischen",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-09",
+          "checkedAt": "2026-09-08T22:51:54.748Z",
+          "sourceExcerpt": "DM583583稱水箱有水但拖後地板不濕；KC898386附和最高水量仍偏乾，客服建議檢查出水孔與10平方米回洗。",
+          "independentAuthors": 2,
+          "reviewedAuthors": [
+            "DM583583",
+            "KC898386"
+          ],
+          "specificReason": "只有2名；KC898386/DM583583也在3796及4084重複回報，跨帖不可加人；偏乾不等於漏水或滾筒錯誤。",
+          "platform": "MOVA Forum",
+          "countMeaning": "逐頁覆核相關作者，跨帖及回覆去重後判斷；不代表集中災情成立人數"
+        },
+        {
+          "url": "https://forum.mova-tech.com/de/forum.php?extra=page%3D1&mod=viewthread&tid=3796",
+          "title": "Wischwalze wischt sehr trocken",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-09",
+          "checkedAt": "2026-09-08T22:51:54.748Z",
+          "sourceExcerpt": "KC898386新機最高水量仍僅微濕且很快乾；DM583583稱自己的也全乾；KC898386後續稱未改善。",
+          "independentAuthors": 2,
+          "reviewedAuthors": [
+            "KC898386",
+            "DM583583"
+          ],
+          "specificReason": "與4037、4084同作者同事件；兩人一個網站，無獨立第三回報。",
+          "platform": "MOVA Forum",
+          "countMeaning": "逐頁覆核相關作者，跨帖及回覆去重後判斷；不代表集中災情成立人數"
+        },
+        {
+          "url": "https://de.forum.mova-tech.com/forum.php?mod=viewthread&tid=4084",
+          "title": "Wischt mangelhaft",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-09",
+          "checkedAt": "2026-09-08T22:51:54.748Z",
+          "sourceExcerpt": "KC898386稱出水偏少、清潔後無堵塞，技術更新仍未改善；本人重複追問支援。",
+          "independentAuthors": 1,
+          "reviewedAuthors": [
+            "KC898386"
+          ],
+          "specificReason": "同一KC898386後續，不增加人數；提及Amazon/YouTube他人不能當可辨識原始報告。本人序號前綴為R5765H…EU，台灣標R5765U，硬體區域等同未證。",
+          "platform": "MOVA Forum",
+          "countMeaning": "逐頁覆核相關作者，跨帖及回覆去重後判斷；不代表集中災情成立人數"
+        },
+        {
+          "url": "https://forum.mova-tech.com/de/forum.php?back=index&mobile=no&mod=viewthread&pa=96&tid=4258",
+          "title": "Beim Wischen werden alle Teppiche mit abgefahren",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-09",
+          "checkedAt": "2026-09-08T22:51:54.748Z",
+          "sourceExcerpt": "QX975210稱CleanGenius先吸後拖時仍反覆駛過已正確辨識地毯，但沒有濕拖地毯；換模式後地毯局部未吸。",
+          "independentAuthors": 1,
+          "reviewedAuthors": [
+            "QX975210"
+          ],
+          "specificReason": "1名作者、模式相關；與4437同人後續去重，不和單純噪音或出水混算。",
+          "platform": "MOVA Forum",
+          "countMeaning": "逐頁覆核相關作者，跨帖及回覆去重後判斷；不代表集中災情成立人數"
+        },
+        {
+          "url": "https://forum.mova-tech.com/de/forum.php?mod=viewthread&tid=4437",
+          "title": "Teppich Erkennung",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-09",
+          "checkedAt": "2026-09-08T22:51:54.748Z",
+          "sourceExcerpt": "XI654436說有時濕滾筒經過地毯、手動畫地毯後自動識別未恢復；QX975210附和但称最近韌體略改善。",
+          "independentAuthors": 2,
+          "reviewedAuthors": [
+            "XI654436",
+            "QX975210"
+          ],
+          "specificReason": "地毯辨識2名同站，QX975210與4258去重；Dust Vader只給設定建議，客服不計使用者。",
+          "platform": "MOVA Forum",
+          "countMeaning": "逐頁覆核相關作者，跨帖及回覆去重後判斷；不代表集中災情成立人數"
+        },
+        {
+          "url": "https://de.forum.mova-tech.com/forum.php?mod=viewthread&tid=4553",
+          "title": "Z70 Ultra dreht sich im Kreis und reinigt nicht richtig",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-09",
+          "checkedAt": "2026-09-08T22:51:54.748Z",
+          "sourceExcerpt": "MA-srb称電量約70%、韌體最新時CleanGenius開始後原地轉圈、邊角未清，客服要求查輪/LDS/感測器。",
+          "independentAuthors": 1,
+          "reviewedAuthors": [
+            "MA-srb"
+          ],
+          "specificReason": "只有1名，未揭確切根因；不能與正常模式繞行地毯或不同品牌导航問題合計。",
+          "platform": "MOVA Forum",
+          "countMeaning": "逐頁覆核相關作者，跨帖及回覆去重後判斷；不代表集中災情成立人數"
+        },
+        {
+          "url": "https://fr.forum.mova-tech.com/forum.php?mod=viewthread&tid=1105",
+          "title": "Probleme d aspiration d eau",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-09",
+          "checkedAt": "2026-09-08T22:51:54.748Z",
+          "sourceExcerpt": "NW287821稱每次清洗後仍在家中一處留大水痕；客服建議水量/金屬濾網/刮條/污水入口檢查。",
+          "independentAuthors": 1,
+          "reviewedAuthors": [
+            "NW287821"
+          ],
+          "specificReason": "1名留水個案；法語/德語為同MOVA論壇站，不能當兩個原始網站，tqt為建議不是自述故障。",
+          "platform": "MOVA Forum",
+          "countMeaning": "逐頁覆核相關作者，跨帖及回覆去重後判斷；不代表集中災情成立人數"
+        },
+        {
+          "url": "https://forum.mova-tech.com/de/forum.php?mod=viewthread&tid=3408",
+          "title": "Z70 Ultra Roller Complete 發售詢問",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-09",
+          "checkedAt": "2026-09-08T22:51:54.748Z",
+          "sourceExcerpt": "BR125146詢問何時可買，Liftwart引瑞士/德國推估，Mova Support引用Q2規劃。",
+          "independentAuthors": 2,
+          "reviewedAuthors": [
+            "BR125146",
+            "Liftwart"
+          ],
+          "specificReason": "未持有的上市諮詢，不是故障，不以論壇推估日作上市證據。",
+          "platform": "MOVA Forum",
+          "countMeaning": "逐頁覆核相關作者，跨帖及回覆去重後判斷；不代表集中災情成立人數"
+        }
+      ]
+    },
+    {
+      "id": "dishwasher-haier-w32",
+      "category": "dishwasher",
+      "brand": "Haier",
+      "model": "HDWE16-58GY3TW",
+      "name": "W32 16 人份 AI 變頻獨嵌兩用洗碗機",
+      "identity": {
+        "canonicalModel": "HDWE16-58GY3TW",
+        "lookupLabel": "Haier HDWE16-58GY3TW",
+        "aliases": [
+          "Haier W32",
+          "海爾 W32"
+        ],
+        "evidenceUrl": "https://www.haierpro.com.tw/product/w32/"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-09-09",
+        "reviewBatch": "dishwasher",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT",
+          "Dcard",
+          "Haier 台灣官方"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"HDWE16-58GY3TW\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22HDWE16-58GY3TW%22",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"HDWE16-58GY3TW\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22HDWE16-58GY3TW%22",
+            "targetHost": "ptt.cc"
+          },
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"HDWE16-58GY3TW\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22HDWE16-58GY3TW%22",
+            "targetHost": "dcard.tw"
+          }
+        ],
+        "candidateDisposition": "人工覆核Mobile01三串原頁、媒體比較串第2–5頁與官方顧客評價。Eigen對岸機E-8轉述、Joepapa預測、Bosch維修費、220V施工條件、購前提問分開排除；PTT/Dcard exact HDWE16-58GY3TW及W32洗碗機查詢無候選。7164481第2頁取回失敗明示，不宣稱讀完整串或全網無負評。未發現同一問題6名獨立使用者跨2原始站，結論no_common_issue。",
+        "representativeSources": [
+          {
+            "platform": "Mobile01",
+            "title": "Haier 海爾 W32 使用分享與 Bosch SJU4EKW00W 比較",
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7125239"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "W32 使用分享 第2頁",
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7125239&p=2"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "W32 使用分享 第3頁",
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7125239&p=3"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "W32 使用分享 第4頁",
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7125239&p=4"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "W32 使用分享 第5頁",
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7125239&p=5"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "〔分享〕告別廚下烘碗機，海爾 W32 使用心得",
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7157988"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "活蝦SPA鮮蔬果，海爾 W32 使用分享",
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7164481"
+          },
+          {
+            "platform": "Haier 台灣官方",
+            "title": "Haier W32 官方商品顧客評價",
+            "url": "https://www.haierpro.com.tw/product/w32/"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7125239",
+            "title": "Haier 海爾 W32 使用分享與 Bosch SJU4EKW00W 比較",
+            "platform": "Mobile01",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-09",
+            "sourceExcerpt": "艾薩克的媒體測試比較洗程、清潔力及操控，主要內容正面；留言多為選購與220V配線討論。",
+            "independentAuthors": 0,
+            "specificReason": "主文屬媒體實測，非可累計的獨立用戶故障回報；原頁與第2至5頁逐頁查閱，按讚、回覆數不作災情人數。",
+            "reviewTimestamp": "2026-09-08T22:48:59.889Z"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7125239&p=2",
+            "title": "W32 使用分享 第2頁",
+            "platform": "Mobile01",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-09",
+            "sourceExcerpt": "Eigen（文章91626119）提到對岸進口海爾排水泵E-8，再詢問本台泵型號。tungkangcon（91626555）擔心220V拉專線。",
+            "independentAuthors": 0,
+            "specificReason": "Eigen為未明型號的轉述與購前疑問，未自述台灣HDWE16-58GY3TW故障；220V為安裝條件，不是產品故障。",
+            "authorReviews": [
+              {
+                "author": "Eigen",
+                "locator": "16樓 / 91626119",
+                "excerpt": "談及對岸進口機的E-8轉述，詢問這台泵型號。",
+                "exactModel": false,
+                "firstPerson": false,
+                "countedForCommonIssue": false
+              },
+              {
+                "author": "tungkangcon",
+                "locator": "20樓 / 91626555",
+                "excerpt": "考慮購買，認為一般廚房220V專線不易配置。",
+                "exactModel": true,
+                "firstPerson": false,
+                "countedForCommonIssue": false
+              }
+            ],
+            "reviewTimestamp": "2026-09-08T22:48:59.889Z"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7125239&p=3",
+            "title": "W32 使用分享 第3頁",
+            "platform": "Mobile01",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-09",
+            "sourceExcerpt": "留言是咖哩與粽子清洗測試提問、正面觀感及Sandy Shiu張貼的預購價格。",
+            "independentAuthors": 0,
+            "specificReason": "未見第一人稱W32故障；媒體清洗測試疑問、預購資訊不計集中負評。",
+            "reviewTimestamp": "2026-09-08T22:48:59.889Z"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7125239&p=4",
+            "title": "W32 使用分享 第4頁",
+            "platform": "Mobile01",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-09",
+            "sourceExcerpt": "eebad詢問售後，dighame表示自己不滿Bosch維修價格；balllinmouse問兩機自動洗時間差。",
+            "independentAuthors": 0,
+            "specificReason": "後勤疑問非已發生維修失敗；Bosch不同品牌經驗不能移轉W32；時間比較是測試問題，不是W32故障。",
+            "authorReviews": [
+              {
+                "author": "eebad",
+                "locator": "35樓 / 91635862",
+                "excerpt": "表示海爾售後資訊不多，詢問售後是否給力。",
+                "exactModel": true,
+                "firstPerson": false,
+                "countedForCommonIssue": false
+              },
+              {
+                "author": "dighame",
+                "locator": "39樓 / 91638668",
+                "excerpt": "詢問海爾後勤，自己抱怨的是Bosch維修費。",
+                "exactModel": false,
+                "firstPerson": true,
+                "countedForCommonIssue": false
+              }
+            ],
+            "reviewTimestamp": "2026-09-08T22:48:59.889Z"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7125239&p=5",
+            "title": "W32 使用分享 第5頁",
+            "platform": "Mobile01",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-09",
+            "sourceExcerpt": "盈袖討論海外影片與修理疑慮；peeiiiiii實際選惠而浦；其他為Fisher Paykel價格或W32觸控提問。",
+            "independentAuthors": 0,
+            "specificReason": "不同型號、海外售後預測與購前功能問題均排除；沒有可累計的台灣W32第一人稱同問題。",
+            "reviewTimestamp": "2026-09-08T22:48:59.889Z"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7157988",
+            "title": "〔分享〕告別廚下烘碗機，海爾 W32 使用心得",
+            "platform": "Mobile01",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-09",
+            "sourceExcerpt": "ttyyoop2003（92010928）從櫻花烘碗機更換W32，敘述安裝約3小時，排水佈管較費工但已完成；使用評價正面。",
+            "independentAuthors": 1,
+            "specificReason": "原頁是實際使用，但佈管施工過程不等於機器缺陷，未回報持續故障。",
+            "authorReviews": [
+              {
+                "author": "ttyyoop2003",
+                "locator": "主文 / 92010928",
+                "excerpt": "安裝排水處理耗時但完成；肯定新機使用。",
+                "exactModel": true,
+                "firstPerson": true,
+                "countedForCommonIssue": false
+              }
+            ],
+            "reviewTimestamp": "2026-09-08T22:48:59.889Z"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7164481",
+            "title": "活蝦SPA鮮蔬果，海爾 W32 使用分享",
+            "platform": "Mobile01",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-09",
+            "sourceExcerpt": "balllinmouse主文與兩個月追加使用心得正面；Joepapa（92084465）僅預測機器壞掉才知道；另一回覆質疑廣告。",
+            "independentAuthors": 1,
+            "specificReason": "保留疑似推廣文限制；沒有可辨識第一人稱故障。第2頁三次取回失敗，未宣稱整串完全讀完。",
+            "authorReviews": [
+              {
+                "author": "balllinmouse",
+                "locator": "主文與兩個月心得追加",
+                "excerpt": "敘述洗滌及洗蔬果體驗，後續仍正面。",
+                "exactModel": true,
+                "firstPerson": true,
+                "countedForCommonIssue": false
+              },
+              {
+                "author": "Joepapa",
+                "locator": "6樓 / 92084465",
+                "excerpt": "預測壞掉才知道，未交代自己W32故障。",
+                "exactModel": false,
+                "firstPerson": false,
+                "countedForCommonIssue": false
+              }
+            ],
+            "reviewTimestamp": "2026-09-08T22:48:59.889Z"
+          },
+          {
+            "url": "https://www.haierpro.com.tw/product/w32/",
+            "title": "Haier W32 官方商品顧客評價",
+            "platform": "Haier 台灣官方",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-09",
+            "sourceExcerpt": "唯一可見評價為趙*於2025/11/20五星，表示用了兩週並喜歡分區洗。",
+            "independentAuthors": 0,
+            "specificReason": "遮蔽姓名且正面回饋，不能作負面人數或保證可靠度。",
+            "reviewTimestamp": "2026-09-08T22:48:59.889Z"
+          }
+        ],
+        "reviewerNote": "人工覆核Mobile01三串原頁、媒體比較串第2–5頁與官方顧客評價。Eigen對岸機E-8轉述、Joepapa預測、Bosch維修費、220V施工條件、購前提問分開排除；PTT/Dcard exact HDWE16-58GY3TW及W32洗碗機查詢無候選。7164481第2頁取回失敗明示，不宣稱讀完整串或全網無負評。未發現同一問題6名獨立使用者跨2原始站，結論no_common_issue。",
+        "attestation": "manual_original_pages_reviewed",
+        "reviewTimestamp": "2026-09-08T22:48:59.889Z",
+        "auditQueries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"海爾 W32\" 故障 問題",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22%E6%B5%B7%E7%88%BE%20W32%22%20%E6%95%85%E9%9A%9C%20%E5%95%8F%E9%A1%8C",
+            "targetHost": "mobile01.com"
+          }
+        ],
+        "sourceLimitations": [
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&p=2&t=7164481",
+            "title": "W32 活蝦分享 第2頁（受阻）",
+            "platform": "Mobile01",
+            "outcome": "unavailable",
+            "exactModel": true,
+            "reviewedAt": "2026-09-08T22:48:59.889Z",
+            "sourceExcerpt": "web原頁與HTTP皆未成功取得正文。",
+            "independentAuthors": 0,
+            "specificReason": "取回失敗不推定不存在負評；已讀主文與其他原頁只能支持本輪未達門檻的有限結論。"
+          }
+        ]
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-09-09",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"HDWE16-58GY3TW\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22HDWE16-58GY3TW%22",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"HDWE16-58GY3TW\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22HDWE16-58GY3TW%22",
+            "targetHost": "ptt.cc"
+          },
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"HDWE16-58GY3TW\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22HDWE16-58GY3TW%22",
+            "targetHost": "dcard.tw"
+          }
+        ],
+        "auditQueries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"海爾 W32\" 故障 問題",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22%E6%B5%B7%E7%88%BE%20W32%22%20%E6%95%85%E9%9A%9C%20%E5%95%8F%E9%A1%8C",
+            "targetHost": "mobile01.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"HDWE16-58GY3TW\"",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22HDWE16-58GY3TW%22",
+          "targetHost": "mobile01.com",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 3,
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=729&t=7125239",
+            "https://www.mobile01.com/topicdetail.php?f=729&t=7157988",
+            "https://www.mobile01.com/topicdetail.php?f=729&t=7164481"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7125239",
+              "title": "Haier 海爾 W32 使用分享與 Bosch SJU4EKW00W 比較",
+              "snippet": "艾薩克的媒體測試比較洗程、清潔力及操控，主要內容正面；留言多為選購與220V配線討論。",
+              "platform": "Mobile01",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7157988",
+              "title": "〔分享〕告別廚下烘碗機，海爾 W32 使用心得",
+              "snippet": "ttyyoop2003（92010928）從櫻花烘碗機更換W32，敘述安裝約3小時，排水佈管較費工但已完成；使用評價正面。",
+              "platform": "Mobile01",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7164481",
+              "title": "活蝦SPA鮮蔬果，海爾 W32 使用分享",
+              "snippet": "balllinmouse主文與兩個月追加使用心得正面；Joepapa（92084465）僅預測機器壞掉才知道；另一回覆質疑廣告。",
+              "platform": "Mobile01",
+              "exactModel": true
+            }
+          ],
+          "inspectedAt": "2026-09-08T22:48:59.889Z",
+          "structureNote": "依本批既有人工候選及無候選紀錄整理；候選包含搜尋後延伸原頁，數量為已記錄頁面，不是搜尋引擎總命中數。"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"HDWE16-58GY3TW\"",
+          "searchUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22HDWE16-58GY3TW%22",
+          "targetHost": "ptt.cc",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-09-08T22:48:59.889Z",
+          "structureNote": "依本批既有人工候選及無候選紀錄整理；候選包含搜尋後延伸原頁，數量為已記錄頁面，不是搜尋引擎總命中數。"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"HDWE16-58GY3TW\"",
+          "searchUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22HDWE16-58GY3TW%22",
+          "targetHost": "dcard.tw",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-09-08T22:48:59.889Z",
+          "structureNote": "依本批既有人工候選及無候選紀錄整理；候選包含搜尋後延伸原頁，數量為已記錄頁面，不是搜尋引擎總命中數。"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"海爾 W32\" 故障 問題",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22%E6%B5%B7%E7%88%BE%20W32%22%20%E6%95%85%E9%9A%9C%20%E5%95%8F%E9%A1%8C",
+          "targetHost": "mobile01.com",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 3,
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=729&t=7125239",
+            "https://www.mobile01.com/topicdetail.php?f=729&t=7157988",
+            "https://www.mobile01.com/topicdetail.php?f=729&t=7164481"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7125239",
+              "title": "Haier 海爾 W32 使用分享與 Bosch SJU4EKW00W 比較",
+              "snippet": "艾薩克的媒體測試比較洗程、清潔力及操控，主要內容正面；留言多為選購與220V配線討論。",
+              "platform": "Mobile01",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7157988",
+              "title": "〔分享〕告別廚下烘碗機，海爾 W32 使用心得",
+              "snippet": "ttyyoop2003（92010928）從櫻花烘碗機更換W32，敘述安裝約3小時，排水佈管較費工但已完成；使用評價正面。",
+              "platform": "Mobile01",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7164481",
+              "title": "活蝦SPA鮮蔬果，海爾 W32 使用分享",
+              "snippet": "balllinmouse主文與兩個月追加使用心得正面；Joepapa（92084465）僅預測機器壞掉才知道；另一回覆質疑廣告。",
+              "platform": "Mobile01",
+              "exactModel": true
+            }
+          ],
+          "inspectedAt": "2026-09-08T22:48:59.889Z",
+          "structureNote": "依本批既有人工候選及無候選紀錄整理；候選包含搜尋後延伸原頁，數量為已記錄頁面，不是搜尋引擎總命中數。"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7125239",
+          "title": "Haier 海爾 W32 使用分享與 Bosch SJU4EKW00W 比較",
+          "platform": "Mobile01",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-09",
+          "sourceExcerpt": "艾薩克的媒體測試比較洗程、清潔力及操控，主要內容正面；留言多為選購與220V配線討論。",
+          "independentAuthors": 0,
+          "specificReason": "主文屬媒體實測，非可累計的獨立用戶故障回報；原頁與第2至5頁逐頁查閱，按讚、回覆數不作災情人數。",
+          "reviewTimestamp": "2026-09-08T22:48:59.889Z",
+          "reason": "主文屬媒體實測，非可累計的獨立用戶故障回報；原頁與第2至5頁逐頁查閱，按讚、回覆數不作災情人數。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7125239&p=2",
+          "title": "W32 使用分享 第2頁",
+          "platform": "Mobile01",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-09",
+          "sourceExcerpt": "Eigen（文章91626119）提到對岸進口海爾排水泵E-8，再詢問本台泵型號。tungkangcon（91626555）擔心220V拉專線。",
+          "independentAuthors": 0,
+          "specificReason": "Eigen為未明型號的轉述與購前疑問，未自述台灣HDWE16-58GY3TW故障；220V為安裝條件，不是產品故障。",
+          "authorReviews": [
+            {
+              "author": "Eigen",
+              "locator": "16樓 / 91626119",
+              "excerpt": "談及對岸進口機的E-8轉述，詢問這台泵型號。",
+              "exactModel": false,
+              "firstPerson": false,
+              "countedForCommonIssue": false
+            },
+            {
+              "author": "tungkangcon",
+              "locator": "20樓 / 91626555",
+              "excerpt": "考慮購買，認為一般廚房220V專線不易配置。",
+              "exactModel": true,
+              "firstPerson": false,
+              "countedForCommonIssue": false
+            }
+          ],
+          "reviewTimestamp": "2026-09-08T22:48:59.889Z",
+          "reason": "Eigen為未明型號的轉述與購前疑問，未自述台灣HDWE16-58GY3TW故障；220V為安裝條件，不是產品故障。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7125239&p=3",
+          "title": "W32 使用分享 第3頁",
+          "platform": "Mobile01",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-09",
+          "sourceExcerpt": "留言是咖哩與粽子清洗測試提問、正面觀感及Sandy Shiu張貼的預購價格。",
+          "independentAuthors": 0,
+          "specificReason": "未見第一人稱W32故障；媒體清洗測試疑問、預購資訊不計集中負評。",
+          "reviewTimestamp": "2026-09-08T22:48:59.889Z",
+          "reason": "未見第一人稱W32故障；媒體清洗測試疑問、預購資訊不計集中負評。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7125239&p=4",
+          "title": "W32 使用分享 第4頁",
+          "platform": "Mobile01",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-09",
+          "sourceExcerpt": "eebad詢問售後，dighame表示自己不滿Bosch維修價格；balllinmouse問兩機自動洗時間差。",
+          "independentAuthors": 0,
+          "specificReason": "後勤疑問非已發生維修失敗；Bosch不同品牌經驗不能移轉W32；時間比較是測試問題，不是W32故障。",
+          "authorReviews": [
+            {
+              "author": "eebad",
+              "locator": "35樓 / 91635862",
+              "excerpt": "表示海爾售後資訊不多，詢問售後是否給力。",
+              "exactModel": true,
+              "firstPerson": false,
+              "countedForCommonIssue": false
+            },
+            {
+              "author": "dighame",
+              "locator": "39樓 / 91638668",
+              "excerpt": "詢問海爾後勤，自己抱怨的是Bosch維修費。",
+              "exactModel": false,
+              "firstPerson": true,
+              "countedForCommonIssue": false
+            }
+          ],
+          "reviewTimestamp": "2026-09-08T22:48:59.889Z",
+          "reason": "後勤疑問非已發生維修失敗；Bosch不同品牌經驗不能移轉W32；時間比較是測試問題，不是W32故障。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7125239&p=5",
+          "title": "W32 使用分享 第5頁",
+          "platform": "Mobile01",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-09",
+          "sourceExcerpt": "盈袖討論海外影片與修理疑慮；peeiiiiii實際選惠而浦；其他為Fisher Paykel價格或W32觸控提問。",
+          "independentAuthors": 0,
+          "specificReason": "不同型號、海外售後預測與購前功能問題均排除；沒有可累計的台灣W32第一人稱同問題。",
+          "reviewTimestamp": "2026-09-08T22:48:59.889Z",
+          "reason": "不同型號、海外售後預測與購前功能問題均排除；沒有可累計的台灣W32第一人稱同問題。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7157988",
+          "title": "〔分享〕告別廚下烘碗機，海爾 W32 使用心得",
+          "platform": "Mobile01",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-09",
+          "sourceExcerpt": "ttyyoop2003（92010928）從櫻花烘碗機更換W32，敘述安裝約3小時，排水佈管較費工但已完成；使用評價正面。",
+          "independentAuthors": 1,
+          "specificReason": "原頁是實際使用，但佈管施工過程不等於機器缺陷，未回報持續故障。",
+          "authorReviews": [
+            {
+              "author": "ttyyoop2003",
+              "locator": "主文 / 92010928",
+              "excerpt": "安裝排水處理耗時但完成；肯定新機使用。",
+              "exactModel": true,
+              "firstPerson": true,
+              "countedForCommonIssue": false
+            }
+          ],
+          "reviewTimestamp": "2026-09-08T22:48:59.889Z",
+          "reason": "原頁是實際使用，但佈管施工過程不等於機器缺陷，未回報持續故障。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7164481",
+          "title": "活蝦SPA鮮蔬果，海爾 W32 使用分享",
+          "platform": "Mobile01",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-09",
+          "sourceExcerpt": "balllinmouse主文與兩個月追加使用心得正面；Joepapa（92084465）僅預測機器壞掉才知道；另一回覆質疑廣告。",
+          "independentAuthors": 1,
+          "specificReason": "保留疑似推廣文限制；沒有可辨識第一人稱故障。第2頁三次取回失敗，未宣稱整串完全讀完。",
+          "authorReviews": [
+            {
+              "author": "balllinmouse",
+              "locator": "主文與兩個月心得追加",
+              "excerpt": "敘述洗滌及洗蔬果體驗，後續仍正面。",
+              "exactModel": true,
+              "firstPerson": true,
+              "countedForCommonIssue": false
+            },
+            {
+              "author": "Joepapa",
+              "locator": "6樓 / 92084465",
+              "excerpt": "預測壞掉才知道，未交代自己W32故障。",
+              "exactModel": false,
+              "firstPerson": false,
+              "countedForCommonIssue": false
+            }
+          ],
+          "reviewTimestamp": "2026-09-08T22:48:59.889Z",
+          "reason": "保留疑似推廣文限制；沒有可辨識第一人稱故障。第2頁三次取回失敗，未宣稱整串完全讀完。"
+        },
+        {
+          "url": "https://www.haierpro.com.tw/product/w32/",
+          "title": "Haier W32 官方商品顧客評價",
+          "platform": "Haier 台灣官方",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-09",
+          "sourceExcerpt": "唯一可見評價為趙*於2025/11/20五星，表示用了兩週並喜歡分區洗。",
+          "independentAuthors": 0,
+          "specificReason": "遮蔽姓名且正面回饋，不能作負面人數或保證可靠度。",
+          "reviewTimestamp": "2026-09-08T22:48:59.889Z",
+          "reason": "遮蔽姓名且正面回饋，不能作負面人數或保證可靠度。"
+        }
+      ],
+      "manualSourceChecks": [
+        {
+          "method": "original_page_retrieval_failed",
+          "sourceUrl": "https://www.mobile01.com/topicdetail.php?f=729&p=2&t=7164481",
+          "targetHost": "mobile01.com",
+          "inspectedAt": "2026-09-08T22:48:59.889Z",
+          "outcome": "unavailable",
+          "note": "取回失敗不推定不存在負評；已讀主文與其他原頁只能支持本輪未達門檻的有限結論。"
+        }
+      ],
+      "sourceLimitations": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=729&p=2&t=7164481",
+          "title": "W32 活蝦分享 第2頁（受阻）",
+          "platform": "Mobile01",
+          "outcome": "unavailable",
+          "exactModel": true,
+          "reviewedAt": "2026-09-09",
+          "sourceExcerpt": "web原頁與HTTP皆未成功取得正文。",
+          "independentAuthors": 0,
+          "specificReason": "取回失敗不推定不存在負評；已讀主文與其他原頁只能支持本輪未達門檻的有限結論。",
+          "reason": "取回失敗不推定不存在負評；已讀主文與其他原頁只能支持本輪未達門檻的有限結論。",
+          "reviewTimestamp": "2026-09-08T22:48:59.889Z"
         }
       ]
     }

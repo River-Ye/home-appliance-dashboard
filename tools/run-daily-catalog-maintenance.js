@@ -401,7 +401,7 @@ function costcoProductId(url) {
   }
 }
 
-function structuredPriceCandidates(text, productUrl) {
+function structuredPriceCandidates(text, productUrl, checkedAt = Date.now()) {
   const candidates = [];
   const costcoSku = costcoProductId(productUrl);
   const activeHtml = text.replace(/<template\b[^>]*>[\s\S]*?<\/template>/gi, " ");
@@ -452,17 +452,18 @@ function structuredPriceCandidates(text, productUrl) {
       const currentPrice = Number(product?.currentPrice);
       const promotionPrice = Number(product?.promotionPrice);
       const publicPromotion = candidates.find((candidate) => candidate.amount === promotionPrice);
-      const expiresToday = product?.promotions?.some(({ __ref }) => (
-        String(state?.[__ref]?.endTs || "").slice(0, 10) === MAINTENANCE_DATE
-        && state?.[__ref]?.rules?.some((rule) => {
+      const pricePromotions = product?.promotions?.map(({ __ref }) => state?.[__ref]).filter((promotion) => (
+        promotion?.rules?.some((rule) => {
           const percent = String(rule?.discountDescription || "").match(/(\d+(?:\.\d+)?)折/);
           if (!percent) return false;
           const discount = Number(percent[1]);
           return Math.ceil(currentPrice * discount / (discount < 10 ? 10 : 100)) === promotionPrice;
         })
-      ));
-      if (expiresToday && publicPromotion && Number.isFinite(currentPrice) && currentPrice > 0) {
-        return [{ ...publicPromotion, amount: currentPrice, currency: "TWD", source: "yahoo_current_price_same_day_promotion_excluded" }];
+      )) || [];
+      const expired = pricePromotions.length > 0
+        && pricePromotions.every((promotion) => Date.parse(promotion.endTs) <= checkedAt);
+      if (expired && publicPromotion && Number.isFinite(currentPrice) && currentPrice > 0) {
+        return [{ ...publicPromotion, amount: currentPrice, currency: "TWD", source: "yahoo_current_price_expired_promotion_excluded" }];
       }
     } catch (_error) {
       // Invalid third-party state falls back to the public structured price.

@@ -2691,6 +2691,104 @@
         }
       ]
     }
+  },
+  {
+    "id": "washer-panasonic-na-v150sw",
+    "category": "washer",
+    "rank": 27,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Panasonic",
+    "model": "NA-V150SW",
+    "name": "15公斤高效抑菌溫水滾筒洗衣機（冰鑽白）",
+    "price": {
+      "currency": "TWD",
+      "amount": 30510,
+      "converted": 30510,
+      "basis": "retailer_current",
+      "confidence": "2026-09-09 PChome exact-model公開價30,510元；API兩SKU均有庫存，不採會員/信用卡/P幣優惠。"
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "PChome原頁含基本運送、安裝及舊機回收；需既有給水、排水與接地插座，樓層、偏遠及特殊搬運另計。"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DPAIGJA900JLZ3V/000001_1767579118.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPAIGJ-A900JLZ3V",
+    "buyLabel": "PChome",
+    "specs": [
+      "類型：前開滾筒洗脫；無烘衣",
+      "洗衣容量：15 kg",
+      "洗淨：溫水泡洗淨／溫水槽洗淨",
+      "節能：AI ECONAVI智慧節能科技",
+      "設計：靜音降噪／筒槽夜視燈／強化玻璃門",
+      "尺寸：寬 64 x 深 77.8 x 高 103.5 cm",
+      "尺寸補充：不含給、排水管",
+      "電源：110V／60Hz（台灣通路exact-model規格）",
+      "安裝：預留開門、給排水及背側管路空間；搬運前核對門框與轉角"
+    ],
+    "description": "15公斤前開單洗機，補足大容量溫水洗衣的選擇；適合已有獨立乾衣機或以晾曬為主的家庭。",
+    "pros": [
+      "溫水衣物與槽清潔功能",
+      "15公斤容量與台灣原廠保固",
+      "官方明列降噪設計及筒槽照明"
+    ],
+    "cons": [
+      "不具烘衣功能",
+      "機深77.8公分且需另留管路及開門空間",
+      "找不到可核實的正式上市日與同型號史低"
+    ],
+    "bestFor": "需要較大前開洗衣容量、保留獨立烘乾或晾曬流程的家庭。",
+    "recommendation": "容量選擇：相較既有12公斤NA-V120HW，增加15公斤前開溫水單洗選項；不是NA-V150NM直立機的直接後繼，兩種型態分別保留。",
+    "score": 86,
+    "voltage": "110V／60Hz，台灣公司貨；需接地插座",
+    "warranty": "台灣原廠保固；授權品牌館列全機1年、印刷電路板／運轉組3年、洗衣／脫水馬達5年，依原廠保固條款",
+    "tags": [
+      "15公斤",
+      "滾筒單洗",
+      "溫水洗淨",
+      "台灣保固"
+    ],
+    "releaseDate": "找不到",
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-09-09",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"Panasonic\" \"NA-V150SW\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Panasonic%22%20%22NA-V150SW%22"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"Panasonic\" \"NA-V150SW\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22Panasonic%22%20%22NA-V150SW%22"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "site:dcard.tw \"Panasonic\" \"NA-V150SW\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22Panasonic%22%20%22NA-V150SW%22"
+        }
+      ]
+    },
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-09-09",
+      "note": "今日人工查BigGo exact-model比價、LBJ與FindPrice歷史價入口及PChome原頁。BigGo顯示當下29,400起/29,700/29,832等，不具可還原日期低點；部分為券價，LBJ/FindPrice入口受阻，未取得可靠同SKU历史最低。PChome30,510元僅現價，不推定史低。"
+    }
   }
 ]);
 })();

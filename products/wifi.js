@@ -601,9 +601,9 @@
     "name": "BE5000 Wi-Fi 7 Mesh 延伸系統路由器+2衛星",
     "price": {
       "currency": "TWD",
-      "amount": 8900,
-      "converted": 8900,
-      "confidence": "PChome 2026-09-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 8100,
+      "converted": 8100,
+      "confidence": "PChome 2026-09-09 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJAA900JG5AK/000001_1763014538.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJA-A900JG5AK",
@@ -2716,9 +2716,9 @@
     "name": "BE3600 雙頻 Wi-Fi 7 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 3690,
-      "converted": 3690,
-      "confidence": "PChome 2026-09-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 3390,
+      "converted": 3390,
+      "confidence": "PChome 2026-09-09 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJAA900JUQYP/000001_1774520642.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJA-A900JUQYP",
@@ -3281,9 +3281,9 @@
     "name": "BE9300 三頻 Wi-Fi 7 旗艦路由器",
     "price": {
       "currency": "TWD",
-      "amount": 7777,
-      "converted": 7777,
-      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 5990,
+      "converted": 5990,
+      "confidence": "PChome 2026-09-09 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJAA900IFBVA/000001_1780997121.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJA-A900IFBVA",
@@ -3476,9 +3476,9 @@
     "name": "Wi-Fi 6E 三頻電競路由器",
     "price": {
       "currency": "TWD",
-      "amount": 7990,
-      "converted": 7990,
-      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 7590,
+      "converted": 7590,
+      "confidence": "PChome 2026-09-09 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFKSA900HEQVN/000001_1713512948.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFKS-A900HEQVN",
@@ -4822,9 +4822,9 @@
     "name": "BE9700 三頻 Wi-Fi 7 10G 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 6999,
-      "converted": 6999,
-      "confidence": "PChome 2026-08-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 4999,
+      "converted": 4999,
+      "confidence": "PChome 2026-09-09 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFKPA900JM7MV/000001_1782098969.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFKP-A900JM7MV",
@@ -4865,16 +4865,16 @@
     "releaseDate": "2025-05-20",
     "historicalLow": {
       "status": "found",
-      "amount": 5499,
+      "amount": 4999,
       "currency": "TWD",
-      "converted": 5499,
-      "sourceUrl": "https://www.tp-link.com/tw/press/news/22235/",
-      "sourceTitle": "TP-Link 打造 WBC 應援守護神，祭出 Archer BE600、Deco BE65 優惠",
-      "evidenceSnippet": "TP-Link 台灣官方新聞稿明載 Archer BE600 於 2026-03-01 至 2026-03-08 由原價 NT$5,999 限時降至 NT$5,499。",
-      "sourceKind": "official_sale",
-      "confidence": "high",
-      "checkedAt": "2026-08-06",
-      "note": "採 TP-Link 台灣官方 exact-model 限時活動，價格與日期均可公開重現；排除點數、信用卡回饋、會員個人券、二手、福利品、展示與整新品。"
+      "converted": 4999,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DRAFKP-A900JM7MV",
+      "sourceTitle": "PChome 24h 購物：TP-Link Wi-Fi 7 BE9700 三頻 10G 無線網路路由器 wifi分享器(EasyMesh/VPN/Archer BE600)",
+      "evidenceSnippet": "PChome 24h 購物於 2026-09-09 顯示同型號可信新品公開價 NT$4,999，低於既有史低 NT$5,499。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-09-09",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",

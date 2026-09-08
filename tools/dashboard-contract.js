@@ -1,5 +1,5 @@
 const EXPECTED_CATEGORY_COUNT = 37;
-const EXPECTED_PRODUCT_COUNT = 1153;
+const EXPECTED_PRODUCT_COUNT = 1156;
 const MIN_PRODUCTS_PER_CATEGORY = 20;
 const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["tv", 41],
@@ -9,9 +9,9 @@ const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["dehumidifier", 28],
   ["purifier", 29],
   ["aircon", 30],
-  ["robot", 44],
+  ["robot", 45],
   ["vacuum", 32],
-  ["washer", 26],
+  ["washer", 27],
   ["dryer", 24],
   ["washerdryer", 32],
   ["garmentcare", 21],
@@ -25,7 +25,7 @@ const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["coffee", 24],
   ["oven", 25],
   ["waterdispenser", 43],
-  ["dishwasher", 30],
+  ["dishwasher", 31],
   ["waterheater", 45],
   ["bidet", 21],
   ["smartlock", 51],
@@ -45,7 +45,7 @@ const WASHER_DRYER_CAPACITY_PATTERN = /^洗\/乾容量：\d+(?:\.\d+)?kg \/ \d+(
 const DIMENSION_CATEGORY_COUNTS = new Map([
   ["tv", 41],
   ["soundbar", 37],
-  ["washer", 26],
+  ["washer", 27],
   ["dryer", 24],
   ["washerdryer", 32],
   ["garmentcare", 21],
@@ -55,7 +55,7 @@ const DIMENSION_CATEGORY_COUNTS = new Map([
   ["refrigerator", 27],
   ["coffee", 24],
   ["oven", 25],
-  ["dishwasher", 30],
+  ["dishwasher", 31],
   ["bidet", 21],
   ["aircon", 30],
   ["waterheater", 45],

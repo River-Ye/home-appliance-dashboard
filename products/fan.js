@@ -498,9 +498,9 @@
     "name": "14 吋 DC 微電腦定時電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 2995,
-      "converted": 2995,
-      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 2699,
+      "converted": 2699,
+      "confidence": "PChome 2026-09-09 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABLMA900EOQ12/000001_1695005225.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMABLM-A900EOQ12",
@@ -533,16 +533,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 2990,
+      "amount": 2699,
       "currency": "TWD",
-      "converted": 2990,
+      "converted": 2699,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DMABLM-A900EOQ12",
-      "sourceTitle": "PChome 24h：Panasonic F-H14GND-K 14 吋 DC 微電腦定時電風扇",
-      "evidenceSnippet": "PChome 商品頁與商品 API 於 2026-07-17 顯示同型號新品公開價 NT$2,990、Qty 20，並可加入購物車及立即購買。",
+      "sourceTitle": "PChome 24h 購物：Panasonic國際牌14吋DC微電腦定時立扇(負離子/ECO溫控)F-H14GND-K",
+      "evidenceSnippet": "PChome 24h 購物於 2026-09-09 顯示同型號可信新品公開價 NT$2,699，低於既有史低 NT$2,990。",
       "sourceKind": "retailer_page",
-      "confidence": "high",
-      "checkedAt": "2026-07-17",
-      "note": "採用同型號、同尺寸與同規格的可信新品公開價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、拆封品與整新品。"
+      "confidence": "medium",
+      "checkedAt": "2026-09-09",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",

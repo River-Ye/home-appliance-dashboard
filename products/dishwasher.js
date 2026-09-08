@@ -3054,6 +3054,114 @@
         }
       ]
     }
+  },
+  {
+    "id": "dishwasher-haier-w32",
+    "category": "dishwasher",
+    "brand": "Haier",
+    "model": "HDWE16-58GY3TW",
+    "name": "W32 16 人份 AI 變頻獨嵌兩用洗碗機",
+    "rank": 31,
+    "budget": "mid",
+    "channel": "tw",
+    "price": {
+      "currency": "TWD",
+      "amount": 28800,
+      "converted": 28800,
+      "basis": "retailer_current",
+      "confidence": "2026-09-09 momo官方頁連出之exact SKU 14498165原頁促銷價28800；未扣會員券、點數或信用卡回饋。"
+    },
+    "image": "https://www.haierpro.com.tw/wp-content/uploads/haier海爾變頻獨嵌兩用洗碗機-正面.png",
+    "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=14498165",
+    "buyLabel": "momo（不含安裝）",
+    "installation": {
+      "status": "excluded",
+      "note": "momo商品名稱明示不含安裝；官方基本安裝另NT$2000，220V接地插座、進排水、櫥櫃修改與追加材料另需現場評估報價。最低嵌入開孔寬60×深58×高76.8cm；加高腳粒時相應保留上方3mm，確認門前開啟及自動開門排濕空間。"
+    },
+    "specs": [
+      "獨嵌兩用式、16 人份；7 大洗程與 6 項附加功能",
+      "AI 變頻水泵、自動髒污感應；分區／單層洗適合少量餐具",
+      "雙 80°C 微蒸氣洗、自動開門乾燥；晶彩觸控面板",
+      "尺寸：含檯面 寬 59.8 x 深 60 x 高 79.5–80.5 cm；移除檯面 寬 59.8 x 深 57.2 x 高 76.5–77.5 cm",
+      "尺寸補充：高度含 0–1 cm 可調腳",
+      "安裝空間：最低開孔 寬 60 x 深 58 x 高 76.8 cm；機腳升高時開孔高度同步增加，門全開深度 116.2 cm",
+      "重量：查不到",
+      "220V / 60Hz、1720W；進水壓力 0.03–1MPa",
+      "離子軟水系統、不鏽鋼內腔、三層過濾網；定期清洗濾網與噴淋臂，使用洗碗機專用清潔劑、亮光劑與軟化鹽"
+    ],
+    "description": "W32 是海爾台灣現售 16 人份獨嵌兩用洗碗機。去除檯面後機高可降至 76.5cm，增加較低中式廚櫃的安裝選擇，並提供少量餐具分層洗及自動開門乾燥。",
+    "pros": [
+      "去檯面後 76.5–77.5cm 可調高度，適合評估較低廚櫃空間",
+      "16 人份容量、可調碗籃與單層洗兼顧聚餐與少量餐具",
+      "台灣代理明示 220V／60Hz、原廠售後與完整安裝手冊"
+    ],
+    "cons": [
+      "須另備 220V 接地電源、進排水與安裝費，非免安裝桌上機",
+      "官方可核實的尺寸完整，但尚無可信淨重資料，搬運前須向供應商確認",
+      "自動開門需評估檯面防潮與門前淨空；官方授權服務目前限台灣本島"
+    ],
+    "bestFor": "廚櫃偏低、能配置220V供電，且想兼顧大容量與少量分層洗的家庭。",
+    "recommendation": "以低機身嵌入安裝及分層洗補充既有H500的使用場景；W32、H500與另未收錄的H600仍在官網並列，不宣稱W32直接取代或舊款停產。先丈量開孔、門前淨空、排水與電源，再確認完整安裝報價。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-09-09",
+      "note": "已查momo exact新品現價、FindPrice exact-model比價及LBJ exact價格入口。momo今日原頁28800；搜尋索引的26496是舊限時折後價，無可復現日期區間；FindPrice列酷澎28000、KW蝦皮26500、Yahoo/momo28800屬現價且低價原頁條件未核實。LBJ逾時。沒有具明確歷史日期與同安裝範圍的可靠最低紀錄，不以現價或預購文轉述推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-09-09",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"HDWE16-58GY3TW\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22HDWE16-58GY3TW%22",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"HDWE16-58GY3TW\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22HDWE16-58GY3TW%22",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"HDWE16-58GY3TW\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22HDWE16-58GY3TW%22",
+          "targetHost": "dcard.tw"
+        }
+      ],
+      "auditQueries": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"海爾 W32\" 故障 問題",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22%E6%B5%B7%E7%88%BE%20W32%22%20%E6%95%85%E9%9A%9C%20%E5%95%8F%E9%A1%8C",
+          "targetHost": "mobile01.com"
+        }
+      ]
+    },
+    "score": 86,
+    "voltage": "220V / 60Hz、1720W；需合格接地插座及進排水",
+    "warranty": "台灣公司貨，全機保固1年；發票日起算，性能故障含零件及服務工費，依官方條款；授權服務限台灣本島。",
+    "tags": [
+      "16人份",
+      "獨嵌兩用",
+      "低櫃安裝",
+      "分層洗",
+      "自動開門",
+      "220V",
+      "台灣公司貨"
+    ]
   }
 ]);
 })();
