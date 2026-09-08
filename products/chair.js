@@ -971,11 +971,12 @@
       "currency": "TWD",
       "amount": 65900,
       "converted": 65900,
-      "confidence": "PChome 2026-08-18 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-18 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "保留 2026-08-18 最後已驗證售價；2026-09-08 晚間原通路商品 API 無資料，未確認相同深夜黑黑五爪全透網版本的可購現貨。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ1HA900ICP8J/000001_1739333373.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ1H-A900ICP8J",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（現售待確認）",
     "specs": [
       "人體工學",
       "全透網",

@@ -215,8 +215,8 @@
     "name": "BRAVIA 7 65 型 Mini LED 4K Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 53910,
-      "converted": 53910,
+      "amount": 56900,
+      "converted": 56900,
       "confidence": "PChome 2026-09-08 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADFNA900K7VQ8/000001_1784011502.jpg",
@@ -414,9 +414,9 @@
     "name": "BRAVIA 9 II 65 型 RGB LED 4K Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 110533,
-      "converted": 110533,
-      "confidence": "Yahoo購物中心 2026-09-06 exact-model 公開結構化價格"
+      "amount": 108323,
+      "converted": 108323,
+      "confidence": "Yahoo購物中心 2026-09-08 exact-model 公開結構化價格"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/F326F9F0C5-SP-23019953.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E5%90%AB%E6%A8%99%E6%BA%96%E5%AE%89%E8%A3%9D-SONY%E7%B4%A2%E5%B0%BC65%E5%90%8B%E5%90%8BRGB-4K%E9%80%A3%E7%B6%B2%E6%99%BA%E6%85%A7%E9%A1%AF%E7%A4%BA%E5%99%A8Y-65XR90M2-12159450.html",
@@ -813,8 +813,8 @@
     "name": "BRAVIA 8 65 型 XR OLED 4K HDR Google TV 顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 84510,
-      "converted": 84510,
+      "amount": 93900,
+      "converted": 93900,
       "confidence": "PChome 2026-09-08 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD06A900HLBJO/000001_1776334113.jpg",
@@ -2102,11 +2102,13 @@
       "currency": "TWD",
       "amount": 19710,
       "converted": 19710,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "confidence": "PChome 2026-09-08 晚間 exact SKU 公開售價",
+      "basis": "retailer_current",
+      "note": "同型號現售商品頁 NT$19,710；不含另申請退稅、會員或信用卡回饋。"
     },
-    "image": "https://cs-a.ecimg.tw/items/DPADW5A900K1QA7/000001_1782888863.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DPADW5-A900K2DOT",
-    "buyLabel": "PChome",
+    "image": "https://cs-a.ecimg.tw/items/DPADW5A900JHKJS/000001_1763963052.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPADW5-A900JHKJS",
+    "buyLabel": "PChome 24h 購物",
     "specs": [
       "尺寸：不含底座 寬 144.58 x 深 7.5 x 高 83.6 cm；含底座 寬 144.58 x 深 26.57 x 高 88.44 cm",
       "重量：含底座 15.3 kg",
@@ -2129,7 +2131,7 @@
     "recommendation": "補充推薦：65型 QLED Google TV 顯示器 的優勢在台灣通路與售後友善，但仍建議把贈品方案需看是否真的需要納入取捨。",
     "score": 82,
     "voltage": "110V 台灣通路",
-    "warranty": "依台灣通路/品牌保固",
+    "warranty": "台灣通路電視全機三年保固；非家庭使用或海邊／硫磺區／溫泉區等特殊地區一年，依保證書為準",
     "tags": [
       "65吋",
       "QLED",
@@ -2186,6 +2188,10 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "頁面明示含拆箱定位與桌上基本安裝；壁掛工資材料、偏遠區等額外費用依通路條件。"
     }
   },
   {

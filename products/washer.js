@@ -119,9 +119,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/2E9A754FA4-SP-22052141.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 19900,
-      "converted": 19900,
-      "confidence": "Yahoo購物中心 2026-09-07 exact-model 公開結構化價格",
+      "amount": 19104,
+      "converted": 19104,
+      "confidence": "Yahoo購物中心 2026-09-08 exact-model 公開結構化價格",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -224,9 +224,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/7A7EBA14D6-SP-22052251.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 20900,
-      "converted": 20900,
-      "confidence": "Yahoo購物中心 2026-09-07 exact-model 公開結構化價格",
+      "amount": 20064,
+      "converted": 20064,
+      "confidence": "Yahoo購物中心 2026-09-08 exact-model 公開結構化價格",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -534,16 +534,18 @@
     "brand": "Panasonic",
     "model": "NA-V130LB-L",
     "name": "Panasonic NA-V130LB-L",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/280227FE71-SP-10482488.jpg",
+    "image": "https://cs-a.ecimg.tw/items/DPAI1HA900BRSFN/000001_1761009178.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 16443,
-      "converted": 16443,
-      "confidence": "Yahoo購物中心 2026-08-05 exact-model 公開結構化價格"
+      "amount": 16632,
+      "converted": 16632,
+      "confidence": "PChome 2026-09-08 晚間 exact SKU 公開單件 88 折價",
+      "basis": "retailer_current",
+      "note": "2026-09-08 晚間由 PChome exact SKU 即時 API 與商品頁確認公開單件 88 折價；不含另申請退稅、會員/信用卡回饋或點數。"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-13%E5%85%AC%E6%96%A4%E8%AE%8A%E9%A0%BB%E7%9B%B4%E7%AB%8B%E5%BC%8F%E6%B4%97%E8%A1%A3%E6%A9%9F-NA-V130LB-L-%E7%82%AB%E9%8A%80%E7%81%B0-9722518.html",
+    "buyLabel": "PChome 24h 購物",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1H-A900BRSFN",
     "specs": [
       "洗衣機：Panasonic國際牌 13公斤 變頻直立式洗衣機 NA-V130LB-L 炫銀灰",
       "容量：13kg",
@@ -552,7 +554,7 @@
       "變頻：有標示",
       "溫水洗：依商品頁標示",
       "需確認進排水、插座、門向與安裝空間",
-      "Yahoo購物 可信通路低價；排除洗脫烘、福利品、展示機與配件頁"
+      "PChome 可信通路公開單件優惠價；排除洗脫烘、福利品、展示機與配件頁"
     ],
     "description": "涵蓋直立式與滾筒式洗衣機，依容量、變頻、省水、省電、品牌售後與安裝門檻排序。",
     "pros": [
@@ -629,6 +631,10 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "來源明示含基本運送+安裝+回收舊機，特殊施工與偏遠運送依通路附加條件。"
     }
   },
   {
@@ -1785,9 +1791,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/df3ca3dcf3-Gd-10425979.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 5990,
-      "converted": 5990,
-      "confidence": "Yahoo購物中心 2026-09-07 exact-model 公開結構化價格"
+      "amount": 5691,
+      "converted": 5691,
+      "confidence": "Yahoo購物中心 2026-09-08 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",

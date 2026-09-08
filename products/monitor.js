@@ -5140,8 +5140,8 @@
     "name": "27 型 4K 內建校色器專業色彩管理螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 56893,
-      "converted": 56893,
+      "amount": 59888,
+      "converted": 59888,
       "confidence": "momo 2026-09-08 人工核對 exact-model 公開現價與可購狀態；不含會員券、點數、信用卡回饋或加購",
       "basis": "retailer_current"
     },

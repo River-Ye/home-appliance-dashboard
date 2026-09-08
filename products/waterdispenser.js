@@ -221,9 +221,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMAW25A900G453U/000001_1781668075.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 8333,
-      "converted": 8333,
-      "confidence": "Yahoo購物中心 2026-09-03 exact-model 公開結構化價格"
+      "amount": 8590,
+      "converted": 8590,
+      "confidence": "Yahoo購物中心 2026-09-08 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -738,10 +738,10 @@
     "image": "https://cs-a.ecimg.tw/items/DMAC6RA900IUC3J/000001_1761017834.png",
     "price": {
       "currency": "TWD",
-      "amount": 32000,
-      "converted": 32000,
+      "amount": 28999,
+      "converted": 28999,
       "basis": "retailer_current",
-      "confidence": "PChome 2026-09-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-08 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -840,9 +840,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMCI01A900JV0NP/000001_1774843160.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 17800,
-      "converted": 17800,
-      "confidence": "PChome 2026-09-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 16020,
+      "converted": 16020,
+      "confidence": "PChome 2026-09-08 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1348,9 +1348,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMBM2HA900GH7MW/000001_1770018742.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 27800,
-      "converted": 27800,
-      "confidence": "PChome 2026-09-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 25020,
+      "converted": 25020,
+      "confidence": "PChome 2026-09-08 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1553,9 +1553,9 @@
     "name": "櫥下型雙溫 UV 觸控飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 34000,
-      "converted": 34000,
-      "confidence": "PChome 2026-09-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 30600,
+      "converted": 30600,
+      "confidence": "PChome 2026-09-08 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBE1FA900GSOLN/000001_1698896380.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMCI17-A900I6OFW",
@@ -1845,9 +1845,9 @@
     "name": "廚下 RO 雙溫觸控飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 36810,
-      "converted": 36810,
-      "confidence": "PChome 2026-09-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 33129,
+      "converted": 33129,
+      "confidence": "PChome 2026-09-08 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMCI0OA900JT66N/000001_1773306819.png",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMCI0O-A900JI1JA",
@@ -2527,9 +2527,9 @@
     "name": "極熱 廚下五段溫控瞬熱飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 28800,
-      "converted": 28800,
-      "confidence": "PChome 2026-09-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 25920,
+      "converted": 25920,
+      "confidence": "PChome 2026-09-08 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWHTA900JVB6I/000001_1775031754.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAWHT-A900JVB6I",
@@ -3984,9 +3984,9 @@
     "name": "BD-3006BF 冷水煮沸飲水機＋RO-2604 逆滲透系統",
     "price": {
       "currency": "TWD",
-      "amount": 49680,
-      "converted": 49680,
-      "confidence": "PChome 2026-09-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 44712,
+      "converted": 44712,
+      "confidence": "PChome 2026-09-08 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWFHA900F2DDI/000001_1692262957.jpg",
@@ -4189,7 +4189,7 @@
       "耗材：兩道快拆濾芯；台灣製造，需確認專用濾芯費用與更換週期",
       "安裝：需進水、RO 排水、插座、龍頭孔位及下方換芯空間"
     ],
-    "description": "Min'O R2 以兩道快拆濾芯與無儲水桶設計提供常溫 RO 淨水，適合想保留較多櫥下收納空間的人。此筆採可直接購買的黑色 LED 龍頭整機配置。",
+    "description": "Min'O R2 以兩道快拆濾芯與無儲水桶設計提供常溫 RO 淨水，適合想保留較多櫥下收納空間的人。此筆保留黑色 LED 龍頭整機配置的上次報價，目前現售與庫存待確認。",
     "pros": [
       "無儲水桶，省去壓力桶占用的櫥下空間",
       "600G 直出 RO，官方公開機身尺寸與淨重",
@@ -4221,11 +4221,11 @@
       "currency": "TWD",
       "converted": 18800,
       "basis": "retailer_current",
-      "note": "2026-09-07 查核公開售價；富山較低公開價 NT$17,000 僅詢價且庫存待確認，三心同價已售罄；本筆採玉山黑色 LED 龍頭可購買頁。",
-      "confidence": "2026-09-07 查核公開售價；富山較低公開價 NT$17,000 僅詢價且庫存待確認，三心同價已售罄；本筆採玉山黑色 LED 龍頭可購買頁。"
+      "note": "保留 2026-09-07 最後已驗證售價 NT$18,800。2026-09-08 晚間原黑色 LED 龍頭購買頁回應 HTTP 404；同商家產品資料頁仍列該款 NT$18,800 含基本安裝，但線上購買連結失效，現售與庫存待確認。",
+      "confidence": "最後可驗證通路售價：2026-09-07；2026-09-08 晚間現售與庫存待確認"
     },
-    "buyUrl": "https://www.yushanwater.com.tw/products/ws_wsminor2_black",
-    "buyLabel": "玉山淨水",
+    "buyUrl": "https://www.yushan-water.com.tw/product-detail-3831092.html",
+    "buyLabel": "玉山淨水產品資料（現售待確認）",
     "installation": {
       "status": "included_basic",
       "note": "玉山淨水黑色 LED 換芯提醒龍頭款，售價含基本安裝；檯面鑽孔、管線修改及服務地區需另確認。"

@@ -535,9 +535,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/50A8962C97-SP-12443254.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 44010,
-      "converted": 44010,
-      "confidence": "Yahoo購物中心 2026-09-07 exact-model 公開結構化價格"
+      "amount": 43032,
+      "converted": 43032,
+      "confidence": "Yahoo購物中心 2026-09-08 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -743,9 +743,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/1f2a33ce70-Gd-10053955.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 43900,
-      "converted": 43900,
-      "confidence": "Yahoo購物中心 2026-09-07 exact-model 公開結構化價格",
+      "amount": 42583,
+      "converted": 42583,
+      "confidence": "Yahoo購物中心 2026-09-08 exact-model 公開結構化價格",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -1261,16 +1261,18 @@
     "brand": "Panasonic",
     "model": "NA-V120HDH",
     "name": "Panasonic NA-V120HDH",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/BB4EF5E7DD-SP-8787478.jpg",
+    "image": "https://cs-a.ecimg.tw/items/DPAI1HA900AMJJK/000001_1761009175.jpg",
     "price": {
       "currency": "TWD",
       "amount": 21912,
       "converted": 21912,
-      "confidence": "Yahoo購物中心 2026-07-21 頁面公開價"
+      "confidence": "PChome 2026-09-08 晚間 exact SKU 公開單件 88 折價",
+      "basis": "retailer_current",
+      "note": "2026-09-08 晚間由 PChome exact SKU 即時 API 與商品頁確認公開單件 88 折價；不含另申請退稅、會員/信用卡回饋或點數。"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic%E5%9C%8B%E9%9A%9B%E7%89%8C-12KG-%E8%AE%8A%E9%A0%BB%E6%B4%97%E8%84%AB%E7%83%98%E6%BB%BE%E7%AD%92%E6%B4%97%E8%A1%A3%E6%A9%9F-NA-V120HDH-G-9125106.html",
+    "buyLabel": "PChome 24h 購物",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1H-A900AMJJK",
     "specs": [
       "洗烘衣機：Panasonic國際牌 12KG 變頻洗脫烘滾筒洗衣機 NA-V120HDH-G",
       "洗/乾容量：12kg / 8kg",
@@ -1279,7 +1281,7 @@
       "蒸氣/除菌：依商品頁標示",
       "自動投入：依商品頁標示",
       "乾衣容量通常低於洗衣容量；需確認散熱、排水與門向",
-      "Yahoo購物 可信通路低價；排除福利品、展示機、底座與配件頁"
+      "PChome 可信通路公開單件優惠價；排除福利品、展示機、底座與配件頁"
     ],
     "description": "聚焦洗衣與烘乾整合機，依洗/乾容量、熱泵或冷凝方式、洗程時間、空間節省、價格與售後排序。",
     "pros": [
@@ -1356,6 +1358,10 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "來源明示含基本運送+拆箱定位+回收舊機，不擴張為額外水電工程免費。"
     }
   },
   {
@@ -1680,9 +1686,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/41046DB844-SP-12334280.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 36930,
-      "converted": 36930,
-      "confidence": "Yahoo購物中心 2026-09-07 exact-model 公開結構化價格"
+      "amount": 33976,
+      "converted": 33976,
+      "confidence": "Yahoo購物中心 2026-09-08 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
