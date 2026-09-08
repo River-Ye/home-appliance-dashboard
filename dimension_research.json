@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07",
+  "generatedAt": "2026-09-08",
   "sourcePolicy": "本站共 21 類尺寸、13 類重量研究，尺寸涵蓋 電視、Soundbar、冷氣、洗衣機、烘衣機、洗烘衣機(多功能型)、電子衣櫥（衣物護理機）、床包、棉被、枕頭、冰箱、咖啡機、多功能氣炸烤箱／微波爐、洗碗機、熱水器、免治馬桶、網路交換器、螢幕燈、滑鼠、鍵盤、滑鼠墊。優先採 exact-model／相同版本的官方產品頁、官方規格表或官方 PDF，其次為可信新品通路。只採本體／機身／明確組件的尺寸與淨重，排除包裝、外箱尺寸與毛重；來源沒有明示軸序時不自行推定。既有家電與床包、棉被、枕頭維持 cm／kg，滑鼠、鍵盤與滑鼠墊使用 mm／g 並保留來源軸序。滑鼠墊厚度、床包可包覆高度另列；棉被的填充重量與整件淨重分開記錄。冷氣分列室內機與室外機，熱泵複合熱水器分列主機與儲槽。generatedAt 為最新證據批次日期，既有逐筆 checkedAt 與 weightCheckedAt 保留原查核日期，不表示重新查核。",
   "results": [
     {
@@ -9765,6 +9765,23 @@
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
       "weightCheckedAt": "2026-09-07"
+    },
+    {
+      "id": "washerdryer-panasonic-na-lx128el",
+      "dimension": "尺寸：寬 60.4 x 深 72.2 x 高 101.1 cm",
+      "sourceUrl": "https://pmst.panasonic.com.tw/PSMIOUT/DL/DLFiles/3228/0_H_27382.pdf",
+      "sourceTitle": "Panasonic NA-LX128EL/ER 使用說明書 p62",
+      "evidenceSnippet": "官方p62規格表寬604×深722×高1011mm；台灣商品規格明示不含給、排水管。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-09-08",
+      "weight": "重量：80 kg（官方說明書；不採通路81 kg）",
+      "weightSourceUrl": "https://pmst.panasonic.com.tw/PSMIOUT/DL/DLFiles/3228/0_H_27382.pdf",
+      "weightSourceTitle": "Panasonic NA-LX128EL/ER 使用說明書 p62",
+      "weightEvidenceSnippet": "原廠p62產品重量80kg，經PDF影像人工核對；排除通路81kg與外箱88kg。",
+      "weightConfidence": "high",
+      "weightIsOfficialSource": true,
+      "weightCheckedAt": "2026-09-08"
     }
   ]
 }

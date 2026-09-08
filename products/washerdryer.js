@@ -2705,9 +2705,9 @@
     "image": "https://pstw.panasonic.com.tw/shop/Upload/Product/20260514190222S44S2J5E.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 44900,
-      "converted": 44900,
-      "confidence": "PChome 2026-09-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 39512,
+      "converted": 39512,
+      "confidence": "PChome 2026-09-08 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -3197,6 +3197,116 @@
         }
       ]
     }
+  },
+  {
+    "id": "washerdryer-panasonic-na-lx128el",
+    "category": "washerdryer",
+    "brand": "Panasonic",
+    "model": "NA-LX128EL",
+    "name": "12公斤日本製熱泵洗脫烘滾筒洗衣機（左開）",
+    "rank": 32,
+    "budget": "premium",
+    "channel": "tw",
+    "price": {
+      "currency": "TWD",
+      "amount": 63999,
+      "converted": 63999,
+      "basis": "retailer_current",
+      "confidence": "2026-09-08 myfone exact-model 公開網路限定價；原頁 JSON-LD InStock；不扣點數、信用卡或登錄回饋"
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "myfone 頁面含基本安裝及舊機回收；限台灣本島，偏遠、無電梯搬運、改管拉線及超出基本範圍施工另報價；旺季安裝約14–21個工作天以上，以專人約定為準。"
+    },
+    "image": "https://www.myfone.com.tw/website_twmf/uploads_product/website_987/037/450/ECP0098703745041_1_20939860.jpg",
+    "buyUrl": "https://www.myfone.com.tw/mfo/buy/prod/P0000203745173",
+    "buyLabel": "myfone 網路門市",
+    "specs": [
+      "類型：日本製滾筒洗脫烘；NA-LX128EL 左開",
+      "洗/乾容量：12kg / 6kg",
+      "烘乾方式：Heat Pump 熱泵除濕式烘乾",
+      "護衣功能：潑水性恢復、蒸氣消臭除皺；仍依衣物洗標使用",
+      "洗劑投入：三道自動投入；兩種洗劑及柔軟精",
+      "洗淨／槽保養：溫水泡洗淨（最大4.5 kg）、nanoe X 48兆強效槽除菌",
+      "智慧功能：AI ECONAVI、Panasonic IoT TW",
+      "尺寸：寬 60.4 x 深 72.2 x 高 101.1 cm",
+      "重量：80 kg（官方說明書；不採通路81 kg）",
+      "電力：AC 110V／60Hz；總額定消耗1170W；15A專用插座",
+      "水壓／用水：0.03–1MPa；標準用水91L",
+      "安裝：尺寸不含給、排水管；須確認左開門、搬運通道、進排水與機頂濾網取出空間",
+      "保養：乾燥及排水棉絮濾網需依說明書定期清理"
+    ],
+    "description": "以60.4公分寬機身整合12公斤洗衣與6公斤熱泵烘乾，加入潑水性恢復及蒸氣護衣，適合重視機能衣保養與洗劑自動投入的家庭。",
+    "pros": [
+      "12/6公斤熱泵洗烘整合，免在兩台機器間搬衣",
+      "潑水性恢復、蒸氣護衣及三道洗劑自動投入",
+      "110V／60Hz台灣電力與在地一年保固可核對"
+    ],
+    "cons": [
+      "烘乾容量6公斤，滿桶12公斤洗衣需分批烘",
+      "價格較高且機身80公斤，須量搬運通道與安裝空間",
+      "熱泵及自動槽清潔仍需清棉絮濾網、洗劑盒與膠圈"
+    ],
+    "bestFor": "洗衣空間寬度有限，希望有熱泵烘乾、自動投入與機能衣保養功能的家庭。",
+    "recommendation": "日製護衣選擇：補足潑水性恢復與三道自動投入，12/6公斤及售價取捨明確；與現有17公斤台製RPH並列比較。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-09-08",
+      "note": "已跨站查 exact 型號價格及歷史：momo原頁曾列09/04至09/07限時折後NT$65,032，但仍高於本次myfone公開價NT$63,999；LINE購物過往NT$64,459、LBJ/飛比價格缺可重現更低的具日期歷史點。不得把本次現價或信用卡/點數/原廠登錄回饋直接當史低，因此not_found。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-09-08",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"NA-LX128EL\" (問題 OR 故障 OR 心得)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NA-LX128EL%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97%29",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"NA-LX128EL\" 問題 故障",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NA-LX128EL%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"NA-LX128EL\" 問題 故障",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22NA-LX128EL%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"NA-LX128EL\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22NA-LX128EL%22",
+          "targetHost": "reddit.com"
+        }
+      ]
+    },
+    "score": 88,
+    "voltage": "AC 110V／60Hz，1170W；使用15A專用電源插座，依原廠說明接地與安裝。",
+    "warranty": "台灣全機1年；myfone exact-model 原頁明示，其他延長部件保固依原廠保證書。",
+    "tags": [
+      "日本製",
+      "熱泵",
+      "洗12kg／乾6kg",
+      "自動投入",
+      "蒸氣護衣",
+      "潑水性恢復",
+      "左開"
+    ]
   }
 ]);
 })();

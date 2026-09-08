@@ -1354,9 +1354,9 @@
     "name": "滾筒洗地旗艦掃拖機器人",
     "price": {
       "currency": "EUR",
-      "amount": 1299,
-      "converted": 47719,
-      "confidence": "Narwal Flow 2 德國官方黑色標準基站套裝 2026-09-05 人工核對 exact-model 公開現價及可購狀態；非會員券、紅利或加購價；ExchangeRate-API 2026-09-07 匯率換算"
+      "amount": 1129,
+      "converted": 41385,
+      "confidence": "Narwal德國官方商城 2026-09-08 人工核對 exact-model 公開現價與可購狀態；不含會員券、點數、信用卡回饋或加購；海外價格未含國際運費、進口稅，另注意電壓／插頭及台灣保固風險；ExchangeRate-API 2026-09-08 匯率換算"
     },
     "image": "https://de.narwal.com/cdn/shop/files/narwal-flow-2-saugroboter-mit-selbstreinigung-9224922_1200x1200.png?v=1781597108",
     "buyUrl": "https://de.narwal.com/products/narwal-flow-2-saugroboter-mit-selbstreinigung?variant=52366680523028",
@@ -1452,8 +1452,8 @@
     "price": {
       "currency": "USD",
       "amount": 551.69,
-      "converted": 17451,
-      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-09-07 匯率換算"
+      "converted": 17399,
+      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-09-08 匯率換算"
     },
     "image": "https://img.gkbcdn.com/p/2025-04-11/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438-0._w315_.jpg",
     "buyUrl": "https://www.geekbuying.com/item/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438.html",
@@ -1547,9 +1547,9 @@
     "name": "全能滾筒旗艦機皇掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 22980,
-      "converted": 22980,
-      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 21999,
+      "converted": 21999,
+      "confidence": "PChome 2026-09-08 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0JA900JCCJT/000001_1782802020.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0J-A900JCCJT",
@@ -2596,8 +2596,8 @@
     "price": {
       "currency": "USD",
       "amount": 999.99,
-      "converted": 31632,
-      "confidence": "SharkNinja US 2026-07-21 來源價；ExchangeRate-API 2026-09-07 匯率換算"
+      "converted": 31538,
+      "confidence": "SharkNinja US 2026-07-21 來源價；ExchangeRate-API 2026-09-08 匯率換算"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/RV2820ZE_01.jpg",
     "buyUrl": "https://www.sharkninja.com/shark-powerdetect-2-in-1-robot-vacuum-and-mop-with-nevertouch-pro-base/RV2820ZE.html",
@@ -2790,8 +2790,8 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 12652,
-      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-09-07 匯率換算"
+      "converted": 12615,
+      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-09-08 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/tkj772p4357mmh3bwz8kcq/1791272-847__1?auto=webp&format=jpg",
     "buyUrl": "https://www.costco.com/p/-/roborock-qx-revo-robot-vacuum-and-mop-with-multifunctional-dock/4000233271",
@@ -2857,105 +2857,6 @@
               "url": "https://old.reddit.com/r/Roborock/comments/1l61vlx/qx_revo_leaking_onto_lower_tray_after_cycle/"
             }
           ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "robot-costco-eufy-e20",
-    "category": "robot",
-    "rank": 33,
-    "budget": "mid",
-    "channel": "tw",
-    "brand": "eufy",
-    "model": "E20",
-    "name": "三合一掃地機器人",
-    "price": {
-      "currency": "TWD",
-      "amount": 9889,
-      "converted": 9889,
-      "confidence": "Costco 好市多 2026-07-11 頁面查核價"
-    },
-    "image": "https://www.costco.com.tw/medias/sys_master/images/h21/heb/400747429363742.jpg",
-    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Small-Appliances/Vacuums-Floor-Care/Eufy-3-in-1-Robot-Vacuum-E20/p/157135",
-    "buyLabel": "Costco 好市多",
-    "specs": [
-      "三合一掃地機器人",
-      "100-120V / 50-60Hz",
-      "集塵基站",
-      "Costco 稀少分類例外候選",
-      "Costco 評價 4.1 / 14 則"
-    ],
-    "description": "Costco Taiwan 少數可買的掃地機器人候選，補進海外 Costco 與台灣通路比較。",
-    "pros": [
-      "台灣好市多正常新品頁",
-      "價格低於多數旗艦掃拖機"
-    ],
-    "cons": [
-      "評分不如高階旗艦",
-      "功能與避障需和主流旗艦比較"
-    ],
-    "bestFor": "想在好市多買掃地機器人、並可接受中階定位的人",
-    "recommendation": "好市多補充推薦：三合一掃地機器人 評價不錯，補進掃拖機器人分類作為 Costco 候選比較。",
-    "score": 82,
-    "voltage": "100-120V / 50-60Hz",
-    "warranty": "依 Costco 好市多商品頁與品牌 1 年保固標示",
-    "tags": [
-      "Costco",
-      "好市多",
-      "eufy",
-      "集塵",
-      "中階"
-    ],
-    "releaseDate": "2025-02",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ eufy E20: Momo富邦購物 【eufy】E20 三合一掃地機器人-高性能濾網+過濾海綿(吸塵器/掃地機器人) 型號/規格不相符；LBJ eufy E20: Momo富邦購物 (店+)3入濾網 適用 eufy E20 三合一掃地機器人 吸塵器 塵筒濾網 型號/規格不相符；LBJ eufy E20: Momo富邦購物 【eufy】E20 三合一掃地機器人-集塵袋(吸塵器/掃地機器人) 型號/規格不相符。"
-    },
-    "issueResearch": {
-      "status": "no_common_issue",
-      "checkedAt": "2026-08-29",
-      "summary": "截至查核日，查無達門檻的集中負評／災情",
-      "issues": [],
-      "checkedSources": [
-        {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"eufy E20\" (problem OR issue OR defect OR failure)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22eufy%20E20%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-          "targetHost": "reddit.com"
-        },
-        {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"eufy E20\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22eufy%20E20%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "mobile01.com"
-        },
-        {
-          "platform": "PTT",
-          "query": "site:ptt.cc \"eufy E20\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22eufy%20E20%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "ptt.cc"
-        },
-        {
-          "platform": "Dcard",
-          "query": "site:dcard.tw \"eufy E20\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22eufy%20E20%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "dcard.tw"
-        },
-        {
-          "platform": "YouTube",
-          "query": "\"eufy E20\" problem issue defect failure broken 災情 故障 異常",
-          "queryUrl": "https://www.youtube.com/results?search_query=%22eufy%20E20%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
-          "targetHost": "youtube.com"
         }
       ]
     }

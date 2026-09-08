@@ -321,38 +321,39 @@
     "brand": "Coway",
     "model": "P-150N",
     "name": "Coway P-150N",
-    "image": "https://cs-a.ecimg.tw/items/DMCI1NA900HIJUW/000001_1782095197.jpg",
+    "image": "https://cs-a.ecimg.tw/items/DMCI1NA900HIJUW/000001_1785391790.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 9405,
-      "converted": 9405,
-      "confidence": "Yahoo購物中心 2026-09-03 exact-model 公開結構化價格"
+      "amount": 9900,
+      "converted": 9900,
+      "basis": "retailer_current",
+      "confidence": "PChome 24h 2026-09-08 exact P-150N 整機公開現價；Price.P=9900、Price.Low=null、Qty=1，含龍頭與原廠基本安裝"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Coway-%E6%BF%BE%E6%B7%A8%E6%99%BA%E6%8E%A7%E9%A3%B2%E6%B0%B4%E6%A9%9F-%E5%86%B0%E6%BA%AB%E7%9E%AC%E7%86%B1%E6%A1%8C%E4%B8%8A%E5%9E%8B-CHP-7965918.html",
+    "buyLabel": "PChome 24h購物",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMCI1N-A900HIJUW",
     "specs": [
-      "櫥下飲水機：Coway奈米超淨化櫥下型淨水器 5道極致過濾 P-150N(含原廠到府安裝)",
-      "【Coway】奈米超淨化櫥下型淨水器P-150N(含原廠到府安裝)",
-      "櫥下/廚下安裝型",
-      "淨水/RO/冷熱功能依商品頁",
-      "PChome 24h 可信通路低價"
+      "類型：免插電櫥下型奈米過濾淨水器 P-150N，非 RO、無加熱／製冷功能",
+      "組合內容：主機、龍頭及原廠免費基本安裝；軟水淨水器包含於主商品",
+      "過濾系統：3＋2 道過濾，奈米高效濾芯與前／後置複合式、台灣專用軟水濾芯",
+      "用水條件：無儲水槽、無廢水；直流過濾約 1,000 mL/min",
+      "耗材／安裝：依水質及用量更換原廠濾芯；需預留櫥下空間、進水與龍頭孔位"
     ],
-    "description": "聚焦可安裝於廚下或櫥下的淨水、RO、瞬熱/冷熱飲水系統，優先排除桌上型、直立型與全戶式設備。",
+    "description": "免插電的櫥下型奈米過濾淨水器，以3＋2道濾淨提供常溫飲水，沒有RO廢水、儲水槽或加熱／製冷功能。",
     "pros": [
-      "品牌濾材與售後據點較穩定",
-      "涵蓋單純淨水、RO 與加熱/冷熱整合",
-      "特別留意濾心與安裝條件"
+      "免插電、無廢水與儲水槽",
+      "台灣專用軟水濾芯搭配奈米過濾",
+      "含原廠基本安裝與一年保固"
     ],
     "cons": [
-      "需確認櫥下空間與龍頭孔位",
-      "濾心耗材與安裝費可能另計",
-      "部分 RO/加熱機需插座與排水條件"
+      "無加熱或製冷功能，熱飲需另備設備",
+      "需預留櫥下空間、進水與龍頭孔位",
+      "濾芯依水質及用量更換，非標準施工可能加價"
     ],
-    "bestFor": "想把廚房飲水、淨水與加熱功能收進櫥下，並重視耗材取得與售後服務的人。",
+    "bestFor": "想要免插電、無RO廢水的櫥下常溫淨水，並重視原廠安裝與耗材取得的人。",
     "recommendation": "櫥下飲水機第 4 推薦：Coway P-150N 在價格、評價、品牌通路與售後取得性之間表現均衡，適合納入同類比較。",
-    "voltage": "多為 110V 或免插電；需依商品頁確認插座、龍頭孔、進排水與櫥下空間",
-    "warranty": "依 PChome 24h 與品牌/供應商頁面標示；耗材另計",
+    "voltage": "免插電、無馬達加壓；無廢水，不需 RO 排水或加熱電源。",
+    "warranty": "原廠保固一年；需至官方網站登錄，非人為瑕疵／故障提供到府診斷及送修，濾心等耗材另計。",
     "score": 91,
     "budget": "value",
     "tags": [
@@ -361,7 +362,7 @@
       "櫥下",
       "廚下",
       "淨水",
-      "RO"
+      "免插電"
     ],
     "category": "waterdispenser",
     "releaseDate": "找不到",
@@ -415,6 +416,10 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "含原廠免費基本安裝，限台灣本島；偏遠地區、非標準配件、額外施工及耗材另計，外島暫無安裝服務。"
     }
   },
   {
@@ -1936,9 +1941,9 @@
     "name": "廚下觸控型 RO 冷熱飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 49800,
-      "converted": 49800,
-      "confidence": "momo購物 2026-07-11 頁面查核價"
+      "amount": 44820,
+      "converted": 44820,
+      "confidence": "momo 2026-09-08 人工核對 exact-model 公開現價與可購狀態；不含會員券、點數、信用卡回饋或加購"
     },
     "image": "https://cs-a.ecimg.tw/items/DMCI19A900IW2PM/000001_1756711258.png",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=13743602",
@@ -1971,16 +1976,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 46305,
+      "amount": 44820,
       "currency": "TWD",
-      "converted": 46305,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1241295086&cgp=49800",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Honeywell】廚下觸控型RO冷熱飲水機",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Honeywell】廚下觸控型RO冷熱飲水機」最低價為 NT$46,305，最低點日期 2025-11-13。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 44820,
+      "sourceUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=13743602",
+      "sourceTitle": "momo：Honeywell 廚下觸控型RO冷熱飲水機",
+      "evidenceSnippet": "2026-09-08 同型號新品頁可重現單件公開折後價 NT$44,820，低於既有紀錄 NT$46,305。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-09-08",
+      "note": "採同型號可購新品公開單件活動價；排除會員個人化券、點數、信用卡回饋、二手、福利、展示及拆封品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2129,8 +2134,8 @@
     "price": {
       "currency": "USD",
       "amount": 359.99,
-      "converted": 11387,
-      "confidence": "Brondell US 官方 2026-09-05 exact-model 公開特價；ExchangeRate-API 2026-09-07 匯率換算"
+      "converted": 11353,
+      "confidence": "Brondell US 官方 2026-09-05 exact-model 公開特價；ExchangeRate-API 2026-09-08 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/4xjr3phfqx7p9vvxzfhp3jp/100457228-847_chrome_1?auto=webp&format=jpg",
     "buyUrl": "https://www.brondell.com/circle-reverse-osmosis-water-filter-system/",
@@ -2166,14 +2171,14 @@
       "status": "found",
       "amount": 289.99,
       "currency": "USD",
-      "converted": 9173,
+      "converted": 9146,
       "sourceUrl": "https://www.costco.com/CategoryDisplay?catalogId=10701&identifier=water-dispensers-filtration-water-filtration&storeId=10301",
       "sourceTitle": "Costco US：Brondell Circle Reverse Osmosis Water Filtration System",
       "evidenceSnippet": "Costco US exact-model 分類頁於 2026-08-28 顯示 Brondell Circle 折後 US$289.99，原價 US$369.99，優惠 US$80。",
       "sourceKind": "retailer_promo",
       "confidence": "medium",
       "checkedAt": "2026-08-28",
-      "note": "採 Costco US 公開 exact-model 折價作為本次可重現最低觀測價；未含國際運費、進口稅、耗材與台灣安裝／保固風險；依 2026-09-07 USD/TWD 匯率換算。"
+      "note": "採 Costco US 公開 exact-model 折價作為本次可重現最低觀測價；未含國際運費、進口稅、耗材與台灣安裝／保固風險；依 2026-09-08 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "common_issue",

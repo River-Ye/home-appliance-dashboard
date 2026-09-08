@@ -1,16 +1,16 @@
 {
   "summary": {
-    "checkedAt": "2026-09-07T13:44:24.903Z",
-    "total": 1152,
-    "researchedThisRun": 3,
+    "checkedAt": "2026-09-08T00:05:24.372Z",
+    "total": 1153,
+    "researchedThisRun": 2,
     "found": 342,
-    "missing": 810,
+    "missing": 811,
     "byConfidence": {
-      "official": 187,
-      "not_found": 807,
+      "official": 186,
+      "not_found": 808,
       "retailer_explicit": 23,
       "credible_article": 52,
-      "high": 64,
+      "high": 65,
       "medium": 16,
       "unknown": 3
     }
@@ -6875,28 +6875,6 @@
           "outcome": "Re-opened this trusted retailer or price-comparison page for the exact model. It did not contain an admissible explicit launch/release statement; listing and price-history dates were excluded."
         }
       ]
-    },
-    {
-      "id": "robot-costco-eufy-e20",
-      "category": "robot",
-      "brand": "eufy",
-      "model": "E20",
-      "name": "三合一掃地機器人",
-      "previousReleaseDate": "找不到",
-      "releaseDate": "2025-02",
-      "sourceUrl": "https://www.eufy.com/blogs/robovac/robot-vacuum-e20-discontinued",
-      "sourceTitle": "eufy Robot Vacuum 3-in-1 E20 discontinued: what to buy instead",
-      "evidenceSnippet": "eufy's official retrospective states that the exact E20 robot vacuum launched in February 2025.",
-      "confidence": "official",
-      "query": "eufy E20 robot vacuum launched February 2025",
-      "auditQueries": [
-        "\"eufy E20\" release date launch launched available",
-        "\"eufy E20\" 上市 發售 開賣 推出"
-      ],
-      "sourceKind": "official_launch_announcement",
-      "reason": "Official exact-model retrospective explicitly states the launch month.",
-      "checkedAt": "2026-08-28",
-      "auditDisposition": "new_found"
     },
     {
       "id": "robot-xiaomi-vacuum-6-max",
@@ -35411,6 +35389,89 @@
           "url": "https://www.3-heart.com.tw/product-219.html",
           "title": "三心科技｜WS-UVN500",
           "outcome": "原頁確認完整設備與公開售價；未見明確上市／發售日期。"
+        }
+      ]
+    },
+    {
+      "id": "washerdryer-panasonic-na-lx128el",
+      "category": "washerdryer",
+      "brand": "Panasonic",
+      "model": "NA-LX128EL",
+      "name": "12公斤日本製熱泵洗脫烘滾筒洗衣機（左開）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "checkedAt": "2026-09-08",
+      "reviewedAt": "2026-09-07T23:56:48.088134+00:00",
+      "query": "\"NA-LX128EL\" 上市 發售 2025 11",
+      "auditQueries": [
+        "\"NA-LX128EL\" site:panasonic.com \"上市\"",
+        "\"NA-LX128EL\" 上市 2025 11",
+        "\"NA-LX128EL\" \"2025年11月\""
+      ],
+      "reason": "官方202510型錄第19–20頁將NA-LX128EL/ER標為新品並写預計11月上市，只確認計畫；目前未找到實際上市/發售日的明確確認。2025-12-05 Mobile01實測發布日不當上市日；說明書/認證日期亦不採。",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://pstw.panasonic.com.tw/catalog/files/1_consumer/WM/202510_Panasonic_%E6%B4%97%E4%B9%BE%E8%A1%A3%E6%A9%9F%EF%BC%8E%E9%9B%BB%E5%AD%90%E8%A1%A3%E6%AB%A5.pdf",
+          "title": "Panasonic 202510 洗乾衣機與電子衣櫥型錄",
+          "outcome": "預計11月上市，保留為官方計畫但不宣稱已按期上市。"
+        },
+        {
+          "url": "https://www.panasonic.com/tw/consumer/washing-machine/roller/na-lx128el-r.html",
+          "title": "Panasonic NA-LX128EL/ER 台灣官方產品",
+          "outcome": "規格及販售入口，無明示上市日期。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7200932",
+          "title": "Mobile01 NA-LX128EL/ER 實測",
+          "outcome": "2025-12-05為文章日期，不是上市日期；明示為NA-LX128BL/BR進化款。"
+        }
+      ]
+    },
+    {
+      "id": "monitor-msi-mpg-491cqpx-qd-oled",
+      "category": "monitor",
+      "brand": "MSI",
+      "model": "MPG 491CQPX QD-OLED",
+      "name": "49 型 DQHD QD-OLED 240Hz USB-C 98W 曲面螢幕",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2024-12-19",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000001057.000053749.html",
+      "sourceTitle": "MSI日本分公司｜MPG 491CQPX QD-OLED 2024年12月19日販売開始",
+      "evidenceSnippet": "MSI日本分公司新聞稿明示MPG 491CQPX QD-OLED於2024年12月19日在日本開始銷售，並與491CQP比較更新率。",
+      "confidence": "high",
+      "query": "\"MPG 491CQPX QD-OLED\" 上市 發售",
+      "auditQueries": [
+        "\"MPG 491CQPX QD-OLED\" 上市 發售",
+        "\"491CQPX\" \"発売\" site:jp.msi.com",
+        "\"491CQPX\" \"2024年12月19日\""
+      ],
+      "sourceKind": "official_press_release",
+      "reason": "採原廠明示日本發售日；不是台灣上市日或全球首次上市日。日本JAN4526541055140與台灣9S6-3FA84T-019地區料號不同，僅同完整商品型號/49吋DQHD240Hz基本規格；台灣規格/保固/價格獨立依TW來源，未跨用日本區域配件/保固。",
+      "checkedAt": "2026-09-08",
+      "auditDisposition": "confirmed",
+      "market": "Japan",
+      "taiwanReleaseDate": "找不到",
+      "checkedSources": [
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000001057.000053749.html",
+          "title": "MSI日本第一手發售新聞稿",
+          "outcome": "明示2024-12-19日本發售。"
+        },
+        {
+          "url": "https://tw.msi.com/Monitor/MPG-491CQPX-QD-OLED",
+          "title": "MSI台灣產品頁",
+          "outcome": "確認相同完整型號與240Hz/98W，未明示台灣上市日。"
+        },
+        {
+          "url": "https://tw-store.msi.com/collections/gaming-monitor-mpg/products/mpg-491cqpx-qd-oled",
+          "title": "MSI台灣商城",
+          "outcome": "台灣SKU9S6-3FA84T-019，未將商品上架日當上市。"
         }
       ]
     }

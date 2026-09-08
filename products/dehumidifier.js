@@ -2232,9 +2232,9 @@
     "name": "12L 一級能效極致薄型清新淨味除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 7990,
-      "converted": 7990,
-      "confidence": "2026-09-07 人工覆核：Chrome當日頁09/06–09/07滿1件折2000，公開限時折後7990，直接購買/放入購物車均disabled=false；另列09/08 07:00下一檔搶購，不把其未來預告當本日價格。採目前有效公開單件折後，不扣會員券或回饋。"
+      "amount": 7690,
+      "converted": 7690,
+      "confidence": "momo 2026-09-08 人工核對 exact-model 公開現價與可購狀態；不含會員券、點數、信用卡回饋或加購"
     },
     "image": "https://i2.momoshop.com.tw/1781626760/goodsimg/0015/034/893/15034893_R_m.webp",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15034893",

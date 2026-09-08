@@ -1,9 +1,9 @@
 {
   "summary": {
-    "checkedAt": "2026-09-07T00:00:00+08:00",
-    "total": 1152,
+    "checkedAt": "2026-09-08T00:00:00+08:00",
+    "total": 1153,
     "commonIssueProducts": 53,
-    "noCommonIssueProducts": 1099,
+    "noCommonIssueProducts": 1100,
     "pendingManualReview": 0,
     "commonIssues": 54,
     "searchUnavailable": 616,
@@ -26,7 +26,8 @@
       "2026-09-06 本輪僅對新增的 MR-WZ54N、XG27ACSR、U7 Pro XG、Iskur V2 NewGen、Lifestyle Ultra Soundbar 完成逐型號跨站負評覆核；既有商品逐筆查核日期維持原值。U7 Pro XG 有六名作者、兩個原始網站的同症狀回報，Bose不同症狀分開計數未達門檻。",
       "2026-09-06 下午僅新增 AC3681/81 的跨站人工負評覆核：PTT、Mobile01、Dcard 候選有型號後綴未明的系列個案或購前內容，均保留具體排除理由；沒有達到同一 exact 型號問題 6 人／2 站門檻。原 1139 筆研究與逐人證據保留原日期。",
       "2026-09-07 下午僅新增 MPG 271QR QD-OLED X50 與 WDEE123HTW 的逐型號跨站人工負評覆核；既有1147筆研究與53款集中問題保留原始逐筆日期。MSI人體感測／面板保護與Whirlpool噪音／到貨外觀個案均揭露，尚未達同一問題6人且跨2個原始網站門檻。",
-      "2026-09-07 本輪僅新增水空間 WS-RCH601、WS-Min'O-R2、WS-UVN500 三款逐型號跨站人工覆核；WS-RCH601 的門市體驗文章非故障回報，其餘兩款未發現 exact-model 使用者候選，均未達同問題 6 人／2 站門檻。既有 1149 筆研究與逐人證據原樣保留，不宣稱同日重讀。"
+      "2026-09-07 本輪僅新增水空間 WS-RCH601、WS-Min'O-R2、WS-UVN500 三款逐型號跨站人工覆核；WS-RCH601 的門市體驗文章非故障回報，其餘兩款未發現 exact-model 使用者候選，均未達同問題 6 人／2 站門檻。既有 1149 筆研究與逐人證據原樣保留，不宣稱同日重讀。",
+      "2026-09-08 全量維護僅對新增 MPG 491CQPX QD-OLED 與 NA-LX128EL 完成逐型號跨站負評人工覆核；既有商品保留原始逐筆研究日期。MSI 的零星訊號／VRR／OSD問題及 Panasonic 的烘後桶體燙感分開處置，均未達同一問題6人且跨2個原始網站門檻。依eufy官方停產公告移除E20及其現行研究列，既有386筆逐人證據不變。"
     ]
   },
   "results": [
@@ -32726,156 +32727,6 @@
         }
       ],
       "rejectedCandidates": []
-    },
-    {
-      "id": "robot-costco-eufy-e20",
-      "category": "robot",
-      "brand": "eufy",
-      "model": "E20",
-      "name": "三合一掃地機器人",
-      "identity": {
-        "canonicalModel": "E20",
-        "lookupLabel": "eufy E20",
-        "aliases": [
-          "eufy E20"
-        ],
-        "evidenceUrl": "https://www.costco.com.tw/Televisions-Appliances/Small-Appliances/Vacuums-Floor-Care/Eufy-3-in-1-Robot-Vacuum-E20/p/157135"
-      },
-      "workflowStatus": "completed",
-      "manualReview": {
-        "status": "completed",
-        "decision": "no_common_issue",
-        "reviewedAt": "2026-08-29",
-        "checkedPlatforms": [
-          "Reddit",
-          "Mobile01",
-          "PTT",
-          "Dcard",
-          "YouTube"
-        ],
-        "queries": [
-          {
-            "platform": "Reddit",
-            "query": "site:reddit.com \"eufy E20\" (problem OR issue OR defect OR failure)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22eufy%20E20%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-            "targetHost": "reddit.com"
-          },
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"eufy E20\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22eufy%20E20%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com"
-          },
-          {
-            "platform": "PTT",
-            "query": "site:ptt.cc \"eufy E20\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22eufy%20E20%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "ptt.cc"
-          },
-          {
-            "platform": "Dcard",
-            "query": "site:dcard.tw \"eufy E20\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22eufy%20E20%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "dcard.tw"
-          },
-          {
-            "platform": "YouTube",
-            "query": "\"eufy E20\" problem issue defect failure broken 災情 故障 異常",
-            "queryUrl": "https://www.youtube.com/results?search_query=%22eufy%20E20%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
-            "targetHost": "youtube.com"
-          }
-        ],
-        "candidateDisposition": "E20：Yahoo Search 本輪 exact-model discovery 已完成；候選原頁已逐頁人工覆核，未形成同一問題至少 6 人且跨 2 個原始網站的門檻（不代表完全沒有負評）。",
-        "representativeSources": [
-          {
-            "platform": "YouTube",
-            "title": "eufy 3-in-1 E20 故障排除：用於故障和錯誤消息",
-            "url": "https://www.youtube.com/watch?v=417anNCsFSo"
-          }
-        ],
-        "candidateReviews": [
-          {
-            "productId": "robot-costco-eufy-e20",
-            "url": "https://www.youtube.com/watch?v=417anNCsFSo",
-            "title": "eufy 3-in-1 E20 故障排除：用於故障和錯誤消息",
-            "platform": "YouTube",
-            "exactModel": true,
-            "independentAuthors": 0,
-            "sourceExcerpt": "eufy 3-in-1 E20 故障排除：用於故障和錯誤消息",
-            "specificReason": "這是品牌官方錯誤訊息支援教材，原頁零則留言，沒有可計入的第一人稱故障作者。",
-            "reviewedAt": "2026-08-18",
-            "outcome": "excluded"
-          }
-        ],
-        "reviewerNote": "E20：Yahoo Search 本輪 exact-model discovery 已完成；候選原頁已逐頁人工覆核，未形成同一問題至少 6 人且跨 2 個原始網站的門檻（不代表完全沒有負評）。",
-        "attestation": "manual_original_pages_reviewed"
-      },
-      "issueResearch": {
-        "status": "no_common_issue",
-        "checkedAt": "2026-08-29",
-        "summary": "截至查核日，查無達門檻的集中負評／災情",
-        "issues": [],
-        "checkedSources": [
-          {
-            "platform": "Reddit",
-            "query": "site:reddit.com \"eufy E20\" (problem OR issue OR defect OR failure)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22eufy%20E20%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-            "targetHost": "reddit.com"
-          },
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"eufy E20\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22eufy%20E20%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com"
-          },
-          {
-            "platform": "PTT",
-            "query": "site:ptt.cc \"eufy E20\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22eufy%20E20%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "ptt.cc"
-          },
-          {
-            "platform": "Dcard",
-            "query": "site:dcard.tw \"eufy E20\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22eufy%20E20%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "dcard.tw"
-          },
-          {
-            "platform": "YouTube",
-            "query": "\"eufy E20\" problem issue defect failure broken 災情 故障 異常",
-            "queryUrl": "https://www.youtube.com/results?search_query=%22eufy%20E20%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
-            "targetHost": "youtube.com"
-          }
-        ]
-      },
-      "searchChecks": [
-        {
-          "platform": "Yahoo Search",
-          "query": "(\"eufy E20\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
-          "searchUrl": "https://search.yahoo.com/search?p=(%22eufy%20E20%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
-          "result": "no_exact_model_result",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-08-29T00:00:00+08:00"
-        }
-      ],
-      "evidence": [],
-      "rejectedCandidates": [
-        {
-          "productId": "robot-costco-eufy-e20",
-          "url": "https://www.youtube.com/watch?v=417anNCsFSo",
-          "title": "eufy 3-in-1 E20 故障排除：用於故障和錯誤消息",
-          "platform": "YouTube",
-          "exactModel": true,
-          "independentAuthors": 0,
-          "sourceExcerpt": "eufy 3-in-1 E20 故障排除：用於故障和錯誤消息",
-          "specificReason": "這是品牌官方錯誤訊息支援教材，原頁零則留言，沒有可計入的第一人稱故障作者。",
-          "reviewedAt": "2026-08-18",
-          "outcome": "excluded",
-          "reason": "這是品牌官方錯誤訊息支援教材，原頁零則留言，沒有可計入的第一人稱故障作者。"
-        }
-      ]
     },
     {
       "id": "robot-xiaomi-vacuum-6-max",
@@ -201939,6 +201790,1600 @@
       ],
       "evidence": [],
       "rejectedCandidates": []
+    },
+    {
+      "id": "washerdryer-panasonic-na-lx128el",
+      "category": "washerdryer",
+      "brand": "Panasonic",
+      "model": "NA-LX128EL",
+      "name": "12公斤日本製熱泵洗脫烘滾筒洗衣機（左開）",
+      "identity": {
+        "canonicalModel": "NA-LX128EL",
+        "lookupLabel": "Panasonic NA-LX128EL",
+        "aliases": [
+          "Panasonic NA-LX128EL"
+        ],
+        "evidenceUrl": "https://www.myfone.com.tw/mfo/buy/prod/P0000203745173"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-09-08",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT",
+          "Dcard",
+          "Reddit",
+          "PChome 24h購物"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"NA-LX128EL\" (問題 OR 故障 OR 心得)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NA-LX128EL%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97%29"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"NA-LX128EL\" 問題 故障",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NA-LX128EL%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"NA-LX128EL\" 問題 故障",
+            "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22NA-LX128EL%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"NA-LX128EL\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22NA-LX128EL%22"
+          }
+        ],
+        "candidateDisposition": "NA-LX128EL：已人工檢視 Mobile01、PTT、Dcard、Reddit exact-model 查詢及 Mobile01/PChome 原頁。1位 LX128EL 使用者描述烘完桶體燙，未达同一問題6人/2站；其餘為抽獎、選購、正面感想、別型號問題或AI比較。",
+        "representativeSources": [
+          {
+            "platform": "Mobile01",
+            "title": "Panasonic NA-LX128EL/ER 實測及回文抽獎",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7200932"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "NA-LX128EL/ER 回文抽獎，第2頁",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&p=2&t=7200932"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "NA-LX128EL/ER 回文抽獎，第7頁",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&p=7&t=7200932"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "NA-LX128EL/ER 回文抽獎，第8頁",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&p=8&t=7200932"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "NA-LX128EL/ER 回文抽獎，第9頁",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&p=9&t=7200932"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "NA-LX128EL/ER 回文抽獎，第10頁",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&p=10&t=7200932"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "NA-LX128EL/ER 回文抽獎，第12頁",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&p=12&t=7200932"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "NA-LX128EL/ER 回文抽獎，第13頁",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&p=13&t=7200932"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "NA-LX128EL/ER 回文抽獎，第18頁",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&p=18&t=7200932"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "滾筒式洗衣機推薦（內有選手）",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7270839"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "TOSHIBA TWD-127XW4TA 與 NA-V150RPH 使用心得",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7236299"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "LG 洗衣塔／國際日製 NA-LX128E 選購",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7253067"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "米家智慧滾筒洗衣機 Pro 12.5kg 討論，第2頁",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&p=2&t=7295036"
+          },
+          {
+            "platform": "PChome 24h購物",
+            "title": "PChome NA-LX128EL 商品評價",
+            "url": "https://24h.pchome.com.tw/prod/DPAIGJ-A900JQFMO"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7200932",
+            "title": "Panasonic NA-LX128EL/ER 實測及回文抽獎",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-08",
+            "sourceExcerpt": "瓊斯測試左開 NA-LX128EL 的洗烘、潑水性恢復及蒸氣護衣，文末明示回文抽獎。",
+            "independentAuthors": 1,
+            "specificReason": "編輯實測和抽獎活動；未提供六位獨立消費者的同一故障回報。",
+            "platform": "Mobile01",
+            "countMeaning": "本頁實際覆核作者數，非集中負評／災情計入人數",
+            "checkedAt": "2026-09-07T23:56:48.088134+00:00",
+            "reviewedAuthors": [
+              "瓊斯"
+            ]
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&p=2&t=7200932",
+            "title": "NA-LX128EL/ER 回文抽獎，第2頁",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-08",
+            "sourceExcerpt": "homnote、scchiu表達想買；shiji03提到家中十年舊台製機，並期待換新。",
+            "independentAuthors": 3,
+            "specificReason": "想購買及舊機感想，沒有本型號第一人稱故障。",
+            "platform": "Mobile01",
+            "countMeaning": "本頁實際覆核作者數，非集中負評／災情計入人數",
+            "checkedAt": "2026-09-07T23:56:48.088134+00:00",
+            "reviewedAuthors": [
+              "homnote",
+              "scchiu",
+              "shiji03"
+            ]
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&p=7&t=7200932",
+            "title": "NA-LX128EL/ER 回文抽獎，第7頁",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-08",
+            "sourceExcerpt": "creayuk對蒸氣消臭有興趣；nngiz說家中舊機快壞，考慮購買本機。",
+            "independentAuthors": 2,
+            "specificReason": "舊機故障不是 NA-LX128EL，興趣與抽獎回文不計。",
+            "platform": "Mobile01",
+            "countMeaning": "本頁實際覆核作者數，非集中負評／災情計入人數",
+            "checkedAt": "2026-09-07T23:56:48.088134+00:00",
+            "reviewedAuthors": [
+              "creayuk",
+              "nngiz"
+            ]
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&p=8&t=7200932",
+            "title": "NA-LX128EL/ER 回文抽獎，第8頁",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-08",
+            "sourceExcerpt": "Jill Hung稱熱泵烘乾體驗好，小智阿偉稱自動投入實用。",
+            "independentAuthors": 2,
+            "specificReason": "原頁是Jill Hung與小智阿偉的正面功能感想，並未描述NA-LX128EL使用後的異常或故障，不列入同一問題回報。",
+            "platform": "Mobile01",
+            "countMeaning": "本頁實際覆核作者數，非集中負評／災情計入人數",
+            "checkedAt": "2026-09-07T23:56:48.088134+00:00",
+            "reviewedAuthors": [
+              "Jill Hung",
+              "小智阿偉"
+            ]
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&p=9&t=7200932",
+            "title": "NA-LX128EL/ER 回文抽獎，第9頁",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-08",
+            "sourceExcerpt": "Sandy Shiu喜歡日本製、Heat Pump及自動投入；阿辰503稱潑水恢復實用。",
+            "independentAuthors": 2,
+            "specificReason": "原頁是Sandy Shiu和阿辰503對日本製及護衣功能的偏好，沒有NA-LX128EL第一人稱故障，因此不能計入負評人數。",
+            "platform": "Mobile01",
+            "countMeaning": "本頁實際覆核作者數，非集中負評／災情計入人數",
+            "checkedAt": "2026-09-07T23:56:48.088134+00:00",
+            "reviewedAuthors": [
+              "Sandy Shiu",
+              "阿辰503"
+            ]
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&p=10&t=7200932",
+            "title": "NA-LX128EL/ER 回文抽獎，第10頁",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-08",
+            "sourceExcerpt": "雞毛毛談原本高溫烘衣縮水；比基尼要去海邊看持有前二代；dfzxc768猜測按鈕壞可用App。",
+            "independentAuthors": 3,
+            "specificReason": "舊機與前代不可跨型號計數；按鈕損壞為假設，並非已發生。",
+            "platform": "Mobile01",
+            "countMeaning": "本頁實際覆核作者數，非集中負評／災情計入人數",
+            "checkedAt": "2026-09-07T23:56:48.088134+00:00",
+            "reviewedAuthors": [
+              "雞毛毛",
+              "比基尼要去海邊看",
+              "dfzxc768"
+            ]
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&p=12&t=7200932",
+            "title": "NA-LX128EL/ER 回文抽獎，第12頁",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-08",
+            "sourceExcerpt": "kkboxaaa稱已購第二台洗脫烘，本機烘後乾爽柔軟，與上一台韓製機比較。",
+            "independentAuthors": 1,
+            "specificReason": "本機正面使用感想，不是集中負評；其他活動回文不因人數多而計入。",
+            "platform": "Mobile01",
+            "countMeaning": "本頁實際覆核作者數，非集中負評／災情計入人數",
+            "checkedAt": "2026-09-07T23:56:48.088134+00:00",
+            "reviewedAuthors": [
+              "kkboxaaa"
+            ]
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&p=13&t=7200932",
+            "title": "NA-LX128EL/ER 回文抽獎，第13頁",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-08",
+            "sourceExcerpt": "gn01201229說衣服霉味困擾，期待本機蒸氣功能可解決；m9plus偏好熱泵。",
+            "independentAuthors": 2,
+            "specificReason": "霉味是購前背景，並非本機使用後故障；功能喜好不計。",
+            "platform": "Mobile01",
+            "countMeaning": "本頁實際覆核作者數，非集中負評／災情計入人數",
+            "checkedAt": "2026-09-07T23:56:48.088134+00:00",
+            "reviewedAuthors": [
+              "gn01201229",
+              "m9plus"
+            ]
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&p=18&t=7200932",
+            "title": "NA-LX128EL/ER 回文抽獎，第18頁",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-08",
+            "sourceExcerpt": "CTL7721偏好日本製與熱泵；marklien希望有除蟎機；Propecia想購買。",
+            "independentAuthors": 3,
+            "specificReason": "原頁三名作者表達對日本製的好感或購買意願，沒有NA-LX128EL第一人稱故障，不能因回文數量推定集中問題。",
+            "platform": "Mobile01",
+            "countMeaning": "本頁實際覆核作者數，非集中負評／災情計入人數",
+            "checkedAt": "2026-09-07T23:56:48.088134+00:00",
+            "reviewedAuthors": [
+              "CTL7721",
+              "marklien",
+              "Propecia"
+            ]
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7270839",
+            "title": "滾筒式洗衣機推薦（內有選手）",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-08",
+            "sourceExcerpt": "cinnamon coffee 在 #7 確認自購日製 LX128EL；#8 描述烘完開門後桶體很燙。MILD達人的汗臭問題明確屬 NA-V170RPH。",
+            "independentAuthors": 1,
+            "specificReason": "保留 1 位 exact-model 第一人稱燙感觀察；沒有量測、故障診斷、第二站或六人同問題。別型號汗臭回報排除。",
+            "platform": "Mobile01",
+            "countMeaning": "本頁實際覆核作者數，非集中負評／災情計入人數",
+            "checkedAt": "2026-09-07T23:56:48.088134+00:00",
+            "reviewedAuthors": [
+              "cinnamon coffee"
+            ]
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7236299",
+            "title": "TOSHIBA TWD-127XW4TA 與 NA-V150RPH 使用心得",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-08",
+            "sourceExcerpt": "cinnamon coffee指出LX128EL為皮帶傳動；瘋穿的生鏽螺絲經驗屬 TWD-DH120X5G。",
+            "independentAuthors": 2,
+            "specificReason": "型號傳動方式的討論不是故障；生鏽經驗為東芝其他型號，不轉移至LX128EL。",
+            "platform": "Mobile01",
+            "countMeaning": "本頁實際覆核作者數，非集中負評／災情計入人數",
+            "checkedAt": "2026-09-07T23:56:48.088134+00:00",
+            "reviewedAuthors": [
+              "cinnamon coffee",
+              "瘋穿"
+            ]
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7253067",
+            "title": "LG 洗衣塔／國際日製 NA-LX128E 選購",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-08",
+            "sourceExcerpt": "M013799957詢問選購，討論提及LX128EL、LX126EL與其他60公分熱泵機，並比較皮帶/直驅與熱泵位置。",
+            "independentAuthors": 1,
+            "specificReason": "選購與構造比較，沒有可核對的本型號第一人稱故障。",
+            "platform": "Mobile01",
+            "countMeaning": "本頁實際覆核作者數，非集中負評／災情計入人數",
+            "checkedAt": "2026-09-07T23:56:48.088134+00:00",
+            "reviewedAuthors": [
+              "M013799957"
+            ]
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&p=2&t=7295036",
+            "title": "米家智慧滾筒洗衣機 Pro 12.5kg 討論，第2頁",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-08",
+            "sourceExcerpt": "wingman9 #15引用AI列國際牌LX128EL/LX126EL作競品並批評售價；tom7089詢問小米維修。",
+            "independentAuthors": 1,
+            "specificReason": "AI產生的規格比較、售價意見與小米售後問題皆非本型號第一人稱故障。",
+            "platform": "Mobile01",
+            "countMeaning": "本頁實際覆核作者數，非集中負評／災情計入人數",
+            "checkedAt": "2026-09-07T23:56:48.088134+00:00",
+            "reviewedAuthors": [
+              "wingman9"
+            ]
+          },
+          {
+            "url": "https://24h.pchome.com.tw/prod/DPAIGJ-A900JQFMO",
+            "title": "PChome NA-LX128EL 商品評價",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-08",
+            "sourceExcerpt": "exact-model 原頁僅 1 則五星評價，作者周**、2026/03/31，沒有可辨識負面文字。",
+            "independentAuthors": 1,
+            "specificReason": "一則無負面內容的五星評價，不能構成故障或集中問題。",
+            "platform": "PChome 24h購物",
+            "countMeaning": "本頁實際覆核作者數，非集中負評／災情計入人數",
+            "checkedAt": "2026-09-07T23:56:48.088134+00:00",
+            "reviewedAuthors": [
+              "周**"
+            ]
+          }
+        ],
+        "reviewerNote": "NA-LX128EL：以原頁作者及上下文逐候選判讀。未將系列EL/ER、前二代、NA-V170RPH汗臭或TOSHIBA螺絲生鏽跨型號合併。PTT、Dcard、Reddit沒有本次可辨識原始候選。Mobile01僅檢視搜尋命中頁和末頁，不宣稱讀過整站或整串所有回覆。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-09-08",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"NA-LX128EL\" (問題 OR 故障 OR 心得)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NA-LX128EL%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97%29",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"NA-LX128EL\" 問題 故障",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NA-LX128EL%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C",
+            "targetHost": "ptt.cc"
+          },
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"NA-LX128EL\" 問題 故障",
+            "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22NA-LX128EL%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"NA-LX128EL\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22NA-LX128EL%22",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Web Search（人工檢視）",
+          "query": "site:mobile01.com \"NA-LX128EL\" (問題 OR 故障 OR 心得)",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NA-LX128EL%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97%29",
+          "targetHost": "mobile01.com",
+          "result": "candidates_unverified_by_search_only",
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=730&t=7200932",
+            "https://www.mobile01.com/topicdetail.php?f=730&p=2&t=7200932",
+            "https://www.mobile01.com/topicdetail.php?f=730&p=7&t=7200932",
+            "https://www.mobile01.com/topicdetail.php?f=730&p=8&t=7200932",
+            "https://www.mobile01.com/topicdetail.php?f=730&p=9&t=7200932",
+            "https://www.mobile01.com/topicdetail.php?f=730&p=10&t=7200932",
+            "https://www.mobile01.com/topicdetail.php?f=730&p=12&t=7200932",
+            "https://www.mobile01.com/topicdetail.php?f=730&p=13&t=7200932",
+            "https://www.mobile01.com/topicdetail.php?f=730&p=18&t=7200932"
+          ],
+          "inspectedAt": "2026-09-07T23:56:48.088134+00:00",
+          "reviewerNote": "Mobile01原頁命中已分別覆核；PTT/Dcard/Reddit本次無候選。",
+          "candidates": [
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7200932",
+              "title": "Panasonic NA-LX128EL/ER 實測及回文抽獎",
+              "snippet": "瓊斯測試左開 NA-LX128EL 的洗烘、潑水性恢復及蒸氣護衣，文末明示回文抽獎。"
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=730&p=2&t=7200932",
+              "title": "NA-LX128EL/ER 回文抽獎，第2頁",
+              "snippet": "homnote、scchiu表達想買；shiji03提到家中十年舊台製機，並期待換新。"
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=730&p=7&t=7200932",
+              "title": "NA-LX128EL/ER 回文抽獎，第7頁",
+              "snippet": "creayuk對蒸氣消臭有興趣；nngiz說家中舊機快壞，考慮購買本機。"
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=730&p=8&t=7200932",
+              "title": "NA-LX128EL/ER 回文抽獎，第8頁",
+              "snippet": "Jill Hung稱熱泵烘乾體驗好，小智阿偉稱自動投入實用。"
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=730&p=9&t=7200932",
+              "title": "NA-LX128EL/ER 回文抽獎，第9頁",
+              "snippet": "Sandy Shiu喜歡日本製、Heat Pump及自動投入；阿辰503稱潑水恢復實用。"
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=730&p=10&t=7200932",
+              "title": "NA-LX128EL/ER 回文抽獎，第10頁",
+              "snippet": "雞毛毛談原本高溫烘衣縮水；比基尼要去海邊看持有前二代；dfzxc768猜測按鈕壞可用App。"
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=730&p=12&t=7200932",
+              "title": "NA-LX128EL/ER 回文抽獎，第12頁",
+              "snippet": "kkboxaaa稱已購第二台洗脫烘，本機烘後乾爽柔軟，與上一台韓製機比較。"
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=730&p=13&t=7200932",
+              "title": "NA-LX128EL/ER 回文抽獎，第13頁",
+              "snippet": "gn01201229說衣服霉味困擾，期待本機蒸氣功能可解決；m9plus偏好熱泵。"
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=730&p=18&t=7200932",
+              "title": "NA-LX128EL/ER 回文抽獎，第18頁",
+              "snippet": "CTL7721偏好日本製與熱泵；marklien希望有除蟎機；Propecia想購買。"
+            }
+          ],
+          "resultCount": 9
+        },
+        {
+          "platform": "Web Search（人工檢視）",
+          "query": "site:ptt.cc \"NA-LX128EL\" 問題 故障",
+          "searchUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NA-LX128EL%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C",
+          "targetHost": "ptt.cc",
+          "result": "no_exact_model_result",
+          "candidateUrls": [],
+          "inspectedAt": "2026-09-07T23:56:48.088134+00:00",
+          "reviewerNote": "Mobile01原頁命中已分別覆核；PTT/Dcard/Reddit本次無候選。",
+          "candidates": [],
+          "resultCount": 0
+        },
+        {
+          "platform": "Web Search（人工檢視）",
+          "query": "site:dcard.tw \"NA-LX128EL\" 問題 故障",
+          "searchUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22NA-LX128EL%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C",
+          "targetHost": "dcard.tw",
+          "result": "no_exact_model_result",
+          "candidateUrls": [],
+          "inspectedAt": "2026-09-07T23:56:48.088134+00:00",
+          "reviewerNote": "Mobile01原頁命中已分別覆核；PTT/Dcard/Reddit本次無候選。",
+          "candidates": [],
+          "resultCount": 0
+        },
+        {
+          "platform": "Web Search（人工檢視）",
+          "query": "site:reddit.com \"NA-LX128EL\"",
+          "searchUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22NA-LX128EL%22",
+          "targetHost": "reddit.com",
+          "result": "no_exact_model_result",
+          "candidateUrls": [],
+          "inspectedAt": "2026-09-07T23:56:48.088134+00:00",
+          "reviewerNote": "Mobile01原頁命中已分別覆核；PTT/Dcard/Reddit本次無候選。",
+          "candidates": [],
+          "resultCount": 0
+        },
+        {
+          "platform": "Web Search（人工檢視）",
+          "query": "\"NA-LX128EL\" site:24h.pchome.com.tw/prod/",
+          "searchUrl": "https://www.google.com/search?q=%22NA-LX128EL%22%20site%3A24h.pchome.com.tw/prod/",
+          "targetHost": "pchome.com.tw",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://24h.pchome.com.tw/prod/DPAIGJ-A900JQFMO"
+          ],
+          "candidates": [
+            {
+              "url": "https://24h.pchome.com.tw/prod/DPAIGJ-A900JQFMO",
+              "title": "PChome NA-LX128EL 商品評價",
+              "snippet": "exact-model 原頁僅 1 則五星評價，作者周**、2026/03/31，沒有可辨識負面文字。"
+            }
+          ],
+          "inspectedAt": "2026-09-07T23:56:48.088134+00:00",
+          "reviewerNote": "價格查詢發現exact-model可信零售原頁，另人工讀取該頁唯一五星評價。"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7200932",
+          "title": "Panasonic NA-LX128EL/ER 實測及回文抽獎",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-08",
+          "sourceExcerpt": "瓊斯測試左開 NA-LX128EL 的洗烘、潑水性恢復及蒸氣護衣，文末明示回文抽獎。",
+          "independentAuthors": 1,
+          "specificReason": "編輯實測和抽獎活動；未提供六位獨立消費者的同一故障回報。",
+          "platform": "Mobile01",
+          "countMeaning": "本頁實際覆核作者數，非集中負評／災情計入人數",
+          "checkedAt": "2026-09-07T23:56:48.088134+00:00",
+          "reviewedAuthors": [
+            "瓊斯"
+          ],
+          "reason": "編輯實測和抽獎活動；未提供六位獨立消費者的同一故障回報。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&p=2&t=7200932",
+          "title": "NA-LX128EL/ER 回文抽獎，第2頁",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-08",
+          "sourceExcerpt": "homnote、scchiu表達想買；shiji03提到家中十年舊台製機，並期待換新。",
+          "independentAuthors": 3,
+          "specificReason": "想購買及舊機感想，沒有本型號第一人稱故障。",
+          "platform": "Mobile01",
+          "countMeaning": "本頁實際覆核作者數，非集中負評／災情計入人數",
+          "checkedAt": "2026-09-07T23:56:48.088134+00:00",
+          "reviewedAuthors": [
+            "homnote",
+            "scchiu",
+            "shiji03"
+          ],
+          "reason": "想購買及舊機感想，沒有本型號第一人稱故障。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&p=7&t=7200932",
+          "title": "NA-LX128EL/ER 回文抽獎，第7頁",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-08",
+          "sourceExcerpt": "creayuk對蒸氣消臭有興趣；nngiz說家中舊機快壞，考慮購買本機。",
+          "independentAuthors": 2,
+          "specificReason": "舊機故障不是 NA-LX128EL，興趣與抽獎回文不計。",
+          "platform": "Mobile01",
+          "countMeaning": "本頁實際覆核作者數，非集中負評／災情計入人數",
+          "checkedAt": "2026-09-07T23:56:48.088134+00:00",
+          "reviewedAuthors": [
+            "creayuk",
+            "nngiz"
+          ],
+          "reason": "舊機故障不是 NA-LX128EL，興趣與抽獎回文不計。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&p=8&t=7200932",
+          "title": "NA-LX128EL/ER 回文抽獎，第8頁",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-08",
+          "sourceExcerpt": "Jill Hung稱熱泵烘乾體驗好，小智阿偉稱自動投入實用。",
+          "independentAuthors": 2,
+          "specificReason": "原頁是Jill Hung與小智阿偉的正面功能感想，並未描述NA-LX128EL使用後的異常或故障，不列入同一問題回報。",
+          "platform": "Mobile01",
+          "countMeaning": "本頁實際覆核作者數，非集中負評／災情計入人數",
+          "checkedAt": "2026-09-07T23:56:48.088134+00:00",
+          "reviewedAuthors": [
+            "Jill Hung",
+            "小智阿偉"
+          ],
+          "reason": "原頁是Jill Hung與小智阿偉的正面功能感想，並未描述NA-LX128EL使用後的異常或故障，不列入同一問題回報。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&p=9&t=7200932",
+          "title": "NA-LX128EL/ER 回文抽獎，第9頁",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-08",
+          "sourceExcerpt": "Sandy Shiu喜歡日本製、Heat Pump及自動投入；阿辰503稱潑水恢復實用。",
+          "independentAuthors": 2,
+          "specificReason": "原頁是Sandy Shiu和阿辰503對日本製及護衣功能的偏好，沒有NA-LX128EL第一人稱故障，因此不能計入負評人數。",
+          "platform": "Mobile01",
+          "countMeaning": "本頁實際覆核作者數，非集中負評／災情計入人數",
+          "checkedAt": "2026-09-07T23:56:48.088134+00:00",
+          "reviewedAuthors": [
+            "Sandy Shiu",
+            "阿辰503"
+          ],
+          "reason": "原頁是Sandy Shiu和阿辰503對日本製及護衣功能的偏好，沒有NA-LX128EL第一人稱故障，因此不能計入負評人數。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&p=10&t=7200932",
+          "title": "NA-LX128EL/ER 回文抽獎，第10頁",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-08",
+          "sourceExcerpt": "雞毛毛談原本高溫烘衣縮水；比基尼要去海邊看持有前二代；dfzxc768猜測按鈕壞可用App。",
+          "independentAuthors": 3,
+          "specificReason": "舊機與前代不可跨型號計數；按鈕損壞為假設，並非已發生。",
+          "platform": "Mobile01",
+          "countMeaning": "本頁實際覆核作者數，非集中負評／災情計入人數",
+          "checkedAt": "2026-09-07T23:56:48.088134+00:00",
+          "reviewedAuthors": [
+            "雞毛毛",
+            "比基尼要去海邊看",
+            "dfzxc768"
+          ],
+          "reason": "舊機與前代不可跨型號計數；按鈕損壞為假設，並非已發生。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&p=12&t=7200932",
+          "title": "NA-LX128EL/ER 回文抽獎，第12頁",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-08",
+          "sourceExcerpt": "kkboxaaa稱已購第二台洗脫烘，本機烘後乾爽柔軟，與上一台韓製機比較。",
+          "independentAuthors": 1,
+          "specificReason": "本機正面使用感想，不是集中負評；其他活動回文不因人數多而計入。",
+          "platform": "Mobile01",
+          "countMeaning": "本頁實際覆核作者數，非集中負評／災情計入人數",
+          "checkedAt": "2026-09-07T23:56:48.088134+00:00",
+          "reviewedAuthors": [
+            "kkboxaaa"
+          ],
+          "reason": "本機正面使用感想，不是集中負評；其他活動回文不因人數多而計入。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&p=13&t=7200932",
+          "title": "NA-LX128EL/ER 回文抽獎，第13頁",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-08",
+          "sourceExcerpt": "gn01201229說衣服霉味困擾，期待本機蒸氣功能可解決；m9plus偏好熱泵。",
+          "independentAuthors": 2,
+          "specificReason": "霉味是購前背景，並非本機使用後故障；功能喜好不計。",
+          "platform": "Mobile01",
+          "countMeaning": "本頁實際覆核作者數，非集中負評／災情計入人數",
+          "checkedAt": "2026-09-07T23:56:48.088134+00:00",
+          "reviewedAuthors": [
+            "gn01201229",
+            "m9plus"
+          ],
+          "reason": "霉味是購前背景，並非本機使用後故障；功能喜好不計。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&p=18&t=7200932",
+          "title": "NA-LX128EL/ER 回文抽獎，第18頁",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-08",
+          "sourceExcerpt": "CTL7721偏好日本製與熱泵；marklien希望有除蟎機；Propecia想購買。",
+          "independentAuthors": 3,
+          "specificReason": "原頁三名作者表達對日本製的好感或購買意願，沒有NA-LX128EL第一人稱故障，不能因回文數量推定集中問題。",
+          "platform": "Mobile01",
+          "countMeaning": "本頁實際覆核作者數，非集中負評／災情計入人數",
+          "checkedAt": "2026-09-07T23:56:48.088134+00:00",
+          "reviewedAuthors": [
+            "CTL7721",
+            "marklien",
+            "Propecia"
+          ],
+          "reason": "原頁三名作者表達對日本製的好感或購買意願，沒有NA-LX128EL第一人稱故障，不能因回文數量推定集中問題。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7270839",
+          "title": "滾筒式洗衣機推薦（內有選手）",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-08",
+          "sourceExcerpt": "cinnamon coffee 在 #7 確認自購日製 LX128EL；#8 描述烘完開門後桶體很燙。MILD達人的汗臭問題明確屬 NA-V170RPH。",
+          "independentAuthors": 1,
+          "specificReason": "保留 1 位 exact-model 第一人稱燙感觀察；沒有量測、故障診斷、第二站或六人同問題。別型號汗臭回報排除。",
+          "platform": "Mobile01",
+          "countMeaning": "本頁實際覆核作者數，非集中負評／災情計入人數",
+          "checkedAt": "2026-09-07T23:56:48.088134+00:00",
+          "reviewedAuthors": [
+            "cinnamon coffee"
+          ],
+          "reason": "保留 1 位 exact-model 第一人稱燙感觀察；沒有量測、故障診斷、第二站或六人同問題。別型號汗臭回報排除。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7236299",
+          "title": "TOSHIBA TWD-127XW4TA 與 NA-V150RPH 使用心得",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-08",
+          "sourceExcerpt": "cinnamon coffee指出LX128EL為皮帶傳動；瘋穿的生鏽螺絲經驗屬 TWD-DH120X5G。",
+          "independentAuthors": 2,
+          "specificReason": "型號傳動方式的討論不是故障；生鏽經驗為東芝其他型號，不轉移至LX128EL。",
+          "platform": "Mobile01",
+          "countMeaning": "本頁實際覆核作者數，非集中負評／災情計入人數",
+          "checkedAt": "2026-09-07T23:56:48.088134+00:00",
+          "reviewedAuthors": [
+            "cinnamon coffee",
+            "瘋穿"
+          ],
+          "reason": "型號傳動方式的討論不是故障；生鏽經驗為東芝其他型號，不轉移至LX128EL。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7253067",
+          "title": "LG 洗衣塔／國際日製 NA-LX128E 選購",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-08",
+          "sourceExcerpt": "M013799957詢問選購，討論提及LX128EL、LX126EL與其他60公分熱泵機，並比較皮帶/直驅與熱泵位置。",
+          "independentAuthors": 1,
+          "specificReason": "選購與構造比較，沒有可核對的本型號第一人稱故障。",
+          "platform": "Mobile01",
+          "countMeaning": "本頁實際覆核作者數，非集中負評／災情計入人數",
+          "checkedAt": "2026-09-07T23:56:48.088134+00:00",
+          "reviewedAuthors": [
+            "M013799957"
+          ],
+          "reason": "選購與構造比較，沒有可核對的本型號第一人稱故障。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&p=2&t=7295036",
+          "title": "米家智慧滾筒洗衣機 Pro 12.5kg 討論，第2頁",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-08",
+          "sourceExcerpt": "wingman9 #15引用AI列國際牌LX128EL/LX126EL作競品並批評售價；tom7089詢問小米維修。",
+          "independentAuthors": 1,
+          "specificReason": "AI產生的規格比較、售價意見與小米售後問題皆非本型號第一人稱故障。",
+          "platform": "Mobile01",
+          "countMeaning": "本頁實際覆核作者數，非集中負評／災情計入人數",
+          "checkedAt": "2026-09-07T23:56:48.088134+00:00",
+          "reviewedAuthors": [
+            "wingman9"
+          ],
+          "reason": "AI產生的規格比較、售價意見與小米售後問題皆非本型號第一人稱故障。"
+        },
+        {
+          "url": "https://24h.pchome.com.tw/prod/DPAIGJ-A900JQFMO",
+          "title": "PChome NA-LX128EL 商品評價",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-08",
+          "sourceExcerpt": "exact-model 原頁僅 1 則五星評價，作者周**、2026/03/31，沒有可辨識負面文字。",
+          "independentAuthors": 1,
+          "specificReason": "一則無負面內容的五星評價，不能構成故障或集中問題。",
+          "platform": "PChome 24h購物",
+          "countMeaning": "本頁實際覆核作者數，非集中負評／災情計入人數",
+          "checkedAt": "2026-09-07T23:56:48.088134+00:00",
+          "reviewedAuthors": [
+            "周**"
+          ],
+          "reason": "一則無負面內容的五星評價，不能構成故障或集中問題。"
+        }
+      ],
+      "belowThresholdObservations": [
+        {
+          "author": "cinnamon coffee",
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7270839",
+          "locator": "#7 自購確認；#8 / 文章編號93269657",
+          "evidenceExcerpt": "LX128EL烘完打開門，桶子好燙啊！",
+          "exactModelConfirmed": true,
+          "firstPersonConfirmed": true,
+          "distinctUsers": 1,
+          "platforms": 1,
+          "decision": "below_threshold",
+          "reviewedAt": "2026-09-07T23:56:48.088134+00:00",
+          "note": "只報主觀桶體燙感，未有故障診斷；未當common_issue。"
+        }
+      ]
+    },
+    {
+      "id": "monitor-msi-mpg-491cqpx-qd-oled",
+      "category": "monitor",
+      "brand": "MSI",
+      "model": "MPG 491CQPX QD-OLED",
+      "name": "49 型 DQHD QD-OLED 240Hz USB-C 98W 曲面螢幕",
+      "identity": {
+        "canonicalModel": "MPG 491CQPX QD-OLED",
+        "lookupLabel": "MSI MPG 491CQPX QD-OLED",
+        "aliases": [
+          "MSI MPG 491CQPX QD-OLED"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DSABW5-A900JI0US"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-09-08",
+        "checkedPlatforms": [
+          "Reddit",
+          "Mobile01",
+          "PTT",
+          "Level1Techs",
+          "Best Buy",
+          "MSI Forum",
+          "PChome"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"MPG 491CQPX QD-OLED\" \"black\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22MPG%20491CQPX%20QD-OLED%22%20%22black%22",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"MPG 491CQPX QD-OLED\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22MPG%20491CQPX%20QD-OLED%22",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"MPG 491CQPX QD-OLED\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22MPG%20491CQPX%20QD-OLED%22",
+            "targetHost": "ptt.cc"
+          }
+        ],
+        "candidateDisposition": "MPG 491CQPX QD-OLED：各原頁候選均完成型號、作者、情境與後續人工覆核；同帳號重複、不同型號、外接KVM、零售退貨費、選購與遮蔽作者分別排除成立門檻；保留零星回報，不判集中災情。",
+        "representativeSources": [
+          {
+            "platform": "Reddit",
+            "title": "MSI MPG 491CQPX QD-OLED screen blackouts at random moments",
+            "url": "https://www.reddit.com/r/MSI_Gaming/comments/1t01kpu/msi_mpg_491cqpx_qdoled_screen_blackouts_at_random/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "MSI MPG 491CQPX QD-OLED flickers on 5070 Ti",
+            "url": "https://www.reddit.com/r/MSI_Gaming/comments/1stovjd/msi_mpg_491cqpx_qdoled_flickers_on_5070_ti/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Horrible Experience MPG 491CQPX QD-OLED",
+            "url": "https://www.reddit.com/r/MSI_Gaming/comments/1rx76if/horrible_experience_mpg_491cqpx_qdoled/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "About to buy a MSI MPG 341CQPX. Talk me out of it",
+            "url": "https://www.reddit.com/r/OLED_Gaming/comments/1rz77st/about_to_buy_a_msi_mpg_341cqpx_talk_me_out_of_it/"
+          },
+          {
+            "platform": "Level1Techs",
+            "title": "MPG-491CQPX-QD-OLED + HDMI 2.1 KVM -> chronic flickering",
+            "url": "https://forum.level1techs.com/t/mpg-491cqpx-qd-oled-hdmi-2-1-kvm-chronic-flickering/237114"
+          },
+          {
+            "platform": "Level1Techs",
+            "title": "MPG-491CQPX-QD-OLED + HDMI 2.1 KVM -> chronic flickering - Page 2",
+            "url": "https://forum.level1techs.com/t/mpg-491cqpx-qd-oled-hdmi-2-1-kvm-chronic-flickering/237114?page=2"
+          },
+          {
+            "platform": "Level1Techs",
+            "title": "MPG-491CQPX-QD-OLED + HDMI 2.1 KVM -> chronic flickering - Page 4",
+            "url": "https://forum.level1techs.com/t/mpg-491cqpx-qd-oled-hdmi-2-1-kvm-chronic-flickering/237114?page=4"
+          },
+          {
+            "platform": "PTT",
+            "title": "[求助] 49吋 曲面電競螢幕",
+            "url": "https://www.ptt.cc/bbs/LCD/M.1734788320.A.F5B.html"
+          },
+          {
+            "platform": "Best Buy",
+            "title": "Best Buy MPG 491CQPX QD-OLED customer reviews page 1",
+            "url": "https://www.bestbuy.com/site/reviews/msi-mpg-491cqpx-qd-oled-49-dqhd-curved-g-sync-freesync-premium-pro-monitor-240hz-0-03ms-tb-400-type-c-display-hdmi-black/11065992"
+          },
+          {
+            "platform": "Best Buy",
+            "title": "Best Buy MPG 491CQPX QD-OLED customer reviews page 2",
+            "url": "https://www.bestbuy.com/site/reviews/msi-mpg-491cqpx-qd-oled-49-dqhd-curved-g-sync-freesync-premium-pro-monitor-240hz-0-03ms-tb-400-type-c-display-hdmi-black/12157760?page=2&pageSize=20&sku=12157760&sort=BEST_REVIEW&variant=A"
+          },
+          {
+            "platform": "PChome",
+            "title": "PChome MPG 491CQPX QD-OLED 商品評價",
+            "url": "https://24h.pchome.com.tw/prod/DSABPD-A900I39OU"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "url": "https://www.reddit.com/r/MSI_Gaming/comments/1t01kpu/msi_mpg_491cqpx_qdoled_screen_blackouts_at_random/",
+            "title": "MSI MPG 491CQPX QD-OLED screen blackouts at random moments",
+            "platform": "Reddit",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-08",
+            "sourceExcerpt": "waifu_anton自述DP與Thunderbolt訊號偶爾消失；換控制板後桌機穩定，筆電仍曾短暫掉訊號。xMikoe使用多台NVIDIA電腦/HDMI線也遇到黑屏，已送RMA。",
+            "independentAuthors": 2,
+            "specificReason": "只有waifu_anton與xMikoe兩名可辨識作者；後續維修和可能筆電/TB線因素需保留。未達同一問題六名且跨兩原始網站，不能由數則回覆增加人數。",
+            "authorReviews": [
+              {
+                "author": "waifu_anton",
+                "locator": "主帖、1mo ago換控制板回覆及14d ago本人修正",
+                "excerpt": "桌機/筆電均曾黑屏；維修後桌機未再掉訊號，筆電僅2–3次後暫無，根因仍未確定。",
+                "exactModel": true,
+                "firstPerson": true,
+                "crossPostKey": "reddit-waifu-anton-491cqpx",
+                "countedForCommonIssue": false
+              },
+              {
+                "author": "xMikoe",
+                "locator": "1mo ago第一回覆與14d ago RMA更新",
+                "excerpt": "HDMI多線多機仍掉訊號，關閉Adaptive Sync/DSC無解，MSI收件診斷並訂維修料。",
+                "exactModel": true,
+                "firstPerson": true,
+                "countedForCommonIssue": false
+              }
+            ]
+          },
+          {
+            "url": "https://www.reddit.com/r/MSI_Gaming/comments/1stovjd/msi_mpg_491cqpx_qdoled_flickers_on_5070_ti/",
+            "title": "MSI MPG 491CQPX QD-OLED flickers on 5070 Ti",
+            "platform": "Reddit",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-08",
+            "sourceExcerpt": "waifu_anton以5070Ti/DP、240Hz、FW.022在1Password/Godot/Elden Ring場景閃爍；本人回覆關閉螢幕FreeSync後解決。",
+            "independentAuthors": 1,
+            "specificReason": "作者與黑屏帖相同，不再計獨立用戶；這帖是VRR情境的亮度閃爍且已有關閉FreeSync的改善回覆，不能與電源故障或其他型號合併湊六人。",
+            "authorReviews": [
+              {
+                "author": "waifu_anton",
+                "locator": "主文FW.022及Turning off AMD FreeSync本人回覆",
+                "excerpt": "特定桌機應用的閃爍在關閉FreeSync後消失，保留VRR使用條件。",
+                "exactModel": true,
+                "firstPerson": true,
+                "crossPostKey": "reddit-waifu-anton-491cqpx",
+                "countedForCommonIssue": false
+              }
+            ]
+          },
+          {
+            "url": "https://www.reddit.com/r/MSI_Gaming/comments/1rx76if/horrible_experience_mpg_491cqpx_qdoled/",
+            "title": "Horrible Experience MPG 491CQPX QD-OLED",
+            "platform": "Reddit",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-08",
+            "sourceExcerpt": "SundaeNo4552表示12/21購買、2/26無法開機，送修被告知不可修並先獲較低階替代方案。",
+            "independentAuthors": 1,
+            "specificReason": "一名用戶無法開機與RMA爭議，不等於已找到跨站六名同問題；同作者在另一帖更新已獲全額退款，須保留後續而非只留最初未解決敘述。",
+            "authorReviews": [
+              {
+                "author": "SundaeNo4552",
+                "locator": "主文購入/故障日期与本人回覆",
+                "excerpt": "購買未滿三個月無法開機，初步RMA交換方案較低階；另帖更新後來全額退款。",
+                "exactModel": true,
+                "firstPerson": true,
+                "crossPostKey": "reddit-sundaeno4552-491cqpx-power",
+                "countedForCommonIssue": false
+              }
+            ]
+          },
+          {
+            "url": "https://www.reddit.com/r/OLED_Gaming/comments/1rz77st/about_to_buy_a_msi_mpg_341cqpx_talk_me_out_of_it/",
+            "title": "About to buy a MSI MPG 341CQPX. Talk me out of it",
+            "platform": "Reddit",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-08",
+            "sourceExcerpt": "SundaeNo4552回覆明指自己49吋MPG491CQPX，2.5個月故障；經往返溝通後接受全額退款，仍稱故障前體驗好。",
+            "independentAuthors": 1,
+            "specificReason": "主帖是341CQPX但此回覆完整列491CQPX與相同購買/故障日期，人工確認為上一來源同作者同事件後續；只做去重/結案資訊，不增加一名回報。",
+            "authorReviews": [
+              {
+                "author": "SundaeNo4552",
+                "locator": "I had the 49 incher完整型號回覆與I eventually settled for a full refund",
+                "excerpt": "同一部12/21購買、2/26故障的491CQPX，後來MSI同意全額退款。",
+                "exactModel": true,
+                "firstPerson": true,
+                "crossPostKey": "reddit-sundaeno4552-491cqpx-power",
+                "countedForCommonIssue": false
+              }
+            ]
+          },
+          {
+            "url": "https://forum.level1techs.com/t/mpg-491cqpx-qd-oled-hdmi-2-1-kvm-chronic-flickering/237114",
+            "title": "MPG-491CQPX-QD-OLED + HDMI 2.1 KVM -> chronic flickering",
+            "platform": "Level1Techs",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-08",
+            "sourceExcerpt": "kaiserbeto只在外接Level1 HDMI2.1 KVM切換/啟動時閃爍，直連GPU穩定；同串Pudge用321URX、Gabor_Bikki用Alienware。後續換KVM埠與磁環改善。",
+            "independentAuthors": 1,
+            "specificReason": "僅kaiserbeto是exact491CQPX，其他兩人不同型號不能算入。外接KVM/USB干擾鏈路與直連穩定，不能當作螢幕本體黑屏故障的第二站同根因；保留相容性個案，未達六人。",
+            "authorReviews": [
+              {
+                "author": "kaiserbeto",
+                "locator": "post1 System1/Symptoms/Observations；page4 post64",
+                "excerpt": "只經L1 KVM才閃爍，直連無問題；移至KVM3/4埠與加入磁環後明顯改善。",
+                "exactModel": true,
+                "firstPerson": true,
+                "countedForCommonIssue": false
+              }
+            ]
+          },
+          {
+            "url": "https://forum.level1techs.com/t/mpg-491cqpx-qd-oled-hdmi-2-1-kvm-chronic-flickering/237114?page=2",
+            "title": "MPG-491CQPX-QD-OLED + HDMI 2.1 KVM -> chronic flickering - Page 2",
+            "platform": "Level1Techs",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-08",
+            "sourceExcerpt": "第二頁仍由kaiserbeto/Pudge回報，討論USB/HDMI磁環、EDID與外接KVM RMA；Pudge延續其321URX雙螢幕。",
+            "independentAuthors": 1,
+            "specificReason": "同一討論分頁不能當第二原始網站或新作者；Pudge型號在第一頁已確認321URX，故排除其所有續帖於491CQPX人數。"
+          },
+          {
+            "url": "https://forum.level1techs.com/t/mpg-491cqpx-qd-oled-hdmi-2-1-kvm-chronic-flickering/237114?page=4",
+            "title": "MPG-491CQPX-QD-OLED + HDMI 2.1 KVM -> chronic flickering - Page 4",
+            "platform": "Level1Techs",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-08",
+            "sourceExcerpt": "kaiserbeto表示KVM3/4埠加磁環後差異很大，Pudge仍反覆測試；雙方共同USB hub干擾為排查方向。",
+            "independentAuthors": 1,
+            "specificReason": "這是相同作者/相同外接KVM鏈路後續，不能將所有類似訊號症狀算成491CQPX本體硬體故障；没有新增可計入獨立人數。"
+          },
+          {
+            "url": "https://www.ptt.cc/bbs/LCD/M.1734788320.A.F5B.html",
+            "title": "[求助] 49吋 曲面電競螢幕",
+            "platform": "PTT",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-08",
+            "sourceExcerpt": "MJ02在49吋多品牌間選購；rock6210推薦491CQPX的色域/OSD/防烙印，沒有自述故障。",
+            "independentAuthors": 0,
+            "specificReason": "選購問題與正面推薦並非第一人稱故障回報；文中對三星保固的疑慮不能移轉到MSI491CQPX，不能作災情人數。"
+          },
+          {
+            "url": "https://www.bestbuy.com/site/reviews/msi-mpg-491cqpx-qd-oled-49-dqhd-curved-g-sync-freesync-premium-pro-monitor-240hz-0-03ms-tb-400-type-c-display-hdmi-black/11065992",
+            "title": "Best Buy MPG 491CQPX QD-OLED customer reviews page 1",
+            "platform": "Best Buy",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-08",
+            "sourceExcerpt": "Fraamus嫌文字模糊/PBP設定；NathanM偶爾失去240Hz選項、重設恢復；Ellie嫌喚醒慢；Roman嫌面板保護打斷；JustinP希望PBP自動切換設定。",
+            "independentAuthors": 5,
+            "specificReason": "五位描述不同現象，不合併成同一故障；文字一人、240Hz選項一人、喚醒一人、保護提醒一人，PBP操作也未達跨站六人。多SKU入口共享34則評價不重複計數，且頁面明示多數有獎勵/抽獎誘因。"
+          },
+          {
+            "url": "https://www.bestbuy.com/site/reviews/msi-mpg-491cqpx-qd-oled-49-dqhd-curved-g-sync-freesync-premium-pro-monitor-240hz-0-03ms-tb-400-type-c-display-hdmi-black/12157760?page=2&pageSize=20&sku=12157760&sort=BEST_REVIEW&variant=A",
+            "title": "Best Buy MPG 491CQPX QD-OLED customer reviews page 2",
+            "platform": "Best Buy",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-08",
+            "sourceExcerpt": "AylaS收到裂屏；Tammyc說首台不能用但未詳述原因，另有同帳號正面禮物評價；GabeZ嫌模式/PBP文件不清。另無顯示作者的退貨費抱怨。",
+            "independentAuthors": 3,
+            "specificReason": "裂屏為一例到貨損傷，未明根因的首台不工作一例，文件易用性一例；Tammyc重複帳號只算一人。退貨費為零售政策且作者未識別，排除，不把分散問題強併成六人。"
+          },
+          {
+            "url": "https://24h.pchome.com.tw/prod/DSABPD-A900I39OU",
+            "title": "PChome MPG 491CQPX QD-OLED 商品評價",
+            "platform": "PChome",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-08",
+            "sourceExcerpt": "蔡**於2025/03/15評價稱不自動轉輸入源，無訊號時無法開OSD，但肯定螢幕品質；其他可讀評價為寬度/亮度感受与正面物流。",
+            "independentAuthors": 0,
+            "specificReason": "蔡**為遮蔽姓名、無獨立作者頁，不能確定唯一身份；即使作候選，單一OSD/輸入切換使用感受與BestBuy也未達六人同題，其他評價不是故障。"
+          }
+        ],
+        "reviewerNote": "MPG 491CQPX QD-OLED：人工逐頁讀Reddit、Level1Techs原始論壇、PTT、Best Buy兩頁與PChome評價。waifu_anton兩帖和SundaeNo4552跨帖後續分別去重；前者黑屏修後改善，後者獲退款。L1論壇只kaiserbeto為本型號，其他作者321URX/Alienware排除，外接KVM干擾不混入本體故障。BestBuy分頁/多SKU共享評價去重，分開文字、240Hz選項、喚醒、PBP、裂屏與零散不工作；沒有同一問題至少六名獨立作者跨兩原始網站。採no_common_issue但不代表沒有負評，缺貨/會員價/論壇預測不作EOL。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-09-08",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"MPG 491CQPX QD-OLED\" \"black\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22MPG%20491CQPX%20QD-OLED%22%20%22black%22",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"MPG 491CQPX QD-OLED\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22MPG%20491CQPX%20QD-OLED%22",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"MPG 491CQPX QD-OLED\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22MPG%20491CQPX%20QD-OLED%22",
+            "targetHost": "ptt.cc"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"MPG 491CQPX QD-OLED\" \"black\"",
+          "searchUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22MPG%20491CQPX%20QD-OLED%22%20%22black%22",
+          "targetHost": "reddit.com",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 4,
+          "candidateUrls": [
+            "https://www.reddit.com/r/MSI_Gaming/comments/1t01kpu/msi_mpg_491cqpx_qdoled_screen_blackouts_at_random/",
+            "https://www.reddit.com/r/MSI_Gaming/comments/1stovjd/msi_mpg_491cqpx_qdoled_flickers_on_5070_ti/",
+            "https://www.reddit.com/r/MSI_Gaming/comments/1rx76if/horrible_experience_mpg_491cqpx_qdoled/",
+            "https://www.reddit.com/r/OLED_Gaming/comments/1rz77st/about_to_buy_a_msi_mpg_341cqpx_talk_me_out_of_it/"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.reddit.com/r/MSI_Gaming/comments/1t01kpu/msi_mpg_491cqpx_qdoled_screen_blackouts_at_random/",
+              "title": "MSI MPG 491CQPX QD-OLED screen blackouts at random moments",
+              "platform": "Reddit",
+              "outcome": "excluded",
+              "exactModel": true,
+              "reviewedAt": "2026-09-08",
+              "sourceExcerpt": "waifu_anton自述DP與Thunderbolt訊號偶爾消失；換控制板後桌機穩定，筆電仍曾短暫掉訊號。xMikoe使用多台NVIDIA電腦/HDMI線也遇到黑屏，已送RMA。",
+              "independentAuthors": 2,
+              "specificReason": "只有waifu_anton與xMikoe兩名可辨識作者；後續維修和可能筆電/TB線因素需保留。未達同一問題六名且跨兩原始網站，不能由數則回覆增加人數。",
+              "authorReviews": [
+                {
+                  "author": "waifu_anton",
+                  "locator": "主帖、1mo ago換控制板回覆及14d ago本人修正",
+                  "excerpt": "桌機/筆電均曾黑屏；維修後桌機未再掉訊號，筆電僅2–3次後暫無，根因仍未確定。",
+                  "exactModel": true,
+                  "firstPerson": true,
+                  "crossPostKey": "reddit-waifu-anton-491cqpx",
+                  "countedForCommonIssue": false
+                },
+                {
+                  "author": "xMikoe",
+                  "locator": "1mo ago第一回覆與14d ago RMA更新",
+                  "excerpt": "HDMI多線多機仍掉訊號，關閉Adaptive Sync/DSC無解，MSI收件診斷並訂維修料。",
+                  "exactModel": true,
+                  "firstPerson": true,
+                  "countedForCommonIssue": false
+                }
+              ]
+            },
+            {
+              "url": "https://www.reddit.com/r/MSI_Gaming/comments/1stovjd/msi_mpg_491cqpx_qdoled_flickers_on_5070_ti/",
+              "title": "MSI MPG 491CQPX QD-OLED flickers on 5070 Ti",
+              "platform": "Reddit",
+              "outcome": "excluded",
+              "exactModel": true,
+              "reviewedAt": "2026-09-08",
+              "sourceExcerpt": "waifu_anton以5070Ti/DP、240Hz、FW.022在1Password/Godot/Elden Ring場景閃爍；本人回覆關閉螢幕FreeSync後解決。",
+              "independentAuthors": 1,
+              "specificReason": "作者與黑屏帖相同，不再計獨立用戶；這帖是VRR情境的亮度閃爍且已有關閉FreeSync的改善回覆，不能與電源故障或其他型號合併湊六人。",
+              "authorReviews": [
+                {
+                  "author": "waifu_anton",
+                  "locator": "主文FW.022及Turning off AMD FreeSync本人回覆",
+                  "excerpt": "特定桌機應用的閃爍在關閉FreeSync後消失，保留VRR使用條件。",
+                  "exactModel": true,
+                  "firstPerson": true,
+                  "crossPostKey": "reddit-waifu-anton-491cqpx",
+                  "countedForCommonIssue": false
+                }
+              ]
+            },
+            {
+              "url": "https://www.reddit.com/r/MSI_Gaming/comments/1rx76if/horrible_experience_mpg_491cqpx_qdoled/",
+              "title": "Horrible Experience MPG 491CQPX QD-OLED",
+              "platform": "Reddit",
+              "outcome": "excluded",
+              "exactModel": true,
+              "reviewedAt": "2026-09-08",
+              "sourceExcerpt": "SundaeNo4552表示12/21購買、2/26無法開機，送修被告知不可修並先獲較低階替代方案。",
+              "independentAuthors": 1,
+              "specificReason": "一名用戶無法開機與RMA爭議，不等於已找到跨站六名同問題；同作者在另一帖更新已獲全額退款，須保留後續而非只留最初未解決敘述。",
+              "authorReviews": [
+                {
+                  "author": "SundaeNo4552",
+                  "locator": "主文購入/故障日期与本人回覆",
+                  "excerpt": "購買未滿三個月無法開機，初步RMA交換方案較低階；另帖更新後來全額退款。",
+                  "exactModel": true,
+                  "firstPerson": true,
+                  "crossPostKey": "reddit-sundaeno4552-491cqpx-power",
+                  "countedForCommonIssue": false
+                }
+              ]
+            },
+            {
+              "url": "https://www.reddit.com/r/OLED_Gaming/comments/1rz77st/about_to_buy_a_msi_mpg_341cqpx_talk_me_out_of_it/",
+              "title": "About to buy a MSI MPG 341CQPX. Talk me out of it",
+              "platform": "Reddit",
+              "outcome": "excluded",
+              "exactModel": true,
+              "reviewedAt": "2026-09-08",
+              "sourceExcerpt": "SundaeNo4552回覆明指自己49吋MPG491CQPX，2.5個月故障；經往返溝通後接受全額退款，仍稱故障前體驗好。",
+              "independentAuthors": 1,
+              "specificReason": "主帖是341CQPX但此回覆完整列491CQPX與相同購買/故障日期，人工確認為上一來源同作者同事件後續；只做去重/結案資訊，不增加一名回報。",
+              "authorReviews": [
+                {
+                  "author": "SundaeNo4552",
+                  "locator": "I had the 49 incher完整型號回覆與I eventually settled for a full refund",
+                  "excerpt": "同一部12/21購買、2/26故障的491CQPX，後來MSI同意全額退款。",
+                  "exactModel": true,
+                  "firstPerson": true,
+                  "crossPostKey": "reddit-sundaeno4552-491cqpx-power",
+                  "countedForCommonIssue": false
+                }
+              ]
+            }
+          ],
+          "inspectedAt": "2026-09-08T00:02:01.176156Z",
+          "reviewOutcome": "人工原頁逐項排除成立門檻"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"MPG 491CQPX QD-OLED\"",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22MPG%20491CQPX%20QD-OLED%22",
+          "targetHost": "mobile01.com",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-09-08T00:02:01.176156Z",
+          "reviewOutcome": "人工定站完整型號搜尋無可計原頁；MSI論壇結果多為491CQP/其他型號或官方更新公告，不跨型號計數。"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"MPG 491CQPX QD-OLED\"",
+          "searchUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22MPG%20491CQPX%20QD-OLED%22",
+          "targetHost": "ptt.cc",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.ptt.cc/bbs/LCD/M.1734788320.A.F5B.html"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.ptt.cc/bbs/LCD/M.1734788320.A.F5B.html",
+              "title": "[求助] 49吋 曲面電競螢幕",
+              "platform": "PTT",
+              "outcome": "excluded",
+              "exactModel": true,
+              "reviewedAt": "2026-09-08",
+              "sourceExcerpt": "MJ02在49吋多品牌間選購；rock6210推薦491CQPX的色域/OSD/防烙印，沒有自述故障。",
+              "independentAuthors": 0,
+              "specificReason": "選購問題與正面推薦並非第一人稱故障回報；文中對三星保固的疑慮不能移轉到MSI491CQPX，不能作災情人數。"
+            }
+          ],
+          "inspectedAt": "2026-09-08T00:02:01.176156Z",
+          "reviewOutcome": "人工原頁逐項排除成立門檻"
+        },
+        {
+          "platform": "Level1Techs",
+          "query": "site:forum.level1techs.com \"MPG 491CQPX QD-OLED\"",
+          "searchUrl": "https://www.google.com/search?q=site%3Aforum.level1techs.com%20%22MPG%20491CQPX%20QD-OLED%22",
+          "targetHost": "forum.level1techs.com",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 3,
+          "candidateUrls": [
+            "https://forum.level1techs.com/t/mpg-491cqpx-qd-oled-hdmi-2-1-kvm-chronic-flickering/237114",
+            "https://forum.level1techs.com/t/mpg-491cqpx-qd-oled-hdmi-2-1-kvm-chronic-flickering/237114?page=2",
+            "https://forum.level1techs.com/t/mpg-491cqpx-qd-oled-hdmi-2-1-kvm-chronic-flickering/237114?page=4"
+          ],
+          "candidates": [
+            {
+              "url": "https://forum.level1techs.com/t/mpg-491cqpx-qd-oled-hdmi-2-1-kvm-chronic-flickering/237114",
+              "title": "MPG-491CQPX-QD-OLED + HDMI 2.1 KVM -> chronic flickering",
+              "platform": "Level1Techs",
+              "outcome": "excluded",
+              "exactModel": true,
+              "reviewedAt": "2026-09-08",
+              "sourceExcerpt": "kaiserbeto只在外接Level1 HDMI2.1 KVM切換/啟動時閃爍，直連GPU穩定；同串Pudge用321URX、Gabor_Bikki用Alienware。後續換KVM埠與磁環改善。",
+              "independentAuthors": 1,
+              "specificReason": "僅kaiserbeto是exact491CQPX，其他兩人不同型號不能算入。外接KVM/USB干擾鏈路與直連穩定，不能當作螢幕本體黑屏故障的第二站同根因；保留相容性個案，未達六人。",
+              "authorReviews": [
+                {
+                  "author": "kaiserbeto",
+                  "locator": "post1 System1/Symptoms/Observations；page4 post64",
+                  "excerpt": "只經L1 KVM才閃爍，直連無問題；移至KVM3/4埠與加入磁環後明顯改善。",
+                  "exactModel": true,
+                  "firstPerson": true,
+                  "countedForCommonIssue": false
+                }
+              ]
+            },
+            {
+              "url": "https://forum.level1techs.com/t/mpg-491cqpx-qd-oled-hdmi-2-1-kvm-chronic-flickering/237114?page=2",
+              "title": "MPG-491CQPX-QD-OLED + HDMI 2.1 KVM -> chronic flickering - Page 2",
+              "platform": "Level1Techs",
+              "outcome": "excluded",
+              "exactModel": true,
+              "reviewedAt": "2026-09-08",
+              "sourceExcerpt": "第二頁仍由kaiserbeto/Pudge回報，討論USB/HDMI磁環、EDID與外接KVM RMA；Pudge延續其321URX雙螢幕。",
+              "independentAuthors": 1,
+              "specificReason": "同一討論分頁不能當第二原始網站或新作者；Pudge型號在第一頁已確認321URX，故排除其所有續帖於491CQPX人數。"
+            },
+            {
+              "url": "https://forum.level1techs.com/t/mpg-491cqpx-qd-oled-hdmi-2-1-kvm-chronic-flickering/237114?page=4",
+              "title": "MPG-491CQPX-QD-OLED + HDMI 2.1 KVM -> chronic flickering - Page 4",
+              "platform": "Level1Techs",
+              "outcome": "excluded",
+              "exactModel": true,
+              "reviewedAt": "2026-09-08",
+              "sourceExcerpt": "kaiserbeto表示KVM3/4埠加磁環後差異很大，Pudge仍反覆測試；雙方共同USB hub干擾為排查方向。",
+              "independentAuthors": 1,
+              "specificReason": "這是相同作者/相同外接KVM鏈路後續，不能將所有類似訊號症狀算成491CQPX本體硬體故障；没有新增可計入獨立人數。"
+            }
+          ],
+          "inspectedAt": "2026-09-08T00:02:01.176156Z",
+          "reviewOutcome": "人工原頁逐項排除成立門檻"
+        },
+        {
+          "platform": "Best Buy",
+          "query": "site:bestbuy.com \"MPG 491CQPX QD-OLED\" review",
+          "searchUrl": "https://www.google.com/search?q=site%3Abestbuy.com%20%22MPG%20491CQPX%20QD-OLED%22%20review",
+          "targetHost": "bestbuy.com",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 2,
+          "candidateUrls": [
+            "https://www.bestbuy.com/site/reviews/msi-mpg-491cqpx-qd-oled-49-dqhd-curved-g-sync-freesync-premium-pro-monitor-240hz-0-03ms-tb-400-type-c-display-hdmi-black/11065992",
+            "https://www.bestbuy.com/site/reviews/msi-mpg-491cqpx-qd-oled-49-dqhd-curved-g-sync-freesync-premium-pro-monitor-240hz-0-03ms-tb-400-type-c-display-hdmi-black/12157760?page=2&pageSize=20&sku=12157760&sort=BEST_REVIEW&variant=A"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.bestbuy.com/site/reviews/msi-mpg-491cqpx-qd-oled-49-dqhd-curved-g-sync-freesync-premium-pro-monitor-240hz-0-03ms-tb-400-type-c-display-hdmi-black/11065992",
+              "title": "Best Buy MPG 491CQPX QD-OLED customer reviews page 1",
+              "platform": "Best Buy",
+              "outcome": "excluded",
+              "exactModel": true,
+              "reviewedAt": "2026-09-08",
+              "sourceExcerpt": "Fraamus嫌文字模糊/PBP設定；NathanM偶爾失去240Hz選項、重設恢復；Ellie嫌喚醒慢；Roman嫌面板保護打斷；JustinP希望PBP自動切換設定。",
+              "independentAuthors": 5,
+              "specificReason": "五位描述不同現象，不合併成同一故障；文字一人、240Hz選項一人、喚醒一人、保護提醒一人，PBP操作也未達跨站六人。多SKU入口共享34則評價不重複計數，且頁面明示多數有獎勵/抽獎誘因。"
+            },
+            {
+              "url": "https://www.bestbuy.com/site/reviews/msi-mpg-491cqpx-qd-oled-49-dqhd-curved-g-sync-freesync-premium-pro-monitor-240hz-0-03ms-tb-400-type-c-display-hdmi-black/12157760?page=2&pageSize=20&sku=12157760&sort=BEST_REVIEW&variant=A",
+              "title": "Best Buy MPG 491CQPX QD-OLED customer reviews page 2",
+              "platform": "Best Buy",
+              "outcome": "excluded",
+              "exactModel": true,
+              "reviewedAt": "2026-09-08",
+              "sourceExcerpt": "AylaS收到裂屏；Tammyc說首台不能用但未詳述原因，另有同帳號正面禮物評價；GabeZ嫌模式/PBP文件不清。另無顯示作者的退貨費抱怨。",
+              "independentAuthors": 3,
+              "specificReason": "裂屏為一例到貨損傷，未明根因的首台不工作一例，文件易用性一例；Tammyc重複帳號只算一人。退貨費為零售政策且作者未識別，排除，不把分散問題強併成六人。"
+            }
+          ],
+          "inspectedAt": "2026-09-08T00:02:01.176156Z",
+          "reviewOutcome": "人工原頁逐項排除成立門檻"
+        },
+        {
+          "platform": "MSI Forum",
+          "query": "site:forum-en.msi.com \"MPG 491CQPX QD-OLED\"",
+          "searchUrl": "https://www.google.com/search?q=site%3Aforum-en.msi.com%20%22MPG%20491CQPX%20QD-OLED%22",
+          "targetHost": "forum-en.msi.com",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-09-08T00:02:01.176156Z",
+          "reviewOutcome": "人工定站完整型號搜尋無可計原頁；MSI論壇結果多為491CQP/其他型號或官方更新公告，不跨型號計數。"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "url": "https://www.reddit.com/r/MSI_Gaming/comments/1t01kpu/msi_mpg_491cqpx_qdoled_screen_blackouts_at_random/",
+          "title": "MSI MPG 491CQPX QD-OLED screen blackouts at random moments",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-08",
+          "sourceExcerpt": "waifu_anton自述DP與Thunderbolt訊號偶爾消失；換控制板後桌機穩定，筆電仍曾短暫掉訊號。xMikoe使用多台NVIDIA電腦/HDMI線也遇到黑屏，已送RMA。",
+          "independentAuthors": 2,
+          "specificReason": "只有waifu_anton與xMikoe兩名可辨識作者；後續維修和可能筆電/TB線因素需保留。未達同一問題六名且跨兩原始網站，不能由數則回覆增加人數。",
+          "authorReviews": [
+            {
+              "author": "waifu_anton",
+              "locator": "主帖、1mo ago換控制板回覆及14d ago本人修正",
+              "excerpt": "桌機/筆電均曾黑屏；維修後桌機未再掉訊號，筆電僅2–3次後暫無，根因仍未確定。",
+              "exactModel": true,
+              "firstPerson": true,
+              "crossPostKey": "reddit-waifu-anton-491cqpx",
+              "countedForCommonIssue": false
+            },
+            {
+              "author": "xMikoe",
+              "locator": "1mo ago第一回覆與14d ago RMA更新",
+              "excerpt": "HDMI多線多機仍掉訊號，關閉Adaptive Sync/DSC無解，MSI收件診斷並訂維修料。",
+              "exactModel": true,
+              "firstPerson": true,
+              "countedForCommonIssue": false
+            }
+          ],
+          "reason": "只有waifu_anton與xMikoe兩名可辨識作者；後續維修和可能筆電/TB線因素需保留。未達同一問題六名且跨兩原始網站，不能由數則回覆增加人數。"
+        },
+        {
+          "url": "https://www.reddit.com/r/MSI_Gaming/comments/1stovjd/msi_mpg_491cqpx_qdoled_flickers_on_5070_ti/",
+          "title": "MSI MPG 491CQPX QD-OLED flickers on 5070 Ti",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-08",
+          "sourceExcerpt": "waifu_anton以5070Ti/DP、240Hz、FW.022在1Password/Godot/Elden Ring場景閃爍；本人回覆關閉螢幕FreeSync後解決。",
+          "independentAuthors": 1,
+          "specificReason": "作者與黑屏帖相同，不再計獨立用戶；這帖是VRR情境的亮度閃爍且已有關閉FreeSync的改善回覆，不能與電源故障或其他型號合併湊六人。",
+          "authorReviews": [
+            {
+              "author": "waifu_anton",
+              "locator": "主文FW.022及Turning off AMD FreeSync本人回覆",
+              "excerpt": "特定桌機應用的閃爍在關閉FreeSync後消失，保留VRR使用條件。",
+              "exactModel": true,
+              "firstPerson": true,
+              "crossPostKey": "reddit-waifu-anton-491cqpx",
+              "countedForCommonIssue": false
+            }
+          ],
+          "reason": "作者與黑屏帖相同，不再計獨立用戶；這帖是VRR情境的亮度閃爍且已有關閉FreeSync的改善回覆，不能與電源故障或其他型號合併湊六人。"
+        },
+        {
+          "url": "https://www.reddit.com/r/MSI_Gaming/comments/1rx76if/horrible_experience_mpg_491cqpx_qdoled/",
+          "title": "Horrible Experience MPG 491CQPX QD-OLED",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-08",
+          "sourceExcerpt": "SundaeNo4552表示12/21購買、2/26無法開機，送修被告知不可修並先獲較低階替代方案。",
+          "independentAuthors": 1,
+          "specificReason": "一名用戶無法開機與RMA爭議，不等於已找到跨站六名同問題；同作者在另一帖更新已獲全額退款，須保留後續而非只留最初未解決敘述。",
+          "authorReviews": [
+            {
+              "author": "SundaeNo4552",
+              "locator": "主文購入/故障日期与本人回覆",
+              "excerpt": "購買未滿三個月無法開機，初步RMA交換方案較低階；另帖更新後來全額退款。",
+              "exactModel": true,
+              "firstPerson": true,
+              "crossPostKey": "reddit-sundaeno4552-491cqpx-power",
+              "countedForCommonIssue": false
+            }
+          ],
+          "reason": "一名用戶無法開機與RMA爭議，不等於已找到跨站六名同問題；同作者在另一帖更新已獲全額退款，須保留後續而非只留最初未解決敘述。"
+        },
+        {
+          "url": "https://www.reddit.com/r/OLED_Gaming/comments/1rz77st/about_to_buy_a_msi_mpg_341cqpx_talk_me_out_of_it/",
+          "title": "About to buy a MSI MPG 341CQPX. Talk me out of it",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-08",
+          "sourceExcerpt": "SundaeNo4552回覆明指自己49吋MPG491CQPX，2.5個月故障；經往返溝通後接受全額退款，仍稱故障前體驗好。",
+          "independentAuthors": 1,
+          "specificReason": "主帖是341CQPX但此回覆完整列491CQPX與相同購買/故障日期，人工確認為上一來源同作者同事件後續；只做去重/結案資訊，不增加一名回報。",
+          "authorReviews": [
+            {
+              "author": "SundaeNo4552",
+              "locator": "I had the 49 incher完整型號回覆與I eventually settled for a full refund",
+              "excerpt": "同一部12/21購買、2/26故障的491CQPX，後來MSI同意全額退款。",
+              "exactModel": true,
+              "firstPerson": true,
+              "crossPostKey": "reddit-sundaeno4552-491cqpx-power",
+              "countedForCommonIssue": false
+            }
+          ],
+          "reason": "主帖是341CQPX但此回覆完整列491CQPX與相同購買/故障日期，人工確認為上一來源同作者同事件後續；只做去重/結案資訊，不增加一名回報。"
+        },
+        {
+          "url": "https://forum.level1techs.com/t/mpg-491cqpx-qd-oled-hdmi-2-1-kvm-chronic-flickering/237114",
+          "title": "MPG-491CQPX-QD-OLED + HDMI 2.1 KVM -> chronic flickering",
+          "platform": "Level1Techs",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-08",
+          "sourceExcerpt": "kaiserbeto只在外接Level1 HDMI2.1 KVM切換/啟動時閃爍，直連GPU穩定；同串Pudge用321URX、Gabor_Bikki用Alienware。後續換KVM埠與磁環改善。",
+          "independentAuthors": 1,
+          "specificReason": "僅kaiserbeto是exact491CQPX，其他兩人不同型號不能算入。外接KVM/USB干擾鏈路與直連穩定，不能當作螢幕本體黑屏故障的第二站同根因；保留相容性個案，未達六人。",
+          "authorReviews": [
+            {
+              "author": "kaiserbeto",
+              "locator": "post1 System1/Symptoms/Observations；page4 post64",
+              "excerpt": "只經L1 KVM才閃爍，直連無問題；移至KVM3/4埠與加入磁環後明顯改善。",
+              "exactModel": true,
+              "firstPerson": true,
+              "countedForCommonIssue": false
+            }
+          ],
+          "reason": "僅kaiserbeto是exact491CQPX，其他兩人不同型號不能算入。外接KVM/USB干擾鏈路與直連穩定，不能當作螢幕本體黑屏故障的第二站同根因；保留相容性個案，未達六人。"
+        },
+        {
+          "url": "https://forum.level1techs.com/t/mpg-491cqpx-qd-oled-hdmi-2-1-kvm-chronic-flickering/237114?page=2",
+          "title": "MPG-491CQPX-QD-OLED + HDMI 2.1 KVM -> chronic flickering - Page 2",
+          "platform": "Level1Techs",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-08",
+          "sourceExcerpt": "第二頁仍由kaiserbeto/Pudge回報，討論USB/HDMI磁環、EDID與外接KVM RMA；Pudge延續其321URX雙螢幕。",
+          "independentAuthors": 1,
+          "specificReason": "同一討論分頁不能當第二原始網站或新作者；Pudge型號在第一頁已確認321URX，故排除其所有續帖於491CQPX人數。",
+          "reason": "同一討論分頁不能當第二原始網站或新作者；Pudge型號在第一頁已確認321URX，故排除其所有續帖於491CQPX人數。"
+        },
+        {
+          "url": "https://forum.level1techs.com/t/mpg-491cqpx-qd-oled-hdmi-2-1-kvm-chronic-flickering/237114?page=4",
+          "title": "MPG-491CQPX-QD-OLED + HDMI 2.1 KVM -> chronic flickering - Page 4",
+          "platform": "Level1Techs",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-08",
+          "sourceExcerpt": "kaiserbeto表示KVM3/4埠加磁環後差異很大，Pudge仍反覆測試；雙方共同USB hub干擾為排查方向。",
+          "independentAuthors": 1,
+          "specificReason": "這是相同作者/相同外接KVM鏈路後續，不能將所有類似訊號症狀算成491CQPX本體硬體故障；没有新增可計入獨立人數。",
+          "reason": "這是相同作者/相同外接KVM鏈路後續，不能將所有類似訊號症狀算成491CQPX本體硬體故障；没有新增可計入獨立人數。"
+        },
+        {
+          "url": "https://www.ptt.cc/bbs/LCD/M.1734788320.A.F5B.html",
+          "title": "[求助] 49吋 曲面電競螢幕",
+          "platform": "PTT",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-08",
+          "sourceExcerpt": "MJ02在49吋多品牌間選購；rock6210推薦491CQPX的色域/OSD/防烙印，沒有自述故障。",
+          "independentAuthors": 0,
+          "specificReason": "選購問題與正面推薦並非第一人稱故障回報；文中對三星保固的疑慮不能移轉到MSI491CQPX，不能作災情人數。",
+          "reason": "選購問題與正面推薦並非第一人稱故障回報；文中對三星保固的疑慮不能移轉到MSI491CQPX，不能作災情人數。"
+        },
+        {
+          "url": "https://www.bestbuy.com/site/reviews/msi-mpg-491cqpx-qd-oled-49-dqhd-curved-g-sync-freesync-premium-pro-monitor-240hz-0-03ms-tb-400-type-c-display-hdmi-black/11065992",
+          "title": "Best Buy MPG 491CQPX QD-OLED customer reviews page 1",
+          "platform": "Best Buy",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-08",
+          "sourceExcerpt": "Fraamus嫌文字模糊/PBP設定；NathanM偶爾失去240Hz選項、重設恢復；Ellie嫌喚醒慢；Roman嫌面板保護打斷；JustinP希望PBP自動切換設定。",
+          "independentAuthors": 5,
+          "specificReason": "五位描述不同現象，不合併成同一故障；文字一人、240Hz選項一人、喚醒一人、保護提醒一人，PBP操作也未達跨站六人。多SKU入口共享34則評價不重複計數，且頁面明示多數有獎勵/抽獎誘因。",
+          "reason": "五位描述不同現象，不合併成同一故障；文字一人、240Hz選項一人、喚醒一人、保護提醒一人，PBP操作也未達跨站六人。多SKU入口共享34則評價不重複計數，且頁面明示多數有獎勵/抽獎誘因。"
+        },
+        {
+          "url": "https://www.bestbuy.com/site/reviews/msi-mpg-491cqpx-qd-oled-49-dqhd-curved-g-sync-freesync-premium-pro-monitor-240hz-0-03ms-tb-400-type-c-display-hdmi-black/12157760?page=2&pageSize=20&sku=12157760&sort=BEST_REVIEW&variant=A",
+          "title": "Best Buy MPG 491CQPX QD-OLED customer reviews page 2",
+          "platform": "Best Buy",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-08",
+          "sourceExcerpt": "AylaS收到裂屏；Tammyc說首台不能用但未詳述原因，另有同帳號正面禮物評價；GabeZ嫌模式/PBP文件不清。另無顯示作者的退貨費抱怨。",
+          "independentAuthors": 3,
+          "specificReason": "裂屏為一例到貨損傷，未明根因的首台不工作一例，文件易用性一例；Tammyc重複帳號只算一人。退貨費為零售政策且作者未識別，排除，不把分散問題強併成六人。",
+          "reason": "裂屏為一例到貨損傷，未明根因的首台不工作一例，文件易用性一例；Tammyc重複帳號只算一人。退貨費為零售政策且作者未識別，排除，不把分散問題強併成六人。"
+        },
+        {
+          "url": "https://24h.pchome.com.tw/prod/DSABPD-A900I39OU",
+          "title": "PChome MPG 491CQPX QD-OLED 商品評價",
+          "platform": "PChome",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-08",
+          "sourceExcerpt": "蔡**於2025/03/15評價稱不自動轉輸入源，無訊號時無法開OSD，但肯定螢幕品質；其他可讀評價為寬度/亮度感受与正面物流。",
+          "independentAuthors": 0,
+          "specificReason": "蔡**為遮蔽姓名、無獨立作者頁，不能確定唯一身份；即使作候選，單一OSD/輸入切換使用感受與BestBuy也未達六人同題，其他評價不是故障。",
+          "reason": "蔡**為遮蔽姓名、無獨立作者頁，不能確定唯一身份；即使作候選，單一OSD/輸入切換使用感受與BestBuy也未達六人同題，其他評價不是故障。"
+        }
+      ],
+      "manualSourceChecks": [
+        {
+          "method": "manual_original_product_reviews_page",
+          "sourceUrl": "https://24h.pchome.com.tw/prod/DSABPD-A900I39OU",
+          "targetHost": "24h.pchome.com.tw",
+          "inspectedAt": "2026-09-08T00:02:01.176156Z",
+          "originalPageReview": [
+            {
+              "url": "https://24h.pchome.com.tw/prod/DSABPD-A900I39OU",
+              "title": "PChome MPG 491CQPX QD-OLED 商品評價",
+              "platform": "PChome",
+              "outcome": "excluded",
+              "exactModel": true,
+              "reviewedAt": "2026-09-08",
+              "sourceExcerpt": "蔡**於2025/03/15評價稱不自動轉輸入源，無訊號時無法開OSD，但肯定螢幕品質；其他可讀評價為寬度/亮度感受与正面物流。",
+              "independentAuthors": 0,
+              "specificReason": "蔡**為遮蔽姓名、無獨立作者頁，不能確定唯一身份；即使作候選，單一OSD/輸入切換使用感受與BestBuy也未達六人同題，其他評價不是故障。"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

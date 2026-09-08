@@ -2462,9 +2462,9 @@
     "name": "27 型 4K IPS USB-C 人體工學螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 7999,
-      "converted": 7999,
-      "confidence": "PChome 2026-09-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 6999,
+      "converted": 6999,
+      "confidence": "PChome 2026-09-08 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABEZA900K1N6R/000001_1782816950.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABEZ-A900K1N6R",
@@ -3928,9 +3928,9 @@
     "name": "49 型 Odyssey OLED G9 Dual QHD 240Hz 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 36900,
-      "converted": 36900,
-      "confidence": "PChome 2026-09-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 34500,
+      "converted": 34500,
+      "confidence": "PChome 2026-09-08 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900HZCPE/000001_1781766568.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900HZCPE",
@@ -3967,15 +3967,15 @@
     "releaseDate": "2024",
     "historicalLow": {
       "status": "found",
-      "amount": 34900,
+      "amount": 34500,
       "currency": "TWD",
-      "converted": 34900,
+      "converted": 34500,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900HZCPE",
       "sourceTitle": "PChome 24h 購物：【限時快閃】SAMSUNG 三星 49吋 Odyssey OLED G9 曲面電競螢幕 S49DG932SCXZW",
-      "evidenceSnippet": "PChome 24h 購物於 2026-08-21 顯示同型號可信新品公開價 NT$34,900，低於既有史低 NT$34,999。",
+      "evidenceSnippet": "PChome 24h 購物於 2026-09-08 顯示同型號可信新品公開價 NT$34,500，低於既有史低 NT$34,900。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-08-21",
+      "checkedAt": "2026-09-08",
       "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
@@ -4228,9 +4228,9 @@
     "name": "57 型 Odyssey Neo G9 Dual UHD 240Hz Mini LED 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 69900,
-      "converted": 69900,
-      "confidence": "PChome 2026-09-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 66500,
+      "converted": 66500,
+      "confidence": "PChome 2026-09-08 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900GQLSE/000001_1783054239.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900GQLSE",
@@ -5140,9 +5140,9 @@
     "name": "27 型 4K 內建校色器專業色彩管理螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 59888,
-      "converted": 59888,
-      "confidence": "momo購物 2026-09-07 下午人工核對 exact-model 公開單件現價及可購狀態；非會員券、點數或加購價",
+      "amount": 56893,
+      "converted": 56893,
+      "confidence": "momo 2026-09-08 人工核對 exact-model 公開現價與可購狀態；不含會員券、點數、信用卡回饋或加購",
       "basis": "retailer_current"
     },
     "image": "https://image.benq.com/is/image/benqco/1pd2770u-front-hood-hotkey-2?$ResponsivePreset$",
@@ -6225,6 +6225,109 @@
           "query": "\"MPG 271QR QD-OLED X50\" site:mobile01.com",
           "queryUrl": "https://www.google.com/search?q=%22MPG%20271QR%20QD-OLED%20X50%22%20site%3Amobile01.com",
           "targetHost": "mobile01.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "monitor-msi-mpg-491cqpx-qd-oled",
+    "category": "monitor",
+    "rank": 68,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "MSI",
+    "model": "MPG 491CQPX QD-OLED",
+    "name": "49 型 DQHD QD-OLED 240Hz USB-C 98W 曲面螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 36900,
+      "converted": 36900,
+      "basis": "retailer_current",
+      "confidence": "PChome 2026-09-08 exact-model新品頁公開價；未扣會員券、點數或信用卡回饋"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "新品含原廠底座與VESA螺絲，通路未明示到府安裝；49吋大型曲面建議兩人搬裝，購買支架前另核對不含底座實重。"
+    },
+    "image": "https://cdn.shopify.com/s/files/1/0594/8853/4679/files/1024_a455cf06-f33d-4468-bec1-eb43d2d3cf18.png?v=1732697655",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABW5-A900JI0US",
+    "buyLabel": "PChome",
+    "specs": [
+      "49 吋 QD-OLED / 1800R 曲面",
+      "5120 × 1440 DQHD / 32:9",
+      "240Hz / 0.03ms GtG",
+      "DisplayHDR True Black 400；SDR 250 nits、HDR 450 nits（10% APL）／峰值1000 nits（3% APL）",
+      "NVIDIA G-SYNC Compatible / AMD FreeSync Premium Pro",
+      "2 × HDMI 2.1、1 × DisplayPort 1.4a、USB-C DP Alt Mode / PD 98W",
+      "KVM / PIP / PBP；USB 2.0 Type-A × 2、Type-B × 1",
+      "VESA 100 × 100 mm；高度0–10 cm、俯仰−5°至20°、左右±30°",
+      "尺寸：不含底座 寬119.5 × 深19 × 高37.2 cm；含底座 寬119.5 × 深32.8 × 高41 cm",
+      "重量：淨重10.6 kg（官方未分列不含底座重量）；16.4 kg為毛重，不作支架承重依據",
+      "電源：100–240V / 50–60Hz，內建電源",
+      "OLED Care 2.0；台灣原廠3年OLED防烙印保固",
+      "上市：2024-12-19（MSI日本官方發售公告；台灣上市日未確認）"
+    ],
+    "description": "49吋32:9工作區結合QD-OLED與240Hz，USB-C 98W與KVM方便桌機、筆電共用。相較491CQP的144Hz有明確更新，仍需評估桌深、顯卡與固定畫面使用時間。",
+    "pros": [
+      "49吋DQHD與240Hz兼顧超寬遊戲和多視窗",
+      "USB-C 98W、KVM與兩個HDMI 2.1便於多設備整合",
+      "台灣通路與3年OLED防烙印保固有明確來源"
+    ],
+    "cons": [
+      "寬119.5 cm，桌深與49吋曲面支架需事先量測",
+      "固定文字/長時間靜態內容仍需接受OLED顯示取捨並定期保護面板",
+      "已見零星閃爍、訊號及OSD操作回報，未達集中問題門檻；PBP/DSC/VRR組合需查手冊"
+    ],
+    "bestFor": "想用49吋32:9同時處理工作與高刷新遊戲，且桌面、顯卡與支架足夠的人。",
+    "recommendation": "49吋高刷新OLED選擇：240Hz與USB-C 98W較491CQP提升，適合多設備共桌；先核對桌深、遊戲32:9支援與VESA掛載實重，並以台灣新品保固條件評估。",
+    "score": 89,
+    "voltage": "100–240V、50/60Hz；台灣可信新品通路",
+    "warranty": "PChome與MSI台灣官方明示原廠3年OLED防烙印保固",
+    "tags": [
+      "寬螢幕",
+      "49吋",
+      "QD-OLED",
+      "240Hz",
+      "USB-C 98W",
+      "KVM"
+    ],
+    "releaseDate": "2024-12-19",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-09-08",
+      "note": "已人工查BigGo台灣比價與Kakaku exact型號價格歷史，另查PChome兩個新品頁、MSI台灣商城、LBJ/FindPrice/飛比入口。BigGo的35055/35900屬當下折扣或券資訊，未還原可重現日期低點；Kakaku只確認日本2026/8/13–17為197990日圓，且30日範圍/日本JAN不代表台灣9S6-3FA84T-019全歷史最低，未採。台灣可靠同SKU歷史低點找不到，維持not_found；不以36900現價推定史低，未跨用491CQP144Hz價格。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-09-08",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"MPG 491CQPX QD-OLED\" \"black\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22MPG%20491CQPX%20QD-OLED%22%20%22black%22",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"MPG 491CQPX QD-OLED\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22MPG%20491CQPX%20QD-OLED%22",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"MPG 491CQPX QD-OLED\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22MPG%20491CQPX%20QD-OLED%22",
+          "targetHost": "ptt.cc"
         }
       ]
     }
