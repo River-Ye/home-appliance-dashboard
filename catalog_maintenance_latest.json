@@ -33,7 +33,7 @@
     "priceDrops": 41,
     "priceRises": 8,
     "linkChanges": 5,
-    "imageChanges": 3,
+    "imageChanges": 4,
     "historicalLowChanges": 0,
     "historicalLowPriceChanges": 0,
     "historicalFound": 509,
@@ -39993,6 +39993,11 @@
         "id": "washerdryer-panasonic-na-v120hdh",
         "before": "https://img.yec.tw/zp/MerchandiseImages/BB4EF5E7DD-SP-8787478.jpg",
         "after": "https://cs-a.ecimg.tw/items/DPAI1HA900AMJJK/000001_1761009175.jpg"
+      },
+      {
+        "id": "coffee-rancilio-silvia-pro-x",
+        "before": "https://www.tiamo-cafe.com.tw/rwd1627/Store/oImages/HG6477_600%281%29.jpg",
+        "after": "https://img.pchome.com.tw/cs/items/DMAT09A900JCI6N/000001_1786502280.jpg"
       }
     ],
     "historicalLows": [],
@@ -51717,6 +51722,83 @@
         "terms": "滿1件享98折",
         "sourceUrl": "https://tw.buy.yahoo.com/gdsale/Dyson-Purifier-Hot-Cool-De-NOx-%E7%94%B2%E9%86%9BNOx-%E5%81%B5%E6%B8%AC%E6%B6%BC%E6%9A%96%E7%A9%BA%E6%B0%A3%E6%B8%85%E6%B7%A8%E6%A9%9F-HP1-12000848.html"
       }
-    ]
+    ],
+    "postReviewImageRepair": {
+      "id": "coffee-rancilio-silvia-pro-x",
+      "checkedAt": "2026-09-08T13:15:22.069Z",
+      "decision": "approved_image_only_repair",
+      "imageChangesAfterRepair": 4,
+      "findings": [],
+      "sourceCheckedAt": "2026-09-08T13:08:11.429601+00:00",
+      "adoptionReviewedAt": "2026-09-08T13:13:47.613239+00:00",
+      "onlyProductFieldChanged": "image",
+      "priceAndBuyUrlUnchanged": true,
+      "freshHttp": {
+        "checkedAt": "2026-09-08T13:15:22.069Z",
+        "httpStatus": 200,
+        "sha256": "45ce7668544b530694be71b5c2e0591980974be64845578f6bb3218422e9c682"
+      },
+      "scope": "增量review只核對image、compact/history summary/raw與來源及採用日期；API缺貨狀況不延伸採用購買來源或現價，尚待本次CI驗證圖片解碼。"
+    }
+  },
+  "manualImageRepair": {
+    "reviewedAt": "2026-09-08T13:13:47.613239+00:00",
+    "id": "coffee-rancilio-silvia-pro-x",
+    "decision": "replace_repeatedly_failing_remote_image_with_verified_exact_model_image",
+    "ciFailureEvidence": [
+      {
+        "runId": 34229537249,
+        "attempt": 1,
+        "failedAt": "2026-09-08T13:03:18.395Z",
+        "error": "Check UI coffee image24 EncodingError; complete true naturalWidth0"
+      },
+      {
+        "runId": 34229537249,
+        "attempt": 3,
+        "failedAt": "2026-09-08T13:12:06.113Z",
+        "error": "Check UI coffee image24 EncodingError; complete true naturalWidth0"
+      }
+    ],
+    "selected": {
+      "url": "https://img.pchome.com.tw/cs/items/DMAT09A900JCI6N/000001_1786502280.jpg",
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMAT09-A900JCI6N",
+      "sourceTitle": "RANCILIO Silvia Pro X 雙鍋爐單孔家用半自動咖啡機（三色） - PChome 24h購物",
+      "checkedAt": "2026-09-08T13:08:11.429601+00:00",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 53224,
+      "sha256": "45ce7668544b530694be71b5c2e0591980974be64845578f6bb3218422e9c682",
+      "imageFormat": "JPEG",
+      "mode": "RGB",
+      "width": 1000,
+      "height": 1000,
+      "iccProfileBytes": 0,
+      "pillowDecoded": true,
+      "browserDecode": {
+        "url": "https://img.pchome.com.tw/cs/items/DMAT09A900JCI6N/000001_1786502280.jpg",
+        "decoded": true,
+        "width": 1000,
+        "height": 1000
+      },
+      "exactModelEvidence": "PChome商品標題及同PID API皆Silvia Pro X；視覺覆核圖片三色機均有左下圓形壓力表，與原Tiamo HG6477 Pro X機一致。不是舊Silvia Pro。",
+      "visualLimitation": "三色集合主圖，含經典銀/白/黑；原目錄Tiamo圖為不鏽鋼單機。因此為條件式備援，不如原图聚焦單台。",
+      "priceSourceAdoption": false,
+      "priceBoundary": "本次只取image；PChome API Qty=0而HTML JSONLD InStock互相衝突，不能以此修改購買來源或現價。",
+      "decision": "adopt_image_only_after_repeated_ci_failure"
+    },
+    "rejectedInlineCandidates": [
+      {
+        "url": "https://ufileweb.hiwinner.tw/HiperShop/rwd1627/store/F3/HG6477_p_02.jpg",
+        "decision": "reject_generation_mismatch",
+        "reason": "雖由HG6477頁嵌入、RGB且decode成功，視覺為未帶左下圓形壓力表的舊Silvia Pro，不能作Pro X替代。"
+      },
+      {
+        "url": "https://ufileweb.hiwinner.tw/HiperShop/rwd1627/store/F3/HG6477_p_07.jpg",
+        "decision": "reject_generation_mismatch",
+        "reason": "圖中文字明寫DISCOVER SILVIA PRO，機身沒有Pro X左下圓形壓力表。不能僅靠出现在exact產品頁就採圖。"
+      }
+    ],
+    "formatLimitation": "原圖為CMYK JPEG 600×600、727438bytes，ICC557168bytes；Pillow與本機Chromium img.decode兩次均成功。只能說有此格式特徵，無證據證明CMYK或ICC造成CI EncodingError。",
+    "priceAndBuyUrlUnchanged": true
   }
 }

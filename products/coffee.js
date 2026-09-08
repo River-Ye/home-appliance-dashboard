@@ -2488,7 +2488,7 @@
       "converted": 56050,
       "confidence": "禧龍企業台灣進口商 2026-08-04 exact-model 公開新品價；台灣公司貨／原廠通路"
     },
-    "image": "https://www.tiamo-cafe.com.tw/rwd1627/Store/oImages/HG6477_600%281%29.jpg",
+    "image": "https://img.pchome.com.tw/cs/items/DMAT09A900JCI6N/000001_1786502280.jpg",
     "buyUrl": "https://www.tiamo-cafe.com.tw/ec99/rwd1627/product.asp?category_id=141&prodid=HG6477",
     "buyLabel": "禧龍企業台灣進口商",
     "specs": [
