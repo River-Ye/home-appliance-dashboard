@@ -2095,7 +2095,11 @@ function validateJapaneseBrandReview(category, row, productById, dataDate, expec
     assert(review, `${prefix} is missing`, failures);
     if (!review) continue;
     assert(JAPANESE_BRAND_REVIEW_STATUSES.has(review.status), `${prefix} has invalid status: ${review.status}`, failures);
-    assert(review.checkedAt === dataDate, `${prefix} checkedAt must equal ${dataDate}`, failures);
+    assert(
+      carriedReviewMatches || review.checkedAt === dataDate,
+      `${prefix} checkedAt must equal ${dataDate} unless the semantic review is explicitly carried`,
+      failures,
+    );
     assert(Array.isArray(review.officialSources) && review.officialSources.length > 0, `${prefix} requires officialSources`, failures);
     for (const source of review.officialSources || []) {
       assert(isHttpUrl(source), `${prefix} has invalid official source: ${source}`, failures);

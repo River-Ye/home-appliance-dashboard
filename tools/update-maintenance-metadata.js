@@ -77,7 +77,7 @@ function renderMaintenanceSummary(report, baselineReport = null) {
   const timestamp = taipeiTimestamp(report.checkedAt);
   const categoryReviewSummary = {
     same_date_carried_forward: "沿用本資料日已完成的逐類人工新品覆核（原覆核時間保留）",
-    mixed_current_and_carried_forward: "沿用本資料日既有逐類人工新品覆核，並補查部分分類（原覆核時間保留）",
+    mixed_current_and_carried_forward: "沿用既有逐類逐型號證據，並補查本次官方入口（原證據日期保留）",
   }[report.categoryReviewProvenance] || "逐類人工新品覆核已完成";
   const historicalRows = report.changes?.historicalLows || [];
   const historicalChanges = summary.historicalLowPriceChanges ?? summary.historicalLowChanges ?? 0;

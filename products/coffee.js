@@ -339,9 +339,9 @@
     "name": "Gaggia 佳吉亞 ANIMA CMF 星耀型全自動咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 27600,
-      "converted": 27600,
-      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 25668,
+      "converted": 25668,
+      "confidence": "PChome 2026-09-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAT01A900GG8P0/000001_1777224847.png",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAT01-A900GG8P0",
@@ -2055,9 +2055,9 @@
     "name": "Barista EX 系列經典義式濃縮咖啡機（爵士灰）",
     "price": {
       "currency": "TWD",
-      "amount": 6990,
-      "converted": 6990,
-      "confidence": "PChome 2026-09-09 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 7888,
+      "converted": 7888,
+      "confidence": "PChome 2026-09-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAT09A900IXUVD/000001_1769478978.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAT09-A900IXUVD",

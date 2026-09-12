@@ -15,9 +15,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR1PA900I386D/000001_1738721735.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 19900,
-      "converted": 19900,
-      "confidence": "PChome 2026-09-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 17200,
+      "converted": 17200,
+      "confidence": "PChome 2026-09-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -57,16 +57,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 17800,
+      "amount": 17200,
       "currency": "TWD",
-      "converted": 17800,
+      "converted": 17200,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DMBR1P-A900I386D",
-      "sourceTitle": "PChome：Panasonic NP-K1YWHR2TW 6 人份桌上型洗碗機",
-      "evidenceSnippet": "PChome 公開 API 於 2026-07-18 回傳 exact-model 售價 NT$17,800 且仍有庫存，低於既有可驗證史低 NT$17,874。",
-      "sourceKind": "retailer_promo",
-      "confidence": "high",
-      "checkedAt": "2026-07-18",
-      "note": "採完全相同台灣型號新品公開價；未扣除信用卡、點數、會員個人化回饋，並排除福利品、展示、拆封與整新品。"
+      "sourceTitle": "PChome 24h 購物：【Panasonic 國際牌】全省安裝 6人份桌上型洗碗機(NP-K1YWHR2TW)",
+      "evidenceSnippet": "PChome 24h 購物於 2026-09-12 顯示同型號可信新品公開價 NT$17,200，低於既有史低 NT$17,800。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-09-12",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -117,9 +117,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR0PA900IX8N8/000001_1770277214.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 7990,
-      "converted": 7990,
-      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 7190,
+      "converted": 7190,
+      "confidence": "PChome 2026-09-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -159,16 +159,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 7290,
+      "amount": 7190,
       "currency": "TWD",
-      "converted": 7290,
+      "converted": 7190,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DMBR0P-A900IX8N8",
-      "sourceTitle": "PChome 商品頁：【TECO東元】3D全方位洗烘一體全自動洗碗機(XYFYW-5001CBW) / 【TECO東元】3D全方位洗烘一體全自動洗碗機(XYFYW-5001CBW)",
-      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「【TECO東元】3D全方位洗烘一體全自動洗碗機(XYFYW-5001CBW) / 【TECO東元】3D全方位洗烘一體全自動洗碗機(XYFYW-5001CBW)」查核價 NT$7,290，低於原先記錄史低。",
+      "sourceTitle": "PChome 24h 購物：【TECO東元】3D全方位洗烘一體全自動洗碗機(XYFYW-5001CBW)",
+      "evidenceSnippet": "PChome 24h 購物於 2026-09-12 顯示同型號可信新品公開價 NT$7,190，低於既有史低 NT$7,290。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-10",
-      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
+      "checkedAt": "2026-09-12",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -219,9 +219,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR241900I024G/000001_1737106327.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 7999,
-      "converted": 7999,
-      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 6999,
+      "converted": 6999,
+      "confidence": "PChome 2026-09-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -832,9 +832,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR25A900IUNDB/000001_1747970581.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 24320,
-      "converted": 24320,
-      "confidence": "PChome 2026-09-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 25600,
+      "converted": 25600,
+      "confidence": "PChome 2026-09-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1346,9 +1346,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR16A900HZZEG/000001_1763949344.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 73799,
-      "converted": 73799,
-      "confidence": "PChome 2026-09-08 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 81999,
+      "converted": 81999,
+      "confidence": "PChome 2026-09-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1649,9 +1649,9 @@
     "name": "免安裝自動 6 人份洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 16199,
-      "converted": 16199,
-      "confidence": "PChome 2026-09-08 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 16559,
+      "converted": 16559,
+      "confidence": "PChome 2026-09-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR17A900IHTZ3/000001_1777540146.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR17-A900IHTZ3",
@@ -1746,9 +1746,9 @@
     "name": "VORTEX KW1 桌上型全自動洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 15990,
-      "converted": 15990,
-      "confidence": "PChome 2026-09-08 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 14990,
+      "converted": 14990,
+      "confidence": "PChome 2026-09-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR25A900J5BGP/000001_1782112645.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR25-A900J5BGP",
@@ -1782,16 +1782,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 15031,
+      "amount": 14990,
       "currency": "TWD",
-      "converted": 15031,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1262048980&cgp=16311",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Acerpure VORTEX KW1 桌上型全自動洗碗機（KW534-60W）",
-      "evidenceSnippet": "LBJ 比價撿便宜歷史價格顯示 Yahoo購物中心同型號 KW534-60W 於 2026-07-10 最低為 NT$15,031。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-15",
-      "note": "採用 LBJ 比價撿便宜可公開查核的價格歷史；同型號／規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 14990,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMBR25-A900J5BGP",
+      "sourceTitle": "PChome 24h 購物：Acerpure VORTEX KW1 桌上型全自動洗碗機 KW534-60W",
+      "evidenceSnippet": "PChome 24h 購物於 2026-09-12 顯示同型號可信新品公開價 NT$14,990，低於既有史低 NT$15,031。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-09-12",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",

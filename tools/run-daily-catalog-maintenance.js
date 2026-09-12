@@ -946,7 +946,10 @@ function carriedCategoryReviewMatchesCatalog({
   maintenanceDate,
   maximumReviewedAt,
 }) {
-  if (!categoryReviewReady(row, maximumReviewedAt, maintenanceDate)
+  const carriedDate = row?.japaneseBrandReview?.[0]?.checkedAt;
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(String(carriedDate || ""))
+    || row.japaneseBrandReview.some((review) => review.checkedAt !== carriedDate)
+    || !categoryReviewReady(row, maximumReviewedAt)
     || !sameCategoryCatalogIdentities(category.id, products, baselineById)) return false;
   const acceptedIds = row.acceptedCandidates || [];
   if (!Array.isArray(acceptedIds)) return false;
@@ -962,17 +965,23 @@ function carriedCategoryReviewMatchesCatalog({
     category,
     products,
     baselineById: carriedBaselineById,
-    checkedAt: maintenanceDate,
+    checkedAt: carriedDate,
   });
   return JSON.stringify(row.japaneseBrandReview) === JSON.stringify(expected);
 }
 
 function maintenanceReviewReady(report, maintenanceDate, catalogContext = null) {
+  const carriedForward = ["same_date_carried_forward", "mixed_current_and_carried_forward"]
+    .includes(report?.categoryReviewProvenance);
   const structurallyReady = report?.auditScope === undefined
     && report?.dataDate === maintenanceDate
     && Array.isArray(report.categoryScan)
     && report.categoryScan.length > 0
-    && report.categoryScan.every((row) => categoryReviewReady(row, report.checkedAt, maintenanceDate));
+    && report.categoryScan.every((row) => categoryReviewReady(
+      row,
+      report.checkedAt,
+      carriedForward ? null : maintenanceDate,
+    ));
   if (!structurallyReady || !catalogContext) return structurallyReady;
 
   const { categories, products, baselineById } = catalogContext;
@@ -998,8 +1007,6 @@ function maintenanceReviewReady(report, maintenanceDate, catalogContext = null) 
   if (report.categoryScan.length !== categories.length) return false;
   const scanByCategory = new Map(report.categoryScan.map((row) => [row.category, row]));
   if (scanByCategory.size !== categories.length) return false;
-  const carriedForward = ["same_date_carried_forward", "mixed_current_and_carried_forward"]
-    .includes(report.categoryReviewProvenance);
   const changedCategoryIds = new Set([
     ...addedIds.map((id) => productById.get(id)?.category),
     ...removedIds.map((id) => baselineById.get(id)?.category),

@@ -1549,9 +1549,9 @@
     "name": "D200i 智能門鎖",
     "price": {
       "currency": "TWD",
-      "amount": 23520,
-      "converted": 23520,
-      "confidence": "PChome 2026-08-21 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 24900,
+      "converted": 24900,
+      "confidence": "PChome 2026-09-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAPFA900JXSH5/000001_1776828240.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAPF-A900JXSH5",
@@ -1992,9 +1992,9 @@
     "price": {
       "currency": "HKD",
       "amount": 9638,
-      "converted": 38770,
+      "converted": 38808,
       "basis": "retailer_current",
-      "confidence": "EasyLock 香港 2026-08-28 exact-model 公開促銷價；ExchangeRate-API 2026-09-08 匯率換算"
+      "confidence": "EasyLock 香港 2026-08-28 exact-model 公開促銷價；ExchangeRate-API 2026-09-12 匯率換算"
     },
     "installation": {
       "status": "included_basic",

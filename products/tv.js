@@ -2405,9 +2405,9 @@
     "name": "75 吋 Q7N 4K 144Hz QLED 智慧顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 39999,
-      "converted": 39999,
-      "confidence": "PChome 2026-07-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 35999,
+      "converted": 35999,
+      "confidence": "PChome 2026-09-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h4e/h03/438072156979230.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAD98-A900JV2AT",
@@ -3937,10 +3937,10 @@
     "name": "65 型 S-960 Mini LED 量子點 144Hz 遊戲 Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 39900,
-      "converted": 39900,
+      "amount": 44900,
+      "converted": 44900,
       "basis": "retailer_current",
-      "confidence": "2026-09-07 PChome exact SKU DPAD0O-A900JIZTK-000 API Low=39900、Qty=8；商品頁9/4–9/9任選1件39900為公開活動，不含信用卡或會員回饋。"
+      "confidence": "PChome 2026-09-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "installation": {
       "status": "not_stated",

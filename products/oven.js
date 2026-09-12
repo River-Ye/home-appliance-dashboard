@@ -411,8 +411,8 @@
     "price": {
       "currency": "USD",
       "amount": 499.95,
-      "converted": 15767,
-      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-09-08 匯率換算"
+      "converted": 15787,
+      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-09-12 匯率換算"
     },
     "image": "https://assets.breville.com/cdn-cgi/image/width=1300,format=auto/BOV950/BOV950BSS1BUS1/pdp3.png?pdp=",
     "buyUrl": "https://www.breville.com/en-us/product/bov950",
@@ -804,9 +804,9 @@
     "name": "Coloris 系列 32L 8 合 1 變頻氣炸蒸烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 24900,
-      "converted": 24900,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 22888,
+      "converted": 22888,
+      "confidence": "Yahoo購物中心 2026-09-12 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ03A900IYX0L/000001_1750758530.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E6%83%A0%E8%80%8C%E6%B5%A632%E5%85%AC%E5%8D%878%E5%90%88%E4%B8%80%E5%85%A8%E8%83%BD%E8%AE%8A%E9%A0%BB%E6%B0%A3%E7%82%B8%E8%92%B8%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90MWP329TST-11929560.html",
@@ -841,16 +841,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 22900,
+      "amount": 22888,
       "currency": "TWD",
-      "converted": 22900,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1256717462&cgp=22900",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Whirlpool惠而浦 32L 8合1變頻氣炸蒸烤微波爐 MWP329TST (大地棕)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / Whirlpool惠而浦 32L 8合1變頻氣炸蒸烤微波爐 MWP329TST (大地棕)」最低價為 NT$22,900，最低點日期 2026-07-03。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 22888,
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/%E6%83%A0%E8%80%8C%E6%B5%A632%E5%85%AC%E5%8D%878%E5%90%88%E4%B8%80%E5%85%A8%E8%83%BD%E8%AE%8A%E9%A0%BB%E6%B0%A3%E7%82%B8%E8%92%B8%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90MWP329TST-11929560.html",
+      "sourceTitle": "Yahoo購物中心：惠而浦32公升8合一全能變頻氣炸蒸烤微波爐MWP329TST | 蒸氣烘烤微波爐 | Yahoo購物中心",
+      "evidenceSnippet": "Yahoo購物中心於 2026-09-12 顯示同型號可信新品公開價 NT$22,888，低於既有史低 NT$22,900。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-09-12",
+      "note": "採用 Yahoo購物中心當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2287,8 +2287,8 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 12615,
-      "confidence": "2026-08-31 人工核對 SharkNinja 美國官方 MW101 公開可購主價 USD 399.99；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-09-08 匯率換算",
+      "converted": 12631,
+      "confidence": "2026-08-31 人工核對 SharkNinja 美國官方 MW101 公開可購主價 USD 399.99；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-09-12 匯率換算",
       "basis": "retailer_current"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/MW101_01.jpg",

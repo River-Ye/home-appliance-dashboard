@@ -1183,7 +1183,7 @@ async function main() {
     category: semanticCategory,
     products: [carriedSemanticProduct],
     baselineById: new Map(),
-    checkedAt: semanticReviewDate,
+    checkedAt: "2026-07-21",
   });
   const carriedSemanticReport = {
     ...semanticReport,
@@ -1203,7 +1203,7 @@ async function main() {
         products: [carriedSemanticProduct],
         baselineById: new Map([[carriedSemanticProduct.id, carriedSemanticProduct]]),
       }),
-    "a same-date price-only rerun should preserve a valid carried-forward added-product matrix",
+    "a later price-only rerun should preserve a valid carried-forward added-product matrix without redating it",
   );
   const semanticAddedProduct = {
     ...carriedSemanticProduct,
@@ -2111,6 +2111,40 @@ async function main() {
       && carriedForwardMaintenanceSummary.includes("沿用本資料日已完成的逐類人工新品覆核（原覆核時間保留）"),
     "a same-date incremental summary must distinguish carried reviews from fresh product additions",
   );
+  const mixedMaintenanceSummary = renderMaintenanceSummary({
+    categoryReviewProvenance: "mixed_current_and_carried_forward",
+    checkedAt: "2026-09-12T12:45:20.538Z",
+    summary: {
+      finalProducts: 1156,
+      categories: 37,
+      pchomeAudited: 503,
+      pchomeExactModelVerified: 265,
+      pchomeReviewedBindingVerified: 66,
+      pchomeModelUnverified: 73,
+      priceChanges: 65,
+      priceDrops: 24,
+      priceRises: 41,
+      pchomeOutOfStockTracked: 51,
+      newProductsAdded: [],
+      discontinuedRemoved: [],
+      minimumProductsPerCategory: 20,
+      imagesAudited: 1156,
+      sourcesVerifiedAvailable: 841,
+      sourceExceptions: 315,
+      imageExceptions: 1,
+      historicalFound: 509,
+      historicalMissing: 647,
+      historicalSourcesVerified: 84,
+      foreignPricesRecomputed: 38,
+    },
+    changes: { historicalLows: [] },
+    exchange: { date: "2026-09-12 00:02 UTC", USD_TWD: 31.577975 },
+  });
+  assert(
+    mixedMaintenanceSummary.includes("沿用既有逐類逐型號證據，並補查本次官方入口（原證據日期保留）"),
+    "mixed maintenance summary must not relabel carried evidence as same-date full review",
+  );
+
   const freshMaintenanceSummary = renderMaintenanceSummary({
     checkedAt: "2026-08-02T22:29:14.214Z",
     categoryReviewProvenance: "current_run",
