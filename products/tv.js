@@ -116,9 +116,9 @@
     "name": "65 型 S90F OLED 4K 智慧顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 46900,
-      "converted": 46900,
-      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 50900,
+      "converted": 50900,
+      "confidence": "PChome 2026-09-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADEW1900K4WRT/000001_1782056882.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADEW-A900IUE7F",
