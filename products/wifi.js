@@ -1759,8 +1759,8 @@
     "name": "BE6500 雙頻 Wi-Fi 7 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 4788,
-      "converted": 4788,
+      "amount": 4549,
+      "converted": 4549,
       "confidence": "Yahoo購物中心 2026-09-13 exact-model 公開結構化價格",
       "basis": "retailer_current"
     },
@@ -4714,8 +4714,8 @@
     "name": "BE19000 三頻 Wi-Fi 7 AI 電競路由器",
     "price": {
       "currency": "TWD",
-      "amount": 27990,
-      "converted": 27990,
+      "amount": 26591,
+      "converted": 26591,
       "confidence": "Yahoo購物中心 2026-09-13 exact-model 公開結構化價格",
       "basis": "retailer_current"
     },
