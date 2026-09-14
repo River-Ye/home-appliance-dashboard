@@ -1037,9 +1037,9 @@
     "type": "1g",
     "price": {
       "currency": "TWD",
-      "amount": 1199,
-      "converted": 1199,
-      "confidence": "PChome 24h 2026-08-24 exact-model 台灣原廠保固新品公開價",
+      "amount": 1139,
+      "converted": 1139,
+      "confidence": "PChome 2026-09-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current"
     },
     "installation": {
