@@ -743,9 +743,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/1f2a33ce70-Gd-10053955.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 43563,
-      "converted": 43563,
-      "confidence": "Yahoo購物中心 2026-09-12 exact-model 公開結構化價格",
+      "amount": 44910,
+      "converted": 44910,
+      "confidence": "Yahoo購物中心 2026-09-14 exact-model 公開結構化價格",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -2503,9 +2503,9 @@
     "image": "https://img.pchome.com.tw/cs/items/DPAI1LA900IXKBU/000007_1752484626.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 89900,
-      "converted": 89900,
-      "confidence": "PChome 2026-09-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 92900,
+      "converted": 92900,
+      "confidence": "PChome 2026-09-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",

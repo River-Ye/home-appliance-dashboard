@@ -1085,9 +1085,9 @@
     "name": "5.1 聲道 Soundbar 家庭劇院組",
     "price": {
       "currency": "TWD",
-      "amount": 8541,
-      "converted": 8541,
-      "confidence": "Yahoo購物中心 2026-09-08 exact-model 公開結構化價格"
+      "amount": 9016,
+      "converted": 9016,
+      "confidence": "Yahoo購物中心 2026-09-14 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900GHTFE/000001_1776774078.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SONY-%E7%B4%A2%E5%B0%BC-5-1-%E8%81%B2%E9%81%93-SOUNDBAR-%E5%AE%B6%E5%BA%AD%E5%8A%87%E9%99%A2%E7%B5%84-HT-S40R-10067449.html",
@@ -2072,8 +2072,8 @@
     "price": {
       "currency": "USD",
       "amount": 1299.99,
-      "converted": 41034,
-      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-09-13 匯率換算"
+      "converted": 41027,
+      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-09-14 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/2C2sn9CKoKFdIyd94Gm9z5/f3019d4e721511167ebe5c229bf490dd/heston-120_plp.jpg",
     "buyUrl": "https://www.marshall.com/us/en/product/heston-120",
@@ -2172,8 +2172,8 @@
     "price": {
       "currency": "USD",
       "amount": 549.99,
-      "converted": 17360,
-      "confidence": "2026-08-31 人工核對 Marshall US 官方 Heston 60 公開可購主價 USD 549.99；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-09-13 匯率換算",
+      "converted": 17358,
+      "confidence": "2026-08-31 人工核對 Marshall US 官方 Heston 60 公開可購主價 USD 549.99；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-09-14 匯率換算",
       "basis": "retailer_current"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/3yitHqjPBTgQk5qRE72PSn/2788206646aa153f71f2c0ebefaff580/Heston-60-black_plp_800x800-v3.jpeg",
@@ -2611,14 +2611,14 @@
       "status": "found",
       "amount": 176091,
       "currency": "JPY",
-      "converted": 36140,
+      "converted": 36178,
       "sourceUrl": "https://kakaku.com/item/K0001712395/pricehistory/",
       "sourceTitle": "価格.com：JBL BAR 1300MK2 [ブラック] 価格推移",
       "evidenceSnippet": "価格.com 日別價格歷史顯示 exact-model「JBL BAR 1300MK2 [ブラック]」於 2026-06-17 的新品最低價為 ¥176,091；2025-10 初始價格為 ¥205,306。",
       "sourceKind": "price_history",
       "confidence": "medium",
       "checkedAt": "2026-08-25",
-      "note": "採日本市場 exact-model 公開價格歷史並依 2026-09-13 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
+      "note": "採日本市場 exact-model 公開價格歷史並依 2026-09-14 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
     },
     "issueResearch": {
       "status": "no_common_issue",
