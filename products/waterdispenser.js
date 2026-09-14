@@ -3146,7 +3146,7 @@
       "converted": 35800,
       "confidence": "天康淨水台灣官方商城 2026-08-08 exact-model 公開價、尚有庫存與直接購買狀態"
     },
-    "image": "https://tc-water.com.tw/wp-content/uploads/2025/10/TCIH220-02-1024x1024.jpg",
+    "image": "https://cdn.tc-water.com.tw/main/2025/10/TCIH220-02-1024x1024.jpg",
     "buyUrl": "https://tc-water.com.tw/product/tcih220/",
     "buyLabel": "天康淨水官方商城",
     "specs": [
