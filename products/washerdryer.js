@@ -535,9 +535,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/50A8962C97-SP-12443254.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 43032,
-      "converted": 43032,
-      "confidence": "Yahoo購物中心 2026-09-08 exact-model 公開結構化價格"
+      "amount": 44010,
+      "converted": 44010,
+      "confidence": "Yahoo購物中心 2026-09-14 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1264,11 +1264,10 @@
     "image": "https://cs-a.ecimg.tw/items/DPAI1HA900AMJJK/000001_1761009175.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 21912,
-      "converted": 21912,
-      "confidence": "PChome 2026-09-08 晚間 exact SKU 公開單件 88 折價",
-      "basis": "retailer_current",
-      "note": "2026-09-08 晚間由 PChome exact SKU 即時 API 與商品頁確認公開單件 88 折價；不含另申請退稅、會員/信用卡回饋或點數。"
+      "amount": 22410,
+      "converted": 22410,
+      "confidence": "PChome 2026-09-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "basis": "retailer_current"
     },
     "channel": "tw",
     "buyLabel": "PChome 24h 購物",
@@ -2711,9 +2710,9 @@
     "image": "https://pstw.panasonic.com.tw/shop/Upload/Product/20260514190222S44S2J5E.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 39512,
-      "converted": 39512,
-      "confidence": "PChome 2026-09-08 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 44900,
+      "converted": 44900,
+      "confidence": "PChome 2026-09-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
