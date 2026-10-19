@@ -1,12 +1,12 @@
 {
   "summary": {
-    "checkedAt": "2026-09-09T00:00:00+08:00",
+    "checkedAt": "2026-10-19T00:00:00+08:00",
     "total": 1156,
     "commonIssueProducts": 53,
     "noCommonIssueProducts": 1103,
     "pendingManualReview": 0,
     "commonIssues": 54,
-    "searchUnavailable": 616,
+    "searchUnavailable": 614,
     "threshold": {
       "minimumDistinctUsers": 6,
       "minimumPlatforms": 2,
@@ -30,7 +30,7 @@
       "2026-09-08 全量維護僅對新增 MPG 491CQPX QD-OLED 與 NA-LX128EL 完成逐型號跨站負評人工覆核；既有商品保留原始逐筆研究日期。MSI 的零星訊號／VRR／OSD問題及 Panasonic 的烘後桶體燙感分開處置，均未達同一問題6人且跨2個原始網站門檻。依eufy官方停產公告移除E20及其現行研究列，既有386筆逐人證據不變。"
     ],
     "researchedThisRun": 3,
-    "scopeNote": "本輪新增3款逐型號研究；既有逐筆上市與負評日期保留，不表示全部重新研究。"
+    "scopeNote": "本輪僅新納入3款完成逐型號人工負評研究；移除3款官方停產風扇。既有逐筆研究、作者與日期均保留，未聲稱全目錄重新研究。"
   },
   "results": [
     {
@@ -12755,123 +12755,6 @@
       "rejectedCandidates": []
     },
     {
-      "id": "fan-extra-17-dmab2za900exoh3",
-      "category": "fan",
-      "brand": "Philips",
-      "model": "ACR3142CF",
-      "name": "DC 立式循環扇",
-      "identity": {
-        "canonicalModel": "ACR3142CF",
-        "lookupLabel": "Philips ACR3142CF",
-        "aliases": [
-          "Philips ACR3142CF"
-        ],
-        "evidenceUrl": "https://www.momoshop.com.tw/TP/TP0006456/goodsDetail/TP00064560000754"
-      },
-      "workflowStatus": "completed",
-      "manualReview": {
-        "status": "completed",
-        "decision": "no_common_issue",
-        "reviewedAt": "2026-08-29",
-        "checkedPlatforms": [
-          "Reddit",
-          "Mobile01",
-          "PTT",
-          "Dcard",
-          "YouTube"
-        ],
-        "queries": [
-          {
-            "platform": "Reddit",
-            "query": "site:reddit.com \"Philips ACR3142CF\" (problem OR issue OR defect OR failure)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Philips%20ACR3142CF%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-            "targetHost": "reddit.com"
-          },
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"Philips ACR3142CF\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Philips%20ACR3142CF%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com"
-          },
-          {
-            "platform": "PTT",
-            "query": "site:ptt.cc \"Philips ACR3142CF\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Philips%20ACR3142CF%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "ptt.cc"
-          },
-          {
-            "platform": "Dcard",
-            "query": "site:dcard.tw \"Philips ACR3142CF\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Philips%20ACR3142CF%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "dcard.tw"
-          },
-          {
-            "platform": "YouTube",
-            "query": "\"Philips ACR3142CF\" problem issue defect failure broken 災情 故障 異常",
-            "queryUrl": "https://www.youtube.com/results?search_query=%22Philips%20ACR3142CF%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
-            "targetHost": "youtube.com"
-          }
-        ],
-        "candidateDisposition": "ACR3142CF：Yahoo Search 本輪 exact-model discovery 已完成；未發現可確認的 exact-model 原頁候選，未達同一問題至少 6 人／2 個原始網站門檻（不代表完全沒有負評）。",
-        "representativeSources": [],
-        "candidateReviews": [],
-        "reviewerNote": "ACR3142CF：Yahoo Search 本輪 exact-model discovery 已完成；未發現可確認的 exact-model 原頁候選，未達同一問題至少 6 人／2 個原始網站門檻（不代表完全沒有負評）。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
-      },
-      "issueResearch": {
-        "status": "no_common_issue",
-        "checkedAt": "2026-08-29",
-        "summary": "截至查核日，查無達門檻的集中負評／災情",
-        "issues": [],
-        "checkedSources": [
-          {
-            "platform": "Reddit",
-            "query": "site:reddit.com \"Philips ACR3142CF\" (problem OR issue OR defect OR failure)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Philips%20ACR3142CF%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-            "targetHost": "reddit.com"
-          },
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"Philips ACR3142CF\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Philips%20ACR3142CF%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com"
-          },
-          {
-            "platform": "PTT",
-            "query": "site:ptt.cc \"Philips ACR3142CF\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Philips%20ACR3142CF%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "ptt.cc"
-          },
-          {
-            "platform": "Dcard",
-            "query": "site:dcard.tw \"Philips ACR3142CF\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Philips%20ACR3142CF%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "dcard.tw"
-          },
-          {
-            "platform": "YouTube",
-            "query": "\"Philips ACR3142CF\" problem issue defect failure broken 災情 故障 異常",
-            "queryUrl": "https://www.youtube.com/results?search_query=%22Philips%20ACR3142CF%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
-            "targetHost": "youtube.com"
-          }
-        ]
-      },
-      "searchChecks": [
-        {
-          "platform": "Yahoo Search",
-          "query": "(\"Philips ACR3142CF\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
-          "searchUrl": "https://search.yahoo.com/search?p=(%22Philips%20ACR3142CF%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
-          "result": "no_exact_model_result",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-08-29T00:00:00+08:00"
-        }
-      ],
-      "evidence": [],
-      "rejectedCandidates": []
-    },
-    {
       "id": "fan-extra-18-dmacbua900iudv9",
       "category": "fan",
       "brand": "Philips",
@@ -12983,242 +12866,6 @@
           "candidateUrls": [],
           "candidates": [],
           "inspectedAt": "2026-08-29T00:00:00+08:00"
-        }
-      ],
-      "evidence": [],
-      "rejectedCandidates": []
-    },
-    {
-      "id": "fan-extra-19-dmacaka900g0bb4",
-      "category": "fan",
-      "brand": "Philips",
-      "model": "ACR3144WTF",
-      "name": "DC 塔式風扇",
-      "identity": {
-        "canonicalModel": "ACR3144WTF",
-        "lookupLabel": "Philips ACR3144WTF",
-        "aliases": [
-          "Philips ACR3144WTF"
-        ],
-        "evidenceUrl": "https://www.momoshop.com.tw/TP/TP0006456/goodsDetail/TP00064560000457"
-      },
-      "workflowStatus": "completed",
-      "manualReview": {
-        "status": "completed",
-        "decision": "no_common_issue",
-        "reviewedAt": "2026-08-29",
-        "checkedPlatforms": [
-          "Reddit",
-          "Mobile01",
-          "PTT",
-          "Dcard",
-          "YouTube"
-        ],
-        "queries": [
-          {
-            "platform": "Reddit",
-            "query": "site:reddit.com \"Philips ACR3144WTF\" (problem OR issue OR defect OR failure)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Philips%20ACR3144WTF%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-            "targetHost": "reddit.com"
-          },
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"Philips ACR3144WTF\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Philips%20ACR3144WTF%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com"
-          },
-          {
-            "platform": "PTT",
-            "query": "site:ptt.cc \"Philips ACR3144WTF\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Philips%20ACR3144WTF%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "ptt.cc"
-          },
-          {
-            "platform": "Dcard",
-            "query": "site:dcard.tw \"Philips ACR3144WTF\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Philips%20ACR3144WTF%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "dcard.tw"
-          },
-          {
-            "platform": "YouTube",
-            "query": "\"Philips ACR3144WTF\" problem issue defect failure broken 災情 故障 異常",
-            "queryUrl": "https://www.youtube.com/results?search_query=%22Philips%20ACR3144WTF%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
-            "targetHost": "youtube.com"
-          }
-        ],
-        "candidateDisposition": "ACR3144WTF：Yahoo Search 本輪回應失敗，已改以獨立網頁索引重跑 exact-model 查詢；未發現可確認的 exact-model 原頁候選，未達同一問題至少 6 人／2 個原始網站門檻（不代表完全沒有負評）。",
-        "representativeSources": [],
-        "candidateReviews": [],
-        "reviewerNote": "ACR3144WTF：Yahoo Search 本輪回應失敗，已改以獨立網頁索引重跑 exact-model 查詢；未發現可確認的 exact-model 原頁候選，未達同一問題至少 6 人／2 個原始網站門檻（不代表完全沒有負評）。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
-      },
-      "issueResearch": {
-        "status": "no_common_issue",
-        "checkedAt": "2026-08-29",
-        "summary": "截至查核日，查無達門檻的集中負評／災情",
-        "issues": [],
-        "checkedSources": [
-          {
-            "platform": "Reddit",
-            "query": "site:reddit.com \"Philips ACR3144WTF\" (problem OR issue OR defect OR failure)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Philips%20ACR3144WTF%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-            "targetHost": "reddit.com"
-          },
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"Philips ACR3144WTF\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Philips%20ACR3144WTF%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com"
-          },
-          {
-            "platform": "PTT",
-            "query": "site:ptt.cc \"Philips ACR3144WTF\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Philips%20ACR3144WTF%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "ptt.cc"
-          },
-          {
-            "platform": "Dcard",
-            "query": "site:dcard.tw \"Philips ACR3144WTF\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Philips%20ACR3144WTF%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "dcard.tw"
-          },
-          {
-            "platform": "YouTube",
-            "query": "\"Philips ACR3144WTF\" problem issue defect failure broken 災情 故障 異常",
-            "queryUrl": "https://www.youtube.com/results?search_query=%22Philips%20ACR3144WTF%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
-            "targetHost": "youtube.com"
-          }
-        ]
-      },
-      "searchChecks": [
-        {
-          "platform": "Yahoo Search",
-          "query": "(\"Philips ACR3144WTF\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
-          "searchUrl": "https://search.yahoo.com/search?p=(%22Philips%20ACR3144WTF%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
-          "result": "search_unavailable",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-08-29T00:00:00+08:00",
-          "error": "fetch failed"
-        }
-      ],
-      "evidence": [],
-      "rejectedCandidates": []
-    },
-    {
-      "id": "fan-extra-20-dmab6za900flc55",
-      "category": "fan",
-      "brand": "Philips",
-      "model": "AHR5164FD",
-      "name": "DC 冷暖兩用無扇葉風扇",
-      "identity": {
-        "canonicalModel": "AHR5164FD",
-        "lookupLabel": "Philips AHR5164FD",
-        "aliases": [
-          "Philips AHR5164FD"
-        ],
-        "evidenceUrl": "https://www.momoshop.com.tw/TP/TP0003952/goodsDetail/TP00039520004981"
-      },
-      "workflowStatus": "completed",
-      "manualReview": {
-        "status": "completed",
-        "decision": "no_common_issue",
-        "reviewedAt": "2026-08-29",
-        "checkedPlatforms": [
-          "Reddit",
-          "Mobile01",
-          "PTT",
-          "Dcard",
-          "YouTube"
-        ],
-        "queries": [
-          {
-            "platform": "Reddit",
-            "query": "site:reddit.com \"Philips AHR5164FD\" (problem OR issue OR defect OR failure)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Philips%20AHR5164FD%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-            "targetHost": "reddit.com"
-          },
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"Philips AHR5164FD\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Philips%20AHR5164FD%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com"
-          },
-          {
-            "platform": "PTT",
-            "query": "site:ptt.cc \"Philips AHR5164FD\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Philips%20AHR5164FD%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "ptt.cc"
-          },
-          {
-            "platform": "Dcard",
-            "query": "site:dcard.tw \"Philips AHR5164FD\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Philips%20AHR5164FD%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "dcard.tw"
-          },
-          {
-            "platform": "YouTube",
-            "query": "\"Philips AHR5164FD\" problem issue defect failure broken 災情 故障 異常",
-            "queryUrl": "https://www.youtube.com/results?search_query=%22Philips%20AHR5164FD%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
-            "targetHost": "youtube.com"
-          }
-        ],
-        "candidateDisposition": "AHR5164FD：Yahoo Search 本輪回應失敗，已改以獨立網頁索引重跑 exact-model 查詢；未發現可確認的 exact-model 原頁候選，未達同一問題至少 6 人／2 個原始網站門檻（不代表完全沒有負評）。",
-        "representativeSources": [],
-        "candidateReviews": [],
-        "reviewerNote": "AHR5164FD：Yahoo Search 本輪回應失敗，已改以獨立網頁索引重跑 exact-model 查詢；未發現可確認的 exact-model 原頁候選，未達同一問題至少 6 人／2 個原始網站門檻（不代表完全沒有負評）。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
-      },
-      "issueResearch": {
-        "status": "no_common_issue",
-        "checkedAt": "2026-08-29",
-        "summary": "截至查核日，查無達門檻的集中負評／災情",
-        "issues": [],
-        "checkedSources": [
-          {
-            "platform": "Reddit",
-            "query": "site:reddit.com \"Philips AHR5164FD\" (problem OR issue OR defect OR failure)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Philips%20AHR5164FD%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-            "targetHost": "reddit.com"
-          },
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"Philips AHR5164FD\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Philips%20AHR5164FD%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com"
-          },
-          {
-            "platform": "PTT",
-            "query": "site:ptt.cc \"Philips AHR5164FD\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Philips%20AHR5164FD%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "ptt.cc"
-          },
-          {
-            "platform": "Dcard",
-            "query": "site:dcard.tw \"Philips AHR5164FD\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Philips%20AHR5164FD%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "dcard.tw"
-          },
-          {
-            "platform": "YouTube",
-            "query": "\"Philips AHR5164FD\" problem issue defect failure broken 災情 故障 異常",
-            "queryUrl": "https://www.youtube.com/results?search_query=%22Philips%20AHR5164FD%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
-            "targetHost": "youtube.com"
-          }
-        ]
-      },
-      "searchChecks": [
-        {
-          "platform": "Yahoo Search",
-          "query": "(\"Philips AHR5164FD\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
-          "searchUrl": "https://search.yahoo.com/search?p=(%22Philips%20AHR5164FD%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
-          "result": "search_unavailable",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-08-29T00:00:00+08:00",
-          "error": "fetch failed"
         }
       ],
       "evidence": [],
@@ -205050,6 +204697,922 @@
           "specificReason": "取回失敗不推定不存在負評；已讀主文與其他原頁只能支持本輪未達門檻的有限結論。",
           "reason": "取回失敗不推定不存在負評；已讀主文與其他原頁只能支持本輪未達門檻的有限結論。",
           "reviewTimestamp": "2026-09-08T22:48:59.889Z"
+        }
+      ]
+    },
+    {
+      "id": "refrigerator-panasonic-nr-d507xgs-b",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-D507XGS-B",
+      "name": "Panasonic NR-D507XGS-B 500L 四門霧面玻璃變頻冰箱",
+      "identity": {
+        "canonicalModel": "NR-D507XGS-B",
+        "lookupLabel": "Panasonic NR-D507XGS-B",
+        "aliases": [
+          "Panasonic NR-D507XGS-B"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KIO2T"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-10-19",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"NR-D507XGS-B\" (問題 OR 故障 OR 災情)",
+            "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22NR-D507XGS-B%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"NR-D507XGS-B\" (問題 OR 故障 OR 災情)",
+            "queryUrl": "https://www.bing.com/search?q=site%3Aptt.cc%20%22NR-D507XGS-B%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+          }
+        ],
+        "candidateDisposition": "已人工逐一檢視 Mobile01 與 PTT 的 exact-model 搜尋結果；搜尋回應只回傳站外官方／通路頁，沒有可歸屬於 NR-D507XGS-B 的原始使用者回報候選；另以不含顏色後綴 NR-D507XGS 交叉搜尋，亦未發現目標兩站 exact-model 候選。此為跨站搜尋人工覆核，並非完全沒有負評的宣稱。未用其他 Panasonic 型號的災情套用。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "已人工逐一檢視 Mobile01 與 PTT 的 exact-model 搜尋結果；搜尋回應只回傳站外官方／通路頁，沒有可歸屬於 NR-D507XGS-B 的原始使用者回報候選；另以不含顏色後綴 NR-D507XGS 交叉搜尋，亦未發現目標兩站 exact-model 候選。此為跨站搜尋人工覆核，並非完全沒有負評的宣稱。未用其他 Panasonic 型號的災情套用。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-10-19",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"NR-D507XGS-B\" (問題 OR 故障 OR 災情)",
+            "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22NR-D507XGS-B%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"NR-D507XGS-B\" (問題 OR 故障 OR 災情)",
+            "queryUrl": "https://www.bing.com/search?q=site%3Aptt.cc%20%22NR-D507XGS-B%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29",
+            "targetHost": "ptt.cc"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "人工跨站搜尋：Mobile01",
+          "query": "site:mobile01.com \"NR-D507XGS-B\" (問題 OR 故障 OR 災情)",
+          "searchUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22NR-D507XGS-B%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-10-19T00:00:00+08:00"
+        },
+        {
+          "platform": "人工跨站搜尋：PTT",
+          "query": "site:ptt.cc \"NR-D507XGS-B\" (問題 OR 故障 OR 災情)",
+          "searchUrl": "https://www.bing.com/search?q=site%3Aptt.cc%20%22NR-D507XGS-B%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-10-19T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "bidet-panasonic-dl-ru60twws",
+      "category": "bidet",
+      "brand": "Panasonic",
+      "model": "DL-RU60TWWS",
+      "name": "nanoe X 智慧雙溫控瞬熱式洗淨便座",
+      "identity": {
+        "canonicalModel": "DL-RU60TWWS",
+        "lookupLabel": "Panasonic DL-RU60TWWS",
+        "aliases": [
+          "Panasonic DL-RU60TWWS"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMAL8L-A900J5KLF"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-10-19",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT",
+          "Dcard"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "\"DL-RU60TWWS\" site:mobile01.com (故障 OR 災情 OR 維修 OR 漏水)",
+            "queryUrl": "https://www.google.com/search?q=%22DL-RU60TWWS%22%20site%3Amobile01.com%20(%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E7%B6%AD%E4%BF%AE%20OR%20%E6%BC%8F%E6%B0%B4)"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "\"DL-RU60TWWS\" site:ptt.cc (故障 OR 災情 OR 維修 OR 漏水)",
+            "queryUrl": "https://www.google.com/search?q=%22DL-RU60TWWS%22%20site%3Aptt.cc%20(%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E7%B6%AD%E4%BF%AE%20OR%20%E6%BC%8F%E6%B0%B4)"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "\"DL-RU60TWWS\" site:dcard.tw (故障 OR 災情 OR 維修 OR 漏水)",
+            "queryUrl": "https://www.google.com/search?q=%22DL-RU60TWWS%22%20site%3Adcard.tw%20(%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E7%B6%AD%E4%BF%AE%20OR%20%E6%BC%8F%E6%B0%B4)"
+          }
+        ],
+        "candidateDisposition": "DL-RU60TWWS：人工讀開箱主文、11/20頁關鍵字命中段與HCG討論；TOTO舊機受潮及未指明舊機維修排除，PTT與Dcard查詢未找到可回原頁的負評候選。未達同問題六人跨兩網站，不代表完全沒有負評。",
+        "representativeSources": [
+          {
+            "platform": "Mobile01",
+            "title": "Panasonic DL-RU60TWWS 開箱體驗",
+            "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7200062"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "Panasonic DL-RU60TWWS 討論第20頁",
+            "url": "https://www.mobile01.com/topicdetail.php?f=168&p=20&t=7200062"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "Panasonic DL-RU60TWWS 討論第11頁",
+            "url": "https://www.mobile01.com/topicdetail.php?f=168&p=11&t=7200062"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "HCG和成Legato麗佳多C4283馬桶適用的免治馬桶座",
+            "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7254210"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7200062",
+            "title": "Panasonic DL-RU60TWWS 開箱體驗",
+            "exactModel": true,
+            "sourceExcerpt": "樓主陳拔以 DL-RU60TWWS 作兩週開箱體驗，後續活動要求回覆最喜歡的功能；主文談安裝與功能，未提出集中故障。",
+            "specificReason": "主文是正面功能體驗；活動讚美與抽獎回覆不計負評，未找到六位同一故障的第一人稱回報。",
+            "platform": "Mobile01",
+            "outcome": "excluded",
+            "reviewedAt": "2026-10-19",
+            "independentAuthors": 0
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=168&p=20&t=7200062",
+            "title": "Panasonic DL-RU60TWWS 討論第20頁",
+            "exactModel": false,
+            "sourceExcerpt": "Simon23 第196樓詢問 Panasonic 是否防水，同段清楚寫「我家用TOTO」並說舊便座電路受潮維修。",
+            "specificReason": "該故障回報明確屬於 TOTO 舊便座，並無同型號；Panasonic DL-RU60TWWS 只作防水提問，不計入此產品故障作者。",
+            "platform": "Mobile01",
+            "outcome": "excluded",
+            "reviewedAt": "2026-10-19",
+            "independentAuthors": 0
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=168&p=11&t=7200062",
+            "title": "Panasonic DL-RU60TWWS 討論第11頁",
+            "exactModel": true,
+            "sourceExcerpt": "Jesus01 第105樓喜歡遙控器可減少舊機型被洗澡水濺到的困擾；同頁其他回覆談 nanoe X 或夜燈功能。",
+            "specificReason": "維修敘述是舊機型一般困擾與選購期待，未聲稱本人使用 DL-RU60TWWS 遭故障，活動功能回覆不能當成獨立災情。",
+            "platform": "Mobile01",
+            "outcome": "excluded",
+            "reviewedAt": "2026-10-19",
+            "independentAuthors": 0
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7254210",
+            "title": "HCG和成Legato麗佳多C4283馬桶適用的免治馬桶座",
+            "exactModel": false,
+            "sourceExcerpt": "回覆表示 Panasonic 瞬熱好用、自己家裝 RU60TWWS；主題是 HCG C4283 的馬桶形狀與便座相容性。",
+            "specificReason": "RU60TWWS 是省略 DL 前綴的正面選購回覆，沒有完整 exact-model 故障；HCG 馬桶相容性問題不得歸到 Panasonic 機器。",
+            "platform": "Mobile01",
+            "outcome": "excluded",
+            "reviewedAt": "2026-10-19",
+            "independentAuthors": 0
+          }
+        ],
+        "reviewerNote": "DL-RU60TWWS：人工區分活動留言、選購提問與真正第一人稱故障，未轉移同串其他品牌問題；只覆核上述實際頁面，不宣稱讀完全部25頁或全網無負評。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-10-19",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "\"DL-RU60TWWS\" site:mobile01.com (故障 OR 災情 OR 維修 OR 漏水)",
+            "queryUrl": "https://www.google.com/search?q=%22DL-RU60TWWS%22%20site%3Amobile01.com%20(%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E7%B6%AD%E4%BF%AE%20OR%20%E6%BC%8F%E6%B0%B4)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "\"DL-RU60TWWS\" site:ptt.cc (故障 OR 災情 OR 維修 OR 漏水)",
+            "queryUrl": "https://www.google.com/search?q=%22DL-RU60TWWS%22%20site%3Aptt.cc%20(%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E7%B6%AD%E4%BF%AE%20OR%20%E6%BC%8F%E6%B0%B4)",
+            "targetHost": "ptt.cc"
+          },
+          {
+            "platform": "Dcard",
+            "query": "\"DL-RU60TWWS\" site:dcard.tw (故障 OR 災情 OR 維修 OR 漏水)",
+            "queryUrl": "https://www.google.com/search?q=%22DL-RU60TWWS%22%20site%3Adcard.tw%20(%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E7%B6%AD%E4%BF%AE%20OR%20%E6%BC%8F%E6%B0%B4)",
+            "targetHost": "dcard.tw"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "人工跨站搜尋：Mobile01",
+          "query": "\"DL-RU60TWWS\" site:mobile01.com (故障 OR 災情 OR 維修 OR 漏水)",
+          "searchUrl": "https://www.google.com/search?q=%22DL-RU60TWWS%22%20site%3Amobile01.com%20(%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E7%B6%AD%E4%BF%AE%20OR%20%E6%BC%8F%E6%B0%B4)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 3,
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=168&t=7200062",
+            "https://www.mobile01.com/topicdetail.php?f=168&p=20&t=7200062",
+            "https://www.mobile01.com/topicdetail.php?f=168&p=11&t=7200062"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7200062",
+              "title": "Panasonic DL-RU60TWWS 開箱體驗",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=168&p=20&t=7200062",
+              "title": "Panasonic DL-RU60TWWS 討論第20頁",
+              "exactModel": false
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=168&p=11&t=7200062",
+              "title": "Panasonic DL-RU60TWWS 討論第11頁",
+              "exactModel": true
+            }
+          ],
+          "inspectedAt": "2026-10-19T00:00:00+08:00"
+        },
+        {
+          "platform": "人工跨站搜尋：PTT",
+          "query": "\"DL-RU60TWWS\" site:ptt.cc (故障 OR 災情 OR 維修 OR 漏水)",
+          "searchUrl": "https://www.google.com/search?q=%22DL-RU60TWWS%22%20site%3Aptt.cc%20(%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E7%B6%AD%E4%BF%AE%20OR%20%E6%BC%8F%E6%B0%B4)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-10-19T00:00:00+08:00"
+        },
+        {
+          "platform": "人工跨站搜尋：Dcard",
+          "query": "\"DL-RU60TWWS\" site:dcard.tw (故障 OR 災情 OR 維修 OR 漏水)",
+          "searchUrl": "https://www.google.com/search?q=%22DL-RU60TWWS%22%20site%3Adcard.tw%20(%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E7%B6%AD%E4%BF%AE%20OR%20%E6%BC%8F%E6%B0%B4)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-10-19T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7200062",
+          "title": "Panasonic DL-RU60TWWS 開箱體驗",
+          "exactModel": true,
+          "sourceExcerpt": "樓主陳拔以 DL-RU60TWWS 作兩週開箱體驗，後續活動要求回覆最喜歡的功能；主文談安裝與功能，未提出集中故障。",
+          "specificReason": "主文是正面功能體驗；活動讚美與抽獎回覆不計負評，未找到六位同一故障的第一人稱回報。",
+          "platform": "Mobile01",
+          "outcome": "excluded",
+          "reviewedAt": "2026-10-19",
+          "independentAuthors": 0,
+          "reason": "主文是正面功能體驗；活動讚美與抽獎回覆不計負評，未找到六位同一故障的第一人稱回報。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=168&p=20&t=7200062",
+          "title": "Panasonic DL-RU60TWWS 討論第20頁",
+          "exactModel": false,
+          "sourceExcerpt": "Simon23 第196樓詢問 Panasonic 是否防水，同段清楚寫「我家用TOTO」並說舊便座電路受潮維修。",
+          "specificReason": "該故障回報明確屬於 TOTO 舊便座，並無同型號；Panasonic DL-RU60TWWS 只作防水提問，不計入此產品故障作者。",
+          "platform": "Mobile01",
+          "outcome": "excluded",
+          "reviewedAt": "2026-10-19",
+          "independentAuthors": 0,
+          "reason": "該故障回報明確屬於 TOTO 舊便座，並無同型號；Panasonic DL-RU60TWWS 只作防水提問，不計入此產品故障作者。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=168&p=11&t=7200062",
+          "title": "Panasonic DL-RU60TWWS 討論第11頁",
+          "exactModel": true,
+          "sourceExcerpt": "Jesus01 第105樓喜歡遙控器可減少舊機型被洗澡水濺到的困擾；同頁其他回覆談 nanoe X 或夜燈功能。",
+          "specificReason": "維修敘述是舊機型一般困擾與選購期待，未聲稱本人使用 DL-RU60TWWS 遭故障，活動功能回覆不能當成獨立災情。",
+          "platform": "Mobile01",
+          "outcome": "excluded",
+          "reviewedAt": "2026-10-19",
+          "independentAuthors": 0,
+          "reason": "維修敘述是舊機型一般困擾與選購期待，未聲稱本人使用 DL-RU60TWWS 遭故障，活動功能回覆不能當成獨立災情。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7254210",
+          "title": "HCG和成Legato麗佳多C4283馬桶適用的免治馬桶座",
+          "exactModel": false,
+          "sourceExcerpt": "回覆表示 Panasonic 瞬熱好用、自己家裝 RU60TWWS；主題是 HCG C4283 的馬桶形狀與便座相容性。",
+          "specificReason": "RU60TWWS 是省略 DL 前綴的正面選購回覆，沒有完整 exact-model 故障；HCG 馬桶相容性問題不得歸到 Panasonic 機器。",
+          "platform": "Mobile01",
+          "outcome": "excluded",
+          "reviewedAt": "2026-10-19",
+          "independentAuthors": 0,
+          "reason": "RU60TWWS 是省略 DL 前綴的正面選購回覆，沒有完整 exact-model 故障；HCG 馬桶相容性問題不得歸到 Panasonic 機器。"
+        }
+      ]
+    },
+    {
+      "id": "soundbar-sonos-beam-ultra",
+      "category": "soundbar",
+      "brand": "Sonos",
+      "model": "Beam Ultra",
+      "name": "7.1.2 聲道 Dolby Atmos 緊湊型 Soundbar（美國黑色版）",
+      "identity": {
+        "canonicalModel": "Beam Ultra",
+        "lookupLabel": "Sonos Beam Ultra",
+        "aliases": [
+          "Sonos Beam Ultra"
+        ],
+        "evidenceUrl": "https://www.sonos.com/en-us/shop/beam-ultra"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-10-19",
+        "checkedPlatforms": [
+          "Reddit",
+          "Sonos Community",
+          "Best Buy"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"Sonos Beam Ultra\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Sonos%20Beam%20Ultra%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20failure%29"
+          },
+          {
+            "platform": "Sonos Community",
+            "targetHost": "en.community.sonos.com",
+            "query": "site:en.community.sonos.com \"Beam Ultra\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.google.com/search?q=site%3Aen.community.sonos.com%20%22Beam%20Ultra%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20failure%29"
+          },
+          {
+            "platform": "Best Buy",
+            "targetHost": "bestbuy.com",
+            "query": "\"Sonos Beam Ultra\" site:bestbuy.com",
+            "queryUrl": "https://www.google.com/search?q=%22Sonos%20Beam%20Ultra%22%20site%3Abestbuy.com"
+          }
+        ],
+        "candidateDisposition": "Beam Ultra：已回到 Reddit、Sonos Community 與 Best Buy 原頁覆核；光纖開機、TrueHD斷音、SVC誤觸及App/相容性候選皆未達同一問題六人跨兩站門檻。",
+        "representativeSources": [
+          {
+            "platform": "Sonos Community",
+            "title": "Beam Ultra stuck at flashing white light when using optical adapter",
+            "url": "https://en.community.sonos.com/ask-a-question-228987/beam-ultra-stuck-at-flashing-white-light-when-using-optical-adapter-6935063"
+          },
+          {
+            "platform": "Sonos Community",
+            "title": "beam ultra problem",
+            "url": "https://en.community.sonos.com/speakers-229128/beam-ultra-problem-6935015"
+          },
+          {
+            "platform": "Sonos Community",
+            "title": "Sonos Voice Control false activations on Beam Ultra since Sonos 27",
+            "url": "https://en.community.sonos.com/sonos-voice-control-229127/sonos-voice-control-false-activations-on-beam-ultra-since-sonos-27-6935042"
+          },
+          {
+            "platform": "Reddit",
+            "title": "My impression on Beam ultra+apple tv, Switched from HomePod",
+            "url": "https://www.reddit.com/r/sonos/comments/1wwuowk/my_impression_on_beam_ultraapple_tv_switched_from/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Mildly disappointed with Beam Ultra",
+            "url": "https://www.reddit.com/r/sonos/comments/1wtsoqr/mildly_disappointed_with_beam_ultra/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Just got my Beam Ultra today, upgrading from a Gen 1 beam, my thoughts.",
+            "url": "https://www.reddit.com/r/sonos/comments/1wsorhj/just_got_my_beam_ultra_today_upgrading_from_a_gen/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Beam Ultra - First Impressions",
+            "url": "https://www.reddit.com/r/sonos/comments/1wsr48d/beam_ultra_first_impressions/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Delay between speakers",
+            "url": "https://www.reddit.com/r/sonos/comments/1x8z6rr/delay_between_speakers/"
+          },
+          {
+            "platform": "Sonos Community",
+            "title": "Beam Ultra software compatibility",
+            "url": "https://en.community.sonos.com/controllers-and-music-services-229131/beam-ultra-software-compatibility-6934924"
+          },
+          {
+            "platform": "Sonos Community",
+            "title": "Beam Ultra does not have Alexa or Google voice control?",
+            "url": "https://en.community.sonos.com/home-theater-228993/beam-ultra-does-not-have-alexa-or-google-voice-control-6934686"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Beam Ultra and Symfonisk Lamps",
+            "url": "https://www.reddit.com/r/sonos/comments/1x92b2y/beam_ultra_and_symfonisk_lamps/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Beam Gen 2 + 4 Era 100s + Sub Mini — is the new Beam Ultra worth upgrading for better Atmos height effects?",
+            "url": "https://www.reddit.com/r/sonos/comments/1x82mr5/beam_gen_2_4_era_100s_sub_mini_is_the_new_beam/"
+          },
+          {
+            "platform": "Best Buy",
+            "title": "Sonos Beam Ultra customer reviews (SKU 6687825)",
+            "url": "https://www.bestbuy.com/product/sonos-beam-ultra-7-1-2-channel-wireless-smart-soundbar-with-dolby-atmos-black/J39H378LYY/sku/6687825/reviews"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "url": "https://en.community.sonos.com/ask-a-question-228987/beam-ultra-stuck-at-flashing-white-light-when-using-optical-adapter-6935063",
+            "title": "Beam Ultra stuck at flashing white light when using optical adapter",
+            "platform": "Sonos Community",
+            "exactModel": true,
+            "independentAuthors": 1,
+            "sourceExcerpt": "kkl888 於 2026-10-18 回報使用官方光纖轉接頭時重新開機卡在白燈閃爍；更換機與展示機也重現。",
+            "specificReason": "只有 kkl888 一位可辨識第一人稱回報者；其測試三台不能算三名使用者。其他兩名回覆是建議聯絡客服，沒有自身相同故障，未達六名跨兩站。",
+            "productId": "soundbar-sonos-beam-ultra",
+            "reviewedAt": "2026-10-19",
+            "outcome": "excluded"
+          },
+          {
+            "url": "https://en.community.sonos.com/speakers-229128/beam-ultra-problem-6935015",
+            "title": "beam ultra problem",
+            "platform": "Sonos Community",
+            "exactModel": true,
+            "independentAuthors": 1,
+            "sourceExcerpt": "Chainy75 於 2026-10-09 回報 PC 經 LG G4 bitstream 高碼率 TrueHD Atmos 時聲音中斷，換回 Beam Gen 2 正常。",
+            "specificReason": "只有 Chainy75 一位 exact-model 第一人稱作者；kdowling 僅提供診斷建議。不能與光纖開機白燈或其他型號 CEC 問題混為同一故障，未達門檻。",
+            "productId": "soundbar-sonos-beam-ultra",
+            "reviewedAt": "2026-10-19",
+            "outcome": "excluded"
+          },
+          {
+            "url": "https://en.community.sonos.com/sonos-voice-control-229127/sonos-voice-control-false-activations-on-beam-ultra-since-sonos-27-6935042",
+            "title": "Sonos Voice Control false activations on Beam Ultra since Sonos 27",
+            "platform": "Sonos Community",
+            "exactModel": true,
+            "independentAuthors": 1,
+            "sourceExcerpt": "Chardema 於 2026-10-14 說 Beam Ultra 配 Era 100、LG C5、Apple TV 4K，在 Sonos 27 下看電視時無人說話仍觸發 SVC。",
+            "specificReason": "Chardema 為唯一同症狀第一人稱作者；Airgetlam 是排除故障建議，不是第二位回報。此語音誤觸與高碼率斷音、光纖白燈不同，未達六名跨兩站。",
+            "productId": "soundbar-sonos-beam-ultra",
+            "reviewedAt": "2026-10-19",
+            "outcome": "excluded"
+          },
+          {
+            "url": "https://www.reddit.com/r/sonos/comments/1wwuowk/my_impression_on_beam_ultraapple_tv_switched_from/",
+            "title": "My impression on Beam ultra+apple tv, Switched from HomePod",
+            "platform": "Reddit",
+            "exactModel": true,
+            "independentAuthors": 1,
+            "sourceExcerpt": "CockroachLatte 的 Beam Ultra 初評正面；Zarrona13 留言說每次 Crunchyroll 約有一秒斷音，並確認使用 Samsung TV，樓主表示沒有遇到。",
+            "specificReason": "Zarrona13 是一位疑似同型號的第一人稱斷音候選；上下文明確保留 Crunchyroll/電視相容性疑問。即使與 Chainy75 合併為斷音線索也只有兩人兩站，不能升格為六名集中災情。",
+            "productId": "soundbar-sonos-beam-ultra",
+            "reviewedAt": "2026-10-19",
+            "outcome": "excluded"
+          },
+          {
+            "url": "https://www.reddit.com/r/sonos/comments/1wtsoqr/mildly_disappointed_with_beam_ultra/",
+            "title": "Mildly disappointed with Beam Ultra",
+            "platform": "Reddit",
+            "exactModel": true,
+            "independentAuthors": 1,
+            "sourceExcerpt": "LucidAtom 起初覺得 Beam Ultra 聽音樂單薄、電影對話落差大；其後確認原先接收到 Stereo PCM，改為 5.1 後明說有巨大改善並更新主文。",
+            "specificReason": "已讀作者更新與回覆，這一例的已確認成因是訊源/電視輸出設定，不能當作持續存在的產品共通故障。其他討論多屬 Arc/Arc Ultra 或一般聲霸音樂偏好，不能轉計入 Beam Ultra。",
+            "productId": "soundbar-sonos-beam-ultra",
+            "reviewedAt": "2026-10-19",
+            "outcome": "excluded"
+          },
+          {
+            "url": "https://www.reddit.com/r/sonos/comments/1wsorhj/just_got_my_beam_ultra_today_upgrading_from_a_gen/",
+            "title": "Just got my Beam Ultra today, upgrading from a Gen 1 beam, my thoughts.",
+            "platform": "Reddit",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "sourceExcerpt": "Admiral_Kizaru 的 Beam Ultra 使用心得正面；HudsonValleyChris 明講故障的是 Beam 1，RHB1027 與 tacotimes01 明講 Beam 2 以及舊電視連接問題。",
+            "specificReason": "原頁中抱怨斷線的人明確使用 Beam 1/2；作者本人沒有 Beam Ultra 故障。不得把同討論串中的前代回報因標題含 Ultra 而跨型號計入。",
+            "productId": "soundbar-sonos-beam-ultra",
+            "reviewedAt": "2026-10-19",
+            "outcome": "excluded"
+          },
+          {
+            "url": "https://www.reddit.com/r/sonos/comments/1wsr48d/beam_ultra_first_impressions/",
+            "title": "Beam Ultra - First Impressions",
+            "platform": "Reddit",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "sourceExcerpt": "vazandrew1 比較自己的 Beam 2 與新 Beam Ultra，回報音場、中央聲道與環繞改善；l0gan_5 也表示升級後更滿意。",
+            "specificReason": "屬第一人稱正面初評與購買比較，沒有可計入的相同故障回報；不把詢問 RAM 或規格差異當負評。",
+            "productId": "soundbar-sonos-beam-ultra",
+            "reviewedAt": "2026-10-19",
+            "outcome": "excluded"
+          },
+          {
+            "url": "https://www.reddit.com/r/sonos/comments/1x8z6rr/delay_between_speakers/",
+            "title": "Delay between speakers",
+            "platform": "Reddit",
+            "exactModel": false,
+            "independentAuthors": 0,
+            "sourceExcerpt": "Popular-Candidate227 說多種 beam/ultra/Era 組合在 Sonos 音樂 App 播放約三十分鐘出現不同步，但未指明 beam 世代或 ultra 究竟是 Beam Ultra 或 Arc Ultra。",
+            "specificReason": "作者沒有可核對的 Beam Ultra exact-model 身分，且說長年、多裝置皆發生。不得由搜尋命中就推定此處 ultra 是本型號，故 exactModel=false，不納入。",
+            "productId": "soundbar-sonos-beam-ultra",
+            "reviewedAt": "2026-10-19",
+            "outcome": "excluded"
+          },
+          {
+            "url": "https://en.community.sonos.com/controllers-and-music-services-229131/beam-ultra-software-compatibility-6934924",
+            "title": "Beam Ultra software compatibility",
+            "platform": "Sonos Community",
+            "exactModel": true,
+            "independentAuthors": 1,
+            "sourceExcerpt": "Schlumpf 於 2026-09-29 說 Beam Ultra 更新後把 Alexa 顯示為不相容，前日嘗試加入 Alexa 曾遇錯；其後表示整體滿意、壁掛理線最後順利。",
+            "specificReason": "只有一位實機 Alexa 設定經驗，其他回覆討論 App 分批推送或尚未開箱；不能計為多位相同故障。原頁不同分類重導向仍是同一串 6934924。",
+            "productId": "soundbar-sonos-beam-ultra",
+            "reviewedAt": "2026-10-19",
+            "outcome": "excluded"
+          },
+          {
+            "url": "https://en.community.sonos.com/home-theater-228993/beam-ultra-does-not-have-alexa-or-google-voice-control-6934686",
+            "title": "Beam Ultra does not have Alexa or Google voice control?",
+            "platform": "Sonos Community",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "sourceExcerpt": "drewbab1229 在發售前詢問 Alexa/Google 語音服務，並說多年未買新產品；回覆討論官方 FAQ/產品指南、Alexa+ 尚待推出。",
+            "specificReason": "這是發售前功能與文件爭議，作者不是本型號實機故障回報者。不能將三十多則辯論回覆或按讚累計為第一人稱受災人數。",
+            "productId": "soundbar-sonos-beam-ultra",
+            "reviewedAt": "2026-10-19",
+            "outcome": "excluded"
+          },
+          {
+            "url": "https://www.reddit.com/r/sonos/comments/1x92b2y/beam_ultra_and_symfonisk_lamps/",
+            "title": "Beam Ultra and Symfonisk Lamps",
+            "platform": "Reddit",
+            "exactModel": true,
+            "independentAuthors": 1,
+            "sourceExcerpt": "knugget005 說第一代 Symfonisk 燈無法配 Beam Ultra 當後環繞，後續回覆使用第三方 App 可行；其他人討論原廠世代支援限制。",
+            "specificReason": "只見一位本型號實際配對作者；功能相容性限制必須在購買前確認，不能把尚未升級者的提問和第三方 App 建議當同故障多名使用者。",
+            "productId": "soundbar-sonos-beam-ultra",
+            "reviewedAt": "2026-10-19",
+            "outcome": "excluded"
+          },
+          {
+            "url": "https://www.reddit.com/r/sonos/comments/1x82mr5/beam_gen_2_4_era_100s_sub_mini_is_the_new_beam/",
+            "title": "Beam Gen 2 + 4 Era 100s + Sub Mini — is the new Beam Ultra worth upgrading for better Atmos height effects?",
+            "platform": "Reddit",
+            "exactModel": true,
+            "independentAuthors": 1,
+            "sourceExcerpt": "Fantastic_Hat1475 是 Beam Gen 2 用戶詢問升級；Such_Play_1524 說擁有 Beam Ultra，第三方前聲道設定在此型號不能用。",
+            "specificReason": "原作者尚未升級，不能當 Beam Ultra 回報者；唯一實機留言涉及非官方前聲道用法，不能與原廠後環繞配對或硬體缺陷混同，未達集中問題門檻。",
+            "productId": "soundbar-sonos-beam-ultra",
+            "reviewedAt": "2026-10-19",
+            "outcome": "excluded"
+          },
+          {
+            "url": "https://www.bestbuy.com/product/sonos-beam-ultra-7-1-2-channel-wireless-smart-soundbar-with-dolby-atmos-black/J39H378LYY/sku/6687825/reviews",
+            "title": "Sonos Beam Ultra customer reviews (SKU 6687825)",
+            "platform": "Best Buy",
+            "exactModel": true,
+            "independentAuthors": 1,
+            "sourceExcerpt": "NAMO 的 Big, Generational Improvements in Audio 評論明說 Android 設定與更新順利，但批評日後 App 操作及 CEC；頁面另有 AI 彙整 Wi-Fi 穩定性的文字。",
+            "specificReason": "人工查看原作者評語，只記一名可辨識使用者的 App/CEC 操作抱怨；AI 顧客總結、總星數與推薦比例不計人數。沒有六位同一故障、跨兩個原始網站的逐人證據。",
+            "productId": "soundbar-sonos-beam-ultra",
+            "reviewedAt": "2026-10-19",
+            "outcome": "excluded"
+          }
+        ],
+        "reviewerNote": "Beam Ultra：新上市僅三週，已存在少量真實負評；kkl888三台只計一人，Chainy75一人，Chardema一人，Zarrona13一名疑似斷音候選；不混併不同症狀、前代機種、Arc Ultra、AI摘要或非使用者爭論。判為no_common_issue只代表本次未達六人且跨兩站門檻，不代表沒有負評。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-10-19",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Sonos Beam Ultra\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Sonos%20Beam%20Ultra%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20failure%29",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Sonos Community",
+            "query": "site:en.community.sonos.com \"Beam Ultra\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.google.com/search?q=site%3Aen.community.sonos.com%20%22Beam%20Ultra%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20failure%29",
+            "targetHost": "en.community.sonos.com"
+          },
+          {
+            "platform": "Best Buy",
+            "query": "\"Sonos Beam Ultra\" site:bestbuy.com",
+            "queryUrl": "https://www.google.com/search?q=%22Sonos%20Beam%20Ultra%22%20site%3Abestbuy.com",
+            "targetHost": "bestbuy.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "人工跨站搜尋：Reddit",
+          "query": "site:reddit.com \"Sonos Beam Ultra\" (problem OR issue OR defect OR failure)",
+          "searchUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Sonos%20Beam%20Ultra%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20failure%29",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 6,
+          "candidateUrls": [
+            "https://www.reddit.com/r/sonos/comments/1wwuowk/my_impression_on_beam_ultraapple_tv_switched_from/",
+            "https://www.reddit.com/r/sonos/comments/1wtsoqr/mildly_disappointed_with_beam_ultra/",
+            "https://www.reddit.com/r/sonos/comments/1wsorhj/just_got_my_beam_ultra_today_upgrading_from_a_gen/",
+            "https://www.reddit.com/r/sonos/comments/1wsr48d/beam_ultra_first_impressions/",
+            "https://www.reddit.com/r/sonos/comments/1x92b2y/beam_ultra_and_symfonisk_lamps/",
+            "https://www.reddit.com/r/sonos/comments/1x82mr5/beam_gen_2_4_era_100s_sub_mini_is_the_new_beam/"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.reddit.com/r/sonos/comments/1wwuowk/my_impression_on_beam_ultraapple_tv_switched_from/",
+              "title": "My impression on Beam ultra+apple tv, Switched from HomePod",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.reddit.com/r/sonos/comments/1wtsoqr/mildly_disappointed_with_beam_ultra/",
+              "title": "Mildly disappointed with Beam Ultra",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.reddit.com/r/sonos/comments/1wsorhj/just_got_my_beam_ultra_today_upgrading_from_a_gen/",
+              "title": "Just got my Beam Ultra today, upgrading from a Gen 1 beam, my thoughts.",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.reddit.com/r/sonos/comments/1wsr48d/beam_ultra_first_impressions/",
+              "title": "Beam Ultra - First Impressions",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.reddit.com/r/sonos/comments/1x92b2y/beam_ultra_and_symfonisk_lamps/",
+              "title": "Beam Ultra and Symfonisk Lamps",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.reddit.com/r/sonos/comments/1x82mr5/beam_gen_2_4_era_100s_sub_mini_is_the_new_beam/",
+              "title": "Beam Gen 2 + 4 Era 100s + Sub Mini — is the new Beam Ultra worth upgrading for better Atmos height effects?",
+              "exactModel": true
+            }
+          ],
+          "inspectedAt": "2026-10-19T00:00:00+08:00"
+        },
+        {
+          "platform": "人工跨站搜尋：Sonos Community",
+          "query": "site:en.community.sonos.com \"Beam Ultra\" (problem OR issue OR defect OR failure)",
+          "searchUrl": "https://www.google.com/search?q=site%3Aen.community.sonos.com%20%22Beam%20Ultra%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20failure%29",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 5,
+          "candidateUrls": [
+            "https://en.community.sonos.com/ask-a-question-228987/beam-ultra-stuck-at-flashing-white-light-when-using-optical-adapter-6935063",
+            "https://en.community.sonos.com/speakers-229128/beam-ultra-problem-6935015",
+            "https://en.community.sonos.com/sonos-voice-control-229127/sonos-voice-control-false-activations-on-beam-ultra-since-sonos-27-6935042",
+            "https://en.community.sonos.com/controllers-and-music-services-229131/beam-ultra-software-compatibility-6934924",
+            "https://en.community.sonos.com/home-theater-228993/beam-ultra-does-not-have-alexa-or-google-voice-control-6934686"
+          ],
+          "candidates": [
+            {
+              "url": "https://en.community.sonos.com/ask-a-question-228987/beam-ultra-stuck-at-flashing-white-light-when-using-optical-adapter-6935063",
+              "title": "Beam Ultra stuck at flashing white light when using optical adapter",
+              "exactModel": true
+            },
+            {
+              "url": "https://en.community.sonos.com/speakers-229128/beam-ultra-problem-6935015",
+              "title": "beam ultra problem",
+              "exactModel": true
+            },
+            {
+              "url": "https://en.community.sonos.com/sonos-voice-control-229127/sonos-voice-control-false-activations-on-beam-ultra-since-sonos-27-6935042",
+              "title": "Sonos Voice Control false activations on Beam Ultra since Sonos 27",
+              "exactModel": true
+            },
+            {
+              "url": "https://en.community.sonos.com/controllers-and-music-services-229131/beam-ultra-software-compatibility-6934924",
+              "title": "Beam Ultra software compatibility",
+              "exactModel": true
+            },
+            {
+              "url": "https://en.community.sonos.com/home-theater-228993/beam-ultra-does-not-have-alexa-or-google-voice-control-6934686",
+              "title": "Beam Ultra does not have Alexa or Google voice control?",
+              "exactModel": true
+            }
+          ],
+          "inspectedAt": "2026-10-19T00:00:00+08:00"
+        },
+        {
+          "platform": "人工跨站搜尋：Best Buy",
+          "query": "\"Sonos Beam Ultra\" site:bestbuy.com",
+          "searchUrl": "https://www.google.com/search?q=%22Sonos%20Beam%20Ultra%22%20site%3Abestbuy.com",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.bestbuy.com/product/sonos-beam-ultra-7-1-2-channel-wireless-smart-soundbar-with-dolby-atmos-black/J39H378LYY/sku/6687825/reviews"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.bestbuy.com/product/sonos-beam-ultra-7-1-2-channel-wireless-smart-soundbar-with-dolby-atmos-black/J39H378LYY/sku/6687825/reviews",
+              "title": "Sonos Beam Ultra customer reviews (SKU 6687825)",
+              "exactModel": true
+            }
+          ],
+          "inspectedAt": "2026-10-19T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "url": "https://en.community.sonos.com/ask-a-question-228987/beam-ultra-stuck-at-flashing-white-light-when-using-optical-adapter-6935063",
+          "title": "Beam Ultra stuck at flashing white light when using optical adapter",
+          "platform": "Sonos Community",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "sourceExcerpt": "kkl888 於 2026-10-18 回報使用官方光纖轉接頭時重新開機卡在白燈閃爍；更換機與展示機也重現。",
+          "specificReason": "只有 kkl888 一位可辨識第一人稱回報者；其測試三台不能算三名使用者。其他兩名回覆是建議聯絡客服，沒有自身相同故障，未達六名跨兩站。",
+          "productId": "soundbar-sonos-beam-ultra",
+          "reviewedAt": "2026-10-19",
+          "outcome": "excluded",
+          "reason": "只有 kkl888 一位可辨識第一人稱回報者；其測試三台不能算三名使用者。其他兩名回覆是建議聯絡客服，沒有自身相同故障，未達六名跨兩站。"
+        },
+        {
+          "url": "https://en.community.sonos.com/speakers-229128/beam-ultra-problem-6935015",
+          "title": "beam ultra problem",
+          "platform": "Sonos Community",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "sourceExcerpt": "Chainy75 於 2026-10-09 回報 PC 經 LG G4 bitstream 高碼率 TrueHD Atmos 時聲音中斷，換回 Beam Gen 2 正常。",
+          "specificReason": "只有 Chainy75 一位 exact-model 第一人稱作者；kdowling 僅提供診斷建議。不能與光纖開機白燈或其他型號 CEC 問題混為同一故障，未達門檻。",
+          "productId": "soundbar-sonos-beam-ultra",
+          "reviewedAt": "2026-10-19",
+          "outcome": "excluded",
+          "reason": "只有 Chainy75 一位 exact-model 第一人稱作者；kdowling 僅提供診斷建議。不能與光纖開機白燈或其他型號 CEC 問題混為同一故障，未達門檻。"
+        },
+        {
+          "url": "https://en.community.sonos.com/sonos-voice-control-229127/sonos-voice-control-false-activations-on-beam-ultra-since-sonos-27-6935042",
+          "title": "Sonos Voice Control false activations on Beam Ultra since Sonos 27",
+          "platform": "Sonos Community",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "sourceExcerpt": "Chardema 於 2026-10-14 說 Beam Ultra 配 Era 100、LG C5、Apple TV 4K，在 Sonos 27 下看電視時無人說話仍觸發 SVC。",
+          "specificReason": "Chardema 為唯一同症狀第一人稱作者；Airgetlam 是排除故障建議，不是第二位回報。此語音誤觸與高碼率斷音、光纖白燈不同，未達六名跨兩站。",
+          "productId": "soundbar-sonos-beam-ultra",
+          "reviewedAt": "2026-10-19",
+          "outcome": "excluded",
+          "reason": "Chardema 為唯一同症狀第一人稱作者；Airgetlam 是排除故障建議，不是第二位回報。此語音誤觸與高碼率斷音、光纖白燈不同，未達六名跨兩站。"
+        },
+        {
+          "url": "https://www.reddit.com/r/sonos/comments/1wwuowk/my_impression_on_beam_ultraapple_tv_switched_from/",
+          "title": "My impression on Beam ultra+apple tv, Switched from HomePod",
+          "platform": "Reddit",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "sourceExcerpt": "CockroachLatte 的 Beam Ultra 初評正面；Zarrona13 留言說每次 Crunchyroll 約有一秒斷音，並確認使用 Samsung TV，樓主表示沒有遇到。",
+          "specificReason": "Zarrona13 是一位疑似同型號的第一人稱斷音候選；上下文明確保留 Crunchyroll/電視相容性疑問。即使與 Chainy75 合併為斷音線索也只有兩人兩站，不能升格為六名集中災情。",
+          "productId": "soundbar-sonos-beam-ultra",
+          "reviewedAt": "2026-10-19",
+          "outcome": "excluded",
+          "reason": "Zarrona13 是一位疑似同型號的第一人稱斷音候選；上下文明確保留 Crunchyroll/電視相容性疑問。即使與 Chainy75 合併為斷音線索也只有兩人兩站，不能升格為六名集中災情。"
+        },
+        {
+          "url": "https://www.reddit.com/r/sonos/comments/1wtsoqr/mildly_disappointed_with_beam_ultra/",
+          "title": "Mildly disappointed with Beam Ultra",
+          "platform": "Reddit",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "sourceExcerpt": "LucidAtom 起初覺得 Beam Ultra 聽音樂單薄、電影對話落差大；其後確認原先接收到 Stereo PCM，改為 5.1 後明說有巨大改善並更新主文。",
+          "specificReason": "已讀作者更新與回覆，這一例的已確認成因是訊源/電視輸出設定，不能當作持續存在的產品共通故障。其他討論多屬 Arc/Arc Ultra 或一般聲霸音樂偏好，不能轉計入 Beam Ultra。",
+          "productId": "soundbar-sonos-beam-ultra",
+          "reviewedAt": "2026-10-19",
+          "outcome": "excluded",
+          "reason": "已讀作者更新與回覆，這一例的已確認成因是訊源/電視輸出設定，不能當作持續存在的產品共通故障。其他討論多屬 Arc/Arc Ultra 或一般聲霸音樂偏好，不能轉計入 Beam Ultra。"
+        },
+        {
+          "url": "https://www.reddit.com/r/sonos/comments/1wsorhj/just_got_my_beam_ultra_today_upgrading_from_a_gen/",
+          "title": "Just got my Beam Ultra today, upgrading from a Gen 1 beam, my thoughts.",
+          "platform": "Reddit",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "sourceExcerpt": "Admiral_Kizaru 的 Beam Ultra 使用心得正面；HudsonValleyChris 明講故障的是 Beam 1，RHB1027 與 tacotimes01 明講 Beam 2 以及舊電視連接問題。",
+          "specificReason": "原頁中抱怨斷線的人明確使用 Beam 1/2；作者本人沒有 Beam Ultra 故障。不得把同討論串中的前代回報因標題含 Ultra 而跨型號計入。",
+          "productId": "soundbar-sonos-beam-ultra",
+          "reviewedAt": "2026-10-19",
+          "outcome": "excluded",
+          "reason": "原頁中抱怨斷線的人明確使用 Beam 1/2；作者本人沒有 Beam Ultra 故障。不得把同討論串中的前代回報因標題含 Ultra 而跨型號計入。"
+        },
+        {
+          "url": "https://www.reddit.com/r/sonos/comments/1wsr48d/beam_ultra_first_impressions/",
+          "title": "Beam Ultra - First Impressions",
+          "platform": "Reddit",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "sourceExcerpt": "vazandrew1 比較自己的 Beam 2 與新 Beam Ultra，回報音場、中央聲道與環繞改善；l0gan_5 也表示升級後更滿意。",
+          "specificReason": "屬第一人稱正面初評與購買比較，沒有可計入的相同故障回報；不把詢問 RAM 或規格差異當負評。",
+          "productId": "soundbar-sonos-beam-ultra",
+          "reviewedAt": "2026-10-19",
+          "outcome": "excluded",
+          "reason": "屬第一人稱正面初評與購買比較，沒有可計入的相同故障回報；不把詢問 RAM 或規格差異當負評。"
+        },
+        {
+          "url": "https://www.reddit.com/r/sonos/comments/1x8z6rr/delay_between_speakers/",
+          "title": "Delay between speakers",
+          "platform": "Reddit",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "sourceExcerpt": "Popular-Candidate227 說多種 beam/ultra/Era 組合在 Sonos 音樂 App 播放約三十分鐘出現不同步，但未指明 beam 世代或 ultra 究竟是 Beam Ultra 或 Arc Ultra。",
+          "specificReason": "作者沒有可核對的 Beam Ultra exact-model 身分，且說長年、多裝置皆發生。不得由搜尋命中就推定此處 ultra 是本型號，故 exactModel=false，不納入。",
+          "productId": "soundbar-sonos-beam-ultra",
+          "reviewedAt": "2026-10-19",
+          "outcome": "excluded",
+          "reason": "作者沒有可核對的 Beam Ultra exact-model 身分，且說長年、多裝置皆發生。不得由搜尋命中就推定此處 ultra 是本型號，故 exactModel=false，不納入。"
+        },
+        {
+          "url": "https://en.community.sonos.com/controllers-and-music-services-229131/beam-ultra-software-compatibility-6934924",
+          "title": "Beam Ultra software compatibility",
+          "platform": "Sonos Community",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "sourceExcerpt": "Schlumpf 於 2026-09-29 說 Beam Ultra 更新後把 Alexa 顯示為不相容，前日嘗試加入 Alexa 曾遇錯；其後表示整體滿意、壁掛理線最後順利。",
+          "specificReason": "只有一位實機 Alexa 設定經驗，其他回覆討論 App 分批推送或尚未開箱；不能計為多位相同故障。原頁不同分類重導向仍是同一串 6934924。",
+          "productId": "soundbar-sonos-beam-ultra",
+          "reviewedAt": "2026-10-19",
+          "outcome": "excluded",
+          "reason": "只有一位實機 Alexa 設定經驗，其他回覆討論 App 分批推送或尚未開箱；不能計為多位相同故障。原頁不同分類重導向仍是同一串 6934924。"
+        },
+        {
+          "url": "https://en.community.sonos.com/home-theater-228993/beam-ultra-does-not-have-alexa-or-google-voice-control-6934686",
+          "title": "Beam Ultra does not have Alexa or Google voice control?",
+          "platform": "Sonos Community",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "sourceExcerpt": "drewbab1229 在發售前詢問 Alexa/Google 語音服務，並說多年未買新產品；回覆討論官方 FAQ/產品指南、Alexa+ 尚待推出。",
+          "specificReason": "這是發售前功能與文件爭議，作者不是本型號實機故障回報者。不能將三十多則辯論回覆或按讚累計為第一人稱受災人數。",
+          "productId": "soundbar-sonos-beam-ultra",
+          "reviewedAt": "2026-10-19",
+          "outcome": "excluded",
+          "reason": "這是發售前功能與文件爭議，作者不是本型號實機故障回報者。不能將三十多則辯論回覆或按讚累計為第一人稱受災人數。"
+        },
+        {
+          "url": "https://www.reddit.com/r/sonos/comments/1x92b2y/beam_ultra_and_symfonisk_lamps/",
+          "title": "Beam Ultra and Symfonisk Lamps",
+          "platform": "Reddit",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "sourceExcerpt": "knugget005 說第一代 Symfonisk 燈無法配 Beam Ultra 當後環繞，後續回覆使用第三方 App 可行；其他人討論原廠世代支援限制。",
+          "specificReason": "只見一位本型號實際配對作者；功能相容性限制必須在購買前確認，不能把尚未升級者的提問和第三方 App 建議當同故障多名使用者。",
+          "productId": "soundbar-sonos-beam-ultra",
+          "reviewedAt": "2026-10-19",
+          "outcome": "excluded",
+          "reason": "只見一位本型號實際配對作者；功能相容性限制必須在購買前確認，不能把尚未升級者的提問和第三方 App 建議當同故障多名使用者。"
+        },
+        {
+          "url": "https://www.reddit.com/r/sonos/comments/1x82mr5/beam_gen_2_4_era_100s_sub_mini_is_the_new_beam/",
+          "title": "Beam Gen 2 + 4 Era 100s + Sub Mini — is the new Beam Ultra worth upgrading for better Atmos height effects?",
+          "platform": "Reddit",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "sourceExcerpt": "Fantastic_Hat1475 是 Beam Gen 2 用戶詢問升級；Such_Play_1524 說擁有 Beam Ultra，第三方前聲道設定在此型號不能用。",
+          "specificReason": "原作者尚未升級，不能當 Beam Ultra 回報者；唯一實機留言涉及非官方前聲道用法，不能與原廠後環繞配對或硬體缺陷混同，未達集中問題門檻。",
+          "productId": "soundbar-sonos-beam-ultra",
+          "reviewedAt": "2026-10-19",
+          "outcome": "excluded",
+          "reason": "原作者尚未升級，不能當 Beam Ultra 回報者；唯一實機留言涉及非官方前聲道用法，不能與原廠後環繞配對或硬體缺陷混同，未達集中問題門檻。"
+        },
+        {
+          "url": "https://www.bestbuy.com/product/sonos-beam-ultra-7-1-2-channel-wireless-smart-soundbar-with-dolby-atmos-black/J39H378LYY/sku/6687825/reviews",
+          "title": "Sonos Beam Ultra customer reviews (SKU 6687825)",
+          "platform": "Best Buy",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "sourceExcerpt": "NAMO 的 Big, Generational Improvements in Audio 評論明說 Android 設定與更新順利，但批評日後 App 操作及 CEC；頁面另有 AI 彙整 Wi-Fi 穩定性的文字。",
+          "specificReason": "人工查看原作者評語，只記一名可辨識使用者的 App/CEC 操作抱怨；AI 顧客總結、總星數與推薦比例不計人數。沒有六位同一故障、跨兩個原始網站的逐人證據。",
+          "productId": "soundbar-sonos-beam-ultra",
+          "reviewedAt": "2026-10-19",
+          "outcome": "excluded",
+          "reason": "人工查看原作者評語，只記一名可辨識使用者的 App/CEC 操作抱怨；AI 顧客總結、總星數與推薦比例不計人數。沒有六位同一故障、跨兩個原始網站的逐人證據。"
         }
       ]
     }

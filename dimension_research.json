@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09",
+  "generatedAt": "2026-10-19",
   "sourcePolicy": "本站共 21 類尺寸、13 類重量研究，尺寸涵蓋 電視、Soundbar、冷氣、洗衣機、烘衣機、洗烘衣機(多功能型)、電子衣櫥（衣物護理機）、床包、棉被、枕頭、冰箱、咖啡機、多功能氣炸烤箱／微波爐、洗碗機、熱水器、免治馬桶、網路交換器、螢幕燈、滑鼠、鍵盤、滑鼠墊。優先採 exact-model／相同版本的官方產品頁、官方規格表或官方 PDF，其次為可信新品通路。只採本體／機身／明確組件的尺寸與淨重，排除包裝、外箱尺寸與毛重；來源沒有明示軸序時不自行推定。既有家電與床包、棉被、枕頭維持 cm／kg，滑鼠、鍵盤與滑鼠墊使用 mm／g 並保留來源軸序。滑鼠墊厚度、床包可包覆高度另列；棉被的填充重量與整件淨重分開記錄。冷氣分列室內機與室外機，熱泵複合熱水器分列主機與儲槽。generatedAt 為最新證據批次日期，既有逐筆 checkedAt 與 weightCheckedAt 保留原查核日期，不表示重新查核。",
   "results": [
     {
@@ -9816,6 +9816,50 @@
         "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=14498165"
       ],
       "dimensionNote": "高度含 0–1 cm 可調腳"
+    },
+    {
+      "id": "refrigerator-panasonic-nr-d507xgs-b",
+      "dimension": "尺寸：寬 72.1 x 深 69.5 x 高 183.4 cm",
+      "sourceUrl": "https://www.panasonic.com/tw/consumer/refrigerator/four-door/nr-d507xgs.html",
+      "sourceTitle": "Panasonic 台灣 NR-D507XGS 官方商品頁",
+      "evidenceSnippet": "官方頁明示寬721mm、深695mm、高1834mm；僅換算cm，不使用外箱尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "bidet-panasonic-dl-ru60twws",
+      "dimension": "尺寸：寬 40 x 深 51.7 x 高 11.2 cm",
+      "sourceUrl": "https://www.panasonic.com/tw/consumer/health/toilet/hotinstant/dl-ru60twws.html",
+      "sourceTitle": "瞬熱式洗淨便座 DL-RU60TWWS - Panasonic 台灣",
+      "evidenceSnippet": "官方尺寸欄列高112mm、寬400mm、深517mm；依明示軸序換算cm，不採包裝資料。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-10-19",
+      "weight": "重量：3.9 kg（不含配件）",
+      "weightSourceUrl": "https://www.panasonic.com/tw/consumer/health/toilet/hotinstant/dl-ru60twws.html",
+      "weightSourceTitle": "DL-RU60TWWS - Panasonic 台灣",
+      "weightEvidenceSnippet": "官方重量3.9kg，明示重量不含配件；不採含包裝5.5kg。",
+      "weightConfidence": "high",
+      "weightIsOfficialSource": true,
+      "weightCheckedAt": "2026-10-19"
+    },
+    {
+      "id": "soundbar-sonos-beam-ultra",
+      "dimension": "尺寸：主機 寬 75 x 深 10.5 x 高 6.5 cm",
+      "sourceUrl": "https://www.sonos.com/en-us/shop/beam-ultra",
+      "sourceTitle": "Sonos Beam Ultra official product specifications",
+      "evidenceSnippet": "官方 Dimensions 分別列 Height 65 mm、Width 750 mm、Depth 105 mm；依明示軸序換為 cm。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-10-19",
+      "weight": "重量：主機 2.88 kg",
+      "weightSourceUrl": "https://www.sonos.com/en-us/shop/beam-ultra",
+      "weightSourceTitle": "Sonos Beam Ultra official product specifications",
+      "weightEvidenceSnippet": "官方 Weight 列 2.88 kg，為主機重量；不含另售重低音/環繞。",
+      "weightConfidence": "high",
+      "weightIsOfficialSource": true,
+      "weightCheckedAt": "2026-10-19"
     }
   ]
 }

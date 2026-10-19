@@ -113,10 +113,10 @@
     "name": "16 吋自動除菌離子 DC 電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 3890,
-      "converted": 3890,
+      "amount": 3290,
+      "converted": 3290,
       "basis": "retailer_current",
-      "confidence": "PChome 2026-08-31 exact-model API 與 Chrome 主商品公開現價 NT$3,890，主購買控制可用。"
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABPEA900JYOWP/000001_1779868844.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMABPM-A900K2ITT",
@@ -1448,102 +1448,6 @@
     }
   },
   {
-    "id": "fan-extra-17-dmab2za900exoh3",
-    "category": "fan",
-    "rank": 16,
-    "budget": "mid",
-    "channel": "tw",
-    "brand": "Philips",
-    "model": "ACR3142CF",
-    "name": "DC 立式循環扇",
-    "price": {
-      "currency": "TWD",
-      "amount": 2691,
-      "converted": 2691,
-      "confidence": "momo購物 2026-07-13 頁面查核價"
-    },
-    "image": "https://cs-a.ecimg.tw/items/DMACAKA900G0BE8/000001_1779955873.jpg",
-    "buyUrl": "https://www.momoshop.com.tw/TP/TP0006456/goodsDetail/TP00064560000754",
-    "buyLabel": "momo購物",
-    "specs": [
-      "DC",
-      "立式",
-      "循環扇",
-      "節能"
-    ],
-    "description": "Philips ACR3142CF 補進本分類比較池，重點是DC、立式、循環扇，適合和同類 Top Pick 依預算、售後與規格一起比較。",
-    "pros": [
-      "兼具風扇與循環扇定位",
-      "DC 節能"
-    ],
-    "cons": [
-      "價格比入門立扇高",
-      "循環效果需看擺放"
-    ],
-    "bestFor": "想補進 Philips 風扇，並比較傳統立扇、塔扇、循環扇與無葉片的人。",
-    "recommendation": "補充推薦：DC 立式循環扇 的優勢在兼具風扇與循環扇定位，但仍建議把價格比入門立扇高納入取捨。",
-    "score": 85,
-    "voltage": "110V 台灣通路",
-    "warranty": "依台灣通路/品牌保固",
-    "tags": [
-      "Philips",
-      "DC",
-      "循環"
-    ],
-    "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Philips ACR3142CF: Momo富邦購物 (店+)【Philips 飛利浦】【PHILIPS飛利浦】ACR3142CF-DC立式循環扇 型號/規格不相符；LBJ Philips ACR3142CF: Momo富邦購物 (店+)【Philips 飛利浦】【PHILIPS 飛利浦】ACR3142CF PHILIPS 飛利浦 DC 立式循環扇 型號/規格不相符；LBJ Philips ACR3142CF: HOTAI購 【HOTAI購】【PHILIPS飛利浦】ACR3142CF-DC立式循環扇 型號/規格不相符。"
-    },
-    "issueResearch": {
-      "status": "no_common_issue",
-      "checkedAt": "2026-08-29",
-      "summary": "截至查核日，查無達門檻的集中負評／災情",
-      "issues": [],
-      "checkedSources": [
-        {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Philips ACR3142CF\" (problem OR issue OR defect OR failure)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Philips%20ACR3142CF%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-          "targetHost": "reddit.com"
-        },
-        {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"Philips ACR3142CF\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Philips%20ACR3142CF%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "mobile01.com"
-        },
-        {
-          "platform": "PTT",
-          "query": "site:ptt.cc \"Philips ACR3142CF\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Philips%20ACR3142CF%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "ptt.cc"
-        },
-        {
-          "platform": "Dcard",
-          "query": "site:dcard.tw \"Philips ACR3142CF\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Philips%20ACR3142CF%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "dcard.tw"
-        },
-        {
-          "platform": "YouTube",
-          "query": "\"Philips ACR3142CF\" problem issue defect failure broken 災情 故障 異常",
-          "queryUrl": "https://www.youtube.com/results?search_query=%22Philips%20ACR3142CF%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
-          "targetHost": "youtube.com"
-        }
-      ]
-    }
-  },
-  {
     "id": "fan-extra-18-dmacbua900iudv9",
     "category": "fan",
     "rank": 17,
@@ -1634,198 +1538,6 @@
           "platform": "YouTube",
           "query": "\"Philips ACR3342CFD\" problem issue defect failure broken 災情 故障 異常",
           "queryUrl": "https://www.youtube.com/results?search_query=%22Philips%20ACR3342CFD%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
-          "targetHost": "youtube.com"
-        }
-      ]
-    }
-  },
-  {
-    "id": "fan-extra-19-dmacaka900g0bb4",
-    "category": "fan",
-    "rank": 18,
-    "budget": "mid",
-    "channel": "tw",
-    "brand": "Philips",
-    "model": "ACR3144WTF",
-    "name": "DC 塔式風扇",
-    "price": {
-      "currency": "TWD",
-      "amount": 3681,
-      "converted": 3681,
-      "confidence": "momo購物 2026-07-13 頁面查核價"
-    },
-    "image": "https://cs-a.ecimg.tw/items/DMACAKA900G0BB4/000001_1778646103.jpg",
-    "buyUrl": "https://www.momoshop.com.tw/TP/TP0006456/goodsDetail/TP00064560000457",
-    "buyLabel": "momo購物",
-    "specs": [
-      "塔扇",
-      "DC",
-      "省空間",
-      "擺頭"
-    ],
-    "description": "Philips ACR3144WTF 補進本分類比較池，重點是塔扇、DC、省空間，適合和同類 Top Pick 依預算、售後與規格一起比較。",
-    "pros": [
-      "占地小、外型俐落",
-      "適合臥室角落"
-    ],
-    "cons": [
-      "清潔比傳統扇麻煩",
-      "風量不如大葉片立扇"
-    ],
-    "bestFor": "想補進 Philips 風扇，並比較傳統立扇、塔扇、循環扇與無葉片的人。",
-    "recommendation": "補充推薦：DC 塔式風扇 的優勢在占地小、外型俐落，但仍建議把清潔比傳統扇麻煩納入取捨。",
-    "score": 83,
-    "voltage": "110V 台灣通路",
-    "warranty": "依台灣通路/品牌保固",
-    "tags": [
-      "Philips",
-      "塔扇",
-      "省空間"
-    ],
-    "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Philips ACR3144WTF: Momo富邦購物 【Philips 飛利浦】負離子淨化DC直流塔式風扇 定時大廈扇 液晶觸控顯示-可遙控(ACR3144WTF) 型號/規格不相符；LBJ Philips ACR3144WTF: 蝦皮商城 - 綠風潮網路商城 飛利浦ACR3144WTF DC塔式風扇- 綠風潮 型號/規格不相符；LBJ Philips ACR3144WTF: Yahoo購物中心 【PHILIPS 飛利浦】DC塔式風扇 LED顯示 24H 定時調節 低噪音 遠距離遙控-ACR3144WTF 型號/規格不相符。"
-    },
-    "issueResearch": {
-      "status": "no_common_issue",
-      "checkedAt": "2026-08-29",
-      "summary": "截至查核日，查無達門檻的集中負評／災情",
-      "issues": [],
-      "checkedSources": [
-        {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Philips ACR3144WTF\" (problem OR issue OR defect OR failure)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Philips%20ACR3144WTF%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-          "targetHost": "reddit.com"
-        },
-        {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"Philips ACR3144WTF\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Philips%20ACR3144WTF%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "mobile01.com"
-        },
-        {
-          "platform": "PTT",
-          "query": "site:ptt.cc \"Philips ACR3144WTF\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Philips%20ACR3144WTF%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "ptt.cc"
-        },
-        {
-          "platform": "Dcard",
-          "query": "site:dcard.tw \"Philips ACR3144WTF\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Philips%20ACR3144WTF%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "dcard.tw"
-        },
-        {
-          "platform": "YouTube",
-          "query": "\"Philips ACR3144WTF\" problem issue defect failure broken 災情 故障 異常",
-          "queryUrl": "https://www.youtube.com/results?search_query=%22Philips%20ACR3144WTF%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
-          "targetHost": "youtube.com"
-        }
-      ]
-    }
-  },
-  {
-    "id": "fan-extra-20-dmab6za900flc55",
-    "category": "fan",
-    "rank": 19,
-    "budget": "mid",
-    "channel": "tw",
-    "brand": "Philips",
-    "model": "AHR5164FD",
-    "name": "DC 冷暖兩用無扇葉風扇",
-    "price": {
-      "currency": "TWD",
-      "amount": 8910,
-      "converted": 8910,
-      "confidence": "momo購物 2026-07-11 頁面查核價"
-    },
-    "image": "https://cs-a.ecimg.tw/items/DMAB6ZA900FLC55/000001_1780151316.jpg",
-    "buyUrl": "https://www.momoshop.com.tw/TP/TP0003952/goodsDetail/TP00039520004981",
-    "buyLabel": "momo購物",
-    "specs": [
-      "無扇葉",
-      "冷暖兩用",
-      "DC",
-      "安全"
-    ],
-    "description": "Philips AHR5164FD 補進本分類比較池，重點是無扇葉、冷暖兩用、DC，適合和同類 Top Pick 依預算、售後與規格一起比較。",
-    "pros": [
-      "四季可用",
-      "無葉片安全好清潔"
-    ],
-    "cons": [
-      "價格高",
-      "暖風功能耗電需留意"
-    ],
-    "bestFor": "想補進 Philips 風扇，並比較傳統立扇、塔扇、循環扇與無葉片的人。",
-    "recommendation": "補充推薦：DC 冷暖兩用無扇葉風扇 的優勢在四季可用，但仍建議把價格高納入取捨。",
-    "score": 82,
-    "voltage": "110V 台灣通路",
-    "warranty": "依台灣通路/品牌保固",
-    "tags": [
-      "Philips",
-      "無葉片",
-      "冷暖"
-    ],
-    "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Philips AHR5164FD: 百利市購物中心 【百利市購物中心】飛利浦 DC冷暖兩用無扇葉風扇冷暖風扇無葉風扇電暖器【AHR5164FD】 型號/規格不相符；LBJ Philips AHR5164FD: HOTAI購 【HOTAI購】飛利浦【AHR5164FD】DC冷暖兩用無扇葉風扇冷暖風扇無葉風扇電暖器 型號/規格不相符；LBJ Philips AHR5164FD: 樂天市場 - 兆眾 兆眾 【APP 4%點數】【Philips 飛利浦】 DC冷暖兩用無扇葉風扇AHR5164FD 全新未拆封 台灣公司貨 此商品沒有7天鑑賞期 沒有辦法退貨 都是走維修保固 您可以在下單 型號/規格不相符。"
-    },
-    "issueResearch": {
-      "status": "no_common_issue",
-      "checkedAt": "2026-08-29",
-      "summary": "截至查核日，查無達門檻的集中負評／災情",
-      "issues": [],
-      "checkedSources": [
-        {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Philips AHR5164FD\" (problem OR issue OR defect OR failure)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Philips%20AHR5164FD%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-          "targetHost": "reddit.com"
-        },
-        {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"Philips AHR5164FD\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Philips%20AHR5164FD%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "mobile01.com"
-        },
-        {
-          "platform": "PTT",
-          "query": "site:ptt.cc \"Philips AHR5164FD\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Philips%20AHR5164FD%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "ptt.cc"
-        },
-        {
-          "platform": "Dcard",
-          "query": "site:dcard.tw \"Philips AHR5164FD\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Philips%20AHR5164FD%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "dcard.tw"
-        },
-        {
-          "platform": "YouTube",
-          "query": "\"Philips AHR5164FD\" problem issue defect failure broken 災情 故障 異常",
-          "queryUrl": "https://www.youtube.com/results?search_query=%22Philips%20AHR5164FD%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
           "targetHost": "youtube.com"
         }
       ]
@@ -2245,9 +1957,9 @@
     "name": "14 吋 7 葉片 DC 遙控立扇",
     "price": {
       "currency": "TWD",
-      "amount": 2690,
-      "converted": 2690,
-      "confidence": "PChome 24h 於 2026-08-20 的 exact-model 新品頁公開價 NT$2,690，庫存數量為正",
+      "amount": 2421,
+      "converted": 2421,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current"
     },
     "installation": {

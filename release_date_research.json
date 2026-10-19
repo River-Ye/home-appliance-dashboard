@@ -1,20 +1,20 @@
 {
   "summary": {
-    "checkedAt": "2026-09-09T00:00:00+08:00",
+    "checkedAt": "2026-10-19T00:00:00+08:00",
     "total": 1156,
     "researchedThisRun": 3,
-    "found": 343,
-    "missing": 813,
+    "found": 344,
+    "missing": 812,
     "byConfidence": {
-      "official": 186,
-      "not_found": 810,
+      "official": 187,
+      "not_found": 809,
       "retailer_explicit": 23,
       "credible_article": 52,
       "high": 66,
       "medium": 16,
       "unknown": 3
     },
-    "scopeNote": "本輪新增3款逐型號研究；既有逐筆上市與負評日期保留，不表示全部重新研究。"
+    "scopeNote": "本輪新增3款上市與負評逐型號研究；移除3款官方確認停產風扇。既有逐筆證據及日期保留，不表示全部重新研究。"
   },
   "results": [
     {
@@ -2276,40 +2276,6 @@
       ]
     },
     {
-      "id": "fan-extra-17-dmab2za900exoh3",
-      "category": "fan",
-      "brand": "Philips",
-      "model": "ACR3142CF",
-      "name": "DC 立式循環扇",
-      "previousReleaseDate": "2026-03-17",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "\"Philips ACR3142CF\" release date launch launched available 上市 發售 開賣 推出",
-      "auditQueries": [
-        "\"Philips ACR3142CF\" release date launch launched available",
-        "\"Philips ACR3142CF\" 上市 發售 開賣 推出"
-      ],
-      "sourceKind": "not_found",
-      "reason": "Re-searched the exact model and checked the old source plus original product/retailer pages. The former date was not supported by an admissible exact-model launch/release statement (often a mismatched product, search-snippet claim, article publication date, support/manual date or generic listing), so it is conservatively degraded to 找不到.",
-      "checkedAt": "2026-08-28",
-      "auditDisposition": "degraded_to_not_found",
-      "checkedSources": [
-        {
-          "url": "https://www.momoshop.com.tw/TP/TP0006456/goodsDetail/TP00064560000754",
-          "title": "momo購物: Philips ACR3142CF",
-          "outcome": "Re-opened the trusted exact-model purchase page. It confirms the listed product but gives no explicit launch/release statement; listing, stock and promotion dates were excluded."
-        },
-        {
-          "url": "https://www.lbj.tw/BJ/Query.aspx?k=DMACAK-A900G0BE8",
-          "title": "Philips ACR3142CF exact-model retailer/price page",
-          "outcome": "Re-opened this trusted retailer or price-comparison page for the exact model. It did not contain an admissible explicit launch/release statement; listing and price-history dates were excluded."
-        }
-      ]
-    },
-    {
       "id": "fan-extra-18-dmacbua900iudv9",
       "category": "fan",
       "brand": "Philips",
@@ -2340,74 +2306,6 @@
           "url": "https://biggo.com.tw/s/Philips%20ACR3342CFD/",
           "title": "BigGo 歷史價格：Philips ACR3342CFD 全方位渦輪循環扇",
           "outcome": "Re-opened the trusted exact-model price record. It confirms the exact product/retailer history but does not explicitly state a launch/release date; price-history dates were excluded."
-        }
-      ]
-    },
-    {
-      "id": "fan-extra-19-dmacaka900g0bb4",
-      "category": "fan",
-      "brand": "Philips",
-      "model": "ACR3144WTF",
-      "name": "DC 塔式風扇",
-      "previousReleaseDate": "2026-03-17",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "\"Philips ACR3144WTF\" release date launch launched available 上市 發售 開賣 推出",
-      "auditQueries": [
-        "\"Philips ACR3144WTF\" release date launch launched available",
-        "\"Philips ACR3144WTF\" 上市 發售 開賣 推出"
-      ],
-      "sourceKind": "not_found",
-      "reason": "Re-searched the exact model and checked the old source plus original product/retailer pages. The former date was not supported by an admissible exact-model launch/release statement (often a mismatched product, search-snippet claim, article publication date, support/manual date or generic listing), so it is conservatively degraded to 找不到.",
-      "checkedAt": "2026-08-28",
-      "auditDisposition": "degraded_to_not_found",
-      "checkedSources": [
-        {
-          "url": "https://www.momoshop.com.tw/TP/TP0006456/goodsDetail/TP00064560000457",
-          "title": "momo購物: Philips ACR3144WTF",
-          "outcome": "Re-opened the trusted exact-model purchase page. It confirms the listed product but gives no explicit launch/release statement; listing, stock and promotion dates were excluded."
-        },
-        {
-          "url": "https://www.lbj.tw/BJ/Query.aspx?k=DMACAK-A900G0BB4",
-          "title": "Philips ACR3144WTF exact-model retailer/price page",
-          "outcome": "Re-opened this trusted retailer or price-comparison page for the exact model. It did not contain an admissible explicit launch/release statement; listing and price-history dates were excluded."
-        }
-      ]
-    },
-    {
-      "id": "fan-extra-20-dmab6za900flc55",
-      "category": "fan",
-      "brand": "Philips",
-      "model": "AHR5164FD",
-      "name": "DC 冷暖兩用無扇葉風扇",
-      "previousReleaseDate": "找不到",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "\"Philips AHR5164FD\" release date launch launched available 上市 發售 開賣 推出",
-      "auditQueries": [
-        "\"Philips AHR5164FD\" release date launch launched available",
-        "\"Philips AHR5164FD\" 上市 發售 開賣 推出"
-      ],
-      "sourceKind": "not_found",
-      "reason": "Re-searched the exact model in English and Chinese and checked at least two original product/retailer pages. They identify the product but do not provide an explicit launch/release statement; publication, support/manual, listing, stock, promotion and model-year dates were excluded.",
-      "checkedAt": "2026-08-28",
-      "auditDisposition": "confirmed_not_found",
-      "checkedSources": [
-        {
-          "url": "https://www.momoshop.com.tw/TP/TP0003952/goodsDetail/TP00039520004981",
-          "title": "momo購物: Philips AHR5164FD",
-          "outcome": "Re-opened the trusted exact-model purchase page. It confirms the listed product but gives no explicit launch/release statement; listing, stock and promotion dates were excluded."
-        },
-        {
-          "url": "https://www.lbj.tw/BJ/Query.aspx?k=DMAB6Z-A900FLC55",
-          "title": "Philips AHR5164FD exact-model retailer/price page",
-          "outcome": "Re-opened this trusted retailer or price-comparison page for the exact model. It did not contain an admissible explicit launch/release statement; listing and price-history dates were excluded."
         }
       ]
     },
@@ -35590,6 +35488,94 @@
           "outcome": "檔名日期排除，不是上市公告。"
         }
       ]
+    },
+    {
+      "id": "refrigerator-panasonic-nr-d507xgs-b",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-D507XGS-B",
+      "name": "Panasonic NR-D507XGS-B 500L 四門霧面玻璃變頻冰箱",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-19",
+      "query": "\"Panasonic NR-D507XGS\" 上市 發表",
+      "reason": "官方產品頁有截至2026-08-31的能效比較註記，MIT標章頁有2026-06-15通過日期；兩者均非上市／發售公告，不以此推定上市日。通路雖說新款已上市，但未明示日期。",
+      "checkedSources": [
+        {
+          "url": "https://www.panasonic.com/tw/consumer/refrigerator/four-door/nr-d507xgs.html",
+          "title": "Panasonic 台灣 NR-D507XGS",
+          "outcome": "產品頁無明確上市／發售日期；排除能效比較基準日。"
+        },
+        {
+          "url": "https://keid.nat.gov.tw/mittw/products/prod_more?id=273984&p=2",
+          "title": "MIT微笑標章電冰箱產品查詢",
+          "outcome": "標章通過日期2026-06-15，屬認證日期，不採為上市日。"
+        },
+        {
+          "url": "https://www.momoshop.com.tw/product/15801643",
+          "title": "momo NR-D507XGS",
+          "outcome": "現售與促銷價格資料，未明示上市日期。"
+        }
+      ]
+    },
+    {
+      "id": "bidet-panasonic-dl-ru60twws",
+      "category": "bidet",
+      "brand": "Panasonic",
+      "model": "DL-RU60TWWS",
+      "name": "nanoe X 智慧雙溫控瞬熱式洗淨便座",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found_after_full_recheck",
+      "query": "\"DL-RU60TWWS\" (上市 OR 發售)",
+      "checkedAt": "2026-10-19",
+      "reason": "官方產品與規格頁未明載上市／發售日；202510型錄、SGS測試日及2025-12-03開箱日期均非上市日，不採用。",
+      "checkedSources": [
+        {
+          "url": "https://www.panasonic.com/tw/consumer/health/toilet/hotinstant/dl-ru60twws.html",
+          "title": "DL-RU60TWWS - Panasonic 台灣",
+          "outcome": "產品規格頁未明載上市／發售日"
+        },
+        {
+          "url": "https://www.panasonic.com/tw/consumer/health/toilet/hotinstant/dl-ru60twws.specs.html",
+          "title": "DL-RU60TWWS 商品規格",
+          "outcome": "只有測試報告日期，不是發售日期"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7200062",
+          "title": "Panasonic DL-RU60TWWS 開箱體驗",
+          "outcome": "2025-12-03是文章發布日期，不是上市日"
+        }
+      ],
+      "auditQueries": [
+        "\"DL-RU60TWWS\" \"發售\"",
+        "\"DL-RU60TWWS\" \"上市\""
+      ]
+    },
+    {
+      "id": "soundbar-sonos-beam-ultra",
+      "category": "soundbar",
+      "brand": "Sonos",
+      "model": "Beam Ultra",
+      "name": "7.1.2 聲道 Dolby Atmos 緊湊型 Soundbar（美國黑色版）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2026-09-29",
+      "sourceUrl": "https://newsroom.sonos.com/269788-sonos-welcomes-beam-ultra-and-sonos-ace-ultra-to-its-system/",
+      "sourceTitle": "Sonos Welcomes Beam Ultra and Sonos Ace Ultra to its System",
+      "evidenceSnippet": "官方2026-09-01發表公告明示9月1日起預購、2026-09-29全面供應；採實際一般供應日，非文章發文日。",
+      "confidence": "official",
+      "sourceKind": "official_launch_announcement",
+      "checkedAt": "2026-10-19",
+      "query": "Sonos Beam Ultra availability September 29 2026",
+      "reason": "官方明示一般發售日期。"
     }
   ]
 }

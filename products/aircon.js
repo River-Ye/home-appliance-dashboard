@@ -3014,9 +3014,9 @@
     "name": "GENERAL ASCG022KMTC / AOCG022KMTC 一對一分離式變頻冷暖",
     "price": {
       "currency": "TWD",
-      "amount": 22900,
-      "converted": 22900,
-      "confidence": "PChome 24h exact-pair 完整室內外機新品價 2026-08-14 可公開重現現價；型號與室內外機完整組合已核對",
+      "amount": 21900,
+      "converted": 21900,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
       "scope": "complete_system"
     },

@@ -17,9 +17,9 @@
     "name": "16 公升高效型變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 15210,
-      "converted": 15210,
-      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 15840,
+      "converted": 15840,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900J0L88/000001_1776323540.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3P-A900J0L88",
@@ -497,9 +497,9 @@
     "name": "16 公升變頻高效型除濕機磁石黑",
     "price": {
       "currency": "TWD",
-      "amount": 16295,
-      "converted": 16295,
-      "confidence": "Yahoo購物中心 2026-09-04 exact-model 公開結構化價格"
+      "amount": 18620,
+      "converted": 18620,
+      "confidence": "Yahoo購物中心 2026-10-19 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4YA900IKOCC/000001_1744795213.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-16L-nanoe%E8%AE%8A%E9%A0%BB%E5%BE%AE%E9%9B%BB%E8%85%A6%E9%99%A4%E6%BF%95%E6%A9%9F-F-YV32NX-11427351.html",
@@ -593,9 +593,9 @@
     "name": "16 公升變頻高效型清淨除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 20079,
-      "converted": 20079,
-      "confidence": "Yahoo購物中心 2026-09-04 exact-model 公開結構化價格"
+      "amount": 23076,
+      "converted": 23076,
+      "confidence": "Yahoo購物中心 2026-10-19 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900GTPHC/000001_1699597155.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-16L-W-HEXS%E9%AB%98%E6%95%88%E5%BE%AE%E9%9B%BB%E8%85%A6%E9%99%A4%E6%BF%95%E6%A9%9F-F-YV32MH-10762034.html",
@@ -689,9 +689,9 @@
     "name": "8 公升清淨除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 11552,
-      "converted": 11552,
-      "confidence": "Yahoo購物中心 2026-09-04 exact-model 公開結構化價格"
+      "amount": 13291,
+      "converted": 13291,
+      "confidence": "Yahoo購物中心 2026-10-19 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU0FA900B1HPU/000001_1782813379.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-8L-HEPA%E6%B8%85%E6%B7%A8%E9%99%A4%E6%BF%95-7996517.html",
@@ -785,9 +785,9 @@
     "name": "9 公升除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 8451,
-      "converted": 8451,
-      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 8811,
+      "converted": 8811,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ00A900JB38A/000001_1776329911.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ00-A900JB38A",
@@ -881,9 +881,9 @@
     "name": "PuriCare WiFi 變頻除濕機粉紅 16 公升",
     "price": {
       "currency": "TWD",
-      "amount": 14900,
-      "converted": 14900,
-      "confidence": "PChome 2026-09-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 14111,
+      "converted": 14111,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ07A900HQ3L5/000001_1761827365.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ07-A900HQ3L5",
@@ -977,9 +977,9 @@
     "name": "PuriCare 12 公升雙變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 12730,
-      "converted": 12730,
-      "confidence": "Yahoo購物中心 2026-08-27 exact-model 公開結構化價格"
+      "amount": 12570,
+      "converted": 12570,
+      "confidence": "Yahoo購物中心 2026-10-19 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4NA900JF9HP/000001_1778165423.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-12%E5%85%AC%E5%8D%87-%E6%97%A5UV%E6%AE%BA%E8%8F%8C%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9FDD121QWE0-11864251.html",
@@ -1649,9 +1649,9 @@
     "name": "6L 除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 5211,
-      "converted": 5211,
-      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 5571,
+      "converted": 5571,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900J9FH9/000001_1776325410.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3P-A900J9FH9",
@@ -1745,9 +1745,9 @@
     "name": "12公升 PCI 自動除菌離子除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 8990,
-      "converted": 8990,
-      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 7999,
+      "converted": 7999,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ08A900JPCL1/000001_1770962000.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ08-A900JPCL1",

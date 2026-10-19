@@ -432,9 +432,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMCI0PA900HEQ1J/000001_1756977419.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 12255,
-      "converted": 12255,
-      "confidence": "PChome 2026-09-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 11352,
+      "converted": 11352,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -738,10 +738,10 @@
     "image": "https://cs-a.ecimg.tw/items/DMAC6RA900IUC3J/000001_1761017834.png",
     "price": {
       "currency": "TWD",
-      "amount": 28999,
-      "converted": 28999,
+      "amount": 25999,
+      "converted": 25999,
       "basis": "retailer_current",
-      "confidence": "PChome 2026-09-08 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -2134,8 +2134,8 @@
     "price": {
       "currency": "USD",
       "amount": 359.99,
-      "converted": 11361,
-      "confidence": "Brondell US 官方 2026-09-05 exact-model 公開特價；ExchangeRate-API 2026-09-14 匯率換算"
+      "converted": 11680,
+      "confidence": "Brondell US 官方 2026-09-05 exact-model 公開特價；ExchangeRate-API 2026-10-19 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/4xjr3phfqx7p9vvxzfhp3jp/100457228-847_chrome_1?auto=webp&format=jpg",
     "buyUrl": "https://www.brondell.com/circle-reverse-osmosis-water-filter-system/",
@@ -2171,14 +2171,14 @@
       "status": "found",
       "amount": 289.99,
       "currency": "USD",
-      "converted": 9152,
+      "converted": 9409,
       "sourceUrl": "https://www.costco.com/CategoryDisplay?catalogId=10701&identifier=water-dispensers-filtration-water-filtration&storeId=10301",
       "sourceTitle": "Costco US：Brondell Circle Reverse Osmosis Water Filtration System",
       "evidenceSnippet": "Costco US exact-model 分類頁於 2026-08-28 顯示 Brondell Circle 折後 US$289.99，原價 US$369.99，優惠 US$80。",
       "sourceKind": "retailer_promo",
       "confidence": "medium",
       "checkedAt": "2026-08-28",
-      "note": "採 Costco US 公開 exact-model 折價作為本次可重現最低觀測價；未含國際運費、進口稅、耗材與台灣安裝／保固風險；依 2026-09-14 USD/TWD 匯率換算。"
+      "note": "採 Costco US 公開 exact-model 折價作為本次可重現最低觀測價；未含國際運費、進口稅、耗材與台灣安裝／保固風險；依 2026-10-19 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "common_issue",

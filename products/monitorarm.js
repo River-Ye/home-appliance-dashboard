@@ -810,9 +810,9 @@
     "name": "17-49 吋 20KG 中柱款螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 1499,
-      "converted": 1499,
-      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 1399,
+      "converted": 1399,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBB69A900IHPC0/000001_1742812418.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBB69-A900IHPC0",
@@ -848,16 +848,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 1424,
+      "amount": 1399,
       "currency": "TWD",
-      "converted": 1424,
+      "converted": 1399,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DCBB69-A900IHPC0",
-      "sourceTitle": "PChome 24h 購物：17-49 吋 20KG 中柱款螢幕支架",
-      "evidenceSnippet": "PChome 商品 API 於 2026-07-13 回傳同型號可信新品查核價 NT$1,424，低於原先記錄史低。",
+      "sourceTitle": "PChome 24h 購物：TC92-10 桌上型17- 49吋 螢幕 G9 中柱款 20KG液晶 電腦螢幕架 螢幕支架 夾鎖桌2用",
+      "evidenceSnippet": "PChome 24h 購物於 2026-10-19 顯示同型號可信新品公開價 NT$1,399，低於既有史低 NT$1,424。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-13",
-      "note": "採用 PChome 當日可購商品 API 的同型號新品價格；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
+      "checkedAt": "2026-10-19",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1407,9 +1407,9 @@
     "name": "17-32 吋 2-9KG 人體工學螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 770,
-      "converted": 770,
-      "confidence": "Yahoo購物中心 2026-09-04 exact-model 公開結構化價格"
+      "amount": 780,
+      "converted": 780,
+      "confidence": "Yahoo購物中心 2026-10-19 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGQ5A900JUC1W/000001_1774344481.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E6%A8%82%E6%AD%8CLoctek-%E4%BA%BA%E9%AB%94%E5%B7%A5%E5%AD%B8-%E8%9E%A2%E5%B9%95%E6%94%AF%E6%9E%B6D5S-12033991.html",
@@ -1506,9 +1506,9 @@
     "name": "45吋 20KG 氣壓式螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 3141,
-      "converted": 3141,
-      "confidence": "PChome 2026-09-08 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 2901,
+      "converted": 2901,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGU1A900I6WCY/000001_1754374453.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAGU1-A900I6WCY",
@@ -1541,16 +1541,16 @@
     "releaseDate": "2025-12-24",
     "historicalLow": {
       "status": "found",
-      "amount": 2999,
+      "amount": 2901,
       "currency": "TWD",
-      "converted": 2999,
+      "converted": 2901,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DCAGU1-A900I6WCY",
-      "sourceTitle": "PChome 24h：BenQ BSH01 45 吋 20KG 氣壓式螢幕支架",
-      "evidenceSnippet": "PChome 商品 API 於 2026-07-16 UTC 回傳同型號 BSH01 公開 Low 價 NT$2,999、Qty 20，低於原記錄史低 NT$3,141。",
+      "sourceTitle": "PChome 24h 購物：BENQ 氣壓式 45吋 20KG BSH01 螢幕支架 螢幕架 螢幕伸縮支架",
+      "evidenceSnippet": "PChome 24h 購物於 2026-10-19 顯示同型號可信新品公開價 NT$2,901，低於既有史低 NT$2,999。",
       "sourceKind": "retailer_page",
-      "confidence": "high",
-      "checkedAt": "2026-07-17",
-      "note": "採用可信通路同型號新品公開價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、拆封品與整新品。"
+      "confidence": "medium",
+      "checkedAt": "2026-10-19",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2083,12 +2083,12 @@
     "name": "Dell Pro 重型單一顯示器懸臂支架",
     "price": {
       "currency": "TWD",
-      "amount": 14529,
-      "converted": 14529,
-      "confidence": "Dell 台灣官方 2026-07-24 exact-model 公開價"
+      "amount": 13503,
+      "converted": 13503,
+      "confidence": "Dell 台灣官方 2026-10-19 同型號新品公開價；未扣會員券、點數或信用卡回饋。"
     },
     "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/peripherals/stands/hda26/media-gallery/monitor-arm-pro-hda26-black-gallery-10.psd?chrss=full&fmt=png-alpha&hei=804&pscan=auto&qlt=100%2C1&resMode=sharp2&scl=1&size=974%2C804&wid=974",
-    "buyUrl": "https://www.dell.com/zh-tw/shop/dell-pro-%E9%87%8D%E5%9E%8B%E5%96%AE%E4%B8%80%E9%A1%AF%E7%A4%BA%E5%99%A8%E8%87%82%E6%9E%B6-hda26/apd/482-bbgj/%E9%A1%AF%E7%A4%BA%E5%99%A8%E5%92%8C%E9%A1%AF%E7%A4%BA%E5%99%A8%E9%85%8D%E4%BB%B6",
+    "buyUrl": "https://www.dell.com/zh-tw/shop/armsstandsmounts/apd/dell-pro-%E9%87%8D%E5%9E%8B%E5%96%AE%E4%B8%80%E9%A1%AF%E7%A4%BA%E5%99%A8%E8%87%82%E6%9E%B6-hda26/jvk10/-",
     "buyLabel": "Dell 台灣官方",
     "specs": [
       "支援尺寸：官方未提供通用吋數；相容清單含 52 吋 U5226KW 與 43 吋 U4323QE",
@@ -2125,14 +2125,14 @@
       "status": "found",
       "amount": 282,
       "currency": "GBP",
-      "converted": 12035,
+      "converted": 12195,
       "sourceUrl": "https://pricespy.co.uk/product.php?p=16273588",
       "sourceTitle": "PriceSpy UK：Dell HDA26 Single Monitor Arm",
       "evidenceSnippet": "PriceSpy exact-model 頁的 Price History 明示新品最低價 £282，且商品名稱、品牌與 GTIN 對應 Dell HDA26。",
       "sourceKind": "price_history",
       "confidence": "medium",
       "checkedAt": "2026-08-25",
-      "note": "採英國市場 exact-model 公開價格歷史並依 2026-09-14 GBP/TWD 匯率換算；未含國際運費、進口稅、退換貨與台灣保固風險，不能直接視為台灣到手價。"
+      "note": "採英國市場 exact-model 公開價格歷史並依 2026-10-19 GBP/TWD 匯率換算；未含國際運費、進口稅、退換貨與台灣保固風險，不能直接視為台灣到手價。"
     },
     "issueResearch": {
       "status": "no_common_issue",

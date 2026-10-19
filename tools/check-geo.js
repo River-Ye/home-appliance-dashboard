@@ -9,6 +9,7 @@ const {
   collectUnexpectedCategoryEntries,
   escapeHtml,
   jsonLdStringify,
+  renderCategoryPage,
 } = require("./generate-category-pages");
 const { submitIndexNow } = require("./submit-indexnow");
 const {
@@ -228,7 +229,7 @@ function assertSafePublicMarkup(markup, file) {
   }
 }
 
-function assertGuideAndEscapingContracts(categories) {
+function assertGuideAndEscapingContracts(categories, products, meta) {
   const expectedIds = categories.map((category) => category.id).sort();
   const guideIds = Object.keys(CATEGORY_GUIDES).sort();
   assert(JSON.stringify(guideIds) === JSON.stringify(expectedIds), "category guide ids should exactly match config categories");
@@ -252,6 +253,13 @@ function assertGuideAndEscapingContracts(categories) {
   const escapedJson = jsonLdStringify({ value: malicious });
   assert(!escapedJson.includes("</script>"), "JSON-LD escaping must neutralize closing script tags");
   assert(JSON.parse(escapedJson).value === malicious, "JSON-LD escaping should preserve the source value after parsing");
+  const category = categories[0];
+  const note = "保留參考價 <來源待確認>";
+  const categoryProducts = products.filter((product) => product.category === category.id);
+  const first = categoryProducts[0];
+  const withNote = categoryProducts.map((product) => product.id === first.id ? { ...product, price: { ...product.price, note } } : product);
+  const markup = renderCategoryPage(category, withNote, CATEGORY_GUIDES[category.id], meta, categories);
+  assert(markup.split(escapeHtml(note)).length - 1 === 2, "both the shortlist and full model index must expose escaped price notes");
 }
 
 function assertGeoConfigContract(categories, products) {
@@ -420,10 +428,10 @@ function assertCategoryPageContracts(categories, products, meta) {
         assert(productArticleText.includes("查看官方資料"), `${file} must link ${product.id} as official data`);
         assert(!productArticleText.includes("查核時價格"), `${file} must not call ${product.id} a checked retailer price`);
       } else if (product.price?.basis === "retailer_current") {
-        assert(productArticleText.includes("查核時價格") && productArticleText.includes("通路現價"), `${file} must label ${product.id} as a retailer-current price`);
+        assert(productArticleText.includes("查核時價格") && productArticleText.includes("通路報價"), `${file} must label ${product.id} as a retailer-current price`);
       } else {
         assert(productArticleText.includes("公開售價") && productArticleText.includes("價格基準未標示"), `${file} must disclose the unknown price basis for ${product.id}`);
-        assert(!productArticleText.includes("通路現價"), `${file} must not infer retailer-current pricing for ${product.id}`);
+        assert(!productArticleText.includes("通路報價"), `${file} must not infer retailer-current pricing for ${product.id}`);
       }
       if (product.installation) {
         assert(productArticleText.includes("安裝"), `${file} must expose the installation boundary for ${product.id}`);
@@ -456,7 +464,7 @@ function assertCategoryPageContracts(categories, products, meta) {
       const priceBasis = product.price?.basis === "official_suggested"
         ? "官方建議售價"
         : product.price?.basis === "retailer_current"
-          ? "通路現價"
+          ? "通路報價"
           : "價格基準未標示";
       assert(catalogItemText.includes(formatTwd(product.price.converted)), `${file} catalog item ${product.id} reference price mismatch`);
       assert(catalogItemText.includes(priceBasis), `${file} catalog item ${product.id} price basis mismatch`);
@@ -710,7 +718,7 @@ async function main() {
   assert(products.length === EXPECTED_PRODUCT_COUNT, `GEO contract expects ${EXPECTED_PRODUCT_COUNT} products, got ${products.length}`);
 
   check("central GEO copy and evidence resource contract is complete", () => assertGeoConfigContract(categories, products));
-  check("category guides and serializer escaping are complete", () => assertGuideAndEscapingContracts(categories));
+  check("category guides and serializer escaping are complete", () => assertGuideAndEscapingContracts(categories, products, meta));
   check("category generator detects committed-output drift", () => assertGeneratorDriftContract(categories));
   check(`generated output is exactly ${categories.length} category pages`, () => assertGeneratedPageSet(categories));
   check("category pages expose unique, source-backed, static GEO content", () => assertCategoryPageContracts(categories, products, meta));

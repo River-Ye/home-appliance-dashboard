@@ -324,9 +324,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/4455399AAF-SP-22083802.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 14500,
-      "converted": 14500,
-      "confidence": "Yahoo購物中心 2026-09-14 exact-model 公開結構化價格",
+      "amount": 13920,
+      "converted": 13920,
+      "confidence": "Yahoo購物中心 2026-10-19 exact-model 公開結構化價格",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -1149,9 +1149,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/2D7A5B7B73-SP-16189270.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 15999,
-      "converted": 15999,
-      "confidence": "Yahoo購物中心 2026-09-14 exact-model 公開結構化價格"
+      "amount": 15520,
+      "converted": 15520,
+      "confidence": "Yahoo購物中心 2026-10-19 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1252,9 +1252,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/58E65612D5-SP-11664526.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 11900,
-      "converted": 11900,
-      "confidence": "Yahoo購物中心 2026-07-21 頁面公開價"
+      "amount": 11543,
+      "converted": 11543,
+      "confidence": "Yahoo購物中心 2026-10-19 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1295,16 +1295,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 11662,
+      "amount": 11543,
       "currency": "TWD",
-      "converted": 11662,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1279005815&cgp=11900",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【SANLUX 台灣三洋】250L 變頻雙門冰箱 (SR-C238BV)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「東森購物 / 【SANLUX 台灣三洋】250L 變頻雙門冰箱 (SR-C238BV)」最低價為 NT$11,662，最低點日期 2026-06-19。",
-      "sourceKind": "price_history",
+      "converted": 11543,
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/SANLUX%E5%8F%B0%E7%81%A3%E4%B8%89%E6%B4%8B-250L-1%E7%B4%9A%E8%AE%8A%E9%A0%BB%E9%9B%99%E9%96%80%E9%9B%BB%E5%86%B0%E7%AE%B1SR-C238BV-10096667.html",
+      "sourceTitle": "Yahoo購物中心：【SANLUX 台灣三洋】250L 一級變頻雙門電冰箱 SR-C238BV | 變頻300L以下 | Yahoo購物中心",
+      "evidenceSnippet": "Yahoo購物中心於 2026-10-19 顯示同型號可信新品公開價 NT$11,543，低於既有史低 NT$11,662。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-10-19",
+      "note": "採用 Yahoo購物中心當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2699,9 +2699,9 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 68310,
-      "converted": 68310,
-      "confidence": "PChome MR-WZ54N-W-C 星光白公開新品價；2026-09-06 以商品頁及 API Price.P=68310、Qty=5核對，不含信用卡或點數回饋。",
+      "amount": 66000,
+      "converted": 66000,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current"
     },
     "image": "https://img.pchome.com.tw/cs/items/DPAC34A900KEBDC/000001_1788243890.jpg",
@@ -2790,6 +2790,98 @@
       "六門",
       "543L",
       "SMART AI",
+      "台灣公司貨"
+    ]
+  },
+  {
+    "id": "refrigerator-panasonic-nr-d507xgs-b",
+    "category": "refrigerator",
+    "rank": 28,
+    "topPick": false,
+    "budget": "mid",
+    "brand": "Panasonic",
+    "model": "NR-D507XGS-B",
+    "name": "Panasonic NR-D507XGS-B 500L 四門霧面玻璃變頻冰箱",
+    "image": "https://img.pchome.com.tw/cs/items/DPACHEA900KIO2T/000001_1790827796.jpg",
+    "price": {
+      "currency": "TWD",
+      "amount": 48500,
+      "converted": 48500,
+      "basis": "retailer_current",
+      "confidence": "PChome商品API與原頁2026-10-19核對；公開網路價48500，未扣點數、信用卡或會員券"
+    },
+    "channel": "tw",
+    "buyLabel": "PChome 24h購物",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KIO2T",
+    "installation": {
+      "status": "included_basic",
+      "note": "PChome 商品標題含基本運送、拆箱定位與回收舊機；樓層、偏遠地區與特殊搬運可能加價，依通路丈量與配送條款。"
+    },
+    "specs": [
+      "容量：500L；四門日系上質系列，沐霜銀B",
+      "尺寸：寬 72.1 x 深 69.5 x 高 183.4 cm",
+      "重量：94 kg（淨重；通路exact-model規格）",
+      "保鮮：-3°C微凍結、新鮮急凍結、智慧保濕蔬果室、nanoe X",
+      "節能：符合2027年新1級；官方年耗電276度、AI ECONAVI",
+      "便利：IoT智慧健康家電、自動製冰、環境氣氛燈",
+      "電壓／頻率：110V／60Hz（台灣公司貨）",
+      "安裝：含基本運送、拆箱定位與回收舊機；確認門寬、樓層及散熱空間"
+    ],
+    "description": "同為500L四門機種，NR-D507XGS新增符合2027年新1級的能效規格及霧面玻璃外觀，可與既有NR-D505XV鋼板款並列比較。官方年耗電276度、AI ECONAVI及nanoe X適合重視保鮮、節能與智慧連線的家庭。",
+    "pros": [
+      "官方確認符合2027年新1級能效，年耗電276度",
+      "500L四門整合微凍結、新鮮急凍與自動製冰",
+      "台灣公司貨110V／60Hz，可透過Panasonic台灣售後服務"
+    ],
+    "cons": [
+      "48,500元高於既有500L鋼板款，應比較價差與外觀需求",
+      "72.1cm機身寬度仍須加留散熱及開門空間",
+      "94kg淨重，樓層或特殊搬運可能加價；上市與可靠史低日期未確認"
+    ],
+    "bestFor": "需要500L四門分區、保鮮功能與新能效規格，並可容納72.1cm寬機身的家庭。",
+    "recommendation": "作為500L四門新世代候選，與既有NR-D505XV並列比較；依空間、玻璃門板偏好與實際價差選擇，不因新型號直接取代仍有可信新品通路的舊款。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-19",
+      "note": "查過LBJ與FindPrice exact model價格歷史／比價及PChome、momo原頁；LBJ exact查詢未能讀取，FindPrice可讀列表僅現時比價且混入W白色或分期每月金額；未取得B沐霜銀同型號可驗證歷史最低價，不以現價推定。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-19",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"NR-D507XGS-B\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22NR-D507XGS-B%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"NR-D507XGS-B\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.bing.com/search?q=site%3Aptt.cc%20%22NR-D507XGS-B%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29",
+          "targetHost": "ptt.cc"
+        }
+      ]
+    },
+    "score": 91,
+    "voltage": "110V／60Hz；順發exact-model台灣規格可核對，使用獨立接地插座並確認原廠安裝條件",
+    "warranty": "台灣公司貨，全機1年、主要零件3年、壓縮機5年；依原廠保固條款，Panasonic客服0800-098-800",
+    "tags": [
+      "500L",
+      "四門",
+      "2027新1級",
+      "IoT",
       "台灣公司貨"
     ]
   }

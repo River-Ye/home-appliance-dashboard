@@ -119,9 +119,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/2E9A754FA4-SP-22052141.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 19900,
-      "converted": 19900,
-      "confidence": "Yahoo購物中心 2026-09-14 exact-model 公開結構化價格",
+      "amount": 19104,
+      "converted": 19104,
+      "confidence": "Yahoo購物中心 2026-10-19 exact-model 公開結構化價格",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -224,9 +224,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/7A7EBA14D6-SP-22052251.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 20900,
-      "converted": 20900,
-      "confidence": "Yahoo購物中心 2026-09-14 exact-model 公開結構化價格",
+      "amount": 20064,
+      "converted": 20064,
+      "confidence": "Yahoo購物中心 2026-10-19 exact-model 公開結構化價格",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -433,9 +433,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/CA07AC9A88-SP-14769059.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 20610,
-      "converted": 20610,
-      "confidence": "PChome 2026-09-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 20152,
+      "converted": 20152,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -959,9 +959,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/ae6170dd95-Gd-10609233.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 6890,
-      "converted": 6890,
-      "confidence": "PChome 2026-09-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 7290,
+      "converted": 7290,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1791,9 +1791,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/df3ca3dcf3-Gd-10425979.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 5990,
-      "converted": 5990,
-      "confidence": "Yahoo購物中心 2026-09-14 exact-model 公開結構化價格"
+      "amount": 5691,
+      "converted": 5691,
+      "confidence": "Yahoo購物中心 2026-10-19 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -2506,9 +2506,9 @@
     "name": "17kg 變頻溫水直立式洗衣機",
     "price": {
       "currency": "TWD",
-      "amount": 20690,
-      "converted": 20690,
-      "confidence": "PChome 2026-09-03 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 22490,
+      "converted": 22490,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMBM1PA900IE3KH/000001_1775150195.jpg",
@@ -2704,10 +2704,10 @@
     "name": "15公斤高效抑菌溫水滾筒洗衣機（冰鑽白）",
     "price": {
       "currency": "TWD",
-      "amount": 30510,
-      "converted": 30510,
+      "amount": 31860,
+      "converted": 31860,
       "basis": "retailer_current",
-      "confidence": "2026-09-09 PChome exact-model公開價30,510元；API兩SKU均有庫存，不採會員/信用卡/P幣優惠。"
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "installation": {
       "status": "included_basic",

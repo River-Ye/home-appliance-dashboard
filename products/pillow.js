@@ -104,9 +104,9 @@
     },
     {
       id: "pillow-3m-mz600", variantFamily: "3m-mz600", brand: "3M", model: "MZ600", name: "3M 防蟎可調式記憶枕 MZ600 側仰舒眠型", type: "memory_foam", typeSpec: "可調式記憶泡棉完整成品枕", budget: "premium", rank: 2, score: 91, price: 3290,
-      image: "https://img.91app.com/webapi/imagesV3/Original/SalePage/6213493/0/639237917199230000?v=1", buyUrl: "https://shop.3m.com.tw/SalePage/Index/6213493", buyLabel: "3M 台灣官方商城（MZ600）",
+      image: "https://img.91app.com/webapi/imagesV3/Original/SalePage/6213493/0/639237917199230000?v=1", buyUrl: "https://24h.pchome.com.tw/prod/DAAN5D-A900AJMFY", buyLabel: "PChome 24h（MZ600）",
       sleep: "左右高包覆、側睡／仰睡；含 2 cm 可拆墊片調高", cover: "3M 物理防蟎可拆洗枕套", core: "記憶泡棉枕心與可拆式墊片", height: "高 7.5–11.5 cm＋2 cm 墊片／可調支撐", size: "長 64 x 寬 38 x 高 11.5 cm", weight: "查不到", thermal: "官方主打防蟎與包覆，未標示涼感等級", origin: "BSMI M34661；台灣製造", care: "防蟎枕套可拆洗；官方確切頁未列泡棉枕心洗滌方式，核心勿逕行機洗",
-      description: "超寬輪廓搭配可拆墊片，讓同一枕芯在側睡與仰睡間微調高度。", pros: ["高度可調", "台灣製造與官方通路", "附物理防蟎枕套"], cons: ["官方頁未明示淨重", "泡棉核心不可由枕套洗法推定", "需自行找出合適墊片組合"], bestFor: "希望用墊片微調高度的仰睡或側睡成人。", recommendation: "列為仰睡推薦；先從不加墊片試睡，再逐步加高避免頸部過度屈曲。", warranty: "3M 台灣官方通路與客服；耐用保固年限未標示，退換依官方商城條款。", tags: ["仰睡推薦", "高度可調", "防蟎枕套", "台灣製造"],
+      description: "超寬輪廓搭配可拆墊片，讓同一枕芯在側睡與仰睡間微調高度。", pros: ["高度可調", "台灣製造與可信通路", "附物理防蟎枕套"], cons: ["官方頁未明示淨重", "泡棉核心不可由枕套洗法推定", "需自行找出合適墊片組合"], bestFor: "希望用墊片微調高度的仰睡或側睡成人。", recommendation: "列為仰睡推薦；先從不加墊片試睡，再逐步加高避免頸部過度屈曲。", warranty: "3M 台灣官方通路與客服；耐用保固年限未標示，退換依購買通路條款。", tags: ["仰睡推薦", "高度可調", "防蟎枕套", "台灣製造"],
     },
     {
       id: "pillow-emma-black-diamond", variantFamily: "emma-black-diamond", brand: "Emma", model: "EPWCF040070RAB", name: "Emma 石墨烯黑鑽記憶枕 40x70 EPWCF040070RAB", type: "memory_foam", typeSpec: "三層記憶泡棉完整成品枕", budget: "premium", rank: 3, score: 90, price: 3199,

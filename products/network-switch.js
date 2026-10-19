@@ -397,9 +397,9 @@
     "type": "1g",
     "price": {
       "currency": "TWD",
-      "amount": 649,
-      "converted": 649,
-      "confidence": "PChome 24h 2026-08-24 exact-model 台灣原廠保固新品公開價",
+      "amount": 659,
+      "converted": 659,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current"
     },
     "installation": {
@@ -775,9 +775,9 @@
     "type": "2_5g",
     "price": {
       "currency": "TWD",
-      "amount": 1999,
-      "converted": 1999,
-      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 2999,
+      "converted": 2999,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current"
     },
     "installation": {
@@ -1037,9 +1037,9 @@
     "type": "1g",
     "price": {
       "currency": "TWD",
-      "amount": 1139,
-      "converted": 1139,
-      "confidence": "PChome 2026-09-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 1299,
+      "converted": 1299,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current"
     },
     "installation": {
@@ -1689,9 +1689,9 @@
     "type": "2_5g",
     "price": {
       "currency": "TWD",
-      "amount": 3265,
-      "converted": 3265,
-      "confidence": "PChome 24h 2026-08-24 exact-model 台灣原廠保固新品公開價",
+      "amount": 3568,
+      "converted": 3568,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current"
     },
     "installation": {

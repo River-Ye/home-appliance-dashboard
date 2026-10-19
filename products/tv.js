@@ -116,9 +116,9 @@
     "name": "65 型 S90F OLED 4K 智慧顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 50900,
-      "converted": 50900,
-      "confidence": "PChome 2026-09-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 46900,
+      "converted": 46900,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADEW1900K4WRT/000001_1782056882.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADEW-A900IUE7F",
@@ -714,9 +714,9 @@
     "name": "65 型 4K 120Hz 量子點護眼 Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 24900,
-      "converted": 24900,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 25900,
+      "converted": 25900,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD0O1900IEK5W/000001_1761401167.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAD0O-1900IEK5W",
@@ -1902,9 +1902,9 @@
     "name": "65型 4K QLED 120Hz Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 12591,
-      "converted": 12591,
-      "confidence": "PChome 2026-09-03 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 15990,
+      "converted": 15990,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADTOA900JNE73/000001_1768523868.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADTO-A900JNMOP",
@@ -2405,9 +2405,9 @@
     "name": "75 吋 Q7N 4K 144Hz QLED 智慧顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 35999,
-      "converted": 35999,
-      "confidence": "PChome 2026-09-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 39999,
+      "converted": 39999,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h4e/h03/438072156979230.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAD98-A900JV2AT",
@@ -3736,9 +3736,9 @@
     "name": "65 型 S90H OLED 4K Samsung Vision AI 智慧顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 84900,
-      "converted": 84900,
-      "confidence": "Yahoo購物中心自營 2026-09-02 exact-model 公開價",
+      "amount": 80900,
+      "converted": 80900,
+      "confidence": "Yahoo購物中心 2026-10-19 exact-model 公開結構化價格",
       "basis": "retailer_current"
     },
     "installation": {
@@ -3937,10 +3937,10 @@
     "name": "65 型 S-960 Mini LED 量子點 144Hz 遊戲 Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 44900,
-      "converted": 44900,
+      "amount": 39900,
+      "converted": 39900,
       "basis": "retailer_current",
-      "confidence": "PChome 2026-09-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "installation": {
       "status": "not_stated",

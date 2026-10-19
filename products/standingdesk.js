@@ -115,9 +115,9 @@
     "name": "D01-SL-DX 電動升降桌 120x80",
     "price": {
       "currency": "TWD",
-      "amount": 15290,
-      "converted": 15290,
-      "confidence": "PChome 2026-09-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 14911,
+      "converted": 14911,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900I9XVY/000001_1773043590.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4C-A900I9XVY",
@@ -213,9 +213,9 @@
     "name": "D01-SL-DX 電動升降桌 150x80",
     "price": {
       "currency": "TWD",
-      "amount": 15790,
-      "converted": 15790,
-      "confidence": "PChome 2026-09-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 15911,
+      "converted": 15911,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900HUG3C/000001_1773043903.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4C-A900HUG3C",
@@ -311,9 +311,9 @@
     "name": "D01-SL-DX 電動升降桌 160x80",
     "price": {
       "currency": "TWD",
-      "amount": 16290,
-      "converted": 16290,
-      "confidence": "PChome 2026-09-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 16211,
+      "converted": 16211,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900ITV12/000001_1773043461.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4C-A900ITV12",
@@ -409,9 +409,9 @@
     "name": "D01-SL-DX 電動升降桌 180x80",
     "price": {
       "currency": "TWD",
-      "amount": 16990,
-      "converted": 16990,
-      "confidence": "PChome 2026-09-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 16911,
+      "converted": 16911,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900HUGSO/000001_1773043706.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4C-A900HUGSO",
@@ -900,9 +900,9 @@
     "name": "ROYAL MOSSA 150 加大電動升降桌",
     "price": {
       "currency": "TWD",
-      "amount": 15990,
-      "converted": 15990,
-      "confidence": "PChome 2026-08-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 10990,
+      "converted": 10990,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBB6OA900HZWA5/000001_1783085629.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBB6O-A900HZWA5",
@@ -998,9 +998,9 @@
     "name": "E-Ares 120 RGB 電動升降桌",
     "price": {
       "currency": "TWD",
-      "amount": 12990,
-      "converted": 12990,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 9990,
+      "converted": 9990,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBB6OA900JPZTQ/000001_1774958562.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBB6O-A900JPZTQ",
@@ -1682,9 +1682,9 @@
     "name": "電競電動升降桌",
     "price": {
       "currency": "TWD",
-      "amount": 10990,
-      "converted": 10990,
-      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 13990,
+      "converted": 13990,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBB6OA900HSVT2/000001_1782822944.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBB6O-A900HSVT2",
@@ -1876,9 +1876,9 @@
     "name": "電動升降桌 白色",
     "price": {
       "currency": "TWD",
-      "amount": 7199,
-      "converted": 7199,
-      "confidence": "Costco 好市多 2026-09-07 exact-model 公開結構化價格"
+      "amount": 8999,
+      "converted": 8999,
+      "confidence": "Costco 好市多 2026-10-19 exact-model 公開結構化價格"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/hc9/hb9/261465662193694.jpg",
     "buyUrl": "https://www.costco.com.tw/Furniture-Kitchen/Furniture/Computer-Desk-Chair-Sets/Loctek-Adjustable-Desk-ET200-White/p/141578",

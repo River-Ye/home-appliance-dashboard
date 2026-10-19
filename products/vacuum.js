@@ -1458,9 +1458,9 @@
     "name": "蒸氣旗艦洗地機",
     "price": {
       "currency": "TWD",
-      "amount": 15189,
-      "converted": 15189,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 14250,
+      "converted": 14250,
+      "confidence": "Yahoo購物中心 2026-10-19 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAXB5A900JP6TZ/000001_1770084365.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Tineco-%E6%B7%BB%E5%8F%AF-S7-Stretch-Steam-%E8%92%B8%E6%B0%A3%E6%97%97%E8%89%A6%E6%B4%97%E5%9C%B0%E6%A9%9F-160%E5%BA%A6%E8%92%B8%E6%B0%A3%E7%A1%AC%E6%B1%A1%E6%B8%85%E6%BD%94-80mi-12078414.html",
@@ -1842,9 +1842,9 @@
     "name": "微塵感知極淨光無線吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 11713,
-      "converted": 11713,
-      "confidence": "Yahoo購物中心 2026-08-21 exact-model 公開結構化價格"
+      "amount": 11600,
+      "converted": 11600,
+      "confidence": "Yahoo購物中心 2026-10-19 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX0ZA900K4IQZ/000001_1781668428.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-%E7%84%A1%E7%B7%9A%E7%9B%B4%E7%AB%8B-%E6%89%8B%E6%8C%81%E5%BC%8F%E5%BE%AE%E5%A1%B5%E6%84%9F%E7%9F%A5%E6%A5%B5%E6%B7%A8%E5%85%89%E5%90%B8%E5%A1%B5%E5%99%A8-MC-SBR70-12134025.html",
@@ -2227,8 +2227,8 @@
     "price": {
       "currency": "USD",
       "amount": 679.99,
-      "converted": 21460,
-      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-09-14 匯率換算"
+      "converted": 22063,
+      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-10-19 匯率換算"
     },
     "image": "https://m.media-amazon.com/images/I/61Yuy5vtWFL._AC_SL1500_.jpg",
     "buyUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
@@ -2267,14 +2267,14 @@
       "status": "found",
       "amount": 679.99,
       "currency": "USD",
-      "converted": 21460,
+      "converted": 22063,
       "sourceUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
       "sourceTitle": "Dreame Aero Ultra Steam Wet Dry Vacuum – Dreame Vacuum Mop",
       "evidenceSnippet": "Dreame 原廠美國商品頁於 2026-07-16 公開顯示特價 US$679.99、原價 US$799.99，且可 Add to Cart / Buy It Now。",
       "sourceKind": "official_sale",
       "confidence": "high",
       "checkedAt": "2026-07-16",
-      "note": "新上市商品目前可公開驗證的最低售價；未套用會員碼、信用卡、點數或個人化折扣，且未含國際運費、進口稅、插頭／供電與台灣保固風險；依 2026-09-14 USD/TWD 匯率換算。"
+      "note": "新上市商品目前可公開驗證的最低售價；未套用會員碼、信用卡、點數或個人化折扣，且未含國際運費、進口稅、插頭／供電與台灣保固風險；依 2026-10-19 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2641,11 +2641,12 @@
       "amount": 13900,
       "converted": 13900,
       "confidence": "新光三越 skm online 2026-08-20 exact-model 台灣新品頁公開售價",
-      "basis": "retailer_current"
+      "basis": "retailer_current",
+      "note": "2026-10-19 原新光三越購買頁已失效，官方仍列此型號但現售通路未確認；保留上次參考價，非本次確認現價。"
     },
     "image": "https://images.samsung.com/is/image/samsung/p6pim/tw/vs70h18gzg-tw/gallery/tw-jet-fit-stick-vs70h18gzg-tw-550961394?$624_468_PNG$",
     "buyUrl": "https://online.skm.com.tw/product/863012300004104123",
-    "buyLabel": "新光三越 skm online",
+    "buyLabel": "新光三越 skm online（現售待確認）",
     "installation": {
       "status": "not_stated",
       "note": "通路未列到府安裝；本品為無線直立／手持吸塵器，充電座、配件與充電位置由使用者依原廠說明完成。"

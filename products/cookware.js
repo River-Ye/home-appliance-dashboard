@@ -422,9 +422,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWN3A900JSN52/000001_1772965996.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 2116,
-      "converted": 2116,
-      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 2241,
+      "converted": 2241,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -523,9 +523,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWMWA900J5MY9/000001_1756189443.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 2499,
-      "converted": 2499,
-      "confidence": "PChome 2026-08-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 3021,
+      "converted": 3021,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -930,10 +930,11 @@
       "currency": "TWD",
       "amount": 2860,
       "converted": 2860,
-      "confidence": "Yahoo購物中心 2026-08-15 exact-model 自營新品公開價"
+      "confidence": "Yahoo購物中心 2026-08-15 exact-model 自營新品公開價",
+      "note": "2026-10-19 原 Yahoo 商品頁已失效，尚未確認同版本可信新品通路；保留上次參考價，非本次確認現價。"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心",
+    "buyLabel": "Yahoo購物中心（現售待確認）",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Fissler-Levital-%E7%B6%93%E5%85%B8%E4%B8%8D%E6%B2%BE%E5%B9%B3%E5%BA%95%E9%8D%8B-28cm-%E4%B8%8D%E6%B2%BE%E9%8D%8B-%E7%85%8E%E9%8D%8B-%E9%9B%BB%E7%A3%81%E7%88%90-IH%E7%88%90%E5%8F%AF%E7%94%A8-11325415.html",
     "specs": [
       "鍋具：Fissler Levital 經典不沾平底鍋 28cm 不沾鍋 煎鍋 (電磁爐 IH爐可用)",
@@ -1234,9 +1235,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAW03A900BSUA7/000001_1632301011.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 6360,
-      "converted": 6360,
-      "confidence": "PChome 2026-08-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 6440,
+      "converted": 6440,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",

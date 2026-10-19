@@ -247,7 +247,7 @@
     const priceNote = officialSuggested
       ? "台灣官方公開建議售價，非通路成交價"
       : retailerCurrent && product.price.currency === "TWD"
-        ? product.channel === "global" ? "海外通路新台幣報價；未含國際運費/進口稅" : "台灣通路現價"
+        ? product.channel === "global" ? "海外通路新台幣報價；未含國際運費/進口稅" : "台灣通路報價"
         : retailerCurrent
           ? `${product.price.confidence}，匯率 ${product.price.currency} 轉 TWD；未含國際運費/進口稅`
           : "價格基準未標示，請開啟來源確認";
@@ -291,6 +291,7 @@
               <span class="field-label">${utils.escapeHtml(priceLabel)}</span>
               <strong>${utils.escapeHtml(utils.formatTwd(product.price.converted))}</strong>
               <small>${utils.escapeHtml(utils.formatOriginal(product.price))} · ${utils.escapeHtml(priceNote)}</small>
+              ${product.price.note ? `<small>${utils.escapeHtml(product.price.note)}</small>` : ""}
             </div>
             ${historicalLowMarkup(product)}
             <div class="score" title="綜合評估分數">${utils.escapeHtml(product.score)}</div>
@@ -329,7 +330,7 @@
               ${specItemMarkup("安裝", installationText)}
               ${specItemMarkup("上市 / 發售日期", releaseDateText(product))}
               <div class="tag-row">${product.tags.map((tag) => `<span class="tag">${utils.escapeHtml(tag)}</span>`).join("")}</div>
-              <p class="fineprint">資料來源：${utils.escapeHtml(product.buyLabel)}，擷取日 ${sourceDate}。</p>
+              <p class="fineprint">資料來源：${utils.escapeHtml(product.buyLabel)}，資料批次 ${sourceDate}。${utils.escapeHtml(product.price.confidence || "")}</p>
             </div>
           </details>
         </div>
@@ -361,10 +362,11 @@
       { label: "品牌/型號", get: (product) => `${product.brand} ${product.model}` },
       { label: "TWD 價格", get: (product) => utils.formatTwd(product.price.converted) },
       { label: "原幣價格", get: (product) => utils.formatOriginal(product.price) },
+      { label: "價格註記", get: (product) => product.price.note || "以來源為準" },
       { label: "價格基準", get: (product) => product.price.basis === "official_suggested"
         ? "官方建議售價"
         : product.price.basis === "retailer_current"
-          ? "通路現價"
+          ? "通路報價"
           : "未標示" },
       { label: "歷史最低價 / 入手時機", get: historicalLowText },
       { label: "負評／災情", get: issueResearchText },

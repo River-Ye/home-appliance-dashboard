@@ -3,8 +3,8 @@ const EXPECTED_PRODUCT_COUNT = 1156;
 const MIN_PRODUCTS_PER_CATEGORY = 20;
 const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["tv", 41],
-  ["soundbar", 37],
-  ["fan", 24],
+  ["soundbar", 38],
+  ["fan", 21],
   ["circulator", 23],
   ["dehumidifier", 28],
   ["purifier", 29],
@@ -18,7 +18,7 @@ const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["bedsheet", 30],
   ["comforter", 30],
   ["pillow", 30],
-  ["refrigerator", 27],
+  ["refrigerator", 28],
   ["cookware", 28],
   ["knife", 23],
   ["blender", 25],
@@ -27,7 +27,7 @@ const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["waterdispenser", 43],
   ["dishwasher", 31],
   ["waterheater", 45],
-  ["bidet", 21],
+  ["bidet", 22],
   ["smartlock", 51],
   ["wifi", 56],
   ["network-switch", 20],
@@ -44,7 +44,7 @@ const DATE_PATTERN = /^(找不到|\d{4}(?:[-/.]\d{1,2}(?:[-/.]\d{1,2})?)?)$/;
 const WASHER_DRYER_CAPACITY_PATTERN = /^洗\/乾容量：\d+(?:\.\d+)?kg \/ \d+(?:\.\d+)?kg$/;
 const DIMENSION_CATEGORY_COUNTS = new Map([
   ["tv", 41],
-  ["soundbar", 37],
+  ["soundbar", 38],
   ["washer", 27],
   ["dryer", 24],
   ["washerdryer", 32],
@@ -52,11 +52,11 @@ const DIMENSION_CATEGORY_COUNTS = new Map([
   ["bedsheet", 30],
   ["comforter", 30],
   ["pillow", 30],
-  ["refrigerator", 27],
+  ["refrigerator", 28],
   ["coffee", 24],
   ["oven", 25],
   ["dishwasher", 31],
-  ["bidet", 21],
+  ["bidet", 22],
   ["aircon", 30],
   ["waterheater", 45],
   ["network-switch", 20],
@@ -77,7 +77,7 @@ const DIMENSION_PATTERN = new RegExp(`^尺寸：${FORBIDDEN_MEASUREMENT_LABEL_PA
 const DIMENSION_CONFIDENCE_VALUES = new Set(["high", "medium", "low", "not_found"]);
 const WEIGHT_CATEGORY_COUNTS = new Map([
   ["tv", 41],
-  ["soundbar", 37],
+  ["soundbar", 38],
   ["coffee", 24],
   ["oven", 25],
   ["aircon", 30],
@@ -298,7 +298,8 @@ const REQUIRED_CATEGORY_TERMS = new Map([
 ]);
 const CATEGORY_TEXT_MATCH_COUNTS = [
   { category: "soundbar", term: "Marshall", exact: 2 },
-  { category: "fan", term: "Philips", min: 5 },
+  // ACR3142CF、ACR3144WTF、AHR5164FD 已由 2026-10-19 官方停產證據移除。
+  { category: "fan", term: "Philips", min: 2 },
   { category: "purifier", term: "POIEMA", min: 2 },
   { category: "wifi", term: "Mesh", min: 20 },
   { category: "monitor", term: "OLED", min: 8 },

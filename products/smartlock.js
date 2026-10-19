@@ -209,9 +209,9 @@
     "name": "ByYou Pro Apple 認證智能電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 25399,
-      "converted": 25399,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 24129,
+      "converted": 24129,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS40A900ITUBT/000001_1747374050.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS40-A900ITUBT",
@@ -1992,9 +1992,9 @@
     "price": {
       "currency": "HKD",
       "amount": 9638,
-      "converted": 38786,
+      "converted": 39846,
       "basis": "retailer_current",
-      "confidence": "EasyLock 香港 2026-08-28 exact-model 公開促銷價；ExchangeRate-API 2026-09-14 匯率換算"
+      "confidence": "EasyLock 香港 2026-08-28 exact-model 公開促銷價；ExchangeRate-API 2026-10-19 匯率換算"
     },
     "installation": {
       "status": "included_basic",
@@ -3324,9 +3324,9 @@
     "name": "逸系列微光夜視貓眼電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 34960,
-      "converted": 34960,
-      "confidence": "PChome 2026-09-08 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 31111,
+      "converted": 31111,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900K2QWO/000001_1782963114.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900K2QWO",
@@ -3612,9 +3612,9 @@
     "name": "Tiko One 指紋卡片密碼電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 16910,
-      "converted": 16910,
-      "confidence": "PChome 2026-07-30 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 17800,
+      "converted": 17800,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900K0KZV/000001_1779265986.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900K0KZV",
@@ -4572,9 +4572,9 @@
     "name": "AI 智慧 A90 頂級電子門鎖",
     "price": {
       "currency": "TWD",
-      "amount": 31800,
-      "converted": 31800,
-      "confidence": "PChome 2026-08-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 32110,
+      "converted": 32110,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900K2STR/000001_1783309040.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900K2STR",

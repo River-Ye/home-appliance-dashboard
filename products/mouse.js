@@ -2606,15 +2606,16 @@
       "amount": 399,
       "converted": 399,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 Chrome核對台灣旗艦店已選黑色、SKU910-005916、399及加入購物車；原連結已實際轉址/products/m190，圖片naturalWidth500。"
+      "confidence": "Yahoo購物中心 2026-10-19 同型號新品公開價；未扣會員券、點數或信用卡回饋。",
+      "note": "通路明示 M190 黑色，但未列製造商料號；購前請核對木炭黑 910-005916。"
     },
     "installation": {
       "status": "not_stated",
       "note": "不涉及到府施工；自行裝電池並插入原隨附接收器。"
     },
     "image": "https://store.logitech.tw/cdn/shop/products/m190-666692.jpg?v=1705570757&width=1220",
-    "buyUrl": "https://store.logitech.tw/products/m190?variant=40018414206999",
-    "buyLabel": "羅技 Logi 台灣網路旗艦店",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=9175424",
+    "buyLabel": "Yahoo購物中心",
     "specs": [
       "類型：標準型全尺寸無線滑鼠，木炭黑910-005916",
       "握型／慣用手：左右對稱、中至大型手掌外形；掌握是否舒適需依實際手型試用",

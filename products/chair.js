@@ -17,9 +17,9 @@
     "name": "T07 Plus 人體工學電腦椅",
     "price": {
       "currency": "TWD",
-      "amount": 11980,
-      "converted": 11980,
-      "confidence": "PChome 2026-08-18 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 11111,
+      "converted": 11111,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900JM0HG/000001_1783562693.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4C-A900JM0HG",
@@ -308,9 +308,9 @@
     "name": "T03 NEO 人體工學椅",
     "price": {
       "currency": "TWD",
-      "amount": 8990,
-      "converted": 8990,
-      "confidence": "PChome 2026-09-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 8311,
+      "converted": 8311,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900HS19G/000001_1773036067.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4C-A900HS19G",
@@ -502,9 +502,9 @@
     "name": "T27 雲岩網人體工學電腦椅",
     "price": {
       "currency": "TWD",
-      "amount": 14280,
-      "converted": 14280,
-      "confidence": "PChome 2026-08-18 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 12911,
+      "converted": 12911,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBE2LA900HA2WP/000001_1783563647.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBE2L-A900HA2WP",
@@ -599,9 +599,9 @@
     "name": "Fujin 風靈網狀人體工學電競椅",
     "price": {
       "currency": "TWD",
-      "amount": 11091,
-      "converted": 11091,
-      "confidence": "PChome 2026-08-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 11691,
+      "converted": 11691,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBT0KA900GSDTK/000001_1762771347.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBT0K-A900GSDTK",
@@ -784,9 +784,9 @@
     "name": "Enki 電競椅",
     "price": {
       "currency": "TWD",
-      "amount": 12810,
-      "converted": 12810,
-      "confidence": "PChome 2026-08-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 13410,
+      "converted": 13410,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAKFOA900BWWGS/000001_1755481797.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAKFO-A900BWWGS",
@@ -1261,9 +1261,9 @@
     "name": "OC2 SEAT SET 坐躺兩用電腦椅",
     "price": {
       "currency": "TWD",
-      "amount": 3499,
-      "converted": 3499,
-      "confidence": "PChome 2026-09-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 3359,
+      "converted": 3359,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DEBHA6A9007ZPEF/000001_1768553712.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEBHA6-A9007ZPEF",
@@ -1647,9 +1647,9 @@
     "name": "透氣皮革工學賽車電競椅",
     "price": {
       "currency": "TWD",
-      "amount": 3199,
-      "converted": 3199,
-      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 3280,
+      "converted": 3280,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ6ZA900HNDMY/000001_1720591564.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ6Z-A900HNDMY",

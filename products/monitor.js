@@ -994,9 +994,9 @@
     "name": "27 型 2K 120Hz 電腦螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 3399,
-      "converted": 3399,
-      "confidence": "PChome 2026-09-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 3499,
+      "converted": 3499,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABVOA900JMD8B/000001_1768285501.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABVO-A900JMD8B",
@@ -1885,9 +1885,9 @@
     "name": "27 型 2K IPS USB-C UltraSharp 螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 12888,
-      "converted": 12888,
-      "confidence": "PChome 2026-09-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 12588,
+      "converted": 12588,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOMA900GS1DN/000001_1699955230.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABOM-A900GS1DN",
@@ -2759,9 +2759,9 @@
     "name": "27 型 2K 180Hz Mini LED 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 7588,
-      "converted": 7588,
-      "confidence": "PChome 2026-09-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 7111,
+      "converted": 7111,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABTAA900JBMD6/000001_1759809326.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABTA-A900JBMD6",
@@ -2797,15 +2797,15 @@
     "releaseDate": "2025-04-17",
     "historicalLow": {
       "status": "found",
-      "amount": 7208,
+      "amount": 7111,
       "currency": "TWD",
-      "converted": 7208,
+      "converted": 7111,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DSABTA-A900JBMD6",
       "sourceTitle": "PChome 24h 購物：AOC Q27G40XMN 電競螢幕(27型/2K/180Hz/1ms/Mini-LED)",
-      "evidenceSnippet": "PChome 24h 購物於 2026-07-28 顯示同型號可信新品公開價 NT$7,208，低於既有史低 NT$7,398。",
+      "evidenceSnippet": "PChome 24h 購物於 2026-10-19 顯示同型號可信新品公開價 NT$7,111，低於既有史低 NT$7,208。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-28",
+      "checkedAt": "2026-10-19",
       "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
@@ -3128,9 +3128,9 @@
     "name": "34 型 21:9 WQHD 120Hz 1500R 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 6831,
-      "converted": 6831,
-      "confidence": "PChome 2026-09-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 7490,
+      "converted": 7490,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABSZA900JOMA1/000001_1769572714.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABSZ-A900JOMA1",
@@ -3728,9 +3728,9 @@
     "name": "34 型 Porsche Design 240Hz QD-OLED 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 31988,
-      "converted": 31988,
-      "confidence": "PChome 2026-09-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 28800,
+      "converted": 28800,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABQRA900K5BI4/000001_1782298311.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABQR-A900K5BI4",
@@ -3928,9 +3928,9 @@
     "name": "49 型 Odyssey OLED G9 Dual QHD 240Hz 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 36900,
-      "converted": 36900,
-      "confidence": "PChome 2026-09-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 34888,
+      "converted": 34888,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900HZCPE/000001_1781766568.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900HZCPE",
@@ -4228,9 +4228,9 @@
     "name": "57 型 Odyssey Neo G9 Dual UHD 240Hz Mini LED 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 69900,
-      "converted": 69900,
-      "confidence": "PChome 2026-09-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 64900,
+      "converted": 64900,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900GQLSE/000001_1783054239.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900GQLSE",

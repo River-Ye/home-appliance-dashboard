@@ -17,9 +17,9 @@
     "name": "5-10 坪綠淨力玩美雙禦空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 5288,
-      "converted": 5288,
-      "confidence": "PChome 2026-09-03 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 5900,
+      "converted": 5900,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3EA900AU9PA/000001_1782107657.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU3E-A900AU9PA",
@@ -301,9 +301,9 @@
     "name": "17 坪 360 度高效過濾空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 7999,
-      "converted": 7999,
-      "confidence": "PChome 2026-09-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 7439,
+      "converted": 7439,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900GH5RL/000001_1781800112.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAC2O-A900GH5RL",
@@ -1357,9 +1357,9 @@
     "name": "奈米級空氣清淨機 MUJI AC0650",
     "price": {
       "currency": "TWD",
-      "amount": 4990,
-      "converted": 4990,
-      "confidence": "PChome 2026-09-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 4640,
+      "converted": 4640,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900GD1ZV/000001_1781800174.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAC2O-A900GD1ZV",
@@ -1741,9 +1741,9 @@
     "name": "寵物抗敏空氣清淨機輕量版",
     "price": {
       "currency": "TWD",
-      "amount": 10990,
-      "converted": 10990,
-      "confidence": "PChome 2026-09-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 10220,
+      "converted": 10220,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900J7SBO/000001_1781799851.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAC2O-A900J7SBO",
@@ -1933,9 +1933,9 @@
     "name": "PuriCare 360° 空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 17899,
-      "converted": 17899,
-      "confidence": "Costco 好市多 2026-08-04 exact-model 公開結構化價格"
+      "amount": 15499,
+      "converted": 15499,
+      "confidence": "Costco 好市多 2026-10-19 exact-model 公開結構化價格"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/hfb/h8d/115203619782686.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Air-Purifiers-Filters-Accessories/LG-PuriCare-360-Air-Purifier-AS651DWH0/p/136662",
@@ -2229,9 +2229,9 @@
     "name": "迷你奈抗敏奈米級空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 7990,
-      "converted": 7990,
-      "confidence": "PChome 2026-09-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 7430,
+      "converted": 7430,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAUFVA900JZR3M/000001_1785203322.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUFV-A900JZR3M",

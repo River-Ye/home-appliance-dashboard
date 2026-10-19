@@ -15,9 +15,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/AC7DC27581-SP-22704432.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 9351,
-      "converted": 9351,
-      "confidence": "PChome 2026-09-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 9143,
+      "converted": 9143,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -116,9 +116,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/4249C08B3A-SP-8970385.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 7731,
-      "converted": 7731,
-      "confidence": "Yahoo購物中心 2026-08-18 exact-model 公開結構化價格"
+      "amount": 7560,
+      "converted": 7560,
+      "confidence": "Yahoo購物中心 2026-10-19 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1133,9 +1133,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/9c77970c6d-Gd-9971420.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 7990,
-      "converted": 7990,
-      "confidence": "Yahoo購物中心 2026-08-04 exact-model 公開結構化價格"
+      "amount": 8490,
+      "converted": 8490,
+      "confidence": "Yahoo購物中心 2026-10-19 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1336,9 +1336,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/3db887ef39-Gd-10746995.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 8631,
-      "converted": 8631,
-      "confidence": "Yahoo購物中心 2026-09-14 exact-model 公開結構化價格"
+      "amount": 8344,
+      "converted": 8344,
+      "confidence": "Yahoo購物中心 2026-10-19 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1641,9 +1641,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/C0FA586EC4-SP-18495887.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 7990,
-      "converted": 7990,
-      "confidence": "Yahoo購物中心 2026-09-14 exact-model 公開結構化價格"
+      "amount": 7591,
+      "converted": 7591,
+      "confidence": "Yahoo購物中心 2026-10-19 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -2147,11 +2147,12 @@
       "currency": "TWD",
       "amount": 49900,
       "converted": 49900,
-      "confidence": "樂天市場秀翔電器 SS3C 2026-08-08 exact-model JSON-LD InStock 公開價"
+      "confidence": "樂天市場秀翔電器 SS3C 2026-08-08 exact-model JSON-LD InStock 公開價",
+      "note": "2026-10-19 原樂天購買頁已失效，官方仍列此型號但現售通路未確認；保留上次參考價，非本次確認現價。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DPAI1NA900JUUYX/000001_1774598663.jpg",
     "buyUrl": "https://www.rakuten.com.tw/shop/ss3c/product/eig6gzaxq/",
-    "buyLabel": "樂天市場－秀翔電器 SS3C",
+    "buyLabel": "樂天市場－秀翔電器 SS3C（現售待確認）",
     "specs": [
       "20 公斤乾衣容量",
       "智慧熱泵乾衣",

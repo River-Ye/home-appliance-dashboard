@@ -19,7 +19,7 @@
       queryUrl: `https://www.bing.com/search?q=${encodeURIComponent(`site:mobile01.com "${model}" 問題 OR 災情`)}`,
     },
   ];
-  const makeProduct = ({ price, url, label, score, topPick = false, ...item }, index) => ({
+  const makeProduct = ({ price, priceNote, url, label, score, topPick = false, ...item }, index) => ({
     ...item,
     rank: index + 1,
     budget: item.budget,
@@ -31,6 +31,7 @@
       converted: price,
       basis: "retailer_current",
       confidence: `${checkedAt} 以 Chrome 核對 exact SKU 台灣新品公開售價；不扣會員、信用卡、點數、滿額或贈品優惠。`,
+      ...(priceNote ? { note: priceNote } : {}),
     },
     installation: {
       status: "not_stated",
@@ -621,7 +622,8 @@
       price: 3990,
       image: "https://img.91app.com/webapi/imagesV3/Original/SalePage/12072381/0/639227643199700000?v=1",
       url: "https://shop.muji.tw/SalePage/Index/12072381",
-      label: "MUJI 台灣官方商城",
+      label: "MUJI 台灣官方商城（現售待確認）",
+      priceNote: "2026-10-19 原購買頁名稱與既有 JABG2A6A 版本記錄不同，尚未完成同版本確認；保留上次參考價，購前請向通路核對 SKU。",
       specs: [
         "類型：可水洗化纖被；SD；單件成品",
         "組合內容：被芯 1 件",
@@ -1061,7 +1063,7 @@
       type: "cotton",
       budget: "premium",
       price: 6500,
-      image: "https://static.owlting.com/market/public/items/thumbs/640x480/item_17190_3aa8efe32f761c3a616048638c1e3f9a",
+      image: "https://static.owlting.com/market/public/items/thumbs/640x480/item_17190_ApPCzKStnasx9ZQ2i9WGI9LE4Tilc00pzXKZuVrB",
       url: "https://market.owlting.com/items/17190",
       label: "OwlTing Market 奧丁丁市集",
       specs: [

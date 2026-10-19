@@ -791,9 +791,9 @@
     "name": "LG Soundbar S80TR 5.1.3 聲道立體環繞聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 19900,
-      "converted": 19900,
-      "confidence": "PChome 2026-07-13 API 查核價"
+      "amount": 19297,
+      "converted": 19297,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900J5JAZ/000001_1779262704.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM1D-A900J5JAZ",
@@ -1085,9 +1085,9 @@
     "name": "5.1 聲道 Soundbar 家庭劇院組",
     "price": {
       "currency": "TWD",
-      "amount": 9016,
-      "converted": 9016,
-      "confidence": "Yahoo購物中心 2026-09-14 exact-model 公開結構化價格"
+      "amount": 8541,
+      "converted": 8541,
+      "confidence": "Yahoo購物中心 2026-10-19 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900GHTFE/000001_1776774078.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SONY-%E7%B4%A2%E5%B0%BC-5-1-%E8%81%B2%E9%81%93-SOUNDBAR-%E5%AE%B6%E5%BA%AD%E5%8A%87%E9%99%A2%E7%B5%84-HT-S40R-10067449.html",
@@ -1673,9 +1673,9 @@
     "name": "BRAVIA Theatre Bar 8 聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 29900,
-      "converted": 29900,
-      "confidence": "PChome 2026-09-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 27054,
+      "converted": 27054,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900HTC64/000001_1781747501.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM1D-A900HTC64",
@@ -2072,8 +2072,8 @@
     "price": {
       "currency": "USD",
       "amount": 1299.99,
-      "converted": 41027,
-      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-09-14 匯率換算"
+      "converted": 42180,
+      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-10-19 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/2C2sn9CKoKFdIyd94Gm9z5/f3019d4e721511167ebe5c229bf490dd/heston-120_plp.jpg",
     "buyUrl": "https://www.marshall.com/us/en/product/heston-120",
@@ -2172,8 +2172,8 @@
     "price": {
       "currency": "USD",
       "amount": 549.99,
-      "converted": 17358,
-      "confidence": "2026-08-31 人工核對 Marshall US 官方 Heston 60 公開可購主價 USD 549.99；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-09-14 匯率換算",
+      "converted": 17845,
+      "confidence": "2026-08-31 人工核對 Marshall US 官方 Heston 60 公開可購主價 USD 549.99；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-10-19 匯率換算",
       "basis": "retailer_current"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/3yitHqjPBTgQk5qRE72PSn/2788206646aa153f71f2c0ebefaff580/Heston-60-black_plp_800x800-v3.jpeg",
@@ -2611,14 +2611,14 @@
       "status": "found",
       "amount": 176091,
       "currency": "JPY",
-      "converted": 36178,
+      "converted": 36182,
       "sourceUrl": "https://kakaku.com/item/K0001712395/pricehistory/",
       "sourceTitle": "価格.com：JBL BAR 1300MK2 [ブラック] 価格推移",
       "evidenceSnippet": "価格.com 日別價格歷史顯示 exact-model「JBL BAR 1300MK2 [ブラック]」於 2026-06-17 的新品最低價為 ¥176,091；2025-10 初始價格為 ¥205,306。",
       "sourceKind": "price_history",
       "confidence": "medium",
       "checkedAt": "2026-08-25",
-      "note": "採日本市場 exact-model 公開價格歷史並依 2026-09-14 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
+      "note": "採日本市場 exact-model 公開價格歷史並依 2026-10-19 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -3668,6 +3668,101 @@
       "實體後環繞",
       "無線重低音",
       "Costco"
+    ]
+  },
+  {
+    "id": "soundbar-sonos-beam-ultra",
+    "category": "soundbar",
+    "rank": 38,
+    "budget": "mid",
+    "channel": "global",
+    "brand": "Sonos",
+    "model": "Beam Ultra",
+    "name": "7.1.2 聲道 Dolby Atmos 緊湊型 Soundbar（美國黑色版）",
+    "price": {
+      "currency": "USD",
+      "amount": 699,
+      "converted": 22680,
+      "basis": "retailer_current",
+      "confidence": "2026-10-19 人工核對 Sonos US 官方黑色 BMULTUS1BLK 公開單機 US$699 與 Available now/Add to cart；ExchangeRate-API 2026-10-19 匯率換算，未含國際運費與進口稅。"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "桌上擺放或另購專用壁掛架，原頁未承諾台灣安裝；壁掛施工與跨境運輸另計。"
+    },
+    "image": "https://media.sonos.com/images/znqtjj88/production/4f60aec671e144e2297a6e452c31479e63946bc1-2000x2000.png",
+    "buyUrl": "https://www.sonos.com/en-us/shop/beam-ultra",
+    "buyLabel": "Sonos US 官方（海外參考）",
+    "specs": [
+      "7.1.2 聲道 Dolby Atmos；9 單體，含 2 個向上發聲單體",
+      "HDMI eARC / Wi-Fi 6 / Bluetooth 5.3 / AirPlay 2 / USB-C（類比/乙太網路需另購轉接器）",
+      "Trueplay / AI 對話增強 / 夜間模式；重低音與後環繞另購，舊款後環繞須先核對相容清單",
+      "100–240V / 50–60Hz 內建電源；隨附電源線與 HDMI 線，光纖轉接器另購",
+      "尺寸：主機 寬 75 x 深 10.5 x 高 6.5 cm",
+      "重量：主機 2.88 kg",
+      "美國黑色版 SKU：BMULTUS1BLK；未含國際運費、進口稅與台灣保固"
+    ],
+    "description": "Beam Ultra 以 75 cm 機身加入獨立向上發聲單體，填補 Beam Gen 2 與 Arc Ultra 之間的中型 Atmos 聲霸選擇；適合接受海外購買風險的小客廳。",
+    "pros": [
+      "獨立向上發聲單體與對話增強，兼顧緊湊尺寸與 Atmos 高度音效",
+      "可加購 Sonos 重低音與相容後環繞，支援 Wi-Fi、藍牙與 AirPlay 2"
+    ],
+    "cons": [
+      "僅一個 HDMI eARC 輸入，無 HDMI 影像直通；重低音、後環繞與光纖轉接器另購",
+      "新上市觀察期，已有少量光纖開機/高碼率斷音等個別回報；舊款 Sonos 環繞與第三方設定需先確認相容",
+      "海外價未含國際運費及進口稅；電壓、插頭與台灣保固需另行確認"
+    ],
+    "bestFor": "想以較短機身取得獨立高度聲道，並能接受跨境運送、進口稅與台灣售後風險的小客廳使用者。",
+    "recommendation": "海外參考：比前代多出向上發聲單體，可與 Arc Ultra 比較空間和擴充成本；先核對電視 eARC、原有後環繞相容性及台灣維修方式。",
+    "releaseDate": "2026-09-29",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "USD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-19",
+      "note": "已查 Sonos US 官方、Best Buy exact-model 新品及歷史低價搜尋；目前公開新品 US$699 不當作歷史最低價。Best Buy $628.99 起為 Open-Box，Reddit $558.99/$488 為拆封品；Sonos 15% Upgrade 是特定帳號升級優惠，均排除。未取得 BMULTUS1BLK 同版本可信新品公開可驗證歷史低價。海外價格未含國際運費、進口稅、插頭/供電與台灣保固風險。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-19",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Sonos Beam Ultra\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Sonos%20Beam%20Ultra%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20failure%29",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Sonos Community",
+          "query": "site:en.community.sonos.com \"Beam Ultra\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aen.community.sonos.com%20%22Beam%20Ultra%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20failure%29",
+          "targetHost": "en.community.sonos.com"
+        },
+        {
+          "platform": "Best Buy",
+          "query": "\"Sonos Beam Ultra\" site:bestbuy.com",
+          "queryUrl": "https://www.google.com/search?q=%22Sonos%20Beam%20Ultra%22%20site%3Abestbuy.com",
+          "targetHost": "bestbuy.com"
+        }
+      ]
+    },
+    "score": 85,
+    "voltage": "100–240V / 50–60Hz；美國版插頭與跨境供電條件需確認",
+    "warranty": "Sonos US 官方海外購買；未確認台灣保固，跨境退修費用與服務地區須先確認",
+    "tags": [
+      "Sonos",
+      "Atmos",
+      "小空間",
+      "海外參考",
+      "新產品"
     ]
   }
 ]);

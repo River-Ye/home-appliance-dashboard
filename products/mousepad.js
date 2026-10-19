@@ -214,15 +214,16 @@
       "amount": 1190,
       "converted": 1190,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 Chrome 原頁核對所選台灣 SKU 的新品公開售價；不扣會員、信用卡、點數或加購優惠。"
+      "confidence": "PChome 24h購物 2026-10-19 同型號新品公開價；未扣會員券、點數或信用卡回饋。",
+      "note": "通路明示 G840 黑色 900×400×3mm，但未列製造商料號；購前請核對 943-000781。"
     },
     "installation": {
       "status": "not_stated",
       "note": "成品滑鼠墊，無固定配線或到府安裝；桌面空間與滑鼠感測相容性需自行確認。"
     },
     "image": "https://store.logitech.tw/cdn/shop/products/g840-455396.jpg?v=1729180679&width=1220",
-    "buyUrl": "https://store.logitech.tw/collections/%E9%81%8A%E6%88%B2%E6%BB%91%E9%BC%A0%E5%A2%8A/products/g840",
-    "buyLabel": "Logitech 台灣官方商城",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DCANOI-A900IUK5M",
+    "buyLabel": "PChome 24h購物",
     "specs": [
       "類型：布面長桌墊；G840 XL 黑色 943-000781",
       "表面材質：布面",

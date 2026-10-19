@@ -2855,13 +2855,18 @@ async function main() {
     ...products[0], channel: "global",
     price: { ...products[0].price, basis: "retailer_current", currency: "TWD", amount: 6437, converted: 6437 },
   });
-  assert(globalTwdMarkup.includes("海外通路新台幣報價") && !globalTwdMarkup.includes("台灣通路現價"), "direct TWD prices must not mislabel an overseas seller as a Taiwan channel");
+  assert(globalTwdMarkup.includes("海外通路新台幣報價") && !globalTwdMarkup.includes("台灣通路報價"), "direct TWD prices must not mislabel an overseas seller as a Taiwan channel");
   delete legacyPriceProduct.price.basis;
   const legacyPriceMarkup = templates.cardMarkup(legacyPriceProduct);
+  const referencePriceProduct = { ...missingLowProduct, price: { ...missingLowProduct.price, note: "保留參考價 <來源待確認>" } };
+  const referencePriceMarkup = templates.cardMarkup(referencePriceProduct);
+  assert(referencePriceMarkup.includes("保留參考價 &lt;來源待確認&gt;"), "price fallback notes must be visible and escaped on cards");
+  assert(referencePriceMarkup.includes("資料批次") && !referencePriceMarkup.includes("擷取日"), "batch dates must not claim an individual source was fetched then");
+  assert(templates.compareTableMarkup([referencePriceProduct]).includes("保留參考價 &lt;來源待確認&gt;"), "comparison must preserve escaped price fallback notes");
   assert(
     legacyPriceMarkup.includes("公開售價")
       && legacyPriceMarkup.includes("價格基準未標示")
-      && !legacyPriceMarkup.includes("台灣通路現價"),
+      && !legacyPriceMarkup.includes("台灣通路報價"),
     "legacy products without a price basis must not be presented as retailer-current prices",
   );
   assert(
@@ -3131,6 +3136,12 @@ async function main() {
   const movaQuery = { platform: "MOVA Forum", targetHost: "forum.mova-tech.com", query: 'site:forum.mova-tech.com "Z70 Ultra Roller Complete"', queryUrl: "https://www.google.com/search" };
   assert(queryTargetsWebsite(movaQuery), "MOVA Forum must count as the MOVA community website");
   assert(!queryTargetsWebsite({ ...movaQuery, query: 'site:forum.mova-tech.com.evil.example "Z70 Ultra Roller Complete"' }), "deceptive MOVA host must not count");
+  for (const [platform, host] of [["Sonos Community", "en.community.sonos.com"], ["Best Buy", "bestbuy.com"]]) {
+    const query = { platform, targetHost: host, query: `site:${host} "Beam Ultra"`, queryUrl: "https://www.google.com/search" };
+    assert(queryTargetsWebsite(query), `${platform} must count as its original website`);
+    assert(!queryTargetsWebsite({ ...query, targetHost: "reddit.com" }), `${platform} cannot claim a different website`);
+    assert(!queryTargetsWebsite({ ...query, query: `site:${host}.evil.example "Beam Ultra"` }), `deceptive ${platform} host must not count`);
+  }
   assert(queryUrlMatchesRecord(youtubeQuery), "a YouTube search URL should reproduce search_query");
   assert(queryUrlMatchesRecord({
     query: youtubeQuery.query,

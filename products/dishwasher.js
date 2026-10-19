@@ -321,9 +321,9 @@
     "image": "https://cs-a.ecimg.tw/items/DCBE34A900HUR37/000001_1779329303.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 15600,
-      "converted": 15600,
-      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 15900,
+      "converted": 15900,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -627,9 +627,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR0OA900IFXRC/000001_1780551938.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 29900,
-      "converted": 29900,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 28405,
+      "converted": 28405,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -832,9 +832,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR25A900IUNDB/000001_1747970581.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 24320,
-      "converted": 24320,
-      "confidence": "PChome 2026-09-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 25600,
+      "converted": 25600,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1140,9 +1140,9 @@
     "image": "https://cs-a.ecimg.tw/items/DPAL7PA900G5M47/000001_1783049805.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 37130,
-      "converted": 37130,
-      "confidence": "PChome 2026-08-18 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 37525,
+      "converted": 37525,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1346,9 +1346,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR16A900HZZEG/000001_1763949344.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 81999,
-      "converted": 81999,
-      "confidence": "PChome 2026-09-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 77400,
+      "converted": 77400,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1448,9 +1448,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR1WA900K4MYS/000001_1781748945.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 75050,
-      "converted": 75050,
-      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 79000,
+      "converted": 79000,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1552,9 +1552,9 @@
     "name": "桌上型洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 11000,
-      "converted": 11000,
-      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 10900,
+      "converted": 10900,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR0PA900JBV02/000001_1762938951.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR0P-A900JBV02",
@@ -1649,9 +1649,9 @@
     "name": "免安裝自動 6 人份洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 16559,
-      "converted": 16559,
-      "confidence": "PChome 2026-09-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 16199,
+      "converted": 16199,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR17A900IHTZ3/000001_1777540146.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR17-A900IHTZ3",
@@ -1746,9 +1746,9 @@
     "name": "VORTEX KW1 桌上型全自動洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 14990,
-      "converted": 14990,
-      "confidence": "PChome 2026-09-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 15990,
+      "converted": 15990,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR25A900J5BGP/000001_1782112645.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR25-A900J5BGP",

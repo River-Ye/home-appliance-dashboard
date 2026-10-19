@@ -1181,9 +1181,9 @@
     "name": "瞬熱式溫水洗淨便座",
     "price": {
       "currency": "TWD",
-      "amount": 12232,
-      "converted": 12232,
-      "confidence": "PChome 2026-09-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 13900,
+      "converted": 13900,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAL6WA900JEEZE/000001_1776140283.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAL6W-A900JEEZE",
@@ -1861,8 +1861,8 @@
     "price": {
       "currency": "USD",
       "amount": 383.99,
-      "converted": 12119,
-      "confidence": "Brondell US 官方 2026-08-28 exact-model 公開特價；ExchangeRate-API 2026-09-14 匯率換算"
+      "converted": 12459,
+      "confidence": "Brondell US 官方 2026-08-28 exact-model 公開特價；ExchangeRate-API 2026-10-19 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/k83n76pfjhvqcf9gfrz74sx/1432187-847__1?auto=webp&format=jpg",
     "buyUrl": "https://www.brondell.com/swash-cl1700-advanced-bidet-seat/",
@@ -1899,14 +1899,14 @@
       "status": "found",
       "amount": 383.99,
       "currency": "USD",
-      "converted": 12119,
+      "converted": 12459,
       "sourceUrl": "https://www.brondell.com/swash-cl1700-advanced-bidet-seat/",
       "sourceTitle": "Brondell US：Swash CL1700 Advanced Bidet Seat",
       "evidenceSnippet": "Brondell US 官方 exact-model 頁於 2026-08-28 顯示 Swash CL1700 sale price US$383.99。",
       "sourceKind": "official_sale",
       "confidence": "medium",
       "checkedAt": "2026-08-28",
-      "note": "採品牌官方公開特價作為本次可重現最低觀測價；同頁 US$299.99 為 Open-Box 開箱品，依規則排除。未含國際運費、進口稅、美規 elongated 尺寸、120V 插座與台灣保固風險；依 2026-09-14 USD/TWD 匯率換算。"
+      "note": "採品牌官方公開特價作為本次可重現最低觀測價；同頁 US$299.99 為 Open-Box 開箱品，依規則排除。未含國際運費、進口稅、美規 elongated 尺寸、120V 插座與台灣保固風險；依 2026-10-19 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2035,6 +2035,104 @@
           "query": "site:reddit.com \"CW-RL31-TW/BW1\" (problem OR issue OR defect OR failure)",
           "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22CW-RL31-TW%2FBW1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
           "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "bidet-panasonic-dl-ru60twws",
+    "category": "bidet",
+    "rank": 23,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Panasonic",
+    "model": "DL-RU60TWWS",
+    "name": "nanoe X 智慧雙溫控瞬熱式洗淨便座",
+    "price": {
+      "currency": "TWD",
+      "amount": 21032,
+      "converted": 21032,
+      "basis": "retailer_current",
+      "confidence": "PChome 2026-10-19 exact-model API Price.Low=21032、Qty=5；原頁2026/09/11 16:20至2026/12/09 23:59:59任選1件折2868，未扣個人優惠"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DMAL8LA900J5KLF/000001_1777432730.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAL8L-A900J5KLF",
+    "buyLabel": "PChome 24h購物",
+    "installation": {
+      "status": "not_stated",
+      "note": "選定PChome DMAL8L-A900J5KLF頁未明載含基本安裝；不可套用同型號其他通路含安裝方案。先確認安裝費、馬桶孔距與形狀、進水及有接地的110V浴廁安全插座，特殊施工另計。"
+    },
+    "specs": [
+      "瞬熱式溫水洗淨便座；智慧雙溫控與 nanoe X",
+      "一體成形不鏽鋼噴嘴；9段水流強弱與5段洗淨幅度，提供45種組合",
+      "自動開／關蓋、除臭、五段溫度快速烘乾、柔光照明",
+      "磁吸手持遙控器、4組用戶設定、ECONAVI節電",
+      "尺寸：寬 40 x 深 51.7 x 高 11.2 cm",
+      "重量：3.9 kg（不含配件）",
+      "110V／60Hz；消耗電功率870W；漏電保護檢測"
+    ],
+    "description": "Panasonic 台灣 DL-RU60TWWS 增加 nanoe X 與水溫／座溫智慧控制，搭配自動開蓋、磁吸遙控器及用戶記憶，補充現有入門與一般瞬熱款以上的功能選擇。",
+    "pros": [
+      "智慧雙溫控、45種洗淨組合與4組用戶設定",
+      "整合自動開蓋、除臭、烘乾與柔光照明",
+      "台灣官方提供本體尺寸及不含配件淨重"
+    ],
+    "cons": [
+      "選定優惠頁未明載含安裝，施工費與相容性須先確認",
+      "nanoe X抑菌為特定測試條件，不是免清潔保證",
+      "進階功能拉高價格，僅需基本溫水洗淨可比較入門款"
+    ],
+    "bestFor": "希望增加自動開蓋、智慧溫控與夜間照明，且願意先評估浴廁安裝條件的家庭。",
+    "recommendation": "進階瞬熱推薦：與既有DL-PSTK09／DL-PU30並列比較，以實際需求衡量功能價差，下單前確認所選優惠方案安裝費。",
+    "score": 90,
+    "voltage": "110V／60Hz、870W；浴廁需接地安全插座並避開直接淋水。",
+    "warranty": "台灣公司貨原廠保固1年；同型號PChome DMAL6W-A900JEF7V頁明示，所選賣場服務與安裝另洽確認。",
+    "tags": [
+      "Panasonic",
+      "瞬熱式",
+      "智慧雙溫控",
+      "nanoe X",
+      "自動開蓋",
+      "110V"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-19",
+      "note": "已查 PChome exact-model 現價、FindPrice、飛比及LINE購物歷史價格入口；LINE標示23160歷史低價但原頁未提供可定位日期與完整序列，且現價21032更低。比價頁混會員券、個人賣場與不同含安裝條件，未取得具日期的可信新品史低，不以本次現價推定。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-19",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "\"DL-RU60TWWS\" site:mobile01.com (故障 OR 災情 OR 維修 OR 漏水)",
+          "queryUrl": "https://www.google.com/search?q=%22DL-RU60TWWS%22%20site%3Amobile01.com%20(%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E7%B6%AD%E4%BF%AE%20OR%20%E6%BC%8F%E6%B0%B4)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "\"DL-RU60TWWS\" site:ptt.cc (故障 OR 災情 OR 維修 OR 漏水)",
+          "queryUrl": "https://www.google.com/search?q=%22DL-RU60TWWS%22%20site%3Aptt.cc%20(%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E7%B6%AD%E4%BF%AE%20OR%20%E6%BC%8F%E6%B0%B4)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "\"DL-RU60TWWS\" site:dcard.tw (故障 OR 災情 OR 維修 OR 漏水)",
+          "queryUrl": "https://www.google.com/search?q=%22DL-RU60TWWS%22%20site%3Adcard.tw%20(%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E7%B6%AD%E4%BF%AE%20OR%20%E6%BC%8F%E6%B0%B4)",
+          "targetHost": "dcard.tw"
         }
       ]
     }

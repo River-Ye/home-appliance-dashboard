@@ -411,8 +411,8 @@
     "price": {
       "currency": "USD",
       "amount": 499.95,
-      "converted": 15778,
-      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-09-14 匯率換算"
+      "converted": 16221,
+      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-10-19 匯率換算"
     },
     "image": "https://assets.breville.com/cdn-cgi/image/width=1300,format=auto/BOV950/BOV950BSS1BUS1/pdp3.png?pdp=",
     "buyUrl": "https://www.breville.com/en-us/product/bov950",
@@ -508,11 +508,10 @@
     "name": "微波大師 27L 氣炸烤箱微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 8990,
-      "converted": 8990,
-      "confidence": "PChome 2026-09-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "basis": "retailer_current",
-      "note": "2026-08-31 Chrome核對PChome同SKU公開折扣價；促銷限時，未扣會員券、點數或信用卡回饋，結帳前請再確認。"
+      "amount": 8630,
+      "converted": 8630,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ02A900I9LQ2/000001_1782379010.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ02-A900I9LQ2",
@@ -902,9 +901,9 @@
     "name": "20L 多功能蒸氣氣炸烤箱",
     "price": {
       "currency": "TWD",
-      "amount": 10800,
-      "converted": 10800,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 9499,
+      "converted": 9499,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900HF91A/000001_1768545220.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM0G-A900HF91A",
@@ -939,16 +938,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 9999,
+      "amount": 9499,
       "currency": "TWD",
-      "converted": 9999,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1214254926&cgp=9999",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Cuisinart 美膳雅】20L多功能蒸氣氣炸烤箱(CSO-500TW)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Cuisinart 美膳雅】20L多功能蒸氣氣炸烤箱(CSO-500TW)」最低價為 NT$9,999，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 9499,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMBM0G-A900HF91A",
+      "sourceTitle": "PChome 24h 購物：【Cuisinart 美膳雅】20L多功能蒸氣氣炸烤箱 (CSO-500TW)",
+      "evidenceSnippet": "PChome 24h 購物於 2026-10-19 顯示同型號可信新品公開價 NT$9,499，低於既有史低 NT$9,999。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-10-19",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1099,9 +1098,9 @@
     "name": "AIoT 智慧連網 30L 水波爐蒸氣烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 38800,
-      "converted": 38800,
-      "confidence": "Yahoo購物中心 2026-07-27 exact-model 公開結構化價格"
+      "amount": 41900,
+      "converted": 41900,
+      "confidence": "Yahoo購物中心 2026-10-19 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900G41CW/000001_1780306175.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SHARP-%E5%A4%8F%E6%99%AE-30L-Healsio-AIoT%E6%99%BA%E6%85%A7%E9%80%A3%E7%B6%B2%E6%B0%B4%E6%B3%A2%E7%88%90-AX-XW10T-11978312.html",
@@ -1197,9 +1196,9 @@
     "name": "20L 蒸氣烘烤爐",
     "price": {
       "currency": "TWD",
-      "amount": 11610,
-      "converted": 11610,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 11171,
+      "converted": 11171,
+      "confidence": "Yahoo購物中心 2026-10-19 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ7P1900HCM99/000001_1780393215.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic%E5%9C%8B%E9%9A%9B%E7%89%8C20%E5%85%AC%E5%8D%87%E8%92%B8%E6%B0%A3%E7%83%98%E7%83%A4%E7%88%90NU-SC180B-9811623.html",
@@ -1491,9 +1490,9 @@
     "name": "39L 智慧變頻蒸烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 15900,
-      "converted": 15900,
-      "confidence": "Yahoo購物中心 2026-08-19 exact-model 公開結構化價格"
+      "amount": 14900,
+      "converted": 14900,
+      "confidence": "Yahoo購物中心 2026-10-19 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ8JA900H3U40/000001_1749176905.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG-%E6%A8%82%E9%87%91-NeoChef-%E6%99%BA%E6%85%A7%E8%AE%8A%E9%A0%BB%E8%92%B8%E7%83%98%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-39%E5%85%AC%E5%8D%87-MJ3965BCP-11971476.html",
@@ -1786,10 +1785,10 @@
     "name": "過熱水蒸氣烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 46235,
-      "converted": 46235,
+      "amount": 48668,
+      "converted": 48668,
       "basis": "retailer_current",
-      "confidence": "Yahoo購物中心 2026-08-31 下午人工核對 MROBK5000AT 公開95折現價 NT$46,235，單台達滿699門檻；活動至2026-09-15 09:59，未扣點數或銀行回饋。"
+      "confidence": "Yahoo購物中心 2026-10-19 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ5PA900GN8PM/000001_1750840663.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/HITACHI-%E6%97%A5%E7%AB%8B-%E9%81%8E%E7%86%B1%E6%B0%B4%E8%92%B8%E6%B0%A3%E7%83%98%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-MROBK5000AT-11995474.html",
@@ -1885,11 +1884,10 @@
     "name": "蒸烘烤變頻微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 43920,
-      "converted": 43920,
-      "confidence": "PChome 2026-09-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "basis": "retailer_current",
-      "note": "2026-08-31 Chrome核對PChome同SKU公開折扣價；促銷限時，未扣會員券、點數或信用卡回饋，結帳前請再確認。"
+      "amount": 41724,
+      "converted": 41724,
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900H5125/000001_1783054719.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM0G-A900H5125",
@@ -2287,8 +2285,8 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 12624,
-      "confidence": "2026-08-31 人工核對 SharkNinja 美國官方 MW101 公開可購主價 USD 399.99；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-09-14 匯率換算",
+      "converted": 12978,
+      "confidence": "2026-08-31 人工核對 SharkNinja 美國官方 MW101 公開可購主價 USD 399.99；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-10-19 匯率換算",
       "basis": "retailer_current"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/MW101_01.jpg",

@@ -279,7 +279,7 @@ function productMarkup(product, index) {
   const priceBasis = officialSuggested
     ? "官方建議售價"
     : retailerCurrent
-      ? "通路現價"
+      ? "通路報價"
       : "未標示";
   const installationStatus = ({
     included_basic: "含基本安裝",
@@ -308,7 +308,8 @@ function productMarkup(product, index) {
               <div class="editorial-price">
                 <span>${escapeHtml(priceHeading)}</span>
                 <strong>${escapeHtml(formatTwd(product.price.converted))}</strong>
-                <small>${escapeHtml(priceDetail)}</small>
+                <small>${escapeHtml(priceDetail)}</small>${product.price.note ? `
+                <small>${escapeHtml(product.price.note)}</small>` : ""}
               </div>
             </div>
             <p class="editorial-verdict"><strong>推薦理由</strong>${escapeHtml(product.recommendation)}</p>
@@ -341,7 +342,7 @@ function catalogProductMarkup(product, index) {
   const priceBasis = product.price?.basis === "official_suggested"
     ? "官方建議售價"
     : product.price?.basis === "retailer_current"
-      ? "通路現價"
+      ? "通路報價"
       : "價格基準未標示";
   const priceDetail = product.price.currency === "TWD"
     ? priceBasis
@@ -352,7 +353,8 @@ function catalogProductMarkup(product, index) {
                 <div class="editorial-catalog-body">
                   <h3><span translate="no">${escapeHtml(`${product.brand} ${product.model}`)}</span></h3>
                   <p class="editorial-catalog-name">${escapeHtml(product.name)}</p>
-                  <p class="editorial-catalog-meta"><strong>${escapeHtml(formatTwd(product.price.converted))}</strong><span>${escapeHtml(priceDetail)}</span><span>上市／發售 ${escapeHtml(product.releaseDate)}</span></p>
+                  <p class="editorial-catalog-meta"><strong>${escapeHtml(formatTwd(product.price.converted))}</strong><span>${escapeHtml(priceDetail)}</span><span>上市／發售 ${escapeHtml(product.releaseDate)}</span></p>${product.price.note ? `
+                  <p class="editorial-catalog-description">${escapeHtml(product.price.note)}</p>` : ""}
                   <p class="editorial-catalog-description">${escapeHtml(product.description)}</p>
                 </div>
               </li>`;
@@ -455,7 +457,7 @@ ${jsonLdStringify(structuredData).split("\n").map((line) => `      ${line}`).joi
       <section class="editorial-section" aria-labelledby="shortlistHeading">
         <div class="editorial-section-heading">
           <div><p class="editorial-kicker">Quick answer</p><h2 id="shortlistHeading">先看結論：前 5 名推薦摘要</h2></div>
-          <p>依工作台既有推薦排序呈現，不另行重算名次；價格基準會逐款標示為通路現價、官方建議售價或未標示，庫存請以來源頁為準。</p>
+          <p>依工作台既有推薦排序呈現，不另行重算名次；價格基準會逐款標示為通路報價、官方建議售價或未標示，庫存請以來源頁為準。</p>
         </div>
         <div class="editorial-product-list">${topFive.map(productMarkup).join("")}
         </div>

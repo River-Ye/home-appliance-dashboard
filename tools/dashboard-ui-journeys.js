@@ -4,6 +4,7 @@ const {
   EXPECTED_CATEGORY_COUNT,
   EXPECTED_PRODUCT_COUNT,
   EXPECTED_CATEGORY_PRODUCT_COUNTS,
+  CATEGORY_TEXT_MATCH_COUNTS,
   PERIPHERAL_TYPES,
   BEDDING_TYPES,
 } = require("./dashboard-contract");
@@ -665,7 +666,8 @@ async function runExhaustiveViewport(browser, name, viewport) {
   await waitForVisibleCount(page, EXPECTED_FAN_COUNT);
   await loadAllVisibleProducts(page);
   const philipsFanCount = await page.locator(".product-card", { hasText: "Philips" }).count();
-  if (philipsFanCount < 5) throw new Error(`${name}: expected at least 5 Philips fan products, got ${philipsFanCount}`);
+  const minimumPhilipsFans = CATEGORY_TEXT_MATCH_COUNTS.find((rule) => rule.category === "fan" && rule.term === "Philips").min;
+  if (philipsFanCount < minimumPhilipsFans) throw new Error(`${name}: expected at least ${minimumPhilipsFans} Philips fan products, got ${philipsFanCount}`);
 
   const purifierTab = page.getByRole("button", { name: `空氣清淨機 ${EXPECTED_PURIFIER_COUNT}` });
   await purifierTab.click();
