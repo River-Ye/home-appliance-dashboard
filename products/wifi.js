@@ -2328,9 +2328,9 @@
     "name": "BE3600 雙頻 Gigabit Wi-Fi 7 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 2299,
-      "converted": 2299,
-      "confidence": "PChome 2026-09-08 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 2099,
+      "converted": 2099,
+      "confidence": "PChome 2026-10-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLVA900K13CR/000001_1779257487.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAN09-A900IK1F1",
@@ -5446,6 +5446,102 @@
               "url": "https://community.ui.com/questions/Multiple-U7-APs-Randomly-Going-Offline-in-One-Specific-Office-Location/bb14a280-59af-45dd-a0cd-58982e86b4ea"
             }
           ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "wifi-dlink-m95",
+    "category": "wifi",
+    "rank": 57,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "D-Link",
+    "model": "M95",
+    "name": "AQUILA PRO AI BE9500 三頻 Wi-Fi 7 2.5G Mesh 路由器（單台）",
+    "price": {
+      "currency": "TWD",
+      "amount": 5225,
+      "converted": 5225,
+      "basis": "retailer_current",
+      "confidence": "Yahoo自營exact M95主商品，2026-10-20公開滿1件95折促銷5225元；截止08:00:59+08，之後需重查基價5499元。",
+      "note": "公開95折活動於2026-10-20 08:00:59（台灣時間）到期；頁面基價5499元，不含點數、會員券或刷卡回饋。"
+    },
+    "installation": {
+      "status": "excluded",
+      "note": "價格為單台設備，自行完成App或網頁設定；未含到府網路佈線、施工與環境調校。"
+    },
+    "image": "https://img.yec.tw/zp/MerchandiseImages/0ABC7069C0-SP-22643432.jpg",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/D-Link%E5%8F%8B%E8%A8%8A-M95-BE9500-Wi-Fi-7-MESH%E7%84%A1%E7%B7%9A%E8%B7%AF%E7%94%B1%E5%99%A8-12093613.html",
+    "buyLabel": "Yahoo購物中心（自營）",
+    "specs": [
+      "Wi-Fi 7：BE9500三頻2.4/5/6GHz，支援320MHz與MLO",
+      "Mesh：支援AQUILA PRO AI Mesh，另購相容設備可擴充；相容範圍依官方清單",
+      "有線：1個2.5G WAN＋3個2.5G LAN，不是10G路由器",
+      "管理：AQUILA PRO AI App／網頁，具AI流量管理、家長控制與WPA3",
+      "供電：隨附變壓器AC100–240V、DC12V／4A；台灣BSMI D43032，輸入頻率未標示；最大功耗20.291W",
+      "機身：194.8×218.9×105.7mm（官方原序，未自行命名軸序）；淨重876g"
+    ],
+    "description": "台灣製造、採內藏天線造型的三頻Wi-Fi 7 Mesh主路由候選；與R95同為BE9500平行款，保留既有R95與M36供比較。",
+    "pros": [
+      "2.5G WAN與三個2.5G LAN，適合多台有線裝置與NAS",
+      "具6GHz、320MHz與AQUILA PRO AI Mesh，可逐步擴充",
+      "Yahoo自營新品，頁面明示三年原廠保固"
+    ],
+    "cons": [
+      "已有少數exact M95使用者回報斷線、Mesh/App與發熱／擺位問題，尚未達集中災情門檻",
+      "6GHz與MLO效益取決於牆面、擺位及終端支援，覆蓋坪數不能當現場保證",
+      "單台價格不含額外Mesh節點或到府網路施工"
+    ],
+    "bestFor": "想要台灣售後與內藏天線外觀、需要三頻Wi-Fi 7及全2.5G有線介面，且願意先測試家中相容性的人。",
+    "recommendation": "三頻Mesh外觀取向候選；保留既有機種並列比較，建議在鑑賞期實測斷線、App與Mesh穩定性。",
+    "score": 79,
+    "voltage": "原廠隨附變壓器AC輸入100–240V、DC輸出12V／4A；台灣BSMI D43032，來源未明示輸入頻率，使用隨附原廠電源。",
+    "warranty": "台灣Yahoo自營新品；商品頁明示3年原廠保固，由原廠／Yahoo客服處理，範圍依保固條款",
+    "tags": [
+      "Mesh",
+      "三頻",
+      "Wi-Fi 7",
+      "2.5G",
+      "台灣製造"
+    ],
+    "releaseDate": "2025-07-03",
+    "historicalLow": {
+      "status": "found",
+      "amount": 5211,
+      "currency": "TWD",
+      "converted": 5211,
+      "sourceUrl": "https://www.dlink.com/tw/zh/press-centre/press-releases/2025/november/13/taiwan-excellence-2026-m95",
+      "sourceTitle": "D-Link 台灣榮耀 極速典範：M95 雙11公開優惠",
+      "evidenceSnippet": "M95限時下殺$5,211(原價$6,299)",
+      "sourceKind": "official_sale",
+      "confidence": "high",
+      "checkedAt": "2026-10-20",
+      "note": "同型號M95單台官方2025-11-13公開雙11通路促銷，非現價；公告另列momo/PChome抽獎，5211為明示售價，不扣點數、抽獎或信用卡回饋。比價歷史頁受阻，這是本次可驗證最低公開價格，非保證全網絕對史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-20",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"D-Link M95\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22D-Link%20M95%22"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"M95\" \"D-Link\" (problem OR issue OR failure)",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22M95%22%20%22D-Link%22%20%28problem%20OR%20issue%20OR%20failure%29"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"D-Link M95\" (災情 OR 故障 OR 問題)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22D-Link%20M95%22%20%28%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%95%8F%E9%A1%8C%29"
         }
       ]
     }

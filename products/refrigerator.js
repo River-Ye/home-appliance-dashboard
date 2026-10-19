@@ -2884,6 +2884,105 @@
       "IoT",
       "台灣公司貨"
     ]
+  },
+  {
+    "id": "refrigerator-hitachi-hrbn5366df1",
+    "category": "refrigerator",
+    "rank": 29,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "HITACHI",
+    "model": "HRBN5366DF1",
+    "name": "HITACHI HRBN5366DF1 330L 雙門下冷凍琉璃變頻冰箱（漸層琉璃黑）",
+    "price": {
+      "currency": "TWD",
+      "amount": 27400,
+      "converted": 27400,
+      "basis": "official_suggested",
+      "confidence": "2026-10-20直接取回HITACHI台灣官方compare exact HRBN5366DF1：建議售價27400元右開／28400元左開／29400元琉璃鏡。採右開漸層琉璃黑，不採通路價。",
+      "note": "原廠建議售價，非通路現價；已見通路預購，可信現貨與交期未確認，請向原廠授權經銷確認。"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "原廠建議售價未說明包含安裝、搬運或回收；可信現貨購買通路未確認，請向原廠授權經銷確認實際成交、交期、基本安裝與樓層／偏遠／特殊搬運費。"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DPAC95A900KJNL1/000001_1792123597.jpg",
+    "buyUrl": "https://hitachi-homeappliances.com.tw/products/products_compare.php?gid=05&prod=HRBN5366DF1",
+    "buyLabel": "查看官方資料（建議售價）",
+    "specs": [
+      "容量：330L；冷藏215L／冷凍115L，上冷藏下冷凍雙門，右開漸層琉璃黑XGRTW",
+      "尺寸：寬 59.5 x 深 65 x 高 190 cm",
+      "重量：官方總重量71 kg（未明示淨重；非外包裝尺寸資料）",
+      "保鮮：可切換溫度保鮮室、約90%保濕蔬果室、急速冷凍鋁盤",
+      "節能：2026年2級；官方註明2027年1級；能源因數17.9、每月23度；不當作目前一級或現行汰舊補助資格",
+      "便利：觸控面板、雙風扇冷卻、高效變頻壓縮機、可移動式旋轉製冰盒",
+      "電壓／頻率：110V／60Hz；電動機額定消耗75W、除霜輸入130W",
+      "安裝：官方建議售價未明示含安裝；需預留左右各10mm、上方與後方各50mm散熱空間，實際搬運與施工另向授權經銷確認"
+    ],
+    "description": "既有313L HRBN5366DF的330L同系列新分支，保留舊款並列比較容量、耗電與價格。59.5cm窄身提供115L下冷凍空間及可切換保鮮室；27400元是台灣原廠右開建議售價，實際現貨、成交價與交期待授權經銷確認。",
+    "pros": [
+      "59.5cm窄身提供330L容量與115L下冷凍抽屜",
+      "原廠台灣型號確認110V／60Hz，提供台灣官方產品與售後入口",
+      "保鮮室模式切換、急凍鋁盤及觸控面板利於日常分區"
+    ],
+    "cons": [
+      "本卡為原廠建議售價，實際成交價與可信現貨交期待授權經銷確認；PChome仍標預購",
+      "2026年現行能源2級，不當作現行一級補助機",
+      "190cm高及65cm深仍須留開門與散熱空間；上市／可靠史低／明示淨重未確認"
+    ],
+    "bestFor": "需要60cm內窄身、下冷凍分區與330L容量，並能接受現行能源2級的家庭。",
+    "recommendation": "與既有HRBN5366DF 313L並列比較容量、建議售價及現行能效；下單前透過HITACHI台灣官方經銷／服務入口確認現售交期、保證書與安裝邊界。27400元是建議售價，不作通路現價或歷史最低價。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-20",
+      "note": "已查FindPrice exact HRBN5366DF1XGRTW比價、Feebee exact查詢、PChome API及HOTAI購原頁；FindPrice只有現時比價並混入分期548元／條件促銷23948元，沒有可驗證歷史低點；Feebee受阻；25208為通路觀察價，但未完成現售與授權確認，不採為本卡價格或史低。 本卡27400元另採原廠建議售價，絕不作現價或史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-20",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"HRBN5366DF1\" site:mobile01.com/topicdetail.php",
+          "queryUrl": "https://www.google.com/search?q=%22HRBN5366DF1%22%20site%3Amobile01.com%2Ftopicdetail.php"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "\"HRBN5366DF1\" site:ptt.cc/bbs/",
+          "queryUrl": "https://www.google.com/search?q=%22HRBN5366DF1%22%20site%3Aptt.cc%2Fbbs%2F"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "\"HRBN5366DF1\" site:dcard.tw/f/",
+          "queryUrl": "https://www.google.com/search?q=%22HRBN5366DF1%22%20site%3Adcard.tw%2Ff%2F"
+        }
+      ]
+    },
+    "score": 87,
+    "voltage": "110V／60Hz；原廠說明書第11頁exact型號欄明示，使用接地獨立插座並依原廠安裝條件。",
+    "warranty": "台灣官方型號，保固依HITACHI台灣原廠條款及實際授權經銷保證書；購買前向台灣官方售後確認，不採未確認授權賣家的保固承諾。",
+    "tags": [
+      "330L",
+      "雙門下冷凍",
+      "窄身59.5cm",
+      "2026能源2級",
+      "台灣公司貨"
+    ]
   }
 ]);
 })();

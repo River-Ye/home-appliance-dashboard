@@ -12,6 +12,7 @@ const {
   isExcludedListing,
   isExplicitlyDiscontinued,
   isExplicitlyUnavailable,
+  isPreorderListing,
   isReviewedPchomeBinding,
   normalizeIdentity,
   tokenizedIdentity,
@@ -55,6 +56,7 @@ const {
 const {
   applyExchangeRates,
   auditNonPchome,
+  auditPchome,
   buildCompactReport,
   categoryProductsChanged,
   categoryReviewProvenance,
@@ -1017,21 +1019,41 @@ async function main() {
       price: { amount: 12730, converted: 12730, currency: "TWD", basis: "retailer_current" },
       historicalLow: { status: "not_found" },
     };
-    const preorderRaw = { sourceRows: [], structuredPriceChanges: [], historicalLowChanges: [], discontinuedCandidates: [] };
-    global.fetch = async () => new Response(`
-      <title>預購 LG 樂金 DD121QWE0</title>
-      <main><h1>預購 LG 樂金 DD121QWE0</h1></main>
-      <script type="application/ld+json">
-        {"@type":"Product","offers":{"price":"13400","priceCurrency":"TWD"}}
-      </script>
-    `, { status: 200, headers: { "content-type": "text/html" } });
-    await auditNonPchome(preorderProduct, preorderRaw);
-    assert(
-      preorderRaw.sourceRows[0].status === "tracking_out_of_stock"
-        && preorderProduct.price.amount === 12730
-        && preorderRaw.structuredPriceChanges.length === 0,
-      "an exact Yahoo preorder must be tracked without rewriting the current price",
-    );
+    for (const title of ["預購 LG 樂金 DD121QWE0", "(預購)LG 樂金 DD121QWE0", "[預購11/23出貨]LG DD121QWE0"]) {
+      const preorderRaw = { sourceRows: [], structuredPriceChanges: [], historicalLowChanges: [], discontinuedCandidates: [] };
+      global.fetch = async () => new Response(`
+        <title>${title}</title>
+        <main><h1>${title}</h1></main>
+        <script type="application/ld+json">
+          {"@type":"Product","offers":{"price":"13400","priceCurrency":"TWD","availability":"https://schema.org/InStock"}}
+        </script>
+      `, { status: 200, headers: { "content-type": "text/html" } });
+      await auditNonPchome(preorderProduct, preorderRaw);
+      assert(
+        preorderRaw.sourceRows[0].status === "tracking_out_of_stock"
+          && preorderProduct.price.amount === 12730
+          && preorderRaw.structuredPriceChanges.length === 0,
+        `an exact Yahoo preorder must be tracked without rewriting the current price: ${title}`,
+      );
+    }
+    const pchomePreorder = {
+      ...preorderProduct,
+      buyUrl: "https://24h.pchome.com.tw/prod/DMBQ07-A900HQ3L5",
+      historicalLow: { status: "found", currency: "TWD", amount: 12000 },
+    };
+    const pchomePreorderRaw = { sourceRows: [], historicalLowChanges: [] };
+    global.fetch = async () => new Response(JSON.stringify({ product: {
+      Id: "DMBQ07-A900HQ3L5-000", Name: "LG DD121QWE0",
+      Nick: "新品預購中 DD121QWE0", Price: { P: 11000 }, Qty: 5,
+    } }), { headers: { "content-type": "application/json" } });
+    await auditPchome(pchomePreorder, pchomePreorderRaw);
+    assert(pchomePreorderRaw.sourceRows[0].status === "tracking_out_of_stock"
+      && pchomePreorder.price.amount === 12730 && pchomePreorder.historicalLow.amount === 12000
+      && pchomePreorderRaw.historicalLowChanges.length === 0,
+      "PChome preorder text must override positive stock without changing current or historical prices");
+    assert(isPreorderListing("【Pre-order】LG DD121QWE0")
+      && !isPreorderListing("LG DD121QWE0 現貨；配件預購另計"),
+      "only preorder listing prefixes should suppress current product prices");
   } finally {
     global.fetch = originalFetch;
   }
@@ -2317,6 +2339,16 @@ async function main() {
       buyUrl: "https://www.homemark.com.tw/product/6",
     }),
     "official suggested prices should accept HMK's Taiwan official product host",
+  );
+  assert(
+    hasOfficialSuggestedPriceSource({
+      price: { basis: "official_suggested" },
+      buyUrl: "https://hitachi-homeappliances.com.tw/products/products_compare.php?prod=HRBN5366DF1",
+    }) && !hasOfficialSuggestedPriceSource({
+      price: { basis: "official_suggested" },
+      buyUrl: "https://hitachi-homeappliances.com.tw.retailer.invalid/products/HRBN5366DF1",
+    }),
+    "Hitachi's verified Taiwan official host must be accepted without accepting suffix-spoofed hosts",
   );
   assert(
     !hasOfficialSuggestedPriceSource({

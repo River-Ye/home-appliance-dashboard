@@ -1,20 +1,20 @@
 {
   "summary": {
-    "checkedAt": "2026-10-19T00:00:00+08:00",
-    "total": 1156,
+    "checkedAt": "2026-10-20T00:00:00+08:00",
+    "total": 1159,
     "researchedThisRun": 3,
-    "found": 344,
-    "missing": 812,
+    "found": 346,
+    "missing": 813,
     "byConfidence": {
-      "official": 187,
-      "not_found": 809,
+      "official": 188,
+      "not_found": 810,
       "retailer_explicit": 23,
       "credible_article": 52,
-      "high": 66,
+      "high": 67,
       "medium": 16,
       "unknown": 3
     },
-    "scopeNote": "本輪新增3款上市與負評逐型號研究；移除3款官方確認停產風扇。既有逐筆證據及日期保留，不表示全部重新研究。"
+    "scopeNote": "本輪僅對新增3款補查上市與逐型號負評；既有1156款逐筆證據與日期原樣保留，不表示同日重讀全部原頁。"
   },
   "results": [
     {
@@ -35576,6 +35576,79 @@
       "checkedAt": "2026-10-19",
       "query": "Sonos Beam Ultra availability September 29 2026",
       "reason": "官方明示一般發售日期。"
+    },
+    {
+      "id": "tv-tcl-75x11l",
+      "category": "tv",
+      "brand": "TCL",
+      "model": "75X11L",
+      "name": "75 吋 X11L SQD-Mini LED 4K Google TV 旗艦顯示器",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2026-05-13",
+      "sourceUrl": "https://www.tcl-shop.com.tw/news-d.php?Key=9",
+      "sourceTitle": "TCL 全球首款 SQD-Mini LED 旗艦 X11L 震撼登台",
+      "evidenceSnippet": "官方台北訊明示2026年5月13日正式在台發表X11L；同段明列75、85、98吋三種尺寸，預計五月底通路開賣。",
+      "confidence": "high",
+      "query": "site:tcl-shop.com.tw \"X11L\" \"5 月 13\"",
+      "auditQueries": [
+        "\"75X11L\" 上市 發售",
+        "site:tcl-shop.com.tw \"X11L\" \"75\" \"正式\""
+      ],
+      "sourceKind": "official_announcement",
+      "reason": "採官方明確發表日，75吋涵蓋於同段尺寸清單；不是網站文章5/28上稿日，也不是日本5/21發售日；實際開賣排程官方僅寫預計五月底。",
+      "checkedAt": "2026-10-20",
+      "auditDisposition": "added"
+    },
+    {
+      "id": "wifi-dlink-m95",
+      "category": "wifi",
+      "brand": "D-Link",
+      "model": "M95",
+      "name": "AQUILA PRO AI BE9500 三頻 Wi-Fi 7 2.5G Mesh 路由器（單台）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2025-07-03",
+      "sourceUrl": "https://www.dlink.com/tw/zh/press-centre/press-releases/2025/july/03/d-link-be9500-wi-fi-7-tri-band-router-launch",
+      "sourceTitle": "D-Link BE9500 Wi-Fi 7三頻無線路由器重磅登場",
+      "evidenceSnippet": "為慶祝R95/M95正式上市",
+      "confidence": "official",
+      "sourceKind": "official_launch_announcement",
+      "query": "\"D-Link\" \"M95\" (上市 OR launch OR release)",
+      "reason": "官方2025-07-03公告明確命名R95/M95並寫正式上市；沒有使用新聞發布日猜測缺乏上市文字的日期。",
+      "checkedAt": "2026-10-20",
+      "auditDisposition": "new_product"
+    },
+    {
+      "id": "refrigerator-hitachi-hrbn5366df1",
+      "category": "refrigerator",
+      "brand": "HITACHI",
+      "model": "HRBN5366DF1",
+      "name": "HITACHI HRBN5366DF1 330L 雙門下冷凍琉璃變頻冰箱（漸層琉璃黑）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-20",
+      "query": "\"HITACHI HRBN5366DF1\" 上市 發售",
+      "reason": "官方產品頁NEW與PChome2026年上市新款未提供可核對的上市／發售公告；不採PDF建立日、活動日、通路新款年份。",
+      "checkedSources": [
+        {
+          "url": "https://hitachi-homeappliances.com.tw/products/products_03.php?pid=HRBN5366DF1",
+          "title": "HITACHI台灣HRBN5366DF1(NEW)",
+          "outcome": "NEW標記無明確上市日期"
+        },
+        {
+          "url": "https://hitachi-homeappliances.com.tw/image/hsct/service/download/manual/Instruction_Manual_HRBN5366DF1.pdf",
+          "title": "官方說明書",
+          "outcome": "規格與電力證據，不採PDF製作日期"
+        },
+        {
+          "url": "https://24h.pchome.com.tw/prod/DPAC95-A900KJNL1",
+          "title": "PChome HRBN5366DF1",
+          "outcome": "2026年上市新款泛稱；API預購，不推定上市年"
+        }
+      ]
     }
   ]
 }

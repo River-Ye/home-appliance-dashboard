@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19",
+  "generatedAt": "2026-10-20",
   "sourcePolicy": "本站共 21 類尺寸、13 類重量研究，尺寸涵蓋 電視、Soundbar、冷氣、洗衣機、烘衣機、洗烘衣機(多功能型)、電子衣櫥（衣物護理機）、床包、棉被、枕頭、冰箱、咖啡機、多功能氣炸烤箱／微波爐、洗碗機、熱水器、免治馬桶、網路交換器、螢幕燈、滑鼠、鍵盤、滑鼠墊。優先採 exact-model／相同版本的官方產品頁、官方規格表或官方 PDF，其次為可信新品通路。只採本體／機身／明確組件的尺寸與淨重，排除包裝、外箱尺寸與毛重；來源沒有明示軸序時不自行推定。既有家電與床包、棉被、枕頭維持 cm／kg，滑鼠、鍵盤與滑鼠墊使用 mm／g 並保留來源軸序。滑鼠墊厚度、床包可包覆高度另列；棉被的填充重量與整件淨重分開記錄。冷氣分列室內機與室外機，熱泵複合熱水器分列主機與儲槽。generatedAt 為最新證據批次日期，既有逐筆 checkedAt 與 weightCheckedAt 保留原查核日期，不表示重新查核。",
   "results": [
     {
@@ -9860,6 +9860,33 @@
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
       "weightCheckedAt": "2026-10-19"
+    },
+    {
+      "id": "tv-tcl-75x11l",
+      "dimension": "尺寸：不含底座 寬 165.8 x 深 2.4 x 高 97.9 cm；含底座 寬 165.8 x 深 38 x 高 102.4 cm",
+      "sourceUrl": "https://www.tcl-shop.com.tw/item/209/75%E5%90%8B%20X11L%20%E9%A0%82%E7%B4%9A%20SQD-Mini%20LED%20%E9%87%8F%E5%AD%90%E6%99%BA%E8%83%BD%E9%80%A3%E7%B6%B2%E6%B6%B2%E6%99%B6%E9%A1%AF%E7%A4%BA%E5%99%A8/?W=Search",
+      "sourceTitle": "TCL台灣75X11L官方商品規格",
+      "evidenceSnippet": "官網以WxHxD明示無底座1658×979×24mm、含底座1658×1024×380mm；依已標軸序換算為寬深高cm。官方連結說明書第18頁同樣確認無底座1658×24×979、含底座1658×380×1024mm。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-10-20",
+      "weight": "重量：整機淨重 40.5 kg",
+      "weightSourceUrl": "https://www.tcl-shop.com.tw/item/209/75%E5%90%8B%20X11L%20%E9%A0%82%E7%B4%9A%20SQD-Mini%20LED%20%E9%87%8F%E5%AD%90%E6%99%BA%E8%83%BD%E9%80%A3%E7%B6%B2%E6%B6%B2%E6%99%B6%E9%A1%AF%E7%A4%BA%E5%99%A8/?W=Search",
+      "weightSourceTitle": "TCL台灣75X11L官方商品規格與說明書第18頁",
+      "weightEvidenceSnippet": "官方明示整機重量不含包裝40.5kg；未說明含座/無座分列，因此只保留整機淨重。排除官網51.6kg與手冊51.2kg包裝重量。",
+      "weightConfidence": "high",
+      "weightIsOfficialSource": true,
+      "weightCheckedAt": "2026-10-20"
+    },
+    {
+      "id": "refrigerator-hitachi-hrbn5366df1",
+      "dimension": "尺寸：寬 59.5 x 深 65 x 高 190 cm",
+      "sourceUrl": "https://hitachi-homeappliances.com.tw/image/hsct/service/download/manual/Instruction_Manual_HRBN5366DF1.pdf",
+      "sourceTitle": "HITACHI HRBN5366DF1官方說明書第11頁規格表",
+      "evidenceSnippet": "DF1／DFL1欄：有效內容積330L；外觀尺寸mm明示W寬595、H高1900、D深650。僅換算cm並依軸標重排，不採外包裝645×697×1960mm。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-10-20"
     }
   ]
 }

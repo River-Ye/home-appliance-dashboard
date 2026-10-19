@@ -7,6 +7,7 @@ const {
   isExcludedListing,
   isExplicitlyDiscontinued,
   isExplicitlyUnavailable,
+  isPreorderListing,
   isReviewedPchomeBinding,
   tokenizedIdentity,
 } = require("./catalog-maintenance-policy");
@@ -352,7 +353,7 @@ async function auditPchome(product, raw) {
     const amount = selectPchomeCurrentPrice(record.Price);
     let status = "verified_available";
     if (excluded) status = "excluded_listing";
-    else if (quantity !== null && quantity <= 0) status = "tracking_out_of_stock";
+    else if ((quantity !== null && quantity <= 0) || [record.Name, record.Nick].some(isPreorderListing)) status = "tracking_out_of_stock";
     else if (!sourceIdentityApproved) status = "model_unverified";
     else if (amount === null) status = "invalid_price";
 
@@ -502,7 +503,7 @@ async function auditNonPchome(product, raw) {
     const availability = priceCandidates.map((candidate) => candidate.availability || "");
     const structuredUnavailable = availability.some((value) => /(?:^|\/)(?:OutOfStock|SoldOut|Discontinued|PreOrder|PreSale|BackOrder)$/i.test(value));
     const structuredAvailable = availability.some((value) => /(?:^|\/)(?:InStock|LimitedAvailability|OnlineOnly)$/i.test(value));
-    const unavailable = exact && (structuredUnavailable || /^(?:預購|pre[\s-]?order)(?:\s|$)/iu.test(page.title)
+    const unavailable = exact && (structuredUnavailable || isPreorderListing(page.title)
       || (!structuredAvailable && isExplicitlyUnavailable(visiblePageText(page.text))));
     status = excluded ? "excluded_listing" : unavailable ? "tracking_out_of_stock" : exact ? "verified_available" : "model_unverified";
   }
@@ -1407,6 +1408,7 @@ if (require.main === module) {
 module.exports = {
   applyExchangeRates,
   auditNonPchome,
+  auditPchome,
   buildCompactReport,
   categoryProductsChanged,
   categoryReviewProvenance,

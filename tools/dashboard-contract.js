@@ -1,8 +1,8 @@
 const EXPECTED_CATEGORY_COUNT = 37;
-const EXPECTED_PRODUCT_COUNT = 1156;
+const EXPECTED_PRODUCT_COUNT = 1159;
 const MIN_PRODUCTS_PER_CATEGORY = 20;
 const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
-  ["tv", 41],
+  ["tv", 42],
   ["soundbar", 38],
   ["fan", 21],
   ["circulator", 23],
@@ -18,7 +18,7 @@ const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["bedsheet", 30],
   ["comforter", 30],
   ["pillow", 30],
-  ["refrigerator", 28],
+  ["refrigerator", 29],
   ["cookware", 28],
   ["knife", 23],
   ["blender", 25],
@@ -29,7 +29,7 @@ const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["waterheater", 45],
   ["bidet", 22],
   ["smartlock", 51],
-  ["wifi", 56],
+  ["wifi", 57],
   ["network-switch", 20],
   ["standingdesk", 27],
   ["chair", 28],
@@ -43,7 +43,7 @@ const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
 const DATE_PATTERN = /^(找不到|\d{4}(?:[-/.]\d{1,2}(?:[-/.]\d{1,2})?)?)$/;
 const WASHER_DRYER_CAPACITY_PATTERN = /^洗\/乾容量：\d+(?:\.\d+)?kg \/ \d+(?:\.\d+)?kg$/;
 const DIMENSION_CATEGORY_COUNTS = new Map([
-  ["tv", 41],
+  ["tv", 42],
   ["soundbar", 38],
   ["washer", 27],
   ["dryer", 24],
@@ -52,7 +52,7 @@ const DIMENSION_CATEGORY_COUNTS = new Map([
   ["bedsheet", 30],
   ["comforter", 30],
   ["pillow", 30],
-  ["refrigerator", 28],
+  ["refrigerator", 29],
   ["coffee", 24],
   ["oven", 25],
   ["dishwasher", 31],
@@ -76,7 +76,7 @@ const FORBIDDEN_MEASUREMENT_LABEL_PATTERN = "(?!.*(?:包裝|外箱|紙箱|毛重
 const DIMENSION_PATTERN = new RegExp(`^尺寸：${FORBIDDEN_MEASUREMENT_LABEL_PATTERN}(未標示|查不到|${DIMENSION_SEGMENT_PATTERN}(?:；${DIMENSION_SEGMENT_PATTERN})*)$`, "i");
 const DIMENSION_CONFIDENCE_VALUES = new Set(["high", "medium", "low", "not_found"]);
 const WEIGHT_CATEGORY_COUNTS = new Map([
-  ["tv", 41],
+  ["tv", 42],
   ["soundbar", 38],
   ["coffee", 24],
   ["oven", 25],
@@ -171,6 +171,7 @@ const OFFICIAL_SUGGESTED_PRICE_HOSTS = new Set([
   "atlantic.tw",
   "taada.com.tw",
   "homemark.com.tw",
+  "hitachi-homeappliances.com.tw",
 ]);
 const AIRCON_TYPE_COUNTS = new Map([
   ["cooling_only", 12],

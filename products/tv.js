@@ -116,9 +116,9 @@
     "name": "65 型 S90F OLED 4K 智慧顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 46900,
-      "converted": 46900,
-      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 50900,
+      "converted": 50900,
+      "confidence": "PChome 2026-10-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADEW1900K4WRT/000001_1782056882.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADEW-A900IUE7F",
@@ -813,9 +813,9 @@
     "name": "BRAVIA 8 65 型 XR OLED 4K HDR Google TV 顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 93900,
-      "converted": 93900,
-      "confidence": "PChome 2026-09-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 84510,
+      "converted": 84510,
+      "confidence": "PChome 2026-10-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD06A900HLBJO/000001_1776334113.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAD06-A900HLBJO",
@@ -1902,9 +1902,9 @@
     "name": "65型 4K QLED 120Hz Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 15990,
-      "converted": 15990,
-      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 14391,
+      "converted": 14391,
+      "confidence": "PChome 2026-10-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADTOA900JNE73/000001_1768523868.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADTO-A900JNMOP",
@@ -4117,6 +4117,115 @@
       "confidence": "not_found",
       "checkedAt": "2026-09-07",
       "note": "已查65MRGB86BTA歷史價格與LBJ列表。myfone56905為查核日公開價，97折需結帳條件未採；LBJ有其他通路當期报价但未取得同SKU可重現歷史最低點日期與優惠條件，不能用現價推定史低。"
+    }
+  },
+  {
+    "id": "tv-tcl-75x11l",
+    "category": "tv",
+    "rank": 43,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "TCL",
+    "model": "75X11L",
+    "name": "75 吋 X11L SQD-Mini LED 4K Google TV 旗艦顯示器",
+    "price": {
+      "currency": "TWD",
+      "amount": 164990,
+      "converted": 164990,
+      "basis": "retailer_current",
+      "confidence": "2026-10-20 PChome官方旗艦館DPADT3-A900K7NOX exact-model API：Price.P164990、Price.Low null、Qty3；未採頁面已過期10/19促銷或會員/卡/點數。"
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "PChome商品原頁明示提供桌上型基本安裝，含定位、接電、功能測試與現場驗收；壁掛架與壁掛、特殊牆面洗洞、樓層或偏遠搬運等另確認及可能加價。"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DPADT3A900K7NOX/000001_1783749208.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPADT3-A900K7NOX",
+    "buyLabel": "PChome 官方旗艦館（含桌上基本安裝）",
+    "specs": [
+      "75 吋 SQD-Mini LED／4K UHD 3840 x 2160；WHVA 2.0 Ultra 面板",
+      "背光：11,520 區精準控光；官方HDR峰值亮度9000 nits（測試值）",
+      "更新率：原生144Hz；官方標示VRR 48–288Hz／DLG288Hz，最高模式需相容訊源且不等於4K288Hz",
+      "影像：TSR AiPQ；Dolby Vision IQ／Dolby Vision／HDR10+／HDR10／HLG",
+      "音效：Audio by Bang & Olufsen；Dolby Atmos／DTS Virtual:X",
+      "手機投影：AirPlay 2／Google Cast／Chromecast／Miracast",
+      "系統：Google TV；Google Assistant語音控制",
+      "連接：HDMI 2.1 x 4、eARC／ARC；USB x 3；RJ45 x 1；Wi-Fi 6／Bluetooth 5.4",
+      "供電／功率：AC100–240V、50/60Hz、4.8A；480W；待機低於0.5W",
+      "尺寸：不含底座 寬 165.8 x 深 2.4 x 高 97.9 cm；含底座 寬 165.8 x 深 38 x 高 102.4 cm",
+      "重量：整機淨重 40.5 kg",
+      "安裝：標準VESA 600 x 400mm；另有官方隨附貼牆掛架1200mm孔距，須依牆體與施工條件核對",
+      "隨附：遙控器、電池、電源線、底座、底座螺絲、操作手冊及保修卡"
+    ],
+    "description": "TCL X11L以75吋11520區SQD-Mini LED、144Hz與AirPlay 2／Google Cast提供高階明亮客廳及遊戲用途。台灣PChome官方旗艦館提供新品與桌上基本安裝，購前須核對165.8cm機寬、含底座38cm深度、40.5kg整機重量與搬運施工條件。",
+    "pros": [
+      "75吋11520區背光與原生144Hz，提供高階大畫面選項",
+      "AirPlay 2、Google Cast與Miracast投影選擇完整",
+      "台灣官方旗艦館新品、三年全機保固與桌上基本安裝"
+    ],
+    "cons": [
+      "價格高，與已收錄65C8L屬不同尺寸與預算帶",
+      "整機40.5kg，須先核對搬運路徑、櫃體與壁掛承重",
+      "官方未分列無底座重量；HDR亮度及最高刷新率依測試/輸入條件而異"
+    ],
+    "bestFor": "預算充足、希望75吋高階Mini LED與完整手機投影的大客廳或遊戲家庭。",
+    "recommendation": "高階大畫面推薦：比較75吋旗艦SQD-Mini LED與同預算OLED；先量好機身、含底座深度與搬運路徑。",
+    "releaseDate": "2026-05-13",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-20",
+      "note": "已用75X11L查FindPrice、LBJ與可信通路。比較頁有不同當期報價，未取得可重現的台灣同版本最低點日期與優惠條件；LBJ後續請求遇安全性檢查，歷史圖未可核。PChome網頁快取151791為10/16–10/19已過期優惠，不能當10/20現價；未把164990現價推成史低。排除分期每期3503、會員券、點數、信用卡回饋、贈品折算與海外版本。"
+    },
+    "score": 90,
+    "voltage": "AC100–240V、50/60Hz、4.8A；480W；相容台灣110V/60Hz",
+    "warranty": "台灣公司貨全機3年保固，TCL客服0800-623-666安排到府維修；依發票及保固除外條款，特殊拆卸與施工另確認。",
+    "tags": [
+      "SQD-Mini LED",
+      "75吋",
+      "4K144Hz",
+      "AirPlay 2",
+      "Google Cast",
+      "台灣公司貨"
+    ],
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-20",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"75X11L\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%2275X11L%22"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"75X11L\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%2275X11L%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"75X11L\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%2275X11L%22"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"75X11L\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%2275X11L%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+        }
+      ]
     }
   }
 ]);

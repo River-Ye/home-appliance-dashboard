@@ -1,9 +1,9 @@
 {
   "summary": {
-    "checkedAt": "2026-10-19T00:00:00+08:00",
-    "total": 1156,
+    "checkedAt": "2026-10-20T00:00:00+08:00",
+    "total": 1159,
     "commonIssueProducts": 53,
-    "noCommonIssueProducts": 1103,
+    "noCommonIssueProducts": 1106,
     "pendingManualReview": 0,
     "commonIssues": 54,
     "searchUnavailable": 614,
@@ -30,7 +30,7 @@
       "2026-09-08 全量維護僅對新增 MPG 491CQPX QD-OLED 與 NA-LX128EL 完成逐型號跨站負評人工覆核；既有商品保留原始逐筆研究日期。MSI 的零星訊號／VRR／OSD問題及 Panasonic 的烘後桶體燙感分開處置，均未達同一問題6人且跨2個原始網站門檻。依eufy官方停產公告移除E20及其現行研究列，既有386筆逐人證據不變。"
     ],
     "researchedThisRun": 3,
-    "scopeNote": "本輪僅新納入3款完成逐型號人工負評研究；移除3款官方停產風扇。既有逐筆研究、作者與日期均保留，未聲稱全目錄重新研究。"
+    "scopeNote": "本輪僅對新增3款補查上市與逐型號負評；既有1156款逐筆證據與日期原樣保留，不表示同日重讀全部原頁。"
   },
   "results": [
     {
@@ -205615,6 +205615,902 @@
           "reason": "人工查看原作者評語，只記一名可辨識使用者的 App/CEC 操作抱怨；AI 顧客總結、總星數與推薦比例不計人數。沒有六位同一故障、跨兩個原始網站的逐人證據。"
         }
       ]
+    },
+    {
+      "id": "tv-tcl-75x11l",
+      "category": "tv",
+      "brand": "TCL",
+      "model": "75X11L",
+      "name": "75 吋 X11L SQD-Mini LED 4K Google TV 旗艦顯示器",
+      "identity": {
+        "canonicalModel": "75X11L",
+        "lookupLabel": "TCL 75X11L",
+        "aliases": [
+          "TCL 75X11L"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DPADT3-A900K7NOX"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "id": "tv-tcl-75x11l",
+        "category": "tv",
+        "brand": "TCL",
+        "model": "75X11L",
+        "reviewBatch": "tv",
+        "reviewedAt": "2026-10-20",
+        "decision": "no_common_issue",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT",
+          "Kakaku",
+          "Walmart"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"75X11L\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%2275X11L%22"
+          },
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"75X11L\" (問題 OR 故障 OR 災情)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%2275X11L%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"75X11L\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%2275X11L%22"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"75X11L\" (問題 OR 故障 OR 災情)",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%2275X11L%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+          }
+        ],
+        "candidateDisposition": "75X11L：已人工讀Mobile01兩串、PTT業代原頁、日本Kakaku討論及美國Walmart評價；價格偏好、他牌故障、未購買推測、地區版本不明與tcl.com轉載分別排除。美版外框刮傷與遊戲動態是不同個案，未達同一台灣版本問題六位獨立使用者跨兩個原始網站；不代表完全沒有負評。",
+        "representativeSources": [
+          {
+            "platform": "Mobile01",
+            "title": "TCL X11L台灣官網上了~定價果然創新高",
+            "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7255263"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "旗艦電視+音響組合建議 (第2頁)",
+            "url": "https://www.mobile01.com/topicdetail.php?f=347&p=2&t=7292344"
+          },
+          {
+            "platform": "PTT",
+            "title": "[業代]各電視品牌優惠，原廠公司貨，非代購!!",
+            "url": "https://www.ptt.cc/bbs/Digitalhome/M.1782908134.A.A03.html"
+          },
+          {
+            "platform": "Kakaku",
+            "title": "TCLのテレビを購入候補から外しました。",
+            "url": "https://bbs.kakaku.com/bbs/K0001785323/SortID=26490259/"
+          },
+          {
+            "platform": "Walmart",
+            "title": "Customer reviews for TCL 75X11L",
+            "url": "https://www.walmart.com/reviews/product/18959412566"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7255263",
+            "title": "TCL X11L台灣官網上了~定價果然創新高",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "sourceExcerpt": "春生、TOY6821 等討論官網定價及與 Sony 比價；STOMMY 的實購是85C8K，並非75X11L。",
+            "specificReason": "主要是上市前價格與技術價值討論；沒有可歸於75X11L的第一人稱故障，不計價值偏好與其他尺寸型號的持有人。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-10-20"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=347&p=2&t=7292344",
+            "title": "旗艦電視+音響組合建議 (第2頁)",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "sourceExcerpt": "曾奕鑫第14樓只列「Tcl 75X11L +Tcl Z100*4+Tcl Z100-SW(掏寶貨)」；同頁故障描述屬Sony BRAVIA 7 II。",
+            "specificReason": "75X11L只出現在組合建議；同串Sony後環繞抱怨不屬TCL，不把提到型號或他牌問題算作本型號故障。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-10-20"
+          },
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/Digitalhome/M.1782908134.A.A03.html",
+            "title": "[業代]各電視品牌優惠，原廠公司貨，非代購!!",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "sourceExcerpt": "a10060428的業代文章列75X11L 155000，主體為電視價格及基本安裝推廣。",
+            "specificReason": "已用HTTP200讀取PTT原頁；此為業代價格清單，非第一人稱使用故障，亦不把論壇業代報價當可信新品通路史低。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-10-20"
+          },
+          {
+            "platform": "Kakaku",
+            "url": "https://bbs.kakaku.com/bbs/K0001785323/SortID=26490259/",
+            "title": "TCLのテレビを購入候補から外しました。",
+            "exactModel": false,
+            "independentAuthors": 0,
+            "sourceExcerpt": "bsdigi36仍使用Hisense 75U9H，因薄機身、錄影與價格把日本75X11L移出候選；後續改買REGZA。",
+            "specificReason": "日本地區同名型號與台灣版未核實為相同版本，且主帖明示尚未購買，以規格推測低音，不是本人75X11L故障；回覆數及讚數不計人。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-10-20"
+          },
+          {
+            "platform": "Walmart",
+            "url": "https://www.walmart.com/reviews/product/18959412566",
+            "title": "Customer reviews for TCL 75X11L",
+            "exactModel": false,
+            "independentAuthors": 2,
+            "sourceExcerpt": "Chad反映到貨外框刮傷；Whopper Man提及斜視與遊戲動態，後者來源標示Review from tcl.com。",
+            "specificReason": "原頁為美國HDR10000規格版本，未核實與台灣HDR9000版相同；兩位不同症狀分開計且跨站轉載不增人，不能成立台灣同版本同問題六人跨兩站。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-10-20"
+          }
+        ],
+        "reviewerNote": "75X11L：已人工讀Mobile01兩串、PTT業代原頁、日本Kakaku討論及美國Walmart評價；價格偏好、他牌故障、未購買推測、地區版本不明與tcl.com轉載分別排除。美版外框刮傷與遊戲動態是不同個案，未達同一台灣版本問題六位獨立使用者跨兩個原始網站；不代表完全沒有負評。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-10-20",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"75X11L\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%2275X11L%22"
+          },
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"75X11L\" (問題 OR 故障 OR 災情)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%2275X11L%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"75X11L\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%2275X11L%22"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"75X11L\" (問題 OR 故障 OR 災情)",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%2275X11L%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "人工跨站搜尋：Mobile01",
+          "query": "site:mobile01.com \"75X11L\"",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%2275X11L%22",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 2,
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=347&t=7255263",
+            "https://www.mobile01.com/topicdetail.php?f=347&p=2&t=7292344"
+          ],
+          "candidates": [
+            {
+              "platform": "Mobile01",
+              "title": "TCL X11L台灣官網上了~定價果然創新高",
+              "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7255263"
+            },
+            {
+              "platform": "Mobile01",
+              "title": "旗艦電視+音響組合建議 (第2頁)",
+              "url": "https://www.mobile01.com/topicdetail.php?f=347&p=2&t=7292344"
+            }
+          ],
+          "inspectedAt": "2026-10-19T23:04:35Z"
+        },
+        {
+          "platform": "人工跨站搜尋：Mobile01",
+          "query": "site:mobile01.com \"75X11L\" (問題 OR 故障 OR 災情)",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%2275X11L%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-10-19T23:04:35Z"
+        },
+        {
+          "platform": "人工跨站搜尋：PTT",
+          "query": "site:ptt.cc \"75X11L\"",
+          "searchUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%2275X11L%22",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.ptt.cc/bbs/Digitalhome/M.1782908134.A.A03.html"
+          ],
+          "candidates": [
+            {
+              "platform": "PTT",
+              "title": "[業代]各電視品牌優惠，原廠公司貨，非代購!!",
+              "url": "https://www.ptt.cc/bbs/Digitalhome/M.1782908134.A.A03.html"
+            }
+          ],
+          "inspectedAt": "2026-10-19T23:04:35Z"
+        },
+        {
+          "platform": "人工跨站搜尋：PTT",
+          "query": "site:ptt.cc \"75X11L\" (問題 OR 故障 OR 災情)",
+          "searchUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%2275X11L%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-10-19T23:04:35Z"
+        },
+        {
+          "platform": "跨站補充原頁搜尋",
+          "query": "\"75X11L\" 問題 負評",
+          "searchUrl": "https://www.google.com/search?q=%2275X11L%22%20%E5%95%8F%E9%A1%8C%20%E8%B2%A0%E8%A9%95",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 2,
+          "candidateUrls": [
+            "https://bbs.kakaku.com/bbs/K0001785323/SortID=26490259/",
+            "https://www.walmart.com/reviews/product/18959412566"
+          ],
+          "candidates": [
+            {
+              "platform": "Kakaku",
+              "title": "TCLのテレビを購入候補から外しました。",
+              "url": "https://bbs.kakaku.com/bbs/K0001785323/SortID=26490259/"
+            },
+            {
+              "platform": "Walmart",
+              "title": "Customer reviews for TCL 75X11L",
+              "url": "https://www.walmart.com/reviews/product/18959412566"
+            }
+          ],
+          "inspectedAt": "2026-10-19T23:04:35Z"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7255263",
+          "title": "TCL X11L台灣官網上了~定價果然創新高",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "sourceExcerpt": "春生、TOY6821 等討論官網定價及與 Sony 比價；STOMMY 的實購是85C8K，並非75X11L。",
+          "specificReason": "主要是上市前價格與技術價值討論；沒有可歸於75X11L的第一人稱故障，不計價值偏好與其他尺寸型號的持有人。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-10-20",
+          "reason": "主要是上市前價格與技術價值討論；沒有可歸於75X11L的第一人稱故障，不計價值偏好與其他尺寸型號的持有人。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=347&p=2&t=7292344",
+          "title": "旗艦電視+音響組合建議 (第2頁)",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "sourceExcerpt": "曾奕鑫第14樓只列「Tcl 75X11L +Tcl Z100*4+Tcl Z100-SW(掏寶貨)」；同頁故障描述屬Sony BRAVIA 7 II。",
+          "specificReason": "75X11L只出現在組合建議；同串Sony後環繞抱怨不屬TCL，不把提到型號或他牌問題算作本型號故障。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-10-20",
+          "reason": "75X11L只出現在組合建議；同串Sony後環繞抱怨不屬TCL，不把提到型號或他牌問題算作本型號故障。"
+        },
+        {
+          "platform": "PTT",
+          "url": "https://www.ptt.cc/bbs/Digitalhome/M.1782908134.A.A03.html",
+          "title": "[業代]各電視品牌優惠，原廠公司貨，非代購!!",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "sourceExcerpt": "a10060428的業代文章列75X11L 155000，主體為電視價格及基本安裝推廣。",
+          "specificReason": "已用HTTP200讀取PTT原頁；此為業代價格清單，非第一人稱使用故障，亦不把論壇業代報價當可信新品通路史低。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-10-20",
+          "reason": "已用HTTP200讀取PTT原頁；此為業代價格清單，非第一人稱使用故障，亦不把論壇業代報價當可信新品通路史低。"
+        },
+        {
+          "platform": "Kakaku",
+          "url": "https://bbs.kakaku.com/bbs/K0001785323/SortID=26490259/",
+          "title": "TCLのテレビを購入候補から外しました。",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "sourceExcerpt": "bsdigi36仍使用Hisense 75U9H，因薄機身、錄影與價格把日本75X11L移出候選；後續改買REGZA。",
+          "specificReason": "日本地區同名型號與台灣版未核實為相同版本，且主帖明示尚未購買，以規格推測低音，不是本人75X11L故障；回覆數及讚數不計人。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-10-20",
+          "reason": "日本地區同名型號與台灣版未核實為相同版本，且主帖明示尚未購買，以規格推測低音，不是本人75X11L故障；回覆數及讚數不計人。"
+        },
+        {
+          "platform": "Walmart",
+          "url": "https://www.walmart.com/reviews/product/18959412566",
+          "title": "Customer reviews for TCL 75X11L",
+          "exactModel": false,
+          "independentAuthors": 2,
+          "sourceExcerpt": "Chad反映到貨外框刮傷；Whopper Man提及斜視與遊戲動態，後者來源標示Review from tcl.com。",
+          "specificReason": "原頁為美國HDR10000規格版本，未核實與台灣HDR9000版相同；兩位不同症狀分開計且跨站轉載不增人，不能成立台灣同版本同問題六人跨兩站。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-10-20",
+          "reason": "原頁為美國HDR10000規格版本，未核實與台灣HDR9000版相同；兩位不同症狀分開計且跨站轉載不增人，不能成立台灣同版本同問題六人跨兩站。"
+        }
+      ],
+      "reports": []
+    },
+    {
+      "id": "wifi-dlink-m95",
+      "category": "wifi",
+      "brand": "D-Link",
+      "model": "M95",
+      "name": "AQUILA PRO AI BE9500 三頻 Wi-Fi 7 2.5G Mesh 路由器（單台）",
+      "identity": {
+        "canonicalModel": "M95",
+        "lookupLabel": "D-Link M95",
+        "aliases": [
+          "D-Link M95",
+          "AQUILA PRO AI M95"
+        ],
+        "evidenceUrl": "https://www.dlink.com/tw/zh/products/m95-be9500-wi-fi-7-smart-mesh-router"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "id": "wifi-dlink-m95",
+        "category": "wifi",
+        "brand": "D-Link",
+        "model": "M95",
+        "reviewedAt": "2026-10-20",
+        "reviewBatch": "wifi",
+        "decision": "no_common_issue",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit",
+          "PTT"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"D-Link M95\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22D-Link%20M95%22"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"M95\" \"D-Link\" (problem OR issue OR failure)",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22M95%22%20%22D-Link%22%20%28problem%20OR%20issue%20OR%20failure%29"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"D-Link M95\" (災情 OR 故障 OR 問題)",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22D-Link%20M95%22%20%28%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%95%8F%E9%A1%8C%29"
+          }
+        ],
+        "candidateDisposition": "M95：人工開啟Mobile01兩篇開箱與選購串1至3頁、PTT活動原頁及Reddit原討論。共辨識3位單站負評作者，其中斷線2位、熱與擺位1位，未達同一問題至少六人且跨兩個原始網站；PTT跨貼原頁先受403，後live HTTP200實讀推文，舊品牌泛論不計M95作者。保留負評風險，不等於沒有問題。",
+        "reviewerNote": "M95：人工開啟Mobile01兩篇開箱與選購串1至3頁、PTT活動原頁及Reddit原討論。共辨識3位單站負評作者，其中斷線2位、熱與擺位1位，未達同一問題至少六人且跨兩個原始網站；PTT跨貼原頁先受403，後live HTTP200實讀推文，舊品牌泛論不計M95作者。保留負評風險，不等於沒有問題。",
+        "representativeSources": [
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7167953",
+            "title": "超美型Wi-Fi 7無線路由器，D-Link M95 AQUILA PRO AI開箱試用"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7145232",
+            "title": "天鷹展翅全新設計 MIT 台灣製 D-Link AQUILA PRO AI M95 BE9500 Wi-Fi 7 開箱"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7148538",
+            "title": "請教 WiFi7路由器選擇"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7148538&p=2",
+            "title": "請教 WiFi7路由器選擇（第2頁）"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7148538&p=3",
+            "title": "請教 WiFi7路由器選擇（第3頁）"
+          },
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/digitalk/M.1754326602.A.54A.html",
+            "title": "[分享] 氣氛輕鬆愉快的D-Link Wi-Fi 7產品體驗會"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/HomeNetworking/comments/1ia3af9/why_do_tplink_get_a_hard_time_from_peopleand/",
+            "title": "Why do TP-Link get a hard time from people,and routers made by Asus are often praised...."
+          },
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/PC_Shopping/M.1752654977.A.166.html",
+            "title": "[開箱] 天鷹展翅D-Link AQUILA PRO AI M95 WiFi7"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7167953",
+            "title": "超美型Wi-Fi 7無線路由器，D-Link M95 AQUILA PRO AI開箱試用",
+            "exactModel": true,
+            "sourceExcerpt": "一直斷線異常真的很消耗精神；我自己手上就有一台R95跟M95",
+            "independentAuthors": 2,
+            "specificReason": "M95原頁第3樓新手村一哥(文章92336993)有斷線、Mesh及APP異常；第4樓q550530(92630970)有熱與收訊回報。兩人問題不完全相同，單一原始網站不足六人／兩站；不否認這些負評。",
+            "reviewedAt": "2026-10-20",
+            "outcome": "excluded",
+            "authorObservations": [
+              {
+                "author": "新手村一哥",
+                "locator": "第3樓／文章92336993",
+                "observation": "M95主機搭M30延伸出現連線及設定不穩，逐步敘述自行使用，exact M95第一人稱成立；同帳號下方追留言不另計。"
+              },
+              {
+                "author": "q550530",
+                "locator": "第4樓／文章92630970",
+                "observation": "自述同時持有R95與M95，對M95內藏天線配置、機身熱與擺位有負評；與斷線不是可直接合併的同一問題。"
+              }
+            ]
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7145232",
+            "title": "天鷹展翅全新設計 MIT 台灣製 D-Link AQUILA PRO AI M95 BE9500 Wi-Fi 7 開箱",
+            "exactModel": true,
+            "sourceExcerpt": "這次看到 M95 也就順勢入手；M95 就整機斷網了一陣子",
+            "independentAuthors": 1,
+            "specificReason": "TiiRX第6及第8樓(92046975/92049322)為同一作者，僅計一名M95第一人稱斷網回報；kobebeef屬品牌泛論、引述不另計。與另一Mobile01串仍同一網站，未達六人跨兩站。",
+            "reviewedAt": "2026-10-20",
+            "outcome": "excluded",
+            "authorObservations": [
+              {
+                "author": "TiiRX",
+                "locator": "第8樓／文章92049322；同帳號第6樓去重",
+                "observation": "明示購入M95並在家發生整機斷網；有細節但仍僅一人，舊D-Link其他型號與一般品牌評論不計。"
+              }
+            ]
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7148538",
+            "title": "請教 WiFi7路由器選擇",
+            "exactModel": true,
+            "sourceExcerpt": "D-Link M95/R95 BE9500（這兩個差別是什麼？",
+            "independentAuthors": 0,
+            "specificReason": "原頁1至3頁為採購諮詢與品牌推薦。第2頁的斷線抱怨明確回覆ASUS ROG GS-BE18000，不是M95；不能轉移為M95災情。",
+            "reviewedAt": "2026-10-20",
+            "outcome": "excluded"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7148538&p=2",
+            "title": "請教 WiFi7路由器選擇（第2頁）",
+            "exactModel": false,
+            "sourceExcerpt": "ASUS 華碩ROG STRIX GS-BE18000 WiFi 7 AiMesh 三頻電競路由器",
+            "independentAuthors": 0,
+            "specificReason": "回覆tp6an6與rick673537負評的引用父文為ASUS GS-BE18000，並非本次D-Link M95；型號邊界排除，勿套用其他路由器故障。",
+            "reviewedAt": "2026-10-20",
+            "outcome": "excluded"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7148538&p=3",
+            "title": "請教 WiFi7路由器選擇（第3頁）",
+            "exactModel": true,
+            "sourceExcerpt": "請教 WiFi7路由器選擇（第3頁）",
+            "independentAuthors": 0,
+            "specificReason": "已讀該串第3頁，主要為延續選購與其他型號討論；沒有足以新增M95同問題獨立第一人稱回報的內容。",
+            "reviewedAt": "2026-10-20",
+            "outcome": "excluded"
+          },
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/digitalk/M.1754326602.A.54A.html",
+            "title": "[分享] 氣氛輕鬆愉快的D-Link Wi-Fi 7產品體驗會",
+            "exactModel": true,
+            "sourceExcerpt": "現場上陣的D-Link R95實力應該是無法百分之百發揮",
+            "independentAuthors": 0,
+            "specificReason": "hardaway活動體驗文有M95展示，但當日網路測試為R95與場地網路，非M95居家故障。其原始Blog跨站轉貼不另計作者。",
+            "reviewedAt": "2026-10-20",
+            "outcome": "excluded"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/HomeNetworking/comments/1ia3af9/why_do_tplink_get_a_hard_time_from_peopleand/",
+            "title": "Why do TP-Link get a hard time from people,and routers made by Asus are often praised....",
+            "exactModel": true,
+            "sourceExcerpt": "just recently a single WiFi 7 item, the M95/BE95",
+            "independentAuthors": 0,
+            "specificReason": "原討論提及M95新款，但回報故障的型號是其他品牌或舊機；M95提及者未自述持有或使用M95，不計第一人稱災情。",
+            "reviewedAt": "2026-10-20",
+            "outcome": "excluded"
+          },
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/PC_Shopping/M.1752654977.A.166.html",
+            "title": "[開箱] 天鷹展翅D-Link AQUILA PRO AI M95 WiFi7",
+            "exactModel": true,
+            "sourceExcerpt": "本次開箱的 M95 造型相當特別流線型翅膀設計",
+            "independentAuthors": 0,
+            "specificReason": "已改用live HTTP成功讀取PTT原頁200。vostro開箱與Mobile01 vostroRLK相同文稿/照片屬跨站轉貼；推文Kowdan、Pixmi等屬未明型號的過往品牌經驗，沒有M95第一人稱同問題回報，不計獨立災情。",
+            "reviewedAt": "2026-10-20",
+            "outcome": "excluded",
+            "sourceAccess": "http_200_original_page_read",
+            "crossPostKey": "vostro-m95-unboxing-20250716",
+            "previousSourceAccess": "web_open_403"
+          }
+        ],
+        "attestation": "manual_original_pages_reviewed",
+        "status": "completed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-10-20",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"D-Link M95\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22D-Link%20M95%22"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"M95\" \"D-Link\" (problem OR issue OR failure)",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22M95%22%20%22D-Link%22%20%28problem%20OR%20issue%20OR%20failure%29"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"D-Link M95\" (災情 OR 故障 OR 問題)",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22D-Link%20M95%22%20%28%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%95%8F%E9%A1%8C%29"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"D-Link M95\"",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22D-Link%20M95%22",
+          "targetHost": "mobile01.com",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 5,
+          "candidates": [
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7167953",
+              "title": "超美型Wi-Fi 7無線路由器，D-Link M95 AQUILA PRO AI開箱試用",
+              "platform": "Mobile01"
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7145232",
+              "title": "天鷹展翅全新設計 MIT 台灣製 D-Link AQUILA PRO AI M95 BE9500 Wi-Fi 7 開箱",
+              "platform": "Mobile01"
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7148538",
+              "title": "請教 WiFi7路由器選擇",
+              "platform": "Mobile01"
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7148538&p=2",
+              "title": "請教 WiFi7路由器選擇（第2頁）",
+              "platform": "Mobile01"
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7148538&p=3",
+              "title": "請教 WiFi7路由器選擇（第3頁）",
+              "platform": "Mobile01"
+            }
+          ],
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=110&t=7167953",
+            "https://www.mobile01.com/topicdetail.php?f=110&t=7145232",
+            "https://www.mobile01.com/topicdetail.php?f=110&t=7148538",
+            "https://www.mobile01.com/topicdetail.php?f=110&t=7148538&p=2",
+            "https://www.mobile01.com/topicdetail.php?f=110&t=7148538&p=3"
+          ],
+          "inspectedAt": "2026-10-20T07:05:59.255429+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"M95\" \"D-Link\" (problem OR issue OR failure)",
+          "searchUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22M95%22%20%22D-Link%22%20%28problem%20OR%20issue%20OR%20failure%29",
+          "targetHost": "reddit.com",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidates": [
+            {
+              "url": "https://www.reddit.com/r/HomeNetworking/comments/1ia3af9/why_do_tplink_get_a_hard_time_from_peopleand/",
+              "title": "Why do TP-Link get a hard time from people,and routers made by Asus are often praised....",
+              "platform": "Reddit"
+            }
+          ],
+          "candidateUrls": [
+            "https://www.reddit.com/r/HomeNetworking/comments/1ia3af9/why_do_tplink_get_a_hard_time_from_peopleand/"
+          ],
+          "inspectedAt": "2026-10-20T07:05:59.255429+08:00"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"D-Link M95\" (災情 OR 故障 OR 問題)",
+          "searchUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22D-Link%20M95%22%20%28%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%95%8F%E9%A1%8C%29",
+          "targetHost": "ptt.cc",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 2,
+          "candidates": [
+            {
+              "url": "https://www.ptt.cc/bbs/digitalk/M.1754326602.A.54A.html",
+              "title": "[分享] 氣氛輕鬆愉快的D-Link Wi-Fi 7產品體驗會",
+              "platform": "PTT"
+            },
+            {
+              "url": "https://www.ptt.cc/bbs/PC_Shopping/M.1752654977.A.166.html",
+              "title": "[開箱] 天鷹展翅D-Link AQUILA PRO AI M95 WiFi7",
+              "platform": "PTT"
+            }
+          ],
+          "candidateUrls": [
+            "https://www.ptt.cc/bbs/digitalk/M.1754326602.A.54A.html",
+            "https://www.ptt.cc/bbs/PC_Shopping/M.1752654977.A.166.html"
+          ],
+          "inspectedAt": "2026-10-20T07:05:59.255429+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7167953",
+          "title": "超美型Wi-Fi 7無線路由器，D-Link M95 AQUILA PRO AI開箱試用",
+          "exactModel": true,
+          "sourceExcerpt": "一直斷線異常真的很消耗精神；我自己手上就有一台R95跟M95",
+          "independentAuthors": 2,
+          "specificReason": "M95原頁第3樓新手村一哥(文章92336993)有斷線、Mesh及APP異常；第4樓q550530(92630970)有熱與收訊回報。兩人問題不完全相同，單一原始網站不足六人／兩站；不否認這些負評。",
+          "reviewedAt": "2026-10-20",
+          "outcome": "excluded",
+          "authorObservations": [
+            {
+              "author": "新手村一哥",
+              "locator": "第3樓／文章92336993",
+              "observation": "M95主機搭M30延伸出現連線及設定不穩，逐步敘述自行使用，exact M95第一人稱成立；同帳號下方追留言不另計。"
+            },
+            {
+              "author": "q550530",
+              "locator": "第4樓／文章92630970",
+              "observation": "自述同時持有R95與M95，對M95內藏天線配置、機身熱與擺位有負評；與斷線不是可直接合併的同一問題。"
+            }
+          ],
+          "reason": "M95原頁第3樓新手村一哥(文章92336993)有斷線、Mesh及APP異常；第4樓q550530(92630970)有熱與收訊回報。兩人問題不完全相同，單一原始網站不足六人／兩站；不否認這些負評。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7145232",
+          "title": "天鷹展翅全新設計 MIT 台灣製 D-Link AQUILA PRO AI M95 BE9500 Wi-Fi 7 開箱",
+          "exactModel": true,
+          "sourceExcerpt": "這次看到 M95 也就順勢入手；M95 就整機斷網了一陣子",
+          "independentAuthors": 1,
+          "specificReason": "TiiRX第6及第8樓(92046975/92049322)為同一作者，僅計一名M95第一人稱斷網回報；kobebeef屬品牌泛論、引述不另計。與另一Mobile01串仍同一網站，未達六人跨兩站。",
+          "reviewedAt": "2026-10-20",
+          "outcome": "excluded",
+          "authorObservations": [
+            {
+              "author": "TiiRX",
+              "locator": "第8樓／文章92049322；同帳號第6樓去重",
+              "observation": "明示購入M95並在家發生整機斷網；有細節但仍僅一人，舊D-Link其他型號與一般品牌評論不計。"
+            }
+          ],
+          "reason": "TiiRX第6及第8樓(92046975/92049322)為同一作者，僅計一名M95第一人稱斷網回報；kobebeef屬品牌泛論、引述不另計。與另一Mobile01串仍同一網站，未達六人跨兩站。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7148538",
+          "title": "請教 WiFi7路由器選擇",
+          "exactModel": true,
+          "sourceExcerpt": "D-Link M95/R95 BE9500（這兩個差別是什麼？",
+          "independentAuthors": 0,
+          "specificReason": "原頁1至3頁為採購諮詢與品牌推薦。第2頁的斷線抱怨明確回覆ASUS ROG GS-BE18000，不是M95；不能轉移為M95災情。",
+          "reviewedAt": "2026-10-20",
+          "outcome": "excluded",
+          "reason": "原頁1至3頁為採購諮詢與品牌推薦。第2頁的斷線抱怨明確回覆ASUS ROG GS-BE18000，不是M95；不能轉移為M95災情。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7148538&p=2",
+          "title": "請教 WiFi7路由器選擇（第2頁）",
+          "exactModel": false,
+          "sourceExcerpt": "ASUS 華碩ROG STRIX GS-BE18000 WiFi 7 AiMesh 三頻電競路由器",
+          "independentAuthors": 0,
+          "specificReason": "回覆tp6an6與rick673537負評的引用父文為ASUS GS-BE18000，並非本次D-Link M95；型號邊界排除，勿套用其他路由器故障。",
+          "reviewedAt": "2026-10-20",
+          "outcome": "excluded",
+          "reason": "回覆tp6an6與rick673537負評的引用父文為ASUS GS-BE18000，並非本次D-Link M95；型號邊界排除，勿套用其他路由器故障。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7148538&p=3",
+          "title": "請教 WiFi7路由器選擇（第3頁）",
+          "exactModel": true,
+          "sourceExcerpt": "請教 WiFi7路由器選擇（第3頁）",
+          "independentAuthors": 0,
+          "specificReason": "已讀該串第3頁，主要為延續選購與其他型號討論；沒有足以新增M95同問題獨立第一人稱回報的內容。",
+          "reviewedAt": "2026-10-20",
+          "outcome": "excluded",
+          "reason": "已讀該串第3頁，主要為延續選購與其他型號討論；沒有足以新增M95同問題獨立第一人稱回報的內容。"
+        },
+        {
+          "platform": "PTT",
+          "url": "https://www.ptt.cc/bbs/digitalk/M.1754326602.A.54A.html",
+          "title": "[分享] 氣氛輕鬆愉快的D-Link Wi-Fi 7產品體驗會",
+          "exactModel": true,
+          "sourceExcerpt": "現場上陣的D-Link R95實力應該是無法百分之百發揮",
+          "independentAuthors": 0,
+          "specificReason": "hardaway活動體驗文有M95展示，但當日網路測試為R95與場地網路，非M95居家故障。其原始Blog跨站轉貼不另計作者。",
+          "reviewedAt": "2026-10-20",
+          "outcome": "excluded",
+          "reason": "hardaway活動體驗文有M95展示，但當日網路測試為R95與場地網路，非M95居家故障。其原始Blog跨站轉貼不另計作者。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/HomeNetworking/comments/1ia3af9/why_do_tplink_get_a_hard_time_from_peopleand/",
+          "title": "Why do TP-Link get a hard time from people,and routers made by Asus are often praised....",
+          "exactModel": true,
+          "sourceExcerpt": "just recently a single WiFi 7 item, the M95/BE95",
+          "independentAuthors": 0,
+          "specificReason": "原討論提及M95新款，但回報故障的型號是其他品牌或舊機；M95提及者未自述持有或使用M95，不計第一人稱災情。",
+          "reviewedAt": "2026-10-20",
+          "outcome": "excluded",
+          "reason": "原討論提及M95新款，但回報故障的型號是其他品牌或舊機；M95提及者未自述持有或使用M95，不計第一人稱災情。"
+        },
+        {
+          "platform": "PTT",
+          "url": "https://www.ptt.cc/bbs/PC_Shopping/M.1752654977.A.166.html",
+          "title": "[開箱] 天鷹展翅D-Link AQUILA PRO AI M95 WiFi7",
+          "exactModel": true,
+          "sourceExcerpt": "本次開箱的 M95 造型相當特別流線型翅膀設計",
+          "independentAuthors": 0,
+          "specificReason": "已改用live HTTP成功讀取PTT原頁200。vostro開箱與Mobile01 vostroRLK相同文稿/照片屬跨站轉貼；推文Kowdan、Pixmi等屬未明型號的過往品牌經驗，沒有M95第一人稱同問題回報，不計獨立災情。",
+          "reviewedAt": "2026-10-20",
+          "outcome": "excluded",
+          "sourceAccess": "http_200_original_page_read",
+          "crossPostKey": "vostro-m95-unboxing-20250716",
+          "previousSourceAccess": "web_open_403",
+          "reason": "已改用live HTTP成功讀取PTT原頁200。vostro開箱與Mobile01 vostroRLK相同文稿/照片屬跨站轉貼；推文Kowdan、Pixmi等屬未明型號的過往品牌經驗，沒有M95第一人稱同問題回報，不計獨立災情。"
+        }
+      ],
+      "reports": []
+    },
+    {
+      "id": "refrigerator-hitachi-hrbn5366df1",
+      "category": "refrigerator",
+      "brand": "HITACHI",
+      "model": "HRBN5366DF1",
+      "name": "HITACHI HRBN5366DF1 330L 雙門下冷凍琉璃變頻冰箱（漸層琉璃黑）",
+      "identity": {
+        "canonicalModel": "HRBN5366DF1",
+        "lookupLabel": "HITACHI HRBN5366DF1",
+        "aliases": [
+          "HITACHI HRBN5366DF1",
+          "HRBN5366DF1XGRTW"
+        ],
+        "evidenceUrl": "https://hitachi-homeappliances.com.tw/products/products_03.php?pid=HRBN5366DF1"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "id": "refrigerator-hitachi-hrbn5366df1",
+        "category": "refrigerator",
+        "brand": "HITACHI",
+        "model": "HRBN5366DF1",
+        "reviewedAt": "2026-10-20",
+        "reviewBatch": "refrigerator",
+        "decision": "no_common_issue",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT",
+          "Dcard"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "\"HRBN5366DF1\" site:mobile01.com/topicdetail.php",
+            "queryUrl": "https://www.google.com/search?q=%22HRBN5366DF1%22%20site%3Amobile01.com%2Ftopicdetail.php"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "\"HRBN5366DF1\" site:ptt.cc/bbs/",
+            "queryUrl": "https://www.google.com/search?q=%22HRBN5366DF1%22%20site%3Aptt.cc%2Fbbs%2F"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "\"HRBN5366DF1\" site:dcard.tw/f/",
+            "queryUrl": "https://www.google.com/search?q=%22HRBN5366DF1%22%20site%3Adcard.tw%2Ff%2F"
+          }
+        ],
+        "candidateDisposition": "已逐一人工檢視 HRBN5366DF1 在 Mobile01、PTT、Dcard 三個原始網站的 exact-model 搜尋回應，三站查詢皆無結果，沒有可回到原頁核對的此型號第一人稱候選。未把舊 HRBN5366DF／DFL、搜尋推薦或通路無評論算作新款使用者負評；此結論僅截至查核日未達六名跨兩站門檻，不宣稱完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "已逐一人工檢視 HRBN5366DF1 在 Mobile01、PTT、Dcard 三個原始網站的 exact-model 搜尋回應，三站查詢皆無結果，沒有可回到原頁核對的此型號第一人稱候選。未把舊 HRBN5366DF／DFL、搜尋推薦或通路無評論算作新款使用者負評；此結論僅截至查核日未達六名跨兩站門檻，不宣稱完全沒有負評。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-10-20",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "\"HRBN5366DF1\" site:mobile01.com/topicdetail.php",
+            "queryUrl": "https://www.google.com/search?q=%22HRBN5366DF1%22%20site%3Amobile01.com%2Ftopicdetail.php"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "\"HRBN5366DF1\" site:ptt.cc/bbs/",
+            "queryUrl": "https://www.google.com/search?q=%22HRBN5366DF1%22%20site%3Aptt.cc%2Fbbs%2F"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "\"HRBN5366DF1\" site:dcard.tw/f/",
+            "queryUrl": "https://www.google.com/search?q=%22HRBN5366DF1%22%20site%3Adcard.tw%2Ff%2F"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "人工跨站搜尋：Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"HRBN5366DF1\" site:mobile01.com/topicdetail.php",
+          "searchUrl": "https://www.google.com/search?q=%22HRBN5366DF1%22%20site%3Amobile01.com%2Ftopicdetail.php",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-10-19T23:04:50.562Z"
+        },
+        {
+          "platform": "人工跨站搜尋：PTT",
+          "targetHost": "ptt.cc",
+          "query": "\"HRBN5366DF1\" site:ptt.cc/bbs/",
+          "searchUrl": "https://www.google.com/search?q=%22HRBN5366DF1%22%20site%3Aptt.cc%2Fbbs%2F",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-10-19T23:04:50.563Z"
+        },
+        {
+          "platform": "人工跨站搜尋：Dcard",
+          "targetHost": "dcard.tw",
+          "query": "\"HRBN5366DF1\" site:dcard.tw/f/",
+          "searchUrl": "https://www.google.com/search?q=%22HRBN5366DF1%22%20site%3Adcard.tw%2Ff%2F",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-10-19T23:04:50.563Z"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [],
+      "reports": []
     }
   ]
 }

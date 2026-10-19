@@ -225,6 +225,10 @@ function isExplicitlyUnavailable(listing) {
   return text !== "" && EXPLICIT_UNAVAILABLE_LISTING_PATTERNS.some((pattern) => pattern.test(text));
 }
 
+function isPreorderListing(title) {
+  return /^[\s\p{P}\p{S}]*(?:(?:新品\s*)?預購|pre[\s-]?order\b)/iu.test(String(title || ""));
+}
+
 function isExplicitlyDiscontinued(statement) {
   const text = foldIdentity(statement).replace(/\s+/g, " ").trim();
   if (!text) return false;
@@ -244,6 +248,7 @@ module.exports = {
   isExcludedListing,
   isExplicitlyDiscontinued,
   isExplicitlyUnavailable,
+  isPreorderListing,
   isReviewedPchomeBinding,
   normalizeIdentity,
   tokenizedIdentity,

@@ -753,10 +753,11 @@
       "currency": "TWD",
       "amount": 7990,
       "converted": 7990,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價",
+      "note": "2026-10-20 原Yahoo頁明示預購；保留最後參考價，不將預購價當已確認現貨，實際交期向通路確認。"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心",
+    "buyLabel": "Yahoo購物（預購；保留參考價）",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SAMPO-%E8%81%B2%E5%AF%B610%E5%85%AC%E6%96%A4%E7%AA%84%E8%BA%AB%E8%AE%8A%E9%A0%BB%E5%96%AE%E6%A7%BD%E7%9B%B4%E7%AB%8B%E5%BC%8F%E6%B4%97%E8%A1%A3%E6%A9%9F-%E9%A6%99%E6%AA%B3%E9%87%91-%E5%90%AB%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-%E8%88%8A%E6%A9%9F%E5%9B%9E%E6%94%B6-10764299.html",
     "specs": [
       "洗衣機：SAMPO 聲寶10公斤窄身變頻單槽直立式洗衣機WM-MD10 香檳金含基本安裝+舊機回收",
@@ -1481,11 +1482,12 @@
       "currency": "TWD",
       "amount": 8690,
       "converted": 8690,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價",
+      "note": "2026-10-20 原Yahoo頁已變成另一型號WM-C13F，改連同型號ES-B13F的PChome產品頁；API顯示Qty 0，保留NT$8690參考價，現貨待確認。"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/SAMPO%E8%81%B2%E5%AF%B6-12-5KG-%E5%AE%9A%E9%A0%BB%E7%9B%B4%E7%AB%8B%E5%BC%8F%E6%B4%97%E8%A1%A3%E6%A9%9F-E-9577871.html",
+    "buyLabel": "PChome（暫無庫存；參考資料）",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1O-A9009NXEU",
     "specs": [
       "洗衣機：SAMPO聲寶 12.5公斤定頻直立式洗衣機ES-B13F珍珠白 含基本安裝+舊機回收",
       "容量：12.5kg",
