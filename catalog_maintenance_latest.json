@@ -1,8 +1,8 @@
 {
   "schemaVersion": 3,
   "dataDate": "2026-10-20",
-  "checkedAt": "2026-10-19T23:13:09.900Z",
-  "baselineRef": "fd76e00b04f95a9e38f74890cdd51add3bc22033",
+  "checkedAt": "2026-10-20T01:49:37.935Z",
+  "baselineRef": "f2845d48639f99e8bc9f0f233dcb6ddb20381385",
   "policy": {
     "exactModelOrReviewedSourceBindingOnly": true,
     "trustedNewProductsOnly": true,
@@ -23,25 +23,41 @@
     ]
   },
   "summary": {
-    "baselineProducts": 1156,
-    "finalProducts": 1159,
+    "baselineProducts": 1159,
+    "finalProducts": 1178,
     "categories": 37,
     "minimumProductsPerCategory": 20,
     "newProductsAdded": [
-      "refrigerator-hitachi-hrbn5366df1",
-      "tv-tcl-75x11l",
-      "wifi-dlink-m95"
+      "refrigerator-panasonic-nr-b427tvs-b",
+      "refrigerator-panasonic-nr-b497tvs-b",
+      "refrigerator-panasonic-nr-b587tvs-b",
+      "refrigerator-panasonic-nr-b657tvs-b",
+      "refrigerator-panasonic-nr-c387hvls-c",
+      "refrigerator-panasonic-nr-c387hvs-c",
+      "refrigerator-panasonic-nr-c457hgs-w",
+      "refrigerator-panasonic-nr-c457hvs-b",
+      "refrigerator-panasonic-nr-c497tvs-b",
+      "refrigerator-panasonic-nr-c507xgs-w",
+      "refrigerator-panasonic-nr-c507xvs-b",
+      "refrigerator-panasonic-nr-c587tvs-w",
+      "refrigerator-panasonic-nr-c617xgs-b",
+      "refrigerator-panasonic-nr-c617xvs-c",
+      "refrigerator-panasonic-nr-d507xvs-b",
+      "refrigerator-panasonic-nr-d617xgs-b",
+      "refrigerator-panasonic-nr-d617xvs-b",
+      "refrigerator-panasonic-nr-f603wx-x1",
+      "refrigerator-panasonic-nr-f653wx-w1"
     ],
     "catalogEntriesReplaced": [],
-    "priceChanges": 30,
-    "priceDrops": 26,
-    "priceRises": 4,
-    "linkChanges": 4,
+    "priceChanges": 0,
+    "priceDrops": 0,
+    "priceRises": 0,
+    "linkChanges": 0,
     "imageChanges": 0,
     "historicalLowChanges": 0,
     "historicalLowPriceChanges": 0,
     "historicalFound": 510,
-    "historicalMissing": 649,
+    "historicalMissing": 668,
     "pchomeAudited": 509,
     "pchomeExactModelVerified": 256,
     "pchomeReviewedBindingVerified": 58,
@@ -50,18 +66,18 @@
     "pchomeInvalidPrices": 0,
     "pchomeRequestFailures": 0,
     "pchomeOtherExceptions": 78,
-    "sourcesAudited": 1159,
-    "sourcesVerifiedAvailable": 808,
+    "sourcesAudited": 1178,
+    "sourcesVerifiedAvailable": 827,
     "sourcesModelUnverified": 169,
     "sourceExceptions": 351,
-    "imagesAudited": 1159,
+    "imagesAudited": 1178,
     "imageExceptions": 0,
     "historicalSourcesAudited": 510,
     "historicalSourcesVerified": 83,
     "historicalSourcesBlocked": 403,
     "historicalSourcesModelUnverified": 24,
     "historicalSourceExceptions": 427,
-    "foreignPricesRecomputed": 39,
+    "foreignPricesRecomputed": 0,
     "officialDiscontinuedCandidates": 0,
     "officialDiscontinuedPendingReview": 0,
     "officialDiscontinuedFalsePositives": 0,
@@ -35618,594 +35634,11 @@
     }
   ],
   "changes": {
-    "prices": [
-      {
-        "id": "ap-philips-ac2936",
-        "before": 7439,
-        "after": 7359,
-        "currency": "TWD",
-        "basis": "not_stated",
-        "source": "https://24h.pchome.com.tw/prod/DMAC2O-A900GH5RL"
-      },
-      {
-        "id": "chair-razer-enki",
-        "before": 13410,
-        "after": 14900,
-        "currency": "TWD",
-        "basis": "not_stated",
-        "source": "https://24h.pchome.com.tw/prod/DCAKFO-A900BWWGS"
-      },
-      {
-        "id": "chair-razer-fujin",
-        "before": 11691,
-        "after": 12990,
-        "currency": "TWD",
-        "basis": "not_stated",
-        "source": "https://24h.pchome.com.tw/prod/DCBT0K-A900GSDTK"
-      },
-      {
-        "id": "cookware-tefal-4",
-        "before": 1099,
-        "after": 990,
-        "currency": "TWD",
-        "basis": "retailer_current",
-        "source": "https://tw.buy.yahoo.com/gdsale/Tefal%E6%B3%95%E5%9C%8B%E7%89%B9%E7%A6%8F-%E9%A5%97%E6%A8%82%E7%B3%BB%E5%88%97%E4%B8%8D%E6%B2%BE%E9%8D%8B%E5%85%B74%E4%BB%B6%E7%B5%84-28cm%E7%82%92%E9%8D%8B-16cm%E6%B9%AF%E9%8D%8B-16cm%E9%8D%8B%E8%93%8B-%E9%8D%8B%E9%8F%9F-10238240.html"
-      },
-      {
-        "id": "dehumidifier-extra-10-dmbq07-a900hq3l5",
-        "before": 14111,
-        "after": 14900,
-        "currency": "TWD",
-        "basis": "not_stated",
-        "source": "https://24h.pchome.com.tw/prod/DMBQ07-A900HQ3L5"
-      },
-      {
-        "id": "dehumidifier-extra-18-dmbq3pa900j9fh9",
-        "before": 5571,
-        "after": 5261,
-        "currency": "TWD",
-        "basis": "not_stated",
-        "source": "https://24h.pchome.com.tw/prod/DMBQ3P-A900J9FH9"
-      },
-      {
-        "id": "dehumidifier-extra-9-dmbq00-a900jb38a",
-        "before": 8811,
-        "after": 8321,
-        "currency": "TWD",
-        "basis": "not_stated",
-        "source": "https://24h.pchome.com.tw/prod/DMBQ00-A900JB38A"
-      },
-      {
-        "id": "dh-panasonic-yv32nn",
-        "before": 15840,
-        "after": 14960,
-        "currency": "TWD",
-        "basis": "not_stated",
-        "source": "https://24h.pchome.com.tw/prod/DMBQ3P-A900J0L88"
-      },
-      {
-        "id": "monitor-msi-271qrx",
-        "before": 18900,
-        "after": 17955,
-        "currency": "TWD",
-        "basis": "not_stated",
-        "source": "https://tw.buy.yahoo.com/gdsale/MSI%E5%BE%AE%E6%98%9F-MPG-271QRX-QD-OLED-27%E5%9E%8B-2K-360Hz-HDR%E9%9B%BB%E7%AB%B6%E8%9E%A2%E5%B9%95-10958143.html"
-      },
-      {
-        "id": "purifier-extra-15-dmac2o-a900gd1zv",
-        "before": 4640,
-        "after": 4590,
-        "currency": "TWD",
-        "basis": "not_stated",
-        "source": "https://24h.pchome.com.tw/prod/DMAC2O-A900GD1ZV"
-      },
-      {
-        "id": "purifier-extra-19-dmac2oa900j7sbo",
-        "before": 10220,
-        "after": 10110,
-        "currency": "TWD",
-        "basis": "not_stated",
-        "source": "https://24h.pchome.com.tw/prod/DMAC2O-A900J7SBO"
-      },
-      {
-        "id": "purifier-philips-ac0921-84",
-        "before": 7430,
-        "after": 7350,
-        "currency": "TWD",
-        "basis": "not_stated",
-        "source": "https://24h.pchome.com.tw/prod/DMAUFV-A900JZR3M"
-      },
-      {
-        "id": "robot-xiaomi-vacuum-6-max",
-        "before": 23999,
-        "after": 23280,
-        "currency": "TWD",
-        "basis": "not_stated",
-        "source": "https://tw.buy.yahoo.com/gdsale/%E5%B0%8F%E7%B1%B3-Xiaomi-%E6%8E%83%E6%8B%96%E6%A9%9F%E5%99%A8%E4%BA%BA-6-Max-%E5%AE%98%E6%96%B9%E6%97%97%E8%89%A6%E9%A4%A8-12134974.html"
-      },
-      {
-        "id": "soundbar-costco-soodatek-ss0220",
-        "before": 633,
-        "after": 602,
-        "currency": "TWD",
-        "basis": "not_stated",
-        "source": "https://tw.buy.yahoo.com/gdsale/Soodatek-2-0%E8%81%B2%E9%81%93%E4%BA%8C%E5%90%88%E4%B8%80Soundbar-SS0220-CS2000PBK-11633433.html"
-      },
-      {
-        "id": "soundbar-extra-10-dmaaod-a900k5489",
-        "before": 36900,
-        "after": 35055,
-        "currency": "TWD",
-        "basis": "not_stated",
-        "source": "https://tw.buy.yahoo.com/gdsale/Samsung%E4%B8%89%E6%98%9F-7-1-2%E8%81%B2%E9%81%93-%E8%97%8D%E7%89%99%E8%81%B2%E9%9C%B8-HW-QS90H-ZW-12124562.html"
-      },
-      {
-        "id": "soundbar-extra-14-dmaahg-a900j56ok",
-        "before": 28590,
-        "after": 27161,
-        "currency": "TWD",
-        "basis": "not_stated",
-        "source": "https://tw.buy.yahoo.com/gdsale/JBL-BAR800-MK2-7-1%E8%81%B2%E9%81%93%E5%AE%B6%E5%BA%AD%E5%8A%87%E9%99%A2%E5%96%87%E5%8F%AD-%E8%8B%B1%E5%A4%A7%E5%85%AC%E5%8F%B8%E8%B2%A8%E4%B8%80%E5%B9%B4%E4%BF%9D%E5%9B%BA-12156647.html"
-      },
-      {
-        "id": "soundbar-extra-17-dmbm1da900hpuxn",
-        "before": 27054,
-        "after": 25110,
-        "currency": "TWD",
-        "basis": "not_stated",
-        "source": "https://24h.pchome.com.tw/prod/DMBM1D-A900HTC64"
-      },
-      {
-        "id": "soundbar-extra-9-dpado2-a900k5vut",
-        "before": 59900,
-        "after": 56905,
-        "currency": "TWD",
-        "basis": "not_stated",
-        "source": "https://tw.buy.yahoo.com/gdsale/Samsung%E4%B8%89%E6%98%9F-11-1-4%E8%81%B2%E9%81%93-%E8%97%8D%E7%89%99%E8%81%B2%E9%9C%B8-HW-Q990H-ZW-12124621.html"
-      },
-      {
-        "id": "soundbar-samsung-q990f",
-        "before": 44900,
-        "after": 42655,
-        "currency": "TWD",
-        "basis": "not_stated",
-        "source": "https://tw.buy.yahoo.com/gdsale/Samsung-%E4%B8%89%E6%98%9F-11-1-4%E8%81%B2%E9%81%93-%E8%97%8D%E7%89%99%E8%81%B2%E9%9C%B8-HW-Q990F-ZW-11688500.html"
-      },
-      {
-        "id": "soundbar-sony-ht-a7100",
-        "before": 21755,
-        "after": 20610,
-        "currency": "TWD",
-        "basis": "not_stated",
-        "source": "https://24h.pchome.com.tw/prod/DMAAN8-A900K0Y8L"
-      },
-      {
-        "id": "tv-extra-18-dpadtoa900jne73",
-        "before": 15990,
-        "after": 14391,
-        "currency": "TWD",
-        "basis": "not_stated",
-        "source": "https://24h.pchome.com.tw/prod/DPADTO-A900JNMOP"
-      },
-      {
-        "id": "tv-extra-6-dpad06-a900hlbjo",
-        "before": 93900,
-        "after": 84510,
-        "currency": "TWD",
-        "basis": "not_stated",
-        "source": "https://24h.pchome.com.tw/prod/DPAD06-A900HLBJO"
-      },
-      {
-        "id": "tv-samsung-s90f-65",
-        "before": 46900,
-        "after": 50900,
-        "currency": "TWD",
-        "basis": "not_stated",
-        "source": "https://24h.pchome.com.tw/prod/DPADEW-A900IUE7F"
-      },
-      {
-        "id": "waterdispenser-brita-mypure-gr1000",
-        "before": 17800,
-        "after": 16020,
-        "currency": "TWD",
-        "basis": "not_stated",
-        "source": "https://24h.pchome.com.tw/prod/DMCI24-A900K16I2"
-      },
-      {
-        "id": "waterdispenser-buder-bd-3006bf-ro",
-        "before": 49680,
-        "after": 44712,
-        "currency": "TWD",
-        "basis": "retailer_current",
-        "source": "https://24h.pchome.com.tw/prod/DMAWFH-A900F2DDI"
-      },
-      {
-        "id": "waterdispenser-extra-16-dsbe1fa900gsoln",
-        "before": 34000,
-        "after": 30600,
-        "currency": "TWD",
-        "basis": "not_stated",
-        "source": "https://24h.pchome.com.tw/prod/DMCI17-A900I6OFW"
-      },
-      {
-        "id": "waterdispenser-extra-18-dmci0oa900jt66n",
-        "before": 36810,
-        "after": 33129,
-        "currency": "TWD",
-        "basis": "not_stated",
-        "source": "https://24h.pchome.com.tw/prod/DMCI0O-A900JI1JA"
-      },
-      {
-        "id": "waterdispenser-ge-usb10b",
-        "before": 28800,
-        "after": 25920,
-        "currency": "TWD",
-        "basis": "not_stated",
-        "source": "https://24h.pchome.com.tw/prod/DMAWHT-A900JVB6I"
-      },
-      {
-        "id": "waterdispenser-sakura-p0563",
-        "before": 27800,
-        "after": 25020,
-        "currency": "TWD",
-        "basis": "not_stated",
-        "source": "https://24h.pchome.com.tw/prod/DMAWFM-A900H55UK"
-      },
-      {
-        "id": "wifi-tplink-archer-be220",
-        "before": 2299,
-        "after": 2099,
-        "currency": "TWD",
-        "basis": "not_stated",
-        "source": "https://24h.pchome.com.tw/prod/DRAN09-A900IK1F1"
-      }
-    ],
-    "links": [
-      {
-        "id": "purifier-extra-12-dmau3c-a900i7ork",
-        "beforeUrl": "https://tw.buy.yahoo.com/gdsale/Dyson-Purifier-Hot-Cool-De-NOx-%E7%94%B2%E9%86%9BNOx-%E5%81%B5%E6%B8%AC%E6%B6%BC%E6%9A%96%E7%A9%BA%E6%B0%A3%E6%B8%85%E6%B7%A8%E6%A9%9F-HP1-12000848.html",
-        "afterUrl": "https://tw.buy.yahoo.com/gdsale/Dyson-Purifier-Hot-Cool-De-NOx-%E7%94%B2%E9%86%9BNOx-%E5%81%B5%E6%B8%AC%E6%B6%BC%E6%9A%96%E7%A9%BA%E6%B0%A3%E6%B8%85%E6%B7%A8%E6%A9%9F-HP1-12000848.html",
-        "beforeLabel": "Yahoo購物中心",
-        "afterLabel": "Yahoo購物（預購；保留參考價）"
-      },
-      {
-        "id": "purifier-extra-14-dmau3c-a900htkrg",
-        "beforeUrl": "https://tw.buy.yahoo.com/gdsale/Dyson-%E6%88%B4%E6%A3%AE-Purifier-Cool-%E7%94%B2%E9%86%9BNOx-%E5%81%B5%E6%B8%AC%E6%B6%BC%E9%A2%A8%E7%A9%BA%E6%B0%A3%E6%B8%85%E6%B7%A8%E6%A9%9FTP12-%E4%BA%8C%E8%89%B2%E5%8F%AF%E9%81%B8-11903396.html",
-        "afterUrl": "https://tw.buy.yahoo.com/gdsale/Dyson-%E6%88%B4%E6%A3%AE-Purifier-Cool-%E7%94%B2%E9%86%9BNOx-%E5%81%B5%E6%B8%AC%E6%B6%BC%E9%A2%A8%E7%A9%BA%E6%B0%A3%E6%B8%85%E6%B7%A8%E6%A9%9FTP12-%E4%BA%8C%E8%89%B2%E5%8F%AF%E9%81%B8-11903396.html",
-        "beforeLabel": "Yahoo購物中心",
-        "afterLabel": "Yahoo購物（預購；保留參考價）"
-      },
-      {
-        "id": "washer-sampo-es-b13f",
-        "beforeUrl": "https://tw.buy.yahoo.com/gdsale/SAMPO%E8%81%B2%E5%AF%B6-12-5KG-%E5%AE%9A%E9%A0%BB%E7%9B%B4%E7%AB%8B%E5%BC%8F%E6%B4%97%E8%A1%A3%E6%A9%9F-E-9577871.html",
-        "afterUrl": "https://24h.pchome.com.tw/prod/DPAI1O-A9009NXEU",
-        "beforeLabel": "Yahoo購物中心",
-        "afterLabel": "PChome（暫無庫存；參考資料）"
-      },
-      {
-        "id": "washer-sampo-wm-md10",
-        "beforeUrl": "https://tw.buy.yahoo.com/gdsale/SAMPO-%E8%81%B2%E5%AF%B610%E5%85%AC%E6%96%A4%E7%AA%84%E8%BA%AB%E8%AE%8A%E9%A0%BB%E5%96%AE%E6%A7%BD%E7%9B%B4%E7%AB%8B%E5%BC%8F%E6%B4%97%E8%A1%A3%E6%A9%9F-%E9%A6%99%E6%AA%B3%E9%87%91-%E5%90%AB%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-%E8%88%8A%E6%A9%9F%E5%9B%9E%E6%94%B6-10764299.html",
-        "afterUrl": "https://tw.buy.yahoo.com/gdsale/SAMPO-%E8%81%B2%E5%AF%B610%E5%85%AC%E6%96%A4%E7%AA%84%E8%BA%AB%E8%AE%8A%E9%A0%BB%E5%96%AE%E6%A7%BD%E7%9B%B4%E7%AB%8B%E5%BC%8F%E6%B4%97%E8%A1%A3%E6%A9%9F-%E9%A6%99%E6%AA%B3%E9%87%91-%E5%90%AB%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-%E8%88%8A%E6%A9%9F%E5%9B%9E%E6%94%B6-10764299.html",
-        "beforeLabel": "Yahoo購物中心",
-        "afterLabel": "Yahoo購物（預購；保留參考價）"
-      }
-    ],
+    "prices": [],
+    "links": [],
     "images": [],
     "historicalLows": [],
-    "foreignConversions": [
-      {
-        "id": "bidet-costco-us-brondell-cl1700",
-        "currency": "USD",
-        "amount": 383.99,
-        "before": 12459,
-        "after": 12459,
-        "rate": 32.446228
-      },
-      {
-        "id": "blender-ninja-bn701",
-        "currency": "USD",
-        "amount": 99.98,
-        "before": 3244,
-        "after": 3244,
-        "rate": 32.446228
-      },
-      {
-        "id": "garmentcare-lg-sc5gmr80h",
-        "currency": "USD",
-        "amount": 2199,
-        "before": 71349,
-        "after": 71349,
-        "rate": 32.446228
-      },
-      {
-        "id": "garmentcare-lg-sc5mar4g",
-        "currency": "USD",
-        "amount": 1799,
-        "before": 58371,
-        "after": 58371,
-        "rate": 32.446228
-      },
-      {
-        "id": "garmentcare-lg-s3mfbn",
-        "currency": "USD",
-        "amount": 1699,
-        "before": 55126,
-        "after": 55126,
-        "rate": 32.446228
-      },
-      {
-        "id": "garmentcare-lg-s3wfbn",
-        "currency": "USD",
-        "amount": 1499,
-        "before": 48637,
-        "after": 48637,
-        "rate": 32.446228
-      },
-      {
-        "id": "garmentcare-lg-s3rfbn",
-        "currency": "USD",
-        "amount": 1499,
-        "before": 48637,
-        "after": 48637,
-        "rate": 32.446228
-      },
-      {
-        "id": "garmentcare-samsung-df90h24r5c",
-        "currency": "KRW",
-        "amount": 2443730,
-        "before": 59456,
-        "after": 59456,
-        "rate": 0.02432982344690451
-      },
-      {
-        "id": "garmentcare-samsung-df90h24r4d",
-        "currency": "KRW",
-        "amount": 2172430,
-        "before": 52855,
-        "after": 52855,
-        "rate": 0.02432982344690451
-      },
-      {
-        "id": "garmentcare-samsung-df90h24r4p",
-        "currency": "KRW",
-        "amount": 2203310,
-        "before": 53606,
-        "after": 53606,
-        "rate": 0.02432982344690451
-      },
-      {
-        "id": "garmentcare-samsung-df90h24r4b",
-        "currency": "KRW",
-        "amount": 2017980,
-        "before": 49097,
-        "after": 49097,
-        "rate": 0.02432982344690451
-      },
-      {
-        "id": "garmentcare-samsung-df80h24r1c",
-        "currency": "KRW",
-        "amount": 2018400,
-        "before": 49107,
-        "after": 49107,
-        "rate": 0.02432982344690451
-      },
-      {
-        "id": "garmentcare-samsung-df80h24r1d",
-        "currency": "KRW",
-        "amount": 1791170,
-        "before": 43579,
-        "after": 43579,
-        "rate": 0.02432982344690451
-      },
-      {
-        "id": "garmentcare-panasonic-hcc-r600al-x",
-        "currency": "JPY",
-        "amount": 328680,
-        "before": 67534,
-        "after": 67534,
-        "rate": 0.20547110109103336
-      },
-      {
-        "id": "monitor-light-yeelight-yltd003",
-        "currency": "USD",
-        "amount": 103.99,
-        "before": 3374,
-        "after": 3374,
-        "rate": 32.446228
-      },
-      {
-        "id": "monitor-light-quntis-f51bk",
-        "currency": "USD",
-        "amount": 79.99,
-        "before": 2595,
-        "after": 2595,
-        "rate": 32.446228
-      },
-      {
-        "id": "monitor-light-quntis-fr52gy",
-        "currency": "USD",
-        "amount": 75.99,
-        "before": 2466,
-        "after": 2466,
-        "rate": 32.446228
-      },
-      {
-        "id": "monitor-light-quntis-f45bk",
-        "currency": "USD",
-        "amount": 72.99,
-        "before": 2368,
-        "after": 2368,
-        "rate": 32.446228
-      },
-      {
-        "id": "monitor-light-quntis-i51gy",
-        "currency": "USD",
-        "amount": 66.99,
-        "before": 2174,
-        "after": 2174,
-        "rate": 32.446228
-      },
-      {
-        "id": "monitor-light-quntis-g66bk",
-        "currency": "USD",
-        "amount": 75.99,
-        "before": 2466,
-        "after": 2466,
-        "rate": 32.446228
-      },
-      {
-        "id": "monitor-light-quntis-i66bk",
-        "currency": "USD",
-        "amount": 75.99,
-        "before": 2466,
-        "after": 2466,
-        "rate": 32.446228
-      },
-      {
-        "id": "monitor-light-quntis-ims45bk",
-        "currency": "USD",
-        "amount": 79.99,
-        "before": 2595,
-        "after": 2595,
-        "rate": 32.446228
-      },
-      {
-        "id": "oven-breville-joule",
-        "currency": "USD",
-        "amount": 499.95,
-        "before": 16221,
-        "after": 16221,
-        "rate": 32.446228
-      },
-      {
-        "id": "oven-ninja-crispi-mw101",
-        "currency": "USD",
-        "amount": 399.99,
-        "before": 12978,
-        "after": 12978,
-        "rate": 32.446228
-      },
-      {
-        "id": "robot-narwal-flow-2",
-        "currency": "EUR",
-        "amount": 1129,
-        "before": 41120,
-        "after": 41120,
-        "rate": 36.421201511795886
-      },
-      {
-        "id": "robot-narwal-freo-z10-ultra",
-        "currency": "USD",
-        "amount": 551.69,
-        "before": 17900,
-        "after": 17900,
-        "rate": 32.446228
-      },
-      {
-        "id": "robot-shark-powerdetect-nevertouch-pro",
-        "currency": "USD",
-        "amount": 999.99,
-        "before": 32446,
-        "after": 32446,
-        "rate": 32.446228
-      },
-      {
-        "id": "robot-costco-us-roborock-qx-revo",
-        "currency": "USD",
-        "amount": 399.99,
-        "before": 12978,
-        "after": 12978,
-        "rate": 32.446228
-      },
-      {
-        "id": "smartlock-lockin-v7-max",
-        "currency": "HKD",
-        "amount": 9638,
-        "before": 39846,
-        "after": 39846,
-        "rate": 4.1342765251679285
-      },
-      {
-        "id": "soundbar-marshall-heston-120",
-        "currency": "USD",
-        "amount": 1299.99,
-        "before": 42180,
-        "after": 42180,
-        "rate": 32.446228
-      },
-      {
-        "id": "soundbar-marshall-heston-60",
-        "currency": "USD",
-        "amount": 549.99,
-        "before": 17845,
-        "after": 17845,
-        "rate": 32.446228
-      },
-      {
-        "id": "soundbar-sonos-beam-ultra",
-        "currency": "USD",
-        "amount": 699,
-        "before": 22680,
-        "after": 22680,
-        "rate": 32.446228
-      },
-      {
-        "id": "vacuum-dreame-aero-ultra-steam",
-        "currency": "USD",
-        "amount": 679.99,
-        "before": 22063,
-        "after": 22063,
-        "rate": 32.446228
-      },
-      {
-        "id": "waterdispenser-costco-us-brondell-circle",
-        "currency": "USD",
-        "amount": 359.99,
-        "before": 11680,
-        "after": 11680,
-        "rate": 32.446228
-      },
-      {
-        "id": "wifi-unifi-u7-pro",
-        "currency": "USD",
-        "amount": 189,
-        "before": 6132,
-        "after": 6132,
-        "rate": 32.446228
-      },
-      {
-        "id": "wifi-unifi-u6-pro",
-        "currency": "USD",
-        "amount": 159,
-        "before": 5159,
-        "after": 5159,
-        "rate": 32.446228
-      },
-      {
-        "id": "wifi-unifi-u7-lite",
-        "currency": "USD",
-        "amount": 99,
-        "before": 3212,
-        "after": 3212,
-        "rate": 32.446228
-      },
-      {
-        "id": "wifi-unifi-u6-plus",
-        "currency": "USD",
-        "amount": 129,
-        "before": 4186,
-        "after": 4186,
-        "rate": 32.446228
-      },
-      {
-        "id": "wifi-unifi-u7-pro-max",
-        "currency": "USD",
-        "amount": 279,
-        "before": 9052,
-        "after": 9052,
-        "rate": 32.446228
-      }
-    ]
+    "foreignConversions": []
   },
   "sourceAudit": {
     "checkedProductIds": [
@@ -37367,7 +36800,26 @@
       "wifi-unifi-u7-pro-xg",
       "wifi-xiaomi-ax3000-1pack",
       "wifi-xiaomi-ax3000-2pack",
-      "wifi-zyxel-usg-lite-60ax"
+      "wifi-zyxel-usg-lite-60ax",
+      "refrigerator-panasonic-nr-c457hgs-w",
+      "refrigerator-panasonic-nr-c457hvs-b",
+      "refrigerator-panasonic-nr-c387hvs-c",
+      "refrigerator-panasonic-nr-c387hvls-c",
+      "refrigerator-panasonic-nr-c587tvs-w",
+      "refrigerator-panasonic-nr-c497tvs-b",
+      "refrigerator-panasonic-nr-b657tvs-b",
+      "refrigerator-panasonic-nr-b587tvs-b",
+      "refrigerator-panasonic-nr-b497tvs-b",
+      "refrigerator-panasonic-nr-b427tvs-b",
+      "refrigerator-panasonic-nr-d617xgs-b",
+      "refrigerator-panasonic-nr-d617xvs-b",
+      "refrigerator-panasonic-nr-d507xvs-b",
+      "refrigerator-panasonic-nr-c617xgs-b",
+      "refrigerator-panasonic-nr-c507xgs-w",
+      "refrigerator-panasonic-nr-c617xvs-c",
+      "refrigerator-panasonic-nr-c507xvs-b",
+      "refrigerator-panasonic-nr-f653wx-w1",
+      "refrigerator-panasonic-nr-f603wx-x1"
     ],
     "verifiedAvailableIds": [
       "aircon-daikin-ftxm36zvlt-rxm36zvlt",
@@ -38177,7 +37629,26 @@
       "wifi-unifi-u7-lite",
       "wifi-unifi-u7-pro",
       "wifi-unifi-u7-pro-max",
-      "wifi-unifi-u7-pro-xg"
+      "wifi-unifi-u7-pro-xg",
+      "refrigerator-panasonic-nr-c457hgs-w",
+      "refrigerator-panasonic-nr-c457hvs-b",
+      "refrigerator-panasonic-nr-c387hvs-c",
+      "refrigerator-panasonic-nr-c387hvls-c",
+      "refrigerator-panasonic-nr-c587tvs-w",
+      "refrigerator-panasonic-nr-c497tvs-b",
+      "refrigerator-panasonic-nr-b657tvs-b",
+      "refrigerator-panasonic-nr-b587tvs-b",
+      "refrigerator-panasonic-nr-b497tvs-b",
+      "refrigerator-panasonic-nr-b427tvs-b",
+      "refrigerator-panasonic-nr-d617xgs-b",
+      "refrigerator-panasonic-nr-d617xvs-b",
+      "refrigerator-panasonic-nr-d507xvs-b",
+      "refrigerator-panasonic-nr-c617xgs-b",
+      "refrigerator-panasonic-nr-c507xgs-w",
+      "refrigerator-panasonic-nr-c617xvs-c",
+      "refrigerator-panasonic-nr-c507xvs-b",
+      "refrigerator-panasonic-nr-f653wx-w1",
+      "refrigerator-panasonic-nr-f603wx-x1"
     ],
     "exceptions": [
       {
@@ -42880,7 +42351,26 @@
       "wifi-unifi-u7-pro-xg",
       "wifi-xiaomi-ax3000-1pack",
       "wifi-xiaomi-ax3000-2pack",
-      "wifi-zyxel-usg-lite-60ax"
+      "wifi-zyxel-usg-lite-60ax",
+      "refrigerator-panasonic-nr-c457hgs-w",
+      "refrigerator-panasonic-nr-c457hvs-b",
+      "refrigerator-panasonic-nr-c387hvs-c",
+      "refrigerator-panasonic-nr-c387hvls-c",
+      "refrigerator-panasonic-nr-c587tvs-w",
+      "refrigerator-panasonic-nr-c497tvs-b",
+      "refrigerator-panasonic-nr-b657tvs-b",
+      "refrigerator-panasonic-nr-b587tvs-b",
+      "refrigerator-panasonic-nr-b497tvs-b",
+      "refrigerator-panasonic-nr-b427tvs-b",
+      "refrigerator-panasonic-nr-d617xgs-b",
+      "refrigerator-panasonic-nr-d617xvs-b",
+      "refrigerator-panasonic-nr-d507xvs-b",
+      "refrigerator-panasonic-nr-c617xgs-b",
+      "refrigerator-panasonic-nr-c507xgs-w",
+      "refrigerator-panasonic-nr-c617xvs-c",
+      "refrigerator-panasonic-nr-c507xvs-b",
+      "refrigerator-panasonic-nr-f653wx-w1",
+      "refrigerator-panasonic-nr-f603wx-x1"
     ],
     "verifiedIds": [
       "aircon-daikin-ftxm36zvlt-rxm36zvlt",
@@ -44041,7 +43531,26 @@
       "wifi-unifi-u7-pro-xg",
       "wifi-xiaomi-ax3000-1pack",
       "wifi-xiaomi-ax3000-2pack",
-      "wifi-zyxel-usg-lite-60ax"
+      "wifi-zyxel-usg-lite-60ax",
+      "refrigerator-panasonic-nr-c457hgs-w",
+      "refrigerator-panasonic-nr-c457hvs-b",
+      "refrigerator-panasonic-nr-c387hvs-c",
+      "refrigerator-panasonic-nr-c387hvls-c",
+      "refrigerator-panasonic-nr-c587tvs-w",
+      "refrigerator-panasonic-nr-c497tvs-b",
+      "refrigerator-panasonic-nr-b657tvs-b",
+      "refrigerator-panasonic-nr-b587tvs-b",
+      "refrigerator-panasonic-nr-b497tvs-b",
+      "refrigerator-panasonic-nr-b427tvs-b",
+      "refrigerator-panasonic-nr-d617xgs-b",
+      "refrigerator-panasonic-nr-d617xvs-b",
+      "refrigerator-panasonic-nr-d507xvs-b",
+      "refrigerator-panasonic-nr-c617xgs-b",
+      "refrigerator-panasonic-nr-c507xgs-w",
+      "refrigerator-panasonic-nr-c617xvs-c",
+      "refrigerator-panasonic-nr-c507xvs-b",
+      "refrigerator-panasonic-nr-f653wx-w1",
+      "refrigerator-panasonic-nr-f603wx-x1"
     ],
     "exceptions": []
   },
@@ -47208,5 +46717,931 @@
       }
     ]
   },
-  "officialDiscontinuedCandidates": []
+  "officialDiscontinuedCandidates": [],
+  "auditScope": "added_products_only",
+  "panasonicAutumnReview": {
+    "checkedAt": "2026-10-20T01:49:37.935Z",
+    "scopeNote": "2026-10-20 Panasonic 秋季新品定向增量：僅新增19款，原1159款商品、逐筆研究與實際查核日期保留；來源累積覆蓋不表示本輪全目錄重查。",
+    "articleAccess": "Techbang 原文因 Chrome 網站安全政策封鎖，依使用者回覆跳過；以官方當期新品目錄、獨立發表會報導及通路原頁核對，不宣稱重現 Techbang 全文型號清單。",
+    "officialAnnouncement": "https://www.panasonic.com/tw/consumer/news/202609-news-1.html",
+    "availability": [
+      {
+        "id": "refrigerator-panasonic-nr-c457hgs-w",
+        "category": "refrigerator",
+        "brand": "Panasonic",
+        "model": "NR-C457HGS-W",
+        "name": "Panasonic NR-C457HGS-W 450L 3門霧面玻璃變頻冰箱（沐霜白）",
+        "status": "orderable",
+        "buyUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KJNVR",
+        "price": 38090,
+        "currency": "TWD",
+        "observedAt": "2026-10-20",
+        "signal": "Chrome即時原頁：加入購物車可用，無預購標記；廠商出貨、約配，不代表24小時到貨。",
+        "imageCheck": {
+          "status": 200,
+          "mime": "image/jpeg"
+        },
+        "officialNewUrl": "https://www.panasonic.com/tw/consumer/refrigerator.html",
+        "specSources": [
+          "https://www.panasonic.com/tw/consumer/refrigerator/three-door/nr-c457hgs.html",
+          "https://www.myfone.com.tw/mfo/buy/prod/P0000203786395",
+          "https://pmst.panasonic.com.tw/PSMIOUT/DL/DLFiles/3309/0_H_27489.pdf"
+        ],
+        "limitations": [],
+        "powerEvidence": {
+          "sourceUrl": "https://pmst.panasonic.com.tw/PSMIOUT/DL/DLFiles/3309/0_H_27489.pdf",
+          "sourceTitle": "Panasonic NR-C457HGS／NR-C457HVS官方說明書第5頁",
+          "evidenceSnippet": "NR-C457HGS與NR-C457HVS共用規格表明列110V～／60Hz；HGS寬671×深695×高1830mm、82kg；HVS寬675×深695×高1830mm、76kg。",
+          "confidence": "high",
+          "checkedAt": "2026-10-20"
+        }
+      },
+      {
+        "id": "refrigerator-panasonic-nr-c457hvs-b",
+        "category": "refrigerator",
+        "brand": "Panasonic",
+        "model": "NR-C457HVS-B",
+        "name": "Panasonic NR-C457HVS-B 450L 3門霧面鋼板變頻冰箱（冰霧銀）",
+        "status": "orderable",
+        "buyUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KJNRO",
+        "price": 36090,
+        "currency": "TWD",
+        "observedAt": "2026-10-20",
+        "signal": "Chrome即時原頁：加入購物車可用，無預購標記；廠商出貨、約配，不代表24小時到貨。",
+        "imageCheck": {
+          "status": 200,
+          "mime": "image/jpeg"
+        },
+        "officialNewUrl": "https://www.panasonic.com/tw/consumer/refrigerator.html",
+        "specSources": [
+          "https://www.panasonic.com/tw/consumer/refrigerator/three-door/nr-c457hvs.html",
+          "https://www.myfone.com.tw/mfo/buy/prod/P0000203786397",
+          "https://pmst.panasonic.com.tw/PSMIOUT/DL/DLFiles/3309/0_H_27489.pdf"
+        ],
+        "limitations": [],
+        "powerEvidence": {
+          "sourceUrl": "https://pmst.panasonic.com.tw/PSMIOUT/DL/DLFiles/3309/0_H_27489.pdf",
+          "sourceTitle": "Panasonic NR-C457HGS／NR-C457HVS官方說明書第5頁",
+          "evidenceSnippet": "NR-C457HGS與NR-C457HVS共用規格表明列110V～／60Hz；HGS寬671×深695×高1830mm、82kg；HVS寬675×深695×高1830mm、76kg。",
+          "confidence": "high",
+          "checkedAt": "2026-10-20"
+        }
+      },
+      {
+        "id": "refrigerator-panasonic-nr-c387hvs-c",
+        "category": "refrigerator",
+        "brand": "Panasonic",
+        "model": "NR-C387HVS-C",
+        "name": "Panasonic NR-C387HVS-C 385L 3門霧面鋼板變頻冰箱（暖灰米）",
+        "status": "orderable",
+        "buyUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KJNPY",
+        "price": 34000,
+        "currency": "TWD",
+        "observedAt": "2026-10-20",
+        "signal": "Chrome即時原頁：加入購物車可用，無預購標記；廠商出貨、約配，不代表24小時到貨。",
+        "imageCheck": {
+          "status": 200,
+          "mime": "image/jpeg"
+        },
+        "officialNewUrl": "https://www.panasonic.com/tw/consumer/refrigerator.html",
+        "specSources": [
+          "https://www.panasonic.com/tw/consumer/refrigerator/three-door/nr-c387hvs.html",
+          "https://www.myfone.com.tw/mfo/buy/prod/P0000203786393",
+          "https://pmst.panasonic.com.tw/PSMIOUT/DL/DLFiles/3308/0_H_27488.pdf"
+        ],
+        "limitations": [],
+        "powerEvidence": {
+          "sourceUrl": "https://pmst.panasonic.com.tw/PSMIOUT/DL/DLFiles/3308/0_H_27488.pdf",
+          "sourceTitle": "Panasonic NR-C387HVS／NR-C387HVLS官方說明書第5頁",
+          "evidenceSnippet": "表頭分別列NR-C387HVS及NR-C387HVLS；共用規格明列110V～／60Hz、W600×D695×H1830mm、75kg。",
+          "confidence": "high",
+          "checkedAt": "2026-10-20"
+        }
+      },
+      {
+        "id": "refrigerator-panasonic-nr-c387hvls-c",
+        "category": "refrigerator",
+        "brand": "Panasonic",
+        "model": "NR-C387HVLS-C",
+        "name": "Panasonic NR-C387HVLS-C 385L 3門霧面鋼板變頻冰箱（暖灰米／左開）",
+        "status": "orderable",
+        "buyUrl": "https://www.momoshop.com.tw/product/15801630",
+        "price": 34000,
+        "currency": "TWD",
+        "observedAt": "2026-10-20",
+        "signal": "Chrome即時原頁：暖米灰(C)已選，庫存低於5組，直接購買／放入購物車可用；另一15719987頁已失效，不採33800元。",
+        "imageCheck": {
+          "status": 200,
+          "mime": "image/webp"
+        },
+        "officialNewUrl": "https://www.panasonic.com/tw/consumer/refrigerator.html",
+        "specSources": [
+          "https://www.panasonic.com/tw/consumer/refrigerator/three-door/nr-c387hvs.html",
+          "https://www.myfone.com.tw/mfo/buy/prod/P0000203786391",
+          "https://pmst.panasonic.com.tw/PSMIOUT/DL/DLFiles/3308/0_H_27488.pdf"
+        ],
+        "limitations": [],
+        "powerEvidence": {
+          "sourceUrl": "https://pmst.panasonic.com.tw/PSMIOUT/DL/DLFiles/3308/0_H_27488.pdf",
+          "sourceTitle": "Panasonic NR-C387HVS／NR-C387HVLS官方說明書第5頁",
+          "evidenceSnippet": "表頭分別列NR-C387HVS及NR-C387HVLS；共用規格明列110V～／60Hz、W600×D695×H1830mm、75kg。",
+          "confidence": "high",
+          "checkedAt": "2026-10-20"
+        }
+      },
+      {
+        "id": "refrigerator-panasonic-nr-c587tvs-w",
+        "category": "refrigerator",
+        "brand": "Panasonic",
+        "model": "NR-C587TVS-W",
+        "name": "Panasonic NR-C587TVS-W 578L 3門霧面鋼板變頻冰箱（冰霧白）",
+        "status": "orderable",
+        "buyUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KJPA2",
+        "price": 35590,
+        "currency": "TWD",
+        "observedAt": "2026-10-20",
+        "signal": "Chrome即時原頁：加入購物車可用，無預購標記；廠商出貨、約配，不代表24小時到貨。",
+        "imageCheck": {
+          "status": 200,
+          "mime": "image/jpeg"
+        },
+        "officialNewUrl": "https://www.panasonic.com/tw/consumer/refrigerator.html",
+        "specSources": [
+          "https://www.panasonic.com/tw/consumer/refrigerator/three-door/nr-c587tvs.html",
+          "https://www.myfone.com.tw/mfo/buy/prod/P0000203786417",
+          "https://www.3uo.tw/ecommerce/NR-C587TVS/"
+        ],
+        "limitations": []
+      },
+      {
+        "id": "refrigerator-panasonic-nr-c497tvs-b",
+        "category": "refrigerator",
+        "brand": "Panasonic",
+        "model": "NR-C497TVS-B",
+        "name": "Panasonic NR-C497TVS-B 496L 3門霧面鋼板變頻冰箱（冰霧銀）",
+        "status": "orderable",
+        "buyUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KJORL",
+        "price": 32090,
+        "currency": "TWD",
+        "observedAt": "2026-10-20",
+        "signal": "Chrome即時原頁：加入購物車可用，無預購標記；廠商出貨、約配，不代表24小時到貨。",
+        "imageCheck": {
+          "status": 200,
+          "mime": "image/jpeg"
+        },
+        "officialNewUrl": "https://www.panasonic.com/tw/consumer/refrigerator.html",
+        "specSources": [
+          "https://www.panasonic.com/tw/consumer/refrigerator/three-door/nr-c497tvs.html",
+          "https://pxbox.es.pxmart.com.tw/product/990122",
+          "https://www.3uo.tw/ecommerce/NR-C497TVS/"
+        ],
+        "limitations": []
+      },
+      {
+        "id": "refrigerator-panasonic-nr-b657tvs-b",
+        "category": "refrigerator",
+        "brand": "Panasonic",
+        "model": "NR-B657TVS-B",
+        "name": "Panasonic NR-B657TVS-B 650L 2門霧面鋼板變頻冰箱（冰霧銀）",
+        "status": "orderable",
+        "buyUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KJO9B",
+        "price": 34700,
+        "currency": "TWD",
+        "observedAt": "2026-10-20",
+        "signal": "Chrome即時原頁：加入購物車可用，無預購標記；廠商出貨、約配，不代表24小時到貨。",
+        "imageCheck": {
+          "status": 200,
+          "mime": "image/jpeg"
+        },
+        "officialNewUrl": "https://www.panasonic.com/tw/consumer/refrigerator.html",
+        "specSources": [
+          "https://www.panasonic.com/tw/consumer/refrigerator/double-door/nr-b657tvs.html",
+          "https://www.myfone.com.tw/mfo/buy/prod/P0000203786427",
+          "https://www.3uo.tw/ecommerce/NR-B657TVS/"
+        ],
+        "limitations": []
+      },
+      {
+        "id": "refrigerator-panasonic-nr-b587tvs-b",
+        "category": "refrigerator",
+        "brand": "Panasonic",
+        "model": "NR-B587TVS-B",
+        "name": "Panasonic NR-B587TVS-B 580L 2門霧面鋼板變頻冰箱（冰霧銀）",
+        "status": "orderable",
+        "buyUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KJO5L",
+        "price": 32290,
+        "currency": "TWD",
+        "observedAt": "2026-10-20",
+        "signal": "Chrome即時原頁：加入購物車可用，無預購標記；廠商出貨、約配，不代表24小時到貨。",
+        "imageCheck": {
+          "status": 200,
+          "mime": "image/jpeg"
+        },
+        "officialNewUrl": "https://www.panasonic.com/tw/consumer/refrigerator.html",
+        "specSources": [
+          "https://www.panasonic.com/tw/consumer/refrigerator/double-door/nr-b587tvs.html",
+          "https://www.myfone.com.tw/mfo/buy/prod/P0000203786425",
+          "https://www.3uo.tw/ecommerce/NR-B587TVS/"
+        ],
+        "limitations": []
+      },
+      {
+        "id": "refrigerator-panasonic-nr-b497tvs-b",
+        "category": "refrigerator",
+        "brand": "Panasonic",
+        "model": "NR-B497TVS-B",
+        "name": "Panasonic NR-B497TVS-B 498L 2門霧面鋼板變頻冰箱（冰霧銀）",
+        "status": "orderable",
+        "buyUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KJO1D",
+        "price": 28790,
+        "currency": "TWD",
+        "observedAt": "2026-10-20",
+        "signal": "Chrome即時原頁：加入購物車可用，無預購標記；廠商出貨、約配，不代表24小時到貨。",
+        "imageCheck": {
+          "status": 200,
+          "mime": "image/jpeg"
+        },
+        "officialNewUrl": "https://www.panasonic.com/tw/consumer/refrigerator.html",
+        "specSources": [
+          "https://www.panasonic.com/tw/consumer/refrigerator/double-door/nr-b497tvs.html",
+          "https://www.myfone.com.tw/mfo/buy/prod/P0000203786423",
+          "https://www.3uo.tw/ecommerce/NR-B497TVS/"
+        ],
+        "limitations": []
+      },
+      {
+        "id": "refrigerator-panasonic-nr-b427tvs-b",
+        "category": "refrigerator",
+        "brand": "Panasonic",
+        "model": "NR-B427TVS-B",
+        "name": "Panasonic NR-B427TVS-B 422L 2門霧面鋼板變頻冰箱（冰霧銀）",
+        "status": "orderable",
+        "buyUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KJNX7",
+        "price": 25700,
+        "currency": "TWD",
+        "observedAt": "2026-10-20",
+        "signal": "Chrome即時原頁：加入購物車可用，無預購標記；廠商出貨、約配，不代表24小時到貨。",
+        "imageCheck": {
+          "status": 200,
+          "mime": "image/jpeg"
+        },
+        "officialNewUrl": "https://www.panasonic.com/tw/consumer/refrigerator.html",
+        "specSources": [
+          "https://www.panasonic.com/tw/consumer/refrigerator/double-door/nr-b427tvs.html",
+          "https://pxbox.es.pxmart.com.tw/product/930579",
+          "https://www.3uo.tw/ecommerce/NR-B427TVS/"
+        ],
+        "limitations": []
+      },
+      {
+        "id": "refrigerator-panasonic-nr-d617xgs-b",
+        "model": "NR-D617XGS-B",
+        "url": "https://24h.pchome.com.tw/prod/DPACHE-A900KH8OJ",
+        "apiUrl": "https://ecapi-cdn.pchome.com.tw/ecshop/prodapi/v2/prod?id=DPACHE-A900KH8OJ&fields=Id,Name,Nick,Pic,Price,Qty",
+        "sourceKind": "pchome_api",
+        "status": "verified_available",
+        "httpStatus": 200,
+        "exactModel": true,
+        "excluded": false,
+        "price": 49500,
+        "qty": 2,
+        "reviewedAt": "2026-10-20",
+        "reviewBasis": "live_chrome_original_page_and_exact_api_Name",
+        "note": "原頁型號／價格／加入購物車與API Name、Price.P、Qty相互一致。",
+        "warrantySourceUrl": "https://pstw.panasonic.com.tw/service/guarExtHelp.aspx",
+        "manualUrl": "https://pmst.panasonic.com.tw/PSMIOUT/DL/DLFiles/3310/0_H_27490.pdf"
+      },
+      {
+        "id": "refrigerator-panasonic-nr-d617xvs-b",
+        "model": "NR-D617XVS-B",
+        "url": "https://24h.pchome.com.tw/prod/DPACHE-A900KGZSV",
+        "apiUrl": "https://ecapi-cdn.pchome.com.tw/ecshop/prodapi/v2/prod?id=DPACHE-A900KGZSV&fields=Id,Name,Nick,Pic,Price,Qty",
+        "sourceKind": "pchome_api",
+        "status": "verified_available",
+        "httpStatus": 200,
+        "exactModel": true,
+        "excluded": false,
+        "price": 44500,
+        "qty": 2,
+        "reviewedAt": "2026-10-20",
+        "reviewBasis": "live_chrome_original_page_and_exact_api_Name",
+        "note": "原頁型號／價格／加入購物車與API Name、Price.P、Qty相互一致。",
+        "warrantySourceUrl": "https://pstw.panasonic.com.tw/service/guarExtHelp.aspx",
+        "manualUrl": "https://pmst.panasonic.com.tw/PSMIOUT/DL/DLFiles/3311/0_H_27491.pdf"
+      },
+      {
+        "id": "refrigerator-panasonic-nr-d507xvs-b",
+        "model": "NR-D507XVS-B",
+        "url": "https://24h.pchome.com.tw/prod/DPACHE-A900KH8K8",
+        "apiUrl": "https://ecapi-cdn.pchome.com.tw/ecshop/prodapi/v2/prod?id=DPACHE-A900KH8K8&fields=Id,Name,Nick,Pic,Price,Qty",
+        "sourceKind": "pchome_api",
+        "status": "verified_available",
+        "httpStatus": 200,
+        "exactModel": true,
+        "excluded": false,
+        "price": 43500,
+        "qty": 2,
+        "reviewedAt": "2026-10-20",
+        "reviewBasis": "live_chrome_original_page_and_exact_api_Name",
+        "note": "原頁型號／價格／加入購物車與API Name、Price.P、Qty相互一致。",
+        "warrantySourceUrl": "https://pstw.panasonic.com.tw/service/guarExtHelp.aspx",
+        "manualUrl": "https://pmst.panasonic.com.tw/PSMIOUT/DL/DLFiles/3311/0_H_27491.pdf"
+      },
+      {
+        "id": "refrigerator-panasonic-nr-c617xgs-b",
+        "model": "NR-C617XGS-B",
+        "url": "https://24h.pchome.com.tw/prod/DPACHE-A900KH8WT",
+        "apiUrl": "https://ecapi-cdn.pchome.com.tw/ecshop/prodapi/v2/prod?id=DPACHE-A900KH8WT&fields=Id,Name,Nick,Pic,Price,Qty",
+        "sourceKind": "pchome_api",
+        "status": "verified_available",
+        "httpStatus": 200,
+        "exactModel": true,
+        "excluded": false,
+        "price": 47500,
+        "qty": 2,
+        "reviewedAt": "2026-10-20",
+        "reviewBasis": "live_chrome_original_page_and_exact_api_Name",
+        "note": "原頁型號／價格／加入購物車與API Name、Price.P、Qty相互一致。",
+        "warrantySourceUrl": "https://pstw.panasonic.com.tw/service/guarExtHelp.aspx",
+        "manualUrl": "https://pmst.panasonic.com.tw/PSMIOUT/DL/DLFiles/3310/0_H_27490.pdf"
+      },
+      {
+        "id": "refrigerator-panasonic-nr-c507xgs-w",
+        "model": "NR-C507XGS-W",
+        "url": "https://24h.pchome.com.tw/prod/DPACHE-A900KIXNF",
+        "apiUrl": "https://ecapi-cdn.pchome.com.tw/ecshop/prodapi/v2/prod?id=DPACHE-A900KIXNF&fields=Id,Name,Nick,Pic,Price,Qty",
+        "sourceKind": "pchome_api",
+        "status": "verified_available",
+        "httpStatus": 200,
+        "exactModel": true,
+        "excluded": false,
+        "price": 46500,
+        "qty": 2,
+        "reviewedAt": "2026-10-20",
+        "reviewBasis": "live_chrome_original_page_and_exact_api_Name",
+        "note": "API Name與Chrome頁面均為NR-C507XGS-W；Nick錯誤寫B，未採用Nick，人工綁定商品頁白色W與此SKU。",
+        "warrantySourceUrl": "https://pstw.panasonic.com.tw/service/guarExtHelp.aspx",
+        "manualUrl": "https://pmst.panasonic.com.tw/PSMIOUT/DL/DLFiles/3310/0_H_27490.pdf"
+      },
+      {
+        "id": "refrigerator-panasonic-nr-c617xvs-c",
+        "model": "NR-C617XVS-C",
+        "url": "https://24h.pchome.com.tw/prod/DPACHE-A900KH8H2",
+        "apiUrl": "https://ecapi-cdn.pchome.com.tw/ecshop/prodapi/v2/prod?id=DPACHE-A900KH8H2&fields=Id,Name,Nick,Pic,Price,Qty",
+        "sourceKind": "pchome_api",
+        "status": "verified_available",
+        "httpStatus": 200,
+        "exactModel": true,
+        "excluded": false,
+        "price": 42500,
+        "qty": 2,
+        "reviewedAt": "2026-10-20",
+        "reviewBasis": "live_chrome_original_page_and_exact_api_Name",
+        "note": "原頁型號／價格／加入購物車與API Name、Price.P、Qty相互一致。",
+        "warrantySourceUrl": "https://pstw.panasonic.com.tw/service/guarExtHelp.aspx",
+        "manualUrl": "https://pmst.panasonic.com.tw/PSMIOUT/DL/DLFiles/3311/0_H_27491.pdf"
+      },
+      {
+        "id": "refrigerator-panasonic-nr-c507xvs-b",
+        "model": "NR-C507XVS-B",
+        "url": "https://24h.pchome.com.tw/prod/DPACHE-A900KH8MY",
+        "apiUrl": "https://ecapi-cdn.pchome.com.tw/ecshop/prodapi/v2/prod?id=DPACHE-A900KH8MY&fields=Id,Name,Nick,Pic,Price,Qty",
+        "sourceKind": "pchome_api",
+        "status": "verified_available",
+        "httpStatus": 200,
+        "exactModel": true,
+        "excluded": false,
+        "price": 41500,
+        "qty": 2,
+        "reviewedAt": "2026-10-20",
+        "reviewBasis": "live_chrome_original_page_and_exact_api_Name",
+        "note": "原頁型號／價格／加入購物車與API Name、Price.P、Qty相互一致。",
+        "warrantySourceUrl": "https://pstw.panasonic.com.tw/service/guarExtHelp.aspx",
+        "manualUrl": "https://pmst.panasonic.com.tw/PSMIOUT/DL/DLFiles/3311/0_H_27491.pdf"
+      },
+      {
+        "id": "refrigerator-panasonic-nr-f653wx-w1",
+        "model": "NR-F653WX-W1",
+        "url": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=12307503",
+        "sourceKind": "yahoo_page",
+        "status": "verified_available",
+        "availability": "orderable_delivery_to_be_confirmed",
+        "httpStatus": 200,
+        "exactModel": true,
+        "excluded": false,
+        "price": 92499,
+        "reviewedAt": "2026-10-20",
+        "reviewBasis": "live_chrome_original_page_product_heading_purchase_buttons_and_lazy_loaded_specs",
+        "note": "Chrome原頁完整SKU、公開價格、立即購買／加入購物車及電壓110V已核對；只證可下單約配，不保證庫房現貨；頻率未標示。",
+        "warrantySourceUrl": "https://pstw.panasonic.com.tw/service/guarExtHelp.aspx",
+        "powerSourceUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=12307503",
+        "disclosureSourceUrl": "https://www.rakuten.com.tw/shop/panasonic-0n26/product/NR-F653WX/"
+      },
+      {
+        "id": "refrigerator-panasonic-nr-f603wx-x1",
+        "model": "NR-F603WX-X1",
+        "url": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=12307512",
+        "sourceKind": "yahoo_page",
+        "status": "verified_available",
+        "availability": "orderable_delivery_to_be_confirmed",
+        "httpStatus": 200,
+        "exactModel": true,
+        "excluded": false,
+        "price": 82961,
+        "reviewedAt": "2026-10-20",
+        "reviewBasis": "live_chrome_original_page_product_heading_purchase_buttons_and_lazy_loaded_specs",
+        "note": "Chrome原頁完整SKU、公開價格、立即購買／加入購物車及電壓110V已核對；只證可下單約配，不保證庫房現貨；頻率未標示。",
+        "warrantySourceUrl": "https://pstw.panasonic.com.tw/service/guarExtHelp.aspx",
+        "powerSourceUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=12307512",
+        "disclosureSourceUrl": "https://www.rakuten.com.tw/shop/panasonic-0n26/product/NR-F653WX/"
+      },
+      {
+        "model": "TN-55W85CGT",
+        "status": "orderable_scheduled_delivery",
+        "retailer": "Yahoo購物中心（自營）",
+        "priceTwd": 38820,
+        "url": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=12305939",
+        "checkedAt": "2026-10-20",
+        "evidence": "Chrome商品原頁公開價與enabled「立即購買」「加入購物車」，全文未標預購或缺貨；全新產品、原廠保固1年；3–7工作天聯絡配送，實際送裝需預約。",
+        "cachedOfficialWarning": "搜尋快取仍有預計10月下旬上市；Chrome官方實頁已無預告，不採快取判斷庫存。"
+      },
+      {
+        "model": "TN-65W85CGT",
+        "status": "orderable_scheduled_delivery",
+        "retailer": "Yahoo購物中心（自營）",
+        "priceTwd": 48579,
+        "url": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=12305938",
+        "checkedAt": "2026-10-20",
+        "evidence": "Chrome商品原頁公開價與enabled「立即購買」「加入購物車」，全文未標預購或缺貨；全新產品、原廠保固1年；3–7工作天聯絡配送，實際送裝需預約。",
+        "cachedOfficialWarning": "搜尋快取仍有預計10月下旬上市；Chrome官方實頁已無預告，不採快取判斷庫存。"
+      },
+      {
+        "model": "TN-65W85CGT",
+        "status": "orderable_scheduled_delivery",
+        "retailer": "E-PAYLESS 百利市購物中心（聲寶股份有限公司）",
+        "priceTwd": 47100,
+        "url": "https://www.e-payless.com.tw/product/detail/169922?cid=2221",
+        "checkedAt": "2026-10-20",
+        "evidence": "Chrome原頁有NT$47,100、數量1、enabled btn-buy/btn-cart；3–7日聯絡送裝，原廠保固、含標準安裝，搶購依單出貨且不參加原廠贈品活動。",
+        "note": "比Yahoo便宜但此次商品物件依parent偏好採Yahoo；可由parent自行採此已驗證可信公司購物中心現價。"
+      },
+      {
+        "model": "NN-BS10EK",
+        "status": "orderable_delivery_unconfirmed",
+        "sourceUrl": "https://www.rakuten.com.tw/shop/panasonic-1622/product/nn-bs10ek/",
+        "price": 35055,
+        "stock": 3,
+        "checkedAt": "2026-10-20",
+        "method": "Chrome original page manually reviewed",
+        "observation": "數量1、還剩3件、購物車／立即購買可用；全店95折價35055，券後價格不採。",
+        "otherChannels": [
+          {
+            "url": "https://www.elifemall.com.tw/product/2166309",
+            "status": "preorder",
+            "observation": "Chrome明示「預購商品10月中陸續出貨」，有購買按鈕仍不算現貨。"
+          },
+          {
+            "url": "https://24h.pchome.com.tw/prod/DMBJ7P-1900KJUGX",
+            "status": "out_of_stock",
+            "observation": "Chrome明示有貨通知／已售完。"
+          }
+        ]
+      },
+      {
+        "model": "NN-BS8DK",
+        "status": "orderable_delivery_unconfirmed",
+        "sourceUrl": "https://www.rakuten.com.tw/shop/panasonic-1622/product/NN-BS8DK/",
+        "price": 24605,
+        "stock": 2,
+        "checkedAt": "2026-10-20",
+        "method": "Chrome original page manually reviewed",
+        "observation": "數量1、還剩2件、購物車／立即購買可用；全店95折價24605，券後價格不採。",
+        "otherChannels": [
+          {
+            "url": "https://www.elifemall.com.tw/product/2166310",
+            "status": "preorder",
+            "observation": "Chrome明示「預購商品10月中陸續出貨」，有購買按鈕仍不算現貨。"
+          },
+          {
+            "url": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=12286403",
+            "status": "out_of_stock",
+            "observation": "Chrome明示有貨通知／已售完。"
+          }
+        ]
+      },
+      {
+        "model": "NC-EA801",
+        "retailer": "momo",
+        "url": "https://www.momoshop.com.tw/product/13878438",
+        "legacyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=13878438",
+        "verifiedUsing": "live Chrome original product page",
+        "title": "Panasonic 國際牌 全自動義式咖啡機 NC-EA801 + 贈 CorelleBrands 不鏽鋼保溫保冰運動瓶",
+        "stock": "available",
+        "stockEvidence": "Page shows selected quantity 1; quantity choices 1/2/3; 庫存低於3組; enabled 直接購買 and 放入購物車 buttons.",
+        "price": {
+          "currency": "TWD",
+          "amount": 18900,
+          "basis": "retailer_current",
+          "publicPromotion": "滿1件折3000元; 限時折後價18900; 促銷價21900",
+          "excluded": "Do not deduct mo幣, bank rebates, member coupons, or registration gifts."
+        },
+        "warranty": "1年保固期; 消耗品不在保固內",
+        "notes": [
+          "Retail filter erroneously says 美式全自動; exact-model official identity is espresso.",
+          "Gift bottle does not change machine SKU."
+        ]
+      },
+      {
+        "model": "NC-EA801",
+        "retailer": "Panasonic Taiwan official store",
+        "url": "https://pmst.panasonic.com.tw/Shop/product/coffee",
+        "stock": "sold_out_cached_original_page_not_live_Chrome_verified",
+        "price": {
+          "currency": "TWD",
+          "list": 21900,
+          "member": 18590
+        },
+        "finding": "Web extraction shows 售完！貨到通知我, matching prior repository record; do not infer all Taiwan channels sold out from official store alone."
+      },
+      {
+        "model": "NC-EA801",
+        "retailer": "雅光電器",
+        "url": "https://www.yk01.com.tw/products/ncea801",
+        "verifiedUsing": "live Chrome original URL",
+        "stock": "not_verified_page_404",
+        "finding": "Live page title 404 頁面不存在 雅光電器 and text 抱歉，此頁面不存在或者已經被移除. Cached search result claiming product remains cannot establish current stock. Not evidence of official discontinuation."
+      },
+      {
+        "model": "NR-D507XGS-B",
+        "status": "already_in_catalog_orderable",
+        "sourceUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KIO2T",
+        "checkedAt": "2026-10-20",
+        "price": 48500,
+        "method": "Chrome original page manually reviewed",
+        "observation": "原頁型號NR-D507XGS-B、公開價48500元、加入購物車可用；廠商出貨須約配，不保證24h。既有卡片不改寫。"
+      }
+    ],
+    "trackedOrExcluded": [
+      {
+        "model": "NA-V1312SP",
+        "status": "not_released",
+        "plannedRelease": "2027-01",
+        "sourceUrl": "https://www.mobile01.com/topicdetail.php?f=168&t=7302023",
+        "evidence": "Launch report explicitly says 預計2027年1月上市; not found in current official washer list; do not add as current retail."
+      },
+      {
+        "model": "NA-V1715SP-W",
+        "status": "carryover_orderable",
+        "price": 80910,
+        "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1H-A900JFSW1",
+        "signal": "Live page public 10/1-11/30 ninefold promotion, active cart/buy, warehouse shipping.",
+        "priorCatalog": "https://pstw.panasonic.com.tw/catalog/files/1_consumer/WM/202510_Panasonic_洗乾衣機．電子衣櫥.pdf"
+      },
+      {
+        "model": "NA-V1515SP-K",
+        "status": "carryover_listing",
+        "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1H-A900JFSWJ",
+        "signal": "Retail listing and original page exists; current variant stock not revisited because parent excluded carryovers. Do not apply old 9/10-9/11 price.",
+        "priorCatalog": "https://pstw.panasonic.com.tw/catalog/files/1_consumer/WM/202510_Panasonic_洗乾衣機．電子衣櫥.pdf"
+      },
+      {
+        "model": "NR-F552YT",
+        "status": "carryover_showcase",
+        "sourceUrl": "https://www.panasonic.com/tw/consumer/refrigerator/six-door/nr-f552yt.html",
+        "signal": "Not marked new in official current listing; 2025 official catalog already lists it, as do reviews predating autumn2026. Do not add as 2026 launch."
+      },
+      {
+        "model": "NR-F553WX-W1",
+        "family": "NR-F553WX",
+        "capacity": 550,
+        "amount": 73424,
+        "gdid": "12308821",
+        "dimension": "尺寸：寬 68.5 x 深 69.9 x 高 182.8 cm",
+        "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=12308821",
+        "officialUrl": "https://www.panasonic.com/tw/consumer/refrigerator/six-door/nr-f553wx.html",
+        "availability": "orderable_delivery_date_to_be_confirmed",
+        "availabilityEvidence": "2026-10-20 live Chrome exact Yahoo自營頁顯示立即購買／加入購物車，文案正常3至7個工作天聯絡後續配送，實際以物流約配為準。",
+        "installation": "含標準安裝與舊機回收；偏遠地區、外島不送。",
+        "pending": "電壓／頻率與部分淨重尚未在原廠或可信exact-SKU來源證實，故目前只列追蹤，不可正式加入商品名冊。",
+        "additionalConflict": "Panasonic授權保發的F653WX頁另寫最新日製冰箱預計11月到貨、先下單排單；不能因Yahoo可下單就稱現貨即送。",
+        "additionalSourceUrl": "https://www.rakuten.com.tw/shop/panasonic-0n26/product/NR-F653WX/"
+      },
+      {
+        "model": "NR-F523HX-W1",
+        "family": "NR-F523HX",
+        "capacity": 520,
+        "amount": 68655,
+        "gdid": "12307507",
+        "dimension": "尺寸：寬 65 x 深 69.9 x 高 182.8 cm",
+        "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=12307507",
+        "officialUrl": "https://www.panasonic.com/tw/consumer/refrigerator/six-door/nr-f523hx.html",
+        "availability": "orderable_delivery_date_to_be_confirmed",
+        "availabilityEvidence": "2026-10-20 live Chrome exact Yahoo自營頁顯示立即購買／加入購物車，文案正常3至7個工作天聯絡後續配送，實際以物流約配為準。",
+        "installation": "含標準安裝與舊機回收；偏遠地區、外島不送。",
+        "pending": "電壓／頻率與部分淨重尚未在原廠或可信exact-SKU來源證實，故目前只列追蹤，不可正式加入商品名冊。",
+        "additionalConflict": "Panasonic授權保發的F653WX頁另寫最新日製冰箱預計11月到貨、先下單排單；不能因Yahoo可下單就稱現貨即送。",
+        "additionalSourceUrl": "https://www.rakuten.com.tw/shop/panasonic-0n26/product/NR-F653WX/"
+      },
+      {
+        "series": "Smart Dry QX旗艦變頻除濕機",
+        "category": "dehumidifier",
+        "exactModels": [],
+        "status": "not_verified_orderable",
+        "reason": "官方2026-09-22新聞稿只有QX系列，未公布exact SKU、公開價與可訂購頁；未在官方型號頁／可信通路找到可下單QX。獨立發表會圖文報導稱2027年1–2月上市，但該報導原頁Chrome因憑證主機名錯誤未開啟，沒有繞過警告；僅記作輔助預告而非正式發售承諾。",
+        "sources": [
+          {
+            "url": "https://www.panasonic.com/tw/consumer/news/202609-news-1.html",
+            "title": "Panasonic官方秋季新品發表",
+            "evidence": "Smart Dry QX旗艦型變頻除濕機；無完整型號、無發售日/售價。"
+          },
+          {
+            "url": "https://www.zhe-feng.com.tw/forum/redirect.php?goto=newpost&tid=4678",
+            "title": "Panasonic 2026秋季新品發表會",
+            "evidence": "web搜尋可見明年1~2月上市、18~30L；Chrome原頁憑證錯誤，不進一步讀取。"
+          }
+        ]
+      },
+      {
+        "model": "TN-55W85CGT",
+        "status": "orderable_but_catalog_evidence_pending",
+        "sourceUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=12305939",
+        "price": 38820,
+        "reason": "已核實通路可下單；供電電壓的exact-model來源仍缺，未通過現有台灣新品收錄契約，不以舊款或海外版推定。",
+        "validation": [
+          "tv-panasonic-tn55w85cgt requires a Taiwan-compatible power specification"
+        ]
+      },
+      {
+        "model": "TN-65W85CGT",
+        "status": "orderable_but_catalog_evidence_pending",
+        "sourceUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=12305938",
+        "price": 48579,
+        "reason": "已核實通路可下單；供電電壓的exact-model來源仍缺，未通過現有台灣新品收錄契約，不以舊款或海外版推定。",
+        "validation": [
+          "tv-panasonic-tn65w85cgt requires a Taiwan-compatible power specification"
+        ]
+      },
+      {
+        "models": [
+          "NN-BS10EK",
+          "NN-BS8DK"
+        ],
+        "status": "orderable_but_power_evidence_pending",
+        "reason": "可讀授權通路已可下單，但官方手冊搜尋無資料、當期型錄未列新品，原頁只提供輸出火力，未核實電壓頻率。暫不正式收錄，不以同品牌舊款電力補數。",
+        "sources": [
+          "https://pstw.panasonic.com.tw/Consumer/Support/Download",
+          "https://www.panasonic.com/tw/consumer/kitchen/microwave.html"
+        ]
+      },
+      {
+        "model": "NN-BS10EK",
+        "status": "orderable_but_catalog_evidence_pending",
+        "sourceUrl": "https://www.rakuten.com.tw/shop/panasonic-1622/product/nn-bs10ek/",
+        "price": 35055,
+        "reason": "已核實通路可下單；供電電壓的exact-model來源仍缺，未通過現有台灣新品收錄契約，不以舊款或海外版推定。",
+        "validation": [
+          "oven-panasonic-nn-bs10ek requires a Taiwan-compatible power specification"
+        ]
+      },
+      {
+        "model": "NN-BS8DK",
+        "status": "orderable_but_catalog_evidence_pending",
+        "sourceUrl": "https://www.rakuten.com.tw/shop/panasonic-1622/product/NN-BS8DK/",
+        "price": 24605,
+        "reason": "已核實通路可下單；供電電壓的exact-model來源仍缺，未通過現有台灣新品收錄契約，不以舊款或海外版推定。",
+        "validation": [
+          "oven-panasonic-nn-bs8dk requires a Taiwan-compatible power specification"
+        ]
+      },
+      {
+        "model": "NC-EA801",
+        "status": "existing_model_before_2026_do_not_add_as_2026_autumn_new",
+        "reason": "NC-EA801 可買，但官方2024-09-30已對既有買家提供售後升級；不標成2026秋季新上市，也不改動固定24款咖啡機名冊。",
+        "sources": [
+          {
+            "url": "https://www.panasonic.com/tw/consumer/news/202409-news_7.html",
+            "title": "Panasonic 義式咖啡機 售後服務升級說明",
+            "publishedAt": "2024-09-30",
+            "finding": "Official announcement names NC-EA801 and explicitly extends in-home repair to prior purchasers. Establishes Taiwan sale before 2026; not itself an exact launch date.",
+            "verifiedUsing": "web original page"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=Sn85_H18Gi0",
+            "title": "家電鮮開箱 2023 Panasonic 秋季新品發表會 廚房調理篇",
+            "publishedAt": "2023-09-29",
+            "finding": "Independent channel description explicitly identifies NC-EA801 as newly introduced in the 2023 autumn event, alongside NU-SC280W. Secondary discovery evidence, not adopted exact launch date.",
+            "verifiedUsing": "web search result and video description"
+          }
+        ]
+      }
+    ],
+    "sourceBindings": [
+      {
+        "id": "refrigerator-panasonic-nr-d617xgs-b",
+        "model": "NR-D617XGS-B",
+        "url": "https://24h.pchome.com.tw/prod/DPACHE-A900KH8OJ",
+        "apiUrl": "https://ecapi-cdn.pchome.com.tw/ecshop/prodapi/v2/prod?id=DPACHE-A900KH8OJ&fields=Id,Name,Nick,Pic,Price,Qty",
+        "sourceKind": "pchome_api",
+        "status": "verified_available",
+        "httpStatus": 200,
+        "exactModel": true,
+        "excluded": false,
+        "price": 49500,
+        "qty": 2,
+        "reviewedAt": "2026-10-20",
+        "reviewBasis": "live_chrome_original_page_and_exact_api_Name",
+        "note": "原頁型號／價格／加入購物車與API Name、Price.P、Qty相互一致。",
+        "warrantySourceUrl": "https://pstw.panasonic.com.tw/service/guarExtHelp.aspx",
+        "manualUrl": "https://pmst.panasonic.com.tw/PSMIOUT/DL/DLFiles/3310/0_H_27490.pdf"
+      },
+      {
+        "id": "refrigerator-panasonic-nr-d617xvs-b",
+        "model": "NR-D617XVS-B",
+        "url": "https://24h.pchome.com.tw/prod/DPACHE-A900KGZSV",
+        "apiUrl": "https://ecapi-cdn.pchome.com.tw/ecshop/prodapi/v2/prod?id=DPACHE-A900KGZSV&fields=Id,Name,Nick,Pic,Price,Qty",
+        "sourceKind": "pchome_api",
+        "status": "verified_available",
+        "httpStatus": 200,
+        "exactModel": true,
+        "excluded": false,
+        "price": 44500,
+        "qty": 2,
+        "reviewedAt": "2026-10-20",
+        "reviewBasis": "live_chrome_original_page_and_exact_api_Name",
+        "note": "原頁型號／價格／加入購物車與API Name、Price.P、Qty相互一致。",
+        "warrantySourceUrl": "https://pstw.panasonic.com.tw/service/guarExtHelp.aspx",
+        "manualUrl": "https://pmst.panasonic.com.tw/PSMIOUT/DL/DLFiles/3311/0_H_27491.pdf"
+      },
+      {
+        "id": "refrigerator-panasonic-nr-d507xvs-b",
+        "model": "NR-D507XVS-B",
+        "url": "https://24h.pchome.com.tw/prod/DPACHE-A900KH8K8",
+        "apiUrl": "https://ecapi-cdn.pchome.com.tw/ecshop/prodapi/v2/prod?id=DPACHE-A900KH8K8&fields=Id,Name,Nick,Pic,Price,Qty",
+        "sourceKind": "pchome_api",
+        "status": "verified_available",
+        "httpStatus": 200,
+        "exactModel": true,
+        "excluded": false,
+        "price": 43500,
+        "qty": 2,
+        "reviewedAt": "2026-10-20",
+        "reviewBasis": "live_chrome_original_page_and_exact_api_Name",
+        "note": "原頁型號／價格／加入購物車與API Name、Price.P、Qty相互一致。",
+        "warrantySourceUrl": "https://pstw.panasonic.com.tw/service/guarExtHelp.aspx",
+        "manualUrl": "https://pmst.panasonic.com.tw/PSMIOUT/DL/DLFiles/3311/0_H_27491.pdf"
+      },
+      {
+        "id": "refrigerator-panasonic-nr-c617xgs-b",
+        "model": "NR-C617XGS-B",
+        "url": "https://24h.pchome.com.tw/prod/DPACHE-A900KH8WT",
+        "apiUrl": "https://ecapi-cdn.pchome.com.tw/ecshop/prodapi/v2/prod?id=DPACHE-A900KH8WT&fields=Id,Name,Nick,Pic,Price,Qty",
+        "sourceKind": "pchome_api",
+        "status": "verified_available",
+        "httpStatus": 200,
+        "exactModel": true,
+        "excluded": false,
+        "price": 47500,
+        "qty": 2,
+        "reviewedAt": "2026-10-20",
+        "reviewBasis": "live_chrome_original_page_and_exact_api_Name",
+        "note": "原頁型號／價格／加入購物車與API Name、Price.P、Qty相互一致。",
+        "warrantySourceUrl": "https://pstw.panasonic.com.tw/service/guarExtHelp.aspx",
+        "manualUrl": "https://pmst.panasonic.com.tw/PSMIOUT/DL/DLFiles/3310/0_H_27490.pdf"
+      },
+      {
+        "id": "refrigerator-panasonic-nr-c507xgs-w",
+        "model": "NR-C507XGS-W",
+        "url": "https://24h.pchome.com.tw/prod/DPACHE-A900KIXNF",
+        "apiUrl": "https://ecapi-cdn.pchome.com.tw/ecshop/prodapi/v2/prod?id=DPACHE-A900KIXNF&fields=Id,Name,Nick,Pic,Price,Qty",
+        "sourceKind": "pchome_api",
+        "status": "verified_available",
+        "httpStatus": 200,
+        "exactModel": true,
+        "excluded": false,
+        "price": 46500,
+        "qty": 2,
+        "reviewedAt": "2026-10-20",
+        "reviewBasis": "live_chrome_original_page_and_exact_api_Name",
+        "note": "API Name與Chrome頁面均為NR-C507XGS-W；Nick錯誤寫B，未採用Nick，人工綁定商品頁白色W與此SKU。",
+        "warrantySourceUrl": "https://pstw.panasonic.com.tw/service/guarExtHelp.aspx",
+        "manualUrl": "https://pmst.panasonic.com.tw/PSMIOUT/DL/DLFiles/3310/0_H_27490.pdf"
+      },
+      {
+        "id": "refrigerator-panasonic-nr-c617xvs-c",
+        "model": "NR-C617XVS-C",
+        "url": "https://24h.pchome.com.tw/prod/DPACHE-A900KH8H2",
+        "apiUrl": "https://ecapi-cdn.pchome.com.tw/ecshop/prodapi/v2/prod?id=DPACHE-A900KH8H2&fields=Id,Name,Nick,Pic,Price,Qty",
+        "sourceKind": "pchome_api",
+        "status": "verified_available",
+        "httpStatus": 200,
+        "exactModel": true,
+        "excluded": false,
+        "price": 42500,
+        "qty": 2,
+        "reviewedAt": "2026-10-20",
+        "reviewBasis": "live_chrome_original_page_and_exact_api_Name",
+        "note": "原頁型號／價格／加入購物車與API Name、Price.P、Qty相互一致。",
+        "warrantySourceUrl": "https://pstw.panasonic.com.tw/service/guarExtHelp.aspx",
+        "manualUrl": "https://pmst.panasonic.com.tw/PSMIOUT/DL/DLFiles/3311/0_H_27491.pdf"
+      },
+      {
+        "id": "refrigerator-panasonic-nr-c507xvs-b",
+        "model": "NR-C507XVS-B",
+        "url": "https://24h.pchome.com.tw/prod/DPACHE-A900KH8MY",
+        "apiUrl": "https://ecapi-cdn.pchome.com.tw/ecshop/prodapi/v2/prod?id=DPACHE-A900KH8MY&fields=Id,Name,Nick,Pic,Price,Qty",
+        "sourceKind": "pchome_api",
+        "status": "verified_available",
+        "httpStatus": 200,
+        "exactModel": true,
+        "excluded": false,
+        "price": 41500,
+        "qty": 2,
+        "reviewedAt": "2026-10-20",
+        "reviewBasis": "live_chrome_original_page_and_exact_api_Name",
+        "note": "原頁型號／價格／加入購物車與API Name、Price.P、Qty相互一致。",
+        "warrantySourceUrl": "https://pstw.panasonic.com.tw/service/guarExtHelp.aspx",
+        "manualUrl": "https://pmst.panasonic.com.tw/PSMIOUT/DL/DLFiles/3311/0_H_27491.pdf"
+      },
+      {
+        "id": "refrigerator-panasonic-nr-f653wx-w1",
+        "model": "NR-F653WX-W1",
+        "url": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=12307503",
+        "sourceKind": "yahoo_page",
+        "status": "verified_available",
+        "availability": "orderable_delivery_to_be_confirmed",
+        "httpStatus": 200,
+        "exactModel": true,
+        "excluded": false,
+        "price": 92499,
+        "reviewedAt": "2026-10-20",
+        "reviewBasis": "live_chrome_original_page_product_heading_purchase_buttons_and_lazy_loaded_specs",
+        "note": "Chrome原頁完整SKU、公開價格、立即購買／加入購物車及電壓110V已核對；只證可下單約配，不保證庫房現貨；頻率未標示。",
+        "warrantySourceUrl": "https://pstw.panasonic.com.tw/service/guarExtHelp.aspx",
+        "powerSourceUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=12307503",
+        "disclosureSourceUrl": "https://www.rakuten.com.tw/shop/panasonic-0n26/product/NR-F653WX/"
+      },
+      {
+        "id": "refrigerator-panasonic-nr-f603wx-x1",
+        "model": "NR-F603WX-X1",
+        "url": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=12307512",
+        "sourceKind": "yahoo_page",
+        "status": "verified_available",
+        "availability": "orderable_delivery_to_be_confirmed",
+        "httpStatus": 200,
+        "exactModel": true,
+        "excluded": false,
+        "price": 82961,
+        "reviewedAt": "2026-10-20",
+        "reviewBasis": "live_chrome_original_page_product_heading_purchase_buttons_and_lazy_loaded_specs",
+        "note": "Chrome原頁完整SKU、公開價格、立即購買／加入購物車及電壓110V已核對；只證可下單約配，不保證庫房現貨；頻率未標示。",
+        "warrantySourceUrl": "https://pstw.panasonic.com.tw/service/guarExtHelp.aspx",
+        "powerSourceUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=12307512",
+        "disclosureSourceUrl": "https://www.rakuten.com.tw/shop/panasonic-0n26/product/NR-F653WX/"
+      }
+    ],
+    "sourceLimitations": [
+      {
+        "eligibleForCatalogAddition": false,
+        "reason": "已驗證可信通路可下單，但未取得台灣exact-model電壓與電源頻率證據；不得以台灣販售、面板60Hz或海外同系列推定交流供電規格。依現有收錄contract暫追蹤，不加商品卡。",
+        "checkedAt": "2026-10-20",
+        "checkedSources": [
+          {
+            "url": "https://pstw.panasonic.com.tw/Consumer/Support/Download",
+            "method": "Chrome逐一搜尋TN-55W85CGT及W85C",
+            "outcome": "無此相關資料；無可引用官方說明書"
+          },
+          {
+            "url": "https://pstw.panasonic.com.tw/catalog/files/1_consumer/TV/202610_Panasonic_VIERA.pdf",
+            "method": "下載18頁PDF，人工看p17尺寸、p18完整規格表",
+            "outcome": "兩款exact-model明列，卻無供電電壓／頻率或整機功率；面板60Hz不可當供電60Hz。"
+          },
+          {
+            "url": "https://www.e-payless.com.tw/product/detail/169922?cid=2221",
+            "method": "Chrome商品介紹與商品規格tab",
+            "outcome": "商品規格tab只有句點，商品介紹無電力規格；不推定"
+          },
+          {
+            "url": "https://www.panasonic.com/tw/consumer/digital-av/tv/4k-led-monitor/tn-55w85cgt.html",
+            "method": "Chrome全規格展開與前往本商品服務頁面",
+            "outcome": "完整表沒有供電電壓／頻率；商品服務按鈕只連泛用FAQ，不提供exact-model手冊"
+          },
+          {
+            "url": "https://www.panasonic.com/tw/consumer/digital-av/tv/4k-led-monitor/tn-65w85cgt.html",
+            "method": "Chrome全規格展開",
+            "outcome": "完整表沒有供電電壓／頻率"
+          },
+          {
+            "url": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=12305939",
+            "method": "Chrome商品原頁完整規格",
+            "outcome": "可下單、全新與保固、尺寸清楚；無供電電壓／頻率"
+          },
+          {
+            "url": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=12305938",
+            "method": "Chrome商品原頁完整規格",
+            "outcome": "可下單、全新與保固、尺寸清楚；無供電電壓／頻率"
+          }
+        ]
+      }
+    ]
+  }
 }

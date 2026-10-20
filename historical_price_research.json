@@ -1,13 +1,13 @@
 {
   "summary": {
     "checkedAt": "2026-10-20T00:00:00.000+08:00",
-    "sourcePolicy": "2026-10-20 以 1156 筆基準清單全量查核公開價格基準（通路現價或明示官方建議售價）、購買連結與可信新品狀態，並複核最終 1159 筆商品圖片、全部 510 筆 found 史低來源、原廠停產訊號與同批次匯率。官方建議售價不自動寫成通路現價或史低；PChome exact-model 現貨頁有正值 Price.Low 時採公開折扣價，否則採 Price.P；Qty 0、福利品、展示機與配件不寫回。其他頁面的結構化價格差異列入人工覆核候選，阻擋、暫時錯誤與單次頁面失效只列稽核，不臆測停產或史低失效。",
-    "total": 1159,
-    "researchedThisRun": 1159,
+    "sourcePolicy": "2026-10-20 Panasonic 秋季新品定向增量：僅新增19款，原1159款商品、逐筆研究與實際查核日期保留；來源累積覆蓋不表示本輪全目錄重查。 僅採同型號可信新品來源；當日現價、券後價、點數及信用卡回饋不自動當史低。",
+    "total": 1178,
+    "researchedThisRun": 19,
     "found": 510,
-    "missing": 649,
+    "missing": 668,
     "byConfidence": {
-      "not_found": 649,
+      "not_found": 668,
       "high": 314,
       "medium": 196
     },
@@ -21,11 +21,11 @@
       "HKD_TWD": 4.1342765251679285,
       "KRW_TWD": 0.02432982344690451
     },
-    "lastMaintenanceCheckAt": "2026-10-19T23:13:09.900Z",
-    "currentPriceChanged": 30,
-    "currentBuyLinkChanged": 4,
-    "currentPriceDrops": 26,
-    "currentPriceRises": 4,
+    "lastMaintenanceCheckAt": "2026-10-20T01:49:37.935Z",
+    "currentPriceChanged": 0,
+    "currentBuyLinkChanged": 0,
+    "currentPriceDrops": 0,
+    "currentPriceRises": 0,
     "currentPriceFallbacks": 0,
     "historicalLowUpdated": 0,
     "historicalLowInvalidated": 0,
@@ -33,7 +33,7 @@
     "catalogReplacementNotes": [],
     "currentImageChanged": 0,
     "discontinuedRemoved": 0,
-    "newProductsAdded": 3,
+    "newProductsAdded": 19,
     "discontinuedRemovalNotes": [],
     "catalogEntriesRemoved": 0,
     "catalogRemovalNotes": [],
@@ -63,7 +63,8 @@
         }
       },
       "policy": "2026-09-02 重新覆核 PR #5 的 95 筆史低候選；只接受可現場重現原始頁、完整 exact model／尺寸／容量／件數／系統版本相符，且不高於目前公開價的可信新品價格歷史。95 個 LBJ 原始 sourceUrl 全數連線逾時，BigGo 亦不可用；FindPrice 95 筆皆可搜尋但沒有符合政策的候選；另有 4 筆舊數值高於目前公開價，因此 95 筆全部維持 not_found，未改寫商品或逐筆證據日期。"
-    }
+    },
+    "scopeNote": "2026-10-20 Panasonic 秋季新品定向增量：僅新增19款，原1159款商品、逐筆研究與實際查核日期保留；來源累積覆蓋不表示本輪全目錄重查。"
   },
   "results": [
     {
@@ -54143,6 +54144,644 @@
         "DFL1左開與舊DF313L不是選定右開330L。",
         "個人拍賣／露天排除，目前25208元不直接當史低。"
       ]
+    },
+    {
+      "id": "refrigerator-panasonic-nr-c457hgs-w",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-C457HGS-W",
+      "name": "Panasonic NR-C457HGS-W 450L 3門霧面玻璃變頻冰箱（沐霜白）",
+      "currentPrice": 38090,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KJNVR",
+      "currentBuyLabel": "PChome 24h購物",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-10-20",
+        "note": "已查 NR-C457HGS-W 的 BigGo 與 FindPrice exact-model 價格搜尋，並核對新品通路。BigGo索引查無結果；FindPrice只有當期比價，混有其他色碼、每期分期金額或通路促銷，沒有可核對日期的同規格歷史低點。未將現價或不明個人拍賣價格推定為史低。"
+      },
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "checkedSources": [
+        "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22NR-C457HGS-W%22",
+        "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22NR-C457HGS-W%22",
+        "https://24h.pchome.com.tw/prod/DPACHE-A900KJNVR"
+      ],
+      "rejectedCandidates": [
+        "FindPrice每期分期金額不是整機價格，其他色碼與個人拍賣不採為同SKU史低。",
+        "僅有現時比價，未有可驗證日期的歷史最低點；不以本卡現價推定。"
+      ]
+    },
+    {
+      "id": "refrigerator-panasonic-nr-c457hvs-b",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-C457HVS-B",
+      "name": "Panasonic NR-C457HVS-B 450L 3門霧面鋼板變頻冰箱（冰霧銀）",
+      "currentPrice": 36090,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KJNRO",
+      "currentBuyLabel": "PChome 24h購物",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-10-20",
+        "note": "已查 NR-C457HVS-B 的 BigGo 與 FindPrice exact-model 價格搜尋，並核對新品通路。BigGo索引查無結果；FindPrice只有當期比價，混有其他色碼、每期分期金額或通路促銷，沒有可核對日期的同規格歷史低點。未將現價或不明個人拍賣價格推定為史低。"
+      },
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "checkedSources": [
+        "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22NR-C457HVS-B%22",
+        "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22NR-C457HVS-B%22",
+        "https://24h.pchome.com.tw/prod/DPACHE-A900KJNRO"
+      ],
+      "rejectedCandidates": [
+        "FindPrice每期分期金額不是整機價格，其他色碼與個人拍賣不採為同SKU史低。",
+        "僅有現時比價，未有可驗證日期的歷史最低點；不以本卡現價推定。"
+      ]
+    },
+    {
+      "id": "refrigerator-panasonic-nr-c387hvs-c",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-C387HVS-C",
+      "name": "Panasonic NR-C387HVS-C 385L 3門霧面鋼板變頻冰箱（暖灰米）",
+      "currentPrice": 34000,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KJNPY",
+      "currentBuyLabel": "PChome 24h購物",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-10-20",
+        "note": "已查 NR-C387HVS-C 的 BigGo 與 FindPrice exact-model 價格搜尋，並核對新品通路。BigGo索引查無結果；FindPrice只有當期比價，混有其他色碼、每期分期金額或通路促銷，沒有可核對日期的同規格歷史低點。未將現價或不明個人拍賣價格推定為史低。"
+      },
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "checkedSources": [
+        "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22NR-C387HVS-C%22",
+        "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22NR-C387HVS-C%22",
+        "https://24h.pchome.com.tw/prod/DPACHE-A900KJNPY"
+      ],
+      "rejectedCandidates": [
+        "FindPrice每期分期金額不是整機價格，其他色碼與個人拍賣不採為同SKU史低。",
+        "僅有現時比價，未有可驗證日期的歷史最低點；不以本卡現價推定。"
+      ]
+    },
+    {
+      "id": "refrigerator-panasonic-nr-c387hvls-c",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-C387HVLS-C",
+      "name": "Panasonic NR-C387HVLS-C 385L 3門霧面鋼板變頻冰箱（暖灰米／左開）",
+      "currentPrice": 34000,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.momoshop.com.tw/product/15801630",
+      "currentBuyLabel": "momo購物網",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-10-20",
+        "note": "已查 NR-C387HVLS-C 的 BigGo 與 FindPrice exact-model 價格搜尋，並核對新品通路。BigGo索引查無結果；FindPrice只有當期比價，混有其他色碼、每期分期金額或通路促銷，沒有可核對日期的同規格歷史低點。未將現價或不明個人拍賣價格推定為史低。"
+      },
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "checkedSources": [
+        "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22NR-C387HVLS-C%22",
+        "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22NR-C387HVLS-C%22",
+        "https://www.momoshop.com.tw/product/15801630"
+      ],
+      "rejectedCandidates": [
+        "FindPrice每期分期金額不是整機價格，其他色碼與個人拍賣不採為同SKU史低。",
+        "僅有現時比價，未有可驗證日期的歷史最低點；不以本卡現價推定。"
+      ]
+    },
+    {
+      "id": "refrigerator-panasonic-nr-c587tvs-w",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-C587TVS-W",
+      "name": "Panasonic NR-C587TVS-W 578L 3門霧面鋼板變頻冰箱（冰霧白）",
+      "currentPrice": 35590,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KJPA2",
+      "currentBuyLabel": "PChome 24h購物",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-10-20",
+        "note": "已查 NR-C587TVS-W 的 BigGo 與 FindPrice exact-model 價格搜尋，並核對新品通路。BigGo索引查無結果；FindPrice只有當期比價，混有其他色碼、每期分期金額或通路促銷，沒有可核對日期的同規格歷史低點。未將現價或不明個人拍賣價格推定為史低。"
+      },
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "checkedSources": [
+        "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22NR-C587TVS-W%22",
+        "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22NR-C587TVS-W%22",
+        "https://24h.pchome.com.tw/prod/DPACHE-A900KJPA2"
+      ],
+      "rejectedCandidates": [
+        "FindPrice每期分期金額不是整機價格，其他色碼與個人拍賣不採為同SKU史低。",
+        "僅有現時比價，未有可驗證日期的歷史最低點；不以本卡現價推定。"
+      ]
+    },
+    {
+      "id": "refrigerator-panasonic-nr-c497tvs-b",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-C497TVS-B",
+      "name": "Panasonic NR-C497TVS-B 496L 3門霧面鋼板變頻冰箱（冰霧銀）",
+      "currentPrice": 32090,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KJORL",
+      "currentBuyLabel": "PChome 24h購物",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-10-20",
+        "note": "已查 NR-C497TVS-B 的 BigGo 與 FindPrice exact-model 價格搜尋，並核對新品通路。BigGo索引查無結果；FindPrice只有當期比價，混有其他色碼、每期分期金額或通路促銷，沒有可核對日期的同規格歷史低點。未將現價或不明個人拍賣價格推定為史低。"
+      },
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "checkedSources": [
+        "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22NR-C497TVS-B%22",
+        "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22NR-C497TVS-B%22",
+        "https://24h.pchome.com.tw/prod/DPACHE-A900KJORL"
+      ],
+      "rejectedCandidates": [
+        "FindPrice每期分期金額不是整機價格，其他色碼與個人拍賣不採為同SKU史低。",
+        "僅有現時比價，未有可驗證日期的歷史最低點；不以本卡現價推定。"
+      ]
+    },
+    {
+      "id": "refrigerator-panasonic-nr-b657tvs-b",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-B657TVS-B",
+      "name": "Panasonic NR-B657TVS-B 650L 2門霧面鋼板變頻冰箱（冰霧銀）",
+      "currentPrice": 34700,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KJO9B",
+      "currentBuyLabel": "PChome 24h購物",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-10-20",
+        "note": "已查 NR-B657TVS-B 的 BigGo 與 FindPrice exact-model 價格搜尋，並核對新品通路。BigGo索引查無結果；FindPrice只有當期比價，混有其他色碼、每期分期金額或通路促銷，沒有可核對日期的同規格歷史低點。未將現價或不明個人拍賣價格推定為史低。"
+      },
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "checkedSources": [
+        "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22NR-B657TVS-B%22",
+        "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22NR-B657TVS-B%22",
+        "https://24h.pchome.com.tw/prod/DPACHE-A900KJO9B"
+      ],
+      "rejectedCandidates": [
+        "FindPrice每期分期金額不是整機價格，其他色碼與個人拍賣不採為同SKU史低。",
+        "僅有現時比價，未有可驗證日期的歷史最低點；不以本卡現價推定。"
+      ]
+    },
+    {
+      "id": "refrigerator-panasonic-nr-b587tvs-b",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-B587TVS-B",
+      "name": "Panasonic NR-B587TVS-B 580L 2門霧面鋼板變頻冰箱（冰霧銀）",
+      "currentPrice": 32290,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KJO5L",
+      "currentBuyLabel": "PChome 24h購物",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-10-20",
+        "note": "已查 NR-B587TVS-B 的 BigGo 與 FindPrice exact-model 價格搜尋，並核對新品通路。BigGo索引查無結果；FindPrice只有當期比價，混有其他色碼、每期分期金額或通路促銷，沒有可核對日期的同規格歷史低點。未將現價或不明個人拍賣價格推定為史低。"
+      },
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "checkedSources": [
+        "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22NR-B587TVS-B%22",
+        "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22NR-B587TVS-B%22",
+        "https://24h.pchome.com.tw/prod/DPACHE-A900KJO5L"
+      ],
+      "rejectedCandidates": [
+        "FindPrice每期分期金額不是整機價格，其他色碼與個人拍賣不採為同SKU史低。",
+        "僅有現時比價，未有可驗證日期的歷史最低點；不以本卡現價推定。"
+      ]
+    },
+    {
+      "id": "refrigerator-panasonic-nr-b497tvs-b",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-B497TVS-B",
+      "name": "Panasonic NR-B497TVS-B 498L 2門霧面鋼板變頻冰箱（冰霧銀）",
+      "currentPrice": 28790,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KJO1D",
+      "currentBuyLabel": "PChome 24h購物",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-10-20",
+        "note": "已查 NR-B497TVS-B 的 BigGo 與 FindPrice exact-model 價格搜尋，並核對新品通路。BigGo索引查無結果；FindPrice只有當期比價，混有其他色碼、每期分期金額或通路促銷，沒有可核對日期的同規格歷史低點。未將現價或不明個人拍賣價格推定為史低。"
+      },
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "checkedSources": [
+        "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22NR-B497TVS-B%22",
+        "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22NR-B497TVS-B%22",
+        "https://24h.pchome.com.tw/prod/DPACHE-A900KJO1D"
+      ],
+      "rejectedCandidates": [
+        "FindPrice每期分期金額不是整機價格，其他色碼與個人拍賣不採為同SKU史低。",
+        "僅有現時比價，未有可驗證日期的歷史最低點；不以本卡現價推定。"
+      ]
+    },
+    {
+      "id": "refrigerator-panasonic-nr-b427tvs-b",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-B427TVS-B",
+      "name": "Panasonic NR-B427TVS-B 422L 2門霧面鋼板變頻冰箱（冰霧銀）",
+      "currentPrice": 25700,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KJNX7",
+      "currentBuyLabel": "PChome 24h購物",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-10-20",
+        "note": "已查 NR-B427TVS-B 的 BigGo 與 FindPrice exact-model 價格搜尋，並核對新品通路。BigGo索引查無結果；FindPrice只有當期比價，混有其他色碼、每期分期金額或通路促銷，沒有可核對日期的同規格歷史低點。未將現價或不明個人拍賣價格推定為史低。"
+      },
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "checkedSources": [
+        "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22NR-B427TVS-B%22",
+        "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22NR-B427TVS-B%22",
+        "https://24h.pchome.com.tw/prod/DPACHE-A900KJNX7"
+      ],
+      "rejectedCandidates": [
+        "FindPrice每期分期金額不是整機價格，其他色碼與個人拍賣不採為同SKU史低。",
+        "僅有現時比價，未有可驗證日期的歷史最低點；不以本卡現價推定。"
+      ]
+    },
+    {
+      "id": "refrigerator-panasonic-nr-d617xgs-b",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-D617XGS-B",
+      "name": "610L 四門日系上質無邊框霧面玻璃變頻冰箱（沐霜銀）",
+      "currentPrice": 49500,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KH8OJ",
+      "currentBuyLabel": "PChome（廠商約配）",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-10-20",
+        "note": "NR-D617XGS-B 已實際嘗試 FindPrice exact-model 比價與 LBJ exact-model 查價入口，兩者本輪讀取失敗；PChome 原頁與 API 只證目前公開售價及可下單狀態。未取得可重現、同型號同容量可信新品歷史價，不把現價、會員券、信用卡或點數當作史低。"
+      },
+      "checkedSources": [
+        "https://www.findprice.com.tw/g/NR-D617XGS-B",
+        "https://www.lbj.tw/BJ/Query.aspx?k=NR-D617XGS-B",
+        "https://24h.pchome.com.tw/prod/DPACHE-A900KH8OJ"
+      ],
+      "rejectedCandidates": [],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
+    },
+    {
+      "id": "refrigerator-panasonic-nr-d617xvs-b",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-D617XVS-B",
+      "name": "610L 四門日系上質無邊框霧面鋼板變頻冰箱（冰霧銀）",
+      "currentPrice": 44500,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KGZSV",
+      "currentBuyLabel": "PChome（廠商約配）",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-10-20",
+        "note": "NR-D617XVS-B 已實際嘗試 FindPrice exact-model 比價與 LBJ exact-model 查價入口，兩者本輪讀取失敗；PChome 原頁與 API 只證目前公開售價及可下單狀態。未取得可重現、同型號同容量可信新品歷史價，不把現價、會員券、信用卡或點數當作史低。"
+      },
+      "checkedSources": [
+        "https://www.findprice.com.tw/g/NR-D617XVS-B",
+        "https://www.lbj.tw/BJ/Query.aspx?k=NR-D617XVS-B",
+        "https://24h.pchome.com.tw/prod/DPACHE-A900KGZSV"
+      ],
+      "rejectedCandidates": [],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
+    },
+    {
+      "id": "refrigerator-panasonic-nr-d507xvs-b",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-D507XVS-B",
+      "name": "500L 四門日系上質無邊框霧面鋼板變頻冰箱（冰霧銀）",
+      "currentPrice": 43500,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KH8K8",
+      "currentBuyLabel": "PChome（廠商約配）",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-10-20",
+        "note": "NR-D507XVS-B 已實際嘗試 FindPrice exact-model 比價與 LBJ exact-model 查價入口，兩者本輪讀取失敗；PChome 原頁與 API 只證目前公開售價及可下單狀態。未取得可重現、同型號同容量可信新品歷史價，不把現價、會員券、信用卡或點數當作史低。"
+      },
+      "checkedSources": [
+        "https://www.findprice.com.tw/g/NR-D507XVS-B",
+        "https://www.lbj.tw/BJ/Query.aspx?k=NR-D507XVS-B",
+        "https://24h.pchome.com.tw/prod/DPACHE-A900KH8K8"
+      ],
+      "rejectedCandidates": [],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
+    },
+    {
+      "id": "refrigerator-panasonic-nr-c617xgs-b",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-C617XGS-B",
+      "name": "610L 三門日系上質無邊框霧面玻璃變頻冰箱（沐霜銀）",
+      "currentPrice": 47500,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KH8WT",
+      "currentBuyLabel": "PChome（廠商約配）",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-10-20",
+        "note": "NR-C617XGS-B 已實際嘗試 FindPrice exact-model 比價與 LBJ exact-model 查價入口，兩者本輪讀取失敗；PChome 原頁與 API 只證目前公開售價及可下單狀態。未取得可重現、同型號同容量可信新品歷史價，不把現價、會員券、信用卡或點數當作史低。"
+      },
+      "checkedSources": [
+        "https://www.findprice.com.tw/g/NR-C617XGS-B",
+        "https://www.lbj.tw/BJ/Query.aspx?k=NR-C617XGS-B",
+        "https://24h.pchome.com.tw/prod/DPACHE-A900KH8WT"
+      ],
+      "rejectedCandidates": [],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
+    },
+    {
+      "id": "refrigerator-panasonic-nr-c507xgs-w",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-C507XGS-W",
+      "name": "500L 三門日系上質無邊框霧面玻璃變頻冰箱（沐霜白）",
+      "currentPrice": 46500,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KIXNF",
+      "currentBuyLabel": "PChome（廠商約配）",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-10-20",
+        "note": "NR-C507XGS-W 已實際嘗試 FindPrice exact-model 比價與 LBJ exact-model 查價入口，兩者本輪讀取失敗；PChome 原頁與 API 只證目前公開售價及可下單狀態。未取得可重現、同型號同容量可信新品歷史價，不把現價、會員券、信用卡或點數當作史低。"
+      },
+      "checkedSources": [
+        "https://www.findprice.com.tw/g/NR-C507XGS-W",
+        "https://www.lbj.tw/BJ/Query.aspx?k=NR-C507XGS-W",
+        "https://24h.pchome.com.tw/prod/DPACHE-A900KIXNF"
+      ],
+      "rejectedCandidates": [],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
+    },
+    {
+      "id": "refrigerator-panasonic-nr-c617xvs-c",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-C617XVS-C",
+      "name": "610L 三門日系上質無邊框霧面鋼板變頻冰箱（暖灰米）",
+      "currentPrice": 42500,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KH8H2",
+      "currentBuyLabel": "PChome（廠商約配）",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-10-20",
+        "note": "NR-C617XVS-C 已實際嘗試 FindPrice exact-model 比價與 LBJ exact-model 查價入口，兩者本輪讀取失敗；PChome 原頁與 API 只證目前公開售價及可下單狀態。未取得可重現、同型號同容量可信新品歷史價，不把現價、會員券、信用卡或點數當作史低。"
+      },
+      "checkedSources": [
+        "https://www.findprice.com.tw/g/NR-C617XVS-C",
+        "https://www.lbj.tw/BJ/Query.aspx?k=NR-C617XVS-C",
+        "https://24h.pchome.com.tw/prod/DPACHE-A900KH8H2"
+      ],
+      "rejectedCandidates": [],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
+    },
+    {
+      "id": "refrigerator-panasonic-nr-c507xvs-b",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-C507XVS-B",
+      "name": "500L 三門日系上質無邊框霧面鋼板變頻冰箱（冰霧銀）",
+      "currentPrice": 41500,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KH8MY",
+      "currentBuyLabel": "PChome（廠商約配）",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-10-20",
+        "note": "NR-C507XVS-B 已實際嘗試 FindPrice exact-model 比價與 LBJ exact-model 查價入口，兩者本輪讀取失敗；PChome 原頁與 API 只證目前公開售價及可下單狀態。未取得可重現、同型號同容量可信新品歷史價，不把現價、會員券、信用卡或點數當作史低。"
+      },
+      "checkedSources": [
+        "https://www.findprice.com.tw/g/NR-C507XVS-B",
+        "https://www.lbj.tw/BJ/Query.aspx?k=NR-C507XVS-B",
+        "https://24h.pchome.com.tw/prod/DPACHE-A900KH8MY"
+      ],
+      "rejectedCandidates": [],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
+    },
+    {
+      "id": "refrigerator-panasonic-nr-f653wx-w1",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-F653WX-W1",
+      "name": "日本製650L六門日系上質玻璃變頻冰箱（霧晶白）",
+      "currentPrice": 92499,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=12307503",
+      "currentBuyLabel": "Yahoo（可下單／約配）",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-10-20",
+        "note": "NR-F653WX-W1 實際嘗試FindPrice與LBJ exact-model價格查詢，兩站本輪讀取失敗；Yahoo可重現的公開價只證目前可下單約配，不當作歷史最低價。未扣會員券、信用卡回饋、點數與登錄贈品。"
+      },
+      "checkedSources": [
+        "https://www.findprice.com.tw/g/NR-F653WX-W1",
+        "https://www.lbj.tw/BJ/Query.aspx?k=NR-F653WX-W1",
+        "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=12307503"
+      ],
+      "rejectedCandidates": [],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
+    },
+    {
+      "id": "refrigerator-panasonic-nr-f603wx-x1",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-F603WX-X1",
+      "name": "日本製600L六門日系上質玻璃變頻冰箱（鑽石黑）",
+      "currentPrice": 82961,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=12307512",
+      "currentBuyLabel": "Yahoo（可下單／約配）",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-10-20",
+        "note": "NR-F603WX-X1 實際嘗試FindPrice與LBJ exact-model價格查詢，兩站本輪讀取失敗；Yahoo可重現的公開價只證目前可下單約配，不當作歷史最低價。未扣會員券、信用卡回饋、點數與登錄贈品。"
+      },
+      "checkedSources": [
+        "https://www.findprice.com.tw/g/NR-F603WX-X1",
+        "https://www.lbj.tw/BJ/Query.aspx?k=NR-F603WX-X1",
+        "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=12307512"
+      ],
+      "rejectedCandidates": [],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     }
   ]
 }

@@ -2983,6 +2983,1767 @@
       "2026能源2級",
       "台灣公司貨"
     ]
+  },
+  {
+    "id": "refrigerator-panasonic-nr-c457hgs-w",
+    "category": "refrigerator",
+    "rank": 30,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Panasonic",
+    "model": "NR-C457HGS-W",
+    "name": "Panasonic NR-C457HGS-W 450L 3門霧面玻璃變頻冰箱（沐霜白）",
+    "price": {
+      "currency": "TWD",
+      "amount": 38090,
+      "converted": 38090,
+      "basis": "retailer_current",
+      "confidence": "2026-10-20 Chrome原始商品頁核對；公開數字現價，加入購物車可用，非預購標示；未扣會員券、點數或信用卡回饋"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DPACHEA900KJNVR/000001_1791355518.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KJNVR",
+    "buyLabel": "PChome 24h購物",
+    "installation": {
+      "status": "included_basic",
+      "note": "PChome標題含基本運送、拆箱定位與回收舊機；樓層、偏遠區、拆門、吊運與特殊搬運可能加價，依通路約配確認。"
+    },
+    "specs": [
+      "容量：450L；3門；霧面玻璃；沐霜白",
+      "尺寸：寬 67.1 x 深 69.5 x 高 183 cm",
+      "重量：82 kg（機身淨重；可信通路與外箱重量分列）",
+      "節能：符合2027年新1級；AI ECONAVI；官方年耗電264度",
+      "保鮮／便利：-3°C微凍結、Ag銀抑菌、冷凍室LED照明",
+      "開門：右開（由左至右開）",
+      "電壓／頻率：110V／60Hz（官方說明書第5頁）",
+      "安裝：含基本運送／定位或標準安裝；樓層、偏遠地區、拆門與特殊搬運另計"
+    ],
+    "description": "官方目前標示為新款的450L 3門冰箱，霧面玻璃外觀與AI ECONAVI智慧節能，符合2027年新1級規格。適合依容量、門向與實際擺放空間比較；不以新品標記推定明確上市日期。",
+    "pros": [
+      "450L容量與3門分區，可依家庭採買量選擇",
+      "官方年耗電264度，符合2027年新1級",
+      "台灣可信新品通路目前可下單並提供在地售後"
+    ],
+    "cons": [
+      "機身寬67.1cm、深69.5cm，仍須額外保留散熱及開門空間",
+      "淨重82kg，樓層或特殊搬運可能增加費用",
+      "尚未取得可驗證的明確上市日期與歷史最低價"
+    ],
+    "bestFor": "需要450L容量、3門分區及沐霜白外觀，且量過運送路徑與開門空間的家庭。",
+    "recommendation": "作為官方目前標示的新款候選，與既有型號並列比較容量、能效、外觀與實際價差；確認門向、散熱、保固和約配費用後再選擇。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-20",
+      "note": "已查 NR-C457HGS-W 的 BigGo 與 FindPrice exact-model 價格搜尋，並核對新品通路。BigGo索引查無結果；FindPrice只有當期比價，混有其他色碼、每期分期金額或通路促銷，沒有可核對日期的同規格歷史低點。未將現價或不明個人拍賣價格推定為史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-20",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"NR-C457HGS-W\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NR-C457HGS-W%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"NR-C457HGS-W\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NR-C457HGS-W%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+        }
+      ]
+    },
+    "score": 88,
+    "voltage": "110V／60Hz；官方系列說明書第5頁已核對，使用專用接地插座並依原廠規定保留散熱空間",
+    "warranty": "台灣公司貨，可信通路標示原廠保固1年；細項與主要零件年限依原廠保證書，Panasonic客服0800-098-800",
+    "tags": [
+      "450L",
+      "3門",
+      "2027新1級",
+      "霧面玻璃",
+      "台灣公司貨"
+    ]
+  },
+  {
+    "id": "refrigerator-panasonic-nr-c457hvs-b",
+    "category": "refrigerator",
+    "rank": 31,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Panasonic",
+    "model": "NR-C457HVS-B",
+    "name": "Panasonic NR-C457HVS-B 450L 3門霧面鋼板變頻冰箱（冰霧銀）",
+    "price": {
+      "currency": "TWD",
+      "amount": 36090,
+      "converted": 36090,
+      "basis": "retailer_current",
+      "confidence": "2026-10-20 Chrome原始商品頁核對；公開數字現價，加入購物車可用，非預購標示；未扣會員券、點數或信用卡回饋"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DPACHEA900KJNRO/000001_1791354789.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KJNRO",
+    "buyLabel": "PChome 24h購物",
+    "installation": {
+      "status": "included_basic",
+      "note": "PChome標題含基本運送、拆箱定位與回收舊機；樓層、偏遠區、拆門、吊運與特殊搬運可能加價，依通路約配確認。"
+    },
+    "specs": [
+      "容量：450L；3門；霧面鋼板；冰霧銀",
+      "尺寸：寬 67.5 x 深 69.5 x 高 183 cm",
+      "重量：76 kg（機身淨重；可信通路與外箱重量分列）",
+      "節能：符合2027年新1級；AI ECONAVI；官方年耗電264度",
+      "保鮮／便利：-3°C微凍結、Ag銀抑菌、冷凍室LED照明",
+      "開門：右開（由左至右開）",
+      "電壓／頻率：110V／60Hz（官方說明書第5頁）",
+      "安裝：含基本運送／定位或標準安裝；樓層、偏遠地區、拆門與特殊搬運另計"
+    ],
+    "description": "官方目前標示為新款的450L 3門冰箱，霧面鋼板外觀與AI ECONAVI智慧節能，符合2027年新1級規格。適合依容量、門向與實際擺放空間比較；不以新品標記推定明確上市日期。",
+    "pros": [
+      "450L容量與3門分區，可依家庭採買量選擇",
+      "官方年耗電264度，符合2027年新1級",
+      "台灣可信新品通路目前可下單並提供在地售後"
+    ],
+    "cons": [
+      "機身寬67.5cm、深69.5cm，仍須額外保留散熱及開門空間",
+      "淨重76kg，樓層或特殊搬運可能增加費用",
+      "尚未取得可驗證的明確上市日期與歷史最低價"
+    ],
+    "bestFor": "需要450L容量、3門分區及冰霧銀外觀，且量過運送路徑與開門空間的家庭。",
+    "recommendation": "作為官方目前標示的新款候選，與既有型號並列比較容量、能效、外觀與實際價差；確認門向、散熱、保固和約配費用後再選擇。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-20",
+      "note": "已查 NR-C457HVS-B 的 BigGo 與 FindPrice exact-model 價格搜尋，並核對新品通路。BigGo索引查無結果；FindPrice只有當期比價，混有其他色碼、每期分期金額或通路促銷，沒有可核對日期的同規格歷史低點。未將現價或不明個人拍賣價格推定為史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-20",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"NR-C457HVS-B\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NR-C457HVS-B%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"NR-C457HVS-B\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NR-C457HVS-B%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+        }
+      ]
+    },
+    "score": 88,
+    "voltage": "110V／60Hz；官方系列說明書第5頁已核對，使用專用接地插座並依原廠規定保留散熱空間",
+    "warranty": "台灣公司貨，可信通路標示原廠保固1年；細項與主要零件年限依原廠保證書，Panasonic客服0800-098-800",
+    "tags": [
+      "450L",
+      "3門",
+      "2027新1級",
+      "霧面鋼板",
+      "台灣公司貨"
+    ]
+  },
+  {
+    "id": "refrigerator-panasonic-nr-c387hvs-c",
+    "category": "refrigerator",
+    "rank": 32,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Panasonic",
+    "model": "NR-C387HVS-C",
+    "name": "Panasonic NR-C387HVS-C 385L 3門霧面鋼板變頻冰箱（暖灰米）",
+    "price": {
+      "currency": "TWD",
+      "amount": 34000,
+      "converted": 34000,
+      "basis": "retailer_current",
+      "confidence": "2026-10-20 Chrome原始商品頁核對；公開數字現價，加入購物車可用，非預購標示；未扣會員券、點數或信用卡回饋"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DPACHEA900KJNPY/000001_1791353928.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KJNPY",
+    "buyLabel": "PChome 24h購物",
+    "installation": {
+      "status": "included_basic",
+      "note": "PChome標題含基本運送、拆箱定位與回收舊機；樓層、偏遠區、拆門、吊運與特殊搬運可能加價，依通路約配確認。"
+    },
+    "specs": [
+      "容量：385L；3門；霧面鋼板；暖灰米",
+      "尺寸：寬 60 x 深 69.5 x 高 183 cm",
+      "重量：75 kg（機身淨重；可信通路與外箱重量分列）",
+      "節能：符合2027年新1級；AI ECONAVI；官方年耗電264度",
+      "保鮮／便利：即鮮魚肉保鮮室、Ag銀抑菌、冷凍室LED照明",
+      "開門：右開（由左至右開）",
+      "電壓／頻率：110V／60Hz（官方說明書第5頁）",
+      "安裝：含基本運送／定位或標準安裝；樓層、偏遠地區、拆門與特殊搬運另計"
+    ],
+    "description": "官方目前標示為新款的385L 3門冰箱，霧面鋼板外觀與AI ECONAVI智慧節能，符合2027年新1級規格。適合依容量、門向與實際擺放空間比較；不以新品標記推定明確上市日期。",
+    "pros": [
+      "385L容量與3門分區，可依家庭採買量選擇",
+      "官方年耗電264度，符合2027年新1級",
+      "台灣可信新品通路目前可下單並提供在地售後"
+    ],
+    "cons": [
+      "機身寬60cm、深69.5cm，仍須額外保留散熱及開門空間",
+      "淨重75kg，樓層或特殊搬運可能增加費用",
+      "尚未取得可驗證的明確上市日期與歷史最低價"
+    ],
+    "bestFor": "需要385L容量、3門分區及暖灰米外觀，且量過運送路徑與開門空間的家庭。",
+    "recommendation": "作為官方目前標示的新款候選，與既有型號並列比較容量、能效、外觀與實際價差；確認門向、散熱、保固和約配費用後再選擇。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-20",
+      "note": "已查 NR-C387HVS-C 的 BigGo 與 FindPrice exact-model 價格搜尋，並核對新品通路。BigGo索引查無結果；FindPrice只有當期比價，混有其他色碼、每期分期金額或通路促銷，沒有可核對日期的同規格歷史低點。未將現價或不明個人拍賣價格推定為史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-20",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"NR-C387HVS-C\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NR-C387HVS-C%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"NR-C387HVS-C\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NR-C387HVS-C%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+        }
+      ]
+    },
+    "score": 88,
+    "voltage": "110V／60Hz；官方系列說明書第5頁已核對，使用專用接地插座並依原廠規定保留散熱空間",
+    "warranty": "台灣公司貨，可信通路標示原廠保固1年；細項與主要零件年限依原廠保證書，Panasonic客服0800-098-800",
+    "tags": [
+      "385L",
+      "3門",
+      "2027新1級",
+      "霧面鋼板",
+      "台灣公司貨"
+    ]
+  },
+  {
+    "id": "refrigerator-panasonic-nr-c387hvls-c",
+    "category": "refrigerator",
+    "rank": 33,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Panasonic",
+    "model": "NR-C387HVLS-C",
+    "name": "Panasonic NR-C387HVLS-C 385L 3門霧面鋼板變頻冰箱（暖灰米／左開）",
+    "price": {
+      "currency": "TWD",
+      "amount": 34000,
+      "converted": 34000,
+      "basis": "retailer_current",
+      "confidence": "2026-10-20 Chrome原始商品頁核對；公開數字現價，已選暖米灰(C)、庫存低於5組、直接購買與放入購物車可用"
+    },
+    "image": "https://i4.momoshop.com.tw/1792049388/goodsimg/0015/801/630/15801630_R_m.webp",
+    "buyUrl": "https://www.momoshop.com.tw/product/15801630",
+    "buyLabel": "momo購物網",
+    "installation": {
+      "status": "included_basic",
+      "note": "momo明列含標準安裝；訂單確認後約配，樓層、偏遠區、拆門、吊運與特殊搬運可能加價。"
+    },
+    "specs": [
+      "容量：385L；3門；霧面鋼板；暖灰米／左開",
+      "尺寸：寬 60 x 深 69.5 x 高 183 cm",
+      "重量：75 kg（機身淨重；可信通路與外箱重量分列）",
+      "節能：符合2027年新1級；AI ECONAVI；官方年耗電264度",
+      "保鮮／便利：即鮮魚肉保鮮室、Ag銀抑菌、冷凍室LED照明",
+      "開門：左開（由右至左開）",
+      "電壓／頻率：110V／60Hz（官方說明書第5頁）",
+      "安裝：含基本運送／定位或標準安裝；樓層、偏遠地區、拆門與特殊搬運另計"
+    ],
+    "description": "官方目前標示為新款的385L 3門冰箱，霧面鋼板外觀與AI ECONAVI智慧節能，符合2027年新1級規格。適合依容量、門向與實際擺放空間比較；不以新品標記推定明確上市日期。",
+    "pros": [
+      "385L容量與3門分區，可依家庭採買量選擇",
+      "官方年耗電264度，符合2027年新1級",
+      "台灣可信新品通路目前可下單並提供在地售後"
+    ],
+    "cons": [
+      "機身寬60cm、深69.5cm，仍須額外保留散熱及開門空間",
+      "淨重75kg，樓層或特殊搬運可能增加費用",
+      "尚未取得可驗證的明確上市日期與歷史最低價"
+    ],
+    "bestFor": "需要385L容量、3門分區及暖灰米／左開外觀，且量過運送路徑與開門空間的家庭。",
+    "recommendation": "作為官方目前標示的新款候選，與既有型號並列比較容量、能效、外觀與實際價差；確認門向、散熱、保固和約配費用後再選擇。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-20",
+      "note": "已查 NR-C387HVLS-C 的 BigGo 與 FindPrice exact-model 價格搜尋，並核對新品通路。BigGo索引查無結果；FindPrice只有當期比價，混有其他色碼、每期分期金額或通路促銷，沒有可核對日期的同規格歷史低點。未將現價或不明個人拍賣價格推定為史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-20",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"NR-C387HVLS-C\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NR-C387HVLS-C%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"NR-C387HVLS-C\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NR-C387HVLS-C%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+        }
+      ]
+    },
+    "score": 88,
+    "voltage": "110V／60Hz；官方系列說明書第5頁已核對，使用專用接地插座並依原廠規定保留散熱空間",
+    "warranty": "台灣公司貨，可信通路標示原廠保固1年；細項與主要零件年限依原廠保證書，Panasonic客服0800-098-800",
+    "tags": [
+      "385L",
+      "3門",
+      "2027新1級",
+      "霧面鋼板",
+      "台灣公司貨",
+      "左開"
+    ]
+  },
+  {
+    "id": "refrigerator-panasonic-nr-c587tvs-w",
+    "category": "refrigerator",
+    "rank": 34,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Panasonic",
+    "model": "NR-C587TVS-W",
+    "name": "Panasonic NR-C587TVS-W 578L 3門霧面鋼板變頻冰箱（冰霧白）",
+    "price": {
+      "currency": "TWD",
+      "amount": 35590,
+      "converted": 35590,
+      "basis": "retailer_current",
+      "confidence": "2026-10-20 Chrome原始商品頁核對；公開數字現價，加入購物車可用，非預購標示；未扣會員券、點數或信用卡回饋"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DPACHEA900KJPA2/000001_1791366550.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KJPA2",
+    "buyLabel": "PChome 24h購物",
+    "installation": {
+      "status": "included_basic",
+      "note": "PChome標題含基本運送、拆箱定位與回收舊機；樓層、偏遠區、拆門、吊運與特殊搬運可能加價，依通路約配確認。"
+    },
+    "specs": [
+      "容量：578L；3門；霧面鋼板；冰霧白",
+      "尺寸：寬 77.5 x 深 78 x 高 183.4 cm",
+      "重量：83 kg（機身淨重；可信通路與外箱重量分列）",
+      "節能：符合2027年新1級；AI ECONAVI；官方年耗電300度",
+      "保鮮／便利：極鮮微凍解、Ag銀抑菌、冷藏室3D環繞式LED照明",
+      "開門：右開（由左至右開）",
+      "電壓／頻率：110V／60Hz；台灣公司貨，使用接地插座並依原廠要求保留散熱空間",
+      "安裝：含基本運送／定位或標準安裝；樓層、偏遠地區、拆門與特殊搬運另計"
+    ],
+    "description": "官方目前標示為新款的578L 3門冰箱，霧面鋼板外觀與AI ECONAVI智慧節能，符合2027年新1級規格。適合依容量、門向與實際擺放空間比較；不以新品標記推定明確上市日期。",
+    "pros": [
+      "578L容量與3門分區，可依家庭採買量選擇",
+      "官方年耗電300度，符合2027年新1級",
+      "台灣可信新品通路目前可下單並提供在地售後"
+    ],
+    "cons": [
+      "機身寬77.5cm、深78cm，仍須額外保留散熱及開門空間",
+      "淨重83kg，樓層或特殊搬運可能增加費用",
+      "尚未取得可驗證的明確上市日期與歷史最低價"
+    ],
+    "bestFor": "需要578L容量、3門分區及冰霧白外觀，且量過運送路徑與開門空間的家庭。",
+    "recommendation": "作為官方目前標示的新款候選，與既有型號並列比較容量、能效、外觀與實際價差；確認門向、散熱、保固和約配費用後再選擇。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-20",
+      "note": "已查 NR-C587TVS-W 的 BigGo 與 FindPrice exact-model 價格搜尋，並核對新品通路。BigGo索引查無結果；FindPrice只有當期比價，混有其他色碼、每期分期金額或通路促銷，沒有可核對日期的同規格歷史低點。未將現價或不明個人拍賣價格推定為史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-20",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"NR-C587TVS-W\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NR-C587TVS-W%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"NR-C587TVS-W\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NR-C587TVS-W%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+        }
+      ]
+    },
+    "score": 88,
+    "voltage": "110V／60Hz；台灣公司貨，使用接地插座並依原廠要求保留散熱空間",
+    "warranty": "台灣公司貨，可信通路標示原廠保固1年；細項與主要零件年限依原廠保證書，Panasonic客服0800-098-800",
+    "tags": [
+      "578L",
+      "3門",
+      "2027新1級",
+      "霧面鋼板",
+      "台灣公司貨"
+    ]
+  },
+  {
+    "id": "refrigerator-panasonic-nr-c497tvs-b",
+    "category": "refrigerator",
+    "rank": 35,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Panasonic",
+    "model": "NR-C497TVS-B",
+    "name": "Panasonic NR-C497TVS-B 496L 3門霧面鋼板變頻冰箱（冰霧銀）",
+    "price": {
+      "currency": "TWD",
+      "amount": 32090,
+      "converted": 32090,
+      "basis": "retailer_current",
+      "confidence": "2026-10-20 Chrome原始商品頁核對；公開數字現價，加入購物車可用，非預購標示；未扣會員券、點數或信用卡回饋"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DPACHEA900KJORL/000001_1791444842.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KJORL",
+    "buyLabel": "PChome 24h購物",
+    "installation": {
+      "status": "included_basic",
+      "note": "PChome標題含基本運送、拆箱定位與回收舊機；樓層、偏遠區、拆門、吊運與特殊搬運可能加價，依通路約配確認。"
+    },
+    "specs": [
+      "容量：496L；3門；霧面鋼板；冰霧銀",
+      "尺寸：寬 69.5 x 深 78 x 高 183.4 cm",
+      "重量：77 kg（機身淨重；可信通路與外箱重量分列）",
+      "節能：符合2027年新1級；AI ECONAVI；官方年耗電276度",
+      "保鮮／便利：極鮮微凍解、Ag銀抑菌、冷藏室3D環繞式LED照明",
+      "開門：右開（由左至右開）",
+      "電壓／頻率：110V／60Hz；台灣公司貨，使用接地插座並依原廠要求保留散熱空間",
+      "安裝：含基本運送／定位或標準安裝；樓層、偏遠地區、拆門與特殊搬運另計"
+    ],
+    "description": "官方目前標示為新款的496L 3門冰箱，霧面鋼板外觀與AI ECONAVI智慧節能，符合2027年新1級規格。適合依容量、門向與實際擺放空間比較；不以新品標記推定明確上市日期。",
+    "pros": [
+      "496L容量與3門分區，可依家庭採買量選擇",
+      "官方年耗電276度，符合2027年新1級",
+      "台灣可信新品通路目前可下單並提供在地售後"
+    ],
+    "cons": [
+      "機身寬69.5cm、深78cm，仍須額外保留散熱及開門空間",
+      "淨重77kg，樓層或特殊搬運可能增加費用",
+      "尚未取得可驗證的明確上市日期與歷史最低價"
+    ],
+    "bestFor": "需要496L容量、3門分區及冰霧銀外觀，且量過運送路徑與開門空間的家庭。",
+    "recommendation": "作為官方目前標示的新款候選，與既有型號並列比較容量、能效、外觀與實際價差；確認門向、散熱、保固和約配費用後再選擇。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-20",
+      "note": "已查 NR-C497TVS-B 的 BigGo 與 FindPrice exact-model 價格搜尋，並核對新品通路。BigGo索引查無結果；FindPrice只有當期比價，混有其他色碼、每期分期金額或通路促銷，沒有可核對日期的同規格歷史低點。未將現價或不明個人拍賣價格推定為史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-20",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"NR-C497TVS-B\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NR-C497TVS-B%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"NR-C497TVS-B\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NR-C497TVS-B%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+        }
+      ]
+    },
+    "score": 88,
+    "voltage": "110V／60Hz；台灣公司貨，使用接地插座並依原廠要求保留散熱空間",
+    "warranty": "台灣公司貨，可信通路標示原廠保固1年；細項與主要零件年限依原廠保證書，Panasonic客服0800-098-800",
+    "tags": [
+      "496L",
+      "3門",
+      "2027新1級",
+      "霧面鋼板",
+      "台灣公司貨"
+    ]
+  },
+  {
+    "id": "refrigerator-panasonic-nr-b657tvs-b",
+    "category": "refrigerator",
+    "rank": 36,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Panasonic",
+    "model": "NR-B657TVS-B",
+    "name": "Panasonic NR-B657TVS-B 650L 2門霧面鋼板變頻冰箱（冰霧銀）",
+    "price": {
+      "currency": "TWD",
+      "amount": 34700,
+      "converted": 34700,
+      "basis": "retailer_current",
+      "confidence": "2026-10-20 Chrome原始商品頁核對；公開數字現價，加入購物車可用，非預購標示；未扣會員券、點數或信用卡回饋"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DPACHEA900KJO9B/000001_1791358697.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KJO9B",
+    "buyLabel": "PChome 24h購物",
+    "installation": {
+      "status": "included_basic",
+      "note": "PChome標題含基本運送、拆箱定位與回收舊機；樓層、偏遠區、拆門、吊運與特殊搬運可能加價，依通路約配確認。"
+    },
+    "specs": [
+      "容量：650L；2門；霧面鋼板；冰霧銀",
+      "尺寸：寬 80.5 x 深 78 x 高 183.4 cm",
+      "重量：90 kg（機身淨重；可信通路與外箱重量分列）",
+      "節能：符合2027年新1級；AI ECONAVI；官方年耗電324度",
+      "保鮮／便利：極鮮微凍解、Ag銀抑菌、冷藏室3D環繞式LED照明",
+      "開門：右開（由左至右開）",
+      "電壓／頻率：110V／60Hz；台灣公司貨，使用接地插座並依原廠要求保留散熱空間",
+      "安裝：含基本運送／定位或標準安裝；樓層、偏遠地區、拆門與特殊搬運另計"
+    ],
+    "description": "官方目前標示為新款的650L 2門冰箱，霧面鋼板外觀與AI ECONAVI智慧節能，符合2027年新1級規格。適合依容量、門向與實際擺放空間比較；不以新品標記推定明確上市日期。",
+    "pros": [
+      "650L容量與2門分區，可依家庭採買量選擇",
+      "官方年耗電324度，符合2027年新1級",
+      "台灣可信新品通路目前可下單並提供在地售後"
+    ],
+    "cons": [
+      "機身寬80.5cm、深78cm，仍須額外保留散熱及開門空間",
+      "淨重90kg，樓層或特殊搬運可能增加費用",
+      "尚未取得可驗證的明確上市日期與歷史最低價"
+    ],
+    "bestFor": "需要650L容量、2門分區及冰霧銀外觀，且量過運送路徑與開門空間的家庭。",
+    "recommendation": "作為官方目前標示的新款候選，與既有型號並列比較容量、能效、外觀與實際價差；確認門向、散熱、保固和約配費用後再選擇。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-20",
+      "note": "已查 NR-B657TVS-B 的 BigGo 與 FindPrice exact-model 價格搜尋，並核對新品通路。BigGo索引查無結果；FindPrice只有當期比價，混有其他色碼、每期分期金額或通路促銷，沒有可核對日期的同規格歷史低點。未將現價或不明個人拍賣價格推定為史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-20",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"NR-B657TVS-B\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NR-B657TVS-B%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"NR-B657TVS-B\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NR-B657TVS-B%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+        }
+      ]
+    },
+    "score": 88,
+    "voltage": "110V／60Hz；台灣公司貨，使用接地插座並依原廠要求保留散熱空間",
+    "warranty": "台灣公司貨，可信通路標示原廠保固1年；細項與主要零件年限依原廠保證書，Panasonic客服0800-098-800",
+    "tags": [
+      "650L",
+      "2門",
+      "2027新1級",
+      "霧面鋼板",
+      "台灣公司貨"
+    ]
+  },
+  {
+    "id": "refrigerator-panasonic-nr-b587tvs-b",
+    "category": "refrigerator",
+    "rank": 37,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Panasonic",
+    "model": "NR-B587TVS-B",
+    "name": "Panasonic NR-B587TVS-B 580L 2門霧面鋼板變頻冰箱（冰霧銀）",
+    "price": {
+      "currency": "TWD",
+      "amount": 32290,
+      "converted": 32290,
+      "basis": "retailer_current",
+      "confidence": "2026-10-20 Chrome原始商品頁核對；公開數字現價，加入購物車可用，非預購標示；未扣會員券、點數或信用卡回饋"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DPACHEA900KJO5L/000001_1791357708.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KJO5L",
+    "buyLabel": "PChome 24h購物",
+    "installation": {
+      "status": "included_basic",
+      "note": "PChome標題含基本運送、拆箱定位與回收舊機；樓層、偏遠區、拆門、吊運與特殊搬運可能加價，依通路約配確認。"
+    },
+    "specs": [
+      "容量：580L；2門；霧面鋼板；冰霧銀",
+      "尺寸：寬 77.5 x 深 78 x 高 183.4 cm",
+      "重量：83 kg（機身淨重；可信通路與外箱重量分列）",
+      "節能：符合2027年新1級；AI ECONAVI；官方年耗電300度",
+      "保鮮／便利：極鮮微凍解、Ag銀抑菌、冷藏室3D環繞式LED照明",
+      "開門：右開（由左至右開）",
+      "電壓／頻率：110V／60Hz；台灣公司貨，使用接地插座並依原廠要求保留散熱空間",
+      "安裝：含基本運送／定位或標準安裝；樓層、偏遠地區、拆門與特殊搬運另計"
+    ],
+    "description": "官方目前標示為新款的580L 2門冰箱，霧面鋼板外觀與AI ECONAVI智慧節能，符合2027年新1級規格。適合依容量、門向與實際擺放空間比較；不以新品標記推定明確上市日期。",
+    "pros": [
+      "580L容量與2門分區，可依家庭採買量選擇",
+      "官方年耗電300度，符合2027年新1級",
+      "台灣可信新品通路目前可下單並提供在地售後"
+    ],
+    "cons": [
+      "機身寬77.5cm、深78cm，仍須額外保留散熱及開門空間",
+      "淨重83kg，樓層或特殊搬運可能增加費用",
+      "尚未取得可驗證的明確上市日期與歷史最低價"
+    ],
+    "bestFor": "需要580L容量、2門分區及冰霧銀外觀，且量過運送路徑與開門空間的家庭。",
+    "recommendation": "作為官方目前標示的新款候選，與既有型號並列比較容量、能效、外觀與實際價差；確認門向、散熱、保固和約配費用後再選擇。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-20",
+      "note": "已查 NR-B587TVS-B 的 BigGo 與 FindPrice exact-model 價格搜尋，並核對新品通路。BigGo索引查無結果；FindPrice只有當期比價，混有其他色碼、每期分期金額或通路促銷，沒有可核對日期的同規格歷史低點。未將現價或不明個人拍賣價格推定為史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-20",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"NR-B587TVS-B\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NR-B587TVS-B%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"NR-B587TVS-B\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NR-B587TVS-B%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+        }
+      ]
+    },
+    "score": 88,
+    "voltage": "110V／60Hz；台灣公司貨，使用接地插座並依原廠要求保留散熱空間",
+    "warranty": "台灣公司貨，可信通路標示原廠保固1年；細項與主要零件年限依原廠保證書，Panasonic客服0800-098-800",
+    "tags": [
+      "580L",
+      "2門",
+      "2027新1級",
+      "霧面鋼板",
+      "台灣公司貨"
+    ]
+  },
+  {
+    "id": "refrigerator-panasonic-nr-b497tvs-b",
+    "category": "refrigerator",
+    "rank": 38,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Panasonic",
+    "model": "NR-B497TVS-B",
+    "name": "Panasonic NR-B497TVS-B 498L 2門霧面鋼板變頻冰箱（冰霧銀）",
+    "price": {
+      "currency": "TWD",
+      "amount": 28790,
+      "converted": 28790,
+      "basis": "retailer_current",
+      "confidence": "2026-10-20 Chrome原始商品頁核對；公開數字現價，加入購物車可用，非預購標示；未扣會員券、點數或信用卡回饋"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DPACHEA900KJO1D/000001_1791444939.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KJO1D",
+    "buyLabel": "PChome 24h購物",
+    "installation": {
+      "status": "included_basic",
+      "note": "PChome標題含基本運送、拆箱定位與回收舊機；樓層、偏遠區、拆門、吊運與特殊搬運可能加價，依通路約配確認。"
+    },
+    "specs": [
+      "容量：498L；2門；霧面鋼板；冰霧銀",
+      "尺寸：寬 69.5 x 深 78 x 高 183.4 cm",
+      "重量：76 kg（機身淨重；可信通路與外箱重量分列）",
+      "節能：符合2027年新1級；AI ECONAVI；官方年耗電276度",
+      "保鮮／便利：極鮮微凍解、Ag銀抑菌、冷藏室3D環繞式LED照明",
+      "開門：右開（由左至右開）",
+      "電壓／頻率：110V／60Hz；台灣公司貨，使用接地插座並依原廠要求保留散熱空間",
+      "安裝：含基本運送／定位或標準安裝；樓層、偏遠地區、拆門與特殊搬運另計",
+      "尺寸查核：官方寬695mm優先；myfone文字697mm與官方不一致，未採通路寬度"
+    ],
+    "description": "官方目前標示為新款的498L 2門冰箱，霧面鋼板外觀與AI ECONAVI智慧節能，符合2027年新1級規格。適合依容量、門向與實際擺放空間比較；不以新品標記推定明確上市日期。",
+    "pros": [
+      "498L容量與2門分區，可依家庭採買量選擇",
+      "官方年耗電276度，符合2027年新1級",
+      "台灣可信新品通路目前可下單並提供在地售後"
+    ],
+    "cons": [
+      "機身寬69.5cm、深78cm，仍須額外保留散熱及開門空間",
+      "淨重76kg，樓層或特殊搬運可能增加費用",
+      "尚未取得可驗證的明確上市日期與歷史最低價"
+    ],
+    "bestFor": "需要498L容量、2門分區及冰霧銀外觀，且量過運送路徑與開門空間的家庭。",
+    "recommendation": "作為官方目前標示的新款候選，與既有型號並列比較容量、能效、外觀與實際價差；確認門向、散熱、保固和約配費用後再選擇。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-20",
+      "note": "已查 NR-B497TVS-B 的 BigGo 與 FindPrice exact-model 價格搜尋，並核對新品通路。BigGo索引查無結果；FindPrice只有當期比價，混有其他色碼、每期分期金額或通路促銷，沒有可核對日期的同規格歷史低點。未將現價或不明個人拍賣價格推定為史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-20",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"NR-B497TVS-B\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NR-B497TVS-B%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"NR-B497TVS-B\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NR-B497TVS-B%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+        }
+      ]
+    },
+    "score": 88,
+    "voltage": "110V／60Hz；台灣公司貨，使用接地插座並依原廠要求保留散熱空間",
+    "warranty": "台灣公司貨，可信通路標示原廠保固1年；細項與主要零件年限依原廠保證書，Panasonic客服0800-098-800",
+    "tags": [
+      "498L",
+      "2門",
+      "2027新1級",
+      "霧面鋼板",
+      "台灣公司貨"
+    ]
+  },
+  {
+    "id": "refrigerator-panasonic-nr-b427tvs-b",
+    "category": "refrigerator",
+    "rank": 39,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Panasonic",
+    "model": "NR-B427TVS-B",
+    "name": "Panasonic NR-B427TVS-B 422L 2門霧面鋼板變頻冰箱（冰霧銀）",
+    "price": {
+      "currency": "TWD",
+      "amount": 25700,
+      "converted": 25700,
+      "basis": "retailer_current",
+      "confidence": "2026-10-20 Chrome原始商品頁核對；公開數字現價，加入購物車可用，非預購標示；未扣會員券、點數或信用卡回饋"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DPACHEA900KJNX7/000001_1791356030.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KJNX7",
+    "buyLabel": "PChome 24h購物",
+    "installation": {
+      "status": "included_basic",
+      "note": "PChome標題含基本運送、拆箱定位與回收舊機；樓層、偏遠區、拆門、吊運與特殊搬運可能加價，依通路約配確認。"
+    },
+    "specs": [
+      "容量：422L；2門；霧面鋼板；冰霧銀",
+      "尺寸：寬 69.5 x 深 74.6 x 高 165 cm",
+      "重量：65 kg（機身淨重；可信通路與外箱重量分列）",
+      "節能：符合2027年新1級；AI ECONAVI；官方年耗電252度",
+      "保鮮／便利：極鮮微凍解、Ag銀抑菌、冷藏室3D環繞式LED照明",
+      "開門：右開（由左至右開）",
+      "電壓／頻率：110V／60Hz；台灣公司貨，使用接地插座並依原廠要求保留散熱空間",
+      "安裝：含基本運送／定位或標準安裝；樓層、偏遠地區、拆門與特殊搬運另計"
+    ],
+    "description": "官方目前標示為新款的422L 2門冰箱，霧面鋼板外觀與AI ECONAVI智慧節能，符合2027年新1級規格。適合依容量、門向與實際擺放空間比較；不以新品標記推定明確上市日期。",
+    "pros": [
+      "422L容量與2門分區，可依家庭採買量選擇",
+      "官方年耗電252度，符合2027年新1級",
+      "台灣可信新品通路目前可下單並提供在地售後"
+    ],
+    "cons": [
+      "機身寬69.5cm、深74.6cm，仍須額外保留散熱及開門空間",
+      "淨重65kg，樓層或特殊搬運可能增加費用",
+      "尚未取得可驗證的明確上市日期與歷史最低價"
+    ],
+    "bestFor": "需要422L容量、2門分區及冰霧銀外觀，且量過運送路徑與開門空間的家庭。",
+    "recommendation": "作為官方目前標示的新款候選，與既有型號並列比較容量、能效、外觀與實際價差；確認門向、散熱、保固和約配費用後再選擇。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-20",
+      "note": "已查 NR-B427TVS-B 的 BigGo 與 FindPrice exact-model 價格搜尋，並核對新品通路。BigGo索引查無結果；FindPrice只有當期比價，混有其他色碼、每期分期金額或通路促銷，沒有可核對日期的同規格歷史低點。未將現價或不明個人拍賣價格推定為史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-20",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"NR-B427TVS-B\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NR-B427TVS-B%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"NR-B427TVS-B\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NR-B427TVS-B%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+        }
+      ]
+    },
+    "score": 88,
+    "voltage": "110V／60Hz；台灣公司貨，使用接地插座並依原廠要求保留散熱空間",
+    "warranty": "台灣公司貨，可信通路標示原廠保固1年；細項與主要零件年限依原廠保證書，Panasonic客服0800-098-800",
+    "tags": [
+      "422L",
+      "2門",
+      "2027新1級",
+      "霧面鋼板",
+      "台灣公司貨"
+    ]
+  },
+  {
+    "id": "refrigerator-panasonic-nr-d617xgs-b",
+    "category": "refrigerator",
+    "rank": 40,
+    "topPick": false,
+    "budget": "mid",
+    "brand": "Panasonic",
+    "model": "NR-D617XGS-B",
+    "name": "610L 四門日系上質無邊框霧面玻璃變頻冰箱（沐霜銀）",
+    "image": "https://img.pchome.com.tw/cs/items/DPACHEA900KH8OJ/000001_1789983150.jpg",
+    "price": {
+      "currency": "TWD",
+      "amount": 49500,
+      "converted": 49500,
+      "basis": "retailer_current",
+      "confidence": "PChome 2026-10-20 原頁與 exact-model API 雙重核對；Price.Low 無正值，採公開網路價 Price.P，Qty 2；未扣會員券、點數或信用卡回饋"
+    },
+    "channel": "tw",
+    "buyLabel": "PChome（廠商約配）",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KH8OJ",
+    "installation": {
+      "status": "included_basic",
+      "note": "原頁明示含基本運送、拆箱定位及回收舊機。廠商出貨需聯絡約配，不受24h到貨限制；無電梯樓層、偏遠地區、吊掛及特殊搬運另依現場報價。"
+    },
+    "specs": [
+      "容量：610L；四門無邊框霧面玻璃，沐霜銀",
+      "尺寸：寬 77.1 x 深 78 x 高 183.4 cm",
+      "重量：105 kg（原廠說明書機身重量）",
+      "保鮮：新鮮急凍結、-3°C 微凍結、智慧保濕蔬果室；nanoe X、環境氣氛燈與 IoT 智慧健康家電",
+      "節能：符合2027年新1級；年耗電300度；AI ECONAVI變頻節能",
+      "製冰：自動製冰；儲水器約1.2L，可清洗製冰盒",
+      "電壓／頻率：110V／60Hz；需單獨使用15A以上插座並確認接地",
+      "安裝：頂部至少10cm、兩側及背部至少2cm；另留開門取出層架與搬運路徑空間"
+    ],
+    "description": "610L 四門對開冷藏配置，以無邊框霧面玻璃門板與符合2027年新1級的節能規格提供新選項；搭載nanoe X、環境氣氛燈與 IoT 智慧健康家電。2026-10-20 PChome exact SKU 可下單，交期由廠商聯絡約配，並非24小時到貨保證。",
+    "pros": [
+      "610L 分區整合微凍結、新鮮急凍與自動製冰",
+      "官方年耗電300度，符合2027年新1級能效",
+      "霧面玻璃搭配nanoe X、IoT與環境氣氛燈"
+    ],
+    "cons": [
+      "77.1cm機身寬與78cm深度之外仍要保留散熱及開門空間",
+      "105kg機身需先確認電梯、樓梯、門寬與額外搬運費",
+      "本輪未取得明確上市日期及可驗證史低；實際交期須由通路確認"
+    ],
+    "bestFor": "需要610L容量與四門分區，偏好玻璃門板、IoT功能，且可容納機身及散熱空間的家庭。",
+    "recommendation": "與既有Panasonic同容量舊款並列，依對開門收納、門板材質、IoT需求及實際價差選擇；新型號不直接取代仍有新品通路的舊款。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-20",
+      "note": "NR-D617XGS-B 已實際嘗試 FindPrice exact-model 比價與 LBJ exact-model 查價入口，兩者本輪讀取失敗；PChome 原頁與 API 只證目前公開售價及可下單狀態。未取得可重現、同型號同容量可信新品歷史價，不把現價、會員券、信用卡或點數當作史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-20",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"NR-D617XGS-B\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NR-D617XGS-B%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"NR-D617XGS-B\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NR-D617XGS-B%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)",
+          "targetHost": "ptt.cc"
+        }
+      ]
+    },
+    "score": 90,
+    "voltage": "110V／60Hz；原廠說明書明示，單獨使用額定15A以上接地插座",
+    "warranty": "台灣公司貨：全機1年；印刷電路板及冷媒流通系統3年；壓縮機5年。依原廠保證書與家庭使用條款，Panasonic台灣客服0800-098-800。",
+    "tags": [
+      "610L",
+      "四門",
+      "霧面玻璃",
+      "2027新1級",
+      "IoT",
+      "台灣公司貨"
+    ]
+  },
+  {
+    "id": "refrigerator-panasonic-nr-d617xvs-b",
+    "category": "refrigerator",
+    "rank": 41,
+    "topPick": false,
+    "budget": "mid",
+    "brand": "Panasonic",
+    "model": "NR-D617XVS-B",
+    "name": "610L 四門日系上質無邊框霧面鋼板變頻冰箱（冰霧銀）",
+    "image": "https://img.pchome.com.tw/cs/items/DPACHEA900KGZSV/000001_1789980497.jpg",
+    "price": {
+      "currency": "TWD",
+      "amount": 44500,
+      "converted": 44500,
+      "basis": "retailer_current",
+      "confidence": "PChome 2026-10-20 原頁與 exact-model API 雙重核對；Price.Low 無正值，採公開網路價 Price.P，Qty 2；未扣會員券、點數或信用卡回饋"
+    },
+    "channel": "tw",
+    "buyLabel": "PChome（廠商約配）",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KGZSV",
+    "installation": {
+      "status": "included_basic",
+      "note": "原頁明示含基本運送、拆箱定位及回收舊機。廠商出貨需聯絡約配，不受24h到貨限制；無電梯樓層、偏遠地區、吊掛及特殊搬運另依現場報價。"
+    },
+    "specs": [
+      "容量：610L；四門無邊框霧面鋼板，冰霧銀",
+      "尺寸：寬 77.5 x 深 78 x 高 183.4 cm",
+      "重量：95 kg（原廠說明書機身重量）",
+      "保鮮：新鮮急凍結、-3°C 微凍結、智慧保濕蔬果室；Ag 銀抑菌與冷凍室 LED 照明",
+      "節能：符合2027年新1級；年耗電300度；AI ECONAVI變頻節能",
+      "製冰：自動製冰；儲水器約1.2L，可清洗製冰盒",
+      "電壓／頻率：110V／60Hz；需單獨使用15A以上插座並確認接地",
+      "安裝：頂部至少10cm、兩側及背部至少2cm；另留開門取出層架與搬運路徑空間"
+    ],
+    "description": "610L 四門對開冷藏配置，以無邊框霧面鋼板門板與符合2027年新1級的節能規格提供新選項；搭載Ag 銀抑菌與冷凍室 LED 照明。2026-10-20 PChome exact SKU 可下單，交期由廠商聯絡約配，並非24小時到貨保證。",
+    "pros": [
+      "610L 分區整合微凍結、新鮮急凍與自動製冰",
+      "官方年耗電300度，符合2027年新1級能效",
+      "霧面鋼板搭配Ag銀抑菌，降低相近玻璃款的購置成本"
+    ],
+    "cons": [
+      "77.5cm機身寬與78cm深度之外仍要保留散熱及開門空間",
+      "95kg機身需先確認電梯、樓梯、門寬與額外搬運費",
+      "本輪未取得明確上市日期及可驗證史低；實際交期須由通路確認"
+    ],
+    "bestFor": "需要610L容量與四門分區，偏好鋼板門板與較低購置成本，且可容納機身及散熱空間的家庭。",
+    "recommendation": "與既有Panasonic同容量舊款並列，依對開門收納、門板材質、IoT需求及實際價差選擇；新型號不直接取代仍有新品通路的舊款。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-20",
+      "note": "NR-D617XVS-B 已實際嘗試 FindPrice exact-model 比價與 LBJ exact-model 查價入口，兩者本輪讀取失敗；PChome 原頁與 API 只證目前公開售價及可下單狀態。未取得可重現、同型號同容量可信新品歷史價，不把現價、會員券、信用卡或點數當作史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-20",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"NR-D617XVS-B\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NR-D617XVS-B%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"NR-D617XVS-B\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NR-D617XVS-B%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)",
+          "targetHost": "ptt.cc"
+        }
+      ]
+    },
+    "score": 89,
+    "voltage": "110V／60Hz；原廠說明書明示，單獨使用額定15A以上接地插座",
+    "warranty": "台灣公司貨：全機1年；印刷電路板及冷媒流通系統3年；壓縮機5年。依原廠保證書與家庭使用條款，Panasonic台灣客服0800-098-800。",
+    "tags": [
+      "610L",
+      "四門",
+      "霧面鋼板",
+      "2027新1級",
+      "Ag銀抑菌",
+      "台灣公司貨"
+    ]
+  },
+  {
+    "id": "refrigerator-panasonic-nr-d507xvs-b",
+    "category": "refrigerator",
+    "rank": 42,
+    "topPick": false,
+    "budget": "mid",
+    "brand": "Panasonic",
+    "model": "NR-D507XVS-B",
+    "name": "500L 四門日系上質無邊框霧面鋼板變頻冰箱（冰霧銀）",
+    "image": "https://img.pchome.com.tw/cs/items/DPACHEA900KH8K8/000001_1789981776.jpg",
+    "price": {
+      "currency": "TWD",
+      "amount": 43500,
+      "converted": 43500,
+      "basis": "retailer_current",
+      "confidence": "PChome 2026-10-20 原頁與 exact-model API 雙重核對；Price.Low 無正值，採公開網路價 Price.P，Qty 2；未扣會員券、點數或信用卡回饋"
+    },
+    "channel": "tw",
+    "buyLabel": "PChome（廠商約配）",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KH8K8",
+    "installation": {
+      "status": "included_basic",
+      "note": "原頁明示含基本運送、拆箱定位及回收舊機。廠商出貨需聯絡約配，不受24h到貨限制；無電梯樓層、偏遠地區、吊掛及特殊搬運另依現場報價。"
+    },
+    "specs": [
+      "容量：500L；四門無邊框霧面鋼板，冰霧銀",
+      "尺寸：寬 72.5 x 深 69.5 x 高 183.4 cm",
+      "重量：84 kg（原廠說明書機身重量）",
+      "保鮮：新鮮急凍結、-3°C 微凍結、智慧保濕蔬果室；Ag 銀抑菌與冷凍室 LED 照明",
+      "節能：符合2027年新1級；年耗電276度；AI ECONAVI變頻節能",
+      "製冰：自動製冰；儲水器約1.2L，可清洗製冰盒",
+      "電壓／頻率：110V／60Hz；需單獨使用15A以上插座並確認接地",
+      "安裝：頂部至少10cm、兩側及背部至少2cm；另留開門取出層架與搬運路徑空間"
+    ],
+    "description": "500L 四門對開冷藏配置，以無邊框霧面鋼板門板與符合2027年新1級的節能規格提供新選項；搭載Ag 銀抑菌與冷凍室 LED 照明。2026-10-20 PChome exact SKU 可下單，交期由廠商聯絡約配，並非24小時到貨保證。",
+    "pros": [
+      "500L 分區整合微凍結、新鮮急凍與自動製冰",
+      "官方年耗電276度，符合2027年新1級能效",
+      "霧面鋼板搭配Ag銀抑菌，降低相近玻璃款的購置成本"
+    ],
+    "cons": [
+      "72.5cm機身寬與69.5cm深度之外仍要保留散熱及開門空間",
+      "84kg機身需先確認電梯、樓梯、門寬與額外搬運費",
+      "本輪未取得明確上市日期及可驗證史低；實際交期須由通路確認"
+    ],
+    "bestFor": "需要500L容量與四門分區，偏好鋼板門板與較低購置成本，且可容納機身及散熱空間的家庭。",
+    "recommendation": "與既有Panasonic同容量舊款並列，依對開門收納、門板材質、IoT需求及實際價差選擇；新型號不直接取代仍有新品通路的舊款。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-20",
+      "note": "NR-D507XVS-B 已實際嘗試 FindPrice exact-model 比價與 LBJ exact-model 查價入口，兩者本輪讀取失敗；PChome 原頁與 API 只證目前公開售價及可下單狀態。未取得可重現、同型號同容量可信新品歷史價，不把現價、會員券、信用卡或點數當作史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-20",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"NR-D507XVS-B\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NR-D507XVS-B%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"NR-D507XVS-B\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NR-D507XVS-B%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)",
+          "targetHost": "ptt.cc"
+        }
+      ]
+    },
+    "score": 89,
+    "voltage": "110V／60Hz；原廠說明書明示，單獨使用額定15A以上接地插座",
+    "warranty": "台灣公司貨：全機1年；印刷電路板及冷媒流通系統3年；壓縮機5年。依原廠保證書與家庭使用條款，Panasonic台灣客服0800-098-800。",
+    "tags": [
+      "500L",
+      "四門",
+      "霧面鋼板",
+      "2027新1級",
+      "Ag銀抑菌",
+      "台灣公司貨"
+    ]
+  },
+  {
+    "id": "refrigerator-panasonic-nr-c617xgs-b",
+    "category": "refrigerator",
+    "rank": 43,
+    "topPick": false,
+    "budget": "mid",
+    "brand": "Panasonic",
+    "model": "NR-C617XGS-B",
+    "name": "610L 三門日系上質無邊框霧面玻璃變頻冰箱（沐霜銀）",
+    "image": "https://img.pchome.com.tw/cs/items/DPACHEA900KH8WT/000001_1790239025.jpg",
+    "price": {
+      "currency": "TWD",
+      "amount": 47500,
+      "converted": 47500,
+      "basis": "retailer_current",
+      "confidence": "PChome 2026-10-20 原頁與 exact-model API 雙重核對；Price.Low 無正值，採公開網路價 Price.P，Qty 2；未扣會員券、點數或信用卡回饋"
+    },
+    "channel": "tw",
+    "buyLabel": "PChome（廠商約配）",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KH8WT",
+    "installation": {
+      "status": "included_basic",
+      "note": "原頁明示含基本運送、拆箱定位及回收舊機。廠商出貨需聯絡約配，不受24h到貨限制；無電梯樓層、偏遠地區、吊掛及特殊搬運另依現場報價。"
+    },
+    "specs": [
+      "容量：610L；三門無邊框霧面玻璃，沐霜銀",
+      "尺寸：寬 77.1 x 深 78 x 高 183.4 cm",
+      "重量：105 kg（原廠說明書機身重量）",
+      "保鮮：新鮮急凍結、-3°C 微凍結、智慧保濕蔬果室；nanoe X、環境氣氛燈與 IoT 智慧健康家電",
+      "節能：符合2027年新1級；年耗電300度；AI ECONAVI變頻節能",
+      "製冰：自動製冰；儲水器約1.2L，可清洗製冰盒",
+      "電壓／頻率：110V／60Hz；需單獨使用15A以上插座並確認接地",
+      "安裝：頂部至少10cm、兩側及背部至少2cm；另留開門取出層架與搬運路徑空間"
+    ],
+    "description": "610L 三門單扇冷藏配置，以無邊框霧面玻璃門板與符合2027年新1級的節能規格提供新選項；搭載nanoe X、環境氣氛燈與 IoT 智慧健康家電。2026-10-20 PChome exact SKU 可下單，交期由廠商聯絡約配，並非24小時到貨保證。",
+    "pros": [
+      "610L 分區整合微凍結、新鮮急凍與自動製冰",
+      "官方年耗電300度，符合2027年新1級能效",
+      "霧面玻璃搭配nanoe X、IoT與環境氣氛燈"
+    ],
+    "cons": [
+      "77.1cm機身寬與78cm深度之外仍要保留散熱及開門空間",
+      "105kg機身需先確認電梯、樓梯、門寬與額外搬運費",
+      "本輪未取得明確上市日期及可驗證史低；實際交期須由通路確認"
+    ],
+    "bestFor": "需要610L容量與三門收納，偏好玻璃門板、IoT功能，且可容納機身及散熱空間的家庭。",
+    "recommendation": "與既有Panasonic同容量舊款並列，依單扇冷藏門開啟空間、門板材質、IoT需求及實際價差選擇；新型號不直接取代仍有新品通路的舊款。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-20",
+      "note": "NR-C617XGS-B 已實際嘗試 FindPrice exact-model 比價與 LBJ exact-model 查價入口，兩者本輪讀取失敗；PChome 原頁與 API 只證目前公開售價及可下單狀態。未取得可重現、同型號同容量可信新品歷史價，不把現價、會員券、信用卡或點數當作史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-20",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"NR-C617XGS-B\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NR-C617XGS-B%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"NR-C617XGS-B\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NR-C617XGS-B%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)",
+          "targetHost": "ptt.cc"
+        }
+      ]
+    },
+    "score": 90,
+    "voltage": "110V／60Hz；原廠說明書明示，單獨使用額定15A以上接地插座",
+    "warranty": "台灣公司貨：全機1年；印刷電路板及冷媒流通系統3年；壓縮機5年。依原廠保證書與家庭使用條款，Panasonic台灣客服0800-098-800。",
+    "tags": [
+      "610L",
+      "三門",
+      "霧面玻璃",
+      "2027新1級",
+      "IoT",
+      "台灣公司貨"
+    ]
+  },
+  {
+    "id": "refrigerator-panasonic-nr-c507xgs-w",
+    "category": "refrigerator",
+    "rank": 44,
+    "topPick": false,
+    "budget": "mid",
+    "brand": "Panasonic",
+    "model": "NR-C507XGS-W",
+    "name": "500L 三門日系上質無邊框霧面玻璃變頻冰箱（沐霜白）",
+    "image": "https://img.pchome.com.tw/cs/items/DPACHEA900KIXNF/000001_1790931200.jpg",
+    "price": {
+      "currency": "TWD",
+      "amount": 46500,
+      "converted": 46500,
+      "basis": "retailer_current",
+      "confidence": "PChome 2026-10-20 原頁與 exact-model API 雙重核對；Price.Low 無正值，採公開網路價 Price.P，Qty 2；未扣會員券、點數或信用卡回饋"
+    },
+    "channel": "tw",
+    "buyLabel": "PChome（廠商約配）",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KIXNF",
+    "installation": {
+      "status": "included_basic",
+      "note": "原頁明示含基本運送、拆箱定位及回收舊機。廠商出貨需聯絡約配，不受24h到貨限制；無電梯樓層、偏遠地區、吊掛及特殊搬運另依現場報價。"
+    },
+    "specs": [
+      "容量：500L；三門無邊框霧面玻璃，沐霜白",
+      "尺寸：寬 72.1 x 深 69.5 x 高 183.4 cm",
+      "重量：94 kg（原廠說明書機身重量）",
+      "保鮮：新鮮急凍結、-3°C 微凍結、智慧保濕蔬果室；nanoe X、環境氣氛燈與 IoT 智慧健康家電",
+      "節能：符合2027年新1級；年耗電276度；AI ECONAVI變頻節能",
+      "製冰：自動製冰；儲水器約1.2L，可清洗製冰盒",
+      "電壓／頻率：110V／60Hz；需單獨使用15A以上插座並確認接地",
+      "安裝：頂部至少10cm、兩側及背部至少2cm；另留開門取出層架與搬運路徑空間"
+    ],
+    "description": "500L 三門單扇冷藏配置，以無邊框霧面玻璃門板與符合2027年新1級的節能規格提供新選項；搭載nanoe X、環境氣氛燈與 IoT 智慧健康家電。2026-10-20 PChome exact SKU 可下單，交期由廠商聯絡約配，並非24小時到貨保證。",
+    "pros": [
+      "500L 分區整合微凍結、新鮮急凍與自動製冰",
+      "官方年耗電276度，符合2027年新1級能效",
+      "霧面玻璃搭配nanoe X、IoT與環境氣氛燈"
+    ],
+    "cons": [
+      "72.1cm機身寬與69.5cm深度之外仍要保留散熱及開門空間",
+      "94kg機身需先確認電梯、樓梯、門寬與額外搬運費",
+      "本輪未取得明確上市日期及可驗證史低；實際交期須由通路確認"
+    ],
+    "bestFor": "需要500L容量與三門收納，偏好玻璃門板、IoT功能，且可容納機身及散熱空間的家庭。",
+    "recommendation": "與既有Panasonic同容量舊款並列，依單扇冷藏門開啟空間、門板材質、IoT需求及實際價差選擇；新型號不直接取代仍有新品通路的舊款。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-20",
+      "note": "NR-C507XGS-W 已實際嘗試 FindPrice exact-model 比價與 LBJ exact-model 查價入口，兩者本輪讀取失敗；PChome 原頁與 API 只證目前公開售價及可下單狀態。未取得可重現、同型號同容量可信新品歷史價，不把現價、會員券、信用卡或點數當作史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-20",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"NR-C507XGS-W\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NR-C507XGS-W%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"NR-C507XGS-W\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NR-C507XGS-W%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)",
+          "targetHost": "ptt.cc"
+        }
+      ]
+    },
+    "score": 90,
+    "voltage": "110V／60Hz；原廠說明書明示，單獨使用額定15A以上接地插座",
+    "warranty": "台灣公司貨：全機1年；印刷電路板及冷媒流通系統3年；壓縮機5年。依原廠保證書與家庭使用條款，Panasonic台灣客服0800-098-800。",
+    "tags": [
+      "500L",
+      "三門",
+      "霧面玻璃",
+      "2027新1級",
+      "IoT",
+      "台灣公司貨"
+    ]
+  },
+  {
+    "id": "refrigerator-panasonic-nr-c617xvs-c",
+    "category": "refrigerator",
+    "rank": 45,
+    "topPick": false,
+    "budget": "mid",
+    "brand": "Panasonic",
+    "model": "NR-C617XVS-C",
+    "name": "610L 三門日系上質無邊框霧面鋼板變頻冰箱（暖灰米）",
+    "image": "https://img.pchome.com.tw/cs/items/DPACHEA900KH8H2/000001_1789981249.jpg",
+    "price": {
+      "currency": "TWD",
+      "amount": 42500,
+      "converted": 42500,
+      "basis": "retailer_current",
+      "confidence": "PChome 2026-10-20 原頁與 exact-model API 雙重核對；Price.Low 無正值，採公開網路價 Price.P，Qty 2；未扣會員券、點數或信用卡回饋"
+    },
+    "channel": "tw",
+    "buyLabel": "PChome（廠商約配）",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KH8H2",
+    "installation": {
+      "status": "included_basic",
+      "note": "原頁明示含基本運送、拆箱定位及回收舊機。廠商出貨需聯絡約配，不受24h到貨限制；無電梯樓層、偏遠地區、吊掛及特殊搬運另依現場報價。"
+    },
+    "specs": [
+      "容量：610L；三門無邊框霧面鋼板，暖灰米",
+      "尺寸：寬 77.5 x 深 78 x 高 183.4 cm",
+      "重量：95 kg（原廠說明書機身重量）",
+      "保鮮：新鮮急凍結、-3°C 微凍結、智慧保濕蔬果室；Ag 銀抑菌與冷凍室 LED 照明",
+      "節能：符合2027年新1級；年耗電300度；AI ECONAVI變頻節能",
+      "製冰：自動製冰；儲水器約1.2L，可清洗製冰盒",
+      "電壓／頻率：110V／60Hz；需單獨使用15A以上插座並確認接地",
+      "安裝：頂部至少10cm、兩側及背部至少2cm；另留開門取出層架與搬運路徑空間"
+    ],
+    "description": "610L 三門單扇冷藏配置，以無邊框霧面鋼板門板與符合2027年新1級的節能規格提供新選項；搭載Ag 銀抑菌與冷凍室 LED 照明。2026-10-20 PChome exact SKU 可下單，交期由廠商聯絡約配，並非24小時到貨保證。",
+    "pros": [
+      "610L 分區整合微凍結、新鮮急凍與自動製冰",
+      "官方年耗電300度，符合2027年新1級能效",
+      "霧面鋼板搭配Ag銀抑菌，降低相近玻璃款的購置成本"
+    ],
+    "cons": [
+      "77.5cm機身寬與78cm深度之外仍要保留散熱及開門空間",
+      "95kg機身需先確認電梯、樓梯、門寬與額外搬運費",
+      "本輪未取得明確上市日期及可驗證史低；實際交期須由通路確認"
+    ],
+    "bestFor": "需要610L容量與三門收納，偏好鋼板門板與較低購置成本，且可容納機身及散熱空間的家庭。",
+    "recommendation": "與既有Panasonic同容量舊款並列，依單扇冷藏門開啟空間、門板材質、IoT需求及實際價差選擇；新型號不直接取代仍有新品通路的舊款。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-20",
+      "note": "NR-C617XVS-C 已實際嘗試 FindPrice exact-model 比價與 LBJ exact-model 查價入口，兩者本輪讀取失敗；PChome 原頁與 API 只證目前公開售價及可下單狀態。未取得可重現、同型號同容量可信新品歷史價，不把現價、會員券、信用卡或點數當作史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-20",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"NR-C617XVS-C\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NR-C617XVS-C%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"NR-C617XVS-C\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NR-C617XVS-C%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)",
+          "targetHost": "ptt.cc"
+        }
+      ]
+    },
+    "score": 89,
+    "voltage": "110V／60Hz；原廠說明書明示，單獨使用額定15A以上接地插座",
+    "warranty": "台灣公司貨：全機1年；印刷電路板及冷媒流通系統3年；壓縮機5年。依原廠保證書與家庭使用條款，Panasonic台灣客服0800-098-800。",
+    "tags": [
+      "610L",
+      "三門",
+      "霧面鋼板",
+      "2027新1級",
+      "Ag銀抑菌",
+      "台灣公司貨"
+    ]
+  },
+  {
+    "id": "refrigerator-panasonic-nr-c507xvs-b",
+    "category": "refrigerator",
+    "rank": 46,
+    "topPick": false,
+    "budget": "mid",
+    "brand": "Panasonic",
+    "model": "NR-C507XVS-B",
+    "name": "500L 三門日系上質無邊框霧面鋼板變頻冰箱（冰霧銀）",
+    "image": "https://img.pchome.com.tw/cs/items/DPACHEA900KH8MY/000001_1789982459.jpg",
+    "price": {
+      "currency": "TWD",
+      "amount": 41500,
+      "converted": 41500,
+      "basis": "retailer_current",
+      "confidence": "PChome 2026-10-20 原頁與 exact-model API 雙重核對；Price.Low 無正值，採公開網路價 Price.P，Qty 2；未扣會員券、點數或信用卡回饋"
+    },
+    "channel": "tw",
+    "buyLabel": "PChome（廠商約配）",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KH8MY",
+    "installation": {
+      "status": "included_basic",
+      "note": "原頁明示含基本運送、拆箱定位及回收舊機。廠商出貨需聯絡約配，不受24h到貨限制；無電梯樓層、偏遠地區、吊掛及特殊搬運另依現場報價。"
+    },
+    "specs": [
+      "容量：500L；三門無邊框霧面鋼板，冰霧銀",
+      "尺寸：寬 72.5 x 深 69.5 x 高 183.4 cm",
+      "重量：84 kg（原廠說明書機身重量）",
+      "保鮮：新鮮急凍結、-3°C 微凍結、智慧保濕蔬果室；Ag 銀抑菌與冷凍室 LED 照明",
+      "節能：符合2027年新1級；年耗電276度；AI ECONAVI變頻節能",
+      "製冰：自動製冰；儲水器約1.2L，可清洗製冰盒",
+      "電壓／頻率：110V／60Hz；需單獨使用15A以上插座並確認接地",
+      "安裝：頂部至少10cm、兩側及背部至少2cm；另留開門取出層架與搬運路徑空間"
+    ],
+    "description": "500L 三門單扇冷藏配置，以無邊框霧面鋼板門板與符合2027年新1級的節能規格提供新選項；搭載Ag 銀抑菌與冷凍室 LED 照明。2026-10-20 PChome exact SKU 可下單，交期由廠商聯絡約配，並非24小時到貨保證。",
+    "pros": [
+      "500L 分區整合微凍結、新鮮急凍與自動製冰",
+      "官方年耗電276度，符合2027年新1級能效",
+      "霧面鋼板搭配Ag銀抑菌，降低相近玻璃款的購置成本"
+    ],
+    "cons": [
+      "72.5cm機身寬與69.5cm深度之外仍要保留散熱及開門空間",
+      "84kg機身需先確認電梯、樓梯、門寬與額外搬運費",
+      "本輪未取得明確上市日期及可驗證史低；實際交期須由通路確認"
+    ],
+    "bestFor": "需要500L容量與三門收納，偏好鋼板門板與較低購置成本，且可容納機身及散熱空間的家庭。",
+    "recommendation": "與既有Panasonic同容量舊款並列，依單扇冷藏門開啟空間、門板材質、IoT需求及實際價差選擇；新型號不直接取代仍有新品通路的舊款。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-20",
+      "note": "NR-C507XVS-B 已實際嘗試 FindPrice exact-model 比價與 LBJ exact-model 查價入口，兩者本輪讀取失敗；PChome 原頁與 API 只證目前公開售價及可下單狀態。未取得可重現、同型號同容量可信新品歷史價，不把現價、會員券、信用卡或點數當作史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-20",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"NR-C507XVS-B\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NR-C507XVS-B%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"NR-C507XVS-B\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NR-C507XVS-B%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)",
+          "targetHost": "ptt.cc"
+        }
+      ]
+    },
+    "score": 89,
+    "voltage": "110V／60Hz；原廠說明書明示，單獨使用額定15A以上接地插座",
+    "warranty": "台灣公司貨：全機1年；印刷電路板及冷媒流通系統3年；壓縮機5年。依原廠保證書與家庭使用條款，Panasonic台灣客服0800-098-800。",
+    "tags": [
+      "500L",
+      "三門",
+      "霧面鋼板",
+      "2027新1級",
+      "Ag銀抑菌",
+      "台灣公司貨"
+    ]
+  },
+  {
+    "id": "refrigerator-panasonic-nr-f653wx-w1",
+    "category": "refrigerator",
+    "rank": 47,
+    "topPick": false,
+    "budget": "premium",
+    "brand": "Panasonic",
+    "model": "NR-F653WX-W1",
+    "name": "日本製650L六門日系上質玻璃變頻冰箱（霧晶白）",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/45D608CE4B-SP-23628356.jpg",
+    "price": {
+      "currency": "TWD",
+      "amount": 92499,
+      "converted": 92499,
+      "basis": "retailer_current",
+      "confidence": "2026-10-20 live Chrome Yahoo自營exact-SKU原頁公開價，立即購買與加入購物車可用；未扣會員券、銀行、點數或贈品",
+      "note": "可下單約配，並非即時現貨或到貨日期保證；實際交期由出貨廠商確認。"
+    },
+    "channel": "tw",
+    "buyLabel": "Yahoo（可下單／約配）",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=12307503",
+    "installation": {
+      "status": "included_basic",
+      "note": "Yahoo明示價格含標準安裝與舊機回收；正常3至7個工作天以電話或簡訊聯絡後續配送，實際依物流約配為準，偏遠地區及外島不送；樓層與特殊搬運費另依通路評估。"
+    },
+    "specs": [
+      "容量：650L；日本製六門，霧晶白",
+      "尺寸：寬 75 x 深 74.5 x 高 182.8 cm",
+      "重量：112 kg",
+      "保鮮：全幅抑霜鮮凍、新鮮急凍結、-3°C微凍結、智慧保濕蔬果室、nanoe X",
+      "節能：符合2027年新1級；年耗電312度；AI ECONAVI上置式變頻壓縮機",
+      "便利：自動製冰、IoT智慧健康家電、全區域智慧照明",
+      "電壓／頻率：110V；頻率未標示，交貨前須向原廠確認",
+      "安裝：含標準安裝及舊機回收；需確認散熱、開門及搬運路徑空間"
+    ],
+    "description": "日本製650L六門機型，機身寬75cm，整合全幅抑霜鮮凍、nanoe X及IoT。2026-10-20 Yahoo exact SKU可下單，但交期需由廠商聯絡約配；另有授權通路寫日本製新系列11月到貨，不能視為現貨即送。",
+    "pros": [
+      "650L六門分區，含獨立製冰與保鮮空間",
+      "官方確認2027年新1級能效與全幅抑霜鮮凍",
+      "台灣公司貨及在地原廠售後，公開約配購買連結已核對"
+    ],
+    "cons": [
+      "75cm機身寬與74.5cm深度之外仍須保留散熱及開門空間",
+      "通路可下單不保證立即交貨，須確認實際交期與樓層搬運費",
+      "僅確認110V，頻率未標示；明確上市日期及可靠史低未找到"
+    ],
+    "bestFor": "希望日本製650L六門、保鮮與IoT功能，能接受約配等待並在交貨前確認電力及安裝條件的家庭。",
+    "recommendation": "作為日本製六門新系列參考，與既有台灣現售型號比較容量、尺寸、保鮮功能與價差；先取得交期和電力確認再下單，不列Top Pick。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-20",
+      "note": "NR-F653WX-W1 實際嘗試FindPrice與LBJ exact-model價格查詢，兩站本輪讀取失敗；Yahoo可重現的公開價只證目前可下單約配，不當作歷史最低價。未扣會員券、信用卡回饋、點數與登錄贈品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-20",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"NR-F653WX-W1\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NR-F653WX-W1%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"NR-F653WX-W1\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NR-F653WX-W1%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)"
+        }
+      ]
+    },
+    "score": 88,
+    "voltage": "110V；Yahoo exact-SKU商品規格明示，頻率未標示，交貨前請原廠確認",
+    "warranty": "台灣公司貨：全機1年；印刷電路板及冷媒流通系統3年；壓縮機5年，依Panasonic台灣保證書與家庭使用條款；客服0800-098-800。",
+    "tags": [
+      "650L",
+      "日本製",
+      "六門",
+      "2027新1級",
+      "IoT",
+      "約配交期待確認"
+    ]
+  },
+  {
+    "id": "refrigerator-panasonic-nr-f603wx-x1",
+    "category": "refrigerator",
+    "rank": 48,
+    "topPick": false,
+    "budget": "premium",
+    "brand": "Panasonic",
+    "model": "NR-F603WX-X1",
+    "name": "日本製600L六門日系上質玻璃變頻冰箱（鑽石黑）",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/ACB484CC7A-SP-23628668.jpg",
+    "price": {
+      "currency": "TWD",
+      "amount": 82961,
+      "converted": 82961,
+      "basis": "retailer_current",
+      "confidence": "2026-10-20 live Chrome Yahoo自營exact-SKU原頁公開價，立即購買與加入購物車可用；未扣會員券、銀行、點數或贈品",
+      "note": "可下單約配，並非即時現貨或到貨日期保證；實際交期由出貨廠商確認。"
+    },
+    "channel": "tw",
+    "buyLabel": "Yahoo（可下單／約配）",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=12307512",
+    "installation": {
+      "status": "included_basic",
+      "note": "Yahoo明示價格含標準安裝與舊機回收；正常3至7個工作天以電話或簡訊聯絡後續配送，實際依物流約配為準，偏遠地區及外島不送；樓層與特殊搬運費另依通路評估。"
+    },
+    "specs": [
+      "容量：600L；日本製六門，鑽石黑",
+      "尺寸：寬 68.5 x 深 74.5 x 高 182.8 cm",
+      "重量：查不到",
+      "保鮮：全幅抑霜鮮凍、新鮮急凍結、-3°C微凍結、智慧保濕蔬果室、nanoe X",
+      "節能：符合2027年新1級；年耗電276度；AI ECONAVI上置式變頻壓縮機",
+      "便利：自動製冰、IoT智慧健康家電、全區域智慧照明",
+      "電壓／頻率：110V；頻率未標示，交貨前須向原廠確認",
+      "安裝：含標準安裝及舊機回收；需確認散熱、開門及搬運路徑空間"
+    ],
+    "description": "日本製600L六門機型，機身寬68.5cm，整合全幅抑霜鮮凍、nanoe X及IoT。2026-10-20 Yahoo exact SKU可下單，但交期需由廠商聯絡約配；另有授權通路寫日本製新系列11月到貨，不能視為現貨即送。",
+    "pros": [
+      "600L六門分區，含獨立製冰與保鮮空間",
+      "官方確認2027年新1級能效與全幅抑霜鮮凍",
+      "台灣公司貨及在地原廠售後，公開約配購買連結已核對"
+    ],
+    "cons": [
+      "68.5cm機身寬與74.5cm深度之外仍須保留散熱及開門空間",
+      "通路可下單不保證立即交貨，須確認實際交期與樓層搬運費",
+      "僅確認110V，頻率未標示；明確上市日期及可靠史低未找到"
+    ],
+    "bestFor": "希望日本製600L六門、保鮮與IoT功能，能接受約配等待並在交貨前確認電力及安裝條件的家庭。",
+    "recommendation": "作為日本製六門新系列參考，與既有台灣現售型號比較容量、尺寸、保鮮功能與價差；先取得交期和電力確認再下單，不列Top Pick。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-20",
+      "note": "NR-F603WX-X1 實際嘗試FindPrice與LBJ exact-model價格查詢，兩站本輪讀取失敗；Yahoo可重現的公開價只證目前可下單約配，不當作歷史最低價。未扣會員券、信用卡回饋、點數與登錄贈品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-20",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"NR-F603WX-X1\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NR-F603WX-X1%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"NR-F603WX-X1\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NR-F603WX-X1%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)"
+        }
+      ]
+    },
+    "score": 88,
+    "voltage": "110V；Yahoo exact-SKU商品規格明示，頻率未標示，交貨前請原廠確認",
+    "warranty": "台灣公司貨：全機1年；印刷電路板及冷媒流通系統3年；壓縮機5年，依Panasonic台灣保證書與家庭使用條款；客服0800-098-800。",
+    "tags": [
+      "600L",
+      "日本製",
+      "六門",
+      "2027新1級",
+      "IoT",
+      "約配交期待確認"
+    ]
   }
 ]);
 })();

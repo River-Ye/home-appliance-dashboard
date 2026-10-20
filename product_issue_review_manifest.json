@@ -89365,6 +89365,614 @@
         }
       ],
       "attestation": "manual_original_pages_reviewed"
+    },
+    {
+      "id": "refrigerator-panasonic-nr-c457hgs-w",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-C457HGS-W",
+      "reviewedAt": "2026-10-20",
+      "reviewBatch": "refrigerator",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"NR-C457HGS-W\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NR-C457HGS-W%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"NR-C457HGS-W\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NR-C457HGS-W%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+        }
+      ],
+      "candidateDisposition": "NR-C457HGS-W：逐項閱讀Mobile01與PTT完整W色SKU查詢、再閱讀無色碼NR-C457HGS查詢，四項回應皆無結果。沒有同型號第一人稱候選可開原頁；不把舊NR-C454HG、B色或品牌一般性冰箱問題合併到W版。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "reviewerNote": "NR-C457HGS-W：逐項閱讀Mobile01與PTT完整W色SKU查詢、再閱讀無色碼NR-C457HGS查詢，四項回應皆無結果。沒有同型號第一人稱候選可開原頁；不把舊NR-C454HG、B色或品牌一般性冰箱問題合併到W版。 此為逐型號閱讀後的搜尋範圍結論，只表示截至查核日未達同問題六位獨立使用者且跨兩個原始網站門檻，不保證沒有負評。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate"
+    },
+    {
+      "id": "refrigerator-panasonic-nr-c457hvs-b",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-C457HVS-B",
+      "reviewedAt": "2026-10-20",
+      "reviewBatch": "refrigerator",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"NR-C457HVS-B\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NR-C457HVS-B%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"NR-C457HVS-B\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NR-C457HVS-B%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+        }
+      ],
+      "candidateDisposition": "NR-C457HVS-B：已分別閱讀Mobile01與PTT完整B色SKU及NR-C457HVS家族名的搜尋回應，均未找到候選。NR-C457HGS玻璃版與舊NR-C454HV不能當作本款使用者證據；不因通路上架推定已無負評。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "reviewerNote": "NR-C457HVS-B：已分別閱讀Mobile01與PTT完整B色SKU及NR-C457HVS家族名的搜尋回應，均未找到候選。NR-C457HGS玻璃版與舊NR-C454HV不能當作本款使用者證據；不因通路上架推定已無負評。 此為逐型號閱讀後的搜尋範圍結論，只表示截至查核日未達同問題六位獨立使用者且跨兩個原始網站門檻，不保證沒有負評。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate"
+    },
+    {
+      "id": "refrigerator-panasonic-nr-c387hvs-c",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-C387HVS-C",
+      "reviewedAt": "2026-10-20",
+      "reviewBatch": "refrigerator",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"NR-C387HVS-C\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NR-C387HVS-C%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"NR-C387HVS-C\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NR-C387HVS-C%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+        }
+      ],
+      "candidateDisposition": "NR-C387HVS-C：Mobile01與PTT逐項完整C色SKU查詢均無結果，再查去色碼NR-C387HVS亦無結果。未找到本款第一人稱故障頁；不把左開HVLS或舊384HV討論視為同一型號。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "reviewerNote": "NR-C387HVS-C：Mobile01與PTT逐項完整C色SKU查詢均無結果，再查去色碼NR-C387HVS亦無結果。未找到本款第一人稱故障頁；不把左開HVLS或舊384HV討論視為同一型號。 此為逐型號閱讀後的搜尋範圍結論，只表示截至查核日未達同問題六位獨立使用者且跨兩個原始網站門檻，不保證沒有負評。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate"
+    },
+    {
+      "id": "refrigerator-panasonic-nr-c387hvls-c",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-C387HVLS-C",
+      "reviewedAt": "2026-10-20",
+      "reviewBatch": "refrigerator",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"NR-C387HVLS-C\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NR-C387HVLS-C%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"NR-C387HVLS-C\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NR-C387HVLS-C%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+        }
+      ],
+      "candidateDisposition": "NR-C387HVLS-C：逐一閱讀Mobile01、PTT兩站完整左開C色SKU查詢，另查NR-C387HVLS仍無候選。右開HVS與其他C387容量近似款不計入；本次沒有可覆核的左開型號使用者原頁。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "reviewerNote": "NR-C387HVLS-C：逐一閱讀Mobile01、PTT兩站完整左開C色SKU查詢，另查NR-C387HVLS仍無候選。右開HVS與其他C387容量近似款不計入；本次沒有可覆核的左開型號使用者原頁。 此為逐型號閱讀後的搜尋範圍結論，只表示截至查核日未達同問題六位獨立使用者且跨兩個原始網站門檻，不保證沒有負評。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate"
+    },
+    {
+      "id": "refrigerator-panasonic-nr-c587tvs-w",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-C587TVS-W",
+      "reviewedAt": "2026-10-20",
+      "reviewBatch": "refrigerator",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"NR-C587TVS-W\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NR-C587TVS-W%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"NR-C587TVS-W\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NR-C587TVS-W%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+        }
+      ],
+      "candidateDisposition": "NR-C587TVS-W：已閱讀Mobile01與PTT完整W色SKU查詢及NR-C587TVS補充查詢，四項均無結果。未取得578L三門款的第一人稱候選；雙門580L的B587TVS與舊C586TV不可跨型號併計。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "reviewerNote": "NR-C587TVS-W：已閱讀Mobile01與PTT完整W色SKU查詢及NR-C587TVS補充查詢，四項均無結果。未取得578L三門款的第一人稱候選；雙門580L的B587TVS與舊C586TV不可跨型號併計。 此為逐型號閱讀後的搜尋範圍結論，只表示截至查核日未達同問題六位獨立使用者且跨兩個原始網站門檻，不保證沒有負評。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate"
+    },
+    {
+      "id": "refrigerator-panasonic-nr-c497tvs-b",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-C497TVS-B",
+      "reviewedAt": "2026-10-20",
+      "reviewBatch": "refrigerator",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"NR-C497TVS-B\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NR-C497TVS-B%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"NR-C497TVS-B\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NR-C497TVS-B%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+        }
+      ],
+      "candidateDisposition": "NR-C497TVS-B：Mobile01與PTT完整B色SKU的結果已分別讀取，並以NR-C497TVS去色碼再查，皆無候選。沒有可定位作者的496L三門原文；不把498L雙門B497TVS或舊C496TV算入。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "reviewerNote": "NR-C497TVS-B：Mobile01與PTT完整B色SKU的結果已分別讀取，並以NR-C497TVS去色碼再查，皆無候選。沒有可定位作者的496L三門原文；不把498L雙門B497TVS或舊C496TV算入。 此為逐型號閱讀後的搜尋範圍結論，只表示截至查核日未達同問題六位獨立使用者且跨兩個原始網站門檻，不保證沒有負評。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate"
+    },
+    {
+      "id": "refrigerator-panasonic-nr-b657tvs-b",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-B657TVS-B",
+      "reviewedAt": "2026-10-20",
+      "reviewBatch": "refrigerator",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"NR-B657TVS-B\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NR-B657TVS-B%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"NR-B657TVS-B\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NR-B657TVS-B%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+        }
+      ],
+      "candidateDisposition": "NR-B657TVS-B：逐項閱讀Mobile01與PTT的完整B色SKU搜尋，再核對NR-B657TVS家族查詢，均為無結果。尚無可開啟的650L本款使用者候選；不把NR-B656TV或Costco NR-B65CV-S套用。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "reviewerNote": "NR-B657TVS-B：逐項閱讀Mobile01與PTT的完整B色SKU搜尋，再核對NR-B657TVS家族查詢，均為無結果。尚無可開啟的650L本款使用者候選；不把NR-B656TV或Costco NR-B65CV-S套用。 此為逐型號閱讀後的搜尋範圍結論，只表示截至查核日未達同問題六位獨立使用者且跨兩個原始網站門檻，不保證沒有負評。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate"
+    },
+    {
+      "id": "refrigerator-panasonic-nr-b587tvs-b",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-B587TVS-B",
+      "reviewedAt": "2026-10-20",
+      "reviewBatch": "refrigerator",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"NR-B587TVS-B\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NR-B587TVS-B%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"NR-B587TVS-B\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NR-B587TVS-B%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+        }
+      ],
+      "candidateDisposition": "NR-B587TVS-B：兩站完整SKU與去色碼NR-B587TVS搜尋回應已逐一閱讀，皆沒有候選。未將舊B586TV、三門C587TVS或同容量品牌泛論當作此雙門B版的第一人稱回報。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "reviewerNote": "NR-B587TVS-B：兩站完整SKU與去色碼NR-B587TVS搜尋回應已逐一閱讀，皆沒有候選。未將舊B586TV、三門C587TVS或同容量品牌泛論當作此雙門B版的第一人稱回報。 此為逐型號閱讀後的搜尋範圍結論，只表示截至查核日未達同問題六位獨立使用者且跨兩個原始網站門檻，不保證沒有負評。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate"
+    },
+    {
+      "id": "refrigerator-panasonic-nr-b497tvs-b",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-B497TVS-B",
+      "reviewedAt": "2026-10-20",
+      "reviewBatch": "refrigerator",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"NR-B497TVS-B\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NR-B497TVS-B%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"NR-B497TVS-B\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NR-B497TVS-B%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+        }
+      ],
+      "candidateDisposition": "NR-B497TVS-B：逐項核對Mobile01與PTT完整B版SKU的無結果回應，另查家族NR-B497TVS也無候選。本次沒有498L雙門原始抱怨頁；496L三門C497TVS與舊B496TV不算同型號。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "reviewerNote": "NR-B497TVS-B：逐項核對Mobile01與PTT完整B版SKU的無結果回應，另查家族NR-B497TVS也無候選。本次沒有498L雙門原始抱怨頁；496L三門C497TVS與舊B496TV不算同型號。 此為逐型號閱讀後的搜尋範圍結論，只表示截至查核日未達同問題六位獨立使用者且跨兩個原始網站門檻，不保證沒有負評。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate"
+    },
+    {
+      "id": "refrigerator-panasonic-nr-b427tvs-b",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-B427TVS-B",
+      "reviewedAt": "2026-10-20",
+      "reviewBatch": "refrigerator",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"NR-B427TVS-B\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NR-B427TVS-B%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"NR-B427TVS-B\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NR-B427TVS-B%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+        }
+      ],
+      "candidateDisposition": "NR-B427TVS-B：Mobile01與PTT完整B色SKU逐項搜尋皆無結果，去色碼NR-B427TVS的補查也無候選。舊B426TV與容量更大的B497TVS未借用為災情證據；預購與一般通路的差別也不代表產品故障。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "reviewerNote": "NR-B427TVS-B：Mobile01與PTT完整B色SKU逐項搜尋皆無結果，去色碼NR-B427TVS的補查也無候選。舊B426TV與容量更大的B497TVS未借用為災情證據；預購與一般通路的差別也不代表產品故障。 此為逐型號閱讀後的搜尋範圍結論，只表示截至查核日未達同問題六位獨立使用者且跨兩個原始網站門檻，不保證沒有負評。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate"
+    },
+    {
+      "id": "refrigerator-panasonic-nr-d617xgs-b",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-D617XGS-B",
+      "reviewedAt": "2026-10-20",
+      "reviewBatch": "refrigerator",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"NR-D617XGS-B\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NR-D617XGS-B%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"NR-D617XGS-B\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NR-D617XGS-B%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)",
+          "targetHost": "ptt.cc"
+        }
+      ],
+      "candidateDisposition": "NR-D617XGS-B：已人工檢視兩站 exact-model 問題查詢，Mobile01 與 PTT 都沒有回傳候選；官方與通路販售內容不作使用者負評證據。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "reviewerNote": "NR-D617XGS-B：已人工檢視兩站 exact-model 問題查詢，Mobile01 與 PTT 都沒有回傳候選；官方與通路販售內容不作使用者負評證據。 未達同一問題至少6人、跨2個原始網站的集中負評門檻；不表示完全沒有負評。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate"
+    },
+    {
+      "id": "refrigerator-panasonic-nr-d617xvs-b",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-D617XVS-B",
+      "reviewedAt": "2026-10-20",
+      "reviewBatch": "refrigerator",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"NR-D617XVS-B\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NR-D617XVS-B%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"NR-D617XVS-B\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NR-D617XVS-B%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)",
+          "targetHost": "ptt.cc"
+        }
+      ],
+      "candidateDisposition": "NR-D617XVS-B：Mobile01、PTT 的完整 B 版型號問題／故障／災情查詢皆未回傳結果，未發現可再打開的 exact-model 原始回報候選。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "reviewerNote": "NR-D617XVS-B：Mobile01、PTT 的完整 B 版型號問題／故障／災情查詢皆未回傳結果，未發現可再打開的 exact-model 原始回報候選。 未達同一問題至少6人、跨2個原始網站的集中負評門檻；不表示完全沒有負評。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate"
+    },
+    {
+      "id": "refrigerator-panasonic-nr-d507xvs-b",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-D507XVS-B",
+      "reviewedAt": "2026-10-20",
+      "reviewBatch": "refrigerator",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"NR-D507XVS-B\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NR-D507XVS-B%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"NR-D507XVS-B\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NR-D507XVS-B%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)",
+          "targetHost": "ptt.cc"
+        }
+      ],
+      "candidateDisposition": "NR-D507XVS-B：逐別檢視 Mobile01 與 PTT 的完整型號查詢，兩站無搜尋候選；沒有把相近 D505 或玻璃 GS 版的討論移植到此款。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "reviewerNote": "NR-D507XVS-B：逐別檢視 Mobile01 與 PTT 的完整型號查詢，兩站無搜尋候選；沒有把相近 D505 或玻璃 GS 版的討論移植到此款。 未達同一問題至少6人、跨2個原始網站的集中負評門檻；不表示完全沒有負評。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate"
+    },
+    {
+      "id": "refrigerator-panasonic-nr-c617xgs-b",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-C617XGS-B",
+      "reviewedAt": "2026-10-20",
+      "reviewBatch": "refrigerator",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"NR-C617XGS-B\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NR-C617XGS-B%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"NR-C617XGS-B\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NR-C617XGS-B%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)",
+          "targetHost": "ptt.cc"
+        }
+      ],
+      "candidateDisposition": "NR-C617XGS-B：Mobile01／PTT 兩組含完整型號的問題查詢均無結果，人工覆核為無候選；沒有從三門系列名稱推定使用者經驗。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "reviewerNote": "NR-C617XGS-B：Mobile01／PTT 兩組含完整型號的問題查詢均無結果，人工覆核為無候選；沒有從三門系列名稱推定使用者經驗。 未達同一問題至少6人、跨2個原始網站的集中負評門檻；不表示完全沒有負評。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate"
+    },
+    {
+      "id": "refrigerator-panasonic-nr-c507xgs-w",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-C507XGS-W",
+      "reviewedAt": "2026-10-20",
+      "reviewBatch": "refrigerator",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"NR-C507XGS-W\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NR-C507XGS-W%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"NR-C507XGS-W\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NR-C507XGS-W%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)",
+          "targetHost": "ptt.cc"
+        }
+      ],
+      "candidateDisposition": "NR-C507XGS-W：以白色 W 完整 SKU 分別檢查 Mobile01 與 PTT 問題搜尋，未有候選；不以 PChome 錯誤的 Nick B 字尾替代實際白色款身份。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "reviewerNote": "NR-C507XGS-W：以白色 W 完整 SKU 分別檢查 Mobile01 與 PTT 問題搜尋，未有候選；不以 PChome 錯誤的 Nick B 字尾替代實際白色款身份。 未達同一問題至少6人、跨2個原始網站的集中負評門檻；不表示完全沒有負評。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate"
+    },
+    {
+      "id": "refrigerator-panasonic-nr-c617xvs-c",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-C617XVS-C",
+      "reviewedAt": "2026-10-20",
+      "reviewBatch": "refrigerator",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"NR-C617XVS-C\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NR-C617XVS-C%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"NR-C617XVS-C\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NR-C617XVS-C%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)",
+          "targetHost": "ptt.cc"
+        }
+      ],
+      "candidateDisposition": "NR-C617XVS-C：針對暖灰米 C 款分別人工檢視 Mobile01、PTT 查詢，均未回傳 exact-model 問題候選；無原頁與作者可計數。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "reviewerNote": "NR-C617XVS-C：針對暖灰米 C 款分別人工檢視 Mobile01、PTT 查詢，均未回傳 exact-model 問題候選；無原頁與作者可計數。 未達同一問題至少6人、跨2個原始網站的集中負評門檻；不表示完全沒有負評。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate"
+    },
+    {
+      "id": "refrigerator-panasonic-nr-c507xvs-b",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-C507XVS-B",
+      "reviewedAt": "2026-10-20",
+      "reviewBatch": "refrigerator",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"NR-C507XVS-B\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NR-C507XVS-B%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"NR-C507XVS-B\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NR-C507XVS-B%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)",
+          "targetHost": "ptt.cc"
+        }
+      ],
+      "candidateDisposition": "NR-C507XVS-B：Mobile01 與 PTT 的 exact SKU 問題／故障／災情搜尋均無結果，人工記錄為無候選；新款討論少不等同保證沒有負評。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "reviewerNote": "NR-C507XVS-B：Mobile01 與 PTT 的 exact SKU 問題／故障／災情搜尋均無結果，人工記錄為無候選；新款討論少不等同保證沒有負評。 未達同一問題至少6人、跨2個原始網站的集中負評門檻；不表示完全沒有負評。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate"
+    },
+    {
+      "id": "refrigerator-panasonic-nr-f653wx-w1",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-F653WX-W1",
+      "reviewedAt": "2026-10-20",
+      "reviewBatch": "refrigerator",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"NR-F653WX-W1\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NR-F653WX-W1%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"NR-F653WX-W1\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NR-F653WX-W1%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)"
+        }
+      ],
+      "candidateDisposition": "NR-F653WX-W1：兩個完整型號 site:Mobile01 與 site:PTT 問題／故障／災情查詢人工檢視均無結果，無可回讀的原始問題候選；未將不同年份F651或不同顏色款的討論視作此SKU回報。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "reviewerNote": "NR-F653WX-W1：兩個完整型號 site:Mobile01 與 site:PTT 問題／故障／災情查詢人工檢視均無結果，無可回讀的原始問題候選；未將不同年份F651或不同顏色款的討論視作此SKU回報。 未達同一問題6名獨立使用者跨2個原始網站門檻，不表示完全沒有負評。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate"
+    },
+    {
+      "id": "refrigerator-panasonic-nr-f603wx-x1",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-F603WX-X1",
+      "reviewedAt": "2026-10-20",
+      "reviewBatch": "refrigerator",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"NR-F603WX-X1\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NR-F603WX-X1%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"NR-F603WX-X1\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NR-F603WX-X1%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)"
+        }
+      ],
+      "candidateDisposition": "NR-F603WX-X1：鑽石黑X1 exact SKU 的Mobile01與PTT問題搜尋皆未回傳候選，人工覆核為無候選；可下單及規格頁不計為第一人稱使用者負評。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "reviewerNote": "NR-F603WX-X1：鑽石黑X1 exact SKU 的Mobile01與PTT問題搜尋皆未回傳候選，人工覆核為無候選；可下單及規格頁不計為第一人稱使用者負評。 未達同一問題6名獨立使用者跨2個原始網站門檻，不表示完全沒有負評。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate"
     }
   ]
 }

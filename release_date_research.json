@@ -1,20 +1,20 @@
 {
   "summary": {
     "checkedAt": "2026-10-20T00:00:00+08:00",
-    "total": 1159,
-    "researchedThisRun": 3,
+    "total": 1178,
+    "researchedThisRun": 19,
     "found": 346,
-    "missing": 813,
+    "missing": 832,
     "byConfidence": {
       "official": 188,
-      "not_found": 810,
+      "not_found": 829,
       "retailer_explicit": 23,
       "credible_article": 52,
       "high": 67,
       "medium": 16,
       "unknown": 3
     },
-    "scopeNote": "本輪僅對新增3款補查上市與逐型號負評；既有1156款逐筆證據與日期原樣保留，不表示同日重讀全部原頁。"
+    "scopeNote": "2026-10-20 Panasonic 秋季新品定向增量：僅新增19款，原1159款商品、逐筆研究與實際查核日期保留；來源累積覆蓋不表示本輪全目錄重查。"
   },
   "results": [
     {
@@ -35649,6 +35649,428 @@
           "outcome": "2026年上市新款泛稱；API預購，不推定上市年"
         }
       ]
+    },
+    {
+      "id": "refrigerator-panasonic-nr-c457hgs-w",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-C457HGS-W",
+      "name": "Panasonic NR-C457HGS-W 450L 3門霧面玻璃變頻冰箱（沐霜白）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-20",
+      "query": "\"Panasonic NR-C457HGS-W\" 上市 發售",
+      "reason": "已讀Panasonic2026秋季官方新聞稿與exact-model產品頁，新聞稿沒有列出該完整SKU的上市／發售日；產品NEW標記、通路上架日與型號數字均不當作上市日期。",
+      "checkedSources": [
+        {
+          "url": "https://www.panasonic.com/tw/consumer/refrigerator/three-door/nr-c457hgs.html",
+          "title": "Panasonic台灣 NR-C457HGS 官方產品規格",
+          "outcome": "NEW及規格可核對，沒有明確上市日"
+        },
+        {
+          "url": "https://www.panasonic.com/tw/consumer/news/202609-news-1.html",
+          "title": "Panasonic秋季新品官方新聞稿2026-09-22",
+          "outcome": "冰箱家族介紹，未列該完整SKU或其上市日"
+        }
+      ]
+    },
+    {
+      "id": "refrigerator-panasonic-nr-c457hvs-b",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-C457HVS-B",
+      "name": "Panasonic NR-C457HVS-B 450L 3門霧面鋼板變頻冰箱（冰霧銀）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-20",
+      "query": "\"Panasonic NR-C457HVS-B\" 上市 發售",
+      "reason": "已讀Panasonic2026秋季官方新聞稿與exact-model產品頁，新聞稿沒有列出該完整SKU的上市／發售日；產品NEW標記、通路上架日與型號數字均不當作上市日期。",
+      "checkedSources": [
+        {
+          "url": "https://www.panasonic.com/tw/consumer/refrigerator/three-door/nr-c457hvs.html",
+          "title": "Panasonic台灣 NR-C457HVS 官方產品規格",
+          "outcome": "NEW及規格可核對，沒有明確上市日"
+        },
+        {
+          "url": "https://www.panasonic.com/tw/consumer/news/202609-news-1.html",
+          "title": "Panasonic秋季新品官方新聞稿2026-09-22",
+          "outcome": "冰箱家族介紹，未列該完整SKU或其上市日"
+        }
+      ]
+    },
+    {
+      "id": "refrigerator-panasonic-nr-c387hvs-c",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-C387HVS-C",
+      "name": "Panasonic NR-C387HVS-C 385L 3門霧面鋼板變頻冰箱（暖灰米）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-20",
+      "query": "\"Panasonic NR-C387HVS-C\" 上市 發售",
+      "reason": "已讀Panasonic2026秋季官方新聞稿與exact-model產品頁，新聞稿沒有列出該完整SKU的上市／發售日；產品NEW標記、通路上架日與型號數字均不當作上市日期。",
+      "checkedSources": [
+        {
+          "url": "https://www.panasonic.com/tw/consumer/refrigerator/three-door/nr-c387hvs.html",
+          "title": "Panasonic台灣 NR-C387HVS 官方產品規格",
+          "outcome": "NEW及規格可核對，沒有明確上市日"
+        },
+        {
+          "url": "https://www.panasonic.com/tw/consumer/news/202609-news-1.html",
+          "title": "Panasonic秋季新品官方新聞稿2026-09-22",
+          "outcome": "冰箱家族介紹，未列該完整SKU或其上市日"
+        }
+      ]
+    },
+    {
+      "id": "refrigerator-panasonic-nr-c387hvls-c",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-C387HVLS-C",
+      "name": "Panasonic NR-C387HVLS-C 385L 3門霧面鋼板變頻冰箱（暖灰米／左開）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-20",
+      "query": "\"Panasonic NR-C387HVLS-C\" 上市 發售",
+      "reason": "已讀Panasonic2026秋季官方新聞稿與exact-model產品頁，新聞稿沒有列出該完整SKU的上市／發售日；產品NEW標記、通路上架日與型號數字均不當作上市日期。",
+      "checkedSources": [
+        {
+          "url": "https://www.panasonic.com/tw/consumer/refrigerator/three-door/nr-c387hvs.html",
+          "title": "Panasonic台灣 NR-C387HVLS 官方產品規格",
+          "outcome": "NEW及規格可核對，沒有明確上市日"
+        },
+        {
+          "url": "https://www.panasonic.com/tw/consumer/news/202609-news-1.html",
+          "title": "Panasonic秋季新品官方新聞稿2026-09-22",
+          "outcome": "冰箱家族介紹，未列該完整SKU或其上市日"
+        }
+      ]
+    },
+    {
+      "id": "refrigerator-panasonic-nr-c587tvs-w",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-C587TVS-W",
+      "name": "Panasonic NR-C587TVS-W 578L 3門霧面鋼板變頻冰箱（冰霧白）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-20",
+      "query": "\"Panasonic NR-C587TVS-W\" 上市 發售",
+      "reason": "已讀Panasonic2026秋季官方新聞稿與exact-model產品頁，新聞稿沒有列出該完整SKU的上市／發售日；產品NEW標記、通路上架日與型號數字均不當作上市日期。",
+      "checkedSources": [
+        {
+          "url": "https://www.panasonic.com/tw/consumer/refrigerator/three-door/nr-c587tvs.html",
+          "title": "Panasonic台灣 NR-C587TVS 官方產品規格",
+          "outcome": "NEW及規格可核對，沒有明確上市日"
+        },
+        {
+          "url": "https://www.panasonic.com/tw/consumer/news/202609-news-1.html",
+          "title": "Panasonic秋季新品官方新聞稿2026-09-22",
+          "outcome": "冰箱家族介紹，未列該完整SKU或其上市日"
+        }
+      ]
+    },
+    {
+      "id": "refrigerator-panasonic-nr-c497tvs-b",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-C497TVS-B",
+      "name": "Panasonic NR-C497TVS-B 496L 3門霧面鋼板變頻冰箱（冰霧銀）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-20",
+      "query": "\"Panasonic NR-C497TVS-B\" 上市 發售",
+      "reason": "已讀Panasonic2026秋季官方新聞稿與exact-model產品頁，新聞稿沒有列出該完整SKU的上市／發售日；產品NEW標記、通路上架日與型號數字均不當作上市日期。",
+      "checkedSources": [
+        {
+          "url": "https://www.panasonic.com/tw/consumer/refrigerator/three-door/nr-c497tvs.html",
+          "title": "Panasonic台灣 NR-C497TVS 官方產品規格",
+          "outcome": "NEW及規格可核對，沒有明確上市日"
+        },
+        {
+          "url": "https://www.panasonic.com/tw/consumer/news/202609-news-1.html",
+          "title": "Panasonic秋季新品官方新聞稿2026-09-22",
+          "outcome": "冰箱家族介紹，未列該完整SKU或其上市日"
+        }
+      ]
+    },
+    {
+      "id": "refrigerator-panasonic-nr-b657tvs-b",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-B657TVS-B",
+      "name": "Panasonic NR-B657TVS-B 650L 2門霧面鋼板變頻冰箱（冰霧銀）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-20",
+      "query": "\"Panasonic NR-B657TVS-B\" 上市 發售",
+      "reason": "已讀Panasonic2026秋季官方新聞稿與exact-model產品頁，新聞稿沒有列出該完整SKU的上市／發售日；產品NEW標記、通路上架日與型號數字均不當作上市日期。",
+      "checkedSources": [
+        {
+          "url": "https://www.panasonic.com/tw/consumer/refrigerator/double-door/nr-b657tvs.html",
+          "title": "Panasonic台灣 NR-B657TVS 官方產品規格",
+          "outcome": "NEW及規格可核對，沒有明確上市日"
+        },
+        {
+          "url": "https://www.panasonic.com/tw/consumer/news/202609-news-1.html",
+          "title": "Panasonic秋季新品官方新聞稿2026-09-22",
+          "outcome": "冰箱家族介紹，未列該完整SKU或其上市日"
+        }
+      ]
+    },
+    {
+      "id": "refrigerator-panasonic-nr-b587tvs-b",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-B587TVS-B",
+      "name": "Panasonic NR-B587TVS-B 580L 2門霧面鋼板變頻冰箱（冰霧銀）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-20",
+      "query": "\"Panasonic NR-B587TVS-B\" 上市 發售",
+      "reason": "已讀Panasonic2026秋季官方新聞稿與exact-model產品頁，新聞稿沒有列出該完整SKU的上市／發售日；產品NEW標記、通路上架日與型號數字均不當作上市日期。",
+      "checkedSources": [
+        {
+          "url": "https://www.panasonic.com/tw/consumer/refrigerator/double-door/nr-b587tvs.html",
+          "title": "Panasonic台灣 NR-B587TVS 官方產品規格",
+          "outcome": "NEW及規格可核對，沒有明確上市日"
+        },
+        {
+          "url": "https://www.panasonic.com/tw/consumer/news/202609-news-1.html",
+          "title": "Panasonic秋季新品官方新聞稿2026-09-22",
+          "outcome": "冰箱家族介紹，未列該完整SKU或其上市日"
+        }
+      ]
+    },
+    {
+      "id": "refrigerator-panasonic-nr-b497tvs-b",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-B497TVS-B",
+      "name": "Panasonic NR-B497TVS-B 498L 2門霧面鋼板變頻冰箱（冰霧銀）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-20",
+      "query": "\"Panasonic NR-B497TVS-B\" 上市 發售",
+      "reason": "已讀Panasonic2026秋季官方新聞稿與exact-model產品頁，新聞稿沒有列出該完整SKU的上市／發售日；產品NEW標記、通路上架日與型號數字均不當作上市日期。",
+      "checkedSources": [
+        {
+          "url": "https://www.panasonic.com/tw/consumer/refrigerator/double-door/nr-b497tvs.html",
+          "title": "Panasonic台灣 NR-B497TVS 官方產品規格",
+          "outcome": "NEW及規格可核對，沒有明確上市日"
+        },
+        {
+          "url": "https://www.panasonic.com/tw/consumer/news/202609-news-1.html",
+          "title": "Panasonic秋季新品官方新聞稿2026-09-22",
+          "outcome": "冰箱家族介紹，未列該完整SKU或其上市日"
+        }
+      ]
+    },
+    {
+      "id": "refrigerator-panasonic-nr-b427tvs-b",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-B427TVS-B",
+      "name": "Panasonic NR-B427TVS-B 422L 2門霧面鋼板變頻冰箱（冰霧銀）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-20",
+      "query": "\"Panasonic NR-B427TVS-B\" 上市 發售",
+      "reason": "已讀Panasonic2026秋季官方新聞稿與exact-model產品頁，新聞稿沒有列出該完整SKU的上市／發售日；產品NEW標記、通路上架日與型號數字均不當作上市日期。",
+      "checkedSources": [
+        {
+          "url": "https://www.panasonic.com/tw/consumer/refrigerator/double-door/nr-b427tvs.html",
+          "title": "Panasonic台灣 NR-B427TVS 官方產品規格",
+          "outcome": "NEW及規格可核對，沒有明確上市日"
+        },
+        {
+          "url": "https://www.panasonic.com/tw/consumer/news/202609-news-1.html",
+          "title": "Panasonic秋季新品官方新聞稿2026-09-22",
+          "outcome": "冰箱家族介紹，未列該完整SKU或其上市日"
+        }
+      ]
+    },
+    {
+      "id": "refrigerator-panasonic-nr-d617xgs-b",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-D617XGS-B",
+      "name": "610L 四門日系上質無邊框霧面玻璃變頻冰箱（沐霜銀）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "https://pmst.panasonic.com.tw/PSMIOUT/DL/DLFiles/3310/0_H_27490.pdf",
+      "sourceTitle": "Panasonic官方NR-CD617_507系列使用說明書",
+      "evidenceSnippet": "官方產品資料有規格與2026-08-31能效比較截止日；原廠說明書有印刷代碼，皆未明示上市／發售日期，不拿認證日期、型號年份或印刷日當上市日。",
+      "confidence": "not_found",
+      "query": "\"NR-D617XGS\" (上市 OR 發售 OR 開賣)",
+      "checkedAt": "2026-10-20",
+      "reason": "本輪 exact-model 上市搜尋與官方資料未取得可採用的明確上市日期。"
+    },
+    {
+      "id": "refrigerator-panasonic-nr-d617xvs-b",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-D617XVS-B",
+      "name": "610L 四門日系上質無邊框霧面鋼板變頻冰箱（冰霧銀）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "https://pmst.panasonic.com.tw/PSMIOUT/DL/DLFiles/3311/0_H_27491.pdf",
+      "sourceTitle": "Panasonic官方NR-CD617_507系列使用說明書",
+      "evidenceSnippet": "官方產品資料有規格與2026-08-31能效比較截止日；原廠說明書有印刷代碼，皆未明示上市／發售日期，不拿認證日期、型號年份或印刷日當上市日。",
+      "confidence": "not_found",
+      "query": "\"NR-D617XVS\" (上市 OR 發售 OR 開賣)",
+      "checkedAt": "2026-10-20",
+      "reason": "本輪 exact-model 上市搜尋與官方資料未取得可採用的明確上市日期。"
+    },
+    {
+      "id": "refrigerator-panasonic-nr-d507xvs-b",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-D507XVS-B",
+      "name": "500L 四門日系上質無邊框霧面鋼板變頻冰箱（冰霧銀）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "https://pmst.panasonic.com.tw/PSMIOUT/DL/DLFiles/3311/0_H_27491.pdf",
+      "sourceTitle": "Panasonic官方NR-CD617_507系列使用說明書",
+      "evidenceSnippet": "官方產品資料有規格與2026-08-31能效比較截止日；原廠說明書有印刷代碼，皆未明示上市／發售日期，不拿認證日期、型號年份或印刷日當上市日。",
+      "confidence": "not_found",
+      "query": "\"NR-D507XVS\" (上市 OR 發售 OR 開賣)",
+      "checkedAt": "2026-10-20",
+      "reason": "本輪 exact-model 上市搜尋與官方資料未取得可採用的明確上市日期。"
+    },
+    {
+      "id": "refrigerator-panasonic-nr-c617xgs-b",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-C617XGS-B",
+      "name": "610L 三門日系上質無邊框霧面玻璃變頻冰箱（沐霜銀）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "https://pmst.panasonic.com.tw/PSMIOUT/DL/DLFiles/3310/0_H_27490.pdf",
+      "sourceTitle": "Panasonic官方NR-CD617_507系列使用說明書",
+      "evidenceSnippet": "官方產品資料有規格與2026-08-31能效比較截止日；原廠說明書有印刷代碼，皆未明示上市／發售日期，不拿認證日期、型號年份或印刷日當上市日。",
+      "confidence": "not_found",
+      "query": "\"NR-C617XGS\" (上市 OR 發售 OR 開賣)",
+      "checkedAt": "2026-10-20",
+      "reason": "本輪 exact-model 上市搜尋與官方資料未取得可採用的明確上市日期。"
+    },
+    {
+      "id": "refrigerator-panasonic-nr-c507xgs-w",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-C507XGS-W",
+      "name": "500L 三門日系上質無邊框霧面玻璃變頻冰箱（沐霜白）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "https://pmst.panasonic.com.tw/PSMIOUT/DL/DLFiles/3310/0_H_27490.pdf",
+      "sourceTitle": "Panasonic官方NR-CD617_507系列使用說明書",
+      "evidenceSnippet": "官方產品資料有規格與2026-08-31能效比較截止日；原廠說明書有印刷代碼，皆未明示上市／發售日期，不拿認證日期、型號年份或印刷日當上市日。",
+      "confidence": "not_found",
+      "query": "\"NR-C507XGS\" (上市 OR 發售 OR 開賣)",
+      "checkedAt": "2026-10-20",
+      "reason": "本輪 exact-model 上市搜尋與官方資料未取得可採用的明確上市日期。"
+    },
+    {
+      "id": "refrigerator-panasonic-nr-c617xvs-c",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-C617XVS-C",
+      "name": "610L 三門日系上質無邊框霧面鋼板變頻冰箱（暖灰米）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "https://pmst.panasonic.com.tw/PSMIOUT/DL/DLFiles/3311/0_H_27491.pdf",
+      "sourceTitle": "Panasonic官方NR-CD617_507系列使用說明書",
+      "evidenceSnippet": "官方產品資料有規格與2026-08-31能效比較截止日；原廠說明書有印刷代碼，皆未明示上市／發售日期，不拿認證日期、型號年份或印刷日當上市日。",
+      "confidence": "not_found",
+      "query": "\"NR-C617XVS\" (上市 OR 發售 OR 開賣)",
+      "checkedAt": "2026-10-20",
+      "reason": "本輪 exact-model 上市搜尋與官方資料未取得可採用的明確上市日期。"
+    },
+    {
+      "id": "refrigerator-panasonic-nr-c507xvs-b",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-C507XVS-B",
+      "name": "500L 三門日系上質無邊框霧面鋼板變頻冰箱（冰霧銀）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "https://pmst.panasonic.com.tw/PSMIOUT/DL/DLFiles/3311/0_H_27491.pdf",
+      "sourceTitle": "Panasonic官方NR-CD617_507系列使用說明書",
+      "evidenceSnippet": "官方產品資料有規格與2026-08-31能效比較截止日；原廠說明書有印刷代碼，皆未明示上市／發售日期，不拿認證日期、型號年份或印刷日當上市日。",
+      "confidence": "not_found",
+      "query": "\"NR-C507XVS\" (上市 OR 發售 OR 開賣)",
+      "checkedAt": "2026-10-20",
+      "reason": "本輪 exact-model 上市搜尋與官方資料未取得可採用的明確上市日期。"
+    },
+    {
+      "id": "refrigerator-panasonic-nr-f653wx-w1",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-F653WX-W1",
+      "name": "日本製650L六門日系上質玻璃變頻冰箱（霧晶白）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "https://www.panasonic.com/tw/consumer/refrigerator/six-door/nr-f653wx.html",
+      "sourceTitle": "Panasonic台灣NR-F653WX官方商品資料",
+      "evidenceSnippet": "官方商品頁列規格、2027新1級及2026-08-31能效比較截止日，但沒有明確上市／發售日期；可下單日期、認證與促銷日期不作上市日。",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-20",
+      "reason": "未取得可採用的明確上市／發售日期，保留找不到。"
+    },
+    {
+      "id": "refrigerator-panasonic-nr-f603wx-x1",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-F603WX-X1",
+      "name": "日本製600L六門日系上質玻璃變頻冰箱（鑽石黑）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "https://www.panasonic.com/tw/consumer/refrigerator/six-door/nr-f603wx.html",
+      "sourceTitle": "Panasonic台灣NR-F603WX官方商品資料",
+      "evidenceSnippet": "官方商品頁列規格、2027新1級及2026-08-31能效比較截止日，但沒有明確上市／發售日期；可下單日期、認證與促銷日期不作上市日。",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-20",
+      "reason": "未取得可採用的明確上市／發售日期，保留找不到。"
     }
   ]
 }

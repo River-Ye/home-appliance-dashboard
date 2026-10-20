@@ -6,8 +6,8 @@
     dataDate: "2026-10-20",
     costcoDate: "2026-10-20",
     expectedCategoryCount: 37,
-    expectedProductCount: 1159,
-    cacheVersion: "20261020-231134-catalog",
+    expectedProductCount: 1178,
+    cacheVersion: "20261020-panasonic-autumn",
     exchangeSummary: "USD 1 = TWD 32.446",
   };
 
