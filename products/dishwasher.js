@@ -1940,9 +1940,9 @@
     "name": "桌上型洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 12999,
-      "converted": 12999,
-      "confidence": "PChome 2026-08-18 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 12349,
+      "converted": 12349,
+      "confidence": "PChome 2026-10-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR24A900JFSR7/000001_1762761618.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR24-A900JFSR7",

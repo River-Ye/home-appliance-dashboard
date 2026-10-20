@@ -535,9 +535,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/50A8962C97-SP-12443254.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 42543,
-      "converted": 42543,
-      "confidence": "Yahoo購物中心 2026-10-19 exact-model 公開結構化價格"
+      "amount": 42336,
+      "converted": 42336,
+      "confidence": "Yahoo購物中心 2026-10-20 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -3312,6 +3312,98 @@
       "潑水性恢復",
       "左開"
     ]
+  },
+  {
+    "id": "washerdryer-electrolux-eww1143r7wc",
+    "category": "washerdryer",
+    "rank": 33,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Electrolux",
+    "model": "EWW1143R7WC",
+    "name": "11公斤/7公斤 UltimateCare 700 洗脫烘衣機",
+    "price": {
+      "currency": "TWD",
+      "amount": 34900,
+      "converted": 34900,
+      "basis": "retailer_current",
+      "confidence": "PChome 24h 2026-10-20 exact-model API Price.P=34900、Low=null；Qty=10，頁面同價"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "PChome本商品頁可核對廠商宅配出貨，未在可讀文字明示基本安裝是否含價；請確認進排水、110V專用接地插座、門向、搬運與額外施工費。品牌直購FAQ的免費安裝不套用本通路。"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DMBH1RA900IQMPQ/000001_1746415086.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBH1R-A900IQMPQ",
+    "buyLabel": "PChome 24h購物",
+    "specs": [
+      "類型：獨立式滾筒洗脫烘；左開門",
+      "洗/乾容量：11kg / 7kg",
+      "最高脫水轉速：1400rpm；節能變頻馬達；滾筒68.5L",
+      "SensorWash智能髒污感測；IntelliQuick智選洗程；DelicatesPlus加倍細緻",
+      "洗乾60限1kg；羽絨被90適用負載需依說明書",
+      "Wi-Fi連線；蒸氣清新；羊毛柔洗／乾衣認證",
+      "尺寸：寬 60 x 深 65.9 x 高 85 cm",
+      "重量：淨重78kg",
+      "電壓／頻率：110V／60Hz；功率1100W",
+      "隨附配件：排水管掛架、管帽、進水管"
+    ],
+    "description": "台灣110V／60Hz的11/7公斤700系列洗脫烘，提供SensorWash髒污感測、IntelliQuick智選及精緻衣物護理。與既有12/9公斤EWW1243R7WC同屬700系列但容量不同，可供小家庭比較。",
+    "pros": [
+      "11/7公斤洗烘整合，官方尺寸、淨重與台灣電力規格清楚",
+      "智能髒污感測與精緻衣物／羊毛護理功能",
+      "PChome原廠保固新品價可與品牌直購價比較"
+    ],
+    "cons": [
+      "乾衣容量7kg小於洗衣11kg，滿桶洗後須減量烘乾",
+      "整機淨重78kg，需預留開門、進排水與安裝搬運空間",
+      "PChome基本安裝含價範圍未在可讀文字明示；需另確認"
+    ],
+    "bestFor": "想要11/7公斤洗烘整合，且重視羊毛與精緻衣物護理的台灣小家庭。",
+    "recommendation": "11/7公斤容量帶補充：以公開新品價比較既有EWW1123P5WC與12/9公斤EWW1243R7WC；不以系列序號推定直接後繼，也不代替較大乾衣量機型。乾衣容量小於洗衣容量，全程洗烘時間較長，亦需考量維修成本。",
+    "score": 85,
+    "voltage": "110V／60Hz，1100W；需依原廠說明書確認專用接地插座、進排水、門向與地面水平。",
+    "warranty": "PChome頁標原廠保固；依台灣伊萊克斯官方保固條款，洗衣機全機2年、變頻馬達10年；限台灣授權通路及正常使用，配電／安裝工程不在保固內。",
+    "tags": [
+      "洗/乾容量：11kg / 7kg",
+      "110V／60Hz",
+      "智能髒污感測",
+      "精緻衣物護理"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-20",
+      "note": "2026-10-20 查核 exact EWW1143R7WC 的飛比、FindPrice、LBJ與可信通路；比價頁顯示跨商家當下報價，未取得可重現日期與同型號新品價格歷史，不以現價、個人賣家、詢價或回饋推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-20",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"EWW1143R7WC\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22EWW1143R7WC%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"EWW1143R7WC\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22EWW1143R7WC%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)"
+        }
+      ]
+    }
   }
 ]);
 })();

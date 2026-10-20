@@ -1664,9 +1664,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/6bf08c2eea-Gd-11751994.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 19900,
-      "converted": 19900,
-      "confidence": "Yahoo購物中心 2026-08-01 exact-model 公開結構化價格"
+      "amount": 17910,
+      "converted": 17910,
+      "confidence": "Yahoo購物中心 2026-10-20 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1707,15 +1707,15 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 19900,
+      "amount": 17910,
       "currency": "TWD",
-      "converted": 19900,
+      "converted": 17910,
       "sourceUrl": "https://tw.buy.yahoo.com/gdsale/SAMSUNG-%E4%B8%89%E6%98%9F-466%E5%85%AC%E5%8D%87-%E4%B8%80%E7%B4%9A%E8%83%BD%E6%95%88%E6%99%BA%E6%85%A7%E7%AF%80%E8%83%BD%E8%AE%8A%E9%A0%BB%E6%A5%B5%E7%B0%A1%E9%9B%99%E9%96%80%E5%86%B0%E7%AE%B1-RT47CG662AS9-11751994.html",
       "sourceTitle": "Yahoo購物中心：【SAMSUNG 三星】 466公升 一級能效智慧節能變頻極簡雙門冰箱 RT47CG662AS9 | 變頻600L以上 | Yahoo購物中心",
-      "evidenceSnippet": "Yahoo購物中心於 2026-08-01 顯示同型號可信新品公開價 NT$19,900，低於既有史低 NT$20,148。",
+      "evidenceSnippet": "Yahoo購物中心於 2026-10-20 顯示同型號可信新品公開價 NT$17,910，低於既有史低 NT$19,900。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-08-01",
+      "checkedAt": "2026-10-20",
       "note": "採用 Yahoo購物中心當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
@@ -4569,10 +4569,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/45D608CE4B-SP-23628356.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 92499,
-      "converted": 92499,
+      "amount": 86950,
+      "converted": 86950,
       "basis": "retailer_current",
-      "confidence": "2026-10-20 live Chrome Yahoo自營exact-SKU原頁公開價，立即購買與加入購物車可用；未扣會員券、銀行、點數或贈品",
+      "confidence": "Yahoo購物中心 2026-10-20 exact-model 公開結構化價格",
       "note": "可下單約配，並非即時現貨或到貨日期保證；實際交期由出貨廠商確認。"
     },
     "channel": "tw",
@@ -4663,10 +4663,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/ACB484CC7A-SP-23628668.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 82961,
-      "converted": 82961,
+      "amount": 77984,
+      "converted": 77984,
       "basis": "retailer_current",
-      "confidence": "2026-10-20 live Chrome Yahoo自營exact-SKU原頁公開價，立即購買與加入購物車可用；未扣會員券、銀行、點數或贈品",
+      "confidence": "Yahoo購物中心 2026-10-20 exact-model 公開結構化價格",
       "note": "可下單約配，並非即時現貨或到貨日期保證；實際交期由出貨廠商確認。"
     },
     "channel": "tw",

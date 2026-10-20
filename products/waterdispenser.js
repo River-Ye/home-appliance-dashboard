@@ -2134,8 +2134,8 @@
     "price": {
       "currency": "USD",
       "amount": 359.99,
-      "converted": 11680,
-      "confidence": "Brondell US 官方 2026-09-05 exact-model 公開特價；ExchangeRate-API 2026-10-19 匯率換算"
+      "converted": 11697,
+      "confidence": "Brondell US 官方 2026-09-05 exact-model 公開特價；ExchangeRate-API 2026-10-20 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/4xjr3phfqx7p9vvxzfhp3jp/100457228-847_chrome_1?auto=webp&format=jpg",
     "buyUrl": "https://www.brondell.com/circle-reverse-osmosis-water-filter-system/",
@@ -2171,14 +2171,14 @@
       "status": "found",
       "amount": 289.99,
       "currency": "USD",
-      "converted": 9409,
+      "converted": 9422,
       "sourceUrl": "https://www.costco.com/CategoryDisplay?catalogId=10701&identifier=water-dispensers-filtration-water-filtration&storeId=10301",
       "sourceTitle": "Costco US：Brondell Circle Reverse Osmosis Water Filtration System",
       "evidenceSnippet": "Costco US exact-model 分類頁於 2026-08-28 顯示 Brondell Circle 折後 US$289.99，原價 US$369.99，優惠 US$80。",
       "sourceKind": "retailer_promo",
       "confidence": "medium",
       "checkedAt": "2026-08-28",
-      "note": "採 Costco US 公開 exact-model 折價作為本次可重現最低觀測價；未含國際運費、進口稅、耗材與台灣安裝／保固風險；依 2026-10-19 USD/TWD 匯率換算。"
+      "note": "採 Costco US 公開 exact-model 折價作為本次可重現最低觀測價；未含國際運費、進口稅、耗材與台灣安裝／保固風險；依 2026-10-20 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "common_issue",
@@ -4369,6 +4369,109 @@
           "query": "site:dcard.tw \"WS-UVN500\"",
           "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22WS-UVN500%22",
           "targetHost": "dcard.tw"
+        }
+      ]
+    }
+  },
+  {
+    "id": "waterdispenser-rinnai-rwp-h201",
+    "category": "waterdispenser",
+    "rank": 44,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Rinnai",
+    "model": "RWP-H201",
+    "name": "冷熱雙溫觸控式櫥下飲水機（含標準安裝）",
+    "price": {
+      "currency": "TWD",
+      "amount": 28100,
+      "converted": 28100,
+      "basis": "retailer_current",
+      "confidence": "2026-10-20 核對 PChome DPAL47-A900KCQT6 商品原頁與產品API：Name/Nick明列RWP-H201，Price.P=28100、Low=null、Qty=2；未扣券、信用卡、點數或贈品。",
+      "note": "台灣公司貨新品含頁面定義的標準安裝；前置生飲淨水系統、漏水斷水閥與額外工料需另確認。"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DPAL47A900KCQT6/000001_1787145325.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPAL47-A900KCQT6",
+    "buyLabel": "PChome 24h購物",
+    "installation": {
+      "status": "included_basic",
+      "note": "PChome標準安裝限出廠隨附零配件可完成的範圍；不含鑽孔、挖洞、額外管線/水電/電線配置與舊機回收，拆機另收300元。偏遠及外島配送、樓層搬運、空趟勘場費另計；前置生飲淨水系統與漏水斷水閥非主機配備。先確認水壓、孔位、接地插座、管線接頭及濾水設備相容性，勿以機身尺寸當完整安裝空間。 禁止將附加壓馬達淨水器作進水源；串接RO也須先由台灣林內確認相容，不能用舊型錄的洽詢文字忽略現產品頁禁令。"
+    },
+    "specs": [
+      "類型：觸控式廚下型飲水機；冷熱雙溫，未列冰水功能",
+      "組合：主機與電子觸控龍頭；過濾系統及漏水斷水閥需另外配置，不是可直接過濾自來水的完整RO套組",
+      "容量：熱開水槽3.5L；SUS#304不鏽鋼冷熱缸體",
+      "控制／安全：熱水安全鎖、連續出水60秒暫停、過載安全保險絲；熱水未達85°C不出水",
+      "UV：內建紫外線殺菌模組；官方建議2年更換，耗材成本另確認",
+      "尺寸：寬 19 x 深 31.5 x 高 42 cm；官方原序W×H×D為190×420×315mm",
+      "重量：淨重7kg",
+      "電壓／頻率：AC 110V／60Hz；總功率750W",
+      "給排水：適用進水水壓0.7–5kg/cm²；禁止以附加壓馬達淨水器當進水源，串接RO先洽台灣林內",
+      "安裝：龍頭需Ø30–35mm孔位；須留主機、水路、排水與維護空間；基本安裝不含所有鑽孔與水電追加工程",
+      "售後：PChome頁面列台灣原廠保固1年；自然耗損性零件不含，外島需先洽當地林內經銷商"
+    ],
+    "description": "Rinnai RWP-H201以7kg、19cm寬主機提供冷熱雙溫及3.5L熱水槽；相較冰冷熱三溫H300，適合沒有冰水需求、櫥下空間較有限的家庭。必須另搭生飲等級過濾系統並確認水壓與管線。",
+    "pros": [
+      "110V／60Hz、750W與台灣原廠保固1年均有exact來源",
+      "機身寬19cm、淨重7kg，低於同品牌冰冷熱H300的空間及搬運需求",
+      "電子龍頭、熱水安全鎖與UV模組，通路含有邊界的標準安裝"
+    ],
+    "cons": [
+      "未列冰水功能，不能等同H300冰冷熱三溫",
+      "生飲過濾系統及漏水斷水閥非隨機配備，另有耗材與安裝成本",
+      "禁止將附加壓馬達淨水器作進水源；RO串接、額外鑽孔與水電須先確認"
+    ],
+    "bestFor": "不需冰水、願意另備相容生飲過濾系統，並能先核對孔位與水路的台灣家庭。",
+    "recommendation": "雙溫與窄機身候選：先核對前置過濾、水壓、龍頭孔及施工追加費，再與既有H300的冰水需求與16kg主機比較；下單須約定RWP-H201 exact型號，不接受未確認的代換。",
+    "score": 85,
+    "voltage": "AC 110V／60Hz；總功率750W，插座、接地與迴路須由安裝人員核對",
+    "warranty": "PChome exact-model頁列原廠保固1年，自然耗損性零件／耗材不含；台灣林內客服0800-093-789，外島先洽當地經銷商確認售後。",
+    "tags": [
+      "櫥下型",
+      "冷熱雙溫",
+      "3.5L熱水",
+      "UV",
+      "110V",
+      "含基本安裝"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-20",
+      "note": "2026-10-20 逐頁檢視 BigGo 與 FindPrice 的 RWP-H201 exact-model 價格搜尋；資料包含即時比價、分期每期價、RWP-H201-D 福利品及不同安裝條件，未取得同新品型號、同完整機組與安裝條件、具低點日期的可公開重現歷史價。未以現價、趨勢差額、會員回饋或跨套組價格推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-20",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"RWP-H201\"",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22RWP-H201%22"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"RWP-H201\"",
+          "targetHost": "ptt.cc",
+          "queryUrl": "https://www.bing.com/search?q=site%3Aptt.cc%20%22RWP-H201%22"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"RWP-H201\"",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22RWP-H201%22"
         }
       ]
     }

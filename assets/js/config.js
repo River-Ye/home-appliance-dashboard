@@ -6,21 +6,21 @@
     dataDate: "2026-10-20",
     costcoDate: "2026-10-20",
     expectedCategoryCount: 37,
-    expectedProductCount: 1178,
-    cacheVersion: "20261020-panasonic-autumn",
-    exchangeSummary: "USD 1 = TWD 32.446",
+    expectedProductCount: 1180,
+    cacheVersion: "20261020-134956-catalog",
+    exchangeSummary: "USD 1 = TWD 32.492",
   };
 
   const exchange = {
     source: "ExchangeRate-API",
-    date: "2026-10-19 00:02 UTC",
-    USD_TWD: 32.446228,
-    GBP_TWD: 43.24399378386951,
-    EUR_TWD: 36.421201511795886,
-    JPY_TWD: 0.20547110109103336,
-    CNY_TWD: 4.847973774567666,
-    HKD_TWD: 4.1342765251679285,
-    KRW_TWD: 0.02432982344690451,
+    date: "2026-10-20 00:02 UTC",
+    USD_TWD: 32.491653,
+    GBP_TWD: 43.259218577750794,
+    EUR_TWD: 36.446989658734886,
+    JPY_TWD: 0.20507033033786204,
+    CNY_TWD: 4.854092999331756,
+    HKD_TWD: 4.140102530176041,
+    KRW_TWD: 0.024415230352689297,
   };
 
   const categories = [

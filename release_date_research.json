@@ -1,20 +1,20 @@
 {
   "summary": {
     "checkedAt": "2026-10-20T00:00:00+08:00",
-    "total": 1178,
-    "researchedThisRun": 19,
+    "total": 1180,
+    "researchedThisRun": 2,
     "found": 346,
-    "missing": 832,
+    "missing": 834,
     "byConfidence": {
       "official": 188,
-      "not_found": 829,
+      "not_found": 831,
       "retailer_explicit": 23,
       "credible_article": 52,
       "high": 67,
       "medium": 16,
       "unknown": 3
     },
-    "scopeNote": "2026-10-20 Panasonic 秋季新品定向增量：僅新增19款，原1159款商品、逐筆研究與實際查核日期保留；來源累積覆蓋不表示本輪全目錄重查。"
+    "scopeNote": "2026-10-20晚間全量價格/來源維護；上市日期本輪僅補查新增EWW1143R7WC及RWP-H201，原1178筆上市證據與真實查核日期保留。"
   },
   "results": [
     {
@@ -33113,7 +33113,7 @@
       "category": "comforter",
       "brand": "MUJI",
       "model": "JABG2A6A",
-      "name": "可水洗聚酯纖維被 SD 170×210 cm（JABG2A6A／12072381）",
+      "name": "再生聚酯混纖維厚手棉被 SD 170×210 cm（JABG2A6A／12072381）",
       "previousReleaseDate": "找不到",
       "releaseDate": "找不到",
       "sourceUrl": "",
@@ -33147,7 +33147,7 @@
       "category": "comforter",
       "brand": "MUJI",
       "model": "JABG3A6A",
-      "name": "可水洗聚酯纖維被 D 190×210 cm（JABG3A6A／12072382）",
+      "name": "再生聚酯混纖維厚手棉被 D 190×210 cm（JABG3A6A／12072382）",
       "previousReleaseDate": "找不到",
       "releaseDate": "找不到",
       "sourceUrl": "",
@@ -36071,6 +36071,60 @@
       "confidence": "not_found",
       "checkedAt": "2026-10-20",
       "reason": "未取得可採用的明確上市／發售日期，保留找不到。"
+    },
+    {
+      "id": "washerdryer-electrolux-eww1143r7wc",
+      "category": "washerdryer",
+      "brand": "Electrolux",
+      "model": "EWW1143R7WC",
+      "name": "11公斤/7公斤 UltimateCare 700 洗脫烘衣機",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "https://www.electrolux.com.tw/appliances/washing-machines/eww1143r7wc/",
+      "sourceTitle": "Electrolux台灣 EWW1143R7WC 官方商品規格",
+      "evidenceSnippet": "官方exact-model商品頁與尺寸/使用說明書未明示上市或發售日期；搜尋所見2025年通路型錄新品/促銷及手冊檔名日期不當成上市日。",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-20",
+      "reason": "未取得明確官方或可信媒體上市／發售日期，維持找不到。"
+    },
+    {
+      "id": "waterdispenser-rinnai-rwp-h201",
+      "category": "waterdispenser",
+      "brand": "Rinnai",
+      "model": "RWP-H201",
+      "name": "冷熱雙溫觸控式櫥下飲水機（含標準安裝）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"RWP-H201\" 上市 發售 推出",
+      "auditQueries": [
+        "\"RWP-H201\" 上市 發售 推出",
+        "\"RWP-H201\" launch"
+      ],
+      "sourceKind": "not_found",
+      "reason": "2026-10-20 核對台灣林內exact產品頁與型錄，並查完整型號上市/發售/推出/launch；原頁沒有明確日期。搜尋的「新上市」多屬相鄰RH-L9201A等商品，不套用到本型號；不以型錄版本日、能源登錄日或通路上架日作上市日。",
+      "checkedAt": "2026-10-20",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.rinnai.com.tw/Product/V3/572",
+          "title": "台灣林內 RWP-H201 觸控式廚下型飲水機 冷熱雙溫型",
+          "outcome": "exact產品頁列規格及建議售價，未寫上市/發售日。"
+        },
+        {
+          "url": "https://www.rinnai.com.tw/Dm/DownloadDm/13",
+          "title": "台灣林內廚房淨水型錄",
+          "outcome": "包含exact RWP-H201，型錄版本/修訂日不是此商品發售日。"
+        },
+        {
+          "url": "https://www.bing.com/search?q=%22RWP-H201%22%20%E4%B8%8A%E5%B8%82%20%E7%99%BC%E5%94%AE%20%E6%8E%A8%E5%87%BA",
+          "title": "RWP-H201 exact-model release query",
+          "outcome": "未取得官方或可信媒體明確exact型號上市日期。"
+        }
+      ]
     }
   ]
 }

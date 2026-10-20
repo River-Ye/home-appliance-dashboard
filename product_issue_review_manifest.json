@@ -89973,6 +89973,79 @@
       "candidateReviews": [],
       "reviewerNote": "NR-F603WX-X1：鑽石黑X1 exact SKU 的Mobile01與PTT問題搜尋皆未回傳候選，人工覆核為無候選；可下單及規格頁不計為第一人稱使用者負評。 未達同一問題6名獨立使用者跨2個原始網站門檻，不表示完全沒有負評。",
       "attestation": "manual_cross_site_search_reviewed_no_candidate"
+    },
+    {
+      "id": "washerdryer-electrolux-eww1143r7wc",
+      "category": "washerdryer",
+      "brand": "Electrolux",
+      "model": "EWW1143R7WC",
+      "reviewedAt": "2026-10-20",
+      "reviewBatch": "washerdryer",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"EWW1143R7WC\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22EWW1143R7WC%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"EWW1143R7WC\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22EWW1143R7WC%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)"
+        }
+      ],
+      "candidateDisposition": "EWW1143R7WC：逐項人工檢視 Mobile01、PTT exact-model 搜尋，未取得該型號原頁候選；EWW1243R7WC、EWW1142ADWA 與其他容量不轉用。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "reviewerNote": "EWW1143R7WC：本次人工跨站 exact-model 問題查詢未取得 Mobile01、PTT 原頁候選。未達同一問題六名獨立使用者且跨兩原始網站門檻，不表示完全沒有負評；不把搜尋摘要或官方產品星等當使用者災情證據。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate"
+    },
+    {
+      "id": "waterdispenser-rinnai-rwp-h201",
+      "category": "waterdispenser",
+      "brand": "Rinnai",
+      "model": "RWP-H201",
+      "name": "冷熱雙溫觸控式櫥下飲水機（含標準安裝）",
+      "status": "completed",
+      "reviewedAt": "2026-10-20",
+      "reviewBatch": "waterdispenser",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT",
+        "Reddit"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"RWP-H201\"",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22RWP-H201%22"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"RWP-H201\"",
+          "targetHost": "ptt.cc",
+          "queryUrl": "https://www.bing.com/search?q=site%3Aptt.cc%20%22RWP-H201%22"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"RWP-H201\"",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22RWP-H201%22"
+        }
+      ],
+      "candidateDisposition": "RWP-H201：本次分別以site:mobile01.com、site:ptt.cc與site:reddit.com加完整型號進行人工查詢，三組均回Empty search results，沒有通過型號邊界的原始回報候選；不代表沒有任何負評。",
+      "representativeSources": [],
+      "reviewerNote": "RWP-H201：2026-10-20 實際逐站完成Mobile01、PTT及Reddit exact-model查詢，工具各回無搜尋結果。沒有候選可進入原頁、作者、問題及跨站計數；本決策不是分類或ID批次推定。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
     }
   ]
 }

@@ -3736,9 +3736,9 @@
     "name": "65 型 S90H OLED 4K Samsung Vision AI 智慧顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 80900,
-      "converted": 80900,
-      "confidence": "Yahoo購物中心 2026-10-19 exact-model 公開結構化價格",
+      "amount": 79282,
+      "converted": 79282,
+      "confidence": "Yahoo購物中心 2026-10-20 exact-model 公開結構化價格",
       "basis": "retailer_current"
     },
     "installation": {

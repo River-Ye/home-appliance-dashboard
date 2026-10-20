@@ -1647,9 +1647,9 @@
     "name": "透氣皮革工學賽車電競椅",
     "price": {
       "currency": "TWD",
-      "amount": 3280,
-      "converted": 3280,
-      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 3199,
+      "converted": 3199,
+      "confidence": "PChome 2026-10-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ6ZA900HNDMY/000001_1720591564.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ6Z-A900HNDMY",

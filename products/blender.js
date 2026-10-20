@@ -205,9 +205,9 @@
     "name": "免清洗多功能破壁調理機",
     "price": {
       "currency": "TWD",
-      "amount": 12900,
-      "converted": 12900,
-      "confidence": "PChome 2026-08-28 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 11868,
+      "converted": 11868,
+      "confidence": "PChome 2026-10-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY4YA900HB8CN/000001_1780309793.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAY4Y-A900HB8CN",
@@ -398,8 +398,8 @@
     "price": {
       "currency": "USD",
       "amount": 99.98,
-      "converted": 3244,
-      "confidence": "2026-08-31 人工核對 SharkNinja 官方 BN701 公開可購主價 USD 99.98；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-10-19 匯率換算",
+      "converted": 3249,
+      "confidence": "2026-08-31 人工核對 SharkNinja 官方 BN701 公開可購主價 USD 99.98；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-10-20 匯率換算",
       "basis": "retailer_current"
     },
     "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/d1c25153baa2aa99eae7831be826d2a51d87c485/Ninja-BN701-Professional-Plus-Blender-with-Auto-iQ.jpg",
@@ -485,9 +485,9 @@
     "name": "VITA PREP 2.3 匹馬力生機調理機",
     "price": {
       "currency": "TWD",
-      "amount": 23980,
-      "converted": 23980,
-      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 22300,
+      "converted": 22300,
+      "confidence": "PChome 2026-10-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/QBAO0FA9008QMG3/000001_1782719707.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/QBAO0F-A9008QMG3",
@@ -1453,9 +1453,9 @@
     "name": "免清洗多功能破壁豆漿機",
     "price": {
       "currency": "TWD",
-      "amount": 9480,
-      "converted": 9480,
-      "confidence": "PChome 2026-09-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 8532,
+      "converted": 8532,
+      "confidence": "PChome 2026-10-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY01A900GFJCO/000001_1780310319.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAY01-A900GFJCO",
@@ -1741,9 +1741,9 @@
     "name": "多功能變頻輕音冷熱調理機",
     "price": {
       "currency": "TWD",
-      "amount": 11490,
-      "converted": 11490,
-      "confidence": "PChome 2026-09-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 10685,
+      "converted": 10685,
+      "confidence": "PChome 2026-10-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY4YA900I3ILD/000001_1783328441.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAY4Y-A900I3ILD",
@@ -1776,16 +1776,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 10699,
+      "amount": 10685,
       "currency": "TWD",
-      "converted": 10699,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1283774544&cgp=10699",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【JOYOUNG 九陽】(宅配免運) 多功能變頻輕音冷熱調理機L18M-Y6G 豆漿機 果汁機 破壁機 副食品 調理機",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【JOYOUNG 九陽】(宅配免運) 多功能變頻輕音冷熱調理機L18M-Y6G 豆漿機 果汁機 破壁機 副食品 調理機」最低價為 NT$10,699，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 10685,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMAY4Y-A900I3ILD",
+      "sourceTitle": "PChome 24h 購物：【Joyoung九陽】多功能變頻輕音冷熱調理機豆漿機(L18M-Y6G)",
+      "evidenceSnippet": "PChome 24h 購物於 2026-10-20 顯示同型號可信新品公開價 NT$10,685，低於既有史低 NT$10,699。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-10-20",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",

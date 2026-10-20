@@ -1,9 +1,9 @@
 {
   "summary": {
     "checkedAt": "2026-10-20T00:00:00+08:00",
-    "total": 1178,
+    "total": 1180,
     "commonIssueProducts": 53,
-    "noCommonIssueProducts": 1125,
+    "noCommonIssueProducts": 1127,
     "pendingManualReview": 0,
     "commonIssues": 54,
     "searchUnavailable": 614,
@@ -29,8 +29,8 @@
       "2026-09-07 本輪僅新增水空間 WS-RCH601、WS-Min'O-R2、WS-UVN500 三款逐型號跨站人工覆核；WS-RCH601 的門市體驗文章非故障回報，其餘兩款未發現 exact-model 使用者候選，均未達同問題 6 人／2 站門檻。既有 1149 筆研究與逐人證據原樣保留，不宣稱同日重讀。",
       "2026-09-08 全量維護僅對新增 MPG 491CQPX QD-OLED 與 NA-LX128EL 完成逐型號跨站負評人工覆核；既有商品保留原始逐筆研究日期。MSI 的零星訊號／VRR／OSD問題及 Panasonic 的烘後桶體燙感分開處置，均未達同一問題6人且跨2個原始網站門檻。依eufy官方停產公告移除E20及其現行研究列，既有386筆逐人證據不變。"
     ],
-    "researchedThisRun": 19,
-    "scopeNote": "2026-10-20 Panasonic 秋季新品定向增量：僅新增19款，原1159款商品、逐筆研究與實際查核日期保留；來源累積覆蓋不表示本輪全目錄重查。"
+    "researchedThisRun": 2,
+    "scopeNote": "2026-10-20晚間全量價格/來源維護；負評人工覆核僅新增EWW1143R7WC及RWP-H201，原1178筆決策與386筆逐人證據保留真實日期。"
   },
   "results": [
     {
@@ -185110,7 +185110,7 @@
       "category": "comforter",
       "brand": "MUJI",
       "model": "JABG2A6A",
-      "name": "可水洗聚酯纖維被 SD 170×210 cm（JABG2A6A／12072381）",
+      "name": "再生聚酯混纖維厚手棉被 SD 170×210 cm（JABG2A6A／12072381）",
       "identity": {
         "canonicalModel": "JABG2A6A",
         "lookupLabel": "MUJI JABG2A6A",
@@ -185201,7 +185201,7 @@
       "category": "comforter",
       "brand": "MUJI",
       "model": "JABG3A6A",
-      "name": "可水洗聚酯纖維被 D 190×210 cm（JABG3A6A／12072382）",
+      "name": "再生聚酯混纖維厚手棉被 D 190×210 cm（JABG3A6A／12072382）",
       "identity": {
         "canonicalModel": "JABG3A6A",
         "lookupLabel": "MUJI JABG3A6A",
@@ -208350,6 +208350,227 @@
           "candidateUrls": [],
           "candidates": [],
           "inspectedAt": "2026-10-20"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [],
+      "reports": []
+    },
+    {
+      "id": "washerdryer-electrolux-eww1143r7wc",
+      "category": "washerdryer",
+      "brand": "Electrolux",
+      "model": "EWW1143R7WC",
+      "name": "11公斤/7公斤 UltimateCare 700 洗脫烘衣機",
+      "identity": {
+        "canonicalModel": "EWW1143R7WC",
+        "lookupLabel": "Electrolux EWW1143R7WC",
+        "aliases": [
+          "Electrolux EWW1143R7WC"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMBH1R-A900IQMPQ"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "id": "washerdryer-electrolux-eww1143r7wc",
+        "category": "washerdryer",
+        "brand": "Electrolux",
+        "model": "EWW1143R7WC",
+        "reviewedAt": "2026-10-20",
+        "reviewBatch": "washerdryer",
+        "decision": "no_common_issue",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"EWW1143R7WC\" (問題 OR 故障 OR 災情)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22EWW1143R7WC%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"EWW1143R7WC\" (問題 OR 故障 OR 災情)",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22EWW1143R7WC%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)"
+          }
+        ],
+        "candidateDisposition": "EWW1143R7WC：逐項人工檢視 Mobile01、PTT exact-model 搜尋，未取得該型號原頁候選；EWW1243R7WC、EWW1142ADWA 與其他容量不轉用。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "EWW1143R7WC：本次人工跨站 exact-model 問題查詢未取得 Mobile01、PTT 原頁候選。未達同一問題六名獨立使用者且跨兩原始網站門檻，不表示完全沒有負評；不把搜尋摘要或官方產品星等當使用者災情證據。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-10-20",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"EWW1143R7WC\" (問題 OR 故障 OR 災情)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22EWW1143R7WC%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"EWW1143R7WC\" (問題 OR 故障 OR 災情)",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22EWW1143R7WC%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"EWW1143R7WC\" (問題 OR 故障 OR 災情)",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22EWW1143R7WC%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-10-20"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"EWW1143R7WC\" (問題 OR 故障 OR 災情)",
+          "searchUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22EWW1143R7WC%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-10-20"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [],
+      "reports": []
+    },
+    {
+      "id": "waterdispenser-rinnai-rwp-h201",
+      "category": "waterdispenser",
+      "brand": "Rinnai",
+      "model": "RWP-H201",
+      "name": "冷熱雙溫觸控式櫥下飲水機（含標準安裝）",
+      "identity": {
+        "canonicalModel": "RWP-H201",
+        "lookupLabel": "Rinnai RWP-H201",
+        "aliases": [
+          "RWP-H201",
+          "Rinnai RWP-H201"
+        ],
+        "evidenceUrl": "https://www.rinnai.com.tw/Product/V3/572"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "id": "waterdispenser-rinnai-rwp-h201",
+        "category": "waterdispenser",
+        "brand": "Rinnai",
+        "model": "RWP-H201",
+        "name": "冷熱雙溫觸控式櫥下飲水機（含標準安裝）",
+        "status": "completed",
+        "reviewedAt": "2026-10-20",
+        "reviewBatch": "waterdispenser",
+        "decision": "no_common_issue",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"RWP-H201\"",
+            "targetHost": "mobile01.com",
+            "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22RWP-H201%22"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"RWP-H201\"",
+            "targetHost": "ptt.cc",
+            "queryUrl": "https://www.bing.com/search?q=site%3Aptt.cc%20%22RWP-H201%22"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"RWP-H201\"",
+            "targetHost": "reddit.com",
+            "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22RWP-H201%22"
+          }
+        ],
+        "candidateDisposition": "RWP-H201：本次分別以site:mobile01.com、site:ptt.cc與site:reddit.com加完整型號進行人工查詢，三組均回Empty search results，沒有通過型號邊界的原始回報候選；不代表沒有任何負評。",
+        "representativeSources": [],
+        "reviewerNote": "RWP-H201：2026-10-20 實際逐站完成Mobile01、PTT及Reddit exact-model查詢，工具各回無搜尋結果。沒有候選可進入原頁、作者、問題及跨站計數；本決策不是分類或ID批次推定。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate",
+        "candidateReviews": []
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-10-20",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"RWP-H201\"",
+            "targetHost": "mobile01.com",
+            "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22RWP-H201%22"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"RWP-H201\"",
+            "targetHost": "ptt.cc",
+            "queryUrl": "https://www.bing.com/search?q=site%3Aptt.cc%20%22RWP-H201%22"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"RWP-H201\"",
+            "targetHost": "reddit.com",
+            "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22RWP-H201%22"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"RWP-H201\"",
+          "searchUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22RWP-H201%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-10-20T13:47:36.738212+00:00",
+          "note": "人工檢視 mobile01.com 加完整型號 RWP-H201 的搜尋結果；本次工具明確回Empty search results，無原始候選可覆核。",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"RWP-H201\"",
+          "searchUrl": "https://www.bing.com/search?q=site%3Aptt.cc%20%22RWP-H201%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-10-20T13:47:36.738212+00:00",
+          "note": "人工檢視 ptt.cc 加完整型號 RWP-H201 的搜尋結果；本次工具明確回Empty search results，無原始候選可覆核。",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"RWP-H201\"",
+          "searchUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22RWP-H201%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-10-20T13:47:36.738212+00:00",
+          "note": "人工檢視 reddit.com 加完整型號 RWP-H201 的搜尋結果；本次工具明確回Empty search results，無原始候選可覆核。",
+          "targetHost": "reddit.com"
         }
       ],
       "evidence": [],

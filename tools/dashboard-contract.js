@@ -1,5 +1,5 @@
 const EXPECTED_CATEGORY_COUNT = 37;
-const EXPECTED_PRODUCT_COUNT = 1178;
+const EXPECTED_PRODUCT_COUNT = 1180;
 const MIN_PRODUCTS_PER_CATEGORY = 20;
 const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["tv", 42],
@@ -13,7 +13,7 @@ const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["vacuum", 32],
   ["washer", 27],
   ["dryer", 24],
-  ["washerdryer", 32],
+  ["washerdryer", 33],
   ["garmentcare", 21],
   ["bedsheet", 30],
   ["comforter", 30],
@@ -24,7 +24,7 @@ const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["blender", 25],
   ["coffee", 24],
   ["oven", 25],
-  ["waterdispenser", 43],
+  ["waterdispenser", 44],
   ["dishwasher", 31],
   ["waterheater", 45],
   ["bidet", 22],
@@ -47,7 +47,7 @@ const DIMENSION_CATEGORY_COUNTS = new Map([
   ["soundbar", 38],
   ["washer", 27],
   ["dryer", 24],
-  ["washerdryer", 32],
+  ["washerdryer", 33],
   ["garmentcare", 21],
   ["bedsheet", 30],
   ["comforter", 30],

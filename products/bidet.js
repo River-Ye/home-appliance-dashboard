@@ -17,9 +17,9 @@
     "name": "WASHLET 溫水洗淨便座",
     "price": {
       "currency": "TWD",
-      "amount": 9900,
-      "converted": 9900,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 9690,
+      "converted": 9690,
+      "confidence": "PChome 2026-10-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAL2NA900HYYVV/000001_1732173829.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAL2N-A900HYYVV",
@@ -1861,8 +1861,8 @@
     "price": {
       "currency": "USD",
       "amount": 383.99,
-      "converted": 12459,
-      "confidence": "Brondell US 官方 2026-08-28 exact-model 公開特價；ExchangeRate-API 2026-10-19 匯率換算"
+      "converted": 12476,
+      "confidence": "Brondell US 官方 2026-08-28 exact-model 公開特價；ExchangeRate-API 2026-10-20 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/k83n76pfjhvqcf9gfrz74sx/1432187-847__1?auto=webp&format=jpg",
     "buyUrl": "https://www.brondell.com/swash-cl1700-advanced-bidet-seat/",
@@ -1899,14 +1899,14 @@
       "status": "found",
       "amount": 383.99,
       "currency": "USD",
-      "converted": 12459,
+      "converted": 12476,
       "sourceUrl": "https://www.brondell.com/swash-cl1700-advanced-bidet-seat/",
       "sourceTitle": "Brondell US：Swash CL1700 Advanced Bidet Seat",
       "evidenceSnippet": "Brondell US 官方 exact-model 頁於 2026-08-28 顯示 Swash CL1700 sale price US$383.99。",
       "sourceKind": "official_sale",
       "confidence": "medium",
       "checkedAt": "2026-08-28",
-      "note": "採品牌官方公開特價作為本次可重現最低觀測價；同頁 US$299.99 為 Open-Box 開箱品，依規則排除。未含國際運費、進口稅、美規 elongated 尺寸、120V 插座與台灣保固風險；依 2026-10-19 USD/TWD 匯率換算。"
+      "note": "採品牌官方公開特價作為本次可重現最低觀測價；同頁 US$299.99 為 Open-Box 開箱品，依規則排除。未含國際運費、進口稅、美規 elongated 尺寸、120V 插座與台灣保固風險；依 2026-10-20 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "no_common_issue",
