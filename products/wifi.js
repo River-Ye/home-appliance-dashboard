@@ -2328,9 +2328,9 @@
     "name": "BE3600 雙頻 Gigabit Wi-Fi 7 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 2099,
-      "converted": 2099,
-      "confidence": "PChome 2026-10-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 2299,
+      "converted": 2299,
+      "confidence": "PChome 2026-10-21 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLVA900K13CR/000001_1779257487.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAN09-A900IK1F1",

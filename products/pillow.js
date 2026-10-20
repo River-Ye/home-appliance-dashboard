@@ -59,7 +59,7 @@
       amount: item.price,
       converted: item.price,
       basis: "retailer_current",
-      confidence: `2026-09-01 Chrome 已查核 ${item.model} 確切新品頁與所選版本，頁面現價為 NT$${item.price.toLocaleString("en-US")}；不把其他尺寸、包數或贈品價套用。`,
+      confidence: item.priceConfidence || `2026-09-01 Chrome 已查核 ${item.model} 確切新品頁與所選版本，頁面現價為 NT$${item.price.toLocaleString("en-US")}；不把其他尺寸、包數或贈品價套用。`,
     },
     image: item.image,
     buyUrl: item.buyUrl,
@@ -103,7 +103,7 @@
       description: "台灣官方 MEDIUM 確切 SKU 的雙面感溫枕，兼顧側睡與仰睡，並提供三年台灣保固。", pros: ["雙面支撐不同睡姿", "三年台灣保固", "可拆洗認證布套"], cons: ["價格高", "台灣頁未列尺寸與淨重", "感溫泡棉對怕熱者仍需試睡"], bestFor: "想在台灣門市／官方售後體系內選擇側睡與仰睡兼用感溫枕者。", recommendation: "台灣 Top Pick；先到門市試躺確認 MEDIUM 高度，不以系列其他尺寸推算。", warranty: "TEMPUR 台灣官方 3 年保固；保留購買憑證並依官網條款申請。", tags: ["台灣 Top Pick", "側睡推薦", "仰睡", "三年保固", "台灣官方"],
     },
     {
-      id: "pillow-3m-mz600", variantFamily: "3m-mz600", brand: "3M", model: "MZ600", name: "3M 防蟎可調式記憶枕 MZ600 側仰舒眠型", type: "memory_foam", typeSpec: "可調式記憶泡棉完整成品枕", budget: "premium", rank: 2, score: 91, price: 3290,
+      id: "pillow-3m-mz600", variantFamily: "3m-mz600", brand: "3M", model: "MZ600", name: "3M 防蟎可調式記憶枕 MZ600 側仰舒眠型", type: "memory_foam", typeSpec: "可調式記憶泡棉完整成品枕", budget: "premium", rank: 2, score: 91, price: 2990, priceConfidence: "PChome 2026-10-21 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       image: "https://img.91app.com/webapi/imagesV3/Original/SalePage/6213493/0/639237917199230000?v=1", buyUrl: "https://24h.pchome.com.tw/prod/DAAN5D-A900AJMFY", buyLabel: "PChome 24h（MZ600）",
       sleep: "左右高包覆、側睡／仰睡；含 2 cm 可拆墊片調高", cover: "3M 物理防蟎可拆洗枕套", core: "記憶泡棉枕心與可拆式墊片", height: "高 7.5–11.5 cm＋2 cm 墊片／可調支撐", size: "長 64 x 寬 38 x 高 11.5 cm", weight: "查不到", thermal: "官方主打防蟎與包覆，未標示涼感等級", origin: "BSMI M34661；台灣製造", care: "防蟎枕套可拆洗；官方確切頁未列泡棉枕心洗滌方式，核心勿逕行機洗",
       description: "超寬輪廓搭配可拆墊片，讓同一枕芯在側睡與仰睡間微調高度。", pros: ["高度可調", "台灣製造與可信通路", "附物理防蟎枕套"], cons: ["官方頁未明示淨重", "泡棉核心不可由枕套洗法推定", "需自行找出合適墊片組合"], bestFor: "希望用墊片微調高度的仰睡或側睡成人。", recommendation: "列為仰睡推薦；先從不加墊片試睡，再逐步加高避免頸部過度屈曲。", warranty: "3M 台灣官方通路與客服；耐用保固年限未標示，退換依購買通路條款。", tags: ["仰睡推薦", "高度可調", "防蟎枕套", "台灣製造"],

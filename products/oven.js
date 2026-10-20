@@ -2482,6 +2482,104 @@
         }
       ]
     }
+  },
+  {
+    "id": "oven-hitachi-hmr-da2713",
+    "category": "oven",
+    "rank": 26,
+    "topPick": false,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "HITACHI",
+    "model": "HMR-DA2713",
+    "name": "27L 變頻氣炸微波烤箱（台灣110V版）",
+    "price": {
+      "currency": "TWD",
+      "amount": 7994,
+      "converted": 7994,
+      "basis": "retailer_current",
+      "confidence": "PChome 2026-10-21 exact-model商品API Price.P=7994、Price.Low=null、Qty=4，原頁同價；未計折價券或回饋。"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "通路未明示含安裝；獨立式開放檯面使用，官方禁止嵌入/櫥櫃內使用，須留上方20cm、左右各5cm、後方10cm；只用接地插座、不使用延長線，搬運/施工如需另詢。"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMBJ5PA900HSLQT/000001_1750839437.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ5P-A900HSLQT",
+    "buyLabel": "PChome 24h購物",
+    "specs": [
+      "27L；變頻微波＋3D旋風氣炸＋燒烤／烘烤＋組合烹調",
+      "尺寸：寬 49.5 x 深 42.4 x 高 29 cm",
+      "重量：12.4 kg",
+      "電壓／頻率：110V／60Hz（台灣版）；微波額定1450W、烘烤1480W",
+      "微波輸出900W、燒烤950W；33道自動行程",
+      "玻璃轉盤＋炸盤＋高低烤架；配件僅依說明書指定模式使用",
+      "散熱：上方20cm、左右各5cm、後方10cm；禁止放入櫥櫃、非嵌入式",
+      "無過熱水蒸氣料理；蒸氣清潔為手動清潔功能",
+      "火力段數：官方簡介5段與規格表10段互有衝突，購前確認台灣說明書及實機"
+    ],
+    "description": "27L台灣110V版整合氣炸、燒烤、烘烤與變頻微波，補入萬元內多合一選項；適合2–4人小家庭的開放檯面，不能安裝在封閉家電櫃。",
+    "pros": [
+      "萬元內整合微波、氣炸與烘烤",
+      "官方台灣規格、1年原廠保固可核",
+      "本體高29cm，另須保留上方20cm散熱"
+    ],
+    "cons": [
+      "沒有過熱水蒸氣料理功能",
+      "官方禁止置於櫥櫃，家電櫃空間有限者須先確認",
+      "有玻璃轉盤，容器與金屬配件須依模式限制使用"
+    ],
+    "bestFor": "需要微波加氣炸、預算萬元內且有開放檯面的小家庭。",
+    "recommendation": "平價多合一選擇；只採台灣110V/60Hz版，不視為MRO系列直接後繼。先確認散熱、開門與接地插座空間，需要蒸氣料理者另選。",
+    "score": 86,
+    "voltage": "110V／60Hz（台灣版；不可套用香港/新加坡230V版）",
+    "warranty": "台灣原廠保固1年（PChome原頁明示）",
+    "tags": [
+      "多合一",
+      "氣炸",
+      "變頻微波",
+      "開放檯面"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-21",
+      "note": "已查PChome原始商品/API、Yahoo自營、BigGo/飛比/比價撿便宜的同型號價格；比價僅現價/漲跌和第三方商家，沒有可核同台灣版本、可信新品通路的歷史最低點及日期。Yahoo7591原頁售完，不作現貨價；不拿本次7994現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-21",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "\"HMR-DA2713\" site:mobile01.com",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.bing.com/search?q=%22HMR-DA2713%22%20site%3Amobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "\"HMR-DA2713\" site:ptt.cc",
+          "targetHost": "ptt.cc",
+          "queryUrl": "https://www.bing.com/search?q=%22HMR-DA2713%22%20site%3Aptt.cc"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"HMR-DA2713\" site:reddit.com",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.bing.com/search?q=%22HMR-DA2713%22%20site%3Areddit.com"
+        }
+      ]
+    }
   }
 ]);
 })();

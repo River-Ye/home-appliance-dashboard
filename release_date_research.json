@@ -1,20 +1,20 @@
 {
   "summary": {
-    "checkedAt": "2026-10-20T00:00:00+08:00",
-    "total": 1180,
-    "researchedThisRun": 2,
+    "checkedAt": "2026-10-21T00:00:00+08:00",
+    "total": 1181,
+    "researchedThisRun": 1,
     "found": 346,
-    "missing": 834,
+    "missing": 835,
     "byConfidence": {
       "official": 188,
-      "not_found": 831,
+      "not_found": 832,
       "retailer_explicit": 23,
       "credible_article": 52,
       "high": 67,
       "medium": 16,
       "unknown": 3
     },
-    "scopeNote": "2026-10-20晚間全量價格/來源維護；上市日期本輪僅補查新增EWW1143R7WC及RWP-H201，原1178筆上市證據與真實查核日期保留。"
+    "scopeNote": "2026-10-21全量價格/來源維護；上市日期本輪僅補查新增HMR-DA2713，原1180筆上市證據與真實查核日期保留。"
   },
   "results": [
     {
@@ -36124,6 +36124,45 @@
           "title": "RWP-H201 exact-model release query",
           "outcome": "未取得官方或可信媒體明確exact型號上市日期。"
         }
+      ]
+    },
+    {
+      "id": "oven-hitachi-hmr-da2713",
+      "category": "oven",
+      "brand": "HITACHI",
+      "model": "HMR-DA2713",
+      "name": "27L 變頻氣炸微波烤箱（台灣110V版）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"HMR-DA2713\" 上市 日立",
+      "sourceKind": "not_found_after_manual_recheck",
+      "reason": "官方台灣產品/規格/比較頁與說明書可確認機種，但無明確上市日期；搜尋找到2024論壇與節能標章認證、2025型錄/說明書版本日，均非可採上市證據。",
+      "checkedAt": "2026-10-21",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://hitachi-homeappliances.com.tw/products/products_03.php?pid=HMR-DA2713",
+          "title": "日立台灣HMR-DA2713產品頁",
+          "outcome": "可核exact model，無明確上市日"
+        },
+        {
+          "url": "https://hitachi-homeappliances.com.tw/products/products_feature.php?pid=HMR-DA2713",
+          "title": "日立台灣HMR-DA2713特色與規格",
+          "outcome": "可核台灣電力/機身資料，無明確上市日"
+        },
+        {
+          "url": "https://www.hitachi-homeappliances.com.tw/image/hsct/service/download/manual/UM_HMR-DA2713%28EN_TW%29_2504.pdf",
+          "title": "日立台灣HMR-DA2713使用說明書",
+          "outcome": "版本/印刷資訊不能充作上市日"
+        }
+      ],
+      "auditQueries": [
+        "\"HMR-DA2713\" \"上市\"",
+        "\"HMR-DA2713\" site:hitachi-homeappliances.com.tw 上市 新品 2024"
       ]
     }
   ]

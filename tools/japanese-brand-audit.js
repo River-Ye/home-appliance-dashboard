@@ -273,6 +273,15 @@ function buildJapaneseBrandReview({ category, products, baselineById, checkedAt 
         ? "no_eligible_taiwan_model"
         : "no_relevant_line");
     const ids = representativeIds(existing, added);
+    const reason = reviewReason({
+      brand,
+      categoryId: category.id,
+      categoryLabel: category.label,
+      status,
+      existingProducts: sortProducts(existing),
+      addedProducts: sortProducts(added),
+      checkedAt,
+    });
     return {
       brand,
       status,
@@ -283,15 +292,9 @@ function buildJapaneseBrandReview({ category, products, baselineById, checkedAt 
         ...(["mouse", "keyboard", "mousepad"].includes(category.id) ? [] : [BRAND_CATALOGS.get(brand)]),
       ].filter(Boolean))],
       ...ids,
-      reason: reviewReason({
-        brand,
-        categoryId: category.id,
-        categoryLabel: category.label,
-        status,
-        existingProducts: sortProducts(existing),
-        addedProducts: sortProducts(added),
-        checkedAt,
-      }),
+      // Older immutable reports retain their exact metadata wording.
+      reason: checkedAt < "2026-10-21" ? reason
+        : `${checkedAt} 名冊分類（依既有規則產生；以下為既有規則與研究紀錄，本次實查以 japaneseReviewNotes 與 reviewEvidence 為準）：${reason.replace(/^\d{4}-\d{2}-\d{2} 核對 [^；]+；/u, "")}`,
     };
   });
 }

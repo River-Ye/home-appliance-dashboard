@@ -78,6 +78,7 @@ const REVIEWED_PCHOME_BINDINGS = new Map([
   ["network-switch-qnap-qsw-l2110-2s8t", "DRAF9S-A900K8WTX"],
   ["network-switch-qnap-qsw-3216r-8s8t", "DRAFE2-A900JCMNO"],
   ["oven-extra-6-dmbj02-a900i9lq2", "DMBJ02-A900I9LQ2"],
+  ["oven-hitachi-hmr-da2713", "DMBJ5P-A900HSLQT"],
   ["ap-blueair-3450i", "DMAUE4-A900I5SSZ"],
   ["purifier-extra-6-dmaue4-a900ijcap", "DMAUE4-A900IJCAP"],
   ["purifier-extra-7-dmaue4-a900j9knk", "DMAUE4-A900J9KNK"],

@@ -3420,9 +3420,9 @@
     "name": "Latch Plus 指紋款智慧電子門鎖",
     "price": {
       "currency": "TWD",
-      "amount": 12000,
-      "converted": 12000,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 11400,
+      "converted": 11400,
+      "confidence": "PChome 2026-10-21 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DECE2SA900B5V4Y/000001_1614234907.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DECE2S-A900B5V4Y",

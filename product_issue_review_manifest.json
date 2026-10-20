@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-20",
+  "checkedAt": "2026-10-21",
   "methodVersion": 3,
   "policy": "每筆決策須保存 exact-model 跨站查詢與人工 attestation；每個搜尋候選須逐頁保存摘要、獨立作者數與具體排除理由，研究工具不得自行生成拒絕結論。",
   "results": [
@@ -90046,6 +90046,130 @@
       "reviewerNote": "RWP-H201：2026-10-20 實際逐站完成Mobile01、PTT及Reddit exact-model查詢，工具各回無搜尋結果。沒有候選可進入原頁、作者、問題及跨站計數；本決策不是分類或ID批次推定。",
       "attestation": "manual_cross_site_search_reviewed_no_candidate",
       "candidateReviews": []
+    },
+    {
+      "id": "oven-hitachi-hmr-da2713",
+      "category": "oven",
+      "brand": "HITACHI",
+      "model": "HMR-DA2713",
+      "name": "27L 變頻氣炸微波烤箱（台灣110V版）",
+      "status": "completed",
+      "reviewedAt": "2026-10-21",
+      "reviewBatch": "oven",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT",
+        "Reddit",
+        "PChome"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "query": "\"HMR-DA2713\" site:mobile01.com",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.bing.com/search?q=%22HMR-DA2713%22%20site%3Amobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "\"HMR-DA2713\" site:ptt.cc",
+          "targetHost": "ptt.cc",
+          "queryUrl": "https://www.bing.com/search?q=%22HMR-DA2713%22%20site%3Aptt.cc"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"HMR-DA2713\" site:reddit.com",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.bing.com/search?q=%22HMR-DA2713%22%20site%3Areddit.com"
+        }
+      ],
+      "candidateDisposition": "HMR-DA2713：人工核對4個PTT原文與PChome初始評價頁，未取得可計入的exact-model第一人稱集中問題；Mobile01與Reddit完整型號查詢無原始候選。台灣110V版與海外230V版不互套。",
+      "representativeSources": [
+        {
+          "platform": "PTT",
+          "title": "[問題] 蒸烘烤微波爐選擇 - 看板 cookclub",
+          "url": "https://www.ptt.cc/bbs/cookclub/M.1728281756.A.E5E.html"
+        },
+        {
+          "platform": "PTT",
+          "title": "[器具] 烤箱尺寸選擇 - 看板 cookclub",
+          "url": "https://www.ptt.cc/bbs/cookclub/M.1733049045.A.065.html"
+        },
+        {
+          "platform": "PTT",
+          "title": "[心得] 參加日立主廚有約 - 看板 cookclub",
+          "url": "https://www.ptt.cc/bbs/cookclub/M.1728641643.A.D15.html"
+        },
+        {
+          "platform": "PTT",
+          "title": "[問題] 氣炸鍋、烤箱、氣炸烤箱選擇請益？ - 看板 cookclub",
+          "url": "https://www.ptt.cc/bbs/cookclub/M.1731151065.A.E55.html"
+        },
+        {
+          "platform": "PChome",
+          "title": "HITACHI 日立 27L變頻氣炸微波烤箱HMRDA2713 - PChome 24h購物",
+          "url": "https://24h.pchome.com.tw/prod/DMBJ5P-A900HSLQT"
+        }
+      ],
+      "reviewerNote": "HMR-DA2713：2026-10-21逐頁閱讀PTT四文，泛稱其他烤箱不好用、舊氣炸鍋故障均未連結本型號；PChome17評價的星等比例不可轉成問題人數，動態全文未讀齊為限制。兩獨立論壇查詢另無exact候選，未達同問題6人/2原站門檻，不宣稱完全無負評。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "platform": "PTT",
+          "url": "https://www.ptt.cc/bbs/cookclub/M.1728281756.A.E5E.html",
+          "title": "[問題] 蒸烘烤微波爐選擇 - 看板 cookclub",
+          "sourceExcerpt": "a809b43376：要不要看日立另一台27L變頻氣炸微波烤箱HMR-DA2713？",
+          "specificReason": "a809b43376僅提出HMR-DA2713作購買選項，沒有自述持有或故障；其他留言針對Panasonic/Toshiba等機種，不能計入本型號負評。",
+          "outcome": "excluded",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAt": "2026-10-21"
+        },
+        {
+          "platform": "PTT",
+          "url": "https://www.ptt.cc/bbs/cookclub/M.1733049045.A.065.html",
+          "title": "[器具] 烤箱尺寸選擇 - 看板 cookclub",
+          "sourceExcerpt": "asd33893389：日立HMR-DA2713的寬度49.5cm，有炫風氣炸。",
+          "specificReason": "asd33893389僅推薦尺寸與用途。JoyceTong的無下火批評、chunglee的上下火經驗均未自述是HMR-DA2713，不能跨型號歸因或湊人數。",
+          "outcome": "excluded",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAt": "2026-10-21"
+        },
+        {
+          "platform": "PTT",
+          "url": "https://www.ptt.cc/bbs/cookclub/M.1728641643.A.D15.html",
+          "title": "[心得] 參加日立主廚有約 - 看板 cookclub",
+          "sourceExcerpt": "barbieb文末補型號HMR-DA2713變頻氣炸微波烤箱；正文為參加主廚活動。",
+          "specificReason": "barbieb描述HMR-DA2713現場料理體驗，正面評價。文中「最近時不時故障」明指原本家中的未具名氣炸鍋，非本型號；未見本機故障的第一人稱回報。",
+          "outcome": "excluded",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAt": "2026-10-21"
+        },
+        {
+          "platform": "PTT",
+          "url": "https://www.ptt.cc/bbs/cookclub/M.1731151065.A.E55.html",
+          "title": "[問題] 氣炸鍋、烤箱、氣炸烤箱選擇請益？ - 看板 cookclub",
+          "sourceExcerpt": "alack5251：日立的HMR-DA2713還多一個微波功能。",
+          "specificReason": "alack5251僅作功能推薦。linabelle「我買的不好用」未明示型號，且非同一位作者提及HMR-DA2713，不能當exact-model獨立故障回報。",
+          "outcome": "excluded",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAt": "2026-10-21"
+        },
+        {
+          "platform": "PChome",
+          "url": "https://24h.pchome.com.tw/prod/DMBJ5P-A900HSLQT",
+          "title": "HITACHI 日立 27L變頻氣炸微波烤箱HMRDA2713 - PChome 24h購物",
+          "sourceExcerpt": "商品評價4.4，共17則；初始正文蔡**給方便操作的正面心得，邱**、郭**無文字。",
+          "specificReason": "當日初始原頁僅能核一筆正面文字與兩筆無文字列；1/2星百分比不是第一人稱問題證據，其餘動態評價未逐頁取得，不能由星等推定故障或六名同問題作者。",
+          "outcome": "excluded",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAt": "2026-10-21"
+        }
+      ]
     }
   ]
 }

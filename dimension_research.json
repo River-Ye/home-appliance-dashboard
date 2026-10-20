@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20",
+  "generatedAt": "2026-10-21",
   "sourcePolicy": "本站共 21 類尺寸、13 類重量研究，尺寸涵蓋 電視、Soundbar、冷氣、洗衣機、烘衣機、洗烘衣機(多功能型)、電子衣櫥（衣物護理機）、床包、棉被、枕頭、冰箱、咖啡機、多功能氣炸烤箱／微波爐、洗碗機、熱水器、免治馬桶、網路交換器、螢幕燈、滑鼠、鍵盤、滑鼠墊。優先採 exact-model／相同版本的官方產品頁、官方規格表或官方 PDF，其次為可信新品通路。只採本體／機身／明確組件的尺寸與淨重，排除包裝、外箱尺寸與毛重；來源沒有明示軸序時不自行推定。既有家電與床包、棉被、枕頭維持 cm／kg，滑鼠、鍵盤與滑鼠墊使用 mm／g 並保留來源軸序。滑鼠墊厚度、床包可包覆高度另列；棉被的填充重量與整件淨重分開記錄。冷氣分列室內機與室外機，熱泵複合熱水器分列主機與儲槽。generatedAt 為最新證據批次日期，既有逐筆 checkedAt 與 weightCheckedAt 保留原查核日期，不表示重新查核。",
   "results": [
     {
@@ -10248,6 +10248,23 @@
       "confidence": "high",
       "isOfficialSource": true,
       "checkedAt": "2026-10-20"
+    },
+    {
+      "id": "oven-hitachi-hmr-da2713",
+      "dimension": "尺寸：寬 49.5 x 深 42.4 x 高 29 cm",
+      "sourceUrl": "https://hitachi-homeappliances.com.tw/products/products_feature.php?pid=HMR-DA2713",
+      "sourceTitle": "日立台灣HMR-DA2713規格功能表",
+      "evidenceSnippet": "台灣官方本體尺寸欄明示寬×深×高495×424×290mm，依相同軸序換算cm；不是包裝尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-10-21",
+      "weight": "重量：12.4 kg",
+      "weightSourceUrl": "https://hitachi-homeappliances.com.tw/products/products_compare.php?gid=C06&prod=HMR-DA2713",
+      "weightSourceTitle": "日立台灣HMR-DA2713產品比較清單",
+      "weightEvidenceSnippet": "台灣官方比較清單重量欄12.4kg；台灣使用說明書第8頁技術資料同值。海外同型號重量與電壓不同，不互套。",
+      "weightConfidence": "high",
+      "weightIsOfficialSource": true,
+      "weightCheckedAt": "2026-10-21"
     }
   ]
 }

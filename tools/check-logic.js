@@ -1431,6 +1431,12 @@ async function main() {
     checkedAt: "2026-08-14",
   });
   assert(japaneseReview.length === 9, "Japanese-brand audit must create the complete 9-brand row set");
+  assert(japaneseReview.find((review) => review.brand === "Sony").reason.startsWith("2026-08-14 核對 Sony 官方產品目錄；"), "immutable older Japanese-brand metadata wording must remain compatible");
+  assert(
+    buildJapaneseBrandReview({ category: { id: "bedsheet" }, products: [], baselineById: new Map(), checkedAt: "2026-10-21" })
+      .every((review) => review.reason.includes("名冊分類") && review.reason.includes("japaneseReviewNotes") && !review.reason.includes("2026-10-21 核對")),
+    "generated Japanese-brand metadata must not claim a fresh manual source review",
+  );
   const sonyMonitorReview = japaneseReview.find((review) => review.brand === "Sony");
   assert(
     sonyMonitorReview.status === "covered_supplemented"
