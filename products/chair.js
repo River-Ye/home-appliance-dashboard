@@ -2431,9 +2431,9 @@
     "name": "STRYDER 高椅背可上掀扶手人體工學椅",
     "price": {
       "currency": "TWD",
-      "amount": 6990,
-      "converted": 6990,
-      "confidence": "PChome 2026-08-08 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 6780,
+      "converted": 6780,
+      "confidence": "PChome 2026-10-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ0AA900JCVY5/000001_1785087796.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ0A-A900JCVY5",

@@ -3079,10 +3079,10 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 3990,
-      "converted": 3990,
+      "amount": 3290,
+      "converted": 3290,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 Chrome 人工核對 Sony Store MSE-G500/B 黑色單品限時優惠价 NT$3,990、加入購物車按鈕可用；未扣註冊贈品或組合折扣。"
+      "confidence": "2026-10-22 人工核對Sony Store台灣MSE-G500/B黑色單品限時優惠價3290、原價4990，加入購物車可用；未採鍵盤組合價、贈品或個人化優惠。"
     },
     "installation": {
       "status": "not_stated",

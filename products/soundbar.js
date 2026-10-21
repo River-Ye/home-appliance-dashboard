@@ -597,7 +597,7 @@
       "currency": "TWD",
       "amount": 49900,
       "converted": 49900,
-      "confidence": "2026-09-09原始商品頁人工覆核；原頁公開49900，API Low42886未顯示可適用單品折扣或期限；未扣信用卡/P幣/贈品，保留公開價49900。"
+      "confidence": "2026-10-22 人工核對原購買頁主商品公開價49900；API候選折扣42886未在原頁重現，不採折價券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900K3QSM/000001_1782969828.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAOD-A900K3QSM",
@@ -1673,9 +1673,9 @@
     "name": "BRAVIA Theatre Bar 8 聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 25110,
-      "converted": 25110,
-      "confidence": "PChome 2026-10-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 27054,
+      "converted": 27054,
+      "confidence": "PChome 2026-10-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900HTC64/000001_1781747501.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM1D-A900HTC64",
@@ -2072,8 +2072,8 @@
     "price": {
       "currency": "USD",
       "amount": 1299.99,
-      "converted": 42239,
-      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-10-20 匯率換算"
+      "converted": 42414,
+      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-10-21 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/2C2sn9CKoKFdIyd94Gm9z5/f3019d4e721511167ebe5c229bf490dd/heston-120_plp.jpg",
     "buyUrl": "https://www.marshall.com/us/en/product/heston-120",
@@ -2172,8 +2172,8 @@
     "price": {
       "currency": "USD",
       "amount": 549.99,
-      "converted": 17870,
-      "confidence": "2026-08-31 人工核對 Marshall US 官方 Heston 60 公開可購主價 USD 549.99；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-10-20 匯率換算",
+      "converted": 17944,
+      "confidence": "2026-08-31 人工核對 Marshall US 官方 Heston 60 公開可購主價 USD 549.99；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-10-21 匯率換算",
       "basis": "retailer_current"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/3yitHqjPBTgQk5qRE72PSn/2788206646aa153f71f2c0ebefaff580/Heston-60-black_plp_800x800-v3.jpeg",
@@ -2611,14 +2611,14 @@
       "status": "found",
       "amount": 176091,
       "currency": "JPY",
-      "converted": 36111,
+      "converted": 36311,
       "sourceUrl": "https://kakaku.com/item/K0001712395/pricehistory/",
       "sourceTitle": "価格.com：JBL BAR 1300MK2 [ブラック] 価格推移",
       "evidenceSnippet": "価格.com 日別價格歷史顯示 exact-model「JBL BAR 1300MK2 [ブラック]」於 2026-06-17 的新品最低價為 ¥176,091；2025-10 初始價格為 ¥205,306。",
       "sourceKind": "price_history",
       "confidence": "medium",
       "checkedAt": "2026-08-25",
-      "note": "採日本市場 exact-model 公開價格歷史並依 2026-10-20 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
+      "note": "採日本市場 exact-model 公開價格歷史並依 2026-10-21 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -3479,7 +3479,7 @@
       "currency": "TWD",
       "amount": 39900,
       "converted": 39900,
-      "confidence": "2026-09-09原始商品頁人工覆核；原頁公開39900；API Low37506的折扣條件未能在公開頁重現，查看折價券轉登入。不採未知條件折扣，保留公開價39900與既有史低37905。",
+      "confidence": "2026-10-22 人工核對原購買頁主商品公開價39900；API候選折扣37662未在原頁重現，不採折價券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAANJA900K048L/000001_1778571515.jpg",
@@ -3682,9 +3682,9 @@
     "price": {
       "currency": "USD",
       "amount": 699,
-      "converted": 22712,
+      "converted": 22806,
       "basis": "retailer_current",
-      "confidence": "2026-10-19 人工核對 Sonos US 官方黑色 BMULTUS1BLK 公開單機 US$699 與 Available now/Add to cart；ExchangeRate-API 2026-10-20 匯率換算，未含國際運費與進口稅。"
+      "confidence": "2026-10-19 人工核對 Sonos US 官方黑色 BMULTUS1BLK 公開單機 US$699 與 Available now/Add to cart；ExchangeRate-API 2026-10-21 匯率換算，未含國際運費與進口稅。"
     },
     "installation": {
       "status": "not_stated",

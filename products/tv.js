@@ -414,9 +414,9 @@
     "name": "BRAVIA 9 II 65 型 RGB LED 4K Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 108323,
-      "converted": 108323,
-      "confidence": "Yahoo購物中心 2026-09-08 exact-model 公開結構化價格"
+      "amount": 99363,
+      "converted": 99363,
+      "confidence": "2026-10-22 人工核對Yahoo自營Y-65XR90M2同賣編主商品公開價99363；原頁與主商品結構化價格一致，不採較早95389快照。"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/F326F9F0C5-SP-23019953.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E5%90%AB%E6%A8%99%E6%BA%96%E5%AE%89%E8%A3%9D-SONY%E7%B4%A2%E5%B0%BC65%E5%90%8B%E5%90%8BRGB-4K%E9%80%A3%E7%B6%B2%E6%99%BA%E6%85%A7%E9%A1%AF%E7%A4%BA%E5%99%A8Y-65XR90M2-12159450.html",
@@ -454,16 +454,16 @@
     "releaseDate": "2026-06-17",
     "historicalLow": {
       "status": "found",
-      "amount": 103908,
+      "amount": 99363,
       "currency": "TWD",
-      "converted": 103908,
-      "sourceUrl": "https://biggo.com.tw/s/Sony%20Y-65XR90M2/",
-      "sourceTitle": "BigGo 歷史價格：SONY Y-65XR90M2 65 吋 RGB 4K 顯示器",
-      "evidenceSnippet": "BigGo 歷史價格顯示環球 Online 同型號含標準安裝新品最低價為 NT$103,908。",
-      "sourceKind": "price_history",
+      "converted": 99363,
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/%E5%90%AB%E6%A8%99%E6%BA%96%E5%AE%89%E8%A3%9D-SONY%E7%B4%A2%E5%B0%BC65%E5%90%8B%E5%90%8BRGB-4K%E9%80%A3%E7%B6%B2%E6%99%BA%E6%85%A7%E9%A1%AF%E7%A4%BA%E5%99%A8Y-65XR90M2-12159450.html",
+      "sourceTitle": "(含標準安裝)SONY索尼65吋吋RGB 4K連網智慧顯示器Y-65XR90M2 | 電視 | Yahoo購物中心",
+      "evidenceSnippet": "2026-10-22 Yahoo自營賣編12159450，Y-65XR90M2含標準安裝同型號主商品公開價NT$99,363，原頁與主商品結構化價格一致，低於既有可驗證NT$103,908。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-18",
-      "note": "採用 BigGo 可公開查核的價格歷史；同型號／規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。原商品頁：https://gmonline.twglobalmall.com/product/2EC0320850014762"
+      "checkedAt": "2026-10-22",
+      "note": "採同型號、同65吋與標準安裝方案的可信新品公開價；未扣會員券、OPENPOINT、超贈點或信用卡回饋，不採未重現的NT$95,389快照，亦不宣稱全網所有歷史的絕對低點。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -3937,10 +3937,10 @@
     "name": "65 型 S-960 Mini LED 量子點 144Hz 遊戲 Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 39900,
-      "converted": 39900,
+      "amount": 44900,
+      "converted": 44900,
       "basis": "retailer_current",
-      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-10-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "installation": {
       "status": "not_stated",
