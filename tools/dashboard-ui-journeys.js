@@ -9,6 +9,7 @@ const {
   BEDDING_TYPES,
 } = require("./dashboard-contract");
 const { readDashboardProducts } = require("./read-dashboard-products");
+const { attachRuntimeIssueCollector: collectRuntimeIssues } = require("./ui-runtime-issues");
 const {
   waitForImages,
   visibleText,
@@ -76,34 +77,20 @@ const EXPECTED_NETWORK_SWITCH_25G_COUNT = NETWORK_SWITCH_PRODUCTS.filter((produc
 const EXPECTED_NETWORK_SWITCH_10G_COUNT = NETWORK_SWITCH_PRODUCTS.filter((product) => product.type === "10g").length;
 
 function attachRuntimeIssueCollector(page) {
-  const issues = [];
-  page.__dashboardRuntimeIssues = issues;
-  page.__dashboardAdRequests = [];
-  page.on("request", (request) => {
-    if (/(googlesyndication|doubleclick|googleadservices)/i.test(request.url())) {
-      page.__dashboardAdRequests.push(request.url());
-    }
-  });
-  page.on("console", (message) => {
-    if (["error", "warning"].includes(message.type())) issues.push(`console ${message.type()}: ${message.text()}`);
-  });
-  page.on("pageerror", (error) => issues.push(`pageerror: ${error.message}`));
-  page.on("requestfailed", (request) => {
-    if (request.url().startsWith(firstPartyPrefix)) {
-      issues.push(`requestfailed: ${request.url()} ${request.failure()?.errorText || "unknown"}`);
-    }
-  });
-  page.on("response", (response) => {
-    if (response.url().startsWith(firstPartyPrefix) && response.status() >= 400) {
-      issues.push(`response: ${response.status()} ${response.url()}`);
-    }
-  });
+  page.__dashboardRuntime = collectRuntimeIssues(page, { firstPartyPrefix, consoleTypes: ["error", "warning"] });
+}
+
+function runtimeSnapshot(page, name) {
+  const runtime = page.__dashboardRuntime.snapshot();
+  if (runtime.externalImageFailures.length) {
+    console.log(`${name}: external image request failures ${JSON.stringify(runtime.externalImageFailures)}`);
+  }
+  return runtime;
 }
 
 function assertNoRuntimeIssues(page, name) {
-  const issues = page.__dashboardRuntimeIssues || [];
-  if (issues.length) throw new Error(`${name}: first-party runtime errors ${JSON.stringify(issues.slice(0, 10))}`);
-  const adRequests = page.__dashboardAdRequests || [];
+  const { issues, adRequests } = runtimeSnapshot(page, name);
+  if (issues.length) throw new Error(`${name}: runtime errors ${JSON.stringify(issues.slice(0, 10))}`);
   if (adRequests.length) throw new Error(`${name}: local UI unexpectedly requested ad services ${JSON.stringify(adRequests.slice(0, 5))}`);
 }
 
@@ -305,7 +292,7 @@ async function runInitializationFailureJourney(browser) {
     if (!result.errorVisible || result.busy !== "false" || !result.status.includes("商品資料載入失敗")) {
       throw new Error(`${name}: initialization error was not rendered safely ${JSON.stringify(result)}`);
     }
-    const unexpectedIssues = (page.__dashboardRuntimeIssues || []).filter((issue) => (
+    const unexpectedIssues = runtimeSnapshot(page, name).issues.filter((issue) => (
       !(issue.startsWith("console error:") && issue.includes("forced initialization failure"))
     ));
     if (unexpectedIssues.length) {

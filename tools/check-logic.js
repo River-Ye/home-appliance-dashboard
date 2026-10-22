@@ -1,6 +1,8 @@
 const fs = require("fs");
 const path = require("path");
 const vm = require("vm");
+const { EventEmitter } = require("events");
+const { attachRuntimeIssueCollector } = require("./ui-runtime-issues");
 const { readDashboardProducts } = require("./read-dashboard-products");
 const { checkIncrementalCatalogAudit } = require("./check-incremental-catalog-audit");
 const { checkPeripherals } = require("./check-peripherals");
@@ -117,6 +119,95 @@ function assertThrows(callback, message) {
     threw = true;
   }
   assert(threw, message);
+}
+
+function assertRuntimeIssueAttribution() {
+  const imageUrl = "https://images.example.test/product.jpg?size=large";
+  const errorText = "net::ERR_BLOCKED_BY_RESPONSE.NotSameOrigin";
+  function fixture(firstPartyPrefix = "file:///dashboard/") {
+    const page = new EventEmitter();
+    const runtime = attachRuntimeIssueCollector(page, { firstPartyPrefix, consoleTypes: ["error", "warning"] });
+    return {
+      page,
+      runtime,
+      console(overrides = {}) {
+        const data = { type: "error", text: `Failed to load resource: ${errorText}`, url: imageUrl, args: [], ...overrides };
+        page.emit("console", {
+          type: () => data.type,
+          text: () => data.text,
+          location: () => ({ url: data.url, lineNumber: 4, columnNumber: 2 }),
+          args: () => data.args,
+        });
+      },
+      failure(overrides = {}) {
+        const data = { url: imageUrl, resourceType: "image", errorText, ...overrides };
+        page.emit("requestfailed", {
+          url: () => data.url,
+          resourceType: () => data.resourceType,
+          failure: () => ({ errorText: data.errorText }),
+        });
+      },
+    };
+  }
+
+  for (const consoleFirst of [true, false]) {
+    for (const code of [errorText, "net::ERR_SSL_PROTOCOL_ERROR"]) {
+      const probe = fixture();
+      if (consoleFirst) probe.console({ text: `Failed to load resource: ${code}` });
+      probe.failure({ errorText: code });
+      if (!consoleFirst) probe.console({ text: `Failed to load resource: ${code}` });
+      const snapshot = probe.runtime.snapshot();
+      assert(snapshot.issues.length === 0, "matched external image failures must be independent of event order");
+      assert(snapshot.externalImageFailures.length === 1
+        && snapshot.externalImageFailures[0].url === imageUrl
+        && snapshot.externalImageFailures[0].errorText === code,
+      "excluded external image errors must retain their exact URL and failure code");
+    }
+  }
+
+  const fatalCases = [
+    { name: "unmatched request URL", failure: { url: `${imageUrl}&different=1` } },
+    { name: "unmatched failure code", failure: { errorText: "net::ERR_SSL_PROTOCOL_ERROR" } },
+    { name: "external script", failure: { resourceType: "script" } },
+    { name: "unknown source", console: { url: "" } },
+    { name: "general console error", console: { text: "application failed" } },
+    { name: "script console impersonating browser error", console: { args: [{}] } },
+    { name: "warning", console: { type: "warning" } },
+    { name: "non-network error", console: { text: "Failed to load resource: the server responded with a status of 404" } },
+    { name: "first-party file", console: { url: "file:///dashboard/image.jpg" }, failure: { url: "file:///dashboard/image.jpg" } },
+  ];
+  for (const test of fatalCases) {
+    const probe = fixture();
+    probe.console(test.console);
+    probe.failure(test.failure);
+    const snapshot = probe.runtime.snapshot();
+    assert(snapshot.issues.some((issue) => issue.startsWith("console error:") || issue.startsWith("console warning:")),
+      `${test.name} must remain a fatal console issue`);
+    assert(snapshot.externalImageFailures.length === 0, `${test.name} must not be classified as an external image failure`);
+  }
+  const unmatched = fixture();
+  unmatched.console();
+  assert(unmatched.runtime.snapshot().issues[0].includes(imageUrl), "unmatched browser errors must retain source URL diagnostics");
+  unmatched.failure();
+  assert(unmatched.runtime.snapshot().issues.length === 0, "a later requestfailed event must resolve a previously unmatched console event");
+  unmatched.failure({ resourceType: "script" });
+  assert(unmatched.runtime.snapshot().issues.length === 1, "a URL shared with a failed script must remain fatal");
+
+  const sameOrigin = fixture("https://dashboard.example.test/app/");
+  const localImage = "https://dashboard.example.test/outside-app/image.jpg";
+  sameOrigin.console({ url: localImage });
+  sameOrigin.failure({ url: localImage });
+  sameOrigin.page.emit("response", { url: () => localImage, status: () => 500 });
+  assert(sameOrigin.runtime.snapshot().issues.length === 3, "same-origin resources outside the page path must retain console, request and HTTP failures");
+
+  const pageError = fixture();
+  pageError.failure();
+  pageError.console();
+  pageError.page.emit("pageerror", new Error("application exception"));
+  pageError.page.emit("request", { url: () => "https://doubleclick.net/ad.js" });
+  const snapshot = pageError.runtime.snapshot();
+  assert(snapshot.issues.length === 1 && snapshot.issues[0] === "pageerror: application exception", "pageerror must remain fatal alongside an external image failure");
+  assert(snapshot.adRequests.length === 1, "runtime collector must retain the ad-service request guard");
 }
 
 function japaneseBrandReviewFixture(checkedAt) {
@@ -477,6 +568,7 @@ async function assertRejects(promise, pattern) {
 }
 
 async function main() {
+  assertRuntimeIssueAttribution();
   checkIncrementalCatalogAudit();
   checkPeripherals();
   assert(

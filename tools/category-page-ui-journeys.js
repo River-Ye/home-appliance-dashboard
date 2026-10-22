@@ -2,6 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const { fileURLToPath, pathToFileURL } = require("url");
 const { readDashboardProducts } = require("./read-dashboard-products");
+const { attachRuntimeIssueCollector: collectRuntimeIssues } = require("./ui-runtime-issues");
 
 const root = path.resolve(__dirname, "..");
 const firstPartyPrefix = pathToFileURL(`${root}${path.sep}`).href;
@@ -27,36 +28,19 @@ function categoryFileUrl(categoryId) {
 }
 
 function attachRuntimeIssueCollector(page) {
-  const issues = [];
-  const adRequests = [];
-  page.on("console", (message) => {
-    if (message.type() === "error") issues.push(`console: ${message.text()}`);
-  });
-  page.on("pageerror", (error) => issues.push(`pageerror: ${error.message}`));
-  page.on("requestfailed", (request) => {
-    if (request.url().startsWith(firstPartyPrefix)) {
-      issues.push(`requestfailed: ${request.url()} ${request.failure()?.errorText || "unknown"}`);
-    }
-  });
-  page.on("response", (response) => {
-    if (response.url().startsWith(firstPartyPrefix) && response.status() >= 400) {
-      issues.push(`response: ${response.status()} ${response.url()}`);
-    }
-  });
-  page.on("request", (request) => {
-    if (/(googlesyndication|doubleclick|googleadservices)/i.test(request.url())) {
-      adRequests.push(request.url());
-    }
-  });
-  return { issues, adRequests };
+  return collectRuntimeIssues(page, { firstPartyPrefix });
 }
 
 function assertNoRuntimeIssues(state, name) {
-  if (state.issues.length) {
-    throw new Error(`${name}: first-party runtime errors ${JSON.stringify(state.issues.slice(0, 10))}`);
+  const { issues, adRequests, externalImageFailures } = state.snapshot();
+  if (externalImageFailures.length) {
+    console.log(`${name}: external image request failures ${JSON.stringify(externalImageFailures)}`);
   }
-  if (state.adRequests.length) {
-    throw new Error(`${name}: local category journey unexpectedly requested ad services ${JSON.stringify(state.adRequests.slice(0, 5))}`);
+  if (issues.length) {
+    throw new Error(`${name}: runtime errors ${JSON.stringify(issues.slice(0, 10))}`);
+  }
+  if (adRequests.length) {
+    throw new Error(`${name}: local category journey unexpectedly requested ad services ${JSON.stringify(adRequests.slice(0, 5))}`);
   }
 }
 
