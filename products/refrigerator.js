@@ -324,9 +324,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/4455399AAF-SP-22083802.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 13920,
-      "converted": 13920,
-      "confidence": "Yahoo購物中心 2026-10-19 exact-model 公開結構化價格",
+      "amount": 14500,
+      "converted": 14500,
+      "confidence": "Yahoo購物中心 2026-10-22 exact-model 公開結構化價格",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -1149,9 +1149,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/2D7A5B7B73-SP-16189270.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 15520,
-      "converted": 15520,
-      "confidence": "Yahoo購物中心 2026-10-19 exact-model 公開結構化價格"
+      "amount": 15999,
+      "converted": 15999,
+      "confidence": "Yahoo購物中心 2026-10-22 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1252,9 +1252,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/58E65612D5-SP-11664526.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 11543,
-      "converted": 11543,
-      "confidence": "Yahoo購物中心 2026-10-19 exact-model 公開結構化價格"
+      "amount": 11900,
+      "converted": 11900,
+      "confidence": "Yahoo購物中心 2026-10-22 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",

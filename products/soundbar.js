@@ -17,9 +17,9 @@
     "name": "11.1.4 聲道旗艦 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 42655,
-      "converted": 42655,
-      "confidence": "Yahoo購物中心 2026-10-20 exact-model 公開結構化價格"
+      "amount": 44900,
+      "converted": 44900,
+      "confidence": "Yahoo購物中心 2026-10-22 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900JMDR5/000001_1773978957.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Samsung-%E4%B8%89%E6%98%9F-11-1-4%E8%81%B2%E9%81%93-%E8%97%8D%E7%89%99%E8%81%B2%E9%9C%B8-HW-Q990F-ZW-11688500.html",
@@ -307,9 +307,9 @@
     "name": "BRAVIA Theatre Bar 7 5.0.2 聲道 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 20610,
-      "converted": 20610,
-      "confidence": "PChome 2026-10-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 21755,
+      "converted": 21755,
+      "confidence": "PChome 2026-10-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAAN8A900K0Y8L/000001_1779181877.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAN8-A900K0Y8L",
@@ -791,13 +791,15 @@
     "name": "LG Soundbar S80TR 5.1.3 聲道立體環繞聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 19297,
-      "converted": 19297,
-      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 23900,
+      "converted": 23900,
+      "confidence": "PChome 2026-10-22 exact S80TR新品原頁23900元與SKU API一致，Qty 3；台灣公司貨、原廠保固一年。",
+      "basis": "retailer_current",
+      "note": "原DMBM1D-A900J5JAZ頁面已標拆封福利品，排除該購買來源；本輪改採新品SKU DMAAOD-A900JCHIM。"
     },
-    "image": "https://cs-a.ecimg.tw/items/DMBM1DA900J5JAZ/000001_1779262704.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMBM1D-A900J5JAZ",
-    "buyLabel": "PChome",
+    "image": "https://img.pchome.com.tw/cs/items/DMAAODA900JCHIM/000007_1769583526.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAAOD-A900JCHIM",
+    "buyLabel": "PChome（台灣公司貨新品）",
     "specs": [
       "5.1.3 聲道",
       "Dolby Atmos",
@@ -806,7 +808,7 @@
       "尺寸：主機 寬 100 x 深 13.5 x 高 6.3 cm；後環繞喇叭 寬 10 x 深 12 x 高 17.65 cm；重低音 寬 20.17 x 深 40.3 x 高 40.7 cm",
       "重量：主機 4.3 kg；後環繞喇叭（2 只） 2.34 kg；重低音 10 kg"
     ],
-    "description": "LG S80TR 是Soundbar類的補充比較型號，依 2026-07-11 通路頁面整理售價、圖片與核心規格。",
+    "description": "LG S80TR 是5.1.3聲道Soundbar補充比較型號；2026-10-22改採台灣公司貨新品來源，排除原購買頁的拆封福利品。",
     "pros": [
       "安裝門檻低",
       "可快速補強電視音場"
@@ -819,7 +821,7 @@
     "recommendation": "同類推薦：補足不同聲道、重低音與後環繞配置，方便和電視一起配套。",
     "score": 85,
     "voltage": "110V 台灣通路",
-    "warranty": "依 PChome/供應商頁面",
+    "warranty": "台灣公司貨，原廠保固一年；依PChome供應商及LG台灣保固條款。",
     "tags": [
       "LG",
       "環繞",
@@ -827,17 +829,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "found",
-      "amount": 18905,
+      "status": "not_found",
+      "amount": null,
       "currency": "TWD",
-      "converted": 18905,
-      "sourceUrl": "https://24h.pchome.com.tw/prod/DMBM1D-A900J5JAZ",
-      "sourceTitle": "PChome 商品 API：LG 樂金 5.1.3聲道立體環繞音效 Soundbar 家庭劇院 S80TR / LG 樂金 5.1.3聲道立體環繞音效 Soundbar 家庭劇院 S80TR",
-      "evidenceSnippet": "PChome 商品 API 於 2026-07-11 回傳同一商品頁「LG 樂金 5.1.3聲道立體環繞音效 Soundbar 家庭劇院 S80TR / LG 樂金 5.1.3聲道立體環繞音效 Soundbar 家庭劇院 S80TR」查核價 NT$18,905，低於原先記錄史低。",
-      "sourceKind": "retailer_page",
-      "confidence": "medium",
-      "checkedAt": "2026-07-11",
-      "note": "採用可信通路同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-22",
+      "note": "舊NT$18,905紀錄僅有2026-07-11商品API價與型號，未保存新品條件；2026-10-22原頁明示拆封福利品，故人工撤回無法證成的新品史低，不推定當年必為福利品。原始紀錄保留於史低研究檔；本輪23900元新品現價不作史低。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -889,9 +891,9 @@
     "name": "Q 系列 11.1.4 聲道 Soundbar 家庭劇院",
     "price": {
       "currency": "TWD",
-      "amount": 56905,
-      "converted": 56905,
-      "confidence": "Yahoo購物中心 2026-10-20 exact-model 公開結構化價格"
+      "amount": 59900,
+      "converted": 59900,
+      "confidence": "Yahoo購物中心 2026-10-22 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADO2A900K5VUT/000001_1782993730.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Samsung%E4%B8%89%E6%98%9F-11-1-4%E8%81%B2%E9%81%93-%E8%97%8D%E7%89%99%E8%81%B2%E9%9C%B8-HW-Q990H-ZW-12124621.html",
@@ -987,9 +989,9 @@
     "name": "Q 系列 7.1.2 聲道 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 35055,
-      "converted": 35055,
-      "confidence": "Yahoo購物中心 2026-10-20 exact-model 公開結構化價格"
+      "amount": 36900,
+      "converted": 36900,
+      "confidence": "Yahoo購物中心 2026-10-22 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900K5489/000001_1782988490.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Samsung%E4%B8%89%E6%98%9F-7-1-2%E8%81%B2%E9%81%93-%E8%97%8D%E7%89%99%E8%81%B2%E9%9C%B8-HW-QS90H-ZW-12124562.html",
@@ -1085,9 +1087,9 @@
     "name": "5.1 聲道 Soundbar 家庭劇院組",
     "price": {
       "currency": "TWD",
-      "amount": 8541,
-      "converted": 8541,
-      "confidence": "Yahoo購物中心 2026-10-19 exact-model 公開結構化價格"
+      "amount": 9016,
+      "converted": 9016,
+      "confidence": "Yahoo購物中心 2026-10-22 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900GHTFE/000001_1776774078.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SONY-%E7%B4%A2%E5%B0%BC-5-1-%E8%81%B2%E9%81%93-SOUNDBAR-%E5%AE%B6%E5%BA%AD%E5%8A%87%E9%99%A2%E7%B5%84-HT-S40R-10067449.html",
@@ -1379,9 +1381,9 @@
     "name": "7.1 聲道家庭劇院喇叭",
     "price": {
       "currency": "TWD",
-      "amount": 27161,
-      "converted": 27161,
-      "confidence": "Yahoo購物中心 2026-10-20 exact-model 公開結構化價格"
+      "amount": 28590,
+      "converted": 28590,
+      "confidence": "Yahoo購物中心 2026-10-22 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAHGA900J56OK/000001_1755250707.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/JBL-BAR800-MK2-7-1%E8%81%B2%E9%81%93%E5%AE%B6%E5%BA%AD%E5%8A%87%E9%99%A2%E5%96%87%E5%8F%AD-%E8%8B%B1%E5%A4%A7%E5%85%AC%E5%8F%B8%E8%B2%A8%E4%B8%80%E5%B9%B4%E4%BF%9D%E5%9B%BA-12156647.html",
@@ -1673,8 +1675,8 @@
     "name": "BRAVIA Theatre Bar 8 聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 27054,
-      "converted": 27054,
+      "amount": 27900,
+      "converted": 27900,
       "confidence": "PChome 2026-10-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900HTC64/000001_1781747501.jpg",
@@ -2072,8 +2074,8 @@
     "price": {
       "currency": "USD",
       "amount": 1299.99,
-      "converted": 42414,
-      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-10-21 匯率換算"
+      "converted": 42134,
+      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-10-22 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/2C2sn9CKoKFdIyd94Gm9z5/f3019d4e721511167ebe5c229bf490dd/heston-120_plp.jpg",
     "buyUrl": "https://www.marshall.com/us/en/product/heston-120",
@@ -2172,8 +2174,8 @@
     "price": {
       "currency": "USD",
       "amount": 549.99,
-      "converted": 17944,
-      "confidence": "2026-08-31 人工核對 Marshall US 官方 Heston 60 公開可購主價 USD 549.99；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-10-21 匯率換算",
+      "converted": 17826,
+      "confidence": "2026-08-31 人工核對 Marshall US 官方 Heston 60 公開可購主價 USD 549.99；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-10-22 匯率換算",
       "basis": "retailer_current"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/3yitHqjPBTgQk5qRE72PSn/2788206646aa153f71f2c0ebefaff580/Heston-60-black_plp_800x800-v3.jpeg",
@@ -2468,9 +2470,9 @@
     "name": "2.0 聲道二合一分離式聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 602,
-      "converted": 602,
-      "confidence": "Yahoo購物中心 2026-10-20 exact-model 公開結構化價格"
+      "amount": 633,
+      "converted": 633,
+      "confidence": "Yahoo購物中心 2026-10-22 exact-model 公開結構化價格"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h21/hac/367883491278878.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Soodatek-2-0%E8%81%B2%E9%81%93%E4%BA%8C%E5%90%88%E4%B8%80Soundbar-SS0220-CS2000PBK-11633433.html",
@@ -2611,14 +2613,14 @@
       "status": "found",
       "amount": 176091,
       "currency": "JPY",
-      "converted": 36311,
+      "converted": 36099,
       "sourceUrl": "https://kakaku.com/item/K0001712395/pricehistory/",
       "sourceTitle": "価格.com：JBL BAR 1300MK2 [ブラック] 価格推移",
       "evidenceSnippet": "価格.com 日別價格歷史顯示 exact-model「JBL BAR 1300MK2 [ブラック]」於 2026-06-17 的新品最低價為 ¥176,091；2025-10 初始價格為 ¥205,306。",
       "sourceKind": "price_history",
       "confidence": "medium",
       "checkedAt": "2026-08-25",
-      "note": "採日本市場 exact-model 公開價格歷史並依 2026-10-21 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
+      "note": "採日本市場 exact-model 公開價格歷史並依 2026-10-22 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -3682,9 +3684,9 @@
     "price": {
       "currency": "USD",
       "amount": 699,
-      "converted": 22806,
+      "converted": 22655,
       "basis": "retailer_current",
-      "confidence": "2026-10-19 人工核對 Sonos US 官方黑色 BMULTUS1BLK 公開單機 US$699 與 Available now/Add to cart；ExchangeRate-API 2026-10-21 匯率換算，未含國際運費與進口稅。"
+      "confidence": "2026-10-19 人工核對 Sonos US 官方黑色 BMULTUS1BLK 公開單機 US$699 與 Available now/Add to cart；ExchangeRate-API 2026-10-22 匯率換算，未含國際運費與進口稅。"
     },
     "installation": {
       "status": "not_stated",

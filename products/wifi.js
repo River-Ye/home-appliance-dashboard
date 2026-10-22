@@ -308,9 +308,9 @@
     "name": "BE3600 雙頻 Wi-Fi 7 AiMesh 可擴充路由器",
     "price": {
       "currency": "TWD",
-      "amount": 3515,
-      "converted": 3515,
-      "confidence": "Yahoo購物中心 2026-09-02 exact-model 公開結構化價格",
+      "amount": 3699,
+      "converted": 3699,
+      "confidence": "Yahoo購物中心 2026-10-22 exact-model 公開結構化價格",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLPA900JKWXK/000001_1783555436.jpg",
@@ -888,8 +888,8 @@
     "price": {
       "currency": "USD",
       "amount": 189,
-      "converted": 6166,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-10-21 匯率換算"
+      "converted": 6126,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-10-22 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/fa8dd4e4-36c8-4c79-a928-22c7bff2ce29/ab5bc8a4-6135-402e-a695-e3ea5e16d3e6.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-pro",
@@ -968,8 +968,8 @@
     "price": {
       "currency": "USD",
       "amount": 159,
-      "converted": 5188,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-10-21 匯率換算"
+      "converted": 5153,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-10-22 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/8e88b222-7a55-4cf0-8677-ae9b6347fe84/e16aa122-b5e5-4ffb-9f1a-27ee14d9ab3d.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u6-pro",
@@ -1085,8 +1085,8 @@
     "price": {
       "currency": "USD",
       "amount": 99,
-      "converted": 3230,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-10-21 匯率換算"
+      "converted": 3209,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-10-22 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/253cc208-4b09-4b2e-9d1a-7aa1e8f93507/49241c96-878f-4e40-8541-c2e89c1c5e6e.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-lite",
@@ -1561,8 +1561,8 @@
     "price": {
       "currency": "USD",
       "amount": 129,
-      "converted": 4209,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-10-21 匯率換算"
+      "converted": 4181,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-10-22 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/6d5c6141-e2e9-416a-b789-53e59416bb1a/853bc73b-f65b-4e59-a171-75c9a4a4615e.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u6-plus",
@@ -1665,8 +1665,8 @@
     "price": {
       "currency": "USD",
       "amount": 279,
-      "converted": 9103,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-10-21 匯率換算"
+      "converted": 9043,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-10-22 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/350070a0-ae43-431b-b052-8e849c3b0a75/bad94693-bc54-4ab4-b060-9b972401941c.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-pro-max",
@@ -1759,9 +1759,9 @@
     "name": "BE6500 雙頻 Wi-Fi 7 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 4741,
-      "converted": 4741,
-      "confidence": "Yahoo購物中心 2026-10-19 exact-model 公開結構化價格",
+      "amount": 4990,
+      "converted": 4990,
+      "confidence": "Yahoo購物中心 2026-10-22 exact-model 公開結構化價格",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLPA900IV4B6/000001_1783556530.jpg",
@@ -4714,9 +4714,9 @@
     "name": "BE19000 三頻 Wi-Fi 7 AI 電競路由器",
     "price": {
       "currency": "TWD",
-      "amount": 26591,
-      "converted": 26591,
-      "confidence": "Yahoo購物中心 2026-10-19 exact-model 公開結構化價格",
+      "amount": 27990,
+      "converted": 27990,
+      "confidence": "Yahoo購物中心 2026-10-22 exact-model 公開結構化價格",
       "basis": "retailer_current"
     },
     "image": "https://dlcdnwebimgs.asus.com/gain/FF5DB299-9708-4259-ABF9-167FDC7166BD",
@@ -5461,11 +5461,11 @@
     "name": "AQUILA PRO AI BE9500 三頻 Wi-Fi 7 2.5G Mesh 路由器（單台）",
     "price": {
       "currency": "TWD",
-      "amount": 5225,
-      "converted": 5225,
+      "amount": 5499,
+      "converted": 5499,
       "basis": "retailer_current",
-      "confidence": "Yahoo自營exact M95主商品，2026-10-21晚間新活動796030公開滿1件95折5225元；2026-10-22 08:00:59+08到期，基價5499元。",
-      "note": "本輪公開95折活動自2026-10-21 19:00起，至2026-10-22 08:00:59（台灣時間）到期；基價5499元，不含點數、會員券或刷卡回饋。"
+      "confidence": "Yahoo購物中心 2026-10-22 exact-model 公開結構化價格",
+      "note": "公開95折活動796030已於2026-10-22 08:00:59（台灣時間）到期；本輪採原頁公開價5499元，不含點數、會員券或刷卡回饋。"
     },
     "installation": {
       "status": "excluded",
