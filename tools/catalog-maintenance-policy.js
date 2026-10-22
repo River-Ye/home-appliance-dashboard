@@ -64,6 +64,7 @@ const REVIEWED_PCHOME_BINDINGS = new Map([
   ["dishwasher-haier-h500", "DMBR25-A900IUNDB"],
   ["dehumidifier-extra-9-dmbq00-a900jb38a", "DMBQ00-A900JB38A"],
   ["dryer-panasonic-nh-80rz-w", "DPAI1H-A900I7ZB7"],
+  ["dryer-panasonic-nh-v150sp", "DPAIGJ-A900JTI62"],
   ["fan-extra-8-dmablm-a900eorp0", "DMABLM-A900EORP0"],
   ["fan-extra-10-dmab30-a900eoq5x", "DMAB30-A900EOQ5X"],
   ["garmentcare-lg-r723wg", "DPAI1L-A900HWRUQ"],

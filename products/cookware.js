@@ -1030,10 +1030,10 @@
     "image": "https://cs-a.ecimg.tw/items/DEDG3BA900GQDVZ/000001_1776769920.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1099,
-      "converted": 1099,
+      "amount": 990,
+      "converted": 990,
       "basis": "retailer_current",
-      "confidence": "Yahoo購物中心 2026-10-22 exact-model 公開結構化價格"
+      "confidence": "Yahoo購物中心 2026-10-23 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1827,9 +1827,9 @@
     "name": "醇火系列不沾炒鍋",
     "price": {
       "currency": "TWD",
-      "amount": 1599,
-      "converted": 1599,
-      "confidence": "PChome 2026-09-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 1439,
+      "converted": 1439,
+      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DEES01A900IQ6X3/000001_1764832269.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEES01-A900IQ6X3",
@@ -2630,7 +2630,7 @@
       "confidence": "台灣林內官方 exact-model 頁公開建議售價 NT$7,900",
       "basis": "official_suggested"
     },
-    "image": "https://www.rinnai.com.tw/storage/product/1673338909_RBO-MN22_WH_.png",
+    "image": "https://www.cbk.tw/rwd1033/Store/oImages/RBO-MN22WH.jpg",
     "buyUrl": "https://www.rinnai.com.tw/Product/V3/378",
     "buyLabel": "台灣林內官方資料（建議售價）",
     "installation": {

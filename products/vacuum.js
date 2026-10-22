@@ -113,9 +113,9 @@
     "name": "自動集塵無線吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 17900,
-      "converted": 17900,
-      "confidence": "PChome 2026-09-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 17111,
+      "converted": 17111,
+      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX8KA900HLX9W/000001_1744871467.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAX8K-A900HLX9W",
@@ -690,9 +690,9 @@
     "name": "V15 Detect Fluffy 智慧無線吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 18900,
-      "converted": 18900,
-      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 17900,
+      "converted": 17900,
+      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX00A900HC7B6/000001_1782183523.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAX00-A900HC7B6",
@@ -882,9 +882,9 @@
     "name": "CordZero A9X 蒸氣濕拖自動集塵無線吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 26900,
-      "converted": 26900,
-      "confidence": "PChome 2026-09-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 25111,
+      "converted": 25111,
+      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX8KA900HLXAQ/000001_1744871444.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAX8K-A900HLXAQ",
@@ -2536,7 +2536,7 @@
       "confidence": "Jarvis 家電 2026-08-14 exact-model 台灣新品頁公開售價",
       "basis": "retailer_current"
     },
-    "image": "https://www.hitachi-homeappliances.com.tw/products/image/PVXH4P/0.jpg",
+    "image": "https://www.jarvis.com.tw/images/detailed/15/pvxh4p-main.jpg",
     "buyUrl": "https://www.jarvis.com.tw/appliances/hitachi/vacuum-hitachi/hitachi-pvxh4p/",
     "buyLabel": "Jarvis 家電",
     "installation": {
@@ -3012,7 +3012,7 @@
       "status": "not_stated",
       "note": "通路未列到府安裝；本品為無線直立／手持吸塵器，由使用者依說明書組裝延長管、吸頭與充電／收納底座。"
     },
-    "image": "https://www.hitachi-homeappliances.com.tw/upload/products/pgroup23522605045647.png",
+    "image": "https://img.pchome.com.tw/cs/items/DMAX03A900K8PLW/000001_1784629885.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAX03-A900K8PLW",
     "buyLabel": "PChome exact-model 新品",
     "specs": [

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21",
+  "generatedAt": "2026-10-23",
   "sourcePolicy": "本站共 21 類尺寸、13 類重量研究，尺寸涵蓋 電視、Soundbar、冷氣、洗衣機、烘衣機、洗烘衣機(多功能型)、電子衣櫥（衣物護理機）、床包、棉被、枕頭、冰箱、咖啡機、多功能氣炸烤箱／微波爐、洗碗機、熱水器、免治馬桶、網路交換器、螢幕燈、滑鼠、鍵盤、滑鼠墊。優先採 exact-model／相同版本的官方產品頁、官方規格表或官方 PDF，其次為可信新品通路。只採本體／機身／明確組件的尺寸與淨重，排除包裝、外箱尺寸與毛重；來源沒有明示軸序時不自行推定。既有家電與床包、棉被、枕頭維持 cm／kg，滑鼠、鍵盤與滑鼠墊使用 mm／g 並保留來源軸序。滑鼠墊厚度、床包可包覆高度另列；棉被的填充重量與整件淨重分開記錄。冷氣分列室內機與室外機，熱泵複合熱水器分列主機與儲槽。generatedAt 為最新證據批次日期，既有逐筆 checkedAt 與 weightCheckedAt 保留原查核日期，不表示重新查核。",
   "results": [
     {
@@ -10265,6 +10265,48 @@
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
       "weightCheckedAt": "2026-10-21"
+    },
+    {
+      "id": "dishwasher-bosch-sms8zci02x",
+      "category": "dishwasher",
+      "brand": "Bosch",
+      "model": "SMS8ZCI02X",
+      "name": "8系列14人份獨立式沸石洗碗機（台灣110V版）",
+      "dimension": "尺寸：寬 60 x 深 60 x 高 84.5 cm",
+      "sourceUrl": "https://www.bosch-home.com.tw/zh/mkt-product/dishwashers/freestanding-dishwashers/freestanding-dishwashers-with-60cm-width/SMS8ZCI02X",
+      "sourceTitle": "Bosch台灣SMS8ZCI02X詳細規格",
+      "evidenceSnippet": "機體HxWxD845x600x600mm，依官方明示軸序換算為W60 D60 H84.5cm；開門90度深1155mm，非包裝880x660x670mm。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-10-23",
+      "weight": "重量：51.7 kg",
+      "weightSourceUrl": "https://www.bosch-home.com.tw/zh/mkt-product/dishwashers/freestanding-dishwashers/freestanding-dishwashers-with-60cm-width/SMS8ZCI02X",
+      "weightSourceTitle": "Bosch台灣SMS8ZCI02X詳細規格",
+      "weightEvidenceSnippet": "官方尺寸和重量列淨重51.7kg，未採另一通路47.7kg或包裝數值。",
+      "weightConfidence": "high",
+      "weightIsOfficialSource": true,
+      "weightCheckedAt": "2026-10-23"
+    },
+    {
+      "id": "dryer-panasonic-nh-v150sp",
+      "category": "dryer",
+      "brand": "Panasonic",
+      "model": "NH-V150SP",
+      "name": "Panasonic NH-V150SP-W 15kg 熱泵除濕式乾衣機",
+      "dimension": "尺寸：寬 64 x 深 77.8 x 高 89.5 cm",
+      "sourceUrl": "https://pmst.panasonic.com.tw/PSMIOUT/DL/DLFiles/3246/0_H_27411.pdf",
+      "sourceTitle": "Panasonic NH-V150SP 官方使用說明書，第27頁規格",
+      "evidenceSnippet": "外形尺寸：寬640×深778×高895(mm)，產品重量64kg；與外箱尺寸/重量分開。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-10-23",
+      "weight": "重量：64 kg",
+      "weightSourceUrl": "https://pmst.panasonic.com.tw/PSMIOUT/DL/DLFiles/3246/0_H_27411.pdf",
+      "weightSourceTitle": "Panasonic NH-V150SP 官方使用說明書，第27頁規格",
+      "weightEvidenceSnippet": "產品重量64kg，未採72kg外箱重量。",
+      "weightConfidence": "high",
+      "weightIsOfficialSource": true,
+      "weightCheckedAt": "2026-10-23"
     }
   ]
 }

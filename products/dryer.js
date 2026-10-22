@@ -15,9 +15,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/AC7DC27581-SP-22704432.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 9351,
-      "converted": 9351,
-      "confidence": "PChome 2026-10-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 9143,
+      "converted": 9143,
+      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1641,9 +1641,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/C0FA586EC4-SP-18495887.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 7990,
-      "converted": 7990,
-      "confidence": "Yahoo購物中心 2026-10-22 exact-model 公開結構化價格"
+      "amount": 7591,
+      "converted": 7591,
+      "confidence": "Yahoo購物中心 2026-10-23 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1945,9 +1945,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/254DF81A1E-SP-20893325.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 49900,
-      "converted": 49900,
-      "confidence": "Yahoo購物中心 2026-10-22 exact-model 公開結構化價格"
+      "amount": 45908,
+      "converted": 45908,
+      "confidence": "Yahoo購物中心 2026-10-23 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -2253,7 +2253,7 @@
       "confidence": "PChome 24h 2026-08-14 exact-model 台灣新品頁公開售價",
       "basis": "retailer_current"
     },
-    "image": "https://www.rinnai.com.tw/storage/product/1616144753_0001_RDT-90-%E6%AD%A3%E9%9D%A2.png",
+    "image": "https://i1.momoshop.com.tw/1789385943/goodsimg/0013/574/805/13574805_R_m.webp",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM5L-A900FRSMX",
     "buyLabel": "PChome 24h購物",
     "installation": {
@@ -2431,6 +2431,111 @@
           "query": "site:mobile01.com \"LG WR-20DW\" (災情 OR 問題 OR 故障 OR 負評)",
           "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20WR-20DW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "dryer-panasonic-nh-v150sp",
+    "category": "dryer",
+    "rank": 25,
+    "topPick": false,
+    "brand": "Panasonic",
+    "model": "NH-V150SP",
+    "name": "Panasonic NH-V150SP-W 15kg 熱泵除濕式乾衣機",
+    "image": "https://pstw.panasonic.com.tw/shop/Upload/Product/20251217181334OF0SMHHU.jpg",
+    "price": {
+      "currency": "TWD",
+      "amount": 41310,
+      "converted": 41310,
+      "basis": "retailer_current",
+      "confidence": "2026-10-23 PChome exact PID API：Price.P41310、Low=null、Qty19，未採券/回饋。"
+    },
+    "channel": "tw",
+    "buyLabel": "PChome 24h購物",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPAIGJ-A900JTI62",
+    "installation": {
+      "status": "included_basic",
+      "note": "本PChome賣場明含基本安裝；偏遠區/搬運/特殊施工另計，旺季安裝約14–21工作日以上另約；專用迴路/接地/漏電斷路器/排水與疊架仍需現場確認。"
+    },
+    "specs": [
+      "類型：獨立熱泵除濕式乾衣機；冰鑽白 NH-V150SP-W",
+      "容量：乾衣15kg（乾燥衣物）",
+      "乾衣方式：Heat Pump熱泵除濕；nanoe X護衣、香氛烘衣、3重過濾系統",
+      "尺寸：寬 64 x 深 77.8 x 高 89.5 cm",
+      "重量：64 kg（產品本體，未採72kg外箱重量）",
+      "電壓／頻率：AC110V／60Hz；總額定消耗電功率1065W",
+      "安裝：寬至少68cm；兩側各2cm、頂部3cm、背面5cm以上，正面開放",
+      "電力與排水：15A獨立接地插座、漏電斷路器；禁止延長線/多孔插座；需接排水管",
+      "維護：定期清潔絲屑與碎屑濾網；疊放需由原廠/指定經銷確認相容機型與固定方式"
+    ],
+    "description": "15kg台灣市場獨立熱泵乾衣機，以110V供電、大容量與nanoe X衣物護理供大量洗衣家庭比較；需預留排水、專用電路及門前空間。",
+    "pros": [
+      "15kg獨立熱泵乾衣，官方明示110V／60Hz",
+      "官方手冊提供完整機身尺寸、淨重與安裝淨空",
+      "台灣官方售後與可信通路可購，含基本安裝"
+    ],
+    "cons": [
+      "機身寬64cm、重64kg，安裝寬度至少68cm",
+      "需15A專用接地插座、漏電斷路器與排水",
+      "大型家電需預約配送安裝、旺季可能14–21工作日以上；可靠上市日與史低未確認"
+    ],
+    "bestFor": "有大量衣物或寢具、具獨立洗衣機，且能提供專用110V迴路與排水空間的家庭。",
+    "recommendation": "15kg大容量熱泵乾衣補充選擇；相對10kg款機身更大，先核安裝寬深、開門與搬運路徑，不能只看110V即認定可直接安裝。",
+    "voltage": "台灣 AC 110V / 60Hz，1065W；原廠要求額定15A獨立接地插座與漏電斷路器，禁用延長線/多孔插座。",
+    "warranty": "所選PChome台灣新品賣場明示保固1年；部件延長保固未由官方條款封閉，不宣稱3年/5年。",
+    "score": 86,
+    "budget": "premium",
+    "tags": [
+      "容量：15kg",
+      "熱泵除濕",
+      "110V／60Hz",
+      "烘衣機",
+      "洗衣家務"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-23",
+      "note": "當日查NH-V150SP-W歷史價格與exact-model比價，FindPrice原頁有現價/分期/會員券等混合結果，不能當史低；LBJ exact查詢原頁無法取得可驗證歷史曲線，不採搜尋快取價格，亦不以本次現價41310推史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-23",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"NH-V150SP\" 問題 故障 災情",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NH-V150SP%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C%20%E7%81%BD%E6%83%85"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"NH-V150SP\" 問題 故障 災情",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NH-V150SP%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C%20%E7%81%BD%E6%83%85"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"NH-V150SP\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22NH-V150SP%22"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "site:dcard.tw \"NH-V150SP\" 問題",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22NH-V150SP%22%20%E5%95%8F%E9%A1%8C"
         }
       ]
     }

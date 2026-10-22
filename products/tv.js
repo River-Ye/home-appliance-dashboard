@@ -116,9 +116,9 @@
     "name": "65 型 S90F OLED 4K 智慧顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 50900,
-      "converted": 50900,
-      "confidence": "PChome 2026-10-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 46900,
+      "converted": 46900,
+      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADEW1900K4WRT/000001_1782056882.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADEW-A900IUE7F",
@@ -414,9 +414,10 @@
     "name": "BRAVIA 9 II 65 型 RGB LED 4K Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 99363,
-      "converted": 99363,
-      "confidence": "2026-10-22 人工核對Yahoo自營Y-65XR90M2同賣編主商品公開價99363；原頁與主商品結構化價格一致，不採較早95389快照。"
+      "amount": 95389,
+      "converted": 95389,
+      "confidence": "Yahoo購物中心 2026-10-23 exact-model 公開結構化價格",
+      "note": "Yahoo公開96折活動800931至2026-10-27 07:59:59台灣時間，99363元折後95389元；此賣編含標準安裝與舊機回收，不含會員券、點數或刷卡回饋。"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/F326F9F0C5-SP-23019953.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E5%90%AB%E6%A8%99%E6%BA%96%E5%AE%89%E8%A3%9D-SONY%E7%B4%A2%E5%B0%BC65%E5%90%8B%E5%90%8BRGB-4K%E9%80%A3%E7%B6%B2%E6%99%BA%E6%85%A7%E9%A1%AF%E7%A4%BA%E5%99%A8Y-65XR90M2-12159450.html",
@@ -454,16 +455,16 @@
     "releaseDate": "2026-06-17",
     "historicalLow": {
       "status": "found",
-      "amount": 99363,
+      "amount": 95389,
       "currency": "TWD",
-      "converted": 99363,
+      "converted": 95389,
       "sourceUrl": "https://tw.buy.yahoo.com/gdsale/%E5%90%AB%E6%A8%99%E6%BA%96%E5%AE%89%E8%A3%9D-SONY%E7%B4%A2%E5%B0%BC65%E5%90%8B%E5%90%8BRGB-4K%E9%80%A3%E7%B6%B2%E6%99%BA%E6%85%A7%E9%A1%AF%E7%A4%BA%E5%99%A8Y-65XR90M2-12159450.html",
-      "sourceTitle": "(含標準安裝)SONY索尼65吋吋RGB 4K連網智慧顯示器Y-65XR90M2 | 電視 | Yahoo購物中心",
-      "evidenceSnippet": "2026-10-22 Yahoo自營賣編12159450，Y-65XR90M2含標準安裝同型號主商品公開價NT$99,363，原頁與主商品結構化價格一致，低於既有可驗證NT$103,908。",
+      "sourceTitle": "Yahoo購物中心：(含標準安裝)SONY索尼65吋吋RGB 4K連網智慧顯示器Y-65XR90M2 | 電視 | Yahoo購物中心",
+      "evidenceSnippet": "Yahoo購物中心於 2026-10-23 顯示同型號可信新品公開價 NT$95,389，低於既有史低 NT$99,363。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-10-22",
-      "note": "採同型號、同65吋與標準安裝方案的可信新品公開價；未扣會員券、OPENPOINT、超贈點或信用卡回饋，不採未重現的NT$95,389快照，亦不宣稱全網所有歷史的絕對低點。"
+      "checkedAt": "2026-10-23",
+      "note": "採用 Yahoo購物中心當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -813,9 +814,9 @@
     "name": "BRAVIA 8 65 型 XR OLED 4K HDR Google TV 顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 93900,
-      "converted": 93900,
-      "confidence": "PChome 2026-10-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 84510,
+      "converted": 84510,
+      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD06A900HLBJO/000001_1776334113.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAD06-A900HLBJO",
@@ -1902,9 +1903,9 @@
     "name": "65型 4K QLED 120Hz Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 15990,
-      "converted": 15990,
-      "confidence": "PChome 2026-10-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 14391,
+      "converted": 14391,
+      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADTOA900JNE73/000001_1768523868.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADTO-A900JNMOP",
@@ -3937,10 +3938,10 @@
     "name": "65 型 S-960 Mini LED 量子點 144Hz 遊戲 Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 44900,
-      "converted": 44900,
+      "amount": 39900,
+      "converted": 39900,
       "basis": "retailer_current",
-      "confidence": "PChome 2026-10-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "installation": {
       "status": "not_stated",

@@ -1839,9 +1839,9 @@
     "name": "PuriCare 超淨化大白空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 7399,
-      "converted": 7399,
-      "confidence": "PChome 2026-09-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 6881,
+      "converted": 6881,
+      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU0BA900GI0Q1/000001_1763349087.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU0B-A900GI0Q1",
@@ -2550,8 +2550,9 @@
       "currency": "TWD",
       "amount": 3160,
       "converted": 3160,
-      "confidence": "PChome 2026-09-03 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "basis": "retailer_current"
+      "confidence": "2026-10-23人工核對原頁配送為預購；3160元為保留的先前參考價，不代表當日現貨報價。",
+      "basis": "retailer_current",
+      "note": "2026-10-23原頁標預購，最晚2026-11-25出貨；公開預購價3111元未作現貨價格寫回，本卡3160元僅留先前參考，交期及成交價請先確認。"
     },
     "installation": {
       "status": "not_stated",
@@ -2559,7 +2560,7 @@
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU00A77331975/000001_1747044686.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU00-A77331975",
-    "buyLabel": "PChome 24h exact-model 台灣公司貨新品",
+    "buyLabel": "PChome（預購／舊價僅供參考）",
     "specs": [
       "適用坪數：約 4–8 坪；CADR 100 cfm（約 170 m³/h）",
       "True HEPA 濾網搭配活性碳前置濾網",

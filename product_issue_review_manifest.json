@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-21",
+  "checkedAt": "2026-10-23",
   "methodVersion": 3,
   "policy": "每筆決策須保存 exact-model 跨站查詢與人工 attestation；每個搜尋候選須逐頁保存摘要、獨立作者數與具體排除理由，研究工具不得自行生成拒絕結論。",
   "results": [
@@ -90170,6 +90170,170 @@
           "reviewedAt": "2026-10-21"
         }
       ]
+    },
+    {
+      "id": "dishwasher-bosch-sms8zci02x",
+      "category": "dishwasher",
+      "brand": "Bosch",
+      "model": "SMS8ZCI02X",
+      "name": "8系列14人份獨立式沸石洗碗機（台灣110V版）",
+      "status": "completed",
+      "reviewedAt": "2026-10-23",
+      "reviewBatch": "dishwasher",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT",
+        "Reddit",
+        "Dcard",
+        "PChome"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"SMS8ZCI02X\" site:mobile01.com",
+          "queryUrl": "https://www.bing.com/search?q=%22SMS8ZCI02X%22%20site%3Amobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "\"SMS8ZCI02X\" site:ptt.cc",
+          "queryUrl": "https://www.bing.com/search?q=%22SMS8ZCI02X%22%20site%3Aptt.cc"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "\"SMS8ZCI02X\" site:reddit.com",
+          "queryUrl": "https://www.bing.com/search?q=%22SMS8ZCI02X%22%20site%3Areddit.com"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "\"SMS8ZCI02X\" site:dcard.tw",
+          "queryUrl": "https://www.bing.com/search?q=%22SMS8ZCI02X%22%20site%3Adcard.tw"
+        }
+      ],
+      "candidateDisposition": "SMS8ZCI02X：人工逐站檢視Mobile01、PTT、Reddit及Dcard完整型號查詢，沒有符合exact-model的論壇原始候選；另讀PChome初始商品頁無作者評價，未達同問題6人／2原站門檻。",
+      "representativeSources": [
+        {
+          "platform": "PChome",
+          "title": "BOSCH 博世 14人份 獨立式沸石洗碗機(SMS8ZCI02X) - PChome 24h購物",
+          "url": "https://24h.pchome.com.tw/prod/DMBR13-A900KIVV7"
+        }
+      ],
+      "reviewerNote": "SMS8ZCI02X：2026-10-23實際分組搜尋完整型號與四個獨立網站，工具無exact論壇候選；PChome主商品schema無評價且初始正文無作者報告，無法計入任何獨立故障作者，不宣稱完全沒有負評。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "platform": "PChome",
+          "url": "https://24h.pchome.com.tw/prod/DMBR13-A900KIVV7",
+          "title": "BOSCH 博世 14人份 獨立式沸石洗碗機(SMS8ZCI02X) - PChome 24h購物",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-10-23",
+          "sourceExcerpt": "本次Chrome實讀主商品與JSON-LD：aggregateRating:null、review:null；初始可讀正文未提供使用者問題內容。",
+          "independentAuthors": 0,
+          "specificReason": "SMS8ZCI02X原頁初始內容無可辨識作者或第一人稱問題，不能把沒有可讀評價或庫存數當成沒有負評，也不能湊足六人／兩站。"
+        }
+      ]
+    },
+    {
+      "id": "dryer-panasonic-nh-v150sp",
+      "category": "dryer",
+      "brand": "Panasonic",
+      "model": "NH-V150SP",
+      "reviewedAt": "2026-10-23",
+      "reviewBatch": "dryer",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT",
+        "Reddit",
+        "Dcard"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"NH-V150SP\" 問題 故障 災情",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NH-V150SP%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C%20%E7%81%BD%E6%83%85"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"NH-V150SP\" 問題 故障 災情",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NH-V150SP%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C%20%E7%81%BD%E6%83%85"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"NH-V150SP\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22NH-V150SP%22"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "site:dcard.tw \"NH-V150SP\" 問題",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22NH-V150SP%22%20%E5%95%8F%E9%A1%8C"
+        }
+      ],
+      "candidateDisposition": "NH-V150SP：人工實讀3篇Mobile01原頁，分辨新機選購、合體系統假設及他牌/舊款議題，沒有可計入本單機同一問題的第一人稱作者；PTT與Reddit exact查詢無型號候選。另Dcard發現推薦文章候選但原頁工具存取受阻，未計作者、未宣稱該頁人工覆核完成。未達6名獨立使用者且跨2原始網站門檻，不代表完全沒有負評。",
+      "representativeSources": [
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7282286",
+          "title": "求挑選Panasonic 洗脫烘/純烘衣機"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7185686",
+          "title": "NA-V1715SP準備12月要上市了"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&p=1&t=7187204",
+          "title": "請問有日立熱泵滾筒乾衣機TD120XFVEM的使用經驗嗎？"
+        }
+      ],
+      "reviewerNote": "NH-V150SP：人工實讀3篇Mobile01原頁，分辨新機選購、合體系統假設及他牌/舊款議題，沒有可計入本單機同一問題的第一人稱作者；PTT與Reddit exact查詢無型號候選。另Dcard發現推薦文章候選但原頁工具存取受阻，未計作者、未宣稱該頁人工覆核完成。未達6名獨立使用者且跨2原始網站門檻，不代表完全沒有負評。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7282286",
+          "title": "求挑選Panasonic 洗脫烘/純烘衣機",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-10-23",
+          "sourceExcerpt": "選手2：Panasonic 乾衣機NH-V150SP；#5 ute_表示自己用16kg直立式搭v150sp乾衣機，不會有洗不乾淨或烘不乾的問題。",
+          "independentAuthors": 0,
+          "specificReason": "原頁是洗烘一體與獨立乾衣的選購比較，樓主的舊直立洗衣機問題不能轉算NH-V150SP；已讀#5是正面使用分享，沒有可計入的本型號同一問題第一人稱回報。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7185686",
+          "title": "NA-V1715SP準備12月要上市了",
+          "outcome": "excluded",
+          "exactModel": false,
+          "reviewedAt": "2026-10-23",
+          "sourceExcerpt": "下洗17上熱泵15，所有觸控面板在烘衣機門上；一體機故障上下都不能用。",
+          "independentAuthors": 0,
+          "specificReason": "原頁討論NA-V1715SP上下合體系統；雖提NH-V150SP單機型號，故障句為對共用控制的假設風險，沒有獨立NH-V150SP實際故障，不能移算單機負評。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&p=1&t=7187204",
+          "title": "請問有日立熱泵滾筒乾衣機TD120XFVEM的使用經驗嗎？",
+          "outcome": "excluded",
+          "exactModel": false,
+          "reviewedAt": "2026-10-23",
+          "sourceExcerpt": "如果可以建議等年底要上市的台製V150SP，但當然價格會再貴些，不然就VS100HP即可。",
+          "independentAuthors": 0,
+          "specificReason": "原頁主題為日立TD120XFVEM與國際NH-VS100HP-B，回覆僅建議等待V150SP上市，不是已使用NH-V150SP的缺陷回報；不能把其他舊機抱怨移轉。"
+        }
+      ],
+      "status": "completed"
     }
   ]
 }

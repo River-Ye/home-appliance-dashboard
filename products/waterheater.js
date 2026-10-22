@@ -28,7 +28,7 @@
       "status": "excluded",
       "note": "定價未含現場耗材；瓦斯別、排氣孔與管長須由合格技師確認"
     },
-    "image": "https://www.rinnai.com.tw/storage/uploads/1782954889_%E7%86%B1%E6%B0%B4%E5%99%A8%E5%AE%98%E7%B6%B2_RUA-D1620WF_0630.jpg",
+    "image": "https://img.pchome.com.tw/cs/items/DPAL3BA900K7E7I/000001_1783574994.jpg",
     "buyUrl": "https://www.rinnai.com.tw/Product/V3/413",
     "buyLabel": "台灣林內官方產品頁",
     "specs": [
@@ -142,7 +142,7 @@
       "status": "excluded",
       "note": "定價未含現場耗材；先確認排氣孔、管長與瓦斯別"
     },
-    "image": "https://www.rinnai.com.tw/storage/product/1778225580_1050X1040-%E5%AE%98%E7%B6%B2%E7%94%A8-1.png",
+    "image": "https://img.pchome.com.tw/cs/items/DPAL48A900HJKFZ/000001_1717664058.jpg",
     "buyUrl": "https://www.rinnai.com.tw/Product/V3/395",
     "buyLabel": "台灣林內官方產品頁",
     "specs": [
@@ -256,7 +256,7 @@
       "status": "excluded",
       "note": "官方定價未含未列耗材；排氣與瓦斯管線須現勘"
     },
-    "image": "https://www.rinnai.com.tw/storage/product/1782439311_RUA-UD1620WF%E5%AE%98%E7%B6%B21.png",
+    "image": "https://img.pchome.com.tw/cs/items/DPAL47A900KAPIP/000001_1785726213.jpg",
     "buyUrl": "https://www.rinnai.com.tw/Product/V3/412",
     "buyLabel": "台灣林內官方產品頁",
     "specs": [
@@ -1739,7 +1739,7 @@
       "status": "excluded",
       "note": "官方定價未列現場配線與管材；需 220V 專用迴路、接地與排水"
     },
-    "image": "https://www.rinnai.com.tw/storage/product/1782442090_REH-0856P4%E3%80%810856P6%E3%80%811256P4%E3%80%811256P6%E3%80%811556P4%E5%AE%98%E7%B6%B21.png",
+    "image": "https://img.pchome.com.tw/cs/items/DPAL47A900KCEV3/000001_1786952678.jpg",
     "buyUrl": "https://www.rinnai.com.tw/Product/V3/420",
     "buyLabel": "台灣林內官方產品頁",
     "specs": [
@@ -1854,7 +1854,7 @@
       "status": "excluded",
       "note": "官方定價未列現場配線與管材；需 220V 專用迴路、接地與排水"
     },
-    "image": "https://www.rinnai.com.tw/storage/product/1782442090_REH-0856P4%E3%80%810856P6%E3%80%811256P4%E3%80%811256P6%E3%80%811556P4%E5%AE%98%E7%B6%B21.png",
+    "image": "https://img.pchome.com.tw/cs/items/DPAL47A900KCEWG/000001_1786953008.jpg",
     "buyUrl": "https://www.rinnai.com.tw/Product/V3/419",
     "buyLabel": "台灣林內官方產品頁",
     "specs": [
@@ -1969,7 +1969,7 @@
       "status": "excluded",
       "note": "官方定價未列現場配線與管材；需 220V 專用迴路、接地與排水"
     },
-    "image": "https://www.rinnai.com.tw/storage/product/1782441355_REH-2056P4%E3%80%812056P6%E3%80%813056P4%E3%80%813056P6%E5%AE%98%E7%B6%B21.png",
+    "image": "https://img.pchome.com.tw/cs/items/DPAL47A900KCEZZ/000001_1786953803.jpg",
     "buyUrl": "https://www.rinnai.com.tw/Product/V3/417",
     "buyLabel": "台灣林內官方產品頁",
     "specs": [

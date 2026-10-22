@@ -832,9 +832,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR25A900IUNDB/000001_1747970581.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 25600,
-      "converted": 25600,
-      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 24320,
+      "converted": 24320,
+      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1649,9 +1649,9 @@
     "name": "免安裝自動 6 人份洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 16199,
-      "converted": 16199,
-      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 16999,
+      "converted": 16999,
+      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR17A900IHTZ3/000001_1777540146.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR17-A900IHTZ3",
@@ -1746,9 +1746,9 @@
     "name": "VORTEX KW1 桌上型全自動洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 15990,
-      "converted": 15990,
-      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 14990,
+      "converted": 14990,
+      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR25A900J5BGP/000001_1782112645.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR25-A900J5BGP",
@@ -2655,7 +2655,7 @@
       "confidence": "momo 購物 2026-08-14 exact-model 台灣新品頁公開售價，標題明載基本安裝",
       "basis": "retailer_current"
     },
-    "image": "https://www.rinnai.com.tw/storage/product/1615535033_0002_RKW-601C-SV-TR_1.png",
+    "image": "https://i4.momoshop.com.tw/1772634123/goodsimg/0013/272/372/13272372_R_m.webp",
     "buyUrl": "https://www.momoshop.com.tw/product/13272372",
     "buyLabel": "momo 購物（基本安裝）",
     "installation": {
@@ -3162,6 +3162,113 @@
       "220V",
       "台灣公司貨"
     ]
+  },
+  {
+    "id": "dishwasher-bosch-sms8zci02x",
+    "category": "dishwasher",
+    "rank": 32,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Bosch",
+    "model": "SMS8ZCI02X",
+    "name": "8系列14人份獨立式沸石洗碗機（台灣110V版）",
+    "topPick": false,
+    "price": {
+      "currency": "TWD",
+      "amount": 80550,
+      "converted": 80550,
+      "basis": "retailer_current",
+      "confidence": "2026-10-23 PChome exact SKU API Qty10、原頁與JSON-LD公開80550一致，NewCondition/InStock；未扣折價券、P幣或信用卡回饋。"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DMBR13A900KIVV7/000001_1790912458.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBR13-A900KIVV7",
+    "buyLabel": "PChome 24h購物（廠商出貨／原廠派裝）",
+    "installation": {
+      "status": "not_stated",
+      "note": "所選PChome頁寫原廠派裝，但可讀條款未明示基本安裝是否全含價；改櫃輕裝修僅新竹(含)以北且費用由師傅報價，水電、開孔、拆櫃與追加材料先確認。"
+    },
+    "specs": [
+      "類型：8系列60cm獨立式；14人份；德國製造",
+      "乾燥：DesertDry沸石與熱能交換；本型號未配AirDry+自動開門",
+      "清洗：蒸汽預洗、ExtraCleanZone強效潔淨區、AquaStop防漏水",
+      "碗籃：Max Flex Pro；超彈性刀叉抽屜；上籃3段調整",
+      "經濟程序：9.5L；噪音42dB／夜間40dB",
+      "操作：全彩TFT繁中介面、Home Connect、白光內部照明",
+      "尺寸：寬 60 x 深 60 x 高 84.5 cm",
+      "重量：51.7 kg",
+      "安裝空間：門開90度總深115.5cm；上蓋可移除30mm，進排水、插頭與施工空間另確認",
+      "電壓／頻率：110V／60Hz；1100W／10A，須確認接地與供電迴路"
+    ],
+    "description": "以沸石乾燥、蒸汽預洗及中式碗籃增加高階獨立式選擇。官方商城仍殘留9月預購與10月到貨文案，本卡供貨以已核對的PChome同型號新品頁為準；廠商配送交期與安裝費另行確認。",
+    "pros": [
+      "沸石乾燥、蒸汽預洗與強效潔淨區，適合鍋具與較難清理的餐具",
+      "14人份、可調碗籃及繁中TFT介面",
+      "台灣110V／60Hz版本與原廠全機2年保固可核對"
+    ],
+    "cons": [
+      "售價高，另有官方百貨通路活動價，須分別確認條件與安裝費",
+      "51.7kg且門全開深115.5cm；需預留搬運、開門與水電空間",
+      "本型號沒有AirDry+自動開門；查無可靠上市日與歷史最低價"
+    ],
+    "bestFor": "有60cm洗碗機空間，重視沸石乾燥、鍋具清潔與台灣原廠售後的家庭。",
+    "recommendation": "高階獨立式比較款：增加沸石乾燥與蒸汽預洗選項；原有31款保留。購前請現場丈量開門空間，分開確認通路價格、交期及基本安裝範圍。",
+    "score": 89,
+    "voltage": "台灣官方規格110V／60Hz、1100W／10A；確認接地插座、迴路與進排水",
+    "warranty": "Bosch台灣官方規格與所選PChome頁均明示全機2年原廠保固；耗材與安裝追加依條款",
+    "tags": [
+      "14人份",
+      "獨立式",
+      "沸石乾燥",
+      "蒸汽預洗",
+      "110V",
+      "Home Connect"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-23",
+      "note": "已查PChome exact新品公開價、Bosch官方建議售價與百貨促銷，以及FindPrice/飛比完整型號搜尋；未取得可驗證的同版本可信新品歷史價格時間點。官方百貨特價73900是另一通路活動，不當成本PChome頁成交價，也不由本次現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-23",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"SMS8ZCI02X\" site:mobile01.com",
+          "queryUrl": "https://www.bing.com/search?q=%22SMS8ZCI02X%22%20site%3Amobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "\"SMS8ZCI02X\" site:ptt.cc",
+          "queryUrl": "https://www.bing.com/search?q=%22SMS8ZCI02X%22%20site%3Aptt.cc"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "\"SMS8ZCI02X\" site:reddit.com",
+          "queryUrl": "https://www.bing.com/search?q=%22SMS8ZCI02X%22%20site%3Areddit.com"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "\"SMS8ZCI02X\" site:dcard.tw",
+          "queryUrl": "https://www.bing.com/search?q=%22SMS8ZCI02X%22%20site%3Adcard.tw"
+        }
+      ]
+    }
   }
 ]);
 })();

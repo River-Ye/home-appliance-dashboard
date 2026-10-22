@@ -1,20 +1,20 @@
 {
   "summary": {
-    "checkedAt": "2026-10-21T00:00:00+08:00",
-    "total": 1181,
-    "researchedThisRun": 1,
+    "checkedAt": "2026-10-23T00:00:00+08:00",
+    "total": 1183,
+    "researchedThisRun": 2,
     "found": 346,
-    "missing": 835,
+    "missing": 837,
     "byConfidence": {
       "official": 188,
-      "not_found": 832,
+      "not_found": 834,
       "retailer_explicit": 23,
       "credible_article": 52,
       "high": 67,
       "medium": 16,
       "unknown": 3
     },
-    "scopeNote": "2026-10-21全量價格/來源維護；上市日期本輪僅補查新增HMR-DA2713，原1180筆上市證據與真實查核日期保留。"
+    "scopeNote": "2026-10-23全量價格/來源維護；上市日期補查新增SMS8ZCI02X與NH-V150SP，既有1181筆證據與真實日期保留。"
   },
   "results": [
     {
@@ -36163,6 +36163,73 @@
       "auditQueries": [
         "\"HMR-DA2713\" \"上市\"",
         "\"HMR-DA2713\" site:hitachi-homeappliances.com.tw 上市 新品 2024"
+      ]
+    },
+    {
+      "id": "dishwasher-bosch-sms8zci02x",
+      "category": "dishwasher",
+      "brand": "Bosch",
+      "model": "SMS8ZCI02X",
+      "name": "8系列14人份獨立式沸石洗碗機（台灣110V版）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"SMS8ZCI02X\" 上市 發售",
+      "sourceKind": "not_found_after_manual_recheck",
+      "reason": "官方exact產品頁與2026型錄未明示上市日；商城到貨預告9月/10月互相矛盾，不當作實際發售日期。",
+      "checkedAt": "2026-10-23",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.bosch-home.com.tw/zh/mkt-product/dishwashers/freestanding-dishwashers/freestanding-dishwashers-with-60cm-width/SMS8ZCI02X",
+          "title": "Bosch台灣SMS8ZCI02X",
+          "outcome": "產品規格可核，無明確發售日"
+        },
+        {
+          "url": "https://www.bosch-home-shop.com.tw/products/sms8zci02x",
+          "title": "Bosch官方商城SMS8ZCI02X",
+          "outcome": "預購到貨月份互相矛盾，不作上市日"
+        }
+      ],
+      "auditQueries": [
+        "\"SMS8ZCI02X\" 上市 發售"
+      ]
+    },
+    {
+      "id": "dryer-panasonic-nh-v150sp",
+      "category": "dryer",
+      "brand": "Panasonic",
+      "model": "NH-V150SP",
+      "name": "Panasonic NH-V150SP-W 15kg 熱泵除濕式乾衣機",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "site:panasonic.com/tw \"NH-V150SP\" (上市 OR 發售)",
+      "sourceKind": "not_found_after_original_page_review",
+      "reason": "官方現行產品與商城可證現售但未列明確上市日期；搜尋發現202510官方舊型錄寫「預計12月上市」，是2025年預定資訊且舊PDF現404，未將文件日期、預定上市或會員頁上架日當正式上市日。",
+      "checkedAt": "2026-10-23",
+      "auditDisposition": "confirmed_not_found",
+      "auditQueries": [
+        "\"NH-V150SP\" \"上市\"",
+        "site:panasonic.com/tw \"NH-V150SP\""
+      ],
+      "checkedSources": [
+        {
+          "url": "https://www.panasonic.com/tw/consumer/washing-machine/drying-machine/heatpump/nh-v150sp.html",
+          "title": "Panasonic NH-V150SP 官方產品頁",
+          "outcome": "現行exact產品/規格可讀，未明上市日期"
+        },
+        {
+          "url": "https://pmst.panasonic.com.tw/Shop/Product/Detail/T4KD2JIH5U3ZFHIBJH9I",
+          "title": "15公斤熱泵除濕式烘衣機 NH-V150SP 官方商城",
+          "outcome": "當日原頁可證公開價與可購，未列上市日"
+        }
       ]
     }
   ]
