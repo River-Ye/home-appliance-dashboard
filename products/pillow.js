@@ -283,5 +283,199 @@
     },
   ].map(makeProduct);
 
+  products.push({
+  "id": "pillow-tempur-millennium-smartcool-small",
+  "category": "pillow",
+  "brand": "TEMPUR",
+  "model": "0001209111",
+  "name": "丹普新永恆千禧感溫枕 SmartCool SMALL 0001209111",
+  "type": "memory_foam",
+  "budget": "premium",
+  "channel": "tw",
+  "rank": 31,
+  "variantFamily": "tempur-millennium-smartcool",
+  "score": 86,
+  "topPick": false,
+  "installation": {
+    "status": "not_stated",
+    "note": "成人完整成品枕，無需到府安裝；拆封前確認所選SKU、枕高及寢具退換條件。"
+  },
+  "price": {
+    "currency": "TWD",
+    "amount": 8880,
+    "converted": 8880,
+    "basis": "retailer_current",
+    "confidence": "2026-10-23 TEMPUR台灣官方原頁及產品JSON核對0001209111 SMALL variant=47934674501787，公開價8880且available=true；非會員券價，其他尺寸不混用。"
+  },
+  "image": "https://cdn.shopify.com/s/files/1/0405/4096/2971/products/TEMPUR-Millennium-Pillow-with-SmartCool-Technology.jpg?v=1655456891",
+  "buyUrl": "https://shop.tw.tempur.com/products/ergoplus-pillow-smartcool%E6%96%B0%E6%B0%B8%E6%81%86%E5%8D%83%E7%A6%A7%E6%84%9F%E6%BA%AB%E6%9E%95?variant=47934674501787",
+  "buyLabel": "TEMPUR 台灣官方商城（SmartCool SMALL）",
+  "specs": [
+    "類型：人體工學記憶泡棉完整成品枕",
+    "枕型／睡姿：前傾雙側翼人體工學枕，官方定位仰睡",
+    "表布材質：SmartCool涼感可拆洗布套；完整纖維比例未標示",
+    "填充／核心材質：TEMPUR丹普感溫材質；配方未標示",
+    "高度／軟硬度：SMALL；高度公分與量化硬度未標示",
+    "尺寸：查不到",
+    "重量：查不到",
+    "透氣／溫控：SmartCool Technology涼感布套，實際感受依環境及枕套而異",
+    "認證／產地：Oeko-Tex Standard 100布套、CE第一類醫療設備標誌；產地查不到",
+    "清潔保養：布套拆下、翻面並拉上拉鍊後於60°C以下水洗；核心清潔依原廠保養規範"
+  ],
+  "description": "0001209111固定為SMALL版本，保留永恆千禧前傾側翼枕型並加入SmartCool涼感布套。台灣官方有現貨SKU與三年保固，不能把其他高度、海外版本或舊款價格套用。",
+  "pros": [
+    "SmartCool涼感可拆洗布套",
+    "台灣官方三年保固",
+    "仰睡導向側翼支撐"
+  ],
+  "cons": [
+    "側翼枕型須先確認頸部角度",
+    "官方所選SKU尺寸與淨重查不到",
+    "高單價且拆封退換須先確認"
+  ],
+  "bestFor": "已實際試躺並確認SMALL支撐高度，偏好仰睡及涼感布套者。",
+  "recommendation": "作為同枕型舊款的SmartCool升級候選；先在門市試躺，確認頸部角度、床墊軟硬及枕高，不以價格或新字樣代替睡姿適配。",
+  "releaseDate": "找不到",
+  "historicalLow": {
+    "status": "not_found",
+    "amount": null,
+    "currency": "TWD",
+    "converted": null,
+    "sourceUrl": "",
+    "sourceTitle": "",
+    "evidenceSnippet": "",
+    "sourceKind": "not_found",
+    "confidence": "not_found",
+    "checkedAt": "2026-10-23",
+    "note": "已核台灣官方SMALL 0001209111現價8880；FindPrice完整SKU與飛比SmartCool比價未得可信歷史時間點，飛比6000為旋轉拍賣個人賣家且無台灣SKU，不採。官網劃線11100不當已成交史低。"
+  },
+  "issueResearch": {
+    "status": "no_common_issue",
+    "checkedAt": "2026-10-23",
+    "summary": "截至查核日，查無達門檻的集中負評／災情",
+    "issues": [],
+    "checkedSources": [
+      {
+        "platform": "PTT",
+        "targetHost": "ptt.cc",
+        "query": "site:ptt.cc \"0001209111\" 枕頭",
+        "queryUrl": "https://www.bing.com/search?q=site%3Aptt.cc%20%220001209111%22%20%E6%9E%95%E9%A0%AD"
+      },
+      {
+        "platform": "Mobile01",
+        "targetHost": "mobile01.com",
+        "query": "site:mobile01.com \"0001209111\" 枕頭",
+        "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%220001209111%22%20%E6%9E%95%E9%A0%AD"
+      }
+    ]
+  },
+  "voltage": "不需供電。",
+  "warranty": "TEMPUR 台灣官方商品頁明示3年保固；保留購買憑證，範圍依台灣官方產品保用條款。",
+  "tags": [
+    "仰睡",
+    "SmartCool",
+    "記憶泡棉",
+    "台灣官方",
+    "三年保固"
+  ]
+},
+{
+  "id": "pillow-tempur-symphony-smartcool-medium",
+  "category": "pillow",
+  "brand": "TEMPUR",
+  "model": "0000555473",
+  "name": "丹普新夢幻感溫枕 SmartCool MEDIUM 0000555473",
+  "type": "memory_foam",
+  "budget": "premium",
+  "channel": "tw",
+  "rank": 32,
+  "variantFamily": "tempur-symphony-smartcool",
+  "score": 87,
+  "topPick": false,
+  "installation": {
+    "status": "not_stated",
+    "note": "成人完整成品枕，無需到府安裝；拆封前確認所選SKU、枕高及寢具退換條件。"
+  },
+  "price": {
+    "currency": "TWD",
+    "amount": 11920,
+    "converted": 11920,
+    "basis": "retailer_current",
+    "confidence": "2026-10-23 TEMPUR台灣官方原頁及產品JSON核對0000555473 MEDIUM variant=42452300136603，公開價11920且available=true；非會員券價，其他尺寸不混用。"
+  },
+  "image": "https://cdn.shopify.com/s/files/1/0405/4096/2971/products/TEMPUR-Symphony-Pillow-with-SmartCool-Technology.jpg?v=1655461606",
+  "buyUrl": "https://shop.tw.tempur.com/products/symphony-pillow-with-smartcool-%E6%96%B0%E5%A4%A2%E5%B9%BB%E6%84%9F%E6%BA%AB%E6%9E%95?variant=42452300136603",
+  "buyLabel": "TEMPUR 台灣官方商城（SmartCool MEDIUM）",
+  "specs": [
+    "類型：人體工學記憶泡棉完整成品枕",
+    "枕型／睡姿：雙面人體工學枕，一面貼合側睡肩線、一面微拱承托仰睡頭頸",
+    "表布材質：SmartCool涼感可拆洗布套；完整纖維比例未標示",
+    "填充／核心材質：TEMPUR丹普感溫材質；配方未標示",
+    "高度／軟硬度：MEDIUM；高度公分與量化硬度未標示",
+    "尺寸：查不到",
+    "重量：查不到",
+    "透氣／溫控：SmartCool Technology涼感布套，實際感受依環境及枕套而異",
+    "認證／產地：Oeko-Tex Standard 100布套；產地查不到",
+    "清潔保養：布套拆下、翻面並拉上拉鍊後於60°C以下水洗；核心清潔依原廠保養規範"
+  ],
+  "description": "0000555473固定為MEDIUM版本，保留夢幻雙面枕型並加入SmartCool涼感布套。台灣官方有現貨SKU與三年保固，不能把其他高度、海外版本或舊款價格套用。",
+  "pros": [
+    "SmartCool涼感可拆洗布套",
+    "台灣官方三年保固",
+    "雙面分別適合仰睡與側睡"
+  ],
+  "cons": [
+    "雙面曲線及MEDIUM高度仍需實際試躺",
+    "官方所選SKU尺寸與淨重查不到",
+    "高單價且拆封退換須先確認"
+  ],
+  "bestFor": "已實際試躺並確認MEDIUM支撐高度，偏好仰睡／側睡及涼感布套者。",
+  "recommendation": "作為同枕型舊款的SmartCool升級候選；先在門市試躺，確認頸部角度、床墊軟硬及枕高，不以價格或新字樣代替睡姿適配。",
+  "releaseDate": "找不到",
+  "historicalLow": {
+    "status": "not_found",
+    "amount": null,
+    "currency": "TWD",
+    "converted": null,
+    "sourceUrl": "",
+    "sourceTitle": "",
+    "evidenceSnippet": "",
+    "sourceKind": "not_found",
+    "confidence": "not_found",
+    "checkedAt": "2026-10-23",
+    "note": "已核台灣官方MEDIUM 0000555473現價11920；完整SKU價格搜尋與FindPrice、飛比SmartCool比價未得同版本可信歷史時間點。日本代購、小號/大號與枕套頁不跨用；官網劃線14900不當已成交史低。"
+  },
+  "issueResearch": {
+    "status": "no_common_issue",
+    "checkedAt": "2026-10-23",
+    "summary": "截至查核日，查無達門檻的集中負評／災情",
+    "issues": [],
+    "checkedSources": [
+      {
+        "platform": "PTT",
+        "targetHost": "ptt.cc",
+        "query": "site:ptt.cc \"0000555473\" 枕頭",
+        "queryUrl": "https://www.bing.com/search?q=site%3Aptt.cc%20%220000555473%22%20%E6%9E%95%E9%A0%AD"
+      },
+      {
+        "platform": "Mobile01",
+        "targetHost": "mobile01.com",
+        "query": "site:mobile01.com \"0000555473\" 枕頭",
+        "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%220000555473%22%20%E6%9E%95%E9%A0%AD"
+      }
+    ]
+  },
+  "voltage": "不需供電。",
+  "warranty": "TEMPUR 台灣官方商品頁明示3年保固；保留購買憑證，範圍依台灣官方產品保用條款。",
+  "tags": [
+    "仰睡",
+    "側睡",
+    "SmartCool",
+    "記憶泡棉",
+    "台灣官方",
+    "三年保固"
+  ]
+});
+
   dashboard.registerProducts("pillow", products);
 })();

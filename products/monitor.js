@@ -6331,6 +6331,190 @@
         }
       ]
     }
+  },
+  {
+    "id": "monitor-benq-ma270s",
+    "category": "monitor",
+    "rank": 69,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "BenQ",
+    "model": "MA270S",
+    "name": "27 吋 5K NanoGloss Thunderbolt 4 Mac 螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 32888,
+      "converted": 32888,
+      "basis": "retailer_current",
+      "confidence": "2026-10-23 BenQ台灣官方商城exact MA270S現價，Chrome驗明NewCondition／InStock；不扣會員、贈品或回饋。"
+    },
+    "image": "https://image.benq.com/is/image/benqco/ma270s-gallery-1-3",
+    "buyUrl": "https://www.benq.com/zh-tw/monitor/home/ma270s/buy.html",
+    "buyLabel": "BenQ 台灣官方商城",
+    "installation": {
+      "status": "not_stated",
+      "note": "桌面腳架自行組裝；VESA支架、桌板承重及安裝服務另行確認。"
+    },
+    "specs": [
+      "27 吋 IPS，5120 x 2880 5K／70Hz／218 PPI",
+      "NanoGloss鏡面，99% P3／99% sRGB，450 nit，2000:1，HDR10／DisplayHDR 400",
+      "HDMI 2.1 x 2；Thunderbolt 4輸入96W、輸出15W菊鏈；USB-C上行35W",
+      "USB-A 3.2 Gen2 x 2／7.5W；USB-C下行15W；Smart KVM、PIP／PBP",
+      "Display Pilot 2／M-book模式／Mac亮度音量同步；使用前核對Mac、線材與軟體版本",
+      "3W x 2喇叭；升降150mm、俯仰-5°至20°、左右15°及垂直旋轉90°；VESA 100 x 100mm",
+      "尺寸：含腳架高 429.91–579.91 x 寬 614 x 深 220.2 mm；不含腳架高 368 x 寬 614 x 深 76 mm",
+      "重量：不含底座 5.7 kg；含底座 8.64 kg",
+      "電源：內建供電100–240V；典型29W／最大280W含USB供電；官方網頁未列頻率"
+    ],
+    "description": "MA系列升級至27吋5K與Thunderbolt 4，保留Mac色彩與控制整合；鏡面更通透，也更需要控制窗戶與燈光反射。",
+    "pros": [
+      "5K像素密度適合Mac文字與細節",
+      "TB4 96W與KVM整合多裝置",
+      "台灣官方商城可購，IPS面板與機身三年保固"
+    ],
+    "cons": [
+      "鏡面會反射環境光，HDR400不等同高階分區控光",
+      "個別原頁回報軟體亮度同步、休眠喚醒及暗角，尚未達集中問題門檻",
+      "高解析與高刷新需核對Mac機型、輸出規格及線材；VESA承重採不含底座重量"
+    ],
+    "bestFor": "Mac文字工作、設計與重視27吋5K細緻度的使用者。",
+    "recommendation": "5K Mac升級參考：先到店確認鏡面反射、縮放與亮度，再比較既有MA270U。",
+    "score": 87,
+    "voltage": "內建電源100–240V；官方網頁頻率未標示，接線依隨機台灣電源線與機背額定標示。",
+    "warranty": "BenQ台灣合法通路IPS機種：面板、機身三年保固；台灣本島保固內免費到府收送，亮暗點與耗材另依官方條款。",
+    "tags": [
+      "Mac",
+      "5K",
+      "Thunderbolt 4",
+      "鏡面",
+      "台灣公司貨"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-23",
+      "note": "已人工查FindPrice、飛比及台灣商城同型號價格；只有現價列表而無可重現台灣新品歷史最低時間軸。不採其他國家5K型號價格。不以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-23",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "\"MA270S\" site:mobile01.com 問題 故障",
+          "queryUrl": "https://www.google.com/search?q=%22MA270S%22%20site%3Amobile01.com%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"MA270S\" site:reddit.com problems issue",
+          "queryUrl": "https://www.google.com/search?q=%22MA270S%22%20site%3Areddit.com%20problems%20issue",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "monitor-benq-ma320ug",
+    "category": "monitor",
+    "rank": 70,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "BenQ",
+    "model": "MA320UG",
+    "name": "31.5 吋 4K 120Hz NanoGloss Thunderbolt 4 Mac 螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 29888,
+      "converted": 29888,
+      "basis": "retailer_current",
+      "confidence": "2026-10-23 BenQ台灣官方商城exact MA320UG現價，Chrome驗明NewCondition／InStock；不扣會員、贈品或回饋。"
+    },
+    "image": "https://image.benq.com/is/image/benqco/ma320ug-gallery-1-v2",
+    "buyUrl": "https://www.benq.com/zh-tw/monitor/home/ma320ug/buy.html",
+    "buyLabel": "BenQ 台灣官方商城",
+    "installation": {
+      "status": "not_stated",
+      "note": "桌面腳架自行組裝；VESA支架、桌板承重及安裝服務另行確認。"
+    },
+    "specs": [
+      "31.5 吋 IPS，3840 x 2160 4K／120Hz；FreeSync Premium",
+      "NanoGloss鏡面，98% P3／99% sRGB，450 nit，2000:1，HDR10／DisplayHDR 400",
+      "HDMI 2.1 x 2；Thunderbolt 4輸入96W、輸出15W菊鏈；USB-C上行35W",
+      "USB-A 3.2 Gen2 x 2／7.5W；USB-C下行15W；Smart KVM、PIP／PBP",
+      "Display Pilot 2／M-book模式／Mac亮度音量同步；使用前核對Mac、線材與軟體版本",
+      "3W x 2喇叭；升降150mm、俯仰-5°至20°、左右15°及垂直旋轉90°；VESA 100 x 100mm",
+      "尺寸：含腳架高 480.69–630.69 x 寬 714.7 x 深 229.7 mm；不含腳架高 424.7 x 寬 714.7 x 深 74 mm",
+      "重量：不含底座 6.71 kg；含底座 9.64 kg",
+      "電源：內建供電100–240V；典型29W／最大280W含USB供電；官方網頁未列頻率"
+    ],
+    "description": "MA系列新增4K 120Hz分支，適合兼顧Mac大畫面與流暢捲動；與27吋5K定位不同，應依桌深及字體縮放挑選。",
+    "pros": [
+      "4K 120Hz改善日常捲動與動態流暢度",
+      "TB4 96W與KVM整合多裝置",
+      "台灣官方商城可購，IPS面板與機身三年保固"
+    ],
+    "cons": [
+      "鏡面會反射環境光，HDR400不等同高階分區控光",
+      "個別原頁回報漏光或兩側暗帶，購後應檢查均勻度與退換貨條件",
+      "高解析與高刷新需核對Mac機型、輸出規格及線材；VESA承重採不含底座重量"
+    ],
+    "bestFor": "桌深足夠、偏好31.5吋4K與120Hz的Mac工作者。",
+    "recommendation": "4K高刷新Mac升級參考：120Hz與大畫面有價值時再升級，先檢查均勻度及裝置相容性。",
+    "score": 85,
+    "voltage": "內建電源100–240V；官方網頁頻率未標示，接線依隨機台灣電源線與機背額定標示。",
+    "warranty": "BenQ台灣合法通路IPS機種：面板、機身三年保固；台灣本島保固內免費到府收送，亮暗點與耗材另依官方條款。",
+    "tags": [
+      "Mac",
+      "4K 120Hz",
+      "Thunderbolt 4",
+      "鏡面",
+      "台灣公司貨"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-23",
+      "note": "已人工查FindPrice、飛比及台灣商城同型號價格；只有現價列表而無可重現台灣新品歷史最低時間軸。FindPrice索引Yahoo28394，Chrome原商品實際29888，故不採舊索引；1097元為防窺片配件。不以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-23",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "\"MA320UG\" site:mobile01.com 問題 故障",
+          "queryUrl": "https://www.google.com/search?q=%22MA320UG%22%20site%3Amobile01.com%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"MA320UG\" site:reddit.com problems issue",
+          "queryUrl": "https://www.google.com/search?q=%22MA320UG%22%20site%3Areddit.com%20problems%20issue",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
   }
 ]);
 })();

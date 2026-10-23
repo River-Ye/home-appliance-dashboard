@@ -1066,7 +1066,7 @@ async function assertProductTypeFilters(page, name, mobile = false) {
     await selectComboboxOption(page, "#categoryInput", '#categoryOptions [data-value="monitor"]', "電腦螢幕");
     if (new URL(page.url()).searchParams.has("type")) throw new Error(`${name}: ${category} type survived category switch`);
     await page.goto(`${fileUrl}?category=${category}&type=gas`, { waitUntil: "domcontentloaded" });
-    await waitForVisibleCount(page, 30);
+    await waitForVisibleCount(page, EXPECTED_CATEGORY_PRODUCT_COUNTS.get(category));
     if (new URL(page.url()).searchParams.has("type")) throw new Error(`${name}: ${category} invalid type survived`);
     const topPick = products.find((product) => product.topPick);
     if (!topPick) throw new Error(`${name}: ${category} Top Pick missing`);

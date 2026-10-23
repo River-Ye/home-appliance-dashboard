@@ -1,23 +1,23 @@
 const EXPECTED_CATEGORY_COUNT = 37;
-const EXPECTED_PRODUCT_COUNT = 1183;
+const EXPECTED_PRODUCT_COUNT = 1217;
 const MIN_PRODUCTS_PER_CATEGORY = 20;
 const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["tv", 42],
   ["soundbar", 38],
   ["fan", 21],
   ["circulator", 23],
-  ["dehumidifier", 28],
+  ["dehumidifier", 30],
   ["purifier", 29],
   ["aircon", 30],
-  ["robot", 45],
-  ["vacuum", 32],
+  ["robot", 50],
+  ["vacuum", 34],
   ["washer", 27],
-  ["dryer", 25],
-  ["washerdryer", 33],
+  ["dryer", 26],
+  ["washerdryer", 35],
   ["garmentcare", 21],
   ["bedsheet", 30],
   ["comforter", 30],
-  ["pillow", 30],
+  ["pillow", 32],
   ["refrigerator", 48],
   ["cookware", 28],
   ["knife", 23],
@@ -25,20 +25,20 @@ const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["coffee", 24],
   ["oven", 26],
   ["waterdispenser", 44],
-  ["dishwasher", 32],
-  ["waterheater", 45],
+  ["dishwasher", 34],
+  ["waterheater", 47],
   ["bidet", 22],
-  ["smartlock", 51],
+  ["smartlock", 53],
   ["wifi", 57],
   ["network-switch", 20],
   ["standingdesk", 27],
-  ["chair", 28],
-  ["monitor", 64],
+  ["chair", 30],
+  ["monitor", 66],
   ["monitor-light", 20],
   ["monitorarm", 25],
-  ["mouse", 30],
-  ["keyboard", 30],
-  ["mousepad", 30],
+  ["mouse", 34],
+  ["keyboard", 33],
+  ["mousepad", 33],
 ]);
 const DATE_PATTERN = /^(找不到|\d{4}(?:[-/.]\d{1,2}(?:[-/.]\d{1,2})?)?)$/;
 const WASHER_DRYER_CAPACITY_PATTERN = /^洗\/乾容量：\d+(?:\.\d+)?kg \/ \d+(?:\.\d+)?kg$/;
@@ -46,24 +46,24 @@ const DIMENSION_CATEGORY_COUNTS = new Map([
   ["tv", 42],
   ["soundbar", 38],
   ["washer", 27],
-  ["dryer", 25],
-  ["washerdryer", 33],
+  ["dryer", 26],
+  ["washerdryer", 35],
   ["garmentcare", 21],
   ["bedsheet", 30],
   ["comforter", 30],
-  ["pillow", 30],
+  ["pillow", 32],
   ["refrigerator", 48],
   ["coffee", 24],
   ["oven", 26],
-  ["dishwasher", 32],
+  ["dishwasher", 34],
   ["bidet", 22],
   ["aircon", 30],
-  ["waterheater", 45],
+  ["waterheater", 47],
   ["network-switch", 20],
   ["monitor-light", 20],
-  ["mouse", 30],
-  ["keyboard", 30],
-  ["mousepad", 30],
+  ["mouse", 34],
+  ["keyboard", 33],
+  ["mousepad", 33],
 ]);
 const DIMENSION_CATEGORIES = new Set(DIMENSION_CATEGORY_COUNTS.keys());
 const EXPECTED_DIMENSION_PRODUCT_COUNT = [...DIMENSION_CATEGORY_COUNTS.values()]
@@ -81,14 +81,14 @@ const WEIGHT_CATEGORY_COUNTS = new Map([
   ["coffee", 24],
   ["oven", 26],
   ["aircon", 30],
-  ["waterheater", 45],
+  ["waterheater", 47],
   ["monitor-light", 20],
-  ["mouse", 30],
-  ["keyboard", 30],
-  ["mousepad", 30],
+  ["mouse", 34],
+  ["keyboard", 33],
+  ["mousepad", 33],
   ["bedsheet", 30],
   ["comforter", 30],
-  ["pillow", 30],
+  ["pillow", 32],
 ]);
 const WEIGHT_CATEGORIES = new Set(WEIGHT_CATEGORY_COUNTS.keys());
 const EXPECTED_WEIGHT_PRODUCT_COUNT = [...WEIGHT_CATEGORY_COUNTS.values()]
@@ -101,7 +101,11 @@ const PERIPHERAL_TYPES = {
   keyboard: ["membrane", "scissor", "mechanical", "magnetic", "optical"],
   mousepad: ["cloth", "hard", "glass"],
 };
-const PERIPHERAL_BUDGET_COUNTS = new Map([["value", 6], ["mid", 12], ["premium", 12]]);
+const PERIPHERAL_BUDGET_COUNTS = {
+  mouse: new Map([["value", 6], ["mid", 13], ["premium", 15]]),
+  keyboard: new Map([["value", 6], ["mid", 12], ["premium", 15]]),
+  mousepad: new Map([["value", 6], ["mid", 12], ["premium", 15]]),
+};
 const PERIPHERAL_SPEC_PREFIXES = {
   mouse: ["類型：", "握型／慣用手：", "連線：", "感測器／解析度：", "回報率：", "按鍵／滾輪：", "供電／續航：", "系統／軟體：", "尺寸：", "重量：", "隨附配件："],
   keyboard: ["類型：", "配列：", "鍵帽語言／材質：", "軸體：", "熱插拔：", "連線：", "回報率：", "供電／續航：", "系統／軟體：", "尺寸：", "重量：", "隨附配件："],
@@ -122,7 +126,11 @@ const BEDDING_TYPES = {
   comforter: ["cotton", "down", "synthetic", "wool", "silk"],
   pillow: ["latex", "memory_foam", "down", "fiber", "hybrid"],
 };
-const BEDDING_BUDGET_COUNTS = new Map([["value", 6], ["mid", 12], ["premium", 12]]);
+const BEDDING_BUDGET_COUNTS = {
+  bedsheet: new Map([["value", 6], ["mid", 12], ["premium", 12]]),
+  comforter: new Map([["value", 6], ["mid", 12], ["premium", 12]]),
+  pillow: new Map([["value", 6], ["mid", 12], ["premium", 14]]),
+};
 const BEDDING_SPEC_PREFIXES = {
   bedsheet: ["類型：", "組合內容：", "材質：", "織法／支數：", "適用床墊：", "尺寸：", "可包覆高度：", "認證／產地：", "清潔保養：", "重量："],
   comforter: ["類型：", "組合內容：", "表布材質：", "填充材質：", "填充比例／蓬鬆度：", "適用季節／保暖性：", "尺寸：", "填充重量：", "重量：", "認證／產地：", "清潔保養："],
@@ -190,7 +198,7 @@ const AIRCON_CAPACITY_BAND_LIMITS = new Map([
   ["living_dining", { minExclusive: 10, maxInclusive: Number.POSITIVE_INFINITY }],
 ]);
 const WATERHEATER_TYPE_COUNTS = new Map([
-  ["gas", 15],
+  ["gas", 17],
   ["electric", 15],
   ["heat_pump", 15],
 ]);

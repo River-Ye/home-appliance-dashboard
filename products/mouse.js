@@ -3140,6 +3140,400 @@
         }
       ]
     }
+  },
+  {
+    "id": "mouse-logitech-g304-x-superlight",
+    "category": "mouse",
+    "brand": "Logitech",
+    "model": "G304 X SUPERLIGHT",
+    "name": "G304 X SUPERLIGHT 黑色 910-007742 充電式雙模電競滑鼠",
+    "type": "standard",
+    "rank": 31,
+    "score": 89,
+    "budget": "mid",
+    "channel": "tw",
+    "price": {
+      "currency": "TWD",
+      "amount": 2490,
+      "converted": 2490,
+      "basis": "retailer_current",
+      "confidence": "2026-10-23：台灣羅技官店黑色910-007742原生variant現價2490；產品JSON available=true，非中國較早G304 X LIGHTSPEED。"
+    },
+    "image": "https://store.logitech.tw/cdn/shop/files/High_Resolution_PNG-G304_X_PLUS_Black_TOP_DOWN.png?v=1781171820",
+    "buyUrl": "https://store.logitech.tw/products/g304x-superlight?variant=45152974733335",
+    "buyLabel": "羅技 Logi 台灣網路旗艦店（黑色）",
+    "installation": {
+      "status": "not_stated",
+      "note": "滑鼠自行配對與軟體設定；無到府施工。"
+    },
+    "specs": [
+      "類型：標準型無線電競滑鼠，G304 X SUPERLIGHT 黑色910-007742；非中國較早G304 X LIGHTSPEED",
+      "握型／慣用手：經典蛋型低平對稱外形；側鍵配置與慣用手應先試握",
+      "連線：LIGHTSPEED USB接收器、Bluetooth；USB-C連接線隨附",
+      "感測器／解析度：HERO 44K，最高44000 DPI；官方列超過678 IPS／40G",
+      "回報率：官方規格列USB／無線最高1000Hz；不由其他地區選購接收器推定隨盒8K",
+      "按鍵／滾輪：6個按鈕、滾輪、5組板載設定檔與LIGHTSYNC RGB",
+      "供電／續航：內建充電電池、USB-C充電；最長130小時，依設定與使用而異；額定V/A未標示",
+      "系統／軟體：具USB-A的PC／Mac或支援Bluetooth的裝置；進階設定使用G HUB",
+      "尺寸：高 38.2 x 寬 63.9 x 深 117.3 mm",
+      "重量：59 g",
+      "隨附配件：滑鼠、無線USB接收器、USB-A轉USB-C線、使用說明書"
+    ],
+    "description": "G304經典蛋型的新世代充電款，減至59g並加入藍牙及44K感測器。與名稱相近、較早在中國推出的G304 X LIGHTSPEED規格不同，購買應核對SUPERLIGHT及910-007742。",
+    "pros": [
+      "59g與內建充電電池降低舊G304電池負擔",
+      "LIGHTSPEED與藍牙兼顧遊戲及日常",
+      "台灣官店可購並有2年有限硬體保固"
+    ],
+    "cons": [
+      "隨盒規格以1000Hz為準",
+      "仍需先試握蛋型及側鍵位置",
+      "新款同名版本多，不能沿用舊G304或中國G304 X評價"
+    ],
+    "bestFor": "喜歡舊G304外形，想改用充電、輕量與藍牙的玩家。",
+    "recommendation": "G304世代升級候選；先比握感、重量與充電需求，再決定是否值得由舊款換代。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-23",
+      "note": "已查台灣官店同SKU、PChome新品頁及FindPrice exact SUPERLIGHT比價；目前價格與索引中的其他店價不含完整可驗證歷史時間軸，未採舊G304／中國G304 X或白色價，不能把2490現價當史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-23",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"G304 X SUPERLIGHT\" (problem OR issue OR failure)",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22G304%20X%20SUPERLIGHT%22%20%28problem%20OR%20issue%20OR%20failure%29"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"G304 X SUPERLIGHT\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22G304%20X%20SUPERLIGHT%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+        }
+      ]
+    },
+    "voltage": "內建充電電池，USB-C充電；官方未列額定電壓電流，不由接口推定任意充電器相容。",
+    "warranty": "台灣官方規格列2年有限硬體保固；依購買憑證與羅技台灣售後條款。",
+    "tags": [
+      "電競",
+      "G304新世代",
+      "59g",
+      "藍牙",
+      "台灣公司貨"
+    ]
+  },
+  {
+    "id": "mouse-logitech-pro-x3-superstrike",
+    "category": "mouse",
+    "brand": "Logitech",
+    "model": "PRO X3 SUPERSTRIKE",
+    "name": "PRO X3 SUPERSTRIKE 黑色 910-007881 無線類比電競滑鼠",
+    "type": "standard",
+    "rank": 32,
+    "score": 88,
+    "budget": "premium",
+    "channel": "tw",
+    "price": {
+      "currency": "TWD",
+      "amount": 6390,
+      "converted": 6390,
+      "basis": "retailer_current",
+      "confidence": "2026-10-23：台灣官方旗艦店910-007881黑色6390，原生variant available=true；非X2或桃紅色。"
+    },
+    "image": "https://cdn.shopify.com/s/files/1/0568/7787/5223/files/High_Resolution_PNG-PRO_X3_Superstrike_Black_3QTR_L_WH_1500x1500px_1.jpg?v=1789980952",
+    "buyUrl": "https://store.logitech.tw/products/pro-x3-superstrike?variant=45533947297815",
+    "buyLabel": "羅技 Logi 台灣網路旗艦店（黑色）",
+    "installation": {
+      "status": "not_stated",
+      "note": "自行配對、連線並按需求安裝G HUB；POWERPLAY另購。"
+    },
+    "specs": [
+      "類型：標準型PRO系列無線類比電競滑鼠，黑色910-007881",
+      "握型／慣用手：對稱本體配左側拇指鍵，偏右手使用；先確認握型及觸覺回饋偏好",
+      "連線：LIGHTSPEED無線USB接收器、USB有線資料；USB-C充電，不含Bluetooth",
+      "感測器／解析度：HERO 2，100–48000 DPI；官方G640條件超過930 IPS／90G",
+      "回報率：LIGHTSPEED及有線最高8000Hz；進階設定需G HUB",
+      "按鍵／滾輪：5鍵；HITS電感觸發、可調觸發／重置／觸覺回饋，不是傳統主鍵微動",
+      "供電／續航：內建充電電池、USB-C或另購POWERPLAY；技術表列130小時、行銷頁135小時，條件未統一，以較保守130小時參考",
+      "系統／軟體：Windows或macOS、USB2.0以上連接埠；G HUB設定進階功能",
+      "尺寸：高 125 x 寬 63.5 x 深 40 mm",
+      "重量：59 g",
+      "隨附配件：LIGHTSPEED接收器、USB-A轉USB-C充電資料線、延長轉接器、POWERPLAY底蓋、握貼、清潔布與文件"
+    ],
+    "description": "2026 PRO系列新款，以HITS可調觸發與觸覺回饋、59g及有線／無線8K為重點。新技術不直接等於更適合每個人；目前已有靜置耗電與接收器更新的個別使用者候選。",
+    "pros": [
+      "HITS可分別調整觸發、重置與回饋",
+      "59g、8K有線／無線",
+      "台灣官店公開價及2年有限硬體保固"
+    ],
+    "cons": [
+      "6390屬高價，手感需先試",
+      "官方130與135小時文案有差異，實際依設定",
+      "已見睡眠／耗電和接收器更新候選，跨站六人門檻未成立"
+    ],
+    "bestFor": "明確需要HITS按鍵調整與8K競技輸入，願意管理韌體及G HUB的玩家。",
+    "recommendation": "PRO系列新世代參考；先試主鍵觸覺與側鍵，購後確認接收器更新和靜置耗電，無需HITS可繼續比較既有SUPERLIGHT 2。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-23",
+      "note": "已讀台灣官店同910-007881與exact-model歷史最低價／價格搜尋；海外199.99美元及跨商品組合25%優惠不是台灣同SKU公開史低，6390現價不推定最低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-23",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"PRO X3 SUPERSTRIKE\" (problem OR issue OR failure)",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22PRO%20X3%20SUPERSTRIKE%22%20%28problem%20OR%20issue%20OR%20failure%29"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"PRO X3 SUPERSTRIKE\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22PRO%20X3%20SUPERSTRIKE%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+        }
+      ]
+    },
+    "voltage": "內建可充電電池、USB-C；另購POWERPLAY可無線充電。所查台灣技術表未列V/A。",
+    "warranty": "台灣官方規格列2年有限硬體保固；依有效購買憑證與台灣原廠條款。",
+    "tags": [
+      "電競",
+      "PRO新世代",
+      "HITS",
+      "59g",
+      "8000Hz",
+      "台灣公司貨"
+    ]
+  },
+  {
+    "id": "mouse-razer-viper-v4-pro",
+    "category": "mouse",
+    "brand": "Razer",
+    "model": "RZ01-05630100-R3A1",
+    "name": "Viper V4 Pro 黑色 50K 超輕量無線電競滑鼠",
+    "type": "standard",
+    "rank": 33,
+    "score": 90,
+    "budget": "premium",
+    "channel": "tw",
+    "price": {
+      "currency": "TWD",
+      "amount": 4990,
+      "converted": 4990,
+      "basis": "retailer_current",
+      "confidence": "2026-10-23 web原頁：Razer台灣官方商店黑色exact RZ01-05630100-R3A1，產品價格4990，可加入購物車及寄台灣；非會員券或組合包。"
+    },
+    "image": "https://medias-p1.phoenix.razer.com/sys-master-phoenix-images-container/h7a/h5c/10038664921118/260324-viper-v4-pro-black-1500x1000-1.jpg",
+    "buyUrl": "https://www.razer.com/tw-zh/gaming-mice/razer-viper-v4-pro/RZ01-05630100-R3A1",
+    "buyLabel": "Razer 台灣官方商店（黑色）",
+    "installation": {
+      "status": "not_stated",
+      "note": "自行USB連接與無線配對；需保留接收器空間、更新韌體，無到府施工。"
+    },
+    "specs": [
+      "類型：標準型無線對稱電競滑鼠，黑色RZ01-05630100-R3A1；不是白色或V3 Pro SE",
+      "握型／慣用手：右手對稱外形，原廠以抓握／指握為主；不因左右外形對稱推定左手側鍵相容",
+      "連線：HyperSpeed Wireless Gen-2無線、USB有線；無Bluetooth",
+      "感測器／解析度：Focus Pro 50K Gen-3光學，最高50000DPI、930IPS、90G與Frame Sync",
+      "回報率：有線與無線皆最高8000Hz；高輪詢率提高主機負載並縮短續航",
+      "按鍵／滾輪：6個可程式化按鈕、Gen-4光學主鍵、24段光學滾輪，無傾斜飛梭",
+      "供電／續航：內建電池、USB-C充電；1000Hz最長180小時、8000Hz最長45小時；額定V/A未標示",
+      "系統／軟體：USB基本操作免驅動；Razer Synapse／Synapse Web進階設定，1組板載設定檔；完整系統版本依原廠支援",
+      "尺寸：長 127.1 x 寬 63.9 x 高 39.9 mm",
+      "重量：約 49 g",
+      "隨附配件：Gen-2無線接收器、USB-A轉USB-C線、止滑貼、說明文件；無額外充電底座"
+    ],
+    "description": "Viper V3 Pro的官方後繼款，黑色約49g、50K感測器與第二代無線平台，續航和光學滾輪是主要升級。保留仍在售的V3作價格與握感比較；不要把8000Hz當任何電腦都必須啟用。",
+    "pros": [
+      "較V3 Pro輕量，黑色約49g",
+      "有線／無線8K與180h的1k續航規格",
+      "台灣官方可購、2年保固及完整原廠尺寸重量"
+    ],
+    "cons": [
+      "無藍牙、多裝置辦公及飛梭滾輪",
+      "8K續航降至最長45小時",
+      "已見125Hz斷連、電量顯示與特定鼠墊追蹤個案，需更新韌體並驗收"
+    ],
+    "bestFor": "偏抓握／指握、希望從Viper舊代升級更輕本體與續航的FPS玩家。",
+    "recommendation": "Viper新世代參考；先試握並核對黑色SKU。購後測原配鼠腳、慣用鼠墊及常用輪詢率，無線異常先依原廠支援更新與配對。",
+    "releaseDate": "2026-03-24",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-23",
+      "note": "已讀Razer台灣4990、PChome同系列4990、FindPrice與飛比比價。較低價候選混白色、酷澎新客與非時間序列現價，沒有可驗證的黑色RZ01-05630100-R3A1公開歷史最低紀錄，故不採。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-23",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"Viper V4 Pro\" \"RZ01-05630100-R3A1\" (problem OR issue OR failure)",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Viper%20V4%20Pro%22%20%22RZ01-05630100-R3A1%22%20%28problem%20OR%20issue%20OR%20failure%29"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"Viper V4 Pro\" \"RZ01-05630100-R3A1\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Viper%20V4%20Pro%22%20%22RZ01-05630100-R3A1%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+        },
+        {
+          "platform": "Razer Insider",
+          "targetHost": "insider.razer.com",
+          "query": "site:insider.razer.com \"Viper V4 Pro\" \"RZ01-05630100-R3A1\" (problem OR issue OR failure)",
+          "queryUrl": "https://www.google.com/search?q=site%3Ainsider.razer.com%20%22Viper%20V4%20Pro%22%20%22RZ01-05630100-R3A1%22%20%28problem%20OR%20issue%20OR%20failure%29"
+        }
+      ]
+    },
+    "voltage": "內建可充電電池，USB-A轉USB-C線充電；所查原廠技術表未列額定V/A。",
+    "warranty": "Razer台灣官方產品頁列2年保固；由台灣官方商店購買並依Razer有限保固條款申請。",
+    "tags": [
+      "電競",
+      "Viper新世代",
+      "49g",
+      "8000Hz",
+      "台灣官方通路"
+    ]
+  },
+{
+  "id": "mouse-razer-basilisk-v4-pro",
+  "category": "mouse",
+  "brand": "Razer",
+  "model": "RZ01-05670100-R3A1",
+  "name": "Basilisk V4 Pro 黑色 50K 三模多功能電競滑鼠",
+  "type": "standard",
+  "rank": 34,
+  "budget": "premium",
+  "channel": "tw",
+  "score": 74,
+  "price": {
+    "currency": "TWD",
+    "amount": 5980,
+    "converted": 5980,
+    "basis": "retailer_current",
+    "confidence": "2026-10-23 Chrome實頁：黑色exact RZ01-05670100-R3A1主商品5980、可加入購物車，1間RazerStore有庫存，可配送台灣。"
+  },
+  "image": "https://medias-p1.phoenix.razer.com/sys-master-phoenix-images-container/hd0/hb2/10458042105886/basilisk-v4-pro-black-500x500.png",
+  "buyUrl": "https://www.razer.com/tw-zh/gaming-mice/razer-basilisk-v4-pro/RZ01-05670100-R3A1",
+  "buyLabel": "Razer 台灣官方商店（黑色）",
+  "installation": {
+    "status": "not_stated",
+    "note": "自行USB連接與無線配對；更新Synapse／韌體並驗收追蹤，無到府施工。"
+  },
+  "specs": [
+    "類型：標準型人體工學多功能電競滑鼠，黑色RZ01-05670100-R3A1",
+    "握型／慣用手：右手專用、拇指托與左側按鍵；先試握127.5mm本體與側鍵位置",
+    "連線：HyperSpeed Wireless Gen-2、Bluetooth 6.2最多3裝置及USB有線；五路多裝置切換",
+    "感測器／解析度：Focus Pro 50K Optical Sensor Gen-3，最高50000DPI、930IPS、90G及Frame Sync",
+    "回報率：有線與無線最高8000Hz；不以高輪詢率保證各主機或遊戲的實際延遲",
+    "按鍵／滾輪：台灣exact規格列12個按鍵，新聞以14種可自訂控制計數；Gen-4光學主鍵、5組板載設定檔；HyperScroll Tilt Wheel Gen-2具24／48段、自由捲與Smart-Reel",
+    "供電／續航：內建充電電池、USB-C充電；最長200h@1k、54h@8k或275h藍牙；RGB及設定會影響續航",
+    "系統／軟體：USB基本操作，進階控制使用Razer Synapse；Synapse Web相容性所查exact頁未確認",
+    "尺寸：長 127.5 x 寬 75.8 x 高 42.7 mm",
+    "重量：100 g",
+    "隨附配件：HyperSpeed Gen-2 mini dongle、USB轉接器、USB-A轉USB-C線、產品資訊指南；Mouse Dock與HyperFlux另購"
+  ],
+  "description": "Basilisk V3 Pro後的新一代右手多功能滑鼠，保留拇指托並增加50K、第二代飛梭與無線平台。剛上市已有兩站多位追蹤凍結候選，故列新款參考，建議先確認韌體與退換貨條件。",
+  "pros": [
+    "三模與最多3台藍牙裝置兼顧多機工作",
+    "24／48段與自由捲適合長頁及遊戲操作",
+    "台灣官方可購，2年原廠有限保固"
+  ],
+  "cons": [
+    "已讀兩站游標凍結／底座與高輪詢率候選，尚缺黑色full-SKU一致性及完整去重證明",
+    "100g仍偏重，FPS輕量需求應先試握",
+    "充電底座另購；新聞14控制與exact表12鍵為不同計數口徑"
+  ],
+  "bestFor": "需要右手拇指托、飛梭、多鍵與藍牙，且願意先驗收新品韌體的使用者。",
+  "recommendation": "Basilisk新款參考；對追蹤穩定性敏感者宜等候原廠進一步韌體資訊，購後測原配接收器及慣用輪詢率，不因新品就取代較便宜的V3。",
+  "releaseDate": "2026-10-08",
+  "historicalLow": {
+    "status": "not_found",
+    "amount": null,
+    "currency": "TWD",
+    "converted": null,
+    "sourceUrl": "",
+    "sourceTitle": "",
+    "evidenceSnippet": "",
+    "sourceKind": "not_found",
+    "confidence": "not_found",
+    "checkedAt": "2026-10-23",
+    "note": "已讀Razer台灣exact黑色5980、PCParty同SKU新品5980及FindPrice v4雷蛇pro比價；都為當前價格／短期新品資訊，沒有可驗證同黑色SKU的歷史時間序列，不把現價當史低。"
+  },
+  "voltage": "內建充電電池、USB-C；所查原廠技術表未列額定V/A。",
+  "warranty": "Razer官方滑鼠2年有限保固；由台灣RazerStore購買並依原廠RMA及購買憑證辦理。",
+  "tags": [
+    "電競",
+    "Basilisk新世代",
+    "藍牙",
+    "飛梭滾輪",
+    "追蹤風險待觀察",
+    "台灣官方通路"
+  ],
+  "issueResearch": {
+    "status": "no_common_issue",
+    "checkedAt": "2026-10-23",
+    "summary": "截至查核日，查無達門檻的集中負評／災情",
+    "issues": [],
+    "checkedSources": [
+      {
+        "platform": "Reddit",
+        "targetHost": "reddit.com",
+        "query": "site:reddit.com \"RZ01-05670100-R3A1\" (problem OR issue OR failure OR 問題 OR 故障)",
+        "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22RZ01-05670100-R3A1%22%20%28problem%20OR%20issue%20OR%20failure%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%29"
+      },
+      {
+        "platform": "Mobile01",
+        "targetHost": "mobile01.com",
+        "query": "site:mobile01.com \"RZ01-05670100-R3A1\" (problem OR issue OR failure OR 問題 OR 故障)",
+        "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22RZ01-05670100-R3A1%22%20%28problem%20OR%20issue%20OR%20failure%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%29"
+      },
+      {
+        "platform": "Razer Insider",
+        "targetHost": "insider.razer.com",
+        "query": "site:insider.razer.com \"RZ01-05670100-R3A1\" (problem OR issue OR failure OR 問題 OR 故障)",
+        "queryUrl": "https://www.google.com/search?q=site%3Ainsider.razer.com%20%22RZ01-05670100-R3A1%22%20%28problem%20OR%20issue%20OR%20failure%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%29"
+      }
+    ]
   }
+}
 ]);
 })();

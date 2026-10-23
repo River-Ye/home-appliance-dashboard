@@ -8,6 +8,8 @@ Use this reference for recurring catalog work: new products, price/link/image up
 - Treat `assets/js/config.js` `meta` and `tools/dashboard-contract.js` as the code-side source for product/category counts and dates.
 - Keep every category at 20+ products, preserve required brand/category coverage, and update research JSON files whenever evidence-backed fields change.
 - On every full catalog review, map each existing exact model or family to the brand's current Taiwan lineup and look for a direct successor. Add an eligible successor without removing the old model. `covered_existing` proves brand coverage only; it never proves that the generation check is complete. Record the per-category successor decision or concrete rejection reason in `categoryScan`, including when nothing is added.
+- Original fixed rosters and quotas may expand when the user explicitly requests eligible successor additions. Preserve eligible current old models and update the exact category/type/budget counts in `tools/dashboard-contract.js`, config, evidence, and documentation. Keep strict exact-count checks and all power, variant, historical-low, and manual cross-site issue-evidence gates; do not replace quotas with minimums or delete current models to recover original counts.
+- Current peripheral totals are mouse 34 (value/mid/premium 6/13/15), keyboard 33 (6/12/15), and mousepad 33 (6/12/15), enforced through category totals and `PERIPHERAL_BUDGET_COUNTS`. Their original 30 and 6/12/12 rosters remain historical baselines.
 - Start a new data date with `npm run maintain:catalog -- --draft --date=YYYY-MM-DD --baseline-ref=origin/main`. Review `.maintenance-draft.json`, record every category as `manually_reviewed`, then rerun with `--write`; the daily workflow uploads a draft instead of failing or mutating data when same-date decisions do not yet exist.
 
 ## Price, Link, And Image Audits
@@ -49,7 +51,7 @@ https://ecapi-cdn.pchome.com.tw/ecshop/prodapi/v2/prod?id=<PID>&fields=Id,Name,N
 ## Air Conditioner And Water Heater Scope
 
 - `aircon` stays at exactly 30 complete Taiwan residential one-to-one split indoor/outdoor pairs. Exclude window, portable, multi-split, commercial, and single-component listings. Keep at least 12 `cooling_only`, at least 12 `heat_cool`, and at least 6 products in each official-upper-bound band: ≤5, >5–7, >7–10, and >10 ping.
-- `waterheater` stays at exactly 45: 15 gas, 15 electric, and 15 heat-pump products. Electric is exactly 8 storage plus 7 instant. Record gas type/installation/exhaust, electric circuit and safety conditions, and complete heat-pump unit/tank pairs and prices.
+- `waterheater` currently contains exactly 47: 17 gas, 15 electric, and 15 heat-pump products, reflecting the explicitly requested eligible successor additions. Electric is exactly 8 storage plus 7 instant. Record gas type/installation/exhaust, electric circuit and safety conditions, and complete heat-pump unit/tank pairs and prices.
 - Both categories require public numeric Taiwan prices, Taiwan warranty, voltage/frequency, installation boundaries, exact model identity, ordered component dimensions, and net weight or an evidence-backed `查不到`. Never use quote-only status, packaging dimensions, gross weight, guessed dimension order, or incomplete-system prices.
 
 ## Network Switch Scope
@@ -78,7 +80,7 @@ https://ecapi-cdn.pchome.com.tw/ecshop/prodapi/v2/prod?id=<PID>&fields=Id,Name,N
 
 ## Bedding Scope
 
-- `bedsheet`, `comforter`, and `pillow` each contain exactly 30 products with value/mid/premium counts 6/12/12, all in the 臥室寢具 group after 洗衣家務. Keep one Taiwan Top Pick in each category and scenario tags for cooling/skin comfort, four-season/winter warmth, and back/side sleeping.
+- `bedsheet` and `comforter` currently contain exactly 30 products each at value/mid/premium 6/12/12; `pillow` has exactly 32 at 6/12/14. Keep their exact category totals and `BEDDING_BUDGET_COUNTS` synchronized when explicitly requested eligible successors extend the original 30-product rosters. All three belong in the 臥室寢具 group after 洗衣家務. Keep one Taiwan Top Pick in each category and scenario tags for cooling/skin comfort, four-season/winter warmth, and back/side sleeping.
 - Bedsheets cover cotton, lyocell, linen, synthetic, and other natural fibers; allow a fitted sheet alone or a fitted-sheet-plus-pillowcase set, but exclude duvet-cover sets. Comforters cover cotton, down, synthetic, wool, and silk finished inserts/products, excluding covers, blankets, electric blankets, and cooling throws. Pillows cover latex, memory foam, down/feather, fiber, and hybrid adult sleep pillows, excluding cushions, bolsters, travel/infant pillows, cases, and replacement fill.
 - Require `variantFamily` and at most three independently verified variants per family. Bedsheet/comforter variants require distinct official size SKUs; pillow variants require distinct official height/firmness SKUs. Colors, patterns, pack counts, gifts, and bundles alone do not create variants. Keep exact-variant buy URLs and independent price, image, release, historical-low, dimension/weight, and issue evidence.
 

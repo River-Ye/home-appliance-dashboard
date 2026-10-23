@@ -15,8 +15,8 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/AC7DC27581-SP-22704432.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 9143,
-      "converted": 9143,
+      "amount": 9351,
+      "converted": 9351,
       "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
@@ -2536,6 +2536,100 @@
           "targetHost": "dcard.tw",
           "query": "site:dcard.tw \"NH-V150SP\" 問題",
           "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22NH-V150SP%22%20%E5%95%8F%E9%A1%8C"
+        }
+      ]
+    }
+  },
+  {
+    "id": "dryer-sampo-sd-10dh",
+    "category": "dryer",
+    "rank": 26,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "SAMPO",
+    "model": "SD-10DH",
+    "name": "SAMPO SD-10DH 10kg 變頻熱泵除濕式乾衣機",
+    "price": {
+      "currency": "TWD",
+      "amount": 25900,
+      "converted": 25900,
+      "basis": "retailer_current",
+      "confidence": "2026-10-23實讀聲寶官方商城本型號公開25900元，品牌產品頁建議27900元；未扣會員券、紅利或商品卡。"
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "官方商城商品名稱明示送基本安裝、原廠直送；新增接地/迴路、偏遠/樓層及堆疊層架費未明示包含，需另向通路確認。"
+    },
+    "image": "https://www.sampo.com.tw/upload/product/38_638971741790106259.png",
+    "buyUrl": "https://www.sampostore.com.tw/SalePage/Index/11231834",
+    "buyLabel": "聲寶官方商城",
+    "specs": [
+      "類型：10kg獨立熱泵除濕式乾衣機，不含洗衣功能",
+      "變頻馬達、平面觸控式面板、內桶LED照明",
+      "9項一般行程與6項護理行程；除螨、防皺與衣物清新",
+      "水箱滿水與過濾網清潔提醒、烘乾度選擇",
+      "官方行程表：標準10kg預設2小時15分，實際依衣物/脫水與環境改變",
+      "尺寸：寬 59.8 x 深 65.2 x 高 84.5 cm",
+      "重量：45 kg",
+      "電壓／頻率：110V／60Hz；800W、滿載電流7.3A",
+      "官方說明書要求15A以上專用插座、接地；不可接220V或與大功率電器共用插座",
+      "需定期清潔棉絮濾網，預留開門、通風及水箱抽取空間；堆疊需核對專用層架與承重"
+    ],
+    "description": "聲寶目前乾衣機目錄除既有7kg電熱SD-7B/SD-7C，另有SD-10DH的10kg變頻熱泵路線，補上容量與低溫循環烘乾選擇。官方規格圖與說明書確認65.2cm機深；部分通路寫62.5cm不採用。",
+    "pros": [
+      "10kg熱泵除濕烘乾，容量高於既有7kg電熱款",
+      "110V／60Hz，官方明列800W，無需套用海外電力規格",
+      "台灣聲寶官方商城與在地售後管道，含基本安裝"
+    ],
+    "cons": [
+      "45kg且機深65.2cm，需核對搬運路徑與開門空間",
+      "標準10kg預設2小時15分，不能把小量快烘時間當滿載速度",
+      "水箱和濾網需日常清理，專用插座與接地仍要現場確認",
+      "官方商城本頁未列保固年數，應以隨貨保證書確認各零組件範圍"
+    ],
+    "bestFor": "希望保留原洗衣機、增加10kg熱泵烘乾，並有適合110V專用插座與機身深度的家庭。",
+    "recommendation": "熱泵新版支線參考：補足聲寶既有7kg電熱款之外的容量和烘乾方式選擇；舊款未見官方停產文字，仍保留比較。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-23",
+      "note": "實讀FindPrice SD-10DH與LBJ聲寶免曬衣查詢；534元為48期月繳、2990元為堆疊層架，現價23310/24087/25900及會員券/商品卡沒有可重現日期的歷史最低點，故不以現價或折價標示當史低。"
+    },
+    "score": 85,
+    "voltage": "官方exact-model規格圖及說明書：110V／60Hz、800W、7.3A；15A以上專用插座並接地，不可接220V。",
+    "warranty": "台灣聲寶官方商城售後與0800-00-5438原廠服務；本頁未列保固年數，依隨貨保證書確認，未把其他通路1年/主要零件3年直接轉為商城承諾。",
+    "tags": [
+      "10kg",
+      "變頻熱泵",
+      "110V 60Hz",
+      "台灣官方商城",
+      "基本安裝"
+    ],
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-23",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "\"SD-10DH\" site:mobile01.com (心得 OR 故障 OR 問題)",
+          "queryUrl": "https://www.google.com/search?q=%22SD-10DH%22%20site%3Amobile01.com%20(%E5%BF%83%E5%BE%97%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%95%8F%E9%A1%8C)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "\"SD-10DH\" site:ptt.cc (心得 OR 故障 OR 問題)",
+          "queryUrl": "https://www.google.com/search?q=%22SD-10DH%22%20site%3Aptt.cc%20(%E5%BF%83%E5%BE%97%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%95%8F%E9%A1%8C)",
+          "targetHost": "ptt.cc"
         }
       ]
     }

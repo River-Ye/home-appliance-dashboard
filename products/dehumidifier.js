@@ -2732,5 +2732,200 @@
       ]
     }
   }
+,{
+  "id": "dehumidifier-sharp-dw-ux19ht-c",
+  "category": "dehumidifier",
+  "rank": 29,
+  "budget": "premium",
+  "channel": "tw",
+  "brand": "SHARP",
+  "model": "DW-UX19HT-C",
+  "name": "乾淨方PRO+ 19L 雙氣流AIoT雙變頻除濕機（奶茶棕）",
+  "price": {
+    "currency": "TWD",
+    "amount": 18900,
+    "converted": 18900,
+    "basis": "retailer_current",
+    "confidence": "2026-10-23：Chrome台灣原頁及JSON-LD主商品同為18900／InStock／NewCondition，可加入購物車與立即購買；API非JSON故未採，未扣另外申請之貨物稅1200與回饋。"
+  },
+  "installation": {
+    "status": "not_stated",
+    "note": "台灣110V插電落地機，自行定位；應保留進出風與搬運空間，連續排水需外接排水管及適當落差，通路未明示施工包含。"
+  },
+  "image": "https://tw.sharp/sites/default/files/styles/resize_640x640/public/2026-10/DW-UX19HT-C.png?itok=fqdWFK1n",
+  "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ08-A900KFFAP",
+  "buyLabel": "PChome（奶茶棕）",
+  "specs": [
+    "類型：乾淨方PRO+雙變頻壓縮機＋變頻風扇馬達，DW-UX19HT-C 奶茶棕",
+    "除濕能力：19L／日（室溫27°C、相對濕度60%）；官方約24坪為測試參考，實際依濕度、格局與滲水調整",
+    "能源效率：官方符合2026一級，能源因數3.05L/kWh、年耗電140kWh；保留原廠測試條件邊界",
+    "電源／功率：110V／60Hz；官方HTML額定259W，電源線約1.8m",
+    "水箱／排水：5.8L、1-2 Tank快取水箱與提把；水滿保護、止水閥、側面外接連續排水",
+    "控濕／連網：40–70%RH每5%一段、AI控濕／個人化行程與COCORO HOME APP遠端設定；24小時定時開關由APP操作",
+    "送風／衣物：雙層導風板，上／正上／廣角／下烘，衣物乾燥與衣物脫臭模式",
+    "空氣淨化：Plasmacluster25000離子；衣物脫臭模式釋放PCI，不當作有HEPA濾網的獨立清淨機",
+    "運轉聲音：官方弱風模式35dB，非全模式最大噪音或臥室無聲保證",
+    "安全／維護：12小時自動關機、兒童鎖、斷電復歸、自動除霜、內部乾燥與機體防黴；濾網與水箱需定期清潔",
+    "本體尺寸：查不到（官方表列37.4×69.3×31.5cm，未明示軸序，不自行分配寬深高）",
+    "重量：本體18.0kg；四輪360度萬向輪，一體式拉把與左右隱藏提把",
+    "耗材／配件：離子元件IZ-C90ME，官方最長19000小時，實際依環境；替換濾網、排水管供應與是否隨附購前確認"
+  ],
+  "description": "UX家族為官方2026新款PRO+，在既有UW PRO雙氣流基礎補入AI連網控濕與個人化行程。此筆選定19L 奶茶棕完整台灣型號，保留舊UW，不把相同容量或Pro名稱視為全方位效率升級。",
+  "pros": [
+    "AI連網控濕與APP定時，方便外出前調整",
+    "5.8L快取水箱、萬向輪與下烘送風",
+    "台灣110V／60Hz與本體3年、壓縮機5年基本保固"
+  ],
+  "cons": [
+    "18kg仍需注意樓層搬運，萬向輪不等於可自行搬上樓",
+    "PCI脫臭不等同HEPA清淨，弱風分貝也不代表全速安靜",
+    "明確發售日及可靠歷史最低價尚未查得，新代長期負評樣本不足"
+  ],
+  "bestFor": "需要19L級除濕、衣物乾燥與遠端控濕的台灣住家；先按實際格局與濕氣負荷選容量。",
+  "recommendation": "SHARP新世代參考；重視APP控濕可與UW舊款並列比較，先確認噪音、機身位置、排水路線及同容量價格，不只依官方坪數選購。",
+  "releaseDate": "找不到",
+  "historicalLow": {
+    "status": "not_found",
+    "amount": null,
+    "currency": "TWD",
+    "converted": null,
+    "sourceUrl": "",
+    "sourceTitle": "",
+    "evidenceSnippet": "",
+    "sourceKind": "not_found",
+    "confidence": "not_found",
+    "checkedAt": "2026-10-23",
+    "note": "已讀台灣購買原頁、FindPrice exact DW-UX19HT比價與完整SKU歷史價格搜尋，未找到可公開重現時間序列。舊索引19900與當下18900是不同抓取時點，缺歷史日期不能認定史低；990是相容濾芯排除。"
+  },
+  "score": 87,
+  "voltage": "台灣官方110V／60Hz；插電落地除濕機，連續排水需外接管，不使用海外電壓規格。",
+  "warranty": "本體3年、壓縮機5年台灣保固。官方目前指定型號名單含DW-UX19HT-C，符合台灣公司貨新品與註冊登錄等條件可申請壓縮機10年，仍依原廠審核及條款。",
+  "tags": [
+    "2026新款",
+    "雙變頻",
+    "AIoT",
+    "衣物乾燥",
+    "PCI25000",
+    "台灣公司貨"
+  ],
+  "issueResearch": {
+    "status": "no_common_issue",
+    "checkedAt": "2026-10-23",
+    "summary": "截至查核日，查無達門檻的集中負評／災情",
+    "issues": [],
+    "checkedSources": [
+      {
+        "platform": "Mobile01",
+        "targetHost": "mobile01.com",
+        "query": "site:mobile01.com \"DW-UX19HT-C\" (問題 OR 故障 OR 災情 OR 心得)",
+        "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22DW-UX19HT-C%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E5%BF%83%E5%BE%97%29"
+      },
+      {
+        "platform": "PTT",
+        "targetHost": "ptt.cc",
+        "query": "site:ptt.cc \"DW-UX19HT-C\" (問題 OR 故障 OR 災情 OR 心得)",
+        "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22DW-UX19HT-C%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E5%BF%83%E5%BE%97%29"
+      }
+    ]
+  }
+},
+{
+  "id": "dehumidifier-sharp-dw-ux25ht-w",
+  "category": "dehumidifier",
+  "rank": 30,
+  "budget": "premium",
+  "channel": "tw",
+  "brand": "SHARP",
+  "model": "DW-UX25HT-W",
+  "name": "乾淨方PRO+ 25L 雙氣流AIoT雙變頻除濕機（雪霧白）",
+  "price": {
+    "currency": "TWD",
+    "amount": 22900,
+    "converted": 22900,
+    "basis": "retailer_current",
+    "confidence": "2026-10-23：Chrome台灣原生雪霧白002選定可放車，促銷25900於10/1–10/31滿1件折3000為公開22900；每人限1組1次，未扣個人券、回饋或貨物稅。"
+  },
+  "installation": {
+    "status": "not_stated",
+    "note": "台灣110V插電落地機，自行定位；應保留進出風與搬運空間，連續排水需外接排水管及適當落差，通路未明示施工包含。"
+  },
+  "image": "https://tw.sharp/sites/default/files/styles/resize_640x640/public/2026-10/DW-UX25HT-W.png?itok=u6feLZ_E",
+  "buyUrl": "https://www.momoshop.com.tw/product/15585319",
+  "buyLabel": "momo（購買頁請選雪霧白）",
+  "specs": [
+    "類型：乾淨方PRO+雙變頻壓縮機＋變頻風扇馬達，DW-UX25HT-W 雪霧白",
+    "除濕能力：25L／日（室溫27°C、相對濕度60%）；官方約31坪為測試參考，實際依濕度、格局與滲水調整",
+    "能源效率：官方符合2026一級，能源因數3.06L/kWh、年耗電184kWh；保留原廠測試條件邊界",
+    "電源／功率：110V／60Hz；官方HTML額定300W，電源線約1.8m；能源標示與額定輸入的測試條件可能不同，購前核對機身銘牌",
+    "水箱／排水：5.8L、1-2 Tank快取水箱與提把；水滿保護、止水閥、側面外接連續排水",
+    "控濕／連網：40–70%RH每5%一段、AI控濕／個人化行程與COCORO HOME APP遠端設定；24小時定時開關由APP操作",
+    "送風／衣物：雙層導風板，上／正上／廣角／下烘，衣物乾燥與衣物脫臭模式",
+    "空氣淨化：Plasmacluster25000離子；衣物脫臭模式釋放PCI，不當作有HEPA濾網的獨立清淨機",
+    "運轉聲音：官方弱風模式38dB，非全模式最大噪音或臥室無聲保證",
+    "安全／維護：12小時自動關機、兒童鎖、斷電復歸、自動除霜、內部乾燥與機體防黴；濾網與水箱需定期清潔",
+    "本體尺寸：查不到（官方表列37.4×69.3×31.5cm，未明示軸序，不自行分配寬深高）",
+    "重量：本體18.0kg；四輪360度萬向輪，一體式拉把與左右隱藏提把",
+    "耗材／配件：離子元件IZ-C90ME，官方最長19000小時，實際依環境；替換濾網、排水管供應與是否隨附購前確認"
+  ],
+  "description": "UX家族為官方2026新款PRO+，在既有UW PRO雙氣流基礎補入AI連網控濕與個人化行程。此筆選定25L 雪霧白完整台灣型號，保留舊UW，不把相同容量或Pro名稱視為全方位效率升級。",
+  "pros": [
+    "AI連網控濕與APP定時，方便外出前調整",
+    "5.8L快取水箱、萬向輪與下烘送風",
+    "台灣110V／60Hz與本體3年、壓縮機5年基本保固"
+  ],
+  "cons": [
+    "18kg仍需注意樓層搬運，萬向輪不等於可自行搬上樓",
+    "PCI脫臭不等同HEPA清淨，弱風分貝也不代表全速安靜",
+    "明確發售日及可靠歷史最低價尚未查得，新代長期負評樣本不足",
+    "momo為雙色商品頁，必須選雪霧白；公開折扣期限與每人限購需核對"
+  ],
+  "bestFor": "需要25L級除濕、衣物乾燥與遠端控濕的台灣住家；先按實際格局與濕氣負荷選容量。",
+  "recommendation": "SHARP新世代參考；重視APP控濕可與UW舊款並列比較，先確認噪音、機身位置、排水路線及同容量價格，不只依官方坪數選購。",
+  "releaseDate": "找不到",
+  "historicalLow": {
+    "status": "not_found",
+    "amount": null,
+    "currency": "TWD",
+    "converted": null,
+    "sourceUrl": "",
+    "sourceTitle": "",
+    "evidenceSnippet": "",
+    "sourceKind": "not_found",
+    "confidence": "not_found",
+    "checkedAt": "2026-10-23",
+    "note": "已讀台灣購買原頁、FindPrice exact DW-UX25HT比價與完整SKU歷史價格搜尋，未找到可公開重現時間序列。20900早鳥搜尋索引缺可重現確切日期／完整白色選項條件，不能據以認定史低；當下公開22900也不當史低，990濾芯排除。"
+  },
+  "score": 86,
+  "voltage": "台灣官方110V／60Hz；插電落地除濕機，連續排水需外接管，不使用海外電壓規格。",
+  "warranty": "本體3年、壓縮機5年台灣保固。本次不將保固表其他類別位置的DW-UX25HT-H/W文字套作壓縮機10年，延保資格購前另向原廠確認。",
+  "tags": [
+    "2026新款",
+    "雙變頻",
+    "AIoT",
+    "衣物乾燥",
+    "PCI25000",
+    "台灣公司貨"
+  ],
+  "issueResearch": {
+    "status": "no_common_issue",
+    "checkedAt": "2026-10-23",
+    "summary": "截至查核日，查無達門檻的集中負評／災情",
+    "issues": [],
+    "checkedSources": [
+      {
+        "platform": "Mobile01",
+        "targetHost": "mobile01.com",
+        "query": "site:mobile01.com \"DW-UX25HT-W\" (問題 OR 故障 OR 災情 OR 心得)",
+        "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22DW-UX25HT-W%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E5%BF%83%E5%BE%97%29"
+      },
+      {
+        "platform": "PTT",
+        "targetHost": "ptt.cc",
+        "query": "site:ptt.cc \"DW-UX25HT-W\" (問題 OR 故障 OR 災情 OR 心得)",
+        "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22DW-UX25HT-W%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E5%BF%83%E5%BE%97%29"
+      }
+    ]
+  }
+}
 ]);
 })();

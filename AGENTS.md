@@ -69,7 +69,7 @@
 
 ## GEO / AI 搜尋規則
 
-- 網站由現有 37 類資料產生 37 個 `/categories/<id>/` 靜態分類指南頁；不建立 1183 個重複商品事實的薄內容頁。
+- 網站由現有 37 類資料產生 37 個 `/categories/<id>/` 靜態分類指南頁；不建立 1217 個重複商品事實的薄內容頁。
 - 每個分類指南的初始 HTML 必須含該類全部商品的品牌、完整型號、名稱、參考價、價格基準、上市／發售日期與摘要；前 5 名繼續顯示完整評估卡。
 - `tools/category-guides.js` 只維護分類層級的繁中導讀、3 項選購條件與 3 組 FAQ；商品名稱、價格、排名、規格、史低與負評仍從既有商品資料產生，避免第二套事實來源。
 - 站名、首頁 title、description、H1 與 AI 揭露集中在 `tools/geo-config.js`；首頁 metadata、JSON-LD、分類頁與 `llms.txt` 必須共用此契約。首頁與分類頁首屏皆需可見 AI 協作、資料日期、查核方法與 GitHub 原始碼。
@@ -82,30 +82,32 @@
 
 ## 目前資料規模
 
-- 共 37 類、1183 筆商品。
+- 共 37 類、1217 筆商品。
 - 所有分類每類至少 20 筆；新增分類或補資料時不可讓任何分類低於 20 筆。
+- 原初固定款數與配額可因使用者明確要求補入合格新版而擴充；保留合格現售舊款，並同步 `tools/dashboard-contract.js`、config、證據與文件。精確總數及各類分型／預算配額仍須通過 contract 驗證，不改為寬鬆最低數，也不放寬電力、版本、史低或跨站人工負評門檻。
 - 特殊分類目前數量：
   - `電視`：42 筆，其中 5 筆為 exact 70 吋，需涵蓋主流顯示技術與可信台灣新品通路。
   - `Soundbar`：38 筆，需涵蓋不同聲道、擴充方式與空間需求。
-  - `吸塵器`：32 筆，乾式吸塵、洗地與輕量用途需明確區分；新世代不得只看型號或年份，需核對實際規格取捨。
-  - `掃拖機器人`：45 筆，需涵蓋知名品牌旗艦與次旗艦。
+  - `吸塵器`：34 筆，乾式吸塵、洗地與輕量用途需明確區分；新世代不得只看型號或年份，需核對實際規格取捨。
+  - `掃拖機器人`：50 筆，需涵蓋知名品牌旗艦與次旗艦。
   - `無線路由器`：57 筆，只收 Wi-Fi 6 以上，Mesh/多 AP/商用管理支援要寫清楚。
   - `網路交換器`：20 筆，固定 8 個主要 RJ45 埠，1G／2.5G／10G 各至少 4 款；只收台灣公司貨、金屬外殼與非 PoE 型號。
-  - `電腦螢幕`：64 筆，需涵蓋主流品牌、不同用途帶與 34/40/45/49/57 吋寬螢幕。
+  - `電腦螢幕`：66 筆，需涵蓋主流品牌、不同用途帶與 34/40/45/49/57 吋寬螢幕。
   - `螢幕燈`：20 筆，只收桌機螢幕掛燈，台灣通路優先、可信海外通路補充；需核對夾具厚度、曲面限制、配光、供電、燈體尺寸與淨重。
+  - `電腦椅`：30 筆，需區分人體工學辦公與電競用途，確認尺寸、承重與台灣保固。
   - `懸臂支架`：25 筆，需標示支援尺寸、承重重量與是否適合 49/57 吋大寬螢幕。
-  - `滑鼠`：30 筆、`鍵盤`：30 筆、`滑鼠墊`：30 筆，各類選購定位固定 6／12／12，辦公與電競並重，型態與版本規則見下方特別分類規則。
-  - `床包`：30 筆、`棉被`：30 筆、`枕頭`：30 筆，各類選購定位固定 6／12／12，材質、填充、尺寸與版本規則見下方特別分類規則。
-  - `電子鎖`：51 筆，需涵蓋知名品牌且注意安裝條件。
-  - `鍋具`：28 筆、`刀具`：23 筆、`櫥下飲水機`：44 筆、`洗碗機`：32 筆，需排除配件、耗材、桌上/直立誤判、福利品與展示機。
-  - `冰箱`：48 筆、`洗衣機`：27 筆、`烘衣機`：25 筆、`洗烘衣機(多功能型)`：33 筆，需排除配件、耗材、福利品、展示機、箱損品、組合包誤判與單功能錯類，且每筆需標示機身尺寸。
+  - `滑鼠`：34 筆、`鍵盤`：33 筆、`滑鼠墊`：33 筆，選購定位依序為 6／13／15、6／12／15、6／12／15，辦公與電競並重，型態與版本規則見下方特別分類規則。
+  - `床包`：30 筆、`棉被`：30 筆、`枕頭`：32 筆，床包與棉被選購定位各 6／12／12，枕頭 6／12／14，材質、填充、尺寸與版本規則見下方特別分類規則。
+  - `電子鎖`：53 筆，需涵蓋知名品牌且注意安裝條件。
+  - `鍋具`：28 筆、`刀具`：23 筆、`櫥下飲水機`：44 筆、`洗碗機`：34 筆，需排除配件、耗材、桌上/直立誤判、福利品與展示機。
+  - `冰箱`：48 筆、`洗衣機`：27 筆、`烘衣機`：26 筆、`洗烘衣機(多功能型)`：35 筆，需排除配件、耗材、福利品、展示機、箱損品、組合包誤判與單功能錯類，且每筆需標示機身尺寸。
   - `電子衣櫥（衣物護理機）`：21 筆，只收以吊掛衣物為核心、具除味／除皺／抑菌／柔護乾燥功能的封閉式櫃體設備；排除烘衣機、洗脫烘、除濕機、手持掛燙機、布罩烘衣櫃、配件與停產機種。
   - `空氣清淨機`：29 筆，已補入 POIEMA 新氣几系列、Philips AC0921/84、AC3681/81 與 Xiaomi AC-M25-SC；後續若替換資料，除非無可信新品通路，需保留 POIEMA 候選。
   - `電風扇`：21 筆，已補入 Philips 風扇/循環扇/塔扇/無葉片款；後續若替換資料，除非無可信新品通路，需保留 Philips 候選。
   - `循環扇`：23 筆，已納入有台灣官方現貨、上市年份與 exact-model 查核證據的 IRIS PCF-CDP18TEC、IRIS KSF-SDC151TEC 與 SHARP PK-18S03T。
   - `咖啡機`：24 筆，只收台灣現售全自動與半自動義式機，各 12 筆；各類型入門／均衡／旗艦各 4 筆，半自動含內建磨豆與需外接磨豆各 6 筆。
   - `冷氣`：30 筆，只收台灣住宅完整一對一分離式室內／室外機組；冷專、冷暖各至少 12 組，四個坪數帶各至少 6 組。
-  - `熱水器`：45 筆，瓦斯、電熱、熱泵各 15 筆；電熱固定儲熱式 8 筆、瞬熱式 7 筆。
+  - `熱水器`：47 筆，瓦斯 17 筆、電熱與熱泵各 15 筆；電熱固定儲熱式 8 筆、瞬熱式 7 筆。
 
 現有分類順序需盡量維持關聯群組，方便商品數量變多後掃描：
 
@@ -240,7 +242,7 @@
 
 ### 熱水器
 
-- 固定 45 台：`gas`、`electric`、`heat_pump` 各 15 台；電熱另以 `electricSubtype` 固定 `storage` 8 台、`instant` 7 台。
+- 目前精確收錄 47 台：`gas` 17 台、`electric` 與 `heat_pump` 各 15 台；電熱另以 `electricSubtype` 固定 `storage` 8 台、`instant` 7 台。
 - 瓦斯機必須標示天然氣／桶裝瓦斯、室內外安裝與排氣方式；電熱機必須揭露容量、迴路、接地與漏電保護；熱泵複合系統要保存主機與儲槽 exact model、尺寸及完整套組價格。
 - 所有類型皆要揭露適用容量、能效、電壓頻率、安全條件、尺寸、淨重、安裝限制與可能加價；不可用詢價、單一組件、包裝尺寸、毛重或推定的寬深高補數。
 
@@ -282,7 +284,7 @@
 
 ### 咖啡機
 
-- 固定收錄 24 款台灣現售義式咖啡機：全自動 12 款、半自動 12 款；排除膠囊、滴濾、商用／嵌入式機、獨立磨豆機、奶泡機、耗材及配件。
+- 目前精確收錄 24 款台灣現售義式咖啡機：全自動 12 款、半自動 12 款；排除膠囊、滴濾、商用／嵌入式機、獨立磨豆機、奶泡機、耗材及配件。
 - 全自動與半自動皆維持入門／均衡／旗艦各 4 款；半自動再分為 6 款內建磨豆機與 6 款需外接磨豆機。至少涵蓋 6 個品牌，單一品牌不得超過 6 款，不以顏色或套組重複湊數。
 - 每筆必須依序提供類型、使用原料、研磨系統、萃取／沖煮、奶泡、容量、機身尺寸、淨重、電壓／頻率、功率、清潔維護及耗材／配件相容性；不可使用包裝尺寸或毛重，查無可信資料時使用「尺寸：查不到」／「重量：查不到」。
 - 只收具 exact model、TWD 公開售價、台灣可信新品通路、60Hz、台灣官方明確支援的 110V 或 120V 電力規格及台灣保固的型號。全分類只能有一款 Top Pick，且該款須為 110V／60Hz，並明確證明台灣維修與耗材／配件可取得；其他分型推薦使用「全自動推薦」「半自動推薦」「入門推薦」等標籤。
@@ -295,13 +297,13 @@
 
 ### 電子鎖
 
-- 至少 30 筆以上，現有 51 筆。
+- 至少 30 筆以上，現有 53 筆。
 - 需涵蓋知名品牌與台灣可安裝/可購買品牌。
 - 說明要提醒門厚、門向、鎖體、天地栓、基本安裝與加價項目。
 
 ### 電腦螢幕
 
-- 至少 30 筆以上，現有 64 筆。
+- 至少 30 筆以上，現有 66 筆。
 - 需涵蓋 ASUS、Acer、BenQ、LG、Dell、Samsung、MSI、GIGABYTE、ViewSonic、AOC、Philips、EIZO、Xiaomi 等主流品牌。
 - 要混合入門 FHD、2K 高刷新、4K/USB-C、生產力、OLED、Mini LED、專業色彩等用途。
 - 必須涵蓋寬螢幕/超寬螢幕，例如 34 吋 21:9、45 吋 OLED、49 吋 32:9、57 吋 Dual UHD 等；描述要提醒桌深、顯卡與支架承重。
@@ -330,7 +332,7 @@
 
 ### 滑鼠 / 鍵盤 / 滑鼠墊
 
-- `mouse`、`keyboard`、`mousepad` 放在工作網路群組的懸臂支架之後，各固定 30 款，`value / mid / premium` 各為 6／12／12。辦公與電競並重，台灣可信新品通路優先、海外補充；每類恰好一款具台灣售後保固的 Top Pick，另標辦公／電競推薦。海外或原廠明示無保固者不作 Top Pick，無保固不得冒充具台灣保固的日系代表。
+- `mouse`、`keyboard`、`mousepad` 放在工作網路群組的懸臂支架之後，初始各 30 款、`value / mid / premium` 6／12／12 為基準；目前滑鼠 34 款（6／13／15）、鍵盤 33 款（6／12／15）、滑鼠墊 33 款（6／12／15）。使用者明確要求補齊後繼新版時，保留合格舊款並擴充；實際款數與各類預算分配須鎖定於 `tools/dashboard-contract.js` 的分類數量與 `PERIPHERAL_BUDGET_COUNTS`，不得為湊回舊配額刪除現售舊款。辦公與電競並重，台灣可信新品通路優先、海外補充；每類恰好一款具台灣售後保固的 Top Pick，另標辦公／電競推薦。海外或原廠明示無保固者不作 Top Pick，無保固不得冒充具台灣保固的日系代表。
 - 滑鼠 `type` 為 `standard|vertical|trackball`；依序提供類型、握型／慣用手、連線、感測器／解析度、回報率、按鍵／滾輪、供電／續航、系統／軟體、尺寸、重量、隨附配件。
 - 鍵盤 `type` 為 `membrane|scissor|mechanical|magnetic|optical`；只收完整成品，原生中文鍵帽優先、英文版可收，另附貼紙不當原生中文。依序提供類型、配列、鍵帽語言／材質、軸體、熱插拔、連線、回報率、供電／續航、系統／軟體、尺寸、重量、隨附配件。
 - 滑鼠墊 `type` 為 `cloth|hard|glass`，硬質不含玻璃；適合滑鼠操作的長桌墊以規格與標籤表示。依序提供類型、表面材質、表面特性、底材／防滑、尺寸、厚度、重量、邊緣處理、清潔保養、供電／功能、隨附配件。
@@ -341,7 +343,7 @@
 
 ### 床包 / 棉被 / 枕頭
 
-- `bedsheet`、`comforter`、`pillow` 放在獨立「臥室寢具」群組，位於洗衣家務之後、廚房餐飲之前，各固定 30 款，`value / mid / premium` 各為 6／12／12。台灣可信新品通路優先、海外補充；每類恰好一款具台灣官方／可信通路與在地售後的 Top Pick，另標涼爽／親膚、四季／冬季保暖及仰睡／側睡推薦。
+- `bedsheet`、`comforter`、`pillow` 放在獨立「臥室寢具」群組，位於洗衣家務之後、廚房餐飲之前，初始各 30 款、`value / mid / premium` 為 6／12／12；目前床包與棉被各 30 款（各 6／12／12）、枕頭 32 款（6／12／14）；明確要求補入合格後繼款時可保留舊款並擴充，精確總數與各類配額以 `tools/dashboard-contract.js` 的 `EXPECTED_CATEGORY_PRODUCT_COUNTS`／`BEDDING_BUDGET_COUNTS` 為準。台灣可信新品通路優先、海外補充；每類恰好一款具台灣官方／可信通路與在地售後的 Top Pick，另標涼爽／親膚、四季／冬季保暖及仰睡／側睡推薦。
 - 床包 `type` 為 `cotton|lyocell|linen|synthetic|other_natural`；可收單件床包或床包加枕套組，排除含被套的大套組。依序提供類型、組合內容、材質、織法／支數、適用床墊、尺寸、可包覆高度、認證／產地、清潔保養與重量。
 - 棉被 `type` 為 `cotton|down|synthetic|wool|silk`；只收完整被芯或成品被，排除被套、毛毯、電熱毯及單純涼感薄毯。依序提供類型、組合內容、表布材質、填充材質、填充比例／蓬鬆度、適用季節／保暖性、尺寸、填充重量、整件重量、認證／產地與清潔保養。
 - 枕頭 `type` 為 `latex|memory_foam|down|fiber|hybrid`；只收成人睡眠枕，排除抱枕、長枕、旅行頸枕、嬰幼兒枕、枕套與替換填充物。依序提供類型、枕型／睡姿、表布材質、填充／核心材質、高度／軟硬度、尺寸、重量、透氣／溫控、認證／產地與清潔保養。
@@ -415,10 +417,10 @@
 ## 價格與匯率
 
 <!-- catalog-maintenance-summary:start -->
-- 2026-10-23 07:11（台灣時間）完成 1183 筆商品、37 類全量查核；530 筆 PChome SKU API 已完成（277 筆 exact model、63 筆人工 SKU 綁定可寫入，70 筆型號未自動確認），更新 100 筆公開價格（92 筆下修、8 筆上修），40 筆缺貨／預購只列追蹤。
-- 本次增量新增 dishwasher-bosch-sms8zci02x、dryer-panasonic-nh-v150sp；本次增量沒有移除停產產品。逐類人工新品覆核已完成，所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
-- 圖片查核覆蓋 1183 筆；816 筆來源可由 exact model 或人工 SKU 綁定確認，367 筆來源例外與 0 筆圖片例外保留原資料。史低為 509 筆 `found`、674 筆 `not_found`，本輪下修 6 筆；83 筆來源可自動重現，其餘保留原逐筆證據且未臆測失效。
-- ExchangeRate-API 最新批次為 2026-10-22 00:02 UTC，USD/TWD 32.411205；39 筆外幣商品已重算。完整摘要與例外保存在 `catalog_maintenance_latest.json`。
+- 2026-10-23 10:39（台灣時間）完成 1217 筆商品、37 類價格與來源全量查核；539 筆 PChome SKU API 已完成（284 筆 exact model、63 筆人工 SKU 綁定可寫入，72 筆型號未自動確認），更新 20 筆公開價格（3 筆下修、17 筆上修），40 筆缺貨／預購只列追蹤。
+- 本次增量新增 chair-sidiz-t50-2nd、chair-sidiz-t50-air-2nd、dehumidifier-sharp-dw-ux19ht-c、dehumidifier-sharp-dw-ux25ht-w、dishwasher-electrolux-eff5581sxa、dishwasher-electrolux-eff7591sxa、dryer-sampo-sd-10dh、keyboard-logitech-pro-x2-rapid、keyboard-razer-huntsman-v3-pro-tkl-8k、keyboard-wooting-80he-plus-tikken-medium、monitor-benq-ma270s、monitor-benq-ma320ug、mouse-logitech-g304-x-superlight、mouse-logitech-pro-x3-superstrike、mouse-razer-basilisk-v4-pro、mouse-razer-viper-v4-pro、mousepad-logitech-pro-x-control、mousepad-razer-atlas-pro、mousepad-razer-gigantus-v2-pro-balance-xxl、pillow-tempur-millennium-smartcool-small、pillow-tempur-symphony-smartcool-medium、robot-ecovacs-t80s-plus、robot-ecovacs-x12s-pro、robot-irobot-roomba-115-combo-autoempty、robot-irobot-roomba-max-875-combo、robot-irobot-roomba-plus-675-combo、smartlock-philips-ddl720-fvp、smartlock-philips-ddl720-mvp、vacuum-dyson-v10-konical-sv55-a、vacuum-roborock-f25-ultra-steam-gen2-wd6y8a、washerdryer-panasonic-na-v1515sp、washerdryer-panasonic-na-v1715sp、waterheater-sakura-dh1670h、waterheater-sakura-dh1693h；本次增量沒有移除停產產品。已逐類覆核取得的新品來源；尚未確認的逐型號後繼對照與來源限制詳見 categoryScan，所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
+- 圖片查核覆蓋 1217 筆；830 筆來源可由 exact model 或人工 SKU 綁定確認，387 筆來源例外與 0 筆圖片例外保留原資料。史低為 509 筆 `found`、708 筆 `not_found`，本輪其他更正 5 筆；83 筆來源可自動重現，其餘保留原逐筆證據且未臆測失效。
+- ExchangeRate-API 最新批次為 2026-10-23 00:02 UTC，USD/TWD 32.591824；39 筆外幣商品已重算。完整摘要與例外保存在 `catalog_maintenance_latest.json`。
 <!-- catalog-maintenance-summary:end -->
 
 ## 驗證清單
@@ -429,7 +431,7 @@
 - `npm run check:logic`：純邏輯回歸，涵蓋排序、品牌依分類限制、史低／負評文案、問題摘要搜尋、來源 URL 安全、HTML escape 與 product-loader URL/錯誤。
 - `npm run check:data`：商品總數、分類數、必要欄位、日期格式、負評逐型號人工覆核、逐位反映者與研究檔對齊、重複 URL 與重複型號檢查通過。
 - `npm run check:docs`：README、AGENTS、index/config 的商品數、分類數、日期與 cache version 不漂移。
-- `npm run check:geo`：37 個分類頁、1183 款靜態型號索引、metadata、結構化資料、首頁分類入口、sitemap、llms、六份公開證據檔、Pages artifact、38 個 canonical URL 的 IndexNow contract 與產生結果均無漂移。
+- `npm run check:geo`：37 個分類頁、1217 款靜態型號索引、metadata、結構化資料、首頁分類入口、sitemap、llms、六份公開證據檔、Pages artifact、38 個 canonical URL 的 IndexNow contract 與產生結果均無漂移。
 - `npm run check:ui`：桌機與手機版主要互動流程通過。
 - `npm run check:quality`：Lighthouse 的 Performance、LCP、CLS、Accessibility 與 SEO 採瀏覽器行動 throttling，TBT 採 Lantern 標準化模擬；首頁 Performance ≥ 90、LCP ≤ 2.5s、CLS ≤ 0.1、TBT ≤ 200ms、Accessibility = 100、SEO ≥ 95；代表分類頁 Performance、Accessibility、SEO 均 ≥ 95。
 - 商品總數仍符合 README 與分類 tab 顯示。

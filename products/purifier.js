@@ -2548,9 +2548,9 @@
     "name": "4–8 坪抗敏系列空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 3160,
-      "converted": 3160,
-      "confidence": "2026-10-23人工核對原頁配送為預購；3160元為保留的先前參考價，不代表當日現貨報價。",
+      "amount": 3111,
+      "converted": 3111,
+      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
       "note": "2026-10-23原頁標預購，最晚2026-11-25出貨；公開預購價3111元未作現貨價格寫回，本卡3160元僅留先前參考，交期及成交價請先確認。"
     },

@@ -1,17 +1,17 @@
 {
   "summary": {
     "checkedAt": "2026-10-23T00:00:00+08:00",
-    "total": 1183,
+    "total": 1217,
     "researchedThisRun": 2,
-    "found": 346,
-    "missing": 837,
+    "found": 351,
+    "missing": 866,
     "byConfidence": {
       "official": 188,
-      "not_found": 834,
+      "not_found": 863,
       "retailer_explicit": 23,
       "credible_article": 52,
-      "high": 67,
-      "medium": 16,
+      "high": 71,
+      "medium": 17,
       "unknown": 3
     },
     "scopeNote": "2026-10-23全量價格/來源維護；上市日期補查新增SMS8ZCI02X與NH-V150SP，既有1181筆證據與真實日期保留。"
@@ -36229,6 +36229,1037 @@
           "url": "https://pmst.panasonic.com.tw/Shop/Product/Detail/T4KD2JIH5U3ZFHIBJH9I",
           "title": "15公斤熱泵除濕式烘衣機 NH-V150SP 官方商城",
           "outcome": "當日原頁可證公開價與可購，未列上市日"
+        }
+      ]
+    },
+    {
+      "id": "smartlock-philips-ddl720-fvp",
+      "category": "smartlock",
+      "brand": "Philips",
+      "model": "DDL720-FVP-7HWS",
+      "name": "DDL720-FVP 人臉可視推拉電子鎖",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"DDL720-FVP-7HWS\" 上市 發表",
+      "sourceKind": "not_found_after_manual_recheck",
+      "reason": "總代理產品頁未明示上市年月日；2026年6月媒體使用近期推出／正式發表措辭，未明示實際發售日，故不把文章日期當上市日。",
+      "checkedAt": "2026-10-23",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://shop.ljtwm.com/products/philips-ddl720-fvp",
+          "title": "飛利浦 人臉可視電子鎖 DDL720-FVP",
+          "outcome": "exact型號與現售可核，無明確發售日期"
+        }
+      ]
+    },
+    {
+      "id": "smartlock-philips-ddl720-mvp",
+      "category": "smartlock",
+      "brand": "Philips",
+      "model": "DDL720-MVP-17HWS",
+      "name": "DDL720-MVP 掌靜脈可視推拉電子鎖",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"DDL720-MVP-17HWS\" 上市 發表",
+      "sourceKind": "not_found_after_manual_recheck",
+      "reason": "總代理產品頁未明示上市年月日；2026年6月媒體使用近期推出／正式發表措辭，未明示實際發售日，故不把文章日期當上市日。",
+      "checkedAt": "2026-10-23",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://shop.ljtwm.com/products/philips-ddl720-mvp",
+          "title": "飛利浦 掌靜脈可視電子鎖 DDL720-MVP",
+          "outcome": "exact型號與現售可核，無明確發售日期"
+        }
+      ]
+    },
+    {
+      "id": "vacuum-dyson-v10-konical-sv55-a",
+      "category": "vacuum",
+      "brand": "Dyson",
+      "model": "V10 Konical SV55-A",
+      "name": "V10 Konical 雙錐無纏結吸塵器",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2026-06-11",
+      "sourceUrl": "https://www.mobile01.com/topicdetail.php?f=728&t=7269375",
+      "sourceTitle": "Dyson V10 Konical 雙錐無纏結吸塵器正式登台",
+      "evidenceSnippet": "2026-06-11 11:15發表；內文明示今（11）日Dyson最新在台推出V10 Konical，並寫即日起正式在台上市及官方/授權通路同步開賣。",
+      "confidence": "high",
+      "sourceKind": "media_explicit_release",
+      "query": "\"Dyson V10 Konical\" \"上市\" 台灣",
+      "reason": "先查台灣官方產品頁只有新品上市而無日期；採可信媒體原頁明示的當日台灣上市文字，不以單純文章發布日推定。",
+      "checkedAt": "2026-10-23"
+    },
+    {
+      "id": "dishwasher-electrolux-eff5581sxa",
+      "category": "dishwasher",
+      "brand": "Electrolux",
+      "model": "EFF5581SXA",
+      "name": "極淨呵護500系列15人份獨立式洗碗機",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"EFF5581SXA\" 上市 發表",
+      "sourceKind": "not_found_after_manual_recheck",
+      "reason": "官方現售產品頁未明示上市／發售年月日；百貨DM新品標籤與型錄月份只證該期有產品，不當實際上市日期。",
+      "checkedAt": "2026-10-23",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.electrolux.com.tw/appliances/dishwashers/eff5581sxa/",
+          "title": "Electrolux台灣EFF5581SXA",
+          "outcome": "規格可核，無明確上市日期"
+        }
+      ]
+    },
+    {
+      "id": "dishwasher-electrolux-eff7591sxa",
+      "category": "dishwasher",
+      "brand": "Electrolux",
+      "model": "EFF7591SXA",
+      "name": "極淨呵護700系列15人份獨立式洗碗機",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"EFF7591SXA\" 上市 發表",
+      "sourceKind": "not_found_after_manual_recheck",
+      "reason": "官方現售產品頁未明示上市／發售年月日；百貨DM新品標籤與型錄月份只證該期有產品，不當實際上市日期。",
+      "checkedAt": "2026-10-23",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.electrolux.com.tw/appliances/dishwashers/eff7591sxa/",
+          "title": "Electrolux台灣EFF7591SXA",
+          "outcome": "規格可核，無明確上市日期"
+        }
+      ]
+    },
+    {
+      "id": "robot-irobot-roomba-max-875-combo",
+      "category": "robot",
+      "brand": "iRobot",
+      "model": "Roomba Max 875 Combo",
+      "name": "Roomba Max 875 Combo 巨無霸滾筒掃拖機器人（預購）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found_after_original_page_review",
+      "query": "\"Roomba Max 875 Combo\" 台灣 上市",
+      "reason": "已讀台灣官方現行產品與發表報導：10/6是五款共同發表，報導混用現貨/開放預購；官方875實際仍預購，675/115通路更早可售，未取得本配置明確正式發售日，不把發表、上架或未來預計出貨當實際上市日。",
+      "checkedAt": "2026-10-23",
+      "checkedSources": [
+        {
+          "url": "https://irobot.tw/products/",
+          "title": "iRobot台灣現行產品"
+        },
+        {
+          "url": "https://www.momoshop.com.tw/product/15715104",
+          "title": "Roomba Max 875 Combo 巨無霸滾筒掃拖機器人（預購）"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=728&t=7305533",
+          "title": "iRobot 2026五款台灣發表原頁"
+        }
+      ]
+    },
+    {
+      "id": "robot-irobot-roomba-plus-675-combo",
+      "category": "robot",
+      "brand": "iRobot",
+      "model": "Roomba Plus 675 Combo",
+      "name": "Roomba Plus 675 Combo AI高壓噴灑滾筒掃拖機器人（極夜黑）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found_after_original_page_review",
+      "query": "\"Roomba Plus 675 Combo\" 台灣 上市",
+      "reason": "已讀台灣官方現行產品與發表報導：10/6是五款共同發表，報導混用現貨/開放預購；官方875實際仍預購，675/115通路更早可售，未取得本配置明確正式發售日，不把發表、上架或未來預計出貨當實際上市日。",
+      "checkedAt": "2026-10-23",
+      "checkedSources": [
+        {
+          "url": "https://irobot.tw/products/",
+          "title": "iRobot台灣現行產品"
+        },
+        {
+          "url": "https://24h.pchome.com.tw/prod/DMBL0J-A900KIEP4",
+          "title": "Roomba Plus 675 Combo AI高壓噴灑滾筒掃拖機器人（極夜黑）"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=728&t=7305533",
+          "title": "iRobot 2026五款台灣發表原頁"
+        }
+      ]
+    },
+    {
+      "id": "robot-irobot-roomba-115-combo-autoempty",
+      "category": "robot",
+      "brand": "iRobot",
+      "model": "Roomba 115 Combo",
+      "name": "Roomba 115 Combo 自動集塵纖薄延邊掃拖機器人",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found_after_original_page_review",
+      "query": "\"Roomba 115 Combo\" 台灣 上市",
+      "reason": "已讀台灣官方現行產品與發表報導：10/6是五款共同發表，報導混用現貨/開放預購；官方875實際仍預購，675/115通路更早可售，未取得本配置明確正式發售日，不把發表、上架或未來預計出貨當實際上市日。",
+      "checkedAt": "2026-10-23",
+      "checkedSources": [
+        {
+          "url": "https://irobot.tw/products/",
+          "title": "iRobot台灣現行產品"
+        },
+        {
+          "url": "https://24h.pchome.com.tw/prod/DMBL0J-A900KG6A1",
+          "title": "Roomba 115 Combo 自動集塵纖薄延邊掃拖機器人"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=728&t=7305533",
+          "title": "iRobot 2026五款台灣發表原頁"
+        }
+      ]
+    },
+    {
+      "id": "mouse-logitech-g304-x-superlight",
+      "category": "mouse",
+      "brand": "Logitech",
+      "model": "G304 X SUPERLIGHT",
+      "name": "G304 X SUPERLIGHT 黑色 910-007742 充電式雙模電競滑鼠",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "台灣PChome明示6/16新品上市但無年份，原廠全球新聞查詢未取得對應黑色SKU的明確完整上市日；不以官網頁面發佈時間或中國9月／香港上市日期套用。",
+      "query": "Logitech G304 X SUPERLIGHT launch release 上市",
+      "auditQueries": [
+        "Logitech G304 X SUPERLIGHT launch release 上市"
+      ],
+      "checkedAt": "2026-10-23",
+      "auditDisposition": "not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.logitechg.com/zh-tw/shop/p/g304-x-superlight.910-007742",
+          "title": "官方新品與exact-model產品頁",
+          "result": "產品頁建檔日期不採"
+        }
+      ]
+    },
+    {
+      "id": "mouse-logitech-pro-x3-superstrike",
+      "category": "mouse",
+      "brand": "Logitech",
+      "model": "PRO X3 SUPERSTRIKE",
+      "name": "PRO X3 SUPERSTRIKE 黑色 910-007881 無線類比電競滑鼠",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "2026-09-23官方只說unveiled，末段明示個別availability、regional pricing與launch timing另由地區公告；台灣官店現售僅證本日可購，沒有明確上市/發售日，故填找不到。",
+      "query": "Logitech PRO X3 SUPERSTRIKE launch release 上市",
+      "auditQueries": [
+        "Logitech PRO X3 SUPERSTRIKE launch release 上市"
+      ],
+      "checkedAt": "2026-10-23",
+      "auditDisposition": "not_found",
+      "checkedSources": [
+        {
+          "url": "https://ir.logitech.com/news/news-details/2026/From-New-PRO-Gear-to-the-Iconic-Yeti-2-Mic---Logitech-G-Unveils-Fifteen-New-Products-at-Logitech-G-PLAY-2026/default.aspx",
+          "title": "Logitech G PLAY 2026 官方發表公告",
+          "result": "公告明示區域上市時間另行公告；9/23不當作發售日"
+        },
+        {
+          "url": "https://store.logitech.tw/products/pro-x3-superstrike?variant=45533947297815",
+          "title": "羅技台灣官方旗艦店 exact SKU",
+          "result": "現售，不以現貨日代上市日"
+        }
+      ]
+    },
+    {
+      "id": "keyboard-logitech-pro-x2-rapid",
+      "category": "keyboard",
+      "brand": "Logitech",
+      "model": "920-014090",
+      "name": "PRO X2 RAPID 黑色美國英文 KS-20 磁軸TKL有線鍵盤",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "2026-09-23官方只說unveiled，末段明示個別availability、regional pricing與launch timing另由地區公告；台灣官店現售僅證本日可購，沒有明確上市/發售日，故填找不到。",
+      "query": "Logitech 920-014090 launch release 上市",
+      "auditQueries": [
+        "Logitech 920-014090 launch release 上市"
+      ],
+      "checkedAt": "2026-10-23",
+      "auditDisposition": "not_found",
+      "checkedSources": [
+        {
+          "url": "https://ir.logitech.com/news/news-details/2026/From-New-PRO-Gear-to-the-Iconic-Yeti-2-Mic---Logitech-G-Unveils-Fifteen-New-Products-at-Logitech-G-PLAY-2026/default.aspx",
+          "title": "Logitech G PLAY 2026 官方發表公告",
+          "result": "公告明示區域上市時間另行公告；9/23不當作發售日"
+        },
+        {
+          "url": "https://store.logitech.tw/products/pro-x2-rapid?variant=45519401353239",
+          "title": "羅技台灣官方旗艦店 exact SKU",
+          "result": "現售，不以現貨日代上市日"
+        }
+      ]
+    },
+    {
+      "id": "mouse-razer-viper-v4-pro",
+      "category": "mouse",
+      "brand": "Razer",
+      "model": "RZ01-05630100-R3A1",
+      "name": "Viper V4 Pro 黑色 50K 超輕量無線電競滑鼠",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2026-03-24",
+      "sourceUrl": "https://www.razer.com/newsroom/product-news/viper-v4-pro-gigantus-v2-pro",
+      "sourceTitle": "Razer Viper V4 Pro 官方上市公告",
+      "evidenceSnippet": "2026-03-24官方明示launch Viper V4 Pro與Gigantus V2 Pro，記全球正式推出日，非台灣到貨日。",
+      "confidence": "high",
+      "sourceKind": "official_announcement",
+      "reason": "全球官方正式推出日期；不把官店建檔、韌體更新或配色發售當本SKU上市日。",
+      "query": "Razer RZ01-05630100-R3A1 launch release 上市",
+      "auditQueries": [
+        "Razer RZ01-05630100-R3A1 launch release 上市"
+      ],
+      "checkedAt": "2026-10-23",
+      "auditDisposition": "confirmed",
+      "checkedSources": [
+        {
+          "url": "https://www.razer.com/newsroom/product-news/viper-v4-pro-gigantus-v2-pro",
+          "title": "官方新品與exact-model產品頁",
+          "result": "正式推出日期"
+        }
+      ]
+    },
+    {
+      "id": "vacuum-roborock-f25-ultra-steam-gen2-wd6y8a",
+      "category": "vacuum",
+      "brand": "Roborock",
+      "model": "WD6Y8A",
+      "name": "F25 Ultra Steam Gen2 臂蒸之帝蒸氣洗地機（預購）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found_after_original_page_review",
+      "query": "\"F25 Ultra Steam Gen2\" \"8月14日\"",
+      "reason": "官方原頁寫預購且11月中旬出貨；momo8/14首發為通路促銷文字、Mobile01 10/19為快閃活動，均未取得可確認正式發售日的官方公告，不以預購、上架、媒體發文日期推定上市。",
+      "checkedAt": "2026-10-23",
+      "checkedSources": [
+        {
+          "url": "https://taiwan.roborock.com/products/roborock-f25-ultra-steam-gen2",
+          "title": "Roborock台灣官方F25 Ultra Steam Gen2預購頁"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=728&t=7308933",
+          "title": "F25 Ultra Steam Gen2台灣快閃活動"
+        },
+        {
+          "url": "https://www.momoshop.com.tw/product/15560132",
+          "title": "momo F25 Ultra Steam Gen2 8/14首發文字"
+        }
+      ]
+    },
+    {
+      "id": "mousepad-logitech-pro-x-control",
+      "category": "mousepad",
+      "brand": "Logitech",
+      "model": "943-001617",
+      "name": "PRO X CONTROL 黑色 400×460mm 加厚針織電競鼠墊（預購）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "9/23全球公告只發表產品且明示地區availability及launch timing另行通知；台灣預購最快10/30開始出貨為預估交期，不能當已上市或確定發售日期。",
+      "query": "Logitech PRO X CONTROL 943-001617 release launch 上市",
+      "auditQueries": [
+        "Logitech PRO X CONTROL 943-001617 release launch 上市"
+      ],
+      "checkedAt": "2026-10-23",
+      "auditDisposition": "not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.logitechg.com/zh-tw/shop/p/pro-x-control-gaming-mousepad",
+          "title": "Logitech G PRO X CONTROL 官方產品頁",
+          "result": "產品規格，不含明確發售日期"
+        },
+        {
+          "url": "https://store.logitech.tw/products/pro-x-control?variant=45539650568215",
+          "title": "羅技台灣官方旗艦店預購頁",
+          "result": "預購最快10/30開始出貨，非明確發售日"
+        }
+      ]
+    },
+    {
+      "id": "pillow-tempur-millennium-smartcool-small",
+      "category": "pillow",
+      "brand": "TEMPUR",
+      "model": "0001209111",
+      "name": "丹普新永恆千禧感溫枕 SmartCool SMALL 0001209111",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"0001209111\" 上市 發售 release launch",
+      "sourceKind": "not_found_after_manual_recheck",
+      "reason": "台灣官方只寫全新上市，未明示年月日；完整SKU搜尋沒有可信上市公告。Shopify published_at/created_at為網頁時間，不當商品上市日期；其他尺寸與海外系列日期不跨用。",
+      "checkedAt": "2026-10-23",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://shop.tw.tempur.com/products/ergoplus-pillow-smartcool%E6%96%B0%E6%B0%B8%E6%81%86%E5%8D%83%E7%A6%A7%E6%84%9F%E6%BA%AB%E6%9E%95?variant=47934674501787",
+          "title": "TEMPUR台灣官方所選SmartCool SKU",
+          "outcome": "有全新上市文字而無實際年月日"
+        },
+        {
+          "url": "https://www.bing.com/search?q=%220001209111%22%20%E4%B8%8A%E5%B8%82%20%E7%99%BC%E5%94%AE%20release%20launch",
+          "title": "完整SKU上市搜尋",
+          "outcome": "未找到合格日期來源"
+        }
+      ]
+    },
+    {
+      "id": "pillow-tempur-symphony-smartcool-medium",
+      "category": "pillow",
+      "brand": "TEMPUR",
+      "model": "0000555473",
+      "name": "丹普新夢幻感溫枕 SmartCool MEDIUM 0000555473",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"0000555473\" 上市 發售 release launch",
+      "sourceKind": "not_found_after_manual_recheck",
+      "reason": "台灣官方只寫全新上市，未明示年月日；完整SKU搜尋沒有可信上市公告。Shopify published_at/created_at為網頁時間，不當商品上市日期；其他尺寸與海外系列日期不跨用。",
+      "checkedAt": "2026-10-23",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://shop.tw.tempur.com/products/symphony-pillow-with-smartcool-%E6%96%B0%E5%A4%A2%E5%B9%BB%E6%84%9F%E6%BA%AB%E6%9E%95?variant=42452300136603",
+          "title": "TEMPUR台灣官方所選SmartCool SKU",
+          "outcome": "有全新上市文字而無實際年月日"
+        },
+        {
+          "url": "https://www.bing.com/search?q=%220000555473%22%20%E4%B8%8A%E5%B8%82%20%E7%99%BC%E5%94%AE%20release%20launch",
+          "title": "完整SKU上市搜尋",
+          "outcome": "未找到合格日期來源"
+        }
+      ]
+    },
+    {
+      "id": "dryer-sampo-sd-10dh",
+      "category": "dryer",
+      "brand": "SAMPO",
+      "model": "SD-10DH",
+      "name": "SAMPO SD-10DH 10kg 變頻熱泵除濕式乾衣機",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found_after_original_page_review",
+      "query": "\"SD-10DH\" 上市 發售",
+      "reason": "已讀聲寶官方產品、現行乾衣機目錄、商城與使用說明書；未見明確上市/發售公告。2025廣告作品年份、說明書檔案日期與2025-10-29論壇購前詢問不當作上市日。",
+      "checkedAt": "2026-10-23",
+      "checkedSources": [
+        {
+          "url": "https://www.sampo.com.tw/pdetail.aspx?pd=1706",
+          "title": "聲寶SD-10DH官方產品頁"
+        },
+        {
+          "url": "https://www.sampo.com.tw/pdlist.aspx?id=38",
+          "title": "聲寶乾衣機現行目錄"
+        },
+        {
+          "url": "https://www.sampostore.com.tw/SalePage/Index/11231834",
+          "title": "聲寶官方商城SD-10DH"
+        },
+        {
+          "url": "https://www.sampo.com.tw/getfile.aspx?pd=1706",
+          "title": "聲寶SD-10DH使用說明書"
+        }
+      ]
+    },
+    {
+      "id": "monitor-benq-ma270s",
+      "category": "monitor",
+      "brand": "BenQ",
+      "model": "MA270S",
+      "name": "27 吋 5K NanoGloss Thunderbolt 4 Mac 螢幕",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "checkedAt": "2026-10-23",
+      "reason": "台灣官方新聞實際印2026-02-11，但內文是即日起至3月5日預購；未找到明確實際上市／發售日期，不採URL2月9日、新聞發布或自行推算預購結束次日。",
+      "query": "BenQ MA270S 上市 發售 launch release",
+      "auditQueries": [
+        "BenQ MA270S 上市 發售 launch release"
+      ],
+      "checkedSources": [
+        {
+          "url": "https://www.benq.com/zh-tw/news/products/branding-new-product-lcd-ma270s-ma320ug-20260209.html",
+          "title": "BenQ MA270S與MA320UG台灣預購公告",
+          "result": "預購公告不採為實際發售日"
+        },
+        {
+          "url": "https://www.benq.com/zh-tw/monitor/home/ma270s/buy.html",
+          "title": "BenQ MA270S台灣官方商城",
+          "result": "可購但未列明確上市日"
+        }
+      ],
+      "auditDisposition": "not_found"
+    },
+    {
+      "id": "monitor-benq-ma320ug",
+      "category": "monitor",
+      "brand": "BenQ",
+      "model": "MA320UG",
+      "name": "31.5 吋 4K 120Hz NanoGloss Thunderbolt 4 Mac 螢幕",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "checkedAt": "2026-10-23",
+      "reason": "台灣官方新聞實際印2026-02-11，但內文是即日起至3月5日預購；未找到明確實際上市／發售日期，不採URL2月9日、新聞發布或自行推算預購結束次日。",
+      "query": "BenQ MA320UG 上市 發售 launch release",
+      "auditQueries": [
+        "BenQ MA320UG 上市 發售 launch release"
+      ],
+      "checkedSources": [
+        {
+          "url": "https://www.benq.com/zh-tw/news/products/branding-new-product-lcd-ma270s-ma320ug-20260209.html",
+          "title": "BenQ MA270S與MA320UG台灣預購公告",
+          "result": "預購公告不採為實際發售日"
+        },
+        {
+          "url": "https://www.benq.com/zh-tw/monitor/home/ma320ug/buy.html",
+          "title": "BenQ MA320UG台灣官方商城",
+          "result": "可購但未列明確上市日"
+        }
+      ],
+      "auditDisposition": "not_found"
+    },
+    {
+      "id": "mouse-razer-basilisk-v4-pro",
+      "category": "mouse",
+      "brand": "Razer",
+      "model": "RZ01-05670100-R3A1",
+      "name": "Basilisk V4 Pro 黑色 50K 三模多功能電競滑鼠",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2026-10-08",
+      "sourceUrl": "https://www.razer.com/newsroom/product-news/basilisk-v4-line",
+      "sourceTitle": "Razer Basilisk V4官方推出公告",
+      "evidenceSnippet": "官方2026-10-08明示announced the launch of Basilisk V4 Pro，記全球推出日，非台灣到貨日。",
+      "confidence": "high",
+      "sourceKind": "official_announcement",
+      "reason": "官方2026-10-08明示announced the launch of Basilisk V4 Pro，記全球推出日，非台灣到貨日。",
+      "query": "Razer RZ01-05670100-R3A1 release launch 上市",
+      "auditQueries": [
+        "Razer RZ01-05670100-R3A1 release launch 上市"
+      ],
+      "checkedAt": "2026-10-23",
+      "auditDisposition": "confirmed",
+      "checkedSources": [
+        {
+          "url": "https://www.razer.com/newsroom/product-news/basilisk-v4-line",
+          "title": "Razer官方新品公告",
+          "result": "官方2026-10-08明示announced the launch of Basilisk V4 Pro，記全球推出日，非台灣到貨日。"
+        }
+      ]
+    },
+    {
+      "id": "keyboard-razer-huntsman-v3-pro-tkl-8k",
+      "category": "keyboard",
+      "brand": "Razer",
+      "model": "RZ03-05520100-R3M1",
+      "name": "Huntsman V3 Pro Tenkeyless 8KHz 黑色美式類比光軸鍵盤",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "官方10/28/2025新聞明示unveiled，部落格arrival仍未列確定發售日；不把發表、文章日期或韌體日期當上市。",
+      "query": "Razer RZ03-05520100-R3M1 release launch 上市",
+      "auditQueries": [
+        "Razer RZ03-05520100-R3M1 release launch 上市"
+      ],
+      "checkedAt": "2026-10-23",
+      "auditDisposition": "not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.razer.com/newsroom/product-news/huntsman-v3-pro-8khz",
+          "title": "Razer官方新品公告",
+          "result": "官方10/28/2025新聞明示unveiled，部落格arrival仍未列確定發售日；不把發表、文章日期或韌體日期當上市。"
+        }
+      ]
+    },
+    {
+      "id": "mousepad-razer-atlas-pro",
+      "category": "mousepad",
+      "brand": "Razer",
+      "model": "RZ02-05760100-R3M1",
+      "name": "Atlas Pro 黑色 500×400mm 超薄強化玻璃滑鼠墊",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2026-05-15",
+      "sourceUrl": "https://prtimes.jp/a/?f=d163154-91-38be178b54301e17db056899a5d18cde.pdf",
+      "sourceTitle": "Razer日本Atlas Pro官方新品規格PDF",
+      "evidenceSnippet": "官方日本新品規格PDF逐欄綁相同黑色RZ02-05760100-R3M1，國內小売店発売日2026/05/15；記日本發售日，不宣稱台灣上市或全球最早日。",
+      "confidence": "high",
+      "sourceKind": "official_announcement",
+      "reason": "官方日本新品規格PDF逐欄綁相同黑色RZ02-05760100-R3M1，國內小売店発売日2026/05/15；記日本發售日，不宣稱台灣上市或全球最早日。",
+      "query": "Razer RZ02-05760100-R3M1 release launch 上市",
+      "auditQueries": [
+        "Razer RZ02-05760100-R3M1 release launch 上市"
+      ],
+      "checkedAt": "2026-10-23",
+      "auditDisposition": "confirmed",
+      "checkedSources": [
+        {
+          "url": "https://prtimes.jp/a/?f=d163154-91-38be178b54301e17db056899a5d18cde.pdf",
+          "title": "Razer官方新品公告",
+          "result": "官方日本新品規格PDF逐欄綁相同黑色RZ02-05760100-R3M1，國內小売店発売日2026/05/15；記日本發售日，不宣稱台灣上市或全球最早日。"
+        }
+      ]
+    },
+    {
+      "id": "chair-sidiz-t50-2nd",
+      "category": "chair",
+      "brand": "SIDIZ",
+      "model": "T51HLDA0KT-5F6ABK",
+      "name": "T50 二代 人體工學椅（黑框黑座）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "官網二代產品頁及升級指南未列確切發售日期；7/27韓國活動報導日期、台灣9/11社群轉載與9/13通路開賣促銷均不足封閉本黑色SKU上市，未採文章／建檔日。",
+      "query": "SIDIZ T51HLDA0KT-5F6ABK 二代 上市 發售",
+      "auditQueries": [
+        "SIDIZ T51HLDA0KT-5F6ABK 二代 上市 發售"
+      ],
+      "checkedAt": "2026-10-23",
+      "auditDisposition": "not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.sidiz.com.tw/blogs/news/sidiz-t50-2nd-guide",
+          "title": "SIDIZ台灣二代升級指南",
+          "result": "明示第二代差異但未列明確上市日"
+        },
+        {
+          "url": "https://www.sidiz.com.tw/products/t50-2nd?variant=46548627980484",
+          "title": "SIDIZ台灣exact二代商品頁",
+          "result": "有現價與完整SKU，未列上市日期"
+        }
+      ]
+    },
+    {
+      "id": "chair-sidiz-t50-air-2nd",
+      "category": "chair",
+      "brand": "SIDIZ",
+      "model": "T53HLDA0KT-5H6BBK",
+      "name": "T50 AIR 二代 人體工學椅（黑框黑座）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "官網二代產品頁及升級指南未列確切發售日期；7/27韓國活動報導日期、台灣9/11社群轉載與9/13通路開賣促銷均不足封閉本黑色SKU上市，未採文章／建檔日。",
+      "query": "SIDIZ T53HLDA0KT-5H6BBK 二代 上市 發售",
+      "auditQueries": [
+        "SIDIZ T53HLDA0KT-5H6BBK 二代 上市 發售"
+      ],
+      "checkedAt": "2026-10-23",
+      "auditDisposition": "not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.sidiz.com.tw/blogs/news/sidiz-t50-2nd-guide",
+          "title": "SIDIZ台灣二代升級指南",
+          "result": "明示第二代差異但未列明確上市日"
+        },
+        {
+          "url": "https://www.sidiz.com.tw/products/t50-air-2nd?variant=46552049778884",
+          "title": "SIDIZ台灣exact二代商品頁",
+          "result": "有現價與完整SKU，未列上市日期"
+        }
+      ]
+    },
+    {
+      "id": "washerdryer-panasonic-na-v1515sp",
+      "category": "washerdryer",
+      "brand": "Panasonic",
+      "model": "NA-V1515SP",
+      "name": "Panasonic NA-V1515SP AI智慧雙控洗15kg／烘15kg 熱泵洗烘衣機（冰鑽白完整雙塔）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found_after_original_page_review",
+      "query": "\"NA-V1515SP\" 上市 發售",
+      "reason": "已讀官方產品、說明書、現行商城與全國電子；2025秋季型錄只有預計12月上市，2026 iF獎/採訪日期不是實際上市公告，故保留找不到而不猜月份。",
+      "checkedAt": "2026-10-23",
+      "checkedSources": [
+        {
+          "url": "https://www.panasonic.com/tw/consumer/washing-machine/washing-and-drying-all-in-one/na-v1515sp.html",
+          "title": "NA-V1515SP台灣官方產品頁"
+        },
+        {
+          "url": "https://pmst.panasonic.com.tw/PSMIOUT/DL/DLFiles/3245/0_H_27410.pdf",
+          "title": "Panasonic AI雙控洗烘衣機官方說明書"
+        },
+        {
+          "url": "https://www.elifemall.com.tw/product/2159001",
+          "title": "全國電子完整白色洗烘組"
+        }
+      ]
+    },
+    {
+      "id": "washerdryer-panasonic-na-v1715sp",
+      "category": "washerdryer",
+      "brand": "Panasonic",
+      "model": "NA-V1715SP",
+      "name": "Panasonic NA-V1715SP AI智慧雙控洗17kg／烘15kg 熱泵洗烘衣機（冰鑽白完整雙塔）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found_after_original_page_review",
+      "query": "\"NA-V1715SP\" 上市 發售",
+      "reason": "已讀官方產品、說明書、現行商城與全國電子；2025秋季型錄只有預計12月上市，2026 iF獎/採訪日期不是實際上市公告，故保留找不到而不猜月份。",
+      "checkedAt": "2026-10-23",
+      "checkedSources": [
+        {
+          "url": "https://www.panasonic.com/tw/consumer/washing-machine/washing-and-drying-all-in-one/na-v1715sp.html",
+          "title": "NA-V1715SP台灣官方產品頁"
+        },
+        {
+          "url": "https://pmst.panasonic.com.tw/PSMIOUT/DL/DLFiles/3245/0_H_27410.pdf",
+          "title": "Panasonic AI雙控洗烘衣機官方說明書"
+        },
+        {
+          "url": "https://www.elifemall.com.tw/product/2159003",
+          "title": "全國電子完整白色洗烘組"
+        }
+      ]
+    },
+    {
+      "id": "keyboard-wooting-80he-plus-tikken-medium",
+      "category": "keyboard",
+      "brand": "Wooting",
+      "model": "WK5B-US1-TIK-BK2B",
+      "name": "80HE+ ANSI US ABS Dark 完整成品（Lekker Tikken Medium，無旋鈕）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "官方9/8發表預告、9/17預購與9/30比較文均未給本ABS Dark完整成品明確發售日；10/14quickstart更新、Wootility9/9支援日期及10/22用戶開箱都不當上市日。",
+      "query": "Wooting WK5B-US1-TIK-BK2B release launch",
+      "auditQueries": [
+        "Wooting WK5B-US1-TIK-BK2B release launch"
+      ],
+      "checkedAt": "2026-10-23",
+      "auditDisposition": "not_found",
+      "checkedSources": [
+        {
+          "url": "https://wooting.io/post/wooting-80he-vs-80he-and-what-actually-changed",
+          "title": "Wooting官方80HE新舊比較",
+          "result": "明示release及available但未列確切發售日"
+        },
+        {
+          "url": "https://wooting.io/post/where-did-the-wooting-80he-go",
+          "title": "Wooting80HE+預告",
+          "result": "預購與估計交期，不當確定發售"
+        }
+      ]
+    },
+    {
+      "id": "waterheater-sakura-dh1670h",
+      "category": "waterheater",
+      "brand": "SAKURA",
+      "model": "DH1670H",
+      "name": "SAKURA DH1670H POWER四季溫智慧水量熱水器16L（LPG）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"DH1670H\" 上市 發表",
+      "sourceKind": "not_found_after_manual_recheck",
+      "reason": "品牌exact產品頁未標明實際上市年月；2025型錄「即將上市」或2026評價日不當實際發售日。",
+      "checkedAt": "2026-10-23",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://shop.sakura.com.tw/zh-TW/products/dh1670h",
+          "title": "SAKURA官方DH1670H",
+          "outcome": "現售規格可核，未明示實際上市日"
+        }
+      ]
+    },
+    {
+      "id": "waterheater-sakura-dh1693h",
+      "category": "waterheater",
+      "brand": "SAKURA",
+      "model": "DH1693H",
+      "name": "SAKURA DH1693H AI四季溫DC渦輪增壓熱水器16L（NG1）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"DH1693H\" 上市 發表",
+      "sourceKind": "not_found_after_manual_recheck",
+      "reason": "品牌exact產品頁未標明實際上市年月；2025型錄「即將上市」或2026評價日不當實際發售日。",
+      "checkedAt": "2026-10-23",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://shop.sakura.com.tw/zh-TW/products/dh1693h",
+          "title": "SAKURA官方DH1693H",
+          "outcome": "現售規格可核，未明示實際上市日"
+        }
+      ]
+    },
+    {
+      "id": "mousepad-razer-gigantus-v2-pro-balance-xxl",
+      "category": "mousepad",
+      "brand": "Razer",
+      "model": "RZ02-05490700-R3M1",
+      "name": "Gigantus V2 Pro Balance XXL 黑色布質滑鼠墊",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2026-09-23",
+      "sourceUrl": "https://www.sofmap.com/product_detail.aspx?sku=102355802",
+      "sourceTitle": "Sofmap exact Gigantus V2 Pro XXL Balance RZ02-05490700-R3M1",
+      "evidenceSnippet": "原頁完整SKU與JAN8887910063736並明示発売日2026/09/23発売。此為日本exact XXL發售日；3/24原廠launch為系列且支援頁只詳列L，未拿系列公告冒充本XXL台灣發售。",
+      "confidence": "medium",
+      "sourceKind": "retailer",
+      "reason": "採可信日本新品通路明示的同SKU發售日，未查得台灣確定上市日。",
+      "query": "RZ02-05490700-R3M1 release 発売",
+      "auditQueries": [
+        "RZ02-05490700-R3M1 release 発売"
+      ],
+      "checkedAt": "2026-10-23",
+      "auditDisposition": "found",
+      "checkedSources": [
+        {
+          "url": "https://www.razer.com/newsroom/product-news/viper-v4-pro-gigantus-v2-pro",
+          "title": "Razer Gigantus V2 Pro launch",
+          "result": "系列3/24launch，未證XXL於同日推出"
+        },
+        {
+          "url": "https://www.sofmap.com/product_detail.aspx?sku=102355802",
+          "title": "Sofmap exact XXL Balance",
+          "result": "明示同SKU日本2026/09/23発売"
+        }
+      ]
+    },
+    {
+      "id": "robot-ecovacs-t80s-plus",
+      "category": "robot",
+      "brand": "Ecovacs",
+      "model": "T80S PLUS",
+      "name": "ECOVACS DEEBOT T80S PLUS 增壓滾筒掃拖機器人（水箱版）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found_after_original_page_review",
+      "query": "\"T80S PLUS\" 台灣 上市 發售",
+      "reason": "台灣官方寫10/19正式開賣但該文字未列年份；PChome10/20 12點是通路開賣，未取得明確完整年份的品牌上市原文，不以本輪日期/頁尾版權補推2026-10-19。",
+      "checkedAt": "2026-10-23",
+      "checkedSources": [
+        {
+          "url": "https://storetw.ecovacs.com/zh-tw/products/t80s-plus?variant=67775548489943",
+          "title": "ECOVACS台灣官方T80S PLUS完整水箱機組"
+        },
+        {
+          "url": "https://24h.pchome.com.tw/prod/DMBL0L-A900KL31S",
+          "title": "PChome台灣T80S PLUS水箱機組"
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0788/4364/2071/files/T80S-20.jpg?v=1792050023",
+          "title": "台灣官方本型尺寸規格圖"
+        },
+        {
+          "url": "https://storetw.ecovacs.com/zh-tw/pages/%E5%94%AE%E5%BE%8C%E6%9C%8D%E5%8B%99",
+          "title": "ECOVACS台灣售後保固條款"
+        }
+      ]
+    },
+    {
+      "id": "robot-ecovacs-x12s-pro",
+      "category": "robot",
+      "brand": "Ecovacs",
+      "model": "X12S PRO",
+      "name": "ECOVACS DEEBOT X12S PRO 噴溶熱水滾筒掃拖機器人（水箱版）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found_after_original_page_review",
+      "query": "\"X12S PRO\" 台灣 上市 發售",
+      "reason": "官方商品頁及PChome技術時間線寫2026/9跨代升級；通路9/10新品開賣與論壇9/8已下單不等於已取得品牌正式發售日公告，不用技術圖表日期、促銷或原文發表日補推上市。",
+      "checkedAt": "2026-10-23",
+      "checkedSources": [
+        {
+          "url": "https://storetw.ecovacs.com/zh-tw/products/x12s-pro?variant=49639283785943",
+          "title": "ECOVACS台灣官方X12S PRO完整水箱機組"
+        },
+        {
+          "url": "https://24h.pchome.com.tw/prod/DMBL0L-A900KDK7Y",
+          "title": "PChome台灣X12S PRO水箱機組"
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0788/4364/2071/files/X12S_-19-1.jpg?v=1789488231",
+          "title": "台灣官方本型尺寸規格圖"
+        },
+        {
+          "url": "https://storetw.ecovacs.com/zh-tw/pages/%E5%94%AE%E5%BE%8C%E6%9C%8D%E5%8B%99",
+          "title": "ECOVACS台灣售後保固條款"
+        }
+      ]
+    },
+    {
+      "id": "dehumidifier-sharp-dw-ux19ht-c",
+      "category": "dehumidifier",
+      "brand": "SHARP",
+      "model": "DW-UX19HT-C",
+      "name": "乾淨方PRO+ 19L 雙氣流AIoT雙變頻除濕機（奶茶棕）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "官方系列頁標2026全新及產品頁現售，未明示完整SKU上市／發售日期；圖片2026-10路徑、momo早鳥促銷9/19轉述、保固更新日期都不當發售日。",
+      "query": "DW-UX19HT-C 上市 發售 release launch",
+      "auditQueries": [
+        "DW-UX19HT-C 上市 發售 release launch"
+      ],
+      "checkedAt": "2026-10-23",
+      "auditDisposition": "not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.tw.sharp/inverter-dehumidifier",
+          "title": "SHARP2026雙變頻系列",
+          "result": "全新年度行銷而非確定發售日期"
+        },
+        {
+          "url": "https://tw.sharp/products/dw-ux19ht-c",
+          "title": "SHARP DW-UX19HT-C台灣官方規格",
+          "result": "無明確上市日期"
+        },
+        {
+          "url": "https://24h.pchome.com.tw/prod/DMBQ08-A900KFFAP",
+          "title": "PChome（奶茶棕）",
+          "result": "可購公開價，不當上市日"
+        }
+      ]
+    },
+    {
+      "id": "dehumidifier-sharp-dw-ux25ht-w",
+      "category": "dehumidifier",
+      "brand": "SHARP",
+      "model": "DW-UX25HT-W",
+      "name": "乾淨方PRO+ 25L 雙氣流AIoT雙變頻除濕機（雪霧白）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "官方系列頁標2026全新及產品頁現售，未明示完整SKU上市／發售日期；圖片2026-10路徑、momo早鳥促銷9/19轉述、保固更新日期都不當發售日。",
+      "query": "DW-UX25HT-W 上市 發售 release launch",
+      "auditQueries": [
+        "DW-UX25HT-W 上市 發售 release launch"
+      ],
+      "checkedAt": "2026-10-23",
+      "auditDisposition": "not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.tw.sharp/inverter-dehumidifier",
+          "title": "SHARP2026雙變頻系列",
+          "result": "全新年度行銷而非確定發售日期"
+        },
+        {
+          "url": "https://tw.sharp/products/dw-ux25ht?v=1918",
+          "title": "SHARP DW-UX25HT-W台灣官方規格",
+          "result": "無明確上市日期"
+        },
+        {
+          "url": "https://www.momoshop.com.tw/product/15585319",
+          "title": "momo（購買頁請選雪霧白）",
+          "result": "可購公開價，不當上市日"
         }
       ]
     }

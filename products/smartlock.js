@@ -1992,9 +1992,9 @@
     "price": {
       "currency": "HKD",
       "amount": 9638,
-      "converted": 39807,
+      "converted": 40081,
       "basis": "retailer_current",
-      "confidence": "EasyLock 香港 2026-08-28 exact-model 公開促銷價；ExchangeRate-API 2026-10-22 匯率換算"
+      "confidence": "EasyLock 香港 2026-08-28 exact-model 公開促銷價；ExchangeRate-API 2026-10-23 匯率換算"
     },
     "installation": {
       "status": "included_basic",
@@ -4851,6 +4851,202 @@
           "query": "\"dormakaba AS901\" problem issue defect failure broken 災情 故障 異常",
           "queryUrl": "https://www.youtube.com/results?search_query=%22dormakaba%20AS901%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
           "targetHost": "youtube.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "smartlock-philips-ddl720-fvp",
+    "category": "smartlock",
+    "rank": 52,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Philips",
+    "model": "DDL720-FVP-7HWS",
+    "name": "DDL720-FVP 人臉可視推拉電子鎖",
+    "price": {
+      "currency": "TWD",
+      "amount": 25999,
+      "converted": 25999,
+      "basis": "retailer_current",
+      "confidence": "2026-10-23 台灣總代理立傑新品原頁及Shopify exact variant公開價；available=true"
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "總代理原頁標示免費到府安裝；下單前由官方LINE確認門厚、門向、鎖體、天地栓、門框及現場施工條件，特殊加工與追加施工費用先確認。"
+    },
+    "image": "https://cdn.shopify.com/s/files/1/0649/8235/2081/files/720FVP-GIFT2.jpg?v=1791787754",
+    "buyUrl": "https://shop.ljtwm.com/products/philips-ddl720-fvp",
+    "buyLabel": "飛利浦台灣總代理立傑商城",
+    "specs": [
+      "人臉、指紋、密碼、卡片、臨時密碼、機械鑰匙六種室外解鎖",
+      "可視貓眼、廣角夜視、4吋LCD；Wi-Fi／Home Access App",
+      "鋁合金推拉把手；機械電子鎖體、室內快開把手",
+      "5000mAh鋰聚合物電池；充電5V／1至2A，勿用3A等快充充電器；來源續航3至5個月依使用頻率",
+      "應急供電：5V行動電源、Type-C接口",
+      "安裝門厚38至120mm；左推／左拉／右推／右拉；木門、銅門、防盜門",
+      "人臉容量50組",
+      "指紋99組、門卡100組；一般／雙重驗證模式",
+      "遠端門鈴視訊、徘徊偵測與警報；雲端歷史影片須另確認訂閱費用",
+      "尺寸與淨重：原頁未標示"
+    ],
+    "description": "台灣總代理現售的人臉可視電子鎖，原頁提供完整型號DDL720-FVP-7HWS；補入既有702／709系列之外的720新世代選項，舊款仍並行，不據此宣稱停產。",
+    "pros": [
+      "人臉無接觸解鎖，另保留指紋、卡片與機械鑰匙",
+      "原頁含基本到府安裝與自安裝日起三年保固",
+      "貓眼、夜視、室內螢幕與門鈴對講集中在門鎖"
+    ],
+    "cons": [
+      "需定期充電；攝影、Wi-Fi與使用頻率會影響續航",
+      "雲端歷史影片與網路功能須確認訂閱、連線與資料使用條款",
+      "需先由原廠評估門型與天地栓，不保證所有門可直接換裝"
+    ],
+    "bestFor": "想升級人臉解鎖與可視門鈴，且重視台灣原廠派裝與售後的家庭。",
+    "recommendation": "720系列人臉選項：以台灣總代理公開25,999元及安裝條款比較；購買前確認門型、追加費用及雲端服務成本。",
+    "score": 88,
+    "voltage": "5000mAh鋰聚合物電池；充電5V／1至2A；Type-C應急供電5V，非直接接市電，不使用3A等快充充電器。",
+    "warranty": "台灣總代理立傑自安裝日起保固3年；首年功能故障可換同款新機或零件，第2至3年可換同款整新機或零件，依原廠條款。 鋰電池保固半年。",
+    "tags": [
+      "人臉",
+      "可視貓眼",
+      "推拉式",
+      "台灣總代理"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-23",
+      "note": "已讀台灣總代理DDL720-FVP新品公開價，並人工查FindPrice、BigGo完整型號價格搜尋；兩個比價原頁工具皆無法存取，未取得帶歷史時間點的同型號可信新品價格。今日公開售價不推為歷史最低價，亦不跨用DDL702/709或另一720版本。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-23",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"DDL720-FVP-7HWS\" site:mobile01.com",
+          "queryUrl": "https://www.bing.com/search?q=%22DDL720-FVP-7HWS%22%20site%3Amobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "\"DDL720-FVP-7HWS\" site:ptt.cc",
+          "queryUrl": "https://www.bing.com/search?q=%22DDL720-FVP-7HWS%22%20site%3Aptt.cc"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "\"DDL720-FVP-7HWS\" site:reddit.com",
+          "queryUrl": "https://www.bing.com/search?q=%22DDL720-FVP-7HWS%22%20site%3Areddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "smartlock-philips-ddl720-mvp",
+    "category": "smartlock",
+    "rank": 53,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Philips",
+    "model": "DDL720-MVP-17HWS",
+    "name": "DDL720-MVP 掌靜脈可視推拉電子鎖",
+    "price": {
+      "currency": "TWD",
+      "amount": 24999,
+      "converted": 24999,
+      "basis": "retailer_current",
+      "confidence": "2026-10-23 台灣總代理立傑新品原頁及Shopify exact variant公開價；available=true"
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "總代理原頁標示免費到府安裝；下單前由官方LINE確認門厚、門向、鎖體、天地栓、門框及現場施工條件，特殊加工與追加施工費用先確認。"
+    },
+    "image": "https://cdn.shopify.com/s/files/1/0649/8235/2081/files/720MVP-GIFT2.jpg?v=1791788235",
+    "buyUrl": "https://shop.ljtwm.com/products/philips-ddl720-mvp",
+    "buyLabel": "飛利浦台灣總代理立傑商城",
+    "specs": [
+      "掌靜脈、指紋、密碼、卡片、臨時密碼、機械鑰匙六種室外解鎖",
+      "可視貓眼、廣角夜視、4吋LCD；Wi-Fi／Home Access App",
+      "鋁合金推拉把手；機械電子鎖體、室內快開把手",
+      "5000mAh鋰聚合物電池；充電5V／1至2A，勿用3A等快充充電器；來源續航3至5個月依使用頻率",
+      "應急供電：5V行動電源、Type-C接口",
+      "安裝門厚38至120mm；左推／左拉／右推／右拉；木門、銅門、防盜門",
+      "掌靜脈容量50組",
+      "指紋99組、門卡100組；一般／雙重驗證模式",
+      "遠端門鈴視訊、徘徊偵測與警報；雲端歷史影片須另確認訂閱費用",
+      "尺寸與淨重：原頁未標示"
+    ],
+    "description": "台灣總代理現售的掌靜脈可視電子鎖，原頁提供完整型號DDL720-MVP-17HWS；補入既有702／709系列之外的720新世代選項，舊款仍並行，不據此宣稱停產。",
+    "pros": [
+      "掌靜脈無接觸解鎖，另保留指紋、卡片與機械鑰匙",
+      "原頁含基本到府安裝與自安裝日起三年保固",
+      "貓眼、夜視、室內螢幕與門鈴對講集中在門鎖"
+    ],
+    "cons": [
+      "需定期充電；攝影、Wi-Fi與使用頻率會影響續航",
+      "雲端歷史影片與網路功能須確認訂閱、連線與資料使用條款",
+      "需先由原廠評估門型與天地栓，不保證所有門可直接換裝"
+    ],
+    "bestFor": "想升級掌靜脈解鎖與可視門鈴，且重視台灣原廠派裝與售後的家庭。",
+    "recommendation": "720系列掌靜脈選項：以台灣總代理公開24,999元及安裝條款比較；購買前確認門型、追加費用及雲端服務成本。",
+    "score": 87,
+    "voltage": "5000mAh鋰聚合物電池；充電5V／1至2A；Type-C應急供電5V，非直接接市電，不使用3A等快充充電器。",
+    "warranty": "台灣總代理立傑自安裝日起保固3年；首年功能故障可換同款新機或零件，第2至3年可換同款整新機或零件，依原廠條款。 鋰電池保固半年。",
+    "tags": [
+      "掌靜脈",
+      "可視貓眼",
+      "推拉式",
+      "台灣總代理"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-23",
+      "note": "已讀台灣總代理DDL720-MVP新品公開價，並人工查FindPrice、BigGo完整型號價格搜尋；兩個比價原頁工具皆無法存取，未取得帶歷史時間點的同型號可信新品價格。今日公開售價不推為歷史最低價，亦不跨用DDL702/709或另一720版本。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-23",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"DDL720-MVP-17HWS\" site:mobile01.com",
+          "queryUrl": "https://www.bing.com/search?q=%22DDL720-MVP-17HWS%22%20site%3Amobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "\"DDL720-MVP-17HWS\" site:ptt.cc",
+          "queryUrl": "https://www.bing.com/search?q=%22DDL720-MVP-17HWS%22%20site%3Aptt.cc"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "\"DDL720-MVP-17HWS\" site:reddit.com",
+          "queryUrl": "https://www.bing.com/search?q=%22DDL720-MVP-17HWS%22%20site%3Areddit.com"
         }
       ]
     }

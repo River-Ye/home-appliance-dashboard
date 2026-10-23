@@ -4,6 +4,7 @@ const path = require("path");
 const vm = require("vm");
 const {
   PERIPHERAL_TYPES,
+  PERIPHERAL_BUDGET_COUNTS,
   PERIPHERAL_SPEC_PREFIXES,
   dimensionPatternForCategory,
   weightPatternForCategory,
@@ -91,7 +92,8 @@ function checkPeripherals() {
   assert(!dimensionPatternForCategory("mouse").test("尺寸：高 120 x 寬 70 x 高 40 mm"));
 
   for (const category of ["mouse", "keyboard", "mousepad"]) {
-    const products = Array.from({ length: 30 }, (_, index) => fixture(category, index));
+    const budgets = [...PERIPHERAL_BUDGET_COUNTS[category]].flatMap(([budget, count]) => Array(count).fill(budget));
+    const products = budgets.map((budget, index) => ({ ...fixture(category, index), budget }));
     const types = {
       mouse: ["standard", "vertical", "trackball"],
       keyboard: ["membrane", "scissor", "mechanical", "magnetic", "optical"],
@@ -101,6 +103,9 @@ function checkPeripherals() {
     const failures = [];
     validatePeripheralCatalog(products, failures);
     assert.deepEqual(failures, []);
+    const missingProduct = [];
+    validatePeripheralCatalog(products.slice(0, -1), missingProduct);
+    assert(missingProduct.some((failure) => failure.includes("must contain")));
     const wrongBudget = [];
     validatePeripheralCatalog(products.map((product) => ({ ...product, budget: "premium" })), wrongBudget);
     assert(wrongBudget.some((failure) => failure.includes("budget")));

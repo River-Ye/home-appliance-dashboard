@@ -2284,6 +2284,18 @@ async function main() {
       && !freshMaintenanceSummary.includes("沿用本資料日已完成"),
     "a newly completed draft review must not be reported as carried forward only because finalize happens later",
   );
+  const incompleteSuccessorSummary = renderMaintenanceSummary({
+    checkedAt: "2026-10-23T01:00:00.000Z",
+    categoryReviewProvenance: "current_run",
+    summary: {},
+    categoryScan: [{ successorReview: { completePerExistingModelMapping: false } }],
+  });
+  assert(
+    incompleteSuccessorSummary.includes("尚未確認的逐型號後繼對照")
+      && incompleteSuccessorSummary.includes("類價格與來源全量查核")
+      && !incompleteSuccessorSummary.includes("逐類人工新品覆核已完成"),
+    "maintenance summary must disclose incomplete successor mappings",
+  );
   const selectedCurrentReview = selectPreviousCategoryReview([
     {
       dataDate: "2026-08-03",
@@ -2832,6 +2844,10 @@ async function main() {
   assert(categories.length === meta.expectedCategoryCount, "meta category count should match categories");
   assert(products.length === meta.expectedProductCount, "meta product count should match products");
   assert(productLoader.productScriptUrl(categories[0]) === `./products/tv.js?v=${meta.cacheVersion}`, "loader URL should use category id and cache version");
+
+  const missingPillowFailures = [];
+  validateBeddingCatalog(products.filter((product) => product.category === "pillow").slice(1), missingPillowFailures);
+  assert(missingPillowFailures.some((failure) => failure.includes("must contain")), "bedding counts must stay exact after successor additions");
 
   const punctuationFamilyProducts = JSON.parse(JSON.stringify(products.filter((product) => product.category === "pillow")));
   const punctuationFamilyTarget = punctuationFamilyProducts.find((product) => product.id === "pillow-emma-black-diamond");

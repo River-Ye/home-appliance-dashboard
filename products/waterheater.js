@@ -5151,6 +5151,202 @@
       "空氣源熱泵",
       "施工另估"
     ]
-  }
+  },
+{
+  "id": "waterheater-sakura-dh1670h",
+  "category": "waterheater",
+  "brand": "SAKURA",
+  "model": "DH1670H",
+  "name": "SAKURA DH1670H POWER四季溫智慧水量熱水器16L（LPG）",
+  "rank": 46,
+  "budget": "mid",
+  "channel": "tw",
+  "type": "gas",
+  "price": {
+    "currency": "TWD",
+    "amount": 18990,
+    "converted": 18990,
+    "basis": "retailer_current",
+    "scope": "single_unit",
+    "confidence": "PChome exact DH1670H LPG variant -002 Qty6；公開18990，母項000 Qty0未當無貨；2026-10-23人工核對"
+  },
+  "installation": {
+    "status": "included_basic",
+    "note": "此桶裝規格含以原箱零件完成的基本安裝；不含挖孔、割玻璃、配線管材與拆櫃。部分偏遠、山區、台南、宜花東及桃竹苗暫不服務；空趟300元、無舊機回收，需先聯繫確認。"
+  },
+  "image": "https://img.pchome.com.tw/cs/items/DPAL7XA900JEJZP/000001_1761892391.jpg",
+  "buyUrl": "https://24h.pchome.com.tw/prod/DPAL7X-A900JEJZP?p=1",
+  "buyLabel": "PChome 台灣新品（桶裝含基本安裝）",
+  "specs": [
+    "類型：瓦斯瞬熱式（FE 強制排氣）",
+    "能源／氣源：LPG 桶裝瓦斯（選定賣場規格）",
+    "熱水能力：16 L/min（溫升25°C）",
+    "能效：能源效率第2級；熱效率83%；瓦斯消耗量33.1 kW",
+    "安裝位置：屋內半密閉型；必須由合格技師依FE排氣規範施工",
+    "尺寸：寬 34.5 x 深 15.8 x 高 49.3 cm",
+    "重量：14 kg",
+    "電壓／頻率：110V／60Hz",
+    "排氣／給排水：FE 強制排氣；冷熱水管PF 1/2",
+    "安全裝置：官方8大安全防護，須核安裝環境與氣別",
+    "溫控／操作：POWER四季溫、雙核感測、智控微火、水量伺服器與下置DC變頻風機",
+    "安裝／加價：此桶裝規格含以原箱零件完成的基本安裝；不含挖孔、割玻璃、配線管材與拆櫃。部分偏遠、山區、台南、宜花東及桃竹苗暫不服務；空趟300元、無舊機回收，需先聯繫確認。"
+  ],
+  "description": "H版新增雙核感測與智控微火控制，保留原有F版供比較；此筆價格只對應LPG 桶裝瓦斯（選定賣場規格）。此桶裝規格含以原箱零件完成的基本安裝；不含挖孔、割玻璃、配線管材與拆櫃。部分偏遠、山區、台南、宜花東及桃竹苗暫不服務；空趟300元、無舊機回收，需先聯繫確認。",
+  "pros": [
+    "POWER四季溫、雙核感測、智控微火、水量伺服器與下置DC變頻風機",
+    "官方exact型號核實110V60Hz、16L/min與83%熱效率",
+    "台灣新品通路與原廠售後可核"
+  ],
+  "cons": [
+    "低水壓仍可能需要另設恆壓馬達，與1693H內建渦輪定位不同",
+    "天然瓦斯與桶裝版本不可混用；管線及排氣需場勘",
+    "上市年月日未獲明確公告，不用安檢登錄或評論日期推定"
+  ],
+  "bestFor": "桶裝瓦斯住宅、希望有水量伺服與季節溫控者",
+  "recommendation": "按氣別及安裝總價比較；POWER四季溫、雙核感測、智控微火、水量伺服器與下置DC變頻風機適合希望細緻溫控的16L需求。",
+  "releaseDate": "找不到",
+  "historicalLow": {
+    "status": "not_found",
+    "amount": null,
+    "currency": "TWD",
+    "converted": null,
+    "sourceUrl": "",
+    "sourceTitle": "",
+    "evidenceSnippet": "",
+    "sourceKind": "not_found",
+    "confidence": "not_found",
+    "checkedAt": "2026-10-23",
+    "note": "已人工查FindPrice與BigGo完整DH1670H價格/歷史入口及PChome現價；FindPrice原頁逾時，索引為現售與分期混列，BigGo無法存取，未取得有歷史時間點、同氣別與安裝範圍的可信新品史低。當日現價或公開折扣不推定史低。"
+  },
+  "issueResearch": {
+    "status": "no_common_issue",
+    "checkedAt": "2026-10-23",
+    "summary": "截至查核日，查無達門檻的集中負評／災情",
+    "issues": [],
+    "checkedSources": [
+      {
+        "platform": "Mobile01",
+        "targetHost": "mobile01.com",
+        "query": "\"DH1670H\" site:mobile01.com",
+        "queryUrl": "https://www.bing.com/search?q=%22DH1670H%22%20site%3Amobile01.com"
+      },
+      {
+        "platform": "PTT",
+        "targetHost": "ptt.cc",
+        "query": "\"DH1670H\" site:ptt.cc",
+        "queryUrl": "https://www.bing.com/search?q=%22DH1670H%22%20site%3Aptt.cc"
+      }
+    ]
+  },
+  "score": 87,
+  "voltage": "110V／60Hz 台灣公司貨；依原廠要求確認插座、接地及FE排氣",
+  "warranty": "台灣櫻花原廠保固1年；期限依保證書，安裝後起算；實際到府範圍與施工責任另確認",
+  "tags": [
+    "瓦斯熱水器",
+    "SAKURA",
+    "16L",
+    "H版新溫控",
+    "桶裝瓦斯",
+    "含基本安裝"
+  ]
+},
+{
+  "id": "waterheater-sakura-dh1693h",
+  "category": "waterheater",
+  "brand": "SAKURA",
+  "model": "DH1693H",
+  "name": "SAKURA DH1693H AI四季溫DC渦輪增壓熱水器16L（NG1）",
+  "rank": 47,
+  "budget": "mid",
+  "channel": "tw",
+  "type": "gas",
+  "price": {
+    "currency": "TWD",
+    "amount": 22599,
+    "converted": 22599,
+    "basis": "retailer_current",
+    "scope": "single_unit",
+    "confidence": "PChome exact DH1693H NG1 Qty2；Price.P25110、公開9折Price.Low22599，未計點數回饋；2026-10-23人工核對"
+  },
+  "installation": {
+    "status": "not_stated",
+    "note": "此NG1賣場未明確承諾含基本安裝，需另確認安裝費；FE排氣、管材、鑽孔、搬運與追加施工均由合格技師場勘報價，不套用其他賣場的含安裝條件。"
+  },
+  "image": "https://img.pchome.com.tw/cs/items/DPAL1NA900KIFI0/000001_1790741763.png",
+  "buyUrl": "https://24h.pchome.com.tw/prod/DPAL1N-A900KIFI0",
+  "buyLabel": "PChome 台灣新品（天然瓦斯，安裝另確認）",
+  "specs": [
+    "類型：瓦斯瞬熱式（FE 強制排氣）",
+    "能源／氣源：NG1 天然瓦斯（此賣場固定氣別）",
+    "熱水能力：16 L/min（溫升25°C）",
+    "能效：能源效率第2級；熱效率83%；瓦斯消耗量33.1 kW",
+    "安裝位置：屋內半密閉型；必須由合格技師依FE排氣規範施工",
+    "尺寸：查不到",
+    "重量：16 kg",
+    "電壓／頻率：110V／60Hz",
+    "排氣／給排水：FE 強制排氣；冷熱水管PF 1/2",
+    "安全裝置：官方8大安全防護，須核安裝環境與氣別",
+    "溫控／操作：AI四季溫、雙核感測、智控微火與DC變頻渦輪增壓",
+    "安裝／加價：此NG1賣場未明確承諾含基本安裝，需另確認安裝費；FE排氣、管材、鑽孔、搬運與追加施工均由合格技師場勘報價，不套用其他賣場的含安裝條件。"
+  ],
+  "description": "H版新增雙核感測與智控微火控制，保留原有F版供比較；此筆價格只對應NG1 天然瓦斯（此賣場固定氣別）。此NG1賣場未明確承諾含基本安裝，需另確認安裝費；FE排氣、管材、鑽孔、搬運與追加施工均由合格技師場勘報價，不套用其他賣場的含安裝條件。 官方本體數列345×184×580mm未標軸序，不能推定寬深高；安裝前索取完整尺寸圖。",
+  "pros": [
+    "AI四季溫、雙核感測、智控微火與DC變頻渦輪增壓",
+    "官方exact型號核實110V60Hz、16L/min與83%熱效率",
+    "台灣新品通路與原廠售後可核"
+  ],
+  "cons": [
+    "此通路未明確含安裝，不能只以22599比較含完整施工的他店總價",
+    "天然瓦斯與桶裝版本不可混用；管線及排氣需場勘",
+    "上市年月日未獲明確公告，不用安檢登錄或評論日期推定"
+  ],
+  "bestFor": "天然瓦斯住宅、希望改善弱水壓與季節溫控者",
+  "recommendation": "按氣別及安裝總價比較；AI四季溫、雙核感測、智控微火與DC變頻渦輪增壓適合希望細緻溫控的16L需求。",
+  "releaseDate": "找不到",
+  "historicalLow": {
+    "status": "not_found",
+    "amount": null,
+    "currency": "TWD",
+    "converted": null,
+    "sourceUrl": "",
+    "sourceTitle": "",
+    "evidenceSnippet": "",
+    "sourceKind": "not_found",
+    "confidence": "not_found",
+    "checkedAt": "2026-10-23",
+    "note": "已人工查FindPrice與BigGo完整DH1693H價格/歷史入口及PChome現價；FindPrice主要25110現售、523為48期月付款排除，BigGo無法存取，未取得有歷史時間點、同氣別與安裝範圍的可信新品史低。當日現價或公開折扣不推定史低。"
+  },
+  "issueResearch": {
+    "status": "no_common_issue",
+    "checkedAt": "2026-10-23",
+    "summary": "截至查核日，查無達門檻的集中負評／災情",
+    "issues": [],
+    "checkedSources": [
+      {
+        "platform": "Mobile01",
+        "targetHost": "mobile01.com",
+        "query": "\"DH1693H\" site:mobile01.com",
+        "queryUrl": "https://www.bing.com/search?q=%22DH1693H%22%20site%3Amobile01.com"
+      },
+      {
+        "platform": "PTT",
+        "targetHost": "ptt.cc",
+        "query": "\"DH1693H\" site:ptt.cc",
+        "queryUrl": "https://www.bing.com/search?q=%22DH1693H%22%20site%3Aptt.cc"
+      }
+    ]
+  },
+  "score": 88,
+  "voltage": "110V／60Hz 台灣公司貨；依原廠要求確認插座、接地及FE排氣",
+  "warranty": "此PChome賣場明示台灣櫻花原廠全機1年保固，並享原廠永久免費安全檢查；施工責任與耗材另依保證書",
+  "tags": [
+    "瓦斯熱水器",
+    "SAKURA",
+    "16L",
+    "H版新溫控",
+    "天然瓦斯",
+    "安裝另確認"
+  ]
+}
 ]);
 })();

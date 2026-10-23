@@ -1264,8 +1264,8 @@
     "image": "https://cs-a.ecimg.tw/items/DPAI1HA900AMJJK/000001_1761009175.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 21912,
-      "converted": 21912,
+      "amount": 22410,
+      "converted": 22410,
       "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current"
     },
@@ -2710,8 +2710,8 @@
     "image": "https://pstw.panasonic.com.tw/shop/Upload/Product/20260514190222S44S2J5E.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 39512,
-      "converted": 39512,
+      "amount": 40410,
+      "converted": 40410,
       "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
@@ -3401,6 +3401,200 @@
           "targetHost": "ptt.cc",
           "query": "site:ptt.cc \"EWW1143R7WC\" (問題 OR 故障 OR 災情)",
           "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22EWW1143R7WC%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85)"
+        }
+      ]
+    }
+  },
+  {
+    "id": "washerdryer-panasonic-na-v1515sp",
+    "category": "washerdryer",
+    "rank": 34,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Panasonic",
+    "model": "NA-V1515SP",
+    "name": "Panasonic NA-V1515SP AI智慧雙控洗15kg／烘15kg 熱泵洗烘衣機（冰鑽白完整雙塔）",
+    "price": {
+      "currency": "TWD",
+      "amount": 86400,
+      "converted": 86400,
+      "basis": "retailer_current",
+      "confidence": "2026-10-23實讀全國電子NA-V1515SP-W完整洗烘組公開價86400元；未扣會員券、信用卡或登錄回饋。"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "全國電子頁面說下訂七個工作日內由門市聯絡安裝時間，未明列本頁基本安裝涵蓋範圍；兩機獨立插座/接地、迴路、進排水及特殊搬運追加費需現場確認。"
+    },
+    "image": "https://ecimg.elifemall.com.tw/App_Images/753/ERPItem/2026/0421/2159001_25857.webp",
+    "buyUrl": "https://www.elifemall.com.tw/product/2159001",
+    "buyLabel": "全國電子｜冰鑽白完整雙塔",
+    "specs": [
+      "類型：完整洗衣15kg＋熱泵乾衣15kg雙塔組，不是單一室內機或單筒洗脫烘",
+    "洗/乾容量：15kg / 15kg",
+      "智慧雙控隱藏式面板；上下洗／烘為獨立滾筒，衣物需人工移入上方乾衣筒",
+      "Heat Pump除濕式低溫烘乾、nanoe X、香氛烘衣與乾衣預備",
+      "溫水泡洗、AI ECONAVI、IoT手機操作；洗劑採手動投入，沒有自動洗劑投放",
+      "尺寸：寬 64 x 深 77.8 x 高 191.6 cm",
+      "重量：157 kg",
+      "電壓／頻率：AC 110V／60Hz；洗衣390W、溫水洗1250W、烘衣1065W",
+      "官方說明書：洗衣機和乾衣機各需獨立15A以上專用插座，需接地與漏電斷路器",
+      "安裝：正面開放，左側至少15cm、右側5cm、後側10cm；安放處高度至少200cm",
+      "溫水洗衣／溫水槽洗時不能同時運轉乾衣，並非所有洗烘行程均可並行",
+      "需兩人搬運並由指定經銷商安裝；定期清潔三重過濾與水箱/排水"
+    ],
+    "description": "Panasonic現行AI雙控新支線，將15kg洗衣與15kg熱泵乾衣垂直整合，補上既有單筒及傳統堆疊組之外的選擇。64cm寬仍需加左右、後方與高度安裝間隙，不能只用機身尺寸判斷能否放入。",
+    "pros": [
+      "洗15kg、烘15kg，兩獨立滾筒適合連續處理多批衣物",
+      "台灣官方說明書同型號確認110V／60Hz、157kg與完整安裝邊界",
+      "Heat Pump、nanoe X與低位雙控面板，完整台灣新品通路售後"
+    ],
+    "cons": [
+      "需手動從下方洗衣筒搬到上方乾衣筒，也需手動投入洗劑",
+      "157kg且高191.6cm，搬運路徑、地板承重與安裝間隙需先核對",
+      "兩機各需獨立15A以上專用插座；溫水洗衣與烘衣不能同時進行",
+      "目前價格較高；全國電子額外保固活動不能直接當原廠基本保固"
+    ],
+    "bestFor": "有完整洗衣家事區、兩組合格專用插座與足夠安裝間隙，希望大容量洗烘分筒並保留垂直配置的家庭。",
+    "recommendation": "雙控熱泵新支線參考：比較重點是洗衣容量、實際兩迴路和安裝空間；原有單筒與舊堆疊款仍保留，各有省空間與省預算定位。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-23",
+      "note": "NA-V1515SP：已讀FindPrice exact-model比價與LBJ熱泵烘衣機清單，只有現價/多色混列/分期月繳，未核到同容量白色完整套組有可重現日期的歷史最低點；不以目前價、網友私下報價或滿額/信用卡/登錄現金回饋當史低。"
+    },
+    "score": 88,
+    "voltage": "台灣官方同型號說明書：AC 110V／60Hz；洗衣390W、溫水洗1250W、烘衣1065W。兩機各自需15A以上專用插座，接地與漏電保護；不得共用大功率電器插座。",
+    "warranty": "台灣全國電子此exact白色套組頁明列：全機1年、主要零件3年、馬達5年；額外活動延保依通路條款與登錄資格，不擅稱全機5年。",
+    "tags": [
+      "15kg洗衣",
+      "15kg熱泵乾衣",
+      "AI智慧雙控",
+      "110V 60Hz",
+      "完整雙塔",
+      "台灣公司貨"
+    ],
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-23",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "\"NA-V1515SP\" site:mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=%22NA-V1515SP%22%20site%3Amobile01.com",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "\"NA-V1515SP\" site:ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=%22NA-V1515SP%22%20site%3Aptt.cc",
+          "targetHost": "ptt.cc"
+        }
+      ]
+    }
+  },
+  {
+    "id": "washerdryer-panasonic-na-v1715sp",
+    "category": "washerdryer",
+    "rank": 35,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Panasonic",
+    "model": "NA-V1715SP",
+    "name": "Panasonic NA-V1715SP AI智慧雙控洗17kg／烘15kg 熱泵洗烘衣機（冰鑽白完整雙塔）",
+    "price": {
+      "currency": "TWD",
+      "amount": 82260,
+      "converted": 82260,
+      "basis": "retailer_current",
+      "confidence": "2026-10-23實讀全國電子NA-V1715SP-W完整洗烘組公開價82260元；未扣會員券、信用卡或登錄回饋。"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "全國電子頁面說下訂七個工作日內由門市聯絡安裝時間，未明列本頁基本安裝涵蓋範圍；兩機獨立插座/接地、迴路、進排水及特殊搬運追加費需現場確認。"
+    },
+    "image": "https://ecimg.elifemall.com.tw/App_Images/753/ERPItem/2026/0421/2159003_59113.webp",
+    "buyUrl": "https://www.elifemall.com.tw/product/2159003",
+    "buyLabel": "全國電子｜冰鑽白完整雙塔",
+    "specs": [
+      "類型：完整洗衣17kg＋熱泵乾衣15kg雙塔組，不是單一室內機或單筒洗脫烘",
+    "洗/乾容量：17kg / 15kg",
+      "智慧雙控隱藏式面板；上下洗／烘為獨立滾筒，衣物需人工移入上方乾衣筒",
+      "Heat Pump除濕式低溫烘乾、nanoe X、香氛烘衣與乾衣預備",
+      "溫水泡洗、AI ECONAVI、IoT手機操作；洗劑採手動投入，沒有自動洗劑投放",
+      "尺寸：寬 64 x 深 77.8 x 高 191.6 cm",
+      "重量：157 kg",
+      "電壓／頻率：AC 110V／60Hz；洗衣390W、溫水洗1250W、烘衣1065W",
+      "官方說明書：洗衣機和乾衣機各需獨立15A以上專用插座，需接地與漏電斷路器",
+      "安裝：正面開放，左側至少15cm、右側5cm、後側10cm；安放處高度至少200cm",
+      "溫水洗衣／溫水槽洗時不能同時運轉乾衣，並非所有洗烘行程均可並行",
+      "需兩人搬運並由指定經銷商安裝；定期清潔三重過濾與水箱/排水"
+    ],
+    "description": "Panasonic現行AI雙控新支線，將17kg洗衣與15kg熱泵乾衣垂直整合，補上既有單筒及傳統堆疊組之外的選擇。64cm寬仍需加左右、後方與高度安裝間隙，不能只用機身尺寸判斷能否放入。",
+    "pros": [
+      "洗17kg、烘15kg，兩獨立滾筒適合連續處理多批衣物",
+      "台灣官方說明書同型號確認110V／60Hz、157kg與完整安裝邊界",
+      "Heat Pump、nanoe X與低位雙控面板，完整台灣新品通路售後"
+    ],
+    "cons": [
+      "需手動從下方洗衣筒搬到上方乾衣筒，也需手動投入洗劑",
+      "157kg且高191.6cm，搬運路徑、地板承重與安裝間隙需先核對",
+      "兩機各需獨立15A以上專用插座；溫水洗衣與烘衣不能同時進行",
+      "目前價格較高；全國電子額外保固活動不能直接當原廠基本保固"
+    ],
+    "bestFor": "有完整洗衣家事區、兩組合格專用插座與足夠安裝間隙，希望大容量洗烘分筒並保留垂直配置的家庭。",
+    "recommendation": "雙控熱泵新支線參考：比較重點是洗衣容量、實際兩迴路和安裝空間；原有單筒與舊堆疊款仍保留，各有省空間與省預算定位。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-23",
+      "note": "NA-V1715SP：已讀FindPrice exact-model比價與LBJ熱泵烘衣機清單，只有現價/多色混列/分期月繳，未核到同容量白色完整套組有可重現日期的歷史最低點；不以目前價、網友私下報價或滿額/信用卡/登錄現金回饋當史低。"
+    },
+    "score": 89,
+    "voltage": "台灣官方同型號說明書：AC 110V／60Hz；洗衣390W、溫水洗1250W、烘衣1065W。兩機各自需15A以上專用插座，接地與漏電保護；不得共用大功率電器插座。",
+    "warranty": "台灣全國電子此exact白色套組頁明列：全機1年、主要零件3年、馬達5年；額外活動延保依通路條款與登錄資格，不擅稱全機5年。",
+    "tags": [
+      "17kg洗衣",
+      "15kg熱泵乾衣",
+      "AI智慧雙控",
+      "110V 60Hz",
+      "完整雙塔",
+      "台灣公司貨"
+    ],
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-23",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "\"NA-V1715SP\" site:mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=%22NA-V1715SP%22%20site%3Amobile01.com",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "\"NA-V1715SP\" site:ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=%22NA-V1715SP%22%20site%3Aptt.cc",
+          "targetHost": "ptt.cc"
         }
       ]
     }

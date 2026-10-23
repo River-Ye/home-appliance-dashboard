@@ -1358,8 +1358,8 @@
     "price": {
       "currency": "EUR",
       "amount": 1129,
-      "converted": 41101,
-      "confidence": "Narwal德國官方商城 2026-09-08 人工核對 exact-model 公開現價與可購狀態；不含會員券、點數、信用卡回饋或加購；海外價格未含國際運費、進口稅，另注意電壓／插頭及台灣保固風險；ExchangeRate-API 2026-10-22 匯率換算"
+      "converted": 41273,
+      "confidence": "Narwal德國官方商城 2026-09-08 人工核對 exact-model 公開現價與可購狀態；不含會員券、點數、信用卡回饋或加購；海外價格未含國際運費、進口稅，另注意電壓／插頭及台灣保固風險；ExchangeRate-API 2026-10-23 匯率換算"
     },
     "image": "https://de.narwal.com/cdn/shop/files/narwal-flow-2-saugroboter-mit-selbstreinigung-9224922_1200x1200.png?v=1781597108",
     "buyUrl": "https://de.narwal.com/products/narwal-flow-2-saugroboter-mit-selbstreinigung?variant=52366680523028",
@@ -1455,8 +1455,8 @@
     "price": {
       "currency": "USD",
       "amount": 551.69,
-      "converted": 17881,
-      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-10-22 匯率換算"
+      "converted": 17981,
+      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-10-23 匯率換算"
     },
     "image": "https://img.gkbcdn.com/p/2025-04-11/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438-0._w315_.jpg",
     "buyUrl": "https://www.geekbuying.com/item/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438.html",
@@ -2600,8 +2600,8 @@
     "price": {
       "currency": "USD",
       "amount": 999.99,
-      "converted": 32411,
-      "confidence": "SharkNinja US 2026-07-21 來源價；ExchangeRate-API 2026-10-22 匯率換算"
+      "converted": 32591,
+      "confidence": "SharkNinja US 2026-07-21 來源價；ExchangeRate-API 2026-10-23 匯率換算"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/RV2820ZE_01.jpg",
     "buyUrl": "https://www.sharkninja.com/shark-powerdetect-2-in-1-robot-vacuum-and-mop-with-nevertouch-pro-base/RV2820ZE.html",
@@ -2794,8 +2794,8 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 12964,
-      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-10-22 匯率換算",
+      "converted": 13036,
+      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-10-23 匯率換算",
       "note": "2026-10-19 Costco 原商品頁已失效，未確認同型號新品現售；保留原幣參考價，只更新匯率換算，不以 QX Revo Arc／Plus／Max 替代。"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/tkj772p4357mmh3bwz8kcq/1791272-847__1?auto=webp&format=jpg",
@@ -4432,6 +4432,484 @@
       "confidence": "not_found",
       "checkedAt": "2026-09-09",
       "note": "已查MOVA台灣官價、PChome exact型號及BigGo/FindPrice價格入口；後兩者無法取回，未得完整可靠歷史序列。PChome頁仍顯9/7–9/8限時95折31,331元，已過期且只證短期促銷，不足斷言全歷史最低；採台灣官方32,980為現價，不推定史低。"
+    }
+  },
+  {
+    "category": "robot",
+    "topPick": false,
+    "channel": "tw",
+    "brand": "iRobot",
+    "installation": {
+      "status": "not_stated",
+      "note": "需自行依說明書配置基座、保留前方及上方補水/倒水空間並完成App建圖；通路未明示到府安裝，不含客製上下水施工。"
+    },
+    "releaseDate": "找不到",
+    "warranty": "台灣代理來思比科技在地保固1年；耗材及附屬配件的保固排除依原廠條款，保存購買發票並完成產品註冊。",
+    "id": "robot-irobot-roomba-max-875-combo",
+    "rank": 47,
+    "budget": "premium",
+    "model": "Roomba Max 875 Combo",
+    "name": "Roomba Max 875 Combo 巨無霸滾筒掃拖機器人（預購）",
+    "price": {
+      "currency": "TWD",
+      "amount": 34999,
+      "converted": 34999,
+      "basis": "retailer_current",
+      "confidence": "2026-10-23讀momo品號15715104公開促銷價34999元、1年保固，頁面明示預購2026/11/10–11/16出貨；不扣券/回饋。官方HDC另38888元且寫11/30出貨，依通路分列不混用交期。"
+    },
+    "image": "https://irobot.tw/wp-content/uploads/2026/09/Roomba-Max-875-Combo-%E7%94%A2%E5%93%81%E5%9C%96.jpg",
+    "buyUrl": "https://www.momoshop.com.tw/product/15715104",
+    "buyLabel": "momo購物網（預購）",
+    "specs": [
+      "類型：掃拖機器人＋AutoWash多功能基座；台灣Roomba Max 875 Combo，預購品",
+      "35,000Pa吸力、20L/s氣流與SealForce密閉強吸；不同測量指標不直接相加",
+      "ThermaMist約60°C超音波熱霧預處理；PowerSpin Max熱水滾筒300rpm、18N下壓",
+      "PerfectEdge滾筒延伸；DriLift遇地毯抬升14.5mm並放下保護遮罩",
+      "ClearView Pro LiDAR與PrecisionVision視覺避障；Roomba Home App",
+      "AutoWash最長90天自動集塵、80°C洗滾筒、55°C熱風烘乾、自動補水及清潔液",
+      "本體與基座完整尺寸/淨重：本輪已讀台灣文字規格未取得可核實數據，不以海外版本推定",
+      "momo預購預計2026/11/10–11/16出貨；HDC另一通路11/30，不當成現貨"
+    ],
+    "description": "2026新世代Max旗艦在既有705滾筒清潔之上增加熱霧預處理、較大PowerSpin Max滾筒及SealForce地毯清潔。台灣目前為預購，須以實際購買通路交期為準。",
+    "pros": [
+      "熱霧預處理加熱水滾筒，針對乾固污漬提供不同於705的清潔方式",
+      "滾筒遮罩與抬升設計兼顧硬地和地毯切換",
+      "台灣官方有完整產品頁與代理售後；可信通路預購價可查"
+    ],
+    "cons": [
+      "目前是預購，momo預計11/10–11/16出貨，非即時現貨",
+      "屬高價新機，台灣長期使用回報仍有限",
+      "最長90天集塵為條件測試；污水箱、滾筒、濾網仍需維護",
+      "本輪未核到台灣充電基座額定電壓/頻率及完整尺寸淨重，購前應確認銘牌與擺放空間"
+    ],
+    "bestFor": "重視地毯深層吸塵與硬地乾固污漬處理、願意等預購交期且有大型基座空間的家庭。",
+    "recommendation": "新世代旗艦參考：熱霧、較大滾筒與地毯密閉吸塵是實際新增設計；價格、預購交期與長期維護仍需衡量，既有705保留供現貨與價差比較。",
+    "score": 90,
+    "voltage": "機身內建可充電電池；台灣代理新115/575/675/775/875系列官方FAQ明示機器運作使用電池、可充飽電啟動。台灣代理引進版本；本輪已讀台灣官方及momo文字規格未列充電基座額定輸入電壓/頻率，購買前核對台灣基座銘牌，不套用海外規格。",
+    "tags": [
+      "2026新機",
+      "熱霧預處理",
+      "35,000Pa",
+      "滾筒拖地",
+      "預購"
+    ],
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-23",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Roomba Max 875 Combo\" 問題 故障",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Roomba%20Max%20875%20Combo%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Roomba Max 875 Combo\" problems",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Roomba%20Max%20875%20Combo%22%20problems",
+          "targetHost": "reddit.com"
+        }
+      ]
+    },
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-23",
+      "note": "Roomba Max 875 Combo：已查exact-model史低/歷史價格與台灣現售/預購來源，搜尋價目混含海外版本、不同基座、會員點數與現價；未核實台灣本配置可重現歷史最低點，不以本輪現價推史低。"
+    }
+  },
+  {
+    "category": "robot",
+    "topPick": false,
+    "channel": "tw",
+    "brand": "iRobot",
+    "installation": {
+      "status": "not_stated",
+      "note": "需自行依說明書配置基座、保留前方及上方補水/倒水空間並完成App建圖；通路未明示到府安裝，不含客製上下水施工。"
+    },
+    "releaseDate": "找不到",
+    "warranty": "台灣代理來思比科技在地保固1年；耗材及附屬配件的保固排除依原廠條款，保存購買發票並完成產品註冊。",
+    "id": "robot-irobot-roomba-plus-675-combo",
+    "rank": 48,
+    "budget": "mid",
+    "model": "Roomba Plus 675 Combo",
+    "name": "Roomba Plus 675 Combo AI高壓噴灑滾筒掃拖機器人（極夜黑）",
+    "price": {
+      "currency": "TWD",
+      "amount": 19999,
+      "converted": 19999,
+      "basis": "retailer_current",
+      "confidence": "2026-10-23 PChome exact商品DMBL0J-A900KIEP4 API Price.P=19999、Low=null、Qty=10，直接商品頁同價且可購；非白色預購或加贈不同組合。"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMBL0JA900KIEP4/000001_1792650810.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0J-A900KIEP4",
+    "buyLabel": "PChome 24h購物",
+    "specs": [
+      "類型：掃拖機器人＋AutoWash多功能基座；Roomba Plus 675 Combo極夜黑",
+      "30,000Pa吸力與SealForce地毯清潔；SprayForce高壓噴淋預處理乾硬污漬",
+      "PowerSpin活熱水滾筒拖地60°C、15N下壓；PerfectEdge滾筒延伸45mm",
+      "ClearView LiDAR建圖與PrecisionVision視覺避障；最高約3–3.5cm越障依實際門檻",
+      "主動式防纏繞切割主刷與偏心螺旋側刷；拖布抬升14.5mm",
+      "AutoWash最長90天集塵、80°C洗布、55°C熱風烘乾、自動調配清潔劑；熱水在基座中加熱",
+      "主機長35.4 × 寬35.5 × 高9.98cm、4.95kg；基座深48.4 × 寬35 × 高47.5cm、8.15kg（PChome文字規格）",
+      "5200mAh電池；Wi-Fi僅2.4GHz；通路標示隨附110V變壓器；頻率未標示"
+    ],
+    "description": "Plus 675把既有405/505的雙旋轉拖布路線改為噴淋預處理與熱水滾筒，並增加30,000Pa吸力與主動割毛設計；極夜黑台灣通路可購，不與官方白色預購交期混用。",
+    "pros": [
+      "高壓噴淋加滾筒刷洗，適合廚房餐區乾硬污漬",
+      "割毛主刷、滾筒延伸及完整基座維護，補足既有505的清潔選項",
+      "台灣公司貨、110V配備及1年保固與本體/基座尺寸可核"
+    ],
+    "cons": [
+      "高度9.98cm與大型基座仍需實量家具及補水空間",
+      "黑色深色地板、未密封硬木地板為通路明示不適用情境",
+      "即使最長90天集塵，污水箱與滾筒仍要定期清洗",
+      "熱水在基座加熱，不能把60°C宣稱當成全程落地水溫"
+    ],
+    "bestFor": "預算約2萬元、家中硬地比例高、需要滾筒及噴淋清潔而且門檻適中的台灣家庭。",
+    "recommendation": "中階滾筒新版：30,000Pa、噴淋及割毛是相對505/405的可核實差異；是否優於雙拖布仍取決於牆邊、地毯與基座維護需求。",
+    "score": 89,
+    "voltage": "PChome exact Roomba Plus 675 Combo原廠標準配備明示全能充電塔內含110V變壓器；頻率未標示，依台灣公司貨基座銘牌確認。",
+    "tags": [
+      "2026新機",
+      "30,000Pa",
+      "噴淋預處理",
+      "滾筒拖地",
+      "台灣公司貨"
+    ],
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-23",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Roomba Plus 675 Combo\" 問題 故障",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Roomba%20Plus%20675%20Combo%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Roomba Plus 675 Combo\" problems",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Roomba%20Plus%20675%20Combo%22%20problems",
+          "targetHost": "reddit.com"
+        }
+      ]
+    },
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-23",
+      "note": "Roomba Plus 675 Combo：已查exact-model史低/歷史價格與台灣現售/預購來源，搜尋價目混含海外版本、不同基座、會員點數與現價；未核實台灣本配置可重現歷史最低點，不以本輪現價推史低。"
+    }
+  },
+  {
+    "category": "robot",
+    "topPick": false,
+    "channel": "tw",
+    "brand": "iRobot",
+    "installation": {
+      "status": "not_stated",
+      "note": "需自行依說明書配置基座、保留前方及上方補水/倒水空間並完成App建圖；通路未明示到府安裝，不含客製上下水施工。"
+    },
+    "releaseDate": "找不到",
+    "warranty": "台灣代理來思比科技在地保固1年；耗材及附屬配件的保固排除依原廠條款，保存購買發票並完成產品註冊。",
+    "id": "robot-irobot-roomba-115-combo-autoempty",
+    "rank": 49,
+    "budget": "value",
+    "model": "Roomba 115 Combo",
+    "name": "Roomba 115 Combo 自動集塵纖薄延邊掃拖機器人",
+    "price": {
+      "currency": "TWD",
+      "amount": 9980,
+      "converted": 9980,
+      "basis": "retailer_current",
+      "confidence": "2026-10-23 PChome DMBL0J-A900KG6A1 API Price.Low=9980、P=10980、Qty=18；當日直接HTTP商品schema price9980/InStock與10/22–11/02檔期吻合。web快取10/08–10/15價10980不採；不扣會員券/點數。"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMBL0JA900KG6A1/000001_1792650840.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0J-A900KG6A1",
+    "buyLabel": "PChome 24h購物",
+    "specs": [
+      "類型：掃拖機器人＋AutoEmpty自動集塵基座；Roomba 115 Combo自動集塵版，不是單機版",
+      "15,000Pa吸力；隱藏式ClearView LiDAR、最多3張地圖及禁區設定",
+      "SmartScrub震動拖地、加寬纖維拖布與延伸側刷；沒有自動洗布或烘乾",
+      "最長90天自動集塵；實際依灰塵量與使用頻率變動",
+      "主機長29.8 × 寬30.3 × 高7.89cm、2.16kg；集塵座長21.29 × 寬17.04 × 高29.29cm、2.07kg（PChome規格）",
+      "2600mAh電池，通路規格標最長120–150分鐘；約1.9cm越障依門檻實況",
+      "Wi-Fi僅2.4GHz；不適用黑色深色地板及未密封硬木地板",
+      "隨附主機、AutoEmpty基座、集塵袋、電池、側刷、主刷、濾網、電線及纖維拖布"
+    ],
+    "description": "2026入門115系列以7.89cm纖薄機身、15,000Pa、延伸側刷與震動拖地補充既有205壓縮集塵路線；這筆選定含AutoEmpty基座版本，適合願意自行洗布但想減少倒塵的小家庭。",
+    "pros": [
+      "纖薄主機與小型集塵座較容易安排在小空間",
+      "15,000Pa、延伸側刷及LiDAR建圖提供清楚的入門功能組合",
+      "自動集塵版本台灣新品通路現貨、價格低於萬元"
+    ],
+    "cons": [
+      "拖布要手動拆洗晾乾，沒有全能基站的自動洗烘",
+      "約1.9cm越障較適合平整地板，不能套用675的3.5cm數值",
+      "通路明示黑色深色地板和未密封硬木地板不適用",
+      "額定輸入電壓/頻率未見已讀文字規格，購前核對台灣集塵座銘牌"
+    ],
+    "bestFor": "以平整硬地、小中型空間為主、預算萬元且可接受手洗拖布，希望有自動集塵的小家庭或租屋族。",
+    "recommendation": "入門新品補充：115自動集塵版與205機身壓縮集塵各有空間取捨，不能只按數字大小判代際優劣；需要自動洗烘仍應選Plus或Max。",
+    "score": 85,
+    "voltage": "機身內建可充電電池；PChome台灣exact AutoEmpty版規格列2600mAh電池與自動回充。台灣公司貨隨附AutoEmpty集塵座與原廠電線；本輪已讀台灣官方/PChome文字未列額定輸入電壓與頻率，購前依基座銘牌確認。",
+    "tags": [
+      "2026新機",
+      "15,000Pa",
+      "7.89cm",
+      "自動集塵",
+      "台灣公司貨"
+    ],
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-23",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Roomba 115 Combo\" 問題 故障",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Roomba%20115%20Combo%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Roomba 115 Combo\" problems",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Roomba%20115%20Combo%22%20problems",
+          "targetHost": "reddit.com"
+        }
+      ]
+    },
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-23",
+      "note": "Roomba 115 Combo：已查exact-model史低/歷史價格與台灣現售/預購來源，搜尋價目混含海外版本、不同基座、會員點數與現價；未核實台灣本配置可重現歷史最低點，不以本輪現價推史低。"
+    }
+  },
+  {
+    "id": "robot-ecovacs-t80s-plus",
+    "category": "robot",
+    "rank": 50,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Ecovacs",
+    "model": "T80S PLUS",
+    "name": "ECOVACS DEEBOT T80S PLUS 增壓滾筒掃拖機器人（水箱版）",
+    "price": {
+      "currency": "TWD",
+      "amount": 14999,
+      "converted": 14999,
+      "basis": "retailer_current",
+      "confidence": "2026-10-23實讀PChome台灣T80S PLUS完整水箱版可購14999元及保固期1年；官方商城同價可加車，不扣會員券、P幣、信用卡或登錄回饋。"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "水箱版需自行放置基站、補清水與倒污水，預留水箱抽取/散熱及前方回充通道；本頁未列到府安裝，不含客製上下水。"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DMBL0LA900KL31S/000007_1792142984.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0L-A900KL31S",
+    "buyLabel": "PChome 24h｜台灣水箱版",
+    "specs": [
+      "類型：台灣完整掃拖機器人＋水箱版多功能基站，非配件或上下水套件",
+      "40,000Pa吸力、32路增壓滾筒活洗；測試條件與實際地面效果有差異",
+      "100°C基站熱水洗滾筒、熱風烘乾、自動集塵與污水盒自清；100°C不是拖地表面溫度",
+      "ZeroTangle 4.0防纏繞、TruEdge 3.0滾筒外擴貼邊、15mm滾筒抬升與地毯模式",
+      "mini-dToF導航、TrueDetect 3D結構光避障；ECOVACS HOME App",
+      "尺寸：機身寬35.3 x 深35.1 x 高9.5cm；基站寬33.8 x 含底板深45.9 x 高47cm（塔身深28cm）",
+      "重量：本輪台灣原頁未列可核實主機／基站淨重；PChome的5.1kg以上是篩選級距，不當精確淨重",
+      "電力：已讀台灣官方／通路未列基站額定輸入電壓／頻率，購前核對台灣銘牌，不借用海外近名機種"
+    ],
+    "description": "T80S PLUS把32路增壓活水滾筒、40,000Pa及100°C基站洗布加入T80價位帶，官方比較表明確與舊T80 OMNI區分。台灣PChome本輪可購14999元，保留原T80讓清潔方式、價差與現有口碑可一同比較。",
+    "pros": [
+      "台灣完整新品通路可購，公開價14999元且有1年保固",
+      "滾筒活洗、外擴貼邊和100°C基站洗布集中在較低預算帶",
+      "官方台灣圖分列本體與基站尺寸，可先評估9.5cm機身及基座占地"
+    ],
+    "cons": [
+      "不把40,000Pa與53AW等不同吸力指標直接排名；實際效果取決於風量、地面與模式",
+      "官方已讀台灣資料未列基站額定電壓／頻率及精確淨重，購前須核對銘牌",
+      "污水箱、濾網、滾筒與集塵袋仍需清潔更換，熱水洗不代表免維護",
+      "新品實際長期回報仍有限；Dcard主要是購前討論，不能當耐用度證明"
+    ],
+    "bestFor": "預算約1.5萬元、主要清潔硬地、希望滾筒邊拖邊洗且能定期補水倒污水的家庭。",
+    "recommendation": "新版滾筒均衡參考：相對T80 OMNI加入32路增壓、40,000Pa與100°C基站洗布，適合以約1.5萬元比較完整水箱基站；仍應確認台灣銘牌、櫃內空間與長期耗材成本。",
+    "releaseDate": "找不到",
+    "score": 87,
+    "voltage": "機身使用可充電電池；本型台灣基站規格圖明列谷點充電，電池容量未標示。台灣公司貨水箱版；已讀台灣官方及PChome文字與規格圖未列基站額定輸入電壓/頻率，須向台灣官方核對銘牌，未套用海外或上下水近名版本。",
+    "warranty": "此exact-model PChome水箱版頁明列保固1年；ECOVACS台灣官方售後頁明示保固期台灣本島免費到府收送、7天新品不良換新，非聯強貨及不當使用等依條款排除。",
+    "tags": [
+      "台灣公司貨",
+      "水箱版",
+      "滾筒活洗",
+      "新世代",
+      "40,000Pa"
+    ],
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-23",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "\"T80S PLUS\" site:mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=%22T80S%20PLUS%22%20site%3Amobile01.com",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "\"T80S PLUS\" site:ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=%22T80S%20PLUS%22%20site%3Aptt.cc",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "\"T80S PLUS\" site:dcard.tw",
+          "queryUrl": "https://www.google.com/search?q=%22T80S%20PLUS%22%20site%3Adcard.tw",
+          "targetHost": "dcard.tw"
+        }
+      ]
+    },
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-23",
+      "note": "T80S PLUS：已查FindPrice T80S/完整PLUS、LBJ exact查詢、官方與PChome現價；FindPrice混有T80S其他版本/海外代購與大量耗材，LBJ完整型號入口無法讀取。未核到台灣T80S PLUS水箱版可重現歷史最低點，不以本輪14999或海外補貼價當史低。"
+    }
+  },
+  {
+    "id": "robot-ecovacs-x12s-pro",
+    "category": "robot",
+    "rank": 51,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Ecovacs",
+    "model": "X12S PRO",
+    "name": "ECOVACS DEEBOT X12S PRO 噴溶熱水滾筒掃拖機器人（水箱版）",
+    "price": {
+      "currency": "TWD",
+      "amount": 29999,
+      "converted": 29999,
+      "basis": "retailer_current",
+      "confidence": "2026-10-23實讀PChome台灣X12S PRO完整水箱版可購29999元及保固期1年；官方商城同價可加車，不扣會員券、P幣、信用卡或登錄回饋。"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "水箱版需自行放置基站、補清水與倒污水，預留水箱抽取/散熱及前方回充通道；本頁未列到府安裝，不含客製上下水。"
+    },
+    "image": "https://storetw.ecovacs.com/cdn/shop/files/X12S_-01.jpg?v=1787713270&width=3840",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0L-A900KDK7Y",
+    "buyLabel": "PChome 24h｜台灣水箱版",
+    "specs": [
+      "類型：台灣完整掃拖機器人＋水箱版多功能基站，非配件或上下水套件",
+      "27,000Pa真空度、27L/s風量與53AW吸力；150W風機，指標分開理解",
+      "FocusJet清潔液噴溶＋OZMO ROLLER 3.0 32孔增壓滾筒；官方標75°C為基站補水口／機器人進水口最高溫度",
+      "PowerBoost氮化鎵瞬時快充；官方3分鐘補13%為指定測試條件，非所有使用環境保證",
+      "AIVI 3D 4.0、TruEdge 3.0貼邊、滾筒抬升15mm與遮罩、最高50mm越障均依障礙條件",
+      "基站100°C洗滾筒、63°C塵盒／滾筒同步烘乾、75°C污水箱加熱除臭及高壓清潔槽沖洗",
+      "尺寸：基站寬33.8 x 含底板深45.9 x 高50cm，塔身深28cm；機身圖示單一平面尺寸35.3cm、高9.8cm，另一平面軸未明示，不推定為直徑或另一軸相同",
+      "重量：本輪台灣原頁未列可核實主機／基站淨重；PChome的5.1kg以上為篩選級距",
+      "電力：已讀台灣官方／通路未列基站額定輸入電壓／頻率，購前核對台灣銘牌，不借用海外近名機種"
+    ],
+    "description": "X12S PRO是台灣官方明列的X12跨代升級款，增加風機/氣流、熱水滾筒與全鏈自淨設計，並保留噴清潔液預處理。此筆只收台灣水箱版完整機組，沒有用海外OmniCyclone或台灣上下水款替代規格與價格。",
+    "pros": [
+      "台灣官方明列相對X12的跨代升級，53AW與27L/s提供Pa以外的比較指標",
+      "噴溶、熱水滾筒與風水路自淨，涵蓋油膜、乾固污與回洗維護需求",
+      "PChome同型水箱完整組29999元、1年保固及台灣官方售後可核"
+    ],
+    "cons": [
+      "29999元仍屬高價，補水倒水與滾筒/濾網/耗材維護不能省略",
+      "官方75°C熱拖溫度是進水口最高值，不代表所有地板表面一直75°C",
+      "本輪台灣原頁未列基站額定電壓/頻率、精確淨重及機身另一平面軸，購前需確認銘牌與完整安裝空間",
+      "原始討論多數是購前期待或未到貨，不能當長期穩定性證據"
+    ],
+    "bestFor": "重視廚房油膜/頑垢預噴處理、有足夠水箱基座空間且能接受旗艦預算與耗材維護的家庭。",
+    "recommendation": "新版旗艦參考：比舊X12加強風量吸力、熱洗與基站自淨，保留原款供價差比較。需先確認台灣水箱版基站銘牌與完整機身軸序，海外OmniCyclone及上下水版均另有邊界。",
+    "releaseDate": "找不到",
+    "score": 90,
+    "voltage": "機身內建可充電軟包電池；台灣本型商品資料明列PowerBoost氮化鎵快充及軟包動力電池。台灣公司貨水箱版；已讀台灣官方及PChome文字與規格圖未列基站額定輸入電壓/頻率，須向台灣官方核對銘牌，未套用海外或上下水近名版本。",
+    "warranty": "此exact-model PChome水箱版頁明列保固1年；ECOVACS台灣官方售後頁明示保固期台灣本島免費到府收送、7天新品不良換新，非聯強貨及不當使用等依條款排除。",
+    "tags": [
+      "台灣公司貨",
+      "水箱版",
+      "滾筒活洗",
+      "新世代",
+      "53AW"
+    ],
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-23",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "\"X12S PRO\" site:mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=%22X12S%20PRO%22%20site%3Amobile01.com",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "\"X12S PRO\" site:ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=%22X12S%20PRO%22%20site%3Aptt.cc",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "\"X12S PRO\" site:dcard.tw",
+          "queryUrl": "https://www.google.com/search?q=%22X12S%20PRO%22%20site%3Adcard.tw",
+          "targetHost": "dcard.tw"
+        }
+      ]
+    },
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-23",
+      "note": "X12S PRO：FindPrice可讀同名與上下水款價格，但價格為現價、部分跨不同基站；較低全聯29099是當下比價，未有可重現歷史最低日期。官方與PChome29999也不是史低證明；排除海外版本、會員券及信用卡/點數回饋。"
     }
   }
 ]);

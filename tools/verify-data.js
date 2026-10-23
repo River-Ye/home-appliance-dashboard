@@ -572,8 +572,9 @@ function validatePeripheralCatalog(products, failures) {
   for (const [category, types] of Object.entries(PERIPHERAL_TYPES)) {
     const items = products.filter((product) => product.category === category);
     if (!items.length) continue;
-    assert(items.length === 30, `${category} must contain 30 products`, failures);
-    for (const [budget, count] of PERIPHERAL_BUDGET_COUNTS) {
+    const expectedCount = EXPECTED_CATEGORY_PRODUCT_COUNTS.get(category);
+    assert(items.length === expectedCount, `${category} must contain ${expectedCount} products`, failures);
+    for (const [budget, count] of PERIPHERAL_BUDGET_COUNTS[category]) {
       assert(items.filter((product) => product.budget === budget).length === count, `${category} budget ${budget} must contain ${count} products`, failures);
     }
     for (const type of types) {
@@ -700,8 +701,9 @@ function validateBeddingCatalog(products, failures) {
   for (const [category, types] of Object.entries(BEDDING_TYPES)) {
     const items = products.filter((product) => product.category === category);
     if (!items.length) continue;
-    assert(items.length === 30, `${category} must contain 30 products`, failures);
-    for (const [budget, count] of BEDDING_BUDGET_COUNTS) {
+    const expectedCount = EXPECTED_CATEGORY_PRODUCT_COUNTS.get(category);
+    assert(items.length === expectedCount, `${category} must contain ${expectedCount} products`, failures);
+    for (const [budget, count] of BEDDING_BUDGET_COUNTS[category]) {
       assert(items.filter((product) => product.budget === budget).length === count, `${category} budget ${budget} must contain ${count} products`, failures);
     }
     for (const type of types) {

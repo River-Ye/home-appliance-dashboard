@@ -2886,6 +2886,297 @@
       "低輪廓縫邊",
       "工作娛樂混用"
     ]
+  },
+  {
+    "id": "mousepad-logitech-pro-x-control",
+    "category": "mousepad",
+    "brand": "Logitech",
+    "model": "943-001617",
+    "name": "PRO X CONTROL 黑色 400×460mm 加厚針織電競鼠墊（預購）",
+    "type": "cloth",
+    "variantFamily": "Logitech PRO X CONTROL",
+    "rank": 31,
+    "score": 88,
+    "budget": "premium",
+    "channel": "tw",
+    "price": {
+      "currency": "TWD",
+      "amount": 2290,
+      "converted": 2290,
+      "basis": "retailer_current",
+      "confidence": "2026-10-23：羅技台灣官店exact943-001617公開預購2290，原生variant available=true可下訂；頁面明示最快2026-10-30開始出貨，非10/23現貨。"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "自行平放於乾淨桌面，不需施工；預購交期以通路實際出貨通知為準。"
+    },
+    "image": "https://resource.logitechg.com/c_fill,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/pro-x-control-pdp/gallery/pro-x-control-mouse-pad-top-angle-gallery-1.png",
+    "buyUrl": "https://store.logitech.tw/products/pro-x-control?variant=45539650568215",
+    "buyLabel": "羅技台灣官方旗艦店（預購，最快10/30出貨）",
+    "specs": [
+      "類型：布質控制向電競滑鼠墊，黑色943-001617；非POWERPLAY充電墊",
+      "表面材質：精密針織布面",
+      "表面特性：以低DPI大幅度移動、穩定控制為定位；不把原廠一致性宣傳當耐久實測",
+      "底材／防滑：SlimFlex泡棉、高摩擦力防滑底座",
+      "尺寸：高 400 x 寬 460 x 深 6 mm",
+      "厚度：6 mm",
+      "重量：307 g",
+      "邊緣處理：低於表面的緊密車縫邊緣",
+      "清潔保養：先除桌面與鼠墊碎屑，避免過度彎折、強力刷洗及高溫；所查exact頁未列洗衣機清潔保證",
+      "供電／功能：被動鼠墊，無USB、RGB或無線充電",
+      "隨附配件：鼠墊與使用說明書"
+    ],
+    "description": "2026 PRO系列新針織控制墊，使用6mm SlimFlex與緊密包邊，補足既有G240／G640／G740之外的高階控制選擇。台灣官店目前接受預購，最快10月30日才開始出貨。",
+    "pros": [
+      "6mm泡棉與低邊緣包邊",
+      "官方確認本體307g及來源軸序尺寸",
+      "台灣官店可下訂與2年有限硬體保固"
+    ],
+    "cons": [
+      "10/23為預購，最快10/30出貨並非保證到貨日",
+      "2290為高價布墊，磨耗與濕度耐受尚缺長期證據",
+      "400×460mm需先檢查桌面與低DPI揮鼠空間"
+    ],
+    "bestFor": "偏低DPI、重視厚泡棉與控制手感且可等預購交期的玩家。",
+    "recommendation": "PRO系列新款參考；先確認預購交期與桌面空間，不因系列名稱推定比既有G640或G740更耐用。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-23",
+      "note": "已讀台灣官店943-001617預購2290、B&H exact943-001617與香港格價網；目前只是不同市場現價，沒有同台灣SKU可驗證的公開歷史最低紀錄，預購價不當史低。"
+    },
+    "voltage": "被動布質鼠墊，不需電力；沒有POWERPLAY充電功能。",
+    "warranty": "台灣官方規格列2年有限硬體保固，依羅技原廠保固條款與購買憑證。",
+    "tags": [
+      "電競",
+      "PRO新款",
+      "控制向",
+      "6mm",
+      "預購",
+      "台灣公司貨"
+    ],
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-23",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"PRO X CONTROL\" \"943-001617\" (problem OR issue OR failure)",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22PRO%20X%20CONTROL%22%20%22943-001617%22%20%28problem%20OR%20issue%20OR%20failure%29"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"PRO X CONTROL\" \"943-001617\" (問題 OR 故障 OR 災情)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22PRO%20X%20CONTROL%22%20%22943-001617%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%29"
+        }
+      ]
+    }
+  },
+{
+  "id": "mousepad-razer-atlas-pro",
+  "category": "mousepad",
+  "brand": "Razer",
+  "model": "RZ02-05760100-R3M1",
+  "name": "Atlas Pro 黑色 500×400mm 超薄強化玻璃滑鼠墊",
+  "type": "glass",
+  "variantFamily": "Razer Atlas Pro",
+  "rank": 32,
+  "budget": "premium",
+  "channel": "tw",
+  "score": 88,
+  "price": {
+    "currency": "TWD",
+    "amount": 4590,
+    "converted": 4590,
+    "basis": "retailer_current",
+    "confidence": "2026-10-23 Chrome實頁：黑色RZ02-05760100-R3M1主商品4590、可加購物車，1間RazerStore有庫存且可配送台灣。"
+  },
+  "image": "https://medias-p1.phoenix.razer.com/sys-master-phoenix-images-container/h57/h91/10049737130014/atlas-pro-black-2-500x500.png",
+  "buyUrl": "https://www.razer.com/tw-zh/gaming-mouse-mats/razer-atlas-pro/RZ02-05760100-R3M1",
+  "buyLabel": "Razer 台灣官方商店（黑色）",
+  "installation": {
+    "status": "not_stated",
+    "note": "平放於清潔平整桌面，清除硬物及碎屑後再放置；玻璃搬運避免碰撞。"
+  },
+  "specs": [
+    "類型：玻璃電競滑鼠墊，黑色RZ02-05760100-R3M1",
+    "表面材質：強化玻璃，2μm微蝕刻表面",
+    "表面特性：低摩擦高速向，針對光學感測器設計；不以品牌耐刮宣傳等同不會破裂",
+    "底材／防滑：全覆蓋防滑橡膠底",
+    "尺寸：寬 500 x 長 400 mm",
+    "厚度：1.9 mm",
+    "重量：620 g",
+    "邊緣處理：CNC加工圓弧邊緣",
+    "清潔保養：先清桌面與鼠腳碎屑，軟布擦拭；官方建議原配或同等PTFE鼠腳，避免玻璃鼠腳互磨",
+    "供電／功能：被動玻璃墊，無RGB、USB或充電功能",
+    "隨附配件：玻璃鼠墊與產品資訊指南；護臂及替換鼠腳另購"
+  ],
+  "description": "原Atlas後的新一代玻璃墊，面積增至500×400mm且總厚1.9mm，620g較方便移動。適合偏高速滑感，但仍可能有鼠腳摩擦聲、皮膚黏附與額外護臂需求。",
+  "pros": [
+    "1.9mm低邊緣與CNC圓角",
+    "官方exact SKU資料確認620g",
+    "500×400mm與全底橡膠防滑"
+  ],
+  "cons": [
+    "4590價格高，偏控制向玩家需先試",
+    "玻璃較易放大灰塵摩擦聲並增加鼠腳耗材需求",
+    "皮膚仍可能黏附，護臂效果因人而異且需另購"
+  ],
+  "bestFor": "接受快速低阻力滑感，願意清潔鼠腳與玻璃表面的FPS或瞄準練習使用者。",
+  "recommendation": "Atlas新代參考；先確認500×400mm空間、PTFE鼠腳及玻璃滑感，不以超薄或更貴推定瞄準必定更準。",
+  "releaseDate": "2026-05-15",
+  "historicalLow": {
+    "status": "not_found",
+    "amount": null,
+    "currency": "TWD",
+    "converted": null,
+    "sourceUrl": "",
+    "sourceTitle": "",
+    "evidenceSnippet": "",
+    "sourceKind": "not_found",
+    "confidence": "not_found",
+    "checkedAt": "2026-10-23",
+    "note": "已讀Razer台灣黑色4590、FindPrice exact黑色4031／momo4131／通路4590候選；較低價為即時索引且混券活動、白色及未留歷史日期，未找到可驗證本SKU公開歷史最低，不能把索引現價當史低。"
+  },
+  "voltage": "被動玻璃滑鼠墊，不需供電；沒有RGB或無線充電。",
+  "warranty": "Razer官方Mouse Mats列1年有限保固；台灣RazerStore購買並依有效憑證及RMA條款辦理。",
+  "tags": [
+    "電競",
+    "Atlas新世代",
+    "玻璃",
+    "500×400mm",
+    "1.9mm",
+    "台灣官方通路"
+  ],
+  "issueResearch": {
+    "status": "no_common_issue",
+    "checkedAt": "2026-10-23",
+    "summary": "截至查核日，查無達門檻的集中負評／災情",
+    "issues": [],
+    "checkedSources": [
+      {
+        "platform": "Reddit",
+        "targetHost": "reddit.com",
+        "query": "site:reddit.com \"RZ02-05760100-R3M1\" (problem OR issue OR failure OR 問題 OR 故障)",
+        "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22RZ02-05760100-R3M1%22%20%28problem%20OR%20issue%20OR%20failure%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%29"
+      },
+      {
+        "platform": "Mobile01",
+        "targetHost": "mobile01.com",
+        "query": "site:mobile01.com \"RZ02-05760100-R3M1\" (problem OR issue OR failure OR 問題 OR 故障)",
+        "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22RZ02-05760100-R3M1%22%20%28problem%20OR%20issue%20OR%20failure%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%29"
+      }
+    ]
   }
+}
+,{
+  "id": "mousepad-razer-gigantus-v2-pro-balance-xxl",
+  "category": "mousepad",
+  "brand": "Razer",
+  "model": "RZ02-05490700-R3M1",
+  "name": "Gigantus V2 Pro Balance XXL 黑色布質滑鼠墊",
+  "type": "cloth",
+  "variantFamily": "Razer Gigantus V2 Pro",
+  "rank": 33,
+  "budget": "premium",
+  "channel": "tw",
+  "score": 85,
+  "price": {
+    "currency": "TWD",
+    "amount": 3090,
+    "converted": 3090,
+    "basis": "retailer_current",
+    "confidence": "2026-10-23 Chrome實讀台灣RazerStore所選Balance XXL黑色完整SKU3090，可加入購物車並配送台灣；非L或3XL價格。"
+  },
+  "installation": {
+    "status": "not_stated",
+    "note": "平放清潔桌面，自行安排鍵盤及滑鼠活動空間；無施工服務。"
+  },
+  "image": "https://assets3.razerzone.com/DNHk6ylIwQ8NMbuayy0QcskKcOw=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh18%2Fhd7%2F10411093164062%2Fgigantus-v2-pro-xxl-bal-2-500x500.png",
+  "buyUrl": "https://www.razer.com/tw-zh/gaming-mouse-mats/razer-gigantus-v2-pro/RZ02-05490700-R3M1",
+  "buyLabel": "RazerStore 台灣（Balance XXL 黑色）",
+  "specs": [
+    "類型：布質軟墊，Gigantus V2 Pro Balance XXL 黑色 RZ02-05490700-R3M1",
+    "表面材質：特殊編織布面，針對光學感測器最佳化",
+    "表面特性：Balance中等摩擦力、平衡速度與控制；非Control／Max Control／Speed／Max Speed版本",
+    "底材／防滑：專利GlideCore泡棉與防滑底座，泡棉硬度依速度型不同，不跨版本比較",
+    "尺寸：長 940 x 寬 410 mm",
+    "厚度：4 mm",
+    "重量：查不到",
+    "邊緣處理：低輪廓車縫包邊，可捲起且採防變形設計；不等於永久不翹邊保證",
+    "清潔保養：定期清除桌面與鼠腳髒污，避免粗糙刷具、高溫與強力摺折；exact XXL頁未提供機洗保證",
+    "供電／功能：被動鼠墊，無RGB、無USB與無線充電",
+    "隨附配件：鼠墊；所查完整SKU頁未另列工具或收納配件"
+  ],
+  "description": "Gigantus V2的明確新世代，加入依速度型設計的GlideCore泡棉與低包邊。選定Balance XXL延伸桌墊，保留舊V2，並將五種速度型分開看待，不把L尺寸的重量或評價套到XXL。",
+  "pros": [
+    "Balance中摩擦布面兼顧移動與停頓",
+    "940×410mm同時容納鍵盤與較大揮鼠範圍",
+    "台灣官方完整SKU可購與1年有限保固"
+  ],
+  "cons": [
+    "3090為高價布墊，仍會受鼠腳、汗漬及磨耗影響",
+    "原廠XXL淨重未標示；不可套用L尺寸或包裝重量",
+    "原頁Balance使用者有起步黏滯的手感評語，但未核定XXL完整SKU且未達跨站六人集中問題"
+  ],
+  "bestFor": "希望較大桌墊、接受中等摩擦與4mm泡棉的低DPI玩家。",
+  "recommendation": "Gigantus V2後繼參考；先比較Balance摩擦感與桌面空間，避免只依Pro名稱推定適合所有鼠腳與手感。",
+  "releaseDate": "2026-09-23",
+  "historicalLow": {
+    "status": "not_found",
+    "amount": null,
+    "currency": "TWD",
+    "converted": null,
+    "sourceUrl": "",
+    "sourceTitle": "",
+    "evidenceSnippet": "",
+    "sourceKind": "not_found",
+    "confidence": "not_found",
+    "checkedAt": "2026-10-23",
+    "note": "已讀RazerStore台灣3090、全聯全電商exact3090與日本Sofmap13980日圓現價，另查完整SKU歷史價格；目前只得不同通路現價，未見可核驗公開時間序列，現價及外幣價格不當台灣史低。"
+  },
+  "voltage": "被動布質鼠墊，不需電力、插頭或變壓器。",
+  "warranty": "台灣RazerStore列滑鼠墊1年有限保固，依購買憑證及原廠耗損／人為損壞排除條款。",
+  "tags": [
+    "電競",
+    "Gigantus新世代",
+    "Balance",
+    "XXL",
+    "4mm",
+    "台灣公司貨"
+  ],
+  "issueResearch": {
+    "status": "no_common_issue",
+    "checkedAt": "2026-10-23",
+    "summary": "截至查核日，查無達門檻的集中負評／災情",
+    "issues": [],
+    "checkedSources": [
+      {
+        "platform": "Reddit",
+        "targetHost": "reddit.com",
+        "query": "site:reddit.com \"RZ02-05490700-R3M1\" (problem OR issue OR failure OR 問題 OR 故障)",
+        "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22RZ02-05490700-R3M1%22%20%28problem%20OR%20issue%20OR%20failure%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%29"
+      },
+      {
+        "platform": "Mobile01",
+        "targetHost": "mobile01.com",
+        "query": "site:mobile01.com \"RZ02-05490700-R3M1\" (problem OR issue OR failure OR 問題 OR 故障)",
+        "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22RZ02-05490700-R3M1%22%20%28problem%20OR%20issue%20OR%20failure%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%29"
+      }
+    ]
+  }
+}
 ]);
 })();

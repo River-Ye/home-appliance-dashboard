@@ -2227,8 +2227,8 @@
     "price": {
       "currency": "USD",
       "amount": 679.99,
-      "converted": 22039,
-      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-10-22 匯率換算"
+      "converted": 22162,
+      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-10-23 匯率換算"
     },
     "image": "https://m.media-amazon.com/images/I/61Yuy5vtWFL._AC_SL1500_.jpg",
     "buyUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
@@ -2267,14 +2267,14 @@
       "status": "found",
       "amount": 679.99,
       "currency": "USD",
-      "converted": 22039,
+      "converted": 22162,
       "sourceUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
       "sourceTitle": "Dreame Aero Ultra Steam Wet Dry Vacuum – Dreame Vacuum Mop",
       "evidenceSnippet": "Dreame 原廠美國商品頁於 2026-07-16 公開顯示特價 US$679.99、原價 US$799.99，且可 Add to Cart / Buy It Now。",
       "sourceKind": "official_sale",
       "confidence": "high",
       "checkedAt": "2026-07-16",
-      "note": "新上市商品目前可公開驗證的最低售價；未套用會員碼、信用卡、點數或個人化折扣，且未含國際運費、進口稅、插頭／供電與台灣保固風險；依 2026-10-22 USD/TWD 匯率換算。"
+      "note": "新上市商品目前可公開驗證的最低售價；未套用會員碼、信用卡、點數或個人化折扣，且未含國際運費、進口稅、插頭／供電與台灣保固風險；依 2026-10-23 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -3086,6 +3086,194 @@
           "query": "\"HITACHI PV-XH4Q\" problem issue defect failure broken 災情 故障 異常",
           "queryUrl": "https://www.youtube.com/results?search_query=%22HITACHI%20PV-XH4Q%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
           "targetHost": "youtube.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "vacuum-dyson-v10-konical-sv55-a",
+    "category": "vacuum",
+    "rank": 33,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Dyson",
+    "model": "V10 Konical SV55-A",
+    "name": "V10 Konical 雙錐無纏結吸塵器",
+    "price": {
+      "currency": "TWD",
+      "amount": 15900,
+      "converted": 15900,
+      "basis": "retailer_current",
+      "confidence": "2026-10-23直接讀Dyson台灣官方商城SKU 419635-01，單購NT$15,900且可加入購物車；未扣贈品、點數或未來折價券。"
+    },
+    "image": "https://dysonshop.blob.core.windows.net/products/dyson-v10-konical-black-copper/hero-1781107409-480x480.jpg",
+    "buyUrl": "https://shop.dyson.tw/vacuums/cordless-vacuums/dyson-v10-konical-black-copper-419635-01",
+    "buyLabel": "Dyson 台灣官方商城",
+    "installation": {
+      "status": "not_stated",
+      "note": "無線直立／手持吸塵器需自行組裝吸頭及充電壁掛架；官方未列到府安裝，壁掛施工需另依牆體條件處理。"
+    },
+    "specs": [
+      "類型：乾式無線直立／手持吸塵器；台灣SV55-A，官方SKU 419635-01",
+      "最大吸力170AW；110,000rpm；節能／中／強效三段吸力與單鍵電源",
+      "All Floor Cones雙錐無纏結吸頭；90°光學顯塵，支援地毯及硬質地板",
+      "全機密封HEPA過濾；官方標示捕捉99.99%小至0.1微米微塵；15個雙層氣旋",
+      "最長60分鐘續航為節能模式搭配隙縫吸頭；強效模式低至6分鐘；充電最長4小時",
+      "集塵筒0.50L；機身2.73kg；來源原列尺寸1160 × 250 × 210mm，未自行推定軸序",
+      "隨附雙錐吸頭、迷你電動吸頭、隙縫吸頭、壁掛架及充電器；台灣此SKU未附自動集塵座",
+      "濾網及雙滾刷可水洗，重裝前至少晾乾24小時；不可僅按舊V10名稱購買濾網"
+    ],
+    "description": "V10 Konical是2026年台灣新增的170AW雙錐顯塵機型，與既有V8 Cyclone SV55的150AW／Fluffy組不同；以雙錐防纏吸頭及光學顯塵補足中價位乾吸用途，實際配置以台灣419635-01為準。",
+    "pros": [
+      "雙錐滾刷與光學顯塵適合長髮、寵物毛及硬地板日常乾吸",
+      "170AW、可換電池與三段模式兼顧清潔力及使用彈性",
+      "官方台灣新品通路公開價與2年保固，配件內容可查"
+    ],
+    "cons": [
+      "2.73kg含鋁管機身比既有V8 Cyclone較重，集塵筒也僅0.50L",
+      "台灣本組未附自動集塵座，不移用海外Auto-empty Dok廣告承諾",
+      "強效模式低至6分鐘，60分鐘為隙縫吸頭節能測試，不能當全屋最高吸力續航",
+      "官方原頁未列充電器額定輸入電壓與頻率，購前需核對台灣隨附充電器銘牌",
+      "需要定期倒塵與清洗，非洗地或蒸氣機"
+    ],
+    "bestFor": "需要長髮防纏、硬地板顯塵並兼顧地毯及床墊乾吸，預算約1.6萬元且可接受手動倒塵的家庭。",
+    "recommendation": "新版中價位乾吸補充：比V8 Cyclone多雙錐吸頭、光學顯塵及170AW，但較重且沒有台灣自動集塵座，不直接取代輕量V12或濕洗機。",
+    "score": 88,
+    "voltage": "機身使用可充電電池；Dyson台灣exact SV55-A頁明列七芯電池、可替換電池與最長4小時充電。台灣官方SKU 419635-01隨附充電器；已讀原頁未標額定輸入電壓／頻率，購買前依台灣隨附充電器銘牌核對，未以海外版本推定。",
+    "warranty": "Dyson台灣官方商城exact-model SV55-A頁面meta明示2年保固；東森台灣SKU SV55-A 285O PH/TW亦列保證期二年。",
+    "tags": [
+      "170AW",
+      "雙錐防纏",
+      "光學顯塵",
+      "台灣公司貨"
+    ],
+    "releaseDate": "2026-06-11",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-23",
+      "note": "已讀Dyson台灣官方現行SKU頁與FindPrice exact名稱比價，並查LBJ與史低搜尋。官方搜尋快取曾見9/9限定14900，現行原頁已是15900，無可重現歷史日期曲線；不以快取、現價或海外不同150AW/車用套組推台灣419635-01史低。LBJ查詢原頁工具無法讀取。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-23",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Dyson V10 Konical SV55-A\" 災情",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Dyson%20V10%20Konical%20SV55-A%22%20%E7%81%BD%E6%83%85",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Dyson V10 Konical SV55-A\" problems",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Dyson%20V10%20Konical%20SV55-A%22%20problems",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "vacuum-roborock-f25-ultra-steam-gen2-wd6y8a",
+    "category": "vacuum",
+    "rank": 34,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Roborock",
+    "model": "WD6Y8A",
+    "name": "F25 Ultra Steam Gen2 臂蒸之帝蒸氣洗地機（預購）",
+    "price": {
+      "currency": "TWD",
+      "amount": 17999,
+      "converted": 17999,
+      "basis": "retailer_current",
+      "confidence": "2026-10-23直接讀Roborock台灣官方本型號名稱頁，公開17999且可預購；明示11月中旬依訂單出貨，不扣會員首單500/LINE碼/點數。全國電子2166364核對硬體型號WD6Y8A同名同價。"
+    },
+    "image": "https://taiwan.roborock.com/cdn/shop/files/F25_Ultra_Steam_Gen_2_1_1200x1200.png?v=1790784065",
+    "buyUrl": "https://taiwan.roborock.com/products/roborock-f25-ultra-steam-gen2",
+    "buyLabel": "Roborock台灣官方（預購）",
+    "installation": {
+      "status": "not_stated",
+      "note": "需自行依說明書組裝及放置充電自清潔底座，官方未列到府安裝；需預留污水箱拆裝、清水補充及熱風排散空間。"
+    },
+    "specs": [
+      "類型：直立吸拖洗地機，F25 Ultra Steam Gen2；全國電子exact硬體型號WD6Y8A",
+      "VaporFlow2.0最高180°C蒸氣與超能增壓模式；蒸氣量最高5000mg/min、覆蓋500cm²",
+      "WaveFlow最高90°C熱活水；25,000Pa吸力、33N下壓、每分鐘450次洗地",
+      "SensEdge AI瞬降速刮臂：前推抬升、後拉下壓，三側0貼邊；180°平躺",
+      "6300mAh軟包電池；一般模式最長100分鐘，不能當蒸氣模式續航",
+      "180°C蒸氣/95°C高溫自清潔；95°C熱風5分鐘快烘或30分鐘靜烘",
+      "5+2種模式與語音提示；需依地板材質確認可否蒸氣/熱水使用",
+      "本輪已讀台灣官方文字未列機身尺寸、淨重與充電器額定電壓/頻率，購前核對銘牌及底座空間",
+      "官方預購預計2026年11月中旬依訂單陸續出貨；原廠一年保固"
+    ],
+    "description": "F25 Ultra Steam Gen2是F25蒸氣線的新一代，重點增加2.5倍蒸氣量、SensEdge速刮臂與6300mAh電池；與既有F25 ACE Pro的泡沫路線不同，台灣目前可預購，不能把兩者視為單純高低階替換。",
+    "pros": [
+      "高壓蒸氣與熱水雙模式，適合可承受高溫的硬地乾固油污",
+      "速刮機械臂及三側貼邊改善回拉水痕與邊緣清潔",
+      "6300mAh與多種洗烘模式，台灣官方1年保固"
+    ],
+    "cons": [
+      "台灣官方目前預購，預計11月中旬依訂單出貨，非現貨",
+      "100分鐘為一般模式上限，蒸氣加熱會縮短續航",
+      "高溫蒸氣/熱水需先確認地板與塗層耐受性，不能對所有木地板泛稱安全",
+      "本輪未核到台灣完整機身尺寸淨重與額定輸入，購前需確認搬運負擔和充電底座空間",
+      "污水箱、滾刷及刮條仍需定期保養，非自清潔後完全免維護"
+    ],
+    "bestFor": "常處理廚房油污、乾固髒污，地板可使用高溫蒸氣且可等待預購交期的家庭。",
+    "recommendation": "新版蒸熱雙洗參考：VaporFlow2.0、25000Pa與SensEdge刮臂有具體新設計；保留原有ACE Pro讓泡沫與蒸氣清潔路線依地板用途選擇。",
+    "score": 89,
+    "voltage": "機身內建可充電6300mAh軟包電池；台灣官方本型頁明列電池容量與疾速蓄熱。台灣官方販售版本；已讀官方與全國電子文字未列充電器額定輸入電壓/頻率，依台灣公司貨隨附銘牌確認，未套用海外版本。",
+    "warranty": "Roborock台灣官方exact產品頁明示原廠一年保固；消耗品及非保固範圍依台灣售後條款。",
+    "tags": [
+      "2026新機",
+      "蒸氣熱水雙洗",
+      "25,000Pa",
+      "AI速刮臂",
+      "預購"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-23",
+      "note": "查台灣官方、全國電子、FindPrice F25 Ultra比較及完整型號歷史價；現價17999與預購/不同F25 Ultra WD6Y3A/耗材混列，未取得台灣WD6Y8A可重現歷史最低點，未以現價當史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-23",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"WD6Y8A\" 問題 故障",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22WD6Y8A%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"WD6Y8A\" problems",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22WD6Y8A%22%20problems",
+          "targetHost": "reddit.com"
         }
       ]
     }
