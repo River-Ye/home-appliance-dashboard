@@ -2213,9 +2213,9 @@
     "name": "PRO 西式主廚刀 20cm",
     "price": {
       "currency": "TWD",
-      "amount": 8183,
-      "converted": 8183,
-      "confidence": "ZWILLING 台灣官方 2026-08-20 exact-model 新品頁公開優惠價",
+      "amount": 9023,
+      "converted": 9023,
+      "confidence": "2026-10-24 人工核對 www.zwilling.com.tw 同型號與所選版本公開價 TWD 9023，可下單；未扣會員、信用卡或點數。",
       "basis": "retailer_current"
     },
     "image": "https://cdn-general.cybassets.com/media/W1siZiIsIjI5NjAzL3Byb2R1Y3RzLzUzMTI2MDA1LzE3MzcwMTg5MTdfNmRjNmM5NDFjMGZiZDVjNTkwOTUuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=0cd518c4a2d18c0d",

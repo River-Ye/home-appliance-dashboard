@@ -60,6 +60,7 @@
       converted: item.price,
       basis: "retailer_current",
       confidence: item.priceConfidence || `2026-09-01 Chrome 已查核 ${item.model} 確切新品頁與所選版本，頁面現價為 NT$${item.price.toLocaleString("en-US")}；不把其他尺寸、包數或贈品價套用。`,
+      ...(item.priceNote ? { note: item.priceNote } : {}),
     },
     image: item.image,
     buyUrl: item.buyUrl,
@@ -110,7 +111,9 @@
     },
     {
       id: "pillow-emma-black-diamond", variantFamily: "emma-black-diamond", brand: "Emma", model: "EPWCF040070RAB", name: "Emma 石墨烯黑鑽記憶枕 40x70 EPWCF040070RAB", type: "memory_foam", typeSpec: "三層記憶泡棉完整成品枕", budget: "premium", rank: 3, score: 90, price: 3199,
-      image: "https://eu-images.contentstack.com/v3/assets/blt167b24547e5b1906/blt544d377e44af8545/67e680a37c440a8ddddc1448/Customizable_Cooling_Foam_Pillow_Layers_Gallery_(1).jpg", buyUrl: "https://www.emma-sleep.com.tw/black-diamond-pillow/", buyLabel: "Emma 台灣官網（EPWCF040070RAB）",
+      priceConfidence: "2026-10-24官網主頁已改為40x70兩顆買一送一5599元；本卡3199元保留單顆舊參考，非確認現售價，不以二入總價或拆算單價跨包數寫入。",
+      priceNote: "2026-10-24官網主頁已改為40x70兩顆買一送一5599元；本卡3199元保留單顆舊參考，非確認現售價，不以二入總價或拆算單價跨包數寫入。",
+      image: "https://eu-images.contentstack.com/v3/assets/blt167b24547e5b1906/blt544d377e44af8545/67e680a37c440a8ddddc1448/Customizable_Cooling_Foam_Pillow_Layers_Gallery_(1).jpg", buyUrl: "https://www.emma-sleep.com.tw/black-diamond-pillow/", buyLabel: "Emma 台灣官網（單顆現售待確認）",
       sleep: "抽換一至三層對應趴睡、仰睡、側睡", cover: "高透氣可拆洗枕套", core: "Diamond Degree 黑鑽石棉、HRX 支撐棉、Hypergel 棉三層", height: "一至三層可調／軟硬隨層數與放置順序調整", size: "長 70 x 寬 40 cm", weight: "查不到", thermal: "Diamond Degree 石墨烯溫濕調節表層", origin: "官方台灣頁未標示產地與第三方認證", care: "布套可拆下機洗；泡棉層不可依布套方式水洗",
       description: "以三層可拆泡棉調整睡姿與高度，並把石墨烯溫控放在表層。", pros: ["三層可調", "30 天官方試睡", "涼感表層"], cons: ["無淨重與公分高度", "需要自行嘗試層數", "涼感受環境影響"], bestFor: "睡姿會改變、希望可拆層調整且重視散熱者。", recommendation: "收到後逐層試睡並保留完整包材；三層並不必然最適合每位側睡者。", warranty: "Emma 台灣官網售後與 30 天枕頭試睡；商品耐用保固年限依官網條款，頁面未另列。", tags: ["三層可調", "涼感", "30天試睡", "台灣官網"],
     },

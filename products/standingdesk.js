@@ -605,10 +605,11 @@
     "name": "電動升降桌 UP002 WH",
     "price": {
       "currency": "TWD",
-      "amount": 7690,
-      "converted": 7690,
-      "confidence": "2026-08-31 人工查核：UP002 WH 白色 120×60cm，08/24–08/31 公開折後 NT$7,690，直接購買／購物車可用；未滿 NT$20,000 另收運費 NT$1,350，需約配。",
-      "basis": "retailer_current"
+      "amount": 7590,
+      "converted": 7590,
+      "confidence": "2026-10-24 人工核對 www.momoshop.com.tw 同型號與所選版本公開價 TWD 7590，可下單；未扣會員、信用卡或點數。",
+      "basis": "retailer_current",
+      "note": "2026-10-24 momo公開單件價7590元；未滿20000元大型家具運費1350元另計，組裝/樓層搬運依原頁條款。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQCI0AA900IW7RS/000001_1768543932.jpg",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=14070530",

@@ -505,10 +505,10 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 1090,
-      "converted": 1090,
+      "amount": 1290,
+      "converted": 1290,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 Chrome旗艦店原頁選920-009212黑色，公開1090元，可加入購物車。"
+      "confidence": "2026-10-24 人工核對 store.logitech.tw 同型號與所選版本公開價 TWD 1290，可下單；未扣會員、信用卡或點數。"
     },
     "installation": {
       "status": "not_stated",
@@ -2218,10 +2218,10 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 2990,
-      "converted": 2990,
+      "amount": 2690,
+      "converted": 2690,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 Chrome已核台灣官店石墨灰920-010508、2990元及可加入購物車。"
+      "confidence": "2026-10-24 人工核對 store.logitech.tw 同型號與所選版本公開價 TWD 2690，可下單；未扣會員、信用卡或點數。"
     },
     "installation": {
       "status": "not_stated",
@@ -2801,11 +2801,11 @@
     "variantFamily": "G515 LIGHTSPEED TKL",
     "topPick": false,
     "price": {
-      "amount": 3290,
+      "amount": 2690,
       "currency": "TWD",
-      "converted": 3290,
+      "converted": 2690,
       "basis": "retailer_current",
-      "confidence": "2026-09-01 Chrome核對選定版本完整新品公開售價，不扣個人折價券、信用卡、點數或加購。"
+      "confidence": "2026-10-24 人工核對 store.logitech.tw 同型號與所選版本公開價 TWD 2690，可下單；未扣會員、信用卡或點數。"
     },
     "installation": {
       "status": "not_stated",
@@ -3083,208 +3083,208 @@
       "台灣公司貨"
     ]
   },
-{
-  "id": "keyboard-razer-huntsman-v3-pro-tkl-8k",
-  "category": "keyboard",
-  "brand": "Razer",
-  "model": "RZ03-05520100-R3M1",
-  "name": "Huntsman V3 Pro Tenkeyless 8KHz 黑色美式類比光軸鍵盤",
-  "type": "optical",
-  "variantFamily": "Razer Huntsman V3 Pro Tenkeyless 8KHz",
-  "rank": 32,
-  "budget": "premium",
-  "channel": "tw",
-  "score": 86,
-  "price": {
-    "currency": "TWD",
-    "amount": 7490,
-    "converted": 7490,
-    "basis": "retailer_current",
-    "confidence": "2026-10-23 Chrome實頁：主商品黑色美式RZ03-05520100-R3M1售7490，可加購物車及配送台灣；未採相關非Pro型號6290起價。"
+  {
+    "id": "keyboard-razer-huntsman-v3-pro-tkl-8k",
+    "category": "keyboard",
+    "brand": "Razer",
+    "model": "RZ03-05520100-R3M1",
+    "name": "Huntsman V3 Pro Tenkeyless 8KHz 黑色美式類比光軸鍵盤",
+    "type": "optical",
+    "variantFamily": "Razer Huntsman V3 Pro Tenkeyless 8KHz",
+    "rank": 32,
+    "budget": "premium",
+    "channel": "tw",
+    "score": 86,
+    "price": {
+      "currency": "TWD",
+      "amount": 7490,
+      "converted": 7490,
+      "basis": "retailer_current",
+      "confidence": "2026-10-23 Chrome實頁：主商品黑色美式RZ03-05520100-R3M1售7490，可加購物車及配送台灣；未採相關非Pro型號6290起價。"
+    },
+    "image": "https://medias-p1.phoenix.razer.com/sys-master-phoenix-images-container/hb9/h24/9980311076894/huntsman-v3-pro-tkl-8khz-b-500x500.png",
+    "buyUrl": "https://www.razer.com/tw-zh/gaming-keyboards/razer-huntsman-v3-pro-tenkeyless-8khz/RZ03-05520100-R3M1",
+    "buyLabel": "Razer 台灣官方商店（美式黑色）",
+    "installation": {
+      "status": "not_stated",
+      "note": "自行USB連接與Synapse設定；Rapid Trigger及Snap Tap依遊戲規章啟用。"
+    },
+    "specs": [
+      "類型：完整成品類比光學軸電競鍵盤，黑色RZ03-05520100-R3M1；不是HE磁軸或舊1000Hz版",
+      "配列：美式TKL無數字區、數位旋鈕及2顆專用控制按鈕",
+      "鍵帽語言／材質：原生美式英文、紋理雙射PBT；非中文注音",
+      "軸體：Razer Analog Optical Switches Gen-2；類比光學軸、潤滑改良、0.1–4.0mm可調觸發、Rapid Trigger",
+      "熱插拔：所查官方exact頁未明示，不推定可換軸或第三方軸相容",
+      "連線：可拆USB Type-C有線，隨盒USB-A轉USB-C線；無無線模式",
+      "回報率：True 8000Hz HyperPolling；主機負載與遊戲限制須自行確認",
+      "供電／續航：USB有線供電，無無線續航；額定V/A未標示",
+      "系統／軟體：官方manual列Windows10 64位元以上與網際網路供Synapse安裝；6組板載設定檔，Snap Tap須遵守遊戲規章",
+      "尺寸：長 363 x 寬 139 x 高 38 mm",
+      "重量：約 981 g",
+      "隨附配件：磁吸硬質人造皮革腕墊、USB-A轉USB-C線、產品資訊指南；官方約981g未拆分腕托／線材範圍，不推定含或不含"
+    ],
+    "description": "既有Huntsman V3 Pro TKL的8K後繼支線，加入潤滑及吸音改良、提高輪詢率並保留可調類比光軸。台灣官店為美式英文版；保留舊中文1000Hz款供語言與價格比較。",
+    "pros": [
+      "真8K有線與0.1–4mm可調類比觸發",
+      "雙射PBT、鋁上蓋及磁吸腕墊",
+      "官方manual確認2年保固與配件"
+    ],
+    "cons": [
+      "7490屬高價英文TKL，缺數字區與無線",
+      "官方981g未拆分腕墊與線材範圍，與其他款裸鍵盤比較有界線",
+      "已見個別設定與啟動候選，HE磁軸／全尺寸回報不可跨套"
+    ],
+    "bestFor": "明確需要類比光軸及8K、接受英文TKL與有線的競技玩家。",
+    "recommendation": "Huntsman光軸新世代參考；先試觸發與Rapid Trigger設定，保留遊戲允許的Snap Tap功能，無須為8K更換仍合用的中文舊版。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-23",
+      "note": "已讀Razer台灣exact黑色美式7490與exact8K型號價格／歷史最低搜尋；比價混入舊中文1000Hz5190、非Pro8K及其他地區配列，未找到可公開核驗本SKU歷史最低，不轉用舊款降價。"
+    },
+    "voltage": "USB Type-C有線供電；所查官方exact頁未標額定V/A，不推定交流電規格。",
+    "warranty": "官方Huntsman V3 Pro TKL 8K使用手冊明示2年保固，從台灣官方商店購買並依有限保固條款及憑證申請。",
+    "tags": [
+      "電競",
+      "Huntsman新世代",
+      "8000Hz",
+      "英文鍵帽",
+      "類比光軸",
+      "台灣官方通路"
+    ],
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-23",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"RZ03-05520100-R3M1\" (problem OR issue OR failure OR 問題 OR 故障)",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22RZ03-05520100-R3M1%22%20%28problem%20OR%20issue%20OR%20failure%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%29"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"RZ03-05520100-R3M1\" (problem OR issue OR failure OR 問題 OR 故障)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22RZ03-05520100-R3M1%22%20%28problem%20OR%20issue%20OR%20failure%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%29"
+        },
+        {
+          "platform": "Razer Insider",
+          "targetHost": "insider.razer.com",
+          "query": "site:insider.razer.com \"RZ03-05520100-R3M1\" (problem OR issue OR failure OR 問題 OR 故障)",
+          "queryUrl": "https://www.google.com/search?q=site%3Ainsider.razer.com%20%22RZ03-05520100-R3M1%22%20%28problem%20OR%20issue%20OR%20failure%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%29"
+        }
+      ]
+    }
   },
-  "image": "https://medias-p1.phoenix.razer.com/sys-master-phoenix-images-container/hb9/h24/9980311076894/huntsman-v3-pro-tkl-8khz-b-500x500.png",
-  "buyUrl": "https://www.razer.com/tw-zh/gaming-keyboards/razer-huntsman-v3-pro-tenkeyless-8khz/RZ03-05520100-R3M1",
-  "buyLabel": "Razer 台灣官方商店（美式黑色）",
-  "installation": {
-    "status": "not_stated",
-    "note": "自行USB連接與Synapse設定；Rapid Trigger及Snap Tap依遊戲規章啟用。"
-  },
-  "specs": [
-    "類型：完整成品類比光學軸電競鍵盤，黑色RZ03-05520100-R3M1；不是HE磁軸或舊1000Hz版",
-    "配列：美式TKL無數字區、數位旋鈕及2顆專用控制按鈕",
-    "鍵帽語言／材質：原生美式英文、紋理雙射PBT；非中文注音",
-    "軸體：Razer Analog Optical Switches Gen-2；類比光學軸、潤滑改良、0.1–4.0mm可調觸發、Rapid Trigger",
-    "熱插拔：所查官方exact頁未明示，不推定可換軸或第三方軸相容",
-    "連線：可拆USB Type-C有線，隨盒USB-A轉USB-C線；無無線模式",
-    "回報率：True 8000Hz HyperPolling；主機負載與遊戲限制須自行確認",
-    "供電／續航：USB有線供電，無無線續航；額定V/A未標示",
-    "系統／軟體：官方manual列Windows10 64位元以上與網際網路供Synapse安裝；6組板載設定檔，Snap Tap須遵守遊戲規章",
-    "尺寸：長 363 x 寬 139 x 高 38 mm",
-    "重量：約 981 g",
-    "隨附配件：磁吸硬質人造皮革腕墊、USB-A轉USB-C線、產品資訊指南；官方約981g未拆分腕托／線材範圍，不推定含或不含"
-  ],
-  "description": "既有Huntsman V3 Pro TKL的8K後繼支線，加入潤滑及吸音改良、提高輪詢率並保留可調類比光軸。台灣官店為美式英文版；保留舊中文1000Hz款供語言與價格比較。",
-  "pros": [
-    "真8K有線與0.1–4mm可調類比觸發",
-    "雙射PBT、鋁上蓋及磁吸腕墊",
-    "官方manual確認2年保固與配件"
-  ],
-  "cons": [
-    "7490屬高價英文TKL，缺數字區與無線",
-    "官方981g未拆分腕墊與線材範圍，與其他款裸鍵盤比較有界線",
-    "已見個別設定與啟動候選，HE磁軸／全尺寸回報不可跨套"
-  ],
-  "bestFor": "明確需要類比光軸及8K、接受英文TKL與有線的競技玩家。",
-  "recommendation": "Huntsman光軸新世代參考；先試觸發與Rapid Trigger設定，保留遊戲允許的Snap Tap功能，無須為8K更換仍合用的中文舊版。",
-  "releaseDate": "找不到",
-  "historicalLow": {
-    "status": "not_found",
-    "amount": null,
-    "currency": "TWD",
-    "converted": null,
-    "sourceUrl": "",
-    "sourceTitle": "",
-    "evidenceSnippet": "",
-    "sourceKind": "not_found",
-    "confidence": "not_found",
-    "checkedAt": "2026-10-23",
-    "note": "已讀Razer台灣exact黑色美式7490與exact8K型號價格／歷史最低搜尋；比價混入舊中文1000Hz5190、非Pro8K及其他地區配列，未找到可公開核驗本SKU歷史最低，不轉用舊款降價。"
-  },
-  "voltage": "USB Type-C有線供電；所查官方exact頁未標額定V/A，不推定交流電規格。",
-  "warranty": "官方Huntsman V3 Pro TKL 8K使用手冊明示2年保固，從台灣官方商店購買並依有限保固條款及憑證申請。",
-  "tags": [
-    "電競",
-    "Huntsman新世代",
-    "8000Hz",
-    "英文鍵帽",
-    "類比光軸",
-    "台灣官方通路"
-  ],
-  "issueResearch": {
-    "status": "no_common_issue",
-    "checkedAt": "2026-10-23",
-    "summary": "截至查核日，查無達門檻的集中負評／災情",
-    "issues": [],
-    "checkedSources": [
-      {
-        "platform": "Reddit",
-        "targetHost": "reddit.com",
-        "query": "site:reddit.com \"RZ03-05520100-R3M1\" (problem OR issue OR failure OR 問題 OR 故障)",
-        "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22RZ03-05520100-R3M1%22%20%28problem%20OR%20issue%20OR%20failure%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%29"
-      },
-      {
-        "platform": "Mobile01",
-        "targetHost": "mobile01.com",
-        "query": "site:mobile01.com \"RZ03-05520100-R3M1\" (problem OR issue OR failure OR 問題 OR 故障)",
-        "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22RZ03-05520100-R3M1%22%20%28problem%20OR%20issue%20OR%20failure%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%29"
-      },
-      {
-        "platform": "Razer Insider",
-        "targetHost": "insider.razer.com",
-        "query": "site:insider.razer.com \"RZ03-05520100-R3M1\" (problem OR issue OR failure OR 問題 OR 故障)",
-        "queryUrl": "https://www.google.com/search?q=site%3Ainsider.razer.com%20%22RZ03-05520100-R3M1%22%20%28problem%20OR%20issue%20OR%20failure%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%29"
-      }
-    ]
+  {
+    "id": "keyboard-wooting-80he-plus-tikken-medium",
+    "category": "keyboard",
+    "brand": "Wooting",
+    "model": "WK5B-US1-TIK-BK2B",
+    "name": "80HE+ ANSI US ABS Dark 完整成品（Lekker Tikken Medium，無旋鈕）",
+    "type": "magnetic",
+    "variantFamily": "Wooting 80HE+",
+    "rank": 33,
+    "budget": "premium",
+    "channel": "global",
+    "score": 89,
+    "price": {
+      "currency": "TWD",
+      "amount": 6609,
+      "converted": 6609,
+      "basis": "retailer_current",
+      "confidence": "2026-10-23 Chrome官方Taiwan區域配置實價TWD6609，非外幣換算。Prebuilt/ANSI/Plastic-Dark/No-knob原生model53821627760923、ReadyToUse、InStock1–2工作天出貨且可加車；未含國際運費、進口稅，結帳另計。"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "完整成品USB連接，不需自行購買模組／鍵帽／軸體組裝；旋鈕與腕墊未含。"
+    },
+    "image": "https://wooting-website.ams3.cdn.digitaloceanspaces.com/products/keyboards/80HE-plus/prebuilt-images/80he-plus-prebuilt-ANSI-plastic-dark.webp",
+    "buyUrl": "https://wooting.io/configurator/wooting-80he-plus?path=prebuilt&model=53821627760923&knob=none",
+    "buyLabel": "Wooting 官方海外商店（ANSI ABS Dark完整成品）",
+    "specs": [
+      "類型：完整成品霍爾磁軸鍵盤，WK5B-US1-TIK-BK2B；不是Module／裸殼",
+      "配列：80% ANSI US、功能列與方向鍵、一般空白鍵，無旋鈕；分裂空白鍵僅Module另案",
+      "鍵帽語言／材質：原生美國英文、OEM高度雙射透光PBT",
+      "軸體：Wooting Lekker Tikken Medium；預裝線性霍爾磁軸，4mm全行程、0.1–4.0mm觸發以0.1mm步進調整",
+      "熱插拔：可拔換軸體；Wootility Switch Selector校準相容軸，不推定所有第三方磁軸都可直接混用",
+      "連線：USB Type-C有線，隨盒2m USB-C轉USB-C線及USB-A轉接；無Bluetooth或2.4G",
+      "回報率：True8000Hz、同步掃描及Tachyon；實際主機／遊戲負載須確認",
+      "供電／續航：USB供電，無無線電池；原頁未明額定V/A",
+      "系統／軟體：Wootility網頁或桌面版供Windows10/11、macOS及Linux；4組板載設定檔，設定後免常駐；Rapid Trigger／SOCD依遊戲規章",
+      "尺寸：查不到",
+      "重量：822 g",
+      "隨附配件：防塵蓋、鍵帽／軸體拔除器、3顆備用Tikken Medium、2m C-C線與C-A轉接、6度／10度矽膠腳、備用螺絲及額外鍵帽；原裝2.8度腳，腕墊另購",
+      "機身數據補充：官方列346.34×142.8×35mm但未標明軸序，不自行分配長寬高；另明示前緣不含鍵帽高28.6mm；ABS Dark半透明深色上殼／不透明黑下殼、FR4板及Gasket結構"
+    ],
+    "description": "80HE的明確更新版，改用Tikken Medium、FR4板及內部走線與吸音調整，8K與主要軟體功能延續。選定可直接使用的ANSI ABS Dark完整成品，保留老80HE，原廠也說既有使用者不一定需要換機。",
+    "pros": [
+      "新Tikken Medium、FR4與內部吸音調整",
+      "網頁設定、4組板載與同步8K掃描",
+      "原廠四年有限保固，LED另為兩年；完整成品可購"
+    ],
+    "cons": [
+      "海外購買未含國際運費及進口稅，未確認台灣保固，需評估跨境維修與退運成本",
+      "只有有線英文、未附旋鈕／腕墊；無分裂空白鍵",
+      "上市初期長期資料不足；8K、極低觸發及SOCD需依主機負載與遊戲規章設定"
+    ],
+    "bestFor": "接受英文有線與海外售後，希望買完整Tikken Medium成品的競技玩家。",
+    "recommendation": "80HE直接後繼參考；已用舊80HE可先比較換軸需求，無需只因新代換機。下訂核對原生配置、運稅及跨境保固，不把Module或含旋鈕鋅殼版價格混入。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-23",
+      "note": "已讀官方Taiwan完整配置6609、80HE+公告價199.99USD及BuyWisely舊80HE Ghost價格歷史；美元公告不同區域報價、舊Ghost/L60V2不是本SKU。未找到本ABS Dark/Tikken完整成品公開可核驗史低，現價不當史低；海外仍未含運稅與台灣保固風險。"
+    },
+    "voltage": "電壓／供電：USB主機供電，官方未標明額定V/A，不自行填入電壓值；附C-C線與USB-A轉接，不含市電插頭／變壓器。台灣使用前須核對主機USB供電相容性；若另購USB電源，應確認其電壓、輸出與插頭適合台灣。",
+    "warranty": "官方海外4年有限保固，LED另為2年；未確認台灣保固，需依原廠跨境RMA、運費及購買憑證條款。",
+    "tags": [
+      "電競",
+      "80HE後繼",
+      "8000Hz",
+      "英文鍵帽",
+      "完整成品",
+      "海外通路"
+    ],
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-23",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"WK5B-US1-TIK-BK2B\" (problem OR issue OR failure OR 問題 OR 故障)",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22WK5B-US1-TIK-BK2B%22%20%28problem%20OR%20issue%20OR%20failure%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%29"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"WK5B-US1-TIK-BK2B\" (problem OR issue OR failure OR 問題 OR 故障)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22WK5B-US1-TIK-BK2B%22%20%28problem%20OR%20issue%20OR%20failure%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%29"
+        }
+      ]
+    }
   }
-},
-{
-  "id": "keyboard-wooting-80he-plus-tikken-medium",
-  "category": "keyboard",
-  "brand": "Wooting",
-  "model": "WK5B-US1-TIK-BK2B",
-  "name": "80HE+ ANSI US ABS Dark 完整成品（Lekker Tikken Medium，無旋鈕）",
-  "type": "magnetic",
-  "variantFamily": "Wooting 80HE+",
-  "rank": 33,
-  "budget": "premium",
-  "channel": "global",
-  "score": 89,
-  "price": {
-    "currency": "TWD",
-    "amount": 6609,
-    "converted": 6609,
-    "basis": "retailer_current",
-    "confidence": "2026-10-23 Chrome官方Taiwan區域配置實價TWD6609，非外幣換算。Prebuilt/ANSI/Plastic-Dark/No-knob原生model53821627760923、ReadyToUse、InStock1–2工作天出貨且可加車；未含國際運費、進口稅，結帳另計。"
-  },
-  "installation": {
-    "status": "not_stated",
-    "note": "完整成品USB連接，不需自行購買模組／鍵帽／軸體組裝；旋鈕與腕墊未含。"
-  },
-  "image": "https://wooting-website.ams3.cdn.digitaloceanspaces.com/products/keyboards/80HE-plus/prebuilt-images/80he-plus-prebuilt-ANSI-plastic-dark.webp",
-  "buyUrl": "https://wooting.io/configurator/wooting-80he-plus?path=prebuilt&model=53821627760923&knob=none",
-  "buyLabel": "Wooting 官方海外商店（ANSI ABS Dark完整成品）",
-  "specs": [
-    "類型：完整成品霍爾磁軸鍵盤，WK5B-US1-TIK-BK2B；不是Module／裸殼",
-    "配列：80% ANSI US、功能列與方向鍵、一般空白鍵，無旋鈕；分裂空白鍵僅Module另案",
-    "鍵帽語言／材質：原生美國英文、OEM高度雙射透光PBT",
-    "軸體：Wooting Lekker Tikken Medium；預裝線性霍爾磁軸，4mm全行程、0.1–4.0mm觸發以0.1mm步進調整",
-    "熱插拔：可拔換軸體；Wootility Switch Selector校準相容軸，不推定所有第三方磁軸都可直接混用",
-    "連線：USB Type-C有線，隨盒2m USB-C轉USB-C線及USB-A轉接；無Bluetooth或2.4G",
-    "回報率：True8000Hz、同步掃描及Tachyon；實際主機／遊戲負載須確認",
-    "供電／續航：USB供電，無無線電池；原頁未明額定V/A",
-    "系統／軟體：Wootility網頁或桌面版供Windows10/11、macOS及Linux；4組板載設定檔，設定後免常駐；Rapid Trigger／SOCD依遊戲規章",
-    "尺寸：查不到",
-    "重量：822 g",
-    "隨附配件：防塵蓋、鍵帽／軸體拔除器、3顆備用Tikken Medium、2m C-C線與C-A轉接、6度／10度矽膠腳、備用螺絲及額外鍵帽；原裝2.8度腳，腕墊另購",
-    "機身數據補充：官方列346.34×142.8×35mm但未標明軸序，不自行分配長寬高；另明示前緣不含鍵帽高28.6mm；ABS Dark半透明深色上殼／不透明黑下殼、FR4板及Gasket結構"
-  ],
-  "description": "80HE的明確更新版，改用Tikken Medium、FR4板及內部走線與吸音調整，8K與主要軟體功能延續。選定可直接使用的ANSI ABS Dark完整成品，保留老80HE，原廠也說既有使用者不一定需要換機。",
-  "pros": [
-    "新Tikken Medium、FR4與內部吸音調整",
-    "網頁設定、4組板載與同步8K掃描",
-    "原廠四年有限保固，LED另為兩年；完整成品可購"
-  ],
-  "cons": [
-    "海外購買未含國際運費及進口稅，未確認台灣保固，需評估跨境維修與退運成本",
-    "只有有線英文、未附旋鈕／腕墊；無分裂空白鍵",
-    "上市初期長期資料不足；8K、極低觸發及SOCD需依主機負載與遊戲規章設定"
-  ],
-  "bestFor": "接受英文有線與海外售後，希望買完整Tikken Medium成品的競技玩家。",
-  "recommendation": "80HE直接後繼參考；已用舊80HE可先比較換軸需求，無需只因新代換機。下訂核對原生配置、運稅及跨境保固，不把Module或含旋鈕鋅殼版價格混入。",
-  "releaseDate": "找不到",
-  "historicalLow": {
-    "status": "not_found",
-    "amount": null,
-    "currency": "TWD",
-    "converted": null,
-    "sourceUrl": "",
-    "sourceTitle": "",
-    "evidenceSnippet": "",
-    "sourceKind": "not_found",
-    "confidence": "not_found",
-    "checkedAt": "2026-10-23",
-    "note": "已讀官方Taiwan完整配置6609、80HE+公告價199.99USD及BuyWisely舊80HE Ghost價格歷史；美元公告不同區域報價、舊Ghost/L60V2不是本SKU。未找到本ABS Dark/Tikken完整成品公開可核驗史低，現價不當史低；海外仍未含運稅與台灣保固風險。"
-  },
-  "voltage": "電壓／供電：USB主機供電，官方未標明額定V/A，不自行填入電壓值；附C-C線與USB-A轉接，不含市電插頭／變壓器。台灣使用前須核對主機USB供電相容性；若另購USB電源，應確認其電壓、輸出與插頭適合台灣。",
-  "warranty": "官方海外4年有限保固，LED另為2年；未確認台灣保固，需依原廠跨境RMA、運費及購買憑證條款。",
-  "tags": [
-    "電競",
-    "80HE後繼",
-    "8000Hz",
-    "英文鍵帽",
-    "完整成品",
-    "海外通路"
-  ],
-  "issueResearch": {
-    "status": "no_common_issue",
-    "checkedAt": "2026-10-23",
-    "summary": "截至查核日，查無達門檻的集中負評／災情",
-    "issues": [],
-    "checkedSources": [
-      {
-        "platform": "Reddit",
-        "targetHost": "reddit.com",
-        "query": "site:reddit.com \"WK5B-US1-TIK-BK2B\" (problem OR issue OR failure OR 問題 OR 故障)",
-        "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22WK5B-US1-TIK-BK2B%22%20%28problem%20OR%20issue%20OR%20failure%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%29"
-      },
-      {
-        "platform": "Mobile01",
-        "targetHost": "mobile01.com",
-        "query": "site:mobile01.com \"WK5B-US1-TIK-BK2B\" (problem OR issue OR failure OR 問題 OR 故障)",
-        "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22WK5B-US1-TIK-BK2B%22%20%28problem%20OR%20issue%20OR%20failure%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%29"
-      }
-    ]
-  }
-}
 ]);
 })();

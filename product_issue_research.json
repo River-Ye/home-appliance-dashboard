@@ -1,9 +1,9 @@
 {
   "summary": {
-    "checkedAt": "2026-10-23T00:00:00+08:00",
-    "total": 1217,
+    "checkedAt": "2026-10-24T00:00:00+08:00",
+    "total": 1218,
     "commonIssueProducts": 53,
-    "noCommonIssueProducts": 1164,
+    "noCommonIssueProducts": 1165,
     "pendingManualReview": 0,
     "commonIssues": 54,
     "searchUnavailable": 614,
@@ -27,7 +27,8 @@
       "2026-09-06 下午僅新增 AC3681/81 的跨站人工負評覆核：PTT、Mobile01、Dcard 候選有型號後綴未明的系列個案或購前內容，均保留具體排除理由；沒有達到同一 exact 型號問題 6 人／2 站門檻。原 1139 筆研究與逐人證據保留原日期。",
       "2026-09-07 下午僅新增 MPG 271QR QD-OLED X50 與 WDEE123HTW 的逐型號跨站人工負評覆核；既有1147筆研究與53款集中問題保留原始逐筆日期。MSI人體感測／面板保護與Whirlpool噪音／到貨外觀個案均揭露，尚未達同一問題6人且跨2個原始網站門檻。",
       "2026-09-07 本輪僅新增水空間 WS-RCH601、WS-Min'O-R2、WS-UVN500 三款逐型號跨站人工覆核；WS-RCH601 的門市體驗文章非故障回報，其餘兩款未發現 exact-model 使用者候選，均未達同問題 6 人／2 站門檻。既有 1149 筆研究與逐人證據原樣保留，不宣稱同日重讀。",
-      "2026-09-08 全量維護僅對新增 MPG 491CQPX QD-OLED 與 NA-LX128EL 完成逐型號跨站負評人工覆核；既有商品保留原始逐筆研究日期。MSI 的零星訊號／VRR／OSD問題及 Panasonic 的烘後桶體燙感分開處置，均未達同一問題6人且跨2個原始網站門檻。依eufy官方停產公告移除E20及其現行研究列，既有386筆逐人證據不變。"
+      "2026-09-08 全量維護僅對新增 MPG 491CQPX QD-OLED 與 NA-LX128EL 完成逐型號跨站負評人工覆核；既有商品保留原始逐筆研究日期。MSI 的零星訊號／VRR／OSD問題及 Panasonic 的烘後桶體燙感分開處置，均未達同一問題6人且跨2個原始網站門檻。依eufy官方停產公告移除E20及其現行研究列，既有386筆逐人證據不變。",
+      "2026-10-24只對新增Bosch SMI6ECS00X完成逐型號跨站人工覆核；momo有一筆四星評分但無可辨識作者或評論文字，格蘭登亦無文字回報，未達6人/2站門檻。既有1217筆逐型號研究與386筆逐人證據保留原日期。"
     ]
   },
   "results": [
@@ -215934,6 +215935,221 @@
           "reason": "頁中舊款與嘖嘖PRO未標本DW-UX25HT-W／PRO+，且「很多人」為轉述，不能計為多位獨立使用者；不從系列相似便移轉集中問題。"
         }
       ]
+    },
+    {
+      "id": "dishwasher-bosch-smi6ecs00x",
+      "category": "dishwasher",
+      "brand": "Bosch",
+      "model": "SMI6ECS00X",
+      "name": "6系列14人份半嵌式自動開門洗碗機（台灣110V版）",
+      "identity": {
+        "canonicalModel": "SMI6ECS00X",
+        "lookupLabel": "Bosch SMI6ECS00X",
+        "aliases": [
+          "SMI6ECS00X",
+          "Bosch SMI6ECS00X"
+        ],
+        "evidenceUrl": "https://www.bosch-home.com.tw/zh/mkt-product/dishwashers/built-in-dishwashers/bisemidishwashers60width/SMI6ECS00X"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "id": "dishwasher-bosch-smi6ecs00x",
+        "category": "dishwasher",
+        "brand": "Bosch",
+        "model": "SMI6ECS00X",
+        "name": "6系列14人份半嵌式自動開門洗碗機（台灣110V版）",
+        "status": "completed",
+        "reviewedAt": "2026-10-24",
+        "reviewBatch": "dishwasher",
+        "decision": "no_common_issue",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT",
+          "Reddit",
+          "Dcard",
+          "momo",
+          "格蘭登"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "\"SMI6ECS00X\" site:mobile01.com",
+            "queryUrl": "https://www.bing.com/search?q=%22SMI6ECS00X%22%20site%3Amobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "\"SMI6ECS00X\" site:ptt.cc",
+            "queryUrl": "https://www.bing.com/search?q=%22SMI6ECS00X%22%20site%3Aptt.cc"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "\"SMI6ECS00X\" site:reddit.com",
+            "queryUrl": "https://www.bing.com/search?q=%22SMI6ECS00X%22%20site%3Areddit.com"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "\"SMI6ECS00X\" site:dcard.tw",
+            "queryUrl": "https://www.bing.com/search?q=%22SMI6ECS00X%22%20site%3Adcard.tw"
+          }
+        ],
+        "candidateDisposition": "人工分別檢視Mobile01、PTT、Reddit、Dcard完整SMI6ECS00X限定網站查詢，工具均無exact-model原始論壇候選；另讀momo及格蘭登同款原頁，兩評價區均無作者內容，未達同問題6人且跨2原站門檻。",
+        "representativeSources": [
+          {
+            "platform": "momo",
+            "url": "https://www.momoshop.com.tw/TP/TP0002980/goodsDetail/TP00029800000364",
+            "title": "Bosch SMI6ECS00X 6系列半嵌式洗碗機"
+          },
+          {
+            "platform": "格蘭登",
+            "url": "https://grand-kitchen.com.tw/product/bosch-smi6ecs00x/",
+            "title": "Bosch SMI6ECS00X 6系列半嵌式洗碗機"
+          }
+        ],
+        "reviewerNote": "SMI6ECS00X：2026-10-24人工讀四個獨立網站完整型號查詢回傳與兩個原商品評價區；沒有可計入同問題的exact-model第一人稱作者。不混入SMI4ECS00X、SMS6ECW01X或SMI6HAS00X報告，不宣稱完全沒有負評。 root另以Chrome獨立核主頁與動態評價，1筆無作者文字的星評不能當第一人稱問題。",
+        "attestation": "manual_original_pages_reviewed",
+        "candidateReviews": [
+          {
+            "platform": "momo",
+            "url": "https://www.momoshop.com.tw/TP/TP0002980/goodsDetail/TP00029800000364",
+            "title": "Bosch SMI6ECS00X 6系列半嵌式洗碗機",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-10-24",
+            "sourceExcerpt": "2026-10-24 Chrome載入後商品評價(1)，點開為4星1筆（品質5／符合5／出貨4）；有評論(0)、尚無評價，未提供可辨識作者或文字報告。",
+            "independentAuthors": 0,
+            "specificReason": "僅一筆星評且沒有可辨識作者或第一人稱問題文字，不能計入任何同問題故障作者，更未達六人／兩原站；原始HTML未載入星評，不應寫成0則評價。"
+          },
+          {
+            "platform": "格蘭登",
+            "url": "https://grand-kitchen.com.tw/product/bosch-smi6ecs00x/",
+            "title": "Bosch SMI6ECS00X 6系列半嵌式洗碗機",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-10-24",
+            "sourceExcerpt": "原頁評價區顯示「評價(0)」及「目前沒有評價」。",
+            "independentAuthors": 0,
+            "specificReason": "原頁無可辨識第一人稱使用者問題，不能計入任何故障作者；亦不將其他系列或通路停產／展示狀態移植本型號。"
+          }
+        ]
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-10-24",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "\"SMI6ECS00X\" site:mobile01.com",
+            "queryUrl": "https://www.bing.com/search?q=%22SMI6ECS00X%22%20site%3Amobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "\"SMI6ECS00X\" site:ptt.cc",
+            "queryUrl": "https://www.bing.com/search?q=%22SMI6ECS00X%22%20site%3Aptt.cc"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "\"SMI6ECS00X\" site:reddit.com",
+            "queryUrl": "https://www.bing.com/search?q=%22SMI6ECS00X%22%20site%3Areddit.com"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "\"SMI6ECS00X\" site:dcard.tw",
+            "queryUrl": "https://www.bing.com/search?q=%22SMI6ECS00X%22%20site%3Adcard.tw"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"SMI6ECS00X\" site:mobile01.com",
+          "queryUrl": "https://www.bing.com/search?q=%22SMI6ECS00X%22%20site%3Amobile01.com",
+          "searchUrl": "https://www.bing.com/search?q=%22SMI6ECS00X%22%20site%3Amobile01.com",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-10-23T23:04:22.043Z",
+          "note": "人工檢視今日web逐站完整型號查詢結果，無通過型號邊界的論壇候選。"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "\"SMI6ECS00X\" site:ptt.cc",
+          "queryUrl": "https://www.bing.com/search?q=%22SMI6ECS00X%22%20site%3Aptt.cc",
+          "searchUrl": "https://www.bing.com/search?q=%22SMI6ECS00X%22%20site%3Aptt.cc",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-10-23T23:04:22.044Z",
+          "note": "人工檢視今日web逐站完整型號查詢結果，無通過型號邊界的論壇候選。"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "\"SMI6ECS00X\" site:reddit.com",
+          "queryUrl": "https://www.bing.com/search?q=%22SMI6ECS00X%22%20site%3Areddit.com",
+          "searchUrl": "https://www.bing.com/search?q=%22SMI6ECS00X%22%20site%3Areddit.com",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-10-23T23:04:22.044Z",
+          "note": "人工檢視今日web逐站完整型號查詢結果，無通過型號邊界的論壇候選。"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "\"SMI6ECS00X\" site:dcard.tw",
+          "queryUrl": "https://www.bing.com/search?q=%22SMI6ECS00X%22%20site%3Adcard.tw",
+          "searchUrl": "https://www.bing.com/search?q=%22SMI6ECS00X%22%20site%3Adcard.tw",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-10-23T23:04:22.044Z",
+          "note": "人工檢視今日web逐站完整型號查詢結果，無通過型號邊界的論壇候選。"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "platform": "momo",
+          "url": "https://www.momoshop.com.tw/TP/TP0002980/goodsDetail/TP00029800000364",
+          "title": "Bosch SMI6ECS00X 6系列半嵌式洗碗機",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-10-24",
+          "sourceExcerpt": "2026-10-24 Chrome載入後商品評價(1)，點開為4星1筆（品質5／符合5／出貨4）；有評論(0)、尚無評價，未提供可辨識作者或文字報告。",
+          "independentAuthors": 0,
+          "specificReason": "僅一筆星評且沒有可辨識作者或第一人稱問題文字，不能計入任何同問題故障作者，更未達六人／兩原站；原始HTML未載入星評，不應寫成0則評價。",
+          "reason": "僅一筆星評且沒有可辨識作者或第一人稱問題文字，不能計入任何同問題故障作者，更未達六人／兩原站；原始HTML未載入星評，不應寫成0則評價。"
+        },
+        {
+          "platform": "格蘭登",
+          "url": "https://grand-kitchen.com.tw/product/bosch-smi6ecs00x/",
+          "title": "Bosch SMI6ECS00X 6系列半嵌式洗碗機",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-10-24",
+          "sourceExcerpt": "原頁評價區顯示「評價(0)」及「目前沒有評價」。",
+          "independentAuthors": 0,
+          "specificReason": "原頁無可辨識第一人稱使用者問題，不能計入任何故障作者；亦不將其他系列或通路停產／展示狀態移植本型號。",
+          "reason": "原頁無可辨識第一人稱使用者問題，不能計入任何故障作者；亦不將其他系列或通路停產／展示狀態移植本型號。"
+        }
+      ],
+      "reports": []
     }
   ]
 }

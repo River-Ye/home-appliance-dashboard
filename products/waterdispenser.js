@@ -1941,9 +1941,9 @@
     "name": "廚下觸控型 RO 冷熱飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 44820,
-      "converted": 44820,
-      "confidence": "momo 2026-09-08 人工核對 exact-model 公開現價與可購狀態；不含會員券、點數、信用卡回饋或加購"
+      "amount": 41832,
+      "converted": 41832,
+      "confidence": "2026-10-24 人工核對 www.momoshop.com.tw 同型號與所選版本公開價 TWD 41832，可下單；未扣會員、信用卡或點數。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMCI19A900IW2PM/000001_1756711258.png",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=13743602",
@@ -1976,16 +1976,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 44820,
+      "amount": 41832,
       "currency": "TWD",
-      "converted": 44820,
+      "converted": 41832,
       "sourceUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=13743602",
-      "sourceTitle": "momo：Honeywell 廚下觸控型RO冷熱飲水機",
-      "evidenceSnippet": "2026-09-08 同型號新品頁可重現單件公開折後價 NT$44,820，低於既有紀錄 NT$46,305。",
+      "sourceTitle": "Honeywell 廚下觸控型RO冷熱飲水機",
+      "evidenceSnippet": "2026-10-24同型號可信新品公開價NT$41832，低於既有史低NT$44820；momo13743602同Honeywell廚下觸控RO冷熱飲水機，公開單件84折41832至10/26，主商品直接購買可用、正常10/27出貨。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-09-08",
-      "note": "採同型號可購新品公開單件活動價；排除會員個人化券、點數、信用卡回饋、二手、福利、展示及拆封品。"
+      "checkedAt": "2026-10-24",
+      "note": "採同一型號與既有版本的當日可購新品公開價；不含會員券、信用卡回饋、點數、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2133,11 +2133,11 @@
     "name": "Circle Reverse Osmosis Water Filtration System",
     "price": {
       "currency": "USD",
-      "amount": 359.99,
-      "converted": 11733,
-      "confidence": "Brondell US 官方 2026-09-05 exact-model 公開特價；ExchangeRate-API 2026-10-23 匯率換算"
+      "amount": 449.99,
+      "converted": 14666,
+      "confidence": "2026-10-24 人工核對 www.brondell.com 同型號與所選版本公開價 USD 449.99，可下單；未扣會員、信用卡或點數。；ExchangeRate-API 2026-10-23 匯率換算"
     },
-    "image": "https://bfasset.costco-static.com/U447IH35/as/4xjr3phfqx7p9vvxzfhp3jp/100457228-847_chrome_1?auto=webp&format=jpg",
+    "image": "https://cdn11.bigcommerce.com/s-mpfo2gcqca/images/stencil/1280x1280/products/560/5775/brondell-circle-rc100-reverse-osmosis-system-faucet.jpg__76718.1789593792.jpg?c=1",
     "buyUrl": "https://www.brondell.com/circle-reverse-osmosis-water-filter-system/",
     "buyLabel": "Brondell US 官方",
     "specs": [
@@ -2629,9 +2629,9 @@
     "name": "小淨靈 瞬熱式廚下 RO 淨水器",
     "price": {
       "currency": "TWD",
-      "amount": 39900,
-      "converted": 39900,
-      "confidence": "EZONE 2026-08-08 exact-model 公開價與尚有庫存狀態"
+      "amount": 35910,
+      "converted": 35910,
+      "confidence": "2026-10-24 人工核對 www.ezonelife.com.tw 同型號與所選版本公開價 TWD 35910，可下單；未扣會員、信用卡或點數。"
     },
     "image": "https://img.shoplineapp.com/media/image_clips/697acd643925d252f60efd0e/original.jpg?1769655651=&owner_id=562f154ce37ec6797200001d",
     "buyUrl": "https://www.ezonelife.com.tw/products/aut7063r2396",

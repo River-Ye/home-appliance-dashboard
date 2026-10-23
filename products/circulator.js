@@ -1819,9 +1819,9 @@
     "name": "360 度美型空氣循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 3690,
-      "converted": 3690,
-      "confidence": "PCF-CDP18TEC 官方商品頁 2026-09-05 人工核對 exact-model 公開現價及可購狀態；非會員券、紅利或加購價"
+      "amount": 2990,
+      "converted": 2990,
+      "confidence": "2026-10-24 人工核對 www.irisplaza.com.tw 同型號與所選版本公開價 TWD 2990，可下單；未扣會員、信用卡或點數。"
     },
     "image": "https://img.shoplineapp.com/media/image_clips/69ccee7a1cf502b0b21ecdd0/original.jpg?1775038073=&owner_id=6976e3a5a39620001e911a08",
     "buyUrl": "https://www.irisplaza.com.tw/products/iris-pcf-cdp18tec",
@@ -1920,9 +1920,9 @@
     "name": "森呼吸 NEXT 自動除菌離子 3D 清淨循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 4990,
-      "converted": 4990,
-      "confidence": "momo購物 2026-09-07 下午人工核對 exact-model 公開單件現價及可購狀態；非會員券、點數或加購價",
+      "amount": 5690,
+      "converted": 5690,
+      "confidence": "2026-10-24 人工核對 www.momoshop.com.tw 同型號與所選版本公開價 TWD 5690，可下單；未扣會員、信用卡或點數。",
       "basis": "retailer_current"
     },
     "image": "https://www.tw.sharp/sites/default/files/styles/resize_640x640/public/2026-05/PK-18S03T-H.png?itok=HVyf5ufH",

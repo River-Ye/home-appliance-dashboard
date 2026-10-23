@@ -3535,9 +3535,9 @@
     "name": "BRAVIA 8 II 65 型 QD-OLED 4K Google TV 顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 119900,
-      "converted": 119900,
-      "confidence": "Sony Store 台灣官方購物網站於 2026-09-01 的 exact-model 公開可購價",
+      "amount": 114900,
+      "converted": 114900,
+      "confidence": "2026-10-24 人工核對 store.sony.com.tw 同型號與所選版本公開價 TWD 114900，可下單；未扣會員、信用卡或點數。",
       "basis": "retailer_current"
     },
     "installation": {
@@ -3635,9 +3635,9 @@
     "name": "BRAVIA 7 II 65 型 True RGB LED 4K Google TV 顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 69900,
-      "converted": 69900,
-      "confidence": "Sony Store 台灣 2026-09-02 exact-model 官方現售價",
+      "amount": 66900,
+      "converted": 66900,
+      "confidence": "2026-10-24 人工核對 store.sony.com.tw 同型號與所選版本公開價 TWD 66900，可下單；未扣會員、信用卡或點數。",
       "basis": "retailer_current"
     },
     "installation": {
@@ -4131,10 +4131,10 @@
     "name": "75 吋 X11L SQD-Mini LED 4K Google TV 旗艦顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 164990,
-      "converted": 164990,
+      "amount": 156741,
+      "converted": 156741,
       "basis": "retailer_current",
-      "confidence": "2026-10-20 PChome官方旗艦館DPADT3-A900K7NOX exact-model API：Price.P164990、Price.Low null、Qty3；未採頁面已過期10/19促銷或會員/卡/點數。"
+      "confidence": "PChome 2026-10-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "installation": {
       "status": "included_basic",

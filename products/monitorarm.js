@@ -1107,9 +1107,9 @@
     "name": "LX Pro 桌上型單螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 6120,
-      "converted": 6120,
-      "confidence": "2026-09-07 人工覆核：Chrome現頁9/1–9/30滿1件9折，限時折後6,120，消光黑/霧面白、直接購買及放入購物車，預計9/8出貨。",
+      "amount": 6200,
+      "converted": 6200,
+      "confidence": "2026-10-24 人工核對 www.momoshop.com.tw 同型號與所選版本公開價 TWD 6200，可下單；未扣會員、信用卡或點數。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DGBJPWA900IO3XY/000001_1745568644.jpg",

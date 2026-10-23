@@ -5140,9 +5140,9 @@
     "name": "27 型 4K 內建校色器專業色彩管理螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 56893,
-      "converted": 56893,
-      "confidence": "momo 2026-09-09 人工核對 exact-model 公開現價與可購狀態；不含會員券、點數、信用卡回饋或加購",
+      "amount": 56111,
+      "converted": 56111,
+      "confidence": "2026-10-24 人工核對 www.momoshop.com.tw 同型號與所選版本公開價 TWD 56111，可下單；未扣會員、信用卡或點數。",
       "basis": "retailer_current"
     },
     "image": "https://image.benq.com/is/image/benqco/1pd2770u-front-hood-hotkey-2?$ResponsivePreset$",
@@ -5571,9 +5571,9 @@
     "name": "LOQ 27Q-10 27 吋 QHD 180Hz Fast IPS 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 4191,
-      "converted": 4191,
-      "confidence": "Lenovo 台灣官方商城 2026-08-20 exact part 68F3GACBTW 公開價，頁面可加入購物車並顯示預估 6-9 天出貨",
+      "amount": 4851,
+      "converted": 4851,
+      "confidence": "2026-10-24 人工核對 www.lenovo.com 同型號與所選版本公開價 TWD 4851，可下單；未扣會員、信用卡或點數。",
       "basis": "retailer_current"
     },
     "image": "https://p2-ofp.static.pub/ShareResource/ww/visuals/LOQ-10series/LOQ-27Q-10-list.png?width=584&height=584",

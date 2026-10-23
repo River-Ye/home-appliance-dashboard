@@ -308,9 +308,9 @@
     "name": "BE3600 雙頻 Wi-Fi 7 AiMesh 可擴充路由器",
     "price": {
       "currency": "TWD",
-      "amount": 3699,
-      "converted": 3699,
-      "confidence": "Yahoo購物中心 2026-10-23 exact-model 公開結構化價格",
+      "amount": 3515,
+      "converted": 3515,
+      "confidence": "Yahoo購物中心 2026-10-24 exact-model 公開結構化價格",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLPA900JKWXK/000001_1783555436.jpg",
@@ -1759,9 +1759,9 @@
     "name": "BE6500 雙頻 Wi-Fi 7 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 4990,
-      "converted": 4990,
-      "confidence": "Yahoo購物中心 2026-10-23 exact-model 公開結構化價格",
+      "amount": 4741,
+      "converted": 4741,
+      "confidence": "Yahoo購物中心 2026-10-24 exact-model 公開結構化價格",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLPA900IV4B6/000001_1783556530.jpg",
@@ -4714,9 +4714,9 @@
     "name": "BE19000 三頻 Wi-Fi 7 AI 電競路由器",
     "price": {
       "currency": "TWD",
-      "amount": 27990,
-      "converted": 27990,
-      "confidence": "Yahoo購物中心 2026-10-23 exact-model 公開結構化價格",
+      "amount": 26591,
+      "converted": 26591,
+      "confidence": "Yahoo購物中心 2026-10-24 exact-model 公開結構化價格",
       "basis": "retailer_current"
     },
     "image": "https://dlcdnwebimgs.asus.com/gain/FF5DB299-9708-4259-ABF9-167FDC7166BD",
@@ -5123,10 +5123,11 @@
     "name": "UniFi 三頻 Wi-Fi 7 10GbE 管理型 AP（黑色 U7-Pro-XG-B）",
     "price": {
       "currency": "TWD",
-      "amount": 8307,
-      "converted": 8307,
+      "amount": 8484,
+      "converted": 8484,
       "basis": "retailer_current",
-      "confidence": "Ubiquiti 台灣官方商店 2026-09-06 黑色 SKU 公開價：基價 NT$7,699，含增值稅及記憶體附加費合計 NT$8,307；未加入 UI Care 或 PoE 配件"
+      "confidence": "2026-10-24 人工核對 tw.store.ui.com 同型號與所選版本公開價 TWD 8484，可下單；未扣會員、信用卡或點數。",
+      "note": "2026-10-24採台灣官店前台含營業稅與附加費總額；UI Care延長保固、PoE電源及其他配件另購。"
     },
     "image": "https://cdn.ecomm.ui.com/products/a433b9e5-4dd1-4784-adf8-9d12bcba4c87/45a6a9f0-1596-46f3-bebd-9f98c0dfde21.png",
     "buyUrl": "https://tw.store.ui.com/tw/zh-tw/products/u7-pro-xg?variant=u7-pro-xg-b",
@@ -5347,10 +5348,11 @@
     "name": "UniFi 三頻 Wi-Fi 7 10GbE 管理型 AP（白色 U7-Pro-XGS）",
     "price": {
       "currency": "TWD",
-      "amount": 12515,
-      "converted": 12515,
+      "amount": 12782,
+      "converted": 12782,
       "basis": "retailer_current",
-      "confidence": "Ubiquiti 台灣官方商店 2026-09-07 白色單台公開可購買價；基價 11,599 元，含 VAT 及附加費合計 12,515 元，未加 UI Care 或 PoE 配件"
+      "confidence": "2026-10-24 人工核對 tw.store.ui.com 同型號與所選版本公開價 TWD 12782，可下單；未扣會員、信用卡或點數。",
+      "note": "2026-10-24採台灣官店前台含營業稅與附加費總額；UI Care延長保固、PoE電源及其他配件另購。"
     },
     "image": "https://cdn.ecomm.ui.com/products/1604d78c-6e51-4fe8-a8e5-0110cc332ba0/9ab19ab5-f76f-4d66-b91f-b31062fae149.png",
     "buyUrl": "https://tw.store.ui.com/tw/en/category/wifi-flagship/products/u7-pro-xgs",
@@ -5461,11 +5463,11 @@
     "name": "AQUILA PRO AI BE9500 三頻 Wi-Fi 7 2.5G Mesh 路由器（單台）",
     "price": {
       "currency": "TWD",
-      "amount": 5499,
-      "converted": 5499,
+      "amount": 5225,
+      "converted": 5225,
       "basis": "retailer_current",
-      "confidence": "Yahoo購物中心 2026-10-23 exact-model 公開結構化價格",
-      "note": "Yahoo公開95折活動796031（滿1件）至2026-10-23 08:00:59台灣時間，5499元折後5225元；到期恢復價及後續活動以原頁為準，未扣會員券、點數或刷卡回饋。"
+      "confidence": "Yahoo購物中心 2026-10-24 exact-model 公開結構化價格",
+      "note": "Yahoo公開95折活動796032（滿1件）至2026-10-24 08:00:59台灣時間，5499元折後5225元；到期恢復價及後續活動以原頁為準，未扣會員券、點數或刷卡回饋。"
     },
     "installation": {
       "status": "excluded",

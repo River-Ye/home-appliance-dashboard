@@ -594,9 +594,9 @@
     "name": "V12s Origin Submarine 乾濕全能洗地吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 17900,
-      "converted": 17900,
-      "confidence": "momo購物 2026-07-11 頁面查核價"
+      "amount": 16888,
+      "converted": 16888,
+      "confidence": "2026-10-24 人工核對 www.momoshop.com.tw 同型號與所選版本公開價 TWD 16888，可下單；未扣會員、信用卡或點數。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX001900JRA9W/000001_1780465600.jpg",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=11954009",
@@ -1554,9 +1554,9 @@
     "name": "PencilVac Fluffycones 筆型吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 18888,
-      "converted": 18888,
-      "confidence": "Dyson台灣官方商城 2026-09-08 人工核對 exact-model 公開現價與可購狀態；不含會員券、點數、信用卡回饋或加購"
+      "amount": 19900,
+      "converted": 19900,
+      "confidence": "2026-10-24 人工核對 shop.dyson.tw 同型號與所選版本公開價 TWD 19900，可下單；未扣會員、信用卡或點數。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX00A900JPJ7H/000001_1777291832.jpg",
     "buyUrl": "https://shop.dyson.tw/vacuums/cordless-vacuums/dyson-pencilvac-fluffycones-black-sale-492694-01",
@@ -1938,9 +1938,9 @@
     "name": "無線吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 10900,
-      "converted": 10900,
-      "confidence": "2026-08-31 人工查核：Well Q7 WQ71-2BSWF 冰雪白主價 NT$10,900，2 年保固、直接購買／購物車可用；濾網加購 NT$840 為配件，不是主價。",
+      "amount": 8888,
+      "converted": 8888,
+      "confidence": "2026-10-24 人工核對 www.momoshop.com.tw 同型號與所選版本公開價 TWD 8888，可下單；未扣會員、信用卡或點數。",
       "basis": "retailer_current"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h52/h5d/351316137377822.jpg",

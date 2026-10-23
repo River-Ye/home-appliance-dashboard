@@ -2550,9 +2550,9 @@
       "currency": "TWD",
       "amount": 3111,
       "converted": 3111,
-      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "confidence": "2026-10-24 PChome exact HPA-100APTW公開預購參考價3111元；原頁最晚11/25出貨，非確認現貨。",
       "basis": "retailer_current",
-      "note": "2026-10-23原頁標預購，最晚2026-11-25出貨；公開預購價3111元未作現貨價格寫回，本卡3160元僅留先前參考，交期及成交價請先確認。"
+      "note": "2026-10-24 Chrome原頁顯示公開預購參考價3111元、最晚2026/11/25出貨；結構化InStock與預購配送說明矛盾，依配送說明揭露，非確認現貨。"
     },
     "installation": {
       "status": "not_stated",
@@ -2560,7 +2560,7 @@
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU00A77331975/000001_1747044686.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU00-A77331975",
-    "buyLabel": "PChome（預購／舊價僅供參考）",
+    "buyLabel": "PChome（預購價／最晚11/25出貨）",
     "specs": [
       "適用坪數：約 4–8 坪；CADR 100 cfm（約 170 m³/h）",
       "True HEPA 濾網搭配活性碳前置濾網",
@@ -2657,9 +2657,9 @@
     "name": "米家智慧空氣清淨機 6",
     "price": {
       "currency": "TWD",
-      "amount": 5580,
-      "converted": 5580,
-      "confidence": "momo 小米官方授權代理頁 2026-08-30 明列 AC-M25-SC、新品現貨、NT$5,580 與一年保固",
+      "amount": 5611,
+      "converted": 5611,
+      "confidence": "2026-10-24 人工核對 www.momoshop.com.tw 同型號與所選版本公開價 TWD 5611，可下單；未扣會員、信用卡或點數。",
       "basis": "retailer_current"
     },
     "image": "https://i1.momoshop.com.tw/1786110782/goodsimg/0015/189/670/15189670_R_m.webp",

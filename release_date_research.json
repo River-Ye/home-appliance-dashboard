@@ -1,20 +1,20 @@
 {
   "summary": {
-    "checkedAt": "2026-10-23T00:00:00+08:00",
-    "total": 1217,
-    "researchedThisRun": 2,
+    "checkedAt": "2026-10-24T00:00:00+08:00",
+    "total": 1218,
+    "researchedThisRun": 1,
     "found": 351,
-    "missing": 866,
+    "missing": 867,
     "byConfidence": {
       "official": 188,
-      "not_found": 863,
+      "not_found": 864,
       "retailer_explicit": 23,
       "credible_article": 52,
       "high": 71,
       "medium": 17,
       "unknown": 3
     },
-    "scopeNote": "2026-10-23全量價格/來源維護；上市日期補查新增SMS8ZCI02X與NH-V150SP，既有1181筆證據與真實日期保留。"
+    "scopeNote": "2026-10-24全量價格/來源維護；上市日期僅補查新增SMI6ECS00X，既有1217筆證據與真實日期保留。"
   },
   "results": [
     {
@@ -37261,6 +37261,39 @@
           "title": "momo（購買頁請選雪霧白）",
           "result": "可購公開價，不當上市日"
         }
+      ]
+    },
+    {
+      "id": "dishwasher-bosch-smi6ecs00x",
+      "category": "dishwasher",
+      "brand": "Bosch",
+      "model": "SMI6ECS00X",
+      "name": "6系列14人份半嵌式自動開門洗碗機（台灣110V版）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"SMI6ECS00X\" 上市 發售",
+      "sourceKind": "not_found_after_manual_recheck",
+      "reason": "官方exact頁與2026型錄沒有明示實際發售日；官方商城仍寫預計2026年9月到貨，不將預計到貨或手冊日期當上市日。",
+      "checkedAt": "2026-10-24",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.bosch-home.com.tw/zh/mkt-product/dishwashers/built-in-dishwashers/bisemidishwashers60width/SMI6ECS00X",
+          "title": "Bosch台灣SMI6ECS00X",
+          "outcome": "規格完整但無明確上市日"
+        },
+        {
+          "url": "https://www.bosch-home-shop.com.tw/products/smi6ecs00x",
+          "title": "Bosch官方商城SMI6ECS00X",
+          "outcome": "預計到貨文字不能證明上市日"
+        }
+      ],
+      "auditQueries": [
+        "\"SMI6ECS00X\" 上市 發售"
       ]
     }
   ]

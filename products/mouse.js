@@ -22,10 +22,10 @@
     "score": 84,
     "price": {
       "currency": "TWD",
-      "amount": 3490,
-      "converted": 3490,
+      "amount": 2990,
+      "converted": 2990,
       "basis": "retailer_current",
-      "confidence": "2026-09-01 Chrome已查核：官店白色910-006226，原生variant網址重新直開仍還原白色；3490元並可加入購物車。"
+      "confidence": "2026-10-24 人工核對 store.logitech.tw 同型號與所選版本公開價 TWD 2990，可下單；未扣會員、信用卡或點數。"
     },
     "image": "https://store.logitech.tw/cdn/shop/products/g502-x-lightspeed-766213.jpg?v=1770259311",
     "buyUrl": "https://store.logitech.tw/products/g502xlightspeed?variant=40325534384151",
@@ -1050,10 +1050,10 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 1088,
-      "converted": 1088,
+      "amount": 999,
+      "converted": 999,
       "basis": "retailer_current",
-      "confidence": "Chrome 2026-09-01查明黑色標準有線Cobra完整RZ01-04650100-R3M1，單品1088，qty/cart可用，未選加購。momo11921709實際無展售故不用。"
+      "confidence": "2026-10-24 人工核對 www.inpad.com.tw 同型號與所選版本公開價 TWD 999，可下單；未扣會員、信用卡或點數。"
     },
     "installation": {
       "status": "not_stated",
@@ -1174,10 +1174,10 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 1488,
-      "converted": 1488,
+      "amount": 1311,
+      "converted": 1311,
       "basis": "retailer_current",
-      "confidence": "Chrome於2026-09-01確認黑色RZ01-04000100-R3M1單品1488（2099劃線）、可選數量與加入購物車、原圖500px。不採35K、Pro、X HyperSpeed或加購。"
+      "confidence": "2026-10-24 人工核對 www.inpad.com.tw 同型號與所選版本公開價 TWD 1311，可下單；未扣會員、信用卡或點數。"
     },
     "installation": {
       "status": "not_stated",
@@ -1340,10 +1340,10 @@
     ],
     "price": {
       "currency": "TWD",
-      "amount": 2490,
-      "converted": 2490,
+      "amount": 2290,
+      "converted": 2290,
       "basis": "retailer_current",
-      "confidence": "2026-09-01 Chrome官店預設石墨灰910-006935、2490元、加入購物車；非推薦品或套裝。"
+      "confidence": "2026-10-24 人工核對 store.logitech.tw 同型號與所選版本公開價 TWD 2290，可下單；未扣會員、信用卡或點數。"
     },
     "image": "https://store.logitech.tw/cdn/shop/products/mx-anywhere-3s-472144.jpg?v=1770130977&width=1220",
     "releaseDate": "2023-06-28",
@@ -1490,10 +1490,10 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 468,
-      "converted": 468,
+      "amount": 649,
+      "converted": 649,
       "basis": "retailer_current",
-      "confidence": "2026-09-06 人工覆核同型號原購買頁：原頁標示產品型號910-002258；會員價649、公開促銷價468；加入購物車可用。 採直接顯示的促銷價468，不採649會員比較價；不涉及會員券或回饋。"
+      "confidence": "2026-10-24 人工核對 www.tk3c.com 同型號與所選版本公開價 TWD 649，可下單；未扣會員、信用卡或點數。"
     },
     "installation": {
       "status": "not_stated",
@@ -1682,10 +1682,10 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 990,
-      "converted": 990,
+      "amount": 1090,
+      "converted": 1090,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 Chrome原頁預設黑色910-006259，990元及加入購物車可用；搜尋摘要1090已不符當前畫面。"
+      "confidence": "2026-10-24 人工核對 store.logitech.tw 同型號與所選版本公開價 TWD 1090，可下單；未扣會員、信用卡或點數。"
     },
     "installation": {
       "status": "not_stated",
@@ -3433,107 +3433,107 @@
       "台灣官方通路"
     ]
   },
-{
-  "id": "mouse-razer-basilisk-v4-pro",
-  "category": "mouse",
-  "brand": "Razer",
-  "model": "RZ01-05670100-R3A1",
-  "name": "Basilisk V4 Pro 黑色 50K 三模多功能電競滑鼠",
-  "type": "standard",
-  "rank": 34,
-  "budget": "premium",
-  "channel": "tw",
-  "score": 74,
-  "price": {
-    "currency": "TWD",
-    "amount": 5980,
-    "converted": 5980,
-    "basis": "retailer_current",
-    "confidence": "2026-10-23 Chrome實頁：黑色exact RZ01-05670100-R3A1主商品5980、可加入購物車，1間RazerStore有庫存，可配送台灣。"
-  },
-  "image": "https://medias-p1.phoenix.razer.com/sys-master-phoenix-images-container/hd0/hb2/10458042105886/basilisk-v4-pro-black-500x500.png",
-  "buyUrl": "https://www.razer.com/tw-zh/gaming-mice/razer-basilisk-v4-pro/RZ01-05670100-R3A1",
-  "buyLabel": "Razer 台灣官方商店（黑色）",
-  "installation": {
-    "status": "not_stated",
-    "note": "自行USB連接與無線配對；更新Synapse／韌體並驗收追蹤，無到府施工。"
-  },
-  "specs": [
-    "類型：標準型人體工學多功能電競滑鼠，黑色RZ01-05670100-R3A1",
-    "握型／慣用手：右手專用、拇指托與左側按鍵；先試握127.5mm本體與側鍵位置",
-    "連線：HyperSpeed Wireless Gen-2、Bluetooth 6.2最多3裝置及USB有線；五路多裝置切換",
-    "感測器／解析度：Focus Pro 50K Optical Sensor Gen-3，最高50000DPI、930IPS、90G及Frame Sync",
-    "回報率：有線與無線最高8000Hz；不以高輪詢率保證各主機或遊戲的實際延遲",
-    "按鍵／滾輪：台灣exact規格列12個按鍵，新聞以14種可自訂控制計數；Gen-4光學主鍵、5組板載設定檔；HyperScroll Tilt Wheel Gen-2具24／48段、自由捲與Smart-Reel",
-    "供電／續航：內建充電電池、USB-C充電；最長200h@1k、54h@8k或275h藍牙；RGB及設定會影響續航",
-    "系統／軟體：USB基本操作，進階控制使用Razer Synapse；Synapse Web相容性所查exact頁未確認",
-    "尺寸：長 127.5 x 寬 75.8 x 高 42.7 mm",
-    "重量：100 g",
-    "隨附配件：HyperSpeed Gen-2 mini dongle、USB轉接器、USB-A轉USB-C線、產品資訊指南；Mouse Dock與HyperFlux另購"
-  ],
-  "description": "Basilisk V3 Pro後的新一代右手多功能滑鼠，保留拇指托並增加50K、第二代飛梭與無線平台。剛上市已有兩站多位追蹤凍結候選，故列新款參考，建議先確認韌體與退換貨條件。",
-  "pros": [
-    "三模與最多3台藍牙裝置兼顧多機工作",
-    "24／48段與自由捲適合長頁及遊戲操作",
-    "台灣官方可購，2年原廠有限保固"
-  ],
-  "cons": [
-    "已讀兩站游標凍結／底座與高輪詢率候選，尚缺黑色full-SKU一致性及完整去重證明",
-    "100g仍偏重，FPS輕量需求應先試握",
-    "充電底座另購；新聞14控制與exact表12鍵為不同計數口徑"
-  ],
-  "bestFor": "需要右手拇指托、飛梭、多鍵與藍牙，且願意先驗收新品韌體的使用者。",
-  "recommendation": "Basilisk新款參考；對追蹤穩定性敏感者宜等候原廠進一步韌體資訊，購後測原配接收器及慣用輪詢率，不因新品就取代較便宜的V3。",
-  "releaseDate": "2026-10-08",
-  "historicalLow": {
-    "status": "not_found",
-    "amount": null,
-    "currency": "TWD",
-    "converted": null,
-    "sourceUrl": "",
-    "sourceTitle": "",
-    "evidenceSnippet": "",
-    "sourceKind": "not_found",
-    "confidence": "not_found",
-    "checkedAt": "2026-10-23",
-    "note": "已讀Razer台灣exact黑色5980、PCParty同SKU新品5980及FindPrice v4雷蛇pro比價；都為當前價格／短期新品資訊，沒有可驗證同黑色SKU的歷史時間序列，不把現價當史低。"
-  },
-  "voltage": "內建充電電池、USB-C；所查原廠技術表未列額定V/A。",
-  "warranty": "Razer官方滑鼠2年有限保固；由台灣RazerStore購買並依原廠RMA及購買憑證辦理。",
-  "tags": [
-    "電競",
-    "Basilisk新世代",
-    "藍牙",
-    "飛梭滾輪",
-    "追蹤風險待觀察",
-    "台灣官方通路"
-  ],
-  "issueResearch": {
-    "status": "no_common_issue",
-    "checkedAt": "2026-10-23",
-    "summary": "截至查核日，查無達門檻的集中負評／災情",
-    "issues": [],
-    "checkedSources": [
-      {
-        "platform": "Reddit",
-        "targetHost": "reddit.com",
-        "query": "site:reddit.com \"RZ01-05670100-R3A1\" (problem OR issue OR failure OR 問題 OR 故障)",
-        "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22RZ01-05670100-R3A1%22%20%28problem%20OR%20issue%20OR%20failure%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%29"
-      },
-      {
-        "platform": "Mobile01",
-        "targetHost": "mobile01.com",
-        "query": "site:mobile01.com \"RZ01-05670100-R3A1\" (problem OR issue OR failure OR 問題 OR 故障)",
-        "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22RZ01-05670100-R3A1%22%20%28problem%20OR%20issue%20OR%20failure%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%29"
-      },
-      {
-        "platform": "Razer Insider",
-        "targetHost": "insider.razer.com",
-        "query": "site:insider.razer.com \"RZ01-05670100-R3A1\" (problem OR issue OR failure OR 問題 OR 故障)",
-        "queryUrl": "https://www.google.com/search?q=site%3Ainsider.razer.com%20%22RZ01-05670100-R3A1%22%20%28problem%20OR%20issue%20OR%20failure%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%29"
-      }
-    ]
+  {
+    "id": "mouse-razer-basilisk-v4-pro",
+    "category": "mouse",
+    "brand": "Razer",
+    "model": "RZ01-05670100-R3A1",
+    "name": "Basilisk V4 Pro 黑色 50K 三模多功能電競滑鼠",
+    "type": "standard",
+    "rank": 34,
+    "budget": "premium",
+    "channel": "tw",
+    "score": 74,
+    "price": {
+      "currency": "TWD",
+      "amount": 5980,
+      "converted": 5980,
+      "basis": "retailer_current",
+      "confidence": "2026-10-23 Chrome實頁：黑色exact RZ01-05670100-R3A1主商品5980、可加入購物車，1間RazerStore有庫存，可配送台灣。"
+    },
+    "image": "https://medias-p1.phoenix.razer.com/sys-master-phoenix-images-container/hd0/hb2/10458042105886/basilisk-v4-pro-black-500x500.png",
+    "buyUrl": "https://www.razer.com/tw-zh/gaming-mice/razer-basilisk-v4-pro/RZ01-05670100-R3A1",
+    "buyLabel": "Razer 台灣官方商店（黑色）",
+    "installation": {
+      "status": "not_stated",
+      "note": "自行USB連接與無線配對；更新Synapse／韌體並驗收追蹤，無到府施工。"
+    },
+    "specs": [
+      "類型：標準型人體工學多功能電競滑鼠，黑色RZ01-05670100-R3A1",
+      "握型／慣用手：右手專用、拇指托與左側按鍵；先試握127.5mm本體與側鍵位置",
+      "連線：HyperSpeed Wireless Gen-2、Bluetooth 6.2最多3裝置及USB有線；五路多裝置切換",
+      "感測器／解析度：Focus Pro 50K Optical Sensor Gen-3，最高50000DPI、930IPS、90G及Frame Sync",
+      "回報率：有線與無線最高8000Hz；不以高輪詢率保證各主機或遊戲的實際延遲",
+      "按鍵／滾輪：台灣exact規格列12個按鍵，新聞以14種可自訂控制計數；Gen-4光學主鍵、5組板載設定檔；HyperScroll Tilt Wheel Gen-2具24／48段、自由捲與Smart-Reel",
+      "供電／續航：內建充電電池、USB-C充電；最長200h@1k、54h@8k或275h藍牙；RGB及設定會影響續航",
+      "系統／軟體：USB基本操作，進階控制使用Razer Synapse；Synapse Web相容性所查exact頁未確認",
+      "尺寸：長 127.5 x 寬 75.8 x 高 42.7 mm",
+      "重量：100 g",
+      "隨附配件：HyperSpeed Gen-2 mini dongle、USB轉接器、USB-A轉USB-C線、產品資訊指南；Mouse Dock與HyperFlux另購"
+    ],
+    "description": "Basilisk V3 Pro後的新一代右手多功能滑鼠，保留拇指托並增加50K、第二代飛梭與無線平台。剛上市已有兩站多位追蹤凍結候選，故列新款參考，建議先確認韌體與退換貨條件。",
+    "pros": [
+      "三模與最多3台藍牙裝置兼顧多機工作",
+      "24／48段與自由捲適合長頁及遊戲操作",
+      "台灣官方可購，2年原廠有限保固"
+    ],
+    "cons": [
+      "已讀兩站游標凍結／底座與高輪詢率候選，尚缺黑色full-SKU一致性及完整去重證明",
+      "100g仍偏重，FPS輕量需求應先試握",
+      "充電底座另購；新聞14控制與exact表12鍵為不同計數口徑"
+    ],
+    "bestFor": "需要右手拇指托、飛梭、多鍵與藍牙，且願意先驗收新品韌體的使用者。",
+    "recommendation": "Basilisk新款參考；對追蹤穩定性敏感者宜等候原廠進一步韌體資訊，購後測原配接收器及慣用輪詢率，不因新品就取代較便宜的V3。",
+    "releaseDate": "2026-10-08",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-23",
+      "note": "已讀Razer台灣exact黑色5980、PCParty同SKU新品5980及FindPrice v4雷蛇pro比價；都為當前價格／短期新品資訊，沒有可驗證同黑色SKU的歷史時間序列，不把現價當史低。"
+    },
+    "voltage": "內建充電電池、USB-C；所查原廠技術表未列額定V/A。",
+    "warranty": "Razer官方滑鼠2年有限保固；由台灣RazerStore購買並依原廠RMA及購買憑證辦理。",
+    "tags": [
+      "電競",
+      "Basilisk新世代",
+      "藍牙",
+      "飛梭滾輪",
+      "追蹤風險待觀察",
+      "台灣官方通路"
+    ],
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-23",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"RZ01-05670100-R3A1\" (problem OR issue OR failure OR 問題 OR 故障)",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22RZ01-05670100-R3A1%22%20%28problem%20OR%20issue%20OR%20failure%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%29"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"RZ01-05670100-R3A1\" (problem OR issue OR failure OR 問題 OR 故障)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22RZ01-05670100-R3A1%22%20%28problem%20OR%20issue%20OR%20failure%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%29"
+        },
+        {
+          "platform": "Razer Insider",
+          "targetHost": "insider.razer.com",
+          "query": "site:insider.razer.com \"RZ01-05670100-R3A1\" (problem OR issue OR failure OR 問題 OR 故障)",
+          "queryUrl": "https://www.google.com/search?q=site%3Ainsider.razer.com%20%22RZ01-05670100-R3A1%22%20%28problem%20OR%20issue%20OR%20failure%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%29"
+        }
+      ]
+    }
   }
-}
 ]);
 })();

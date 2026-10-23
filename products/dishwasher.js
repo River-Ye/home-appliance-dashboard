@@ -2757,9 +2757,9 @@
     "name": "4 系列 14 人份半嵌式洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 44030,
-      "converted": 44030,
-      "confidence": "KW 廚房世界於 2026-08-24 的 exact-model 台灣新品頁公開特價 NT$44,030，結構化資料標示 InStock、頁面庫存 8",
+      "amount": 42800,
+      "converted": 42800,
+      "confidence": "2026-10-24 人工核對 kitchenworld.com.tw 同型號與所選版本公開價 TWD 42800，可下單；未扣會員、信用卡或點數。",
       "basis": "retailer_current"
     },
     "image": "https://media3.bsh-group.com/Product_Shots/27963852_SMI4ECS00X_STP_def.webp",
@@ -2866,9 +2866,9 @@
     "name": "4 系列 14 人份全嵌式洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 44030,
-      "converted": 44030,
-      "confidence": "KW 廚房世界於 2026-08-24 的 exact-model 台灣新品頁公開特價 NT$44,030，結構化資料標示 InStock、頁面庫存 1",
+      "amount": 42800,
+      "converted": 42800,
+      "confidence": "2026-10-24 人工核對 kitchenworld.com.tw 同型號與所選版本公開價 TWD 42800，可下單；未扣會員、信用卡或點數。",
       "basis": "retailer_current"
     },
     "image": "https://media3.bsh-group.com/Product_Shots/27963856_SMV4ECX00X_STP_def.webp",
@@ -3066,10 +3066,10 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 28800,
-      "converted": 28800,
+      "amount": 25920,
+      "converted": 25920,
       "basis": "retailer_current",
-      "confidence": "2026-09-09 momo官方頁連出之exact SKU 14498165原頁促銷價28800；未扣會員券、點數或信用卡回饋。"
+      "confidence": "2026-10-24 人工核對 www.momoshop.com.tw 同型號與所選版本公開價 TWD 25920，可下單；未扣會員、信用卡或點數。"
     },
     "image": "https://www.haierpro.com.tw/wp-content/uploads/haier海爾變頻獨嵌兩用洗碗機-正面.png",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=14498165",
@@ -3270,203 +3270,309 @@
       ]
     }
   },
-{
-  "id": "dishwasher-electrolux-eff5581sxa",
-  "category": "dishwasher",
-  "rank": 33,
-  "budget": "premium",
-  "channel": "tw",
-  "brand": "Electrolux",
-  "model": "EFF5581SXA",
-  "name": "極淨呵護500系列15人份獨立式洗碗機",
-  "price": {
-    "currency": "TWD",
-    "amount": 39900,
-    "converted": 39900,
-    "basis": "retailer_current",
-    "confidence": "2026-10-23 PChome exact新品API及Chrome主商品價查核；Qty10／InStock"
+  {
+    "id": "dishwasher-electrolux-eff5581sxa",
+    "category": "dishwasher",
+    "rank": 33,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Electrolux",
+    "model": "EFF5581SXA",
+    "name": "極淨呵護500系列15人份獨立式洗碗機",
+    "price": {
+      "currency": "TWD",
+      "amount": 39900,
+      "converted": 39900,
+      "basis": "retailer_current",
+      "confidence": "2026-10-23 PChome exact新品API及Chrome主商品價查核；Qty10／InStock"
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "本PChome原廠通路標示含基本安裝與免費場勘；櫥櫃修改、電路／接地、給排水延伸、樓層與特殊施工是否加價須由場勘報價。"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMBH1QA900I2KMQ/000001_1789972047.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBH1Q-A900I2KMQ",
+    "buyLabel": "PChome 24h購物（原廠保固／含基本安裝）",
+    "specs": [
+      "類型：60公分獨立式，15人份",
+      "SpaceFlex中式碗籃；第三層餐具抽屜與可調整碗籃",
+      "SoftGrips／SoftSpikes玻璃杯保護；衛生殺菌洗程",
+      "AirDry自動開門自然風乾；需預留門前及櫥櫃散熱空間",
+      "SatelliteClean 360°衛星環形噴水臂",
+      "尺寸：寬 59.8 x 深 60.3 x 高 85 cm",
+      "重量：42.5 kg",
+      "電壓／頻率：110V／50–60Hz；額定800W",
+      "標示用水量：11L；噪音44dB",
+      "給排水：冷水或最高60°C熱水進水；排水管1.8m",
+      "安裝：含上蓋寬60×深60.3×高85–86.5cm；不含上蓋高82–83.5cm，須依官方安裝指南場勘"
+    ],
+    "description": "既有300系列之外補入台灣現售的500系列15人份選項，強化中式碗籃、餐具配置與玻璃杯固定；官方仍同列EFF3360VWB／EFF3560VXB，因此保留舊款，不宣稱它們停產或被直接替代。",
+    "pros": [
+      "具台灣110V供電、官方尺寸與淨重證據",
+      "中式碗籃及餐具抽屜有利放置家用深碗與筷匙",
+      "本通路含基本安裝、免費場勘及台灣原廠2年保固"
+    ],
+    "cons": [
+      "完整開門空間、給排水與接地需先場勘",
+      "需定期補充軟化鹽、光潔劑並清洗濾網",
+      "額定人份與用水量依測試洗程，實際裝載中式鍋具會減少餐具量"
+    ],
+    "bestFor": "想在既有入門300系列之上比較中式碗籃與較彈性餐具配置的家庭。",
+    "recommendation": "伊萊克斯500系列現售升級選項；以本次39900元含基本安裝方案評估，先確認門前淨空與櫥櫃、給排水及電源條件。",
+    "score": 87,
+    "voltage": "台灣110V／50–60Hz；800W，需符合原廠接地、電源及給排水要求。",
+    "warranty": "台灣原廠2年免費保修，依官方保固條款及購買憑證；安裝工程、耗材、誤用與非授權通路不在一般保固範圍。",
+    "tags": [
+      "15人份",
+      "中式碗籃",
+      "自動開門",
+      "台灣原廠保固"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-23",
+      "note": "已人工查PChome exact新品公開價、台灣官方現售頁及FindPrice／飛比完整型號價格搜尋。比價頁只有現價索引且擷取日期有差異，未取得可確認的同型號可信新品歷史最低價時間點；不以今日現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-23",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"EFF5581SXA\" site:mobile01.com",
+          "queryUrl": "https://www.bing.com/search?q=%22EFF5581SXA%22%20site%3Amobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "\"EFF5581SXA\" site:ptt.cc",
+          "queryUrl": "https://www.bing.com/search?q=%22EFF5581SXA%22%20site%3Aptt.cc"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "\"EFF5581SXA\" site:reddit.com",
+          "queryUrl": "https://www.bing.com/search?q=%22EFF5581SXA%22%20site%3Areddit.com"
+        }
+      ]
+    }
   },
-  "installation": {
-    "status": "included_basic",
-    "note": "本PChome原廠通路標示含基本安裝與免費場勘；櫥櫃修改、電路／接地、給排水延伸、樓層與特殊施工是否加價須由場勘報價。"
+  {
+    "id": "dishwasher-electrolux-eff7591sxa",
+    "category": "dishwasher",
+    "rank": 34,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Electrolux",
+    "model": "EFF7591SXA",
+    "name": "極淨呵護700系列15人份獨立式洗碗機",
+    "price": {
+      "currency": "TWD",
+      "amount": 49900,
+      "converted": 49900,
+      "basis": "retailer_current",
+      "confidence": "2026-10-23 PChome exact新品API及Chrome主商品價查核；Qty10／InStock"
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "本PChome原廠通路標示含基本安裝與免費場勘；櫥櫃修改、電路／接地、給排水延伸、樓層與特殊施工是否加價須由場勘報價。"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMBH1QA900I20R4/000001_1789971238.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBH1Q-A900I20R4",
+    "buyLabel": "PChome 24h購物（原廠保固／含基本安裝）",
+    "specs": [
+      "類型：60公分獨立式，15人份",
+      "SpaceFlex中式碗籃；第三層餐具抽屜與可調整碗籃",
+      "SoftGrips／SoftSpikes玻璃杯保護；衛生殺菌洗程",
+      "AirDry自動開門自然風乾；需預留門前及櫥櫃散熱空間",
+      "SatelliteClean 360°衛星環形噴水臂",
+      "尺寸：寬 59.6 x 深 60 x 高 85 cm",
+      "重量：36 kg",
+      "電壓／頻率：110V／60Hz；額定800W",
+      "標示用水量：10.5L；噪音46dB",
+      "給排水：冷水或最高60°C熱水進水；排水管1.8m",
+      "安裝：台灣產品頁要求嵌櫃預留61cm寬；含上蓋高85–86.5cm，不含上蓋高82–83.5cm，須依官方安裝指南場勘"
+    ],
+    "description": "既有300系列之外補入台灣現售的700系列15人份選項，強化中式碗籃、餐具配置與玻璃杯固定；官方仍同列EFF3360VWB／EFF3560VXB，因此保留舊款，不宣稱它們停產或被直接替代。",
+    "pros": [
+      "具台灣110V供電、官方尺寸與淨重證據",
+      "中式碗籃及餐具抽屜有利放置家用深碗與筷匙",
+      "本通路含基本安裝、免費場勘及台灣原廠2年保固"
+    ],
+    "cons": [
+      "完整開門空間、給排水與接地需先場勘",
+      "需定期補充軟化鹽、光潔劑並清洗濾網",
+      "額定人份與用水量依測試洗程，實際裝載中式鍋具會減少餐具量"
+    ],
+    "bestFor": "想在既有入門300系列之上比較中式碗籃與較彈性餐具配置的家庭。",
+    "recommendation": "伊萊克斯700系列現售升級選項；以本次49900元含基本安裝方案評估，先確認門前淨空與櫥櫃、給排水及電源條件。",
+    "score": 88,
+    "voltage": "台灣110V／60Hz；800W，需符合原廠接地、電源及給排水要求。",
+    "warranty": "台灣原廠2年免費保修，依官方保固條款及購買憑證；安裝工程、耗材、誤用與非授權通路不在一般保固範圍。",
+    "tags": [
+      "15人份",
+      "中式碗籃",
+      "自動開門",
+      "台灣原廠保固"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-23",
+      "note": "已人工查PChome exact新品公開價、台灣官方現售頁及FindPrice／飛比完整型號價格搜尋。比價頁只有現價索引且擷取日期有差異，未取得可確認的同型號可信新品歷史最低價時間點；不以今日現價推定史低。遠東百貨2026母親節DM明列過往55800元活動，但本次現價已更低，該DM不能證明歷史最低價。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-23",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"EFF7591SXA\" site:mobile01.com",
+          "queryUrl": "https://www.bing.com/search?q=%22EFF7591SXA%22%20site%3Amobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "\"EFF7591SXA\" site:ptt.cc",
+          "queryUrl": "https://www.bing.com/search?q=%22EFF7591SXA%22%20site%3Aptt.cc"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "\"EFF7591SXA\" site:reddit.com",
+          "queryUrl": "https://www.bing.com/search?q=%22EFF7591SXA%22%20site%3Areddit.com"
+        }
+      ]
+    }
   },
-  "image": "https://cs-a.ecimg.tw/items/DMBH1QA900I2KMQ/000001_1789972047.jpg",
-  "buyUrl": "https://24h.pchome.com.tw/prod/DMBH1Q-A900I2KMQ",
-  "buyLabel": "PChome 24h購物（原廠保固／含基本安裝）",
-  "specs": [
-    "類型：60公分獨立式，15人份",
-    "SpaceFlex中式碗籃；第三層餐具抽屜與可調整碗籃",
-    "SoftGrips／SoftSpikes玻璃杯保護；衛生殺菌洗程",
-    "AirDry自動開門自然風乾；需預留門前及櫥櫃散熱空間",
-    "SatelliteClean 360°衛星環形噴水臂",
-    "尺寸：寬 59.8 x 深 60.3 x 高 85 cm",
-    "重量：42.5 kg",
-    "電壓／頻率：110V／50–60Hz；額定800W",
-    "標示用水量：11L；噪音44dB",
-    "給排水：冷水或最高60°C熱水進水；排水管1.8m",
-    "安裝：含上蓋寬60×深60.3×高85–86.5cm；不含上蓋高82–83.5cm，須依官方安裝指南場勘"
-  ],
-  "description": "既有300系列之外補入台灣現售的500系列15人份選項，強化中式碗籃、餐具配置與玻璃杯固定；官方仍同列EFF3360VWB／EFF3560VXB，因此保留舊款，不宣稱它們停產或被直接替代。",
-  "pros": [
-    "具台灣110V供電、官方尺寸與淨重證據",
-    "中式碗籃及餐具抽屜有利放置家用深碗與筷匙",
-    "本通路含基本安裝、免費場勘及台灣原廠2年保固"
-  ],
-  "cons": [
-    "完整開門空間、給排水與接地需先場勘",
-    "需定期補充軟化鹽、光潔劑並清洗濾網",
-    "額定人份與用水量依測試洗程，實際裝載中式鍋具會減少餐具量"
-  ],
-  "bestFor": "想在既有入門300系列之上比較中式碗籃與較彈性餐具配置的家庭。",
-  "recommendation": "伊萊克斯500系列現售升級選項；以本次39900元含基本安裝方案評估，先確認門前淨空與櫥櫃、給排水及電源條件。",
-  "score": 87,
-  "voltage": "台灣110V／50–60Hz；800W，需符合原廠接地、電源及給排水要求。",
-  "warranty": "台灣原廠2年免費保修，依官方保固條款及購買憑證；安裝工程、耗材、誤用與非授權通路不在一般保固範圍。",
-  "tags": [
-    "15人份",
-    "中式碗籃",
-    "自動開門",
-    "台灣原廠保固"
-  ],
-  "releaseDate": "找不到",
-  "historicalLow": {
-    "status": "not_found",
-    "amount": null,
-    "currency": "TWD",
-    "converted": null,
-    "sourceUrl": "",
-    "sourceTitle": "",
-    "evidenceSnippet": "",
-    "sourceKind": "not_found",
-    "confidence": "not_found",
-    "checkedAt": "2026-10-23",
-    "note": "已人工查PChome exact新品公開價、台灣官方現售頁及FindPrice／飛比完整型號價格搜尋。比價頁只有現價索引且擷取日期有差異，未取得可確認的同型號可信新品歷史最低價時間點；不以今日現價推定史低。"
-  },
-  "issueResearch": {
-    "status": "no_common_issue",
-    "checkedAt": "2026-10-23",
-    "summary": "截至查核日，查無達門檻的集中負評／災情",
-    "issues": [],
-    "checkedSources": [
-      {
-        "platform": "Mobile01",
-        "targetHost": "mobile01.com",
-        "query": "\"EFF5581SXA\" site:mobile01.com",
-        "queryUrl": "https://www.bing.com/search?q=%22EFF5581SXA%22%20site%3Amobile01.com"
-      },
-      {
-        "platform": "PTT",
-        "targetHost": "ptt.cc",
-        "query": "\"EFF5581SXA\" site:ptt.cc",
-        "queryUrl": "https://www.bing.com/search?q=%22EFF5581SXA%22%20site%3Aptt.cc"
-      },
-      {
-        "platform": "Reddit",
-        "targetHost": "reddit.com",
-        "query": "\"EFF5581SXA\" site:reddit.com",
-        "queryUrl": "https://www.bing.com/search?q=%22EFF5581SXA%22%20site%3Areddit.com"
-      }
+  {
+    "id": "dishwasher-bosch-smi6ecs00x",
+    "category": "dishwasher",
+    "brand": "Bosch",
+    "model": "SMI6ECS00X",
+    "name": "6系列14人份半嵌式自動開門洗碗機（台灣110V版）",
+    "rank": 35,
+    "budget": "premium",
+    "channel": "tw",
+    "topPick": false,
+    "price": {
+      "currency": "TWD",
+      "amount": 55620,
+      "converted": 55620,
+      "basis": "retailer_current",
+      "confidence": "2026-10-24實讀momo exact-model公開促銷價55,620；原始主商品goodsTypeInfo goodsNum為1，直接購買與加入購物車按鈕可見且無disabled，沒有預購或已售完文字。未扣信用卡、回饋或優惠券。"
+    },
+    "image": "https://media3.bsh-group.com/Product_Shots/5120x/27963853_SMI6ECS00X_STP_def.webp",
+    "buyUrl": "https://www.momoshop.com.tw/TP/TP0002980/goodsDetail/TP00029800000364",
+    "buyLabel": "momo購物網 mo店+（廠商宅配／含標準安裝）",
+    "installation": {
+      "status": "included_basic",
+      "note": "所選momo exact-model頁明示含標準安裝；半嵌需自備門板，門板施工非標準安裝、費用另計。提供免費到府場勘、約7工作天安排；如分次配送安裝或現場環境尚未備妥造成空趟，可能收取1,100元。櫃體、水電、排水、搬運與材料加價依原頁及場勘報價確認，配送限台灣本島。"
+    },
+    "specs": [
+      "類型：6系列60cm半嵌式；需搭配櫥櫃門板；14人份",
+      "乾燥：AirDry+自動開門、熱能交換裝置；非沸石烘乾",
+      "清洗：蒸汽預洗、Extra CleanZone強效潔淨區、AquaStop自動防漏水",
+      "碗籃：Max Flex、刀叉抽屜；上籃3段高度調整",
+      "經濟程序耗水9.5L；噪音46dB；Home Connect智慧物聯",
+      "尺寸：寬 59.8 x 深 57.3 x 高 81.5 cm",
+      "重量：36 kg",
+      "安裝：高81.5–87.5cm、寬至少60cm；官方安裝深55cm，機身深57.3cm且開門90度總深115cm，門板2.5–8.5kg，管線與插頭空間須依圖現場確認",
+      "電壓／頻率：110V／60Hz；1100W／10A；需接地與進排水"
+    ],
+    "description": "以自動開門、蒸汽預洗與強效潔淨區補足Bosch 6系列半嵌選項，外露操作面板便於查看狀態。官方商城仍殘留9月預購通知，本卡供貨與55,620元以今日已核對的momo同款頁為準，約配日期由通路確認。",
+    "pros": [
+      "14人份、AirDry+自動開門與蒸汽預洗，功能比4系列半嵌款完整",
+      "官方110V／60Hz、機身尺寸與36kg淨重可獨立核對",
+      "所選momo頁明列2年保固與標準安裝"
+    ],
+    "cons": [
+      "需規劃60cm櫃位、櫥櫃門板及開門後115cm總深",
+      "需自備門板，門板施工另計；分次配送安裝或環境未備妥可能產生1,100元空趟費",
+      "未找到可靠上市日期與歷史最低價；非沸石烘乾"
+    ],
+    "bestFor": "裝修時可預留半嵌櫃位，重視自動開門、油汙預洗、台灣110V與在地保固的家庭。",
+    "recommendation": "6系列半嵌式功能比較款：相較4系列增加蒸汽預洗與強效潔淨區，並保留外露操作面板；購前核對門板、管線、開門與加價施工條件。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-24",
+      "note": "今日查momo同型號公開55,620、Bosch官方61,800、格蘭登限時49,500，以及FindPrice與飛比exact-model價格搜尋。來源僅提供目前報價；未取得可重現、帶歷史日期且符合新品與同版條件的最低價時間點，不把當日最低觀察價或比價快取當史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-24",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"SMI6ECS00X\" site:mobile01.com",
+          "queryUrl": "https://www.bing.com/search?q=%22SMI6ECS00X%22%20site%3Amobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "\"SMI6ECS00X\" site:ptt.cc",
+          "queryUrl": "https://www.bing.com/search?q=%22SMI6ECS00X%22%20site%3Aptt.cc"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "\"SMI6ECS00X\" site:reddit.com",
+          "queryUrl": "https://www.bing.com/search?q=%22SMI6ECS00X%22%20site%3Areddit.com"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "\"SMI6ECS00X\" site:dcard.tw",
+          "queryUrl": "https://www.bing.com/search?q=%22SMI6ECS00X%22%20site%3Adcard.tw"
+        }
+      ]
+    },
+    "score": 88,
+    "voltage": "Bosch台灣官方110V／60Hz、1100W／10A；確認接地插座、迴路與進排水",
+    "warranty": "Bosch台灣2026官方型錄與所選momo頁均明示全機2年；保留發票與機身序號，耗材及追加安裝依原廠／通路條款",
+    "tags": [
+      "14人份",
+      "半嵌式",
+      "AirDry+",
+      "蒸汽預洗",
+      "110V",
+      "Home Connect"
     ]
   }
-},
-{
-  "id": "dishwasher-electrolux-eff7591sxa",
-  "category": "dishwasher",
-  "rank": 34,
-  "budget": "premium",
-  "channel": "tw",
-  "brand": "Electrolux",
-  "model": "EFF7591SXA",
-  "name": "極淨呵護700系列15人份獨立式洗碗機",
-  "price": {
-    "currency": "TWD",
-    "amount": 49900,
-    "converted": 49900,
-    "basis": "retailer_current",
-    "confidence": "2026-10-23 PChome exact新品API及Chrome主商品價查核；Qty10／InStock"
-  },
-  "installation": {
-    "status": "included_basic",
-    "note": "本PChome原廠通路標示含基本安裝與免費場勘；櫥櫃修改、電路／接地、給排水延伸、樓層與特殊施工是否加價須由場勘報價。"
-  },
-  "image": "https://cs-a.ecimg.tw/items/DMBH1QA900I20R4/000001_1789971238.jpg",
-  "buyUrl": "https://24h.pchome.com.tw/prod/DMBH1Q-A900I20R4",
-  "buyLabel": "PChome 24h購物（原廠保固／含基本安裝）",
-  "specs": [
-    "類型：60公分獨立式，15人份",
-    "SpaceFlex中式碗籃；第三層餐具抽屜與可調整碗籃",
-    "SoftGrips／SoftSpikes玻璃杯保護；衛生殺菌洗程",
-    "AirDry自動開門自然風乾；需預留門前及櫥櫃散熱空間",
-    "SatelliteClean 360°衛星環形噴水臂",
-    "尺寸：寬 59.6 x 深 60 x 高 85 cm",
-    "重量：36 kg",
-    "電壓／頻率：110V／60Hz；額定800W",
-    "標示用水量：10.5L；噪音46dB",
-    "給排水：冷水或最高60°C熱水進水；排水管1.8m",
-    "安裝：台灣產品頁要求嵌櫃預留61cm寬；含上蓋高85–86.5cm，不含上蓋高82–83.5cm，須依官方安裝指南場勘"
-  ],
-  "description": "既有300系列之外補入台灣現售的700系列15人份選項，強化中式碗籃、餐具配置與玻璃杯固定；官方仍同列EFF3360VWB／EFF3560VXB，因此保留舊款，不宣稱它們停產或被直接替代。",
-  "pros": [
-    "具台灣110V供電、官方尺寸與淨重證據",
-    "中式碗籃及餐具抽屜有利放置家用深碗與筷匙",
-    "本通路含基本安裝、免費場勘及台灣原廠2年保固"
-  ],
-  "cons": [
-    "完整開門空間、給排水與接地需先場勘",
-    "需定期補充軟化鹽、光潔劑並清洗濾網",
-    "額定人份與用水量依測試洗程，實際裝載中式鍋具會減少餐具量"
-  ],
-  "bestFor": "想在既有入門300系列之上比較中式碗籃與較彈性餐具配置的家庭。",
-  "recommendation": "伊萊克斯700系列現售升級選項；以本次49900元含基本安裝方案評估，先確認門前淨空與櫥櫃、給排水及電源條件。",
-  "score": 88,
-  "voltage": "台灣110V／60Hz；800W，需符合原廠接地、電源及給排水要求。",
-  "warranty": "台灣原廠2年免費保修，依官方保固條款及購買憑證；安裝工程、耗材、誤用與非授權通路不在一般保固範圍。",
-  "tags": [
-    "15人份",
-    "中式碗籃",
-    "自動開門",
-    "台灣原廠保固"
-  ],
-  "releaseDate": "找不到",
-  "historicalLow": {
-    "status": "not_found",
-    "amount": null,
-    "currency": "TWD",
-    "converted": null,
-    "sourceUrl": "",
-    "sourceTitle": "",
-    "evidenceSnippet": "",
-    "sourceKind": "not_found",
-    "confidence": "not_found",
-    "checkedAt": "2026-10-23",
-    "note": "已人工查PChome exact新品公開價、台灣官方現售頁及FindPrice／飛比完整型號價格搜尋。比價頁只有現價索引且擷取日期有差異，未取得可確認的同型號可信新品歷史最低價時間點；不以今日現價推定史低。遠東百貨2026母親節DM明列過往55800元活動，但本次現價已更低，該DM不能證明歷史最低價。"
-  },
-  "issueResearch": {
-    "status": "no_common_issue",
-    "checkedAt": "2026-10-23",
-    "summary": "截至查核日，查無達門檻的集中負評／災情",
-    "issues": [],
-    "checkedSources": [
-      {
-        "platform": "Mobile01",
-        "targetHost": "mobile01.com",
-        "query": "\"EFF7591SXA\" site:mobile01.com",
-        "queryUrl": "https://www.bing.com/search?q=%22EFF7591SXA%22%20site%3Amobile01.com"
-      },
-      {
-        "platform": "PTT",
-        "targetHost": "ptt.cc",
-        "query": "\"EFF7591SXA\" site:ptt.cc",
-        "queryUrl": "https://www.bing.com/search?q=%22EFF7591SXA%22%20site%3Aptt.cc"
-      },
-      {
-        "platform": "Reddit",
-        "targetHost": "reddit.com",
-        "query": "\"EFF7591SXA\" site:reddit.com",
-        "queryUrl": "https://www.bing.com/search?q=%22EFF7591SXA%22%20site%3Areddit.com"
-      }
-    ]
-  }
-}
 ]);
 })();

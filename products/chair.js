@@ -2229,9 +2229,9 @@
     "name": "Orca 人體工學椅",
     "price": {
       "currency": "TWD",
-      "amount": 10800,
-      "converted": 10800,
-      "confidence": "Backbone 台灣官方 2026-07-24 公開現貨價"
+      "amount": 9936,
+      "converted": 9936,
+      "confidence": "2026-10-24 人工核對 www.backbone.tw 同型號與所選版本公開價 TWD 9936，可下單；未扣會員、信用卡或點數。"
     },
     "image": "https://cdn-general.cybassets.com/media/W1siZiIsIjExNTM0L3Byb2R1Y3RzLzY5MDYwMDU4LzE3ODMzMjQyNDJfMmUwZTM1MmFkMzk5YWMzYzE2YTMucG5nIl0sWyJwIiwidGh1bWIiLCI2MDB4NjAwIl1d.png?sha=b52c636bed7f1599",
     "buyUrl": "https://www.backbone.tw/products/orca",
@@ -2329,9 +2329,9 @@
     "name": "T36 人體工學椅",
     "price": {
       "currency": "TWD",
-      "amount": 6641,
-      "converted": 6641,
-      "confidence": "www.pcparty.com.tw 2026-09-05 人工核對 exact-model 公開單件價及可購狀態；非會員券、紅利或加購價",
+      "amount": 5911,
+      "converted": 5911,
+      "confidence": "2026-10-24 人工核對 www.pcparty.com.tw 同型號與所選版本公開價 TWD 5911，可下單；未扣會員、信用卡或點數。",
       "basis": "retailer_current"
     },
     "image": "https://img.shoplineapp.com/media/image_clips/6a3bb7831f653f80a5328a3b/original.jpg?1782298499=&owner_id=58463ef36170691735790100",
@@ -2730,191 +2730,191 @@
       "note": "已查黑色 RZ38-04900800-R3CA／Iskur V2 NewGen 的歷史價搜尋、飛比與 FindPrice，再核對 PCPARTY 公開現價；比價索引中的 20,920–20,990 為當下不同通路／顏色報價，沒有可信附日期的歷史最低原頁。排除較便宜的 V2 X NewGen、原 V2、贈品價值與個人折扣，不把 20,990 現價推作史低。"
     }
   },
-{
-  "id": "chair-sidiz-t50-2nd",
-  "category": "chair",
-  "brand": "SIDIZ",
-  "model": "T51HLDA0KT-5F6ABK",
-  "name": "T50 二代 人體工學椅（黑框黑座）",
-  "rank": 29,
-  "budget": "mid",
-  "channel": "tw",
-  "score": 87,
-  "price": {
-    "currency": "TWD",
-    "amount": 10499,
-    "converted": 10499,
-    "basis": "retailer_current",
-    "confidence": "2026-10-23 SIDIZ台灣官店exact原生黑色variant及SKU由Chrome核對，公開價10499且schema InStock、加入購物車與立即買可用；非舊代或裸座墊。"
+  {
+    "id": "chair-sidiz-t50-2nd",
+    "category": "chair",
+    "brand": "SIDIZ",
+    "model": "T51HLDA0KT-5F6ABK",
+    "name": "T50 二代 人體工學椅（黑框黑座）",
+    "rank": 29,
+    "budget": "mid",
+    "channel": "tw",
+    "score": 87,
+    "price": {
+      "currency": "TWD",
+      "amount": 10499,
+      "converted": 10499,
+      "basis": "retailer_current",
+      "confidence": "2026-10-23 SIDIZ台灣官店exact原生黑色variant及SKU由Chrome核對，公開價10499且schema InStock、加入購物車與立即買可用；非舊代或裸座墊。"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "商品需組裝；本島配送與組裝是否含於報價未明，請依官店訂單選項確認。官頁明示外島不提供配送或安裝，需本島地址。"
+    },
+    "image": "https://www.sidiz.com.tw/cdn/shop/files/IG__45_1296x.png?v=1787216617",
+    "buyUrl": "https://www.sidiz.com.tw/products/t50-2nd?variant=46548627980484",
+    "buyLabel": "SIDIZ 台灣官方網站（黑框黑座）",
+    "specs": [
+      "類型：T50 二代完整人體工學椅，黑框黑座T51HLDA0KT-5F6ABK",
+      "椅背／座面：Airflex透氣網背；Scooping高密度泡棉座墊，Hybrid可拆換結構；網座需另購",
+      "腰靠：新寬幅柔性支撐墊，高度與深度可調；不以官方宣傳保證改善個人疼痛",
+      "頭枕／扶手：310mm寬網布頭枕、可調高度角度；4D扶手含高度／前後／角度／寬度，較舊代基礎高度增加25mm",
+      "傾仰：同步傾仰，5段範圍調節、約105–130度及張力調節；官方FAQ明示不提供後仰固定鎖定",
+      "機身尺寸：官方示意寬69（±1）×深58–64×高113.5–120.5 cm；總高圖另註+5.5cm調節量，保留原圖標示",
+      "座面／承重：座高44–51cm、座深51.5–57cm、座寬52.5cm；最大承重125kg",
+      "重量：約17.6kg；原廠註明尺寸可能±20mm、重量±1kg，依部位及量法不同",
+      "維護／配件：二代泡棉與網布座墊可另購替換；依產品組裝指南安裝，先清潔椅輪與滑動部位",
+      "售後／配送：官方5年服務，但椅墊／椅套／網布等耗材為付費保固；外島不配送／安裝"
+    ],
+    "description": "T50的明確第二代，重做腰靠、加寬網布頭枕及調整扶手高度，並提供可更換座墊。此版保留泡棉座面，與AIR全網版本分列比較。",
+    "pros": [
+      "新腰靠、310mm網布頭枕及4D扶手",
+      "二代座墊結構可替換、官方有在台門市試坐",
+      "官店完整SKU可購，5年服務邊界可查"
+    ],
+    "cons": [
+      "沒有後仰固定鎖定，不適合一定要固定躺角的人",
+      "網布／椅墊等耗材為付費範圍，不等於五年全件免費",
+      "需組裝且外島不配送；總寬69cm應確認桌腳與房間空間"
+    ],
+    "bestFor": "想試新腰靠與寬頭枕、可到門市試坐並接受泡棉座面及傾仰回彈的辦公使用者。",
+    "recommendation": "T50直接後繼參考；先在門市比較泡棉與AIR、確認座高腳掌支撐及腰靠位置，再決定是否由一代升級，無後仰鎖定須先接受。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-23",
+      "note": "已讀官店exact黑色T51HLDA0KT-5F6ABK現價、FindPrice二代價格搜尋及momo候選；momo8999／9999混舊代五色與改寫標題，未封閉黑色二代SKU；比價僅現價無可重現時間軸，不當史低。"
+    },
+    "voltage": "非電器，手動機構與氣壓升降，無需供電。",
+    "warranty": "台灣官方自購買日起5年保固服務；椅墊、椅套、網布等消耗品屬付費範圍，依官方條款與購買憑證。",
+    "tags": [
+      "辦公",
+      "T50第二代",
+      "泡棉座",
+      "4D扶手",
+      "台灣官方通路"
+    ],
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-23",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"T51HLDA0KT-5F6ABK\" (problem OR issue OR failure OR 問題 OR 故障)",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22T51HLDA0KT-5F6ABK%22%20%28problem%20OR%20issue%20OR%20failure%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%29"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"T51HLDA0KT-5F6ABK\" (problem OR issue OR failure OR 問題 OR 故障)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22T51HLDA0KT-5F6ABK%22%20%28problem%20OR%20issue%20OR%20failure%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%29"
+        }
+      ]
+    }
   },
-  "installation": {
-    "status": "not_stated",
-    "note": "商品需組裝；本島配送與組裝是否含於報價未明，請依官店訂單選項確認。官頁明示外島不提供配送或安裝，需本島地址。"
-  },
-  "image": "https://www.sidiz.com.tw/cdn/shop/files/IG__45_1296x.png?v=1787216617",
-  "buyUrl": "https://www.sidiz.com.tw/products/t50-2nd?variant=46548627980484",
-  "buyLabel": "SIDIZ 台灣官方網站（黑框黑座）",
-  "specs": [
-    "類型：T50 二代完整人體工學椅，黑框黑座T51HLDA0KT-5F6ABK",
-    "椅背／座面：Airflex透氣網背；Scooping高密度泡棉座墊，Hybrid可拆換結構；網座需另購",
-    "腰靠：新寬幅柔性支撐墊，高度與深度可調；不以官方宣傳保證改善個人疼痛",
-    "頭枕／扶手：310mm寬網布頭枕、可調高度角度；4D扶手含高度／前後／角度／寬度，較舊代基礎高度增加25mm",
-    "傾仰：同步傾仰，5段範圍調節、約105–130度及張力調節；官方FAQ明示不提供後仰固定鎖定",
-    "機身尺寸：官方示意寬69（±1）×深58–64×高113.5–120.5 cm；總高圖另註+5.5cm調節量，保留原圖標示",
-    "座面／承重：座高44–51cm、座深51.5–57cm、座寬52.5cm；最大承重125kg",
-    "重量：約17.6kg；原廠註明尺寸可能±20mm、重量±1kg，依部位及量法不同",
-    "維護／配件：二代泡棉與網布座墊可另購替換；依產品組裝指南安裝，先清潔椅輪與滑動部位",
-    "售後／配送：官方5年服務，但椅墊／椅套／網布等耗材為付費保固；外島不配送／安裝"
-  ],
-  "description": "T50的明確第二代，重做腰靠、加寬網布頭枕及調整扶手高度，並提供可更換座墊。此版保留泡棉座面，與AIR全網版本分列比較。",
-  "pros": [
-    "新腰靠、310mm網布頭枕及4D扶手",
-    "二代座墊結構可替換、官方有在台門市試坐",
-    "官店完整SKU可購，5年服務邊界可查"
-  ],
-  "cons": [
-    "沒有後仰固定鎖定，不適合一定要固定躺角的人",
-    "網布／椅墊等耗材為付費範圍，不等於五年全件免費",
-    "需組裝且外島不配送；總寬69cm應確認桌腳與房間空間"
-  ],
-  "bestFor": "想試新腰靠與寬頭枕、可到門市試坐並接受泡棉座面及傾仰回彈的辦公使用者。",
-  "recommendation": "T50直接後繼參考；先在門市比較泡棉與AIR、確認座高腳掌支撐及腰靠位置，再決定是否由一代升級，無後仰鎖定須先接受。",
-  "releaseDate": "找不到",
-  "historicalLow": {
-    "status": "not_found",
-    "amount": null,
-    "currency": "TWD",
-    "converted": null,
-    "sourceUrl": "",
-    "sourceTitle": "",
-    "evidenceSnippet": "",
-    "sourceKind": "not_found",
-    "confidence": "not_found",
-    "checkedAt": "2026-10-23",
-    "note": "已讀官店exact黑色T51HLDA0KT-5F6ABK現價、FindPrice二代價格搜尋及momo候選；momo8999／9999混舊代五色與改寫標題，未封閉黑色二代SKU；比價僅現價無可重現時間軸，不當史低。"
-  },
-  "voltage": "非電器，手動機構與氣壓升降，無需供電。",
-  "warranty": "台灣官方自購買日起5年保固服務；椅墊、椅套、網布等消耗品屬付費範圍，依官方條款與購買憑證。",
-  "tags": [
-    "辦公",
-    "T50第二代",
-    "泡棉座",
-    "4D扶手",
-    "台灣官方通路"
-  ],
-  "issueResearch": {
-    "status": "no_common_issue",
-    "checkedAt": "2026-10-23",
-    "summary": "截至查核日，查無達門檻的集中負評／災情",
-    "issues": [],
-    "checkedSources": [
-      {
-        "platform": "Reddit",
-        "targetHost": "reddit.com",
-        "query": "site:reddit.com \"T51HLDA0KT-5F6ABK\" (problem OR issue OR failure OR 問題 OR 故障)",
-        "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22T51HLDA0KT-5F6ABK%22%20%28problem%20OR%20issue%20OR%20failure%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%29"
-      },
-      {
-        "platform": "Mobile01",
-        "targetHost": "mobile01.com",
-        "query": "site:mobile01.com \"T51HLDA0KT-5F6ABK\" (problem OR issue OR failure OR 問題 OR 故障)",
-        "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22T51HLDA0KT-5F6ABK%22%20%28problem%20OR%20issue%20OR%20failure%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%29"
-      }
-    ]
+  {
+    "id": "chair-sidiz-t50-air-2nd",
+    "category": "chair",
+    "brand": "SIDIZ",
+    "model": "T53HLDA0KT-5H6BBK",
+    "name": "T50 AIR 二代 人體工學椅（黑框黑座）",
+    "rank": 30,
+    "budget": "mid",
+    "channel": "tw",
+    "score": 88,
+    "price": {
+      "currency": "TWD",
+      "amount": 11499,
+      "converted": 11499,
+      "basis": "retailer_current",
+      "confidence": "2026-10-23 SIDIZ台灣官店exact原生黑色variant及SKU由Chrome核對，公開價11499且schema InStock、加入購物車與立即買可用；非舊代或裸座墊。"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "商品需組裝；本島配送與組裝是否含於報價未明，請依官店訂單選項確認。官頁明示外島不提供配送或安裝，需本島地址。"
+    },
+    "image": "https://www.sidiz.com.tw/cdn/shop/files/IG_AIR_45_1296x.png?v=1787281078",
+    "buyUrl": "https://www.sidiz.com.tw/products/t50-air-2nd?variant=46552049778884",
+    "buyLabel": "SIDIZ 台灣官方網站（黑框黑座）",
+    "specs": [
+      "類型：T50 AIR 二代完整人體工學椅，黑框黑座T53HLDA0KT-5H6BBK",
+      "椅背／座面：Airflex透氣網背；全網布座面、附椅套的Hybrid雙座墊系統",
+      "腰靠：新寬幅柔性支撐墊，高度與深度可調；不以官方宣傳保證改善個人疼痛",
+      "頭枕／扶手：310mm寬網布頭枕、可調高度角度；4D扶手含高度／前後／角度／寬度，較舊代基礎高度增加25mm",
+      "傾仰：同步傾仰，5段範圍調節、約105–130度及張力調節；官方FAQ明示不提供後仰固定鎖定",
+      "機身尺寸：官方示意寬69（±1）×深58–64×高113.5–120.5 cm；總高圖另註+5.5cm調節量，保留原圖標示",
+      "座面／承重：座高44–51cm、座深51.5–57cm、座寬52.5cm；最大承重125kg",
+      "重量：約17.6kg；原廠註明尺寸可能±20mm、重量±1kg，依部位及量法不同",
+      "維護／配件：二代泡棉與網布座墊可另購替換；依產品組裝指南安裝，先清潔椅輪與滑動部位",
+      "售後／配送：官方5年服務，但椅墊／椅套／網布等耗材為付費保固；外島不配送／安裝"
+    ],
+    "description": "T50的明確第二代，重做腰靠、加寬網布頭枕及調整扶手高度，並提供可更換座墊。AIR以全網座面偏透氣取向，與泡棉版坐感分列比較。",
+    "pros": [
+      "新腰靠、310mm網布頭枕及4D扶手",
+      "二代座墊結構可替換、官方有在台門市試坐",
+      "官店完整SKU可購，5年服務邊界可查"
+    ],
+    "cons": [
+      "沒有後仰固定鎖定，不適合一定要固定躺角的人",
+      "網布／椅墊等耗材為付費範圍，不等於五年全件免費",
+      "需組裝且外島不配送；總寬69cm應確認桌腳與房間空間"
+    ],
+    "bestFor": "想試新腰靠與寬頭枕、可到門市試坐並接受全網座面及傾仰回彈的辦公使用者。",
+    "recommendation": "T50直接後繼參考；先在門市比較泡棉與AIR、確認座高腳掌支撐及腰靠位置，再決定是否由一代升級，無後仰鎖定須先接受。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-23",
+      "note": "已讀官店exact黑色T53HLDA0KT-5H6BBK現價、FindPrice二代價格搜尋及momo候選；momo8999／9999混舊代五色與改寫標題，未封閉黑色二代SKU；比價僅現價無可重現時間軸，不當史低。"
+    },
+    "voltage": "非電器，手動機構與氣壓升降，無需供電。",
+    "warranty": "台灣官方自購買日起5年保固服務；椅墊、椅套、網布等消耗品屬付費範圍，依官方條款與購買憑證。",
+    "tags": [
+      "辦公",
+      "T50第二代",
+      "全網座",
+      "4D扶手",
+      "台灣官方通路"
+    ],
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-23",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"T53HLDA0KT-5H6BBK\" (problem OR issue OR failure OR 問題 OR 故障)",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22T53HLDA0KT-5H6BBK%22%20%28problem%20OR%20issue%20OR%20failure%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%29"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"T53HLDA0KT-5H6BBK\" (problem OR issue OR failure OR 問題 OR 故障)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22T53HLDA0KT-5H6BBK%22%20%28problem%20OR%20issue%20OR%20failure%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%29"
+        }
+      ]
+    }
   }
-},
-{
-  "id": "chair-sidiz-t50-air-2nd",
-  "category": "chair",
-  "brand": "SIDIZ",
-  "model": "T53HLDA0KT-5H6BBK",
-  "name": "T50 AIR 二代 人體工學椅（黑框黑座）",
-  "rank": 30,
-  "budget": "mid",
-  "channel": "tw",
-  "score": 88,
-  "price": {
-    "currency": "TWD",
-    "amount": 11499,
-    "converted": 11499,
-    "basis": "retailer_current",
-    "confidence": "2026-10-23 SIDIZ台灣官店exact原生黑色variant及SKU由Chrome核對，公開價11499且schema InStock、加入購物車與立即買可用；非舊代或裸座墊。"
-  },
-  "installation": {
-    "status": "not_stated",
-    "note": "商品需組裝；本島配送與組裝是否含於報價未明，請依官店訂單選項確認。官頁明示外島不提供配送或安裝，需本島地址。"
-  },
-  "image": "https://www.sidiz.com.tw/cdn/shop/files/IG_AIR_45_1296x.png?v=1787281078",
-  "buyUrl": "https://www.sidiz.com.tw/products/t50-air-2nd?variant=46552049778884",
-  "buyLabel": "SIDIZ 台灣官方網站（黑框黑座）",
-  "specs": [
-    "類型：T50 AIR 二代完整人體工學椅，黑框黑座T53HLDA0KT-5H6BBK",
-    "椅背／座面：Airflex透氣網背；全網布座面、附椅套的Hybrid雙座墊系統",
-    "腰靠：新寬幅柔性支撐墊，高度與深度可調；不以官方宣傳保證改善個人疼痛",
-    "頭枕／扶手：310mm寬網布頭枕、可調高度角度；4D扶手含高度／前後／角度／寬度，較舊代基礎高度增加25mm",
-    "傾仰：同步傾仰，5段範圍調節、約105–130度及張力調節；官方FAQ明示不提供後仰固定鎖定",
-    "機身尺寸：官方示意寬69（±1）×深58–64×高113.5–120.5 cm；總高圖另註+5.5cm調節量，保留原圖標示",
-    "座面／承重：座高44–51cm、座深51.5–57cm、座寬52.5cm；最大承重125kg",
-    "重量：約17.6kg；原廠註明尺寸可能±20mm、重量±1kg，依部位及量法不同",
-    "維護／配件：二代泡棉與網布座墊可另購替換；依產品組裝指南安裝，先清潔椅輪與滑動部位",
-    "售後／配送：官方5年服務，但椅墊／椅套／網布等耗材為付費保固；外島不配送／安裝"
-  ],
-  "description": "T50的明確第二代，重做腰靠、加寬網布頭枕及調整扶手高度，並提供可更換座墊。AIR以全網座面偏透氣取向，與泡棉版坐感分列比較。",
-  "pros": [
-    "新腰靠、310mm網布頭枕及4D扶手",
-    "二代座墊結構可替換、官方有在台門市試坐",
-    "官店完整SKU可購，5年服務邊界可查"
-  ],
-  "cons": [
-    "沒有後仰固定鎖定，不適合一定要固定躺角的人",
-    "網布／椅墊等耗材為付費範圍，不等於五年全件免費",
-    "需組裝且外島不配送；總寬69cm應確認桌腳與房間空間"
-  ],
-  "bestFor": "想試新腰靠與寬頭枕、可到門市試坐並接受全網座面及傾仰回彈的辦公使用者。",
-  "recommendation": "T50直接後繼參考；先在門市比較泡棉與AIR、確認座高腳掌支撐及腰靠位置，再決定是否由一代升級，無後仰鎖定須先接受。",
-  "releaseDate": "找不到",
-  "historicalLow": {
-    "status": "not_found",
-    "amount": null,
-    "currency": "TWD",
-    "converted": null,
-    "sourceUrl": "",
-    "sourceTitle": "",
-    "evidenceSnippet": "",
-    "sourceKind": "not_found",
-    "confidence": "not_found",
-    "checkedAt": "2026-10-23",
-    "note": "已讀官店exact黑色T53HLDA0KT-5H6BBK現價、FindPrice二代價格搜尋及momo候選；momo8999／9999混舊代五色與改寫標題，未封閉黑色二代SKU；比價僅現價無可重現時間軸，不當史低。"
-  },
-  "voltage": "非電器，手動機構與氣壓升降，無需供電。",
-  "warranty": "台灣官方自購買日起5年保固服務；椅墊、椅套、網布等消耗品屬付費範圍，依官方條款與購買憑證。",
-  "tags": [
-    "辦公",
-    "T50第二代",
-    "全網座",
-    "4D扶手",
-    "台灣官方通路"
-  ],
-  "issueResearch": {
-    "status": "no_common_issue",
-    "checkedAt": "2026-10-23",
-    "summary": "截至查核日，查無達門檻的集中負評／災情",
-    "issues": [],
-    "checkedSources": [
-      {
-        "platform": "Reddit",
-        "targetHost": "reddit.com",
-        "query": "site:reddit.com \"T53HLDA0KT-5H6BBK\" (problem OR issue OR failure OR 問題 OR 故障)",
-        "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22T53HLDA0KT-5H6BBK%22%20%28problem%20OR%20issue%20OR%20failure%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%29"
-      },
-      {
-        "platform": "Mobile01",
-        "targetHost": "mobile01.com",
-        "query": "site:mobile01.com \"T53HLDA0KT-5H6BBK\" (problem OR issue OR failure OR 問題 OR 故障)",
-        "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22T53HLDA0KT-5H6BBK%22%20%28problem%20OR%20issue%20OR%20failure%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%29"
-      }
-    ]
-  }
-}
 ]);
 })();

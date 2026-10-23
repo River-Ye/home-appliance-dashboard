@@ -553,9 +553,9 @@
     "name": "Philips 飛利浦 EP5547/90 LatteGo 雙溫萃取全自動義式咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 36900,
-      "converted": 36900,
-      "confidence": "EP5547/90 官方商品頁 2026-09-05 人工核對 exact-model 公開現價及可購狀態；非會員券、紅利或加購價"
+      "amount": 33900,
+      "converted": 33900,
+      "confidence": "2026-10-24 人工核對 www.philips-da.com.tw 同型號與所選版本公開價 TWD 33900，可下單；未扣會員、信用卡或點數。"
     },
     "image": "https://images.philips.com/is/image/philipsconsumer/vrs_8236e6d7_84b6_4a40_a27587047fae427e?$pnglarge$",
     "buyUrl": "https://www.philips-da.com.tw/products/ep554790",
@@ -660,9 +660,9 @@
     "name": "De'Longhi ECAM290.43.SB Magnifica Evo 全自動義式咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 23900,
-      "converted": 23900,
-      "confidence": "ECAM290.43.SB 官方商品頁 2026-09-05 人工核對 exact-model 公開現價及可購狀態；非會員券、紅利或加購價"
+      "amount": 25900,
+      "converted": 25900,
+      "confidence": "2026-10-24 人工核對 www.idelonghi.com.tw 同型號與所選版本公開價 TWD 25900，可下單；未扣會員、信用卡或點數。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAT03A900GX8R8/000007_1700470715.jpg",
     "buyUrl": "https://www.idelonghi.com.tw/ja/products/ecam29043",
@@ -1520,11 +1520,12 @@
       "currency": "TWD",
       "amount": 5990,
       "converted": 5990,
-      "confidence": "EM450.M 官方商品頁 2026-09-05 人工核對 exact-model 公開現價及可購狀態；非會員券、紅利或加購價"
+      "confidence": "EM450.M 官方商品頁 2026-09-05 人工核對 exact-model 公開現價及可購狀態；非會員券、紅利或加購價",
+      "note": "2026-10-24官網標價6490元，另列10/16–10/31現折500，且運送說明仍寫9月預購出貨；5990元保留參考，實際交期與結帳優惠請先確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAT03A900J5HMT/000007_1755771859.jpg",
     "buyUrl": "https://www.stilusa.com.tw/zh-TW/products/em450m",
-    "buyLabel": "De'Longhi 台灣品牌官方網站",
+    "buyLabel": "De'Longhi官方（交期待確認／參考價）",
     "specs": [
       "類型：半自動",
       "使用原料：咖啡豆研磨後的咖啡粉",
@@ -1735,11 +1736,12 @@
       "amount": 12800,
       "converted": 12800,
       "confidence": "2026-08-31 人工核對 momo 品號14547707，BES450XL 金屬銀總代理公司貨公開促銷價 NT$12,800；頁面載入完成後可直接購買或放入購物車。未扣點數、信用卡或個人化優惠。",
-      "basis": "retailer_current"
+      "basis": "retailer_current",
+      "note": "2026-10-24原頁標示11/1 00:00開賣，當前只有開賣通知我；8500元為未開賣預告，12800元保留先前參考，不當本次可購現價。"
     },
     "image": "https://storage.googleapis.com/uni-splendor.appspot.com/images/p/4ef71aab-221e-42be-80b7-67676515bb0d.png",
     "buyUrl": "https://www.momoshop.com.tw/product/14547707",
-    "buyLabel": "momo 購物網｜Breville 台灣總代理公司貨",
+    "buyLabel": "momo（11/1開賣／保留舊參考價）",
     "specs": [
       "類型：半自動",
       "使用原料：咖啡豆研磨後的咖啡粉",
@@ -2162,9 +2164,9 @@
     "name": "La Specialista Arte Evo 半自動義式咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 26900,
-      "converted": 26900,
-      "confidence": "EC9255M 官方商品頁 2026-09-05 人工核對 exact-model 公開現價及可購狀態；非會員券、紅利或加購價"
+      "amount": 27900,
+      "converted": 27900,
+      "confidence": "2026-10-24 人工核對 www.stilusa.com.tw 同型號與所選版本公開價 TWD 27900，可下單；未扣會員、信用卡或點數。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAT03A900K4F0K/000007_1781601666.jpg",
     "buyUrl": "https://www.stilusa.com.tw/zh-TW/products/ec9255m",
@@ -2272,11 +2274,12 @@
       "amount": 32000,
       "converted": 32000,
       "confidence": "2026-08-31 人工核對 momo 品號14956869，BES878XL 雪花白總代理公司貨公開促銷價 NT$32,000；頁面載入完成後可直接購買或放入購物車。未扣點數、信用卡或個人化優惠。",
-      "basis": "retailer_current"
+      "basis": "retailer_current",
+      "note": "2026-10-24原頁標示11/1 00:00開賣，當前只有開賣通知我；28500元為未開賣預告，32000元保留先前參考，不當本次可購現價。"
     },
     "image": "https://storage.googleapis.com/uni-splendor.appspot.com/images/p/6cf71d58-a653-465a-a6c3-7089f7f37314.png",
     "buyUrl": "https://www.momoshop.com.tw/product/14956869",
-    "buyLabel": "momo 購物網｜Breville 台灣總代理公司貨",
+    "buyLabel": "momo（11/1開賣／保留舊參考價）",
     "specs": [
       "類型：半自動",
       "使用原料：咖啡豆研磨後的咖啡粉",

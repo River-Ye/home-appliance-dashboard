@@ -305,9 +305,9 @@
     "name": "Luna Pro+ 六合一電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 25000,
-      "converted": 25000,
-      "confidence": "momo 2026-07-13 商品頁查核價"
+      "amount": 28000,
+      "converted": 28000,
+      "confidence": "2026-10-24 人工核對 www.momoshop.com.tw 同型號與所選版本公開價 TWD 28000，可下單；未扣會員、信用卡或點數。"
     },
     "image": "https://i2.momoshop.com.tw/1783611612/goodsimg/0015/024/130/15024130_R_m.webp",
     "buyUrl": "https://www.momoshop.com.tw/product/15024130",

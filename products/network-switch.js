@@ -2211,9 +2211,9 @@
     "type": "10g",
     "price": {
       "currency": "TWD",
-      "amount": 47985,
-      "converted": 47985,
-      "confidence": "NetBridge 台灣代理商城 2026-08-24 exact-model 台灣原廠保固新品公開價",
+      "amount": 52080,
+      "converted": 52080,
+      "confidence": "2026-10-24 人工核對 store.netbridgetech.com.tw 同型號與所選版本公開價 TWD 52080，可下單；未扣會員、信用卡或點數。",
       "basis": "retailer_current"
     },
     "installation": {

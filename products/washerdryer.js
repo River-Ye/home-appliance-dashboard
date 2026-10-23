@@ -327,9 +327,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/16E678AC30-SP-17622644.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 12490,
-      "converted": 12490,
-      "confidence": "PChome 2026-10-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 11900,
+      "converted": 11900,
+      "confidence": "PChome 2026-10-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1264,9 +1264,9 @@
     "image": "https://cs-a.ecimg.tw/items/DPAI1HA900AMJJK/000001_1761009175.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 22410,
-      "converted": 22410,
-      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 21912,
+      "converted": 21912,
+      "confidence": "PChome 2026-10-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -2710,9 +2710,9 @@
     "image": "https://pstw.panasonic.com.tw/shop/Upload/Product/20260514190222S44S2J5E.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 40410,
-      "converted": 40410,
-      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 39512,
+      "converted": 39512,
+      "confidence": "PChome 2026-10-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -3214,10 +3214,10 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 63999,
-      "converted": 63999,
+      "amount": 65128,
+      "converted": 65128,
       "basis": "retailer_current",
-      "confidence": "2026-09-08 myfone exact-model 公開網路限定價；原頁 JSON-LD InStock；不扣點數、信用卡或登錄回饋"
+      "confidence": "2026-10-24 人工核對 www.myfone.com.tw 同型號與所選版本公開價 TWD 65128，可下單；未扣會員、信用卡或點數。"
     },
     "installation": {
       "status": "included_basic",
@@ -3430,7 +3430,7 @@
     "buyLabel": "全國電子｜冰鑽白完整雙塔",
     "specs": [
       "類型：完整洗衣15kg＋熱泵乾衣15kg雙塔組，不是單一室內機或單筒洗脫烘",
-    "洗/乾容量：15kg / 15kg",
+      "洗/乾容量：15kg / 15kg",
       "智慧雙控隱藏式面板；上下洗／烘為獨立滾筒，衣物需人工移入上方乾衣筒",
       "Heat Pump除濕式低溫烘乾、nanoe X、香氛烘衣與乾衣預備",
       "溫水泡洗、AI ECONAVI、IoT手機操作；洗劑採手動投入，沒有自動洗劑投放",
@@ -3527,7 +3527,7 @@
     "buyLabel": "全國電子｜冰鑽白完整雙塔",
     "specs": [
       "類型：完整洗衣17kg＋熱泵乾衣15kg雙塔組，不是單一室內機或單筒洗脫烘",
-    "洗/乾容量：17kg / 15kg",
+      "洗/乾容量：17kg / 15kg",
       "智慧雙控隱藏式面板；上下洗／烘為獨立滾筒，衣物需人工移入上方乾衣筒",
       "Heat Pump除濕式低溫烘乾、nanoe X、香氛烘衣與乾衣預備",
       "溫水泡洗、AI ECONAVI、IoT手機操作；洗劑採手動投入，沒有自動洗劑投放",

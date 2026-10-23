@@ -112,9 +112,9 @@
     "name": "跨越奇兵旗艦掃拖王者水立方版",
     "price": {
       "currency": "TWD",
-      "amount": 34980,
-      "converted": 34980,
-      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 32980,
+      "converted": 32980,
+      "confidence": "PChome 2026-10-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JNELR/000001_1769062030.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JNELR",
@@ -211,7 +211,8 @@
       "amount": 33999,
       "converted": 33999,
       "confidence": "momo 2026-09-09 人工核對 exact-model 公開現價與可購狀態；不含會員券、點數、信用卡回饋或加購",
-      "basis": "retailer_current"
+      "basis": "retailer_current",
+      "note": "2026-10-24原頁標示10/25 00:00開賣，當前僅加入追蹤；31111元為未開賣預告，33999元保留上次參考，非本次可購現價。"
     },
     "installation": {
       "status": "excluded",
@@ -219,7 +220,7 @@
     },
     "image": "https://taiwan.roborock.com/cdn/shop/files/Saros20_Sonic_album_pic1_asia_web.jpg",
     "buyUrl": "https://www.momoshop.com.tw/product/15103194",
-    "buyLabel": "Momo 購物網",
+    "buyLabel": "momo（10/25開賣／保留舊參考價）",
     "specs": [
       "36000Pa HyperForce 吸力",
       "VibraRise 5.0 聲波拖地：每分鐘 4000 次、14N 下壓力",
@@ -588,7 +589,7 @@
       "amount": 24700,
       "converted": 24700,
       "confidence": "Yahoo購物中心 2026-10-23 exact-model 公開結構化價格",
-      "note": "2026-10-22 Yahoo原頁標示新品預購中，到貨後依訂單順序發貨；公開價格僅供預購參考，非現貨或交期保證。"
+      "note": "2026-10-24 Yahoo原頁仍標新品預購中，到貨依訂單順序發貨；24700元僅供公開預購參考，非現貨或交期保證。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900JRDAS/000001_1771917633.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/ECOVACS-%E7%A7%91%E6%B2%83%E6%96%AF-DEEBOT-X11-PRO%E7%84%A1%E9%99%90%E7%BA%8C%E8%88%AA%E6%BB%BE%E7%AD%92%E6%B4%97%E5%9C%B0%E6%A9%9F%E5%99%A8%E4%BA%BA-%E6%8E%83%E5%9C%B0%E6%A9%9F%E5%99%A8%E4%BA%BA-11797803.html",
@@ -2310,10 +2311,10 @@
     "name": "極薄滾筒掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 16990,
-      "converted": 16990,
+      "amount": 12911,
+      "converted": 12911,
       "basis": "retailer_current",
-      "confidence": "2026-09-09台灣官方S70 Roller普通版16,990元，原頁可加入購物車、variant44342888792157 available true。不是S70 Ultra Roller。"
+      "confidence": "2026-10-24 人工核對 tw.mova.tech 同型號與所選版本公開價 TWD 12911，可下單；未扣會員、信用卡或點數。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL5WA900K13VT/000001_1779264098.jpg",
     "buyUrl": "https://tw.mova.tech/collections/mova-robot-vacuums/products/mova-s70-roller",
@@ -2346,16 +2347,16 @@
     "releaseDate": "2026-03-10",
     "historicalLow": {
       "status": "found",
-      "amount": 15990,
+      "amount": 12911,
       "currency": "TWD",
-      "converted": 15990,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1273664303&cgp=15990",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【MOVA TW】S70 Roller 極薄滾筒掃拖機器人(滾筒超薄機身/28000PA/AI外擴貼邊/活水洗地/熱洗熱烘)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【MOVA TW】S70 Roller 極薄滾筒掃拖機器人(滾筒超薄機身/28000PA/AI外擴貼邊/活水洗地/熱洗熱烘)」最低價為 NT$15,990，最低點日期 2026-07-08。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 12911,
+      "sourceUrl": "https://tw.mova.tech/collections/mova-robot-vacuums/products/mova-s70-roller",
+      "sourceTitle": "MOVA S70 Roller 同版本公開價",
+      "evidenceSnippet": "2026-10-24同型號同版本可信新品公開價NT$12911，低於既有史低NT$15990；IAB官方主商品S70 Roller（不是Ultra），白色主機38990劃線/12911，加入購物車enabled，無預購/碼折。推薦旁列S70Ultra24911未採。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-10-24",
+      "note": "採當日可購同型號/同版本新品公開價，不含會員券、信用卡回饋、點數、福利、展示、拆封、二手或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2798,7 +2799,7 @@
       "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-10-23 匯率換算",
       "note": "2026-10-19 Costco 原商品頁已失效，未確認同型號新品現售；保留原幣參考價，只更新匯率換算，不以 QX Revo Arc／Plus／Max 替代。"
     },
-    "image": "https://bfasset.costco-static.com/U447IH35/as/tkj772p4357mmh3bwz8kcq/1791272-847__1?auto=webp&format=jpg",
+    "image": "https://cdn.cs.1worldsync.com/syndication/mediaserverredirect/aaaa71b7b115f7d0cbeb119d8fc3ad7b/width%281200%29.jpg",
     "buyUrl": "https://www.costco.com/p/-/roborock-qx-revo-robot-vacuum-and-mop-with-multifunctional-dock/4000233271",
     "buyLabel": "Costco US（目前無法購買）（現售待確認）",
     "specs": [
@@ -4210,11 +4211,11 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 32980,
-      "converted": 32980,
+      "amount": 30911,
+      "converted": 30911,
       "basis": "retailer_current",
-      "confidence": "2026-09-05 台灣官方商城瀏覽器核對黑色款顯示 NT$32,980，主商品 JSON-LD Offer 為 TWD 32980、InStock，實際頁面有啟用的加入購物車與立即購買控制。",
-      "note": "採主機與水箱式基站的公開現價；未扣折扣碼、會員回饋或贈品價值。自動上下水模組另購，其九月中下旬預購訊息不套用主商品。"
+      "confidence": "2026-10-24 人工核對 www.dreametech.com.tw 同型號與所選版本公開價 TWD 30911，可下單；未扣會員、信用卡或點數。",
+      "note": "2026-10-24主商品黑色30911元，可直接購買；頁首限時優惠至10/25，未扣優惠碼、會員或贈品價值。上下水模組另購，其10月底預購不套用主機。"
     },
     "installation": {
       "status": "not_stated",
@@ -4341,10 +4342,10 @@
     "name": "旗艦滾筒活水掃拖機器人（台灣R5765U）",
     "price": {
       "currency": "TWD",
-      "amount": 32980,
-      "converted": 32980,
+      "amount": 30980,
+      "converted": 30980,
       "basis": "retailer_current",
-      "confidence": "2026-09-09 MOVA台灣官方商城公開32,980元且可加購物車；同價PChome有量。PChome31,331優惠原頁期限為9/7–9/8，不採為今日價。"
+      "confidence": "2026-10-24 人工核對 tw.mova.tech 同型號與所選版本公開價 TWD 30980，可下單；未扣會員、信用卡或點數。"
     },
     "installation": {
       "status": "excluded",
