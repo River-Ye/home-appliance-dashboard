@@ -210,9 +210,9 @@
       "currency": "TWD",
       "amount": 33999,
       "converted": 33999,
-      "confidence": "momo 2026-09-09 人工核對 exact-model 公開現價與可購狀態；不含會員券、點數、信用卡回饋或加購",
+      "confidence": "2026-10-25 人工核對同型號同版本公開參考價；來源與條件見價格註記及維護報告。",
       "basis": "retailer_current",
-      "note": "2026-10-24原頁標示10/25 00:00開賣，當前僅加入追蹤；31111元為未開賣預告，33999元保留上次參考，非本次可購現價。"
+      "note": "2026-10-25原購買頁目前無展售；31111為快取開賣預告，未能確認可購。33999保留上次參考，非今日可購現價。"
     },
     "installation": {
       "status": "excluded",
@@ -220,7 +220,7 @@
     },
     "image": "https://taiwan.roborock.com/cdn/shop/files/Saros20_Sonic_album_pic1_asia_web.jpg",
     "buyUrl": "https://www.momoshop.com.tw/product/15103194",
-    "buyLabel": "momo（10/25開賣／保留舊參考價）",
+    "buyLabel": "原通路目前無展售（保留參考）",
     "specs": [
       "36000Pa HyperForce 吸力",
       "VibraRise 5.0 聲波拖地：每分鐘 4000 次、14N 下壓力",
@@ -3404,9 +3404,9 @@
     "name": "搖滾天王超薄活水滾筒掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 25980,
-      "converted": 25980,
-      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 23911,
+      "converted": 23911,
+      "confidence": "2026-10-25 人工核對同型號同版本公開參考價；來源與條件見價格註記及維護報告。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900K7R6R/000001_1785985365.jpg",
@@ -3450,16 +3450,16 @@
     "releaseDate": "2026-07-22",
     "historicalLow": {
       "status": "found",
-      "amount": 25980,
+      "amount": 23911,
       "currency": "TWD",
-      "converted": 25980,
-      "sourceUrl": "https://3c.ltn.com.tw/news/66905",
-      "sourceTitle": "新一代超薄滾筒活水掃拖機器人登場 深入床底、沙發下不留死角",
-      "evidenceSnippet": "自由時報 3C 科技於 2026-07-21 報導 exact model 推出，並明示限時優惠價 NT$25,980。",
-      "sourceKind": "retailer_promo",
+      "converted": 23911,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900K7R6R",
+      "sourceTitle": "PChome 24h 購物：Roborock 石頭科技掃地機器人Qrevo Edge 2 Flow",
+      "evidenceSnippet": "PChome 24h 購物於 2026-10-25 顯示同型號可信新品公開價 NT$23,911，低於既有史低 NT$25,980。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-08-16",
-      "note": "採用 2026-07-21 過往 exact-model 公開限時新品價，不以本次現價推定史低；未包含會員券、信用卡、點數或非新品條件。"
+      "checkedAt": "2026-10-25",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",

@@ -753,11 +753,11 @@
       "currency": "TWD",
       "amount": 7990,
       "converted": 7990,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價",
-      "note": "2026-10-20 原Yahoo頁明示預購；保留最後參考價，不將預購價當已確認現貨，實際交期向通路確認。"
+      "confidence": "2026-10-25 人工核對同型號同版本公開預購參考價；來源與條件見價格註記及維護報告。",
+      "note": "2026-10-25原Yahoo頁公開7990；預購12/1出貨，含基本安裝及舊機回收。"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物（預購；保留參考價）",
+    "buyLabel": "Yahoo預購（12/1出貨）",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SAMPO-%E8%81%B2%E5%AF%B610%E5%85%AC%E6%96%A4%E7%AA%84%E8%BA%AB%E8%AE%8A%E9%A0%BB%E5%96%AE%E6%A7%BD%E7%9B%B4%E7%AB%8B%E5%BC%8F%E6%B4%97%E8%A1%A3%E6%A9%9F-%E9%A6%99%E6%AA%B3%E9%87%91-%E5%90%AB%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-%E8%88%8A%E6%A9%9F%E5%9B%9E%E6%94%B6-10764299.html",
     "specs": [
       "洗衣機：SAMPO 聲寶10公斤窄身變頻單槽直立式洗衣機WM-MD10 香檳金含基本安裝+舊機回收",
@@ -960,9 +960,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/ae6170dd95-Gd-10609233.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 6890,
-      "converted": 6890,
-      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 7290,
+      "converted": 7290,
+      "confidence": "2026-10-25 人工核對同型號同版本公開參考價；來源與條件見價格註記及維護報告。"
     },
     "channel": "tw",
     "buyLabel": "PChome",

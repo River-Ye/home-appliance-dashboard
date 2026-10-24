@@ -3082,7 +3082,7 @@
       "amount": 3290,
       "converted": 3290,
       "basis": "retailer_current",
-      "confidence": "2026-10-22 人工核對Sony Store台灣MSE-G500/B黑色單品限時優惠價3290、原價4990，加入購物車可用；未採鍵盤組合價、贈品或個人化優惠。"
+      "confidence": "2026-10-25 人工核對同型號同版本公開參考價；來源與條件見價格註記及維護報告。"
     },
     "installation": {
       "status": "not_stated",

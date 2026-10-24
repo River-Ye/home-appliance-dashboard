@@ -3198,11 +3198,12 @@
       "amount": 17999,
       "converted": 17999,
       "basis": "retailer_current",
-      "confidence": "2026-10-23直接讀Roborock台灣官方本型號名稱頁，公開17999且可預購；明示11月中旬依訂單出貨，不扣會員首單500/LINE碼/點數。全國電子2166364核對硬體型號WD6Y8A同名同價。"
+      "confidence": "2026-10-25 人工核對同型號同版本公開預購參考價；來源與條件見價格註記及維護報告。",
+      "note": "2026-10-25原官方店公開17999；預購，預計11月中旬依訂單陸續出貨。未扣登入首單券或LINE碼。"
     },
     "image": "https://taiwan.roborock.com/cdn/shop/files/F25_Ultra_Steam_Gen_2_1_1200x1200.png?v=1790784065",
     "buyUrl": "https://taiwan.roborock.com/products/roborock-f25-ultra-steam-gen2",
-    "buyLabel": "Roborock台灣官方（預購）",
+    "buyLabel": "官方預購（預計11月中旬出貨）",
     "installation": {
       "status": "not_stated",
       "note": "需自行依說明書組裝及放置充電自清潔底座，官方未列到府安裝；需預留污水箱拆裝、清水補充及熱風排散空間。"

@@ -1262,14 +1262,14 @@
     "name": "Purifier Cool De-NOx 甲醛 NOx 偵測涼風空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 20900,
-      "converted": 20900,
-      "confidence": "Yahoo購物中心 2026-09-14 exact-model 公開結構化價格",
-      "note": "2026-10-20 原Yahoo頁明示預購；保留最後參考價，不將預購價當已確認現貨，實際交期向通路確認。"
+      "amount": 20064,
+      "converted": 20064,
+      "confidence": "2026-10-25 人工核對同型號同版本公開預購參考價；來源與條件見價格註記及維護報告。",
+      "note": "2026-10-25原頁公開單件96折至10/27 07:59:59；標題為預購，實際交期待通路確認。未含個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3CA900HTKRG/000001_1767758629.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Dyson-%E6%88%B4%E6%A3%AE-Purifier-Cool-%E7%94%B2%E9%86%9BNOx-%E5%81%B5%E6%B8%AC%E6%B6%BC%E9%A2%A8%E7%A9%BA%E6%B0%A3%E6%B8%85%E6%B7%A8%E6%A9%9FTP12-%E4%BA%8C%E8%89%B2%E5%8F%AF%E9%81%B8-11903396.html",
-    "buyLabel": "Yahoo購物（預購；保留參考價）",
+    "buyLabel": "查看Yahoo預購價（10/27 07:59:59止）",
     "specs": [
       "涼風清淨",
       "甲醛/NOx 偵測",

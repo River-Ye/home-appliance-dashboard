@@ -19,7 +19,7 @@
       "currency": "TWD",
       "amount": 9900,
       "converted": 9900,
-      "confidence": "2026-10-22 人工核對原購買頁主商品公開價9900；API候選折扣9690未在原頁重現，不採折價券、點數或信用卡回饋。"
+      "confidence": "2026-10-25 人工核對同型號同版本公開參考價；來源與條件見價格註記及維護報告。"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAL2NA900HYYVV/000001_1732173829.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAL2N-A900HYYVV",

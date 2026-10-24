@@ -1411,9 +1411,10 @@
     "name": "Saeco 半自動義式咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 4990,
-      "converted": 4990,
-      "confidence": "Yahoo購物中心 2026-10-22 exact-model 公開結構化價格"
+      "amount": 4591,
+      "converted": 4591,
+      "confidence": "2026-10-25 人工核對同型號同版本公開參考價；來源與條件見價格註記及維護報告。",
+      "note": "2026-10-25 Yahoo公開滿888享92折，單件即達門檻，4591元至2026-10-27 07:59:59（台灣時間）；不需領券或加購，未扣卡片及點數回饋。"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/69fb8a2ae4-Gd-11322933.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Philips-%E9%A3%9B%E5%88%A9%E6%B5%A6-Saeco%E5%8D%8A%E8%87%AA%E5%8B%95%E7%BE%A9%E5%BC%8F%E5%92%96%E5%95%A1%E6%A9%9F-EMS5110-02-11322933.html",
@@ -1520,8 +1521,8 @@
       "currency": "TWD",
       "amount": 5990,
       "converted": 5990,
-      "confidence": "EM450.M 官方商品頁 2026-09-05 人工核對 exact-model 公開現價及可購狀態；非會員券、紅利或加購價",
-      "note": "2026-10-24官網標價6490元，另列10/16–10/31現折500，且運送說明仍寫9月預購出貨；5990元保留參考，實際交期與結帳優惠請先確認。"
+      "confidence": "2026-10-25 人工核對同型號同版本公開參考價；來源與條件見價格註記及維護報告。",
+      "note": "2026-10-25官方主價6490元，運送文字仍為9月預購；5990元保留上次參考，折500及實際交期尚未確認，非今日已驗證可購現價。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAT03A900J5HMT/000007_1755771859.jpg",
     "buyUrl": "https://www.stilusa.com.tw/zh-TW/products/em450m",
@@ -1735,9 +1736,9 @@
       "currency": "TWD",
       "amount": 12800,
       "converted": 12800,
-      "confidence": "2026-08-31 人工核對 momo 品號14547707，BES450XL 金屬銀總代理公司貨公開促銷價 NT$12,800；頁面載入完成後可直接購買或放入購物車。未扣點數、信用卡或個人化優惠。",
+      "confidence": "2026-10-25 人工核對同型號同版本公開參考價；來源與條件見價格註記及維護報告。",
       "basis": "retailer_current",
-      "note": "2026-10-24原頁標示11/1 00:00開賣，當前只有開賣通知我；8500元為未開賣預告，12800元保留先前參考，不當本次可購現價。"
+      "note": "2026-10-25原頁仍標11/1 00:00開賣；保留舊參考價，未採尚未開賣預告，非今日可購現價。"
     },
     "image": "https://storage.googleapis.com/uni-splendor.appspot.com/images/p/4ef71aab-221e-42be-80b7-67676515bb0d.png",
     "buyUrl": "https://www.momoshop.com.tw/product/14547707",
@@ -2274,9 +2275,9 @@
       "currency": "TWD",
       "amount": 32000,
       "converted": 32000,
-      "confidence": "2026-08-31 人工核對 momo 品號14956869，BES878XL 雪花白總代理公司貨公開促銷價 NT$32,000；頁面載入完成後可直接購買或放入購物車。未扣點數、信用卡或個人化優惠。",
+      "confidence": "2026-10-25 人工核對同型號同版本公開參考價；來源與條件見價格註記及維護報告。",
       "basis": "retailer_current",
-      "note": "2026-10-24原頁標示11/1 00:00開賣，當前只有開賣通知我；28500元為未開賣預告，32000元保留先前參考，不當本次可購現價。"
+      "note": "2026-10-25原頁仍標11/1 00:00開賣；保留舊參考價，未採尚未開賣預告，非今日可購現價。"
     },
     "image": "https://storage.googleapis.com/uni-splendor.appspot.com/images/p/6cf71d58-a653-465a-a6c3-7089f7f37314.png",
     "buyUrl": "https://www.momoshop.com.tw/product/14956869",

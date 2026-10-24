@@ -4132,10 +4132,10 @@
     "name": "75 吋 X11L SQD-Mini LED 4K Google TV 旗艦顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 156741,
-      "converted": 156741,
+      "amount": 164990,
+      "converted": 164990,
       "basis": "retailer_current",
-      "confidence": "PChome 2026-10-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "2026-10-25 人工核對同型號同版本公開參考價；來源與條件見價格註記及維護報告。"
     },
     "installation": {
       "status": "included_basic",

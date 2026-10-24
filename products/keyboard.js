@@ -42,7 +42,7 @@
       "amount": 6490,
       "converted": 6490,
       "basis": "retailer_current",
-      "confidence": "2026-10-22 人工核對Sony Store台灣KBD-G900/B黑色完整成品單品限時優惠價6490，加入購物車可用；未採滑鼠組合價或個人化優惠。"
+      "confidence": "2026-10-25 人工核對同型號同版本公開參考價；來源與條件見價格註記及維護報告。"
     },
     "installation": {
       "status": "not_stated",

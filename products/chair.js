@@ -2229,9 +2229,9 @@
     "name": "Orca 人體工學椅",
     "price": {
       "currency": "TWD",
-      "amount": 9936,
-      "converted": 9936,
-      "confidence": "2026-10-24 人工核對 www.backbone.tw 同型號與所選版本公開價 TWD 9936，可下單；未扣會員、信用卡或點數。"
+      "amount": 10800,
+      "converted": 10800,
+      "confidence": "2026-10-25 人工核對同型號同版本公開參考價；來源與條件見價格註記及維護報告。"
     },
     "image": "https://cdn-general.cybassets.com/media/W1siZiIsIjExNTM0L3Byb2R1Y3RzLzY5MDYwMDU4LzE3ODMzMjQyNDJfMmUwZTM1MmFkMzk5YWMzYzE2YTMucG5nIl0sWyJwIiwidGh1bWIiLCI2MDB4NjAwIl1d.png?sha=b52c636bed7f1599",
     "buyUrl": "https://www.backbone.tw/products/orca",

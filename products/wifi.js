@@ -308,10 +308,11 @@
     "name": "BE3600 雙頻 Wi-Fi 7 AiMesh 可擴充路由器",
     "price": {
       "currency": "TWD",
-      "amount": 3699,
-      "converted": 3699,
-      "confidence": "Yahoo購物中心 2026-10-24 exact-model 公開結構化價格",
-      "basis": "retailer_current"
+      "amount": 3515,
+      "converted": 3515,
+      "confidence": "2026-10-25 人工核對同型號同版本公開參考價；來源與條件見價格註記及維護報告。",
+      "basis": "retailer_current",
+      "note": "2026-10-25原頁公開活動價，截止2026-10-25T08:00:59+08:00；未扣個人化券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLPA900JKWXK/000001_1783555436.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/ASUS-%E8%8F%AF%E7%A2%A9-RT-BE58U-V2-BE3600-%E9%9B%99%E9%A0%BB-Wi-Fi-7-%E5%8F%AF%E6%93%B4%E5%85%85%E5%BC%8F%E8%B7%AF%E7%94%B1%E5%99%A8-12005854.html",
@@ -1759,10 +1760,11 @@
     "name": "BE6500 雙頻 Wi-Fi 7 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 4990,
-      "converted": 4990,
-      "confidence": "Yahoo購物中心 2026-10-24 exact-model 公開結構化價格",
-      "basis": "retailer_current"
+      "amount": 4741,
+      "converted": 4741,
+      "confidence": "2026-10-25 人工核對同型號同版本公開參考價；來源與條件見價格註記及維護報告。",
+      "basis": "retailer_current",
+      "note": "2026-10-25原頁公開活動價，截止2026-10-25T08:00:59+08:00；未扣個人化券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLPA900IV4B6/000001_1783556530.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/ASUS-%E8%8F%AF%E7%A2%A9-RT-BE82U-WiFi-7-%E9%9B%99%E9%A0%BB-BE6500-%E8%B7%AF%E7%94%B1%E5%99%A8-%E5%88%86%E4%BA%AB%E5%99%A8-11798654.html",
@@ -4714,10 +4716,11 @@
     "name": "BE19000 三頻 Wi-Fi 7 AI 電競路由器",
     "price": {
       "currency": "TWD",
-      "amount": 27990,
-      "converted": 27990,
-      "confidence": "Yahoo購物中心 2026-10-24 exact-model 公開結構化價格",
-      "basis": "retailer_current"
+      "amount": 26591,
+      "converted": 26591,
+      "confidence": "2026-10-25 人工核對同型號同版本公開參考價；來源與條件見價格註記及維護報告。",
+      "basis": "retailer_current",
+      "note": "2026-10-25原頁公開活動價，截止2026-10-25T08:00:59+08:00；未扣個人化券、點數或信用卡回饋。"
     },
     "image": "https://dlcdnwebimgs.asus.com/gain/FF5DB299-9708-4259-ABF9-167FDC7166BD",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E6%98%8C%E9%81%8B%E7%9B%A3%E8%A6%96%E5%99%A8-ASUS-%E8%8F%AF%E7%A2%A9-ROG-Rapture-GT-BE19000AI-WiFi-7-%E4%B8%89%E9%A0%BB%E9%9B%BB%E7%AB%B6-12032656.html",
@@ -5126,7 +5129,7 @@
       "amount": 8484,
       "converted": 8484,
       "basis": "retailer_current",
-      "confidence": "2026-10-24 人工核對 tw.store.ui.com 同型號與所選版本公開價 TWD 8484，可下單；未扣會員、信用卡或點數。",
+      "confidence": "2026-10-25 人工核對同型號同版本公開參考價；來源與條件見價格註記及維護報告。",
       "note": "2026-10-24採台灣官店前台含營業稅與附加費總額；UI Care延長保固、PoE電源及其他配件另購。"
     },
     "image": "https://cdn.ecomm.ui.com/products/a433b9e5-4dd1-4784-adf8-9d12bcba4c87/45a6a9f0-1596-46f3-bebd-9f98c0dfde21.png",
@@ -5351,7 +5354,7 @@
       "amount": 12782,
       "converted": 12782,
       "basis": "retailer_current",
-      "confidence": "2026-10-24 人工核對 tw.store.ui.com 同型號與所選版本公開價 TWD 12782，可下單；未扣會員、信用卡或點數。",
+      "confidence": "2026-10-25 人工核對同型號同版本公開參考價；來源與條件見價格註記及維護報告。",
       "note": "2026-10-24採台灣官店前台含營業稅與附加費總額；UI Care延長保固、PoE電源及其他配件另購。"
     },
     "image": "https://cdn.ecomm.ui.com/products/1604d78c-6e51-4fe8-a8e5-0110cc332ba0/9ab19ab5-f76f-4d66-b91f-b31062fae149.png",
@@ -5463,11 +5466,11 @@
     "name": "AQUILA PRO AI BE9500 三頻 Wi-Fi 7 2.5G Mesh 路由器（單台）",
     "price": {
       "currency": "TWD",
-      "amount": 5499,
-      "converted": 5499,
+      "amount": 5225,
+      "converted": 5225,
       "basis": "retailer_current",
-      "confidence": "Yahoo購物中心 2026-10-24 exact-model 公開結構化價格",
-      "note": "2026-10-24 08:00:59台灣時間公開95折活動796032已結束；原頁currentPrice與公開標價恢復5499元，promotionPrice為空，不扣會員券、點數或刷卡回饋。"
+      "confidence": "2026-10-25 人工核對同型號同版本公開參考價；來源與條件見價格註記及維護報告。",
+      "note": "2026-10-25原頁公開活動價，截止2026-10-25T08:00:59+08:00；未扣個人化券、點數或信用卡回饋。"
     },
     "installation": {
       "status": "excluded",

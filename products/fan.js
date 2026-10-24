@@ -1957,9 +1957,9 @@
     "name": "14 吋 7 葉片 DC 遙控立扇",
     "price": {
       "currency": "TWD",
-      "amount": 2421,
-      "converted": 2421,
-      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 2690,
+      "converted": 2690,
+      "confidence": "2026-10-25 人工核對同型號同版本公開參考價；來源與條件見價格註記及維護報告。",
       "basis": "retailer_current"
     },
     "installation": {
