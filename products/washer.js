@@ -1689,9 +1689,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/96ae4ce455-Gd-7966505.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 17420,
-      "converted": 17420,
-      "confidence": "momo購物 2026-07-15 晚間頁面查核價"
+      "amount": 17250,
+      "converted": 17250,
+      "confidence": "2026-10-24人工核對www.momoshop.com.tw同型號同版本公開TWD 17250；未扣個人化券、信用卡或點數。"
     },
     "channel": "tw",
     "buyLabel": "momo購物",

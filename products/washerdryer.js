@@ -15,9 +15,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/3a594d8137-Gd-10216764.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 18857,
-      "converted": 18857,
-      "confidence": "LG 官方商城 2026-07-28 指定商品公開結帳 92 折價（企業客戶／員購除外）"
+      "amount": 20900,
+      "converted": 20900,
+      "confidence": "2026-10-24人工核對www.lg.com同型號同版本公開TWD 20900；未扣個人化券、信用卡或點數。"
     },
     "channel": "tw",
     "buyLabel": "LG 官方商城",
@@ -848,9 +848,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/826F52E782-SP-22137065.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 34022,
-      "converted": 34022,
-      "confidence": "2026-09-07 人工覆核：Chrome人工核對exact型號促銷價與數量選擇、直接購買/加入購物車；排除另領商店券、點數、信用卡回饋，不將標準配送約期當預購。"
+      "amount": 32790,
+      "converted": 32790,
+      "confidence": "2026-10-24人工核對www.momoshop.com.tw同型號同版本公開TWD 32790；未扣個人化券、信用卡或點數。"
     },
     "channel": "tw",
     "buyLabel": "momo購物",
@@ -952,9 +952,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/953C366DCA-SP-17994282.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 45908,
-      "converted": 45908,
-      "confidence": "LG 官方商城 2026-07-28 指定商品公開結帳 92 折價（企業客戶／員購除外）"
+      "amount": 49900,
+      "converted": 49900,
+      "confidence": "2026-10-24人工核對www.lg.com同型號同版本公開TWD 49900；未扣個人化券、信用卡或點數。"
     },
     "channel": "tw",
     "buyLabel": "LG 官方商城",
@@ -2815,9 +2815,9 @@
     "image": "https://www.lg.com/content/dam/channel/wcms/tw/images/washer-dryers/washer-dryer-combos/wd-s22fhdb/gallery/new/WD-S22FHDB-450.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 89900,
-      "converted": 89900,
-      "confidence": "LG 台灣 2026-08-05 exact-model 官方頁結構化價格 TWD 89,900 與 InStock 狀態；PXbox exact-model 新品頁同價現貨"
+      "amount": 86900,
+      "converted": 86900,
+      "confidence": "2026-10-24人工核對www.lg.com同型號同版本公開TWD 86900；未扣個人化券、信用卡或點數。"
     },
     "channel": "tw",
     "buyLabel": "LG 台灣官方商城",

@@ -19,7 +19,7 @@
       queryUrl: `https://www.bing.com/search?q=${encodeURIComponent(`site:mobile01.com "${model}" 問題 OR 災情`)}`,
     },
   ];
-  const makeProduct = ({ price, priceNote, url, label, score, topPick = false, ...item }, index) => ({
+  const makeProduct = ({ price, priceNote, priceConfidence, url, label, score, topPick = false, ...item }, index) => ({
     ...item,
     rank: index + 1,
     budget: item.budget,
@@ -30,7 +30,7 @@
       amount: price,
       converted: price,
       basis: "retailer_current",
-      confidence: `${checkedAt} 以 Chrome 核對 exact SKU 台灣新品公開售價；不扣會員、信用卡、點數、滿額或贈品優惠。`,
+      confidence: priceConfidence || `${checkedAt} 以 Chrome 核對 exact SKU 台灣新品公開售價；不扣會員、信用卡、點數、滿額或贈品優惠。`,
       ...(priceNote ? { note: priceNote } : {}),
     },
     installation: {
@@ -721,7 +721,9 @@
       name: "90/10可水洗長效防蟎羽絨薄被單人（014301109）",
       type: "down",
       budget: "mid",
-      price: 3680,
+      price: 3380,
+      priceConfidence: "2026-10-24匿名瀏覽器核對exact SKU單件達3000元，公開自動折300後3380元；不需領券或加購。",
+      priceNote: "2026-10-23 00:00–2026-10-28 23:59（台灣時間）同商店同筆同配送，單件達3000元即自動折300；無須領券或加購，未扣信用卡及點數，頁面預計10/28出貨。",
       image: "https://pcm.trplus.com.tw/1000x1000/sys-master/productImages/h9a/hbb/12614174539806/000000000014301109-gallery-01-20251117160520149.jpg",
       url: "https://www.momoshop.com.tw/TP/TP0006553/goodsDetail/TP00065530004585",
       label: "momo HOLA 官方店",
@@ -755,7 +757,9 @@
       name: "90/10可水洗長效防蟎羽絨冬被加大（014381508）",
       type: "down",
       budget: "premium",
-      price: 10980,
+      price: 10680,
+      priceConfidence: "2026-10-24匿名瀏覽器核對exact SKU單件達3000元，公開自動折300後10680元；不需領券或加購。",
+      priceNote: "2026-10-23 00:00–2026-10-28 23:59（台灣時間）同商店同筆同配送，單件達3000元即自動折300；無須領券或加購，未扣信用卡及點數，頁面預計10/28出貨。",
       image: "https://pcm.trplus.com.tw/1000x1000/sys-master/productImages/h2b/hb0/12330816569374/000000000014381508-gallery-01-20241029155518623.jpg",
       url: "https://www.momoshop.com.tw/TP/TP0006553/goodsDetail/TP00065530008377",
       label: "momo HOLA 官方店",

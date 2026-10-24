@@ -314,9 +314,9 @@
     "name": "65 型 OLED evo C6 4K 智慧顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 78889,
-      "converted": 78889,
-      "confidence": "LG 官方商城 2026-07-28 指定商品公開結帳 92 折價（企業客戶／員購除外）"
+      "amount": 76900,
+      "converted": 76900,
+      "confidence": "2026-10-24人工核對www.lg.com同型號同版本公開TWD 76900；未扣個人化券、信用卡或點數。"
     },
     "image": "https://i6.momoshop.com.tw/1781278602/goodsimg/TP000/9148/0000/554/TP00091480000554_L.webp",
     "buyUrl": "https://www.lg.com/tw/tv-soundbars/oled-evo/oled65c6pta/",
@@ -3227,9 +3227,9 @@
     "name": "83 型 OLED evo W6 Wallpaper 4K 智慧顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 284050,
-      "converted": 284050,
-      "confidence": "2026-08-31 人工核對 全聯全電商 OLED83W6PTA 公開可購主價 TWD 284,050；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。",
+      "amount": 264900,
+      "converted": 264900,
+      "confidence": "2026-10-24人工核對pxbox.es.pxmart.com.tw同型號同版本公開TWD 264900；未扣個人化券、信用卡或點數。",
       "basis": "retailer_current"
     },
     "image": "https://b2eimg.pxec.com.tw/00475238/d2eafa4e251644ef8089a6092793b798.jpg",
@@ -3941,7 +3941,8 @@
       "amount": 39900,
       "converted": 39900,
       "basis": "retailer_current",
-      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-10-24原頁顯示10/23–10/27任選1件39900元，網路價44900元；採公開單件折扣價，未扣另領券/點數，活動後以原頁為準。"
     },
     "installation": {
       "status": "not_stated",
@@ -3949,7 +3950,7 @@
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD0OA900JIZTK/000001_1766126599.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAD0O-A900JIZTK",
-    "buyLabel": "PChome 公開活動價（9/4–9/9）",
+    "buyLabel": "PChome 公開活動價（10/23–10/27）",
     "specs": [
       "65 吋 Mini LED 量子點 LCD／4K UHD 3840 x 2160",
       "更新率：最高 144Hz；HDMI 1／2支援4K 120／144Hz，HDMI 3／4最高4K 60Hz",

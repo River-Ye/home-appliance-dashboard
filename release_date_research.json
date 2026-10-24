@@ -1,20 +1,20 @@
 {
   "summary": {
     "checkedAt": "2026-10-24T00:00:00+08:00",
-    "total": 1218,
+    "total": 1219,
     "researchedThisRun": 1,
     "found": 351,
-    "missing": 867,
+    "missing": 868,
     "byConfidence": {
       "official": 188,
-      "not_found": 864,
+      "not_found": 865,
       "retailer_explicit": 23,
       "credible_article": 52,
       "high": 71,
       "medium": 17,
       "unknown": 3
     },
-    "scopeNote": "2026-10-24全量價格/來源維護；上市日期僅補查新增SMI6ECS00X，既有1217筆證據與真實日期保留。"
+    "scopeNote": "2026-10-24第二次全量價格/來源維護；上市日期僅補查新增Keychron KBKCV6UD1，既有1218筆上市證據與真實日期保留。"
   },
   "results": [
     {
@@ -37294,6 +37294,45 @@
       ],
       "auditQueries": [
         "\"SMI6ECS00X\" 上市 發售"
+      ]
+    },
+    {
+      "id": "keyboard-keychron-v6-ultra-red",
+      "category": "keyboard",
+      "brand": "Keychron",
+      "model": "KBKCV6UD1",
+      "name": "V6 Ultra 8K 全尺寸三模機械鍵盤（黑色注音 Silk POM紅軸）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "https://www.keychron.com.tw/products/keychron-v6-ultra-8k-wireless-custom-mechanical-keyboard?variant=47941623480579",
+      "sourceTitle": "Keychron Taiwan V6 Ultra 8K 黑色注音紅軸官方原頁",
+      "evidenceSnippet": "官方選定SKU與版本可確認，但未列台灣黑色注音紅軸上市/發售日期。",
+      "confidence": "not_found",
+      "reason": "上市查詢主要回V6UltraHybrid/HE募資或12月預購，與本ZMK機械款不同；官方原頁商品評論日期、圖片/手冊更新日期均不是上市日，未據此猜日期。",
+      "query": "\"KBKCV6UD1\" 上市 發售",
+      "auditQueries": [
+        "\"KBKCV6UD1\" 上市 發售",
+        "\"Keychron V6 Ultra\" 上市 發售",
+        "\"Keychron V6 Ultra\" launch release date -Hybrid -HE"
+      ],
+      "checkedAt": "2026-10-24",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.keychron.com.tw/products/keychron-v6-ultra-8k-wireless-custom-mechanical-keyboard?variant=47941623480579",
+          "title": "Keychron Taiwan V6 Ultra 8K",
+          "outcome": "SKU/版本/現售可確認但無明確上市日。"
+        },
+        {
+          "url": "https://www.keychron.com/products/keychron-v6-ultra-8k-wireless-custom-mechanical-keyboard",
+          "title": "Keychron global V6 Ultra 8K",
+          "outcome": "原型號規格存在，未取得本台灣注音紅軸發售日期。"
+        },
+        {
+          "url": "https://www.keychron.com/products/keychron-v6-ultra-hybrid-8k-wireless-custom-magnetic-mechanical-keyboard",
+          "title": "Keychron V6 Ultra Hybrid 8K",
+          "outcome": "另一磁機混合預購SKU，12月預計出貨；排除其募資/預購日期。"
+        }
       ]
     }
   ]

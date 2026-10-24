@@ -1072,11 +1072,11 @@
       "amount": 25900,
       "converted": 25900,
       "confidence": "Yahoo購物中心 2026-09-14 exact-model 公開結構化價格",
-      "note": "2026-10-20 原Yahoo頁明示預購；保留最後參考價，不將預購價當已確認現貨，實際交期向通路確認。"
+      "note": "2026-10-24原Yahoo賣編12000848已標停售；25900元保留最後參考價，非本次確認可購現價。此通路狀態無法證明原廠整機停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3CA900I7ORK/000001_1782810487.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Dyson-Purifier-Hot-Cool-De-NOx-%E7%94%B2%E9%86%9BNOx-%E5%81%B5%E6%B8%AC%E6%B6%BC%E6%9A%96%E7%A9%BA%E6%B0%A3%E6%B8%85%E6%B7%A8%E6%A9%9F-HP1-12000848.html",
-    "buyLabel": "Yahoo購物（預購；保留參考價）",
+    "buyLabel": "Yahoo購物（此頁停售／現售待確認）",
     "specs": [
       "涼暖二合一",
       "甲醛/NOx 偵測",

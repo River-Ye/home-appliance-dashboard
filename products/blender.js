@@ -398,8 +398,8 @@
     "price": {
       "currency": "USD",
       "amount": 99.98,
-      "converted": 3259,
-      "confidence": "2026-08-31 人工核對 SharkNinja 官方 BN701 公開可購主價 USD 99.98；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-10-23 匯率換算",
+      "converted": 3258,
+      "confidence": "2026-08-31 人工核對 SharkNinja 官方 BN701 公開可購主價 USD 99.98；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-10-24 匯率換算",
       "basis": "retailer_current"
     },
     "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/d1c25153baa2aa99eae7831be826d2a51d87c485/Ninja-BN701-Professional-Plus-Blender-with-Auto-iQ.jpg",
@@ -1164,9 +1164,10 @@
     "name": "Total Blender 數位三匹馬力生機調理機",
     "price": {
       "currency": "TWD",
-      "amount": 21800,
-      "converted": 21800,
-      "confidence": "momo 2026-07-31 exact-model 台灣公司貨公開價"
+      "amount": 17900,
+      "converted": 17900,
+      "confidence": "2026-10-24人工核對www.momoshop.com.tw同型號同版本公開TWD 17900；未扣個人化券、信用卡或點數。",
+      "note": "頁面預計2026-10-27出貨；現價隨庫存變動，未實際下單。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAYBBA900K3CZM/000001_1780982111.jpg",
     "buyUrl": "https://www.momoshop.com.tw/TP/TP0002925/goodsDetail/TP00029250000703",
@@ -1199,16 +1200,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 21800,
+      "amount": 17900,
       "currency": "TWD",
-      "converted": 21800,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282602325&cgp=21800",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【Blendtec】數位三匹馬力生機調理機 Total Blender-台灣公司貨(送TONTON 吸管隨行杯)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【Blendtec】數位三匹馬力生機調理機 Total Blender-台灣公司貨(送TONTON 吸管隨行杯)」最低價為 NT$21,800，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 17900,
+      "sourceUrl": "https://www.momoshop.com.tw/TP/TP0002925/goodsDetail/TP00029250000703",
+      "sourceTitle": "Blendtec Total Blender 同版本公開價",
+      "evidenceSnippet": "2026-10-24原頁同型號同版本可信新品公開價NT$17900低於原史低NT$21800；匿名瀏覽器同頁促銷17,900、Total Blender台灣公司貨、2年保固、庫存低於3、數量1–3及啟用直接購買/加車；未扣另列跨店折最高110或券。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-10-24",
+      "note": "同型號同版本新品公開價；不含會員個人化、信用卡、點數、福利、展示、拆封、二手或整新品。頁面預計2026-10-27出貨；現價隨庫存變動，未實際下單。"
     },
     "issueResearch": {
       "status": "common_issue",

@@ -10749,6 +10749,27 @@
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
       "weightCheckedAt": "2026-10-24"
+    },
+    {
+      "id": "keyboard-keychron-v6-ultra-red",
+      "category": "keyboard",
+      "brand": "Keychron",
+      "model": "KBKCV6UD1",
+      "name": "V6 Ultra 8K 全尺寸三模機械鍵盤（黑色注音 Silk POM紅軸）",
+      "dimension": "尺寸：含鍵帽長 447.9 x 寬 149 x 高 41.6 mm（後端）；前高 33.8 mm；不含鍵帽長 447.9 x 寬 149 x 高 31.2 mm（後端）；前高 24.7 mm",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0059/0630/1017/files/Keychron_V6_Ultra_8K_User_Manual_02.pdf?v=1791972259",
+      "sourceTitle": "Keychron V6 Ultra 8K User Manual 官方PDF p11",
+      "evidenceSnippet": "官方PDF p11明示Width149mm、Length447.9mm；Front24.7/33.8mm、Back31.2/41.6mm分別無/含鍵帽，Feet3mm。不採未註軸序的通路三數字，也不把低高度當含鍵帽。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-10-24",
+      "weight": "重量：完全組裝成品 1130 ± 10 g",
+      "weightSourceUrl": "https://www.keychron.com.tw/products/keychron-v6-ultra-8k-wireless-custom-mechanical-keyboard?variant=47941623480579",
+      "weightSourceTitle": "Keychron Taiwan V6 Ultra 8K選定紅軸官方規格",
+      "weightEvidenceSnippet": "台灣完整組裝商品規格明列1130g±10g；非裸套重量、包裝或毛重。",
+      "weightConfidence": "high",
+      "weightIsOfficialSource": true,
+      "weightCheckedAt": "2026-10-24"
     }
   ]
 }

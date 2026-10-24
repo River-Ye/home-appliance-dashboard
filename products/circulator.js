@@ -2024,9 +2024,10 @@
     "name": "DC 直立式 3D 空氣循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 2930,
-      "converted": 2930,
-      "confidence": "myfone 購物 2026-07-31 exact-model 公開限時價；24hr 到貨"
+      "amount": 3290,
+      "converted": 3290,
+      "confidence": "2026-10-24 myfone原頁公開未折標價3290元，可下單；另列限時結帳9折，實際結算待確認。",
+      "note": "2026-10-24原頁標價3290元，另列限時結帳9折（試算2961元；適用條件及實際結算待確認）；3290不是最低到手價，不扣購物金或券。"
     },
     "image": "https://img.shoplineapp.com/media/image_clips/69cce470ffef1bb84c79510a/original.jpg?1775035504=&owner_id=6976e3a5a39620001e911a08",
     "buyUrl": "https://www.myfone.com.tw/abuy/prod/P0000203764031",

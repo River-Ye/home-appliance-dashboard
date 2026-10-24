@@ -1,5 +1,5 @@
 const EXPECTED_CATEGORY_COUNT = 37;
-const EXPECTED_PRODUCT_COUNT = 1218;
+const EXPECTED_PRODUCT_COUNT = 1219;
 const MIN_PRODUCTS_PER_CATEGORY = 20;
 const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["tv", 42],
@@ -37,7 +37,7 @@ const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["monitor-light", 20],
   ["monitorarm", 25],
   ["mouse", 34],
-  ["keyboard", 33],
+  ["keyboard", 34],
   ["mousepad", 33],
 ]);
 const DATE_PATTERN = /^(找不到|\d{4}(?:[-/.]\d{1,2}(?:[-/.]\d{1,2})?)?)$/;
@@ -62,7 +62,7 @@ const DIMENSION_CATEGORY_COUNTS = new Map([
   ["network-switch", 20],
   ["monitor-light", 20],
   ["mouse", 34],
-  ["keyboard", 33],
+  ["keyboard", 34],
   ["mousepad", 33],
 ]);
 const DIMENSION_CATEGORIES = new Set(DIMENSION_CATEGORY_COUNTS.keys());
@@ -84,7 +84,7 @@ const WEIGHT_CATEGORY_COUNTS = new Map([
   ["waterheater", 47],
   ["monitor-light", 20],
   ["mouse", 34],
-  ["keyboard", 33],
+  ["keyboard", 34],
   ["mousepad", 33],
   ["bedsheet", 30],
   ["comforter", 30],
@@ -103,7 +103,7 @@ const PERIPHERAL_TYPES = {
 };
 const PERIPHERAL_BUDGET_COUNTS = {
   mouse: new Map([["value", 6], ["mid", 13], ["premium", 15]]),
-  keyboard: new Map([["value", 6], ["mid", 12], ["premium", 15]]),
+  keyboard: new Map([["value", 6], ["mid", 13], ["premium", 15]]),
   mousepad: new Map([["value", 6], ["mid", 12], ["premium", 15]]),
 };
 const PERIPHERAL_SPEC_PREFIXES = {

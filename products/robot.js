@@ -1358,13 +1358,14 @@
     "name": "滾筒洗地旗艦掃拖機器人",
     "price": {
       "currency": "EUR",
-      "amount": 1129,
-      "converted": 41273,
-      "confidence": "Narwal德國官方商城 2026-09-08 人工核對 exact-model 公開現價與可購狀態；不含會員券、點數、信用卡回饋或加購；海外價格未含國際運費、進口稅，另注意電壓／插頭及台灣保固風險；ExchangeRate-API 2026-10-23 匯率換算"
+      "amount": 1099,
+      "converted": 40114,
+      "confidence": "2026-10-24人工核對de.narwal.com同型號同版本公開EUR 1099；未扣個人化券、信用卡或點數。；ExchangeRate-API 2026-10-24 匯率換算",
+      "note": "2026-10-24德國官方白色標準站單機套裝公開EUR1099；未扣需輸入優惠碼的Halloween折扣。未含國際運費、進口稅，台灣電壓/插頭及保固/跨國送修風險另核。"
     },
     "image": "https://de.narwal.com/cdn/shop/files/narwal-flow-2-saugroboter-mit-selbstreinigung-9224922_1200x1200.png?v=1781597108",
     "buyUrl": "https://de.narwal.com/products/narwal-flow-2-saugroboter-mit-selbstreinigung?variant=52366680523028",
-    "buyLabel": "Narwal 德國官方 exact-model 標準套裝（目前售罄）",
+    "buyLabel": "Narwal 德國官方 exact-model 標準套裝",
     "specs": [
       "31000Pa",
       "60 度熱水洗",
@@ -1377,7 +1378,6 @@
       "避障、拖地或基站通常是品牌當代主力"
     ],
     "cons": [
-      "官方頁目前所有變體售罄，無法立即購買",
       "海外購買價格波動大",
       "需確認電壓、插頭、耗材與台灣保固"
     ],
@@ -1456,8 +1456,8 @@
     "price": {
       "currency": "USD",
       "amount": 551.69,
-      "converted": 17981,
-      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-10-23 匯率換算"
+      "converted": 17978,
+      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-10-24 匯率換算"
     },
     "image": "https://img.gkbcdn.com/p/2025-04-11/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438-0._w315_.jpg",
     "buyUrl": "https://www.geekbuying.com/item/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438.html",
@@ -2601,8 +2601,8 @@
     "price": {
       "currency": "USD",
       "amount": 999.99,
-      "converted": 32591,
-      "confidence": "SharkNinja US 2026-07-21 來源價；ExchangeRate-API 2026-10-23 匯率換算"
+      "converted": 32587,
+      "confidence": "SharkNinja US 2026-07-21 來源價；ExchangeRate-API 2026-10-24 匯率換算"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/RV2820ZE_01.jpg",
     "buyUrl": "https://www.sharkninja.com/shark-powerdetect-2-in-1-robot-vacuum-and-mop-with-nevertouch-pro-base/RV2820ZE.html",
@@ -2795,8 +2795,8 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 13036,
-      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-10-23 匯率換算",
+      "converted": 13035,
+      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-10-24 匯率換算",
       "note": "2026-10-19 Costco 原商品頁已失效，未確認同型號新品現售；保留原幣參考價，只更新匯率換算，不以 QX Revo Arc／Plus／Max 替代。"
     },
     "image": "https://cdn.cs.1worldsync.com/syndication/mediaserverredirect/aaaa71b7b115f7d0cbeb119d8fc3ad7b/width%281200%29.jpg",
@@ -4108,11 +4108,11 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 27980,
-      "converted": 27980,
+      "amount": 27911,
+      "converted": 27911,
       "basis": "retailer_current",
-      "confidence": "2026-09-02 Chrome 核對台灣官方 exact-model 頁顯示 NT$27,980；結構化資料為 InStock，Shopline 商品狀態為 active、非預購、sold_out=false、unlimited_quantity=true，實際頁面有加入購物車與立即購買控制。未顯示的舊 3 月補貨欄位與目前狀態衝突，視為 stale metadata。",
-      "note": "黑／白同價；官方活動、贈品與庫存可能變動，結帳前仍須確認。"
+      "confidence": "2026-10-24人工核對www.dreametech.com.tw同型號同版本公開TWD 27911；未扣個人化券、信用卡或點數。",
+      "note": "2026-10-24台灣官方原頁黑色主機公開27911元，未扣券/點數；上下水模組另購，其10月底預購交期不套用主機。"
     },
     "installation": {
       "status": "not_stated",

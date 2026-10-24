@@ -1,9 +1,9 @@
 {
   "summary": {
     "checkedAt": "2026-10-24T00:00:00+08:00",
-    "total": 1218,
+    "total": 1219,
     "commonIssueProducts": 53,
-    "noCommonIssueProducts": 1165,
+    "noCommonIssueProducts": 1166,
     "pendingManualReview": 0,
     "commonIssues": 54,
     "searchUnavailable": 614,
@@ -28,7 +28,8 @@
       "2026-09-07 下午僅新增 MPG 271QR QD-OLED X50 與 WDEE123HTW 的逐型號跨站人工負評覆核；既有1147筆研究與53款集中問題保留原始逐筆日期。MSI人體感測／面板保護與Whirlpool噪音／到貨外觀個案均揭露，尚未達同一問題6人且跨2個原始網站門檻。",
       "2026-09-07 本輪僅新增水空間 WS-RCH601、WS-Min'O-R2、WS-UVN500 三款逐型號跨站人工覆核；WS-RCH601 的門市體驗文章非故障回報，其餘兩款未發現 exact-model 使用者候選，均未達同問題 6 人／2 站門檻。既有 1149 筆研究與逐人證據原樣保留，不宣稱同日重讀。",
       "2026-09-08 全量維護僅對新增 MPG 491CQPX QD-OLED 與 NA-LX128EL 完成逐型號跨站負評人工覆核；既有商品保留原始逐筆研究日期。MSI 的零星訊號／VRR／OSD問題及 Panasonic 的烘後桶體燙感分開處置，均未達同一問題6人且跨2個原始網站門檻。依eufy官方停產公告移除E20及其現行研究列，既有386筆逐人證據不變。",
-      "2026-10-24只對新增Bosch SMI6ECS00X完成逐型號跨站人工覆核；momo有一筆四星評分但無可辨識作者或評論文字，格蘭登亦無文字回報，未達6人/2站門檻。既有1217筆逐型號研究與386筆逐人證據保留原日期。"
+      "2026-10-24只對新增Bosch SMI6ECS00X完成逐型號跨站人工覆核；momo有一筆四星評分但無可辨識作者或評論文字，格蘭登亦無文字回報，未達6人/2站門檻。既有1217筆逐型號研究與386筆逐人證據保留原日期。",
+      "2026-10-24第二次維護僅新增KBKCV6UD1台灣注音紅軸V6Ultra跨站人工負評覆核；已讀官店及13個Reddit原頁共14候選。官店一名同紅軸無線失效、海外紅軸持續輸入/CapsLock凍結及按壓阻力個案已分別揭露；地區SKU/症狀不同或不明，不合併成6人/2原站。原1218筆研究及386名逐人證據保留真實日期。"
     ]
   },
   "results": [
@@ -216150,6 +216151,658 @@
         }
       ],
       "reports": []
+    },
+    {
+      "id": "keyboard-keychron-v6-ultra-red",
+      "category": "keyboard",
+      "brand": "Keychron",
+      "model": "KBKCV6UD1",
+      "name": "V6 Ultra 8K 全尺寸三模機械鍵盤（黑色注音 Silk POM紅軸）",
+      "identity": {
+        "canonicalModel": "KBKCV6UD1",
+        "lookupLabel": "Keychron V6 Ultra 8K 黑色注音Keychron Silk POM紅軸",
+        "aliases": [
+          "V6 Ultra 8K",
+          "Keychron V6 Ultra",
+          "KBKCV6UD1"
+        ],
+        "evidenceUrl": "https://www.keychron.com.tw/products/keychron-v6-ultra-8k-wireless-custom-mechanical-keyboard?variant=47941623480579"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "id": "keyboard-keychron-v6-ultra-red",
+        "category": "keyboard",
+        "brand": "Keychron",
+        "model": "KBKCV6UD1",
+        "name": "V6 Ultra 8K 全尺寸三模機械鍵盤（黑色注音 Silk POM紅軸）",
+        "status": "completed",
+        "reviewedAt": "2026-10-24",
+        "reviewBatch": "keyboard",
+        "decision": "no_common_issue",
+        "checkedPlatforms": [
+          "Reddit",
+          "Mobile01",
+          "Dcard",
+          "Keychron Taiwan"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "\"KBKCV6UD1\" \"Keychron Silk POM紅軸\" site:reddit.com problem",
+            "queryUrl": "https://www.google.com/search?q=%22KBKCV6UD1%22%20%22Keychron%20Silk%20POM%E7%B4%85%E8%BB%B8%22%20site%3Areddit.com%20problem"
+          },
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "\"KBKCV6UD1\" \"Keychron Silk POM紅軸\" site:mobile01.com 問題",
+            "queryUrl": "https://www.google.com/search?q=%22KBKCV6UD1%22%20%22Keychron%20Silk%20POM%E7%B4%85%E8%BB%B8%22%20site%3Amobile01.com%20%E5%95%8F%E9%A1%8C"
+          }
+        ],
+        "candidateDisposition": "KBKCV6UD1：逐頁人工處置14個原頁候選；台灣一名紅軸無線不能用，海外同SilkPOM紅軸另有持續輸入/CapsLock凍結及按壓阻力個案，地區SKU未核；不同症狀、版本與轉貼已分開，仍無同版本同問題六人跨兩原站。",
+        "representativeSources": [
+          {
+            "url": "https://www.keychron.com.tw/products/keychron-v6-ultra-8k-wireless-custom-mechanical-keyboard?variant=47941623480579",
+            "title": "Keychron V6 Ultra 8K 無線客製化機械鍵盤(注音版本)",
+            "platform": "Keychron Taiwan"
+          },
+          {
+            "url": "https://www.reddit.com/r/Keychron/comments/1stznia/keychron_v6_ultra_keys_having_significant_input/",
+            "title": "Keychron V6 Ultra keys having significant input lag, inputs sticking but keys unpressed, some keys not registering inputs, and random letters being inputted without typing. Using 2.4G dongle mode.",
+            "platform": "Reddit"
+          },
+          {
+            "url": "https://www.reddit.com/r/keyboards/comments/1rl3y57/need_advice_on_upgrading_my_keychron_creamy/",
+            "title": "Need advice on upgrading my Keychron / creamy fullsize suggestions",
+            "platform": "Reddit"
+          },
+          {
+            "url": "https://www.reddit.com/r/keyboards/comments/1vhc4um/too_many_accidental_keypresses_on_my_new/",
+            "title": "Too many accidental keypresses on my new mechanical keyboard",
+            "platform": "Reddit"
+          },
+          {
+            "url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1sidwfr/after_6_years_it_was_time_for_a_new_keyboard_so/",
+            "title": "After 6 years, it was time for a new keyboard. So far I am pretty happy with the Keychron V6 Ultra",
+            "platform": "Reddit"
+          },
+          {
+            "url": "https://www.reddit.com/r/Keychron/comments/1tn2odj/keychron_v6_max_v6_ultra_q6_ultra/",
+            "title": "Keychron V6 Max / V6 Ultra / Q6 Ultra",
+            "platform": "Reddit"
+          },
+          {
+            "url": "https://www.reddit.com/r/Keychron/comments/1tkpn5k/keychron_v1_ultra/",
+            "title": "Keychron V1 Ultra",
+            "platform": "Reddit"
+          },
+          {
+            "url": "https://www.reddit.com/r/Keychron/comments/1uecxle/keychron_v5_ultra_red_linear_switches_concern/",
+            "title": "Keychron V5 Ultra Red Linear Switches Concern",
+            "platform": "Reddit"
+          },
+          {
+            "url": "https://www.reddit.com/r/Keychron/comments/1ptmhyq/v6_max_reliability/",
+            "title": "V6 Max Reliability",
+            "platform": "Reddit"
+          },
+          {
+            "url": "https://www.reddit.com/r/Keychron/comments/1wbzefz/my_experience_with_keychron_v6_ultra_8k_red_silk/",
+            "title": "My experience with Keychron V6 Ultra 8K Red Silk POM",
+            "platform": "Reddit"
+          },
+          {
+            "url": "https://www.reddit.com/r/Keychron/comments/1vvqpm0/got_a_v6_ultra_8k_and_most_of_the_keys_feel_like/",
+            "title": "Got a V6 Ultra 8K, and most of the keys feel like they stick? Is this a common problem?",
+            "platform": "Reddit"
+          },
+          {
+            "url": "https://www.reddit.com/r/Keychron/comments/1uive40/i_was_about_to_buy_a_v6_ultra_but_now_im_afraid/",
+            "title": "I was about to buy a V6 Ultra but now I am afraid",
+            "platform": "Reddit"
+          },
+          {
+            "url": "https://www.reddit.com/r/Keychron/comments/1uk0emu/v6_ultra_8k_mild_rant/",
+            "title": "V6 Ultra 8k: mild rant",
+            "platform": "Reddit"
+          },
+          {
+            "url": "https://www.reddit.com/r/Keychron/comments/1tgzx0q/keychron_v6_ultra_8k_not_responding/",
+            "title": "Keychron V6 Ultra 8K not responding",
+            "platform": "Reddit"
+          }
+        ],
+        "reviewerNote": "KBKCV6UD1：人工核兩個canonical網站SKU+完整紅軸查詢，並補V6Ultra紅軸別名跨Reddit/Mobile01/Dcard；Mobile01/Dcard未見可核exact候選。已讀台灣原店5則含版本評論及13個Reddit原頁。台灣欣慧紅軸無線不能用保留；海外Frost90為同紅軸持續輸入/CapsLock凍結一人，Narazil為同紅軸按壓阻力另一症狀，HopingillWin、Toadstuulguy、Psychen_、SleepOnTheRoofDaily各未核選定台灣版本/軸體；不能合併症狀湊數。V5/Max/茶軸/香蕉/購前轉述及跨串同人分別排除。不宣稱無負評、未診斷硬體原因或保證修復，沒有六名同版本獨立作者同問題跨兩原站。",
+        "attestation": "manual_original_pages_reviewed",
+        "candidateReviews": [
+          {
+            "url": "https://www.keychron.com.tw/products/keychron-v6-ultra-8k-wireless-custom-mechanical-keyboard?variant=47941623480579",
+            "title": "Keychron V6 Ultra 8K 無線客製化機械鍵盤(注音版本)",
+            "platform": "Keychron Taiwan",
+            "exactModel": true,
+            "independentAuthors": 5,
+            "sourceExcerpt": "五則原始作者：子珞(10/3)、柏毅(9/6)紅軸正評；冠翔(8/20)靜音香蕉配對後正常；家豪(8/2)香蕉手感正評；欣慧(6/18)紅軸稱無線不能用、接線可用。",
+            "specificReason": "只有欣慧一位選定紅軸可辨識無線問題，無法與不同軸體配對流程當同症狀；星數不是故障數，尚未達同款同問題六名跨兩原站。此個案保留於產品cons。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-10-24",
+            "reviewBasis": "manual_CUA_original_page",
+            "locator": "商品頁評論區/Loox五則；欣慧2026/6/18、黑色/RGB背光(熱插拔)/Keychron Silk POM紅軸；CUA已讀逐則型號選項。"
+          },
+          {
+            "url": "https://www.reddit.com/r/Keychron/comments/1stznia/keychron_v6_ultra_keys_having_significant_input/",
+            "title": "Keychron V6 Ultra keys having significant input lag, inputs sticking but keys unpressed, some keys not registering inputs, and random letters being inputted without typing. Using 2.4G dongle mode.",
+            "platform": "Reddit",
+            "exactModel": false,
+            "independentAuthors": 1,
+            "sourceExcerpt": "Toadstuulguy買V6Ultra一天後2.4G漏字/卡鍵/延遲，先說調debounce或重設可能改善，後稱以線連接dongle後正常；efigl/natusw提供排錯，PickledMunkee僅泛批品牌。",
+            "specificReason": "一位家族候選未明紅軸、注音或KBKCV6UD1；多次回覆同人。wired dongle語意不明，不推定全有線鍵盤模式，不把客服建議或品牌泛批當第二持有人。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-10-24",
+            "reviewBasis": "manual_web_original_page",
+            "locator": "主文Toadstuulguy，及其That might have fixed it/That seemed to fix it/Plugged it in with the wired dongle三次更新。"
+          },
+          {
+            "url": "https://www.reddit.com/r/keyboards/comments/1rl3y57/need_advice_on_upgrading_my_keychron_creamy/",
+            "title": "Need advice on upgrading my Keychron / creamy fullsize suggestions",
+            "platform": "Reddit",
+            "exactModel": false,
+            "independentAuthors": 1,
+            "sourceExcerpt": "EverythingElseDB明示V6Ultra Red，認為聲音太安靜與鍵帽感覺太輕，肯定機身與軟體，尋求更換軸體/鍵帽建議。",
+            "specificReason": "一位紅軸家族使用者的手感/聲音偏好，未報硬體失效或無線問題；沒有台灣注音/SKU，不與無線故障併計。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-10-24",
+            "reviewBasis": "manual_web_original_page",
+            "locator": "EverythingElseDB主文，開頭V6Ultra with Red switches。"
+          },
+          {
+            "url": "https://www.reddit.com/r/keyboards/comments/1vhc4um/too_many_accidental_keypresses_on_my_new/",
+            "title": "Too many accidental keypresses on my new mechanical keyboard",
+            "platform": "Reddit",
+            "exactModel": false,
+            "independentAuthors": 1,
+            "sourceExcerpt": "uk_g明示Amazon UK購入brown switches的V6Ultra，抱怨誤碰相鄰按鍵，後補充是手指誤按，不是鍵盤自行重複輸入。",
+            "specificReason": "茶軸版本不同選定紅軸，且是適應鍵帽/觸發手感的誤觸問題，不移作KBKCV6UD1無線災情。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-10-24",
+            "reviewBasis": "manual_web_original_page",
+            "locator": "uk_g主文brown switches與EDIT解釋adjacent keys。"
+          },
+          {
+            "url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1sidwfr/after_6_years_it_was_time_for_a_new_keyboard_so/",
+            "title": "After 6 years, it was time for a new keyboard. So far I am pretty happy with the Keychron V6 Ultra",
+            "platform": "Reddit",
+            "exactModel": false,
+            "independentAuthors": 2,
+            "sourceExcerpt": "CyNovaSc確認SilkPOMRed，數次回覆無故障/快速空白鍵測試正常；Very_Sly_Fox後續稱買V6、抱怨CapsLock狀態不醒目和需換Win鍵帽。DV2FOX重貼V5Ultra詢問。",
+            "specificReason": "CyNovaSc多次更新仍一人，另一作者未明軸體/台灣SKU且非無線故障；DV2FOX為購前詢問和V5連結，不是多名V6紅軸持有人。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-10-24",
+            "reviewBasis": "manual_web_original_page",
+            "locator": "CyNovaSc主文與Silk POM Red/無快速空白鍵問題回覆；Very_Sly_Fox bought it回覆。"
+          },
+          {
+            "url": "https://www.reddit.com/r/Keychron/comments/1tn2odj/keychron_v6_max_v6_ultra_q6_ultra/",
+            "title": "Keychron V6 Max / V6 Ultra / Q6 Ultra",
+            "platform": "Reddit",
+            "exactModel": false,
+            "independentAuthors": 2,
+            "sourceExcerpt": "jaymie4g從購前比較到更新V6Ultra8K打字/無線無問題；Zafer66稱Ultra red手感好但未回答是V6還是Q6。jzapletal明示故障是K5Max/Q6Max；DV2FOX貼V5Ultra連結詢問。",
+            "specificReason": "無新增可核V6台灣紅軸故障；不同Q/K型號、購前疑慮、引文與跨串重複詢問不能加進V6Ultra作者數或判停產。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-10-24",
+            "reviewBasis": "manual_web_original_page",
+            "locator": "jaymie4g更新I did end up with V6Ultra8K；Zafer66與追問Q6 or V6；jzapletal I have Q0,K5Max,Q6Max。"
+          },
+          {
+            "url": "https://www.reddit.com/r/Keychron/comments/1tkpn5k/keychron_v1_ultra/",
+            "title": "Keychron V1 Ultra",
+            "platform": "Reddit",
+            "exactModel": false,
+            "independentAuthors": 0,
+            "sourceExcerpt": "SnooDingos5720是V1Ultra購前提問，PeterMortensenBlog彙整V6Ultra lag原帖與Q6/V3其他型號連結；jeff92k7持有Q6Ultra/SilkPOMBanana。",
+            "specificReason": "只有外帖彙整，V6原始Toadstuulguy已另讀且去重；V1/V3/Q6不是本款，不能把系列抱怨當多名V6紅軸災情。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-10-24",
+            "reviewBasis": "manual_web_original_page",
+            "locator": "PeterMortensenBlog #193連至1stznia；主文V1Ultra、jeff92k7 Q6Ultra。"
+          },
+          {
+            "url": "https://www.reddit.com/r/Keychron/comments/1uecxle/keychron_v5_ultra_red_linear_switches_concern/",
+            "title": "Keychron V5 Ultra Red Linear Switches Concern",
+            "platform": "Reddit",
+            "exactModel": false,
+            "independentAuthors": 1,
+            "sourceExcerpt": "Ok_Pollution8186的V5Ultra紅軸空白鍵快按漏輸入，後退回BestBuy；其他人提debounce/潤滑猜測，沒有新增V6持有人。",
+            "specificReason": "V5Ultra96%型號不同V6Ultra全尺寸，不能移植同軸體問題；DV2FOX跨兩串重貼此文仍不新增作者或原始網站。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-10-24",
+            "reviewBasis": "manual_web_original_page",
+            "locator": "Ok_Pollution8186主文與BestBuy退貨回覆。"
+          },
+          {
+            "url": "https://www.reddit.com/r/Keychron/comments/1ptmhyq/v6_max_reliability/",
+            "title": "V6 Max Reliability",
+            "platform": "Reddit",
+            "exactModel": false,
+            "independentAuthors": 0,
+            "sourceExcerpt": "本串故障回覆明示V6Max；DV2FOX想買V6Ultra ISO-ES紅軸、轉述PCB疑慮，未稱已持有本款。",
+            "specificReason": "V6Max硬體/PCB資料不能移植ZMK V6Ultra；ISO-ES與台灣注音亦不同，購前轉述和重複帳號不算V6Ultra故障持有人。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-10-24",
+            "reviewBasis": "manual_web_original_page",
+            "locator": "DV2FOX 130EUR V6U red/ISOES購前留言，twnpnews、lord02、joesoq、mcnewbie均V6Max。"
+          },
+          {
+            "url": "https://www.reddit.com/r/Keychron/comments/1wbzefz/my_experience_with_keychron_v6_ultra_8k_red_silk/",
+            "title": "My experience with Keychron V6 Ultra 8K Red Silk POM",
+            "independentAuthors": 3,
+            "sourceExcerpt": "Frost90明示V6Ultra8K RedSilkPOM，3顆鍵曾持續按下、調debounce無改善並退貨，另承認CapsLock短暫凍結。HopingillWin也稱CapsLock偶發凍結但軸體/地區未明；julian_vdm稱自己的V6Ultra毋須配對接收器。",
+            "specificReason": "Frost90是新增一名同紅軸家族持有人，但未核台灣注音KBKCV6UD1；3顆問題鍵仍是一人，不等於3名作者。HopingillWin未核版本，julian_vdm是配對正常個案；其他人的QMK/軸體/設計原因推測不採作故障診斷。只有reddit單站，不達同款同症狀6人/2站，保留產品cons。",
+            "locator": "Frost90主文Keys remain stuck及退貨；其3 different keys/debounce更新與I noticed the freeze too回覆；HopingillWin freezes when caps lock；julian_vdm V6Ultra未需配對。",
+            "platform": "Reddit",
+            "exactModel": false,
+            "outcome": "excluded",
+            "reviewedAt": "2026-10-24",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "url": "https://www.reddit.com/r/Keychron/comments/1vvqpm0/got_a_v6_ultra_8k_and_most_of_the_keys_feel_like/",
+            "title": "Got a V6 Ultra 8K, and most of the keys feel like they stick? Is this a common problem?",
+            "independentAuthors": 1,
+            "sourceExcerpt": "Narazil主文稱V6Ultra8K的數字區/Backspace按壓有異常黏滯阻力、板身中間略高，回覆明示SilkPOM red並形容按下像摩擦。",
+            "specificReason": "一名海外同紅軸家族手感/板身個案，未核台灣注音SKU，且並非Frost90持續輸入症狀；不能把按壓阻力與電氣卡鍵併計。BehemothRust是Q5Ultra正評，PeterMortensenBlog拆的是茶軸並轉述其他系列；電池膨脹僅為建議檢查而非已確認原因，不採推定。",
+            "locator": "Narazil主文及Silk pom red、grinding against each other回覆；PeterMortensenBlog的Check for a swollen battery是建議非檢查結果。",
+            "platform": "Reddit",
+            "exactModel": false,
+            "outcome": "excluded",
+            "reviewedAt": "2026-10-24",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "url": "https://www.reddit.com/r/Keychron/comments/1uive40/i_was_about_to_buy_a_v6_ultra_but_now_im_afraid/",
+            "title": "I was about to buy a V6 Ultra but now I am afraid",
+            "independentAuthors": 2,
+            "sourceExcerpt": "VictorFortesque為購前提問；TYPH3OUS明示V6Ultra香蕉軸無問題。SleepOnTheRoofDaily稱用一個月的無線鍵盤BT閒置後需等待、NumLock後數字區需1–2秒，未明軸體/完整SKU。",
+            "specificReason": "只辨識香蕉軸正評與未核版本的睡眠/鎖鍵延遲個案，非選定台灣紅軸同症狀。cszolee79談V6Max；Super-Lemon-4466談有線V6改layer，pwsegal僅稱V6 8K未明Ultra；購前擔憂、品牌泛論與他牌經驗不加成V6Ultra紅軸故障作者。",
+            "locator": "VictorFortesque主文；TYPH3OUS Just bought a v6 ultra with banana switches；SleepOnTheRoofDaily Got mine for 1 month/BT/NumLock回覆。",
+            "platform": "Reddit",
+            "exactModel": false,
+            "outcome": "excluded",
+            "reviewedAt": "2026-10-24",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "url": "https://www.reddit.com/r/Keychron/comments/1uk0emu/v6_ultra_8k_mild_rant/",
+            "title": "V6 Ultra 8k: mild rant",
+            "independentAuthors": 1,
+            "sourceExcerpt": "GreyCorks明示V6Ultra8K banana keys，抱怨需適應配列、CapsLock/NumLock狀態不易看及無獨立媒體鍵；其他回覆說明鍵下RGB指示可於Launcher設定。",
+            "specificReason": "香蕉軸版本不同紅軸，且屬狀態燈可見性與操作偏好，未述同卡鍵/無線失效。DV2FOX明示未來想買，是購前疑慮非新增持有人；不把一串多個解說帳號算故障作者，不依使用者主觀90–95%說法推翻官方全尺寸規格。",
+            "locator": "GreyCorks主文banana keys；PeterMortensenBlog indicators及ZMK說明；julian_vdm Launcher設定回覆；DV2FOX I am looking to buy。",
+            "platform": "Reddit",
+            "exactModel": false,
+            "outcome": "excluded",
+            "reviewedAt": "2026-10-24",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "url": "https://www.reddit.com/r/Keychron/comments/1tgzx0q/keychron_v6_ultra_8k_not_responding/",
+            "title": "Keychron V6 Ultra 8K not responding",
+            "independentAuthors": 1,
+            "sourceExcerpt": "Psychen_稱在Launcher將Fn改為Set Default Layer 3後Win模式不正常，重設/重新連接後仍異常，後稱已退換另一把且不再動Launcher；另回覆快按連打有時漏一半。",
+            "specificReason": "新增一名V6Ultra8K家族設定/輸入個案，未明紅軸或台灣SKU；原文fried是作者說法，沒有硬體燒毀證據，亦不推斷已確診原因。DV2FOX僅提問並貼已另讀V5Ultra個案，不是第二持有人。不同觸發情境與版本不得併作台灣紅軸6人/2站。",
+            "locator": "Psychen_主文Set Default Layer 3與Edit、退換回覆，以及quick repeated button only registers half回覆；DV2FOX貼1uecxle為另款V5。",
+            "platform": "Reddit",
+            "exactModel": false,
+            "outcome": "excluded",
+            "reviewedAt": "2026-10-24",
+            "reviewBasis": "manual_web_original_page"
+          }
+        ]
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-10-24",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "\"KBKCV6UD1\" \"Keychron Silk POM紅軸\" site:reddit.com problem",
+            "queryUrl": "https://www.google.com/search?q=%22KBKCV6UD1%22%20%22Keychron%20Silk%20POM%E7%B4%85%E8%BB%B8%22%20site%3Areddit.com%20problem"
+          },
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "\"KBKCV6UD1\" \"Keychron Silk POM紅軸\" site:mobile01.com 問題",
+            "queryUrl": "https://www.google.com/search?q=%22KBKCV6UD1%22%20%22Keychron%20Silk%20POM%E7%B4%85%E8%BB%B8%22%20site%3Amobile01.com%20%E5%95%8F%E9%A1%8C"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "\"KBKCV6UD1\" \"Keychron Silk POM紅軸\" site:reddit.com problem",
+          "queryUrl": "https://www.google.com/search?q=%22KBKCV6UD1%22%20%22Keychron%20Silk%20POM%E7%B4%85%E8%BB%B8%22%20site%3Areddit.com%20problem",
+          "searchUrl": "https://www.google.com/search?q=%22KBKCV6UD1%22%20%22Keychron%20Silk%20POM%E7%B4%85%E8%BB%B8%22%20site%3Areddit.com%20problem",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-10-24T01:12:59.329580+00:00",
+          "note": "人工檢視完整SKU加指定紅軸限定網站查詢，未見此完整台灣版本候選；別名/家族及官方原店候選另已逐頁處置。"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"KBKCV6UD1\" \"Keychron Silk POM紅軸\" site:mobile01.com 問題",
+          "queryUrl": "https://www.google.com/search?q=%22KBKCV6UD1%22%20%22Keychron%20Silk%20POM%E7%B4%85%E8%BB%B8%22%20site%3Amobile01.com%20%E5%95%8F%E9%A1%8C",
+          "searchUrl": "https://www.google.com/search?q=%22KBKCV6UD1%22%20%22Keychron%20Silk%20POM%E7%B4%85%E8%BB%B8%22%20site%3Amobile01.com%20%E5%95%8F%E9%A1%8C",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-10-24T01:12:59.329580+00:00",
+          "note": "人工檢視完整SKU加指定紅軸限定網站查詢，未見此完整台灣版本候選；別名/家族及官方原店候選另已逐頁處置。"
+        }
+      ],
+      "supplementalQueries": [
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "\"Keychron V6 Ultra\" \"red\" site:reddit.com problem",
+          "queryUrl": "https://www.google.com/search?q=%22Keychron%20V6%20Ultra%22%20%22red%22%20site%3Areddit.com%20problem",
+          "searchUrl": "https://www.google.com/search?q=%22Keychron%20V6%20Ultra%22%20%22red%22%20site%3Areddit.com%20problem",
+          "inspectedAt": "2026-10-24T01:12:59.329580+00:00",
+          "purpose": "補充家族/指定紅軸候選發現；不以搜尋摘要當原始故障證據。"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"Keychron V6 Ultra\" \"紅軸\" site:mobile01.com 問題",
+          "queryUrl": "https://www.google.com/search?q=%22Keychron%20V6%20Ultra%22%20%22%E7%B4%85%E8%BB%B8%22%20site%3Amobile01.com%20%E5%95%8F%E9%A1%8C",
+          "searchUrl": "https://www.google.com/search?q=%22Keychron%20V6%20Ultra%22%20%22%E7%B4%85%E8%BB%B8%22%20site%3Amobile01.com%20%E5%95%8F%E9%A1%8C",
+          "inspectedAt": "2026-10-24T01:12:59.329580+00:00",
+          "purpose": "補充家族/指定紅軸候選發現；不以搜尋摘要當原始故障證據。"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "\"Keychron V6 Ultra\" \"紅軸\" site:dcard.tw",
+          "queryUrl": "https://www.google.com/search?q=%22Keychron%20V6%20Ultra%22%20%22%E7%B4%85%E8%BB%B8%22%20site%3Adcard.tw",
+          "searchUrl": "https://www.google.com/search?q=%22Keychron%20V6%20Ultra%22%20%22%E7%B4%85%E8%BB%B8%22%20site%3Adcard.tw",
+          "inspectedAt": "2026-10-24T01:12:59.329580+00:00",
+          "purpose": "補充家族/指定紅軸候選發現；不以搜尋摘要當原始故障證據。"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "url": "https://www.keychron.com.tw/products/keychron-v6-ultra-8k-wireless-custom-mechanical-keyboard?variant=47941623480579",
+          "title": "Keychron V6 Ultra 8K 無線客製化機械鍵盤(注音版本)",
+          "platform": "Keychron Taiwan",
+          "exactModel": true,
+          "independentAuthors": 5,
+          "sourceExcerpt": "五則原始作者：子珞(10/3)、柏毅(9/6)紅軸正評；冠翔(8/20)靜音香蕉配對後正常；家豪(8/2)香蕉手感正評；欣慧(6/18)紅軸稱無線不能用、接線可用。",
+          "specificReason": "只有欣慧一位選定紅軸可辨識無線問題，無法與不同軸體配對流程當同症狀；星數不是故障數，尚未達同款同問題六名跨兩原站。此個案保留於產品cons。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-10-24",
+          "reviewBasis": "manual_CUA_original_page",
+          "locator": "商品頁評論區/Loox五則；欣慧2026/6/18、黑色/RGB背光(熱插拔)/Keychron Silk POM紅軸；CUA已讀逐則型號選項。",
+          "reason": "只有欣慧一位選定紅軸可辨識無線問題，無法與不同軸體配對流程當同症狀；星數不是故障數，尚未達同款同問題六名跨兩原站。此個案保留於產品cons。"
+        },
+        {
+          "url": "https://www.reddit.com/r/Keychron/comments/1stznia/keychron_v6_ultra_keys_having_significant_input/",
+          "title": "Keychron V6 Ultra keys having significant input lag, inputs sticking but keys unpressed, some keys not registering inputs, and random letters being inputted without typing. Using 2.4G dongle mode.",
+          "platform": "Reddit",
+          "exactModel": false,
+          "independentAuthors": 1,
+          "sourceExcerpt": "Toadstuulguy買V6Ultra一天後2.4G漏字/卡鍵/延遲，先說調debounce或重設可能改善，後稱以線連接dongle後正常；efigl/natusw提供排錯，PickledMunkee僅泛批品牌。",
+          "specificReason": "一位家族候選未明紅軸、注音或KBKCV6UD1；多次回覆同人。wired dongle語意不明，不推定全有線鍵盤模式，不把客服建議或品牌泛批當第二持有人。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-10-24",
+          "reviewBasis": "manual_web_original_page",
+          "locator": "主文Toadstuulguy，及其That might have fixed it/That seemed to fix it/Plugged it in with the wired dongle三次更新。",
+          "reason": "一位家族候選未明紅軸、注音或KBKCV6UD1；多次回覆同人。wired dongle語意不明，不推定全有線鍵盤模式，不把客服建議或品牌泛批當第二持有人。"
+        },
+        {
+          "url": "https://www.reddit.com/r/keyboards/comments/1rl3y57/need_advice_on_upgrading_my_keychron_creamy/",
+          "title": "Need advice on upgrading my Keychron / creamy fullsize suggestions",
+          "platform": "Reddit",
+          "exactModel": false,
+          "independentAuthors": 1,
+          "sourceExcerpt": "EverythingElseDB明示V6Ultra Red，認為聲音太安靜與鍵帽感覺太輕，肯定機身與軟體，尋求更換軸體/鍵帽建議。",
+          "specificReason": "一位紅軸家族使用者的手感/聲音偏好，未報硬體失效或無線問題；沒有台灣注音/SKU，不與無線故障併計。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-10-24",
+          "reviewBasis": "manual_web_original_page",
+          "locator": "EverythingElseDB主文，開頭V6Ultra with Red switches。",
+          "reason": "一位紅軸家族使用者的手感/聲音偏好，未報硬體失效或無線問題；沒有台灣注音/SKU，不與無線故障併計。"
+        },
+        {
+          "url": "https://www.reddit.com/r/keyboards/comments/1vhc4um/too_many_accidental_keypresses_on_my_new/",
+          "title": "Too many accidental keypresses on my new mechanical keyboard",
+          "platform": "Reddit",
+          "exactModel": false,
+          "independentAuthors": 1,
+          "sourceExcerpt": "uk_g明示Amazon UK購入brown switches的V6Ultra，抱怨誤碰相鄰按鍵，後補充是手指誤按，不是鍵盤自行重複輸入。",
+          "specificReason": "茶軸版本不同選定紅軸，且是適應鍵帽/觸發手感的誤觸問題，不移作KBKCV6UD1無線災情。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-10-24",
+          "reviewBasis": "manual_web_original_page",
+          "locator": "uk_g主文brown switches與EDIT解釋adjacent keys。",
+          "reason": "茶軸版本不同選定紅軸，且是適應鍵帽/觸發手感的誤觸問題，不移作KBKCV6UD1無線災情。"
+        },
+        {
+          "url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1sidwfr/after_6_years_it_was_time_for_a_new_keyboard_so/",
+          "title": "After 6 years, it was time for a new keyboard. So far I am pretty happy with the Keychron V6 Ultra",
+          "platform": "Reddit",
+          "exactModel": false,
+          "independentAuthors": 2,
+          "sourceExcerpt": "CyNovaSc確認SilkPOMRed，數次回覆無故障/快速空白鍵測試正常；Very_Sly_Fox後續稱買V6、抱怨CapsLock狀態不醒目和需換Win鍵帽。DV2FOX重貼V5Ultra詢問。",
+          "specificReason": "CyNovaSc多次更新仍一人，另一作者未明軸體/台灣SKU且非無線故障；DV2FOX為購前詢問和V5連結，不是多名V6紅軸持有人。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-10-24",
+          "reviewBasis": "manual_web_original_page",
+          "locator": "CyNovaSc主文與Silk POM Red/無快速空白鍵問題回覆；Very_Sly_Fox bought it回覆。",
+          "reason": "CyNovaSc多次更新仍一人，另一作者未明軸體/台灣SKU且非無線故障；DV2FOX為購前詢問和V5連結，不是多名V6紅軸持有人。"
+        },
+        {
+          "url": "https://www.reddit.com/r/Keychron/comments/1tn2odj/keychron_v6_max_v6_ultra_q6_ultra/",
+          "title": "Keychron V6 Max / V6 Ultra / Q6 Ultra",
+          "platform": "Reddit",
+          "exactModel": false,
+          "independentAuthors": 2,
+          "sourceExcerpt": "jaymie4g從購前比較到更新V6Ultra8K打字/無線無問題；Zafer66稱Ultra red手感好但未回答是V6還是Q6。jzapletal明示故障是K5Max/Q6Max；DV2FOX貼V5Ultra連結詢問。",
+          "specificReason": "無新增可核V6台灣紅軸故障；不同Q/K型號、購前疑慮、引文與跨串重複詢問不能加進V6Ultra作者數或判停產。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-10-24",
+          "reviewBasis": "manual_web_original_page",
+          "locator": "jaymie4g更新I did end up with V6Ultra8K；Zafer66與追問Q6 or V6；jzapletal I have Q0,K5Max,Q6Max。",
+          "reason": "無新增可核V6台灣紅軸故障；不同Q/K型號、購前疑慮、引文與跨串重複詢問不能加進V6Ultra作者數或判停產。"
+        },
+        {
+          "url": "https://www.reddit.com/r/Keychron/comments/1tkpn5k/keychron_v1_ultra/",
+          "title": "Keychron V1 Ultra",
+          "platform": "Reddit",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "sourceExcerpt": "SnooDingos5720是V1Ultra購前提問，PeterMortensenBlog彙整V6Ultra lag原帖與Q6/V3其他型號連結；jeff92k7持有Q6Ultra/SilkPOMBanana。",
+          "specificReason": "只有外帖彙整，V6原始Toadstuulguy已另讀且去重；V1/V3/Q6不是本款，不能把系列抱怨當多名V6紅軸災情。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-10-24",
+          "reviewBasis": "manual_web_original_page",
+          "locator": "PeterMortensenBlog #193連至1stznia；主文V1Ultra、jeff92k7 Q6Ultra。",
+          "reason": "只有外帖彙整，V6原始Toadstuulguy已另讀且去重；V1/V3/Q6不是本款，不能把系列抱怨當多名V6紅軸災情。"
+        },
+        {
+          "url": "https://www.reddit.com/r/Keychron/comments/1uecxle/keychron_v5_ultra_red_linear_switches_concern/",
+          "title": "Keychron V5 Ultra Red Linear Switches Concern",
+          "platform": "Reddit",
+          "exactModel": false,
+          "independentAuthors": 1,
+          "sourceExcerpt": "Ok_Pollution8186的V5Ultra紅軸空白鍵快按漏輸入，後退回BestBuy；其他人提debounce/潤滑猜測，沒有新增V6持有人。",
+          "specificReason": "V5Ultra96%型號不同V6Ultra全尺寸，不能移植同軸體問題；DV2FOX跨兩串重貼此文仍不新增作者或原始網站。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-10-24",
+          "reviewBasis": "manual_web_original_page",
+          "locator": "Ok_Pollution8186主文與BestBuy退貨回覆。",
+          "reason": "V5Ultra96%型號不同V6Ultra全尺寸，不能移植同軸體問題；DV2FOX跨兩串重貼此文仍不新增作者或原始網站。"
+        },
+        {
+          "url": "https://www.reddit.com/r/Keychron/comments/1ptmhyq/v6_max_reliability/",
+          "title": "V6 Max Reliability",
+          "platform": "Reddit",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "sourceExcerpt": "本串故障回覆明示V6Max；DV2FOX想買V6Ultra ISO-ES紅軸、轉述PCB疑慮，未稱已持有本款。",
+          "specificReason": "V6Max硬體/PCB資料不能移植ZMK V6Ultra；ISO-ES與台灣注音亦不同，購前轉述和重複帳號不算V6Ultra故障持有人。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-10-24",
+          "reviewBasis": "manual_web_original_page",
+          "locator": "DV2FOX 130EUR V6U red/ISOES購前留言，twnpnews、lord02、joesoq、mcnewbie均V6Max。",
+          "reason": "V6Max硬體/PCB資料不能移植ZMK V6Ultra；ISO-ES與台灣注音亦不同，購前轉述和重複帳號不算V6Ultra故障持有人。"
+        },
+        {
+          "url": "https://www.reddit.com/r/Keychron/comments/1wbzefz/my_experience_with_keychron_v6_ultra_8k_red_silk/",
+          "title": "My experience with Keychron V6 Ultra 8K Red Silk POM",
+          "independentAuthors": 3,
+          "sourceExcerpt": "Frost90明示V6Ultra8K RedSilkPOM，3顆鍵曾持續按下、調debounce無改善並退貨，另承認CapsLock短暫凍結。HopingillWin也稱CapsLock偶發凍結但軸體/地區未明；julian_vdm稱自己的V6Ultra毋須配對接收器。",
+          "specificReason": "Frost90是新增一名同紅軸家族持有人，但未核台灣注音KBKCV6UD1；3顆問題鍵仍是一人，不等於3名作者。HopingillWin未核版本，julian_vdm是配對正常個案；其他人的QMK/軸體/設計原因推測不採作故障診斷。只有reddit單站，不達同款同症狀6人/2站，保留產品cons。",
+          "locator": "Frost90主文Keys remain stuck及退貨；其3 different keys/debounce更新與I noticed the freeze too回覆；HopingillWin freezes when caps lock；julian_vdm V6Ultra未需配對。",
+          "platform": "Reddit",
+          "exactModel": false,
+          "outcome": "excluded",
+          "reviewedAt": "2026-10-24",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "Frost90是新增一名同紅軸家族持有人，但未核台灣注音KBKCV6UD1；3顆問題鍵仍是一人，不等於3名作者。HopingillWin未核版本，julian_vdm是配對正常個案；其他人的QMK/軸體/設計原因推測不採作故障診斷。只有reddit單站，不達同款同症狀6人/2站，保留產品cons。"
+        },
+        {
+          "url": "https://www.reddit.com/r/Keychron/comments/1vvqpm0/got_a_v6_ultra_8k_and_most_of_the_keys_feel_like/",
+          "title": "Got a V6 Ultra 8K, and most of the keys feel like they stick? Is this a common problem?",
+          "independentAuthors": 1,
+          "sourceExcerpt": "Narazil主文稱V6Ultra8K的數字區/Backspace按壓有異常黏滯阻力、板身中間略高，回覆明示SilkPOM red並形容按下像摩擦。",
+          "specificReason": "一名海外同紅軸家族手感/板身個案，未核台灣注音SKU，且並非Frost90持續輸入症狀；不能把按壓阻力與電氣卡鍵併計。BehemothRust是Q5Ultra正評，PeterMortensenBlog拆的是茶軸並轉述其他系列；電池膨脹僅為建議檢查而非已確認原因，不採推定。",
+          "locator": "Narazil主文及Silk pom red、grinding against each other回覆；PeterMortensenBlog的Check for a swollen battery是建議非檢查結果。",
+          "platform": "Reddit",
+          "exactModel": false,
+          "outcome": "excluded",
+          "reviewedAt": "2026-10-24",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "一名海外同紅軸家族手感/板身個案，未核台灣注音SKU，且並非Frost90持續輸入症狀；不能把按壓阻力與電氣卡鍵併計。BehemothRust是Q5Ultra正評，PeterMortensenBlog拆的是茶軸並轉述其他系列；電池膨脹僅為建議檢查而非已確認原因，不採推定。"
+        },
+        {
+          "url": "https://www.reddit.com/r/Keychron/comments/1uive40/i_was_about_to_buy_a_v6_ultra_but_now_im_afraid/",
+          "title": "I was about to buy a V6 Ultra but now I am afraid",
+          "independentAuthors": 2,
+          "sourceExcerpt": "VictorFortesque為購前提問；TYPH3OUS明示V6Ultra香蕉軸無問題。SleepOnTheRoofDaily稱用一個月的無線鍵盤BT閒置後需等待、NumLock後數字區需1–2秒，未明軸體/完整SKU。",
+          "specificReason": "只辨識香蕉軸正評與未核版本的睡眠/鎖鍵延遲個案，非選定台灣紅軸同症狀。cszolee79談V6Max；Super-Lemon-4466談有線V6改layer，pwsegal僅稱V6 8K未明Ultra；購前擔憂、品牌泛論與他牌經驗不加成V6Ultra紅軸故障作者。",
+          "locator": "VictorFortesque主文；TYPH3OUS Just bought a v6 ultra with banana switches；SleepOnTheRoofDaily Got mine for 1 month/BT/NumLock回覆。",
+          "platform": "Reddit",
+          "exactModel": false,
+          "outcome": "excluded",
+          "reviewedAt": "2026-10-24",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "只辨識香蕉軸正評與未核版本的睡眠/鎖鍵延遲個案，非選定台灣紅軸同症狀。cszolee79談V6Max；Super-Lemon-4466談有線V6改layer，pwsegal僅稱V6 8K未明Ultra；購前擔憂、品牌泛論與他牌經驗不加成V6Ultra紅軸故障作者。"
+        },
+        {
+          "url": "https://www.reddit.com/r/Keychron/comments/1uk0emu/v6_ultra_8k_mild_rant/",
+          "title": "V6 Ultra 8k: mild rant",
+          "independentAuthors": 1,
+          "sourceExcerpt": "GreyCorks明示V6Ultra8K banana keys，抱怨需適應配列、CapsLock/NumLock狀態不易看及無獨立媒體鍵；其他回覆說明鍵下RGB指示可於Launcher設定。",
+          "specificReason": "香蕉軸版本不同紅軸，且屬狀態燈可見性與操作偏好，未述同卡鍵/無線失效。DV2FOX明示未來想買，是購前疑慮非新增持有人；不把一串多個解說帳號算故障作者，不依使用者主觀90–95%說法推翻官方全尺寸規格。",
+          "locator": "GreyCorks主文banana keys；PeterMortensenBlog indicators及ZMK說明；julian_vdm Launcher設定回覆；DV2FOX I am looking to buy。",
+          "platform": "Reddit",
+          "exactModel": false,
+          "outcome": "excluded",
+          "reviewedAt": "2026-10-24",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "香蕉軸版本不同紅軸，且屬狀態燈可見性與操作偏好，未述同卡鍵/無線失效。DV2FOX明示未來想買，是購前疑慮非新增持有人；不把一串多個解說帳號算故障作者，不依使用者主觀90–95%說法推翻官方全尺寸規格。"
+        },
+        {
+          "url": "https://www.reddit.com/r/Keychron/comments/1tgzx0q/keychron_v6_ultra_8k_not_responding/",
+          "title": "Keychron V6 Ultra 8K not responding",
+          "independentAuthors": 1,
+          "sourceExcerpt": "Psychen_稱在Launcher將Fn改為Set Default Layer 3後Win模式不正常，重設/重新連接後仍異常，後稱已退換另一把且不再動Launcher；另回覆快按連打有時漏一半。",
+          "specificReason": "新增一名V6Ultra8K家族設定/輸入個案，未明紅軸或台灣SKU；原文fried是作者說法，沒有硬體燒毀證據，亦不推斷已確診原因。DV2FOX僅提問並貼已另讀V5Ultra個案，不是第二持有人。不同觸發情境與版本不得併作台灣紅軸6人/2站。",
+          "locator": "Psychen_主文Set Default Layer 3與Edit、退換回覆，以及quick repeated button only registers half回覆；DV2FOX貼1uecxle為另款V5。",
+          "platform": "Reddit",
+          "exactModel": false,
+          "outcome": "excluded",
+          "reviewedAt": "2026-10-24",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "新增一名V6Ultra8K家族設定/輸入個案，未明紅軸或台灣SKU；原文fried是作者說法，沒有硬體燒毀證據，亦不推斷已確診原因。DV2FOX僅提問並貼已另讀V5Ultra個案，不是第二持有人。不同觸發情境與版本不得併作台灣紅軸6人/2站。"
+        }
+      ],
+      "reports": [],
+      "supplementalSourceReviews": [
+        {
+          "url": "https://www.reddit.com/r/Keychron/comments/1wbzefz/my_experience_with_keychron_v6_ultra_8k_red_silk/",
+          "title": "My experience with Keychron V6 Ultra 8K Red Silk POM",
+          "independentAuthors": 3,
+          "sourceExcerpt": "Frost90明示V6Ultra8K RedSilkPOM，3顆鍵曾持續按下、調debounce無改善並退貨，另承認CapsLock短暫凍結。HopingillWin也稱CapsLock偶發凍結但軸體/地區未明；julian_vdm稱自己的V6Ultra毋須配對接收器。",
+          "specificReason": "Frost90是新增一名同紅軸家族持有人，但未核台灣注音KBKCV6UD1；3顆問題鍵仍是一人，不等於3名作者。HopingillWin未核版本，julian_vdm是配對正常個案；其他人的QMK/軸體/設計原因推測不採作故障診斷。只有reddit單站，不達同款同症狀6人/2站，保留產品cons。",
+          "locator": "Frost90主文Keys remain stuck及退貨；其3 different keys/debounce更新與I noticed the freeze too回覆；HopingillWin freezes when caps lock；julian_vdm V6Ultra未需配對。",
+          "platform": "Reddit",
+          "exactModel": false,
+          "outcome": "excluded",
+          "reviewedAt": "2026-10-24",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "url": "https://www.reddit.com/r/Keychron/comments/1vvqpm0/got_a_v6_ultra_8k_and_most_of_the_keys_feel_like/",
+          "title": "Got a V6 Ultra 8K, and most of the keys feel like they stick? Is this a common problem?",
+          "independentAuthors": 1,
+          "sourceExcerpt": "Narazil主文稱V6Ultra8K的數字區/Backspace按壓有異常黏滯阻力、板身中間略高，回覆明示SilkPOM red並形容按下像摩擦。",
+          "specificReason": "一名海外同紅軸家族手感/板身個案，未核台灣注音SKU，且並非Frost90持續輸入症狀；不能把按壓阻力與電氣卡鍵併計。BehemothRust是Q5Ultra正評，PeterMortensenBlog拆的是茶軸並轉述其他系列；電池膨脹僅為建議檢查而非已確認原因，不採推定。",
+          "locator": "Narazil主文及Silk pom red、grinding against each other回覆；PeterMortensenBlog的Check for a swollen battery是建議非檢查結果。",
+          "platform": "Reddit",
+          "exactModel": false,
+          "outcome": "excluded",
+          "reviewedAt": "2026-10-24",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "url": "https://www.reddit.com/r/Keychron/comments/1uive40/i_was_about_to_buy_a_v6_ultra_but_now_im_afraid/",
+          "title": "I was about to buy a V6 Ultra but now I am afraid",
+          "independentAuthors": 2,
+          "sourceExcerpt": "VictorFortesque為購前提問；TYPH3OUS明示V6Ultra香蕉軸無問題。SleepOnTheRoofDaily稱用一個月的無線鍵盤BT閒置後需等待、NumLock後數字區需1–2秒，未明軸體/完整SKU。",
+          "specificReason": "只辨識香蕉軸正評與未核版本的睡眠/鎖鍵延遲個案，非選定台灣紅軸同症狀。cszolee79談V6Max；Super-Lemon-4466談有線V6改layer，pwsegal僅稱V6 8K未明Ultra；購前擔憂、品牌泛論與他牌經驗不加成V6Ultra紅軸故障作者。",
+          "locator": "VictorFortesque主文；TYPH3OUS Just bought a v6 ultra with banana switches；SleepOnTheRoofDaily Got mine for 1 month/BT/NumLock回覆。",
+          "platform": "Reddit",
+          "exactModel": false,
+          "outcome": "excluded",
+          "reviewedAt": "2026-10-24",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "url": "https://www.reddit.com/r/Keychron/comments/1uk0emu/v6_ultra_8k_mild_rant/",
+          "title": "V6 Ultra 8k: mild rant",
+          "independentAuthors": 1,
+          "sourceExcerpt": "GreyCorks明示V6Ultra8K banana keys，抱怨需適應配列、CapsLock/NumLock狀態不易看及無獨立媒體鍵；其他回覆說明鍵下RGB指示可於Launcher設定。",
+          "specificReason": "香蕉軸版本不同紅軸，且屬狀態燈可見性與操作偏好，未述同卡鍵/無線失效。DV2FOX明示未來想買，是購前疑慮非新增持有人；不把一串多個解說帳號算故障作者，不依使用者主觀90–95%說法推翻官方全尺寸規格。",
+          "locator": "GreyCorks主文banana keys；PeterMortensenBlog indicators及ZMK說明；julian_vdm Launcher設定回覆；DV2FOX I am looking to buy。",
+          "platform": "Reddit",
+          "exactModel": false,
+          "outcome": "excluded",
+          "reviewedAt": "2026-10-24",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "url": "https://www.reddit.com/r/Keychron/comments/1tgzx0q/keychron_v6_ultra_8k_not_responding/",
+          "title": "Keychron V6 Ultra 8K not responding",
+          "independentAuthors": 1,
+          "sourceExcerpt": "Psychen_稱在Launcher將Fn改為Set Default Layer 3後Win模式不正常，重設/重新連接後仍異常，後稱已退換另一把且不再動Launcher；另回覆快按連打有時漏一半。",
+          "specificReason": "新增一名V6Ultra8K家族設定/輸入個案，未明紅軸或台灣SKU；原文fried是作者說法，沒有硬體燒毀證據，亦不推斷已確診原因。DV2FOX僅提問並貼已另讀V5Ultra個案，不是第二持有人。不同觸發情境與版本不得併作台灣紅軸6人/2站。",
+          "locator": "Psychen_主文Set Default Layer 3與Edit、退換回覆，以及quick repeated button only registers half回覆；DV2FOX貼1uecxle為另款V5。",
+          "platform": "Reddit",
+          "exactModel": false,
+          "outcome": "excluded",
+          "reviewedAt": "2026-10-24",
+          "reviewBasis": "manual_web_original_page"
+        }
+      ]
     }
   ]
 }

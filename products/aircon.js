@@ -149,11 +149,12 @@
     "name": "HITACHI RAS-40NTB / RAC-40NP 一對一分離式變頻冷暖",
     "price": {
       "currency": "TWD",
-      "amount": 48900,
-      "converted": 48900,
-      "confidence": "玉明電器 exact-pair 完整室內外機新品公開價 2026-08-14 可公開重現現價；型號與室內外機完整組合已核對",
+      "amount": 49900,
+      "converted": 49900,
+      "confidence": "2026-10-24人工核對www.3uo.tw同型號同版本公開TWD 49900；未扣個人化券、信用卡或點數。",
       "basis": "retailer_current",
-      "scope": "complete_system"
+      "scope": "complete_system",
+      "note": "2026-10-24原頁未登入公開價，含完整室內/室外機與基本安裝（銅管控制線5米內）、安全範圍舊機回收；追加施工另計，不採會員折扣。"
     },
     "installation": {
       "status": "included_basic",
@@ -274,11 +275,12 @@
     "name": "HITACHI RAS-71NTB / RAC-71NP 一對一分離式變頻冷暖",
     "price": {
       "currency": "TWD",
-      "amount": 69500,
-      "converted": 69500,
-      "confidence": "玉明電器 exact-pair 完整室內外機新品公開價 2026-08-14 可公開重現現價；型號與室內外機完整組合已核對",
+      "amount": 70900,
+      "converted": 70900,
+      "confidence": "2026-10-24人工核對www.3uo.tw同型號同版本公開TWD 70900；未扣個人化券、信用卡或點數。",
       "basis": "retailer_current",
-      "scope": "complete_system"
+      "scope": "complete_system",
+      "note": "2026-10-24原頁未登入公開價，含完整室內/室外機與基本安裝（銅管控制線5米內）、安全範圍舊機回收；追加施工另計，不採會員折扣。"
     },
     "installation": {
       "status": "included_basic",
@@ -399,11 +401,12 @@
     "name": "Panasonic CS-VX40FA2 / CU-UX40FHA2 一對一分離式變頻冷暖",
     "price": {
       "currency": "TWD",
-      "amount": 43900,
-      "converted": 43900,
-      "confidence": "玉明電器 exact-pair 完整室內外機新品公開價 2026-08-14 可公開重現現價；型號與室內外機完整組合已核對",
+      "amount": 44200,
+      "converted": 44200,
+      "confidence": "2026-10-24人工核對www.3uo.tw同型號同版本公開TWD 44200；未扣個人化券、信用卡或點數。",
       "basis": "retailer_current",
-      "scope": "complete_system"
+      "scope": "complete_system",
+      "note": "2026-10-24原頁未登入公開價，含完整室內/室外機與基本安裝（銅管控制線5米內）、安全範圍舊機回收；追加施工另計，不採會員折扣。"
     },
     "installation": {
       "status": "included_basic",
@@ -524,11 +527,12 @@
     "name": "Panasonic CS-VX50FA2 / CU-UX50FHA2 一對一分離式變頻冷暖",
     "price": {
       "currency": "TWD",
-      "amount": 48800,
-      "converted": 48800,
-      "confidence": "玉明電器 exact-pair 完整室內外機新品公開價 2026-08-14 可公開重現現價；型號與室內外機完整組合已核對",
+      "amount": 50100,
+      "converted": 50100,
+      "confidence": "2026-10-24人工核對www.3uo.tw同型號同版本公開TWD 50100；未扣個人化券、信用卡或點數。",
       "basis": "retailer_current",
-      "scope": "complete_system"
+      "scope": "complete_system",
+      "note": "2026-10-24原頁未登入公開價，含完整室內/室外機與基本安裝（銅管控制線5米內）、安全範圍舊機回收；追加施工另計，不採會員折扣。"
     },
     "installation": {
       "status": "included_basic",
@@ -649,11 +653,12 @@
     "name": "Panasonic CS-VX80FA2 / CU-UX80FHA2 一對一分離式變頻冷暖",
     "price": {
       "currency": "TWD",
-      "amount": 76800,
-      "converted": 76800,
-      "confidence": "玉明電器 exact-pair 完整室內外機新品公開價 2026-08-14 可公開重現現價；型號與室內外機完整組合已核對",
+      "amount": 78200,
+      "converted": 78200,
+      "confidence": "2026-10-24人工核對www.3uo.tw同型號同版本公開TWD 78200；未扣個人化券、信用卡或點數。",
       "basis": "retailer_current",
-      "scope": "complete_system"
+      "scope": "complete_system",
+      "note": "2026-10-24原頁未登入公開價，含完整室內/室外機與基本安裝（銅管控制線5米內）、安全範圍舊機回收；追加施工另計，不採會員折扣。"
     },
     "installation": {
       "status": "included_basic",
@@ -1024,11 +1029,12 @@
     "name": "Daikin FTXM60ZVLT / RXM60ZVLT 一對一分離式變頻冷暖",
     "price": {
       "currency": "TWD",
-      "amount": 69180,
-      "converted": 69180,
-      "confidence": "玉明電器 exact-pair 完整室內外機新品公開價 2026-08-14 可公開重現現價；型號與室內外機完整組合已核對",
+      "amount": 59800,
+      "converted": 59800,
+      "confidence": "2026-10-24人工核對www.3uo.tw同型號同版本公開TWD 59800；未扣個人化券、信用卡或點數。",
       "basis": "retailer_current",
-      "scope": "complete_system"
+      "scope": "complete_system",
+      "note": "2026-10-24原頁未登入公開價，含完整室內/室外機與基本安裝（銅管控制線5米內）、安全範圍舊機回收；追加施工另計，不採會員折扣。"
     },
     "installation": {
       "status": "included_basic",
@@ -1149,11 +1155,12 @@
     "name": "Mitsubishi Electric MSY-GA42NJ / MUY-GA42NJ 一對一分離式變頻冷專",
     "price": {
       "currency": "TWD",
-      "amount": 37800,
-      "converted": 37800,
-      "confidence": "玉明電器 exact-pair 完整室內外機新品公開價 2026-08-14 可公開重現現價；型號與室內外機完整組合已核對",
+      "amount": 38300,
+      "converted": 38300,
+      "confidence": "2026-10-24人工核對www.3uo.tw同型號同版本公開TWD 38300；未扣個人化券、信用卡或點數。",
       "basis": "retailer_current",
-      "scope": "complete_system"
+      "scope": "complete_system",
+      "note": "2026-10-24原頁未登入公開價，含完整室內/室外機與基本安裝（銅管控制線5米內）、安全範圍舊機回收；追加施工另計，不採會員折扣。"
     },
     "installation": {
       "status": "included_basic",
@@ -1274,11 +1281,12 @@
     "name": "Mitsubishi Electric MSY-GA50NJ / MUY-GA50NJ 一對一分離式變頻冷專",
     "price": {
       "currency": "TWD",
-      "amount": 44500,
-      "converted": 44500,
-      "confidence": "玉明電器 exact-pair 完整室內外機新品公開價 2026-08-14 可公開重現現價；型號與室內外機完整組合已核對",
+      "amount": 45000,
+      "converted": 45000,
+      "confidence": "2026-10-24人工核對www.3uo.tw同型號同版本公開TWD 45000；未扣個人化券、信用卡或點數。",
       "basis": "retailer_current",
-      "scope": "complete_system"
+      "scope": "complete_system",
+      "note": "2026-10-24原頁未登入公開價，含完整室內/室外機與基本安裝（銅管控制線5米內）、安全範圍舊機回收；追加施工另計，不採會員折扣。"
     },
     "installation": {
       "status": "included_basic",
@@ -1399,11 +1407,12 @@
     "name": "Mitsubishi Electric MSY-GA71NJ / MUY-GA71NJ 一對一分離式變頻冷專",
     "price": {
       "currency": "TWD",
-      "amount": 61500,
-      "converted": 61500,
-      "confidence": "玉明電器 exact-pair 完整室內外機新品公開價 2026-08-14 可公開重現現價；型號與室內外機完整組合已核對",
+      "amount": 62300,
+      "converted": 62300,
+      "confidence": "2026-10-24人工核對www.3uo.tw同型號同版本公開TWD 62300；未扣個人化券、信用卡或點數。",
       "basis": "retailer_current",
-      "scope": "complete_system"
+      "scope": "complete_system",
+      "note": "2026-10-24原頁未登入公開價，含完整室內/室外機與基本安裝（銅管控制線5米內）、安全範圍舊機回收；追加施工另計，不採會員折扣。"
     },
     "installation": {
       "status": "included_basic",
@@ -1896,11 +1905,12 @@
     "name": "HERAN HI-SL36 / HO-SL36 一對一分離式變頻冷專",
     "price": {
       "currency": "TWD",
-      "amount": 26500,
-      "converted": 26500,
-      "confidence": "2026-08-31 人工核對 玉明電器 exact-pair 完整室內外機新品公開價 HI-SL36 / HO-SL36 公開可購主價 TWD 26,500；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。",
+      "amount": 27300,
+      "converted": 27300,
+      "confidence": "2026-10-24人工核對www.3uo.tw同型號同版本公開TWD 27300；未扣個人化券、信用卡或點數。",
       "basis": "retailer_current",
-      "scope": "complete_system"
+      "scope": "complete_system",
+      "note": "2026-10-24原頁未登入公開價，含完整室內/室外機與基本安裝（銅管控制線5米內）、安全範圍舊機回收；追加施工另計，不採會員折扣。"
     },
     "installation": {
       "status": "included_basic",

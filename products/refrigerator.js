@@ -737,9 +737,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/E1024B61CD-SP-22132101.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 33488,
-      "converted": 33488,
-      "confidence": "2026-09-07 人工覆核：Chrome人工核對exact型號促銷價與數量選擇、直接購買/加入購物車；排除另領商店券、點數、信用卡回饋，不將標準配送約期當預購。"
+      "amount": 31990,
+      "converted": 31990,
+      "confidence": "2026-10-24人工核對www.momoshop.com.tw同型號同版本公開TWD 31990；未扣個人化券、信用卡或點數。",
+      "note": "正常大家電約配非頁面個別預購；官網RV41C比較表仍現行，不採通路停產標籤。"
     },
     "channel": "tw",
     "buyLabel": "momo購物",
@@ -2481,10 +2482,11 @@
     "name": "614 公升日製六門琉璃變頻冰箱",
     "price": {
       "currency": "TWD",
-      "amount": 80868,
-      "converted": 80868,
-      "confidence": "全電商 2026-08-14 exact-model 新品頁公開特價；原價 NT$87,900",
-      "basis": "retailer_current"
+      "amount": 80600,
+      "converted": 80600,
+      "confidence": "2026-10-24人工核對pxbox.es.pxmart.com.tw同型號同版本公開TWD 80600；未扣個人化券、信用卡或點數。",
+      "basis": "retailer_current",
+      "note": "未扣另列再折回饋600、折價券100或全支付福利點；大家電由專人聯繫約配，未下單。"
     },
     "image": "https://b2eimg.pxec.com.tw/PX-PROD/Vendor/200290/a7bf9af630504e6aae7f3048b0b2ff2f",
     "buyUrl": "https://pxbox.es.pxmart.com.tw/product/803424",

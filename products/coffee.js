@@ -1949,9 +1949,10 @@
     "name": "3公升極致美味700 半自動義式咖啡機（珍珠黑）",
     "price": {
       "currency": "TWD",
-      "amount": 13900,
-      "converted": 13900,
-      "confidence": "E7EC1-610P 官方商品頁 2026-09-05 人工核對 exact-model 公開現價及可購狀態；非會員券、紅利或加購價"
+      "amount": 18900,
+      "converted": 18900,
+      "confidence": "2026-10-24人工核對www.electrolux.com.tw同型號同版本公開TWD 18900；未扣個人化券、信用卡或點數。",
+      "note": "未扣另購產品滿額贈品或優惠；未實際下單。"
     },
     "image": "https://www.electrolux.com.tw/globalassets/appliances/coffee-machine/e7ec1-610p/fr-e7ec1-610p-1500x1500.png?width=1200&height=630",
     "buyUrl": "https://www.electrolux.com.tw/appliances/coffee-machines/e7ec1-610p/",

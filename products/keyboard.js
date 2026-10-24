@@ -3285,6 +3285,106 @@
         }
       ]
     }
+  },
+  {
+    "id": "keyboard-keychron-v6-ultra-red",
+    "category": "keyboard",
+    "brand": "Keychron",
+    "model": "KBKCV6UD1",
+    "name": "V6 Ultra 8K 全尺寸三模機械鍵盤（黑色注音 Silk POM紅軸）",
+    "variantFamily": "V6 Ultra 8K",
+    "type": "mechanical",
+    "rank": 34,
+    "score": 86,
+    "budget": "mid",
+    "channel": "tw",
+    "price": {
+      "currency": "TWD",
+      "amount": 4290,
+      "converted": 4290,
+      "basis": "retailer_current",
+      "confidence": "2026-10-24 CUA原頁實際切換並重開官方variant47941623480579，確認黑色注音Keychron SilkPOM紅軸KBKCV6UD1、4290元、加入購物車可用與1–2工作天出貨；未扣訂閱折扣或點數。"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "桌面USB/無線鍵盤無到府施工；長447.9mm，預留全尺寸與線材空間，客製拆改前確認台灣保固。 官方腳撐高3mm，可調角度4／9／11度。"
+    },
+    "image": "https://www.keychron.com.tw/cdn/shop/files/V6U-D1-TW.png?v=1776844064&width=1000",
+    "buyUrl": "https://www.keychron.com.tw/products/keychron-v6-ultra-8k-wireless-custom-mechanical-keyboard?variant=47941623480579",
+    "buyLabel": "Keychron Taiwan 官方商城",
+    "specs": [
+      "類型：ZMK全尺寸三模機械鍵盤，Gasket結構；台灣完整組裝成品非裸套",
+      "配列：100%全尺寸，含獨立數字區與旋鈕",
+      "鍵帽語言／材質：台灣原生中文注音；OSA雙色注塑PBT不透光，附Mac／Windows替換鍵帽",
+      "軸體：Keychron Silk POM紅軸；預潤線性機械軸，非香蕉軸或靜音香蕉軸",
+      "熱插拔：相容多數3pin／5pin MX機械軸；PC定位板、螺絲式PCB衛星軸",
+      "連線：USB-C有線、USB-A 2.4GHz接收器、Bluetooth 5.3；藍牙可配對3台裝置",
+      "回報率：有線／2.4GHz最高8000Hz，手冊預設1000Hz需設定；藍牙125Hz，不將回報率當端到端延遲",
+      "供電／續航：USB 5V，官方建議5V／3A變壓器或USB3.0埠；4000mAh鋰聚合物電池，約5小時充滿；關燈最長660小時、最低RGB亮度200小時，依使用條件變動",
+      "系統／軟體：Windows／macOS／Linux；ZMK、Keychron Launcher網頁設定，需Chrome／Edge／Opera與有線連接，非原V6Max的QMK／VIA平台",
+      "尺寸：含鍵帽長 447.9 x 寬 149 x 高 41.6 mm（後端）；前高 33.8 mm；不含鍵帽長 447.9 x 寬 149 x 高 31.2 mm（後端）；前高 24.7 mm",
+      "重量：完全組裝成品 1130 ± 10 g",
+      "隨附配件：Type-C線、Type-A對Type-C轉接器、接收器延長座、USB-A 2.4GHz接收器、拔鍵／拔軸器、螺絲起子、六角扳手及Mac／Windows鍵帽；未列USB市電變壓器"
+    ],
+    "description": "V6 Max同全尺寸家族的新一代選擇，保留數字區、旋鈕與注音鍵帽，改採ZMK並支援有線/2.4GHz最高8K回報與較長官方續航。KBKCV6UD1是黑色SilkPOM紅軸完整成品；不是V6UltraHybrid磁機混合預購款，原有V6Max仍保留供比較。",
+    "pros": [
+      "原生注音、全尺寸數字區與旋鈕，兼顧文書與遊戲",
+      "有線/2.4GHz最高8K、另支援三裝置藍牙與4000mAh電池",
+      "Gasket、雙色PBT與MX熱插拔，附接收器及延長配件"
+    ],
+    "cons": [
+      "長約448mm、約1.13kg，桌面及攜帶負擔較大；鍵帽不透光",
+      "ZMK/Launcher設定方式與QMK/VIA不同，手冊預設1000Hz，8K需自行設定",
+      "台灣原店一名同紅軸無線不能用；海外同SilkPOM紅軸另有卡鍵持續輸入／CapsLock凍結及按壓阻力個案，地區版未明；仍未達六人／兩原站，需在鑑賞期驗收三模"
+    ],
+    "bestFor": "需要注音與完整數字區，希望兼顧8K遊戲和日常文書，能接受ZMK設定與較大體積的桌機使用者。",
+    "recommendation": "辦公／電競均衡推薦：4290元可比較V6Max保留款與新版ZMK/8K/續航取捨。到貨先逐鍵測試有線、2.4GHz與藍牙，確認實際主機/干擾環境後再客製拆改；查不到本台灣紅軸版上市日及可靠史低，不套用海外英文、德文或Hybrid版本資料。",
+    "tags": [
+      "台灣公司貨",
+      "辦公推薦",
+      "電競推薦",
+      "注音鍵帽",
+      "全尺寸",
+      "三模",
+      "8K回報",
+      "熱插拔"
+    ],
+    "voltage": "USB 5V充電/有線供電，官方手冊只支援5V；建議5V3A變壓器或USB3.0埠，變壓器未列隨附，不可直接接市電。",
+    "warranty": "Keychron Taiwan一年／12個月有限保固；V系列製造瑕疵以更換故障零件為主，拆卸/不當改裝可能不保，保存台灣購買證明並依台灣官方support@keychron.com.tw條款申請。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-24",
+      "note": "未找到台灣黑色注音KBKCV6UD1 SilkPOM紅軸成品可驗證歷史低價。已讀官方/FinShop/PChome黑紅新品現價4290，未帶歷史日期，不以現價推史低；BigGo完整SKU入口不可讀；Geizhals V6U-D1-DE為德文版排除，亦不混AU/US同SKU英文版、香蕉軸、V6Max或V6UltraHybrid。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-24",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "\"KBKCV6UD1\" \"Keychron Silk POM紅軸\" site:reddit.com problem",
+          "queryUrl": "https://www.google.com/search?q=%22KBKCV6UD1%22%20%22Keychron%20Silk%20POM%E7%B4%85%E8%BB%B8%22%20site%3Areddit.com%20problem"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"KBKCV6UD1\" \"Keychron Silk POM紅軸\" site:mobile01.com 問題",
+          "queryUrl": "https://www.google.com/search?q=%22KBKCV6UD1%22%20%22Keychron%20Silk%20POM%E7%B4%85%E8%BB%B8%22%20site%3Amobile01.com%20%E5%95%8F%E9%A1%8C"
+        }
+      ]
+    }
   }
 ]);
 })();
