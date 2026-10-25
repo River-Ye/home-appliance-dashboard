@@ -1959,7 +1959,7 @@
       "currency": "TWD",
       "amount": 2690,
       "converted": 2690,
-      "confidence": "2026-10-25 人工核對同型號同版本公開參考價；來源與條件見價格註記及維護報告。",
+      "confidence": "2026-10-26 人工覆核同型號同版本來源與銷售狀態；價格適用條件及保留舊參考價的原因見註記與維護報告。",
       "basis": "retailer_current"
     },
     "installation": {

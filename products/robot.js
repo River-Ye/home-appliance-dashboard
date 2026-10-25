@@ -208,11 +208,11 @@
     "name": "Saros 20 Sonic 聲波拖地旗艦掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 33999,
-      "converted": 33999,
-      "confidence": "2026-10-25 人工核對同型號同版本公開參考價；來源與條件見價格註記及維護報告。",
+      "amount": 31111,
+      "converted": 31111,
+      "confidence": "2026-10-26 人工覆核同型號同版本來源與銷售狀態；價格適用條件及保留舊參考價的原因見註記與維護報告。",
       "basis": "retailer_current",
-      "note": "2026-10-25原購買頁目前無展售；31111為快取開賣預告，未能確認可購。33999保留上次參考，非今日可購現價。"
+      "note": "2026-10-26 momo同型號單件公開折後價31111元（促銷36980元、10/24–11/13滿1件折5869元）；每人限1組/限下單1次，可下單，送貨需專人約定，未承諾立即出貨。"
     },
     "installation": {
       "status": "excluded",
@@ -220,7 +220,7 @@
     },
     "image": "https://taiwan.roborock.com/cdn/shop/files/Saros20_Sonic_album_pic1_asia_web.jpg",
     "buyUrl": "https://www.momoshop.com.tw/product/15103194",
-    "buyLabel": "原通路目前無展售（保留參考）",
+    "buyLabel": "前往 momo 購買",
     "specs": [
       "36000Pa HyperForce 吸力",
       "VibraRise 5.0 聲波拖地：每分鐘 4000 次、14N 下壓力",
@@ -1359,8 +1359,8 @@
     "price": {
       "currency": "EUR",
       "amount": 1099,
-      "converted": 40114,
-      "confidence": "2026-10-24人工核對de.narwal.com同型號同版本公開EUR 1099；未扣個人化券、信用卡或點數。；ExchangeRate-API 2026-10-24 匯率換算",
+      "converted": 40118,
+      "confidence": "2026-10-24人工核對de.narwal.com同型號同版本公開EUR 1099；未扣個人化券、信用卡或點數。；ExchangeRate-API 2026-10-25 匯率換算",
       "note": "2026-10-24德國官方白色標準站單機套裝公開EUR1099；未扣需輸入優惠碼的Halloween折扣。未含國際運費、進口稅，台灣電壓/插頭及保固/跨國送修風險另核。"
     },
     "image": "https://de.narwal.com/cdn/shop/files/narwal-flow-2-saugroboter-mit-selbstreinigung-9224922_1200x1200.png?v=1781597108",
@@ -1456,8 +1456,8 @@
     "price": {
       "currency": "USD",
       "amount": 551.69,
-      "converted": 17978,
-      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-10-24 匯率換算"
+      "converted": 17976,
+      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-10-25 匯率換算"
     },
     "image": "https://img.gkbcdn.com/p/2025-04-11/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438-0._w315_.jpg",
     "buyUrl": "https://www.geekbuying.com/item/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438.html",
@@ -1927,9 +1927,9 @@
     "name": "12 合 1 自清潔 AI 掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 28990,
-      "converted": 28990,
-      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 29990,
+      "converted": 29990,
+      "confidence": "2026-10-26 人工覆核同型號同版本來源與銷售狀態；價格適用條件及保留舊參考價的原因見註記與維護報告。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL2DA900JOEN3/000001_1782120334.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL2D-A900JOEN3",
@@ -2601,8 +2601,8 @@
     "price": {
       "currency": "USD",
       "amount": 999.99,
-      "converted": 32587,
-      "confidence": "SharkNinja US 2026-07-21 來源價；ExchangeRate-API 2026-10-24 匯率換算"
+      "converted": 32584,
+      "confidence": "SharkNinja US 2026-07-21 來源價；ExchangeRate-API 2026-10-25 匯率換算"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/RV2820ZE_01.jpg",
     "buyUrl": "https://www.sharkninja.com/shark-powerdetect-2-in-1-robot-vacuum-and-mop-with-nevertouch-pro-base/RV2820ZE.html",
@@ -2795,8 +2795,8 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 13035,
-      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-10-24 匯率換算",
+      "converted": 13033,
+      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-10-25 匯率換算",
       "note": "2026-10-19 Costco 原商品頁已失效，未確認同型號新品現售；保留原幣參考價，只更新匯率換算，不以 QX Revo Arc／Plus／Max 替代。"
     },
     "image": "https://cdn.cs.1worldsync.com/syndication/mediaserverredirect/aaaa71b7b115f7d0cbeb119d8fc3ad7b/width%281200%29.jpg",
@@ -3406,7 +3406,7 @@
       "currency": "TWD",
       "amount": 23911,
       "converted": 23911,
-      "confidence": "2026-10-25 人工核對同型號同版本公開參考價；來源與條件見價格註記及維護報告。",
+      "confidence": "2026-10-26 人工覆核同型號同版本來源與銷售狀態；價格適用條件及保留舊參考價的原因見註記與維護報告。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900K7R6R/000001_1785985365.jpg",

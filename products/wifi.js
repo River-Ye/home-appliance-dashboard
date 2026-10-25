@@ -310,9 +310,9 @@
       "currency": "TWD",
       "amount": 3515,
       "converted": 3515,
-      "confidence": "2026-10-25 人工核對同型號同版本公開參考價；來源與條件見價格註記及維護報告。",
+      "confidence": "2026-10-26 人工覆核同型號同版本來源與銷售狀態；價格適用條件及保留舊參考價的原因見註記與維護報告。",
       "basis": "retailer_current",
-      "note": "2026-10-25原頁公開活動價，截止2026-10-25T08:00:59+08:00；未扣個人化券、點數或信用卡回饋。"
+      "note": "2026-10-26原頁公開滿1件95折價，活動795992截至2026-10-26 08:00:59（台灣）；未扣個人化券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLPA900JKWXK/000001_1783555436.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/ASUS-%E8%8F%AF%E7%A2%A9-RT-BE58U-V2-BE3600-%E9%9B%99%E9%A0%BB-Wi-Fi-7-%E5%8F%AF%E6%93%B4%E5%85%85%E5%BC%8F%E8%B7%AF%E7%94%B1%E5%99%A8-12005854.html",
@@ -889,8 +889,8 @@
     "price": {
       "currency": "USD",
       "amount": 189,
-      "converted": 6159,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-10-24 匯率換算"
+      "converted": 6158,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-10-25 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/fa8dd4e4-36c8-4c79-a928-22c7bff2ce29/ab5bc8a4-6135-402e-a695-e3ea5e16d3e6.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-pro",
@@ -970,7 +970,7 @@
       "currency": "USD",
       "amount": 159,
       "converted": 5181,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-10-24 匯率換算"
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-10-25 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/8e88b222-7a55-4cf0-8677-ae9b6347fe84/e16aa122-b5e5-4ffb-9f1a-27ee14d9ab3d.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u6-pro",
@@ -1087,7 +1087,7 @@
       "currency": "USD",
       "amount": 99,
       "converted": 3226,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-10-24 匯率換算"
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-10-25 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/253cc208-4b09-4b2e-9d1a-7aa1e8f93507/49241c96-878f-4e40-8541-c2e89c1c5e6e.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-lite",
@@ -1562,8 +1562,8 @@
     "price": {
       "currency": "USD",
       "amount": 129,
-      "converted": 4204,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-10-24 匯率換算"
+      "converted": 4203,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-10-25 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/6d5c6141-e2e9-416a-b789-53e59416bb1a/853bc73b-f65b-4e59-a171-75c9a4a4615e.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u6-plus",
@@ -1666,8 +1666,8 @@
     "price": {
       "currency": "USD",
       "amount": 279,
-      "converted": 9092,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-10-24 匯率換算"
+      "converted": 9091,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-10-25 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/350070a0-ae43-431b-b052-8e849c3b0a75/bad94693-bc54-4ab4-b060-9b972401941c.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-pro-max",
@@ -1762,9 +1762,9 @@
       "currency": "TWD",
       "amount": 4741,
       "converted": 4741,
-      "confidence": "2026-10-25 人工核對同型號同版本公開參考價；來源與條件見價格註記及維護報告。",
+      "confidence": "2026-10-26 人工覆核同型號同版本來源與銷售狀態；價格適用條件及保留舊參考價的原因見註記與維護報告。",
       "basis": "retailer_current",
-      "note": "2026-10-25原頁公開活動價，截止2026-10-25T08:00:59+08:00；未扣個人化券、點數或信用卡回饋。"
+      "note": "2026-10-26原頁公開滿1件95折價，活動795992截至2026-10-26 08:00:59（台灣）；未扣個人化券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLPA900IV4B6/000001_1783556530.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/ASUS-%E8%8F%AF%E7%A2%A9-RT-BE82U-WiFi-7-%E9%9B%99%E9%A0%BB-BE6500-%E8%B7%AF%E7%94%B1%E5%99%A8-%E5%88%86%E4%BA%AB%E5%99%A8-11798654.html",
@@ -4718,9 +4718,9 @@
       "currency": "TWD",
       "amount": 26591,
       "converted": 26591,
-      "confidence": "2026-10-25 人工核對同型號同版本公開參考價；來源與條件見價格註記及維護報告。",
+      "confidence": "2026-10-26 人工覆核同型號同版本來源與銷售狀態；價格適用條件及保留舊參考價的原因見註記與維護報告。",
       "basis": "retailer_current",
-      "note": "2026-10-25原頁公開活動價，截止2026-10-25T08:00:59+08:00；未扣個人化券、點數或信用卡回饋。"
+      "note": "2026-10-26原頁公開滿1件95折價，活動795992截至2026-10-26 08:00:59（台灣）；未扣個人化券、點數或信用卡回饋。"
     },
     "image": "https://dlcdnwebimgs.asus.com/gain/FF5DB299-9708-4259-ABF9-167FDC7166BD",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E6%98%8C%E9%81%8B%E7%9B%A3%E8%A6%96%E5%99%A8-ASUS-%E8%8F%AF%E7%A2%A9-ROG-Rapture-GT-BE19000AI-WiFi-7-%E4%B8%89%E9%A0%BB%E9%9B%BB%E7%AB%B6-12032656.html",
@@ -5129,7 +5129,7 @@
       "amount": 8484,
       "converted": 8484,
       "basis": "retailer_current",
-      "confidence": "2026-10-25 人工核對同型號同版本公開參考價；來源與條件見價格註記及維護報告。",
+      "confidence": "2026-10-26 人工覆核同型號同版本來源與銷售狀態；價格適用條件及保留舊參考價的原因見註記與維護報告。",
       "note": "2026-10-24採台灣官店前台含營業稅與附加費總額；UI Care延長保固、PoE電源及其他配件另購。"
     },
     "image": "https://cdn.ecomm.ui.com/products/a433b9e5-4dd1-4784-adf8-9d12bcba4c87/45a6a9f0-1596-46f3-bebd-9f98c0dfde21.png",
@@ -5354,7 +5354,7 @@
       "amount": 12782,
       "converted": 12782,
       "basis": "retailer_current",
-      "confidence": "2026-10-25 人工核對同型號同版本公開參考價；來源與條件見價格註記及維護報告。",
+      "confidence": "2026-10-26 人工覆核同型號同版本來源與銷售狀態；價格適用條件及保留舊參考價的原因見註記與維護報告。",
       "note": "2026-10-24採台灣官店前台含營業稅與附加費總額；UI Care延長保固、PoE電源及其他配件另購。"
     },
     "image": "https://cdn.ecomm.ui.com/products/1604d78c-6e51-4fe8-a8e5-0110cc332ba0/9ab19ab5-f76f-4d66-b91f-b31062fae149.png",
@@ -5469,8 +5469,8 @@
       "amount": 5225,
       "converted": 5225,
       "basis": "retailer_current",
-      "confidence": "2026-10-25 人工核對同型號同版本公開參考價；來源與條件見價格註記及維護報告。",
-      "note": "2026-10-25原頁公開活動價，截止2026-10-25T08:00:59+08:00；未扣個人化券、點數或信用卡回饋。"
+      "confidence": "2026-10-26 人工覆核同型號同版本來源與銷售狀態；價格適用條件及保留舊參考價的原因見註記與維護報告。",
+      "note": "2026-10-26原頁公開滿1件95折價，活動796035截至2026-10-26 08:00:59（台灣）；未扣個人化券、點數或信用卡回饋。"
     },
     "installation": {
       "status": "excluded",

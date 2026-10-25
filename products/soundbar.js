@@ -19,12 +19,12 @@
       "currency": "TWD",
       "amount": 42655,
       "converted": 42655,
-      "confidence": "2026-10-25 人工核對同型號同版本公開參考價；來源與條件見價格註記及維護報告。",
-      "note": "2026-10-25原頁公開單件95折至07:59:59（台灣時間）；活動到期後須重查，未含個人券、點數或信用卡回饋。"
+      "confidence": "2026-10-26 人工覆核同型號同版本來源與銷售狀態；價格適用條件及保留舊參考價的原因見註記與維護報告。",
+      "note": "2026-10-26原Yahoo主商品公開42655元；滿1件享95折至2026-10-26T07:59:59+08:00；活動到期後須重查。未含個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900JMDR5/000001_1773978957.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Samsung-%E4%B8%89%E6%98%9F-11-1-4%E8%81%B2%E9%81%93-%E8%97%8D%E7%89%99%E8%81%B2%E9%9C%B8-HW-Q990F-ZW-11688500.html",
-    "buyLabel": "查看Yahoo限時價（10/25 07:59:59止）",
+    "buyLabel": "查看Yahoo限時價（10/26 07:59:59止）",
     "specs": [
       "11.1.4 聲道",
       "無線後環繞",
@@ -598,7 +598,8 @@
       "currency": "TWD",
       "amount": 49900,
       "converted": 49900,
-      "confidence": "2026-10-25 人工核對同型號同版本公開參考價；來源與條件見價格註記及維護報告。"
+      "confidence": "2026-10-26 人工覆核同型號同版本來源與銷售狀態；價格適用條件及保留舊參考價的原因見註記與維護報告。",
+      "note": "2026-10-26原購買頁主商品正文顯示49900元，與較低結構化折扣不一致；保留可重現公開價，未扣個人化券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900K3QSM/000001_1782969828.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAOD-A900K3QSM",
@@ -794,7 +795,7 @@
       "currency": "TWD",
       "amount": 23175,
       "converted": 23175,
-      "confidence": "2026-10-25 人工核對同型號同版本公開參考價；來源與條件見價格註記及維護報告。",
+      "confidence": "2026-10-26 人工覆核同型號同版本來源與銷售狀態；價格適用條件及保留舊參考價的原因見註記與維護報告。",
       "basis": "retailer_current",
       "note": "原DMBM1D-A900J5JAZ頁面已標拆封福利品，排除該購買來源；本輪改採新品SKU DMAAOD-A900JCHIM。"
     },
@@ -894,12 +895,12 @@
       "currency": "TWD",
       "amount": 56905,
       "converted": 56905,
-      "confidence": "2026-10-25 人工核對同型號同版本公開參考價；來源與條件見價格註記及維護報告。",
-      "note": "2026-10-25原頁公開單件95折至07:59:59（台灣時間）；活動到期後須重查，未含個人券、點數或信用卡回饋。"
+      "confidence": "2026-10-26 人工覆核同型號同版本來源與銷售狀態；價格適用條件及保留舊參考價的原因見註記與維護報告。",
+      "note": "2026-10-26原Yahoo主商品公開56905元；滿1件享95折至2026-10-26T07:59:59+08:00；活動到期後須重查。未含個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADO2A900K5VUT/000001_1782993730.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Samsung%E4%B8%89%E6%98%9F-11-1-4%E8%81%B2%E9%81%93-%E8%97%8D%E7%89%99%E8%81%B2%E9%9C%B8-HW-Q990H-ZW-12124621.html",
-    "buyLabel": "查看Yahoo限時價（10/25 07:59:59止）",
+    "buyLabel": "查看Yahoo限時價（10/26 07:59:59止）",
     "specs": [
       "11.1.4 聲道",
       "重低音",
@@ -993,12 +994,12 @@
       "currency": "TWD",
       "amount": 35055,
       "converted": 35055,
-      "confidence": "2026-10-25 人工核對同型號同版本公開參考價；來源與條件見價格註記及維護報告。",
-      "note": "2026-10-25原頁公開單件95折至07:59:59（台灣時間）；活動到期後須重查，未含個人券、點數或信用卡回饋。"
+      "confidence": "2026-10-26 人工覆核同型號同版本來源與銷售狀態；價格適用條件及保留舊參考價的原因見註記與維護報告。",
+      "note": "2026-10-26原Yahoo主商品公開35055元；滿1件享95折至2026-10-26T07:59:59+08:00；活動到期後須重查。未含個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900K5489/000001_1782988490.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Samsung%E4%B8%89%E6%98%9F-7-1-2%E8%81%B2%E9%81%93-%E8%97%8D%E7%89%99%E8%81%B2%E9%9C%B8-HW-QS90H-ZW-12124562.html",
-    "buyLabel": "查看Yahoo限時價（10/25 07:59:59止）",
+    "buyLabel": "查看Yahoo限時價（10/26 07:59:59止）",
     "specs": [
       "7.1.2 聲道",
       "Q 系列",
@@ -1386,12 +1387,12 @@
       "currency": "TWD",
       "amount": 27161,
       "converted": 27161,
-      "confidence": "2026-10-25 人工核對同型號同版本公開參考價；來源與條件見價格註記及維護報告。",
-      "note": "2026-10-25原頁公開單件95折至07:59:59（台灣時間）；活動到期後須重查，未含個人券、點數或信用卡回饋。"
+      "confidence": "2026-10-26 人工覆核同型號同版本來源與銷售狀態；價格適用條件及保留舊參考價的原因見註記與維護報告。",
+      "note": "2026-10-26原Yahoo主商品公開27161元；滿1件享95折至2026-10-26T07:59:59+08:00；活動到期後須重查。未含個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAHGA900J56OK/000001_1755250707.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/JBL-BAR800-MK2-7-1%E8%81%B2%E9%81%93%E5%AE%B6%E5%BA%AD%E5%8A%87%E9%99%A2%E5%96%87%E5%8F%AD-%E8%8B%B1%E5%A4%A7%E5%85%AC%E5%8F%B8%E8%B2%A8%E4%B8%80%E5%B9%B4%E4%BF%9D%E5%9B%BA-12156647.html",
-    "buyLabel": "查看Yahoo限時價（10/25 07:59:59止）",
+    "buyLabel": "查看Yahoo限時價（10/26 07:59:59止）",
     "specs": [
       "7.1 聲道",
       "無線後環繞",
@@ -2078,8 +2079,8 @@
     "price": {
       "currency": "USD",
       "amount": 1299.99,
-      "converted": 42363,
-      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-10-24 匯率換算"
+      "converted": 42359,
+      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-10-25 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/2C2sn9CKoKFdIyd94Gm9z5/f3019d4e721511167ebe5c229bf490dd/heston-120_plp.jpg",
     "buyUrl": "https://www.marshall.com/us/en/product/heston-120",
@@ -2178,8 +2179,8 @@
     "price": {
       "currency": "USD",
       "amount": 699.99,
-      "converted": 22811,
-      "confidence": "2026-10-24 人工核對 www.marshall.com 同型號與所選版本公開價 USD 699.99，可下單；未扣會員、信用卡或點數。；ExchangeRate-API 2026-10-24 匯率換算",
+      "converted": 22809,
+      "confidence": "2026-10-24 人工核對 www.marshall.com 同型號與所選版本公開價 USD 699.99，可下單；未扣會員、信用卡或點數。；ExchangeRate-API 2026-10-25 匯率換算",
       "basis": "retailer_current"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/3yitHqjPBTgQk5qRE72PSn/2788206646aa153f71f2c0ebefaff580/Heston-60-black_plp_800x800-v3.jpeg",
@@ -2476,12 +2477,12 @@
       "currency": "TWD",
       "amount": 602,
       "converted": 602,
-      "confidence": "2026-10-25 人工核對同型號同版本公開參考價；來源與條件見價格註記及維護報告。",
-      "note": "2026-10-25原頁公開單件95折至07:59:59（台灣時間）；活動到期後須重查，未含個人券、點數或信用卡回饋。"
+      "confidence": "2026-10-26 人工覆核同型號同版本來源與銷售狀態；價格適用條件及保留舊參考價的原因見註記與維護報告。",
+      "note": "2026-10-26原Yahoo主商品公開602元；滿1件享95折至2026-10-26T07:59:59+08:00；活動到期後須重查。未含個人券、點數或信用卡回饋。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h21/hac/367883491278878.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Soodatek-2-0%E8%81%B2%E9%81%93%E4%BA%8C%E5%90%88%E4%B8%80Soundbar-SS0220-CS2000PBK-11633433.html",
-    "buyLabel": "查看Yahoo限時價（10/25 07:59:59止）",
+    "buyLabel": "查看Yahoo限時價（10/26 07:59:59止）",
     "specs": [
       "2.0 聲道",
       "二合一分離式設計",
@@ -2618,14 +2619,14 @@
       "status": "found",
       "amount": 176091,
       "currency": "JPY",
-      "converted": 36587,
+      "converted": 36583,
       "sourceUrl": "https://kakaku.com/item/K0001712395/pricehistory/",
       "sourceTitle": "価格.com：JBL BAR 1300MK2 [ブラック] 価格推移",
       "evidenceSnippet": "価格.com 日別價格歷史顯示 exact-model「JBL BAR 1300MK2 [ブラック]」於 2026-06-17 的新品最低價為 ¥176,091；2025-10 初始價格為 ¥205,306。",
       "sourceKind": "price_history",
       "confidence": "medium",
       "checkedAt": "2026-08-25",
-      "note": "採日本市場 exact-model 公開價格歷史並依 2026-10-24 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
+      "note": "採日本市場 exact-model 公開價格歷史並依 2026-10-25 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -3486,8 +3487,9 @@
       "currency": "TWD",
       "amount": 39900,
       "converted": 39900,
-      "confidence": "2026-10-25 人工核對同型號同版本公開參考價；來源與條件見價格註記及維護報告。",
-      "basis": "retailer_current"
+      "confidence": "2026-10-26 人工覆核同型號同版本來源與銷售狀態；價格適用條件及保留舊參考價的原因見註記與維護報告。",
+      "basis": "retailer_current",
+      "note": "2026-10-26原購買頁主商品正文顯示39900元，與較低結構化折扣不一致；保留可重現公開價，未扣個人化券、點數或信用卡回饋。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAANJA900K048L/000001_1778571515.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAANJ-A900K048L",
@@ -3689,9 +3691,9 @@
     "price": {
       "currency": "USD",
       "amount": 699,
-      "converted": 22778,
+      "converted": 22776,
       "basis": "retailer_current",
-      "confidence": "2026-10-19 人工核對 Sonos US 官方黑色 BMULTUS1BLK 公開單機 US$699 與 Available now/Add to cart；ExchangeRate-API 2026-10-24 匯率換算，未含國際運費與進口稅。"
+      "confidence": "2026-10-19 人工核對 Sonos US 官方黑色 BMULTUS1BLK 公開單機 US$699 與 Available now/Add to cart；ExchangeRate-API 2026-10-25 匯率換算，未含國際運費與進口稅。"
     },
     "installation": {
       "status": "not_stated",

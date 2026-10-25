@@ -1992,9 +1992,9 @@
     "price": {
       "currency": "HKD",
       "amount": 9638,
-      "converted": 40047,
+      "converted": 40045,
       "basis": "retailer_current",
-      "confidence": "EasyLock 香港 2026-08-28 exact-model 公開促銷價；ExchangeRate-API 2026-10-24 匯率換算"
+      "confidence": "EasyLock 香港 2026-08-28 exact-model 公開促銷價；ExchangeRate-API 2026-10-25 匯率換算"
     },
     "installation": {
       "status": "included_basic",
@@ -3420,9 +3420,9 @@
     "name": "Latch Plus 指紋款智慧電子門鎖",
     "price": {
       "currency": "TWD",
-      "amount": 12000,
-      "converted": 12000,
-      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 11400,
+      "converted": 11400,
+      "confidence": "PChome 2026-10-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DECE2SA900B5V4Y/000001_1614234907.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DECE2S-A900B5V4Y",

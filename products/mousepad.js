@@ -2904,7 +2904,8 @@
       "amount": 2290,
       "converted": 2290,
       "basis": "retailer_current",
-      "confidence": "2026-10-23：羅技台灣官店exact943-001617公開預購2290，原生variant available=true可下訂；頁面明示最快2026-10-30開始出貨，非10/23現貨。"
+      "confidence": "2026-10-26 人工覆核同型號同版本來源與銷售狀態；價格適用條件及保留舊參考價的原因見註記與維護報告。",
+      "note": "2026-10-26官方原頁仍預購，最快2026-10-30開始出貨；2290為預購參考價，非已確認現貨。"
     },
     "installation": {
       "status": "not_stated",
@@ -2912,7 +2913,7 @@
     },
     "image": "https://resource.logitechg.com/c_fill,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/pro-x-control-pdp/gallery/pro-x-control-mouse-pad-top-angle-gallery-1.png",
     "buyUrl": "https://store.logitech.tw/products/pro-x-control?variant=45539650568215",
-    "buyLabel": "羅技台灣官方旗艦店（預購，最快10/30出貨）",
+    "buyLabel": "查看官方預購／最快10/30出貨",
     "specs": [
       "類型：布質控制向電競滑鼠墊，黑色943-001617；非POWERPLAY充電墊",
       "表面材質：精密針織布面",

@@ -17,8 +17,8 @@
       "currency": "TWD",
       "amount": 20900,
       "converted": 20900,
-      "confidence": "2026-10-25 人工核對同型號同版本公開參考價；來源與條件見價格註記及維護報告。",
-      "note": "2026-10-25 LG商品頁顯示20497元，但同型號立即購買頁小計與訂單總額仍20900元；保留20900元參考，促銷適用條件與最終金額請向官方確認。"
+      "confidence": "2026-10-26 人工覆核同型號同版本來源與銷售狀態；價格適用條件及保留舊參考價的原因見註記與維護報告。",
+      "note": "2026-10-26 LG官方同型號商品頁公開售價20900元；未扣指定銀行回饋、點數或個人化折扣。"
     },
     "channel": "tw",
     "buyLabel": "LG 官方商城",
@@ -328,9 +328,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/16E678AC30-SP-17622644.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 11900,
-      "converted": 11900,
-      "confidence": "PChome 2026-10-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 12490,
+      "converted": 12490,
+      "confidence": "2026-10-26 人工覆核同型號同版本來源與銷售狀態；價格適用條件及保留舊參考價的原因見註記與維護報告。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1478,9 +1478,9 @@
     "image": "https://cs-a.ecimg.tw/items/DPAI1PA900F1KXB/000001_1762877683.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 35910,
-      "converted": 35910,
-      "confidence": "PChome 2026-10-21 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 32900,
+      "converted": 32900,
+      "confidence": "2026-10-26 人工覆核同型號同版本來源與銷售狀態；價格適用條件及保留舊參考價的原因見註記與維護報告。"
     },
     "channel": "tw",
     "buyLabel": "PChome",

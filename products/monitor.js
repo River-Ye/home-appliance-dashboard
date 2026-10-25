@@ -103,9 +103,9 @@
     "name": "27 吋 QHD 144Hz IPS 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 3999,
-      "converted": 3999,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 3599,
+      "converted": 3599,
+      "confidence": "PChome 2026-10-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABTCA900K0ABK/000001_1781756574.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABTC-A900K0ABK",
@@ -141,16 +141,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 3688,
+      "amount": 3599,
       "currency": "TWD",
-      "converted": 3688,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1275471764&cgp=3999",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Acer 宏碁】VG270U P6 27型 IPS 2K 16:9 144Hz 電競螢幕(可旋轉/內建喇叭/HDR10/FreeSync/1ms/護眼)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Acer 宏碁】VG270U P6 27型 IPS 2K 16:9 144Hz 電競螢幕(可旋轉/內建喇叭/HDR10/FreeSync/1ms/護眼)」最低價為 NT$3,688，最低點日期 2026-06-09。",
-      "sourceKind": "price_history",
+      "converted": 3599,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DSABTC-A900K0ABK",
+      "sourceTitle": "PChome 24h 購物：Acer VG270U P6 電競螢幕(27吋/QHD/144Hz/1ms/IPS)",
+      "evidenceSnippet": "PChome 24h 購物於 2026-10-26 顯示同型號可信新品公開價 NT$3,599，低於既有史低 NT$3,688。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-10-26",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",

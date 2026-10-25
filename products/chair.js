@@ -2231,7 +2231,7 @@
       "currency": "TWD",
       "amount": 10800,
       "converted": 10800,
-      "confidence": "2026-10-25 人工核對同型號同版本公開參考價；來源與條件見價格註記及維護報告。"
+      "confidence": "2026-10-26 人工覆核同型號同版本來源與銷售狀態；價格適用條件及保留舊參考價的原因見註記與維護報告。"
     },
     "image": "https://cdn-general.cybassets.com/media/W1siZiIsIjExNTM0L3Byb2R1Y3RzLzY5MDYwMDU4LzE3ODMzMjQyNDJfMmUwZTM1MmFkMzk5YWMzYzE2YTMucG5nIl0sWyJwIiwidGh1bWIiLCI2MDB4NjAwIl1d.png?sha=b52c636bed7f1599",
     "buyUrl": "https://www.backbone.tw/products/orca",

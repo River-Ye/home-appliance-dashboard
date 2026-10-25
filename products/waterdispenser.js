@@ -1145,9 +1145,10 @@
     "image": "https://cs-a.ecimg.tw/items/DMAWEMA900GDIXH/000001_1774485785.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 20900,
-      "converted": 20900,
-      "confidence": "PChome 2026-09-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 18810,
+      "converted": 18810,
+      "confidence": "2026-10-26 人工覆核同型號同版本來源與銷售狀態；價格適用條件及保留舊參考價的原因見註記與維護報告。",
+      "note": "2026-10-26 PChome公開任選1件9折後18810元，至2026-10-26 07:59:59（台灣時間）；未扣個人券、點數或信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -2037,9 +2038,10 @@
     "name": "廚下型飲用水加熱器",
     "price": {
       "currency": "TWD",
-      "amount": 21855,
-      "converted": 21855,
-      "confidence": "Yahoo購物中心 2026-10-23 exact-model 公開結構化價格"
+      "amount": 23500,
+      "converted": 23500,
+      "confidence": "2026-10-26 人工覆核同型號同版本來源與銷售狀態；價格適用條件及保留舊參考價的原因見註記與維護報告。",
+      "note": "2026-10-26 Yahoo主商品公開價23500元；原限時折扣未再出現，未扣個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWB8A900BVEOG/000001_1760685693.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/BWT%E5%BE%B7%E5%9C%8B%E5%80%8D%E4%B8%96-%E6%99%BA%E6%85%A7%E5%9E%8B%E6%AB%A5%E4%B8%8B%E5%8A%A0%E7%86%B1%E5%99%A8-DWH30A-9802406.html",
@@ -2134,8 +2136,8 @@
     "price": {
       "currency": "USD",
       "amount": 449.99,
-      "converted": 14664,
-      "confidence": "2026-10-24 人工核對 www.brondell.com 同型號與所選版本公開價 USD 449.99，可下單；未扣會員、信用卡或點數。；ExchangeRate-API 2026-10-24 匯率換算"
+      "converted": 14663,
+      "confidence": "2026-10-24 人工核對 www.brondell.com 同型號與所選版本公開價 USD 449.99，可下單；未扣會員、信用卡或點數。；ExchangeRate-API 2026-10-25 匯率換算"
     },
     "image": "https://cdn11.bigcommerce.com/s-mpfo2gcqca/images/stencil/1280x1280/products/560/5775/brondell-circle-rc100-reverse-osmosis-system-faucet.jpg__76718.1789593792.jpg?c=1",
     "buyUrl": "https://www.brondell.com/circle-reverse-osmosis-water-filter-system/",
@@ -2171,14 +2173,14 @@
       "status": "found",
       "amount": 289.99,
       "currency": "USD",
-      "converted": 9450,
+      "converted": 9449,
       "sourceUrl": "https://www.costco.com/CategoryDisplay?catalogId=10701&identifier=water-dispensers-filtration-water-filtration&storeId=10301",
       "sourceTitle": "Costco US：Brondell Circle Reverse Osmosis Water Filtration System",
       "evidenceSnippet": "Costco US exact-model 分類頁於 2026-08-28 顯示 Brondell Circle 折後 US$289.99，原價 US$369.99，優惠 US$80。",
       "sourceKind": "retailer_promo",
       "confidence": "medium",
       "checkedAt": "2026-08-28",
-      "note": "採 Costco US 公開 exact-model 折價作為本次可重現最低觀測價；未含國際運費、進口稅、耗材與台灣安裝／保固風險；依 2026-10-24 USD/TWD 匯率換算。"
+      "note": "採 Costco US 公開 exact-model 折價作為本次可重現最低觀測價；未含國際運費、進口稅、耗材與台灣安裝／保固風險；依 2026-10-25 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "common_issue",
@@ -2321,9 +2323,10 @@
     "name": "PREMIER 廚下冰溫瞬熱旗艦飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 36800,
-      "converted": 36800,
-      "confidence": "PChome 2026-09-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 33120,
+      "converted": 33120,
+      "confidence": "2026-10-26 人工覆核同型號同版本來源與銷售狀態；價格適用條件及保留舊參考價的原因見註記與維護報告。",
+      "note": "2026-10-26 PChome公開任選1件9折後33120元，至2026-10-26 07:59:59（台灣時間）；未扣個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWI0A900ITF3M/000001_1781688918.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAWI0-A900ITF3M",
@@ -4221,8 +4224,8 @@
       "currency": "TWD",
       "converted": 18800,
       "basis": "retailer_current",
-      "note": "保留 2026-09-07 最後已驗證售價 NT$18,800。2026-09-08 晚間原黑色 LED 龍頭購買頁回應 HTTP 404；同商家產品資料頁仍列該款 NT$18,800 含基本安裝，但線上購買連結失效，現售與庫存待確認。",
-      "confidence": "2026-10-25 人工核對同型號同版本公開參考價；來源與條件見價格註記及維護報告。"
+      "note": "2026-10-26資料頁仍列18800元含基本安裝，購物入口404；保留舊參考與現售待確認，非已驗證可下單現價。",
+      "confidence": "2026-10-26 人工覆核同型號同版本來源與銷售狀態；價格適用條件及保留舊參考價的原因見註記與維護報告。"
     },
     "buyUrl": "https://www.yushan-water.com.tw/product-detail-3831092.html",
     "buyLabel": "玉山淨水產品資料（現售待確認）",
