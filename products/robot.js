@@ -220,7 +220,7 @@
     },
     "image": "https://taiwan.roborock.com/cdn/shop/files/Saros20_Sonic_album_pic1_asia_web.jpg",
     "buyUrl": "https://www.momoshop.com.tw/product/15103194",
-    "buyLabel": "前往 momo 購買",
+    "buyLabel": "momo 購買",
     "specs": [
       "36000Pa HyperForce 吸力",
       "VibraRise 5.0 聲波拖地：每分鐘 4000 次、14N 下壓力",
