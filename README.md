@@ -12,8 +12,8 @@
 
 ## 內容
 
-- 共 37 類商品，每種商品至少 20 個，共 1219 筆。
-- 另由現有分類與商品資料產生 37 個可獨立索引的 `/categories/<id>/` 選購指南頁；每頁的初始 HTML 均含前 5 名詳細推薦與該類全部型號索引，不為 1219 筆商品建立重複、薄內容的獨立頁面。
+- 共 37 類商品，每種商品至少 20 個，共 1220 筆。
+- 另由現有分類與商品資料產生 37 個可獨立索引的 `/categories/<id>/` 選購指南頁；每頁的初始 HTML 均含前 5 名詳細推薦與該類全部型號索引，不為 1220 筆商品建立重複、薄內容的獨立頁面。
 - 床包、棉被各 30 款，枕頭 32 款；CP 值／均衡／旗艦分別為床包與棉被 6／12／12、枕頭 6／12／14，位於獨立「臥室寢具」群組，各一款台灣 Top Pick。床包涵蓋單件與床包加枕套組，棉被涵蓋五種主要填充，枕頭只收成人睡眠枕；同系列最多三個官方獨立尺寸或高度／軟硬度 SKU，顏色、花色、件數與贈品不增加款數。
 - 滑鼠 34 款、鍵盤 34 款、滑鼠墊 33 款；CP 值／均衡／旗艦分別為 6／13／15、6／13／15、6／12／15，辦公與電競並重，各一款台灣 Top Pick。完整成品優先台灣可信新品通路；鍵盤不同軸體、滑鼠墊不同平面尺寸可依官方型號／SKU 分列，同款最多三版，純顏色、語言、背光或套裝不增加款數。2026-09-01 01:56 的周邊增量批次以原 943 款為固定 baseline，只新增 90 款。
 - 周邊品牌涵蓋 Logitech、Razer、Sony；鍵盤另含 Keychron、HyperX、Ducky、SteelSeries、ASUS、MSI、Corsair、NuPhy、Wooting，滑鼠墊另含 ASUS、ELECOM、KINYO、HP、IKEA、darkFlash、ZOWIE、SteelSeries。品牌篩選依各分類實際收錄顯示，不表示每個品牌都有三類商品。
@@ -24,7 +24,7 @@
 - 本輪補齊 Dreame X60 Track 的台灣官方現售、主機 RLR82DE／基站 RCZE0204 與 110V／50–60Hz 手冊證據，保留 Aqua 10 Pro Track 比較；分件淨重、上市日及可靠史低仍查不到，未列 Top Pick。
 - 新增 HITACHI RV-X20DPA，配備 4L 自動集塵座，但拖布仍需手洗；購前須電話確認，保固年限未明。
 - 除濕機共 30 款；新增 Whirlpool WDEE123HTW，分列除濕與清淨適用範圍，並保留噪音及到貨外觀評價限制。
-- 電腦螢幕共 66 款；新增 MSI MPG 491CQPX QD-OLED，提供 49 吋 DQHD 240Hz 與 USB-C 98W；保留 491CQP、MPG 271QR QD-OLED X50 與既有 ASUS 型號比較。
+- 電腦螢幕共 67 款；新增 BenQ RD320U 31.5 吋 4K／60Hz 程式設計螢幕，核對台灣三年保固、100–240V 與不含底座 7.3kg，並保留跨站個別面板與 KVM 回報。保留原 66 款，包括 MSI MPG 491CQPX QD-OLED、491CQP、MPG 271QR QD-OLED X50 與既有 ASUS 型號比較。
 - 烘衣機共 26 款；新增 Panasonic NH-V150SP 15kg獨立熱泵款，台灣110V／60Hz、64kg、含基本安裝與同賣場一年保固；原廠要求15A專用接地插座、漏電斷路器與排水，原24款保留。
 - 洗烘衣機共 35 款；本輪補入 Electrolux EWW1143R7WC 11/7kg，110V／60Hz、原廠全機兩年保固，所選 PChome 頁面基本安裝含價範圍待確認。新增 Panasonic NA-LX128EL 左開 12/6kg 日本製熱泵款，核對 110V／60Hz、80kg 與含基本安裝的台灣新品價格，保留既有型號。
 - 無線路由器共 57 款；新增 D-Link M95 單台三頻 Wi-Fi 7 Mesh，保留 R95 與 M36；公開促銷時限、原廠三年保固及少數斷線／發熱回報均有揭露。
@@ -48,10 +48,10 @@
 - 針對桌機與手機操作最佳化，包含群組化分類列、sticky 分類列、手機快速操作列、收合式商品細節與重設篩選。
 - 21 類尺寸與 13 類新增重量規格／證據對齊，含螢幕燈、三類鍵鼠周邊與三類寢具；既有家電及寢具使用 cm／kg，周邊使用 mm／g 並保留來源明示軸序。滑鼠墊厚度、床包可包覆高度、棉被填充重量另列；無法確認時明示「查不到」，不使用包裝、毛重或猜測缺漏資料。
 <!-- catalog-maintenance-summary:start -->
-- 2026-10-26 07:13（台灣時間）完成 1219 筆商品、37 類價格與來源全量查核；539 筆 PChome SKU API 已完成（280 筆 exact model、62 筆人工 SKU 綁定可寫入，72 筆型號未自動確認），更新 11 筆公開價格（6 筆下修、5 筆上修），43 筆缺貨／預購只列追蹤。
-- 本次增量沒有納入新產品；本次增量沒有移除停產產品。已逐類覆核取得的新品來源；尚未確認的逐型號後繼對照與來源限制詳見 categoryScan，所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
-- 圖片查核覆蓋 1219 筆；837 筆來源可由 exact model 或人工 SKU 綁定確認，382 筆來源例外與 0 筆圖片例外保留原資料。史低為 509 筆 `found`、710 筆 `not_found`，本輪下修 1 筆、其他更正 5 筆；84 筆來源可自動重現，其餘保留原逐筆證據且未臆測失效。
-- ExchangeRate-API 最新批次為 2026-10-25 00:02 UTC，USD/TWD 32.584288；39 筆外幣商品已重算。完整摘要與例外保存在 `catalog_maintenance_latest.json`。
+- 2026-10-26 11:06（台灣時間）完成 1220 筆商品、37 類價格與來源全量查核；539 筆 PChome SKU API 已完成（280 筆 exact model、62 筆人工 SKU 綁定可寫入，72 筆型號未自動確認），更新 14 筆公開價格（2 筆下修、12 筆上修），43 筆缺貨／預購只列追蹤。
+- 本次增量新增 monitor-benq-rd320u；本次增量沒有移除停產產品。已逐類覆核取得的新品來源；尚未確認的逐型號後繼對照與來源限制詳見 categoryScan，所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
+- 圖片查核覆蓋 1220 筆；844 筆來源可由 exact model 或人工 SKU 綁定確認，376 筆來源例外與 0 筆圖片例外保留原資料。史低為 510 筆 `found`、710 筆 `not_found`，本輪其他更正 5 筆；85 筆來源可重現，其餘保留原逐筆證據且未臆測失效。
+- ExchangeRate-API 最新批次為 2026-10-26 00:02 UTC，USD/TWD 32.596145；39 筆外幣商品已重算。完整摘要與例外保存在 `catalog_maintenance_latest.json`。
 <!-- catalog-maintenance-summary:end -->
 
 2026-10-24 已重查 37 類官方新品入口與 333 格日系品牌邊界，但既有型號與後繼型號的逐筆對應尚未全部完成。各類 `successorReview` 保留實際查到的對應與來源限制；無法存取或確認的部分不視為「沒有後繼款」，既有上市、尺寸與負評證據也保留原查核日期。
@@ -69,7 +69,7 @@
 ## GEO / AI 搜尋維護
 
 - `tools/category-guides.js` 是 37 類導讀、選購重點與 FAQ 的人工維護來源；商品事實仍以 `assets/js/config.js` 與 `products/*.js` 為準。
-- 每個分類頁會從同一份商品資料產生可直接擷取的「完整型號索引」，讓無 JavaScript 爬蟲也能讀到全部 1219 款的品牌、型號、名稱、參考價、上市日期與摘要。
+- 每個分類頁會從同一份商品資料產生可直接擷取的「完整型號索引」，讓無 JavaScript 爬蟲也能讀到全部 1220 款的品牌、型號、名稱、參考價、上市日期與摘要。
 - 站名、首頁 title、description、H1 與 AI 揭露契約集中在 `tools/geo-config.js`，供首頁檢查、JSON-LD、分類產生器與 `llms.txt` 共用。
 - 修改商品、分類、分類指南或首頁 CSS 來源後，先執行 `npm run generate:categories`。`assets/css/app.css`、`categories/<id>/index.html`、`sitemap.xml`、`llms.txt`，以及 `index.html` 內 `geo-structured-data`／`geo-category-links` marker 之間的區塊都是產生結果，不可手動修改。
 - `llms.txt` 只是提供網站用途、查核方式與分類入口的補充說明，不保證任何搜尋排名、AI 引用或收錄結果。
@@ -84,9 +84,9 @@ npm run check
 
 - `npm run check:syntax`：檢查公開 JS 與維護工具語法。
 - `npm run check:logic`：檢查排序、篩選、URL 狀態、史低／負評文案、問題摘要搜尋、來源 URL 安全、HTML escape 與商品 loader 純邏輯。
-- `npm run check:data`：檢查 37 類、1219 筆、必要欄位、日期格式、21 類尺寸與 13 類新增重量規格／證據對齊、鍵鼠與寢具逐分類精確款數及預算配額、同款最多三版、型態與版本重複、螢幕燈 20 款、網路交換器 20 款、冷氣 30 組、熱水器 47 台、333 格日系品牌矩陣、價格／安裝 enum、歷史最低價與負評 research 對齊、人工覆核完成清單、逐位反映者、6 人／2 平台門檻、每類至少 20 筆、重複型號與重複購買 URL。
+- `npm run check:data`：檢查 37 類、1220 筆、必要欄位、日期格式、21 類尺寸與 13 類新增重量規格／證據對齊、鍵鼠與寢具逐分類精確款數及預算配額、同款最多三版、型態與版本重複、螢幕燈 20 款、網路交換器 20 款、冷氣 30 組、熱水器 47 台、333 格日系品牌矩陣、價格／安裝 enum、歷史最低價與負評 research 對齊、人工覆核完成清單、逐位反映者、6 人／2 平台門檻、每類至少 20 筆、重複型號與重複購買 URL。
 - `npm run check:docs`：檢查 README、AGENTS、index/config 的商品數、分類數、日期與 cache version 沒有漂移。
-- `npm run check:geo`：檢查 37 個分類頁、1219 款靜態型號索引、metadata、結構化資料、內部連結、sitemap、llms、證據檔、Pages artifact、38 個 canonical IndexNow URL contract 與所有產生結果沒有漂移。
+- `npm run check:geo`：檢查 37 個分類頁、1220 款靜態型號索引、metadata、結構化資料、內部連結、sitemap、llms、證據檔、Pages artifact、38 個 canonical IndexNow URL contract 與所有產生結果沒有漂移。
 - `npm run check:ui`：用 Playwright 驗證桌機/手機搜尋、篩選、排序、lazy loading、比較清單、負評警示與推薦卡高亮。
 - `npm run check:quality`：用 Lighthouse 驗證首頁與代表分類頁；Performance、LCP、CLS、Accessibility 與 SEO 採瀏覽器行動 throttling，TBT 採 Lantern 標準化模擬以排除 CI runner 硬體差異，門檻仍為 200ms。
 - `npm run audit:pchome-prices`：唯讀重查所有 PChome SKU；有正值 `Price.Low` 時優先採折扣價，否則採 `Price.P`。人工確認輸出後才可加 `-- --write --date=YYYY-MM-DD` 寫回。

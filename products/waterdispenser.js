@@ -1145,13 +1145,13 @@
     "image": "https://cs-a.ecimg.tw/items/DMAWEMA900GDIXH/000001_1774485785.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 18810,
-      "converted": 18810,
-      "confidence": "2026-10-26 人工覆核同型號同版本來源與銷售狀態；價格適用條件及保留舊參考價的原因見註記與維護報告。",
-      "note": "2026-10-26 PChome公開任選1件9折後18810元，至2026-10-26 07:59:59（台灣時間）；未扣個人券、點數或信用卡回饋。"
+      "amount": 20900,
+      "converted": 20900,
+      "confidence": "2026-10-26 人工覆核同型號同版本公開價與活動期限；條件見價格註記。",
+      "note": "2026-10-26 08:00後Chrome原購買頁公開20900元；早間任選1件9折活動已到期，未扣個人券、點數或信用卡回饋。"
     },
     "channel": "tw",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome 24h購物",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAWEM-A900GDIXH",
     "specs": [
       "櫥下飲水機：賀眾牌廚下型冷熱飲水機UW-2262HW-1",
@@ -2038,14 +2038,14 @@
     "name": "廚下型飲用水加熱器",
     "price": {
       "currency": "TWD",
-      "amount": 23500,
-      "converted": 23500,
-      "confidence": "2026-10-26 人工覆核同型號同版本來源與銷售狀態；價格適用條件及保留舊參考價的原因見註記與維護報告。",
-      "note": "2026-10-26 Yahoo主商品公開價23500元；原限時折扣未再出現，未扣個人券、點數或信用卡回饋。"
+      "amount": 21855,
+      "converted": 21855,
+      "confidence": "2026-10-26 人工覆核同型號同版本公開價與活動期限；條件見價格註記。",
+      "note": "2026-10-26 Yahoo主商品公開滿1件93折價21855元（原23500），活動801674自10/26 10:00至10/27 07:00:59（台灣）；未扣點換券、個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWB8A900BVEOG/000001_1760685693.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/BWT%E5%BE%B7%E5%9C%8B%E5%80%8D%E4%B8%96-%E6%99%BA%E6%85%A7%E5%9E%8B%E6%AB%A5%E4%B8%8B%E5%8A%A0%E7%86%B1%E5%99%A8-DWH30A-9802406.html",
-    "buyLabel": "Yahoo購物中心",
+    "buyLabel": "Yahoo購物（限時價至10/27 07:00:59）",
     "specs": [
       "廚下型",
       "加熱器",
@@ -2136,8 +2136,8 @@
     "price": {
       "currency": "USD",
       "amount": 449.99,
-      "converted": 14663,
-      "confidence": "2026-10-24 人工核對 www.brondell.com 同型號與所選版本公開價 USD 449.99，可下單；未扣會員、信用卡或點數。；ExchangeRate-API 2026-10-25 匯率換算"
+      "converted": 14668,
+      "confidence": "2026-10-24 人工核對 www.brondell.com 同型號與所選版本公開價 USD 449.99，可下單；未扣會員、信用卡或點數。；ExchangeRate-API 2026-10-26 匯率換算"
     },
     "image": "https://cdn11.bigcommerce.com/s-mpfo2gcqca/images/stencil/1280x1280/products/560/5775/brondell-circle-rc100-reverse-osmosis-system-faucet.jpg__76718.1789593792.jpg?c=1",
     "buyUrl": "https://www.brondell.com/circle-reverse-osmosis-water-filter-system/",
@@ -2173,14 +2173,14 @@
       "status": "found",
       "amount": 289.99,
       "currency": "USD",
-      "converted": 9449,
+      "converted": 9453,
       "sourceUrl": "https://www.costco.com/CategoryDisplay?catalogId=10701&identifier=water-dispensers-filtration-water-filtration&storeId=10301",
       "sourceTitle": "Costco US：Brondell Circle Reverse Osmosis Water Filtration System",
       "evidenceSnippet": "Costco US exact-model 分類頁於 2026-08-28 顯示 Brondell Circle 折後 US$289.99，原價 US$369.99，優惠 US$80。",
       "sourceKind": "retailer_promo",
       "confidence": "medium",
       "checkedAt": "2026-08-28",
-      "note": "採 Costco US 公開 exact-model 折價作為本次可重現最低觀測價；未含國際運費、進口稅、耗材與台灣安裝／保固風險；依 2026-10-25 USD/TWD 匯率換算。"
+      "note": "採 Costco US 公開 exact-model 折價作為本次可重現最低觀測價；未含國際運費、進口稅、耗材與台灣安裝／保固風險；依 2026-10-26 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "common_issue",
@@ -2323,14 +2323,14 @@
     "name": "PREMIER 廚下冰溫瞬熱旗艦飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 33120,
-      "converted": 33120,
-      "confidence": "2026-10-26 人工覆核同型號同版本來源與銷售狀態；價格適用條件及保留舊參考價的原因見註記與維護報告。",
-      "note": "2026-10-26 PChome公開任選1件9折後33120元，至2026-10-26 07:59:59（台灣時間）；未扣個人券、點數或信用卡回饋。"
+      "amount": 36800,
+      "converted": 36800,
+      "confidence": "2026-10-26 人工覆核同型號同版本公開價與活動期限；條件見價格註記。",
+      "note": "2026-10-26 08:00後Chrome原購買頁公開36800元；早間任選1件9折活動已到期，未扣個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWI0A900ITF3M/000001_1781688918.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAWI0-A900ITF3M",
-    "buyLabel": "PChome 24h",
+    "buyLabel": "PChome 24h購物",
     "specs": [
       "600G RO／6 L 純水箱；純水製水量 1.5 L/min、純淨水流量 2.5 L/min",
       "厚膜瞬熱、無熱缸；9 段水溫、6 段定量",

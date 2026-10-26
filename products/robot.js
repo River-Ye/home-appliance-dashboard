@@ -1359,8 +1359,8 @@
     "price": {
       "currency": "EUR",
       "amount": 1099,
-      "converted": 40118,
-      "confidence": "2026-10-24人工核對de.narwal.com同型號同版本公開EUR 1099；未扣個人化券、信用卡或點數。；ExchangeRate-API 2026-10-25 匯率換算",
+      "converted": 40155,
+      "confidence": "2026-10-24人工核對de.narwal.com同型號同版本公開EUR 1099；未扣個人化券、信用卡或點數。；ExchangeRate-API 2026-10-26 匯率換算",
       "note": "2026-10-24德國官方白色標準站單機套裝公開EUR1099；未扣需輸入優惠碼的Halloween折扣。未含國際運費、進口稅，台灣電壓/插頭及保固/跨國送修風險另核。"
     },
     "image": "https://de.narwal.com/cdn/shop/files/narwal-flow-2-saugroboter-mit-selbstreinigung-9224922_1200x1200.png?v=1781597108",
@@ -1456,8 +1456,8 @@
     "price": {
       "currency": "USD",
       "amount": 551.69,
-      "converted": 17976,
-      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-10-25 匯率換算"
+      "converted": 17983,
+      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-10-26 匯率換算"
     },
     "image": "https://img.gkbcdn.com/p/2025-04-11/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438-0._w315_.jpg",
     "buyUrl": "https://www.geekbuying.com/item/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438.html",
@@ -2601,8 +2601,8 @@
     "price": {
       "currency": "USD",
       "amount": 999.99,
-      "converted": 32584,
-      "confidence": "SharkNinja US 2026-07-21 來源價；ExchangeRate-API 2026-10-25 匯率換算"
+      "converted": 32596,
+      "confidence": "SharkNinja US 2026-07-21 來源價；ExchangeRate-API 2026-10-26 匯率換算"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/RV2820ZE_01.jpg",
     "buyUrl": "https://www.sharkninja.com/shark-powerdetect-2-in-1-robot-vacuum-and-mop-with-nevertouch-pro-base/RV2820ZE.html",
@@ -2795,8 +2795,8 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 13033,
-      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-10-25 匯率換算",
+      "converted": 13038,
+      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-10-26 匯率換算",
       "note": "2026-10-19 Costco 原商品頁已失效，未確認同型號新品現售；保留原幣參考價，只更新匯率換算，不以 QX Revo Arc／Plus／Max 替代。"
     },
     "image": "https://cdn.cs.1worldsync.com/syndication/mediaserverredirect/aaaa71b7b115f7d0cbeb119d8fc3ad7b/width%281200%29.jpg",

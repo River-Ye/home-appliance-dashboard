@@ -1,20 +1,20 @@
 {
   "summary": {
-    "checkedAt": "2026-10-24T00:00:00+08:00",
-    "total": 1219,
+    "checkedAt": "2026-10-26T00:00:00+08:00",
+    "total": 1220,
     "researchedThisRun": 1,
     "found": 351,
-    "missing": 868,
+    "missing": 869,
     "byConfidence": {
       "official": 188,
-      "not_found": 865,
+      "not_found": 866,
       "retailer_explicit": 23,
       "credible_article": 52,
       "high": 71,
       "medium": 17,
       "unknown": 3
     },
-    "scopeNote": "2026-10-24第二次全量價格/來源維護；上市日期僅補查新增Keychron KBKCV6UD1，既有1218筆上市證據與真實日期保留。"
+    "scopeNote": "2026-10-26後續全量價格/來源維護；上市日期僅補查新增BenQ RD320U，既有1219筆上市證據與真實日期保留。"
   },
   "results": [
     {
@@ -37332,6 +37332,49 @@
           "url": "https://www.keychron.com/products/keychron-v6-ultra-hybrid-8k-wireless-custom-magnetic-mechanical-keyboard",
           "title": "Keychron V6 Ultra Hybrid 8K",
           "outcome": "另一磁機混合預購SKU，12月預計出貨；排除其募資/預購日期。"
+        }
+      ]
+    },
+    {
+      "id": "monitor-benq-rd320u",
+      "category": "monitor",
+      "brand": "BenQ",
+      "model": "RD320U",
+      "name": "31.5 吋 4K Nano Matte 程式設計護眼螢幕（含 MoonHalo）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "https://www.benq.com/zh-tw/news/monitor/monitor-202409-rd-sp-screenbarpro-promotion.html",
+      "sourceTitle": "BenQ台灣 RD320U新機上市促銷公告（非明確發售日）",
+      "evidenceSnippet": "台灣原公告稱RD320U全新上市，但9/27–11/30明示為購買登錄活動期間，沒有另定義台灣實際發售日；全球公告為預計2024上半年，日本公告2024-12-24是日本發售。",
+      "confidence": "not_found",
+      "reason": "不將促銷起迄、新聞發布日期、支援文件日期或日本區發售日當台灣上市日；台灣exact-model沒有可確定的上市日期，誠實標找不到。",
+      "query": "\"RD320U\" site:benq.com/zh-tw 上市 發售日期",
+      "auditQueries": [
+        "\"RD320U\" site:benq.com/zh-tw 上市 發售日期",
+        "\"RD320U\" site:benq.com \"launch\" \"2024\""
+      ],
+      "checkedAt": "2026-10-26",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.benq.com/zh-tw/monitor/programming/rd320u/spec.html",
+          "title": "RD320U台灣規格表",
+          "outcome": "exact-model在售規格，未明示上市日。"
+        },
+        {
+          "url": "https://www.benq.com/zh-tw/news/monitor/monitor-202409-rd-sp-screenbarpro-promotion.html",
+          "title": "RD320U台灣新機登錄活動",
+          "outcome": "日期屬登錄促銷而非獨立明示發售日，不採促銷起日。"
+        },
+        {
+          "url": "https://www.benq.com/en-ap/news/products/benq-programming-monitor-rd-series-press-release.html",
+          "title": "BenQ全球RD系列公告",
+          "outcome": "2024上半年是預計，不是本款台灣確認發售日。"
+        },
+        {
+          "url": "https://www.benq.com/ja-jp/news/products/20241217-611-rd320u.html",
+          "title": "BenQ日本RD320U發售公告",
+          "outcome": "2024-12-24限日本，未移植成台灣發售日。"
         }
       ]
     }

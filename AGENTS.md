@@ -69,7 +69,7 @@
 
 ## GEO / AI 搜尋規則
 
-- 網站由現有 37 類資料產生 37 個 `/categories/<id>/` 靜態分類指南頁；不建立 1219 個重複商品事實的薄內容頁。
+- 網站由現有 37 類資料產生 37 個 `/categories/<id>/` 靜態分類指南頁；不建立 1220 個重複商品事實的薄內容頁。
 - 每個分類指南的初始 HTML 必須含該類全部商品的品牌、完整型號、名稱、參考價、價格基準、上市／發售日期與摘要；前 5 名繼續顯示完整評估卡。
 - `tools/category-guides.js` 只維護分類層級的繁中導讀、3 項選購條件與 3 組 FAQ；商品名稱、價格、排名、規格、史低與負評仍從既有商品資料產生，避免第二套事實來源。
 - 站名、首頁 title、description、H1 與 AI 揭露集中在 `tools/geo-config.js`；首頁 metadata、JSON-LD、分類頁與 `llms.txt` 必須共用此契約。首頁與分類頁首屏皆需可見 AI 協作、資料日期、查核方法與 GitHub 原始碼。
@@ -82,7 +82,7 @@
 
 ## 目前資料規模
 
-- 共 37 類、1219 筆商品。
+- 共 37 類、1220 筆商品。
 - 所有分類每類至少 20 筆；新增分類或補資料時不可讓任何分類低於 20 筆。
 - 原初固定款數與配額可因使用者明確要求補入合格新版而擴充；保留合格現售舊款，並同步 `tools/dashboard-contract.js`、config、證據與文件。精確總數及各類分型／預算配額仍須通過 contract 驗證，不改為寬鬆最低數，也不放寬電力、版本、史低或跨站人工負評門檻。
 - 特殊分類目前數量：
@@ -92,7 +92,7 @@
   - `掃拖機器人`：50 筆，需涵蓋知名品牌旗艦與次旗艦。
   - `無線路由器`：57 筆，只收 Wi-Fi 6 以上，Mesh/多 AP/商用管理支援要寫清楚。
   - `網路交換器`：20 筆，固定 8 個主要 RJ45 埠，1G／2.5G／10G 各至少 4 款；只收台灣公司貨、金屬外殼與非 PoE 型號。
-  - `電腦螢幕`：66 筆，需涵蓋主流品牌、不同用途帶與 34/40/45/49/57 吋寬螢幕。
+  - `電腦螢幕`：67 筆，需涵蓋主流品牌、不同用途帶與 34/40/45/49/57 吋寬螢幕。
   - `螢幕燈`：20 筆，只收桌機螢幕掛燈，台灣通路優先、可信海外通路補充；需核對夾具厚度、曲面限制、配光、供電、燈體尺寸與淨重。
   - `電腦椅`：30 筆，需區分人體工學辦公與電競用途，確認尺寸、承重與台灣保固。
   - `懸臂支架`：25 筆，需標示支援尺寸、承重重量與是否適合 49/57 吋大寬螢幕。
@@ -303,7 +303,7 @@
 
 ### 電腦螢幕
 
-- 至少 30 筆以上，現有 66 筆。
+- 至少 30 筆以上，現有 67 筆。
 - 需涵蓋 ASUS、Acer、BenQ、LG、Dell、Samsung、MSI、GIGABYTE、ViewSonic、AOC、Philips、EIZO、Xiaomi 等主流品牌。
 - 要混合入門 FHD、2K 高刷新、4K/USB-C、生產力、OLED、Mini LED、專業色彩等用途。
 - 必須涵蓋寬螢幕/超寬螢幕，例如 34 吋 21:9、45 吋 OLED、49 吋 32:9、57 吋 Dual UHD 等；描述要提醒桌深、顯卡與支架承重。
@@ -417,10 +417,10 @@
 ## 價格與匯率
 
 <!-- catalog-maintenance-summary:start -->
-- 2026-10-26 07:13（台灣時間）完成 1219 筆商品、37 類價格與來源全量查核；539 筆 PChome SKU API 已完成（280 筆 exact model、62 筆人工 SKU 綁定可寫入，72 筆型號未自動確認），更新 11 筆公開價格（6 筆下修、5 筆上修），43 筆缺貨／預購只列追蹤。
-- 本次增量沒有納入新產品；本次增量沒有移除停產產品。已逐類覆核取得的新品來源；尚未確認的逐型號後繼對照與來源限制詳見 categoryScan，所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
-- 圖片查核覆蓋 1219 筆；837 筆來源可由 exact model 或人工 SKU 綁定確認，382 筆來源例外與 0 筆圖片例外保留原資料。史低為 509 筆 `found`、710 筆 `not_found`，本輪下修 1 筆、其他更正 5 筆；84 筆來源可自動重現，其餘保留原逐筆證據且未臆測失效。
-- ExchangeRate-API 最新批次為 2026-10-25 00:02 UTC，USD/TWD 32.584288；39 筆外幣商品已重算。完整摘要與例外保存在 `catalog_maintenance_latest.json`。
+- 2026-10-26 11:06（台灣時間）完成 1220 筆商品、37 類價格與來源全量查核；539 筆 PChome SKU API 已完成（280 筆 exact model、62 筆人工 SKU 綁定可寫入，72 筆型號未自動確認），更新 14 筆公開價格（2 筆下修、12 筆上修），43 筆缺貨／預購只列追蹤。
+- 本次增量新增 monitor-benq-rd320u；本次增量沒有移除停產產品。已逐類覆核取得的新品來源；尚未確認的逐型號後繼對照與來源限制詳見 categoryScan，所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
+- 圖片查核覆蓋 1220 筆；844 筆來源可由 exact model 或人工 SKU 綁定確認，376 筆來源例外與 0 筆圖片例外保留原資料。史低為 510 筆 `found`、710 筆 `not_found`，本輪其他更正 5 筆；85 筆來源可重現，其餘保留原逐筆證據且未臆測失效。
+- ExchangeRate-API 最新批次為 2026-10-26 00:02 UTC，USD/TWD 32.596145；39 筆外幣商品已重算。完整摘要與例外保存在 `catalog_maintenance_latest.json`。
 <!-- catalog-maintenance-summary:end -->
 
 ## 驗證清單
@@ -431,7 +431,7 @@
 - `npm run check:logic`：純邏輯回歸，涵蓋排序、品牌依分類限制、史低／負評文案、問題摘要搜尋、來源 URL 安全、HTML escape 與 product-loader URL/錯誤。
 - `npm run check:data`：商品總數、分類數、必要欄位、日期格式、負評逐型號人工覆核、逐位反映者與研究檔對齊、重複 URL 與重複型號檢查通過。
 - `npm run check:docs`：README、AGENTS、index/config 的商品數、分類數、日期與 cache version 不漂移。
-- `npm run check:geo`：37 個分類頁、1219 款靜態型號索引、metadata、結構化資料、首頁分類入口、sitemap、llms、六份公開證據檔、Pages artifact、38 個 canonical URL 的 IndexNow contract 與產生結果均無漂移。
+- `npm run check:geo`：37 個分類頁、1220 款靜態型號索引、metadata、結構化資料、首頁分類入口、sitemap、llms、六份公開證據檔、Pages artifact、38 個 canonical URL 的 IndexNow contract 與產生結果均無漂移。
 - `npm run check:ui`：桌機與手機版主要互動流程通過。
 - `npm run check:quality`：Lighthouse 的 Performance、LCP、CLS、Accessibility 與 SEO 採瀏覽器行動 throttling，TBT 採 Lantern 標準化模擬；首頁 Performance ≥ 90、LCP ≤ 2.5s、CLS ≤ 0.1、TBT ≤ 200ms、Accessibility = 100、SEO ≥ 95；代表分類頁 Performance、Accessibility、SEO 均 ≥ 95。
 - 商品總數仍符合 README 與分類 tab 顯示。

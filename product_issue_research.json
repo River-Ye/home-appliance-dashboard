@@ -1,9 +1,9 @@
 {
   "summary": {
-    "checkedAt": "2026-10-24T00:00:00+08:00",
-    "total": 1219,
+    "checkedAt": "2026-10-26T00:00:00+08:00",
+    "total": 1220,
     "commonIssueProducts": 53,
-    "noCommonIssueProducts": 1166,
+    "noCommonIssueProducts": 1167,
     "pendingManualReview": 0,
     "commonIssues": 54,
     "searchUnavailable": 614,
@@ -29,7 +29,8 @@
       "2026-09-07 本輪僅新增水空間 WS-RCH601、WS-Min'O-R2、WS-UVN500 三款逐型號跨站人工覆核；WS-RCH601 的門市體驗文章非故障回報，其餘兩款未發現 exact-model 使用者候選，均未達同問題 6 人／2 站門檻。既有 1149 筆研究與逐人證據原樣保留，不宣稱同日重讀。",
       "2026-09-08 全量維護僅對新增 MPG 491CQPX QD-OLED 與 NA-LX128EL 完成逐型號跨站負評人工覆核；既有商品保留原始逐筆研究日期。MSI 的零星訊號／VRR／OSD問題及 Panasonic 的烘後桶體燙感分開處置，均未達同一問題6人且跨2個原始網站門檻。依eufy官方停產公告移除E20及其現行研究列，既有386筆逐人證據不變。",
       "2026-10-24只對新增Bosch SMI6ECS00X完成逐型號跨站人工覆核；momo有一筆四星評分但無可辨識作者或評論文字，格蘭登亦無文字回報，未達6人/2站門檻。既有1217筆逐型號研究與386筆逐人證據保留原日期。",
-      "2026-10-24第二次維護僅新增KBKCV6UD1台灣注音紅軸V6Ultra跨站人工負評覆核；已讀官店及13個Reddit原頁共14候選。官店一名同紅軸無線失效、海外紅軸持續輸入/CapsLock凍結及按壓阻力個案已分別揭露；地區SKU/症狀不同或不明，不合併成6人/2原站。原1218筆研究及386名逐人證據保留真實日期。"
+      "2026-10-24第二次維護僅新增KBKCV6UD1台灣注音紅軸V6Ultra跨站人工負評覆核；已讀官店及13個Reddit原頁共14候選。官店一名同紅軸無線失效、海外紅軸持續輸入/CapsLock凍結及按壓阻力個案已分別揭露；地區SKU/症狀不同或不明，不合併成6人/2原站。原1218筆研究及386名逐人證據保留真實日期。",
+      "2026-10-26後續維護僅新增BenQ RD320U的25原頁跨站人工覆核；2名白綠線、1名亮暗點、1名接縫及KVM/軟體各別個案按症狀分開，沒有同問題6人/2原站。其餘1219筆逐型研究及386名集中問題逐人證據保留原日期；不宣稱全站同日重讀。"
     ]
   },
   "results": [
@@ -216801,6 +216802,1047 @@
           "outcome": "excluded",
           "reviewedAt": "2026-10-24",
           "reviewBasis": "manual_web_original_page"
+        }
+      ]
+    },
+    {
+      "id": "monitor-benq-rd320u",
+      "category": "monitor",
+      "brand": "BenQ",
+      "model": "RD320U",
+      "name": "31.5 吋 4K Nano Matte 程式設計護眼螢幕（含 MoonHalo）",
+      "identity": {
+        "canonicalModel": "RD320U",
+        "lookupLabel": "BenQ RD320U",
+        "aliases": [
+          "BenQ RD320U",
+          "RD320U"
+        ],
+        "evidenceUrl": "https://www.benq.com/zh-tw/monitor/programming/rd320u/spec.html"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "id": "monitor-benq-rd320u",
+        "category": "monitor",
+        "brand": "BenQ",
+        "model": "RD320U",
+        "name": "31.5 吋 4K Nano Matte 程式設計護眼螢幕（含 MoonHalo）",
+        "status": "completed",
+        "reviewedAt": "2026-10-26",
+        "reviewBatch": "monitor",
+        "decision": "no_common_issue",
+        "checkedPlatforms": [
+          "Reddit",
+          "PTT",
+          "Mobile01",
+          "PChome",
+          "Yahoo購物中心"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "\"RD320U\" site:reddit.com/r/BenQ",
+            "queryUrl": "https://www.google.com/search?q=%22RD320U%22%20site%3Areddit.com%2Fr%2FBenQ"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "\"RD320U\" site:ptt.cc",
+            "queryUrl": "https://www.google.com/search?q=%22RD320U%22%20site%3Aptt.cc"
+          },
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "\"RD320U\" site:mobile01.com/topicdetail",
+            "queryUrl": "https://www.google.com/search?q=%22RD320U%22%20site%3Amobile01.com%2Ftopicdetail"
+          }
+        ],
+        "candidateDisposition": "RD320U：25個原頁候選逐一人工覆核；白綠線2位Reddit作者、亮暗點1位PTT、外殼接縫1位Mobile01、KVM2位Reddit及軟體/頻寬個案分症狀處置。不同型號、同作者跨串與評分不湊人數，未達同問題6人跨2原站。",
+        "representativeSources": [
+          {
+            "url": "https://www.reddit.com/r/BenQ/comments/1saciv8/benq_rd320u_showing_whitegreen_lines_becomes/",
+            "title": "BenQ RD320U showing white/green lines, becomes unusable, only a couple of months old",
+            "platform": "Reddit"
+          },
+          {
+            "url": "https://www.reddit.com/r/BenQ/comments/1n4p2db/new_benq_rd320u_showing_white_green_lines/",
+            "title": "New BenQ RD320U showing white, green lines",
+            "platform": "Reddit"
+          },
+          {
+            "url": "https://www.reddit.com/r/BenQ/comments/1fphqwd/in_praise_of_rd_320u/",
+            "title": "In praise of RD 320U",
+            "platform": "Reddit"
+          },
+          {
+            "url": "https://www.reddit.com/r/BenQ/comments/1fc824i/the_usbc_hub_needs_screen_constantly_on_or_im/",
+            "title": "The usb-c hub needs screen constantly ON or I am missing something?",
+            "platform": "Reddit"
+          },
+          {
+            "url": "https://www.reddit.com/r/BenQ/comments/1nztxx5/a_web_developer_and_tinkerers_review_of_the_benq/",
+            "title": "A Web Developer and Tinkerer’s Review of the BenQ Coding Monitor RD320U",
+            "platform": "Reddit"
+          },
+          {
+            "url": "https://www.reddit.com/r/BenQ/comments/1j0z57d/help_with_ethernet_speeds_dropping_when/",
+            "title": "Help with Ethernet Speeds Dropping When Connecting to BenQ MA320u Monitor via USB-C",
+            "platform": "Reddit"
+          },
+          {
+            "url": "https://www.reddit.com/r/BenQ/comments/1psujms/confused_between_rd320u_ma320u_looking_for/",
+            "title": "Confused between RD320U & MA320U. Looking for recommendations.",
+            "platform": "Reddit"
+          },
+          {
+            "url": "https://www.reddit.com/r/BenQ/comments/1g5qmki/benq_rd280u_review/",
+            "title": "BenQ RD280U review",
+            "platform": "Reddit"
+          },
+          {
+            "url": "https://www.reddit.com/r/BenQ/comments/1kh253b/display_pilot_language_and_dark_mode/",
+            "title": "Display Pilot language and dark mode",
+            "platform": "Reddit"
+          },
+          {
+            "url": "https://www.reddit.com/r/BenQ/comments/1mhfq59/benq_pd3200u_power_cycles/",
+            "title": "BenQ PD3200U power cycles.",
+            "platform": "Reddit"
+          },
+          {
+            "url": "https://www.reddit.com/r/BenQ/comments/1pku6rd/review_benq_rd320u_vs_dell_u3225qe/",
+            "title": "Review BenQ RD320U vs Dell U3225QE",
+            "platform": "Reddit"
+          },
+          {
+            "url": "https://www.reddit.com/r/Monitors/comments/1piyd6d/help_to_decide_dell_u3225qe_or_benq_rd320u/",
+            "title": "Help to decide - Dell U3225QE or Benq RD320U",
+            "platform": "Reddit"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=350&t=7047880",
+            "title": "Benq RD320U 螢幕組裝問題",
+            "platform": "Mobile01"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=480&t=7070108",
+            "title": "詢問一下二種不同系統可否用一個螢幕顯示",
+            "platform": "Mobile01"
+          },
+          {
+            "url": "https://www.ptt.cc/bbs/LCD/M.1742396537.A.0C9.html",
+            "title": "[心得] BenQ RD320U",
+            "platform": "PTT"
+          },
+          {
+            "url": "https://www.ptt.cc/bbs/LCD/M.1732779612.A.746.html",
+            "title": "[選購] 32吋4K螢幕",
+            "platform": "PTT"
+          },
+          {
+            "url": "https://www.ptt.cc/bbs/LCD/M.1723399369.A.FD3.html",
+            "title": "[情報] BENQ的無反光新螢幕",
+            "platform": "PTT"
+          },
+          {
+            "url": "https://www.ptt.cc/bbs/PC_Shopping/M.1731645695.A.A5F.html",
+            "title": "Fw: [求助] Benq RD320U vs EX3210U 價格差異",
+            "platform": "PTT"
+          },
+          {
+            "url": "https://www.ptt.cc/bbs/Soft_Job/M.1757660407.A.F23.html",
+            "title": "[請益] Coding螢幕挑選推薦",
+            "platform": "PTT"
+          },
+          {
+            "url": "https://www.ptt.cc/bbs/LCD/M.1731413824.A.E9C.html",
+            "title": "[選購] 32”或43” 4K上班文書用(名單多求助）",
+            "platform": "PTT"
+          },
+          {
+            "url": "https://www.ptt.cc/bbs/LCD/M.1764859470.A.AE5.html",
+            "title": "[選購] 32吋4K IPS 護眼 寫CODE 修圖 不打電動",
+            "platform": "PTT"
+          },
+          {
+            "url": "https://www.ptt.cc/bbs/LCD/M.1728465214.A.E29.html",
+            "title": "[選購] 32” 4K 選擇困難",
+            "platform": "PTT"
+          },
+          {
+            "url": "https://www.ptt.cc/bbs/HardwareSale/M.1765755012.A.FD2.html",
+            "title": "[賣/桃園/面交]i3主機 eizo19吋 benq RD320U",
+            "platform": "PTT"
+          },
+          {
+            "url": "https://24h.pchome.com.tw/prod/DSABF1-A900HVAOG",
+            "title": "BenQ 明基 RD320U 4K 光智慧護眼螢幕(32型/4K/HDMI/DP/Type-C/IPS)",
+            "platform": "PChome"
+          },
+          {
+            "url": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=11255959",
+            "title": "BenQ RD320U 32型 4K IPS 光智慧護眼螢幕(HDMI/DP/Type-C)",
+            "platform": "Yahoo購物中心"
+          }
+        ],
+        "reviewerNote": "RD320U：原頁讀到tolgaio/mars91各一名白綠線；PTT misterlu128亮暗點及換錯機；Mobile01 omaniken接縫有膠並換新改善，均不同症狀。blackboxalgo/hank7v各一名KVM連線或喚醒；hlohaan USB-C網卡速度另症狀且跨串同人；techsev為品牌贈機軟體功能限制，blog轉貼不當獨立第二站；After-Addendum-8649兩則仍一人且故障型態未明。Universolar跨串同人且3:2描述和官方16:9不符，型號不封閉。RD280U/UA、PD3200U、Dell U3225QE不混入。PChome只讀原頁露出三則、Yahoo三則來自兩位作者，不以35/3星等總量當故障人數。已誠實在cons揭露個案，未達六位獨立同款同問題跨兩網站。",
+        "attestation": "manual_original_pages_reviewed",
+        "candidateReviews": [
+          {
+            "url": "https://www.reddit.com/r/BenQ/comments/1saciv8/benq_rd320u_showing_whitegreen_lines_becomes/",
+            "title": "BenQ RD320U showing white/green lines, becomes unusable, only a couple of months old",
+            "platform": "Reddit",
+            "exactModel": true,
+            "independentAuthors": 1,
+            "sourceExcerpt": "tolgaio原文：RD320U使用數月後每天早上出現白綠線與解析度降低，換線、換筆電及重置仍發生，15–20分鐘後恢復。",
+            "outcome": "excluded",
+            "specificReason": "tolgaio只有一名exact RD320U第一人稱作者；B_support是客服回覆而非第二名受害者。與mars91同症狀但兩人仍同一Reddit網站；未達六人及兩個原站，不診斷共同硬體根因。",
+            "reviewedAt": "2026-10-26",
+            "reviewedAuthors": [
+              "tolgaio"
+            ]
+          },
+          {
+            "url": "https://www.reddit.com/r/BenQ/comments/1n4p2db/new_benq_rd320u_showing_white_green_lines/",
+            "title": "New BenQ RD320U showing white, green lines",
+            "platform": "Reddit",
+            "exactModel": true,
+            "independentAuthors": 1,
+            "sourceExcerpt": "mars91原文：購入一週的RD320U白色直線與綠色橫線，OSD也有線；換線、換筆電仍有，約一小時後消失，已申請退款。",
+            "outcome": "excluded",
+            "specificReason": "mars91為一名作者；其後回客服仍同人，其他留言垃圾評語與客服均非獨立第一人稱故障回報。加上tolgaio仍僅兩位同站線條個案，沒有跨站六人證據。",
+            "reviewedAt": "2026-10-26",
+            "reviewedAuthors": [
+              "mars91"
+            ]
+          },
+          {
+            "url": "https://www.reddit.com/r/BenQ/comments/1fphqwd/in_praise_of_rd_320u/",
+            "title": "In praise of RD 320U",
+            "platform": "Reddit",
+            "exactModel": true,
+            "independentAuthors": 2,
+            "sourceExcerpt": "cutting7th是正面心得；blackboxalgo說自購RD320U接桌機及USB-C筆電時KVM不穩、筆電常只有影像無USB，打算退貨。hlohaan偏好Samsung是主觀比較。",
+            "outcome": "excluded",
+            "specificReason": "blackboxalgo為一名明確RD320U KVM個案；cutting7th正評不計故障，hlohaan未在本串提供可核本款故障。不能把多個回覆/投票當多人，與hank7v同站仍未達跨站六人。",
+            "reviewedAt": "2026-10-26",
+            "reviewedAuthors": [
+              "cutting7th",
+              "blackboxalgo"
+            ]
+          },
+          {
+            "url": "https://www.reddit.com/r/BenQ/comments/1fc824i/the_usbc_hub_needs_screen_constantly_on_or_im/",
+            "title": "The usb-c hub needs screen constantly ON or I am missing something?",
+            "platform": "Reddit",
+            "exactModel": true,
+            "independentAuthors": 1,
+            "sourceExcerpt": "主文felixsanz明示RD280U；留言hank7v明示RD320U，兩筆電KVM切到USB-C後鍵鼠喚不醒筆電，直接接鍵鼠可喚醒。其他留言提Power Awake設定。",
+            "outcome": "excluded",
+            "specificReason": "只保留hank7v一位RD320U第一人稱KVM喚醒個案。felixsanz/DeltaSpecialForce明示RD280U，其餘未給本款型號；Power Awake建議不是證明本款已修復，也不能將相近款人數混入。",
+            "reviewedAt": "2026-10-26",
+            "reviewedAuthors": [
+              "hank7v"
+            ]
+          },
+          {
+            "url": "https://www.reddit.com/r/BenQ/comments/1nztxx5/a_web_developer_and_tinkerers_review_of_the_benq/",
+            "title": "A Web Developer and Tinkerer’s Review of the BenQ Coding Monitor RD320U",
+            "platform": "Reddit",
+            "exactModel": true,
+            "independentAuthors": 2,
+            "sourceExcerpt": "techsev揭露BenQ提供評測機，稱Display Pilot 2缺少Halo/PIP/DualView快捷鍵、跨螢幕焦點切色不合預期；After-Addendum-8649明示RD320U兩週故障，另兩則補述仍同人。",
+            "outcome": "excluded",
+            "specificReason": "techsev是單一具贈機揭露的軟體限制心得，其blog同文不能算第二網站獨立人；After-Addendum-8649為一位面板故障但未明述白綠線症狀，不能湊入兩名線條個案。Matthew-Bonner長評明示RD280UA故排除。",
+            "reviewedAt": "2026-10-26",
+            "reviewedAuthors": [
+              "techsev",
+              "After-Addendum-8649"
+            ]
+          },
+          {
+            "url": "https://www.reddit.com/r/BenQ/comments/1j0z57d/help_with_ethernet_speeds_dropping_when/",
+            "title": "Help with Ethernet Speeds Dropping When Connecting to BenQ MA320u Monitor via USB-C",
+            "platform": "Reddit",
+            "exactModel": true,
+            "independentAuthors": 1,
+            "sourceExcerpt": "主文為MA320U；hlohaan留言明示自己的RD320U也有USB-C接網卡後速度下降；其他人分享MA320U頻寬或引用外站評測。",
+            "outcome": "excluded",
+            "specificReason": "本款僅hlohaan一位同症狀留言，非本串MA320U主文作者；頻寬取捨不逕判硬體故障。hlohaan在其他串的畫質主觀比較仍同人，不增加此症狀人數。",
+            "reviewedAt": "2026-10-26",
+            "reviewedAuthors": [
+              "hlohaan"
+            ]
+          },
+          {
+            "url": "https://www.reddit.com/r/BenQ/comments/1psujms/confused_between_rd320u_ma320u_looking_for/",
+            "title": "Confused between RD320U & MA320U. Looking for recommendations.",
+            "platform": "Reddit",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "sourceExcerpt": "existentialbit購前比較，Universolar稱RD320U色彩暗淡，但此串未交代所用exact機種；後查Universolar比較文把RD320U誤寫3:2。",
+            "outcome": "excluded",
+            "specificReason": "購前問題不算自用故障。Universolar是同一作者，另一原評的3:2敘述與官方RD320U16:9衝突，保留為主觀或型號未封閉候選，不作本款可計數集中故障。",
+            "reviewedAt": "2026-10-26"
+          },
+          {
+            "url": "https://www.reddit.com/r/BenQ/comments/1g5qmki/benq_rd280u_review/",
+            "title": "BenQ RD280U review",
+            "platform": "Reddit",
+            "exactModel": false,
+            "independentAuthors": 0,
+            "sourceExcerpt": "主評greenpr與黑位/PWM/CPU軟體抱怨為RD280U；Jumpy-Agency-8318明示同持RD320U與RD280U，描述RD320U夜間對比與白底較好。",
+            "outcome": "excluded",
+            "specificReason": "原文故障或PWM敘述屬RD280U，不轉移至RD320U。唯一明示本款留言為正面比較，不計同型號故障；不以同RD系列合併人數。",
+            "reviewedAt": "2026-10-26"
+          },
+          {
+            "url": "https://www.reddit.com/r/BenQ/comments/1kh253b/display_pilot_language_and_dark_mode/",
+            "title": "Display Pilot language and dark mode",
+            "platform": "Reddit",
+            "exactModel": true,
+            "independentAuthors": 1,
+            "sourceExcerpt": "EddieJRT明示RD320U，詢問Display Pilot 2介面語言與深色主題；後稱軟體已變英文，但Windows暗色設定未讓Display Pilot變暗。",
+            "outcome": "excluded",
+            "specificReason": "EddieJRT只有一位且是軟體介面語言/主題功能詢問，與techsev焦點切色或KVM/面板線條均不同症狀。客服與追問不增加作者，未建立跨站同問題群。",
+            "reviewedAt": "2026-10-26",
+            "reviewedAuthors": [
+              "EddieJRT"
+            ]
+          },
+          {
+            "url": "https://www.reddit.com/r/BenQ/comments/1mhfq59/benq_pd3200u_power_cycles/",
+            "title": "BenQ PD3200U power cycles.",
+            "platform": "Reddit",
+            "exactModel": false,
+            "independentAuthors": 0,
+            "sourceExcerpt": "josys36清楚說故障的是舊PD3200U，已另買RD320U作主螢幕；留言探討舊顯示器電源板。",
+            "outcome": "excluded",
+            "specificReason": "反覆開關機症狀明示PD3200U，RD320U只是新買替代機，不能用搜尋命中把舊款故障歸給本款。其他回覆未給RD320U型號。",
+            "reviewedAt": "2026-10-26"
+          },
+          {
+            "url": "https://www.reddit.com/r/BenQ/comments/1pku6rd/review_benq_rd320u_vs_dell_u3225qe/",
+            "title": "Review BenQ RD320U vs Dell U3225QE",
+            "platform": "Reddit",
+            "exactModel": false,
+            "independentAuthors": 0,
+            "sourceExcerpt": "Universolar主觀稱BenQ偏暗/顆粒感，但文章兩度稱RD320U為3:2；官方規格是16:9，文中Dell外殼與120Hz比較亦屬另一機型。",
+            "outcome": "excluded",
+            "specificReason": "評測型號邊界未封閉：作者寫3:2與RD320U官方16:9衝突，不能自行當筆誤後計數；同Universolar跨串的暗淡意見去重，不作可靠exact-model故障人數。",
+            "reviewedAt": "2026-10-26"
+          },
+          {
+            "url": "https://www.reddit.com/r/Monitors/comments/1piyd6d/help_to_decide_dell_u3225qe_or_benq_rd320u/",
+            "title": "Help to decide - Dell U3225QE or Benq RD320U",
+            "platform": "Reddit",
+            "exactModel": true,
+            "independentAuthors": 2,
+            "sourceExcerpt": "JessicaDev_1989稱自用RD320U編碼舒適，No_Leave8825稱剛入手塗層滿意；後段匿名作者及OkRiver1099抱怨的是Dell U3225QE KVM。",
+            "outcome": "excluded",
+            "specificReason": "兩名本款自用留言為正評；KVM切換故障/周邊損壞在Dell U3225QE分支，不能移植到RD320U。購前主文和已刪除作者也不計可辨識本款故障。",
+            "reviewedAt": "2026-10-26",
+            "reviewedAuthors": [
+              "JessicaDev_1989",
+              "No_Leave8825"
+            ]
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=350&t=7047880",
+            "title": "Benq RD320U 螢幕組裝問題",
+            "platform": "Mobile01",
+            "exactModel": true,
+            "independentAuthors": 1,
+            "sourceExcerpt": "omaniken #1反映右邊接縫有膠及縫隙，11/30於#5回報BenQ協助換新後沒有膠；kimmun說的是另一台24吋BenQ。",
+            "outcome": "excluded",
+            "specificReason": "只有omaniken一位本款外殼接縫個案，#1/#5為同人且已換新改善。kimmun明示24吋，不能算RD320U；此症狀也不同於面板白綠線/亮暗點。",
+            "reviewedAt": "2026-10-26",
+            "reviewedAuthors": [
+              "omaniken"
+            ]
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=480&t=7070108",
+            "title": "詢問一下二種不同系統可否用一個螢幕顯示",
+            "platform": "Mobile01",
+            "exactModel": true,
+            "independentAuthors": 1,
+            "sourceExcerpt": "Will Hunting #2表示目前使用RD320U，每天使用KVM/USB HUB功能（並排顯示除外）；主文另有MSI螢幕並詢問新增Mac。",
+            "outcome": "excluded",
+            "specificReason": "Will Hunting是本款正面功能使用，並非故障；主文的其他螢幕與各種桌面建議不作RD320U負評，不把兩套作業系統需求當KVM災情。",
+            "reviewedAt": "2026-10-26",
+            "reviewedAuthors": [
+              "Will Hunting"
+            ]
+          },
+          {
+            "url": "https://www.ptt.cc/bbs/LCD/M.1742396537.A.0C9.html",
+            "title": "[心得] BenQ RD320U",
+            "platform": "PTT",
+            "exactModel": true,
+            "independentAuthors": 1,
+            "sourceExcerpt": "misterlu128明示RD320U，亮點/暗點增多，重置與更新韌體後未改善；客服同意換新但收到不同機型包裝，後回覆不是備機。",
+            "outcome": "excluded",
+            "specificReason": "misterlu128只有一位第一人稱亮暗點與換機物流個案。其他推文是觀圖感想；savag的Switch USB-C直連疑問不同於面板故障，不能合併為白綠線六人群。",
+            "reviewedAt": "2026-10-26"
+          },
+          {
+            "url": "https://www.ptt.cc/bbs/LCD/M.1732779612.A.746.html",
+            "title": "[選購] 32吋4K螢幕",
+            "platform": "PTT",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "sourceExcerpt": "frank8p選購文；savag推薦RD320U，其他留言質疑兩萬元60Hz性價比並說不符144Hz需求。",
+            "outcome": "excluded",
+            "specificReason": "主文候選ASUS/MSI/LG，RD320U僅後續推薦及價格/刷新率取捨，沒有可核自用硬體故障回報，批評售價不能當集中災情。",
+            "reviewedAt": "2026-10-26"
+          },
+          {
+            "url": "https://www.ptt.cc/bbs/LCD/M.1723399369.A.FD3.html",
+            "title": "[情報] BENQ的無反光新螢幕",
+            "platform": "PTT",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "sourceExcerpt": "janhon 2024/8查萊茵認證，說RD320U中國有消息但市面似未鋪貨；回覆問無反光認證和現場觀察。",
+            "outcome": "excluded",
+            "specificReason": "新品消息與認證查詢，沒有RD320U購後第一人稱故障，也不能用文章時間或中國上市猜台灣上市。",
+            "reviewedAt": "2026-10-26"
+          },
+          {
+            "url": "https://www.ptt.cc/bbs/PC_Shopping/M.1731645695.A.A5F.html",
+            "title": "Fw: [求助] Benq RD320U vs EX3210U 價格差異",
+            "platform": "PTT",
+            "exactModel": true,
+            "independentAuthors": 1,
+            "sourceExcerpt": "cyril63已下訂RD320U，詢問為何60Hz比EX3210U144Hz貴，回覆解釋市場定位和送燈。",
+            "outcome": "excluded",
+            "specificReason": "詢問價差/規格取捨而非自用故障；Fw文章與同作者在其他選購串下訂留言不能增加故障作者數，舊EX3210U評論也不轉移。",
+            "reviewedAt": "2026-10-26"
+          },
+          {
+            "url": "https://www.ptt.cc/bbs/Soft_Job/M.1757660407.A.F23.html",
+            "title": "[請益] Coding螢幕挑選推薦",
+            "platform": "PTT",
+            "exactModel": true,
+            "independentAuthors": 1,
+            "sourceExcerpt": "dragonhk買前問護眼螢幕；BMnam明示年初公司買RD320U，用來不閃屏、對比與不反光很滿意。",
+            "outcome": "excluded",
+            "specificReason": "主文原有螢幕疲勞不屬本款；BMnam為正面實用心得，其他姿勢/護眼討論未明示本款故障，不算災情。",
+            "reviewedAt": "2026-10-26"
+          },
+          {
+            "url": "https://www.ptt.cc/bbs/LCD/M.1731413824.A.E9C.html",
+            "title": "[選購] 32”或43” 4K上班文書用(名單多求助）",
+            "platform": "PTT",
+            "exactModel": true,
+            "independentAuthors": 2,
+            "sourceExcerpt": "savag與oscar721明示擁有RD320U並推薦文字清晰；cyril63買前問平台庫存，之後下訂官網並再問60Hz價差。",
+            "outcome": "excluded",
+            "specificReason": "本款留言為正評與當時通路可購性，沒有同問題第一人稱故障；相同savag/cyril63在其他串重複不計新作者，當時缺貨不是停產。",
+            "reviewedAt": "2026-10-26"
+          },
+          {
+            "url": "https://www.ptt.cc/bbs/LCD/M.1764859470.A.AE5.html",
+            "title": "[選購] 32吋4K IPS 護眼 寫CODE 修圖 不打電動",
+            "platform": "PTT",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "sourceExcerpt": "BF109Pilot說舊ViewSonic VX-3209偶爾無法開機，Ufunin只是建議寫code可選RD320U。",
+            "outcome": "excluded",
+            "specificReason": "開機故障清楚屬舊ViewSonic機種；RD320U只被建議，不能因同文有型號就轉移舊機故障。",
+            "reviewedAt": "2026-10-26"
+          },
+          {
+            "url": "https://www.ptt.cc/bbs/LCD/M.1728465214.A.E29.html",
+            "title": "[選購] 32” 4K 選擇困難",
+            "platform": "PTT",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "sourceExcerpt": "joy01121126選購多款Mac外接螢幕；karco建議RD320U賣贈燈並提2000:1，其餘說另一台EW3270U色彩/USB-C問題。",
+            "outcome": "excluded",
+            "specificReason": "本款只有推薦與規格，其他EW3270U或遊戲款故障不算RD320U；不將120Hz需求、HDR400批評當新品故障。",
+            "reviewedAt": "2026-10-26"
+          },
+          {
+            "url": "https://www.ptt.cc/bbs/HardwareSale/M.1765755012.A.FD2.html",
+            "title": "[賣/桃園/面交]i3主機 eizo19吋 benq RD320U",
+            "platform": "PTT",
+            "exactModel": true,
+            "independentAuthors": 1,
+            "sourceExcerpt": "badlove出售二手RD320U，寫功能正常、完整外箱，價格10000已售出；同文另售EIZO與主機。",
+            "outcome": "excluded",
+            "specificReason": "二手交易非新品購買/史低來源；作者明示RD320U功能正常，沒有故障可計數，不用售價10000充作可信新品史低。",
+            "reviewedAt": "2026-10-26"
+          },
+          {
+            "url": "https://24h.pchome.com.tw/prod/DSABF1-A900HVAOG",
+            "title": "BenQ 明基 RD320U 4K 光智慧護眼螢幕(32型/4K/HDMI/DP/Type-C/IPS)",
+            "platform": "PChome",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "sourceExcerpt": "原頁35評價分布97%五星/3%三星，實讀露出三則：2025/2/20黃**說物流晚一天；2026/7/10黃**提底座佔桌深、塗層清潔及主觀畫質音效不如PD3205U；呂**喜歡KVM但提醒16:9。",
+            "outcome": "excluded",
+            "specificReason": "不能從35星等總數推定故障數或把相同遮罩黃**當兩位獨立可辨識作者；所讀三則有主觀清晰度與物流取捨，沒有六位同一故障。只聲明讀到頁面露出的三則，未宣稱全35逐頁讀完。",
+            "reviewedAt": "2026-10-26"
+          },
+          {
+            "url": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=11255959",
+            "title": "BenQ RD320U 32型 4K IPS 光智慧護眼螢幕(HDMI/DP/Type-C)",
+            "platform": "Yahoo購物中心",
+            "exactModel": true,
+            "independentAuthors": 2,
+            "sourceExcerpt": "原頁三則評分5.0，Carol 2026/8/16稱視覺效果棒但要桌距足夠；庭於2024/11/14留下兩則出貨快、一次買兩台等正面評論，合計三則來自兩位作者。",
+            "outcome": "excluded",
+            "specificReason": "Carol與庭兩名可辨識作者均正評，僅桌深提醒非故障；庭兩則仍是同一位作者，購買兩台也不增加獨立使用者數，不以三則星等推定故障或湊出第三人。",
+            "reviewedAt": "2026-10-26",
+            "reviewedAuthors": [
+              "Carol",
+              "庭"
+            ]
+          }
+        ]
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-10-26",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "\"RD320U\" site:reddit.com/r/BenQ",
+            "queryUrl": "https://www.google.com/search?q=%22RD320U%22%20site%3Areddit.com%2Fr%2FBenQ"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "\"RD320U\" site:ptt.cc",
+            "queryUrl": "https://www.google.com/search?q=%22RD320U%22%20site%3Aptt.cc"
+          },
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "\"RD320U\" site:mobile01.com/topicdetail",
+            "queryUrl": "https://www.google.com/search?q=%22RD320U%22%20site%3Amobile01.com%2Ftopicdetail"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Reddit",
+          "query": "\"RD320U\" site:reddit.com/r/BenQ",
+          "searchUrl": "https://www.google.com/search?q=%22RD320U%22%20site%3Areddit.com%2Fr%2FBenQ",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 12,
+          "candidateUrls": [
+            "https://www.reddit.com/r/BenQ/comments/1saciv8/benq_rd320u_showing_whitegreen_lines_becomes/",
+            "https://www.reddit.com/r/BenQ/comments/1n4p2db/new_benq_rd320u_showing_white_green_lines/",
+            "https://www.reddit.com/r/BenQ/comments/1fphqwd/in_praise_of_rd_320u/",
+            "https://www.reddit.com/r/BenQ/comments/1fc824i/the_usbc_hub_needs_screen_constantly_on_or_im/",
+            "https://www.reddit.com/r/BenQ/comments/1nztxx5/a_web_developer_and_tinkerers_review_of_the_benq/",
+            "https://www.reddit.com/r/BenQ/comments/1j0z57d/help_with_ethernet_speeds_dropping_when/",
+            "https://www.reddit.com/r/BenQ/comments/1psujms/confused_between_rd320u_ma320u_looking_for/",
+            "https://www.reddit.com/r/BenQ/comments/1g5qmki/benq_rd280u_review/",
+            "https://www.reddit.com/r/BenQ/comments/1kh253b/display_pilot_language_and_dark_mode/",
+            "https://www.reddit.com/r/BenQ/comments/1mhfq59/benq_pd3200u_power_cycles/",
+            "https://www.reddit.com/r/BenQ/comments/1pku6rd/review_benq_rd320u_vs_dell_u3225qe/",
+            "https://www.reddit.com/r/Monitors/comments/1piyd6d/help_to_decide_dell_u3225qe_or_benq_rd320u/"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.reddit.com/r/BenQ/comments/1saciv8/benq_rd320u_showing_whitegreen_lines_becomes/",
+              "title": "BenQ RD320U showing white/green lines, becomes unusable, only a couple of months old",
+              "platform": "Reddit"
+            },
+            {
+              "url": "https://www.reddit.com/r/BenQ/comments/1n4p2db/new_benq_rd320u_showing_white_green_lines/",
+              "title": "New BenQ RD320U showing white, green lines",
+              "platform": "Reddit"
+            },
+            {
+              "url": "https://www.reddit.com/r/BenQ/comments/1fphqwd/in_praise_of_rd_320u/",
+              "title": "In praise of RD 320U",
+              "platform": "Reddit"
+            },
+            {
+              "url": "https://www.reddit.com/r/BenQ/comments/1fc824i/the_usbc_hub_needs_screen_constantly_on_or_im/",
+              "title": "The usb-c hub needs screen constantly ON or I am missing something?",
+              "platform": "Reddit"
+            },
+            {
+              "url": "https://www.reddit.com/r/BenQ/comments/1nztxx5/a_web_developer_and_tinkerers_review_of_the_benq/",
+              "title": "A Web Developer and Tinkerer’s Review of the BenQ Coding Monitor RD320U",
+              "platform": "Reddit"
+            },
+            {
+              "url": "https://www.reddit.com/r/BenQ/comments/1j0z57d/help_with_ethernet_speeds_dropping_when/",
+              "title": "Help with Ethernet Speeds Dropping When Connecting to BenQ MA320u Monitor via USB-C",
+              "platform": "Reddit"
+            },
+            {
+              "url": "https://www.reddit.com/r/BenQ/comments/1psujms/confused_between_rd320u_ma320u_looking_for/",
+              "title": "Confused between RD320U & MA320U. Looking for recommendations.",
+              "platform": "Reddit"
+            },
+            {
+              "url": "https://www.reddit.com/r/BenQ/comments/1g5qmki/benq_rd280u_review/",
+              "title": "BenQ RD280U review",
+              "platform": "Reddit"
+            },
+            {
+              "url": "https://www.reddit.com/r/BenQ/comments/1kh253b/display_pilot_language_and_dark_mode/",
+              "title": "Display Pilot language and dark mode",
+              "platform": "Reddit"
+            },
+            {
+              "url": "https://www.reddit.com/r/BenQ/comments/1mhfq59/benq_pd3200u_power_cycles/",
+              "title": "BenQ PD3200U power cycles.",
+              "platform": "Reddit"
+            },
+            {
+              "url": "https://www.reddit.com/r/BenQ/comments/1pku6rd/review_benq_rd320u_vs_dell_u3225qe/",
+              "title": "Review BenQ RD320U vs Dell U3225QE",
+              "platform": "Reddit"
+            },
+            {
+              "url": "https://www.reddit.com/r/Monitors/comments/1piyd6d/help_to_decide_dell_u3225qe_or_benq_rd320u/",
+              "title": "Help to decide - Dell U3225QE or Benq RD320U",
+              "platform": "Reddit"
+            }
+          ],
+          "inspectedAt": "2026-10-26T03:02:53.711730+00:00"
+        },
+        {
+          "platform": "PTT",
+          "query": "\"RD320U\" site:ptt.cc",
+          "searchUrl": "https://www.google.com/search?q=%22RD320U%22%20site%3Aptt.cc",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 9,
+          "candidateUrls": [
+            "https://www.ptt.cc/bbs/LCD/M.1742396537.A.0C9.html",
+            "https://www.ptt.cc/bbs/LCD/M.1732779612.A.746.html",
+            "https://www.ptt.cc/bbs/LCD/M.1723399369.A.FD3.html",
+            "https://www.ptt.cc/bbs/PC_Shopping/M.1731645695.A.A5F.html",
+            "https://www.ptt.cc/bbs/Soft_Job/M.1757660407.A.F23.html",
+            "https://www.ptt.cc/bbs/LCD/M.1731413824.A.E9C.html",
+            "https://www.ptt.cc/bbs/LCD/M.1764859470.A.AE5.html",
+            "https://www.ptt.cc/bbs/LCD/M.1728465214.A.E29.html",
+            "https://www.ptt.cc/bbs/HardwareSale/M.1765755012.A.FD2.html"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.ptt.cc/bbs/LCD/M.1742396537.A.0C9.html",
+              "title": "[心得] BenQ RD320U",
+              "platform": "PTT"
+            },
+            {
+              "url": "https://www.ptt.cc/bbs/LCD/M.1732779612.A.746.html",
+              "title": "[選購] 32吋4K螢幕",
+              "platform": "PTT"
+            },
+            {
+              "url": "https://www.ptt.cc/bbs/LCD/M.1723399369.A.FD3.html",
+              "title": "[情報] BENQ的無反光新螢幕",
+              "platform": "PTT"
+            },
+            {
+              "url": "https://www.ptt.cc/bbs/PC_Shopping/M.1731645695.A.A5F.html",
+              "title": "Fw: [求助] Benq RD320U vs EX3210U 價格差異",
+              "platform": "PTT"
+            },
+            {
+              "url": "https://www.ptt.cc/bbs/Soft_Job/M.1757660407.A.F23.html",
+              "title": "[請益] Coding螢幕挑選推薦",
+              "platform": "PTT"
+            },
+            {
+              "url": "https://www.ptt.cc/bbs/LCD/M.1731413824.A.E9C.html",
+              "title": "[選購] 32”或43” 4K上班文書用(名單多求助）",
+              "platform": "PTT"
+            },
+            {
+              "url": "https://www.ptt.cc/bbs/LCD/M.1764859470.A.AE5.html",
+              "title": "[選購] 32吋4K IPS 護眼 寫CODE 修圖 不打電動",
+              "platform": "PTT"
+            },
+            {
+              "url": "https://www.ptt.cc/bbs/LCD/M.1728465214.A.E29.html",
+              "title": "[選購] 32” 4K 選擇困難",
+              "platform": "PTT"
+            },
+            {
+              "url": "https://www.ptt.cc/bbs/HardwareSale/M.1765755012.A.FD2.html",
+              "title": "[賣/桃園/面交]i3主機 eizo19吋 benq RD320U",
+              "platform": "PTT"
+            }
+          ],
+          "inspectedAt": "2026-10-26T03:02:53.711730+00:00"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "\"RD320U\" site:mobile01.com/topicdetail",
+          "searchUrl": "https://www.google.com/search?q=%22RD320U%22%20site%3Amobile01.com%2Ftopicdetail",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 2,
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=350&t=7047880",
+            "https://www.mobile01.com/topicdetail.php?f=480&t=7070108"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=350&t=7047880",
+              "title": "Benq RD320U 螢幕組裝問題",
+              "platform": "Mobile01"
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=480&t=7070108",
+              "title": "詢問一下二種不同系統可否用一個螢幕顯示",
+              "platform": "Mobile01"
+            }
+          ],
+          "inspectedAt": "2026-10-26T03:02:53.711730+00:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "url": "https://www.reddit.com/r/BenQ/comments/1saciv8/benq_rd320u_showing_whitegreen_lines_becomes/",
+          "title": "BenQ RD320U showing white/green lines, becomes unusable, only a couple of months old",
+          "platform": "Reddit",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "sourceExcerpt": "tolgaio原文：RD320U使用數月後每天早上出現白綠線與解析度降低，換線、換筆電及重置仍發生，15–20分鐘後恢復。",
+          "outcome": "excluded",
+          "specificReason": "tolgaio只有一名exact RD320U第一人稱作者；B_support是客服回覆而非第二名受害者。與mars91同症狀但兩人仍同一Reddit網站；未達六人及兩個原站，不診斷共同硬體根因。",
+          "reviewedAt": "2026-10-26",
+          "reviewedAuthors": [
+            "tolgaio"
+          ],
+          "reason": "tolgaio只有一名exact RD320U第一人稱作者；B_support是客服回覆而非第二名受害者。與mars91同症狀但兩人仍同一Reddit網站；未達六人及兩個原站，不診斷共同硬體根因。"
+        },
+        {
+          "url": "https://www.reddit.com/r/BenQ/comments/1n4p2db/new_benq_rd320u_showing_white_green_lines/",
+          "title": "New BenQ RD320U showing white, green lines",
+          "platform": "Reddit",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "sourceExcerpt": "mars91原文：購入一週的RD320U白色直線與綠色橫線，OSD也有線；換線、換筆電仍有，約一小時後消失，已申請退款。",
+          "outcome": "excluded",
+          "specificReason": "mars91為一名作者；其後回客服仍同人，其他留言垃圾評語與客服均非獨立第一人稱故障回報。加上tolgaio仍僅兩位同站線條個案，沒有跨站六人證據。",
+          "reviewedAt": "2026-10-26",
+          "reviewedAuthors": [
+            "mars91"
+          ],
+          "reason": "mars91為一名作者；其後回客服仍同人，其他留言垃圾評語與客服均非獨立第一人稱故障回報。加上tolgaio仍僅兩位同站線條個案，沒有跨站六人證據。"
+        },
+        {
+          "url": "https://www.reddit.com/r/BenQ/comments/1fphqwd/in_praise_of_rd_320u/",
+          "title": "In praise of RD 320U",
+          "platform": "Reddit",
+          "exactModel": true,
+          "independentAuthors": 2,
+          "sourceExcerpt": "cutting7th是正面心得；blackboxalgo說自購RD320U接桌機及USB-C筆電時KVM不穩、筆電常只有影像無USB，打算退貨。hlohaan偏好Samsung是主觀比較。",
+          "outcome": "excluded",
+          "specificReason": "blackboxalgo為一名明確RD320U KVM個案；cutting7th正評不計故障，hlohaan未在本串提供可核本款故障。不能把多個回覆/投票當多人，與hank7v同站仍未達跨站六人。",
+          "reviewedAt": "2026-10-26",
+          "reviewedAuthors": [
+            "cutting7th",
+            "blackboxalgo"
+          ],
+          "reason": "blackboxalgo為一名明確RD320U KVM個案；cutting7th正評不計故障，hlohaan未在本串提供可核本款故障。不能把多個回覆/投票當多人，與hank7v同站仍未達跨站六人。"
+        },
+        {
+          "url": "https://www.reddit.com/r/BenQ/comments/1fc824i/the_usbc_hub_needs_screen_constantly_on_or_im/",
+          "title": "The usb-c hub needs screen constantly ON or I am missing something?",
+          "platform": "Reddit",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "sourceExcerpt": "主文felixsanz明示RD280U；留言hank7v明示RD320U，兩筆電KVM切到USB-C後鍵鼠喚不醒筆電，直接接鍵鼠可喚醒。其他留言提Power Awake設定。",
+          "outcome": "excluded",
+          "specificReason": "只保留hank7v一位RD320U第一人稱KVM喚醒個案。felixsanz/DeltaSpecialForce明示RD280U，其餘未給本款型號；Power Awake建議不是證明本款已修復，也不能將相近款人數混入。",
+          "reviewedAt": "2026-10-26",
+          "reviewedAuthors": [
+            "hank7v"
+          ],
+          "reason": "只保留hank7v一位RD320U第一人稱KVM喚醒個案。felixsanz/DeltaSpecialForce明示RD280U，其餘未給本款型號；Power Awake建議不是證明本款已修復，也不能將相近款人數混入。"
+        },
+        {
+          "url": "https://www.reddit.com/r/BenQ/comments/1nztxx5/a_web_developer_and_tinkerers_review_of_the_benq/",
+          "title": "A Web Developer and Tinkerer’s Review of the BenQ Coding Monitor RD320U",
+          "platform": "Reddit",
+          "exactModel": true,
+          "independentAuthors": 2,
+          "sourceExcerpt": "techsev揭露BenQ提供評測機，稱Display Pilot 2缺少Halo/PIP/DualView快捷鍵、跨螢幕焦點切色不合預期；After-Addendum-8649明示RD320U兩週故障，另兩則補述仍同人。",
+          "outcome": "excluded",
+          "specificReason": "techsev是單一具贈機揭露的軟體限制心得，其blog同文不能算第二網站獨立人；After-Addendum-8649為一位面板故障但未明述白綠線症狀，不能湊入兩名線條個案。Matthew-Bonner長評明示RD280UA故排除。",
+          "reviewedAt": "2026-10-26",
+          "reviewedAuthors": [
+            "techsev",
+            "After-Addendum-8649"
+          ],
+          "reason": "techsev是單一具贈機揭露的軟體限制心得，其blog同文不能算第二網站獨立人；After-Addendum-8649為一位面板故障但未明述白綠線症狀，不能湊入兩名線條個案。Matthew-Bonner長評明示RD280UA故排除。"
+        },
+        {
+          "url": "https://www.reddit.com/r/BenQ/comments/1j0z57d/help_with_ethernet_speeds_dropping_when/",
+          "title": "Help with Ethernet Speeds Dropping When Connecting to BenQ MA320u Monitor via USB-C",
+          "platform": "Reddit",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "sourceExcerpt": "主文為MA320U；hlohaan留言明示自己的RD320U也有USB-C接網卡後速度下降；其他人分享MA320U頻寬或引用外站評測。",
+          "outcome": "excluded",
+          "specificReason": "本款僅hlohaan一位同症狀留言，非本串MA320U主文作者；頻寬取捨不逕判硬體故障。hlohaan在其他串的畫質主觀比較仍同人，不增加此症狀人數。",
+          "reviewedAt": "2026-10-26",
+          "reviewedAuthors": [
+            "hlohaan"
+          ],
+          "reason": "本款僅hlohaan一位同症狀留言，非本串MA320U主文作者；頻寬取捨不逕判硬體故障。hlohaan在其他串的畫質主觀比較仍同人，不增加此症狀人數。"
+        },
+        {
+          "url": "https://www.reddit.com/r/BenQ/comments/1psujms/confused_between_rd320u_ma320u_looking_for/",
+          "title": "Confused between RD320U & MA320U. Looking for recommendations.",
+          "platform": "Reddit",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "sourceExcerpt": "existentialbit購前比較，Universolar稱RD320U色彩暗淡，但此串未交代所用exact機種；後查Universolar比較文把RD320U誤寫3:2。",
+          "outcome": "excluded",
+          "specificReason": "購前問題不算自用故障。Universolar是同一作者，另一原評的3:2敘述與官方RD320U16:9衝突，保留為主觀或型號未封閉候選，不作本款可計數集中故障。",
+          "reviewedAt": "2026-10-26",
+          "reason": "購前問題不算自用故障。Universolar是同一作者，另一原評的3:2敘述與官方RD320U16:9衝突，保留為主觀或型號未封閉候選，不作本款可計數集中故障。"
+        },
+        {
+          "url": "https://www.reddit.com/r/BenQ/comments/1g5qmki/benq_rd280u_review/",
+          "title": "BenQ RD280U review",
+          "platform": "Reddit",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "sourceExcerpt": "主評greenpr與黑位/PWM/CPU軟體抱怨為RD280U；Jumpy-Agency-8318明示同持RD320U與RD280U，描述RD320U夜間對比與白底較好。",
+          "outcome": "excluded",
+          "specificReason": "原文故障或PWM敘述屬RD280U，不轉移至RD320U。唯一明示本款留言為正面比較，不計同型號故障；不以同RD系列合併人數。",
+          "reviewedAt": "2026-10-26",
+          "reason": "原文故障或PWM敘述屬RD280U，不轉移至RD320U。唯一明示本款留言為正面比較，不計同型號故障；不以同RD系列合併人數。"
+        },
+        {
+          "url": "https://www.reddit.com/r/BenQ/comments/1kh253b/display_pilot_language_and_dark_mode/",
+          "title": "Display Pilot language and dark mode",
+          "platform": "Reddit",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "sourceExcerpt": "EddieJRT明示RD320U，詢問Display Pilot 2介面語言與深色主題；後稱軟體已變英文，但Windows暗色設定未讓Display Pilot變暗。",
+          "outcome": "excluded",
+          "specificReason": "EddieJRT只有一位且是軟體介面語言/主題功能詢問，與techsev焦點切色或KVM/面板線條均不同症狀。客服與追問不增加作者，未建立跨站同問題群。",
+          "reviewedAt": "2026-10-26",
+          "reviewedAuthors": [
+            "EddieJRT"
+          ],
+          "reason": "EddieJRT只有一位且是軟體介面語言/主題功能詢問，與techsev焦點切色或KVM/面板線條均不同症狀。客服與追問不增加作者，未建立跨站同問題群。"
+        },
+        {
+          "url": "https://www.reddit.com/r/BenQ/comments/1mhfq59/benq_pd3200u_power_cycles/",
+          "title": "BenQ PD3200U power cycles.",
+          "platform": "Reddit",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "sourceExcerpt": "josys36清楚說故障的是舊PD3200U，已另買RD320U作主螢幕；留言探討舊顯示器電源板。",
+          "outcome": "excluded",
+          "specificReason": "反覆開關機症狀明示PD3200U，RD320U只是新買替代機，不能用搜尋命中把舊款故障歸給本款。其他回覆未給RD320U型號。",
+          "reviewedAt": "2026-10-26",
+          "reason": "反覆開關機症狀明示PD3200U，RD320U只是新買替代機，不能用搜尋命中把舊款故障歸給本款。其他回覆未給RD320U型號。"
+        },
+        {
+          "url": "https://www.reddit.com/r/BenQ/comments/1pku6rd/review_benq_rd320u_vs_dell_u3225qe/",
+          "title": "Review BenQ RD320U vs Dell U3225QE",
+          "platform": "Reddit",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "sourceExcerpt": "Universolar主觀稱BenQ偏暗/顆粒感，但文章兩度稱RD320U為3:2；官方規格是16:9，文中Dell外殼與120Hz比較亦屬另一機型。",
+          "outcome": "excluded",
+          "specificReason": "評測型號邊界未封閉：作者寫3:2與RD320U官方16:9衝突，不能自行當筆誤後計數；同Universolar跨串的暗淡意見去重，不作可靠exact-model故障人數。",
+          "reviewedAt": "2026-10-26",
+          "reason": "評測型號邊界未封閉：作者寫3:2與RD320U官方16:9衝突，不能自行當筆誤後計數；同Universolar跨串的暗淡意見去重，不作可靠exact-model故障人數。"
+        },
+        {
+          "url": "https://www.reddit.com/r/Monitors/comments/1piyd6d/help_to_decide_dell_u3225qe_or_benq_rd320u/",
+          "title": "Help to decide - Dell U3225QE or Benq RD320U",
+          "platform": "Reddit",
+          "exactModel": true,
+          "independentAuthors": 2,
+          "sourceExcerpt": "JessicaDev_1989稱自用RD320U編碼舒適，No_Leave8825稱剛入手塗層滿意；後段匿名作者及OkRiver1099抱怨的是Dell U3225QE KVM。",
+          "outcome": "excluded",
+          "specificReason": "兩名本款自用留言為正評；KVM切換故障/周邊損壞在Dell U3225QE分支，不能移植到RD320U。購前主文和已刪除作者也不計可辨識本款故障。",
+          "reviewedAt": "2026-10-26",
+          "reviewedAuthors": [
+            "JessicaDev_1989",
+            "No_Leave8825"
+          ],
+          "reason": "兩名本款自用留言為正評；KVM切換故障/周邊損壞在Dell U3225QE分支，不能移植到RD320U。購前主文和已刪除作者也不計可辨識本款故障。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=350&t=7047880",
+          "title": "Benq RD320U 螢幕組裝問題",
+          "platform": "Mobile01",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "sourceExcerpt": "omaniken #1反映右邊接縫有膠及縫隙，11/30於#5回報BenQ協助換新後沒有膠；kimmun說的是另一台24吋BenQ。",
+          "outcome": "excluded",
+          "specificReason": "只有omaniken一位本款外殼接縫個案，#1/#5為同人且已換新改善。kimmun明示24吋，不能算RD320U；此症狀也不同於面板白綠線/亮暗點。",
+          "reviewedAt": "2026-10-26",
+          "reviewedAuthors": [
+            "omaniken"
+          ],
+          "reason": "只有omaniken一位本款外殼接縫個案，#1/#5為同人且已換新改善。kimmun明示24吋，不能算RD320U；此症狀也不同於面板白綠線/亮暗點。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=480&t=7070108",
+          "title": "詢問一下二種不同系統可否用一個螢幕顯示",
+          "platform": "Mobile01",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "sourceExcerpt": "Will Hunting #2表示目前使用RD320U，每天使用KVM/USB HUB功能（並排顯示除外）；主文另有MSI螢幕並詢問新增Mac。",
+          "outcome": "excluded",
+          "specificReason": "Will Hunting是本款正面功能使用，並非故障；主文的其他螢幕與各種桌面建議不作RD320U負評，不把兩套作業系統需求當KVM災情。",
+          "reviewedAt": "2026-10-26",
+          "reviewedAuthors": [
+            "Will Hunting"
+          ],
+          "reason": "Will Hunting是本款正面功能使用，並非故障；主文的其他螢幕與各種桌面建議不作RD320U負評，不把兩套作業系統需求當KVM災情。"
+        },
+        {
+          "url": "https://www.ptt.cc/bbs/LCD/M.1742396537.A.0C9.html",
+          "title": "[心得] BenQ RD320U",
+          "platform": "PTT",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "sourceExcerpt": "misterlu128明示RD320U，亮點/暗點增多，重置與更新韌體後未改善；客服同意換新但收到不同機型包裝，後回覆不是備機。",
+          "outcome": "excluded",
+          "specificReason": "misterlu128只有一位第一人稱亮暗點與換機物流個案。其他推文是觀圖感想；savag的Switch USB-C直連疑問不同於面板故障，不能合併為白綠線六人群。",
+          "reviewedAt": "2026-10-26",
+          "reason": "misterlu128只有一位第一人稱亮暗點與換機物流個案。其他推文是觀圖感想；savag的Switch USB-C直連疑問不同於面板故障，不能合併為白綠線六人群。"
+        },
+        {
+          "url": "https://www.ptt.cc/bbs/LCD/M.1732779612.A.746.html",
+          "title": "[選購] 32吋4K螢幕",
+          "platform": "PTT",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "sourceExcerpt": "frank8p選購文；savag推薦RD320U，其他留言質疑兩萬元60Hz性價比並說不符144Hz需求。",
+          "outcome": "excluded",
+          "specificReason": "主文候選ASUS/MSI/LG，RD320U僅後續推薦及價格/刷新率取捨，沒有可核自用硬體故障回報，批評售價不能當集中災情。",
+          "reviewedAt": "2026-10-26",
+          "reason": "主文候選ASUS/MSI/LG，RD320U僅後續推薦及價格/刷新率取捨，沒有可核自用硬體故障回報，批評售價不能當集中災情。"
+        },
+        {
+          "url": "https://www.ptt.cc/bbs/LCD/M.1723399369.A.FD3.html",
+          "title": "[情報] BENQ的無反光新螢幕",
+          "platform": "PTT",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "sourceExcerpt": "janhon 2024/8查萊茵認證，說RD320U中國有消息但市面似未鋪貨；回覆問無反光認證和現場觀察。",
+          "outcome": "excluded",
+          "specificReason": "新品消息與認證查詢，沒有RD320U購後第一人稱故障，也不能用文章時間或中國上市猜台灣上市。",
+          "reviewedAt": "2026-10-26",
+          "reason": "新品消息與認證查詢，沒有RD320U購後第一人稱故障，也不能用文章時間或中國上市猜台灣上市。"
+        },
+        {
+          "url": "https://www.ptt.cc/bbs/PC_Shopping/M.1731645695.A.A5F.html",
+          "title": "Fw: [求助] Benq RD320U vs EX3210U 價格差異",
+          "platform": "PTT",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "sourceExcerpt": "cyril63已下訂RD320U，詢問為何60Hz比EX3210U144Hz貴，回覆解釋市場定位和送燈。",
+          "outcome": "excluded",
+          "specificReason": "詢問價差/規格取捨而非自用故障；Fw文章與同作者在其他選購串下訂留言不能增加故障作者數，舊EX3210U評論也不轉移。",
+          "reviewedAt": "2026-10-26",
+          "reason": "詢問價差/規格取捨而非自用故障；Fw文章與同作者在其他選購串下訂留言不能增加故障作者數，舊EX3210U評論也不轉移。"
+        },
+        {
+          "url": "https://www.ptt.cc/bbs/Soft_Job/M.1757660407.A.F23.html",
+          "title": "[請益] Coding螢幕挑選推薦",
+          "platform": "PTT",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "sourceExcerpt": "dragonhk買前問護眼螢幕；BMnam明示年初公司買RD320U，用來不閃屏、對比與不反光很滿意。",
+          "outcome": "excluded",
+          "specificReason": "主文原有螢幕疲勞不屬本款；BMnam為正面實用心得，其他姿勢/護眼討論未明示本款故障，不算災情。",
+          "reviewedAt": "2026-10-26",
+          "reason": "主文原有螢幕疲勞不屬本款；BMnam為正面實用心得，其他姿勢/護眼討論未明示本款故障，不算災情。"
+        },
+        {
+          "url": "https://www.ptt.cc/bbs/LCD/M.1731413824.A.E9C.html",
+          "title": "[選購] 32”或43” 4K上班文書用(名單多求助）",
+          "platform": "PTT",
+          "exactModel": true,
+          "independentAuthors": 2,
+          "sourceExcerpt": "savag與oscar721明示擁有RD320U並推薦文字清晰；cyril63買前問平台庫存，之後下訂官網並再問60Hz價差。",
+          "outcome": "excluded",
+          "specificReason": "本款留言為正評與當時通路可購性，沒有同問題第一人稱故障；相同savag/cyril63在其他串重複不計新作者，當時缺貨不是停產。",
+          "reviewedAt": "2026-10-26",
+          "reason": "本款留言為正評與當時通路可購性，沒有同問題第一人稱故障；相同savag/cyril63在其他串重複不計新作者，當時缺貨不是停產。"
+        },
+        {
+          "url": "https://www.ptt.cc/bbs/LCD/M.1764859470.A.AE5.html",
+          "title": "[選購] 32吋4K IPS 護眼 寫CODE 修圖 不打電動",
+          "platform": "PTT",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "sourceExcerpt": "BF109Pilot說舊ViewSonic VX-3209偶爾無法開機，Ufunin只是建議寫code可選RD320U。",
+          "outcome": "excluded",
+          "specificReason": "開機故障清楚屬舊ViewSonic機種；RD320U只被建議，不能因同文有型號就轉移舊機故障。",
+          "reviewedAt": "2026-10-26",
+          "reason": "開機故障清楚屬舊ViewSonic機種；RD320U只被建議，不能因同文有型號就轉移舊機故障。"
+        },
+        {
+          "url": "https://www.ptt.cc/bbs/LCD/M.1728465214.A.E29.html",
+          "title": "[選購] 32” 4K 選擇困難",
+          "platform": "PTT",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "sourceExcerpt": "joy01121126選購多款Mac外接螢幕；karco建議RD320U賣贈燈並提2000:1，其餘說另一台EW3270U色彩/USB-C問題。",
+          "outcome": "excluded",
+          "specificReason": "本款只有推薦與規格，其他EW3270U或遊戲款故障不算RD320U；不將120Hz需求、HDR400批評當新品故障。",
+          "reviewedAt": "2026-10-26",
+          "reason": "本款只有推薦與規格，其他EW3270U或遊戲款故障不算RD320U；不將120Hz需求、HDR400批評當新品故障。"
+        },
+        {
+          "url": "https://www.ptt.cc/bbs/HardwareSale/M.1765755012.A.FD2.html",
+          "title": "[賣/桃園/面交]i3主機 eizo19吋 benq RD320U",
+          "platform": "PTT",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "sourceExcerpt": "badlove出售二手RD320U，寫功能正常、完整外箱，價格10000已售出；同文另售EIZO與主機。",
+          "outcome": "excluded",
+          "specificReason": "二手交易非新品購買/史低來源；作者明示RD320U功能正常，沒有故障可計數，不用售價10000充作可信新品史低。",
+          "reviewedAt": "2026-10-26",
+          "reason": "二手交易非新品購買/史低來源；作者明示RD320U功能正常，沒有故障可計數，不用售價10000充作可信新品史低。"
+        },
+        {
+          "url": "https://24h.pchome.com.tw/prod/DSABF1-A900HVAOG",
+          "title": "BenQ 明基 RD320U 4K 光智慧護眼螢幕(32型/4K/HDMI/DP/Type-C/IPS)",
+          "platform": "PChome",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "sourceExcerpt": "原頁35評價分布97%五星/3%三星，實讀露出三則：2025/2/20黃**說物流晚一天；2026/7/10黃**提底座佔桌深、塗層清潔及主觀畫質音效不如PD3205U；呂**喜歡KVM但提醒16:9。",
+          "outcome": "excluded",
+          "specificReason": "不能從35星等總數推定故障數或把相同遮罩黃**當兩位獨立可辨識作者；所讀三則有主觀清晰度與物流取捨，沒有六位同一故障。只聲明讀到頁面露出的三則，未宣稱全35逐頁讀完。",
+          "reviewedAt": "2026-10-26",
+          "reason": "不能從35星等總數推定故障數或把相同遮罩黃**當兩位獨立可辨識作者；所讀三則有主觀清晰度與物流取捨，沒有六位同一故障。只聲明讀到頁面露出的三則，未宣稱全35逐頁讀完。"
+        },
+        {
+          "url": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=11255959",
+          "title": "BenQ RD320U 32型 4K IPS 光智慧護眼螢幕(HDMI/DP/Type-C)",
+          "platform": "Yahoo購物中心",
+          "exactModel": true,
+          "independentAuthors": 2,
+          "sourceExcerpt": "原頁三則評分5.0，Carol 2026/8/16稱視覺效果棒但要桌距足夠；庭於2024/11/14留下兩則出貨快、一次買兩台等正面評論，合計三則來自兩位作者。",
+          "outcome": "excluded",
+          "specificReason": "Carol與庭兩名可辨識作者均正評，僅桌深提醒非故障；庭兩則仍是同一位作者，購買兩台也不增加獨立使用者數，不以三則星等推定故障或湊出第三人。",
+          "reviewedAt": "2026-10-26",
+          "reviewedAuthors": [
+            "Carol",
+            "庭"
+          ],
+          "reason": "Carol與庭兩名可辨識作者均正評，僅桌深提醒非故障；庭兩則仍是同一位作者，購買兩台也不增加獨立使用者數，不以三則星等推定故障或湊出第三人。"
         }
       ]
     }

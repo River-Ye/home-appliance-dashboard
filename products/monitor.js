@@ -6515,6 +6515,107 @@
         }
       ]
     }
+  },
+  {
+    "id": "monitor-benq-rd320u",
+    "category": "monitor",
+    "rank": 71,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "BenQ",
+    "model": "RD320U",
+    "name": "31.5 吋 4K Nano Matte 程式設計護眼螢幕（含 MoonHalo）",
+    "price": {
+      "currency": "TWD",
+      "amount": 18894,
+      "converted": 18894,
+      "basis": "retailer_current",
+      "confidence": "2026-10-26 Yahoo自營11255959 exact RD320U公開單件95折；活動801418至2026-10-27 07:59:59（台灣），原價19888。不扣會員券、卡回饋、點數或贈品。"
+    },
+    "image": "https://img.yec.tw/zp/MerchandiseImages/A547B09451-SP-17883815.jpg",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=11255959",
+    "buyLabel": "Yahoo購物中心（單件95折至10/27 07:59）",
+    "installation": {
+      "status": "not_stated",
+      "note": "含官方桌面腳架，自行組裝；VESA支架或安裝服務另購，採面板7.3kg核對支架承重與桌深。"
+    },
+    "specs": [
+      "31.5 吋 IPS／LED背光，3840 x 2160／60Hz，16:9；5ms GTG",
+      "Nano Matte低反光面板；2000:1原生對比、400nit典型、98%P3、10.7億色；HDR10／DisplayHDR400",
+      "Coding深/淺色模式、第二代光智慧、夜間保護、MoonHalo環境背光；Display Pilot 2與Display Quickit",
+      "HDMI 2.0 x 2、DisplayPort 1.4 x 1、USB-C上行90W（DP Alt Mode／資料）、USB-B上行；KVM、PIP/PBP、MST串接",
+      "USB-A下行x2、USB-C下行x2；3W x 2喇叭、耳機插孔；各USB埠供電與頻寬依官方規格",
+      "升降110mm、俯仰-5°至20°、左右15°、旋轉90°；VESA 100 x 100mm",
+      "尺寸：含底座高468.6–581.6 x 寬714.6 x 深263.1 mm；不含底座高425 x 寬714.6 x 深88.6 mm（官方高寬深軸序）",
+      "重量：不含底座7.3 kg；含底座10.8 kg",
+      "電源：內建100–240V，典型30W／最大220W；官方台灣網頁未列市電頻率"
+    ],
+    "description": "適合長時間閱讀程式碼與文件的31.5吋4K工作螢幕，重點是低反光、明暗Coding模式與KVM；60Hz和16:9要與高刷新或3:2機種分開比較。",
+    "pros": [
+      "低反光面板、2000:1對比與多種閱讀模式，適合明亮辦公環境",
+      "USB-C 90W、KVM與PIP/PBP整合多電腦桌面",
+      "台灣可信新品通路可購；BenQ面板與機身三年保固"
+    ],
+    "cons": [
+      "只有60Hz，HDR400與IPS不能等同OLED黑位或高階分區控光；大底座需足夠桌深",
+      "原始PTT/Reddit有亮暗點、白綠線及面板故障個案，Mobile01接縫有膠者換新後改善；購後應在退換貨期檢查均勻度與組裝",
+      "少數原頁回報KVM/USB-C喚醒或資料速率取捨，Display Pilot 2快捷鍵與跨螢幕焦點功能有限；先驗證筆電、線材與韌體",
+      "部分使用者主觀認為畫質或喇叭不如其他款；這些不同症狀尚未達同一問題6人／2原站門檻"
+    ],
+    "bestFor": "重視低反光與長時間文字閱讀，桌深足夠、接受4K 60Hz的工程師與文件工作者。",
+    "recommendation": "程式設計用途補充：依桌深、60Hz與16:9需求挑選，並在鑑賞期實測KVM、USB-C、面板與外殼接縫。",
+    "score": 83,
+    "voltage": "BenQ台灣官方額定100–240V、內建電源；頻率未在該網頁列出，接線依隨機台灣電源線與機背額定標示。",
+    "warranty": "BenQ台灣合法通路IPS機種：面板與機身三年保固；台灣本島保固內免費到府收送。亮點判定、線材耗材與其他排除依官方條款；RD系列不套用SW/PD備機保證。",
+    "tags": [
+      "程式設計",
+      "4K",
+      "60Hz",
+      "低反光",
+      "USB-C 90W",
+      "KVM",
+      "台灣公司貨"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "found",
+      "amount": 18894,
+      "currency": "TWD",
+      "converted": 18894,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1233976895&cgp=18894",
+      "sourceTitle": "比價撿便宜 RD320U／Yahoo 11255959 價格歷史",
+      "evidenceSnippet": "LBJ exact RD320U Yahoo列的history按鈕綁pid1233976895；145個時間點中，排除由cgp帶入的今日顯示點後，2024-10-26至2026-10-23最低NT$18894，2026-08-01、09-26及10-23等多日可重現；當前Yahoo11255959同型號單件95折亦18894。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-10-26",
+      "note": "這是來源可驗證時間窗內同型號台灣新品歷史低點，不宣稱全網永久最低。原Yahoo單件95折活動801418至2026-10-27 07:59:59（台灣）；不含會員券、卡回饋、點數或贈品折值。已排除PTT二手10000、護目鏡650/799及海外不同區域報價。cgp只帶入今日顯示值，未將該點當過去價格證據。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-26",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "\"RD320U\" site:reddit.com/r/BenQ",
+          "queryUrl": "https://www.google.com/search?q=%22RD320U%22%20site%3Areddit.com%2Fr%2FBenQ"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "\"RD320U\" site:ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=%22RD320U%22%20site%3Aptt.cc"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"RD320U\" site:mobile01.com/topicdetail",
+          "queryUrl": "https://www.google.com/search?q=%22RD320U%22%20site%3Amobile01.com%2Ftopicdetail"
+        }
+      ]
+    }
   }
 ]);
 })();
