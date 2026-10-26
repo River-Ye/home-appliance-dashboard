@@ -210,9 +210,9 @@
       "currency": "TWD",
       "amount": 31111,
       "converted": 31111,
-      "confidence": "2026-10-26 人工覆核同型號同版本來源與銷售狀態；價格適用條件及保留舊參考價的原因見註記與維護報告。",
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價的原因見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-26 momo同型號單件公開折後價31111元（促銷36980元、10/24–11/13滿1件折5869元）；每人限1組/限下單1次，可下單，送貨需專人約定，未承諾立即出貨。"
+      "note": "2026-10-27 momo同型號單件公開折後31111元（促銷36980、10/24–11/13滿1件折5869）；每人限1組／限下單1次，可下單且由專人約定送貨時間，未承諾立即出貨。"
     },
     "installation": {
       "status": "excluded",
@@ -1069,10 +1069,10 @@
     "name": "AI 藍光辨識超薄掃拖旗艦機低矮版",
     "price": {
       "currency": "TWD",
-      "amount": 31980,
-      "converted": 31980,
-      "confidence": "PChome 2026-10-21 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-10-19 原頁已顯示加入購物車及立即購買，未再標示預購；同型號 API 顯示有庫存，採當日公開價。"
+      "amount": 31911,
+      "converted": 31911,
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價的原因見註記。",
+      "note": "2026-10-27 PChome同型號X60 Master主商品公開31911元；未誤採相鄰X60 Ultra水箱版25911元，可加入購物車／立即購買。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL3EA900JZ3SP/000001_1780033309.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL3E-A900JZ3SP",
@@ -1166,13 +1166,14 @@
     "name": "全能掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 9999,
-      "converted": 9999,
-      "confidence": "PChome 2026-10-21 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 9811,
+      "converted": 9811,
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價的原因見註記。",
+      "note": "2026-10-27 PChome同型號主商品公開9811元，原頁可加入購物車／立即購買；不含個人券、點數與信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL3EA900JY4G0/000001_1780033612.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL3E-A900JY4G0",
-    "buyLabel": "PChome 24h",
+    "buyLabel": "PChome（台灣公司貨新品）",
     "specs": [
       "全能基站",
       "掃拖一體",

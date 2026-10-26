@@ -1413,12 +1413,12 @@
       "currency": "TWD",
       "amount": 4591,
       "converted": 4591,
-      "confidence": "2026-10-26 人工覆核同型號同版本來源與銷售狀態；價格適用條件及保留舊參考價的原因見註記與維護報告。",
-      "note": "2026-10-26 Yahoo公開滿888享92折，單件即達門檻，4591元至2026-10-27 07:59:59（台灣時間）；不需領券或加購，未扣卡片及點數回饋。"
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價的原因見註記。",
+      "note": "2026-10-27 Yahoo公開滿888享92折，單件即達門檻，4591元至2026-10-27 07:59:59（台灣時間）；不需領券或加購，未扣卡片及點數回饋。"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/69fb8a2ae4-Gd-11322933.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Philips-%E9%A3%9B%E5%88%A9%E6%B5%A6-Saeco%E5%8D%8A%E8%87%AA%E5%8B%95%E7%BE%A9%E5%BC%8F%E5%92%96%E5%95%A1%E6%A9%9F-EMS5110-02-11322933.html",
-    "buyLabel": "Yahoo購物中心自營",
+    "buyLabel": "Yahoo購物（限時價至10/27 07:59:59）",
     "specs": [
       "類型：半自動",
       "使用原料：咖啡豆研磨後的咖啡粉",
@@ -1521,12 +1521,12 @@
       "currency": "TWD",
       "amount": 5990,
       "converted": 5990,
-      "confidence": "2026-10-26 人工覆核同型號同版本來源與銷售狀態；價格適用條件及保留舊參考價的原因見註記與維護報告。",
-      "note": "2026-10-26官方原始主價6490元，運送文字仍為9月預購；5990元保留上次參考，折500及實際交期尚未確認，非今日已驗證可購現價。"
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價的原因見註記。",
+      "note": "2026-10-27 Yahoo官方直營exact EM450.M公開5990元，非個人券/卡片/點數後價；原品牌官網交期文字過時，購買入口改為可下單的Yahoo同型新品頁。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAT03A900J5HMT/000007_1755771859.jpg",
-    "buyUrl": "https://www.stilusa.com.tw/zh-TW/products/em450m",
-    "buyLabel": "De'Longhi官方（交期待確認／參考價）",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Delonghi-官方直營-EM450-M-半自動義式咖啡機-11985428.html",
+    "buyLabel": "Yahoo購物（De’Longhi官方直營）",
     "specs": [
       "類型：半自動",
       "使用原料：咖啡豆研磨後的咖啡粉",
@@ -1736,9 +1736,9 @@
       "currency": "TWD",
       "amount": 12800,
       "converted": 12800,
-      "confidence": "2026-10-26 人工覆核同型號同版本來源與銷售狀態；價格適用條件及保留舊參考價的原因見註記與維護報告。",
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價的原因見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-26原頁仍標11/1 00:00開賣；保留舊參考價，未採尚未開賣預告，非今日可購現價。"
+      "note": "2026-10-27原頁仍標11/1 00:00開賣；保留舊參考價，非今日可購現價。"
     },
     "image": "https://storage.googleapis.com/uni-splendor.appspot.com/images/p/4ef71aab-221e-42be-80b7-67676515bb0d.png",
     "buyUrl": "https://www.momoshop.com.tw/product/14547707",
@@ -2059,9 +2059,10 @@
     "name": "Barista EX 系列經典義式濃縮咖啡機（爵士灰）",
     "price": {
       "currency": "TWD",
-      "amount": 6990,
-      "converted": 6990,
-      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 12800,
+      "converted": 12800,
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價的原因見註記。",
+      "note": "2026-10-27 PChome exact GL-5700主商品公開12800元；頁內6990元為其他C3推薦商品，不作本型價格。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAT09A900IXUVD/000001_1769478978.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAT09-A900IXUVD",
@@ -2275,13 +2276,13 @@
       "currency": "TWD",
       "amount": 32000,
       "converted": 32000,
-      "confidence": "2026-10-26 人工覆核同型號同版本來源與銷售狀態；價格適用條件及保留舊參考價的原因見註記與維護報告。",
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價的原因見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-26原頁仍標11/1 00:00開賣；保留舊參考價，未採尚未開賣預告，非今日可購現價。"
+      "note": "2026-10-27原購買網址僅回傳管理訊息，售價與交期待重新確認；32000元為保留舊參考價，非今日已驗證可購現價。"
     },
     "image": "https://storage.googleapis.com/uni-splendor.appspot.com/images/p/6cf71d58-a653-465a-a6c3-7089f7f37314.png",
     "buyUrl": "https://www.momoshop.com.tw/product/14956869",
-    "buyLabel": "momo（11/1開賣／保留舊參考價）",
+    "buyLabel": "momo（購買頁待確認／參考價）",
     "specs": [
       "類型：半自動",
       "使用原料：咖啡豆研磨後的咖啡粉",

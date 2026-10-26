@@ -1827,13 +1827,14 @@
     "name": "醇火系列不沾炒鍋",
     "price": {
       "currency": "TWD",
-      "amount": 1439,
-      "converted": 1439,
-      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 1599,
+      "converted": 1599,
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價的原因見註記。",
+      "note": "2026-10-27 PChome exact醇火34CM加蓋炒鍋公開1599元，未扣個人券/點數/卡片回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DEES01A900IQ6X3/000001_1764832269.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEES01-A900IQ6X3",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome 24h購物",
     "specs": [
       "34cm",
       "不沾炒鍋",

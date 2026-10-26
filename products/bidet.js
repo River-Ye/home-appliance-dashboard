@@ -19,11 +19,12 @@
       "currency": "TWD",
       "amount": 9900,
       "converted": 9900,
-      "confidence": "2026-10-26 人工覆核同型號同版本來源與銷售狀態；價格適用條件及保留舊參考價的原因見註記與維護報告。"
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價的原因見註記。",
+      "note": "2026-10-27原PChome主商品公開9900元；API9690與原頁不一致，未採無法重現折價。"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAL2NA900HYYVV/000001_1732173829.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAL2N-A900HYYVV",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome 24h購物",
     "specs": [
       "溫水洗淨",
       "溫熱無縫便座",

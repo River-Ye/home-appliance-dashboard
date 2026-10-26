@@ -3324,13 +3324,14 @@
     "name": "逸系列微光夜視貓眼電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 31111,
-      "converted": 31111,
-      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 29999,
+      "converted": 29999,
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價的原因見註記。",
+      "note": "2026-10-27 PChome公開任1件折3112元，網路價33111元、折扣價29999元，活動標10/27–11/05；未扣個人券、P幣或信用卡回饋，安裝加價邊界仍依原欄位。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900K2QWO/000001_1782963114.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900K2QWO",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome 24h購物",
     "specs": [
       "300 萬畫素貓眼",
       "微光夜視",

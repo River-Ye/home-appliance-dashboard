@@ -1885,9 +1885,10 @@
     "name": "27 型 2K IPS USB-C UltraSharp 螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 11958,
-      "converted": 11958,
-      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 13888,
+      "converted": 13888,
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價的原因見註記。",
+      "note": "2026-10-27 PChome exact U2724D-4Y主商品公開價13888元；折價券、點數及登記回饋不計入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOMA900GS1DN/000001_1699955230.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABOM-A900GS1DN",
@@ -6530,7 +6531,8 @@
       "amount": 18894,
       "converted": 18894,
       "basis": "retailer_current",
-      "confidence": "2026-10-26 Yahoo自營11255959 exact RD320U公開單件95折；活動801418至2026-10-27 07:59:59（台灣），原價19888。不扣會員券、卡回饋、點數或贈品。"
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價的原因見註記。",
+      "note": "2026-10-27查核Yahoo公開單件95折活動801418，有效至2026-10-27 07:59:59（台灣時間）；原公開價19888元，未扣個人券、點數或信用卡回饋。"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/A547B09451-SP-17883815.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=11255959",
