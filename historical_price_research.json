@@ -22350,8 +22350,8 @@
           "outcome": "覆核：排除無法回到 exact-model 原始新品頁、套組、會員券、點數、福利品與二手候選。"
         }
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "coffee-philips-psa3218-10",

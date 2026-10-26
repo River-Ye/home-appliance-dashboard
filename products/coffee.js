@@ -1522,7 +1522,8 @@
       "amount": 5990,
       "converted": 5990,
       "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價的原因見註記。",
-      "note": "2026-10-27 Yahoo官方直營exact EM450.M公開5990元，非個人券/卡片/點數後價；原品牌官網交期文字過時，購買入口改為可下單的Yahoo同型新品頁。"
+      "note": "2026-10-27 Yahoo官方直營exact EM450.M公開5990元，非個人券/卡片/點數後價；原品牌官網交期文字過時，購買入口改為可下單的Yahoo同型新品頁。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAT03A900J5HMT/000007_1755771859.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Delonghi-官方直營-EM450-M-半自動義式咖啡機-11985428.html",
