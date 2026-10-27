@@ -2026,7 +2026,7 @@
       "currency": "TWD",
       "amount": 3290,
       "converted": 3290,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價的原因見註記。",
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "note": "2026-10-27 myfone原頁標價3290元，另列限時結帳9折（試算2961元；適用條件及實際結算待確認）；3290不是最低到手價，不扣購物金或券。"
     },
     "image": "https://img.shoplineapp.com/media/image_clips/69cce470ffef1bb84c79510a/original.jpg?1775035504=&owner_id=6976e3a5a39620001e911a08",

@@ -1992,9 +1992,9 @@
     "price": {
       "currency": "HKD",
       "amount": 9638,
-      "converted": 40057,
+      "converted": 40042,
       "basis": "retailer_current",
-      "confidence": "EasyLock 香港 2026-08-28 exact-model 公開促銷價；ExchangeRate-API 2026-10-26 匯率換算"
+      "confidence": "EasyLock 香港 2026-08-28 exact-model 公開促銷價；ExchangeRate-API 2026-10-27 匯率換算"
     },
     "installation": {
       "status": "included_basic",
@@ -3326,7 +3326,7 @@
       "currency": "TWD",
       "amount": 29999,
       "converted": 29999,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價的原因見註記。",
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "note": "2026-10-27 PChome公開任1件折3112元，網路價33111元、折扣價29999元，活動標10/27–11/05；未扣個人券、P幣或信用卡回饋，安裝加價邊界仍依原欄位。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900K2QWO/000001_1782963114.jpg",

@@ -2347,10 +2347,11 @@
     "type": "10g",
     "price": {
       "currency": "TWD",
-      "amount": 19500,
-      "converted": 19500,
-      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "basis": "retailer_current"
+      "amount": 20500,
+      "converted": 20500,
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-27上午重新核對PChome主商品公開價20500元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。"
     },
     "installation": {
       "status": "excluded",

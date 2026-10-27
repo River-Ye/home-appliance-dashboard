@@ -305,9 +305,10 @@
     "name": "19.6 公升 PuriCare 雙變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 19251,
-      "converted": 19251,
-      "confidence": "Yahoo購物中心 2026-10-23 exact-model 公開結構化價格"
+      "amount": 20924,
+      "converted": 20924,
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-27 Yahoo原頁同型號DD201MEE0主商品公開20924元，與同頁主商品結構價格一致，可立即購買／加入購物車；未扣折價券、點數、信用卡或個人化回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4OA900JX7GH/000001_1783563034.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-DD201MEE0-19-6%E5%85%AC%E5%8D%87-PuriCare-%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9F-11884613.html",
@@ -497,9 +498,10 @@
     "name": "16 公升變頻高效型除濕機磁石黑",
     "price": {
       "currency": "TWD",
-      "amount": 16660,
-      "converted": 16660,
-      "confidence": "Yahoo購物中心 2026-10-23 exact-model 公開結構化價格"
+      "amount": 19600,
+      "converted": 19600,
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-27 Yahoo原頁同型號F-YV32NXK主商品公開19600元，與同頁主商品結構價格一致，可立即購買／加入購物車；未扣折價券、點數、信用卡或個人化回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4YA900IKOCC/000001_1744795213.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-16L-nanoe%E8%AE%8A%E9%A0%BB%E5%BE%AE%E9%9B%BB%E8%85%A6%E9%99%A4%E6%BF%95%E6%A9%9F-F-YV32NX-11427351.html",
@@ -593,9 +595,10 @@
     "name": "16 公升變頻高效型清淨除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 20647,
-      "converted": 20647,
-      "confidence": "Yahoo購物中心 2026-10-23 exact-model 公開結構化價格"
+      "amount": 24290,
+      "converted": 24290,
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-27 Yahoo原頁同型號F-YV32MH主商品公開24290元，與同頁主商品結構價格一致，可立即購買／加入購物車；未扣折價券、點數、信用卡或個人化回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900GTPHC/000001_1699597155.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-16L-W-HEXS%E9%AB%98%E6%95%88%E5%BE%AE%E9%9B%BB%E8%85%A6%E9%99%A4%E6%BF%95%E6%A9%9F-F-YV32MH-10762034.html",
@@ -689,9 +692,10 @@
     "name": "8 公升清淨除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 11892,
-      "converted": 11892,
-      "confidence": "Yahoo購物中心 2026-10-23 exact-model 公開結構化價格"
+      "amount": 13990,
+      "converted": 13990,
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-27 Yahoo原頁同型號F-Y16FH主商品公開13990元，與同頁主商品結構價格一致，可立即購買／加入購物車；未扣折價券、點數、信用卡或個人化回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU0FA900B1HPU/000001_1782813379.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-8L-HEPA%E6%B8%85%E6%B7%A8%E9%99%A4%E6%BF%95-7996517.html",
@@ -1361,9 +1365,10 @@
     "name": "20L 第六感智能除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 8792,
-      "converted": 8792,
-      "confidence": "Yahoo購物中心 2026-10-23 exact-model 公開結構化價格"
+      "amount": 9990,
+      "converted": 9990,
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-27 Yahoo原頁同型號WDEE20TW主商品公開9990元，與同頁主商品結構價格一致，可立即購買／加入購物車；未扣折價券、點數、信用卡或個人化回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3SA900K13ZR/000001_1779265654.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool%E6%83%A0%E8%80%8C%E6%B5%A6-WDEE20TW-20L-%E7%AC%AC%E5%85%AD%E6%84%9F%E6%99%BA%E8%83%BD%E9%99%A4%E6%BF%95%E6%A9%9F-12132430.html",

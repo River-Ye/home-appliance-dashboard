@@ -42,7 +42,8 @@
       "amount": 6490,
       "converted": 6490,
       "basis": "retailer_current",
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價的原因見註記。"
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-27上午覆核：原Sony KBD-G900/B可見限時優惠6490，8990是劃線原價，保留黑色版。"
     },
     "installation": {
       "status": "not_stated",

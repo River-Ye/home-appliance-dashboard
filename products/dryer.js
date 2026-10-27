@@ -15,9 +15,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/AC7DC27581-SP-22704432.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 9143,
-      "converted": 9143,
-      "confidence": "PChome 2026-10-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 9351,
+      "converted": 9351,
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-27 PChome原頁同型號NH-80RZ-W主商品折扣價9351元，國際牌原廠直營10/01–11/30任選1件9折；可立即購買／加入購物車，未扣折價券、點數或信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1641,9 +1642,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/C0FA586EC4-SP-18495887.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 7591,
-      "converted": 7591,
-      "confidence": "Yahoo購物中心 2026-10-23 exact-model 公開結構化價格"
+      "amount": 7990,
+      "converted": 7990,
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-27 Yahoo原頁同型號HDM-0841主商品公開7990元，可立即購買／加入購物車；另列下單再折及88折雙享券但實際適用條件未封閉，未將7990稱最低到手價，不扣券、點數或信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1945,9 +1947,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/254DF81A1E-SP-20893325.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 45908,
-      "converted": 45908,
-      "confidence": "Yahoo購物中心 2026-10-23 exact-model 公開結構化價格"
+      "amount": 49900,
+      "converted": 49900,
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-27 Yahoo原頁同型號WQB245A0TC主商品公開49900元，與同頁主商品結構價格一致，可立即購買／加入購物車；未扣折價券、點數、信用卡或個人化回饋。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",

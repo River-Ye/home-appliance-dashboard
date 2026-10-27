@@ -1411,14 +1411,14 @@
     "name": "Saeco 半自動義式咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 4591,
-      "converted": 4591,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價的原因見註記。",
-      "note": "2026-10-27 Yahoo公開滿888享92折，單件即達門檻，4591元至2026-10-27 07:59:59（台灣時間）；不需領券或加購，未扣卡片及點數回饋。"
+      "amount": 4990,
+      "converted": 4990,
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-27 原購買頁公開4990元；舊折扣已不再成立，未扣個人券、點數與信用卡回饋。"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/69fb8a2ae4-Gd-11322933.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Philips-%E9%A3%9B%E5%88%A9%E6%B5%A6-Saeco%E5%8D%8A%E8%87%AA%E5%8B%95%E7%BE%A9%E5%BC%8F%E5%92%96%E5%95%A1%E6%A9%9F-EMS5110-02-11322933.html",
-    "buyLabel": "Yahoo購物（限時價至10/27 07:59:59）",
+    "buyLabel": "Yahoo購物中心自營",
     "specs": [
       "類型：半自動",
       "使用原料：咖啡豆研磨後的咖啡粉",
@@ -1521,7 +1521,7 @@
       "currency": "TWD",
       "amount": 5990,
       "converted": 5990,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價的原因見註記。",
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "note": "2026-10-27 Yahoo官方直營exact EM450.M公開5990元，非個人券/卡片/點數後價；原品牌官網交期文字過時，購買入口改為可下單的Yahoo同型新品頁。",
       "basis": "retailer_current"
     },
@@ -1737,7 +1737,7 @@
       "currency": "TWD",
       "amount": 12800,
       "converted": 12800,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價的原因見註記。",
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "basis": "retailer_current",
       "note": "2026-10-27原頁仍標11/1 00:00開賣；保留舊參考價，非今日可購現價。"
     },
@@ -2062,7 +2062,7 @@
       "currency": "TWD",
       "amount": 12800,
       "converted": 12800,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價的原因見註記。",
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "note": "2026-10-27 PChome exact GL-5700主商品公開12800元；頁內6990元為其他C3推薦商品，不作本型價格。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAT09A900IXUVD/000001_1769478978.jpg",
@@ -2277,13 +2277,13 @@
       "currency": "TWD",
       "amount": 32000,
       "converted": 32000,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價的原因見註記。",
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-27原購買網址僅回傳管理訊息，售價與交期待重新確認；32000元為保留舊參考價，非今日已驗證可購現價。"
+      "note": "2026-10-27本輪原momo購買頁恢復可讀，仍標11/1 00:00開賣；32000元為保留舊參考價，非今日可購現價。"
     },
     "image": "https://storage.googleapis.com/uni-splendor.appspot.com/images/p/6cf71d58-a653-465a-a6c3-7089f7f37314.png",
     "buyUrl": "https://www.momoshop.com.tw/product/14956869",
-    "buyLabel": "momo（購買頁待確認／參考價）",
+    "buyLabel": "momo（11/1開賣／保留舊參考價）",
     "specs": [
       "類型：半自動",
       "使用原料：咖啡豆研磨後的咖啡粉",

@@ -414,10 +414,10 @@
     "name": "BRAVIA 9 II 65 型 RGB LED 4K Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 95389,
-      "converted": 95389,
-      "confidence": "Yahoo購物中心 2026-10-23 exact-model 公開結構化價格",
-      "note": "Yahoo公開96折活動800931至2026-10-27 07:59:59台灣時間，99363元折後95389元；此賣編含標準安裝與舊機回收，不含會員券、點數或刷卡回饋。"
+      "amount": 99363,
+      "converted": 99363,
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-27上午原Yahoo同型號公開價99363元；早間活動已到期且主商品不再顯示活動折後價，未扣個人券、點數或信用卡回饋。此賣編含標準安裝與舊機回收，配送需另約。"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/F326F9F0C5-SP-23019953.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E5%90%AB%E6%A8%99%E6%BA%96%E5%AE%89%E8%A3%9D-SONY%E7%B4%A2%E5%B0%BC65%E5%90%8B%E5%90%8BRGB-4K%E9%80%A3%E7%B6%B2%E6%99%BA%E6%85%A7%E9%A1%AF%E7%A4%BA%E5%99%A8Y-65XR90M2-12159450.html",
@@ -814,9 +814,10 @@
     "name": "BRAVIA 8 65 型 XR OLED 4K HDR Google TV 顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 84510,
-      "converted": 84510,
-      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 93900,
+      "converted": 93900,
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-27上午重新核對PChome主商品公開價93900元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD06A900HLBJO/000001_1776334113.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAD06-A900HLBJO",
@@ -1903,9 +1904,10 @@
     "name": "65型 4K QLED 120Hz Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 14391,
-      "converted": 14391,
-      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 15990,
+      "converted": 15990,
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-27上午重新核對PChome主商品公開價15990元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADTOA900JNE73/000001_1768523868.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADTO-A900JNMOP",
@@ -4135,8 +4137,8 @@
       "amount": 148491,
       "converted": 148491,
       "basis": "retailer_current",
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價的原因見註記。",
-      "note": "2026-10-27 PChome原頁公開任選1件9折價148491元（網路價164990），活動PR26102600134009自2026-10-26 10:29至2027-01-23 23:59:59（台灣）；不含個人券、點數或信用卡回饋。"
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-27上午覆核：原PChome75X11L主商品148491折扣價，原164990，公開任選1件9折2026-10-26至2027-01-23，可加車。"
     },
     "installation": {
       "status": "included_basic",

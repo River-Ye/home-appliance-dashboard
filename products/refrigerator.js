@@ -324,13 +324,14 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/4455399AAF-SP-22083802.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 13775,
-      "converted": 13775,
-      "confidence": "Yahoo購物中心 2026-10-23 exact-model 公開結構化價格",
-      "basis": "retailer_current"
+      "amount": 14500,
+      "converted": 14500,
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-27 原購買頁公開14500元；舊折扣已不再成立，未扣個人券、點數與信用卡回饋。"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心",
+    "buyLabel": "Yahoo購物中心自營",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG-%E6%A8%82%E9%87%91-266%E5%85%AC%E5%8D%87-%E4%B8%80%E7%B4%9A%E8%83%BD%E6%95%88-%E6%99%BA%E6%85%A7%E8%AE%8A%E9%A0%BB%E9%9B%99%E9%96%80%E5%86%B0%E7%AE%B1-%E6%98%9F%E8%BE%B0%E9%8A%80-GN-L266SVN-%E9%80%81%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-11988613.html",
     "specs": [
       "冰箱：LG 樂金 266公升 一級能效 智慧變頻雙門冰箱-星辰銀(GN-L266SVN)(送基本安裝)",
@@ -1150,12 +1151,13 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/2D7A5B7B73-SP-16189270.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 15799,
-      "converted": 15799,
-      "confidence": "Yahoo購物中心 2026-10-24 exact-model 公開結構化價格"
+      "amount": 15999,
+      "converted": 15999,
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-27 原購買頁公開15999元；舊折扣已不再成立，未扣個人券、點數與信用卡回饋。"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心",
+    "buyLabel": "Yahoo購物中心自營",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E9%A0%90%E8%B3%BC%E5%95%86%E5%93%81-%E9%A0%90%E8%A8%884-1%E5%BE%8C%E4%BE%9D%E5%BA%8F%E7%99%BC%E8%B2%A8-SANLUX%E5%8F%B0%E7%81%A3%E4%B8%89%E6%B4%8B-430%E5%85%AC%E5%8D%87%E4%B8%80%E7%B4%9A%E8%83%BD%E6%95%88%E8%AE%8A%E9%A0%BB%E9%9B%99%E9%96%80%E5%86%B0%E7%AE%B1-SR-V430-10961354.html",
     "specs": [
       "冰箱：【SANLUX 台灣三洋】430L 一級變頻大蔬果室雙門冰箱 SR-V430B",
@@ -1253,12 +1255,13 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/58E65612D5-SP-11664526.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 11543,
-      "converted": 11543,
-      "confidence": "Yahoo購物中心 2026-10-24 exact-model 公開結構化價格"
+      "amount": 11900,
+      "converted": 11900,
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-27 原購買頁公開11900元；舊折扣已不再成立，未扣個人券、點數與信用卡回饋。"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心",
+    "buyLabel": "Yahoo購物中心自營",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SANLUX%E5%8F%B0%E7%81%A3%E4%B8%89%E6%B4%8B-250L-1%E7%B4%9A%E8%AE%8A%E9%A0%BB%E9%9B%99%E9%96%80%E9%9B%BB%E5%86%B0%E7%AE%B1SR-C238BV-10096667.html",
     "specs": [
       "冰箱：【SANLUX 台灣三洋】250L 一級變頻雙門電冰箱 SR-C238BV",

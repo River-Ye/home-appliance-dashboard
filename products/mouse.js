@@ -3082,7 +3082,8 @@
       "amount": 3290,
       "converted": 3290,
       "basis": "retailer_current",
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價的原因見註記。"
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-27上午覆核：原Sony MSE-G500/B可見限時優惠3290，4990是劃線原價，保留黑色版。"
     },
     "installation": {
       "status": "not_stated",

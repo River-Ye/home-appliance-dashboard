@@ -411,8 +411,8 @@
     "price": {
       "currency": "USD",
       "amount": 499.95,
-      "converted": 16296,
-      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-10-26 匯率換算"
+      "converted": 16295,
+      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-10-27 匯率換算"
     },
     "image": "https://assets.breville.com/cdn-cgi/image/width=1300,format=auto/BOV950/BOV950BSS1BUS1/pdp3.png?pdp=",
     "buyUrl": "https://www.breville.com/en-us/product/bov950",
@@ -508,14 +508,15 @@
     "name": "微波大師 27L 氣炸烤箱微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 8630,
-      "converted": 8630,
-      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "basis": "retailer_current"
+      "amount": 8990,
+      "converted": 8990,
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-27 原購買頁公開8990元；舊折扣已不再成立，未扣個人券、點數與信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ02A900I9LQ2/000001_1782379010.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ02-A900I9LQ2",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome 24h購物",
     "specs": [
       "27L",
       "尺寸：寬 52.3 x 深 48.8 x 高 30 cm",
@@ -901,13 +902,14 @@
     "name": "20L 多功能蒸氣氣炸烤箱",
     "price": {
       "currency": "TWD",
-      "amount": 9499,
-      "converted": 9499,
-      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 9999,
+      "converted": 9999,
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-27 原購買頁公開9999元；舊折扣已不再成立，未扣個人券、點數與信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900HF91A/000001_1768545220.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM0G-A900HF91A",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome 24h購物",
     "specs": [
       "20L",
       "尺寸：查不到",
@@ -1884,14 +1886,15 @@
     "name": "蒸烘烤變頻微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 41724,
-      "converted": 41724,
-      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "basis": "retailer_current"
+      "amount": 43920,
+      "converted": 43920,
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-27 原購買頁公開43920元；舊折扣已不再成立，未扣個人券、點數與信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900H5125/000001_1783054719.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM0G-A900H5125",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome 24h購物",
     "specs": [
       "蒸烘烤",
       "尺寸：寬 59.5 x 深 49.5 x 高 45.7 cm",
@@ -2285,8 +2288,8 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 13038,
-      "confidence": "2026-08-31 人工核對 SharkNinja 美國官方 MW101 公開可購主價 USD 399.99；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-10-26 匯率換算",
+      "converted": 13037,
+      "confidence": "2026-08-31 人工核對 SharkNinja 美國官方 MW101 公開可購主價 USD 399.99；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-10-27 匯率換算",
       "basis": "retailer_current"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/MW101_01.jpg",

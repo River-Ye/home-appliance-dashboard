@@ -17,7 +17,7 @@
       "currency": "TWD",
       "amount": 20900,
       "converted": 20900,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價的原因見註記。",
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "note": "2026-10-27 LG官方同型號主商品公開售價20900元，28900為同一主商品的劃線參考價；未扣指定銀行回饋、點數或個人化折扣。"
     },
     "channel": "tw",
@@ -744,10 +744,11 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/1f2a33ce70-Gd-10053955.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 43563,
-      "converted": 43563,
-      "confidence": "Yahoo購物中心 2026-10-23 exact-model 公開結構化價格",
-      "basis": "retailer_current"
+      "amount": 44910,
+      "converted": 44910,
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-27 Yahoo原頁同型號8TWFC6820LW主商品公開44910元，與同頁主商品結構價格一致，可立即購買／加入購物車；未扣折價券、點數、信用卡或個人化回饋。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1265,13 +1266,14 @@
     "image": "https://cs-a.ecimg.tw/items/DPAI1HA900AMJJK/000001_1761009175.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 21912,
-      "converted": 21912,
-      "confidence": "PChome 2026-10-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "basis": "retailer_current"
+      "amount": 22410,
+      "converted": 22410,
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-27 PChome原頁同型號NA-V120HDH主商品折扣價22410元，國際牌原廠直營10/01–11/30任選1件9折；可立即購買／加入購物車，未扣折價券、點數或信用卡回饋。"
     },
     "channel": "tw",
-    "buyLabel": "PChome 24h 購物",
+    "buyLabel": "PChome",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1H-A900AMJJK",
     "specs": [
       "洗烘衣機：Panasonic國際牌 12KG 變頻洗脫烘滾筒洗衣機 NA-V120HDH-G",
@@ -1686,9 +1688,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/41046DB844-SP-12334280.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 35803,
-      "converted": 35803,
-      "confidence": "Yahoo購物中心 2026-10-23 exact-model 公開結構化價格"
+      "amount": 38916,
+      "converted": 38916,
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-27 Yahoo原頁同型號NA-V150MDH主商品公開38916元，與同頁主商品結構價格一致，可立即購買／加入購物車；未扣折價券、點數、信用卡或個人化回饋。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -2711,9 +2714,10 @@
     "image": "https://pstw.panasonic.com.tw/shop/Upload/Product/20260514190222S44S2J5E.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 39512,
-      "converted": 39512,
-      "confidence": "PChome 2026-10-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 40410,
+      "converted": 40410,
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-27 PChome原頁同型號NA-SD10TB主商品折扣價40410元，國際牌原廠直營10/01–11/30任選1件9折；可立即購買／加入購物車，未扣折價券、點數或信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -3034,10 +3038,11 @@
     "name": "10/7kg i-DOS 智慧聯網洗脫烘",
     "price": {
       "currency": "TWD",
-      "amount": 46000,
-      "converted": 46000,
-      "confidence": "Yahoo購物中心 2026-10-23 exact-model 公開結構化價格",
-      "basis": "retailer_current"
+      "amount": 50000,
+      "converted": 50000,
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-27 Yahoo原頁同型號WNC554A0TC主商品公開50000元，與同頁主商品結構價格一致，可立即購買／加入購物車；未扣折價券、點數、信用卡或個人化回饋。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DPAID7A900IHEVX/000001_1776657918.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/BOSCH%E5%8D%9A%E4%B8%96-10-7%E5%85%AC%E6%96%A4%E9%AB%98%E6%95%88%E6%99%BA%E6%85%A7%E6%BB%BE%E7%AD%92%E6%B4%97%E8%84%AB%E7%83%98-%E5%90%AB%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-220V%E6%8B%89%E9%9B%BB-WNC554A0TC-11546320.html",

@@ -116,8 +116,8 @@
       "currency": "TWD",
       "amount": 9699,
       "converted": 9699,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價的原因見註記。",
-      "note": "2026-10-27 PChome exact特仕版2.0／3D扶手主商品公開9699元，頁面標示10/27限定；未扣券、點數或信用卡回饋，超大材積不受24h到貨限制。"
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-27上午覆核：原PChome主商品Ergohuman特仕版2.0 3D扶手仍9699，標10/27限定，可加車；16500為劃線價。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAKHPA900HEQ4H/000001_1760581993.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAKHP-A900HEQ4H",

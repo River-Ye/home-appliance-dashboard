@@ -119,10 +119,11 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/2E9A754FA4-SP-22052141.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 18905,
-      "converted": 18905,
-      "confidence": "Yahoo購物中心 2026-10-23 exact-model 公開結構化價格",
-      "basis": "retailer_current"
+      "amount": 19900,
+      "converted": 19900,
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-27 Yahoo原頁同型號WT-TD16HW主商品公開19900元，與同頁主商品結構價格一致，可立即購買／加入購物車；未扣折價券、點數、信用卡或個人化回饋。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -224,10 +225,11 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/7A7EBA14D6-SP-22052251.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 19855,
-      "converted": 19855,
-      "confidence": "Yahoo購物中心 2026-10-23 exact-model 公開結構化價格",
-      "basis": "retailer_current"
+      "amount": 20900,
+      "converted": 20900,
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-27 Yahoo原頁同型號WT-TD18OB主商品公開20900元，與同頁主商品結構價格一致，可立即購買／加入購物車；未扣折價券、點數、信用卡或個人化回饋。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -433,9 +435,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/CA07AC9A88-SP-14769059.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 20152,
-      "converted": 20152,
-      "confidence": "PChome 2026-10-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 20610,
+      "converted": 20610,
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-27 PChome原頁同型號NA-V150NM-PN主商品折扣價20610元，國際牌原廠直營10/01–11/30任選1件9折；可立即購買／加入購物車，未扣折價券、點數或信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -753,7 +756,7 @@
       "currency": "TWD",
       "amount": 7990,
       "converted": 7990,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價的原因見註記。",
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "note": "2026-10-27 Yahoo原頁主商品公開7990元，預購12/1出貨、含基本安裝及舊機回收；滿1件95折活動793446至2026-12-31 23:59:59（台灣），不含個人券、點數或信用卡回饋。"
     },
     "channel": "tw",
@@ -960,9 +963,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/ae6170dd95-Gd-10609233.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 7290,
-      "converted": 7290,
-      "confidence": "2026-10-26 人工覆核同型號同版本來源與銷售狀態；價格適用條件及保留舊參考價的原因見註記與維護報告。"
+      "amount": 6511,
+      "converted": 6511,
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-27 PChome原頁同型號WM10KW主商品公開折扣價6511元（網路價7290），惠而浦雙11前哨戰10/27–10/31任選1件6511；可加車／立即購買，不扣券、點數或信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "PChome",

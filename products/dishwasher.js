@@ -1942,8 +1942,8 @@
       "currency": "TWD",
       "amount": 12999,
       "converted": 12999,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價的原因見註記。",
-      "note": "2026-10-27原PChome主商品公開12999元；API12349未由原頁重現，不將回饋或未確認折扣當售價。"
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-27原PChome主商品公開12999元；12349元折扣未由原頁重現，不將回饋或未確認折扣當售價。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR24A900JFSR7/000001_1762761618.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR24-A900JFSR7",

@@ -16,9 +16,10 @@
     "name": "全能機械手臂旗艦掃拖王者",
     "price": {
       "currency": "TWD",
-      "amount": 33980,
-      "converted": 33980,
-      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 36980,
+      "converted": 36980,
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-27 PChome原頁同型號Saros Z70主商品公開36980元，可立即購買／加入購物車；先前33980優惠未重現，未誤採相鄰Saros20或豪華耗材組價格，不扣折價券或回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900IGHHM/000001_1782870336.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900IGHHM",
@@ -210,7 +211,7 @@
       "currency": "TWD",
       "amount": 31111,
       "converted": 31111,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價的原因見註記。",
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "basis": "retailer_current",
       "note": "2026-10-27 momo同型號單件公開折後31111元（促銷36980、10/24–11/13滿1件折5869）；每人限1組／限下單1次，可下單且由專人約定送貨時間，未承諾立即出貨。"
     },
@@ -586,10 +587,10 @@
     "name": "無限續航滾筒洗地機器人上下水款",
     "price": {
       "currency": "TWD",
-      "amount": 24700,
-      "converted": 24700,
-      "confidence": "Yahoo購物中心 2026-10-23 exact-model 公開結構化價格",
-      "note": "2026-10-24 Yahoo原頁仍標新品預購中，到貨依訂單順序發貨；24700元僅供公開預購參考，非現貨或交期保證。"
+      "amount": 25999,
+      "converted": 25999,
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-27 Yahoo原頁同型號X11 PRO上下水款主商品公開預購25999元；新品預購中、到貨後依訂單順序依序發貨，非確認現貨或交期保證；舊24700折後價不再顯示，不扣折價券或回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900JRDAS/000001_1771917633.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/ECOVACS-%E7%A7%91%E6%B2%83%E6%96%AF-DEEBOT-X11-PRO%E7%84%A1%E9%99%90%E7%BA%8C%E8%88%AA%E6%BB%BE%E7%AD%92%E6%B4%97%E5%9C%B0%E6%A9%9F%E5%99%A8%E4%BA%BA-%E6%8E%83%E5%9C%B0%E6%A9%9F%E5%99%A8%E4%BA%BA-11797803.html",
@@ -1071,7 +1072,7 @@
       "currency": "TWD",
       "amount": 31911,
       "converted": 31911,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價的原因見註記。",
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "note": "2026-10-27 PChome同型號X60 Master主商品公開31911元；未誤採相鄰X60 Ultra水箱版25911元，可加入購物車／立即購買。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL3EA900JZ3SP/000001_1780033309.jpg",
@@ -1360,8 +1361,8 @@
     "price": {
       "currency": "EUR",
       "amount": 1099,
-      "converted": 40155,
-      "confidence": "2026-10-24人工核對de.narwal.com同型號同版本公開EUR 1099；未扣個人化券、信用卡或點數。；ExchangeRate-API 2026-10-26 匯率換算",
+      "converted": 40069,
+      "confidence": "2026-10-24人工核對de.narwal.com同型號同版本公開EUR 1099；未扣個人化券、信用卡或點數。；ExchangeRate-API 2026-10-27 匯率換算",
       "note": "2026-10-24德國官方白色標準站單機套裝公開EUR1099；未扣需輸入優惠碼的Halloween折扣。未含國際運費、進口稅，台灣電壓/插頭及保固/跨國送修風險另核。"
     },
     "image": "https://de.narwal.com/cdn/shop/files/narwal-flow-2-saugroboter-mit-selbstreinigung-9224922_1200x1200.png?v=1781597108",
@@ -1457,8 +1458,8 @@
     "price": {
       "currency": "USD",
       "amount": 551.69,
-      "converted": 17983,
-      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-10-26 匯率換算"
+      "converted": 17981,
+      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-10-27 匯率換算"
     },
     "image": "https://img.gkbcdn.com/p/2025-04-11/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438-0._w315_.jpg",
     "buyUrl": "https://www.geekbuying.com/item/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438.html",
@@ -2120,9 +2121,10 @@
     "name": "自清潔掃拖一體全能機器人",
     "price": {
       "currency": "TWD",
-      "amount": 13571,
-      "converted": 13571,
-      "confidence": "Yahoo購物中心 2026-10-23 exact-model 公開結構化價格"
+      "amount": 13990,
+      "converted": 13990,
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-27 Yahoo原頁同型號Omni C28主商品公開13990元，與同頁主商品結構價格一致，可立即購買／加入購物車；未扣折價券、點數、信用卡或個人化回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL2DA900K13C9/000001_1782120164.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/eufy-Omni-C28-%E8%87%AA%E6%B8%85%E6%BD%94%E6%8E%83%E6%8B%96%E4%B8%80%E9%AB%94%E5%85%A8%E8%83%BD%E6%A9%9F%E5%99%A8%E4%BA%BA-%E9%BB%91-11990604.html",
@@ -2602,8 +2604,8 @@
     "price": {
       "currency": "USD",
       "amount": 999.99,
-      "converted": 32596,
-      "confidence": "SharkNinja US 2026-07-21 來源價；ExchangeRate-API 2026-10-26 匯率換算"
+      "converted": 32592,
+      "confidence": "SharkNinja US 2026-07-21 來源價；ExchangeRate-API 2026-10-27 匯率換算"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/RV2820ZE_01.jpg",
     "buyUrl": "https://www.sharkninja.com/shark-powerdetect-2-in-1-robot-vacuum-and-mop-with-nevertouch-pro-base/RV2820ZE.html",
@@ -2796,8 +2798,8 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 13038,
-      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-10-26 匯率換算",
+      "converted": 13037,
+      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-10-27 匯率換算",
       "note": "2026-10-19 Costco 原商品頁已失效，未確認同型號新品現售；保留原幣參考價，只更新匯率換算，不以 QX Revo Arc／Plus／Max 替代。"
     },
     "image": "https://cdn.cs.1worldsync.com/syndication/mediaserverredirect/aaaa71b7b115f7d0cbeb119d8fc3ad7b/width%281200%29.jpg",
@@ -2879,9 +2881,10 @@
     "name": "Xiaomi 掃拖機器人 6 Max",
     "price": {
       "currency": "TWD",
-      "amount": 23280,
-      "converted": 23280,
-      "confidence": "Yahoo購物中心 2026-10-23 exact-model 公開結構化價格"
+      "amount": 23999,
+      "converted": 23999,
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-27 Yahoo原頁同型號6 Max主商品公開23999元，與同頁主商品結構價格一致，可立即購買／加入購物車；未扣折價券、點數、信用卡或個人化回饋。"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/5A801ABE6A-SP-22823743.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E5%B0%8F%E7%B1%B3-Xiaomi-%E6%8E%83%E6%8B%96%E6%A9%9F%E5%99%A8%E4%BA%BA-6-Max-%E5%AE%98%E6%96%B9%E6%97%97%E8%89%A6%E9%A4%A8-12134974.html",
@@ -3191,9 +3194,10 @@
     "name": "Xiaomi 掃拖機器人 H50 Pro",
     "price": {
       "currency": "TWD",
-      "amount": 10450,
-      "converted": 10450,
-      "confidence": "Yahoo購物中心 2026-10-23 exact-model 公開結構化價格"
+      "amount": 10999,
+      "converted": 10999,
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-27 Yahoo原頁同型號H50 Pro主商品公開10999元，與同頁主商品結構價格一致，可立即購買／加入購物車；未扣折價券、點數、信用卡或個人化回饋。"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/DBA14833A1-SP-22450109.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E5%B0%8F%E7%B1%B3-Xiaomi-%E6%8E%83%E6%8B%96%E6%A9%9F%E5%99%A8%E4%BA%BA-H50-Pro-12052496.html",
@@ -3405,14 +3409,15 @@
     "name": "搖滾天王超薄活水滾筒掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 23911,
-      "converted": 23911,
-      "confidence": "2026-10-26 人工覆核同型號同版本來源與銷售狀態；價格適用條件及保留舊參考價的原因見註記與維護報告。",
-      "basis": "retailer_current"
+      "amount": 25980,
+      "converted": 25980,
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-27 PChome原頁同型號Qrevo Edge 2 Flow主商品公開25980元，可立即購買／加入購物車；23911折後優惠已不在主商品顯示，不混Curv2 Flow17911或其他版本價格，不扣折價券或回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900K7R6R/000001_1785985365.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900K7R6R",
-    "buyLabel": "PChome 24h購物",
+    "buyLabel": "PChome",
     "installation": {
       "status": "not_stated",
       "note": "PChome exact-model 頁未標示到府安裝；一體式基座需放在平坦乾燥處、靠近插座並預留主機進出與清污水箱維護空間。"

@@ -840,12 +840,13 @@
     "image": "https://cs-a.ecimg.tw/items/DMCI01A900JV0NP/000001_1774843160.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 16020,
-      "converted": 16020,
-      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 17800,
+      "converted": 17800,
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-27 原購買頁公開17800元；舊折扣已不再成立，未扣個人券、點數與信用卡回饋。"
     },
     "channel": "tw",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome 24h購物",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMCI24-A900K16I2",
     "specs": [
       "櫥下飲水機：Brita mypure RO直輸淨水系統 GR1000",
@@ -1147,7 +1148,7 @@
       "currency": "TWD",
       "amount": 20900,
       "converted": 20900,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價的原因見註記。",
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "note": "2026-10-27 PChome原購買頁公開20900元；未扣個人券、點數或信用卡回饋。"
     },
     "channel": "tw",
@@ -1349,12 +1350,13 @@
     "image": "https://cs-a.ecimg.tw/items/DMBM2HA900GH7MW/000001_1770018742.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 25020,
-      "converted": 25020,
-      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 27800,
+      "converted": 27800,
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-27 原購買頁公開27800元；舊折扣已不再成立，未扣個人券、點數與信用卡回饋。"
     },
     "channel": "tw",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome 24h購物",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAWFM-A900H55UK",
     "specs": [
       "櫥下飲水機：SAKURA櫻花 廚下觸控式熱飲機 P0563",
@@ -1554,13 +1556,14 @@
     "name": "櫥下型雙溫 UV 觸控飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 30600,
-      "converted": 30600,
-      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 34000,
+      "converted": 34000,
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-27 原購買頁公開34000元；舊折扣已不再成立，未扣個人券、點數與信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBE1FA900GSOLN/000001_1698896380.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMCI17-A900I6OFW",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome 24h購物",
     "specs": [
       "櫥下型",
       "雙溫",
@@ -1846,13 +1849,14 @@
     "name": "廚下 RO 雙溫觸控飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 33129,
-      "converted": 33129,
-      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 36810,
+      "converted": 36810,
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-27 原購買頁公開36810元；舊折扣已不再成立，未扣個人券、點數與信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMCI0OA900JT66N/000001_1773306819.png",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMCI0O-A900JI1JA",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome 24h購物",
     "specs": [
       "廚下 RO",
       "雙溫",
@@ -2040,7 +2044,7 @@
       "currency": "TWD",
       "amount": 23500,
       "converted": 23500,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價的原因見註記。",
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "note": "2026-10-27 07:00:59後原Yahoo公開23500元；21855元93折活動已到期，未扣點換券、個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWB8A900BVEOG/000001_1760685693.jpg",
@@ -2136,8 +2140,8 @@
     "price": {
       "currency": "USD",
       "amount": 449.99,
-      "converted": 14668,
-      "confidence": "2026-10-24 人工核對 www.brondell.com 同型號與所選版本公開價 USD 449.99，可下單；未扣會員、信用卡或點數。；ExchangeRate-API 2026-10-26 匯率換算"
+      "converted": 14666,
+      "confidence": "2026-10-24 人工核對 www.brondell.com 同型號與所選版本公開價 USD 449.99，可下單；未扣會員、信用卡或點數。；ExchangeRate-API 2026-10-27 匯率換算"
     },
     "image": "https://cdn11.bigcommerce.com/s-mpfo2gcqca/images/stencil/1280x1280/products/560/5775/brondell-circle-rc100-reverse-osmosis-system-faucet.jpg__76718.1789593792.jpg?c=1",
     "buyUrl": "https://www.brondell.com/circle-reverse-osmosis-water-filter-system/",
@@ -2173,14 +2177,14 @@
       "status": "found",
       "amount": 289.99,
       "currency": "USD",
-      "converted": 9453,
+      "converted": 9451,
       "sourceUrl": "https://www.costco.com/CategoryDisplay?catalogId=10701&identifier=water-dispensers-filtration-water-filtration&storeId=10301",
       "sourceTitle": "Costco US：Brondell Circle Reverse Osmosis Water Filtration System",
       "evidenceSnippet": "Costco US exact-model 分類頁於 2026-08-28 顯示 Brondell Circle 折後 US$289.99，原價 US$369.99，優惠 US$80。",
       "sourceKind": "retailer_promo",
       "confidence": "medium",
       "checkedAt": "2026-08-28",
-      "note": "採 Costco US 公開 exact-model 折價作為本次可重現最低觀測價；未含國際運費、進口稅、耗材與台灣安裝／保固風險；依 2026-10-26 USD/TWD 匯率換算。"
+      "note": "採 Costco US 公開 exact-model 折價作為本次可重現最低觀測價；未含國際運費、進口稅、耗材與台灣安裝／保固風險；依 2026-10-27 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "common_issue",
@@ -2325,7 +2329,7 @@
       "currency": "TWD",
       "amount": 36800,
       "converted": 36800,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價的原因見註記。",
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "note": "2026-10-27 PChome原購買頁公開36800元；未扣個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWI0A900ITF3M/000001_1781688918.jpg",
@@ -2530,13 +2534,14 @@
     "name": "極熱 廚下五段溫控瞬熱飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 25920,
-      "converted": 25920,
-      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 28800,
+      "converted": 28800,
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-27 原購買頁公開28800元；舊折扣已不再成立，未扣個人券、點數與信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWHTA900JVB6I/000001_1775031754.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAWHT-A900JVB6I",
-    "buyLabel": "PChome 24h",
+    "buyLabel": "PChome 24h購物",
     "specs": [
       "無熱缸、約 3 秒瞬熱；五段溫控",
       "熱水流量最高約 600 mL/min",
@@ -3987,14 +3992,15 @@
     "name": "BD-3006BF 冷水煮沸飲水機＋RO-2604 逆滲透系統",
     "price": {
       "currency": "TWD",
-      "amount": 44712,
-      "converted": 44712,
-      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "basis": "retailer_current"
+      "amount": 49680,
+      "converted": 49680,
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-27 原購買頁公開49680元；舊折扣已不再成立，未扣個人券、點數與信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWFHA900F2DDI/000001_1692262957.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAWFH-A900F2DDI",
-    "buyLabel": "PChome 24h",
+    "buyLabel": "PChome 24h購物",
     "installation": {
       "status": "included_basic",
       "note": "PChome exact-model 頁明載免費標準安裝；水源、電源與排水需在 3m 內，建議水壓 2–3 kg/cm²，偏遠地區、特殊樓層或超出標準施工範圍可能加價，離島不提供安裝。"
@@ -4225,7 +4231,7 @@
       "converted": 18800,
       "basis": "retailer_current",
       "note": "2026-10-27資料頁仍列18800元，但購物入口404；保留舊參考價，實際可購狀態待確認。",
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價的原因見註記。"
+      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。"
     },
     "buyUrl": "https://www.yushan-water.com.tw/product-detail-3831092.html",
     "buyLabel": "玉山淨水（購買入口待確認／參考價）",
