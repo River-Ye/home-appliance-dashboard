@@ -2568,10 +2568,10 @@
     "name": "27 型 4K 160Hz IPS 雙模電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 8999,
-      "converted": 8999,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27上午重新核對PChome主商品公開價8999元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。",
+      "amount": 6911,
+      "converted": 6911,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-28人工覆核：原PChome VX2740D-4K 27吋雙模主商品6911元，可加車。未扣個人券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOIA900K129O/000001_1779250013.jpg",
@@ -2608,16 +2608,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 7588,
+      "amount": 6911,
       "currency": "TWD",
-      "converted": 7588,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1273971362&cgp=7988",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【ViewSonic 優派】VX2740D-4K 27型4K 160Hz/FHD 320Hz雙模電競螢幕(G-Sync/1ms/相容PS5與Xbox)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【ViewSonic 優派】VX2740D-4K 27型4K 160Hz/FHD 320Hz雙模電競螢幕(G-Sync/1ms/相容PS5與Xbox)」最低價為 NT$7,588，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 6911,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DSABOI-A900K129O",
+      "sourceTitle": "PChome 24h 購物：ViewSonic VX2740D-4K 雙模電競螢幕(27型/4K/160Hz/1ms/HDMI/DP/IPS)",
+      "evidenceSnippet": "PChome 24h 購物於 2026-10-28 顯示同型號可信新品公開價 NT$6,911，低於既有史低 NT$7,588。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-10-28",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -3949,9 +3949,11 @@
     "name": "49 型 Odyssey OLED G9 Dual QHD 240Hz 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 36900,
-      "converted": 36900,
-      "confidence": "PChome 2026-10-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 34888,
+      "converted": 34888,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-28人工覆核：原PChome三星49吋S49DG932SC主商品34888元，可加車；44900是劃線原價，登錄贈品與點數未折現。未扣個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900HZCPE/000001_1781766568.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900HZCPE",
@@ -4249,9 +4251,11 @@
     "name": "57 型 Odyssey Neo G9 Dual UHD 240Hz Mini LED 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 69900,
-      "converted": 69900,
-      "confidence": "PChome 2026-10-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 64900,
+      "converted": 64900,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-28人工覆核：原PChome三星57吋S57CG952NC主商品64900元，可加車；79900為劃線原價，含原頁所列配送基本桌放安裝。未扣個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900GQLSE/000001_1783054239.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900GQLSE",
@@ -6552,11 +6556,11 @@
     "name": "31.5 吋 4K Nano Matte 程式設計護眼螢幕（含 MoonHalo）",
     "price": {
       "currency": "TWD",
-      "amount": 19888,
-      "converted": 19888,
+      "amount": 18894,
+      "converted": 18894,
       "basis": "retailer_current",
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27上午原Yahoo同型號公開價19888元；早間活動已到期且主商品不再顯示活動折後價，未扣個人券、點數或信用卡回饋。"
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-28人工覆核：原頁RD320U主商品19888元，公開單件95折18894元；活動801829至10/28 07:59:59（台灣時間），活動後須重查。未扣個人券、點數或信用卡回饋。"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/A547B09451-SP-17883815.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=11255959",

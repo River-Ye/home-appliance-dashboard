@@ -414,10 +414,10 @@
     "name": "BRAVIA 9 II 65 型 RGB LED 4K Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 99363,
-      "converted": 99363,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27上午原Yahoo同型號公開價99363元；早間活動已到期且主商品不再顯示活動折後價，未扣個人券、點數或信用卡回饋。此賣編含標準安裝與舊機回收，配送需另約。",
+      "amount": 95389,
+      "converted": 95389,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-28人工覆核：原Yahoo SONY Y-65XR90M2含標準安裝主商品99363元，公開單件96折95389元；活動801973至11/2 07:59:59（台灣時間）。未扣個人券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/F326F9F0C5-SP-23019953.jpg",
@@ -815,10 +815,10 @@
     "name": "BRAVIA 8 65 型 XR OLED 4K HDR Google TV 顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 93900,
-      "converted": 93900,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27上午重新核對PChome主商品公開價93900元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。",
+      "amount": 84510,
+      "converted": 84510,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-28人工覆核：原PChome SONY Y-65XR80主商品93900元，公開折扣價84510元，可加車；不扣登錄P幣或贈品。未扣個人券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD06A900HLBJO/000001_1776334113.jpg",
@@ -1906,10 +1906,10 @@
     "name": "65型 4K QLED 120Hz Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 15990,
-      "converted": 15990,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27上午重新核對PChome主商品公開價15990元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。",
+      "amount": 14391,
+      "converted": 14391,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-28人工覆核：原PChome CHiQ CQ-65QX250主商品15990元，公開折扣價14391元，可加車。未扣個人券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADTOA900JNE73/000001_1768523868.jpg",
@@ -3943,11 +3943,11 @@
     "name": "65 型 S-960 Mini LED 量子點 144Hz 遊戲 Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 39900,
-      "converted": 39900,
+      "amount": 44900,
+      "converted": 44900,
       "basis": "retailer_current",
-      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-10-24原頁顯示10/23–10/27任選1件39900元，網路價44900元；採公開單件折扣價，未扣另領券/點數，活動後以原頁為準。"
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-28人工覆核：原PChome BenQ S65-960主商品44900元，49900是劃線價；2500P與贈品不折抵售價。未扣個人券、點數或信用卡回饋。"
     },
     "installation": {
       "status": "not_stated",
@@ -4137,11 +4137,11 @@
     "name": "75 吋 X11L SQD-Mini LED 4K Google TV 旗艦顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 148491,
-      "converted": 148491,
+      "amount": 151791,
+      "converted": 151791,
       "basis": "retailer_current",
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27上午覆核：原PChome75X11L主商品148491折扣價，原164990，公開任選1件9折2026-10-26至2027-01-23，可加車。"
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-28人工覆核：原PChome TCL75X11L主商品151791元可加車；189990為劃線價，本次主商品未顯示原9折活動，不保留過時148491。未扣個人券、點數或信用卡回饋。"
     },
     "installation": {
       "status": "included_basic",

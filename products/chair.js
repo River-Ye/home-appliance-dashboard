@@ -600,9 +600,11 @@
     "name": "Fujin 風靈網狀人體工學電競椅",
     "price": {
       "currency": "TWD",
-      "amount": 12990,
-      "converted": 12990,
-      "confidence": "PChome 2026-10-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 11691,
+      "converted": 11691,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-28人工覆核：原頁Fujin主商品12990元，公開單件9折11691元，10/27–11/2；可加車。未扣個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBT0KA900GSDTK/000001_1762771347.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBT0K-A900GSDTK",
@@ -785,9 +787,11 @@
     "name": "Enki 電競椅",
     "price": {
       "currency": "TWD",
-      "amount": 14900,
-      "converted": 14900,
-      "confidence": "PChome 2026-10-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 13410,
+      "converted": 13410,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-28人工覆核：原頁黑色RZ38-03720300-R3U1主商品14900元，公開單件9折13410元，10/27–11/2；沒有轉用相關綠色商品。未扣個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAKFOA900BWWGS/000001_1755481797.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAKFO-A900BWWGS",
@@ -1262,9 +1266,11 @@
     "name": "OC2 SEAT SET 坐躺兩用電腦椅",
     "price": {
       "currency": "TWD",
-      "amount": 3499,
-      "converted": 3499,
-      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 3324,
+      "converted": 3324,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-28人工覆核：原頁黑色OC2主商品3499元，公開滿2999享95折後3324元，10/27–10/31活動；可加車。未扣個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DEBHA6A9007ZPEF/000001_1768553712.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEBHA6-A9007ZPEF",

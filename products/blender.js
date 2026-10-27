@@ -1744,8 +1744,8 @@
       "currency": "TWD",
       "amount": 8990,
       "converted": 8990,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27原PChome L18M-Y6G公開8990元；8540元折扣未由原頁重現，P幣/卡片回饋未扣作售價。"
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-28 原PChome L18M-Y6G 同型號主商品公開 NT$8,990，可加入購物車；未扣個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY4YA900I3ILD/000001_1783328441.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAY4Y-A900I3ILD",

@@ -19,8 +19,8 @@
       "currency": "TWD",
       "amount": 9900,
       "converted": 9900,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27原PChome主商品公開9900元；9690元折扣未由原頁重現，未採無法重現折價。"
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-28 原PChome同型號主商品公開 NT$9,900，可加入購物車；未扣個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAL2NA900HYYVV/000001_1732173829.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAL2N-A900HYYVV",

@@ -17,10 +17,10 @@
     "name": "11.1.4 聲道旗艦 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 44900,
-      "converted": 44900,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27上午原Yahoo同型號公開價44900元；早間活動已到期且主商品不再顯示活動折後價，未扣個人券、點數或信用卡回饋。",
+      "amount": 42655,
+      "converted": 42655,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-28人工覆核：原Yahoo HW-Q990F/ZW主商品44900元，公開單件95折42655元；活動802048至10/28 07:59:59（台灣時間），活動後須重查。未扣個人券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900JMDR5/000001_1773978957.jpg",
@@ -309,9 +309,11 @@
     "name": "BRAVIA Theatre Bar 7 5.0.2 聲道 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 21755,
-      "converted": 21755,
-      "confidence": "PChome 2026-10-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 20610,
+      "converted": 20610,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-28人工覆核：原PChome HT-A7100主商品22900元，公開單件9折20610元，可加車。未扣個人券、點數或信用卡回饋。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAAN8A900K0Y8L/000001_1779181877.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAN8-A900K0Y8L",
@@ -599,8 +601,8 @@
       "currency": "TWD",
       "amount": 49900,
       "converted": 49900,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27上午覆核：原PChome Samsung HW-Q930H/ZW完整9.1.4組主商品49900，含所列贈品，可加車；拒採不一致低價。"
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-28 原PChome Samsung HW-Q930H/ZW 完整9.1.4聲道組公開價 NT$49,900，可加入購物車。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900K3QSM/000001_1782969828.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAOD-A900K3QSM",
@@ -794,11 +796,11 @@
     "name": "LG Soundbar S80TR 5.1.3 聲道立體環繞聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 23900,
-      "converted": 23900,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "amount": 23175,
+      "converted": 23175,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-27上午重新核對PChome主商品公開價23900元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。"
+      "note": "2026-10-28人工覆核：原PChome完整S80TR 5.1.3主商品網路23900元，公開折扣價23175元，可加車。未扣個人券、點數或信用卡回饋。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAAODA900JCHIM/000007_1769583526.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAOD-A900JCHIM",
@@ -894,10 +896,10 @@
     "name": "Q 系列 11.1.4 聲道 Soundbar 家庭劇院",
     "price": {
       "currency": "TWD",
-      "amount": 59900,
-      "converted": 59900,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27上午原Yahoo同型號公開價59900元；早間活動已到期且主商品不再顯示活動折後價，未扣個人券、點數或信用卡回饋。",
+      "amount": 56905,
+      "converted": 56905,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-28人工覆核：原Yahoo HW-Q990H/ZW主商品59900元，公開單件95折56905元；活動802048至10/28 07:59:59（台灣時間），活動後須重查。未扣個人券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADO2A900K5VUT/000001_1782993730.jpg",
@@ -994,10 +996,10 @@
     "name": "Q 系列 7.1.2 聲道 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 36900,
-      "converted": 36900,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27上午原Yahoo同型號公開價36900元；早間活動已到期且主商品不再顯示活動折後價，未扣個人券、點數或信用卡回饋。",
+      "amount": 35055,
+      "converted": 35055,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-28人工覆核：原Yahoo HW-QS90H/ZW主商品36900元，公開單件95折35055元；活動802048至10/28 07:59:59（台灣時間），活動後須重查。未扣個人券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900K5489/000001_1782988490.jpg",
@@ -1094,10 +1096,10 @@
     "name": "5.1 聲道 Soundbar 家庭劇院組",
     "price": {
       "currency": "TWD",
-      "amount": 9016,
-      "converted": 9016,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27 Yahoo主商品9490元，公開滿1件95折活動801554折後9016元，有效至2026-10-27 18:59:59（台灣時間）；不含個人券、點數或信用卡回饋，活動後須重查。",
+      "amount": 8541,
+      "converted": 8541,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-28人工覆核：原Yahoo HT-S40R主商品9490元，新公開單件9折8541元；活動802046自10/27 19:00至10/28 07:59:59（台灣時間），取代已過期95折活動。未扣個人券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900GHTFE/000001_1776774078.jpg",
@@ -1196,11 +1198,12 @@
       "currency": "TWD",
       "amount": 7591,
       "converted": 7591,
-      "confidence": "Yahoo購物中心 2026-08-13 exact-model 公開結構化價格"
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-28人工覆核：原Yahoo HT-S100F目前已停售，頁面7990是停止販售展示價；保留舊7591參考價但更新按鈕停售，零售停售不證明Sony整型停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAMTA900I5HHO/000001_1778661010.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Sony-HT-S100F-11411387.html",
-    "buyLabel": "Yahoo購物中心",
+    "buyLabel": "Yahoo 購物中心（已停售）",
     "specs": [
       "2.0 聲道",
       "單件式",
@@ -1390,10 +1393,10 @@
     "name": "7.1 聲道家庭劇院喇叭",
     "price": {
       "currency": "TWD",
-      "amount": 28590,
-      "converted": 28590,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27上午原Yahoo同型號公開價28590元；早間活動已到期且主商品不再顯示活動折後價，未扣個人券、點數或信用卡回饋。",
+      "amount": 27161,
+      "converted": 27161,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-28人工覆核：原Yahoo BAR800 MK2主商品28590元，公開單件95折27161元；活動802048至10/28 07:59:59（台灣時間），活動後須重查。未扣個人券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAHGA900J56OK/000001_1755250707.jpg",
@@ -2481,10 +2484,10 @@
     "name": "2.0 聲道二合一分離式聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 633,
-      "converted": 633,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27上午原Yahoo同型號公開價633元；早間活動已到期且主商品不再顯示活動折後價，未扣個人券、點數或信用卡回饋。",
+      "amount": 602,
+      "converted": 602,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-28人工覆核：原Yahoo SS0220-CS2000PBK主商品633元，公開單件95折602元；活動802048至10/28 07:59:59（台灣時間），活動後須重查。未扣個人券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h21/hac/367883491278878.jpg",
@@ -3178,10 +3181,11 @@
     "name": "ROG Gjallar 2.1.2 聲道電競 Soundbar 與無線重低音",
     "price": {
       "currency": "TWD",
-      "amount": 17300,
-      "converted": 17300,
-      "confidence": "2026-08-31 人工查核：PChome DCAIAM-A900K9HQX 新品網路價NT$17,900，08/24–08/31公開滿額折扣後NT$17,300；實際商品頁『下單再折』對話框顯示此金額且加入購物車按鈕可用。API Low=17300、Qty=10；未計會員券、信用卡或P幣。",
-      "basis": "retailer_current"
+      "amount": 17900,
+      "converted": 17900,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-28人工覆核：原PChome ROG Gjallar單套主商品17900元可加車；原17300的8月促銷不可重現。未扣個人券、點數或信用卡回饋。"
     },
     "installation": {
       "status": "not_stated",
@@ -3494,9 +3498,9 @@
       "currency": "TWD",
       "amount": 39900,
       "converted": 39900,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-27上午覆核：原PChome黑色Bose LifeStyle Ultra Soundbar主商品39900，可加車；保留原頁可重現公開價，不採未確認低價，不用相關四件套價。"
+      "note": "2026-10-28 原PChome Bose LifeStyle Ultra Soundbar 黑色單機公開價 NT$39,900，可加入購物車；此價不含相關四件套。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAANJA900K048L/000001_1778571515.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAANJ-A900K048L",

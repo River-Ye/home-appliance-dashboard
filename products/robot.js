@@ -588,15 +588,15 @@
     "name": "無限續航滾筒洗地機器人上下水款",
     "price": {
       "currency": "TWD",
-      "amount": 25999,
-      "converted": 25999,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27 Yahoo原頁同型號X11 PRO上下水款主商品公開預購25999元；新品預購中、到貨後依訂單順序依序發貨，非確認現貨或交期保證；舊24700折後價不再顯示，不扣折價券或回饋。",
+      "amount": 24700,
+      "converted": 24700,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-28 Yahoo購物中心同型號新品公開價 NT$24,700。單件活動折後價有效至 2026-10-28 08:00:59（台灣時間）。本商品為預購，交期待確認。不含折價券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900JRDAS/000001_1771917633.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/ECOVACS-%E7%A7%91%E6%B2%83%E6%96%AF-DEEBOT-X11-PRO%E7%84%A1%E9%99%90%E7%BA%8C%E8%88%AA%E6%BB%BE%E7%AD%92%E6%B4%97%E5%9C%B0%E6%A9%9F%E5%99%A8%E4%BA%BA-%E6%8E%83%E5%9C%B0%E6%A9%9F%E5%99%A8%E4%BA%BA-11797803.html",
-    "buyLabel": "Yahoo購物中心（預購，交期待確認）",
+    "buyLabel": "Yahoo購物中心（預購）",
     "specs": [
       "滾筒洗地",
       "自動上下水",
@@ -689,7 +689,8 @@
       "amount": 20999,
       "converted": 20999,
       "basis": "retailer_current",
-      "confidence": "2026-09-09官方exact X11 PRO水箱版公開20,999元，原頁可加入購物車，product.js selected variant available=true；不採會員折扣。"
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-28 品牌官方商城同型號新品公開價 NT$20,999。不含折價券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900J5HJ0/000001_1766715791.jpg",
     "buyUrl": "https://storetw.ecovacs.com/zh-tw/products/deebot-x11-pro?variant=48145109549271",
@@ -1072,14 +1073,15 @@
     "name": "AI 藍光辨識超薄掃拖旗艦機低矮版",
     "price": {
       "currency": "TWD",
-      "amount": 31911,
-      "converted": 31911,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27 PChome同型號X60 Master主商品公開31911元；未誤採相鄰X60 Ultra水箱版25911元，可加入購物車／立即購買。"
+      "amount": 28719,
+      "converted": 28719,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-28 PChome同型號新品公開價 NT$28,719。10/27–10/28單件9折。本商品為預購，預計2026/10/28–10/30出貨。不含折價券、點數或信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL3EA900JZ3SP/000001_1780033309.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL3E-A900JZ3SP",
-    "buyLabel": "PChome 24h",
+    "buyLabel": "PChome（預購）",
     "specs": [
       "7.95cm 超薄",
       "36000Pa",
@@ -1169,14 +1171,15 @@
     "name": "全能掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 9811,
-      "converted": 9811,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價的原因見註記。",
-      "note": "2026-10-27 PChome同型號主商品公開9811元，原頁可加入購物車／立即購買；不含個人券、點數與信用卡回饋。"
+      "amount": 8829,
+      "converted": 8829,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-28 PChome同型號新品公開價 NT$8,829。10/27–10/28單件9折。本商品為預購，預計2026/10/28–10/30出貨。不含折價券、點數或信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL3EA900JY4G0/000001_1780033612.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL3E-A900JY4G0",
-    "buyLabel": "PChome（台灣公司貨新品）",
+    "buyLabel": "PChome（預購）",
     "specs": [
       "全能基站",
       "掃拖一體",
@@ -1205,15 +1208,15 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 8982,
+      "amount": 8829,
       "currency": "TWD",
-      "converted": 8982,
+      "converted": 8829,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DMBL3E-A900JY4G0",
       "sourceTitle": "PChome 24h 購物：【Dreame 追覓科技】D30 Ultra CE 全能掃拖機器人",
-      "evidenceSnippet": "PChome 24h 購物於 2026-08-28 顯示同型號可信新品公開價 NT$8,982，低於既有史低 NT$8,999。",
+      "evidenceSnippet": "PChome 24h 購物於 2026-10-28 顯示同型號可信新品公開價 NT$8,829，低於既有史低 NT$8,982。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-08-28",
+      "checkedAt": "2026-10-28",
       "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
@@ -1555,9 +1558,11 @@
     "name": "全能滾筒旗艦機皇掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 21111,
-      "converted": 21111,
-      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 19911,
+      "converted": 19911,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-28 PChome同型號新品公開價 NT$19,911。不含折價券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0JA900JCCJT/000001_1782802020.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0J-A900JCCJT",
@@ -2221,9 +2226,11 @@
     "name": "極薄滾筒掃拖機器人旗艦版",
     "price": {
       "currency": "TWD",
-      "amount": 24911,
-      "converted": 24911,
-      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 23665,
+      "converted": 23665,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-28 PChome同型號新品公開價 NT$23,665。10/27–10/28單件95折，付款完成後預計10/30由廠商出貨。不含折價券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL5WA900JXBY3/000001_1776393356.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL5W-A900JXBY3",
@@ -2256,16 +2263,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 24681,
+      "amount": 23665,
       "currency": "TWD",
-      "converted": 24681,
+      "converted": 23665,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DMBL5W-A900JXBY3",
       "sourceTitle": "PChome 24h 購物：MOAV S70 Ultra Roller 極薄滾筒掃拖機器人(旗艦版)",
-      "evidenceSnippet": "PChome 24h 購物於 2026-08-11 07:47（台灣時間）回傳同型號新品公開折扣價 NT$24,681，低於既有史低 NT$26,980；API 商品編號 DMBL5W-A900JXBY3、Qty 20，型號文字為 S70 Ultra Roller。",
+      "evidenceSnippet": "PChome 24h 購物於 2026-10-28 顯示同型號可信新品公開價 NT$23,665，低於既有史低 NT$24,681。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-08-11",
-      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；有正值 Price.Low 時優先於 Price.P，並排除會員券、點數、信用卡回饋、二手、福利品、展示機、箱損、拆封與整新品。"
+      "checkedAt": "2026-10-28",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2884,10 +2891,10 @@
     "name": "Xiaomi 掃拖機器人 6 Max",
     "price": {
       "currency": "TWD",
-      "amount": 23999,
-      "converted": 23999,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27 Yahoo原頁同型號6 Max主商品公開23999元，與同頁主商品結構價格一致，可立即購買／加入購物車；未扣折價券、點數、信用卡或個人化回饋。",
+      "amount": 23280,
+      "converted": 23280,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-28 Yahoo購物中心同型號新品公開價 NT$23,280。單件活動折後價有效至 2026-10-28 08:29:59（台灣時間）。不含折價券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/5A801ABE6A-SP-22823743.jpg",
@@ -3198,10 +3205,10 @@
     "name": "Xiaomi 掃拖機器人 H50 Pro",
     "price": {
       "currency": "TWD",
-      "amount": 10999,
-      "converted": 10999,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27 Yahoo原頁同型號H50 Pro主商品公開10999元，與同頁主商品結構價格一致，可立即購買／加入購物車；未扣折價券、點數、信用卡或個人化回饋。",
+      "amount": 10450,
+      "converted": 10450,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-28 Yahoo購物中心同型號新品公開價 NT$10,450。單件活動折後價有效至 2026-10-28 08:00:59（台灣時間）。不含折價券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/DBA14833A1-SP-22450109.jpg",
@@ -3831,10 +3838,11 @@
     "name": "Xiaomi 掃拖機器人 6 Pro",
     "price": {
       "currency": "TWD",
-      "amount": 20499,
-      "converted": 20499,
-      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "basis": "retailer_current"
+      "amount": 25999,
+      "converted": 25999,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-28 PChome同型號新品公開價 NT$25,999。不含折價券、點數或信用卡回饋。"
     },
     "installation": {
       "status": "not_stated",
@@ -3842,7 +3850,7 @@
     },
     "image": "https://img.pchome.com.tw/cs/items/DMBL53A900KAFL2/000001_1786094362.png",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL53-A900KAFL2",
-    "buyLabel": "PChome 24h exact-model 新品",
+    "buyLabel": "PChome",
     "specs": [
       "吸力：30,000Pa；主動活水滾筒拖布",
       "AI 可辨識 47 種污漬與 280 種以上障礙物，支援污漬複拖與遠端鏡頭",

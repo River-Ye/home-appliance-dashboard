@@ -1411,10 +1411,10 @@
     "name": "Saeco 半自動義式咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 4990,
-      "converted": 4990,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27 原購買頁公開4990元；舊折扣已不再成立，未扣個人券、點數與信用卡回饋。",
+      "amount": 4591,
+      "converted": 4591,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-28 原購買頁主商品公開4591元；飛利浦生活家電 滿額92折 滿888享92折，至2026-10-28 07:59:59+08:00；可加入購物車，未扣個人券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/69fb8a2ae4-Gd-11322933.jpg",
@@ -1522,8 +1522,8 @@
       "currency": "TWD",
       "amount": 5990,
       "converted": 5990,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27 Yahoo官方直營exact EM450.M公開5990元，非個人券/卡片/點數後價；原品牌官網交期文字過時，購買入口改為可下單的Yahoo同型新品頁。",
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-28 原Yahoo官方直營同款星光銀EM450.M公開5990元、可立即購買/加入購物車、一年原廠保固；未扣回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAT03A900J5HMT/000007_1755771859.jpg",
@@ -1738,9 +1738,9 @@
       "currency": "TWD",
       "amount": 12800,
       "converted": 12800,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-27原頁仍標11/1 00:00開賣；保留舊參考價，非今日可購現價。"
+      "note": "2026-10-28 原momo標11/1 00:00開賣，預告8500元尚不可購；保留舊12800元參考，不當今日現價。"
     },
     "image": "https://storage.googleapis.com/uni-splendor.appspot.com/images/p/4ef71aab-221e-42be-80b7-67676515bb0d.png",
     "buyUrl": "https://www.momoshop.com.tw/product/14547707",
@@ -2278,9 +2278,9 @@
       "currency": "TWD",
       "amount": 32000,
       "converted": 32000,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-27本輪原momo購買頁恢復可讀，仍標11/1 00:00開賣；32000元為保留舊參考價，非今日可購現價。"
+      "note": "2026-10-28 原momo標11/1 00:00開賣，預告28500元尚不可購；保留舊32000元參考，不當今日現價。"
     },
     "image": "https://storage.googleapis.com/uni-splendor.appspot.com/images/p/6cf71d58-a653-465a-a6c3-7089f7f37314.png",
     "buyUrl": "https://www.momoshop.com.tw/product/14956869",

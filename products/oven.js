@@ -508,11 +508,11 @@
     "name": "微波大師 27L 氣炸烤箱微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 8990,
-      "converted": 8990,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "amount": 8630,
+      "converted": 8630,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-27 原購買頁公開8990元；舊折扣已不再成立，未扣個人券、點數與信用卡回饋。"
+      "note": "2026-10-28 原購買頁主商品公開8630元；小家電夜貓獨享價，至2026-10-28 07:59:59+08:00；可加入購物車，未扣個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ02A900I9LQ2/000001_1782379010.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ02-A900I9LQ2",
@@ -804,13 +804,15 @@
     "name": "Coloris 系列 32L 8 合 1 變頻氣炸蒸烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 22888,
-      "converted": 22888,
-      "confidence": "Yahoo購物中心 2026-09-12 exact-model 公開結構化價格"
+      "amount": 22886,
+      "converted": 22886,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-28 改用同型號大地棕現售頁；公開單台滿711元95折價 NT$22,886，活動至2026-11-01 02:59:59（台灣時間）；基價 NT$24,090。無安裝，僅送到一樓；不扣會員券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ03A900IYX0L/000001_1750758530.jpg",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E6%83%A0%E8%80%8C%E6%B5%A632%E5%85%AC%E5%8D%878%E5%90%88%E4%B8%80%E5%85%A8%E8%83%BD%E8%AE%8A%E9%A0%BB%E6%B0%A3%E7%82%B8%E8%92%B8%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90MWP329TST-11929560.html",
-    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool-%E6%83%A0%E8%80%8C%E6%B5%A6Coloris%E7%B3%BB%E5%88%97-32%E5%85%AC%E5%8D%878%E5%90%88%E4%B8%80%E5%85%A8%E8%83%BD%E8%AE%8A%E9%A0%BB%E6%B0%A3%E7%82%B8%E8%92%B8%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-%E5%A4%A7%E5%9C%B0%E6%A3%95-MWP3-12006007.html",
+    "buyLabel": "Yahoo購物中心自營",
     "specs": [
       "32L",
       "尺寸：寬 48.7 x 深 53.3 x 高 38.2 cm",
@@ -831,8 +833,8 @@
     "bestFor": "家電櫃空間有限，想一台整合微波、烤箱、氣炸或蒸烤的人。",
     "recommendation": "同類推薦：補入水波爐、氣炸微波與多合一款，方便依容量和烹調功能取捨。",
     "score": 84,
-    "voltage": "110V 台灣通路",
-    "warranty": "依 PChome/供應商頁面",
+    "voltage": "110V／60Hz（依 MWP329TST 原廠說明書；所選通路頻率欄與原廠資料不一致，購前核對機身銘牌）",
+    "warranty": "Yahoo購物中心新品；原廠保固1年，範圍為產品故障，依所選賣場商品保證條款",
     "tags": [
       "Whirlpool",
       "32L",
@@ -841,16 +843,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 22888,
+      "amount": 22886,
       "currency": "TWD",
-      "converted": 22888,
-      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/%E6%83%A0%E8%80%8C%E6%B5%A632%E5%85%AC%E5%8D%878%E5%90%88%E4%B8%80%E5%85%A8%E8%83%BD%E8%AE%8A%E9%A0%BB%E6%B0%A3%E7%82%B8%E8%92%B8%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90MWP329TST-11929560.html",
-      "sourceTitle": "Yahoo購物中心：惠而浦32公升8合一全能變頻氣炸蒸烤微波爐MWP329TST | 蒸氣烘烤微波爐 | Yahoo購物中心",
-      "evidenceSnippet": "Yahoo購物中心於 2026-09-12 顯示同型號可信新品公開價 NT$22,888，低於既有史低 NT$22,900。",
-      "sourceKind": "retailer_page",
-      "confidence": "medium",
-      "checkedAt": "2026-09-12",
-      "note": "採用 Yahoo購物中心當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
+      "converted": 22886,
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool-%E6%83%A0%E8%80%8C%E6%B5%A6Coloris%E7%B3%BB%E5%88%97-32%E5%85%AC%E5%8D%878%E5%90%88%E4%B8%80%E5%85%A8%E8%83%BD%E8%AE%8A%E9%A0%BB%E6%B0%A3%E7%82%B8%E8%92%B8%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-%E5%A4%A7%E5%9C%B0%E6%A3%95-MWP3-12006007.html",
+      "sourceTitle": "Whirlpool 惠而浦Coloris系列 32公升8合一全能變頻氣炸蒸烤微波爐-大地棕 MWP329TST | 蒸氣烘烤微波爐 | Yahoo購物中心",
+      "evidenceSnippet": "2026-10-28原頁主商品Whirlpool MWP329TST大地棕公開22,886元；24090元單台符合滿711享95折，活動800160至2026-11-01 02:59:59+08:00，購買按鈕啟用。",
+      "sourceKind": "retailer_promo",
+      "confidence": "high",
+      "checkedAt": "2026-10-28",
+      "note": "同型號同32L大地棕新品公開促銷價；單台符合滿額條件，未扣個人券、信用卡回饋或點數。只下修既有found史低，不以現價製造not_found史低。活動至2026-11-01 02:59:59台灣時間。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -889,6 +891,10 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "installation": {
+      "status": "excluded",
+      "note": "所選賣場明示無安裝、商品僅送到一樓；樓層搬運與定位服務及費用購前另洽。"
     }
   },
   {
@@ -902,10 +908,10 @@
     "name": "20L 多功能蒸氣氣炸烤箱",
     "price": {
       "currency": "TWD",
-      "amount": 9999,
-      "converted": 9999,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27 原購買頁公開9999元；舊折扣已不再成立，未扣個人券、點數與信用卡回饋。",
+      "amount": 9499,
+      "converted": 9499,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "note": "2026-10-28 原購買頁主商品公開9499元；小家電夜貓獨享價，至2026-10-28 07:59:59+08:00；可加入購物車，未扣個人券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900HF91A/000001_1768545220.jpg",
@@ -1887,11 +1893,11 @@
     "name": "蒸烘烤變頻微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 43920,
-      "converted": 43920,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "amount": 41724,
+      "converted": 41724,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-27 原購買頁公開43920元；舊折扣已不再成立，未扣個人券、點數與信用卡回饋。"
+      "note": "2026-10-28 原購買頁主商品公開41724元；小家電夜貓獨享價，至2026-10-28 07:59:59+08:00；可加入購物車，未扣個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900H5125/000001_1783054719.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM0G-A900H5125",

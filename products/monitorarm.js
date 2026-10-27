@@ -1506,9 +1506,11 @@
     "name": "45吋 20KG 氣壓式螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 2901,
-      "converted": 2901,
-      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 3141,
+      "converted": 3141,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-28人工覆核：原頁BenQ黑色BSH01主商品3490元，公開單件9折3141元，10/1–10/31；白色2990為另一相關商品不混用。未扣個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGU1A900I6WCY/000001_1754374453.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAGU1-A900I6WCY",
