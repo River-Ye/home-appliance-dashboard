@@ -20,7 +20,8 @@
       "amount": 44900,
       "converted": 44900,
       "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27上午原Yahoo同型號公開價44900元；早間活動已到期且主商品不再顯示活動折後價，未扣個人券、點數或信用卡回饋。"
+      "note": "2026-10-27上午原Yahoo同型號公開價44900元；早間活動已到期且主商品不再顯示活動折後價，未扣個人券、點數或信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900JMDR5/000001_1773978957.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Samsung-%E4%B8%89%E6%98%9F-11-1-4%E8%81%B2%E9%81%93-%E8%97%8D%E7%89%99%E8%81%B2%E9%9C%B8-HW-Q990F-ZW-11688500.html",
@@ -896,7 +897,8 @@
       "amount": 59900,
       "converted": 59900,
       "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27上午原Yahoo同型號公開價59900元；早間活動已到期且主商品不再顯示活動折後價，未扣個人券、點數或信用卡回饋。"
+      "note": "2026-10-27上午原Yahoo同型號公開價59900元；早間活動已到期且主商品不再顯示活動折後價，未扣個人券、點數或信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADO2A900K5VUT/000001_1782993730.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Samsung%E4%B8%89%E6%98%9F-11-1-4%E8%81%B2%E9%81%93-%E8%97%8D%E7%89%99%E8%81%B2%E9%9C%B8-HW-Q990H-ZW-12124621.html",
@@ -995,7 +997,8 @@
       "amount": 36900,
       "converted": 36900,
       "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27上午原Yahoo同型號公開價36900元；早間活動已到期且主商品不再顯示活動折後價，未扣個人券、點數或信用卡回饋。"
+      "note": "2026-10-27上午原Yahoo同型號公開價36900元；早間活動已到期且主商品不再顯示活動折後價，未扣個人券、點數或信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900K5489/000001_1782988490.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Samsung%E4%B8%89%E6%98%9F-7-1-2%E8%81%B2%E9%81%93-%E8%97%8D%E7%89%99%E8%81%B2%E9%9C%B8-HW-QS90H-ZW-12124562.html",
@@ -1094,7 +1097,8 @@
       "amount": 9016,
       "converted": 9016,
       "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27 Yahoo主商品9490元，公開滿1件95折活動801554折後9016元，有效至2026-10-27 18:59:59（台灣時間）；不含個人券、點數或信用卡回饋，活動後須重查。"
+      "note": "2026-10-27 Yahoo主商品9490元，公開滿1件95折活動801554折後9016元，有效至2026-10-27 18:59:59（台灣時間）；不含個人券、點數或信用卡回饋，活動後須重查。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900GHTFE/000001_1776774078.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SONY-%E7%B4%A2%E5%B0%BC-5-1-%E8%81%B2%E9%81%93-SOUNDBAR-%E5%AE%B6%E5%BA%AD%E5%8A%87%E9%99%A2%E7%B5%84-HT-S40R-10067449.html",
@@ -1389,7 +1393,8 @@
       "amount": 28590,
       "converted": 28590,
       "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27上午原Yahoo同型號公開價28590元；早間活動已到期且主商品不再顯示活動折後價，未扣個人券、點數或信用卡回饋。"
+      "note": "2026-10-27上午原Yahoo同型號公開價28590元；早間活動已到期且主商品不再顯示活動折後價，未扣個人券、點數或信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAHGA900J56OK/000001_1755250707.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/JBL-BAR800-MK2-7-1%E8%81%B2%E9%81%93%E5%AE%B6%E5%BA%AD%E5%8A%87%E9%99%A2%E5%96%87%E5%8F%AD-%E8%8B%B1%E5%A4%A7%E5%85%AC%E5%8F%B8%E8%B2%A8%E4%B8%80%E5%B9%B4%E4%BF%9D%E5%9B%BA-12156647.html",
@@ -2479,7 +2484,8 @@
       "amount": 633,
       "converted": 633,
       "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27上午原Yahoo同型號公開價633元；早間活動已到期且主商品不再顯示活動折後價，未扣個人券、點數或信用卡回饋。"
+      "note": "2026-10-27上午原Yahoo同型號公開價633元；早間活動已到期且主商品不再顯示活動折後價，未扣個人券、點數或信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h21/hac/367883491278878.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Soodatek-2-0%E8%81%B2%E9%81%93%E4%BA%8C%E5%90%88%E4%B8%80Soundbar-SS0220-CS2000PBK-11633433.html",

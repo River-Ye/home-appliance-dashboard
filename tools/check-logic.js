@@ -1146,6 +1146,35 @@ async function main() {
     assert(isPreorderListing("【Pre-order】LG DD121QWE0")
       && !isPreorderListing("LG DD121QWE0 現貨；配件預購另計"),
       "only preorder listing prefixes should suppress current product prices");
+    for (const [audit, buyUrl] of [
+      [auditPchome, "https://24h.pchome.com.tw/prod/DPAI1P-A900G9MWZ"],
+      [auditNonPchome, "https://tw.buy.yahoo.com/gdsale/whirlpool-wm10kw-12345678.html"],
+    ]) {
+      for (const [basis, amount, expectedBasis] of [
+        [undefined, 600, "retailer_current"],
+        ["not_stated", 600, "retailer_current"],
+        ["official_suggested", 600, "official_suggested"],
+        ["not_stated", 1000, "not_stated"],
+      ]) {
+        const product = {
+          id: "verified-retailer-price-basis-fixture", model: "WM10KW", buyUrl,
+          price: { currency: "TWD", amount: 1000, converted: 1000, basis },
+          historicalLow: { status: "not_found" },
+        };
+        const raw = { sourceRows: [], structuredPriceChanges: [], historicalLowChanges: [], discontinuedCandidates: [] };
+        global.fetch = async () => audit === auditPchome
+          ? new Response(JSON.stringify({ product: {
+            Id: "DPAI1P-A900G9MWZ-000", Name: "Whirlpool WM10KW", Price: { P: amount }, Qty: 1,
+          } }), { headers: { "content-type": "application/json" } })
+          : new Response(`<title>Whirlpool WM10KW</title><script type="application/ld+json">
+            {"@type":"Product","offers":{"price":"${amount}","priceCurrency":"TWD","availability":"https://schema.org/InStock"}}
+          </script>`, { headers: { "content-type": "text/html" } });
+        await audit(product, raw);
+        assert(product.price.basis === expectedBasis
+          && product.price.amount === (basis === "official_suggested" ? 1000 : amount),
+          "verified retailer repricing must set its basis while preserving suggested and unchanged prices");
+      }
+    }
   } finally {
     global.fetch = originalFetch;
   }

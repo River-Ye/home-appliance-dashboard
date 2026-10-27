@@ -843,7 +843,8 @@
       "amount": 17800,
       "converted": 17800,
       "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27 原購買頁公開17800元；舊折扣已不再成立，未扣個人券、點數與信用卡回饋。"
+      "note": "2026-10-27 原購買頁公開17800元；舊折扣已不再成立，未扣個人券、點數與信用卡回饋。",
+      "basis": "retailer_current"
     },
     "channel": "tw",
     "buyLabel": "PChome 24h購物",
@@ -1353,7 +1354,8 @@
       "amount": 27800,
       "converted": 27800,
       "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27 原購買頁公開27800元；舊折扣已不再成立，未扣個人券、點數與信用卡回饋。"
+      "note": "2026-10-27 原購買頁公開27800元；舊折扣已不再成立，未扣個人券、點數與信用卡回饋。",
+      "basis": "retailer_current"
     },
     "channel": "tw",
     "buyLabel": "PChome 24h購物",
@@ -1559,7 +1561,8 @@
       "amount": 34000,
       "converted": 34000,
       "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27 原購買頁公開34000元；舊折扣已不再成立，未扣個人券、點數與信用卡回饋。"
+      "note": "2026-10-27 原購買頁公開34000元；舊折扣已不再成立，未扣個人券、點數與信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBE1FA900GSOLN/000001_1698896380.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMCI17-A900I6OFW",
@@ -1852,7 +1855,8 @@
       "amount": 36810,
       "converted": 36810,
       "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27 原購買頁公開36810元；舊折扣已不再成立，未扣個人券、點數與信用卡回饋。"
+      "note": "2026-10-27 原購買頁公開36810元；舊折扣已不再成立，未扣個人券、點數與信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMCI0OA900JT66N/000001_1773306819.png",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMCI0O-A900JI1JA",
@@ -2537,7 +2541,8 @@
       "amount": 28800,
       "converted": 28800,
       "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27 原購買頁公開28800元；舊折扣已不再成立，未扣個人券、點數與信用卡回饋。"
+      "note": "2026-10-27 原購買頁公開28800元；舊折扣已不再成立，未扣個人券、點數與信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWHTA900JVB6I/000001_1775031754.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAWHT-A900JVB6I",

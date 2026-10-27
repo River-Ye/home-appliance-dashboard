@@ -905,7 +905,8 @@
       "amount": 9999,
       "converted": 9999,
       "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27 原購買頁公開9999元；舊折扣已不再成立，未扣個人券、點數與信用卡回饋。"
+      "note": "2026-10-27 原購買頁公開9999元；舊折扣已不再成立，未扣個人券、點數與信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900HF91A/000001_1768545220.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM0G-A900HF91A",

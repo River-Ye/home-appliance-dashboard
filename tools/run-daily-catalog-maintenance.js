@@ -304,6 +304,7 @@ function updatePrice(product, amount) {
   const previous = Number(product.price.amount);
   product.price.amount = amount;
   product.price.converted = amount;
+  product.price.basis = "retailer_current";
   product.price.confidence = `PChome ${MAINTENANCE_DATE} exact-model 公開價；有正值 Price.Low 時優先於 Price.P`;
   return previous;
 }
@@ -516,6 +517,7 @@ async function auditNonPchome(product, raw) {
     const previous = Number(product.price.amount);
     product.price.amount = trustedPrice;
     product.price.converted = trustedPrice;
+    product.price.basis = "retailer_current";
     const hostname = new URL(product.buyUrl).hostname;
     product.price.confidence = `${hostname === "tw.buy.yahoo.com" ? "Yahoo購物中心" : "Costco 好市多"} ${MAINTENANCE_DATE} exact-model 公開結構化價格`;
     raw.structuredPriceChanges.push({ id: product.id, before: previous, after: trustedPrice, sourceUrl: product.buyUrl });

@@ -403,7 +403,8 @@
       "amount": 2990,
       "converted": 2990,
       "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27上午重新核對PChome主商品公開價2990元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。"
+      "note": "2026-10-27上午重新核對PChome主商品公開價2990元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABPDA900JTLEG/000001_1773715062.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABPD-A900JTLEG",
@@ -701,7 +702,8 @@
       "amount": 4288,
       "converted": 4288,
       "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27上午重新核對PChome主商品公開價4288元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。"
+      "note": "2026-10-27上午重新核對PChome主商品公開價4288元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABQRA900JJPCW/000001_1765505711.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABQR-A900JJPCW",
@@ -801,7 +803,8 @@
       "amount": 3888,
       "converted": 3888,
       "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27上午重新核對PChome主商品公開價3888元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。"
+      "note": "2026-10-27上午重新核對PChome主商品公開價3888元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABQQA900K2OE1/000001_1780474188.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABQQ-A900K2OE1",
@@ -2568,7 +2571,8 @@
       "amount": 8999,
       "converted": 8999,
       "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27上午重新核對PChome主商品公開價8999元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。"
+      "note": "2026-10-27上午重新核對PChome主商品公開價8999元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOIA900K129O/000001_1779250013.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABOI-A900K129O",
@@ -2668,7 +2672,8 @@
       "amount": 5088,
       "converted": 5088,
       "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27上午重新核對PChome主商品公開價5088元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。"
+      "note": "2026-10-27上午重新核對PChome主商品公開價5088元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABQIA900J82S0/000001_1757486726.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABQI-A900J82S0",
@@ -2768,7 +2773,8 @@
       "amount": 7111,
       "converted": 7111,
       "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27上午重新核對PChome主商品公開價7111元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。"
+      "note": "2026-10-27上午重新核對PChome主商品公開價7111元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABTAA900JBMD6/000001_1759809326.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABTA-A900JBMD6",
@@ -2953,7 +2959,8 @@
       "amount": 33888,
       "converted": 33888,
       "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27上午重新核對PChome主商品公開價33888元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。"
+      "note": "2026-10-27上午重新核對PChome主商品公開價33888元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOKA900HB1B5/000001_1710325731.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABOK-A900HB1B5",
@@ -3139,7 +3146,8 @@
       "amount": 7490,
       "converted": 7490,
       "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27上午重新核對PChome主商品公開價7490元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。"
+      "note": "2026-10-27上午重新核對PChome主商品公開價7490元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABSZA900JOMA1/000001_1769572714.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABSZ-A900JOMA1",
@@ -3540,7 +3548,8 @@
       "amount": 26888,
       "converted": 26888,
       "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27上午重新核對PChome主商品公開價26888元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。"
+      "note": "2026-10-27上午重新核對PChome主商品公開價26888元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABKBA900K0YA0/000001_1779246107.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABKB-A900K0YA0",
@@ -3741,7 +3750,8 @@
       "amount": 28800,
       "converted": 28800,
       "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27上午重新核對PChome主商品公開價28800元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。"
+      "note": "2026-10-27上午重新核對PChome主商品公開價28800元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABQRA900K5BI4/000001_1782298311.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABQR-A900K5BI4",
@@ -4442,7 +4452,8 @@
       "amount": 32900,
       "converted": 32900,
       "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27上午重新核對PChome主商品公開價32900元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。"
+      "note": "2026-10-27上午重新核對PChome主商品公開價32900元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABPDA900H9PEB/000001_1709257135.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABPD-A900H9PEB",
@@ -5264,7 +5275,8 @@
       "amount": 29900,
       "converted": 29900,
       "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27上午重新核對PChome主商品公開價29900元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。"
+      "note": "2026-10-27上午重新核對PChome主商品公開價29900元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABSKA900K0G32/000001_1778746645.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABSK-A900K0G32",

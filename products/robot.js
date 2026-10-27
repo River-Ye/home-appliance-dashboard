@@ -19,7 +19,8 @@
       "amount": 36980,
       "converted": 36980,
       "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27 PChome原頁同型號Saros Z70主商品公開36980元，可立即購買／加入購物車；先前33980優惠未重現，未誤採相鄰Saros20或豪華耗材組價格，不扣折價券或回饋。"
+      "note": "2026-10-27 PChome原頁同型號Saros Z70主商品公開36980元，可立即購買／加入購物車；先前33980優惠未重現，未誤採相鄰Saros20或豪華耗材組價格，不扣折價券或回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900IGHHM/000001_1782870336.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900IGHHM",
@@ -590,7 +591,8 @@
       "amount": 25999,
       "converted": 25999,
       "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27 Yahoo原頁同型號X11 PRO上下水款主商品公開預購25999元；新品預購中、到貨後依訂單順序依序發貨，非確認現貨或交期保證；舊24700折後價不再顯示，不扣折價券或回饋。"
+      "note": "2026-10-27 Yahoo原頁同型號X11 PRO上下水款主商品公開預購25999元；新品預購中、到貨後依訂單順序依序發貨，非確認現貨或交期保證；舊24700折後價不再顯示，不扣折價券或回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900JRDAS/000001_1771917633.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/ECOVACS-%E7%A7%91%E6%B2%83%E6%96%AF-DEEBOT-X11-PRO%E7%84%A1%E9%99%90%E7%BA%8C%E8%88%AA%E6%BB%BE%E7%AD%92%E6%B4%97%E5%9C%B0%E6%A9%9F%E5%99%A8%E4%BA%BA-%E6%8E%83%E5%9C%B0%E6%A9%9F%E5%99%A8%E4%BA%BA-11797803.html",
@@ -2124,7 +2126,8 @@
       "amount": 13990,
       "converted": 13990,
       "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27 Yahoo原頁同型號Omni C28主商品公開13990元，與同頁主商品結構價格一致，可立即購買／加入購物車；未扣折價券、點數、信用卡或個人化回饋。"
+      "note": "2026-10-27 Yahoo原頁同型號Omni C28主商品公開13990元，與同頁主商品結構價格一致，可立即購買／加入購物車；未扣折價券、點數、信用卡或個人化回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL2DA900K13C9/000001_1782120164.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/eufy-Omni-C28-%E8%87%AA%E6%B8%85%E6%BD%94%E6%8E%83%E6%8B%96%E4%B8%80%E9%AB%94%E5%85%A8%E8%83%BD%E6%A9%9F%E5%99%A8%E4%BA%BA-%E9%BB%91-11990604.html",
@@ -2884,7 +2887,8 @@
       "amount": 23999,
       "converted": 23999,
       "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27 Yahoo原頁同型號6 Max主商品公開23999元，與同頁主商品結構價格一致，可立即購買／加入購物車；未扣折價券、點數、信用卡或個人化回饋。"
+      "note": "2026-10-27 Yahoo原頁同型號6 Max主商品公開23999元，與同頁主商品結構價格一致，可立即購買／加入購物車；未扣折價券、點數、信用卡或個人化回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/5A801ABE6A-SP-22823743.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E5%B0%8F%E7%B1%B3-Xiaomi-%E6%8E%83%E6%8B%96%E6%A9%9F%E5%99%A8%E4%BA%BA-6-Max-%E5%AE%98%E6%96%B9%E6%97%97%E8%89%A6%E9%A4%A8-12134974.html",
@@ -3197,7 +3201,8 @@
       "amount": 10999,
       "converted": 10999,
       "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27 Yahoo原頁同型號H50 Pro主商品公開10999元，與同頁主商品結構價格一致，可立即購買／加入購物車；未扣折價券、點數、信用卡或個人化回饋。"
+      "note": "2026-10-27 Yahoo原頁同型號H50 Pro主商品公開10999元，與同頁主商品結構價格一致，可立即購買／加入購物車；未扣折價券、點數、信用卡或個人化回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/DBA14833A1-SP-22450109.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E5%B0%8F%E7%B1%B3-Xiaomi-%E6%8E%83%E6%8B%96%E6%A9%9F%E5%99%A8%E4%BA%BA-H50-Pro-12052496.html",

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 3,
   "dataDate": "2026-10-27",
-  "checkedAt": "2026-10-27T02:04:50.404Z",
+  "checkedAt": "2026-10-27T02:15:15.773Z",
   "baselineRef": "a64de70aed96c1df6a73c7da862ea7cafb9f5434",
   "policy": {
     "exactModelOrReviewedSourceBindingOnly": true,
@@ -27806,7 +27806,7 @@
         "before": 4591,
         "after": 4990,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://tw.buy.yahoo.com/gdsale/Philips-%E9%A3%9B%E5%88%A9%E6%B5%A6-Saeco%E5%8D%8A%E8%87%AA%E5%8B%95%E7%BE%A9%E5%BC%8F%E5%92%96%E5%95%A1%E6%A9%9F-EMS5110-02-11322933.html"
       },
       {
@@ -27814,7 +27814,7 @@
         "before": 8792,
         "after": 9990,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://tw.buy.yahoo.com/gdsale/Whirlpool%E6%83%A0%E8%80%8C%E6%B5%A6-WDEE20TW-20L-%E7%AC%AC%E5%85%AD%E6%84%9F%E6%99%BA%E8%83%BD%E9%99%A4%E6%BF%95%E6%A9%9F-12132430.html"
       },
       {
@@ -27822,7 +27822,7 @@
         "before": 16660,
         "after": 19600,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-16L-nanoe%E8%AE%8A%E9%A0%BB%E5%BE%AE%E9%9B%BB%E8%85%A6%E9%99%A4%E6%BF%95%E6%A9%9F-F-YV32NX-11427351.html"
       },
       {
@@ -27830,7 +27830,7 @@
         "before": 20647,
         "after": 24290,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-16L-W-HEXS%E9%AB%98%E6%95%88%E5%BE%AE%E9%9B%BB%E8%85%A6%E9%99%A4%E6%BF%95%E6%A9%9F-F-YV32MH-10762034.html"
       },
       {
@@ -27838,7 +27838,7 @@
         "before": 11892,
         "after": 13990,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-8L-HEPA%E6%B8%85%E6%B7%A8%E9%99%A4%E6%BF%95-7996517.html"
       },
       {
@@ -27846,7 +27846,7 @@
         "before": 19251,
         "after": 20924,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-DD201MEE0-19-6%E5%85%AC%E5%8D%87-PuriCare-%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9F-11884613.html"
       },
       {
@@ -27854,7 +27854,7 @@
         "before": 45908,
         "after": 49900,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://tw.buy.yahoo.com/gdsale/BOSCH%E5%8D%9A%E4%B8%96-9%E5%85%AC%E6%96%A4%E9%99%A4%E7%9A%BA%E6%B8%85%E6%96%B0%E7%86%B1%E6%B3%B5%E5%BC%8F%E4%B9%BE%E8%A1%A3%E6%A9%9F-%E5%90%AB%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-220V%E6%8B%89%E9%9B%BB-WQB245A0TC-11757116.html"
       },
       {
@@ -27862,7 +27862,7 @@
         "before": 7591,
         "after": 7990,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://tw.buy.yahoo.com/gdsale/HERAN%E7%A6%BE%E8%81%AF-8KG-%E4%B9%BE%E8%A1%A3%E6%A9%9F-HDM-0841-11396347.html"
       },
       {
@@ -27870,7 +27870,7 @@
         "before": 9143,
         "after": 9351,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://24h.pchome.com.tw/prod/DPAI1H-A900I7ZB7"
       },
       {
@@ -27878,7 +27878,7 @@
         "before": 27360,
         "after": 28800,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://24h.pchome.com.tw/prod/DSABQR-A900K5BI4"
       },
       {
@@ -27886,7 +27886,7 @@
         "before": 6755,
         "after": 7111,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://24h.pchome.com.tw/prod/DSABTA-A900JBMD6"
       },
       {
@@ -27894,7 +27894,7 @@
         "before": 4073,
         "after": 4288,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://24h.pchome.com.tw/prod/DSABQR-A900JJPCW"
       },
       {
@@ -27902,7 +27902,7 @@
         "before": 25543,
         "after": 26888,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://24h.pchome.com.tw/prod/DSABKB-A900K0YA0"
       },
       {
@@ -27918,7 +27918,7 @@
         "before": 32193,
         "after": 33888,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://24h.pchome.com.tw/prod/DSABOK-A900HB1B5"
       },
       {
@@ -27926,7 +27926,7 @@
         "before": 7115,
         "after": 7490,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://24h.pchome.com.tw/prod/DSABSZ-A900JOMA1"
       },
       {
@@ -27934,7 +27934,7 @@
         "before": 2840,
         "after": 2990,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://24h.pchome.com.tw/prod/DSABPD-A900JTLEG"
       },
       {
@@ -27942,7 +27942,7 @@
         "before": 31255,
         "after": 32900,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://24h.pchome.com.tw/prod/DSABPD-A900H9PEB"
       },
       {
@@ -27950,7 +27950,7 @@
         "before": 3693,
         "after": 3888,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://24h.pchome.com.tw/prod/DSABQQ-A900K2OE1"
       },
       {
@@ -27958,7 +27958,7 @@
         "before": 4833,
         "after": 5088,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://24h.pchome.com.tw/prod/DSABQI-A900J82S0"
       },
       {
@@ -27966,7 +27966,7 @@
         "before": 28405,
         "after": 29900,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://24h.pchome.com.tw/prod/DSABSK-A900K0G32"
       },
       {
@@ -27974,7 +27974,7 @@
         "before": 8549,
         "after": 8999,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://24h.pchome.com.tw/prod/DSABOI-A900K129O"
       },
       {
@@ -27990,7 +27990,7 @@
         "before": 9499,
         "after": 9999,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://24h.pchome.com.tw/prod/DMBM0G-A900HF91A"
       },
       {
@@ -28014,7 +28014,7 @@
         "before": 20064,
         "after": 20900,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://tw.buy.yahoo.com/gdsale/Dyson-%E6%88%B4%E6%A3%AE-Purifier-Cool-%E7%94%B2%E9%86%9BNOx-%E5%81%B5%E6%B8%AC%E6%B6%BC%E9%A2%A8%E7%A9%BA%E6%B0%A3%E6%B8%85%E6%B7%A8%E6%A9%9FTP12-%E4%BA%8C%E8%89%B2%E5%8F%AF%E9%81%B8-11903396.html"
       },
       {
@@ -28030,7 +28030,7 @@
         "before": 11543,
         "after": 11900,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://tw.buy.yahoo.com/gdsale/SANLUX%E5%8F%B0%E7%81%A3%E4%B8%89%E6%B4%8B-250L-1%E7%B4%9A%E8%AE%8A%E9%A0%BB%E9%9B%99%E9%96%80%E9%9B%BB%E5%86%B0%E7%AE%B1SR-C238BV-10096667.html"
       },
       {
@@ -28038,7 +28038,7 @@
         "before": 15799,
         "after": 15999,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://tw.buy.yahoo.com/gdsale/%E9%A0%90%E8%B3%BC%E5%95%86%E5%93%81-%E9%A0%90%E8%A8%884-1%E5%BE%8C%E4%BE%9D%E5%BA%8F%E7%99%BC%E8%B2%A8-SANLUX%E5%8F%B0%E7%81%A3%E4%B8%89%E6%B4%8B-430%E5%85%AC%E5%8D%87%E4%B8%80%E7%B4%9A%E8%83%BD%E6%95%88%E8%AE%8A%E9%A0%BB%E9%9B%99%E9%96%80%E5%86%B0%E7%AE%B1-SR-V430-10961354.html"
       },
       {
@@ -28046,7 +28046,7 @@
         "before": 24700,
         "after": 25999,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://tw.buy.yahoo.com/gdsale/ECOVACS-%E7%A7%91%E6%B2%83%E6%96%AF-DEEBOT-X11-PRO%E7%84%A1%E9%99%90%E7%BA%8C%E8%88%AA%E6%BB%BE%E7%AD%92%E6%B4%97%E5%9C%B0%E6%A9%9F%E5%99%A8%E4%BA%BA-%E6%8E%83%E5%9C%B0%E6%A9%9F%E5%99%A8%E4%BA%BA-11797803.html"
       },
       {
@@ -28054,7 +28054,7 @@
         "before": 13571,
         "after": 13990,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://tw.buy.yahoo.com/gdsale/eufy-Omni-C28-%E8%87%AA%E6%B8%85%E6%BD%94%E6%8E%83%E6%8B%96%E4%B8%80%E9%AB%94%E5%85%A8%E8%83%BD%E6%A9%9F%E5%99%A8%E4%BA%BA-%E9%BB%91-11990604.html"
       },
       {
@@ -28070,7 +28070,7 @@
         "before": 33980,
         "after": 36980,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://24h.pchome.com.tw/prod/DMBL1C-A900IGHHM"
       },
       {
@@ -28078,7 +28078,7 @@
         "before": 10450,
         "after": 10999,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://tw.buy.yahoo.com/gdsale/%E5%B0%8F%E7%B1%B3-Xiaomi-%E6%8E%83%E6%8B%96%E6%A9%9F%E5%99%A8%E4%BA%BA-H50-Pro-12052496.html"
       },
       {
@@ -28086,7 +28086,7 @@
         "before": 23280,
         "after": 23999,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://tw.buy.yahoo.com/gdsale/%E5%B0%8F%E7%B1%B3-Xiaomi-%E6%8E%83%E6%8B%96%E6%A9%9F%E5%99%A8%E4%BA%BA-6-Max-%E5%AE%98%E6%96%B9%E6%97%97%E8%89%A6%E9%A4%A8-12134974.html"
       },
       {
@@ -28094,7 +28094,7 @@
         "before": 602,
         "after": 633,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://tw.buy.yahoo.com/gdsale/Soodatek-2-0%E8%81%B2%E9%81%93%E4%BA%8C%E5%90%88%E4%B8%80Soundbar-SS0220-CS2000PBK-11633433.html"
       },
       {
@@ -28102,7 +28102,7 @@
         "before": 35055,
         "after": 36900,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://tw.buy.yahoo.com/gdsale/Samsung%E4%B8%89%E6%98%9F-7-1-2%E8%81%B2%E9%81%93-%E8%97%8D%E7%89%99%E8%81%B2%E9%9C%B8-HW-QS90H-ZW-12124562.html"
       },
       {
@@ -28110,7 +28110,7 @@
         "before": 8541,
         "after": 9016,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://tw.buy.yahoo.com/gdsale/SONY-%E7%B4%A2%E5%B0%BC-5-1-%E8%81%B2%E9%81%93-SOUNDBAR-%E5%AE%B6%E5%BA%AD%E5%8A%87%E9%99%A2%E7%B5%84-HT-S40R-10067449.html"
       },
       {
@@ -28118,7 +28118,7 @@
         "before": 27161,
         "after": 28590,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://tw.buy.yahoo.com/gdsale/JBL-BAR800-MK2-7-1%E8%81%B2%E9%81%93%E5%AE%B6%E5%BA%AD%E5%8A%87%E9%99%A2%E5%96%87%E5%8F%AD-%E8%8B%B1%E5%A4%A7%E5%85%AC%E5%8F%B8%E8%B2%A8%E4%B8%80%E5%B9%B4%E4%BF%9D%E5%9B%BA-12156647.html"
       },
       {
@@ -28134,7 +28134,7 @@
         "before": 56905,
         "after": 59900,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://tw.buy.yahoo.com/gdsale/Samsung%E4%B8%89%E6%98%9F-11-1-4%E8%81%B2%E9%81%93-%E8%97%8D%E7%89%99%E8%81%B2%E9%9C%B8-HW-Q990H-ZW-12124621.html"
       },
       {
@@ -28142,7 +28142,7 @@
         "before": 42655,
         "after": 44900,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://tw.buy.yahoo.com/gdsale/Samsung-%E4%B8%89%E6%98%9F-11-1-4%E8%81%B2%E9%81%93-%E8%97%8D%E7%89%99%E8%81%B2%E9%9C%B8-HW-Q990F-ZW-11688500.html"
       },
       {
@@ -28150,7 +28150,7 @@
         "before": 14391,
         "after": 15990,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://24h.pchome.com.tw/prod/DPADTO-A900JNMOP"
       },
       {
@@ -28158,7 +28158,7 @@
         "before": 84510,
         "after": 93900,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://24h.pchome.com.tw/prod/DPAD06-A900HLBJO"
       },
       {
@@ -28166,7 +28166,7 @@
         "before": 95389,
         "after": 99363,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://tw.buy.yahoo.com/gdsale/%E5%90%AB%E6%A8%99%E6%BA%96%E5%AE%89%E8%A3%9D-SONY%E7%B4%A2%E5%B0%BC65%E5%90%8B%E5%90%8BRGB-4K%E9%80%A3%E7%B6%B2%E6%99%BA%E6%85%A7%E9%A1%AF%E7%A4%BA%E5%99%A8Y-65XR90M2-12159450.html"
       },
       {
@@ -28190,7 +28190,7 @@
         "before": 20152,
         "after": 20610,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://24h.pchome.com.tw/prod/DPAI1H-A900GMG8F"
       },
       {
@@ -28198,7 +28198,7 @@
         "before": 7290,
         "after": 6511,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://24h.pchome.com.tw/prod/DPAI1P-A900G9MWZ"
       },
       {
@@ -28214,7 +28214,7 @@
         "before": 39512,
         "after": 40410,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://24h.pchome.com.tw/prod/DPAI1H-A900JXCDB"
       },
       {
@@ -28230,7 +28230,7 @@
         "before": 35803,
         "after": 38916,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-15-10kg%E6%BB%BE%E7%AD%92%E5%BC%8F%E6%BA%AB%E6%B0%B4%E6%B4%97%E8%84%AB%E7%83%98%E8%AE%8A%E9%A0%BB%E6%B4%97%E8%A1%A3%E6%A9%9F-NA-V150MDH%E5%90%AB%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-10266758.html"
       },
       {
@@ -28246,7 +28246,7 @@
         "before": 16020,
         "after": 17800,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://24h.pchome.com.tw/prod/DMCI24-A900K16I2"
       },
       {
@@ -28262,7 +28262,7 @@
         "before": 30600,
         "after": 34000,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://24h.pchome.com.tw/prod/DMCI17-A900I6OFW"
       },
       {
@@ -28270,7 +28270,7 @@
         "before": 33129,
         "after": 36810,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://24h.pchome.com.tw/prod/DMCI0O-A900JI1JA"
       },
       {
@@ -28278,7 +28278,7 @@
         "before": 25920,
         "after": 28800,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://24h.pchome.com.tw/prod/DMAWHT-A900JVB6I"
       },
       {
@@ -28286,7 +28286,7 @@
         "before": 25020,
         "after": 27800,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://24h.pchome.com.tw/prod/DMAWFM-A900H55UK"
       },
       {
@@ -28326,7 +28326,7 @@
         "before": 7590,
         "after": 7990,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://24h.pchome.com.tw/prod/DRAFL7-A900IJMF6"
       },
       {
@@ -28334,7 +28334,7 @@
         "before": 7590,
         "after": 7990,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://24h.pchome.com.tw/prod/DRAFKS-A900HEQVN"
       },
       {
@@ -28342,7 +28342,7 @@
         "before": 7590,
         "after": 7990,
         "currency": "TWD",
-        "basis": "not_stated",
+        "basis": "retailer_current",
         "source": "https://24h.pchome.com.tw/prod/DRAG6J-A900AUW3D"
       }
     ],
@@ -40354,7 +40354,7 @@
   },
   "officialDiscontinuedCandidates": [],
   "manualPriceReview": {
-    "checkedAt": "2026-10-27T02:04:50.404Z",
+    "checkedAt": "2026-10-27T02:15:15.773Z",
     "scope": "current_original_pages_for_all_price_changes_expiring_promotions_and_known_conflicts",
     "rows": [
       {
@@ -42117,7 +42117,7 @@
     ]
   },
   "reviewScope": {
-    "checkedAt": "2026-10-27T02:04:50.404Z",
+    "checkedAt": "2026-10-27T02:15:15.773Z",
     "fullSourceImageAndFoundHistoricalSourceAudit": true,
     "categories": 37,
     "japaneseBrandBoundaryCells": 333,

@@ -21,7 +21,7 @@
       "HKD_TWD": 4.154592830944799,
       "KRW_TWD": 0.024594590172982336
     },
-    "lastMaintenanceCheckAt": "2026-10-27T02:04:50.404Z",
+    "lastMaintenanceCheckAt": "2026-10-27T02:15:15.773Z",
     "currentPriceChanged": 68,
     "currentBuyLinkChanged": 28,
     "currentPriceDrops": 1,
@@ -284,8 +284,8 @@
       "rejectedCandidates": [
         "2026-07-16：Y-65XR90M2 已排除會員券、信用卡回饋、點數、二手、福利品、展示、拆封與整新品；僅採同型號可信新品公開歷史曲線。"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "tv-samsung-s95h-65",
@@ -450,8 +450,8 @@
         "BigGo Sony Y-65XR80: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/Sony%20Y-65XR80/product?p=1",
         "[2026-07-11] LBJ discovery：No trusted exact-model retailer page could be authoritatively revalidated. https://www.lbj.tw/BJ/Query.aspx?k=DPAD06-A900HLBJO"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "tv-extra-8-dpad09-a900j9faz",
@@ -938,8 +938,8 @@
         "[2026-07-11] PChome：Second-pass review: bundle contents differ from the catalog product.；CHIQ 啟客 65型4K QLED 120Hz DLG google TV智慧聯網液晶顯示器 CQ-65QX250+投影機 https://24h.pchome.com.tw/prod/DPADTO-1900JP04Q",
         "[2026-07-11] PChome：Second-pass review: bundle contents differ from the catalog product.；CHIQ 啟客 65型4K QLED 120Hz DLG google TV智慧聯網液晶顯示器 CQ-65QX250+除濕機 https://24h.pchome.com.tw/prod/DPADTO-1900JP05J"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "tv-extra-19-dmbm10a900ifxk7",
@@ -1598,8 +1598,8 @@
         "[2026-07-11] 蝦皮商城 - 集盛電器旗艦館：LBJ candidate is not a trusted PChome/Yahoo/momo/Costco/official source；【限時優惠售完為止】SAMSUNG三星 HW-Q990F/ZW 11.1.4聲道聲霸 全新品 台灣公司貨 https://www.lbj.tw/BJ/rd.ashx?ck=BcHBAcAgCAPAlaQBhacYsv9Ivbu2XP3aJlLjktVNtyfBlgEngoy8VDQdjBZAn29KKSPOInaxNrK2d1uC8wI83%2FfEHw%3D%3D",
         "[2026-07-11] 樂天市場 - 集雅社影音家電旗艦館：LBJ candidate is not a trusted PChome/Yahoo/momo/Costco/official source；集雅社影音家電旗艦館 【全館領券再折】SAMSUNG 三星 HW-Q990F 11.1.4聲道 Q系列 Soundbar 聲霸 家庭劇院 Q990F https://www.lbj.tw/BJ/rd.ashx?ck=Dcm5AcAwCASwlcC8LjkM%2B4%2BUqFUx6aLBY7mja%2FMKYU60ZbF71uEk45XxFDPCFd7eKJi63RoelW6%2BryIJVjKhCrKjSCPcwYnN5%2BT1H0G4fTPy6ub5AA%3D%3D"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "soundbar-samsung-q800h",
@@ -2047,8 +2047,8 @@
         "[2026-07-11] 新光三越 skm online：LBJ candidate is not a trusted PChome/Yahoo/momo/Costco/official source；【新光三越】集雅社 Samsung 三星 11.1.4聲道 藍牙聲霸(HW-Q990H/ZW) https://www.lbj.tw/BJ/rd.ashx?ck=DcS3AcAwDAOwl9Qtj1bh%2FyclGPCYDNXF64k10NXn0fKHAc01H%2BxAfCPSV4j0TYsNjrCou49Ym2Z7HS2m89rMVlSYoza4GRpVSXFjPg%3D%3D",
         "[2026-07-11] 翠亨生活館：LBJ candidate is not a trusted PChome/Yahoo/momo/Costco/official source；【翠亨生活館】SAMSUNG 三星 Q 系列 Soundbar 11.1.4聲道 家庭劇院 HW-Q990H/ZW https://www.lbj.tw/BJ/rd.ashx?ck=DcrBFQAxBAXAlvhWcCTov6TNdd4k07d1i0d951tUeI55oCuuPbGzPAwPM%2BEmodPd6faWaF26nuUHW4YCa6ZMKSmAlY0jorBX9Dvb2Akmdr38ShrNDw%3D%3D"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "soundbar-extra-10-dmaaod-a900k5489",
@@ -2096,8 +2096,8 @@
         "[2026-07-11] 老王電器：LBJ candidate is not a trusted PChome/Yahoo/momo/Costco/official source；【老王電器】【SAMSUNG 三星】 7.1.2聲道 藍牙聲霸家庭劇院 HW-QS90H/ZW https://www.lbj.tw/BJ/rd.ashx?ck=DY%2B3DcBADMRW0iurVNx%2FJPtaAiQuH%2FBV11vxWz6VdAx%2FnIJhXf10nEFVRlPShoShJaYm9MHLbTqHWZzkjd3GKdPfyXuHGr%2F%2B9sgprm3%2BtUsLsfmkx%2FlIWPpPAFApkNLYZK6Z27lvLigzzXtr%2FVmY0JpCQ9shnHhhBsxIvzEP9j8m3PEI9OdOfQXZ9PapEt2g1f8jR6ATFVZ0tfUIXqGKFj449ir0wMAEF2XJV7dY9wE%3D",
         "[2026-07-11] 翠亨生活館：LBJ candidate is not a trusted PChome/Yahoo/momo/Costco/official source；【翠亨生活館】SAMSUNG 三星 Q 系列 Soundbar 7.1.2 聲道 家庭劇院 HW-QS90H/ZW https://www.lbj.tw/BJ/rd.ashx?ck=Dc3JDQAxCATBlAB7OZ4MR%2F4hrb%2BtkjqZ7qLA8%2FnOXUF4jnlII8peMV0eFg%2Bzw02HtLvT7anzoag84SoLEwgPsu4WqCSbZHhiG9biEn6ZDZ2fDZOa%2Brv9"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "soundbar-extra-11-dmbm1d-a900ghtfe",
@@ -2148,8 +2148,8 @@
         "[2026-07-11] 蝦皮商城 - 集盛電器旗艦館：LBJ candidate is not a trusted PChome/Yahoo/momo/Costco/official source；【現貨優惠】SONY索尼 HT-S40R 限量優惠 (蝦幣10%回饋) 5.1聲道聲霸 家庭劇院 全新品 https://www.lbj.tw/BJ/rd.ashx?ck=DcvBEQAhCAPAloyBAZ8ipP%2BS7va%2FF8tUrzCeGpNwbhqeRCyQ4d7teVtebWwvkW2z5yiFDsv598aqMvExesdhoJNP5h8%3D",
         "[2026-07-11] 樂天市場 - 集雅社影音家電旗艦館：LBJ candidate is not a trusted PChome/Yahoo/momo/Costco/official source；集雅社影音家電旗艦館 【現貨!全館領券再折+限時下殺】SONY HT-S40R 聲霸 家庭劇院 5.1 聲道 搭載無線後置揚聲器 台灣公司貨 https://www.lbj.tw/BJ/rd.ashx?ck=DczJAQMxCAPAlmDN5afAov%2BSkilgoGLb00qvpa3zodNDZOG5%2B210yGGg8lmTR5ExMY12C7%2Bg0s6M3ocsqZXCLeXsJ%2FBTz0vGnvq%2Fal5%2BKKTcfcasnh8%3D"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "soundbar-extra-12-dmaamt-a900i5hho",
@@ -2298,8 +2298,8 @@
         "[2026-07-11] 小新樂器館：LBJ candidate is not a trusted PChome/Yahoo/momo/Costco/official source；【小新樂器館】JBL Bar 800 MK2 聲霸 家庭劇院7.1聲道喇叭/10吋無線重低音喇叭/附可拆式環繞喇叭 台灣公司貨保固 https://www.lbj.tw/BJ/rd.ashx?ck=DcvBEQAhCATBlABZV5%2FAQf4hnc%2BprgkVn6zUxpn2WdAX2GO549MiTDCl7mXEzYQvWoKaHnQ2lSa1yuIGe832FtsSGw8K1fiCwxPrLdZZnUK%2FFczAnR8%3D",
         "[2026-07-11] Yahoo拍賣 - 名展音響新竹館 (808個評價)：LBJ candidate is not a trusted PChome/Yahoo/momo/Costco/official source；【英大公司貨】JBL Bar 800 MK2 家庭劇院7.1聲道喇叭 附可拆式環繞喇叭 https://www.lbj.tw/BJ/rd.ashx?ck=DcZBAgQxBATAL%2BkQWUca%2F3%2FSbJ0qIbbFwtzfji0mCu7CHtIabmZnX1GPp7bkywBkp2TDTN8tzX9FKdsYX1TlXjbJE%2BcD"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "soundbar-extra-15-dmaanj-a900hzbzv",
@@ -2828,8 +2828,8 @@
         "BigGo Soodatek SS0220-CS2000PBK: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/Soodatek%20SS0220-CS2000PBK/product?p=1",
         "BigGo SS0220-CS2000PBK: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/SS0220-CS2000PBK/product?p=1"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "soundbar-jbl-bar-1300-mk2",
@@ -5512,8 +5512,8 @@
         "[2026-07-11] PChome search candidate product API：套裝內容不同：候選另含贈品、禮券或商品卡，未採作同套裝比價；LG 樂金 DD201MEE0 19.6公升 PuriCare™ 雙變頻除濕機 米色 可退稅 / LG 樂金 DD201MEE0 19.6公升 PuriCare™ 雙變頻除濕機 米色 可退稅(贈廚房紙巾) https://24h.pchome.com.tw/prod/DMBQ3G-A900JNWZC",
         "[2026-07-11] momo official search ItemList：套裝內容不同：候選另含贈品、禮券或商品卡，未採作同套裝比價；【LG 樂金】DD201MEE0 一級能效 19.6公升 PuriCare™ 雙變頻除濕機(米)-時尚款 台灣公司貨 https://www.momoshop.com.tw/TP/TP0004001/goodsDetail/TP00040010001071"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "dh-whirlpool-wdee10",
@@ -5608,8 +5608,8 @@
         "BigGo DMBQ4Y-A900IKOCC: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/DMBQ4Y-A900IKOCC/product?p=1",
         "BigGo Panasonic F-YV32NXK: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/Panasonic%20F-YV32NXK/product?p=1"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "dehumidifier-extra-7-dmbq3p-a900gtphc",
@@ -5669,8 +5669,8 @@
         "[2026-07-11] momo購物：同一頁另含不同數字、尺寸或尾碼的同系列型號，未通過 exact-model 邊界；【Panasonic 國際牌】抗菌抗敏 適用F-YV32MH F-YV36MH F-YV40MH 空氣清淨除濕機 濾網F-ZWL32W F-ZPKX3 業界最誠實數據 https://www.momoshop.com.tw/TP/TP0007227/goodsDetail/TP00072270000036",
         "[2026-07-11] momo購物：標題先以「適用／for」描述相容型號，商品本體不是目標整機；【Mitewithmom 蟎著媽】濾網(適用 Panasonic 國際牌 F-YV32MH F-YV36MH F-YV40MH 空氣清淨機 除濕機 濾網) 滿1件享83折 https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=14830440&Area=search&mdiv=403&oid=1_5&cid=index&kw=Panasonic+F-YV32MH&ecTagNos="
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "dehumidifier-extra-8-dmau0f-a900b1hpu",
@@ -5723,8 +5723,8 @@
         "[2026-07-11] momo購物：標題先以「適用／for」描述相容型號，商品本體不是目標整機；【OriginalLife】長效可水洗★ 超淨化空氣清淨機濾網(適用Panasonic：F-Y16FH) 滿1件享79折 https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=13393433&Area=search&mdiv=403&oid=1_8&cid=index&kw=Panasonic+F-Y16FH&ecTagNos=",
         "[2026-07-11] momo official search ItemList：套裝內容不同：候選另含贈品、禮券或商品卡，未採作同套裝比價；【Panasonic 國際牌】F-Y16FH 8L 清淨除濕機 一級能效 https://www.momoshop.com.tw/TP/TP0005634/goodsDetail/TP00056340007113"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "dehumidifier-extra-9-dmbq00-a900jb38a",
@@ -6093,8 +6093,8 @@
         "[2026-07-11] momo購物：標題或網址含福利、展示、拆封、二手、整新、箱損、拍賣或租賃等排除條件；【Whirlpool 惠而浦】20公升/日福利品只有一台WDEE20TW除濕機WDEE20TW-D ◎本商品恕不提供試用◎ https://www.momoshop.com.tw/TP/TP0003952/goodsDetail/TP00039520007589",
         "[2026-07-11] momo購物：標題或網址含福利、展示、拆封、二手、整新、箱損、拍賣或租賃等排除條件；【Whirlpool 惠而浦】Whirlpool 惠而浦 20公升第六感智能除濕機 WDEE20TW(福利品) ◎一單限一台◎ https://www.momoshop.com.tw/TP/TP0005210/goodsDetail/TP00052100000394"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "dehumidifier-extra-16-dmbq3sa900i7nsn",
@@ -7362,8 +7362,8 @@
         "[2026-07-11] 博客來：exact-model candidate is an auction, marketplace, or non-trusted seller；Dyson戴森 甲醛NOx偵測涼風空氣清淨機 TP12 鎳金色  鎳金色 https://www.books.com.tw/products/N013790777",
         "[2026-07-11] 燦坤線上購物：exact-model candidate is an auction, marketplace, or non-trusted seller；Dyson TP12 二合一甲醛NOx偵測涼風空氣清淨機 鎳金 https://www.tk3c.com/product/252968"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "purifier-extra-15-dmac2o-a900gd1zv",
@@ -9508,8 +9508,8 @@
         "[2026-07-11] 蝦皮購物 - 三三掃地機配件專：LBJ candidate is not a trusted PChome/Yahoo/momo/Costco/official source；石頭掃地機 配件耗材 roborock Saros Z70【專賣石頭掃地機配件】 https://www.lbj.tw/BJ/rd.ashx?ck=DcfBAcAgCAPAlYwJCk8U2X%2Bk9n6XGOpzD555P3Uj0oXbTQyQ26zKPKvtlFhO%2FMmliTuUFEKGTSdn1H7u1xU51%2B2IFf0B",
         "[2026-07-11] 燦坤線上購物：LBJ candidate is not a trusted PChome/Yahoo/momo/Costco/official source；【燦坤線上購物】Roborock 石頭 Saros Z70 掃拖機器人 https://www.lbj.tw/BJ/rd.ashx?ck=FcqxEcAwCATBlsACg0LB8%2F2XZHnmgg3uqBirS8eTYyRwgjdA3wXYdmdLR06uwL7PY4PXYEviiAw123%2BWsvAB"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "robot-roborock-saros-20-aqua",
@@ -9786,8 +9786,8 @@
         "[2026-07-11] 誠品線上：LBJ candidate is not a trusted PChome/Yahoo/momo/Costco/official source；ECOVACS 科沃斯 DEEBOT X11 PRO 上下水款 無限續航滾筒洗地機器人 https://www.lbj.tw/BJ/rd.ashx?ck=DczJEQAhCATAlBhRjqcgk39Iu1X97gvZrC7MCc4mfaN08h5YtE%2FA7Zg9N6Y1BWoTJqAYWrQ0sx%2B9Ld7yP9jNhP78RitRqS9WakwsuV4f",
         "[2026-07-11] HOTAI購：LBJ candidate is not a trusted PChome/Yahoo/momo/Costco/official source；【HOTAI購】【ECOVACS 科沃斯】DEEBOT X11 PRO 上下水款 無限續航滾筒洗地機器人 (掃地機器人) https://www.lbj.tw/BJ/rd.ashx?ck=Dca3EcBACACwlYgPlMT9R7IbnRJBrrpw1W%2FlgNpLD08lLn7e%2BjDMW4X%2FHE15%2BJho6Ais60HJYfH0xUSCwyY%2FlCo0D006AauWvUcr1NoTtmNsEMvgam4FTBlB5x8%3D"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "robot-ecovacs-x11-pro",
@@ -10553,8 +10553,8 @@
         "[2026-07-11] Momo富邦購物：LBJ candidate is an excluded condition, member/card/points offer, accessory, or consumable；【eufy】Omni C28全能機器人配件包 https://www.lbj.tw/BJ/rd.ashx?ck=DcnBAQAxBATAlgSLPAn6L%2BluvpOHdOvVGcSOrjpupkhsvpu0Dv2fOeNStMtM%2BaWBb%2FQdPCkcqTZuE7a8j0oPzJvAbolGwMwUObCKjh4K9s1i%2F1cPm01zkJEXSD4%3D",
         "[2026-07-11] Momo富邦購物：LBJ candidate is an excluded condition, member/card/points offer, accessory, or consumable；【eufy】Omni C28全能機器人配件包(組合) https://www.lbj.tw/BJ/rd.ashx?ck=Dcu5EQAxCASwloxheUIw0H9Jd7FGSUe2XtHAd2TFEJnMvvkizxrk93vT43gbz5TFGdh6x%2BBxgbhabytfzXinhKDWB9c00XCoqiAHWt65QRRj4lLhVkMqb9kIf2%2BzDw%3D%3D"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "robot-mova-s70-ultra-roller",
@@ -10915,8 +10915,8 @@
         "[2026-07-11] 東森購物：LBJ candidate is not a trusted PChome/Yahoo/momo/Costco/official source；小米 Xiaomi 掃拖機器人 6 Max https://www.lbj.tw/BJ/rd.ashx?ck=DcrLAQAxBAXAlghCjj5P%2FyXtznmSSbe6GBYL3Yyg9HN2GHjVhJHpSWJVbxUcu%2Fct8rhRxPJouXgQ7F%2ByHw%3D%3D",
         "[2026-07-11] Momo富邦購物：authoritative page price or exact variant could not be verified；【小米】官方旗艦館 Xiaomi 掃拖機器人 6 Max(滾筒掃拖機/萊茵AI避障/35000Pa吸力/6cm跨台階/自清潔) https://www.lbj.tw/BJ/rd.ashx?ck=DcnHAcAwCASwlTDmKE%2Ba9x8p0Vd5SF51nYW%2FlSeGyLzXX3YkPYP8z5we5GN3tyxoYc8nFn0L59Yoj17WjKaSA7UhsGli4FBVQS60fGQiQ8bXutrrHFrdOkwIbub%2BAA%3D%3D"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "robot-ecovacs-t90-pro",
@@ -11024,8 +11024,8 @@
         "[2026-07-11] 蝦皮商城 - 蝦皮直營 - 3C家電館：LBJ candidate is not a trusted PChome/Yahoo/momo/Costco/official source；小米 Xiaomi 掃拖機器人 H50 Pro 廠商直送 https://www.lbj.tw/BJ/rd.ashx?ck=DcmxAcAwCAOwl2IMbRgJxP%2Bf1GpVYblOH9zYui4haztaIhbIN2Imdo3ijHPObjJ81Glm0x4P8z9EWRtSCy8n6xJcxvwA",
         "[2026-07-11] 誠品線上：LBJ candidate is not a trusted PChome/Yahoo/momo/Costco/official source；小米 Xiaomi 掃拖機器人 H50 Pro(15000Pa/雙貼邊/零纏繞/全能基站/自動洗烘) https://www.lbj.tw/BJ/rd.ashx?ck=BcHBAQAxBATAljgseZLY%2Fku6mVZxzh3dKK6T6Tq2p0NRN7c0EcBL8OBS1LAFUQr0is1HCF94dx1%2B%2BzJeHKyXZ5NnJmkR8qQadoEf"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "robot-hobot-legee-q10-pro",
@@ -13063,8 +13063,8 @@
         "LBJ Panasonic NA-V150NM-PN: 順發線上購物 【順發線上購物】Panasonic NA-V150NM-PN 15KG IOT智能聯網變頻直立式玫瑰金溫水洗衣機 非採用通路或含排除條件",
         "LBJ NA-V150NM-PN: Momo富邦購物 【Panasonic 國際牌】家電快配★15公斤變頻直立式洗衣機-玫瑰金(NA-V150NM-PN) 型號/規格不相符"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "washer-panasonic-na-v130lb-l",
@@ -13293,8 +13293,8 @@
         "LBJ WM10KW: 蝦皮商城 - Whirlpool 惠而浦旗艦館 Whirlpool惠而浦 WM10KW定頻直立式洗衣機10公斤 /古銅棕 非採用通路或含排除條件",
         "LBJ WM10KW: 順發線上購物 【順發線上購物】Whirlpool WM10KW 10KG直立系列洗衣機 非採用通路或含排除條件"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "washer-whirlpool-wm07pw",
@@ -14040,8 +14040,8 @@
         "[2026-07-11] momo official search ItemList：套裝內容不同：候選另含贈品、禮券或商品卡，未採作同套裝比價；【Panasonic 國際牌】8公斤電子式乾衣機-釉光白(NH-80RZ-W) https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=13783332&Area=search&mdiv=403&oid=1_1&cid=index&kw=Panasonic+NH-80RZ-W&ecTagNos=",
         "[2026-07-11] momo official search ItemList：套裝內容不同：候選另含贈品、禮券或商品卡，未採作同套裝比價；【Panasonic 國際牌】8公斤電子式乾衣機 (NH-80RZ-W) https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=14975090&Area=search&mdiv=403&oid=1_3&cid=index&kw=Panasonic+NH-80RZ-W&ecTagNos="
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "dryer-panasonic-nh-70g-l",
@@ -14835,8 +14835,8 @@
         "[2026-07-11] PChome：同型號只作相容性說明；商品本體是替換耗材、濾材、機架或其他配件，不是目標整機；HERAN 禾聯 8公斤《定頻》熱風式乾衣機HDM-0841 超溫斷路保護裝置 桶內溫度調節裝置 免耗材過濾 https://24h.pchome.com.tw/prod/DMBM5L-A900IIFGN",
         "[2026-07-11] momo購物：同型號只作相容性說明；商品本體是替換耗材、濾材、機架或其他配件，不是目標整機；【HERAN 禾聯】8KG 抗菌除蟎熱風式乾衣機(HDM-0841) 基本安裝 智慧烘乾 免耗材過濾 滿1件享96折 https://www.momoshop.com.tw/TP/TP0004784/goodsDetail/TP00047840002271"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "dryer-sanlux-asd-80ua",
@@ -14982,8 +14982,8 @@
         "LBJ WQB245A0TC: Yahoo購物中心 BOSCH博世 9公斤除皺清新熱泵式乾衣機 含基本安裝+220V拉電 (WQB245A0TC) 型號/規格不相符",
         "[2026-07-11] Yahoo search candidate product page：套裝內容不同：候選另含贈品、禮券或商品卡，未採作同套裝比價；BOSCH博世 10公斤去漬抗敏洗衣機+9公斤除皺熱泵式乾衣機 (WGA15200TC+WQB245A0TC) | 變頻10KG以下 | Yahoo購物中心 https://tw.buy.yahoo.com/gdsale/BOSCH%E5%8D%9A%E4%B8%96-10%E5%85%AC%E6%96%A4%E5%8E%BB%E6%BC%AC%E6%8A%97%E6%95%8F%E6%B4%97%E8%A1%A3%E6%A9%9F-9%E5%85%AC%E6%96%A4%E9%99%A4%E7%9A%BA%E7%86%B1%E6%B3%B5%E5%BC%8F%E4%B9%BE%E8%A1%A3%E6%A9%9F-WGA15200TC-WQB245A-11757117.html"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "dryer-costco-samsung-dvg16cg8600wtw",
@@ -15921,8 +15921,8 @@
         "BigGo NA-V150MDH: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/NA-V150MDH/product?p=1",
         "[2026-07-11] LBJ discovery：No trusted exact-model retailer page could be authoritatively revalidated. https://www.lbj.tw/BJ/Query.aspx?k=Panasonic%20NA-V150MDH"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "washerdryer-sanlux-awd-1260ka",
@@ -16339,8 +16339,8 @@
         "本輪查到的 NT$39,900 為 PChome exact-model 當日公開現價，缺乏更早可重現價格歷史，不能直接宣稱為史低。",
         "較低 marketplace 候選無法確認可信新品通路、庫存與完整交易條件，排除。"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "washerdryer-lg-wd-s22fhdb",
@@ -17741,8 +17741,8 @@
         "[2026-07-11] 東森購物：LBJ candidate is not a trusted PChome/Yahoo/momo/Costco/official source；【SANLUX 台灣三洋】430L 一級變頻大蔬果室雙門冰箱 (SR-V430B) https://www.lbj.tw/BJ/rd.ashx?ck=BcHJEcBACAOwlrgysE8wuP%2BSIrVKcDB6X%2FGCXSWdZly9ewO59cW2aEQi%2FKUjG%2BTe47gGLAn5Cp1qLT8%3D",
         "[2026-07-11] Yahoo購物中心：fetch failed；【SANLUX 台灣三洋】430L 一級變頻大蔬果室雙門冰箱 SR-V430B https://www.lbj.tw/BJ/rd.ashx?ck=DY63DcBADMRWemWpVNx%2FJLs9gOQlPL7qghW%2F5cM4NH%2FnrQZpIcbxTvtMTSzj2V5IMJXIbg2J%2BIa2PHAdDPAwofDQ0YhUnEOcl2WXg%2Bj55ldyetWCUkUQWU8JcTOK%2F7XOi83ThR90QUAaD%2F8PaPyD%2Fz5VVIqh9sM%2BvpXNlNuxboNYfVjJZW2%2BQPbYK7cKOfiPas8ay0N49QE%3D"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "refrigerator-sanlux-sr-c238bv",
@@ -17794,8 +17794,8 @@
         "[2026-07-11] 東森購物：LBJ candidate is not a trusted PChome/Yahoo/momo/Costco/official source；【SANLUX 台灣三洋】250L 變頻雙門冰箱 (SR-C238BV) https://www.lbj.tw/BJ/rd.ashx?ck=BcHHAQAgCASwlSinwpO6%2F0gmwYTNSp5jO9gwo3gi2zzjWTStXR3EwCsodasiSyJEWq9fIeeYcrxj4x8%3D",
         "[2026-07-11] Yahoo購物中心：fetch failed；【SANLUX 台灣三洋】250L 一級變頻雙門電冰箱 SR-C238BV https://www.lbj.tw/BJ/rd.ashx?ck=Dc7BEQAhCASwlhDBhSco239JdwVkJrXE2LfXeHCMmlSEMO7BKqTDUnguceCoFAzT03a7z%2FQr%2BnOaLIQVXKcYkvBz7vlZ6qjgPqrbxFtpZS67E1ewq9Zs3BgZEtX3SWehFLmVg5puHdtm%2Br%2BS%2FHubWc5ViQQiPw%3D%3D"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "refrigerator-sanlux-sr-v150bf",
@@ -22296,8 +22296,8 @@
           "outcome": "覆核：排除無法回到 exact-model 原始新品頁、套組、會員券、點數、福利品與二手候選。"
         }
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "coffee-delonghi-em450-m",
@@ -23381,8 +23381,8 @@
         "[2026-07-11] 蝦皮商城：exact-model candidate is an auction, marketplace, or non-trusted seller；【Cuisinart 美膳雅】20L多功能蒸氣氣炸烤箱 CSO-500TW 現貨 廠商直送 https://shopee.tw/product/116309859/27209632055",
         "[2026-07-11] 樂天市場：exact-model candidate is an auction, marketplace, or non-trusted seller；送刀具組【美膳雅 Cuisinart】20L多功能蒸氣氣炸烤箱 CSO-500TW https://www.rakuten.com.tw/shop/tamsuieasylife/product/cso-500tw/"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "oven-extra-11-dmbj6q-a900eo5dh",
@@ -24628,8 +24628,8 @@
         "[2026-07-11] momo official search ItemList：候選標題以濾材／配件為主要品名，且報價僅為原整機的 37%，判定不是同規格整機；【BRITA】mypure GR1000 RO濾心 (適用GR1000/GR1000UVC) https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15378328&Area=search&mdiv=403&oid=1_8&cid=index&kw=BRITA+mypure+GR1000&ecTagNos=",
         "[2026-07-11] momo official search ItemList：套裝內容不同：候選另含贈品、禮券或商品卡，未採作同套裝比價；【BRITA】mypure GR1000 RO直輸淨水系統(★贈免費到府基本安裝) https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15181245&Area=search&mdiv=403&oid=1_4&cid=index&kw=BRITA+mypure+GR1000&ecTagNos="
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "waterdispenser-bwt-slim-ro-df",
@@ -24865,8 +24865,8 @@
         "[2026-07-11] momo購物：同一頁另含不同數字、尺寸或尾碼的同系列型號，未通過 exact-model 邊界；【SAKURA 櫻花】廚下觸控式熱飲機P0563(搭配RO淨水器P0233) 內建節能鍵，8小時保溫不加熱 https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=12061151&Area=search&mdiv=403&oid=1_6&cid=index&kw=SAKURA+P0563&ecTagNos=",
         "[2026-07-11] momo購物：同一頁另含不同數字、尺寸或尾碼的同系列型號，未通過 exact-model 邊界；【SAKURA 櫻花】P0563 廚下觸控式熱飲機 搭P0233A 直輸型雙管RO淨水器(飲水機/加熱器/儲熱型/廚下飲水機) 加碼贈316保溫瓶 https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=14298440&Area=search&mdiv=403&oid=1_7&cid=index&kw=SAKURA+P0563&ecTagNos="
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "waterdispenser-coway-noble-chp-3140n",
@@ -24957,8 +24957,8 @@
         "LBJ EVERPOLL EVB-298-E: 樂天市場 - 康泉淨水 康泉淨水 ◤免費安裝◢ EVERPOLL 愛科櫥下型冷熱雙溫UV觸控飲水機/加熱器(EVB298E/EVB-298-E)【單機】 型號/規格不相符",
         "LBJ EVERPOLL EVB-298-E: Yahoo購物中心 【EVERPOLL】智能櫥下型雙溫UV觸控飲水機(EVB-298-E) 型號/規格不相符"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "waterdispenser-extra-17-dmci2fa900jbnk6",
@@ -25103,8 +25103,8 @@
         "[2026-07-11] Yahoo購物：同一頁另含不同數字、尺寸或尾碼的同系列型號，未通過 exact-model 邊界；櫻花 SAKURA 廚下 RO 雙溫淨熱飲 小鮮熱【P0532】(P0531升級版) P0532 https://tw.buy.yahoo.com/gdsale/櫻花-SAKURA-廚下-RO-雙溫淨熱飲-小鮮熱-P0532-P0531升級版-12145646.html",
         "[2026-07-11] Yahoo購物：同一頁另含不同數字、尺寸或尾碼的同系列型號，未通過 exact-model 邊界；【SAKURA 櫻花】F0162 雙效複合式濾心適用P0531、P0266、P0265(適用P0235A、P0233A) F0162 https://tw.buy.yahoo.com/gdsale/SAKURA-櫻花F0162-雙效複合式濾心適用P0531P0266P0265適用P0235AP02-12158018.html"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "waterdispenser-extra-19-dmci19a900iw2pm",
@@ -25378,8 +25378,8 @@
       "rejectedCandidates": [
         "本輪公開售價只能證明 2026-08-08 現價；沒有可重現歷史曲線與明確最低點日期，因此不採現價或條件式優惠推定史低。"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "waterdispenser-philips-aut7063r23-96",
@@ -33082,8 +33082,8 @@
         "[2026-07-11] Yahoo search candidate product page：套裝內容不同：候選另含贈品、禮券或商品卡，未採作同套裝比價；Linksys Velop Pro AXE5400 WiFi 6E 三頻 無線網狀路由器MX6201-AH(一入) | 分享器/路由器 | Yahoo購物中心 https://tw.buy.yahoo.com/gdsale/Linksys-Velop-Pro-AXE5400-WiFi-6E-%E4%B8%89%E9%A0%BB-%E7%84%A1%E7%B7%9A%E7%B6%B2%E7%8B%80%E8%B7%AF%E7%94%B1%E5%99%A8MX6201-11197981.html",
         "[2026-07-11] Yahoo search candidate product page：套裝數量不同：目標為 1 入，候選明示為 2 入；Linksys Velop Pro AXE5400 WiFi 6E 三頻 無線網狀路由器MX6202-AH(二入) | 分享器/路由器 | Yahoo購物中心 https://tw.buy.yahoo.com/gdsale/Linksys-Velop-Pro-AXE5400-WiFi-6E-%E4%B8%89%E9%A0%BB-%E7%84%A1%E7%B7%9A%E7%B6%B2%E7%8B%80%E8%B7%AF%E7%94%B1%E5%99%A8MX6202-11197982.html"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "wifi-synology-wrx560",
@@ -34395,8 +34395,8 @@
         "LBJ MSI RadiX AXE6600: Yahoo拍賣 - 拍賣達人 (504個評價) ≦拍賣達人≧MSI RadiX AXE6600(含稅)LN6001-AH MX6202-AH MBE7001-AH BE805 ZenWiFi BT8 BD5 型號/規格不相符",
         "LBJ MSI RadiX AXE6600: Yahoo拍賣 - 藍鯨網通--下標前務必先問庫存 (4001個評價) 免運 微星 MSI RadiX AXE6600 WiFi 6E Tri-Band Gaming Router 型號/規格不相符"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "wifi-acer-ovia-t360",
@@ -34572,8 +34572,8 @@
         "BigGo DRAG6J-A900AUW3D: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/DRAG6J-A900AUW3D/product?p=1",
         "BigGo QNAP QHora-301W: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/QNAP%20QHora-301W/product?p=1"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "wifi-cudy-ax3000-mesh",
@@ -38265,8 +38265,8 @@
         "[2026-07-11] 蝦皮商城 - Q哥 電玩旗艦商城｜Switch2 PS5 遊戲片 Xbox ptcg寶可夢：LBJ candidate is not a trusted PChome/Yahoo/momo/Costco/official source；MSI 微星 G275L E14 27吋 1ms 144Hz 電競 螢幕 平面 顯示器 電腦螢幕 MSI1153 https://www.lbj.tw/BJ/rd.ashx?ck=BcHJEQAxCAOwluIxLOEZDvdf0koPx1RdWL9ak5DvGloiDshwn%2FH7Rl5jHNpjE702schQiSdNOK1QIuLLWfaEf7xTPw%3D%3D",
         "[2026-07-11] 蝦皮商城 - PCHOT 線上電競 | 3C旗艦店：LBJ candidate is not a trusted PChome/Yahoo/momo/Costco/official source；MSI 微星 G275L E14 電競螢幕 27吋 144Hz FHD 1ms HDR 電腦螢幕 遊戲螢幕 液晶螢幕 https://www.lbj.tw/BJ/rd.ashx?ck=BcHBAcAgCAPAlRKBCk8Fs%2F9IvTuE6%2Fbli9RziXXS2ZIRNNsRM5FnFHfcxm9ODZq5MF22fINViYClivTSwRgb%2FT7iBw%3D%3D"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "monitor-gigabyte-g27q20t",
@@ -38416,8 +38416,8 @@
         "[2026-07-11] 誠品線上：LBJ candidate is not a trusted PChome/Yahoo/momo/Costco/official source；AOC Q27G42ZE 電競螢幕 27吋 260Hz 2K 0.3ms IPS 電腦螢幕 遊戲螢幕 液晶螢幕 螢幕 https://www.lbj.tw/BJ/rd.ashx?ck=DcuxAQAhCASwlQ6FE0pB2H%2Bk%2F%2FS5Ap2slDaf1pmjkrvjmtDrtMuhke9wgjWQzXZCBpTCTptXrlC7msvkoQNM05i4F3RD11qv1v6LxHw%3D",
         "[2026-07-11] 蝦皮商城 - AGON by AOC 官方旗艦店：authoritative page did not prove the exact model；AOC Q27G42ZE 電競螢幕 27吋 260Hz 2K 0.3ms IPS 電腦螢幕 遊戲螢幕 液晶螢幕 螢幕 https://www.lbj.tw/BJ/rd.ashx?ck=DcRBAgQxBATALzFI2rEF%2F3%2FSbh2KKr71Siew47uahOvbNRU1uxHdAfZGtVvn8%2F5YcFL8%2Fz0ARnBYi4PItx0ztE1%2BfttOJiWEHyoz5gc%3D"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "monitor-philips-27m2n2500nf",
@@ -38463,8 +38463,8 @@
         "[2026-07-11] 露天拍賣 - 彬彬有財的賣場 (18個評價)：LBJ candidate is not a trusted PChome/Yahoo/momo/Costco/official source；飛利浦27英寸2K144Hz顯是氣IPS硬體低藍光電腦螢幕27M2N2500NF https://www.lbj.tw/BJ/rd.ashx?ck=Dcq5EQAxCASwlsCAwSHP0n9Jd6lGyaRbXQyLhW6qTyCnw6W43nbG8XqGEOMn3qg%2BTnR%2FYHppUrdByiOgvKs7R22tZcZj%2FlR9FxGw0zQf",
         "[2026-07-11] Momo富邦購物：authoritative page price or exact variant could not be verified；【Philips 飛利浦】27M2N2500NF 27型IPS 2K 144Hz電競螢幕(HDR/Adaptive-Sync/0.5ms) https://www.lbj.tw/BJ/rd.ashx?ck=Dcm5AQNBCASwlriF4Ql5%2By%2FJVqr8SK66voXfyokhMpn9siPpDPL%2F99KDfIx3y4IWdj6xaC58XKNvlJ9mNJV8UBvCM00MHKoqyIWWjyKwmyWNfsUmzT5s3L5xJPID"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "monitor-eizo-ev2740s",
@@ -39312,8 +39312,8 @@
         "[2026-07-11] 紐頓e世界：LBJ candidate is not a trusted PChome/Yahoo/momo/Costco/official source；【紐頓e世界】ViewSonic優派 VX2740D-4K 27吋 雙模電競顯示器(4K 160Hz 或 FHD 320Hz) https://www.lbj.tw/BJ/rd.ashx?ck=DcqxAQAhCASwlQBPxRI42H%2Bk%2F9QJFUxWam%2Bfxtxjd5FwDwtkHT5OYBkbtZckhyKtLoM2x%2FPS3Oev%2FS5rPg%3D%3D",
         "[2026-07-11] Momo富邦購物：authoritative page price or exact variant could not be verified；【ViewSonic 優派】VX2740D-4K 27型4K 160Hz/FHD 320Hz雙模電競螢幕(G-Sync/1ms/相容PS5與Xbox) https://www.lbj.tw/BJ/rd.ashx?ck=Dc3BAQAxBATAlgiLPAn6L%2BnuPY9JJt16xYPY0VXHzRSJzXeT1qG%2Fn5NxKdplpvzSwDf6Dp4UWKrttMmxvI9KGeZNOG6JRsDMFDmwii53Nkf%2BjTiNF3fve%2BOxyi3yAQ%3D%3D"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "monitor-philips-27m2n3500pf",
@@ -39359,8 +39359,8 @@
         "[2026-07-11] 環球Online：LBJ candidate is not a trusted PChome/Yahoo/momo/Costco/official source；[環球Online] PHILIPS 飛利浦 27M2N3500PF 27型 IPS 2K 260Hz 電競螢幕(0.3ms/HDMI/抗藍光/零閃屏/HDR10) https://www.lbj.tw/BJ/rd.ashx?ck=Dcy3EcAwDASwlZgllXyG%2FUeya9whmWxR4PG7Yyv8lrbYglpdg8GUUpr0uGNUQ6v0l%2FYUp824Os77hKtvuuYEKHyv2YkxIL3%2BxEDndMHcGtqw3JVAfg%3D%3D",
         "[2026-07-11] Momo富邦購物：authoritative page price or exact variant could not be verified；【Philips 飛利浦】27M2N3500PF 27型 2K 260Hz美型螢幕(HDR 10/IPS/HDMI/1ms) https://www.lbj.tw/BJ/rd.ashx?ck=Dcy3EcAwDASwlSSKz1Ay7j%2BSXeMOcQ9vVt6B7fCywiPes43yOKvg34nC%2FFjrm0n1M9C19kG9xH3ZQi2PJLxO8oVoH5BKoGEQEUYMJK3PvkFEhaJkspXJQP8im17lHw%3D%3D"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "monitor-aoc-q27g40xmn",
@@ -39405,8 +39405,8 @@
         "[2026-07-11] 誠品線上：LBJ candidate is not a trusted PChome/Yahoo/momo/Costco/official source；AOC Q27G40XMN 電競螢幕 27吋 180Hz 2K 1ms Mini LED 電腦螢幕 遊戲螢幕 液晶螢幕 https://www.lbj.tw/BJ/rd.ashx?ck=Dcu5AQMxDAOwlcSzPpfWw%2F1HStDjQZTVhbXkKhmKOnufwbNjE%2BHmPuG83hQc33QBxdFyyjidKmpP6zNMxtacf6%2F8hrFbN0QeeQv3wX8%3D",
         "[2026-07-11] Momo富邦購物：authoritative page did not prove the exact model；【AOC】Q27G40XMN 27型 VA 2K 180Hz 平面電競螢幕(Adaptive-Sync/HDR1000/1ms) https://www.lbj.tw/BJ/rd.ashx?ck=Fcy5EQQxCATAlJBgeEwQkH9Ie2d3Vech2Xp1Br4jK4bIZPbNF0lrkJ%2Ffmx7kbTxTFjSw9Y7B48Lhar2tfDXjUcmBWhOuaaLhUFVBDrT%2BQ3kI18urr5olWoSOEgJ8uD8%3D"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "monitor-samsung-oled-g6-500",
@@ -39501,8 +39501,8 @@
         "[2026-07-11] 現價查核例外：BigGo: HTTP 429",
         "[2026-07-11] 現價查核例外：No in-stock exact-model authoritative offer was verified; preserved the existing catalog offer."
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "monitor-acer-ed343cur-j0",
@@ -39599,8 +39599,8 @@
         "[2026-07-11] 樂天市場 - 米特3C數位：LBJ candidate is not a trusted PChome/Yahoo/momo/Costco/official source；米特3C數位–GIGABYTE 技嘉 GS34WQCA 34吋 超寬曲面螢幕/VA/2K/1500R/120Hz https://www.lbj.tw/BJ/rd.ashx?ck=Dcu5AQNBCASwlsDLG%2FJN%2FyWdlauYBD3Np4ET6G21qxGh1IEfrI3eWYWv9N3jchubrlYxnX2pY0KOB9QQxRYvMB6dKrfp%2FJ%2BSapFPct0pMyZF2s8%2B",
         "[2026-07-11] Momo富邦購物：authoritative page price or exact variant could not be verified；【GIGABYTE 技嘉】GS34WQCA 34型WQHD VA 16:9 120Hz電競螢幕(1ms/FreeSync/HDMI/DP) https://www.lbj.tw/BJ/rd.ashx?ck=Dcu5EQAxCASwlrBheUIw0H9Jd7FGeUi2Xp2B78iKITKZffNF0hrk93vTg7yNZ8qCBrbeMXhcOFytt5WvZjwqOVBrwjVNNByqKsiBlrfqjMraxDSx%2FiNiiZ%2BeontwPw%3D%3D"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "monitor-msi-pro-mp341cqw-e12",
@@ -39790,8 +39790,8 @@
         "[2026-07-11] 露天拍賣 - 宅配滿$490免運｜ PC24h購物 露天旗艦店 (71076個評價)：LBJ candidate is not a trusted PChome/Yahoo/momo/Costco/official source；【PChome 24h購物】ASUS ROG Strix XG34WCDMS 電競螢幕(34型/3440x1440/280Hz/0.03ms/QD-OLED/HDMI2.1/Type-C) https://www.lbj.tw/BJ/rd.ashx?ck=Dci5AQNBCASwloYFDgh5%2By%2FJVqgkyFUXrfqtXIqNb067cVHFdfqzCl1npWDrrX4GfP8ghLFTmtfr%2FBZgDpyP2vaDax0FFDIH2Wyf%2FgE%3D",
         "[2026-07-11] PCHome購物：HTTP 429；ASUS 華碩 ROG Strix XG34WCDMS 電競螢幕(34型/3440x1440/280Hz/0.03ms/QD-OLED/HDMI2.1/Type-C) https://www.lbj.tw/BJ/rd.ashx?ck=BcHJAQAgCAOwlbiK%2BgQr%2B49kUioxfVsf9rwYrk4vc6wKidQD0bRzt9WA1jGXZBylNzIjBJEGAZ20p8Qt7LPy5XZhfQ%3D%3D"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "monitor-samsung-s34dg852sc",
@@ -39890,8 +39890,8 @@
         "[2026-07-11] 紐頓e世界：LBJ candidate is not a trusted PChome/Yahoo/momo/Costco/official source；【紐頓e世界】AOC PD34 34吋 WQHD 曲面專業電競顯示器 QD-OLED面板 240Hz 曲面1800R 內建喇叭 支援壁掛 https://www.lbj.tw/BJ/rd.ashx?ck=DcTJAcAgCATAljhWJU9WoP%2BSzDwmVTC81F4xjTnbjlchIi3Bu%2BurSbhV4y4X1pRIa8igLUBl6h54J%2Fv%2FAQ%3D%3D",
         "[2026-07-11] 蝦皮商城 - AGON by AOC 官方旗艦店：authoritative page did not prove the exact model；AOC AGON PRO PD34 曲面電競螢幕 34吋 240Hz 2K OLED 0.03ms HDR 內建喇叭 https://www.lbj.tw/BJ/rd.ashx?ck=DcTBAQQhCAPAlozAik8gpv%2BS7uYxheXqabxIPZdwKx0jGRbMTgQZWVQ03XjHuavTq5b%2FByJ50k9%2FzLeDhQvM9vq0FZqhRT97d4s53w8%3D"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "monitor-samsung-s49fg916e",
@@ -40226,8 +40226,8 @@
         "[2026-07-11] 蝦皮商城 - 蝦皮直營 - 3C家電館：LBJ candidate is not a trusted PChome/Yahoo/momo/Costco/official source；MSI 微星 MPG 491CQP QD-OLED 曲面電競螢幕(49型/144Hz) 廠商直送 https://www.lbj.tw/BJ/rd.ashx?ck=DczJAQMxCAPAljht9mkQ6r%2BkZAqYpxLsad0sbpD6vQod0lXU%2FWYCWQ%2FMRji6xj0DnM%2FMMGK1p1rsNNZlGv0vKPc8sz33Bw%3D%3D",
         "[2026-07-11] 蝦皮商城 - 蝦皮直營 - 3C家電館：LBJ candidate is not a trusted PChome/Yahoo/momo/Costco/official source；MSI微星 MPG 491CQP QD-OLED /49吋曲面螢幕/OLED/144Hz 廠商直送 https://www.lbj.tw/BJ/rd.ashx?ck=DcLBEcAwCAOwlSDGLXkGHPYfqdXpuMVUl1%2Fm3JjxfTK8Z%2BDmwEtKzKNhKaDKBhia3mstdd8%2F9tAL5uu8fKpoIRmFyA8%3D"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "monitor-costco-philips-27e1n1100d",
@@ -40565,8 +40565,8 @@
       "rejectedCandidates": [
         "momo exact-model 直達頁的 2026-06-09 公開活動快照顯示 95 折價 NT$28,405；本輪 momo 已回復 NT$29,900，現價改採 PChome Price.Low NT$28,900。"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "monitor-sony-sdm-27u9m2",

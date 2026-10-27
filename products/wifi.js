@@ -702,7 +702,8 @@
       "amount": 7990,
       "converted": 7990,
       "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27上午重新核對PChome主商品公開價7990元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。"
+      "note": "2026-10-27上午重新核對PChome主商品公開價7990元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFL7A900IJMF6/000001_1744352670.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFL7-A900IJMF6",
@@ -3485,7 +3486,8 @@
       "amount": 7990,
       "converted": 7990,
       "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27上午重新核對PChome主商品公開價7990元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。"
+      "note": "2026-10-27上午重新核對PChome主商品公開價7990元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFKSA900HEQVN/000001_1713512948.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFKS-A900HEQVN",
@@ -3860,7 +3862,8 @@
       "amount": 7990,
       "converted": 7990,
       "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27上午重新核對PChome主商品公開價7990元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。"
+      "note": "2026-10-27上午重新核對PChome主商品公開價7990元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAG6JA900AUW3D/000001_1626400932.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAG6J-A900AUW3D",

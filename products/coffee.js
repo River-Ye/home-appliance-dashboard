@@ -1414,7 +1414,8 @@
       "amount": 4990,
       "converted": 4990,
       "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27 原購買頁公開4990元；舊折扣已不再成立，未扣個人券、點數與信用卡回饋。"
+      "note": "2026-10-27 原購買頁公開4990元；舊折扣已不再成立，未扣個人券、點數與信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/69fb8a2ae4-Gd-11322933.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Philips-%E9%A3%9B%E5%88%A9%E6%B5%A6-Saeco%E5%8D%8A%E8%87%AA%E5%8B%95%E7%BE%A9%E5%BC%8F%E5%92%96%E5%95%A1%E6%A9%9F-EMS5110-02-11322933.html",
