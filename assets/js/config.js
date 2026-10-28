@@ -7,7 +7,7 @@
     costcoDate: "2026-10-29",
     expectedCategoryCount: 37,
     expectedProductCount: 1224,
-    cacheVersion: "20261029-232600-catalog",
+    cacheVersion: "20261029-233649-catalog",
     exchangeSummary: "USD 1 = TWD 32.439",
   };
 

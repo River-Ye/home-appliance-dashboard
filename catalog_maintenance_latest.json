@@ -1,7 +1,7 @@
 {
   "schemaVersion": 3,
   "dataDate": "2026-10-29",
-  "checkedAt": "2026-10-28T23:26:00.782Z",
+  "checkedAt": "2026-10-28T23:36:49.199Z",
   "baselineRef": "ea61a1137bb5c73712b49e7d260e383ca25577a1",
   "policy": {
     "exactModelOrReviewedSourceBindingOnly": true,
@@ -8249,7 +8249,7 @@
         "limitation": "本輪已重新讀取列明官方與通路來源，具體家族／型號比較如上；仍未完成該類每個既有exact型號至台灣當代直接後繼的逐一映射。被擋來源、未閉合資格與舊逐筆研究日期均誠實保留，不把名冊覆蓋當完成換代查核。",
         "sourceRequestCount": 10,
         "sourceExceptionCount": 3,
-        "admissionFollowupReviewedAt": "2026-10-28T23:26:00.782Z"
+        "admissionFollowupReviewedAt": "2026-10-28T23:36:49.199Z"
       },
       "reviewEvidence": [
         {
@@ -14032,7 +14032,7 @@
         "limitation": "本輪人工覆核所列原頁及具體型號/家族候選，尚未完成本類每個既有exact model到台灣目前直接後繼的逐一完整對照；HTTP403/429、動態殼、TLS或一次請求失敗不等同沒有新品或已停產。既有逐筆上市/尺寸/問題研究保留真實日期。",
         "sourceRequestCount": 11,
         "sourceExceptionCount": 5,
-        "admissionFollowupReviewedAt": "2026-10-28T23:26:00.782Z"
+        "admissionFollowupReviewedAt": "2026-10-28T23:36:49.199Z"
       },
       "japaneseReviewNotes": [
         {
@@ -27237,7 +27237,7 @@
   },
   "officialDiscontinuedCandidates": [],
   "manualPriceReview": {
-    "checkedAt": "2026-10-28T23:26:00.782Z",
+    "checkedAt": "2026-10-28T23:36:49.199Z",
     "scope": "selected_original_pages_for_all_price_changes_known_conflicts_and_expiring_offers",
     "rows": [
       {
@@ -29353,7 +29353,7 @@
     ]
   },
   "reviewScope": {
-    "checkedAt": "2026-10-28T23:26:00.782Z",
+    "checkedAt": "2026-10-28T23:36:49.199Z",
     "fullSourceImageAndFoundHistoricalSourceAudit": true,
     "categories": 37,
     "japaneseBrandBoundaryCells": 333,
