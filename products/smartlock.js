@@ -1992,9 +1992,9 @@
     "price": {
       "currency": "HKD",
       "amount": 9638,
-      "converted": 40042,
+      "converted": 39857,
       "basis": "retailer_current",
-      "confidence": "EasyLock 香港 2026-08-28 exact-model 公開促銷價；ExchangeRate-API 2026-10-27 匯率換算"
+      "confidence": "EasyLock 香港 2026-08-28 exact-model 公開促銷價；ExchangeRate-API 2026-10-28 匯率換算"
     },
     "installation": {
       "status": "included_basic",
@@ -3324,10 +3324,11 @@
     "name": "逸系列微光夜視貓眼電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 29999,
-      "converted": 29999,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27 PChome公開任1件折3112元，網路價33111元、折扣價29999元，活動標10/27–11/05；未扣個人券、P幣或信用卡回饋，安裝加價邊界仍依原欄位。"
+      "amount": 31111,
+      "converted": 31111,
+      "confidence": "2026-10-28 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "note": "2026-10-28 晚間PChome原頁網路價33111，公開單件折2000後31111，活動10/28–10/31；不扣P幣、個人券或信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900K2QWO/000001_1782963114.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900K2QWO",

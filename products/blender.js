@@ -205,9 +205,10 @@
     "name": "免清洗多功能破壁調理機",
     "price": {
       "currency": "TWD",
-      "amount": 10900,
-      "converted": 10900,
-      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 10355,
+      "converted": 10355,
+      "confidence": "2026-10-28 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY4YA900HB8CN/000001_1780309793.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAY4Y-A900HB8CN",
@@ -398,8 +399,8 @@
     "price": {
       "currency": "USD",
       "amount": 99.98,
-      "converted": 3259,
-      "confidence": "2026-08-31 人工核對 SharkNinja 官方 BN701 公開可購主價 USD 99.98；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-10-27 匯率換算",
+      "converted": 3243,
+      "confidence": "2026-08-31 人工核對 SharkNinja 官方 BN701 公開可購主價 USD 99.98；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-10-28 匯率換算",
       "basis": "retailer_current"
     },
     "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/d1c25153baa2aa99eae7831be826d2a51d87c485/Ninja-BN701-Professional-Plus-Blender-with-Auto-iQ.jpg",
@@ -1742,10 +1743,11 @@
     "name": "多功能變頻輕音冷熱調理機",
     "price": {
       "currency": "TWD",
-      "amount": 8990,
-      "converted": 8990,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-28 原PChome L18M-Y6G 同型號主商品公開 NT$8,990，可加入購物車；未扣個人券、點數或信用卡回饋。"
+      "amount": 8540,
+      "converted": 8540,
+      "confidence": "2026-10-28 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "note": "2026-10-28 原PChome L18M-Y6G 同型號主商品公開 NT$8,990，可加入購物車；未扣個人券、點數或信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY4YA900I3ILD/000001_1783328441.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAY4Y-A900I3ILD",
@@ -1778,15 +1780,15 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 8990,
+      "amount": 8540,
       "currency": "TWD",
-      "converted": 8990,
+      "converted": 8540,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DMAY4Y-A900I3ILD",
       "sourceTitle": "PChome 24h 購物：【Joyoung九陽】多功能變頻輕音冷熱調理機豆漿機(L18M-Y6G)",
-      "evidenceSnippet": "PChome 24h 購物於 2026-10-22 顯示同型號可信新品公開價 NT$8,990，低於既有史低 NT$10,685。",
+      "evidenceSnippet": "PChome 24h 購物於 2026-10-28 顯示同型號可信新品公開價 NT$8,540，低於既有史低 NT$8,990。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-10-22",
+      "checkedAt": "2026-10-28",
       "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {

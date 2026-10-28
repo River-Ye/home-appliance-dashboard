@@ -1,7 +1,7 @@
 const reportLedger = require("../product_issue_report_evidence.json");
 const { canonicalWebsite, normalize } = require("./product-issue-validation");
 
-const CHECKED_AT = "2026-10-26";
+const CHECKED_AT = "2026-10-28";
 const DEFAULT_EVIDENCE_CHECKED_AT = "2026-08-29";
 const REVIEW_DATE_PATTERN = /^\d{4}-\d{2}-\d{2}$/;
 
@@ -12,6 +12,46 @@ function isValidReviewDate(value) {
 }
 
 const verifiedRows = [
+{
+  "id": "dryer-sanlux-asd-100ua",
+  "checkedAt": "2026-10-28",
+  "summary": "至少6名ASD-100UA使用者跨Mobile01與Yahoo原商品評價回報運轉噪音偏大，部分另述咚咚聲，客廳與夜間使用需先評估。",
+  "title": "運轉噪音偏大",
+  "detail": "5位Mobile01家庭使用者與1位Yahoo買家文字評價；不代表所有機器均故障。一位回報加厚腳墊後改善，另有使用者認為調整水平後音量可接受；購前宜實機試運轉，預留通風與維修空間，異常聲由原廠檢查。",
+  "reportCount": 6,
+  "sources": [
+    {
+      "platform": "Mobile01",
+      "title": "SANLUX 台灣三洋 10KG熱泵式乾衣機 ASD-100UA",
+      "url": "https://www.mobile01.com/topicdetail.php?f=730&t=6756158",
+      "authors": [
+        "olliekr",
+        "GARGINE",
+        "iori7471",
+        "feather4012"
+      ],
+      "evidenceSnippet": "ASD-100UA專串4、6、9、10樓四名自購使用者分別描述大風聲或咚咚聲；購買後改用Haier的5樓與引用8樓不計。"
+    },
+    {
+      "platform": "Mobile01",
+      "title": "SANLUX 台灣三洋 10KG熱泵式乾衣機 ASD-100UA (第2頁)",
+      "url": "https://www.mobile01.com/topicdetail.php?f=730&p=2&t=6756158",
+      "authors": [
+        "史蒂芬喬"
+      ],
+      "evidenceSnippet": "第2頁12樓本人觀察替岳母購置的機器，描述師傅裝機後客廳咚咚聲及加墊改善；其餘簡短或正面回饋不加入正式門檻。"
+    },
+    {
+      "platform": "Yahoo購物中心",
+      "title": "【SANLUX 台灣三洋】10KG 熱泵式乾衣機 ASD-100UA | Yahoo購物中心",
+      "url": "https://tw.buy.yahoo.com/gdsale/SANLUX%E5%8F%B0%E7%81%A3%E4%B8%89%E6%B4%8B-10%E5%85%AC%E6%96%A4%E7%86%B1%E6%B3%B5%E6%A9%9F%E4%B9%BE%E8%A1%A3%E6%A9%9F-ASD-100UA-10415249.html",
+      "authors": [
+        "PQR"
+      ],
+      "evidenceSnippet": "精確型號原商品頁唯一具名評價PQR於2025/05/17直接回報聲音偏大，已由CUA原頁核對。"
+    }
+  ]
+},
 {
   "id": "wifi-ubiquiti-u7-pro-xgs",
   "checkedAt": "2026-09-07",

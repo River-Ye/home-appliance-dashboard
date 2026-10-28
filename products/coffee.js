@@ -1414,7 +1414,7 @@
       "amount": 4591,
       "converted": 4591,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-28 原購買頁主商品公開4591元；飛利浦生活家電 滿額92折 滿888享92折，至2026-10-28 07:59:59+08:00；可加入購物車，未扣個人券、點數或信用卡回饋。",
+      "note": "2026-10-28 Yahoo購物中心同型號新品公開價 NT$4,591。單品4990滿888即享92折，優惠至2026-10-29 07:59:59。不含折價券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/69fb8a2ae4-Gd-11322933.jpg",
@@ -2061,10 +2061,11 @@
     "name": "Barista EX 系列經典義式濃縮咖啡機（爵士灰）",
     "price": {
       "currency": "TWD",
-      "amount": 12800,
-      "converted": 12800,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27 PChome exact GL-5700主商品公開12800元；頁內6990元為其他C3推薦商品，不作本型價格。"
+      "amount": 6990,
+      "converted": 6990,
+      "confidence": "2026-10-28 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "note": "2026-10-27 PChome exact GL-5700主商品公開12800元；頁內6990元為其他C3推薦商品，不作本型價格。",
+      "basis": "retailer_current"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAT09A900IXUVD/000001_1769478978.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAT09-A900IXUVD",

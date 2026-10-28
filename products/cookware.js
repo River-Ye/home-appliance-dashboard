@@ -1030,11 +1030,11 @@
     "image": "https://cs-a.ecimg.tw/items/DEDG3BA900GQDVZ/000001_1776769920.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1099,
-      "converted": 1099,
+      "amount": 968,
+      "converted": 968,
       "basis": "retailer_current",
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-28 原Yahoo同款28cm炒鍋+16cm湯鍋+鍋蓋+鍋鏟四件組公開1099元，可立即購買／加入購物車；送廚房剪刀、點換券與登記回饋不折入價格。"
+      "confidence": "2026-10-28 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "note": "2026-10-28 Yahoo購物中心同型號新品公開價 NT$968。主商品1099單件88折968，優惠至2026-10-29 07:00:59。不含折價券、點數或信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",

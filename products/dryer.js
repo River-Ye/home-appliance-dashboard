@@ -1646,7 +1646,7 @@
       "amount": 7591,
       "converted": 7591,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-28 Yahoo購物中心同型號新品公開價 NT$7,591。單件活動折後價有效至 2026-10-28 08:00:59（台灣時間）。不含折價券、點數或信用卡回饋。",
+      "note": "2026-10-28 晚間覆核同型號新品公開價 NT$7,591。單件活動價有效至2026-10-29 08:00:59（台灣時間）。不含個人券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -1952,7 +1952,7 @@
       "amount": 45908,
       "converted": 45908,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-28 Yahoo購物中心同型號新品公開價 NT$45,908。單件活動折後價有效至 2026-10-28 08:00:59（台灣時間）。不含折價券、點數或信用卡回饋。",
+      "note": "2026-10-28 晚間覆核同型號新品公開價 NT$45,908。單件活動價有效至2026-10-29 08:00:59（台灣時間）。不含個人券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -2639,6 +2639,132 @@
         }
       ]
     }
-  }
+  },
+{
+  "id": "dryer-sanlux-asd-100ua",
+  "category": "dryer",
+  "rank": 27,
+  "budget": "mid",
+  "channel": "tw",
+  "brand": "SANLUX",
+  "model": "ASD-100UA",
+  "name": "10公斤熱泵式乾衣機 ASD-100UA",
+  "topPick": false,
+  "price": {
+    "currency": "TWD",
+    "amount": 24605,
+    "converted": 24605,
+    "basis": "retailer_current",
+    "confidence": "2026-10-28 Yahoo自營同型號整機原頁與Chrome主商品確認；公開單件95折。",
+    "note": "2026-10-28 晚間公開單件95折 NT$24,605（基價25,900），活動至2026-10-29 08:00:59（台灣時間）；未扣個人券、點數、信用卡回饋或福利品價。"
+  },
+  "installation": {
+    "status": "included_basic",
+    "note": "所選Yahoo新品頁明示含基本安裝與拆箱定位；搬運動線、樓層、抬高/過窗、偏遠地區、額外排水與電源工程依物流/施工現場報價，無操作教學；疊放支架及可否堆疊須另向原廠確認。"
+  },
+  "image": "https://img.yec.tw/zp/MerchandiseImages/38656A1DAC-SP-13113526.jpg",
+  "buyUrl": "https://tw.buy.yahoo.com/gdsale/SANLUX%E5%8F%B0%E7%81%A3%E4%B8%89%E6%B4%8B-10%E5%85%AC%E6%96%A4%E7%86%B1%E6%B3%B5%E6%A9%9F%E4%B9%BE%E8%A1%A3%E6%A9%9F-ASD-100UA-10415249.html",
+  "buyLabel": "Yahoo購物中心自營",
+  "specs": [
+    "類型：獨立滾筒熱泵除濕型乾衣機",
+    "容量：10kg（標準行程；不同材質行程依說明書限量）",
+    "乾衣系統：Heat Pump 除濕型；智慧烘乾偵測、三段烘乾度、24小時預約",
+    "尺寸：寬 59.5 x 深 65 x 高 85 cm",
+    "重量：50 kg",
+    "電壓／頻率：110V／60Hz",
+    "功率：800W；15A以上可靠接地專用插座，禁止延長線或與其他電器共用",
+    "排水／通風：內置儲水盒可倒水或接排水管；放置堅固水平、乾燥且通風處，不遮擋進氣口",
+    "清潔維護：每次烘乾後清棉絮濾網與門封；進氣口濾網至少每3次清理1次，熱交換器用毛刷或吸塵器依說明書清理",
+    "安全／安裝：門安全開關；50kg宜兩人直立搬運，不可橫放或顛倒，疊架相容性另確認",
+    "產地：中國（依原廠說明書末頁；不採其他通路誤填台灣）"
+  ],
+  "description": "補入10kg、110V熱泵獨立乾衣選項，可使用儲水盒或直排水。這是已現售的補充機型，並非2026新發表或ASD-80UA的已確認直接後繼；需特別評估運轉聲與放置位置。",
+  "pros": [
+    "10kg熱泵除濕乾衣，適合不便增加220V迴路的家庭比較",
+    "官方明示110V／60Hz、800W與機身尺寸，安裝需求可先核對",
+    "台灣三洋本地服務體系；一般保固與登錄後指定零件延長條件可查"
+  ],
+  "cons": [
+    "已達6人跨2原站的噪音或咚咚震動聲回報門檻，不宜預設適合客廳或夜間",
+    "50kg機體與65cm機身深度，還需另留開門、插頭、排水及通風空間",
+    "需定期清濾網與熱交換器，疊放相容性及額外施工另行確認"
+  ],
+  "bestFor": "需要10kg獨立熱泵乾衣、具110V接地專用插座且能將機器放在通風、可接受運轉聲區域的家庭。",
+  "recommendation": "作為既有8kg乾衣機之外的10kg熱泵補充選項；採購前先實機試聲、核對完整搬運與安裝空間。噪音警示已成立，不列為Top Pick。",
+  "releaseDate": "找不到",
+  "historicalLow": {
+    "status": "not_found",
+    "amount": null,
+    "currency": "TWD",
+    "converted": null,
+    "sourceUrl": "",
+    "sourceTitle": "",
+    "evidenceSnippet": "",
+    "sourceKind": "not_found",
+    "confidence": "not_found",
+    "checkedAt": "2026-10-28",
+    "note": "查過FindPrice同型號比價、LBJ歷史價入口、飛比與原通路；未取得可重現且排除個人券/信用卡/福利品的同規格歷史最低價。Mobile01約2萬含券/禮券/點數不採，PTT約24900為概數；不以本次24605現價推定史低。"
+  },
+  "issueResearch": {
+    "status": "common_issue",
+    "checkedAt": "2026-10-28",
+    "summary": "至少6名ASD-100UA使用者跨Mobile01與Yahoo原商品評價回報運轉噪音偏大，部分另述咚咚聲，客廳與夜間使用需先評估。",
+    "issues": [
+      {
+        "title": "運轉噪音偏大",
+        "detail": "5位Mobile01家庭使用者與1位Yahoo買家文字評價；不代表所有機器均故障。一位回報加厚腳墊後改善，另有使用者認為調整水平後音量可接受；購前宜實機試運轉，預留通風與維修空間，異常聲由原廠檢查。",
+        "reportCount": 6,
+        "sources": [
+          {
+            "platform": "Mobile01",
+            "title": "SANLUX 台灣三洋 10KG熱泵式乾衣機 ASD-100UA",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=6756158"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "SANLUX 台灣三洋 10KG熱泵式乾衣機 ASD-100UA (第2頁)",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&p=2&t=6756158"
+          },
+          {
+            "platform": "Yahoo購物中心",
+            "title": "【SANLUX 台灣三洋】10KG 熱泵式乾衣機 ASD-100UA | Yahoo購物中心",
+            "url": "https://tw.buy.yahoo.com/gdsale/SANLUX%E5%8F%B0%E7%81%A3%E4%B8%89%E6%B4%8B-10%E5%85%AC%E6%96%A4%E7%86%B1%E6%B3%B5%E6%A9%9F%E4%B9%BE%E8%A1%A3%E6%A9%9F-ASD-100UA-10415249.html"
+          }
+        ]
+      }
+    ],
+    "checkedSources": [
+      {
+        "platform": "Mobile01",
+        "targetHost": "mobile01.com",
+        "query": "site:mobile01.com \"ASD-100UA\" (問題 OR 故障 OR 心得)",
+        "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22ASD-100UA%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97)"
+      },
+      {
+        "platform": "PTT",
+        "targetHost": "ptt.cc",
+        "query": "site:ptt.cc \"ASD-100UA\" (問題 OR 故障 OR 心得)",
+        "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22ASD-100UA%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97)"
+      },
+      {
+        "platform": "Yahoo購物中心",
+        "targetHost": "tw.buy.yahoo.com",
+        "query": "site:tw.buy.yahoo.com \"ASD-100UA\" (問題 OR 故障 OR 評價 OR 噪音)",
+        "queryUrl": "https://www.google.com/search?q=site%3Atw.buy.yahoo.com%20%22ASD-100UA%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%A9%95%E5%83%B9%20OR%20%E5%99%AA%E9%9F%B3)"
+      }
+    ]
+  },
+  "score": 79,
+  "voltage": "110V／60Hz；800W；15A以上接地專用插座，不用延長線或共用迴路插座",
+  "warranty": "所選Yahoo台灣新品頁列台灣三洋原廠保固1年；依三洋官網，購買180天內完成保證書登錄可享熱泵乾衣機基板、馬達、冷卻系統及壓縮機3年，實際以購買當時保證書為準。",
+  "tags": [
+    "10kg",
+    "熱泵式",
+    "110V／60Hz",
+    "含基本安裝",
+    "噪音風險",
+    "洗衣家務"
+  ]
+}
 ]);
 })();

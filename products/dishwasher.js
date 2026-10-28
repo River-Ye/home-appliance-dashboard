@@ -423,9 +423,10 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR0NA900IH50L/000001_1782870878.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 30900,
-      "converted": 30900,
-      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 29046,
+      "converted": 29046,
+      "confidence": "2026-10-28 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "basis": "retailer_current"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -627,9 +628,10 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR0OA900IFXRC/000001_1780551938.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 28405,
-      "converted": 28405,
-      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 29900,
+      "converted": 29900,
+      "confidence": "2026-10-28 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "basis": "retailer_current"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -935,9 +937,10 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR0YA900FMAWF/000001_1692315551.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 23310,
-      "converted": 23310,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 22145,
+      "converted": 22145,
+      "confidence": "2026-10-28 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "basis": "retailer_current"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1649,9 +1652,10 @@
     "name": "免安裝自動 6 人份洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 16999,
-      "converted": 16999,
-      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 15809,
+      "converted": 15809,
+      "confidence": "2026-10-28 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR17A900IHTZ3/000001_1777540146.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR17-A900IHTZ3",
@@ -1746,9 +1750,10 @@
     "name": "VORTEX KW1 桌上型全自動洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 14990,
-      "converted": 14990,
-      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 14540,
+      "converted": 14540,
+      "confidence": "2026-10-28 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR25A900J5BGP/000001_1782112645.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR25-A900J5BGP",
@@ -1782,15 +1787,15 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 14990,
+      "amount": 14540,
       "currency": "TWD",
-      "converted": 14990,
+      "converted": 14540,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DMBR25-A900J5BGP",
       "sourceTitle": "PChome 24h 購物：Acerpure VORTEX KW1 桌上型全自動洗碗機 KW534-60W",
-      "evidenceSnippet": "PChome 24h 購物於 2026-09-12 顯示同型號可信新品公開價 NT$14,990，低於既有史低 NT$15,031。",
+      "evidenceSnippet": "PChome 24h 購物於 2026-10-28 顯示同型號可信新品公開價 NT$14,540，低於既有史低 NT$14,990。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-09-12",
+      "checkedAt": "2026-10-28",
       "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
@@ -1940,10 +1945,11 @@
     "name": "桌上型洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 12999,
-      "converted": 12999,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27原PChome主商品公開12999元；12349元折扣未由原頁重現，不將回饋或未確認折扣當售價。"
+      "amount": 12349,
+      "converted": 12349,
+      "confidence": "2026-10-28 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "note": "2026-10-27原PChome主商品公開12999元；12349元折扣未由原頁重現，不將回饋或未確認折扣當售價。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR24A900JFSR7/000001_1762761618.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR24-A900JFSR7",
@@ -3176,10 +3182,10 @@
     "topPick": false,
     "price": {
       "currency": "TWD",
-      "amount": 80550,
-      "converted": 80550,
+      "amount": 75717,
+      "converted": 75717,
       "basis": "retailer_current",
-      "confidence": "2026-10-23 PChome exact SKU API Qty10、原頁與JSON-LD公開80550一致，NewCondition/InStock；未扣折價券、P幣或信用卡回饋。"
+      "confidence": "2026-10-28 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMBR13A900KIVV7/000001_1790912458.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR13-A900KIVV7",
@@ -3574,6 +3580,100 @@
       "110V",
       "Home Connect"
     ]
-  }
+  },
+{
+  "id": "dishwasher-haier-h600",
+  "category": "dishwasher",
+  "rank": 36,
+  "budget": "mid",
+  "channel": "tw",
+  "brand": "Haier",
+  "model": "HDWE16-46SC6SA",
+  "name": "H600 16人份自動開門變頻獨嵌兩用洗碗機",
+  "topPick": false,
+  "price": {
+    "currency": "TWD",
+    "amount": 25200,
+    "converted": 25200,
+    "basis": "retailer_current",
+    "confidence": "2026-10-28 原商品頁核對同型號新品公開價NT$25,200，可約定配送；不含安裝與個人券、點數、信用卡回饋。"
+  },
+  "installation": {
+    "status": "excluded",
+    "note": "所選PChome方案不含安裝；基本安裝費另計NT$2000。櫥櫃修改、專用電路／接地、給排水、插座、材料與特殊搬運依場勘報價；保固限使用自來水，配送及安裝須由專人電話約定。"
+  },
+  "image": "https://img.pchome.com.tw/cs/items/DMBR25A900IUN3O/000001_1747968613.jpg",
+  "buyUrl": "https://24h.pchome.com.tw/prod/DMBR25-A900IUN3O",
+  "buyLabel": "PChome 24h購物（不含安裝／約配）",
+  "specs": [
+    "類型：60cm獨嵌兩用式；16人份",
+    "洗淨：變頻水泵、微蒸氣洗淨與髒污感應自動洗滌",
+    "乾燥：洗程結束自動開門，需預留門前及櫥櫃防潮空間",
+    "操作：觸控面板；8大洗程與5項附加功能",
+    "碗籃：可調式上籃與餐具托盤",
+    "尺寸：寬 59.8 x 深 60 x 高 85 cm",
+    "重量：50 kg",
+    "電壓／頻率：230V／60Hz；1900W／10A，須由授權技師核對現場專用迴路與接地",
+    "經濟程序：耗水9.5L／耗電0.769kWh；條件依原廠測試洗程",
+    "給排水：進水壓力0.03–1MPa；排水管一段需抬至距機底40–85cm，勿夾折管線",
+    "安裝：完整機身高85cm；可移除上蓋作櫥下安裝，櫃位依原廠圖場勘，側面至少1mm、後方至少10mm，電源插頭須可及；不含基本安裝"
+  ],
+  "description": "以16人份、觸控面板及自動開門補入海爾獨嵌兩用比較款。官方仍同列H500、W32與22套BK5／BK6，沒有把新款並列當作舊款已停產或直接替代。",
+  "pros": [
+    "16人份與可調式碗籃適合家庭鍋碗集中清洗",
+    "官方同型號說明書可核對60Hz、機身尺寸與50kg淨重",
+    "台灣代理產品，所選通路列一年保固與授權服務聯繫方式"
+  ],
+  "cons": [
+    "230V額定供電需先由授權技師確認住宅電路，不能接110V插座",
+    "所選價格不含基本安裝2000元，櫃體及水電追加施工另計",
+    "自動開門需預留動線及檯面防潮；尚無可靠上市日與史低"
+  ],
+  "bestFor": "已有可配置專用電源與給排水空間，想比較16人份自動開門洗碗機的家庭。",
+  "recommendation": "16人份獨嵌比較款；將機價、基本安裝與現場水電櫥櫃費用一起估算，再由授權技師核對230V供電、門前淨空及防潮。",
+  "releaseDate": "找不到",
+  "historicalLow": {
+    "status": "not_found",
+    "amount": null,
+    "currency": "TWD",
+    "converted": null,
+    "sourceUrl": "",
+    "sourceTitle": "",
+    "evidenceSnippet": "",
+    "sourceKind": "not_found",
+    "confidence": "not_found",
+    "checkedAt": "2026-10-28",
+    "note": "已人工核對同型號PChome新品25200、momo27456，以及飛比與FindPrice完整型號比價。比價只提供現價，未取得可信原始通路帶歷史日期的最低價存證；另有Lowcast第三方走勢，但未獨立確認其過往逐日原始快照與版本／服務條件，不據此宣稱史低，不把本次現價推定史低。"
+  },
+  "issueResearch": {
+    "status": "no_common_issue",
+    "checkedAt": "2026-10-28",
+    "summary": "截至查核日，查無達門檻的集中負評／災情",
+    "issues": [],
+    "checkedSources": [
+      {
+        "platform": "Mobile01",
+        "targetHost": "mobile01.com",
+        "query": "site:mobile01.com \"HDWE16-46SC6SA\"",
+        "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22HDWE16-46SC6SA%22"
+      },
+      {
+        "platform": "PTT",
+        "targetHost": "ptt.cc",
+        "query": "site:ptt.cc \"HDWE16-46SC6SA\"",
+        "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22HDWE16-46SC6SA%22"
+      }
+    ]
+  },
+  "score": 85,
+  "voltage": "230V／60Hz、1900W／10A；台灣代理官方規格，安裝前由授權技師核對專用電源、接地與給排水，不能接110V插座。",
+  "warranty": "所選PChome exact-model頁列1年保固，保固種類標為「其他」；台灣代理秉創負責授權銷售、保固及維修，服務限台灣本島、保固限自來水，依憑證與正式條款。諮詢02-2222-9829、報修0800-288-929。",
+  "tags": [
+    "16人份",
+    "獨嵌兩用",
+    "自動開門",
+    "需專用電源"
+  ]
+}
 ]);
 })();

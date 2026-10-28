@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24",
+  "generatedAt": "2026-10-28",
   "sourcePolicy": "本站共 21 類尺寸、13 類重量研究，尺寸涵蓋 電視、Soundbar、冷氣、洗衣機、烘衣機、洗烘衣機(多功能型)、電子衣櫥（衣物護理機）、床包、棉被、枕頭、冰箱、咖啡機、多功能氣炸烤箱／微波爐、洗碗機、熱水器、免治馬桶、網路交換器、螢幕燈、滑鼠、鍵盤、滑鼠墊。優先採 exact-model／相同版本的官方產品頁、官方規格表或官方 PDF，其次為可信新品通路。只採本體／機身／明確組件的尺寸與淨重，排除包裝、外箱尺寸與毛重；來源沒有明示軸序時不自行推定。既有家電與床包、棉被、枕頭維持 cm／kg，滑鼠、鍵盤與滑鼠墊使用 mm／g 並保留來源軸序。滑鼠墊厚度、床包可包覆高度另列；棉被的填充重量與整件淨重分開記錄。冷氣分列室內機與室外機，熱泵複合熱水器分列主機與儲槽。generatedAt 為最新證據批次日期，既有逐筆 checkedAt 與 weightCheckedAt 保留原查核日期，不表示重新查核。",
   "results": [
     {
@@ -10770,6 +10770,41 @@
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
       "weightCheckedAt": "2026-10-24"
+    },
+    {
+      "id": "dishwasher-haier-h600",
+      "category": "dishwasher",
+      "brand": "Haier",
+      "model": "HDWE16-46SC6SA",
+      "name": "H600 16人份自動開門變頻獨嵌兩用洗碗機",
+      "dimension": "尺寸：寬 59.8 x 深 60 x 高 85 cm",
+      "sourceUrl": "https://www.haierpro.com.tw/wp-content/uploads/HDWE16-46SC6SA-%E6%B2%99%E7%89%B9%E6%B4%97%E7%A2%97%E6%A9%9F-%E8%AA%AA%E6%98%8E%E6%9B%B8_compressed.pdf",
+      "sourceTitle": "Haier台灣所連HDWE16-46SC6SA官方說明書p33 Technical Data",
+      "evidenceSnippet": "官方exact說明書p33列Dimension(W×D×H)598×600×850mm、Netweight50kg、230V60Hz，已渲染並目視核對；毫米換算cm，未使用外箱或推定軸序。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-10-28",
+      "weight": "重量：50 kg",
+      "weightSourceUrl": "https://www.haierpro.com.tw/wp-content/uploads/HDWE16-46SC6SA-%E6%B2%99%E7%89%B9%E6%B4%97%E7%A2%97%E6%A9%9F-%E8%AA%AA%E6%98%8E%E6%9B%B8_compressed.pdf",
+      "weightSourceTitle": "Haier HDWE16-46SC6SA官方說明書p33",
+      "weightEvidenceSnippet": "p33明列Netweight50kg；官網本型表同列產品淨重50kg，不採包裝重量。",
+      "weightConfidence": "high",
+      "weightIsOfficialSource": true,
+      "weightCheckedAt": "2026-10-28"
+    },
+    {
+      "id": "dryer-sanlux-asd-100ua",
+      "category": "dryer",
+      "brand": "SANLUX",
+      "model": "ASD-100UA",
+      "name": "10公斤熱泵式乾衣機 ASD-100UA",
+      "dimension": "尺寸：寬 59.5 x 深 65 x 高 85 cm",
+      "sourceUrl": "https://www.sanyo.com.tw/storage/app/uploads/public/6a1/64b/0d7/6a164b0d7c630045657225.pdf",
+      "sourceTitle": "SANLUX ASD-100UA原廠使用說明書第20頁",
+      "evidenceSnippet": "原廠規格表機身尺寸標示寬595×深650×高850mm，另列機器重量50kg、10kg容量；未採產品頁外箱660×700×890mm。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-10-28"
     }
   ]
 }

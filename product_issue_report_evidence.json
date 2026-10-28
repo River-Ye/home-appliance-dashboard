@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-26",
+  "checkedAt": "2026-10-28",
   "policy": "每列皆保存可辨識作者、可重現定位與逐人忠實摘要；exactModel／firstPerson 只能由人工回看原始頁後明確填入，跨站轉貼以 crossPostKey 去重。",
   "reports": [
     {
@@ -6605,6 +6605,108 @@
           "eventDedupKey": "ifeeltech-xgs-front-office-offline-2026"
         }
       ]
+    },
+    {
+      "productId": "dryer-sanlux-asd-100ua",
+      "issueTitle": "運轉噪音偏大",
+      "platform": "Mobile01",
+      "sourceTitle": "SANLUX 台灣三洋 10KG熱泵式乾衣機 ASD-100UA",
+      "sourceUrl": "https://www.mobile01.com/topicdetail.php?f=730&t=6756158",
+      "author": "olliekr",
+      "permalink": "https://www.mobile01.com/topicdetail.php?f=730&t=6756158",
+      "locator": "4樓；文章87119415；2023-03-24 05:42；name_87119415 / article_87119415",
+      "evidenceExcerpt": "olliekr 自述已買一台試烘牛仔褲，認為運轉噪音影響房間使用，決定從租客處收回自用；同時提到背板偏燙。",
+      "auditNote": "人工讀Web原頁及CUA Chrome 4樓，主題明示ASD-100UA，該作者自購/試烘情境可辨；不把同串引用計作第二人。逐人判讀：olliekr 自述已買一台試烘牛仔褲，認為運轉噪音影響房間使用，決定從租客處收回自用；同時提到背板偏燙。",
+      "exactModel": true,
+      "firstPerson": true,
+      "crossPostKey": null,
+      "reviewBasis": "manual_original_page",
+      "reviewedAt": "2026-10-28"
+    },
+    {
+      "productId": "dryer-sanlux-asd-100ua",
+      "issueTitle": "運轉噪音偏大",
+      "platform": "Mobile01",
+      "sourceTitle": "SANLUX 台灣三洋 10KG熱泵式乾衣機 ASD-100UA",
+      "sourceUrl": "https://www.mobile01.com/topicdetail.php?f=730&t=6756158",
+      "author": "GARGINE",
+      "permalink": "https://www.mobile01.com/topicdetail.php?f=730&t=6756158",
+      "locator": "6樓；文章87138060；2023-03-27 03:56；name_87138060 / article_87138060",
+      "evidenceExcerpt": "GARGINE 明寫在momo購買三洋ASD-100UA並使用近一週，回報運作風聲很大，不建議置於客廳。",
+      "auditNote": "人工讀原頁6樓與CUA name_87138060；完整型號和自購使用均在本人段落，與3樓促銷留言同作者只計一次。逐人判讀：GARGINE 明寫在momo購買三洋ASD-100UA並使用近一週，回報運作風聲很大，不建議置於客廳。",
+      "exactModel": true,
+      "firstPerson": true,
+      "crossPostKey": null,
+      "reviewBasis": "manual_original_page",
+      "reviewedAt": "2026-10-28"
+    },
+    {
+      "productId": "dryer-sanlux-asd-100ua",
+      "issueTitle": "運轉噪音偏大",
+      "platform": "Mobile01",
+      "sourceTitle": "SANLUX 台灣三洋 10KG熱泵式乾衣機 ASD-100UA",
+      "sourceUrl": "https://www.mobile01.com/topicdetail.php?f=730&t=6756158",
+      "author": "iori7471",
+      "permalink": "https://www.mobile01.com/topicdetail.php?f=730&t=6756158",
+      "locator": "9樓；文章88397041；2023-10-10 07:06；name_88397041",
+      "evidenceExcerpt": "iori7471 在ASD-100UA專串表示剛買一台，實際運轉聲很大並出現高速咚咚聲，詢問其他買家。",
+      "auditNote": "人工讀原頁9樓與CUA name_88397041，本人剛購買及運轉觀察可辨；只採本人敘述，不另計其被10樓引用的文字。逐人判讀：iori7471 在ASD-100UA專串表示剛買一台，實際運轉聲很大並出現高速咚咚聲，詢問其他買家。",
+      "exactModel": true,
+      "firstPerson": true,
+      "crossPostKey": null,
+      "reviewBasis": "manual_original_page",
+      "reviewedAt": "2026-10-28"
+    },
+    {
+      "productId": "dryer-sanlux-asd-100ua",
+      "issueTitle": "運轉噪音偏大",
+      "platform": "Mobile01",
+      "sourceTitle": "SANLUX 台灣三洋 10KG熱泵式乾衣機 ASD-100UA",
+      "sourceUrl": "https://www.mobile01.com/topicdetail.php?f=730&t=6756158",
+      "author": "feather4012",
+      "permalink": "https://www.mobile01.com/topicdetail.php?f=730&t=6756158",
+      "locator": "10樓；文章88408206；2023-10-11 22:04；name_88408206 / article_88408206",
+      "evidenceExcerpt": "feather4012 表示自己的機器剛到貨也出現咚咚聲，裝機師傅反映異常並與三洋聯繫安排再檢查。",
+      "auditNote": "人工讀原頁10樓與CUA article_88408206，報告自己新到貨事件而非僅引用9樓；未將後續是否換機未知寫成已確認故障根因。逐人判讀：feather4012 表示自己的機器剛到貨也出現咚咚聲，裝機師傅反映異常並與三洋聯繫安排再檢查。",
+      "exactModel": true,
+      "firstPerson": true,
+      "crossPostKey": null,
+      "reviewBasis": "manual_original_page",
+      "reviewedAt": "2026-10-28"
+    },
+    {
+      "productId": "dryer-sanlux-asd-100ua",
+      "issueTitle": "運轉噪音偏大",
+      "platform": "Mobile01",
+      "sourceTitle": "SANLUX 台灣三洋 10KG熱泵式乾衣機 ASD-100UA (第2頁)",
+      "sourceUrl": "https://www.mobile01.com/topicdetail.php?f=730&p=2&t=6756158",
+      "author": "史蒂芬喬",
+      "permalink": "https://www.mobile01.com/topicdetail.php?f=730&p=2&t=6756158",
+      "locator": "12樓；文章88784672；2023-12-11 22:56；name_88784672 / article_88784672",
+      "evidenceExcerpt": "史蒂芬喬 替岳母購置同串機型並實際觀察裝機後運轉，描述客廳咚咚聲；加厚腳墊後改善，仍限制白天使用。",
+      "auditNote": "人工讀第2頁12樓與CUA article_88784672，為本人家庭購置、師傅裝機後運轉及後續改善的實際觀察；沒有把師傅口述另算新作者，也不聲稱加腳墊能解決所有機器。逐人判讀：史蒂芬喬 替岳母購置同串機型並實際觀察裝機後運轉，描述客廳咚咚聲；加厚腳墊後改善，仍限制白天使用。",
+      "exactModel": true,
+      "firstPerson": true,
+      "crossPostKey": null,
+      "reviewBasis": "manual_original_page",
+      "reviewedAt": "2026-10-28"
+    },
+    {
+      "productId": "dryer-sanlux-asd-100ua",
+      "issueTitle": "運轉噪音偏大",
+      "platform": "Yahoo購物中心",
+      "sourceTitle": "【SANLUX 台灣三洋】10KG 熱泵式乾衣機 ASD-100UA | Yahoo購物中心",
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/SANLUX%E5%8F%B0%E7%81%A3%E4%B8%89%E6%B4%8B-10%E5%85%AC%E6%96%A4%E7%86%B1%E6%B3%B5%E6%A9%9F%E4%B9%BE%E8%A1%A3%E6%A9%9F-ASD-100UA-10415249.html",
+      "author": "PQR",
+      "permalink": "https://tw.buy.yahoo.com/gdsale/SANLUX%E5%8F%B0%E7%81%A3%E4%B8%89%E6%B4%8B-10%E5%85%AC%E6%96%A4%E7%86%B1%E6%B3%B5%E6%A9%9F%E4%B9%BE%E8%A1%A3%E6%A9%9F-ASD-100UA-10415249.html",
+      "locator": "商品賣編10415249；商品評價唯一一筆；PQR；2025/05/17；4星；文字有點大聲",
+      "evidenceExcerpt": "PQR 在Yahoo10415249的ASD-100UA原商品購買評價直接寫有點大聲；該頁只有這一筆具名文字評價。",
+      "auditNote": "CUA Chrome當前原頁原商品名稱、賣編及評價PQR/2025-05-17/有點大聲同頁確認，4星不等於無問題；只計具名文字本人1位，不將星數/平均分/按讚計人數。逐人判讀：PQR 在Yahoo10415249的ASD-100UA原商品購買評價直接寫有點大聲；該頁只有這一筆具名文字評價。",
+      "exactModel": true,
+      "firstPerson": true,
+      "crossPostKey": null,
+      "reviewBasis": "manual_original_page",
+      "reviewedAt": "2026-10-28"
     }
   ]
 }

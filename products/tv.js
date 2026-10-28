@@ -417,7 +417,7 @@
       "amount": 95389,
       "converted": 95389,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-28人工覆核：原Yahoo SONY Y-65XR90M2含標準安裝主商品99363元，公開單件96折95389元；活動801973至11/2 07:59:59（台灣時間）。未扣個人券、點數或信用卡回饋。",
+      "note": "2026-10-28晚間原頁覆核：Y-65XR90M2主商品公開價95389TWD，本輪原頁可加入購物車；新活動電視/季節/美容家電 瘋搶價限時96折，滿1件享96折至2026-10-29T07:59:59+08:00，已替換上午到期活動。不含個人券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/F326F9F0C5-SP-23019953.jpg",
@@ -818,7 +818,7 @@
       "amount": 84510,
       "converted": 84510,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-28人工覆核：原PChome SONY Y-65XR80主商品93900元，公開折扣價84510元，可加車；不扣登錄P幣或贈品。未扣個人券、點數或信用卡回饋。",
+      "note": "2026-10-28晚間原頁覆核：Y-65XR80主商品公開價84510TWD，本輪原頁可加入購物車；主商品價與舊參考一致，未套用相關商品或回饋。不含個人券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD06A900HLBJO/000001_1776334113.jpg",
@@ -1909,7 +1909,7 @@
       "amount": 14391,
       "converted": 14391,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-28人工覆核：原PChome CHiQ CQ-65QX250主商品15990元，公開折扣價14391元，可加車。未扣個人券、點數或信用卡回饋。",
+      "note": "2026-10-28晚間原頁覆核：CQ-65QX250主商品公開價14391TWD，本輪原頁可加入購物車；主商品價與舊參考一致，未套用相關商品或回饋。不含個人券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADTOA900JNE73/000001_1768523868.jpg",
@@ -3742,10 +3742,11 @@
     "name": "65 型 S90H OLED 4K Samsung Vision AI 智慧顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 80900,
-      "converted": 80900,
-      "confidence": "Yahoo購物中心 2026-10-21 exact-model 公開結構化價格",
-      "basis": "retailer_current"
+      "amount": 79282,
+      "converted": 79282,
+      "confidence": "2026-10-28 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-28晚間原頁覆核：SAMSUNG65型QA65S90HAEXZW含基本安裝主商品80900元、公開單件98折79282元，可加車；不扣個人150元點換券。不含個人券、點數或信用卡回饋。 公開98折活動至2026-10-29T05:59:59+08:00。"
     },
     "installation": {
       "status": "included_basic",
@@ -3947,7 +3948,7 @@
       "converted": 44900,
       "basis": "retailer_current",
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-28人工覆核：原PChome BenQ S65-960主商品44900元，49900是劃線價；2500P與贈品不折抵售價。未扣個人券、點數或信用卡回饋。"
+      "note": "2026-10-28晚間原頁覆核：S65-960主商品公開價44900TWD，本輪原頁可加入購物車；主商品價與舊參考一致，未套用相關商品或回饋。不含個人券、點數或信用卡回饋。"
     },
     "installation": {
       "status": "not_stated",
@@ -3955,7 +3956,7 @@
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD0OA900JIZTK/000001_1766126599.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAD0O-A900JIZTK",
-    "buyLabel": "PChome 公開活動價（10/23–10/27）",
+    "buyLabel": "PChome",
     "specs": [
       "65 吋 Mini LED 量子點 LCD／4K UHD 3840 x 2160",
       "更新率：最高 144Hz；HDMI 1／2支援4K 120／144Hz，HDMI 3／4最高4K 60Hz",
@@ -4141,7 +4142,7 @@
       "converted": 151791,
       "basis": "retailer_current",
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-28人工覆核：原PChome TCL75X11L主商品151791元可加車；189990為劃線價，本次主商品未顯示原9折活動，不保留過時148491。未扣個人券、點數或信用卡回饋。"
+      "note": "2026-10-28晚間原頁覆核：75X11L主商品公開價151791TWD，本輪原頁可加入購物車；主商品價與舊參考一致，未套用相關商品或回饋。不含個人券、點數或信用卡回饋。"
     },
     "installation": {
       "status": "included_basic",

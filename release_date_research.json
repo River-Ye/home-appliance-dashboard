@@ -1,20 +1,20 @@
 {
   "summary": {
-    "checkedAt": "2026-10-26T00:00:00+08:00",
-    "total": 1220,
-    "researchedThisRun": 1,
+    "checkedAt": "2026-10-28T14:19:21.094Z",
+    "total": 1222,
+    "researchedThisRun": 2,
     "found": 351,
-    "missing": 869,
+    "missing": 871,
     "byConfidence": {
       "official": 188,
-      "not_found": 866,
+      "not_found": 868,
       "retailer_explicit": 23,
       "credible_article": 52,
       "high": 71,
       "medium": 17,
       "unknown": 3
     },
-    "scopeNote": "2026-10-26後續全量價格/來源維護；上市日期僅補查新增BenQ RD320U，既有1219筆上市證據與真實日期保留。"
+    "scopeNote": "2026-10-28晚間新增H600及ASD-100UA上市查核；既有1220筆上市證據與真實逐筆日期保留。"
   },
   "results": [
     {
@@ -37375,6 +37375,89 @@
           "url": "https://www.benq.com/ja-jp/news/products/20241217-611-rd320u.html",
           "title": "BenQ日本RD320U發售公告",
           "outcome": "2024-12-24限日本，未移植成台灣發售日。"
+        }
+      ]
+    },
+    {
+      "id": "dishwasher-haier-h600",
+      "category": "dishwasher",
+      "brand": "Haier",
+      "model": "HDWE16-46SC6SA",
+      "name": "H600 16人份自動開門變頻獨嵌兩用洗碗機",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"HDWE16-46SC6SA\" 上市 發表 台灣",
+      "sourceKind": "not_found_after_manual_exact_model_review",
+      "reason": "本輪人工查台灣官方exact產品、官方同型說明書及兩個可信新品通路，並搜尋完整型號上市／發表；未見把明確日期連結到本型台灣上市／發售的官方敘述。官方PDF文件日期、零售上架時間及Paine文章的2025年代理品牌敘述不當作exact上市日期。",
+      "checkedAt": "2026-10-28",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.haierpro.com.tw/product/h600/",
+          "title": "Haier台灣H600官方產品頁",
+          "outcome": "確認本型現列與規格，未標exact上市日。"
+        },
+        {
+          "url": "https://www.haierpro.com.tw/wp-content/uploads/HDWE16-46SC6SA-%E6%B2%99%E7%89%B9%E6%B4%97%E7%A2%97%E6%A9%9F-%E8%AA%AA%E6%98%8E%E6%9B%B8_compressed.pdf",
+          "title": "HDWE16-46SC6SA官方說明書",
+          "outcome": "核技術與安裝資料，文件日期不是上市日。"
+        },
+        {
+          "url": "https://24h.pchome.com.tw/prod/DMBR25-A900IUN3O",
+          "title": "PChome H600 exact新品",
+          "outcome": "確認現售25200及供貨，未見exact上市日。"
+        },
+        {
+          "url": "https://www.momoshop.com.tw/product/13600212",
+          "title": "momo H600 exact新品",
+          "outcome": "確認當日27456活動及一年保固；10/23活動日期不是上市日。"
+        }
+      ],
+      "auditQueries": [
+        "\"HDWE16-46SC6SA\" 上市 發表 台灣",
+        "\"HDWE16-46SC6SA\" \"上市\" \"2025\""
+      ]
+    },
+    {
+      "id": "dryer-sanlux-asd-100ua",
+      "category": "dryer",
+      "brand": "SANLUX",
+      "model": "ASD-100UA",
+      "name": "10公斤熱泵式乾衣機 ASD-100UA",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"ASD-100UA\" (上市 OR 發售 OR release OR launch)",
+      "sourceKind": "not_found_after_manual_review",
+      "reason": "已查原廠產品頁、原廠說明書、可信通路及exact-model上市搜尋，未取得品牌或可信媒體的明確上市/發售日期；Mobile01 2023-03-16使用者稱剛推出及認證/文件日期均不當上市日。",
+      "checkedAt": "2026-10-28",
+      "auditDisposition": "confirmed_not_found",
+      "auditQueries": [
+        "\"ASD-100UA\" (上市 OR 發售 OR release OR launch)",
+        "site:sanyo.com.tw \"ASD-100UA\" (上市 OR 發售)"
+      ],
+      "checkedSources": [
+        {
+          "url": "https://www.sanyo.com.tw/product-detail/602",
+          "title": "SANLUX ASD-100UA官方產品頁",
+          "outcome": "提供機型規格，未明示上市/發售日期"
+        },
+        {
+          "url": "https://www.sanyo.com.tw/storage/app/uploads/public/6a1/64b/0d7/6a164b0d7c630045657225.pdf",
+          "title": "SANLUX ASD-100UA原廠使用說明書",
+          "outcome": "提供規格、安裝、保固與進口商，不以文件日期當上市日"
+        },
+        {
+          "url": "https://tw.buy.yahoo.com/gdsale/SANLUX%E5%8F%B0%E7%81%A3%E4%B8%89%E6%B4%8B-10%E5%85%AC%E6%96%A4%E7%86%B1%E6%B3%B5%E6%A9%9F%E4%B9%BE%E8%A1%A3%E6%A9%9F-ASD-100UA-10415249.html",
+          "title": "【SANLUX 台灣三洋】10KG 熱泵式乾衣機 ASD-100UA | Yahoo購物中心",
+          "outcome": "提供現售價格，不以通路上架startTs或評論日期推上市日"
         }
       ]
     }

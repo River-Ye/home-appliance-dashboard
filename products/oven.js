@@ -411,8 +411,8 @@
     "price": {
       "currency": "USD",
       "amount": 499.95,
-      "converted": 16295,
-      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-10-27 匯率換算"
+      "converted": 16218,
+      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-10-28 匯率換算"
     },
     "image": "https://assets.breville.com/cdn-cgi/image/width=1300,format=auto/BOV950/BOV950BSS1BUS1/pdp3.png?pdp=",
     "buyUrl": "https://www.breville.com/en-us/product/bov950",
@@ -512,7 +512,7 @@
       "converted": 8630,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-28 原購買頁主商品公開8630元；小家電夜貓獨享價，至2026-10-28 07:59:59+08:00；可加入購物車，未扣個人券、點數或信用卡回饋。"
+      "note": "2026-10-28 PChome同型號新品公開價 NT$8,630。OM27-M54主商品折扣8630、網路8990，10/28–10/29單件96折；可加入購物車，獨立結帳。不含折價券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ02A900I9LQ2/000001_1782379010.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ02-A900I9LQ2",
@@ -808,7 +808,7 @@
       "converted": 22886,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-28 改用同型號大地棕現售頁；公開單台滿711元95折價 NT$22,886，活動至2026-11-01 02:59:59（台灣時間）；基價 NT$24,090。無安裝，僅送到一樓；不扣會員券、點數或信用卡回饋。"
+      "note": "2026-10-28 Yahoo購物中心同型號新品公開價 NT$22,886。MWP329TST主商品24090滿711享95折22886；優惠至11/1 02:59:59，無安裝、僅送至一樓。不含折價券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ03A900IYX0L/000001_1750758530.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool-%E6%83%A0%E8%80%8C%E6%B5%A6Coloris%E7%B3%BB%E5%88%97-32%E5%85%AC%E5%8D%878%E5%90%88%E4%B8%80%E5%85%A8%E8%83%BD%E8%AE%8A%E9%A0%BB%E6%B0%A3%E7%82%B8%E8%92%B8%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-%E5%A4%A7%E5%9C%B0%E6%A3%95-MWP3-12006007.html",
@@ -908,10 +908,10 @@
     "name": "20L 多功能蒸氣氣炸烤箱",
     "price": {
       "currency": "TWD",
-      "amount": 9499,
-      "converted": 9499,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-28 原購買頁主商品公開9499元；小家電夜貓獨享價，至2026-10-28 07:59:59+08:00；可加入購物車，未扣個人券、點數或信用卡回饋。",
+      "amount": 9599,
+      "converted": 9599,
+      "confidence": "2026-10-28 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "note": "2026-10-28 PChome同型號新品公開價 NT$9,599。CSO-500TW主商品折扣9599、網路9999；10/28–10/29單件96折。不含折價券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900HF91A/000001_1768545220.jpg",
@@ -1893,11 +1893,11 @@
     "name": "蒸烘烤變頻微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 41724,
-      "converted": 41724,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "amount": 42163,
+      "converted": 42163,
+      "confidence": "2026-10-28 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-28 原購買頁主商品公開41724元；小家電夜貓獨享價，至2026-10-28 07:59:59+08:00；可加入購物車，未扣個人券、點數或信用卡回饋。"
+      "note": "2026-10-28 PChome同型號新品公開價 NT$42,163。SVAGO主商品折扣42163、網路43920，10/28–10/29單件96折；不是相關商品。不含折價券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900H5125/000001_1783054719.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM0G-A900H5125",
@@ -2295,8 +2295,8 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 13037,
-      "confidence": "2026-08-31 人工核對 SharkNinja 美國官方 MW101 公開可購主價 USD 399.99；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-10-27 匯率換算",
+      "converted": 12975,
+      "confidence": "2026-08-31 人工核對 SharkNinja 美國官方 MW101 公開可購主價 USD 399.99；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-10-28 匯率換算",
       "basis": "retailer_current"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/MW101_01.jpg",

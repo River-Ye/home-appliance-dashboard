@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-26",
+  "checkedAt": "2026-10-28",
   "methodVersion": 3,
   "policy": "每筆決策須保存 exact-model 跨站查詢與人工 attestation；每個搜尋候選須逐頁保存摘要、獨立作者數與具體排除理由，研究工具不得自行生成拒絕結論。",
   "results": [
@@ -94025,6 +94025,146 @@
           ]
         }
       ]
+    },
+    {
+      "id": "dishwasher-haier-h600",
+      "category": "dishwasher",
+      "brand": "Haier",
+      "model": "HDWE16-46SC6SA",
+      "name": "H600 16人份自動開門變頻獨嵌兩用洗碗機",
+      "status": "completed",
+      "reviewedAt": "2026-10-28",
+      "reviewBatch": "dishwasher",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT",
+        "Paine世界旅遊趣"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"HDWE16-46SC6SA\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22HDWE16-46SC6SA%22"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"HDWE16-46SC6SA\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22HDWE16-46SC6SA%22"
+        }
+      ],
+      "candidateDisposition": "HDWE16-46SC6SA：人工逐一檢閱Mobile01及PTT完整型號查詢，兩者皆未回傳exact-model原頁候選；另人工讀Paine原始開箱，完整型號只出現在台灣代理比較表，作者實際淘寶自裝W30S而非本型，不能轉算H600使用者故障。未成立同型號同問題六名獨立使用者且跨兩個原始網站門檻；這不代表完全沒有負評。",
+      "representativeSources": [
+        {
+          "platform": "Paine世界旅遊趣",
+          "title": "海爾變頻洗碗機 開箱心得｜自己淘寶自己安裝.超好用洗碗機開箱",
+          "url": "https://www.paine0602.com/haier-dishwasher-review/"
+        }
+      ],
+      "reviewerNote": "HDWE16-46SC6SA：人工逐一檢閱Mobile01及PTT完整型號查詢，兩者皆未回傳exact-model原頁候選；另人工讀Paine原始開箱，完整型號只出現在台灣代理比較表，作者實際淘寶自裝W30S而非本型，不能轉算H600使用者故障。未成立同型號同問題六名獨立使用者且跨兩個原始網站門檻；這不代表完全沒有負評。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "url": "https://www.paine0602.com/haier-dishwasher-review/",
+          "title": "海爾變頻洗碗機 開箱心得｜自己淘寶自己安裝.超好用洗碗機開箱",
+          "platform": "Paine世界旅遊趣",
+          "outcome": "excluded",
+          "exactModel": false,
+          "reviewedAt": "2026-10-28",
+          "sourceExcerpt": "台灣代理比較表列H600完整型號HDWE16-46SC6SA；文章的第一人稱開箱段落明確是淘寶海運、自安裝海爾W30S。",
+          "independentAuthors": 0,
+          "specificReason": "原作者自用機為W30S；H600只列規格比較，不是HDWE16-46SC6SA第一人稱故障，不能將不同型號的經驗計入本型報告。"
+        }
+      ],
+      "auditBatch": "catalog-2026-10-28-evening-h600"
+    },
+    {
+      "id": "dryer-sanlux-asd-100ua",
+      "category": "dryer",
+      "brand": "SANLUX",
+      "model": "ASD-100UA",
+      "name": "10公斤熱泵式乾衣機 ASD-100UA",
+      "status": "completed",
+      "reviewedAt": "2026-10-28",
+      "reviewBatch": "dryer",
+      "decision": "common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT",
+        "Yahoo購物中心"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"ASD-100UA\" (問題 OR 故障 OR 心得)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22ASD-100UA%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97)"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"ASD-100UA\" (問題 OR 故障 OR 心得)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22ASD-100UA%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97)"
+        }
+      ],
+      "candidateDisposition": "ASD-100UA：人工核對Mobile01兩頁及Yahoo原商品，保守採5+1=6位、2原站。gigl2短句不列正式人數；okasan實際退訂改Haier、cinnamon coffee引用、naposin生成轉述與兩PTT選購文均排除；不同症狀不合併為機械故障。",
+      "representativeSources": [
+        {
+          "platform": "Mobile01",
+          "title": "SANLUX 台灣三洋 10KG熱泵式乾衣機 ASD-100UA",
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&t=6756158"
+        },
+        {
+          "platform": "Mobile01",
+          "title": "SANLUX 台灣三洋 10KG熱泵式乾衣機 ASD-100UA (第2頁)",
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&p=2&t=6756158"
+        },
+        {
+          "platform": "Yahoo購物中心",
+          "title": "【SANLUX 台灣三洋】10KG 熱泵式乾衣機 ASD-100UA | Yahoo購物中心",
+          "url": "https://tw.buy.yahoo.com/gdsale/SANLUX%E5%8F%B0%E7%81%A3%E4%B8%89%E6%B4%8B-10%E5%85%AC%E6%96%A4%E7%86%B1%E6%B3%B5%E6%A9%9F%E4%B9%BE%E8%A1%A3%E6%A9%9F-ASD-100UA-10415249.html"
+        }
+      ],
+      "reviewerNote": "ASD-100UA：人工核對Mobile01兩頁及Yahoo原商品，保守採5+1=6位、2原站。gigl2短句不列正式人數；okasan實際退訂改Haier、cinnamon coffee引用、naposin生成轉述與兩PTT選購文均排除；不同症狀不合併為機械故障。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7253489",
+          "title": "這台乾衣機可以嗎?? 三洋 ASD-100UA",
+          "outcome": "excluded",
+          "reviewedAt": "2026-10-28",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "sourceExcerpt": "樓主詢問選購；naposin明示請A先生生成建議；桃酥奶兔述自用正向；半城煙沙述同事家使用。",
+          "specificReason": "此串的聲音說法為轉述/生成內容而非作者本人故障回報；自用作者為正面經驗，不增加同問題獨立回報人數。"
+        },
+        {
+          "platform": "PTT",
+          "url": "https://www.ptt.cc/bbs/E-appliance/M.1709317574.A.462.html",
+          "title": "[挑選] 平價熱泵式乾衣機(三洋/海爾)",
+          "outcome": "excluded",
+          "reviewedAt": "2026-10-28",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "sourceExcerpt": "wang1214比較ASD-100UA與Haier HPD09TW-GR，噪音為網路心得轉述，本人尚在選購。",
+          "specificReason": "樓主未自購ASD-100UA，價約24900為概數，20900福利品排除；推文其他Haier及洗衣機不套至此乾衣機，無可計第一人稱同型號噪音回報。"
+        },
+        {
+          "platform": "PTT",
+          "url": "https://www.ptt.cc/bbs/E-appliance/M.1735094434.A.407.html",
+          "title": "[挑選] 三洋乾衣機 媽媽樂跟熱泵式",
+          "outcome": "excluded",
+          "reviewedAt": "2026-10-28",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "sourceExcerpt": "CUTIEPIG比較SD-88U與ASD-100UA；家中聲音變大的是舊SD-86U；jeymay表示聽說很吵。",
+          "specificReason": "樓主舊機噪音不是ASD-100UA；jeymay是聽說而非本人使用，其他推文為熱泵通論，不納入獨立回報數。"
+        }
+      ],
+      "auditBatch": "catalog-2026-10-28-evening-sanlux"
     }
   ]
 }

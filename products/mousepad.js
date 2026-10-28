@@ -1172,10 +1172,11 @@
     "topPick": false,
     "price": {
       "currency": "TWD",
-      "amount": 4390,
-      "converted": 4390,
+      "amount": 4150,
+      "converted": 4150,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 Chrome實際選定台灣新品版本公開售價；不扣會員、信用卡、點數或滿額優惠。"
+      "confidence": "2026-10-28 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "note": "2026-10-28晚間原頁覆核：主商品RZ02-04490100-R3M1網路4390元，10/28–11/2周邊滿2000折240元，單件4150元；不把其他尺寸或相關商品當本款。不含個人券、點數或信用卡回饋。"
     },
     "installation": {
       "status": "not_stated",
@@ -1213,16 +1214,16 @@
     "releaseDate": "2022-08",
     "historicalLow": {
       "status": "found",
-      "amount": 4390,
+      "amount": 4150,
       "currency": "TWD",
-      "converted": 4390,
-      "sourceUrl": "https://biggo.com.tw/s/Razer%20Strider%20Chroma",
-      "sourceTitle": "BigGo Strider Chroma PChome90天價格歷史",
-      "evidenceSnippet": "Chrome歷史對話框：PChome DCBF0P-A900FPCZJ 最近90天最低與最高均4390元，2026-06-02 21:50記錄4390；原頁同RZ02-04490100-R3M1單品公開價4390。",
-      "sourceKind": "price_history",
+      "converted": 4150,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DCBF0P-A900FPCZJ",
+      "sourceTitle": "PChome 24h 購物：Razer Strider Chroma 幻彩版鼠墊 RZ02-04490100-R3M1",
+      "evidenceSnippet": "PChome 24h 購物於 2026-10-28 顯示同型號可信新品公開價 NT$4,150，低於既有史低 NT$4,390。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-08-31",
-      "note": "僅為截至2026-08-31可見90天區間的最低公開單品價，不宣稱首發以來全網最低。印度追蹤R3U1且品牌資料錯置、澳洲促銷未恢復完整SKU不採；不納入信用卡、點數及套裝。"
+      "checkedAt": "2026-10-28",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2905,7 +2906,7 @@
       "converted": 2290,
       "basis": "retailer_current",
       "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價的原因見註記。",
-      "note": "2026-10-27官方原頁仍預購，最快2026-10-30開始出貨；2290為預購參考價，非已確認現貨。"
+      "note": "2026-10-28晚間原頁覆核：exact943-001617官網2290元、可加車；本輪頁面未再顯示上午的預購及10/30交期文字，故不重申該日期，也不據此保證現貨或立即出貨。不含個人券、點數或信用卡回饋。"
     },
     "installation": {
       "status": "not_stated",
@@ -2913,7 +2914,7 @@
     },
     "image": "https://resource.logitechg.com/c_fill,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/pro-x-control-pdp/gallery/pro-x-control-mouse-pad-top-angle-gallery-1.png",
     "buyUrl": "https://store.logitech.tw/products/pro-x-control?variant=45539650568215",
-    "buyLabel": "查看官方預購／最快10/30出貨",
+    "buyLabel": "Logitech（交期待確認）",
     "specs": [
       "類型：布質控制向電競滑鼠墊，黑色943-001617；非POWERPLAY充電墊",
       "表面材質：精密針織布面",

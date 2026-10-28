@@ -114,10 +114,11 @@
     "name": "特仕版 2.0 人體工學椅",
     "price": {
       "currency": "TWD",
-      "amount": 9699,
-      "converted": 9699,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27上午覆核：原PChome主商品Ergohuman特仕版2.0 3D扶手仍9699，標10/27限定，可加車；16500為劃線價。"
+      "amount": 11900,
+      "converted": 11900,
+      "confidence": "2026-10-28 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "note": "2026-10-28晚間原頁覆核：主商品Ergohuman特仕版2.0(3D扶手)11900元，可加車；16500元為劃線價，9699元舊促銷未再呈現。不含個人券、點數或信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAKHPA900HEQ4H/000001_1760581993.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAKHP-A900HEQ4H",
@@ -604,7 +605,7 @@
       "converted": 11691,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-28人工覆核：原頁Fujin主商品12990元，公開單件9折11691元，10/27–11/2；可加車。未扣個人券、點數或信用卡回饋。"
+      "note": "2026-10-28晚間原頁覆核：Fujin主商品公開價11691TWD，本輪原頁可加入購物車；主商品價與舊參考一致，未套用相關商品或回饋。不含個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBT0KA900GSDTK/000001_1762771347.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBT0K-A900GSDTK",
@@ -791,11 +792,11 @@
       "converted": 13410,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-28人工覆核：原頁黑色RZ38-03720300-R3U1主商品14900元，公開單件9折13410元，10/27–11/2；沒有轉用相關綠色商品。未扣個人券、點數或信用卡回饋。"
+      "note": "2026-10-28晚間原頁覆核：黑色RZ38-03720300-R3U1公開單件9折13410元；現已明示預購，預計出貨2026/10/30–11/03，不能標現貨。不含個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAKFOA900BWWGS/000001_1755481797.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAKFO-A900BWWGS",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（預購）",
     "specs": [
       "電競椅",
       "高背",
@@ -1270,7 +1271,7 @@
       "converted": 3324,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-28人工覆核：原頁黑色OC2主商品3499元，公開滿2999享95折後3324元，10/27–10/31活動；可加車。未扣個人券、點數或信用卡回饋。"
+      "note": "2026-10-28晚間原頁覆核：OC2主商品公開價3324TWD，本輪原頁可加入購物車；主商品價與舊參考一致，未套用相關商品或回饋。不含個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DEBHA6A9007ZPEF/000001_1768553712.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEBHA6-A9007ZPEF",

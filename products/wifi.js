@@ -312,7 +312,7 @@
       "converted": 3515,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-28人工覆核：原Yahoo RT-BE58U V2主商品3699元，公開單件95折3515元；活動795994至10/28 08:00:59（台灣時間）。未扣個人券、點數或信用卡回饋。"
+      "note": "2026-10-28晚間原頁覆核：RT-BE58U V2主商品公開價3515TWD，本輪原頁可加入購物車；新活動【網路設備】精選品牌★快閃95折，滿1件享95折至2026-10-29T08:00:59+08:00，已替換上午到期活動。不含個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLPA900JKWXK/000001_1783555436.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/ASUS-%E8%8F%AF%E7%A2%A9-RT-BE58U-V2-BE3600-%E9%9B%99%E9%A0%BB-Wi-Fi-7-%E5%8F%AF%E6%93%B4%E5%85%85%E5%BC%8F%E8%B7%AF%E7%94%B1%E5%99%A8-12005854.html",
@@ -702,7 +702,7 @@
       "amount": 7590,
       "converted": 7590,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-28 原PChome Linksys MX6201-AH 單入公開價 NT$7,990；10/27–10/31 每滿3,000元折200元、最高折1,000元，單台折400元後 NT$7,590。未扣個人券、點數或信用卡回饋。",
+      "note": "2026-10-28晚間原頁覆核：MX6201-AH單入網路7990元；公開每滿3000折200、最高1000，單台7590元，10/27–10/31。不含個人券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFL7A900IJMF6/000001_1744352670.jpg",
@@ -891,9 +891,9 @@
     "price": {
       "currency": "USD",
       "amount": 208,
-      "converted": 6779,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-28人工覆核：原美國U7-Pro主商品189美元為展示基價，含強制附加費208美元且Add to Cart；保留208。"
+      "converted": 6747,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。；ExchangeRate-API 2026-10-28 匯率換算",
+      "note": "2026-10-28晚間原頁覆核：美國單台U7-Pro基價189美元，強制附加費後208美元，Add to Cart；不漏算附加費。不含個人券、點數或信用卡回饋。"
     },
     "image": "https://cdn.ecomm.ui.com/products/fa8dd4e4-36c8-4c79-a928-22c7bff2ce29/ab5bc8a4-6135-402e-a695-e3ea5e16d3e6.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-pro",
@@ -972,8 +972,8 @@
     "price": {
       "currency": "USD",
       "amount": 159,
-      "converted": 5182,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-10-27 匯率換算"
+      "converted": 5158,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-10-28 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/8e88b222-7a55-4cf0-8677-ae9b6347fe84/e16aa122-b5e5-4ffb-9f1a-27ee14d9ab3d.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u6-pro",
@@ -1089,8 +1089,8 @@
     "price": {
       "currency": "USD",
       "amount": 99,
-      "converted": 3227,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-10-27 匯率換算"
+      "converted": 3211,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-10-28 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/253cc208-4b09-4b2e-9d1a-7aa1e8f93507/49241c96-878f-4e40-8541-c2e89c1c5e6e.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-lite",
@@ -1565,8 +1565,8 @@
     "price": {
       "currency": "USD",
       "amount": 129,
-      "converted": 4204,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-10-27 匯率換算"
+      "converted": 4185,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-10-28 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/6d5c6141-e2e9-416a-b789-53e59416bb1a/853bc73b-f65b-4e59-a171-75c9a4a4615e.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u6-plus",
@@ -1669,9 +1669,9 @@
     "price": {
       "currency": "USD",
       "amount": 307,
-      "converted": 10006,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-28人工覆核：原美國U7-Pro-Max主商品279美元為展示基價，含強制附加費307美元且Add to Cart；保留307。"
+      "converted": 9959,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。；ExchangeRate-API 2026-10-28 匯率換算",
+      "note": "2026-10-28晚間原頁覆核：美國單台U7-Pro-Max基價279美元，強制附加費後307美元，Add to Cart；不漏算附加費。不含個人券、點數或信用卡回饋。"
     },
     "image": "https://cdn.ecomm.ui.com/products/350070a0-ae43-431b-b052-8e849c3b0a75/bad94693-bc54-4ab4-b060-9b972401941c.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-pro-max",
@@ -1768,7 +1768,7 @@
       "converted": 4741,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-28人工覆核：原Yahoo RT-BE82U主商品4990元，公開單件95折4741元；活動795994至10/28 08:00:59（台灣時間）。未扣個人券、點數或信用卡回饋。"
+      "note": "2026-10-28晚間原頁覆核：RT-BE82U主商品公開價4741TWD，本輪原頁可加入購物車；新活動【網路設備】精選品牌★快閃95折，滿1件享95折至2026-10-29T08:00:59+08:00，已替換上午到期活動。不含個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLPA900IV4B6/000001_1783556530.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/ASUS-%E8%8F%AF%E7%A2%A9-RT-BE82U-WiFi-7-%E9%9B%99%E9%A0%BB-BE6500-%E8%B7%AF%E7%94%B1%E5%99%A8-%E5%88%86%E4%BA%AB%E5%99%A8-11798654.html",
@@ -3390,7 +3390,7 @@
       "converted": 7139,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-28人工覆核：原PChome USG LITE 60AX主商品7139元可加車；不是相關加購價，亦未額外推算其他滿額活動低價。未扣個人券、點數或信用卡回饋。"
+      "note": "2026-10-28晚間原頁覆核：USG LITE 60AX主商品公開價7139TWD，本輪原頁可加入購物車；主商品價與舊參考一致，未套用相關商品或回饋。不含個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAF0IA900HO2DR/000001_1777023675.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAF0I-A900HO2DR",
@@ -3488,7 +3488,7 @@
       "amount": 7590,
       "converted": 7590,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-28 原PChome MSI RadiX AXE6600 公開價 NT$7,990；10/27–10/31 每滿3,000元折200元、最高折1,000元，單台折400元後 NT$7,590。未扣個人券、點數或信用卡回饋。",
+      "note": "2026-10-28晚間原頁覆核：RadiX AXE6600網路7990元；公開每滿3000折200、最高1000，單台7590元，10/27–10/31。不含個人券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFKSA900HEQVN/000001_1713512948.jpg",
@@ -3864,7 +3864,7 @@
       "amount": 7590,
       "converted": 7590,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-28 原PChome QNAP QHora-301W 公開價 NT$7,990；10/27–10/31 每滿3,000元折200元、最高折1,000元，單台折400元後 NT$7,590。未扣個人券、點數或信用卡回饋。",
+      "note": "2026-10-28晚間原頁覆核：QHora-301W網路7990元；公開每滿3000折200、最高1000，單台7590元，10/27–10/31。不含個人券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAG6JA900AUW3D/000001_1626400932.jpg",
@@ -4731,7 +4731,7 @@
       "converted": 26591,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-28人工覆核：原Yahoo GT-BE19000AI主商品27990元，公開單件95折26591元；活動795994至10/28 08:00:59（台灣時間）。未扣個人券、點數或信用卡回饋。"
+      "note": "2026-10-28晚間原頁覆核：ROG Rapture GT-BE19000AI主商品公開價26591TWD，本輪原頁可加入購物車；新活動【網路設備】精選品牌★快閃95折，滿1件享95折至2026-10-29T08:00:59+08:00，已替換上午到期活動。不含個人券、點數或信用卡回饋。"
     },
     "image": "https://dlcdnwebimgs.asus.com/gain/FF5DB299-9708-4259-ABF9-167FDC7166BD",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E6%98%8C%E9%81%8B%E7%9B%A3%E8%A6%96%E5%99%A8-ASUS-%E8%8F%AF%E7%A2%A9-ROG-Rapture-GT-BE19000AI-WiFi-7-%E4%B8%89%E9%A0%BB%E9%9B%BB%E7%AB%B6-12032656.html",
@@ -5141,7 +5141,7 @@
       "converted": 8484,
       "basis": "retailer_current",
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-28人工覆核：原台灣黑色U7-Pro-XG-B主商品7699為未含營業稅與附加費基價，含稅費8484元，黑色可加車；保留8484。"
+      "note": "2026-10-28晚間原頁覆核：台灣黑色U7-Pro-XG-B基價7699元，營業稅及強制附加費後8484元，加入購物車。不含個人券、點數或信用卡回饋。"
     },
     "image": "https://cdn.ecomm.ui.com/products/a433b9e5-4dd1-4784-adf8-9d12bcba4c87/45a6a9f0-1596-46f3-bebd-9f98c0dfde21.png",
     "buyUrl": "https://tw.store.ui.com/tw/zh-tw/products/u7-pro-xg?variant=u7-pro-xg-b",
@@ -5366,7 +5366,7 @@
       "converted": 12782,
       "basis": "retailer_current",
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-28人工覆核：原台灣U7-Pro-XGS主商品11599為未含稅費基價，含稅費12782元且Add to Cart；保留12782。"
+      "note": "2026-10-28晚間原頁覆核：台灣U7-Pro-XGS基價11599元，營業稅及強制附加費後12782元，Add to Cart。不含個人券、點數或信用卡回饋。"
     },
     "image": "https://cdn.ecomm.ui.com/products/1604d78c-6e51-4fe8-a8e5-0110cc332ba0/9ab19ab5-f76f-4d66-b91f-b31062fae149.png",
     "buyUrl": "https://tw.store.ui.com/tw/en/category/wifi-flagship/products/u7-pro-xgs",
@@ -5481,7 +5481,7 @@
       "converted": 5225,
       "basis": "retailer_current",
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-28人工覆核：原Yahoo M95主商品5499元，公開單件95折5225元；活動796037至10/28 08:00:59（台灣時間）。未扣個人券、點數或信用卡回饋。"
+      "note": "2026-10-28晚間原頁覆核：M95主商品公開價5225TWD，本輪原頁可加入購物車；新活動【網路設備】精選品牌★快閃95折，滿1件享95折至2026-10-29T08:00:59+08:00，已替換上午到期活動。不含個人券、點數或信用卡回饋。"
     },
     "installation": {
       "status": "excluded",

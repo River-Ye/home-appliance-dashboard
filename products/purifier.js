@@ -17,9 +17,11 @@
     "name": "5-10 坪綠淨力玩美雙禦空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 5900,
-      "converted": 5900,
-      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 5428,
+      "converted": 5428,
+      "confidence": "2026-10-28 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-28 晚間覆核同型號新品公開價 NT$5,428。清淨機限時92折 10/28 - 10/29 任選1件享92折。不含個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3EA900AU9PA/000001_1782107657.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU3E-A900AU9PA",
@@ -113,7 +115,7 @@
       "converted": 9190,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-28 PChome同型號新品公開價 NT$9,190。10/27–10/28單件92折，實際活動結束時間依通路。不含折價券、點數或信用卡回饋。"
+      "note": "2026-10-28 晚間覆核同型號新品公開價 NT$9,190。清淨機限時92折 10/28 - 10/29 任選1件享92折。不含個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAUE4A900I5SSZ/000001_1780654673.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUE4-A900I5SSZ",
@@ -307,7 +309,7 @@
       "converted": 7359,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-28 PChome同型號新品公開價 NT$7,359。10/27–10/28單件92折，實際活動結束時間依通路。不含折價券、點數或信用卡回饋。"
+      "note": "2026-10-28 晚間覆核同型號新品公開價 NT$7,359。清淨機限時92折 10/28 - 10/29 任選1件享92折。不含個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900GH5RL/000001_1781800112.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAC2O-A900GH5RL",
@@ -501,7 +503,7 @@
       "converted": 24830,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-28 PChome同型號新品公開價 NT$24,830。10/27–10/28單件92折，實際活動結束時間依通路。付款完成後預計10/30由廠商出貨。不含折價券、點數或信用卡回饋。"
+      "note": "2026-10-28 晚間覆核同型號新品公開價 NT$24,830。清淨機限時92折 10/28 - 10/29 任選1件享92折。不含個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAUE4A900IJCAP/000001_1780654528.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUE4-A900IJCAP",
@@ -599,7 +601,7 @@
       "converted": 18390,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-28 PChome同型號新品公開價 NT$18,390。10/27–10/28單件92折，實際活動結束時間依通路。不含折價券、點數或信用卡回饋。"
+      "note": "2026-10-28 晚間覆核同型號新品公開價 NT$18,390。清淨機限時92折 10/28 - 10/29 任選1件享92折。不含個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAUE4A900J9KNK/000001_1780654611.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUE4-A900J9KNK",
@@ -697,7 +699,7 @@
       "converted": 4590,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-28 PChome同型號新品公開價 NT$4,590。10/27–10/28單件92折，實際活動結束時間依通路。不含折價券、點數或信用卡回饋。"
+      "note": "2026-10-28 晚間覆核同型號新品公開價 NT$4,590。清淨機限時92折 10/28 - 10/29 任選1件享92折。不含個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAUE4A900I7DJ1/000001_1780654701.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUE4-A900I7DJ1",
@@ -795,7 +797,7 @@
       "converted": 7350,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-28 PChome同型號新品公開價 NT$7,350。10/27–10/28單件92折，實際活動結束時間依通路。不含折價券、點數或信用卡回饋。"
+      "note": "2026-10-28 晚間覆核同型號新品公開價 NT$7,350。清淨機限時92折 10/28 - 10/29 任選1件享92折。不含個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAUE4A900I7DN1/000001_1780654653.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUE4-A900I7DN1",
@@ -893,7 +895,7 @@
       "converted": 16550,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-28 PChome同型號新品公開價 NT$16,550。10/27–10/28單件92折，實際活動結束時間依通路。不含折價券、點數或信用卡回饋。"
+      "note": "2026-10-28 晚間覆核同型號新品公開價 NT$16,550。清淨機限時92折 10/28 - 10/29 任選1件享92折。不含個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAUE4A900J40NE/000001_1780654570.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUE4-A900J40NE",
@@ -1086,7 +1088,7 @@
       "amount": 25900,
       "converted": 25900,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-28 Yahoo同型號商品已停售；NT$25,900僅保留舊參考價，並非可購現價。通路停售不代表原廠停產。"
+      "note": "2026-10-28 晚間原頁仍已停售；NT$25,900保留舊參考價，非可購現價。通路停售不代表原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3CA900I7ORK/000001_1782810487.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Dyson-Purifier-Hot-Cool-De-NOx-%E7%94%B2%E9%86%9BNOx-%E5%81%B5%E6%B8%AC%E6%B6%BC%E6%9A%96%E7%A9%BA%E6%B0%A3%E6%B8%85%E6%B7%A8%E6%A9%9F-HP1-12000848.html",
@@ -1276,10 +1278,10 @@
     "name": "Purifier Cool De-NOx 甲醛 NOx 偵測涼風空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 20900,
-      "converted": 20900,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-28 Yahoo購物中心同型號新品公開價 NT$20,900。本商品為預購，交期待確認。不含折價券、點數或信用卡回饋。",
+      "amount": 20064,
+      "converted": 20064,
+      "confidence": "2026-10-28 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "note": "2026-10-28 晚間覆核同型號新品公開價 NT$20,064。單件活動價有效至2026-10-29 07:59:59（台灣時間）。本商品為預購；交期待確認。不含個人券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3CA900HTKRG/000001_1767758629.jpg",
@@ -1378,7 +1380,7 @@
       "converted": 4590,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-28 PChome同型號新品公開價 NT$4,590。10/27–10/28單件92折，實際活動結束時間依通路。不含折價券、點數或信用卡回饋。"
+      "note": "2026-10-28 晚間覆核同型號新品公開價 NT$4,590。清淨機限時92折 10/28 - 10/29 任選1件享92折。不含個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900GD1ZV/000001_1781800174.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAC2O-A900GD1ZV",
@@ -1764,7 +1766,7 @@
       "converted": 10110,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-28 PChome同型號新品公開價 NT$10,110。10/27–10/28單件92折，實際活動結束時間依通路。不含折價券、點數或信用卡回饋。"
+      "note": "2026-10-28 晚間覆核同型號新品公開價 NT$10,110。清淨機限時92折 10/28 - 10/29 任選1件享92折。不含個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900J7SBO/000001_1781799851.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAC2O-A900J7SBO",
@@ -2254,7 +2256,7 @@
       "converted": 7350,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-28 PChome同型號新品公開價 NT$7,350。10/27–10/28單件92折，實際活動結束時間依通路。不含折價券、點數或信用卡回饋。"
+      "note": "2026-10-28 晚間覆核同型號新品公開價 NT$7,350。清淨機限時92折 10/28 - 10/29 任選1件享92折。不含個人券、點數或信用卡回饋。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAUFVA900JZR3M/000001_1785203322.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUFV-A900JZR3M",
@@ -2573,7 +2575,7 @@
       "converted": 2862,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-28 PChome同型號新品公開價 NT$2,862。10/27–10/28單件92折，實際活動結束時間依通路。本商品為預購，最晚2026/11/25出貨。不含折價券、點數或信用卡回饋。"
+      "note": "2026-10-28 晚間覆核同型號新品公開價 NT$2,862。清淨機限時92折 10/28 - 10/29 任選1件享92折。本商品為預購；最晚2026/11/25出貨。不含個人券、點數或信用卡回饋。"
     },
     "installation": {
       "status": "not_stated",
