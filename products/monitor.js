@@ -400,10 +400,10 @@
     "name": "27 型 FHD 144Hz IPS 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 2990,
-      "converted": 2990,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27上午重新核對PChome主商品公開價2990元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。",
+      "amount": 2840,
+      "converted": 2840,
+      "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "note": "2026/10/29查核之PChome公開單件95折活動價；活動至2026/10/29 23:59:59，排除點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABPDA900JTLEG/000001_1773715062.jpg",
@@ -699,10 +699,10 @@
     "name": "27 型 QHD 260Hz IPS 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 4288,
-      "converted": 4288,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27上午重新核對PChome主商品公開價4288元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。",
+      "amount": 4073,
+      "converted": 4073,
+      "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "note": "2026/10/29查核之PChome公開單件95折活動價；活動至2026/10/29 23:59:59，排除點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABQRA900JJPCW/000001_1765505711.jpg",
@@ -800,10 +800,10 @@
     "name": "27 型 2K 144Hz IPS 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 3888,
-      "converted": 3888,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27上午重新核對PChome主商品公開價3888元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。",
+      "amount": 3693,
+      "converted": 3693,
+      "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "note": "2026/10/29查核之PChome公開單件95折活動價；活動至2026/10/29 23:59:59，排除點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABQQA900K2OE1/000001_1780474188.jpg",
@@ -1891,10 +1891,11 @@
     "name": "27 型 2K IPS USB-C UltraSharp 螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 13888,
-      "converted": 13888,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27上午覆核：原PChome主商品DELL U2724D-4Y仍13888元，可加車，保留4年版。"
+      "amount": 13193,
+      "converted": 13193,
+      "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "note": "2026/10/29查核之PChome公開單件95折活動價；活動至2026/10/29 23:59:59，排除點數與信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOMA900GS1DN/000001_1699955230.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABOM-A900GS1DN",
@@ -2568,10 +2569,10 @@
     "name": "27 型 4K 160Hz IPS 雙模電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 6911,
-      "converted": 6911,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-28晚間原頁覆核：VX2740D-4K主商品公開價6911TWD，本輪原頁可加入購物車；主商品價與舊參考一致，未套用相關商品或回饋。不含個人券、點數或信用卡回饋。",
+      "amount": 6565,
+      "converted": 6565,
+      "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "note": "2026/10/29查核之PChome公開單件95折活動價；活動至2026/10/29 23:59:59，排除點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOIA900K129O/000001_1779250013.jpg",
@@ -2608,15 +2609,15 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 6911,
+      "amount": 6565,
       "currency": "TWD",
-      "converted": 6911,
+      "converted": 6565,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DSABOI-A900K129O",
       "sourceTitle": "PChome 24h 購物：ViewSonic VX2740D-4K 雙模電競螢幕(27型/4K/160Hz/1ms/HDMI/DP/IPS)",
-      "evidenceSnippet": "PChome 24h 購物於 2026-10-28 顯示同型號可信新品公開價 NT$6,911，低於既有史低 NT$7,588。",
+      "evidenceSnippet": "PChome 24h 購物於 2026-10-29 顯示同型號可信新品公開價 NT$6,565，低於既有史低 NT$6,911。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
@@ -2669,10 +2670,10 @@
     "name": "27 型 QHD 260Hz IPS 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 5088,
-      "converted": 5088,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27上午重新核對PChome主商品公開價5088元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。",
+      "amount": 4833,
+      "converted": 4833,
+      "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "note": "2026/10/29查核之PChome公開單件95折活動價；活動至2026/10/29 23:59:59，排除點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABQIA900J82S0/000001_1757486726.jpg",
@@ -2770,10 +2771,10 @@
     "name": "27 型 2K 180Hz Mini LED 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 7111,
-      "converted": 7111,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27上午重新核對PChome主商品公開價7111元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。",
+      "amount": 6755,
+      "converted": 6755,
+      "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "note": "2026/10/29查核之PChome公開單件95折活動價；活動至2026/10/29 23:59:59，排除點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABTAA900JBMD6/000001_1759809326.jpg",
@@ -2956,10 +2957,10 @@
     "name": "32 型 4K 240Hz OLED Alienware 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 33888,
-      "converted": 33888,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27上午重新核對PChome主商品公開價33888元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。",
+      "amount": 32193,
+      "converted": 32193,
+      "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "note": "2026/10/29查核之PChome公開單件95折活動價；活動至2026/10/29 23:59:59，排除點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOKA900HB1B5/000001_1710325731.jpg",
@@ -3043,9 +3044,11 @@
     "name": "34 型 21:9 UWQHD 120Hz 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 5499,
-      "converted": 5499,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 5999,
+      "converted": 5999,
+      "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "basis": "retailer_current",
+      "note": "2026/10/29原商品頁公開售價；不含需另達門檻的折價券、信用卡回饋與點數。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABTEA900JE4G6/000001_1761734629.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABTE-A900JE4G6",
@@ -3143,10 +3146,10 @@
     "name": "34 型 21:9 WQHD 120Hz 1500R 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 7490,
-      "converted": 7490,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27上午重新核對PChome主商品公開價7490元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。",
+      "amount": 7115,
+      "converted": 7115,
+      "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "note": "2026/10/29查核之PChome公開單件95折活動價；活動至2026/10/29 23:59:59，排除點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABSZA900JOMA1/000001_1769572714.jpg",
@@ -3545,10 +3548,10 @@
     "name": "34 型 UWQHD 280Hz QD-OLED 曲面電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 26888,
-      "converted": 26888,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27上午重新核對PChome主商品公開價26888元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。",
+      "amount": 25543,
+      "converted": 25543,
+      "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "note": "2026/10/29查核之PChome公開單件95折活動價；活動至2026/10/29 23:59:59，排除點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABKBA900K0YA0/000001_1779246107.jpg",
@@ -3747,10 +3750,10 @@
     "name": "34 型 Porsche Design 240Hz QD-OLED 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 28800,
-      "converted": 28800,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27上午重新核對PChome主商品公開價28800元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。",
+      "amount": 27360,
+      "converted": 27360,
+      "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "note": "2026/10/29查核之PChome公開單件95折活動價；活動至2026/10/29 23:59:59，排除點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABQRA900K5BI4/000001_1782298311.jpg",
@@ -4453,10 +4456,10 @@
     "name": "49 型 DQHD QD-OLED 144Hz Type-C 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 32900,
-      "converted": 32900,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27上午重新核對PChome主商品公開價32900元，目前未另列更低公開折扣價，未扣個人券、點數及信用卡回饋。",
+      "amount": 31255,
+      "converted": 31255,
+      "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "note": "2026/10/29查核之PChome公開單件95折活動價；活動至2026/10/29 23:59:59，排除點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABPDA900H9PEB/000001_1709257135.jpg",
@@ -6560,7 +6563,7 @@
       "converted": 18894,
       "basis": "retailer_current",
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-28晚間原頁覆核：RD320U主商品公開價18894TWD，本輪原頁可加入購物車；新活動深夜亮點！人氣螢幕限時優惠95折，滿1件享95折至2026-10-29T07:59:59+08:00，已替換上午到期活動。不含個人券、點數或信用卡回饋。"
+      "note": "2026/10/29查核Yahoo同型號新品公開單件活動價；活動至2026-10-29T07:59:59+08:00，不含折價券、信用卡回饋或點數。"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/A547B09451-SP-17883815.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=11255959",

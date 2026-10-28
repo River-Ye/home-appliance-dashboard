@@ -205,10 +205,11 @@
     "name": "免清洗多功能破壁調理機",
     "price": {
       "currency": "TWD",
-      "amount": 10355,
-      "converted": 10355,
-      "confidence": "2026-10-28 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
-      "basis": "retailer_current"
+      "amount": 10900,
+      "converted": 10900,
+      "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-29 DJ12M-K8S主商品10900元，無原10355元折扣；有送P幣不折入價格。 未扣個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY4YA900HB8CN/000001_1780309793.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAY4Y-A900HB8CN",
@@ -1743,10 +1744,10 @@
     "name": "多功能變頻輕音冷熱調理機",
     "price": {
       "currency": "TWD",
-      "amount": 8540,
-      "converted": 8540,
-      "confidence": "2026-10-28 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
-      "note": "2026-10-28 原PChome L18M-Y6G 同型號主商品公開 NT$8,990，可加入購物車；未扣個人券、點數或信用卡回饋。",
+      "amount": 8990,
+      "converted": 8990,
+      "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "note": "2026-10-29 L18M-Y6G主商品8990元，無原8540元折扣；有送P幣不折入價格。 未扣個人券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY4YA900I3ILD/000001_1783328441.jpg",
@@ -2424,6 +2425,103 @@
         }
       ]
     }
-  }
+  },
+{
+  "id": "blender-ninja-bc251twiv1",
+  "category": "blender",
+  "brand": "Ninja",
+  "model": "BC251TWIV1",
+  "name": "BLAST MAX 650ml 無線隨行調理機（象牙白台灣公司貨）",
+  "rank": 26,
+  "topPick": false,
+  "budget": "value",
+  "channel": "tw",
+  "price": {
+    "currency": "TWD",
+    "amount": 3590,
+    "converted": 3590,
+    "basis": "retailer_current",
+    "confidence": "2026-10-29 台灣代理官網選定BC251TWIV1象牙白3590元，人工核對原頁價格與可購按鈕。",
+    "note": "台灣代理官網象牙白單機公開3590元；未扣電子報95折券、首購禮或滿5000折500，其他顏色不另計款數。"
+  },
+  "installation": {
+    "status": "not_stated",
+    "note": "無固定安裝需求；依原廠說明使用隨附專用充電器，底座保持乾燥。官方頁未列額外到府安裝服務。"
+  },
+  "image": "https://sharkninja.tw/cdn/shop/files/4e804fc8f9f386f54e43f99525ac7d2f.jpg?v=1776770267",
+  "buyUrl": "https://sharkninja.tw/products/blast-max-bc251?variant=44277704523818",
+  "buyLabel": "SharkNinja台灣代理官網（象牙白）",
+  "specs": [
+    "類型：充電式無線隨行調理機；台灣完整SKU BC251TWIV1，象牙白單機",
+    "容量：杯身標稱650ml；實際攪拌依杯上MAX FILL最高裝填線，不將杯身滿杯容量視為可裝填量",
+    "攪打：立體八葉不鏽鋼CrushBlade刀片；BLEND攪拌、CRUSH壓碎與SMOOTHIE果昔三模式，BLEND約30秒",
+    "續航／充電：原廠標示滿電約20次攪打，依食材硬度及模式而變；說明書標示充飽約3小時，電池不可自行更換",
+    "用途限制：冷涼果昔、蛋白飲與加液體碎冰；避免25°C以上熱飲、碳酸／起泡液體，不適用乾攪或研磨，不能加熱煮熟食材",
+    "尺寸：依官方原文底寬9.5 × 瓶寬11.5 × 高31.5 cm，不自行改成寬深高軸序",
+    "重量：官方標示1.1 kg；不採通路6.2kg或商城後台790g等衝突欄位",
+    "供電：電池11.1V DC；原廠台灣頁明示專用充電器輸入100–240V、輸出13.3V DC／0.75A，市電頻率未標示；不以充電輸出推算馬達功率",
+    "清潔：杯身與刀座為一體不可拆刀；從馬達底座取下杯及蓋後清洗，可放洗碗機上層且不可加熱烘乾，馬達底座不可碰水／浸水",
+    "配件：含提把飲用蓋、650ml含刀片調理杯、充電馬達底座、原廠專用充電線、食譜書與說明書；不可用BC151 USB-C線替代",
+    "售後：台灣總代理新加坡商維諾瓦台灣分公司；一年有限保固，客服0800-000-605，保固範圍及耗損零件除外依說明書"
+  ],
+  "description": "補充既有台式高功率破壁機以外的單人冷飲、健身與外出用途。台灣官方明確對照BC151，BC251升級八葉刀座、杯身容量及續航；本款不能加熱煮熟食材，也不能代替大容量台式機的連續重負載用途。",
+  "pros": [
+    "無線使用，調理杯可從馬達底座取下帶走",
+    "三模式與八葉刀座，官方明示較BC151容量及續航升級",
+    "台灣代理官網可選定完整SKU，具中文說明書與在地一年有限保固"
+  ],
+  "cons": [
+    "杯身650ml是標稱滿杯容量，實際裝填須遵守MAX FILL",
+    "不可熱攪、乾磨或加熱料理，馬達底座不可水洗",
+    "需原廠專用充電器，不能沿用BC151的USB-C充電線；內建電池不可自行更換"
+  ],
+  "bestFor": "需要在家先製作一人份冷涼果昔／蛋白飲、再把杯身帶往辦公室或健身房的人。",
+  "recommendation": "作為無線隨行與小份量冷飲的補充選擇；保留既有Ninja BN701、TB401TW及其他台式機，依是否需加熱、大容量與長時間攪打選擇。不是以2026上市年份推定新款，也不因顏色另增重複商品。",
+  "releaseDate": "找不到",
+  "historicalLow": {
+    "status": "not_found",
+    "amount": null,
+    "currency": "TWD",
+    "converted": null,
+    "sourceUrl": "",
+    "sourceTitle": "",
+    "evidenceSnippet": "",
+    "sourceKind": "not_found",
+    "confidence": "not_found",
+    "checkedAt": "2026-10-29",
+    "note": "人工核對完整象牙白SKU BC251TWIV1官網3590元，並查BC251TWIV1／BC251TW在FindPrice及飛比的價格線索；FindPrice僅基礎TW型號當前索引，飛比直連失敗，完整SKU兩站搜尋無歷史存證。PChome3410元為基礎型號多色頁且API Qty0，不證本選定SKU可購或歷史低點；不以本次現價、海外型號、個人券、點數或回饋製造史低。"
+  },
+  "issueResearch": {
+    "status": "no_common_issue",
+    "checkedAt": "2026-10-29",
+    "summary": "截至查核日，查無達門檻的集中負評／災情",
+    "issues": [],
+    "checkedSources": [
+      {
+        "platform": "Mobile01",
+        "targetHost": "mobile01.com",
+        "query": "site:mobile01.com \"BC251TWIV1\" (問題 OR 故障 OR 心得)",
+        "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22BC251TWIV1%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97%29"
+      },
+      {
+        "platform": "PTT",
+        "targetHost": "ptt.cc",
+        "query": "site:ptt.cc \"BC251TWIV1\" (問題 OR 故障 OR 心得)",
+        "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22BC251TWIV1%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97%29"
+      }
+    ]
+  },
+  "score": 84,
+  "voltage": "電池11.1V DC；台灣原廠專用充電器100–240V，輸出13.3V DC／0.75A，市電頻率未標示；僅使用隨附台灣公司貨原廠充電器，不可用BC151 USB-C線代替。",
+  "warranty": "台灣總代理新加坡商維諾瓦台灣分公司一年有限保固，適用原購買人與正常家庭使用；說明書請於購買後10日內註冊並保留憑證，杯、蓋、刀片等耗損零件依條款。客服0800-000-605。",
+  "tags": [
+    "無線隨行",
+    "單人冷飲",
+    "650ml標稱",
+    "三模式",
+    "台灣公司貨",
+    "非加熱型"
+  ]
+}
 ]);
 })();

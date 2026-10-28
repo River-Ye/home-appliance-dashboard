@@ -17,10 +17,10 @@
     "name": "WASHLET 溫水洗淨便座",
     "price": {
       "currency": "TWD",
-      "amount": 9690,
-      "converted": 9690,
-      "confidence": "2026-10-28 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
-      "note": "2026-10-28 原PChome同型號主商品公開 NT$9,900，可加入購物車；未扣個人券、點數或信用卡回饋。",
+      "amount": 9900,
+      "converted": 9900,
+      "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "note": "2026-10-29 TCF8342TW S2主商品公開9900元（劃線18500元），舊9690元折扣已不在主商品，可加入購物車。 未扣個人券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAL2NA900HYYVV/000001_1732173829.jpg",

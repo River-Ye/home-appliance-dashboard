@@ -1414,7 +1414,7 @@
       "amount": 4591,
       "converted": 4591,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-28 Yahoo購物中心同型號新品公開價 NT$4,591。單品4990滿888即享92折，優惠至2026-10-29 07:59:59。不含折價券、點數或信用卡回饋。",
+      "note": "2026-10-29 EMS5110/02主商品4990元，公開滿888享92折4591元，優惠至2026-10-29 07:59:59。 未扣個人券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/69fb8a2ae4-Gd-11322933.jpg",
@@ -1523,7 +1523,7 @@
       "amount": 5990,
       "converted": 5990,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-28 原Yahoo官方直營同款星光銀EM450.M公開5990元、可立即購買/加入購物車、一年原廠保固；未扣回饋。",
+      "note": "2026-10-29 DeLonghi官方直營EM450.M主商品公開5990元、可立即購買。 未扣個人券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAT03A900J5HMT/000007_1755771859.jpg",
@@ -1740,7 +1740,7 @@
       "converted": 12800,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-28 原momo標11/1 00:00開賣，預告8500元尚不可購；保留舊12800元參考，不當今日現價。"
+      "note": "2026-10-29 原momo明示11/1 00:00開賣，8500元為尚未開賣預告價；保留既有12800元參考，不當作今日可購現價。 未扣個人券、點數或信用卡回饋。"
     },
     "image": "https://storage.googleapis.com/uni-splendor.appspot.com/images/p/4ef71aab-221e-42be-80b7-67676515bb0d.png",
     "buyUrl": "https://www.momoshop.com.tw/product/14547707",
@@ -2064,7 +2064,7 @@
       "amount": 6990,
       "converted": 6990,
       "confidence": "2026-10-28 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
-      "note": "2026-10-27 PChome exact GL-5700主商品公開12800元；頁內6990元為其他C3推薦商品，不作本型價格。",
+      "note": "2026-10-29 GL-5700爵士灰主商品明示公開任選1件6990元（網路12800元），活動10/28–10/31；6990元亦出現在相關C3商品，但本次主商品有獨立6990元折扣證據。 未扣個人券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAT09A900IXUVD/000001_1769478978.jpg",
@@ -2281,7 +2281,7 @@
       "converted": 32000,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-28 原momo標11/1 00:00開賣，預告28500元尚不可購；保留舊32000元參考，不當今日現價。"
+      "note": "2026-10-29 原momo明示11/1 00:00開賣，28500元為尚未開賣預告價；保留既有32000元參考，不當作今日可購現價。 未扣個人券、點數或信用卡回饋。"
     },
     "image": "https://storage.googleapis.com/uni-splendor.appspot.com/images/p/6cf71d58-a653-465a-a6c3-7089f7f37314.png",
     "buyUrl": "https://www.momoshop.com.tw/product/14956869",

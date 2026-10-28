@@ -3386,6 +3386,106 @@
         }
       ]
     }
-  }
+  },
+{
+  "id": "keyboard-keychron-q11-ultra-red",
+  "category": "keyboard",
+  "brand": "Keychron",
+  "model": "KBKCQ11UM1",
+  "name": "Q11 Ultra 8K 分離式三模機械鍵盤（黑色英文 Silk POM紅軸）",
+  "variantFamily": "Q11 Ultra 8K",
+  "type": "mechanical",
+  "rank": 35,
+  "score": 80,
+  "budget": "premium",
+  "channel": "tw",
+  "price": {
+    "currency": "TWD",
+    "amount": 6990,
+    "converted": 6990,
+    "basis": "retailer_current",
+    "confidence": "2026/10/29 Chrome重開官方variant49296165470467，確認KBKCQ11UM1黑色英文SilkPOM紅軸6990元、加車按鈕可用；台灣官方一般出貨說明1–2工作天，實際交期依原店。"
+  },
+  "installation": {
+    "status": "not_stated",
+    "note": "桌面USB/無線鍵盤無到府施工；需預留左右分離、雙邊USB充電與滑鼠空間。右半不能獨立使用，改裝前先確認台灣保固。"
+  },
+  "image": "https://www.keychron.com.tw/cdn/shop/files/Q11Ultra-1.jpg?v=1784714058&width=800",
+  "buyUrl": "https://www.keychron.com.tw/products/keychron-q11-ultra-8k-wireless-custom-mechanical-keyboard?variant=49296165470467",
+  "buyLabel": "Keychron Taiwan 官方商城",
+  "specs": [
+    "類型：75%分離式三模機械鍵盤，左右2.4GHz無線同步；完整組裝成品非裸套",
+    "配列：英文75%分離式89鍵，左右旋鈕與M1–M5巨集鍵；無獨立數字區",
+    "鍵帽語言／材質：原生英文；KSA雙色注塑PBT不透光，含Mac／Windows替換鍵帽",
+    "軸體：Keychron Silk POM紅軸；預潤線性機械軸，黑色英文KBKCQ11UM1版",
+    "熱插拔：支援3pin／5pin MX機械軸；PC定位板與螺絲式PCB衛星軸",
+    "連線：USB-C有線、USB-A 2.4GHz接收器、Bluetooth5.3；藍牙最多3裝置；右半必須連接左半使用",
+    "回報率：有線／2.4GHz最高8000Hz，官方手冊預設1000Hz需自行設定；藍牙125Hz，不等於實測端到端延遲",
+    "供電／續航：USB5V／1A；左右各2000mAh鋰聚合物電池，各約2小時充滿；8K／2.4GHz關背光最長160小時，實際依使用條件",
+    "系統／軟體：Windows／macOS／Linux；ZMK、Keychron Launcher，需Chrome／Edge／Opera與有線連接；左右需分別更新韌體，右半設定由左半同步",
+    "尺寸：查不到",
+    "重量：1724 ± 10 g",
+    "隨附配件：USB-C線、USB-A對USB-C轉接器、接收器延長座、USB-A2.4GHz接收器、拔鍵／拔軸器、螺絲起子與Mac／Windows鍵帽；未列USB市電變壓器"
+  ],
+  "description": "保留傳統列位與75%功能鍵區，將左右兩半改以無線同步，適合想自由拉開雙手及在中間放繪圖板的桌面。相較舊Q11的有線QMK／1K，Q11Ultra改採ZMK三模／最高8K；收錄台灣英文SilkPOM紅軸完整成品，並保留既有鍵盤供比較。",
+  "pros": [
+    "左右兩半無橋接線，能依肩寬調整並讓出桌面中央空間",
+    "全金屬、KSA雙色PBT、MX熱插拔與雙旋鈕，含完整接收配件",
+    "台灣官方6990元與一年有限保固；有線／2.4GHz最高8K並支援藍牙三裝置"
+  ],
+  "cons": [
+    "英文高鍵帽、約1.72kg且無數字區；官方尺寸軸序未明，完整尺寸查不到",
+    "右半不能獨立使用，左右需分別更新韌體；8K與分離佈局需要設定及適應",
+    "海外同Q11Ultra家族可見右半掉字／連線及巨集個案；未核同台灣紅軸版本，不能併成六人兩站災情，購前先核韌體並在鑑賞期逐模測試"
+  ],
+  "bestFor": "需要保留傳統75%配列、想拉開雙手並在中央擺繪圖板，能接受英文高鍵帽與分離式設定的辦公使用者。",
+  "recommendation": "分離式辦公參考：6990元買到左右無線同步與金屬機身，但海外家族連線回報與尺寸不明需納入取捨。到貨先測連續快速輸入、左右重連、三種連線及常用巨集，再考慮客製改裝；不列為Top Pick，也不以最高8K保證遊戲表現。",
+  "tags": [
+    "台灣公司貨",
+    "辦公推薦",
+    "分離式",
+    "英文鍵帽",
+    "三模",
+    "8K回報",
+    "熱插拔"
+  ],
+  "voltage": "USB5V／1A充電或有線供電；官方手冊建議5V1A變壓器或USB3.0埠，左右各2000mAh，變壓器未列隨附，不可直接接市電。",
+  "warranty": "Keychron Taiwan一年／12個月有限保固；Q系列製造瑕疵以更換故障零件為主，拆卸／不當改裝可能不保。保存台灣購買證明，依台灣官方support@keychron.com.tw條款申請。",
+  "releaseDate": "找不到",
+  "historicalLow": {
+    "status": "not_found",
+    "amount": null,
+    "currency": "TWD",
+    "converted": null,
+    "sourceUrl": "",
+    "sourceTitle": "",
+    "evidenceSnippet": "",
+    "sourceKind": "not_found",
+    "confidence": "not_found",
+    "checkedAt": "2026-10-29",
+    "note": "未找到台灣黑色英文KBKCQ11UM1 SilkPOM紅軸完整成品可靠歷史最低價；官方同SKU6990元為本次現價，不能直接推史低。另查完整SKU的BigGo/FindPrice價格索引未見可採歷史紀錄；澳洲同SKU不同區域銷售/保固及全球不同軸體不移植。"
+  },
+  "issueResearch": {
+    "status": "no_common_issue",
+    "checkedAt": "2026-10-29",
+    "summary": "截至查核日，查無達門檻的集中負評／災情",
+    "issues": [],
+    "checkedSources": [
+      {
+        "platform": "Mobile01",
+        "targetHost": "mobile01.com",
+        "query": "Keychron \"KBKCQ11UM1\" \"Q11 Ultra\" site:mobile01.com",
+        "queryUrl": "https://www.google.com/search?q=Keychron%20%22KBKCQ11UM1%22%20%22Q11%20Ultra%22%20site%3Amobile01.com"
+      },
+      {
+        "platform": "Reddit",
+        "targetHost": "reddit.com",
+        "query": "Keychron \"KBKCQ11UM1\" \"Q11 Ultra\" site:reddit.com",
+        "queryUrl": "https://www.google.com/search?q=Keychron%20%22KBKCQ11UM1%22%20%22Q11%20Ultra%22%20site%3Areddit.com"
+      }
+    ]
+  },
+  "topPick": false
+}
 ]);
 })();

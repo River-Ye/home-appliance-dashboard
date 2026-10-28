@@ -1,20 +1,20 @@
 {
   "summary": {
-    "checkedAt": "2026-10-28T14:19:21.094Z",
-    "total": 1222,
+    "checkedAt": "2026-10-29T07:20:21.654+08:00",
+    "total": 1224,
     "researchedThisRun": 2,
     "found": 351,
-    "missing": 871,
+    "missing": 873,
     "byConfidence": {
       "official": 188,
-      "not_found": 868,
+      "not_found": 870,
       "retailer_explicit": 23,
       "credible_article": 52,
       "high": 71,
       "medium": 17,
       "unknown": 3
     },
-    "scopeNote": "2026-10-28晚間新增H600及ASD-100UA上市查核；既有1220筆上市證據與真實逐筆日期保留。"
+    "scopeNote": "2026-10-29僅新增Ninja BC251TWIV1與Keychron KBKCQ11UM1的上市查核；既有1222筆逐筆研究與日期原樣保留。"
   },
   "results": [
     {
@@ -37458,6 +37458,78 @@
           "url": "https://tw.buy.yahoo.com/gdsale/SANLUX%E5%8F%B0%E7%81%A3%E4%B8%89%E6%B4%8B-10%E5%85%AC%E6%96%A4%E7%86%B1%E6%B3%B5%E6%A9%9F%E4%B9%BE%E8%A1%A3%E6%A9%9F-ASD-100UA-10415249.html",
           "title": "【SANLUX 台灣三洋】10KG 熱泵式乾衣機 ASD-100UA | Yahoo購物中心",
           "outcome": "提供現售價格，不以通路上架startTs或評論日期推上市日"
+        }
+      ]
+    },
+    {
+      "id": "blender-ninja-bc251twiv1",
+      "category": "blender",
+      "brand": "Ninja",
+      "model": "BC251TWIV1",
+      "name": "BLAST MAX 650ml 無線隨行調理機（象牙白台灣公司貨）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"BC251TWIV1\" 上市 發表 台灣",
+      "sourceKind": "not_found_after_manual_exact_model_review",
+      "reason": "已人工查台灣官方選定SKU頁、其BC251TW官方說明書、官方新品類別及完整SKU／基礎TW型號上市查詢，未找到明確連結本型台灣上市／發售的日期。官方商品／圖片created_at、手冊檔案日期、原始評論日期與海外BC251型號年份皆不採為上市日。",
+      "checkedAt": "2026-10-29",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://sharkninja.tw/products/blast-max-bc251?variant=44277704523818",
+          "title": "SharkNinja台灣官方BC251TWIV1象牙白",
+          "outcome": "確認型號、現列與規格；無明確台灣上市日。"
+        },
+        {
+          "url": "https://sharkninja.tw/cdn/shop/files/BC251TWSeries_IB_MP_Mv2_LR.pdf?v=16740355643292232487",
+          "title": "BC251TW Series台灣官方使用者指南",
+          "outcome": "確認系列、電力與保固，文件時間不作上市日。"
+        },
+        {
+          "url": "https://sharkninja.tw/collections/shark-ninja-new-arrival",
+          "title": "SharkNinja台灣新品名冊",
+          "outcome": "型號出現在新品名冊，但沒有明確發售日期，不以新品標籤推定年份。"
+        }
+      ],
+      "auditQueries": [
+        "\"BC251TWIV1\" 上市 發表 台灣",
+        "\"BC251TW\" 上市 發表 台灣"
+      ]
+    },
+    {
+      "id": "keyboard-keychron-q11-ultra-red",
+      "category": "keyboard",
+      "brand": "Keychron",
+      "model": "KBKCQ11UM1",
+      "name": "Q11 Ultra 8K 分離式三模機械鍵盤（黑色英文 Silk POM紅軸）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "https://www.keychron.com.tw/products/keychron-q11-ultra-8k-wireless-custom-mechanical-keyboard?variant=49296165470467",
+      "sourceTitle": "Keychron Taiwan Q11 Ultra 8K 黑色英文紅軸官方原頁",
+      "evidenceSnippet": "可還原選定KBKCQ11UM1/英文SilkPOM紅軸，但原頁未寫台灣該SKU上市或發售日期。",
+      "confidence": "not_found",
+      "reason": "完整SKU上市查詢主要回官方現售頁與澳洲同編號；海外Q11Ultra系列5月8日上市、8月4日中國開售或不同區域版不能當本台灣英文紅軸發售日；評論、圖片及手冊更新日期一律不採。",
+      "query": "\"KBKCQ11UM1\" 上市 發售",
+      "auditQueries": [
+        "\"KBKCQ11UM1\" 上市 發售",
+        "\"Keychron Q11 Ultra\" release launch"
+      ],
+      "checkedAt": "2026-10-29",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.keychron.com.tw/products/keychron-q11-ultra-8k-wireless-custom-mechanical-keyboard?variant=49296165470467",
+          "title": "Keychron Taiwan Q11 Ultra 8K",
+          "outcome": "選定型號與版本可核，但沒有明確本SKU台灣上市日。"
+        },
+        {
+          "url": "https://www.keychron.com/products/keychron-q11-ultra-8k-wireless-custom-mechanical-keyboard",
+          "title": "Keychron global Q11 Ultra 8K",
+          "outcome": "系列功能可核，不提供本台灣selected SKU上市日。"
         }
       ]
     }

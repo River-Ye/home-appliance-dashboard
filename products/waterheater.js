@@ -4484,7 +4484,8 @@
       "converted": 135300,
       "confidence": "A.O. Smith 台灣官網 2026-09-05 exact-model 公開售價",
       "basis": "retailer_current",
-      "scope": "single_unit"
+      "scope": "single_unit",
+      "note": "2026-10-29 原台灣官方CAHP-1.5DT-80頁今日連線失敗，搜尋尚有原型頁但無法當場重現公開售價及供貨；保留既有135300元參考，不當本次確認現價。 未扣個人券、點數或信用卡回饋。"
     },
     "installation": {
       "status": "excluded",
@@ -4492,7 +4493,7 @@
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/88AEBD5AF9-SP-20236556.jpg",
     "buyUrl": "https://www.aosmith.com.tw/product/?id=8&mode=detail&top=12&type_id=3",
-    "buyLabel": "A.O. Smith 台灣官方商城",
+    "buyLabel": "A.O. Smith官網（現價／供貨待確認）",
     "specs": [
       "類型：一體式空氣源熱泵熱水器",
       "能源／氣源：電力；80 加侖／約 300 L 儲槽",
@@ -4598,7 +4599,8 @@
       "converted": 145300,
       "confidence": "A.O. Smith 台灣官網 2026-09-05 exact-model 公開售價",
       "basis": "retailer_current",
-      "scope": "single_unit"
+      "scope": "single_unit",
+      "note": "2026-10-29 原台灣官方CAHP-1.5DT-120頁今日連線失敗，搜尋尚有原型頁但無法當場重現公開售價及供貨；保留既有145300元參考，不當本次確認現價。 未扣個人券、點數或信用卡回饋。"
     },
     "installation": {
       "status": "excluded",
@@ -4606,7 +4608,7 @@
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/D705377CA1-SP-20236626.jpg",
     "buyUrl": "https://www.aosmith.com.tw/product/?id=54&mode=detail&top=4&type_id=3",
-    "buyLabel": "A.O. Smith 台灣官方商城",
+    "buyLabel": "A.O. Smith官網（現價／供貨待確認）",
     "specs": [
       "類型：一體式空氣源熱泵熱水器",
       "能源／氣源：電力；120 加侖／約 455 L 儲槽",

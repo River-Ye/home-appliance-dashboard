@@ -423,10 +423,11 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR0NA900IH50L/000001_1782870878.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 29046,
-      "converted": 29046,
-      "confidence": "2026-10-28 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
-      "basis": "retailer_current"
+      "amount": 30900,
+      "converted": 30900,
+      "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-29 SMS2ITI06X主商品公開30900元、2年原廠保固，舊29046元折扣已不在主商品。 未扣個人券、點數或信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -631,7 +632,8 @@
       "amount": 29900,
       "converted": 29900,
       "confidence": "2026-10-28 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
-      "basis": "retailer_current"
+      "basis": "retailer_current",
+      "note": "2026-10-29 DFB533FW主商品公開29900元；送3%P幣不折入價格。 未扣個人券、點數或信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -937,10 +939,11 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR0YA900FMAWF/000001_1692315551.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 22145,
-      "converted": 22145,
-      "confidence": "2026-10-28 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
-      "basis": "retailer_current"
+      "amount": 23310,
+      "converted": 23310,
+      "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-29 E-7682主商品公開23310元、標準安裝，不含門板與踢腳板，舊22145元折扣已不在主商品；可加入購物車、獨立結帳。 未扣個人券、點數或信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1652,10 +1655,11 @@
     "name": "免安裝自動 6 人份洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 15809,
-      "converted": 15809,
-      "confidence": "2026-10-28 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
-      "basis": "retailer_current"
+      "amount": 16999,
+      "converted": 16999,
+      "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-29 DGF-601主商品公開16999元，舊15809元折扣已不在主商品；可加入購物車、獨立結帳。 未扣個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR17A900IHTZ3/000001_1777540146.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR17-A900IHTZ3",
@@ -1750,10 +1754,11 @@
     "name": "VORTEX KW1 桌上型全自動洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 14540,
-      "converted": 14540,
-      "confidence": "2026-10-28 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
-      "basis": "retailer_current"
+      "amount": 14990,
+      "converted": 14990,
+      "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-29 KW534-60W主商品公開14990元，舊14540元折扣已不在主商品；滿額送P幣不折入價格。 未扣個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR25A900J5BGP/000001_1782112645.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR25-A900J5BGP",
@@ -1945,10 +1950,10 @@
     "name": "桌上型洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 12349,
-      "converted": 12349,
-      "confidence": "2026-10-28 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
-      "note": "2026-10-27原PChome主商品公開12999元；12349元折扣未由原頁重現，不將回饋或未確認折扣當售價。",
+      "amount": 12999,
+      "converted": 12999,
+      "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "note": "2026-10-29 小米官方旗艦館桌上型洗碗機同主商品公開12999元、原廠公司貨及2年保固；舊12349元折扣已不在主商品。 未扣個人券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR24A900JFSR7/000001_1762761618.jpg",
@@ -3182,10 +3187,11 @@
     "topPick": false,
     "price": {
       "currency": "TWD",
-      "amount": 75717,
-      "converted": 75717,
+      "amount": 80550,
+      "converted": 80550,
       "basis": "retailer_current",
-      "confidence": "2026-10-28 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。"
+      "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "note": "2026-10-29 SMS8ZCI02X主商品公開80550元（劃線89500元），原廠派裝，舊75717元折扣已不在主商品。 未扣個人券、點數或信用卡回饋。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMBR13A900KIVV7/000001_1790912458.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR13-A900KIVV7",

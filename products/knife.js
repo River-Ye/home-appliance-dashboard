@@ -319,9 +319,11 @@
     "image": "https://cs-a.ecimg.tw/items/DEAGRWA900JUUQL/000001_1774596210.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 799,
-      "converted": 799,
-      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 888,
+      "converted": 888,
+      "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-29 貝印關孫六若竹16.5cm三德刀同款主商品公開888元，舊799元折扣已不在主商品。 未扣個人券、點數或信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "PChome",

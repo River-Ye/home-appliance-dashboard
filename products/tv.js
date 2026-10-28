@@ -1906,10 +1906,10 @@
     "name": "65型 4K QLED 120Hz Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 14391,
-      "converted": 14391,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-28晚間原頁覆核：CQ-65QX250主商品公開價14391TWD，本輪原頁可加入購物車；主商品價與舊參考一致，未套用相關商品或回饋。不含個人券、點數或信用卡回饋。",
+      "amount": 15990,
+      "converted": 15990,
+      "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "note": "2026/10/29原商品頁公開售價；不含需另達門檻的折價券、信用卡回饋與點數。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADTOA900JNE73/000001_1768523868.jpg",
@@ -3742,11 +3742,11 @@
     "name": "65 型 S90H OLED 4K Samsung Vision AI 智慧顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 79282,
-      "converted": 79282,
-      "confidence": "2026-10-28 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "amount": 80900,
+      "converted": 80900,
+      "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-28晚間原頁覆核：SAMSUNG65型QA65S90HAEXZW含基本安裝主商品80900元、公開單件98折79282元，可加車；不扣個人150元點換券。不含個人券、點數或信用卡回饋。 公開98折活動至2026-10-29T05:59:59+08:00。"
+      "note": "2026/10/29原商品頁公開售價；不含需另達門檻的折價券、信用卡回饋與點數。"
     },
     "installation": {
       "status": "included_basic",
