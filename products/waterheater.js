@@ -4485,7 +4485,7 @@
       "confidence": "A.O. Smith 台灣官網 2026-09-05 exact-model 公開售價",
       "basis": "retailer_current",
       "scope": "single_unit",
-      "note": "2026-10-29 原台灣官方CAHP-1.5DT-80頁今日連線失敗，搜尋尚有原型頁但無法當場重現公開售價及供貨；保留既有135300元參考，不當本次確認現價。 未扣個人券、點數或信用卡回饋。"
+      "note": "2026-10-30 原AOSmith exact CAHP-1.5DT-80來源連線失敗，保留135300元舊參考；未把失敗說成已停產或今日可重現現價。 未扣個人券、點數或信用卡回饋。"
     },
     "installation": {
       "status": "excluded",
@@ -4600,7 +4600,7 @@
       "confidence": "A.O. Smith 台灣官網 2026-09-05 exact-model 公開售價",
       "basis": "retailer_current",
       "scope": "single_unit",
-      "note": "2026-10-29 原台灣官方CAHP-1.5DT-120頁今日連線失敗，搜尋尚有原型頁但無法當場重現公開售價及供貨；保留既有145300元參考，不當本次確認現價。 未扣個人券、點數或信用卡回饋。"
+      "note": "2026-10-30 原AOSmith exact CAHP-1.5DT-120來源連線失敗，保留145300元舊參考；未把失敗說成已停產或今日可重現現價。 未扣個人券、點數或信用卡回饋。"
     },
     "installation": {
       "status": "excluded",

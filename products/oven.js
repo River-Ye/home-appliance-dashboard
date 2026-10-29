@@ -411,8 +411,8 @@
     "price": {
       "currency": "USD",
       "amount": 499.95,
-      "converted": 16218,
-      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-10-28 匯率換算"
+      "converted": 16206,
+      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-10-29 匯率換算"
     },
     "image": "https://assets.breville.com/cdn-cgi/image/width=1300,format=auto/BOV950/BOV950BSS1BUS1/pdp3.png?pdp=",
     "buyUrl": "https://www.breville.com/en-us/product/bov950",
@@ -512,7 +512,7 @@
       "converted": 8630,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-29 OM27-M54主商品網路8990元、公開單件96折8630元，頁載10/28–10/29小家電夜貓優惠；可加入購物車，獨立結帳。 未扣個人券、點數或信用卡回饋。"
+      "note": "2026-10-30 only OM27-M54黑色原主商品8990元，公開單件96折8630元至10/30 07:59:59；現可加入購物車。 未扣個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ02A900I9LQ2/000001_1782379010.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ02-A900I9LQ2",
@@ -808,7 +808,7 @@
       "converted": 22886,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-29 MWP329TST主商品24090元，公開滿711享95折22886元至11/1 02:59:59；無安裝、僅送到一樓。 未扣個人券、點數或信用卡回饋。"
+      "note": "2026-10-30 MWP329TST大地棕原主商品24090元，單件滿711元95折22886元至11/1 02:59:59；無安裝、僅送至一樓，未跨26L機型。 未扣個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ03A900IYX0L/000001_1750758530.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool-%E6%83%A0%E8%80%8C%E6%B5%A6Coloris%E7%B3%BB%E5%88%97-32%E5%85%AC%E5%8D%878%E5%90%88%E4%B8%80%E5%85%A8%E8%83%BD%E8%AE%8A%E9%A0%BB%E6%B0%A3%E7%82%B8%E8%92%B8%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-%E5%A4%A7%E5%9C%B0%E6%A3%95-MWP3-12006007.html",
@@ -908,10 +908,10 @@
     "name": "20L 多功能蒸氣氣炸烤箱",
     "price": {
       "currency": "TWD",
-      "amount": 9599,
-      "converted": 9599,
-      "confidence": "2026-10-28 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
-      "note": "2026-10-29 CSO-500TW主商品網路9999元、公開單件96折9599元，頁載10/28–10/29優惠。 未扣個人券、點數或信用卡回饋。",
+      "amount": 9499,
+      "converted": 9499,
+      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "note": "2026-10-30 Cuisinart CSO-500TW原主商品9999元，公開單件95折9499元至10/30 07:59:59。 未扣個人券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900HF91A/000001_1768545220.jpg",
@@ -1893,11 +1893,11 @@
     "name": "蒸烘烤變頻微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 42163,
-      "converted": 42163,
-      "confidence": "2026-10-28 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "amount": 41724,
+      "converted": 41724,
+      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-29 原SVAGO VE8966綁定主商品網路43920元、公開單件96折42163元，頁載10/28–10/29優惠；含標準安裝，額外施工及配送須約定。 未扣個人券、點數或信用卡回饋。"
+      "note": "2026-10-30 SVAGO 蒸烘烤變頻微波爐含標準安裝，原商品公開價43,920元，單件95折41,724元，活動至10/30 07:59:59；未扣個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900H5125/000001_1783054719.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM0G-A900H5125",
@@ -2295,8 +2295,8 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 12975,
-      "confidence": "2026-08-31 人工核對 SharkNinja 美國官方 MW101 公開可購主價 USD 399.99；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-10-28 匯率換算",
+      "converted": 12966,
+      "confidence": "2026-08-31 人工核對 SharkNinja 美國官方 MW101 公開可購主價 USD 399.99；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-10-29 匯率換算",
       "basis": "retailer_current"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/MW101_01.jpg",
@@ -2590,6 +2590,102 @@
         }
       ]
     }
-  }
+  },
+{
+  "id": "oven-panasonic-nn-bs8dk",
+  "category": "oven",
+  "brand": "Panasonic",
+  "model": "NN-BS8DK",
+  "name": "30L 智慧4in1蒸烘烤微波爐（台灣公司貨）",
+  "rank": 27,
+  "topPick": false,
+  "budget": "premium",
+  "channel": "tw",
+  "price": {
+    "currency": "TWD",
+    "amount": 24000,
+    "converted": 24000,
+    "basis": "retailer_current",
+    "confidence": "2026-10-30 雅光電器NN-BS8DK原主商品公開價，人工核對可購按鈕與尚有庫存。",
+    "note": "雅光電器原主商品公開24000元，頁示尚有庫存；未扣個人券、紅利與信用卡回饋。交期與送貨、搬運定位費用請先洽通路。"
+  },
+  "installation": {
+    "status": "not_stated",
+    "note": "所選微波爐頁未明示含基本安裝或搬運定位；台灣本島以外配送需另洽，交期、樓層/定位與電力施工費用購前確認。放置時上方預留8cm、前方開放，依原廠說明保留安全與維修空間。"
+  },
+  "image": "https://cdn1-next.cybassets.com/media/W1siZiIsIjI3Njc0L3Byb2R1Y3RzLzczMTM2MTAyLzE3OTI2NTAxODlfMTE2ZTY4NjFiMzJlNmNlMTg0OTcuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=e33534b4d44afc4d",
+  "buyUrl": "https://www.yk01.com.tw/products/nnbs8dk",
+  "buyLabel": "雅光電器（台灣公司貨）",
+  "specs": [
+    "類型：30L蒸烘烤微波爐；蒸氣、烘烤、燒烤與微波四合一，台灣完整型號NN-BS8DK",
+    "加熱：紅外線自動加熱感知、旋風微波加熱技術；微波輸出1000W、火力6段",
+    "料理：烘烤溫度70–300°C、過熱水蒸氣、頂部全平面燒烤、碗料理行程與130道自動料理",
+    "尺寸：寬 49.4 x 深 48.1 x 高 37 cm",
+    "重量：19.8 kg",
+    "爐腔：高23.5 x 寬39.4 x 深30.9 cm；平面無轉盤、下拉式爐門",
+    "電壓／頻率：AC 110V／60Hz；微波消耗1500W、燒烤1350W、烘烤1400W、蒸氣670W，並非各模式功率相加",
+    "安裝空間：機身深度含把手；圖示上方8cm、左右及後方0cm、前方開放；另留開門與插頭電線空間，不能密閉使用",
+    "操作／安全：液晶顯示螢幕、兒童安全鎖、自動清潔及爐內冷卻行程",
+    "隨附配件：雙面烤盤1個、方盤2個；依原廠使用說明區分適用模式，金屬烤盤不可任意用於微波模式",
+    "售後：台灣公司貨，保留購買憑證與原廠保證書，Panasonic客服0800-098-800可洽維修與部品"
+  ],
+  "description": "把蒸氣、烘烤、燒烤與微波整合在30L機身，適合家電櫃空間有限、希望一台處理回溫與蒸烤料理的家庭。台灣110V／60Hz版本具紅外線感測與碗料理行程，採49.4cm寬機身，仍須預留上方散熱及前方開門空間。",
+  "pros": [
+    "30L蒸烘烤微波四合一，減少多台桌上家電占位",
+    "紅外線感測、旋風微波與130道自動料理，方便日常回溫及蒸烤",
+    "台灣110V／60Hz公司貨，具本地實體通路與原廠服務路徑"
+  ],
+  "cons": [
+    "機身含把手深48.1cm、重19.8kg，需確認櫃深、檯面承重及搬運路徑",
+    "蒸烤及微波使用的容器/金屬烤盤規則不同，需照說明書操作",
+    "所選通路未明示含搬運定位或基本安裝，交期與可能費用購前確認"
+  ],
+  "bestFor": "希望用一台30L設備兼顧微波回溫、蒸氣與烘烤，家電櫃能保留上方散熱及前方開門空間的家庭。",
+  "recommendation": "作為Panasonic現售蒸烘烤機的新選項；依蒸烤、回溫與預算需求比較，並保留仍合格現售的NN-BS607、NN-BS807與NN-BS1700。先核對含把手機身深度、上方8cm散熱、下拉爐門及插頭位置。",
+  "releaseDate": "找不到",
+  "historicalLow": {
+    "status": "not_found",
+    "amount": null,
+    "currency": "TWD",
+    "converted": null,
+    "sourceUrl": "",
+    "sourceTitle": "",
+    "evidenceSnippet": "",
+    "sourceKind": "not_found",
+    "confidence": "not_found",
+    "checkedAt": "2026-10-30",
+    "note": "人工查NN-BS8DK原通路、FindPrice同型號比價與飛比/價格歷史搜尋；FindPrice僅當前多站報價，飛比直連失敗，未取得有日期可核實歷史低點。雅光24000與信源25900均只作現價，玉明22600需先電話確認且規格有衝突，沒有轉作史低；不採日本NE-BS8D、個人券、點數、預購失效或非新品價格。"
+  },
+  "issueResearch": {
+    "status": "no_common_issue",
+    "checkedAt": "2026-10-30",
+    "summary": "截至查核日，查無達門檻的集中負評／災情",
+    "issues": [],
+    "checkedSources": [
+      {
+        "platform": "Mobile01",
+        "targetHost": "mobile01.com",
+        "query": "site:mobile01.com \"NN-BS8DK\" (故障 OR 問題 OR 心得)",
+        "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NN-BS8DK%22%20%28%E6%95%85%E9%9A%9C%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E5%BF%83%E5%BE%97%29"
+      },
+      {
+        "platform": "PTT",
+        "targetHost": "ptt.cc",
+        "query": "site:ptt.cc \"NN-BS8DK\" (故障 OR 問題 OR 心得)",
+        "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NN-BS8DK%22%20%28%E6%95%85%E9%9A%9C%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E5%BF%83%E5%BE%97%29"
+      }
+    ]
+  },
+  "score": 89,
+  "voltage": "AC 110V／60Hz；微波消耗1500W、燒烤1350W、烘烤1400W、蒸氣670W，確認插座、迴路及接地，勿把各模式瓦數相加。",
+  "warranty": "雅光明示原廠公司貨；Panasonic台灣微波爐保固表為全機1年、指定印刷電路板/磁控管/馬達/高壓變壓器3年，詳細內容與非家庭用途限制以隨機保證書為準。原廠客服0800-098-800，雅光網路部02-2796-5866。",
+  "tags": [
+    "30L",
+    "4in1蒸烘烤微波",
+    "110V60Hz",
+    "紅外線感測",
+    "台灣公司貨"
+  ]
+}
 ]);
 })();

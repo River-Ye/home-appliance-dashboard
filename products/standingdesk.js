@@ -1683,9 +1683,11 @@
     "name": "電競電動升降桌",
     "price": {
       "currency": "TWD",
-      "amount": 13990,
-      "converted": 13990,
-      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 10990,
+      "converted": 10990,
+      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-30 覆核所選通路同型號新品公開價 TWD 10990；不扣個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBB6OA900HSVT2/000001_1782822944.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBB6O-A900HSVT2",

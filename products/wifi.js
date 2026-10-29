@@ -891,9 +891,9 @@
     "price": {
       "currency": "USD",
       "amount": 208,
-      "converted": 6747,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。；ExchangeRate-API 2026-10-28 匯率換算",
-      "note": "2026-10-28晚間原頁覆核：美國單台U7-Pro基價189美元，強制附加費後208美元，Add to Cart；不漏算附加費。不含個人券、點數或信用卡回饋。"
+      "converted": 6743,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。；ExchangeRate-API 2026-10-29 匯率換算",
+      "note": "2026-10-30 美國官方單台基價189美元，強制附加費後公開總價208美元，可加入購物車；不含選配UI Care及PoE供電器。未含國際運費、進口稅、電壓／插頭／供電及台灣保固風險，另依網站匯率換算。"
     },
     "image": "https://cdn.ecomm.ui.com/products/fa8dd4e4-36c8-4c79-a928-22c7bff2ce29/ab5bc8a4-6135-402e-a695-e3ea5e16d3e6.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-pro",
@@ -971,9 +971,11 @@
     "name": "Wi-Fi 6 6-stream Ceiling AP",
     "price": {
       "currency": "USD",
-      "amount": 159,
-      "converted": 5158,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-10-28 匯率換算"
+      "amount": 175,
+      "converted": 5673,
+      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-30 美國官方單台基價159美元，強制附加費後公開總價175美元，可加入購物車；不含選配UI Care及PoE供電器。未含國際運費、進口稅、電壓／插頭／供電及台灣保固風險，另依網站匯率換算。"
     },
     "image": "https://cdn.ecomm.ui.com/products/8e88b222-7a55-4cf0-8677-ae9b6347fe84/e16aa122-b5e5-4ffb-9f1a-27ee14d9ab3d.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u6-pro",
@@ -1088,9 +1090,11 @@
     "name": "Compact Wi-Fi 7 AP",
     "price": {
       "currency": "USD",
-      "amount": 99,
-      "converted": 3211,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-10-28 匯率換算"
+      "amount": 109,
+      "converted": 3533,
+      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-30 美國官方單台基價99美元，強制附加費後公開總價109美元，可加入購物車；不含選配UI Care及PoE供電器。未含國際運費、進口稅、電壓／插頭／供電及台灣保固風險，另依網站匯率換算。"
     },
     "image": "https://cdn.ecomm.ui.com/products/253cc208-4b09-4b2e-9d1a-7aa1e8f93507/49241c96-878f-4e40-8541-c2e89c1c5e6e.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-lite",
@@ -1564,9 +1568,11 @@
     "name": "Compact Wi-Fi 6 AP",
     "price": {
       "currency": "USD",
-      "amount": 129,
-      "converted": 4185,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-10-28 匯率換算"
+      "amount": 142,
+      "converted": 4603,
+      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-30 美國官方單台基價129美元，強制附加費後公開總價142美元，可加入購物車；不含選配UI Care及PoE供電器。未含國際運費、進口稅、電壓／插頭／供電及台灣保固風險，另依網站匯率換算。"
     },
     "image": "https://cdn.ecomm.ui.com/products/6d5c6141-e2e9-416a-b789-53e59416bb1a/853bc73b-f65b-4e59-a171-75c9a4a4615e.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u6-plus",
@@ -1669,9 +1675,9 @@
     "price": {
       "currency": "USD",
       "amount": 307,
-      "converted": 9959,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。；ExchangeRate-API 2026-10-28 匯率換算",
-      "note": "2026-10-28晚間原頁覆核：美國單台U7-Pro-Max基價279美元，強制附加費後307美元，Add to Cart；不漏算附加費。不含個人券、點數或信用卡回饋。"
+      "converted": 9952,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。；ExchangeRate-API 2026-10-29 匯率換算",
+      "note": "2026-10-30 美國官方單台基價279美元，強制附加費後公開總價307美元，可加入購物車；不含選配UI Care及PoE供電器。未含國際運費、進口稅、電壓／插頭／供電及台灣保固風險，另依網站匯率換算。"
     },
     "image": "https://cdn.ecomm.ui.com/products/350070a0-ae43-431b-b052-8e849c3b0a75/bad94693-bc54-4ab4-b060-9b972401941c.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-pro-max",

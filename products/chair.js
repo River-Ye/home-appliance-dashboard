@@ -792,11 +792,11 @@
       "converted": 13410,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-28晚間原頁覆核：黑色RZ38-03720300-R3U1公開單件9折13410元；現已明示預購，預計出貨2026/10/30–11/03，不能標現貨。不含個人券、點數或信用卡回饋。"
+      "note": "2026-10-30 原PChome頁公開13410元，仍預購；本次原頁預計2026/11/01–11/03出貨，不沿用前次10/30起交期。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAKFOA900BWWGS/000001_1755481797.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAKFO-A900BWWGS",
-    "buyLabel": "PChome（預購）",
+    "buyLabel": "PChome（預購11/01–11/03出貨）",
     "specs": [
       "電競椅",
       "高背",
@@ -807,7 +807,7 @@
     "pros": [
       "Razer 價格較好入手",
       "外型低調",
-      "通路庫存較足"
+      "台灣通路提供預購與廠商出貨"
     ],
     "cons": [
       "調整與腰撐不如高階款",
@@ -2439,9 +2439,11 @@
     "name": "STRYDER 高椅背可上掀扶手人體工學椅",
     "price": {
       "currency": "TWD",
-      "amount": 6990,
-      "converted": 6990,
-      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 4990,
+      "converted": 4990,
+      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-30 覆核所選通路同型號新品公開價 TWD 4990；不扣個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ0AA900JCVY5/000001_1785087796.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ0A-A900JCVY5",

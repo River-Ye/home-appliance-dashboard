@@ -76,7 +76,8 @@
       budget: "mid",
       topPick: true,
       price: 2480,
-      priceNote: "2026/10/29查核HOLA官方momo商店同貨號新品公開促銷價；不含另需達門檻的折價、卡回饋與點數。",
+      priceConfidence: "2026-09-01 以 Chrome 核對 exact SKU 台灣新品公開售價；不扣會員、信用卡、點數、滿額或贈品優惠。",
+      priceNote: "2026-10-30 momo原頁選定HOLA貨號公開促銷價2480元，非市售刪除價、相關單人／加大版或滿額／個人券折抵；可購，預計2026/11/03出貨。",
       image: "https://pcm.trplus.com.tw/1000x1000/sys-master/productImages/hcd/hc8/12330913431582/000000000016788505-gallery-01-20241029161043256.jpg",
       url: "https://www.momoshop.com.tw/TP/TP0006553/goodsDetail/TP00065530008496",
       label: "momo HOLA 官方店",
@@ -689,7 +690,8 @@
       type: "wool",
       budget: "mid",
       price: 2180,
-      priceNote: "2026/10/29查核HOLA官方momo商店同貨號新品公開促銷價；不含另需達門檻的折價、卡回饋與點數。",
+      priceConfidence: "2026-09-01 以 Chrome 核對 exact SKU 台灣新品公開售價；不扣會員、信用卡、點數、滿額或贈品優惠。",
+      priceNote: "2026-10-30 momo原頁選定HOLA貨號公開促銷價2180元，非市售刪除價、相關單人／加大版或滿額／個人券折抵；可購，預計2026/11/03出貨。",
       image: "https://pcm.trplus.com.tw/1000x1000/sys-master/productImages/h0d/hc5/12330913562654/000000000016788504-gallery-01-20241029161043307.jpg",
       url: "https://www.momoshop.com.tw/TP/TP0006553/goodsDetail/TP00065530008497",
       label: "momo HOLA 官方店",
@@ -725,7 +727,7 @@
       budget: "mid",
       price: 3680,
       priceConfidence: "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
-      priceNote: "2026/10/29查核HOLA官方momo商店同貨號新品公開促銷價；不含另需達門檻的折價、卡回饋與點數。",
+      priceNote: "2026-10-30 momo原頁選定HOLA貨號公開促銷價3680元，非市售刪除價、相關單人／加大版或滿額／個人券折抵；可購，預計2026/11/03出貨。",
       image: "https://pcm.trplus.com.tw/1000x1000/sys-master/productImages/h9a/hbb/12614174539806/000000000014301109-gallery-01-20251117160520149.jpg",
       url: "https://www.momoshop.com.tw/TP/TP0006553/goodsDetail/TP00065530004585",
       label: "momo HOLA 官方店",
@@ -761,7 +763,7 @@
       budget: "premium",
       price: 10980,
       priceConfidence: "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
-      priceNote: "2026/10/29查核HOLA官方momo商店同貨號新品公開促銷價；不含另需達門檻的折價、卡回饋與點數。",
+      priceNote: "2026-10-30 momo原頁選定HOLA貨號公開促銷價10980元，非市售刪除價、相關單人／加大版或滿額／個人券折抵；可購，預計2026/11/03出貨。",
       image: "https://pcm.trplus.com.tw/1000x1000/sys-master/productImages/h2b/hb0/12330816569374/000000000014381508-gallery-01-20241029155518623.jpg",
       url: "https://www.momoshop.com.tw/TP/TP0006553/goodsDetail/TP00065530008377",
       label: "momo HOLA 官方店",
@@ -797,7 +799,7 @@
       budget: "mid",
       price: 1480,
       priceConfidence: "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
-      priceNote: "2026/10/29查核HOLA官方momo商店同貨號新品公開促銷價；不含另需達門檻的折價、卡回饋與點數。",
+      priceNote: "2026-10-30 momo原頁選定HOLA貨號公開促銷價1480元，非市售刪除價、相關單人／加大版或滿額／個人券折抵；可購，預計2026/11/03出貨。",
       image: "https://pcm.trplus.com.tw/1000x1000/sys-master/productImages/h04/hf4/12614222839838/000000000014408625-gallery-01-20251117160703567.jpg",
       url: "https://www.momoshop.com.tw/TP/TP0006553/goodsDetail/TP00065530010853",
       label: "momo HOLA 官方店",
@@ -1096,5 +1098,203 @@
     },
   ];
 
-  dashboard.registerProducts("comforter", items.map(makeProduct));
+  dashboard.registerProducts("comforter", [
+    ...items.map(makeProduct),
+    {
+      "id": "comforter-ikea-strandmolke-30636962",
+      "category": "comforter",
+      "brand": "IKEA",
+      "model": "306.369.62",
+      "name": "STRANDMOLKE 12 TOG 特暖被 200×200 cm（306.369.62）",
+      "variantFamily": "STRANDMOLKE 特暖被",
+      "type": "synthetic",
+      "rank": 31,
+      "topPick": false,
+      "budget": "premium",
+      "channel": "tw",
+      "price": {
+        "currency": "TWD",
+        "amount": 4499,
+        "converted": 4499,
+        "basis": "retailer_current",
+        "confidence": "2026-10-30 人工核對 IKEA 台灣官方 306.369.62 選定尺寸公開價與線上現貨標示；不扣宜家卡、信用卡或點數優惠。",
+        "note": "官網另列便利箱宅配運費每箱150元，實際依配送條件。"
+      },
+      "installation": {
+        "status": "not_stated",
+        "note": "完整成品被不需固定安裝；先確認被套尺寸、洗衣機容量與收納空間。"
+      },
+      "image": "https://www.ikea.com.tw/dairyfarm/tw/images/960/1496010_PE1005290_S4.jpg",
+      "buyUrl": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/duvets/strandmolke-art-30636962",
+      "buyLabel": "IKEA 台灣官方商城",
+      "specs": [
+        "類型：化纖特暖被；雙人寬版；完整成品被芯",
+        "組合內容：特暖被 1 件，不含被套",
+        "表布材質：100% 棉，220織多臂織物",
+        "填充材質：100% 再生聚酯中空纖維",
+        "填充比例／蓬鬆度：聚酯100%；蓬鬆度未標示",
+        "適用季節／保暖性：冬季及怕冷者；12 TOG",
+        "尺寸：長 200 x 寬 200 cm",
+        "填充重量：2.2 kg",
+        "重量：3.37 kg",
+        "認證／產地：EN ISO 12952-1 與 CAN/CGSB 4.2 No27.5 耐燃測試；產地原頁未標示",
+        "清潔保養：最高60°C正常程序機洗，最高80°C正常滾筒烘乾；不可漂白、熨燙或乾洗"
+      ],
+      "description": "棉表布搭配再生聚酯中空纖維與分隔式縫線，提供12 TOG保暖度。適合寒冷冬夜及睡覺易覺冷的人；單件特暖被無法像兩件式四季被拆分調整。",
+      "pros": [
+        "100%棉表布，纖維填充可機洗",
+        "12 TOG保暖度清楚，填充重量與整件重量分列",
+        "台灣官方可選定尺寸購買，具在地客服與退換貨路徑"
+      ],
+      "cons": [
+        "12 TOG偏暖，台灣夏季與一般冷氣房通常過熱",
+        "聚酯填充不適合只接受天然填充材質的人",
+        "整件較厚重，清洗前需核對洗衣機與烘乾容量"
+      ],
+      "bestFor": "冬季較冷住宅、怕冷者，或需要可機洗完整冬被的使用者。",
+      "recommendation": "冬季保暖參考：依怕冷程度與被套尺寸選擇；12 TOG與棉表布是主要取捨，保留既有四季與天然填充被供比較。",
+      "releaseDate": "找不到",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-10-30",
+        "note": "當日人工查看台灣官方 exact SKU 306.369.62 公開價並搜尋 BigGo、FindPrice 的完整型號；未取得同尺寸特暖版本、有日期可重現的可信新品歷史低點，不以現價或其他尺寸／暖度製造史低。"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-10-30",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"STRANDMOLKE\" \"306.369.62\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22STRANDMOLKE%22%20%22306.369.62%22"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"STRANDMOLKE\" \"306.369.62\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22STRANDMOLKE%22%20%22306.369.62%22"
+          }
+        ]
+      },
+      "score": 83,
+      "voltage": "非電器，不需供電；非電熱毯。",
+      "warranty": "IKEA台灣官方新品；棉被原頁未列獨立保固年限。保留購買證明，依台灣官方會員／非會員及品況條件辦理退換貨，非使用後試睡保證；客服02-412-8869／iservice@ikea.com.tw。",
+      "tags": [
+        "冬季推薦",
+        "12 TOG",
+        "可機洗",
+        "棉表布",
+        "200×200cm"
+      ]
+    },
+    {
+      "id": "comforter-ikea-strandmolke-50636961",
+      "category": "comforter",
+      "brand": "IKEA",
+      "model": "506.369.61",
+      "name": "STRANDMOLKE 12 TOG 特暖被 150×200 cm（506.369.61）",
+      "variantFamily": "STRANDMOLKE 特暖被",
+      "type": "synthetic",
+      "rank": 32,
+      "topPick": false,
+      "budget": "premium",
+      "channel": "tw",
+      "price": {
+        "currency": "TWD",
+        "amount": 3999,
+        "converted": 3999,
+        "basis": "retailer_current",
+        "confidence": "2026-10-30 人工核對 IKEA 台灣官方 506.369.61 選定尺寸公開價與線上現貨標示；不扣宜家卡、信用卡或點數優惠。",
+        "note": "官網另列便利箱宅配運費每箱150元，實際依配送條件。"
+      },
+      "installation": {
+        "status": "not_stated",
+        "note": "完整成品被不需固定安裝；先確認被套尺寸、洗衣機容量與收納空間。"
+      },
+      "image": "https://www.ikea.com.tw/dairyfarm/tw/images/960/1496009_PE1005291_S4.jpg",
+      "buyUrl": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/duvets/strandmolke-art-50636961",
+      "buyLabel": "IKEA 台灣官方商城",
+      "specs": [
+        "類型：化纖特暖被；單人版；完整成品被芯",
+        "組合內容：特暖被 1 件，不含被套",
+        "表布材質：100% 棉，220織多臂織物",
+        "填充材質：100% 再生聚酯中空纖維",
+        "填充比例／蓬鬆度：聚酯100%；蓬鬆度未標示",
+        "適用季節／保暖性：冬季及怕冷者；12 TOG",
+        "尺寸：長 200 x 寬 150 cm",
+        "填充重量：1.65 kg",
+        "重量：2.54 kg",
+        "認證／產地：EN ISO 12952-1 與 CAN/CGSB 4.2 No27.5 耐燃測試；產地原頁未標示",
+        "清潔保養：最高60°C正常程序機洗，最高80°C正常滾筒烘乾；不可漂白、熨燙或乾洗"
+      ],
+      "description": "棉表布搭配再生聚酯中空纖維與分隔式縫線，提供12 TOG保暖度。適合寒冷冬夜及睡覺易覺冷的人；單件特暖被無法像兩件式四季被拆分調整。",
+      "pros": [
+        "100%棉表布，纖維填充可機洗",
+        "12 TOG保暖度清楚，填充重量與整件重量分列",
+        "台灣官方可選定尺寸購買，具在地客服與退換貨路徑"
+      ],
+      "cons": [
+        "12 TOG偏暖，台灣夏季與一般冷氣房通常過熱",
+        "聚酯填充不適合只接受天然填充材質的人",
+        "整件較厚重，清洗前需核對洗衣機與烘乾容量"
+      ],
+      "bestFor": "冬季較冷住宅、怕冷者，或需要可機洗完整冬被的使用者。",
+      "recommendation": "冬季保暖參考：依怕冷程度與被套尺寸選擇；12 TOG與棉表布是主要取捨，保留既有四季與天然填充被供比較。",
+      "releaseDate": "找不到",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-10-30",
+        "note": "當日人工查看台灣官方 exact SKU 506.369.61 公開價並搜尋 BigGo、FindPrice 的完整型號；未取得同尺寸特暖版本、有日期可重現的可信新品歷史低點，不以現價或其他尺寸／暖度製造史低。"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-10-30",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"STRANDMOLKE\" \"506.369.61\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22STRANDMOLKE%22%20%22506.369.61%22"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"STRANDMOLKE\" \"506.369.61\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22STRANDMOLKE%22%20%22506.369.61%22"
+          }
+        ]
+      },
+      "score": 83,
+      "voltage": "非電器，不需供電；非電熱毯。",
+      "warranty": "IKEA台灣官方新品；棉被原頁未列獨立保固年限。保留購買證明，依台灣官方會員／非會員及品況條件辦理退換貨，非使用後試睡保證；客服02-412-8869／iservice@ikea.com.tw。",
+      "tags": [
+        "冬季推薦",
+        "12 TOG",
+        "可機洗",
+        "棉表布",
+        "150×200cm"
+      ]
+    }
+  ]);
 })();

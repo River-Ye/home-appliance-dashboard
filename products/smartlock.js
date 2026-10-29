@@ -593,9 +593,11 @@
     "name": "7300 五合一把手式電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 16000,
-      "converted": 16000,
-      "confidence": "可信通路查核價"
+      "amount": 15200,
+      "converted": 15200,
+      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-30 7300 WiFi版原主商品16000元，公開單件95折結帳折後15200元；下單再折，活動10/30至11/15 23:59:59，不計P幣。 未扣個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900I7LS6/000001_1768190214.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900I7LS6",
@@ -689,9 +691,11 @@
     "name": "DDL610 防潑水五合一電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 18700,
-      "converted": 18700,
-      "confidence": "可信通路查核價"
+      "amount": 17765,
+      "converted": 17765,
+      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-30 DDL610原主商品18700元，公開單件95折結帳折後17765元；頁明示下單再折，含安裝/原廠三年保固，活動10/30 00:00至11/15 23:59:59，不需會員券。 未扣個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900JPZMY/000001_1770615435.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900JPZMY",
@@ -724,16 +728,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 18700,
+      "amount": 17765,
       "currency": "TWD",
-      "converted": 18700,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1270047951&cgp=18700",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Philips 飛利浦】DDL610 防潑水五合一把手式智能門鎖/電子鎖(指紋│卡片│密碼│鑰匙│WIFI 含安裝)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Philips 飛利浦】DDL610 防潑水五合一把手式智能門鎖/電子鎖(指紋│卡片│密碼│鑰匙│WIFI 含安裝)」最低價為 NT$18,700，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 17765,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900JPZMY",
+      "sourceTitle": "PChome 24h 購物：【 智能鎖】DDL610 防潑水 五合一把手式電子鎖(指紋│卡片│密碼│鑰匙│WIFI/含安裝)",
+      "evidenceSnippet": "PChome 24h 購物於 2026-10-30 顯示同型號可信新品公開價 NT$17,765，低於既有史低 NT$18,700。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-10-30",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -785,9 +789,11 @@
     "name": "ALPHA VP 貓眼推拉電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 23500,
-      "converted": 23500,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 22325,
+      "converted": 22325,
+      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-30 ALPHA VP原主商品23500元，公開單件95折結帳折後22325元；下單再折，活動10/30至11/15 23:59:59，沒有採其他鎖型相關價。 未扣個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900I7PXH/000001_1782804290.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900I7PXH",
@@ -881,9 +887,11 @@
     "name": "702 FVP 人臉貓眼智能門鎖",
     "price": {
       "currency": "TWD",
-      "amount": 25000,
-      "converted": 25000,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 23750,
+      "converted": 23750,
+      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-30 702 FVP原主商品25000元，公開單件95折結帳折後23750元；下單再折，活動10/30至11/15 23:59:59，不跨702E版。 未扣個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900IZX3T/000001_1782804390.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900IZX3T",
@@ -916,16 +924,16 @@
     "releaseDate": "2025",
     "historicalLow": {
       "status": "found",
-      "amount": 25000,
+      "amount": 23750,
       "currency": "TWD",
-      "converted": 25000,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1274056831&cgp=25000",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【Philips 飛利浦】702 FVP 人臉辨識/貓眼/聯網 智能門鎖 電子鎖(人臉│指紋│卡片│密碼│WiFi/含安裝)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【Philips 飛利浦】702 FVP 人臉辨識/貓眼/聯網 智能門鎖 電子鎖(人臉│指紋│卡片│密碼│WiFi/含安裝)」最低價為 NT$25,000，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 23750,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900IZX3T",
+      "sourceTitle": "PChome 24h 購物：【智能鎖】702 FVP 人臉辨識/貓眼/聯網 智能門鎖 電子鎖(人臉│指紋│卡片│密碼│WiFi/含安裝)",
+      "evidenceSnippet": "PChome 24h 購物於 2026-10-30 顯示同型號可信新品公開價 NT$23,750，低於既有史低 NT$25,000。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-10-30",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -977,9 +985,11 @@
     "name": "709-FVP 人臉貓眼七合一電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 32500,
-      "converted": 32500,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 30875,
+      "converted": 30875,
+      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-30 709-FVP原主商品32500元，公開單件95折結帳折後30875元；下單再折，活動10/30至11/15 23:59:59，非額外領券。 未扣個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900I7PXE/000001_1779064763.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900I7PXE",
@@ -1012,16 +1022,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 32000,
+      "amount": 30875,
       "currency": "TWD",
-      "converted": 32000,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1237696738&cgp=32500",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Philips 飛利浦 709-FVP 人臉貓眼七合一電子鎖(貓眼│人臉│指紋│卡片│密碼│鑰匙│WiFi/含安裝)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / Philips 飛利浦 709-FVP 人臉貓眼七合一電子鎖(貓眼│人臉│指紋│卡片│密碼│鑰匙│WiFi/含安裝)」最低價為 NT$32,000，最低點日期 2026-01-10。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 30875,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900I7PXE",
+      "sourceTitle": "PChome 24h 購物：【 智能鎖】709-FVP 人臉貓眼七合一電子鎖(貓眼│人臉│指紋│卡片│密碼│鑰匙│WiFi/含安裝)",
+      "evidenceSnippet": "PChome 24h 購物於 2026-10-30 顯示同型號可信新品公開價 NT$30,875，低於既有史低 NT$32,000。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-10-30",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1073,9 +1083,11 @@
     "name": "EASYKEY DDL801 推拉式智能門鎖",
     "price": {
       "currency": "TWD",
-      "amount": 22950,
-      "converted": 22950,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 20852,
+      "converted": 20852,
+      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-30 DDL801星空灰原主商品21950元，公開單件95折結帳折後20852元；下單再折，活動10/30至11/15 23:59:59，含安裝。 未扣個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900JBQF3/000001_1782804231.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900JBQF3",
@@ -1108,16 +1120,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 22900,
+      "amount": 20852,
       "currency": "TWD",
-      "converted": 22900,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1263405649&cgp=22900",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【Philips 飛利浦】 EasyKey DDL801智能電子門鎖 門鈴 指紋 卡片 密碼 鑰匙 Wifi遠端 (含基本安裝)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【Philips 飛利浦】 EasyKey DDL801智能電子門鎖 門鈴 指紋 卡片 密碼 鑰匙 Wifi遠端 (含基本安裝)」最低價為 NT$22,900，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 20852,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900JBQF3",
+      "sourceTitle": "PChome 24h 購物：【 智能鎖】EASYKEY DDL801 推拉式智能門鎖 星空灰 (指紋│卡片│密碼│鑰匙│WIFI/含安裝)",
+      "evidenceSnippet": "PChome 24h 購物於 2026-10-30 顯示同型號可信新品公開價 NT$20,852，低於既有史低 NT$22,900。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-10-30",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1992,9 +2004,9 @@
     "price": {
       "currency": "HKD",
       "amount": 9638,
-      "converted": 39857,
+      "converted": 39823,
       "basis": "retailer_current",
-      "confidence": "EasyLock 香港 2026-08-28 exact-model 公開促銷價；ExchangeRate-API 2026-10-28 匯率換算"
+      "confidence": "EasyLock 香港 2026-08-28 exact-model 公開促銷價；ExchangeRate-API 2026-10-29 匯率換算"
     },
     "installation": {
       "status": "included_basic",

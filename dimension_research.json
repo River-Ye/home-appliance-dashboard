@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29",
+  "generatedAt": "2026-10-30",
   "sourcePolicy": "本站共 21 類尺寸、13 類重量研究，尺寸涵蓋 電視、Soundbar、冷氣、洗衣機、烘衣機、洗烘衣機(多功能型)、電子衣櫥（衣物護理機）、床包、棉被、枕頭、冰箱、咖啡機、多功能氣炸烤箱／微波爐、洗碗機、熱水器、免治馬桶、網路交換器、螢幕燈、滑鼠、鍵盤、滑鼠墊。優先採 exact-model／相同版本的官方產品頁、官方規格表或官方 PDF，其次為可信新品通路。只採本體／機身／明確組件的尺寸與淨重，排除包裝、外箱尺寸與毛重；來源沒有明示軸序時不自行推定。既有家電與床包、棉被、枕頭維持 cm／kg，滑鼠、鍵盤與滑鼠墊使用 mm／g 並保留來源軸序。滑鼠墊厚度、床包可包覆高度另列；棉被的填充重量與整件淨重分開記錄。冷氣分列室內機與室外機，熱泵複合熱水器分列主機與儲槽。generatedAt 為最新證據批次日期，既有逐筆 checkedAt 與 weightCheckedAt 保留原查核日期，不表示重新查核。",
   "results": [
     {
@@ -10826,6 +10826,84 @@
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
       "weightCheckedAt": "2026-10-29"
+    },
+    {
+      "id": "comforter-ikea-strandmolke-30636962",
+      "category": "comforter",
+      "brand": "IKEA",
+      "model": "306.369.62",
+      "name": "STRANDMOLKE 12 TOG 特暖被 200×200 cm（306.369.62）",
+      "dimension": "尺寸：長 200 x 寬 200 cm",
+      "fillWeight": "填充重量：2.2 kg",
+      "sourceUrl": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/duvets/strandmolke-art-30636962",
+      "sourceTitle": "STRANDMOLKE - 特暖被，200x200 公分 | IKEA 線上購物",
+      "evidenceSnippet": "原頁「產品尺寸」明列「長度: 200 公分；寬度: 200 公分；填充物重量: 2200 公克；總重量: 3370 公克」。公分與cm同單位，公克除以1000換成kg，故本站記錄「尺寸：長 200 x 寬 200 cm」及「填充重量：2.2 kg」。這是產品本體資料，與下方平整包裝尺寸及重量分開，不採包裝數字。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-10-30",
+      "weight": "重量：3.37 kg",
+      "weightSourceUrl": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/duvets/strandmolke-art-30636962",
+      "weightSourceTitle": "STRANDMOLKE - 特暖被，200x200 公分 | IKEA 線上購物",
+      "weightEvidenceSnippet": "原頁「產品尺寸」總重量為 3370 公克，3370 ÷ 1000 = 3.37 kg，故本站記錄「重量：3.37 kg」；填充物重量另為 2200 公克，換成「填充重量：2.2 kg」。這是整件被子的重量，不採下方平整包裝區的淨重或毛重。",
+      "weightConfidence": "high",
+      "weightIsOfficialSource": true,
+      "weightCheckedAt": "2026-10-30"
+    },
+    {
+      "id": "comforter-ikea-strandmolke-50636961",
+      "category": "comforter",
+      "brand": "IKEA",
+      "model": "506.369.61",
+      "name": "STRANDMOLKE 12 TOG 特暖被 150×200 cm（506.369.61）",
+      "dimension": "尺寸：長 200 x 寬 150 cm",
+      "fillWeight": "填充重量：1.65 kg",
+      "sourceUrl": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/duvets/strandmolke-art-50636961",
+      "sourceTitle": "STRANDMOLKE - 特暖被，150x200 公分 | IKEA 線上購物",
+      "evidenceSnippet": "原頁「產品尺寸」明列「長度: 200 公分；寬度: 150 公分；填充物重量: 1650 公克；總重量: 2540 公克」。公分與cm同單位，公克除以1000換成kg，故本站記錄「尺寸：長 200 x 寬 150 cm」及「填充重量：1.65 kg」。這是產品本體資料，與下方平整包裝尺寸及重量分開，不採包裝數字。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-10-30",
+      "weight": "重量：2.54 kg",
+      "weightSourceUrl": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/duvets/strandmolke-art-50636961",
+      "weightSourceTitle": "STRANDMOLKE - 特暖被，150x200 公分 | IKEA 線上購物",
+      "weightEvidenceSnippet": "原頁「產品尺寸」總重量為 2540 公克，2540 ÷ 1000 = 2.54 kg，故本站記錄「重量：2.54 kg」；填充物重量另為 1650 公克，換成「填充重量：1.65 kg」。這是整件被子的重量，不採下方平整包裝區的淨重或毛重。",
+      "weightConfidence": "high",
+      "weightIsOfficialSource": true,
+      "weightCheckedAt": "2026-10-30"
+    },
+    {
+      "id": "oven-panasonic-nn-bs8dk",
+      "category": "oven",
+      "brand": "Panasonic",
+      "model": "NN-BS8DK",
+      "name": "30L 智慧4in1蒸烘烤微波爐（台灣公司貨）",
+      "dimension": "尺寸：寬 49.4 x 深 48.1 x 高 37 cm",
+      "sourceUrl": "https://www.3cu.com.tw/zh-hant/products/nnbs8dk",
+      "sourceTitle": "信源NN-BS8DK原頁產品規格圖",
+      "evidenceSnippet": "人工檢視原商品規格圖3cu-2：型號NN-BS8DK，高370mm、寬494mm、深481mm（含把手深度），重量19.8kg；本體非外箱。Panasonic官頁web尺寸數值相符，但採可保存的台灣通路圖證為medium。",
+      "confidence": "medium",
+      "isOfficialSource": false,
+      "checkedAt": "2026-10-30",
+      "weight": "重量：19.8 kg",
+      "weightSourceUrl": "https://www.3cu.com.tw/zh-hant/products/nnbs8dk",
+      "weightSourceTitle": "信源NN-BS8DK原頁產品重量表",
+      "weightEvidenceSnippet": "同exact-model原頁圖表列重量約19.8kg，與Panasonic官頁web相符；未採他通路19.0kg或22.4kg毛重。",
+      "weightConfidence": "medium",
+      "weightIsOfficialSource": false,
+      "weightCheckedAt": "2026-10-30",
+      "checkedSources": [
+        {
+          "url": "https://www.3cu.com.tw/zh-hant/products/nnbs8dk",
+          "title": "信源原型號完整規格與安裝圖",
+          "localEvidence": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-10-30/nnbs8/3cu-2.png",
+          "outcome": "型號、明示軸序、本體尺寸重量與AC110V60Hz人工視讀；上方散熱圖另存3cu-3.png。"
+        },
+        {
+          "url": "https://www.panasonic.com/tw/consumer/kitchen/microwave/nn-bs8d.html",
+          "title": "Panasonic台灣NN-BS8DK",
+          "outcome": "web原頁尺寸重量相符；direct403，未假稱直接抓取成功。"
+        }
+      ]
     }
   ]
 }

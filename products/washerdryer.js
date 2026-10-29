@@ -15,10 +15,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/3a594d8137-Gd-10216764.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 19467,
-      "converted": 19467,
-      "confidence": "2026-10-28 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
-      "note": "2026-10-29 覆核所選通路同型號新品公開價 NT$19,467。原頁主商品現省9433、原28900、現價19467並有立即購買；保留當前顯示價，實際成交依官方商城。不含個人券、點數或信用卡回饋。",
+      "amount": 20900,
+      "converted": 20900,
+      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "note": "2026-10-30 LG 台灣官方 WD-S90VDW 公開特價20,900元（原價28,900元），可立即購買；配送與定位條件購前向官方確認。未扣個人券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -329,9 +329,11 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/16E678AC30-SP-17622644.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 12490,
-      "converted": 12490,
-      "confidence": "2026-10-26 人工覆核同型號同版本來源與銷售狀態；價格適用條件及保留舊參考價的原因見註記與維護報告。"
+      "amount": 11900,
+      "converted": 11900,
+      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-30 人工覆核所選通路同型號新品公開價 NT$11,900。未扣個人折價券、點數或信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -433,9 +435,11 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/DF4F3C1217-SP-22420772.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 19900,
-      "converted": 19900,
-      "confidence": "Yahoo購物中心 2026-08-04 exact-model 公開結構化價格"
+      "amount": 18507,
+      "converted": 18507,
+      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-30 人工覆核所選通路同型號新品公開價 NT$18,507。公開單件活動價有效至2026-12-31 23:59:59+08:00。未扣個人折價券、點數或信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -477,16 +481,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 19900,
+      "amount": 18507,
       "currency": "TWD",
-      "converted": 19900,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1273421832&cgp=19900",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Samsung 三星】12KG AI衣管家蒸洗脫烘滾筒洗衣機 (WD12T504DBN/TW)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Samsung 三星】12KG AI衣管家蒸洗脫烘滾筒洗衣機 (WD12T504DBN/TW)」最低價為 NT$19,900，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 18507,
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/SAMSUNG%E4%B8%89%E6%98%9F-12%E5%85%AC%E6%96%A4%E8%92%B8%E6%B4%97%E8%84%AB%E7%83%98%E6%BB%BE%E7%AD%92%E7%81%B0%E8%89%B2%E6%B4%97%E8%A1%A3%E6%A9%9F-WD12T504DBN-12045641.html",
+      "sourceTitle": "Yahoo購物中心：SAMSUNG三星 12公斤蒸洗脫烘滾筒灰色洗衣機(WD12T504DBN) | 變頻11-13KG | Yahoo購物中心",
+      "evidenceSnippet": "Yahoo購物中心於 2026-10-30 顯示同型號可信新品公開價 NT$18,507，低於既有史低 NT$19,900。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-10-30",
+      "note": "採用 Yahoo購物中心當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -749,7 +753,7 @@
       "converted": 43563,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-29 覆核所選通路同型號新品公開價 NT$43,563。單件活動價有效至2026-10-29 08:29:59（台灣時間）。不含個人券、點數或信用卡回饋。"
+      "note": "2026-10-30 人工覆核所選通路同型號新品公開價 NT$43,563。公開單件活動價有效至2026-10-30 08:29:59+08:00。未扣個人折價券、點數或信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1692,7 +1696,7 @@
       "amount": 35803,
       "converted": 35803,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-29 覆核所選通路同型號新品公開價 NT$35,803。單件活動價有效至2026-10-29 08:00:59（台灣時間）。不含個人券、點數或信用卡回饋。",
+      "note": "2026-10-30 人工覆核所選通路同型號新品公開價 NT$35,803。公開單件活動價有效至2026-10-30 08:00:59+08:00。未扣個人折價券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -3045,7 +3049,7 @@
       "converted": 46000,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-29 覆核所選通路同型號新品公開價 NT$46,000。單件活動價有效至2026-10-29 08:00:59（台灣時間）。不含個人券、點數或信用卡回饋。"
+      "note": "2026-10-30 人工覆核所選通路同型號新品公開價 NT$46,000。公開單件活動價有效至2026-10-30 08:00:59+08:00。未扣個人折價券、點數或信用卡回饋。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DPAID7A900IHEVX/000001_1776657918.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/BOSCH%E5%8D%9A%E4%B8%96-10-7%E5%85%AC%E6%96%A4%E9%AB%98%E6%95%88%E6%99%BA%E6%85%A7%E6%BB%BE%E7%AD%92%E6%B4%97%E8%84%AB%E7%83%98-%E5%90%AB%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-220V%E6%8B%89%E9%9B%BB-WNC554A0TC-11546320.html",

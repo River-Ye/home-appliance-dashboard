@@ -225,7 +225,7 @@
       "converted": 8590,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-29 PURVIVE-H300NXT升級不鏽鋼龍頭同款主商品公開8590元，可立即購買。 未扣個人券、點數或信用卡回饋。"
+      "note": "2026-10-30 PURVIVE-H300NXT升級不鏽鋼龍頭完整原主商品8590元可購；150點換券/回饋不計入。 未扣個人券、點數或信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -845,7 +845,7 @@
       "amount": 16020,
       "converted": 16020,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-29 mypure GR1000主商品網路17800元、公開任選1件9折16020元，頁載10/28–10/29優惠及免費基本到府安裝。 未扣個人券、點數或信用卡回饋。",
+      "note": "2026-10-30 mypure GR1000原主商品17800元，公開單件9折16020元至10/30 07:59:59，含基本到府安裝。 未扣個人券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -1356,7 +1356,7 @@
       "amount": 25020,
       "converted": 25020,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-29 P0563主商品網路27800元、公開任選1件9折25020元，頁載10/28–10/29優惠；可加入購物車，獨立結帳。 未扣個人券、點數或信用卡回饋。",
+      "note": "2026-10-30 P0563原主商品27800元，公開單件9折25020元至10/30 07:59:59。 未扣個人券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -1563,7 +1563,7 @@
       "amount": 30600,
       "converted": 30600,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-29 EVB-298-E主商品網路34000元、公開任選1件9折30600元，頁載10/28–10/29優惠。 未扣個人券、點數或信用卡回饋。",
+      "note": "2026-10-30 EVB-298-E完整廚下雙溫UV觸控原主商品34000元，公開單件9折30600元至10/30 07:59:59。 未扣個人券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBE1FA900GSOLN/000001_1698896380.jpg",
@@ -1857,7 +1857,7 @@
       "amount": 33129,
       "converted": 33129,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-29 P0531主商品網路36810元、公開任選1件9折33129元，頁載10/28–10/29優惠、贈到府基本安裝。 未扣個人券、點數或信用卡回饋。",
+      "note": "2026-10-30 P0531原主商品36810元，公開單件9折33129元至10/30 07:59:59，含基本安裝。 未扣個人券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMCI0OA900JT66N/000001_1773306819.png",
@@ -2051,7 +2051,7 @@
       "amount": 23500,
       "converted": 23500,
       "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
-      "note": "2026-10-29 DWH30A主商品公開23500元；原21855元93折在今日07:00:59結束，當前僅回饋與點換券，不折入價格。 未扣個人券、點數或信用卡回饋。",
+      "note": "2026-10-30 BWT DWH30A原主商品23500元可購；未計需點換券及品牌贈點。 未扣個人券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWB8A900BVEOG/000001_1760685693.jpg",
@@ -2147,8 +2147,8 @@
     "price": {
       "currency": "USD",
       "amount": 449.99,
-      "converted": 14597,
-      "confidence": "2026-10-24 人工核對 www.brondell.com 同型號與所選版本公開價 USD 449.99，可下單；未扣會員、信用卡或點數。；ExchangeRate-API 2026-10-28 匯率換算"
+      "converted": 14587,
+      "confidence": "2026-10-24 人工核對 www.brondell.com 同型號與所選版本公開價 USD 449.99，可下單；未扣會員、信用卡或點數。；ExchangeRate-API 2026-10-29 匯率換算"
     },
     "image": "https://cdn11.bigcommerce.com/s-mpfo2gcqca/images/stencil/1280x1280/products/560/5775/brondell-circle-rc100-reverse-osmosis-system-faucet.jpg__76718.1789593792.jpg?c=1",
     "buyUrl": "https://www.brondell.com/circle-reverse-osmosis-water-filter-system/",
@@ -2184,14 +2184,14 @@
       "status": "found",
       "amount": 289.99,
       "currency": "USD",
-      "converted": 9407,
+      "converted": 9400,
       "sourceUrl": "https://www.costco.com/CategoryDisplay?catalogId=10701&identifier=water-dispensers-filtration-water-filtration&storeId=10301",
       "sourceTitle": "Costco US：Brondell Circle Reverse Osmosis Water Filtration System",
       "evidenceSnippet": "Costco US exact-model 分類頁於 2026-08-28 顯示 Brondell Circle 折後 US$289.99，原價 US$369.99，優惠 US$80。",
       "sourceKind": "retailer_promo",
       "confidence": "medium",
       "checkedAt": "2026-08-28",
-      "note": "採 Costco US 公開 exact-model 折價作為本次可重現最低觀測價；未含國際運費、進口稅、耗材與台灣安裝／保固風險；依 2026-10-28 USD/TWD 匯率換算。"
+      "note": "採 Costco US 公開 exact-model 折價作為本次可重現最低觀測價；未含國際運費、進口稅、耗材與台灣安裝／保固風險；依 2026-10-29 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "common_issue",
@@ -2544,7 +2544,7 @@
       "amount": 25920,
       "converted": 25920,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-29 USB10B主商品網路28800元、公開任選1件9折25920元，頁載10/28–10/29優惠。 未扣個人券、點數或信用卡回饋。",
+      "note": "2026-10-30 GE USB10B原主商品28800元，公開單件9折25920元至10/30 07:59:59；220V版本保留。 未扣個人券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWHTA900JVB6I/000001_1775031754.jpg",
@@ -4004,7 +4004,7 @@
       "converted": 44712,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-29 BD-3006BF-RO完整主商品網路49680元、公開任選1件9折44712元，頁載10/28–10/29優惠及免費標準安裝。 未扣個人券、點數或信用卡回饋。"
+      "note": "2026-10-30 BD-3006BF-RO完整RO冷熱機組網路49680元，公開單件9折44712元至10/30 07:59:59，含標準安裝。 未扣個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWFHA900F2DDI/000001_1692262957.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAWFH-A900F2DDI",

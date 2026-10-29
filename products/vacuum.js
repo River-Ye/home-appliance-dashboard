@@ -2227,8 +2227,8 @@
     "price": {
       "currency": "USD",
       "amount": 679.99,
-      "converted": 22058,
-      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-10-28 匯率換算"
+      "converted": 22043,
+      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-10-29 匯率換算"
     },
     "image": "https://m.media-amazon.com/images/I/61Yuy5vtWFL._AC_SL1500_.jpg",
     "buyUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
@@ -2267,14 +2267,14 @@
       "status": "found",
       "amount": 679.99,
       "currency": "USD",
-      "converted": 22058,
+      "converted": 22043,
       "sourceUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
       "sourceTitle": "Dreame Aero Ultra Steam Wet Dry Vacuum – Dreame Vacuum Mop",
       "evidenceSnippet": "Dreame 原廠美國商品頁於 2026-07-16 公開顯示特價 US$679.99、原價 US$799.99，且可 Add to Cart / Buy It Now。",
       "sourceKind": "official_sale",
       "confidence": "high",
       "checkedAt": "2026-07-16",
-      "note": "新上市商品目前可公開驗證的最低售價；未套用會員碼、信用卡、點數或個人化折扣，且未含國際運費、進口稅、插頭／供電與台灣保固風險；依 2026-10-28 USD/TWD 匯率換算。"
+      "note": "新上市商品目前可公開驗證的最低售價；未套用會員碼、信用卡、點數或個人化折扣，且未含國際運費、進口稅、插頭／供電與台灣保固風險；依 2026-10-29 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2642,7 +2642,7 @@
       "converted": 13900,
       "confidence": "新光三越 skm online 2026-08-20 exact-model 台灣新品頁公開售價",
       "basis": "retailer_current",
-      "note": "2026-10-19 原新光三越購買頁已失效，官方仍列此型號但現售通路未確認；保留上次參考價，非本次確認現價。"
+      "note": "2026-10-30 所選通路未能確認可購現價，保留舊參考價 NT$13,900。既有新光三越連結本次404，原價13900保留參考，未有官方明示整型停產，繼續追蹤可購exact替代連結。未扣個人折價券、點數或信用卡回饋。"
     },
     "image": "https://images.samsung.com/is/image/samsung/p6pim/tw/vs70h18gzg-tw/gallery/tw-jet-fit-stick-vs70h18gzg-tw-550961394?$624_468_PNG$",
     "buyUrl": "https://online.skm.com.tw/product/863012300004104123",
@@ -3278,6 +3278,102 @@
         }
       ]
     }
-  }
+  },
+{
+  "id": "vacuum-plusminuszero-xjc-g040",
+  "category": "vacuum",
+  "brand": "Plus Minus Zero",
+  "model": "XJC-G040",
+  "name": "輕量無線吸塵器（台灣公司貨）",
+  "rank": 35,
+  "topPick": false,
+  "budget": "mid",
+  "channel": "tw",
+  "price": {
+    "currency": "TWD",
+    "amount": 4831,
+    "converted": 4831,
+    "basis": "retailer_current",
+    "confidence": "2026-10-30 momo官方直營14743779 exact-model原頁4831元，Chrome可見直接購買及放入購物車皆可用。",
+    "note": "momo官方直營XJC-G040完整主機，10/16–10/31公開滿1件88折4831元（基價5490）；未扣個人折價券、登錄mo幣或信用卡回饋。活動及庫存依通路，不把官方補貨中或PChome已售完4941當可購價。"
+  },
+  "installation": {
+    "status": "not_stated",
+    "note": "不需固定安裝；使用隨附原廠AC適配器充電，依原廠說明選擇平穩乾燥位置收納。未列到府安裝服務。"
+  },
+  "image": "https://cs-a.ecimg.tw/items/DMAX3NA900JT0RG/000001_1773215570.jpg",
+  "buyUrl": "https://www.momoshop.com.tw/product/14743779",
+  "buyLabel": "momo官方直營",
+  "specs": [
+    "類型：充電式無線乾式吸塵器，可組合直立／手持；台灣公司貨XJC-G040",
+    "馬達／吸頭：無刷直流馬達；地板吸頭可水平伸入家具下並轉向，並非濕拖或洗地機",
+    "續航：充飽標準模式約57分鐘、強力約16分鐘、超強力約11分鐘；不同檔位與使用條件不能混比",
+    "集塵：0.45L集塵杯；G040專用濾網與耗材需依型號選購",
+    "充電：約2.5小時；鋰離子電池，原廠AC適配器輸入100–240V／50–60Hz／0.6A，輸出DC15V／1.0A",
+    "尺寸：手提組件高40.7 × 寬10 × 深13.4 cm；裝長吸頭＋地板吸頭高96.5 × 寬22 × 深13.4 cm，依官方明示軸序",
+    "重量：手提組件約0.8 kg，裝長吸頭＋地板吸頭約1.2 kg；含收納架組重量約2.3 kg，不當整機操作重量",
+    "使用環境：原廠規格5–35°C；電源線約1.8m",
+    "配件：變壓器、鐵製立架、電池、刷頭、說明書及保固卡依所選momo單一規格頁；加購商品不算隨附",
+    "售後：台灣總代理群光電子，所選通路1年保固；官方維修客服0800-066-006，耗材及備品可向官方客服查詢"
+  ],
+  "description": "補充既有XJC-Y011以外的輕量乾式清掃選擇。完整長管／地板吸頭組約1.2kg，適合重視拿取與搬運負擔的日常毛髮、碎屑清理；與大容量、高功率或具洗地功能的機款分開比較。這是2023台灣上市機型的本輪補收，不稱為2026新發表。",
+  "pros": [
+    "長管與地板吸頭組約1.2kg，手提組件約0.8kg，重量邊界明確",
+    "約2.5小時充電，標準57／強力16／超強力11分鐘可按用途比較",
+    "台灣官方完整規格與在地維修入口可核，momo官方直營可購"
+  ],
+  "cons": [
+    "0.45L集塵杯較小，大面積清潔需更頻繁清空",
+    "57分鐘是標準模式，超強力模式約11分鐘",
+    "乾式清掃無濕拖／自動集塵；地毯與重污需求宜先現場試用吸頭阻力與清潔效率"
+  ],
+  "bestFor": "需要輕量拿取、上下樓搬動或小空間日常乾式清掃，並願意手動清理集塵杯與濾網的人。",
+  "recommendation": "作為輕量乾式清掃的補充比較；保留較低價的XJC-Y011，按整機重量、強力檔續航與集塵容量選擇，不以日系品牌或外觀代替吸力與地毯實測。",
+  "releaseDate": "2023",
+  "historicalLow": {
+    "status": "not_found",
+    "amount": null,
+    "currency": "TWD",
+    "converted": null,
+    "sourceUrl": "",
+    "sourceTitle": "",
+    "evidenceSnippet": "",
+    "sourceKind": "not_found",
+    "confidence": "not_found",
+    "checkedAt": "2026-10-30",
+    "note": "已人工查BigGo、FindPrice的XJC-G040比價與可信新品原頁；比價頁混有濾網、電池與私人拍賣，未取得可追溯時間的同款可信新品價格歷史。momo4831是本日10/16–10/31公開單件價，只作現價；PChome直營4941已售完，官方5490補貨中；PTT2000二手及4000私人贈品轉售均排除。不用現價或搜尋摘要製造史低。"
+  },
+  "issueResearch": {
+    "status": "no_common_issue",
+    "checkedAt": "2026-10-30",
+    "summary": "截至查核日，查無達門檻的集中負評／災情",
+    "issues": [],
+    "checkedSources": [
+      {
+        "platform": "Mobile01",
+        "targetHost": "mobile01.com",
+        "query": "\"XJC-G040\" site:mobile01.com/topicdetail.php",
+        "queryUrl": "https://www.google.com/search?q=%22XJC-G040%22%20site%3Amobile01.com/topicdetail.php"
+      },
+      {
+        "platform": "PTT",
+        "targetHost": "ptt.cc",
+        "query": "\"XJC-G040\" site:ptt.cc/bbs/E-appliance/",
+        "queryUrl": "https://www.google.com/search?q=%22XJC-G040%22%20site%3Aptt.cc/bbs/E-appliance/"
+      }
+    ]
+  },
+  "score": 80,
+  "voltage": "台灣官方XJC-G040原廠AC適配器輸入100–240V、50/60Hz、0.6A；輸出DC15V、1.0A。使用所附台灣公司貨充電器。",
+  "warranty": "所選momo官方直營頁1年保固；台灣總代理群光電子，官方維修客服0800-066-006，保留購買憑證。未將未重新確認的登錄延長保固當基本保固。",
+  "tags": [
+    "輕量乾式",
+    "手持／直立",
+    "1.2kg整機",
+    "0.45L",
+    "台灣公司貨",
+    "非洗地機"
+  ]
+}
 ]);
 })();

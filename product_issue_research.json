@@ -1,9 +1,9 @@
 {
   "summary": {
-    "checkedAt": "2026-10-29T07:25:40.103+08:00",
-    "total": 1224,
+    "checkedAt": "2026-10-30T07:16:32.348+08:00",
+    "total": 1228,
     "commonIssueProducts": 54,
-    "noCommonIssueProducts": 1170,
+    "noCommonIssueProducts": 1174,
     "pendingManualReview": 0,
     "commonIssues": 55,
     "searchUnavailable": 614,
@@ -32,7 +32,8 @@
       "2026-10-24第二次維護僅新增KBKCV6UD1台灣注音紅軸V6Ultra跨站人工負評覆核；已讀官店及13個Reddit原頁共14候選。官店一名同紅軸無線失效、海外紅軸持續輸入/CapsLock凍結及按壓阻力個案已分別揭露；地區SKU/症狀不同或不明，不合併成6人/2原站。原1218筆研究及386名逐人證據保留真實日期。",
       "2026-10-26後續維護僅新增BenQ RD320U的25原頁跨站人工覆核；2名白綠線、1名亮暗點、1名接縫及KVM/軟體各別個案按症狀分開，沒有同問題6人/2原站。其餘1219筆逐型研究及386名集中問題逐人證據保留原日期；不宣稱全站同日重讀。",
       "2026-10-28晚間只新增H600及ASD-100UA逐型跨站人工覆核；ASD-100UA以Mobile01五位與Yahoo一位成立主觀運轉噪音警示，未泛稱全部機器故障。H600之Paine候選為W30S自用、僅表格提及本型而排除。原1220筆研究與386筆逐人證據保留真實日期。",
-      "2026-10-29僅新增兩款逐型跨站人工問題覆核；Ninja原頁星等不計故障，Q11 Ultra海外家族個案未確認台灣選定紅軸，不借用跨區域或軸體報告。既有1222筆問題研究與392筆逐人報告保留真實日期及內容。"
+      "2026-10-29僅新增兩款逐型跨站人工問題覆核；Ninja原頁星等不計故障，Q11 Ultra海外家族個案未確認台灣選定紅軸，不借用跨區域或軸體報告。既有1222筆問題研究與392筆逐人報告保留真實日期及內容。",
+      "2026-10-30僅新增本批4款的逐型跨站人工覆核；其他1224筆及392筆逐人報告保留原始研究日期與內容，不跨尺寸、版本、相近型號轉借結論。"
     ]
   },
   "results": [
@@ -219286,6 +219287,907 @@
           "reviewedAt": "2026-10-29",
           "reviewBasis": "manual_web_original_page",
           "locator": "shoegazedreampop主文、無save回覆及VID3434/PID12B0回覆。"
+        }
+      ]
+    },
+    {
+      "id": "comforter-ikea-strandmolke-30636962",
+      "category": "comforter",
+      "brand": "IKEA",
+      "model": "306.369.62",
+      "name": "STRANDMOLKE 12 TOG 特暖被 200×200 cm（306.369.62）",
+      "identity": {
+        "canonicalModel": "306.369.62",
+        "lookupLabel": "IKEA 306.369.62",
+        "aliases": [
+          "306.369.62",
+          "IKEA 306.369.62"
+        ],
+        "evidenceUrl": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/duvets/strandmolke-art-30636962"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-10-30",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"STRANDMOLKE\" \"306.369.62\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22STRANDMOLKE%22%20%22306.369.62%22"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"STRANDMOLKE\" \"306.369.62\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22STRANDMOLKE%22%20%22306.369.62%22"
+          }
+        ],
+        "candidateDisposition": "306.369.62：本次人工逐一閱讀Mobile01與PTT兩組完整STRANDMOLKE尺寸SKU查詢，均無通過型號邊界的原頁候選；未把無候選等同完全沒有負評。",
+        "representativeSources": [],
+        "reviewerNote": "306.369.62完整型號跨兩個獨立網站查詢於本次確實執行；兩站無原頁候選，故無作者可計入，未沿用其他尺寸或其他暖度結論。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate",
+        "candidateReviews": [],
+        "reviewBatch": "comforter"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-10-30",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"STRANDMOLKE\" \"306.369.62\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22STRANDMOLKE%22%20%22306.369.62%22"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"STRANDMOLKE\" \"306.369.62\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22STRANDMOLKE%22%20%22306.369.62%22"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"STRANDMOLKE\" \"306.369.62\"",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22STRANDMOLKE%22%20%22306.369.62%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-10-29T23:05:44.727628+00:00",
+          "note": "306.369.62完整型號與家族名經人工檢視無該SKU原始使用者回報候選。"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"STRANDMOLKE\" \"306.369.62\"",
+          "searchUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22STRANDMOLKE%22%20%22306.369.62%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-10-29T23:05:44.727628+00:00",
+          "note": "306.369.62完整型號與家族名經人工檢視無該SKU原始使用者回報候選。"
+        }
+      ],
+      "evidence": [],
+      "reports": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "comforter-ikea-strandmolke-50636961",
+      "category": "comforter",
+      "brand": "IKEA",
+      "model": "506.369.61",
+      "name": "STRANDMOLKE 12 TOG 特暖被 150×200 cm（506.369.61）",
+      "identity": {
+        "canonicalModel": "506.369.61",
+        "lookupLabel": "IKEA 506.369.61",
+        "aliases": [
+          "506.369.61",
+          "IKEA 506.369.61"
+        ],
+        "evidenceUrl": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/duvets/strandmolke-art-50636961"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-10-30",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"STRANDMOLKE\" \"506.369.61\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22STRANDMOLKE%22%20%22506.369.61%22"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"STRANDMOLKE\" \"506.369.61\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22STRANDMOLKE%22%20%22506.369.61%22"
+          }
+        ],
+        "candidateDisposition": "506.369.61：本次人工逐一閱讀Mobile01與PTT兩組完整STRANDMOLKE尺寸SKU查詢，均無通過型號邊界的原頁候選；未把無候選等同完全沒有負評。",
+        "representativeSources": [],
+        "reviewerNote": "506.369.61完整型號跨兩個獨立網站查詢於本次確實執行；兩站無原頁候選，故無作者可計入，未沿用其他尺寸或其他暖度結論。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate",
+        "candidateReviews": [],
+        "reviewBatch": "comforter"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-10-30",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"STRANDMOLKE\" \"506.369.61\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22STRANDMOLKE%22%20%22506.369.61%22"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"STRANDMOLKE\" \"506.369.61\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22STRANDMOLKE%22%20%22506.369.61%22"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"STRANDMOLKE\" \"506.369.61\"",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22STRANDMOLKE%22%20%22506.369.61%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-10-29T23:05:44.727628+00:00",
+          "note": "506.369.61完整型號與家族名經人工檢視無該SKU原始使用者回報候選。"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"STRANDMOLKE\" \"506.369.61\"",
+          "searchUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22STRANDMOLKE%22%20%22506.369.61%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-10-29T23:05:44.727628+00:00",
+          "note": "506.369.61完整型號與家族名經人工檢視無該SKU原始使用者回報候選。"
+        }
+      ],
+      "evidence": [],
+      "reports": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "oven-panasonic-nn-bs8dk",
+      "category": "oven",
+      "brand": "Panasonic",
+      "model": "NN-BS8DK",
+      "name": "30L 智慧4in1蒸烘烤微波爐（台灣公司貨）",
+      "identity": {
+        "canonicalModel": "NN-BS8DK",
+        "lookupLabel": "Panasonic NN-BS8DK",
+        "aliases": [
+          "Panasonic NN-BS8DK",
+          "NN BS8DK"
+        ],
+        "evidenceUrl": "https://www.yk01.com.tw/products/nnbs8dk"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "id": "oven-panasonic-nn-bs8dk",
+        "category": "oven",
+        "brand": "Panasonic",
+        "model": "NN-BS8DK",
+        "name": "30L 智慧4in1蒸烘烤微波爐（台灣公司貨）",
+        "status": "completed",
+        "reviewedAt": "2026-10-30",
+        "reviewBatch": "oven",
+        "decision": "no_common_issue",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"NN-BS8DK\" (故障 OR 問題 OR 心得)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NN-BS8DK%22%20%28%E6%95%85%E9%9A%9C%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E5%BF%83%E5%BE%97%29"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"NN-BS8DK\" (故障 OR 問題 OR 心得)",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NN-BS8DK%22%20%28%E6%95%85%E9%9A%9C%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E5%BF%83%E5%BE%97%29"
+          }
+        ],
+        "candidateDisposition": "NN-BS8DK：人工跨Mobile01與PTT exact-model查詢；Mobile01唯一候選為秋季新品報導，已回原站逐頁核對3頁/#1–21，PTT查詢未見exact候選。新聞報導、一般新品感想及MC-NXH70缺貨留言均未計作本型故障；未達同型號同問題6人跨2原始站，不表示完全沒有負評。",
+        "representativeSources": [
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7302023",
+            "title": "Panasonic 秋季新品一次看：從洗衣、除濕、料理到毛孩日常，重新安排家的舒適感"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7302023&p=2",
+            "title": "Panasonic 秋季新品一次看 第2頁"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7302023&p=3",
+            "title": "Panasonic 秋季新品一次看 第3頁"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7302023",
+            "title": "Panasonic 秋季新品一次看：從洗衣、除濕、料理到毛孩日常，重新安排家的舒適感",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "sourceExcerpt": "原文樓主Deelin在調理段並列NN-BS10EK與NN-BS8DK，介紹紅外線感測、蒸氣和旋風微波等新品展示；第2至10樓為感謝、外型或品牌/APP期待，未有本型第一人稱故障敘述。",
+            "specificReason": "此候選包含完整台灣型號但屬展場新品報導；記者與一般回應者不能當本型持有人，同篇推薦45分也不是45位故障作者；沒有可計入同一問題的第一人稱原始回報。",
+            "locator": "主文#1（Deelin，文章93581346）調理段NN-BS8DK；同頁#2–10各原始回覆。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-10-30",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7302023&p=2",
+            "title": "Panasonic 秋季新品一次看 第2頁",
+            "exactModel": false,
+            "independentAuthors": 0,
+            "sourceExcerpt": "第18樓etonline（文章93596697）只是感嘆蒸烤微波爐終於更新；第13樓我是雪莉詢問銀色門框機種是否會進台灣；其餘11–20樓為一般外觀/品牌或電鍋議論。",
+            "specificReason": "沒有確認NN-BS8DK持有人或第一人稱問題；不把新品感想、未明日本型號照片或電鍋年份議論套到所選台灣微波爐。",
+            "locator": "#13我是雪莉/93583588；#15yisen2994/93589246；#18etonline/93596697；#11–20。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-10-30",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7302023&p=3",
+            "title": "Panasonic 秋季新品一次看 第3頁",
+            "exactModel": false,
+            "independentAuthors": 0,
+            "sourceExcerpt": "第21樓stevengis（文章93663229）在10月21日詢問MC-NXH70吸塵器為何尚未在PChome與momo找到。",
+            "specificReason": "發言明確是MC-NXH70通路供貨問題，不是NN-BS8DK，更不是本型第一人稱故障；不跨分類累計人數。",
+            "locator": "#21 stevengis/93663229，2026-10-21 10:37。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-10-30",
+            "reviewBasis": "manual_web_original_page"
+          }
+        ],
+        "reviewerNote": "NN-BS8DK：由人工閱讀搜尋候選與Mobile01三頁原文後決策，未從空白批次搜尋自動判定。Deelin新品介紹不證持有；etonline更新感想沒有具體使用問題；stevengis談吸塵器而非微波爐。兩站查詢獨立，Mobile01三頁仍只是一站。直接HTTP403但web原頁可讀已保留抓取限制與web原文證據。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-10-30",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"NN-BS8DK\" (故障 OR 問題 OR 心得)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NN-BS8DK%22%20%28%E6%95%85%E9%9A%9C%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E5%BF%83%E5%BE%97%29"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"NN-BS8DK\" (故障 OR 問題 OR 心得)",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NN-BS8DK%22%20%28%E6%95%85%E9%9A%9C%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E5%BF%83%E5%BE%97%29"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"NN-BS8DK\" (故障 OR 問題 OR 心得)",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NN-BS8DK%22%20%28%E6%95%85%E9%9A%9C%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E5%BF%83%E5%BE%97%29",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=168&t=7302023"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7302023",
+              "title": "Panasonic 秋季新品一次看：從洗衣、除濕、料理到毛孩日常，重新安排家的舒適感"
+            }
+          ],
+          "inspectedAt": "2026-10-29T23:14:03.185289+00:00"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"NN-BS8DK\" (故障 OR 問題 OR 心得)",
+          "searchUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NN-BS8DK%22%20%28%E6%95%85%E9%9A%9C%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E5%BF%83%E5%BE%97%29",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-10-29T23:14:03.185289+00:00"
+        }
+      ],
+      "evidence": [],
+      "reports": [],
+      "rejectedCandidates": [
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7302023",
+          "title": "Panasonic 秋季新品一次看：從洗衣、除濕、料理到毛孩日常，重新安排家的舒適感",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "sourceExcerpt": "原文樓主Deelin在調理段並列NN-BS10EK與NN-BS8DK，介紹紅外線感測、蒸氣和旋風微波等新品展示；第2至10樓為感謝、外型或品牌/APP期待，未有本型第一人稱故障敘述。",
+          "specificReason": "此候選包含完整台灣型號但屬展場新品報導；記者與一般回應者不能當本型持有人，同篇推薦45分也不是45位故障作者；沒有可計入同一問題的第一人稱原始回報。",
+          "locator": "主文#1（Deelin，文章93581346）調理段NN-BS8DK；同頁#2–10各原始回覆。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-10-30",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "此候選包含完整台灣型號但屬展場新品報導；記者與一般回應者不能當本型持有人，同篇推薦45分也不是45位故障作者；沒有可計入同一問題的第一人稱原始回報。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7302023&p=2",
+          "title": "Panasonic 秋季新品一次看 第2頁",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "sourceExcerpt": "第18樓etonline（文章93596697）只是感嘆蒸烤微波爐終於更新；第13樓我是雪莉詢問銀色門框機種是否會進台灣；其餘11–20樓為一般外觀/品牌或電鍋議論。",
+          "specificReason": "沒有確認NN-BS8DK持有人或第一人稱問題；不把新品感想、未明日本型號照片或電鍋年份議論套到所選台灣微波爐。",
+          "locator": "#13我是雪莉/93583588；#15yisen2994/93589246；#18etonline/93596697；#11–20。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-10-30",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "沒有確認NN-BS8DK持有人或第一人稱問題；不把新品感想、未明日本型號照片或電鍋年份議論套到所選台灣微波爐。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7302023&p=3",
+          "title": "Panasonic 秋季新品一次看 第3頁",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "sourceExcerpt": "第21樓stevengis（文章93663229）在10月21日詢問MC-NXH70吸塵器為何尚未在PChome與momo找到。",
+          "specificReason": "發言明確是MC-NXH70通路供貨問題，不是NN-BS8DK，更不是本型第一人稱故障；不跨分類累計人數。",
+          "locator": "#21 stevengis/93663229，2026-10-21 10:37。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-10-30",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "發言明確是MC-NXH70通路供貨問題，不是NN-BS8DK，更不是本型第一人稱故障；不跨分類累計人數。"
+        }
+      ]
+    },
+    {
+      "id": "vacuum-plusminuszero-xjc-g040",
+      "category": "vacuum",
+      "brand": "Plus Minus Zero",
+      "model": "XJC-G040",
+      "name": "輕量無線吸塵器（台灣公司貨）",
+      "identity": {
+        "canonicalModel": "XJC-G040",
+        "lookupLabel": "Plus Minus Zero XJC-G040",
+        "aliases": [
+          "Plus Minus Zero XJC-G040",
+          "正負零 XJC-G040",
+          "正負零 G040"
+        ],
+        "evidenceUrl": "https://www.momoshop.com.tw/product/14743779"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-10-30",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT",
+          "PChome",
+          "PIXNET",
+          "iPick"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "\"XJC-G040\" site:mobile01.com/topicdetail.php",
+            "queryUrl": "https://www.google.com/search?q=%22XJC-G040%22%20site%3Amobile01.com/topicdetail.php"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "\"XJC-G040\" site:ptt.cc/bbs/E-appliance/",
+            "queryUrl": "https://www.google.com/search?q=%22XJC-G040%22%20site%3Aptt.cc/bbs/E-appliance/"
+          }
+        ],
+        "candidateDisposition": "XJC-G040：實際以完整型號及G040別名查Mobile01/PTT，回兩頁M01送禮串、M01選購彙整、兩篇PTT轉售與PChome原評價逐一讀取；另處置同作者PIXNET三篇與iPick兩篇。購前提問、功能正常二手、未拆贈品、五星與未具名導購引述均不能計成同一問題的6名獨立使用者。未達跨2個原始網站且6名同型號同問題門檻，不表示完全沒有負評。",
+        "representativeSources": [
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=168&t=6845035",
+            "title": "入厝禮到底要送什麼比較體面"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=728&t=6872076",
+            "title": "無線吸塵器品牌推薦（輕量/大吸力/平價機款都有）"
+          },
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/Tainan/M.1756022881.A.BBB.html",
+            "title": "[交易] 售 正負零 吸塵器 第三代"
+          },
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/Keelung/M.1751279122.A.888.html",
+            "title": "[交易] 正負0無線充電吸塵器，G040，白"
+          },
+          {
+            "platform": "PChome",
+            "url": "https://24h.pchome.com.tw/prod/DMAX20-A900JJXC6",
+            "title": "正負零 XJC-G040 無線吸塵器 白－原商品評價"
+          },
+          {
+            "platform": "PIXNET",
+            "url": "https://fanfan-select.pixnet.net/blog/posts/885503135324451532",
+            "title": "凡凡正負零四款比較"
+          },
+          {
+            "platform": "PIXNET",
+            "url": "https://fanfan-select.pixnet.net/blog/posts/883554268689348055",
+            "title": "凡凡無線吸塵器九款比較"
+          },
+          {
+            "platform": "PIXNET",
+            "url": "https://fanfan-select.pixnet.net/blog/posts/883545336302418638",
+            "title": "凡凡平價無線吸塵器八款比較"
+          },
+          {
+            "platform": "iPick",
+            "url": "https://ipick.tw/cordlessvacuumcleaner/",
+            "title": "iPick無線吸塵器比較"
+          },
+          {
+            "platform": "iPick",
+            "url": "https://ipick.tw/affordablecordlessvacuumcleaner/",
+            "title": "iPick平價無線吸塵器比較"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=168&t=6845035",
+            "title": "入厝禮到底要送什麼比較體面",
+            "sourceExcerpt": "maaaple樓主列XJC-G040、Dibea X9與小米G9 Plus為入厝禮候選；第10樓Tiengap（88272096）回覆曾送朋友首台白色機種，朋友說「除了開最大聲音有點吵以外，都用滿順的」。其餘兩頁為購前提問與送禮建議。",
+            "specificReason": "主文是購前提問；Tiengap是朋友使用感受的二手轉述，未提供該朋友身份或本型第一人稱原帖，單一最大檔噪音感受亦不等同硬體故障。沒有XJC-G040可計入的第一人稱同一問題故障作者，不將兩頁送禮討論累計為6人災情。",
+            "locator": "主文maaaple 2023-09-16 #1；#10 Tiengap/88272096，2023-09-20 03:06；全兩頁1–15樓。",
+            "reviewBasis": "native_chrome_original_pages_reviewed",
+            "outcome": "excluded",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAt": "2026-10-30"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=728&t=6872076",
+            "title": "無線吸塵器品牌推薦（輕量/大吸力/平價機款都有）",
+            "sourceExcerpt": "luffy41731寫爬文後整理推薦品牌，將正負零XJC-G040歸極輕量<1.3kg、集塵杯、吸力偏小及3000–7000價位。",
+            "specificReason": "本文是跨品牌選購彙整與外部導讀，未自述持有本機故障，也未附六名本機同症狀原始作者permalink；吸力取捨不可換算成6人災情。",
+            "locator": "樓主luffy41731/文章88595575，第一類極輕量段落。",
+            "reviewBasis": "manual_web_original_body_snapshot_direct_fetch_403_disclosed",
+            "outcome": "excluded",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAt": "2026-10-30"
+          },
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/Tainan/M.1756022881.A.BBB.html",
+            "title": "[交易] 售 正負零 吸塵器 第三代",
+            "sourceExcerpt": "ttyui明列XJC-G040，使用約2年、功能正常、搬家出清，售2000元。",
+            "specificReason": "是私人二手交易且明示功能正常，非第一人稱故障回報，不計集中問題人數；二手2000不作可信新品現價或史低。",
+            "locator": "作者ttyui，2025-08-24主文「使用約2年 功能正常」。",
+            "reviewBasis": "manual_http_original_body_reviewed",
+            "outcome": "excluded",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAt": "2026-10-30"
+          },
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/Keelung/M.1751279122.A.888.html",
+            "title": "[交易] 正負0無線充電吸塵器，G040，白",
+            "sourceExcerpt": "liliandme明列XJC-G040白色，贈品全新未拆，私人交易4000元。",
+            "specificReason": "未使用贈品轉售不是故障者，無原始使用問題，0名可計；私人轉售4000不作可信新品史低。",
+            "locator": "作者liliandme，2025-06-30主文商品狀況「贈品，全新未拆」。",
+            "reviewBasis": "manual_http_original_body_reviewed",
+            "outcome": "excluded",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAt": "2026-10-30"
+          },
+          {
+            "platform": "PChome",
+            "url": "https://24h.pchome.com.tw/prod/DMAX20-A900JJXC6",
+            "title": "正負零 XJC-G040 無線吸塵器 白－原商品評價",
+            "sourceExcerpt": "原頁共7則五星；可讀李**8/29稱外觀與重量合適仍觀察耐用度、趙**8/25稱日常毛髮比預期有力、方**2/1反映彩盒寄送無外箱。",
+            "specificReason": "可讀原評價未有相同機械故障；包裝一例屬配送取捨，遮罩作者與七個五星不能當六名同症狀獨立故障者。未將此缺貨商品4941當可購價。",
+            "locator": "PChome商品評價區第1頁：李**2026/08/29、趙**2026/08/25、方**2026/02/01。",
+            "reviewBasis": "manual_http_original_body_reviewed",
+            "outcome": "excluded",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAt": "2026-10-30"
+          },
+          {
+            "platform": "PIXNET",
+            "url": "https://fanfan-select.pixnet.net/blog/posts/885503135324451532",
+            "title": "凡凡正負零四款比較",
+            "sourceExcerpt": "G040段提手持790g及地毯可能阻力較大，但心得以未具名網友引述呈現。",
+            "specificReason": "部落格為PTT/Dcard導購彙整，沒有列出可識別原作者或原討論permalink；地毯提醒不是六名本機故障證據，與同作者其他文不算獨立平台。",
+            "locator": "本文XJC-G040專節與引用來源；直接HTTP403限制已保留，PIXNET以web原文快照閱讀。",
+            "reviewBasis": "manual_web_original_body_snapshot_direct_fetch_403_disclosed",
+            "outcome": "excluded",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAt": "2026-10-30"
+          },
+          {
+            "platform": "PIXNET",
+            "url": "https://fanfan-select.pixnet.net/blog/posts/883554268689348055",
+            "title": "凡凡無線吸塵器九款比較",
+            "sourceExcerpt": "G040列極簡輕量用途；文首泛稱爬PTT/Dcard災情後整理，未見具名本型號六人故障回報。",
+            "specificReason": "同一部落格作者的跨品牌彙整，無XJC-G040可核實原使用者與permalink；不把文首泛稱災情或搬用多品牌的抱怨當本型問題。",
+            "locator": "本文XJC-G040專節與引用來源；直接HTTP403限制已保留，PIXNET以web原文快照閱讀。",
+            "reviewBasis": "manual_web_original_body_snapshot_direct_fetch_403_disclosed",
+            "outcome": "excluded",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAt": "2026-10-30"
+          },
+          {
+            "platform": "PIXNET",
+            "url": "https://fanfan-select.pixnet.net/blog/posts/883545336302418638",
+            "title": "凡凡平價無線吸塵器八款比較",
+            "sourceExcerpt": "G040為極簡美學選擇，介紹790g與57分鐘等規格，整篇以PTT/Dcard/Threads熱門比較定位。",
+            "specificReason": "同作者同站多篇不能增加平台數；沒有可辨識第一人稱G040故障者及原文連結，0名可計。",
+            "locator": "本文XJC-G040專節與引用來源；直接HTTP403限制已保留，PIXNET以web原文快照閱讀。",
+            "reviewBasis": "manual_web_original_body_snapshot_direct_fetch_403_disclosed",
+            "outcome": "excluded",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAt": "2026-10-30"
+          },
+          {
+            "platform": "iPick",
+            "url": "https://ipick.tw/cordlessvacuumcleaner/",
+            "title": "iPick無線吸塵器比較",
+            "sourceExcerpt": "G040段列1.2kg、0.45L，提醒最大吸力普通、不適厚地毯，網友心得引述未具名。",
+            "specificReason": "原頁是跨品牌導購，沒有提供引述網友身份/原帖，功能定位取捨不算本型號故障或獨立六名作者。",
+            "locator": "本文XJC-G040專節及買前小提醒。",
+            "reviewBasis": "manual_http_original_body_reviewed",
+            "outcome": "excluded",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAt": "2026-10-30"
+          },
+          {
+            "platform": "iPick",
+            "url": "https://ipick.tw/affordablecordlessvacuumcleaner/",
+            "title": "iPick平價無線吸塵器比較",
+            "sourceExcerpt": "G040列小家庭、輕巧長續航定位，與同站第一篇均為PTT/Dcard熱門彙整與購買導流。",
+            "specificReason": "同一網站不算第二平台，未給本型號六位可識別第一人稱同症狀原文；泛稱避雷不能作原始負評證據。",
+            "locator": "本文XJC-G040專節及買前小提醒。",
+            "reviewBasis": "manual_http_original_body_reviewed",
+            "outcome": "excluded",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAt": "2026-10-30"
+          }
+        ],
+        "reviewerNote": "XJC-G040：實際以完整型號及G040別名查Mobile01/PTT，回兩頁M01送禮串、M01選購彙整、兩篇PTT轉售與PChome原評價逐一讀取；另處置同作者PIXNET三篇與iPick兩篇。購前提問、功能正常二手、未拆贈品、五星與未具名導購引述均不能計成同一問題的6名獨立使用者。未達跨2個原始網站且6名同型號同問題門檻，不表示完全沒有負評。 補核M01 #10 Tiengap朋友轉述最大檔噪音，已具體保存摘錄與二手轉述排除邊界，仍0名可計第一人稱故障作者。",
+        "attestation": "manual_original_pages_reviewed",
+        "id": "vacuum-plusminuszero-xjc-g040",
+        "category": "vacuum",
+        "brand": "Plus Minus Zero",
+        "model": "XJC-G040",
+        "name": "輕量無線吸塵器（台灣公司貨）",
+        "reviewBatch": "vacuum"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-10-30",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "\"XJC-G040\" site:mobile01.com/topicdetail.php",
+            "queryUrl": "https://www.google.com/search?q=%22XJC-G040%22%20site%3Amobile01.com/topicdetail.php"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "\"XJC-G040\" site:ptt.cc/bbs/E-appliance/",
+            "queryUrl": "https://www.google.com/search?q=%22XJC-G040%22%20site%3Aptt.cc/bbs/E-appliance/"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"XJC-G040\" site:mobile01.com/topicdetail.php",
+          "searchUrl": "https://www.google.com/search?q=%22XJC-G040%22%20site%3Amobile01.com/topicdetail.php",
+          "result": "candidates_unverified_by_search_only",
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=168&t=6845035",
+            "https://www.mobile01.com/topicdetail.php?f=728&t=6872076"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=168&t=6845035",
+              "title": "入厝禮到底要送什麼比較體面"
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=728&t=6872076",
+              "title": "無線吸塵器品牌推薦（輕量/大吸力/平價機款都有）"
+            }
+          ],
+          "inspectedAt": "2026-10-29T23:15:14.550892+00:00",
+          "resultCount": 2,
+          "note": "搜尋只用於發現候選；原文人工決策另存manualReview.candidateReviews，沒有從搜尋自動推定no_common_issue。"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "\"XJC-G040\" site:ptt.cc/bbs/E-appliance/",
+          "searchUrl": "https://www.google.com/search?q=%22XJC-G040%22%20site%3Aptt.cc/bbs/E-appliance/",
+          "result": "no_exact_model_result",
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-10-29T23:15:14.550892+00:00",
+          "resultCount": 0,
+          "note": "限定E-appliance板未見exact-model候選；另於整個ptt.cc完整型號及別名搜尋找到Tainan/Keelung私人轉售，另列補充查詢與人工處置。"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"正負零\" \"G040\" site:mobile01.com",
+          "searchUrl": "https://www.google.com/search?q=%22%E6%AD%A3%E8%B2%A0%E9%9B%B6%22%20%22G040%22%20site%3Amobile01.com",
+          "result": "candidates_unverified_by_search_only",
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=168&t=6845035",
+            "https://www.mobile01.com/topicdetail.php?f=728&t=6872076"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=168&t=6845035",
+              "title": "入厝禮到底要送什麼比較體面"
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=728&t=6872076",
+              "title": "無線吸塵器品牌推薦（輕量/大吸力/平價機款都有）"
+            }
+          ],
+          "inspectedAt": "2026-10-29T23:15:14.550892+00:00",
+          "resultCount": 2,
+          "note": "搜尋只用於發現候選；原文人工決策另存manualReview.candidateReviews，沒有從搜尋自動推定no_common_issue。"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "\"正負零\" \"G040\" site:ptt.cc",
+          "searchUrl": "https://www.google.com/search?q=%22%E6%AD%A3%E8%B2%A0%E9%9B%B6%22%20%22G040%22%20site%3Aptt.cc",
+          "result": "candidates_unverified_by_search_only",
+          "candidateUrls": [
+            "https://www.ptt.cc/bbs/Tainan/M.1756022881.A.BBB.html",
+            "https://www.ptt.cc/bbs/Keelung/M.1751279122.A.888.html"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.ptt.cc/bbs/Tainan/M.1756022881.A.BBB.html",
+              "title": "[交易] 售 正負零 吸塵器 第三代"
+            },
+            {
+              "url": "https://www.ptt.cc/bbs/Keelung/M.1751279122.A.888.html",
+              "title": "[交易] 正負0無線充電吸塵器，G040，白"
+            }
+          ],
+          "inspectedAt": "2026-10-29T23:15:14.550892+00:00",
+          "resultCount": 2,
+          "note": "搜尋只用於發現候選；原文人工決策另存manualReview.candidateReviews，沒有從搜尋自動推定no_common_issue。"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "\"XJC-G040\" site:ptt.cc",
+          "searchUrl": "https://www.google.com/search?q=%22XJC-G040%22%20site%3Aptt.cc",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 2,
+          "candidateUrls": [
+            "https://www.ptt.cc/bbs/Tainan/M.1756022881.A.BBB.html",
+            "https://www.ptt.cc/bbs/Keelung/M.1751279122.A.888.html"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.ptt.cc/bbs/Tainan/M.1756022881.A.BBB.html",
+              "title": "[交易] 售 正負零 吸塵器 第三代"
+            },
+            {
+              "url": "https://www.ptt.cc/bbs/Keelung/M.1751279122.A.888.html",
+              "title": "[交易] 正負0無線充電吸塵器，G040，白"
+            }
+          ],
+          "inspectedAt": "2026-10-29T23:18:53.847524+00:00",
+          "note": "本次補核整站完整型號搜尋發現兩筆私人轉售；逐篇原文已確認一筆使用正常、一筆贈品未拆，沒有轉作新品價或原始故障。"
+        }
+      ],
+      "evidence": [],
+      "reports": [],
+      "rejectedCandidates": [
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=168&t=6845035",
+          "title": "入厝禮到底要送什麼比較體面",
+          "sourceExcerpt": "maaaple樓主列XJC-G040、Dibea X9與小米G9 Plus為入厝禮候選；第10樓Tiengap（88272096）回覆曾送朋友首台白色機種，朋友說「除了開最大聲音有點吵以外，都用滿順的」。其餘兩頁為購前提問與送禮建議。",
+          "specificReason": "主文是購前提問；Tiengap是朋友使用感受的二手轉述，未提供該朋友身份或本型第一人稱原帖，單一最大檔噪音感受亦不等同硬體故障。沒有XJC-G040可計入的第一人稱同一問題故障作者，不將兩頁送禮討論累計為6人災情。",
+          "locator": "主文maaaple 2023-09-16 #1；#10 Tiengap/88272096，2023-09-20 03:06；全兩頁1–15樓。",
+          "reviewBasis": "native_chrome_original_pages_reviewed",
+          "outcome": "excluded",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAt": "2026-10-30",
+          "reason": "主文是購前提問；Tiengap是朋友使用感受的二手轉述，未提供該朋友身份或本型第一人稱原帖，單一最大檔噪音感受亦不等同硬體故障。沒有XJC-G040可計入的第一人稱同一問題故障作者，不將兩頁送禮討論累計為6人災情。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=728&t=6872076",
+          "title": "無線吸塵器品牌推薦（輕量/大吸力/平價機款都有）",
+          "sourceExcerpt": "luffy41731寫爬文後整理推薦品牌，將正負零XJC-G040歸極輕量<1.3kg、集塵杯、吸力偏小及3000–7000價位。",
+          "specificReason": "本文是跨品牌選購彙整與外部導讀，未自述持有本機故障，也未附六名本機同症狀原始作者permalink；吸力取捨不可換算成6人災情。",
+          "locator": "樓主luffy41731/文章88595575，第一類極輕量段落。",
+          "reviewBasis": "manual_web_original_body_snapshot_direct_fetch_403_disclosed",
+          "outcome": "excluded",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAt": "2026-10-30",
+          "reason": "本文是跨品牌選購彙整與外部導讀，未自述持有本機故障，也未附六名本機同症狀原始作者permalink；吸力取捨不可換算成6人災情。"
+        },
+        {
+          "platform": "PTT",
+          "url": "https://www.ptt.cc/bbs/Tainan/M.1756022881.A.BBB.html",
+          "title": "[交易] 售 正負零 吸塵器 第三代",
+          "sourceExcerpt": "ttyui明列XJC-G040，使用約2年、功能正常、搬家出清，售2000元。",
+          "specificReason": "是私人二手交易且明示功能正常，非第一人稱故障回報，不計集中問題人數；二手2000不作可信新品現價或史低。",
+          "locator": "作者ttyui，2025-08-24主文「使用約2年 功能正常」。",
+          "reviewBasis": "manual_http_original_body_reviewed",
+          "outcome": "excluded",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAt": "2026-10-30",
+          "reason": "是私人二手交易且明示功能正常，非第一人稱故障回報，不計集中問題人數；二手2000不作可信新品現價或史低。"
+        },
+        {
+          "platform": "PTT",
+          "url": "https://www.ptt.cc/bbs/Keelung/M.1751279122.A.888.html",
+          "title": "[交易] 正負0無線充電吸塵器，G040，白",
+          "sourceExcerpt": "liliandme明列XJC-G040白色，贈品全新未拆，私人交易4000元。",
+          "specificReason": "未使用贈品轉售不是故障者，無原始使用問題，0名可計；私人轉售4000不作可信新品史低。",
+          "locator": "作者liliandme，2025-06-30主文商品狀況「贈品，全新未拆」。",
+          "reviewBasis": "manual_http_original_body_reviewed",
+          "outcome": "excluded",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAt": "2026-10-30",
+          "reason": "未使用贈品轉售不是故障者，無原始使用問題，0名可計；私人轉售4000不作可信新品史低。"
+        },
+        {
+          "platform": "PChome",
+          "url": "https://24h.pchome.com.tw/prod/DMAX20-A900JJXC6",
+          "title": "正負零 XJC-G040 無線吸塵器 白－原商品評價",
+          "sourceExcerpt": "原頁共7則五星；可讀李**8/29稱外觀與重量合適仍觀察耐用度、趙**8/25稱日常毛髮比預期有力、方**2/1反映彩盒寄送無外箱。",
+          "specificReason": "可讀原評價未有相同機械故障；包裝一例屬配送取捨，遮罩作者與七個五星不能當六名同症狀獨立故障者。未將此缺貨商品4941當可購價。",
+          "locator": "PChome商品評價區第1頁：李**2026/08/29、趙**2026/08/25、方**2026/02/01。",
+          "reviewBasis": "manual_http_original_body_reviewed",
+          "outcome": "excluded",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAt": "2026-10-30",
+          "reason": "可讀原評價未有相同機械故障；包裝一例屬配送取捨，遮罩作者與七個五星不能當六名同症狀獨立故障者。未將此缺貨商品4941當可購價。"
+        },
+        {
+          "platform": "PIXNET",
+          "url": "https://fanfan-select.pixnet.net/blog/posts/885503135324451532",
+          "title": "凡凡正負零四款比較",
+          "sourceExcerpt": "G040段提手持790g及地毯可能阻力較大，但心得以未具名網友引述呈現。",
+          "specificReason": "部落格為PTT/Dcard導購彙整，沒有列出可識別原作者或原討論permalink；地毯提醒不是六名本機故障證據，與同作者其他文不算獨立平台。",
+          "locator": "本文XJC-G040專節與引用來源；直接HTTP403限制已保留，PIXNET以web原文快照閱讀。",
+          "reviewBasis": "manual_web_original_body_snapshot_direct_fetch_403_disclosed",
+          "outcome": "excluded",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAt": "2026-10-30",
+          "reason": "部落格為PTT/Dcard導購彙整，沒有列出可識別原作者或原討論permalink；地毯提醒不是六名本機故障證據，與同作者其他文不算獨立平台。"
+        },
+        {
+          "platform": "PIXNET",
+          "url": "https://fanfan-select.pixnet.net/blog/posts/883554268689348055",
+          "title": "凡凡無線吸塵器九款比較",
+          "sourceExcerpt": "G040列極簡輕量用途；文首泛稱爬PTT/Dcard災情後整理，未見具名本型號六人故障回報。",
+          "specificReason": "同一部落格作者的跨品牌彙整，無XJC-G040可核實原使用者與permalink；不把文首泛稱災情或搬用多品牌的抱怨當本型問題。",
+          "locator": "本文XJC-G040專節與引用來源；直接HTTP403限制已保留，PIXNET以web原文快照閱讀。",
+          "reviewBasis": "manual_web_original_body_snapshot_direct_fetch_403_disclosed",
+          "outcome": "excluded",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAt": "2026-10-30",
+          "reason": "同一部落格作者的跨品牌彙整，無XJC-G040可核實原使用者與permalink；不把文首泛稱災情或搬用多品牌的抱怨當本型問題。"
+        },
+        {
+          "platform": "PIXNET",
+          "url": "https://fanfan-select.pixnet.net/blog/posts/883545336302418638",
+          "title": "凡凡平價無線吸塵器八款比較",
+          "sourceExcerpt": "G040為極簡美學選擇，介紹790g與57分鐘等規格，整篇以PTT/Dcard/Threads熱門比較定位。",
+          "specificReason": "同作者同站多篇不能增加平台數；沒有可辨識第一人稱G040故障者及原文連結，0名可計。",
+          "locator": "本文XJC-G040專節與引用來源；直接HTTP403限制已保留，PIXNET以web原文快照閱讀。",
+          "reviewBasis": "manual_web_original_body_snapshot_direct_fetch_403_disclosed",
+          "outcome": "excluded",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAt": "2026-10-30",
+          "reason": "同作者同站多篇不能增加平台數；沒有可辨識第一人稱G040故障者及原文連結，0名可計。"
+        },
+        {
+          "platform": "iPick",
+          "url": "https://ipick.tw/cordlessvacuumcleaner/",
+          "title": "iPick無線吸塵器比較",
+          "sourceExcerpt": "G040段列1.2kg、0.45L，提醒最大吸力普通、不適厚地毯，網友心得引述未具名。",
+          "specificReason": "原頁是跨品牌導購，沒有提供引述網友身份/原帖，功能定位取捨不算本型號故障或獨立六名作者。",
+          "locator": "本文XJC-G040專節及買前小提醒。",
+          "reviewBasis": "manual_http_original_body_reviewed",
+          "outcome": "excluded",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAt": "2026-10-30",
+          "reason": "原頁是跨品牌導購，沒有提供引述網友身份/原帖，功能定位取捨不算本型號故障或獨立六名作者。"
+        },
+        {
+          "platform": "iPick",
+          "url": "https://ipick.tw/affordablecordlessvacuumcleaner/",
+          "title": "iPick平價無線吸塵器比較",
+          "sourceExcerpt": "G040列小家庭、輕巧長續航定位，與同站第一篇均為PTT/Dcard熱門彙整與購買導流。",
+          "specificReason": "同一網站不算第二平台，未給本型號六位可識別第一人稱同症狀原文；泛稱避雷不能作原始負評證據。",
+          "locator": "本文XJC-G040專節及買前小提醒。",
+          "reviewBasis": "manual_http_original_body_reviewed",
+          "outcome": "excluded",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAt": "2026-10-30",
+          "reason": "同一網站不算第二平台，未給本型號六位可識別第一人稱同症狀原文；泛稱避雷不能作原始負評證據。"
         }
       ]
     }

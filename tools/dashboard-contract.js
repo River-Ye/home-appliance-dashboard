@@ -1,5 +1,5 @@
 const EXPECTED_CATEGORY_COUNT = 37;
-const EXPECTED_PRODUCT_COUNT = 1224;
+const EXPECTED_PRODUCT_COUNT = 1228;
 const MIN_PRODUCTS_PER_CATEGORY = 20;
 const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["tv", 42],
@@ -10,20 +10,20 @@ const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["purifier", 29],
   ["aircon", 30],
   ["robot", 50],
-  ["vacuum", 34],
+  ["vacuum", 35],
   ["washer", 27],
   ["dryer", 27],
   ["washerdryer", 35],
   ["garmentcare", 21],
   ["bedsheet", 30],
-  ["comforter", 30],
+  ["comforter", 32],
   ["pillow", 32],
   ["refrigerator", 48],
   ["cookware", 28],
   ["knife", 23],
   ["blender", 26],
   ["coffee", 24],
-  ["oven", 26],
+  ["oven", 27],
   ["waterdispenser", 44],
   ["dishwasher", 36],
   ["waterheater", 47],
@@ -50,11 +50,11 @@ const DIMENSION_CATEGORY_COUNTS = new Map([
   ["washerdryer", 35],
   ["garmentcare", 21],
   ["bedsheet", 30],
-  ["comforter", 30],
+  ["comforter", 32],
   ["pillow", 32],
   ["refrigerator", 48],
   ["coffee", 24],
-  ["oven", 26],
+  ["oven", 27],
   ["dishwasher", 36],
   ["bidet", 22],
   ["aircon", 30],
@@ -79,7 +79,7 @@ const WEIGHT_CATEGORY_COUNTS = new Map([
   ["tv", 42],
   ["soundbar", 38],
   ["coffee", 24],
-  ["oven", 26],
+  ["oven", 27],
   ["aircon", 30],
   ["waterheater", 47],
   ["monitor-light", 20],
@@ -87,7 +87,7 @@ const WEIGHT_CATEGORY_COUNTS = new Map([
   ["keyboard", 35],
   ["mousepad", 33],
   ["bedsheet", 30],
-  ["comforter", 30],
+  ["comforter", 32],
   ["pillow", 32],
 ]);
 const WEIGHT_CATEGORIES = new Set(WEIGHT_CATEGORY_COUNTS.keys());
@@ -128,7 +128,7 @@ const BEDDING_TYPES = {
 };
 const BEDDING_BUDGET_COUNTS = {
   bedsheet: new Map([["value", 6], ["mid", 12], ["premium", 12]]),
-  comforter: new Map([["value", 6], ["mid", 12], ["premium", 12]]),
+  comforter: new Map([["value", 6], ["mid", 12], ["premium", 14]]),
   pillow: new Map([["value", 6], ["mid", 12], ["premium", 14]]),
 };
 const BEDDING_SPEC_PREFIXES = {

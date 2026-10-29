@@ -209,7 +209,7 @@
       "converted": 10900,
       "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-29 DJ12M-K8S主商品10900元，無原10355元折扣；有送P幣不折入價格。 未扣個人券、點數或信用卡回饋。"
+      "note": "2026-10-30 DJ12M-K8S原主商品10900元可購，贈點不減現價。 未扣個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY4YA900HB8CN/000001_1780309793.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAY4Y-A900HB8CN",
@@ -400,8 +400,8 @@
     "price": {
       "currency": "USD",
       "amount": 99.98,
-      "converted": 3243,
-      "confidence": "2026-08-31 人工核對 SharkNinja 官方 BN701 公開可購主價 USD 99.98；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-10-28 匯率換算",
+      "converted": 3241,
+      "confidence": "2026-08-31 人工核對 SharkNinja 官方 BN701 公開可購主價 USD 99.98；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-10-29 匯率換算",
       "basis": "retailer_current"
     },
     "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/d1c25153baa2aa99eae7831be826d2a51d87c485/Ninja-BN701-Professional-Plus-Blender-with-Auto-iQ.jpg",
@@ -1747,7 +1747,7 @@
       "amount": 8990,
       "converted": 8990,
       "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
-      "note": "2026-10-29 L18M-Y6G主商品8990元，無原8540元折扣；有送P幣不折入價格。 未扣個人券、點數或信用卡回饋。",
+      "note": "2026-10-30 L18M-Y6G原主商品8990元可購，P幣回饋不折為現價；未有當前公開95折價。 未扣個人券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY4YA900I3ILD/000001_1783328441.jpg",
