@@ -219,9 +219,11 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWMWA900JMZB6/000001_1768290450.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1259,
-      "converted": 1259,
-      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 1119,
+      "converted": 1119,
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-31 KFM-030D-R30cm主商品1119，10/30–11/03單件8折，網路1399；可購預計11/02出貨。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -422,9 +424,11 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWN3A900JSN52/000001_1772965996.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 2241,
-      "converted": 2241,
-      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 1992,
+      "converted": 1992,
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-31 瓷安28CM附蓋主商品1992，10/30–11/03單件8折，網路2490；可購24小時到貨。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -931,7 +935,7 @@
       "amount": 2860,
       "converted": 2860,
       "confidence": "Yahoo購物中心 2026-08-15 exact-model 自營新品公開價",
-      "note": "2026-10-30 原Yahoo同款頁HTTP404，PChome同名DEAWED-A900HZZIP仍只有商品標題與其他品牌推薦，沒有原款主價及可購狀態；全聯Levital標準型未證與本選定經典版同一SKU，保留2860元舊參考，不冒作本日現價。 未扣個人券、點數或信用卡回饋。"
+      "note": "2026-10-31 原Yahoo exact28cm頁HTTP404，未取得可確認的同型號替代供貨，不套用其他鍋款或推薦價。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心（現售待確認）",
@@ -1030,11 +1034,11 @@
     "image": "https://cs-a.ecimg.tw/items/DEDG3BA900GQDVZ/000001_1776769920.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1099,
-      "converted": 1099,
+      "amount": 968,
+      "converted": 968,
       "basis": "retailer_current",
-      "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
-      "note": "2026-10-30 饗樂四件組為28cm炒鍋+16cm湯鍋及蓋+鍋鏟，原主商品1099元可購；點換券、會員回饋及贈品不減售價。 未扣個人券、點數或信用卡回饋。"
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "note": "2026-10-31 原頁同型號公開價格968元；不扣會員券、信用卡、點數或贈品，銷售／出貨條件依原通路。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1236,9 +1240,11 @@
     "image": "https://cs-a.ecimg.tw/items/DEAW03A900BSUA7/000001_1632301011.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 6440,
-      "converted": 6440,
-      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 6118,
+      "converted": 6118,
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-31 Titan雙耳附蓋28cm主商品6118，10/30–11/03單件95折，網路6440；可購預計11/02出貨。"
     },
     "channel": "tw",
     "buyLabel": "PChome",

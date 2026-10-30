@@ -411,8 +411,8 @@
     "price": {
       "currency": "USD",
       "amount": 499.95,
-      "converted": 16206,
-      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-10-29 匯率換算"
+      "converted": 16274,
+      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-10-30 匯率換算"
     },
     "image": "https://assets.breville.com/cdn-cgi/image/width=1300,format=auto/BOV950/BOV950BSS1BUS1/pdp3.png?pdp=",
     "buyUrl": "https://www.breville.com/en-us/product/bov950",
@@ -512,7 +512,7 @@
       "converted": 8630,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-30 only OM27-M54黑色原主商品8990元，公開單件96折8630元至10/30 07:59:59；現可加入購物車。 未扣個人券、點數或信用卡回饋。"
+      "note": "2026-10-31 原頁同型號公開價格8630元；不扣會員券、信用卡、點數或贈品，銷售／出貨條件依原通路。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ02A900I9LQ2/000001_1782379010.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ02-A900I9LQ2",
@@ -808,7 +808,7 @@
       "converted": 22886,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-30 MWP329TST大地棕原主商品24090元，單件滿711元95折22886元至11/1 02:59:59；無安裝、僅送至一樓，未跨26L機型。 未扣個人券、點數或信用卡回饋。"
+      "note": "2026-10-31 原頁同型號公開價格22886元；不扣會員券、信用卡、點數或贈品，銷售／出貨條件依原通路。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ03A900IYX0L/000001_1750758530.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool-%E6%83%A0%E8%80%8C%E6%B5%A6Coloris%E7%B3%BB%E5%88%97-32%E5%85%AC%E5%8D%878%E5%90%88%E4%B8%80%E5%85%A8%E8%83%BD%E8%AE%8A%E9%A0%BB%E6%B0%A3%E7%82%B8%E8%92%B8%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-%E5%A4%A7%E5%9C%B0%E6%A3%95-MWP3-12006007.html",
@@ -911,7 +911,7 @@
       "amount": 9499,
       "converted": 9499,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
-      "note": "2026-10-30 Cuisinart CSO-500TW原主商品9999元，公開單件95折9499元至10/30 07:59:59。 未扣個人券、點數或信用卡回饋。",
+      "note": "2026-10-31 原頁同型號公開價格9499元；不扣會員券、信用卡、點數或贈品，銷售／出貨條件依原通路。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900HF91A/000001_1768545220.jpg",
@@ -1897,7 +1897,7 @@
       "converted": 41724,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-30 SVAGO 蒸烘烤變頻微波爐含標準安裝，原商品公開價43,920元，單件95折41,724元，活動至10/30 07:59:59；未扣個人券、點數或信用卡回饋。"
+      "note": "2026-10-31 原頁同型號公開價格41724元；不扣會員券、信用卡、點數或贈品，銷售／出貨條件依原通路。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900H5125/000001_1783054719.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM0G-A900H5125",
@@ -2295,8 +2295,8 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 12966,
-      "confidence": "2026-08-31 人工核對 SharkNinja 美國官方 MW101 公開可購主價 USD 399.99；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-10-29 匯率換算",
+      "converted": 13020,
+      "confidence": "2026-08-31 人工核對 SharkNinja 美國官方 MW101 公開可購主價 USD 399.99；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-10-30 匯率換算",
       "basis": "retailer_current"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/MW101_01.jpg",
@@ -2607,7 +2607,7 @@
     "converted": 24000,
     "basis": "retailer_current",
     "confidence": "2026-10-30 雅光電器NN-BS8DK原主商品公開價，人工核對可購按鈕與尚有庫存。",
-    "note": "雅光電器原主商品公開24000元，頁示尚有庫存；未扣個人券、紅利與信用卡回饋。交期與送貨、搬運定位費用請先洽通路。"
+    "note": "2026-10-31 原頁同型號公開價格24000元；不扣會員券、信用卡、點數或贈品，銷售／出貨條件依原通路。"
   },
   "installation": {
     "status": "not_stated",

@@ -597,7 +597,7 @@
       "converted": 15200,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-30 7300 WiFi版原主商品16000元，公開單件95折結帳折後15200元；下單再折，活動10/30至11/15 23:59:59，不計P幣。 未扣個人券、點數或信用卡回饋。"
+      "note": "2026-10-31 同一主商品7300 WiFi版16000元，單件95折15200元；CTA加入購物車與立即購買，非相關商品價格。 活動10/30至11/15 23:59:59，不計會員券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900I7LS6/000001_1768190214.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900I7LS6",
@@ -695,7 +695,7 @@
       "converted": 17765,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-30 DDL610原主商品18700元，公開單件95折結帳折後17765元；頁明示下單再折，含安裝/原廠三年保固，活動10/30 00:00至11/15 23:59:59，不需會員券。 未扣個人券、點數或信用卡回饋。"
+      "note": "2026-10-31 DDL610原主商品18700元，單件95折17765元；含安裝／原廠三年保固。 活動10/30至11/15 23:59:59，不計會員券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900JPZMY/000001_1770615435.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900JPZMY",
@@ -793,7 +793,7 @@
       "converted": 22325,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-30 ALPHA VP原主商品23500元，公開單件95折結帳折後22325元；下單再折，活動10/30至11/15 23:59:59，沒有採其他鎖型相關價。 未扣個人券、點數或信用卡回饋。"
+      "note": "2026-10-31 ALPHA VP主商品23500元，單件95折22325元；非其他鎖型推薦價。 活動10/30至11/15 23:59:59，不計會員券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900I7PXH/000001_1782804290.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900I7PXH",
@@ -891,7 +891,7 @@
       "converted": 23750,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-30 702 FVP原主商品25000元，公開單件95折結帳折後23750元；下單再折，活動10/30至11/15 23:59:59，不跨702E版。 未扣個人券、點數或信用卡回饋。"
+      "note": "2026-10-31 702 FVP主商品25000元，單件95折23750元；同頁明示人臉／貓眼／WiFi版。 活動10/30至11/15 23:59:59，不計會員券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900IZX3T/000001_1782804390.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900IZX3T",
@@ -989,7 +989,7 @@
       "converted": 30875,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-30 709-FVP原主商品32500元，公開單件95折結帳折後30875元；下單再折，活動10/30至11/15 23:59:59，非額外領券。 未扣個人券、點數或信用卡回饋。"
+      "note": "2026-10-31 709-FVP主商品32500元，單件95折30875元。 活動10/30至11/15 23:59:59，不計會員券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900I7PXE/000001_1779064763.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900I7PXE",
@@ -1087,7 +1087,7 @@
       "converted": 20852,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-30 DDL801星空灰原主商品21950元，公開單件95折結帳折後20852元；下單再折，活動10/30至11/15 23:59:59，含安裝。 未扣個人券、點數或信用卡回饋。"
+      "note": "2026-10-31 DDL801星空灰主商品21950元，頁實顯折扣價20852元，不自行改寫四捨五入。 活動10/30至11/15 23:59:59，不計會員券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900JBQF3/000001_1782804231.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900JBQF3",
@@ -2004,9 +2004,9 @@
     "price": {
       "currency": "HKD",
       "amount": 9638,
-      "converted": 39823,
+      "converted": 39986,
       "basis": "retailer_current",
-      "confidence": "EasyLock 香港 2026-08-28 exact-model 公開促銷價；ExchangeRate-API 2026-10-29 匯率換算"
+      "confidence": "EasyLock 香港 2026-08-28 exact-model 公開促銷價；ExchangeRate-API 2026-10-30 匯率換算"
     },
     "installation": {
       "status": "included_basic",

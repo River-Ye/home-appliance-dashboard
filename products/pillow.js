@@ -480,5 +480,102 @@
   ]
 });
 
+  products.push({
+  "id": "pillow-ikea-fjallhavre-high-30629933",
+  "category": "pillow",
+  "brand": "IKEA",
+  "model": "306.299.33",
+  "variantFamily": "ikea-fjallhavre-pillow",
+  "name": "IKEA FJÄLLHAVRE 再生羽絨羽毛高枕 50x80 306.299.33",
+  "type": "down",
+  "budget": "premium",
+  "channel": "tw",
+  "rank": 33,
+  "score": 81,
+  "topPick": false,
+  "price": {
+    "currency": "TWD",
+    "amount": 2999,
+    "converted": 2999,
+    "basis": "retailer_current",
+    "confidence": "2026-10-31 IKEA台灣官方exact306.299.33原頁現價2999元，線上27件庫存；不採搜尋快取32件或海外價格。",
+    "note": "2026-10-31官方台灣原頁2999元，線上27件；庫存每30分鐘更新，運費另計。"
+  },
+  "image": "https://www.ikea.com.tw/dairyfarm/tw/images/698/1469855_PE996695_S4.jpg",
+  "buyUrl": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/fjallhavre-art-30629933",
+  "buyLabel": "IKEA 台灣（FJÄLLHAVRE 高枕306.299.33）",
+  "installation": {
+    "status": "not_stated",
+    "note": "成人成品睡眠枕，不需安裝；購買前確認枕高、床墊軟硬度與寢具拆封退換條件。"
+  },
+  "specs": [
+    "類型：再生水鳥羽絨／羽毛完整成品枕",
+    "枕型／睡姿：高枕；實際仰睡或側睡支撐依肩寬、床墊及試躺確認",
+    "表布材質：100%棉，無漂白、無染色；351織",
+    "填充／核心材質：外層80%水鳥羽絨、20%水鳥羽毛；核心90%水鳥羽毛、10%水鳥羽絨，填充物均100%再生物料",
+    "高度／軟硬度：高枕；高度公分與量化硬度未標示",
+    "尺寸：長 50 x 寬 80 cm",
+    "重量：1.445 kg",
+    "透氣／溫控：棉質表布透氣排濕；無主動冷卻功能",
+    "認證／產地：EN ISO12952-1與CAN/CGSB4.2No27.5可燃性測試；產地查不到",
+    "清潔保養：最高60°C機洗，洗劑一般量1/3；不可漂白、熨燙、乾洗；正常滾筒最高80°C，洗後烘至填充完全乾燥"
+  ],
+  "description": "不同於纖維枕的再生羽絨羽毛高枕，外層高含絨、核心高含羽毛，雙層滾邊保留填充空間。保留天然填充的氣味與清潔負擔，不把同名棉被或其他枕頭SKU的評價套用。",
+  "pros": [
+    "外層80%再生水鳥羽絨",
+    "無漂無染100%棉表布",
+    "台灣官方現售且尺寸與整件重量明示"
+  ],
+  "cons": [
+    "天然羽絨羽毛可能有輕微氣味",
+    "高枕不一定適合趴睡或偏好低枕者",
+    "洗後須徹底烘乾且單價較高"
+  ],
+  "bestFor": "偏好天然填充、願意管理清洗烘乾並已確認高枕支撐的成人。",
+  "recommendation": "羽絨高枕候選：先試躺確認枕高；核對50x80cm枕套，不將外層80%含絨誤稱整枕80%。",
+  "releaseDate": "找不到",
+  "historicalLow": {
+    "status": "not_found",
+    "amount": null,
+    "currency": "TWD",
+    "converted": null,
+    "sourceUrl": "",
+    "sourceTitle": "",
+    "evidenceSnippet": "",
+    "sourceKind": "not_found",
+    "confidence": "not_found",
+    "checkedAt": "2026-10-31",
+    "note": "已查台灣官方306.299.33現價與完整SKU FindPrice、飛比、歷史價格搜尋，未得同台灣SKU可回溯新品低價；港幣799.9、其他國家2990等幣價不跨用，現價不推作史低。"
+  },
+  "issueResearch": {
+    "status": "no_common_issue",
+    "checkedAt": "2026-10-31",
+    "summary": "截至查核日，查無達門檻的集中負評／災情",
+    "issues": [],
+    "checkedSources": [
+      {
+        "platform": "PTT",
+        "targetHost": "ptt.cc",
+        "query": "site:ptt.cc \"306.299.33\" 枕頭",
+        "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22306.299.33%22%20%E6%9E%95%E9%A0%AD"
+      },
+      {
+        "platform": "Mobile01",
+        "targetHost": "mobile01.com",
+        "query": "site:mobile01.com \"306.299.33\" 枕頭",
+        "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22306.299.33%22%20%E6%9E%95%E9%A0%AD"
+      }
+    ]
+  },
+  "voltage": "非電器，不需供電。",
+  "warranty": "IKEA台灣官方客服與退換政策；本枕未明示獨立年限保固，100日人體工學枕試睡名冊不含FJÄLLHAVRE。",
+  "tags": [
+    "羽絨羽毛",
+    "高枕",
+    "仰睡／側睡候選",
+    "台灣官方"
+  ]
+});
+
   dashboard.registerProducts("pillow", products);
 })();

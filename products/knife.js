@@ -218,9 +218,11 @@
     "image": "https://cs-a.ecimg.tw/items/DEAGRWA900K5G3N/000001_1782380398.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1590,
-      "converted": 1590,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 1510,
+      "converted": 1510,
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-31 VICTORINOX Swiss Classic黑6.8503.17B主商品1510，10/30–11/03單件95折，網路1590；預計11/02出貨。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -319,11 +321,11 @@
     "image": "https://cs-a.ecimg.tw/items/DEAGRWA900JUUQL/000001_1774596210.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 888,
-      "converted": 888,
-      "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "amount": 729,
+      "converted": 729,
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-30 KAI若竹名刀關孫六16.5cm三德刀原主商品888元可購，不採其他刀長或推薦商品價。 未扣個人券、點數或信用卡回饋。"
+      "note": "2026-10-31 原頁同型號公開價格729元；不扣會員券、信用卡、點數或贈品，銷售／出貨條件依原通路。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -363,16 +365,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 779,
+      "amount": 729,
       "currency": "TWD",
-      "converted": 779,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1271094734&cgp=779",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【KAI 貝印】關孫六 日本製若竹系列不鏽鋼三德刀16.5cm",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【KAI 貝印】關孫六 日本製若竹系列不鏽鋼三德刀16.5cm」最低價為 NT$779，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 729,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DEAGRW-A900JUUQL",
+      "sourceTitle": "PChome 24h 購物：【日本貝印KAI】日本製 若竹名刀 關孫六 料理刀 廚房刀 不鏽鋼刀-16.5cm(三德刀)",
+      "evidenceSnippet": "PChome 24h 購物於 2026-10-31 顯示同型號可信新品公開價 NT$729，低於既有史低 NT$779。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-10-31",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -423,9 +425,11 @@
     "image": "https://cs-a.ecimg.tw/items/DEAGY1A900JBVOD/000001_1759990405.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 2280,
-      "converted": 2280,
-      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 2166,
+      "converted": 2166,
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-31 京瓷陶瓷廚房三件組主商品2166，10/30–11/03單件95折，網路2280；不採相關磨刀器/刀套，預計11/02出貨。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -524,9 +528,11 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWRUA900HDL2T/000001_1712729313.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 3747,
-      "converted": 3747,
-      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 3559,
+      "converted": 3559,
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-31 WMF卓越18cm主商品3559，10/30–11/03單件95折，網路3747；預計11/02出貨。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -927,9 +933,11 @@
     "image": "https://cs-a.ecimg.tw/items/DEAGRWA900GMT17/000001_1714111453.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1718,
-      "converted": 1718,
-      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 1539,
+      "converted": 1539,
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-31 KAI職人槌目紋18cm牛刀主商品1539，10/31–11/13單件9折，網路1711；不採16.5cm或套組，預計11/02出貨。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1131,9 +1139,11 @@
     "image": "https://cs-a.ecimg.tw/items/DEAGRUA900K5DX6/000001_1782358818.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1163,
-      "converted": 1163,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 1104,
+      "converted": 1104,
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-31 VICTORINOX楓木5.2000.15主商品1104，10/30–11/03單件95折，網路1163；預計11/02出貨。"
     },
     "channel": "tw",
     "buyLabel": "PChome",

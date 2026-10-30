@@ -2227,8 +2227,8 @@
     "price": {
       "currency": "USD",
       "amount": 679.99,
-      "converted": 22043,
-      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-10-29 匯率換算"
+      "converted": 22135,
+      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-10-30 匯率換算"
     },
     "image": "https://m.media-amazon.com/images/I/61Yuy5vtWFL._AC_SL1500_.jpg",
     "buyUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
@@ -2267,14 +2267,14 @@
       "status": "found",
       "amount": 679.99,
       "currency": "USD",
-      "converted": 22043,
+      "converted": 22135,
       "sourceUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
       "sourceTitle": "Dreame Aero Ultra Steam Wet Dry Vacuum – Dreame Vacuum Mop",
       "evidenceSnippet": "Dreame 原廠美國商品頁於 2026-07-16 公開顯示特價 US$679.99、原價 US$799.99，且可 Add to Cart / Buy It Now。",
       "sourceKind": "official_sale",
       "confidence": "high",
       "checkedAt": "2026-07-16",
-      "note": "新上市商品目前可公開驗證的最低售價；未套用會員碼、信用卡、點數或個人化折扣，且未含國際運費、進口稅、插頭／供電與台灣保固風險；依 2026-10-29 USD/TWD 匯率換算。"
+      "note": "新上市商品目前可公開驗證的最低售價；未套用會員碼、信用卡、點數或個人化折扣，且未含國際運費、進口稅、插頭／供電與台灣保固風險；依 2026-10-30 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2642,11 +2642,11 @@
       "converted": 13900,
       "confidence": "新光三越 skm online 2026-08-20 exact-model 台灣新品頁公開售價",
       "basis": "retailer_current",
-      "note": "2026-10-30 所選通路未能確認可購現價，保留舊參考價 NT$13,900。既有新光三越連結本次404，原價13900保留參考，未有官方明示整型停產，繼續追蹤可購exact替代連結。未扣個人折價券、點數或信用卡回饋。"
+      "note": "2026-10-31 原新光三越頁404，改連三星台灣exact型號官方產品／購買地點頁；本次原頁未顯示可購價格，保留舊13900元參考價，並非本次確認現價或庫存。"
     },
     "image": "https://images.samsung.com/is/image/samsung/p6pim/tw/vs70h18gzg-tw/gallery/tw-jet-fit-stick-vs70h18gzg-tw-550961394?$624_468_PNG$",
-    "buyUrl": "https://online.skm.com.tw/product/863012300004104123",
-    "buyLabel": "新光三越 skm online（現售待確認）",
+    "buyUrl": "https://www.samsung.com/tw/vacuum-cleaners/stick/vs70h-stick-vc-with-super-lightweight-powerful-jet-fit-180w-satin-greige-vs70h18gzg-tw/",
+    "buyLabel": "Samsung 官方（通路與現價待確認）",
     "installation": {
       "status": "not_stated",
       "note": "通路未列到府安裝；本品為無線直立／手持吸塵器，充電座、配件與充電位置由使用者依原廠說明完成。"
@@ -3295,7 +3295,7 @@
     "converted": 4831,
     "basis": "retailer_current",
     "confidence": "2026-10-30 momo官方直營14743779 exact-model原頁4831元，Chrome可見直接購買及放入購物車皆可用。",
-    "note": "momo官方直營XJC-G040完整主機，10/16–10/31公開滿1件88折4831元（基價5490）；未扣個人折價券、登錄mo幣或信用卡回饋。活動及庫存依通路，不把官方補貨中或PChome已售完4941當可購價。"
+    "note": "2026-10-31 momo官方直營XJC-G040主商品4831元，公開滿1件88折，活動10/16–10/31；5490元是折前促銷價、5990元是市售參考價。"
   },
   "installation": {
     "status": "not_stated",

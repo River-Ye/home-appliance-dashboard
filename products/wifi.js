@@ -891,9 +891,9 @@
     "price": {
       "currency": "USD",
       "amount": 208,
-      "converted": 6743,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。；ExchangeRate-API 2026-10-29 匯率換算",
-      "note": "2026-10-30 美國官方單台基價189美元，強制附加費後公開總價208美元，可加入購物車；不含選配UI Care及PoE供電器。未含國際運費、進口稅、電壓／插頭／供電及台灣保固風險，另依網站匯率換算。"
+      "converted": 6771,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。；ExchangeRate-API 2026-10-30 匯率換算",
+      "note": "2026-10-31 U7-Pro主商品189美元基價，強制Surcharge incl.總額208美元；可Add to Cart。 未含國際運費、進口稅、PoE供電配件及台灣保固風險。"
     },
     "image": "https://cdn.ecomm.ui.com/products/fa8dd4e4-36c8-4c79-a928-22c7bff2ce29/ab5bc8a4-6135-402e-a695-e3ea5e16d3e6.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-pro",
@@ -972,10 +972,10 @@
     "price": {
       "currency": "USD",
       "amount": 175,
-      "converted": 5673,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "converted": 5697,
+      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-10-30 匯率換算",
       "basis": "retailer_current",
-      "note": "2026-10-30 美國官方單台基價159美元，強制附加費後公開總價175美元，可加入購物車；不含選配UI Care及PoE供電器。未含國際運費、進口稅、電壓／插頭／供電及台灣保固風險，另依網站匯率換算。"
+      "note": "2026-10-31 U6-Pro主商品159美元基價，強制Surcharge incl.總額175美元；30美元UI Care及8美元PoE是另購。 未含國際運費、進口稅、PoE供電配件及台灣保固風險。"
     },
     "image": "https://cdn.ecomm.ui.com/products/8e88b222-7a55-4cf0-8677-ae9b6347fe84/e16aa122-b5e5-4ffb-9f1a-27ee14d9ab3d.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u6-pro",
@@ -1091,10 +1091,10 @@
     "price": {
       "currency": "USD",
       "amount": 109,
-      "converted": 3533,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "converted": 3548,
+      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-10-30 匯率換算",
       "basis": "retailer_current",
-      "note": "2026-10-30 美國官方單台基價99美元，強制附加費後公開總價109美元，可加入購物車；不含選配UI Care及PoE供電器。未含國際運費、進口稅、電壓／插頭／供電及台灣保固風險，另依網站匯率換算。"
+      "note": "2026-10-31 U7-Lite主商品99美元基價，強制Surcharge incl.總額109美元；19美元PoE是配件另購。 未含國際運費、進口稅、PoE供電配件及台灣保固風險。"
     },
     "image": "https://cdn.ecomm.ui.com/products/253cc208-4b09-4b2e-9d1a-7aa1e8f93507/49241c96-878f-4e40-8541-c2e89c1c5e6e.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-lite",
@@ -1569,10 +1569,10 @@
     "price": {
       "currency": "USD",
       "amount": 142,
-      "converted": 4603,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "converted": 4622,
+      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-10-30 匯率換算",
       "basis": "retailer_current",
-      "note": "2026-10-30 美國官方單台基價129美元，強制附加費後公開總價142美元，可加入購物車；不含選配UI Care及PoE供電器。未含國際運費、進口稅、電壓／插頭／供電及台灣保固風險，另依網站匯率換算。"
+      "note": "2026-10-31 U6+主商品129美元基價，強制Surcharge incl.總額142美元；UI Care及PoE另購。 未含國際運費、進口稅、PoE供電配件及台灣保固風險。"
     },
     "image": "https://cdn.ecomm.ui.com/products/6d5c6141-e2e9-416a-b789-53e59416bb1a/853bc73b-f65b-4e59-a171-75c9a4a4615e.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u6-plus",
@@ -1675,9 +1675,9 @@
     "price": {
       "currency": "USD",
       "amount": 307,
-      "converted": 9952,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。；ExchangeRate-API 2026-10-29 匯率換算",
-      "note": "2026-10-30 美國官方單台基價279美元，強制附加費後公開總價307美元，可加入購物車；不含選配UI Care及PoE供電器。未含國際運費、進口稅、電壓／插頭／供電及台灣保固風險，另依網站匯率換算。"
+      "converted": 9993,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。；ExchangeRate-API 2026-10-30 匯率換算",
+      "note": "2026-10-31 U7-Pro-Max主商品279美元基價，強制Surcharge incl.總額307美元；49美元UI Care另購。 未含國際運費、進口稅、PoE供電配件及台灣保固風險。"
     },
     "image": "https://cdn.ecomm.ui.com/products/350070a0-ae43-431b-b052-8e849c3b0a75/bad94693-bc54-4ab4-b060-9b972401941c.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-pro-max",

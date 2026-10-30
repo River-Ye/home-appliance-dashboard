@@ -19,7 +19,7 @@
       "amount": 33111,
       "converted": 33111,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
-      "note": "2026-10-30 人工覆核所選通路同型號新品公開價 NT$33,111。未扣個人折價券、點數或信用卡回饋。",
+      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900IGHHM/000001_1782870336.jpg",
@@ -114,9 +114,11 @@
     "name": "跨越奇兵旗艦掃拖王者水立方版",
     "price": {
       "currency": "TWD",
-      "amount": 32980,
-      "converted": 32980,
-      "confidence": "PChome 2026-10-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 32111,
+      "converted": 32111,
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JNELR/000001_1769062030.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JNELR",
@@ -299,11 +301,11 @@
     "name": "跨越奇兵旗艦越障掃拖王者",
     "price": {
       "currency": "TWD",
-      "amount": 29111,
-      "converted": 29111,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "amount": 29911,
+      "converted": 29911,
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-30 人工覆核所選通路同型號新品公開價 NT$29,111。未扣個人折價券、點數或信用卡回饋。"
+      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JMMCO/000001_1769061975.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JMMCO",
@@ -401,7 +403,7 @@
       "converted": 24911,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-30 人工覆核所選通路同型號新品公開價 NT$24,911。未扣個人折價券、點數或信用卡回饋。"
+      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JPHOP/000001_1782870240.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JPHOP",
@@ -595,7 +597,7 @@
       "amount": 24700,
       "converted": 24700,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-30 人工覆核所選通路同型號新品公開價 NT$24,700。公開單件活動價有效至2026-10-30 08:00:59+08:00。所選Yahoo明示新品預購中，到貨後依訂單順序依序發貨；不將一般X11水箱版現貨轉算上下水款。未扣個人折價券、點數或信用卡回饋。",
+      "note": "2026-10-31 Yahoo所選DEEBOT X11 PRO上下水款主商品24700元，明示新品預購中，到貨依訂單發貨；不將水箱版庫存套用。 公開活動滿1件享95折，有效至2026-11-02T07:00:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900JRDAS/000001_1771917633.jpg",
@@ -694,7 +696,7 @@
       "converted": 20999,
       "basis": "retailer_current",
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-30 人工覆核所選通路同型號新品公開價 NT$20,999。未扣個人折價券、點數或信用卡回饋。"
+      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900J5HJ0/000001_1766715791.jpg",
     "buyUrl": "https://storetw.ecovacs.com/zh-tw/products/deebot-x11-pro?variant=48145109549271",
@@ -1080,7 +1082,7 @@
       "amount": 28782,
       "converted": 28782,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
-      "note": "2026-10-30 人工覆核所選通路同型號新品公開價 NT$28,782。原頁10/29–10/30單件9折28782元，廠商出貨且不受24h限制；沒有之前的預購日期。未扣個人折價券、點數或信用卡回饋。",
+      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL3EA900JZ3SP/000001_1780033309.jpg",
@@ -1178,7 +1180,7 @@
       "amount": 8999,
       "converted": 8999,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
-      "note": "2026-10-30 人工覆核所選通路同型號新品公開價 NT$8,999。原頁10/29–10/30單件9折8999元，廠商出貨且不受24h限制；沒有之前的預購日期。未扣個人折價券、點數或信用卡回饋。",
+      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL3EA900JY4G0/000001_1780033612.jpg",
@@ -1370,8 +1372,8 @@
     "price": {
       "currency": "EUR",
       "amount": 1099,
-      "converted": 39706,
-      "confidence": "2026-10-24人工核對de.narwal.com同型號同版本公開EUR 1099；未扣個人化券、信用卡或點數。；ExchangeRate-API 2026-10-29 匯率換算",
+      "converted": 39930,
+      "confidence": "2026-10-24人工核對de.narwal.com同型號同版本公開EUR 1099；未扣個人化券、信用卡或點數。；ExchangeRate-API 2026-10-30 匯率換算",
       "note": "2026-10-24德國官方白色標準站單機套裝公開EUR1099；未扣需輸入優惠碼的Halloween折扣。未含國際運費、進口稅，台灣電壓/插頭及保固/跨國送修風險另核。"
     },
     "image": "https://de.narwal.com/cdn/shop/files/narwal-flow-2-saugroboter-mit-selbstreinigung-9224922_1200x1200.png?v=1781597108",
@@ -1467,8 +1469,8 @@
     "price": {
       "currency": "USD",
       "amount": 551.69,
-      "converted": 17884,
-      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-10-29 匯率換算"
+      "converted": 17958,
+      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-10-30 匯率換算"
     },
     "image": "https://img.gkbcdn.com/p/2025-04-11/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438-0._w315_.jpg",
     "buyUrl": "https://www.geekbuying.com/item/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438.html",
@@ -1562,11 +1564,11 @@
     "name": "全能滾筒旗艦機皇掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 19911,
-      "converted": 19911,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "amount": 25980,
+      "converted": 25980,
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-30 人工覆核所選通路同型號新品公開價 NT$19,911。未扣個人折價券、點數或信用卡回饋。"
+      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0JA900JCCJT/000001_1782802020.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0J-A900JCCJT",
@@ -2135,7 +2137,7 @@
       "amount": 13291,
       "converted": 13291,
       "confidence": "2026-10-28 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
-      "note": "2026-10-30 人工覆核所選通路同型號新品公開價 NT$13,291。公開單件活動價有效至2026-12-31 23:59:59+08:00。未扣個人折價券、點數或信用卡回饋。",
+      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。 公開活動滿1件享95折，有效至2026-12-31T23:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL2DA900K13C9/000001_1782120164.jpg",
@@ -2234,7 +2236,7 @@
       "converted": 23665,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-30 人工覆核所選通路同型號新品公開價 NT$23,665。未扣個人折價券、點數或信用卡回饋。"
+      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL5WA900JXBY3/000001_1776393356.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL5W-A900JXBY3",
@@ -2618,8 +2620,8 @@
     "price": {
       "currency": "USD",
       "amount": 999.99,
-      "converted": 32416,
-      "confidence": "SharkNinja US 2026-07-21 來源價；ExchangeRate-API 2026-10-29 匯率換算"
+      "converted": 32551,
+      "confidence": "SharkNinja US 2026-07-21 來源價；ExchangeRate-API 2026-10-30 匯率換算"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/RV2820ZE_01.jpg",
     "buyUrl": "https://www.sharkninja.com/shark-powerdetect-2-in-1-robot-vacuum-and-mop-with-nevertouch-pro-base/RV2820ZE.html",
@@ -2812,8 +2814,8 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 12966,
-      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-10-29 匯率換算",
+      "converted": 13020,
+      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-10-30 匯率換算",
       "note": "2026-10-19 Costco 原商品頁已失效，未確認同型號新品現售；保留原幣參考價，只更新匯率換算，不以 QX Revo Arc／Plus／Max 替代。"
     },
     "image": "https://cdn.cs.1worldsync.com/syndication/mediaserverredirect/aaaa71b7b115f7d0cbeb119d8fc3ad7b/width%281200%29.jpg",
@@ -2898,7 +2900,7 @@
       "amount": 23280,
       "converted": 23280,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-30 人工覆核所選通路同型號新品公開價 NT$23,280。公開單件活動價有效至2026-10-30 08:29:59+08:00。未扣個人折價券、點數或信用卡回饋。",
+      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。 公開活動滿1件享97折，有效至2026-11-02T08:29:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/5A801ABE6A-SP-22823743.jpg",
@@ -3212,7 +3214,7 @@
       "amount": 9799,
       "converted": 9799,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
-      "note": "2026-10-30 人工覆核所選通路同型號新品公開價 NT$9,799。公開單件活動價有效至2026-10-30 07:59:59+08:00。未扣個人折價券、點數或信用卡回饋。",
+      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。 公開活動滿1件折200，有效至2026-11-02T07:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/DBA14833A1-SP-22450109.jpg",
@@ -3429,7 +3431,7 @@
       "converted": 23911,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-30 人工覆核所選通路同型號新品公開價 NT$23,911。未扣個人折價券、點數或信用卡回饋。"
+      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900K7R6R/000001_1785985365.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900K7R6R",
@@ -3846,7 +3848,7 @@
       "converted": 19949,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-30 人工覆核所選通路同型號新品公開價 NT$19,949。原頁10/29–10/30單件95折19949元，倉庫出貨；主商品型號與鄰近6Max不同，不借用相關商品價。未扣個人折價券、點數或信用卡回饋。"
+      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
     },
     "installation": {
       "status": "not_stated",
@@ -4238,7 +4240,7 @@
       "converted": 30911,
       "basis": "retailer_current",
       "confidence": "2026-10-30 人工核對追覓台灣官方選定黑色主機公開價與可購狀態。",
-      "note": "2026-10-30 追覓台灣官方黑色主機公開價30,911元，可立即購買；未扣優惠碼、個人券或贈品價值。自動上下水模組另購，其預購交期不適用主機；實際配送依訂單確認。"
+      "note": "2026-10-31 追覓台灣官方黑色X60 Track主商品30911元；3280元是另外預購的自動上下水模組，不能把配件預購日期當主機交期。"
     },
     "installation": {
       "status": "not_stated",

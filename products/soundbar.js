@@ -20,7 +20,7 @@
       "amount": 42655,
       "converted": 42655,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-30 原Yahoo頁主商品公開單件促銷價42655元；活動803227，滿1件享95折，有效至台灣時間2026/10/30 07:59:59。非會員券、信用卡或點數；到期須重新查價。",
+      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。 公開活動滿1件享95折，有效至2026-10-31T07:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900JMDR5/000001_1773978957.jpg",
@@ -313,7 +313,7 @@
       "converted": 19260,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-30 覆核所選通路同型號新品公開價 TWD 19260；不扣個人券、點數或信用卡回饋。"
+      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAAN8A900K0Y8L/000001_1779181877.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAN8-A900K0Y8L",
@@ -796,11 +796,11 @@
     "name": "LG Soundbar S80TR 5.1.3 聲道立體環繞聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 23175,
-      "converted": 23175,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "amount": 21900,
+      "converted": 21900,
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-28晚間原頁覆核：S80TR主商品公開價23175TWD，本輪原頁可加入購物車；主商品價與舊參考一致，未套用相關商品或回饋。不含個人券、點數或信用卡回饋。"
+      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAAODA900JCHIM/000007_1769583526.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAOD-A900JCHIM",
@@ -899,7 +899,7 @@
       "amount": 56905,
       "converted": 56905,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-30 原Yahoo頁主商品公開單件促銷價56905元；活動803227，滿1件享95折，有效至台灣時間2026/10/30 07:59:59。非會員券、信用卡或點數；到期須重新查價。",
+      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。 公開活動滿1件享95折，有效至2026-10-31T07:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADO2A900K5VUT/000001_1782993730.jpg",
@@ -999,7 +999,7 @@
       "amount": 35055,
       "converted": 35055,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-30 原Yahoo頁主商品公開單件促銷價35055元；活動803227，滿1件享95折，有效至台灣時間2026/10/30 07:59:59。非會員券、信用卡或點數；到期須重新查價。",
+      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。 公開活動滿1件享95折，有效至2026-10-31T07:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900K5489/000001_1782988490.jpg",
@@ -1099,7 +1099,7 @@
       "amount": 8541,
       "converted": 8541,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-30 原Yahoo頁主商品公開單件促銷價8541元；活動803223，滿1件享9折，有效至台灣時間2026/10/30 07:59:59。非會員券、信用卡或點數；到期須重新查價。",
+      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。 公開活動滿1件享9折，有效至2026-11-02T07:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900GHTFE/000001_1776774078.jpg",
@@ -1396,7 +1396,7 @@
       "amount": 27161,
       "converted": 27161,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-30 原Yahoo頁主商品公開單件促銷價27161元；活動803227，滿1件享95折，有效至台灣時間2026/10/30 07:59:59。非會員券、信用卡或點數；到期須重新查價。",
+      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。 公開活動滿1件享95折，有效至2026-10-31T07:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAHGA900J56OK/000001_1755250707.jpg",
@@ -1689,11 +1689,11 @@
     "name": "BRAVIA Theatre Bar 8 聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 26505,
-      "converted": 26505,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "amount": 25110,
+      "converted": 25110,
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-30 覆核所選通路同型號新品公開價 TWD 26505；不扣個人券、點數或信用卡回饋。"
+      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900HTC64/000001_1781747501.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM1D-A900HTC64",
@@ -2090,8 +2090,8 @@
     "price": {
       "currency": "USD",
       "amount": 1299.99,
-      "converted": 42140,
-      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-10-29 匯率換算"
+      "converted": 42317,
+      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-10-30 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/2C2sn9CKoKFdIyd94Gm9z5/f3019d4e721511167ebe5c229bf490dd/heston-120_plp.jpg",
     "buyUrl": "https://www.marshall.com/us/en/product/heston-120",
@@ -2190,8 +2190,8 @@
     "price": {
       "currency": "USD",
       "amount": 699.99,
-      "converted": 22691,
-      "confidence": "2026-10-24 人工核對 www.marshall.com 同型號與所選版本公開價 USD 699.99，可下單；未扣會員、信用卡或點數。；ExchangeRate-API 2026-10-29 匯率換算",
+      "converted": 22786,
+      "confidence": "2026-10-24 人工核對 www.marshall.com 同型號與所選版本公開價 USD 699.99，可下單；未扣會員、信用卡或點數。；ExchangeRate-API 2026-10-30 匯率換算",
       "basis": "retailer_current"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/3yitHqjPBTgQk5qRE72PSn/2788206646aa153f71f2c0ebefaff580/Heston-60-black_plp_800x800-v3.jpeg",
@@ -2489,7 +2489,7 @@
       "amount": 602,
       "converted": 602,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-30 原Yahoo頁主商品公開單件促銷價602元；活動803227，滿1件享95折，有效至台灣時間2026/10/30 07:59:59。非會員券、信用卡或點數；到期須重新查價。",
+      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。 公開活動滿1件享95折，有效至2026-10-31T07:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h21/hac/367883491278878.jpg",
@@ -2631,14 +2631,14 @@
       "status": "found",
       "amount": 176091,
       "currency": "JPY",
-      "converted": 36149,
+      "converted": 36306,
       "sourceUrl": "https://kakaku.com/item/K0001712395/pricehistory/",
       "sourceTitle": "価格.com：JBL BAR 1300MK2 [ブラック] 価格推移",
       "evidenceSnippet": "価格.com 日別價格歷史顯示 exact-model「JBL BAR 1300MK2 [ブラック]」於 2026-06-17 的新品最低價為 ¥176,091；2025-10 初始價格為 ¥205,306。",
       "sourceKind": "price_history",
       "confidence": "medium",
       "checkedAt": "2026-08-25",
-      "note": "採日本市場 exact-model 公開價格歷史並依 2026-10-29 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
+      "note": "採日本市場 exact-model 公開價格歷史並依 2026-10-30 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -3704,9 +3704,9 @@
     "price": {
       "currency": "USD",
       "amount": 699,
-      "converted": 22659,
+      "converted": 22754,
       "basis": "retailer_current",
-      "confidence": "2026-10-19 人工核對 Sonos US 官方黑色 BMULTUS1BLK 公開單機 US$699 與 Available now/Add to cart；ExchangeRate-API 2026-10-29 匯率換算，未含國際運費與進口稅。"
+      "confidence": "2026-10-19 人工核對 Sonos US 官方黑色 BMULTUS1BLK 公開單機 US$699 與 Available now/Add to cart；ExchangeRate-API 2026-10-30 匯率換算，未含國際運費與進口稅。"
     },
     "installation": {
       "status": "not_stated",

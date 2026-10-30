@@ -1,9 +1,9 @@
 {
   "summary": {
-    "checkedAt": "2026-10-30T07:16:32.348+08:00",
-    "total": 1228,
+    "checkedAt": "2026-10-31T07:12:52.102+08:00",
+    "total": 1230,
     "commonIssueProducts": 54,
-    "noCommonIssueProducts": 1174,
+    "noCommonIssueProducts": 1176,
     "pendingManualReview": 0,
     "commonIssues": 55,
     "searchUnavailable": 614,
@@ -33,7 +33,8 @@
       "2026-10-26後續維護僅新增BenQ RD320U的25原頁跨站人工覆核；2名白綠線、1名亮暗點、1名接縫及KVM/軟體各別個案按症狀分開，沒有同問題6人/2原站。其餘1219筆逐型研究及386名集中問題逐人證據保留原日期；不宣稱全站同日重讀。",
       "2026-10-28晚間只新增H600及ASD-100UA逐型跨站人工覆核；ASD-100UA以Mobile01五位與Yahoo一位成立主觀運轉噪音警示，未泛稱全部機器故障。H600之Paine候選為W30S自用、僅表格提及本型而排除。原1220筆研究與386筆逐人證據保留真實日期。",
       "2026-10-29僅新增兩款逐型跨站人工問題覆核；Ninja原頁星等不計故障，Q11 Ultra海外家族個案未確認台灣選定紅軸，不借用跨區域或軸體報告。既有1222筆問題研究與392筆逐人報告保留真實日期及內容。",
-      "2026-10-30僅新增本批4款的逐型跨站人工覆核；其他1224筆及392筆逐人報告保留原始研究日期與內容，不跨尺寸、版本、相近型號轉借結論。"
+      "2026-10-30僅新增本批4款的逐型跨站人工覆核；其他1224筆及392筆逐人報告保留原始研究日期與內容，不跨尺寸、版本、相近型號轉借結論。",
+      "2026-10-31僅新增本批2款的逐型跨站人工覆核；其他1228筆及392筆逐人報告保留原始研究日期與內容，不跨尺寸、版本、相近型號轉借結論。"
     ]
   },
   "results": [
@@ -212404,7 +212405,7 @@
       "category": "mousepad",
       "brand": "Logitech",
       "model": "943-001617",
-      "name": "PRO X CONTROL 黑色 400×460mm 加厚針織電競鼠墊（預購）",
+      "name": "PRO X CONTROL 黑色400×460mm加厚針織電競鼠墊",
       "identity": {
         "canonicalModel": "943-001617",
         "lookupLabel": "Logitech 943-001617",
@@ -220190,6 +220191,533 @@
           "reason": "同一網站不算第二平台，未給本型號六位可識別第一人稱同症狀原文；泛稱避雷不能作原始負評證據。"
         }
       ]
+    },
+    {
+      "id": "dryer-sharp-kd-fkh10dt",
+      "category": "dryer",
+      "brand": "SHARP",
+      "model": "KD-FKH10DT",
+      "name": "SHARP 烘布郎 KD-FKH10DT 10kg 熱泵滾筒乾衣機",
+      "identity": {
+        "canonicalModel": "KD-FKH10DT",
+        "lookupLabel": "SHARP KD-FKH10DT",
+        "aliases": [
+          "SHARP KD-FKH10DT",
+          "KD FKH10DT"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DPAI3F-A900J14XI"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "id": "dryer-sharp-kd-fkh10dt",
+        "category": "dryer",
+        "brand": "SHARP",
+        "model": "KD-FKH10DT",
+        "reviewBatch": "dryer",
+        "reviewedAt": "2026-10-31",
+        "status": "completed",
+        "decision": "no_common_issue",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT",
+          "Dcard"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "\"KD-FKH10DT\" site:mobile01.com (心得 OR 故障 OR 問題)",
+            "queryUrl": "https://www.google.com/search?q=%22KD-FKH10DT%22%20site%3Amobile01.com%20%28%E5%BF%83%E5%BE%97%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%95%8F%E9%A1%8C%29"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "\"KD-FKH10DT\" site:ptt.cc (心得 OR 故障 OR 問題)",
+            "queryUrl": "https://www.google.com/search?q=%22KD-FKH10DT%22%20site%3Aptt.cc%20%28%E5%BF%83%E5%BE%97%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%95%8F%E9%A1%8C%29"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "\"KD-FKH10DT\" site:dcard.tw (心得 OR 故障 OR 問題)",
+            "queryUrl": "https://www.google.com/search?q=%22KD-FKH10DT%22%20site%3Adcard.tw%20%28%E5%BF%83%E5%BE%97%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%95%8F%E9%A1%8C%29"
+          }
+        ],
+        "candidateDisposition": "KD-FKH10DT：人工覆核Mobile01兩頁原串/發表會文、PTT兩篇購前比較及Dcard體驗文；taz5256多次寢具打捲為同一人、zo6milk一人蒸發器積棉絮屬另一問題，LG縮水/他型洗衣機不移用。未達同一問題6名獨立作者跨2原始網站，仍在缺點提示寢具打捲及濾網維護，不代表沒有負評。另讀小宅洗衣機串，taz5256當時未配送、舊機走路與海爾旅館噪音均排除；Dcard抽獎名單不是本型持有或故障。",
+        "representativeSources": [
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7132582",
+            "title": "SHARP 夏普 烘布郎 熱泵 滾筒乾衣機 KD-FKH10DT 首篇開箱文"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&p=2&t=7132582",
+            "title": "SHARP 烘布郎 KD-FKH10DT 首篇開箱文 第2頁"
+          },
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/E-appliance/M.1746169705.A.C21.html",
+            "title": "[挑選] 熱汞乾衣機（sharp/三洋）"
+          },
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/E-appliance/M.1758773656.A.086.html",
+            "title": "[挑選] 推薦洗脫烘洗衣機品牌??"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7125135",
+            "title": "2025 SHARP 新品發表會及家電使用感想"
+          },
+          {
+            "platform": "Dcard",
+            "url": "https://www.dcard.tw/@iamironpa/post/258742803",
+            "title": "我是鐵爸：烘布郎 SHARP 熱泵乾衣機體驗"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7218602",
+            "title": "小宅洗衣機選擇"
+          },
+          {
+            "platform": "Dcard",
+            "url": "https://www.dcard.tw/f/savemoney/p/260847079",
+            "title": "情報 買洗衣機抽機票"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7132582",
+            "title": "SHARP 夏普 烘布郎 熱泵 滾筒乾衣機 KD-FKH10DT 首篇開箱文",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-10-31",
+            "sourceExcerpt": "wonwai樓主描述雙濾網維護與水箱清潔疑慮；taz5256第7與10樓為同一作者，回報寢具打捲且後來打結改善。wadashiwa說棉絮網易清，56不能亡的縮水/過熱是LG，不是夏普。",
+            "independentAuthors": 2,
+            "specificReason": "完整讀1至10樓與留言，打捲只有taz5256一人；wonwai維護疑慮不能與打捲混為同一缺陷，LG縮水及詢問、建議不計入。本頁不足6名同問題作者，與手機頁為同站。",
+            "locator": "#1 wonwai/91711165；#7 taz5256/92895438；#10 taz5256/92971912，並讀9/20同作者留言。",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&p=2&t=7132582",
+            "title": "SHARP 烘布郎 KD-FKH10DT 首篇開箱文 第2頁",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-10-31",
+            "sourceExcerpt": "man125041第11樓為購前詢問墊架；zo6milk第12樓自述烘布郎使用至今蒸發器較易積棉絮，詢問另一機型第三片濾網料號。",
+            "independentAuthors": 1,
+            "specificReason": "實讀11至12樓，zo6milk是1名維護負面回報，不可把其與taz5256寢具打捲合成同一缺陷；也不可將兩頁當兩個網站。未達6人2站。",
+            "locator": "#11 man125041/93568232；#12 zo6milk/93591239。",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/E-appliance/M.1746169705.A.C21.html",
+            "title": "[挑選] 熱汞乾衣機（sharp/三洋）",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-10-31",
+            "sourceExcerpt": "snowy16tw把KD-FKH10DT與ASD-100UA列為購前比較；tatis討論貼牌與現貨，purpleansion/cordeo2004談自己其他夏普滾筒洗衣機，並非本款乾衣機故障。",
+            "independentAuthors": 0,
+            "specificReason": "已實讀原文與全部推文，沒有KD-FKH10DT第一人稱同問題負評；三洋與其他夏普洗衣機經驗、品牌/代工疑慮不可轉計本機缺陷。",
+            "locator": "原文snowy16tw及5/2–5/15全部推文；tatis、purpleansion、cordeo2004等。",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/E-appliance/M.1758773656.A.086.html",
+            "title": "[挑選] 推薦洗脫烘洗衣機品牌??",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-10-31",
+            "sourceExcerpt": "ben196888列ES-FKS125WT+KD-FKH10DT組合與Panasonic/LG比較；t720405仍觀望，svikern描述烘好如日曬；其他留言質疑推文業配或談別款。",
+            "independentAuthors": 0,
+            "specificReason": "已實讀原文及全部推文，未有本型號本人同症狀故障。業配質疑與品牌推薦不等於機器災情，沒有可計同問題獨立負評作者。",
+            "locator": "原文ben196888及9/25–12/05全部推文；t720405、svikern等。",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7125135",
+            "title": "2025 SHARP 新品發表會及家電使用感想",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-10-31",
+            "sourceExcerpt": "catkikl介紹發表會KD-FKH10DT的容量、熱泵與700W等；其數月使用感想是吹風機及循環扇，沒有自用乾衣機故障。",
+            "independentAuthors": 0,
+            "specificReason": "已讀原頁，乾衣機部分屬展覽介紹，不是本機第一人稱長期使用負評，不能以同文其他家電心得或文章人數計災情。",
+            "locator": "主文catkikl/91624052乾衣機段與全文其餘品類。",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "Dcard",
+            "url": "https://www.dcard.tw/@iamironpa/post/258742803",
+            "title": "我是鐵爸：烘布郎 SHARP 熱泵乾衣機體驗",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-10-31",
+            "sourceExcerpt": "我是鐵爸原頁明列KD-FKH10DT並描述體驗、安靜與省電，附購買連結；本文沒有回報故障，頁面未見可核對的負評作者。",
+            "independentAuthors": 0,
+            "specificReason": "已讀Dcard原文，屬正面體驗/導購內容，不能把75個愛心或介紹文的功能宣稱當75位使用者或負評證據。",
+            "locator": "Dcard我是鐵爸原文KD-FKH10DT體驗段；無可讀負評留言。",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7218602",
+            "title": "小宅洗衣機選擇",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-10-31",
+            "independentAuthors": 0,
+            "sourceExcerpt": "taz5256第8樓明列ES-FKS125WT-KD-FKH10DT組合，但當時尚未配送；會走路/避震器壞的是欲換掉舊洗衣機。第9樓噪音明說海爾旅館洗衣機。",
+            "specificReason": "已讀1至9樓與留言，尚未配送不能當本款使用故障；不同品牌舊洗衣機問題不得移用。taz5256與烘布郎開箱串同一帳號，不能跨串重複計人。",
+            "locator": "#8 taz5256/92804964，2026-02-15；#9 Ye-Kin-233/92920732。",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "Dcard",
+            "url": "https://www.dcard.tw/f/savemoney/p/260847079",
+            "title": "情報 買洗衣機抽機票",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-10-31",
+            "independentAuthors": 0,
+            "sourceExcerpt": "醒吾科技大學原文把KD-FKH10DT列於2025.11.10–2026.03.31指定登錄抽獎型號；實際購買描述為新家洗衣機，並未指明購入本乾衣機或回報故障。",
+            "specificReason": "已讀原文，型號僅在活動清單，10個愛心和17則留言統計不等於本型使用者。可讀內容沒有可計同症狀的第一人稱負評；留言子連結同一原串去重。",
+            "locator": "原文「滾筒系列型號」熱泵乾衣機欄KD-FKH10DT；作者醒吾科技大學。",
+            "reviewBasis": "manual_web_original_page"
+          }
+        ],
+        "reviewerNote": "KD-FKH10DT：人工覆核Mobile01兩頁原串/發表會文、PTT兩篇購前比較及Dcard體驗文；taz5256多次寢具打捲為同一人、zo6milk一人蒸發器積棉絮屬另一問題，LG縮水/他型洗衣機不移用。未達同一問題6名獨立作者跨2原始網站，仍在缺點提示寢具打捲及濾網維護，不代表沒有負評。另讀小宅洗衣機串，taz5256當時未配送、舊機走路與海爾旅館噪音均排除；Dcard抽獎名單不是本型持有或故障。 Dcard蝦米攏推彙整原頁無法存取，未取得原文，僅列discoveryLimitations，不把搜尋摘要作原始證據。",
+        "attestation": "manual_original_pages_reviewed",
+        "name": "SHARP 烘布郎 KD-FKH10DT 10kg 熱泵滾筒乾衣機"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-10-31",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "\"KD-FKH10DT\" site:mobile01.com (心得 OR 故障 OR 問題)",
+            "queryUrl": "https://www.google.com/search?q=%22KD-FKH10DT%22%20site%3Amobile01.com%20%28%E5%BF%83%E5%BE%97%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%95%8F%E9%A1%8C%29"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "\"KD-FKH10DT\" site:ptt.cc (心得 OR 故障 OR 問題)",
+            "queryUrl": "https://www.google.com/search?q=%22KD-FKH10DT%22%20site%3Aptt.cc%20%28%E5%BF%83%E5%BE%97%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%95%8F%E9%A1%8C%29"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "\"KD-FKH10DT\" site:dcard.tw (心得 OR 故障 OR 問題)",
+            "queryUrl": "https://www.google.com/search?q=%22KD-FKH10DT%22%20site%3Adcard.tw%20%28%E5%BF%83%E5%BE%97%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%95%8F%E9%A1%8C%29"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"KD-FKH10DT\" site:mobile01.com (心得 OR 故障 OR 問題)",
+          "searchUrl": "https://www.google.com/search?q=%22KD-FKH10DT%22%20site%3Amobile01.com%20%28%E5%BF%83%E5%BE%97%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%95%8F%E9%A1%8C%29",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 3,
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=730&t=7132582",
+            "https://www.mobile01.com/topicdetail.php?f=168&t=7125135",
+            "https://www.mobile01.com/topicdetail.php?f=730&t=7218602"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7132582",
+              "title": "SHARP 夏普 烘布郎 熱泵 滾筒乾衣機 KD-FKH10DT 首篇開箱文"
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7125135",
+              "title": "2025 SHARP 新品發表會及家電使用感想"
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7218602",
+              "title": "小宅洗衣機選擇"
+            }
+          ],
+          "inspectedAt": "2026-10-30T23:12:06.472357+00:00",
+          "note": "搜尋只用於發現候選，已開原頁逐一判讀，排除理由及定位在manualReview.candidateReviews；桌機/手機及同串留言去重。"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "\"KD-FKH10DT\" site:ptt.cc (心得 OR 故障 OR 問題)",
+          "searchUrl": "https://www.google.com/search?q=%22KD-FKH10DT%22%20site%3Aptt.cc%20%28%E5%BF%83%E5%BE%97%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%95%8F%E9%A1%8C%29",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 2,
+          "candidateUrls": [
+            "https://www.ptt.cc/bbs/E-appliance/M.1746169705.A.C21.html",
+            "https://www.ptt.cc/bbs/E-appliance/M.1758773656.A.086.html"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.ptt.cc/bbs/E-appliance/M.1746169705.A.C21.html",
+              "title": "[挑選] 熱汞乾衣機（sharp/三洋）"
+            },
+            {
+              "url": "https://www.ptt.cc/bbs/E-appliance/M.1758773656.A.086.html",
+              "title": "[挑選] 推薦洗脫烘洗衣機品牌??"
+            }
+          ],
+          "inspectedAt": "2026-10-30T23:12:06.472357+00:00",
+          "note": "搜尋只用於發現候選，已開原頁逐一判讀，排除理由及定位在manualReview.candidateReviews；桌機/手機及同串留言去重。"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "\"KD-FKH10DT\" site:dcard.tw (心得 OR 故障 OR 問題)",
+          "searchUrl": "https://www.google.com/search?q=%22KD-FKH10DT%22%20site%3Adcard.tw%20%28%E5%BF%83%E5%BE%97%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%95%8F%E9%A1%8C%29",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 2,
+          "candidateUrls": [
+            "https://www.dcard.tw/@iamironpa/post/258742803",
+            "https://www.dcard.tw/f/savemoney/p/260847079"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.dcard.tw/@iamironpa/post/258742803",
+              "title": "我是鐵爸：烘布郎 SHARP 熱泵乾衣機體驗"
+            },
+            {
+              "url": "https://www.dcard.tw/f/savemoney/p/260847079",
+              "title": "情報 買洗衣機抽機票"
+            }
+          ],
+          "inspectedAt": "2026-10-30T23:12:06.472357+00:00",
+          "note": "搜尋只用於發現候選，已開原頁逐一判讀，排除理由及定位在manualReview.candidateReviews；桌機/手機及同串留言去重。"
+        }
+      ],
+      "evidence": [],
+      "reports": [],
+      "rejectedCandidates": [
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7132582",
+          "title": "SHARP 夏普 烘布郎 熱泵 滾筒乾衣機 KD-FKH10DT 首篇開箱文",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-10-31",
+          "sourceExcerpt": "wonwai樓主描述雙濾網維護與水箱清潔疑慮；taz5256第7與10樓為同一作者，回報寢具打捲且後來打結改善。wadashiwa說棉絮網易清，56不能亡的縮水/過熱是LG，不是夏普。",
+          "independentAuthors": 2,
+          "specificReason": "完整讀1至10樓與留言，打捲只有taz5256一人；wonwai維護疑慮不能與打捲混為同一缺陷，LG縮水及詢問、建議不計入。本頁不足6名同問題作者，與手機頁為同站。",
+          "locator": "#1 wonwai/91711165；#7 taz5256/92895438；#10 taz5256/92971912，並讀9/20同作者留言。",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "完整讀1至10樓與留言，打捲只有taz5256一人；wonwai維護疑慮不能與打捲混為同一缺陷，LG縮水及詢問、建議不計入。本頁不足6名同問題作者，與手機頁為同站。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&p=2&t=7132582",
+          "title": "SHARP 烘布郎 KD-FKH10DT 首篇開箱文 第2頁",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-10-31",
+          "sourceExcerpt": "man125041第11樓為購前詢問墊架；zo6milk第12樓自述烘布郎使用至今蒸發器較易積棉絮，詢問另一機型第三片濾網料號。",
+          "independentAuthors": 1,
+          "specificReason": "實讀11至12樓，zo6milk是1名維護負面回報，不可把其與taz5256寢具打捲合成同一缺陷；也不可將兩頁當兩個網站。未達6人2站。",
+          "locator": "#11 man125041/93568232；#12 zo6milk/93591239。",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "實讀11至12樓，zo6milk是1名維護負面回報，不可把其與taz5256寢具打捲合成同一缺陷；也不可將兩頁當兩個網站。未達6人2站。"
+        },
+        {
+          "platform": "PTT",
+          "url": "https://www.ptt.cc/bbs/E-appliance/M.1746169705.A.C21.html",
+          "title": "[挑選] 熱汞乾衣機（sharp/三洋）",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-10-31",
+          "sourceExcerpt": "snowy16tw把KD-FKH10DT與ASD-100UA列為購前比較；tatis討論貼牌與現貨，purpleansion/cordeo2004談自己其他夏普滾筒洗衣機，並非本款乾衣機故障。",
+          "independentAuthors": 0,
+          "specificReason": "已實讀原文與全部推文，沒有KD-FKH10DT第一人稱同問題負評；三洋與其他夏普洗衣機經驗、品牌/代工疑慮不可轉計本機缺陷。",
+          "locator": "原文snowy16tw及5/2–5/15全部推文；tatis、purpleansion、cordeo2004等。",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "已實讀原文與全部推文，沒有KD-FKH10DT第一人稱同問題負評；三洋與其他夏普洗衣機經驗、品牌/代工疑慮不可轉計本機缺陷。"
+        },
+        {
+          "platform": "PTT",
+          "url": "https://www.ptt.cc/bbs/E-appliance/M.1758773656.A.086.html",
+          "title": "[挑選] 推薦洗脫烘洗衣機品牌??",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-10-31",
+          "sourceExcerpt": "ben196888列ES-FKS125WT+KD-FKH10DT組合與Panasonic/LG比較；t720405仍觀望，svikern描述烘好如日曬；其他留言質疑推文業配或談別款。",
+          "independentAuthors": 0,
+          "specificReason": "已實讀原文及全部推文，未有本型號本人同症狀故障。業配質疑與品牌推薦不等於機器災情，沒有可計同問題獨立負評作者。",
+          "locator": "原文ben196888及9/25–12/05全部推文；t720405、svikern等。",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "已實讀原文及全部推文，未有本型號本人同症狀故障。業配質疑與品牌推薦不等於機器災情，沒有可計同問題獨立負評作者。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7125135",
+          "title": "2025 SHARP 新品發表會及家電使用感想",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-10-31",
+          "sourceExcerpt": "catkikl介紹發表會KD-FKH10DT的容量、熱泵與700W等；其數月使用感想是吹風機及循環扇，沒有自用乾衣機故障。",
+          "independentAuthors": 0,
+          "specificReason": "已讀原頁，乾衣機部分屬展覽介紹，不是本機第一人稱長期使用負評，不能以同文其他家電心得或文章人數計災情。",
+          "locator": "主文catkikl/91624052乾衣機段與全文其餘品類。",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "已讀原頁，乾衣機部分屬展覽介紹，不是本機第一人稱長期使用負評，不能以同文其他家電心得或文章人數計災情。"
+        },
+        {
+          "platform": "Dcard",
+          "url": "https://www.dcard.tw/@iamironpa/post/258742803",
+          "title": "我是鐵爸：烘布郎 SHARP 熱泵乾衣機體驗",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-10-31",
+          "sourceExcerpt": "我是鐵爸原頁明列KD-FKH10DT並描述體驗、安靜與省電，附購買連結；本文沒有回報故障，頁面未見可核對的負評作者。",
+          "independentAuthors": 0,
+          "specificReason": "已讀Dcard原文，屬正面體驗/導購內容，不能把75個愛心或介紹文的功能宣稱當75位使用者或負評證據。",
+          "locator": "Dcard我是鐵爸原文KD-FKH10DT體驗段；無可讀負評留言。",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "已讀Dcard原文，屬正面體驗/導購內容，不能把75個愛心或介紹文的功能宣稱當75位使用者或負評證據。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7218602",
+          "title": "小宅洗衣機選擇",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-10-31",
+          "independentAuthors": 0,
+          "sourceExcerpt": "taz5256第8樓明列ES-FKS125WT-KD-FKH10DT組合，但當時尚未配送；會走路/避震器壞的是欲換掉舊洗衣機。第9樓噪音明說海爾旅館洗衣機。",
+          "specificReason": "已讀1至9樓與留言，尚未配送不能當本款使用故障；不同品牌舊洗衣機問題不得移用。taz5256與烘布郎開箱串同一帳號，不能跨串重複計人。",
+          "locator": "#8 taz5256/92804964，2026-02-15；#9 Ye-Kin-233/92920732。",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "已讀1至9樓與留言，尚未配送不能當本款使用故障；不同品牌舊洗衣機問題不得移用。taz5256與烘布郎開箱串同一帳號，不能跨串重複計人。"
+        },
+        {
+          "platform": "Dcard",
+          "url": "https://www.dcard.tw/f/savemoney/p/260847079",
+          "title": "情報 買洗衣機抽機票",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-10-31",
+          "independentAuthors": 0,
+          "sourceExcerpt": "醒吾科技大學原文把KD-FKH10DT列於2025.11.10–2026.03.31指定登錄抽獎型號；實際購買描述為新家洗衣機，並未指明購入本乾衣機或回報故障。",
+          "specificReason": "已讀原文，型號僅在活動清單，10個愛心和17則留言統計不等於本型使用者。可讀內容沒有可計同症狀的第一人稱負評；留言子連結同一原串去重。",
+          "locator": "原文「滾筒系列型號」熱泵乾衣機欄KD-FKH10DT；作者醒吾科技大學。",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "已讀原文，型號僅在活動清單，10個愛心和17則留言統計不等於本型使用者。可讀內容沒有可計同症狀的第一人稱負評；留言子連結同一原串去重。"
+        }
+      ],
+      "discoveryLimitations": [
+        {
+          "url": "https://www.dcard.tw/@shopee_go/post/262371696",
+          "title": "租屋房東不給挖洞，整理5款烘衣機網友踩雷點",
+          "status": "original_unavailable",
+          "checkedAt": "2026-10-31",
+          "note": "搜尋出現跨品牌導購彙整，但當日原頁無法存取；未取得可人工確認的原文，未把其搜尋摘要、他牌皮帶/旋鈕問題或估計上市月份當KD-FKH10DT第一人稱證據。"
+        }
+      ]
+    },
+    {
+      "id": "pillow-ikea-fjallhavre-high-30629933",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "306.299.33",
+      "name": "IKEA FJÄLLHAVRE 再生羽絨羽毛高枕 50x80 306.299.33",
+      "identity": {
+        "canonicalModel": "306.299.33",
+        "lookupLabel": "IKEA 306.299.33",
+        "aliases": [
+          "306.299.33",
+          "IKEA 306.299.33"
+        ],
+        "evidenceUrl": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/fjallhavre-art-30629933"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-10-31",
+        "checkedPlatforms": [
+          "PTT",
+          "Mobile01"
+        ],
+        "queries": [
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"306.299.33\" 枕頭",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22306.299.33%22%20%E6%9E%95%E9%A0%AD"
+          },
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"306.299.33\" 枕頭",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22306.299.33%22%20%E6%9E%95%E9%A0%AD"
+          }
+        ],
+        "candidateDisposition": "306.299.33：本輪分別人工執行並閱讀PTT及Mobile01兩組完整SKU枕頭查詢，均無通過本型號邊界的原頁候選；未把無候選等同沒有負評。",
+        "representativeSources": [],
+        "reviewerNote": "逐一閱讀PTT與Mobile01完整SKU查詢結果，無exact306.299.33枕頭候選。額外Reddit家族查詢結果是同名duvet/comforter而非本枕頭，型號邊界排除，未當逐人負評；官方自然氣味說明只是材質保養風險。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate",
+        "candidateReviews": [],
+        "reviewBatch": "pillow"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-10-31",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"306.299.33\" 枕頭",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22306.299.33%22%20%E6%9E%95%E9%A0%AD"
+          },
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"306.299.33\" 枕頭",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22306.299.33%22%20%E6%9E%95%E9%A0%AD"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"306.299.33\" 枕頭",
+          "searchUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22306.299.33%22%20%E6%9E%95%E9%A0%AD",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-10-30T23:12:26.470901+00:00",
+          "note": "人工閱讀完整306.299.33枕頭查詢，未有本SKU原始使用者候選，不套用同名棉被或其他枕頭。"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"306.299.33\" 枕頭",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22306.299.33%22%20%E6%9E%95%E9%A0%AD",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-10-30T23:12:26.470901+00:00",
+          "note": "人工閱讀完整306.299.33枕頭查詢，未有本SKU原始使用者候選，不套用同名棉被或其他枕頭。"
+        }
+      ],
+      "evidence": [],
+      "reports": [],
+      "rejectedCandidates": []
     }
   ]
 }

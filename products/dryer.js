@@ -1646,7 +1646,7 @@
       "amount": 7591,
       "converted": 7591,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-30 人工覆核所選通路同型號新品公開價 NT$7,591。公開單件活動價有效至2026-10-30 08:00:59+08:00。未扣個人折價券、點數或信用卡回饋。",
+      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。 公開活動滿1件享95折，有效至2026-11-02T08:00:59+08:00。頁面另列下單再折350元，未確認與95折是否可同時累加，本站保守採主商品明示7591元。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -1952,7 +1952,7 @@
       "amount": 45908,
       "converted": 45908,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-30 人工覆核所選通路同型號新品公開價 NT$45,908。公開單件活動價有效至2026-10-30 08:00:59+08:00。未扣個人折價券、點數或信用卡回饋。",
+      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。 公開活動滿1件享92折，有效至2026-11-02T08:00:59+08:00。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -2151,14 +2151,15 @@
     "name": "20公斤 Bespoke AI 智慧熱泵乾衣機",
     "price": {
       "currency": "TWD",
-      "amount": 49900,
-      "converted": 49900,
-      "confidence": "樂天市場秀翔電器 SS3C 2026-08-08 exact-model JSON-LD InStock 公開價",
-      "note": "2026-10-30 所選通路未能確認可購現價，保留舊參考價 NT$49,900。既有樂天所選連結本次404，沒有可重現同型號主商品可購現價，保留舊49900參考價並待修連結；不把其他推薦機價格嫁接。未扣個人折價券、點數或信用卡回饋。"
+      "amount": 52900,
+      "converted": 52900,
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "note": "2026-10-31 原樂天頁404，改用momo皓藝家電同型號新品52900元，原頁庫存低於3組、可直接購買與加車，含標準安裝及1年保固；全聯另頁已完售52900及折5000均不採。",
+      "basis": "retailer_current"
     },
     "image": "https://img.pchome.com.tw/cs/items/DPAI1NA900JUUYX/000001_1774598663.jpg",
-    "buyUrl": "https://www.rakuten.com.tw/shop/ss3c/product/eig6gzaxq/",
-    "buyLabel": "樂天市場－秀翔電器 SS3C（現售待確認）",
+    "buyUrl": "https://www.momoshop.com.tw/TP/TP0007894/goodsDetail/TP00078940002685",
+    "buyLabel": "momo 皓藝家電（含標準安裝）",
     "specs": [
       "20 公斤乾衣容量",
       "智慧熱泵乾衣",
@@ -2182,7 +2183,7 @@
     "recommendation": "大容量熱泵旗艦推薦：DV90F20CDSTW 提供現有清單少見的 20 公斤台灣熱泵容量帶，購買前先量測深度、門寬與搬運動線。",
     "score": 89,
     "voltage": "110 V / 60 Hz、800 W；需使用有接地三孔插座，並依手冊確認排水、散熱與安裝間距",
-    "warranty": "台灣公司貨整機 1 年；數位變頻馬達與壓縮機 10 年僅零件（依 Samsung 官方與通路保固說明）",
+    "warranty": "所選momo皓藝家電新品頁明示1年保固；Samsung馬達與壓縮機零件延長範圍依原廠條款。",
     "tags": [
       "20公斤",
       "熱泵",
@@ -2240,6 +2241,10 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "所選momo皓藝家電頁明示含標準安裝、廠商宅配免運；偏遠、樓層與非標準施工另確認，由專人約配送。"
     }
   },
   {
@@ -2656,7 +2661,7 @@
     "converted": 24605,
     "basis": "retailer_current",
     "confidence": "2026-10-28 Yahoo自營同型號整機原頁與Chrome主商品確認；公開單件95折。",
-    "note": "2026-10-30 人工覆核所選通路同型號新品公開價 NT$24,605。公開單件活動價有效至2026-10-30 08:00:59+08:00。未扣個人折價券、點數或信用卡回饋。"
+    "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。 公開活動滿1件享95折，有效至2026-11-02T08:00:59+08:00。"
   },
   "installation": {
     "status": "included_basic",
@@ -2764,6 +2769,108 @@
     "含基本安裝",
     "噪音風險",
     "洗衣家務"
+  ]
+},
+{
+  "id": "dryer-sharp-kd-fkh10dt",
+  "category": "dryer",
+  "rank": 28,
+  "budget": "mid",
+  "channel": "tw",
+  "brand": "SHARP",
+  "model": "KD-FKH10DT",
+  "name": "SHARP 烘布郎 KD-FKH10DT 10kg 熱泵滾筒乾衣機",
+  "topPick": false,
+  "price": {
+    "currency": "TWD",
+    "amount": 27900,
+    "converted": 27900,
+    "basis": "retailer_current",
+    "confidence": "2026-10-31人工重查PChome exact商品頁及產品API，公開27900元、Qty20；未扣P幣、信用卡或會員券。"
+  },
+  "installation": {
+    "status": "included_basic",
+    "note": "所選PChome乾衣機頁標贈拆箱定位，6都指定區域中午前下單提供隔日配達安裝，超大材積不受24h承諾；非標準樓層/偏遠/搬運、專用插座/接地、新排水與堆疊層架另確認。更換門向需洽原廠評估報價。"
+  },
+  "image": "https://cs-a.ecimg.tw/items/DPAI3FA900J14XI/000001_1756689731.jpg",
+  "buyUrl": "https://24h.pchome.com.tw/prod/DPAI3F-A900J14XI",
+  "buyLabel": "PChome 24h購物",
+  "specs": [
+    "類型：獨立滾筒熱泵除濕式乾衣機，不含洗衣功能",
+    "容量：最大10kg；各行程限量依說明書",
+    "乾衣控制：10種行程、3段乾衣程度、濕度感測、防皺與兒童安全鎖",
+    "尺寸：寬 59.8 x 深 66 x 高 85 cm",
+    "重量：50 kg",
+    "電壓／頻率：AC 110V／60Hz；總額定消耗電功率700W",
+    "電源安全：110V、60Hz、15A保險絲迴路，三孔可靠接地專用插座，禁止延長插座",
+    "排水／安裝：內置水箱或接隨附長排水軟管；堅固水平、乾燥通風、5–35°C處使用",
+    "空間：機頂及左右側各至少2.5cm、後側至少5cm，另留完整開門、插頭和抽水箱空間，不遮擋底部通風口",
+    "清潔維護：每次前後清棉絮濾網與濕度感測器，按說明書清熱交換器；隨附烘架供合適物品使用",
+    "門向／堆疊：門向可改，由原廠服務站評估報價；堆疊須使用相容層架，非任意洗衣機皆可疊放"
+  ],
+  "description": "台灣現售10kg、110V熱泵乾衣選項，獨立水箱適合不便增設排水的空間，也可接隨附排水軟管；預留通風與開門空間，並依衣料和清潔習慣評估。",
+  "pros": [
+    "官方明示110V／60Hz、700W及機身尺寸/淨重，供電與空間可先核對",
+    "10kg熱泵除濕與獨立水箱，適合不便拉排風管的家庭比較",
+    "台灣夏普服務專線與所選通路1年保固可查，提供拆箱定位"
+  ],
+  "cons": [
+    "50kg、機深66cm，還需預留後5cm、側/上2.5cm及開門/抽水箱空間",
+    "有個別使用者反映寢具打捲及蒸發器較易積棉絮；尚未達6人跨2站集中問題門檻",
+    "濾網、感測器與熱交換器需定期清理；水箱模式每次需倒水，接排水仍須正確施工",
+    "運轉聲與滿載烘乾時間依材質/脫水與環境而變，不能把60dB宣傳或35分鐘快烘當所有情境實測"
+  ],
+  "bestFor": "需要10kg獨立熱泵乾衣、已有110V接地專用插座，並能保留通風與保養空間的家庭。",
+  "recommendation": "作為台灣現售10kg熱泵乾衣補充選項；以水箱/排水配置、搬運空間和日常棉絮維護評估，不列Top Pick。",
+  "releaseDate": "找不到",
+  "historicalLow": {
+    "status": "not_found",
+    "amount": null,
+    "currency": "TWD",
+    "converted": null,
+    "sourceUrl": "",
+    "sourceTitle": "",
+    "evidenceSnippet": "",
+    "sourceKind": "not_found",
+    "confidence": "not_found",
+    "checkedAt": "2026-10-31",
+    "note": "實讀FindPrice完整型號比價、LBJ exact查詢、PChome及momo原頁；月繳69元、3000元層架與洗乾組合排除。未取得可信新品通路可重現日期的獨立歷史最低點；不以當前27900元、折扣標示或未知追價網站自動記錄推定史低。"
+  },
+  "issueResearch": {
+    "status": "no_common_issue",
+    "checkedAt": "2026-10-31",
+    "summary": "截至查核日，查無達門檻的集中負評／災情",
+    "issues": [],
+    "checkedSources": [
+      {
+        "platform": "Mobile01",
+        "targetHost": "mobile01.com",
+        "query": "\"KD-FKH10DT\" site:mobile01.com (心得 OR 故障 OR 問題)",
+        "queryUrl": "https://www.google.com/search?q=%22KD-FKH10DT%22%20site%3Amobile01.com%20%28%E5%BF%83%E5%BE%97%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%95%8F%E9%A1%8C%29"
+      },
+      {
+        "platform": "PTT",
+        "targetHost": "ptt.cc",
+        "query": "\"KD-FKH10DT\" site:ptt.cc (心得 OR 故障 OR 問題)",
+        "queryUrl": "https://www.google.com/search?q=%22KD-FKH10DT%22%20site%3Aptt.cc%20%28%E5%BF%83%E5%BE%97%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%95%8F%E9%A1%8C%29"
+      },
+      {
+        "platform": "Dcard",
+        "targetHost": "dcard.tw",
+        "query": "\"KD-FKH10DT\" site:dcard.tw (心得 OR 故障 OR 問題)",
+        "queryUrl": "https://www.google.com/search?q=%22KD-FKH10DT%22%20site%3Adcard.tw%20%28%E5%BF%83%E5%BE%97%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%95%8F%E9%A1%8C%29"
+      }
+    ]
+  },
+  "score": 83,
+  "voltage": "AC 110V／60Hz、700W；15A保險絲迴路及可靠接地專用三孔插座，禁止延長插座。",
+  "warranty": "所選PChome台灣新品頁明列保固期1年及台灣夏普0809-090-510；原廠募資規格另列網上登錄馬達5年，但登錄期限/適用購買日應先核對，不直接承諾所有新購均延長。",
+  "tags": [
+    "10kg",
+    "熱泵式",
+    "110V 60Hz",
+    "獨立水箱",
+    "基本定位"
   ]
 }
 ]);

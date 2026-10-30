@@ -1,5 +1,5 @@
 const EXPECTED_CATEGORY_COUNT = 37;
-const EXPECTED_PRODUCT_COUNT = 1228;
+const EXPECTED_PRODUCT_COUNT = 1230;
 const MIN_PRODUCTS_PER_CATEGORY = 20;
 const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["tv", 42],
@@ -12,12 +12,12 @@ const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["robot", 50],
   ["vacuum", 35],
   ["washer", 27],
-  ["dryer", 27],
+  ["dryer", 28],
   ["washerdryer", 35],
   ["garmentcare", 21],
   ["bedsheet", 30],
   ["comforter", 32],
-  ["pillow", 32],
+  ["pillow", 33],
   ["refrigerator", 48],
   ["cookware", 28],
   ["knife", 23],
@@ -46,12 +46,12 @@ const DIMENSION_CATEGORY_COUNTS = new Map([
   ["tv", 42],
   ["soundbar", 38],
   ["washer", 27],
-  ["dryer", 27],
+  ["dryer", 28],
   ["washerdryer", 35],
   ["garmentcare", 21],
   ["bedsheet", 30],
   ["comforter", 32],
-  ["pillow", 32],
+  ["pillow", 33],
   ["refrigerator", 48],
   ["coffee", 24],
   ["oven", 27],
@@ -88,7 +88,7 @@ const WEIGHT_CATEGORY_COUNTS = new Map([
   ["mousepad", 33],
   ["bedsheet", 30],
   ["comforter", 32],
-  ["pillow", 32],
+  ["pillow", 33],
 ]);
 const WEIGHT_CATEGORIES = new Set(WEIGHT_CATEGORY_COUNTS.keys());
 const EXPECTED_WEIGHT_PRODUCT_COUNT = [...WEIGHT_CATEGORY_COUNTS.values()]
@@ -129,7 +129,7 @@ const BEDDING_TYPES = {
 const BEDDING_BUDGET_COUNTS = {
   bedsheet: new Map([["value", 6], ["mid", 12], ["premium", 12]]),
   comforter: new Map([["value", 6], ["mid", 12], ["premium", 14]]),
-  pillow: new Map([["value", 6], ["mid", 12], ["premium", 14]]),
+  pillow: new Map([["value", 6], ["mid", 12], ["premium", 15]]),
 };
 const BEDDING_SPEC_PREFIXES = {
   bedsheet: ["類型：", "組合內容：", "材質：", "織法／支數：", "適用床墊：", "尺寸：", "可包覆高度：", "認證／產地：", "清潔保養：", "重量："],

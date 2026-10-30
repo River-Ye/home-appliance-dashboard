@@ -21,7 +21,7 @@
       "converted": 5218,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-30 台灣大哥大myfone原頁XG27ACS新品公開5218元，5780元是刪除參考價；可放入購物車，未見預購或缺貨字樣，實際貨況與交期購前確認。"
+      "note": "2026-10-31 myfone同型號XG27ACS網路限定5218元，定價5780元；選定P0000203635660同綁，實際貨況與交期依商店確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABKBA900JZ3CV/000001_1777866944.jpg",
     "buyUrl": "https://www.myfone.com.tw/mfo/buy/prod/P0000203635660?prodSortUid=34953",
@@ -207,7 +207,7 @@
       "amount": 3980,
       "converted": 3980,
       "confidence": "PChome 2026-08-03 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "原PChome商品頁失效，3980元為既有參考價，現售與實際價格待確認；尚未取得可核實的同型號新品替代通路。"
+      "note": "2026-10-31 原PChome網址只回LCD推薦列表，沒有selected DSABRB-A900JTLHW／LG27U631A-B主商品；API product_id_mismatch，不採他款XG27ACS-W等推薦價。3980僅保留前次參考，現售未確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABRBA900JTLHW/000001_1773730777.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABRB-A900JTLHW",
@@ -406,7 +406,7 @@
       "amount": 2990,
       "converted": 2990,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
-      "note": "2026-10-30 覆核所選通路同型號新品公開價 TWD 2990；不扣個人券、點數或信用卡回饋。",
+      "note": "2026-10-31 G275L E14主商品2990元，頁可加車且API Qty4。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABPDA900JTLEG/000001_1773715062.jpg",
@@ -705,7 +705,7 @@
       "amount": 4288,
       "converted": 4288,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
-      "note": "2026-10-30 覆核所選通路同型號新品公開價 TWD 4288；不扣個人券、點數或信用卡回饋。",
+      "note": "2026-10-31 Q27G42ZE主商品4288元，4688劃線；沒有沿用已到期95折。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABQRA900JJPCW/000001_1765505711.jpg",
@@ -806,7 +806,7 @@
       "amount": 3888,
       "converted": 3888,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
-      "note": "2026-10-30 覆核所選通路同型號新品公開價 TWD 3888；不扣個人券、點數或信用卡回饋。",
+      "note": "2026-10-31 27M2N2500NF主商品3888元，同頁兩個3888不是其他推薦價。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABQQA900K2OE1/000001_1780474188.jpg",
@@ -1106,7 +1106,7 @@
       "converted": 6618,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-30 3CTown名人電腦同型號公開報價6618元，可透過原頁訂購，實際庫存與交期需先向商店確認；非已確認現貨，不含任何券、點數或信用卡回饋。"
+      "note": "2026-10-31 3CTown選定PA278QEV主商品公開6618元與三年保固，訂購表單存在；隱藏buy_product_stock=0，不能稱現貨，交期先確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABBIA900HKVGI/000001_1718699617.jpg",
     "buyUrl": "https://www.3ctown.com.tw/product_show.php?product_code=0000000094417",
@@ -1899,7 +1899,7 @@
       "amount": 13888,
       "converted": 13888,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
-      "note": "2026-10-30 覆核所選通路同型號新品公開價 TWD 13888；不扣個人券、點數或信用卡回饋。",
+      "note": "2026-10-31 DELL U2724D-4Y主商品13888元；沒有沿用過期95折。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOMA900GS1DN/000001_1699955230.jpg",
@@ -2577,7 +2577,7 @@
       "amount": 6911,
       "converted": 6911,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
-      "note": "2026-10-30 覆核所選通路同型號新品公開價 TWD 6911；不扣個人券、點數或信用卡回饋。",
+      "note": "2026-10-31 VX2740D-4K主商品6911元；無今日單件95折，6565只保留既有歷史低點。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOIA900K129O/000001_1779250013.jpg",
@@ -2678,7 +2678,7 @@
       "amount": 5088,
       "converted": 5088,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
-      "note": "2026-10-30 覆核所選通路同型號新品公開價 TWD 5088；不扣個人券、點數或信用卡回饋。",
+      "note": "2026-10-31 27M2N3500PF主商品5088元，5388劃線；原429低頻正常重試已200。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABQIA900J82S0/000001_1757486726.jpg",
@@ -2779,7 +2779,7 @@
       "amount": 7111,
       "converted": 7111,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
-      "note": "2026-10-30 覆核所選通路同型號新品公開價 TWD 7111；不扣個人券、點數或信用卡回饋。",
+      "note": "2026-10-31 Q27G40XMN主商品7111元，11888劃線；原429低頻重試200。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABTAA900JBMD6/000001_1759809326.jpg",
@@ -2965,7 +2965,7 @@
       "amount": 33888,
       "converted": 33888,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
-      "note": "2026-10-30 覆核所選通路同型號新品公開價 TWD 33888；不扣個人券、點數或信用卡回饋。",
+      "note": "2026-10-31 AW3225QF-3Y主商品33888元，原429低頻重試200，Qty1；非4Y或其他OLED型號。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOKA900HB1B5/000001_1710325731.jpg",
@@ -3154,7 +3154,7 @@
       "amount": 7490,
       "converted": 7490,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
-      "note": "2026-10-30 覆核所選通路同型號新品公開價 TWD 7490；不扣個人券、點數或信用卡回饋。",
+      "note": "2026-10-31 GS34WQCA主商品7490元，120Hz/34型/WQHD；原429低頻重試200。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABSZA900JOMA1/000001_1769572714.jpg",
@@ -3556,7 +3556,7 @@
       "amount": 26888,
       "converted": 26888,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
-      "note": "2026-10-30 覆核所選通路同型號新品公開價 TWD 26888；不扣個人券、點數或信用卡回饋。",
+      "note": "2026-10-31 XG34WCDMS主商品26888元，當日頁主標題與內容皆3440×1440/280Hz；API Nick另寫XG34WCDMTG/240Hz矛盾，採原主頁selectedSKU，不轉用MTG規格。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABKBA900K0YA0/000001_1779246107.jpg",
@@ -3758,7 +3758,7 @@
       "amount": 28800,
       "converted": 28800,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
-      "note": "2026-10-30 覆核所選通路同型號新品公開價 TWD 28800；不扣個人券、點數或信用卡回饋。",
+      "note": "2026-10-31 AOC PD34主商品28800元，240Hz/QD-OLED；原429低頻重試200。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABQRA900K5BI4/000001_1782298311.jpg",
@@ -3961,7 +3961,7 @@
       "converted": 36900,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-30 覆核所選通路同型號新品公開價 TWD 36900；不扣個人券、點數或信用卡回饋。"
+      "note": "2026-10-31 S49DG932SC主商品36900元，44900劃線；原429低頻重試200。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900HZCPE/000001_1781766568.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900HZCPE",
@@ -4263,7 +4263,7 @@
       "converted": 69900,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-30 覆核所選通路同型號新品公開價 TWD 69900；不扣個人券、點數或信用卡回饋。"
+      "note": "2026-10-31 S57CG952NC主商品69900元，79900劃線；包含基本桌放安裝，不把贈品折值減價。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900GQLSE/000001_1783054239.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900GQLSE",
@@ -4464,7 +4464,7 @@
       "amount": 32900,
       "converted": 32900,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
-      "note": "2026-10-30 覆核所選通路同型號新品公開價 TWD 32900；不扣個人券、點數或信用卡回饋。",
+      "note": "2026-10-31 MPG491CQP主商品32900元，39900劃線；不是491CQPX的新款價格。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABPDA900H9PEB/000001_1709257135.jpg",
@@ -6568,7 +6568,7 @@
       "converted": 18894,
       "basis": "retailer_current",
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-30 原Yahoo頁主商品公開單件促銷價18894元；活動803181，滿1件享95折，有效至台灣時間2026/10/30 07:59:59。非會員券、信用卡或點數；到期須重新查價。"
+      "note": "2026-10-31 Yahoo11255959 RD320U主商品19888元、一般滿1件95折後18894元；activity803707 start2026-10-30T20:00+08，end2026-11-02T07:59:59+08；不是點數或信用卡回饋。"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/A547B09451-SP-17883815.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=11255959",

@@ -21,7 +21,7 @@
       "converted": 5900,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-30 人工覆核所選通路同型號新品公開價 NT$5,900。未扣個人折價券、點數或信用卡回饋。"
+      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3EA900AU9PA/000001_1782107657.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU3E-A900AU9PA",
@@ -115,7 +115,7 @@
       "converted": 9990,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-30 人工覆核所選通路同型號新品公開價 NT$9,990。未扣個人折價券、點數或信用卡回饋。"
+      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAUE4A900I5SSZ/000001_1780654673.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUE4-A900I5SSZ",
@@ -309,7 +309,7 @@
       "converted": 7411,
       "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-30 人工覆核所選通路同型號新品公開價 NT$7,411。未扣個人折價券、點數或信用卡回饋。"
+      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900GH5RL/000001_1781800112.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAC2O-A900GH5RL",
@@ -503,7 +503,7 @@
       "converted": 26990,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-30 人工覆核所選通路同型號新品公開價 NT$26,990。主商品26990元，廠商安排出貨，頁面預計11/03出貨；未標預購但不稱24h現貨。未扣個人折價券、點數或信用卡回饋。"
+      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAUE4A900IJCAP/000001_1780654528.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUE4-A900IJCAP",
@@ -601,7 +601,7 @@
       "converted": 19990,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-30 人工覆核所選通路同型號新品公開價 NT$19,990。未扣個人折價券、點數或信用卡回饋。"
+      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAUE4A900J9KNK/000001_1780654611.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUE4-A900J9KNK",
@@ -699,7 +699,7 @@
       "converted": 4990,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-30 人工覆核所選通路同型號新品公開價 NT$4,990。未扣個人折價券、點數或信用卡回饋。"
+      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAUE4A900I7DJ1/000001_1780654701.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUE4-A900I7DJ1",
@@ -797,7 +797,7 @@
       "converted": 7990,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-30 人工覆核所選通路同型號新品公開價 NT$7,990。未扣個人折價券、點數或信用卡回饋。"
+      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAUE4A900I7DN1/000001_1780654653.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUE4-A900I7DN1",
@@ -895,7 +895,7 @@
       "converted": 17990,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-30 人工覆核所選通路同型號新品公開價 NT$17,990。未扣個人折價券、點數或信用卡回饋。"
+      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAUE4A900J40NE/000001_1780654570.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUE4-A900J40NE",
@@ -1088,12 +1088,12 @@
       "amount": 24900,
       "converted": 24900,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
-      "note": "2026-10-30 人工覆核所選通路同型號新品公開價 NT$24,900。原Yahoo已停售，改用台灣Dyson官方HP12白金色單機24900元，無贈品；1888濾網及1200延長保固皆是選購加價，未計入。台灣家用空氣清淨機2年保固，依恆隆行原廠條款。未扣個人折價券、點數或信用卡回饋。",
+      "note": "2026-10-31 台灣Dyson官方HP12白金色單機特價24900元；本次官網實際畫面明示預購、預計2026/11/03出貨，實際交期以下單頁最終確認為準。1888濾網及延長保固另購，不用JSON-LD原價29900替代特價。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3CA900I7ORK/000001_1782810487.jpg",
     "buyUrl": "https://shop.dyson.tw/fans-and-heaters/air-purifier-heaters/dyson-purifier-hot-cool-de-nox-purifying-fan-heater-white-gold-546388-01",
-    "buyLabel": "Dyson官方商城",
+    "buyLabel": "Dyson 官方（預購，交期以官網為準）",
     "specs": [
       "涼暖二合一",
       "甲醛/NOx 偵測",
@@ -1282,7 +1282,7 @@
       "amount": 20064,
       "converted": 20064,
       "confidence": "2026-10-28 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
-      "note": "2026-10-30 人工覆核所選通路同型號新品公開價 NT$20,064。公開單件活動價有效至2026-10-30 07:59:59+08:00。所選Yahoo主商品仍明示預購；交貨預計2026-11-02，依通路交期安排，不借PChome庫存。未扣個人折價券、點數或信用卡回饋。",
+      "note": "2026-10-31 Yahoo主商品明示預購，20064元為單件96折後報價，交期由通路安排，不借其他通路庫存。 公開活動滿1件享96折，有效至2026-11-02T07:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3CA900HTKRG/000001_1767758629.jpg",
@@ -1381,7 +1381,7 @@
       "converted": 4640,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-30 人工覆核所選通路同型號新品公開價 NT$4,640。未扣個人折價券、點數或信用卡回饋。"
+      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900GD1ZV/000001_1781800174.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAC2O-A900GD1ZV",
@@ -1479,7 +1479,7 @@
       "converted": 12911,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-30 人工覆核所選通路同型號新品公開價 NT$12,911。主商品P50單機12911元，廠商安排出貨，頁面預計11/02出貨；不取二入組24980。未扣個人折價券、點數或信用卡回饋。"
+      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU5EA900JYG1W/000001_1782872854.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU5E-A900JYG1W",
@@ -1769,7 +1769,7 @@
       "converted": 10220,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-30 人工覆核所選通路同型號新品公開價 NT$10,220。未扣個人折價券、點數或信用卡回饋。"
+      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900J7SBO/000001_1781799851.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAC2O-A900J7SBO",
@@ -2259,7 +2259,7 @@
       "converted": 7430,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-30 人工覆核所選通路同型號新品公開價 NT$7,430。未扣個人折價券、點數或信用卡回饋。"
+      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAUFVA900JZR3M/000001_1785203322.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUFV-A900JZR3M",
@@ -2578,7 +2578,7 @@
       "converted": 3111,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-30 人工覆核所選通路同型號新品公開價 NT$3,111。原頁主商品3111元仍明示預購，接單後陸續安排出貨、最晚2026/11/25；不標現貨。未扣個人折價券、點數或信用卡回饋。"
+      "note": "2026-10-31 本次原頁HPA-100APTW主商品3111元、可加車並由PChome倉庫出貨，未再顯示舊11/25預購日期；交期依通路確認。"
     },
     "installation": {
       "status": "not_stated",
@@ -2586,7 +2586,7 @@
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU00A77331975/000001_1747044686.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU00-A77331975",
-    "buyLabel": "PChome 24h（預購）",
+    "buyLabel": "PChome",
     "specs": [
       "適用坪數：約 4–8 坪；CADR 100 cfm（約 170 m³/h）",
       "True HEPA 濾網搭配活性碳前置濾網",

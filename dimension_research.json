@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30",
+  "generatedAt": "2026-10-31",
   "sourcePolicy": "本站共 21 類尺寸、13 類重量研究，尺寸涵蓋 電視、Soundbar、冷氣、洗衣機、烘衣機、洗烘衣機(多功能型)、電子衣櫥（衣物護理機）、床包、棉被、枕頭、冰箱、咖啡機、多功能氣炸烤箱／微波爐、洗碗機、熱水器、免治馬桶、網路交換器、螢幕燈、滑鼠、鍵盤、滑鼠墊。優先採 exact-model／相同版本的官方產品頁、官方規格表或官方 PDF，其次為可信新品通路。只採本體／機身／明確組件的尺寸與淨重，排除包裝、外箱尺寸與毛重；來源沒有明示軸序時不自行推定。既有家電與床包、棉被、枕頭維持 cm／kg，滑鼠、鍵盤與滑鼠墊使用 mm／g 並保留來源軸序。滑鼠墊厚度、床包可包覆高度另列；棉被的填充重量與整件淨重分開記錄。冷氣分列室內機與室外機，熱泵複合熱水器分列主機與儲槽。generatedAt 為最新證據批次日期，既有逐筆 checkedAt 與 weightCheckedAt 保留原查核日期，不表示重新查核。",
   "results": [
     {
@@ -10439,7 +10439,7 @@
       "category": "mousepad",
       "brand": "Logitech",
       "model": "943-001617",
-      "name": "PRO X CONTROL 黑色 400×460mm 加厚針織電競鼠墊（預購）",
+      "name": "PRO X CONTROL 黑色400×460mm加厚針織電競鼠墊",
       "dimension": "尺寸：高 400 x 寬 460 x 深 6 mm",
       "sourceUrl": "https://www.logitechg.com/zh-tw/shop/p/pro-x-control-gaming-mousepad",
       "sourceTitle": "Logitech G PRO X CONTROL 台灣官方完整規格",
@@ -10904,6 +10904,48 @@
           "outcome": "web原頁尺寸重量相符；direct403，未假稱直接抓取成功。"
         }
       ]
+    },
+    {
+      "id": "dryer-sharp-kd-fkh10dt",
+      "category": "dryer",
+      "brand": "SHARP",
+      "model": "KD-FKH10DT",
+      "name": "SHARP 烘布郎 KD-FKH10DT 10kg 熱泵滾筒乾衣機",
+      "dimension": "尺寸：寬 59.8 x 深 66 x 高 85 cm",
+      "sourceUrl": "https://www.tw.sharp/products/kd-fkh10dt",
+      "sourceTitle": "SHARP KD-FKH10DT官方產品頁及官方說明書第19頁",
+      "evidenceSnippet": "官方產品頁本體尺寸不含軟管：寬598/深660/高850mm，換算寬59.8×深66×高85cm；重量50kg。說明書規格列淨重50kg，未採包裝。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-10-31",
+      "weight": "重量：50 kg",
+      "weightSourceUrl": "https://tw.sharp/sites/default/files/uploads_service/CS%E8%AA%AA%E6%98%8E%E6%9B%B8/%E4%B9%BE%E8%A1%A3%E6%A9%9F/KD-FKH10DT%E4%BD%BF%E7%94%A8%E8%AA%AA%E6%98%8E%E6%9B%B8.pdf",
+      "weightSourceTitle": "SHARP KD-FKH10DT官方使用說明書第19頁",
+      "weightEvidenceSnippet": "KD-FKH10DT規格表明列淨重50kg、110V60Hz700W；50kg是淨重而非毛重。",
+      "weightConfidence": "high",
+      "weightIsOfficialSource": true,
+      "weightCheckedAt": "2026-10-31"
+    },
+    {
+      "id": "pillow-ikea-fjallhavre-high-30629933",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "306.299.33",
+      "name": "IKEA FJÄLLHAVRE 再生羽絨羽毛高枕 50x80 306.299.33",
+      "dimension": "尺寸：長 50 x 寬 80 cm",
+      "sourceUrl": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/fjallhavre-art-30629933",
+      "sourceTitle": "FJÄLLHAVRE - 枕頭/高枕，50x80 公分 | IKEA 線上購物",
+      "evidenceSnippet": "原頁「產品尺寸」明列「長度:50公分；寬度:80公分；填充物重量:1145公克；總重量:1445公克」。公分與cm為同單位，因此本站記錄「尺寸：長 50 x 寬 80 cm」。此處屬產品本體，下方「平整包裝尺寸及重量」長51cm與直徑16cm不採。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-10-31",
+      "weight": "重量：1.445 kg",
+      "weightSourceUrl": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/fjallhavre-art-30629933",
+      "weightSourceTitle": "FJÄLLHAVRE - 枕頭/高枕，50x80 公分 | IKEA 線上購物",
+      "weightEvidenceSnippet": "原頁「產品尺寸」總重量1445公克，1445 ÷ 1000 = 1.445 kg，故本站記錄「重量：1.445 kg」；填充物1145公克為1.145kg另述，不當成整枕重量。不採下方「平整包裝」淨重1.47kg或總重1.57kg。",
+      "weightConfidence": "high",
+      "weightIsOfficialSource": true,
+      "weightCheckedAt": "2026-10-31"
     }
   ]
 }

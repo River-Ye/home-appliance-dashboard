@@ -77,7 +77,7 @@
       topPick: true,
       price: 2480,
       priceConfidence: "2026-09-01 以 Chrome 核對 exact SKU 台灣新品公開售價；不扣會員、信用卡、點數、滿額或贈品優惠。",
-      priceNote: "2026-10-30 momo原頁選定HOLA貨號公開促銷價2480元，非市售刪除價、相關單人／加大版或滿額／個人券折抵；可購，預計2026/11/03出貨。",
+      priceNote: "2026-10-31 momo原頁選定HOLA貨號公開促銷價2480元，非市售刪除價、相關單人／加大版、滿額或個人券折抵；可購，預計2026/11/03出貨。",
       image: "https://pcm.trplus.com.tw/1000x1000/sys-master/productImages/hcd/hc8/12330913431582/000000000016788505-gallery-01-20241029161043256.jpg",
       url: "https://www.momoshop.com.tw/TP/TP0006553/goodsDetail/TP00065530008496",
       label: "momo HOLA 官方店",
@@ -691,7 +691,7 @@
       budget: "mid",
       price: 2180,
       priceConfidence: "2026-09-01 以 Chrome 核對 exact SKU 台灣新品公開售價；不扣會員、信用卡、點數、滿額或贈品優惠。",
-      priceNote: "2026-10-30 momo原頁選定HOLA貨號公開促銷價2180元，非市售刪除價、相關單人／加大版或滿額／個人券折抵；可購，預計2026/11/03出貨。",
+      priceNote: "2026-10-31 momo原頁選定HOLA貨號公開促銷價2180元，非市售刪除價、相關單人／加大版、滿額或個人券折抵；可購，預計2026/11/03出貨。",
       image: "https://pcm.trplus.com.tw/1000x1000/sys-master/productImages/h0d/hc5/12330913562654/000000000016788504-gallery-01-20241029161043307.jpg",
       url: "https://www.momoshop.com.tw/TP/TP0006553/goodsDetail/TP00065530008497",
       label: "momo HOLA 官方店",
@@ -727,7 +727,7 @@
       budget: "mid",
       price: 3680,
       priceConfidence: "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
-      priceNote: "2026-10-30 momo原頁選定HOLA貨號公開促銷價3680元，非市售刪除價、相關單人／加大版或滿額／個人券折抵；可購，預計2026/11/03出貨。",
+      priceNote: "2026-10-31 momo原頁選定HOLA貨號公開促銷價3680元，非市售刪除價、相關單人／加大版、滿額或個人券折抵；可購，預計2026/11/03出貨。",
       image: "https://pcm.trplus.com.tw/1000x1000/sys-master/productImages/h9a/hbb/12614174539806/000000000014301109-gallery-01-20251117160520149.jpg",
       url: "https://www.momoshop.com.tw/TP/TP0006553/goodsDetail/TP00065530004585",
       label: "momo HOLA 官方店",
@@ -763,7 +763,7 @@
       budget: "premium",
       price: 10980,
       priceConfidence: "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
-      priceNote: "2026-10-30 momo原頁選定HOLA貨號公開促銷價10980元，非市售刪除價、相關單人／加大版或滿額／個人券折抵；可購，預計2026/11/03出貨。",
+      priceNote: "2026-10-31 momo原頁選定HOLA貨號公開促銷價10980元，非市售刪除價、相關單人／加大版、滿額或個人券折抵；可購，預計2026/11/03出貨。",
       image: "https://pcm.trplus.com.tw/1000x1000/sys-master/productImages/h2b/hb0/12330816569374/000000000014381508-gallery-01-20241029155518623.jpg",
       url: "https://www.momoshop.com.tw/TP/TP0006553/goodsDetail/TP00065530008377",
       label: "momo HOLA 官方店",
@@ -799,7 +799,7 @@
       budget: "mid",
       price: 1480,
       priceConfidence: "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
-      priceNote: "2026-10-30 momo原頁選定HOLA貨號公開促銷價1480元，非市售刪除價、相關單人／加大版或滿額／個人券折抵；可購，預計2026/11/03出貨。",
+      priceNote: "2026-10-31 momo原頁選定HOLA貨號公開促銷價1480元，非市售刪除價、相關單人／加大版、滿額或個人券折抵；可購，預計2026/11/03出貨。",
       image: "https://pcm.trplus.com.tw/1000x1000/sys-master/productImages/h04/hf4/12614222839838/000000000014408625-gallery-01-20251117160703567.jpg",
       url: "https://www.momoshop.com.tw/TP/TP0006553/goodsDetail/TP00065530010853",
       label: "momo HOLA 官方店",
@@ -1118,7 +1118,7 @@
         "converted": 4499,
         "basis": "retailer_current",
         "confidence": "2026-10-30 人工核對 IKEA 台灣官方 306.369.62 選定尺寸公開價與線上現貨標示；不扣宜家卡、信用卡或點數優惠。",
-        "note": "官網另列便利箱宅配運費每箱150元，實際依配送條件。"
+        "note": "2026-10-31 IKEA台灣exact尺寸SKU現價4499元；線上與物流中心各11件庫存，不以其他尺寸或海外價格替代。"
       },
       "installation": {
         "status": "not_stated",
@@ -1216,7 +1216,7 @@
         "converted": 3999,
         "basis": "retailer_current",
         "confidence": "2026-10-30 人工核對 IKEA 台灣官方 506.369.61 選定尺寸公開價與線上現貨標示；不扣宜家卡、信用卡或點數優惠。",
-        "note": "官網另列便利箱宅配運費每箱150元，實際依配送條件。"
+        "note": "2026-10-31 IKEA台灣exact尺寸SKU現價3999元；線上與物流中心各11件庫存，不以其他尺寸或海外價格替代。"
       },
       "installation": {
         "status": "not_stated",

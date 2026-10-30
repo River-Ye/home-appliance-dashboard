@@ -2893,7 +2893,7 @@
     "category": "mousepad",
     "brand": "Logitech",
     "model": "943-001617",
-    "name": "PRO X CONTROL 黑色 400×460mm 加厚針織電競鼠墊（預購）",
+    "name": "PRO X CONTROL 黑色400×460mm加厚針織電競鼠墊",
     "type": "cloth",
     "variantFamily": "Logitech PRO X CONTROL",
     "rank": 31,
@@ -2906,11 +2906,11 @@
       "converted": 2290,
       "basis": "retailer_current",
       "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價的原因見註記。",
-      "note": "2026-10-30 官方PRO X CONTROL公開2290元，可加入購物車；原頁未見舊預購日期，實際貨況與交期依商店確認。"
+      "note": "2026-10-31 官店選定variant45539650568215、943-001617主商品2290元，可加入購物車；原可讀正文未見舊最快10/30預購日期，實際交期待確認。"
     },
     "installation": {
       "status": "not_stated",
-      "note": "自行平放於乾淨桌面，不需施工；預購交期以通路實際出貨通知為準。"
+      "note": "自行平放於乾淨桌面，不需施工；交期以台灣官店實際確認為準。"
     },
     "image": "https://resource.logitechg.com/c_fill,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/pro-x-control-pdp/gallery/pro-x-control-mouse-pad-top-angle-gallery-1.png",
     "buyUrl": "https://store.logitech.tw/products/pro-x-control?variant=45539650568215",
@@ -2928,19 +2928,19 @@
       "供電／功能：被動鼠墊，無USB、RGB或無線充電",
       "隨附配件：鼠墊與使用說明書"
     ],
-    "description": "2026 PRO系列新針織控制墊，使用6mm SlimFlex與緊密包邊，補足既有G240／G640／G740之外的高階控制選擇。台灣官店目前接受預購，最快10月30日才開始出貨。",
+    "description": "採用6mm SlimFlex與緊密包邊的針織控制墊，補足既有G240／G640／G740之外的高階控制選擇。台灣官店目前可下訂，實際庫存與出貨日期請先向店方確認。",
     "pros": [
       "6mm泡棉與低邊緣包邊",
       "官方確認本體307g及來源軸序尺寸",
       "台灣官店可下訂與2年有限硬體保固"
     ],
     "cons": [
-      "10/23為預購，最快10/30出貨並非保證到貨日",
+      "實際貨況與出貨日期仍須向台灣官店確認",
       "2290為高價布墊，磨耗與濕度耐受尚缺長期證據",
       "400×460mm需先檢查桌面與低DPI揮鼠空間"
     ],
-    "bestFor": "偏低DPI、重視厚泡棉與控制手感且可等預購交期的玩家。",
-    "recommendation": "PRO系列新款參考；先確認預購交期與桌面空間，不因系列名稱推定比既有G640或G740更耐用。",
+    "bestFor": "偏低DPI、重視厚泡棉與控制手感，且已確認桌面空間的玩家。",
+    "recommendation": "PRO系列控制向參考；先確認交期與桌面空間，不因系列名稱推定比既有G640或G740更耐用。",
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
@@ -2962,7 +2962,6 @@
       "PRO新款",
       "控制向",
       "6mm",
-      "預購",
       "台灣公司貨"
     ],
     "issueResearch": {

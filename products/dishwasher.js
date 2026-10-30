@@ -427,7 +427,7 @@
       "converted": 30900,
       "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-30 SMS2ITI06X原主商品30900元可購，相關配件底座1850元與其他系列價排除。 未扣個人券、點數或信用卡回饋。"
+      "note": "2026-10-31 SMS2ITI06X主商品30900；旁列1850增高底座及其他6/8系列不採，主商品可購廠商出貨。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -633,7 +633,7 @@
       "converted": 28405,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-30 DFB533FW原主商品29900元，公開折扣價28405元可購；贈3%P幣不減現價。 未扣個人券、點數或信用卡回饋。"
+      "note": "2026-10-31 DFB533FW主商品折扣28405，網路29900；3%P幣不扣除，可購PChome倉庫超大材積。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -943,7 +943,7 @@
       "converted": 23310,
       "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-30 E-7682半嵌入式原主商品23310元可購，含標準安裝但不含門板與踢腳板；沒有另行公開9折。 未扣個人券、點數或信用卡回饋。"
+      "note": "2026-10-31 E-7682不含門板/踢腳板含標準安裝主商品23310；廠商3至7工作天約配可購。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1659,7 +1659,7 @@
       "converted": 16999,
       "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-30 Celinda DGF-601桌上六人原主商品16999元可購，清潔組為贈品不減價。 未扣個人券、點數或信用卡回饋。"
+      "note": "2026-10-31 DGF-601主商品16999，刪除價25500；可加入購物車，廠商出貨。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR17A900IHTZ3/000001_1777540146.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR17-A900IHTZ3",
@@ -1758,7 +1758,7 @@
       "converted": 14990,
       "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-30 acerpure KW534-60W原主商品14990元可購；P幣不折成售價。 未扣個人券、點數或信用卡回饋。"
+      "note": "2026-10-31 KW534-60W主商品14990，刪除價23990；贈品/點數不扣，可購預計11/02出貨。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR25A900J5BGP/000001_1782112645.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR25-A900J5BGP",
@@ -1953,7 +1953,7 @@
       "amount": 12999,
       "converted": 12999,
       "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
-      "note": "2026-10-30 Xiaomi桌上型原選定主商品12999元可購，原廠公司貨含兩年保固；登錄調理機及P幣不減售價，未有原12349元折扣。 未扣個人券、點數或信用卡回饋。",
+      "note": "2026-10-31 小米桌上型洗碗機主商品12999（同刪除價），原廠公司貨/2年；可購倉庫超大材積。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR24A900JFSR7/000001_1762761618.jpg",
@@ -3191,7 +3191,7 @@
       "converted": 80550,
       "basis": "retailer_current",
       "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
-      "note": "2026-10-30 SMS8ZCI02X原主商品80550元可購，頁明示SMS8ZCI00X後繼，非以後繼存在刪舊型；未另採其他6系列推薦價。 未扣個人券、點數或信用卡回饋。"
+      "note": "2026-10-31 SMS8ZCI02X主商品80550，刪除89500；旁列其他系列價格不採，可購廠商出貨。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMBR13A900KIVV7/000001_1790912458.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR13-A900KIVV7",
@@ -3294,10 +3294,11 @@
     "name": "極淨呵護500系列15人份獨立式洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 39900,
-      "converted": 39900,
+      "amount": 39888,
+      "converted": 39888,
       "basis": "retailer_current",
-      "confidence": "2026-10-23 PChome exact新品API及Chrome主商品價查核；Qty10／InStock"
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "note": "2026-10-31 EFF5581SXA含基本安裝/免費場勘主商品39888（網路39900），不採系統四捨五入10折標籤；可購廠商出貨。"
     },
     "installation": {
       "status": "included_basic",
