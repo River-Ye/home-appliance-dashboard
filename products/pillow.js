@@ -112,7 +112,7 @@
     {
       id: "pillow-emma-black-diamond", variantFamily: "emma-black-diamond", brand: "Emma", model: "EPWCF040070RAB", name: "Emma 石墨烯黑鑽記憶枕 40x70 EPWCF040070RAB", type: "memory_foam", typeSpec: "三層記憶泡棉完整成品枕", budget: "premium", rank: 3, score: 90, price: 3199,
       priceConfidence: "2026-10-24官網主頁已改為40x70兩顆買一送一5599元；本卡3199元保留單顆舊參考，非確認現售價，不以二入總價或拆算單價跨包數寫入。",
-      priceNote: "2026-10-31 官方所選頁目前為兩入總價5599元（頁列每顆2799.50），單入可購現價未確認；保留原單入3199元作參考，不將兩入總價或均價當單入價。",
+      priceNote: "2026-11-01 Emma黑鑽枕本輪主選項顯示兩顆5599元／單顆2799.50，不能將雙入組當本筆單顆EPWCF040070RAB價格；保留3199元單顆參考，選定單入售價待確認。",
       image: "https://eu-images.contentstack.com/v3/assets/blt167b24547e5b1906/blt544d377e44af8545/67e680a37c440a8ddddc1448/Customizable_Cooling_Foam_Pillow_Layers_Gallery_(1).jpg", buyUrl: "https://www.emma-sleep.com.tw/black-diamond-pillow/", buyLabel: "官方目前兩入5599／單入現價未確認",
       sleep: "抽換一至三層對應趴睡、仰睡、側睡", cover: "高透氣可拆洗枕套", core: "Diamond Degree 黑鑽石棉、HRX 支撐棉、Hypergel 棉三層", height: "一至三層可調／軟硬隨層數與放置順序調整", size: "長 70 x 寬 40 cm", weight: "查不到", thermal: "Diamond Degree 石墨烯溫濕調節表層", origin: "官方台灣頁未標示產地與第三方認證", care: "布套可拆下機洗；泡棉層不可依布套方式水洗",
       description: "以三層可拆泡棉調整睡姿與高度，並把石墨烯溫控放在表層。", pros: ["三層可調", "30 天官方試睡", "涼感表層"], cons: ["無淨重與公分高度", "需要自行嘗試層數", "涼感受環境影響"], bestFor: "睡姿會改變、希望可拆層調整且重視散熱者。", recommendation: "收到後逐層試睡並保留完整包材；三層並不必然最適合每位側睡者。", warranty: "Emma 台灣官網售後與 30 天枕頭試睡；商品耐用保固年限依官網條款，頁面未另列。", tags: ["三層可調", "涼感", "30天試睡", "台灣官網"],
@@ -143,6 +143,8 @@
     },
     {
       id: "pillow-ikea-hirsstarr", variantFamily: "ikea-hirsstarr", brand: "IKEA", model: "403.347.99", name: "IKEA HIRSSTARR 乳膠枕 45x70 403.347.99", type: "latex", typeSpec: "乳膠完整成品枕", budget: "premium", rank: 8, score: 86, price: 2299,
+      priceConfidence: "2026-09-01 Chrome 已查核 403.347.99 確切新品頁與所選版本，頁面現價為 NT$2,299；不把其他尺寸、包數或贈品價套用。",
+      priceNote: "2026-11-01 IKEA選定完整產品編號原頁為線上購物及物流中心缺貨／到貨通知；部分實體分店庫存不當作線上現貨，保留原參考價，不視為停產。",
       image: "https://www.ikea.com.tw/dairyfarm/tw/images/699/0469919_PE612455_S4.webp", buyUrl: "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/hirsstarr-art-40334799", buyLabel: "IKEA 台灣（403.347.99）",
       sleep: "一般平面枕型；睡姿需依實際高度試躺", cover: "可拆洗表布，確切纖維比例依商品標籤", core: "乳膠核心", height: "未標示／彈性支撐", size: "長 70 x 寬 45 cm", weight: "查不到", thermal: "乳膠孔洞結構；確切涼感等級未標示", origin: "產地與第三方認證查不到", care: "表布可 60°C 機洗；乳膠核心不可由布套方式推定清洗",
       description: "IKEA 台灣在售的單一乳膠核心成人睡眠枕。", pros: ["彈性支撐", "45x70 大枕面", "官方台灣通路"], cons: ["本體高度查不到", "淨重查不到", "乳膠觸感與氣味需試"], bestFor: "想以較大枕面體驗乳膠回彈的成人。", recommendation: "高度未明，不應只看 45x70 平面尺寸判斷是否適合側睡。", warranty: "IKEA 台灣官方退換與品質政策；乳膠枕耐用保固年限未標示。", tags: ["乳膠", "大枕面", "台灣官方"],
@@ -173,6 +175,8 @@
     },
     {
       id: "pillow-ikea-rosenskarm", variantFamily: "ikea-rosenskarm", brand: "IKEA", model: "704.443.67", name: "IKEA ROSENSKÄRM 人體工學枕 33x50x11 704.443.67", type: "memory_foam", typeSpec: "雙密度記憶泡棉完整成品枕", budget: "value", rank: 13, score: 84, price: 499,
+      priceConfidence: "2026-09-01 Chrome 已查核 704.443.67 確切新品頁與所選版本，頁面現價為 NT$499；不把其他尺寸、包數或贈品價套用。",
+      priceNote: "2026-11-01 IKEA選定完整產品編號原頁為線上購物及物流中心缺貨／到貨通知；部分實體分店庫存不當作線上現貨，保留原參考價，不視為停產。",
       image: "https://www.ikea.com.tw/dairyfarm/tw/images/225/0722542_PE733642_S4.webp", buyUrl: "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/rosenskarm-art-70444367", buyLabel: "IKEA 台灣（704.443.67）",
       sleep: "波浪雙面，側睡／仰睡；官方標示高側 11 cm、低側 9 cm", cover: "透氣可拆洗布套", core: "較軟與較密實兩種泡棉層", height: "高 11／低 9 cm／雙面支撐", size: "長 33 x 寬 50 x 高 11 cm", weight: "查不到", thermal: "透氣布套；無涼感膠層", origin: "產地與第三方認證查不到", care: "布套可 60°C 機洗；泡棉核心勿機洗",
       description: "小尺寸雙密度波浪枕，以極低入手價提供 9／11 cm 兩側高度。", pros: ["價格低", "雙面高度", "100 天人體工學枕試用政策"], cons: ["枕面較小", "淨重查不到", "沒有涼感層"], bestFor: "想低成本試人體工學記憶枕的側睡／仰睡成人。", recommendation: "CP 值高但枕面僅 33x50；翻身幅度大者先確認空間。", warranty: "IKEA 台灣人體工學枕 100 天試用依官網細則；耐用保固年限未標示。", tags: ["CP值", "雙面高度", "100天試用", "台灣官方"],
@@ -198,6 +202,8 @@
     },
     {
       id: "pillow-ikea-kvarnven-stomach", variantFamily: "ikea-kvarnven", brand: "IKEA", model: "805.132.18", name: "IKEA KVARNVEN 趴睡人體工學枕 39x69x10 805.132.18", type: "memory_foam", typeSpec: "蜂巢涼感記憶泡棉完整成品枕", budget: "mid", rank: 17, score: 81, price: 1699,
+      priceConfidence: "2026-09-01 Chrome 已查核 805.132.18 確切新品頁與所選版本，頁面現價為 NT$1,699；不把其他尺寸、包數或贈品價套用。",
+      priceNote: "2026-11-01 IKEA選定完整產品編號原頁為線上購物及物流中心缺貨／到貨通知；部分實體分店庫存不當作線上現貨，保留原參考價，不視為停產。",
       image: "https://www.ikea.com.tw/dairyfarm/tw/images/240/1024077_PE833412_S4.webp", buyUrl: "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/kvarnven-art-80513218", buyLabel: "IKEA 台灣（趴睡 805.132.18）",
       sleep: "趴睡／偏低枕版本", cover: "冰涼蜂巢織面可拆洗布套", core: "記憶泡棉層壓核心", height: "高 10 cm／趴睡較低支撐", size: "長 39 x 寬 69 x 高 10 cm", weight: "查不到", thermal: "蜂巢涼感織面", origin: "產地與第三方認證查不到", care: "布套依標籤機洗；泡棉核心勿機洗",
       description: "KVARNVEN 的 10 cm 趴睡獨立 SKU，低於同系列側仰睡版。", pros: ["較低 10 cm", "蜂巢涼感面", "寬枕面"], cons: ["側睡可能支撐不足", "淨重查不到", "系列版本易買錯"], bestFor: "趴睡或明確偏好較低枕的成人。", recommendation: "列為趴睡候選；側睡肩寬大者不應因同系列評價直接選這版。", warranty: "IKEA 台灣人體工學枕 100 天試用依官網細則；耐用保固年限未標示。", tags: ["趴睡推薦", "低枕", "10cm", "台灣官方"],

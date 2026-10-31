@@ -607,11 +607,11 @@
     "name": "電動升降桌 UP002 WH",
     "price": {
       "currency": "TWD",
-      "amount": 7990,
-      "converted": 7990,
-      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "amount": 7191,
+      "converted": 7191,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 momo所選UP002 WH完整桌7990元；原頁明示單筆未滿20000元運費1350元，單台依此條件合計9340元，特殊配送仍依通路確認。"
+      "note": "2026-11-01 原生Chrome品號14070530、UP002 WH120x60、11/01全館9折、限時折後7191/促銷7990、數量1–20、1年保固、直接購買/加車；未滿20000運費1350另計，約定配送。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQCI0AA900IW7RS/000001_1768543932.jpg",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=14070530",

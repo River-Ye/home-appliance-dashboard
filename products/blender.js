@@ -205,11 +205,11 @@
     "name": "免清洗多功能破壁調理機",
     "price": {
       "currency": "TWD",
-      "amount": 10900,
-      "converted": 10900,
-      "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "amount": 10355,
+      "converted": 10355,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 原頁同型號公開價格10900元；不扣會員券、信用卡、點數或贈品，銷售／出貨條件依原通路。"
+      "note": "2026-11-01 PChome主商品API商品ID DMAY4Y-A900HB8CN 相符，原標題「【Joyoung九陽】免清洗多功能破壁調理機 DJ12M-K8S 【Joyoung九陽】免清洗多功能破壁調理機 DJ12M-K8S」，Qty=5，公開折扣／主價 10355 元（網路價10900；Price.Low=10355）；未扣券、回饋或點數。 同輪原商品HTML價格與可購入口已核對。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY4YA900HB8CN/000001_1780309793.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAY4Y-A900HB8CN",
@@ -402,11 +402,12 @@
       "amount": 99.98,
       "converted": 3261,
       "confidence": "2026-08-31 人工核對 SharkNinja 官方 BN701 公開可購主價 USD 99.98；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-10-31 匯率換算",
-      "basis": "retailer_current"
+      "basis": "retailer_current",
+      "note": "2026-11-01 原BN701購買網址本輪導向IQ701SL TotalCrush，主頁Model/SKU明示IQ701SL，129.99美元不是BN701報價；保留舊99.98美元參考，現售待確認，不由轉址推定原廠停產。 海外參考；未含國際運費、進口稅、電壓／插頭與台灣保固風險。"
     },
     "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/d1c25153baa2aa99eae7831be826d2a51d87c485/Ninja-BN701-Professional-Plus-Blender-with-Auto-iQ.jpg",
     "buyUrl": "https://www.sharkninja.com/ninja-professional-plus-blender-with-auto-iq/BN701.html",
-    "buyLabel": "SharkNinja 官方",
+    "buyLabel": "海外型號／現售待確認",
     "specs": [
       "1400W 級",
       "72oz 容杯",
@@ -487,9 +488,11 @@
     "name": "VITA PREP 2.3 匹馬力生機調理機",
     "price": {
       "currency": "TWD",
-      "amount": 22300,
-      "converted": 22300,
-      "confidence": "PChome 2026-10-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 23980,
+      "converted": 23980,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 PChome主商品API商品ID QBAO0F-A9008QMG3 相符，原標題「美國 Vita-Mix 多功能生機調理機 VITA PREP 美國 Vita-Mix 多功能生機調理機 VITA PREP」，Qty=7，公開折扣／主價 23980 元（網路價23980；Price.Low=無）；未扣券、回饋或點數。 同輪原商品HTML價格與可購入口已核對。"
     },
     "image": "https://cs-a.ecimg.tw/items/QBAO0FA9008QMG3/000001_1782719707.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/QBAO0F-A9008QMG3",
@@ -583,10 +586,11 @@
     "name": "VITA PREP3 多功能營養調理機",
     "price": {
       "currency": "TWD",
-      "amount": 24500,
-      "converted": 24500,
-      "confidence": "2026-10-24 人工核對 www.momoshop.com.tw 同型號與所選版本公開價 TWD 24500，可下單；未扣會員、信用卡或點數。",
-      "basis": "retailer_current"
+      "amount": 24200,
+      "converted": 24200,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 momo622427 VITA PREP3同款台灣公司貨公開單件88折24200元、折前27500元；10/30 19:00–11/02 09:00，預計11/02出貨。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY9TA900G068X/000001_1782790517.jpg",
     "buyUrl": "https://www.momoshop.com.tw/product/622427",
@@ -1744,10 +1748,10 @@
     "name": "多功能變頻輕音冷熱調理機",
     "price": {
       "currency": "TWD",
-      "amount": 8990,
-      "converted": 8990,
-      "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
-      "note": "2026-10-31 原頁同型號公開價格8990元；不扣會員券、信用卡、點數或贈品，銷售／出貨條件依原通路。",
+      "amount": 8540,
+      "converted": 8540,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-01 PChome主商品API商品ID DMAY4Y-A900I3ILD 相符，原標題「【Joyoung九陽】多功能變頻輕音冷熱調理機豆漿機(L18M-Y6G) 【Joyoung九陽】多功能變頻輕音冷熱調理機豆漿機(L18M-Y6G)」，Qty=20，公開折扣／主價 8540 元（網路價8990；Price.Low=8540）；未扣券、回饋或點數。 同輪原商品HTML價格與可購入口已核對。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY4YA900I3ILD/000001_1783328441.jpg",

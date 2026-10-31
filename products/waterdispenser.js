@@ -1149,10 +1149,11 @@
     "image": "https://cs-a.ecimg.tw/items/DMAWEMA900GDIXH/000001_1774485785.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 20900,
-      "converted": 20900,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27 PChome原購買頁公開20900元；未扣個人券、點數或信用卡回饋。"
+      "amount": 18601,
+      "converted": 18601,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-01 PChome主商品API商品ID DMAWEM-A900GDIXH 相符，原標題「賀眾牌廚下型冷熱飲水機UW-2262HW-1 【賀眾牌ACUO】廚下型節能冷熱飲水機UW-2262HW-1」，Qty=20，公開折扣／主價 18601 元（網路價20900；Price.Low=18601）；未扣券、回饋或點數。 同輪原商品HTML價格與可購入口已核對。",
+      "basis": "retailer_current"
     },
     "channel": "tw",
     "buyLabel": "PChome 24h購物",
@@ -1755,9 +1756,11 @@
     "name": "廚下 RO 雙溫淨熱飲（P0531 升級款）",
     "price": {
       "currency": "TWD",
-      "amount": 36810,
-      "converted": 36810,
-      "confidence": "PChome 2026-07-29 人工確認 exact-SKU 公開價；Price.Low 無正值時採 Price.P，Qty 2"
+      "amount": 31656,
+      "converted": 31656,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 PChome主商品API商品ID DMCI0O-A900K3T62 相符，原標題「SAKURA櫻花P0532廚下RO雙溫淨熱飲 創新專利設計，RO淨水+熱水兩機合一」，Qty=3，公開折扣／主價 31656 元（網路價36810；Price.Low=31656）；未扣券、回饋或點數。 同輪原商品HTML價格與可購入口已核對。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMCI0OA900K3T62/000001_1781238167.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMCI0O-A900K3T62",
@@ -1793,16 +1796,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 36810,
+      "amount": 31656,
       "currency": "TWD",
-      "converted": 36810,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1283319043&cgp=36810",
-      "sourceTitle": "LBJ 比價撿便宜歷史價格：Yahoo 自營 SAKURA P0532",
-      "evidenceSnippet": "LBJ 的 exact-model Yahoo 商品 PID 1283319043 價格歷史顯示 2026-04-29、2026-06-24、2026-06-29 與 2026-07-29 均為 NT$36,810；Yahoo 自營 exact-model 商品頁本次查核仍為 NT$36,810。",
-      "sourceKind": "price_history",
+      "converted": 31656,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMCI0O-A900K3T62",
+      "sourceTitle": "PChome 24h 購物：SAKURA櫻花P0532廚下RO雙溫淨熱飲",
+      "evidenceSnippet": "PChome 24h 購物於 2026-11-01 顯示同型號可信新品公開價 NT$31,656，低於既有史低 NT$36,810。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-29",
-      "note": "採同型號、同規格、Yahoo 自營新品頁對應的可重現價格歷史；未計入卡片回饋、點數、折價券或登記贈點。"
+      "checkedAt": "2026-11-01",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2146,9 +2149,11 @@
     "name": "Circle Reverse Osmosis Water Filtration System",
     "price": {
       "currency": "USD",
-      "amount": 449.99,
-      "converted": 14678,
-      "confidence": "2026-10-24 人工核對 www.brondell.com 同型號與所選版本公開價 USD 449.99，可下單；未扣會員、信用卡或點數。；ExchangeRate-API 2026-10-31 匯率換算"
+      "amount": 359.99,
+      "converted": 11742,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 Brondell美國官方Circle主商品Sale Price USD359.99、原449.99，主商品BCData為instock:true/purchasable:true；排除頁尾替換濾芯及Open-Box商品。 海外參考；未含國際運費、進口稅、電壓／插頭與台灣保固風險。"
     },
     "image": "https://cdn11.bigcommerce.com/s-mpfo2gcqca/images/stencil/1280x1280/products/560/5775/brondell-circle-rc100-reverse-osmosis-system-faucet.jpg__76718.1789593792.jpg?c=1",
     "buyUrl": "https://www.brondell.com/circle-reverse-osmosis-water-filter-system/",
@@ -2334,10 +2339,11 @@
     "name": "PREMIER 廚下冰溫瞬熱旗艦飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 36800,
-      "converted": 36800,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27 PChome原購買頁公開36800元；未扣個人券、點數或信用卡回饋。"
+      "amount": 32752,
+      "converted": 32752,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-01 PChome主商品API商品ID DMAWI0-A900ITF3M 相符，原標題「【賀眾牌】PREMIER 尊爵不凡廚下冰溫瞬熱旗艦飲水機UR-3902AW-1(110V/雙源淨化/冰溫瞬熱/恆淨水系統) 【賀眾牌ACUO】 PREMIER 尊爵不凡廚下冰溫瞬熱旗艦飲水機UR-3902AW-1(110V/雙源淨化/冰溫瞬熱/恆淨水系統)」，Qty=20，公開折扣／主價 32752 元（網路價36800；Price.Low=32752）；未扣券、回饋或點數。 同輪原商品HTML價格與可購入口已核對。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWI0A900ITF3M/000001_1781688918.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAWI0-A900ITF3M",
@@ -3893,10 +3899,11 @@
     "name": "冰冷熱三溫櫥下飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 37200,
-      "converted": 37200,
-      "confidence": "PChome 24h 2026-08-14 exact-model 新品頁公開售價，標題明載全省安裝",
-      "basis": "retailer_current"
+      "amount": 31992,
+      "converted": 31992,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 PChome主商品API商品ID DMAW2C-A900BV90K 相符，原標題「林內 冰冷熱飲水機淨水器(含標準安裝)【RWP-H300】 林內 冰冷熱加熱器飲水機(全省安裝)【RWP-H300】」，Qty=2，公開折扣／主價 31992 元（網路價37200；Price.Low=31992）；未扣券、回饋或點數。 同輪原商品HTML價格與可購入口已核對。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAW2CA900BV90K/000001_1700085707.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAW2C-A900BV90K",
@@ -4000,11 +4007,11 @@
     "name": "BD-3006BF 冷水煮沸飲水機＋RO-2604 逆滲透系統",
     "price": {
       "currency": "TWD",
-      "amount": 44712,
-      "converted": 44712,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "amount": 42228,
+      "converted": 42228,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 BD-3006BF-RO完整RO冷熱煮沸機主商品44712，10/30–11/02單件9折，原網路49680；可購廠商出貨。"
+      "note": "2026-11-01 PChome主商品API商品ID DMAWFH-A900F2DDI 相符，原標題「【Buder 普德】BD-3006BF 四合一龍頭 廚下型冷水煮沸飲水機(搭RO-2604 RO逆滲透) 【Buder 普德】★２年原廠保固★逆滲透 冷熱煮沸廚下型飲水機(免費標準安裝 BD-3006BF-RO)」，Qty=10，公開折扣／主價 42228 元（網路價42228；Price.Low=無）；未扣券、回饋或點數。 同輪原商品HTML價格與可購入口已核對。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWFHA900F2DDI/000001_1692262957.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAWFH-A900F2DDI",

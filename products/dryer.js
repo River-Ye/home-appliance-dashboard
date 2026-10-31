@@ -15,10 +15,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/AC7DC27581-SP-22704432.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 9351,
-      "converted": 9351,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27 PChome原頁同型號NH-80RZ-W主商品折扣價9351元，國際牌原廠直營10/01–11/30任選1件9折；可立即購買／加入購物車，未扣折價券、點數或信用卡回饋。",
+      "amount": 8935,
+      "converted": 8935,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-01 人工逐筆核對PChome原產品API：Panasonic國際牌 8公斤電子式乾衣機NH-80RZ-W(釉光白)；Price.Low=8935元，Qty=20，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。",
       "basis": "retailer_current"
     },
     "channel": "tw",

@@ -2613,10 +2613,11 @@
     "topPick": false,
     "price": {
       "currency": "TWD",
-      "amount": 1050,
-      "converted": 1050,
+      "amount": 1090,
+      "converted": 1090,
       "basis": "retailer_current",
-      "confidence": "PChome 2026-09-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-01 人工核對PChome原始API同型號商品ID、名稱、正數庫存與公開折扣價1090元；HTML另遇429限制，不把API當完整出貨承諾。"
     },
     "installation": {
       "status": "not_stated",

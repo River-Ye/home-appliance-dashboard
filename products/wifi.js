@@ -308,11 +308,11 @@
     "name": "BE3600 雙頻 Wi-Fi 7 AiMesh 可擴充路由器",
     "price": {
       "currency": "TWD",
-      "amount": 3699,
-      "converted": 3699,
-      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "amount": 3515,
+      "converted": 3515,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 原頁同型號主商品公開價，主購買區可加車；不扣個人券、信用卡、點數、贈品或相關商品價格。 先前單件折扣已到期，本次採目前主商品明示價。"
+      "note": "2026-11-01 Yahoo原頁同型號主商品公開3515元，可直接購買/加車；單件公開活動實際截止2026-11-01T08:00:59+08:00。未扣個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLPA900JKWXK/000001_1783555436.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/ASUS-%E8%8F%AF%E7%A2%A9-RT-BE58U-V2-BE3600-%E9%9B%99%E9%A0%BB-Wi-Fi-7-%E5%8F%AF%E6%93%B4%E5%85%85%E5%BC%8F%E8%B7%AF%E7%94%B1%E5%99%A8-12005854.html",
@@ -602,9 +602,11 @@
     "name": "BE5000 Wi-Fi 7 Mesh 延伸系統路由器+2衛星",
     "price": {
       "currency": "TWD",
-      "amount": 12863,
-      "converted": 12863,
-      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 10933,
+      "converted": 10933,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 人工核對PChome原始API同型號商品ID、名稱、正數庫存與公開折扣價10933元；HTML另遇429限制，不把API當完整出貨承諾。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJAA900JG5AK/000001_1763014538.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJA-A900JG5AK",
@@ -699,10 +701,10 @@
     "name": "Wi-Fi 6E 三頻無線網狀路由器一入",
     "price": {
       "currency": "TWD",
-      "amount": 7590,
-      "converted": 7590,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-28晚間原頁覆核：MX6201-AH單入網路7990元；公開每滿3000折200、最高1000，單台7590元，10/27–10/31。不含個人券、點數或信用卡回饋。",
+      "amount": 7490,
+      "converted": 7490,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-01 人工核對PChome原始API同型號商品ID、名稱、正數庫存與公開折扣價7490元；HTML另遇429限制，不把API當完整出貨承諾。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFL7A900IJMF6/000001_1744352670.jpg",
@@ -1770,11 +1772,11 @@
     "name": "BE6500 雙頻 Wi-Fi 7 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 4990,
-      "converted": 4990,
-      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "amount": 4381,
+      "converted": 4381,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 原頁同型號主商品公開價，主購買區可加車；不扣個人券、信用卡、點數、贈品或相關商品價格。 先前單件折扣已到期，本次採目前主商品明示價。"
+      "note": "2026-11-01 Yahoo原頁同型號主商品公開4381元，可直接購買/加車；單件公開活動實際截止2026-11-01T08:00:59+08:00。未扣個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLPA900IV4B6/000001_1783556530.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/ASUS-%E8%8F%AF%E7%A2%A9-RT-BE82U-WiFi-7-%E9%9B%99%E9%A0%BB-BE6500-%E8%B7%AF%E7%94%B1%E5%99%A8-%E5%88%86%E4%BA%AB%E5%99%A8-11798654.html",
@@ -1966,9 +1968,11 @@
     "name": "BE9500 Wi-Fi 7 三頻 2.5G Mesh 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 5499,
-      "converted": 5499,
-      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 4899,
+      "converted": 4899,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 人工核對PChome原始API同型號商品ID、名稱、正數庫存與公開網路價4899元；HTML另遇429限制，不把API當完整出貨承諾。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJ6A900IZ71A/000001_1755490950.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJ6-A900IZ71A",
@@ -2340,9 +2344,11 @@
     "name": "BE3600 雙頻 Gigabit Wi-Fi 7 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 2299,
-      "converted": 2299,
-      "confidence": "PChome 2026-10-21 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 2099,
+      "converted": 2099,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 人工核對PChome原始API同型號商品ID、名稱、正數庫存與公開網路價2099元；HTML另遇429限制，不把API當完整出貨承諾。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLVA900K13CR/000001_1779257487.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAN09-A900IK1F1",
@@ -2437,9 +2443,11 @@
     "name": "BE3600 雙頻 2.5G Wi-Fi 7 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 2299,
-      "converted": 2299,
-      "confidence": "PChome 2026-07-18 API 公開價"
+      "amount": 1799,
+      "converted": 1799,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 人工核對PChome原始API同型號商品ID、名稱、正數庫存與公開網路價1799元；HTML另遇429限制，不把API當完整出貨承諾。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJ9A900HSRT9/000001_1755483449.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJ9-A900HSRT9",
@@ -2728,9 +2736,11 @@
     "name": "BE3600 雙頻 Wi-Fi 7 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 4095,
-      "converted": 4095,
-      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 2999,
+      "converted": 2999,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 人工核對PChome原始API同型號商品ID、名稱、正數庫存與公開網路價2999元；HTML另遇429限制，不把API當完整出貨承諾。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJAA900JUQYP/000001_1774520642.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJA-A900JUQYP",
@@ -2764,15 +2774,15 @@
     "releaseDate": "2025",
     "historicalLow": {
       "status": "found",
-      "amount": 3390,
+      "amount": 2999,
       "currency": "TWD",
-      "converted": 3390,
+      "converted": 2999,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DRAFJA-A900JUQYP",
       "sourceTitle": "PChome 24h 購物：NIGHTHAWK RS100 BE3600 雙頻 WiFi 7 分享器/路由器 (美國品牌 資安有保障)",
-      "evidenceSnippet": "PChome 24h 購物於 2026-09-03 顯示同型號可信新品公開價 NT$3,390，低於既有史低 NT$3,595。",
+      "evidenceSnippet": "PChome 24h 購物於 2026-11-01 顯示同型號可信新品公開價 NT$2,999，低於既有史低 NT$3,390。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-09-03",
+      "checkedAt": "2026-11-01",
       "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
@@ -3392,11 +3402,11 @@
     "name": "AX6000 Wi-Fi 6 雲端安全路由器",
     "price": {
       "currency": "TWD",
-      "amount": 7139,
-      "converted": 7139,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "amount": 5990,
+      "converted": 5990,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-28晚間原頁覆核：USG LITE 60AX主商品公開價7139TWD，本輪原頁可加入購物車；主商品價與舊參考一致，未套用相關商品或回饋。不含個人券、點數或信用卡回饋。"
+      "note": "2026-11-01 人工核對PChome原始API同型號商品ID、名稱、正數庫存與公開網路價5990元；HTML另遇429限制，不把API當完整出貨承諾。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAF0IA900HO2DR/000001_1777023675.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAF0I-A900HO2DR",
@@ -3491,10 +3501,10 @@
     "name": "Wi-Fi 6E 三頻電競路由器",
     "price": {
       "currency": "TWD",
-      "amount": 7590,
-      "converted": 7590,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-28晚間原頁覆核：RadiX AXE6600網路7990元；公開每滿3000折200、最高1000，單台7590元，10/27–10/31。不含個人券、點數或信用卡回饋。",
+      "amount": 7490,
+      "converted": 7490,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-01 人工核對PChome原始API同型號商品ID、名稱、正數庫存與公開折扣價7490元；HTML另遇429限制，不把API當完整出貨承諾。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFKSA900HEQVN/000001_1713512948.jpg",
@@ -3867,10 +3877,10 @@
     "name": "Wi-Fi 6 雙 10GbE SD-WAN 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 7590,
-      "converted": 7590,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-28晚間原頁覆核：QHora-301W網路7990元；公開每滿3000折200、最高1000，單台7590元，10/27–10/31。不含個人券、點數或信用卡回饋。",
+      "amount": 7490,
+      "converted": 7490,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-01 人工核對PChome原始API同型號商品ID、名稱、正數庫存與公開折扣價7490元；HTML另遇429限制，不把API當完整出貨承諾。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAG6JA900AUW3D/000001_1626400932.jpg",
@@ -4063,9 +4073,11 @@
     "name": "BE3600 Wi-Fi 7 雙頻無線網狀路由器",
     "price": {
       "currency": "TWD",
-      "amount": 1790,
-      "converted": 1790,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 2290,
+      "converted": 2290,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 人工核對PChome原始API同型號商品ID、名稱、正數庫存與公開網路價2290元；HTML另遇429限制，不把API當完整出貨承諾。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLTA900JMCU4/000001_1776166910.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFLT-A900JMCU4",
@@ -4733,11 +4745,11 @@
     "name": "BE19000 三頻 Wi-Fi 7 AI 電競路由器",
     "price": {
       "currency": "TWD",
-      "amount": 27990,
-      "converted": 27990,
-      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "amount": 26591,
+      "converted": 26591,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 原頁同型號主商品公開價，主購買區可加車；不扣個人券、信用卡、點數、贈品或相關商品價格。 先前單件折扣已到期，本次採目前主商品明示價。"
+      "note": "2026-11-01 Yahoo原頁同型號主商品公開26591元，可直接購買/加車；單件公開活動實際截止2026-11-01T08:00:59+08:00。未扣個人券、點數或信用卡回饋。"
     },
     "image": "https://dlcdnwebimgs.asus.com/gain/FF5DB299-9708-4259-ABF9-167FDC7166BD",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E6%98%8C%E9%81%8B%E7%9B%A3%E8%A6%96%E5%99%A8-ASUS-%E8%8F%AF%E7%A2%A9-ROG-Rapture-GT-BE19000AI-WiFi-7-%E4%B8%89%E9%A0%BB%E9%9B%BB%E7%AB%B6-12032656.html",
@@ -5483,11 +5495,11 @@
     "name": "AQUILA PRO AI BE9500 三頻 Wi-Fi 7 2.5G Mesh 路由器（單台）",
     "price": {
       "currency": "TWD",
-      "amount": 5499,
-      "converted": 5499,
+      "amount": 5046,
+      "converted": 5046,
       "basis": "retailer_current",
-      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
-      "note": "2026-10-31 原頁同型號主商品公開價，主購買區可加車；不扣個人券、信用卡、點數、贈品或相關商品價格。 先前單件折扣已到期，本次採目前主商品明示價。"
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-01 Yahoo原頁同型號主商品公開5046元，可直接購買/加車；單件公開活動實際截止2026-11-01T08:00:59+08:00。未扣個人券、點數或信用卡回饋。"
     },
     "installation": {
       "status": "excluded",
@@ -5530,16 +5542,16 @@
     "releaseDate": "2025-07-03",
     "historicalLow": {
       "status": "found",
-      "amount": 5211,
+      "amount": 5046,
       "currency": "TWD",
-      "converted": 5211,
-      "sourceUrl": "https://www.dlink.com/tw/zh/press-centre/press-releases/2025/november/13/taiwan-excellence-2026-m95",
-      "sourceTitle": "D-Link 台灣榮耀 極速典範：M95 雙11公開優惠",
-      "evidenceSnippet": "M95限時下殺$5,211(原價$6,299)",
-      "sourceKind": "official_sale",
-      "confidence": "high",
-      "checkedAt": "2026-10-20",
-      "note": "同型號M95單台官方2025-11-13公開雙11通路促銷，非現價；公告另列momo/PChome抽獎，5211為明示售價，不扣點數、抽獎或信用卡回饋。比價歷史頁受阻，這是本次可驗證最低公開價格，非保證全網絕對史低。"
+      "converted": 5046,
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/D-Link%E5%8F%8B%E8%A8%8A-M95-BE9500-Wi-Fi-7-MESH%E7%84%A1%E7%B7%9A%E8%B7%AF%E7%94%B1%E5%99%A8-12093613.html",
+      "sourceTitle": "Yahoo購物中心：D-Link友訊 M95 BE9500 Wi-Fi 7 MESH無線路由器 | 分享器/路由器 | Yahoo購物中心",
+      "evidenceSnippet": "Yahoo購物中心於 2026-11-01 顯示同型號可信新品公開價 NT$5,046，低於既有史低 NT$5,211。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-11-01",
+      "note": "採用 Yahoo購物中心當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",

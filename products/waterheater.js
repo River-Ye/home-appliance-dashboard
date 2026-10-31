@@ -3109,11 +3109,12 @@
     "name": "HCG E7122B 即熱式電熱水器",
     "price": {
       "currency": "TWD",
-      "amount": 7800,
-      "converted": 7800,
-      "confidence": "HCG 台灣官方產品頁 2026-08-14 exact-model 建議售價／定價",
+      "amount": 5400,
+      "converted": 5400,
+      "confidence": "2026-11-01 人工核對同型號官方建議售價；非通路成交或現貨價格。",
       "basis": "official_suggested",
-      "scope": "single_unit"
+      "scope": "single_unit",
+      "note": "2026-11-01 HCG官方E7122B原頁同時列牌價7800元與建議售價5400元，採明示建議售價；官方資料頁沒有可購庫存承諾，安裝費另確認。"
     },
     "installation": {
       "status": "excluded",
@@ -3121,7 +3122,7 @@
     },
     "image": "https://www.hcg.com.tw/public/upload/%E5%BB%9A%E5%85%B7%E7%94%A2%E5%93%81%E5%A4%A7%E9%A0%AD%E7%85%A7/05_%E7%86%B1%E6%B0%B4%E5%99%A8%20%E7%9E%AC%E9%96%93%E9%9B%BB%E8%83%BD%E5%9E%8B%E7%86%B1%E6%B0%B4%E5%99%A8/E7122B/E7122B-200.png",
     "buyUrl": "https://www.hcg.com.tw/public/tw/product/detail/E7122B",
-    "buyLabel": "HCG 台灣官方產品頁",
+    "buyLabel": "查看官方資料（建議售價）",
     "specs": [
       "類型：即熱式電熱水器",
       "能源／氣源：電力；8.8 kW",
@@ -3224,11 +3225,12 @@
     "name": "HCG E7120W 即熱式電熱水器",
     "price": {
       "currency": "TWD",
-      "amount": 7900,
-      "converted": 7900,
-      "confidence": "HCG 台灣官方產品頁 2026-08-14 exact-model 建議售價／定價",
+      "amount": 5500,
+      "converted": 5500,
+      "confidence": "2026-11-01 人工核對同型號官方建議售價；非通路成交或現貨價格。",
       "basis": "official_suggested",
-      "scope": "single_unit"
+      "scope": "single_unit",
+      "note": "2026-11-01 HCG官方E7120W原頁同時列牌價7900元與建議售價5500元，採明示建議售價；官方資料頁沒有可購庫存承諾，安裝費另確認。"
     },
     "installation": {
       "status": "excluded",
@@ -3236,7 +3238,7 @@
     },
     "image": "https://www.hcg.com.tw/upload/%E5%BB%9A%E5%85%B7%E7%94%A2%E5%93%81%E5%A4%A7%E9%A0%AD%E7%85%A7/05_%E7%86%B1%E6%B0%B4%E5%99%A8%20%E7%9E%AC%E9%96%93%E9%9B%BB%E8%83%BD%E5%9E%8B%E7%86%B1%E6%B0%B4%E5%99%A8/E7120W.P/E7120W-200.png",
     "buyUrl": "https://www.hcg.com.tw/tw/product/detail/E7120W",
-    "buyLabel": "HCG 台灣官方產品頁",
+    "buyLabel": "查看官方資料（建議售價）",
     "specs": [
       "類型：即熱式電熱水器",
       "能源／氣源：電力；10.1 kW",
@@ -3685,7 +3687,8 @@
       "converted": 58294,
       "confidence": "泰浦樂 2026-08-14 最後可驗證 exact-model 新品含基本安裝公開價；2026-08-15 Yahoo exact-model 頁明示已停售，僅供規格參考",
       "basis": "retailer_current",
-      "scope": "single_unit"
+      "scope": "single_unit",
+      "note": "2026-11-01 Yahoo選定原商品頁顯示已停售，零售下架不等同原廠整型停產；不採頁面殘留價格更新，保留原參考價及待查通路。"
     },
     "installation": {
       "status": "included_basic",

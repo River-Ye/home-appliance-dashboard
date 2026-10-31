@@ -113,9 +113,11 @@
     "name": "自動集塵無線吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 17111,
-      "converted": 17111,
-      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 16084,
+      "converted": 16084,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 人工逐筆核對PChome原產品API：LG 樂金 CordZero™ A9X 自動集塵無線吸塵器A9X-AUTO；Price.Low=16084元，Qty=20，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX8KA900HLX9W/000001_1744871467.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAX8K-A900HLX9W",
@@ -882,9 +884,11 @@
     "name": "CordZero A9X 蒸氣濕拖自動集塵無線吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 25111,
-      "converted": 25111,
-      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 23604,
+      "converted": 23604,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 人工逐筆核對PChome原產品API：LG 樂金 CordZero™ A9X 蒸氣濕拖自動集塵無線吸塵器A9X-STEAM；Price.Low=23604元，Qty=20，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX8KA900HLXAQ/000001_1744871444.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAX8K-A900HLXAQ",
@@ -1074,14 +1078,15 @@
     "name": "CordZero A9 Air 輕量美型無線吸塵器雪霧白",
     "price": {
       "currency": "TWD",
-      "amount": 6999,
-      "converted": 6999,
-      "confidence": "momo購物 2026-07-16 商品頁公開價",
-      "note": "2026-10-31 momo原頁A7-LITEMOP雲朵白6111元是11/1 00:00開賣的報價，本次尚未開賣；保留6999元舊參考價，不把尚未開賣展示價當目前可購現價。"
+      "amount": 6111,
+      "converted": 6111,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-01 momo LG A7-LITEMOP雲朵白所選主商品11/01–11/12活動已開始，單件折5789後6111元，折前11900；goodsStock1，不再把此已開始活動列尚未開賣。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX6FA900K2NSV/000001_1780464185.jpg",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=9861645",
-    "buyLabel": "momo（11/01開賣，現價待確認）",
+    "buyLabel": "momo（A7-LITEMOP 雲朵白）",
     "specs": [
       "無線吸塵",
       "輕量",
@@ -1110,16 +1115,16 @@
     "releaseDate": "2024-06-11",
     "historicalLow": {
       "status": "found",
-      "amount": 6966,
+      "amount": 6111,
       "currency": "TWD",
-      "converted": 6966,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1269083531&cgp=7116",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：LG CordZero A9 Air A7-LITE",
-      "evidenceSnippet": "LBJ 比價撿便宜歷史價格顯示 Yahoo購物中心同型號新品最低價為 NT$6,966，最低點日期 2026-06-18。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-18",
-      "note": "採用 LBJ 比價撿便宜可公開查核的價格歷史；同型號／規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 6111,
+      "sourceUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=9861645",
+      "sourceTitle": "LG CordZero A9 Air 同型號原通路商品頁",
+      "evidenceSnippet": "2026-11-01 人工核對同型號新品公開價 6111 TWD，低於既有史低 6966。momo LG A7-LITEMOP雲朵白所選主商品11/01–11/12活動已開始，單件折5789後6111元，折前11900；goodsStock1，不再把此已開始活動列尚未開賣。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-11-01",
+      "note": "同型號可信新品公開價；排除個人券、點數、信用卡回饋、二手、福利、展示、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1269,11 +1274,12 @@
       "currency": "TWD",
       "amount": 2990,
       "converted": 2990,
-      "confidence": "XJC-Y011 官方商品頁 2026-09-05 人工核對 exact-model 公開現價及可購狀態；非會員券、紅利或加購價"
+      "confidence": "XJC-Y011 官方商品頁 2026-09-05 人工核對 exact-model 公開現價及可購狀態；非會員券、紅利或加購價",
+      "note": "2026-11-01 正負零官方所選XJC-Y011主商品4990元且目前尚無庫存；保留2990元舊參考價，不採缺貨展示價，不借G040或C030價格。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBE1AA900J8H81/000001_1757576197.jpg",
     "buyUrl": "https://plusminuszero.com.tw/shop-d.php?Key=1&W=Index",
-    "buyLabel": "正負零台灣官網",
+    "buyLabel": "正負零 官方（缺貨，現價待確認）",
     "specs": [
       "無線手持",
       "輕量",
@@ -1558,11 +1564,11 @@
       "amount": 19900,
       "converted": 19900,
       "confidence": "2026-10-24 人工核對 shop.dyson.tw 同型號與所選版本公開價 TWD 19900，可下單；未扣會員、信用卡或點數。",
-      "note": "2026-10-31 Dyson官方PencilVac Fluffycones單機特價19900元，21900元是原價；主購買區明示預購、預計2026/11/03出貨，不能以宣傳「全新現貨熱銷中」覆蓋實際預購狀態。"
+      "note": "2026-11-01 Dyson官方所選PencilVac Fluffycones SV50主商品特價19900元，21900是原價；可加車，已無舊11/03預購日，實際交期仍向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX00A900JPJ7H/000001_1777291832.jpg",
     "buyUrl": "https://shop.dyson.tw/vacuums/cordless-vacuums/dyson-pencilvac-fluffycones-black-sale-492694-01",
-    "buyLabel": "Dyson 官方（預購，預計11/03）",
+    "buyLabel": "Dyson 官方（交期請確認）",
     "specs": [
       "筆型",
       "Fluffycones",
@@ -2043,11 +2049,11 @@
       "converted": 9900,
       "confidence": "Dyson 台灣官方商城 2026-09-01 exact-model SV55／商品 SKU 630933-01 頁面顯示原價 NT$14,900、特價 NT$9,900、InStock 並可加入購物車；贈品價值不抵減現價",
       "basis": "retailer_current",
-      "note": "2026-10-31 Dyson官方所選V8 Cyclone SV55送雙禮單機特價9900元，14900元是原價；主購買區明示預購、預計2026/11/03出貨。8999元是不同優惠包裝頁，不直接套用。"
+      "note": "2026-11-01 Dyson官方所選V8 Cyclone送雙禮主商品9900元，14900是原價；不是另一8999單機包裝。可加車，已無舊11/03預購日，實際交期仍向通路確認。"
     },
     "image": "https://dysonshop.blob.core.windows.net/products/dyson-v8-cyclone-sv55-vacuum-sale/hero-1787682803-480x480.jpg",
     "buyUrl": "https://shop.dyson.tw/vacuums/cordless-vacuums/dyson-v8-cyclone-sv55-vacuum-sale-630933-01",
-    "buyLabel": "Dyson 官方（預購，預計11/03）",
+    "buyLabel": "Dyson 官方（交期請確認）",
     "installation": {
       "status": "not_stated",
       "note": "官方商城未列到府安裝；本品為無線直立／手持吸塵器，使用者需依說明書裝妥吸頭、壁掛充電座並定期清潔集塵筒與濾網。"
@@ -2737,11 +2743,12 @@
       "amount": 14999,
       "converted": 14999,
       "confidence": "WD5M14A 官方商品頁 2026-09-05 人工核對 exact-model 公開現價及可購狀態；非會員券、紅利或加購價",
-      "basis": "retailer_current"
+      "basis": "retailer_current",
+      "note": "2026-11-01 Roborock台灣所選F25ACEPro主商品15888元但明示售罄、缺貨即將到貨；保留14999元舊參考價，不採缺貨展示價，不視為停產。"
     },
     "image": "https://taiwan.roborock.com/cdn/shop/files/F25_ACE_Pro_1_1200x1200.jpg?v=1787311249",
     "buyUrl": "https://taiwan.roborock.com/products/roborock-f25-ace-pro",
-    "buyLabel": "Roborock 台灣官網",
+    "buyLabel": "Roborock 官方（售罄，現價待確認）",
     "installation": {
       "status": "not_stated",
       "note": "台灣官方與通路未列到府安裝；本品為手持洗地機，使用者需依原廠說明放置充電座、注水並清潔污水箱。"
@@ -2921,11 +2928,12 @@
       "amount": 12900,
       "converted": 12900,
       "confidence": "Dyson 台灣官方商城 2026-08-29 exact product/SKU 637244-01 顯示單購 NT$12,900、全新現貨並可加入購物車",
-      "basis": "retailer_current"
+      "basis": "retailer_current",
+      "note": "2026-11-01 原Dyson PencilWash 637244-01網址已回到洗地吸塵器分類頁，未見WR04-A所選主商品；金石堂替代頁為動態殼，無本輪可讀主價及供貨證據，保留12900元舊參考價，不稱停產。"
     },
     "image": "https://dysonshop.blob.core.windows.net/products/dyson-pencilwash/hero-1780482874-480x480.jpg",
     "buyUrl": "https://shop.dyson.tw/vacuums/wet-and-dry-vacuums/dyson-pencilwash-637244-01",
-    "buyLabel": "Dyson 台灣官方商城",
+    "buyLabel": "Dyson 官方（原主商品未確認）",
     "installation": {
       "status": "not_stated",
       "note": "官方商城未列到府安裝；本品為手持硬地板洗地機，使用者需依說明書組裝握把、放置充電座，並於每次使用後清洗水箱、吸頭與滾筒。"
@@ -3201,15 +3209,15 @@
     "name": "F25 Ultra Steam Gen2 臂蒸之帝蒸氣洗地機（預購）",
     "price": {
       "currency": "TWD",
-      "amount": 17999,
-      "converted": 17999,
+      "amount": 17111,
+      "converted": 17111,
       "basis": "retailer_current",
-      "confidence": "2026-10-26 人工覆核同型號同版本來源與銷售狀態；價格適用條件及保留舊參考價的原因見註記與維護報告。",
-      "note": "2026-10-26原官方店公開17999；預購，預計11月中旬依訂單陸續出貨。未扣登入首單券或LINE碼。"
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-01 Roborock台灣官方WD6Y8A主商品17111元，19888是原價；原文明示預購，預計11月中旬依訂單陸續出貨，未扣首單500或LINE100元。"
     },
     "image": "https://taiwan.roborock.com/cdn/shop/files/F25_Ultra_Steam_Gen_2_1_1200x1200.png?v=1790784065",
     "buyUrl": "https://taiwan.roborock.com/products/roborock-f25-ultra-steam-gen2",
-    "buyLabel": "官方預購（預計11月中旬出貨）",
+    "buyLabel": "Roborock 官方（預購11月中旬）",
     "installation": {
       "status": "not_stated",
       "note": "需自行依說明書組裝及放置充電自清潔底座，官方未列到府安裝；需預留污水箱拆裝、清水補充及熱風排散空間。"
@@ -3297,11 +3305,11 @@
   "channel": "tw",
   "price": {
     "currency": "TWD",
-    "amount": 4831,
-    "converted": 4831,
+    "amount": 4600,
+    "converted": 4600,
     "basis": "retailer_current",
-    "confidence": "2026-10-30 momo官方直營14743779 exact-model原頁4831元，Chrome可見直接購買及放入購物車皆可用。",
-    "note": "2026-10-31 momo官方直營XJC-G040主商品4831元，公開滿1件88折，活動10/16–10/31；5490元是折前促銷價、5990元是市售參考價。"
+    "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+    "note": "2026-11-01 momo 正負零官方直營XJC-G040所選主商品11/01–11/02單件折511後4600元，折前5111；非相關商品Y011的2911元。"
   },
   "installation": {
     "status": "not_stated",

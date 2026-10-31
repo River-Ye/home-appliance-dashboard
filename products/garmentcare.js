@@ -17,9 +17,11 @@
     "name": "LG Styler 第二代蒸氣電子衣櫥 雲霧白",
     "price": {
       "currency": "TWD",
-      "amount": 43900,
-      "converted": 43900,
-      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 42811,
+      "converted": 42811,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 人工逐筆核對PChome原產品API：LG樂金 Styler蒸氣電子衣櫥R723WG；Price.P=42811元，Qty=5，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAI1LA900HWRUQ/000001_1762826055.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900HWRUQ",
@@ -127,9 +129,11 @@
     "name": "LG Styler Z 蒸氣電子衣櫥 輕奢鏡面",
     "price": {
       "currency": "TWD",
-      "amount": 26900,
-      "converted": 26900,
-      "confidence": "PChome 2026-07-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 26811,
+      "converted": 26811,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 人工逐筆核對PChome原產品API：LG WiFi Styler蒸氣電子衣櫥 (輕奢鏡面) E523MW；Price.Low=26811元，Qty=10，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAI1LA900J8NAE/000001_1775034251.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900J8NAE",
@@ -237,9 +241,11 @@
     "name": "LG Styler 第二代蒸氣電子衣櫥 奢華鏡面",
     "price": {
       "currency": "TWD",
-      "amount": 53900,
-      "converted": 53900,
-      "confidence": "PChome 24h 2026-07-23 exact-model API 公開價，Qty 8"
+      "amount": 53811,
+      "converted": 53811,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 人工逐筆核對PChome原產品API：LG樂金 Styler蒸氣電子衣櫥Objet Collection R723MB (手持蒸氣掛燙款)；Price.P=53811元，Qty=14，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAI1LA900HWRR6/000001_1762826052.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900HWRR6",
@@ -347,9 +353,11 @@
     "name": "LG Styler 第二代蒸氣電子衣櫥 雪霧白（HandySteamer）",
     "price": {
       "currency": "TWD",
-      "amount": 52900,
-      "converted": 52900,
-      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 52811,
+      "converted": 52811,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 人工逐筆核對PChome原產品API：LG樂金 Styler蒸氣電子衣櫥Objet Collection R723SB (手持蒸氣掛燙款)；Price.P=52811元，Qty=3，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAI1LA900HWRRX/000001_1762826053.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900HWRRX",
@@ -455,9 +463,11 @@
     "name": "LG Styler 第二代蒸氣電子衣櫥 奢華鏡面",
     "price": {
       "currency": "TWD",
-      "amount": 44900,
-      "converted": 44900,
-      "confidence": "PChome 24h 2026-07-23 exact-model API 公開價"
+      "amount": 45811,
+      "converted": 45811,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 人工逐筆核對PChome原產品API：LG樂金 Styler蒸氣電子衣櫥R723MG；Price.P=45811元，Qty=3，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAI1LA900HWRSW/000001_1762826054.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900HWRSW",
@@ -563,9 +573,11 @@
     "name": "LG Styler 蒸氣電子衣櫥 奢華鏡面",
     "price": {
       "currency": "TWD",
-      "amount": 39900,
-      "converted": 39900,
-      "confidence": "2026-10-26 人工覆核同型號同版本來源與銷售狀態；價格適用條件及保留舊參考價的原因見註記與維護報告。"
+      "amount": 38811,
+      "converted": 38811,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 人工逐筆核對PChome原產品API：LG樂金 WiFi styler 智慧電子衣櫥 (奢華鏡面款) E523MR；Price.P=38811元，Qty=3，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAI1LA900AMBO4/000001_1762826021.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900AMBO4",

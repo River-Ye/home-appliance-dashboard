@@ -17,11 +17,11 @@
     "name": "16 公升高效型變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 15840,
-      "converted": 15840,
-      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "amount": 14608,
+      "converted": 14608,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
+      "note": "2026-11-01 人工逐筆核對PChome原產品API：Panasonic國際牌16公升高效型變頻除濕機 F-YV32NN；Price.Low=14608元，Qty=20，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900J0L88/000001_1776323540.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3P-A900J0L88",
@@ -795,11 +795,11 @@
     "name": "9 公升除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 8811,
-      "converted": 8811,
-      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "amount": 8125,
+      "converted": 8125,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
+      "note": "2026-11-01 人工逐筆核對PChome原產品API：Panasonic國際牌 9公升除濕機F-Y18PN；Price.Low=8125元，Qty=20，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ00A900JB38A/000001_1776329911.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ00-A900JB38A",
@@ -893,9 +893,11 @@
     "name": "PuriCare WiFi 變頻除濕機粉紅 16 公升",
     "price": {
       "currency": "TWD",
-      "amount": 14111,
-      "converted": 14111,
-      "confidence": "2026-10-26 人工覆核同型號同版本來源與銷售狀態；價格適用條件及保留舊參考價的原因見註記與維護報告。"
+      "amount": 13900,
+      "converted": 13900,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 人工逐筆核對PChome原產品API：LG PuriCare™ WiFi變頻除濕機-粉紅/16公升(MD161QPK3)；Price.Low=13900元，Qty=20，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ07A900HQ3L5/000001_1761827365.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ07-A900HQ3L5",
@@ -1568,9 +1570,11 @@
     "name": "6公升高效除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 4390,
-      "converted": 4390,
-      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 3990,
+      "converted": 3990,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 人工逐筆核對PChome原產品API：SHARP 夏普 6公升 高效除濕機(DW-WL6NT-W)；Price.Low=3990元，Qty=20，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ08A900IXL3K/000001_1753349026.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ08-A900IXL3K",
@@ -1664,11 +1668,11 @@
     "name": "6L 除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 5571,
-      "converted": 5571,
-      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "amount": 5137,
+      "converted": 5137,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
+      "note": "2026-11-01 人工逐筆核對PChome原產品API：Panasonic 國際牌 6L 除濕機 F-Y12PS；Price.Low=5137元，Qty=20，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900J9FH9/000001_1776325410.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3P-A900J9FH9",
@@ -1956,11 +1960,11 @@
     "name": "19公升 超變頻清淨除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 21076,
-      "converted": 21076,
-      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "amount": 20357,
+      "converted": 20357,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 momo所選RD-380VC主商品單件88折21076元，折前23950元，活動10/01–10/31；一人限一組，未扣退稅、會員券、點數或刷卡回饋。"
+      "note": "2026-11-01 momo 所選RD-380VC主商品單件85折後20357元，折前23950元；活動10/31 00:00至11/02 08:59。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h5d/ha9/421140861976606.jpg",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=13553689",
@@ -2154,11 +2158,11 @@
     "name": "23 公升超變頻清淨除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 23575,
-      "converted": 23575,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "amount": 21633,
+      "converted": 21633,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
+      "note": "2026-11-01 人工逐筆核對PChome原產品API：HITACHI日立 一級能效23公升變頻清淨除濕機 RD-460VC；Price.P=21633元，Qty=20，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h2d/h02/421140862271518.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ4K-A900I752Z",
@@ -2194,16 +2198,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 22039,
+      "amount": 21633,
       "currency": "TWD",
-      "converted": 22039,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=512329242&cgp=22618",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：HITACHI日立 RD-460VC 23公升超變頻清淨型除濕機 極光鈦 神腦生活",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - 神腦生活 Senaonline / HITACHI日立 RD-460VC 23公升超變頻清淨型除濕機 極光鈦 神腦生活」最低價為 NT$22,039，最低點日期 2026-04-09。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 21633,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMBQ4K-A900I752Z",
+      "sourceTitle": "PChome 24h 購物：HITACHI日立 一級能效23公升變頻清淨除濕機 RD-460VC",
+      "evidenceSnippet": "PChome 24h 購物於 2026-11-01 顯示同型號可信新品公開價 NT$21,633，低於既有史低 NT$22,039。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-11-01",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2255,10 +2259,11 @@
     "name": "12L 一級能效極致薄型清新淨味除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 7690,
-      "converted": 7690,
-      "confidence": "2026-10-24 人工核對 www.momoshop.com.tw 同型號與所選版本公開價 TWD 7690，可下單；未扣會員、信用卡或點數。",
-      "basis": "retailer_current"
+      "amount": 7511,
+      "converted": 7511,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 momo 所選WDEE1200TW主商品單件折2479後7511元，折前9990元；11/01–11/30活動，非相關商品6511元。"
     },
     "image": "https://i2.momoshop.com.tw/1781626760/goodsimg/0015/034/893/15034893_R_m.webp",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15034893",
@@ -2299,16 +2304,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 7690,
+      "amount": 7511,
       "currency": "TWD",
-      "converted": 7690,
+      "converted": 7511,
       "sourceUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15034893",
-      "sourceTitle": "momo購物網：Whirlpool WDEE1200TW 12 公升極致薄型清新淨味除濕機",
-      "evidenceSnippet": "momo 同型號新品頁於 2026-07-16 UTC 顯示公開售價 NT$7,690、goodsStock 1、goodsNum 20，低於原記錄史低 NT$7,990。",
+      "sourceTitle": "Whirlpool WDEE1200TW 同型號原通路商品頁",
+      "evidenceSnippet": "2026-11-01 人工核對同型號新品公開價 7511 TWD，低於既有史低 7690。momo 所選WDEE1200TW主商品單件折2479後7511元，折前9990元；11/01–11/30活動，非相關商品6511元。",
       "sourceKind": "retailer_page",
-      "confidence": "high",
-      "checkedAt": "2026-07-17",
-      "note": "採用可信通路同型號新品頁可公開查核售價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、拆封品與整新品。"
+      "confidence": "medium",
+      "checkedAt": "2026-11-01",
+      "note": "同型號可信新品公開價；排除個人券、點數、信用卡回饋、二手、福利、展示、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2580,7 +2585,8 @@
       "amount": 20700,
       "converted": 20700,
       "confidence": "HOTAI購於 2026-08-28 的 exact-model 現貨公開價",
-      "basis": "retailer_current"
+      "basis": "retailer_current",
+      "note": "2026-11-01 HOTAI購所選DW-UW25HT-W主商品20700元且明示缺貨、補貨中；保留20700元參考價，不當作可購現價，不視為停產。"
     },
     "installation": {
       "status": "not_stated",
@@ -2588,7 +2594,7 @@
     },
     "image": "https://tw.sharp/sites/default/files/2026-04/DW-UW25HT-W_1.png",
     "buyUrl": "https://www.hotaigo.com.tw/productdetail/hotai1785980593-4550556198233.html",
-    "buyLabel": "HOTAI購 exact-model 現貨新品",
+    "buyLabel": "HOTAI購（缺貨，現價待確認）",
     "specs": [
       "除濕能力：25 L／日；官方標示適用約 31 坪",
       "雙變頻壓縮機與風扇；Plasmacluster PCI 25000 淨化離子",

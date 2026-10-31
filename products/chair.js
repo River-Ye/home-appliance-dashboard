@@ -114,10 +114,10 @@
     "name": "特仕版 2.0 人體工學椅",
     "price": {
       "currency": "TWD",
-      "amount": 11900,
-      "converted": 11900,
-      "confidence": "2026-10-28 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
-      "note": "2026-10-28晚間原頁覆核：主商品Ergohuman特仕版2.0(3D扶手)11900元，可加車；16500元為劃線價，9699元舊促銷未再呈現。不含個人券、點數或信用卡回饋。",
+      "amount": 9999,
+      "converted": 9999,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-01 人工核對PChome原始API同型號商品ID、名稱、正數庫存與公開網路價9999元；HTML另遇429限制，不把API當完整出貨承諾。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAKHPA900HEQ4H/000001_1760581993.jpg",
@@ -1267,11 +1267,11 @@
     "name": "OC2 SEAT SET 坐躺兩用電腦椅",
     "price": {
       "currency": "TWD",
-      "amount": 3324,
-      "converted": 3324,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "amount": 3388,
+      "converted": 3388,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-28晚間原頁覆核：OC2主商品公開價3324TWD，本輪原頁可加入購物車；主商品價與舊參考一致，未套用相關商品或回饋。不含個人券、點數或信用卡回饋。"
+      "note": "2026-11-01 人工核對PChome原始API同型號商品ID、名稱、正數庫存與公開折扣價3388元；HTML另遇429限制，不把API當完整出貨承諾。"
     },
     "image": "https://cs-a.ecimg.tw/items/DEBHA6A9007ZPEF/000001_1768553712.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEBHA6-A9007ZPEF",
@@ -1366,9 +1366,11 @@
     "name": "TITAN PRO V2 電競椅",
     "price": {
       "currency": "TWD",
-      "amount": 15990,
-      "converted": 15990,
-      "confidence": "PChome 2026-09-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 15350,
+      "converted": 15350,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 人工核對PChome原始API同型號商品ID、名稱、正數庫存與公開折扣價15350元；HTML另遇429限制，不把API當完整出貨承諾。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ6ZA900JIKKR/000001_1782824760.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ6Z-A900JIKKR",
@@ -1657,9 +1659,11 @@
     "name": "透氣皮革工學賽車電競椅",
     "price": {
       "currency": "TWD",
-      "amount": 3199,
-      "converted": 3199,
-      "confidence": "PChome 2026-10-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 3111,
+      "converted": 3111,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 人工核對PChome原始API同型號商品ID、名稱、正數庫存與公開網路價3111元；HTML另遇429限制，不把API當完整出貨承諾。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ6ZA900HNDMY/000001_1720591564.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ6Z-A900HNDMY",
@@ -2140,9 +2144,11 @@
     "name": "PHANTOM 3 PRO 布面電競椅 灰",
     "price": {
       "currency": "TWD",
-      "amount": 5199,
-      "converted": 5199,
-      "confidence": "Costco 好市多 2026-07-09 查核價"
+      "amount": 6599,
+      "converted": 6599,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 Costco台灣同型號主商品頁公開售價6599元（含運），主SKU可加車；會員購買條件依通路，不扣個人折扣。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/hd2/h2a/344500471693342.jpg",
     "buyUrl": "https://www.costco.com.tw/Furniture-Kitchen/Furniture/Computer-Desk-Chair-Sets/Anda-Seat-Fabric-Gaming-Chair-Gray/p/151433",
@@ -2757,7 +2763,8 @@
       "amount": 10499,
       "converted": 10499,
       "basis": "retailer_current",
-      "confidence": "2026-10-23 SIDIZ台灣官店exact原生黑色variant及SKU由Chrome核對，公開價10499且schema InStock、加入購物車與立即買可用；非舊代或裸座墊。"
+      "confidence": "2026-10-23 SIDIZ台灣官店exact原生黑色variant及SKU由Chrome核對，公開價10499且schema InStock、加入購物車與立即買可用；非舊代或裸座墊。",
+      "note": "2026-11-01 SIDIZ台灣所選料號公開價10499元，頁面可加車但同時出現已缺貨後出貨文案；不把其他顏色或schema InStock當保證現貨。"
     },
     "installation": {
       "status": "not_stated",
@@ -2850,7 +2857,8 @@
       "amount": 11499,
       "converted": 11499,
       "basis": "retailer_current",
-      "confidence": "2026-10-23 SIDIZ台灣官店exact原生黑色variant及SKU由Chrome核對，公開價11499且schema InStock、加入購物車與立即買可用；非舊代或裸座墊。"
+      "confidence": "2026-10-23 SIDIZ台灣官店exact原生黑色variant及SKU由Chrome核對，公開價11499且schema InStock、加入購物車與立即買可用；非舊代或裸座墊。",
+      "note": "2026-11-01 SIDIZ台灣所選料號公開價11499元，頁面可加車但同時出現已缺貨後出貨文案；不把其他顏色或schema InStock當保證現貨。"
     },
     "installation": {
       "status": "not_stated",

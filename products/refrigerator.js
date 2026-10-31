@@ -221,9 +221,11 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/5D663CB1FD-SP-22040968.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 11900,
-      "converted": 11900,
-      "confidence": "Yahoo購物中心 2026-09-14 exact-model 公開結構化價格"
+      "amount": 9911,
+      "converted": 9911,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 Yahoo同型GN-L217SVN主商品9911元、立即購買／加入購物車；非回饋後價格。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -264,16 +266,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 9999,
+      "amount": 9911,
       "currency": "TWD",
-      "converted": 9999,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1267609790&cgp=11900",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【LG 樂金】家電快配217公升智慧變頻雙門冰箱 星辰銀(GN-L217SVN)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【LG 樂金】家電快配217公升智慧變頻雙門冰箱 星辰銀(GN-L217SVN)」最低價為 NT$9,999，最低點日期 2026-06-15。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 9911,
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-217%E5%85%AC%E5%8D%87-%E6%99%BA%E6%85%A7%E8%AE%8A%E9%A0%BB%E9%9B%99%E9%96%80%E5%86%B0%E7%AE%B1-%E6%98%9F%E8%BE%B0%E9%8A%80-GN-L217SVN-11979117.html",
+      "sourceTitle": "Yahoo購物中心：LG樂金 217公升 智慧變頻雙門冰箱 星辰銀 GN-L217SVN | 變頻300L以下 | Yahoo購物中心",
+      "evidenceSnippet": "Yahoo購物中心於 2026-11-01 顯示同型號可信新品公開價 NT$9,911，低於既有史低 NT$9,999。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-11-01",
+      "note": "採用 Yahoo購物中心當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -431,7 +433,8 @@
       "currency": "TWD",
       "amount": 36270,
       "converted": 36270,
-      "confidence": "Yahoo購物中心 2026-09-14 exact-model 公開結構化價格"
+      "confidence": "Yahoo購物中心 2026-09-14 exact-model 公開結構化價格",
+      "note": "2026-11-01 Yahoo選定同型原主頁明示已售完／貨到通知，未採畫面報價作可購現價；原參考價保留，不能推定原廠停產。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -534,7 +537,8 @@
       "currency": "TWD",
       "amount": 40185,
       "converted": 40185,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價",
+      "note": "2026-11-01 Yahoo選定原商品頁顯示已停售，零售下架不等同原廠整型停產；不採頁面殘留價格更新，保留原參考價及待查通路。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -947,7 +951,8 @@
       "currency": "TWD",
       "amount": 11900,
       "converted": 11900,
-      "confidence": "Yahoo購物中心 2026-07-17 商品頁公開價"
+      "confidence": "Yahoo購物中心 2026-07-17 商品頁公開價",
+      "note": "2026-11-01 Yahoo選定同型原主頁明示已售完／貨到通知，未採畫面報價作可購現價；原參考價保留，不能推定原廠停產。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1050,10 +1055,11 @@
       "currency": "TWD",
       "amount": 11900,
       "converted": 11900,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價",
+      "note": "2026-11-01 Yahoo SR-F12GD同型原主頁明示「預購11/6出貨」，11900元不稱現貨；保留原參考價並更新交期。"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心",
+    "buyLabel": "台灣預購／預計11/6出貨",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SAMPO%E8%81%B2%E5%AF%B6-%E6%98%9F%E6%BC%BE%E7%BE%8E%E6%BB%BF%E4%B8%8A%E5%86%B7%E8%97%8F%E4%B8%8B%E5%86%B7%E5%87%8D%E8%AE%8A%E9%A0%BB%E7%8E%BB%E7%92%83%E7%9B%B4%E5%86%B7%E5%BC%8F%E9%9B%99%E9%96%80%E5%86%B0%E7%AE%B1-SR-F12GD-%E5%90%AB%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-%E8%88%8A%E6%A9%9F%E5%9B%9E%E6%94%B6-12028482.html",
     "specs": [
       "冰箱：SAMPO聲寶 117L星漾美滿上冷藏下冷凍變頻玻璃直冷式雙門冰箱 SR-F12GD 含基本安裝+舊機回收",
@@ -1363,7 +1369,8 @@
       "currency": "TWD",
       "amount": 12511,
       "converted": 12511,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價",
+      "note": "2026-11-01 Yahoo選定原商品頁顯示已停售，零售下架不等同原廠整型停產；不採頁面殘留價格更新，保留原參考價及待查通路。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1466,7 +1473,8 @@
       "currency": "TWD",
       "amount": 9499,
       "converted": 9499,
-      "confidence": "Yahoo購物中心 2026-09-14 exact-model 公開結構化價格"
+      "confidence": "Yahoo購物中心 2026-09-14 exact-model 公開結構化價格",
+      "note": "2026-11-01 Yahoo選定原商品頁顯示已停售，零售下架不等同原廠整型停產；不採頁面殘留價格更新，保留原參考價及待查通路。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1672,7 +1680,8 @@
       "currency": "TWD",
       "amount": 17910,
       "converted": 17910,
-      "confidence": "Yahoo購物中心 2026-10-20 exact-model 公開結構化價格"
+      "confidence": "Yahoo購物中心 2026-10-20 exact-model 公開結構化價格",
+      "note": "2026-11-01 Yahoo選定同型原主頁明示已售完／貨到通知，未採畫面報價作可購現價；原參考價保留，不能推定原廠停產。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -2487,11 +2496,11 @@
     "name": "614 公升日製六門琉璃變頻冰箱",
     "price": {
       "currency": "TWD",
-      "amount": 80600,
-      "converted": 80600,
-      "confidence": "2026-10-24人工核對pxbox.es.pxmart.com.tw同型號同版本公開TWD 80600；未扣個人化券、信用卡或點數。",
+      "amount": 78900,
+      "converted": 78900,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "未扣另列再折回饋600、折價券100或全支付福利點；大家電由專人聯繫約配，未下單。"
+      "note": "2026-11-01 全聯線上同型RHW620YJ主商品78900元、87900為原價，同商品結構化InStock；約配大家電由專人確認配送，不扣1222回饋。"
     },
     "image": "https://b2eimg.pxec.com.tw/PX-PROD/Vendor/200290/a7bf9af630504e6aae7f3048b0b2ff2f",
     "buyUrl": "https://pxbox.es.pxmart.com.tw/product/803424",
@@ -2706,10 +2715,11 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 66000,
-      "converted": 66000,
-      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "basis": "retailer_current"
+      "amount": 64515,
+      "converted": 64515,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 PChome主商品API商品ID DPAC34-A900KEBDC 相符，原標題「MITSUBISHI 三菱電機543公升變頻SMART AI日本製六門電冰箱MR-WZ54N-W-C星光白 MITSUBISHI 三菱電機543公升變頻SMART AI日本製六門電冰箱MR-WZ54N-W-C星光白」，Qty=5，公開折扣／主價 64515 元（網路價64515；Price.Low=無）；未扣券、回饋或點數。 同輪原商品HTML價格與可購入口已核對。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DPAC34A900KEBDC/000001_1788243890.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAC34-A900KEBDC",
@@ -3279,10 +3289,11 @@
     "name": "Panasonic NR-C387HVLS-C 385L 3門霧面鋼板變頻冰箱（暖灰米／左開）",
     "price": {
       "currency": "TWD",
-      "amount": 34000,
-      "converted": 34000,
+      "amount": 29240,
+      "converted": 29240,
       "basis": "retailer_current",
-      "confidence": "2026-10-20 Chrome原始商品頁核對；公開數字現價，已選暖米灰(C)、庫存低於5組、直接購買與放入購物車可用"
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-01 momo15801630 NR-C387HVLS同商品冰霧銀／暖米灰均顯示29240元，10/31 22:00–11/02 05:00限時折後價，折前34000；含標準安裝、庫存低於5組，約配。"
     },
     "image": "https://i4.momoshop.com.tw/1792049388/goodsimg/0015/801/630/15801630_R_m.webp",
     "buyUrl": "https://www.momoshop.com.tw/product/15801630",

@@ -991,11 +991,11 @@
     "name": "儲熱式溫水洗淨便座含原廠基本安裝",
     "price": {
       "currency": "TWD",
-      "amount": 6090,
-      "converted": 6090,
-      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "amount": 5999,
+      "converted": 5999,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 DL-F610RTWS含原廠基本安裝主商品6090，非贈品刀組；PChome倉庫24小時到貨。"
+      "note": "2026-11-01 PChome主商品API商品ID DMAL8L-A900GH6F4 相符，原標題「Panasonic國際牌儲熱式洗淨便座 DL-F610RTWS Panasonic 國際 儲熱式溫水洗淨便座DL-F610RTWS(含原廠基本安裝)」，Qty=20，公開折扣／主價 5999 元（網路價6090；Price.Low=5999）；未扣券、回饋或點數。 同輪HTML為HTTP429；以本輪可信商品API逐筆核對，保留HTML讀取限制，不推定停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAL8LA900GH6F4/000001_1724400418.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAL8L-A900GH6F4",
@@ -1866,9 +1866,11 @@
     "name": "Bidet Toilet Seat",
     "price": {
       "currency": "USD",
-      "amount": 383.99,
-      "converted": 12525,
-      "confidence": "Brondell US 官方 2026-08-28 exact-model 公開特價；ExchangeRate-API 2026-10-31 匯率換算"
+      "amount": 479.99,
+      "converted": 15657,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 Brondell美國官方新品CL1700主商品Current Price USD479.99，主商品BCData為instock:true/purchasable:true；未由首頁20%banner推定此SKU另享折扣，排除Open-Box299.99。 海外參考；未含國際運費、進口稅、電壓／插頭與台灣保固風險。"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/k83n76pfjhvqcf9gfrz74sx/1432187-847__1?auto=webp&format=jpg",
     "buyUrl": "https://www.brondell.com/swash-cl1700-advanced-bidet-seat/",
@@ -1965,10 +1967,11 @@
     "name": "E-Bidet 微電腦洗淨便座（除臭／烘乾）",
     "price": {
       "currency": "TWD",
-      "amount": 19232,
-      "converted": 19232,
-      "confidence": "momo購物 2026-08-20 exact-model 公司貨新品頁現價",
-      "basis": "retailer_current"
+      "amount": 17501,
+      "converted": 17501,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 momo14229297 CW-RL31-TW/BW1原選定110V款單件91折17501元，折前19232元；可購約配、明示不含安裝。"
     },
     "image": "https://i1.momoshop.com.tw/1752761457/goodsimg/0014/229/297/14229297_R_m.webp",
     "buyUrl": "https://www.momoshop.com.tw/product/14229297",

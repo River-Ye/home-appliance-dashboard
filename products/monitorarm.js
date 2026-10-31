@@ -314,10 +314,11 @@
     "name": "27KG 57 吋鋁合金氣壓式螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 3099,
-      "converted": 3099,
-      "confidence": "2026-10-24人工核對www.momoshop.com.tw同型號同版本公開TWD 3099；未扣個人化券、信用卡或點數。",
-      "basis": "retailer_current"
+      "amount": 2634,
+      "converted": 2634,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 原生Chrome主品號13989541、T101-12U57吋27kg、限時折後2634、促銷3099、滿1件85折11/01、庫存低於5、直接購買/加車。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBB69A900INQG2/000001_1745485048.jpg",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=13989541",
@@ -1107,10 +1108,11 @@
     "name": "LX Pro 桌上型單螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 6200,
-      "converted": 6200,
-      "confidence": "2026-10-24 人工核對 www.momoshop.com.tw 同型號與所選版本公開價 TWD 6200，可下單；未扣會員、信用卡或點數。",
-      "basis": "retailer_current"
+      "amount": 6800,
+      "converted": 6800,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 原生Chrome主品號15317771、LX Pro黑/白、促銷6800、市售7000、數量1–20、10年保固、直接購買/放入購物車、預計11/02出貨。"
     },
     "image": "https://cs-a.ecimg.tw/items/DGBJPWA900IO3XY/000001_1745568644.jpg",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15317771",

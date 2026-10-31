@@ -329,11 +329,11 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/16E678AC30-SP-17622644.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 12490,
-      "converted": 12490,
-      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "amount": 11111,
+      "converted": 11111,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 原頁同型號主商品公開價格12490元；不扣會員券、信用卡、點數、贈品或相關商品價格。銷售／交期以原通路為準。"
+      "note": "2026-11-01 人工逐筆核對PChome原產品API：Whirlpool惠而浦 10公斤溫水洗脫烘滾筒洗衣機 WEHC10BBS；Price.Low=11111元，Qty=20，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -435,11 +435,11 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/DF4F3C1217-SP-22420772.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 18507,
-      "converted": 18507,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "amount": 17577,
+      "converted": 17577,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。 公開活動滿1件享93折，有效至2026-12-31T23:59:59+08:00。"
+      "note": "2026-11-01 Yahoo所選同型號主購買區公開價17577元，可訂購；由廠商聯絡約定送貨時間，交期未確認。不扣個人券、信用卡、點數及贈品。公開單件活動有效至2026-12-31T23:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -645,9 +645,11 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/88F364AB6B-SP-11096810.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 29900,
-      "converted": 29900,
-      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 29811,
+      "converted": 29811,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 人工逐筆核對PChome原產品API：【LG 樂金】 WiFi滾筒洗衣機(蒸洗脫烘) 冰磁白 / 13公斤 WD-S13VDW；Price.P=29811元，Qty=17，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -749,11 +751,11 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/1f2a33ce70-Gd-10053955.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 43563,
-      "converted": 43563,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "amount": 42583,
+      "converted": 42583,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。 公開活動滿1件享97折，有效至2026-11-02T08:29:59+08:00。"
+      "note": "2026-11-01 Yahoo所選同型號主購買區公開價42583元，可訂購；由廠商聯絡約定送貨時間，交期未確認。不扣個人券、信用卡、點數及贈品。公開單件活動有效至2026-11-02T08:29:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1271,11 +1273,11 @@
     "image": "https://cs-a.ecimg.tw/items/DPAI1HA900AMJJK/000001_1761009175.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 22410,
-      "converted": 22410,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "amount": 21414,
+      "converted": 21414,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-27 PChome原頁同型號NA-V120HDH主商品折扣價22410元，國際牌原廠直營10/01–11/30任選1件9折；可立即購買／加入購物車，未扣折價券、點數或信用卡回饋。"
+      "note": "2026-11-01 人工逐筆核對PChome原產品API：Panasonic國際牌 變頻12公斤洗脫烘滾筒洗衣機 NA-V120HDH-G；Price.Low=21414元，Qty=20，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1485,11 +1487,11 @@
     "image": "https://cs-a.ecimg.tw/items/DPAI1PA900F1KXB/000001_1762877683.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 35910,
-      "converted": 35910,
-      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "amount": 32900,
+      "converted": 32900,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
+      "note": "2026-11-01 人工逐筆核對PChome原產品API：Whirlpool惠而浦 15公斤洗脫烘滾筒洗衣機 8TWFC6810LW；Price.P=32900元，Qty=2，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -2410,10 +2412,11 @@
       "currency": "TWD",
       "amount": 86900,
       "converted": 86900,
-      "confidence": "全聯全電商 2026-07-18 exact-model 公開現貨價"
+      "confidence": "全聯全電商 2026-07-18 exact-model 公開現貨價",
+      "note": "2026-11-01 原全聯WD-S1818PB連結回覆spu_has_ended，現價與可購未確認；保留86900元舊參考價，無官方整型停產正證。"
     },
     "channel": "tw",
-    "buyLabel": "全聯全電商",
+    "buyLabel": "全聯（原頁失效，現價待確認）",
     "buyUrl": "https://pxbox.es.pxmart.com.tw/product/772533",
     "specs": [
       "WashTower 一體式上下雙筒，可同步洗衣與乾衣",
@@ -2514,9 +2517,11 @@
     "image": "https://img.pchome.com.tw/cs/items/DPAI1LA900IXKBU/000007_1752484626.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 92900,
-      "converted": 92900,
-      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 88111,
+      "converted": 88111,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 人工逐筆核對PChome原產品API：LG樂金 22公斤+20公斤 WashTower AI 智控熱泵除濕洗乾衣機WD-S2220B(尊爵黑)；Price.P=88111元，Qty=5，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -2722,10 +2727,10 @@
     "image": "https://pstw.panasonic.com.tw/shop/Upload/Product/20260514190222S44S2J5E.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 40410,
-      "converted": 40410,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27 PChome原頁同型號NA-SD10TB主商品折扣價40410元，國際牌原廠直營10/01–11/30任選1件9折；可立即購買／加入購物車，未扣折價券、點數或信用卡回饋。",
+      "amount": 38614,
+      "converted": 38614,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-01 人工逐筆核對PChome原產品API：Panasonic國際牌 10.5公斤日本製低溫柔護烘乾洗脫烘滾筒洗衣機NA-SD10TB(雪霧白)；Price.Low=38614元，Qty=20，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -2939,11 +2944,12 @@
       "amount": 55990,
       "converted": 55990,
       "confidence": "2026-08-31 人工核對 myfone 商品P0000203670244，Panasonic NA-V170RPH-K 夜幕黑網路限定價 NT$55,990，含基本定位安裝；額外施工與搬運依通路規則。未採白色款或定價。",
-      "basis": "retailer_current"
+      "basis": "retailer_current",
+      "note": "2026-11-01 myfone所選NA-V170RPH-K商品55990元但主商品schema OutOfStock，不能由推薦區或泛用加車模板推現貨；保留55990元參考價。"
     },
     "image": "https://www.myfone.com.tw/website_twmf/uploads_product/website_2041/036/699/ECP0204103669957_1_20458150.jpg",
     "buyUrl": "https://www.myfone.com.tw/mfo/buy/prod/P0000203670244",
-    "buyLabel": "myfone 購物",
+    "buyLabel": "myfone（缺貨，現價待確認）",
     "installation": {
       "status": "included_basic",
       "note": "myfone exact-model 頁明載含配送、基本安裝與舊機回收；僅限台灣本島，偏遠地區、無電梯樓層與超出原廠附件的拉線／換插座等施工另計，並建議搬運通道至少比機身寬 10–15cm。"

@@ -446,9 +446,11 @@
     "name": "Philips 飛利浦 EP3347/84 LatteGo 雙溫萃取全自動義式咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 25900,
-      "converted": 25900,
-      "confidence": "www.elifemall.com.tw 2026-09-06 exact-model 公開新品價人工覆核"
+      "amount": 26550,
+      "converted": 26550,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 全國電子2149579 exact EP3347/84（金）主價26550元、31900為原價，原頁加入購物車／直接購買，出貨天數3工作日。"
     },
     "image": "https://images.philips.com/is/image/philipsconsumer/vrs_635dc934_7995_4bd3_9be963f05e9b68b4?$pnglarge$",
     "buyUrl": "https://www.elifemall.com.tw/product/2149579",
@@ -660,9 +662,11 @@
     "name": "De'Longhi ECAM290.43.SB Magnifica Evo 全自動義式咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 25900,
-      "converted": 25900,
-      "confidence": "2026-10-24 人工核對 www.idelonghi.com.tw 同型號與所選版本公開價 TWD 25900，可下單；未扣會員、信用卡或點數。"
+      "amount": 23900,
+      "converted": 23900,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 DeLonghi台灣官方ECAM29043SB原SKU主價23900元、InStock；未以同頁推薦ECAM290.84.SB混價。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAT03A900GX8R8/000007_1700470715.jpg",
     "buyUrl": "https://www.idelonghi.com.tw/ja/products/ecam29043",
@@ -1411,10 +1415,10 @@
     "name": "Saeco 半自動義式咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 4990,
-      "converted": 4990,
-      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
-      "note": "2026-10-31 Yahoo同型主商品公開4990元可購；先前滿額92折已於07:59:59到期，今原頁無此折扣，不延用4591元。",
+      "amount": 4591,
+      "converted": 4591,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-01 Yahoo EMS5110/02原主商品4591元可購，單機4990已達滿888享92折；此為11/01 01:30重新開始的公開活動，非沿用到期舊活動，截止11/02 07:59:59+08。",
       "basis": "retailer_current"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/69fb8a2ae4-Gd-11322933.jpg",
@@ -1736,11 +1740,11 @@
     "name": "the Bambino 半自動義式咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 12800,
-      "converted": 12800,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "amount": 8500,
+      "converted": 8500,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 所選momo原頁仍明示11/1 00:00開賣，預告價不當作可購現價；保留原參考價，待開賣後重查。"
+      "note": "2026-11-01 momo14547707金屬銀BES450XL已開賣，主價8500元、數量1–20、原生瀏覽器立即購買／加車可見；訂單確認後預計11/02出貨、保固1年。"
     },
     "image": "https://storage.googleapis.com/uni-splendor.appspot.com/images/p/4ef71aab-221e-42be-80b7-67676515bb0d.png",
     "buyUrl": "https://www.momoshop.com.tw/product/14547707",
@@ -2170,9 +2174,11 @@
     "name": "La Specialista Arte Evo 半自動義式咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 27900,
-      "converted": 27900,
-      "confidence": "2026-10-24 人工核對 www.stilusa.com.tw 同型號與所選版本公開價 TWD 27900，可下單；未扣會員、信用卡或點數。"
+      "amount": 25900,
+      "converted": 25900,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 DeLonghi台灣官方選定EC9255M／EC9255MEX2主商品25900元，原頁同SKU結構化InStock；未採其他推薦型號或會員點數。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAT03A900K4F0K/000007_1781601666.jpg",
     "buyUrl": "https://www.stilusa.com.tw/zh-TW/products/ec9255m",
@@ -2277,11 +2283,11 @@
     "name": "the Barista Pro 專業級複合式研磨義式咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 32000,
-      "converted": 32000,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "amount": 28500,
+      "converted": 28500,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 所選momo原頁仍明示11/1 00:00開賣，預告價不當作可購現價；保留原參考價，待開賣後重查。"
+      "note": "2026-11-01 momo14956869雪花白BES878XL已開賣，主價28500元、數量1–18、原生瀏覽器立即購買／加車可見；訂單確認後預計11/02出貨、保固1年。"
     },
     "image": "https://storage.googleapis.com/uni-splendor.appspot.com/images/p/6cf71d58-a653-465a-a6c3-7089f7f37314.png",
     "buyUrl": "https://www.momoshop.com.tw/product/14956869",

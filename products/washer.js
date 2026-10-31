@@ -119,11 +119,11 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/2E9A754FA4-SP-22052141.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 19900,
-      "converted": 19900,
-      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "amount": 18811,
+      "converted": 18811,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
+      "note": "2026-11-01 Yahoo所選同型號主購買區公開價18811元，可訂購；由廠商聯絡約定送貨時間，交期未確認。不扣個人券、信用卡、點數及贈品。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -225,11 +225,11 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/7A7EBA14D6-SP-22052251.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 20900,
-      "converted": 20900,
-      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "amount": 20811,
+      "converted": 20811,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
+      "note": "2026-11-01 Yahoo所選同型號主購買區公開價20811元，可訂購；由廠商聯絡約定送貨時間，交期未確認。不扣個人券、信用卡、點數及贈品。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1070,9 +1070,11 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/ce2bc90225-Gd-9291102.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 5714,
-      "converted": 5714,
-      "confidence": "Yahoo購物中心 2026-10-24 exact-model 公開結構化價格"
+      "amount": 5346,
+      "converted": 5346,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 Yahoo所選同型號主購買區公開價5346元，可訂購；由廠商聯絡約定送貨時間，交期未確認。不扣個人券、信用卡、點數及贈品。公開單件活動有效至2026-11-02T08:29:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1695,9 +1697,11 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/96ae4ce455-Gd-7966505.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 17250,
-      "converted": 17250,
-      "confidence": "2026-10-24人工核對www.momoshop.com.tw同型號同版本公開TWD 17250；未扣個人化券、信用卡或點數。"
+      "amount": 17420,
+      "converted": 17420,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 momo 所選SW-13DVGS主商品17420元，數量1至3且可直接購買，含標準安裝；偏遠、跨區與特殊施工可能加價，交期由廠商聯繫。"
     },
     "channel": "tw",
     "buyLabel": "momo購物",
@@ -2410,9 +2414,11 @@
     "name": "16 公斤 Bespoke AI 智慧控制直立洗衣機",
     "price": {
       "currency": "TWD",
-      "amount": 17900,
-      "converted": 17900,
-      "confidence": "momo購物 2026-08-06 exact-model JSON-LD 與 meta 公開價 NT$17,900"
+      "amount": 13674,
+      "converted": 13674,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 momo 所選WA80F16B9BTW主商品單件86折後13674元，折前15900；可選數量1，含標準安裝，配送由專人約定；非推薦區其他型號價格。"
     },
     "image": "https://images.samsung.com/is/image/samsung/p6pim/tw/wa80f16b9btw/gallery/tw-wa80f25-wa80f16b9btw-547168133?$1164_776_PNG$",
     "buyUrl": "https://www.momoshop.com.tw/product/14090998",

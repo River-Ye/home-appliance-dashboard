@@ -216,7 +216,8 @@
       "currency": "TWD",
       "amount": 22406,
       "converted": 22406,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價",
+      "note": "2026-11-01 Yahoo選定原商品頁顯示已停售，零售下架不等同原廠整型停產；不採頁面殘留價格更新，保留原參考價及待查通路。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ02A900IXED0/000001_1749708993.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic%E5%9C%8B%E9%9A%9B%E7%89%8C30%E5%85%AC%E5%8D%87%E8%92%B8%E6%B0%A3%E7%83%98%E7%83%A4%E6%B0%B4%E6%B3%A2%E7%88%90%E5%BE%AE%E6%B3%A2%E7%88%90NN-BS807-9823005.html",
@@ -312,9 +313,11 @@
     "name": "30L Healsio 炙燒水波爐",
     "price": {
       "currency": "TWD",
-      "amount": 28800,
-      "converted": 28800,
-      "confidence": "Yahoo購物中心 2026-07-27 exact-model 公開結構化價格"
+      "amount": 24900,
+      "converted": 24900,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 Yahoo AX-XP10T主商品24900元可購，未將登錄贈品或會員回饋扣價。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ021900I5KFC/000001_1779346148.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SHARP%E5%A4%8F%E6%99%AE-HEALSIO-%E6%97%97%E8%89%A6%E6%B0%B4%E6%B3%A2%E7%88%90-AX-XP10T-12039766.html",
@@ -349,16 +352,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 25392,
+      "amount": 24900,
       "currency": "TWD",
-      "converted": 25392,
+      "converted": 24900,
       "sourceUrl": "https://tw.buy.yahoo.com/gdsale/SHARP%E5%A4%8F%E6%99%AE-HEALSIO-%E6%97%97%E8%89%A6%E6%B0%B4%E6%B3%A2%E7%88%90-AX-XP10T-12039766.html",
-      "sourceTitle": "Yahoo購物中心 商品頁：30L Healsio 炙燒水波爐（AX-XP10T）",
-      "evidenceSnippet": "Yahoo購物中心 同型號新品頁於 2026-07-14 顯示公開售價 NT$25,392，低於原先記錄史低。",
+      "sourceTitle": "Yahoo購物中心：SHARP夏普 HEALSIO 旗艦水波爐 AX-XP10T | 蒸氣烘烤微波爐 | Yahoo購物中心",
+      "evidenceSnippet": "Yahoo購物中心於 2026-11-01 顯示同型號可信新品公開價 NT$24,900，低於既有史低 NT$25,392。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-14",
-      "note": "採用同型號新品頁可公開查核售價作為本次觀測到的最低價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
+      "checkedAt": "2026-11-01",
+      "note": "採用 Yahoo購物中心當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1107,9 +1110,11 @@
     "name": "AIoT 智慧連網 30L 水波爐蒸氣烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 41900,
-      "converted": 41900,
-      "confidence": "Yahoo購物中心 2026-10-19 exact-model 公開結構化價格"
+      "amount": 36800,
+      "converted": 36800,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 Yahoo AX-XW10T主商品36800元可購，同型原商品而非推薦商品。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900G41CW/000001_1780306175.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SHARP-%E5%A4%8F%E6%99%AE-30L-Healsio-AIoT%E6%99%BA%E6%85%A7%E9%80%A3%E7%B6%B2%E6%B0%B4%E6%B3%A2%E7%88%90-AX-XW10T-11978312.html",
@@ -1303,9 +1308,11 @@
     "name": "31L 極智烘烤系列水波爐",
     "price": {
       "currency": "TWD",
-      "amount": 24900,
-      "converted": 24900,
-      "confidence": "Yahoo購物中心 2026-07-27 exact-model 公開結構化價格"
+      "amount": 22900,
+      "converted": 22900,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 Yahoo AX-XS10T主商品22900元可購，保留黑／白同型版本邊界。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ0RA900JT4ZV/000001_1781238451.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SHARP-%E5%A4%8F%E6%99%AE-31L-%E6%A5%B5%E6%99%BA%E7%83%98%E7%83%A4%E7%B3%BB%E5%88%97%E6%B0%B4%E6%B3%A2%E7%88%90-AX-XS10T-B-AX-XS10T-W-12030496.html",
@@ -1403,7 +1410,8 @@
       "currency": "TWD",
       "amount": 14852,
       "converted": 14852,
-      "confidence": "Yahoo購物中心 2026-07-21 頁面公開價"
+      "confidence": "Yahoo購物中心 2026-07-21 頁面公開價",
+      "note": "2026-11-01 Yahoo選定同型原主頁明示已售完／貨到通知，未採畫面報價作可購現價；原參考價保留，不能推定原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ6QA900EO9M8/000001_1716271473.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool%E6%83%A0%E8%80%8C%E6%B5%A6-32%E5%85%AC%E5%8D%87%E7%8D%A8%E7%AB%8B%E5%BC%8F%E8%92%B8%E7%83%A4%E7%88%90-WSO322EB-9918064.html",
@@ -2297,11 +2305,12 @@
       "amount": 399.99,
       "converted": 13047,
       "confidence": "2026-08-31 人工核對 SharkNinja 美國官方 MW101 公開可購主價 USD 399.99；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-10-31 匯率換算",
-      "basis": "retailer_current"
+      "basis": "retailer_current",
+      "note": "2026-11-01 Ninja美國MW101 Silver主頁標349.99美元但動態購買區實際endpoint明示Notify me／Out of Stock，與靜態InStock衝突；不採為可購現價，保留舊399.99美元參考。 海外參考；未含國際運費、進口稅、電壓／插頭與台灣保固風險。"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/MW101_01.jpg",
     "buyUrl": "https://www.sharkninja.com/ninja-crispi-microwave/MW101.html",
-    "buyLabel": "SharkNinja 美國官方",
+    "buyLabel": "海外缺貨／到貨通知",
     "specs": [
       "5.5qt（約 5.2L）CleanCrisp 玻璃籃，約 8–10 人份",
       "1000W 微波 + 1700W 氣炸／對流，最高 450°F",
@@ -2703,7 +2712,7 @@
     "converted": 36900,
     "basis": "retailer_current",
     "confidence": "2026-10-31 人工讀全國電子2166309原主頁及原生Chrome可訂購按鈕，採主商品公開標價；活動最終結帳金額未驗證。",
-    "note": "2026-10-31 全國電子NN-BS10EK主商品公開標價36900元；可訂購但頁內「預購商品10月中陸續出貨」與「出貨天數3個工作日」並存，實際供貨交期待確認。原頁另列9–10月廚房小家電每滿10000元折1010元活動，活動頁列2026/9/1–10/31；最終折後金額與運送條件依原通路結帳確認，未扣會員券、信用卡、點數或贈品。"
+    "note": "2026-11-01 全國電子2166309 NN-BS10EK主價36900元、可訂購；原頁仍並列舊「預購商品10月中陸續出貨」與「出貨天數3工作日」，實際交期需確認。9–10月每滿10000折1010活動已過期且本輪主頁不再顯示，不延用推算價。"
   },
   "installation": {
     "status": "not_stated",

@@ -116,9 +116,11 @@
     "name": "65 型 S90F OLED 4K 智慧顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 46900,
-      "converted": 46900,
-      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 50900,
+      "converted": 50900,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 人工逐筆核對PChome原產品API：Samsung三星65型 OLED 4K Vision AI智慧顯示器65S90F(QA65S90FAEXZW)；Price.P=50900元，Qty=2，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADEW1900K4WRT/000001_1782056882.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADEW-A900IUE7F",
@@ -523,9 +525,11 @@
     "name": "65 型 S95H OLED 4K Vision AI 智慧顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 109900,
-      "converted": 109900,
-      "confidence": "PChome 2026-07-16 API 公開價"
+      "amount": 102900,
+      "converted": 102900,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 人工逐筆核對PChome原產品API：(P幣回饋) SAMSUNG 三星 65吋 QA65S95HAXXZW OLED 4K Vision AI 智慧顯示器；Price.Low=102900元，Qty=1，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DPADO2A900K6OWZ/000001_1783614430.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADO2-A900K6OWZ",
@@ -562,16 +566,16 @@
     "releaseDate": "2026-06-08",
     "historicalLow": {
       "status": "found",
-      "amount": 109900,
+      "amount": 102900,
       "currency": "TWD",
-      "converted": 109900,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1284236737&cgp=109900",
-      "sourceTitle": "LBJ 歷史價格：Samsung QA65S95HAXXZW OLED 4K Vision AI 智慧顯示器",
-      "evidenceSnippet": "LBJ 的 PChome 同型號價格歷史於 2026-06-16、07-07、07-16 均記錄 NT$109,900。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-16",
-      "note": "採完全相同台灣型號新品公開價；未扣除信用卡、點數或會員回饋。"
+      "converted": 102900,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DPADO2-A900K6OWZ",
+      "sourceTitle": "PChome 24h 購物：(P幣回饋) SAMSUNG 三星 65吋 QA65S95HAXXZW OLED 4K Vision AI 智慧顯示器",
+      "evidenceSnippet": "PChome 24h 購物於 2026-11-01 顯示同型號可信新品公開價 NT$102,900，低於既有史低 NT$109,900。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-11-01",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2518,9 +2522,11 @@
     "name": "65 型 R95H Micro RGB 4K Vision AI 智慧顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 106900,
-      "converted": 106900,
-      "confidence": "PChome 2026-07-18 API 公開價"
+      "amount": 99900,
+      "converted": 99900,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 人工逐筆核對PChome原產品API：SAMSUNG 三星 MRA65R95HAXXZW Micro RGB 4K Vision AI 智慧顯示器；Price.Low=99900元，Qty=2，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADO2A900K3VO9/000001_1783567837.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADO2-A900K3VO9",
@@ -3034,11 +3040,12 @@
       "currency": "TWD",
       "amount": 19710,
       "converted": 19710,
-      "confidence": "全聯全電商 2026-07-26 exact-model 公開價，頁面結構化資料顯示 InStock"
+      "confidence": "全聯全電商 2026-07-26 exact-model 公開價，頁面結構化資料顯示 InStock",
+      "note": "2026-11-01 原全聯EM-70RF130連結回覆spu_has_ended；PChome四個替代PID之API皆無商品，不採搜尋摘要舊價。另查momo TP00079550001128公開21900元可訂、頁示1年保固/標準安裝，但未完成相同地區版本電力與既有3年保固的對齊，先保留19710元舊參考價與待確認連結。"
     },
     "image": "https://b2eimg.pxec.com.tw/00436932/256f3e4f2c5144148f03302472792872.jpg",
     "buyUrl": "https://pxbox.es.pxmart.com.tw/product/667166",
-    "buyLabel": "全聯全電商",
+    "buyLabel": "全聯（原頁失效，現價待確認）",
     "specs": [
       "尺寸：查不到",
       "重量：含底座 20.35 kg",
@@ -3750,11 +3757,11 @@
     "name": "65 型 S90H OLED 4K Samsung Vision AI 智慧顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 80900,
-      "converted": 80900,
-      "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "amount": 78900,
+      "converted": 78900,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
+      "note": "2026-11-01 Yahoo所選同型號主購買區公開價78900元，可訂購；由廠商聯絡約定送貨時間，交期未確認。不扣個人券、信用卡、點數及贈品。"
     },
     "installation": {
       "status": "included_basic",
@@ -3952,11 +3959,11 @@
     "name": "65 型 S-960 Mini LED 量子點 144Hz 遊戲 Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 44900,
-      "converted": 44900,
+      "amount": 37111,
+      "converted": 37111,
       "basis": "retailer_current",
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-28晚間原頁覆核：S65-960主商品公開價44900TWD，本輪原頁可加入購物車；主商品價與舊參考一致，未套用相關商品或回饋。不含個人券、點數或信用卡回饋。"
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-01 人工逐筆核對PChome原產品API：BenQ 65型 Mini LED量子點遊戲Google TV S65-960；Price.Low=37111元，Qty=20，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
     },
     "installation": {
       "status": "not_stated",
@@ -4147,11 +4154,11 @@
     "name": "75 吋 X11L SQD-Mini LED 4K Google TV 旗艦顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 164990,
-      "converted": 164990,
+      "amount": 148491,
+      "converted": 148491,
       "basis": "retailer_current",
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
-      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-01 人工逐筆核對PChome原產品API：TCL 75吋 X11L 頂級 SQD-Mini LED 量子智能連網液晶顯示器(75X11L)；Price.Low=148491元，Qty=3，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
     },
     "installation": {
       "status": "included_basic",

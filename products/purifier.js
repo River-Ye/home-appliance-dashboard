@@ -17,11 +17,11 @@
     "name": "5-10 坪綠淨力玩美雙禦空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 5900,
-      "converted": 5900,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "amount": 4761,
+      "converted": 4761,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
+      "note": "2026-11-01 人工逐筆核對PChome原產品API：Coway 綠淨力玩美雙禦空氣清淨機 AP-1019C 純淨白；Price.Low=4761元，Qty=8，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3EA900AU9PA/000001_1782107657.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU3E-A900AU9PA",
@@ -111,11 +111,11 @@
     "name": "14-29 坪智能 Wi-Fi 空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 9990,
-      "converted": 9990,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "amount": 8791,
+      "converted": 8791,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
+      "note": "2026-11-01 人工逐筆核對PChome原產品API：Blueair BlueMax空氣清淨機3450i；Price.Low=8791元，Qty=8，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAUE4A900I5SSZ/000001_1780654673.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUE4-A900I5SSZ",
@@ -305,11 +305,11 @@
     "name": "17 坪 360 度高效過濾空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 7411,
-      "converted": 7411,
-      "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "amount": 6151,
+      "converted": 6151,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
+      "note": "2026-11-01 人工逐筆核對PChome原產品API：【飛利浦 PHILIPS】奈米級空氣清淨機 AC2936；Price.Low=6151元，Qty=20，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900GH5RL/000001_1781800112.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAC2O-A900GH5RL",
@@ -499,11 +499,11 @@
     "name": "ClassicPro CP9i 空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 26990,
-      "converted": 26990,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "amount": 23751,
+      "converted": 23751,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
+      "note": "2026-11-01 人工逐筆核對PChome原產品API：Blueair ClassicPro空氣清淨機CP9i(最大適用41坪)；Price.Low=23751元，Qty=9，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAUE4A900IJCAP/000001_1780654528.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUE4-A900IJCAP",
@@ -597,11 +597,11 @@
     "name": "Blue Signature SP4i 極夜藍空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 19990,
-      "converted": 19990,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "amount": 17591,
+      "converted": 17591,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
+      "note": "2026-11-01 人工逐筆核對PChome原產品API：Blueair Blue Signature空氣清淨機SP4i-極夜藍(L)；Price.Low=17591元，Qty=4，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAUE4A900J9KNK/000001_1780654611.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUE4-A900J9KNK",
@@ -695,11 +695,11 @@
     "name": "BlueMax 智能 WiFi 空氣清淨機 3250i",
     "price": {
       "currency": "TWD",
-      "amount": 4990,
-      "converted": 4990,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "amount": 4391,
+      "converted": 4391,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
+      "note": "2026-11-01 人工逐筆核對PChome原產品API：Blueair BlueMax空氣清淨機3250i；Price.Low=4391元，Qty=10，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAUE4A900I7DJ1/000001_1780654701.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUE4-A900I7DJ1",
@@ -793,11 +793,11 @@
     "name": "BlueMax 智能 WiFi 空氣清淨機 3350i",
     "price": {
       "currency": "TWD",
-      "amount": 7990,
-      "converted": 7990,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "amount": 7031,
+      "converted": 7031,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
+      "note": "2026-11-01 人工逐筆核對PChome原產品API：Blueair BlueMax空氣清淨機3350i；Price.Low=7031元，Qty=4，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAUE4A900I7DN1/000001_1780654653.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUE4-A900I7DN1",
@@ -891,11 +891,11 @@
     "name": "ComfortPure 智能三合一涼暖空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 17990,
-      "converted": 17990,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "amount": 15831,
+      "converted": 15831,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
+      "note": "2026-11-01 人工逐筆核對PChome原產品API：Blueair ComfortPure智能三合一涼暖空氣清淨機T20i(17坪)；Price.Low=15831元，Qty=5，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAUE4A900J40NE/000001_1780654570.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUE4-A900J40NE",
@@ -1088,12 +1088,12 @@
       "amount": 24900,
       "converted": 24900,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
-      "note": "2026-10-31 Dyson官方HP12白金單機特價24900元；主購買區明示預購、預計2026/11/03出貨。29900元是原價，1888元濾網與延長保固另購，不扣領券。",
+      "note": "2026-11-01 Dyson官方HP12白金所選單機特價24900元，29900是原價；本次原主購買區可加車，已無舊11/03預購日，實際交期仍向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3CA900I7ORK/000001_1782810487.jpg",
     "buyUrl": "https://shop.dyson.tw/fans-and-heaters/air-purifier-heaters/dyson-purifier-hot-cool-de-nox-purifying-fan-heater-white-gold-546388-01",
-    "buyLabel": "Dyson 官方（預購，預計11/03）",
+    "buyLabel": "Dyson 官方（交期請確認）",
     "specs": [
       "涼暖二合一",
       "甲醛/NOx 偵測",
@@ -1377,11 +1377,11 @@
     "name": "奈米級空氣清淨機 MUJI AC0650",
     "price": {
       "currency": "TWD",
-      "amount": 4640,
-      "converted": 4640,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "amount": 4141,
+      "converted": 4141,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
+      "note": "2026-11-01 人工逐筆核對PChome原產品API：【飛利浦 PHILIPS】奈米級空氣清淨機-MUJI AC0650；Price.Low=4141元，Qty=20，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900GD1ZV/000001_1781800174.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAC2O-A900GD1ZV",
@@ -1765,11 +1765,11 @@
     "name": "寵物抗敏空氣清淨機輕量版",
     "price": {
       "currency": "TWD",
-      "amount": 10220,
-      "converted": 10220,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "amount": 9121,
+      "converted": 9121,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
+      "note": "2026-11-01 人工逐筆核對PChome原產品API：【Philips 飛利浦】寵物抗敏空氣清淨機 (輕量版) AC3360/80；Price.Low=9121元，Qty=20，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900J7SBO/000001_1781799851.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAC2O-A900J7SBO",
@@ -1802,16 +1802,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 9618,
+      "amount": 9121,
       "currency": "TWD",
-      "converted": 9618,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=643293860&cgp=10990",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【PHILIPS 飛利浦】毛小奈Lite空氣清淨機★適用13-15坪(AC3360/80)+贈濾網 | 清淨",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - Philips 飛利浦家電旗艦館 / 【PHILIPS 飛利浦】毛小奈Lite空氣清淨機★適用13-15坪(AC3360/80)+贈濾網 | 清淨」最低價為 NT$9,618，最低點日期 2026-06-10。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 9121,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMAC2O-A900J7SBO",
+      "sourceTitle": "PChome 24h 購物：【Philips 飛利浦】寵物抗敏空氣清淨機 (輕量版) AC3360/80",
+      "evidenceSnippet": "PChome 24h 購物於 2026-11-01 顯示同型號可信新品公開價 NT$9,121，低於既有史低 NT$9,618。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-11-01",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2154,10 +2154,11 @@
     "name": "HushJet Purifier Compact 噴射氣流空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 14900,
-      "converted": 14900,
-      "confidence": "HJ10 官方商品頁 2026-09-05 人工核對 exact-model 公開現價及可購狀態；非會員券、紅利或加購價",
-      "basis": "retailer_current"
+      "amount": 9900,
+      "converted": 9900,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 Dyson官方所選HJ10冰川藍主商品特價9900元，14900是原價；贈360度活性碳濾網，未扣領券及其他多入／濾網價格。 原生瀏覽器核對HJ10冰川藍單機特價9900、加入購物車可用且未停用、正文無預購標示；本島三日送達為頁尾一般配送說明，不當作個別訂單交期保證。"
     },
     "image": "https://dysonshop.blob.core.windows.net/products/dyson-hushjet-purifier-compact-black-teal-1fliter/hero-1784558247-480x480.jpg",
     "buyUrl": "https://shop.dyson.tw/fans-and-heaters/purifiers/dyson-hushjet-purifier-compact-black-teal-1fliter-293084-01",
@@ -2184,16 +2185,16 @@
     "releaseDate": "2025-09-30",
     "historicalLow": {
       "status": "found",
-      "amount": 10900,
+      "amount": 9900,
       "currency": "TWD",
-      "converted": 10900,
-      "sourceUrl": "https://shop.dyson.tw/promotions/latest-offers/latest-offers",
-      "sourceTitle": "Dyson 台灣官方最新優惠：HJ10 單機首降四千",
-      "evidenceSnippet": "Dyson 台灣官方優惠頁與冰川藍商品頁明示 2026/7/22-7/28，HJ10 單機優惠不含贈品，原價 NT$14,900、特價 NT$10,900。",
-      "sourceKind": "official_sale",
-      "confidence": "high",
-      "checkedAt": "2026-07-22",
-      "note": "exact-model 官方單機限期優惠，可在商品頁直接加入購物車；已排除兩入組、搭售其他家電、贈品價值與濾網組。"
+      "converted": 9900,
+      "sourceUrl": "https://shop.dyson.tw/fans-and-heaters/purifiers/dyson-hushjet-purifier-compact-black-teal-1fliter-293084-01",
+      "sourceTitle": "Dyson HJ10 同型號原通路商品頁",
+      "evidenceSnippet": "2026-11-01 人工核對同型號新品公開價 9900 TWD，低於既有史低 10900。Dyson官方所選HJ10冰川藍主商品特價9900元，14900是原價；贈360度活性碳濾網，未扣領券及其他多入／濾網價格。 原生瀏覽器核對HJ10冰川藍單機特價9900、加入購物車可用且未停用、正文無預購標示；本島三日送達為頁尾一般配送說明，不當作個別訂單交期保證。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-11-01",
+      "note": "同型號可信新品公開價；排除個人券、點數、信用卡回饋、二手、福利、展示、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2255,11 +2256,11 @@
     "name": "迷你奈抗敏奈米級空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 7430,
-      "converted": 7430,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "amount": 6631,
+      "converted": 6631,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
+      "note": "2026-11-01 人工逐筆核對PChome原產品API：【飛利浦 PHILIPS】抗敏奈米級空氣清淨機－迷你奈(AC0921/84)；Price.Low=6631元，Qty=7，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAUFVA900JZR3M/000001_1785203322.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUFV-A900JZR3M",
@@ -2574,11 +2575,11 @@
     "name": "4–8 坪抗敏系列空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 3111,
-      "converted": 3111,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "amount": 2737,
+      "converted": 2737,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 本次原頁HPA-100APTW主商品3111元、可加車並由PChome倉庫出貨，未再顯示舊11/25預購日期；交期依通路確認。"
+      "note": "2026-11-01 人工逐筆核對PChome原產品API：Honeywell 抗敏系列空氣清淨機 HPA-100APTW；Price.Low=2737元，Qty=78，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
     },
     "installation": {
       "status": "not_stated",
@@ -2683,11 +2684,11 @@
     "name": "米家智慧空氣清淨機 6",
     "price": {
       "currency": "TWD",
-      "amount": 5799,
-      "converted": 5799,
-      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "amount": 5511,
+      "converted": 5511,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 momo AC-M25-SC單台主商品公開單件折1200後5799元，活動10/01–10/31；兩組平均5599不是此單台價格。"
+      "note": "2026-11-01 momo 小米AC-M25-SC所選1組主商品單件折1488後5511元，折前6999；11/11止。兩組11198不是單件價。"
     },
     "image": "https://i1.momoshop.com.tw/1786110782/goodsimg/0015/189/670/15189670_R_m.webp",
     "buyUrl": "https://www.momoshop.com.tw/product/15189670",

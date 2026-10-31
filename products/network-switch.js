@@ -775,10 +775,11 @@
     "type": "2_5g",
     "price": {
       "currency": "TWD",
-      "amount": 2999,
-      "converted": 2999,
-      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "basis": "retailer_current"
+      "amount": 1999,
+      "converted": 1999,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 人工核對PChome原始API同型號商品ID、名稱、正數庫存與公開網路價1999元；HTML另遇429限制，不把API當完整出貨承諾。"
     },
     "installation": {
       "status": "excluded",
@@ -1301,7 +1302,8 @@
       "amount": 14800,
       "converted": 14800,
       "confidence": "QNAP 台灣官方商城 2026-08-27 exact-model 公開價；頁面顯示有庫存、可加入購物車，預計 2 至 4 週內出貨",
-      "basis": "retailer_current"
+      "basis": "retailer_current",
+      "note": "2026-11-01 QNAP台灣商城同型號公開14800元，可加車，但「有庫存」與「熱賣預購中、預計2至4週出貨」並列，交期請確認，不稱立即現貨。"
     },
     "installation": {
       "status": "excluded",
@@ -1563,10 +1565,11 @@
     "type": "2_5g",
     "price": {
       "currency": "TWD",
-      "amount": 9660,
-      "converted": 9660,
-      "confidence": "PChome 24h 2026-08-24 exact-model 台灣原廠保固新品公開價",
-      "basis": "retailer_current"
+      "amount": 8694,
+      "converted": 8694,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 人工核對PChome原始API同型號商品ID、名稱、正數庫存與公開折扣價8694元；HTML另遇429限制，不把API當完整出貨承諾。"
     },
     "installation": {
       "status": "excluded",
@@ -1823,10 +1826,11 @@
     "type": "2_5g",
     "price": {
       "currency": "TWD",
-      "amount": 11025,
-      "converted": 11025,
-      "confidence": "PChome 24h 2026-08-24 exact-model 台灣原廠保固新品公開價",
-      "basis": "retailer_current"
+      "amount": 9922,
+      "converted": 9922,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 人工核對PChome原始API同型號商品ID、名稱、正數庫存與公開折扣價9922元；HTML另遇429限制，不把API當完整出貨承諾。"
     },
     "installation": {
       "status": "excluded",
@@ -2087,7 +2091,8 @@
       "amount": 12590,
       "converted": 12590,
       "confidence": "QNAP 台灣官方商店 2026-08-24 exact-model 台灣原廠保固新品公開價",
-      "basis": "retailer_current"
+      "basis": "retailer_current",
+      "note": "2026-11-01 QNAP台灣商城同型號公開12590元，可加車，但「有庫存」與「熱賣預購中、預計2至4週出貨」並列，交期請確認，不稱立即現貨。"
     },
     "installation": {
       "status": "excluded",
@@ -2489,7 +2494,8 @@
       "amount": 22500,
       "converted": 22500,
       "confidence": "QNAP 台灣官方商店 2026-08-24 exact-model 台灣原廠保固新品公開價",
-      "basis": "retailer_current"
+      "basis": "retailer_current",
+      "note": "2026-11-01 QNAP台灣商城同型號公開22500元，可加車，但「有庫存」與「熱賣預購中、預計2至4週出貨」並列，交期請確認，不稱立即現貨。"
     },
     "installation": {
       "status": "excluded",

@@ -1647,9 +1647,11 @@
     "name": "X9 指紋把手電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 11400,
-      "converted": 11400,
-      "confidence": "PChome 2026-07-30 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 10680,
+      "converted": 10680,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 PChome主商品API商品ID DQBS4N-A900JJ8LG 相符，原標題「Lockin鹿客 指紋把手電子鎖 X9 Lockin鹿客 指紋把手電子鎖 X9」，Qty=4，公開折扣／主價 10680 元（網路價12000；Price.Low=10680）；未扣券、回饋或點數。 同輪HTML為HTTP429；以本輪可信商品API逐筆核對，保留HTML讀取限制，不推定停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900JJ8LG/000001_1765347346.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900JJ8LG",
@@ -2091,9 +2093,11 @@
     "name": "SHP-P52 推拉式電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 23275,
-      "converted": 23275,
-      "confidence": "PChome 2026-07-30 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 21805,
+      "converted": 21805,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 PChome主商品API商品ID DQBS4N-A900JXYBS 相符，原標題「ZIGBANG   SHP-P52 推拉式電子鎖   APP/指紋/卡片/密碼/鑰匙 ZIGBANG   SHP-P52 推拉式電子鎖   APP/指紋/卡片/密碼/鑰匙」，Qty=5，公開折扣／主價 21805 元（網路價24500；Price.Low=21805）；未扣券、回饋或點數。 同輪HTML為HTTP429；以本輪可信商品API逐筆核對，保留HTML讀取限制，不推定停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900JXYBS/000001_1776909348.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900JXYBS",
@@ -2126,16 +2130,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 23275,
+      "amount": 21805,
       "currency": "TWD",
-      "converted": 23275,
+      "converted": 21805,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900JXYBS",
-      "sourceTitle": "PChome 商品頁：ZIGBANG SHP-P52 推拉式電子鎖 APP/指紋/卡片/密碼/鑰匙 / ZIGBANG SHP-P52 推拉式電子鎖 APP/指紋/卡片/密碼/鑰匙",
-      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「ZIGBANG SHP-P52 推拉式電子鎖 APP/指紋/卡片/密碼/鑰匙 / ZIGBANG SHP-P52 推拉式電子鎖 APP/指紋/卡片/密碼/鑰匙」查核價 NT$23,275，低於原先記錄史低。",
+      "sourceTitle": "PChome 24h 購物：ZIGBANG SHP-P52 推拉式電子鎖 APP/指紋/卡片/密碼/鑰匙",
+      "evidenceSnippet": "PChome 24h 購物於 2026-11-01 顯示同型號可信新品公開價 NT$21,805，低於既有史低 NT$23,275。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-10",
-      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
+      "checkedAt": "2026-11-01",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2283,9 +2287,11 @@
     "name": "ML660 四合一智能電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 23750,
-      "converted": 23750,
-      "confidence": "PChome 2026-08-03 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 25000,
+      "converted": 25000,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 PChome主商品API商品ID DECE4E-A900DXNUC 相符，原標題「dormakaba 四合一指紋/卡片/密碼/鑰匙_智能電子鎖(ML660)(附基本安裝) dormakaba 四合一指紋/卡片/密碼/鑰匙_智能電子鎖(ML660)(附基本安裝)」，Qty=4，公開折扣／主價 25000 元（網路價25000；Price.Low=無）；未扣券、回饋或點數。 同輪HTML為HTTP429；以本輪可信商品API逐筆核對，保留HTML讀取限制，不推定停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DECE4EA900DXNUC/000001_1643338134.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DECE4E-A900DXNUC",
@@ -3052,9 +3058,11 @@
     "name": "FB90 築韻掌靜脈貓眼電子門鎖",
     "price": {
       "currency": "TWD",
-      "amount": 39900,
-      "converted": 39900,
-      "confidence": "PChome 2026-08-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 37380,
+      "converted": 37380,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 PChome主商品API商品ID DQBS4N-A900J43AP 相符，原標題「FIBRE 琺博 築韻FB90 電子貓眼/掌靜脈/人臉電子門鎖 FIBRE 琺博 築韻FB90 電子貓眼/掌靜脈/人臉電子門鎖」，Qty=20，公開折扣／主價 37380 元（網路價42000；Price.Low=37380）；未扣券、回饋或點數。 同輪HTML為HTTP429；以本輪可信商品API逐筆核對，保留HTML讀取限制，不推定停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900J43AP/000001_1764829802.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900J43AP",
@@ -3340,10 +3348,10 @@
     "name": "逸系列微光夜視貓眼電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 31111,
-      "converted": 31111,
-      "confidence": "2026-10-28 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
-      "note": "2026-10-28 晚間PChome原頁網路價33111，公開單件折2000後31111，活動10/28–10/31；不扣P幣、個人券或信用卡回饋。",
+      "amount": 29999,
+      "converted": 29999,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-01 PChome主商品API商品ID DQBS4N-A900K2QWO 相符，原標題「【HITACHI 日立】逸系列 微光夜視全彩300萬畫素貓眼電子鎖 HIT-FY10-T 日本領導品牌、享原廠三年保固、提供線上免費評估與到府專業安裝。」，Qty=13，公開折扣／主價 29999 元（網路價33111；Price.Low=29999）；未扣券、回饋或點數。 同輪HTML為HTTP429；以本輪可信商品API逐筆核對，保留HTML讀取限制，不推定停產。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900K2QWO/000001_1782963114.jpg",

@@ -732,7 +732,8 @@
       "currency": "TWD",
       "amount": 8999,
       "converted": 8999,
-      "confidence": "Yahoo購物中心 2026-07-28 exact-model 公開結構化價格"
+      "confidence": "Yahoo購物中心 2026-07-28 exact-model 公開結構化價格",
+      "note": "2026-11-01 Yahoo選定原商品頁顯示已停售，零售下架不等同原廠整型停產；不採頁面殘留價格更新，保留原參考價及待查通路。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -833,7 +834,8 @@
       "currency": "TWD",
       "amount": 1980,
       "converted": 1980,
-      "confidence": "Yahoo 購物中心 2026-08-07 exact-model 公開價"
+      "confidence": "Yahoo 購物中心 2026-08-07 exact-model 公開價",
+      "note": "2026-11-01 Yahoo選定原商品頁顯示已停售，零售下架不等同原廠整型停產；不採頁面殘留價格更新，保留原參考價及待查通路。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo 購物中心",
@@ -1644,7 +1646,8 @@
       "currency": "TWD",
       "amount": 6864,
       "converted": 6864,
-      "confidence": "Yahoo購物中心 2026-08-28 自營 exact-model 新品頁公開價"
+      "confidence": "Yahoo購物中心 2026-08-28 自營 exact-model 新品頁公開價",
+      "note": "2026-11-01 Yahoo選定原商品頁顯示已停售，零售下架不等同原廠整型停產；不採頁面殘留價格更新，保留原參考價及待查通路。"
     },
     "image": "https://cs-a.ecimg.tw/items/DEAWMJA900JMZA5/000001_1768290148.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/WMF%E5%BE%B7%E5%9C%8B%E8%A3%BDFusiontecMineral%E5%A3%BA%E5%9E%8B%E9%8D%8B12-5cm1-7L%E9%89%91%E9%87%91%E8%89%B2%E9%99%B6%E6%99%B6%E9%8D%8B-11964316.html",
@@ -1834,10 +1837,11 @@
     "name": "醇火系列不沾炒鍋",
     "price": {
       "currency": "TWD",
-      "amount": 1599,
-      "converted": 1599,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27 PChome exact醇火34CM加蓋炒鍋公開1599元，未扣個人券/點數/卡片回饋。"
+      "amount": 1439,
+      "converted": 1439,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-01 PChome主商品API商品ID DEES01-A900IQ6X3 相符，原標題「Tefal法國特福 Espresso醇火系列34CM不沾炒鍋(加蓋) Tefal法國特福 Espresso醇火系列34CM不沾炒鍋(加蓋)」，Qty=6，公開折扣／主價 1439 元（網路價1599；Price.Low=1439）；未扣券、回饋或點數。 同輪原商品HTML價格與可購入口已核對。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DEES01A900IQ6X3/000001_1764832269.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEES01-A900IQ6X3",
@@ -2123,9 +2127,11 @@
     "name": "A1 極致抗刮不沾單柄深煎鍋 26 公分",
     "price": {
       "currency": "TWD",
-      "amount": 2159,
-      "converted": 2159,
-      "confidence": "Costco 好市多 2026-07-20 頁面公開價"
+      "amount": 2699,
+      "converted": 2699,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 Costco同型A1 26cm主商品公開2699元、同SKU InStock與加入購物車；原2159優惠未在本輪主商品重現，頁首運動用品優惠不適用鍋具。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h82/h10/325943411802142.jpg",
     "buyUrl": "https://www.costco.com.tw/Furniture-Kitchen/Kitchen-Dining/Cookware-Cutlery-Cutting-Boards/Circulon-A1-Non-Stick-Saute-Pan-With-Glass-Lid-26-cm/p/151585",

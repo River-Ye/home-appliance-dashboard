@@ -732,10 +732,11 @@
     "image": "https://cs-a.ecimg.tw/items/DEES09A900HK440/000001_1718174769.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 690,
-      "converted": 690,
-      "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27 PChome exact冰鑄15cm主廚刀公開690元；未扣個人券、點數或信用卡回饋。"
+      "amount": 621,
+      "converted": 621,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-01 PChome主商品API商品ID DEES09-A900HK440 相符，原標題「Tefal法國特福 冰鑄不鏽鋼系列主廚刀15CM Tefal法國特福 冰鑄不鏽鋼系列主廚刀15CM」，Qty=1，公開折扣／主價 621 元（網路價690；Price.Low=621）；未扣券、回饋或點數。 同輪原商品HTML價格與可購入口已核對。",
+      "basis": "retailer_current"
     },
     "channel": "tw",
     "buyLabel": "PChome 24h購物",

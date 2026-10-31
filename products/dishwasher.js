@@ -117,9 +117,11 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR0PA900IX8N8/000001_1770277214.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 7990,
-      "converted": 7990,
-      "confidence": "PChome 2026-09-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 6911,
+      "converted": 6911,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 PChome主商品API商品ID DMBR0P-A900IX8N8 相符，原標題「【TECO東元】3D全方位洗烘一體全自動洗碗機(XYFYW-5001CBW) 【TECO東元】3D全方位洗烘一體全自動洗碗機(XYFYW-5001CBW)」，Qty=20，公開折扣／主價 6911 元（網路價7990；Price.Low=6911）；未扣券、回饋或點數。 同輪原商品HTML價格與可購入口已核對。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -159,15 +161,15 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 7190,
+      "amount": 6911,
       "currency": "TWD",
-      "converted": 7190,
+      "converted": 6911,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DMBR0P-A900IX8N8",
       "sourceTitle": "PChome 24h 購物：【TECO東元】3D全方位洗烘一體全自動洗碗機(XYFYW-5001CBW)",
-      "evidenceSnippet": "PChome 24h 購物於 2026-09-12 顯示同型號可信新品公開價 NT$7,190，低於既有史低 NT$7,290。",
+      "evidenceSnippet": "PChome 24h 購物於 2026-11-01 顯示同型號可信新品公開價 NT$6,911，低於既有史低 NT$7,190。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-09-12",
+      "checkedAt": "2026-11-01",
       "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
@@ -321,9 +323,11 @@
     "image": "https://cs-a.ecimg.tw/items/DCBE34A900HUR37/000001_1779329303.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 15900,
-      "converted": 15900,
-      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 15111,
+      "converted": 15111,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 PChome主商品API商品ID DCBE34-A900HUR37 相符，原標題「TOSHIBA東芝 DW-05T1-TW 6人份免安裝全自動洗碗機 TOSHIBA東芝 DW-05T1-TW 6人份免安裝全自動洗碗機  TOSHIBA東芝 DW-05T1-TW 6人份免安裝全自動洗碗機 」，Qty=1，公開折扣／主價 15111 元（網路價15900；Price.Low=15111）；未扣券、回饋或點數。 同輪原商品HTML價格與可購入口已核對。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -527,9 +531,11 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR35A900JVAOT/000001_1782872320.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 29900,
-      "converted": 29900,
-      "confidence": "PChome 2026-09-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 28888,
+      "converted": 28888,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 PChome主商品API商品ID DMBR35-A900JVAOT 相符，原標題「Electrolux 伊萊克斯 60cm 13人份 300系列自動開門獨立式洗碗機(EFF3360VWB) Electrolux 伊萊克斯 60cm 13人份 300系列自動開門獨立式洗碗機(EFF3360VWB)」，Qty=20，公開折扣／主價 28888 元（網路價29900；Price.Low=28888）；未扣券、回饋或點數。 同輪原商品HTML價格與可購入口已核對。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1044,9 +1050,11 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR2HA900K4KMO/000001_1782874928.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 34999,
-      "converted": 34999,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 34900,
+      "converted": 34900,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 PChome主商品API商品ID DMBR2H-A900K4KMO 相符，原標題「【BOSCH 博世】15人份 自動開門嵌櫃式洗碗機(SJU4EKW00W) 【BOSCH 博世】15人份 自動開門嵌櫃式洗碗機(SJU4EKW00W)」，Qty=5，公開折扣／主價 34900 元（網路價34900；Price.Low=無）；未扣券、回饋或點數。 同輪原商品HTML價格與可購入口已核對。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1146,9 +1154,11 @@
     "image": "https://cs-a.ecimg.tw/items/DPAL7PA900G5M47/000001_1783049805.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 37525,
-      "converted": 37525,
-      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 35550,
+      "converted": 35550,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 PChome主商品API商品ID DPAL7P-A900G5M47 相符，原標題「Fisher＆Paykel 菲雪品克 DD60SHI9 單層設計師款抽屜式洗碗機 (7人份)   ~~原廠直營，送標準安裝，送好禮~~   【Fisher＆Paykel 菲雪品克】7人份《抽屜式-單層》設計師款洗碗機DD60SHI9   」，Qty=4，公開折扣／主價 35550 元（網路價39500；Price.Low=35550）；未扣券、回饋或點數。 同輪HTML為HTTP429；以本輪可信商品API逐筆核對，保留HTML讀取限制，不推定停產。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1251,10 +1261,11 @@
       "currency": "TWD",
       "amount": 48203,
       "converted": 48203,
-      "confidence": "LG 官方商城 2026-07-28 指定商品公開結帳 92 折價（企業客戶／員購除外）"
+      "confidence": "LG 官方商城 2026-07-28 指定商品公開結帳 92 折價（企業客戶／員購除外）",
+      "note": "2026-11-01 LG官方DFB335HS本輪主商品49900元但結構化供貨狀態PreOrder，未證實現貨；不覆蓋原48203元參考，交期需確認。"
     },
     "channel": "tw",
-    "buyLabel": "LG 官方商城",
+    "buyLabel": "官方預購／交期需確認",
     "buyUrl": "https://www.lg.com/tw/dishwashers/all-dishwashers/dfb335hs/",
     "specs": [
       "洗碗機：LG樂金 DFB335HS【QuadWash™ Steam四方洗蒸氣洗碗機】消光銀/自動開門烘乾/觸控面板",
@@ -1352,9 +1363,11 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR16A900HZZEG/000001_1763949344.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 77400,
-      "converted": 77400,
-      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 77999,
+      "converted": 77999,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 PChome主商品API商品ID DMBR16-A900HZZEG 相符，原標題「【ASKO 雅士高】14人份洗碗機DBI544ID.W.TW(白色/110V) 【ASKO 雅士高】14人份洗碗機DBI544ID.W.TW(白色/110V)」，Qty=3，公開折扣／主價 77999 元（網路價77999；Price.Low=無）；未扣券、回饋或點數。 同輪HTML為HTTP429；以本輪可信商品API逐筆核對，保留HTML讀取限制，不推定停產。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1558,9 +1571,11 @@
     "name": "桌上型洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 10900,
-      "converted": 10900,
-      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 9900,
+      "converted": 9900,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 PChome主商品API商品ID DMBR0P-A900JBV02 相符，原標題「【嘉儀KE】桌上型洗碗機 KDW-156W   ▼免安裝6人洗烘碗機▼   【嘉儀KE】免安裝全自動開關門桌上型洗碗機 KDW-156W(電壓110V/大容量6人份真乾淨)」，Qty=20，公開折扣／主價 9900 元（網路價9900；Price.Low=無）；未扣券、回饋或點數。 同輪HTML為HTTP429；以本輪可信商品API逐筆核對，保留HTML讀取限制，不推定停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR0PA900JBV02/000001_1762938951.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR0P-A900JBV02",
@@ -1655,11 +1670,11 @@
     "name": "免安裝自動 6 人份洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 16999,
-      "converted": 16999,
-      "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "amount": 15299,
+      "converted": 15299,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 DGF-601主商品16999，刪除價25500；可加入購物車，廠商出貨。"
+      "note": "2026-11-01 PChome主商品API商品ID DMBR17-A900IHTZ3 相符，原標題「【Celinda 賽寧家電】免安裝自動6人份洗碗機DGF-601(110V/桌上型洗碗機) 【Celinda 賽寧家電】免安裝自動6人份洗碗機DGF-601(110V/桌上型洗碗機)」，Qty=9，公開折扣／主價 15299 元（網路價16999；Price.Low=15299）；未扣券、回饋或點數。 同輪HTML為HTTP429；以本輪可信商品API逐筆核對，保留HTML讀取限制，不推定停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR17A900IHTZ3/000001_1777540146.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR17-A900IHTZ3",
@@ -1693,16 +1708,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 15809,
+      "amount": 15299,
       "currency": "TWD",
-      "converted": 15809,
+      "converted": 15299,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DMBR17-A900IHTZ3",
-      "sourceTitle": "PChome 商品頁：【Celinda 賽寧家電】免安裝自動6人份洗碗機DGF-601(110V/桌上型洗碗機) / 【Celinda 賽寧家電】免安裝自動6人份洗碗機DGF-601(110V/桌上型洗碗機)",
-      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「【Celinda 賽寧家電】免安裝自動6人份洗碗機DGF-601(110V/桌上型洗碗機) / 【Celinda 賽寧家電】免安裝自動6人份洗碗機DGF-601(110V/桌上型洗碗機)」查核價 NT$15,809，低於原先記錄史低。",
+      "sourceTitle": "PChome 24h 購物：【Celinda 賽寧家電】免安裝自動6人份洗碗機DGF-601(110V/桌上型洗碗機)",
+      "evidenceSnippet": "PChome 24h 購物於 2026-11-01 顯示同型號可信新品公開價 NT$15,299，低於既有史低 NT$15,809。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-10",
-      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
+      "checkedAt": "2026-11-01",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2662,10 +2677,11 @@
     "name": "8 人份抽屜式洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 49400,
-      "converted": 49400,
-      "confidence": "momo 購物 2026-08-14 exact-model 台灣新品頁公開售價，標題明載基本安裝",
-      "basis": "retailer_current"
+      "amount": 48260,
+      "converted": 48260,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-01 momo13272372 RKW-601C-SV-TR原選定110V／60cm基本安裝款單件95折48260元，折前50800元；數量1–9可選、約配。"
     },
     "image": "https://i4.momoshop.com.tw/1772634123/goodsimg/0013/272/372/13272372_R_m.webp",
     "buyUrl": "https://www.momoshop.com.tw/product/13272372",
@@ -3394,10 +3410,11 @@
     "name": "極淨呵護700系列15人份獨立式洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 49900,
-      "converted": 49900,
+      "amount": 49888,
+      "converted": 49888,
       "basis": "retailer_current",
-      "confidence": "2026-10-23 PChome exact新品API及Chrome主商品價查核；Qty10／InStock"
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-01 PChome主商品API商品ID DMBH1Q-A900I20R4 相符，原標題「【Electrolux 伊萊克斯】極淨呵護700 獨立式洗碗機(EFF7591SXA) 【Electrolux 伊萊克斯】極淨呵護700 獨立式洗碗機(EFF7591SXA)」，Qty=10，公開折扣／主價 49888 元（網路價49900；Price.Low=49888）；未扣券、回饋或點數。 同輪HTML為HTTP429；以本輪可信商品API逐筆核對，保留HTML讀取限制，不推定停產。"
     },
     "installation": {
       "status": "included_basic",
@@ -3600,10 +3617,11 @@
   "topPick": false,
   "price": {
     "currency": "TWD",
-    "amount": 25200,
-    "converted": 25200,
+    "amount": 28080,
+    "converted": 28080,
     "basis": "retailer_current",
-    "confidence": "2026-10-28 原商品頁核對同型號新品公開價NT$25,200，可約定配送；不含安裝與個人券、點數、信用卡回饋。"
+    "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+    "note": "2026-11-01 PChome主商品API商品ID DMBR25-A900IUN3O 相符，原標題「Haier 海爾 16人份 變頻獨嵌兩用洗碗機H600(HDWE16-46SC6SA 不含安裝) Haier 海爾 16人份 變頻獨嵌兩用洗碗機H600(HDWE16-46SC6SA 不含安裝)」，Qty=2，公開折扣／主價 28080 元（網路價28080；Price.Low=無）；未扣券、回饋或點數。 同輪HTML為HTTP429；以本輪可信商品API逐筆核對，保留HTML讀取限制，不推定停產。"
   },
   "installation": {
     "status": "excluded",

@@ -117,10 +117,11 @@
     "score": 92,
     "price": {
       "currency": "TWD",
-      "amount": 3690,
-      "converted": 3690,
+      "amount": 3390,
+      "converted": 3390,
       "basis": "retailer_current",
-      "confidence": "2026-09-01 Chrome已查核：官店白色910-006641，原生variant網址重新直開仍還原普通SUPERLIGHT2白色；3690元可加入購物車，非DEX/SE/2C。"
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-01 羅技台灣原頁所選型號公開單件價3390元，可加入購物車；折前價、其他顏色及個人點數/優惠不混用。"
     },
     "image": "https://store.logitech.tw/cdn/shop/products/pro-x-superlight-2-463287.jpg?v=1770258821",
     "buyUrl": "https://store.logitech.tw/products/superlight2?variant=40632667013143",
@@ -2396,10 +2397,11 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 2490,
-      "converted": 2490,
+      "amount": 1990,
+      "converted": 1990,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 Chrome核對台灣旗艦店珍珠白右手版910-006483、2490及加入購物車。"
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-01 羅技台灣原頁所選型號公開單件價1990元，可加入購物車；折前價、其他顏色及個人點數/優惠不混用。"
     },
     "installation": {
       "status": "not_stated",
