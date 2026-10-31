@@ -1182,16 +1182,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 1163,
+      "amount": 1104,
       "currency": "TWD",
-      "converted": 1163,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282821392&cgp=1163",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【VICTORINOX 瑞士維氏】主廚刀/切肉刀/楓木 5.2000.15",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【VICTORINOX 瑞士維氏】主廚刀/切肉刀/楓木 5.2000.15」最低價為 NT$1,163，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 1104,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DEAGRU-A900K5DX6",
+      "sourceTitle": "PChome 24h 購物：VICTORINOX 瑞士維氏 主廚刀/切肉刀 楓木 5.2000.15",
+      "evidenceSnippet": "PChome 24h 購物於 2026-10-31 顯示同型號可信新品公開價 NT$1,104，低於既有史低 NT$1,163。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-10-31",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",

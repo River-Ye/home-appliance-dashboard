@@ -17,10 +17,10 @@
     "name": "11.1.4 聲道旗艦 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 42655,
-      "converted": 42655,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。 公開活動滿1件享95折，有效至2026-10-31T07:59:59+08:00。",
+      "amount": 44900,
+      "converted": 44900,
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "note": "2026-10-31 原頁同型號主商品公開價，主購買區可加車；不扣個人券、信用卡、點數、贈品或相關商品價格。 先前單件折扣已到期，本次採目前主商品明示價。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900JMDR5/000001_1773978957.jpg",
@@ -211,9 +211,11 @@
     "name": "BRAVIA Theatre Bar 6 3.1.2 聲道",
     "price": {
       "currency": "TWD",
-      "amount": 10710,
-      "converted": 10710,
-      "confidence": "2026-10-24 人工核對 www.momoshop.com.tw 同型號與所選版本公開價 TWD 10710，可下單；未扣會員、信用卡或點數。"
+      "amount": 11305,
+      "converted": 11305,
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-31 momo同型號主商品公開單件95折11305元，折前11900元，活動10/06–10/31；訂單確認後預計11/02出貨，不將預計交期描述為保證現貨。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900JMC1Q/000001_1781726516.jpg",
     "buyUrl": "https://www.momoshop.com.tw/product/14864179",
@@ -896,10 +898,10 @@
     "name": "Q 系列 11.1.4 聲道 Soundbar 家庭劇院",
     "price": {
       "currency": "TWD",
-      "amount": 56905,
-      "converted": 56905,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。 公開活動滿1件享95折，有效至2026-10-31T07:59:59+08:00。",
+      "amount": 59900,
+      "converted": 59900,
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "note": "2026-10-31 原頁同型號主商品公開價，主購買區可加車；不扣個人券、信用卡、點數、贈品或相關商品價格。 先前單件折扣已到期，本次採目前主商品明示價。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADO2A900K5VUT/000001_1782993730.jpg",
@@ -996,10 +998,10 @@
     "name": "Q 系列 7.1.2 聲道 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 35055,
-      "converted": 35055,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。 公開活動滿1件享95折，有效至2026-10-31T07:59:59+08:00。",
+      "amount": 36900,
+      "converted": 36900,
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "note": "2026-10-31 原頁同型號主商品公開價，主購買區可加車；不扣個人券、信用卡、點數、贈品或相關商品價格。 先前單件折扣已到期，本次採目前主商品明示價。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900K5489/000001_1782988490.jpg",
@@ -1199,11 +1201,11 @@
       "amount": 7591,
       "converted": 7591,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-28晚間原頁覆核：YahooHT-S100F原頁已停售，7990元是停止販售展示價；保留7591元舊參考價，零售停售不是Sony整型官方停產正證。不含個人券、點數或信用卡回饋。"
+      "note": "2026-10-31 原Yahoo HT-S100F頁已停售，7990元是停售展示價，保留7591元舊參考價。另查momo同型號7990元、邏思9個月保固加登錄3個月，但所選頁未明電力及地區版本與原在冊資料一致，暫不採為同版本購買連結；零售停售不是官方整型停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAMTA900I5HHO/000001_1778661010.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Sony-HT-S100F-11411387.html",
-    "buyLabel": "Yahoo 購物中心（已停售）",
+    "buyLabel": "Yahoo（已停售，現價待確認）",
     "specs": [
       "2.0 聲道",
       "單件式",
@@ -1224,8 +1226,8 @@
     "bestFor": "想依客廳大小、聲道數與預算挑選家庭劇院的人。",
     "recommendation": "同類推薦：補足不同聲道、重低音與後環繞配置，方便和電視一起配套。",
     "score": 81,
-    "voltage": "110V 台灣通路",
-    "warranty": "依 PChome/供應商頁面",
+    "voltage": "現售同地區版本與110V／60Hz相容性待通路確認；相同型號名稱不保證不同地區電力相同。",
+    "warranty": "原Yahoo購買頁已停售；目前可購同版本的台灣保固待確認，不保證Sony台灣原廠保固。",
     "tags": [
       "小空間",
       "入門",
@@ -1393,10 +1395,10 @@
     "name": "7.1 聲道家庭劇院喇叭",
     "price": {
       "currency": "TWD",
-      "amount": 27161,
-      "converted": 27161,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。 公開活動滿1件享95折，有效至2026-10-31T07:59:59+08:00。",
+      "amount": 28590,
+      "converted": 28590,
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "note": "2026-10-31 原頁同型號主商品公開價，主購買區可加車；不扣個人券、信用卡、點數、贈品或相關商品價格。 先前單件折扣已到期，本次採目前主商品明示價。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAHGA900J56OK/000001_1755250707.jpg",
@@ -2090,8 +2092,8 @@
     "price": {
       "currency": "USD",
       "amount": 1299.99,
-      "converted": 42317,
-      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-10-30 匯率換算"
+      "converted": 42404,
+      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-10-31 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/2C2sn9CKoKFdIyd94Gm9z5/f3019d4e721511167ebe5c229bf490dd/heston-120_plp.jpg",
     "buyUrl": "https://www.marshall.com/us/en/product/heston-120",
@@ -2190,8 +2192,8 @@
     "price": {
       "currency": "USD",
       "amount": 699.99,
-      "converted": 22786,
-      "confidence": "2026-10-24 人工核對 www.marshall.com 同型號與所選版本公開價 USD 699.99，可下單；未扣會員、信用卡或點數。；ExchangeRate-API 2026-10-30 匯率換算",
+      "converted": 22833,
+      "confidence": "2026-10-24 人工核對 www.marshall.com 同型號與所選版本公開價 USD 699.99，可下單；未扣會員、信用卡或點數。；ExchangeRate-API 2026-10-31 匯率換算",
       "basis": "retailer_current"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/3yitHqjPBTgQk5qRE72PSn/2788206646aa153f71f2c0ebefaff580/Heston-60-black_plp_800x800-v3.jpeg",
@@ -2486,10 +2488,10 @@
     "name": "2.0 聲道二合一分離式聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 602,
-      "converted": 602,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。 公開活動滿1件享95折，有效至2026-10-31T07:59:59+08:00。",
+      "amount": 633,
+      "converted": 633,
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "note": "2026-10-31 原頁同型號主商品公開價，主購買區可加車；不扣個人券、信用卡、點數、贈品或相關商品價格。 先前單件折扣已到期，本次採目前主商品明示價。",
       "basis": "retailer_current"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h21/hac/367883491278878.jpg",
@@ -2631,14 +2633,14 @@
       "status": "found",
       "amount": 176091,
       "currency": "JPY",
-      "converted": 36306,
+      "converted": 36470,
       "sourceUrl": "https://kakaku.com/item/K0001712395/pricehistory/",
       "sourceTitle": "価格.com：JBL BAR 1300MK2 [ブラック] 価格推移",
       "evidenceSnippet": "価格.com 日別價格歷史顯示 exact-model「JBL BAR 1300MK2 [ブラック]」於 2026-06-17 的新品最低價為 ¥176,091；2025-10 初始價格為 ¥205,306。",
       "sourceKind": "price_history",
       "confidence": "medium",
       "checkedAt": "2026-08-25",
-      "note": "採日本市場 exact-model 公開價格歷史並依 2026-10-30 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
+      "note": "採日本市場 exact-model 公開價格歷史並依 2026-10-31 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2798,10 +2800,11 @@
     "name": "AMBEO Soundbar Mini 7.1.4 虛擬聲道 Dolby Atmos 聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 19900,
-      "converted": 19900,
-      "confidence": "Sennheiser 台灣官方商城於 2026-08-20 的 exact-model 可購公開售價 NT$19,900",
-      "basis": "retailer_current"
+      "amount": 32990,
+      "converted": 32990,
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-31 Sennheiser台灣官方所選AMBEO Soundbar Mini主商品32990元含稅，可立即購買；不採下方Plus/Max/Sub推薦價格，交期以下單頁確認。"
     },
     "installation": {
       "status": "not_stated",
@@ -3002,10 +3005,11 @@
     "name": "Flexus Core 100 2.1 聲道虛擬 Dolby Atmos 聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 9399,
-      "converted": 9399,
-      "confidence": "momo 2026-09-08 人工核對 exact-model 公開現價與可購狀態；不含會員券、點數、信用卡回饋或加購",
-      "basis": "retailer_current"
+      "amount": 9999,
+      "converted": 9999,
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-31 momo同型號單機促銷價9999元、市售19900元為參考價；訂單確認後預計11/02出貨，非附重低音或後環繞套裝。"
     },
     "installation": {
       "status": "not_stated",
@@ -3704,9 +3708,9 @@
     "price": {
       "currency": "USD",
       "amount": 699,
-      "converted": 22754,
+      "converted": 22800,
       "basis": "retailer_current",
-      "confidence": "2026-10-19 人工核對 Sonos US 官方黑色 BMULTUS1BLK 公開單機 US$699 與 Available now/Add to cart；ExchangeRate-API 2026-10-30 匯率換算，未含國際運費與進口稅。"
+      "confidence": "2026-10-19 人工核對 Sonos US 官方黑色 BMULTUS1BLK 公開單機 US$699 與 Available now/Add to cart；ExchangeRate-API 2026-10-31 匯率換算，未含國際運費與進口稅。"
     },
     "installation": {
       "status": "not_stated",

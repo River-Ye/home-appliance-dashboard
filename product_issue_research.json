@@ -1,9 +1,9 @@
 {
   "summary": {
-    "checkedAt": "2026-10-31T07:12:52.102+08:00",
-    "total": 1230,
+    "checkedAt": "2026-10-31T11:48:51.721+08:00",
+    "total": 1231,
     "commonIssueProducts": 54,
-    "noCommonIssueProducts": 1176,
+    "noCommonIssueProducts": 1177,
     "pendingManualReview": 0,
     "commonIssues": 55,
     "searchUnavailable": 614,
@@ -34,7 +34,8 @@
       "2026-10-28晚間只新增H600及ASD-100UA逐型跨站人工覆核；ASD-100UA以Mobile01五位與Yahoo一位成立主觀運轉噪音警示，未泛稱全部機器故障。H600之Paine候選為W30S自用、僅表格提及本型而排除。原1220筆研究與386筆逐人證據保留真實日期。",
       "2026-10-29僅新增兩款逐型跨站人工問題覆核；Ninja原頁星等不計故障，Q11 Ultra海外家族個案未確認台灣選定紅軸，不借用跨區域或軸體報告。既有1222筆問題研究與392筆逐人報告保留真實日期及內容。",
       "2026-10-30僅新增本批4款的逐型跨站人工覆核；其他1224筆及392筆逐人報告保留原始研究日期與內容，不跨尺寸、版本、相近型號轉借結論。",
-      "2026-10-31僅新增本批2款的逐型跨站人工覆核；其他1228筆及392筆逐人報告保留原始研究日期與內容，不跨尺寸、版本、相近型號轉借結論。"
+      "2026-10-31僅新增本批2款的逐型跨站人工覆核；其他1228筆及392筆逐人報告保留原始研究日期與內容，不跨尺寸、版本、相近型號轉借結論。",
+      "2026-10-31僅新增NN-BS10EK逐型跨站人工覆核，保留舊1230筆研究與392筆逐人報告原始日期及內容，不跨台灣/日本近型或歷代產品轉借結論。"
     ]
   },
   "results": [
@@ -220718,6 +220719,308 @@
       "evidence": [],
       "reports": [],
       "rejectedCandidates": []
+    },
+    {
+      "id": "oven-panasonic-nn-bs10ek",
+      "category": "oven",
+      "brand": "Panasonic",
+      "model": "NN-BS10EK",
+      "name": "30L 智慧5in1蒸烘烤氣炸微波爐（台灣公司貨）",
+      "identity": {
+        "canonicalModel": "NN-BS10EK",
+        "lookupLabel": "Panasonic NN-BS10EK",
+        "aliases": [
+          "Panasonic NN-BS10EK",
+          "NN BS10EK"
+        ],
+        "evidenceUrl": "https://www.elifemall.com.tw/product/2166309"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "id": "oven-panasonic-nn-bs10ek",
+        "category": "oven",
+        "brand": "Panasonic",
+        "model": "NN-BS10EK",
+        "checkedAt": "2026-10-31",
+        "reviewedAt": "2026-10-31",
+        "decision": "no_common_issue",
+        "attestation": "manual_original_pages_reviewed",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT",
+          "Dcard"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"NN-BS10EK\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NN-BS10EK%22"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"NN-BS10EK\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NN-BS10EK%22"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"NN-BS10EK\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22NN-BS10EK%22"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&p=1&t=7309512",
+            "title": "多功能料理爐可以取代微波爐跟烤箱嗎？",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "sourceExcerpt": "原帖Bharsa詢問日立800AT多功能爐。7樓saborino（93668142）只介紹Panasonic新款NN-BS10EK的64眼紅外線、氣炸與兩品料理，沒有陳述購買使用或故障；6樓Dr.Corgi明確使用五年前RBK5500T，8樓家柴萬罐使用日立，9樓Mrs.SexyBone談LG MJ3965BCP。",
+            "specificReason": "唯一提到NN-BS10EK的saborino是功能推薦，不是本型第一人稱負評；其他明確使用者的機種為日立RBK5500T/800AT或LG，不能跨型號或品牌累計。沒有可計入本型同一問題的作者。",
+            "locator": "第7樓saborino/文章93668142/2026-10-22 17:00；同頁第1、6、8、9樓。",
+            "reviewBasis": "manual_web_original_page",
+            "outcome": "excluded",
+            "reviewedAt": "2026-10-31"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7302023",
+            "title": "Panasonic 秋季新品一次看：從洗衣、除濕、料理到毛孩日常，重新安排家的舒適感",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "sourceExcerpt": "原始主文Deelin（93581346）於調理段並列NN-BS10EK與NN-BS8DK，介紹展場功能和64眼紅外線智慧偵測；同頁2–10樓是新品/品牌外觀感想與APP期待，沒有NN-BS10EK第一人稱故障。",
+            "specificReason": "這是秋季展場報導與一般回應，媒體介紹不是產品持有人負評；文章45分/推薦不能算45人。與別款機種及APP整合期待沒有建立本型相同問題。",
+            "locator": "主文#1 Deelin/93581346/調理段；同頁#2–10。",
+            "reviewBasis": "manual_web_original_page",
+            "outcome": "excluded",
+            "reviewedAt": "2026-10-31"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7302023&p=2",
+            "title": "Panasonic 秋季新品一次看 第2頁",
+            "exactModel": false,
+            "independentAuthors": 0,
+            "sourceExcerpt": "第18樓etonline（93596697）表示蒸烤微波爐多年未更新而終於更新；第13樓我是雪莉問銀色門框產品是否會進台灣；其餘11–20樓為品牌外觀、電鍋年份或致謝。",
+            "specificReason": "本頁沒有確認NN-BS10EK持有者或第一人稱故障。新品更新感想、銀色照片詢問及電鍋型號年份不能當本型持有人使用問題。",
+            "locator": "#13 我是雪莉/93583588；#15 yisen2994/93589246；#18 etonline/93596697；全頁#11–20。",
+            "reviewBasis": "manual_web_original_page",
+            "outcome": "excluded",
+            "reviewedAt": "2026-10-31"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7302023&p=3",
+            "title": "Panasonic 秋季新品一次看 第3頁",
+            "exactModel": false,
+            "independentAuthors": 0,
+            "sourceExcerpt": "原生Chrome第三頁只有第21樓stevengis，表示過一個月有些商品還沒上架，具體舉MC-NXH70吸塵器在PChome/momo找不到；未談NN-BS10EK使用。",
+            "specificReason": "留言是MC-NXH70吸塵器通路供貨疑問，非本型微波爐故障，不能跨分類累計。已由原生瀏覽器讀原頁，不用web工具該頁失敗推斷內容。",
+            "locator": "#21 stevengis/2026-10-21 10:37；整頁原文見native-m01-7302023-p3.json。",
+            "reviewBasis": "manual_native_browser_original_page",
+            "outcome": "excluded",
+            "reviewedAt": "2026-10-31"
+          }
+        ],
+        "reports": [],
+        "representativeSources": [
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&p=1&t=7309512",
+            "title": "多功能料理爐可以取代微波爐跟烤箱嗎？",
+            "platform": "Mobile01"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7302023",
+            "title": "Panasonic 秋季新品一次看：從洗衣、除濕、料理到毛孩日常，重新安排家的舒適感",
+            "platform": "Mobile01"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7302023&p=2",
+            "title": "Panasonic 秋季新品一次看 第2頁",
+            "platform": "Mobile01"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7302023&p=3",
+            "title": "Panasonic 秋季新品一次看 第3頁",
+            "platform": "Mobile01"
+          }
+        ],
+        "candidateDisposition": "NN-BS10EK：逐一閱讀Mobile01詢問討論及秋季展場報導三頁，功能推介與其他型號使用不計負評；PTT與Dcard exact-model查詢未見候選。相同問題六名獨立作者跨兩原始網站的門檻未成立；不是完全沒有負評。",
+        "reviewerNote": "本輪手工閱讀Mobile01原文：saborino只介紹本型功能、Deelin為展場報導、etonline感想沒有使用問題，stevengis談MC-NXH70吸塵器供貨。PTT/Dcard完整NN-BS10EK與BS10EK補充查詢無候選。Mobile01三頁仍同一網站；直接HTTP403但web工具原頁前兩頁可讀，第三頁另用原生Chrome閱讀。沒有從批次空白搜尋預設決策。",
+        "sourceLimitations": [
+          "初次直接HTTP四個Mobile01請求403，原頁由web工具/原生Chrome實際讀取；未將抓取失敗當無負評。",
+          "PTT與Dcard搜尋發現範圍受索引限制，無候選不代表沒有個別負評。"
+        ],
+        "searchObservations": [
+          {
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"NN-BS10EK\"",
+            "outcome": "no_candidate_after_manual_result_review"
+          },
+          {
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"NN-BS10EK\"",
+            "outcome": "no_candidate_after_manual_result_review"
+          },
+          {
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"NN-BS10EK\"",
+            "outcome": "two_threads_found_four_original_pages_reviewed"
+          }
+        ],
+        "completedAt": "2026-10-31T03:45:06.415Z",
+        "name": "30L 智慧5in1蒸烘烤氣炸微波爐（台灣公司貨）",
+        "status": "completed",
+        "reviewBatch": "oven"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-10-31",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"NN-BS10EK\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NN-BS10EK%22"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"NN-BS10EK\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NN-BS10EK%22"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"NN-BS10EK\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22NN-BS10EK%22"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"NN-BS10EK\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NN-BS10EK%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NN-BS10EK%22",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 4,
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=729&p=1&t=7309512",
+            "https://www.mobile01.com/topicdetail.php?f=168&t=7302023",
+            "https://www.mobile01.com/topicdetail.php?f=168&t=7302023&p=2",
+            "https://www.mobile01.com/topicdetail.php?f=168&t=7302023&p=3"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=729&p=1&t=7309512",
+              "title": "多功能料理爐可以取代微波爐跟烤箱嗎？"
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7302023",
+              "title": "Panasonic 秋季新品一次看：從洗衣、除濕、料理到毛孩日常，重新安排家的舒適感"
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7302023&p=2",
+              "title": "Panasonic 秋季新品一次看 第2頁"
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7302023&p=3",
+              "title": "Panasonic 秋季新品一次看 第3頁"
+            }
+          ],
+          "inspectedAt": "2026-10-31T03:45:06.415Z"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"NN-BS10EK\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NN-BS10EK%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NN-BS10EK%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-10-31T03:45:06.415Z"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "site:dcard.tw \"NN-BS10EK\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22NN-BS10EK%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22NN-BS10EK%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-10-31T03:45:06.415Z"
+        }
+      ],
+      "evidence": [],
+      "reports": [],
+      "rejectedCandidates": [
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=729&p=1&t=7309512",
+          "title": "多功能料理爐可以取代微波爐跟烤箱嗎？",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "sourceExcerpt": "原帖Bharsa詢問日立800AT多功能爐。7樓saborino（93668142）只介紹Panasonic新款NN-BS10EK的64眼紅外線、氣炸與兩品料理，沒有陳述購買使用或故障；6樓Dr.Corgi明確使用五年前RBK5500T，8樓家柴萬罐使用日立，9樓Mrs.SexyBone談LG MJ3965BCP。",
+          "specificReason": "唯一提到NN-BS10EK的saborino是功能推薦，不是本型第一人稱負評；其他明確使用者的機種為日立RBK5500T/800AT或LG，不能跨型號或品牌累計。沒有可計入本型同一問題的作者。",
+          "locator": "第7樓saborino/文章93668142/2026-10-22 17:00；同頁第1、6、8、9樓。",
+          "reviewBasis": "manual_web_original_page",
+          "outcome": "excluded",
+          "reviewedAt": "2026-10-31",
+          "reason": "唯一提到NN-BS10EK的saborino是功能推薦，不是本型第一人稱負評；其他明確使用者的機種為日立RBK5500T/800AT或LG，不能跨型號或品牌累計。沒有可計入本型同一問題的作者。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7302023",
+          "title": "Panasonic 秋季新品一次看：從洗衣、除濕、料理到毛孩日常，重新安排家的舒適感",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "sourceExcerpt": "原始主文Deelin（93581346）於調理段並列NN-BS10EK與NN-BS8DK，介紹展場功能和64眼紅外線智慧偵測；同頁2–10樓是新品/品牌外觀感想與APP期待，沒有NN-BS10EK第一人稱故障。",
+          "specificReason": "這是秋季展場報導與一般回應，媒體介紹不是產品持有人負評；文章45分/推薦不能算45人。與別款機種及APP整合期待沒有建立本型相同問題。",
+          "locator": "主文#1 Deelin/93581346/調理段；同頁#2–10。",
+          "reviewBasis": "manual_web_original_page",
+          "outcome": "excluded",
+          "reviewedAt": "2026-10-31",
+          "reason": "這是秋季展場報導與一般回應，媒體介紹不是產品持有人負評；文章45分/推薦不能算45人。與別款機種及APP整合期待沒有建立本型相同問題。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7302023&p=2",
+          "title": "Panasonic 秋季新品一次看 第2頁",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "sourceExcerpt": "第18樓etonline（93596697）表示蒸烤微波爐多年未更新而終於更新；第13樓我是雪莉問銀色門框產品是否會進台灣；其餘11–20樓為品牌外觀、電鍋年份或致謝。",
+          "specificReason": "本頁沒有確認NN-BS10EK持有者或第一人稱故障。新品更新感想、銀色照片詢問及電鍋型號年份不能當本型持有人使用問題。",
+          "locator": "#13 我是雪莉/93583588；#15 yisen2994/93589246；#18 etonline/93596697；全頁#11–20。",
+          "reviewBasis": "manual_web_original_page",
+          "outcome": "excluded",
+          "reviewedAt": "2026-10-31",
+          "reason": "本頁沒有確認NN-BS10EK持有者或第一人稱故障。新品更新感想、銀色照片詢問及電鍋型號年份不能當本型持有人使用問題。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7302023&p=3",
+          "title": "Panasonic 秋季新品一次看 第3頁",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "sourceExcerpt": "原生Chrome第三頁只有第21樓stevengis，表示過一個月有些商品還沒上架，具體舉MC-NXH70吸塵器在PChome/momo找不到；未談NN-BS10EK使用。",
+          "specificReason": "留言是MC-NXH70吸塵器通路供貨疑問，非本型微波爐故障，不能跨分類累計。已由原生瀏覽器讀原頁，不用web工具該頁失敗推斷內容。",
+          "locator": "#21 stevengis/2026-10-21 10:37；整頁原文見native-m01-7302023-p3.json。",
+          "reviewBasis": "manual_native_browser_original_page",
+          "outcome": "excluded",
+          "reviewedAt": "2026-10-31",
+          "reason": "留言是MC-NXH70吸塵器通路供貨疑問，非本型微波爐故障，不能跨分類累計。已由原生瀏覽器讀原頁，不用web工具該頁失敗推斷內容。"
+        }
+      ]
     }
   ]
 }

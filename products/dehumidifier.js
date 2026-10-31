@@ -1183,11 +1183,12 @@
       "currency": "TWD",
       "amount": 18522,
       "converted": 18522,
-      "confidence": "Yahoo購物中心 2026-09-02 exact-model 公開結構化價格"
+      "confidence": "Yahoo購物中心 2026-09-02 exact-model 公開結構化價格",
+      "note": "2026-10-31 原Yahoo WD261VKF0頁已停售，19385元是停售頁展示價；保留18522元舊參考價。替代PChome DMBQ3G-A900GM8G8雖標18900元但API Qty0，原DMBQ07入口未能還原主商品，均不當現貨；未取得官方整型停產正證。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ07A900GFBVP/000001_1767340170.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-PuriCare-%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9F-25-6%E5%85%AC%E5%8D%87-%E6%9B%9C%E9%BB%91-WD261VKF0-11970685.html",
-    "buyLabel": "Yahoo購物中心",
+    "buyLabel": "Yahoo（已停售，現價待確認）",
     "specs": [
       "25.6 公升",
       "雙變頻",
@@ -1955,9 +1956,11 @@
     "name": "19公升 超變頻清淨除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 20597,
-      "converted": 20597,
-      "confidence": "momo 2026-07-18 商品頁公開價"
+      "amount": 21076,
+      "converted": 21076,
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-31 momo所選RD-380VC主商品單件88折21076元，折前23950元，活動10/01–10/31；一人限一組，未扣退稅、會員券、點數或刷卡回饋。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h5d/ha9/421140861976606.jpg",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=13553689",
@@ -2861,10 +2864,11 @@
     "name": "乾淨方PRO+ 25L 雙氣流AIoT雙變頻除濕機（雪霧白）",
     "price": {
       "currency": "TWD",
-      "amount": 22900,
-      "converted": 22900,
+      "amount": 20900,
+      "converted": 20900,
       "basis": "retailer_current",
-      "confidence": "2026-10-23：Chrome台灣原生雪霧白002選定可放車，促銷25900於10/1–10/31滿1件折3000為公開22900；每人限1組1次，未扣個人券、回饋或貨物稅。"
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "note": "2026-10-31 momo DW-UX25HT-H/W主商品可選雪霧白，單件折5000後20900元，折前25900元；活動10/28–11/11，同型號不同顏色不增款。"
     },
     "installation": {
       "status": "not_stated",

@@ -2292,11 +2292,12 @@
       "currency": "TWD",
       "amount": 18900,
       "converted": 18900,
-      "confidence": "Yahoo購物中心 2026-10-22 exact-model 公開結構化價格"
+      "confidence": "Yahoo購物中心 2026-10-22 exact-model 公開結構化價格",
+      "note": "2026-10-31 Yahoo原頁同型號16055元顯示已售完、貨到通知我；保留18900元舊參考價，未把缺貨頁展示促銷價當可購現價。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBC1ZA900HE04M/000001_1757303897.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/MSI%E5%BE%AE%E6%98%9F-MPG-271QRX-QD-OLED-27%E5%9E%8B-2K-360Hz-HDR%E9%9B%BB%E7%AB%B6%E8%9E%A2%E5%B9%95-10958143.html",
-    "buyLabel": "Yahoo購物中心",
+    "buyLabel": "Yahoo（已售完，現價待確認）",
     "specs": [
       "27 吋",
       "2K/QHD",

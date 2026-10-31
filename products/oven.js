@@ -411,8 +411,8 @@
     "price": {
       "currency": "USD",
       "amount": 499.95,
-      "converted": 16274,
-      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-10-30 匯率換算"
+      "converted": 16308,
+      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-10-31 匯率換算"
     },
     "image": "https://assets.breville.com/cdn-cgi/image/width=1300,format=auto/BOV950/BOV950BSS1BUS1/pdp3.png?pdp=",
     "buyUrl": "https://www.breville.com/en-us/product/bov950",
@@ -2295,8 +2295,8 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 13020,
-      "confidence": "2026-08-31 人工核對 SharkNinja 美國官方 MW101 公開可購主價 USD 399.99；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-10-30 匯率換算",
+      "converted": 13047,
+      "confidence": "2026-08-31 人工核對 SharkNinja 美國官方 MW101 公開可購主價 USD 399.99；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-10-31 匯率換算",
       "basis": "retailer_current"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/MW101_01.jpg",
@@ -2685,6 +2685,109 @@
     "110V60Hz",
     "紅外線感測",
     "台灣公司貨"
+  ]
+},
+{
+  "id": "oven-panasonic-nn-bs10ek",
+  "category": "oven",
+  "brand": "Panasonic",
+  "model": "NN-BS10EK",
+  "name": "30L 智慧5in1蒸烘烤氣炸微波爐（台灣公司貨）",
+  "rank": 28,
+  "topPick": false,
+  "budget": "premium",
+  "channel": "tw",
+  "price": {
+    "currency": "TWD",
+    "amount": 36900,
+    "converted": 36900,
+    "basis": "retailer_current",
+    "confidence": "2026-10-31 人工讀全國電子2166309原主頁及原生Chrome可訂購按鈕，採主商品公開標價；活動最終結帳金額未驗證。",
+    "note": "2026-10-31 全國電子NN-BS10EK主商品公開標價36900元；可訂購但頁內「預購商品10月中陸續出貨」與「出貨天數3個工作日」並存，實際供貨交期待確認。原頁另列9–10月廚房小家電每滿10000元折1010元活動，活動頁列2026/9/1–10/31；最終折後金額與運送條件依原通路結帳確認，未扣會員券、信用卡、點數或贈品。"
+  },
+  "installation": {
+    "status": "not_stated",
+    "note": "所選商品頁未明示含基本安裝或搬運定位；配送區域、樓層搬運、定位及電力施工是否加價需向全國電子確認。依原廠安裝圖保留上方8cm、前方開放，左右與後方圖示0cm，仍須預留插頭電線、下拉爐門與維修空間，不能在密閉櫃內運轉。"
+  },
+  "image": "https://ecimg.elifemall.com.tw/App_Images/753/ERPItem/2026/1013/m_654bcbde-f878-46de-af3f-1d22ea36845b.jpg.webp",
+  "buyUrl": "https://www.elifemall.com.tw/product/2166309",
+  "buyLabel": "全國電子（可訂購／交期待確認）",
+  "specs": [
+    "類型：30L蒸烘烤氣炸微波爐；蒸氣、烘烤、燒烤、氣炸與微波五合一，台灣完整型號NN-BS10EK",
+    "加熱：64眼紅外線自動加熱感知、旋風微波加熱技術；微波輸出1000W、火力6段",
+    "料理：熱風氣炸、烘烤70–300°C、過熱水蒸氣、60–95°C低溫蒸氣與308道自動料理；300°C為短時間高溫設定",
+    "尺寸：寬 49.4 x 深 48.6 x 高 37 cm",
+    "重量：20.3 kg",
+    "爐腔：高23.5 x 寬39.4 x 深30.9 cm；平面無轉盤、下拉式爐門",
+    "電壓／頻率：AC 110V／60Hz；微波消耗1500W、燒烤1350W、烘烤1400W、蒸氣1020W，並非各模式功率相加",
+    "安裝空間：機身深度含把手；官方圖示上方8cm、左右及後方0cm、前方開放；另留開門、插頭電線及維修空間，不能密閉使用",
+    "操作／安全：全彩觸控螢幕、兒童安全鎖、自動清潔及爐內冷卻行程",
+    "隨附配件：雙面烤盤1個、方盤2個、烹調食譜1本；依說明書區分適用模式，金屬烤盤不可任意用於微波模式",
+    "售後：全國電子原頁列全機1年保固；保留購買憑證與隨機保證書，Panasonic台灣客服0800-098-800可洽維修與部品"
+  ],
+  "description": "在30L機身整合微波回溫、蒸氣、氣炸與雙層烘烤，增加64眼紅外線感測、全彩觸控與308道自動料理，適合經常用蒸烤及氣炸、希望減少桌上設備數量的家庭。台灣110V／60Hz公司貨可由本地通路訂購，實際供貨交期仍需確認。",
+  "pros": [
+    "蒸烘烤氣炸微波五合一，兼顧回溫與多種料理",
+    "64眼紅外線感測、全彩觸控與308道自動料理，較方便多步驟料理",
+    "台灣110V／60Hz版本，有全國電子與Panasonic本地售後路徑"
+  ],
+  "cons": [
+    "機身含把手深48.6cm、重20.3kg，須確認檯面承重、櫃深與散熱",
+    "通路預購與出貨天數文案並存，訂購前須確認實際交期",
+    "模式與配件使用限制較多，蒸氣水路、爐腔與烤盤需定期清潔"
+  ],
+  "bestFor": "常做蒸氣、氣炸與雙層烘焙，希望以一台30L設備整合微波回溫，並能安排散熱與下拉開門空間的家庭。",
+  "recommendation": "Panasonic多功能旗艦候選：著重64眼紅外線、氣炸與全彩操作時，可與NN-BS8DK及仍合格現售舊款並列比較。先核對含把手深48.6cm、上方8cm與前方開門空間，再向通路確認實際交期與活動價；不作現貨保證。",
+  "releaseDate": "找不到",
+  "historicalLow": {
+    "status": "not_found",
+    "amount": null,
+    "currency": "TWD",
+    "converted": null,
+    "sourceUrl": "",
+    "sourceTitle": "",
+    "evidenceSnippet": "",
+    "sourceKind": "not_found",
+    "confidence": "not_found",
+    "checkedAt": "2026-10-31",
+    "note": "人工查NN-BS10EK原通路、FindPrice exact-model比價與BigGo/歷史最低搜尋；查得多站當前報價但未取得有日期、同台灣型號可公開重現的歷史低點。全國36900元只作主商品當前標價，每滿萬折1010元活動未驗最終結帳額；不以單次扣除35890或累折推算33870作史低。Yahoo34317頁已售完、玉明31800需先電話確認貨源、樂天折扣後31900含已過期優惠券皆不當史低；不移用日本NE-UBS系列或NN-BS1700。"
+  },
+  "issueResearch": {
+    "status": "no_common_issue",
+    "checkedAt": "2026-10-31",
+    "summary": "截至查核日，查無達門檻的集中負評／災情",
+    "issues": [],
+    "checkedSources": [
+      {
+        "platform": "Mobile01",
+        "targetHost": "mobile01.com",
+        "query": "site:mobile01.com \"NN-BS10EK\"",
+        "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NN-BS10EK%22"
+      },
+      {
+        "platform": "PTT",
+        "targetHost": "ptt.cc",
+        "query": "site:ptt.cc \"NN-BS10EK\"",
+        "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NN-BS10EK%22"
+      },
+      {
+        "platform": "Dcard",
+        "targetHost": "dcard.tw",
+        "query": "site:dcard.tw \"NN-BS10EK\"",
+        "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22NN-BS10EK%22"
+      }
+    ]
+  },
+  "score": 90,
+  "voltage": "AC 110V／60Hz；微波消耗1500W（輸出1000W）、燒烤1350W、烘烤1400W、蒸氣1020W；確認插座、迴路與接地，不把各模式功率相加。",
+  "warranty": "全國電子所選NN-BS10EK原頁明列全機保固1年；完整範圍、非家庭用途及指定零件延長保固依原廠隨機保證書，不將其他通路贈送年限套入。全國客服0800-021-921，Panasonic台灣0800-098-800。",
+  "tags": [
+    "30L",
+    "5in1蒸烘烤氣炸微波",
+    "110V60Hz",
+    "64眼紅外線",
+    "台灣公司貨",
+    "交期待確認"
   ]
 }
 ]);

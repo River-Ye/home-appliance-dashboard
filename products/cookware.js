@@ -263,15 +263,15 @@
     "releaseDate": "2024-02-21",
     "historicalLow": {
       "status": "found",
-      "amount": 1259,
+      "amount": 1119,
       "currency": "TWD",
-      "converted": 1259,
+      "converted": 1119,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DEAWMW-A900JMZB6",
       "sourceTitle": "PChome 24h 購物：新一代厚鑄耐摩不沾鍋單柄深煎鍋30cm(KFM-030D-R)",
-      "evidenceSnippet": "PChome 24h 購物於 2026-08-23 顯示同型號可信新品公開價 NT$1,259，低於既有史低 NT$1,299。",
+      "evidenceSnippet": "PChome 24h 購物於 2026-10-31 顯示同型號可信新品公開價 NT$1,119，低於既有史低 NT$1,259。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-08-23",
+      "checkedAt": "2026-10-31",
       "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {

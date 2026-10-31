@@ -1076,11 +1076,12 @@
       "currency": "TWD",
       "amount": 6999,
       "converted": 6999,
-      "confidence": "momo購物 2026-07-16 商品頁公開價"
+      "confidence": "momo購物 2026-07-16 商品頁公開價",
+      "note": "2026-10-31 momo原頁A7-LITEMOP雲朵白6111元是11/1 00:00開賣的報價，本次尚未開賣；保留6999元舊參考價，不把尚未開賣展示價當目前可購現價。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX6FA900K2NSV/000001_1780464185.jpg",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=9861645",
-    "buyLabel": "momo購物",
+    "buyLabel": "momo（11/01開賣，現價待確認）",
     "specs": [
       "無線吸塵",
       "輕量",
@@ -1556,11 +1557,12 @@
       "currency": "TWD",
       "amount": 19900,
       "converted": 19900,
-      "confidence": "2026-10-24 人工核對 shop.dyson.tw 同型號與所選版本公開價 TWD 19900，可下單；未扣會員、信用卡或點數。"
+      "confidence": "2026-10-24 人工核對 shop.dyson.tw 同型號與所選版本公開價 TWD 19900，可下單；未扣會員、信用卡或點數。",
+      "note": "2026-10-31 Dyson官方PencilVac Fluffycones單機特價19900元，21900元是原價；主購買區明示預購、預計2026/11/03出貨，不能以宣傳「全新現貨熱銷中」覆蓋實際預購狀態。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX00A900JPJ7H/000001_1777291832.jpg",
     "buyUrl": "https://shop.dyson.tw/vacuums/cordless-vacuums/dyson-pencilvac-fluffycones-black-sale-492694-01",
-    "buyLabel": "Dyson 台灣官網",
+    "buyLabel": "Dyson 官方（預購，預計11/03）",
     "specs": [
       "筆型",
       "Fluffycones",
@@ -1650,9 +1652,11 @@
     "name": "AI 美型長續航平躺速乾洗地機",
     "price": {
       "currency": "TWD",
-      "amount": 14999,
-      "converted": 14999,
-      "confidence": "momo購物 2026-07-11 頁面查核價"
+      "amount": 12999,
+      "converted": 12999,
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-31 momo所選S9 Artist Pro單機主商品12999元，可購；14111元是另外S9全配組，15499元是Switch S7，不混用。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAXB5A900JCN6G/000001_1760586651.jpg",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=14509178",
@@ -1685,16 +1689,16 @@
     "releaseDate": "2025-07-17",
     "historicalLow": {
       "status": "found",
-      "amount": 13618,
+      "amount": 12999,
       "currency": "TWD",
-      "converted": 13618,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1261476801&cgp=14777",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Tineco 添可】MOMO獨家限定-S9 Artist Pro平躺速烘吸塵洗地機(AI助航/5分鐘速乾/85度熱水洗/電解水除菌)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Tineco 添可】MOMO獨家限定-S9 Artist Pro平躺速烘吸塵洗地機(AI助航/5分鐘速乾/85度熱水洗/電解水除菌)」最低價為 NT$13,618，最低點日期 2026-06-15。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 12999,
+      "sourceUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=14509178",
+      "sourceTitle": "Tineco S9 Artist Pro 同型號原通路商品頁",
+      "evidenceSnippet": "2026-10-31 人工核對同型號新品公開價 12999 TWD，低於既有史低 13618。(AI全向助航/5分鐘速乾/85度熱水洗/電解水除菌) 載入價格中... Home \\ 品牌旗艦 \\ Ecovacs 科沃斯 \\ Tineco添可洗地機 \\ 洗地機 極光洗地，藝術淨界 Tineco 添可 MOMO獨家限定-S9 Artist Pro平躺速烘吸塵洗地機(AI助航/5分鐘速乾/85度熱水洗/電解水除菌) AI 360°助航 即時電解水，除菌率99.99% 防纏鋼齒設計，告別毛髮纏繞 品號： 14509178 相關商品： Switch S7 15499 元 S9 全配組 14111 元 促銷價 $ 12,999 元 賣貴通報 市售價 $ 24,888 元 品牌名稱 : Tineco 添可 結帳方式 : 信用卡 \\ 無卡分期 \\ 行動支付 \\ 超商付款 \\ 銀聯卡 刷mo卡享3%，回饋上限翻倍至2千 保固資訊 : 2年保固期 更多 配送方式 : momo宅配/離島配送 數量 : 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 折價券 : 特惠商品，不適用折價券 加入追蹤 點點賺 我要推薦 熱門推薦 熱銷排行 購物車 結帳 TOP",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-10-31",
+      "note": "同型號可信新品公開價；排除個人券、點數、信用卡回饋、二手、福利、展示、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2038,11 +2042,12 @@
       "amount": 9900,
       "converted": 9900,
       "confidence": "Dyson 台灣官方商城 2026-09-01 exact-model SV55／商品 SKU 630933-01 頁面顯示原價 NT$14,900、特價 NT$9,900、InStock 並可加入購物車；贈品價值不抵減現價",
-      "basis": "retailer_current"
+      "basis": "retailer_current",
+      "note": "2026-10-31 Dyson官方所選V8 Cyclone SV55送雙禮單機特價9900元，14900元是原價；主購買區明示預購、預計2026/11/03出貨。8999元是不同優惠包裝頁，不直接套用。"
     },
     "image": "https://dysonshop.blob.core.windows.net/products/dyson-v8-cyclone-sv55-vacuum-sale/hero-1787682803-480x480.jpg",
     "buyUrl": "https://shop.dyson.tw/vacuums/cordless-vacuums/dyson-v8-cyclone-sv55-vacuum-sale-630933-01",
-    "buyLabel": "Dyson 台灣官方商城",
+    "buyLabel": "Dyson 官方（預購，預計11/03）",
     "installation": {
       "status": "not_stated",
       "note": "官方商城未列到府安裝；本品為無線直立／手持吸塵器，使用者需依說明書裝妥吸頭、壁掛充電座並定期清潔集塵筒與濾網。"
@@ -2227,8 +2232,8 @@
     "price": {
       "currency": "USD",
       "amount": 679.99,
-      "converted": 22135,
-      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-10-30 匯率換算"
+      "converted": 22180,
+      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-10-31 匯率換算"
     },
     "image": "https://m.media-amazon.com/images/I/61Yuy5vtWFL._AC_SL1500_.jpg",
     "buyUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
@@ -2267,14 +2272,14 @@
       "status": "found",
       "amount": 679.99,
       "currency": "USD",
-      "converted": 22135,
+      "converted": 22180,
       "sourceUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
       "sourceTitle": "Dreame Aero Ultra Steam Wet Dry Vacuum – Dreame Vacuum Mop",
       "evidenceSnippet": "Dreame 原廠美國商品頁於 2026-07-16 公開顯示特價 US$679.99、原價 US$799.99，且可 Add to Cart / Buy It Now。",
       "sourceKind": "official_sale",
       "confidence": "high",
       "checkedAt": "2026-07-16",
-      "note": "新上市商品目前可公開驗證的最低售價；未套用會員碼、信用卡、點數或個人化折扣，且未含國際運費、進口稅、插頭／供電與台灣保固風險；依 2026-10-30 USD/TWD 匯率換算。"
+      "note": "新上市商品目前可公開驗證的最低售價；未套用會員碼、信用卡、點數或個人化折扣，且未含國際運費、進口稅、插頭／供電與台灣保固風險；依 2026-10-31 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2820,10 +2825,11 @@
     "name": "米家無線洗地機 5 Pro",
     "price": {
       "currency": "TWD",
-      "amount": 11499,
-      "converted": 11499,
-      "confidence": "Xiaomi 台灣官方規格頁將米家無線洗地機 5 Pro 綁定 F302HW；momo 小米官方旗艦館同名台灣新品頁於 2026-08-29 顯示 NT$11,499、in stock，通路原頁未明示型號",
-      "basis": "retailer_current"
+      "amount": 11111,
+      "converted": 11111,
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-31 momo所選米家無線洗地機5 Pro主商品單件折388後11111元，折前11499元；活動10/31–11/01，不用推薦區G20/G30或個人券計價。"
     },
     "image": "https://i4.momoshop.com.tw/1786613003/goodsimg/0015/540/464/15540464_R_m.webp",
     "buyUrl": "https://www.momoshop.com.tw/product/15540464",

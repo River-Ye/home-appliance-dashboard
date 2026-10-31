@@ -117,10 +117,11 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 2690,
-      "converted": 2690,
+      "amount": 2490,
+      "converted": 2490,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 Chrome人工核對台灣羅技旗艦店石墨黑920-013578、2690元與加入購物車；不計會員或刷卡折扣。"
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "note": "2026-10-31 Logi網路旗艦店同型號／既有選定SKU主購買區Sale公開價2490元，可加車；保留原有語言／軸體／顏色所選版本，不採刪除原價或其他型號價格。"
     },
     "image": "https://store.logitech.tw/cdn/shop/files/Low_Resolution_JPG-ALTOKEYSK98MGraphite3QTRLCHT.jpg?v=1761497810",
     "buyUrl": "https://store.logitech.tw/products/k98m?variant=43052241354775",
@@ -1622,10 +1623,11 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 3390,
-      "converted": 3390,
+      "amount": 2990,
+      "converted": 2990,
       "basis": "retailer_current",
-      "confidence": "2026-08-31根代理Chrome核對台灣官方石墨灰920-011596為3390元，購買按鈕可用。"
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "note": "2026-10-31 Logi網路旗艦店同型號／既有選定SKU主購買區Sale公開價2990元，可加車；保留原有語言／軸體／顏色所選版本，不採刪除原價或其他型號價格。"
     },
     "installation": {
       "status": "not_stated",
@@ -2219,10 +2221,11 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 2690,
-      "converted": 2690,
+      "amount": 2990,
+      "converted": 2990,
       "basis": "retailer_current",
-      "confidence": "2026-10-24 人工核對 store.logitech.tw 同型號與所選版本公開價 TWD 2690，可下單；未扣會員、信用卡或點數。"
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "note": "2026-10-31 Logi網路旗艦店同型號／既有選定SKU主購買區Sale公開價2990元，可加車；保留原有語言／軸體／顏色所選版本，不採刪除原價或其他型號價格。"
     },
     "installation": {
       "status": "not_stated",
@@ -2319,7 +2322,8 @@
       "amount": 3088,
       "converted": 3088,
       "basis": "retailer_current",
-      "confidence": "Chrome黑色SoldOut，選復古白背光熱插拔矮紅軸；先茶再紅取得真實variant46960807969027，SKU1T3088可加入購物車；主圖1T800px。白背光熱插拔選項與舊正文僅RGB可熱插拔矛盾，明示按選定SKU並保留疑義。"
+      "confidence": "Chrome黑色SoldOut，選復古白背光熱插拔矮紅軸；先茶再紅取得真實variant46960807969027，SKU1T3088可加入購物車；主圖1T800px。白背光熱插拔選項與舊正文僅RGB可熱插拔矛盾，明示按選定SKU並保留疑義。",
+      "note": "2026-10-31 Keychron台灣所選KBKCK3MQ1T／復古白背光熱插拔矮紅軸原頁售完／到貨通知，3490元是此選定版本展示價；保留3088元舊參考價，不借2990/3790元其他版本庫存或價格。"
     },
     "installation": {
       "status": "not_stated",
@@ -2327,7 +2331,7 @@
     },
     "image": "https://www.keychron.com.tw/cdn/shop/files/K3MQ1T-CN_81247ba9-f27d-4648-ac31-240993019826.jpg?v=1750833069&width=1214",
     "buyUrl": "https://www.keychron.com.tw/products/keychron-k3-max-qmk-via-wireless-custom-mechanical-keyboard?variant=46960807969027",
-    "buyLabel": "Keychron 台灣官方商店",
+    "buyLabel": "Keychron 官方（已售完）",
     "specs": [
       "類型：低矮機械式三模鍵盤",
       "配列：75% ANSI 84鍵，無數字區",
@@ -2706,10 +2710,11 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 4490,
-      "converted": 4490,
+      "amount": 3990,
+      "converted": 3990,
       "basis": "retailer_current",
-      "confidence": "2026-09-01 Chrome官店真實variant41831729889303還原桃紅920-013257，中文CHT商品圖500px，現4490舊6490，加入購物車可用；贈腕托限送完不當標準隨附，不收其他色湊数。"
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "note": "2026-10-31 Logi網路旗艦店同型號／既有選定SKU主購買區Sale公開價3990元，可加車；保留原有語言／軸體／顏色所選版本，不採刪除原價或其他型號價格。"
     },
     "installation": {
       "status": "not_stated",
@@ -2802,11 +2807,12 @@
     "variantFamily": "G515 LIGHTSPEED TKL",
     "topPick": false,
     "price": {
-      "amount": 2690,
+      "amount": 3290,
       "currency": "TWD",
-      "converted": 2690,
+      "converted": 3290,
       "basis": "retailer_current",
-      "confidence": "2026-10-24 人工核對 store.logitech.tw 同型號與所選版本公開價 TWD 2690，可下單；未扣會員、信用卡或點數。"
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "note": "2026-10-31 Logi網路旗艦店同型號／既有選定SKU主購買區Sale公開價3290元，可加車；保留原有語言／軸體／顏色所選版本，不採刪除原價或其他型號價格。"
     },
     "installation": {
       "status": "not_stated",

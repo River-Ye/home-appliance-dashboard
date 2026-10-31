@@ -15,10 +15,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/3a594d8137-Gd-10216764.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 20900,
-      "converted": 20900,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
-      "note": "2026-10-31 LG台灣官方WD-S90VDW主商品特價20900元，可立即購買；28900元是原價。以原頁主商品確認，不採推薦區價格。",
+      "amount": 20497,
+      "converted": 20497,
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "note": "2026-10-31 LG台灣原主商品前台WD-S90VDW公開20497元、現省8403元及立即購買；28900元為刪除參考價，非推薦商品價或個人券。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -329,11 +329,11 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/16E678AC30-SP-17622644.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 11900,
-      "converted": 11900,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "amount": 12490,
+      "converted": 12490,
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
+      "note": "2026-10-31 原頁同型號主商品公開價格12490元；不扣會員券、信用卡、點數、贈品或相關商品價格。銷售／交期以原通路為準。"
     },
     "channel": "tw",
     "buyLabel": "PChome",

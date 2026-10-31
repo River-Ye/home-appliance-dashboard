@@ -22,10 +22,11 @@
     "score": 84,
     "price": {
       "currency": "TWD",
-      "amount": 2990,
-      "converted": 2990,
+      "amount": 3490,
+      "converted": 3490,
       "basis": "retailer_current",
-      "confidence": "2026-10-24 人工核對 store.logitech.tw 同型號與所選版本公開價 TWD 2990，可下單；未扣會員、信用卡或點數。"
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "note": "2026-10-31 Logi網路旗艦店同型號／既有選定SKU主購買區Sale公開價3490元，可加車；保留原有語言／軸體／顏色所選版本，不採刪除原價或其他型號價格。"
     },
     "image": "https://store.logitech.tw/cdn/shop/products/g502-x-lightspeed-766213.jpg?v=1770259311",
     "buyUrl": "https://store.logitech.tw/products/g502xlightspeed?variant=40325534384151",
@@ -900,10 +901,11 @@
     ],
     "price": {
       "currency": "TWD",
-      "amount": 699,
-      "converted": 699,
+      "amount": 799,
+      "converted": 799,
       "basis": "retailer_current",
-      "confidence": "2026-09-01 Chrome燦坤245490：玫瑰粉910-006996、公開促銷699、可加入購物車。"
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "note": "2026-10-31 燦坤所選M350s玫瑰粉／910-006996主商品799元，市價與會員價皆為799元，可加車；不是個人化會員折扣價。"
     },
     "image": "https://www.cdn-tkec.tw/image/product/202401/245490_M.jpg?t=20250513174631",
     "releaseDate": "2023-09-06",
@@ -1340,10 +1342,11 @@
     ],
     "price": {
       "currency": "TWD",
-      "amount": 2290,
-      "converted": 2290,
+      "amount": 1990,
+      "converted": 1990,
       "basis": "retailer_current",
-      "confidence": "2026-10-24 人工核對 store.logitech.tw 同型號與所選版本公開價 TWD 2290，可下單；未扣會員、信用卡或點數。"
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "note": "2026-10-31 Logi網路旗艦店同型號／既有選定SKU主購買區Sale公開價1990元，可加車；保留原有語言／軸體／顏色所選版本，不採刪除原價或其他型號價格。"
     },
     "image": "https://store.logitech.tw/cdn/shop/products/mx-anywhere-3s-472144.jpg?v=1770130977&width=1220",
     "releaseDate": "2023-06-28",
@@ -1682,10 +1685,11 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 1090,
-      "converted": 1090,
+      "amount": 990,
+      "converted": 990,
       "basis": "retailer_current",
-      "confidence": "2026-10-24 人工核對 store.logitech.tw 同型號與所選版本公開價 TWD 1090，可下單；未扣會員、信用卡或點數。"
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "note": "2026-10-31 Logi網路旗艦店同型號／既有選定SKU主購買區Sale公開價990元，可加車；保留原有語言／軸體／顏色所選版本，不採刪除原價或其他型號價格。"
     },
     "installation": {
       "status": "not_stated",
@@ -1900,10 +1904,11 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 1290,
-      "converted": 1290,
+      "amount": 1490,
+      "converted": 1490,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 Chrome原頁明列910-005473、1290元及可加入購物車；商品特色說明目前塑料線。"
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "note": "2026-10-31 Logi網路旗艦店同型號／既有選定SKU主購買區Sale公開價1490元，可加車；保留原有語言／軸體／顏色所選版本，不採刪除原價或其他型號價格。"
     },
     "installation": {
       "status": "not_stated",
@@ -2033,10 +2038,11 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 799,
-      "converted": 799,
+      "amount": 990,
+      "converted": 990,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 Chrome官店選白色910-005294，當頁799元且加入購物車可用；不沿用搜尋摘要990元。"
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "note": "2026-10-31 Logi網路旗艦店同型號／既有選定SKU主購買區Sale公開價990元，可加車；保留原有語言／軸體／顏色所選版本，不採刪除原價或其他型號價格。"
     },
     "installation": {
       "status": "not_stated",
@@ -2985,10 +2991,11 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 3990,
-      "converted": 3990,
+      "amount": 3390,
+      "converted": 3390,
       "basis": "retailer_current",
-      "confidence": "2026-09-07 人工覆核：Chrome官方旗艦店exact 910-007567一般版石墨灰，公開Sale3990，加入購物車可用；非For Mac、非會員券或加購。"
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "note": "2026-10-31 Logi網路旗艦店同型號／既有選定SKU主購買區Sale公開價3390元，可加車；保留原有語言／軸體／顏色所選版本，不採刪除原價或其他型號價格。"
     },
     "installation": {
       "status": "not_stated",

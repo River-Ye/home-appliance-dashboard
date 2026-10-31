@@ -1411,10 +1411,10 @@
     "name": "Saeco 半自動義式咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 4591,
-      "converted": 4591,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-31 原頁同型號公開價格4591元；不扣會員券、信用卡、點數或贈品，銷售／出貨條件依原通路。",
+      "amount": 4990,
+      "converted": 4990,
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "note": "2026-10-31 Yahoo同型主商品公開4990元可購；先前滿額92折已於07:59:59到期，今原頁無此折扣，不延用4591元。",
       "basis": "retailer_current"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/69fb8a2ae4-Gd-11322933.jpg",
@@ -1740,7 +1740,7 @@
       "converted": 12800,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 原頁主商品預告價8500，明示11/1 00:00開賣；當前10/31未開始，不能把預告價改為現價，保留舊參考。"
+      "note": "2026-10-31 所選momo原頁仍明示11/1 00:00開賣，預告價不當作可購現價；保留原參考價，待開賣後重查。"
     },
     "image": "https://storage.googleapis.com/uni-splendor.appspot.com/images/p/4ef71aab-221e-42be-80b7-67676515bb0d.png",
     "buyUrl": "https://www.momoshop.com.tw/product/14547707",
@@ -2281,7 +2281,7 @@
       "converted": 32000,
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 原頁主商品預告價28500，明示11/1 00:00開賣；當前10/31未開始，不能把預告價改為現價，保留舊參考。"
+      "note": "2026-10-31 所選momo原頁仍明示11/1 00:00開賣，預告價不當作可購現價；保留原參考價，待開賣後重查。"
     },
     "image": "https://storage.googleapis.com/uni-splendor.appspot.com/images/p/6cf71d58-a653-465a-a6c3-7089f7f37314.png",
     "buyUrl": "https://www.momoshop.com.tw/product/14956869",

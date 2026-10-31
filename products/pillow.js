@@ -112,8 +112,8 @@
     {
       id: "pillow-emma-black-diamond", variantFamily: "emma-black-diamond", brand: "Emma", model: "EPWCF040070RAB", name: "Emma 石墨烯黑鑽記憶枕 40x70 EPWCF040070RAB", type: "memory_foam", typeSpec: "三層記憶泡棉完整成品枕", budget: "premium", rank: 3, score: 90, price: 3199,
       priceConfidence: "2026-10-24官網主頁已改為40x70兩顆買一送一5599元；本卡3199元保留單顆舊參考，非確認現售價，不以二入總價或拆算單價跨包數寫入。",
-      priceNote: "2026-10-24官網主頁已改為40x70兩顆買一送一5599元；本卡3199元保留單顆舊參考，非確認現售價，不以二入總價或拆算單價跨包數寫入。",
-      image: "https://eu-images.contentstack.com/v3/assets/blt167b24547e5b1906/blt544d377e44af8545/67e680a37c440a8ddddc1448/Customizable_Cooling_Foam_Pillow_Layers_Gallery_(1).jpg", buyUrl: "https://www.emma-sleep.com.tw/black-diamond-pillow/", buyLabel: "Emma 台灣官網（單顆現售待確認）",
+      priceNote: "2026-10-31 官方所選頁目前為兩入總價5599元（頁列每顆2799.50），單入可購現價未確認；保留原單入3199元作參考，不將兩入總價或均價當單入價。",
+      image: "https://eu-images.contentstack.com/v3/assets/blt167b24547e5b1906/blt544d377e44af8545/67e680a37c440a8ddddc1448/Customizable_Cooling_Foam_Pillow_Layers_Gallery_(1).jpg", buyUrl: "https://www.emma-sleep.com.tw/black-diamond-pillow/", buyLabel: "官方目前兩入5599／單入現價未確認",
       sleep: "抽換一至三層對應趴睡、仰睡、側睡", cover: "高透氣可拆洗枕套", core: "Diamond Degree 黑鑽石棉、HRX 支撐棉、Hypergel 棉三層", height: "一至三層可調／軟硬隨層數與放置順序調整", size: "長 70 x 寬 40 cm", weight: "查不到", thermal: "Diamond Degree 石墨烯溫濕調節表層", origin: "官方台灣頁未標示產地與第三方認證", care: "布套可拆下機洗；泡棉層不可依布套方式水洗",
       description: "以三層可拆泡棉調整睡姿與高度，並把石墨烯溫控放在表層。", pros: ["三層可調", "30 天官方試睡", "涼感表層"], cons: ["無淨重與公分高度", "需要自行嘗試層數", "涼感受環境影響"], bestFor: "睡姿會改變、希望可拆層調整且重視散熱者。", recommendation: "收到後逐層試睡並保留完整包材；三層並不必然最適合每位側睡者。", warranty: "Emma 台灣官網售後與 30 天枕頭試睡；商品耐用保固年限依官網條款，頁面未另列。", tags: ["三層可調", "涼感", "30天試睡", "台灣官網"],
     },
@@ -234,6 +234,8 @@
     },
     {
       id: "pillow-hola-malaysia-latex-side", variantFamily: "hola-malaysia-latex-side", brand: "HOLA", model: "016582346", name: "HOLA 馬來西亞乳膠枕 正側睡型 H8.5/12.5 016582346", type: "latex", typeSpec: "天然乳膠完整成品枕", budget: "mid", rank: 23, score: 78, price: 1608,
+      priceConfidence: "2026-09-01 Chrome 已查核 016582346 確切新品頁與所選版本，頁面現價為 NT$1,608；不把其他尺寸、包數或贈品價套用。",
+      priceNote: "2026-10-31 HOLA同貨號頁顯示1447元但宅配補貨中；保留原參考價1608元並標示現貨未確認，不用缺貨價充現價或當停產。",
       image: "https://pcm.trplus.com.tw/1000x1000/sys-master/productImages/hd2/h53/12737724088350/000000000016582346-gallery-01-20260527140603838.jpg", buyUrl: "https://www.hola.com.tw/p/016582346", buyLabel: "HOLA 和樂家居（016582346）",
       sleep: "正側兩用，高低區對應仰睡／側睡", cover: "可拆式枕套，纖維比例查不到", core: "馬來西亞 100% 天然乳膠、Dunlop 工藝", height: "高 8.5／12.5 cm／柔 Q 支撐", size: "長 55 x 寬 37 x 高 12.5 cm", weight: "1.01 kg", thermal: "乳膠孔洞透氣", origin: "台灣製造；乳膠原料來自馬來西亞", care: "枕套低溫柔洗；枕芯不可水洗或曝曬",
       description: "55x37 的較小乳膠枕，用 8.5／12.5 cm 高低區支援正側睡。", pros: ["完整尺寸與重量", "高低區", "HOLA 門市可試"], cons: ["枕面較小", "核心不可水洗", "天然乳膠觸感需試"], bestFor: "想在台灣門市試高低區天然乳膠枕者。", recommendation: "官方規格高度以 12.5 cm 為整體高點；不要把名稱中的 8.5 cm 當成全枕高度。", warranty: "HOLA 台灣門市與官網售後；商品保固年限未標示。", tags: ["正側兩用", "天然乳膠", "台灣製造", "門市試躺"],

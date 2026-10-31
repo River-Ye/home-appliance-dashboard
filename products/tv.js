@@ -314,9 +314,11 @@
     "name": "65 型 OLED evo C6 4K 智慧顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 76900,
-      "converted": 76900,
-      "confidence": "2026-10-24人工核對www.lg.com同型號同版本公開TWD 76900；未扣個人化券、信用卡或點數。"
+      "amount": 69900,
+      "converted": 69900,
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-31 LG台灣商城在冊OLED65C6PTA原主商品69900元，84900元是刪除參考價；可立即購買，實際配送安裝依原店確認。"
     },
     "image": "https://i6.momoshop.com.tw/1781278602/goodsimg/TP000/9148/0000/554/TP00091480000554_L.webp",
     "buyUrl": "https://www.lg.com/tw/tv-soundbars/oled-evo/oled65c6pta/",
@@ -414,15 +416,15 @@
     "name": "BRAVIA 9 II 65 型 RGB LED 4K Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 95389,
-      "converted": 95389,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-28晚間原頁覆核：Y-65XR90M2主商品公開價95389TWD，本輪原頁可加入購物車；新活動電視/季節/美容家電 瘋搶價限時96折，滿1件享96折至2026-10-29T07:59:59+08:00，已替換上午到期活動。不含個人券、點數或信用卡回饋。",
+      "amount": 117900,
+      "converted": 117900,
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "note": "2026-10-31 原Yahoo exact型號已停售；改用PChome同一Y-65XR90M2新品117900元，API Qty10、原頁可加車，含桌放基本安裝及舊機回收。原Yahoo停售展示價與過期96折不採；尚無官方整型停產證據。",
       "basis": "retailer_current"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/F326F9F0C5-SP-23019953.jpg",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E5%90%AB%E6%A8%99%E6%BA%96%E5%AE%89%E8%A3%9D-SONY%E7%B4%A2%E5%B0%BC65%E5%90%8B%E5%90%8BRGB-4K%E9%80%A3%E7%B6%B2%E6%99%BA%E6%85%A7%E9%A1%AF%E7%A4%BA%E5%99%A8Y-65XR90M2-12159450.html",
-    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPADFN-A900K8SK0",
+    "buyLabel": "PChome（含桌放基本安裝）",
     "specs": [
       "尺寸：含底座 約 寬 144.5 x 深 34.1 x 高 90.6 cm",
       "重量：不含底座 約 26.6 kg；含底座 約 30.6 kg",
@@ -504,6 +506,10 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "所選PChome原頁明示含桌放安裝與舊機回收、無偏遠地區費；壁掛、特殊牆面、樓層搬運及非標準施工另向通路確認。"
     }
   },
   {
@@ -3130,9 +3136,11 @@
     "name": "65 型 OLED evo G6 4K 智慧顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 106765,
-      "converted": 106765,
-      "confidence": "LG 官方商城 2026-07-28 指定商品公開結帳 92 折價（企業客戶／員購除外）"
+      "amount": 104900,
+      "converted": 104900,
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-31 LG台灣商城在冊OLED65G6PTA原主商品104900元，114900元是刪除參考價；可立即購買，實際配送安裝依原店確認。"
     },
     "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tw/ms/lgcom/2026/tv-audio-video/tv/oled-evo/g6/gp1/gallery/65-g6/basic/lg-oled-evo-g6-2026-65-gallery-basic.jpg",
     "buyUrl": "https://www.lg.com/tw/tv-soundbars/oled-evo/oled65g6pta/",
@@ -4041,10 +4049,11 @@
     "name": "65 吋 Mini RGB evo AI 4K 智慧顯示器 86系列",
     "price": {
       "currency": "TWD",
-      "amount": 56905,
-      "converted": 56905,
+      "amount": 52155,
+      "converted": 52155,
       "basis": "retailer_current",
-      "confidence": "2026-09-07 myfone exact商品P0000203766917公開網路限定價56905；未登入瀏覽器確認可放入購物車。頁面另標9/14前結帳97折，但未核實結帳條件，未折算或計入會員/信用卡/點數回饋。"
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "note": "2026-10-31 myfone在冊65MRGB86BTA原主商品網路限定價52155元，含標準安裝與舊機回收；另列10/31前結帳97折，未自行推算是否再折，以下單頁確認。樓層及特殊施工可能加價。"
     },
     "installation": {
       "status": "included_basic",

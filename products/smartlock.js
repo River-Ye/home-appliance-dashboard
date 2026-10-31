@@ -1469,9 +1469,11 @@
     "name": "A100 智能門鎖",
     "price": {
       "currency": "TWD",
-      "amount": 13599,
-      "converted": 13599,
-      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 14241,
+      "converted": 14241,
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-31 原頁同型號主商品公開價格14241元；不扣會員券、信用卡、點數、贈品或相關商品價格。銷售／交期以原通路為準。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900I8573/000001_1749627194.png",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900I8573",
@@ -1561,9 +1563,11 @@
     "name": "D200i 智能門鎖",
     "price": {
       "currency": "TWD",
-      "amount": 24900,
-      "converted": 24900,
-      "confidence": "PChome 2026-09-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 23655,
+      "converted": 23655,
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-31 原頁同型號主商品公開價格23655元；不扣會員券、信用卡、點數、贈品或相關商品價格。銷售／交期以原通路為準。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAPFA900JXSH5/000001_1776828240.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAPF-A900JXSH5",
@@ -2004,9 +2008,9 @@
     "price": {
       "currency": "HKD",
       "amount": 9638,
-      "converted": 39986,
+      "converted": 40072,
       "basis": "retailer_current",
-      "confidence": "EasyLock 香港 2026-08-28 exact-model 公開促銷價；ExchangeRate-API 2026-10-30 匯率換算"
+      "confidence": "EasyLock 香港 2026-08-28 exact-model 公開促銷價；ExchangeRate-API 2026-10-31 匯率換算"
     },
     "installation": {
       "status": "included_basic",

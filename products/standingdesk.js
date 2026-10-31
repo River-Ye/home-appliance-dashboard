@@ -17,9 +17,11 @@
     "name": "智慧記憶電動升降桌 120x60",
     "price": {
       "currency": "TWD",
-      "amount": 9999,
-      "converted": 9999,
-      "confidence": "momo購物 2026-07-16 商品頁公開價"
+      "amount": 8499,
+      "converted": 8499,
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-31 momo所選F2二節式電動升降桌120×60圓弧桌面完整桌8499元，非相關F1/ET119或單桌架；由專人約配送，非保證24小時到貨。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBC1TA900HSZZ8/000001_1738574919.jpg",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=12281947",
@@ -605,11 +607,11 @@
     "name": "電動升降桌 UP002 WH",
     "price": {
       "currency": "TWD",
-      "amount": 7590,
-      "converted": 7590,
-      "confidence": "2026-10-24 人工核對 www.momoshop.com.tw 同型號與所選版本公開價 TWD 7590，可下單；未扣會員、信用卡或點數。",
+      "amount": 7990,
+      "converted": 7990,
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-24 momo公開單件價7590元；未滿20000元大型家具運費1350元另計，組裝/樓層搬運依原頁條款。"
+      "note": "2026-10-31 momo所選UP002 WH完整桌7990元；原頁明示單筆未滿20000元運費1350元，單台依此條件合計9340元，特殊配送仍依通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQCI0AA900IW7RS/000001_1768543932.jpg",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=14070530",

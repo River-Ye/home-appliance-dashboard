@@ -792,11 +792,12 @@
       "currency": "TWD",
       "amount": 14999,
       "converted": 14999,
-      "confidence": "momo 2026-07-31 exact-model 公開折後價（活動至 2026-07-31）"
+      "confidence": "momo 2026-07-31 exact-model 公開折後價（活動至 2026-07-31）",
+      "note": "2026-10-31 momo原頁12999元是11/1 00:00開賣的報價，本次查核時尚未開賣；保留14999元舊參考價，不把預告價當目前可購現價。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900IT3IU/000001_1763087795.jpg",
     "buyUrl": "https://www.momoshop.com.tw/product/14001201",
-    "buyLabel": "momo",
+    "buyLabel": "momo（11/01開賣，現價待確認）",
     "specs": [
       "滾筒活水洗地",
       "16 倍壓強",
@@ -1079,10 +1080,10 @@
     "name": "AI 藍光辨識超薄掃拖旗艦機低矮版",
     "price": {
       "currency": "TWD",
-      "amount": 28782,
-      "converted": 28782,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
-      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。",
+      "amount": 31980,
+      "converted": 31980,
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "note": "2026-10-31 原頁同型號主商品公開價，主購買區可加車；不扣個人券、信用卡、點數、贈品或相關商品價格。 先前單件折扣已到期，本次採目前主商品明示價。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL3EA900JZ3SP/000001_1780033309.jpg",
@@ -1177,10 +1178,10 @@
     "name": "全能掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 8999,
-      "converted": 8999,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
-      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。",
+      "amount": 9999,
+      "converted": 9999,
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "note": "2026-10-31 原頁同型號主商品公開價，主購買區可加車；不扣個人券、信用卡、點數、贈品或相關商品價格。 先前單件折扣已到期，本次採目前主商品明示價。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL3EA900JY4G0/000001_1780033612.jpg",
@@ -1372,8 +1373,8 @@
     "price": {
       "currency": "EUR",
       "amount": 1099,
-      "converted": 39930,
-      "confidence": "2026-10-24人工核對de.narwal.com同型號同版本公開EUR 1099；未扣個人化券、信用卡或點數。；ExchangeRate-API 2026-10-30 匯率換算",
+      "converted": 40027,
+      "confidence": "2026-10-24人工核對de.narwal.com同型號同版本公開EUR 1099；未扣個人化券、信用卡或點數。；ExchangeRate-API 2026-10-31 匯率換算",
       "note": "2026-10-24德國官方白色標準站單機套裝公開EUR1099；未扣需輸入優惠碼的Halloween折扣。未含國際運費、進口稅，台灣電壓/插頭及保固/跨國送修風險另核。"
     },
     "image": "https://de.narwal.com/cdn/shop/files/narwal-flow-2-saugroboter-mit-selbstreinigung-9224922_1200x1200.png?v=1781597108",
@@ -1469,8 +1470,8 @@
     "price": {
       "currency": "USD",
       "amount": 551.69,
-      "converted": 17958,
-      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-10-30 匯率換算"
+      "converted": 17995,
+      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-10-31 匯率換算"
     },
     "image": "https://img.gkbcdn.com/p/2025-04-11/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438-0._w315_.jpg",
     "buyUrl": "https://www.geekbuying.com/item/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438.html",
@@ -2232,11 +2233,11 @@
     "name": "極薄滾筒掃拖機器人旗艦版",
     "price": {
       "currency": "TWD",
-      "amount": 23665,
-      "converted": 23665,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "amount": 24911,
+      "converted": 24911,
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
+      "note": "2026-10-31 原頁同型號主商品公開價，主購買區可加車；不扣個人券、信用卡、點數、贈品或相關商品價格。 先前單件折扣已到期，本次採目前主商品明示價。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL5WA900JXBY3/000001_1776393356.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL5W-A900JXBY3",
@@ -2620,8 +2621,8 @@
     "price": {
       "currency": "USD",
       "amount": 999.99,
-      "converted": 32551,
-      "confidence": "SharkNinja US 2026-07-21 來源價；ExchangeRate-API 2026-10-30 匯率換算"
+      "converted": 32618,
+      "confidence": "SharkNinja US 2026-07-21 來源價；ExchangeRate-API 2026-10-31 匯率換算"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/RV2820ZE_01.jpg",
     "buyUrl": "https://www.sharkninja.com/shark-powerdetect-2-in-1-robot-vacuum-and-mop-with-nevertouch-pro-base/RV2820ZE.html",
@@ -2814,9 +2815,9 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 13020,
-      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-10-30 匯率換算",
-      "note": "2026-10-19 Costco 原商品頁已失效，未確認同型號新品現售；保留原幣參考價，只更新匯率換算，不以 QX Revo Arc／Plus／Max 替代。"
+      "converted": 13047,
+      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-10-31 匯率換算",
+      "note": "2026-10-31 Costco 原商品頁仍失效，原廠美國 QX Revo 商品頁亦為404；同型號新品現售未確認，保留最後可驗證原幣參考價與匯率換算，不以 QX Revo Arc／Plus／Max 替代。"
     },
     "image": "https://cdn.cs.1worldsync.com/syndication/mediaserverredirect/aaaa71b7b115f7d0cbeb119d8fc3ad7b/width%281200%29.jpg",
     "buyUrl": "https://www.costco.com/p/-/roborock-qx-revo-robot-vacuum-and-mop-with-multifunctional-dock/4000233271",
@@ -3844,11 +3845,11 @@
     "name": "Xiaomi 掃拖機器人 6 Pro",
     "price": {
       "currency": "TWD",
-      "amount": 19949,
-      "converted": 19949,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "amount": 20999,
+      "converted": 20999,
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
+      "note": "2026-10-31 原頁同型號主商品公開價，主購買區可加車；不扣個人券、信用卡、點數、贈品或相關商品價格。 先前單件折扣已到期，本次採目前主商品明示價。"
     },
     "installation": {
       "status": "not_stated",
@@ -4478,14 +4479,15 @@
     "name": "Roomba Max 875 Combo 巨無霸滾筒掃拖機器人（預購）",
     "price": {
       "currency": "TWD",
-      "amount": 34999,
-      "converted": 34999,
+      "amount": 34199,
+      "converted": 34199,
       "basis": "retailer_current",
-      "confidence": "2026-10-23讀momo品號15715104公開促銷價34999元、1年保固，頁面明示預購2026/11/10–11/16出貨；不扣券/回饋。官方HDC另38888元且寫11/30出貨，依通路分列不混用交期。"
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "note": "2026-10-31 momo所選Roomba Max875 Combo公開單件折800後34199元，活動10/29–11/03；原頁明示預購，預計2026/11/03–11/09出貨。"
     },
     "image": "https://irobot.tw/wp-content/uploads/2026/09/Roomba-Max-875-Combo-%E7%94%A2%E5%93%81%E5%9C%96.jpg",
     "buyUrl": "https://www.momoshop.com.tw/product/15715104",
-    "buyLabel": "momo購物網（預購）",
+    "buyLabel": "momo（預購11/03–11/09出貨）",
     "specs": [
       "類型：掃拖機器人＋AutoWash多功能基座；台灣Roomba Max 875 Combo，預購品",
       "35,000Pa吸力、20L/s氣流與SealForce密閉強吸；不同測量指標不直接相加",

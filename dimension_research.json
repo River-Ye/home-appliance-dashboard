@@ -10946,6 +10946,40 @@
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
       "weightCheckedAt": "2026-10-31"
+    },
+    {
+      "id": "oven-panasonic-nn-bs10ek",
+      "category": "oven",
+      "brand": "Panasonic",
+      "model": "NN-BS10EK",
+      "name": "30L 智慧5in1蒸烘烤氣炸微波爐（台灣公司貨）",
+      "dimension": "尺寸：寬 49.4 x 深 48.6 x 高 37 cm",
+      "sourceUrl": "https://www.panasonic.com/tw/consumer/kitchen/microwave/nn-bs10ek.html",
+      "sourceTitle": "Panasonic台灣NN-BS10EK官方產品與展開規格",
+      "evidenceSnippet": "2026-10-31 原生Chrome人工讀exact NN-BS10EK規格：本體高×寬×深370×494×486mm（含把手之深度），換算寬49.4×深48.6×高37cm；非爐腔、包裝或外箱。原頁尺寸和重量區另列高370/寬494/深486mm，兩區相符。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-10-31",
+      "weight": "重量：20.3 kg",
+      "weightSourceUrl": "https://www.panasonic.com/tw/consumer/kitchen/microwave/nn-bs10ek.html",
+      "weightSourceTitle": "Panasonic台灣NN-BS10EK官方重量表",
+      "weightEvidenceSnippet": "同一exact-model原頁尺寸和重量與展開規格均列本體重量約20.3kg；不採PXBox19.7kg或外箱毛重25kg，亦不移用NN-BS8DK19.8kg。",
+      "weightConfidence": "high",
+      "weightIsOfficialSource": true,
+      "weightCheckedAt": "2026-10-31",
+      "checkedSources": [
+        {
+          "url": "https://www.panasonic.com/tw/consumer/kitchen/microwave/nn-bs10ek.html",
+          "title": "Panasonic台灣NN-BS10EK",
+          "localEvidence": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-10-31-followup/nnbs10-native-evidence.json",
+          "outcome": "原生Chrome展開完整規格，人工讀取型號、本體軸序、重量、電力與安裝圖。direct403不假稱直接下載成功。"
+        },
+        {
+          "url": "https://www.3uo.tw/ecommerce/NN-BS10EK/",
+          "title": "玉明NN-BS10EK",
+          "outcome": "原頁寬494×深486×高370mm、20.3kg及110V60Hz與官方相符，來源需先聯絡確認供貨，不作選定可購價。"
+        }
+      ]
     }
   ]
 }

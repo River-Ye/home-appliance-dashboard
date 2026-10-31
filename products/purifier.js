@@ -1088,12 +1088,12 @@
       "amount": 24900,
       "converted": 24900,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
-      "note": "2026-10-31 台灣Dyson官方HP12白金色單機特價24900元；本次官網實際畫面明示預購、預計2026/11/03出貨，實際交期以下單頁最終確認為準。1888濾網及延長保固另購，不用JSON-LD原價29900替代特價。",
+      "note": "2026-10-31 Dyson官方HP12白金單機特價24900元；主購買區明示預購、預計2026/11/03出貨。29900元是原價，1888元濾網與延長保固另購，不扣領券。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3CA900I7ORK/000001_1782810487.jpg",
     "buyUrl": "https://shop.dyson.tw/fans-and-heaters/air-purifier-heaters/dyson-purifier-hot-cool-de-nox-purifying-fan-heater-white-gold-546388-01",
-    "buyLabel": "Dyson 官方（預購，交期以官網為準）",
+    "buyLabel": "Dyson 官方（預購，預計11/03）",
     "specs": [
       "涼暖二合一",
       "甲醛/NOx 偵測",
@@ -2683,10 +2683,11 @@
     "name": "米家智慧空氣清淨機 6",
     "price": {
       "currency": "TWD",
-      "amount": 5611,
-      "converted": 5611,
-      "confidence": "2026-10-24 人工核對 www.momoshop.com.tw 同型號與所選版本公開價 TWD 5611，可下單；未扣會員、信用卡或點數。",
-      "basis": "retailer_current"
+      "amount": 5799,
+      "converted": 5799,
+      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-10-31 momo AC-M25-SC單台主商品公開單件折1200後5799元，活動10/01–10/31；兩組平均5599不是此單台價格。"
     },
     "image": "https://i1.momoshop.com.tw/1786110782/goodsimg/0015/189/670/15189670_R_m.webp",
     "buyUrl": "https://www.momoshop.com.tw/product/15189670",
