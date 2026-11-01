@@ -409,10 +409,11 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 990,
-      "converted": 990,
+      "amount": 899,
+      "converted": 899,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 Chrome原頁選石墨灰920-011745，公開990元、加入購物車可見。"
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-02 羅技台灣原頁所選型號公開單件價899元，可加車；不採折前價、其他版本或個人折扣。"
     },
     "installation": {
       "status": "not_stated",
@@ -451,16 +452,16 @@
     "releaseDate": "2023-09",
     "historicalLow": {
       "status": "found",
-      "amount": 990,
+      "amount": 899,
       "currency": "TWD",
-      "converted": 990,
-      "sourceUrl": "https://biggo.com.tw/s/Logitech%20K380s",
-      "sourceTitle": "BigGo K380S／PChome石墨灰價格歷史",
-      "evidenceSnippet": "2026-08-31 Chrome人工開PChome DCBE2G-A900GZG05 石墨灰條目的歷史價：可見2025-08-31 21:32為990元。原商品頁為台灣中文K380S石墨灰、NCC CCAI23LP0080T0、1年保固。",
-      "sourceKind": "price_history",
+      "converted": 899,
+      "sourceUrl": "https://store.logitech.tw/products/k380s",
+      "sourceTitle": "Logitech K380S 同型號原通路商品頁",
+      "evidenceSnippet": "2026-11-02 人工核對同型號新品公開價 899 TWD，低於既有史低 990。首頁 / Logitech Pebble K380S 跨平台藍牙鍵盤 920-011745 Logitech Pebble K380S 跨平台藍牙鍵盤 $1,090 $899 / Sale 顏色: 石墨灰 石墨灰 珍珠白 玫瑰粉 數量 加入購物車 ",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-08-31",
-      "note": "可驗證歷史價格點NT$990，與目前旗艦店相同；歷史只見區間邊界一個價格點，不是全歷史最低保證。PChome未明列745 SKU，以官方台灣唯一石墨灰中文注音版本對應；不套多色父商品、套裝或海外語言版。"
+      "checkedAt": "2026-11-02",
+      "note": "同型號可信新品公開價；排除個人券、點數、信用卡回饋、二手、福利、展示、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -507,10 +508,11 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 1290,
-      "converted": 1290,
+      "amount": 1090,
+      "converted": 1090,
       "basis": "retailer_current",
-      "confidence": "2026-10-24 人工核對 store.logitech.tw 同型號與所選版本公開價 TWD 1290，可下單；未扣會員、信用卡或點數。"
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-02 羅技台灣原頁所選型號公開單件價1090元，可加車；不採折前價、其他版本或個人折扣。"
     },
     "installation": {
       "status": "not_stated",

@@ -18,7 +18,7 @@
       "amount": 20497,
       "converted": 20497,
       "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
-      "note": "2026-10-31 LG台灣原主商品前台WD-S90VDW公開20497元、現省8403元及立即購買；28900元為刪除參考價，非推薦商品價或個人券。",
+      "note": "2026-11-02 LG原exact型號schema出現19170但本輪正文主價未呈現；未確認所選主購買區數字，保留20497舊參考價。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -857,9 +857,11 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/826F52E782-SP-22137065.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 32790,
-      "converted": 32790,
-      "confidence": "2026-10-24人工核對www.momoshop.com.tw同型號同版本公開TWD 32790；未扣個人化券、信用卡或點數。"
+      "amount": 34022,
+      "converted": 34022,
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-02 momo 所選BWDV100EJ主商品TP00068370000303公開34022，數量1至8、可直接購買，1年保固、含標準安裝與舊機回收；實際送貨由廠商約定。"
     },
     "channel": "tw",
     "buyLabel": "momo購物",
@@ -1273,11 +1275,11 @@
     "image": "https://cs-a.ecimg.tw/items/DPAI1HA900AMJJK/000001_1761009175.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 21414,
-      "converted": 21414,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 21912,
+      "converted": 21912,
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-01 人工逐筆核對PChome原產品API：Panasonic國際牌 變頻12公斤洗脫烘滾筒洗衣機 NA-V120HDH-G；Price.Low=21414元，Qty=20，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
+      "note": "2026-11-02 人工核對PChome原主商品與API：Panasonic國際牌 變頻12公斤洗脫烘滾筒洗衣機 NA-V120HDH-G；Price.Low=21912元、Qty=20，商品ID/原頁主價一致，可訂購；不扣個人券、點數或信用卡回饋。實際配送安裝以通路確認。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -2727,10 +2729,10 @@
     "image": "https://pstw.panasonic.com.tw/shop/Upload/Product/20260514190222S44S2J5E.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 38614,
-      "converted": 38614,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-01 人工逐筆核對PChome原產品API：Panasonic國際牌 10.5公斤日本製低溫柔護烘乾洗脫烘滾筒洗衣機NA-SD10TB(雪霧白)；Price.Low=38614元，Qty=20，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。",
+      "amount": 39512,
+      "converted": 39512,
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-02 人工核對PChome原主商品與API：Panasonic國際牌 10.5公斤日本製低溫柔護烘乾洗脫烘滾筒洗衣機NA-SD10TB(雪霧白)；Price.Low=39512元、Qty=20，商品ID/原頁主價一致，可訂購；不扣個人券、點數或信用卡回饋。實際配送安裝以通路確認。",
       "basis": "retailer_current"
     },
     "channel": "tw",

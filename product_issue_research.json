@@ -1,9 +1,9 @@
 {
   "summary": {
-    "checkedAt": "2026-10-31T11:48:51.721+08:00",
-    "total": 1231,
+    "checkedAt": "2026-11-02T07:08:48.142+08:00",
+    "total": 1232,
     "commonIssueProducts": 54,
-    "noCommonIssueProducts": 1177,
+    "noCommonIssueProducts": 1178,
     "pendingManualReview": 0,
     "commonIssues": 55,
     "searchUnavailable": 614,
@@ -35,7 +35,8 @@
       "2026-10-29僅新增兩款逐型跨站人工問題覆核；Ninja原頁星等不計故障，Q11 Ultra海外家族個案未確認台灣選定紅軸，不借用跨區域或軸體報告。既有1222筆問題研究與392筆逐人報告保留真實日期及內容。",
       "2026-10-30僅新增本批4款的逐型跨站人工覆核；其他1224筆及392筆逐人報告保留原始研究日期與內容，不跨尺寸、版本、相近型號轉借結論。",
       "2026-10-31僅新增本批2款的逐型跨站人工覆核；其他1228筆及392筆逐人報告保留原始研究日期與內容，不跨尺寸、版本、相近型號轉借結論。",
-      "2026-10-31僅新增NN-BS10EK逐型跨站人工覆核，保留舊1230筆研究與392筆逐人報告原始日期及內容，不跨台灣/日本近型或歷代產品轉借結論。"
+      "2026-10-31僅新增NN-BS10EK逐型跨站人工覆核，保留舊1230筆研究與392筆逐人報告原始日期及內容，不跨台灣/日本近型或歷代產品轉借結論。",
+      "2026-11-02僅新增本批1款的逐型跨站人工覆核；其他1231筆及392筆逐人報告保留原始研究日期與內容，不跨尺寸、版本、相近型號轉借結論。"
     ]
   },
   "results": [
@@ -221021,6 +221022,131 @@
           "reason": "留言是MC-NXH70吸塵器通路供貨疑問，非本型微波爐故障，不能跨分類累計。已由原生瀏覽器讀原頁，不用web工具該頁失敗推斷內容。"
         }
       ]
+    },
+    {
+      "id": "refrigerator-hitachi-hrtn5275mf1",
+      "category": "refrigerator",
+      "brand": "HITACHI",
+      "model": "HRTN5275MF1",
+      "name": "HITACHI HRTN5275MF1 260L 一級能效變頻雙門冰箱（璀璨銀）",
+      "identity": {
+        "canonicalModel": "HRTN5275MF1",
+        "lookupLabel": "HITACHI HRTN5275MF1",
+        "aliases": [
+          "HITACHI HRTN5275MF1",
+          "HRTN5275MF1XTW"
+        ],
+        "evidenceUrl": "https://hitachi-homeappliances.com.tw/products/products_feature.php?pid=HRTN5275MF1"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "id": "refrigerator-hitachi-hrtn5275mf1",
+        "category": "refrigerator",
+        "brand": "HITACHI",
+        "model": "HRTN5275MF1",
+        "reviewedAt": "2026-11-02",
+        "reviewBatch": "refrigerator",
+        "decision": "no_common_issue",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT",
+          "Dcard"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "\"HRTN5275MF1\" site:mobile01.com/topicdetail.php",
+            "queryUrl": "https://www.google.com/search?q=%22HRTN5275MF1%22%20site%3Amobile01.com%2Ftopicdetail.php"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "\"HRTN5275MF1\" site:ptt.cc/bbs/",
+            "queryUrl": "https://www.google.com/search?q=%22HRTN5275MF1%22%20site%3Aptt.cc%2Fbbs%2F"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "\"HRTN5275MF1\" site:dcard.tw/f/",
+            "queryUrl": "https://www.google.com/search?q=%22HRTN5275MF1%22%20site%3Adcard.tw%2Ff%2F"
+          }
+        ],
+        "candidateDisposition": "已逐一人工檢視HRTN5275MF1在Mobile01、PTT、Dcard三個原始網站的exact-model搜尋回應，三站均無此型號原頁候選；另以站點domain filter覆查仍為空結果。未把舊HRTN5275MF、香港／泰國版本、零售頁或搜尋推薦算作使用者回報；僅截至查核日未達六名獨立使用者跨兩站門檻，不宣稱完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "已逐一人工檢視HRTN5275MF1在Mobile01、PTT、Dcard三個原始網站的exact-model搜尋回應，三站均無此型號原頁候選；另以站點domain filter覆查仍為空結果。未把舊HRTN5275MF、香港／泰國版本、零售頁或搜尋推薦算作使用者回報；僅截至查核日未達六名獨立使用者跨兩站門檻，不宣稱完全沒有負評。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate",
+        "checkedAt": "2026-11-02"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-11-02",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "\"HRTN5275MF1\" site:mobile01.com/topicdetail.php",
+            "queryUrl": "https://www.google.com/search?q=%22HRTN5275MF1%22%20site%3Amobile01.com%2Ftopicdetail.php"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "\"HRTN5275MF1\" site:ptt.cc/bbs/",
+            "queryUrl": "https://www.google.com/search?q=%22HRTN5275MF1%22%20site%3Aptt.cc%2Fbbs%2F"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "\"HRTN5275MF1\" site:dcard.tw/f/",
+            "queryUrl": "https://www.google.com/search?q=%22HRTN5275MF1%22%20site%3Adcard.tw%2Ff%2F"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "人工跨站搜尋：Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"HRTN5275MF1\" site:mobile01.com/topicdetail.php",
+          "queryUrl": "https://www.google.com/search?q=%22HRTN5275MF1%22%20site%3Amobile01.com%2Ftopicdetail.php",
+          "searchUrl": "https://www.google.com/search?q=%22HRTN5275MF1%22%20site%3Amobile01.com%2Ftopicdetail.php",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-01T23:08:03.904376Z"
+        },
+        {
+          "platform": "人工跨站搜尋：PTT",
+          "targetHost": "ptt.cc",
+          "query": "\"HRTN5275MF1\" site:ptt.cc/bbs/",
+          "queryUrl": "https://www.google.com/search?q=%22HRTN5275MF1%22%20site%3Aptt.cc%2Fbbs%2F",
+          "searchUrl": "https://www.google.com/search?q=%22HRTN5275MF1%22%20site%3Aptt.cc%2Fbbs%2F",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-01T23:08:03.904376Z"
+        },
+        {
+          "platform": "人工跨站搜尋：Dcard",
+          "targetHost": "dcard.tw",
+          "query": "\"HRTN5275MF1\" site:dcard.tw/f/",
+          "queryUrl": "https://www.google.com/search?q=%22HRTN5275MF1%22%20site%3Adcard.tw%2Ff%2F",
+          "searchUrl": "https://www.google.com/search?q=%22HRTN5275MF1%22%20site%3Adcard.tw%2Ff%2F",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-01T23:08:03.904376Z"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [],
+      "reports": []
     }
   ]
 }

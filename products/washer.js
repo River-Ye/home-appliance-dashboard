@@ -333,10 +333,11 @@
       "currency": "TWD",
       "amount": 21032,
       "converted": 21032,
-      "confidence": "Yahoo購物中心 2026-07-21 頁面公開價"
+      "confidence": "Yahoo購物中心 2026-07-21 頁面公開價",
+      "note": "2026-11-02 Yahoo所選NA-V190MT-PN主價21510但已售完；保留21032舊參考價，不採售完展示價。"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心",
+    "buyLabel": "Yahoo購物（缺貨，現價待確認）",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic%E5%9C%8B%E9%9A%9B%E7%89%8C-19%E5%85%AC%E6%96%A4-%E9%9B%99%E7%A7%91%E6%8A%80%E8%AE%8A%E9%A0%BB%E7%9B%B4%E7%AB%8B%E5%BC%8F%E6%B4%97%E8%A1%A3%E6%A9%9F-NA-V190MT-PN-%E7%8E%AB%E7%91%B0%E9%87%91-10097010.html",
     "specs": [
       "洗衣機：Panasonic國際牌 19KG 變頻直立式洗衣機 NA-V190MT-PN 玫瑰金",

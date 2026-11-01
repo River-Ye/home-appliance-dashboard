@@ -1744,7 +1744,7 @@
       "converted": 8500,
       "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-01 momo14547707金屬銀BES450XL已開賣，主價8500元、數量1–20、原生瀏覽器立即購買／加車可見；訂單確認後預計11/02出貨、保固1年。"
+      "note": "2026-11-02 momo14547707金屬銀BES450XL主價8500元、數量1–20；預計11/03出貨、1年保固，未扣點數與其他BES款價格。"
     },
     "image": "https://storage.googleapis.com/uni-splendor.appspot.com/images/p/4ef71aab-221e-42be-80b7-67676515bb0d.png",
     "buyUrl": "https://www.momoshop.com.tw/product/14547707",
@@ -2287,7 +2287,7 @@
       "converted": 28500,
       "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-01 momo14956869雪花白BES878XL已開賣，主價28500元、數量1–18、原生瀏覽器立即購買／加車可見；訂單確認後預計11/02出貨、保固1年。"
+      "note": "2026-11-02 momo14956869雪花白BES878XL主價28500元、數量1–18；預計11/03出貨、1年保固，不引用相關BES450價格。"
     },
     "image": "https://storage.googleapis.com/uni-splendor.appspot.com/images/p/6cf71d58-a653-465a-a6c3-7089f7f37314.png",
     "buyUrl": "https://www.momoshop.com.tw/product/14956869",

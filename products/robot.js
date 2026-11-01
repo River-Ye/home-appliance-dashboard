@@ -16,10 +16,10 @@
     "name": "全能機械手臂旗艦掃拖王者",
     "price": {
       "currency": "TWD",
-      "amount": 31124,
-      "converted": 31124,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-01 人工逐筆核對PChome原產品API：石頭掃地機器人 Roborock Saros Z70；Price.Low=31124元，Qty=20，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。",
+      "amount": 33111,
+      "converted": 33111,
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-02 人工核對PChome原主商品與API：石頭掃地機器人 Roborock Saros Z70；Price.P=33111元、Qty=20，商品ID/原頁主價一致，可訂購；不扣個人券、點數或信用卡回饋。實際配送安裝以通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900IGHHM/000001_1782870336.jpg",
@@ -118,11 +118,11 @@
       "converted": 30184,
       "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-01 人工逐筆核對PChome原產品API：Roborock 石頭科技 石頭掃地機器人 Saros 20水立方；Price.Low=30184元，Qty=13，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
+      "note": "2026-11-02 PChome所選水立方主頁32111雖schemaInStock，但原頁有貨通知我且exactAPIQty0；保留30184舊參考價，不採缺貨展示價。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JNELR/000001_1769062030.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JNELR",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（缺貨，現價待確認）",
     "specs": [
       "36000Pa",
       "100 度熱水洗",
@@ -301,11 +301,11 @@
     "name": "跨越奇兵旗艦越障掃拖王者",
     "price": {
       "currency": "TWD",
-      "amount": 28116,
-      "converted": 28116,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 29911,
+      "converted": 29911,
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-01 人工逐筆核對PChome原產品API：Roborock 石頭科技掃地機器人Saros 20；Price.Low=28116元，Qty=20，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
+      "note": "2026-11-02 人工核對PChome原主商品與API：Roborock 石頭科技掃地機器人Saros 20；Price.P=29911元、Qty=20，商品ID/原頁主價一致，可訂購；不扣個人券、點數或信用卡回饋。實際配送安裝以通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JMMCO/000001_1769061975.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JMMCO",
@@ -399,11 +399,11 @@
     "name": "雙越野高智商旗艦級掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 23416,
-      "converted": 23416,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 24911,
+      "converted": 24911,
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-01 人工逐筆核對PChome原產品API：石頭掃地機器人 Roborock Qrevo Edge 2 Pro；Price.Low=23416元，Qty=20，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
+      "note": "2026-11-02 人工核對PChome原主商品與API：石頭掃地機器人 Roborock Qrevo Edge 2 Pro；Price.P=24911元、Qty=20，商品ID/原頁主價一致，可訂購；不扣個人券、點數或信用卡回饋。實際配送安裝以通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JPHOP/000001_1782870240.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JPHOP",
@@ -498,11 +498,11 @@
     "name": "滾筒全自動洗拖烘掃地機器人",
     "price": {
       "currency": "TWD",
-      "amount": 16836,
-      "converted": 16836,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 17859,
+      "converted": 17859,
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-01 人工逐筆核對PChome原產品API：Roborock 石頭科技 掃地機器人Qrevo Curv2 Flow；Price.Low=16836元，Qty=20，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
+      "note": "2026-11-02 人工核對PChome原主商品與API：Roborock 石頭科技 掃地機器人Qrevo Curv2 Flow；Price.Low=17859元、Qty=20，商品ID/原頁主價一致，可訂購；不扣個人券、點數或信用卡回饋。實際配送安裝以通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JA04J/000001_1783562731.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JA04J",
@@ -596,10 +596,10 @@
     "name": "無限續航滾筒洗地機器人上下水款",
     "price": {
       "currency": "TWD",
-      "amount": 24700,
-      "converted": 24700,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-31 Yahoo所選DEEBOT X11 PRO上下水款主商品24700元，明示新品預購中，到貨依訂單發貨；不將水箱版庫存套用。 公開活動滿1件享95折，有效至2026-11-02T07:00:59+08:00。",
+      "amount": 25999,
+      "converted": 25999,
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-02 Yahoo所選同型號主商品公開價25999元，原頁可訂購；不扣個人券、信用卡、點數或贈品。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900JRDAS/000001_1771917633.jpg",
@@ -1083,10 +1083,10 @@
     "name": "AI 藍光辨識超薄掃拖旗艦機低矮版",
     "price": {
       "currency": "TWD",
-      "amount": 31911,
-      "converted": 31911,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-01 人工逐筆核對PChome原產品API：Dreame 追覓科技 X60 Master AI藍光辨識超薄掃拖旗艦機(低矮版)；Price.P=31911元，Qty=10，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。",
+      "amount": 28719,
+      "converted": 28719,
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-02 人工核對PChome原主商品與API：Dreame 追覓科技 X60 Master AI藍光辨識超薄掃拖旗艦機(低矮版)；Price.Low=28719元、Qty=9，商品ID/原頁主價一致，可訂購；不扣個人券、點數或信用卡回饋。實際配送安裝以通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL3EA900JZ3SP/000001_1780033309.jpg",
@@ -1376,9 +1376,9 @@
     "price": {
       "currency": "EUR",
       "amount": 1099,
-      "converted": 40027,
-      "confidence": "2026-10-24人工核對de.narwal.com同型號同版本公開EUR 1099；未扣個人化券、信用卡或點數。；ExchangeRate-API 2026-10-31 匯率換算",
-      "note": "2026-11-01 Narwal德國原選variant52366680523028實為黑色標準基站單機，非舊註記的白色；頁面主價EUR999與variant資料EUR1079並存，且多版本ausverkauft模板與加車按鈕並列，本輪未確認該選定版本實際可售。保留EUR1099舊參考價，未扣輸碼優惠；未含國際運費、進口稅、台灣電壓/插頭及台灣保固風險。"
+      "converted": 40018,
+      "confidence": "2026-10-24人工核對de.narwal.com同型號同版本公開EUR 1099；未扣個人化券、信用卡或點數。；ExchangeRate-API 2026-11-01 匯率換算",
+      "note": "2026-11-02 Narwal德國所選Flow2版本原頁本輪HTTP429，無可讀主價與庫存；不採他版本或搜尋摘要，保留EUR1099舊參考價與海外風險。"
     },
     "image": "https://de.narwal.com/cdn/shop/files/narwal-flow-2-saugroboter-mit-selbstreinigung-9224922_1200x1200.png?v=1781597108",
     "buyUrl": "https://de.narwal.com/products/narwal-flow-2-saugroboter-mit-selbstreinigung?variant=52366680523028",
@@ -1473,8 +1473,8 @@
     "price": {
       "currency": "USD",
       "amount": 551.69,
-      "converted": 17995,
-      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-10-31 匯率換算"
+      "converted": 17991,
+      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-11-01 匯率換算"
     },
     "image": "https://img.gkbcdn.com/p/2025-04-11/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438-0._w315_.jpg",
     "buyUrl": "https://www.geekbuying.com/item/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438.html",
@@ -2623,13 +2623,15 @@
     "name": "自動補水洗烘拖布掃拖機器人",
     "price": {
       "currency": "USD",
-      "amount": 999.99,
-      "converted": 32618,
-      "confidence": "SharkNinja US 2026-07-21 來源價；ExchangeRate-API 2026-10-31 匯率換算"
+      "amount": 549.99,
+      "converted": 17935,
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-02 Shark美國所選黑色RV2820ZE公開主價USD549.99、刪除原價999.99；exact黑色variation原API available/readyToOrder均true，白色另一SKUOutOfStock不混用。API另留未來inStockDate2026-12-18，實際出貨日未確認，不稱即時現貨；未扣代碼或個人會員折扣，未含國際運費、進口稅、台灣電壓/插頭與台灣保固風險。"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/RV2820ZE_01.jpg",
     "buyUrl": "https://www.sharkninja.com/shark-powerdetect-2-in-1-robot-vacuum-and-mop-with-nevertouch-pro-base/RV2820ZE.html",
-    "buyLabel": "SharkNinja US",
+    "buyLabel": "Shark 美國（可訂購，交期請確認）",
     "specs": [
       "NeverTouch Pro 基站",
       "自動補水",
@@ -2820,8 +2822,8 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 13047,
-      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-10-31 匯率換算",
+      "converted": 13044,
+      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-11-01 匯率換算",
       "note": "2026-11-01 原Costco美國QXRevo頁HTTP404，現貨與現價未確認；保留USD399.99舊參考價，含海外運稅、電力與台灣保固風險，不能推定原廠整型停產。"
     },
     "image": "https://cdn.cs.1worldsync.com/syndication/mediaserverredirect/aaaa71b7b115f7d0cbeb119d8fc3ad7b/width%281200%29.jpg",
@@ -3433,11 +3435,11 @@
     "name": "搖滾天王超薄活水滾筒掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 22476,
-      "converted": 22476,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 23911,
+      "converted": 23911,
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-01 人工逐筆核對PChome原產品API：Roborock 石頭科技掃地機器人Qrevo Edge 2 Flow；Price.Low=22476元，Qty=20，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
+      "note": "2026-11-02 人工核對PChome原主商品與API：Roborock 石頭科技掃地機器人Qrevo Edge 2 Flow；Price.P=23911元、Qty=20，商品ID/原頁主價一致，可訂購；不扣個人券、點數或信用卡回饋。實際配送安裝以通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900K7R6R/000001_1785985365.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900K7R6R",
@@ -3542,10 +3544,11 @@
     "name": "5300Pa LiDAR 自動集塵掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 7999,
-      "converted": 7999,
-      "confidence": "2026-09-07 下午 momo 原頁顯示7,999，但只有可訂購時通知我／加入追蹤；保留原紀錄價，現貨待確認，不採推薦區RV50或耗材價。",
-      "basis": "retailer_current"
+      "amount": 5888,
+      "converted": 5888,
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-02 momo 所選TapoRV30MaxPlus主商品5888，數量1至9、1年保固；相關RV50ProOmni9511及VIP13999不是本商品價。"
     },
     "installation": {
       "status": "not_stated",
@@ -3850,11 +3853,11 @@
     "name": "Xiaomi 掃拖機器人 6 Pro",
     "price": {
       "currency": "TWD",
-      "amount": 18911,
-      "converted": 18911,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 17965,
+      "converted": 17965,
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-01 人工逐筆核對PChome原產品API：小米 Xiaomi 掃拖機器人 6 Pro；Price.P=18911元，Qty=20，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
+      "note": "2026-11-02 人工核對PChome原主商品與API：小米 Xiaomi 掃拖機器人 6 Pro；Price.Low=17965元、Qty=20，商品ID/原頁主價一致，可訂購；不扣個人券、點數或信用卡回饋。實際配送安裝以通路確認。"
     },
     "installation": {
       "status": "not_stated",

@@ -114,10 +114,10 @@
     "name": "特仕版 2.0 人體工學椅",
     "price": {
       "currency": "TWD",
-      "amount": 9999,
-      "converted": 9999,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-01 人工核對PChome原始API同型號商品ID、名稱、正數庫存與公開網路價9999元；HTML另遇429限制，不把API當完整出貨承諾。",
+      "amount": 11900,
+      "converted": 11900,
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-02 人工讀取PChome同型號主商品及原始API：公開11900元、Qty20；不扣個人券或回饋，實際配送依通路。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAKHPA900HEQ4H/000001_1760581993.jpg",
@@ -1267,11 +1267,11 @@
     "name": "OC2 SEAT SET 坐躺兩用電腦椅",
     "price": {
       "currency": "TWD",
-      "amount": 3388,
-      "converted": 3388,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 3499,
+      "converted": 3499,
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-01 人工核對PChome原始API同型號商品ID、名稱、正數庫存與公開折扣價3388元；HTML另遇429限制，不把API當完整出貨承諾。"
+      "note": "2026-11-02 人工讀取PChome同型號主商品及原始API：公開3499元、Qty11；不扣個人券或回饋，實際配送依通路。"
     },
     "image": "https://cs-a.ecimg.tw/items/DEBHA6A9007ZPEF/000001_1768553712.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEBHA6-A9007ZPEF",
@@ -1366,11 +1366,11 @@
     "name": "TITAN PRO V2 電競椅",
     "price": {
       "currency": "TWD",
-      "amount": 15350,
-      "converted": 15350,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 15990,
+      "converted": 15990,
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-01 人工核對PChome原始API同型號商品ID、名稱、正數庫存與公開折扣價15350元；HTML另遇429限制，不把API當完整出貨承諾。"
+      "note": "2026-11-02 人工讀取PChome同型號主商品及原始API：公開15990元、Qty3；不扣個人券或回饋，實際配送依通路。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ6ZA900JIKKR/000001_1782824760.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ6Z-A900JIKKR",
@@ -2764,7 +2764,7 @@
       "converted": 10499,
       "basis": "retailer_current",
       "confidence": "2026-10-23 SIDIZ台灣官店exact原生黑色variant及SKU由Chrome核對，公開價10499且schema InStock、加入購物車與立即買可用；非舊代或裸座墊。",
-      "note": "2026-11-01 SIDIZ台灣所選料號公開價10499元，頁面可加車但同時出現已缺貨後出貨文案；不把其他顏色或schema InStock當保證現貨。"
+      "note": "2026-11-02 SIDIZ所選料號10499元可加車但同時已缺貨後出貨文案；交期請確認。"
     },
     "installation": {
       "status": "not_stated",
@@ -2858,7 +2858,7 @@
       "converted": 11499,
       "basis": "retailer_current",
       "confidence": "2026-10-23 SIDIZ台灣官店exact原生黑色variant及SKU由Chrome核對，公開價11499且schema InStock、加入購物車與立即買可用；非舊代或裸座墊。",
-      "note": "2026-11-01 SIDIZ台灣所選料號公開價11499元，頁面可加車但同時出現已缺貨後出貨文案；不把其他顏色或schema InStock當保證現貨。"
+      "note": "2026-11-02 SIDIZ所選料號11499元可加車但同時已缺貨後出貨文案；交期請確認。"
     },
     "installation": {
       "status": "not_stated",

@@ -1920,11 +1920,11 @@
     "name": "森呼吸 NEXT 自動除菌離子 3D 清淨循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 5290,
-      "converted": 5290,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 5690,
+      "converted": 5690,
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-01 momo 所選PK-18S03T主商品促銷價5290元、可選數量1至20，非6990市售參考價；預計11/02前到貨以通路為準。"
+      "note": "2026-11-02 momo 所選PK-18S03T主商品促銷價5690，原5290活動已不在主價；市售6990不採，數量1至20，1年保固。"
     },
     "image": "https://www.tw.sharp/sites/default/files/styles/resize_640x640/public/2026-05/PK-18S03T-H.png?itok=HVyf5ufH",
     "buyUrl": "https://www.momoshop.com.tw/product/15360868",

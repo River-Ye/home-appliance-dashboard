@@ -1186,11 +1186,11 @@
       "amount": 18522,
       "converted": 18522,
       "confidence": "Yahoo購物中心 2026-09-02 exact-model 公開結構化價格",
-      "note": "2026-10-31 原Yahoo WD261VKF0頁已停售，19385元是停售頁展示價；保留18522元舊參考價。替代PChome DMBQ3G-A900GM8G8雖標18900元但API Qty0，原DMBQ07入口未能還原主商品，均不當現貨；未取得官方整型停產正證。"
+      "note": "2026-11-02 Yahoo所選WD261VKF0主價19385但已停售；保留18522舊參考價，不採停售展示價，無官方整型停產正證。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ07A900GFBVP/000001_1767340170.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-PuriCare-%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9F-25-6%E5%85%AC%E5%8D%87-%E6%9B%9C%E9%BB%91-WD261VKF0-11970685.html",
-    "buyLabel": "Yahoo（已停售，現價待確認）",
+    "buyLabel": "Yahoo購物（停售，現價待確認）",
     "specs": [
       "25.6 公升",
       "雙變頻",

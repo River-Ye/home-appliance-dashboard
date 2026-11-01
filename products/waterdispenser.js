@@ -1149,10 +1149,10 @@
     "image": "https://cs-a.ecimg.tw/items/DMAWEMA900GDIXH/000001_1774485785.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 18601,
-      "converted": 18601,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-01 PChome主商品API商品ID DMAWEM-A900GDIXH 相符，原標題「賀眾牌廚下型冷熱飲水機UW-2262HW-1 【賀眾牌ACUO】廚下型節能冷熱飲水機UW-2262HW-1」，Qty=20，公開折扣／主價 18601 元（網路價20900；Price.Low=18601）；未扣券、回饋或點數。 同輪原商品HTML價格與可購入口已核對。",
+      "amount": 20900,
+      "converted": 20900,
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-02 PChome UW-2262HW-1主商品20900元、可加車，原25000；本體110V選定版本與原SKU相符，不把舊滿額折優惠延用。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -2051,10 +2051,10 @@
     "name": "廚下型飲用水加熱器",
     "price": {
       "currency": "TWD",
-      "amount": 21855,
-      "converted": 21855,
-      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
-      "note": "2026-10-31 原頁同型號公開價格21855元；不扣會員券、信用卡、點數或贈品，銷售／出貨條件依原通路。",
+      "amount": 23500,
+      "converted": 23500,
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-02 Yahoo BWT DWH30A主商品23500元、立即購買/加車，舊21855活動已不重現；大型商品專人約配。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWB8A900BVEOG/000001_1760685693.jpg",
@@ -2150,8 +2150,8 @@
     "price": {
       "currency": "USD",
       "amount": 359.99,
-      "converted": 11742,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "converted": 11739,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-01 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-01 Brondell美國官方Circle主商品Sale Price USD359.99、原449.99，主商品BCData為instock:true/purchasable:true；排除頁尾替換濾芯及Open-Box商品。 海外參考；未含國際運費、進口稅、電壓／插頭與台灣保固風險。"
     },
@@ -2189,14 +2189,14 @@
       "status": "found",
       "amount": 289.99,
       "currency": "USD",
-      "converted": 9459,
+      "converted": 9457,
       "sourceUrl": "https://www.costco.com/CategoryDisplay?catalogId=10701&identifier=water-dispensers-filtration-water-filtration&storeId=10301",
       "sourceTitle": "Costco US：Brondell Circle Reverse Osmosis Water Filtration System",
       "evidenceSnippet": "Costco US exact-model 分類頁於 2026-08-28 顯示 Brondell Circle 折後 US$289.99，原價 US$369.99，優惠 US$80。",
       "sourceKind": "retailer_promo",
       "confidence": "medium",
       "checkedAt": "2026-08-28",
-      "note": "採 Costco US 公開 exact-model 折價作為本次可重現最低觀測價；未含國際運費、進口稅、耗材與台灣安裝／保固風險；依 2026-10-31 USD/TWD 匯率換算。"
+      "note": "採 Costco US 公開 exact-model 折價作為本次可重現最低觀測價；未含國際運費、進口稅、耗材與台灣安裝／保固風險；依 2026-11-01 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "common_issue",
@@ -2339,10 +2339,10 @@
     "name": "PREMIER 廚下冰溫瞬熱旗艦飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 32752,
-      "converted": 32752,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-01 PChome主商品API商品ID DMAWI0-A900ITF3M 相符，原標題「【賀眾牌】PREMIER 尊爵不凡廚下冰溫瞬熱旗艦飲水機UR-3902AW-1(110V/雙源淨化/冰溫瞬熱/恆淨水系統) 【賀眾牌ACUO】 PREMIER 尊爵不凡廚下冰溫瞬熱旗艦飲水機UR-3902AW-1(110V/雙源淨化/冰溫瞬熱/恆淨水系統)」，Qty=20，公開折扣／主價 32752 元（網路價36800；Price.Low=32752）；未扣券、回饋或點數。 同輪原商品HTML價格與可購入口已核對。",
+      "amount": 36800,
+      "converted": 36800,
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-02 PChome UR-3902AW-1 110V主商品36800元、可加車，原49800；未以220V版本或舊滿額折優惠代價。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWI0A900ITF3M/000001_1781688918.jpg",

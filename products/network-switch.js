@@ -1303,7 +1303,7 @@
       "converted": 14800,
       "confidence": "QNAP 台灣官方商城 2026-08-27 exact-model 公開價；頁面顯示有庫存、可加入購物車，預計 2 至 4 週內出貨",
       "basis": "retailer_current",
-      "note": "2026-11-01 QNAP台灣商城同型號公開14800元，可加車，但「有庫存」與「熱賣預購中、預計2至4週出貨」並列，交期請確認，不稱立即現貨。"
+      "note": "2026-11-02 QNAP台灣商城同型號14800元可加車，但有庫存與預購2–4週文案並列，不稱立即現貨。"
     },
     "installation": {
       "status": "excluded",
@@ -2092,7 +2092,7 @@
       "converted": 12590,
       "confidence": "QNAP 台灣官方商店 2026-08-24 exact-model 台灣原廠保固新品公開價",
       "basis": "retailer_current",
-      "note": "2026-11-01 QNAP台灣商城同型號公開12590元，可加車，但「有庫存」與「熱賣預購中、預計2至4週出貨」並列，交期請確認，不稱立即現貨。"
+      "note": "2026-11-02 QNAP台灣商城同型號12590元可加車，但有庫存與預購2–4週文案並列，不稱立即現貨。"
     },
     "installation": {
       "status": "excluded",
@@ -2495,7 +2495,7 @@
       "converted": 22500,
       "confidence": "QNAP 台灣官方商店 2026-08-24 exact-model 台灣原廠保固新品公開價",
       "basis": "retailer_current",
-      "note": "2026-11-01 QNAP台灣商城同型號公開22500元，可加車，但「有庫存」與「熱賣預購中、預計2至4週出貨」並列，交期請確認，不稱立即現貨。"
+      "note": "2026-11-02 QNAP台灣商城同型號22500元可加車，但有庫存與預購2–4週文案並列，不稱立即現貨。"
     },
     "installation": {
       "status": "excluded",

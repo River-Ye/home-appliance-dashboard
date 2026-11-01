@@ -842,9 +842,11 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR25A900IUNDB/000001_1747970581.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 24320,
-      "converted": 24320,
-      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 25600,
+      "converted": 25600,
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-02 PChome H500主商品25600元、可訂購，原頁明示需先確認安裝環境、下單後電話約配，非快速出貨及安裝；不以相關H600報價替代。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1050,11 +1052,11 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR2HA900K4KMO/000001_1782874928.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 34900,
-      "converted": 34900,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 34999,
+      "converted": 34999,
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-01 PChome主商品API商品ID DMBR2H-A900K4KMO 相符，原標題「【BOSCH 博世】15人份 自動開門嵌櫃式洗碗機(SJU4EKW00W) 【BOSCH 博世】15人份 自動開門嵌櫃式洗碗機(SJU4EKW00W)」，Qty=5，公開折扣／主價 34900 元（網路價34900；Price.Low=無）；未扣券、回饋或點數。 同輪原商品HTML價格與可購入口已核對。"
+      "note": "2026-11-02 PChome SJU4EKW00W選定主商品34999元、加入購物車/立即購買，48900為原價，未扣回饋。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1467,9 +1469,11 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR1WA900K4MYS/000001_1781748945.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 79000,
-      "converted": 79000,
-      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 73470,
+      "converted": 73470,
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-02 PChome G5314 C SCI半嵌式220V主商品公開73470元，11/1–11/30單件93折原頁已呈現，原79000；含本島基本安裝，偏遠另計。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -3617,11 +3621,11 @@
   "topPick": false,
   "price": {
     "currency": "TWD",
-    "amount": 28080,
-    "converted": 28080,
+    "amount": 28704,
+    "converted": 28704,
     "basis": "retailer_current",
-    "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-    "note": "2026-11-01 PChome主商品API商品ID DMBR25-A900IUN3O 相符，原標題「Haier 海爾 16人份 變頻獨嵌兩用洗碗機H600(HDWE16-46SC6SA 不含安裝) Haier 海爾 16人份 變頻獨嵌兩用洗碗機H600(HDWE16-46SC6SA 不含安裝)」，Qty=2，公開折扣／主價 28080 元（網路價28080；Price.Low=無）；未扣券、回饋或點數。 同輪HTML為HTTP429；以本輪可信商品API逐筆核對，保留HTML讀取限制，不推定停產。"
+    "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+    "note": "2026-11-02 PChome H600主商品28704元、可訂購，非快速出貨及安裝；10/1–10/31贈鎖活動已過期不當新贈品承諾，H500相關品25600不混價。"
   },
   "installation": {
     "status": "excluded",

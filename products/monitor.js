@@ -3567,8 +3567,8 @@
       "currency": "TWD",
       "amount": 26888,
       "converted": 26888,
-      "confidence": "PChome 2026-11-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-01 PChome原生主商品頁XG34WCDMS/280Hz公開26888元；API Nick混入近型MTG且折後25543未確認，保留主頁價，不套用近型。",
+      "confidence": "PChome 2026-11-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-02 PChome原生XG34WCDMS/280Hz主頁26888、下單再折；API Nick混MTG/240Hz且25543未於主頁重現，保留26888。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABKBA900K0YA0/000001_1779246107.jpg",

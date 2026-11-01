@@ -16,9 +16,11 @@
     "name": "Ascent 領航者全食物調理機",
     "price": {
       "currency": "TWD",
-      "amount": 39800,
-      "converted": 39800,
-      "confidence": "PChome 2026-07-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 35024,
+      "converted": 35024,
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-02 PChome DMAYE8-A900BKOKK選定A3500i髮絲銀官方公司貨主商品驚喜優惠35024元、加入購物車/立即購買；頁首主價可讀，不由39800乘88%自行推算。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAYE8A900BKOKK/000001_1782889462.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAYE8-A900BKOKK",
@@ -109,9 +111,11 @@
     "name": "Ascent 領航者全食物調理機",
     "price": {
       "currency": "TWD",
-      "amount": 29600,
-      "converted": 29600,
-      "confidence": "PChome 2026-07-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 26048,
+      "converted": 26048,
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-02 PChome QBAO0F-A900AS2G7選定A2500i紅色主商品驚喜優惠26048元、加入購物車/立即購買，與API同SKU公開價相符。"
     },
     "image": "https://cs-a.ecimg.tw/items/QBAO0FA900AS2G7/000001_1782460590.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/QBAO0F-A900AS2G7",
@@ -400,8 +404,8 @@
     "price": {
       "currency": "USD",
       "amount": 99.98,
-      "converted": 3261,
-      "confidence": "2026-08-31 人工核對 SharkNinja 官方 BN701 公開可購主價 USD 99.98；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-10-31 匯率換算",
+      "converted": 3260,
+      "confidence": "2026-08-31 人工核對 SharkNinja 官方 BN701 公開可購主價 USD 99.98；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-11-01 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-01 原BN701購買網址本輪導向IQ701SL TotalCrush，主頁Model/SKU明示IQ701SL，129.99美元不是BN701報價；保留舊99.98美元參考，現售待確認，不由轉址推定原廠停產。 海外參考；未含國際運費、進口稅、電壓／插頭與台灣保固風險。"
     },
@@ -590,7 +594,7 @@
       "converted": 24200,
       "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-01 momo622427 VITA PREP3同款台灣公司貨公開單件88折24200元、折前27500元；10/30 19:00–11/02 09:00，預計11/02出貨。"
+      "note": "2026-11-02 momo622427 VITA PREP3台灣公司貨主商品公開單件88折24200、折前27500，10/30 19:00–11/02 09:00，預計11/03出貨。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY9TA900G068X/000001_1782790517.jpg",
     "buyUrl": "https://www.momoshop.com.tw/product/622427",
@@ -684,9 +688,11 @@
     "name": "E320 Explorian 探索者調理機雙杯組黑色",
     "price": {
       "currency": "TWD",
-      "amount": 24700,
-      "converted": 24700,
-      "confidence": "PChome 2026-07-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 21736,
+      "converted": 21736,
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-02 PChome DMAY0G-A900AGMD8選定E320黑色原廠雙杯組主商品驚喜優惠21736元、加入購物車/立即購買；不是引用相關商品或券後推算。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY0GA900AGMD8/000001_1782460348.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAY0G-A900AGMD8",
@@ -786,9 +792,11 @@
     "name": "Ascent A2500i 全食物調理機白色",
     "price": {
       "currency": "TWD",
-      "amount": 29600,
-      "converted": 29600,
-      "confidence": "PChome 2026-07-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 26048,
+      "converted": 26048,
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-02 PChome QBAO0F-A900AS2DJ選定A2500i白色主商品驚喜優惠26048元、加入購物車/立即購買；不採其他顏色或個人券。"
     },
     "image": "https://cs-a.ecimg.tw/items/QBAO0FA900AS2DJ/000001_1782460671.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/QBAO0F-A900AS2DJ",

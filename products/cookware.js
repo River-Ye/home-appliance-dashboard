@@ -1036,11 +1036,11 @@
     "image": "https://cs-a.ecimg.tw/items/DEDG3BA900GQDVZ/000001_1776769920.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 968,
-      "converted": 968,
+      "amount": 1099,
+      "converted": 1099,
       "basis": "retailer_current",
-      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
-      "note": "2026-10-31 原頁同型號公開價格968元；不扣會員券、信用卡、點數或贈品，銷售／出貨條件依原通路。"
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-02 Yahoo選定Tefal饗樂4件組主價1099元可購，舊968促銷已不重現；28cm炒鍋+16cm湯鍋/蓋+鍋鏟同包裝，不轉借單鍋。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",

@@ -15,10 +15,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/AC7DC27581-SP-22704432.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 8935,
-      "converted": 8935,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-01 人工逐筆核對PChome原產品API：Panasonic國際牌 8公斤電子式乾衣機NH-80RZ-W(釉光白)；Price.Low=8935元，Qty=20，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。",
+      "amount": 9143,
+      "converted": 9143,
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-02 人工核對PChome原主商品與API：Panasonic國際牌 8公斤電子式乾衣機NH-80RZ-W(釉光白)；Price.Low=9143元、Qty=20，商品ID/原頁主價一致，可訂購；不扣個人券、點數或信用卡回饋。實際配送安裝以通路確認。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -529,10 +529,11 @@
       "amount": 32000,
       "converted": 32000,
       "confidence": "Yahoo購物中心 2026-09-14 exact-model 公開結構化價格",
-      "basis": "retailer_current"
+      "basis": "retailer_current",
+      "note": "2026-11-02 Yahoo所選桶裝瓦斯8TWGD5620HW主價29014但已售完；保留32000舊參考價，不採售完展示價。"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心",
+    "buyLabel": "Yahoo購物（缺貨，現價待確認）",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool%E6%83%A0%E8%80%8C%E6%B5%A6-16%E5%85%AC%E6%96%A4-%E5%BF%AB%E7%83%98%E7%93%A6%E6%96%AF%E5%9E%8B%E6%BB%BE%E7%AD%92%E4%B9%BE%E8%A1%A3%E6%A9%9F-8TWGD5620HW-%E6%A1%B6%E8%A3%9D%E7%93%A6%E6%96%AF-10509173.html",
     "specs": [
       "烘衣機：Whirlpool 惠而浦16公斤快烘瓦斯型滾筒乾衣機8TWGD5620HW(桶裝瓦斯)",
@@ -1543,10 +1544,11 @@
       "currency": "TWD",
       "amount": 6460,
       "converted": 6460,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價",
+      "note": "2026-11-02 Yahoo所選TAW-D60T主價6800但已停售；保留6460舊參考價，不採停售展示價。"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心",
+    "buyLabel": "Yahoo購物（停售，現價待確認）",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/TATUNG%E5%A4%A7%E5%90%8C-6KG%E4%B9%BE%E8%A1%A3%E6%A9%9F-TAW-D60T-11014360.html",
     "specs": [
       "烘衣機：TATUNG大同 6KG乾衣機(TAW-D60T)",
@@ -2783,10 +2785,11 @@
   "topPick": false,
   "price": {
     "currency": "TWD",
-    "amount": 27900,
-    "converted": 27900,
+    "amount": 26111,
+    "converted": 26111,
     "basis": "retailer_current",
-    "confidence": "2026-10-31人工重查PChome exact商品頁及產品API，公開27900元、Qty20；未扣P幣、信用卡或會員券。"
+    "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+    "note": "2026-11-02 人工核對PChome原主商品與API：SHARP夏普 10公斤熱泵式滾筒乾衣機KD-FKH10DT；Price.P=26111元、Qty=20，商品ID/原頁主價一致，可訂購；不扣個人券、點數或信用卡回饋。實際配送安裝以通路確認。"
   },
   "installation": {
     "status": "included_basic",

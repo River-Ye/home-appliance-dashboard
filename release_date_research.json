@@ -1,20 +1,20 @@
 {
   "summary": {
-    "checkedAt": "2026-10-31T11:48:51.721+08:00",
-    "total": 1231,
+    "checkedAt": "2026-11-02T07:08:48.142+08:00",
+    "total": 1232,
     "researchedThisRun": 1,
     "found": 352,
-    "missing": 879,
+    "missing": 880,
     "byConfidence": {
       "official": 188,
-      "not_found": 876,
+      "not_found": 877,
       "retailer_explicit": 23,
       "credible_article": 52,
       "high": 71,
       "medium": 18,
       "unknown": 3
     },
-    "scopeNote": "2026-10-31本次僅新增NN-BS10EK的上市查核；原1230筆逐筆研究與日期原樣保留。"
+    "scopeNote": "2026-11-02僅新增本批1款的上市查核；既有1231筆逐筆研究與日期原樣保留。"
   },
   "results": [
     {
@@ -37790,6 +37790,39 @@
       "auditQueries": [
         "\"NN-BS10EK\" 上市 發售 台灣",
         "site:panasonic.com \"NN-BS10EK\" 上市"
+      ]
+    },
+    {
+      "id": "refrigerator-hitachi-hrtn5275mf1",
+      "category": "refrigerator",
+      "brand": "HITACHI",
+      "model": "HRTN5275MF1",
+      "name": "HITACHI HRTN5275MF1 260L 一級能效變頻雙門冰箱（璀璨銀）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "checkedAt": "2026-11-02",
+      "query": "\"HRTN5275MF1\" 上市 發售 日期",
+      "reason": "官方現行產品名冊標NEW但沒有可核對上市／發售日；myfone11月優惠、搜尋收錄日、香港2026能源登錄年、泰國證書核發日及商家模板2024/07/01均不是台灣上市日。",
+      "checkedSources": [
+        {
+          "url": "https://hitachi-homeappliances.com.tw/products/products_feature.php?pid=HRTN5275MF1",
+          "title": "HITACHI台灣HRTN5275MF1(NEW)",
+          "outcome": "NEW標記，無明確台灣上市／發售日期"
+        },
+        {
+          "url": "https://www.myfone.com.tw/mfo/buy/prod/P0000203778756",
+          "title": "myfone HRTN5275MF1XTW",
+          "outcome": "台灣110V60Hz規格與現價，不是上市日期"
+        },
+        {
+          "url": "https://24h.pchome.com.tw/prod/DPACKO-A900KCQNK",
+          "title": "PChome同型主商品",
+          "outcome": "可購與保固資料，不作上市日"
+        }
       ]
     }
   ]

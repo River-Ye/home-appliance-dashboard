@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-31",
+  "checkedAt": "2026-11-02",
   "methodVersion": 3,
   "policy": "每筆決策須保存 exact-model 跨站查詢與人工 attestation；每個搜尋候選須逐頁保存摘要、獨立作者數與具體排除理由，研究工具不得自行生成拒絕結論。",
   "results": [
@@ -95279,6 +95279,47 @@
       "name": "30L 智慧5in1蒸烘烤氣炸微波爐（台灣公司貨）",
       "status": "completed",
       "reviewBatch": "oven"
+    },
+    {
+      "id": "refrigerator-hitachi-hrtn5275mf1",
+      "category": "refrigerator",
+      "brand": "HITACHI",
+      "model": "HRTN5275MF1",
+      "reviewedAt": "2026-11-02",
+      "reviewBatch": "refrigerator",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT",
+        "Dcard"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"HRTN5275MF1\" site:mobile01.com/topicdetail.php",
+          "queryUrl": "https://www.google.com/search?q=%22HRTN5275MF1%22%20site%3Amobile01.com%2Ftopicdetail.php"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "\"HRTN5275MF1\" site:ptt.cc/bbs/",
+          "queryUrl": "https://www.google.com/search?q=%22HRTN5275MF1%22%20site%3Aptt.cc%2Fbbs%2F"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "\"HRTN5275MF1\" site:dcard.tw/f/",
+          "queryUrl": "https://www.google.com/search?q=%22HRTN5275MF1%22%20site%3Adcard.tw%2Ff%2F"
+        }
+      ],
+      "candidateDisposition": "已逐一人工檢視HRTN5275MF1在Mobile01、PTT、Dcard三個原始網站的exact-model搜尋回應，三站均無此型號原頁候選；另以站點domain filter覆查仍為空結果。未把舊HRTN5275MF、香港／泰國版本、零售頁或搜尋推薦算作使用者回報；僅截至查核日未達六名獨立使用者跨兩站門檻，不宣稱完全沒有負評。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "reviewerNote": "已逐一人工檢視HRTN5275MF1在Mobile01、PTT、Dcard三個原始網站的exact-model搜尋回應，三站均無此型號原頁候選；另以站點domain filter覆查仍為空結果。未把舊HRTN5275MF、香港／泰國版本、零售頁或搜尋推薦算作使用者回報；僅截至查核日未達六名獨立使用者跨兩站門檻，不宣稱完全沒有負評。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "checkedAt": "2026-11-02",
+      "status": "completed"
     }
   ]
 }

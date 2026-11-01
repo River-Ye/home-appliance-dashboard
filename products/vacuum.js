@@ -307,9 +307,11 @@
     "name": "無線多工平躺速乾洗地吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 17936,
-      "converted": 17936,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 15200,
+      "converted": 15200,
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-02 Yahoo所選同型號主商品公開價15200元，原頁可訂購；不扣個人券、信用卡、點數或贈品。本次實讀活動有效至2026-12-31T23:59:59+08:00，不是沿用昨日活動期限。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAXB5A900JFCJP/000001_1762402803.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Tineco-%E6%B7%BB%E5%8F%AF-Switch-S7-Stretch%E5%A4%9A%E5%B7%A5%E5%B9%B3%E8%BA%BA%E6%B4%97%E5%9C%B0%E5%90%B8%E5%A1%B5%E5%99%A8-22000Pa-5%E5%88%86%E9%90%98%E9%80%9F%E4%B9%BE-11979820.html",
@@ -342,16 +344,16 @@
     "releaseDate": "2025",
     "historicalLow": {
       "status": "found",
-      "amount": 17559,
+      "amount": 15200,
       "currency": "TWD",
-      "converted": 17559,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1269933553&cgp=17936",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Tineco 添可】Switch S7 Stretch多工平躺洗地吸塵器 (22000Pa/5分鐘速乾/85度熱水洗/電解水除菌)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / 【Tineco 添可】Switch S7 Stretch多工平躺洗地吸塵器 (22000Pa/5分鐘速乾/85度熱水洗/電解水除菌)」最低價為 NT$17,559，最低點日期 2026-06-18。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 15200,
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/Tineco-%E6%B7%BB%E5%8F%AF-Switch-S7-Stretch%E5%A4%9A%E5%B7%A5%E5%B9%B3%E8%BA%BA%E6%B4%97%E5%9C%B0%E5%90%B8%E5%A1%B5%E5%99%A8-22000Pa-5%E5%88%86%E9%90%98%E9%80%9F%E4%B9%BE-11979820.html",
+      "sourceTitle": "Tineco Switch S7 Stretch 同型號原通路商品頁",
+      "evidenceSnippet": "2026-11-02 人工核對同型號新品公開價 15200 TWD，低於既有史低 17559。Yahoo所選同型號主商品公開價15200元，原頁可訂購；不扣個人券、信用卡、點數或贈品。本次實讀活動有效至2026-12-31T23:59:59+08:00，不是沿用昨日活動期限。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-11-02",
+      "note": "同型號可信新品公開價；排除個人券、點數、信用卡回饋、二手、福利、展示、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2238,8 +2240,8 @@
     "price": {
       "currency": "USD",
       "amount": 679.99,
-      "converted": 22180,
-      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-10-31 匯率換算"
+      "converted": 22175,
+      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-11-01 匯率換算"
     },
     "image": "https://m.media-amazon.com/images/I/61Yuy5vtWFL._AC_SL1500_.jpg",
     "buyUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
@@ -2278,14 +2280,14 @@
       "status": "found",
       "amount": 679.99,
       "currency": "USD",
-      "converted": 22180,
+      "converted": 22175,
       "sourceUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
       "sourceTitle": "Dreame Aero Ultra Steam Wet Dry Vacuum – Dreame Vacuum Mop",
       "evidenceSnippet": "Dreame 原廠美國商品頁於 2026-07-16 公開顯示特價 US$679.99、原價 US$799.99，且可 Add to Cart / Buy It Now。",
       "sourceKind": "official_sale",
       "confidence": "high",
       "checkedAt": "2026-07-16",
-      "note": "新上市商品目前可公開驗證的最低售價；未套用會員碼、信用卡、點數或個人化折扣，且未含國際運費、進口稅、插頭／供電與台灣保固風險；依 2026-10-31 USD/TWD 匯率換算。"
+      "note": "新上市商品目前可公開驗證的最低售價；未套用會員碼、信用卡、點數或個人化折扣，且未含國際運費、進口稅、插頭／供電與台灣保固風險；依 2026-11-01 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2832,11 +2834,11 @@
     "name": "米家無線洗地機 5 Pro",
     "price": {
       "currency": "TWD",
-      "amount": 11111,
-      "converted": 11111,
-      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "amount": 11499,
+      "converted": 11499,
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 momo所選米家無線洗地機5 Pro主商品單件折388後11111元，折前11499元；活動10/31–11/01，不用推薦區G20/G30或個人券計價。"
+      "note": "2026-11-02 momo 所選F302HW米家無線洗地機5Pro主商品促銷價11499，數量1至20、1年保固；15999市售價及相關G30Max8499不採。"
     },
     "image": "https://i4.momoshop.com.tw/1786613003/goodsimg/0015/540/464/15540464_R_m.webp",
     "buyUrl": "https://www.momoshop.com.tw/product/15540464",

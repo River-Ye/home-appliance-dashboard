@@ -320,7 +320,7 @@
       "converted": 69900,
       "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 LG台灣商城在冊OLED65C6PTA原主商品69900元，84900元是刪除參考價；可立即購買，實際配送安裝依原店確認。"
+      "note": "2026-11-02 LG原exact型號schema出現65600但本輪正文主價未呈現；未確認是否與所選主購買區相符，保留69900舊參考價。"
     },
     "image": "https://i6.momoshop.com.tw/1781278602/goodsimg/TP000/9148/0000/554/TP00091480000554_L.webp",
     "buyUrl": "https://www.lg.com/tw/tv-soundbars/oled-evo/oled65c6pta/",

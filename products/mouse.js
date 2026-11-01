@@ -219,10 +219,11 @@
     "score": 91,
     "price": {
       "currency": "TWD",
-      "amount": 3990,
-      "converted": 3990,
+      "amount": 3490,
+      "converted": 3490,
       "basis": "retailer_current",
-      "confidence": "2026-09-01 Chrome已查核：官店獨立商品頁預設黑色910-007360，3990元可加入購物車；並由官方黑色產品頁連結對應此商品。"
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-02 羅技台灣原頁所選型號公開單件價3490元，可加車；不採折前價、其他版本或個人折扣。"
     },
     "image": "https://store.logitech.tw/cdn/shop/files/High_Resolution_JPG-PROXSUPERLIGHT2DEXTOPBlack.jpg?v=1770258964",
     "buyUrl": "https://store.logitech.tw/products/superlight2dex",
@@ -407,7 +408,8 @@
       "amount": 2490,
       "converted": 2490,
       "basis": "retailer_current",
-      "confidence": "2026-09-01 Chrome重新開台灣羅技官店獨立商品頁，型號910-005643、2490元及可加入購物車，單一黑色不需再選版本。Chrome直接開同頁原圖確認1000x787及黑色本體；不採比價搜尋快取的2290、2176或個人拍賣。"
+      "confidence": "2026-09-01 Chrome重新開台灣羅技官店獨立商品頁，型號910-005643、2490元及可加入購物車，單一黑色不需再選版本。Chrome直接開同頁原圖確認1000x787及黑色本體；不採比價搜尋快取的2290、2176或個人拍賣。",
+      "note": "2026-11-02 羅技台灣原頁G703主商品2490元但已售完，保留參考價，現貨與出貨待確認。"
     },
     "installation": {
       "status": "not_stated",
@@ -2268,10 +2270,11 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 2990,
-      "converted": 2990,
+      "amount": 2690,
+      "converted": 2690,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 Chrome台灣旗艦店MX Vertical單一石墨灰910-005450頁2990，可加入購物車。"
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-02 羅技台灣原頁所選型號公開單件價2690元，可加車；不採折前價、其他版本或個人折扣。"
     },
     "installation": {
       "status": "not_stated",
@@ -2707,10 +2710,11 @@
     ],
     "price": {
       "currency": "TWD",
-      "amount": 1490,
-      "converted": 1490,
+      "amount": 1290,
+      "converted": 1290,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 Chrome核對台灣旗艦店M750，一般版石墨黑已選、SKU910-007440、公開價1490及加入購物車；沒有採用旁邊M750 L或其他推薦商品價格。"
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-02 羅技台灣原頁所選型號公開單件價1290元，可加車；不採折前價、其他版本或個人折扣。"
     },
     "installation": {
       "status": "not_stated",
