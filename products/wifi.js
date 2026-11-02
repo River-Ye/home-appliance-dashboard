@@ -308,11 +308,11 @@
     "name": "BE3600 雙頻 Wi-Fi 7 AiMesh 可擴充路由器",
     "price": {
       "currency": "TWD",
-      "amount": 3699,
-      "converted": 3699,
-      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 3515,
+      "converted": 3515,
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-02 Yahoo同型號主商品公開3699元，可直接購買/加車；不扣個人券、點數或信用卡回饋。"
+      "note": "2026-11-03 Yahoo同型號主商品公開3515元，可直接購買/加車；不扣個人券、點數或信用卡回饋。單件公開活動截止2026-11-03T08:00:59+08:00"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLPA900JKWXK/000001_1783555436.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/ASUS-%E8%8F%AF%E7%A2%A9-RT-BE58U-V2-BE3600-%E9%9B%99%E9%A0%BB-Wi-Fi-7-%E5%8F%AF%E6%93%B4%E5%85%85%E5%BC%8F%E8%B7%AF%E7%94%B1%E5%99%A8-12005854.html",
@@ -895,8 +895,8 @@
     "price": {
       "currency": "USD",
       "amount": 208,
-      "converted": 6783,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。；ExchangeRate-API 2026-11-01 匯率換算",
+      "converted": 6788,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。；ExchangeRate-API 2026-11-02 匯率換算",
       "note": "2026-10-31 U7-Pro主商品189美元基價，強制Surcharge incl.總額208美元；可Add to Cart。 未含國際運費、進口稅、PoE供電配件及台灣保固風險。"
     },
     "image": "https://cdn.ecomm.ui.com/products/fa8dd4e4-36c8-4c79-a928-22c7bff2ce29/ab5bc8a4-6135-402e-a695-e3ea5e16d3e6.png",
@@ -976,8 +976,8 @@
     "price": {
       "currency": "USD",
       "amount": 175,
-      "converted": 5707,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-01 匯率換算",
+      "converted": 5711,
+      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-02 匯率換算",
       "basis": "retailer_current",
       "note": "2026-10-31 U6-Pro主商品159美元基價，強制Surcharge incl.總額175美元；30美元UI Care及8美元PoE是另購。 未含國際運費、進口稅、PoE供電配件及台灣保固風險。"
     },
@@ -1095,8 +1095,8 @@
     "price": {
       "currency": "USD",
       "amount": 109,
-      "converted": 3555,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-01 匯率換算",
+      "converted": 3557,
+      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-02 匯率換算",
       "basis": "retailer_current",
       "note": "2026-10-31 U7-Lite主商品99美元基價，強制Surcharge incl.總額109美元；19美元PoE是配件另購。 未含國際運費、進口稅、PoE供電配件及台灣保固風險。"
     },
@@ -1573,8 +1573,8 @@
     "price": {
       "currency": "USD",
       "amount": 142,
-      "converted": 4631,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-01 匯率換算",
+      "converted": 4634,
+      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-02 匯率換算",
       "basis": "retailer_current",
       "note": "2026-10-31 U6+主商品129美元基價，強制Surcharge incl.總額142美元；UI Care及PoE另購。 未含國際運費、進口稅、PoE供電配件及台灣保固風險。"
     },
@@ -1679,8 +1679,8 @@
     "price": {
       "currency": "USD",
       "amount": 307,
-      "converted": 10011,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。；ExchangeRate-API 2026-11-01 匯率換算",
+      "converted": 10020,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。；ExchangeRate-API 2026-11-02 匯率換算",
       "note": "2026-10-31 U7-Pro-Max主商品279美元基價，強制Surcharge incl.總額307美元；49美元UI Care另購。 未含國際運費、進口稅、PoE供電配件及台灣保固風險。"
     },
     "image": "https://cdn.ecomm.ui.com/products/350070a0-ae43-431b-b052-8e849c3b0a75/bad94693-bc54-4ab4-b060-9b972401941c.png",
@@ -1774,11 +1774,11 @@
     "name": "BE6500 雙頻 Wi-Fi 7 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 4611,
-      "converted": 4611,
-      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 4381,
+      "converted": 4381,
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-02 Yahoo同型號主商品公開4611元，可直接購買/加車；不扣個人券、點數或信用卡回饋。"
+      "note": "2026-11-03 Yahoo同型號主商品公開4381元，可直接購買/加車；不扣個人券、點數或信用卡回饋。單件公開活動截止2026-11-03T08:00:59+08:00"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLPA900IV4B6/000001_1783556530.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/ASUS-%E8%8F%AF%E7%A2%A9-RT-BE82U-WiFi-7-%E9%9B%99%E9%A0%BB-BE6500-%E8%B7%AF%E7%94%B1%E5%99%A8-%E5%88%86%E4%BA%AB%E5%99%A8-11798654.html",
@@ -4748,11 +4748,11 @@
     "name": "BE19000 三頻 Wi-Fi 7 AI 電競路由器",
     "price": {
       "currency": "TWD",
-      "amount": 27990,
-      "converted": 27990,
-      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 26591,
+      "converted": 26591,
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-02 Yahoo同型號主商品公開27990元，可直接購買/加車；不扣個人券、點數或信用卡回饋。"
+      "note": "2026-11-03 Yahoo同型號主商品公開26591元，可直接購買/加車；不扣個人券、點數或信用卡回饋。單件公開活動截止2026-11-03T08:00:59+08:00"
     },
     "image": "https://dlcdnwebimgs.asus.com/gain/FF5DB299-9708-4259-ABF9-167FDC7166BD",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E6%98%8C%E9%81%8B%E7%9B%A3%E8%A6%96%E5%99%A8-ASUS-%E8%8F%AF%E7%A2%A9-ROG-Rapture-GT-BE19000AI-WiFi-7-%E4%B8%89%E9%A0%BB%E9%9B%BB%E7%AB%B6-12032656.html",
@@ -5498,11 +5498,11 @@
     "name": "AQUILA PRO AI BE9500 三頻 Wi-Fi 7 2.5G Mesh 路由器（單台）",
     "price": {
       "currency": "TWD",
-      "amount": 5311,
-      "converted": 5311,
+      "amount": 4780,
+      "converted": 4780,
       "basis": "retailer_current",
-      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-02 Yahoo同型號主商品公開5311元，可直接購買/加車；不扣個人券、點數或信用卡回饋。"
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-03 Yahoo同型號主商品公開4780元，可直接購買/加車；不扣個人券、點數或信用卡回饋。單件公開活動截止2026-11-03T08:00:59+08:00"
     },
     "installation": {
       "status": "excluded",
@@ -5545,15 +5545,15 @@
     "releaseDate": "2025-07-03",
     "historicalLow": {
       "status": "found",
-      "amount": 5046,
+      "amount": 4780,
       "currency": "TWD",
-      "converted": 5046,
+      "converted": 4780,
       "sourceUrl": "https://tw.buy.yahoo.com/gdsale/D-Link%E5%8F%8B%E8%A8%8A-M95-BE9500-Wi-Fi-7-MESH%E7%84%A1%E7%B7%9A%E8%B7%AF%E7%94%B1%E5%99%A8-12093613.html",
       "sourceTitle": "Yahoo購物中心：D-Link友訊 M95 BE9500 Wi-Fi 7 MESH無線路由器 | 分享器/路由器 | Yahoo購物中心",
-      "evidenceSnippet": "Yahoo購物中心於 2026-11-01 顯示同型號可信新品公開價 NT$5,046，低於既有史低 NT$5,211。",
+      "evidenceSnippet": "Yahoo購物中心於 2026-11-03 顯示同型號可信新品公開價 NT$4,780，低於既有史低 NT$5,046。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-11-01",
+      "checkedAt": "2026-11-03",
       "note": "採用 Yahoo購物中心當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {

@@ -318,7 +318,7 @@
       "converted": 2749,
       "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-02 T101-12U主品號13989541，限時折後2749、促銷3099，11/01–11/08最高折350活動，數量1–5、庫存低於5、1年保固、直接購買/加車。"
+      "note": "2026-11-03 T101-12U主品號13989541，限時折後2749、促銷3099，11/01–11/08最高折350活動，數量1–5、庫存低於5、1年保固、直接購買/加車。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBB69A900INQG2/000001_1745485048.jpg",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=13989541",
@@ -1108,11 +1108,11 @@
     "name": "LX Pro 桌上型單螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 6450,
-      "converted": 6450,
-      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 6800,
+      "converted": 6800,
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-02 LX Pro主品號15317771，限時折後6450、促銷6800，11/01–11/08最高折350活動，黑/白、數量1–20、10年保固、直接購買/加車，預計11/03出貨。"
+      "note": "2026-11-03 LX Pro主品號15317771，當日原生主頁6800，活動滿1件折1280但仍只顯示下單再折，未重現最終折後價或6450，黑/白、數量1–20、10年保固、直接購買/加車，預計11/04出貨；不推算未顯示折扣。"
     },
     "image": "https://cs-a.ecimg.tw/items/DGBJPWA900IO3XY/000001_1745568644.jpg",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15317771",
@@ -1409,9 +1409,11 @@
     "name": "17-32 吋 2-9KG 人體工學螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 999,
-      "converted": 999,
-      "confidence": "2026-10-26 人工覆核同型號同版本來源與銷售狀態；價格適用條件及保留舊參考價的原因見註記與維護報告。"
+      "amount": 770,
+      "converted": 770,
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-03 Yahoo同型號主商品公開770元，可直接購買/加車；不扣個人券、點數或信用卡回饋。單件公開活動截止2026-11-12T23:59:59+08:00"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGQ5A900JUC1W/000001_1774344481.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E6%A8%82%E6%AD%8CLoctek-%E4%BA%BA%E9%AB%94%E5%B7%A5%E5%AD%B8-%E8%9E%A2%E5%B9%95%E6%94%AF%E6%9E%B6D5S-12033991.html",
@@ -2129,14 +2131,14 @@
       "status": "found",
       "amount": 282,
       "currency": "GBP",
-      "converted": 12312,
+      "converted": 12322,
       "sourceUrl": "https://pricespy.co.uk/product.php?p=16273588",
       "sourceTitle": "PriceSpy UK：Dell HDA26 Single Monitor Arm",
       "evidenceSnippet": "PriceSpy exact-model 頁的 Price History 明示新品最低價 £282，且商品名稱、品牌與 GTIN 對應 Dell HDA26。",
       "sourceKind": "price_history",
       "confidence": "medium",
       "checkedAt": "2026-08-25",
-      "note": "採英國市場 exact-model 公開價格歷史並依 2026-11-01 GBP/TWD 匯率換算；未含國際運費、進口稅、退換貨與台灣保固風險，不能直接視為台灣到手價。"
+      "note": "採英國市場 exact-model 公開價格歷史並依 2026-11-02 GBP/TWD 匯率換算；未含國際運費、進口稅、退換貨與台灣保固風險，不能直接視為台灣到手價。"
     },
     "issueResearch": {
       "status": "no_common_issue",

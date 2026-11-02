@@ -311,7 +311,7 @@
       "converted": 15200,
       "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-02 Yahoo所選同型號主商品公開價15200元，原頁可訂購；不扣個人券、信用卡、點數或贈品。本次實讀活動有效至2026-12-31T23:59:59+08:00，不是沿用昨日活動期限。"
+      "note": "2026-11-03 Yahoo所選同型號主商品公開價15200元，原頁可訂購；不扣個人券、信用卡、點數或贈品。本次實讀活動有效至2026-12-31T23:59:59+08:00，不是沿用昨日活動期限。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAXB5A900JFCJP/000001_1762402803.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Tineco-%E6%B7%BB%E5%8F%AF-Switch-S7-Stretch%E5%A4%9A%E5%B7%A5%E5%B9%B3%E8%BA%BA%E6%B4%97%E5%9C%B0%E5%90%B8%E5%A1%B5%E5%99%A8-22000Pa-5%E5%88%86%E9%90%98%E9%80%9F%E4%B9%BE-11979820.html",
@@ -2240,8 +2240,8 @@
     "price": {
       "currency": "USD",
       "amount": 679.99,
-      "converted": 22175,
-      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-11-01 匯率換算"
+      "converted": 22193,
+      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-11-02 匯率換算"
     },
     "image": "https://m.media-amazon.com/images/I/61Yuy5vtWFL._AC_SL1500_.jpg",
     "buyUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
@@ -2280,14 +2280,14 @@
       "status": "found",
       "amount": 679.99,
       "currency": "USD",
-      "converted": 22175,
+      "converted": 22193,
       "sourceUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
       "sourceTitle": "Dreame Aero Ultra Steam Wet Dry Vacuum – Dreame Vacuum Mop",
       "evidenceSnippet": "Dreame 原廠美國商品頁於 2026-07-16 公開顯示特價 US$679.99、原價 US$799.99，且可 Add to Cart / Buy It Now。",
       "sourceKind": "official_sale",
       "confidence": "high",
       "checkedAt": "2026-07-16",
-      "note": "新上市商品目前可公開驗證的最低售價；未套用會員碼、信用卡、點數或個人化折扣，且未含國際運費、進口稅、插頭／供電與台灣保固風險；依 2026-11-01 USD/TWD 匯率換算。"
+      "note": "新上市商品目前可公開驗證的最低售價；未套用會員碼、信用卡、點數或個人化折扣，且未含國際運費、進口稅、插頭／供電與台灣保固風險；依 2026-11-02 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2746,11 +2746,11 @@
       "converted": 14999,
       "confidence": "WD5M14A 官方商品頁 2026-09-05 人工核對 exact-model 公開現價及可購狀態；非會員券、紅利或加購價",
       "basis": "retailer_current",
-      "note": "2026-11-01 Roborock台灣所選F25ACEPro主商品15888元但明示售罄、缺貨即將到貨；保留14999元舊參考價，不採缺貨展示價，不視為停產。"
+      "note": "2026-11-03 Roborock所選F25ACEPro原頁15888但缺貨即將進貨且schemaOutOfStock；保留14999舊參考價，不採缺貨展示價。"
     },
     "image": "https://taiwan.roborock.com/cdn/shop/files/F25_ACE_Pro_1_1200x1200.jpg?v=1787311249",
     "buyUrl": "https://taiwan.roborock.com/products/roborock-f25-ace-pro",
-    "buyLabel": "Roborock 官方（售罄，現價待確認）",
+    "buyLabel": "Roborock台灣（缺貨，現價待確認）",
     "installation": {
       "status": "not_stated",
       "note": "台灣官方與通路未列到府安裝；本品為手持洗地機，使用者需依原廠說明放置充電座、注水並清潔污水箱。"
@@ -3215,11 +3215,11 @@
       "converted": 17111,
       "basis": "retailer_current",
       "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-01 Roborock台灣官方WD6Y8A主商品17111元，19888是原價；原文明示預購，預計11月中旬依訂單陸續出貨，未扣首單500或LINE100元。"
+      "note": "2026-11-03 Roborock所選F25UltraSteamGen2原頁17111但售罄/缺貨/schemaOutOfStock且有預購11月中旬依序出貨文案；保留參考價，訂購與交期需確認。"
     },
     "image": "https://taiwan.roborock.com/cdn/shop/files/F25_Ultra_Steam_Gen_2_1_1200x1200.png?v=1790784065",
     "buyUrl": "https://taiwan.roborock.com/products/roborock-f25-ultra-steam-gen2",
-    "buyLabel": "Roborock 官方（預購11月中旬）",
+    "buyLabel": "Roborock台灣（預購／供貨待確認）",
     "installation": {
       "status": "not_stated",
       "note": "需自行依說明書組裝及放置充電自清潔底座，官方未列到府安裝；需預留污水箱拆裝、清水補充及熱風排散空間。"
@@ -3307,11 +3307,11 @@
   "channel": "tw",
   "price": {
     "currency": "TWD",
-    "amount": 4600,
-    "converted": 4600,
+    "amount": 4811,
+    "converted": 4811,
     "basis": "retailer_current",
-    "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-    "note": "2026-11-01 momo 正負零官方直營XJC-G040所選主商品11/01–11/02單件折511後4600元，折前5111；非相關商品Y011的2911元。"
+    "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+    "note": "2026-11-03 momo 所選XJC-G040主商品單件折300後4811、折前5111；11/01至11/15活動，數量1至20；相關Y0112911不是本款。"
   },
   "installation": {
     "status": "not_stated",

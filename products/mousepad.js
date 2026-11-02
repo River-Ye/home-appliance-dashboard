@@ -1172,11 +1172,11 @@
     "topPick": false,
     "price": {
       "currency": "TWD",
-      "amount": 4150,
-      "converted": 4150,
+      "amount": 4390,
+      "converted": 4390,
       "basis": "retailer_current",
-      "confidence": "2026-10-28 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
-      "note": "2026-10-28晚間原頁覆核：主商品RZ02-04490100-R3M1網路4390元，10/28–11/2周邊滿2000折240元，單件4150元；不把其他尺寸或相關商品當本款。不含個人券、點數或信用卡回饋。"
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-03 人工核對原始SKU API名稱、商品ID、正庫存與公開價4390元。原商品HTML本輪HTTP429，API報價不代表完整出貨承諾。"
     },
     "installation": {
       "status": "not_stated",

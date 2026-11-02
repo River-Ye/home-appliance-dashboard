@@ -1745,9 +1745,11 @@
     "name": "Halo 指靜脈人臉辨識電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 25175,
-      "converted": 25175,
-      "confidence": "PChome 2026-08-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 26500,
+      "converted": 26500,
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-03 PChome exact原SKU DQBS4N-A900JUBVW，逐筆核對本輪主標題「Lockin_鹿客 Halo 指靜脈人臉辨識電子鎖 Lockin_鹿客 Halo 指靜脈人臉辨識電子鎖」、Qty=3與公開主價26500。 原HTML HTTP429，採同輪可信exactID API並保留讀取限制。未扣券/點數/信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900JUBVW/000001_1774253039.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900JUBVW",
@@ -2010,9 +2012,9 @@
     "price": {
       "currency": "HKD",
       "amount": 9638,
-      "converted": 40062,
+      "converted": 40098,
       "basis": "retailer_current",
-      "confidence": "EasyLock 香港 2026-08-28 exact-model 公開促銷價；ExchangeRate-API 2026-11-01 匯率換算"
+      "confidence": "EasyLock 香港 2026-08-28 exact-model 公開促銷價；ExchangeRate-API 2026-11-02 匯率換算"
     },
     "installation": {
       "status": "included_basic",
@@ -2287,11 +2289,11 @@
     "name": "ML660 四合一智能電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 25000,
-      "converted": 25000,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 22250,
+      "converted": 22250,
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-01 PChome主商品API商品ID DECE4E-A900DXNUC 相符，原標題「dormakaba 四合一指紋/卡片/密碼/鑰匙_智能電子鎖(ML660)(附基本安裝) dormakaba 四合一指紋/卡片/密碼/鑰匙_智能電子鎖(ML660)(附基本安裝)」，Qty=4，公開折扣／主價 25000 元（網路價25000；Price.Low=無）；未扣券、回饋或點數。 同輪HTML為HTTP429；以本輪可信商品API逐筆核對，保留HTML讀取限制，不推定停產。"
+      "note": "2026-11-03 PChome exact原SKU DECE4E-A900DXNUC，逐筆核對本輪主標題「dormakaba 四合一指紋/卡片/密碼/鑰匙_智能電子鎖(ML660)(附基本安裝) dormakaba 四合一指紋/卡片/密碼/鑰匙_智能電子鎖(ML660)(附基本安裝)」、Qty=4與公開主價22250。 原HTML HTTP429，採同輪可信exactID API並保留讀取限制。未扣券/點數/信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DECE4EA900DXNUC/000001_1643338134.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DECE4E-A900DXNUC",
@@ -2482,9 +2484,11 @@
     "name": "FA9000 五合一人臉辨識電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 27540,
-      "converted": 27540,
-      "confidence": "PChome 2026-08-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 28990,
+      "converted": 28990,
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-03 PChome exact原SKU DQBS4N-A900IAVXZ，逐筆核對本輪主標題「dormakaba FA9000 dormakaba FA9000」、Qty=20與公開主價28990。 原HTML HTTP429，採同輪可信exactID API並保留讀取限制。未扣券/點數/信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900IAVXZ/000001_1740465068.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900IAVXZ",
@@ -2578,9 +2582,11 @@
     "name": "MI-510F 三合一輔助型電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 9025,
-      "converted": 9025,
-      "confidence": "PChome 2026-08-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 9500,
+      "converted": 9500,
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-03 PChome exact原SKU DQBS4N-A900ILR7A，逐筆核對本輪主標題「Milre美樂 MI-510F 三合一輔助型電子鎖 Milre美樂 MDL-510F 三合一輔助型電子鎖 密碼/指紋/卡片(附基本安裝)」、Qty=1與公開主價9500。 原HTML HTTP429，採同輪可信exactID API並保留讀取限制。未扣券/點數/信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900ILR7A/000001_1767853677.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900ILR7A",
@@ -2674,9 +2680,11 @@
     "name": "MI-6450 三合一電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 14250,
-      "converted": 14250,
-      "confidence": "PChome 2026-08-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 15000,
+      "converted": 15000,
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-03 PChome exact原SKU DQBS4N-A900ILR3T，逐筆核對本輪主標題「Milre美樂 MI-6450 三合一電子鎖 Milre美樂 MI-6450 三合一電子鎖 卡片/密碼/鑰匙 (附基本安裝)」、Qty=1與公開主價15000。 原HTML HTTP429，採同輪可信exactID API並保留讀取限制。未扣券/點數/信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900ILR3T/000001_1767087495.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900ILR3T",
@@ -2770,9 +2778,11 @@
     "name": "MI-7150+ 四合一電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 18050,
-      "converted": 18050,
-      "confidence": "PChome 2026-08-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 19000,
+      "converted": 19000,
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-03 PChome exact原SKU DQBS4N-A900IOJ43，逐筆核對本輪主標題「Milre美樂 MI-7150+ 四合一電子鎖 Milre美樂 MI-7150+ 四合一電子鎖 指紋/卡片/密碼/鑰匙 (附基本安裝)」、Qty=1與公開主價19000。 原HTML HTTP429，採同輪可信exactID API並保留讀取限制。未扣券/點數/信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900IOJ43/000001_1766741547.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900IOJ43",
@@ -3058,11 +3068,11 @@
     "name": "FB90 築韻掌靜脈貓眼電子門鎖",
     "price": {
       "currency": "TWD",
-      "amount": 37380,
-      "converted": 37380,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 33111,
+      "converted": 33111,
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-01 PChome主商品API商品ID DQBS4N-A900J43AP 相符，原標題「FIBRE 琺博 築韻FB90 電子貓眼/掌靜脈/人臉電子門鎖 FIBRE 琺博 築韻FB90 電子貓眼/掌靜脈/人臉電子門鎖」，Qty=20，公開折扣／主價 37380 元（網路價42000；Price.Low=37380）；未扣券、回饋或點數。 同輪HTML為HTTP429；以本輪可信商品API逐筆核對，保留HTML讀取限制，不推定停產。"
+      "note": "2026-11-03 PChome exact原SKU DQBS4N-A900J43AP，逐筆核對本輪主標題「FIBRE 琺博 築韻FB90 電子貓眼/掌靜脈/人臉電子門鎖 FIBRE 琺博 築韻FB90 電子貓眼/掌靜脈/人臉電子門鎖」、Qty=20與公開主價33111。 原HTML HTTP429，採同輪可信exactID API並保留讀取限制。未扣券/點數/信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900J43AP/000001_1764829802.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900J43AP",
@@ -3348,10 +3358,10 @@
     "name": "逸系列微光夜視貓眼電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 29999,
-      "converted": 29999,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-01 PChome主商品API商品ID DQBS4N-A900K2QWO 相符，原標題「【HITACHI 日立】逸系列 微光夜視全彩300萬畫素貓眼電子鎖 HIT-FY10-T 日本領導品牌、享原廠三年保固、提供線上免費評估與到府專業安裝。」，Qty=13，公開折扣／主價 29999 元（網路價33111；Price.Low=29999）；未扣券、回饋或點數。 同輪HTML為HTTP429；以本輪可信商品API逐筆核對，保留HTML讀取限制，不推定停產。",
+      "amount": 31111,
+      "converted": 31111,
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-03 PChome exact原SKU DQBS4N-A900K2QWO，逐筆核對本輪主標題「【HITACHI 日立】逸系列 微光夜視全彩300萬畫素貓眼電子鎖 HIT-FY10-T 日本領導品牌、享原廠三年保固、提供線上免費評估與到府專業安裝。」、Qty=12與公開主價31111。 原HTML HTTP429，採同輪可信exactID API並保留讀取限制。未扣券/點數/信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900K2QWO/000001_1782963114.jpg",
@@ -4022,9 +4032,11 @@
     "name": "T9 Plus+ 掌靜脈九合一電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 23750,
-      "converted": 23750,
-      "confidence": "PChome 2026-08-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 25000,
+      "converted": 25000,
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-03 PChome exact原SKU DQBS4N-A900K03FM，逐筆核對本輪主標題「3E小島快鎖 WIFI版掌靜脈辨識九合一電子鎖(T9 Plus+)(附基本安裝) 3E小島快鎖 WIFI版掌靜脈辨識九合一電子鎖(T9 Plus+)(附基本安裝)」、Qty=2與公開主價25000。 原HTML HTTP429，採同輪可信exactID API並保留讀取限制。未扣券/點數/信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900K03FM/000001_1778558520.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900K03FM",
@@ -4118,9 +4130,11 @@
     "name": "TK 九合一電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 30248,
-      "converted": 30248,
-      "confidence": "PChome 2026-08-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 31840,
+      "converted": 31840,
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-03 PChome exact原SKU DQBS4N-A900JG66I，逐筆核對本輪主標題「E小島快鎖 TK 九合一電子鎖 3E小島快鎖 TK 九合一電子鎖」、Qty=1與公開主價31840。 原HTML HTTP429，採同輪可信exactID API並保留讀取限制。未扣券/點數/信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900JG66I/000001_1771990337.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900JG66I",
@@ -4214,9 +4228,11 @@
     "name": "T12 五合一把手式電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 14155,
-      "converted": 14155,
-      "confidence": "PChome 2026-08-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 14900,
+      "converted": 14900,
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-03 PChome exact原SKU DQBS4N-A900IDEPI，逐筆核對本輪主標題「moorgen T12 五合一把手式 快開大把手一握開」、Qty=20與公開主價14900。 原HTML HTTP429，採同輪可信exactID API並保留讀取限制。未扣券/點數/信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900IDEPI/000001_1748323634.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900IDEPI",
@@ -4406,9 +4422,11 @@
     "name": "Z2 指靜脈貓眼智慧靜音電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 32138,
-      "converted": 32138,
-      "confidence": "PChome 2026-08-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 33830,
+      "converted": 33830,
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-03 PChome exact原SKU DQBS4N-A900JISCM，逐筆核對本輪主標題「【arpha】Z2 金融級指靜脈辨識貓眼智慧靜音電子鎖 【arpha】Z2 金融級指靜脈辨識貓眼智慧靜音電子鎖」、Qty=9與公開主價33830。 同輪原頁主商品價格/購買入口已閱讀。未扣券/點數/信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900JISCM/000001_1780306235.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900JISCM",
@@ -4502,9 +4520,11 @@
     "name": "AI 智慧 A50 頂級電子門鎖",
     "price": {
       "currency": "TWD",
-      "amount": 31160,
-      "converted": 31160,
-      "confidence": "PChome 2026-08-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 32800,
+      "converted": 32800,
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-03 PChome exact原SKU DQBS4N-A900K2WIC，逐筆核對本輪主標題「【Chatlock】日本製頂級電子門鎖 AI 智慧 A50 - 摩卡棕 【Chatlock】日本製頂級電子門鎖 AI 智慧 A50 - 摩卡棕」、Qty=5與公開主價32800。 同輪原頁主商品價格/購買入口已閱讀。未扣券/點數/信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900K2WIC/000001_1783308785.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900K2WIC",

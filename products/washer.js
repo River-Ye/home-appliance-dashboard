@@ -334,7 +334,7 @@
       "amount": 21032,
       "converted": 21032,
       "confidence": "Yahoo購物中心 2026-07-21 頁面公開價",
-      "note": "2026-11-02 Yahoo所選NA-V190MT-PN主價21510但已售完；保留21032舊參考價，不採售完展示價。"
+      "note": "2026-11-03 Yahoo所選NA-V190MT-PN主價21510但已售完；保留21032舊參考價，不採售完展示價。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物（缺貨，現價待確認）",
@@ -1071,11 +1071,11 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/ce2bc90225-Gd-9291102.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 5346,
-      "converted": 5346,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 5511,
+      "converted": 5511,
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-01 Yahoo所選同型號主購買區公開價5346元，可訂購；由廠商聯絡約定送貨時間，交期未確認。不扣個人券、信用卡、點數及贈品。公開單件活動有效至2026-11-02T08:29:59+08:00。"
+      "note": "2026-11-03 Yahoo WM07PW所選7kg主價5511，可立即購買/加車，廠商聯絡約定送貨，不扣個人回饋。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",

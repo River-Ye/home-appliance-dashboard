@@ -530,7 +530,7 @@
       "converted": 32000,
       "confidence": "Yahoo購物中心 2026-09-14 exact-model 公開結構化價格",
       "basis": "retailer_current",
-      "note": "2026-11-02 Yahoo所選桶裝瓦斯8TWGD5620HW主價29014但已售完；保留32000舊參考價，不採售完展示價。"
+      "note": "2026-11-03 Yahoo所選桶裝瓦斯8TWGD5620HW主價29911但已售完；保留32000舊參考價，不採售完展示價。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物（缺貨，現價待確認）",
@@ -1545,7 +1545,7 @@
       "amount": 6460,
       "converted": 6460,
       "confidence": "Yahoo購物中心 2026-07-11 頁面查核價",
-      "note": "2026-11-02 Yahoo所選TAW-D60T主價6800但已停售；保留6460舊參考價，不採停售展示價。"
+      "note": "2026-11-03 Yahoo所選TAW-D60T主價6800但已停售；保留6460舊參考價，不採停售展示價。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物（停售，現價待確認）",

@@ -114,10 +114,10 @@
     "name": "特仕版 2.0 人體工學椅",
     "price": {
       "currency": "TWD",
-      "amount": 11900,
-      "converted": 11900,
-      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-02 人工讀取PChome同型號主商品及原始API：公開11900元、Qty20；不扣個人券或回饋，實際配送依通路。",
+      "amount": 9999,
+      "converted": 9999,
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-03 人工核對原始SKU API名稱、商品ID、正庫存與公開價9999元。同型原頁可加車且金額一致。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAKHPA900HEQ4H/000001_1760581993.jpg",
@@ -601,11 +601,11 @@
     "name": "Fujin 風靈網狀人體工學電競椅",
     "price": {
       "currency": "TWD",
-      "amount": 11691,
-      "converted": 11691,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "amount": 12990,
+      "converted": 12990,
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-28晚間原頁覆核：Fujin主商品公開價11691TWD，本輪原頁可加入購物車；主商品價與舊參考一致，未套用相關商品或回饋。不含個人券、點數或信用卡回饋。"
+      "note": "2026-11-03 人工核對原始SKU API名稱、商品ID、正庫存與公開價12990元。同型原頁可加車且金額一致。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBT0KA900GSDTK/000001_1762771347.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBT0K-A900GSDTK",
@@ -700,9 +700,11 @@
     "name": "Iskur V2 電競椅",
     "price": {
       "currency": "TWD",
-      "amount": 20900,
-      "converted": 20900,
-      "confidence": "PChome 2026-08-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 17990,
+      "converted": 17990,
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-03 人工核對原始SKU API名稱、商品ID、正庫存與公開價17990元。同型原頁可加車且金額一致。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBE2LA900HBXCK/000001_1783562976.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBE2L-A900HBXCK",
@@ -788,11 +790,11 @@
     "name": "Enki 電競椅",
     "price": {
       "currency": "TWD",
-      "amount": 13410,
-      "converted": 13410,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "amount": 14900,
+      "converted": 14900,
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 Enki黑RZ38-03720300-R3U1主商品14900元單件9折13410元，原頁PreOrdDate與transProOrderDate都為2026/11/02–2026/11/04，並非保證現貨。"
+      "note": "2026-11-03 人工核對原始SKU API名稱、商品ID、正庫存與公開價14900元。同型原頁可加車且金額一致。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAKFOA900BWWGS/000001_1755481797.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAKFO-A900BWWGS",
@@ -2764,7 +2766,7 @@
       "converted": 10499,
       "basis": "retailer_current",
       "confidence": "2026-10-23 SIDIZ台灣官店exact原生黑色variant及SKU由Chrome核對，公開價10499且schema InStock、加入購物車與立即買可用；非舊代或裸座墊。",
-      "note": "2026-11-02 SIDIZ所選料號10499元可加車但同時已缺貨後出貨文案；交期請確認。"
+      "note": "2026-11-03 SIDIZ所選料號10499元可加車但同時已缺貨後出貨文案；交期請確認。"
     },
     "installation": {
       "status": "not_stated",

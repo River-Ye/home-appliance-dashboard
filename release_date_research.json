@@ -1,20 +1,20 @@
 {
   "summary": {
-    "checkedAt": "2026-11-02T07:08:48.142+08:00",
-    "total": 1232,
+    "checkedAt": "2026-11-03T07:12:14.847+08:00",
+    "total": 1233,
     "researchedThisRun": 1,
     "found": 352,
-    "missing": 880,
+    "missing": 881,
     "byConfidence": {
       "official": 188,
-      "not_found": 877,
+      "not_found": 878,
       "retailer_explicit": 23,
       "credible_article": 52,
       "high": 71,
       "medium": 18,
       "unknown": 3
     },
-    "scopeNote": "2026-11-02僅新增本批1款的上市查核；既有1231筆逐筆研究與日期原樣保留。"
+    "scopeNote": "2026-11-03僅新增本批1款的上市查核；既有1232筆逐筆研究與日期原樣保留。"
   },
   "results": [
     {
@@ -37822,6 +37822,44 @@
           "url": "https://24h.pchome.com.tw/prod/DPACKO-A900KCQNK",
           "title": "PChome同型主商品",
           "outcome": "可購與保固資料，不作上市日"
+        }
+      ]
+    },
+    {
+      "id": "refrigerator-hitachi-hrtn5255mf1",
+      "category": "refrigerator",
+      "brand": "HITACHI",
+      "model": "HRTN5255MF1",
+      "name": "HITACHI HRTN5255MF1 240L 一級能效變頻雙門冰箱（璀璨銀）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "checkedAt": "2026-11-03",
+      "query": "\"HRTN5255MF1\" 上市 發售 日期",
+      "reason": "台灣官方標NEW但無明確上市/發售日期；官方手冊修訂日、香港能源登錄日、促銷/交貨日期及Lukfur舊MF資料更新日均不當MF1台灣上市日。",
+      "checkedSources": [
+        {
+          "url": "https://hitachi-homeappliances.com.tw/products/products_feature.php?pid=HRTN5255MF1",
+          "title": "HITACHI台灣HRTN5255MF1",
+          "outcome": "NEW，未標明上市日期"
+        },
+        {
+          "url": "https://hitachi-homeappliances.com.tw/image/hsct/service/download/manual/Instruction_Manual_HRTN5255_5275MF1.pdf",
+          "title": "HITACHI台灣MF1說明書",
+          "outcome": "用於exact型號電力與規格，非上市日期"
+        },
+        {
+          "url": "https://www.myfone.com.tw/mfo/buy/prod/P0000203778755",
+          "title": "myfone台灣完整商品",
+          "outcome": "現價與約配，不是上市公告"
+        },
+        {
+          "url": "https://24h.pchome.com.tw/prod/DPAC95-A900KC5CQ",
+          "title": "PChome同型商品",
+          "outcome": "現售規格不作上市日"
         }
       ]
     }

@@ -825,10 +825,10 @@
     "name": "BRAVIA 8 65 型 XR OLED 4K HDR Google TV 顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 84510,
-      "converted": 84510,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-28晚間原頁覆核：Y-65XR80主商品公開價84510TWD，本輪原頁可加入購物車；主商品價與舊參考一致，未套用相關商品或回饋。不含個人券、點數或信用卡回饋。",
+      "amount": 93900,
+      "converted": 93900,
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-03 人工核對PChome exact商品ID與當日API原資料：[Sony 索尼] BRAVIA 8 65吋 XR OLED 4K HDR Google TV顯示器(Y-65XR80 )；[Sony 索尼] BRAVIA 8 65吋 XR OLED 4K HDR Google TV顯示器(Y-65XR80 )；Price.P=93900元，Qty=1。原HTML本輪HTTP429，未從不可讀頁推交期；僅採原API商品ID、完整型號及可訂數。不扣個人券、點數、信用卡，實際配送安裝請確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD06A900HLBJO/000001_1776334113.jpg",
@@ -1916,10 +1916,10 @@
     "name": "65型 4K QLED 120Hz Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 14391,
-      "converted": 14391,
-      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
-      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。",
+      "amount": 14231,
+      "converted": 14231,
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-03 人工核對PChome exact商品ID與當日API原資料：【CHiQ 啟客】65型4K QLED 120Hz DLG google TV智慧聯網液晶顯示器CQ-65QX250；<font color=#FF0000><b>含運送+基本安裝+舊機回收</font></b><BR>【CHiQ 啟客】65型4K QLED 120Hz DLG google TV智慧聯網液晶顯示器CQ-65QX250；Price.Low=14231元，Qty=20。原HTML本輪HTTP429，未從不可讀頁推交期；僅採原API商品ID、完整型號及可訂數。不扣個人券、點數、信用卡，實際配送安裝請確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADTOA900JNE73/000001_1768523868.jpg",

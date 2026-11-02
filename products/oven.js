@@ -115,11 +115,11 @@
     "name": "26L 8 合 1 變頻氣炸蒸烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 18900,
-      "converted": 18900,
+      "amount": 17955,
+      "converted": 17955,
       "basis": "retailer_current",
-      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-02 Yahoo MWP269TMT主商品18900元且可購，昨日17955優惠已不重現，不扣信用卡與點數。"
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-03 Yahoo所選MWP269TMT原主商品本輪公開價17955元，主頁立即購買/加入購物車。本輪活動期限2026-11-10T09:59:59+08:00，不是承接昨日活動。未扣個人券、信用卡、點數或贈品。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ02A900J1WEX/000001_1753093870.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool%E6%83%A0%E8%80%8C%E6%B5%A6-Coloris%E7%B3%BB%E5%88%97-26%E5%85%AC%E5%8D%878%E5%90%88%E4%B8%80%E5%85%A8%E8%83%BD%E8%AE%8A%E9%A0%BB%E6%B0%A3%E7%82%B8%E8%92%B8%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-%E9%9B%B2%E9%9C%A7%E7%99%BD-MWP2-11705976.html",
@@ -415,8 +415,8 @@
     "price": {
       "currency": "USD",
       "amount": 499.95,
-      "converted": 16304,
-      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-11-01 匯率換算"
+      "converted": 16317,
+      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-11-02 匯率換算"
     },
     "image": "https://assets.breville.com/cdn-cgi/image/width=1300,format=auto/BOV950/BOV950BSS1BUS1/pdp3.png?pdp=",
     "buyUrl": "https://www.breville.com/en-us/product/bov950",
@@ -808,11 +808,11 @@
     "name": "Coloris 系列 32L 8 合 1 變頻氣炸蒸烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 24090,
-      "converted": 24090,
-      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 22886,
+      "converted": 22886,
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-02 Yahoo MWP329TST主商品24090元可購，舊22886優惠已不重現；原頁明示無安裝、僅送一樓，購買前確認搬運。"
+      "note": "2026-11-03 Yahoo所選MWP329TST原主商品本輪公開價22886元，主頁立即購買/加入購物車。本輪活動期限2026-11-10T09:59:59+08:00，不是承接昨日活動。未扣個人券、信用卡、點數或贈品。 無安裝，僅送至一樓。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ03A900IYX0L/000001_1750758530.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool-%E6%83%A0%E8%80%8C%E6%B5%A6Coloris%E7%B3%BB%E5%88%97-32%E5%85%AC%E5%8D%878%E5%90%88%E4%B8%80%E5%85%A8%E8%83%BD%E8%AE%8A%E9%A0%BB%E6%B0%A3%E7%82%B8%E8%92%B8%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-%E5%A4%A7%E5%9C%B0%E6%A3%95-MWP3-12006007.html",
@@ -1012,11 +1012,11 @@
     "name": "25 公升獨立式蒸烤爐",
     "price": {
       "currency": "TWD",
-      "amount": 9999,
-      "converted": 9999,
+      "amount": 9500,
+      "converted": 9500,
       "basis": "retailer_current",
-      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-02 Yahoo WSO2500B主商品9999元且立即購買/加車，舊9500優惠已不重現；不是18100原價或相關款。"
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-03 Yahoo所選WSO2500B原主商品本輪公開價9500元，主頁立即購買/加入購物車。本輪活動期限2026-11-10T09:59:59+08:00，不是承接昨日活動。未扣個人券、信用卡、點數或贈品。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ6QA900EO5DH/000001_1704094465.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool%E6%83%A0%E8%80%8C%E6%B5%A6-25%E5%85%AC%E5%8D%87%E7%8D%A8%E7%AB%8B%E5%BC%8F%E8%92%B8%E7%83%A4%E7%88%90-WSO2500B-9918063.html",
@@ -1705,11 +1705,11 @@
     "name": "過熱水蒸氣烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 22908,
-      "converted": 22908,
+      "amount": 21763,
+      "converted": 21763,
       "basis": "retailer_current",
-      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-02 Yahoo MROS800AT主商品22908元且立即購買/加車，舊21763優惠已不重現；不扣信用卡/OPENPOINT。"
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-03 Yahoo所選MROS800AT原主商品本輪公開價21763元，主頁立即購買/加入購物車。本輪活動期限2026-11-10T09:59:59+08:00，不是承接昨日活動。未扣個人券、信用卡、點數或贈品。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ031900I80DM/000001_1778655849.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/HITACHI-%E6%97%A5%E7%AB%8B-%E9%81%8E%E7%86%B1%E6%B0%B4%E8%92%B8%E6%B0%A3%E7%83%98%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-%E7%88%B5%E8%89%B2%E9%BB%91-MROS800AT-11995105.html",
@@ -2306,8 +2306,8 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 13044,
-      "confidence": "2026-08-31 人工核對 SharkNinja 美國官方 MW101 公開可購主價 USD 399.99；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-11-01 匯率換算",
+      "converted": 13054,
+      "confidence": "2026-08-31 人工核對 SharkNinja 美國官方 MW101 公開可購主價 USD 399.99；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-11-02 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-01 Ninja美國MW101 Silver主頁標349.99美元但動態購買區實際endpoint明示Notify me／Out of Stock，與靜態InStock衝突；不採為可購現價，保留舊399.99美元參考。 海外參考；未含國際運費、進口稅、電壓／插頭與台灣保固風險。"
     },

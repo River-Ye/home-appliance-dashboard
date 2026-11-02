@@ -795,11 +795,11 @@
     "name": "9 公升除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 8125,
-      "converted": 8125,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 7981,
+      "converted": 7981,
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-01 人工逐筆核對PChome原產品API：Panasonic國際牌 9公升除濕機F-Y18PN；Price.Low=8125元，Qty=20，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
+      "note": "2026-11-03 人工核對PChome exact商品ID與當日API原資料：Panasonic國際牌 9公升除濕機F-Y18PN；Panasonic國際牌 9公升除濕機F-Y18PN；Price.Low=7981元，Qty=20。原商品頁可讀並對照主商品。不扣個人券、點數、信用卡，實際配送安裝請確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ00A900JB38A/000001_1776329911.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ00-A900JB38A",
@@ -893,11 +893,11 @@
     "name": "PuriCare WiFi 變頻除濕機粉紅 16 公升",
     "price": {
       "currency": "TWD",
-      "amount": 13900,
-      "converted": 13900,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 13112,
+      "converted": 13112,
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-01 人工逐筆核對PChome原產品API：LG PuriCare™ WiFi變頻除濕機-粉紅/16公升(MD161QPK3)；Price.Low=13900元，Qty=20，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
+      "note": "2026-11-03 人工核對PChome exact商品ID與當日API原資料：LG PuriCare™ WiFi變頻除濕機-粉紅/16公升(MD161QPK3)；LG PuriCare™ WiFi變頻除濕機-粉紅/16公升(MD161QPK3)；Price.Low=13112元，Qty=20。原商品頁可讀並對照主商品。不扣個人券、點數、信用卡，實際配送安裝請確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ07A900HQ3L5/000001_1761827365.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ07-A900HQ3L5",
@@ -1186,7 +1186,7 @@
       "amount": 18522,
       "converted": 18522,
       "confidence": "Yahoo購物中心 2026-09-02 exact-model 公開結構化價格",
-      "note": "2026-11-02 Yahoo所選WD261VKF0主價19385但已停售；保留18522舊參考價，不採停售展示價，無官方整型停產正證。"
+      "note": "2026-11-03 Yahoo所選WD261VKF0主價19385但已停售；保留18522舊參考價，不採停售展示價，無官方整型停產正證。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ07A900GFBVP/000001_1767340170.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-PuriCare-%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9F-25-6%E5%85%AC%E5%8D%87-%E6%9B%9C%E9%BB%91-WD261VKF0-11970685.html",
@@ -1280,9 +1280,11 @@
     "name": "18 公升一級能效 PuriCare 雙變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 17542,
-      "converted": 17542,
-      "confidence": "Yahoo購物中心 2026-09-02 exact-model 公開結構化價格"
+      "amount": 17184,
+      "converted": 17184,
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-03 Yahoo DD181MWE0所選18L主價17184、原17900，滿1件96折至12/1 09:59:59，可立即購買/加車，不扣信用卡或超贈點。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4NA900JCHFZ/000001_1783342859.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-PuriCare-18%E5%85%AC%E5%8D%87%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9F-%E7%99%BD%E8%89%B2-DD181MWE0-11971018.html",

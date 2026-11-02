@@ -1345,9 +1345,11 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWGAA900B4V1I/000001_1670815636.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1415,
-      "converted": 1415,
-      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 1341,
+      "converted": 1341,
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-03 PChome exact原SKU DEAWGA-A900B4V1I，逐筆核對本輪主標題「【CookPower鍋寶】微晶透明湯鍋(黑底) OG-42BK 【CookPower鍋寶】微晶透明湯鍋(黑底) OG-42BK」、Qty=19與公開主價1341。 同輪原頁主商品價格/購買入口已閱讀。未扣券/點數/信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1386,16 +1388,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 1415,
+      "amount": 1341,
       "currency": "TWD",
-      "converted": 1415,
+      "converted": 1341,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DEAWGA-A900B4V1I",
-      "sourceTitle": "PChome 商品頁：【CookPower鍋寶】微晶透明湯鍋(黑底) OG-42BK / 【CookPower鍋寶】微晶透明湯鍋(黑底) OG-42BK",
-      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「【CookPower鍋寶】微晶透明湯鍋(黑底) OG-42BK / 【CookPower鍋寶】微晶透明湯鍋(黑底) OG-42BK」查核價 NT$1,415，低於原先記錄史低。",
+      "sourceTitle": "PChome 24h 購物：【CookPower鍋寶】微晶透明湯鍋(黑底) OG-42BK",
+      "evidenceSnippet": "PChome 24h 購物於 2026-11-03 顯示同型號可信新品公開價 NT$1,341，低於既有史低 NT$1,415。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-10",
-      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
+      "checkedAt": "2026-11-03",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",

@@ -2910,10 +2910,11 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 4490,
-      "converted": 4490,
+      "amount": 3990,
+      "converted": 3990,
       "basis": "retailer_current",
-      "confidence": "2026-09-01 Chrome官方標準鋁框SoldOut，選唯一代表特仕木飾黑星雲軸4490（舊4990）、英文原鍵帽可索貼紙不等同注音；切白再黑取得真實variant46813890674947，SKU KBKCK2HF1，可加入購物車，主圖800。與全木TMR新版HF1W不同。"
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-03 Keychron台灣所選完整成品/軸體版本3990元，可加車；不採其他軸體、顏色或配件價。"
     },
     "installation": {
       "status": "not_stated",
@@ -3309,10 +3310,11 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 4290,
-      "converted": 4290,
+      "amount": 3990,
+      "converted": 3990,
       "basis": "retailer_current",
-      "confidence": "2026-10-24 CUA原頁實際切換並重開官方variant47941623480579，確認黑色注音Keychron SilkPOM紅軸KBKCV6UD1、4290元、加入購物車可用與1–2工作天出貨；未扣訂閱折扣或點數。"
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-03 Keychron台灣所選完整成品/軸體版本3990元，可加車；不採其他軸體、顏色或配件價。"
     },
     "installation": {
       "status": "not_stated",

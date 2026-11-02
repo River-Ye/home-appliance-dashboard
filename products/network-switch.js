@@ -2092,7 +2092,7 @@
       "converted": 12590,
       "confidence": "QNAP 台灣官方商店 2026-08-24 exact-model 台灣原廠保固新品公開價",
       "basis": "retailer_current",
-      "note": "2026-11-02 QNAP台灣商城同型號12590元可加車，但有庫存與預購2–4週文案並列，不稱立即現貨。"
+      "note": "2026-11-03 QNAP台灣商城同型號12590元可加車，但有庫存與預購2–4週文案並列，不稱立即現貨。"
     },
     "installation": {
       "status": "excluded",

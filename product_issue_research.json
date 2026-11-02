@@ -1,9 +1,9 @@
 {
   "summary": {
-    "checkedAt": "2026-11-02T07:08:48.142+08:00",
-    "total": 1232,
+    "checkedAt": "2026-11-03T07:12:14.847+08:00",
+    "total": 1233,
     "commonIssueProducts": 54,
-    "noCommonIssueProducts": 1178,
+    "noCommonIssueProducts": 1179,
     "pendingManualReview": 0,
     "commonIssues": 55,
     "searchUnavailable": 614,
@@ -36,7 +36,8 @@
       "2026-10-30僅新增本批4款的逐型跨站人工覆核；其他1224筆及392筆逐人報告保留原始研究日期與內容，不跨尺寸、版本、相近型號轉借結論。",
       "2026-10-31僅新增本批2款的逐型跨站人工覆核；其他1228筆及392筆逐人報告保留原始研究日期與內容，不跨尺寸、版本、相近型號轉借結論。",
       "2026-10-31僅新增NN-BS10EK逐型跨站人工覆核，保留舊1230筆研究與392筆逐人報告原始日期及內容，不跨台灣/日本近型或歷代產品轉借結論。",
-      "2026-11-02僅新增本批1款的逐型跨站人工覆核；其他1231筆及392筆逐人報告保留原始研究日期與內容，不跨尺寸、版本、相近型號轉借結論。"
+      "2026-11-02僅新增本批1款的逐型跨站人工覆核；其他1231筆及392筆逐人報告保留原始研究日期與內容，不跨尺寸、版本、相近型號轉借結論。",
+      "2026-11-03僅新增本批1款的逐型跨站人工覆核；其他1232筆及392筆逐人報告保留原始研究日期與內容，不跨尺寸、版本、相近型號轉借結論。"
     ]
   },
   "results": [
@@ -221146,6 +221147,284 @@
       ],
       "evidence": [],
       "rejectedCandidates": [],
+      "reports": []
+    },
+    {
+      "id": "refrigerator-hitachi-hrtn5255mf1",
+      "category": "refrigerator",
+      "brand": "HITACHI",
+      "model": "HRTN5255MF1",
+      "name": "HITACHI HRTN5255MF1 240L 一級能效變頻雙門冰箱（璀璨銀）",
+      "identity": {
+        "canonicalModel": "HRTN5255MF1",
+        "lookupLabel": "HITACHI HRTN5255MF1",
+        "aliases": [
+          "HITACHI HRTN5255MF1",
+          "HRTN5255MF1XTW"
+        ],
+        "evidenceUrl": "https://hitachi-homeappliances.com.tw/products/products_feature.php?pid=HRTN5255MF1"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "id": "refrigerator-hitachi-hrtn5255mf1",
+        "category": "refrigerator",
+        "brand": "HITACHI",
+        "model": "HRTN5255MF1",
+        "reviewedAt": "2026-11-03",
+        "reviewBatch": "refrigerator",
+        "decision": "no_common_issue",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT",
+          "Dcard"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "\"HRTN5255MF1\" site:mobile01.com/topicdetail.php",
+            "queryUrl": "https://www.google.com/search?q=%22HRTN5255MF1%22%20site%3Amobile01.com%2Ftopicdetail.php"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "\"HRTN5255MF1\" site:ptt.cc/bbs/",
+            "queryUrl": "https://www.google.com/search?q=%22HRTN5255MF1%22%20site%3Aptt.cc%2Fbbs%2F"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "\"HRTN5255MF1\" site:dcard.tw/f/",
+            "queryUrl": "https://www.google.com/search?q=%22HRTN5255MF1%22%20site%3Adcard.tw%2Ff%2F"
+          }
+        ],
+        "candidateDisposition": "本輪逐一人工檢視HRTN5255MF1在Mobile01、PTT、Dcard三站exact型號查詢，domain限制覆查均無exact候選；一般搜尋發現Lukfur把MF1通路報價與舊MF討論混排，已回到其五個PTT原頁逐一核對，均為無1舊MF、RG36B或其他型號並排除。未把舊款作者、轉引或回覆數算入本型；截至查核日未形成六名獨立使用者跨兩原始網站的同一問題，不代表完全沒有負評。",
+        "representativeSources": [
+          {
+            "platform": "PTT",
+            "title": "[心得] 日立240公升變頻兩門冰箱HRTN5255MF - 看板 E-appliance - 批踢踢實業坊",
+            "url": "https://www.ptt.cc/bbs/E-appliance/M.1763275981.A.BBB.html"
+          },
+          {
+            "platform": "PTT",
+            "title": "Re: [挑選] 250L 冰箱 日立、國際、三洋 - 看板 E-appliance - 批踢踢實業坊",
+            "url": "https://www.ptt.cc/bbs/E-appliance/M.1729955567.A.D03.html"
+          },
+          {
+            "platform": "PTT",
+            "title": "[挑選] 250L 冰箱 日立、國際、三洋 - 看板 E-appliance - 批踢踢實業坊",
+            "url": "https://www.ptt.cc/bbs/E-appliance/M.1729133793.A.42B.html"
+          },
+          {
+            "platform": "PTT",
+            "title": "[心得] 日立冰箱讓我好傻眼 - 看板 E-appliance - 批踢踢實業坊",
+            "url": "https://www.ptt.cc/bbs/E-appliance/M.1592498308.A.CBF.html"
+          },
+          {
+            "platform": "PTT",
+            "title": "[挑選] 冰箱挑選 日立 VS PANASONIC - 看板 E-appliance - 批踢踢實業坊",
+            "url": "https://www.ptt.cc/bbs/E-appliance/M.1666516051.A.A80.html"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "url": "https://www.ptt.cc/bbs/E-appliance/M.1763275981.A.BBB.html",
+            "title": "[心得] 日立240公升變頻兩門冰箱HRTN5255MF - 看板 E-appliance - 批踢踢實業坊",
+            "platform": "PTT",
+            "outcome": "excluded",
+            "exactModel": false,
+            "reviewedAt": "2026-11-03",
+            "sourceExcerpt": "erasermyself明示購買及使用的是HRTN5255MF無1舊版，留言中水流聲也依附此舊款。",
+            "independentAuthors": 4,
+            "specificReason": "原作者與留言者使用型號為HRTN5255MF，不能轉借HRTN5255MF1；未計入本型回報人數。",
+            "localEvidence": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-03/mf240-issue-0.html"
+          },
+          {
+            "url": "https://www.ptt.cc/bbs/E-appliance/M.1729955567.A.D03.html",
+            "title": "Re: [挑選] 250L 冰箱 日立、國際、三洋 - 看板 E-appliance - 批踢踢實業坊",
+            "platform": "PTT",
+            "outcome": "excluded",
+            "exactModel": false,
+            "reviewedAt": "2026-11-03",
+            "sourceExcerpt": "cheat以HRTN5255MF-XTW舊型購買挑選文回覆，分享首次插電及低頻運轉聲。",
+            "independentAuthors": 1,
+            "specificReason": "明示舊MF無1，且與同作者挑選文重複；不轉借MF1亦不重複計人。",
+            "localEvidence": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-03/mf240-issue-1.html"
+          },
+          {
+            "url": "https://www.ptt.cc/bbs/E-appliance/M.1729133793.A.42B.html",
+            "title": "[挑選] 250L 冰箱 日立、國際、三洋 - 看板 E-appliance - 批踢踢實業坊",
+            "platform": "PTT",
+            "outcome": "excluded",
+            "exactModel": false,
+            "reviewedAt": "2026-11-03",
+            "sourceExcerpt": "cheat原挑選文比較HRTN5255MF-XTW、NR-B271TV-S1與SR-C238BV，更新後描述舊日立啟動聲。",
+            "independentAuthors": 9,
+            "specificReason": "屬無1舊MF購買比較與同作者補充，非HRTN5255MF1原頁使用回報。",
+            "localEvidence": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-03/mf240-issue-2.html"
+          },
+          {
+            "url": "https://www.ptt.cc/bbs/E-appliance/M.1592498308.A.CBF.html",
+            "title": "[心得] 日立冰箱讓我好傻眼 - 看板 E-appliance - 批踢踢實業坊",
+            "platform": "PTT",
+            "outcome": "excluded",
+            "exactModel": false,
+            "reviewedAt": "2026-11-03",
+            "sourceExcerpt": "demifay0220明示型號RG36B，抱怨新機製冰水流至冷凍門附近結冰及售後溝通。",
+            "independentAuthors": 25,
+            "specificReason": "明示RG36B，不同箱體及自動製冰型號，不能當MF1的使用災情。",
+            "localEvidence": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-03/mf240-issue-3.html"
+          },
+          {
+            "url": "https://www.ptt.cc/bbs/E-appliance/M.1666516051.A.A80.html",
+            "title": "[挑選] 冰箱挑選 日立 VS PANASONIC - 看板 E-appliance - 批踢踢實業坊",
+            "platform": "PTT",
+            "outcome": "excluded",
+            "exactModel": false,
+            "reviewedAt": "2026-11-03",
+            "sourceExcerpt": "ss19990516比較RHS49NJ、LG GW-BF389SA及Panasonic NR-E417XT-N1，討論廚房空間。",
+            "independentAuthors": 25,
+            "specificReason": "不同品牌/型號的購買比較，不含HRTN5255MF1第一人稱問題回報。",
+            "localEvidence": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-03/mf240-issue-4.html"
+          }
+        ],
+        "reviewerNote": "本輪逐一人工檢視HRTN5255MF1在Mobile01、PTT、Dcard三站exact型號查詢，domain限制覆查均無exact候選；一般搜尋發現Lukfur把MF1通路報價與舊MF討論混排，已回到其五個PTT原頁逐一核對，均為無1舊MF、RG36B或其他型號並排除。未把舊款作者、轉引或回覆數算入本型；截至查核日未形成六名獨立使用者跨兩原始網站的同一問題，不代表完全沒有負評。",
+        "attestation": "manual_original_pages_reviewed",
+        "checkedAt": "2026-11-03"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-11-03",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "\"HRTN5255MF1\" site:mobile01.com/topicdetail.php",
+            "queryUrl": "https://www.google.com/search?q=%22HRTN5255MF1%22%20site%3Amobile01.com%2Ftopicdetail.php"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "\"HRTN5255MF1\" site:ptt.cc/bbs/",
+            "queryUrl": "https://www.google.com/search?q=%22HRTN5255MF1%22%20site%3Aptt.cc%2Fbbs%2F"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "\"HRTN5255MF1\" site:dcard.tw/f/",
+            "queryUrl": "https://www.google.com/search?q=%22HRTN5255MF1%22%20site%3Adcard.tw%2Ff%2F"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "人工跨站搜尋：Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"HRTN5255MF1\" site:mobile01.com/topicdetail.php",
+          "queryUrl": "https://www.google.com/search?q=%22HRTN5255MF1%22%20site%3Amobile01.com%2Ftopicdetail.php",
+          "searchUrl": "https://www.google.com/search?q=%22HRTN5255MF1%22%20site%3Amobile01.com%2Ftopicdetail.php",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-02T23:09:50.871382+00:00"
+        },
+        {
+          "platform": "人工跨站搜尋：PTT",
+          "targetHost": "ptt.cc",
+          "query": "\"HRTN5255MF1\" site:ptt.cc/bbs/",
+          "queryUrl": "https://www.google.com/search?q=%22HRTN5255MF1%22%20site%3Aptt.cc%2Fbbs%2F",
+          "searchUrl": "https://www.google.com/search?q=%22HRTN5255MF1%22%20site%3Aptt.cc%2Fbbs%2F",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-02T23:09:50.871382+00:00"
+        },
+        {
+          "platform": "人工跨站搜尋：Dcard",
+          "targetHost": "dcard.tw",
+          "query": "\"HRTN5255MF1\" site:dcard.tw/f/",
+          "queryUrl": "https://www.google.com/search?q=%22HRTN5255MF1%22%20site%3Adcard.tw%2Ff%2F",
+          "searchUrl": "https://www.google.com/search?q=%22HRTN5255MF1%22%20site%3Adcard.tw%2Ff%2F",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-02T23:09:50.871382+00:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "url": "https://www.ptt.cc/bbs/E-appliance/M.1763275981.A.BBB.html",
+          "title": "[心得] 日立240公升變頻兩門冰箱HRTN5255MF - 看板 E-appliance - 批踢踢實業坊",
+          "platform": "PTT",
+          "outcome": "excluded",
+          "exactModel": false,
+          "reviewedAt": "2026-11-03",
+          "sourceExcerpt": "erasermyself明示購買及使用的是HRTN5255MF無1舊版，留言中水流聲也依附此舊款。",
+          "independentAuthors": 4,
+          "specificReason": "原作者與留言者使用型號為HRTN5255MF，不能轉借HRTN5255MF1；未計入本型回報人數。",
+          "localEvidence": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-03/mf240-issue-0.html",
+          "reason": "原作者與留言者使用型號為HRTN5255MF，不能轉借HRTN5255MF1；未計入本型回報人數。"
+        },
+        {
+          "url": "https://www.ptt.cc/bbs/E-appliance/M.1729955567.A.D03.html",
+          "title": "Re: [挑選] 250L 冰箱 日立、國際、三洋 - 看板 E-appliance - 批踢踢實業坊",
+          "platform": "PTT",
+          "outcome": "excluded",
+          "exactModel": false,
+          "reviewedAt": "2026-11-03",
+          "sourceExcerpt": "cheat以HRTN5255MF-XTW舊型購買挑選文回覆，分享首次插電及低頻運轉聲。",
+          "independentAuthors": 1,
+          "specificReason": "明示舊MF無1，且與同作者挑選文重複；不轉借MF1亦不重複計人。",
+          "localEvidence": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-03/mf240-issue-1.html",
+          "reason": "明示舊MF無1，且與同作者挑選文重複；不轉借MF1亦不重複計人。"
+        },
+        {
+          "url": "https://www.ptt.cc/bbs/E-appliance/M.1729133793.A.42B.html",
+          "title": "[挑選] 250L 冰箱 日立、國際、三洋 - 看板 E-appliance - 批踢踢實業坊",
+          "platform": "PTT",
+          "outcome": "excluded",
+          "exactModel": false,
+          "reviewedAt": "2026-11-03",
+          "sourceExcerpt": "cheat原挑選文比較HRTN5255MF-XTW、NR-B271TV-S1與SR-C238BV，更新後描述舊日立啟動聲。",
+          "independentAuthors": 9,
+          "specificReason": "屬無1舊MF購買比較與同作者補充，非HRTN5255MF1原頁使用回報。",
+          "localEvidence": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-03/mf240-issue-2.html",
+          "reason": "屬無1舊MF購買比較與同作者補充，非HRTN5255MF1原頁使用回報。"
+        },
+        {
+          "url": "https://www.ptt.cc/bbs/E-appliance/M.1592498308.A.CBF.html",
+          "title": "[心得] 日立冰箱讓我好傻眼 - 看板 E-appliance - 批踢踢實業坊",
+          "platform": "PTT",
+          "outcome": "excluded",
+          "exactModel": false,
+          "reviewedAt": "2026-11-03",
+          "sourceExcerpt": "demifay0220明示型號RG36B，抱怨新機製冰水流至冷凍門附近結冰及售後溝通。",
+          "independentAuthors": 25,
+          "specificReason": "明示RG36B，不同箱體及自動製冰型號，不能當MF1的使用災情。",
+          "localEvidence": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-03/mf240-issue-3.html",
+          "reason": "明示RG36B，不同箱體及自動製冰型號，不能當MF1的使用災情。"
+        },
+        {
+          "url": "https://www.ptt.cc/bbs/E-appliance/M.1666516051.A.A80.html",
+          "title": "[挑選] 冰箱挑選 日立 VS PANASONIC - 看板 E-appliance - 批踢踢實業坊",
+          "platform": "PTT",
+          "outcome": "excluded",
+          "exactModel": false,
+          "reviewedAt": "2026-11-03",
+          "sourceExcerpt": "ss19990516比較RHS49NJ、LG GW-BF389SA及Panasonic NR-E417XT-N1，討論廚房空間。",
+          "independentAuthors": 25,
+          "specificReason": "不同品牌/型號的購買比較，不含HRTN5255MF1第一人稱問題回報。",
+          "localEvidence": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-03/mf240-issue-4.html",
+          "reason": "不同品牌/型號的購買比較，不含HRTN5255MF1第一人稱問題回報。"
+        }
+      ],
       "reports": []
     }
   ]

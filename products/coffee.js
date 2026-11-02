@@ -1744,7 +1744,7 @@
       "converted": 8500,
       "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-02 momo14547707金屬銀BES450XL主價8500元、數量1–20；預計11/03出貨、1年保固，未扣點數與其他BES款價格。"
+      "note": "2026-11-03 momo14547707 BES450XL金屬銀主價8500、數量1–20、1年保固，預計11/04出貨，未扣回饋。"
     },
     "image": "https://storage.googleapis.com/uni-splendor.appspot.com/images/p/4ef71aab-221e-42be-80b7-67676515bb0d.png",
     "buyUrl": "https://www.momoshop.com.tw/product/14547707",
@@ -2065,10 +2065,10 @@
     "name": "Barista EX 系列經典義式濃縮咖啡機（爵士灰）",
     "price": {
       "currency": "TWD",
-      "amount": 6990,
-      "converted": 6990,
-      "confidence": "2026-10-28 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
-      "note": "2026-10-31 原頁同型號公開價格6990元；不扣會員券、信用卡、點數或贈品，銷售／出貨條件依原通路。",
+      "amount": 6911,
+      "converted": 6911,
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-03 PChome exact原SKU DMAT09-A900IXUVD，逐筆核對本輪主標題「【義大利Giaretti 珈樂堤】Barista EX系列 經典義式濃縮咖啡機 爵士灰 GL-5700 【義大利Giaretti 珈樂堤】義式磨豆咖啡機-爵士灰 GL-5700」、Qty=5與公開主價6911。 同輪原頁主商品價格/購買入口已閱讀。未扣券/點數/信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAT09A900IXUVD/000001_1769478978.jpg",
@@ -2287,7 +2287,7 @@
       "converted": 28500,
       "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-02 momo14956869雪花白BES878XL主價28500元、數量1–18；預計11/03出貨、1年保固，不引用相關BES450價格。"
+      "note": "2026-11-03 momo14956869 BES878XL雪花白主價28500、數量1–17、1年保固，預計11/04出貨，不轉借其他BES版本。"
     },
     "image": "https://storage.googleapis.com/uni-splendor.appspot.com/images/p/6cf71d58-a653-465a-a6c3-7089f7f37314.png",
     "buyUrl": "https://www.momoshop.com.tw/product/14956869",

@@ -117,11 +117,11 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR0PA900IX8N8/000001_1770277214.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 6911,
-      "converted": 6911,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 7111,
+      "converted": 7111,
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-01 PChome主商品API商品ID DMBR0P-A900IX8N8 相符，原標題「【TECO東元】3D全方位洗烘一體全自動洗碗機(XYFYW-5001CBW) 【TECO東元】3D全方位洗烘一體全自動洗碗機(XYFYW-5001CBW)」，Qty=20，公開折扣／主價 6911 元（網路價7990；Price.Low=6911）；未扣券、回饋或點數。 同輪原商品HTML價格與可購入口已核對。"
+      "note": "2026-11-03 PChome exact原SKU DMBR0P-A900IX8N8，逐筆核對本輪主標題「【TECO東元】3D全方位洗烘一體全自動洗碗機(XYFYW-5001CBW) 【TECO東元】3D全方位洗烘一體全自動洗碗機(XYFYW-5001CBW)」、Qty=20與公開主價7111。 原HTML HTTP429，採同輪可信exactID API並保留讀取限制。未扣券/點數/信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -635,11 +635,11 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR0OA900IFXRC/000001_1780551938.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 28405,
-      "converted": 28405,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "amount": 26984,
+      "converted": 26984,
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 DFB533FW主商品折扣28405，網路29900；3%P幣不扣除，可購PChome倉庫超大材積。"
+      "note": "2026-11-03 PChome exact原SKU DMBR0O-A900IFXRC，逐筆核對本輪主標題「LG 樂金 QuadWash™ Steam 四方洗蒸氣超潔凈洗碗機 雲朵白 DFB533FW  加碼送10%P幣 」、Qty=4與公開主價26984。 同輪原頁主商品價格/購買入口已閱讀。未扣券/點數/信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -680,16 +680,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 28255,
+      "amount": 26984,
       "currency": "TWD",
-      "converted": 28255,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1266236037&cgp=29900",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【LG 樂金】14人份 獨立式WiFi蒸氣洗碗機 含免費場勘 | 雲朵白 (DFB533FW)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【LG 樂金】14人份 獨立式WiFi蒸氣洗碗機 含免費場勘 | 雲朵白 (DFB533FW)」最低價為 NT$28,255，最低點日期 2026-07-16。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-16",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 26984,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMBR0O-A900IFXRC",
+      "sourceTitle": "PChome 24h 購物：LG 樂金 QuadWash™ Steam 四方洗蒸氣超潔凈洗碗機 雲朵白 DFB533FW",
+      "evidenceSnippet": "PChome 24h 購物於 2026-11-03 顯示同型號可信新品公開價 NT$26,984，低於既有史低 NT$28,255。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-11-03",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -842,11 +842,11 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR25A900IUNDB/000001_1747970581.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 25600,
-      "converted": 25600,
-      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 24320,
+      "converted": 24320,
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-02 PChome H500主商品25600元、可訂購，原頁明示需先確認安裝環境、下單後電話約配，非快速出貨及安裝；不以相關H600報價替代。"
+      "note": "2026-11-03 PChome exact原SKU DMBR25-A900IUNDB，逐筆核對本輪主標題「Haier 海爾 16人份 自動開門 AI變頻獨嵌兩用洗碗機H500(HDWE16-48SC5SA 不含安裝) Haier 海爾 16人份 自動開門 AI變頻獨嵌兩用洗碗機H500(HDWE16-48SC5SA 不含安裝)」、Qty=1與公開主價24320。 原HTML HTTP429，採同輪可信exactID API並保留讀取限制。未扣券/點數/信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1052,11 +1052,11 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR2HA900K4KMO/000001_1782874928.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 34999,
-      "converted": 34999,
-      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 34900,
+      "converted": 34900,
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-02 PChome SJU4EKW00W選定主商品34999元、加入購物車/立即購買，48900為原價，未扣回饋。"
+      "note": "2026-11-03 PChome exact原SKU DMBR2H-A900K4KMO，逐筆核對本輪主標題「【BOSCH 博世】15人份 自動開門嵌櫃式洗碗機(SJU4EKW00W) 【BOSCH 博世】15人份 自動開門嵌櫃式洗碗機(SJU4EKW00W)」、Qty=5與公開主價34900。 原HTML HTTP429，採同輪可信exactID API並保留讀取限制。未扣券/點數/信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1773,11 +1773,11 @@
     "name": "VORTEX KW1 桌上型全自動洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 14990,
-      "converted": 14990,
-      "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "amount": 13790,
+      "converted": 13790,
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 KW534-60W主商品14990，刪除價23990；贈品/點數不扣，可購預計11/02出貨。"
+      "note": "2026-11-03 PChome exact原SKU DMBR25-A900J5BGP，逐筆核對本輪主標題「Acerpure VORTEX KW1 桌上型全自動洗碗機 KW534-60W Acerpure VORTEX KW1 桌上型全自動洗碗機 KW534-60W」、Qty=20與公開主價13790。 同輪原頁主商品價格/購買入口已閱讀。未扣券/點數/信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR25A900J5BGP/000001_1782112645.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR25-A900J5BGP",
@@ -1811,15 +1811,15 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 14540,
+      "amount": 13790,
       "currency": "TWD",
-      "converted": 14540,
+      "converted": 13790,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DMBR25-A900J5BGP",
       "sourceTitle": "PChome 24h 購物：Acerpure VORTEX KW1 桌上型全自動洗碗機 KW534-60W",
-      "evidenceSnippet": "PChome 24h 購物於 2026-10-28 顯示同型號可信新品公開價 NT$14,540，低於既有史低 NT$14,990。",
+      "evidenceSnippet": "PChome 24h 購物於 2026-11-03 顯示同型號可信新品公開價 NT$13,790，低於既有史低 NT$14,540。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-11-03",
       "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {

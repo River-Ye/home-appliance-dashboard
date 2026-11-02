@@ -18,7 +18,7 @@
       "amount": 20497,
       "converted": 20497,
       "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
-      "note": "2026-11-02 LG原exact型號schema出現19170但本輪正文主價未呈現；未確認所選主購買區數字，保留20497舊參考價。",
+      "note": "2026-11-03 LG原exact型號schema出現19170但本輪正文主價未呈現；未確認所選主購買區數字，保留20497舊參考價。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -751,11 +751,11 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/1f2a33ce70-Gd-10053955.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 42583,
-      "converted": 42583,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 43900,
+      "converted": 43900,
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-01 Yahoo所選同型號主購買區公開價42583元，可訂購；由廠商聯絡約定送貨時間，交期未確認。不扣個人券、信用卡、點數及贈品。公開單件活動有效至2026-11-02T08:29:59+08:00。"
+      "note": "2026-11-03 Yahoo 8TWFC6820LW所選17/10kg主價43900，可立即購買/加車，由廠商聯絡約定送貨，不扣回饋。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -2519,11 +2519,11 @@
     "image": "https://img.pchome.com.tw/cs/items/DPAI1LA900IXKBU/000007_1752484626.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 88111,
-      "converted": 88111,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 85611,
+      "converted": 85611,
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-01 人工逐筆核對PChome原產品API：LG樂金 22公斤+20公斤 WashTower AI 智控熱泵除濕洗乾衣機WD-S2220B(尊爵黑)；Price.P=88111元，Qty=5，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
+      "note": "2026-11-03 人工核對PChome exact商品ID與當日API原資料：LG樂金 22公斤+20公斤 WashTower AI 智控熱泵除濕洗乾衣機WD-S2220B(尊爵黑)；LG 22公斤+20公斤 WashTower AI 智控熱泵除濕洗乾衣機WD-S2220B(尊爵黑)；Price.P=85611元，Qty=5。原HTML本輪HTTP429，未從不可讀頁推交期；僅採原API商品ID、完整型號及可訂數。不扣個人券、點數、信用卡，實際配送安裝請確認。"
     },
     "channel": "tw",
     "buyLabel": "PChome",

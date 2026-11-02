@@ -2150,8 +2150,8 @@
     "price": {
       "currency": "USD",
       "amount": 359.99,
-      "converted": 11739,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-01 匯率換算",
+      "converted": 11749,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-02 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-01 Brondell美國官方Circle主商品Sale Price USD359.99、原449.99，主商品BCData為instock:true/purchasable:true；排除頁尾替換濾芯及Open-Box商品。 海外參考；未含國際運費、進口稅、電壓／插頭與台灣保固風險。"
     },
@@ -2189,14 +2189,14 @@
       "status": "found",
       "amount": 289.99,
       "currency": "USD",
-      "converted": 9457,
+      "converted": 9464,
       "sourceUrl": "https://www.costco.com/CategoryDisplay?catalogId=10701&identifier=water-dispensers-filtration-water-filtration&storeId=10301",
       "sourceTitle": "Costco US：Brondell Circle Reverse Osmosis Water Filtration System",
       "evidenceSnippet": "Costco US exact-model 分類頁於 2026-08-28 顯示 Brondell Circle 折後 US$289.99，原價 US$369.99，優惠 US$80。",
       "sourceKind": "retailer_promo",
       "confidence": "medium",
       "checkedAt": "2026-08-28",
-      "note": "採 Costco US 公開 exact-model 折價作為本次可重現最低觀測價；未含國際運費、進口稅、耗材與台灣安裝／保固風險；依 2026-11-01 USD/TWD 匯率換算。"
+      "note": "採 Costco US 公開 exact-model 折價作為本次可重現最低觀測價；未含國際運費、進口稅、耗材與台灣安裝／保固風險；依 2026-11-02 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "common_issue",
@@ -3899,11 +3899,11 @@
     "name": "冰冷熱三溫櫥下飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 31992,
-      "converted": 31992,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 37200,
+      "converted": 37200,
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-01 PChome主商品API商品ID DMAW2C-A900BV90K 相符，原標題「林內 冰冷熱飲水機淨水器(含標準安裝)【RWP-H300】 林內 冰冷熱加熱器飲水機(全省安裝)【RWP-H300】」，Qty=2，公開折扣／主價 31992 元（網路價37200；Price.Low=31992）；未扣券、回饋或點數。 同輪原商品HTML價格與可購入口已核對。"
+      "note": "2026-11-03 PChome exact原SKU DMAW2C-A900BV90K，逐筆核對本輪主標題「林內 冰冷熱飲水機淨水器(含標準安裝)【RWP-H300】 林內 冰冷熱加熱器飲水機(全省安裝)【RWP-H300】」、Qty=2與公開主價37200。 原HTML HTTP429，採同輪可信exactID API並保留讀取限制。未扣券/點數/信用卡回饋。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAW2CA900BV90K/000001_1700085707.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAW2C-A900BV90K",
