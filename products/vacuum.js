@@ -113,11 +113,11 @@
     "name": "自動集塵無線吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 16084,
-      "converted": 16084,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 15280,
+      "converted": 15280,
+      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-01 人工逐筆核對PChome原產品API：LG 樂金 CordZero™ A9X 自動集塵無線吸塵器A9X-AUTO；Price.Low=16084元，Qty=20，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
+      "note": "2026-11-04 人工核對當日PChome exact商品ID DMAX8K-A900HLX9W：LG 樂金 CordZero™ A9X 自動集塵無線吸塵器A9X-AUTO；LG 樂金 CordZero™ A9X 自動集塵無線吸塵器 | 吸力280W x 吸頭收納 x LCD螢幕 x 除蟎 x 輕量化  A9X-AUTO(永夜灰)；Price.Low=15280元，Qty=13。原HTML主商品另讀。不扣個人券、點數、信用卡；送貨安裝請確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX8KA900HLX9W/000001_1744871467.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAX8K-A900HLX9W",
@@ -886,11 +886,11 @@
     "name": "CordZero A9X 蒸氣濕拖自動集塵無線吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 23604,
-      "converted": 23604,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 25111,
+      "converted": 25111,
+      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-01 人工逐筆核對PChome原產品API：LG 樂金 CordZero™ A9X 蒸氣濕拖自動集塵無線吸塵器A9X-STEAM；Price.Low=23604元，Qty=20，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
+      "note": "2026-11-04 人工核對當日PChome exact商品ID DMAX8K-A900HLXAQ：LG 樂金 CordZero™ A9X 蒸氣濕拖自動集塵無線吸塵器A9X-STEAM；LG 樂金 CordZero™ A9X 蒸氣濕拖自動集塵無線吸塵器 | 吸力280W x 吸頭收納 x LCD螢幕 x 除蟎 x 輕量化 A9X-STEAM(雪霧白)；Price.P=25111元，Qty=20。原HTML主商品另讀。不扣個人券、點數、信用卡；送貨安裝請確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX8KA900HLXAQ/000001_1744871444.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAX8K-A900HLXAQ",
@@ -1277,7 +1277,7 @@
       "amount": 2990,
       "converted": 2990,
       "confidence": "XJC-Y011 官方商品頁 2026-09-05 人工核對 exact-model 公開現價及可購狀態；非會員券、紅利或加購價",
-      "note": "2026-11-01 正負零官方所選XJC-Y011主商品4990元且目前尚無庫存；保留2990元舊參考價，不採缺貨展示價，不借G040或C030價格。"
+      "note": "2026-11-04 正負零XJCY011官方4990但正文目前尚無庫存，不採缺貨展示價。未取得原廠台灣exact整型停產正證，不據此刪除。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBE1AA900J8H81/000001_1757576197.jpg",
     "buyUrl": "https://plusminuszero.com.tw/shop-d.php?Key=1&W=Index",
@@ -2240,8 +2240,8 @@
     "price": {
       "currency": "USD",
       "amount": 679.99,
-      "converted": 22193,
-      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-11-02 匯率換算"
+      "converted": 22160,
+      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-11-03 匯率換算"
     },
     "image": "https://m.media-amazon.com/images/I/61Yuy5vtWFL._AC_SL1500_.jpg",
     "buyUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
@@ -2280,14 +2280,14 @@
       "status": "found",
       "amount": 679.99,
       "currency": "USD",
-      "converted": 22193,
+      "converted": 22160,
       "sourceUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
       "sourceTitle": "Dreame Aero Ultra Steam Wet Dry Vacuum – Dreame Vacuum Mop",
       "evidenceSnippet": "Dreame 原廠美國商品頁於 2026-07-16 公開顯示特價 US$679.99、原價 US$799.99，且可 Add to Cart / Buy It Now。",
       "sourceKind": "official_sale",
       "confidence": "high",
       "checkedAt": "2026-07-16",
-      "note": "新上市商品目前可公開驗證的最低售價；未套用會員碼、信用卡、點數或個人化折扣，且未含國際運費、進口稅、插頭／供電與台灣保固風險；依 2026-11-02 USD/TWD 匯率換算。"
+      "note": "新上市商品目前可公開驗證的最低售價；未套用會員碼、信用卡、點數或個人化折扣，且未含國際運費、進口稅、插頭／供電與台灣保固風險；依 2026-11-03 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2746,7 +2746,7 @@
       "converted": 14999,
       "confidence": "WD5M14A 官方商品頁 2026-09-05 人工核對 exact-model 公開現價及可購狀態；非會員券、紅利或加購價",
       "basis": "retailer_current",
-      "note": "2026-11-03 Roborock所選F25ACEPro原頁15888但缺貨即將進貨且schemaOutOfStock；保留14999舊參考價，不採缺貨展示價。"
+      "note": "2026-11-04 RoborockF25ACEPro主價15888，但售罄/缺貨且原SKUOutOfStock，保留14999舊參考價。未取得原廠台灣exact整型停產正證，不據此刪除。"
     },
     "image": "https://taiwan.roborock.com/cdn/shop/files/F25_ACE_Pro_1_1200x1200.jpg?v=1787311249",
     "buyUrl": "https://taiwan.roborock.com/products/roborock-f25-ace-pro",
@@ -2834,11 +2834,11 @@
     "name": "米家無線洗地機 5 Pro",
     "price": {
       "currency": "TWD",
-      "amount": 11499,
-      "converted": 11499,
-      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 10924,
+      "converted": 10924,
+      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-02 momo 所選F302HW米家無線洗地機5Pro主商品促銷價11499，數量1至20、1年保固；15999市售價及相關G30Max8499不採。"
+      "note": "2026-11-04 momo F302HW米家無線洗地機5Pro主商品95折10924、折前11499，活動11/3 20:30至11/4 09:00，數量1至20、1年保固；相關G30Max8074非本款。"
     },
     "image": "https://i4.momoshop.com.tw/1786613003/goodsimg/0015/540/464/15540464_R_m.webp",
     "buyUrl": "https://www.momoshop.com.tw/product/15540464",
@@ -3215,11 +3215,11 @@
       "converted": 17111,
       "basis": "retailer_current",
       "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-03 Roborock所選F25UltraSteamGen2原頁17111但售罄/缺貨/schemaOutOfStock且有預購11月中旬依序出貨文案；保留參考價，訂購與交期需確認。"
+      "note": "2026-11-04 Roborock所選F25UltraSteamGen2主商品17111，本輪SKUInStock且庫存25、可加車；原頁仍明示預購、預計11月中旬依訂單陸續出貨，不稱即時現貨。"
     },
     "image": "https://taiwan.roborock.com/cdn/shop/files/F25_Ultra_Steam_Gen_2_1_1200x1200.png?v=1790784065",
     "buyUrl": "https://taiwan.roborock.com/products/roborock-f25-ultra-steam-gen2",
-    "buyLabel": "Roborock台灣（預購／供貨待確認）",
+    "buyLabel": "Roborock台灣（預購，11月中旬陸續出貨）",
     "installation": {
       "status": "not_stated",
       "note": "需自行依說明書組裝及放置充電自清潔底座，官方未列到府安裝；需預留污水箱拆裝、清水補充及熱風排散空間。"

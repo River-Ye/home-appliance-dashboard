@@ -955,7 +955,7 @@
       "note": "2026-11-01 Yahoo選定同型原主頁明示已售完／貨到通知，未採畫面報價作可購現價；原參考價保留，不能推定原廠停產。"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心",
+    "buyLabel": "Yahoo購物中心｜已售完，查看供貨",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SAMSUNG%E4%B8%89%E6%98%9F-237%E5%85%AC%E5%8D%87-1%E7%B4%9A%E8%AE%8A%E9%A0%BB%E9%9B%99%E9%96%80%E9%9B%BB%E5%86%B0%E7%AE%B1-RT22M4015S8-TW-11647216.html",
     "specs": [
       "冰箱：SAMSUNG三星 237公升 1級變頻雙門電冰箱 RT22M4015S8/TW",
@@ -1056,10 +1056,10 @@
       "amount": 11900,
       "converted": 11900,
       "confidence": "Yahoo購物中心 2026-07-11 頁面查核價",
-      "note": "2026-11-01 Yahoo SR-F12GD同型原主頁明示「預購11/6出貨」，11900元不稱現貨；保留原參考價並更新交期。"
+      "note": "2026-11-04 Yahoo SR-F12GD本輪原主頁11900、立即購買/加車，現頁已無舊11/6預購文字；配送仍由出貨廠商聯絡約定時間，不承諾立即到貨。"
     },
     "channel": "tw",
-    "buyLabel": "台灣預購／預計11/6出貨",
+    "buyLabel": "Yahoo購物中心｜專人約配",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SAMPO%E8%81%B2%E5%AF%B6-%E6%98%9F%E6%BC%BE%E7%BE%8E%E6%BB%BF%E4%B8%8A%E5%86%B7%E8%97%8F%E4%B8%8B%E5%86%B7%E5%87%8D%E8%AE%8A%E9%A0%BB%E7%8E%BB%E7%92%83%E7%9B%B4%E5%86%B7%E5%BC%8F%E9%9B%99%E9%96%80%E5%86%B0%E7%AE%B1-SR-F12GD-%E5%90%AB%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-%E8%88%8A%E6%A9%9F%E5%9B%9E%E6%94%B6-12028482.html",
     "specs": [
       "冰箱：SAMPO聲寶 117L星漾美滿上冷藏下冷凍變頻玻璃直冷式雙門冰箱 SR-F12GD 含基本安裝+舊機回收",
@@ -1262,10 +1262,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/58E65612D5-SP-11664526.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 11543,
-      "converted": 11543,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-31 原頁同型號公開價格11543元；不扣會員券、信用卡、點數或贈品，銷售／出貨條件依原通路。",
+      "amount": 11900,
+      "converted": 11900,
+      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-04 Yahoo SR-C238BV250L選定原SKU主價11900，立即購買/加車，含基本安裝及約配；舊11543已不重現。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -1684,7 +1684,7 @@
       "note": "2026-11-01 Yahoo選定同型原主頁明示已售完／貨到通知，未採畫面報價作可購現價；原參考價保留，不能推定原廠停產。"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心",
+    "buyLabel": "Yahoo購物中心｜零售停售，查看供貨",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SAMSUNG-%E4%B8%89%E6%98%9F-466%E5%85%AC%E5%8D%87-%E4%B8%80%E7%B4%9A%E8%83%BD%E6%95%88%E6%99%BA%E6%85%A7%E7%AF%80%E8%83%BD%E8%AE%8A%E9%A0%BB%E6%A5%B5%E7%B0%A1%E9%9B%99%E9%96%80%E5%86%B0%E7%AE%B1-RT47CG662AS9-11751994.html",
     "specs": [
       "冰箱：【SAMSUNG 三星】 466公升 一級能效智慧節能變頻極簡雙門冰箱 RT47CG662AS9",

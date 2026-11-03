@@ -450,11 +450,11 @@
       "converted": 26550,
       "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-01 全國電子2149579 exact EP3347/84（金）主價26550元、31900為原價，原頁加入購物車／直接購買，出貨天數3工作日。"
+      "note": "2026-11-04 全國電子2149579 EP3347/84主頁明示預購接單、依排單順序出貨；26550為原參考，實際出貨需確認。"
     },
     "image": "https://images.philips.com/is/image/philipsconsumer/vrs_635dc934_7995_4bd3_9be963f05e9b68b4?$pnglarge$",
     "buyUrl": "https://www.elifemall.com.tw/product/2149579",
-    "buyLabel": "全國電子｜台灣公司貨新品",
+    "buyLabel": "全國電子｜預購，依排單順序出貨",
     "specs": [
       "類型：全自動",
       "使用原料：咖啡豆；另設咖啡粉槽",
@@ -1744,7 +1744,7 @@
       "converted": 8500,
       "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-03 momo14547707 BES450XL金屬銀主價8500、數量1–20、1年保固，預計11/04出貨，未扣回饋。"
+      "note": "2026-11-04 momo14547707 BES450XL金屬銀主價8500、qty1–20、1年保固，預計11/05出貨，不轉借其他版本。"
     },
     "image": "https://storage.googleapis.com/uni-splendor.appspot.com/images/p/4ef71aab-221e-42be-80b7-67676515bb0d.png",
     "buyUrl": "https://www.momoshop.com.tw/product/14547707",
@@ -2287,7 +2287,7 @@
       "converted": 28500,
       "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-03 momo14956869 BES878XL雪花白主價28500、數量1–17、1年保固，預計11/04出貨，不轉借其他BES版本。"
+      "note": "2026-11-04 momo14956869 BES878XL雪花白主價28500、qty1–17、1年保固，預計11/05出貨，不轉借其他版本。"
     },
     "image": "https://storage.googleapis.com/uni-splendor.appspot.com/images/p/6cf71d58-a653-465a-a6c3-7089f7f37314.png",
     "buyUrl": "https://www.momoshop.com.tw/product/14956869",

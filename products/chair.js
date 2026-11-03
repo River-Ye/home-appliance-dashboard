@@ -2766,7 +2766,7 @@
       "converted": 10499,
       "basis": "retailer_current",
       "confidence": "2026-10-23 SIDIZ台灣官店exact原生黑色variant及SKU由Chrome核對，公開價10499且schema InStock、加入購物車與立即買可用；非舊代或裸座墊。",
-      "note": "2026-11-03 SIDIZ所選料號10499元可加車但同時已缺貨後出貨文案；交期請確認。"
+      "note": "2026-11-04 SIDIZ台灣所選料號公開10499元可加車，但同時已缺貨、一旦有貨立即出貨；交期待確認。"
     },
     "installation": {
       "status": "not_stated",
@@ -2860,7 +2860,7 @@
       "converted": 11499,
       "basis": "retailer_current",
       "confidence": "2026-10-23 SIDIZ台灣官店exact原生黑色variant及SKU由Chrome核對，公開價11499且schema InStock、加入購物車與立即買可用；非舊代或裸座墊。",
-      "note": "2026-11-02 SIDIZ所選料號11499元可加車但同時已缺貨後出貨文案；交期請確認。"
+      "note": "2026-11-04 SIDIZ台灣所選料號公開11499元可加車，但同時已缺貨、一旦有貨立即出貨；交期待確認。"
     },
     "installation": {
       "status": "not_stated",

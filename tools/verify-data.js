@@ -1873,7 +1873,7 @@ function validateCategoryContent(products, failures) {
   }
 
   for (const product of categoryProducts(products, "wifi")) {
-    assert(/wi-fi (6|6e|7)/.test(productText(product)), `${product.id} router missing Wi-Fi 6+ standard`, failures);
+    assert(/wi-fi (6|6e|7|8)/.test(productText(product)), `${product.id} router missing Wi-Fi 6+ standard`, failures);
   }
 
   const networkSwitchProducts = categoryProducts(products, "network-switch");

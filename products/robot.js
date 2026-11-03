@@ -118,7 +118,7 @@
       "converted": 30611,
       "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-03 人工核對PChome exact商品ID與當日API原資料：Roborock 石頭科技 石頭掃地機器人 Saros 20水立方；Roborock 石頭科技 Saros 20水立方 跨越奇兵 (100度熱水洗/4.5+4.3公分雙門檻越障/36000Pa)；Price.Low=30611元，Qty=20。原HTML本輪HTTP429，未從不可讀頁推交期；僅採原API商品ID、完整型號及可訂數。不扣個人券、點數、信用卡，實際配送安裝請確認。"
+      "note": "2026-11-04 人工核對當日PChome exact商品ID DMBL1C-A900JNELR：Roborock 石頭科技 石頭掃地機器人 Saros 20水立方；Roborock 石頭科技 Saros 20水立方 跨越奇兵 (100度熱水洗/4.5+4.3公分雙門檻越障/36000Pa)；Price.Low=30611元，Qty=20。原HTML限流，未推即時配送。不扣個人券、點數、信用卡；送貨安裝請確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JNELR/000001_1769062030.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JNELR",
@@ -596,15 +596,15 @@
     "name": "無限續航滾筒洗地機器人上下水款",
     "price": {
       "currency": "TWD",
-      "amount": 25999,
-      "converted": 25999,
-      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-02 Yahoo所選同型號主商品公開價25999元，原頁可訂購；不扣個人券、信用卡、點數或贈品。",
+      "amount": 24700,
+      "converted": 24700,
+      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-04 Yahoo DEEBOTX11PRO上下水款主商品24700、折前25999；名稱明示新品預購中，到貨後依訂單順序發貨。另現折500的下單提示不自行再減。可下單/加車，不扣個人券、信用卡、點數或贈品。當日原活動期限2026-11-04T08:00:59+08:00，非沿用昨日到期活動。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900JRDAS/000001_1771917633.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/ECOVACS-%E7%A7%91%E6%B2%83%E6%96%AF-DEEBOT-X11-PRO%E7%84%A1%E9%99%90%E7%BA%8C%E8%88%AA%E6%BB%BE%E7%AD%92%E6%B4%97%E5%9C%B0%E6%A9%9F%E5%99%A8%E4%BA%BA-%E6%8E%83%E5%9C%B0%E6%A9%9F%E5%99%A8%E4%BA%BA-11797803.html",
-    "buyLabel": "Yahoo購物中心（預購）",
+    "buyLabel": "Yahoo購物（預購，交期請確認）",
     "specs": [
       "滾筒洗地",
       "自動上下水",
@@ -1376,9 +1376,9 @@
     "price": {
       "currency": "EUR",
       "amount": 1099,
-      "converted": 40028,
-      "confidence": "2026-10-24人工核對de.narwal.com同型號同版本公開EUR 1099；未扣個人化券、信用卡或點數。；ExchangeRate-API 2026-11-02 匯率換算",
-      "note": "2026-11-03 Narwal德國Flow2原頁恢復200，999EUR對應多個版本且標準包各自顯示ausverkauft，並非已確認所選版本可購；保留EUR1099舊參考價與海外風險。"
+      "converted": 40095,
+      "confidence": "2026-10-24人工核對de.narwal.com同型號同版本公開EUR 1099；未扣個人化券、信用卡或點數。；ExchangeRate-API 2026-11-03 匯率換算",
+      "note": "2026-11-04 Narwal德國Flow2標準包999EUR與配件版本分開列且各自明示ausverkauft；不採schemaInStock覆蓋原頁所選版缺貨，保留舊EUR參考與海外風險。未取得原廠台灣exact整型停產正證，不據此刪除。"
     },
     "image": "https://de.narwal.com/cdn/shop/files/narwal-flow-2-saugroboter-mit-selbstreinigung-9224922_1200x1200.png?v=1781597108",
     "buyUrl": "https://de.narwal.com/products/narwal-flow-2-saugroboter-mit-selbstreinigung?variant=52366680523028",
@@ -1473,8 +1473,8 @@
     "price": {
       "currency": "USD",
       "amount": 551.69,
-      "converted": 18005,
-      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-11-02 匯率換算"
+      "converted": 17979,
+      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-11-03 匯率換算"
     },
     "image": "https://img.gkbcdn.com/p/2025-04-11/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438-0._w315_.jpg",
     "buyUrl": "https://www.geekbuying.com/item/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438.html",
@@ -2628,10 +2628,10 @@
     "price": {
       "currency": "USD",
       "amount": 549.99,
-      "converted": 17950,
-      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-02 匯率換算",
+      "converted": 17924,
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-03 匯率換算",
       "basis": "retailer_current",
-      "note": "2026-11-03 Shark美國黑色RV2820ZE當日exact variation API公開USD549.99，available/readyToOrder均true；另一白色SKUOutOfStock不混用。inStockDate本輪改為2026-11-26，交期請確認，不稱即時現貨；未含國際運費、進口稅、台灣電壓/插頭與台灣保固風險。"
+      "note": "2026-11-04 Shark美國所選黑色RV2820ZE當日原variationAPI549.99USD，available/readyToOrder均true、inStockDate為2026-11-26，交期待確認；不混白色缺貨SKU，不稱即時現貨。未含國際運費、進口稅、電壓/插頭與台灣保固風險。"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/RV2820ZE_01.jpg",
     "buyUrl": "https://www.sharkninja.com/shark-powerdetect-2-in-1-robot-vacuum-and-mop-with-nevertouch-pro-base/RV2820ZE.html",
@@ -2826,8 +2826,8 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 13054,
-      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-11-02 匯率換算",
+      "converted": 13035,
+      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-11-03 匯率換算",
       "note": "2026-11-01 原Costco美國QXRevo頁HTTP404，現貨與現價未確認；保留USD399.99舊參考價，含海外運稅、電力與台灣保固風險，不能推定原廠整型停產。"
     },
     "image": "https://cdn.cs.1worldsync.com/syndication/mediaserverredirect/aaaa71b7b115f7d0cbeb119d8fc3ad7b/width%281200%29.jpg",
@@ -4495,11 +4495,11 @@
       "converted": 33888,
       "basis": "retailer_current",
       "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-03 momo所選RoombaMax875Combo主價33888、折前34999，11/2–5單件折1111活動；數量1、1年保固，明示預購2026/11/4–9出貨，不稱現貨。"
+      "note": "2026-11-04 momo RoombaMax875Combo主商品33888，折前34999，11/2至11/5活動；數量1、1年保固，明示預購2026/11/5至11/9出貨，不稱現貨。"
     },
     "image": "https://irobot.tw/wp-content/uploads/2026/09/Roomba-Max-875-Combo-%E7%94%A2%E5%93%81%E5%9C%96.jpg",
     "buyUrl": "https://www.momoshop.com.tw/product/15715104",
-    "buyLabel": "momo購物（預購，11/4–9出貨）",
+    "buyLabel": "momo購物（預購，11/5–9出貨）",
     "specs": [
       "類型：掃拖機器人＋AutoWash多功能基座；台灣Roomba Max 875 Combo，預購品",
       "35,000Pa吸力、20L/s氣流與SealForce密閉強吸；不同測量指標不直接相加",

@@ -431,7 +431,7 @@
       "converted": 30900,
       "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 SMS2ITI06X主商品30900；旁列1850增高底座及其他6/8系列不採，主商品可購廠商出貨。"
+      "note": "2026-11-04 PChome選定原SKU DMBR0N-A900IH50L-000本輪晚段重新請求，原主頁與exactID API一致公開價30900元、Qty=9，早段折扣已不重現；未扣券/點數/信用卡。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -951,7 +951,7 @@
       "converted": 23310,
       "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 E-7682不含門板/踢腳板含標準安裝主商品23310；廠商3至7工作天約配可購。"
+      "note": "2026-11-04 PChome選定原SKU DMBR0Y-A900FMAWF-000本輪晚段重新請求，原主頁與exactID API一致公開價23310元、Qty=2，早段折扣已不重現；未扣券/點數/信用卡。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1052,11 +1052,11 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR2HA900K4KMO/000001_1782874928.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 34900,
-      "converted": 34900,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 32199,
+      "converted": 32199,
+      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-03 PChome exact原SKU DMBR2H-A900K4KMO，逐筆核對本輪主標題「【BOSCH 博世】15人份 自動開門嵌櫃式洗碗機(SJU4EKW00W) 【BOSCH 博世】15人份 自動開門嵌櫃式洗碗機(SJU4EKW00W)」、Qty=5與公開主價34900。 原HTML HTTP429，採同輪可信exactID API並保留讀取限制。未扣券/點數/信用卡回饋。"
+      "note": "2026-11-04 PChome原exact SKU DMBR2H-A900K4KMO，本輪人工核對主標題「【BOSCH 博世】15人份 自動開門嵌櫃式洗碗機(SJU4EKW00W) 【BOSCH 博世】15人份 自動開門嵌櫃式洗碗機(SJU4EKW00W)」、Qty=5、主價32199；採公開Low優先，無Low用P，未扣券/點數/信用卡。HTML受限仍保留API與讀取限制。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1096,16 +1096,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 34900,
+      "amount": 32199,
       "currency": "TWD",
-      "converted": 34900,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1261748013&cgp=34900",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【BOSCH 博世】SJU4EKW00W 220V 自動開門嵌櫃式洗碗機",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【BOSCH 博世】SJU4EKW00W 220V 自動開門嵌櫃式洗碗機」最低價為 NT$34,900，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 32199,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMBR2H-A900K4KMO",
+      "sourceTitle": "PChome 24h 購物：【BOSCH 博世】15人份 自動開門嵌櫃式洗碗機(SJU4EKW00W)",
+      "evidenceSnippet": "PChome 24h 購物於 2026-11-04 顯示同型號可信新品公開價 NT$32,199，低於既有史低 NT$34,900。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-11-04",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1575,11 +1575,11 @@
     "name": "桌上型洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 9900,
-      "converted": 9900,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 9108,
+      "converted": 9108,
+      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-01 PChome主商品API商品ID DMBR0P-A900JBV02 相符，原標題「【嘉儀KE】桌上型洗碗機 KDW-156W   ▼免安裝6人洗烘碗機▼   【嘉儀KE】免安裝全自動開關門桌上型洗碗機 KDW-156W(電壓110V/大容量6人份真乾淨)」，Qty=20，公開折扣／主價 9900 元（網路價9900；Price.Low=無）；未扣券、回饋或點數。 同輪HTML為HTTP429；以本輪可信商品API逐筆核對，保留HTML讀取限制，不推定停產。"
+      "note": "2026-11-04 PChome原exact SKU DMBR0P-A900JBV02，本輪人工核對主標題「【嘉儀KE】桌上型洗碗機 KDW-156W   ▼免安裝6人洗烘碗機▼   【嘉儀KE】免安裝全自動開關門桌上型洗碗機 KDW-156W(電壓110V/大容量6人份真乾淨)」、Qty=20、主價9108；採公開Low優先，無Low用P，未扣券/點數/信用卡。HTML受限仍保留API與讀取限制。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR0PA900JBV02/000001_1762938951.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR0P-A900JBV02",
@@ -1773,11 +1773,11 @@
     "name": "VORTEX KW1 桌上型全自動洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 13790,
-      "converted": 13790,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 13791,
+      "converted": 13791,
+      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-03 PChome exact原SKU DMBR25-A900J5BGP，逐筆核對本輪主標題「Acerpure VORTEX KW1 桌上型全自動洗碗機 KW534-60W Acerpure VORTEX KW1 桌上型全自動洗碗機 KW534-60W」、Qty=20與公開主價13790。 同輪原頁主商品價格/購買入口已閱讀。未扣券/點數/信用卡回饋。"
+      "note": "2026-11-04 PChome原exact SKU DMBR25-A900J5BGP，本輪人工核對主標題「Acerpure VORTEX KW1 桌上型全自動洗碗機 KW534-60W Acerpure VORTEX KW1 桌上型全自動洗碗機 KW534-60W」、Qty=20、主價13791；採公開Low優先，無Low用P，未扣券/點數/信用卡。HTML受限仍保留API與讀取限制。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR25A900J5BGP/000001_1782112645.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR25-A900J5BGP",
@@ -1972,7 +1972,7 @@
       "amount": 12999,
       "converted": 12999,
       "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
-      "note": "2026-10-31 小米桌上型洗碗機主商品12999（同刪除價），原廠公司貨/2年；可購倉庫超大材積。",
+      "note": "2026-11-04 PChome選定原SKU DMBR24-A900JFSR7-000本輪晚段重新請求，原主頁與exactID API一致公開價12999元、Qty=2，早段折扣已不重現；未扣券/點數/信用卡。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR24A900JFSR7/000001_1762761618.jpg",
@@ -2681,11 +2681,11 @@
     "name": "8 人份抽屜式洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 48260,
-      "converted": 48260,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 44704,
+      "converted": 44704,
+      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-01 momo13272372 RKW-601C-SV-TR原選定110V／60cm基本安裝款單件95折48260元，折前50800元；數量1–9可選、約配。"
+      "note": "2026-11-04 momo13272372 RKW-601C-SV-TR含基本安裝，native主價44704、折前50800，新11/03–11/30滿1件88折，110V/60cm/qty1–9，專人約配。"
     },
     "image": "https://i4.momoshop.com.tw/1772634123/goodsimg/0013/272/372/13272372_R_m.webp",
     "buyUrl": "https://www.momoshop.com.tw/product/13272372",
@@ -3211,7 +3211,7 @@
       "converted": 80550,
       "basis": "retailer_current",
       "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
-      "note": "2026-10-31 SMS8ZCI02X主商品80550，刪除89500；旁列其他系列價格不採，可購廠商出貨。"
+      "note": "2026-11-04 PChome選定原SKU DMBR13-A900KIVV7-000本輪晚段重新請求，原主頁與exactID API一致公開價80550元、Qty=10，早段折扣已不重現；未扣券/點數/信用卡。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMBR13A900KIVV7/000001_1790912458.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR13-A900KIVV7",

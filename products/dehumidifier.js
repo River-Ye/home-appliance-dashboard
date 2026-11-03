@@ -795,11 +795,11 @@
     "name": "9 公升除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 7981,
-      "converted": 7981,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 7825,
+      "converted": 7825,
+      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-03 人工核對PChome exact商品ID與當日API原資料：Panasonic國際牌 9公升除濕機F-Y18PN；Panasonic國際牌 9公升除濕機F-Y18PN；Price.Low=7981元，Qty=20。原商品頁可讀並對照主商品。不扣個人券、點數、信用卡，實際配送安裝請確認。"
+      "note": "2026-11-04 人工核對當日PChome exact商品ID DMBQ00-A900JB38A：Panasonic國際牌 9公升除濕機F-Y18PN；Panasonic國際牌 9公升除濕機F-Y18PN；Price.Low=7825元，Qty=20。原HTML主商品另讀。不扣個人券、點數、信用卡；送貨安裝請確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ00A900JB38A/000001_1776329911.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ00-A900JB38A",
@@ -893,11 +893,11 @@
     "name": "PuriCare WiFi 變頻除濕機粉紅 16 公升",
     "price": {
       "currency": "TWD",
-      "amount": 13112,
-      "converted": 13112,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 13110,
+      "converted": 13110,
+      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-03 人工核對PChome exact商品ID與當日API原資料：LG PuriCare™ WiFi變頻除濕機-粉紅/16公升(MD161QPK3)；LG PuriCare™ WiFi變頻除濕機-粉紅/16公升(MD161QPK3)；Price.Low=13112元，Qty=20。原商品頁可讀並對照主商品。不扣個人券、點數、信用卡，實際配送安裝請確認。"
+      "note": "2026-11-04 人工核對當日PChome exact商品ID DMBQ07-A900HQ3L5：LG PuriCare™ WiFi變頻除濕機-粉紅/16公升(MD161QPK3)；LG PuriCare™ WiFi變頻除濕機-粉紅/16公升(MD161QPK3)；Price.Low=13110元，Qty=20。原HTML主商品另讀。不扣個人券、點數、信用卡；送貨安裝請確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ07A900HQ3L5/000001_1761827365.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ07-A900HQ3L5",
@@ -1186,7 +1186,7 @@
       "amount": 18522,
       "converted": 18522,
       "confidence": "Yahoo購物中心 2026-09-02 exact-model 公開結構化價格",
-      "note": "2026-11-03 Yahoo所選WD261VKF0主價19385但已停售；保留18522舊參考價，不採停售展示價，無官方整型停產正證。"
+      "note": "2026-11-04 YahooWD261VKF0主價19385但主商品已停售，保留舊參考價，不採停售展示價。未取得原廠台灣exact整型停產正證，不據此刪除。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ07A900GFBVP/000001_1767340170.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-PuriCare-%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9F-25-6%E5%85%AC%E5%8D%87-%E6%9B%9C%E9%BB%91-WD261VKF0-11970685.html",
@@ -1280,11 +1280,11 @@
     "name": "18 公升一級能效 PuriCare 雙變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 17184,
-      "converted": 17184,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 16118,
+      "converted": 16118,
+      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-03 Yahoo DD181MWE0所選18L主價17184、原17900，滿1件96折至12/1 09:59:59，可立即購買/加車，不扣信用卡或超贈點。"
+      "note": "2026-11-04 Yahoo DD181MWE0白18L主商品16118，折前16789，滿1件96折。可下單/加車，不扣個人券、信用卡、點數或贈品。當日原活動期限2026-12-01T09:59:59+08:00，非沿用昨日到期活動。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4NA900JCHFZ/000001_1783342859.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-PuriCare-18%E5%85%AC%E5%8D%87%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9F-%E7%99%BD%E8%89%B2-DD181MWE0-11971018.html",
@@ -1317,15 +1317,15 @@
     "releaseDate": "2025-10-29",
     "historicalLow": {
       "status": "found",
-      "amount": 16856,
+      "amount": 16118,
       "currency": "TWD",
-      "converted": 16856,
+      "converted": 16118,
       "sourceUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-PuriCare-18%E5%85%AC%E5%8D%87%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9F-%E7%99%BD%E8%89%B2-DD181MWE0-11971018.html",
       "sourceTitle": "Yahoo購物中心：LG 樂金 PuriCare 18公升雙變頻除濕機 白色 DD181MWE0 | 14.1L以上 | Yahoo購物中心",
-      "evidenceSnippet": "Yahoo購物中心於 2026-08-21 顯示同型號可信新品公開價 NT$16,856，低於既有史低 NT$17,005。",
+      "evidenceSnippet": "Yahoo購物中心於 2026-11-04 顯示同型號可信新品公開價 NT$16,118，低於既有史低 NT$16,856。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-08-21",
+      "checkedAt": "2026-11-04",
       "note": "採用 Yahoo購物中心當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
@@ -1670,11 +1670,11 @@
     "name": "6L 除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 5137,
-      "converted": 5137,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 5571,
+      "converted": 5571,
+      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-01 人工逐筆核對PChome原產品API：Panasonic 國際牌 6L 除濕機 F-Y12PS；Price.Low=5137元，Qty=20，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
+      "note": "2026-11-04 人工核對當日PChome exact商品ID DMBQ3P-A900J9FH9：Panasonic 國際牌 6L 除濕機 F-Y12PS；Panasonic 國際牌 6L 除濕機 F-Y12PS；Price.Low=5571元，Qty=20。原HTML主商品另讀。不扣個人券、點數、信用卡；送貨安裝請確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900J9FH9/000001_1776325410.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3P-A900J9FH9",
@@ -1768,11 +1768,11 @@
     "name": "12公升 PCI 自動除菌離子除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 7911,
-      "converted": 7911,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "amount": 7511,
+      "converted": 7511,
+      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
+      "note": "2026-11-04 人工核對當日PChome exact商品ID DMBQ08-A900JPCL1：【SHARP 夏普】12公升PCI自動除菌離子除濕機(DW-PT12HT-W)；【SHARP 夏普】12公升PCI自動除菌離子除濕機(DW-PT12HT-W)；Price.Low=7511元，Qty=20。原HTML主商品另讀。不扣個人券、點數、信用卡；送貨安裝請確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ08A900JPCL1/000001_1770962000.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ08-A900JPCL1",
@@ -1805,15 +1805,15 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 7911,
+      "amount": 7511,
       "currency": "TWD",
-      "converted": 7911,
+      "converted": 7511,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DMBQ08-A900JPCL1",
       "sourceTitle": "PChome 24h 購物：【SHARP 夏普】12公升PCI自動除菌離子除濕機(DW-PT12HT-W)",
-      "evidenceSnippet": "PChome 24h 購物於 2026-10-28 顯示同型號可信新品公開價 NT$7,911，低於既有史低 NT$7,999。",
+      "evidenceSnippet": "PChome 24h 購物於 2026-11-04 顯示同型號可信新品公開價 NT$7,511，低於既有史低 NT$7,911。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-11-04",
       "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
@@ -2261,11 +2261,11 @@
     "name": "12L 一級能效極致薄型清新淨味除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 7511,
-      "converted": 7511,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 7690,
+      "converted": 7690,
+      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-01 momo 所選WDEE1200TW主商品單件折2479後7511元，折前9990元；11/01–11/30活動，非相關商品6511元。"
+      "note": "2026-11-04 momo WDEE1200TW主商品單件折2300後7690，折前9990，11/03至11/09；相關15L6511非本款、數量1至3。"
     },
     "image": "https://i2.momoshop.com.tw/1781626760/goodsimg/0015/034/893/15034893_R_m.webp",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15034893",

@@ -15,10 +15,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/AC7DC27581-SP-22704432.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 9143,
-      "converted": 9143,
-      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-02 人工核對PChome原主商品與API：Panasonic國際牌 8公斤電子式乾衣機NH-80RZ-W(釉光白)；Price.Low=9143元、Qty=20，商品ID/原頁主價一致，可訂購；不扣個人券、點數或信用卡回饋。實際配送安裝以通路確認。",
+      "amount": 8935,
+      "converted": 8935,
+      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-04 人工核對當日PChome exact商品ID DPAI1H-A900I7ZB7：Panasonic國際牌 8公斤電子式乾衣機NH-80RZ-W(釉光白)；Panasonic國際牌 8公斤電子式乾衣機NH-80RZ-W(釉光白)；Price.Low=8935元，Qty=20。原HTML主商品另讀。不扣個人券、點數、信用卡；送貨安裝請確認。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -530,7 +530,7 @@
       "converted": 32000,
       "confidence": "Yahoo購物中心 2026-09-14 exact-model 公開結構化價格",
       "basis": "retailer_current",
-      "note": "2026-11-03 Yahoo所選桶裝瓦斯8TWGD5620HW主價29911但已售完；保留32000舊參考價，不採售完展示價。"
+      "note": "2026-11-04 Yahoo8TWGD5620HW桶裝瓦斯主價29911但已售完，保留舊參考價。未取得原廠台灣exact整型停產正證，不據此刪除。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物（缺貨，現價待確認）",
@@ -1545,7 +1545,7 @@
       "amount": 6460,
       "converted": 6460,
       "confidence": "Yahoo購物中心 2026-07-11 頁面查核價",
-      "note": "2026-11-03 Yahoo所選TAW-D60T主價6800但已停售；保留6460舊參考價，不採停售展示價。"
+      "note": "2026-11-04 YahooTAWD60T主價6800但主商品已停售，保留舊參考價。未取得原廠台灣exact整型停產正證，不據此刪除。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物（停售，現價待確認）",

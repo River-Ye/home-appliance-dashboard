@@ -693,7 +693,7 @@ async function runExhaustiveViewport(browser, name, viewport) {
     const found = await page.locator(".product-card", { hasText: expected }).count();
     if (!found) throw new Error(`${name}: missing router brand ${expected}`);
   }
-  const nonWifi6Plus = await page.$$eval(".product-card", (cards) => cards.filter((card) => !/Wi-Fi (6|6E|7)/.test(card.textContent || "")).length);
+  const nonWifi6Plus = await page.$$eval(".product-card", (cards) => cards.filter((card) => !/Wi-Fi (6|6E|7|8)/.test(card.textContent || "")).length);
   if (nonWifi6Plus) throw new Error(`${name}: ${nonWifi6Plus} router cards missing Wi-Fi 6+ standard`);
   await page.fill("#searchInput", "Mesh");
   await page.waitForFunction(() => Number(document.querySelector("#visibleCount")?.textContent || 0) >= 20);

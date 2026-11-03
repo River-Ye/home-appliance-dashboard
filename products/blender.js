@@ -404,8 +404,8 @@
     "price": {
       "currency": "USD",
       "amount": 99.98,
-      "converted": 3263,
-      "confidence": "2026-08-31 人工核對 SharkNinja 官方 BN701 公開可購主價 USD 99.98；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-11-02 匯率換算",
+      "converted": 3258,
+      "confidence": "2026-08-31 人工核對 SharkNinja 官方 BN701 公開可購主價 USD 99.98；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-11-03 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-01 原BN701購買網址本輪導向IQ701SL TotalCrush，主頁Model/SKU明示IQ701SL，129.99美元不是BN701報價；保留舊99.98美元參考，現售待確認，不由轉址推定原廠停產。 海外參考；未含國際運費、進口稅、電壓／插頭與台灣保固風險。"
     },
@@ -590,11 +590,11 @@
     "name": "VITA PREP3 多功能營養調理機",
     "price": {
       "currency": "TWD",
-      "amount": 24750,
-      "converted": 24750,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 23375,
+      "converted": 23375,
+      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-03 momo622427 VITA PREP3公開單件9折24750、折前27500；新活動11/02 19:00–11/03 09:00，數量1–7、預計11/04出貨，未延用舊88折。"
+      "note": "2026-11-04 momo622427選定VITA PREP3，native主價23375、折前27500；新11/03–11/30滿1件85折、qty1–7、預計11/05出貨、1年保固，未延用過期24750。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY9TA900G068X/000001_1782790517.jpg",
     "buyUrl": "https://www.momoshop.com.tw/product/622427",

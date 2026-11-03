@@ -3311,7 +3311,7 @@ async function main() {
   const movaQuery = { platform: "MOVA Forum", targetHost: "forum.mova-tech.com", query: 'site:forum.mova-tech.com "Z70 Ultra Roller Complete"', queryUrl: "https://www.google.com/search" };
   assert(queryTargetsWebsite(movaQuery), "MOVA Forum must count as the MOVA community website");
   assert(!queryTargetsWebsite({ ...movaQuery, query: 'site:forum.mova-tech.com.evil.example "Z70 Ultra Roller Complete"' }), "deceptive MOVA host must not count");
-  for (const [platform, host] of [["Sonos Community", "en.community.sonos.com"], ["Best Buy", "bestbuy.com"]]) {
+  for (const [platform, host] of [["Sonos Community", "en.community.sonos.com"], ["Best Buy", "bestbuy.com"], ["ASUS ZenTalk", "zentalk.asus.com"], ["SNBForums", "snbforums.com"]]) {
     const query = { platform, targetHost: host, query: `site:${host} "Beam Ultra"`, queryUrl: "https://www.google.com/search" };
     assert(queryTargetsWebsite(query), `${platform} must count as its original website`);
     assert(!queryTargetsWebsite({ ...query, targetHost: "reddit.com" }), `${platform} cannot claim a different website`);

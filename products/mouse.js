@@ -409,7 +409,7 @@
       "converted": 2490,
       "basis": "retailer_current",
       "confidence": "2026-09-01 Chrome重新開台灣羅技官店獨立商品頁，型號910-005643、2490元及可加入購物車，單一黑色不需再選版本。Chrome直接開同頁原圖確認1000x787及黑色本體；不採比價搜尋快取的2290、2176或個人拍賣。",
-      "note": "2026-11-02 羅技台灣原頁G703主商品2490元但已售完，保留參考價，現貨與出貨待確認。"
+      "note": "2026-11-04 羅技台灣所選主商品公開單件價2490元，原頁可加車；不扣個人折扣。"
     },
     "installation": {
       "status": "not_stated",
@@ -633,18 +633,19 @@
     "score": 92,
     "price": {
       "currency": "TWD",
-      "amount": 3690,
-      "converted": 3690,
+      "amount": 3490,
+      "converted": 3490,
       "basis": "retailer_current",
-      "confidence": "2026-09-01 Chrome重新直接開啟名人3C獨立頁，整頁截圖可見黑色RZ01-05120100-R3A1、3690、促銷至9/30及購買按鈕，重開不需選色。名人框架DOM只落在左欄，採Chrome截圖人工確認。web索引3990/3月促銷為舊快取，不採作目前價格。PChome DCBF01-A900IUNKQ現價3690但黑白未預選，不能當黑色直連；myfone P0000203749303錯植30K/95g/MMO/藍牙，不採。momo15133565未展售；舊88%折扣已過期。"
+      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-04 全聯全電商同型黑色SKU主價3490元；折100券、再折回饋及會員活動未扣。免運、預計5工作天出貨，保固年限未明列請先確認。原名人3C頁TLS驗證失敗，改用可讀且可加車的同型號新品通路。"
     },
     "installation": {
       "status": "not_stated",
       "note": "桌面USB接收器／線材接電腦；不含桌機、作業系統設定或另購配件費用。"
     },
-    "image": "https://www.mren.com.tw/product/pic/04/04/040471802127b.jpg",
-    "buyUrl": "https://www.mren.com.tw/product/show.php?id=040471802127",
-    "buyLabel": "名人3C 台灣新品通路",
+    "image": "https://assets3.razerzone.com/z0xgzxp0bayiFKdy_ha8n3jf9PM=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh08%2Fh61%2F9765618188318%2Fviper-v3-pro-black-500x500.png",
+    "buyUrl": "https://pxbox.es.pxmart.com.tw/product/711473",
+    "buyLabel": "全聯全電商 台灣新品通路",
     "specs": [
       "類型：一般平置電競滑鼠，Viper V3 Pro 黑色 35K 非SE；完整SKU RZ01-05120100-R3A1",
       "握型／慣用手：右手用對稱外型，左側側鍵；適合抓握或指握仍須依手長試握",
@@ -672,7 +673,7 @@
     "bestFor": "偏好右手對稱外形、重視輕量化與無線高回報率的FPS玩家。",
     "recommendation": "先試握再選高回報率，普通HyperSpeed及商店單售HyperPolling接收器不可替代專用原配；收貨後測試休眠喚醒、充電与多埠連接，異常走台灣售後。",
     "voltage": "USB-C充電；最長95小時@1000Hz、62小時@2000Hz、40小時@4000Hz、17小時@8000Hz；V/A未標示",
-    "warranty": "名人3C台灣新品通路明列2年保固",
+    "warranty": "全聯全電商台灣新品；商品頁未明列保固年限，購前確認授權與台灣保固適用。",
     "tags": [
       "電競",
       "輕量化",

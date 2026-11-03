@@ -63,12 +63,14 @@ function queryUrlMatchesRecord(query) {
 
 function queryTargetsWebsite(query) {
   const expectedByPlatform = new Map([
+    ["asus zentalk", "asus.com"],
     ["best buy", "bestbuy.com"],
     ["dcard", "dcard.tw"],
     ["mobile01", "mobile01.com"],
     ["mova forum", "mova-tech.com"],
     ["ptt", "ptt.cc"],
     ["reddit", "reddit.com"],
+    ["snbforums", "snbforums.com"],
     ["sonos community", "sonos.com"],
     ["razer insider", "razer.com"],
     ["ubiquiti community", "ui.com"],

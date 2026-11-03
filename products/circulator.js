@@ -1821,7 +1821,8 @@
       "currency": "TWD",
       "amount": 2990,
       "converted": 2990,
-      "confidence": "2026-10-24 人工核對 www.irisplaza.com.tw 同型號與所選版本公開價 TWD 2990，可下單；未扣會員、信用卡或點數。"
+      "confidence": "2026-10-24 人工核對 www.irisplaza.com.tw 同型號與所選版本公開價 TWD 2990，可下單；未扣會員、信用卡或點數。",
+      "note": "2026-11-04 IRISPCFCDP18TEC官方schema3690，但原HTML存在售完/存貨不足動態模板，尚未核實所選購買區可訂，保留2990參考價。未取得原廠台灣exact整型停產正證，不據此刪除。"
     },
     "image": "https://img.shoplineapp.com/media/image_clips/69ccee7a1cf502b0b21ecdd0/original.jpg?1775038073=&owner_id=6976e3a5a39620001e911a08",
     "buyUrl": "https://www.irisplaza.com.tw/products/iris-pcf-cdp18tec",

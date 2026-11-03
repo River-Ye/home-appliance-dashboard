@@ -116,11 +116,11 @@
     "name": "65 型 S90F OLED 4K 智慧顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 50900,
-      "converted": 50900,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 46900,
+      "converted": 46900,
+      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-01 人工逐筆核對PChome原產品API：Samsung三星65型 OLED 4K Vision AI智慧顯示器65S90F(QA65S90FAEXZW)；Price.P=50900元，Qty=2，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
+      "note": "2026-11-04 人工核對當日PChome exact商品ID DPADEW-A900IUE7F：Samsung三星65型 OLED 4K Vision AI智慧顯示器65S90F(QA65S90FAEXZW)；Samsung三星65型 OLED 4K Vision AI智慧顯示器65S90F(QA65S90FAEXZW)；Price.P=46900元，Qty=2。原HTML主商品另讀。不扣個人券、點數、信用卡；送貨安裝請確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADEW1900K4WRT/000001_1782056882.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADEW-A900IUE7F",
@@ -825,10 +825,10 @@
     "name": "BRAVIA 8 65 型 XR OLED 4K HDR Google TV 顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 93900,
-      "converted": 93900,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-03 人工核對PChome exact商品ID與當日API原資料：[Sony 索尼] BRAVIA 8 65吋 XR OLED 4K HDR Google TV顯示器(Y-65XR80 )；[Sony 索尼] BRAVIA 8 65吋 XR OLED 4K HDR Google TV顯示器(Y-65XR80 )；Price.P=93900元，Qty=1。原HTML本輪HTTP429，未從不可讀頁推交期；僅採原API商品ID、完整型號及可訂數。不扣個人券、點數、信用卡，實際配送安裝請確認。",
+      "amount": 84510,
+      "converted": 84510,
+      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-04 人工核對當日PChome exact商品ID DPAD06-A900HLBJO：[Sony 索尼] BRAVIA 8 65吋 XR OLED 4K HDR Google TV顯示器(Y-65XR80 )；[Sony 索尼] BRAVIA 8 65吋 XR OLED 4K HDR Google TV顯示器(Y-65XR80 )；Price.Low=84510元，Qty=1。原HTML主商品另讀。不扣個人券、點數、信用卡；送貨安裝請確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD06A900HLBJO/000001_1776334113.jpg",
@@ -1916,10 +1916,10 @@
     "name": "65型 4K QLED 120Hz Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 14231,
-      "converted": 14231,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-03 人工核對PChome exact商品ID與當日API原資料：【CHiQ 啟客】65型4K QLED 120Hz DLG google TV智慧聯網液晶顯示器CQ-65QX250；<font color=#FF0000><b>含運送+基本安裝+舊機回收</font></b><BR>【CHiQ 啟客】65型4K QLED 120Hz DLG google TV智慧聯網液晶顯示器CQ-65QX250；Price.Low=14231元，Qty=20。原HTML本輪HTTP429，未從不可讀頁推交期；僅採原API商品ID、完整型號及可訂數。不扣個人券、點數、信用卡，實際配送安裝請確認。",
+      "amount": 14111,
+      "converted": 14111,
+      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-04 人工核對當日PChome exact商品ID DPADTO-A900JNMOP：【CHiQ 啟客】65型4K QLED 120Hz DLG google TV智慧聯網液晶顯示器CQ-65QX250；<font color=#FF0000><b>含運送+基本安裝+舊機回收</font></b><BR>【CHiQ 啟客】65型4K QLED 120Hz DLG google TV智慧聯網液晶顯示器CQ-65QX250；Price.Low=14111元，Qty=20。原HTML主商品另讀。不扣個人券、點數、信用卡；送貨安裝請確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADTOA900JNE73/000001_1768523868.jpg",

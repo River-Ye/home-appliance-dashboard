@@ -322,7 +322,7 @@
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ021900I5KFC/000001_1779346148.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SHARP%E5%A4%8F%E6%99%AE-HEALSIO-%E6%97%97%E8%89%A6%E6%B0%B4%E6%B3%A2%E7%88%90-AX-XP10T-12039766.html",
-    "buyLabel": "Yahoo購物中心",
+    "buyLabel": "Yahoo購物中心｜已售完，查看供貨",
     "specs": [
       "30L",
       "尺寸：寬 50 x 深 46.5 x 高 42 cm",
@@ -415,8 +415,8 @@
     "price": {
       "currency": "USD",
       "amount": 499.95,
-      "converted": 16317,
-      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-11-02 匯率換算"
+      "converted": 16293,
+      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-11-03 匯率換算"
     },
     "image": "https://assets.breville.com/cdn-cgi/image/width=1300,format=auto/BOV950/BOV950BSS1BUS1/pdp3.png?pdp=",
     "buyUrl": "https://www.breville.com/en-us/product/bov950",
@@ -1417,7 +1417,7 @@
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ6QA900EO9M8/000001_1716271473.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool%E6%83%A0%E8%80%8C%E6%B5%A6-32%E5%85%AC%E5%8D%87%E7%8D%A8%E7%AB%8B%E5%BC%8F%E8%92%B8%E7%83%A4%E7%88%90-WSO322EB-9918064.html",
-    "buyLabel": "Yahoo購物中心",
+    "buyLabel": "Yahoo購物中心｜已售完，查看供貨",
     "specs": [
       "32L",
       "尺寸：寬 53 x 深 45.7 x 高 40.5 cm",
@@ -2306,8 +2306,8 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 13054,
-      "confidence": "2026-08-31 人工核對 SharkNinja 美國官方 MW101 公開可購主價 USD 399.99；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-11-02 匯率換算",
+      "converted": 13035,
+      "confidence": "2026-08-31 人工核對 SharkNinja 美國官方 MW101 公開可購主價 USD 399.99；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-11-03 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-01 Ninja美國MW101 Silver主頁標349.99美元但動態購買區實際endpoint明示Notify me／Out of Stock，與靜態InStock衝突；不採為可購現價，保留舊399.99美元參考。 海外參考；未含國際運費、進口稅、電壓／插頭與台灣保固風險。"
     },

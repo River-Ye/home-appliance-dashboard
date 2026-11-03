@@ -1,20 +1,20 @@
 {
   "summary": {
-    "checkedAt": "2026-11-03T07:12:14.847+08:00",
-    "total": 1233,
+    "checkedAt": "2026-11-04T07:11:24.531+08:00",
+    "total": 1234,
     "researchedThisRun": 1,
-    "found": 352,
+    "found": 353,
     "missing": 881,
     "byConfidence": {
       "official": 188,
       "not_found": 878,
       "retailer_explicit": 23,
       "credible_article": 52,
-      "high": 71,
+      "high": 72,
       "medium": 18,
       "unknown": 3
     },
-    "scopeNote": "2026-11-03僅新增本批1款的上市查核；既有1232筆逐筆研究與日期原樣保留。"
+    "scopeNote": "2026-11-04僅新增本批1款的上市查核；既有1233筆逐筆研究與日期原樣保留。"
   },
   "results": [
     {
@@ -37860,6 +37860,29 @@
           "url": "https://24h.pchome.com.tw/prod/DPAC95-A900KC5CQ",
           "title": "PChome同型商品",
           "outcome": "現售規格不作上市日"
+        }
+      ]
+    },
+    {
+      "id": "wifi-asus-rog-gt-bn98",
+      "category": "wifi",
+      "brand": "ASUS",
+      "model": "GT-BN98",
+      "name": "ROG Rapture GT-BN98 BN25000 四頻 Wi-Fi 8 電競路由器",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2026-11-03",
+      "sourceUrl": "https://press.asus.com/tw/news/press-releases/asus-rog-rapture-gt-bn98-wifi-8-gaming-router-launch/",
+      "sourceTitle": "再造疾速傳說！ROG推出全球首款WiFi 8電競路由器 | 華碩新聞中心 ASUS Pressroom | 官方華碩新聞、最新消息與新聞稿",
+      "evidenceSnippet": "官方2026年11月3日台北新聞稿明示ROG Rapture GT-BN98電競路由器正式在台上市；此為台灣上市宣告，不採較早全球發表或通路上架日。",
+      "confidence": "high",
+      "checkedAt": "2026-11-04",
+      "query": "\"GT-BN98\" 台灣 上市",
+      "reason": "官方台灣新聞稿內有明確上市行為與日期。",
+      "checkedSources": [
+        {
+          "url": "https://press.asus.com/tw/news/press-releases/asus-rog-rapture-gt-bn98-wifi-8-gaming-router-launch/",
+          "title": "再造疾速傳說！ROG推出全球首款WiFi 8電競路由器 | 華碩新聞中心 ASUS Pressroom | 官方華碩新聞、最新消息與新聞稿",
+          "outcome": "accepted_explicit_taiwan_launch"
         }
       ]
     }

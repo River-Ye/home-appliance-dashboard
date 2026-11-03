@@ -1279,10 +1279,10 @@
     "name": "Purifier Cool De-NOx 甲醛 NOx 偵測涼風空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 20900,
-      "converted": 20900,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-03 Yahoo TP12原主頁20900，可立即購買/加車但名稱明示預購，不把可下單當即時現貨；實際出貨待確認。",
+      "amount": 20064,
+      "converted": 20064,
+      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-04 Yahoo TP12主商品20064、折前20900，滿1件96折；標題明示預購，交期待確認。可下單/加車，不扣個人券、信用卡、點數或贈品。當日原活動期限2026-11-04T07:59:59+08:00，非沿用昨日到期活動。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3CA900HTKRG/000001_1767758629.jpg",
@@ -2575,11 +2575,11 @@
     "name": "4–8 坪抗敏系列空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 2737,
-      "converted": 2737,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 3111,
+      "converted": 3111,
+      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-01 人工逐筆核對PChome原產品API：Honeywell 抗敏系列空氣清淨機 HPA-100APTW；Price.Low=2737元，Qty=78，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
+      "note": "2026-11-04 人工核對當日PChome exact商品ID DMAU00-A77331975：Honeywell 抗敏系列空氣清淨機 HPA-100APTW；美國Honeywell 抗敏系列空氣清淨機 HPA100APTW (適用坪數4-8坪)；Price.P=3111元，Qty=78。原HTML主商品另讀。不扣個人券、點數、信用卡；送貨安裝請確認。"
     },
     "installation": {
       "status": "not_stated",

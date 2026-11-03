@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-03",
+  "checkedAt": "2026-11-04",
   "methodVersion": 3,
   "policy": "每筆決策須保存 exact-model 跨站查詢與人工 attestation；每個搜尋候選須逐頁保存摘要、獨立作者數與具體排除理由，研究工具不得自行生成拒絕結論。",
   "results": [
@@ -95447,6 +95447,288 @@
       "reviewerNote": "本輪逐一人工檢視HRTN5255MF1在Mobile01、PTT、Dcard三站exact型號查詢，domain限制覆查均無exact候選；一般搜尋發現Lukfur把MF1通路報價與舊MF討論混排，已回到其五個PTT原頁逐一核對，均為無1舊MF、RG36B或其他型號並排除。未把舊款作者、轉引或回覆數算入本型；截至查核日未形成六名獨立使用者跨兩原始網站的同一問題，不代表完全沒有負評。",
       "attestation": "manual_original_pages_reviewed",
       "checkedAt": "2026-11-03",
+      "status": "completed"
+    },
+    {
+      "id": "wifi-asus-rog-gt-bn98",
+      "category": "wifi",
+      "brand": "ASUS",
+      "model": "GT-BN98",
+      "reviewedAt": "2026-11-04",
+      "reviewBatch": "wifi",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT",
+        "Dcard",
+        "Reddit",
+        "ASUS ZenTalk",
+        "SNBForums"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"GT-BN98\" site:mobile01.com/topicdetail.php",
+          "queryUrl": "https://www.google.com/search?q=%22GT-BN98%22%20site%3Amobile01.com%2Ftopicdetail.php"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"ASUS ROG Rapture GT-BN98\" (問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22ASUS%20ROG%20Rapture%20GT-BN98%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "\"ROG Rapture GT-BN98\" site:dcard.tw",
+          "queryUrl": "https://www.google.com/search?q=%22ROG%20Rapture%20GT-BN98%22%20site%3Adcard.tw"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "\"ROG Rapture GT-BN98\" site:reddit.com (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.google.com/search?q=%22ROG%20Rapture%20GT-BN98%22%20site%3Areddit.com%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)"
+        },
+        {
+          "platform": "ASUS ZenTalk",
+          "targetHost": "zentalk.asus.com",
+          "query": "\"GT-BN98\" site:zentalk.asus.com",
+          "queryUrl": "https://www.google.com/search?q=%22GT-BN98%22%20site%3Azentalk.asus.com"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "\"GT-BN98\" site:ptt.cc/bbs/",
+          "queryUrl": "https://www.google.com/search?q=%22GT-BN98%22%20site%3Aptt.cc%2Fbbs%2F"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "\"GT-BN98\" site:dcard.tw/f/",
+          "queryUrl": "https://www.google.com/search?q=%22GT-BN98%22%20site%3Adcard.tw%2Ff%2F"
+        },
+        {
+          "platform": "SNBForums",
+          "targetHost": "snbforums.com",
+          "query": "\"GT-BN98\" site:snbforums.com",
+          "queryUrl": "https://www.google.com/search?q=%22GT-BN98%22%20site%3Asnbforums.com"
+        }
+      ],
+      "candidateDisposition": "GT-BN98本輪完成Mobile01、PTT、Dcard、Reddit與ASUS ZenTalk exact型號人工查詢。Mobile01兩頁為價值/外觀/規格討論，Reddit六頁為Pro/其他型號、發表評論或媒體；初次限定負評查詢無PTT候選，放寬exact查詢後找到PTT展會新聞並回原頁排除；Dcard無exact候選。SNBForums屬Pro韌體/不同型號的簽名命中。ZenTalk512333確有同型韌體42021問題清單，魔法小貓最多一位候選作者、10/20更新去重，未明確自述持有與每項第一人稱重現；其他回覆為BE98Pro、欲購BN98Pro或型號未明，不當GT-BN98回報。保留此孤立問題線索並提醒韌體風險，未達六名獨立使用者跨兩原始網站同一問題門檻，不代表完全沒有負評。",
+      "representativeSources": [
+        {
+          "platform": "Mobile01",
+          "title": "ASUS 華碩ROG Rapture GT-BN98 BN25000 四頻 雙10G WiFi 8 電競路由器",
+          "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7306627"
+        },
+        {
+          "platform": "Mobile01",
+          "title": "ASUS 華碩ROG Rapture GT-BN98 BN25000 四頻 雙10G WiFi 8 電競路由器（第2頁）",
+          "url": "https://www.mobile01.com/topicdetail.php?f=110&p=2&t=7306627"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Announcing the ROG Rapture GT-BN98 PRO WiFi 8 Quad-Band Gaming Router for Pre-Orders in the US",
+          "url": "https://www.reddit.com/r/ASUS/comments/1xd2ei0/announcing_the_rog_rapture_gtbn98_pro_wifi_8/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Announcing the ROG Rapture GT-BN98 PRO WiFi 8 Quad-Band Gaming Router for Pre-Orders in the US (ASUSROG)",
+          "url": "https://www.reddit.com/r/ASUSROG/comments/1xd2ex2/announcing_the_rog_rapture_gtbn98_pro_wifi_8/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Asus BN12",
+          "url": "https://www.reddit.com/r/router/comments/1vpdvgg/asus_bn12/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Asus unveils its first Wi-Fi 8 router — ROG Rapture GT-BN98 Pro offers up to 2x real-world throughput uplift over Wi-Fi 7",
+          "url": "https://www.reddit.com/r/hardware/comments/1tvix4m/asus_unveils_its_first_wifi_8_router_rog_rapture/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "ASUS Unveils ROG Rapture GT-BN98, First Wi-Fi 8 Gaming Router",
+          "url": "https://www.reddit.com/r/hardware/comments/1vynmjx/asus_unveils_rog_rapture_gtbn98_first_wifi_8/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Asus ROG Rapture GT-BN98 Review: A New Monster for Your Home Network",
+          "url": "https://www.reddit.com/r/nagcoza/comments/1xchu37/asus_rog_rapture_gtbn98_review_a_new_monster_for/"
+        },
+        {
+          "platform": "ASUS ZenTalk",
+          "title": "GT-BN98／GT-BN25000 在 3.0.0.6.102_42021 - ASUS ZenTalk",
+          "url": "https://zentalk.asus.com/t5/networking/gt-bn98-gt-bn25000-%E5%9C%A8-3-0-0-6-102-42021/td-p/512333"
+        },
+        {
+          "platform": "PTT",
+          "title": "[情報] ROG Gamescom 2026 新品矚目亮相 - PTT PC_Shopping",
+          "url": "https://www.ptt.cc/bbs/PC_Shopping/M.1787712832.A.FA3.html"
+        },
+        {
+          "platform": "ASUS ZenTalk",
+          "title": "2026.10.04 更新 GT-BE98／BE25000 及BN98韌體討論 - ASUS ZenTalk",
+          "url": "https://zentalk.asus.com/t5/%E7%B6%B2%E9%80%9A%E7%94%A2%E5%93%81/2026-10-04-%E6%9B%B4%E6%96%B0-gt-be98-be25000-%E5%9C%A8-3-0-0-6-102-39393/m-p/512229/highlight/true"
+        },
+        {
+          "platform": "SNBForums",
+          "title": "ASUS GT-BN98 Pro Firmware Version 3.0.0.6.102_41973 - SNBForums",
+          "url": "https://www.snbforums.com/threads/asus-gt-bn98-pro-firmware-version-3-0-0-6-102_41973-2026-09-16.97986/"
+        }
+      ],
+      "candidateReviews": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7306627",
+          "title": "ASUS 華碩ROG Rapture GT-BN98 BN25000 四頻 雙10G WiFi 8 電競路由器",
+          "platform": "Mobile01",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-11-04",
+          "sourceExcerpt": "g6889688樓主說剛逛PChome、純分享新WiFi8；spring91811說自己三台BE25000，tommyke與ulimie等討論價錢、終端支援與IoT；沒有明示購買使用GT-BN98後同一故障。",
+          "independentAuthors": 9,
+          "specificReason": "原頁具exact型號但屬上市與規格價值討論；BE25000的自用經驗不屬GT-BN98，不把反對購買的意見當故障回報。",
+          "localEvidence": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-04/bn98-web-original-notes.txt"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=110&p=2&t=7306627",
+          "title": "ASUS 華碩ROG Rapture GT-BN98 BN25000 四頻 雙10G WiFi 8 電競路由器（第2頁）",
+          "platform": "Mobile01",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-11-04",
+          "sourceExcerpt": "ulimie說仍用WiFi5與RTN16；Jackboy001列自己測過CODA5310、AX3000T、AX89X等；vincent700523建議買兩台WiFi7，claus950評論外觀。",
+          "independentAuthors": 5,
+          "specificReason": "完整第二頁仍為其他既有路由器測試與購買取捨，沒有GT-BN98第一人稱同一問題回報；重複作者與前頁不累加。",
+          "localEvidence": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-04/bn98-web-original-notes.txt"
+        },
+        {
+          "url": "https://www.reddit.com/r/ASUS/comments/1xd2ei0/announcing_the_rog_rapture_gtbn98_pro_wifi_8/",
+          "title": "Announcing the ROG Rapture GT-BN98 PRO WiFi 8 Quad-Band Gaming Router for Pre-Orders in the US",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": false,
+          "reviewedAt": "2026-11-04",
+          "sourceExcerpt": "ASUS_MKTLeeM的Brand Affiliate公告明寫美國GT-BN98 PRO預購，連到90ig0an0-ma1a0v Pro機種。",
+          "independentAuthors": 0,
+          "specificReason": "屬美國PRO區域版本與品牌公告，並非台灣GT-BN98非Pro使用者問題；與ASUSROG同帳號同文去重。",
+          "localEvidence": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-04/bn98-web-original-notes.txt"
+        },
+        {
+          "url": "https://www.reddit.com/r/ASUSROG/comments/1xd2ex2/announcing_the_rog_rapture_gtbn98_pro_wifi_8/",
+          "title": "Announcing the ROG Rapture GT-BN98 PRO WiFi 8 Quad-Band Gaming Router for Pre-Orders in the US (ASUSROG)",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": false,
+          "reviewedAt": "2026-11-04",
+          "sourceExcerpt": "ASUS_MKTLeeM再貼GT-BN98 PRO美國預購；安全更新品牌回覆與10G寬頻問答，不是非Pro實機故障。",
+          "independentAuthors": 0,
+          "specificReason": "同一品牌帳號跨subreddit轉貼同公告，不計獨立原網站或使用者；PRO型號不同，不將安全建議推定本款集中災情。",
+          "localEvidence": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-04/bn98-web-original-notes.txt"
+        },
+        {
+          "url": "https://www.reddit.com/r/router/comments/1vpdvgg/asus_bn12/",
+          "title": "Asus BN12",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": false,
+          "reviewedAt": "2026-11-04",
+          "sourceExcerpt": "purespeed44分享ZenWiFi BN12 Mesh即將上市，留言提自己GTBE98PRO及價格預期。",
+          "independentAuthors": 0,
+          "specificReason": "討論主體BN12與GT-BE98PRO，不同型號；GT-BN98Pro只是預告提及，不能跨型號轉借故障或經驗。",
+          "localEvidence": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-04/bn98-web-original-notes.txt"
+        },
+        {
+          "url": "https://www.reddit.com/r/hardware/comments/1tvix4m/asus_unveils_its_first_wifi_8_router_rog_rapture/",
+          "title": "Asus unveils its first Wi-Fi 8 router — ROG Rapture GT-BN98 Pro offers up to 2x real-world throughput uplift over Wi-Fi 7",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": false,
+          "reviewedAt": "2026-11-04",
+          "sourceExcerpt": "sr_local分享六月Pro發表；可辨認NoAirBanding/contingencysloth談AX89X和AXE16000，ragnarlodblox明寫BE98Pro，其他回覆談BQ16Pro與BT10。",
+          "independentAuthors": 0,
+          "specificReason": "原頁抱怨實際型號為BE98Pro、AX89X、BQ16Pro、BT10或未明型號，且主文是Pro發表預告，非台灣非ProGT-BN98使用問題。",
+          "localEvidence": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-04/bn98-web-original-notes.txt"
+        },
+        {
+          "url": "https://www.reddit.com/r/hardware/comments/1vynmjx/asus_unveils_rog_rapture_gtbn98_first_wifi_8/",
+          "title": "ASUS Unveils ROG Rapture GT-BN98, First Wi-Fi 8 Gaming Router",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-11-04",
+          "sourceExcerpt": "原頁多為外觀、價格、WiFi8規格與既有BE系列評論；INVESTEGATE_3D徵求歐洲GT-BN98用戶幫測GT-BE98壁掛架，非自用故障。",
+          "independentAuthors": 0,
+          "specificReason": "主文含exact非Pro但未找到明確本型購買使用後的同一問題；BE系列韌體概論、外觀意見與徵測配件不可計本型故障回報。",
+          "localEvidence": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-04/bn98-web-original-notes.txt"
+        },
+        {
+          "url": "https://www.reddit.com/r/nagcoza/comments/1xchu37/asus_rog_rapture_gtbn98_review_a_new_monster_for/",
+          "title": "Asus ROG Rapture GT-BN98 Review: A New Monster for Your Home Network",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-11-04",
+          "sourceExcerpt": "NAG_Magazine官媒帳號貼出自家評測連結並稱拿到GT-BN98介紹WiFi8；這是媒體導流介紹。",
+          "independentAuthors": 0,
+          "specificReason": "媒體評測轉介並非可辨認獨立零售使用者的同一問題回報，不以文章、回覆數或按讚計人。",
+          "localEvidence": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-04/bn98-web-original-notes.txt"
+        },
+        {
+          "url": "https://zentalk.asus.com/t5/networking/gt-bn98-gt-bn25000-%E5%9C%A8-3-0-0-6-102-42021/td-p/512333",
+          "title": "GT-BN98／GT-BN25000 在 3.0.0.6.102_42021 - ASUS ZenTalk",
+          "platform": "ASUS ZenTalk",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-11-04",
+          "sourceExcerpt": "魔法小貓(rootpermalink#11)列GT-BN98/GT-BN25000於42021韌體的QoE負載、6GHz消失、MLO與Mesh問題，10/20更新#37仍同一作者；Alex52自述BE98Pro，jzchen想買BN98Pro非本型持有者，crauseppfx提QoE誤判但未明示exact型號。",
+          "independentAuthors": 1,
+          "specificReason": "保留exact型號原頁問題線索，OP未明確自述實機持有與逐項第一人稱重現，最多一名獨立候選作者且更新不得重複；其他回覆屬不同Pro型號或型號不明，未形成六名獨立使用者跨兩原始網站同一問題，不列common_issue。",
+          "localEvidence": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-04/bn98-zentalk-review.json",
+          "crossPostKey": "zentalk-magiccat-bn98-42021"
+        },
+        {
+          "url": "https://www.ptt.cc/bbs/PC_Shopping/M.1787712832.A.FA3.html",
+          "title": "[情報] ROG Gamescom 2026 新品矚目亮相 - PTT PC_Shopping",
+          "platform": "PTT",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-11-04",
+          "sourceExcerpt": "click2258貼ROG Gamescom新品發布名單，列GT-BN98但主要為官方活動新聞，推文談螢幕、顯卡與新品外觀，未描述本型購買使用故障。",
+          "independentAuthors": 0,
+          "specificReason": "原始PTT頁確認只是資訊轉介與展會發布，沒有exact GT-BN98第一人稱同一問題回報；不把新品清單與推文數當使用者災情。",
+          "localEvidence": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-04/bn98-ptt.html"
+        },
+        {
+          "url": "https://zentalk.asus.com/t5/%E7%B6%B2%E9%80%9A%E7%94%A2%E5%93%81/2026-10-04-%E6%9B%B4%E6%96%B0-gt-be98-be25000-%E5%9C%A8-3-0-0-6-102-39393/m-p/512229/highlight/true",
+          "title": "2026.10.04 更新 GT-BE98／BE25000 及BN98韌體討論 - ASUS ZenTalk",
+          "platform": "ASUS ZenTalk",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-11-04",
+          "sourceExcerpt": "同一魔法小貓帳號在舊BE98/BE25000主題中於10/08貼GT-BN98/BN25000的42021問題清單；前方另有BN98Pro41973及BE19000AI段落。",
+          "independentAuthors": 1,
+          "specificReason": "非新的獨立作者或網站，同一魔法小貓於另一主題重貼同型韌體問題，與512333同crossPostKey去重，Pro與BE型號段落也不轉借。",
+          "crossPostKey": "zentalk-magiccat-bn98-42021",
+          "localEvidence": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-04/bn98-zentalk-review.json"
+        },
+        {
+          "url": "https://www.snbforums.com/threads/asus-gt-bn98-pro-firmware-version-3-0-0-6-102_41973-2026-09-16.97986/",
+          "title": "ASUS GT-BN98 Pro Firmware Version 3.0.0.6.102_41973 - SNBForums",
+          "platform": "SNBForums",
+          "outcome": "excluded",
+          "exactModel": false,
+          "reviewedAt": "2026-11-04",
+          "sourceExcerpt": "jzchen發布GT-BN98_PRO41973官方韌體資訊，正文為版本、SHA及穩定性修正；簽名列多台BE/AP設備。",
+          "independentAuthors": 0,
+          "specificReason": "明示Pro區域版本的韌體資訊與帳號簽名，非台灣非Pro GT-BN98使用者故障，搜尋命中的其他BE/BN96X簽名型號亦不同。",
+          "localEvidence": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-04/bn98-web-original-notes.txt"
+        }
+      ],
+      "reviewerNote": "GT-BN98本輪完成Mobile01、PTT、Dcard、Reddit與ASUS ZenTalk exact型號人工查詢。Mobile01兩頁為價值/外觀/規格討論，Reddit六頁為Pro/其他型號、發表評論或媒體；初次限定負評查詢無PTT候選，放寬exact查詢後找到PTT展會新聞並回原頁排除；Dcard無exact候選。SNBForums屬Pro韌體/不同型號的簽名命中。ZenTalk512333確有同型韌體42021問題清單，魔法小貓最多一位候選作者、10/20更新去重，未明確自述持有與每項第一人稱重現；其他回覆為BE98Pro、欲購BN98Pro或型號未明，不當GT-BN98回報。保留此孤立問題線索並提醒韌體風險，未達六名獨立使用者跨兩原始網站同一問題門檻，不代表完全沒有負評。",
+      "attestation": "manual_original_pages_reviewed",
+      "checkedAt": "2026-11-04",
       "status": "completed"
     }
   ]

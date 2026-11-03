@@ -403,10 +403,10 @@
     "name": "27 型 FHD 144Hz IPS 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 2990,
-      "converted": 2990,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-03 人工核對原始SKU API名稱、商品ID、正庫存與公開價2990元。同型原頁可加車且金額一致。",
+      "amount": 2840,
+      "converted": 2840,
+      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-04 人工核對原始SKU API名稱、商品ID、正庫存與公開價2840元；原HTML遇429或動態限制時不當完整出貨承諾。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABPDA900JTLEG/000001_1773715062.jpg",
@@ -702,10 +702,10 @@
     "name": "27 型 QHD 260Hz IPS 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 4288,
-      "converted": 4288,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-03 人工核對原始SKU API名稱、商品ID、正庫存與公開價4288元。同型原頁可加車且金額一致。",
+      "amount": 4073,
+      "converted": 4073,
+      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-04 人工核對原始SKU API名稱、商品ID、正庫存與公開價4073元；原HTML遇429或動態限制時不當完整出貨承諾。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABQRA900JJPCW/000001_1765505711.jpg",
@@ -803,10 +803,10 @@
     "name": "27 型 2K 144Hz IPS 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 3888,
-      "converted": 3888,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-03 人工核對原始SKU API名稱、商品ID、正庫存與公開價3888元。同型原頁可加車且金額一致。",
+      "amount": 3693,
+      "converted": 3693,
+      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-04 人工核對原始SKU API名稱、商品ID、正庫存與公開價3693元；原HTML遇429或動態限制時不當完整出貨承諾。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABQQA900K2OE1/000001_1780474188.jpg",
@@ -904,11 +904,11 @@
     "name": "27 型 4K USB-C 70W 商務螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 29900,
-      "converted": 29900,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 28405,
+      "converted": 28405,
+      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-03 人工核對原始SKU API名稱、商品ID、正庫存與公開價29900元。同型原頁可加車且金額一致。"
+      "note": "2026-11-04 人工核對原始SKU API名稱、商品ID、正庫存與公開價28405元；原HTML遇429或動態限制時不當完整出貨承諾。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABGVA900JG58D/000001_1763013340.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABGV-A900JG58D",
@@ -1005,11 +1005,11 @@
     "name": "27 型 2K 120Hz 電腦螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 3299,
-      "converted": 3299,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 3134,
+      "converted": 3134,
+      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-01 人工核對PChome原始API同型號商品ID、名稱、正數庫存與公開網路價3299元；HTML另遇429限制，不把API當完整出貨承諾。"
+      "note": "2026-11-04 人工核對原始SKU API名稱、商品ID、正庫存與公開價3134元；原HTML遇429或動態限制時不當完整出貨承諾。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABVOA900JMD8B/000001_1768285501.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABVO-A900JMD8B",
@@ -1045,15 +1045,15 @@
     "releaseDate": "2026-02-24",
     "historicalLow": {
       "status": "found",
-      "amount": 3229,
+      "amount": 3134,
       "currency": "TWD",
-      "converted": 3229,
+      "converted": 3134,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DSABVO-A900JMD8B",
       "sourceTitle": "PChome 24h 購物：小米 Xiaomi 2K 電腦螢幕 A27Qi 2026(27型/2K/120Hz)",
-      "evidenceSnippet": "PChome 24h 購物於 2026-09-05 顯示同型號可信新品公開價 NT$3,229，低於既有史低 NT$3,399。",
+      "evidenceSnippet": "PChome 24h 購物於 2026-11-04 顯示同型號可信新品公開價 NT$3,134，低於既有史低 NT$3,229。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-09-05",
+      "checkedAt": "2026-11-04",
       "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
@@ -1504,11 +1504,11 @@
     "name": "27 型 2K 180Hz QD-OLED Odyssey G5",
     "price": {
       "currency": "TWD",
-      "amount": 11900,
-      "converted": 11900,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 9405,
+      "converted": 9405,
+      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-03 人工核對原始SKU API名稱、商品ID、正庫存與公開價11900元。原商品HTML本輪HTTP429，API報價不代表完整出貨承諾。"
+      "note": "2026-11-04 人工核對原始SKU API名稱、商品ID、正庫存與公開價9405元；原HTML遇429或動態限制時不當完整出貨承諾。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABONA900JTSHY/000001_1773805820.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABON-A900JTSHY",
@@ -1544,16 +1544,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 10490,
+      "amount": 9405,
       "currency": "TWD",
-      "converted": 10490,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=539716640&cgp=10490",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Samsung 27吋 Odyssey OLED G5 平面電競顯示器 S27FG502SC 廠商直送",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - 蝦皮直營 - 3C家電館 / Samsung 27吋 Odyssey OLED G5 平面電競顯示器 S27FG502SC 廠商直送」最低價為 NT$10,490，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 9405,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DSABON-A900JTSHY",
+      "sourceTitle": "PChome 24h 購物：SAMSUNG S27FG502SC Odyssey OLED G5 電競螢幕(27型/2K/180Hz/0.03ms/QD-OLED/抗眩光真霧面螢幕)",
+      "evidenceSnippet": "PChome 24h 購物於 2026-11-04 顯示同型號可信新品公開價 NT$9,405，低於既有史低 NT$10,490。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-11-04",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1803,11 +1803,11 @@
     "name": "32 型 4K USB-C 影音護眼螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 14888,
-      "converted": 14888,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 14143,
+      "converted": 14143,
+      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-03 人工核對原始SKU API名稱、商品ID、正庫存與公開價14888元。同型原頁可加車且金額一致。"
+      "note": "2026-11-04 人工核對原始SKU API名稱、商品ID、正庫存與公開價14143元；原HTML遇429或動態限制時不當完整出貨承諾。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABF1A900I90FS/000001_1736480988.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABF1-A900I90FS",
@@ -1904,10 +1904,10 @@
     "name": "27 型 2K IPS USB-C UltraSharp 螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 12588,
-      "converted": 12588,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-03 人工核對原始SKU API名稱、商品ID、正庫存與公開價12588元。同型原頁可加車且金額一致。",
+      "amount": 11958,
+      "converted": 11958,
+      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-04 人工核對原始SKU API名稱、商品ID、正庫存與公開價11958元；原HTML遇429或動態限制時不當完整出貨承諾。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOMA900GS1DN/000001_1699955230.jpg",
@@ -2586,10 +2586,10 @@
     "name": "27 型 4K 160Hz IPS 雙模電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 6911,
-      "converted": 6911,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-03 人工核對原始SKU API名稱、商品ID、正庫存與公開價6911元。原商品HTML本輪HTTP429，API報價不代表完整出貨承諾。",
+      "amount": 6565,
+      "converted": 6565,
+      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-04 人工核對原始SKU API名稱、商品ID、正庫存與公開價6565元；原HTML遇429或動態限制時不當完整出貨承諾。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOIA900K129O/000001_1779250013.jpg",
@@ -2687,10 +2687,10 @@
     "name": "27 型 QHD 260Hz IPS 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 5088,
-      "converted": 5088,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-03 人工核對原始SKU API名稱、商品ID、正庫存與公開價5088元。原商品HTML本輪HTTP429，API報價不代表完整出貨承諾。",
+      "amount": 4833,
+      "converted": 4833,
+      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-04 人工核對原始SKU API名稱、商品ID、正庫存與公開價4833元；原HTML遇429或動態限制時不當完整出貨承諾。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABQIA900J82S0/000001_1757486726.jpg",
@@ -2788,10 +2788,10 @@
     "name": "27 型 2K 180Hz Mini LED 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 7111,
-      "converted": 7111,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-03 人工核對原始SKU API名稱、商品ID、正庫存與公開價7111元。同型原頁可加車且金額一致。",
+      "amount": 6755,
+      "converted": 6755,
+      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-04 人工核對原始SKU API名稱、商品ID、正庫存與公開價6755元；原HTML遇429或動態限制時不當完整出貨承諾。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABTAA900JBMD6/000001_1759809326.jpg",
@@ -2974,10 +2974,10 @@
     "name": "32 型 4K 240Hz OLED Alienware 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 33888,
-      "converted": 33888,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-03 人工核對原始SKU API名稱、商品ID、正庫存與公開價33888元。同型原頁可加車且金額一致。",
+      "amount": 32193,
+      "converted": 32193,
+      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-04 人工核對原始SKU API名稱、商品ID、正庫存與公開價32193元；原HTML遇429或動態限制時不當完整出貨承諾。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOKA900HB1B5/000001_1710325731.jpg",
@@ -3163,10 +3163,10 @@
     "name": "34 型 21:9 WQHD 120Hz 1500R 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 7490,
-      "converted": 7490,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-03 人工核對原始SKU API名稱、商品ID、正庫存與公開價7490元。同型原頁可加車且金額一致。",
+      "amount": 7115,
+      "converted": 7115,
+      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-04 人工核對原始SKU API名稱、商品ID、正庫存與公開價7115元；原HTML遇429或動態限制時不當完整出貨承諾。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABSZA900JOMA1/000001_1769572714.jpg",
@@ -3567,8 +3567,8 @@
       "currency": "TWD",
       "amount": 26888,
       "converted": 26888,
-      "confidence": "PChome 2026-11-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-03 PChome原生XG34WCDMS/280Hz主頁26888且可加車；API Nick混MTG/240Hz且25543未於主頁重現，保留26888，不再沿用下單再折字樣。",
+      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 PChome原生XG34WCDMS/280Hz主頁26888且可加車；11/04單件95折橫幅但未顯示最終25543，API Nick仍混MTG/240Hz，保留26888。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABKBA900K0YA0/000001_1779246107.jpg",
@@ -3667,9 +3667,11 @@
     "name": "34 型 OLED G8 21:9 175Hz 曲面智慧顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 24900,
-      "converted": 24900,
-      "confidence": "Yahoo購物中心 2026-07-14 頁面查核價"
+      "amount": 22900,
+      "converted": 22900,
+      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-04 Yahoo同型號主商品公開22900元，可加車；不扣個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABUFA900K03Q2/000001_1778565462.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SAMSUNG%E4%B8%89%E6%98%9F-34%E5%90%8B-Odyssey-OLED-G8-%E6%9B%B2%E9%9D%A2%E9%9B%BB%E7%AB%B6%E9%A1%AF%E7%A4%BA%E5%99%A8-G85SD-S34DG8-12090389.html",
@@ -3706,16 +3708,16 @@
     "releaseDate": "2024",
     "historicalLow": {
       "status": "found",
-      "amount": 24153,
+      "amount": 22900,
       "currency": "TWD",
-      "converted": 24153,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=566204153&cgp=24153",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Samsung 34吋 Odyssey OLED G8 曲面電競顯示器 S34DG852SC 廠商直送",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - 蝦皮直營 - 3C家電館 / Samsung 34吋 Odyssey OLED G8 曲面電競顯示器 S34DG852SC 廠商直送」最低價為 NT$24,153，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 22900,
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/SAMSUNG%E4%B8%89%E6%98%9F-34%E5%90%8B-Odyssey-OLED-G8-%E6%9B%B2%E9%9D%A2%E9%9B%BB%E7%AB%B6%E9%A1%AF%E7%A4%BA%E5%99%A8-G85SD-S34DG8-12090389.html",
+      "sourceTitle": "Yahoo購物中心：SAMSUNG三星 34吋 Odyssey OLED G8 曲面電競顯示器 G85SD S34DG852SC | 電視 | Yahoo購物中心",
+      "evidenceSnippet": "Yahoo購物中心於 2026-11-04 顯示同型號可信新品公開價 NT$22,900，低於既有史低 NT$24,153。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-11-04",
+      "note": "採用 Yahoo購物中心當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -3767,10 +3769,10 @@
     "name": "34 型 Porsche Design 240Hz QD-OLED 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 28800,
-      "converted": 28800,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-03 人工核對原始SKU API名稱、商品ID、正庫存與公開價28800元。同型原頁可加車且金額一致。",
+      "amount": 27360,
+      "converted": 27360,
+      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-04 人工核對原始SKU API名稱、商品ID、正庫存與公開價27360元；原HTML遇429或動態限制時不當完整出貨承諾。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABQRA900K5BI4/000001_1782298311.jpg",
@@ -3969,11 +3971,11 @@
     "name": "49 型 Odyssey OLED G9 Dual QHD 240Hz 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 34888,
-      "converted": 34888,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 34880,
+      "converted": 34880,
+      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-03 人工核對原始SKU API名稱、商品ID、正庫存與公開價34888元。原商品HTML本輪HTTP429，API報價不代表完整出貨承諾。"
+      "note": "2026-11-04 人工核對原始SKU API名稱、商品ID、正庫存與公開價34880元；原HTML遇429或動態限制時不當完整出貨承諾。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900HZCPE/000001_1781766568.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900HZCPE",
@@ -4271,11 +4273,11 @@
     "name": "57 型 Odyssey Neo G9 Dual UHD 240Hz Mini LED 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 64900,
-      "converted": 64900,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 63990,
+      "converted": 63990,
+      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-03 人工核對原始SKU API名稱、商品ID、正庫存與公開價64900元。原商品HTML本輪HTTP429，API報價不代表完整出貨承諾。"
+      "note": "2026-11-04 人工核對原始SKU API名稱、商品ID、正庫存與公開價63990元；原HTML遇429或動態限制時不當完整出貨承諾。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900GQLSE/000001_1783054239.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900GQLSE",
@@ -4473,10 +4475,10 @@
     "name": "49 型 DQHD QD-OLED 144Hz Type-C 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 32900,
-      "converted": 32900,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-03 人工核對原始SKU API名稱、商品ID、正庫存與公開價32900元。同型原頁可加車且金額一致。",
+      "amount": 31255,
+      "converted": 31255,
+      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-04 人工核對原始SKU API名稱、商品ID、正庫存與公開價31255元；原HTML遇429或動態限制時不當完整出貨承諾。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABPDA900H9PEB/000001_1709257135.jpg",
@@ -5191,7 +5193,7 @@
       "converted": 55111,
       "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-03 momo所選PD2770U主頁55111元，限時公開折後價至11/03 08:00，非推算個人券。"
+      "note": "2026-11-04 PD2770U主品號15221341原生限時折後55111、促銷56111，本輪實際新活動11/03 18:00–11/04 08:00滿額最高折1000，數量1–2、3年保固、購買/加車可用。"
     },
     "image": "https://image.benq.com/is/image/benqco/1pd2770u-front-hood-hotkey-2?$ResponsivePreset$",
     "buyUrl": "https://www.momoshop.com.tw/product/15221341",
@@ -5297,10 +5299,10 @@
     "name": "32 型 Odyssey G8 G80HS 6K 165Hz／3K 330Hz 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 27900,
-      "converted": 27900,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-03 人工核對原始SKU API名稱、商品ID、正庫存與公開價27900元。原商品HTML本輪HTTP429，API報價不代表完整出貨承諾。",
+      "amount": 26505,
+      "converted": 26505,
+      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-04 人工核對原始SKU API名稱、商品ID、正庫存與公開價26505元；原HTML遇429或動態限制時不當完整出貨承諾。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABSKA900K0G32/000001_1778746645.jpg",
@@ -5343,15 +5345,15 @@
     "releaseDate": "2026-05",
     "historicalLow": {
       "status": "found",
-      "amount": 27900,
+      "amount": 26505,
       "currency": "TWD",
-      "converted": 27900,
+      "converted": 26505,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DSABSK-A900K0G32",
       "sourceTitle": "PChome 24h 購物：SAMSUNG S32HG806ES 電競螢幕(32型/6K/165Hz/1ms/HDMI2.1/DP2.1/IPS)",
-      "evidenceSnippet": "PChome 24h 購物於 2026-11-03 顯示同型號可信新品公開價 NT$27,900，低於既有史低 NT$28,405。",
+      "evidenceSnippet": "PChome 24h 購物於 2026-11-04 顯示同型號可信新品公開價 NT$26,505，低於既有史低 NT$27,900。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-11-03",
+      "checkedAt": "2026-11-04",
       "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
@@ -6582,7 +6584,7 @@
       "converted": 18894,
       "basis": "retailer_current",
       "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-31 Yahoo11255959 RD320U主商品19888元、一般滿1件95折後18894元；activity803707 start2026-10-30T20:00+08，end2026-11-02T07:59:59+08；不是點數或信用卡回饋。"
+      "note": "2026-11-04 Yahoo同型號主商品公開18894元，可加車；不扣個人券、點數或信用卡回饋。本輪活動截止2026-11-04T07:59:59+08:00"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/A547B09451-SP-17883815.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=11255959",
