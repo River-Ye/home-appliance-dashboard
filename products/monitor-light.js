@@ -40,8 +40,8 @@
       "amount": 3611,
       "converted": 3611,
       "basis": "retailer_current",
-      "confidence": "2026-11-04 Chrome人工核對官方連出的可信通路exact-model主價、選定版本與啟用購買按鈕。",
-      "note": "Chrome人工核對BenQ官方導向PChome太空黑完整ScreenBar Pro新品主價3611元，11/04單件95折、無適用折價券，數量1與下單再折按鈕啟用、PChome倉庫24小時出貨；含黑色變壓器贈品，不計P幣或信用卡回饋。"
+      "confidence": "2026-11-05 Chrome人工重讀已知單日促銷截止後的同商品主價格。",
+      "note": "Native PChome同DSABP4-A900HGJLQ太空黑主價仍3611。另11/05–11/05任選單件95折只顯示下單再折，不再自行預扣；贈品/信用卡/P幣不減現價。 未扣會員券、點數、信用卡或未顯示於主價的結帳折扣。"
     },
     "installation": {
       "status": "not_stated",

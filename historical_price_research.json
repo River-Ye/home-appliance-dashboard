@@ -1,13 +1,13 @@
 {
   "summary": {
     "checkedAt": "2026-11-04T00:00:00.000+08:00",
-    "sourcePolicy": "2026-11-04全量來源維護涵蓋1256款（researchedThisRun是維護範圍），其中本輪共25款新增/身份更正完成獨立人工史低查詢；既有found來源重新請求、not_found與舊人工研究保留原日期，不把每個舊結論宣稱重新人工查核或以現價推史低。",
-    "total": 1256,
-    "researchedThisRun": 1256,
+    "sourcePolicy": "2026-11-04全量來源維護涵蓋1258款（researchedThisRun是維護範圍），其中本輪共27款新增/身份更正完成獨立人工史低查詢；既有found來源重新請求、not_found與舊人工研究保留原日期，不把每個舊結論宣稱重新人工查核或以現價推史低。",
+    "total": 1258,
+    "researchedThisRun": 1258,
     "found": 509,
-    "missing": 747,
+    "missing": 749,
     "byConfidence": {
-      "not_found": 747,
+      "not_found": 749,
       "high": 293,
       "medium": 216,
       "low": 0
@@ -22,11 +22,11 @@
       "HKD_TWD": 4.176872707843633,
       "KRW_TWD": 0.024384299545998196
     },
-    "lastMaintenanceCheckAt": "2026-11-04T15:30:43.443Z",
-    "currentPriceChanged": 121,
-    "currentBuyLinkChanged": 265,
-    "currentPriceDrops": 102,
-    "currentPriceRises": 19,
+    "lastMaintenanceCheckAt": "2026-11-04T16:25:25.765Z",
+    "currentPriceChanged": 125,
+    "currentBuyLinkChanged": 271,
+    "currentPriceDrops": 105,
+    "currentPriceRises": 20,
     "currentPriceFallbacks": 0,
     "historicalLowUpdated": 4,
     "historicalLowInvalidated": 0,
@@ -79,7 +79,7 @@
     ],
     "currentImageChanged": 0,
     "discontinuedRemoved": 0,
-    "newProductsAdded": 21,
+    "newProductsAdded": 23,
     "discontinuedRemovalNotes": [],
     "catalogEntriesRemoved": 0,
     "catalogRemovalNotes": [],
@@ -40324,7 +40324,7 @@
       "brand": "BenQ",
       "model": "PD2732U",
       "name": "27 型 4K Adobe RGB Thunderbolt 4 專業設計螢幕",
-      "currentPrice": 25543,
+      "currentPrice": 26888,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://www.momoshop.com.tw/product/15419037",
       "currentBuyLabel": "momo 台灣新品",
@@ -40400,7 +40400,7 @@
       "brand": "BenQ",
       "model": "PD2770U",
       "name": "27 型 4K 內建校色器專業色彩管理螢幕",
-      "currentPrice": 53305,
+      "currentPrice": 56111,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://www.momoshop.com.tw/product/15221341",
       "currentBuyLabel": "momo購物",
@@ -41408,10 +41408,10 @@
       "brand": "LINDY",
       "model": "40693+40940",
       "name": "台灣製氣壓式螢幕支架加長桿組",
-      "currentPrice": 4540,
+      "currentPrice": 4780,
       "currentCurrency": "TWD",
-      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DSABN2-A900GINEE",
-      "currentBuyLabel": "PChome（原商品已售完，查看供貨）",
+      "currentBuyUrl": "https://store.lindy.com.tw/LINDY/moreinfo_696.htm",
+      "currentBuyLabel": "LINDY 台灣官方商城（40940＋40693）",
       "historicalLow": {
         "status": "found",
         "amount": 4063,
@@ -41439,8 +41439,8 @@
         "BigGo LINDY 40693+40940: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/LINDY%2040693%2B40940/product?p=1",
         "[2026-07-11] momo購物：同型號只作相容性說明；商品本體是替換耗材、濾材、機架或其他配件，不是目標整機；【LINDY 林帝】LINDY 林帝 台灣製 氣壓式 螢幕支架 +70cmC型夾鉗式支桿 組合 40693+40940 僅適用於6~10公斤的瑩幕 https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=11277615&Area=search&mdiv=403&oid=1_1&cid=index&kw=LINDY+40693%2B40940&ecTagNos="
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "monitorarm-extra-20-dcbakfa900hafjo",
@@ -49239,10 +49239,10 @@
       "brand": "HOLA",
       "model": "016788505",
       "name": "100%可水洗法國羊毛防蟎冬被雙人（016788505）",
-      "currentPrice": 2280,
+      "currentPrice": 2232,
       "currentCurrency": "TWD",
-      "currentBuyUrl": "https://www.momoshop.com.tw/TP/TP0006553/goodsDetail/TP00065530008496",
-      "currentBuyLabel": "momo HOLA 官方店",
+      "currentBuyUrl": "https://www.hola.com.tw/p/016788505",
+      "currentBuyLabel": "HOLA 台灣官方商城",
       "priceBasis": "retailer_current",
       "priceLabel": "通路現價",
       "historicalLow": {
@@ -50247,10 +50247,10 @@
       "brand": "HOLA",
       "model": "016788504",
       "name": "100%可水洗法國羊毛防蟎冬被單人（016788504）",
-      "currentPrice": 1980,
+      "currentPrice": 1962,
       "currentCurrency": "TWD",
-      "currentBuyUrl": "https://www.momoshop.com.tw/TP/TP0006553/goodsDetail/TP00065530008497",
-      "currentBuyLabel": "momo HOLA 官方店",
+      "currentBuyUrl": "https://www.hola.com.tw/p/016788504",
+      "currentBuyLabel": "HOLA 台灣官方商城",
       "priceBasis": "retailer_current",
       "priceLabel": "通路現價",
       "historicalLow": {
@@ -50303,10 +50303,10 @@
       "brand": "HOLA",
       "model": "014301109",
       "name": "90/10可水洗長效防蟎羽絨薄被單人（014301109）",
-      "currentPrice": 3380,
+      "currentPrice": 3312,
       "currentCurrency": "TWD",
-      "currentBuyUrl": "https://www.momoshop.com.tw/TP/TP0006553/goodsDetail/TP00065530004585",
-      "currentBuyLabel": "momo HOLA 官方店",
+      "currentBuyUrl": "https://www.hola.com.tw/p/014301109",
+      "currentBuyLabel": "HOLA 台灣官方商城",
       "priceBasis": "retailer_current",
       "priceLabel": "通路現價",
       "historicalLow": {
@@ -50359,10 +50359,10 @@
       "brand": "HOLA",
       "model": "014381508",
       "name": "90/10可水洗長效防蟎羽絨冬被加大（014381508）",
-      "currentPrice": 9980,
+      "currentPrice": 9882,
       "currentCurrency": "TWD",
-      "currentBuyUrl": "https://www.momoshop.com.tw/TP/TP0006553/goodsDetail/TP00065530008377",
-      "currentBuyLabel": "momo HOLA 官方店",
+      "currentBuyUrl": "https://www.hola.com.tw/p/014381508",
+      "currentBuyLabel": "HOLA 台灣官方商城",
       "priceBasis": "retailer_current",
       "priceLabel": "通路現價",
       "historicalLow": {
@@ -50415,10 +50415,10 @@
       "brand": "HOLA",
       "model": "014408625",
       "name": "REAL極親膚科技蠶絲防蟎冬被雙人（014408625）",
-      "currentPrice": 1380,
+      "currentPrice": 1332,
       "currentCurrency": "TWD",
-      "currentBuyUrl": "https://www.momoshop.com.tw/TP/TP0006553/goodsDetail/TP00065530010853",
-      "currentBuyLabel": "momo HOLA 官方店",
+      "currentBuyUrl": "https://www.hola.com.tw/p/014408625",
+      "currentBuyLabel": "HOLA 台灣官方商城",
       "priceBasis": "retailer_current",
       "priceLabel": "通路現價",
       "historicalLow": {
@@ -50954,12 +50954,12 @@
       "brand": "3M",
       "model": "MZ600",
       "name": "3M 防蟎可調式記憶枕 MZ600 側仰舒眠型",
-      "currentPrice": 3490,
+      "currentPrice": 3290,
       "currentCurrency": "TWD",
       "priceBasis": "retailer_current",
       "priceLabel": "通路現價",
-      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DAAN5D-A900AJMFY",
-      "currentBuyLabel": "PChome 24h（MZ600）",
+      "currentBuyUrl": "https://shop.3m.com.tw/SalePage/Index/6213493",
+      "currentBuyLabel": "3M 台灣官方商城",
       "historicalLow": {
         "status": "not_found",
         "amount": null,
@@ -58732,7 +58732,7 @@
       "brand": "ASUS",
       "model": "XG32UQWMS",
       "name": "ROG Strix OLED XG32UQWMS 31.5吋 Tandem WOLED 雙模",
-      "currentPrice": 21743,
+      "currentPrice": 22888,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://www.momoshop.com.tw/product/15655352",
       "currentBuyLabel": "momo購物網",
@@ -58945,6 +58945,138 @@
         "note": "非電器鍋具，不涉及安裝；台灣通路配送條件依Pinkoi原頁，不把IH可用誤當需插電。"
       },
       "priceScope": "28cm單柄平底鍋單品，不採24/28雙鍋組與附蓋雙耳款。",
+      "rejectedCandidates": []
+    },
+    {
+      "id": "dishwasher-panasonic-np-tmb1k5-1h",
+      "category": "dishwasher",
+      "brand": "Panasonic",
+      "model": "NP-TMB1K5-1H",
+      "name": "Panasonic NP-TMB1K5-1H 6人份觸控桌上型洗碗機",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-11-04",
+        "note": "實際讀FindPrice及Feebee的同型號現時報價與短期變動；未取得同安裝/保固條件可重現的可信歷史最低點，現價21474不直接認定史低。"
+      },
+      "status": "not_found",
+      "checkedAt": "2026-11-04",
+      "checkedAtIso": "2026-11-04T16:09:22.390213Z",
+      "currentPrice": 21474,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMBR24-A900KN2DX",
+      "currentBuyLabel": "PChome 24h（含標準安裝）",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "installation": {
+        "status": "included_basic",
+        "note": "利用原箱附零件完成的標準安裝；不含鑽孔、挖洞、水電改線、超長管材、舊機拆機300及額外樓層搬運，空趟500–1200；偏遠地區與外島不送。出貨通常3–7工作天聯絡約定，非24h保證。"
+      },
+      "priceScope": "同exact型號及該頁標準安裝範圍；不扣券/回饋，額外工程另計。",
+      "researchNote": "實際讀FindPrice及Feebee的同型號現時報價與短期變動；未取得同安裝/保固條件可重現的可信歷史最低點，現價21474不直接認定史低。",
+      "checkedSources": [
+        {
+          "url": "https://www.findprice.com.tw/g/np-tmb1k5-1h",
+          "title": "FindPrice NP-TMB1K5-1H",
+          "outcome": "原比較12項有20400現金促銷/20900需登入、21900/21845與不同通路當期價；467為48期月付排除。沒有可核歷史最低日期與一致安裝方案。"
+        },
+        {
+          "url": "https://feebee.com.tw/s/np-tmb1k5-1h/",
+          "title": "Feebee NP-TMB1K5-1H",
+          "outcome": "實讀21060/21070/21940、採用通路21474等現時報價；近期22900降21060僅短期標示且低價來源保固異常，不足歷史最低認定；19300個拍與467分期月付排除。"
+        }
+      ],
+      "priceChecks": [
+        {
+          "kind": "price_comparison",
+          "url": "https://www.findprice.com.tw/g/np-tmb1k5-1h",
+          "query": "NP-TMB1K5-1H",
+          "title": "FindPrice NP-TMB1K5-1H",
+          "localSource": "/tmp/kitchen-successor-originals/356.html",
+          "outcome": "原比較12項有20400現金促銷/20900需登入、21900/21845與不同通路當期價；467為48期月付排除。沒有可核歷史最低日期與一致安裝方案。"
+        },
+        {
+          "kind": "price_comparison",
+          "url": "https://feebee.com.tw/s/np-tmb1k5-1h/",
+          "query": "NP-TMB1K5-1H",
+          "title": "Feebee NP-TMB1K5-1H",
+          "localSource": "/tmp/kitchen-successor-originals/357.html",
+          "outcome": "實讀21060/21070/21940、採用通路21474等現時報價；近期22900降21060僅短期標示且低價來源保固異常，不足歷史最低認定；19300個拍與467分期月付排除。"
+        }
+      ],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "dishwasher-panasonic-np-bxw1m6-1h",
+      "category": "dishwasher",
+      "brand": "Panasonic",
+      "model": "NP-BXW1M6-1H",
+      "name": "Panasonic NP-BXW1M6-1H 15人份全嵌式洗碗機",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-11-04",
+        "note": "已讀FindPrice與Feebee的當期價/近期降幅並區分含門板、含安裝與分期。未核得同配置可信歷史最低日期；44010現價不可直接當史低。"
+      },
+      "status": "not_found",
+      "checkedAt": "2026-11-04",
+      "checkedAtIso": "2026-11-04T16:09:22.390213Z",
+      "currentPrice": 44010,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.momoshop.com.tw/product/15855420",
+      "currentBuyLabel": "momo（含標準安裝、不含門板）",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "installation": {
+        "status": "included_basic",
+        "note": "含標準安裝、不含門片需另購；舊機拆機+300，勘場空趟500；廠商宅配，訂單確認後約定送貨。"
+      },
+      "priceScope": "同exact型號及該頁標準安裝範圍；不含門板。不扣券/回饋，額外工程另計。",
+      "researchNote": "已讀FindPrice與Feebee的當期價/近期降幅並區分含門板、含安裝與分期。未核得同配置可信歷史最低日期；44010現價不可直接當史低。",
+      "checkedSources": [
+        {
+          "url": "https://www.findprice.com.tw/g/np-bxw1m6-1h",
+          "title": "FindPrice NP-BXW1M6-1H",
+          "outcome": "實讀70項共4頁的第一頁比價；45800含黑門板與不含門板不同，45999券後41859排除，46455/46700為當期價；1049月付不算總價。沒有一致門板/安裝配置可驗證的歷史最低點。"
+        },
+        {
+          "url": "https://feebee.com.tw/s/np-bxw1m6-1h/",
+          "title": "Feebee NP-BXW1M6-1H",
+          "outcome": "44010momo不含門板含安裝對應本方案；46710含門板、48428不含安裝及3192配件排除。42739部分Rakuten短期降幅僅比價觀察，未核原主頁/完整安裝條件，不認定可信歷史最低。"
+        }
+      ],
+      "priceChecks": [
+        {
+          "kind": "price_comparison",
+          "url": "https://www.findprice.com.tw/g/np-bxw1m6-1h",
+          "query": "NP-BXW1M6-1H",
+          "title": "FindPrice NP-BXW1M6-1H",
+          "localSource": "/tmp/kitchen-successor-originals/358.html",
+          "outcome": "實讀70項共4頁的第一頁比價；45800含黑門板與不含門板不同，45999券後41859排除，46455/46700為當期價；1049月付不算總價。沒有一致門板/安裝配置可驗證的歷史最低點。"
+        },
+        {
+          "kind": "price_comparison",
+          "url": "https://feebee.com.tw/s/np-bxw1m6-1h/",
+          "query": "NP-BXW1M6-1H",
+          "title": "Feebee NP-BXW1M6-1H",
+          "localSource": "/tmp/kitchen-successor-originals/359.html",
+          "outcome": "44010momo不含門板含安裝對應本方案；46710含門板、48428不含安裝及3192配件排除。42739部分Rakuten短期降幅僅比價觀察，未核原主頁/完整安裝條件，不認定可信歷史最低。"
+        }
+      ],
       "rejectedCandidates": []
     }
   ]

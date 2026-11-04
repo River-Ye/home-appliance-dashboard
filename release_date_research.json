@@ -1,17 +1,17 @@
 {
   "summary": {
     "checkedAt": "2026-11-04T00:00:00+08:00",
-    "total": 1256,
-    "researchedThisRun": 25,
-    "found": 362,
-    "missing": 894,
+    "total": 1258,
+    "researchedThisRun": 27,
+    "found": 363,
+    "missing": 895,
     "byConfidence": {
       "official": 187,
-      "not_found": 891,
+      "not_found": 892,
       "retailer_explicit": 23,
       "credible_article": 52,
       "high": 81,
-      "medium": 19,
+      "medium": 20,
       "unknown": 3
     },
     "sourcePolicy": "本輪僅新增/身份更正商品完成獨立上市日研究；既有逐筆證據及實際查核日期保留，不將來源維護範圍當成重新人工研究。"
@@ -38512,6 +38512,80 @@
       "sourceKind": "official_product_introduction_year",
       "checkedAt": "2026-11-04",
       "auditDisposition": "confirmed_release_year"
+    },
+    {
+      "id": "dishwasher-panasonic-np-tmb1k5-1h",
+      "category": "dishwasher",
+      "brand": "Panasonic",
+      "model": "NP-TMB1K5-1H",
+      "name": "Panasonic NP-TMB1K5-1H 6人份觸控桌上型洗碗機",
+      "releaseDate": "2026",
+      "sourceUrl": "https://www.mobile01.com/topicdetail.php?f=729&t=7312835",
+      "sourceTitle": "Mobile01 Panasonic NP-TMB1K5-1H桌上型洗碗機開箱",
+      "evidenceSnippet": "2026-11-03文章主文明確敘述本年秋季發表會推出升級NP-TMB1K5-1H；採其明示發表年份2026，不採文章日或抽獎截止日為首發日。",
+      "confidence": "medium",
+      "sourceKind": "trusted_media_explicit_release_year",
+      "reason": "官方產品未載首發日期，可信原始媒體明寫當年秋季推出，只能確認年份。",
+      "auditDisposition": "confirmed_release_year",
+      "checkedSources": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7312835",
+          "title": "Mobile01 exact開箱",
+          "outcome": "主文明確當年秋季推出；採2026年。"
+        },
+        {
+          "url": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-tmb1k5-1h.html",
+          "title": "Panasonic台灣exact產品",
+          "outcome": "新品功能與型號，無首發日。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7302023",
+          "title": "秋季展會",
+          "outcome": "展出文章日期不當首發日，容量錯誤不採。"
+        }
+      ],
+      "checkedAt": "2026-11-04",
+      "checkedAtIso": "2026-11-04T16:09:22.390213Z"
+    },
+    {
+      "id": "dishwasher-panasonic-np-bxw1m6-1h",
+      "category": "dishwasher",
+      "brand": "Panasonic",
+      "model": "NP-BXW1M6-1H",
+      "name": "Panasonic NP-BXW1M6-1H 15人份全嵌式洗碗機",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found_after_exact_model_recheck",
+      "reason": "官方exact產品與規格無首發日；規格註2025年9月前比較是測試/比較截止，不能當上市日。2026秋季文章為展出，2026年1月已有人購前討論；M01持有者稱2025年底新款屬非權威回憶，未有可信明確首發文字。",
+      "auditDisposition": "confirmed_not_found",
+      "query": "\"NP-BXW1M6-1H\" (上市 OR 發表 OR 發售)",
+      "checkedSources": [
+        {
+          "url": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-bxw1m6-1h.html",
+          "title": "Panasonic台灣exact產品",
+          "outcome": "正式身份與新功能，沒有首發日。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7302023",
+          "title": "2026秋季展出",
+          "outcome": "重複展出不可推初次上市。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=729&p=2&t=7229060",
+          "title": "exact持有者討論",
+          "outcome": "論壇聲稱2025年底不採正式上市年。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=729&p=7&t=7215854",
+          "title": "2026年1月購前討論",
+          "outcome": "排除2026秋季首發推論，不以討論日期定上市。"
+        }
+      ],
+      "checkedAt": "2026-11-04",
+      "checkedAtIso": "2026-11-04T16:09:22.390213Z"
     }
   ]
 }

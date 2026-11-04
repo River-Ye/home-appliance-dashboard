@@ -4991,11 +4991,11 @@
     "name": "27 型 4K Adobe RGB Thunderbolt 4 專業設計螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 25543,
-      "converted": 25543,
-      "confidence": "2026-11-04 Chrome人工核對官方連出的可信通路exact-model主價、選定版本與啟用購買按鈕。",
+      "amount": 26888,
+      "converted": 26888,
+      "confidence": "2026-11-05 Chrome人工重讀已知單日促銷截止後的同商品主價格。",
       "basis": "retailer_current",
-      "note": "Chrome人工核對BenQ官方導向momo同型號新品主價25543元，11/04單件95折，數量1、直接購買及放入購物車啟用、庫存少於2件；不扣會員券、信用卡或點數。"
+      "note": "原11/04單件95折25543已結束；Native同品號15419037現主促銷26888、數量1、庫存低於3組、3年保固。 未扣會員券、點數、信用卡或未顯示於主價的結帳折扣。"
     },
     "image": "https://image.benq.com/is/image/benqco/pd2732u-front-hotkey-1000?$ResponsivePreset$&fmt=png-alpha",
     "buyUrl": "https://www.momoshop.com.tw/product/15419037",
@@ -5205,11 +5205,11 @@
     "name": "27 型 4K 內建校色器專業色彩管理螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 53305,
-      "converted": 53305,
-      "confidence": "2026-11-04 Chrome人工核對exact型號／選定版本主區公開折後價及可購CTA。",
+      "amount": 56111,
+      "converted": 56111,
+      "confidence": "2026-11-05 Chrome人工重讀已知單日促銷截止後的同商品主價格。",
       "basis": "retailer_current",
-      "note": "2026-11-04 momo15221341單日滿1件95折主區限時折後53305元（促銷56111）；數量1、庫存低於2組、直接購買及放入購物車可用，不另扣會員、信用卡或點數。"
+      "note": "原11/04單件95折53305已結束；Native同品號15221341現主促銷56111、數量1、庫存低於2組、3年保固；雙11限降標至11/30。 未扣會員券、點數、信用卡或未顯示於主價的結帳折扣。"
     },
     "image": "https://image.benq.com/is/image/benqco/1pd2770u-front-hood-hotkey-2?$ResponsivePreset$",
     "buyUrl": "https://www.momoshop.com.tw/product/15221341",
@@ -6999,11 +6999,11 @@
   "channel": "tw",
   "price": {
     "currency": "TWD",
-    "amount": 21743,
-    "converted": 21743,
+    "amount": 22888,
+    "converted": 22888,
     "basis": "retailer_current",
-    "confidence": "2026-11-04根代理Native Chrome核momo15655352完整型號主價21743，品號一致、qty1，主直接購買411／放入購物車412啟用。",
-    "note": "11/04~11/04滿1件95折，促銷價22888折後主價21743；活動有期限，未扣會員、回饋、點數或信用卡。"
+    "confidence": "2026-11-05 Chrome人工重讀已知單日促銷截止後的同商品主價格。",
+    "note": "原11/04單件95折21743已結束；Native同品號15655352現主促銷22888、數量1–20、3年保固。 未扣會員券、點數、信用卡或未顯示於主價的結帳折扣。"
   },
   "installation": {
     "status": "not_stated",
@@ -7035,7 +7035,7 @@
     "鏡面需控制光源；OLED長時間靜態介面仍有烙印風險，無USB-C或喇叭"
   ],
   "bestFor": "重視4K240Hz與FHD480Hz雙模、能確認韌體並在退換期測試HDR暗部及VRR的人。",
-  "recommendation": "高刷新OLED進階候選，非Top Pick。21743元單件95折主價（11/04限定）之外，先用常玩的暗場、60／120／240Hz、HDR及VRR實測；要求賣方確認可取得的正式韌體及退換政策，不以單一preview成功回報保證全部問題修復。",
+  "recommendation": "高刷新OLED進階候選，非Top Pick。購買前先用常玩的暗場、60／120／240Hz、HDR及VRR實測；要求賣方確認可取得的正式韌體及退換政策，不以單一preview成功回報保證全部問題修復。",
   "releaseDate": "找不到",
   "historicalLow": {
     "status": "not_found",

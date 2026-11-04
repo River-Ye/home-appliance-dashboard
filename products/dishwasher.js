@@ -3805,6 +3805,197 @@
     "status": "included_basic",
     "note": "此PChome方案送標準安裝，不含門板與踢腳板；偏遠山區不含，現場管線、櫥櫃修改、面板與耗材另計，須核對專用接地插座/進排水及開門空間。"
   }
+},
+{
+  "id": "dishwasher-panasonic-np-tmb1k5-1h",
+  "category": "dishwasher",
+  "brand": "Panasonic",
+  "model": "NP-TMB1K5-1H",
+  "name": "Panasonic NP-TMB1K5-1H 6人份觸控桌上型洗碗機",
+  "rank": 38,
+  "topPick": false,
+  "budget": "mid",
+  "channel": "tw",
+  "price": {
+    "currency": "TWD",
+    "amount": 21474,
+    "converted": 21474,
+    "basis": "retailer_current",
+    "confidence": "2026-11-04T15:58:32.102Z Native原始主購區：主商品編號DMBR24-A900KN2DX、完整NP-TMB1K5-1H、主價21474、數量1、加入購物車按鈕可用。標價格包含標準安裝；公司正貨附原廠保固證明、規格表1年原廠保固。",
+    "note": "Native查核主加車可用、公司貨一年保固；含標準安裝，不承諾24h到貨，後續約配與額外施工費依原頁。 採單品主價，不扣折價券、信用卡、P幣或登錄回饋。"
+  },
+  "image": "https://panasonic.scene7.com/is/image/Panasonic/ast-3619244?fmt=png-alpha&wid=644&hei=644",
+  "buyUrl": "https://24h.pchome.com.tw/prod/DMBR24-A900KN2DX",
+  "buyLabel": "PChome 24h（含標準安裝）",
+  "specs": [
+    "類型：6人份桌上型洗碗機；全平面觸控面板",
+    "容量：依標準餐具39件；4組獨立洗臂與24個噴射孔",
+    "清洗／乾燥：9項洗程、AI-ECONAVI；最高80°C、可獨立熱循環烘乾",
+    "淨存：nanoe X最長30天，依官方指定試驗條件，仍須定期清潔",
+    "尺寸：寬 55 x 深 34.4 x 高 59.8 cm",
+    "開門尺寸：寬 55 x 深 57.9 x 高 59.8 cm",
+    "重量：20 kg",
+    "電壓／頻率：110V／60Hz；1180W",
+    "給排水／耗材：需接進排水與接地電源；專用洗劑/軟化鹽，不能用一般洗碗精",
+    "配件：電源線1.6m、進水管1.6m、排水管1m、三通接頭及墊片/夾具；指定水龍頭另購"
+  ],
+  "description": "Panasonic台灣當代目錄明列新款NP-TMB1K5-1H，保留六人份薄型桌上配置，新增全平面觸控、小置物籃與最長30天淨存；舊NP-K1YWHR2TW同時在官方目錄，不推定停產。",
+  "pros": [
+    "34.4cm機身深度，六人份桌上配置適合不改廚櫃的家庭",
+    "110V60Hz、1180W與20kg均有台灣官方exact規格",
+    "相較舊款新增觸控與小物籃，通路提供公司貨一年保固及標準安裝"
+  ],
+  "cons": [
+    "開門深度57.9cm，仍需確認檯面承重、散熱及進排水",
+    "標準安裝不含水電改線/鑽孔/超長管及部分拆運費",
+    "上市時間只確認2026年；新款長期使用資料仍少，淨存效果有試驗條件"
+  ],
+  "bestFor": "檯面可容納55cm寬、希望六人份洗烘與較長淨存的小家庭。",
+  "recommendation": "新版桌上型補充款：先量開門深度與接水條件，再評估餐具39件的實際可用容量。",
+  "releaseDate": "2026",
+  "historicalLow": {
+    "status": "not_found",
+    "amount": null,
+    "currency": "TWD",
+    "converted": null,
+    "sourceUrl": "",
+    "sourceTitle": "",
+    "evidenceSnippet": "",
+    "sourceKind": "not_found",
+    "confidence": "not_found",
+    "checkedAt": "2026-11-04",
+    "note": "實際讀FindPrice及Feebee的同型號現時報價與短期變動；未取得同安裝/保固條件可重現的可信歷史最低點，現價21474不直接認定史低。"
+  },
+  "issueResearch": {
+    "status": "no_common_issue",
+    "checkedAt": "2026-11-04",
+    "summary": "截至查核日，查無達門檻的集中負評／災情",
+    "issues": [],
+    "checkedSources": [
+      {
+        "platform": "Mobile01",
+        "targetHost": "mobile01.com",
+        "query": "\"NP-TMB1K5-1H\" site:mobile01.com",
+        "queryUrl": "https://www.google.com/search?q=%22NP-TMB1K5-1H%22+site%3Amobile01.com"
+      },
+      {
+        "platform": "PTT",
+        "targetHost": "ptt.cc",
+        "query": "\"NP-TMB1K5-1H\" site:ptt.cc",
+        "queryUrl": "https://www.google.com/search?q=%22NP-TMB1K5-1H%22+site%3Aptt.cc"
+      }
+    ]
+  },
+  "score": 86,
+  "voltage": "110V／60Hz、1180W；台灣官方exact規格表明示，需依安裝說明接地供電。",
+  "warranty": "台灣公司貨原廠保固1年；PChome 24h（含標準安裝）原頁exact商品規格與原廠保固證明已Native核對，保存購買憑證，耗材與額外施工依原廠及安裝條款。",
+  "tags": [
+    "桌上型",
+    "6人份",
+    "110V",
+    "30天淨存",
+    "觸控面板",
+    "台灣公司貨"
+  ],
+  "installation": {
+    "status": "included_basic",
+    "note": "利用原箱附零件完成的標準安裝；不含鑽孔、挖洞、水電改線、超長管材、舊機拆機300及額外樓層搬運，空趟500–1200；偏遠地區與外島不送。出貨通常3–7工作天聯絡約定，非24h保證。"
+  }
+},
+{
+  "id": "dishwasher-panasonic-np-bxw1m6-1h",
+  "category": "dishwasher",
+  "brand": "Panasonic",
+  "model": "NP-BXW1M6-1H",
+  "name": "Panasonic NP-BXW1M6-1H 15人份全嵌式洗碗機",
+  "rank": 39,
+  "topPick": false,
+  "budget": "premium",
+  "channel": "tw",
+  "price": {
+    "currency": "TWD",
+    "amount": 44010,
+    "converted": 44010,
+    "basis": "retailer_current",
+    "confidence": "2026-11-04T15:58:32.102Z Native原始主購區：主品號15855420、完整NP-BXW1M6-1H；限時折後44010／促銷48900、滿1件享9折；數量1、庫存低於2組。截圖可見主購區直接購買與放入購物車按鈕啟用，非右側購物車結帳入口。主規格1年保固、含標準安裝，門片另購。",
+    "note": "公開單件9折已反映主價44010，庫存低於2組且主購買按鈕可用；含標準安裝、不含門板，約配依廠商。 只採已顯示於主價的單件9折；活動說明無固定截止日，依即時頁面。未扣mo卡、點數、折價券或分期回饋。"
+  },
+  "image": "https://panasonic.scene7.com/is/image/Panasonic/ast-3092347?fmt=png-alpha&wid=644&hei=644",
+  "buyUrl": "https://www.momoshop.com.tw/product/15855420",
+  "buyLabel": "momo（含標準安裝、不含門板）",
+  "specs": [
+    "類型：15人份60cm全嵌式洗碗機；門板另購",
+    "容量：上中下三層碗籃，中層三段高度可調",
+    "清洗／乾燥：12項洗程、72°C洗淨、獨立熱循環烘乾；1–24小時預約",
+    "淨存／感測：nanoe X最長30天、髒汙感測、去殘水；依官方試驗條件",
+    "尺寸：本體 寬 59.8 x 深 55 x 高 77.5–83.5 cm；含選購門板 寬 59.8 x 深 57.5 x 高 77.5–83.5 cm",
+    "重量：31 kg",
+    "電壓／頻率：110V／60Hz；1160W",
+    "安全／耗材：需接地與進排水；專用洗劑、軟化鹽及光潔劑，濾網須清潔",
+    "選購：黑色NP-FKAKGJKTW／白色NP-FKABGJBTW玻璃門板另售；此價格不含門板"
+  ],
+  "description": "Panasonic台灣當代全嵌NP-BXW1M6-1H，具15人份、三層籃架、12洗程、30天淨存與110V60Hz配置；相較既有7天淨存/9洗程NP-2KTBGR1TW為功能升級並列款，舊款仍在官方目錄。",
+  "pros": [
+    "110V60Hz台灣電力，15人份三層與可調中籃",
+    "12洗程、去殘水與獨立熱循環烘乾，長效淨存有明示條件",
+    "原廠一年保固、含標準安裝方案可購"
+  ],
+  "cons": [
+    "此44010方案不含門板，圖片黑色面板僅示意；櫃體/管線施工另估",
+    "一名M01持有者設180分鐘烘乾時整體4–5小時，需取捨時間與材質擺放",
+    "初次上市日期與同門板/安裝配置的可信歷史低點未查得"
+  ],
+  "bestFor": "正在規劃60cm櫥櫃、有較多鍋碗與110V電源的家庭。",
+  "recommendation": "新版全嵌補充款：連門片、櫃體及拆機費比較總成本，依官方安裝圖預留調整腳、排氣及開門範圍。",
+  "releaseDate": "找不到",
+  "historicalLow": {
+    "status": "not_found",
+    "amount": null,
+    "currency": "TWD",
+    "converted": null,
+    "sourceUrl": "",
+    "sourceTitle": "",
+    "evidenceSnippet": "",
+    "sourceKind": "not_found",
+    "confidence": "not_found",
+    "checkedAt": "2026-11-04",
+    "note": "已讀FindPrice與Feebee的當期價/近期降幅並區分含門板、含安裝與分期。未核得同配置可信歷史最低日期；44010現價不可直接當史低。"
+  },
+  "issueResearch": {
+    "status": "no_common_issue",
+    "checkedAt": "2026-11-04",
+    "summary": "截至查核日，查無達門檻的集中負評／災情",
+    "issues": [],
+    "checkedSources": [
+      {
+        "platform": "Mobile01",
+        "targetHost": "mobile01.com",
+        "query": "site:mobile01.com (\"NP-BXW1M6-1H\" OR \"NP-BXW1M6\") (問題 OR 故障 OR 心得)",
+        "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com+%28%22NP-BXW1M6-1H%22+OR+%22NP-BXW1M6%22%29+%28%E5%95%8F%E9%A1%8C+OR+%E6%95%85%E9%9A%9C+OR+%E5%BF%83%E5%BE%97%29"
+      },
+      {
+        "platform": "PTT",
+        "targetHost": "ptt.cc",
+        "query": "site:ptt.cc (\"NP-BXW1M6-1H\" OR \"NP-BXW1M6\") (問題 OR 故障 OR 心得)",
+        "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc+%28%22NP-BXW1M6-1H%22+OR+%22NP-BXW1M6%22%29+%28%E5%95%8F%E9%A1%8C+OR+%E6%95%85%E9%9A%9C+OR+%E5%BF%83%E5%BE%97%29"
+      }
+    ]
+  },
+  "score": 87,
+  "voltage": "110V／60Hz、1160W；台灣官方exact規格表明示，需依安裝說明接地供電。",
+  "warranty": "台灣公司貨原廠保固1年；momo（含標準安裝、不含門板）原頁exact商品規格與原廠保固證明已Native核對，保存購買憑證，耗材與額外施工依原廠及安裝條款。",
+  "tags": [
+    "全嵌式",
+    "15人份",
+    "110V",
+    "三層",
+    "獨立熱循環烘乾",
+    "台灣公司貨"
+  ],
+  "installation": {
+    "status": "included_basic",
+    "note": "含標準安裝、不含門片需另購；舊機拆機+300，勘場空趟500；廠商宅配，訂單確認後約定送貨。"
+  }
 }
 ]);
 })();

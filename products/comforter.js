@@ -1201,6 +1201,68 @@
     product.buyLabel = "OwlTing Market 奧丁丁市集（來源待確認）";
   }
 
+
+  // 2026-11-04 HOLA exact-SKU official-shop price updates.
+  {
+    const product = products.find(({ id }) => id === "comforter-hola-wool-016788505");
+    Object.assign(product.price, {
+      "amount": 2232,
+      "converted": 2232,
+      "confidence": "2026-11-04 Chrome人工核對HOLA台灣官方同SKU、選定尺寸主價與啟用購買按鈕。",
+      "note": "官方公開全館限時9折已反映主價；不扣新會員200券、信用卡、點數或其他結帳優惠。單品價格，並非組合或其他尺寸起價。 長210×寬180cm；2.45kg；填充1400g"
+    });
+    product.buyUrl = "https://www.hola.com.tw/p/016788505";
+    product.buyLabel = "HOLA 台灣官方商城";
+  }
+
+  {
+    const product = products.find(({ id }) => id === "comforter-hola-wool-016788504");
+    Object.assign(product.price, {
+      "amount": 1962,
+      "converted": 1962,
+      "confidence": "2026-11-04 Chrome人工核對HOLA台灣官方同SKU、選定尺寸主價與啟用購買按鈕。",
+      "note": "官方公開全館限時9折已反映主價；不扣新會員200券、信用卡、點數或其他結帳優惠。單品價格，並非組合或其他尺寸起價。 長210×寬150cm；2.0kg；填充1100g"
+    });
+    product.buyUrl = "https://www.hola.com.tw/p/016788504";
+    product.buyLabel = "HOLA 台灣官方商城";
+  }
+
+  {
+    const product = products.find(({ id }) => id === "comforter-hola-down-014301109");
+    Object.assign(product.price, {
+      "amount": 3312,
+      "converted": 3312,
+      "confidence": "2026-11-04 Chrome人工核對HOLA台灣官方同SKU、選定尺寸主價與啟用購買按鈕。",
+      "note": "官方公開全館限時9折已反映主價；不扣新會員200券、信用卡、點數或其他結帳優惠。單品價格，並非組合或其他尺寸起價。 長210×寬150cm；1.35kg；填充300g"
+    });
+    product.buyUrl = "https://www.hola.com.tw/p/014301109";
+    product.buyLabel = "HOLA 台灣官方商城";
+  }
+
+  {
+    const product = products.find(({ id }) => id === "comforter-hola-down-014381508");
+    Object.assign(product.price, {
+      "amount": 9882,
+      "converted": 9882,
+      "confidence": "2026-11-04 Chrome人工核對HOLA台灣官方同SKU、選定尺寸主價與啟用購買按鈕。",
+      "note": "官方公開全館限時9折已反映主價；不扣新會員200券、信用卡、點數或其他結帳優惠。單品價格，並非組合或其他尺寸起價。 長240×寬210cm；2.98kg；填充原頁寫1200kg疑似單位誤植，不採此填充數"
+    });
+    product.buyUrl = "https://www.hola.com.tw/p/014381508";
+    product.buyLabel = "HOLA 台灣官方商城";
+  }
+
+  {
+    const product = products.find(({ id }) => id === "comforter-hola-real-014408625");
+    Object.assign(product.price, {
+      "amount": 1332,
+      "converted": 1332,
+      "confidence": "2026-11-04 Chrome人工核對HOLA台灣官方同SKU、選定尺寸主價與啟用購買按鈕。",
+      "note": "官方公開全館限時9折已反映主價；不扣新會員200券、信用卡、點數或其他結帳優惠。單品價格，並非組合或其他尺寸起價。原頁標出清，但當前可購；不作停產判定。 長213×寬183cm；2.36kg；填充1350g"
+    });
+    product.buyUrl = "https://www.hola.com.tw/p/014408625";
+    product.buyLabel = "HOLA 台灣官方商城";
+  }
+
   dashboard.registerProducts("comforter", [
     ...products,
     {

@@ -11194,6 +11194,42 @@
       "weightConfidence": "high",
       "weightIsOfficialSource": false,
       "weightCheckedAt": "2026-11-04"
+    },
+    {
+      "id": "dishwasher-panasonic-np-tmb1k5-1h",
+      "dimension": "尺寸：寬 55 x 深 34.4 x 高 59.8 cm",
+      "sourceUrl": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-tmb1k5-1h.specs.html",
+      "sourceTitle": "Panasonic 台灣 NP-TMB1K5-1H 全規格表",
+      "evidenceSnippet": "官方全規格NP-TMB1K5-1H：商品尺寸(寬x深x高)550×344×598mm，開門時550×579×598mm；淨重20kg。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-11-04",
+      "checkedAtIso": "2026-11-04T16:09:22.390213Z",
+      "weight": "重量：20 kg",
+      "weightSourceUrl": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-tmb1k5-1h.specs.html",
+      "weightSourceTitle": "Panasonic 台灣 NP-TMB1K5-1H 全規格表",
+      "weightEvidenceSnippet": "同完整型號規格表明示淨重20 kg，非包裝/毛重。",
+      "weightConfidence": "high",
+      "weightIsOfficialSource": true,
+      "weightCheckedAt": "2026-11-04"
+    },
+    {
+      "id": "dishwasher-panasonic-np-bxw1m6-1h",
+      "dimension": "尺寸：本體 寬 59.8 x 深 55 x 高 77.5–83.5 cm；含選購門板 寬 59.8 x 深 57.5 x 高 77.5–83.5 cm",
+      "sourceUrl": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-bxw1m6-1h.specs.html",
+      "sourceTitle": "Panasonic 台灣 NP-BXW1M6-1H 全規格表",
+      "evidenceSnippet": "官方全規格NP-BXW1M6-1H：W598×D550×H775–835mm含調整腳；加選購Panasonic面板W598×D575×H775–835mm；淨重31kg。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-11-04",
+      "checkedAtIso": "2026-11-04T16:09:22.390213Z",
+      "weight": "重量：31 kg",
+      "weightSourceUrl": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-bxw1m6-1h.specs.html",
+      "weightSourceTitle": "Panasonic 台灣 NP-BXW1M6-1H 全規格表",
+      "weightEvidenceSnippet": "同完整型號規格表明示淨重31 kg，非包裝/毛重。",
+      "weightConfidence": "high",
+      "weightIsOfficialSource": true,
+      "weightCheckedAt": "2026-11-04"
     }
   ]
 }

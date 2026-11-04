@@ -658,5 +658,18 @@
     product.buyLabel = "HOLA 官方（補貨中，查看供貨）";
   }
 
+  // 2026-11-04 MZ600 official-shop price update.
+  {
+    const product = products.find(({ id }) => id === "pillow-3m-mz600");
+    Object.assign(product.price, {
+      "amount": 3290,
+      "converted": 3290,
+      "confidence": "2026-11-04 Chrome人工核對3M台灣官方同SKU主價與啟用購買按鈕。",
+      "note": "只採主購區公開價，不採推薦卡或schema；不扣新會員、信用卡、點數、AFTEE新戶、租賃月付或未反映於主價的結帳優惠。 Native官方原頁MZ600側仰舒眠型，枕心64×38×7.5–11.5cm、墊片65×39×2cm，內附防蟎枕套；公開主價NT$3290；數量、加入購物車及立即結帳可用。"
+    });
+    product.buyUrl = "https://shop.3m.com.tw/SalePage/Index/6213493";
+    product.buyLabel = "3M 台灣官方商城";
+  }
+
   dashboard.registerProducts("pillow", products);
 })();

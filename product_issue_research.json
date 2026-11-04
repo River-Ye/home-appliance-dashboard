@@ -1,9 +1,9 @@
 {
   "summary": {
     "checkedAt": "2026-11-04T00:00:00+08:00",
-    "total": 1256,
+    "total": 1258,
     "commonIssueProducts": 55,
-    "noCommonIssueProducts": 1201,
+    "noCommonIssueProducts": 1203,
     "pendingManualReview": 0,
     "commonIssues": 56,
     "searchUnavailable": 614,
@@ -42,7 +42,7 @@
       "2026-11-04下午只對新增HALO-NEO-1M人工覆核PTT、Mobile01、Dcard及Reddit完整型號查詢；四站均無exact原頁候選，未成立集中問題。既有1234款逐型問題決策、證據及日期原樣保留。",
       "2026-11-04晚間僅對新增U3226Q、DDL902-MFVP-11HWS、CGR-E-ODYSSEY150完成逐型跨站人工覆核；Dell四個Reddit原頁逐一處置，另外兩款完整型號與系列別名查詢未見可確認原頁候選。既有1235款與392筆逐人回報保留原日期，不宣稱全站同日重新閱讀原始評價。"
     ],
-    "researchedThisRun": 25
+    "researchedThisRun": 27
   },
   "results": [
     {
@@ -228261,6 +228261,529 @@
       ],
       "evidence": [],
       "rejectedCandidates": [],
+      "reports": []
+    },
+    {
+      "id": "dishwasher-panasonic-np-tmb1k5-1h",
+      "category": "dishwasher",
+      "brand": "Panasonic",
+      "model": "NP-TMB1K5-1H",
+      "name": "Panasonic NP-TMB1K5-1H 6人份觸控桌上型洗碗機",
+      "identity": {
+        "canonicalModel": "NP-TMB1K5-1H",
+        "lookupLabel": "Panasonic NP-TMB1K5-1H",
+        "aliases": [
+          "NP-TMB1K5-1H"
+        ],
+        "evidenceUrl": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-tmb1k5-1h.html"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "id": "dishwasher-panasonic-np-tmb1k5-1h",
+        "category": "dishwasher",
+        "brand": "Panasonic",
+        "model": "NP-TMB1K5-1H",
+        "name": "Panasonic NP-TMB1K5-1H 6人份觸控桌上型洗碗機",
+        "status": "completed",
+        "reviewedAt": "2026-11-04",
+        "reviewedAtIso": "2026-11-04T16:09:22.390213Z",
+        "dateBasis": "UTC calendar date, exact timestamp retained; Taiwan local date is 2026-11-05",
+        "reviewBatch": "dishwasher",
+        "decision": "no_common_issue",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "\"NP-TMB1K5-1H\" site:mobile01.com",
+            "queryUrl": "https://www.google.com/search?q=%22NP-TMB1K5-1H%22+site%3Amobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "\"NP-TMB1K5-1H\" site:ptt.cc",
+            "queryUrl": "https://www.google.com/search?q=%22NP-TMB1K5-1H%22+site%3Aptt.cc"
+          }
+        ],
+        "candidateDisposition": "NP-TMB1K5-1H：人工讀Mobile01主評測與首/末頁活動留言，篩除新品期待與媒體合作文字；PTT完整型號查詢未得同款候選。沒有六位同問題exact使用者跨兩站。",
+        "representativeSources": [
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7312835",
+            "title": "Panasonic NP-TMB1K5-1H外觀與功能升級開箱",
+            "platform": "Mobile01"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&p=12&t=7312835",
+            "title": "NP-TMB1K5-1H開箱留言第12頁",
+            "platform": "Mobile01"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7302023",
+            "title": "Panasonic秋季新品展出",
+            "platform": "Mobile01"
+          }
+        ],
+        "reviewerNote": "NP-TMB1K5-1H：人工讀Mobile01主評測與首/末頁活動留言，篩除新品期待與媒體合作文字；PTT完整型號查詢未得同款候選。沒有六位同問題exact使用者跨兩站。 此結論只表示未達六位獨立使用者跨兩原始網站的集中問題門檻，並非完全沒有負評。",
+        "attestation": "manual_original_pages_reviewed",
+        "candidateReviews": [
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7312835",
+            "title": "Panasonic NP-TMB1K5-1H外觀與功能升級開箱",
+            "platform": "Mobile01",
+            "exactModel": true,
+            "sourceExcerpt": "Deelin首篇測試清洗與AI流程，並刊登Panasonic合作抽獎；首頁cmy0411albert、xxgoxxgo等留言是功能期待，沒有本人機器故障。",
+            "specificReason": "已人工讀主文與第1頁；媒體合作評測及有獎期待留言，不計作獨立使用者負面故障。本文有12頁，本次另讀末頁而未聲稱逐讀所有116樓。",
+            "outcome": "excluded",
+            "independentAuthors": 0,
+            "reviewedAt": "2026-11-04",
+            "reviewedAtIso": "2026-11-04T16:09:22.390213Z"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&p=12&t=7312835",
+            "title": "NP-TMB1K5-1H開箱留言第12頁",
+            "platform": "Mobile01",
+            "exactModel": true,
+            "sourceExcerpt": "第111–116樓creayuk、何岳峰08、benwen、嘉豪是、derliang、吳嘉7各選喜歡的功能；均為活動格式的正面期待。",
+            "specificReason": "已回原頁末頁逐則判讀；這六則沒有本人故障回報，亦不能因有六個不同帳號就算六位集中負評使用者。",
+            "outcome": "excluded",
+            "independentAuthors": 0,
+            "reviewedAt": "2026-11-04",
+            "reviewedAtIso": "2026-11-04T16:09:22.390213Z"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7302023",
+            "title": "Panasonic秋季新品展出",
+            "platform": "Mobile01",
+            "exactModel": true,
+            "sourceExcerpt": "新聞同列TMB、K1與BXW等；桌上型容量段落把兩款誤寫15人份，與官方TMB六人份不符。",
+            "specificReason": "展會新聞非使用者故障，不拿錯誤容量或品牌其他家電問題套此款；產品容量以官方exact規格為準。",
+            "outcome": "excluded",
+            "independentAuthors": 0,
+            "reviewedAt": "2026-11-04",
+            "reviewedAtIso": "2026-11-04T16:09:22.390213Z"
+          }
+        ]
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-11-04",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "\"NP-TMB1K5-1H\" site:mobile01.com",
+            "queryUrl": "https://www.google.com/search?q=%22NP-TMB1K5-1H%22+site%3Amobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "\"NP-TMB1K5-1H\" site:ptt.cc",
+            "queryUrl": "https://www.google.com/search?q=%22NP-TMB1K5-1H%22+site%3Aptt.cc"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"NP-TMB1K5-1H\" site:mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=%22NP-TMB1K5-1H%22+site%3Amobile01.com",
+          "searchUrl": "https://www.google.com/search?q=%22NP-TMB1K5-1H%22+site%3Amobile01.com",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 3,
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=729&t=7312835",
+            "https://www.mobile01.com/topicdetail.php?f=729&p=12&t=7312835",
+            "https://www.mobile01.com/topicdetail.php?f=168&t=7302023"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7312835",
+              "title": "Panasonic NP-TMB1K5-1H外觀與功能升級開箱",
+              "platform": "Mobile01",
+              "exactModel": true,
+              "sourceExcerpt": "Deelin首篇測試清洗與AI流程，並刊登Panasonic合作抽獎；首頁cmy0411albert、xxgoxxgo等留言是功能期待，沒有本人機器故障。",
+              "specificReason": "已人工讀主文與第1頁；媒體合作評測及有獎期待留言，不計作獨立使用者負面故障。本文有12頁，本次另讀末頁而未聲稱逐讀所有116樓。",
+              "outcome": "excluded",
+              "independentAuthors": 0,
+              "reviewedAt": "2026-11-04",
+              "reviewedAtIso": "2026-11-04T16:09:22.390213Z"
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=729&p=12&t=7312835",
+              "title": "NP-TMB1K5-1H開箱留言第12頁",
+              "platform": "Mobile01",
+              "exactModel": true,
+              "sourceExcerpt": "第111–116樓creayuk、何岳峰08、benwen、嘉豪是、derliang、吳嘉7各選喜歡的功能；均為活動格式的正面期待。",
+              "specificReason": "已回原頁末頁逐則判讀；這六則沒有本人故障回報，亦不能因有六個不同帳號就算六位集中負評使用者。",
+              "outcome": "excluded",
+              "independentAuthors": 0,
+              "reviewedAt": "2026-11-04",
+              "reviewedAtIso": "2026-11-04T16:09:22.390213Z"
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7302023",
+              "title": "Panasonic秋季新品展出",
+              "platform": "Mobile01",
+              "exactModel": true,
+              "sourceExcerpt": "新聞同列TMB、K1與BXW等；桌上型容量段落把兩款誤寫15人份，與官方TMB六人份不符。",
+              "specificReason": "展會新聞非使用者故障，不拿錯誤容量或品牌其他家電問題套此款；產品容量以官方exact規格為準。",
+              "outcome": "excluded",
+              "independentAuthors": 0,
+              "reviewedAt": "2026-11-04",
+              "reviewedAtIso": "2026-11-04T16:09:22.390213Z"
+            }
+          ],
+          "inspectedAt": "2026-11-04",
+          "inspectedAtIso": "2026-11-04T16:09:22.390213Z",
+          "note": "NP-TMB1K5-1H：人工讀Mobile01主評測與首/末頁活動留言，篩除新品期待與媒體合作文字；PTT完整型號查詢未得同款候選。沒有六位同問題exact使用者跨兩站。"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "\"NP-TMB1K5-1H\" site:ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=%22NP-TMB1K5-1H%22+site%3Aptt.cc",
+          "searchUrl": "https://www.google.com/search?q=%22NP-TMB1K5-1H%22+site%3Aptt.cc",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-04",
+          "inspectedAtIso": "2026-11-04T16:09:22.390213Z",
+          "note": "NP-TMB1K5-1H查詢返回其他Panasonic/象印NP款，型號邊界過濾後沒有同完整型號候選；不把搜尋摘要當成集中問題證據。"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7312835",
+          "title": "Panasonic NP-TMB1K5-1H外觀與功能升級開箱",
+          "platform": "Mobile01",
+          "exactModel": true,
+          "sourceExcerpt": "Deelin首篇測試清洗與AI流程，並刊登Panasonic合作抽獎；首頁cmy0411albert、xxgoxxgo等留言是功能期待，沒有本人機器故障。",
+          "specificReason": "已人工讀主文與第1頁；媒體合作評測及有獎期待留言，不計作獨立使用者負面故障。本文有12頁，本次另讀末頁而未聲稱逐讀所有116樓。",
+          "outcome": "excluded",
+          "independentAuthors": 0,
+          "reviewedAt": "2026-11-04",
+          "reviewedAtIso": "2026-11-04T16:09:22.390213Z",
+          "reason": "已人工讀主文與第1頁；媒體合作評測及有獎期待留言，不計作獨立使用者負面故障。本文有12頁，本次另讀末頁而未聲稱逐讀所有116樓。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=729&p=12&t=7312835",
+          "title": "NP-TMB1K5-1H開箱留言第12頁",
+          "platform": "Mobile01",
+          "exactModel": true,
+          "sourceExcerpt": "第111–116樓creayuk、何岳峰08、benwen、嘉豪是、derliang、吳嘉7各選喜歡的功能；均為活動格式的正面期待。",
+          "specificReason": "已回原頁末頁逐則判讀；這六則沒有本人故障回報，亦不能因有六個不同帳號就算六位集中負評使用者。",
+          "outcome": "excluded",
+          "independentAuthors": 0,
+          "reviewedAt": "2026-11-04",
+          "reviewedAtIso": "2026-11-04T16:09:22.390213Z",
+          "reason": "已回原頁末頁逐則判讀；這六則沒有本人故障回報，亦不能因有六個不同帳號就算六位集中負評使用者。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7302023",
+          "title": "Panasonic秋季新品展出",
+          "platform": "Mobile01",
+          "exactModel": true,
+          "sourceExcerpt": "新聞同列TMB、K1與BXW等；桌上型容量段落把兩款誤寫15人份，與官方TMB六人份不符。",
+          "specificReason": "展會新聞非使用者故障，不拿錯誤容量或品牌其他家電問題套此款；產品容量以官方exact規格為準。",
+          "outcome": "excluded",
+          "independentAuthors": 0,
+          "reviewedAt": "2026-11-04",
+          "reviewedAtIso": "2026-11-04T16:09:22.390213Z",
+          "reason": "展會新聞非使用者故障，不拿錯誤容量或品牌其他家電問題套此款；產品容量以官方exact規格為準。"
+        }
+      ],
+      "reports": []
+    },
+    {
+      "id": "dishwasher-panasonic-np-bxw1m6-1h",
+      "category": "dishwasher",
+      "brand": "Panasonic",
+      "model": "NP-BXW1M6-1H",
+      "name": "Panasonic NP-BXW1M6-1H 15人份全嵌式洗碗機",
+      "identity": {
+        "canonicalModel": "NP-BXW1M6-1H",
+        "lookupLabel": "Panasonic NP-BXW1M6-1H",
+        "aliases": [
+          "NP-BXW1M6-1H"
+        ],
+        "evidenceUrl": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-bxw1m6-1h.html"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "id": "dishwasher-panasonic-np-bxw1m6-1h",
+        "category": "dishwasher",
+        "brand": "Panasonic",
+        "model": "NP-BXW1M6-1H",
+        "name": "Panasonic NP-BXW1M6-1H 15人份全嵌式洗碗機",
+        "status": "completed",
+        "reviewedAt": "2026-11-04",
+        "reviewedAtIso": "2026-11-04T16:09:22.390213Z",
+        "dateBasis": "UTC calendar date, exact timestamp retained; Taiwan local date is 2026-11-05",
+        "reviewBatch": "dishwasher",
+        "decision": "no_common_issue",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com (\"NP-BXW1M6-1H\" OR \"NP-BXW1M6\") (問題 OR 故障 OR 心得)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com+%28%22NP-BXW1M6-1H%22+OR+%22NP-BXW1M6%22%29+%28%E5%95%8F%E9%A1%8C+OR+%E6%95%85%E9%9A%9C+OR+%E5%BF%83%E5%BE%97%29"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc (\"NP-BXW1M6-1H\" OR \"NP-BXW1M6\") (問題 OR 故障 OR 心得)",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc+%28%22NP-BXW1M6-1H%22+OR+%22NP-BXW1M6%22%29+%28%E5%95%8F%E9%A1%8C+OR+%E6%95%85%E9%9A%9C+OR+%E5%BF%83%E5%BE%97%29"
+          }
+        ],
+        "candidateDisposition": "NP-BXW1M6-1H：原頁保留gfh62001一人對180分鐘烘乾耗時的缺點，其餘M01預購擔心/新聞與PTT舊NP-2KTBGR1TW故障均具體排除；沒有六名同款同問題跨兩原站。",
+        "representativeSources": [
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&p=2&t=7229060",
+            "title": "求使用經驗：烘得乾的洗碗機 第2頁",
+            "platform": "Mobile01"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&p=7&t=7215854",
+            "title": "Panasonic真實口碑募集 第7頁",
+            "platform": "Mobile01"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7302023",
+            "title": "Panasonic秋季家電展出",
+            "platform": "Mobile01"
+          },
+          {
+            "url": "https://www.ptt.cc/bbs/E-appliance/M.1771812415.A.957.html",
+            "title": "PTT [抱怨] Panasonic原廠維修",
+            "platform": "PTT"
+          }
+        ],
+        "reviewerNote": "NP-BXW1M6-1H：原頁保留gfh62001一人對180分鐘烘乾耗時的缺點，其餘M01預購擔心/新聞與PTT舊NP-2KTBGR1TW故障均具體排除；沒有六名同款同問題跨兩原站。 此結論只表示未達六位獨立使用者跨兩原始網站的集中問題門檻，並非完全沒有負評。",
+        "attestation": "manual_original_pages_reviewed",
+        "candidateReviews": [
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&p=2&t=7229060",
+            "title": "求使用經驗：烘得乾的洗碗機 第2頁",
+            "platform": "Mobile01",
+            "exactModel": true,
+            "sourceExcerpt": "gfh62001（#12，文章93506112，2026-08-29）明示買NP-BXW1M6-1H且使用約一月；180分鐘烘乾連洗程約4–5小時，覺得耗時，但清洗及乾燥大致滿意。",
+            "specificReason": "保留1名exact持有者的耗時缺點；未達六名跨兩原站。andypb為未明型號的一般通風猜測，奶茶喵喵120分鐘全乾為不同體驗，不計同問題作者。",
+            "outcome": "excluded",
+            "independentAuthors": 1,
+            "reviewedAt": "2026-11-04",
+            "reviewedAtIso": "2026-11-04T16:09:22.390213Z"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&p=7&t=7215854",
+            "title": "Panasonic真實口碑募集 第7頁",
+            "platform": "Mobile01",
+            "exactModel": false,
+            "sourceExcerpt": "臭琳呆#69（文章92712744）購前比較SVAGO7190與縮寫bxw1th，尚未持有，擔心產地；brabus1518舊機故障後買NP-TH4，非此款。",
+            "specificReason": "縮寫未綁完整NP-BXW1M6-1H，且只是未購者擔心；舊十年機與NP-TH4不能套用，無可計本款第一人稱故障。",
+            "outcome": "excluded",
+            "independentAuthors": 0,
+            "reviewedAt": "2026-11-04",
+            "reviewedAtIso": "2026-11-04T16:09:22.390213Z"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7302023",
+            "title": "Panasonic秋季家電展出",
+            "platform": "Mobile01",
+            "exactModel": true,
+            "sourceExcerpt": "媒體展會段落同列NP-DXK1E6-2H與NP-BXW1M6-1H，介紹15人份、三層與nanoe X等功能。",
+            "specificReason": "產品新聞不是使用者災情；品牌其他家電留言不算本款，2026重複展示也不足作最初上市日。",
+            "outcome": "excluded",
+            "independentAuthors": 0,
+            "reviewedAt": "2026-11-04",
+            "reviewedAtIso": "2026-11-04T16:09:22.390213Z"
+          },
+          {
+            "url": "https://www.ptt.cc/bbs/E-appliance/M.1771812415.A.957.html",
+            "title": "PTT [抱怨] Panasonic原廠維修",
+            "platform": "PTT",
+            "exactModel": false,
+            "sourceExcerpt": "crazydrummer原文完整型號是NP-2KTBGR1TW，使用九個月後乾燥/維修與漏水抱怨；本文不是NP-BXW1M6-1H。",
+            "specificReason": "已讀原始HTTP本文與推文（本地364.txt），真實負評屬舊NP-2KTBGR1TW。不得因同Panasonic或同嵌入外型跨款繼承；其他品牌家電評論亦排除。",
+            "outcome": "excluded",
+            "independentAuthors": 0,
+            "reviewedAt": "2026-11-04",
+            "reviewedAtIso": "2026-11-04T16:09:22.390213Z"
+          }
+        ]
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-11-04",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com (\"NP-BXW1M6-1H\" OR \"NP-BXW1M6\") (問題 OR 故障 OR 心得)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com+%28%22NP-BXW1M6-1H%22+OR+%22NP-BXW1M6%22%29+%28%E5%95%8F%E9%A1%8C+OR+%E6%95%85%E9%9A%9C+OR+%E5%BF%83%E5%BE%97%29"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc (\"NP-BXW1M6-1H\" OR \"NP-BXW1M6\") (問題 OR 故障 OR 心得)",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc+%28%22NP-BXW1M6-1H%22+OR+%22NP-BXW1M6%22%29+%28%E5%95%8F%E9%A1%8C+OR+%E6%95%85%E9%9A%9C+OR+%E5%BF%83%E5%BE%97%29"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com (\"NP-BXW1M6-1H\" OR \"NP-BXW1M6\") (問題 OR 故障 OR 心得)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com+%28%22NP-BXW1M6-1H%22+OR+%22NP-BXW1M6%22%29+%28%E5%95%8F%E9%A1%8C+OR+%E6%95%85%E9%9A%9C+OR+%E5%BF%83%E5%BE%97%29",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com+%28%22NP-BXW1M6-1H%22+OR+%22NP-BXW1M6%22%29+%28%E5%95%8F%E9%A1%8C+OR+%E6%95%85%E9%9A%9C+OR+%E5%BF%83%E5%BE%97%29",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 3,
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=729&p=2&t=7229060",
+            "https://www.mobile01.com/topicdetail.php?f=729&p=7&t=7215854",
+            "https://www.mobile01.com/topicdetail.php?f=168&t=7302023"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=729&p=2&t=7229060",
+              "title": "求使用經驗：烘得乾的洗碗機 第2頁",
+              "platform": "Mobile01",
+              "exactModel": true,
+              "sourceExcerpt": "gfh62001（#12，文章93506112，2026-08-29）明示買NP-BXW1M6-1H且使用約一月；180分鐘烘乾連洗程約4–5小時，覺得耗時，但清洗及乾燥大致滿意。",
+              "specificReason": "保留1名exact持有者的耗時缺點；未達六名跨兩原站。andypb為未明型號的一般通風猜測，奶茶喵喵120分鐘全乾為不同體驗，不計同問題作者。",
+              "outcome": "excluded",
+              "independentAuthors": 1,
+              "reviewedAt": "2026-11-04",
+              "reviewedAtIso": "2026-11-04T16:09:22.390213Z"
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=729&p=7&t=7215854",
+              "title": "Panasonic真實口碑募集 第7頁",
+              "platform": "Mobile01",
+              "exactModel": false,
+              "sourceExcerpt": "臭琳呆#69（文章92712744）購前比較SVAGO7190與縮寫bxw1th，尚未持有，擔心產地；brabus1518舊機故障後買NP-TH4，非此款。",
+              "specificReason": "縮寫未綁完整NP-BXW1M6-1H，且只是未購者擔心；舊十年機與NP-TH4不能套用，無可計本款第一人稱故障。",
+              "outcome": "excluded",
+              "independentAuthors": 0,
+              "reviewedAt": "2026-11-04",
+              "reviewedAtIso": "2026-11-04T16:09:22.390213Z"
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7302023",
+              "title": "Panasonic秋季家電展出",
+              "platform": "Mobile01",
+              "exactModel": true,
+              "sourceExcerpt": "媒體展會段落同列NP-DXK1E6-2H與NP-BXW1M6-1H，介紹15人份、三層與nanoe X等功能。",
+              "specificReason": "產品新聞不是使用者災情；品牌其他家電留言不算本款，2026重複展示也不足作最初上市日。",
+              "outcome": "excluded",
+              "independentAuthors": 0,
+              "reviewedAt": "2026-11-04",
+              "reviewedAtIso": "2026-11-04T16:09:22.390213Z"
+            }
+          ],
+          "inspectedAt": "2026-11-04",
+          "inspectedAtIso": "2026-11-04T16:09:22.390213Z",
+          "note": "NP-BXW1M6-1H：原頁保留gfh62001一人對180分鐘烘乾耗時的缺點，其餘M01預購擔心/新聞與PTT舊NP-2KTBGR1TW故障均具體排除；沒有六名同款同問題跨兩原站。"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc (\"NP-BXW1M6-1H\" OR \"NP-BXW1M6\") (問題 OR 故障 OR 心得)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc+%28%22NP-BXW1M6-1H%22+OR+%22NP-BXW1M6%22%29+%28%E5%95%8F%E9%A1%8C+OR+%E6%95%85%E9%9A%9C+OR+%E5%BF%83%E5%BE%97%29",
+          "searchUrl": "https://www.google.com/search?q=site%3Aptt.cc+%28%22NP-BXW1M6-1H%22+OR+%22NP-BXW1M6%22%29+%28%E5%95%8F%E9%A1%8C+OR+%E6%95%85%E9%9A%9C+OR+%E5%BF%83%E5%BE%97%29",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.ptt.cc/bbs/E-appliance/M.1771812415.A.957.html"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.ptt.cc/bbs/E-appliance/M.1771812415.A.957.html",
+              "title": "PTT [抱怨] Panasonic原廠維修",
+              "platform": "PTT",
+              "exactModel": false,
+              "sourceExcerpt": "crazydrummer原文完整型號是NP-2KTBGR1TW，使用九個月後乾燥/維修與漏水抱怨；本文不是NP-BXW1M6-1H。",
+              "specificReason": "已讀原始HTTP本文與推文（本地364.txt），真實負評屬舊NP-2KTBGR1TW。不得因同Panasonic或同嵌入外型跨款繼承；其他品牌家電評論亦排除。",
+              "outcome": "excluded",
+              "independentAuthors": 0,
+              "reviewedAt": "2026-11-04",
+              "reviewedAtIso": "2026-11-04T16:09:22.390213Z"
+            }
+          ],
+          "inspectedAt": "2026-11-04",
+          "inspectedAtIso": "2026-11-04T16:09:22.390213Z",
+          "note": "NP-BXW1M6-1H：原頁保留gfh62001一人對180分鐘烘乾耗時的缺點，其餘M01預購擔心/新聞與PTT舊NP-2KTBGR1TW故障均具體排除；沒有六名同款同問題跨兩原站。"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=729&p=2&t=7229060",
+          "title": "求使用經驗：烘得乾的洗碗機 第2頁",
+          "platform": "Mobile01",
+          "exactModel": true,
+          "sourceExcerpt": "gfh62001（#12，文章93506112，2026-08-29）明示買NP-BXW1M6-1H且使用約一月；180分鐘烘乾連洗程約4–5小時，覺得耗時，但清洗及乾燥大致滿意。",
+          "specificReason": "保留1名exact持有者的耗時缺點；未達六名跨兩原站。andypb為未明型號的一般通風猜測，奶茶喵喵120分鐘全乾為不同體驗，不計同問題作者。",
+          "outcome": "excluded",
+          "independentAuthors": 1,
+          "reviewedAt": "2026-11-04",
+          "reviewedAtIso": "2026-11-04T16:09:22.390213Z",
+          "reason": "保留1名exact持有者的耗時缺點；未達六名跨兩原站。andypb為未明型號的一般通風猜測，奶茶喵喵120分鐘全乾為不同體驗，不計同問題作者。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=729&p=7&t=7215854",
+          "title": "Panasonic真實口碑募集 第7頁",
+          "platform": "Mobile01",
+          "exactModel": false,
+          "sourceExcerpt": "臭琳呆#69（文章92712744）購前比較SVAGO7190與縮寫bxw1th，尚未持有，擔心產地；brabus1518舊機故障後買NP-TH4，非此款。",
+          "specificReason": "縮寫未綁完整NP-BXW1M6-1H，且只是未購者擔心；舊十年機與NP-TH4不能套用，無可計本款第一人稱故障。",
+          "outcome": "excluded",
+          "independentAuthors": 0,
+          "reviewedAt": "2026-11-04",
+          "reviewedAtIso": "2026-11-04T16:09:22.390213Z",
+          "reason": "縮寫未綁完整NP-BXW1M6-1H，且只是未購者擔心；舊十年機與NP-TH4不能套用，無可計本款第一人稱故障。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7302023",
+          "title": "Panasonic秋季家電展出",
+          "platform": "Mobile01",
+          "exactModel": true,
+          "sourceExcerpt": "媒體展會段落同列NP-DXK1E6-2H與NP-BXW1M6-1H，介紹15人份、三層與nanoe X等功能。",
+          "specificReason": "產品新聞不是使用者災情；品牌其他家電留言不算本款，2026重複展示也不足作最初上市日。",
+          "outcome": "excluded",
+          "independentAuthors": 0,
+          "reviewedAt": "2026-11-04",
+          "reviewedAtIso": "2026-11-04T16:09:22.390213Z",
+          "reason": "產品新聞不是使用者災情；品牌其他家電留言不算本款，2026重複展示也不足作最初上市日。"
+        },
+        {
+          "url": "https://www.ptt.cc/bbs/E-appliance/M.1771812415.A.957.html",
+          "title": "PTT [抱怨] Panasonic原廠維修",
+          "platform": "PTT",
+          "exactModel": false,
+          "sourceExcerpt": "crazydrummer原文完整型號是NP-2KTBGR1TW，使用九個月後乾燥/維修與漏水抱怨；本文不是NP-BXW1M6-1H。",
+          "specificReason": "已讀原始HTTP本文與推文（本地364.txt），真實負評屬舊NP-2KTBGR1TW。不得因同Panasonic或同嵌入外型跨款繼承；其他品牌家電評論亦排除。",
+          "outcome": "excluded",
+          "independentAuthors": 0,
+          "reviewedAt": "2026-11-04",
+          "reviewedAtIso": "2026-11-04T16:09:22.390213Z",
+          "reason": "已讀原始HTTP本文與推文（本地364.txt），真實負評屬舊NP-2KTBGR1TW。不得因同Panasonic或同嵌入外型跨款繼承；其他品牌家電評論亦排除。"
+        }
+      ],
       "reports": []
     }
   ]

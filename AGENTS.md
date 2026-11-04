@@ -69,7 +69,7 @@
 
 ## GEO / AI 搜尋規則
 
-- 網站由現有 37 類資料產生 37 個 `/categories/<id>/` 靜態分類指南頁；不建立 1256 個重複商品事實的薄內容頁。
+- 網站由現有 37 類資料產生 37 個 `/categories/<id>/` 靜態分類指南頁；不建立 1258 個重複商品事實的薄內容頁。
 - 每個分類指南的初始 HTML 必須含該類全部商品的品牌、完整型號、名稱、參考價、價格基準、上市／發售日期與摘要；前 5 名繼續顯示完整評估卡。
 - `tools/category-guides.js` 只維護分類層級的繁中導讀、3 項選購條件與 3 組 FAQ；商品名稱、價格、排名、規格、史低與負評仍從既有商品資料產生，避免第二套事實來源。
 - 站名、首頁 title、description、H1 與 AI 揭露集中在 `tools/geo-config.js`；首頁 metadata、JSON-LD、分類頁與 `llms.txt` 必須共用此契約。首頁與分類頁首屏皆需可見 AI 協作、資料日期、查核方法與 GitHub 原始碼。
@@ -82,7 +82,7 @@
 
 ## 目前資料規模
 
-- 共 37 類、1256 筆商品。
+- 共 37 類、1258 筆商品。
 - 所有分類每類至少 20 筆；新增分類或補資料時不可讓任何分類低於 20 筆。
 - 原初固定款數與配額可因使用者明確要求補入合格新版而擴充；保留合格現售舊款，並同步 `tools/dashboard-contract.js`、config、證據與文件。精確總數及各類分型／預算配額仍須通過 contract 驗證，不改為寬鬆最低數，也不放寬電力、版本、史低或跨站人工負評門檻。
 - 特殊分類目前數量：
@@ -99,7 +99,7 @@
   - `滑鼠`：35 筆、`鍵盤`：36 筆、`滑鼠墊`：33 筆，選購定位依序為 6／14／15、6／14／16、6／12／15，辦公與電競並重，型態與版本規則見下方特別分類規則。
   - `床包`：30 筆、`棉被`：32 筆、`枕頭`：33 筆，床包選購定位 6／12／12，棉被6／12／14、枕頭6／12／15，材質、填充、尺寸與版本規則見下方特別分類規則。
   - `電子鎖`：55 筆，需涵蓋知名品牌且注意安裝條件。
-  - `鍋具`：29 筆、`刀具`：23 筆、`櫥下飲水機`：46 筆、`洗碗機`：37 筆，需排除配件、耗材、桌上/直立誤判、福利品與展示機。
+  - `鍋具`：29 筆、`刀具`：23 筆、`櫥下飲水機`：46 筆、`洗碗機`：39 筆，需排除配件、耗材、桌上/直立誤判、福利品與展示機。
   - `冰箱`：50 筆、`洗衣機`：27 筆、`烘衣機`：28 筆、`洗烘衣機(多功能型)`：35 筆，需排除配件、耗材、福利品、展示機、箱損品、組合包誤判與單功能錯類，且每筆需標示機身尺寸。
   - `電子衣櫥（衣物護理機）`：21 筆，只收以吊掛衣物為核心、具除味／除皺／抑菌／柔護乾燥功能的封閉式櫃體設備；排除烘衣機、洗脫烘、除濕機、手持掛燙機、布罩烘衣櫃、配件與停產機種。
   - `空氣清淨機`：29 筆，已補入 POIEMA 新氣几系列、Philips AC0921/84、AC3681/81 與 Xiaomi AC-M25-SC；後續若替換資料，除非無可信新品通路，需保留 POIEMA 候選。
@@ -418,9 +418,9 @@
 ## 價格與匯率
 
 <!-- catalog-maintenance-summary:start -->
-- 2026-11-04 23:30（台灣時間）完成 1256 筆商品、37 類價格與來源全量查核；535 筆 PChome SKU API 已完成（274 筆 exact model、134 筆人工 SKU 綁定可寫入，1 筆型號未自動確認），更新 121 筆公開價格（102 筆下修、19 筆上修），126 筆缺貨／預購保留狀態提醒。
-- 本次增量新增 coffee-lelit-marax3-pl62x3、cookware-sambonet-titan-pro-green-51094-28、dishwasher-sakura-e7683、keyboard-keychron-k3-ultra-silent-red、monitor-aoc-cu34g4h-96、monitor-asus-xg32uqwms、monitor-dell-u3226q、monitor-samsung-ls32h704eacxzw、mouse-razer-basilisk-v3-35k、robot-tplink-tapo-rv50-pro-omni、smartlock-fibre-fb70k、smartlock-philips-ddl902-mfvp、standingdesk-cougar-e-odyssey-150、tv-tcl-65a400-pro、tv-toshiba-65m450rp、tv-toshiba-75m450rp、tv-toshiba-75z770st、tv-toshiba-75zxsp、waterdispenser-brita-mypure-gr1000-uvc、waterdispenser-sakura-p0533、waterheater-sakura-eh0810m6；本次增量沒有移除停產產品；品質替換 coffee-jura-ena-4-15344 → coffee-jura-e6-15465、monitorarm-extra-19-dcbb62a900fv397 → monitorarm-ergograde-egtc743q、soundbar-extra-15-dmaanj-a900hzbzv → soundbar-bose-smart-soundbar、vacuum-extra-12-dmax6f-a900k2nsv → vacuum-lg-a7-litemop。已逐類覆核取得的新品來源；尚未確認的逐型號後繼對照與來源限制詳見 categoryScan，所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
-- 圖片查核覆蓋 1256 筆；967 筆來源可由 exact model 或人工 SKU 綁定確認，289 筆來源例外與 0 筆圖片例外保留原資料。史低為 509 筆 `found`、747 筆 `not_found`，本輪下修 4 筆；102 筆來源可重現，其餘保留原逐筆證據且未臆測失效。
+- 2026-11-05 00:25（台灣時間）完成 1258 筆商品、37 類價格與來源全量查核；533 筆 PChome SKU API 已完成（273 筆 exact model、134 筆人工 SKU 綁定可寫入，1 筆型號未自動確認），更新 125 筆公開價格（105 筆下修、20 筆上修），125 筆缺貨／預購保留狀態提醒。
+- 本次增量新增 coffee-lelit-marax3-pl62x3、cookware-sambonet-titan-pro-green-51094-28、dishwasher-panasonic-np-bxw1m6-1h、dishwasher-panasonic-np-tmb1k5-1h、dishwasher-sakura-e7683、keyboard-keychron-k3-ultra-silent-red、monitor-aoc-cu34g4h-96、monitor-asus-xg32uqwms、monitor-dell-u3226q、monitor-samsung-ls32h704eacxzw、mouse-razer-basilisk-v3-35k、robot-tplink-tapo-rv50-pro-omni、smartlock-fibre-fb70k、smartlock-philips-ddl902-mfvp、standingdesk-cougar-e-odyssey-150、tv-tcl-65a400-pro、tv-toshiba-65m450rp、tv-toshiba-75m450rp、tv-toshiba-75z770st、tv-toshiba-75zxsp、waterdispenser-brita-mypure-gr1000-uvc、waterdispenser-sakura-p0533、waterheater-sakura-eh0810m6；本次增量沒有移除停產產品；品質替換 coffee-jura-ena-4-15344 → coffee-jura-e6-15465、monitorarm-extra-19-dcbb62a900fv397 → monitorarm-ergograde-egtc743q、soundbar-extra-15-dmaanj-a900hzbzv → soundbar-bose-smart-soundbar、vacuum-extra-12-dmax6f-a900k2nsv → vacuum-lg-a7-litemop。已逐類覆核取得的新品來源；尚未確認的逐型號後繼對照與來源限制詳見 categoryScan，所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
+- 圖片查核覆蓋 1258 筆；970 筆來源可由 exact model 或人工 SKU 綁定確認，288 筆來源例外與 0 筆圖片例外保留原資料。史低為 509 筆 `found`、749 筆 `not_found`，本輪下修 4 筆；102 筆來源可重現，其餘保留原逐筆證據且未臆測失效。
 - ExchangeRate-API 最新批次為 2026-11-04 00:02 UTC，USD/TWD 32.770816；39 筆外幣商品已重算。完整摘要與例外保存在 `catalog_maintenance_latest.json`。
 <!-- catalog-maintenance-summary:end -->
 
@@ -432,7 +432,7 @@
 - `npm run check:logic`：純邏輯回歸，涵蓋排序、品牌依分類限制、史低／負評文案、問題摘要搜尋、來源 URL 安全、HTML escape 與 product-loader URL/錯誤。
 - `npm run check:data`：商品總數、分類數、必要欄位、日期格式、負評逐型號人工覆核、逐位反映者與研究檔對齊、重複 URL 與重複型號檢查通過。
 - `npm run check:docs`：README、AGENTS、index/config 的商品數、分類數、日期與 cache version 不漂移。
-- `npm run check:geo`：37 個分類頁、1256 款靜態型號索引、metadata、結構化資料、首頁分類入口、sitemap、llms、六份公開證據檔、Pages artifact、38 個 canonical URL 的 IndexNow contract 與產生結果均無漂移。
+- `npm run check:geo`：37 個分類頁、1258 款靜態型號索引、metadata、結構化資料、首頁分類入口、sitemap、llms、六份公開證據檔、Pages artifact、38 個 canonical URL 的 IndexNow contract 與產生結果均無漂移。
 - `npm run check:ui`：桌機與手機版主要互動流程通過。
 - `npm run check:quality`：Lighthouse 的 Performance、LCP、CLS、Accessibility 與 SEO 採瀏覽器行動 throttling，TBT 採 Lantern 標準化模擬；首頁 Performance ≥ 90、LCP ≤ 2.5s、CLS ≤ 0.1、TBT ≤ 200ms、Accessibility = 100、SEO ≥ 95；代表分類頁 Performance、Accessibility、SEO 均 ≥ 95。
 - 商品總數仍符合 README 與分類 tab 顯示。
