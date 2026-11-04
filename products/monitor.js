@@ -2687,10 +2687,10 @@
     "name": "27 型 QHD 260Hz IPS 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 4833,
-      "converted": 4833,
-      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-04 人工核對原始SKU API名稱、商品ID、正庫存與公開價4833元；原HTML遇429或動態限制時不當完整出貨承諾。",
+      "amount": 4988,
+      "converted": 4988,
+      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
+      "note": "2026-11-04 晚間原生Chrome覆核：27M2N3500PF主商品公開顯示NT$4988，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABQIA900J82S0/000001_1757486726.jpg",
@@ -3570,12 +3570,12 @@
       "amount": 26888,
       "converted": 26888,
       "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-04 下午覆核：原生Chrome主商品DSABKB-A900K0YA0/ROG Strix XG34WCDMS主價26888，11/04任選95折另標下單再折；不能將API25543當可重現主價或自行計算。維持26888，24h到貨字樣非保證。",
+      "note": "2026-11-04 晚間Chrome主商品ROG Strix XG34WCDMS顯示26888元，按鈕為「有貨通知我」；保留既有參考價，不採API25543、未自行計算95折，不據缺貨推停產。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABKBA900K0YA0/000001_1779246107.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABKB-A900K0YA0",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome 缺貨／有貨通知",
     "specs": [
       "34 吋",
       "3440x1440",
@@ -3973,11 +3973,11 @@
     "name": "49 型 Odyssey OLED G9 Dual QHD 240Hz 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 36900,
-      "converted": 36900,
-      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 34880,
+      "converted": 34880,
+      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
       "basis": "retailer_current",
-      "note": "2026-11-04 下午重新查核：PChome exact SKU DMBM10-A900HZCPE；Price.P=36900元，Qty=6。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。"
+      "note": "2026-11-04 晚間原生Chrome覆核：S49DG932SCXZW主商品公開顯示NT$34880，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900HZCPE/000001_1781766568.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900HZCPE",
@@ -4275,11 +4275,11 @@
     "name": "57 型 Odyssey Neo G9 Dual UHD 240Hz Mini LED 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 69900,
-      "converted": 69900,
-      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 63990,
+      "converted": 63990,
+      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
       "basis": "retailer_current",
-      "note": "2026-11-04 下午重新查核：PChome exact SKU DMBM10-A900GQLSE；Price.P=69900元，Qty=2。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。"
+      "note": "2026-11-04 晚間原生Chrome覆核：S57CG952NC主商品公開顯示NT$63990，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900GQLSE/000001_1783054239.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900GQLSE",
@@ -6583,11 +6583,11 @@
     "name": "31.5 吋 4K Nano Matte 程式設計護眼螢幕（含 MoonHalo）",
     "price": {
       "currency": "TWD",
-      "amount": 19888,
-      "converted": 19888,
+      "amount": 18894,
+      "converted": 18894,
       "basis": "retailer_current",
-      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-04 午後人工覆核：Yahoo同型號主商品公開價19888元；立即購買/加入購物車可用。上午95折已消失，主價19888；頁內11/15活動為贈品/其他活動，不誤作此現價折扣期限。上午促銷已結束，本輪主價已回復，未扣個人券、點數或信用卡回饋。 不扣個人化回饋或贈品。"
+      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
+      "note": "2026-11-04 晚間原生Chrome覆核：RD320U主商品公開顯示NT$18894，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/A547B09451-SP-17883815.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=11255959",
@@ -6670,6 +6670,108 @@
           "targetHost": "mobile01.com",
           "query": "\"RD320U\" site:mobile01.com/topicdetail",
           "queryUrl": "https://www.google.com/search?q=%22RD320U%22%20site%3Amobile01.com%2Ftopicdetail"
+        }
+      ]
+    }
+  },
+  {
+    "id": "monitor-dell-u3226q",
+    "category": "monitor",
+    "brand": "Dell",
+    "model": "U3226Q",
+    "name": "31.5 吋 4K 120Hz QD-OLED 專業校色螢幕",
+    "rank": 72,
+    "budget": "premium",
+    "channel": "tw",
+    "price": {
+      "currency": "TWD",
+      "amount": 85999,
+      "converted": 85999,
+      "basis": "retailer_current",
+      "confidence": "2026-11-04 Chrome人工核對Dell台灣主型號公開價與購買CTA。",
+      "note": "Dell台灣主型號方案u3226q公開價NT$85999，非舊210-BWKP訂單碼。購買CTA可用；交期、配送與促銷以結帳顯示為準，不扣個人優惠或回饋。"
+    },
+    "installation": {
+      "status": "excluded",
+      "note": "隨附底座需自行安裝；懸臂與壁掛另購，需核對VESA100x100及不含底座6.43kg。"
+    },
+    "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/peripherals/monitors/u-series/u3226q/mg/monitor-ultrasharp-u3226q-black-gallery-1.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=454&qlt=100,0&resMode=sharp2&size=454,402",
+    "buyUrl": "https://www.dell.com/zh-tw/shop/monitors/apd/dell-ultrasharp-32-4k-qd-oled-%E9%A1%AF%E7%A4%BA%E5%99%A8-u3226q/u3226q/-",
+    "buyLabel": "Dell 台灣官方商店",
+    "specs": [
+      "31.5 吋／16:9／3840×2160 4K",
+      "QD-OLED／120Hz／0.03ms GTG",
+      "防眩光低反射 AGLR／DisplayHDR True Black 500／Dolby Vision",
+      "內建色度計與硬體校正儲存；Dell Color Management 4.0",
+      "99% DCI-P3／99% Display P3／Delta E < 1",
+      "Thunderbolt 4 上行最高140W EPR／下行15W／2.5GbE／KVM",
+      "HDMI 2.1×2／DisplayPort 1.4×1／USB-C與USB-A集線器",
+      "尺寸：不含底座 寬 71.828 x 深 6.548 x 高 43.6 cm；含底座 寬 71.828 x 深 21.716 x 高 47.377–62.377 cm",
+      "重量：6.43 kg（不含底座）；9.84 kg（含底座）",
+      "VESA 100×100mm；隨附遮光罩、底座與Thunderbolt 4/HDMI/DP/USB線",
+      "100–240V AC／50–60Hz；典型開機33.7W、最高460W"
+    ],
+    "description": "Dell 2026 年 UltraSharp 專業色彩新機，以4K 120Hz QD-OLED、內建色度計與Thunderbolt 4整合創作工作站；與IPS辦公螢幕定位不同，並非所有舊UltraSharp的直接替代。",
+    "pros": [
+      "內建色度計可將校正結果儲存於顯示器",
+      "QD-OLED黑位與120Hz兼顧影像檢視、流暢操作",
+      "台灣官方3年進階更換與OLED烙印保固"
+    ],
+    "cons": [
+      "價格顯著高於一般4K辦公螢幕",
+      "OLED長時間固定介面仍需留意烙印與面板維護",
+      "無內建喇叭；需確認KVM、macOS與訊號鏈相容性"
+    ],
+    "bestFor": "有校色流程、需要4K QD-OLED與單線工作站的攝影、剪輯和調色工作者。",
+    "recommendation": "專業色彩推薦：需要內建校色與高階連接時評估；一般文書可先比較較便宜的IPS與現售舊款。",
+    "score": 89,
+    "voltage": "100–240V AC／50–60Hz（Dell台灣官方規格）",
+    "warranty": "Dell台灣3年進階更換服務與高級面板更換，含OLED烙印保固；實際條款依官方。",
+    "tags": [
+      "QD-OLED",
+      "4K",
+      "120Hz",
+      "專業色彩推薦",
+      "內建色度計",
+      "Thunderbolt 4"
+    ],
+    "releaseDate": "2026-02-24",
+    "historicalLow": {
+      "status": "not_found",
+      "checkedAt": "2026-11-04",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "note": "已查Dell台灣主型號公開售價、飛比exact U3226Q候選與BigGo查詢。飛比只有私人代購99999及相近U3225QE/配件，不採為可信新品史低；英國/歐洲不同區域圖表未證明與本次台灣官方保固配置一致。現價不推定史低。",
+      "currency": "TWD",
+      "amount": null,
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": ""
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-11-04",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"U3226Q\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22U3226Q%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20failure%29"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"Dell\" \"U3226Q\" 災情 問題 故障",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Dell%22%20%22U3226Q%22%20%E7%81%BD%E6%83%85%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"Dell\" \"U3226Q\" 問題 故障",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22Dell%22%20%22U3226Q%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C"
         }
       ]
     }

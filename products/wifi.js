@@ -308,11 +308,11 @@
     "name": "BE3600 雙頻 Wi-Fi 7 AiMesh 可擴充路由器",
     "price": {
       "currency": "TWD",
-      "amount": 3699,
-      "converted": 3699,
-      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。",
+      "amount": 3515,
+      "converted": 3515,
+      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
       "basis": "retailer_current",
-      "note": "2026-11-04 午後人工覆核：Yahoo同型號主商品公開價3699元；立即購買/加入購物車可用。上午促銷已結束，本輪主價已回復，未扣個人券、點數或信用卡回饋。 不扣個人化回饋或贈品。"
+      "note": "2026-11-04 晚間原生Chrome覆核：RT-BE58U V2主商品公開顯示NT$3515，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLPA900JKWXK/000001_1783555436.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/ASUS-%E8%8F%AF%E7%A2%A9-RT-BE58U-V2-BE3600-%E9%9B%99%E9%A0%BB-Wi-Fi-7-%E5%8F%AF%E6%93%B4%E5%85%85%E5%BC%8F%E8%B7%AF%E7%94%B1%E5%99%A8-12005854.html",
@@ -1774,11 +1774,11 @@
     "name": "BE6500 雙頻 Wi-Fi 7 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 4611,
-      "converted": 4611,
-      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。",
+      "amount": 4381,
+      "converted": 4381,
+      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
       "basis": "retailer_current",
-      "note": "2026-11-04 午後人工覆核：Yahoo同型號主商品公開價4611元；立即購買/加入購物車可用。上午促銷已結束，本輪主價已回復，未扣個人券、點數或信用卡回饋。 不扣個人化回饋或贈品。"
+      "note": "2026-11-04 晚間原生Chrome覆核：RT-BE82U主商品公開顯示NT$4381，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLPA900IV4B6/000001_1783556530.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/ASUS-%E8%8F%AF%E7%A2%A9-RT-BE82U-WiFi-7-%E9%9B%99%E9%A0%BB-BE6500-%E8%B7%AF%E7%94%B1%E5%99%A8-%E5%88%86%E4%BA%AB%E5%99%A8-11798654.html",
@@ -4752,11 +4752,11 @@
     "name": "BE19000 三頻 Wi-Fi 7 AI 電競路由器",
     "price": {
       "currency": "TWD",
-      "amount": 27990,
-      "converted": 27990,
-      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。",
+      "amount": 26591,
+      "converted": 26591,
+      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
       "basis": "retailer_current",
-      "note": "2026-11-04 午後人工覆核：Yahoo同型號主商品公開價27990元；立即購買/加入購物車可用。上午促銷已結束，本輪主價已回復，未扣個人券、點數或信用卡回饋。 不扣個人化回饋或贈品。"
+      "note": "2026-11-04 晚間原生Chrome覆核：ROG Rapture GT-BE19000AI主商品公開顯示NT$26591，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。"
     },
     "image": "https://dlcdnwebimgs.asus.com/gain/FF5DB299-9708-4259-ABF9-167FDC7166BD",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E6%98%8C%E9%81%8B%E7%9B%A3%E8%A6%96%E5%99%A8-ASUS-%E8%8F%AF%E7%A2%A9-ROG-Rapture-GT-BE19000AI-WiFi-7-%E4%B8%89%E9%A0%BB%E9%9B%BB%E7%AB%B6-12032656.html",
@@ -5504,11 +5504,11 @@
     "name": "AQUILA PRO AI BE9500 三頻 Wi-Fi 7 2.5G Mesh 路由器（單台）",
     "price": {
       "currency": "TWD",
-      "amount": 5311,
-      "converted": 5311,
+      "amount": 4780,
+      "converted": 4780,
       "basis": "retailer_current",
-      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-04 午後人工覆核：Yahoo同型號主商品公開價5311元；立即購買/加入購物車可用。上午促銷已結束，本輪主價已回復，未扣個人券、點數或信用卡回饋。 不扣個人化回饋或贈品。"
+      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
+      "note": "2026-11-04 晚間原生Chrome覆核：M95主商品公開顯示NT$4780，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。"
     },
     "installation": {
       "status": "excluded",

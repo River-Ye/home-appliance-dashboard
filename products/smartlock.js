@@ -3358,10 +3358,10 @@
     "name": "逸系列微光夜視貓眼電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 31111,
-      "converted": 31111,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-03 PChome exact原SKU DQBS4N-A900K2QWO，逐筆核對本輪主標題「【HITACHI 日立】逸系列 微光夜視全彩300萬畫素貓眼電子鎖 HIT-FY10-T 日本領導品牌、享原廠三年保固、提供線上免費評估與到府專業安裝。」、Qty=12與公開主價31111。 原HTML HTTP429，採同輪可信exactID API並保留讀取限制。未扣券/點數/信用卡回饋。",
+      "amount": 36800,
+      "converted": 36800,
+      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
+      "note": "2026-11-04 晚間原生Chrome覆核：HIT-FY10-T主商品公開顯示NT$36800，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900K2QWO/000001_1782963114.jpg",
@@ -3840,9 +3840,11 @@
     "name": "HDL-1100S 二合一智慧電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 6999,
-      "converted": 6999,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 6599,
+      "converted": 6599,
+      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
+      "basis": "retailer_current",
+      "note": "2026-11-04 晚間原生Chrome覆核：HDL-1100S主商品公開顯示NT$6599，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQAT0BA900GKLUM/000001_1691734006.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQAT0B-A900GKLUM",
@@ -5096,6 +5098,104 @@
         }
       ]
     }
+  },
+  {
+    "id": "smartlock-philips-ddl902-mfvp",
+    "category": "smartlock",
+    "rank": 54,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Philips",
+    "model": "DDL902-MFVP-11HWS",
+    "name": "DDL902-MFVP 掌靜脈人臉三鏡可視電子鎖（預購）",
+    "price": {
+      "currency": "TWD",
+      "amount": 31500,
+      "converted": 31500,
+      "basis": "retailer_current",
+      "confidence": "2026-11-04 人工核對立傑台灣總代理商城選定曜石黑variant 43280997449937公開預購價31500元及可下單狀態；手冊與總代理技術頁確認完整型號DDL902-MFVP-11HWS。",
+      "note": "預購商品：官方標示11月按下單順序陸續出貨，並非現貨；交期與安裝日須向代理確認。31500元是公開整機預購價，未扣會員／輸碼／信用卡或分期回饋；42000元為劃線原價，不作現價或史低。"
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "總代理早鳥頁明示標價含安裝費與配件費，無法安裝依規範全額退款。須先評估門厚、門向、鎖體、天地栓與既有孔位；特殊改門、補孔等未列統一加價表，先由原廠確認。手冊預設套件適60–90mm，總規38–120mm需依門厚確認套件。"
+    },
+    "image": "https://shop.ljtwm.com/cdn/shop/files/DDL902-2.jpg?v=1788414392",
+    "buyUrl": "https://shop.ljtwm.com/products/philips-ddl902-mfvp?variant=43280997449937",
+    "buyLabel": "飛利浦台灣總代理（預購／11月依序出貨）",
+    "specs": [
+      "類型：全自動推拉式電子鎖；台灣總代理完整型號DDL902-MFVP-11HWS，曜石黑",
+      "解鎖：掌靜脈、3D人臉、指紋、密碼、卡片、機械鑰匙與App遠端功能；雙重驗證與虛位密碼",
+      "監看：室外主／副鏡加室內副鏡，共三鏡；4.7吋IPS螢幕與Home Access App視訊、對講、抓拍／徘徊警報，部分紀錄與雲端功能依服務條件",
+      "鎖體：924C全自動鎖體、C級鎖芯；室內快開、電子反鎖、防拆、鎖舌異常與低電量警報",
+      "連線：藍牙＋Wi-Fi；遠端功能須完成網路及Home Access App綁定，室內攝影與雲端紀錄須評估家庭隱私及服務條件",
+      "供電／充電：5000mAh鋰聚合物電池；5V／2A磁吸式行動電源，或取出電池依手冊以5V充電；手冊明示禁用快充",
+      "緊急供電：門外Type-C接口接5V行動電源；保留機械鑰匙作備援，不能把接口外型當成任意快充相容證明",
+      "安裝：官方總規門厚38–120mm、左推／左拉／右推／右拉；手冊預設安裝套件只適60–90mm，其餘厚度需先確認適用套件；木門／銅門／防盜門需由技師評估",
+      "隨附：台灣手冊列內外面板、鎖體、安裝配件、鋰聚合物電池、機械鑰匙與無線充電套裝；實際盒裝依出貨清單，不推定另附市電快充器",
+      "售後：總代理立傑三年原廠保固，自安裝日起算；鋰電池六個月，第二至三年功能故障可依條款以整新機／零件更換；NCC CCAF26LP1270T4",
+      "交貨：預購，官方僅寫11月按下單順序陸續出貨，不保證指定到貨日或即時安裝"
+    ],
+    "description": "飛利浦台灣總代理新增的三鏡頭旗艦選擇，同時整合掌靜脈、3D人臉與磁吸充電，補足在冊DDL720辨識分型之外的功能帶。2026-11-04仍為預購，需等代理確認交期與門型，不據新品登場推定其他飛利浦電子鎖停產。",
+    "pros": [
+      "掌靜脈與3D人臉雙辨識，搭配三鏡頭與4.7吋內螢幕",
+      "台灣總代理中文手冊、含標準安裝與三年原廠保固",
+      "磁吸充電及Type-C緊急供電，並保留機械鑰匙備援"
+    ],
+    "cons": [
+      "預購商品，僅公告11月依下單順序出貨，交付與安裝日期未保證",
+      "門厚38–120mm需選對安裝套件，預設盒裝只適60–90mm；天地栓與舊孔位需評估",
+      "遠端攝影、雲端儲存及App功能依連線／服務條件；電池六個月保固，充電禁用快充"
+    ],
+    "bestFor": "希望同時使用掌靜脈、人臉與門前／室內視訊監看，能等待預購並先完成原廠門型評估的家庭。",
+    "recommendation": "三鏡頭旗艦預購參考：功能與供電方式較在冊DDL720分型完整，但價格、室內攝影隱私、交期及門型相容性都需先確認；保留現售舊款供預算與使用需求比較，不列Top Pick。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-11-04",
+      "note": "已人工核對台灣總代理預購公開價31500元，並查完整型號DDL902-MFVP-11HWS價格歷史、FindPrice及飛比。FindPrice回傳廣泛Philips商品，無本型號可信歷史點；飛比原頁連線失敗，搜尋發現之YOHO為海外市場價與另付安裝，不能跨台灣版本／服務採用。未取得同型號台灣新品可重現歷史最低點，不把本次預購價、42000劃線價、文章日期、會員券或海外價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-11-04",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"DDL902-MFVP-11HWS\" (問題 OR 故障 OR 心得)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22DDL902-MFVP-11HWS%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97)"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"DDL902-MFVP-11HWS\" (問題 OR 故障 OR 心得)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22DDL902-MFVP-11HWS%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97)"
+        }
+      ]
+    },
+    "score": 87,
+    "voltage": "5000mAh鋰聚合物電池；充電5V／2A，門外Type-C緊急供電5V行動電源；台灣中文手冊明示禁用快充，市電轉接器是否隨盒未明示。",
+    "warranty": "立傑台灣總代理三年原廠保固，自安裝日起算；第一年功能故障可換同款新機或零件，第二至三年依條款可換整新機或零件；鋰電池六個月。官方客服0800-777-378／LINE @lj27680817。",
+    "tags": [
+      "台灣公司貨",
+      "預購",
+      "掌靜脈",
+      "3D人臉",
+      "三鏡頭",
+      "磁吸充電",
+      "含標準安裝"
+    ]
   }
 ]);
 })();

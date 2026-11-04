@@ -1277,11 +1277,11 @@
     "image": "https://cs-a.ecimg.tw/items/DPAI1HA900AMJJK/000001_1761009175.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 22410,
-      "converted": 22410,
-      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 21912,
+      "converted": 21912,
+      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
       "basis": "retailer_current",
-      "note": "2026-11-04 下午重新查核：PChome exact SKU DPAI1H-A900AMJJK；Price.Low=22410元，Qty=20。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。"
+      "note": "2026-11-04 晚間原生Chrome覆核：NA-V120HDH主商品公開顯示NT$21912，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1701,10 +1701,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/41046DB844-SP-12334280.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 37260,
-      "converted": 37260,
-      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開可訂報價；出貨與到貨時程待確認。",
-      "note": "2026-11-04 午後人工覆核：Yahoo同型號主商品公開價37260元；立即購買/加入購物車可用。上午促銷已結束，本輪主價已回復，未扣個人券、點數或信用卡回饋。 不扣個人化回饋或贈品。",
+      "amount": 34280,
+      "converted": 34280,
+      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
+      "note": "2026-11-04 晚間原生Chrome覆核：NA-V150MDH主商品公開顯示NT$34280，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -2731,10 +2731,10 @@
     "image": "https://pstw.panasonic.com.tw/shop/Upload/Product/20260514190222S44S2J5E.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 40410,
-      "converted": 40410,
-      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-04 下午重新查核：PChome exact SKU DPAI1H-A900JXCDB；Price.Low=40410元，Qty=20。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。",
+      "amount": 39512,
+      "converted": 39512,
+      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
+      "note": "2026-11-04 晚間原生Chrome覆核：NA-SD10TB主商品公開顯示NT$39512，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -3059,11 +3059,11 @@
     "name": "10/7kg i-DOS 智慧聯網洗脫烘",
     "price": {
       "currency": "TWD",
-      "amount": 50000,
-      "converted": 50000,
-      "confidence": "Yahoo購物中心 2026-11-04 exact-model 公開結構化價格",
+      "amount": 46000,
+      "converted": 46000,
+      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
       "basis": "retailer_current",
-      "note": "2026-11-04 下午重新查核：Yahoo/Costco原商品頁同型號公開主價50000 TWD。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。"
+      "note": "2026-11-04 晚間原生Chrome覆核：WNC554A0TC主商品公開顯示NT$46000，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DPAID7A900IHEVX/000001_1776657918.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/BOSCH%E5%8D%9A%E4%B8%96-10-7%E5%85%AC%E6%96%A4%E9%AB%98%E6%95%88%E6%99%BA%E6%85%A7%E6%BB%BE%E7%AD%92%E6%B4%97%E8%84%AB%E7%83%98-%E5%90%AB%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-220V%E6%8B%89%E9%9B%BB-WNC554A0TC-11546320.html",
@@ -3241,11 +3241,11 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 67860,
-      "converted": 67860,
+      "amount": 64201,
+      "converted": 64201,
       "basis": "retailer_current",
-      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-04 下午覆核：原生myfone P0000203745173左開NA-LX128EL含基本安裝與舊機回收主價67860、定價73900、數量1、放入購物車；另列11/16前結帳95折與原廠登錄送3000，皆未扣除。"
+      "confidence": "2026-11-04 人工核對原頁主商品售價、版本與購買狀態。",
+      "note": "2026-11-04 晚間覆核：NA-LX128EL左開式；定價$73,900；網路限定價$64,201；原廠登錄送3000元/無實體贈品；網路限定價直接展示，不扣登錄送3000、付款回饋、分期或會員額外優惠。"
     },
     "installation": {
       "status": "included_basic",

@@ -596,10 +596,10 @@
     "name": "無限續航滾筒洗地機器人上下水款",
     "price": {
       "currency": "TWD",
-      "amount": 25999,
-      "converted": 25999,
-      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開預購報價；非現貨，交期見註記。",
-      "note": "2026-11-04 午後人工覆核：Yahoo同型號主商品公開價25999元；立即購買/加入購物車可用。X11 PRO上下水款原頁仍明示新品預購、到貨依單序發貨；原95折已消失，主價25999，下單再折未在主價呈現，不自行再減。上午促銷已結束，本輪主價已回復，未扣個人券、點數或信用卡回饋。 不扣個人化回饋或贈品。",
+      "amount": 24700,
+      "converted": 24700,
+      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
+      "note": "2026-11-04 晚間原生Chrome覆核：DEEBOT X11 PRO 上下水款主商品公開顯示NT$24700，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900JRDAS/000001_1771917633.jpg",
@@ -2912,10 +2912,10 @@
     "name": "Xiaomi 掃拖機器人 6 Max",
     "price": {
       "currency": "TWD",
-      "amount": 21911,
-      "converted": 21911,
-      "confidence": "Yahoo購物中心 2026-11-04 exact-model 公開結構化價格",
-      "note": "2026-11-04 下午重新查核：Yahoo/Costco原商品頁同型號公開主價21911 TWD。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。",
+      "amount": 21254,
+      "converted": 21254,
+      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
+      "note": "2026-11-04 晚間原生Chrome覆核：6 Max主商品公開顯示NT$21254，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。",
       "basis": "retailer_current"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/5A801ABE6A-SP-22823743.jpg",
@@ -3226,10 +3226,10 @@
     "name": "Xiaomi 掃拖機器人 H50 Pro",
     "price": {
       "currency": "TWD",
-      "amount": 10999,
-      "converted": 10999,
-      "confidence": "Yahoo購物中心 2026-11-04 exact-model 公開結構化價格",
-      "note": "2026-11-04 下午重新查核：Yahoo/Costco原商品頁同型號公開主價10999 TWD。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。",
+      "amount": 10799,
+      "converted": 10799,
+      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
+      "note": "2026-11-04 晚間原生Chrome覆核：H50 Pro主商品公開顯示NT$10799，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。",
       "basis": "retailer_current"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/DBA14833A1-SP-22450109.jpg",

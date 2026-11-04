@@ -1,20 +1,20 @@
 {
   "summary": {
-    "checkedAt": "2026-11-04T06:24:01.739Z",
-    "total": 1235,
-    "researchedThisRun": 1,
-    "found": 353,
-    "missing": 882,
+    "checkedAt": "2026-11-04T00:00:00+08:00",
+    "total": 1238,
+    "researchedThisRun": 3,
+    "found": 354,
+    "missing": 884,
     "byConfidence": {
       "official": 188,
-      "not_found": 879,
+      "not_found": 881,
       "retailer_explicit": 23,
       "credible_article": 52,
-      "high": 72,
+      "high": 73,
       "medium": 18,
       "unknown": 3
     },
-    "scopeNote": "2026-11-04下午僅新增HALO-NEO-1M的上市查核；既有1234筆逐筆研究及真實查核日期原樣保留，未找到明確上市日。"
+    "scopeNote": "2026-11-04晚間僅對新增U3226Q、DDL902-MFVP-11HWS、CGR-E-ODYSSEY150完成上市查核；U3226Q採官方全球2026-02-24發售公告，其餘兩款找不到可信明確日期。既有1235筆逐筆研究與真實日期原樣保留。"
   },
   "results": [
     {
@@ -37911,6 +37911,110 @@
           "url": "https://24h.pchome.com.tw/prod/DCBBC5-A900HCX9R",
           "title": "PChome Raymii HALO-NEO-1M",
           "outcome": "no_explicit_release_date"
+        }
+      ]
+    },
+    {
+      "id": "monitor-dell-u3226q",
+      "category": "monitor",
+      "brand": "Dell",
+      "model": "U3226Q",
+      "name": "31.5 吋 4K 120Hz QD-OLED 專業校色螢幕",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2026-02-24",
+      "sourceUrl": "https://www.dell.com/en-us/blog/dell-unveils-new-ultrasharp-monitors-with-world-first-innovations/",
+      "sourceTitle": "Dell Unveils New UltraSharp Monitors with World-First Innovations",
+      "evidenceSnippet": "官方Pricing and Availability明示U3226Q globally beginning February 24, 2026；日期為全球發售日，不以1月6日文章發布日或台灣當日現價推上市。",
+      "confidence": "high",
+      "sourceKind": "official_launch",
+      "reason": "官方明示全球開賣日；台灣個別鋪貨日未另行推定。",
+      "query": "\"Dell U3226Q\" release availability",
+      "checkedAt": "2026-11-04",
+      "auditDisposition": "confirmed_found",
+      "checkedSources": [
+        {
+          "url": "https://www.dell.com/en-us/blog/dell-unveils-new-ultrasharp-monitors-with-world-first-innovations/",
+          "title": "Dell官方發售公告",
+          "outcome": "明示2026-02-24全球供貨。"
+        },
+        {
+          "url": "https://www.dell.com/zh-tw/shop/monitors/apd/dell-ultrasharp-32-4k-qd-oled-%E9%A1%AF%E7%A4%BA%E5%99%A8-u3226q/u3226q/-",
+          "title": "Dell台灣U3226Q主型號商店",
+          "outcome": "台灣方案u3226q、製造商Y6C2D，公開NT$85999。"
+        }
+      ]
+    },
+    {
+      "id": "smartlock-philips-ddl902-mfvp",
+      "category": "smartlock",
+      "brand": "Philips",
+      "model": "DDL902-MFVP-11HWS",
+      "name": "DDL902-MFVP 掌靜脈人臉三鏡可視電子鎖（預購）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"DDL902-MFVP-11HWS\" 上市 發表",
+      "auditQueries": [
+        "\"DDL902-MFVP-11HWS\" 上市 發表",
+        "\"DDL902-MFVP\" 上市 台灣"
+      ],
+      "sourceKind": "not_found_after_manual_recheck",
+      "reason": "台灣總代理產品與早鳥頁僅明示預購11月依序出貨，未給確切實際發售年月日；2026/10/12可信媒體使用正式推出／發布措辭但未明示實際發售日，不把文章日期、手冊檔名20260521、NCC或促銷日期當上市日期。",
+      "checkedAt": "2026-11-04",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://shop.ljtwm.com/products/philips-ddl902-mfvp?variant=43280997449937",
+          "title": "立傑官方DDL902-MFVP預購商品頁",
+          "outcome": "11月依下單順序出貨；未明示實際上市日"
+        },
+        {
+          "url": "https://shop.ljtwm.com/pages/902mfvp-early_bird",
+          "title": "DDL902-MFVP官方早鳥頁",
+          "outcome": "預購與優惠非上市日期"
+        },
+        {
+          "url": "https://money.udn.com/money/story/5721/9807900",
+          "title": "飛利浦推旗艦智慧電子鎖 三鏡頭結合雙生物辨識全面升級居家安全防護",
+          "outcome": "正式推出措辭但未明示實際發售日，不以文章日期猜測"
+        }
+      ]
+    },
+    {
+      "id": "standingdesk-cougar-e-odyssey-150",
+      "category": "standingdesk",
+      "brand": "COUGAR",
+      "model": "CGR-E-ODYSSEY150",
+      "name": "E-ODYSSEY 150×70 雙馬達旗艦電動升降桌（附洞洞板與配件）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "https://cougargaming.com/tw/products/desks/e-odyssey/",
+      "sourceTitle": "COUGAR E-ODYSSEY 官方產品頁與使用手冊",
+      "evidenceSnippet": "官方產品頁、使用手冊及台灣官店具型號/規格但未明示上市或發售日；台灣評測文章日期和手冊發布時間不當上市日。",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "未找到官方或可信媒體明確上市/發售敘述。",
+      "query": "\"COUGAR E-ODYSSEY\" 上市 發售",
+      "checkedAt": "2026-11-04",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://cougargaming.com/tw/products/desks/e-odyssey/",
+          "title": "COUGAR產品頁",
+          "outcome": "完整型號規格可核，沒有發售日期。"
+        },
+        {
+          "url": "https://cougargaming.com/fileadmin/downloads/USERS_MANUAL/COUGAR%20E-ODYSSEY-USERS-MANUAL.pdf",
+          "title": "COUGAR官方手冊",
+          "outcome": "不能把PDF日期當發售日。"
+        },
+        {
+          "url": "https://www.cougar.com.tw/product-details.php?id=380",
+          "title": "COUGAR台灣官店",
+          "outcome": "價格及售後可核，沒有明示上市日期。"
         }
       ]
     }

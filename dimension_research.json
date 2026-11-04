@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03",
+  "generatedAt": "2026-11-04",
   "sourcePolicy": "本站共 21 類尺寸、13 類重量研究，尺寸涵蓋 電視、Soundbar、冷氣、洗衣機、烘衣機、洗烘衣機(多功能型)、電子衣櫥（衣物護理機）、床包、棉被、枕頭、冰箱、咖啡機、多功能氣炸烤箱／微波爐、洗碗機、熱水器、免治馬桶、網路交換器、螢幕燈、滑鼠、鍵盤、滑鼠墊。優先採 exact-model／相同版本的官方產品頁、官方規格表或官方 PDF，其次為可信新品通路。只採本體／機身／明確組件的尺寸與淨重，排除包裝、外箱尺寸與毛重；來源沒有明示軸序時不自行推定。既有家電與床包、棉被、枕頭維持 cm／kg，滑鼠、鍵盤與滑鼠墊使用 mm／g 並保留來源軸序。滑鼠墊厚度、床包可包覆高度另列；棉被的填充重量與整件淨重分開記錄。冷氣分列室內機與室外機，熱泵複合熱水器分列主機與儲槽。generatedAt 為最新證據批次日期，既有逐筆 checkedAt 與 weightCheckedAt 保留原查核日期，不表示重新查核。",
   "results": [
     {
@@ -3774,13 +3774,13 @@
     },
     {
       "id": "oven-ninja-sfp701tw",
-      "dimension": "尺寸：寬 40 x 深 37 x 高 33 cm",
-      "sourceUrl": "https://shopee.tw/%E3%80%90%E9%99%90%E6%99%82%E7%89%B9%E8%B3%A3%E4%B8%AD%F0%9F%94%A5-Ninja-Combi-14%E5%90%881%E5%A4%9A%E5%8A%9F%E8%83%BD%E6%B0%A3%E7%82%B8%E8%92%B8%E7%83%A4%E7%AE%B1-SFP701TW%E3%80%91%E6%96%B0%E5%B1%85%E7%A6%AE%E7%89%A9%E9%A6%96%E9%81%B8%EF%BD%9C%E7%B0%A1%E5%96%AE%E6%93%8D%E4%BD%9C%E5%A5%BD%E6%B8%85%EF%BD%9C%E9%8C%A6%E9%81%94%E6%95%B8%E4%BD%8D-i.36918128.53952500215",
-      "sourceTitle": "錦達數位：Ninja Combi 14 合 1 多功能氣炸蒸烤箱 SFP701TW",
-      "evidenceSnippet": "可信台灣實體家電通路的 exact-model 商品欄列 33H x 40W x 37D cm；本列依明示方向轉為寬 x 深 x 高，未使用包裝尺寸。",
-      "confidence": "medium",
-      "isOfficialSource": false,
-      "checkedAt": "2026-08-06",
+      "dimension": "尺寸：寬 39.5 x 深 37.5 x 高 33.5 cm",
+      "sourceUrl": "https://sharkninja.tw/products/combi-sfp701tw",
+      "sourceTitle": "SharkNinja 台灣官方 SFP701TW 規格",
+      "evidenceSnippet": "Chrome展開規格頁籤，產品尺寸明示寬39.5cm x 深37.5cm x 高33.5cm；產品重量10.5kg，未採包裝尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-11-04",
       "weight": "重量：10.5 kg",
       "weightSourceUrl": "https://sharkninja.tw/products/combi-sfp701tw",
       "weightSourceTitle": "NINJA Combi SFP701TW 14 合 1 蒸烤箱 | SharkNinja Taiwan",

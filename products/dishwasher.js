@@ -117,11 +117,11 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR0PA900IX8N8/000001_1770277214.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 7111,
-      "converted": 7111,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 6911,
+      "converted": 6911,
+      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
       "basis": "retailer_current",
-      "note": "2026-11-03 PChome exact原SKU DMBR0P-A900IX8N8，逐筆核對本輪主標題「【TECO東元】3D全方位洗烘一體全自動洗碗機(XYFYW-5001CBW) 【TECO東元】3D全方位洗烘一體全自動洗碗機(XYFYW-5001CBW)」、Qty=20與公開主價7111。 原HTML HTTP429，採同輪可信exactID API並保留讀取限制。未扣券/點數/信用卡回饋。"
+      "note": "2026-11-04 晚間原生Chrome覆核：XYFYW-5001CBW主商品公開顯示NT$6911，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -947,11 +947,11 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR0YA900FMAWF/000001_1692315551.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 23310,
-      "converted": 23310,
-      "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "amount": 22145,
+      "converted": 22145,
+      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
       "basis": "retailer_current",
-      "note": "2026-11-04 PChome選定原SKU DMBR0Y-A900FMAWF-000本輪晚段重新請求，原主頁與exactID API一致公開價23310元、Qty=2，早段折扣已不重現；未扣券/點數/信用卡。"
+      "note": "2026-11-04 晚間原生Chrome覆核：E-7682主商品公開顯示NT$22145，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1052,11 +1052,11 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR2HA900K4KMO/000001_1782874928.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 34999,
-      "converted": 34999,
-      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 34900,
+      "converted": 34900,
+      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
       "basis": "retailer_current",
-      "note": "2026-11-04 下午重新查核：PChome exact SKU DMBR2H-A900K4KMO；Price.P=34999元，Qty=5。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。"
+      "note": "2026-11-04 晚間原生Chrome覆核：SJU4EKW00W主商品公開顯示NT$34900，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1576,11 +1576,11 @@
     "name": "桌上型洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 9108,
-      "converted": 9108,
-      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 8910,
+      "converted": 8910,
+      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
       "basis": "retailer_current",
-      "note": "2026-11-04 PChome原exact SKU DMBR0P-A900JBV02，本輪人工核對主標題「【嘉儀KE】桌上型洗碗機 KDW-156W   ▼免安裝6人洗烘碗機▼   【嘉儀KE】免安裝全自動開關門桌上型洗碗機 KDW-156W(電壓110V/大容量6人份真乾淨)」、Qty=20、主價9108；採公開Low優先，無Low用P，未扣券/點數/信用卡。HTML受限仍保留API與讀取限制。"
+      "note": "2026-11-04 晚間原生Chrome覆核：KDW-156W主商品公開顯示NT$8910，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR0PA900JBV02/000001_1762938951.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR0P-A900JBV02",
@@ -1675,11 +1675,11 @@
     "name": "免安裝自動 6 人份洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 15299,
-      "converted": 15299,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 14959,
+      "converted": 14959,
+      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
       "basis": "retailer_current",
-      "note": "2026-11-01 PChome主商品API商品ID DMBR17-A900IHTZ3 相符，原標題「【Celinda 賽寧家電】免安裝自動6人份洗碗機DGF-601(110V/桌上型洗碗機) 【Celinda 賽寧家電】免安裝自動6人份洗碗機DGF-601(110V/桌上型洗碗機)」，Qty=9，公開折扣／主價 15299 元（網路價16999；Price.Low=15299）；未扣券、回饋或點數。 同輪HTML為HTTP429；以本輪可信商品API逐筆核對，保留HTML讀取限制，不推定停產。"
+      "note": "2026-11-04 晚間原生Chrome覆核：DGF-601主商品公開顯示NT$14959，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR17A900IHTZ3/000001_1777540146.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR17-A900IHTZ3",
@@ -1713,15 +1713,15 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 15299,
+      "amount": 14959,
       "currency": "TWD",
-      "converted": 15299,
+      "converted": 14959,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DMBR17-A900IHTZ3",
       "sourceTitle": "PChome 24h 購物：【Celinda 賽寧家電】免安裝自動6人份洗碗機DGF-601(110V/桌上型洗碗機)",
-      "evidenceSnippet": "PChome 24h 購物於 2026-11-01 顯示同型號可信新品公開價 NT$15,299，低於既有史低 NT$15,809。",
+      "evidenceSnippet": "PChome 24h 購物於 2026-11-04 顯示同型號可信新品公開價 NT$14,959，低於既有史低 NT$15,299。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-11-01",
+      "checkedAt": "2026-11-04",
       "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
@@ -1970,10 +1970,10 @@
     "name": "桌上型洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 12999,
-      "converted": 12999,
-      "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
-      "note": "2026-11-04 PChome選定原SKU DMBR24-A900JFSR7-000本輪晚段重新請求，原主頁與exactID API一致公開價12999元、Qty=2，早段折扣已不重現；未扣券/點數/信用卡。",
+      "amount": 12349,
+      "converted": 12349,
+      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
+      "note": "2026-11-04 晚間原生Chrome覆核：桌上型洗碗機主商品公開顯示NT$12349，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR24A900JFSR7/000001_1762761618.jpg",

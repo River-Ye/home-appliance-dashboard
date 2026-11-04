@@ -15,10 +15,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/AC7DC27581-SP-22704432.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 9351,
-      "converted": 9351,
-      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-04 下午重新查核：PChome exact SKU DPAI1H-A900I7ZB7；Price.Low=9351元，Qty=20。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。",
+      "amount": 9143,
+      "converted": 9143,
+      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
+      "note": "2026-11-04 晚間原生Chrome覆核：NH-80RZ-W主商品公開顯示NT$9143，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -1339,9 +1339,11 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/3db887ef39-Gd-10746995.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 8344,
-      "converted": 8344,
-      "confidence": "Yahoo購物中心 2026-10-19 exact-model 公開結構化價格"
+      "amount": 8440,
+      "converted": 8440,
+      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
+      "basis": "retailer_current",
+      "note": "2026-11-04 晚間原生Chrome覆核：NH-L70G-L主商品公開顯示NT$8440，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1645,10 +1647,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/C0FA586EC4-SP-18495887.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 7990,
-      "converted": 7990,
-      "confidence": "Yahoo購物中心 2026-11-04 exact-model 公開結構化價格",
-      "note": "2026-11-04 下午重新查核：Yahoo/Costco原商品頁同型號公開主價7990 TWD。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。",
+      "amount": 7591,
+      "converted": 7591,
+      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
+      "note": "2026-11-04 晚間原生Chrome覆核：HDM-0841主商品公開顯示NT$7591，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -1951,10 +1953,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/254DF81A1E-SP-20893325.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 49900,
-      "converted": 49900,
-      "confidence": "Yahoo購物中心 2026-11-04 exact-model 公開結構化價格",
-      "note": "2026-11-04 下午重新查核：Yahoo/Costco原商品頁同型號公開主價49900 TWD。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。",
+      "amount": 45908,
+      "converted": 45908,
+      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
+      "note": "2026-11-04 晚間原生Chrome覆核：WQB245A0TC主商品公開顯示NT$45908，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -2659,11 +2661,11 @@
   "topPick": false,
   "price": {
     "currency": "TWD",
-    "amount": 25900,
-    "converted": 25900,
+    "amount": 24605,
+    "converted": 24605,
     "basis": "retailer_current",
-    "confidence": "Yahoo購物中心 2026-11-04 exact-model 公開結構化價格",
-    "note": "2026-11-04 下午重新查核：Yahoo/Costco原商品頁同型號公開主價25900 TWD。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。"
+    "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
+    "note": "2026-11-04 晚間原生Chrome覆核：ASD-100UA主商品公開顯示NT$24605，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。"
   },
   "installation": {
     "status": "included_basic",

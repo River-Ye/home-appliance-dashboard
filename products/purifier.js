@@ -305,11 +305,11 @@
     "name": "17 坪 360 度高效過濾空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 6892,
-      "converted": 6892,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 6151,
+      "converted": 6151,
+      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
       "basis": "retailer_current",
-      "note": "2026-11-03 人工核對PChome exact商品ID與當日API原資料：【飛利浦 PHILIPS】奈米級空氣清淨機 AC2936；<font color=#FF00CC><b>贈複合式濾網</font><BR>【飛利浦 PHILIPS】奈米級空氣清淨機 AC2936；Price.Low=6892元，Qty=20。原商品頁可讀並對照主商品。不扣個人券、點數、信用卡，實際配送安裝請確認。"
+      "note": "2026-11-04 晚間原生Chrome覆核：AC2936主商品公開顯示NT$6151，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900GH5RL/000001_1781800112.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAC2O-A900GH5RL",
@@ -1377,11 +1377,11 @@
     "name": "奈米級空氣清淨機 MUJI AC0650",
     "price": {
       "currency": "TWD",
-      "amount": 4640,
-      "converted": 4640,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 4141,
+      "converted": 4141,
+      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
       "basis": "retailer_current",
-      "note": "2026-11-03 人工核對PChome exact商品ID與當日API原資料：【飛利浦 PHILIPS】奈米級空氣清淨機-MUJI AC0650；【飛利浦 PHILIPS】奈米級空氣清淨機-MUJI AC0650；Price.Low=4640元，Qty=20。原商品頁可讀並對照主商品。不扣個人券、點數、信用卡，實際配送安裝請確認。"
+      "note": "2026-11-04 晚間原生Chrome覆核：MUJI AC0650主商品公開顯示NT$4141，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900GD1ZV/000001_1781800174.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAC2O-A900GD1ZV",
@@ -1765,11 +1765,11 @@
     "name": "寵物抗敏空氣清淨機輕量版",
     "price": {
       "currency": "TWD",
-      "amount": 10220,
-      "converted": 10220,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 9121,
+      "converted": 9121,
+      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
       "basis": "retailer_current",
-      "note": "2026-11-03 人工核對PChome exact商品ID與當日API原資料：【Philips 飛利浦】寵物抗敏空氣清淨機 (輕量版) AC3360/80；【Philips 飛利浦】寵物抗敏空氣清淨機 (輕量版) AC3360/80；Price.Low=10220元，Qty=20。原商品頁可讀並對照主商品。不扣個人券、點數、信用卡，實際配送安裝請確認。"
+      "note": "2026-11-04 晚間原生Chrome覆核：AC3360/80主商品公開顯示NT$9121，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900J7SBO/000001_1781799851.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAC2O-A900J7SBO",
@@ -2256,11 +2256,11 @@
     "name": "迷你奈抗敏奈米級空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 7430,
-      "converted": 7430,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 6631,
+      "converted": 6631,
+      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
       "basis": "retailer_current",
-      "note": "2026-11-03 人工核對PChome exact商品ID與當日API原資料：【飛利浦 PHILIPS】抗敏奈米級空氣清淨機－迷你奈(AC0921/84)；【飛利浦 PHILIPS】抗敏奈米級空氣清淨機－迷你奈(AC0921/84)；Price.Low=7430元，Qty=7。原商品頁可讀並對照主商品。不扣個人券、點數、信用卡，實際配送安裝請確認。"
+      "note": "2026-11-04 晚間原生Chrome覆核：AC0921/84主商品公開顯示NT$6631，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAUFVA900JZR3M/000001_1785203322.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUFV-A900JZR3M",

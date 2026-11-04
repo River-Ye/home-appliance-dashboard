@@ -492,11 +492,11 @@
     "name": "VITA PREP 2.3 匹馬力生機調理機",
     "price": {
       "currency": "TWD",
-      "amount": 23980,
-      "converted": 23980,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 22300,
+      "converted": 22300,
+      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
       "basis": "retailer_current",
-      "note": "2026-11-01 PChome主商品API商品ID QBAO0F-A9008QMG3 相符，原標題「美國 Vita-Mix 多功能生機調理機 VITA PREP 美國 Vita-Mix 多功能生機調理機 VITA PREP」，Qty=7，公開折扣／主價 23980 元（網路價23980；Price.Low=無）；未扣券、回饋或點數。 同輪原商品HTML價格與可購入口已核對。"
+      "note": "2026-11-04 晚間原生Chrome覆核：VITA PREP主商品公開顯示NT$22300，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。"
     },
     "image": "https://cs-a.ecimg.tw/items/QBAO0FA9008QMG3/000001_1782719707.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/QBAO0F-A9008QMG3",
@@ -2454,11 +2454,11 @@
   "channel": "tw",
   "price": {
     "currency": "TWD",
-    "amount": 3590,
-    "converted": 3590,
+    "amount": 3490,
+    "converted": 3490,
     "basis": "retailer_current",
-    "confidence": "2026-10-29 台灣代理官網選定BC251TWIV1象牙白3590元，人工核對原頁價格與可購按鈕。",
-    "note": "台灣代理官網象牙白單機公開3590元；未扣電子報95折券、首購禮或滿5000折500，其他顏色不另計款數。"
+    "confidence": "2026-11-04 Chrome人工核對台灣代理官網主價格。",
+    "note": "2026-11-04 晚間覆核：選定象牙白BC251TWIV1主價3490、劃線3990、數量1與加入購物車可用；電子報95折券未扣。"
   },
   "installation": {
     "status": "not_stated",

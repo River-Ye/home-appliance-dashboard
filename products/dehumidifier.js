@@ -19,9 +19,9 @@
       "currency": "TWD",
       "amount": 14608,
       "converted": 14608,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
       "basis": "retailer_current",
-      "note": "2026-11-01 人工逐筆核對PChome原產品API：Panasonic國際牌16公升高效型變頻除濕機 F-YV32NN；Price.Low=14608元，Qty=20，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
+      "note": "2026-11-04 20:20台灣時間Chrome最終覆核：F-YV32NN主商品折扣價14608、網路價17600，10/31–11/30任選1件83折，數量1與加入購物車/立即購買可用。 不另扣貨物稅、個人券、點數、卡回饋或贈品價。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900J0L88/000001_1776323540.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3P-A900J0L88",
@@ -307,10 +307,10 @@
     "name": "19.6 公升 PuriCare 雙變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 20924,
-      "converted": 20924,
-      "confidence": "Yahoo購物中心 2026-11-04 exact-model 公開結構化價格",
-      "note": "2026-11-04 下午重新查核：Yahoo/Costco原商品頁同型號公開主價20924 TWD。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。",
+      "amount": 19251,
+      "converted": 19251,
+      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
+      "note": "2026-11-04 晚間原生Chrome覆核：DD201MEE0主商品公開顯示NT$19251，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4OA900JX7GH/000001_1783563034.jpg",
@@ -797,9 +797,9 @@
       "currency": "TWD",
       "amount": 7825,
       "converted": 7825,
-      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
       "basis": "retailer_current",
-      "note": "2026-11-04 人工核對當日PChome exact商品ID DMBQ00-A900JB38A：Panasonic國際牌 9公升除濕機F-Y18PN；Panasonic國際牌 9公升除濕機F-Y18PN；Price.Low=7825元，Qty=20。原HTML主商品另讀。不扣個人券、點數、信用卡；送貨安裝請確認。"
+      "note": "2026-11-04 20:20台灣時間Chrome最終覆核：F-Y18PN主商品折扣價7825、網路價9790，11/03–11/16任選1件7825，數量1與加入購物車/立即購買可用。 不另扣貨物稅、個人券、點數、卡回饋或贈品價。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ00A900JB38A/000001_1776329911.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ00-A900JB38A",
@@ -1378,10 +1378,10 @@
     "name": "20L 第六感智能除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 9990,
-      "converted": 9990,
-      "confidence": "Yahoo購物中心 2026-11-04 exact-model 公開結構化價格",
-      "note": "2026-11-04 下午重新查核：Yahoo/Costco原商品頁同型號公開主價9990 TWD。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。",
+      "amount": 8792,
+      "converted": 8792,
+      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
+      "note": "2026-11-04 晚間原生Chrome覆核：WDEE20TW主商品公開顯示NT$8792，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3SA900K13ZR/000001_1779265654.jpg",

@@ -1036,11 +1036,11 @@
     "image": "https://cs-a.ecimg.tw/items/DEDG3BA900GQDVZ/000001_1776769920.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1099,
-      "converted": 1099,
+      "amount": 968,
+      "converted": 968,
       "basis": "retailer_current",
-      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-04 Yahoo Tefal饗樂四件組夜殺968到期，本輪07:08重新讀主頁1099、立即購買/加車；頁面9折是需領券，不推算989或延用968。"
+      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
+      "note": "2026-11-04 晚間原生Chrome覆核：饗樂系列不沾鍋具4件組主商品公開顯示NT$968，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",

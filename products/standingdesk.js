@@ -2691,6 +2691,100 @@
         }
       ]
     }
+  },
+  {
+    "id": "standingdesk-cougar-e-odyssey-150",
+    "category": "standingdesk",
+    "brand": "COUGAR",
+    "model": "CGR-E-ODYSSEY150",
+    "name": "E-ODYSSEY 150×70 雙馬達旗艦電動升降桌（附洞洞板與配件）",
+    "rank": 28,
+    "budget": "premium",
+    "channel": "tw",
+    "price": {
+      "currency": "TWD",
+      "amount": 19990,
+      "converted": 19990,
+      "basis": "retailer_current",
+      "confidence": "2026-11-04 Chrome人工核對PChome主商品公開網路價19990、建議23990與購買CTA；API正庫存。",
+      "note": "PChome DCBB6O-A900I85QU公開Price.P=19990、Qty=3，非會員券或卡回饋；標準宅配與上樓組裝費另依頁面。交期與庫存以原頁為準。"
+    },
+    "installation": {
+      "status": "excluded",
+      "note": "標準商品需DIY組裝；宅配一樓、上樓與到府組裝屬另行報價服務，可能有偏遠加價。"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DCBB6OA900I85QU/000001_1793329105.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DCBB6O-A900I85QU",
+    "buyLabel": "PChome",
+    "specs": [
+      "桌面：150×70cm；雙電動馬達",
+      "桌板厚度：2.5cm",
+      "高度：官網73–118cm（標示含桌板）；手冊寫需另加桌板厚度，購前向台灣客服確認",
+      "承重：桌面100kg；兩側平台與洞洞板各限重5kg",
+      "2組記憶高度；健康模式；遇阻停止與陀螺儀偏斜保護",
+      "人體工學扶手兼抽屜；隱藏理線槽與耳機掛鉤",
+      "洞洞板附筆筒×1、耳機支架×2、遊戲控制器支架×2、掛鉤×6、磁鐵×5、儲物槽×3",
+      "完整產品尺寸：寬168.9×深75.8×高151.6cm（含層架等結構，依官方）",
+      "重量：57.3kg（不含包裝）；建議兩人安裝",
+      "供電：100–240V AC；頻率未標示，台灣通路公司貨",
+      "保固：電動桌腳5年、電子零件2年；保留購買憑證"
+    ],
+    "description": "COUGAR現行旗艦電動電競桌，150×70cm木紋桌面加上洞洞板、兩側平台與收納抽屜，雙馬達與兩組高度記憶適合固定工作站。這是不同配備定位的新候選，不自行認定為E-GRAV或E-STAR直接後繼。",
+    "pros": [
+      "桌厚2.5cm、雙馬達與100kg桌面承重",
+      "附洞洞板及多種收納配件，不需另購基本配件",
+      "台灣官方有保固、售後及付費組裝管道"
+    ],
+    "cons": [
+      "完整結構寬168.9cm、淨重57.3kg，需預留搬運與安裝空間",
+      "高度是否含桌板的官網與手冊說法不同，需購前確認",
+      "只有2組記憶；上樓、偏遠與到府組裝可能加價"
+    ],
+    "bestFor": "需要洞洞板收納、多螢幕與雙馬達電動升降的電競或創作工作站。",
+    "recommendation": "收納電競推薦：需要洞洞板和兩側平台可評估；先核對站姿手肘高度、門寬與桌面夾具干涉，勿將單純新配備視為現售舊桌必須汰換。",
+    "score": 84,
+    "voltage": "100–240V AC；官方未標示頻率，台灣PChome新品通路。",
+    "warranty": "COUGAR台灣官方：電動桌腳5年、電子零件2年，其他部位與適用條件依台灣供應商；需保留購買證明。",
+    "tags": [
+      "雙馬達",
+      "洞洞板",
+      "桌厚2.5cm",
+      "收納電競推薦"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "checkedAt": "2026-11-04",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "note": "已查PChome exact新品、FindPrice E-ODYSSEY跨站比價及飛比入口；本輪可重現公開現價19990，但比價頁未提供可核歷史序列，飛比來源連線失敗，未把現價或當日跨站低價推定史低。",
+      "currency": "TWD",
+      "amount": null,
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": ""
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-11-04",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "\"CGR-E-ODYSSEY150\" site:reddit.com",
+          "queryUrl": "https://www.google.com/search?q=%22CGR-E-ODYSSEY150%22%20site%3Areddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"CGR-E-ODYSSEY150\" site:mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=%22CGR-E-ODYSSEY150%22%20site%3Amobile01.com"
+        }
+      ]
+    }
   }
 ]);
 })();

@@ -512,11 +512,11 @@
     "name": "微波大師 27L 氣炸烤箱微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 8990,
-      "converted": 8990,
-      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 8630,
+      "converted": 8630,
+      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
       "basis": "retailer_current",
-      "note": "2026-11-04 下午重新查核：PChome exact SKU DMBJ02-A900I9LQ2；Price.P=8990元，Qty=13。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。"
+      "note": "2026-11-04 晚間原生Chrome覆核：OM27-M54主商品公開顯示NT$8630，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ02A900I9LQ2/000001_1782379010.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ02-A900I9LQ2",
@@ -912,10 +912,10 @@
     "name": "20L 多功能蒸氣氣炸烤箱",
     "price": {
       "currency": "TWD",
-      "amount": 9999,
-      "converted": 9999,
-      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-04 下午重新查核：PChome exact SKU DMBM0G-A900HF91A；Price.P=9999元，Qty=2。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。",
+      "amount": 9499,
+      "converted": 9499,
+      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
+      "note": "2026-11-04 晚間原生Chrome覆核：CSO-500TW主商品公開顯示NT$9499，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900HF91A/000001_1768545220.jpg",
@@ -1904,11 +1904,11 @@
     "name": "蒸烘烤變頻微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 43920,
-      "converted": 43920,
-      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 41724,
+      "converted": 41724,
+      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
       "basis": "retailer_current",
-      "note": "2026-11-04 下午重新查核：PChome exact SKU DMBM0G-A900H5125；Price.P=43920元，Qty=2。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。"
+      "note": "2026-11-04 晚間原生Chrome覆核：VE8966主商品公開顯示NT$41724，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900H5125/000001_1783054719.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM0G-A900H5125",
@@ -2412,9 +2412,11 @@
     "name": "Combi 14 合 1 多功能氣炸蒸烤箱",
     "price": {
       "currency": "TWD",
-      "amount": 9900,
-      "converted": 9900,
-      "confidence": "SharkNinja 台灣官方商城 2026-08-06 exact-model InStock 公開促銷價"
+      "amount": 9911,
+      "converted": 9911,
+      "confidence": "2026-11-04 Chrome人工核對台灣代理官網主價格。",
+      "basis": "retailer_current",
+      "note": "2026-11-04 晚間覆核：SFP701TW主價9911、劃線12900、數量1與加入購物車可用；電子報95折券未扣。"
     },
     "image": "https://sharkninja.tw/cdn/shop/files/1_814ff1dc-2e54-41b6-84b8-bf2af373ecac.jpg?v=1769416258",
     "buyUrl": "https://sharkninja.tw/products/combi-sfp701tw",
@@ -2423,7 +2425,7 @@
       "12.5L / 14 種烹調模式 / 4–6 人料理份量",
       "高溫水蒸氣＋360°旋風氣炸 / 下蒸上烤雙層同步烹調",
       "40–240°C 控溫 / 可放 8 人份米飯、一隻烤雞或 10 吋披薩",
-      "尺寸：寬 40 x 深 37 x 高 33 cm",
+      "尺寸：寬 39.5 x 深 37.5 x 高 33.5 cm",
       "重量：10.5 kg",
       "110V / 60Hz / 1580W / BSMI R3H226",
       "陶瓷不沾配件可放洗碗機"

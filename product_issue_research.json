@@ -1,9 +1,9 @@
 {
   "summary": {
-    "checkedAt": "2026-11-04T06:24:01.802Z",
-    "total": 1235,
+    "checkedAt": "2026-11-04T00:00:00+08:00",
+    "total": 1238,
     "commonIssueProducts": 54,
-    "noCommonIssueProducts": 1181,
+    "noCommonIssueProducts": 1184,
     "pendingManualReview": 0,
     "commonIssues": 55,
     "searchUnavailable": 614,
@@ -39,8 +39,10 @@
       "2026-11-02僅新增本批1款的逐型跨站人工覆核；其他1231筆及392筆逐人報告保留原始研究日期與內容，不跨尺寸、版本、相近型號轉借結論。",
       "2026-11-03僅新增本批1款的逐型跨站人工覆核；其他1232筆及392筆逐人報告保留原始研究日期與內容，不跨尺寸、版本、相近型號轉借結論。",
       "2026-11-04僅新增本批1款的逐型跨站人工覆核；其他1233筆及392筆逐人報告保留原始研究日期與內容，不跨尺寸、版本、相近型號轉借結論。",
-      "2026-11-04下午只對新增HALO-NEO-1M人工覆核PTT、Mobile01、Dcard及Reddit完整型號查詢；四站均無exact原頁候選，未成立集中問題。既有1234款逐型問題決策、證據及日期原樣保留。"
-    ]
+      "2026-11-04下午只對新增HALO-NEO-1M人工覆核PTT、Mobile01、Dcard及Reddit完整型號查詢；四站均無exact原頁候選，未成立集中問題。既有1234款逐型問題決策、證據及日期原樣保留。",
+      "2026-11-04晚間僅對新增U3226Q、DDL902-MFVP-11HWS、CGR-E-ODYSSEY150完成逐型跨站人工覆核；Dell四個Reddit原頁逐一處置，另外兩款完整型號與系列別名查詢未見可確認原頁候選。既有1235款與392筆逐人回報保留原日期，不宣稱全站同日重新閱讀原始評價。"
+    ],
+    "researchedThisRun": 3
   },
   "results": [
     {
@@ -222264,6 +222266,493 @@
           "candidateUrls": [],
           "candidates": [],
           "inspectedAt": "2026-11-04T06:17:47.127Z"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [],
+      "reports": []
+    },
+    {
+      "id": "monitor-dell-u3226q",
+      "category": "monitor",
+      "brand": "Dell",
+      "model": "U3226Q",
+      "name": "31.5 吋 4K 120Hz QD-OLED 專業校色螢幕",
+      "identity": {
+        "canonicalModel": "U3226Q",
+        "lookupLabel": "Dell U3226Q",
+        "aliases": [
+          "Dell U3226Q"
+        ],
+        "evidenceUrl": "https://www.dell.com/zh-tw/shop/monitors/apd/dell-ultrasharp-32-4k-qd-oled-%E9%A1%AF%E7%A4%BA%E5%99%A8-u3226q/u3226q/-"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "id": "monitor-dell-u3226q",
+        "category": "monitor",
+        "brand": "Dell",
+        "model": "U3226Q",
+        "reviewedAt": "2026-11-04",
+        "reviewBatch": "monitor",
+        "decision": "no_common_issue",
+        "checkedPlatforms": [
+          "Reddit",
+          "Mobile01",
+          "PTT"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"U3226Q\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22U3226Q%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20failure%29"
+          },
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"Dell\" \"U3226Q\" 災情 問題 故障",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Dell%22%20%22U3226Q%22%20%E7%81%BD%E6%83%85%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"Dell\" \"U3226Q\" 問題 故障",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22Dell%22%20%22U3226Q%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C"
+          }
+        ],
+        "candidateDisposition": "U3226Q逐站exact-model查詢已人工檢視；Reddit四個原頁分別為同作者兩則正評/用途比較、不同U5226KW故障及影片轉貼，均不滿足本款同一故障6人跨2站；Mobile01與PTT兩組查詢皆Empty search results。",
+        "representativeSources": [
+          {
+            "platform": "Reddit",
+            "title": "I recently delivered two docs on a Dell U3226Q. What does a Flanders XMP310 actually give you for the extra $10K?",
+            "url": "https://www.reddit.com/r/colorists/comments/1uw3n37/i_recently_delivered_two_docs_on_a_dell_u3226q/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Dell U3226Q: OLED blacks + built-in colorimeter. What else exists in this near-reference category?",
+            "url": "https://www.reddit.com/r/Monitors/comments/1uwzvdz/dell_u3226q_oled_blacks_builtin_colorimeter_what/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Dell U5226KW KVM issues",
+            "url": "https://www.reddit.com/r/ultrawidemasterrace/comments/1t1weik/dell_u5226kw_kvm_issues/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Dell UltraSharp U3226Q (31.5-inch 4K 120Hz QD-OLED monitor) — video review by ShortCircuit",
+            "url": "https://www.reddit.com/r/oled_monitors/comments/1x5fj4x/dell_ultrasharp_u3226q_315_4k_120hz_qdoled/"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "url": "https://www.reddit.com/r/colorists/comments/1uw3n37/i_recently_delivered_two_docs_on_a_dell_u3226q/",
+            "title": "I recently delivered two docs on a Dell U3226Q. What does a Flanders XMP310 actually give you for the extra $10K?",
+            "exactModel": true,
+            "independentAuthors": 1,
+            "reviewedAuthors": [
+              "vashivisuals"
+            ],
+            "sourceExcerpt": "vashivisuals 明示自己使用 Dell U3226Q 完成兩部紀錄片並表示沒有遇到問題，喜歡OLED黑位及內建色度計；bozduke13等回覆討論參考監看器校色，未提供自用U3226Q同一故障。",
+            "specificReason": "vashivisuals為一位本款自用正評；其他發言關於Flanders/EIZO/ASUS校色取捨或一般OLED限制，沒有本款第一人稱集中故障，不把討論人數當故障人數。",
+            "platform": "Reddit",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-04"
+          },
+          {
+            "url": "https://www.reddit.com/r/Monitors/comments/1uwzvdz/dell_u3226q_oled_blacks_builtin_colorimeter_what/",
+            "title": "Dell U3226Q: OLED blacks + built-in colorimeter. What else exists in this near-reference category?",
+            "exactModel": true,
+            "independentAuthors": 1,
+            "reviewedAuthors": [
+              "vashivisuals"
+            ],
+            "sourceExcerpt": "原作者稱已購U3226Q用於紀錄片與長片調色，詢問其他參考級監看器選擇；loliii123及bozduke13建議DeckLink、EIZO與ASUS，未回報自用本款故障。",
+            "specificReason": "與colorists串為同作者同一台監看器的跨社群討論，去重只算一人且是正面購後用途詢問；不把其他型號或一般訊號鏈風險移植成U3226Q災情。",
+            "platform": "Reddit",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-04"
+          },
+          {
+            "url": "https://www.reddit.com/r/ultrawidemasterrace/comments/1t1weik/dell_u5226kw_kvm_issues/",
+            "title": "Dell U5226KW KVM issues",
+            "exactModel": false,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "Picklepirate87",
+              "Mtenga9268"
+            ],
+            "sourceExcerpt": "Picklepirate87與Mtenga9268反映的是52吋U5226KW喚醒/KVM問題；HJ_wu在外接KVM建議中順帶列U3226Q，沒有聲稱持有U3226Q或本款發生該症狀。",
+            "specificReason": "故障主體為U5226KW，U3226Q只有第三人的相容設備建議提及，exactModel=false；不因搜尋命中把不同尺寸、不同面板型號的KVM故障轉移。",
+            "platform": "Reddit",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-04"
+          },
+          {
+            "url": "https://www.reddit.com/r/oled_monitors/comments/1x5fj4x/dell_ultrasharp_u3226q_315_4k_120hz_qdoled/",
+            "title": "Dell UltraSharp U3226Q (31.5-inch 4K 120Hz QD-OLED monitor) — video review by ShortCircuit",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "MT4K"
+            ],
+            "sourceExcerpt": "MT4K轉貼ShortCircuit影片，留言只補影片日期與另篇新品資料連結，未描述自己使用U3226Q的故障。",
+            "specificReason": "屬評測影片轉貼與產品消息，不是可計數的第一人稱故障回報；沒有以轉貼、點讚或影片觀看數作為獨立使用者數。",
+            "platform": "Reddit",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-04"
+          }
+        ],
+        "reviewerNote": "U3226Q於2026-11-04人工開啟四個Reddit候選原頁並核作者、機種及第一人稱邊界；Mobile01/PTT當日完整exact查詢無候選。沒有取得同一問題6位獨立使用者跨2原始網站的證據，未把單一平台討論或不同型號故障合併。",
+        "attestation": "manual_original_pages_reviewed",
+        "status": "completed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-11-04",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"U3226Q\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22U3226Q%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20failure%29"
+          },
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"Dell\" \"U3226Q\" 災情 問題 故障",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Dell%22%20%22U3226Q%22%20%E7%81%BD%E6%83%85%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"Dell\" \"U3226Q\" 問題 故障",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22Dell%22%20%22U3226Q%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"U3226Q\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22U3226Q%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20failure%29",
+          "searchUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22U3226Q%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20failure%29",
+          "result": "candidates_unverified_by_search_only",
+          "candidateUrls": [
+            "https://www.reddit.com/r/colorists/comments/1uw3n37/i_recently_delivered_two_docs_on_a_dell_u3226q/",
+            "https://www.reddit.com/r/Monitors/comments/1uwzvdz/dell_u3226q_oled_blacks_builtin_colorimeter_what/",
+            "https://www.reddit.com/r/ultrawidemasterrace/comments/1t1weik/dell_u5226kw_kvm_issues/",
+            "https://www.reddit.com/r/oled_monitors/comments/1x5fj4x/dell_ultrasharp_u3226q_315_4k_120hz_qdoled/"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.reddit.com/r/colorists/comments/1uw3n37/i_recently_delivered_two_docs_on_a_dell_u3226q/",
+              "title": "I recently delivered two docs on a Dell U3226Q. What does a Flanders XMP310 actually give you for the extra $10K?"
+            },
+            {
+              "url": "https://www.reddit.com/r/Monitors/comments/1uwzvdz/dell_u3226q_oled_blacks_builtin_colorimeter_what/",
+              "title": "Dell U3226Q: OLED blacks + built-in colorimeter. What else exists in this near-reference category?"
+            },
+            {
+              "url": "https://www.reddit.com/r/ultrawidemasterrace/comments/1t1weik/dell_u5226kw_kvm_issues/",
+              "title": "Dell U5226KW KVM issues"
+            },
+            {
+              "url": "https://www.reddit.com/r/oled_monitors/comments/1x5fj4x/dell_ultrasharp_u3226q_315_4k_120hz_qdoled/",
+              "title": "Dell UltraSharp U3226Q (31.5-inch 4K 120Hz QD-OLED monitor) — video review by ShortCircuit"
+            }
+          ],
+          "inspectedAt": "2026-11-04T12:00:13.693860+00:00",
+          "resultCount": 4
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"Dell\" \"U3226Q\" 災情 問題 故障",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Dell%22%20%22U3226Q%22%20%E7%81%BD%E6%83%85%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Dell%22%20%22U3226Q%22%20%E7%81%BD%E6%83%85%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C",
+          "result": "no_exact_model_result",
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-04T12:00:13.693860+00:00",
+          "resultCount": 0
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"Dell\" \"U3226Q\" 問題 故障",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22Dell%22%20%22U3226Q%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C",
+          "searchUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22Dell%22%20%22U3226Q%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C",
+          "result": "no_exact_model_result",
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-04T12:00:13.693860+00:00",
+          "resultCount": 0
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "url": "https://www.reddit.com/r/colorists/comments/1uw3n37/i_recently_delivered_two_docs_on_a_dell_u3226q/",
+          "title": "I recently delivered two docs on a Dell U3226Q. What does a Flanders XMP310 actually give you for the extra $10K?",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "reviewedAuthors": [
+            "vashivisuals"
+          ],
+          "sourceExcerpt": "vashivisuals 明示自己使用 Dell U3226Q 完成兩部紀錄片並表示沒有遇到問題，喜歡OLED黑位及內建色度計；bozduke13等回覆討論參考監看器校色，未提供自用U3226Q同一故障。",
+          "specificReason": "vashivisuals為一位本款自用正評；其他發言關於Flanders/EIZO/ASUS校色取捨或一般OLED限制，沒有本款第一人稱集中故障，不把討論人數當故障人數。",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-04",
+          "reason": "vashivisuals為一位本款自用正評；其他發言關於Flanders/EIZO/ASUS校色取捨或一般OLED限制，沒有本款第一人稱集中故障，不把討論人數當故障人數。"
+        },
+        {
+          "url": "https://www.reddit.com/r/Monitors/comments/1uwzvdz/dell_u3226q_oled_blacks_builtin_colorimeter_what/",
+          "title": "Dell U3226Q: OLED blacks + built-in colorimeter. What else exists in this near-reference category?",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "reviewedAuthors": [
+            "vashivisuals"
+          ],
+          "sourceExcerpt": "原作者稱已購U3226Q用於紀錄片與長片調色，詢問其他參考級監看器選擇；loliii123及bozduke13建議DeckLink、EIZO與ASUS，未回報自用本款故障。",
+          "specificReason": "與colorists串為同作者同一台監看器的跨社群討論，去重只算一人且是正面購後用途詢問；不把其他型號或一般訊號鏈風險移植成U3226Q災情。",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-04",
+          "reason": "與colorists串為同作者同一台監看器的跨社群討論，去重只算一人且是正面購後用途詢問；不把其他型號或一般訊號鏈風險移植成U3226Q災情。"
+        },
+        {
+          "url": "https://www.reddit.com/r/ultrawidemasterrace/comments/1t1weik/dell_u5226kw_kvm_issues/",
+          "title": "Dell U5226KW KVM issues",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "Picklepirate87",
+            "Mtenga9268"
+          ],
+          "sourceExcerpt": "Picklepirate87與Mtenga9268反映的是52吋U5226KW喚醒/KVM問題；HJ_wu在外接KVM建議中順帶列U3226Q，沒有聲稱持有U3226Q或本款發生該症狀。",
+          "specificReason": "故障主體為U5226KW，U3226Q只有第三人的相容設備建議提及，exactModel=false；不因搜尋命中把不同尺寸、不同面板型號的KVM故障轉移。",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-04",
+          "reason": "故障主體為U5226KW，U3226Q只有第三人的相容設備建議提及，exactModel=false；不因搜尋命中把不同尺寸、不同面板型號的KVM故障轉移。"
+        },
+        {
+          "url": "https://www.reddit.com/r/oled_monitors/comments/1x5fj4x/dell_ultrasharp_u3226q_315_4k_120hz_qdoled/",
+          "title": "Dell UltraSharp U3226Q (31.5-inch 4K 120Hz QD-OLED monitor) — video review by ShortCircuit",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "MT4K"
+          ],
+          "sourceExcerpt": "MT4K轉貼ShortCircuit影片，留言只補影片日期與另篇新品資料連結，未描述自己使用U3226Q的故障。",
+          "specificReason": "屬評測影片轉貼與產品消息，不是可計數的第一人稱故障回報；沒有以轉貼、點讚或影片觀看數作為獨立使用者數。",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-04",
+          "reason": "屬評測影片轉貼與產品消息，不是可計數的第一人稱故障回報；沒有以轉貼、點讚或影片觀看數作為獨立使用者數。"
+        }
+      ],
+      "reports": []
+    },
+    {
+      "id": "smartlock-philips-ddl902-mfvp",
+      "category": "smartlock",
+      "brand": "Philips",
+      "model": "DDL902-MFVP-11HWS",
+      "name": "DDL902-MFVP 掌靜脈人臉三鏡可視電子鎖（預購）",
+      "identity": {
+        "canonicalModel": "DDL902-MFVP-11HWS",
+        "lookupLabel": "Philips DDL902-MFVP-11HWS",
+        "aliases": [
+          "DDL902-MFVP-11HWS",
+          "DDL902-MFVP"
+        ],
+        "evidenceUrl": "https://www.ljtwm.com/product/philips-easykey-ddl902-mfvp/"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "id": "smartlock-philips-ddl902-mfvp",
+        "category": "smartlock",
+        "brand": "Philips",
+        "model": "DDL902-MFVP-11HWS",
+        "name": "DDL902-MFVP 掌靜脈人臉三鏡可視電子鎖（預購）",
+        "status": "completed",
+        "reviewedAt": "2026-11-04",
+        "reviewBatch": "smartlock",
+        "decision": "no_common_issue",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"DDL902-MFVP-11HWS\" (問題 OR 故障 OR 心得)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22DDL902-MFVP-11HWS%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97)"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"DDL902-MFVP-11HWS\" (問題 OR 故障 OR 心得)",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22DDL902-MFVP-11HWS%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97)"
+          }
+        ],
+        "candidateDisposition": "DDL902-MFVP-11HWS：本輪人工逐組檢視Mobile01與PTT完整型號問題查詢，並補查DDL902-MFVP短型號；四組均無搜尋結果，沒有可回原頁核對的exact-model候選，也沒有計入故障作者。",
+        "representativeSources": [],
+        "reviewerNote": "DDL902-MFVP-11HWS：已實際執行並人工閱讀兩個獨立網站的完整型號與短型號查詢結果，均回傳空結果；沒有把代理宣傳、DDL720或其他版本當使用者故障報告。這只是截至查核日未達六人跨兩站的集中問題門檻，不代表完全沒有負評。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate",
+        "candidateReviews": []
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-11-04",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"DDL902-MFVP-11HWS\" (問題 OR 故障 OR 心得)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22DDL902-MFVP-11HWS%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97)"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"DDL902-MFVP-11HWS\" (問題 OR 故障 OR 心得)",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22DDL902-MFVP-11HWS%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97)"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"DDL902-MFVP-11HWS\" (問題 OR 故障 OR 心得)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22DDL902-MFVP-11HWS%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97)",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22DDL902-MFVP-11HWS%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-04",
+          "note": "實際人工閱讀限定站點完整型號查詢；沒有搜尋結果，短型號補查亦無結果。"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"DDL902-MFVP-11HWS\" (問題 OR 故障 OR 心得)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22DDL902-MFVP-11HWS%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97)",
+          "searchUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22DDL902-MFVP-11HWS%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-04",
+          "note": "實際人工閱讀限定站點完整型號查詢；沒有搜尋結果，短型號補查亦無結果。"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [],
+      "reports": []
+    },
+    {
+      "id": "standingdesk-cougar-e-odyssey-150",
+      "category": "standingdesk",
+      "brand": "COUGAR",
+      "model": "CGR-E-ODYSSEY150",
+      "name": "E-ODYSSEY 150×70 雙馬達旗艦電動升降桌（附洞洞板與配件）",
+      "identity": {
+        "canonicalModel": "CGR-E-ODYSSEY150",
+        "lookupLabel": "COUGAR CGR-E-ODYSSEY150",
+        "aliases": [
+          "COUGAR E-ODYSSEY",
+          "E-Odyssey"
+        ],
+        "evidenceUrl": "https://cougargaming.com/tw/products/desks/e-odyssey/"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "id": "standingdesk-cougar-e-odyssey-150",
+        "category": "standingdesk",
+        "brand": "COUGAR",
+        "model": "CGR-E-ODYSSEY150",
+        "reviewedAt": "2026-11-04",
+        "reviewBatch": "standingdesk",
+        "decision": "no_common_issue",
+        "checkedPlatforms": [
+          "Reddit",
+          "Mobile01"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "\"CGR-E-ODYSSEY150\" site:reddit.com",
+            "queryUrl": "https://www.google.com/search?q=%22CGR-E-ODYSSEY150%22%20site%3Areddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "\"CGR-E-ODYSSEY150\" site:mobile01.com",
+            "queryUrl": "https://www.google.com/search?q=%22CGR-E-ODYSSEY150%22%20site%3Amobile01.com"
+          }
+        ],
+        "candidateDisposition": "CGR-E-ODYSSEY150於Reddit及Mobile01兩組完整官方型號查詢皆Empty search results；另以E-ODYSSEY別名查Mobile01/PTT，命中僅為不相干Assassins Creed Odyssey主機板測試，經型號邊界過濾後沒有本桌候選。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "CGR-E-ODYSSEY150於2026-11-04人工逐站檢視完整型號查詢，未發現經型號邊界確認的論壇候選；未達同問題6位跨2原始網站門檻，不把空搜尋自動等同沒有負評，保留查核範圍與未知。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate",
+        "status": "completed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-11-04",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "\"CGR-E-ODYSSEY150\" site:reddit.com",
+            "queryUrl": "https://www.google.com/search?q=%22CGR-E-ODYSSEY150%22%20site%3Areddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "\"CGR-E-ODYSSEY150\" site:mobile01.com",
+            "queryUrl": "https://www.google.com/search?q=%22CGR-E-ODYSSEY150%22%20site%3Amobile01.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "\"CGR-E-ODYSSEY150\" site:reddit.com",
+          "queryUrl": "https://www.google.com/search?q=%22CGR-E-ODYSSEY150%22%20site%3Areddit.com",
+          "searchUrl": "https://www.google.com/search?q=%22CGR-E-ODYSSEY150%22%20site%3Areddit.com",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-04T12:07:04.189722+00:00"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"CGR-E-ODYSSEY150\" site:mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=%22CGR-E-ODYSSEY150%22%20site%3Amobile01.com",
+          "searchUrl": "https://www.google.com/search?q=%22CGR-E-ODYSSEY150%22%20site%3Amobile01.com",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-04T12:07:04.189722+00:00"
         }
       ],
       "evidence": [],
