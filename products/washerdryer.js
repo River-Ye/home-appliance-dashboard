@@ -15,10 +15,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/3a594d8137-Gd-10216764.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 20497,
-      "converted": 20497,
-      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
-      "note": "2026-11-04 LGWDS90VDW schema19900但正文動態購買主價未呈現，保留舊參考價，需原生購買區核實。未取得原廠台灣exact整型停產正證，不據此刪除。",
+      "amount": 19900,
+      "converted": 19900,
+      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-04 原生Chrome主商品：現省NT$9000、NT$28900劃線、NT$19900；連結「立即購買」可用。 不另扣會員券、信用卡、點數或推算優惠；送貨及基本安裝條件依原頁。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -963,10 +963,11 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/953C366DCA-SP-17994282.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 49900,
-      "converted": 49900,
-      "confidence": "2026-10-24人工核對www.lg.com同型號同版本公開TWD 49900；未扣個人化券、信用卡或點數。",
-      "note": "2026-11-04 LGWDS18NDB schema49111但正文動態主價未呈現，保留舊參考價。未取得原廠台灣exact整型停產正證，不據此刪除。"
+      "amount": 49111,
+      "converted": 49111,
+      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-04 原生Chrome主商品：現省NT$6789、NT$55900劃線、NT$49111；連結「立即購買」可用。 不另扣會員券、信用卡、點數或推算優惠；送貨及基本安裝條件依原頁。",
+      "basis": "retailer_current"
     },
     "channel": "tw",
     "buyLabel": "LG 官方商城",
@@ -1276,11 +1277,11 @@
     "image": "https://cs-a.ecimg.tw/items/DPAI1HA900AMJJK/000001_1761009175.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 21414,
-      "converted": 21414,
-      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 22410,
+      "converted": 22410,
+      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-04 人工核對當日PChome exact商品ID DPAI1H-A900AMJJK：Panasonic國際牌 變頻12公斤洗脫烘滾筒洗衣機 NA-V120HDH-G；Panasonic國際牌 變頻12公斤洗脫烘滾筒洗衣機 NA-V120HDH-G<font color=0146D4>含基本運送+拆箱定位+回收舊機</font>；Price.Low=21414元，Qty=20。原HTML主商品另讀。不扣個人券、點數、信用卡；送貨安裝請確認。"
+      "note": "2026-11-04 下午重新查核：PChome exact SKU DPAI1H-A900AMJJK；Price.Low=22410元，Qty=20。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1700,10 +1701,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/41046DB844-SP-12334280.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 34280,
-      "converted": 34280,
-      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-04 Yahoo NAV150MDH主商品34280、折前37260，滿1件92折，由廠商約定送貨。可下單/加車，不扣個人券、信用卡、點數或贈品。當日原活動期限2026-11-04T08:00:59+08:00，非沿用昨日到期活動。",
+      "amount": 37260,
+      "converted": 37260,
+      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開可訂報價；出貨與到貨時程待確認。",
+      "note": "2026-11-04 午後人工覆核：Yahoo同型號主商品公開價37260元；立即購買/加入購物車可用。上午促銷已結束，本輪主價已回復，未扣個人券、點數或信用卡回饋。 不扣個人化回饋或贈品。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -2730,10 +2731,10 @@
     "image": "https://pstw.panasonic.com.tw/shop/Upload/Product/20260514190222S44S2J5E.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 38614,
-      "converted": 38614,
-      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-04 人工核對當日PChome exact商品ID DPAI1H-A900JXCDB：Panasonic國際牌 10.5公斤日本製低溫柔護烘乾洗脫烘滾筒洗衣機NA-SD10TB(雪霧白)；Panasonic國際牌 10.5公斤日本製低溫柔護烘乾洗脫烘滾筒洗衣機NA-SD10TB(雪霧白)；Price.Low=38614元，Qty=20。原HTML主商品另讀。不扣個人券、點數、信用卡；送貨安裝請確認。",
+      "amount": 40410,
+      "converted": 40410,
+      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 下午重新查核：PChome exact SKU DPAI1H-A900JXCDB；Price.Low=40410元，Qty=20。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -2837,9 +2838,11 @@
     "image": "https://www.lg.com/content/dam/channel/wcms/tw/images/washer-dryers/washer-dryer-combos/wd-s22fhdb/gallery/new/WD-S22FHDB-450.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 86900,
-      "converted": 86900,
-      "confidence": "2026-10-24人工核對www.lg.com同型號同版本公開TWD 86900；未扣個人化券、信用卡或點數。"
+      "amount": 85111,
+      "converted": 85111,
+      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-04 原生Chrome主商品：現省NT$7789、NT$92900劃線、NT$85111；連結「立即購買」可用。 不另扣會員券、信用卡、點數或推算優惠；送貨及基本安裝條件依原頁。"
     },
     "channel": "tw",
     "buyLabel": "LG 台灣官方商城",
@@ -3056,11 +3059,11 @@
     "name": "10/7kg i-DOS 智慧聯網洗脫烘",
     "price": {
       "currency": "TWD",
-      "amount": 46000,
-      "converted": 46000,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "amount": 50000,
+      "converted": 50000,
+      "confidence": "Yahoo購物中心 2026-11-04 exact-model 公開結構化價格",
       "basis": "retailer_current",
-      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。 公開活動滿1件享92折，有效至2026-11-02T08:00:59+08:00。"
+      "note": "2026-11-04 下午重新查核：Yahoo/Costco原商品頁同型號公開主價50000 TWD。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DPAID7A900IHEVX/000001_1776657918.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/BOSCH%E5%8D%9A%E4%B8%96-10-7%E5%85%AC%E6%96%A4%E9%AB%98%E6%95%88%E6%99%BA%E6%85%A7%E6%BB%BE%E7%AD%92%E6%B4%97%E8%84%AB%E7%83%98-%E5%90%AB%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-220V%E6%8B%89%E9%9B%BB-WNC554A0TC-11546320.html",
@@ -3238,10 +3241,11 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 65128,
-      "converted": 65128,
+      "amount": 67860,
+      "converted": 67860,
       "basis": "retailer_current",
-      "confidence": "2026-10-24 人工核對 www.myfone.com.tw 同型號與所選版本公開價 TWD 65128，可下單；未扣會員、信用卡或點數。"
+      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-04 下午覆核：原生myfone P0000203745173左開NA-LX128EL含基本安裝與舊機回收主價67860、定價73900、數量1、放入購物車；另列11/16前結帳95折與原廠登錄送3000，皆未扣除。"
     },
     "installation": {
       "status": "included_basic",

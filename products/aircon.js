@@ -1905,12 +1905,12 @@
     "name": "HERAN HI-SL36 / HO-SL36 一對一分離式變頻冷專",
     "price": {
       "currency": "TWD",
-      "amount": 27300,
-      "converted": 27300,
-      "confidence": "2026-10-24人工核對www.3uo.tw同型號同版本公開TWD 27300；未扣個人化券、信用卡或點數。",
+      "amount": 27500,
+      "converted": 27500,
+      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
       "scope": "complete_system",
-      "note": "2026-10-24原頁未登入公開價，含完整室內/室外機與基本安裝（銅管控制線5米內）、安全範圍舊機回收；追加施工另計，不採會員折扣。"
+      "note": "2026-11-04 下午覆核：玉明電器原商品頁主商品明示目前價格NT$27500，完整室內外機組、含基本安裝銅管控制線5米內與安全範圍免費舊機回收；主商品數量與加入購物車，未採相關商品、會員價或回饋。"
     },
     "installation": {
       "status": "included_basic",
@@ -2030,11 +2030,12 @@
     "name": "HERAN HI-SL41R / HO-SL41R 一對一分離式變頻冷專",
     "price": {
       "currency": "TWD",
-      "amount": 28800,
-      "converted": 28800,
-      "confidence": "2026-08-31 人工核對 玉明電器 exact-pair 完整室內外機新品公開價 HI-SL41R / HO-SL41R 公開可購主價 TWD 28,800；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。",
+      "amount": 29500,
+      "converted": 29500,
+      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "scope": "complete_system"
+      "scope": "complete_system",
+      "note": "2026-11-04 下午覆核：玉明電器原商品頁主商品明示目前價格NT$29500，完整室內外機組、含基本安裝銅管控制線5米內與安全範圍免費舊機回收；主商品數量與加入購物車，未採相關商品、會員價或回饋。"
     },
     "installation": {
       "status": "included_basic",
@@ -2154,11 +2155,12 @@
     "name": "HERAN HI-SL80 / HO-SL80 一對一分離式變頻冷專",
     "price": {
       "currency": "TWD",
-      "amount": 46300,
-      "converted": 46300,
-      "confidence": "2026-08-31 人工核對 玉明電器 exact-pair 完整室內外機新品公開價 HI-SL80 / HO-SL80 公開可購主價 TWD 46,300；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。",
+      "amount": 47200,
+      "converted": 47200,
+      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "scope": "complete_system"
+      "scope": "complete_system",
+      "note": "2026-11-04 下午覆核：玉明電器原商品頁主商品明示目前價格NT$47200，完整室內外機組、含基本安裝銅管控制線5米內與安全範圍免費舊機回收；主商品數量與加入購物車，未採相關商品、會員價或回饋。"
     },
     "installation": {
       "status": "included_basic",

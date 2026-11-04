@@ -15,10 +15,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/AC7DC27581-SP-22704432.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 8935,
-      "converted": 8935,
-      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-04 人工核對當日PChome exact商品ID DPAI1H-A900I7ZB7：Panasonic國際牌 8公斤電子式乾衣機NH-80RZ-W(釉光白)；Panasonic國際牌 8公斤電子式乾衣機NH-80RZ-W(釉光白)；Price.Low=8935元，Qty=20。原HTML主商品另讀。不扣個人券、點數、信用卡；送貨安裝請確認。",
+      "amount": 9351,
+      "converted": 9351,
+      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 下午重新查核：PChome exact SKU DPAI1H-A900I7ZB7；Price.Low=9351元，Qty=20。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -530,7 +530,7 @@
       "converted": 32000,
       "confidence": "Yahoo購物中心 2026-09-14 exact-model 公開結構化價格",
       "basis": "retailer_current",
-      "note": "2026-11-04 Yahoo8TWGD5620HW桶裝瓦斯主價29911但已售完，保留舊參考價。未取得原廠台灣exact整型停產正證，不據此刪除。"
+      "note": "2026-11-04 下午覆核：原商品頁已停售/已售完/目前尚無庫存或官方OutOfStock；不將新結構化報價寫為可購現價，也沒有官方整型停產證據，保留既有參考。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物（缺貨，現價待確認）",
@@ -1545,7 +1545,7 @@
       "amount": 6460,
       "converted": 6460,
       "confidence": "Yahoo購物中心 2026-07-11 頁面查核價",
-      "note": "2026-11-04 YahooTAWD60T主價6800但主商品已停售，保留舊參考價。未取得原廠台灣exact整型停產正證，不據此刪除。"
+      "note": "2026-11-04 午後人工覆核：Yahoo TAW-D60T主商品本輪展示6800元，但購買區明示「已停售」，沒有立即購買/加入購物車；保留6460元舊參考價，不採停售/缺貨展示價或自行乘算活動折扣。這是通路listing狀態，不能據此認定原廠整型停產。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物（停售，現價待確認）",
@@ -1645,10 +1645,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/C0FA586EC4-SP-18495887.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 7591,
-      "converted": 7591,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。 公開活動滿1件享95折，有效至2026-11-02T08:00:59+08:00。頁面另列下單再折350元，未確認與95折是否可同時累加，本站保守採主商品明示7591元。",
+      "amount": 7990,
+      "converted": 7990,
+      "confidence": "Yahoo購物中心 2026-11-04 exact-model 公開結構化價格",
+      "note": "2026-11-04 下午重新查核：Yahoo/Costco原商品頁同型號公開主價7990 TWD。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -1951,10 +1951,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/254DF81A1E-SP-20893325.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 45908,
-      "converted": 45908,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。 公開活動滿1件享92折，有效至2026-11-02T08:00:59+08:00。",
+      "amount": 49900,
+      "converted": 49900,
+      "confidence": "Yahoo購物中心 2026-11-04 exact-model 公開結構化價格",
+      "note": "2026-11-04 下午重新查核：Yahoo/Costco原商品頁同型號公開主價49900 TWD。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -2659,11 +2659,11 @@
   "topPick": false,
   "price": {
     "currency": "TWD",
-    "amount": 24605,
-    "converted": 24605,
+    "amount": 25900,
+    "converted": 25900,
     "basis": "retailer_current",
-    "confidence": "2026-10-28 Yahoo自營同型號整機原頁與Chrome主商品確認；公開單件95折。",
-    "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。 公開活動滿1件享95折，有效至2026-11-02T08:00:59+08:00。"
+    "confidence": "Yahoo購物中心 2026-11-04 exact-model 公開結構化價格",
+    "note": "2026-11-04 下午重新查核：Yahoo/Costco原商品頁同型號公開主價25900 TWD。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。"
   },
   "installation": {
     "status": "included_basic",

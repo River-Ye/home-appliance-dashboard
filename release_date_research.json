@@ -1,20 +1,20 @@
 {
   "summary": {
-    "checkedAt": "2026-11-04T07:11:24.531+08:00",
-    "total": 1234,
+    "checkedAt": "2026-11-04T06:24:01.739Z",
+    "total": 1235,
     "researchedThisRun": 1,
     "found": 353,
-    "missing": 881,
+    "missing": 882,
     "byConfidence": {
       "official": 188,
-      "not_found": 878,
+      "not_found": 879,
       "retailer_explicit": 23,
       "credible_article": 52,
       "high": 72,
       "medium": 18,
       "unknown": 3
     },
-    "scopeNote": "2026-11-04僅新增本批1款的上市查核；既有1233筆逐筆研究與日期原樣保留。"
+    "scopeNote": "2026-11-04下午僅新增HALO-NEO-1M的上市查核；既有1234筆逐筆研究及真實查核日期原樣保留，未找到明確上市日。"
   },
   "results": [
     {
@@ -37883,6 +37883,34 @@
           "url": "https://press.asus.com/tw/news/press-releases/asus-rog-rapture-gt-bn98-wifi-8-gaming-router-launch/",
           "title": "再造疾速傳說！ROG推出全球首款WiFi 8電競路由器 | 華碩新聞中心 ASUS Pressroom | 官方華碩新聞、最新消息與新聞稿",
           "outcome": "accepted_explicit_taiwan_launch"
+        }
+      ]
+    },
+    {
+      "id": "monitorarm-raymii-halo-neo-1m",
+      "category": "monitorarm",
+      "brand": "Raymii",
+      "model": "HALO-NEO-1M",
+      "name": "HALO NEO 15kg 15–42吋鋁合金氣壓式螢幕支架",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "checkedAt": "2026-11-04",
+      "query": "\"HALO-NEO-1M\" 上市 發售",
+      "reason": "官方exact產品頁未明示上市/發售日期；完整型號上市/發售查詢未找到可信明確發布日期，不用圖片URL時間戳、頁面上架日或GLOBAL等系列年份推測。",
+      "checkedSources": [
+        {
+          "url": "https://store.raymii.com.tw/products/raymii-halo-neo-1m-aluminum-monitor-arm",
+          "title": "瑞米 Raymii HALO-NEO-1M 鋁合金氣壓式螢幕支架 螢幕架 螢幕增高支架",
+          "outcome": "no_explicit_release_date"
+        },
+        {
+          "url": "https://24h.pchome.com.tw/prod/DCBBC5-A900HCX9R",
+          "title": "PChome Raymii HALO-NEO-1M",
+          "outcome": "no_explicit_release_date"
         }
       ]
     }

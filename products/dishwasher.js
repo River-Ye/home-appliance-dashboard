@@ -1052,11 +1052,11 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR2HA900K4KMO/000001_1782874928.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 32199,
-      "converted": 32199,
-      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 34999,
+      "converted": 34999,
+      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-04 PChome原exact SKU DMBR2H-A900K4KMO，本輪人工核對主標題「【BOSCH 博世】15人份 自動開門嵌櫃式洗碗機(SJU4EKW00W) 【BOSCH 博世】15人份 自動開門嵌櫃式洗碗機(SJU4EKW00W)」、Qty=5、主價32199；採公開Low優先，無Low用P，未扣券/點數/信用卡。HTML受限仍保留API與讀取限制。"
+      "note": "2026-11-04 下午重新查核：PChome exact SKU DMBR2H-A900K4KMO；Price.P=34999元，Qty=5。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1261,13 +1261,14 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR14A900G0F7J/000001_1779679396.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 48203,
-      "converted": 48203,
-      "confidence": "LG 官方商城 2026-07-28 指定商品公開結帳 92 折價（企業客戶／員購除外）",
-      "note": "2026-11-01 LG官方DFB335HS本輪主商品49900元但結構化供貨狀態PreOrder，未證實現貨；不覆蓋原48203元參考，交期需確認。"
+      "amount": 47900,
+      "converted": 47900,
+      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開預購報價；非現貨，交期見註記。",
+      "note": "2026-11-04 原生Chrome主商品：NT$66900劃線、NT$47900、連結「預購」，並明示將於2026年11月13日按購買次序發貨。 不另扣會員券、信用卡、點數或推算優惠；送貨及基本安裝條件依原頁。",
+      "basis": "retailer_current"
     },
     "channel": "tw",
-    "buyLabel": "官方預購／交期需確認",
+    "buyLabel": "LG 官方預購（11/13 起按序出貨）",
     "buyUrl": "https://www.lg.com/tw/dishwashers/all-dishwashers/dfb335hs/",
     "specs": [
       "洗碗機：LG樂金 DFB335HS【QuadWash™ Steam四方洗蒸氣洗碗機】消光銀/自動開門烘乾/觸控面板",
@@ -3098,10 +3099,11 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 25920,
-      "converted": 25920,
+      "amount": 22464,
+      "converted": 22464,
       "basis": "retailer_current",
-      "confidence": "2026-10-24 人工核對 www.momoshop.com.tw 同型號與所選版本公開價 TWD 25920，可下單；未扣會員、信用卡或點數。"
+      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-04 下午覆核：momo14498165原商品HDWE16-58GY3TW明示11/03–11/30滿1件78折，限時折後22464、促銷28800；數量1起可選、不含安裝、保固1年。未推算個人券或回饋。"
     },
     "image": "https://www.haierpro.com.tw/wp-content/uploads/haier海爾變頻獨嵌兩用洗碗機-正面.png",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=14498165",

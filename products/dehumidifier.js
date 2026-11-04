@@ -307,10 +307,10 @@
     "name": "19.6 公升 PuriCare 雙變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 19251,
-      "converted": 19251,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。 公開活動滿1件享92折，有效至2026-11-02T07:59:59+08:00。",
+      "amount": 20924,
+      "converted": 20924,
+      "confidence": "Yahoo購物中心 2026-11-04 exact-model 公開結構化價格",
+      "note": "2026-11-04 下午重新查核：Yahoo/Costco原商品頁同型號公開主價20924 TWD。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4OA900JX7GH/000001_1783563034.jpg",
@@ -893,11 +893,11 @@
     "name": "PuriCare WiFi 變頻除濕機粉紅 16 公升",
     "price": {
       "currency": "TWD",
-      "amount": 13110,
-      "converted": 13110,
-      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 13900,
+      "converted": 13900,
+      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-04 人工核對當日PChome exact商品ID DMBQ07-A900HQ3L5：LG PuriCare™ WiFi變頻除濕機-粉紅/16公升(MD161QPK3)；LG PuriCare™ WiFi變頻除濕機-粉紅/16公升(MD161QPK3)；Price.Low=13110元，Qty=20。原HTML主商品另讀。不扣個人券、點數、信用卡；送貨安裝請確認。"
+      "note": "2026-11-04 下午重新查核：PChome exact SKU DMBQ07-A900HQ3L5；Price.Low=13900元，Qty=20。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ07A900HQ3L5/000001_1761827365.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ07-A900HQ3L5",
@@ -1186,7 +1186,7 @@
       "amount": 18522,
       "converted": 18522,
       "confidence": "Yahoo購物中心 2026-09-02 exact-model 公開結構化價格",
-      "note": "2026-11-04 YahooWD261VKF0主價19385但主商品已停售，保留舊參考價，不採停售展示價。未取得原廠台灣exact整型停產正證，不據此刪除。"
+      "note": "2026-11-04 午後人工覆核：Yahoo WD261VKF0主商品本輪展示19385元，但購買區明示「已停售」，沒有立即購買/加入購物車；保留18522元舊參考價，不採停售/缺貨展示價或自行乘算活動折扣。這是通路listing狀態，不能據此認定原廠整型停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ07A900GFBVP/000001_1767340170.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-PuriCare-%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9F-25-6%E5%85%AC%E5%8D%87-%E6%9B%9C%E9%BB%91-WD261VKF0-11970685.html",
@@ -1284,7 +1284,7 @@
       "converted": 16118,
       "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-04 Yahoo DD181MWE0白18L主商品16118，折前16789，滿1件96折。可下單/加車，不扣個人券、信用卡、點數或贈品。當日原活動期限2026-12-01T09:59:59+08:00，非沿用昨日到期活動。"
+      "note": "2026-11-04 午後人工覆核：Yahoo同型號主商品公開價16118元；立即購買/加入購物車可用。 不扣個人化回饋或贈品。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4NA900JCHFZ/000001_1783342859.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-PuriCare-18%E5%85%AC%E5%8D%87%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9F-%E7%99%BD%E8%89%B2-DD181MWE0-11971018.html",
@@ -1378,10 +1378,10 @@
     "name": "20L 第六感智能除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 8792,
-      "converted": 8792,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。 公開活動滿1件享88折，有效至2026-11-02T07:59:59+08:00。",
+      "amount": 9990,
+      "converted": 9990,
+      "confidence": "Yahoo購物中心 2026-11-04 exact-model 公開結構化價格",
+      "note": "2026-11-04 下午重新查核：Yahoo/Costco原商品頁同型號公開主價9990 TWD。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3SA900K13ZR/000001_1779265654.jpg",
@@ -1966,7 +1966,7 @@
       "converted": 20357,
       "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-01 momo 所選RD-380VC主商品單件85折後20357元，折前23950元；活動10/31 00:00至11/02 08:59。"
+      "note": "2026-11-04 午後人工覆核：momo選定主品號本輪公開價20357元，原生直接購買/放入購物車皆啟用。 原頁活動期間 : 11/02 00:00~11/11 23:59（來源精度到分鐘）。 不扣個人化回饋或贈品。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h5d/ha9/421140861976606.jpg",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=13553689",
@@ -2265,7 +2265,7 @@
       "converted": 7690,
       "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-04 momo WDEE1200TW主商品單件折2300後7690，折前9990，11/03至11/09；相關15L6511非本款、數量1至3。"
+      "note": "2026-11-04 午後人工覆核：momo選定主品號本輪公開價7690元，原生直接購買/放入購物車皆啟用。 原頁活動期間 : 11/03 00:00~11/09 23:59（來源精度到分鐘）。 不扣個人化回饋或贈品。"
     },
     "image": "https://i2.momoshop.com.tw/1781626760/goodsimg/0015/034/893/15034893_R_m.webp",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15034893",
@@ -2876,7 +2876,7 @@
       "converted": 20900,
       "basis": "retailer_current",
       "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
-      "note": "2026-10-31 momo DW-UX25HT-H/W主商品可選雪霧白，單件折5000後20900元，折前25900元；活動10/28–11/11，同型號不同顏色不增款。"
+      "note": "2026-11-04 午後人工覆核：momo選定主品號本輪公開價20900元，原生直接購買/放入購物車皆啟用。 原頁活動期間 : 10/28 19:00~11/11 23:59（來源精度到分鐘）。 不扣個人化回饋或贈品。"
     },
     "installation": {
       "status": "not_stated",

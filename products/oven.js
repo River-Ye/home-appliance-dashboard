@@ -119,7 +119,7 @@
       "converted": 17955,
       "basis": "retailer_current",
       "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-03 Yahoo所選MWP269TMT原主商品本輪公開價17955元，主頁立即購買/加入購物車。本輪活動期限2026-11-10T09:59:59+08:00，不是承接昨日活動。未扣個人券、信用卡、點數或贈品。"
+      "note": "2026-11-04 午後人工覆核：Yahoo同型號主商品公開價17955元；立即購買/加入購物車可用。 不扣個人化回饋或贈品。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ02A900J1WEX/000001_1753093870.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool%E6%83%A0%E8%80%8C%E6%B5%A6-Coloris%E7%B3%BB%E5%88%97-26%E5%85%AC%E5%8D%878%E5%90%88%E4%B8%80%E5%85%A8%E8%83%BD%E8%AE%8A%E9%A0%BB%E6%B0%A3%E7%82%B8%E8%92%B8%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-%E9%9B%B2%E9%9C%A7%E7%99%BD-MWP2-11705976.html",
@@ -218,11 +218,11 @@
       "amount": 22406,
       "converted": 22406,
       "confidence": "Yahoo購物中心 2026-07-11 頁面查核價",
-      "note": "2026-11-01 Yahoo選定原商品頁顯示已停售，零售下架不等同原廠整型停產；不採頁面殘留價格更新，保留原參考價及待查通路。"
+      "note": "2026-11-04 午後人工覆核：Yahoo NN-BS807主商品本輪展示23310元，但購買區明示「已停售」，沒有立即購買/加入購物車；保留22406元舊參考價，不採停售/缺貨展示價或自行乘算活動折扣。這是通路listing狀態，不能據此認定原廠整型停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ02A900IXED0/000001_1749708993.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic%E5%9C%8B%E9%9A%9B%E7%89%8C30%E5%85%AC%E5%8D%87%E8%92%B8%E6%B0%A3%E7%83%98%E7%83%A4%E6%B0%B4%E6%B3%A2%E7%88%90%E5%BE%AE%E6%B3%A2%E7%88%90NN-BS807-9823005.html",
-    "buyLabel": "Yahoo購物中心",
+    "buyLabel": "Yahoo購物（停售，現價待確認）",
     "specs": [
       "30L",
       "尺寸：寬 49.4 x 深 47.9 x 高 37 cm",
@@ -415,8 +415,8 @@
     "price": {
       "currency": "USD",
       "amount": 499.95,
-      "converted": 16293,
-      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-11-03 匯率換算"
+      "converted": 16384,
+      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-11-04 匯率換算"
     },
     "image": "https://assets.breville.com/cdn-cgi/image/width=1300,format=auto/BOV950/BOV950BSS1BUS1/pdp3.png?pdp=",
     "buyUrl": "https://www.breville.com/en-us/product/bov950",
@@ -512,11 +512,11 @@
     "name": "微波大師 27L 氣炸烤箱微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 8630,
-      "converted": 8630,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "amount": 8990,
+      "converted": 8990,
+      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-10-31 原頁同型號公開價格8630元；不扣會員券、信用卡、點數或贈品，銷售／出貨條件依原通路。"
+      "note": "2026-11-04 下午重新查核：PChome exact SKU DMBJ02-A900I9LQ2；Price.P=8990元，Qty=13。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ02A900I9LQ2/000001_1782379010.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ02-A900I9LQ2",
@@ -812,7 +812,7 @@
       "converted": 22886,
       "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-03 Yahoo所選MWP329TST原主商品本輪公開價22886元，主頁立即購買/加入購物車。本輪活動期限2026-11-10T09:59:59+08:00，不是承接昨日活動。未扣個人券、信用卡、點數或贈品。 無安裝，僅送至一樓。"
+      "note": "2026-11-04 午後人工覆核：Yahoo同型號主商品公開價22886元；立即購買/加入購物車可用。 不扣個人化回饋或贈品。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ03A900IYX0L/000001_1750758530.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool-%E6%83%A0%E8%80%8C%E6%B5%A6Coloris%E7%B3%BB%E5%88%97-32%E5%85%AC%E5%8D%878%E5%90%88%E4%B8%80%E5%85%A8%E8%83%BD%E8%AE%8A%E9%A0%BB%E6%B0%A3%E7%82%B8%E8%92%B8%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-%E5%A4%A7%E5%9C%B0%E6%A3%95-MWP3-12006007.html",
@@ -912,10 +912,10 @@
     "name": "20L 多功能蒸氣氣炸烤箱",
     "price": {
       "currency": "TWD",
-      "amount": 9499,
-      "converted": 9499,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
-      "note": "2026-10-31 原頁同型號公開價格9499元；不扣會員券、信用卡、點數或贈品，銷售／出貨條件依原通路。",
+      "amount": 9999,
+      "converted": 9999,
+      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 下午重新查核：PChome exact SKU DMBM0G-A900HF91A；Price.P=9999元，Qty=2。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900HF91A/000001_1768545220.jpg",
@@ -1016,7 +1016,7 @@
       "converted": 9500,
       "basis": "retailer_current",
       "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-03 Yahoo所選WSO2500B原主商品本輪公開價9500元，主頁立即購買/加入購物車。本輪活動期限2026-11-10T09:59:59+08:00，不是承接昨日活動。未扣個人券、信用卡、點數或贈品。"
+      "note": "2026-11-04 午後人工覆核：Yahoo同型號主商品公開價9500元；立即購買/加入購物車可用。 不扣個人化回饋或贈品。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ6QA900EO5DH/000001_1704094465.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool%E6%83%A0%E8%80%8C%E6%B5%A6-25%E5%85%AC%E5%8D%87%E7%8D%A8%E7%AB%8B%E5%BC%8F%E8%92%B8%E7%83%A4%E7%88%90-WSO2500B-9918063.html",
@@ -1413,11 +1413,11 @@
       "amount": 14852,
       "converted": 14852,
       "confidence": "Yahoo購物中心 2026-07-21 頁面公開價",
-      "note": "2026-11-01 Yahoo選定同型原主頁明示已售完／貨到通知，未採畫面報價作可購現價；原參考價保留，不能推定原廠停產。"
+      "note": "2026-11-04 午後人工覆核：Yahoo WSO322EB主商品本輪展示15010元，但購買區明示「已售完，貨到通知我」，沒有立即購買/加入購物車；保留14852元舊參考價，不採停售/缺貨展示價或自行乘算活動折扣。這是通路listing狀態，不能據此認定原廠整型停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ6QA900EO9M8/000001_1716271473.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool%E6%83%A0%E8%80%8C%E6%B5%A6-32%E5%85%AC%E5%8D%87%E7%8D%A8%E7%AB%8B%E5%BC%8F%E8%92%B8%E7%83%A4%E7%88%90-WSO322EB-9918064.html",
-    "buyLabel": "Yahoo購物中心｜已售完，查看供貨",
+    "buyLabel": "Yahoo購物（缺貨，現價待確認）",
     "specs": [
       "32L",
       "尺寸：寬 53 x 深 45.7 x 高 40.5 cm",
@@ -1709,7 +1709,7 @@
       "converted": 21763,
       "basis": "retailer_current",
       "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-03 Yahoo所選MROS800AT原主商品本輪公開價21763元，主頁立即購買/加入購物車。本輪活動期限2026-11-10T09:59:59+08:00，不是承接昨日活動。未扣個人券、信用卡、點數或贈品。"
+      "note": "2026-11-04 午後人工覆核：Yahoo同型號主商品公開價21763元；立即購買/加入購物車可用。 不扣個人化回饋或贈品。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ031900I80DM/000001_1778655849.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/HITACHI-%E6%97%A5%E7%AB%8B-%E9%81%8E%E7%86%B1%E6%B0%B4%E8%92%B8%E6%B0%A3%E7%83%98%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-%E7%88%B5%E8%89%B2%E9%BB%91-MROS800AT-11995105.html",
@@ -1904,11 +1904,11 @@
     "name": "蒸烘烤變頻微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 41724,
-      "converted": 41724,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "amount": 43920,
+      "converted": 43920,
+      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-10-31 原頁同型號公開價格41724元；不扣會員券、信用卡、點數或贈品，銷售／出貨條件依原通路。"
+      "note": "2026-11-04 下午重新查核：PChome exact SKU DMBM0G-A900H5125；Price.P=43920元，Qty=2。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900H5125/000001_1783054719.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM0G-A900H5125",
@@ -2306,8 +2306,8 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 13035,
-      "confidence": "2026-08-31 人工核對 SharkNinja 美國官方 MW101 公開可購主價 USD 399.99；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-11-03 匯率換算",
+      "converted": 13108,
+      "confidence": "2026-08-31 人工核對 SharkNinja 美國官方 MW101 公開可購主價 USD 399.99；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-11-04 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-01 Ninja美國MW101 Silver主頁標349.99美元但動態購買區實際endpoint明示Notify me／Out of Stock，與靜態InStock衝突；不採為可購現價，保留舊399.99美元參考。 海外參考；未含國際運費、進口稅、電壓／插頭與台灣保固風險。"
     },

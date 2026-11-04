@@ -825,10 +825,10 @@
     "name": "BRAVIA 8 65 型 XR OLED 4K HDR Google TV 顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 84510,
-      "converted": 84510,
-      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-04 人工核對當日PChome exact商品ID DPAD06-A900HLBJO：[Sony 索尼] BRAVIA 8 65吋 XR OLED 4K HDR Google TV顯示器(Y-65XR80 )；[Sony 索尼] BRAVIA 8 65吋 XR OLED 4K HDR Google TV顯示器(Y-65XR80 )；Price.Low=84510元，Qty=1。原HTML主商品另讀。不扣個人券、點數、信用卡；送貨安裝請確認。",
+      "amount": 93900,
+      "converted": 93900,
+      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 下午重新查核：PChome exact SKU DPAD06-A900HLBJO；Price.P=93900元，Qty=1。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD06A900HLBJO/000001_1776334113.jpg",

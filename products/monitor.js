@@ -2303,12 +2303,12 @@
       "amount": 16055,
       "converted": 16055,
       "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-01 Yahoo原頁同型號主商品公開16055元，可直接購買/加車；單件公開活動實際截止2026-11-02T07:59:59+08:00。未扣個人券、點數或信用卡回饋。",
+      "note": "2026-11-04 午後人工覆核：Yahoo MPG 271QRX主商品本輪展示16900元，但購買區明示「已售完，貨到通知我」，沒有立即購買/加入購物車；保留16055元舊參考價，不採停售/缺貨展示價或自行乘算活動折扣。這是通路listing狀態，不能據此認定原廠整型停產。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBC1ZA900HE04M/000001_1757303897.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/MSI%E5%BE%AE%E6%98%9F-MPG-271QRX-QD-OLED-27%E5%9E%8B-2K-360Hz-HDR%E9%9B%BB%E7%AB%B6%E8%9E%A2%E5%B9%95-10958143.html",
-    "buyLabel": "Yahoo（已售完，現價待確認）",
+    "buyLabel": "Yahoo購物（缺貨，現價待確認）",
     "specs": [
       "27 吋",
       "2K/QHD",
@@ -3465,9 +3465,11 @@
     "name": "34 型 UWQHD 200Hz 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 6999,
-      "converted": 6999,
-      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 6599,
+      "converted": 6599,
+      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "basis": "retailer_current",
+      "note": "2026-11-04 下午重新查核：PChome exact SKU DSABTE-A900JSV4E；Price.P=6599元，Qty=20。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABTEA900JSV4E/000001_1773130247.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABTE-A900JSV4E",
@@ -3568,7 +3570,7 @@
       "amount": 26888,
       "converted": 26888,
       "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-04 PChome原生XG34WCDMS/280Hz主頁26888且可加車；11/04單件95折橫幅但未顯示最終25543，API Nick仍混MTG/240Hz，保留26888。",
+      "note": "2026-11-04 下午覆核：原生Chrome主商品DSABKB-A900K0YA0/ROG Strix XG34WCDMS主價26888，11/04任選95折另標下單再折；不能將API25543當可重現主價或自行計算。維持26888，24h到貨字樣非保證。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABKBA900K0YA0/000001_1779246107.jpg",
@@ -3971,11 +3973,11 @@
     "name": "49 型 Odyssey OLED G9 Dual QHD 240Hz 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 34880,
-      "converted": 34880,
-      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 36900,
+      "converted": 36900,
+      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-04 人工核對原始SKU API名稱、商品ID、正庫存與公開價34880元；原HTML遇429或動態限制時不當完整出貨承諾。"
+      "note": "2026-11-04 下午重新查核：PChome exact SKU DMBM10-A900HZCPE；Price.P=36900元，Qty=6。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900HZCPE/000001_1781766568.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900HZCPE",
@@ -4273,11 +4275,11 @@
     "name": "57 型 Odyssey Neo G9 Dual UHD 240Hz Mini LED 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 63990,
-      "converted": 63990,
-      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 69900,
+      "converted": 69900,
+      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-04 人工核對原始SKU API名稱、商品ID、正庫存與公開價63990元；原HTML遇429或動態限制時不當完整出貨承諾。"
+      "note": "2026-11-04 下午重新查核：PChome exact SKU DMBM10-A900GQLSE；Price.P=69900元，Qty=2。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900GQLSE/000001_1783054239.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900GQLSE",
@@ -5189,11 +5191,11 @@
     "name": "27 型 4K 內建校色器專業色彩管理螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 55111,
-      "converted": 55111,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 56111,
+      "converted": 56111,
+      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-04 PD2770U主品號15221341原生限時折後55111、促銷56111，本輪實際新活動11/03 18:00–11/04 08:00滿額最高折1000，數量1–2、3年保固、購買/加車可用。"
+      "note": "2026-11-04 午後人工覆核：momo選定主品號本輪公開價56111元，原生直接購買/放入購物車皆啟用。上午滿額折1000已消失；原生主商品現為56111，數量1–2、3年保固。 不扣個人化回饋或贈品。"
     },
     "image": "https://image.benq.com/is/image/benqco/1pd2770u-front-hood-hotkey-2?$ResponsivePreset$",
     "buyUrl": "https://www.momoshop.com.tw/product/15221341",
@@ -5411,7 +5413,7 @@
       "converted": 19990,
       "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-01 Sony台灣官店同型號主商品優惠價19990元，主頁有加車；不採結構化資料舊原價或滿額禮。"
+      "note": "2026-11-04 午後人工覆核：Sony台灣所選單機限時優惠價19990元、可加車；未混鍵鼠組合8980。 不扣個人化回饋或贈品。"
     },
     "image": "https://store.sony.com.tw/resource/product_files/SDM-27U9M2/SDM-27U9M2_pi.jpg",
     "buyUrl": "https://store.sony.com.tw/product/SDM-27U9M2",
@@ -5627,7 +5629,8 @@
       "amount": 4851,
       "converted": 4851,
       "confidence": "2026-10-24 人工核對 www.lenovo.com 同型號與所選版本公開價 TWD 4851，可下單；未扣會員、信用卡或點數。",
-      "basis": "retailer_current"
+      "basis": "retailer_current",
+      "note": "2026-11-04 下午覆核：原生Lenovo68F3GACBTW頁面產品內容可讀，但主價格購買區未成功呈現；schema4690未被當可訂主價。保留4851舊參考。"
     },
     "image": "https://p2-ofp.static.pub/ShareResource/ww/visuals/LOQ-10series/LOQ-27Q-10-list.png?width=584&height=584",
     "buyUrl": "https://www.lenovo.com/tw/zh/p/accessories-and-software/monitors/gaming/68f3gacbtw",
@@ -6580,11 +6583,11 @@
     "name": "31.5 吋 4K Nano Matte 程式設計護眼螢幕（含 MoonHalo）",
     "price": {
       "currency": "TWD",
-      "amount": 18894,
-      "converted": 18894,
+      "amount": 19888,
+      "converted": 19888,
       "basis": "retailer_current",
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-11-04 Yahoo同型號主商品公開18894元，可加車；不扣個人券、點數或信用卡回饋。本輪活動截止2026-11-04T07:59:59+08:00"
+      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-04 午後人工覆核：Yahoo同型號主商品公開價19888元；立即購買/加入購物車可用。上午95折已消失，主價19888；頁內11/15活動為贈品/其他活動，不誤作此現價折扣期限。上午促銷已結束，本輪主價已回復，未扣個人券、點數或信用卡回饋。 不扣個人化回饋或贈品。"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/A547B09451-SP-17883815.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=11255959",

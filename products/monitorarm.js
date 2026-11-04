@@ -318,7 +318,7 @@
       "converted": 2749,
       "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-04 T101-12U主品號13989541原生限時折後2749、促銷3099，11/01–11/08最高折350公開活動，數量1–5、庫存低於5、1年保固、可直接購買/加車。"
+      "note": "2026-11-04 午後人工覆核：momo選定主品號本輪公開價2749元，原生直接購買/放入購物車皆啟用。 原頁活動期間 : 11/01 00:00~11/08 23:59（來源精度到分鐘）。 不扣個人化回饋或贈品。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBB69A900INQG2/000001_1745485048.jpg",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=13989541",
@@ -1415,7 +1415,7 @@
       "converted": 770,
       "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-04 Yahoo同型號主商品公開770元，可加車；不扣個人券、點數或信用卡回饋。本輪活動截止2026-11-12T23:59:59+08:00"
+      "note": "2026-11-04 午後人工覆核：Yahoo同型號主商品公開價770元；立即購買/加入購物車可用。主商品999元符合滿888享77折，原頁直接顯示活動折後770；不是自行推算價格。 不扣個人化回饋或贈品。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGQ5A900JUC1W/000001_1774344481.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E6%A8%82%E6%AD%8CLoctek-%E4%BA%BA%E9%AB%94%E5%B7%A5%E5%AD%B8-%E8%9E%A2%E5%B9%95%E6%94%AF%E6%9E%B6D5S-12033991.html",
@@ -2133,14 +2133,14 @@
       "status": "found",
       "amount": 282,
       "currency": "GBP",
-      "converted": 12324,
+      "converted": 12398,
       "sourceUrl": "https://pricespy.co.uk/product.php?p=16273588",
       "sourceTitle": "PriceSpy UK：Dell HDA26 Single Monitor Arm",
       "evidenceSnippet": "PriceSpy exact-model 頁的 Price History 明示新品最低價 £282，且商品名稱、品牌與 GTIN 對應 Dell HDA26。",
       "sourceKind": "price_history",
       "confidence": "medium",
       "checkedAt": "2026-08-25",
-      "note": "採英國市場 exact-model 公開價格歷史並依 2026-11-03 GBP/TWD 匯率換算；未含國際運費、進口稅、退換貨與台灣保固風險，不能直接視為台灣到手價。"
+      "note": "採英國市場 exact-model 公開價格歷史並依 2026-11-04 GBP/TWD 匯率換算；未含國際運費、進口稅、退換貨與台灣保固風險，不能直接視為台灣到手價。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2478,6 +2478,111 @@
         }
       ]
     }
+  },
+  {
+    "id": "monitorarm-raymii-halo-neo-1m",
+    "category": "monitorarm",
+    "rank": 26,
+    "topPick": false,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Raymii",
+    "model": "HALO-NEO-1M",
+    "name": "HALO NEO 15kg 15–42吋鋁合金氣壓式螢幕支架",
+    "price": {
+      "currency": "TWD",
+      "amount": 1599,
+      "converted": 1599,
+      "basis": "retailer_current",
+      "confidence": "2026-11-04 Raymii台灣官方商城原生exact-model主購買區查核",
+      "note": "2026-11-04下午原生主頁單件1599元、數量1且加入購物車可用；不扣LINE會員購物金、個人券或點數。運費與出貨時程未在主購買區明示，依通路配送規則確認。靜態搜尋快取售完不代表本輪原生狀態。"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "官頁提供夾桌與穿桌安裝說明，未標示到府安裝是否包含；需自行核對桌板強度與孔位，穿桌需鑽孔。"
+    },
+    "image": "https://shoplineimg.com/5a4d78b3080f06964f003689/65f4430e637bb80011287c44/800x.webp?source_format=png",
+    "buyUrl": "https://store.raymii.com.tw/products/raymii-halo-neo-1m-aluminum-monitor-arm",
+    "buyLabel": "Raymii台灣官方商城",
+    "specs": [
+      "支援螢幕：15–42吋；非49/57吋超寬大螢幕專用",
+      "承重範圍：0–15kg，氣壓式零負重懸停；曲面螢幕依官方建議預留3kg餘裕，1000R需更高承重款",
+      "VESA：75 x 75mm／100 x 100mm，快拆卡扣安裝",
+      "桌板條件：夾桌厚10–85mm；鑽孔穿桌厚30–60mm，先確認桌緣結構與強度",
+      "調整：俯仰−30°至+30°、左右±90°、垂直±180°；寬螢幕可能無法直立",
+      "材質／收納：鋁合金、鋼材、ABS與矽膠；內建理線槽",
+      "連接：USB3.0 x1及Type-C x1延伸埠，額定供電未標示；HALO-NEO-1M無RGB燈效",
+      "本體尺寸與淨重：查不到；官頁440 x 230 x 145mm為包裝尺寸，4.8kg標作淨重/毛重而無法區分，不當本體規格"
+    ],
+    "description": "台灣官店可購的15kg級單螢幕氣壓支架，提供零負重懸停與USB延伸埠，適合標準桌機螢幕的日常升降調整。15–42吋與承重需同時滿足，曲面重心需另留餘裕。",
+    "pros": [
+      "1599元台灣官方單件公售價，保固與客服入口明確",
+      "0–15kg承重兼顧較輕螢幕，支援標準VESA75/100",
+      "夾桌與穿桌厚度範圍明確，方便先核對桌面條件"
+    ],
+    "cons": [
+      "不建議用於49/57吋超寬螢幕；曲面與1000R需預留承重餘裕",
+      "官方只有包裝尺寸與淨重/毛重混標，無法可靠比較本體尺寸及淨重",
+      "USB額定供電未明示，不能當作獨立充電器；安裝服務與交期需再確認"
+    ],
+    "bestFor": "想以較低預算替15–42吋標準螢幕增加升降與橫直調整，且桌板符合夾桌或穿桌條件的人。",
+    "recommendation": "入門單臂補充：15kg級與官方一年保固有比較價值；安裝前核對VESA、螢幕不含腳架實重及桌板厚度。曲面預留3kg，較大型螢幕最好兩人操作；不作49/57吋推薦。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-11-04",
+      "note": "本輪人工查看Raymii官方exact型號1599現價、PChome DCBBC5-A900HCX9R、FindPrice exact-model比價與BigGo查詢。FindPrice列1699為比價現價而非可重現歷史最低點；BigGo本輪無法開啟。HALO-MAX-1M1499及HALO-NEO-RGB皆不同型號，排除；不以1599現價或舊搜尋快取推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-11-04",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "\"HALO-NEO-1M\" site:ptt.cc/bbs/",
+          "queryUrl": "https://www.google.com/search?q=%22HALO-NEO-1M%22%20site%3Aptt.cc%2Fbbs%2F"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"HALO-NEO-1M\" site:mobile01.com/topicdetail.php",
+          "queryUrl": "https://www.google.com/search?q=%22HALO-NEO-1M%22%20site%3Amobile01.com%2Ftopicdetail.php"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "\"HALO-NEO-1M\" site:dcard.tw/f/",
+          "queryUrl": "https://www.google.com/search?q=%22HALO-NEO-1M%22%20site%3Adcard.tw%2Ff%2F"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "\"HALO-NEO-1M\" site:reddit.com",
+          "queryUrl": "https://www.google.com/search?q=%22HALO-NEO-1M%22%20site%3Areddit.com"
+        }
+      ]
+    },
+    "score": 83,
+    "voltage": "氣壓調節無需供電；底座USB-A/Type-C為延伸埠，官頁未標額定供電，需確認上游裝置與線材。",
+    "warranty": "Raymii台灣官店明示非人為因素損壞保固一年；台灣客服02-22755699分機201/202、LINE @raymii，依原廠保固與安裝條件。",
+    "tags": [
+      "懸臂支架",
+      "15kg",
+      "15–42吋",
+      "氣壓式",
+      "台灣官店"
+    ]
   }
 ]);
 })();

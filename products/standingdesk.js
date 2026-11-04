@@ -512,7 +512,7 @@
       "amount": 7486,
       "converted": 7486,
       "confidence": "Yahoo購物中心 2026-07-11 頁面查核價",
-      "note": "2026-11-04 Yahoo同型號主商品公開7486元，可加車；不扣個人券、點數或信用卡回饋。本輪活動截止2027-01-02T09:59:59+08:00"
+      "note": "2026-11-04 午後人工覆核：Yahoo同型號主商品公開價7486元；立即購買/加入購物車可用。 不扣個人化回饋或贈品。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBAGMA900FN1YH/000001_1665647044.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E9%82%8F%E7%88%B5LOGIS-i%E6%99%BA%E6%85%A7%E7%A2%B3%E7%BA%96%E9%9B%BB%E5%8B%95%E5%8D%87%E9%99%8D%E6%A1%8C-%E7%AB%99%E7%AB%8B%E6%A1%8C-%E9%9B%BB%E8%85%A6%E6%A1%8C%E9%BB%9E%E8%85%A6%E6%A1%8C-KG11-1165-10257781.html",
@@ -610,9 +610,9 @@
       "currency": "TWD",
       "amount": 7690,
       "converted": 7690,
-      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開可訂報價；出貨與到貨時程待確認。",
       "basis": "retailer_current",
-      "note": "2026-11-04 UP002 WH120x60主品號14070530原生限時折後7690、促銷7990，本輪11/02–11/10公開活動，數量1–20、1年保固、可直接購買/加車；未滿20000運費1350另計，專人約配。"
+      "note": "2026-11-04 午後人工覆核：momo選定主品號本輪公開價7690元，原生直接購買/放入購物車皆啟用。UP002 WH約寬120深60高71cm單件7690；未滿20000運費1350另計，專人約配、1年保固。 原頁活動期間 : 11/02 00:00~11/10 23:59（來源精度到分鐘）。 不扣個人化回饋或贈品。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQCI0AA900IW7RS/000001_1768543932.jpg",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=14070530",
@@ -1788,7 +1788,7 @@
       "amount": 6755,
       "converted": 6755,
       "confidence": "Yahoo購物中心 2026-07-11 頁面查核價",
-      "note": "2026-11-04 Yahoo同型號主商品公開6755元，可加車；不扣個人券、點數或信用卡回饋。本輪活動截止2027-01-01T09:59:59+08:00"
+      "note": "2026-11-04 午後人工覆核：Yahoo同型號主商品公開價6755元；立即購買/加入購物車可用。 不扣個人化回饋或贈品。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBB6OA900FRSK6/000001_1669107568.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/E-home-%E4%B8%80%E7%89%87%E5%BC%8F%E9%B4%A8%E5%98%B4%E6%96%9C%E6%B2%BF%E9%9B%99%E7%AF%80USB%E9%9B%BB%E5%8B%95%E8%A8%98%E6%86%B6%E5%8D%87%E9%99%8D%E6%A1%8C-%E5%AF%AC120cm-%E5%85%A9%E8%89%B2%E5%8F%AF%E9%81%B8-10247534.html",

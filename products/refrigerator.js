@@ -225,10 +225,10 @@
       "converted": 9911,
       "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-01 Yahoo同型GN-L217SVN主商品9911元、立即購買／加入購物車；非回饋後價格。"
+      "note": "2026-11-04 原生Chrome Yahoo exact SKU11979117主商品雖顯示$11111及$14590，但按鈕明示「已售完，貨到通知我」。11111是缺貨展示價，拒絕寫入；保留先前9911參考價，揭露該通路缺貨，不據此推官方停產。 不另扣會員券、信用卡、點數或推算優惠；送貨及基本安裝條件依原頁。"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心",
+    "buyLabel": "Yahoo 缺貨／貨到通知",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-217%E5%85%AC%E5%8D%87-%E6%99%BA%E6%85%A7%E8%AE%8A%E9%A0%BB%E9%9B%99%E9%96%80%E5%86%B0%E7%AE%B1-%E6%98%9F%E8%BE%B0%E9%8A%80-GN-L217SVN-11979117.html",
     "specs": [
       "冰箱：LG樂金 217公升 智慧變頻雙門冰箱 星辰銀 GN-L217SVN",
@@ -328,9 +328,9 @@
       "currency": "TWD",
       "amount": 14500,
       "converted": 14500,
-      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開可訂報價；出貨與到貨時程待確認。",
       "basis": "retailer_current",
-      "note": "2026-11-02 Yahoo GN-L266SVN送基本安裝款主商品14500元可購、專人約配；舊13775已不重現，10月加碼贈點已過期不扣。"
+      "note": "2026-11-04 午後人工覆核：Yahoo同型號主商品公開價14500元；立即購買/加入購物車可用。GN-L266SVN主價14500由廠商約配；11/30為贈點活動截止，不把贈點期限當價格截止。 不扣個人化回饋或贈品。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心自營",
@@ -434,10 +434,10 @@
       "amount": 36270,
       "converted": 36270,
       "confidence": "Yahoo購物中心 2026-09-14 exact-model 公開結構化價格",
-      "note": "2026-11-01 Yahoo選定同型原主頁明示已售完／貨到通知，未採畫面報價作可購現價；原參考價保留，不能推定原廠停產。"
+      "note": "2026-11-04 午後人工覆核：Yahoo NR-C505XV-W主商品本輪展示40300元，但購買區明示「已停售」，沒有立即購買/加入購物車；保留36270元舊參考價，不採停售/缺貨展示價或自行乘算活動折扣。這是通路listing狀態，不能據此認定原廠整型停產。"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心",
+    "buyLabel": "Yahoo購物（停售，現價待確認）",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic%E5%9C%8B%E9%9A%9B%E7%89%8C-500%E5%85%AC%E5%8D%87%E4%B8%80%E7%B4%9A%E8%83%BD%E6%95%88%E4%B8%89%E9%96%80%E8%AE%8A%E9%A0%BB%E5%86%B0%E7%AE%B1%E9%9B%AA%E9%9C%A7%E7%99%BDNR-C505XV-W-11322787.html",
     "specs": [
       "冰箱：Panasonic國際牌 500公升一級能效無邊框鋼板系列三門變頻電冰箱NR-C505XV-W~含拆箱定位",
@@ -538,10 +538,10 @@
       "amount": 40185,
       "converted": 40185,
       "confidence": "Yahoo購物中心 2026-07-11 頁面查核價",
-      "note": "2026-11-01 Yahoo選定原商品頁顯示已停售，零售下架不等同原廠整型停產；不採頁面殘留價格更新，保留原參考價及待查通路。"
+      "note": "2026-11-04 午後人工覆核：Yahoo NR-D505XV-W主商品本輪展示42300元，但購買區明示「已停售」，沒有立即購買/加入購物車；保留40185元舊參考價，不採停售/缺貨展示價或自行乘算活動折扣。這是通路listing狀態，不能據此認定原廠整型停產。"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心",
+    "buyLabel": "Yahoo購物（停售，現價待確認）",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic%E5%9C%8B%E9%9A%9B%E7%89%8C-500%E5%85%AC%E5%8D%87%E4%B8%80%E7%B4%9A%E8%83%BD%E6%95%88%E7%84%A1%E9%82%8A%E6%A1%86%E9%8B%BC%E6%9D%BF%E7%B3%BB%E5%88%97%E5%9B%9B%E9%96%80%E8%AE%8A%E9%A0%BB%E9%9B%BB%E5%86%B0%E7%AE%B1NR-D505XV-W-%E5%90%AB%E6%8B%86-11310319.html",
     "specs": [
       "冰箱：Panasonic國際牌 500公升一級能效無邊框鋼板系列四門變頻電冰箱NR-D505XV-W~含拆箱定位",
@@ -1370,10 +1370,10 @@
       "amount": 12511,
       "converted": 12511,
       "confidence": "Yahoo購物中心 2026-07-11 頁面查核價",
-      "note": "2026-11-01 Yahoo選定原商品頁顯示已停售，零售下架不等同原廠整型停產；不採頁面殘留價格更新，保留原參考價及待查通路。"
+      "note": "2026-11-04 午後人工覆核：Yahoo SR-V150BF主商品本輪展示13169元，但購買區明示「已停售」，沒有立即購買/加入購物車；保留12511元舊參考價，不採停售/缺貨展示價或自行乘算活動折扣。這是通路listing狀態，不能據此認定原廠整型停產。"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心",
+    "buyLabel": "Yahoo購物（停售，現價待確認）",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SANLUX-%E5%8F%B0%E7%81%A3%E4%B8%89%E6%B4%8B-156%E5%85%AC%E5%8D%87%E9%83%BD%E6%9C%83%E5%B0%8F%E5%AE%85%E9%9B%BB%E5%86%B0%E7%AE%B1-SR-V150BF-11777652.html",
     "specs": [
       "冰箱：【SANLUX 台灣三洋】 156公升都會小宅電冰箱(SR-V150BF)",
@@ -1681,10 +1681,10 @@
       "amount": 17910,
       "converted": 17910,
       "confidence": "Yahoo購物中心 2026-10-20 exact-model 公開結構化價格",
-      "note": "2026-11-01 Yahoo選定同型原主頁明示已售完／貨到通知，未採畫面報價作可購現價；原參考價保留，不能推定原廠停產。"
+      "note": "2026-11-04 午後人工覆核：Yahoo RT47CG662AS9主商品本輪展示19900元，但購買區明示「已停售」，沒有立即購買/加入購物車；保留17910元舊參考價，不採停售/缺貨展示價或自行乘算活動折扣。這是通路listing狀態，不能據此認定原廠整型停產。"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心｜零售停售，查看供貨",
+    "buyLabel": "Yahoo購物（停售，現價待確認）",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SAMSUNG-%E4%B8%89%E6%98%9F-466%E5%85%AC%E5%8D%87-%E4%B8%80%E7%B4%9A%E8%83%BD%E6%95%88%E6%99%BA%E6%85%A7%E7%AF%80%E8%83%BD%E8%AE%8A%E9%A0%BB%E6%A5%B5%E7%B0%A1%E9%9B%99%E9%96%80%E5%86%B0%E7%AE%B1-RT47CG662AS9-11751994.html",
     "specs": [
       "冰箱：【SAMSUNG 三星】 466公升 一級能效智慧節能變頻極簡雙門冰箱 RT47CG662AS9",
@@ -3289,11 +3289,11 @@
     "name": "Panasonic NR-C387HVLS-C 385L 3門霧面鋼板變頻冰箱（暖灰米／左開）",
     "price": {
       "currency": "TWD",
-      "amount": 29920,
-      "converted": 29920,
+      "amount": 30600,
+      "converted": 30600,
       "basis": "retailer_current",
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-03 momo15801630 NR-C387HVLS暖米灰C/冰霧銀B主商品限時折後29920、折前34000；數量1、庫存低於5、1年保固、含標準安裝、專人約配，不用舊29240/30600。"
+      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-04 下午覆核：原生momo15801630 NR-C387HVLS主商品限時折後30600、促銷34000；暖米灰C與冰霧銀B同頁；保留本筆暖米灰C版本，不扣回收補助或個人券。"
     },
     "image": "https://i4.momoshop.com.tw/1792049388/goodsimg/0015/801/630/15801630_R_m.webp",
     "buyUrl": "https://www.momoshop.com.tw/product/15801630",

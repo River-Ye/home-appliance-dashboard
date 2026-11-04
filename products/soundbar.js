@@ -17,10 +17,10 @@
     "name": "11.1.4 聲道旗艦 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 42655,
-      "converted": 42655,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-03 Yahoo所選同型號主商品公開價42655元，原頁可訂購；不扣個人券、信用卡、點數或贈品。本次實讀活動有效至2026-11-03T07:59:59+08:00，不是沿用昨日活動期限。",
+      "amount": 44900,
+      "converted": 44900,
+      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-04 午後人工覆核：Yahoo同型號主商品公開價44900元；立即購買/加入購物車可用。上午促銷已結束，本輪主價已回復，未扣個人券、點數或信用卡回饋。 不扣個人化回饋或贈品。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900JMDR5/000001_1773978957.jpg",
@@ -213,9 +213,9 @@
       "currency": "TWD",
       "amount": 11305,
       "converted": 11305,
-      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開可訂報價；出貨與到貨時程待確認。",
       "basis": "retailer_current",
-      "note": "2026-11-04 momo HTB600主商品95折11305、折前11900，數量1至14、1年保固、預計11/5出貨。"
+      "note": "2026-11-04 午後人工覆核：momo選定主品號本輪公開價11305元，原生直接購買/放入購物車皆啟用。 原頁活動期間 : 11/01 00:00~11/30 23:59（來源精度到分鐘）。 不扣個人化回饋或贈品。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900JMC1Q/000001_1781726516.jpg",
     "buyUrl": "https://www.momoshop.com.tw/product/14864179",
@@ -311,11 +311,11 @@
     "name": "BRAVIA Theatre Bar 7 5.0.2 聲道 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 19260,
-      "converted": 19260,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "amount": 20330,
+      "converted": 20330,
+      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
+      "note": "2026-11-04 下午重新查核：PChome exact SKU DMAAN8-A900K0Y8L；Price.Low=20330元，Qty=1。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAAN8A900K0Y8L/000001_1779181877.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAN8-A900K0Y8L",
@@ -799,11 +799,11 @@
     "name": "LG Soundbar S80TR 5.1.3 聲道立體環繞聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 22900,
-      "converted": 22900,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 23900,
+      "converted": 23900,
+      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-03 人工核對PChome exact商品ID與當日API原資料：【限時快閃】LG 樂金 5.1.3聲道立體環繞音效 Soundbar 家庭劇院 S80TR；【限時快閃】LG 樂金 5.1.3聲道立體環繞音效 Soundbar 家庭劇院 S80TR；Price.P=22900元，Qty=3。原HTML本輪HTTP429，未從不可讀頁推交期；僅採原API商品ID、完整型號及可訂數。不扣個人券、點數、信用卡，實際配送安裝請確認。"
+      "note": "2026-11-04 下午重新查核：PChome exact SKU DMAAOD-A900JCHIM；Price.P=23900元，Qty=3。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAAODA900JCHIM/000007_1769583526.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAOD-A900JCHIM",
@@ -899,10 +899,10 @@
     "name": "Q 系列 11.1.4 聲道 Soundbar 家庭劇院",
     "price": {
       "currency": "TWD",
-      "amount": 56905,
-      "converted": 56905,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-03 Yahoo所選同型號主商品公開價56905元，原頁可訂購；不扣個人券、信用卡、點數或贈品。本次實讀活動有效至2026-11-03T07:59:59+08:00，不是沿用昨日活動期限。",
+      "amount": 59900,
+      "converted": 59900,
+      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-04 午後人工覆核：Yahoo同型號主商品公開價59900元；立即購買/加入購物車可用。上午促銷已結束，本輪主價已回復，未扣個人券、點數或信用卡回饋。 不扣個人化回饋或贈品。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADO2A900K5VUT/000001_1782993730.jpg",
@@ -999,10 +999,10 @@
     "name": "Q 系列 7.1.2 聲道 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 35055,
-      "converted": 35055,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-03 Yahoo所選同型號主商品公開價35055元，原頁可訂購；不扣個人券、信用卡、點數或贈品。本次實讀活動有效至2026-11-03T07:59:59+08:00，不是沿用昨日活動期限。",
+      "amount": 36900,
+      "converted": 36900,
+      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-04 午後人工覆核：Yahoo同型號主商品公開價36900元；立即購買/加入購物車可用。上午促銷已結束，本輪主價已回復，未扣個人券、點數或信用卡回饋。 不扣個人化回饋或贈品。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900K5489/000001_1782988490.jpg",
@@ -1099,10 +1099,10 @@
     "name": "5.1 聲道 Soundbar 家庭劇院組",
     "price": {
       "currency": "TWD",
-      "amount": 8541,
-      "converted": 8541,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。 公開活動滿1件享9折，有效至2026-11-02T07:59:59+08:00。",
+      "amount": 9016,
+      "converted": 9016,
+      "confidence": "Yahoo購物中心 2026-11-04 exact-model 公開結構化價格",
+      "note": "2026-11-04 下午重新查核：Yahoo/Costco原商品頁同型號公開主價9016 TWD。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900GHTFE/000001_1776774078.jpg",
@@ -1396,10 +1396,10 @@
     "name": "7.1 聲道家庭劇院喇叭",
     "price": {
       "currency": "TWD",
-      "amount": 27161,
-      "converted": 27161,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-03 Yahoo所選同型號主商品公開價27161元，原頁可訂購；不扣個人券、信用卡、點數或贈品。本次實讀活動有效至2026-11-03T07:59:59+08:00，不是沿用昨日活動期限。由出貨廠商聯絡約定送貨時間。",
+      "amount": 28590,
+      "converted": 28590,
+      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開可訂報價；出貨與到貨時程待確認。",
+      "note": "2026-11-04 午後人工覆核：Yahoo同型號主商品公開價28590元；立即購買/加入購物車可用。上午促銷已結束，本輪主價已回復，未扣個人券、點數或信用卡回饋。 不扣個人化回饋或贈品。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAHGA900J56OK/000001_1755250707.jpg",
@@ -1692,11 +1692,11 @@
     "name": "BRAVIA Theatre Bar 8 聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 25110,
-      "converted": 25110,
-      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "amount": 27900,
+      "converted": 27900,
+      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
+      "note": "2026-11-04 下午重新查核：PChome exact SKU DMBM1D-A900HTC64；Price.P=27900元，Qty=2。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900HTC64/000001_1781747501.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM1D-A900HTC64",
@@ -2093,8 +2093,8 @@
     "price": {
       "currency": "USD",
       "amount": 1299.99,
-      "converted": 42366,
-      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-11-03 匯率換算"
+      "converted": 42602,
+      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-11-04 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/2C2sn9CKoKFdIyd94Gm9z5/f3019d4e721511167ebe5c229bf490dd/heston-120_plp.jpg",
     "buyUrl": "https://www.marshall.com/us/en/product/heston-120",
@@ -2193,8 +2193,8 @@
     "price": {
       "currency": "USD",
       "amount": 699.99,
-      "converted": 22812,
-      "confidence": "2026-10-24 人工核對 www.marshall.com 同型號與所選版本公開價 USD 699.99，可下單；未扣會員、信用卡或點數。；ExchangeRate-API 2026-11-03 匯率換算",
+      "converted": 22939,
+      "confidence": "2026-10-24 人工核對 www.marshall.com 同型號與所選版本公開價 USD 699.99，可下單；未扣會員、信用卡或點數。；ExchangeRate-API 2026-11-04 匯率換算",
       "basis": "retailer_current"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/3yitHqjPBTgQk5qRE72PSn/2788206646aa153f71f2c0ebefaff580/Heston-60-black_plp_800x800-v3.jpeg",
@@ -2489,10 +2489,10 @@
     "name": "2.0 聲道二合一分離式聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 602,
-      "converted": 602,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-03 Yahoo所選同型號主商品公開價602元，原頁可訂購；不扣個人券、信用卡、點數或贈品。本次實讀活動有效至2026-11-03T07:59:59+08:00，不是沿用昨日活動期限。",
+      "amount": 633,
+      "converted": 633,
+      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-04 午後人工覆核：Yahoo同型號主商品公開價633元；立即購買/加入購物車可用。上午促銷已結束，本輪主價已回復，未扣個人券、點數或信用卡回饋。 不扣個人化回饋或贈品。",
       "basis": "retailer_current"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h21/hac/367883491278878.jpg",
@@ -2634,14 +2634,14 @@
       "status": "found",
       "amount": 176091,
       "currency": "JPY",
-      "converted": 36345,
+      "converted": 36431,
       "sourceUrl": "https://kakaku.com/item/K0001712395/pricehistory/",
       "sourceTitle": "価格.com：JBL BAR 1300MK2 [ブラック] 価格推移",
       "evidenceSnippet": "価格.com 日別價格歷史顯示 exact-model「JBL BAR 1300MK2 [ブラック]」於 2026-06-17 的新品最低價為 ¥176,091；2025-10 初始價格為 ¥205,306。",
       "sourceKind": "price_history",
       "confidence": "medium",
       "checkedAt": "2026-08-25",
-      "note": "採日本市場 exact-model 公開價格歷史並依 2026-11-03 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
+      "note": "採日本市場 exact-model 公開價格歷史並依 2026-11-04 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -3006,11 +3006,11 @@
     "name": "Flexus Core 100 2.1 聲道虛擬 Dolby Atmos 聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 9399,
-      "converted": 9399,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 9999,
+      "converted": 9999,
+      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開可訂報價；出貨與到貨時程待確認。",
       "basis": "retailer_current",
-      "note": "2026-11-01 momo 所選Flexus Core100主商品單件94折後9399元，折前9999；活動10/31 22:00至11/02 08:30。原頁預計11/02出貨。"
+      "note": "2026-11-04 午後人工覆核：momo選定主品號本輪公開價9999元，原生直接購買/放入購物車皆啟用。上午94折9399已消失，雖原先記錄活動至11/30，本輪原生主商品僅9999；數量1–8、1年保固、預計11/5出貨。 不扣個人化回饋或贈品。"
     },
     "installation": {
       "status": "not_stated",
@@ -3710,9 +3710,9 @@
     "price": {
       "currency": "USD",
       "amount": 699,
-      "converted": 22780,
+      "converted": 22907,
       "basis": "retailer_current",
-      "confidence": "2026-10-19 人工核對 Sonos US 官方黑色 BMULTUS1BLK 公開單機 US$699 與 Available now/Add to cart；ExchangeRate-API 2026-11-03 匯率換算，未含國際運費與進口稅。"
+      "confidence": "2026-10-19 人工核對 Sonos US 官方黑色 BMULTUS1BLK 公開單機 US$699 與 Available now/Add to cart；ExchangeRate-API 2026-11-04 匯率換算，未含國際運費與進口稅。"
     },
     "installation": {
       "status": "not_stated",

@@ -2768,7 +2768,8 @@
       "converted": 12800,
       "confidence": "Haier 海爾台灣官方商城 2026-08-14 exact-model 建議售價／定價",
       "basis": "official_suggested",
-      "scope": "single_unit"
+      "scope": "single_unit",
+      "note": "2026-11-04 下午覆核：原商品頁已停售/已售完/目前尚無庫存或官方OutOfStock；不將新結構化報價寫為可購現價，也沒有官方整型停產證據，保留既有參考。"
     },
     "installation": {
       "status": "excluded",
@@ -3688,7 +3689,7 @@
       "confidence": "泰浦樂 2026-08-14 最後可驗證 exact-model 新品含基本安裝公開價；2026-08-15 Yahoo exact-model 頁明示已停售，僅供規格參考",
       "basis": "retailer_current",
       "scope": "single_unit",
-      "note": "2026-11-01 Yahoo選定原商品頁顯示已停售，零售下架不等同原廠整型停產；不採頁面殘留價格更新，保留原參考價及待查通路。"
+      "note": "2026-11-04 午後人工覆核：Yahoo AT-042AI主商品本輪展示70000元，但購買區明示「已停售」，沒有立即購買/加入購物車；保留58294元舊參考價，不採停售/缺貨展示價或自行乘算活動折扣。這是通路listing狀態，不能據此認定原廠整型停產。"
     },
     "installation": {
       "status": "included_basic",
@@ -3696,7 +3697,7 @@
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/323300CF95-SP-12269220.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Toppuror-%E6%B3%B0%E6%B5%A6%E6%A8%82-%E7%91%9E%E6%99%BA%E7%9B%B4%E7%86%B1%E5%BC%8F%E7%86%B1%E6%B3%B5%E7%86%B1%E6%B0%B4%E5%99%A8-%E5%90%AB%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-AT-042AI-10249571.html",
-    "buyLabel": "Yahoo購物中心（已停售，僅供規格）",
+    "buyLabel": "Yahoo購物（停售，現價待確認）",
     "specs": [
       "類型：一體直熱式空氣源熱泵熱水器",
       "能源／氣源：電力；R410A；內建 65 L 儲槽",

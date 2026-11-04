@@ -1,9 +1,9 @@
 {
   "summary": {
-    "checkedAt": "2026-11-04T07:11:24.531+08:00",
-    "total": 1234,
+    "checkedAt": "2026-11-04T06:24:01.802Z",
+    "total": 1235,
     "commonIssueProducts": 54,
-    "noCommonIssueProducts": 1180,
+    "noCommonIssueProducts": 1181,
     "pendingManualReview": 0,
     "commonIssues": 55,
     "searchUnavailable": 614,
@@ -38,7 +38,8 @@
       "2026-10-31僅新增NN-BS10EK逐型跨站人工覆核，保留舊1230筆研究與392筆逐人報告原始日期及內容，不跨台灣/日本近型或歷代產品轉借結論。",
       "2026-11-02僅新增本批1款的逐型跨站人工覆核；其他1231筆及392筆逐人報告保留原始研究日期與內容，不跨尺寸、版本、相近型號轉借結論。",
       "2026-11-03僅新增本批1款的逐型跨站人工覆核；其他1232筆及392筆逐人報告保留原始研究日期與內容，不跨尺寸、版本、相近型號轉借結論。",
-      "2026-11-04僅新增本批1款的逐型跨站人工覆核；其他1233筆及392筆逐人報告保留原始研究日期與內容，不跨尺寸、版本、相近型號轉借結論。"
+      "2026-11-04僅新增本批1款的逐型跨站人工覆核；其他1233筆及392筆逐人報告保留原始研究日期與內容，不跨尺寸、版本、相近型號轉借結論。",
+      "2026-11-04下午只對新增HALO-NEO-1M人工覆核PTT、Mobile01、Dcard及Reddit完整型號查詢；四站均無exact原頁候選，未成立集中問題。既有1234款逐型問題決策、證據及日期原樣保留。"
     ]
   },
   "results": [
@@ -222120,6 +222121,154 @@
           "checkedAt": "2026-11-04"
         }
       ]
+    },
+    {
+      "id": "monitorarm-raymii-halo-neo-1m",
+      "category": "monitorarm",
+      "brand": "Raymii",
+      "model": "HALO-NEO-1M",
+      "name": "HALO NEO 15kg 15–42吋鋁合金氣壓式螢幕支架",
+      "identity": {
+        "canonicalModel": "HALO-NEO-1M",
+        "lookupLabel": "Raymii HALO-NEO-1M",
+        "aliases": [
+          "Raymii HALO-NEO-1M"
+        ],
+        "evidenceUrl": "https://store.raymii.com.tw/products/raymii-halo-neo-1m-aluminum-monitor-arm"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "id": "monitorarm-raymii-halo-neo-1m",
+        "category": "monitorarm",
+        "brand": "Raymii",
+        "model": "HALO-NEO-1M",
+        "reviewedAt": "2026-11-04",
+        "reviewBatch": "monitorarm",
+        "decision": "no_common_issue",
+        "checkedPlatforms": [
+          "PTT",
+          "Mobile01",
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "\"HALO-NEO-1M\" site:ptt.cc/bbs/",
+            "queryUrl": "https://www.google.com/search?q=%22HALO-NEO-1M%22%20site%3Aptt.cc%2Fbbs%2F"
+          },
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "\"HALO-NEO-1M\" site:mobile01.com/topicdetail.php",
+            "queryUrl": "https://www.google.com/search?q=%22HALO-NEO-1M%22%20site%3Amobile01.com%2Ftopicdetail.php"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "\"HALO-NEO-1M\" site:dcard.tw/f/",
+            "queryUrl": "https://www.google.com/search?q=%22HALO-NEO-1M%22%20site%3Adcard.tw%2Ff%2F"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "\"HALO-NEO-1M\" site:reddit.com",
+            "queryUrl": "https://www.google.com/search?q=%22HALO-NEO-1M%22%20site%3Areddit.com"
+          }
+        ],
+        "candidateDisposition": "HALO-NEO-1M於本輪人工分別查詢PTT、Mobile01、Dcard與Reddit的完整exact型號，未限定負評詞的四組查詢均回傳無搜尋結果，沒有經型號邊界過濾後需回原頁的論壇候選。PChome商品頁單一5星評價不是集中故障證據，不據以宣稱沒有任何負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "HALO-NEO-1M四站exact-model查詢於2026-11-04下午人工覆核，未找到exact原頁候選；保留原始查詢URL、Empty search results工具紀錄與真實查核時間。未達同一問題6位獨立使用者跨2個網站門檻，不代表完全沒有負評。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate",
+        "status": "completed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-11-04",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "\"HALO-NEO-1M\" site:ptt.cc/bbs/",
+            "queryUrl": "https://www.google.com/search?q=%22HALO-NEO-1M%22%20site%3Aptt.cc%2Fbbs%2F"
+          },
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "\"HALO-NEO-1M\" site:mobile01.com/topicdetail.php",
+            "queryUrl": "https://www.google.com/search?q=%22HALO-NEO-1M%22%20site%3Amobile01.com%2Ftopicdetail.php"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "\"HALO-NEO-1M\" site:dcard.tw/f/",
+            "queryUrl": "https://www.google.com/search?q=%22HALO-NEO-1M%22%20site%3Adcard.tw%2Ff%2F"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "\"HALO-NEO-1M\" site:reddit.com",
+            "queryUrl": "https://www.google.com/search?q=%22HALO-NEO-1M%22%20site%3Areddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "\"HALO-NEO-1M\" site:ptt.cc/bbs/",
+          "queryUrl": "https://www.google.com/search?q=%22HALO-NEO-1M%22%20site%3Aptt.cc%2Fbbs%2F",
+          "searchUrl": "https://www.google.com/search?q=%22HALO-NEO-1M%22%20site%3Aptt.cc%2Fbbs%2F",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-04T06:17:47.127Z"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"HALO-NEO-1M\" site:mobile01.com/topicdetail.php",
+          "queryUrl": "https://www.google.com/search?q=%22HALO-NEO-1M%22%20site%3Amobile01.com%2Ftopicdetail.php",
+          "searchUrl": "https://www.google.com/search?q=%22HALO-NEO-1M%22%20site%3Amobile01.com%2Ftopicdetail.php",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-04T06:17:47.127Z"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "\"HALO-NEO-1M\" site:dcard.tw/f/",
+          "queryUrl": "https://www.google.com/search?q=%22HALO-NEO-1M%22%20site%3Adcard.tw%2Ff%2F",
+          "searchUrl": "https://www.google.com/search?q=%22HALO-NEO-1M%22%20site%3Adcard.tw%2Ff%2F",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-04T06:17:47.127Z"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "\"HALO-NEO-1M\" site:reddit.com",
+          "queryUrl": "https://www.google.com/search?q=%22HALO-NEO-1M%22%20site%3Areddit.com",
+          "searchUrl": "https://www.google.com/search?q=%22HALO-NEO-1M%22%20site%3Areddit.com",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-04T06:17:47.127Z"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [],
+      "reports": []
     }
   ]
 }

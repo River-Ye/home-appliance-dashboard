@@ -16,11 +16,11 @@
     "name": "Ascent 領航者全食物調理機",
     "price": {
       "currency": "TWD",
-      "amount": 35820,
-      "converted": 35820,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 35024,
+      "converted": 35024,
+      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-03 PChome exact原SKU DMAYE8-A900BKOKK，逐筆核對本輪主標題「【美國Vitamix】Ascent領航者全食物調理機 智能x果汁機 尊爵級-A3500i(官方公司貨)-陳月卿推薦 【美國Vitamix】Ascent領航者全食物調理機 智能x果汁機 尊爵級-A3500i(官方公司貨)-陳月卿推薦」、Qty=3與公開主價35820。 原HTML HTTP429，採同輪可信exactID API並保留讀取限制。未扣券/點數/信用卡回饋。"
+      "note": "2026-11-04 下午重新查核：PChome exact SKU DMAYE8-A900BKOKK；Price.P=35024元，Qty=3。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAYE8A900BKOKK/000001_1782889462.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAYE8-A900BKOKK",
@@ -111,11 +111,11 @@
     "name": "Ascent 領航者全食物調理機",
     "price": {
       "currency": "TWD",
-      "amount": 26640,
-      "converted": 26640,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 26048,
+      "converted": 26048,
+      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-03 PChome exact原SKU QBAO0F-A900AS2G7，逐筆核對本輪主標題「【美國Vitamix】Ascent領航者全食物調理機 渦流科技 智能x果汁機 食尚綠拿鐵 A2500i-紅色 【美國Vitamix】Ascent領航者全食物調理機 渦流科技 智能x果汁機 食尚綠拿鐵 A2500i-紅色」、Qty=1與公開主價26640。 原HTML HTTP429，採同輪可信exactID API並保留讀取限制。未扣券/點數/信用卡回饋。"
+      "note": "2026-11-04 下午重新查核：PChome exact SKU QBAO0F-A900AS2G7；Price.P=26048元，Qty=1。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/QBAO0FA900AS2G7/000001_1782460590.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/QBAO0F-A900AS2G7",
@@ -209,11 +209,11 @@
     "name": "免清洗多功能破壁調理機",
     "price": {
       "currency": "TWD",
-      "amount": 10355,
-      "converted": 10355,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 9592,
+      "converted": 9592,
+      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-01 PChome主商品API商品ID DMAY4Y-A900HB8CN 相符，原標題「【Joyoung九陽】免清洗多功能破壁調理機 DJ12M-K8S 【Joyoung九陽】免清洗多功能破壁調理機 DJ12M-K8S」，Qty=5，公開折扣／主價 10355 元（網路價10900；Price.Low=10355）；未扣券、回饋或點數。 同輪原商品HTML價格與可購入口已核對。"
+      "note": "2026-11-04 下午重新查核：PChome exact SKU DMAY4Y-A900HB8CN；Price.Low=9592元，Qty=4。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY4YA900HB8CN/000001_1780309793.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAY4Y-A900HB8CN",
@@ -246,16 +246,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 10115,
+      "amount": 9592,
       "currency": "TWD",
-      "converted": 10115,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1236955180&cgp=10115",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【JOYOUNG 九陽】免清洗多功能破壁調理機(DJ12M-K8S)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【JOYOUNG 九陽】免清洗多功能破壁調理機(DJ12M-K8S)」最低價為 NT$10,115，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 9592,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMAY4Y-A900HB8CN",
+      "sourceTitle": "PChome 24h 購物：【Joyoung九陽】免清洗多功能破壁調理機 DJ12M-K8S",
+      "evidenceSnippet": "PChome 24h 購物於 2026-11-04 顯示同型號可信新品公開價 NT$9,592，低於既有史低 NT$10,115。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-11-04",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -404,10 +404,10 @@
     "price": {
       "currency": "USD",
       "amount": 99.98,
-      "converted": 3258,
-      "confidence": "2026-08-31 人工核對 SharkNinja 官方 BN701 公開可購主價 USD 99.98；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-11-03 匯率換算",
+      "converted": 3276,
+      "confidence": "2026-08-31 人工核對 SharkNinja 官方 BN701 公開可購主價 USD 99.98；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-11-04 匯率換算",
       "basis": "retailer_current",
-      "note": "2026-11-01 原BN701購買網址本輪導向IQ701SL TotalCrush，主頁Model/SKU明示IQ701SL，129.99美元不是BN701報價；保留舊99.98美元參考，現售待確認，不由轉址推定原廠停產。 海外參考；未含國際運費、進口稅、電壓／插頭與台灣保固風險。"
+      "note": "2026-11-04 午後人工覆核：原BN701官方購買網址本輪原生仍轉址IQ701SL TotalCrush 2-in-1，標題與主商品Model明示IQ701SL，USD129.99/原169.99屬IQ701SL而非BN701。保留BN701舊99.98美元參考、現售待確認；不由轉址推定原廠停產。海外未含國際運費、進口稅、電壓/插頭與台灣保固風險。"
     },
     "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/d1c25153baa2aa99eae7831be826d2a51d87c485/Ninja-BN701-Professional-Plus-Blender-with-Auto-iQ.jpg",
     "buyUrl": "https://www.sharkninja.com/ninja-professional-plus-blender-with-auto-iq/BN701.html",
@@ -688,11 +688,11 @@
     "name": "E320 Explorian 探索者調理機雙杯組黑色",
     "price": {
       "currency": "TWD",
-      "amount": 22230,
-      "converted": 22230,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 21736,
+      "converted": 21736,
+      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-03 PChome exact原SKU DMAY0G-A900AGMD8，逐筆核對本輪主標題「【美國原裝Vita-Mix】E320 Explorian探索者調理機2.0L 果汁機 養生綠拿鐵-黑色 【美國原裝Vita-Mix】E320 Explorian探索者調理機2.0L+1.4L 果汁機 養生綠拿鐵-黑色」、Qty=3與公開主價22230。 同輪原頁主商品價格/購買入口已閱讀。未扣券/點數/信用卡回饋。"
+      "note": "2026-11-04 下午重新查核：PChome exact SKU DMAY0G-A900AGMD8；Price.P=21736元，Qty=3。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY0GA900AGMD8/000001_1782460348.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAY0G-A900AGMD8",
@@ -792,11 +792,11 @@
     "name": "Ascent A2500i 全食物調理機白色",
     "price": {
       "currency": "TWD",
-      "amount": 26640,
-      "converted": 26640,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 26048,
+      "converted": 26048,
+      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-03 PChome exact原SKU QBAO0F-A900AS2DJ，逐筆核對本輪主標題「【美國Vitamix】Ascent領航者全食物調理機 渦流科技 智能x果汁機 食尚綠拿鐵 A2500i-白色 【美國Vitamix】Ascent領航者全食物調理機 渦流科技 智能x果汁機 食尚綠拿鐵 A2500i-白色」、Qty=1與公開主價26640。 同輪原頁主商品價格/購買入口已閱讀。未扣券/點數/信用卡回饋。"
+      "note": "2026-11-04 下午重新查核：PChome exact SKU QBAO0F-A900AS2DJ；Price.P=26048元，Qty=1。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/QBAO0FA900AS2DJ/000001_1782460671.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/QBAO0F-A900AS2DJ",
@@ -1468,9 +1468,11 @@
     "name": "免清洗多功能破壁豆漿機",
     "price": {
       "currency": "TWD",
-      "amount": 8532,
-      "converted": 8532,
-      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 8342,
+      "converted": 8342,
+      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "basis": "retailer_current",
+      "note": "2026-11-04 下午重新查核：PChome exact SKU DMAY01-A900GFJCO；Price.Low=8342元，Qty=9。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY01A900GFJCO/000001_1780310319.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAY01-A900GFJCO",
@@ -1503,15 +1505,15 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 8532,
+      "amount": 8342,
       "currency": "TWD",
-      "converted": 8532,
+      "converted": 8342,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DMAY01-A900GFJCO",
       "sourceTitle": "PChome 24h 購物：【Joyoung九陽】免清洗多功能破壁豆漿機DJ10M-K96G",
-      "evidenceSnippet": "PChome 24h 購物於 2026-09-02 顯示同型號可信新品公開價 NT$8,532，低於既有史低 NT$8,722。",
+      "evidenceSnippet": "PChome 24h 購物於 2026-11-04 顯示同型號可信新品公開價 NT$8,342，低於既有史低 NT$8,532。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-09-02",
+      "checkedAt": "2026-11-04",
       "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
@@ -1756,10 +1758,10 @@
     "name": "多功能變頻輕音冷熱調理機",
     "price": {
       "currency": "TWD",
-      "amount": 8540,
-      "converted": 8540,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-01 PChome主商品API商品ID DMAY4Y-A900I3ILD 相符，原標題「【Joyoung九陽】多功能變頻輕音冷熱調理機豆漿機(L18M-Y6G) 【Joyoung九陽】多功能變頻輕音冷熱調理機豆漿機(L18M-Y6G)」，Qty=20，公開折扣／主價 8540 元（網路價8990；Price.Low=8540）；未扣券、回饋或點數。 同輪原商品HTML價格與可購入口已核對。",
+      "amount": 8091,
+      "converted": 8091,
+      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 下午重新查核：PChome exact SKU DMAY4Y-A900I3ILD；Price.Low=8091元，Qty=20。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY4YA900I3ILD/000001_1783328441.jpg",
@@ -1793,15 +1795,15 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 8540,
+      "amount": 8091,
       "currency": "TWD",
-      "converted": 8540,
+      "converted": 8091,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DMAY4Y-A900I3ILD",
       "sourceTitle": "PChome 24h 購物：【Joyoung九陽】多功能變頻輕音冷熱調理機豆漿機(L18M-Y6G)",
-      "evidenceSnippet": "PChome 24h 購物於 2026-10-28 顯示同型號可信新品公開價 NT$8,540，低於既有史低 NT$8,990。",
+      "evidenceSnippet": "PChome 24h 購物於 2026-11-04 顯示同型號可信新品公開價 NT$8,091，低於既有史低 NT$8,540。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-11-04",
       "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
@@ -1854,9 +1856,11 @@
     "name": "多功能營養調理機",
     "price": {
       "currency": "TWD",
-      "amount": 3042,
-      "converted": 3042,
-      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 2974,
+      "converted": 2974,
+      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "basis": "retailer_current",
+      "note": "2026-11-04 下午重新查核：PChome exact SKU DMAYGB-A900IW311；Price.Low=2974元，Qty=7。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAYGBA900IW311/000001_1767836506.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAYGB-A900IW311",

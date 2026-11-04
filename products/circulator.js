@@ -1819,10 +1819,11 @@
     "name": "360 度美型空氣循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 2990,
-      "converted": 2990,
-      "confidence": "2026-10-24 人工核對 www.irisplaza.com.tw 同型號與所選版本公開價 TWD 2990，可下單；未扣會員、信用卡或點數。",
-      "note": "2026-11-04 IRISPCFCDP18TEC官方schema3690，但原HTML存在售完/存貨不足動態模板，尚未核實所選購買區可訂，保留2990參考價。未取得原廠台灣exact整型停產正證，不據此刪除。"
+      "amount": 3690,
+      "converted": 3690,
+      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-04 下午覆核：原生IRIS台灣官方PCF-CDP18TEC主價3690、劃線3990，現庫存10件、加入購物車與立即購買可用；HTML售完字串屬動態模板。",
+      "basis": "retailer_current"
     },
     "image": "https://img.shoplineapp.com/media/image_clips/69ccee7a1cf502b0b21ecdd0/original.jpg?1775038073=&owner_id=6976e3a5a39620001e911a08",
     "buyUrl": "https://www.irisplaza.com.tw/products/iris-pcf-cdp18tec",

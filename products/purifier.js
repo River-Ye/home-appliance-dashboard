@@ -1282,7 +1282,7 @@
       "amount": 20064,
       "converted": 20064,
       "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-04 Yahoo TP12主商品20064、折前20900，滿1件96折；標題明示預購，交期待確認。可下單/加車，不扣個人券、信用卡、點數或贈品。當日原活動期限2026-11-04T07:59:59+08:00，非沿用昨日到期活動。",
+      "note": "2026-11-04 午後人工覆核：Yahoo同型號主商品公開價20064元；立即購買/加入購物車可用。TP12原頁仍明示預購，交期待確認；96折20064本輪實際新截止11/5 09:59:59。 不扣個人化回饋或贈品。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3CA900HTKRG/000001_1767758629.jpg",
@@ -2575,11 +2575,11 @@
     "name": "4–8 坪抗敏系列空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 3111,
-      "converted": 3111,
-      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 2737,
+      "converted": 2737,
+      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-04 人工核對當日PChome exact商品ID DMAU00-A77331975：Honeywell 抗敏系列空氣清淨機 HPA-100APTW；美國Honeywell 抗敏系列空氣清淨機 HPA100APTW (適用坪數4-8坪)；Price.P=3111元，Qty=78。原HTML主商品另讀。不扣個人券、點數、信用卡；送貨安裝請確認。"
+      "note": "2026-11-04 下午重新查核：PChome exact SKU DMAU00-A77331975；Price.Low=2737元，Qty=78。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。"
     },
     "installation": {
       "status": "not_stated",
@@ -2688,7 +2688,7 @@
       "converted": 5511,
       "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-01 momo 小米AC-M25-SC所選1組主商品單件折1488後5511元，折前6999；11/11止。兩組11198不是單件價。"
+      "note": "2026-11-04 午後人工覆核：momo選定主品號本輪公開價5511元，原生直接購買/放入購物車皆啟用。 原頁活動期間 : 10/31 00:00~11/11 23:59（來源精度到分鐘）。 不扣個人化回饋或贈品。"
     },
     "image": "https://i1.momoshop.com.tw/1786110782/goodsimg/0015/189/670/15189670_R_m.webp",
     "buyUrl": "https://www.momoshop.com.tw/product/15189670",

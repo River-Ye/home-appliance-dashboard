@@ -792,13 +792,14 @@
     "price": {
       "currency": "USD",
       "amount": 2199,
-      "converted": 71664,
-      "confidence": "2026-08-31 人工核對 LG 美國官網 SC5GMR80H 公開可購主價 USD 2,199；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-11-03 匯率換算",
-      "basis": "retailer_current"
+      "converted": 72063,
+      "confidence": "2026-08-31 人工核對 LG 美國官網 SC5GMR80H 公開可購主價 USD 2,199；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-11-04 匯率換算",
+      "basis": "retailer_current",
+      "note": "2026-11-04 午後人工覆核：LG美國SC5GMR80H原生頁標題區USD1999/折800，但實際Review your selections與Selection Total仍USD2199/折600；主商品Add to Cart啟用、90210預估11/9送達，和原HTML OutOfStock互相矛盾。保留2199舊參考價，價格與供貨待確認；不取較低headline當選定可購價。未含國際運費、進口稅、電壓/插頭與台灣保固風險。"
     },
     "image": "https://media.us.lg.com/transform/ecomm-PDPGallery-1100x730/80ff5e54-eada-4b61-a822-7b8e27555153/Styler-SC5GMR80H-gallery-01_5000x5000?io=transform:fill,width:1024",
     "buyUrl": "https://www.lg.com/us/washers-dryers/lg-sc5gmr80h-styler-steam-closet",
-    "buyLabel": "LG 美國官網",
+    "buyLabel": "LG 美國（價格及供貨待確認）",
     "specs": [
       "容量：5 衣架＋1 褲架",
       "護理技術：Dual TrueSteam、Dynamic MovingHanger 與內建 HandySteamer",
@@ -903,8 +904,8 @@
     "price": {
       "currency": "USD",
       "amount": 1799,
-      "converted": 58628,
-      "confidence": "2026-08-31 人工核對 LG 美國官網 SC5MAR4G 公開可購主價 USD 1,799；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-11-03 匯率換算",
+      "converted": 58955,
+      "confidence": "2026-08-31 人工核對 LG 美國官網 SC5MAR4G 公開可購主價 USD 1,799；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-11-04 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-04 LG美國SC5MAR4G原SKUOutOfStock，1999USD缺貨展示價不採，保留1799USD參考與海外運稅/電力/保固風險。未取得原廠台灣exact整型停產正證，不據此刪除。"
     },
@@ -1014,9 +1015,11 @@
     "name": "LG Styler Smart Steam Closet Mirror",
     "price": {
       "currency": "USD",
-      "amount": 1699,
-      "converted": 55369,
-      "confidence": "LG 美國 2026-07-23 官方現售型錄公開價；ExchangeRate-API 2026-11-03 匯率換算"
+      "amount": 1599,
+      "converted": 52401,
+      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-04 匯率換算",
+      "basis": "retailer_current",
+      "note": "2026-11-04 午後人工覆核：LG美國原生所選S3MFBN Mirror主商品與Review your selections/Selection Total一致為USD1599，主商品Add to Cart啟用；不扣bundle、保護方案、回收服務或會員優惠。未含國際運費、進口稅、電壓/插頭與台灣保固風險。"
     },
     "image": "https://media.us.lg.com/transform/ecomm-PDPGallery-1100x730/f09c059c-80e3-415a-afec-17d204454e7c/Styler-S3MFBN-gallery-01_5000x5000?io=transform:fill,width:1024",
     "buyUrl": "https://www.lg.com/us/washers-dryers/lg-s3mfbn-styler-steam-closet",
@@ -1124,9 +1127,11 @@
     "name": "LG Styler Smart Steam Closet White",
     "price": {
       "currency": "USD",
-      "amount": 1499,
-      "converted": 48851,
-      "confidence": "2026-09-06 人工覆核同型號原購買頁：LG US原頁白色S3WFBN主商品$1,499.00、$400 OFF對照原價$1,899.00；Add to Cart可用；主商品JSON-LD InStock。 當前公开美元價1,499，未見原先1,349；bundle額外200–1000優惠與相關配件價不採，保留原海外運費/稅費/電力/保固風險。；ExchangeRate-API 2026-11-03 匯率換算"
+      "amount": 1399,
+      "converted": 45846,
+      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-04 匯率換算",
+      "basis": "retailer_current",
+      "note": "2026-11-04 午後人工覆核：LG美國原生所選S3WFBN White主商品與Review your selections/Selection Total一致為USD1399，主商品Add to Cart啟用；不扣bundle、保護方案、回收服務或會員優惠。未含國際運費、進口稅、電壓/插頭與台灣保固風險。"
     },
     "image": "https://media.us.lg.com/transform/ecomm-PDPGallery-1100x730/40e1eddc-4b4d-446b-afcf-fc792acdf3f8/Styler-S3WFBN-gallery-01_5000x5000?io=transform:fill,width:1024",
     "buyUrl": "https://www.lg.com/us/washers-dryers/lg-s3wfbn-styler-steam-closet",
@@ -1235,8 +1240,8 @@
     "price": {
       "currency": "USD",
       "amount": 1499,
-      "converted": 48851,
-      "confidence": "LG 美國 2026-07-23 官方現售型錄公開價；ExchangeRate-API 2026-11-03 匯率換算"
+      "converted": 49123,
+      "confidence": "LG 美國 2026-07-23 官方現售型錄公開價；ExchangeRate-API 2026-11-04 匯率換算"
     },
     "image": "https://media.us.lg.com/transform/ecomm-PDPGallery-1100x730/d0843109-3129-40be-b3b9-325bb4ef78de/Styler-S3RFBN-gallery-01_5000x5000?io=transform:fill,width:1024",
     "buyUrl": "https://www.lg.com/us/washers-dryers/lg-s3rfbn-styler-steam-closet",
@@ -1345,8 +1350,8 @@
     "price": {
       "currency": "KRW",
       "amount": 2443730,
-      "converted": 59250,
-      "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照；ExchangeRate-API 2026-11-03 匯率換算"
+      "converted": 59589,
+      "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照；ExchangeRate-API 2026-11-04 匯率換算"
     },
     "image": "https://images.samsung.com/kdp/goods/2026/01/13/bcebeb93-4709-4c18-b685-e159e476dcfd.png",
     "buyUrl": "https://prod.danawa.com/info/?pcode=108410873",
@@ -1455,8 +1460,8 @@
     "price": {
       "currency": "KRW",
       "amount": 2172430,
-      "converted": 52672,
-      "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照；ExchangeRate-API 2026-11-03 匯率換算"
+      "converted": 52973,
+      "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照；ExchangeRate-API 2026-11-04 匯率換算"
     },
     "image": "https://images.samsung.com/kdp/goods/2026/01/13/a5e2b9e4-2578-420b-a4e9-03f9af8a98a4.png",
     "buyUrl": "https://prod.danawa.com/info/?pcode=107770493",
@@ -1565,8 +1570,8 @@
     "price": {
       "currency": "KRW",
       "amount": 2203310,
-      "converted": 53421,
-      "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照；ExchangeRate-API 2026-11-03 匯率換算"
+      "converted": 53726,
+      "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照；ExchangeRate-API 2026-11-04 匯率換算"
     },
     "image": "https://images.samsung.com/kdp/goods/2026/01/13/b79b910e-17e9-4844-b199-726f9a7a3810.png",
     "buyUrl": "https://prod.danawa.com/info/?pcode=107770475",
@@ -1675,8 +1680,8 @@
     "price": {
       "currency": "KRW",
       "amount": 2017980,
-      "converted": 48927,
-      "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照；ExchangeRate-API 2026-11-03 匯率換算"
+      "converted": 49207,
+      "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照；ExchangeRate-API 2026-11-04 匯率換算"
     },
     "image": "https://images.samsung.com/kdp/goods/2026/01/13/76d4f74e-0c3a-42e1-89f8-426d5859c6d0.png",
     "buyUrl": "https://prod.danawa.com/info/?pcode=107770397",
@@ -1785,8 +1790,8 @@
     "price": {
       "currency": "KRW",
       "amount": 2018400,
-      "converted": 48937,
-      "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照；ExchangeRate-API 2026-11-03 匯率換算"
+      "converted": 49217,
+      "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照；ExchangeRate-API 2026-11-04 匯率換算"
     },
     "image": "https://images.samsung.com/kdp/goods/2026/01/13/51d56ac5-a158-40ac-8c0a-40369bd7fd13.png",
     "buyUrl": "https://prod.danawa.com/info/?pcode=108411020",
@@ -1895,8 +1900,8 @@
     "price": {
       "currency": "KRW",
       "amount": 1791170,
-      "converted": 43428,
-      "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照；ExchangeRate-API 2026-11-03 匯率換算"
+      "converted": 43676,
+      "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照；ExchangeRate-API 2026-11-04 匯率換算"
     },
     "image": "https://images.samsung.com/kdp/goods/2026/01/13/a6dfd1ea-ae12-4bd7-b437-8fbbab8ccbe7.png",
     "buyUrl": "https://prod.danawa.com/info/?pcode=108411242",
@@ -2005,8 +2010,8 @@
     "price": {
       "currency": "JPY",
       "amount": 328680,
-      "converted": 67838,
-      "confidence": "BicCamera 2026-07-23 exact-model 新品公開價；ExchangeRate-API 2026-11-03 匯率換算"
+      "converted": 68000,
+      "confidence": "BicCamera 2026-07-23 exact-model 新品公開價；ExchangeRate-API 2026-11-04 匯率換算"
     },
     "image": "https://panasonic.jp/content/experience-fragments/panasonic/jp/ja/content/smartcloset/products/HCC-R600AR/lp4_ind1_HCC-R600AR_cxf/master/_jcr_content/root/c_lay014/c_lay001_434717760_c_1343778137/c_lay011/c_gen003.coreimg.png/1743734842467/hcc-r600al-link-864x648-250403.png",
     "buyUrl": "https://www.biccamera.com/bc/item/11581815/",
@@ -2120,7 +2125,7 @@
       "converted": 35820,
       "confidence": "Yahoo購物中心 2026-08-20 exact-model 台灣新品頁公開價，可加入購物車",
       "basis": "retailer_current",
-      "note": "2026-11-04 YahooNRGB1RW主價39800但已停售，保留舊參考價，不套會員價。未取得原廠台灣exact整型停產正證，不據此刪除。"
+      "note": "2026-11-04 午後人工覆核：Yahoo N-RGB1R-W主商品本輪展示39800元，但購買區明示「已停售」，沒有立即購買/加入購物車；保留35820元舊參考價，不採停售/缺貨展示價或自行乘算活動折扣。這是通路listing狀態，不能據此認定原廠整型停產。"
     },
     "image": "https://panasonic.scene7.com/is/image/Panasonic/ast-1397271?fmt=png-alpha&wid=644&hei=644",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic%E5%9C%8B%E9%9A%9B%E7%89%8C-%E9%9B%BB%E5%AD%90%E8%A1%A3%E6%AB%A5-N-RGB1R-W-10015661.html",

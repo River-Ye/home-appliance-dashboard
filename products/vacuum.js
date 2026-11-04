@@ -311,7 +311,7 @@
       "converted": 15200,
       "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-03 Yahoo所選同型號主商品公開價15200元，原頁可訂購；不扣個人券、信用卡、點數或贈品。本次實讀活動有效至2026-12-31T23:59:59+08:00，不是沿用昨日活動期限。"
+      "note": "2026-11-04 午後人工覆核：Yahoo同型號主商品公開價15200元；立即購買/加入購物車可用。 不扣個人化回饋或贈品。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAXB5A900JFCJP/000001_1762402803.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Tineco-%E6%B7%BB%E5%8F%AF-Switch-S7-Stretch%E5%A4%9A%E5%B7%A5%E5%B9%B3%E8%BA%BA%E6%B4%97%E5%9C%B0%E5%90%B8%E5%A1%B5%E5%99%A8-22000Pa-5%E5%88%86%E9%90%98%E9%80%9F%E4%B9%BE-11979820.html",
@@ -1083,7 +1083,7 @@
       "amount": 6111,
       "converted": 6111,
       "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-01 momo LG A7-LITEMOP雲朵白所選主商品11/01–11/12活動已開始，單件折5789後6111元，折前11900；goodsStock1，不再把此已開始活動列尚未開賣。",
+      "note": "2026-11-04 午後人工覆核：momo選定主品號本輪公開價6111元，原生直接購買/放入購物車皆啟用。 原頁活動期間 : 11/01 00:00~11/12 23:59（來源精度到分鐘）。 不扣個人化回饋或贈品。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX6FA900K2NSV/000001_1780464185.jpg",
@@ -1277,7 +1277,7 @@
       "amount": 2990,
       "converted": 2990,
       "confidence": "XJC-Y011 官方商品頁 2026-09-05 人工核對 exact-model 公開現價及可購狀態；非會員券、紅利或加購價",
-      "note": "2026-11-04 正負零XJCY011官方4990但正文目前尚無庫存，不採缺貨展示價。未取得原廠台灣exact整型停產正證，不據此刪除。"
+      "note": "2026-11-04 下午覆核：原商品頁已停售/已售完/目前尚無庫存或官方OutOfStock；不將新結構化報價寫為可購現價，也沒有官方整型停產證據，保留既有參考。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBE1AA900J8H81/000001_1757576197.jpg",
     "buyUrl": "https://plusminuszero.com.tw/shop-d.php?Key=1&W=Index",
@@ -2240,8 +2240,8 @@
     "price": {
       "currency": "USD",
       "amount": 679.99,
-      "converted": 22160,
-      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-11-03 匯率換算"
+      "converted": 22284,
+      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-11-04 匯率換算"
     },
     "image": "https://m.media-amazon.com/images/I/61Yuy5vtWFL._AC_SL1500_.jpg",
     "buyUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
@@ -2280,14 +2280,14 @@
       "status": "found",
       "amount": 679.99,
       "currency": "USD",
-      "converted": 22160,
+      "converted": 22284,
       "sourceUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
       "sourceTitle": "Dreame Aero Ultra Steam Wet Dry Vacuum – Dreame Vacuum Mop",
       "evidenceSnippet": "Dreame 原廠美國商品頁於 2026-07-16 公開顯示特價 US$679.99、原價 US$799.99，且可 Add to Cart / Buy It Now。",
       "sourceKind": "official_sale",
       "confidence": "high",
       "checkedAt": "2026-07-16",
-      "note": "新上市商品目前可公開驗證的最低售價；未套用會員碼、信用卡、點數或個人化折扣，且未含國際運費、進口稅、插頭／供電與台灣保固風險；依 2026-11-03 USD/TWD 匯率換算。"
+      "note": "新上市商品目前可公開驗證的最低售價；未套用會員碼、信用卡、點數或個人化折扣，且未含國際運費、進口稅、插頭／供電與台灣保固風險；依 2026-11-04 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2838,7 +2838,7 @@
       "converted": 10924,
       "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-04 momo F302HW米家無線洗地機5Pro主商品95折10924、折前11499，活動11/3 20:30至11/4 09:00，數量1至20、1年保固；相關G30Max8074非本款。"
+      "note": "2026-11-04 午後人工覆核：momo選定主品號本輪公開價10924元，原生直接購買/放入購物車皆啟用。F302HW本輪95折10924為新活動11/04 00:00至11/05 23:59，不沿用今早09:00已到期活動；其他G20Lite2511/G30Max8074不是本商品。 原頁活動期間 : 11/04 00:00~11/05 23:59（來源精度到分鐘）。 不扣個人化回饋或贈品。"
     },
     "image": "https://i4.momoshop.com.tw/1786613003/goodsimg/0015/540/464/15540464_R_m.webp",
     "buyUrl": "https://www.momoshop.com.tw/product/15540464",
@@ -3311,7 +3311,7 @@
     "converted": 4811,
     "basis": "retailer_current",
     "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-    "note": "2026-11-03 momo 所選XJC-G040主商品單件折300後4811、折前5111；11/01至11/15活動，數量1至20；相關Y0112911不是本款。"
+    "note": "2026-11-04 午後人工覆核：momo選定主品號本輪公開價4811元，原生直接購買/放入購物車皆啟用。 原頁活動期間 : 11/01 00:00~11/15 23:59（來源精度到分鐘）。 不扣個人化回饋或贈品。"
   },
   "installation": {
     "status": "not_stated",
