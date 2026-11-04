@@ -2014,7 +2014,8 @@
       "amount": 9638,
       "converted": 40257,
       "basis": "retailer_current",
-      "confidence": "EasyLock 香港 2026-08-28 exact-model 公開促銷價；ExchangeRate-API 2026-11-04 匯率換算"
+      "confidence": "EasyLock 香港 2026-08-28 exact-model 公開促銷價；ExchangeRate-API 2026-11-04 匯率換算",
+      "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。"
     },
     "installation": {
       "status": "included_basic",
@@ -2022,7 +2023,7 @@
     },
     "image": "https://easylock.com.hk/cdn/shop/files/Lockin-V7-Max-726x726.webp?v=1782731439&width=700",
     "buyUrl": "https://easylock.com.hk/products/lockin-v7-max-gy",
-    "buyLabel": "EasyLock 香港",
+    "buyLabel": "EasyLock 香港（來源待確認）",
     "specs": [
       "掌靜脈/指靜脈/3D 人臉",
       "三鏡頭 / 內外雙 5 吋螢幕",
@@ -2876,9 +2877,10 @@
     "name": "FB63M 精簡電子智慧門鎖",
     "price": {
       "currency": "TWD",
-      "amount": 13775,
-      "converted": 13775,
-      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 11111,
+      "converted": 11111,
+      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
+      "note": "Chrome原頁主商品FB63M／FB63M 精簡電子智慧門鎖可核對，公開主區售價11111元，購買按鈕可用；不扣個人券、信用卡、點數或贈品。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900I8ITU/000001_1753416985.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900I8ITU",
@@ -2911,16 +2913,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 13775,
+      "amount": 11111,
       "currency": "TWD",
-      "converted": 13775,
+      "converted": 11111,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900I8ITU",
-      "sourceTitle": "PChome 商品頁：FIBRE 琺博 電子智慧門鎖 精簡FB63M / FIBRE琺博 3.7公分寬最修身細窄 電子智慧門鎖",
-      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「FIBRE 琺博 電子智慧門鎖 精簡FB63M / FIBRE琺博 3.7公分寬最修身細窄 電子智慧門鎖」查核價 NT$13,775，低於原先記錄史低。",
+      "sourceTitle": "PChome 24h：FIBRE FB63M",
+      "evidenceSnippet": "2026-11-04 Chrome原頁同型號/版本可購主價NT$11111，低於先前可驗證低點NT$13775。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-10",
-      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
+      "checkedAt": "2026-11-04",
+      "note": "採本輪實際可公開重現的同型號新品單件主價；不扣個人券、會員個人折扣、信用卡、點數或贈品，不把其他版本/缺貨價當同款史低。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2974,11 +2976,12 @@
       "currency": "TWD",
       "amount": 20900,
       "converted": 20900,
-      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 Chrome覆核：此連結主商品現為FB70K，與本筆FB70X不同；保留20900元舊參考價，不能用FB70K的17111元當作本款現價。官方未明示FB70X停產或K取代X，暫留待確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQAT0IA900GXIHM/000001_1764834253.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQAT0I-A900GXIHM",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（頁面已改FB70K，FB70X供貨待確認）",
     "specs": [
       "APP/指紋/感應卡",
       "密碼/鑰匙",
@@ -2988,7 +2991,7 @@
     "description": "電子鎖購買前要先確認門厚、門向、鎖體、天地栓與安裝條件；本清單僅列可信通路正常新品。",
     "pros": [
       "FIBRE 通路能見度高",
-      "PChome 正常新品頁，價格與圖片可查核"
+      "原FIBRE樸實系列比較資料；目前通路頁型號已變，購買前需確認exact model"
     ],
     "cons": [
       "安裝前需確認門型與加價項目",
@@ -3262,9 +3265,10 @@
     "name": "和系列全自動七合一智慧鎖",
     "price": {
       "currency": "TWD",
-      "amount": 21755,
-      "converted": 21755,
-      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 24900,
+      "converted": 24900,
+      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
+      "note": "Chrome原頁主商品HIT-FV70-T／和系列全自動七合一智慧鎖可核對，公開主區網路價24900元，購買按鈕可用；「下單再折」或其他結帳優惠另計，不以API較低數字替代主價。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900JLLZ3/000001_1782963047.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900JLLZ3",
@@ -3554,11 +3558,12 @@
       "currency": "TWD",
       "amount": 8990,
       "converted": 8990,
-      "confidence": "可信通路查核價"
+      "confidence": "可信通路查核價",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DECE36A900EXHPC/000001_1776403865.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DECE36-A900EXHPC",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "指紋/卡片/密碼",
       "輔助鎖",
@@ -3746,11 +3751,12 @@
       "currency": "TWD",
       "amount": 11210,
       "converted": 11210,
-      "confidence": "PChome 2026-07-31 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-07-31 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900K1WBU/000001_1779862478.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900K1WBU",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "指紋/密碼",
       "卡片",
@@ -4328,9 +4334,10 @@
     "name": "DJS-SK07 全自動智慧電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 22230,
-      "converted": 22230,
-      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 20826,
+      "converted": 20826,
+      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
+      "note": "Chrome原頁主商品DJS-SK07／DJS-SK07 全自動智慧電子鎖可核對，公開主區售價20826元，購買按鈕可用；不扣個人券、信用卡、點數或贈品。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900J5GYW/000001_1755762130.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900J5GYW",
@@ -4363,16 +4370,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 22230,
+      "amount": 20826,
       "currency": "TWD",
-      "converted": 22230,
+      "converted": 20826,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900J5GYW",
-      "sourceTitle": "PChome 商品頁：【帝網KingNet】DJS-SK07全自動智慧電子鎖 / 【帝網KingNet】DJS智慧電子門鎖【台灣NCC合格認證】",
-      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「【帝網KingNet】DJS-SK07全自動智慧電子鎖 / 【帝網KingNet】DJS智慧電子門鎖【台灣NCC合格認證】」查核價 NT$22,230，低於原先記錄史低。",
+      "sourceTitle": "PChome 24h：KingNet DJS-SK07",
+      "evidenceSnippet": "2026-11-04 Chrome原頁同型號/版本可購主價NT$20826，低於先前可驗證低點NT$22230。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-10",
-      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
+      "checkedAt": "2026-11-04",
+      "note": "採本輪實際可公開重現的同型號新品單件主價；不扣個人券、會員個人折扣、信用卡、點數或贈品，不把其他版本/缺貨價當同款史低。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -4622,11 +4629,12 @@
       "currency": "TWD",
       "amount": 32110,
       "converted": 32110,
-      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900K2STR/000001_1783309040.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900K2STR",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "13 合 1",
       "人臉/指紋/掌靜脈",
@@ -5015,7 +5023,8 @@
       "amount": 24999,
       "converted": 24999,
       "basis": "retailer_current",
-      "confidence": "2026-10-23 台灣總代理立傑新品原頁及Shopify exact variant公開價；available=true"
+      "confidence": "2026-10-23 台灣總代理立傑新品原頁及Shopify exact variant公開價；available=true",
+      "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。"
     },
     "installation": {
       "status": "included_basic",
@@ -5023,7 +5032,7 @@
     },
     "image": "https://cdn.shopify.com/s/files/1/0649/8235/2081/files/720MVP-GIFT2.jpg?v=1791788235",
     "buyUrl": "https://shop.ljtwm.com/products/philips-ddl720-mvp",
-    "buyLabel": "飛利浦台灣總代理立傑商城",
+    "buyLabel": "飛利浦台灣總代理立傑商城（來源待確認）",
     "specs": [
       "掌靜脈、指紋、密碼、卡片、臨時密碼、機械鑰匙六種室外解鎖",
       "可視貓眼、廣角夜視、4吋LCD；Wi-Fi／Home Access App",
@@ -5195,6 +5204,104 @@
       "三鏡頭",
       "磁吸充電",
       "含標準安裝"
+    ]
+  },
+  {
+    "id": "smartlock-fibre-fb70k",
+    "category": "smartlock",
+    "brand": "FIBRE",
+    "model": "FB70K",
+    "name": "FB70K 樸實六合一把手式指紋電子鎖",
+    "rank": 55,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "price": {
+      "currency": "TWD",
+      "amount": 17111,
+      "converted": 17111,
+      "basis": "retailer_current",
+      "confidence": "2026-11-04 人工讀取FIBRE台灣官方現行商品清單與FB70K原商品主區，皆公開17111元且提供門厚、門向、顏色及加入購物車；不是沿用FB70X價格。",
+      "note": "官方11/1–11/22主宣傳圖與主價格17111元，圖文明示含安裝；不另扣會員、信用卡、點數或贈品。未承諾即時庫存或固定出貨日，先確認門型、安裝範圍及額外工程報價。原頁顏色選單僅列深紅古，實際外觀請下單前確認。"
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "官方FB70K商品頁當期11/1–11/22主宣傳圖明示17111元含安裝；此圖經root原生下載與目視覆核。標準安裝範圍與額外工程統一價表未明示，門向、鎖體、天地栓、既有孔位、補孔及門扇調整須先現勘報價；官方條款明示超出安裝規範可另收費。規格表門厚45–70/71–90mm、91mm以上另訂；下單選單另列30–55/56–80/80mm以上，兩處不一致，須原廠依實際門厚確認套件。"
+    },
+    "image": "https://www.fibrekey.com/images/pdt2/tw/0202610301117124263.webp",
+    "buyUrl": "https://www.fibrekey.com/tw/ProductDetail/2/FB70K",
+    "buyLabel": "FIBRE台灣官方商城（門型／安裝先確認）",
+    "specs": [
+      "類型：FB70K樸實，把手式指紋電子鎖；官方商城顏色選單列深紅古，非FB70X，亦非內建Wi-Fi的FB70W",
+      "開門：藍牙App、指紋、M1感應卡片、密碼、一次性密碼、機械鑰匙；FIBREKEY需開啟App靠近使用，不宣稱無條件免操作自動開門",
+      "連線：藍牙為本款功能；Wi-Fi遠端開門須選配雲端設備，不能把FB70W內建Wi-Fi移植至FB70K",
+      "供電：4.6–6.6V DC，4顆3號AA鹼性電池；專用鋰電池屬選配，非標準隨附",
+      "緊急供電：Type-C接口，官方頁未明示輸入電壓/電流；保留機械鑰匙在屋外作備援，接口型式不代表任意快充相容",
+      "安裝：規格表45–70mm、71–90mm，91mm以上另訂；下單選單另列30–55/56–80/80mm以上，需先由原廠確認；四種向內/向外左/右開選項，天地栓/鎖匣/孔位另評估",
+      "鎖體／防護：F-01機械式靜音鎖體、安心暗栓；前面板IP54，官方另文定位室內空間使用，不當作室外淋雨全機防水款",
+      "面板：官方原序65×225×22mm，未自行補寬高深軸序；鋅合金與模內塑造面板",
+      "保固：機械結構與塗裝3年、電子器件2年；安裝完成14日內至官方LINE登錄，未登錄依出貨日起算；電池誤用/漏液依除外條款",
+      "維護：每半年檢查電池盒/電量，至少每年換電池；夜間、假日與偏遠地區出勤可能另收派工費，現場教學與保固外維修依條款",
+      "安裝費：官方當期11/1–11/22主宣傳圖明示17111元含安裝；特殊鎖體、天地栓、改門補孔、門扇調整等是否加價及標準範圍需先現勘確認"
+    ],
+    "description": "FIBRE台灣官方仍公開可選購的FB70K樸實，採AA電池與把手一體指紋，適合希望維持傳統把手操作的家庭。它與在冊FB70X是不同官方型號；原PChome商品頁已改為K型，不能把X款的價格、負評或世代關係直接繼承。官方沒有明示FB70K取代FB70X或X停產。",
+    "pros": [
+      "台灣官方有完整FB70K規格、門型選項與售後保固",
+      "4顆AA電池易更換，另有Type-C應急與機械鑰匙備援",
+      "把手整合指紋，藍牙與一次性密碼可滿足基本門禁"
+    ],
+    "cons": [
+      "含安裝方案的標準範圍與額外工程價表未明示，特殊門型須先現勘確認總額",
+      "官網規格表與門厚選單區間不同，須由原廠核對套件；天地栓/舊孔位另評估",
+      "Wi-Fi遠端須選配；前面板IP54不代表全機可室外淋雨",
+      "官方沒有公開確切上市日與可信史低；新舊型號不能共用負評證據"
+    ],
+    "bestFor": "偏好把手指紋與AA電池、能先完成台灣原廠門型評估的家庭。",
+    "recommendation": "台灣官方把手式參考款；17111元為11/1–11/22公開整機含安裝方案，門厚套件與特殊工程需先確認。保留FB70X的原參考資料並明示來源改型號，不據K款出現推定X停產。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-11-04",
+      "note": "已查FB70K exact型號價格歷史及FindPrice、飛比；FindPrice只有一筆同型號momo當日17111元及非本型號推薦，沒有可重現歷史最低點，飛比原頁連線失敗。不把官方當日17111元、舊22000牌價、信用卡/點數/會員券或FB70X價格當本款史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-11-04",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"FB70K\" (問題 OR 故障 OR 心得)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22FB70K%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97%29"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"FB70K\" (問題 OR 故障 OR 心得)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22FB70K%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97%29"
+        }
+      ]
+    },
+    "score": 83,
+    "voltage": "4.6–6.6V DC／4顆3號AA鹼性電池；專用鋰電池選配。Type-C緊急輸入電壓/電流未明示，依原廠操作要求。",
+    "warranty": "FIBRE琺博台灣原廠：機械結構及塗裝3年、電子器件2年。安裝後14日內官方LINE登錄，未登錄由出貨日起算；夜間/假日/偏遠出勤及非產品故障現場教學可另收費。客服03-5359846／LINE @fibrekey。",
+    "tags": [
+      "台灣官方商城",
+      "把手式",
+      "指紋",
+      "AA電池",
+      "Wi-Fi選配",
+      "安裝先評估"
     ]
   }
 ]);

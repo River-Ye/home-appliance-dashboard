@@ -106,11 +106,12 @@
       "currency": "TWD",
       "amount": 1771,
       "converted": 1771,
-      "confidence": "2026-08-31 人工查核：PCF-SC15T 沙黑雖顯示單件 9 折 NT$2,061、數量 1 與到貨日期，但載入後只有『可訂購時通知我』，沒有直接購買／購物車；不以數量選單或預計到貨文字推定現售。保留原紀錄價 1,771，不因缺貨移除。"
+      "confidence": "2026-08-31 人工查核：PCF-SC15T 沙黑雖顯示單件 9 折 NT$2,061、數量 1 與到貨日期，但載入後只有『可訂購時通知我』，沒有直接購買／購物車；不以數量選單或預計到貨文字推定現售。保留原紀錄價 1,771，不因缺貨移除。",
+      "note": "2026-11-04 Chrome逐筆查核：Chrome原來源頁明示「商品目前無展售／網頁不存在」或「查無商品資料，商品不存在或已下架」；沒有可購主商品價格；不是原廠停產證據。 保留既有參考價，另查可信現售連結。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBE18A900J27XM/000001_1754619793.jpg",
     "buyUrl": "https://www.momoshop.com.tw/product/8033074",
-    "buyLabel": "momo購物",
+    "buyLabel": "momo（原來源無展售，查看供貨）",
     "specs": [
       "桌上型",
       "遙控",
@@ -582,11 +583,12 @@
       "currency": "TWD",
       "amount": 4418,
       "converted": 4418,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價",
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB3XA900HNEWA/000001_1782713198.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/VORNADO-%E6%B2%83%E6%8B%BF%E5%A4%9A-RTRHD-TW%E6%B8%A6%E6%B5%81%E7%A9%BA%E6%B0%A3%E5%BE%AA%E7%92%B0%E6%A9%9F-11214006.html",
-    "buyLabel": "Yahoo購物中心",
+    "buyLabel": "Yahoo購物中心（來源待確認）",
     "specs": [
       "渦流循環",
       "高風量",

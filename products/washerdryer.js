@@ -1071,10 +1071,11 @@
       "currency": "TWD",
       "amount": 24900,
       "converted": 24900,
-      "confidence": "2026-09-06 人工覆核同型號原購買頁：促銷價 24,900 元；市售價40,680；數量1/2/3；庫存低於3組；直接購買、加入購物車可用；含基本安裝＋舊機回收；保固1年；收單後專人聯繫約配。 不需會員券或結帳折扣；24,900直接顯示於公開促銷價區，mo點3%另列且未折抵。僅基本安裝，不承諾進階施工；特殊商品配送可能有額外費用。本賣場不參與原廠好禮活動。"
+      "confidence": "2026-09-06 人工覆核同型號原購買頁：促銷價 24,900 元；市售價40,680；數量1/2/3；庫存低於3組；直接購買、加入購物車可用；含基本安裝＋舊機回收；保固1年；收單後專人聯繫約配。 不需會員券或結帳折扣；24,900直接顯示於公開促銷價區，mo點3%另列且未折抵。僅基本安裝，不承諾進階施工；特殊商品配送可能有額外費用。本賣場不參與原廠好禮活動。",
+      "note": "2026-11-04 Chrome逐筆查核：Chrome原來源頁明示「商品目前無展售／網頁不存在」或「查無商品資料，商品不存在或已下架」；沒有可購主商品價格；不是原廠停產證據。 保留既有參考價，另查可信現售連結。"
     },
     "channel": "tw",
-    "buyLabel": "momo購物",
+    "buyLabel": "momo（原來源無展售，查看供貨）",
     "buyUrl": "https://www.momoshop.com.tw/TP/TP0003952/goodsDetail/TP00039520005819",
     "specs": [
       "洗烘衣機：SAMSUNG三星 WD12DB9B84GNTW 蒸洗脫烘 12+7KG Bespoke AI智慧滾筒洗衣機",
@@ -1175,10 +1176,11 @@
       "currency": "TWD",
       "amount": 19900,
       "converted": 19900,
-      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "channel": "tw",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1N-A900I8IJ8",
     "specs": [
       "洗烘衣機：SAMSUNG三星 WD12DB9B84GDTW 蒸洗脫烘 12+7KG Bespoke AI智慧滾筒洗衣機",
@@ -1389,10 +1391,11 @@
       "currency": "TWD",
       "amount": 48900,
       "converted": 48900,
-      "confidence": "Yahoo購物中心 2026-08-04 exact-model 公開結構化價格"
+      "confidence": "Yahoo購物中心 2026-08-04 exact-model 公開結構化價格",
+      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心",
+    "buyLabel": "Yahoo購物中心（原通路缺貨，查看供貨）",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-18%E5%85%AC%E6%96%A4-%E8%92%B8%E6%B4%97%E8%84%AB%E7%83%98-%E6%BB%BE%E7%AD%92%E6%B4%97%E8%A1%A3%E6%A9%9F-%E5%86%B0%E7%93%B7%E7%99%BD-WD-S18VDW-10547430.html",
     "specs": [
       "洗烘衣機：LG 18公斤滾筒洗衣機 冰瓷白 AI DD 蒸洗脫烘 WD-S18VDW",
@@ -1809,10 +1812,11 @@
       "currency": "TWD",
       "amount": 17970,
       "converted": 17970,
-      "confidence": "momo購物 2026-07-15 晚間頁面查核價"
+      "confidence": "momo購物 2026-07-15 晚間頁面查核價",
+      "note": "2026-11-04 Chrome逐筆查核：Chrome原來源頁明示「商品目前無展售／網頁不存在」或「查無商品資料，商品不存在或已下架」；沒有可購主商品價格；不是原廠停產證據。 保留既有參考價，另查可信現售連結。"
     },
     "channel": "tw",
-    "buyLabel": "momo購物",
+    "buyLabel": "momo（原來源無展售，查看供貨）",
     "buyUrl": "https://www.momoshop.com.tw/TP/TP0007894/goodsDetail/TP00078940002480",
     "specs": [
       "洗烘衣機：SANLUX台灣三洋12公斤滾筒洗脫烘變頻洗衣機AWD-1260KA",
@@ -2417,7 +2421,7 @@
       "amount": 86900,
       "converted": 86900,
       "confidence": "全聯全電商 2026-07-18 exact-model 公開現貨價",
-      "note": "2026-11-01 原全聯WD-S1818PB連結回覆spu_has_ended，現價與可購未確認；保留86900元舊參考價，無官方整型停產正證。"
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。 2026-11-01 原全聯WD-S1818PB連結回覆spu_has_ended，現價與可購未確認；保留86900元舊參考價，無官方整型停產正證。"
     },
     "channel": "tw",
     "buyLabel": "全聯（原頁失效，現價待確認）",
@@ -2628,10 +2632,11 @@
       "currency": "TWD",
       "amount": 99900,
       "converted": 99900,
-      "confidence": "Samsung 台灣 2026-07-26 exact-model 官方頁與建議售價"
+      "confidence": "Samsung 台灣 2026-07-26 exact-model 官方頁與建議售價",
+      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
     },
     "channel": "tw",
-    "buyLabel": "Samsung 台灣官方（購買地點）",
+    "buyLabel": "Samsung 台灣官方（購買地點）（原通路缺貨，查看供貨）",
     "buyUrl": "https://www.samsung.com/tw/washers-and-dryers/washer-dryer-combo/wd90h27-22kg-dark-gray-wd90h22ahstw/",
     "specs": [
       "洗/乾容量：22kg / 20kg",
@@ -3153,11 +3158,12 @@
       "amount": 16999,
       "converted": 16999,
       "confidence": "小米台灣官方商城 2026-08-28 exact-model 現售頁公開售價；頁面可直接選購",
-      "basis": "retailer_current"
+      "basis": "retailer_current",
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
     },
     "image": "https://i02.appmifile.com/848_item_tw/10/08/2026/71e821007cadfa79a8a0ff484e14242a!600x600!85.png",
     "buyUrl": "https://www.mi.com/tw/buy/product/mijia-front-load-washer-dryer-pro-12-5-kg",
-    "buyLabel": "小米台灣官方商城",
+    "buyLabel": "小米台灣官方商城（來源待確認）",
     "installation": {
       "status": "not_stated",
       "note": "小米台灣另有洗衣機授權到府安裝服務與收費條款，但 exact-model 購買頁未明示基本安裝是否包含；樓層搬運、舊機拆卸、進排水、插座與特殊施工費用需於下單前確認。"
@@ -3355,7 +3361,8 @@
       "amount": 34900,
       "converted": 34900,
       "basis": "retailer_current",
-      "confidence": "PChome 24h 2026-10-20 exact-model API Price.P=34900、Low=null；Qty=10，頁面同價"
+      "confidence": "PChome 24h 2026-10-20 exact-model API Price.P=34900、Low=null；Qty=10，頁面同價",
+      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
     },
     "installation": {
       "status": "not_stated",
@@ -3363,7 +3370,7 @@
     },
     "image": "https://img.pchome.com.tw/cs/items/DMBH1RA900IQMPQ/000001_1746415086.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBH1R-A900IQMPQ",
-    "buyLabel": "PChome 24h購物",
+    "buyLabel": "PChome 24h購物（原通路缺貨，查看供貨）",
     "specs": [
       "類型：獨立式滾筒洗脫烘；左開門",
       "洗/乾容量：11kg / 7kg",

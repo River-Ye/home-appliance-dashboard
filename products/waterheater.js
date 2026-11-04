@@ -22,7 +22,8 @@
       "converted": 24000,
       "confidence": "台灣林內官方產品頁 2026-08-14 exact-model 建議售價／定價",
       "basis": "official_suggested",
-      "scope": "single_unit"
+      "scope": "single_unit",
+      "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。"
     },
     "installation": {
       "status": "excluded",
@@ -30,7 +31,7 @@
     },
     "image": "https://img.pchome.com.tw/cs/items/DPAL3BA900K7E7I/000001_1783574994.jpg",
     "buyUrl": "https://www.rinnai.com.tw/Product/V3/413",
-    "buyLabel": "台灣林內官方產品頁",
+    "buyLabel": "台灣林內官方產品頁（來源待確認）",
     "specs": [
       "類型：瓦斯瞬熱式（屋內強制排氣）",
       "能源／氣源：LPG／NG，購買時須選定氣源",
@@ -136,7 +137,8 @@
       "converted": 33760,
       "confidence": "台灣林內官方產品頁 2026-08-14 exact-model 建議售價／定價",
       "basis": "official_suggested",
-      "scope": "single_unit"
+      "scope": "single_unit",
+      "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。"
     },
     "installation": {
       "status": "excluded",
@@ -144,7 +146,7 @@
     },
     "image": "https://img.pchome.com.tw/cs/items/DPAL48A900HJKFZ/000001_1717664058.jpg",
     "buyUrl": "https://www.rinnai.com.tw/Product/V3/395",
-    "buyLabel": "台灣林內官方產品頁",
+    "buyLabel": "台灣林內官方產品頁（來源待確認）",
     "specs": [
       "類型：瓦斯瞬熱式（屋內強制排氣）",
       "能源／氣源：LPG／NG，購買時須選定氣源",
@@ -250,7 +252,8 @@
       "converted": 28000,
       "confidence": "台灣林內官方產品頁 2026-08-14 exact-model 建議售價／定價",
       "basis": "official_suggested",
-      "scope": "single_unit"
+      "scope": "single_unit",
+      "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。"
     },
     "installation": {
       "status": "excluded",
@@ -258,7 +261,7 @@
     },
     "image": "https://img.pchome.com.tw/cs/items/DPAL47A900KAPIP/000001_1785726213.jpg",
     "buyUrl": "https://www.rinnai.com.tw/Product/V3/412",
-    "buyLabel": "台灣林內官方產品頁",
+    "buyLabel": "台灣林內官方產品頁（來源待確認）",
     "specs": [
       "類型：瓦斯瞬熱式（屋內強制排氣）",
       "能源／氣源：LPG／NG，購買時須選定氣源",
@@ -364,7 +367,8 @@
       "converted": 27900,
       "confidence": "SAKURA 台灣官方產品型錄 exact-model 建議售價 2026-08-14 exact-model 建議售價／定價",
       "basis": "official_suggested",
-      "scope": "single_unit"
+      "scope": "single_unit",
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
     },
     "installation": {
       "status": "included_basic",
@@ -372,7 +376,7 @@
     },
     "image": "https://cs-a.ecimg.tw/items/DPAL1NA900IFBZM/000001_1741319813.jpg",
     "buyUrl": "https://www.sakura.com.tw/Uploads/Catalog/6516c7d9-7c55-4723-8027-f224d2e65dd8/%E7%B6%B2%E8%B7%AF%E7%94%A8_SAKURA_%E5%85%A8%E7%94%A2%E5%93%81%E5%9E%8B%E9%8C%84_%E7%94%9F%E6%B4%BB%E9%A4%A8_240418.pdf#search=DH1693F",
-    "buyLabel": "SAKURA 台灣官方產品型錄 exact-model 建議售價",
+    "buyLabel": "SAKURA 台灣官方產品型錄 exact-model 建議售價（來源待確認）",
     "specs": [
       "類型：瓦斯瞬熱式（FE 強制排氣）",
       "能源／氣源：LPG／NG，購買時須選定氣源",
@@ -478,7 +482,8 @@
       "converted": 20600,
       "confidence": "SAKURA 台灣官方產品型錄 exact-model 建議售價 2026-08-14 exact-model 建議售價／定價",
       "basis": "official_suggested",
-      "scope": "single_unit"
+      "scope": "single_unit",
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
     },
     "installation": {
       "status": "included_basic",
@@ -486,7 +491,7 @@
     },
     "image": "https://img.pchome.com.tw/cs/items/DPAL1QA900JA0ND/000001_1759463671.png",
     "buyUrl": "https://www.sakura.com.tw/Uploads/Catalog/6516c7d9-7c55-4723-8027-f224d2e65dd8/%E7%B6%B2%E8%B7%AF%E7%94%A8_SAKURA_%E5%85%A8%E7%94%A2%E5%93%81%E5%9E%8B%E9%8C%84_%E7%94%9F%E6%B4%BB%E9%A4%A8_240418.pdf#search=DH1670F",
-    "buyLabel": "SAKURA 台灣官方產品型錄 exact-model 建議售價",
+    "buyLabel": "SAKURA 台灣官方產品型錄 exact-model 建議售價（來源待確認）",
     "specs": [
       "類型：瓦斯瞬熱式（FE 強制排氣）",
       "能源／氣源：LPG／NG，購買時須選定氣源",
@@ -592,7 +597,8 @@
       "converted": 21750,
       "confidence": "SAKURA 台灣官方產品型錄 exact-model 建議售價 2026-08-14 exact-model 建議售價／定價",
       "basis": "official_suggested",
-      "scope": "single_unit"
+      "scope": "single_unit",
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
     },
     "installation": {
       "status": "included_basic",
@@ -600,7 +606,7 @@
     },
     "image": "https://img.pchome.com.tw/cs/items/DMBM31A900H2TNN/000001_1769706487.jpg",
     "buyUrl": "https://www.sakura.com.tw/Uploads/Catalog/6516c7d9-7c55-4723-8027-f224d2e65dd8/%E7%B6%B2%E8%B7%AF%E7%94%A8_SAKURA_%E5%85%A8%E7%94%A2%E5%93%81%E5%9E%8B%E9%8C%84_%E7%94%9F%E6%B4%BB%E9%A4%A8_240418.pdf#search=DH1628",
-    "buyLabel": "SAKURA 台灣官方產品型錄 exact-model 建議售價",
+    "buyLabel": "SAKURA 台灣官方產品型錄 exact-model 建議售價（來源待確認）",
     "specs": [
       "類型：瓦斯瞬熱式（FE 強制排氣）",
       "能源／氣源：LPG／NG，購買時須選定氣源",
@@ -1390,7 +1396,8 @@
       "converted": 12900,
       "confidence": "Haier 海爾台灣官方商城 13L exact variation 2026-08-14 exact-model 建議售價／定價",
       "basis": "official_suggested",
-      "scope": "single_unit"
+      "scope": "single_unit",
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
     },
     "installation": {
       "status": "excluded",
@@ -1398,7 +1405,7 @@
     },
     "image": "https://www.haierpro.com.tw/wp-content/uploads/haier%E6%B5%B7%E7%88%BE%E7%86%B1%E6%B0%B4%E5%99%A8_LPG%E6%A1%B6%E8%A3%9D%E7%93%A6%E6%96%AF_%E6%AD%A3%E9%9D%A2.png",
     "buyUrl": "https://www.haierpro.com.tw/product/lpg/?attribute_pa_liter=13l",
-    "buyLabel": "Haier 海爾台灣官方商城 13L exact variation",
+    "buyLabel": "Haier 海爾台灣官方商城 13L exact variation（來源待確認）",
     "specs": [
       "類型：瓦斯瞬熱式（屋內強制排氣）",
       "能源／氣源：LPG 桶裝液化瓦斯專用",
@@ -1504,7 +1511,8 @@
       "converted": 15800,
       "confidence": "Haier 海爾台灣官方商城 16L exact variation 2026-08-14 exact-model 建議售價／定價",
       "basis": "official_suggested",
-      "scope": "single_unit"
+      "scope": "single_unit",
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
     },
     "installation": {
       "status": "excluded",
@@ -1512,7 +1520,7 @@
     },
     "image": "https://www.haierpro.com.tw/wp-content/uploads/haier%E6%B5%B7%E7%88%BE%E7%86%B1%E6%B0%B4%E5%99%A8_LPG%E6%A1%B6%E8%A3%9D%E7%93%A6%E6%96%AF_%E6%AD%A3%E9%9D%A2.png",
     "buyUrl": "https://www.haierpro.com.tw/product/lpg/?attribute_pa_liter=16l",
-    "buyLabel": "Haier 海爾台灣官方商城 16L exact variation",
+    "buyLabel": "Haier 海爾台灣官方商城 16L exact variation（來源待確認）",
     "specs": [
       "類型：瓦斯瞬熱式（屋內強制排氣）",
       "能源／氣源：LPG 桶裝液化瓦斯專用",
@@ -1618,7 +1626,8 @@
       "converted": 14900,
       "confidence": "Haier 海爾台灣官方型錄 2026-08-14 exact-model 建議售價／定價",
       "basis": "official_suggested",
-      "scope": "single_unit"
+      "scope": "single_unit",
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
     },
     "installation": {
       "status": "excluded",
@@ -1626,7 +1635,7 @@
     },
     "image": "https://www.haierpro.com.tw/wp-content/uploads/haier%E6%B5%B7%E7%88%BE%E7%87%83%E6%B0%A3%E7%86%B1%E6%B0%B4%E5%99%A8DC3-%E6%AD%A3%E9%9D%A2.png",
     "buyUrl": "https://www.haierpro.com.tw/wp-content/uploads/20251013%E6%B5%B7%E7%88%BE%E5%85%A8%E7%94%A2%E5%93%81%E5%9E%8B%E9%8C%84-H.pdf",
-    "buyLabel": "Haier 海爾台灣官方型錄",
+    "buyLabel": "Haier 海爾台灣官方型錄（來源待確認）",
     "specs": [
       "類型：瓦斯瞬熱式（屋內強制排氣）",
       "能源／氣源：NG1 天然瓦斯專用",
@@ -1733,7 +1742,8 @@
       "converted": 16400,
       "confidence": "台灣林內官方產品頁 2026-08-14 exact-model 建議售價／定價",
       "basis": "official_suggested",
-      "scope": "single_unit"
+      "scope": "single_unit",
+      "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。"
     },
     "installation": {
       "status": "excluded",
@@ -1741,7 +1751,7 @@
     },
     "image": "https://img.pchome.com.tw/cs/items/DPAL47A900KCEV3/000001_1786952678.jpg",
     "buyUrl": "https://www.rinnai.com.tw/Product/V3/420",
-    "buyLabel": "台灣林內官方產品頁",
+    "buyLabel": "台灣林內官方產品頁（來源待確認）",
     "specs": [
       "類型：儲熱式電熱水器（直掛）",
       "能源／氣源：電力；8 加侖／約 30 L 儲槽",
@@ -1848,7 +1858,8 @@
       "converted": 18200,
       "confidence": "台灣林內官方產品頁 2026-08-14 exact-model 建議售價／定價",
       "basis": "official_suggested",
-      "scope": "single_unit"
+      "scope": "single_unit",
+      "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。"
     },
     "installation": {
       "status": "excluded",
@@ -1856,7 +1867,7 @@
     },
     "image": "https://img.pchome.com.tw/cs/items/DPAL47A900KCEWG/000001_1786953008.jpg",
     "buyUrl": "https://www.rinnai.com.tw/Product/V3/419",
-    "buyLabel": "台灣林內官方產品頁",
+    "buyLabel": "台灣林內官方產品頁（來源待確認）",
     "specs": [
       "類型：儲熱式電熱水器（直掛）",
       "能源／氣源：電力；12 加侖／約 45 L 儲槽",
@@ -1963,7 +1974,8 @@
       "converted": 20900,
       "confidence": "台灣林內官方產品頁 2026-08-14 exact-model 建議售價／定價",
       "basis": "official_suggested",
-      "scope": "single_unit"
+      "scope": "single_unit",
+      "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。"
     },
     "installation": {
       "status": "excluded",
@@ -1971,7 +1983,7 @@
     },
     "image": "https://img.pchome.com.tw/cs/items/DPAL47A900KCEZZ/000001_1786953803.jpg",
     "buyUrl": "https://www.rinnai.com.tw/Product/V3/417",
-    "buyLabel": "台灣林內官方產品頁",
+    "buyLabel": "台灣林內官方產品頁（來源待確認）",
     "specs": [
       "類型：儲熱式電熱水器（直掛）",
       "能源／氣源：電力；20 加侖／約 75 L 儲槽",
@@ -2423,7 +2435,8 @@
       "converted": 13000,
       "confidence": "SAKURA 台灣官方產品型錄 exact-model 建議售價 2026-08-14 exact-model 建議售價／定價",
       "basis": "official_suggested",
-      "scope": "single_unit"
+      "scope": "single_unit",
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
     },
     "installation": {
       "status": "included_basic",
@@ -2431,7 +2444,7 @@
     },
     "image": "https://img.pchome.com.tw/cs/items/DMBM31A900J3U55/000001_1754503298.jpg",
     "buyUrl": "https://www.sakura.com.tw/Uploads/Catalog/6516c7d9-7c55-4723-8027-f224d2e65dd8/%E7%B6%B2%E8%B7%AF%E7%94%A8_SAKURA_%E5%85%A8%E7%94%A2%E5%93%81%E5%9E%8B%E9%8C%84_%E7%94%9F%E6%B4%BB%E9%A4%A8_240418.pdf#search=EH0810A6",
-    "buyLabel": "SAKURA 台灣官方產品型錄 exact-model 建議售價",
+    "buyLabel": "SAKURA 台灣官方產品型錄 exact-model 建議售價（來源待確認）",
     "specs": [
       "類型：儲熱式電熱水器（直掛）",
       "能源／氣源：電力；8 加侖／31 L 儲槽",
@@ -2538,7 +2551,8 @@
       "converted": 7850,
       "confidence": "SAKURA 台灣官方產品型錄 exact-model 建議售價 2026-08-14 exact-model 建議售價／定價",
       "basis": "official_suggested",
-      "scope": "single_unit"
+      "scope": "single_unit",
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
     },
     "installation": {
       "status": "included_basic",
@@ -2546,7 +2560,7 @@
     },
     "image": "https://img.pchome.com.tw/cs/items/DMBM31A900FZFAL/000001_1769664709.jpg",
     "buyUrl": "https://www.sakura.com.tw/Uploads/Catalog/6516c7d9-7c55-4723-8027-f224d2e65dd8/%E7%B6%B2%E8%B7%AF%E7%94%A8_SAKURA_%E5%85%A8%E7%94%A2%E5%93%81%E5%9E%8B%E9%8C%84_%E7%94%9F%E6%B4%BB%E9%A4%A8_240418.pdf#search=SH125",
-    "buyLabel": "SAKURA 台灣官方產品型錄 exact-model 建議售價",
+    "buyLabel": "SAKURA 台灣官方產品型錄 exact-model 建議售價（來源待確認）",
     "specs": [
       "類型：即熱式電熱水器",
       "能源／氣源：電力；9.9 kW",
@@ -2653,7 +2667,8 @@
       "converted": 6150,
       "confidence": "SAKURA 台灣官方產品型錄 exact-model 建議售價 2026-08-14 exact-model 建議售價／定價",
       "basis": "official_suggested",
-      "scope": "single_unit"
+      "scope": "single_unit",
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
     },
     "installation": {
       "status": "included_basic",
@@ -2661,7 +2676,7 @@
     },
     "image": "https://img.pchome.com.tw/cs/items/DMBM31A900FZF9U/000001_1769664735.jpg",
     "buyUrl": "https://www.sakura.com.tw/Uploads/Catalog/6516c7d9-7c55-4723-8027-f224d2e65dd8/%E7%B6%B2%E8%B7%AF%E7%94%A8_SAKURA_%E5%85%A8%E7%94%A2%E5%93%81%E5%9E%8B%E9%8C%84_%E7%94%9F%E6%B4%BB%E9%A4%A8_240418.pdf#search=SH186",
-    "buyLabel": "SAKURA 台灣官方產品型錄 exact-model 建議售價",
+    "buyLabel": "SAKURA 台灣官方產品型錄 exact-model 建議售價（來源待確認）",
     "specs": [
       "類型：即熱式電熱水器",
       "能源／氣源：電力；10.1 kW",
@@ -3460,7 +3475,8 @@
       "converted": 120680,
       "confidence": "中詮 RECHI AT-062AI11(YDLE) exact-model 標準安裝含稅總價 2026-08-14 exact-model 公開新品價",
       "basis": "retailer_current",
-      "scope": "single_unit"
+      "scope": "single_unit",
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
     },
     "installation": {
       "status": "included_basic",
@@ -3468,7 +3484,7 @@
     },
     "image": "https://www.rechi.com/rechi_img/2026_%E7%91%9E%E6%99%BA%E7%86%B1%E6%B3%B5_%20AT-062AI_%E5%B0%81%E9%9D%A2-1.jpg",
     "buyUrl": "https://www.taiwancce.com/pages/CP2211#AT-062AI11",
-    "buyLabel": "中詮 RECHI AT-062AI11(YDLE) exact-model 標準安裝含稅總價",
+    "buyLabel": "中詮 RECHI AT-062AI11(YDLE) exact-model 標準安裝含稅總價（來源待確認）",
     "specs": [
       "類型：一體直熱式空氣源熱泵熱水器",
       "能源／氣源：電力；R410A；內建 113 L 儲槽；3.0 kW 電輔熱",
@@ -4489,7 +4505,7 @@
       "confidence": "A.O. Smith 台灣官網 2026-09-05 exact-model 公開售價",
       "basis": "retailer_current",
       "scope": "single_unit",
-      "note": "2026-10-31 原購買頁TLS憑證鏈驗證失敗，未繞過憑證驗證；本輪無可讀現價，保留既有參考且不推定停產。"
+      "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。 2026-10-31 原購買頁TLS憑證鏈驗證失敗，未繞過憑證驗證；本輪無可讀現價，保留既有參考且不推定停產。"
     },
     "installation": {
       "status": "excluded",
@@ -4604,7 +4620,7 @@
       "confidence": "A.O. Smith 台灣官網 2026-09-05 exact-model 公開售價",
       "basis": "retailer_current",
       "scope": "single_unit",
-      "note": "2026-10-31 原購買頁TLS憑證鏈驗證失敗，未繞過憑證驗證；本輪無可讀現價，保留既有參考且不推定停產。"
+      "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。 2026-10-31 原購買頁TLS憑證鏈驗證失敗，未繞過憑證驗證；本輪無可讀現價，保留既有參考且不推定停產。"
     },
     "installation": {
       "status": "excluded",
@@ -4832,7 +4848,8 @@
       "converted": 59500,
       "confidence": "SAKURA 台灣官方型錄 SE8102 exact-model 建議售價 2026-08-14 exact-model 建議售價／定價",
       "basis": "official_suggested",
-      "scope": "single_unit"
+      "scope": "single_unit",
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
     },
     "installation": {
       "status": "excluded",
@@ -4840,7 +4857,7 @@
     },
     "image": "https://www.sakura-kh.com/wp-content/uploads/2022/07/SE8102.png",
     "buyUrl": "https://www.sakura.com.tw/Uploads/Catalog/e3ebbf3b-39a4-4960-a8df-cd29c8913c0b/DM_2022_lifestore1.pdf#search=SE8102",
-    "buyLabel": "SAKURA 台灣官方型錄 SE8102 exact-model 建議售價",
+    "buyLabel": "SAKURA 台灣官方型錄 SE8102 exact-model 建議售價（來源待確認）",
     "specs": [
       "類型：循環一體式空氣源熱泵熱水器",
       "能源／氣源：電力；R410A；內建 150 L 儲槽；4 kW 輔助電熱",
@@ -5159,58 +5176,257 @@
       "施工另估"
     ]
   },
+  {
+    "id": "waterheater-sakura-dh1670h",
+    "category": "waterheater",
+    "brand": "SAKURA",
+    "model": "DH1670H",
+    "name": "SAKURA DH1670H POWER四季溫智慧水量熱水器16L（LPG）",
+    "rank": 46,
+    "budget": "mid",
+    "channel": "tw",
+    "type": "gas",
+    "price": {
+      "currency": "TWD",
+      "amount": 18990,
+      "converted": 18990,
+      "basis": "retailer_current",
+      "scope": "single_unit",
+      "confidence": "PChome exact DH1670H LPG variant -002 Qty6；公開18990，母項000 Qty0未當無貨；2026-10-23人工核對",
+      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "此桶裝規格含以原箱零件完成的基本安裝；不含挖孔、割玻璃、配線管材與拆櫃。部分偏遠、山區、台南、宜花東及桃竹苗暫不服務；空趟300元、無舊機回收，需先聯繫確認。"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DPAL7XA900JEJZP/000001_1761892391.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPAL7X-A900JEJZP?p=1",
+    "buyLabel": "PChome 台灣新品（桶裝含基本安裝）（原通路缺貨，查看供貨）",
+    "specs": [
+      "類型：瓦斯瞬熱式（FE 強制排氣）",
+      "能源／氣源：LPG 桶裝瓦斯（選定賣場規格）",
+      "熱水能力：16 L/min（溫升25°C）",
+      "能效：能源效率第2級；熱效率83%；瓦斯消耗量33.1 kW",
+      "安裝位置：屋內半密閉型；必須由合格技師依FE排氣規範施工",
+      "尺寸：寬 34.5 x 深 15.8 x 高 49.3 cm",
+      "重量：14 kg",
+      "電壓／頻率：110V／60Hz",
+      "排氣／給排水：FE 強制排氣；冷熱水管PF 1/2",
+      "安全裝置：官方8大安全防護，須核安裝環境與氣別",
+      "溫控／操作：POWER四季溫、雙核感測、智控微火、水量伺服器與下置DC變頻風機",
+      "安裝／加價：此桶裝規格含以原箱零件完成的基本安裝；不含挖孔、割玻璃、配線管材與拆櫃。部分偏遠、山區、台南、宜花東及桃竹苗暫不服務；空趟300元、無舊機回收，需先聯繫確認。"
+    ],
+    "description": "H版新增雙核感測與智控微火控制，保留原有F版供比較；此筆價格只對應LPG 桶裝瓦斯（選定賣場規格）。此桶裝規格含以原箱零件完成的基本安裝；不含挖孔、割玻璃、配線管材與拆櫃。部分偏遠、山區、台南、宜花東及桃竹苗暫不服務；空趟300元、無舊機回收，需先聯繫確認。",
+    "pros": [
+      "POWER四季溫、雙核感測、智控微火、水量伺服器與下置DC變頻風機",
+      "官方exact型號核實110V60Hz、16L/min與83%熱效率",
+      "台灣新品通路與原廠售後可核"
+    ],
+    "cons": [
+      "低水壓仍可能需要另設恆壓馬達，與1693H內建渦輪定位不同",
+      "天然瓦斯與桶裝版本不可混用；管線及排氣需場勘",
+      "上市年月日未獲明確公告，不用安檢登錄或評論日期推定"
+    ],
+    "bestFor": "桶裝瓦斯住宅、希望有水量伺服與季節溫控者",
+    "recommendation": "按氣別及安裝總價比較；POWER四季溫、雙核感測、智控微火、水量伺服器與下置DC變頻風機適合希望細緻溫控的16L需求。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-23",
+      "note": "已人工查FindPrice與BigGo完整DH1670H價格/歷史入口及PChome現價；FindPrice原頁逾時，索引為現售與分期混列，BigGo無法存取，未取得有歷史時間點、同氣別與安裝範圍的可信新品史低。當日現價或公開折扣不推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-23",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"DH1670H\" site:mobile01.com",
+          "queryUrl": "https://www.bing.com/search?q=%22DH1670H%22%20site%3Amobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "\"DH1670H\" site:ptt.cc",
+          "queryUrl": "https://www.bing.com/search?q=%22DH1670H%22%20site%3Aptt.cc"
+        }
+      ]
+    },
+    "score": 87,
+    "voltage": "110V／60Hz 台灣公司貨；依原廠要求確認插座、接地及FE排氣",
+    "warranty": "台灣櫻花原廠保固1年；期限依保證書，安裝後起算；實際到府範圍與施工責任另確認",
+    "tags": [
+      "瓦斯熱水器",
+      "SAKURA",
+      "16L",
+      "H版新溫控",
+      "桶裝瓦斯",
+      "含基本安裝"
+    ]
+  },
+  {
+    "id": "waterheater-sakura-dh1693h",
+    "category": "waterheater",
+    "brand": "SAKURA",
+    "model": "DH1693H",
+    "name": "SAKURA DH1693H AI四季溫DC渦輪增壓熱水器16L（NG1）",
+    "rank": 47,
+    "budget": "mid",
+    "channel": "tw",
+    "type": "gas",
+    "price": {
+      "currency": "TWD",
+      "amount": 22599,
+      "converted": 22599,
+      "basis": "retailer_current",
+      "scope": "single_unit",
+      "confidence": "PChome exact DH1693H NG1 Qty2；Price.P25110、公開9折Price.Low22599，未計點數回饋；2026-10-23人工核對"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "此NG1賣場未明確承諾含基本安裝，需另確認安裝費；FE排氣、管材、鑽孔、搬運與追加施工均由合格技師場勘報價，不套用其他賣場的含安裝條件。"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DPAL1NA900KIFI0/000001_1790741763.png",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPAL1N-A900KIFI0",
+    "buyLabel": "PChome 台灣新品（天然瓦斯，安裝另確認）",
+    "specs": [
+      "類型：瓦斯瞬熱式（FE 強制排氣）",
+      "能源／氣源：NG1 天然瓦斯（此賣場固定氣別）",
+      "熱水能力：16 L/min（溫升25°C）",
+      "能效：能源效率第2級；熱效率83%；瓦斯消耗量33.1 kW",
+      "安裝位置：屋內半密閉型；必須由合格技師依FE排氣規範施工",
+      "尺寸：查不到",
+      "重量：16 kg",
+      "電壓／頻率：110V／60Hz",
+      "排氣／給排水：FE 強制排氣；冷熱水管PF 1/2",
+      "安全裝置：官方8大安全防護，須核安裝環境與氣別",
+      "溫控／操作：AI四季溫、雙核感測、智控微火與DC變頻渦輪增壓",
+      "安裝／加價：此NG1賣場未明確承諾含基本安裝，需另確認安裝費；FE排氣、管材、鑽孔、搬運與追加施工均由合格技師場勘報價，不套用其他賣場的含安裝條件。"
+    ],
+    "description": "H版新增雙核感測與智控微火控制，保留原有F版供比較；此筆價格只對應NG1 天然瓦斯（此賣場固定氣別）。此NG1賣場未明確承諾含基本安裝，需另確認安裝費；FE排氣、管材、鑽孔、搬運與追加施工均由合格技師場勘報價，不套用其他賣場的含安裝條件。 官方本體數列345×184×580mm未標軸序，不能推定寬深高；安裝前索取完整尺寸圖。",
+    "pros": [
+      "AI四季溫、雙核感測、智控微火與DC變頻渦輪增壓",
+      "官方exact型號核實110V60Hz、16L/min與83%熱效率",
+      "台灣新品通路與原廠售後可核"
+    ],
+    "cons": [
+      "此通路未明確含安裝，不能只以22599比較含完整施工的他店總價",
+      "天然瓦斯與桶裝版本不可混用；管線及排氣需場勘",
+      "上市年月日未獲明確公告，不用安檢登錄或評論日期推定"
+    ],
+    "bestFor": "天然瓦斯住宅、希望改善弱水壓與季節溫控者",
+    "recommendation": "按氣別及安裝總價比較；AI四季溫、雙核感測、智控微火與DC變頻渦輪增壓適合希望細緻溫控的16L需求。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-23",
+      "note": "已人工查FindPrice與BigGo完整DH1693H價格/歷史入口及PChome現價；FindPrice主要25110現售、523為48期月付款排除，BigGo無法存取，未取得有歷史時間點、同氣別與安裝範圍的可信新品史低。當日現價或公開折扣不推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-23",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"DH1693H\" site:mobile01.com",
+          "queryUrl": "https://www.bing.com/search?q=%22DH1693H%22%20site%3Amobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "\"DH1693H\" site:ptt.cc",
+          "queryUrl": "https://www.bing.com/search?q=%22DH1693H%22%20site%3Aptt.cc"
+        }
+      ]
+    },
+    "score": 88,
+    "voltage": "110V／60Hz 台灣公司貨；依原廠要求確認插座、接地及FE排氣",
+    "warranty": "此PChome賣場明示台灣櫻花原廠全機1年保固，並享原廠永久免費安全檢查；施工責任與耗材另依保證書",
+    "tags": [
+      "瓦斯熱水器",
+      "SAKURA",
+      "16L",
+      "H版新溫控",
+      "天然瓦斯",
+      "安裝另確認"
+    ]
+  },
 {
-  "id": "waterheater-sakura-dh1670h",
+  "id": "waterheater-sakura-eh0810m6",
   "category": "waterheater",
-  "brand": "SAKURA",
-  "model": "DH1670H",
-  "name": "SAKURA DH1670H POWER四季溫智慧水量熱水器16L（LPG）",
-  "rank": 46,
-  "budget": "mid",
+  "rank": 48,
+  "budget": "value",
   "channel": "tw",
-  "type": "gas",
+  "type": "electric",
+  "electricSubtype": "storage",
+  "brand": "SAKURA",
+  "model": "EH0810M6",
+  "name": "SAKURA EH0810M6 8加侖標準調溫儲熱式電熱水器",
   "price": {
     "currency": "TWD",
-    "amount": 18990,
-    "converted": 18990,
+    "amount": 13000,
+    "converted": 13000,
     "basis": "retailer_current",
-    "scope": "single_unit",
-    "confidence": "PChome exact DH1670H LPG variant -002 Qty6；公開18990，母項000 Qty0未當無貨；2026-10-23人工核對"
+    "confidence": "2026-11-04 root以Chrome Native讀取SAKURA官方商城exact EH0810M6主區，主價13000、數量1、加入購物車與立即購買皆可用，明示櫻花原廠運送安裝；未加車。",
+    "note": "台灣櫻花官方商城公開新品主價；不扣會員券、信用卡、點數。其他通路較低索引報價未完成原商品主購買狀態核對，不稱此價全網最低。"
   },
   "installation": {
     "status": "included_basic",
-    "note": "此桶裝規格含以原箱零件完成的基本安裝；不含挖孔、割玻璃、配線管材與拆櫃。部分偏遠、山區、台南、宜花東及桃竹苗暫不服務；空趟300元、無舊機回收，需先聯繫確認。"
+    "note": "官方商城標示櫻花原廠運送安裝，官網本建議售價含基本安裝、不含耗材及運送；商店本次運送安裝細項、偏遠地區/舊機拆卸與配電加價依原廠場勘。須220V專用迴路、接地、漏電斷路器及可承滿水重量牆面，安全洩壓排水不得堵塞。"
   },
-  "image": "https://img.pchome.com.tw/cs/items/DPAL7XA900JEJZP/000001_1761892391.jpg",
-  "buyUrl": "https://24h.pchome.com.tw/prod/DPAL7X-A900JEJZP?p=1",
-  "buyLabel": "PChome 台灣新品（桶裝含基本安裝）",
+  "image": "https://buy.sakura.com.tw/media/16847/EH0810M6.png",
+  "buyUrl": "https://shop.sakura.com.tw/zh-TW/products/eh0810m6",
+  "buyLabel": "SAKURA台灣官方商城",
   "specs": [
-    "類型：瓦斯瞬熱式（FE 強制排氣）",
-    "能源／氣源：LPG 桶裝瓦斯（選定賣場規格）",
-    "熱水能力：16 L/min（溫升25°C）",
-    "能效：能源效率第2級；熱效率83%；瓦斯消耗量33.1 kW",
-    "安裝位置：屋內半密閉型；必須由合格技師依FE排氣規範施工",
-    "尺寸：寬 34.5 x 深 15.8 x 高 49.3 cm",
-    "重量：14 kg",
-    "電壓／頻率：110V／60Hz",
-    "排氣／給排水：FE 強制排氣；冷熱水管PF 1/2",
-    "安全裝置：官方8大安全防護，須核安裝環境與氣別",
-    "溫控／操作：POWER四季溫、雙核感測、智控微火、水量伺服器與下置DC變頻風機",
-    "安裝／加價：此桶裝規格含以原箱零件完成的基本安裝；不含挖孔、割玻璃、配線管材與拆櫃。部分偏遠、山區、台南、宜花東及桃竹苗暫不服務；空趟300元、無舊機回收，需先聯繫確認。"
+    "類型：儲熱式電熱水器（室內直掛）",
+    "能源／氣源：電力；8加侖／31L不鏽鋼儲槽",
+    "熱水能力：8加侖（31L）；6kW／27A；1–2人使用",
+    "能效：能源效率第4級；高密度PU保溫",
+    "安裝位置：室內直掛牆面，須評估滿水重量與檢修/排水空間；不可露天安裝",
+    "尺寸：桶身直徑 40.5 x 高 60 cm",
+    "重量：查不到",
+    "電壓／頻率：單相220V／60Hz；6kW／27A",
+    "排氣／給排水：免燃燒排氣；1/2吋進出水；洩壓/逆止安全閥、排水口接排水管；適用約1–3kg水壓",
+    "安全裝置：2P30A漏電斷路器；高溫切斷87–93°C；安全洩壓/逆止閥；專用迴路及接地",
+    "溫控／操作：電子調溫與數位顯示；手冊45–70°C、每5°C一段，出廠65°C；商城規格另寫40–70°C，保留版本差異並依隨機手冊操作",
+    "安裝／加價：官方商城原廠運送安裝；基本範圍、耗材/運送、配電及額外工程先場勘確認"
   ],
-  "description": "H版新增雙核感測與智控微火控制，保留原有F版供比較；此筆價格只對應LPG 桶裝瓦斯（選定賣場規格）。此桶裝規格含以原箱零件完成的基本安裝；不含挖孔、割玻璃、配線管材與拆櫃。部分偏遠、山區、台南、宜花東及桃竹苗暫不服務；空趟300元、無舊機回收，需先聯繫確認。",
+  "description": "EH0810M6為台灣櫻花現行8加侖31L直掛儲熱式電熱水器，採電子溫控及數位顯示。與EH0810A6舊款同列，主機桶身高度不同，不共用A6尺寸；220V6kW須先確認專用迴路及牆體承重。",
   "pros": [
-    "POWER四季溫、雙核感測、智控微火、水量伺服器與下置DC變頻風機",
-    "官方exact型號核實110V60Hz、16L/min與83%熱效率",
-    "台灣新品通路與原廠售後可核"
+    "台灣官方商城可購，原廠提供運送安裝與售後",
+    "31L儲熱、電子溫控與數位顯示，適合1–2人用途",
+    "原手冊明列220V60Hz、27A與2P30A漏電保護"
   ],
   "cons": [
-    "低水壓仍可能需要另設恆壓馬達，與1693H內建渦輪定位不同",
-    "天然瓦斯與桶裝版本不可混用；管線及排氣需場勘",
-    "上市年月日未獲明確公告，不用安檢登錄或評論日期推定"
+    "220V6kW／27A，須由合格水電工程人員評估迴路與接地",
+    "整機淨重未見官方可信公開數值；滿水承重不可只看空機外觀",
+    "手冊與商城溫度下限40/45°C有差異，依實際控制版本及原廠確認",
+    "未找到exact型號明確上市日期及可信歷史最低價；保固/施工除外條件須留存"
   ],
-  "bestFor": "桶裝瓦斯住宅、希望有水量伺服與季節溫控者",
-  "recommendation": "按氣別及安裝總價比較；POWER四季溫、雙核感測、智控微火、水量伺服器與下置DC變頻風機適合希望細緻溫控的16L需求。",
+  "bestFor": "有220V專用迴路與適合直掛牆面、1–2人希望儲熱及數位調溫的家庭。",
+  "recommendation": "電子調溫直掛補充款：先以原廠場勘確認配電、接地、洩壓排水及滿水承重，再比較基本安裝與耗材總價；不因M6上市刪仍列當代目錄的A6。",
   "releaseDate": "找不到",
   "historicalLow": {
     "status": "not_found",
@@ -5222,138 +5438,42 @@
     "evidenceSnippet": "",
     "sourceKind": "not_found",
     "confidence": "not_found",
-    "checkedAt": "2026-10-23",
-    "note": "已人工查FindPrice與BigGo完整DH1670H價格/歷史入口及PChome現價；FindPrice原頁逾時，索引為現售與分期混列，BigGo無法存取，未取得有歷史時間點、同氣別與安裝範圍的可信新品史低。當日現價或公開折扣不推定史低。"
+    "checkedAt": "2026-11-04",
+    "note": "已實讀FindPrice EH0810M6與飛比同型號價格頁。可見當日11700、Yahoo11115及樂天Homebox9800等不同通路/安裝條件報價，沒有能驗證同規格新品歷史日期/成交點的資料；244為48期每期租金排除，ML6橫掛與A6舊款不混用。官方可購13000為本輪主價，不能直接當史低。"
   },
   "issueResearch": {
     "status": "no_common_issue",
-    "checkedAt": "2026-10-23",
+    "checkedAt": "2026-11-04",
     "summary": "截至查核日，查無達門檻的集中負評／災情",
     "issues": [],
     "checkedSources": [
       {
         "platform": "Mobile01",
         "targetHost": "mobile01.com",
-        "query": "\"DH1670H\" site:mobile01.com",
-        "queryUrl": "https://www.bing.com/search?q=%22DH1670H%22%20site%3Amobile01.com"
+        "query": "site:mobile01.com \"EH0810M6\" (問題 OR 故障 OR 心得)",
+        "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22EH0810M6%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97)"
       },
       {
         "platform": "PTT",
         "targetHost": "ptt.cc",
-        "query": "\"DH1670H\" site:ptt.cc",
-        "queryUrl": "https://www.bing.com/search?q=%22DH1670H%22%20site%3Aptt.cc"
+        "query": "site:ptt.cc \"EH0810M6\" (問題 OR 故障 OR 心得)",
+        "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22EH0810M6%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97)"
       }
     ]
   },
-  "score": 87,
-  "voltage": "110V／60Hz 台灣公司貨；依原廠要求確認插座、接地及FE排氣",
-  "warranty": "台灣櫻花原廠保固1年；期限依保證書，安裝後起算；實際到府範圍與施工責任另確認",
+  "score": 82,
+  "voltage": "單相220V／60Hz、6kW／27A；台灣官方同型號手冊性能表明列，配置專用迴路、接地及2P30A漏電斷路器。",
+  "warranty": "台灣櫻花原廠；所鏈標準調溫系列手冊保證卡明示自購買日起保固一年，正常使用故障提供到府檢修；營業/租賃/第三人維修及人為天災損壞除外。須經銷章與購買/安裝日期、憑證依條款保存。",
   "tags": [
-    "瓦斯熱水器",
-    "SAKURA",
-    "16L",
-    "H版新溫控",
-    "桶裝瓦斯",
-    "含基本安裝"
-  ]
-},
-{
-  "id": "waterheater-sakura-dh1693h",
-  "category": "waterheater",
-  "brand": "SAKURA",
-  "model": "DH1693H",
-  "name": "SAKURA DH1693H AI四季溫DC渦輪增壓熱水器16L（NG1）",
-  "rank": 47,
-  "budget": "mid",
-  "channel": "tw",
-  "type": "gas",
-  "price": {
-    "currency": "TWD",
-    "amount": 22599,
-    "converted": 22599,
-    "basis": "retailer_current",
-    "scope": "single_unit",
-    "confidence": "PChome exact DH1693H NG1 Qty2；Price.P25110、公開9折Price.Low22599，未計點數回饋；2026-10-23人工核對"
-  },
-  "installation": {
-    "status": "not_stated",
-    "note": "此NG1賣場未明確承諾含基本安裝，需另確認安裝費；FE排氣、管材、鑽孔、搬運與追加施工均由合格技師場勘報價，不套用其他賣場的含安裝條件。"
-  },
-  "image": "https://img.pchome.com.tw/cs/items/DPAL1NA900KIFI0/000001_1790741763.png",
-  "buyUrl": "https://24h.pchome.com.tw/prod/DPAL1N-A900KIFI0",
-  "buyLabel": "PChome 台灣新品（天然瓦斯，安裝另確認）",
-  "specs": [
-    "類型：瓦斯瞬熱式（FE 強制排氣）",
-    "能源／氣源：NG1 天然瓦斯（此賣場固定氣別）",
-    "熱水能力：16 L/min（溫升25°C）",
-    "能效：能源效率第2級；熱效率83%；瓦斯消耗量33.1 kW",
-    "安裝位置：屋內半密閉型；必須由合格技師依FE排氣規範施工",
-    "尺寸：查不到",
-    "重量：16 kg",
-    "電壓／頻率：110V／60Hz",
-    "排氣／給排水：FE 強制排氣；冷熱水管PF 1/2",
-    "安全裝置：官方8大安全防護，須核安裝環境與氣別",
-    "溫控／操作：AI四季溫、雙核感測、智控微火與DC變頻渦輪增壓",
-    "安裝／加價：此NG1賣場未明確承諾含基本安裝，需另確認安裝費；FE排氣、管材、鑽孔、搬運與追加施工均由合格技師場勘報價，不套用其他賣場的含安裝條件。"
+    "電熱",
+    "儲熱式",
+    "直掛",
+    "31L",
+    "220V",
+    "數位調溫",
+    "台灣公司貨"
   ],
-  "description": "H版新增雙核感測與智控微火控制，保留原有F版供比較；此筆價格只對應NG1 天然瓦斯（此賣場固定氣別）。此NG1賣場未明確承諾含基本安裝，需另確認安裝費；FE排氣、管材、鑽孔、搬運與追加施工均由合格技師場勘報價，不套用其他賣場的含安裝條件。 官方本體數列345×184×580mm未標軸序，不能推定寬深高；安裝前索取完整尺寸圖。",
-  "pros": [
-    "AI四季溫、雙核感測、智控微火與DC變頻渦輪增壓",
-    "官方exact型號核實110V60Hz、16L/min與83%熱效率",
-    "台灣新品通路與原廠售後可核"
-  ],
-  "cons": [
-    "此通路未明確含安裝，不能只以22599比較含完整施工的他店總價",
-    "天然瓦斯與桶裝版本不可混用；管線及排氣需場勘",
-    "上市年月日未獲明確公告，不用安檢登錄或評論日期推定"
-  ],
-  "bestFor": "天然瓦斯住宅、希望改善弱水壓與季節溫控者",
-  "recommendation": "按氣別及安裝總價比較；AI四季溫、雙核感測、智控微火與DC變頻渦輪增壓適合希望細緻溫控的16L需求。",
-  "releaseDate": "找不到",
-  "historicalLow": {
-    "status": "not_found",
-    "amount": null,
-    "currency": "TWD",
-    "converted": null,
-    "sourceUrl": "",
-    "sourceTitle": "",
-    "evidenceSnippet": "",
-    "sourceKind": "not_found",
-    "confidence": "not_found",
-    "checkedAt": "2026-10-23",
-    "note": "已人工查FindPrice與BigGo完整DH1693H價格/歷史入口及PChome現價；FindPrice主要25110現售、523為48期月付款排除，BigGo無法存取，未取得有歷史時間點、同氣別與安裝範圍的可信新品史低。當日現價或公開折扣不推定史低。"
-  },
-  "issueResearch": {
-    "status": "no_common_issue",
-    "checkedAt": "2026-10-23",
-    "summary": "截至查核日，查無達門檻的集中負評／災情",
-    "issues": [],
-    "checkedSources": [
-      {
-        "platform": "Mobile01",
-        "targetHost": "mobile01.com",
-        "query": "\"DH1693H\" site:mobile01.com",
-        "queryUrl": "https://www.bing.com/search?q=%22DH1693H%22%20site%3Amobile01.com"
-      },
-      {
-        "platform": "PTT",
-        "targetHost": "ptt.cc",
-        "query": "\"DH1693H\" site:ptt.cc",
-        "queryUrl": "https://www.bing.com/search?q=%22DH1693H%22%20site%3Aptt.cc"
-      }
-    ]
-  },
-  "score": 88,
-  "voltage": "110V／60Hz 台灣公司貨；依原廠要求確認插座、接地及FE排氣",
-  "warranty": "此PChome賣場明示台灣櫻花原廠全機1年保固，並享原廠永久免費安全檢查；施工責任與耗材另依保證書",
-  "tags": [
-    "瓦斯熱水器",
-    "SAKURA",
-    "16L",
-    "H版新溫控",
-    "天然瓦斯",
-    "安裝另確認"
-  ]
+  "topPick": false
 }
 ]);
 })();

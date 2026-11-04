@@ -17,11 +17,11 @@
     "name": "智慧記憶電動升降桌 120x60",
     "price": {
       "currency": "TWD",
-      "amount": 8499,
-      "converted": 8499,
-      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "amount": 7649,
+      "converted": 7649,
+      "confidence": "2026-11-04 Chrome人工核對exact型號／選定版本主區公開折後價及可購CTA。",
       "basis": "retailer_current",
-      "note": "2026-10-31 momo所選F2二節式電動升降桌120×60圓弧桌面完整桌8499元，非相關F1/ET119或單桌架；由專人約配送，非保證24小時到貨。"
+      "note": "2026-11-04 momo12281947的F2 120×60cm選白色桌架+原木色桌板，公開單件9折主區7649元（促銷8499），11/04–11/11；CTA可用，送貨時間由專人聯絡，未含加購抽屜。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBC1TA900HSZZ8/000001_1738574919.jpg",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=12281947",
@@ -710,11 +710,12 @@
       "currency": "TWD",
       "amount": 8490,
       "converted": 8490,
-      "confidence": "PChome 2026-07-21 API 公開價"
+      "confidence": "PChome 2026-07-21 API 公開價",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQCI0AA900K15SP/000001_1779286467.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQCI0A-A900K15SP",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "電動升降",
       "126cm 級桌面",
@@ -806,9 +807,10 @@
     "name": "電動升降桌 UP006 1460WH/WH",
     "price": {
       "currency": "TWD",
-      "amount": 9490,
-      "converted": 9490,
-      "confidence": "PChome 2026-07-21 API 公開價"
+      "amount": 9379,
+      "converted": 9379,
+      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
+      "note": "Chrome原頁主商品UP006 1460／電動升降桌 UP006 1460WH/WH可核對，公開主區售價9379元，購買按鈕可用；不扣個人券、信用卡、點數或贈品。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQCI0AA900K15T1/000001_1779269416.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQCI0A-A900K15T1",
@@ -1004,11 +1006,12 @@
       "currency": "TWD",
       "amount": 9990,
       "converted": 9990,
-      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBB6OA900JPZTQ/000001_1774958562.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBB6O-A900JPZTQ",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "電動升降",
       "120cm 級桌面",
@@ -1198,9 +1201,10 @@
     "name": "LUMI 落地型鋼化玻璃電動升降桌 白色",
     "price": {
       "currency": "TWD",
-      "amount": 14990,
-      "converted": 14990,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 13491,
+      "converted": 13491,
+      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
+      "note": "Chrome原頁主商品LUMI 白色／LUMI 落地型鋼化玻璃電動升降桌 白色可核對，公開主區售價13491元，購買按鈕可用；不扣個人券、信用卡、點數或贈品。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQCBEMA900GJUOI/000001_1691116279.png",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQCBEM-A900GJUOI",
@@ -1296,9 +1300,10 @@
     "name": "LUMI 落地型鋼化玻璃電動升降桌 深色",
     "price": {
       "currency": "TWD",
-      "amount": 14990,
-      "converted": 14990,
-      "confidence": "可信通路查核價"
+      "amount": 13491,
+      "converted": 13491,
+      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
+      "note": "Chrome原頁主商品LUMI 深色／LUMI 落地型鋼化玻璃電動升降桌 深色可核對，公開主區售價13491元，購買按鈕可用；不扣個人券、信用卡、點數或贈品。"
     },
     "image": "https://cs-a.ecimg.tw/items/DEDD8CA900FK2JV/000001_1663900736.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEDD8C-A900FK2JV",
@@ -1589,9 +1594,10 @@
     "name": "柚木色電動升降桌",
     "price": {
       "currency": "TWD",
-      "amount": 6890,
-      "converted": 6890,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 6201,
+      "converted": 6201,
+      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
+      "note": "Chrome原頁主商品人體工學電動升降桌／柚木色電動升降桌可核對，公開主區售價6201元，購買按鈕可用；不扣個人券、信用卡、點數或贈品。"
     },
     "image": "https://cs-a.ecimg.tw/items/DEBHCTA900BW2X6/000001_1634603420.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEBHCT-A900BW2X6",
@@ -2283,11 +2289,12 @@
       "currency": "TWD",
       "amount": 7999,
       "converted": 7999,
-      "confidence": "IKEA 台灣官方 2026-07-30 exact-combination 公開價；線上庫存 34"
+      "confidence": "IKEA 台灣官方 2026-07-30 exact-combination 公開價；線上庫存 34",
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
     },
     "image": "https://www.ikea.com.tw/dairyfarm/tw/images/173/1517363_PE1012267_S4.jpg",
     "buyUrl": "https://www.ikea.com.tw/zh/products/office-workspace/office-desks-and-tables/trotten-spr-79621898",
-    "buyLabel": "IKEA 台灣官方",
+    "buyLabel": "IKEA 台灣官方（來源待確認）",
     "specs": [
       "桌面：160 x 80 cm；桌板厚度：2.0 cm",
       "高度：71–118 cm；最大承重：50 kg",
@@ -2388,11 +2395,12 @@
       "currency": "TWD",
       "amount": 7999,
       "converted": 7999,
-      "confidence": "IKEA 台灣官方 2026-07-31 exact-combination 公開價；線上庫存 16"
+      "confidence": "IKEA 台灣官方 2026-07-31 exact-combination 公開價；線上庫存 16",
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
     },
     "image": "https://www.ikea.com.tw/dairyfarm/tw/images/450/1545052_PE1019554_S4.jpg",
     "buyUrl": "https://www.ikea.com.tw/zh/products/home-workspace/home-desks/travsport-spr-79620950",
-    "buyLabel": "IKEA 台灣官方",
+    "buyLabel": "IKEA 台灣官方（來源待確認）",
     "specs": [
       "桌面：120 x 70 cm；桌板厚度：未標示",
       "高度：72–117 cm；最大承重：50 kg",
@@ -2493,11 +2501,12 @@
       "currency": "TWD",
       "amount": 9980,
       "converted": 9980,
-      "confidence": "momo購物 2026-08-11 夜霧檀棕 exact-color 新品公開價；Backbone 官方 variant 對照確認 SKU 941.0 為夜霧檀棕、variant 49257578，同價 NT$9,980 且官方庫存 124。未混用 SKU 940.0 預購羊絨米灰"
+      "confidence": "momo購物 2026-08-11 夜霧檀棕 exact-color 新品公開價；Backbone 官方 variant 對照確認 SKU 941.0 為夜霧檀棕、variant 49257578，同價 NT$9,980 且官方庫存 124。未混用 SKU 940.0 預購羊絨米灰",
+      "note": "2026-11-04 Chrome逐筆查核：Chrome原來源頁明示「商品目前無展售／網頁不存在」或「查無商品資料，商品不存在或已下架」；沒有可購主商品價格；不是原廠停產證據。 保留既有參考價，另查可信現售連結。"
     },
     "image": "https://cdn-general.cybassets.com/media/W1siZiIsIjExNTM0L3Byb2R1Y3RzLzQyMjY0ODcyLzE2OTQ3NjcwMzRfYWI3ODRhMzVhZTY3YTNjZjcxOTQucG5nIl0sWyJwIiwidGh1bWIiLCI2MDB4NjAwIl1d.png?sha=2abcf9cc505bac65",
     "buyUrl": "https://www.momoshop.com.tw/product/12726316",
-    "buyLabel": "momo購物",
+    "buyLabel": "momo（原來源無展售，查看供貨）",
     "specs": [
       "桌面：130 x 70 cm",
       "桌板厚度：1.8 cm",

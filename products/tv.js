@@ -219,11 +219,12 @@
       "currency": "TWD",
       "amount": 56900,
       "converted": 56900,
-      "confidence": "PChome 2026-09-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADFNA900K7VQ8/000001_1784011502.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADFN-A900K7VQ8",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "尺寸：不含底座 約 寬 144.5 x 深 5.7 x 高 83.2 cm；含底座 約 寬 144.5 x 深 34.5 x 高 85.6 cm",
       "重量：不含底座 約 27.1 kg；含底座 約 28.3 kg",
@@ -928,11 +929,12 @@
       "currency": "TWD",
       "amount": 72072,
       "converted": 72072,
-      "confidence": "PChome 2026-08-31 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-31 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD09A900J9FAZ/000001_1761888394.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAD09-A900J9FAZ",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "尺寸：不含底座 寬 144.4 x 深 5.8 x 高 89.2 cm；含底座 寬 144.4 x 深 34.8 x 高 91.5 cm",
       "重量：不含底座 25.5 kg；含底座 30.5 kg",
@@ -1127,11 +1129,12 @@
       "currency": "TWD",
       "amount": 94900,
       "converted": 94900,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "confidence": "PChome 2026-07-11 API 查核價",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900IXJZG/000001_1772871053.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900IXJZG",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "尺寸：不含底座 寬 144.35 x 深 1.1 x 高 82.94 cm；含底座 寬 144.35 x 深 26.79 x 高 89.44 cm",
       "重量：不含底座 18.9 kg；含底座 29 kg",
@@ -1523,11 +1526,12 @@
       "currency": "TWD",
       "amount": 89910,
       "converted": 89910,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "confidence": "PChome 2026-07-11 API 查核價",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADEW1900JPY1S/000001_1770558909.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADEW-A900IZ244",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "尺寸：不含底座 寬 145.53 x 深 3.78 x 高 83.03 cm；含底座 寬 145.53 x 深 25.68 x 高 86.74 cm",
       "重量：不含底座 25.5 kg；含底座 25.9 kg",
@@ -1622,11 +1626,12 @@
       "currency": "TWD",
       "amount": 32900,
       "converted": 32900,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "confidence": "PChome 2026-07-11 API 查核價",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD0O1900JL0Z8/000001_1766513999.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADY8-A900JI9B7",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "尺寸：不含底座 寬 144.53 x 深 6.62 x 高 84.3 cm；含底座 寬 144.53 x 深 29.92 x 高 89.84 cm",
       "重量：不含底座 19.45 kg；含底座 19.75 kg",
@@ -1721,11 +1726,12 @@
       "currency": "TWD",
       "amount": 13999,
       "converted": 13999,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "confidence": "PChome 2026-07-11 API 查核價",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADB2A900JGKQB/000001_1764820202.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADB2-A900JGKQB",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "尺寸：查不到",
       "重量：查不到",
@@ -1820,11 +1826,12 @@
       "currency": "TWD",
       "amount": 17999,
       "converted": 17999,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "confidence": "PChome 2026-07-11 API 查核價",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADBHA900HWJZ7/000001_1780076528.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADBH-A900HWJZ7",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "尺寸：不含底座 寬 145.3 x 深 7.6 x 高 83.8 cm；含底座 寬 145.3 x 深 31.8 x 高 89.3 cm",
       "重量：不含底座 15.7 kg；含底座 15.9 kg",
@@ -2020,11 +2027,12 @@
       "currency": "TWD",
       "amount": 21411,
       "converted": 21411,
-      "confidence": "PChome 2026-07-17 API 公開價"
+      "confidence": "PChome 2026-07-17 API 公開價",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD0WA900I9LNS/000001_1769648262.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAD0W-A900I9LNS",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "尺寸：不含底座 寬 144.53 x 深 9.17 x 高 83.19 cm；含底座 寬 144.53 x 深 30.09 x 高 89.47 cm",
       "重量：查不到",
@@ -2121,11 +2129,11 @@
       "converted": 19710,
       "confidence": "PChome 2026-09-08 晚間 exact SKU 公開售價",
       "basis": "retailer_current",
-      "note": "同型號現售商品頁 NT$19,710；不含另申請退稅、會員或信用卡回饋。"
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。 同型號現售商品頁 NT$19,710；不含另申請退稅、會員或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADW5A900JHKJS/000001_1763963052.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADW5-A900JHKJS",
-    "buyLabel": "PChome 24h 購物",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "尺寸：不含底座 寬 144.58 x 深 7.5 x 高 83.6 cm；含底座 寬 144.58 x 深 26.57 x 高 88.44 cm",
       "重量：含底座 15.3 kg",
@@ -2323,11 +2331,12 @@
       "currency": "TWD",
       "amount": 45999,
       "converted": 45999,
-      "confidence": "Costco 好市多 2026-07-11 頁面查核價"
+      "confidence": "Costco 好市多 2026-07-11 頁面查核價",
+      "note": "2026-11-04 Chrome開啟原精確商品URL後轉向同通路分類列表，沒有原商品編號的主區；不借列表其他型號價格或加入購物車判定本品現貨。 金額保留為舊參考價；未取得原廠停產證據。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h2d/ha5/438072223236126.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Televisions-TV-Accessories/60-69-TVs/TCL-65-inch-premium-QD-Mini-LED-Google-TV-Smart-Monitor-without-STB-65C8K/p/154789",
-    "buyLabel": "Costco 好市多",
+    "buyLabel": "Costco（原連結轉分類，供貨待確認）",
     "specs": [
       "尺寸：不含底座 寬 143.4 x 深 5 x 高 82.4 cm；含底座 寬 143.4 x 深 36.8 x 高 86 cm",
       "重量：不含底座 21.2 kg；含底座 23.1 kg",
@@ -2629,11 +2638,12 @@
       "currency": "TWD",
       "amount": 16999,
       "converted": 16999,
-      "confidence": "PChome 2026-07-26 exact-model API 公開價，庫存 17"
+      "confidence": "PChome 2026-07-26 exact-model API 公開價，庫存 17",
+      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
     },
     "image": "https://cs-b.ecimg.tw/items/DPADB2A900J8K60/000001_1757578880.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADB2-A900J8K60",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原通路缺貨，查看供貨）",
     "specs": [
       "尺寸：查不到",
       "重量：查不到",
@@ -2732,11 +2742,12 @@
       "currency": "TWD",
       "amount": 18888,
       "converted": 18888,
-      "confidence": "PChome 2026-07-26 exact-model API 公開價，庫存 20"
+      "confidence": "PChome 2026-07-26 exact-model API 公開價，庫存 20",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-b.ecimg.tw/items/DPADK9A900HY2CU/000001_1761921890.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADK9-A900HY2CU",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "尺寸：不含底座 寬 155.1 x 深 8.2 x 高 90.4 cm；含底座 寬 155.1 x 深 31.8 x 高 97.7 cm",
       "重量：不含底座 19.4 kg；含底座 19.6 kg",
@@ -2835,11 +2846,12 @@
       "currency": "TWD",
       "amount": 25999,
       "converted": 25999,
-      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-b.ecimg.tw/items/DPADIKA900JFCPA/000001_1762407157.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADIK-A900JFCPA",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "尺寸：不含底座 寬 156.7 x 深 9.4 x 高 87.4 cm；含底座 寬 156.7 x 深 32.4 x 高 94 cm",
       "重量：查不到",
@@ -2938,11 +2950,12 @@
       "currency": "TWD",
       "amount": 22999,
       "converted": 22999,
-      "confidence": "PChome 2026-07-26 exact-model API 公開價，庫存 5"
+      "confidence": "PChome 2026-07-26 exact-model API 公開價，庫存 5",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-b.ecimg.tw/items/DPADIKA900K0GIF/000001_1778751319.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADIK-A900K0GIF",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "尺寸：不含底座 寬 156.7 x 深 9.4 x 高 87.4 cm",
       "重量：查不到",
@@ -3042,7 +3055,7 @@
       "amount": 19710,
       "converted": 19710,
       "confidence": "全聯全電商 2026-07-26 exact-model 公開價，頁面結構化資料顯示 InStock",
-      "note": "2026-11-01 原全聯EM-70RF130連結回覆spu_has_ended；PChome四個替代PID之API皆無商品，不採搜尋摘要舊價。另查momo TP00079550001128公開21900元可訂、頁示1年保固/標準安裝，但未完成相同地區版本電力與既有3年保固的對齊，先保留19710元舊參考價與待確認連結。"
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。 2026-11-01 原全聯EM-70RF130連結回覆spu_has_ended；PChome四個替代PID之API皆無商品，不採搜尋摘要舊價。另查momo TP00079550001128公開21900元可訂、頁示1年保固/標準安裝，但未完成相同地區版本電力與既有3年保固的對齊，先保留19710元舊參考價與待確認連結。"
     },
     "image": "https://b2eimg.pxec.com.tw/00436932/256f3e4f2c5144148f03302472792872.jpg",
     "buyUrl": "https://pxbox.es.pxmart.com.tw/product/667166",
@@ -4061,7 +4074,7 @@
       "converted": 52155,
       "basis": "retailer_current",
       "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
-      "note": "2026-10-31 myfone在冊65MRGB86BTA原主商品網路限定價52155元，含標準安裝與舊機回收；另列10/31前結帳97折，未自行推算是否再折，以下單頁確認。樓層及特殊施工可能加價。"
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。 2026-10-31 myfone在冊65MRGB86BTA原主商品網路限定價52155元，含標準安裝與舊機回收；另列10/31前結帳97折，未自行推算是否再折，以下單頁確認。樓層及特殊施工可能加價。"
     },
     "installation": {
       "status": "included_basic",
@@ -4069,7 +4082,7 @@
     },
     "image": "https://www.myfone.com.tw/website_twmf/uploads_product/website_1088/037/668/ECP0108803766894_1_21078722.jpg",
     "buyUrl": "https://www.myfone.com.tw/mfo/buy/prod/P0000203766917",
-    "buyLabel": "myfone 公開價（含標準安裝）",
+    "buyLabel": "myfone 公開價（含標準安裝）（來源待確認）",
     "specs": [
       "65 吋 Mini RGB evo LCD／4K Ultra HD 3840 x 2160",
       "顯色：RGB Primary Color Pro；DCI-P3與Adobe RGB雙色域100%認證",
@@ -4253,6 +4266,471 @@
         }
       ]
     }
-  }
+  },
+{
+  "id": "tv-tcl-65a400-pro",
+  "model": "65A400 Pro",
+  "brand": "TCL",
+  "name": "65吋 144Hz QD-Mini LED 藝術智能顯示器",
+  "category": "tv",
+  "rank": 44,
+  "budget": "mid",
+  "channel": "tw",
+  "topPick": false,
+  "price": {
+    "currency": "TWD",
+    "amount": 28791,
+    "converted": 28791,
+    "basis": "retailer_current",
+    "confidence": "2026-11-04 人工讀exact原頁主價格與主購買按鈕HTML，主CTA非disabled；不是schema或分類價格。",
+    "note": "11/01–01/29任選1件9折主價已顯示28791，網路31990；未扣P幣、刷卡回饋、折價券或贈品。"
+  },
+  "installation": {
+    "status": "included_basic",
+    "note": "含桌上基本定位、接電/功能測試；壁掛架及壁掛施工、偏遠地區、特殊樓層搬運等須依通路報價，不視為全包。"
+  },
+  "image": "https://img.pchome.com.tw/cs/items/DPADT3A900K7NI4/000001_1783742219.jpg",
+  "buyUrl": "https://24h.pchome.com.tw/prod/DPADT3-A900K7NI4",
+  "buyLabel": "PChome（限時公開單件折扣）",
+  "specs": [
+    "尺寸：不含底座 寬 145.2 x 深 4 x 高 83.2 cm；含底座 寬 145.2 x 深 29.5 x 高 88.5 cm",
+    "重量：整機 18.5 kg",
+    "顯示：4K QD-Mini LED、Matte HVA霧面、144Hz；分區數以台灣65吋版本為準",
+    "智慧系統：Google TV；ONKYO 2.0聲道20W；Dolby Atmos解碼",
+    "連接：HDMI 2.1、eARC、VRR／ALLM；VESA400x400mm",
+    "手機投影：Miracast；不套用海外Fire TV版本AirPlay規格",
+    "供電：100–240V／50/60Hz、2A、200W",
+    "保固：台灣原廠全機3年；未含人為、特殊搬運與耗材"
+  ],
+  "description": "A400藝術系列的Pro功能版本，保留既有A400M並列比較；木紋外觀為裝飾表面，並非實木框。",
+  "pros": [
+    "藝術畫框及霧面螢幕",
+    "144Hz、QD-Mini LED與台灣三年保固"
+  ],
+  "cons": [
+    "超薄貼牆架/移動架另購，貼牆需留散熱與線材空間",
+    "台灣手冊與通路尺寸寬度有約2mm差異，下單/壁掛前確認實機；不套海外Fire TV規格"
+  ],
+  "bestFor": "希望電視融入畫作風格、也需要高刷新遊戲的客廳。",
+  "recommendation": "新版比較：保留合格舊款，用完整台灣SKU、公開主價、面板/平台取捨及安裝邊界選購，不因新線發布推原款停產。",
+  "releaseDate": "找不到",
+  "historicalLow": {
+    "status": "not_found",
+    "amount": null,
+    "currency": "TWD",
+    "converted": null,
+    "sourceUrl": "",
+    "sourceTitle": "",
+    "evidenceSnippet": "",
+    "sourceKind": "not_found",
+    "confidence": "not_found",
+    "checkedAt": "2026-11-04",
+    "note": "65A400 Pro已獨立查BigGo exact比價/歷史入口及可信原通路主商品頁；未取得帶日期的同SKU新品歷史最低點。排除Yahoo拍賣混選、回饋、未核店家條件和其他尺寸。現價28791不推史低；Feebee TLS不可讀另列限制。"
+  },
+  "issueResearch": {
+    "status": "no_common_issue",
+    "checkedAt": "2026-11-04",
+    "summary": "截至查核日，查無達門檻的集中負評／災情",
+    "issues": [],
+    "checkedSources": [
+      {
+        "platform": "Mobile01",
+        "targetHost": "mobile01.com",
+        "query": "\"65A400 Pro\" site:mobile01.com 問題",
+        "queryUrl": "https://www.google.com/search?q=%2265A400%20Pro%22%20site%3Amobile01.com%20%E5%95%8F%E9%A1%8C"
+      },
+      {
+        "platform": "PTT",
+        "targetHost": "ptt.cc",
+        "query": "\"65A400 Pro\" site:ptt.cc 問題",
+        "queryUrl": "https://www.google.com/search?q=%2265A400%20Pro%22%20site%3Aptt.cc%20%E5%95%8F%E9%A1%8C"
+      }
+    ]
+  },
+  "score": 86,
+  "voltage": "100–240V／50/60Hz、2A、200W（台灣exact來源）",
+  "warranty": "台灣公司貨原廠3年，依原廠保固及購買憑證",
+  "tags": [
+    "台灣公司貨",
+    "65吋",
+    "三年保固",
+    "藝術電視",
+    "QD-Mini LED"
+  ]
+},
+{
+  "id": "tv-toshiba-65m450rp",
+  "model": "65M450RP",
+  "brand": "Toshiba",
+  "name": "65吋 REGZA 4K QLED VIDAA智慧顯示器",
+  "category": "tv",
+  "rank": 45,
+  "budget": "mid",
+  "channel": "tw",
+  "topPick": false,
+  "price": {
+    "currency": "TWD",
+    "amount": 23999,
+    "converted": 23999,
+    "basis": "retailer_current",
+    "confidence": "2026-11-04 人工讀exact原頁主價格與主購買按鈕HTML，主CTA非disabled；不是schema或分類價格。",
+    "note": "好市多公開主價含運，購買需有效好市多會員；未扣黑鑽回饋或個人化折扣。"
+  },
+  "installation": {
+    "status": "included_basic",
+    "note": "含桌上基本定位、接電/功能測試；壁掛架及壁掛施工、偏遠地區、特殊樓層搬運等須依通路報價，不視為全包。"
+  },
+  "image": "https://www.costco.com.tw/medias/sys_master/images/hba/h81/504582071123998.jpg",
+  "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Televisions-TV-Accessories/60-69-TVs/TOSHIBA-65-inch-4K-QLED-VIDAA-Smart-Monitor-65M450RP/p/162412",
+  "buyLabel": "Costco好市多（需有效會員）",
+  "specs": [
+    "尺寸：不含底座 寬 145.2 x 深 7.2 x 高 83.7 cm；含底座 寬 145.2 x 深 31.8 x 高 89.3 cm",
+    "重量：不含底座 13.1 kg；含底座 13.3 kg",
+    "顯示：4K QLED、60Hz；1080p HSR120不等同4K120Hz",
+    "晶片/系統：REGZA Engine ZR、VIDAA OS、Dolby Vision／HDR10+／HLG",
+    "音效：2.0聲道20W、Dolby Atmos／DTS:X解碼",
+    "連接：Wi-Fi6、BT5.4、3組HDMI2.0、eARC、VESA400x200mm",
+    "手機投影：AirPlay2／Miracast；VIDAA平台APP與Google TV有差異",
+    "供電：AC100–240V／50/60Hz、200W",
+    "保固：台灣原廠全機3年；未含人為、特殊搬運與耗材"
+  ],
+  "description": "台灣M450R新線的65吋SKU為65M450RP，採QLED與VIDAA，與原M450NT的Google TV有平台取捨，保留舊機型比較。",
+  "pros": [
+    "台灣新M450R系列完整SKU可核對",
+    "100%DCI-P3官方規格及多種HDR",
+    "AirPlay2、三年原廠保固"
+  ],
+  "cons": [
+    "原生僅60Hz，高刷新遊戲需求應比較Mini LED款",
+    "VIDAA僅使用授權/內建APP，不能當作Google TV自由安裝"
+  ],
+  "bestFor": "預算有限、以串流影音與手機投影為主的65吋客廳。",
+  "recommendation": "新版比較：保留合格舊款，用完整台灣SKU、公開主價、面板/平台取捨及安裝邊界選購，不因新線發布推原款停產。",
+  "releaseDate": "2026",
+  "historicalLow": {
+    "status": "not_found",
+    "amount": null,
+    "currency": "TWD",
+    "converted": null,
+    "sourceUrl": "",
+    "sourceTitle": "",
+    "evidenceSnippet": "",
+    "sourceKind": "not_found",
+    "confidence": "not_found",
+    "checkedAt": "2026-11-04",
+    "note": "65M450RP已獨立查BigGo exact比價/歷史入口及可信原通路主商品頁；未取得帶日期的同SKU新品歷史最低點。排除Yahoo拍賣混選、回饋、未核店家條件和其他尺寸。現價23999不推史低；Feebee TLS不可讀另列限制。"
+  },
+  "issueResearch": {
+    "status": "no_common_issue",
+    "checkedAt": "2026-11-04",
+    "summary": "截至查核日，查無達門檻的集中負評／災情",
+    "issues": [],
+    "checkedSources": [
+      {
+        "platform": "Mobile01",
+        "targetHost": "mobile01.com",
+        "query": "\"65M450RP\" site:mobile01.com 問題",
+        "queryUrl": "https://www.google.com/search?q=%2265M450RP%22%20site%3Amobile01.com%20%E5%95%8F%E9%A1%8C"
+      },
+      {
+        "platform": "PTT",
+        "targetHost": "ptt.cc",
+        "query": "\"65M450RP\" site:ptt.cc 問題",
+        "queryUrl": "https://www.google.com/search?q=%2265M450RP%22%20site%3Aptt.cc%20%E5%95%8F%E9%A1%8C"
+      }
+    ]
+  },
+  "score": 84,
+  "voltage": "AC100–240V／50/60Hz、200W（台灣exact來源）",
+  "warranty": "台灣公司貨原廠3年，依原廠保固及購買憑證",
+  "tags": [
+    "台灣公司貨",
+    "65吋",
+    "三年保固",
+    "VIDAA",
+    "QLED"
+  ]
+},
+{
+  "id": "tv-toshiba-75z770st",
+  "model": "75Z770ST",
+  "brand": "Toshiba",
+  "name": "75吋 REGZA 4K 165Hz QD Mini LED顯示器",
+  "category": "tv",
+  "rank": 46,
+  "budget": "premium",
+  "channel": "tw",
+  "topPick": false,
+  "price": {
+    "currency": "TWD",
+    "amount": 47999,
+    "converted": 47999,
+    "basis": "retailer_current",
+    "confidence": "2026-11-04 人工讀exact原頁主價格與主購買按鈕HTML，主CTA非disabled；不是schema或分類價格。",
+    "note": "好市多公開主價含運，購買需有效好市多會員；未扣黑鑽回饋或個人化折扣。"
+  },
+  "installation": {
+    "status": "included_basic",
+    "note": "含桌上基本定位、接電/功能測試；壁掛架及壁掛施工、偏遠地區、特殊樓層搬運等須依通路報價，不視為全包。"
+  },
+  "image": "https://www.costco.com.tw/medias/sys_master/images/hcb/h76/504582057230366.jpg",
+  "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Televisions-TV-Accessories/70-79-TVs/TOSHIBA-75-inch-4K-165Hz-QD-Mini-LED-VIDAA-Smart-Monitor-75Z770ST/p/162406",
+  "buyLabel": "Costco好市多（需有效會員）",
+  "specs": [
+    "尺寸：不含底座 寬 166.8 x 深 7.4 x 高 97.4 cm；含底座 寬 166.8 x 深 35.9 x 高 100.4 cm",
+    "重量：不含底座 29.5 kg；含底座 31 kg",
+    "顯示：4K QD Mini LED、全陣列動態背光分區、165Hz；HSR288另有解析度條件",
+    "晶片/系統：REGZA Engine ZRi、VIDAA OS、抗反光極黑亮彩面板",
+    "音效：2.1.2聲道60W、Dolby Atmos；HDR10／HDR10+／HLG／Dolby Vision IQ",
+    "遊戲：FreeSync Premium、VRR48–165Hz、ALLM、Game Bar",
+    "連接：Wi-Fi6E、BT5.4、4組HDMI2.1、eARC；VESA600x400mm",
+    "手機投影：AirPlay2／Miracast",
+    "供電：AC100–240V／50/60Hz、300W",
+    "保固：台灣原廠全機3年；未含人為、特殊搬運與耗材"
+  ],
+  "description": "台灣2026新Z770S系列的75吋Mini LED階級，提供165Hz及抗反光面板；不是官方明示75Z670NT停產的一對一取代。",
+  "pros": [
+    "165Hz與Mini LED控光適合大客廳影音/遊戲",
+    "60W含內建低音單體",
+    "台灣完整SKU及原廠三年保固"
+  ],
+  "cons": [
+    "31kg含底座，需要足夠桌面深度與兩人搬運",
+    "VIDAA APP支援需先確認；壁掛與偏遠樓層可能另收費"
+  ],
+  "bestFor": "重視75吋高刷新與Mini LED控光、可承擔搬運空間的大客廳。",
+  "recommendation": "新版比較：保留合格舊款，用完整台灣SKU、公開主價、面板/平台取捨及安裝邊界選購，不因新線發布推原款停產。",
+  "releaseDate": "2026",
+  "historicalLow": {
+    "status": "not_found",
+    "amount": null,
+    "currency": "TWD",
+    "converted": null,
+    "sourceUrl": "",
+    "sourceTitle": "",
+    "evidenceSnippet": "",
+    "sourceKind": "not_found",
+    "confidence": "not_found",
+    "checkedAt": "2026-11-04",
+    "note": "75Z770ST已獨立查BigGo exact比價/歷史入口及可信原通路主商品頁；未取得帶日期的同SKU新品歷史最低點。排除Yahoo拍賣混選、回饋、未核店家條件和其他尺寸。現價47999不推史低；Feebee TLS不可讀另列限制。"
+  },
+  "issueResearch": {
+    "status": "no_common_issue",
+    "checkedAt": "2026-11-04",
+    "summary": "截至查核日，查無達門檻的集中負評／災情",
+    "issues": [],
+    "checkedSources": [
+      {
+        "platform": "Mobile01",
+        "targetHost": "mobile01.com",
+        "query": "\"75Z770ST\" site:mobile01.com 問題",
+        "queryUrl": "https://www.google.com/search?q=%2275Z770ST%22%20site%3Amobile01.com%20%E5%95%8F%E9%A1%8C"
+      },
+      {
+        "platform": "PTT",
+        "targetHost": "ptt.cc",
+        "query": "\"75Z770ST\" site:ptt.cc 問題",
+        "queryUrl": "https://www.google.com/search?q=%2275Z770ST%22%20site%3Aptt.cc%20%E5%95%8F%E9%A1%8C"
+      }
+    ]
+  },
+  "score": 88,
+  "voltage": "AC100–240V／50/60Hz、300W（台灣exact來源）",
+  "warranty": "台灣公司貨原廠3年，依原廠保固及購買憑證",
+  "tags": [
+    "台灣公司貨",
+    "75吋",
+    "三年保固",
+    "VIDAA",
+    "QD Mini LED"
+  ]
+},
+{
+  "id": "tv-toshiba-75zxsp",
+  "model": "75ZXSP",
+  "brand": "Toshiba",
+  "name": "75吋 REGZA 4K 180Hz RGB Mini LED旗艦顯示器",
+  "category": "tv",
+  "rank": 47,
+  "budget": "premium",
+  "channel": "tw",
+  "topPick": false,
+  "price": {
+    "currency": "TWD",
+    "amount": 62999,
+    "converted": 62999,
+    "basis": "retailer_current",
+    "confidence": "2026-11-04 人工讀exact原頁主價格與主購買按鈕HTML，主CTA非disabled；不是schema或分類價格。",
+    "note": "好市多公開主價含運，購買需有效好市多會員；未扣黑鑽回饋或個人化折扣。"
+  },
+  "installation": {
+    "status": "included_basic",
+    "note": "含桌上基本定位、接電/功能測試；壁掛架及壁掛施工、偏遠地區、特殊樓層搬運等須依通路報價，不視為全包。"
+  },
+  "image": "https://www.costco.com.tw/medias/sys_master/images/h04/hca/504582051495966.jpg",
+  "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Televisions-TV-Accessories/70-79-TVs/TOSHIBA-75-inch-4K-180Hz-RGB-Mini-LED-VIDAA-Smart-Monitor-75ZXSP/p/162404",
+  "buyLabel": "Costco好市多（需有效會員）",
+  "specs": [
+    "尺寸：不含底座 寬 166.8 x 深 5.3 x 高 97.6 cm；含底座 寬 166.8 x 深 38.9 x 高 102.5 cm",
+    "重量：不含底座 30.9 kg；含底座 32 kg",
+    "顯示：4K RGB Mini LED、三色獨立光色同控、180Hz；HSR330另有解析度條件",
+    "晶片/系統：REGZA Engine ZRα、獨立BR音效處理器、VIDAA OS",
+    "畫質：抗反光極黑亮彩面板Pro；100%BT.2020、Dolby Vision2 MAX／HDR10+",
+    "音效：4.1.2聲道90W、Dolby Atmos；FreeSync Premium Pro、VRR48–180Hz",
+    "連接：Wi-Fi6E、BT5.4、4組HDMI2.1、eARC；VESA400x400mm",
+    "手機投影：AirPlay2／Miracast",
+    "供電：AC100–240V／50/60Hz、300W",
+    "保固：台灣原廠全機3年；未含人為、特殊搬運與耗材"
+  ],
+  "description": "台灣ZXS新線的75吋正式SKU為75ZXSP，採RGB Mini LED與雙晶片音畫處理；與日規ZX3S和海外無P型號分開。",
+  "pros": [
+    "RGB Mini LED、180Hz與廣色域旗艦定位",
+    "90W多聲道內建音響",
+    "台灣原廠三年保固"
+  ],
+  "cons": [
+    "32kg含底座與38.9cm底座深度，壁掛承重需專業評估",
+    "售價高，VIDAA與Google TV的APP相容性不同；不等同日本ZX3S"
+  ],
+  "bestFor": "希望75吋RGB Mini LED、高刷新與內建多聲道音響的高階客廳。",
+  "recommendation": "新版比較：保留合格舊款，用完整台灣SKU、公開主價、面板/平台取捨及安裝邊界選購，不因新線發布推原款停產。",
+  "releaseDate": "2026",
+  "historicalLow": {
+    "status": "not_found",
+    "amount": null,
+    "currency": "TWD",
+    "converted": null,
+    "sourceUrl": "",
+    "sourceTitle": "",
+    "evidenceSnippet": "",
+    "sourceKind": "not_found",
+    "confidence": "not_found",
+    "checkedAt": "2026-11-04",
+    "note": "75ZXSP已獨立查BigGo exact比價/歷史入口及可信原通路主商品頁；未取得帶日期的同SKU新品歷史最低點。排除Yahoo拍賣混選、回饋、未核店家條件和其他尺寸。現價62999不推史低；Feebee TLS不可讀另列限制。"
+  },
+  "issueResearch": {
+    "status": "no_common_issue",
+    "checkedAt": "2026-11-04",
+    "summary": "截至查核日，查無達門檻的集中負評／災情",
+    "issues": [],
+    "checkedSources": [
+      {
+        "platform": "Mobile01",
+        "targetHost": "mobile01.com",
+        "query": "\"75ZXSP\" site:mobile01.com 問題",
+        "queryUrl": "https://www.google.com/search?q=%2275ZXSP%22%20site%3Amobile01.com%20%E5%95%8F%E9%A1%8C"
+      },
+      {
+        "platform": "PTT",
+        "targetHost": "ptt.cc",
+        "query": "\"75ZXSP\" site:ptt.cc 問題",
+        "queryUrl": "https://www.google.com/search?q=%2275ZXSP%22%20site%3Aptt.cc%20%E5%95%8F%E9%A1%8C"
+      }
+    ]
+  },
+  "score": 90,
+  "voltage": "AC100–240V／50/60Hz、300W（台灣exact來源）",
+  "warranty": "台灣公司貨原廠3年，依原廠保固及購買憑證",
+  "tags": [
+    "台灣公司貨",
+    "75吋",
+    "三年保固",
+    "VIDAA",
+    "RGB Mini LED"
+  ]
+},
+{
+  "id": "tv-toshiba-75m450rp",
+  "model": "75M450RP",
+  "brand": "Toshiba",
+  "name": "75吋 REGZA 4K QLED VIDAA智慧顯示器",
+  "category": "tv",
+  "rank": 48,
+  "budget": "mid",
+  "channel": "tw",
+  "topPick": false,
+  "price": {
+    "currency": "TWD",
+    "amount": 33999,
+    "converted": 33999,
+    "basis": "retailer_current",
+    "confidence": "2026-11-04 人工讀exact原頁主價格與主購買按鈕HTML，主CTA非disabled；不是schema或分類價格。",
+    "note": "好市多公開主價含運，購買需有效好市多會員；未扣黑鑽回饋或個人化折扣。"
+  },
+  "installation": {
+    "status": "included_basic",
+    "note": "含桌上基本定位、接電/功能測試；壁掛架及壁掛施工、偏遠地區、特殊樓層搬運等須依通路報價，不視為全包。"
+  },
+  "image": "https://www.costco.com.tw/medias/sys_master/images/hdf/hbc/504582065225758.jpg",
+  "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Televisions-TV-Accessories/70-79-TVs/TOSHIBA-75-inch-4K-QLED-VIDAA-Smart-Monitor-75M450RP/p/162408",
+  "buyLabel": "Costco好市多（需有效會員）",
+  "specs": [
+    "尺寸：不含底座 寬 167.6 x 深 7.9 x 高 96.3 cm；含底座 寬 167.6 x 深 31.8 x 高 101.8 cm",
+    "重量：不含底座 18.5 kg；含底座 18.7 kg",
+    "顯示：4K QLED、60Hz；1080p HSR120不等同4K120Hz",
+    "晶片/系統：REGZA Engine ZR、VIDAA OS、Dolby Vision／HDR10+／HLG",
+    "音效：2.0聲道30W、Dolby Atmos／DTS:X解碼",
+    "連接：Wi-Fi6、BT5.4、3組HDMI2.0、eARC、VESA200x300mm",
+    "手機投影：AirPlay2／Miracast；VIDAA平台APP與Google TV有差異",
+    "供電：AC100–240V／50/60Hz、220W",
+    "保固：台灣原廠全機3年；未含人為、特殊搬運與耗材"
+  ],
+  "description": "台灣M450R新線的75吋SKU為75M450RP，QLED搭配VIDAA及30W音響，保留原75Z670NT等不同刷新率/面板階級比較。",
+  "pros": [
+    "台灣75吋完整SKU及額定供電可核",
+    "97%DCI-P3官方規格、多規HDR與AirPlay2",
+    "台灣原廠三年保固"
+  ],
+  "cons": [
+    "原生僅60Hz，高刷新遊戲需求應比較Mini LED款",
+    "VIDAA僅使用授權/內建APP，不能當作Google TV自由安裝"
+  ],
+  "bestFor": "以串流與大畫面優先、接受原生4K60Hz的75吋家庭。",
+  "recommendation": "新版比較：保留合格舊款，用完整台灣SKU、公開主價、面板/平台取捨及安裝邊界選購，不因新線發布推原款停產。",
+  "releaseDate": "2026",
+  "historicalLow": {
+    "status": "not_found",
+    "amount": null,
+    "currency": "TWD",
+    "converted": null,
+    "sourceUrl": "",
+    "sourceTitle": "",
+    "evidenceSnippet": "",
+    "sourceKind": "not_found",
+    "confidence": "not_found",
+    "checkedAt": "2026-11-04",
+    "note": "75M450RP已獨立讀BigGo exact價史入口及Costco162408主頁33999。比價有PChome/Yahoo47900、拍賣混選更低價與Costco33999，沒有帶日期可驗的可信新品歷史最低點；不承接65吋史低或以33999現價推史低。"
+  },
+  "issueResearch": {
+    "status": "no_common_issue",
+    "checkedAt": "2026-11-04",
+    "summary": "截至查核日，查無達門檻的集中負評／災情",
+    "issues": [],
+    "checkedSources": [
+      {
+        "platform": "Mobile01",
+        "targetHost": "mobile01.com",
+        "query": "\"75M450RP\" site:mobile01.com 問題",
+        "queryUrl": "https://www.google.com/search?q=%2275M450RP%22%20site%3Amobile01.com%20%E5%95%8F%E9%A1%8C"
+      },
+      {
+        "platform": "PTT",
+        "targetHost": "ptt.cc",
+        "query": "\"75M450RP\" site:ptt.cc 問題",
+        "queryUrl": "https://www.google.com/search?q=%2275M450RP%22%20site%3Aptt.cc%20%E5%95%8F%E9%A1%8C"
+      }
+    ]
+  },
+  "score": 84,
+  "voltage": "AC100–240V／50/60Hz、220W（台灣exact來源）",
+  "warranty": "台灣公司貨原廠3年，依原廠保固及購買憑證",
+  "tags": [
+    "台灣公司貨",
+    "65吋",
+    "三年保固",
+    "VIDAA",
+    "QLED"
+  ]
+}
 ]);
 })();

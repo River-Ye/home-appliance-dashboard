@@ -119,10 +119,11 @@
       "currency": "TWD",
       "amount": 2580,
       "converted": 2580,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "confidence": "PChome 2026-07-11 API 查核價",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "channel": "tw",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSBE0M-A900JDX8H",
     "specs": [
       "刀具：Global 具良治 G-4 劍型 三德刀 180mm 文化型",
@@ -633,10 +634,11 @@
       "currency": "TWD",
       "amount": 3080,
       "converted": 3080,
-      "confidence": "2026-09-06 人工覆核同型號原購買頁：促銷價3,080 元；市售價3,850；數量1；庫存低於1組；直接購買、加入購物車可用；預計2026/09/07出貨；平行輸入新品。 不需會員券或結帳折扣；保留既有平輸規格，非配件/福利品。"
+      "confidence": "2026-09-06 人工覆核同型號原購買頁：促銷價3,080 元；市售價3,850；數量1；庫存低於1組；直接購買、加入購物車可用；預計2026/09/07出貨；平行輸入新品。 不需會員券或結帳折扣；保留既有平輸規格，非配件/福利品。",
+      "note": "2026-11-04 Chrome逐筆查核：Chrome原來源頁明示「商品目前無展售／網頁不存在」或「查無商品資料，商品不存在或已下架」；沒有可購主商品價格；不是原廠停產證據。 保留既有參考價，另查可信現售連結。"
     },
     "channel": "tw",
-    "buyLabel": "momo購物",
+    "buyLabel": "momo（原來源無展售，查看供貨）",
     "buyUrl": "https://www.momoshop.com.tw/TP/TP0002057/goodsDetail/TP00020570002377",
     "specs": [
       "刀具：《WUSTHOF》德國三叉牌GOURMET 17cm三德刀",
@@ -1038,9 +1040,10 @@
     "image": "https://b2eimg.pxec.com.tw/00210605/8265d7d9ec45437b8526e81713d90d8f.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 2199,
-      "converted": 2199,
-      "confidence": "全聯全電商 2026-07-26 exact-model 公開價"
+      "amount": 2089,
+      "converted": 2089,
+      "confidence": "2026-11-04 Chrome人工核對原商品exact型號及公開主價，購買CTA可用。",
+      "note": "2026-11-04 Chrome核全電商189587日本京瓷黑刃16cm／通路料號ZK-160BK，公開滿1件95折後2089元（原2199），加入購物車及立即結帳可用、預計5工作天出貨；未再扣100元券或回饋。"
     },
     "channel": "tw",
     "buyLabel": "全聯全電商",
@@ -1243,9 +1246,10 @@
     "image": "https://cs-a.ecimg.tw/items/DEES09A900IWZUQ/000001_1749456278.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1599,
-      "converted": 1599,
-      "confidence": "PChome 24h 低價查核"
+      "amount": 1439,
+      "converted": 1439,
+      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
+      "note": "Chrome原頁主商品Ice Force 三件組／Tefal Ice Force 三件組可核對，公開主區售價1439元，購買按鈕可用；不扣個人券、信用卡、點數或贈品。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1344,9 +1348,10 @@
     "image": "https://cs-a.ecimg.tw/items/DEAGY2A900G9EBC/000001_1682391092.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 3635,
-      "converted": 3635,
-      "confidence": "PChome 24h 低價查核"
+      "amount": 3453,
+      "converted": 3453,
+      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
+      "note": "Chrome原頁主商品Gourmet 三件組／Wusthof Gourmet 三件組可核對，公開主區售價3453元，購買按鈕可用；不扣個人券、信用卡、點數或贈品。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1449,11 +1454,12 @@
       "currency": "TWD",
       "amount": 3360,
       "converted": 3360,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "confidence": "PChome 2026-07-11 API 查核價",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBE0MA900JD4AD/000001_1761016741.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSBE0M-A900JD4AD",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "240mm",
       "VG10",
@@ -1545,11 +1551,12 @@
       "currency": "TWD",
       "amount": 13440,
       "converted": 13440,
-      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DEBM2CA900J9CYP/000001_1758097012.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEBM2C-A900J9CYP",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "12cm",
       "萬用刀",
@@ -1833,11 +1840,12 @@
       "currency": "TWD",
       "amount": 697,
       "converted": 697,
-      "confidence": "PChome 2026-08-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DEAWRUA900HDKXQ/000001_1712727942.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEAWRU-A900HDKXQ",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "萬用小刀",
       "含刀套",
@@ -2125,11 +2133,12 @@
       "currency": "TWD",
       "amount": 1499,
       "converted": 1499,
-      "confidence": "IKEA 台灣官方 2026-07-30 exact-article 公開價；線上庫存 4"
+      "confidence": "IKEA 台灣官方 2026-07-30 exact-article 公開價；線上庫存 4",
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
     },
     "image": "https://www.ikea.com.tw/dairyfarm/tw/images/125/1512561_PE1010446_S4.jpg",
     "buyUrl": "https://www.ikea.com.tw/zh/products/kitchen-tools/knives/fjallroding-art-00631466",
-    "buyLabel": "IKEA 台灣官方",
+    "buyLabel": "IKEA 台灣官方（來源待確認）",
     "specs": [
       "全長 36 cm；刀刃長 22 cm",
       "淨重 0.22 kg",

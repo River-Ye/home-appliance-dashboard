@@ -19,11 +19,12 @@
       "currency": "TWD",
       "amount": 16888,
       "converted": 16888,
-      "confidence": "momo購物 2026-07-11 頁面查核價"
+      "confidence": "momo購物 2026-07-11 頁面查核價",
+      "note": "2026-11-04 Chrome逐筆查核：Chrome原來源頁明示「商品目前無展售／網頁不存在」或「查無商品資料，商品不存在或已下架」；沒有可購主商品價格；不是原廠停產證據。 保留既有參考價，另查可信現售連結。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX001900JVQDR/000001_1775552057.jpg",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=11182207",
-    "buyLabel": "momo購物",
+    "buyLabel": "momo（原來源無展售，查看供貨）",
     "specs": [
       "輕量無線",
       "雷射顯塵",
@@ -211,9 +212,10 @@
     "name": "寵物家庭濕拖無線吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 11900,
-      "converted": 11900,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 11111,
+      "converted": 11111,
+      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
+      "note": "Chrome原頁主商品CordZero A9K-MOP3／寵物家庭濕拖無線吸塵器可核對，公開主區售價11111元，購買按鈕可用；不扣個人券、信用卡、點數或贈品。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX8KA900JI8XJ/000001_1764582934.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAX8K-A900JI8XJ",
@@ -504,11 +506,12 @@
       "currency": "TWD",
       "amount": 18900,
       "converted": 18900,
-      "confidence": "可信通路查核價"
+      "confidence": "可信通路查核價",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX001900I2DSH/000001_1780465775.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAX00-1900I2DSH",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "輕量無線",
       "智慧感測",
@@ -1070,99 +1073,97 @@
     }
   },
   {
-    "id": "vacuum-extra-12-dmax6f-a900k2nsv",
+    "id": "vacuum-lg-a7-litemop",
     "category": "vacuum",
+    "brand": "LG",
+    "model": "A7-LITEMOP",
+    "name": "CordZero A9 Air 濕拖無線吸塵器｜雲朵白",
     "rank": 12,
     "budget": "value",
     "channel": "tw",
-    "brand": "LG",
-    "model": "CordZero A9 Air",
-    "name": "CordZero A9 Air 輕量美型無線吸塵器雪霧白",
+    "topPick": false,
     "price": {
       "currency": "TWD",
       "amount": 6111,
       "converted": 6111,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-04 午後人工覆核：momo選定主品號本輪公開價6111元，原生直接購買/放入購物車皆啟用。 原頁活動期間 : 11/01 00:00~11/12 23:59（來源精度到分鐘）。 不扣個人化回饋或贈品。",
-      "basis": "retailer_current"
+      "basis": "retailer_current",
+      "confidence": "2026-11-04 Chrome人工核對momo9861645主商品A7-LITEMOP雲朵白，數量1、主區限時折後價6111元，直接購買及放入購物車可用。",
+      "note": "11/01–11/12公開單件活動：促銷價11900元減5789元，主區折後價6111元；未另扣個人券、點數、信用卡或贈品。通路主摘要2年與詳細保固條款有差異，保固依產品註記向LG確認。"
     },
-    "image": "https://cs-a.ecimg.tw/items/DMAX6FA900K2NSV/000001_1780464185.jpg",
+    "installation": {
+      "status": "not_stated",
+      "note": "單機含收納立架，未明示到府安裝；擺位、充電插座與組裝依說明書。"
+    },
+    "image": "https://www.lg.com/content/dam/channel/wcms/tw/images/small-appliances/a7-litemop/2010-01.jpg/jcr:content/renditions/thum-1600x1062.jpeg?w=800",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=9861645",
-    "buyLabel": "momo（A7-LITEMOP 雲朵白）",
+    "buyLabel": "momo（A7-LITEMOP 雲朵白；限時價至11/12）",
     "specs": [
-      "無線吸塵",
-      "輕量",
-      "雪霧白",
-      "A9 Air"
+      "類型：無線棒式／手持乾吸＋雙旋濕拖；不可吸入液體",
+      "吸力：官方最大150W；標準／強／超強三段",
+      "集塵盒：0.25L；五道過濾與可水洗三效濾網",
+      "續航：一般模式無吸頭40分鐘／含電動吸頭30分鐘；強力無吸頭7分鐘／含電動吸頭6分鐘",
+      "電池：可拆式鋰電池1顆；充電240分鐘",
+      "配件：強勁輕薄地板吸頭、智慧雙旋濕拖吸頭、二合一毛刷、縫隙吸頭、抹布墊2片、收納立架",
+      "尺寸：寬 25.1 x 深 24.2 x 高 102.6 cm",
+      "重量：含電池主機1.1kg；含管與乾式地板吸頭1.97kg；濕拖組裝重未標示",
+      "供電：momo exact型號規格明示110V／60Hz",
+      "特色：非智慧變頻馬達；無ThinQ／Wi-Fi、無集塵壓縮、無伸縮管",
+      "相容性：A7-LITEMOP特殊型號，吸頭／配件依原廠相容表確認"
     ],
-    "description": "LG CordZero A9 Air 是吸塵器類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
+    "description": "雲朵白A7-LITEMOP為具智慧雙旋濕拖吸頭的A9 Air台灣版，乾式清掃與濕拖用途分明；以官方exact型號重新建立，與雪霧白A7-LITE分開比較。",
     "pros": [
-      "從手持到洗地機價差清楚",
-      "可依重量與吸頭配置挑選"
+      "含電池主機1.1kg，乾式組合1.97kg，適合頻繁拿取",
+      "雙旋濕拖吸頭可選單獨濕拖或吸塵加濕拖",
+      "台灣110V／60Hz與官方維修、替換濾網相容資料可核對"
     ],
     "cons": [
-      "電池衰退與耗材需留意",
-      "濕拖/洗地款維護時間較高"
+      "濕拖頭不可吸液體，不是污水回收洗地機",
+      "0.25L集塵盒較小，無集塵壓縮或自動清空",
+      "非變頻馬達，無ThinQ／Wi-Fi；MOP與LITE配件配置不可混用",
+      "momo保固摘要寫2年，但詳細規格與官方政策為全機／馬達1年、電池2年"
     ],
-    "bestFor": "重視毛髮、除螨、洗地或輕量日常清潔的人。",
-    "recommendation": "同類推薦：補齊旗艦、洗地、除螨與入門無線吸塵器價格帶。",
+    "bestFor": "希望輕量乾吸、偶爾雙旋濕拖，且願意自行清洗拖布與濾網的小宅家庭。",
+    "recommendation": "輕量吸拖參考：用6111元限時單件公開價比較，確認截止日與不可吸液體限制；沒有把A7-LITE或generic A9 Air的日期、史低與負評搬到MOP版。",
     "score": 81,
-    "voltage": "110V 台灣通路",
-    "warranty": "依 PChome/供應商頁面",
+    "voltage": "110V／60Hz（momo9861645 A7-LITEMOP原商品規格）；可拆電池式無線使用",
+    "warranty": "LG台灣官方非變頻A7-LITEMOP：全機1年、一般馬達1年、電池2年；依保證書，momo摘要2年不代表全機2年",
     "tags": [
       "LG",
       "輕量",
-      "均衡"
+      "雙旋濕拖",
+      "台灣公司貨"
     ],
-    "releaseDate": "2024-06-11",
+    "releaseDate": "找不到",
     "historicalLow": {
-      "status": "found",
-      "amount": 6111,
+      "status": "not_found",
+      "amount": null,
       "currency": "TWD",
-      "converted": 6111,
-      "sourceUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=9861645",
-      "sourceTitle": "LG CordZero A9 Air 同型號原通路商品頁",
-      "evidenceSnippet": "2026-11-01 人工核對同型號新品公開價 6111 TWD，低於既有史低 6966。momo LG A7-LITEMOP雲朵白所選主商品11/01–11/12活動已開始，單件折5789後6111元，折前11900；goodsStock1，不再把此已開始活動列尚未開賣。",
-      "sourceKind": "retailer_page",
-      "confidence": "medium",
-      "checkedAt": "2026-11-01",
-      "note": "同型號可信新品公開價；排除個人券、點數、信用卡回饋、二手、福利、展示、拆封與整新品。"
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-11-04",
+      "note": "已獨立查 BigGo、FindPrice、LBJ 的 A7-LITEMOP exact-model 比價與歷史入口；momo6111是目前單件限時折後價，不據此推定史低。BigGo另列酷澎6011但未回到原頁確認是否會員／新客、SKU與可購，不採用；比價的配件、A7-LITE、拍賣混選與組合包排除。LBJ正文只有查看歷史價格按鈕，未取得有日期的歷史價點；既有generic型號6111/6966記錄不承接。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-29",
+      "checkedAt": "2026-11-04",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"LG CordZero A9 Air\" (problem OR issue OR defect OR failure)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20CordZero%20A9%20Air%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-          "targetHost": "reddit.com"
-        },
-        {
           "platform": "Mobile01",
-          "query": "site:mobile01.com \"LG CordZero A9 Air\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20CordZero%20A9%20Air%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "mobile01.com"
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"A7-LITEMOP\" 問題",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22A7-LITEMOP%22%20%E5%95%8F%E9%A1%8C"
         },
         {
           "platform": "PTT",
-          "query": "site:ptt.cc \"LG CordZero A9 Air\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22LG%20CordZero%20A9%20Air%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "ptt.cc"
-        },
-        {
-          "platform": "Dcard",
-          "query": "site:dcard.tw \"LG CordZero A9 Air\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22LG%20CordZero%20A9%20Air%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "dcard.tw"
-        },
-        {
-          "platform": "YouTube",
-          "query": "\"LG CordZero A9 Air\" problem issue defect failure broken 災情 故障 異常",
-          "queryUrl": "https://www.youtube.com/results?search_query=%22LG%20CordZero%20A9%20Air%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
-          "targetHost": "youtube.com"
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"A7-LITEMOP\" 故障",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22A7-LITEMOP%22%20%E6%95%85%E9%9A%9C"
         }
       ]
     }
@@ -1277,11 +1278,11 @@
       "amount": 2990,
       "converted": 2990,
       "confidence": "XJC-Y011 官方商品頁 2026-09-05 人工核對 exact-model 公開現價及可購狀態；非會員券、紅利或加購價",
-      "note": "2026-11-04 下午覆核：原商品頁已停售/已售完/目前尚無庫存或官方OutOfStock；不將新結構化報價寫為可購現價，也沒有官方整型停產證據，保留既有參考。"
+      "note": "2026-11-04 Chrome核官方XJC-Y011原頁顯示4990元，但主區明示「目前尚無庫存。」且無購買按鈕；未採為可購現價，保留2990元先前參考。缺貨不代表原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBE1AA900J8H81/000001_1757576197.jpg",
     "buyUrl": "https://plusminuszero.com.tw/shop-d.php?Key=1&W=Index",
-    "buyLabel": "正負零 官方（缺貨，現價待確認）",
+    "buyLabel": "正負零台灣官方（目前無庫存）",
     "specs": [
       "無線手持",
       "輕量",
@@ -1373,11 +1374,12 @@
       "currency": "TWD",
       "amount": 3490,
       "converted": 3490,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "confidence": "PChome 2026-07-11 API 查核價",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBE1AA900HA30V/000001_1709535798.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAX3T-A900GYQP6",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "智能感應",
       "高效率吸塵",
@@ -2047,15 +2049,15 @@
     "name": "V8 Cyclone 無線吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 9900,
-      "converted": 9900,
-      "confidence": "Dyson 台灣官方商城 2026-09-01 exact-model SV55／商品 SKU 630933-01 頁面顯示原價 NT$14,900、特價 NT$9,900、InStock 並可加入購物車；贈品價值不抵減現價",
+      "amount": 8999,
+      "converted": 8999,
+      "confidence": "2026-11-04 Chrome人工核對Dyson台灣官方同型號原商品主區公開特價，加入購物車可用；未扣會員券、信用卡、點數或贈品。",
       "basis": "retailer_current",
-      "note": "2026-11-01 Dyson官方所選V8 Cyclone送雙禮主商品9900元，14900是原價；不是另一8999單機包裝。可加車，已無舊11/03預購日，實際交期仍向通路確認。"
+      "note": "同SV55／630933-01官方單機優惠8999元，可加入購物車且不含贈品；本體包裝仍列軟絨毛滾筒、迷你電動吸頭、隙縫吸頭、壁掛架及充電器。不是原9900送雙禮方案，未含另購延長保固。"
     },
     "image": "https://dysonshop.blob.core.windows.net/products/dyson-v8-cyclone-sv55-vacuum-sale/hero-1787682803-480x480.jpg",
-    "buyUrl": "https://shop.dyson.tw/vacuums/cordless-vacuums/dyson-v8-cyclone-sv55-vacuum-sale-630933-01",
-    "buyLabel": "Dyson 官方（交期請確認）",
+    "buyUrl": "https://shop.dyson.tw/vacuums/cordless-vacuums/dyson-v8-cyclone-sv55-vacuum-discount-630933-01",
+    "buyLabel": "Dyson 台灣官方商城",
     "installation": {
       "status": "not_stated",
       "note": "官方商城未列到府安裝；本品為無線直立／手持吸塵器，使用者需依說明書裝妥吸頭、壁掛充電座並定期清潔集塵筒與濾網。"
@@ -2066,7 +2068,7 @@
       "最長約 60 分鐘續航；充電最長約 4 小時；電池可拆換",
       "全機密封過濾系統可捕捉 99.99% 小至 0.3 微米微塵；15 個雙層多圓錐氣旋",
       "集塵筒 0.54L；機身尺寸 1,150 x 250 x 210mm；淨重 2.37kg",
-      "包裝含 Fluffy 軟絨毛滾筒吸頭、迷你電動吸頭、隙縫清潔吸頭、壁掛架與充電器；2026-09-01 官方頁另贈多功能置物架"
+      "包裝含 Fluffy 軟絨毛滾筒吸頭、迷你電動吸頭、隙縫清潔吸頭、壁掛架與充電器；本次8999元方案無額外贈品"
     ],
     "description": "V8 Cyclone SV55 是新版 V8 乾式無線主力，將吸力提升至 150AW、續航延長至最長 60 分鐘，並改為單鍵啟動與可換電池；台灣官方現售 Fluffy 組適合想壓在萬元內兼顧硬地板、床墊與寵物毛髮的人。",
     "pros": [
@@ -2077,7 +2079,7 @@
     ],
     "cons": [
       "沒有雷射顯塵、灰塵數量顯示或自動吸力調節等 V12／V15 智慧功能",
-      "官方 NT$9,900 組合只有 Fluffy 主吸頭，沒有電動碳纖維地毯主吸頭",
+      "官方 NT$8,999 單機方案只有 Fluffy 主吸頭，沒有電動碳纖維地毯主吸頭",
       "0.54L 集塵筒仍需手動倒塵，壁掛座也沒有自動集塵",
       "強效模式續航遠短於 60 分鐘標稱值，實際時間會隨吸頭與地面類型變動",
       "官網贈品與組合內容可能隨檔期變動，購買前需重新核對"
@@ -2241,11 +2243,12 @@
       "currency": "USD",
       "amount": 679.99,
       "converted": 22284,
-      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-11-04 匯率換算"
+      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-11-04 匯率換算",
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
     },
     "image": "https://m.media-amazon.com/images/I/61Yuy5vtWFL._AC_SL1500_.jpg",
     "buyUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
-    "buyLabel": "Dreame Vacuum Mop US",
+    "buyLabel": "Dreame Vacuum Mop US（來源待確認）",
     "specs": [
       "蒸氣／熱水／Smart／Eco／吸水／FoamWash 濕乾洗地模式",
       "30,000Pa 吸力；主機額定功率 400W",
@@ -2655,7 +2658,7 @@
       "converted": 13900,
       "confidence": "新光三越 skm online 2026-08-20 exact-model 台灣新品頁公開售價",
       "basis": "retailer_current",
-      "note": "2026-10-31 原新光三越頁404，改連三星台灣exact型號官方產品／購買地點頁；本次原頁未顯示可購價格，保留舊13900元參考價，並非本次確認現價或庫存。"
+      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。 2026-10-31 原新光三越頁404，改連三星台灣exact型號官方產品／購買地點頁；本次原頁未顯示可購價格，保留舊13900元參考價，並非本次確認現價或庫存。"
     },
     "image": "https://images.samsung.com/is/image/samsung/p6pim/tw/vs70h18gzg-tw/gallery/tw-jet-fit-stick-vs70h18gzg-tw-550961394?$624_468_PNG$",
     "buyUrl": "https://www.samsung.com/tw/vacuum-cleaners/stick/vs70h-stick-vc-with-super-lightweight-powerful-jet-fit-180w-satin-greige-vs70h18gzg-tw/",
@@ -3295,101 +3298,101 @@
       ]
     }
   },
-{
-  "id": "vacuum-plusminuszero-xjc-g040",
-  "category": "vacuum",
-  "brand": "Plus Minus Zero",
-  "model": "XJC-G040",
-  "name": "輕量無線吸塵器（台灣公司貨）",
-  "rank": 35,
-  "topPick": false,
-  "budget": "mid",
-  "channel": "tw",
-  "price": {
-    "currency": "TWD",
-    "amount": 4811,
-    "converted": 4811,
-    "basis": "retailer_current",
-    "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-    "note": "2026-11-04 午後人工覆核：momo選定主品號本輪公開價4811元，原生直接購買/放入購物車皆啟用。 原頁活動期間 : 11/01 00:00~11/15 23:59（來源精度到分鐘）。 不扣個人化回饋或贈品。"
-  },
-  "installation": {
-    "status": "not_stated",
-    "note": "不需固定安裝；使用隨附原廠AC適配器充電，依原廠說明選擇平穩乾燥位置收納。未列到府安裝服務。"
-  },
-  "image": "https://cs-a.ecimg.tw/items/DMAX3NA900JT0RG/000001_1773215570.jpg",
-  "buyUrl": "https://www.momoshop.com.tw/product/14743779",
-  "buyLabel": "momo官方直營",
-  "specs": [
-    "類型：充電式無線乾式吸塵器，可組合直立／手持；台灣公司貨XJC-G040",
-    "馬達／吸頭：無刷直流馬達；地板吸頭可水平伸入家具下並轉向，並非濕拖或洗地機",
-    "續航：充飽標準模式約57分鐘、強力約16分鐘、超強力約11分鐘；不同檔位與使用條件不能混比",
-    "集塵：0.45L集塵杯；G040專用濾網與耗材需依型號選購",
-    "充電：約2.5小時；鋰離子電池，原廠AC適配器輸入100–240V／50–60Hz／0.6A，輸出DC15V／1.0A",
-    "尺寸：手提組件高40.7 × 寬10 × 深13.4 cm；裝長吸頭＋地板吸頭高96.5 × 寬22 × 深13.4 cm，依官方明示軸序",
-    "重量：手提組件約0.8 kg，裝長吸頭＋地板吸頭約1.2 kg；含收納架組重量約2.3 kg，不當整機操作重量",
-    "使用環境：原廠規格5–35°C；電源線約1.8m",
-    "配件：變壓器、鐵製立架、電池、刷頭、說明書及保固卡依所選momo單一規格頁；加購商品不算隨附",
-    "售後：台灣總代理群光電子，所選通路1年保固；官方維修客服0800-066-006，耗材及備品可向官方客服查詢"
-  ],
-  "description": "補充既有XJC-Y011以外的輕量乾式清掃選擇。完整長管／地板吸頭組約1.2kg，適合重視拿取與搬運負擔的日常毛髮、碎屑清理；與大容量、高功率或具洗地功能的機款分開比較。這是2023台灣上市機型的本輪補收，不稱為2026新發表。",
-  "pros": [
-    "長管與地板吸頭組約1.2kg，手提組件約0.8kg，重量邊界明確",
-    "約2.5小時充電，標準57／強力16／超強力11分鐘可按用途比較",
-    "台灣官方完整規格與在地維修入口可核，momo官方直營可購"
-  ],
-  "cons": [
-    "0.45L集塵杯較小，大面積清潔需更頻繁清空",
-    "57分鐘是標準模式，超強力模式約11分鐘",
-    "乾式清掃無濕拖／自動集塵；地毯與重污需求宜先現場試用吸頭阻力與清潔效率"
-  ],
-  "bestFor": "需要輕量拿取、上下樓搬動或小空間日常乾式清掃，並願意手動清理集塵杯與濾網的人。",
-  "recommendation": "作為輕量乾式清掃的補充比較；保留較低價的XJC-Y011，按整機重量、強力檔續航與集塵容量選擇，不以日系品牌或外觀代替吸力與地毯實測。",
-  "releaseDate": "2023",
-  "historicalLow": {
-    "status": "not_found",
-    "amount": null,
-    "currency": "TWD",
-    "converted": null,
-    "sourceUrl": "",
-    "sourceTitle": "",
-    "evidenceSnippet": "",
-    "sourceKind": "not_found",
-    "confidence": "not_found",
-    "checkedAt": "2026-10-30",
-    "note": "已人工查BigGo、FindPrice的XJC-G040比價與可信新品原頁；比價頁混有濾網、電池與私人拍賣，未取得可追溯時間的同款可信新品價格歷史。momo4831是本日10/16–10/31公開單件價，只作現價；PChome直營4941已售完，官方5490補貨中；PTT2000二手及4000私人贈品轉售均排除。不用現價或搜尋摘要製造史低。"
-  },
-  "issueResearch": {
-    "status": "no_common_issue",
-    "checkedAt": "2026-10-30",
-    "summary": "截至查核日，查無達門檻的集中負評／災情",
-    "issues": [],
-    "checkedSources": [
-      {
-        "platform": "Mobile01",
-        "targetHost": "mobile01.com",
-        "query": "\"XJC-G040\" site:mobile01.com/topicdetail.php",
-        "queryUrl": "https://www.google.com/search?q=%22XJC-G040%22%20site%3Amobile01.com/topicdetail.php"
-      },
-      {
-        "platform": "PTT",
-        "targetHost": "ptt.cc",
-        "query": "\"XJC-G040\" site:ptt.cc/bbs/E-appliance/",
-        "queryUrl": "https://www.google.com/search?q=%22XJC-G040%22%20site%3Aptt.cc/bbs/E-appliance/"
-      }
+  {
+    "id": "vacuum-plusminuszero-xjc-g040",
+    "category": "vacuum",
+    "brand": "Plus Minus Zero",
+    "model": "XJC-G040",
+    "name": "輕量無線吸塵器（台灣公司貨）",
+    "rank": 35,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "price": {
+      "currency": "TWD",
+      "amount": 4811,
+      "converted": 4811,
+      "basis": "retailer_current",
+      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-04 午後人工覆核：momo選定主品號本輪公開價4811元，原生直接購買/放入購物車皆啟用。 原頁活動期間 : 11/01 00:00~11/15 23:59（來源精度到分鐘）。 不扣個人化回饋或贈品。"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "不需固定安裝；使用隨附原廠AC適配器充電，依原廠說明選擇平穩乾燥位置收納。未列到府安裝服務。"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMAX3NA900JT0RG/000001_1773215570.jpg",
+    "buyUrl": "https://www.momoshop.com.tw/product/14743779",
+    "buyLabel": "momo官方直營",
+    "specs": [
+      "類型：充電式無線乾式吸塵器，可組合直立／手持；台灣公司貨XJC-G040",
+      "馬達／吸頭：無刷直流馬達；地板吸頭可水平伸入家具下並轉向，並非濕拖或洗地機",
+      "續航：充飽標準模式約57分鐘、強力約16分鐘、超強力約11分鐘；不同檔位與使用條件不能混比",
+      "集塵：0.45L集塵杯；G040專用濾網與耗材需依型號選購",
+      "充電：約2.5小時；鋰離子電池，原廠AC適配器輸入100–240V／50–60Hz／0.6A，輸出DC15V／1.0A",
+      "尺寸：手提組件高40.7 × 寬10 × 深13.4 cm；裝長吸頭＋地板吸頭高96.5 × 寬22 × 深13.4 cm，依官方明示軸序",
+      "重量：手提組件約0.8 kg，裝長吸頭＋地板吸頭約1.2 kg；含收納架組重量約2.3 kg，不當整機操作重量",
+      "使用環境：原廠規格5–35°C；電源線約1.8m",
+      "配件：變壓器、鐵製立架、電池、刷頭、說明書及保固卡依所選momo單一規格頁；加購商品不算隨附",
+      "售後：台灣總代理群光電子，所選通路1年保固；官方維修客服0800-066-006，耗材及備品可向官方客服查詢"
+    ],
+    "description": "補充既有XJC-Y011以外的輕量乾式清掃選擇。完整長管／地板吸頭組約1.2kg，適合重視拿取與搬運負擔的日常毛髮、碎屑清理；與大容量、高功率或具洗地功能的機款分開比較。這是2023台灣上市機型的本輪補收，不稱為2026新發表。",
+    "pros": [
+      "長管與地板吸頭組約1.2kg，手提組件約0.8kg，重量邊界明確",
+      "約2.5小時充電，標準57／強力16／超強力11分鐘可按用途比較",
+      "台灣官方完整規格與在地維修入口可核，momo官方直營可購"
+    ],
+    "cons": [
+      "0.45L集塵杯較小，大面積清潔需更頻繁清空",
+      "57分鐘是標準模式，超強力模式約11分鐘",
+      "乾式清掃無濕拖／自動集塵；地毯與重污需求宜先現場試用吸頭阻力與清潔效率"
+    ],
+    "bestFor": "需要輕量拿取、上下樓搬動或小空間日常乾式清掃，並願意手動清理集塵杯與濾網的人。",
+    "recommendation": "作為輕量乾式清掃的補充比較；保留較低價的XJC-Y011，按整機重量、強力檔續航與集塵容量選擇，不以日系品牌或外觀代替吸力與地毯實測。",
+    "releaseDate": "2023",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-30",
+      "note": "已人工查BigGo、FindPrice的XJC-G040比價與可信新品原頁；比價頁混有濾網、電池與私人拍賣，未取得可追溯時間的同款可信新品價格歷史。momo4831是本日10/16–10/31公開單件價，只作現價；PChome直營4941已售完，官方5490補貨中；PTT2000二手及4000私人贈品轉售均排除。不用現價或搜尋摘要製造史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-30",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"XJC-G040\" site:mobile01.com/topicdetail.php",
+          "queryUrl": "https://www.google.com/search?q=%22XJC-G040%22%20site%3Amobile01.com/topicdetail.php"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "\"XJC-G040\" site:ptt.cc/bbs/E-appliance/",
+          "queryUrl": "https://www.google.com/search?q=%22XJC-G040%22%20site%3Aptt.cc/bbs/E-appliance/"
+        }
+      ]
+    },
+    "score": 80,
+    "voltage": "台灣官方XJC-G040原廠AC適配器輸入100–240V、50/60Hz、0.6A；輸出DC15V、1.0A。使用所附台灣公司貨充電器。",
+    "warranty": "所選momo官方直營頁1年保固；台灣總代理群光電子，官方維修客服0800-066-006，保留購買憑證。未將未重新確認的登錄延長保固當基本保固。",
+    "tags": [
+      "輕量乾式",
+      "手持／直立",
+      "1.2kg整機",
+      "0.45L",
+      "台灣公司貨",
+      "非洗地機"
     ]
-  },
-  "score": 80,
-  "voltage": "台灣官方XJC-G040原廠AC適配器輸入100–240V、50/60Hz、0.6A；輸出DC15V、1.0A。使用所附台灣公司貨充電器。",
-  "warranty": "所選momo官方直營頁1年保固；台灣總代理群光電子，官方維修客服0800-066-006，保留購買憑證。未將未重新確認的登錄延長保固當基本保固。",
-  "tags": [
-    "輕量乾式",
-    "手持／直立",
-    "1.2kg整機",
-    "0.45L",
-    "台灣公司貨",
-    "非洗地機"
-  ]
-}
+  }
 ]);
 })();

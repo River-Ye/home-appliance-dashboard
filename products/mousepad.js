@@ -22,7 +22,8 @@
       "amount": 499,
       "converted": 499,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 Chrome 原頁核對所選台灣新品版本公開售價；不扣會員、信用卡、點數或加購優惠。"
+      "confidence": "2026-08-31 Chrome 原頁核對所選台灣新品版本公開售價；不扣會員、信用卡、點數或加購優惠。",
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
     },
     "installation": {
       "status": "not_stated",
@@ -30,7 +31,7 @@
     },
     "image": "https://store.logitech.tw/cdn/shop/products/desk-mat-709232.jpg?v=1752142078&width=1220",
     "buyUrl": "https://store.logitech.tw/collections/%E6%BB%91%E9%BC%A0%E5%A2%8A%E5%92%8C%E6%A1%8C%E5%A2%8A/products/deskmat",
-    "buyLabel": "Logitech 台灣官方商城",
+    "buyLabel": "Logitech 台灣官方商城（來源待確認）",
     "specs": [
       "類型：布面滑鼠墊；DESK MAT - Studio Series 956-000045",
       "表面材質：100% 回收聚酯纖維表面與內層（占整品重量16%）",
@@ -214,16 +215,16 @@
       "amount": 1190,
       "converted": 1190,
       "basis": "retailer_current",
-      "confidence": "PChome 24h購物 2026-10-19 同型號新品公開價；未扣會員券、點數或信用卡回饋。",
-      "note": "通路明示 G840 黑色 900×400×3mm，但未列製造商料號；購前請核對 943-000781。"
+      "confidence": "2026-11-04 Chrome核對官方所選SKU單件公開主價與可購控制項，不扣會員券、信用卡、點數或其他版本優惠。",
+      "note": "Chrome主商品G840超大型布面遊戲滑鼠墊明示943-000781與1190元、加入購物車；精確黑色900×400×3mm，同價改連可核完整料號的官方來源。"
     },
     "installation": {
       "status": "not_stated",
       "note": "成品滑鼠墊，無固定配線或到府安裝；桌面空間與滑鼠感測相容性需自行確認。"
     },
     "image": "https://store.logitech.tw/cdn/shop/products/g840-455396.jpg?v=1729180679&width=1220",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DCANOI-A900IUK5M",
-    "buyLabel": "PChome 24h購物",
+    "buyUrl": "https://store.logitech.tw/products/g840?variant=40438095970327",
+    "buyLabel": "Logi 台灣官方旗艦店",
     "specs": [
       "類型：布面長桌墊；G840 XL 黑色 943-000781",
       "表面材質：布面",
@@ -503,7 +504,8 @@
       "amount": 199,
       "converted": 199,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 Chrome 原頁核對所選台灣新品版本公開售價；不扣會員、信用卡、點數或加購優惠。"
+      "confidence": "2026-08-31 Chrome 原頁核對所選台灣新品版本公開售價；不扣會員、信用卡、點數或加購優惠。",
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
     },
     "installation": {
       "status": "not_stated",
@@ -511,7 +513,7 @@
     },
     "image": "https://store.logitech.tw/cdn/shop/products/mouse-pad-988065.jpg?v=1729179550&width=1220",
     "buyUrl": "https://store.logitech.tw/collections/%E6%BB%91%E9%BC%A0%E5%A2%8A%E5%92%8C%E6%A1%8C%E5%A2%8A/products/mousepad",
-    "buyLabel": "Logitech 台灣官方商城",
+    "buyLabel": "Logitech 台灣官方商城（來源待確認）",
     "specs": [
       "類型：布面滑鼠墊；MOUSE PAD - Studio Series 956-000031",
       "表面材質：100% 回收聚酯纖維表面與內層（占整品重量13%）",
@@ -599,7 +601,8 @@
       "amount": 1190,
       "converted": 1190,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 Chrome 原頁核對所選台灣新品版本公開售價；不扣會員、信用卡、點數或加購優惠。"
+      "confidence": "2026-08-31 Chrome 原頁核對所選台灣新品版本公開售價；不扣會員、信用卡、點數或加購優惠。",
+      "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。"
     },
     "installation": {
       "status": "not_stated",
@@ -607,7 +610,7 @@
     },
     "image": "https://store.logitech.tw/cdn/shop/products/product-233626.jpg?v=1729180193&width=1220",
     "buyUrl": "https://store.logitech.tw/products/largemousepad",
-    "buyLabel": "Logitech 台灣官方商城",
+    "buyLabel": "Logitech 台灣官方商城（來源待確認）",
     "specs": [
       "類型：布面滑鼠墊；943-000735",
       "表面材質：布面",
@@ -983,7 +986,8 @@
       "amount": 330,
       "converted": 330,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 Chrome選定PChome單張M新品公開330元，不扣會員、信用卡或滿額優惠。"
+      "confidence": "2026-08-31 Chrome選定PChome單張M新品公開330元，不扣會員、信用卡或滿額優惠。",
+      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
     },
     "installation": {
       "status": "not_stated",
@@ -991,7 +995,7 @@
     },
     "image": "https://img.pchome.com.tw/cs/items/DCBF0P1900JSQH3/000001_1773050971.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBF0P-1900JSQH3",
-    "buyLabel": "PChome 24h 購物",
+    "buyLabel": "PChome 24h 購物（原通路缺貨，查看供貨）",
     "specs": [
       "類型：布面滑鼠墊；Pro Glide M 灰色",
       "表面材質：微編織紋理布料",
@@ -1079,7 +1083,8 @@
       "amount": 3390,
       "converted": 3390,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 Chrome實際選定台灣新品版本公開售價；不扣會員、信用卡、點數或滿額優惠。"
+      "confidence": "2026-08-31 Chrome實際選定台灣新品版本公開售價；不扣會員、信用卡、點數或滿額優惠。",
+      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
     },
     "installation": {
       "status": "not_stated",
@@ -1087,7 +1092,7 @@
     },
     "image": "https://img.pchome.com.tw/cs/items/DCBF0PA900HJZTL/000001_1718096079.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBF0P-A900HJZTL",
-    "buyLabel": "PChome 24h 購物",
+    "buyLabel": "PChome 24h 購物（原通路缺貨，查看供貨）",
     "specs": [
       "類型：玻璃滑鼠墊；Atlas 黑色 RZ02-04890100-R3M1",
       "表面材質：強化玻璃",
@@ -1272,7 +1277,8 @@
       "amount": 899,
       "converted": 899,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 Chrome實際選定台灣新品版本公開售價；不扣會員、信用卡、點數或滿額優惠。"
+      "confidence": "2026-08-31 Chrome實際選定台灣新品版本公開售價；不扣會員、信用卡、點數或滿額優惠。",
+      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
     },
     "installation": {
       "status": "not_stated",
@@ -1280,7 +1286,7 @@
     },
     "image": "https://img.pchome.com.tw/cs/items/DCBF0PA900C1ABF/000001_1639473258.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBF0P-A900C1ABF",
-    "buyLabel": "PChome 24h 購物",
+    "buyLabel": "PChome 24h 購物（原通路缺貨，查看供貨）",
     "specs": [
       "類型：布面長桌墊；Pro Glide XXL RZ02-03332300-R3M1",
       "表面材質：超細緻編織紋理布料",
@@ -1464,7 +1470,8 @@
       "amount": 690,
       "converted": 690,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 Chrome實際選定台灣新品版本公開售價；不扣會員、信用卡、點數或滿額優惠。"
+      "confidence": "2026-08-31 Chrome實際選定台灣新品版本公開售價；不扣會員、信用卡、點數或滿額優惠。",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "installation": {
       "status": "not_stated",
@@ -1472,7 +1479,7 @@
     },
     "image": "https://img.pchome.com.tw/cs/items/DSBC0XA900BY2DP/000001_1635933389.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSBC0X-A900BY2DP",
-    "buyLabel": "PChome 24h 購物",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "類型：硬質滑鼠墊；ROG Strix Slice 黑面版本",
       "表面材質：聚碳酸酯硬表面",
@@ -1560,7 +1567,8 @@
       "amount": 1290,
       "converted": 1290,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 Chrome實際選定台灣新品版本公開售價；不扣會員、信用卡、點數或滿額優惠。"
+      "confidence": "2026-08-31 Chrome實際選定台灣新品版本公開售價；不扣會員、信用卡、點數或滿額優惠。",
+      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
     },
     "installation": {
       "status": "not_stated",
@@ -1568,7 +1576,7 @@
     },
     "image": "https://img.pchome.com.tw/cs/items/DSBC0XA900J2M18/000001_1784019335.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSBC0X-A900J2M18",
-    "buyLabel": "PChome 24h 購物",
+    "buyLabel": "PChome 24h 購物（原通路缺貨，查看供貨）",
     "specs": [
       "類型：布面長桌墊；ROG Sheath II XXL 黑色",
       "表面材質：具散熱設計的柔軟織布",
@@ -1656,7 +1664,8 @@
       "amount": 990,
       "converted": 990,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 Chrome實際選定台灣新品版本公開售價；不扣會員、信用卡、點數或滿額優惠。"
+      "confidence": "2026-08-31 Chrome實際選定台灣新品版本公開售價；不扣會員、信用卡、點數或滿額優惠。",
+      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
     },
     "installation": {
       "status": "not_stated",
@@ -1664,7 +1673,7 @@
     },
     "image": "https://img.pchome.com.tw/cs/items/DSBC0XA900IOI5R/000001_1784019311.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSBC0X-A900IOI5R",
-    "buyLabel": "PChome 24h 購物",
+    "buyLabel": "PChome 24h 購物（原通路缺貨，查看供貨）",
     "specs": [
       "類型：布面長桌墊；ROG Scabbard II Arctic Gray XXL 灰白版",
       "表面材質：具特殊塗層的織布",
@@ -1752,7 +1761,8 @@
       "amount": 1790,
       "converted": 1790,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 Chrome實際選定台灣新品版本公開售價；不扣會員、信用卡、點數或滿額優惠。"
+      "confidence": "2026-08-31 Chrome實際選定台灣新品版本公開售價；不扣會員、信用卡、點數或滿額優惠。",
+      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
     },
     "installation": {
       "status": "not_stated",
@@ -1760,7 +1770,7 @@
     },
     "image": "https://img.pchome.com.tw/cs/items/DCANCAA900K5SPD/000001_1782730349.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCANCA-A900K5SPD",
-    "buyLabel": "PChome 24h 購物",
+    "buyLabel": "PChome 24h 購物（原通路缺貨，查看供貨）",
     "specs": [
       "類型：布面滑鼠墊；ROG Hone Control Ace L Vitality Edition 黃色",
       "表面材質：高摩擦控制型布面",
@@ -1848,7 +1858,8 @@
       "amount": 3399,
       "converted": 3399,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 Chrome實際選定台灣新品版本公開售價；不扣會員、信用卡、點數或滿額優惠。"
+      "confidence": "2026-08-31 Chrome實際選定台灣新品版本公開售價；不扣會員、信用卡、點數或滿額優惠。",
+      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
     },
     "installation": {
       "status": "not_stated",
@@ -1856,7 +1867,7 @@
     },
     "image": "https://img.pchome.com.tw/cs/items/DCBF0PA900HEDG3/000001_1755496431.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBF0P-A900HEDG3",
-    "buyLabel": "PChome 24h 購物",
+    "buyLabel": "PChome 24h 購物（原通路缺貨，查看供貨）",
     "specs": [
       "類型：硬質滑鼠墊；Firefly V2 Pro 黑色原款",
       "表面材質：微紋理硬質表面；官方未列明聚合物成分",
@@ -1944,7 +1955,8 @@
       "amount": 2990,
       "converted": 2990,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 Chrome實際選定台灣新品版本公開售價；不扣會員、信用卡、點數或滿額優惠。"
+      "confidence": "2026-08-31 Chrome實際選定台灣新品版本公開售價；不扣會員、信用卡、點數或滿額優惠。",
+      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
     },
     "installation": {
       "status": "not_stated",
@@ -1952,7 +1964,7 @@
     },
     "image": "https://img.pchome.com.tw/cs/items/DCANCAA900GL0RG/000001_1786959815.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCANCA-A900GL0RG",
-    "buyLabel": "PChome 24h 購物",
+    "buyLabel": "PChome 24h 購物（原通路缺貨，查看供貨）",
     "specs": [
       "類型：玻璃滑鼠墊；ROG Moonstone Ace L 黑色",
       "表面材質：9H鋼化玻璃與霧面塗層",
@@ -2040,7 +2052,8 @@
       "amount": 247,
       "converted": 247,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 Chrome實際選定台灣新品版本公開售價；不扣會員、信用卡、點數或滿額優惠。"
+      "confidence": "2026-08-31 Chrome實際選定台灣新品版本公開售價；不扣會員、信用卡、點數或滿額優惠。",
+      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
     },
     "installation": {
       "status": "not_stated",
@@ -2048,7 +2061,7 @@
     },
     "image": "https://img.pchome.com.tw/cs/items/DCAN3CA900JLLIO/000001_1767161587.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAN3C-A900JLLIO",
-    "buyLabel": "PChome 24h 購物",
+    "buyLabel": "PChome 24h 購物（原通路缺貨，查看供貨）",
     "specs": [
       "類型：布面滑鼠墊；MP-LMWBK 純黑，非水玉黑MP-LMWDBK",
       "表面材質：聚酯纖維布面",
@@ -2232,7 +2245,8 @@
       "amount": 1099,
       "converted": 1099,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 Chrome原頁核對所選版本新品公開售價；不扣會員、信用卡、點數或加購優惠。"
+      "confidence": "2026-08-31 Chrome原頁核對所選版本新品公開售價；不扣會員、信用卡、點數或加購優惠。",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "installation": {
       "status": "not_stated",
@@ -2240,7 +2254,7 @@
     },
     "image": "https://img.pchome.com.tw/cs/items/DCBANWA900HACFX/000001_1709718759.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBANW-A900HACFX",
-    "buyLabel": "PChome 24h購物",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "類型：布面長桌墊；HP 205 8X597AA，灰面黑底",
       "表面材質：rPET聚酯纖維",
@@ -2328,7 +2342,8 @@
       "amount": 399,
       "converted": 399,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 Chrome原頁核對所選版本新品公開售價；不扣會員、信用卡、點數或加購優惠。"
+      "confidence": "2026-08-31 Chrome原頁核對所選版本新品公開售價；不扣會員、信用卡、點數或加購優惠。",
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
     },
     "installation": {
       "status": "not_stated",
@@ -2336,7 +2351,7 @@
     },
     "image": "https://www.ikea.com.tw/dairyfarm/tw/images/982/1198278_PE904000_S4.webp",
     "buyUrl": "https://www.ikea.com.tw/en/products/children%27s-small-furniture-eat---study/children%27s-study-furniture---accessories/blaskata-art-40569523",
-    "buyLabel": "IKEA台灣官方商城",
+    "buyLabel": "IKEA台灣官方商城（來源待確認）",
     "specs": [
       "類型：布面長桌墊；BLÅSKATA 405.695.23，黑灰圖案",
       "表面材質：100%再生聚酯纖維",
@@ -2424,7 +2439,8 @@
       "amount": 999,
       "converted": 999,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 Chrome原頁核對所選版本新品公開售價；不扣會員、信用卡、點數或加購優惠。"
+      "confidence": "2026-08-31 Chrome原頁核對所選版本新品公開售價；不扣會員、信用卡、點數或加購優惠。",
+      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
     },
     "installation": {
       "status": "not_stated",
@@ -2432,7 +2448,7 @@
     },
     "image": "https://img.pchome.com.tw/cs/items/DCANY8A900K3QVK/000001_1781182181.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCANY8-A900K3QVK",
-    "buyLabel": "PChome 24h購物",
+    "buyLabel": "PChome 24h購物（原通路缺貨，查看供貨）",
     "specs": [
       "類型：玻璃滑鼠墊；DMP300曜石黑",
       "表面材質：微蝕刻強化玻璃",
@@ -2520,7 +2536,8 @@
       "amount": 1150,
       "converted": 1150,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 Chrome原頁核對所選版本新品公開售價；不扣會員、信用卡、點數或加購優惠。"
+      "confidence": "2026-08-31 Chrome原頁核對所選版本新品公開售價；不扣會員、信用卡、點數或加購優惠。",
+      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
     },
     "installation": {
       "status": "not_stated",
@@ -2528,7 +2545,7 @@
     },
     "image": "https://img.pchome.com.tw/cs/items/DSBC0XA900I3UV4/000001_1782373479.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSBC0X-A900I3UV4",
-    "buyLabel": "PChome 24h購物",
+    "buyLabel": "PChome 24h購物（原通路缺貨，查看供貨）",
     "specs": [
       "類型：控制型布面滑鼠墊；G-SR III L",
       "表面材質：ComfortGlide 布面",
@@ -2713,7 +2730,8 @@
       "amount": 1088,
       "converted": 1088,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 Chrome原頁核對所選版本新品公開售價；不扣會員、信用卡、點數或加購優惠。"
+      "confidence": "2026-08-31 Chrome原頁核對所選版本新品公開售價；不扣會員、信用卡、點數或加購優惠。",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "installation": {
       "status": "not_stated",
@@ -2721,7 +2739,7 @@
     },
     "image": "https://img.pchome.com.tw/cs/items/DSBC0XA900BQ9CG/000001_1770817342.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSBC0X-A900BQ9CG",
-    "buyLabel": "PChome 24h購物",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "類型：控制取向布面滑鼠墊；XXL長桌墊",
       "表面材質：QcK微織布料",
@@ -2810,7 +2828,8 @@
       "amount": 1390,
       "converted": 1390,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 Chrome原頁核對所選版本新品公開售價；不扣會員、信用卡、點數或加購優惠。"
+      "confidence": "2026-08-31 Chrome原頁核對所選版本新品公開售價；不扣會員、信用卡、點數或加購優惠。",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "installation": {
       "status": "not_stated",
@@ -2818,7 +2837,7 @@
     },
     "image": "https://img.pchome.com.tw/cs/items/DSBC0XA900IHN91/000001_1782733003.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSBC0X-A900IHN91",
-    "buyLabel": "PChome 24h購物",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "類型：速度取向布面滑鼠墊；Speed L",
       "表面材質：尼龍混紡編織表面",
@@ -2986,199 +3005,199 @@
       ]
     }
   },
-{
-  "id": "mousepad-razer-atlas-pro",
-  "category": "mousepad",
-  "brand": "Razer",
-  "model": "RZ02-05760100-R3M1",
-  "name": "Atlas Pro 黑色 500×400mm 超薄強化玻璃滑鼠墊",
-  "type": "glass",
-  "variantFamily": "Razer Atlas Pro",
-  "rank": 32,
-  "budget": "premium",
-  "channel": "tw",
-  "score": 88,
-  "price": {
-    "currency": "TWD",
-    "amount": 4590,
-    "converted": 4590,
-    "basis": "retailer_current",
-    "confidence": "2026-10-23 Chrome實頁：黑色RZ02-05760100-R3M1主商品4590、可加購物車，1間RazerStore有庫存且可配送台灣。"
+  {
+    "id": "mousepad-razer-atlas-pro",
+    "category": "mousepad",
+    "brand": "Razer",
+    "model": "RZ02-05760100-R3M1",
+    "name": "Atlas Pro 黑色 500×400mm 超薄強化玻璃滑鼠墊",
+    "type": "glass",
+    "variantFamily": "Razer Atlas Pro",
+    "rank": 32,
+    "budget": "premium",
+    "channel": "tw",
+    "score": 88,
+    "price": {
+      "currency": "TWD",
+      "amount": 4590,
+      "converted": 4590,
+      "basis": "retailer_current",
+      "confidence": "2026-10-23 Chrome實頁：黑色RZ02-05760100-R3M1主商品4590、可加購物車，1間RazerStore有庫存且可配送台灣。"
+    },
+    "image": "https://medias-p1.phoenix.razer.com/sys-master-phoenix-images-container/h57/h91/10049737130014/atlas-pro-black-2-500x500.png",
+    "buyUrl": "https://www.razer.com/tw-zh/gaming-mouse-mats/razer-atlas-pro/RZ02-05760100-R3M1",
+    "buyLabel": "Razer 台灣官方商店（黑色）",
+    "installation": {
+      "status": "not_stated",
+      "note": "平放於清潔平整桌面，清除硬物及碎屑後再放置；玻璃搬運避免碰撞。"
+    },
+    "specs": [
+      "類型：玻璃電競滑鼠墊，黑色RZ02-05760100-R3M1",
+      "表面材質：強化玻璃，2μm微蝕刻表面",
+      "表面特性：低摩擦高速向，針對光學感測器設計；不以品牌耐刮宣傳等同不會破裂",
+      "底材／防滑：全覆蓋防滑橡膠底",
+      "尺寸：寬 500 x 長 400 mm",
+      "厚度：1.9 mm",
+      "重量：620 g",
+      "邊緣處理：CNC加工圓弧邊緣",
+      "清潔保養：先清桌面與鼠腳碎屑，軟布擦拭；官方建議原配或同等PTFE鼠腳，避免玻璃鼠腳互磨",
+      "供電／功能：被動玻璃墊，無RGB、USB或充電功能",
+      "隨附配件：玻璃鼠墊與產品資訊指南；護臂及替換鼠腳另購"
+    ],
+    "description": "原Atlas後的新一代玻璃墊，面積增至500×400mm且總厚1.9mm，620g較方便移動。適合偏高速滑感，但仍可能有鼠腳摩擦聲、皮膚黏附與額外護臂需求。",
+    "pros": [
+      "1.9mm低邊緣與CNC圓角",
+      "官方exact SKU資料確認620g",
+      "500×400mm與全底橡膠防滑"
+    ],
+    "cons": [
+      "4590價格高，偏控制向玩家需先試",
+      "玻璃較易放大灰塵摩擦聲並增加鼠腳耗材需求",
+      "皮膚仍可能黏附，護臂效果因人而異且需另購"
+    ],
+    "bestFor": "接受快速低阻力滑感，願意清潔鼠腳與玻璃表面的FPS或瞄準練習使用者。",
+    "recommendation": "Atlas新代參考；先確認500×400mm空間、PTFE鼠腳及玻璃滑感，不以超薄或更貴推定瞄準必定更準。",
+    "releaseDate": "2026-05-15",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-23",
+      "note": "已讀Razer台灣黑色4590、FindPrice exact黑色4031／momo4131／通路4590候選；較低價為即時索引且混券活動、白色及未留歷史日期，未找到可驗證本SKU公開歷史最低，不能把索引現價當史低。"
+    },
+    "voltage": "被動玻璃滑鼠墊，不需供電；沒有RGB或無線充電。",
+    "warranty": "Razer官方Mouse Mats列1年有限保固；台灣RazerStore購買並依有效憑證及RMA條款辦理。",
+    "tags": [
+      "電競",
+      "Atlas新世代",
+      "玻璃",
+      "500×400mm",
+      "1.9mm",
+      "台灣官方通路"
+    ],
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-23",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"RZ02-05760100-R3M1\" (problem OR issue OR failure OR 問題 OR 故障)",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22RZ02-05760100-R3M1%22%20%28problem%20OR%20issue%20OR%20failure%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%29"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"RZ02-05760100-R3M1\" (problem OR issue OR failure OR 問題 OR 故障)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22RZ02-05760100-R3M1%22%20%28problem%20OR%20issue%20OR%20failure%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%29"
+        }
+      ]
+    }
   },
-  "image": "https://medias-p1.phoenix.razer.com/sys-master-phoenix-images-container/h57/h91/10049737130014/atlas-pro-black-2-500x500.png",
-  "buyUrl": "https://www.razer.com/tw-zh/gaming-mouse-mats/razer-atlas-pro/RZ02-05760100-R3M1",
-  "buyLabel": "Razer 台灣官方商店（黑色）",
-  "installation": {
-    "status": "not_stated",
-    "note": "平放於清潔平整桌面，清除硬物及碎屑後再放置；玻璃搬運避免碰撞。"
-  },
-  "specs": [
-    "類型：玻璃電競滑鼠墊，黑色RZ02-05760100-R3M1",
-    "表面材質：強化玻璃，2μm微蝕刻表面",
-    "表面特性：低摩擦高速向，針對光學感測器設計；不以品牌耐刮宣傳等同不會破裂",
-    "底材／防滑：全覆蓋防滑橡膠底",
-    "尺寸：寬 500 x 長 400 mm",
-    "厚度：1.9 mm",
-    "重量：620 g",
-    "邊緣處理：CNC加工圓弧邊緣",
-    "清潔保養：先清桌面與鼠腳碎屑，軟布擦拭；官方建議原配或同等PTFE鼠腳，避免玻璃鼠腳互磨",
-    "供電／功能：被動玻璃墊，無RGB、USB或充電功能",
-    "隨附配件：玻璃鼠墊與產品資訊指南；護臂及替換鼠腳另購"
-  ],
-  "description": "原Atlas後的新一代玻璃墊，面積增至500×400mm且總厚1.9mm，620g較方便移動。適合偏高速滑感，但仍可能有鼠腳摩擦聲、皮膚黏附與額外護臂需求。",
-  "pros": [
-    "1.9mm低邊緣與CNC圓角",
-    "官方exact SKU資料確認620g",
-    "500×400mm與全底橡膠防滑"
-  ],
-  "cons": [
-    "4590價格高，偏控制向玩家需先試",
-    "玻璃較易放大灰塵摩擦聲並增加鼠腳耗材需求",
-    "皮膚仍可能黏附，護臂效果因人而異且需另購"
-  ],
-  "bestFor": "接受快速低阻力滑感，願意清潔鼠腳與玻璃表面的FPS或瞄準練習使用者。",
-  "recommendation": "Atlas新代參考；先確認500×400mm空間、PTFE鼠腳及玻璃滑感，不以超薄或更貴推定瞄準必定更準。",
-  "releaseDate": "2026-05-15",
-  "historicalLow": {
-    "status": "not_found",
-    "amount": null,
-    "currency": "TWD",
-    "converted": null,
-    "sourceUrl": "",
-    "sourceTitle": "",
-    "evidenceSnippet": "",
-    "sourceKind": "not_found",
-    "confidence": "not_found",
-    "checkedAt": "2026-10-23",
-    "note": "已讀Razer台灣黑色4590、FindPrice exact黑色4031／momo4131／通路4590候選；較低價為即時索引且混券活動、白色及未留歷史日期，未找到可驗證本SKU公開歷史最低，不能把索引現價當史低。"
-  },
-  "voltage": "被動玻璃滑鼠墊，不需供電；沒有RGB或無線充電。",
-  "warranty": "Razer官方Mouse Mats列1年有限保固；台灣RazerStore購買並依有效憑證及RMA條款辦理。",
-  "tags": [
-    "電競",
-    "Atlas新世代",
-    "玻璃",
-    "500×400mm",
-    "1.9mm",
-    "台灣官方通路"
-  ],
-  "issueResearch": {
-    "status": "no_common_issue",
-    "checkedAt": "2026-10-23",
-    "summary": "截至查核日，查無達門檻的集中負評／災情",
-    "issues": [],
-    "checkedSources": [
-      {
-        "platform": "Reddit",
-        "targetHost": "reddit.com",
-        "query": "site:reddit.com \"RZ02-05760100-R3M1\" (problem OR issue OR failure OR 問題 OR 故障)",
-        "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22RZ02-05760100-R3M1%22%20%28problem%20OR%20issue%20OR%20failure%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%29"
-      },
-      {
-        "platform": "Mobile01",
-        "targetHost": "mobile01.com",
-        "query": "site:mobile01.com \"RZ02-05760100-R3M1\" (problem OR issue OR failure OR 問題 OR 故障)",
-        "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22RZ02-05760100-R3M1%22%20%28problem%20OR%20issue%20OR%20failure%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%29"
-      }
-    ]
+  {
+    "id": "mousepad-razer-gigantus-v2-pro-balance-xxl",
+    "category": "mousepad",
+    "brand": "Razer",
+    "model": "RZ02-05490700-R3M1",
+    "name": "Gigantus V2 Pro Balance XXL 黑色布質滑鼠墊",
+    "type": "cloth",
+    "variantFamily": "Razer Gigantus V2 Pro",
+    "rank": 33,
+    "budget": "premium",
+    "channel": "tw",
+    "score": 85,
+    "price": {
+      "currency": "TWD",
+      "amount": 3090,
+      "converted": 3090,
+      "basis": "retailer_current",
+      "confidence": "2026-10-23 Chrome實讀台灣RazerStore所選Balance XXL黑色完整SKU3090，可加入購物車並配送台灣；非L或3XL價格。"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "平放清潔桌面，自行安排鍵盤及滑鼠活動空間；無施工服務。"
+    },
+    "image": "https://assets3.razerzone.com/DNHk6ylIwQ8NMbuayy0QcskKcOw=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh18%2Fhd7%2F10411093164062%2Fgigantus-v2-pro-xxl-bal-2-500x500.png",
+    "buyUrl": "https://www.razer.com/tw-zh/gaming-mouse-mats/razer-gigantus-v2-pro/RZ02-05490700-R3M1",
+    "buyLabel": "RazerStore 台灣（Balance XXL 黑色）",
+    "specs": [
+      "類型：布質軟墊，Gigantus V2 Pro Balance XXL 黑色 RZ02-05490700-R3M1",
+      "表面材質：特殊編織布面，針對光學感測器最佳化",
+      "表面特性：Balance中等摩擦力、平衡速度與控制；非Control／Max Control／Speed／Max Speed版本",
+      "底材／防滑：專利GlideCore泡棉與防滑底座，泡棉硬度依速度型不同，不跨版本比較",
+      "尺寸：長 940 x 寬 410 mm",
+      "厚度：4 mm",
+      "重量：查不到",
+      "邊緣處理：低輪廓車縫包邊，可捲起且採防變形設計；不等於永久不翹邊保證",
+      "清潔保養：定期清除桌面與鼠腳髒污，避免粗糙刷具、高溫與強力摺折；exact XXL頁未提供機洗保證",
+      "供電／功能：被動鼠墊，無RGB、無USB與無線充電",
+      "隨附配件：鼠墊；所查完整SKU頁未另列工具或收納配件"
+    ],
+    "description": "Gigantus V2的明確新世代，加入依速度型設計的GlideCore泡棉與低包邊。選定Balance XXL延伸桌墊，保留舊V2，並將五種速度型分開看待，不把L尺寸的重量或評價套到XXL。",
+    "pros": [
+      "Balance中摩擦布面兼顧移動與停頓",
+      "940×410mm同時容納鍵盤與較大揮鼠範圍",
+      "台灣官方完整SKU可購與1年有限保固"
+    ],
+    "cons": [
+      "3090為高價布墊，仍會受鼠腳、汗漬及磨耗影響",
+      "原廠XXL淨重未標示；不可套用L尺寸或包裝重量",
+      "原頁Balance使用者有起步黏滯的手感評語，但未核定XXL完整SKU且未達跨站六人集中問題"
+    ],
+    "bestFor": "希望較大桌墊、接受中等摩擦與4mm泡棉的低DPI玩家。",
+    "recommendation": "Gigantus V2後繼參考；先比較Balance摩擦感與桌面空間，避免只依Pro名稱推定適合所有鼠腳與手感。",
+    "releaseDate": "2026-09-23",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-23",
+      "note": "已讀RazerStore台灣3090、全聯全電商exact3090與日本Sofmap13980日圓現價，另查完整SKU歷史價格；目前只得不同通路現價，未見可核驗公開時間序列，現價及外幣價格不當台灣史低。"
+    },
+    "voltage": "被動布質鼠墊，不需電力、插頭或變壓器。",
+    "warranty": "台灣RazerStore列滑鼠墊1年有限保固，依購買憑證及原廠耗損／人為損壞排除條款。",
+    "tags": [
+      "電競",
+      "Gigantus新世代",
+      "Balance",
+      "XXL",
+      "4mm",
+      "台灣公司貨"
+    ],
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-23",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"RZ02-05490700-R3M1\" (problem OR issue OR failure OR 問題 OR 故障)",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22RZ02-05490700-R3M1%22%20%28problem%20OR%20issue%20OR%20failure%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%29"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"RZ02-05490700-R3M1\" (problem OR issue OR failure OR 問題 OR 故障)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22RZ02-05490700-R3M1%22%20%28problem%20OR%20issue%20OR%20failure%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%29"
+        }
+      ]
+    }
   }
-}
-,{
-  "id": "mousepad-razer-gigantus-v2-pro-balance-xxl",
-  "category": "mousepad",
-  "brand": "Razer",
-  "model": "RZ02-05490700-R3M1",
-  "name": "Gigantus V2 Pro Balance XXL 黑色布質滑鼠墊",
-  "type": "cloth",
-  "variantFamily": "Razer Gigantus V2 Pro",
-  "rank": 33,
-  "budget": "premium",
-  "channel": "tw",
-  "score": 85,
-  "price": {
-    "currency": "TWD",
-    "amount": 3090,
-    "converted": 3090,
-    "basis": "retailer_current",
-    "confidence": "2026-10-23 Chrome實讀台灣RazerStore所選Balance XXL黑色完整SKU3090，可加入購物車並配送台灣；非L或3XL價格。"
-  },
-  "installation": {
-    "status": "not_stated",
-    "note": "平放清潔桌面，自行安排鍵盤及滑鼠活動空間；無施工服務。"
-  },
-  "image": "https://assets3.razerzone.com/DNHk6ylIwQ8NMbuayy0QcskKcOw=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh18%2Fhd7%2F10411093164062%2Fgigantus-v2-pro-xxl-bal-2-500x500.png",
-  "buyUrl": "https://www.razer.com/tw-zh/gaming-mouse-mats/razer-gigantus-v2-pro/RZ02-05490700-R3M1",
-  "buyLabel": "RazerStore 台灣（Balance XXL 黑色）",
-  "specs": [
-    "類型：布質軟墊，Gigantus V2 Pro Balance XXL 黑色 RZ02-05490700-R3M1",
-    "表面材質：特殊編織布面，針對光學感測器最佳化",
-    "表面特性：Balance中等摩擦力、平衡速度與控制；非Control／Max Control／Speed／Max Speed版本",
-    "底材／防滑：專利GlideCore泡棉與防滑底座，泡棉硬度依速度型不同，不跨版本比較",
-    "尺寸：長 940 x 寬 410 mm",
-    "厚度：4 mm",
-    "重量：查不到",
-    "邊緣處理：低輪廓車縫包邊，可捲起且採防變形設計；不等於永久不翹邊保證",
-    "清潔保養：定期清除桌面與鼠腳髒污，避免粗糙刷具、高溫與強力摺折；exact XXL頁未提供機洗保證",
-    "供電／功能：被動鼠墊，無RGB、無USB與無線充電",
-    "隨附配件：鼠墊；所查完整SKU頁未另列工具或收納配件"
-  ],
-  "description": "Gigantus V2的明確新世代，加入依速度型設計的GlideCore泡棉與低包邊。選定Balance XXL延伸桌墊，保留舊V2，並將五種速度型分開看待，不把L尺寸的重量或評價套到XXL。",
-  "pros": [
-    "Balance中摩擦布面兼顧移動與停頓",
-    "940×410mm同時容納鍵盤與較大揮鼠範圍",
-    "台灣官方完整SKU可購與1年有限保固"
-  ],
-  "cons": [
-    "3090為高價布墊，仍會受鼠腳、汗漬及磨耗影響",
-    "原廠XXL淨重未標示；不可套用L尺寸或包裝重量",
-    "原頁Balance使用者有起步黏滯的手感評語，但未核定XXL完整SKU且未達跨站六人集中問題"
-  ],
-  "bestFor": "希望較大桌墊、接受中等摩擦與4mm泡棉的低DPI玩家。",
-  "recommendation": "Gigantus V2後繼參考；先比較Balance摩擦感與桌面空間，避免只依Pro名稱推定適合所有鼠腳與手感。",
-  "releaseDate": "2026-09-23",
-  "historicalLow": {
-    "status": "not_found",
-    "amount": null,
-    "currency": "TWD",
-    "converted": null,
-    "sourceUrl": "",
-    "sourceTitle": "",
-    "evidenceSnippet": "",
-    "sourceKind": "not_found",
-    "confidence": "not_found",
-    "checkedAt": "2026-10-23",
-    "note": "已讀RazerStore台灣3090、全聯全電商exact3090與日本Sofmap13980日圓現價，另查完整SKU歷史價格；目前只得不同通路現價，未見可核驗公開時間序列，現價及外幣價格不當台灣史低。"
-  },
-  "voltage": "被動布質鼠墊，不需電力、插頭或變壓器。",
-  "warranty": "台灣RazerStore列滑鼠墊1年有限保固，依購買憑證及原廠耗損／人為損壞排除條款。",
-  "tags": [
-    "電競",
-    "Gigantus新世代",
-    "Balance",
-    "XXL",
-    "4mm",
-    "台灣公司貨"
-  ],
-  "issueResearch": {
-    "status": "no_common_issue",
-    "checkedAt": "2026-10-23",
-    "summary": "截至查核日，查無達門檻的集中負評／災情",
-    "issues": [],
-    "checkedSources": [
-      {
-        "platform": "Reddit",
-        "targetHost": "reddit.com",
-        "query": "site:reddit.com \"RZ02-05490700-R3M1\" (problem OR issue OR failure OR 問題 OR 故障)",
-        "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22RZ02-05490700-R3M1%22%20%28problem%20OR%20issue%20OR%20failure%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%29"
-      },
-      {
-        "platform": "Mobile01",
-        "targetHost": "mobile01.com",
-        "query": "site:mobile01.com \"RZ02-05490700-R3M1\" (problem OR issue OR failure OR 問題 OR 故障)",
-        "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22RZ02-05490700-R3M1%22%20%28problem%20OR%20issue%20OR%20failure%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%29"
-      }
-    ]
-  }
-}
 ]);
 })();

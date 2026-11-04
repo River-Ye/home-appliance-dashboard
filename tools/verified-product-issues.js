@@ -13,6 +13,46 @@ function isValidReviewDate(value) {
 
 const verifiedRows = [
 {
+  "id": "monitor-asus-xg32uqwms",
+  "checkedAt": "2026-11-04",
+  "summary": "跨ROG Forum與Reddit至少6名同型號使用者回報暗部壓黑／HDR陰影細節不足；已有預覽韌體改善及個案修復回報。",
+  "title": "暗部壓黑／HDR陰影細節不足",
+  "detail": "部分回報與MCM101、高刷新率及DP／HDMI不同設定相關，不能推定每台或所有韌體都會發生。原討論後續已有preview韌體：PureVanilla18回報本人240Hz/HDR已修好，sucka回報黑階及灰階均勻度改善，但仍提部分HDR偏暗及VRR閃爍疑慮；公開正式版本與所有情境修復未確認。",
+  "reportCount": 6,
+  "sources": [
+    {
+      "platform": "ROG Forum",
+      "title": "XG32UQWMS HDR暗部原廠社群討論與後續韌體",
+      "url": "https://rog-forum.asus.com/t5/gaming-monitors/regarding-the-xg32uqwms-i-hope-an-asus-staff-member-can-help-me/td-p/1156725",
+      "authors": [
+        "Niya1688",
+        "halloherbert",
+        "PureVanilla18",
+        "ROGojlio6n72eq6"
+      ],
+      "evidenceSnippet": "Niya1688：自述買入XG32UQWMS後HDR陰影過暗、細節欠佳，附螢幕與曲線圖片並詢問新韌體。；halloherbert：剛收到XG32UQWMS，用原附DP線在240Hz看到暗部壓黑；120Hz以下較正常，桌面、電影與遊戲都遇到。；PureVanilla18：明說自己的XG32UQWMS也有同樣黑階問題；關DSC後最多144Hz並稱暫時改善，等待韌體。；ROGojlio6n72eq6：自述兩台XG32UQWMS都在SDR/HDR有暗部問題；Lagom在240Hz只辨認第7格以上，60Hz能見第1格，另提60Hz電流聲。"
+    },
+    {
+      "platform": "Reddit",
+      "title": "HDR過暗，正文更正XG32UQWMS",
+      "url": "https://www.reddit.com/r/OLED_Gaming/comments/1w859au/how_to_fix_xg32ucwmg_hdr_its_super_bad_and_dark/",
+      "authors": [
+        "Beautiful_Worth7284"
+      ],
+      "evidenceSnippet": "Beautiful_Worth7284：原標題誤寫UCWMG，但樓主正文明確更正XG32UQWMS；自述HDR嚴重壓黑且亮景偏暗，調整仍不滿意而準備退貨。"
+    },
+    {
+      "platform": "Reddit",
+      "title": "XG32UQWMS PS5 Pro黑階壓縮",
+      "url": "https://www.reddit.com/r/OLED_Gaming/comments/1wn41wo/problems_with_black_crush_on_asus_xg32uqwms_ps5/",
+      "authors": [
+        "Electrical-Story8528"
+      ],
+      "evidenceSnippet": "Electrical-Story8528：由LG C1換到新買XG32UQWMS接PS5 Pro，覺得黑階壓縮很嚴重，嘗試多種設定仍未解決，HDR未達期待。"
+    }
+  ]
+},
+{
   "id": "dryer-sanlux-asd-100ua",
   "checkedAt": "2026-10-28",
   "summary": "至少6名ASD-100UA使用者跨Mobile01與Yahoo原商品評價回報運轉噪音偏大，部分另述咚咚聲，客廳與夜間使用需先評估。",

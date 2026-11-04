@@ -121,11 +121,11 @@
       "converted": 3390,
       "basis": "retailer_current",
       "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-01 羅技台灣原頁所選型號公開單件價3390元，可加入購物車；折前價、其他顏色及個人點數/優惠不混用。"
+      "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。 2026-11-01 羅技台灣原頁所選型號公開單件價3390元，可加入購物車；折前價、其他顏色及個人點數/優惠不混用。"
     },
     "image": "https://store.logitech.tw/cdn/shop/products/pro-x-superlight-2-463287.jpg?v=1770258821",
     "buyUrl": "https://store.logitech.tw/products/superlight2?variant=40632667013143",
-    "buyLabel": "羅技 Logi 台灣網路旗艦店（白色）",
+    "buyLabel": "羅技 Logi 台灣網路旗艦店（白色）（來源待確認）",
     "specs": [
       "類型：一般平置輕量競技滑鼠，白色910-006641，普通第二代；非DEX、SE或COMPACT",
       "握型／慣用手：對稱本體搭左側鍵，右手使用側鍵較方便；偏抓握／指握仍須依手掌大小試握",
@@ -223,11 +223,11 @@
       "converted": 3490,
       "basis": "retailer_current",
       "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-02 羅技台灣原頁所選型號公開單件價3490元，可加車；不採折前價、其他版本或個人折扣。"
+      "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。 2026-11-02 羅技台灣原頁所選型號公開單件價3490元，可加車；不採折前價、其他版本或個人折扣。"
     },
     "image": "https://store.logitech.tw/cdn/shop/files/High_Resolution_JPG-PROXSUPERLIGHT2DEXTOPBlack.jpg?v=1770258964",
     "buyUrl": "https://store.logitech.tw/products/superlight2dex",
-    "buyLabel": "羅技 Logi 台灣網路旗艦店（黑色）",
+    "buyLabel": "羅技 Logi 台灣網路旗艦店（黑色）（來源待確認）",
     "specs": [
       "類型：一般平置右手非對稱競技滑鼠，黑色910-007360；DEX與普通SUPERLIGHT2為不同握形版本",
       "握型／慣用手：右手專用非對稱支撐，背部較高；掌握或抓握需依手掌大小試握",
@@ -503,7 +503,8 @@
       "amount": 4990,
       "converted": 4990,
       "basis": "retailer_current",
-      "confidence": "2026-09-01 Chrome重新直接開啟名人3C獨立商品頁，畫面確認黑色RZ01-05330100-R3A1、4990、促銷至9/30及購買按鈕；不需重選顏色。原INPAD12802重開會清掉黑色選取，改名人3C還原選定版本。三井MAR101黑色6290非此次可驗低價；PChome DCBF01-A900IZY50黑白禁選、有貨通知，排除現售連結。图片保留已Chrome視覺確認黑色本體的INPAD500px。名人頁框DOM落在左欄，採整頁Chrome截圖人工確認售價與SKU，不聲稱從錯誤frame擷取。"
+      "confidence": "2026-09-01 Chrome重新直接開啟名人3C獨立商品頁，畫面確認黑色RZ01-05330100-R3A1、4990、促銷至9/30及購買按鈕；不需重選顏色。原INPAD12802重開會清掉黑色選取，改名人3C還原選定版本。三井MAR101黑色6290非此次可驗低價；PChome DCBF01-A900IZY50黑白禁選、有貨通知，排除現售連結。图片保留已Chrome視覺確認黑色本體的INPAD500px。名人頁框DOM落在左欄，採整頁Chrome截圖人工確認售價與SKU，不聲稱從錯誤frame擷取。",
+      "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。"
     },
     "installation": {
       "status": "not_stated",
@@ -511,7 +512,7 @@
     },
     "image": "https://www.inpad.com.tw/data/goods/gallery/202508/1754894482151200184.jpg",
     "buyUrl": "https://www.mren.com.tw/product/show.php?id=040471802140",
-    "buyLabel": "名人3C 台灣新品通路",
+    "buyLabel": "名人3C 台灣新品通路（來源待確認）",
     "specs": [
       "類型：一般平置電競滑鼠，DeathAdder V4 Pro 黑色；完整SKU RZ01-05330100-R3A1",
       "握型／慣用手：右手人體工學",
@@ -864,8 +865,8 @@
       "status": "not_stated",
       "note": "透過藍牙配對，接收器需另購；中鍵自訂需Windows/macOS的Options+。"
     },
-    "buyUrl": "https://www.tk3c.com/product/245490",
-    "buyLabel": "燦坤線上購物",
+    "buyUrl": "https://store.logitech.tw/products/m350s?variant=40641445527575",
+    "buyLabel": "Logi 台灣官方旗艦店",
     "specs": [
       "類型：一般平置薄型便攜滑鼠，M350S玫瑰粉910-006996；不是前代M350",
       "握型／慣用手：扁平對稱三鍵布局，無側鍵；薄形不一定適合長時間掌握，需試握",
@@ -905,11 +906,11 @@
     ],
     "price": {
       "currency": "TWD",
-      "amount": 799,
-      "converted": 799,
+      "amount": 699,
+      "converted": 699,
       "basis": "retailer_current",
-      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
-      "note": "2026-10-31 燦坤所選M350s玫瑰粉／910-006996主商品799元，市價與會員價皆為799元，可加車；不是個人化會員折扣價。"
+      "confidence": "2026-11-04 Chrome核對官方所選SKU單件公開主價與可購控制項，不扣會員券、信用卡、點數或其他版本優惠。",
+      "note": "Chrome原頁玫瑰粉radio為checked，主SKU910-006996，刪除799／主價699，加入購物車啟用。"
     },
     "image": "https://www.cdn-tkec.tw/image/product/202401/245490_M.jpg?t=20250513174631",
     "releaseDate": "2023-09-06",
@@ -1788,7 +1789,8 @@
       "amount": 888,
       "converted": 888,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 Chrome重新開啟獨立單品DSAR0S-1900HRWXS，主商品網路价888/1990，數量1、加入購物車與立即購買可用，PChome倉出24小時；主商品沒有加購條件，相關鍵盤套裝1880/2380/4580另列。不扣滿2000折200或銀行回饋。舊搜尋摘要1790不是目前原頁價。"
+      "confidence": "2026-08-31 Chrome重新開啟獨立單品DSAR0S-1900HRWXS，主商品網路价888/1990，數量1、加入購物車與立即購買可用，PChome倉出24小時；主商品沒有加購條件，相關鍵盤套裝1880/2380/4580另列。不扣滿2000折200或銀行回饋。舊搜尋摘要1790不是目前原頁價。",
+      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
     },
     "installation": {
       "status": "not_stated",
@@ -1796,7 +1798,7 @@
     },
     "image": "https://img.pchome.com.tw/cs/items/DSAR0S1900HRWXS/000001_1787591611.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSAR0S-1900HRWXS",
-    "buyLabel": "PChome 24h 台灣新品",
+    "buyLabel": "PChome 24h 台灣新品（原通路缺貨，查看供貨）",
     "specs": [
       "類型：一般平置多工辦公無線滑鼠，M720 Triathlon黑色910-004793單品",
       "握型／慣用手：右手全尺寸掌心支撐、橡膠塗層；不據此保證消除手腕不適",
@@ -2179,7 +2181,8 @@
       "amount": 499,
       "converted": 499,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 Chrome已選莫蘭紫910-005856，旗艦店499、可加入購物車。"
+      "confidence": "2026-08-31 Chrome已選莫蘭紫910-005856，旗艦店499、可加入購物車。",
+      "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。"
     },
     "installation": {
       "status": "not_stated",
@@ -2187,7 +2190,7 @@
     },
     "image": "https://store.logitech.tw/cdn/shop/products/g102-rgb-650925.jpg?v=1737302398&width=1220",
     "buyUrl": "https://store.logitech.tw/products/g102?variant=40018407653399",
-    "buyLabel": "羅技 Logi 台灣網路旗艦店",
+    "buyLabel": "羅技 Logi 台灣網路旗艦店（來源待確認）",
     "specs": [
       "類型：一般平置有線電競滑鼠，G102 LIGHTSYNC第二代莫蘭紫910-005856，非Prodigy",
       "握型／慣用手：一般平置握持；官方未列指定握型與手掌尺寸，側鍵可達性需實際試握",
@@ -2810,7 +2813,8 @@
       "amount": 3290,
       "converted": 3290,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 Chrome 核對台灣旗艦店 MX ERGO S、SKU 910-007262、公開價3290與可加入購物車；單品非 Plus／套裝。"
+      "confidence": "2026-08-31 Chrome 核對台灣旗艦店 MX ERGO S、SKU 910-007262、公開價3290與可加入購物車；單品非 Plus／套裝。",
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
     },
     "installation": {
       "status": "not_stated",
@@ -2818,7 +2822,7 @@
     },
     "image": "https://store.logitech.tw/cdn/shop/files/ERGOs_01.jpg?v=1770260024&width=1220",
     "buyUrl": "https://store.logitech.tw/products/ergos?variant=41655899422743",
-    "buyLabel": "羅技 Logi 台灣網路旗艦店",
+    "buyLabel": "羅技 Logi 台灣網路旗艦店（來源待確認）",
     "specs": [
       "類型：右手拇指軌跡球，MX Ergo S 910-007262；非舊 MX Ergo／北美 Plus",
       "握型／慣用手：右手拇指控制球體，金屬傾斜底板可調至 20°；不保證所有手型適合",
@@ -2905,7 +2909,8 @@
       "amount": 1490,
       "converted": 1490,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 Chrome 核對官方規格頁導向台灣旗艦店 M575S，石墨灰已選、SKU 910-007033、公開價1490且加入購物車可用；不採頁尾其他滑鼠起價。"
+      "confidence": "2026-08-31 Chrome 核對官方規格頁導向台灣旗艦店 M575S，石墨灰已選、SKU 910-007033、公開價1490且加入購物車可用；不採頁尾其他滑鼠起價。",
+      "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。"
     },
     "installation": {
       "status": "not_stated",
@@ -2913,7 +2918,7 @@
     },
     "image": "https://store.logitech.tw/cdn/shop/files/High_Resolution_JPG-ERGO_M575S_Graphite_Blue_Ball_TOP_DOWN.jpg?v=1770260254&width=1220",
     "buyUrl": "https://store.logitech.tw/products/m575s?variant=41655872323607",
-    "buyLabel": "羅技 Logi 台灣網路旗艦店",
+    "buyLabel": "羅技 Logi 台灣網路旗艦店（來源待確認）",
     "specs": [
       "類型：右手拇指軌跡球，ERGO M575S 石墨灰；台灣販售 SKU 910-007033，非舊 M575",
       "握型／慣用手：右手拇指操控球體、固定角度底座，無 MX Ergo S 傾角調整",
@@ -3267,11 +3272,12 @@
       "amount": 6390,
       "converted": 6390,
       "basis": "retailer_current",
-      "confidence": "2026-10-23：台灣官方旗艦店910-007881黑色6390，原生variant available=true；非X2或桃紅色。"
+      "confidence": "2026-10-23：台灣官方旗艦店910-007881黑色6390，原生variant available=true；非X2或桃紅色。",
+      "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。"
     },
     "image": "https://cdn.shopify.com/s/files/1/0568/7787/5223/files/High_Resolution_PNG-PRO_X3_Superstrike_Black_3QTR_L_WH_1500x1500px_1.jpg?v=1789980952",
     "buyUrl": "https://store.logitech.tw/products/pro-x3-superstrike?variant=45533947297815",
-    "buyLabel": "羅技 Logi 台灣網路旗艦店（黑色）",
+    "buyLabel": "羅技 Logi 台灣網路旗艦店（黑色）（來源待確認）",
     "installation": {
       "status": "not_stated",
       "note": "自行配對、連線並按需求安裝G HUB；POWERPLAY另購。"
@@ -3549,6 +3555,106 @@
         }
       ]
     }
+  },
+{
+  "id": "mouse-razer-basilisk-v3-35k",
+  "category": "mouse",
+  "brand": "Razer",
+  "model": "RZ01-05230100-R3M1",
+  "name": "Basilisk V3 35K 有線黑色 RZ01-05230100-R3M1",
+  "rank": 35,
+  "budget": "mid",
+  "channel": "tw",
+  "type": "standard",
+  "score": 85,
+  "topPick": false,
+  "price": {
+    "currency": "TWD",
+    "amount": 2290,
+    "converted": 2290,
+    "basis": "retailer_current",
+    "confidence": "2026-11-04 Native Chrome核PChome DCBF01-A900HWOG2黑色有線35K主商品網路價2290、數量可選、下單再折主按鈕155/156可用。",
+    "note": "單台黑色有線35K版；11/04頁面另列滿1990享88折，下單再折未在主價顯示，不預扣，依結帳確認；未扣會員、信用卡、點數。"
+  },
+  "installation": {
+    "status": "not_stated",
+    "note": "有線USB-A連接電腦；無到府安裝，無電池、充電座或無線接收器。自訂功能依作業系統及Synapse版本。"
+  },
+  "image": "https://assets3.razerzone.com/m2rnV8bKUMCKhqtJV56bQQ9s5P4=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fhe4%2Fh63%2F9822107926558%2Fbasilisk-v3-35k-2-500x500.png",
+  "buyUrl": "https://24h.pchome.com.tw/prod/DCBF01-A900HWOG2",
+  "buyLabel": "PChome 24h購物",
+  "specs": [
+    "類型：standard，右手人體工學有線滑鼠；Basilisk V3 35K黑色，RZ01-05230100-R3M1",
+    "握型／慣用手：右手設計、有拇指托；握型是否合適需按手長實試",
+    "連線：Razer Speedflex USB-A有線；沒有藍牙或2.4GHz無線",
+    "感測器／解析度：第2代Razer Focus Pro 35K光學感測器，最高35000DPI、70G加速度",
+    "回報率：官方手冊Performance畫面提供125／500／1000Hz選項",
+    "按鍵／滾輪：官方技術表11個可程式按鍵；行銷為13種自訂控制，含四向HyperScroll傾斜滾輪、段落／自由滾動及Synapse可調Smart-Reel；第3代光學微動標稱9000萬次",
+    "供電／續航：USB有線供電，無電池續航；官方手冊要求電腦有可用USB-A埠，未明列電壓／電流",
+    "系統／軟體：Synapse 4；本次官方手冊列Windows10 64-bit以上、macOS15且Apple Silicon M系列以上；5組板載設定，進階燈效與功能受軟體版本影響",
+    "尺寸：長 130.0 x 寬 75.4 x 高 42.5 mm",
+    "重量：101 g",
+    "隨附配件：滑鼠固定Speedflex線、重要產品資訊指南；100%PTFE鼠腳；無無線接收器或充電配件",
+    "尺寸／重量備註：官方為約值，101g不含線材；Support寬75.4mm與台灣通路75.1mm不同，採官方，不混用。"
+  ],
+  "description": "Basilisk V3 35K將既有有線Basilisk V3升級為第2代35K感測器與可調Smart-Reel，保留右手拇指托、多鍵及RGB底光。它是有線版本，與已收錄的Basilisk V3 Pro 35K無線版分開比較；舊款並無官方停產明文。",
+  "pros": [
+    "右手拇指托、多鍵及四向自由／段落滾輪適合遊戲和長文件",
+    "35K Gen2感測器、光學微動，約101g不含線材",
+    "台灣可信新品通路、兩年保固；有線供電不用充電"
+  ],
+  "cons": [
+    "101g加固定線材不適合追求極輕或完全無線的人",
+    "Synapse及進階燈效需配合作業系統；Reddit有Smart-Reel板載不保留、DPI／滾輪設定、macOS偵測等零星使用個案，未達同版本跨站六人門檻",
+    "官方曾在2026/5/7 Beta更新修正此35K款DPI步進50而非1的問題；歷史修復不能保證所有系統完全無軟體問題"
+  ],
+  "bestFor": "偏好G502類右手拇指托、多功能滾輪與有線穩定供電，可接受較重滑鼠的人。",
+  "recommendation": "有線多鍵參考：主價2290元，以同款黑色35K新品比較，不拿舊26K、Pro無線或搭座套組價格混比。購前先試握型與重量，Synapse需求及板載／燈效功能宜先核對。",
+  "releaseDate": "2024-10-01",
+  "voltage": "USB-A有線供電；官方手冊要求電腦有可用USB-A埠，未明示電壓／電流，無直接市電輸入或AC變壓器需求。",
+  "warranty": "台灣新品通路列兩年保固，官方手冊亦列2 YEAR WARRANTY；需保留發票並依台灣通路／代理商流程，官方保固以產品銷售地區為限。",
+  "tags": [
+    "有線",
+    "右手人體工學",
+    "35K",
+    "多功能滾輪",
+    "光學微動",
+    "RGB",
+    "遊戲／辦公"
+  ],
+  "issueResearch": {
+    "status": "no_common_issue",
+    "checkedAt": "2026-11-04",
+    "summary": "截至查核日，查無達門檻的集中負評／災情",
+    "issues": [],
+    "checkedSources": [
+      {
+        "platform": "Reddit",
+        "targetHost": "reddit.com",
+        "query": "\"RZ01-05230100-R3M1\" site:reddit.com",
+        "queryUrl": "https://www.google.com/search?q=%22RZ01-05230100-R3M1%22%20site%3Areddit.com"
+      },
+      {
+        "platform": "Mobile01",
+        "targetHost": "mobile01.com",
+        "query": "\"RZ01-05230100-R3M1\" site:mobile01.com",
+        "queryUrl": "https://www.google.com/search?q=%22RZ01-05230100-R3M1%22%20site%3Amobile01.com"
+      }
+    ]
+  },
+  "historicalLow": {
+    "status": "found",
+    "amount": 2012,
+    "currency": "TWD",
+    "converted": 2012,
+    "sourceUrl": "https://ftp.coolpc.tw/tw/shop/misc/razer-all-20251212ad/",
+    "sourceTitle": "原價屋2025/12/12 Razer年度促銷公告",
+    "evidenceSnippet": "活動列表明示Basilisk V3 35K RZ01-05230100-R3M1由2890降2012，活動範圍全台門市及蝦皮、售完為止；1212是舊RZ01-04000100-R3M1。",
+    "sourceKind": "retailer_promo",
+    "confidence": "medium",
+    "checkedAt": "2026-11-04",
+    "note": "可驗證同黑色有線35K的歷史促銷低點2012元，未再扣92–97折限量券或回饋；不保證涵蓋所有期間與通路。FindPrice1961為未能回原Coupang頁核條件的現價索引（轉址403），不採為史低；普通V3/Pro/組合包不混比。"
   }
+}
 ]);
 })();

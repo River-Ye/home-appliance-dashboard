@@ -1,20 +1,20 @@
 {
   "summary": {
     "checkedAt": "2026-11-04T00:00:00+08:00",
-    "total": 1238,
-    "researchedThisRun": 3,
-    "found": 354,
-    "missing": 884,
+    "total": 1256,
+    "researchedThisRun": 25,
+    "found": 362,
+    "missing": 894,
     "byConfidence": {
-      "official": 188,
-      "not_found": 881,
+      "official": 187,
+      "not_found": 891,
       "retailer_explicit": 23,
       "credible_article": 52,
-      "high": 73,
-      "medium": 18,
+      "high": 81,
+      "medium": 19,
       "unknown": 3
     },
-    "scopeNote": "2026-11-04晚間僅對新增U3226Q、DDL902-MFVP-11HWS、CGR-E-ODYSSEY150完成上市查核；U3226Q採官方全球2026-02-24發售公告，其餘兩款找不到可信明確日期。既有1235筆逐筆研究與真實日期原樣保留。"
+    "sourcePolicy": "本輪僅新增/身份更正商品完成獨立上市日研究；既有逐筆證據及實際查核日期保留，不將來源維護範圍當成重新人工研究。"
   },
   "results": [
     {
@@ -1320,40 +1320,6 @@
       "reason": "Official family launch explicitly covers the assigned models and month.",
       "checkedAt": "2026-08-28",
       "auditDisposition": "corrected"
-    },
-    {
-      "id": "soundbar-extra-15-dmaanj-a900hzbzv",
-      "category": "soundbar",
-      "brand": "Bose",
-      "model": "Smart Soundbar 600 Ultra",
-      "name": "家庭娛樂揚聲器 600 Ultra",
-      "previousReleaseDate": "2022-10-10",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "\"Bose Smart Soundbar 600 Ultra\" release date launch launched available 上市 發售 開賣 推出",
-      "auditQueries": [
-        "\"Bose Smart Soundbar 600 Ultra\" release date launch launched available",
-        "\"Bose Smart Soundbar 600 Ultra\" 上市 發售 開賣 推出"
-      ],
-      "sourceKind": "not_found",
-      "reason": "Re-searched the exact model and checked the old source plus original product/retailer pages. The former date was not supported by an admissible exact-model launch/release statement (often a mismatched product, search-snippet claim, article publication date, support/manual date or generic listing), so it is conservatively degraded to 找不到.",
-      "checkedAt": "2026-08-28",
-      "auditDisposition": "degraded_to_not_found",
-      "checkedSources": [
-        {
-          "url": "https://24h.pchome.com.tw/prod/DMAANJ-A900HZBZV",
-          "title": "Bose Smart Soundbar 600 - PChome 24h",
-          "outcome": "Re-opened the official exact-model specification/product page. It confirms the model but contains no explicit launch/release statement; specification and document dates were excluded."
-        },
-        {
-          "url": "https://www.lbj.tw/BJ/Query.aspx?k=DMAANJ-A900HZBZV",
-          "title": "Bose Smart Soundbar 600 Ultra exact-model retailer/price page",
-          "outcome": "Re-opened this trusted retailer or price-comparison page for the exact model. It did not contain an admissible explicit launch/release statement; listing and price-history dates were excluded."
-        }
-      ]
     },
     {
       "id": "soundbar-extra-16-dmaalna900hp6mr",
@@ -7398,28 +7364,6 @@
       "auditQueries": [
         "\"LG CordZero A9 Air A7-LITE\" (release OR launch OR 上市 OR 發售)",
         "site:lg.com \"CordZero A9 Air A7-LITE\" (release OR launch OR 上市 OR 發售)"
-      ]
-    },
-    {
-      "id": "vacuum-extra-12-dmax6f-a900k2nsv",
-      "category": "vacuum",
-      "brand": "LG",
-      "model": "CordZero A9 Air",
-      "name": "CordZero A9 Air 輕量美型無線吸塵器雪霧白",
-      "previousReleaseDate": "2018-12-18",
-      "releaseDate": "2024-06-11",
-      "sourceUrl": "https://www.lg.com/tw/about-lg/press-and-media/lg-vacuum-cleaner-new-launch-20240611/",
-      "sourceTitle": "LG 全新 CordZero A9X／A9 Air 無線吸塵器系列上市",
-      "evidenceSnippet": "LG Taiwan's official 2024-06-11 release explicitly introduces the CordZero A9 Air line; the former 2018 source covered the older A9 family, not A9 Air.",
-      "confidence": "official",
-      "query": "\"LG CordZero A9 Air\" (release OR launch OR 上市 OR 發售)",
-      "sourceKind": "official_family_launch",
-      "reason": "原值 2018-12-18 的官方公告是舊款 CordZero A9，並非 A9 Air；台灣官方於 2024-06-11 明確推出 A9 Air 系列，因此更正。",
-      "checkedAt": "2026-08-28",
-      "auditDisposition": "corrected",
-      "auditQueries": [
-        "\"LG CordZero A9 Air\" (release OR launch OR 上市 OR 發售)",
-        "site:lg.com \"CordZero A9 Air\" (release OR launch OR 上市 OR 發售)"
       ]
     },
     {
@@ -15374,40 +15318,6 @@
       "auditQueries": [
         "\"JURA E8 15646\" (上市 OR 發售 OR 發表 OR 新品 OR launch OR released OR debut)",
         "\"JURA E8 15646\" (\"release date\" OR \"launch date\" OR 上市日 OR 發售日)"
-      ]
-    },
-    {
-      "id": "coffee-jura-ena-4-15344",
-      "category": "coffee",
-      "brand": "JURA",
-      "model": "ENA 4 15344",
-      "name": "JURA ENA 4 Full Metropolitan Black (EA) 全自動咖啡機",
-      "previousReleaseDate": "找不到",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "\"JURA ENA 4 15344\" (上市 OR 發售 OR 發表 OR 新品 OR launch OR released OR debut)",
-      "sourceKind": "not_found_after_full_recheck",
-      "reason": "重新執行 2 組 exact-model 上市／發售查詢，並開啟檢查 2 個原始品牌／可信新品通路頁；頁面只確認產品、規格或銷售資訊，未見把明確日期連結到 ENA 4 15344 或其明示涵蓋變體的上市／發售敘述，因此維持「找不到」。",
-      "checkedAt": "2026-08-28",
-      "auditDisposition": "confirmed_not_found",
-      "checkedSources": [
-        {
-          "url": "https://24h.pchome.com.tw/prod/DMAT00-A900BQG97",
-          "title": "Jura ENA 4 家用全自動咖啡機 - PChome 24h購物",
-          "outcome": "HTTP 200；頁面可開啟，但未能在可讀文字中確認 exact model 或明確上市／發售日期。"
-        },
-        {
-          "url": "https://de.jura.com/de/produkte-haushalt/kaffeevollautomaten/ena-4-full-metropolitan-black-ea-15344",
-          "title": "JURA Kaffeemaschinen online kaufen - JURA Deutschland",
-          "outcome": "HTTP 200；頁面可開啟，但未能在可讀文字中確認 exact model 或明確上市／發售日期。"
-        }
-      ],
-      "auditQueries": [
-        "\"JURA ENA 4 15344\" (上市 OR 發售 OR 發表 OR 新品 OR launch OR released OR debut)",
-        "\"JURA ENA 4 15344\" (\"release date\" OR \"launch date\" OR 上市日 OR 發售日)"
       ]
     },
     {
@@ -28164,28 +28074,6 @@
       "auditDisposition": "confirmed_not_found"
     },
     {
-      "id": "monitorarm-extra-19-dcbb62a900fv397",
-      "category": "monitorarm",
-      "brand": "EGTC",
-      "model": "EGTC743Q",
-      "name": "三螢幕快拆式穿夾兩用鋁合金支架",
-      "previousReleaseDate": "找不到",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "sourceKind": "not_found",
-      "query": "\"EGTC\" \"EGTC743Q\" (上市 OR 發售 OR launch OR release OR available)",
-      "auditQueries": [
-        "\"EGTC\" \"EGTC743Q\" (上市 OR 發售 OR launch OR release OR available)",
-        "\"EGTC743Q\" (\"上市日\" OR \"發售日\" OR \"発売日\" OR \"available from\" OR \"release date\")"
-      ],
-      "reason": "Re-searched the exact model with two independent launch/date query forms and reviewed plausible official, retailer and media candidates. No admissible exact-model launch or release statement was found; listing, support, manual, firmware, certification, promotion and preorder dates were excluded.",
-      "checkedAt": "2026-08-28",
-      "auditDisposition": "confirmed_not_found"
-    },
-    {
       "id": "monitorarm-extra-20-dcbakfa900hafjo",
       "category": "monitorarm",
       "brand": "易控王",
@@ -38017,6 +37905,613 @@
           "outcome": "價格及售後可核，沒有明示上市日期。"
         }
       ]
+    },
+    {
+      "id": "soundbar-bose-smart-soundbar",
+      "category": "soundbar",
+      "brand": "Bose",
+      "model": "Smart Soundbar",
+      "name": "Smart Soundbar 家庭娛樂聲霸",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2024-09-18",
+      "sourceUrl": "https://assets.bosecreative.com/m/287802ee870eb633/original/Bose_Smart_Soundbar_and_Bose_Personal_Surround_Sound_Press_Release_FINAL_rev_engUS.pdf",
+      "sourceTitle": "Bose Smart Soundbar and Personal Surround Sound — official press release",
+      "evidenceSnippet": "September 18, 2024；The Bose Smart Soundbar is available for purchase starting today on www.bose.com.",
+      "confidence": "high",
+      "sourceKind": "official_press_release",
+      "checkedAt": "2026-11-04",
+      "query": "\"Bose Smart Soundbar\" release available September 2024",
+      "auditQueries": [
+        "\"Bose Smart Soundbar\" release available September 2024",
+        "\"Bose Smart Soundbar\" 上市 台灣"
+      ],
+      "reason": "官方發布與當日開賣聲明；記全球/美國Bose.com開賣日，並非宣稱台灣同日上市。",
+      "checkedSources": [
+        {
+          "url": "https://assets.bosecreative.com/m/287802ee870eb633/original/Bose_Smart_Soundbar_and_Bose_Personal_Surround_Sound_Press_Release_FINAL_rev_engUS.pdf",
+          "title": "Bose official Smart Soundbar press release",
+          "outcome": "明示2024-09-18當日可購買"
+        },
+        {
+          "url": "https://24h.pchome.com.tw/prod/DMAANJ-A900HZBZV",
+          "title": "PChome台灣授權Smart Soundbar單機",
+          "outcome": "確認台灣型號與現售頁，但無台灣獨立上市日"
+        }
+      ]
+    },
+    {
+      "id": "smartlock-fibre-fb70k",
+      "category": "smartlock",
+      "brand": "FIBRE",
+      "model": "FB70K",
+      "name": "FB70K 樸實六合一把手式指紋電子鎖",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"FB70K\" 上市 發售",
+      "auditQueries": [
+        "\"FB70K\" 上市 發售",
+        "site:fibrekey.com \"FB70K\" (推出 OR 上市 OR 發表)"
+      ],
+      "sourceKind": "not_found_after_manual_recheck",
+      "reason": "官方商品頁稱長年熱銷；2025-05-28官方文章為建案銷售中心開幕與安裝案例，雖寫全新升級但無產品實際發售年月日。不用文章日期、官網圖片檔名或2026型錄版本推上市日。",
+      "checkedAt": "2026-11-04",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.fibrekey.com/tw/ProductDetail/2/FB70K",
+          "title": "FIBRE官方FB70K商品頁",
+          "outcome": "沒有實際上市日期"
+        },
+        {
+          "url": "https://www.fibrekey.com/tw/BlogDetail/25/FIBRE-FB70K",
+          "title": "官方凱富建設銷售中心啟用文章",
+          "outcome": "開幕/案例日期不是型號上市日期"
+        }
+      ]
+    },
+    {
+      "id": "keyboard-keychron-k3-ultra-silent-red",
+      "category": "keyboard",
+      "brand": "Keychron",
+      "model": "KBKCK3UH6",
+      "name": "K3 Ultra 8K 75%矮軸三模機械鍵盤（黑色注音 K Pro靜音紅軸）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "https://www.keychron.com.tw/products/keychron-k3-ultra-8k-wireless-custom-mechanical-keyboard?variant=48471088234755",
+      "sourceTitle": "Keychron Taiwan K3 Ultra8K KBKCK3UH6 selected官方原頁",
+      "evidenceSnippet": "原頁選定黑色注音Keychron KPro靜音紅KBKCK3UH6，未明示此台灣SKU發售日期。",
+      "confidence": "not_found",
+      "reason": "Keychron官方2026-02-17募資新聞為全球MilkPOM軸系列，非台灣注音KPro靜音紅發售；台灣圖片建立日/店家上架日/手冊更新日均不能代替上市日。",
+      "query": "\"KBKCK3UH6\" 上市 發售",
+      "auditQueries": [
+        "\"KBKCK3UH6\" 上市 發售",
+        "\"K3 Ultra 8K\" launch release Keychron"
+      ],
+      "checkedAt": "2026-11-04",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.keychron.com.tw/products/keychron-k3-ultra-8k-wireless-custom-mechanical-keyboard?variant=48471088234755",
+          "title": "Keychron Taiwan selected SKU",
+          "outcome": "版本可核但未寫上市發售日。"
+        },
+        {
+          "url": "https://www.prweb.com/releases/keychron-launches-campaign-for-two-new-k3-low-profile-custom-keyboards-with-distinct-performance-philosophies-302689242.html",
+          "title": "Keychron官方供稿募資發表",
+          "outcome": "2026-02-17為全球系列募資launch，MilkPOM軸不移植為本台灣靜音紅版本上市。"
+        }
+      ]
+    },
+    {
+      "id": "coffee-jura-e6-15465",
+      "category": "coffee",
+      "brand": "JURA",
+      "model": "E6 15465",
+      "name": "JURA E6 Platin (NAC) 15465 全自動義式咖啡機",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"JURA E6\" \"15465\" (上市 OR 發售 OR 發表)",
+      "auditQueries": [
+        "\"JURA E6\" \"15465\" (上市 OR 發售 OR 發表)",
+        "site:tw.jura.com \"E6\" \"15465\" 上市"
+      ],
+      "sourceKind": "not_found_after_manual_recheck",
+      "reason": "原廠台灣exact 15465列型號生產年份2022，未說上市或發售日期；總代理當日價格與商品頁也未刊正式上市日期。不把型號生產年份、手冊印製日期、通路首次上架或促銷時間當上市日。",
+      "checkedAt": "2026-11-04",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://tw.jura.com/zh-TW/homeproducts/machines/e6-platin-nac-15465",
+          "title": "JURA台灣E6 Platin NAC 15465",
+          "outcome": "型號生產年份2022不是上市日期"
+        },
+        {
+          "url": "https://store.eurocafe.com.tw/SalePage/Index/9087138",
+          "title": "瑞技官方商城JURA E6",
+          "outcome": "現售價格/規格，未見實際上市日期"
+        },
+        {
+          "url": "https://tw.jura.com/-/media/global/pdf/manuals-na/Home/E6/E6-NAC/download_manual_e6_nac.pdf?sc_lang=en&la=en",
+          "title": "台灣原廠頁所鏈E6 NAC操作手冊",
+          "outcome": "技術/印製資料不作發售證據"
+        }
+      ]
+    },
+    {
+      "id": "monitorarm-ergograde-egtc743q",
+      "category": "monitorarm",
+      "brand": "ErgoGrade",
+      "model": "EGTC743Q",
+      "name": "快拆式穿夾兩用鋁合金三螢幕支架",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "https://www.ergograde.com/zh-TW/products/%E5%BF%AB%E6%8B%86%E5%BC%8F%E9%8B%81%E5%90%88%E9%87%91%E6%A1%8C%E4%B8%8A%E5%9E%8B%E4%B8%89%E8%9E%A2%E5%B9%95%E5%A4%9A%E5%8B%95%E5%90%91br%E8%9E%A2%E5%B9%95%E6%94%AF%E6%9E%B6egts743q-20200515220448",
+      "sourceTitle": "ErgoGrade EGTC743Q官方商品頁及原廠SPEC",
+      "evidenceSnippet": "官方主標題EGTC743Q及商品編號10TC743Q21A；未明示上市或發售日期。原廠PDF圖面日期2021/8/23(C)只作規格文件日期。",
+      "confidence": "not_found",
+      "reason": "已查正確品牌與exact model上市／發售，原頁及PDF均無明確上市日期；網址20200515220448與PDF製圖日期不能作上市日期。",
+      "query": "\"ErgoGrade EGTC743Q\" 上市 發售",
+      "auditQueries": [
+        "\"ErgoGrade EGTC743Q\" 上市 發售",
+        "\"ErgoGrade EGTC743Q\" 上市 發售 日期"
+      ],
+      "checkedAt": "2026-11-04",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.ergograde.com/zh-TW/products/%E5%BF%AB%E6%8B%86%E5%BC%8F%E9%8B%81%E5%90%88%E9%87%91%E6%A1%8C%E4%B8%8A%E5%9E%8B%E4%B8%89%E8%9E%A2%E5%B9%95%E5%A4%9A%E5%8B%95%E5%90%91br%E8%9E%A2%E5%B9%95%E6%94%AF%E6%9E%B6egts743q-20200515220448",
+          "title": "ErgoGrade EGTC743Q官方商品頁",
+          "outcome": "exact型號及現有商品主資訊可核，未寫發售日。"
+        },
+        {
+          "url": "https://cdn-general.cybassets.com/s/files/14308/ckeditor/attachments/%E5%B3%B0%E8%AA%A0SPEC-TC743Qc.pdf",
+          "title": "峰誠SPEC-TC743Qc官方規格PDF",
+          "outcome": "明示EGTC743Q與圖面日期2021/8/23(C)，未明示上市／發售，不移植日期。"
+        }
+      ]
+    },
+    {
+      "id": "monitor-samsung-ls32h704eacxzw",
+      "category": "monitor",
+      "brand": "Samsung",
+      "model": "LS32H704EACXZW",
+      "name": "ViewFinity S7 S70H 32吋4K VA螢幕（官方預購）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "https://news.samsung.com/tw/%E4%B8%89%E6%98%9F%E5%86%8D%E5%89%B5%E9%A1%AF%E7%A4%BA%E6%96%B0%E6%A8%99%E6%BA%96odyssey%E8%88%87viewfinity%E5%85%A8%E6%96%B0%E7%99%BB%E5%A0%B4-%E4%BB%A55k%EF%BC%8F6k%E8%B6%85%E9%AB%98%E8%A7%A3",
+      "sourceTitle": "Samsung台灣2026顯示器陣容新聞稿及S70H官方預購頁",
+      "evidenceSnippet": "2026/05/18新聞稿列S70H32吋，預計5月下旬起陸續在台上市，但註各機型實際上市依通路公告；本次官方主頁標11/27起陸續出貨。",
+      "confidence": "not_found",
+      "reason": "官方陣容預計上市月份並非本SKU確認發售日；主頁本輪預購出貨日、PChome使用者購買日期、手冊／驅動更新日期亦不能代替上市日，保持找不到。",
+      "query": "\"LS32H704EACXZW\" 上市 發售",
+      "auditQueries": [
+        "\"LS32H704EACXZW\" 上市 發售",
+        "\"S70H\" site:news.samsung.com/tw"
+      ],
+      "checkedAt": "2026-11-04",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://news.samsung.com/tw/%E4%B8%89%E6%98%9F%E5%86%8D%E5%89%B5%E9%A1%AF%E7%A4%BA%E6%96%B0%E6%A8%99%E6%BA%96odyssey%E8%88%87viewfinity%E5%85%A8%E6%96%B0%E7%99%BB%E5%A0%B4-%E4%BB%A55k%EF%BC%8F6k%E8%B6%85%E9%AB%98%E8%A7%A3",
+          "title": "2026/05/18官方陣容新聞",
+          "outcome": "只提供全陣容預計分批上市；未確認此SKU實際發售。"
+        },
+        {
+          "url": "https://www.samsung.com/tw/monitors/high-resolution/viewfinity-s7-s70h-32-inch-4k-uhd-hdr10-ls32h704eacxzw/",
+          "title": "Samsung台灣S70H32官方預購",
+          "outcome": "11/27起陸續出貨為本輪供貨安排，非上市證明。"
+        },
+        {
+          "url": "https://www.samsung.com/tw/support/model/LS32H704EACXZW/",
+          "title": "台灣官方完整SKU支援",
+          "outcome": "確定SKU與S32H704EAC對應；下載文件日期不採上市。"
+        }
+      ]
+    },
+    {
+      "id": "vacuum-lg-a7-litemop",
+      "category": "vacuum",
+      "brand": "LG",
+      "model": "A7-LITEMOP",
+      "name": "CordZero A9 Air 濕拖無線吸塵器｜雲朵白",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "checkedAt": "2026-11-04",
+      "query": "\"A7-LITEMOP\" 上市 發售",
+      "auditQueries": [
+        "\"A7-LITEMOP\" 上市 發售",
+        "site:lg.com/tw \"A7-LITEMOP\" 新聞 上市 發表",
+        "\"A7-LITEMOP\" release launch"
+      ],
+      "reason": "官方exact產品頁與momo沒有明示上市日期。2024-06-11 LG新聞明確連至A7-LITE，非A7-LITEMOP；2025-04-15論壇只是詢購，不當發售日；momo年度新機文案與頁面月份也不當上市日期。",
+      "checkedSources": [
+        {
+          "url": "https://www.lg.com/tw/vacuum-cleaners/cordless-vacuums/a7-litemop/",
+          "title": "LG Taiwan A7-LITEMOP exact product",
+          "outcome": "身份與規格明確，無上市日期"
+        },
+        {
+          "url": "https://www.lg.com/tw/about-lg/press-and-media/lg-vacuum-cleaner-new-launch-20240611/",
+          "title": "LG全系列吸塵器大升級2024-06-11",
+          "outcome": "明列A7-LITE，不採作MOP版上市日"
+        },
+        {
+          "url": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=9861645",
+          "title": "momo9861645 A7-LITEMOP",
+          "outcome": "無明示發售日；活動期間非上市日"
+        }
+      ]
+    },
+    {
+      "id": "monitor-aoc-cu34g4h-96",
+      "category": "monitor",
+      "brand": "AOC",
+      "model": "CU34G4H/96",
+      "name": "Gaming CU34G4H 34吋WQHD 200Hz Fast VA曲面螢幕",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "https://www.aoc.com/tw/gaming/monitors/cu34g4h_96",
+      "sourceTitle": "AOC台灣CU34G4H/96官方頁及當期原價屋促銷",
+      "evidenceSnippet": "官方只列手冊2026/5/6與驅動2026/1/30發布日；原價屋2026/10/28是促銷文章，沒有台灣/96正式上市文字。",
+      "confidence": "not_found",
+      "reason": "驅動／手冊及促銷發布日期不能當上市日；海外基型號新聞未確認同台灣尾碼發售，保持找不到。",
+      "query": "\"CU34G4H/96\" 上市 發售",
+      "auditQueries": [
+        "\"CU34G4H/96\" 上市",
+        "\"CU34G4H\" 台灣 上市"
+      ],
+      "checkedAt": "2026-11-04",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.aoc.com/tw/gaming/monitors/cu34g4h_96",
+          "title": "AOC台灣 CU34G4H/96完整規格",
+          "outcome": "無上市日期；支援檔案日期不採。"
+        },
+        {
+          "url": "https://ftp.coolpc.com.tw/tw/shop/monitor/aoc-monitor/",
+          "title": "原價屋2026/10/28 AOC萬聖促銷",
+          "outcome": "CU34G4H 7288降6888、10/26–11/15活動，僅當期促銷證據；主文章18800是另一型號CS24A/P。"
+        }
+      ]
+    },
+    {
+      "id": "waterheater-sakura-eh0810m6",
+      "category": "waterheater",
+      "brand": "SAKURA",
+      "model": "EH0810M6",
+      "name": "SAKURA EH0810M6 8加侖標準調溫儲熱式電熱水器",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found_after_exact_model_recheck",
+      "reason": "已查SAKURA官方exact商品頁/商城/所鏈手冊及完整型號上市/發售/發表搜尋，只能確認現行商品與新品推薦，未找到把明確日期連結至EH0810M6上市的敘述；不採手冊/促銷日期、官方API updatedAt或型號推年。",
+      "checkedAt": "2026-11-04",
+      "auditDisposition": "confirmed_not_found",
+      "query": "\"SAKURA\" \"EH0810M6\" (上市 OR 發售 OR 發表)",
+      "checkedSources": [
+        {
+          "url": "https://www.sakura.com.tw/Product/Content/8361",
+          "title": "台灣櫻花 EH0810M6",
+          "outcome": "完整同型號產品資料，但沒有明確上市/發售日。"
+        },
+        {
+          "url": "https://shop.sakura.com.tw/zh-TW/products/eh0810m6",
+          "title": "SAKURA官方商城EH0810M6",
+          "outcome": "可購現價與規格，不是上市日證據。"
+        },
+        {
+          "url": "https://buy.sakura.com.tw/files/17217/EH標準調溫系列_產品說明書.pdf",
+          "title": "櫻花標準調溫系列官方使用手冊",
+          "outcome": "逐目視確認EH0810M6型號與規格；文件日期不採上市。"
+        }
+      ]
+    },
+    {
+      "id": "mouse-razer-basilisk-v3-35k",
+      "category": "mouse",
+      "brand": "Razer",
+      "model": "RZ01-05230100-R3M1",
+      "name": "Basilisk V3 35K 有線黑色 RZ01-05230100-R3M1",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2024-10-01",
+      "sourceUrl": "https://www.gamespress.com/nl/MEDIA-ALERT-INTRODUCING-THE-RAZER-BASILISK-V3-PRO-35K-AND-RAZER-BASILI",
+      "sourceTitle": "Razer供稿GamesPress Basilisk V3 35K上市公告",
+      "evidenceSnippet": "Razer供稿區分wired Basilisk V3 35K與Pro無線，WHEN明示Available now, October01,2024；WHERE列Razer.com及零售商。",
+      "confidence": "high",
+      "reason": "採有線35K黑／白全球正式開賣日，非台灣區域首次到貨日；不以媒體發布日猜測，正文有明確Available now。",
+      "query": "\"Basilisk V3 35K\" October 1 2024 available",
+      "auditQueries": [
+        "\"Basilisk V3 35K\" site:press.razer.com",
+        "\"Basilisk V3 35K\" October 1 2024 available"
+      ],
+      "checkedAt": "2026-11-04",
+      "auditDisposition": "confirmed",
+      "checkedSources": [
+        {
+          "url": "https://www.gamespress.com/nl/MEDIA-ALERT-INTRODUCING-THE-RAZER-BASILISK-V3-PRO-35K-AND-RAZER-BASILI",
+          "title": "Razer原廠供稿",
+          "outcome": "正文明示有線款2024/10/1已可購。"
+        }
+      ]
+    },
+    {
+      "id": "dishwasher-sakura-e7683",
+      "category": "dishwasher",
+      "brand": "SAKURA",
+      "model": "E7683",
+      "name": "櫻花E7683 14人份半嵌式自動開門洗碗機",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found_after_exact_model_recheck",
+      "reason": "已查官方exact頁、官手冊及exact上市/發表查詢；2024AI展會報導同列E7683/E7783，但2023原討論已有E7683，不可用2024重複發表/文章日期假定首發；尚無可信明確首發敘述。",
+      "checkedAt": "2026-11-04",
+      "auditDisposition": "confirmed_not_found",
+      "query": "\"SAKURA\" \"E7683\" (上市 OR 發售 OR 發表)",
+      "checkedSources": [
+        {
+          "url": "https://www.sakura.com.tw/Product/Content/8199",
+          "title": "SAKURA E7683官方產品",
+          "outcome": "exact產品身份與規格，未明示首發日期。"
+        },
+        {
+          "url": "https://buy.sakura.com.tw/files/9445/E7683-半嵌洗碗機說明書_compressed.pdf",
+          "title": "E7683官方說明書",
+          "outcome": "文件日期不採上市證據。"
+        },
+        {
+          "url": "https://24h.pchome.com.tw/prod/DPAL33-A900GOSS8",
+          "title": "PChome 24h購物 E7683",
+          "outcome": "可購價格不是上市日期。"
+        }
+      ]
+    },
+    {
+      "id": "waterdispenser-sakura-p0533",
+      "category": "waterdispenser",
+      "brand": "SAKURA",
+      "model": "P0533",
+      "name": "櫻花P0533 廚下RO雙溫淨熱飲",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found_after_exact_model_recheck",
+      "reason": "已查官方exact頁/手冊、可信購買原頁與完整型號上市/發售/發表搜尋，只見新品標籤與當期在售，沒有明確日期；不以手冊、型錄或索引日期猜上市。",
+      "checkedAt": "2026-11-04",
+      "auditDisposition": "confirmed_not_found",
+      "query": "\"SAKURA\" \"P0533\" (上市 OR 發售 OR 發表)",
+      "checkedSources": [
+        {
+          "url": "https://www.sakura.com.tw/Product/Content/8383",
+          "title": "SAKURA P0533官方產品",
+          "outcome": "exact產品身份與規格，未明示首發日期。"
+        },
+        {
+          "url": "https://buy.sakura.com.tw/files/16919/P0533說明書.pdf",
+          "title": "P0533官方說明書",
+          "outcome": "文件日期不採上市證據。"
+        },
+        {
+          "url": "https://tw.buy.yahoo.com/gdsale/SAKURA-櫻花-新品上市-AI機型-全台安裝-廚下雙溫RO淨熱飲機淨水器P0531升級版-P05-12223771.html",
+          "title": "Yahoo購物中心自營 P0533",
+          "outcome": "可購價格不是上市日期。"
+        }
+      ]
+    },
+    {
+      "id": "coffee-lelit-marax3-pl62x3",
+      "category": "coffee",
+      "brand": "Lelit",
+      "model": "PL62X3",
+      "name": "MaraX3 110V 半自動義式咖啡機",
+      "releaseDate": "2026",
+      "sourceUrl": "https://www.t3.com/home-living/coffee-machines/lelits-new-espresso-machine-gives-you-complete-control-over-your-coffees-extraction-and-its-beautiful-to-look-at",
+      "sourceTitle": "T3：Lelit新機與MaraX3 Pagaia首發回顧",
+      "evidenceSnippet": "T3 2026-10-01報導明確寫Lelit在April 2026的MaraX3首先推出Pagaia系統；另挪威Witt供稿3月已寫發表，區域日期不同，因此只採共同能確認的全球首發年份2026，不填台灣110V到貨日。",
+      "confidence": "medium",
+      "sourceKind": "trusted_media_launch_report",
+      "checkedAt": "2026-11-04",
+      "auditDisposition": "confirmed_release_year",
+      "query": "\"MaraX3\" \"LELIT\" (launch OR release OR unveiled)",
+      "reason": "採原文明確debuted與年份，未以本篇2026-10-01文章刊出日或台灣上架日當上市。不同市場3/4月不強套精確月份，台灣區域首發日仍查不到。",
+      "checkedSources": [
+        {
+          "url": "https://www.lelit.com/product/marax3-pl62x3/",
+          "title": "LELIT MaraX3原廠",
+          "outcome": "明確第三代新產品及型號，沒有台灣上市日。"
+        },
+        {
+          "url": "https://www.lelittaiwan.com/products/lelit-marax3-pl62x3-110v",
+          "title": "LELIT Taiwan PL62X3 110V",
+          "outcome": "台灣exact電力/可購已查，未明載上市日。"
+        },
+        {
+          "url": "https://www.t3.com/home-living/coffee-machines/lelits-new-espresso-machine-gives-you-complete-control-over-your-coffees-extraction-and-its-beautiful-to-look-at",
+          "title": "T3 MaraX3 Pagaia首發回顧",
+          "outcome": "原文April2026 debuted；採年以避免其他地區月份差異。"
+        }
+      ]
+    },
+    {
+      "id": "robot-tplink-tapo-rv50-pro-omni",
+      "category": "robot",
+      "brand": "TP-Link",
+      "model": "Tapo RV50 Pro Omni",
+      "name": "15000Pa 自動拆卸拖布全能掃拖機器人｜台灣公司貨",
+      "releaseDate": "2026-08-24",
+      "sourceUrl": "https://www.tp-link.com/tw/press/news/22471/",
+      "sourceTitle": "TP-Link 台灣：旗艦掃拖機器人與4K戶外雙星重磅登場",
+      "evidenceSnippet": "官方2026年8月24日台北訊明示今日推出Tapo RV50 Pro Omni，並提供momo/蝦皮官方店購買與舊換新入口；採台灣推出日期，不採韌體/影片上傳日。",
+      "sourceKind": "official_launch_announcement",
+      "confidence": "high",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "tv-tcl-65a400-pro",
+      "model": "65A400 Pro",
+      "brand": "TCL",
+      "name": "65吋 144Hz QD-Mini LED 藝術智能顯示器",
+      "category": "tv",
+      "releaseDate": "找不到",
+      "sourceUrl": "https://www.tcl-shop.com.tw/item/226/65%E5%90%8B%20A400%20Pro%20QD-Mini%20LED%20%E8%97%9D%E8%A1%93%E6%99%BA%E8%83%BD%E9%80%A3%E7%B6%B2%E6%B6%B2%E6%99%B6%E9%A1%AF%E7%A4%BA%E5%99%A8/?W=Shop",
+      "sourceTitle": "TCL台灣65A400 Pro產品頁及台灣說明書",
+      "evidenceSnippet": "已查台灣官方產品頁、手冊與exact通路；型號推出年份2026不是明確上市文字，日規A400/泰國日期不能套台灣，未找到可採上市日期。",
+      "sourceKind": "not_found_after_manual_recheck",
+      "confidence": "not_found",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "tv-toshiba-65m450rp",
+      "model": "65M450RP",
+      "brand": "Toshiba",
+      "name": "65吋 REGZA 4K QLED VIDAA智慧顯示器",
+      "category": "tv",
+      "releaseDate": "2026",
+      "sourceUrl": "https://toshibatv.com.tw/new-product-launch-2026/",
+      "sourceTitle": "TOSHIBA台灣官方：2026新品發表會重點",
+      "evidenceSnippet": "官方明示2026年正式在台推出M450R、Z770S、ZXS三大全新機種；採明確年份2026。10/14為發表會日期，市場已有較早曝光，不將發表日直接當首次開賣日。",
+      "sourceKind": "official_launch_announcement",
+      "confidence": "high",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "tv-toshiba-75z770st",
+      "model": "75Z770ST",
+      "brand": "Toshiba",
+      "name": "75吋 REGZA 4K 165Hz QD Mini LED顯示器",
+      "category": "tv",
+      "releaseDate": "2026",
+      "sourceUrl": "https://toshibatv.com.tw/new-product-launch-2026/",
+      "sourceTitle": "TOSHIBA台灣官方：2026新品發表會重點",
+      "evidenceSnippet": "官方明示2026年正式在台推出M450R、Z770S、ZXS三大全新機種；採明確年份2026。10/14為發表會日期，市場已有較早曝光，不將發表日直接當首次開賣日。",
+      "sourceKind": "official_launch_announcement",
+      "confidence": "high",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "tv-toshiba-75zxsp",
+      "model": "75ZXSP",
+      "brand": "Toshiba",
+      "name": "75吋 REGZA 4K 180Hz RGB Mini LED旗艦顯示器",
+      "category": "tv",
+      "releaseDate": "2026",
+      "sourceUrl": "https://toshibatv.com.tw/new-product-launch-2026/",
+      "sourceTitle": "TOSHIBA台灣官方：2026新品發表會重點",
+      "evidenceSnippet": "官方明示2026年正式在台推出M450R、Z770S、ZXS三大全新機種；採明確年份2026。10/14為發表會日期，市場已有較早曝光，不將發表日直接當首次開賣日。",
+      "sourceKind": "official_launch_announcement",
+      "confidence": "high",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "monitor-asus-xg32uqwms",
+      "category": "monitor",
+      "brand": "ASUS",
+      "model": "XG32UQWMS",
+      "name": "ROG Strix OLED XG32UQWMS 31.5吋 Tandem WOLED 雙模",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "reason": "官方Computex為發表；原價屋2026/7/27標上市活動但沒有明確發售日期句，不把新聞／促銷日期當上市日。",
+      "query": "XG32UQWMS 上市 發售 available",
+      "auditQueries": [
+        "XG32UQWMS 上市 發售",
+        "XG32UQWMS site:asus.com launch available"
+      ],
+      "checkedAt": "2026-11-04",
+      "auditDisposition": "not_found",
+      "checkedSources": [
+        {
+          "url": "https://rog.asus.com/tw/monitors/27-to-31-5-inches/rog-strix-oled-xg32uqwms/",
+          "title": "ROG台灣產品頁",
+          "outcome": "規格與新功能，未明示發售日。"
+        },
+        {
+          "url": "https://coolpc.com.tw/tw/shop/monitor/rog-strix-xg32uqwms/",
+          "title": "原價屋上市加碼送掛燈",
+          "outcome": "2026/7/27活動29888為可驗證售價點，但不是史低；文章日期不直接當發售日。"
+        }
+      ]
+    },
+    {
+      "id": "tv-toshiba-75m450rp",
+      "model": "75M450RP",
+      "brand": "Toshiba",
+      "name": "75吋 REGZA 4K QLED VIDAA智慧顯示器",
+      "category": "tv",
+      "releaseDate": "2026",
+      "sourceUrl": "https://toshibatv.com.tw/new-product-launch-2026/",
+      "sourceTitle": "TOSHIBA台灣官方：2026新品發表會重點",
+      "evidenceSnippet": "官方明示2026年正式在台推出M450R、Z770S、ZXS三大全新機種；採明確年份2026。10/14為發表會日期，市場已有較早曝光，不將發表日直接當首次開賣日。",
+      "sourceKind": "official_launch_announcement",
+      "confidence": "high",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "waterdispenser-brita-mypure-gr1000-uvc",
+      "category": "waterdispenser",
+      "brand": "BRITA",
+      "model": "mypure GR1000 UVC",
+      "name": "BRITA mypure GR1000 UVC 1000G RO直輸淨水系統",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found_after_exact_model_recheck",
+      "reason": "已查BRITA台灣UVC目錄/FAQ/保固/官方活動、授權產品與完整型號上市/推出搜尋，能證現售配置但沒有明確正式上市日期；20260318活動及2023個人賣場新上市不是可信首發日期。",
+      "checkedAt": "2026-11-04",
+      "auditDisposition": "confirmed_not_found",
+      "query": "\"mypure GR1000 UVC\" (上市 OR 發表 OR 推出)",
+      "checkedSources": [
+        {
+          "url": "https://www.brita.tw/uts",
+          "title": "BRITA台灣廚下目錄",
+          "outcome": "列UVC配置，無上市日期。"
+        },
+        {
+          "url": "https://gowater.cc/BRITA-MYPURE-GR-1000-UVC",
+          "title": "康泉GR1000UVC",
+          "outcome": "現貨與規格，不作上市日。"
+        }
+      ]
+    },
+    {
+      "id": "cookware-sambonet-titan-pro-green-51094-28",
+      "category": "cookware",
+      "brand": "Sambonet",
+      "model": "51094-28",
+      "name": "Sambonet Titan Pro Green 28cm單柄陶瓷不沾平底鍋",
+      "releaseDate": "2025",
+      "sourceUrl": "https://www.sambonet.com/en-gb/frypan-/51094-28.html",
+      "sourceTitle": "Sambonet Titan Pro Green Frypan 51094-28",
+      "evidenceSnippet": "官方exact SKU51094-28明示Year of introduction:2025；同頁品牌/系列/EAN8014808842054/口徑28cm與2.7L可對照，不是型號年份或網頁刊登日期。",
+      "confidence": "high",
+      "sourceKind": "official_product_introduction_year",
+      "checkedAt": "2026-11-04",
+      "auditDisposition": "confirmed_release_year"
     }
   ]
 }

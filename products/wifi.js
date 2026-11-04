@@ -213,11 +213,12 @@
       "currency": "TWD",
       "amount": 7499,
       "converted": 7499,
-      "confidence": "momo購物 2026-07-13 公開促銷價"
+      "confidence": "momo購物 2026-07-13 公開促銷價",
+      "note": "2026-11-04 Chrome逐筆查核：Chrome原來源頁明示「商品目前無展售／網頁不存在」或「查無商品資料，商品不存在或已下架」；沒有可購主商品價格；不是原廠停產證據。 保留既有參考價，另查可信現售連結。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJ6A900JL8Q9/000001_1766717579.jpg",
     "buyUrl": "https://www.momoshop.com.tw/product/14883783",
-    "buyLabel": "momo購物",
+    "buyLabel": "momo（原來源無展售，查看供貨）",
     "specs": [
       "Wi-Fi 7",
       "BE3600 雙頻",
@@ -407,9 +408,10 @@
     "name": "BE11000 三頻 2.5G 真 Mesh 路由器二入組",
     "price": {
       "currency": "TWD",
-      "amount": 11999,
-      "converted": 11999,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 10111,
+      "converted": 10111,
+      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
+      "note": "Chrome原頁主商品Deco BE65 2入／BE11000 三頻 2.5G 真 Mesh 路由器二入組可核對，公開主區售價10111元，購買按鈕可用；不扣個人券、信用卡、點數或贈品。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAN08A900H851Z/000001_1782099268.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAN08-A900H851Z",
@@ -1194,9 +1196,10 @@
     "name": "HPE Aruba Instant On Wi-Fi 6 室內 AP",
     "price": {
       "currency": "TWD",
-      "amount": 14112,
-      "converted": 14112,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 15000,
+      "converted": 15000,
+      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
+      "note": "Chrome原頁主商品Instant On AP22／HPE Aruba Instant On Wi-Fi 6 室內 AP可核對，公開主區網路價15000元，購買按鈕可用；「下單再折」或其他結帳優惠另計，不以API較低數字替代主價。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJRA900JB5WP/000001_1759461654.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJR-A900JB5WP",
@@ -1278,9 +1281,10 @@
     "name": "HPE Aruba Instant On 4x4 Wi-Fi 6 室內 AP",
     "price": {
       "currency": "TWD",
-      "amount": 21112,
-      "converted": 21112,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 22000,
+      "converted": 22000,
+      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
+      "note": "Chrome原頁主商品Instant On AP25／HPE Aruba Instant On 4x4 Wi-Fi 6 室內 AP可核對，公開主區網路價22000元，購買按鈕可用；「下單再折」或其他結帳優惠另計，不以API較低數字替代主價。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJRA900JB5QX/000001_1759459286.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJR-A900JB5QX",
@@ -1376,9 +1380,10 @@
     "name": "HPE Aruba Instant On Wi-Fi 6E 三頻 AP",
     "price": {
       "currency": "TWD",
-      "amount": 19111,
-      "converted": 19111,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 19999,
+      "converted": 19999,
+      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
+      "note": "Chrome原頁主商品Instant On AP32／HPE Aruba Instant On Wi-Fi 6E 三頻 AP可核對，公開主區網路價19999元，購買按鈕可用；「下單再折」或其他結帳優惠另計，不以API較低數字替代主價。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJRA900JB5RW/000001_1759459789.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJR-A900JB5RW",
@@ -1474,9 +1479,10 @@
     "name": "HPE Aruba Instant On Wi-Fi 6 室內 AP",
     "price": {
       "currency": "TWD",
-      "amount": 9912,
-      "converted": 9912,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 10800,
+      "converted": 10800,
+      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
+      "note": "Chrome原頁主商品Instant On AP21／HPE Aruba Instant On Wi-Fi 6 室內 AP可核對，公開主區網路價10800元，購買按鈕可用；「下單再折」或其他結帳優惠另計，不以API較低數字替代主價。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJRA900JB6BU/000001_1759470005.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJR-A900JB6BU",
@@ -1875,11 +1881,12 @@
       "currency": "TWD",
       "amount": 5999,
       "converted": 5999,
-      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJBA900I4F5A/000001_1780372394.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJB-A900I4F5A",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "Wi-Fi 7",
       "BE15000 三頻",
@@ -1974,11 +1981,11 @@
       "converted": 4899,
       "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-01 人工核對PChome原始API同型號商品ID、名稱、正數庫存與公開網路價4899元；HTML另遇429限制，不把API當完整出貨承諾。"
+      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。 2026-11-01 人工核對PChome原始API同型號商品ID、名稱、正數庫存與公開網路價4899元；HTML另遇429限制，不把API當完整出貨承諾。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJ6A900IZ71A/000001_1755490950.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJ6-A900IZ71A",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原通路缺貨，查看供貨）",
     "specs": [
       "Wi-Fi 7",
       "BE9500 三頻",
@@ -2071,11 +2078,12 @@
       "currency": "TWD",
       "amount": 5490,
       "converted": 5490,
-      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAF02A900I473A/000001_1732699929.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAF02-A900I473A",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "Wi-Fi 7",
       "BE11000 三頻",
@@ -2263,9 +2271,10 @@
     "name": "AX3000 Mesh 路由器兩件裝",
     "price": {
       "currency": "TWD",
-      "amount": 2159,
-      "converted": 2159,
-      "confidence": "PChome 2026-07-14 API 查核價"
+      "amount": 2299,
+      "converted": 2299,
+      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
+      "note": "Chrome原頁主商品AX3000 2入／AX3000 Mesh 路由器兩件裝可核對，公開主區售價2299元，購買按鈕可用；不扣個人券、信用卡、點數或贈品。"
     },
     "image": "https://cs-a.ecimg.tw/items/DYANAIA900HNEUP/000001_1730700224.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DYANAI-A900HNEUP",
@@ -2546,11 +2555,12 @@
       "currency": "TWD",
       "amount": 1990,
       "converted": 1990,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "confidence": "PChome 2026-07-11 API 查核價",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJDA900JJ4D4/000001_1765268990.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJD-A900JJ4D4",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "Wi-Fi 7",
       "BE5100 雙頻",
@@ -2643,11 +2653,12 @@
       "currency": "TWD",
       "amount": 2599,
       "converted": 2599,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "confidence": "PChome 2026-07-11 API 查核價",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJ6A900JFC98/000001_1782210759.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJ6-A900JFC98",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "Wi-Fi 7",
       "BE3600 雙頻",
@@ -2839,11 +2850,12 @@
       "currency": "TWD",
       "amount": 10990,
       "converted": 10990,
-      "confidence": "Yahoo購物中心 2026-07-21 頁面公開價"
+      "confidence": "2026-11-04人工回讀Yahoo原賣場12019533：主10990元，標題明示MX5502-AH三入(3入)，實際已停售；僅留原三入參考。",
+      "note": "原賣場已停售，10990元只保留三入組參考價。此通路三入組與原廠標準MX5502二入不同，尚無法確認三入組組件；不套用二入價格，也不把賣場停售當成原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFE5A900JUA8C/000001_1774227439.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E6%98%8C%E9%81%8B%E7%9B%A3%E8%A6%96%E5%99%A8Linksys-MX5502-AH-AX5400-Velop-Mesh-WiFi-6%E9%9B%99%E9%A0%BB%E7%B6%B2-12019533.html",
-    "buyLabel": "Yahoo購物中心",
+    "buyLabel": "Yahoo原三入組賣場（已停售／組合內容待核）",
     "specs": [
       "Wi-Fi 6",
       "AX5400 雙頻",
@@ -2857,7 +2869,8 @@
     ],
     "cons": [
       "Mesh 效果仍受擺位、牆面與回程頻段影響",
-      "多 Gigabit 或 Wi-Fi 7 效益需終端裝置與網路速率配合"
+      "多 Gigabit 或 Wi-Fi 7 效益需終端裝置與網路速率配合",
+      "原Yahoo三入組賣場已停售；標準原廠MX5502二入與通路三入組不可混比，組合內容及替代可購來源仍待確認。"
     ],
     "bestFor": "偏好 Linksys Velop，且家中需要三顆覆蓋的人。",
     "recommendation": "Velop 三入候選：覆蓋完整，但以 Wi-Fi 6 規格來看價格偏高。",
@@ -2936,11 +2949,12 @@
       "currency": "TWD",
       "amount": 9999,
       "converted": 9999,
-      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4VA900JIQU0/000001_1764896894.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4V-A900JIQU0",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "Wi-Fi 6",
       "AX6600 三頻",
@@ -3609,11 +3623,12 @@
       "currency": "TWD",
       "amount": 2990,
       "converted": 2990,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "confidence": "PChome 2026-07-11 API 查核價",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJ8A900JSZV4/000001_1773200906.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJ8-A900JSZV4",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "Wi-Fi 7",
       "BE3600 雙頻",
@@ -3704,9 +3719,10 @@
     "name": "AX3000 Mesh 路由器一件裝",
     "price": {
       "currency": "TWD",
-      "amount": 1199,
-      "converted": 1199,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 1349,
+      "converted": 1349,
+      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
+      "note": "Chrome原頁主商品AX3000 1入／AX3000 Mesh 路由器一件裝可核對，公開主區售價1349元，購買按鈕可用；不扣個人券、信用卡、點數或贈品。"
     },
     "image": "https://cs-a.ecimg.tw/items/DYANAIA900HNETW/000001_1730700267.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DYANAI-A900HNETW",
@@ -4971,11 +4987,12 @@
       "amount": 25888,
       "converted": 25888,
       "confidence": "eclife 良興蝦皮商城 2026-08-28 exact-model 公開價，頁面顯示現貨數量",
-      "basis": "retailer_current"
+      "basis": "retailer_current",
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
     },
     "image": "https://dlcdnwebimgs.asus.com/gain/FA249918-389C-497B-9E90-71E3E88A2E99",
     "buyUrl": "https://shopee.tw/ASUS-%E8%8F%AF%E7%A2%A9-ROG-Rapture-GT-BE25000-Edition-20-WiFi7%E8%B7%AF%E7%94%B1%E5%99%A8-i.28706135.43232449392",
-    "buyLabel": "eclife 良興蝦皮商城",
+    "buyLabel": "eclife 良興蝦皮商城（來源待確認）",
     "installation": {
       "status": "not_stated",
       "note": "售價為單台路由器與原廠變壓器；不含網路佈線、10GbE 交換器、到府設定或額外 AiMesh 節點。"
@@ -5062,11 +5079,12 @@
       "amount": 7199,
       "converted": 7199,
       "confidence": "PChome 2026-09-02 API 與公開頁 exact-model 查核價；Price.P=NT$7,199、Price.Low 無有效低價、Qty 20",
-      "basis": "retailer_current"
+      "basis": "retailer_current",
+      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
     },
     "image": "https://dlcdnwebimgs.asus.com/gain/c591d551-742d-40f9-8c16-f5386255909e/",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJ5-A900HUUKE",
-    "buyLabel": "PChome 24h購物",
+    "buyLabel": "PChome 24h購物（原通路缺貨，查看供貨）",
     "installation": {
       "status": "not_stated",
       "note": "售價為單台路由器與原廠變壓器；不含網路佈線、到府設定、交換器或額外 AiMesh 節點。"
@@ -5292,11 +5310,12 @@
       "amount": 14999,
       "converted": 14999,
       "basis": "retailer_current",
-      "confidence": "momo 2026-09-07 exact 二入組現售價；商品 14057325，頁面可直接購買、顯示當日到貨"
+      "confidence": "momo 2026-09-07 exact 二入組現售價；商品 14057325，頁面可直接購買、顯示當日到貨",
+      "note": "2026-11-04 Chrome逐筆查核：Chrome原來源頁明示「商品目前無展售／網頁不存在」或「查無商品資料，商品不存在或已下架」；沒有可購主商品價格；不是原廠停產證據。 保留既有參考價，另查可信現售連結。"
     },
     "image": "https://i4.momoshop.com.tw/1749042676/goodsimg/0014/057/325/14057325_R_m.webp",
     "buyUrl": "https://www.momoshop.com.tw/product/14057325",
-    "buyLabel": "momo",
+    "buyLabel": "momo（原來源無展售，查看供貨）",
     "specs": [
       "Wi-Fi 7；台灣版 BE11000 三頻（6 GHz 5764 Mbps／5 GHz 4324 Mbps／2.4 GHz 688 Mbps）",
       "Mesh：支援 Deco Mesh，二入組；可與其他 Deco 擴充，支援有線與無線同時回程",
@@ -5589,136 +5608,136 @@
       ]
     }
   },
-{
-  "id": "wifi-asus-rog-gt-bn98",
-  "category": "wifi",
-  "brand": "ASUS",
-  "model": "GT-BN98",
-  "name": "ROG Rapture GT-BN98 BN25000 四頻 Wi-Fi 8 電競路由器",
-  "rank": 58,
-  "topPick": false,
-  "budget": "premium",
-  "channel": "tw",
-  "price": {
-    "currency": "TWD",
-    "amount": 27990,
-    "converted": 27990,
-    "basis": "retailer_current",
-    "confidence": "2026-11-04 momo原生selected型號公開單件價格，可購買/加車。",
-    "note": "2026-11-04 momo主品號15757667公開27990元、3年保固，數量1–20、購買/加車可用；顯示預計11/04到貨為估計，非保證。特惠商品不適用折價券，不扣個人券、點數、信用卡回饋或贈品。"
-  },
-  "installation": {
-    "status": "not_stated",
-    "note": "通路未標示到府安裝、拉線或設定範圍；公開價為完整單台路由器與隨附變壓器/網路線，多台AiMesh需另購相容節點。"
-  },
-  "image": "https://i2.momoshop.com.tw/1791276975/goodsimg/0015/757/667/15757667_R_m.webp",
-  "buyUrl": "https://www.momoshop.com.tw/product/15757667",
-  "buyLabel": "momo購物網",
-  "specs": [
-    "Wi-Fi 8（IEEE 802.11bn Draft）／BN25000 四頻：2.4GHz 1376＋5GHz-1 5764＋5GHz-2 5764＋6GHz 11529Mbps；最高320MHz、4096QAM",
-    "運算：2.6GHz四核心處理器；2GB RAM／256MB Flash",
-    "Mesh：支援AiMesh主路由與節點，可作AP、中繼或媒體橋接；多台串接須另購相容節點",
-    "有線：10G WAN/LAN x1、10G LAN x1、2.5G WAN/LAN x1、2.5G LAN x3、1G LAN x1；USB3.2Gen1 x1、USB2.0 x1",
-    "管理：Adaptive QoE、WiFi Insight、Guest Network Pro、VLAN、AiProtection與VPN；GTNet為第三方服務，功能與條件依實際服務",
-    "電源：AC110–240V／50–60Hz；DC12V最大5A或19.5V最大3.33A；隨附電源變壓器",
-    "尺寸：官方列350.41 x 350.41 x 220.60，未在該欄明示單位/軸序，不自行換算寬深高；產品重量2070g",
-    "規格限制：802.11bn仍為Draft，官方不保證與未來最終標準相容；實際效能受終端、頻段與環境影響"
-  ],
-  "description": "台灣官方已宣布上市的Wi-Fi8 Draft四頻旗艦，兼具雙10GbE、AiMesh與即時無線網路監測。適合有多Gigabit有線骨幹且願意承擔新規格韌體成熟度風險的進階家庭。",
-  "pros": [
-    "雙10GbE與四個2.5GbE便於連接高速WAN、NAS與有線AiMesh回程",
-    "AiMesh支援主路由、節點與AP，便於2–3台擴充規劃",
-    "台灣官方exact型號列AC110–240V50–60Hz，所選台灣通路有3年保固"
-  ],
-  "cons": [
-    "27990元門檻高，既有Wi-Fi7/6終端與一般寬頻未必需要升級",
-    "Wi-Fi8仍屬草案，最終標準相容性與後續功能無法保證",
-    "四頻理論速率不是單一裝置實測速度；新韌體與第三方GTNet需自行維護評估",
-    "原廠ZenTalk有單一候選帳號列42021韌體的QoE/6GHz/Mesh等問題，尚未形成集中災情門檻，購買前宜追蹤後續韌體修正"
-  ],
-  "bestFor": "有10G NAS/多Gigabit寬頻，計畫AiMesh多台佈建並願意觀察Wi-Fi8草案與新韌體成熟度的進階玩家",
-  "recommendation": "Wi-Fi8前瞻參考：雙10G與AiMesh具擴充價值，但草案相容性、終端支援與售價需一起衡量；保留現有合格Wi-Fi7舊款供比較，不列為台灣Top Pick。",
-  "releaseDate": "2026-11-03",
-  "historicalLow": {
-    "status": "not_found",
-    "amount": null,
-    "currency": "TWD",
-    "converted": null,
-    "sourceUrl": "",
-    "sourceTitle": "",
-    "evidenceSnippet": "",
-    "sourceKind": "not_found",
-    "confidence": "not_found",
-    "checkedAt": "2026-11-04",
-    "note": "本輪查momo15757667、PChome DRAFJ5-A900KIPPX、FindPrice與BigGo的GT-BN98 exact非Pro價格。主通路27990為現價，未當史低；BigGo列26990降1000但無可重現歷史最低點日期，PChome本輪原SKU API27990/Low null，不能把比價摘要當可驗證史低。24000個人蝦皮、PRO區域款、信用卡與點數均排除。"
-  },
-  "issueResearch": {
-    "status": "no_common_issue",
-    "checkedAt": "2026-11-04",
-    "summary": "截至查核日，查無達門檻的集中負評／災情",
-    "issues": [],
-    "checkedSources": [
-      {
-        "platform": "Mobile01",
-        "targetHost": "mobile01.com",
-        "query": "\"GT-BN98\" site:mobile01.com/topicdetail.php",
-        "queryUrl": "https://www.google.com/search?q=%22GT-BN98%22%20site%3Amobile01.com%2Ftopicdetail.php"
-      },
-      {
-        "platform": "PTT",
-        "targetHost": "ptt.cc",
-        "query": "site:ptt.cc \"ASUS ROG Rapture GT-BN98\" (問題 OR 故障 OR 負評)",
-        "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22ASUS%20ROG%20Rapture%20GT-BN98%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
-      },
-      {
-        "platform": "Dcard",
-        "targetHost": "dcard.tw",
-        "query": "\"ROG Rapture GT-BN98\" site:dcard.tw",
-        "queryUrl": "https://www.google.com/search?q=%22ROG%20Rapture%20GT-BN98%22%20site%3Adcard.tw"
-      },
-      {
-        "platform": "Reddit",
-        "targetHost": "reddit.com",
-        "query": "\"ROG Rapture GT-BN98\" site:reddit.com (problem OR issue OR defect OR failure)",
-        "queryUrl": "https://www.google.com/search?q=%22ROG%20Rapture%20GT-BN98%22%20site%3Areddit.com%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)"
-      },
-      {
-        "platform": "ASUS ZenTalk",
-        "targetHost": "zentalk.asus.com",
-        "query": "\"GT-BN98\" site:zentalk.asus.com",
-        "queryUrl": "https://www.google.com/search?q=%22GT-BN98%22%20site%3Azentalk.asus.com"
-      },
-      {
-        "platform": "PTT",
-        "targetHost": "ptt.cc",
-        "query": "\"GT-BN98\" site:ptt.cc/bbs/",
-        "queryUrl": "https://www.google.com/search?q=%22GT-BN98%22%20site%3Aptt.cc%2Fbbs%2F"
-      },
-      {
-        "platform": "Dcard",
-        "targetHost": "dcard.tw",
-        "query": "\"GT-BN98\" site:dcard.tw/f/",
-        "queryUrl": "https://www.google.com/search?q=%22GT-BN98%22%20site%3Adcard.tw%2Ff%2F"
-      },
-      {
-        "platform": "SNBForums",
-        "targetHost": "snbforums.com",
-        "query": "\"GT-BN98\" site:snbforums.com",
-        "queryUrl": "https://www.google.com/search?q=%22GT-BN98%22%20site%3Asnbforums.com"
-      }
+  {
+    "id": "wifi-asus-rog-gt-bn98",
+    "category": "wifi",
+    "brand": "ASUS",
+    "model": "GT-BN98",
+    "name": "ROG Rapture GT-BN98 BN25000 四頻 Wi-Fi 8 電競路由器",
+    "rank": 58,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "price": {
+      "currency": "TWD",
+      "amount": 27990,
+      "converted": 27990,
+      "basis": "retailer_current",
+      "confidence": "2026-11-04 momo原生selected型號公開單件價格，可購買/加車。",
+      "note": "2026-11-04 momo主品號15757667公開27990元、3年保固，數量1–20、購買/加車可用；顯示預計11/04到貨為估計，非保證。特惠商品不適用折價券，不扣個人券、點數、信用卡回饋或贈品。"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "通路未標示到府安裝、拉線或設定範圍；公開價為完整單台路由器與隨附變壓器/網路線，多台AiMesh需另購相容節點。"
+    },
+    "image": "https://i2.momoshop.com.tw/1791276975/goodsimg/0015/757/667/15757667_R_m.webp",
+    "buyUrl": "https://www.momoshop.com.tw/product/15757667",
+    "buyLabel": "momo購物網",
+    "specs": [
+      "Wi-Fi 8（IEEE 802.11bn Draft）／BN25000 四頻：2.4GHz 1376＋5GHz-1 5764＋5GHz-2 5764＋6GHz 11529Mbps；最高320MHz、4096QAM",
+      "運算：2.6GHz四核心處理器；2GB RAM／256MB Flash",
+      "Mesh：支援AiMesh主路由與節點，可作AP、中繼或媒體橋接；多台串接須另購相容節點",
+      "有線：10G WAN/LAN x1、10G LAN x1、2.5G WAN/LAN x1、2.5G LAN x3、1G LAN x1；USB3.2Gen1 x1、USB2.0 x1",
+      "管理：Adaptive QoE、WiFi Insight、Guest Network Pro、VLAN、AiProtection與VPN；GTNet為第三方服務，功能與條件依實際服務",
+      "電源：AC110–240V／50–60Hz；DC12V最大5A或19.5V最大3.33A；隨附電源變壓器",
+      "尺寸：官方列350.41 x 350.41 x 220.60，未在該欄明示單位/軸序，不自行換算寬深高；產品重量2070g",
+      "規格限制：802.11bn仍為Draft，官方不保證與未來最終標準相容；實際效能受終端、頻段與環境影響"
+    ],
+    "description": "台灣官方已宣布上市的Wi-Fi8 Draft四頻旗艦，兼具雙10GbE、AiMesh與即時無線網路監測。適合有多Gigabit有線骨幹且願意承擔新規格韌體成熟度風險的進階家庭。",
+    "pros": [
+      "雙10GbE與四個2.5GbE便於連接高速WAN、NAS與有線AiMesh回程",
+      "AiMesh支援主路由、節點與AP，便於2–3台擴充規劃",
+      "台灣官方exact型號列AC110–240V50–60Hz，所選台灣通路有3年保固"
+    ],
+    "cons": [
+      "27990元門檻高，既有Wi-Fi7/6終端與一般寬頻未必需要升級",
+      "Wi-Fi8仍屬草案，最終標準相容性與後續功能無法保證",
+      "四頻理論速率不是單一裝置實測速度；新韌體與第三方GTNet需自行維護評估",
+      "原廠ZenTalk有單一候選帳號列42021韌體的QoE/6GHz/Mesh等問題，尚未形成集中災情門檻，購買前宜追蹤後續韌體修正"
+    ],
+    "bestFor": "有10G NAS/多Gigabit寬頻，計畫AiMesh多台佈建並願意觀察Wi-Fi8草案與新韌體成熟度的進階玩家",
+    "recommendation": "Wi-Fi8前瞻參考：雙10G與AiMesh具擴充價值，但草案相容性、終端支援與售價需一起衡量；保留現有合格Wi-Fi7舊款供比較，不列為台灣Top Pick。",
+    "releaseDate": "2026-11-03",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-11-04",
+      "note": "本輪查momo15757667、PChome DRAFJ5-A900KIPPX、FindPrice與BigGo的GT-BN98 exact非Pro價格。主通路27990為現價，未當史低；BigGo列26990降1000但無可重現歷史最低點日期，PChome本輪原SKU API27990/Low null，不能把比價摘要當可驗證史低。24000個人蝦皮、PRO區域款、信用卡與點數均排除。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-11-04",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"GT-BN98\" site:mobile01.com/topicdetail.php",
+          "queryUrl": "https://www.google.com/search?q=%22GT-BN98%22%20site%3Amobile01.com%2Ftopicdetail.php"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"ASUS ROG Rapture GT-BN98\" (問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22ASUS%20ROG%20Rapture%20GT-BN98%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "\"ROG Rapture GT-BN98\" site:dcard.tw",
+          "queryUrl": "https://www.google.com/search?q=%22ROG%20Rapture%20GT-BN98%22%20site%3Adcard.tw"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "\"ROG Rapture GT-BN98\" site:reddit.com (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.google.com/search?q=%22ROG%20Rapture%20GT-BN98%22%20site%3Areddit.com%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)"
+        },
+        {
+          "platform": "ASUS ZenTalk",
+          "targetHost": "zentalk.asus.com",
+          "query": "\"GT-BN98\" site:zentalk.asus.com",
+          "queryUrl": "https://www.google.com/search?q=%22GT-BN98%22%20site%3Azentalk.asus.com"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "\"GT-BN98\" site:ptt.cc/bbs/",
+          "queryUrl": "https://www.google.com/search?q=%22GT-BN98%22%20site%3Aptt.cc%2Fbbs%2F"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "\"GT-BN98\" site:dcard.tw/f/",
+          "queryUrl": "https://www.google.com/search?q=%22GT-BN98%22%20site%3Adcard.tw%2Ff%2F"
+        },
+        {
+          "platform": "SNBForums",
+          "targetHost": "snbforums.com",
+          "query": "\"GT-BN98\" site:snbforums.com",
+          "queryUrl": "https://www.google.com/search?q=%22GT-BN98%22%20site%3Asnbforums.com"
+        }
+      ]
+    },
+    "score": 86,
+    "voltage": "AC110–240V／50–60Hz；台灣110V60Hz可用，隨附變壓器",
+    "warranty": "所選momo台灣商品明示3年保固；配件與送修條件依ASUS台灣保固及通路規定",
+    "tags": [
+      "Wi-Fi 8",
+      "802.11bn Draft",
+      "BN25000",
+      "AiMesh",
+      "雙10G",
+      "前瞻參考"
     ]
-  },
-  "score": 86,
-  "voltage": "AC110–240V／50–60Hz；台灣110V60Hz可用，隨附變壓器",
-  "warranty": "所選momo台灣商品明示3年保固；配件與送修條件依ASUS台灣保固及通路規定",
-  "tags": [
-    "Wi-Fi 8",
-    "802.11bn Draft",
-    "BN25000",
-    "AiMesh",
-    "雙10G",
-    "前瞻參考"
-  ]
-}
+  }
 ]);
 })();

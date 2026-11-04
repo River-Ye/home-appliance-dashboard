@@ -585,5 +585,78 @@
   ]
 });
 
+  // 2026-11-04 exact-SKU price and source-status updates.
+  {
+    const product = products.find(({ id }) => id === "pillow-tempur-millennium-small");
+    Object.assign(product.price, {
+      "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。"
+    });
+    product.buyLabel = "TEMPUR 台灣官方商城（SMALL）（來源待確認）";
+  }
+
+  {
+    const product = products.find(({ id }) => id === "pillow-3m-anti-005");
+    Object.assign(product.price, {
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
+    });
+    product.buyLabel = "3M 台灣官方商城（ANTI 005）（來源待確認）";
+  }
+
+  {
+    const product = products.find(({ id }) => id === "pillow-3m-anti-004");
+    Object.assign(product.price, {
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
+    });
+    product.buyLabel = "3M 台灣官方商城（ANTI 004）（來源待確認）";
+  }
+
+  {
+    const product = products.find(({ id }) => id === "pillow-3m-anti-003");
+    Object.assign(product.price, {
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
+    });
+    product.buyLabel = "3M 台灣官方商城（ANTI 003）（來源待確認）";
+  }
+
+  {
+    const product = products.find(({ id }) => id === "pillow-tempur-symphony-smartcool-medium");
+    Object.assign(product.price, {
+      "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。"
+    });
+    product.buyLabel = "TEMPUR 台灣官方商城（SmartCool MEDIUM）（來源待確認）";
+  }
+
+  {
+    const product = products.find(({ id }) => id === "pillow-emma-black-diamond");
+    product.price.note = "2026-11-04 原官方頁已顯示40×70cm雙入買一送一總價5599元（每顆均價2799.50），未見單入版本可選；原3199元單入價保留為先前參考，不能以雙入總價或均價當單入可購價。";
+    product.buyLabel = "Emma 台灣官方（原頁改為雙入，單入價待確認）";
+  }
+
+  {
+    const product = products.find(({ id }) => id === "pillow-hola-organic-latex-curve");
+    Object.assign(product.price, {
+      "currency": "TWD",
+      "amount": 2580,
+      "converted": 2580,
+      "basis": "retailer_current",
+      "confidence": "2026-11-04 Chrome人工核對同SKU完整尺寸／顏色版本公開主價與購買CTA。",
+      "note": "2026-11-04 Chrome核商品014416047曲線型H12／14cm，主價2580元，加入購物車與立即購買可用；不扣新會員200券。"
+    });
+    product.buyLabel = "HOLA 官方（曲線12／14cm）";
+  }
+
+  {
+    const product = products.find(({ id }) => id === "pillow-hola-malaysia-latex-side");
+    Object.assign(product.price, {
+      "currency": "TWD",
+      "amount": 1608,
+      "converted": 1608,
+      "basis": "retailer_current",
+      "confidence": "2026-09-01 Chrome 已查核 016582346 確切新品頁與所選版本，頁面現價為 NT$1,608；不把其他尺寸、包數或贈品價套用。",
+      "note": "2026-11-04 Chrome核商品016582346正側睡型H8.5／12.5cm，頁面顯示1447元但補貨中、數量及配送停用，僅到貨通知；未採為可購現價，1608元保留先前參考，缺貨不代表停產。"
+    });
+    product.buyLabel = "HOLA 官方（補貨中，查看供貨）";
+  }
+
   dashboard.registerProducts("pillow", products);
 })();

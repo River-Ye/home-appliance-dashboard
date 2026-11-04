@@ -324,10 +324,11 @@
       "currency": "TWD",
       "amount": 20599,
       "converted": 20599,
-      "confidence": "Costco 好市多 2026-07-11 頁面查核價"
+      "confidence": "Costco 好市多 2026-07-11 頁面查核價",
+      "note": "2026-11-04 Chrome開啟原精確商品URL後轉向同通路分類列表，沒有原商品編號的主區；不借列表其他型號價格或加入購物車判定本品現貨。 金額保留為舊參考價；未取得原廠停產證據。"
     },
     "channel": "tw",
-    "buyLabel": "Costco 好市多",
+    "buyLabel": "Costco（原連結轉分類，供貨待確認）",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Washers-Dryers/Dryer-Size-11-13-kg/Whirlpool-12-kg-Gas-Dryer-8TWGD5050PW/p/159758",
     "specs": [
       "烘衣機：Whirlpool惠而浦 12公斤 快烘瓦斯型乾衣機 8TWGD5050PW 含基本安裝",
@@ -935,10 +936,11 @@
       "currency": "TWD",
       "amount": 35900,
       "converted": 35900,
-      "confidence": "Yahoo購物中心 2026-07-14 頁面查核價"
+      "confidence": "Yahoo購物中心 2026-07-14 頁面查核價",
+      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心",
+    "buyLabel": "Yahoo購物中心（原通路缺貨，查看供貨）",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-10kg%E6%B7%A8%E8%AD%B7%E5%AE%8C%E7%BE%8E%E4%B9%BE%E8%A1%A3%E6%A9%9FNH-VS100HP-%E5%90%AB%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-11874057.html",
     "specs": [
       "烘衣機：Panasonic 國際牌 10kg淨護完美乾衣機NH-VS100HP 含基本安裝",
@@ -1853,10 +1855,11 @@
       "currency": "TWD",
       "amount": 36900,
       "converted": 36900,
-      "confidence": "Yahoo購物中心 2026-09-01 exact-model 公開結構化價格"
+      "confidence": "Yahoo購物中心 2026-09-01 exact-model 公開結構化價格",
+      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心",
+    "buyLabel": "Yahoo購物中心（原通路缺貨，查看供貨）",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SAMSUNG-%E4%B8%89%E6%98%9F-10KG-%E6%99%BA%E6%85%A7%E7%86%B1%E6%B3%B5%E4%B9%BE%E8%A1%A3%E6%A9%9F-DV10DB7440GB-DV10DB7440GW-11854932.html",
     "specs": [
       "烘衣機：SAMSUNG 三星 10KG 智慧熱泵乾衣機 DV10DB7440GB/DV10DB7440GW 黑白",
@@ -2266,11 +2269,12 @@
       "amount": 38200,
       "converted": 38200,
       "confidence": "PChome 24h 2026-08-14 exact-model 台灣新品頁公開售價",
-      "basis": "retailer_current"
+      "basis": "retailer_current",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://i1.momoshop.com.tw/1789385943/goodsimg/0013/574/805/13574805_R_m.webp",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM5L-A900FRSMX",
-    "buyLabel": "PChome 24h購物",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "installation": {
       "status": "not_stated",
       "note": "PChome 頁說明由安裝單位聯繫並可能另收跨區、樓層與特殊施工費，但未清楚界定現價包含的基本工料；瓦斯種類、排氣管、壁掛／層架、通風與管線須先由合格人員場勘。"
@@ -2371,10 +2375,11 @@
     "name": "20kg AI Heat Pump 免曬衣乾衣機",
     "price": {
       "currency": "TWD",
-      "amount": 42900,
-      "converted": 42900,
-      "confidence": "PChome 24h 2026-08-20 exact-model SKU API 公開價 NT$42,900，Qty 6",
-      "basis": "retailer_current"
+      "amount": 41111,
+      "converted": 41111,
+      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
+      "basis": "retailer_current",
+      "note": "Chrome原頁主商品WR-20DW／20kg AI Heat Pump 免曬衣乾衣機可核對，公開主區售價41111元，購買按鈕可用；不扣個人券、信用卡、點數或贈品。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DPAI1LA900HQ772/000001_1762826049.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900HQ772",
@@ -2649,234 +2654,234 @@
       ]
     }
   },
-{
-  "id": "dryer-sanlux-asd-100ua",
-  "category": "dryer",
-  "rank": 27,
-  "budget": "mid",
-  "channel": "tw",
-  "brand": "SANLUX",
-  "model": "ASD-100UA",
-  "name": "10公斤熱泵式乾衣機 ASD-100UA",
-  "topPick": false,
-  "price": {
-    "currency": "TWD",
-    "amount": 24605,
-    "converted": 24605,
-    "basis": "retailer_current",
-    "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
-    "note": "2026-11-04 晚間原生Chrome覆核：ASD-100UA主商品公開顯示NT$24605，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。"
-  },
-  "installation": {
-    "status": "included_basic",
-    "note": "所選Yahoo新品頁明示含基本安裝與拆箱定位；搬運動線、樓層、抬高/過窗、偏遠地區、額外排水與電源工程依物流/施工現場報價，無操作教學；疊放支架及可否堆疊須另向原廠確認。"
-  },
-  "image": "https://img.yec.tw/zp/MerchandiseImages/38656A1DAC-SP-13113526.jpg",
-  "buyUrl": "https://tw.buy.yahoo.com/gdsale/SANLUX%E5%8F%B0%E7%81%A3%E4%B8%89%E6%B4%8B-10%E5%85%AC%E6%96%A4%E7%86%B1%E6%B3%B5%E6%A9%9F%E4%B9%BE%E8%A1%A3%E6%A9%9F-ASD-100UA-10415249.html",
-  "buyLabel": "Yahoo購物中心自營",
-  "specs": [
-    "類型：獨立滾筒熱泵除濕型乾衣機",
-    "容量：10kg（標準行程；不同材質行程依說明書限量）",
-    "乾衣系統：Heat Pump 除濕型；智慧烘乾偵測、三段烘乾度、24小時預約",
-    "尺寸：寬 59.5 x 深 65 x 高 85 cm",
-    "重量：50 kg",
-    "電壓／頻率：110V／60Hz",
-    "功率：800W；15A以上可靠接地專用插座，禁止延長線或與其他電器共用",
-    "排水／通風：內置儲水盒可倒水或接排水管；放置堅固水平、乾燥且通風處，不遮擋進氣口",
-    "清潔維護：每次烘乾後清棉絮濾網與門封；進氣口濾網至少每3次清理1次，熱交換器用毛刷或吸塵器依說明書清理",
-    "安全／安裝：門安全開關；50kg宜兩人直立搬運，不可橫放或顛倒，疊架相容性另確認",
-    "產地：中國（依原廠說明書末頁；不採其他通路誤填台灣）"
-  ],
-  "description": "補入10kg、110V熱泵獨立乾衣選項，可使用儲水盒或直排水。這是已現售的補充機型，並非2026新發表或ASD-80UA的已確認直接後繼；需特別評估運轉聲與放置位置。",
-  "pros": [
-    "10kg熱泵除濕乾衣，適合不便增加220V迴路的家庭比較",
-    "官方明示110V／60Hz、800W與機身尺寸，安裝需求可先核對",
-    "台灣三洋本地服務體系；一般保固與登錄後指定零件延長條件可查"
-  ],
-  "cons": [
-    "已達6人跨2原站的噪音或咚咚震動聲回報門檻，不宜預設適合客廳或夜間",
-    "50kg機體與65cm機身深度，還需另留開門、插頭、排水及通風空間",
-    "需定期清濾網與熱交換器，疊放相容性及額外施工另行確認"
-  ],
-  "bestFor": "需要10kg獨立熱泵乾衣、具110V接地專用插座且能將機器放在通風、可接受運轉聲區域的家庭。",
-  "recommendation": "作為既有8kg乾衣機之外的10kg熱泵補充選項；採購前先實機試聲、核對完整搬運與安裝空間。噪音警示已成立，不列為Top Pick。",
-  "releaseDate": "找不到",
-  "historicalLow": {
-    "status": "not_found",
-    "amount": null,
-    "currency": "TWD",
-    "converted": null,
-    "sourceUrl": "",
-    "sourceTitle": "",
-    "evidenceSnippet": "",
-    "sourceKind": "not_found",
-    "confidence": "not_found",
-    "checkedAt": "2026-10-28",
-    "note": "查過FindPrice同型號比價、LBJ歷史價入口、飛比與原通路；未取得可重現且排除個人券/信用卡/福利品的同規格歷史最低價。Mobile01約2萬含券/禮券/點數不採，PTT約24900為概數；不以本次24605現價推定史低。"
-  },
-  "issueResearch": {
-    "status": "common_issue",
-    "checkedAt": "2026-10-28",
-    "summary": "至少6名ASD-100UA使用者跨Mobile01與Yahoo原商品評價回報運轉噪音偏大，部分另述咚咚聲，客廳與夜間使用需先評估。",
-    "issues": [
-      {
-        "title": "運轉噪音偏大",
-        "detail": "5位Mobile01家庭使用者與1位Yahoo買家文字評價；不代表所有機器均故障。一位回報加厚腳墊後改善，另有使用者認為調整水平後音量可接受；購前宜實機試運轉，預留通風與維修空間，異常聲由原廠檢查。",
-        "reportCount": 6,
-        "sources": [
-          {
-            "platform": "Mobile01",
-            "title": "SANLUX 台灣三洋 10KG熱泵式乾衣機 ASD-100UA",
-            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=6756158"
-          },
-          {
-            "platform": "Mobile01",
-            "title": "SANLUX 台灣三洋 10KG熱泵式乾衣機 ASD-100UA (第2頁)",
-            "url": "https://www.mobile01.com/topicdetail.php?f=730&p=2&t=6756158"
-          },
-          {
-            "platform": "Yahoo購物中心",
-            "title": "【SANLUX 台灣三洋】10KG 熱泵式乾衣機 ASD-100UA | Yahoo購物中心",
-            "url": "https://tw.buy.yahoo.com/gdsale/SANLUX%E5%8F%B0%E7%81%A3%E4%B8%89%E6%B4%8B-10%E5%85%AC%E6%96%A4%E7%86%B1%E6%B3%B5%E6%A9%9F%E4%B9%BE%E8%A1%A3%E6%A9%9F-ASD-100UA-10415249.html"
-          }
-        ]
-      }
+  {
+    "id": "dryer-sanlux-asd-100ua",
+    "category": "dryer",
+    "rank": 27,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "SANLUX",
+    "model": "ASD-100UA",
+    "name": "10公斤熱泵式乾衣機 ASD-100UA",
+    "topPick": false,
+    "price": {
+      "currency": "TWD",
+      "amount": 24605,
+      "converted": 24605,
+      "basis": "retailer_current",
+      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
+      "note": "2026-11-04 晚間原生Chrome覆核：ASD-100UA主商品公開顯示NT$24605，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。"
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "所選Yahoo新品頁明示含基本安裝與拆箱定位；搬運動線、樓層、抬高/過窗、偏遠地區、額外排水與電源工程依物流/施工現場報價，無操作教學；疊放支架及可否堆疊須另向原廠確認。"
+    },
+    "image": "https://img.yec.tw/zp/MerchandiseImages/38656A1DAC-SP-13113526.jpg",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/SANLUX%E5%8F%B0%E7%81%A3%E4%B8%89%E6%B4%8B-10%E5%85%AC%E6%96%A4%E7%86%B1%E6%B3%B5%E6%A9%9F%E4%B9%BE%E8%A1%A3%E6%A9%9F-ASD-100UA-10415249.html",
+    "buyLabel": "Yahoo購物中心自營",
+    "specs": [
+      "類型：獨立滾筒熱泵除濕型乾衣機",
+      "容量：10kg（標準行程；不同材質行程依說明書限量）",
+      "乾衣系統：Heat Pump 除濕型；智慧烘乾偵測、三段烘乾度、24小時預約",
+      "尺寸：寬 59.5 x 深 65 x 高 85 cm",
+      "重量：50 kg",
+      "電壓／頻率：110V／60Hz",
+      "功率：800W；15A以上可靠接地專用插座，禁止延長線或與其他電器共用",
+      "排水／通風：內置儲水盒可倒水或接排水管；放置堅固水平、乾燥且通風處，不遮擋進氣口",
+      "清潔維護：每次烘乾後清棉絮濾網與門封；進氣口濾網至少每3次清理1次，熱交換器用毛刷或吸塵器依說明書清理",
+      "安全／安裝：門安全開關；50kg宜兩人直立搬運，不可橫放或顛倒，疊架相容性另確認",
+      "產地：中國（依原廠說明書末頁；不採其他通路誤填台灣）"
     ],
-    "checkedSources": [
-      {
-        "platform": "Mobile01",
-        "targetHost": "mobile01.com",
-        "query": "site:mobile01.com \"ASD-100UA\" (問題 OR 故障 OR 心得)",
-        "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22ASD-100UA%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97)"
-      },
-      {
-        "platform": "PTT",
-        "targetHost": "ptt.cc",
-        "query": "site:ptt.cc \"ASD-100UA\" (問題 OR 故障 OR 心得)",
-        "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22ASD-100UA%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97)"
-      },
-      {
-        "platform": "Yahoo購物中心",
-        "targetHost": "tw.buy.yahoo.com",
-        "query": "site:tw.buy.yahoo.com \"ASD-100UA\" (問題 OR 故障 OR 評價 OR 噪音)",
-        "queryUrl": "https://www.google.com/search?q=site%3Atw.buy.yahoo.com%20%22ASD-100UA%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%A9%95%E5%83%B9%20OR%20%E5%99%AA%E9%9F%B3)"
-      }
+    "description": "補入10kg、110V熱泵獨立乾衣選項，可使用儲水盒或直排水。這是已現售的補充機型，並非2026新發表或ASD-80UA的已確認直接後繼；需特別評估運轉聲與放置位置。",
+    "pros": [
+      "10kg熱泵除濕乾衣，適合不便增加220V迴路的家庭比較",
+      "官方明示110V／60Hz、800W與機身尺寸，安裝需求可先核對",
+      "台灣三洋本地服務體系；一般保固與登錄後指定零件延長條件可查"
+    ],
+    "cons": [
+      "已達6人跨2原站的噪音或咚咚震動聲回報門檻，不宜預設適合客廳或夜間",
+      "50kg機體與65cm機身深度，還需另留開門、插頭、排水及通風空間",
+      "需定期清濾網與熱交換器，疊放相容性及額外施工另行確認"
+    ],
+    "bestFor": "需要10kg獨立熱泵乾衣、具110V接地專用插座且能將機器放在通風、可接受運轉聲區域的家庭。",
+    "recommendation": "作為既有8kg乾衣機之外的10kg熱泵補充選項；採購前先實機試聲、核對完整搬運與安裝空間。噪音警示已成立，不列為Top Pick。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-28",
+      "note": "查過FindPrice同型號比價、LBJ歷史價入口、飛比與原通路；未取得可重現且排除個人券/信用卡/福利品的同規格歷史最低價。Mobile01約2萬含券/禮券/點數不採，PTT約24900為概數；不以本次24605現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "common_issue",
+      "checkedAt": "2026-10-28",
+      "summary": "至少6名ASD-100UA使用者跨Mobile01與Yahoo原商品評價回報運轉噪音偏大，部分另述咚咚聲，客廳與夜間使用需先評估。",
+      "issues": [
+        {
+          "title": "運轉噪音偏大",
+          "detail": "5位Mobile01家庭使用者與1位Yahoo買家文字評價；不代表所有機器均故障。一位回報加厚腳墊後改善，另有使用者認為調整水平後音量可接受；購前宜實機試運轉，預留通風與維修空間，異常聲由原廠檢查。",
+          "reportCount": 6,
+          "sources": [
+            {
+              "platform": "Mobile01",
+              "title": "SANLUX 台灣三洋 10KG熱泵式乾衣機 ASD-100UA",
+              "url": "https://www.mobile01.com/topicdetail.php?f=730&t=6756158"
+            },
+            {
+              "platform": "Mobile01",
+              "title": "SANLUX 台灣三洋 10KG熱泵式乾衣機 ASD-100UA (第2頁)",
+              "url": "https://www.mobile01.com/topicdetail.php?f=730&p=2&t=6756158"
+            },
+            {
+              "platform": "Yahoo購物中心",
+              "title": "【SANLUX 台灣三洋】10KG 熱泵式乾衣機 ASD-100UA | Yahoo購物中心",
+              "url": "https://tw.buy.yahoo.com/gdsale/SANLUX%E5%8F%B0%E7%81%A3%E4%B8%89%E6%B4%8B-10%E5%85%AC%E6%96%A4%E7%86%B1%E6%B3%B5%E6%A9%9F%E4%B9%BE%E8%A1%A3%E6%A9%9F-ASD-100UA-10415249.html"
+            }
+          ]
+        }
+      ],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"ASD-100UA\" (問題 OR 故障 OR 心得)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22ASD-100UA%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97)"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"ASD-100UA\" (問題 OR 故障 OR 心得)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22ASD-100UA%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97)"
+        },
+        {
+          "platform": "Yahoo購物中心",
+          "targetHost": "tw.buy.yahoo.com",
+          "query": "site:tw.buy.yahoo.com \"ASD-100UA\" (問題 OR 故障 OR 評價 OR 噪音)",
+          "queryUrl": "https://www.google.com/search?q=site%3Atw.buy.yahoo.com%20%22ASD-100UA%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%A9%95%E5%83%B9%20OR%20%E5%99%AA%E9%9F%B3)"
+        }
+      ]
+    },
+    "score": 79,
+    "voltage": "110V／60Hz；800W；15A以上接地專用插座，不用延長線或共用迴路插座",
+    "warranty": "所選Yahoo台灣新品頁列台灣三洋原廠保固1年；依三洋官網，購買180天內完成保證書登錄可享熱泵乾衣機基板、馬達、冷卻系統及壓縮機3年，實際以購買當時保證書為準。",
+    "tags": [
+      "10kg",
+      "熱泵式",
+      "110V／60Hz",
+      "含基本安裝",
+      "噪音風險",
+      "洗衣家務"
     ]
   },
-  "score": 79,
-  "voltage": "110V／60Hz；800W；15A以上接地專用插座，不用延長線或共用迴路插座",
-  "warranty": "所選Yahoo台灣新品頁列台灣三洋原廠保固1年；依三洋官網，購買180天內完成保證書登錄可享熱泵乾衣機基板、馬達、冷卻系統及壓縮機3年，實際以購買當時保證書為準。",
-  "tags": [
-    "10kg",
-    "熱泵式",
-    "110V／60Hz",
-    "含基本安裝",
-    "噪音風險",
-    "洗衣家務"
-  ]
-},
-{
-  "id": "dryer-sharp-kd-fkh10dt",
-  "category": "dryer",
-  "rank": 28,
-  "budget": "mid",
-  "channel": "tw",
-  "brand": "SHARP",
-  "model": "KD-FKH10DT",
-  "name": "SHARP 烘布郎 KD-FKH10DT 10kg 熱泵滾筒乾衣機",
-  "topPick": false,
-  "price": {
-    "currency": "TWD",
-    "amount": 26111,
-    "converted": 26111,
-    "basis": "retailer_current",
-    "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-    "note": "2026-11-02 人工核對PChome原主商品與API：SHARP夏普 10公斤熱泵式滾筒乾衣機KD-FKH10DT；Price.P=26111元、Qty=20，商品ID/原頁主價一致，可訂購；不扣個人券、點數或信用卡回饋。實際配送安裝以通路確認。"
-  },
-  "installation": {
-    "status": "included_basic",
-    "note": "所選PChome乾衣機頁標贈拆箱定位，6都指定區域中午前下單提供隔日配達安裝，超大材積不受24h承諾；非標準樓層/偏遠/搬運、專用插座/接地、新排水與堆疊層架另確認。更換門向需洽原廠評估報價。"
-  },
-  "image": "https://cs-a.ecimg.tw/items/DPAI3FA900J14XI/000001_1756689731.jpg",
-  "buyUrl": "https://24h.pchome.com.tw/prod/DPAI3F-A900J14XI",
-  "buyLabel": "PChome 24h購物",
-  "specs": [
-    "類型：獨立滾筒熱泵除濕式乾衣機，不含洗衣功能",
-    "容量：最大10kg；各行程限量依說明書",
-    "乾衣控制：10種行程、3段乾衣程度、濕度感測、防皺與兒童安全鎖",
-    "尺寸：寬 59.8 x 深 66 x 高 85 cm",
-    "重量：50 kg",
-    "電壓／頻率：AC 110V／60Hz；總額定消耗電功率700W",
-    "電源安全：110V、60Hz、15A保險絲迴路，三孔可靠接地專用插座，禁止延長插座",
-    "排水／安裝：內置水箱或接隨附長排水軟管；堅固水平、乾燥通風、5–35°C處使用",
-    "空間：機頂及左右側各至少2.5cm、後側至少5cm，另留完整開門、插頭和抽水箱空間，不遮擋底部通風口",
-    "清潔維護：每次前後清棉絮濾網與濕度感測器，按說明書清熱交換器；隨附烘架供合適物品使用",
-    "門向／堆疊：門向可改，由原廠服務站評估報價；堆疊須使用相容層架，非任意洗衣機皆可疊放"
-  ],
-  "description": "台灣現售10kg、110V熱泵乾衣選項，獨立水箱適合不便增設排水的空間，也可接隨附排水軟管；預留通風與開門空間，並依衣料和清潔習慣評估。",
-  "pros": [
-    "官方明示110V／60Hz、700W及機身尺寸/淨重，供電與空間可先核對",
-    "10kg熱泵除濕與獨立水箱，適合不便拉排風管的家庭比較",
-    "台灣夏普服務專線與所選通路1年保固可查，提供拆箱定位"
-  ],
-  "cons": [
-    "50kg、機深66cm，還需預留後5cm、側/上2.5cm及開門/抽水箱空間",
-    "有個別使用者反映寢具打捲及蒸發器較易積棉絮；尚未達6人跨2站集中問題門檻",
-    "濾網、感測器與熱交換器需定期清理；水箱模式每次需倒水，接排水仍須正確施工",
-    "運轉聲與滿載烘乾時間依材質/脫水與環境而變，不能把60dB宣傳或35分鐘快烘當所有情境實測"
-  ],
-  "bestFor": "需要10kg獨立熱泵乾衣、已有110V接地專用插座，並能保留通風與保養空間的家庭。",
-  "recommendation": "作為台灣現售10kg熱泵乾衣補充選項；以水箱/排水配置、搬運空間和日常棉絮維護評估，不列Top Pick。",
-  "releaseDate": "找不到",
-  "historicalLow": {
-    "status": "not_found",
-    "amount": null,
-    "currency": "TWD",
-    "converted": null,
-    "sourceUrl": "",
-    "sourceTitle": "",
-    "evidenceSnippet": "",
-    "sourceKind": "not_found",
-    "confidence": "not_found",
-    "checkedAt": "2026-10-31",
-    "note": "實讀FindPrice完整型號比價、LBJ exact查詢、PChome及momo原頁；月繳69元、3000元層架與洗乾組合排除。未取得可信新品通路可重現日期的獨立歷史最低點；不以當前27900元、折扣標示或未知追價網站自動記錄推定史低。"
-  },
-  "issueResearch": {
-    "status": "no_common_issue",
-    "checkedAt": "2026-10-31",
-    "summary": "截至查核日，查無達門檻的集中負評／災情",
-    "issues": [],
-    "checkedSources": [
-      {
-        "platform": "Mobile01",
-        "targetHost": "mobile01.com",
-        "query": "\"KD-FKH10DT\" site:mobile01.com (心得 OR 故障 OR 問題)",
-        "queryUrl": "https://www.google.com/search?q=%22KD-FKH10DT%22%20site%3Amobile01.com%20%28%E5%BF%83%E5%BE%97%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%95%8F%E9%A1%8C%29"
-      },
-      {
-        "platform": "PTT",
-        "targetHost": "ptt.cc",
-        "query": "\"KD-FKH10DT\" site:ptt.cc (心得 OR 故障 OR 問題)",
-        "queryUrl": "https://www.google.com/search?q=%22KD-FKH10DT%22%20site%3Aptt.cc%20%28%E5%BF%83%E5%BE%97%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%95%8F%E9%A1%8C%29"
-      },
-      {
-        "platform": "Dcard",
-        "targetHost": "dcard.tw",
-        "query": "\"KD-FKH10DT\" site:dcard.tw (心得 OR 故障 OR 問題)",
-        "queryUrl": "https://www.google.com/search?q=%22KD-FKH10DT%22%20site%3Adcard.tw%20%28%E5%BF%83%E5%BE%97%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%95%8F%E9%A1%8C%29"
-      }
+  {
+    "id": "dryer-sharp-kd-fkh10dt",
+    "category": "dryer",
+    "rank": 28,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "SHARP",
+    "model": "KD-FKH10DT",
+    "name": "SHARP 烘布郎 KD-FKH10DT 10kg 熱泵滾筒乾衣機",
+    "topPick": false,
+    "price": {
+      "currency": "TWD",
+      "amount": 26111,
+      "converted": 26111,
+      "basis": "retailer_current",
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-02 人工核對PChome原主商品與API：SHARP夏普 10公斤熱泵式滾筒乾衣機KD-FKH10DT；Price.P=26111元、Qty=20，商品ID/原頁主價一致，可訂購；不扣個人券、點數或信用卡回饋。實際配送安裝以通路確認。"
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "所選PChome乾衣機頁標贈拆箱定位，6都指定區域中午前下單提供隔日配達安裝，超大材積不受24h承諾；非標準樓層/偏遠/搬運、專用插座/接地、新排水與堆疊層架另確認。更換門向需洽原廠評估報價。"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DPAI3FA900J14XI/000001_1756689731.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPAI3F-A900J14XI",
+    "buyLabel": "PChome 24h購物",
+    "specs": [
+      "類型：獨立滾筒熱泵除濕式乾衣機，不含洗衣功能",
+      "容量：最大10kg；各行程限量依說明書",
+      "乾衣控制：10種行程、3段乾衣程度、濕度感測、防皺與兒童安全鎖",
+      "尺寸：寬 59.8 x 深 66 x 高 85 cm",
+      "重量：50 kg",
+      "電壓／頻率：AC 110V／60Hz；總額定消耗電功率700W",
+      "電源安全：110V、60Hz、15A保險絲迴路，三孔可靠接地專用插座，禁止延長插座",
+      "排水／安裝：內置水箱或接隨附長排水軟管；堅固水平、乾燥通風、5–35°C處使用",
+      "空間：機頂及左右側各至少2.5cm、後側至少5cm，另留完整開門、插頭和抽水箱空間，不遮擋底部通風口",
+      "清潔維護：每次前後清棉絮濾網與濕度感測器，按說明書清熱交換器；隨附烘架供合適物品使用",
+      "門向／堆疊：門向可改，由原廠服務站評估報價；堆疊須使用相容層架，非任意洗衣機皆可疊放"
+    ],
+    "description": "台灣現售10kg、110V熱泵乾衣選項，獨立水箱適合不便增設排水的空間，也可接隨附排水軟管；預留通風與開門空間，並依衣料和清潔習慣評估。",
+    "pros": [
+      "官方明示110V／60Hz、700W及機身尺寸/淨重，供電與空間可先核對",
+      "10kg熱泵除濕與獨立水箱，適合不便拉排風管的家庭比較",
+      "台灣夏普服務專線與所選通路1年保固可查，提供拆箱定位"
+    ],
+    "cons": [
+      "50kg、機深66cm，還需預留後5cm、側/上2.5cm及開門/抽水箱空間",
+      "有個別使用者反映寢具打捲及蒸發器較易積棉絮；尚未達6人跨2站集中問題門檻",
+      "濾網、感測器與熱交換器需定期清理；水箱模式每次需倒水，接排水仍須正確施工",
+      "運轉聲與滿載烘乾時間依材質/脫水與環境而變，不能把60dB宣傳或35分鐘快烘當所有情境實測"
+    ],
+    "bestFor": "需要10kg獨立熱泵乾衣、已有110V接地專用插座，並能保留通風與保養空間的家庭。",
+    "recommendation": "作為台灣現售10kg熱泵乾衣補充選項；以水箱/排水配置、搬運空間和日常棉絮維護評估，不列Top Pick。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-31",
+      "note": "實讀FindPrice完整型號比價、LBJ exact查詢、PChome及momo原頁；月繳69元、3000元層架與洗乾組合排除。未取得可信新品通路可重現日期的獨立歷史最低點；不以當前27900元、折扣標示或未知追價網站自動記錄推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-31",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"KD-FKH10DT\" site:mobile01.com (心得 OR 故障 OR 問題)",
+          "queryUrl": "https://www.google.com/search?q=%22KD-FKH10DT%22%20site%3Amobile01.com%20%28%E5%BF%83%E5%BE%97%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%95%8F%E9%A1%8C%29"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "\"KD-FKH10DT\" site:ptt.cc (心得 OR 故障 OR 問題)",
+          "queryUrl": "https://www.google.com/search?q=%22KD-FKH10DT%22%20site%3Aptt.cc%20%28%E5%BF%83%E5%BE%97%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%95%8F%E9%A1%8C%29"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "\"KD-FKH10DT\" site:dcard.tw (心得 OR 故障 OR 問題)",
+          "queryUrl": "https://www.google.com/search?q=%22KD-FKH10DT%22%20site%3Adcard.tw%20%28%E5%BF%83%E5%BE%97%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%95%8F%E9%A1%8C%29"
+        }
+      ]
+    },
+    "score": 83,
+    "voltage": "AC 110V／60Hz、700W；15A保險絲迴路及可靠接地專用三孔插座，禁止延長插座。",
+    "warranty": "所選PChome台灣新品頁明列保固期1年及台灣夏普0809-090-510；原廠募資規格另列網上登錄馬達5年，但登錄期限/適用購買日應先核對，不直接承諾所有新購均延長。",
+    "tags": [
+      "10kg",
+      "熱泵式",
+      "110V 60Hz",
+      "獨立水箱",
+      "基本定位"
     ]
-  },
-  "score": 83,
-  "voltage": "AC 110V／60Hz、700W；15A保險絲迴路及可靠接地專用三孔插座，禁止延長插座。",
-  "warranty": "所選PChome台灣新品頁明列保固期1年及台灣夏普0809-090-510；原廠募資規格另列網上登錄馬達5年，但登錄期限/適用購買日應先核對，不直接承諾所有新購均延長。",
-  "tags": [
-    "10kg",
-    "熱泵式",
-    "110V 60Hz",
-    "獨立水箱",
-    "基本定位"
-  ]
-}
+  }
 ]);
 })();

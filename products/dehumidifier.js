@@ -117,11 +117,12 @@
       "currency": "TWD",
       "amount": 20900,
       "converted": 20900,
-      "confidence": "PChome 2026-09-03 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-03 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4NA900JMY77/000001_1783337653.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ4N-A900JMY77",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "22L 級",
       "雙變頻",
@@ -407,11 +408,12 @@
       "currency": "TWD",
       "amount": 5690,
       "converted": 5690,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "confidence": "PChome 2026-07-11 API 查核價",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ34A900HD2SP/000001_1767074559.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ34-A900HD2SP",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "10L 級",
       "第六感智能",
@@ -1478,11 +1480,12 @@
       "currency": "TWD",
       "amount": 3790,
       "converted": 3790,
-      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3SA900I7NSN/000001_1767929673.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3S-A900I7NSN",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "6L",
       "二級能效",
@@ -2063,11 +2066,12 @@
       "currency": "TWD",
       "amount": 16989,
       "converted": 16989,
-      "confidence": "Costco 好市多 2026-07-11 頁面查核價"
+      "confidence": "Costco 好市多 2026-07-11 頁面查核價",
+      "note": "2026-11-04 Chrome開啟原精確商品URL後轉向同通路分類列表，沒有原商品編號的主區；不借列表其他型號價格或加入購物車判定本品現貨。 金額保留為舊參考價；未取得原廠停產證據。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/hf8/hd0/64882598379550.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Dehumidifiers-Dry-Cabinets/3M-Filtrete-20-L-Air-Purifier-Dehumidifier-FD-Y200L/p/133200",
-    "buyLabel": "Costco 好市多",
+    "buyLabel": "Costco（原連結轉分類，供貨待確認）",
     "specs": [
       "20 公升/日",
       "水箱 6.2 公升",

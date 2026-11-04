@@ -835,10 +835,10 @@
       "amount": 1980,
       "converted": 1980,
       "confidence": "Yahoo 購物中心 2026-08-07 exact-model 公開價",
-      "note": "2026-11-01 Yahoo選定原商品頁顯示已停售，零售下架不等同原廠整型停產；不採頁面殘留價格更新，保留原參考價及待查通路。"
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。 2026-11-01 Yahoo選定原商品頁顯示已停售，零售下架不等同原廠整型停產；不採頁面殘留價格更新，保留原參考價及待查通路。"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo 購物中心",
+    "buyLabel": "Yahoo 購物中心（來源待確認）",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=11965999",
     "specs": [
       "鍋具：WMF ASTORIA 低身湯鍋 20cm 2.5L",
@@ -937,7 +937,7 @@
       "amount": 2860,
       "converted": 2860,
       "confidence": "Yahoo購物中心 2026-08-15 exact-model 自營新品公開價",
-      "note": "2026-10-31 原Yahoo exact28cm頁HTTP404，未取得可確認的同型號替代供貨，不套用其他鍋款或推薦價。"
+      "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。 2026-10-31 原Yahoo exact28cm頁HTTP404，未取得可確認的同型號替代供貨，不套用其他鍋款或推薦價。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心（現售待確認）",
@@ -1450,10 +1450,11 @@
       "currency": "TWD",
       "amount": 5125,
       "converted": 5125,
-      "confidence": "PChome 2026-07-12 API 查核價"
+      "confidence": "PChome 2026-07-12 API 查核價",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "channel": "tw",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEER19-A900GPL2R",
     "specs": [
       "鍋具：LE CREUSET-典藏琺瑯鑄鐵鍋圓鍋16cm(醇酒紅-金頭-內鍋白)",
@@ -1649,11 +1650,11 @@
       "amount": 6864,
       "converted": 6864,
       "confidence": "Yahoo購物中心 2026-08-28 自營 exact-model 新品頁公開價",
-      "note": "2026-11-01 Yahoo選定原商品頁顯示已停售，零售下架不等同原廠整型停產；不採頁面殘留價格更新，保留原參考價及待查通路。"
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。 2026-11-01 Yahoo選定原商品頁顯示已停售，零售下架不等同原廠整型停產；不採頁面殘留價格更新，保留原參考價及待查通路。"
     },
     "image": "https://cs-a.ecimg.tw/items/DEAWMJA900JMZA5/000001_1768290148.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/WMF%E5%BE%B7%E5%9C%8B%E8%A3%BDFusiontecMineral%E5%A3%BA%E5%9E%8B%E9%8D%8B12-5cm1-7L%E9%89%91%E9%87%91%E8%89%B2%E9%99%B6%E6%99%B6%E9%8D%8B-11964316.html",
-    "buyLabel": "Yahoo購物中心自營",
+    "buyLabel": "Yahoo購物中心自營（來源待確認）",
     "specs": [
       "12.5cm",
       "1.7L",
@@ -1939,11 +1940,12 @@
       "currency": "TWD",
       "amount": 1946,
       "converted": 1946,
-      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DEAWMLA900JSTI6/000001_1773108785.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEAWML-A900JSTI6",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "不沾塗層",
       "單柄",
@@ -2332,11 +2334,12 @@
       "currency": "TWD",
       "amount": 4399,
       "converted": 4399,
-      "confidence": "ZWILLING 台灣官方 2026-07-17 商品頁公開現貨價"
+      "confidence": "ZWILLING 台灣官方 2026-07-17 商品頁公開現貨價",
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
     },
     "image": "https://cdn-general.cybassets.com/media/W1siZiIsIjI5NjAzL3Byb2R1Y3RzLzY2NzY4OTM5LzE3NzQyNDc2OTVfYzA5NWI2ZTE5OTlkMDRiOGI3ZTAuanBlZyJdLFsicCIsInRodW1iIiwiNjAweDYwMCJdXQ.jpeg?sha=9fa2e8a058d23cc1",
     "buyUrl": "https://www.zwilling.com.tw/products/1034435",
-    "buyLabel": "ZWILLING 台灣官方",
+    "buyLabel": "ZWILLING 台灣官方（來源待確認）",
     "specs": [
       "16cm / 1.5L 與 20cm / 3L 湯鍋",
       "5 件組：兩只湯鍋、可拆手柄與玻璃鍋蓋",
@@ -2434,11 +2437,12 @@
       "currency": "TWD",
       "amount": 3680,
       "converted": 3680,
-      "confidence": "ZWILLING 台灣官方 2026-07-24 exact-SKU 公開現貨價"
+      "confidence": "ZWILLING 台灣官方 2026-07-24 exact-SKU 公開現貨價",
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
     },
     "image": "https://cdn-general.cybassets.com/media/W1siZiIsIjI5NjAzL3Byb2R1Y3RzLzY3NjAyNjc1LzE3Nzk2OTE2NDdfYzA4M2RlYzExYmIzMDgzNmVkOTMuanBlZyJdLFsicCIsInRodW1iIiwiMTAyNHgxMDI0Il1d.jpeg?sha=cdda42555954fd10",
     "buyUrl": "https://www.zwilling.com.tw/products/1027801",
-    "buyLabel": "ZWILLING 台灣官方",
+    "buyLabel": "ZWILLING 台灣官方（來源待確認）",
     "specs": [
       "直徑 28cm（不含把手）",
       "鋁合金鍋身、CERAFORCE 陶瓷不沾塗層",
@@ -2539,11 +2543,12 @@
       "currency": "TWD",
       "amount": 899,
       "converted": 899,
-      "confidence": "IKEA 台灣官方 2026-07-30 exact-article 公開價；線上庫存 20"
+      "confidence": "IKEA 台灣官方 2026-07-30 exact-article 公開價；線上庫存 20",
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
     },
     "image": "https://www.ikea.com.tw/dairyfarm/tw/images/573/1257342_PE925736_S4.jpg",
     "buyUrl": "https://www.ikea.com.tw/zh/products/cookware/pans/hemkomst-art-60580100",
-    "buyLabel": "IKEA 台灣官方",
+    "buyLabel": "IKEA 台灣官方（來源待確認）",
     "specs": [
       "尺寸：高 5 x 直徑 28 cm；含把手長 48 cm",
       "淨重 1.12 kg",
@@ -2644,11 +2649,12 @@
       "amount": 7900,
       "converted": 7900,
       "confidence": "台灣林內官方 exact-model 頁公開建議售價 NT$7,900",
-      "basis": "official_suggested"
+      "basis": "official_suggested",
+      "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。"
     },
     "image": "https://www.cbk.tw/rwd1033/Store/oImages/RBO-MN22WH.jpg",
     "buyUrl": "https://www.rinnai.com.tw/Product/V3/378",
-    "buyLabel": "台灣林內官方資料（建議售價）",
+    "buyLabel": "台灣林內官方資料（建議售價）（來源待確認）",
     "installation": {
       "status": "not_stated",
       "note": "鍋具不需到府安裝；官方頁未提供安裝服務，首次使用與清潔保養應依說明書。"
@@ -2751,11 +2757,12 @@
       "amount": 2552,
       "converted": 2552,
       "confidence": "Coupang 酷澎 2026-08-20 exact-model 5214.28 公開新品價 NT$2,552，頁面顯示 8 件",
-      "basis": "retailer_current"
+      "basis": "retailer_current",
+      "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。"
     },
     "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/772459132424242-86a3f0c9-b0b5-49df-bd77-11459011362f.jpg",
     "buyUrl": "https://www.tw.coupang.com/products/de-Buyer-%E7%95%A2%E8%80%B6-%E8%BC%95%E7%A4%A6%E8%97%8D%E9%90%B5%E7%B3%BB%E5%88%97-%E5%96%AE%E6%9F%84%E6%B7%B1%E7%85%8E%E7%82%92%E9%8D%8B-5214.28-1960g%2C-28cm%2C-1%E5%80%8B-466833169661956?itemId=466833169694727&vendorItemId=466833169678337",
-    "buyLabel": "Coupang 酷澎",
+    "buyLabel": "Coupang 酷澎（來源待確認）",
     "installation": {
       "status": "not_stated",
       "note": "鍋具不需到府安裝；初次開鍋、養鍋、清潔與熱源使用需依 de Buyer 官方說明。"
@@ -2825,6 +2832,102 @@
         }
       ]
     }
+  },
+{
+  "id": "cookware-sambonet-titan-pro-green-51094-28",
+  "rank": 29,
+  "topPick": false,
+  "brand": "Sambonet",
+  "model": "51094-28",
+  "name": "Sambonet Titan Pro Green 28cm單柄陶瓷不沾平底鍋",
+  "image": "https://cdn-general.cybassets.com/media/W1siZiIsIjczODIvcHJvZHVjdHMvNjY5MjYyMjUvMTc3NzI2NzkzNF85MzZjZTA4ZjJjMDJkMjEwNjkzOC5qcGVnIl0sWyJwIiwidGh1bWIiLCIyNDB4MjQwIl1d.jpeg?sha=688491b13cb5f87d",
+  "price": {
+    "currency": "TWD",
+    "amount": 5550,
+    "converted": 5550,
+    "basis": "retailer_current",
+    "confidence": "2026-11-04 Pinkoi俊欣行Sambonet台灣獨家代理exact Pro Green單柄28cm主價5550、數量僅可選1，主放入購物車/立刻結帳active，原頁數量input data-stock=1；非schema或推薦商品。",
+    "note": "採Pinkoi同代理商該款公開新品主價。IUSE官網同商品102026雖主價5550/文案即將售完，但同頁實際variants_info庫存0+deny且控制程式隱藏購買按鈕，已排除；不把其靜態button當可購。Pinkoi未操作加車，不扣券/點數。"
+  },
+  "channel": "tw",
+  "buyLabel": "Pinkoi俊欣行Sambonet台灣獨家代理",
+  "buyUrl": "https://www.pinkoi.com/product/SuvhBf3L",
+  "specs": [
+    "類型：28cm單柄平底煎鍋；Titan Pro Green系列",
+    "完整型號：51094-28；EAN8014808842054；台灣代理商品編號102026",
+    "材質：鋁合金鍋身、鈦強化層與陶瓷不沾塗層、雙層不鏽鋼鍋底",
+    "尺寸：鍋口直徑28 x 高4.9 cm；不把外箱三尺寸列本體",
+    "容量：2.7L",
+    "重量：1.27kg（原廠Weight of article）；台灣通路約1.3kg為四捨五入",
+    "爐具：瓦斯爐、電陶爐、IH電磁爐、電爐；台灣通路明示不可微波/烤箱",
+    "清潔：中性清潔劑及柔軟海綿；避免空燒、金屬鍋鏟及磨蝕刷具",
+    "配件：此選定版本為單柄平底鍋；不把通用材質段的玻璃蓋文字推為附蓋",
+    "產地：義大利"
+  ],
+  "description": "Titan Pro Green為2025引進的陶瓷不沾鍋新系列，完整SKU51094-28是28cm單柄平底鍋，與舊catalog只有Titan28cm未具體SKU的款式分別保留。台灣俊欣行代理通路仍有可下單單鍋頁，不能用IUSE官網缺貨狀態推原廠停產。",
+  "pros": [
+    "原廠完整料號、EAN及引進年份可核",
+    "陶瓷塗層與不鏽鋼複合鍋底，適用IH",
+    "28cm/2.7L，原廠明示本體1.27kg供操作評估"
+  ],
+  "cons": [
+    "仍需避免空燒與金屬刮傷，塗層耗損及清潔方式影響壽命",
+    "台灣exact商品頁沒有明示固定保固年限或塗層耗損保固範圍，先向俊欣行確認",
+    "Pinkoi原頁目前只可選1件，主站IUSE同款缺貨；不能承諾後續補貨與交期"
+  ],
+  "bestFor": "希望28cm陶瓷不沾單鍋、使用IH並願意依塗層規範保養的家庭。",
+  "recommendation": "陶瓷塗層新系列補充款：確認完整51094-28及單鍋版本，按總價、代理售後和塗層保養評估；沒有舊Titan官方停產證據，保留舊款。",
+  "voltage": "非電器，無需供電；適用瓦斯、電陶、IH及電爐，爐具自身電力規格依該設備。",
+  "warranty": "台灣俊欣行股份有限公司代理通路售後（Pinkoi商店營業人/統編12515600，IUSE官網關於我們確認俊欣行成立IUSE）。此exact鍋具頁未明示固定原廠保固年限或塗層耗損保固範圍；新品瑕疵及保固條件應向俊欣行依購買憑證確認，不借柳宗理或其他品牌年限。",
+  "score": 82,
+  "budget": "premium",
+  "tags": [
+    "陶瓷不沾",
+    "28cm",
+    "IH可用",
+    "單柄平底鍋",
+    "台灣代理",
+    "Titan Pro Green"
+  ],
+  "category": "cookware",
+  "releaseDate": "2025",
+  "historicalLow": {
+    "status": "not_found",
+    "amount": null,
+    "currency": "TWD",
+    "converted": null,
+    "sourceUrl": "",
+    "sourceTitle": "",
+    "evidenceSnippet": "",
+    "sourceKind": "not_found",
+    "confidence": "not_found",
+    "checkedAt": "2026-11-04",
+    "note": "實讀FindPrice/Feebee完整51094-28以及Sambonet Pro Green28價格頁。完整SKU查詢混一般Sambonet，具體尺寸/系列查詢才見Pinkoi單柄平底28cm5550，其他24cm4400、雙耳淺鍋8050、湯鍋10080不同配置排除；無同款可靠歷史日期/曲線，不把目前5550或其他站搜尋快取折價當史低。"
+  },
+  "issueResearch": {
+    "status": "no_common_issue",
+    "checkedAt": "2026-11-04",
+    "summary": "截至查核日，查無達門檻的集中負評／災情",
+    "issues": [],
+    "checkedSources": [
+      {
+        "platform": "Mobile01",
+        "targetHost": "mobile01.com",
+        "query": "site:mobile01.com \"Sambonet\" \"51094-28\" (問題 OR 故障 OR 心得)",
+        "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Sambonet%22%20%2251094-28%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97)"
+      },
+      {
+        "platform": "Reddit",
+        "targetHost": "reddit.com",
+        "query": "site:reddit.com \"Sambonet\" \"51094-28\" (problem OR issue OR coating)",
+        "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Sambonet%22%20%2251094-28%22%20(problem%20OR%20issue%20OR%20coating)"
+      }
+    ]
+  },
+  "installation": {
+    "status": "not_stated",
+    "note": "非電器鍋具，不涉及安裝；台灣通路配送條件依Pinkoi原頁，不把IH可用誤當需插電。"
   }
+}
 ]);
 })();

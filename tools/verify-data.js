@@ -55,7 +55,7 @@ const {
   GARMENTCARE_TOP_PICK_MODEL,
   COFFEE_TYPE_COUNTS,
   COFFEE_BUDGET_COUNTS,
-  COFFEE_TYPE_BUDGET_COUNT,
+  COFFEE_TYPE_BUDGET_COUNTS,
   COFFEE_SEMI_AUTO_GRINDER_COUNTS,
   COFFEE_MIN_BRAND_COUNT,
   COFFEE_MAX_PRODUCTS_PER_BRAND,
@@ -1982,7 +1982,8 @@ function validateCategoryContent(products, failures) {
     assert(productsOfType.length === expectedCount, `coffee ${type} count must be ${expectedCount}, got ${productsOfType.length}`, failures);
     for (const budget of COFFEE_BUDGET_COUNTS.keys()) {
       const count = productsOfType.filter((product) => product.budget === budget).length;
-      assert(count === COFFEE_TYPE_BUDGET_COUNT, `coffee ${type} ${budget} count must be ${COFFEE_TYPE_BUDGET_COUNT}, got ${count}`, failures);
+      const expectedBudgetCount = COFFEE_TYPE_BUDGET_COUNTS.get(type).get(budget);
+      assert(count === expectedBudgetCount, `coffee ${type} ${budget} count must be ${expectedBudgetCount}, got ${count}`, failures);
     }
   }
   for (const [budget, expectedCount] of COFFEE_BUDGET_COUNTS) {

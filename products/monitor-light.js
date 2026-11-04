@@ -37,18 +37,19 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 4290,
-      "converted": 4290,
+      "amount": 3611,
+      "converted": 3611,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 人工核對官方台灣商城／代理商單品選項公開價格，不扣會員折抵、信用卡回饋或加購優惠。"
+      "confidence": "2026-11-04 Chrome人工核對官方連出的可信通路exact-model主價、選定版本與啟用購買按鈕。",
+      "note": "Chrome人工核對BenQ官方導向PChome太空黑完整ScreenBar Pro新品主價3611元，11/04單件95折、無適用折價券，數量1與下單再折按鈕啟用、PChome倉庫24小時出貨；含黑色變壓器贈品，不計P幣或信用卡回饋。"
     },
     "installation": {
       "status": "not_stated",
       "note": "不涉及固定配線施工；自行安裝前須核對螢幕頂邊、夾具、曲率及額定USB供電，購買頁未列到府安裝服務。"
     },
     "image": "https://image.benq.com/is/image/benqco/screenbar-pro-black-01?$ResponsivePreset$&fmt=png-alpha",
-    "buyUrl": "https://www.benq.com/zh-tw/lighting/monitor-light/screenbar-pro/buy.html",
-    "buyLabel": "BenQ 台灣官方商城",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABP4-A900HGJLQ",
+    "buyLabel": "PChome 24h 太空黑新品",
     "specs": [
       "類型：桌機螢幕掛燈",
       "配光：ASYM-Light 非對稱前向桌面照明",
@@ -230,7 +231,8 @@
       "amount": 3490,
       "converted": 3490,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 人工核對官方台灣商城／代理商單品選項公開價格，不扣會員折抵、信用卡回饋或加購優惠。"
+      "confidence": "2026-11-04 Chrome人工核對所選完整掛燈方案主價與供貨狀態。",
+      "note": "2026-11-04 Chrome核選定「E1133掛燈單品」主價3490元，加入購物車／立即購買可用；490元控制器底座與其他加購品不是掛燈價格。"
     },
     "installation": {
       "status": "not_stated",
@@ -238,7 +240,7 @@
     },
     "image": "https://shoplineimg.com/5a238dc8080f0658ad003280/682d7caff11f630011504b64/800x.webp?source_format=jpg",
     "buyUrl": "https://www.witsper.com/products/elesense-gemini-light-ultra-e1133",
-    "buyLabel": "智選家（掛燈單品）",
+    "buyLabel": "WitsPer 智選家（E1133掛燈單品）",
     "specs": [
       "類型：50cm 前後補光桌機螢幕掛燈",
       "配光：非對稱定向投光 3.0、隱藏式光源；DC 調光",
@@ -421,7 +423,8 @@
       "amount": 2490,
       "converted": 2490,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 人工核對官方台灣商城／代理商單品選項公開價格，不扣會員折抵、信用卡回饋或加購優惠。"
+      "confidence": "2026-11-04 Chrome人工核對所選完整掛燈方案主價與供貨狀態。",
+      "note": "2026-11-04 Chrome核灰色E1132主價2490元、現在預購及立即購買可用；頁面明示預計11月中旬到貨、到貨後依訂單順序出貨，不承諾現貨。"
     },
     "installation": {
       "status": "not_stated",
@@ -429,7 +432,7 @@
     },
     "image": "https://shoplineimg.com/5a238dc8080f0658ad003280/64fac98dc7899a3016d2913b/800x.webp?source_format=jpg",
     "buyUrl": "https://www.witsper.com/products/elesense-gemini-light-e1132",
-    "buyLabel": "智選家台灣公司貨",
+    "buyLabel": "WitsPer 智選家（灰色預購）",
     "specs": [
       "類型：50cm 前後補光桌機螢幕掛燈",
       "配光：非對稱定向投光 2.0；DC 調光",
@@ -789,7 +792,8 @@
       "amount": 1180,
       "converted": 1180,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 KINYO 台灣官方商城公開單件現價；不扣會員金或多件優惠"
+      "confidence": "2026-08-31 KINYO 台灣官方商城公開單件現價；不扣會員金或多件優惠",
+      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
     },
     "installation": {
       "status": "not_stated",
@@ -797,7 +801,7 @@
     },
     "image": "https://shoplineimg.com/5d52c4cef982a4000166da12/628d8cda7dedc00015b40803/800x.webp?source_format=jpg",
     "buyUrl": "https://www.kinyo.tw/products/pced855",
-    "buyLabel": "KINYO 台灣官方商城",
+    "buyLabel": "KINYO 台灣官方商城（原通路缺貨，查看供貨）",
     "specs": [
       "類型：46cm 桌機螢幕掛燈",
       "配光：45° 不對稱前向光學；88 顆 LED",
@@ -905,8 +909,8 @@
       "amount": 2490,
       "converted": 2490,
       "basis": "retailer_current",
-      "confidence": "2026-10-24人工核對www.witsper.com同型號同版本公開TWD 2490；未扣個人化券、信用卡或點數。",
-      "note": "2026-10-24單掛燈（燈x1、控制器x1、線x1）2490元；預設3490元是雙掛燈組，不跨套裝採價。"
+      "confidence": "2026-11-04 Chrome人工核對所選完整掛燈方案主價與供貨狀態。",
+      "note": "2026-11-04 Chrome實際選「單掛燈（掛燈1、無線控制器1、線材1）」後主價2490元，加入購物車／立即購買可用；原頁預設雙燈3490元，購買時須切換單掛燈，沒有將雙入價拆算或採配件價。"
     },
     "installation": {
       "status": "not_stated",
@@ -914,7 +918,7 @@
     },
     "image": "https://shoplineimg.com/5a238dc8080f0658ad003280/63455214160ac5001ff0b78d/800x.webp?source_format=jpg",
     "buyUrl": "https://www.witsper.com/products/elesense-uni-light-e1129",
-    "buyLabel": "智選家（請選單掛燈）",
+    "buyLabel": "WitsPer 智選家（請選單掛燈）",
     "specs": [
       "類型：45cm 桌機螢幕掛燈；採單燈，不以雙燈套裝重複計數",
       "配光：非對稱前向桌面光，PWM 調光",
@@ -1173,7 +1177,8 @@
       "amount": 103.99,
       "converted": 3408,
       "basis": "retailer_current",
-      "confidence": "Yeelight 美國官方商店 2026-08-31 Chrome原頁USD公開新品單件價（1-pack）。本輪重取ExchangeRate-API同批次USD/TWD 31.649299（2026-08-31 00:02 UTC）換算；海外新品價格未含國際運費、進口稅；需核對電壓、插頭與USB變壓器額定，台灣保固及跨國送修不保證。；ExchangeRate-API 2026-11-04 匯率換算"
+      "confidence": "Yeelight 美國官方商店 2026-08-31 Chrome原頁USD公開新品單件價（1-pack）。本輪重取ExchangeRate-API同批次USD/TWD 31.649299（2026-08-31 00:02 UTC）換算；海外新品價格未含國際運費、進口稅；需核對電壓、插頭與USB變壓器額定，台灣保固及跨國送修不保證。；ExchangeRate-API 2026-11-04 匯率換算",
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
     },
     "installation": {
       "status": "not_stated",
@@ -1181,7 +1186,7 @@
     },
     "image": "https://store.yeelight.com/cdn/shop/files/01.jpg?v=1745911254",
     "buyUrl": "https://store.yeelight.com/products/yeelight-monitor-light-bar-pro-flagship-edition",
-    "buyLabel": "Yeelight 美國官方商店",
+    "buyLabel": "Yeelight 美國官方商店（來源待確認）",
     "specs": [
       "類型：桌機螢幕磁吸夾掛式前照＋RGB 工作燈",
       "配光：前方工作照明與後方氣氛光；磁吸燈體可調25°",
@@ -1266,10 +1271,11 @@
     "channel": "global",
     "price": {
       "currency": "USD",
-      "amount": 79.99,
-      "converted": 2621,
+      "amount": 69.99,
+      "converted": 2294,
       "basis": "retailer_current",
-      "confidence": "Quntis 官方商店 2026-08-31 Chrome原頁USD公開新品單件價。本輪重取ExchangeRate-API同批次USD/TWD 31.649299（2026-08-31 00:02 UTC）換算；海外新品價格未含國際運費、進口稅；需核對電壓、插頭與USB變壓器額定，台灣保固及跨國送修不保證。；ExchangeRate-API 2026-11-04 匯率換算"
+      "confidence": "2026-11-04 人工讀取exact-model官方／可信通路原商品主價與選定版本供貨，不採schema、原價或加購品價。",
+      "note": "原頁主購買區Sale price及VariantCode F51BK逐型可核，Add to cart未disabled；不採相關商品、加購或不同背光／插頭版本。 原幣USD公開單件價；未含國際運費、進口稅、台灣供電／插頭及海外保固風險。"
     },
     "installation": {
       "status": "not_stated",
@@ -1555,10 +1561,11 @@
     "channel": "global",
     "price": {
       "currency": "USD",
-      "amount": 66.99,
-      "converted": 2195,
+      "amount": 69.99,
+      "converted": 2294,
       "basis": "retailer_current",
-      "confidence": "Quntis 官方商店 2026-08-31 Chrome原頁USD公開新品單件價。本輪重取ExchangeRate-API同批次USD/TWD 31.649299（2026-08-31 00:02 UTC）換算；海外新品價格未含國際運費、進口稅；需核對電壓、插頭與USB變壓器額定，台灣保固及跨國送修不保證。；ExchangeRate-API 2026-11-04 匯率換算"
+      "confidence": "2026-11-04 人工讀取exact-model官方／可信通路原商品主價與選定版本供貨，不採schema、原價或加購品價。",
+      "note": "原頁主購買區Sale price及VariantCode I51GY逐型可核，Add to cart未disabled；不採相關商品、加購或不同背光／插頭版本。 原幣USD公開單件價；未含國際運費、進口稅、台灣供電／插頭及海外保固風險。"
     },
     "installation": {
       "status": "not_stated",
@@ -1654,7 +1661,8 @@
       "amount": 75.99,
       "converted": 2490,
       "basis": "retailer_current",
-      "confidence": "Quntis 官方商店 2026-08-31 Chrome原頁USD公開新品單件價（Warmwhite／US）。本輪重取ExchangeRate-API同批次USD/TWD 31.649299（2026-08-31 00:02 UTC）換算；海外新品價格未含國際運費、進口稅；需核對電壓、插頭與USB變壓器額定，台灣保固及跨國送修不保證。；ExchangeRate-API 2026-11-04 匯率換算"
+      "confidence": "Quntis 官方商店 2026-08-31 Chrome原頁USD公開新品單件價（Warmwhite／US）。本輪重取ExchangeRate-API同批次USD/TWD 31.649299（2026-08-31 00:02 UTC）換算；海外新品價格未含國際運費、進口稅；需核對電壓、插頭與USB變壓器額定，台灣保固及跨國送修不保證。；ExchangeRate-API 2026-11-04 匯率換算",
+      "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。"
     },
     "installation": {
       "status": "not_stated",
@@ -1662,7 +1670,7 @@
     },
     "image": "https://www.quntis.com/cdn/shop/files/6391ace427ade714b70fb966024ae804_ebcf4812-c01f-4e7e-9f43-eeca728139a7.jpg?v=1751596993&width=2000",
     "buyUrl": "https://www.quntis.com/products/quntis-led-monitor-light-bar-for-curved-screens-eye-caring-screen-lamp-with-backlight-remote-control-adjustable-brightness",
-    "buyLabel": "Quntis 官方商店",
+    "buyLabel": "Quntis 官方商店（來源待確認）",
     "specs": [
       "類型：桌機螢幕掛燈；66cm雙頭折疊前照＋白背光款",
       "配光：45°前照；雙頭可調，180°折疊",
@@ -1747,10 +1755,11 @@
     "channel": "global",
     "price": {
       "currency": "USD",
-      "amount": 75.99,
-      "converted": 2490,
+      "amount": 69.99,
+      "converted": 2294,
       "basis": "retailer_current",
-      "confidence": "Quntis 官方商店 2026-08-31 Chrome原頁USD公開新品單件價（RGB／US）。本輪重取ExchangeRate-API同批次USD/TWD 31.649299（2026-08-31 00:02 UTC）換算；海外新品價格未含國際運費、進口稅；需核對電壓、插頭與USB變壓器額定，台灣保固及跨國送修不保證。；ExchangeRate-API 2026-11-04 匯率換算"
+      "confidence": "2026-11-04 人工讀取exact-model官方／可信通路原商品主價與選定版本供貨，不採schema、原價或加購品價。",
+      "note": "原頁主購買區Sale price及VariantCode I66BK逐型可核，Add to cart未disabled；不採相關商品、加購或不同背光／插頭版本。 原幣USD公開單件價；未含國際運費、進口稅、台灣供電／插頭及海外保固風險。I66BK固定RGB／US插頭選定版；不改既有海外限制。"
     },
     "installation": {
       "status": "not_stated",

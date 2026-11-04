@@ -217,11 +217,12 @@
       "currency": "TWD",
       "amount": 8090,
       "converted": 8090,
-      "confidence": "momo購物 2026-07-11 頁面查核價"
+      "confidence": "momo購物 2026-07-11 頁面查核價",
+      "note": "2026-11-04 Chrome逐筆查核：Chrome原來源頁明示「商品目前無展售／網頁不存在」或「查無商品資料，商品不存在或已下架」；沒有可購主商品價格；不是原廠停產證據。 保留既有參考價，另查可信現售連結。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAL8LA900H03A0/000001_1760407099.jpg",
     "buyUrl": "https://www.momoshop.com.tw/TP/TP0005935/goodsDetail/TP00059350002059",
-    "buyLabel": "momo購物",
+    "buyLabel": "momo（原來源無展售，查看供貨）",
     "specs": [
       "瞬熱式",
       "溫水洗淨",
@@ -314,11 +315,12 @@
       "currency": "TWD",
       "amount": 12900,
       "converted": 12900,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "confidence": "PChome 2026-07-11 API 查核價",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DEDW1HA900FW2KD/000001_1672380333.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEDW1H-A900FW2KD",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "瞬熱式",
       "UV 除菌",
@@ -508,11 +510,12 @@
       "currency": "TWD",
       "amount": 14300,
       "converted": 14300,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "confidence": "PChome 2026-07-11 API 查核價",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAL6IA900JEWPS/000001_1765348841.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAL6I-A900JEWPS",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "WASHLET",
       "噴嘴自潔",
@@ -1092,11 +1095,12 @@
       "currency": "TWD",
       "amount": 15752,
       "converted": 15752,
-      "confidence": "PChome 2026-08-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAL6WA900I0L73/000001_1729761324.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAL6W-A900I0L73",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "瞬熱式",
       "纖薄設計",

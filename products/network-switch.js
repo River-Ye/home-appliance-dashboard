@@ -148,7 +148,8 @@
       "amount": 1260,
       "converted": 1260,
       "confidence": "PChome 24h 2026-08-24 exact-model 台灣原廠保固新品公開價",
-      "basis": "retailer_current"
+      "basis": "retailer_current",
+      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
     },
     "installation": {
       "status": "excluded",
@@ -156,7 +157,7 @@
     },
     "image": "https://cs-a.ecimg.tw/items/DRAF4HA9008XMTH/000001_1606809222.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAF4H-A9008XMTH",
-    "buyLabel": "PChome 24h",
+    "buyLabel": "PChome 24h（原通路缺貨，查看供貨）",
     "switchProfile": {
       "rj45PortCount": 8,
       "speedTier": "1g",

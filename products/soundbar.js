@@ -703,11 +703,11 @@
       "amount": 17900,
       "converted": 17900,
       "confidence": "momo購物 2026-07-11 頁面查核價",
-      "note": "2026-11-04 momoHWQS700F只回meta18180，正文無選定主商品可購區，保留舊參考價。未取得原廠台灣exact整型停產正證，不據此刪除。"
+      "note": "2026-11-04 Chrome逐筆查核：Chrome原來源頁明示「商品目前無展售／網頁不存在」或「查無商品資料，商品不存在或已下架」；沒有可購主商品價格；不是原廠停產證據。 保留既有參考價，另查可信現售連結。 2026-11-04 momoHWQS700F只回meta18180，正文無選定主商品可購區，保留舊參考價。未取得原廠台灣exact整型停產正證，不據此刪除。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900JMDR4/000001_1776914225.jpg",
     "buyUrl": "https://www.momoshop.com.tw/TP/TP0003952/goodsDetail/TP00039520006676",
-    "buyLabel": "momo購物",
+    "buyLabel": "momo（原來源無展售，查看供貨）",
     "specs": [
       "3.1.2 聲道",
       "Dolby Atmos",
@@ -1486,104 +1486,6 @@
     }
   },
   {
-    "id": "soundbar-extra-15-dmaanj-a900hzbzv",
-    "category": "soundbar",
-    "rank": 16,
-    "budget": "mid",
-    "channel": "tw",
-    "brand": "Bose",
-    "model": "Smart Soundbar 600 Ultra",
-    "name": "家庭娛樂揚聲器 600 Ultra",
-    "price": {
-      "currency": "TWD",
-      "amount": 19900,
-      "converted": 19900,
-      "confidence": "PChome 2026-07-21 API 公開價"
-    },
-    "image": "https://cs-a.ecimg.tw/items/DMAANJA900HZBZV/000001_1729154632.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMAANJ-A900HZBZV",
-    "buyLabel": "PChome",
-    "specs": [
-      "單件式聲霸",
-      "智慧連線",
-      "Bose 調音",
-      "家庭娛樂",
-      "尺寸：查不到",
-      "重量：查不到"
-    ],
-    "description": "Bose Smart Soundbar 600 Ultra 是Soundbar類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
-    "pros": [
-      "安裝門檻低",
-      "可快速補強電視音場"
-    ],
-    "cons": [
-      "後環繞與重低音占用插座",
-      "小空間未必需要高聲道數"
-    ],
-    "bestFor": "想依客廳大小、聲道數與預算挑選家庭劇院的人。",
-    "recommendation": "同類推薦：補足不同聲道、重低音與後環繞配置，方便和電視一起配套。",
-    "score": 78,
-    "voltage": "110V 台灣通路",
-    "warranty": "依 PChome/供應商頁面",
-    "tags": [
-      "Bose",
-      "音樂",
-      "簡潔"
-    ],
-    "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：BigGo DMAANJ-A900HZBZV: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/DMAANJ-A900HZBZV/product?p=1；BigGo Bose Smart Soundbar 600 Ultra: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/Bose%20Smart%20Soundbar%20600%20Ultra/product?p=1。"
-    },
-    "issueResearch": {
-      "status": "no_common_issue",
-      "checkedAt": "2026-08-29",
-      "summary": "截至查核日，查無達門檻的集中負評／災情",
-      "issues": [],
-      "checkedSources": [
-        {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Bose Smart Soundbar 600 Ultra\" (problem OR issue OR defect OR failure)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Bose%20Smart%20Soundbar%20600%20Ultra%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-          "targetHost": "reddit.com"
-        },
-        {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"Bose Smart Soundbar 600 Ultra\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Bose%20Smart%20Soundbar%20600%20Ultra%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "mobile01.com"
-        },
-        {
-          "platform": "PTT",
-          "query": "site:ptt.cc \"Bose Smart Soundbar 600 Ultra\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Bose%20Smart%20Soundbar%20600%20Ultra%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "ptt.cc"
-        },
-        {
-          "platform": "Dcard",
-          "query": "site:dcard.tw \"Bose Smart Soundbar 600 Ultra\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Bose%20Smart%20Soundbar%20600%20Ultra%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "dcard.tw"
-        },
-        {
-          "platform": "YouTube",
-          "query": "\"Bose Smart Soundbar 600 Ultra\" problem issue defect failure broken 災情 故障 異常",
-          "queryUrl": "https://www.youtube.com/results?search_query=%22Bose%20Smart%20Soundbar%20600%20Ultra%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
-          "targetHost": "youtube.com"
-        }
-      ]
-    }
-  },
-  {
     "id": "soundbar-extra-16-dmaalna900hp6mr",
     "category": "soundbar",
     "rank": 17,
@@ -1899,11 +1801,12 @@
       "currency": "TWD",
       "amount": 42900,
       "converted": 42900,
-      "confidence": "PChome 2026-07-31 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-07-31 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAHGA900J5777/000001_1755253698.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAHG-A900J5777",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "7.1.4 聲道",
       "可拆式無線喇叭",
@@ -2592,9 +2495,10 @@
     "name": "11.1.4 聲道旗艦家庭劇院聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 68800,
-      "converted": 68800,
-      "confidence": "PChome 2026-07-24 exact-model 商品 API 公開價；Price.Low 無正值時採 Price.P"
+      "amount": 56900,
+      "converted": 56900,
+      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
+      "note": "Chrome原頁主商品BAR 1300MK2／11.1.4 聲道旗艦家庭劇院聲霸可核對，公開主區售價56900元，購買按鈕可用；不扣個人券、信用卡、點數或贈品。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAHGA900JK94E/000001_1765975501.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAHG-A900JK94E",
@@ -2806,7 +2710,7 @@
       "converted": 32990,
       "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 Sennheiser台灣官方所選AMBEO Soundbar Mini主商品32990元含稅，可立即購買；不採下方Plus/Max/Sub推薦價格，交期以下單頁確認。"
+      "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。 2026-10-31 Sennheiser台灣官方所選AMBEO Soundbar Mini主商品32990元含稅，可立即購買；不採下方Plus/Max/Sub推薦價格，交期以下單頁確認。"
     },
     "installation": {
       "status": "not_stated",
@@ -2814,7 +2718,7 @@
     },
     "image": "https://tw.sennheiser-hearing.com/cdn/shop/files/SBMiniwithicon_1810a5e8-dd2e-4343-af92-ed6036565d5e.png?v=1757563435",
     "buyUrl": "https://tw.sennheiser-hearing.com/zh-tw/products/ambeo-soundbar-mini",
-    "buyLabel": "Sennheiser 台灣官方商城 exact-model 新品",
+    "buyLabel": "Sennheiser 台灣官方商城 exact-model 新品（來源待確認）",
     "specs": [
       "虛擬 7.1.4 聲道；Dolby Atmos、DTS:X、MPEG-H、360 Reality Audio",
       "6 組 Class-D 擴大模組，總輸出 250W RMS",
@@ -3436,7 +3340,7 @@
     ],
     "description": "Sony 台灣現售的多件式實體 5.1 聲道套裝，包含聲霸、重低音、兩顆後環繞與無線擴大機；以一次補齊實體後聲道、Atmos／DTS:X 和 1000W 輸出為主要價值。",
     "pros": [
-      "NT$18,900 已包含聲霸、重低音及兩顆實體後環繞，套裝完整度高",
+      "NT$16,900 已包含聲霸、重低音及兩顆實體後環繞，套裝完整度高",
       "1000W、Dolby Atmos／DTS:X、eARC 與 BRAVIA Connect 規格完整",
       "Sony 台灣官方現售、12 個月保固，尺寸與各組件重量都有 exact-model 官方證據"
     ],
@@ -3794,6 +3698,104 @@
       "海外參考",
       "新產品"
     ]
+  },
+  {
+    "category": "soundbar",
+    "rank": 16,
+    "budget": "mid",
+    "channel": "tw",
+    "image": "https://cs-a.ecimg.tw/items/DMAANJA900HZBZV/000001_1729154632.jpg",
+    "id": "soundbar-bose-smart-soundbar",
+    "topPick": false,
+    "brand": "Bose",
+    "model": "Smart Soundbar",
+    "name": "Smart Soundbar 家庭娛樂聲霸",
+    "price": {
+      "currency": "TWD",
+      "amount": 19900,
+      "converted": 19900,
+      "basis": "retailer_current",
+      "confidence": "2026-11-04 人工核對PChome商品DMAANJ-A900HZBZV原頁h1、主價格19900元與可加入購物車／立即購買；規格明示Smart Soundbar，非600或Ultra。",
+      "note": "台灣官方授權賣場公司貨單機公開價，未扣會員券、信用卡或點數回饋。"
+    },
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAANJ-A900HZBZV",
+    "buyLabel": "PChome",
+    "specs": [
+      "類型：單件式智慧聲霸；2024無編號Smart Soundbar，非Smart Soundbar 600或Smart Ultra Soundbar",
+      "音效：Dolby Atmos、Bose TrueSpace；五個發音單體含兩個向上發聲，支援A.I. Dialogue Mode",
+      "連接：HDMI eARC/ARC與光纖；Wi-Fi、Bluetooth 5.0、AirPlay 2、Google Cast、Spotify Connect；沒有一般HDMI訊源輸入／影像直通",
+      "擴充：可選購Bose Bass Module與後環繞；Personal Surround需另購Ultra Open Earbuds，適用個人聆聽且須確認App／韌體",
+      "供電：AC 100–240V、50/60Hz；額定輸入100W，非擴大機輸出或日常耗電",
+      "尺寸：主機 寬 69.44 x 深 10.39 x 高 5.61 cm",
+      "重量：主機 3.13 kg",
+      "隨附：遙控器含電池、HDMI線、光纖線、電源線與快速指南；台灣原廠保固1年"
+    ],
+    "description": "2024推出的無編號Smart Soundbar以AI對話模式與個人環繞功能更新Smart Soundbar600，適合較小空間。台灣PChome原頁明確是Smart Soundbar；已修正原資料混合600與Ultra的名稱，並獨立重查上市、尺寸、史低與負評。",
+    "pros": [
+      "機身約69.4cm寬，五單體含上射，支援Dolby Atmos與TrueSpace",
+      "HDMI eARC、光纖與多種無線串流，台灣公司貨一年保固",
+      "對話增強及可選購低音／後環繞，擴充方向明確"
+    ],
+    "cons": [
+      "沒有一般HDMI輸入與影像直通，電腦螢幕或訊源需先確認eARC／光纖輸出",
+      "低音與後環繞另購，Personal Surround還需相容耳機",
+      "有單人音色與App易用性負評；設定、Wi-Fi與CEC相容性需逐設備確認，未達集中災情門檻"
+    ],
+    "bestFor": "需要約70cm緊湊聲霸、重視對白與串流，且電視具eARC或光纖輸出的家庭。",
+    "recommendation": "小空間智慧聲霸參考：先確認電視輸出、擺位及低音擴充預算；這是2024 Smart Soundbar，不把600、Ultra或Lifestyle Ultra的功能與災情證據混用。",
+    "score": 78,
+    "voltage": "AC 100–240V／50/60Hz；額定輸入100W（官方Smart Soundbar手冊第6頁）",
+    "warranty": "台灣公司貨原廠保固1年；PChome原頁明示",
+    "tags": [
+      "Bose",
+      "Dolby Atmos",
+      "智慧聲霸",
+      "台灣公司貨"
+    ],
+    "releaseDate": "2024-09-18",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-11-04",
+      "note": "重新以2024無編號Bose Smart Soundbar人工核對BigGo、FindPrice、LBJ與PChome；比價頁顯示台灣單機多為19900元，亦混有600/Ultra、遙控器、二手、低音套組及不同賣家／選項，未取得可重現的台灣同款新品歷史日期與價格點。LBJ靜態正文僅有查看歷史價格按鈕，BigGo僅顯示價格持平／現價，未據此推定史低。海外US399促銷為不同市場SKU與服務條件，不直接套用台灣公司貨；未將本次19900現價當史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-11-04",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"Bose Smart Soundbar\" problem -ultra -600 -900 -700",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Bose%20Smart%20Soundbar%22%20problem%20-ultra%20-600%20-900%20-700"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"Bose Smart Soundbar\" 問題",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Bose%20Smart%20Soundbar%22%20%E5%95%8F%E9%A1%8C"
+        },
+        {
+          "platform": "Best Buy",
+          "targetHost": "bestbuy.com",
+          "query": "site:bestbuy.com/site/reviews/ \"Bose Smart Soundbar\" \"6590419\" \"disconnect\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Abestbuy.com/site/reviews/%20%22Bose%20Smart%20Soundbar%22%20%226590419%22%20%22disconnect%22"
+        }
+      ]
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "PChome單機購買頁未明示含基本安裝；壁掛架、佈線與施工費用需另行確認。機身尺寸與重量由官方英吋／磅換算為約值。"
+    }
   }
 ]);
 })();

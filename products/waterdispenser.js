@@ -17,10 +17,11 @@
       "currency": "TWD",
       "amount": 9190,
       "converted": 9190,
-      "confidence": "PChome 2026-08-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "channel": "tw",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "buyUrl": "https://24h.pchome.com.tw/prod/DAANBR-A900ASZRJ",
     "specs": [
       "櫥下飲水機：3M S301 櫥下型三道式淨水器 鵝頸款",
@@ -121,10 +122,11 @@
       "currency": "TWD",
       "amount": 19800,
       "converted": 19800,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "confidence": "PChome 2026-07-11 API 查核價",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "channel": "tw",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMCI0L-A900K3T0I",
     "specs": [
       "櫥下飲水機：3M HFRO 直出式逆滲透純水機",
@@ -1051,10 +1053,11 @@
       "currency": "TWD",
       "amount": 20990,
       "converted": 20990,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "confidence": "PChome 2026-07-11 API 查核價",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "channel": "tw",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAW25-A900G6DJE",
     "specs": [
       "櫥下飲水機：愛惠浦 HS188+PURVIVE-4H2雙溫系統單道式廚下型淨水器",
@@ -1366,12 +1369,16 @@
     "buyLabel": "PChome 24h購物",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAWFM-A900H55UK",
     "specs": [
-      "櫥下飲水機：SAKURA櫻花 廚下觸控式熱飲機 P0563",
-      "櫥下/廚下安裝型",
-      "淨水/RO/冷熱功能依商品頁",
-      "PChome 24h 可信通路低價"
+      "櫥下觸控式熱飲機；需搭配過濾後潔淨水，非內建RO一體機",
+      "熱水儲水量：4.2L；750W加熱",
+      "電源：110V／60Hz",
+      "主機尺寸：寬22.6 x 深31.5 x 高35.6 cm",
+      "材質：SUS304熱膽、SUS316加熱管",
+      "適用水壓：1–4kg/cm²",
+      "安全：過熱保護、防空燒保護、漏電斷路器與漏水保護",
+      "節能：內建8小時保溫不加熱；24小時標準化備用損失0.680kWh"
     ],
-    "description": "聚焦可安裝於廚下或櫥下的淨水、RO、瞬熱/冷熱飲水系統，優先排除桌上型、直立型與全戶式設備。",
+    "description": "P0563為4.2L廚下觸控式熱飲機，採750W加熱，需搭配前端過濾後潔淨水；不是內建RO的一體式淨熱飲機。先核對廚下機身空間、接地插座、給排水及龍頭安裝。P0563與P0563B尾碼混用的通路需另核實實際出貨版。",
     "pros": [
       "品牌濾材與售後據點較穩定",
       "涵蓋單純淨水、RO 與加熱/冷熱整合",
@@ -1380,11 +1387,12 @@
     "cons": [
       "需確認櫥下空間與龍頭孔位",
       "濾心耗材與安裝費可能另計",
-      "部分 RO/加熱機需插座與排水條件"
+      "部分 RO/加熱機需插座與排水條件",
+      "需搭配前端淨水設備；商品不是內建RO一體機，P0563／P0563B實際出貨尾碼需通路確認。"
     ],
     "bestFor": "想把廚房飲水、淨水與加熱功能收進櫥下，並重視耗材取得與售後服務的人。",
     "recommendation": "櫥下飲水機第 14 推薦：SAKURA P0563 在價格、評價、品牌通路與售後取得性之間表現均衡，適合納入同類比較。",
-    "voltage": "多為 110V 或免插電；需依商品頁確認插座、龍頭孔、進排水與櫥下空間",
+    "voltage": "110V／60Hz，750W；原PChome exact P0563頁規格明示，廚下需合適接地插座。",
     "warranty": "依 PChome 24h 與品牌/供應商頁面標示；耗材另計",
     "score": 81,
     "budget": "mid",
@@ -3276,11 +3284,12 @@
       "currency": "TWD",
       "amount": 39800,
       "converted": 39800,
-      "confidence": "川菱淨水 2026-08-08 exact-model 公開價與可加入購物車狀態；Yahoo、星泉通路交叉核對"
+      "confidence": "川菱淨水 2026-08-08 exact-model 公開價與可加入購物車狀態；Yahoo、星泉通路交叉核對",
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
     },
     "image": "https://www.clwater.com.tw/uploads/product/202603/202603041250139f66.png",
     "buyUrl": "https://www.clwater.com.tw/product-661-127.html",
-    "buyLabel": "川菱淨水",
+    "buyLabel": "川菱淨水（來源待確認）",
     "specs": [
       "五合一 RO／無熱缸瞬熱；25／45／95°C",
       "常溫水約 2.8 L/min；95°C 熱水約 0.4 L/min",
@@ -3378,11 +3387,12 @@
       "currency": "TWD",
       "amount": 28800,
       "converted": 28800,
-      "confidence": "DECH 台灣官方商城 2026-08-08 最後可驗證公開價；2026-08-15 官網網域無法解析，暫無新品購買頁"
+      "confidence": "DECH台灣官方商城2026-08-08最後可驗證參考價；2026-11-04官方網域仍無法解析，沒有已核實新品購買來源。",
+      "note": "2026-11-04重查：現有連結為Mobile01產品專題，不能購買；原廠網域無法解析，28800元只保留先前參考價，供貨及現價待確認，不據此推定停產。"
     },
     "image": "https://attach.mobile01.com/attach/202506/mobile01-1fe83b9868f02c2244bbeba402e0c5cd.jpg",
     "buyUrl": "https://www.mobile01.com/topicdetail.php?f=168&t=7131776",
-    "buyLabel": "Mobile01 產品專題（目前無新品通路）",
+    "buyLabel": "Mobile01 產品專題（目前無新品通路）（來源待確認）",
     "specs": [
       "原廠明列無須儲水的瞬間加熱；約 5–7 秒達設定溫度",
       "92°C 熱水約 300–330 mL/min；需另配可生飲前端淨水",
@@ -3481,11 +3491,12 @@
       "currency": "TWD",
       "amount": 39800,
       "converted": 39800,
-      "confidence": "CLAR 台灣官方商城 2026-08-11 WS2-C1／WS2-C2 商品頁基本套裝公開促銷價；牌價 NT$49,800，智慧龍頭與特殊配色另加價"
+      "confidence": "CLAR 台灣官方商城 2026-08-11 WS2-C1／WS2-C2 商品頁基本套裝公開促銷價；牌價 NT$49,800，智慧龍頭與特殊配色另加價",
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
     },
     "image": "https://image-cdn-flare.qdm.cloud/q66732dda3124b/image/data/2024/03/07/01.png",
     "buyUrl": "https://www.myclar.com/clarws2-c",
-    "buyLabel": "CLAR 台灣官方商城",
+    "buyLabel": "CLAR 台灣官方商城（來源待確認）",
     "specs": [
       "櫥下型／非 RO／無儲水缸；瞬冰、常溫與瞬熱出水",
       "兩道濾芯：0.5μm 壓縮活性碳＋0.1μm 中空絲膜，約 12 個月更換",
@@ -3692,11 +3703,12 @@
       "currency": "TWD",
       "amount": 39800,
       "converted": 39800,
-      "confidence": "千山淨水台灣官方商城 2026-08-11 TK-9000 預設全效能濾芯組合公開優惠價；牌價 NT$52,900，LifePure 600 RO、IonPure Pro 與軟水組合為同主機加價配套，不混用價格"
+      "confidence": "千山淨水台灣官方商城 2026-08-11 TK-9000 預設全效能濾芯組合公開優惠價；牌價 NT$52,900，LifePure 600 RO、IonPure Pro 與軟水組合為同主機加價配套，不混用價格",
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
     },
     "image": "https://image-cdn-flare.qdm.cloud/q6041cc57bfa5e/image/data/2026/04/13/34a9261f2edd7e5648fe02f2b6e3c48c.png",
     "buyUrl": "https://www.cswater.com.tw/HeatPureIce",
-    "buyLabel": "千山淨水官方商城",
+    "buyLabel": "千山淨水官方商城（來源待確認）",
     "specs": [
       "廚下型／冰、常溫、熱水三溫；零降溫技術，熱水出水量最高每分鐘 2.5L",
       "預設 PF-207 全效能濾芯：0.5μm 活性碳＋奈米除菌纖維，官方建議約 12 個月或 8,000L 更換",
@@ -4507,6 +4519,201 @@
         }
       ]
     }
+  },
+{
+  "id": "waterdispenser-sakura-p0533",
+  "category": "waterdispenser",
+  "rank": 45,
+  "budget": "premium",
+  "channel": "tw",
+  "brand": "SAKURA",
+  "model": "P0533",
+  "name": "櫻花P0533 廚下RO雙溫淨熱飲",
+  "price": {
+    "currency": "TWD",
+    "amount": 36810,
+    "converted": 36810,
+    "basis": "retailer_current",
+    "confidence": "2026-11-04原始Yahoo自營12223771 exact商品主購區SSR顯示36810／40900，主立即購買與加入購物車button皆無disabled，無缺貨文字；非搜尋摘要或schema。",
+    "note": "公開新品主價，不扣個人券、信用卡/點數/贈品。以原頁主購區實際HTTP內容查核，未操作購物車；主按鈕存在不承諾即時庫存或交期，安裝配送依通路聯繫。"
+  },
+  "image": "https://buy.sakura.com.tw/media/16920/P0533+黑龍頭.png",
+  "buyUrl": "https://tw.buy.yahoo.com/gdsale/SAKURA-櫻花-新品上市-AI機型-全台安裝-廚下雙溫RO淨熱飲機淨水器P0531升級版-P05-12223771.html",
+  "buyLabel": "Yahoo購物中心自營",
+  "specs": [
+    "類型：廚下RO淨水＋雙溫熱飲整合機",
+    "淨水：600G RO直輸；一體機，搭配霧黑智慧觸控龍頭",
+    "容量／加熱：4.0L熱水儲槽、750W電熱管連續加熱",
+    "節能／操作：能源效率第1級；AI學習熱水使用習慣、零陳水與濾心壽命提示",
+    "主機尺寸：寬 27.5 x 深 44.7 x 高 41 cm",
+    "龍頭尺寸：來源圖明示深21.1 x 寬5.5 x 高22.4 cm",
+    "電壓／頻率：AC110V／60Hz；額定750W",
+    "水質／水壓：適用自來水5–38°C，0.1–0.35MPa（1–3.5kg/cm²）",
+    "材質：SUS304熱膽、SUS316加熱管；電子龍頭鋅合金",
+    "濾心：F0162 PP+PCB建議6–12個月；F0186 RO膜建議24–30個月，依水質水量調整",
+    "安全：過熱/防空燒/漏電斷路/電子漏水保護；須接地插座、排水與合格安裝",
+    "維護：定期換濾心及管路，超過一週不用關水關電；勿搭配外部計時器斷電使用"
+  ],
+  "description": "P0533以4L儲熱、RO600G整合及AI用水節能學習搭配霧黑觸控龍頭，與既有P0532的2L儲瞬熱1500W配置不同，按需求作並列比較，沒有官方停產舊款證據。",
+  "pros": [
+    "600G RO與4L熱飲整合，無需另放兩台主機",
+    "110V60Hz750W，明示濾心料號及週期",
+    "台灣原廠手冊一年保固與官方現行產品身份"
+  ],
+  "cons": [
+    "須預留廚下主機、龍頭與排水/接地插座，無法由外觀判斷可裝",
+    "F0162/F0186為持續耗材，水質與用水量影響換芯成本",
+    "官方手冊未明示整機淨重；不能套P0532的尺寸、功率或史低"
+  ],
+  "bestFor": "希望廚下整合RO與4L儲熱、重視智慧觸控及在地安裝售後的家庭。",
+  "recommendation": "4L儲熱整合款：與P0532儲瞬熱配置分別比較，先確認櫥下空間、水壓、耗材及安裝總價；不以同樣P053x字首視為相同版本。",
+  "score": 86,
+  "voltage": "AC 110V／60Hz、750W；官方P0533所鏈原說明書P24明列，廚下需合適接地插座。",
+  "warranty": "台灣櫻花原廠；exact所鏈說明書保證卡明示自購買日起保固一年、正常使用到府檢修；營業/商業租賃/第三人維修、人為與天災損壞除外。保存購買憑證、安裝日期與經銷章，耗材依原廠條款。",
+  "tags": [
+    "廚下",
+    "RO600G",
+    "雙溫",
+    "4L儲熱",
+    "AI節能",
+    "110V",
+    "台灣原廠"
+  ],
+  "releaseDate": "找不到",
+  "historicalLow": {
+    "status": "not_found",
+    "amount": null,
+    "currency": "TWD",
+    "converted": null,
+    "sourceUrl": "",
+    "sourceTitle": "",
+    "evidenceSnippet": "",
+    "sourceKind": "not_found",
+    "confidence": "not_found",
+    "checkedAt": "2026-11-04",
+    "note": "實讀FindPrice/Feebee P0533可見36810、部分店價34810等當期索引，無可驗證同主機與安裝配置的長期最低點；767為48期每期租金，F0162/F0186濾心與P0531/P0532不混用。不因現價或降價文字就稱全歷史最低。"
+  },
+  "issueResearch": {
+    "status": "no_common_issue",
+    "checkedAt": "2026-11-04",
+    "summary": "截至查核日，查無達門檻的集中負評／災情",
+    "issues": [],
+    "checkedSources": [
+      {
+        "platform": "Mobile01",
+        "targetHost": "mobile01.com",
+        "query": "site:mobile01.com \"櫻花\" \"P0533\" (問題 OR 故障 OR 心得)",
+        "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22%E6%AB%BB%E8%8A%B1%22%20%22P0533%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97)"
+      },
+      {
+        "platform": "PTT",
+        "targetHost": "ptt.cc",
+        "query": "site:ptt.cc \"櫻花\" \"P0533\" (問題 OR 故障 OR 心得)",
+        "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22%E6%AB%BB%E8%8A%B1%22%20%22P0533%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97)"
+      }
+    ]
+  },
+  "topPick": false,
+  "installation": {
+    "status": "included_basic",
+    "note": "Yahoo主商品標示全台安裝；原廠建議售價含基本安裝但耗材/運送另計，實際方案配送與水壓、管線、龍頭開孔、舊機拆卸/偏遠追加施工先確認，不從其他通路推免全部工程。"
   }
+},
+{
+  "id": "waterdispenser-brita-mypure-gr1000-uvc",
+  "rank": 46,
+  "topPick": false,
+  "brand": "BRITA",
+  "model": "mypure GR1000 UVC",
+  "name": "BRITA mypure GR1000 UVC 1000G RO直輸淨水系統",
+  "image": "https://gowater.cc/image/cache/catalog/product/BRITA/GR_/GR1000UVC-406x516.jpg",
+  "price": {
+    "currency": "TWD",
+    "amount": 29900,
+    "converted": 29900,
+    "basis": "retailer_current",
+    "confidence": "2026-11-04康泉淨水exact GR1000 UVC原頁主購區29900/33800，原文有現貨，主button#button-cart無disabled；官網經銷據點明列同名楊梅店，電話03-4820852及地址瑞溪路二段158號相符。",
+    "note": "台灣BRITA授權康泉淨水公開新品價，含到府專業基本安裝。按原頁實際主價/貨況/CTA查核，未加車；不扣會員券、回饋或贈品，不稱全網最低。"
+  },
+  "channel": "tw",
+  "buyLabel": "BRITA台灣授權經銷康泉淨水",
+  "buyUrl": "https://gowater.cc/BRITA-MYPURE-GR-1000-UVC",
+  "specs": [
+    "類型：廚下1000G RO無桶直輸淨水系統＋UVC殺菌龍頭",
+    "濾淨：4in1四重過濾濾芯＋杜邦RO膜，雙芯五重過濾",
+    "出水：1000加侖／日標稱造水量；通路標示2.6L／分鐘，依水溫水壓變化",
+    "龍頭：UVC滅菌＋濾芯狀態指示；鋅合金與304不鏽鋼材質",
+    "主機尺寸：寬 14 x 深 44.9 x 高 39 cm",
+    "電壓／頻率：110V／60Hz（台灣授權康泉exact UVC規格）；額定功率未標示",
+    "水源／水壓：僅適用合格自來水；官方mypure GRO系列水壓1.0–4.0bar",
+    "濾芯：4in1總3600L，建議6–12月；1000G RO總7500L，建議18–24月；依水質用水量調整",
+    "維護：首次/換芯依官方放流20分鐘以上；超過一天不用先放流3–5分鐘，UVC故障燈聯絡原廠",
+    "安裝：需進排水、插座、龍頭孔位與檢修換芯空間，機台不可露天曝曬"
+  ],
+  "description": "以GR1000無桶RO主機搭配UVC滅菌龍頭的功能版本，與既有一般鵝頸龍頭GR1000有實際功能與價格差異，分開比較。BRITA台灣當代目錄仍列UVC，官方保固及授權康泉可購鏈已確認，不因此移除一般GR1000。",
+  "pros": [
+    "1000G大水量無桶直輸，搭配UVC龍頭",
+    "台灣官網列授權經銷商有公開價格與有現貨文字",
+    "BRITA台灣GR RO兩年保固，註冊符合條件另加一年"
+  ],
+  "cons": [
+    "UVC版29900不可用一般鵝頸版17800或其他配置價格比較",
+    "需定期更換兩支濾芯、預留廚下進排水與插座",
+    "精確功率未見公開明示；首次放流、水壓及UVC狀態維護應依原廠規範"
+  ],
+  "bestFor": "希望RO直出大水量並增加出水龍頭UVC處理、可配合廚下安裝條件的家庭。",
+  "recommendation": "UVC龍頭功能補充款：先核準安裝與耗材總成本，與普通鵝頸GR1000分開選擇，不把UVC當免費或用便宜版本主價套入。",
+  "voltage": "110V／60Hz；台灣官網列名授權康泉exact mypure GR1000 UVC原頁商品規格明示，主機與UVC龍頭需依隨附電源安裝；公開頁額定功率未標。",
+  "warranty": "台灣碧然德原廠GR RO產品保固2年，完成產品註冊符合條件額外1年；只適用官方授權通路販售及按手冊安裝使用。康泉在官網授權名單且本頁明示2+1年。濾芯、電池等耗材除外；留購買憑證/保證卡，寄修運費與超期維修依條款。",
+  "score": 84,
+  "budget": "premium",
+  "tags": [
+    "RO1000G",
+    "廚下",
+    "無桶直輸",
+    "UVC龍頭",
+    "台灣授權",
+    "基本安裝"
+  ],
+  "category": "waterdispenser",
+  "releaseDate": "找不到",
+  "historicalLow": {
+    "status": "not_found",
+    "amount": null,
+    "currency": "TWD",
+    "converted": null,
+    "sourceUrl": "",
+    "sourceTitle": "",
+    "evidenceSnippet": "",
+    "sourceKind": "not_found",
+    "confidence": "not_found",
+    "checkedAt": "2026-11-04",
+    "note": "實讀FindPrice與Feebee BRITA GR1000 UVC，主機索引多29900，其他14800為GR600等多規格；1936/5720為濾芯，排除。沒有可驗證日期化歷史最低點；PChome舊UVC原頁主區未展售，只見鵝頸龍頭GR1000推薦價不能套用。"
+  },
+  "issueResearch": {
+    "status": "no_common_issue",
+    "checkedAt": "2026-11-04",
+    "summary": "截至查核日，查無達門檻的集中負評／災情",
+    "issues": [],
+    "checkedSources": [
+      {
+        "platform": "Mobile01",
+        "targetHost": "mobile01.com",
+        "query": "site:mobile01.com \"mypure GR1000 UVC\" (問題 OR 故障 OR 心得)",
+        "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22mypure%20GR1000%20UVC%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97)"
+      },
+      {
+        "platform": "PTT",
+        "targetHost": "ptt.cc",
+        "query": "site:ptt.cc \"mypure GR1000 UVC\" (問題 OR 故障 OR 心得)",
+        "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22mypure%20GR1000%20UVC%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97)"
+      }
+    ]
+  },
+  "installation": {
+    "status": "included_basic",
+    "note": "康泉exact頁明示免費到府專業安裝；需自來水、排水、廚下110V插座及UVC龍頭鑽孔，偏遠地區/特殊檯面/水壓調整、舊機拆卸與額外材料費依場勘報價，不推免全部施工。"
+  }
+}
 ]);
 })();

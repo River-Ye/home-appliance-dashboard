@@ -773,11 +773,12 @@
       "currency": "TWD",
       "amount": 30900,
       "converted": 30900,
-      "confidence": "PChome 24h｜De'Longhi 原廠公司貨 2026-08-04 exact-model 公開新品價；台灣公司貨／原廠通路"
+      "confidence": "PChome 24h｜De'Longhi 原廠公司貨 2026-08-04 exact-model 公開新品價；台灣公司貨／原廠通路",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAT03A900J0QWV/000001_1779441345.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAT03-A900J0QWV",
-    "buyLabel": "PChome 24h｜De'Longhi 原廠公司貨",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "類型：全自動",
       "使用原料：咖啡豆；另設咖啡粉槽",
@@ -987,11 +988,12 @@
       "currency": "TWD",
       "amount": 63800,
       "converted": 63800,
-      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAT3GA900JFELW/000001_1762414552.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAT3G-A900JFELW",
-    "buyLabel": "PChome 24h｜JURA 台灣原廠公司貨",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "類型：全自動",
       "使用原料：咖啡豆；另設咖啡粉槽",
@@ -1082,110 +1084,102 @@
     ]
   },
   {
-    "id": "coffee-jura-ena-4-15344",
+    "id": "coffee-jura-e6-15465",
     "category": "coffee",
+    "brand": "JURA",
+    "model": "E6 15465",
+    "name": "JURA E6 Platin (NAC) 15465 全自動義式咖啡機",
     "rank": 11,
     "budget": "premium",
     "channel": "tw",
-    "brand": "JURA",
-    "model": "ENA 4 15344",
-    "name": "JURA ENA 4 Full Metropolitan Black (EA) 全自動咖啡機",
+    "topPick": false,
     "price": {
       "currency": "TWD",
-      "amount": 34232,
-      "converted": 34232,
-      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 56900,
+      "converted": 56900,
+      "basis": "retailer_current",
+      "confidence": "2026-11-04 人工核對台灣官方總代理瑞技9087138原商品主區：h1 JURA E6全彩中文脈衝精萃式咖啡機，現價56900、劃線67000、數量1，加入購物車與立即結帳可用，無售完標記。台灣原廠exact 15465產品頁externalBuyUrl直接指向此商品，非US SKU價格。",
+      "note": "台灣官方總代理公開新品主價NT$56,900；未扣會員券、點數或信用卡回饋。官方購物說明為確認付款後7個工作日內出貨，配送地區及離島費用依商店條款，不承諾即日出貨。"
     },
-    "image": "https://img.pchome.com.tw/cs/items/DMAT00A900BQG97/000001_1777222745.png",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMAT00-A900BQG97",
-    "buyLabel": "PChome 24h｜JURA 台灣原廠公司貨",
+    "installation": {
+      "status": "not_stated",
+      "note": "台灣官方商店提供E6專用教學與台灣總代理售後，公開頁未明示56900是否包含到府安裝/教學及標準範圍，先確認交機安排、偏遠配送與額外服務費。使用接地插座並確認迴路負載及檯面散熱/補水空間。"
+    },
+    "image": "https://api.jura.com/media/global/images/home-products/e-linie-2022/e6/e6-platin-ec-15440/e6_ec_platin_packshot.jpg?cb=243930",
+    "buyUrl": "https://store.eurocafe.com.tw/SalePage/Index/9087138",
+    "buyLabel": "JURA台灣總代理瑞技官方商城",
     "specs": [
       "類型：全自動",
-      "使用原料：咖啡豆；另設咖啡粉槽",
-      "研磨系統：內建多段式 Aroma G3 研磨器；支援咖啡粉",
-      "萃取／沖煮：15 bar；P.E.P. 脈衝萃取；4 種黑咖啡飲品；6–10 g 可變沖煮單元",
-      "奶泡：無奶泡系統",
-      "容量：水箱 1.1 L；豆槽 125 g；粉餅盒約 10 份",
-      "尺寸：寬 27.1 x 深 44.5 x 高 32.3 cm",
-      "重量：8.4 kg",
-      "電壓／頻率：120V／60Hz",
+      "使用原料：咖啡豆；另設預磨咖啡粉槽",
+      "研磨系統：內建Professional Aroma Grinder（P.A.G.）專業Aroma磨豆機；10段咖啡濃度",
+      "萃取／沖煮：15 bar；P.E.P.脈衝萃取；5–16g可變沖煮單元；11種飲品；3段沖煮溫度",
+      "奶泡：Easy Cappuccino簡易奶泡系統，HP1/CX3奶路/可換噴嘴；使用外接牛奶管，製作奶咖後須清潔奶路",
+      "容量：水箱1.9 L；豆槽280 g；咖啡渣盒約16份",
+      "尺寸：寬 28 x 深 44.6 x 高 35.1 cm",
+      "重量：9.1 kg",
+      "電壓／頻率：120V／60Hz；台灣原廠exact NAC 15465頁與其所鏈E6 NAC手冊核對",
       "功率：1450W",
-      "清潔維護：整合式沖洗、清潔與除垢程序；CLARIS Smart/Smart mini 濾芯自動辨識",
-      "耗材／配件相容性：咖啡豆或咖啡粉；CLARIS Smart/Smart mini 濾芯；JURA 三相清潔片；除垢片；購買前依台灣代理型號確認供應"
+      "清潔維護：整合沖洗、清潔及除垢；依提示更換CLARIS Smart+濾芯，奶路使用後清潔；沖煮單元依原廠保養程序，不宣稱可自行拆洗",
+      "耗材／配件相容性：CLARIS Smart+濾芯、JURA三相清潔片、除鈣片及奶系統迷你清潔片；HP1/CX3；J.O.E.相容，Wi-Fi Connect發射器未列隨附，須另確認選配"
     ],
-    "description": "全自動義式咖啡機；小型機身與 P.E.P. 專注四種黑咖啡飲品。實際風味仍取決於咖啡豆、研磨、粉水比與清潔狀態。",
+    "description": "台灣官方現行E6 Platin NAC 15465以P.A.G.磨豆、P.E.P.與簡易奶泡系統提供11種咖啡/奶泡/熱水選項，1.9L水箱較適合多人每日使用。台灣原廠產品頁直接連至瑞技現售商品，可辨識15465版本與120V/60Hz電力。",
     "pros": [
-      "小型機身與 P.E.P. 專注四種黑咖啡飲品",
-      "台灣新品通路提供 TWD 公開價與本地保固",
-      "寬 27.1 x 深 44.5 x 高 32.3 cm、8.4 kg 已納入檯面與搬運評估"
+      "台灣原廠exact 15465與總代理商品連結可互相核對，公開TWD新品價可購",
+      "P.A.G.磨豆、P.E.P.及11種飲品兼顧黑咖啡與卡布奇諾",
+      "原廠台灣售後與CLARIS Smart+、清潔耗材有具體來源"
     ],
     "cons": [
-      "沒有奶泡系統且水箱、豆槽較小，不適合大量奶咖需求",
-      "使用後須清潔咖啡渣、滴水盤與奶泡零件",
-      "須依水質與原廠週期除垢並計入耗材成本"
+      "120V額定，非110V機種；先依原廠交機確認台灣插座及迴路",
+      "奶管與噴嘴須每日清潔，濾芯及原廠清潔耗材需持續支出",
+      "台灣公開頁未明示保固年限與到府教學費用，購前向瑞技確認隨附保固條件",
+      "未找到exact 15465實際上市日期與可信史低；J.O.E.無線模組需另確認選配"
     ],
-    "bestFor": "只喝黑咖啡、空間有限又希望保留 JURA 萃取系統的人",
-    "recommendation": "分型建議：小型機身與 P.E.P. 專注四種黑咖啡飲品。",
+    "bestFor": "希望以台灣原廠售後支援，兼顧黑咖啡、卡布奇諾與較大水箱的家庭。",
+    "recommendation": "全自動奶咖參考款；以台灣官方總代理56900元新品價與NAC 15465電力規格評估，保留奶路清潔及耗材預算。",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "found",
-      "amount": 34232,
+      "status": "not_found",
+      "amount": null,
       "currency": "TWD",
-      "converted": 34232,
-      "sourceUrl": "https://24h.pchome.com.tw/prod/DMAT00-A900BQG97",
-      "sourceTitle": "PChome 24h 購物：Jura ENA 4 家用全自動咖啡機",
-      "evidenceSnippet": "PChome 24h 購物於 2026-08-19 顯示同型號可信新品公開價 NT$34,232，低於既有史低 NT$35,010。",
-      "sourceKind": "retailer_page",
-      "confidence": "medium",
-      "checkedAt": "2026-08-19",
-      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-11-04",
+      "note": "已逐頁查台灣官方總代理主價、FindPrice與飛比exact E6 15465價格搜尋。FindPrice只有泛E6當日56900/60000、舊JU15070及配件，未提供exact 15465的可信歷史最低點；飛比連線失敗，補查該站exact型號索引亦無可驗歷史點。不以56900當日價、67000劃線價、US售價或舊ENA4 15344價格推史低。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-29",
+      "checkedAt": "2026-11-04",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"JURA ENA 4 15344\" (problem OR issue OR defect OR failure)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22JURA%20ENA%204%2015344%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-          "targetHost": "reddit.com"
-        },
-        {
           "platform": "Mobile01",
-          "query": "site:mobile01.com \"JURA ENA 4 15344\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22JURA%20ENA%204%2015344%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "mobile01.com"
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"E6 15465\" (問題 OR 故障 OR 心得)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22E6%2015465%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97%29"
         },
         {
           "platform": "PTT",
-          "query": "site:ptt.cc \"JURA ENA 4 15344\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22JURA%20ENA%204%2015344%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "ptt.cc"
-        },
-        {
-          "platform": "Dcard",
-          "query": "site:dcard.tw \"JURA ENA 4 15344\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22JURA%20ENA%204%2015344%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "dcard.tw"
-        },
-        {
-          "platform": "YouTube",
-          "query": "\"JURA ENA 4 15344\" problem issue defect failure broken 災情 故障 異常",
-          "queryUrl": "https://www.youtube.com/results?search_query=%22JURA%20ENA%204%2015344%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
-          "targetHost": "youtube.com"
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"E6 15465\" (問題 OR 故障 OR 心得)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22E6%2015465%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97%29"
         }
       ]
     },
-    "score": 85,
-    "voltage": "120V／60Hz 台灣公司貨；使用前確認獨立接地插座與迴路負載",
-    "warranty": "台灣原廠公司貨；PChome exact-model 頁標示代理商原廠保固 1 年",
+    "score": 86,
+    "voltage": "120V／60Hz、1450W；台灣原廠NAC 15465產品頁連結E6 NAC手冊技術頁確認，使用接地插座並依瑞技交機要求核對迴路。",
+    "warranty": "台灣官方總代理瑞技企業公司貨；JURA台灣exact NAC 15465原廠頁明列隨附保固條件，並直接連瑞技官方商城；公開頁未明示保固年限，期限及除外條件以隨機保固文件與瑞技確認為準。台灣客服02-8809-8859分機450／service@eurocafe.com.tw，北中南有客服中心。",
     "tags": [
       "全自動",
       "旗艦",
       "內建磨豆",
-      "台灣公司貨"
+      "台灣公司貨",
+      "奶咖",
+      "保固年限先確認"
     ]
   },
   {
@@ -1851,11 +1845,12 @@
       "currency": "TWD",
       "amount": 18900,
       "converted": 18900,
-      "confidence": "PChome 24h購物 2026-08-04 exact-model 公開新品價；台灣公司貨／原廠通路"
+      "confidence": "PChome 24h購物 2026-08-04 exact-model 公開新品價；台灣公司貨／原廠通路",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC4WA900H8QLE/000001_1786352320.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAC4W-A900H8QLE",
-    "buyLabel": "PChome 24h購物",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "類型：半自動",
       "使用原料：咖啡豆研磨後的咖啡粉",
@@ -2394,11 +2389,12 @@
       "currency": "TWD",
       "amount": 48800,
       "converted": 48800,
-      "confidence": "LELIT Taiwan（MJS 梅珍香） 2026-08-04 exact-model 公開新品價；台灣公司貨／原廠通路"
+      "confidence": "LELIT Taiwan（MJS 梅珍香） 2026-08-04 exact-model 公開新品價；台灣公司貨／原廠通路",
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
     },
     "image": "https://img.shoplineapp.com/media/image_clips/63725fd6b62504001000e514/original.jpg?1668440022",
     "buyUrl": "https://www.lelittaiwan.com/products/lelit-mara-x-pl62x",
-    "buyLabel": "LELIT Taiwan（MJS 梅珍香）",
+    "buyLabel": "LELIT Taiwan（MJS 梅珍香）（來源待確認）",
     "specs": [
       "類型：半自動",
       "使用原料：咖啡豆研磨後的咖啡粉",
@@ -2594,6 +2590,111 @@
       "外接磨豆",
       "台灣公司貨"
     ]
+  },
+{
+  "id": "coffee-lelit-marax3-pl62x3",
+  "category": "coffee",
+  "rank": 25,
+  "budget": "premium",
+  "channel": "tw",
+  "brand": "Lelit",
+  "model": "PL62X3",
+  "name": "MaraX3 110V 半自動義式咖啡機",
+  "price": {
+    "currency": "TWD",
+    "amount": 58800,
+    "converted": 58800,
+    "basis": "retailer_current",
+    "confidence": "2026-11-04 root Chrome Native實讀LELIT Taiwan exact PL62X3 110V主區：58800、劃63800；主button46 #btn-add-to-cart可用、未見缺貨、未加車。",
+    "note": "台灣阿爾派官方商城公開新品價，不扣會員券、點數或信用卡。SSR同時帶Sold Out/通知等Angular隱藏模板不可作即時狀態；主購狀態採本輪Native實際呈現，配送及到貨依通路確認。"
+  },
+  "image": "https://img.shoplineapp.com/media/image_clips/6ae76d02fbe8619ae82a0ce1/original.jpg?1793551617=&owner_id=5f741e937e0fc600394dcaf0",
+  "buyUrl": "https://www.lelittaiwan.com/products/lelit-marax3-pl62x3-110v",
+  "buyLabel": "LELIT Taiwan阿爾派官方商城",
+  "specs": [
+    "類型：半自動",
+    "使用原料：咖啡豆經外接磨豆機研磨後的咖啡粉",
+    "研磨系統：需外接磨豆機；沒有內建磨豆機",
+    "萃取／沖煮：L58E沖煮頭、雙探針PID熱交換、Pagaia電子流量撥槳、三段溫控與咖啡／蒸汽雙模式",
+    "奶泡：手動三孔防燙多向蒸汽棒，另有熱水棒與Steam boost",
+    "容量：1.8L不鏽鋼熱交換鍋爐；水箱2.5L",
+    "尺寸：寬 22 x 深 41 x 高 38.5 cm",
+    "重量：18.3 kg",
+    "電壓／頻率：110V／60Hz；台灣官方原頁明示標準110V15A插座及保留接地",
+    "功率：鍋爐加熱元件1200W（台灣110V版）",
+    "清潔維護：用後敲渣、沖洗把手/滴盤與蒸汽棒；附盲碗、清潔組及尼龍刷，反沖洗與水質管理依原廠手冊",
+    "耗材／配件相容性：LELIT58雙流把手、IMS 9–11g/14–18g/18–21g濾杯與盲碗、70L軟水濾芯、L58E墊圈；台灣實際隨附與補料先核阿爾派"
+  ],
+  "description": "MaraX3是Mara X家族第三代，以Pagaia電子調節泵功率與萃取水流、三孔蒸汽噴頭及更新外觀區隔V2。台灣阿爾派販售110V60Hz1200W版，需搭外接磨豆機；舊V2未有官方停產文字，保留並列。",
+  "pros": [
+    "原生Pagaia電子流量撥槳，提供萃取曲線操作",
+    "雙探針PID熱交換、三孔蒸氣及防燙蒸汽/熱水棒",
+    "台灣原廠列名阿爾派官方通路可購，110V60Hz電力明確"
+  ],
+  "cons": [
+    "需另購磨豆機、練習萃取打奶，清潔與水質管理成本較高",
+    "台灣原頁尺寸22×41×38.5cm含增高腳，global官網/技術表另列25.5×53.5×38.5cm；區域/配置差異尚未釐清，下單前須核實本體及擺櫃散熱空間",
+    "台灣阿爾派有售後/維修/保固明示但未找到PL62X3公開保固年限，不套其他型號一年",
+    "現價58800不是可驗歷史最低價；台灣110V版正式上市日期未明"
+  ],
+  "bestFor": "已有合適磨豆機、願意調整萃取水流並重視熱交換蒸汽操作的進階玩家。",
+  "recommendation": "半自動進階補充款：以Pagaia原生流量控制比較V2是否值得升級，先確認台灣保固條款及尺寸衝突；保留現售舊款，不列Top Pick。",
+  "releaseDate": "2026",
+  "historicalLow": {
+    "status": "not_found",
+    "amount": null,
+    "currency": "TWD",
+    "converted": null,
+    "sourceUrl": "",
+    "sourceTitle": "",
+    "evidenceSnippet": "",
+    "sourceKind": "not_found",
+    "confidence": "not_found",
+    "checkedAt": "2026-11-04",
+    "note": "已實讀台灣總代理exact110V主頁Native58800，以及FindPrice PL62X3與Feebee PL62X3：前者有月曜咖啡58800索引，後者同款58800與阿爾派63800。均為當期報價，無同110V主機可信日期化歷史低點；不採舊PL62X、海外220V、美規120V或配件價格。"
+  },
+  "issueResearch": {
+    "status": "no_common_issue",
+    "checkedAt": "2026-11-04",
+    "summary": "截至查核日，查無達門檻的集中負評／災情",
+    "issues": [],
+    "checkedSources": [
+      {
+        "platform": "Mobile01",
+        "targetHost": "mobile01.com",
+        "query": "\"Lelit\" \"PL62X3\" site:mobile01.com (問題 OR 故障 OR 心得)",
+        "queryUrl": "https://www.google.com/search?q=%22Lelit%22%20%22PL62X3%22%20site%3Amobile01.com%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97)"
+      },
+      {
+        "platform": "PTT",
+        "targetHost": "ptt.cc",
+        "query": "\"Lelit\" \"PL62X3\" site:ptt.cc (問題 OR 故障 OR 心得)",
+        "queryUrl": "https://www.google.com/search?q=%22Lelit%22%20%22PL62X3%22%20site%3Aptt.cc%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97)"
+      },
+      {
+        "platform": "Reddit",
+        "targetHost": "reddit.com",
+        "query": "\"Lelit\" \"PL62X3\" site:reddit.com (problem OR issue OR failure)",
+        "queryUrl": "https://www.google.com/search?q=%22Lelit%22%20%22PL62X3%22%20site%3Areddit.com%20(problem%20OR%20issue%20OR%20failure)"
+      }
+    ]
+  },
+  "score": 84,
+  "voltage": "110V／60Hz；台灣阿爾派exact PL62X3 110V原頁明示1200W、標準110V15A接地插座；出貨電力依台灣版銘牌與原廠資料，不借其他地區版本。",
+  "warranty": "台灣阿爾派國際官方通路提供售後、維修及保固，公開年限未標。LELIT原廠Support列ALPINE INTERNATIONAL CO., LTD / Cabra Coffee（花蓮）並直連lelittaiwan.com；阿爾派官方頻道明示全台售後/維修/保固。以購買憑證及隨機保固條件為準，不借V2、海外或其他經銷商年限。",
+  "tags": [
+    "半自動",
+    "旗艦",
+    "外接磨豆",
+    "Pagaia",
+    "110V",
+    "台灣公司貨"
+  ],
+  "topPick": false,
+  "installation": {
+    "status": "not_stated",
+    "note": "官方商品頁未明示到府裝機或基本安裝費是否包含；桌上型需台灣110V15A接地插座及合適檯面，安裝/教學與運送費先向阿爾派確認。"
   }
+}
 ]);
 })();

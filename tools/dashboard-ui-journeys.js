@@ -5,6 +5,7 @@ const {
   EXPECTED_PRODUCT_COUNT,
   EXPECTED_CATEGORY_PRODUCT_COUNTS,
   CATEGORY_TEXT_MATCH_COUNTS,
+  COFFEE_TYPE_COUNTS,
   PERIPHERAL_TYPES,
   BEDDING_TYPES,
 } = require("./dashboard-contract");
@@ -474,7 +475,7 @@ async function assertCoffeeJourney(page, name, { verifyAllImages = false } = {})
     fullyAutomatic: cards.filter((card) => (card.textContent || "").includes("類型：全自動")).length,
     semiAutomatic: cards.filter((card) => (card.textContent || "").includes("類型：半自動")).length,
   }));
-  if (typeCounts.fullyAutomatic !== 12 || typeCounts.semiAutomatic !== 12) {
+  if (typeCounts.fullyAutomatic !== COFFEE_TYPE_COUNTS.get("全自動") || typeCounts.semiAutomatic !== COFFEE_TYPE_COUNTS.get("半自動")) {
     throw new Error(`${name}: coffee type split mismatch ${JSON.stringify(typeCounts)}`);
   }
 

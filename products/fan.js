@@ -19,11 +19,12 @@
       "currency": "TWD",
       "amount": 3149,
       "converted": 3149,
-      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB30A900EOQ24/000001_1753338098.png",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAB30-A900EOQ24",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原通路缺貨，查看供貨）",
     "specs": [
       "16 吋",
       "DC 變頻",
@@ -212,11 +213,12 @@
       "currency": "TWD",
       "amount": 9990,
       "converted": 9990,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "confidence": "PChome 2026-07-11 API 查核價",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3CA900J971J/000001_1767758265.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU3C-A900J971J",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "無葉片",
       "智慧控制",
@@ -404,11 +406,12 @@
       "currency": "TWD",
       "amount": 2279,
       "converted": 2279,
-      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABLMA900EOROV/000001_1757038312.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMABLM-A900EOROV",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "16 吋",
       "DC 變頻",
@@ -596,11 +599,12 @@
       "currency": "TWD",
       "amount": 3896,
       "converted": 3896,
-      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABLMA900EORP0/000001_1697161466.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMABLM-A900EORP0",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "14 吋",
       "DC 馬達",
@@ -692,11 +696,12 @@
       "currency": "TWD",
       "amount": 1350,
       "converted": 1350,
-      "confidence": "PChome 2026-09-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB1FA900EZLVB/000001_1685607577.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAB1F-A900EZLVB",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "14 吋",
       "DC 直流",
@@ -886,11 +891,12 @@
       "currency": "TWD",
       "amount": 2152,
       "converted": 2152,
-      "confidence": "www.momoshop.com.tw 2026-09-05 人工核對 exact-model 公開單件價及可購狀態；非會員券、紅利或加購價"
+      "confidence": "www.momoshop.com.tw 2026-09-05 人工核對 exact-model 公開單件價及可購狀態；非會員券、紅利或加購價",
+      "note": "2026-11-04 Chrome逐筆查核：Chrome原來源頁明示「商品目前無展售／網頁不存在」或「查無商品資料，商品不存在或已下架」；沒有可購主商品價格；不是原廠停產證據。 保留既有參考價，另查可信現售連結。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB1FA900JXKNN/000001_1776674767.jpg",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15180635",
-    "buyLabel": "momo購物",
+    "buyLabel": "momo（原來源無展售，查看供貨）",
     "specs": [
       "14 吋",
       "五片扇葉",
@@ -982,11 +988,12 @@
       "currency": "TWD",
       "amount": 1840,
       "converted": 1840,
-      "confidence": "momo購物 2026-07-11 頁面查核價"
+      "confidence": "momo購物 2026-07-11 頁面查核價",
+      "note": "2026-11-04 Chrome逐筆查核：Chrome原來源頁明示「商品目前無展售／網頁不存在」或「查無商品資料，商品不存在或已下架」；沒有可購主商品價格；不是原廠停產證據。 保留既有參考價，另查可信現售連結。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB1FA900JX6MJ/000001_1776674604.jpg",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15180637",
-    "buyLabel": "momo購物",
+    "buyLabel": "momo（原來源無展售，查看供貨）",
     "specs": [
       "12 吋",
       "五片扇葉",
@@ -1270,11 +1277,12 @@
       "currency": "TWD",
       "amount": 1407,
       "converted": 1407,
-      "confidence": "momo購物 2026-07-11 頁面查核價"
+      "confidence": "momo購物 2026-07-11 頁面查核價",
+      "note": "2026-11-04 Chrome逐筆查核：Chrome原來源頁明示「商品目前無展售／網頁不存在」或「查無商品資料，商品不存在或已下架」；沒有可購主商品價格；不是原廠停產證據。 保留既有參考價，另查可信現售連結。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABPMA900J334P/000001_1753932662.jpg",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=14266032",
-    "buyLabel": "momo購物",
+    "buyLabel": "momo（原來源無展售，查看供貨）",
     "specs": [
       "14 吋",
       "DC 馬達",
@@ -1654,11 +1662,12 @@
       "currency": "TWD",
       "amount": 2999,
       "converted": 2999,
-      "confidence": "Costco 好市多 2026-08-24 exact-model 公開結構化價格"
+      "confidence": "Costco 好市多 2026-08-24 exact-model 公開結構化價格",
+      "note": "2026-11-04 Chrome開啟原精確商品URL後轉向同通路分類列表，沒有原商品編號的主區；不借列表其他型號價格或加入購物車判定本品現貨。 金額保留為舊參考價；未取得原廠停產證據。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/hc9/h49/348867521806366.webp",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Heating-Cooling/DeWALT-40-cm-Drum-Fan/p/9631000",
-    "buyLabel": "Costco 好市多",
+    "buyLabel": "Costco（原連結轉分類，供貨待確認）",
     "specs": [
       "40 公分鼓風扇",
       "重量：約7.05公斤",

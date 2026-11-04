@@ -1241,11 +1241,12 @@
       "currency": "USD",
       "amount": 1499,
       "converted": 49123,
-      "confidence": "LG 美國 2026-07-23 官方現售型錄公開價；ExchangeRate-API 2026-11-04 匯率換算"
+      "confidence": "LG 美國 2026-07-23 官方現售型錄公開價；ExchangeRate-API 2026-11-04 匯率換算",
+      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
     },
     "image": "https://media.us.lg.com/transform/ecomm-PDPGallery-1100x730/d0843109-3129-40be-b3b9-325bb4ef78de/Styler-S3RFBN-gallery-01_5000x5000?io=transform:fill,width:1024",
     "buyUrl": "https://www.lg.com/us/washers-dryers/lg-s3rfbn-styler-steam-closet",
-    "buyLabel": "LG 美國官網",
+    "buyLabel": "LG 美國官網（原通路缺貨，查看供貨）",
     "specs": [
       "容量：3 衣架＋1 褲架",
       "護理技術：TrueSteam 與 Moving Hangers 動態衣架",
@@ -1349,13 +1350,14 @@
     "name": "Samsung Bespoke AI AirDresser Crystal Mirror",
     "price": {
       "currency": "KRW",
-      "amount": 2443730,
-      "converted": 59589,
-      "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照；ExchangeRate-API 2026-11-04 匯率換算"
+      "amount": 2327320,
+      "converted": 56750,
+      "confidence": "2026-11-04 Chrome人工核對Danawa exact-model一般購買(일반구매)公開最低比價；依當日KRW/TWD匯率換算。",
+      "note": "韓國Danawa一般購買最低比價快照，未採會員／卡友最高優惠價、點數、租賃月付或發售建議價；點入各零售商仍須確認可購總額與供貨。海外參考，未含國際運費、進口稅、電壓／插頭／變壓器與台灣保固風險。"
     },
     "image": "https://images.samsung.com/kdp/goods/2026/01/13/bcebeb93-4709-4c18-b685-e159e476dcfd.png",
     "buyUrl": "https://prod.danawa.com/info/?pcode=108410873",
-    "buyLabel": "Danawa 韓國新品比價",
+    "buyLabel": "Danawa 韓國新品比價（海外參考）",
     "specs": [
       "容量：上衣 5–9 件＋下衣 3 件",
       "護理技術：Dual Air Wash、Dual Jet Steam 與變頻壓縮機",
@@ -1459,13 +1461,14 @@
     "name": "Samsung Bespoke AI AirDresser Clean White",
     "price": {
       "currency": "KRW",
-      "amount": 2172430,
-      "converted": 52973,
-      "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照；ExchangeRate-API 2026-11-04 匯率換算"
+      "amount": 2061500,
+      "converted": 50268,
+      "confidence": "2026-11-04 Chrome人工核對Danawa exact-model一般購買(일반구매)公開最低比價；依當日KRW/TWD匯率換算。",
+      "note": "韓國Danawa一般購買最低比價快照，未採會員／卡友最高優惠價、點數、租賃月付或發售建議價；點入各零售商仍須確認可購總額與供貨。海外參考，未含國際運費、進口稅、電壓／插頭／變壓器與台灣保固風險。"
     },
     "image": "https://images.samsung.com/kdp/goods/2026/01/13/a5e2b9e4-2578-420b-a4e9-03f9af8a98a4.png",
     "buyUrl": "https://prod.danawa.com/info/?pcode=107770493",
-    "buyLabel": "Danawa 韓國新品比價",
+    "buyLabel": "Danawa 韓國新品比價（海外參考）",
     "specs": [
       "容量：上衣 5–9 件＋下衣 2 件",
       "護理技術：Dual Air Wash、Dual Jet Steam 與變頻壓縮機",
@@ -1569,13 +1572,14 @@
     "name": "Samsung Bespoke AI AirDresser Soapstone Platinum",
     "price": {
       "currency": "KRW",
-      "amount": 2203310,
-      "converted": 53726,
-      "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照；ExchangeRate-API 2026-11-04 匯率換算"
+      "amount": 2061500,
+      "converted": 50268,
+      "confidence": "2026-11-04 Chrome人工核對Danawa exact-model一般購買(일반구매)公開最低比價；依當日KRW/TWD匯率換算。",
+      "note": "韓國Danawa一般購買最低比價快照，未採會員／卡友最高優惠價、點數、租賃月付或發售建議價；點入各零售商仍須確認可購總額與供貨。海外參考，未含國際運費、進口稅、電壓／插頭／變壓器與台灣保固風險。"
     },
     "image": "https://images.samsung.com/kdp/goods/2026/01/13/b79b910e-17e9-4844-b199-726f9a7a3810.png",
     "buyUrl": "https://prod.danawa.com/info/?pcode=107770475",
-    "buyLabel": "Danawa 韓國新品比價",
+    "buyLabel": "Danawa 韓國新品比價（海外參考）",
     "specs": [
       "容量：上衣 5–9 件＋下衣 2 件",
       "護理技術：Dual Air Wash、Dual Jet Steam 與變頻壓縮機",
@@ -1679,13 +1683,14 @@
     "name": "Samsung Bespoke AI AirDresser Soapstone Charcoal",
     "price": {
       "currency": "KRW",
-      "amount": 2017980,
-      "converted": 49207,
-      "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照；ExchangeRate-API 2026-11-04 匯率換算"
+      "amount": 1970600,
+      "converted": 48052,
+      "confidence": "2026-11-04 Chrome人工核對Danawa exact-model一般購買(일반구매)公開最低比價；依當日KRW/TWD匯率換算。",
+      "note": "韓國Danawa一般購買最低比價快照，未採會員／卡友最高優惠價、點數、租賃月付或發售建議價；點入各零售商仍須確認可購總額與供貨。海外參考，未含國際運費、進口稅、電壓／插頭／變壓器與台灣保固風險。"
     },
     "image": "https://images.samsung.com/kdp/goods/2026/01/13/76d4f74e-0c3a-42e1-89f8-426d5859c6d0.png",
     "buyUrl": "https://prod.danawa.com/info/?pcode=107770397",
-    "buyLabel": "Danawa 韓國新品比價",
+    "buyLabel": "Danawa 韓國新品比價（海外參考）",
     "specs": [
       "容量：上衣 5–9 件＋下衣 2 件",
       "護理技術：Dual Air Wash、Dual Jet Steam 與變頻壓縮機",
@@ -1789,13 +1794,14 @@
     "name": "Samsung Bespoke AI AirDresser Slim Crystal Mirror",
     "price": {
       "currency": "KRW",
-      "amount": 2018400,
-      "converted": 49217,
-      "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照；ExchangeRate-API 2026-11-04 匯率換算"
+      "amount": 1919030,
+      "converted": 46794,
+      "confidence": "2026-11-04 Chrome人工核對Danawa exact-model一般購買(일반구매)公開最低比價；依當日KRW/TWD匯率換算。",
+      "note": "韓國Danawa一般購買最低比價快照，未採會員／卡友最高優惠價、點數、租賃月付或發售建議價；點入各零售商仍須確認可購總額與供貨。海外參考，未含國際運費、進口稅、電壓／插頭／變壓器與台灣保固風險。"
     },
     "image": "https://images.samsung.com/kdp/goods/2026/01/13/51d56ac5-a158-40ac-8c0a-40369bd7fd13.png",
     "buyUrl": "https://prod.danawa.com/info/?pcode=108411020",
-    "buyLabel": "Danawa 韓國新品比價",
+    "buyLabel": "Danawa 韓國新品比價（海外參考）",
     "specs": [
       "容量：上衣 5–9 件＋下衣 1 件",
       "護理技術：Dual Air Wash、Dual Jet Steam 與變頻壓縮機",
@@ -1899,13 +1905,14 @@
     "name": "Samsung Bespoke AI AirDresser Slim Clean White",
     "price": {
       "currency": "KRW",
-      "amount": 1791170,
-      "converted": 43676,
-      "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照；ExchangeRate-API 2026-11-04 匯率換算"
+      "amount": 1694250,
+      "converted": 41313,
+      "confidence": "2026-11-04 Chrome人工核對Danawa exact-model一般購買(일반구매)公開最低比價；依當日KRW/TWD匯率換算。",
+      "note": "韓國Danawa一般購買最低比價快照，未採會員／卡友最高優惠價、點數、租賃月付或發售建議價；點入各零售商仍須確認可購總額與供貨。海外參考，未含國際運費、進口稅、電壓／插頭／變壓器與台灣保固風險。"
     },
     "image": "https://images.samsung.com/kdp/goods/2026/01/13/a6dfd1ea-ae12-4bd7-b437-8fbbab8ccbe7.png",
     "buyUrl": "https://prod.danawa.com/info/?pcode=108411242",
-    "buyLabel": "Danawa 韓國新品比價",
+    "buyLabel": "Danawa 韓國新品比價（海外參考）",
     "specs": [
       "容量：上衣 5–9 件＋下衣 1 件",
       "護理技術：Dual Air Wash、Dual Jet Steam 與變頻壓縮機",
@@ -2011,11 +2018,12 @@
       "currency": "JPY",
       "amount": 328680,
       "converted": 68000,
-      "confidence": "BicCamera 2026-07-23 exact-model 新品公開價；ExchangeRate-API 2026-11-04 匯率換算"
+      "confidence": "BicCamera 2026-07-23 exact-model 新品公開價；ExchangeRate-API 2026-11-04 匯率換算",
+      "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。"
     },
     "image": "https://panasonic.jp/content/experience-fragments/panasonic/jp/ja/content/smartcloset/products/HCC-R600AR/lp4_ind1_HCC-R600AR_cxf/master/_jcr_content/root/c_lay014/c_lay001_434717760_c_1343778137/c_lay011/c_gen003.coreimg.png/1743734842467/hcc-r600al-link-864x648-250403.png",
     "buyUrl": "https://www.biccamera.com/bc/item/11581815/",
-    "buyLabel": "BicCamera 日本",
+    "buyLabel": "BicCamera 日本（來源待確認）",
     "specs": [
       "容量：3 件吊掛衣物",
       "護理技術：nanoe X 除菌消臭與蒸氣皺褶伸展",

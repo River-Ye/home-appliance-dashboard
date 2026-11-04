@@ -1,15 +1,15 @@
 const EXPECTED_CATEGORY_COUNT = 37;
-const EXPECTED_PRODUCT_COUNT = 1238;
+const EXPECTED_PRODUCT_COUNT = 1256;
 const MIN_PRODUCTS_PER_CATEGORY = 20;
 const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
-  ["tv", 42],
+  ["tv", 47],
   ["soundbar", 38],
   ["fan", 21],
   ["circulator", 23],
   ["dehumidifier", 30],
   ["purifier", 29],
   ["aircon", 30],
-  ["robot", 50],
+  ["robot", 51],
   ["vacuum", 35],
   ["washer", 27],
   ["dryer", 28],
@@ -19,31 +19,31 @@ const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["comforter", 32],
   ["pillow", 33],
   ["refrigerator", 50],
-  ["cookware", 28],
+  ["cookware", 29],
   ["knife", 23],
   ["blender", 26],
-  ["coffee", 24],
+  ["coffee", 25],
   ["oven", 28],
-  ["waterdispenser", 44],
-  ["dishwasher", 36],
-  ["waterheater", 47],
+  ["waterdispenser", 46],
+  ["dishwasher", 37],
+  ["waterheater", 48],
   ["bidet", 22],
-  ["smartlock", 54],
+  ["smartlock", 55],
   ["wifi", 58],
   ["network-switch", 20],
   ["standingdesk", 28],
   ["chair", 30],
-  ["monitor", 68],
+  ["monitor", 71],
   ["monitor-light", 20],
   ["monitorarm", 26],
-  ["mouse", 34],
-  ["keyboard", 35],
+  ["mouse", 35],
+  ["keyboard", 36],
   ["mousepad", 33],
 ]);
 const DATE_PATTERN = /^(找不到|\d{4}(?:[-/.]\d{1,2}(?:[-/.]\d{1,2})?)?)$/;
 const WASHER_DRYER_CAPACITY_PATTERN = /^洗\/乾容量：\d+(?:\.\d+)?kg \/ \d+(?:\.\d+)?kg$/;
 const DIMENSION_CATEGORY_COUNTS = new Map([
-  ["tv", 42],
+  ["tv", 47],
   ["soundbar", 38],
   ["washer", 27],
   ["dryer", 28],
@@ -53,16 +53,16 @@ const DIMENSION_CATEGORY_COUNTS = new Map([
   ["comforter", 32],
   ["pillow", 33],
   ["refrigerator", 50],
-  ["coffee", 24],
+  ["coffee", 25],
   ["oven", 28],
-  ["dishwasher", 36],
+  ["dishwasher", 37],
   ["bidet", 22],
   ["aircon", 30],
-  ["waterheater", 47],
+  ["waterheater", 48],
   ["network-switch", 20],
   ["monitor-light", 20],
-  ["mouse", 34],
-  ["keyboard", 35],
+  ["mouse", 35],
+  ["keyboard", 36],
   ["mousepad", 33],
 ]);
 const DIMENSION_CATEGORIES = new Set(DIMENSION_CATEGORY_COUNTS.keys());
@@ -71,20 +71,20 @@ const EXPECTED_DIMENSION_PRODUCT_COUNT = [...DIMENSION_CATEGORY_COUNTS.values()]
 const NEW_DIMENSION_CATEGORIES = new Set(["tv", "soundbar", "coffee", "oven", "dishwasher", "bidet", "aircon", "waterheater", "network-switch", "monitor-light", "mouse", "keyboard", "mousepad", "bedsheet", "comforter", "pillow"]);
 const MEASUREMENT_PRIORITY_CATEGORIES = new Set(["tv", "soundbar", "garmentcare", "coffee", "oven", "dishwasher", "bidet", "aircon", "waterheater", "network-switch"]);
 const MEASUREMENT_VALUE_PATTERN = "\\d+(?:\\.\\d+)?(?:[-–／/]\\d+(?:\\.\\d+)?)?";
-const DIMENSION_SEGMENT_PATTERN = `(?:[^；]+ )?寬 ${MEASUREMENT_VALUE_PATTERN} x 深 ${MEASUREMENT_VALUE_PATTERN} x 高 ${MEASUREMENT_VALUE_PATTERN} cm`;
+const DIMENSION_SEGMENT_PATTERN = `(?:(?:[^；]+ )?寬 ${MEASUREMENT_VALUE_PATTERN} x 深 ${MEASUREMENT_VALUE_PATTERN}|[^；]*直徑 ${MEASUREMENT_VALUE_PATTERN}) x 高 ${MEASUREMENT_VALUE_PATTERN} cm`;
 const FORBIDDEN_MEASUREMENT_LABEL_PATTERN = "(?!.*(?:包裝|外箱|紙箱|毛重|gross|carton))";
 const DIMENSION_PATTERN = new RegExp(`^尺寸：${FORBIDDEN_MEASUREMENT_LABEL_PATTERN}(未標示|查不到|${DIMENSION_SEGMENT_PATTERN}(?:；${DIMENSION_SEGMENT_PATTERN})*)$`, "i");
 const DIMENSION_CONFIDENCE_VALUES = new Set(["high", "medium", "low", "not_found"]);
 const WEIGHT_CATEGORY_COUNTS = new Map([
-  ["tv", 42],
+  ["tv", 47],
   ["soundbar", 38],
-  ["coffee", 24],
+  ["coffee", 25],
   ["oven", 28],
   ["aircon", 30],
-  ["waterheater", 47],
+  ["waterheater", 48],
   ["monitor-light", 20],
-  ["mouse", 34],
-  ["keyboard", 35],
+  ["mouse", 35],
+  ["keyboard", 36],
   ["mousepad", 33],
   ["bedsheet", 30],
   ["comforter", 32],
@@ -102,8 +102,8 @@ const PERIPHERAL_TYPES = {
   mousepad: ["cloth", "hard", "glass"],
 };
 const PERIPHERAL_BUDGET_COUNTS = {
-  mouse: new Map([["value", 6], ["mid", 13], ["premium", 15]]),
-  keyboard: new Map([["value", 6], ["mid", 13], ["premium", 16]]),
+  mouse: new Map([["value", 6], ["mid", 14], ["premium", 15]]),
+  keyboard: new Map([["value", 6], ["mid", 14], ["premium", 16]]),
   mousepad: new Map([["value", 6], ["mid", 12], ["premium", 15]]),
 };
 const PERIPHERAL_SPEC_PREFIXES = {
@@ -199,11 +199,11 @@ const AIRCON_CAPACITY_BAND_LIMITS = new Map([
 ]);
 const WATERHEATER_TYPE_COUNTS = new Map([
   ["gas", 17],
-  ["electric", 15],
+  ["electric", 16],
   ["heat_pump", 15],
 ]);
 const WATERHEATER_ELECTRIC_SUBTYPE_COUNTS = new Map([
-  ["storage", 8],
+  ["storage", 9],
   ["instant", 7],
 ]);
 const NETWORK_SWITCH_TYPE_MIN_COUNTS = new Map([
@@ -400,17 +400,20 @@ const GARMENTCARE_SPEC_PREFIXES = [
 const GARMENTCARE_TOP_PICK_MODEL = "R723WG";
 const COFFEE_TYPE_COUNTS = new Map([
   ["全自動", 12],
-  ["半自動", 12],
+  ["半自動", 13],
 ]);
 const COFFEE_BUDGET_COUNTS = new Map([
   ["value", 8],
   ["mid", 8],
-  ["premium", 8],
+  ["premium", 9],
 ]);
-const COFFEE_TYPE_BUDGET_COUNT = 4;
+const COFFEE_TYPE_BUDGET_COUNTS = new Map([
+  ["全自動", new Map([["value", 4], ["mid", 4], ["premium", 4]])],
+  ["半自動", new Map([["value", 4], ["mid", 4], ["premium", 5]])],
+]);
 const COFFEE_SEMI_AUTO_GRINDER_COUNTS = new Map([
   ["built_in", 6],
-  ["external", 6],
+  ["external", 7],
 ]);
 const COFFEE_MIN_BRAND_COUNT = 6;
 const COFFEE_MAX_PRODUCTS_PER_BRAND = 6;
@@ -504,7 +507,7 @@ module.exports = {
   GARMENTCARE_TOP_PICK_MODEL,
   COFFEE_TYPE_COUNTS,
   COFFEE_BUDGET_COUNTS,
-  COFFEE_TYPE_BUDGET_COUNT,
+  COFFEE_TYPE_BUDGET_COUNTS,
   COFFEE_SEMI_AUTO_GRINDER_COUNTS,
   COFFEE_MIN_BRAND_COUNT,
   COFFEE_MAX_PRODUCTS_PER_BRAND,

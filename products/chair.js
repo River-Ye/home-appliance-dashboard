@@ -215,11 +215,12 @@
       "currency": "TWD",
       "amount": 6990,
       "converted": 6990,
-      "confidence": "PChome 2026-07-31 exact-model API 公開價"
+      "confidence": "PChome 2026-07-31 exact-model API 公開價",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBE2LA900F8CX4/000001_1783563753.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBE2L-A900F8CX4",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "高階電腦椅",
       "腰枕頸枕",
@@ -409,11 +410,12 @@
       "currency": "TWD",
       "amount": 15280,
       "converted": 15280,
-      "confidence": "PChome 2026-08-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/QABD80A900AS2SD/000001_1773039881.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/QABD80-A900AS2SD",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "人體工學",
       "台灣製造",
@@ -980,11 +982,11 @@
       "amount": 65900,
       "converted": 65900,
       "confidence": "PChome 2026-08-18 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "保留 2026-08-18 最後已驗證售價；2026-09-08 晚間原通路商品 API 無資料，未確認相同深夜黑黑五爪全透網版本的可購現貨。"
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。 保留 2026-08-18 最後已驗證售價；2026-09-08 晚間原通路商品 API 無資料，未確認相同深夜黑黑五爪全透網版本的可購現貨。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ1HA900ICP8J/000001_1739333373.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ1H-A900ICP8J",
-    "buyLabel": "PChome（現售待確認）",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "人體工學",
       "全透網",
@@ -1075,9 +1077,10 @@
     "name": "Kangaroo Pro 人體工學椅",
     "price": {
       "currency": "TWD",
-      "amount": 8930,
-      "converted": 8930,
-      "confidence": "可信通路查核價"
+      "amount": 7990,
+      "converted": 7990,
+      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
+      "note": "Chrome原頁主商品Kangaroo Pro／Kangaroo Pro 人體工學椅可核對，公開主區網路價7990元，購買按鈕可用；「下單再折」或其他結帳優惠另計，不以API較低數字替代主價。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ0AA900IGLW6/000001_1759990112.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ0A-A900IGLW6",
@@ -1174,11 +1177,12 @@
       "currency": "TWD",
       "amount": 1699,
       "converted": 1699,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "confidence": "PChome 2026-07-11 API 查核價",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4TA900HIGB4/000001_1777429228.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4T-A900HIGB4",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "人體工學",
       "透氣網布",
@@ -1761,11 +1765,12 @@
       "currency": "TWD",
       "amount": 3880,
       "converted": 3880,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "confidence": "PChome 2026-07-11 API 查核價",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ2XA900K3I6A/000001_1781062288.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ2X-A900K3I6A",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "護腰",
       "多段調整",
@@ -2049,11 +2054,12 @@
       "currency": "TWD",
       "amount": 4389,
       "converted": 4389,
-      "confidence": "Costco 好市多 2026-07-09 查核價"
+      "confidence": "Costco 好市多 2026-07-09 查核價",
+      "note": "2026-11-04 Chrome開啟原精確商品URL後轉向同通路分類列表，沒有原商品編號的主區；不借列表其他型號價格或加入購物車判定本品現貨。 金額保留為舊參考價；未取得原廠停產證據。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h6a/hd8/384789238284318.jpg",
     "buyUrl": "https://www.costco.com.tw/Furniture-Kitchen/Furniture/Computer-Desk-Chair-Sets/True-Innovations-Insight-Gaming-Chair-Black-Red/p/1861987",
-    "buyLabel": "Costco 好市多",
+    "buyLabel": "Costco（原連結轉分類，供貨待確認）",
     "specs": [
       "電競椅",
       "高度 116-126 公分",

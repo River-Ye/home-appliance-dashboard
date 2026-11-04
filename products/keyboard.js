@@ -413,7 +413,7 @@
       "converted": 899,
       "basis": "retailer_current",
       "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-02 羅技台灣原頁所選型號公開單件價899元，可加車；不採折前價、其他版本或個人折扣。"
+      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。 2026-11-02 羅技台灣原頁所選型號公開單件價899元，可加車；不採折前價、其他版本或個人折扣。"
     },
     "installation": {
       "status": "not_stated",
@@ -421,7 +421,7 @@
     },
     "image": "https://store.logitech.tw/cdn/shop/products/pebble-k380s-841620.jpg?v=1761497815",
     "buyUrl": "https://store.logitech.tw/products/k380s",
-    "buyLabel": "Logi 台灣官方旗艦店",
+    "buyLabel": "Logi 台灣官方旗艦店（原通路缺貨，查看供貨）",
     "specs": [
       "類型：剪刀腳薄型藍牙鍵盤",
       "配列：精簡圓角鍵帽配列，無獨立數字鍵區",
@@ -512,7 +512,7 @@
       "converted": 1090,
       "basis": "retailer_current",
       "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-02 羅技台灣原頁所選型號公開單件價1090元，可加車；不採折前價、其他版本或個人折扣。"
+      "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。 2026-11-02 羅技台灣原頁所選型號公開單件價1090元，可加車；不採折前價、其他版本或個人折扣。"
     },
     "installation": {
       "status": "not_stated",
@@ -520,7 +520,7 @@
     },
     "image": "https://store.logitech.tw/cdn/shop/products/k580-874993.jpg?v=1761497820",
     "buyUrl": "https://store.logitech.tw/products/k580",
-    "buyLabel": "Logi 台灣官方旗艦店",
+    "buyLabel": "Logi 台灣官方旗艦店（來源待確認）",
     "specs": [
       "類型：薄型剪刀腳無線鍵盤",
       "配列：精簡含數字鍵區與手機置放槽，2台裝置切換",
@@ -704,10 +704,11 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 5190,
-      "converted": 5190,
+      "amount": 4990,
+      "converted": 4990,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 Chrome核對PChome中文黑色非8K成品5190元，原8490刪線；未扣下單折200、會員回饋。"
+      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
+      "note": "Chrome原頁主商品RZ03-04981500-R3T1／Huntsman V3 Pro Tenkeyless 第二代類比光軸鍵盤（中文黑色，非8K）可核對，公開主區網路價4990元，購買按鈕可用；「下單再折」或其他結帳優惠另計，不以API較低數字替代主價。"
     },
     "installation": {
       "status": "not_stated",
@@ -742,7 +743,7 @@
       "已見Reddit同家族Synapse4切換profile斷線個案，未達六人跨站門檻；進階功能需軟體環境配合"
     ],
     "bestFor": "想在中文TKL上試類比光軸和快速觸發，能接受有線與軟體設定的遊戲玩家。",
-    "recommendation": "電競推薦：若偏好光學偵測及可調觸發，這款比追逐8K新品更容易控制預算；現价5190已低於本次核實原價屋5211歷史點，但更低追蹤候選的活動條件未還原，不宣稱現價就是全網史低。",
+    "recommendation": "電競推薦：若偏好光學偵測及可調觸發，這款比追逐8K新品更容易控制預算；本次公開主價4990元低於先前可驗5211元歷史點，但更低追蹤候選的活動條件未還原，不宣稱現價就是全網史低。",
     "tags": [
       "台灣公司貨",
       "電競推薦",
@@ -755,16 +756,16 @@
     "releaseDate": "2023-10",
     "historicalLow": {
       "status": "found",
-      "amount": 5211,
+      "amount": 4990,
       "currency": "TWD",
-      "converted": 5211,
-      "sourceUrl": "https://www.coolpc.com.tw/tw/shop/misc/razer-gamingall-251106/",
-      "sourceTitle": "原價屋 Razer 2025年11月全通路促銷",
-      "evidenceSnippet": "原價屋2025-11-06公告列RZ03-04981500-R3T1、Huntsman V3 Pro Tenkeyless中文光軸8490降5211，活動10/24–11/16／售完止，原價屋全通路；Chrome原頁已核。",
-      "sourceKind": "retailer_promo",
+      "converted": 4990,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DCBF02-A900GQNOQ",
+      "sourceTitle": "PChome 24h：Razer RZ03-04981500-R3T1",
+      "evidenceSnippet": "2026-11-04 Chrome原頁同型號/版本可購主價NT$4990，低於先前可驗證低點NT$5211。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-08-31",
-      "note": "5211為同台灣中文SKU可驗證的歷史公開促銷點，現價5190略低；不是保證全歷史最低。BigGo同PChome記錄4255（2026-06-18／08-24）但原活動條件無法還原，今日追蹤4990也含原頁另列下單折價，故未將4255当無條件價格；排除會員、銀行及点數。"
+      "checkedAt": "2026-11-04",
+      "note": "採本輪實際可公開重現的同型號新品單件主價；不扣個人券、會員個人折扣、信用卡、點數或贈品，不把其他版本/缺貨價當同款史低。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1000,7 +1001,8 @@
       "amount": 3690,
       "converted": 3690,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 根代理Chrome確認銀軸中文獨立SKU可售。採頁面未折3690；先前3321九折及另頁3490首購價無法跨狀態還原為通用優惠，不採銀行/會員回饋。"
+      "confidence": "2026-08-31 根代理Chrome確認銀軸中文獨立SKU可售。採頁面未折3690；先前3321九折及另頁3490首購價無法跨狀態還原為通用優惠，不採銀行/會員回饋。",
+      "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。"
     },
     "installation": {
       "status": "not_stated",
@@ -1008,7 +1010,7 @@
     },
     "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/366051495817619-f43c9a51-867a-4f86-b890-f6382efcf810.jpg",
     "buyUrl": "https://www.tw.coupang.com/products/Ducky-ProjectD-Tinker-75%25-%E7%B6%93%E5%85%B8%E9%BB%91-%E5%AE%A2%E8%A3%BD%E5%8C%96%E6%A9%9F%E6%A2%B0%E5%BC%8F%E9%8D%B5%E7%9B%A4-RGB-%E7%86%B1%E6%8F%92%E6%8B%94-Cherry-%E9%8A%80%E8%BB%B8-%E4%B8%AD%E6%96%87-502360094769153",
-    "buyLabel": "酷澎 Coupang 直售",
+    "buyLabel": "酷澎 Coupang 直售（來源待確認）",
     "specs": [
       "類型：75% Gasket機械式鍵盤，完整成品非裸套",
       "配列：75%緊湊配列，保留功能列與方向鍵；無獨立數字區",
@@ -1302,7 +1304,7 @@
       "note": "桌面無線鍵盤無到府施工；首次使用先確認硬體版本、三模式輸入及快速複鍵是否符合需求，韌體須核對VID/PID。"
     },
     "image": "https://www.keychron.com.tw/cdn/shop/files/B1PK1.jpg?v=1733471480&width=1214",
-    "buyUrl": "https://www.keychron.com.tw/products/keychron-b1-pro-ultra-slim-wireless-keyboard",
+    "buyUrl": "https://www.keychron.com.tw/products/keychron-b1-pro-ultra-slim-wireless-keyboard?variant=45786093617411",
     "buyLabel": "Keychron Taiwan 官方商城",
     "specs": [
       "類型：剪刀腳薄型三模鍵盤，完整成品非裸套",
@@ -1822,11 +1824,12 @@
     "variantFamily": "Corsair K70 CORE",
     "topPick": false,
     "price": {
-      "amount": 2690,
+      "amount": 1811,
       "currency": "TWD",
-      "converted": 2690,
+      "converted": 1811,
       "basis": "retailer_current",
-      "confidence": "2026-09-01 Chrome核對選定版本完整新品公開售價，不扣個人折價券、信用卡、點數或加購。"
+      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
+      "note": "中文完整K70 CORE紅軸，主區明示中文PC ABS鍵帽；採網路價1811，不採API1751或滿額折扣。"
     },
     "installation": {
       "status": "not_stated",
@@ -2227,7 +2230,7 @@
       "converted": 2990,
       "basis": "retailer_current",
       "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
-      "note": "2026-10-31 Logi網路旗艦店同型號／既有選定SKU主購買區Sale公開價2990元，可加車；保留原有語言／軸體／顏色所選版本，不採刪除原價或其他型號價格。"
+      "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。 2026-10-31 Logi網路旗艦店同型號／既有選定SKU主購買區Sale公開價2990元，可加車；保留原有語言／軸體／顏色所選版本，不採刪除原價或其他型號價格。"
     },
     "installation": {
       "status": "not_stated",
@@ -2235,7 +2238,7 @@
     },
     "image": "https://store.logitech.tw/cdn/shop/products/mx-keys-mini-368363.jpg?v=1770130977&width=1220",
     "buyUrl": "https://store.logitech.tw/products/keysmini",
-    "buyLabel": "Logi 台灣官方旗艦店",
+    "buyLabel": "Logi 台灣官方旗艦店（來源待確認）",
     "specs": [
       "類型：低筒剪刀腳無線辦公鍵盤",
       "配列：精簡6排79鍵、無數字區；三台Easy-Switch",
@@ -2325,7 +2328,7 @@
       "converted": 3088,
       "basis": "retailer_current",
       "confidence": "Chrome黑色SoldOut，選復古白背光熱插拔矮紅軸；先茶再紅取得真實variant46960807969027，SKU1T3088可加入購物車；主圖1T800px。白背光熱插拔選項與舊正文僅RGB可熱插拔矛盾，明示按選定SKU並保留疑義。",
-      "note": "2026-10-31 Keychron台灣所選KBKCK3MQ1T／復古白背光熱插拔矮紅軸原頁售完／到貨通知，3490元是此選定版本展示價；保留3088元舊參考價，不借2990/3790元其他版本庫存或價格。"
+      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。 2026-10-31 Keychron台灣所選KBKCK3MQ1T／復古白背光熱插拔矮紅軸原頁售完／到貨通知，3490元是此選定版本展示價；保留3088元舊參考價，不借2990/3790元其他版本庫存或價格。"
     },
     "installation": {
       "status": "not_stated",
@@ -2914,7 +2917,7 @@
       "converted": 3990,
       "basis": "retailer_current",
       "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-03 Keychron台灣所選完整成品/軸體版本3990元，可加車；不採其他軸體、顏色或配件價。"
+      "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。 2026-11-03 Keychron台灣所選完整成品/軸體版本3990元，可加車；不採其他軸體、顏色或配件價。"
     },
     "installation": {
       "status": "not_stated",
@@ -2922,7 +2925,7 @@
     },
     "image": "https://www.keychron.com.tw/cdn/shop/files/Keychron-K2-HE-75-Percent-Layout-Wireless-Magnetic-Switch-Custom-Keyboard-Special-Edition-Wooden-Black-RGB-Backlight-Double-Shot-PBT-Keycaps.jpg?v=1760595199&width=1214",
     "buyUrl": "https://www.keychron.com.tw/products/keychron-k2-he-wireless-magnetic-switch-keyboard?variant=46813890674947",
-    "buyLabel": "Keychron 台灣官方商店",
+    "buyLabel": "Keychron 台灣官方商店（來源待確認）",
     "specs": [
       "類型：75%三模磁軸鍵盤，黑木飾邊特仕完整成品，非全木TMR新版",
       "配列：ANSI 75%，保留F列與方向鍵，無數字鍵區",
@@ -3397,105 +3400,207 @@
       ]
     }
   },
-{
-  "id": "keyboard-keychron-q11-ultra-red",
-  "category": "keyboard",
-  "brand": "Keychron",
-  "model": "KBKCQ11UM1",
-  "name": "Q11 Ultra 8K 分離式三模機械鍵盤（黑色英文 Silk POM紅軸）",
-  "variantFamily": "Q11 Ultra 8K",
-  "type": "mechanical",
-  "rank": 35,
-  "score": 80,
-  "budget": "premium",
-  "channel": "tw",
-  "price": {
-    "currency": "TWD",
-    "amount": 6990,
-    "converted": 6990,
-    "basis": "retailer_current",
-    "confidence": "2026/10/29 Chrome重開官方variant49296165470467，確認KBKCQ11UM1黑色英文SilkPOM紅軸6990元、加車按鈕可用；台灣官方一般出貨說明1–2工作天，實際交期依原店。"
+  {
+    "id": "keyboard-keychron-q11-ultra-red",
+    "category": "keyboard",
+    "brand": "Keychron",
+    "model": "KBKCQ11UM1",
+    "name": "Q11 Ultra 8K 分離式三模機械鍵盤（黑色英文 Silk POM紅軸）",
+    "variantFamily": "Q11 Ultra 8K",
+    "type": "mechanical",
+    "rank": 35,
+    "score": 80,
+    "budget": "premium",
+    "channel": "tw",
+    "price": {
+      "currency": "TWD",
+      "amount": 6990,
+      "converted": 6990,
+      "basis": "retailer_current",
+      "confidence": "2026/10/29 Chrome重開官方variant49296165470467，確認KBKCQ11UM1黑色英文SilkPOM紅軸6990元、加車按鈕可用；台灣官方一般出貨說明1–2工作天，實際交期依原店。",
+      "note": "2026-11-04 Chrome已選KBKCQ11UM1、黑色RGB熱插拔Keychron Silk POM紅軸，主價6990但「售完」按鈕停用；不能借同頁茶軸庫存當紅軸可購。保留既有參考價，不推原廠停產。"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "桌面USB/無線鍵盤無到府施工；需預留左右分離、雙邊USB充電與滑鼠空間。右半不能獨立使用，改裝前先確認台灣保固。"
+    },
+    "image": "https://www.keychron.com.tw/cdn/shop/files/Q11Ultra-1.jpg?v=1784714058&width=800",
+    "buyUrl": "https://www.keychron.com.tw/products/keychron-q11-ultra-8k-wireless-custom-mechanical-keyboard?variant=49296165470467",
+    "buyLabel": "Keychron 官方（所選紅軸已售完）",
+    "specs": [
+      "類型：75%分離式三模機械鍵盤，左右2.4GHz無線同步；完整組裝成品非裸套",
+      "配列：英文75%分離式89鍵，左右旋鈕與M1–M5巨集鍵；無獨立數字區",
+      "鍵帽語言／材質：原生英文；KSA雙色注塑PBT不透光，含Mac／Windows替換鍵帽",
+      "軸體：Keychron Silk POM紅軸；預潤線性機械軸，黑色英文KBKCQ11UM1版",
+      "熱插拔：支援3pin／5pin MX機械軸；PC定位板與螺絲式PCB衛星軸",
+      "連線：USB-C有線、USB-A 2.4GHz接收器、Bluetooth5.3；藍牙最多3裝置；右半必須連接左半使用",
+      "回報率：有線／2.4GHz最高8000Hz，官方手冊預設1000Hz需自行設定；藍牙125Hz，不等於實測端到端延遲",
+      "供電／續航：USB5V／1A；左右各2000mAh鋰聚合物電池，各約2小時充滿；8K／2.4GHz關背光最長160小時，實際依使用條件",
+      "系統／軟體：Windows／macOS／Linux；ZMK、Keychron Launcher，需Chrome／Edge／Opera與有線連接；左右需分別更新韌體，右半設定由左半同步",
+      "尺寸：查不到",
+      "重量：1724 ± 10 g",
+      "隨附配件：USB-C線、USB-A對USB-C轉接器、接收器延長座、USB-A2.4GHz接收器、拔鍵／拔軸器、螺絲起子與Mac／Windows鍵帽；未列USB市電變壓器"
+    ],
+    "description": "保留傳統列位與75%功能鍵區，將左右兩半改以無線同步，適合想自由拉開雙手及在中間放繪圖板的桌面。相較舊Q11的有線QMK／1K，Q11Ultra改採ZMK三模／最高8K；收錄台灣英文SilkPOM紅軸完整成品，並保留既有鍵盤供比較。",
+    "pros": [
+      "左右兩半無橋接線，能依肩寬調整並讓出桌面中央空間",
+      "全金屬、KSA雙色PBT、MX熱插拔與雙旋鈕，含完整接收配件",
+      "台灣官方6990元與一年有限保固；有線／2.4GHz最高8K並支援藍牙三裝置"
+    ],
+    "cons": [
+      "英文高鍵帽、約1.72kg且無數字區；官方尺寸軸序未明，完整尺寸查不到",
+      "右半不能獨立使用，左右需分別更新韌體；8K與分離佈局需要設定及適應",
+      "海外同Q11Ultra家族可見右半掉字／連線及巨集個案；未核同台灣紅軸版本，不能併成六人兩站災情，購前先核韌體並在鑑賞期逐模測試"
+    ],
+    "bestFor": "需要保留傳統75%配列、想拉開雙手並在中央擺繪圖板，能接受英文高鍵帽與分離式設定的辦公使用者。",
+    "recommendation": "分離式辦公參考：6990元買到左右無線同步與金屬機身，但海外家族連線回報與尺寸不明需納入取捨。到貨先測連續快速輸入、左右重連、三種連線及常用巨集，再考慮客製改裝；不列為Top Pick，也不以最高8K保證遊戲表現。",
+    "tags": [
+      "台灣公司貨",
+      "辦公推薦",
+      "分離式",
+      "英文鍵帽",
+      "三模",
+      "8K回報",
+      "熱插拔"
+    ],
+    "voltage": "USB5V／1A充電或有線供電；官方手冊建議5V1A變壓器或USB3.0埠，左右各2000mAh，變壓器未列隨附，不可直接接市電。",
+    "warranty": "Keychron Taiwan一年／12個月有限保固；Q系列製造瑕疵以更換故障零件為主，拆卸／不當改裝可能不保。保存台灣購買證明，依台灣官方support@keychron.com.tw條款申請。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-29",
+      "note": "未找到台灣黑色英文KBKCQ11UM1 SilkPOM紅軸完整成品可靠歷史最低價；官方同SKU6990元為本次現價，不能直接推史低。另查完整SKU的BigGo/FindPrice價格索引未見可採歷史紀錄；澳洲同SKU不同區域銷售/保固及全球不同軸體不移植。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-29",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "Keychron \"KBKCQ11UM1\" \"Q11 Ultra\" site:mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=Keychron%20%22KBKCQ11UM1%22%20%22Q11%20Ultra%22%20site%3Amobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "Keychron \"KBKCQ11UM1\" \"Q11 Ultra\" site:reddit.com",
+          "queryUrl": "https://www.google.com/search?q=Keychron%20%22KBKCQ11UM1%22%20%22Q11%20Ultra%22%20site%3Areddit.com"
+        }
+      ]
+    },
+    "topPick": false
   },
-  "installation": {
-    "status": "not_stated",
-    "note": "桌面USB/無線鍵盤無到府施工；需預留左右分離、雙邊USB充電與滑鼠空間。右半不能獨立使用，改裝前先確認台灣保固。"
-  },
-  "image": "https://www.keychron.com.tw/cdn/shop/files/Q11Ultra-1.jpg?v=1784714058&width=800",
-  "buyUrl": "https://www.keychron.com.tw/products/keychron-q11-ultra-8k-wireless-custom-mechanical-keyboard?variant=49296165470467",
-  "buyLabel": "Keychron Taiwan 官方商城",
-  "specs": [
-    "類型：75%分離式三模機械鍵盤，左右2.4GHz無線同步；完整組裝成品非裸套",
-    "配列：英文75%分離式89鍵，左右旋鈕與M1–M5巨集鍵；無獨立數字區",
-    "鍵帽語言／材質：原生英文；KSA雙色注塑PBT不透光，含Mac／Windows替換鍵帽",
-    "軸體：Keychron Silk POM紅軸；預潤線性機械軸，黑色英文KBKCQ11UM1版",
-    "熱插拔：支援3pin／5pin MX機械軸；PC定位板與螺絲式PCB衛星軸",
-    "連線：USB-C有線、USB-A 2.4GHz接收器、Bluetooth5.3；藍牙最多3裝置；右半必須連接左半使用",
-    "回報率：有線／2.4GHz最高8000Hz，官方手冊預設1000Hz需自行設定；藍牙125Hz，不等於實測端到端延遲",
-    "供電／續航：USB5V／1A；左右各2000mAh鋰聚合物電池，各約2小時充滿；8K／2.4GHz關背光最長160小時，實際依使用條件",
-    "系統／軟體：Windows／macOS／Linux；ZMK、Keychron Launcher，需Chrome／Edge／Opera與有線連接；左右需分別更新韌體，右半設定由左半同步",
-    "尺寸：查不到",
-    "重量：1724 ± 10 g",
-    "隨附配件：USB-C線、USB-A對USB-C轉接器、接收器延長座、USB-A2.4GHz接收器、拔鍵／拔軸器、螺絲起子與Mac／Windows鍵帽；未列USB市電變壓器"
-  ],
-  "description": "保留傳統列位與75%功能鍵區，將左右兩半改以無線同步，適合想自由拉開雙手及在中間放繪圖板的桌面。相較舊Q11的有線QMK／1K，Q11Ultra改採ZMK三模／最高8K；收錄台灣英文SilkPOM紅軸完整成品，並保留既有鍵盤供比較。",
-  "pros": [
-    "左右兩半無橋接線，能依肩寬調整並讓出桌面中央空間",
-    "全金屬、KSA雙色PBT、MX熱插拔與雙旋鈕，含完整接收配件",
-    "台灣官方6990元與一年有限保固；有線／2.4GHz最高8K並支援藍牙三裝置"
-  ],
-  "cons": [
-    "英文高鍵帽、約1.72kg且無數字區；官方尺寸軸序未明，完整尺寸查不到",
-    "右半不能獨立使用，左右需分別更新韌體；8K與分離佈局需要設定及適應",
-    "海外同Q11Ultra家族可見右半掉字／連線及巨集個案；未核同台灣紅軸版本，不能併成六人兩站災情，購前先核韌體並在鑑賞期逐模測試"
-  ],
-  "bestFor": "需要保留傳統75%配列、想拉開雙手並在中央擺繪圖板，能接受英文高鍵帽與分離式設定的辦公使用者。",
-  "recommendation": "分離式辦公參考：6990元買到左右無線同步與金屬機身，但海外家族連線回報與尺寸不明需納入取捨。到貨先測連續快速輸入、左右重連、三種連線及常用巨集，再考慮客製改裝；不列為Top Pick，也不以最高8K保證遊戲表現。",
-  "tags": [
-    "台灣公司貨",
-    "辦公推薦",
-    "分離式",
-    "英文鍵帽",
-    "三模",
-    "8K回報",
-    "熱插拔"
-  ],
-  "voltage": "USB5V／1A充電或有線供電；官方手冊建議5V1A變壓器或USB3.0埠，左右各2000mAh，變壓器未列隨附，不可直接接市電。",
-  "warranty": "Keychron Taiwan一年／12個月有限保固；Q系列製造瑕疵以更換故障零件為主，拆卸／不當改裝可能不保。保存台灣購買證明，依台灣官方support@keychron.com.tw條款申請。",
-  "releaseDate": "找不到",
-  "historicalLow": {
-    "status": "not_found",
-    "amount": null,
-    "currency": "TWD",
-    "converted": null,
-    "sourceUrl": "",
-    "sourceTitle": "",
-    "evidenceSnippet": "",
-    "sourceKind": "not_found",
-    "confidence": "not_found",
-    "checkedAt": "2026-10-29",
-    "note": "未找到台灣黑色英文KBKCQ11UM1 SilkPOM紅軸完整成品可靠歷史最低價；官方同SKU6990元為本次現價，不能直接推史低。另查完整SKU的BigGo/FindPrice價格索引未見可採歷史紀錄；澳洲同SKU不同區域銷售/保固及全球不同軸體不移植。"
-  },
-  "issueResearch": {
-    "status": "no_common_issue",
-    "checkedAt": "2026-10-29",
-    "summary": "截至查核日，查無達門檻的集中負評／災情",
-    "issues": [],
-    "checkedSources": [
-      {
-        "platform": "Mobile01",
-        "targetHost": "mobile01.com",
-        "query": "Keychron \"KBKCQ11UM1\" \"Q11 Ultra\" site:mobile01.com",
-        "queryUrl": "https://www.google.com/search?q=Keychron%20%22KBKCQ11UM1%22%20%22Q11%20Ultra%22%20site%3Amobile01.com"
-      },
-      {
-        "platform": "Reddit",
-        "targetHost": "reddit.com",
-        "query": "Keychron \"KBKCQ11UM1\" \"Q11 Ultra\" site:reddit.com",
-        "queryUrl": "https://www.google.com/search?q=Keychron%20%22KBKCQ11UM1%22%20%22Q11%20Ultra%22%20site%3Areddit.com"
-      }
+  {
+    "id": "keyboard-keychron-k3-ultra-silent-red",
+    "category": "keyboard",
+    "brand": "Keychron",
+    "model": "KBKCK3UH6",
+    "name": "K3 Ultra 8K 75%矮軸三模機械鍵盤（黑色注音 K Pro靜音紅軸）",
+    "variantFamily": "K3 Ultra 8K",
+    "type": "mechanical",
+    "rank": 36,
+    "score": 84,
+    "budget": "mid",
+    "channel": "tw",
+    "topPick": false,
+    "price": {
+      "currency": "TWD",
+      "amount": 3790,
+      "converted": 3790,
+      "basis": "retailer_current",
+      "confidence": "2026-11-04 Chrome核對台灣官方原頁selected variant 48471088234755：KBKCK3UH6、黑色、RGB熱插拔、K Pro靜音紅軸皆為選定狀態，主價3790元，加入購物車啟用。"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "桌面鍵盤無到府施工；需自行連接接收器/藍牙並使用USB5V1A充電，市電變壓器未列隨附。"
+    },
+    "image": "https://cdn.shopify.com/s/files/1/0679/9127/3731/files/k3U-h6-1.jpg?v=1782963662",
+    "buyUrl": "https://www.keychron.com.tw/products/keychron-k3-ultra-8k-wireless-custom-mechanical-keyboard?variant=48471088234755",
+    "buyLabel": "Keychron Taiwan 官方商城",
+    "specs": [
+      "類型：75%矮軸三模機械鍵盤；完整組裝成品，非裸套",
+      "配列：75%緊湊84鍵；無獨立數字區",
+      "鍵帽語言／材質：原生注音；LSA雙色注塑PBT不透光，含Mac／Windows替換鍵帽",
+      "軸體：Keychron K Pro 靜音紅軸；黑色注音KBKCK3UH6版，以選定SKU選項為準，非海外Milk POM紅軸",
+      "熱插拔：支援矮軸機械軸熱插拔；更換前須確認相容性，不與一般MX高軸通用",
+      "連線：USB-C有線、USB-A 2.4GHz接收器、Bluetooth5.2；藍牙最多3裝置",
+      "回報率：有線／2.4GHz最高8000Hz，需設定；藍牙未標示，不以最高輪詢率當實測輸入延遲",
+      "供電／續航：USB5V／1A；2600mAh鋰聚合物電池，約3.8小時充滿；關背光最長550小時，實際依使用條件",
+      "系統／軟體：Windows／macOS／Linux；ZMK與Keychron Launcher，設定需相容Chrome／Edge／Opera及有線連接",
+      "尺寸：查不到",
+      "重量：566 ± 10 g",
+      "隨附配件：USB-C線、USB-A對USB-C轉接器、接收器延長座、USB-A2.4GHz接收器、拔鍵／拔軸器、Mac／Windows替換鍵帽、手冊與快速指南；未列市電變壓器"
+    ],
+    "description": "K3家族從K3 Max的QMK／1K升級到ZMK／最高8K無線與550小時關燈續航，適合想在75%矮軸桌面兼顧辦公與遊戲的人。收錄台灣黑色注音KPro靜音紅軸，保留既有K3 Max比較，不把海外MilkPOM軸與不同語言版證據合併。",
+    "pros": [
+      "台灣官方注音靜音紅完整成品與一年有限保固",
+      "有線及2.4GHz最高8K，藍牙可切三裝置",
+      "PBT矮鍵帽、熱插拔與關燈最長550小時續航"
+    ],
+    "cons": [
+      "台灣通用介紹仍寫MilkPOM軸，選定SKU明示KPro靜音紅；購前與原店確認版本",
+      "官方只列兩數字尺寸及不含鍵帽前後高度，未明示軸序，完整尺寸查不到",
+      "海外家族可見重複按鍵一人兩台個案與香蕉軸配件不合；未核台灣靜音紅同版，不併作集中災情，到貨宜逐模測試"
+    ],
+    "bestFor": "需要原生注音、75%矮軸與三模連線，想兼顧安靜辦公及高回報率遊戲的使用者。",
+    "recommendation": "矮軸三模升級參考：3790元提供台灣注音靜音紅、最高8K及長續航；購買前確認KBKCK3UH6，收到後測USB／2.4GHz／藍牙的連續輸入與睡眠喚醒。尺寸軸序與海外個案仍有不確定性，不列Top Pick。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-11-04",
+      "note": "已查台灣官方同SKU3790元、PC PARTY同款兩軸3790元，並查完整KBKCK3UH6於FindPrice/飛比/BigGo價格索引，未找到可驗證歷史價；目前價與上架日期不推史低，海外MilkPOM軸募資早鳥價不是此台灣注音KPro靜音紅版。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-11-04",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "\"KBKCK3UH6\" site:reddit.com",
+          "queryUrl": "https://www.google.com/search?q=%22KBKCK3UH6%22%20site%3Areddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"KBKCK3UH6\" site:mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=%22KBKCK3UH6%22%20site%3Amobile01.com"
+        }
+      ]
+    },
+    "voltage": "USB5V／1A充電或有線供電；K3Ultra官方手冊建議5V1A變壓器或USB3.0埠，支持最高5V/1A，不可直接接市電。",
+    "warranty": "Keychron Taiwan一年／12個月有限保固；鍵帽等磨耗品3個月，不當拆卸改裝不保，可能以更換故障零件履行。保存台灣購買證明並依官方support@keychron.com.tw條款申請。",
+    "tags": [
+      "台灣公司貨",
+      "原生注音",
+      "75%配列",
+      "矮軸",
+      "靜音紅軸",
+      "三模",
+      "8K回報",
+      "熱插拔"
     ]
-  },
-  "topPick": false
-}
+  }
 ]);
 })();

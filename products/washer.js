@@ -439,11 +439,11 @@
       "amount": 20610,
       "converted": 20610,
       "confidence": "2026-10-27 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-27 PChome原頁同型號NA-V150NM-PN主商品折扣價20610元，國際牌原廠直營10/01–11/30任選1件9折；可立即購買／加入購物車，未扣折價券、點數或信用卡回饋。",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。 2026-10-27 PChome原頁同型號NA-V150NM-PN主商品折扣價20610元，國際牌原廠直營10/01–11/30任選1件9折；可立即購買／加入購物車，未扣折價券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "channel": "tw",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1H-A900GMG8F",
     "specs": [
       "洗衣機：Panasonic國際牌 15公斤 溫水變頻直立式洗衣機 NA-V150NM-PN 玫瑰金",
@@ -542,11 +542,11 @@
     "image": "https://cs-a.ecimg.tw/items/DPAI1HA900BRSFN/000001_1761009178.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 16632,
-      "converted": 16632,
-      "confidence": "PChome 2026-09-08 晚間 exact SKU 公開單件 88 折價",
+      "amount": 17512,
+      "converted": 17512,
+      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
       "basis": "retailer_current",
-      "note": "2026-09-08 晚間由 PChome exact SKU 即時 API 與商品頁確認公開單件 88 折價；不含另申請退稅、會員/信用卡回饋或點數。"
+      "note": "Chrome原頁主商品NA-V130LB-L／Panasonic NA-V130LB-L可核對，公開主區售價17512元，購買按鈕可用；不扣個人券、信用卡、點數或贈品。"
     },
     "channel": "tw",
     "buyLabel": "PChome 24h 購物",
@@ -863,10 +863,11 @@
       "currency": "TWD",
       "amount": 8910,
       "converted": 8910,
-      "confidence": "PChome 2026-09-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "channel": "tw",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1H-A900ALPGU",
     "specs": [
       "洗衣機：Panasonic 國際牌 NA-90EB-W 9KG超強淨直立定頻洗衣機 白",
@@ -1283,10 +1284,11 @@
       "currency": "TWD",
       "amount": 8990,
       "converted": 8990,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價",
+      "note": "2026-11-04 原商品為預購，頁面標示2026/12/05起出貨；保留8990元參考價，實際預購價格、交期及安裝範圍請依通路確認。"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心",
+    "buyLabel": "Yahoo購物中心（預購，12/05起出貨）",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SAMPO-%E8%81%B2%E5%AF%B610%E5%85%AC%E6%96%A4%E7%AA%84%E8%BA%AB%E8%AE%8A%E9%A0%BB%E5%96%AE%E6%A7%BD%E7%9B%B4%E7%AB%8B%E5%BC%8F%E6%B4%97%E8%A1%A3%E6%A9%9F-ES-K10DF-%E9%A6%99%E6%AA%B3%E9%87%91-9713719.html",
     "specs": [
       "洗衣機：SAMPO聲寶 10公斤窄身變頻單槽直立式洗衣機ES- K10DF香檳金 含基本安裝+舊機回收",
@@ -1492,10 +1494,10 @@
       "amount": 8690,
       "converted": 8690,
       "confidence": "Yahoo購物中心 2026-07-11 頁面查核價",
-      "note": "2026-10-20 原Yahoo頁已變成另一型號WM-C13F，改連同型號ES-B13F的PChome產品頁；API顯示Qty 0，保留NT$8690參考價，現貨待確認。"
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。 2026-10-20 原Yahoo頁已變成另一型號WM-C13F，改連同型號ES-B13F的PChome產品頁；API顯示Qty 0，保留NT$8690參考價，現貨待確認。"
     },
     "channel": "tw",
-    "buyLabel": "PChome（暫無庫存；參考資料）",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1O-A9009NXEU",
     "specs": [
       "洗衣機：SAMPO聲寶 12.5公斤定頻直立式洗衣機ES-B13F珍珠白 含基本安裝+舊機回收",
@@ -2118,11 +2120,12 @@
       "currency": "TWD",
       "amount": 12199,
       "converted": 12199,
-      "confidence": "Costco 好市多 2026-07-11 頁面查核價"
+      "confidence": "Costco 好市多 2026-07-11 頁面查核價",
+      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/hab/h23/12352726728734.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Washers-Dryers/SHARP-10-kg-Top-Load-Washer-ES-ASF10T/p/122954",
-    "buyLabel": "Costco 好市多",
+    "buyLabel": "Costco 好市多（原通路缺貨，查看供貨）",
     "specs": [
       "10 公斤洗衣容量",
       "直立式",
@@ -2216,11 +2219,12 @@
       "currency": "TWD",
       "amount": 15999,
       "converted": 15999,
-      "confidence": "Costco 好市多 2026-07-11 頁面查核價"
+      "confidence": "Costco 好市多 2026-07-11 頁面查核價",
+      "note": "2026-11-04 Chrome開啟原精確商品URL後轉向同通路分類列表，沒有原商品編號的主區；不借列表其他型號價格或加入購物車判定本品現貨。 金額保留為舊參考價；未取得原廠停產證據。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h82/h09/384281302630430.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Washers-Dryers/Washer-Size-10-15-kg/Samsung-13-kg-AI-Top-Load-Washer-WA80F13S5LTW/p/155133",
-    "buyLabel": "Costco 好市多",
+    "buyLabel": "Costco（原連結轉分類，供貨待確認）",
     "specs": [
       "13 公斤",
       "直立式",
@@ -2629,10 +2633,11 @@
     "name": "15kg DDM 變頻直立式洗衣機",
     "price": {
       "currency": "TWD",
-      "amount": 19490,
-      "converted": 19490,
-      "confidence": "PChome 24h 2026-08-20 exact-model SKU API 公開價 NT$19,490，Qty 5",
-      "basis": "retailer_current"
+      "amount": 18911,
+      "converted": 18911,
+      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
+      "basis": "retailer_current",
+      "note": "Chrome原頁主商品AW-T26D1600XTA(MG)／15kg DDM 變頻直立式洗衣機可核對，公開主區售價18911元，購買按鈕可用；不扣個人券、信用卡、點數或贈品。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DPAI1GA900K9EPD/000001_1785143567.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1G-A900K9EPD",

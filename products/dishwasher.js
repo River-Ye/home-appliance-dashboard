@@ -17,10 +17,11 @@
       "currency": "TWD",
       "amount": 19900,
       "converted": 19900,
-      "confidence": "PChome 2026-09-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "channel": "tw",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR1P-A900I386D",
     "specs": [
       "洗碗機：【Panasonic 國際牌】全省安裝 6人份桌上型洗碗機(NP-K1YWHR2TW)",
@@ -223,10 +224,11 @@
       "currency": "TWD",
       "amount": 10900,
       "converted": 10900,
-      "confidence": "PChome 2026-09-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "channel": "tw",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR0P-A900I01YW",
     "specs": [
       "洗碗機：日本東芝TOSHIBA 4人份智慧WiFi洗烘存洗碗機 DWS-34BTW",
@@ -973,11 +975,12 @@
     "cons": [
       "需確認進排水、櫃體尺寸與門片開啟空間",
       "嵌入式與 220V 機種安裝成本較高",
-      "容量標示需對照實際餐具習慣"
+      "容量標示需對照實際餐具習慣",
+      "官方當代API與既有PDF電壓分別列120V與110V，尚未確認版本差異，需原廠核實出貨銘牌。"
     ],
     "bestFor": "想依家庭人數、廚房形式與安裝條件挑選洗碗機的人。",
     "recommendation": "洗碗機第 10 推薦：SAKURA E-7682 在價格、評價、品牌通路與售後取得性之間表現均衡，適合納入同類比較。",
-    "voltage": "多數為 110V 或依機型不同；需確認插座、專用迴路、進排水與櫃體尺寸",
+    "voltage": "官方資料有版本差異：2026-11-04台灣當代產品API列120V／60Hz，既有官方PDF列110V／60Hz；下單前須向原廠核對實際出貨版與銘牌、專用迴路及接地。",
     "warranty": "依 PChome 24h 與品牌/供應商頁面標示；安裝費依通路方案",
     "score": 85,
     "budget": "mid",
@@ -3010,11 +3013,12 @@
       "amount": 39468,
       "converted": 39468,
       "basis": "retailer_current",
-      "confidence": "PChome 24h 2026-08-31 exact-model SKU DMBR0N-A900JXF2E 公開售價；API Qty 5，原頁有加入購物車與立即購買，不含信用卡及點數回饋。"
+      "confidence": "PChome 24h 2026-08-31 exact-model SKU DMBR0N-A900JXF2E 公開售價；API Qty 5，原頁有加入購物車與立即購買，不含信用卡及點數回饋。",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR0NA900JXF2E/000001_1786589992.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR0N-A900JXF2E",
-    "buyLabel": "PChome 24h（含運／拆箱定位）",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "installation": {
       "status": "not_stated",
       "note": "PChome 原頁僅明載含運與拆箱定位，未明確包含水電接管或基本安裝；規格表為 120V／60Hz，官方安裝圖要求鄰近 110V 接地三孔插座且不可使用延長線；進排水、櫥櫃修改及額外材料須下單前評估與報價。"
@@ -3611,57 +3615,158 @@
       "Home Connect"
     ]
   },
+  {
+    "id": "dishwasher-haier-h600",
+    "category": "dishwasher",
+    "rank": 36,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Haier",
+    "model": "HDWE16-46SC6SA",
+    "name": "H600 16人份自動開門變頻獨嵌兩用洗碗機",
+    "topPick": false,
+    "price": {
+      "currency": "TWD",
+      "amount": 28704,
+      "converted": 28704,
+      "basis": "retailer_current",
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "note": "2026-11-02 PChome H600主商品28704元、可訂購，非快速出貨及安裝；10/1–10/31贈鎖活動已過期不當新贈品承諾，H500相關品25600不混價。"
+    },
+    "installation": {
+      "status": "excluded",
+      "note": "所選PChome方案不含安裝；基本安裝費另計NT$2000。櫥櫃修改、專用電路／接地、給排水、插座、材料與特殊搬運依場勘報價；保固限使用自來水，配送及安裝須由專人電話約定。"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DMBR25A900IUN3O/000001_1747968613.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBR25-A900IUN3O",
+    "buyLabel": "PChome 24h購物（不含安裝／約配）",
+    "specs": [
+      "類型：60cm獨嵌兩用式；16人份",
+      "洗淨：變頻水泵、微蒸氣洗淨與髒污感應自動洗滌",
+      "乾燥：洗程結束自動開門，需預留門前及櫥櫃防潮空間",
+      "操作：觸控面板；8大洗程與5項附加功能",
+      "碗籃：可調式上籃與餐具托盤",
+      "尺寸：寬 59.8 x 深 60 x 高 85 cm",
+      "重量：50 kg",
+      "電壓／頻率：230V／60Hz；1900W／10A，須由授權技師核對現場專用迴路與接地",
+      "經濟程序：耗水9.5L／耗電0.769kWh；條件依原廠測試洗程",
+      "給排水：進水壓力0.03–1MPa；排水管一段需抬至距機底40–85cm，勿夾折管線",
+      "安裝：完整機身高85cm；可移除上蓋作櫥下安裝，櫃位依原廠圖場勘，側面至少1mm、後方至少10mm，電源插頭須可及；不含基本安裝"
+    ],
+    "description": "以16人份、觸控面板及自動開門補入海爾獨嵌兩用比較款。官方仍同列H500、W32與22套BK5／BK6，沒有把新款並列當作舊款已停產或直接替代。",
+    "pros": [
+      "16人份與可調式碗籃適合家庭鍋碗集中清洗",
+      "官方同型號說明書可核對60Hz、機身尺寸與50kg淨重",
+      "台灣代理產品，所選通路列一年保固與授權服務聯繫方式"
+    ],
+    "cons": [
+      "230V額定供電需先由授權技師確認住宅電路，不能接110V插座",
+      "所選價格不含基本安裝2000元，櫃體及水電追加施工另計",
+      "自動開門需預留動線及檯面防潮；尚無可靠上市日與史低"
+    ],
+    "bestFor": "已有可配置專用電源與給排水空間，想比較16人份自動開門洗碗機的家庭。",
+    "recommendation": "16人份獨嵌比較款；將機價、基本安裝與現場水電櫥櫃費用一起估算，再由授權技師核對230V供電、門前淨空及防潮。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-10-28",
+      "note": "已人工核對同型號PChome新品25200、momo27456，以及飛比與FindPrice完整型號比價。比價只提供現價，未取得可信原始通路帶歷史日期的最低價存證；另有Lowcast第三方走勢，但未獨立確認其過往逐日原始快照與版本／服務條件，不據此宣稱史低，不把本次現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-10-28",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"HDWE16-46SC6SA\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22HDWE16-46SC6SA%22"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"HDWE16-46SC6SA\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22HDWE16-46SC6SA%22"
+        }
+      ]
+    },
+    "score": 85,
+    "voltage": "230V／60Hz、1900W／10A；台灣代理官方規格，安裝前由授權技師核對專用電源、接地與給排水，不能接110V插座。",
+    "warranty": "所選PChome exact-model頁列1年保固，保固種類標為「其他」；台灣代理秉創負責授權銷售、保固及維修，服務限台灣本島、保固限自來水，依憑證與正式條款。諮詢02-2222-9829、報修0800-288-929。",
+    "tags": [
+      "16人份",
+      "獨嵌兩用",
+      "自動開門",
+      "需專用電源"
+    ]
+  },
 {
-  "id": "dishwasher-haier-h600",
-  "category": "dishwasher",
-  "rank": 36,
-  "budget": "mid",
-  "channel": "tw",
-  "brand": "Haier",
-  "model": "HDWE16-46SC6SA",
-  "name": "H600 16人份自動開門變頻獨嵌兩用洗碗機",
+  "id": "dishwasher-sakura-e7683",
+  "rank": 37,
   "topPick": false,
+  "brand": "SAKURA",
+  "model": "E7683",
+  "name": "櫻花E7683 14人份半嵌式自動開門洗碗機",
+  "image": "https://buy.sakura.com.tw/media/9444/E7683.png",
   "price": {
     "currency": "TWD",
-    "amount": 28704,
-    "converted": 28704,
+    "amount": 28350,
+    "converted": 28350,
     "basis": "retailer_current",
-    "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-    "note": "2026-11-02 PChome H600主商品28704元、可訂購，非快速出貨及安裝；10/1–10/31贈鎖活動已過期不當新贈品承諾，H500相關品25600不混價。"
+    "confidence": "2026-11-04原始PChome exact商品主購區SSR顯示28350／31000，主button product_button_addToCart無disabled，無熱銷一空；不是schema價或推薦卡。",
+    "note": "公開新品主價，不扣個人券、信用卡/點數/贈品。以原頁主購區實際HTTP內容查核，未操作購物車；主按鈕存在不承諾即時庫存或交期，安裝配送依通路聯繫。"
   },
-  "installation": {
-    "status": "excluded",
-    "note": "所選PChome方案不含安裝；基本安裝費另計NT$2000。櫥櫃修改、專用電路／接地、給排水、插座、材料與特殊搬運依場勘報價；保固限使用自來水，配送及安裝須由專人電話約定。"
-  },
-  "image": "https://img.pchome.com.tw/cs/items/DMBR25A900IUN3O/000001_1747968613.jpg",
-  "buyUrl": "https://24h.pchome.com.tw/prod/DMBR25-A900IUN3O",
-  "buyLabel": "PChome 24h購物（不含安裝／約配）",
+  "channel": "tw",
+  "buyLabel": "PChome 24h購物",
+  "buyUrl": "https://24h.pchome.com.tw/prod/DPAL33-A900GOSS8",
   "specs": [
-    "類型：60cm獨嵌兩用式；16人份",
-    "洗淨：變頻水泵、微蒸氣洗淨與髒污感應自動洗滌",
-    "乾燥：洗程結束自動開門，需預留門前及櫥櫃防潮空間",
-    "操作：觸控面板；8大洗程與5項附加功能",
-    "碗籃：可調式上籃與餐具托盤",
-    "尺寸：寬 59.8 x 深 60 x 高 85 cm",
-    "重量：50 kg",
-    "電壓／頻率：230V／60Hz；1900W／10A，須由授權技師核對現場專用迴路與接地",
-    "經濟程序：耗水9.5L／耗電0.769kWh；條件依原廠測試洗程",
-    "給排水：進水壓力0.03–1MPa；排水管一段需抬至距機底40–85cm，勿夾折管線",
-    "安裝：完整機身高85cm；可移除上蓋作櫥下安裝，櫃位依原廠圖場勘，側面至少1mm、後方至少10mm，電源插頭須可及；不含基本安裝"
+    "類型：60cm半嵌式洗碗機；不含門板與踢腳板",
+    "容量：14人份；上中下三層中式碗盤籃架",
+    "清洗／乾燥：8段洗程、最高70°C；AI髒污偵測、自動開門通風乾燥",
+    "噪音：45dB；三組噴水臂",
+    "安全：AquaStop自動偵測漏水；304不鏽鋼內層",
+    "尺寸：寬 59.8 x 深 57 x 高 81.5 cm",
+    "重量：45.5 kg",
+    "電壓／頻率：110V／60Hz；1000W／9.5A",
+    "給排水：進水壓力0.04–1.0MPa；需接進水、排水及接地電源",
+    "安裝：半嵌固定機體、門片依原廠孔位與重量配製，預留自動開門空間"
   ],
-  "description": "以16人份、觸控面板及自動開門補入海爾獨嵌兩用比較款。官方仍同列H500、W32與22套BK5／BK6，沒有把新款並列當作舊款已停產或直接替代。",
+  "description": "E7683是櫻花當代14人份三層半嵌機，較既有E7682增加自動開門乾燥與大容量配置。官網同時列E7682，不以新版存在推定舊款停產。",
   "pros": [
-    "16人份與可調式碗籃適合家庭鍋碗集中清洗",
-    "官方同型號說明書可核對60Hz、機身尺寸與50kg淨重",
-    "台灣代理產品，所選通路列一年保固與授權服務聯繫方式"
+    "三層14人份，筷匙與鍋具配置較彈性",
+    "自動開門乾燥、45dB，台灣原廠售後",
+    "原手冊完整列尺寸、45.5kg及110V60Hz"
   ],
   "cons": [
-    "230V額定供電需先由授權技師確認住宅電路，不能接110V插座",
-    "所選價格不含基本安裝2000元，櫃體及水電追加施工另計",
-    "自動開門需預留動線及檯面防潮；尚無可靠上市日與史低"
+    "需另外配門板、踢腳板及櫥櫃改裝，基本安裝不包含所有工程",
+    "沒有獨立熱風烘乾；自動開門需注意幼兒、走道與廚房環境",
+    "未找到可信明確首發日期及同配置歷史最低點"
   ],
-  "bestFor": "已有可配置專用電源與給排水空間，想比較16人份自動開門洗碗機的家庭。",
-  "recommendation": "16人份獨嵌比較款；將機價、基本安裝與現場水電櫥櫃費用一起估算，再由授權技師核對230V供電、門前淨空及防潮。",
+  "bestFor": "可改造60cm廚櫃、希望三層14人份與自動開門的家庭。",
+  "recommendation": "自動開門半嵌補充款：以門片施工與總安裝費一起比較，依實際餐具量核14人份容量；保留仍有官方目錄的E7682。",
+  "voltage": "110V／60Hz、1000W／9.5A；官方E7683所鏈原說明書性能表明列，須接地專用插座。",
+  "warranty": "台灣櫻花原廠；exact所鏈說明書保證卡明示自購買日起保固一年、正常使用到府檢修；營業/商業租賃/第三人維修、人為與天災損壞除外。保存購買憑證、安裝日期與經銷章，耗材依原廠條款。",
+  "score": 85,
+  "budget": "mid",
+  "tags": [
+    "半嵌式",
+    "14人份",
+    "自動開門",
+    "三層",
+    "110V",
+    "台灣原廠"
+  ],
+  "category": "dishwasher",
   "releaseDate": "找不到",
   "historicalLow": {
     "status": "not_found",
@@ -3673,38 +3778,33 @@
     "evidenceSnippet": "",
     "sourceKind": "not_found",
     "confidence": "not_found",
-    "checkedAt": "2026-10-28",
-    "note": "已人工核對同型號PChome新品25200、momo27456，以及飛比與FindPrice完整型號比價。比價只提供現價，未取得可信原始通路帶歷史日期的最低價存證；另有Lowcast第三方走勢，但未獨立確認其過往逐日原始快照與版本／服務條件，不據此宣稱史低，不把本次現價推定史低。"
+    "checkedAt": "2026-11-04",
+    "note": "實讀FindPrice/Feebee E7683，同款報價28350/31500與其他店價，未有可信日期化歷史低點；排除E7682、E7783、未含安裝與不同門片套組混用，主價28350不直接推為史低。"
   },
   "issueResearch": {
     "status": "no_common_issue",
-    "checkedAt": "2026-10-28",
+    "checkedAt": "2026-11-04",
     "summary": "截至查核日，查無達門檻的集中負評／災情",
     "issues": [],
     "checkedSources": [
       {
         "platform": "Mobile01",
         "targetHost": "mobile01.com",
-        "query": "site:mobile01.com \"HDWE16-46SC6SA\"",
-        "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22HDWE16-46SC6SA%22"
+        "query": "site:mobile01.com \"E7683\" (問題 OR 故障 OR 心得)",
+        "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22E7683%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97)"
       },
       {
         "platform": "PTT",
         "targetHost": "ptt.cc",
-        "query": "site:ptt.cc \"HDWE16-46SC6SA\"",
-        "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22HDWE16-46SC6SA%22"
+        "query": "site:ptt.cc \"E7683\" (問題 OR 故障 OR 心得)",
+        "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22E7683%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97)"
       }
     ]
   },
-  "score": 85,
-  "voltage": "230V／60Hz、1900W／10A；台灣代理官方規格，安裝前由授權技師核對專用電源、接地與給排水，不能接110V插座。",
-  "warranty": "所選PChome exact-model頁列1年保固，保固種類標為「其他」；台灣代理秉創負責授權銷售、保固及維修，服務限台灣本島、保固限自來水，依憑證與正式條款。諮詢02-2222-9829、報修0800-288-929。",
-  "tags": [
-    "16人份",
-    "獨嵌兩用",
-    "自動開門",
-    "需專用電源"
-  ]
+  "installation": {
+    "status": "included_basic",
+    "note": "此PChome方案送標準安裝，不含門板與踢腳板；偏遠山區不含，現場管線、櫥櫃修改、面板與耗材另計，須核對專用接地插座/進排水及開門空間。"
+  }
 }
 ]);
 })();

@@ -641,10 +641,11 @@
       "currency": "TWD",
       "amount": 23100,
       "converted": 23100,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "channel": "tw",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAC95-A900HE4RJ",
     "specs": [
       "冰箱：HITACHI日立313公升變頻兩門冰箱HRBN5366DF_GPWTW琉璃白",
@@ -742,10 +743,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/E1024B61CD-SP-22132101.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 31990,
-      "converted": 31990,
-      "confidence": "2026-10-24人工核對www.momoshop.com.tw同型號同版本公開TWD 31990；未扣個人化券、信用卡或點數。",
-      "note": "正常大家電約配非頁面個別預購；官網RV41C比較表仍現行，不採通路停產標籤。"
+      "amount": 33488,
+      "converted": 33488,
+      "confidence": "2026-11-04 Chrome人工核對原商品exact型號及公開主價，購買CTA可用。",
+      "note": "2026-11-04 Chrome核momo mo店+ TP00068370000362完整RV41C主商品促銷33488元，直接購買及加入購物車可用；含基本安裝及舊機回收，搬運與特殊施工另按通路條款，未套市售價或扣會員回饋。"
     },
     "channel": "tw",
     "buyLabel": "momo購物",
@@ -952,7 +953,7 @@
       "amount": 11900,
       "converted": 11900,
       "confidence": "Yahoo購物中心 2026-07-17 商品頁公開價",
-      "note": "2026-11-01 Yahoo選定同型原主頁明示已售完／貨到通知，未採畫面報價作可購現價；原參考價保留，不能推定原廠停產。"
+      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。 2026-11-01 Yahoo選定同型原主頁明示已售完／貨到通知，未採畫面報價作可購現價；原參考價保留，不能推定原廠停產。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心｜已售完，查看供貨",
@@ -1474,10 +1475,10 @@
       "amount": 9499,
       "converted": 9499,
       "confidence": "Yahoo購物中心 2026-09-14 exact-model 公開結構化價格",
-      "note": "2026-11-01 Yahoo選定原商品頁顯示已停售，零售下架不等同原廠整型停產；不採頁面殘留價格更新，保留原參考價及待查通路。"
+      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。 2026-11-01 Yahoo選定原商品頁顯示已停售，零售下架不等同原廠整型停產；不採頁面殘留價格更新，保留原參考價及待查通路。"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心",
+    "buyLabel": "Yahoo購物中心（原通路缺貨，查看供貨）",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SANLUX%E5%8F%B0%E7%81%A3%E4%B8%89%E6%B4%8B-192L-1%E7%B4%9A%E8%AE%8A%E9%A0%BB%E9%9B%99%E9%96%80%E9%9B%BB%E5%86%B0%E7%AE%B1SR-C192BV1-10126857.html",
     "specs": [
       "冰箱：【SANLUX 台灣三洋】192L 一級變頻雙門電冰箱 SR-C192BV1",
@@ -1577,10 +1578,11 @@
       "currency": "TWD",
       "amount": 23490,
       "converted": 23490,
-      "confidence": "PChome 2026-08-04 exact-model API 公開折扣價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-04 exact-model API 公開折扣價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "channel": "tw",
-    "buyLabel": "PChome 24h",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPACGV-A900BFMHM",
     "specs": [
       "冰箱：HITACHI日立460公升變頻兩門冰箱RV469_BSL星燦銀",
@@ -2192,11 +2194,12 @@
       "currency": "TWD",
       "amount": 19999,
       "converted": 19999,
-      "confidence": "Costco 好市多 2026-07-11 頁面查核價"
+      "confidence": "Costco 好市多 2026-07-11 頁面查核價",
+      "note": "2026-11-04 Chrome開啟原精確商品URL後轉向同通路分類列表，沒有原商品編號的主區；不借列表其他型號價格或加入購物車判定本品現貨。 金額保留為舊參考價；未取得原廠停產證據。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h97/h26/257772363972638.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Fridges-Freezers/Samsung-Top-Mount-Freezer-Fridge-351-L-RT35CG562CB1TW/p/146868",
-    "buyLabel": "Costco 好市多",
+    "buyLabel": "Costco（原連結轉分類，供貨待確認）",
     "specs": [
       "351L（冷藏269L / 冷凍82L）",
       "上冷凍雙門",
@@ -2610,11 +2613,12 @@
       "amount": 62230,
       "converted": 62230,
       "confidence": "雅光電器 2026-08-14 exact-model 新品頁公開售價並標示尚有庫存",
-      "basis": "retailer_current"
+      "basis": "retailer_current",
+      "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。"
     },
     "image": "https://cdn1-next.cybassets.com/media/W1siZiIsIjI3Njc0L3Byb2R1Y3RzLzQ0NjYyNTkzLzE3MDYxNTcxODVfYTJlOWQ3ZWJkYzE5NzZjNjk5NTYuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=04b5f131ce6672e3",
     "buyUrl": "https://www.yk01.com.tw/products/mrwx53c",
-    "buyLabel": "雅光電器",
+    "buyLabel": "雅光電器（來源待確認）",
     "installation": {
       "status": "not_stated",
       "note": "雅光 exact-model 現售頁未明確說明價格是否含基本安裝；大型家電配送定位、舊機回收、偏遠與無電梯樓層加價須下單前確認。"
@@ -2918,7 +2922,7 @@
       "converted": 27400,
       "basis": "official_suggested",
       "confidence": "2026-10-20直接取回HITACHI台灣官方compare exact HRBN5366DF1：建議售價27400元右開／28400元左開／29400元琉璃鏡。採右開漸層琉璃黑，不採通路價。",
-      "note": "原廠建議售價，非通路現價；已見通路預購，可信現貨與交期未確認，請向原廠授權經銷確認。"
+      "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。 原廠建議售價，非通路現價；已見通路預購，可信現貨與交期未確認，請向原廠授權經銷確認。"
     },
     "installation": {
       "status": "not_stated",
@@ -2926,7 +2930,7 @@
     },
     "image": "https://img.pchome.com.tw/cs/items/DPAC95A900KJNL1/000001_1792123597.jpg",
     "buyUrl": "https://hitachi-homeappliances.com.tw/products/products_compare.php?gid=05&prod=HRBN5366DF1",
-    "buyLabel": "查看官方資料（建議售價）",
+    "buyLabel": "查看官方資料（建議售價）（來源待確認）",
     "specs": [
       "容量：330L；冷藏215L／冷凍115L，上冷藏下冷凍雙門，右開漸層琉璃黑XGRTW",
       "尺寸：寬 59.5 x 深 65 x 高 190 cm",
@@ -3289,11 +3293,11 @@
     "name": "Panasonic NR-C387HVLS-C 385L 3門霧面鋼板變頻冰箱（暖灰米／左開）",
     "price": {
       "currency": "TWD",
-      "amount": 30600,
-      "converted": 30600,
+      "amount": 29920,
+      "converted": 29920,
       "basis": "retailer_current",
-      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-04 下午覆核：原生momo15801630 NR-C387HVLS主商品限時折後30600、促銷34000；暖米灰C與冰霧銀B同頁；保留本筆暖米灰C版本，不扣回收補助或個人券。"
+      "confidence": "2026-11-04 Chrome主頁選擇暖米灰(C)，公開限時折後價29920元，直接購買啟用。",
+      "note": "momo NR-C387HVLS-C 暖米灰(C)已選定，公開單件折後價29920元；活動標示11/04 15:37至11/05 09:00（台灣時間），折前34000元；不扣個人券、信用卡或點數，含標準安裝範圍依通路。"
     },
     "image": "https://i4.momoshop.com.tw/1792049388/goodsimg/0015/801/630/15801630_R_m.webp",
     "buyUrl": "https://www.momoshop.com.tw/product/15801630",
@@ -4763,203 +4767,203 @@
       "約配交期待確認"
     ]
   },
-{
-  "id": "refrigerator-hitachi-hrtn5275mf1",
-  "category": "refrigerator",
-  "rank": 49,
-  "topPick": false,
-  "budget": "value",
-  "channel": "tw",
-  "brand": "HITACHI",
-  "model": "HRTN5275MF1",
-  "name": "HITACHI HRTN5275MF1 260L 一級能效變頻雙門冰箱（璀璨銀）",
-  "price": {
-    "currency": "TWD",
-    "amount": 15700,
-    "converted": 15700,
-    "basis": "retailer_current",
-    "confidence": "2026-11-02原生Chrome核對myfone exact HRTN5275MF1XTW主價15700元、數量1及啟用放入購物車；原頁main prodSellingStock=3。未點擊加車或結帳。",
-    "note": "myfone公開網路限定價；未扣11/2前9折、信用卡、登記回饋、點數或節能補助。可訂購、約配：3至7工作天聯絡，不是保證到貨日。"
-  },
-  "installation": {
-    "status": "included_basic",
-    "note": "選定myfone商品含標準安裝及舊機回收；標準為原隨附零配件可完成的安裝。樓層、偏遠／跨區、特殊搬運及追加材料另計；正常3至7工作天聯絡約配，部分偏遠與離島不送。"
-  },
-  "image": "https://www.myfone.com.tw/website_twmf/uploads_product/website_1088/037/784/ECP0108803778418_1_21128491.jpg",
-  "buyUrl": "https://www.myfone.com.tw/mfo/buy/prod/P0000203778756",
-  "buyLabel": "台灣訂購／專人約配",
-  "specs": [
-    "容量：260L；冷藏204L／冷凍56L，雙門上冷凍，右開璀璨銀XTW",
-    "尺寸：寬 56 x 深 63.5 x 高 168 cm",
-    "重量：未標示",
-    "保鮮：可切換約1°C肉魚／約5°C蔬果模式保鮮室、均勻環繞冷流、三重強力過濾網",
-    "節能：台灣能源效率1級；能源因數14.5公升／度／月、每月21度，是否符合補助以政府當期規定為準",
-    "便利：旋鈕式庫內面板、強化玻璃層架、可移動旋轉製冰盒、LED照明、未關門提示音",
-    "電壓／頻率：110V／60Hz；台灣myfone exact-model規格明示",
-    "安裝：含基本安裝與舊機回收；左右各5cm、上方30cm、後方10cm散熱空間依同型PChome規格圖；樓層與偏遠／特殊搬運另計"
-  ],
-  "description": "台灣官方現行NEW名冊中的260L窄身變頻雙門款，以56cm機身、可切換保鮮室與一級能效補充小家庭用途。所選myfone璀璨銀完整機型可訂購、專人約配；保留既有合格款，沒有把MF1尾碼直接宣稱所有舊款的後繼。",
-  "pros": [
-    "56cm窄身提供260L，適合小家庭與較窄擺放位",
-    "冷藏204L／冷凍56L，保鮮室可切換肉魚與蔬果模式",
-    "110V／60Hz台灣版，所選通路含基本安裝及舊機回收"
-  ],
-  "cons": [
-    "本體168cm高，仍需左右、上方與後方散熱及開門空間",
-    "3至7工作天為聯絡約配，偏遠、樓層與特殊搬運可能加價或不送",
-    "上市／發售日期、可驗證歷史最低價與機身淨重未確認"
-  ],
-  "bestFor": "重視56cm窄身、260L容量與台灣售後的小家庭或雙人住家。",
-  "recommendation": "與既有入門雙門款比較容量、散熱需求及實際交期；15700元是選定myfone公開主價，未推算11/2前9折、補助或回饋。下單前核對168cm機身、散熱與搬運路徑、到府約配和實際保證書。",
-  "releaseDate": "找不到",
-  "historicalLow": {
-    "status": "not_found",
-    "amount": null,
-    "currency": "TWD",
-    "converted": null,
-    "sourceUrl": "",
-    "sourceTitle": "",
-    "evidenceSnippet": "",
-    "sourceKind": "not_found",
-    "confidence": "not_found",
-    "checkedAt": "2026-11-02",
-    "note": "已查FindPrice exact HRTN5275MF1、Feebee、原商品myfone及PChome。FindPrice為當前比價並混有分期341元、條件現金折扣及其他規格；Feebee讀取失敗；搜尋所得比價撿便宜僅見目前價格／查看歷史按鈕，未取得可核實日期和同款無條件歷史低點。myfone15700及PChome17900只作本輪現價觀察，沒有由現價推定史低。"
-  },
-  "issueResearch": {
-    "status": "no_common_issue",
-    "checkedAt": "2026-11-02",
-    "summary": "截至查核日，查無達門檻的集中負評／災情",
-    "issues": [],
-    "checkedSources": [
-      {
-        "platform": "Mobile01",
-        "targetHost": "mobile01.com",
-        "query": "\"HRTN5275MF1\" site:mobile01.com/topicdetail.php",
-        "queryUrl": "https://www.google.com/search?q=%22HRTN5275MF1%22%20site%3Amobile01.com%2Ftopicdetail.php"
-      },
-      {
-        "platform": "PTT",
-        "targetHost": "ptt.cc",
-        "query": "\"HRTN5275MF1\" site:ptt.cc/bbs/",
-        "queryUrl": "https://www.google.com/search?q=%22HRTN5275MF1%22%20site%3Aptt.cc%2Fbbs%2F"
-      },
-      {
-        "platform": "Dcard",
-        "targetHost": "dcard.tw",
-        "query": "\"HRTN5275MF1\" site:dcard.tw/f/",
-        "queryUrl": "https://www.google.com/search?q=%22HRTN5275MF1%22%20site%3Adcard.tw%2Ff%2F"
-      }
+  {
+    "id": "refrigerator-hitachi-hrtn5275mf1",
+    "category": "refrigerator",
+    "rank": 49,
+    "topPick": false,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "HITACHI",
+    "model": "HRTN5275MF1",
+    "name": "HITACHI HRTN5275MF1 260L 一級能效變頻雙門冰箱（璀璨銀）",
+    "price": {
+      "currency": "TWD",
+      "amount": 15700,
+      "converted": 15700,
+      "basis": "retailer_current",
+      "confidence": "2026-11-02原生Chrome核對myfone exact HRTN5275MF1XTW主價15700元、數量1及啟用放入購物車；原頁main prodSellingStock=3。未點擊加車或結帳。",
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。 myfone公開網路限定價；未扣11/2前9折、信用卡、登記回饋、點數或節能補助。可訂購、約配：3至7工作天聯絡，不是保證到貨日。"
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "選定myfone商品含標準安裝及舊機回收；標準為原隨附零配件可完成的安裝。樓層、偏遠／跨區、特殊搬運及追加材料另計；正常3至7工作天聯絡約配，部分偏遠與離島不送。"
+    },
+    "image": "https://www.myfone.com.tw/website_twmf/uploads_product/website_1088/037/784/ECP0108803778418_1_21128491.jpg",
+    "buyUrl": "https://www.myfone.com.tw/mfo/buy/prod/P0000203778756",
+    "buyLabel": "台灣訂購／專人約配（來源待確認）",
+    "specs": [
+      "容量：260L；冷藏204L／冷凍56L，雙門上冷凍，右開璀璨銀XTW",
+      "尺寸：寬 56 x 深 63.5 x 高 168 cm",
+      "重量：未標示",
+      "保鮮：可切換約1°C肉魚／約5°C蔬果模式保鮮室、均勻環繞冷流、三重強力過濾網",
+      "節能：台灣能源效率1級；能源因數14.5公升／度／月、每月21度，是否符合補助以政府當期規定為準",
+      "便利：旋鈕式庫內面板、強化玻璃層架、可移動旋轉製冰盒、LED照明、未關門提示音",
+      "電壓／頻率：110V／60Hz；台灣myfone exact-model規格明示",
+      "安裝：含基本安裝與舊機回收；左右各5cm、上方30cm、後方10cm散熱空間依同型PChome規格圖；樓層與偏遠／特殊搬運另計"
+    ],
+    "description": "台灣官方現行NEW名冊中的260L窄身變頻雙門款，以56cm機身、可切換保鮮室與一級能效補充小家庭用途。所選myfone璀璨銀完整機型可訂購、專人約配；保留既有合格款，沒有把MF1尾碼直接宣稱所有舊款的後繼。",
+    "pros": [
+      "56cm窄身提供260L，適合小家庭與較窄擺放位",
+      "冷藏204L／冷凍56L，保鮮室可切換肉魚與蔬果模式",
+      "110V／60Hz台灣版，所選通路含基本安裝及舊機回收"
+    ],
+    "cons": [
+      "本體168cm高，仍需左右、上方與後方散熱及開門空間",
+      "3至7工作天為聯絡約配，偏遠、樓層與特殊搬運可能加價或不送",
+      "上市／發售日期、可驗證歷史最低價與機身淨重未確認"
+    ],
+    "bestFor": "重視56cm窄身、260L容量與台灣售後的小家庭或雙人住家。",
+    "recommendation": "與既有入門雙門款比較容量、散熱需求及實際交期；15700元是選定myfone公開主價，未推算11/2前9折、補助或回饋。下單前核對168cm機身、散熱與搬運路徑、到府約配和實際保證書。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-11-02",
+      "note": "已查FindPrice exact HRTN5275MF1、Feebee、原商品myfone及PChome。FindPrice為當前比價並混有分期341元、條件現金折扣及其他規格；Feebee讀取失敗；搜尋所得比價撿便宜僅見目前價格／查看歷史按鈕，未取得可核實日期和同款無條件歷史低點。myfone15700及PChome17900只作本輪現價觀察，沒有由現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-11-02",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"HRTN5275MF1\" site:mobile01.com/topicdetail.php",
+          "queryUrl": "https://www.google.com/search?q=%22HRTN5275MF1%22%20site%3Amobile01.com%2Ftopicdetail.php"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "\"HRTN5275MF1\" site:ptt.cc/bbs/",
+          "queryUrl": "https://www.google.com/search?q=%22HRTN5275MF1%22%20site%3Aptt.cc%2Fbbs%2F"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "\"HRTN5275MF1\" site:dcard.tw/f/",
+          "queryUrl": "https://www.google.com/search?q=%22HRTN5275MF1%22%20site%3Adcard.tw%2Ff%2F"
+        }
+      ]
+    },
+    "score": 85,
+    "voltage": "110V／60Hz；myfone台灣exact HRTN5275MF1XTW規格明示，不借海外同名220V或舊MF說明書。",
+    "warranty": "台灣公司貨；PChome同型通路明示原廠全機1年、機板運轉組3年、馬達5年，實際範圍依HITACHI台灣原廠及隨機保證書，myfone亦註明依原廠公告。",
+    "tags": [
+      "260L",
+      "雙門上冷凍",
+      "窄身56cm",
+      "一級能效",
+      "台灣公司貨"
     ]
   },
-  "score": 85,
-  "voltage": "110V／60Hz；myfone台灣exact HRTN5275MF1XTW規格明示，不借海外同名220V或舊MF說明書。",
-  "warranty": "台灣公司貨；PChome同型通路明示原廠全機1年、機板運轉組3年、馬達5年，實際範圍依HITACHI台灣原廠及隨機保證書，myfone亦註明依原廠公告。",
-  "tags": [
-    "260L",
-    "雙門上冷凍",
-    "窄身56cm",
-    "一級能效",
-    "台灣公司貨"
-  ]
-},
-{
-  "id": "refrigerator-hitachi-hrtn5255mf1",
-  "category": "refrigerator",
-  "brand": "HITACHI",
-  "model": "HRTN5255MF1",
-  "name": "HITACHI HRTN5255MF1 240L 一級能效變頻雙門冰箱（璀璨銀）",
-  "rank": 50,
-  "topPick": false,
-  "budget": "value",
-  "channel": "tw",
-  "price": {
-    "currency": "TWD",
-    "amount": 14300,
-    "converted": 14300,
-    "basis": "retailer_current",
-    "confidence": "2026-11-03原生瀏覽獨立核對myfone exact HRTN5255MF1XTW主價14300及啟用放入購物車按鈕；原主SKU prodSellingStock=1，未加車或結帳。",
-    "note": "myfone公開網路限定價；未推算11/16前結帳9折、信用卡、登記回饋、點數或補助。可訂購、專人約配：3–7工作天為聯絡期而非保證到貨。"
-  },
-  "installation": {
-    "status": "included_basic",
-    "note": "所選myfone含標準安裝及舊機回收；限產品隨附零配件可完成的安裝。樓層、偏遠跨區、特殊搬運與追加材料另計；部分偏遠與離島不送，交期由物流聯絡約定。"
-  },
-  "image": "https://www.myfone.com.tw/website_twmf/uploads_product/website_1088/037/784/ECP0108803778415_1_21128471.jpg",
-  "buyUrl": "https://www.myfone.com.tw/mfo/buy/prod/P0000203778755",
-  "buyLabel": "台灣訂購／專人約配",
-  "specs": [
-    "容量：240L；冷藏184L／冷凍56L，雙門上冷凍、右開璀璨銀XTW",
-    "尺寸：寬 56 x 深 63.5 x 高 158 cm",
-    "重量：未標示",
-    "保鮮：可切換約1°C肉魚／約5°C蔬果模式保鮮室、均勻環繞冷流、三重強力過濾網",
-    "節能：台灣能源效率1級；能源因數13.9公升／度／月、每月20度，補助資格依政府當期規定",
-    "便利：庫內旋鈕面板、強化玻璃層架、可移動旋轉製冰盒、LED照明與未關門提示音",
-    "電壓／頻率：110V／60Hz；官方exact-model手冊第11頁，電動機額定消耗80W",
-    "安裝：含基本安裝與舊機回收；官方手冊要求左右各5cm、上方30cm、後方10cm散熱空間，樓層與特殊搬運另計"
-  ],
-  "description": "台灣官方NEW名冊中的240L窄身變頻雙門款，以56cm寬、158cm機高補充小家庭與較低安裝空間選擇；與既有260L款並列比較。所選myfone台灣璀璨銀完整機型可訂購並由物流約配，不以NEW或尾碼猜測上市日及所有舊型的後繼關係。",
-  "pros": [
-    "56cm窄身與158cm機高，提供240L分區容量",
-    "保鮮室可在肉魚與蔬果模式間切換，台灣一級能效",
-    "110V／60Hz台灣版，所選通路含基本安裝及舊機回收"
-  ],
-  "cons": [
-    "上方需30cm散熱空間，亦須保留側邊、背面及開門位置",
-    "3–7工作天為聯絡約配，偏遠、樓層及特殊搬運可能加價或不送",
-    "上市日期、可信歷史最低價與明示淨重尚未確認"
-  ],
-  "bestFor": "重視56cm窄身與較低158cm本體、容量需求約240L的小家庭或租屋住家。",
-  "recommendation": "與既有260L款比較冷藏容量、機高、完整散熱需求與交期；14300元為所選myfone公開主價，未推算結帳9折或補助回饋。下單前確認搬運路徑、約配安排與實際原廠保證書。",
-  "releaseDate": "找不到",
-  "historicalLow": {
-    "status": "not_found",
-    "amount": null,
-    "currency": "TWD",
-    "converted": null,
-    "sourceUrl": "",
-    "sourceTitle": "",
-    "evidenceSnippet": "",
-    "sourceKind": "not_found",
-    "confidence": "not_found",
-    "checkedAt": "2026-11-03",
-    "note": "已查FindPrice、Feebee exact型號、myfone及PChome。FindPrice為當前比價且混有48期每期311元、條件現金折扣，Feebee原頁讀取失敗。信源exact頁有現行促銷文案，但未取得同SKU無條件價格、發生日期與歷史紀錄相互對應的可靠證據。Lukfur主商品為無1舊MF，不能用混排MF1報價與2024資料更新日當MF1史低或上市。myfone14300、PChome15548只作本輪現價觀察，未推算myfone9折或由現價冒充史低。"
-  },
-  "issueResearch": {
-    "status": "no_common_issue",
-    "checkedAt": "2026-11-03",
-    "summary": "截至查核日，查無達門檻的集中負評／災情",
-    "issues": [],
-    "checkedSources": [
-      {
-        "platform": "Mobile01",
-        "targetHost": "mobile01.com",
-        "query": "\"HRTN5255MF1\" site:mobile01.com/topicdetail.php",
-        "queryUrl": "https://www.google.com/search?q=%22HRTN5255MF1%22%20site%3Amobile01.com%2Ftopicdetail.php"
-      },
-      {
-        "platform": "PTT",
-        "targetHost": "ptt.cc",
-        "query": "\"HRTN5255MF1\" site:ptt.cc/bbs/",
-        "queryUrl": "https://www.google.com/search?q=%22HRTN5255MF1%22%20site%3Aptt.cc%2Fbbs%2F"
-      },
-      {
-        "platform": "Dcard",
-        "targetHost": "dcard.tw",
-        "query": "\"HRTN5255MF1\" site:dcard.tw/f/",
-        "queryUrl": "https://www.google.com/search?q=%22HRTN5255MF1%22%20site%3Adcard.tw%2Ff%2F"
-      }
+  {
+    "id": "refrigerator-hitachi-hrtn5255mf1",
+    "category": "refrigerator",
+    "brand": "HITACHI",
+    "model": "HRTN5255MF1",
+    "name": "HITACHI HRTN5255MF1 240L 一級能效變頻雙門冰箱（璀璨銀）",
+    "rank": 50,
+    "topPick": false,
+    "budget": "value",
+    "channel": "tw",
+    "price": {
+      "currency": "TWD",
+      "amount": 14300,
+      "converted": 14300,
+      "basis": "retailer_current",
+      "confidence": "2026-11-03原生瀏覽獨立核對myfone exact HRTN5255MF1XTW主價14300及啟用放入購物車按鈕；原主SKU prodSellingStock=1，未加車或結帳。",
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。 myfone公開網路限定價；未推算11/16前結帳9折、信用卡、登記回饋、點數或補助。可訂購、專人約配：3–7工作天為聯絡期而非保證到貨。"
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "所選myfone含標準安裝及舊機回收；限產品隨附零配件可完成的安裝。樓層、偏遠跨區、特殊搬運與追加材料另計；部分偏遠與離島不送，交期由物流聯絡約定。"
+    },
+    "image": "https://www.myfone.com.tw/website_twmf/uploads_product/website_1088/037/784/ECP0108803778415_1_21128471.jpg",
+    "buyUrl": "https://www.myfone.com.tw/mfo/buy/prod/P0000203778755",
+    "buyLabel": "台灣訂購／專人約配（來源待確認）",
+    "specs": [
+      "容量：240L；冷藏184L／冷凍56L，雙門上冷凍、右開璀璨銀XTW",
+      "尺寸：寬 56 x 深 63.5 x 高 158 cm",
+      "重量：未標示",
+      "保鮮：可切換約1°C肉魚／約5°C蔬果模式保鮮室、均勻環繞冷流、三重強力過濾網",
+      "節能：台灣能源效率1級；能源因數13.9公升／度／月、每月20度，補助資格依政府當期規定",
+      "便利：庫內旋鈕面板、強化玻璃層架、可移動旋轉製冰盒、LED照明與未關門提示音",
+      "電壓／頻率：110V／60Hz；官方exact-model手冊第11頁，電動機額定消耗80W",
+      "安裝：含基本安裝與舊機回收；官方手冊要求左右各5cm、上方30cm、後方10cm散熱空間，樓層與特殊搬運另計"
+    ],
+    "description": "台灣官方NEW名冊中的240L窄身變頻雙門款，以56cm寬、158cm機高補充小家庭與較低安裝空間選擇；與既有260L款並列比較。所選myfone台灣璀璨銀完整機型可訂購並由物流約配，不以NEW或尾碼猜測上市日及所有舊型的後繼關係。",
+    "pros": [
+      "56cm窄身與158cm機高，提供240L分區容量",
+      "保鮮室可在肉魚與蔬果模式間切換，台灣一級能效",
+      "110V／60Hz台灣版，所選通路含基本安裝及舊機回收"
+    ],
+    "cons": [
+      "上方需30cm散熱空間，亦須保留側邊、背面及開門位置",
+      "3–7工作天為聯絡約配，偏遠、樓層及特殊搬運可能加價或不送",
+      "上市日期、可信歷史最低價與明示淨重尚未確認"
+    ],
+    "bestFor": "重視56cm窄身與較低158cm本體、容量需求約240L的小家庭或租屋住家。",
+    "recommendation": "與既有260L款比較冷藏容量、機高、完整散熱需求與交期；14300元為所選myfone公開主價，未推算結帳9折或補助回饋。下單前確認搬運路徑、約配安排與實際原廠保證書。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-11-03",
+      "note": "已查FindPrice、Feebee exact型號、myfone及PChome。FindPrice為當前比價且混有48期每期311元、條件現金折扣，Feebee原頁讀取失敗。信源exact頁有現行促銷文案，但未取得同SKU無條件價格、發生日期與歷史紀錄相互對應的可靠證據。Lukfur主商品為無1舊MF，不能用混排MF1報價與2024資料更新日當MF1史低或上市。myfone14300、PChome15548只作本輪現價觀察，未推算myfone9折或由現價冒充史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-11-03",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"HRTN5255MF1\" site:mobile01.com/topicdetail.php",
+          "queryUrl": "https://www.google.com/search?q=%22HRTN5255MF1%22%20site%3Amobile01.com%2Ftopicdetail.php"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "\"HRTN5255MF1\" site:ptt.cc/bbs/",
+          "queryUrl": "https://www.google.com/search?q=%22HRTN5255MF1%22%20site%3Aptt.cc%2Fbbs%2F"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "\"HRTN5255MF1\" site:dcard.tw/f/",
+          "queryUrl": "https://www.google.com/search?q=%22HRTN5255MF1%22%20site%3Adcard.tw%2Ff%2F"
+        }
+      ]
+    },
+    "score": 84,
+    "voltage": "110V／60Hz；HITACHI台灣官方Instruction_Manual_HRTN5255_5275MF1.pdf第11頁明列HRTN5255MF1，不跨用香港220V版。",
+    "warranty": "台灣公司貨；PChome同型明示原廠全機1年、機板運轉組3年、馬達5年，實際範圍依HITACHI台灣原廠與隨機保證書；myfone註明依原廠公告。",
+    "tags": [
+      "240L",
+      "雙門上冷凍",
+      "窄身56cm",
+      "一級能效",
+      "台灣公司貨"
     ]
-  },
-  "score": 84,
-  "voltage": "110V／60Hz；HITACHI台灣官方Instruction_Manual_HRTN5255_5275MF1.pdf第11頁明列HRTN5255MF1，不跨用香港220V版。",
-  "warranty": "台灣公司貨；PChome同型明示原廠全機1年、機板運轉組3年、馬達5年，實際範圍依HITACHI台灣原廠與隨機保證書；myfone註明依原廠公告。",
-  "tags": [
-    "240L",
-    "雙門上冷凍",
-    "窄身56cm",
-    "一級能效",
-    "台灣公司貨"
-  ]
-}
+  }
 ]);
 })();

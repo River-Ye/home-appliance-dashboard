@@ -1098,8 +1098,111 @@
     },
   ];
 
+  const products = items.map(makeProduct);
+
+  // 2026-11-04 exact-SKU price and source-status updates.
+  {
+    const product = products.find(({ id }) => id === "comforter-hiyori-thin-deat3aa900bfnyl");
+    Object.assign(product.price, {
+      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
+    });
+    product.buyLabel = "PChome 24h（原通路缺貨，查看供貨）";
+  }
+
+  {
+    const product = products.find(({ id }) => id === "comforter-best-tencel-qfav6za9009hy1d");
+    Object.assign(product.price, {
+      "amount": 1056,
+      "converted": 1056,
+      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
+      "note": "主標題現為雙人2.5kg，與既有180×210cm/約2.5kg版本相符；API Name殘留3KG未採用。滿1件95折主區已明示1056。"
+    });
+  }
+
+  {
+    const product = products.find(({ id }) => id === "comforter-shikoku-washable-debclla900jcc6a");
+    Object.assign(product.price, {
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
+    });
+    product.buyLabel = "PChome（原商品已售完，查看供貨）";
+  }
+
+  {
+    const product = products.find(({ id }) => id === "comforter-3m-nz370-m");
+    Object.assign(product.price, {
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
+    });
+    product.buyLabel = "3M 台灣官方旗艦店（來源待確認）";
+  }
+
+  {
+    const product = products.find(({ id }) => id === "comforter-tanaka-silk-deatiwa900ayfmu");
+    Object.assign(product.price, {
+      "amount": 4428,
+      "converted": 4428,
+      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
+      "note": "Chrome原頁主商品DEATIW-A900AYFMU／100%長纖蠶絲夏被 3台斤 180×210 cm（DEATIW-A900AYFMU）可核對，公開主區售價4428元，購買按鈕可用；不扣個人券、信用卡、點數或贈品。"
+    });
+  }
+
+  {
+    const product = products.find(({ id }) => id === "comforter-shikoku-sofair-deatgma900hqsfg");
+    Object.assign(product.price, {
+      "amount": 9231,
+      "converted": 9231,
+      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
+      "note": "Chrome原頁主商品DEATGM-A900HQSFG／SOFAIR WARM 無重力空氣暖被雙人 190×210 cm（DEATGM-A900HQSFG）可核對，公開主區售價9231元，購買按鈕可用；不扣個人券、信用卡、點數或贈品。"
+    });
+  }
+
+  {
+    const product = products.find(({ id }) => id === "comforter-belle-vie-wool-deatiba900c15jx");
+    Object.assign(product.price, {
+      "amount": 1415,
+      "converted": 1415,
+      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
+      "note": "Chrome原頁主商品DEATIB-A900C15JX／澳洲純羊毛被單人 135×195 cm（DEATIB-A900C15JX）可核對，公開主區售價1415元，購買按鈕可用；不扣個人券、信用卡、點數或贈品。"
+    });
+  }
+
+  {
+    const product = products.find(({ id }) => id === "comforter-belle-vie-wool-deatiba900c15xv");
+    Object.assign(product.price, {
+      "amount": 1510,
+      "converted": 1510,
+      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
+      "note": "Chrome原頁主商品DEATIB-A900C15XV／澳洲純羊毛被雙人 180×210 cm（DEATIB-A900C15XV）可核對，公開主區售價1510元，購買按鈕可用；不扣個人券、信用卡、點數或贈品。"
+    });
+  }
+
+  {
+    const product = products.find(({ id }) => id === "comforter-belle-vie-wool-deatiba900aytrq");
+    Object.assign(product.price, {
+      "amount": 2650,
+      "converted": 2650,
+      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
+      "note": "Chrome原頁主商品DEATIB-A900AYTRQ／澳洲純羊毛被歐式加大 240×210 cm（DEATIB-A900AYTRQ）可核對，公開主區售價2650元，購買按鈕可用；不扣個人券、信用卡、點數或贈品。"
+    });
+  }
+
+  {
+    const product = products.find(({ id }) => id === "comforter-owlting-organic-cotton-17469");
+    Object.assign(product.price, {
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
+    });
+    product.buyLabel = "OwlTing Market 奧丁丁市集（來源待確認）";
+  }
+
+  {
+    const product = products.find(({ id }) => id === "comforter-owlting-organic-cotton-17190");
+    Object.assign(product.price, {
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
+    });
+    product.buyLabel = "OwlTing Market 奧丁丁市集（來源待確認）";
+  }
+
   dashboard.registerProducts("comforter", [
-    ...items.map(makeProduct),
+    ...products,
     {
       "id": "comforter-ikea-strandmolke-30636962",
       "category": "comforter",

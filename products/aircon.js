@@ -28,7 +28,8 @@
       "converted": 33800,
       "confidence": "玉明電器 exact-pair 完整室內外機新品公開價 2026-08-14 可公開重現現價；型號與室內外機完整組合已核對",
       "basis": "retailer_current",
-      "scope": "complete_system"
+      "scope": "complete_system",
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
     },
     "installation": {
       "status": "included_basic",
@@ -36,7 +37,7 @@
     },
     "image": "https://www.3uo.tw/wp-content/uploads/RAS-22NTB.png",
     "buyUrl": "https://www.3uo.tw/ecommerce/RAS-22NTB/",
-    "buyLabel": "玉明電器 exact-pair 完整室內外機新品公開價",
+    "buyLabel": "玉明電器 exact-pair 完整室內外機新品公開價（來源待確認）",
     "specs": [
       "型式：一對一分離式變頻冷暖",
       "組合型號：室內機 RAS-22NTB；室外機 RAC-22NP",
@@ -779,11 +780,12 @@
     "name": "Daikin FTXM36ZVLT / RXM36ZVLT 一對一分離式變頻冷暖",
     "price": {
       "currency": "TWD",
-      "amount": 48780,
-      "converted": 48780,
-      "confidence": "玉明電器 exact-pair 完整室內外機新品公開價 2026-08-14 可公開重現現價；型號與室內外機完整組合已核對",
+      "amount": 42800,
+      "converted": 42800,
+      "confidence": "2026-11-04 Chrome人工核對原商品exact型號及公開主價，購買CTA可用。",
       "basis": "retailer_current",
-      "scope": "complete_system"
+      "scope": "complete_system",
+      "note": "2026-11-04 Chrome核完整FTXM36ZVLT／RXM36ZVLT室內外機組主價42800元，48780為劃線原價，加入購物車可用；公開價含基本安裝銅管控制線5米內及安全範圍舊機回收，追加施工與服務區依安裝註記。未登入會員或另扣回饋。"
     },
     "installation": {
       "status": "included_basic",
@@ -904,11 +906,12 @@
     "name": "Daikin FTXM41ZVLT / RXM41ZVLT 一對一分離式變頻冷暖",
     "price": {
       "currency": "TWD",
-      "amount": 54780,
-      "converted": 54780,
-      "confidence": "玉明電器 exact-pair 完整室內外機新品公開價 2026-08-14 可公開重現現價；型號與室內外機完整組合已核對",
+      "amount": 46500,
+      "converted": 46500,
+      "confidence": "2026-11-04 Chrome人工核對原商品exact型號及公開主價，購買CTA可用。",
       "basis": "retailer_current",
-      "scope": "complete_system"
+      "scope": "complete_system",
+      "note": "2026-11-04 Chrome核完整FTXM41ZVLT／RXM41ZVLT室內外機組主價46500元，54780為劃線原價，加入購物車可用；公開價含基本安裝銅管控制線5米內及安全範圍舊機回收，追加施工與服務區依安裝註記。未登入會員或另扣回饋。"
     },
     "installation": {
       "status": "included_basic",
@@ -2653,11 +2656,12 @@
     "name": "SHARP AY-28ZAMH-W / AE-28ZAMH 一對一分離式變頻冷暖",
     "price": {
       "currency": "TWD",
-      "amount": 33900,
-      "converted": 33900,
-      "confidence": "PChome 24h 於 2026-08-20 的 exact indoor／outdoor pair 新品頁公開價 NT$33,900，完整室內外機組庫存數量為正",
+      "amount": 29900,
+      "converted": 29900,
+      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
       "basis": "retailer_current",
-      "scope": "complete_system"
+      "scope": "complete_system",
+      "note": "主標題與室內AY-28ZAMH-W／室外AE-28ZAMH同時相符；含運送（偏遠另計）、5米銅管基本安裝與回收舊機；不扣100元券。"
     },
     "installation": {
       "status": "included_basic",
@@ -3405,7 +3409,8 @@
       "converted": 23900,
       "confidence": "TECO 東元台灣官方 exact-pair 產品頁 2026-08-14 官方建議售價；非通路現價或歷史最低價",
       "basis": "official_suggested",
-      "scope": "complete_system"
+      "scope": "complete_system",
+      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
     },
     "installation": {
       "status": "not_stated",
@@ -3413,7 +3418,7 @@
     },
     "image": "https://www.tecohome.com.tw/upload/products/01_air_con/HS8%E5%8E%BB%E8%83%8C.png",
     "buyUrl": "https://www.tecohome.com.tw/tw/Products/Items/907",
-    "buyLabel": "TECO 東元台灣官方 exact-pair 產品頁",
+    "buyLabel": "TECO 東元台灣官方 exact-pair 產品頁（原通路缺貨，查看供貨）",
     "specs": [
       "型式：一對一分離式變頻冷專",
       "組合型號：室內機 MS22IC-HS8；室外機 MA22IC-HS8",
@@ -3529,7 +3534,8 @@
       "converted": 45900,
       "confidence": "PChome 24h exact-pair 完整室內外機新品價 2026-08-14 可公開重現現價；型號與室內外機完整組合已核對",
       "basis": "retailer_current",
-      "scope": "complete_system"
+      "scope": "complete_system",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "installation": {
       "status": "included_basic",
@@ -3537,7 +3543,7 @@
     },
     "image": "https://www.tecohome.com.tw/upload/products/01_air_con/HS8%E5%8E%BB%E8%83%8C.png",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAFFS-A900I4U5B",
-    "buyLabel": "PChome 24h exact-pair 完整室內外機新品價",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "型式：一對一分離式變頻冷專",
       "組合型號：室內機 MS63IC-HS8；室外機 MA63IC-HS8",
@@ -3653,7 +3659,8 @@
       "converted": 60900,
       "confidence": "PChome 24h exact-pair 完整室內外機新品價 2026-08-14 可公開重現現價；型號與室內外機完整組合已核對",
       "basis": "retailer_current",
-      "scope": "complete_system"
+      "scope": "complete_system",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "installation": {
       "status": "included_basic",
@@ -3661,7 +3668,7 @@
     },
     "image": "https://www.tecohome.com.tw/upload/products/01_air_con/HS8%E5%8E%BB%E8%83%8C.png",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAFFS-A900I4UD2",
-    "buyLabel": "PChome 24h exact-pair 完整室內外機新品價",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "型式：一對一分離式變頻冷專",
       "組合型號：室內機 MS80IC-HS8；室外機 MA80IC-HS8",

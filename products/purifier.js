@@ -211,11 +211,12 @@
       "currency": "TWD",
       "amount": 11900,
       "converted": 11900,
-      "confidence": "Yahoo購物中心 2026-09-14 exact-model 公開結構化價格"
+      "confidence": "Yahoo購物中心 2026-09-14 exact-model 公開結構化價格",
+      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3CA900K0T3T/000001_1779087672.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Dyson-%E6%88%B4%E6%A3%AE-Purifier-Cool-%E4%BA%8C%E5%90%88%E4%B8%80%E6%B6%BC%E9%A2%A8%E6%99%BA%E8%83%BD%E7%A9%BA%E6%B0%A3%E6%B8%85%E6%B7%A8%E6%A9%9FTP11-%E7%99%BD%E8%89%B2-12000846.html",
-    "buyLabel": "Yahoo購物中心",
+    "buyLabel": "Yahoo購物中心（原通路缺貨，查看供貨）",
     "specs": [
       "清淨 + 涼風",
       "智慧偵測",
@@ -405,11 +406,12 @@
       "currency": "TWD",
       "amount": 29800,
       "converted": 29800,
-      "confidence": "PChome 2026-07-14 API 查核價"
+      "confidence": "PChome 2026-07-14 API 查核價",
+      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3EA900I6ITM/000001_1782876939.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU3E-A900I6ITM",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原通路缺貨，查看供貨）",
     "specs": [
       "15-25 坪",
       "4D 進出風",
@@ -1185,11 +1187,12 @@
       "currency": "TWD",
       "amount": 14900,
       "converted": 14900,
-      "confidence": "Yahoo購物中心 2026-09-14 exact-model 公開結構化價格"
+      "confidence": "Yahoo購物中心 2026-09-14 exact-model 公開結構化價格",
+      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3CA900J2MV6/000001_1767758338.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Dyson%E6%88%B4%E6%A3%AE-Purifier-Hot-Cool-%E4%B8%89%E5%90%88%E4%B8%80%E6%B6%BC%E6%9A%96%E6%99%BA%E8%83%BD%E7%A9%BA%E6%B0%A3%E6%B8%85%E6%B7%A8%E6%A9%9F-HP11-%E7%99%BD%E8%89%B2-%E8%B4%88%E7%BE%8E%E9%AB%AE-11937837.html",
-    "buyLabel": "Yahoo購物中心",
+    "buyLabel": "Yahoo購物中心（原通路缺貨，查看供貨）",
     "specs": [
       "涼暖三合一",
       "空氣清淨",
@@ -1575,11 +1578,12 @@
       "currency": "TWD",
       "amount": 11990,
       "converted": 11990,
-      "confidence": "PChome 2026-08-03 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-03 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU5EA900JYG87/000001_1782872232.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU5E-A900JYG87",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "CADR 300",
       "抑菌除臭",
@@ -1671,11 +1675,12 @@
       "currency": "TWD",
       "amount": 4999,
       "converted": 4999,
-      "confidence": "PChome 2026-08-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU6TA900IVWE0/000001_1748922662.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU6T-A900IVWE0",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "10 坪",
       "空氣清淨",

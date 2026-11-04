@@ -19,11 +19,12 @@
       "currency": "TWD",
       "amount": 2549,
       "converted": 2549,
-      "confidence": "PChome 2026-07-14 API 查核價"
+      "confidence": "PChome 2026-07-14 API 查核價",
+      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBBC5A900JM6ZN/000001_1767687719.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBBC5-A900JM6ZN",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原通路缺貨，查看供貨）",
     "specs": [
       "支援 24-57 吋",
       "承重最高 30kg",
@@ -118,11 +119,12 @@
       "currency": "TWD",
       "amount": 2849,
       "converted": 2849,
-      "confidence": "PChome 2026-07-14 API 查核價"
+      "confidence": "PChome 2026-07-14 API 查核價",
+      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGRJA900I6VLQ/000001_1734668162.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAGRJ-A900I6VLQ",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原通路缺貨，查看供貨）",
     "specs": [
       "支援 24-57 吋",
       "承重 2-27kg",
@@ -217,11 +219,12 @@
       "currency": "TWD",
       "amount": 2279,
       "converted": 2279,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "confidence": "PChome 2026-07-10 API 查核價",
+      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGRJA900JVFLM/000001_1775109563.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAGRJ-A900JVFLM",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原通路缺貨，查看供貨）",
     "specs": [
       "支援 57 吋級距",
       "承重 0-27kg",
@@ -417,11 +420,12 @@
       "currency": "TWD",
       "amount": 2459,
       "converted": 2459,
-      "confidence": "可信通路查核價"
+      "confidence": "可信通路查核價",
+      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGRJA900JZFGW/000001_1778056158.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAGRJ-A900JZFGW",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原通路缺貨，查看供貨）",
     "specs": [
       "支援 57 吋級距",
       "承重 27kg",
@@ -615,11 +619,12 @@
       "currency": "TWD",
       "amount": 1019,
       "converted": 1019,
-      "confidence": "PChome 2026-07-14 API 查核價"
+      "confidence": "PChome 2026-07-14 API 查核價",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGRJA900IWS5L/000001_1749202897.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAGRJ-A900IWS5L",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "支援 49 吋級距",
       "承重 20kg",
@@ -714,11 +719,12 @@
       "currency": "TWD",
       "amount": 1379,
       "converted": 1379,
-      "confidence": "PChome 2026-07-14 API 查核價"
+      "confidence": "PChome 2026-07-14 API 查核價",
+      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGRJA900JVFY0/000001_1775114085.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAGRJ-A900JVFY0",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原通路缺貨，查看供貨）",
     "specs": [
       "支援 49 吋級距",
       "承重 20kg",
@@ -914,11 +920,12 @@
       "currency": "TWD",
       "amount": 2050,
       "converted": 2050,
-      "confidence": "可信通路查核價"
+      "confidence": "可信通路查核價",
+      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGQ5A900JJ59E/000001_1769669615.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAGQ5-A900JJ59E",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原通路缺貨，查看供貨）",
     "specs": [
       "支援 17-49 吋",
       "承重 2-20kg",
@@ -1013,11 +1020,12 @@
       "currency": "TWD",
       "amount": 3499,
       "converted": 3499,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "confidence": "PChome 2026-07-11 API 查核價",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBC1TA900HSZYL/000001_1727240766.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSBC1T-A900HSZYL",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "承重 6-15kg",
       "航空鋁材",
@@ -1214,11 +1222,12 @@
       "amount": 1890,
       "converted": 1890,
       "confidence": "2026-09-07 人工覆核：Chrome當日09/01–09/12公開活動，選擇數量1，展開下單再折顯示1990、折扣100、折後1890；購買/購物車按鈕可用。依實際顯示金額，不自行計算四捨五入，也不扣會員券。",
-      "basis": "retailer_current"
+      "basis": "retailer_current",
+      "note": "2026-11-04 Chrome逐筆查核：Chrome原來源頁明示「商品目前無展售／網頁不存在」或「查無商品資料，商品不存在或已下架」；沒有可購主商品價格；不是原廠停產證據。 保留既有參考價，另查可信現售連結。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAX3NA900HNTHZ/000001_1724123200.jpg",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=13335412",
-    "buyLabel": "momo購物",
+    "buyLabel": "momo（原來源無展售，查看供貨）",
     "specs": [
       "支援 17-32 吋",
       "承重 8kg",
@@ -1314,11 +1323,12 @@
       "amount": 2840,
       "converted": 2840,
       "confidence": "2026-09-07 人工覆核：Chrome當日09/01–09/12公開活動，選擇數量1，展開下單再折顯示2990、折扣150、折後2840；同輪主頁購買/購物車按鈕可用、預計9/7到貨。依實際顯示金額，不自行推算折扣。",
-      "basis": "retailer_current"
+      "basis": "retailer_current",
+      "note": "2026-11-04 Chrome逐筆查核：Chrome原來源頁明示「商品目前無展售／網頁不存在」或「查無商品資料，商品不存在或已下架」；沒有可購主商品價格；不是原廠停產證據。 保留既有參考價，另查可信現售連結。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAX3NA900HNTEF/000001_1724123227.jpg",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=13335413",
-    "buyLabel": "momo購物",
+    "buyLabel": "momo（原來源無展售，查看供貨）",
     "specs": [
       "雙螢幕",
       "每臂承重 8kg",
@@ -1610,9 +1620,10 @@
     "name": "35吋 20KG 雙臂氣壓式螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 5390,
-      "converted": 5390,
-      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 5990,
+      "converted": 5990,
+      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
+      "note": "Chrome原頁主商品BDH01／35吋 20KG 雙臂氣壓式螢幕支架可核對，公開主區網路價5990元，購買按鈕可用；「下單再折」或其他結帳優惠另計，不以API較低數字替代主價。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGU1A900IX2MD/000001_1749518938.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAGU1-A900IX2MD",
@@ -1708,11 +1719,12 @@
       "currency": "TWD",
       "amount": 4540,
       "converted": 4540,
-      "confidence": "PChome 2026-07-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-07-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABN2A900GINEE/000001_1690179981.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABN2-A900GINEE",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "氣壓式",
       "70cm C型夾鉗支桿",
@@ -1792,48 +1804,56 @@
     }
   },
   {
-    "id": "monitorarm-extra-19-dcbb62a900fv397",
+    "id": "monitorarm-ergograde-egtc743q",
     "category": "monitorarm",
+    "brand": "ErgoGrade",
+    "model": "EGTC743Q",
+    "name": "快拆式穿夾兩用鋁合金三螢幕支架",
     "rank": 19,
     "budget": "value",
     "channel": "tw",
-    "brand": "EGTC",
-    "model": "EGTC743Q",
-    "name": "三螢幕快拆式穿夾兩用鋁合金支架",
+    "score": 83,
+    "topPick": false,
     "price": {
       "currency": "TWD",
       "amount": 4288,
       "converted": 4288,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "basis": "retailer_current",
+      "confidence": "2026-11-04 Chrome人工核對momo原商品8806558：ErgoGrade EGTC743Q三螢幕支架，滿1件享8折，主區限時折後價4288元（促銷價5360、市售價6090）；數量1、直接購買及放入購物車可用、庫存低於2組。",
+      "note": "當日公開單件8折價NT$4,288，不扣會員券、信用卡或點數回饋；頁面預計2026/11/05出貨，實際供貨及運費以通路為準。"
     },
-    "image": "https://cs-a.ecimg.tw/items/DPADYKA900B0UWS/000001_1722844563.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DPADYK-A900B0UWS",
-    "buyLabel": "PChome",
+    "installation": {
+      "status": "not_stated",
+      "note": "官方未承諾含到府安裝，需自行夾桌或穿桌組裝；桌板厚8–65mm，穿桌須評估孔位、桌板結構、施工及追加費用。"
+    },
+    "image": "https://cdn-general.cybassets.com/media/W1siZiIsIjE0MzA4L3Byb2R1Y3RzLzMwNTYwODYxLzE3MTE2MDQyNDJfYTFjYzRkOTNlZDJkMmE5NmFmYzUuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=7ad1b76435f8ee0c",
+    "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=8806558",
+    "buyLabel": "momo購物網",
     "specs": [
-      "三螢幕",
-      "穿夾兩用",
-      "鋁合金",
-      "快拆"
+      "類型：被動式三螢幕桌上支架；快拆、穿桌／夾桌兩用",
+      "支援尺寸：每台24吋以內，共3台；不建議34吋以上寬螢幕或49／57吋超寬螢幕",
+      "承重：每臂2–8kg；曲面螢幕每臂最高5.5kg，以不含腳架的螢幕重量核對",
+      "VESA：75×75／100×100mm，M4螺絲；需確認螢幕背板與孔位",
+      "調整：高度最高345mm；左右轉軸±20°、上仰／下俯各20°、螢幕旋轉360°，具扭力調整及集線",
+      "桌板厚度：8–65mm；夾桌／穿桌安裝須確認桌緣、桌底及孔位空間",
+      "尺寸：寬130×高37×深15cm（原廠W×H×D 1300×370×150mm）",
+      "重量：淨重6.37kg，不採外箱毛重8.26kg",
+      "材質：鐵／鋁合金／塑膠",
+      "供電：被動支架，無需用電"
     ],
-    "description": "EGTC EGTC743Q 補進本分類比較池，重點是三螢幕、穿夾兩用、鋁合金，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "description": "ErgoGrade EGTC743Q是台灣原廠列售的三螢幕快拆支架，適用三台24吋以內、每臂2–8kg的螢幕。可穿桌或夾桌安裝，需逐台確認VESA、面板重量、曲面限制與桌板結構。",
     "pros": [
-      "多螢幕一次整理",
-      "桌夾與穿孔彈性高"
+      "三螢幕各自快拆與角度調整",
+      "可夾桌或穿桌，桌板厚度條件明確",
+      "原廠附圖明示5年保固及台灣聯絡窗口"
     ],
     "cons": [
-      "不適合超寬重螢幕",
-      "安裝與配重較麻煩"
+      "限24吋以內，不適合34吋以上寬螢幕或49／57吋超寬螢幕",
+      "每臂有2kg最低負載與8kg上限，曲面上限另降至5.5kg",
+      "需自行確認桌板結構、夾具空間及穿孔安裝，三螢幕調整較費工"
     ],
-    "bestFor": "想依螢幕尺寸、重量、桌板厚度與 VESA 規格挑支架的人。",
-    "recommendation": "補充推薦：三螢幕快拆式穿夾兩用鋁合金支架 的優勢在多螢幕一次整理，但仍建議把不適合超寬重螢幕納入取捨。",
-    "score": 83,
-    "voltage": "無需用電",
-    "warranty": "依台灣通路/品牌保固",
-    "tags": [
-      "三螢幕",
-      "快拆",
-      "穿夾兩用"
-    ],
+    "bestFor": "使用三台24吋以內螢幕、希望保留桌面空間，且桌板可夾裝或穿孔的人。",
+    "recommendation": "三螢幕支架參考：先逐台核對不含腳架重量、VESA及24吋限制，再量桌板8–65mm和桌底空間。大尺寸或重型曲面螢幕應另選對應承重支架；搬動與安裝多螢幕宜兩人合作。",
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
@@ -1845,47 +1865,39 @@
       "evidenceSnippet": "",
       "sourceKind": "not_found",
       "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：BigGo DPADYK-A900B0UWS: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/DPADYK-A900B0UWS/product?p=1；BigGo EGTC EGTC743Q: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/EGTC%20EGTC743Q/product?p=1。"
+      "checkedAt": "2026-11-04",
+      "note": "已實際讀FindPrice、飛比與BigGo的EGTC743Q exact-model比價頁，並核官方商品5360元。比價頁有4288元當期促銷與價格變動，但未提供可核日期及同規格新品歷史最低點；現價不當史低，排除不相干廣告及會員、個人化折扣、信用卡回饋、點數、二手、展示與福利品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-29",
+      "checkedAt": "2026-11-04",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Reddit",
-          "query": "site:reddit.com \"EGTC EGTC743Q\" (problem OR issue OR defect OR failure)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22EGTC%20EGTC743Q%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-          "targetHost": "reddit.com"
+          "targetHost": "reddit.com",
+          "query": "\"ErgoGrade\" \"EGTC743Q\" site:reddit.com (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.google.com/search?q=%22ErgoGrade%22%20%22EGTC743Q%22%20site%3Areddit.com%20%28problem%20OR%20issue%20OR%20defect%20OR%20failure%29"
         },
         {
           "platform": "Mobile01",
-          "query": "site:mobile01.com \"EGTC EGTC743Q\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22EGTC%20EGTC743Q%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "mobile01.com"
-        },
-        {
-          "platform": "PTT",
-          "query": "site:ptt.cc \"EGTC EGTC743Q\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22EGTC%20EGTC743Q%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "ptt.cc"
-        },
-        {
-          "platform": "Dcard",
-          "query": "site:dcard.tw \"EGTC EGTC743Q\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22EGTC%20EGTC743Q%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "dcard.tw"
-        },
-        {
-          "platform": "YouTube",
-          "query": "\"EGTC EGTC743Q\" problem issue defect failure broken 災情 故障 異常",
-          "queryUrl": "https://www.youtube.com/results?search_query=%22EGTC%20EGTC743Q%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
-          "targetHost": "youtube.com"
+          "targetHost": "mobile01.com",
+          "query": "\"ErgoGrade\" \"EGTC743Q\" site:mobile01.com (問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=%22ErgoGrade%22%20%22EGTC743Q%22%20site%3Amobile01.com%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95%29"
         }
       ]
-    }
+    },
+    "voltage": "被動式機械支架，無需供電。",
+    "warranty": "ErgoGrade官方商品頁附圖明示保固5年；台灣峰誠國際股份有限公司，服務電話02-22673146。保存購買及保固憑證，實際適用條件向原廠確認。",
+    "tags": [
+      "三螢幕",
+      "24吋以內",
+      "快拆",
+      "穿夾兩用",
+      "台灣品牌",
+      "5年保固"
+    ]
   },
   {
     "id": "monitorarm-extra-20-dcbakfa900hafjo",
@@ -2194,11 +2206,12 @@
       "currency": "TWD",
       "amount": 3280,
       "converted": 3280,
-      "confidence": "Taiwan Access 2026-08-02 exact-model 公開價；頁面標示 InStock，且可見加入購物車與立即購買"
+      "confidence": "Taiwan Access 2026-08-02 exact-model 公開價；頁面標示 InStock，且可見加入購物車與立即購買",
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
     },
     "image": "https://img.shoplineapp.com/media/image_clips/6a55cbb9b20283abcefad1b1/original.jpg?1784007609=&owner_id=5a1cb8de9f9a4f43f800135c",
     "buyUrl": "https://www.taiwanaccess.com.tw/products/backbone-titan-link",
-    "buyLabel": "Taiwan Access",
+    "buyLabel": "Taiwan Access（來源待確認）",
     "specs": [
       "支援 17-49 吋",
       "承重最高 20kg",

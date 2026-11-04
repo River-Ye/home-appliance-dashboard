@@ -893,11 +893,12 @@
       "currency": "TWD",
       "amount": 14999,
       "converted": 14999,
-      "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900IDIPA/000001_1763087835.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0L-A900IDIPA",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "81mm 超薄",
       "高溫洗烘",
@@ -989,11 +990,12 @@
       "currency": "TWD",
       "amount": 12999,
       "converted": 12999,
-      "confidence": "PChome 2026-09-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900J0KF3/000001_1765762606.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0L-A900J0KF3",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "20000Pa",
       "雙恆貼邊",
@@ -1672,11 +1674,12 @@
       "currency": "TWD",
       "amount": 13480,
       "converted": 13480,
-      "confidence": "PChome 2026-09-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0JA900ITF7U/000001_1782802931.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0J-A900ITF7U",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "熱旋風",
       "延邊避障",
@@ -1759,11 +1762,12 @@
       "currency": "TWD",
       "amount": 12111,
       "converted": 12111,
-      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0JA900ITF88/000001_1782803241.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0J-A900ITF88",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "旋風清潔",
       "全能掃拖",
@@ -1855,11 +1859,12 @@
       "currency": "TWD",
       "amount": 12780,
       "converted": 12780,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0JA900J02LR/000001_1782803287.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0J-A900J02LR",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "自動壓縮集塵",
       "掃拖一體",
@@ -2440,11 +2445,12 @@
       "currency": "TWD",
       "amount": 13290,
       "converted": 13290,
-      "confidence": "PChome 2026-10-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-10-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM2ZA900IUC17/000001_1778123320.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM2Z-A900IUC17",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "變頻濕拖",
       "掃地機器人",
@@ -2536,11 +2542,12 @@
       "currency": "TWD",
       "amount": 9490,
       "converted": 9490,
-      "confidence": "PChome 2026-07-12 API 查核價"
+      "confidence": "PChome 2026-07-12 API 查核價",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM2ZA900IUC1E/000001_1768835646.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM2Z-A900IUC1E",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "變頻濕拖",
       "掃地機器人",
@@ -2728,15 +2735,15 @@
     "name": "AI 汙漬偵測濕乾掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 21900,
-      "converted": 21900,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 17911,
+      "converted": 17911,
+      "confidence": "2026-11-04 Chrome人工核對Dyson台灣官方同型號原商品主區公開特價，加入購物車可用；未扣會員券、信用卡、點數或贈品。",
       "basis": "retailer_current",
-      "note": "2026-11-01 Dyson官方所選RB05 Spot+Scrub Ai主商品特價21900元，24900是原價；贈全配豪禮及清潔劑，未把另購1888元濾網計入或扣領券。"
+      "note": "同SKU 217994-01／RB05，官方主區特價17911元、可加入購物車，贈清潔劑；此方案不含原21900方案的全配耗材豪禮，不以贈品市值抵價。"
     },
     "image": "https://dysonshop.blob.core.windows.net/products/dyson-spot-scrub-ai-black/hero-1780338742-480x480.jpg",
-    "buyUrl": "https://shop.dyson.tw/robot-vacuums/robot/dyson-spot-scrub-ai-black-217994-01",
-    "buyLabel": "Dyson 台灣官網",
+    "buyUrl": "https://shop.dyson.tw/robot-vacuums/robot/dyson-spot-scrub-ai-black-hideprices-217994-01",
+    "buyLabel": "Dyson 台灣官方商城",
     "specs": [
       "RB05／DR30",
       "18000Pa",
@@ -2831,7 +2838,7 @@
       "amount": 399.99,
       "converted": 13108,
       "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-11-04 匯率換算",
-      "note": "2026-11-01 原Costco美國QXRevo頁HTTP404，現貨與現價未確認；保留USD399.99舊參考價，含海外運稅、電力與台灣保固風險，不能推定原廠整型停產。"
+      "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。 2026-11-01 原Costco美國QXRevo頁HTTP404，現貨與現價未確認；保留USD399.99舊參考價，含海外運稅、電力與台灣保固風險，不能推定原廠整型停產。"
     },
     "image": "https://cdn.cs.1worldsync.com/syndication/mediaserverredirect/aaaa71b7b115f7d0cbeb119d8fc3ad7b/width%281200%29.jpg",
     "buyUrl": "https://www.costco.com/p/-/roborock-qx-revo-robot-vacuum-and-mop-with-multifunctional-dock/4000233271",
@@ -3664,7 +3671,8 @@
       "amount": 16900,
       "converted": 16900,
       "confidence": "PChome 24h 於 2026-08-24 的 exact-model 台灣新品頁公開價 NT$16,900，結構化資料標示 InStock，API 顯示 Qty 20",
-      "basis": "retailer_current"
+      "basis": "retailer_current",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "installation": {
       "status": "not_stated",
@@ -3672,7 +3680,7 @@
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL5XA900K8CTK/000001_1787109949.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL5X-A900K8CTK",
-    "buyLabel": "PChome 24h exact-model 現貨新品",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "一體式基座：自動集塵、自動補水、自動添加清潔劑與污水回收",
       "ThermoWash 65°C 熱水洗拖布；60°C 熱風烘乾",
@@ -3769,10 +3777,11 @@
     "name": "Xiaomi 掃拖機器人 6",
     "price": {
       "currency": "TWD",
-      "amount": 15999,
-      "converted": 15999,
-      "confidence": "PChome 24h 於 2026-08-28 的 exact-model 新品公開價",
-      "basis": "retailer_current"
+      "amount": 14911,
+      "converted": 14911,
+      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
+      "basis": "retailer_current",
+      "note": "主區小米掃拖機器人6，規格圖PV32GL；不混用同頁6 Pro/6 Max/5系列價格。"
     },
     "installation": {
       "status": "not_stated",
@@ -4591,11 +4600,12 @@
       "amount": 19999,
       "converted": 19999,
       "basis": "retailer_current",
-      "confidence": "2026-10-23 PChome exact商品DMBL0J-A900KIEP4 API Price.P=19999、Low=null、Qty=10，直接商品頁同價且可購；非白色預購或加贈不同組合。"
+      "confidence": "2026-10-23 PChome exact商品DMBL0J-A900KIEP4 API Price.P=19999、Low=null、Qty=10，直接商品頁同價且可購；非白色預購或加贈不同組合。",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0JA900KIEP4/000001_1792650810.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0J-A900KIEP4",
-    "buyLabel": "PChome 24h購物",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "類型：掃拖機器人＋AutoWash多功能基座；Roomba Plus 675 Combo極夜黑",
       "30,000Pa吸力與SealForce地毯清潔；SprayForce高壓噴淋預處理乾硬污漬",
@@ -4955,6 +4965,99 @@
       "checkedAt": "2026-10-23",
       "note": "X12S PRO：FindPrice可讀同名與上下水款價格，但價格為現價、部分跨不同基站；較低全聯29099是當下比價，未有可重現歷史最低日期。官方與PChome29999也不是史低證明；排除海外版本、會員券及信用卡/點數回饋。"
     }
-  }
+  },
+{
+  "id": "robot-tplink-tapo-rv50-pro-omni",
+  "category": "robot",
+  "brand": "TP-Link",
+  "model": "Tapo RV50 Pro Omni",
+  "name": "15000Pa 自動拆卸拖布全能掃拖機器人｜台灣公司貨",
+  "rank": 52,
+  "budget": "mid",
+  "channel": "tw",
+  "topPick": false,
+  "price": {
+    "currency": "TWD",
+    "amount": 11111,
+    "converted": 11111,
+    "basis": "retailer_current",
+    "confidence": "2026-11-04 root Chrome Native已核exact15505763主11111與啟用直接購買/加入購物車；非schema。",
+    "note": "未扣mo卡、mo幣、折價券或舊換新；15506779是不同VIP列表不採。"
+  },
+  "installation": {
+    "status": "included_basic",
+    "note": "官方新聞與momo原頁提供免費到府開機/設定安裝服務，需與品牌預約；非水電改造或全住宅施工。"
+  },
+  "image": "https://static.tp-link.com/upload/image-header/Tapo_RV50_Pro_Omni_Product_Image_normal_20251104090304x.png",
+  "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15505763",
+  "buyLabel": "momo購物網（台灣公司貨）",
+  "specs": [
+    "清潔：15000Pa；dToF導航、前/側雙雷射避障、2cm越障",
+    "拖地：DeepEdge伸縮拖臂、自動拆卸拖布；官方列12mm抬升",
+    "全能基座：60°C熱水洗、50°C暖風烘、清潔劑投放/除臭；5L清水、4L汙水、3L集塵袋",
+    "集塵/水箱：機身280ml集塵盒、95ml水箱；防纏繞切割滾刷回座後作動",
+    "連線：2.4GHz Wi-Fi／Bluetooth配對；Matter、Alexa、Google Assistant",
+    "尺寸：機身直徑35 x 高10.03 cm；基座長35 x 寬47.5 x 高48 cm（依官方原軸序）",
+    "電力：台灣官方旗艦店額定110V；對照TW官網100–120VAC、50/60Hz低壓支系；充電DC20V1.5A",
+    "功率：機身75W、基座600W、低壓支系熱洗1200W；避免與其他高功率器具共用延長線",
+    "耗材：專用拖布、袋、濾網、清潔劑與除臭模組需定期更換；實際庫存另確認"
+  ],
+  "description": "台灣官方2026年8月推出的全能基座高階系列，補充RV30 Max Plus的自動集塵取向；自動拆卸拖布和熱洗熱烘適合硬地板/地毯混合家庭。",
+  "pros": [
+    "台灣110V版本與原廠一年保固可核對",
+    "熱洗熱烘、自動拆卸拖布與伸縮拖臂",
+    "momo公開主價且品牌提供到府設定"
+  ],
+  "cons": [
+    "已見海外舊韌體拖布誤報、實體掉布及感測個案；各問題分開未達本站六人跨兩站門檻",
+    "官方說舊誤報已修，TW US1.2.7/1.2.8仍有拖布修正；啟用前核對所在地版本與更新",
+    "專用洗劑/除臭耗材需另購；15000Pa不直接等於各地毯實際清潔效果"
+  ],
+  "bestFor": "重視拖布拆卸、熱水洗烘與台灣到府設定的混合地材家庭。",
+  "recommendation": "全能基座參考：比較11111主價、耗材支出及到府服務；檢查最新版韌體與退換貨期內完整測試，不列唯一Top Pick。",
+  "releaseDate": "2026-08-24",
+  "historicalLow": {
+    "status": "not_found",
+    "amount": null,
+    "currency": "TWD",
+    "converted": null,
+    "sourceUrl": "",
+    "sourceTitle": "",
+    "evidenceSnippet": "",
+    "sourceKind": "not_found",
+    "confidence": "not_found",
+    "checkedAt": "2026-11-04",
+    "note": "已讀BigGo exact價格/歷史入口及momo15505763原主買頁；BigGo11111、12999VIP、13999及配件153元均逐用途區別，未取得有日期的同版本新品歷史最低點。Feebee原頁TLS/reader不可讀列限制，不以本次現價11111推史低。"
+  },
+  "issueResearch": {
+    "status": "no_common_issue",
+    "checkedAt": "2026-11-04",
+    "summary": "截至查核日，查無達門檻的集中負評／災情",
+    "issues": [],
+    "checkedSources": [
+      {
+        "platform": "Mobile01",
+        "targetHost": "mobile01.com",
+        "query": "\"Tapo RV50 Pro Omni\" site:mobile01.com 問題",
+        "queryUrl": "https://www.google.com/search?q=%22Tapo%20RV50%20Pro%20Omni%22%20site%3Amobile01.com%20%E5%95%8F%E9%A1%8C"
+      },
+      {
+        "platform": "Reddit",
+        "targetHost": "reddit.com",
+        "query": "\"Tapo RV50 Pro Omni\" site:reddit.com problem",
+        "queryUrl": "https://www.google.com/search?q=%22Tapo%20RV50%20Pro%20Omni%22%20site%3Areddit.com%20problem"
+      }
+    ]
+  },
+  "score": 84,
+  "voltage": "110V台灣官方旗艦店；以相同NCC證號對照momo，頻率50/60Hz取TW官網100–120VAC支系（跨來源核對，未套高壓版）",
+  "warranty": "台灣原廠1年；官方通則電源供應器3個月、耗材不保固，細節依保固條款",
+  "tags": [
+    "台灣公司貨",
+    "熱水洗拖",
+    "自動拆卸拖布",
+    "免費到府設定"
+  ]
+}
 ]);
 })();

@@ -1053,5 +1053,29 @@
     };
   });
 
+  // 2026-11-04 exact-SKU price and source-status updates.
+  {
+    const product = products.find(({ id }) => id === "bedsheet-nitori-2115100119403");
+    Object.assign(product.price, {
+      "amount": 799,
+      "converted": 799,
+      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
+      "note": "原頁明示原廠編號2115100119403、單人26NC-04與公開網路價799；不扣滿2111折111。"
+    });
+  }
+
+  {
+    const product = products.find(({ id }) => id === "bedsheet-hola-014366794");
+    Object.assign(product.price, {
+      "currency": "TWD",
+      "amount": 3042,
+      "converted": 3042,
+      "basis": "retailer_current",
+      "confidence": "2026-11-04 Chrome人工核對同SKU完整尺寸／顏色版本公開主價與購買CTA。",
+      "note": "2026-11-04 Chrome核商品014366794，雙人暮灰亞麻床包主價3042元（原3380），加入購物車與立即購買可用；不扣新會員200券。"
+    });
+    product.buyLabel = "HOLA 官方（雙人暮灰）";
+  }
+
   dashboard.registerProducts("bedsheet", products);
 })();

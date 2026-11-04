@@ -584,6 +584,9 @@ async function main() {
     "dimension contract should accept soundbar component measurements",
   );
   assert(DIMENSION_PATTERN.test("尺寸：查不到"), "dimension contract should accept the agreed not-found text");
+  assert(DIMENSION_PATTERN.test("尺寸：桶身直徑 40.5 x 高 60 cm"), "dimension contract should preserve explicit cylindrical dimensions");
+  assert(!DIMENSION_PATTERN.test("尺寸：40.5 x 60 cm"), "dimension contract should reject unlabeled cylindrical dimensions");
+  assert(!DIMENSION_PATTERN.test("尺寸：包裝直徑 40.5 x 高 60 cm"), "dimension contract should reject cylindrical packaging dimensions");
   assert(!DIMENSION_PATTERN.test("尺寸：600 x 620 x 1965 mm"), "dimension contract should reject unlabeled measurement order");
   assert(!DIMENSION_PATTERN.test("尺寸：包裝 寬 60 x 深 62 x 高 196.5 cm"), "dimension contract should reject packaging dimensions");
   assert(

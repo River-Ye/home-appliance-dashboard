@@ -21,11 +21,11 @@
       "converted": 5218,
       "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-10-31 myfone同型號XG27ACS網路限定5218元，定價5780元；選定P0000203635660同綁，實際貨況與交期依商店確認。"
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。 2026-10-31 myfone同型號XG27ACS網路限定5218元，定價5780元；選定P0000203635660同綁，實際貨況與交期依商店確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABKBA900JZ3CV/000001_1777866944.jpg",
     "buyUrl": "https://www.myfone.com.tw/mfo/buy/prod/P0000203635660?prodSortUid=34953",
-    "buyLabel": "myfone 網路門市",
+    "buyLabel": "myfone 網路門市（來源待確認）",
     "specs": [
       "27 吋",
       "2K/QHD",
@@ -207,11 +207,11 @@
       "amount": 3980,
       "converted": 3980,
       "confidence": "PChome 2026-08-03 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-10-31 原PChome網址只回LCD推薦列表，沒有selected DSABRB-A900JTLHW／LG27U631A-B主商品；API product_id_mismatch，不採他款XG27ACS-W等推薦價。3980僅保留前次參考，現售未確認。"
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。 2026-10-31 原PChome網址只回LCD推薦列表，沒有selected DSABRB-A900JTLHW／LG27U631A-B主商品；API product_id_mismatch，不採他款XG27ACS-W等推薦價。3980僅保留前次參考，現售未確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABRBA900JTLHW/000001_1773730777.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABRB-A900JTLHW",
-    "buyLabel": "PChome（原頁失效／現售待確認）",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "27 吋",
       "2K/QHD",
@@ -506,11 +506,12 @@
       "currency": "TWD",
       "amount": 4488,
       "converted": 4488,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "confidence": "PChome 2026-07-11 API 查核價",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABW6A900K63WS/000001_1782880934.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABW6-A900K63WS",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "27 吋",
       "2K/QHD",
@@ -1209,11 +1210,12 @@
       "currency": "TWD",
       "amount": 7988,
       "converted": 7988,
-      "confidence": "momo購物 2026-07-14 頁面查核價"
+      "confidence": "momo購物 2026-07-14 頁面查核價",
+      "note": "2026-11-04 Chrome逐筆查核：Chrome原來源頁明示「商品目前無展售／網頁不存在」或「查無商品資料，商品不存在或已下架」；沒有可購主商品價格；不是原廠停產證據。 保留既有參考價，另查可信現售連結。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABW6A900K6A95/000001_1783555579.jpg",
     "buyUrl": "https://www.momoshop.com.tw/product/13254194",
-    "buyLabel": "momo購物",
+    "buyLabel": "momo（原來源無展售，查看供貨）",
     "specs": [
       "27 吋",
       "4K/UHD",
@@ -1308,11 +1310,12 @@
       "currency": "TWD",
       "amount": 10999,
       "converted": 10999,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "confidence": "PChome 2026-07-11 API 查核價",
+      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABELA900IX8MS/000001_1754810956.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABEL-A900IX8MS",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原通路缺貨，查看供貨）",
     "specs": [
       "27 吋",
       "2K/QHD",
@@ -1407,11 +1410,12 @@
       "currency": "TWD",
       "amount": 8588,
       "converted": 8588,
-      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABTAA900IGUKX/000001_1742198541.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABTA-A900IGUKX",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "27 吋",
       "2K/QHD",
@@ -1607,11 +1611,12 @@
       "currency": "TWD",
       "amount": 8990,
       "converted": 8990,
-      "confidence": "PChome 2026-08-17 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-17 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABHUA900J98GT/000001_1758009805.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABHU-A900J98GT",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "27 吋",
       "4K/UHD",
@@ -2007,11 +2012,12 @@
       "currency": "TWD",
       "amount": 24888,
       "converted": 24888,
-      "confidence": "PChome 2026-09-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOLA900IIFQG/000001_1744702043.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABOL-A900IIFQG",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原通路缺貨，查看供貨）",
     "specs": [
       "27 吋",
       "4K/UHD",
@@ -2489,11 +2495,12 @@
       "currency": "TWD",
       "amount": 7999,
       "converted": 7999,
-      "confidence": "PChome 2026-09-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABEZA900K1N6R/000001_1782816950.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABEZ-A900K1N6R",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "27 吋",
       "4K/UHD",
@@ -2877,11 +2884,12 @@
       "currency": "TWD",
       "amount": 19900,
       "converted": 19900,
-      "confidence": "PChome 2026-08-03 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-03 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABSLA900JNWTU/000001_1768983299.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABSL-A900JNWTU",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "27 吋",
       "2K/QHD",
@@ -3267,11 +3275,12 @@
       "currency": "TWD",
       "amount": 6588,
       "converted": 6588,
-      "confidence": "Yahoo購物中心 2026-07-21 頁面公開價"
+      "confidence": "Yahoo購物中心 2026-07-21 頁面公開價",
+      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABPFA900K0AJK/000001_1778658221.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/MSI%E5%BE%AE%E6%98%9FPRO-MP341CQW-E12-34%E5%9E%8B-VA-UWQHD-120Hz-%E6%9B%B2%E9%9D%A2%E8%9E%A2%E5%B9%95-1ms-12002868.html",
-    "buyLabel": "Yahoo購物中心",
+    "buyLabel": "Yahoo購物中心（來源待確認）",
     "specs": [
       "34 吋",
       "UWQHD",
@@ -3367,11 +3376,12 @@
       "currency": "TWD",
       "amount": 6543,
       "converted": 6543,
-      "confidence": "PChome 2026-09-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-09-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABQRA900JPRWC/000001_1770367990.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABQR-A900JPRWC",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原商品已售完，查看供貨）",
     "specs": [
       "34 吋",
       "3440x1440 / 21:9",
@@ -4778,11 +4788,12 @@
       "currency": "TWD",
       "amount": 8199,
       "converted": 8199,
-      "confidence": "Costco 好市多 2026-07-09 查核價"
+      "confidence": "Costco 好市多 2026-07-09 查核價",
+      "note": "2026-11-04 Chrome開啟原精確商品URL後轉向同通路分類列表，沒有原商品編號的主區；不借列表其他型號價格或加入購物車判定本品現貨。 金額保留為舊參考價；未取得原廠停產證據。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/hac/h33/274515179241502.jpg",
     "buyUrl": "https://www.costco.com.tw/Digital-Mobile/Laptops-Computers/Monitors/Samsung-ViewFinity-S7-32-inch-UHD-Monitor-S32D706EAC/p/147917",
-    "buyLabel": "Costco 好市多",
+    "buyLabel": "Costco（原連結轉分類，供貨待確認）",
     "specs": [
       "32 吋 VA",
       "4K (3840 x 2160)",
@@ -4980,13 +4991,15 @@
     "name": "27 型 4K Adobe RGB Thunderbolt 4 專業設計螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 26888,
-      "converted": 26888,
-      "confidence": "BenQ 台灣官方 2026-07-21 API 公開在庫價"
+      "amount": 25543,
+      "converted": 25543,
+      "confidence": "2026-11-04 Chrome人工核對官方連出的可信通路exact-model主價、選定版本與啟用購買按鈕。",
+      "basis": "retailer_current",
+      "note": "Chrome人工核對BenQ官方導向momo同型號新品主價25543元，11/04單件95折，數量1、直接購買及放入購物車啟用、庫存少於2件；不扣會員券、信用卡或點數。"
     },
     "image": "https://image.benq.com/is/image/benqco/pd2732u-front-hotkey-1000?$ResponsivePreset$&fmt=png-alpha",
-    "buyUrl": "https://www.benq.com/zh-tw/monitor/creative-pro/pd2732u/buy.html",
-    "buyLabel": "BenQ 台灣官方",
+    "buyUrl": "https://www.momoshop.com.tw/product/15419037",
+    "buyLabel": "momo 台灣新品",
     "specs": [
       "27 吋 IPS / 4K 3840 x 2160 / 60Hz / 400 nits",
       "99% Adobe RGB / 99% P3 / 100% sRGB / DeltaE < 2",
@@ -5087,11 +5100,12 @@
       "currency": "TWD",
       "amount": 69900,
       "converted": 69900,
-      "confidence": "ASUS 台灣官方商城 2026-07-26 公開在庫價"
+      "confidence": "ASUS 台灣官方商城 2026-07-26 公開在庫價",
+      "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。"
     },
     "image": "https://shop.asus.com/media/catalog/product/9/5/9565379b9c805db870350b1f2188d50f_1.png?bg-color=255%2C255%2C255&canvas=439%3A439&fit=bounds&format=auto&height=439&optimize=medium&width=439",
     "buyUrl": "https://shop.asus.com/tw/90lm04n0-b013d1-proart-display-oled-pa27usd.html",
-    "buyLabel": "ASUS 台灣官方",
+    "buyLabel": "ASUS 台灣官方（來源待確認）",
     "specs": [
       "26.5 吋 QD-OLED / 4K 3840 x 2160 / 240Hz / 0.1ms",
       "1000 nits 峰值 / 99% DCI-P3 / Delta E < 1 / Dolby Vision",
@@ -5191,11 +5205,11 @@
     "name": "27 型 4K 內建校色器專業色彩管理螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 56111,
-      "converted": 56111,
-      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。",
+      "amount": 53305,
+      "converted": 53305,
+      "confidence": "2026-11-04 Chrome人工核對exact型號／選定版本主區公開折後價及可購CTA。",
       "basis": "retailer_current",
-      "note": "2026-11-04 午後人工覆核：momo選定主品號本輪公開價56111元，原生直接購買/放入購物車皆啟用。上午滿額折1000已消失；原生主商品現為56111，數量1–2、3年保固。 不扣個人化回饋或贈品。"
+      "note": "2026-11-04 momo15221341單日滿1件95折主區限時折後53305元（促銷56111）；數量1、庫存低於2組、直接購買及放入購物車可用，不另扣會員、信用卡或點數。"
     },
     "image": "https://image.benq.com/is/image/benqco/1pd2770u-front-hood-hotkey-2?$ResponsivePreset$",
     "buyUrl": "https://www.momoshop.com.tw/product/15221341",
@@ -5626,11 +5640,11 @@
     "name": "LOQ 27Q-10 27 吋 QHD 180Hz Fast IPS 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 4851,
-      "converted": 4851,
-      "confidence": "2026-10-24 人工核對 www.lenovo.com 同型號與所選版本公開價 TWD 4851，可下單；未扣會員、信用卡或點數。",
+      "amount": 4690,
+      "converted": 4690,
+      "confidence": "2026-11-04 Chrome人工核對exact型號／選定版本主區公開折後價及可購CTA。",
       "basis": "retailer_current",
-      "note": "2026-11-04 下午覆核：原生Lenovo68F3GACBTW頁面產品內容可讀，但主價格購買區未成功呈現；schema4690未被當可訂主價。保留4851舊參考。"
+      "note": "2026-11-04 Lenovo原廠68F3GACBTW主區公開1111SALE eCoupon減700元後4690元，含營業稅及免費運送，新增至購物車可用，預計11/09送達。原5390元、即時折539元與700券二擇一，不疊加或扣Rewards回饋。"
     },
     "image": "https://p2-ofp.static.pub/ShareResource/ww/visuals/LOQ-10series/LOQ-27Q-10-list.png?width=584&height=584",
     "buyUrl": "https://www.lenovo.com/tw/zh/p/accessories-and-software/monitors/gaming/68f3gacbtw",
@@ -5739,11 +5753,12 @@
       "amount": 106603,
       "converted": 106603,
       "confidence": "momo 2026-08-28 exact part MFEL4TA/A 公開限時 97 折價；活動原價 NT$109,900，活動截止後需重查",
-      "basis": "retailer_current"
+      "basis": "retailer_current",
+      "note": "2026-11-04 Chrome逐筆查核：Chrome原來源頁明示「商品目前無展售／網頁不存在」或「查無商品資料，商品不存在或已下架」；沒有可購主商品價格；不是原廠停產證據。 保留既有參考價，另查可信現售連結。"
     },
     "image": "https://www.apple.com/v/studio-display-xdr/b/images/meta/studio_display_xdr__dvvwjvcv36uu_og.png?202607062342",
     "buyUrl": "https://www.momoshop.com.tw/product/15103887",
-    "buyLabel": "momo購物網",
+    "buyLabel": "momo（原來源無展售，查看供貨）",
     "installation": {
       "status": "not_stated",
       "note": "通路售價為標準玻璃與可調整斜度／高度支架的完整顯示器；桌面擺放不含 VESA 壁掛或懸臂施工。"
@@ -6005,10 +6020,11 @@
     "name": "ROG Strix XG27ACS Gen2 27 型 QHD 220Hz Fast IPS 電競螢幕（黑色）",
     "price": {
       "currency": "TWD",
-      "amount": 6588,
-      "converted": 6588,
+      "amount": 5688,
+      "converted": 5688,
       "basis": "retailer_current",
-      "confidence": "欣亞 2026-09-06 exact XG27ACSR 黑色新品頁網路售價 NT$6,588，未扣信用卡、會員或點數回饋"
+      "confidence": "2026-11-04 人工讀取exact-model官方／可信通路原商品主價與選定版本供貨，不採schema、原價或加購品價。",
+      "note": "欣亞227313主標XG27ACSR，規格完整型號ROGStrixXG27ACSGen2；網路售價5688，購買數量1–3，兩個主按鈕data-pid227313加車／立即結帳未hidden或disabled。 不採24期會員分期額或其他加價購。"
     },
     "image": "https://www.sinya.com.tw/upload/prod_hb/prod_227313_1786928447.png",
     "buyUrl": "https://www.sinya.com.tw/prod/227313",
@@ -6775,6 +6791,308 @@
         }
       ]
     }
+  },
+{
+  "id": "monitor-samsung-ls32h704eacxzw",
+  "category": "monitor",
+  "brand": "Samsung",
+  "model": "LS32H704EACXZW",
+  "name": "ViewFinity S7 S70H 32吋4K VA螢幕（官方預購）",
+  "rank": 73,
+  "budget": "mid",
+  "channel": "tw",
+  "score": 84,
+  "topPick": false,
+  "price": {
+    "currency": "TWD",
+    "amount": 8990,
+    "converted": 8990,
+    "basis": "retailer_current",
+    "confidence": "2026-11-04 Native Chrome核Samsung台灣官方主商品LS32H704EACXZW／32選項checked，主價8990及兩個立即預購CTA；未扣會員、信用卡、點數。",
+    "note": "官方預購，頁面明示2026/11/27起陸續出貨；非現貨承諾，出貨時程仍依官方通知。"
+  },
+  "installation": {
+    "status": "not_stated",
+    "note": "官方未列到府安裝；需自行組裝底座與接線。裝懸臂／壁掛另購VESA100×100mm支架，按不含底座4.0kg核對承重、桌板與孔位，並預留散熱及線材空間。"
+  },
+  "image": "https://images.samsung.com/is/image/samsung/p6pim/tw/ls32h704eacxzw/gallery/tw-viewfinity-s7-s70h-ls32h704eacxzw-553357194?$1164_776_PNG$",
+  "buyUrl": "https://www.samsung.com/tw/monitors/high-resolution/viewfinity-s7-s70h-32-inch-4k-uhd-hdr10-ls32h704eacxzw/",
+  "buyLabel": "Samsung 台灣官方商城（預購）",
+  "specs": [
+    "32吋16:9平面VA；台灣完整SKU LS32H704EACXZW",
+    "4K UHD 3840×2160、最高60Hz、5ms GtG；非高刷新電競定位",
+    "亮度：典型300cd/m²、最低240cd/m²；原生對比3000:1、sRGB99%、HDR10",
+    "連接：HDMI2.0×1、DisplayPort1.2×1、耳機輸出×1；未提供USB-C影像／PD與LAN",
+    "功能：PIP子母畫面、PBP分割、低藍光、零閃屏、AutoSourceSwitch+；SamsungDisplayManager功能依型號，不能由通用文案推定KVM",
+    "底座：前後傾斜約-2°至15°；VESA100×100mm；無高度升降，水平±3°為微調校平",
+    "尺寸：含底座寬71.67×高52.64×深20.01cm；不含底座寬71.67×高42.32×深4.60cm",
+    "重量：不含底座4.0kg；含底座4.9kg；不用包裝重量7.3kg",
+    "電源：外接變壓器AC100–240V、50／60Hz；最高耗電59W",
+    "隨附：電源線1.5m、HDMI線、DP線；實際依台灣出貨清單",
+    "供貨：官方預購，2026/11/27起陸續出貨，非上市日期證明"
+  ],
+  "description": "S70H是官方2026年ViewFinity S7陣容中的32吋4K60Hz型號，以VA對比、雙輸入與PIP／PBP供文書多工比較。與既有S70D並列，台灣官方本次接受8990元預購；保留舊款，沒有官方停產證據。",
+  "pros": [
+    "32吋4K搭配VA3000:1對比，適合文書與多視窗",
+    "HDMI／DP雙輸入並支援PIP／PBP",
+    "台灣官方可預購，電力與面板掛載重量可核"
+  ],
+  "cons": [
+    "官方預購需等候，標示11/27起陸續出貨",
+    "60Hz及300cd/m²不適合追求高速遊戲或高亮HDR，沒有USB-C供電且底座不升降",
+    "PChome同基型號有劉**一位面板故障及維修等待個案；未達跨站集中問題門檻，到貨宜檢查亮暗點與顯示穩定"
+  ],
+  "bestFor": "想用32吋4K處理文件、表格及雙訊源多工，可接受預購交期與基本底座的人。",
+  "recommendation": "文書預購參考：8990元須與既有S70D可購價、交期及售後一起比較；單純型號新不代表所有規格全面升級。購前確認32吋LS32H704EACXZW，裝支架以4.0kg面板及VESA100×100mm核對。",
+  "releaseDate": "找不到",
+  "historicalLow": {
+    "status": "not_found",
+    "amount": null,
+    "currency": "TWD",
+    "converted": null,
+    "sourceUrl": "",
+    "sourceTitle": "",
+    "evidenceSnippet": "",
+    "sourceKind": "not_found",
+    "confidence": "not_found",
+    "checkedAt": "2026-11-04",
+    "note": "已讀完整LS32H704EACXZW於FindPrice／飛比／BigGo的價格頁：FindPrice無同型號結果，飛比與BigGo僅神腦8990現價，未提供可核同規格新品歷史最低日期；官方8990預購及PChome8990現價不倒推史低，PTT5000為徵求二手預算不採。"
+  },
+  "issueResearch": {
+    "status": "no_common_issue",
+    "checkedAt": "2026-11-04",
+    "summary": "截至查核日，查無達門檻的集中負評／災情",
+    "issues": [],
+    "checkedSources": [
+      {
+        "platform": "Reddit",
+        "targetHost": "reddit.com",
+        "query": "\"LS32H704EACXZW\" site:reddit.com",
+        "queryUrl": "https://www.google.com/search?q=%22LS32H704EACXZW%22%20site%3Areddit.com"
+      },
+      {
+        "platform": "Mobile01",
+        "targetHost": "mobile01.com",
+        "query": "\"LS32H704EACXZW\" site:mobile01.com",
+        "queryUrl": "https://www.google.com/search?q=%22LS32H704EACXZW%22%20site%3Amobile01.com"
+      }
+    ]
+  },
+  "voltage": "外接電源變壓器輸入AC100–240V／50–60Hz，台灣110V／60Hz在支援範圍；最高耗電59W。頻率由台灣官方手冊第47頁S32H704EAC明示。",
+  "warranty": "台灣三星電腦螢幕本體及外接電源供應器保固36個月，需購買憑證；不是零亮暗點保證，面板亮暗點按官方允收條件。未套用OLED限定登錄延長保固。",
+  "tags": [
+    "32吋",
+    "4K",
+    "VA",
+    "60Hz",
+    "生產力",
+    "PIP/PBP",
+    "官方預購"
+  ]
+},
+{
+  "id": "monitor-aoc-cu34g4h-96",
+  "category": "monitor",
+  "brand": "AOC",
+  "model": "CU34G4H/96",
+  "name": "Gaming CU34G4H 34吋WQHD 200Hz Fast VA曲面螢幕",
+  "rank": 74,
+  "budget": "mid",
+  "channel": "tw",
+  "score": 85,
+  "topPick": false,
+  "price": {
+    "currency": "TWD",
+    "amount": 6888,
+    "converted": 6888,
+    "basis": "retailer_current",
+    "confidence": "2026-11-04 Native Chrome核PChome主商品CU34G4H，主價6888（建議7288）、數量及下單再折按鈕114/115可用。",
+    "note": "單台新品主價；11/04任選1件95折需結帳確認，不預扣；未扣會員、信用卡或點數。超大材積，非24h到貨承諾。"
+  },
+  "installation": {
+    "status": "not_stated",
+    "note": "未列到府安裝，需自行裝底座；支架以VESA100×100mm、不含底座6.33kg與曲面力矩核對，並確認桌深、桌板厚度及線材空間。"
+  },
+  "image": "https://cdn.sanity.io/images/hf5b3axp/production/60190ba8b23d1cb6bce740b89ae5c3abd7b99afe-5280x4920.png?w=1920&fit=max&auto=format",
+  "buyUrl": "https://24h.pchome.com.tw/prod/DSABQR-A900K70YA",
+  "buyLabel": "PChome 24h購物",
+  "specs": [
+    "34吋21:9 Fast VA曲面，1500R；完整台灣官方型號CU34G4H/96",
+    "3440×1440 WQHD、最高200Hz；GtG1ms／MPRT0.3ms，兩種反應時間條件不同",
+    "亮度典型300cd/m²、原生對比4000:1、HDR10；不是Mini LED分區控光或高亮HDR定位",
+    "色彩：16.7M；官方列sRGB126% CIE1931、DCI-P398% CIE1976，覆蓋／色域計算條件不可混相比較",
+    "同步與多工：Adaptive-Sync／FreeSync Premium、MBR、PIP／PBP、G-Menu",
+    "輸入：HDMI2.0×2、DisplayPort1.4×1、3.5mm耳機輸出；無USB Hub及喇叭",
+    "底座：升降130mm、傾斜-5°～23°、左右旋轉±20°；VESA100×100mm",
+    "尺寸：含底座寬80.81×高43.57～53.47×深26.94cm；不含底座寬80.81×高36.84×深10.90cm；依官方原值保留高度範圍",
+    "重量：不含底座6.33kg，含底座淨重7.4kg；不採10.7kg包裝毛重",
+    "供電：AC100–240V／1.5A／50–60Hz，典型耗電39W"
+  ],
+  "description": "CU34G4H是台灣官方目前列名的34吋200Hz曲面Fast VA款，可與既有180Hz CU34G4並列比較。它提供升降底座及雙訊源多工，適合遊戲與寬桌面用途；新款存在不代表舊款已停產。",
+  "pros": [
+    "34吋WQHD搭200Hz，提供1500R曲面與升降底座",
+    "4000:1原生對比，支援PIP／PBP與FreeSync Premium",
+    "台灣可信新品通路可購，官方電力及VESA掛載重量明確"
+  ],
+  "cons": [
+    "300cd/m²與HDR10相容不能當作高亮HDR表現保證；無USB-C影像供電或喇叭",
+    "34吋寬度80.81cm，需核桌深、顯卡及支架承重；200Hz需核訊源、連接埠與解析度組合",
+    "海外同基型號有單一HDMI僅120Hz及安裝時墊片掉入個案，後者為使用者意外；未確認同台灣/96版本，未達集中問題門檻"
+  ],
+  "bestFor": "想用34吋WQHD兼顧非競技遊戲與雙訊源多工，桌面能放寬曲面螢幕的人。",
+  "recommendation": "200Hz寬螢幕參考：以6888元單台新品比較既有CU34G4與其他34吋機型；需200Hz時優先核對官方手冊、顯卡及DP訊源，不把面板最高刷新率當所有HDMI配置保證。支架按不含底座6.33kg、VESA100×100mm及曲面力矩選擇。",
+  "releaseDate": "找不到",
+  "voltage": "AC100–240V／1.5A／50–60Hz，台灣110V／60Hz在支援範圍；典型39W。",
+  "warranty": "台灣AOC正常授權經銷新品，自購買日起三年整機保固及到府收送；附配件、外力及異物入侵等排除，需保留購買證明。",
+  "tags": [
+    "34吋",
+    "WQHD",
+    "200Hz",
+    "Fast VA",
+    "1500R",
+    "曲面",
+    "超寬螢幕",
+    "PIP/PBP"
+  ],
+  "issueResearch": {
+    "status": "no_common_issue",
+    "checkedAt": "2026-11-04",
+    "summary": "截至查核日，查無達門檻的集中負評／災情",
+    "issues": [],
+    "checkedSources": [
+      {
+        "platform": "Reddit",
+        "targetHost": "reddit.com",
+        "query": "\"CU34G4H/96\" site:reddit.com",
+        "queryUrl": "https://www.google.com/search?q=%22CU34G4H/96%22%20site%3Areddit.com"
+      },
+      {
+        "platform": "Mobile01",
+        "targetHost": "mobile01.com",
+        "query": "\"CU34G4H/96\" site:mobile01.com",
+        "queryUrl": "https://www.google.com/search?q=%22CU34G4H/96%22%20site%3Amobile01.com"
+      }
+    ]
+  },
+  "historicalLow": {
+    "status": "not_found",
+    "amount": null,
+    "currency": "TWD",
+    "converted": null,
+    "sourceUrl": "",
+    "sourceTitle": "",
+    "evidenceSnippet": "",
+    "sourceKind": "not_found",
+    "confidence": "not_found",
+    "checkedAt": "2026-11-04",
+    "note": "已實讀FindPrice與飛比CU34G4H價格搜尋及原價屋2026/10/28促銷原文。原價屋明示6888為10/26–11/15當期活動，飛比另有6500的iOPEN個人商店與同頁多通路現價，未核可信同SKU歷史最低成交日期；本次6888現價不倒推史低。"
   }
+},
+{
+  "id": "monitor-asus-xg32uqwms",
+  "category": "monitor",
+  "brand": "ASUS",
+  "model": "XG32UQWMS",
+  "name": "ROG Strix OLED XG32UQWMS 31.5吋 Tandem WOLED 雙模",
+  "rank": 75,
+  "budget": "premium",
+  "channel": "tw",
+  "price": {
+    "currency": "TWD",
+    "amount": 21743,
+    "converted": 21743,
+    "basis": "retailer_current",
+    "confidence": "2026-11-04根代理Native Chrome核momo15655352完整型號主價21743，品號一致、qty1，主直接購買411／放入購物車412啟用。",
+    "note": "11/04~11/04滿1件95折，促銷價22888折後主價21743；活動有期限，未扣會員、回饋、點數或信用卡。"
+  },
+  "installation": {
+    "status": "not_stated",
+    "note": "桌面底座或VESA100×100；到府安裝未標示。4.4kg為不含底座重量，另確認支架承重及桌面空間。"
+  },
+  "image": "https://img.pchome.com.tw/cs/items/DSABKB1900KMQT2/000001_1793700795.jpg",
+  "buyUrl": "https://www.momoshop.com.tw/product/15655352",
+  "buyLabel": "momo購物網",
+  "specs": [
+    "面板：31.5吋16:9、TrueBlack Glossy Tandem WOLED；3840×2160 240Hz／FHD 480Hz雙模",
+    "反應／色彩：0.03ms GTG、原生10bit、DCI-P3 99.5%、DeltaE<2；典型330nits／HDR峰值1500nits測試條件不可混比",
+    "HDR／同步：DisplayHDR500 True Black、HDR10、FreeSync Premium Pro與G-SYNC相容；OLED Care Pro、Neo近接感測器",
+    "連接：DP1.4 DSC×1、HDMI2.1 FRL48Gbps×2、USB3.2 Gen1 Type-A×2、耳機；I/O表未列USB-C、無內建喇叭",
+    "支架：升降110mm、俯仰-5~20°、左右±25°；VESA100×100mm",
+    "尺寸：含底座寬71.8×高56.2×深18.8cm；不含底座寬71.8×高43.1×深7.4cm",
+    "重量：不含底座4.4kg；含底座6.5kg，不採9.3kg毛重",
+    "電力：100–240V、50/60Hz；典型開機<30W、待機<0.5W",
+    "配件：DP線、電源線、快拆底座、快速指南、ROG收納袋／貼紙及VESA套件"
+  ],
+  "description": "ROG Strix新一代Tandem WOLED雙模選擇，把4K刷新率提高至240Hz、FHD至480Hz，與舊XG32UCWG的165／330Hz定位有別。舊款未見官方停產明文，保留比較；本款有已達跨站門檻的暗部壓黑紀錄與韌體改善進度，評估時必須納入。",
+  "pros": [
+    "4K240Hz／FHD480Hz雙模、Tandem WOLED與HDMI2.1，適合高階遊戲PC",
+    "不含底座4.4kg及VESA100，易核對支架負載",
+    "台灣官方規格、三年含烙印保固；近接感測和OLED保護功能"
+  ],
+  "cons": [
+    "暗部壓黑／HDR陰影細節不足已達至少6名跨站門檻；已有preview韌體改善個案，購前確認實機版本和退換條件",
+    "另有個別電流聲、訊號切換及細線閃爍回報，不能合併成同一災情人數",
+    "鏡面需控制光源；OLED長時間靜態介面仍有烙印風險，無USB-C或喇叭"
+  ],
+  "bestFor": "重視4K240Hz與FHD480Hz雙模、能確認韌體並在退換期測試HDR暗部及VRR的人。",
+  "recommendation": "高刷新OLED進階候選，非Top Pick。21743元單件95折主價（11/04限定）之外，先用常玩的暗場、60／120／240Hz、HDR及VRR實測；要求賣方確認可取得的正式韌體及退換政策，不以單一preview成功回報保證全部問題修復。",
+  "releaseDate": "找不到",
+  "historicalLow": {
+    "status": "not_found",
+    "amount": null,
+    "currency": "TWD",
+    "converted": null,
+    "sourceUrl": "",
+    "sourceTitle": "",
+    "evidenceSnippet": "",
+    "sourceKind": "not_found",
+    "confidence": "not_found",
+    "checkedAt": "2026-11-04",
+    "note": "已讀FindPrice、飛比及原價屋同型號價格來源；比價索引多為29888／32900舊現價、配件及其他Type-C機型，原價屋2026/7/27上市活動29888亦非低點證明。當前momo21743（11/04限定滿1件95折、Native主CTA已核）與PChome22888都是本輪現價，不直接推為史低。"
+  },
+  "issueResearch": {
+    "status": "common_issue",
+    "checkedAt": "2026-11-04",
+    "summary": "跨ROG Forum與Reddit至少6名同型號使用者回報暗部壓黑／HDR陰影細節不足；已有預覽韌體改善及個案修復回報。",
+    "issues": [
+      {
+        "title": "暗部壓黑／HDR陰影細節不足",
+        "detail": "部分回報與MCM101、高刷新率及DP／HDMI不同設定相關，不能推定每台或所有韌體都會發生。原討論後續已有preview韌體：PureVanilla18回報本人240Hz/HDR已修好，sucka回報黑階及灰階均勻度改善，但仍提部分HDR偏暗及VRR閃爍疑慮；公開正式版本與所有情境修復未確認。",
+        "reportCount": 6,
+        "sources": [
+          {
+            "platform": "ROG Forum",
+            "title": "XG32UQWMS HDR暗部原廠社群討論與後續韌體",
+            "url": "https://rog-forum.asus.com/t5/gaming-monitors/regarding-the-xg32uqwms-i-hope-an-asus-staff-member-can-help-me/td-p/1156725"
+          },
+          {
+            "platform": "Reddit",
+            "title": "HDR過暗，正文更正XG32UQWMS",
+            "url": "https://www.reddit.com/r/OLED_Gaming/comments/1w859au/how_to_fix_xg32ucwmg_hdr_its_super_bad_and_dark/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "XG32UQWMS PS5 Pro黑階壓縮",
+            "url": "https://www.reddit.com/r/OLED_Gaming/comments/1wn41wo/problems_with_black_crush_on_asus_xg32uqwms_ps5/"
+          }
+        ]
+      }
+    ]
+  },
+  "score": 78,
+  "topPick": false,
+  "voltage": "台灣官方exact XG32UQWMS列100–240V、50/60Hz，可涵蓋台灣110V60Hz；原附電源線，仍依接地插座及說明書使用。",
+  "warranty": "ROG台灣exact技術規格列3年保固，含面板烙印；需保留發票並按台灣華碩售後條件。",
+  "tags": [
+    "OLED",
+    "4K",
+    "240Hz",
+    "FHD480Hz",
+    "Tandem WOLED",
+    "HDMI2.1",
+    "災情已達門檻",
+    "韌體進度待追蹤"
+  ]
+}
 ]);
 })();
