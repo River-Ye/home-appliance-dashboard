@@ -215,7 +215,7 @@
       "amount": 11111,
       "converted": 11111,
       "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
-      "note": "Chrome原頁主商品CordZero A9K-MOP3／寵物家庭濕拖無線吸塵器可核對，公開主區售價11111元，購買按鈕可用；不扣個人券、信用卡、點數或贈品。"
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX8KA900JI8XJ/000001_1764582934.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAX8K-A900JI8XJ",
@@ -793,9 +793,11 @@
     "name": "V8 Focus Mattress origin 強勁無線除塵螨機",
     "price": {
       "currency": "TWD",
-      "amount": 6999,
-      "converted": 6999,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 6990,
+      "converted": 6990,
+      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX00A900HC5BZ/000001_1780458569.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAX00-A900HC5BZ",
@@ -989,7 +991,8 @@
       "currency": "TWD",
       "amount": 7990,
       "converted": 7990,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "confidence": "PChome 2026-07-11 API 查核價",
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM2ZA900IUKMI/000001_1768459978.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM2Z-A900IUKMI",
@@ -2242,8 +2245,8 @@
     "price": {
       "currency": "USD",
       "amount": 679.99,
-      "converted": 22284,
-      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-11-04 匯率換算",
+      "converted": 22320,
+      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-11-05 匯率換算",
       "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
     },
     "image": "https://m.media-amazon.com/images/I/61Yuy5vtWFL._AC_SL1500_.jpg",
@@ -2283,14 +2286,14 @@
       "status": "found",
       "amount": 679.99,
       "currency": "USD",
-      "converted": 22284,
+      "converted": 22320,
       "sourceUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
       "sourceTitle": "Dreame Aero Ultra Steam Wet Dry Vacuum – Dreame Vacuum Mop",
       "evidenceSnippet": "Dreame 原廠美國商品頁於 2026-07-16 公開顯示特價 US$679.99、原價 US$799.99，且可 Add to Cart / Buy It Now。",
       "sourceKind": "official_sale",
       "confidence": "high",
       "checkedAt": "2026-07-16",
-      "note": "新上市商品目前可公開驗證的最低售價；未套用會員碼、信用卡、點數或個人化折扣，且未含國際運費、進口稅、插頭／供電與台灣保固風險；依 2026-11-04 USD/TWD 匯率換算。"
+      "note": "新上市商品目前可公開驗證的最低售價；未套用會員碼、信用卡、點數或個人化折扣，且未含國際運費、進口稅、插頭／供電與台灣保固風險；依 2026-11-05 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "no_common_issue",

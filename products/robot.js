@@ -596,10 +596,10 @@
     "name": "無限續航滾筒洗地機器人上下水款",
     "price": {
       "currency": "TWD",
-      "amount": 24700,
-      "converted": 24700,
-      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
-      "note": "2026-11-04 晚間原生Chrome覆核：DEEBOT X11 PRO 上下水款主商品公開顯示NT$24700，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。",
+      "amount": 25999,
+      "converted": 25999,
+      "confidence": "2026-11-05 人工核對同型號原SKU公開預購報價，非現貨。",
+      "note": "2026-11-05 人工覆核：Yahoo同型號主商品公開價25999元，主區立即購買／加入購物車可見。原頁標示預購，出貨時間依原頁／通路確認，不當現貨。 不扣個人化折價券、點數、信用卡回饋或贈品價值。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900JRDAS/000001_1771917633.jpg",
@@ -1380,8 +1380,8 @@
     "price": {
       "currency": "EUR",
       "amount": 999,
-      "converted": 36643,
-      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-04 匯率換算",
+      "converted": 36848,
+      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-05 匯率換算",
       "note": "2026-11-04 下午覆核：原生Narwal德國URL variant52366680523028選中Schwarz Basisstation及Standardpaket；主價999EUR、劃線1299EUR，In den Warenkorb可用、2–5Tage Lieferzeit。與上午所選缺貨不同，仍未保證台灣寄送。未含國際運費、進口稅、電壓/插頭與台灣保固風險。",
       "basis": "retailer_current"
     },
@@ -1478,8 +1478,8 @@
     "price": {
       "currency": "USD",
       "amount": 551.69,
-      "converted": 18079,
-      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-11-04 匯率換算"
+      "converted": 18109,
+      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-11-05 匯率換算"
     },
     "image": "https://img.gkbcdn.com/p/2025-04-11/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438-0._w315_.jpg",
     "buyUrl": "https://www.geekbuying.com/item/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438.html",
@@ -2638,8 +2638,8 @@
     "price": {
       "currency": "USD",
       "amount": 549.99,
-      "converted": 18024,
-      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-04 匯率換算",
+      "converted": 18053,
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-05 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-04 Shark美國所選黑色RV2820ZE當日原variationAPI549.99USD，available/readyToOrder均true、inStockDate為2026-11-26，交期待確認；不混白色缺貨SKU，不稱即時現貨。未含國際運費、進口稅、電壓/插頭與台灣保固風險。"
     },
@@ -2836,8 +2836,8 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 13108,
-      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-11-04 匯率換算",
+      "converted": 13129,
+      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-11-05 匯率換算",
       "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。 2026-11-01 原Costco美國QXRevo頁HTTP404，現貨與現價未確認；保留USD399.99舊參考價，含海外運稅、電力與台灣保固風險，不能推定原廠整型停產。"
     },
     "image": "https://cdn.cs.1worldsync.com/syndication/mediaserverredirect/aaaa71b7b115f7d0cbeb119d8fc3ad7b/width%281200%29.jpg",
@@ -2919,10 +2919,10 @@
     "name": "Xiaomi 掃拖機器人 6 Max",
     "price": {
       "currency": "TWD",
-      "amount": 21254,
-      "converted": 21254,
-      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
-      "note": "2026-11-04 晚間原生Chrome覆核：6 Max主商品公開顯示NT$21254，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。",
+      "amount": 21911,
+      "converted": 21911,
+      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
+      "note": "2026-11-05 人工覆核：Yahoo同型號主商品公開價21911元，主區立即購買／加入購物車可見。 不扣個人化折價券、點數、信用卡回饋或贈品價值。",
       "basis": "retailer_current"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/5A801ABE6A-SP-22823743.jpg",
@@ -3233,10 +3233,10 @@
     "name": "Xiaomi 掃拖機器人 H50 Pro",
     "price": {
       "currency": "TWD",
-      "amount": 10799,
-      "converted": 10799,
-      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
-      "note": "2026-11-04 晚間原生Chrome覆核：H50 Pro主商品公開顯示NT$10799，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。",
+      "amount": 10999,
+      "converted": 10999,
+      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
+      "note": "2026-11-05 人工覆核：Yahoo同型號主商品公開價10999元，主區立即購買／加入購物車可見。 不扣個人化折價券、點數、信用卡回饋或贈品價值。",
       "basis": "retailer_current"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/DBA14833A1-SP-22450109.jpg",
@@ -3338,10 +3338,11 @@
     "name": "LEGEE-Q10 PRO 雷姬掃拖地機器人＋LuLu 洗布座",
     "price": {
       "currency": "TWD",
-      "amount": 19800,
-      "converted": 19800,
-      "confidence": "PChome 24h 2026-08-14 exact-model 新品頁公開價；建議售價 NT$29,800",
-      "basis": "retailer_current"
+      "amount": 17800,
+      "converted": 17800,
+      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0PA900IW7Y7/yt000001_1749100214.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0P-A900IW7Y7",
@@ -4507,7 +4508,7 @@
       "converted": 33888,
       "basis": "retailer_current",
       "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-04 午後人工覆核：momo選定主品號本輪公開價33888元，原生直接購買/放入購物車皆啟用。RoombaMax875Combo單件33888，預購11/5–11/9出貨、數量1、1年保固。 原頁活動期間 : 11/02 00:00~11/05 23:59（來源精度到分鐘）。 不扣個人化回饋或贈品。"
+      "note": "2026-11-05 人工覆核：momo原主品號公開限時折後價33888元，數量列可讀；實際選定規格、庫存與交期仍以下單前通路確認為準。 原頁明示：商品預計2026/11/06出貨 點點賺 我要推薦 熱門推薦 熱銷排行 購物車。 不扣個人化折價券、點數、信用卡回饋或贈品價值。"
     },
     "image": "https://irobot.tw/wp-content/uploads/2026/09/Roomba-Max-875-Combo-%E7%94%A2%E5%93%81%E5%9C%96.jpg",
     "buyUrl": "https://www.momoshop.com.tw/product/15715104",

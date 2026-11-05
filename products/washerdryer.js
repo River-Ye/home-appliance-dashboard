@@ -481,16 +481,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 18507,
+      "amount": 17577,
       "currency": "TWD",
-      "converted": 18507,
+      "converted": 17577,
       "sourceUrl": "https://tw.buy.yahoo.com/gdsale/SAMSUNG%E4%B8%89%E6%98%9F-12%E5%85%AC%E6%96%A4%E8%92%B8%E6%B4%97%E8%84%AB%E7%83%98%E6%BB%BE%E7%AD%92%E7%81%B0%E8%89%B2%E6%B4%97%E8%A1%A3%E6%A9%9F-WD12T504DBN-12045641.html",
-      "sourceTitle": "Yahoo購物中心：SAMSUNG三星 12公斤蒸洗脫烘滾筒灰色洗衣機(WD12T504DBN) | 變頻11-13KG | Yahoo購物中心",
-      "evidenceSnippet": "Yahoo購物中心於 2026-10-30 顯示同型號可信新品公開價 NT$18,507，低於既有史低 NT$19,900。",
+      "sourceTitle": "Samsung WD12T504DBN/TW 原SKU公開新品價",
+      "evidenceSnippet": "2026-11-05 人工核對公開新品價17577TWD，低於既有史低18507。Yahoo同型號主商品公開價17577元，主區立即購買／加入購物車可見。本次折價活動實際截止2026-12-31T23:59:59+08:00。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-10-30",
-      "note": "採用 Yahoo購物中心當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
+      "checkedAt": "2026-11-05",
+      "note": "同型號可信新品公開價；不含個人券、點數、信用卡回饋、二手、福利、展示、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1704,10 +1704,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/41046DB844-SP-12334280.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 34280,
-      "converted": 34280,
-      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
-      "note": "2026-11-04 晚間原生Chrome覆核：NA-V150MDH主商品公開顯示NT$34280，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。",
+      "amount": 37260,
+      "converted": 37260,
+      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
+      "note": "2026-11-05 人工覆核：Yahoo同型號主商品公開價37260元，主區立即購買／加入購物車可見。 不扣個人化折價券、點數、信用卡回饋或贈品價值。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -2019,9 +2019,11 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/c6118894bf-Gd-10375207.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 15093,
-      "converted": 15093,
-      "confidence": "momo 2026-07-18 商品頁公開價"
+      "amount": 15888,
+      "converted": 15888,
+      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-05 人工覆核：原生Chrome主品號TP00015680000982 ES-ND10DH公開15888元，數量1、直接購買啟用，含標準安裝；偏遠跨區費另計，配送需約定。 不扣個人化折價券、點數、信用卡回饋或贈品價值。"
     },
     "channel": "tw",
     "buyLabel": "momo購物",
@@ -2736,10 +2738,10 @@
     "image": "https://pstw.panasonic.com.tw/shop/Upload/Product/20260514190222S44S2J5E.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 39512,
-      "converted": 39512,
-      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
-      "note": "2026-11-04 晚間原生Chrome覆核：NA-SD10TB主商品公開顯示NT$39512，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。",
+      "amount": 39111,
+      "converted": 39111,
+      "confidence": "PChome 2026-11-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-05 PChome原SKU API公開價 39111 TWD；先前促銷金額不沿用。未扣個人券、點數或信用卡回饋；實際配送與安裝條件依通路確認。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -3064,11 +3066,11 @@
     "name": "10/7kg i-DOS 智慧聯網洗脫烘",
     "price": {
       "currency": "TWD",
-      "amount": 46000,
-      "converted": 46000,
-      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
+      "amount": 50000,
+      "converted": 50000,
+      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-04 晚間原生Chrome覆核：WNC554A0TC主商品公開顯示NT$46000，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。"
+      "note": "2026-11-05 人工覆核：Yahoo同型號主商品公開價50000元，主區立即購買／加入購物車可見。 不扣個人化折價券、點數、信用卡回饋或贈品價值。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DPAID7A900IHEVX/000001_1776657918.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/BOSCH%E5%8D%9A%E4%B8%96-10-7%E5%85%AC%E6%96%A4%E9%AB%98%E6%95%88%E6%99%BA%E6%85%A7%E6%BB%BE%E7%AD%92%E6%B4%97%E8%84%AB%E7%83%98-%E5%90%AB%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-220V%E6%8B%89%E9%9B%BB-WNC554A0TC-11546320.html",
@@ -3247,11 +3249,11 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 64201,
-      "converted": 64201,
+      "amount": 67860,
+      "converted": 67860,
       "basis": "retailer_current",
-      "confidence": "2026-11-04 人工核對原頁主商品售價、版本與購買狀態。",
-      "note": "2026-11-04 晚間覆核：NA-LX128EL左開式；定價$73,900；網路限定價$64,201；原廠登錄送3000元/無實體贈品；網路限定價直接展示，不扣登錄送3000、付款回饋、分期或會員額外優惠。"
+      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
+      "note": "2026-11-05 人工覆核：原生Chrome myfone P0000203745173左開NA-LX128EL主區網路限定67860、定價73900、數量1、放入購物車啟用；含基本安裝舊機回收。原廠登錄3000不扣，未重現昨日64201或自行推算結帳價。 不扣個人化折價券、點數、信用卡回饋或贈品價值。"
     },
     "installation": {
       "status": "included_basic",

@@ -884,7 +884,8 @@
       "currency": "TWD",
       "amount": 38900,
       "converted": 38900,
-      "confidence": "可信通路查核價"
+      "confidence": "可信通路查核價",
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBV09A900IUC3Q/000001_1754552553.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBV09-A900IUC3Q",
@@ -1077,10 +1078,11 @@
     "name": "Kangaroo Pro 人體工學椅",
     "price": {
       "currency": "TWD",
-      "amount": 7990,
-      "converted": 7990,
-      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
-      "note": "Chrome原頁主商品Kangaroo Pro／Kangaroo Pro 人體工學椅可核對，公開主區網路價7990元，購買按鈕可用；「下單再折」或其他結帳優惠另計，不以API較低數字替代主價。"
+      "amount": 7590,
+      "converted": 7590,
+      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ0AA900IGLW6/000001_1759990112.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ0A-A900IGLW6",

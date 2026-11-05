@@ -425,9 +425,11 @@
     "image": "https://img.yec.tw/cl/api/res/1.2/PzojK6OzaumcZWkHDQO.hg--/YXBwaWQ9eXR3bWFsbDtoPTYwMDtxPTEwMDt3PTYwMA--/https://img.yec.tw/fy/5c46/item/p0214264895249-item-61b0xf4x1000x1000-m.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 37636,
-      "converted": 37636,
-      "confidence": "momo 2026-07-18 商品頁公開價"
+      "amount": 38800,
+      "converted": 38800,
+      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-05 人工覆核：原生Chrome主品號TP00015680001715 8TWGD8620HW公開38800元，主購買按鈕啟用、含標準安裝；預計2026/11/06出貨，非保證到貨。 不扣個人化折價券、點數、信用卡回饋或贈品價值。"
     },
     "channel": "tw",
     "buyLabel": "momo購物",
@@ -1649,10 +1651,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/C0FA586EC4-SP-18495887.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 7591,
-      "converted": 7591,
-      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
-      "note": "2026-11-04 晚間原生Chrome覆核：HDM-0841主商品公開顯示NT$7591，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。",
+      "amount": 7990,
+      "converted": 7990,
+      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
+      "note": "2026-11-05 人工覆核：Yahoo同型號主商品公開價7990元，主區立即購買／加入購物車可見。 不扣個人化折價券、點數、信用卡回饋或贈品價值。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -1956,10 +1958,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/254DF81A1E-SP-20893325.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 45908,
-      "converted": 45908,
-      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
-      "note": "2026-11-04 晚間原生Chrome覆核：WQB245A0TC主商品公開顯示NT$45908，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。",
+      "amount": 49900,
+      "converted": 49900,
+      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
+      "note": "2026-11-05 人工覆核：Yahoo同型號主商品公開價49900元，主區立即購買／加入購物車可見。 不扣個人化折價券、點數、信用卡回饋或贈品價值。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -2379,7 +2381,7 @@
       "converted": 41111,
       "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
       "basis": "retailer_current",
-      "note": "Chrome原頁主商品WR-20DW／20kg AI Heat Pump 免曬衣乾衣機可核對，公開主區售價41111元，購買按鈕可用；不扣個人券、信用卡、點數或贈品。"
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DPAI1LA900HQ772/000001_1762826049.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900HQ772",
@@ -2666,11 +2668,11 @@
     "topPick": false,
     "price": {
       "currency": "TWD",
-      "amount": 24605,
-      "converted": 24605,
+      "amount": 25900,
+      "converted": 25900,
       "basis": "retailer_current",
-      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
-      "note": "2026-11-04 晚間原生Chrome覆核：ASD-100UA主商品公開顯示NT$24605，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。"
+      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
+      "note": "2026-11-05 人工覆核：Yahoo同型號主商品公開價25900元，主區立即購買／加入購物車可見。 不扣個人化折價券、點數、信用卡回饋或贈品價值。"
     },
     "installation": {
       "status": "included_basic",
@@ -2796,7 +2798,7 @@
       "converted": 26111,
       "basis": "retailer_current",
       "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-02 人工核對PChome原主商品與API：SHARP夏普 10公斤熱泵式滾筒乾衣機KD-FKH10DT；Price.P=26111元、Qty=20，商品ID/原頁主價一致，可訂購；不扣個人券、點數或信用卡回饋。實際配送安裝以通路確認。"
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
     },
     "installation": {
       "status": "included_basic",

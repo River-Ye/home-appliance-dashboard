@@ -1620,10 +1620,11 @@
     "name": "35吋 20KG 雙臂氣壓式螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 5990,
-      "converted": 5990,
-      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
-      "note": "Chrome原頁主商品BDH01／35吋 20KG 雙臂氣壓式螢幕支架可核對，公開主區網路價5990元，購買按鈕可用；「下單再折」或其他結帳優惠另計，不以API較低數字替代主價。"
+      "amount": 4791,
+      "converted": 4791,
+      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGU1A900IX2MD/000001_1749518938.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAGU1-A900IX2MD",
@@ -1656,16 +1657,16 @@
     "releaseDate": "2025-12-24",
     "historicalLow": {
       "status": "found",
-      "amount": 5390,
+      "amount": 4791,
       "currency": "TWD",
-      "converted": 5390,
+      "converted": 4791,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DCAGU1-A900IX2MD",
-      "sourceTitle": "PChome 24h 購物：35吋 20KG 雙臂氣壓式螢幕支架",
-      "evidenceSnippet": "PChome 商品 API 於 2026-07-13 回傳同型號可信新品查核價 NT$5,390，低於原先記錄史低。",
+      "sourceTitle": "BenQ BDH01 原SKU公開新品價",
+      "evidenceSnippet": "2026-11-05 人工核對公開新品價4791TWD，低於既有史低5390。BenQ BDH01雙臂35吋20kg型號明列。 今日原SKU API Name/Nick：BENQ 氣壓式 35吋 20KG BDH01螢幕支架雙臂款 螢幕架 螢幕伸縮支架 BENQ 氣壓式 35吋 20KG BDH01螢幕支架雙臂款 螢幕架 螢幕伸縮支架",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-13",
-      "note": "採用 PChome 當日可購商品 API 的同型號新品價格；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
+      "checkedAt": "2026-11-05",
+      "note": "同型號可信新品公開價；不含個人券、點數、信用卡回饋、二手、福利、展示、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2154,14 +2155,14 @@
       "status": "found",
       "amount": 282,
       "currency": "GBP",
-      "converted": 12398,
+      "converted": 12470,
       "sourceUrl": "https://pricespy.co.uk/product.php?p=16273588",
       "sourceTitle": "PriceSpy UK：Dell HDA26 Single Monitor Arm",
       "evidenceSnippet": "PriceSpy exact-model 頁的 Price History 明示新品最低價 £282，且商品名稱、品牌與 GTIN 對應 Dell HDA26。",
       "sourceKind": "price_history",
       "confidence": "medium",
       "checkedAt": "2026-08-25",
-      "note": "採英國市場 exact-model 公開價格歷史並依 2026-11-04 GBP/TWD 匯率換算；未含國際運費、進口稅、退換貨與台灣保固風險，不能直接視為台灣到手價。"
+      "note": "採英國市場 exact-model 公開價格歷史並依 2026-11-05 GBP/TWD 匯率換算；未含國際運費、進口稅、退換貨與台灣保固風險，不能直接視為台灣到手價。"
     },
     "issueResearch": {
       "status": "no_common_issue",

@@ -17,7 +17,8 @@
       "currency": "TWD",
       "amount": 2890,
       "converted": 2890,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "confidence": "PChome 2026-07-11 API 查核價",
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -838,7 +839,8 @@
       "currency": "TWD",
       "amount": 2480,
       "converted": 2480,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "confidence": "PChome 2026-07-11 API 查核價",
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1249,7 +1251,7 @@
       "amount": 1439,
       "converted": 1439,
       "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
-      "note": "Chrome原頁主商品Ice Force 三件組／Tefal Ice Force 三件組可核對，公開主區售價1439元，購買按鈕可用；不扣個人券、信用卡、點數或贈品。"
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1351,7 +1353,7 @@
       "amount": 3453,
       "converted": 3453,
       "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
-      "note": "Chrome原頁主商品Gourmet 三件組／Wusthof Gourmet 三件組可核對，公開主區售價3453元，購買按鈕可用；不扣個人券、信用卡、點數或贈品。"
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "PChome",

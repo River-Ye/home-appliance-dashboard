@@ -413,7 +413,8 @@
       "currency": "TWD",
       "amount": 23900,
       "converted": 23900,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "confidence": "PChome 2026-07-11 API 查核價",
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAL6WA900JNQF2/000001_1783412715.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAL6W-A900JNQF2",
@@ -608,7 +609,8 @@
       "currency": "TWD",
       "amount": 17900,
       "converted": 17900,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "confidence": "PChome 2026-07-11 API 查核價",
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAL6WA900JVX5O/000001_1775638184.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAL6W-A900JVX5O",
@@ -705,7 +707,8 @@
       "currency": "TWD",
       "amount": 11900,
       "converted": 11900,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "confidence": "PChome 2026-07-11 API 查核價",
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAL6WA900JW0LW/000001_1775705407.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAL6W-A900JW0LW",
@@ -802,7 +805,8 @@
       "currency": "TWD",
       "amount": 34900,
       "converted": 34900,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "confidence": "PChome 2026-07-11 API 查核價",
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAL6IA900JEKAD/000001_1783410655.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAL6I-A900JEKAD",
@@ -1387,7 +1391,8 @@
       "currency": "TWD",
       "amount": 7088,
       "converted": 7088,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "confidence": "PChome 2026-07-11 API 查核價",
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0MA900G29JM/000001_1676948545.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM0M-A900G29JM",
@@ -1871,8 +1876,8 @@
     "price": {
       "currency": "USD",
       "amount": 479.99,
-      "converted": 15730,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-04 匯率換算",
+      "converted": 15755,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-05 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-01 Brondell美國官方新品CL1700主商品Current Price USD479.99，主商品BCData為instock:true/purchasable:true；未由首頁20%banner推定此SKU另享折扣，排除Open-Box299.99。 海外參考；未含國際運費、進口稅、電壓／插頭與台灣保固風險。"
     },
@@ -1911,14 +1916,14 @@
       "status": "found",
       "amount": 383.99,
       "currency": "USD",
-      "converted": 12584,
+      "converted": 12604,
       "sourceUrl": "https://www.brondell.com/swash-cl1700-advanced-bidet-seat/",
       "sourceTitle": "Brondell US：Swash CL1700 Advanced Bidet Seat",
       "evidenceSnippet": "Brondell US 官方 exact-model 頁於 2026-08-28 顯示 Swash CL1700 sale price US$383.99。",
       "sourceKind": "official_sale",
       "confidence": "medium",
       "checkedAt": "2026-08-28",
-      "note": "採品牌官方公開特價作為本次可重現最低觀測價；同頁 US$299.99 為 Open-Box 開箱品，依規則排除。未含國際運費、進口稅、美規 elongated 尺寸、120V 插座與台灣保固風險；依 2026-11-04 USD/TWD 匯率換算。"
+      "note": "採品牌官方公開特價作為本次可重現最低觀測價；同頁 US$299.99 為 Open-Box 開箱品，依規則排除。未含國際運費、進口稅、美規 elongated 尺寸、120V 插座與台灣保固風險；依 2026-11-05 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "no_common_issue",

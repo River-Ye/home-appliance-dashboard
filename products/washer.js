@@ -546,7 +546,7 @@
       "converted": 17512,
       "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
       "basis": "retailer_current",
-      "note": "Chrome原頁主商品NA-V130LB-L／Panasonic NA-V130LB-L可核對，公開主區售價17512元，購買按鈕可用；不扣個人券、信用卡、點數或贈品。"
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "PChome 24h 購物",
@@ -2637,7 +2637,7 @@
       "converted": 18911,
       "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
       "basis": "retailer_current",
-      "note": "Chrome原頁主商品AW-T26D1600XTA(MG)／15kg DDM 變頻直立式洗衣機可核對，公開主區售價18911元，購買按鈕可用；不扣個人券、信用卡、點數或贈品。"
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DPAI1GA900K9EPD/000001_1785143567.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1G-A900K9EPD",

@@ -418,10 +418,10 @@
 ## 價格與匯率
 
 <!-- catalog-maintenance-summary:start -->
-- 2026-11-05 00:25（台灣時間）完成 1258 筆商品、37 類價格與來源全量查核；533 筆 PChome SKU API 已完成（273 筆 exact model、134 筆人工 SKU 綁定可寫入，1 筆型號未自動確認），更新 125 筆公開價格（105 筆下修、20 筆上修），125 筆缺貨／預購保留狀態提醒。
-- 本次增量新增 coffee-lelit-marax3-pl62x3、cookware-sambonet-titan-pro-green-51094-28、dishwasher-panasonic-np-bxw1m6-1h、dishwasher-panasonic-np-tmb1k5-1h、dishwasher-sakura-e7683、keyboard-keychron-k3-ultra-silent-red、monitor-aoc-cu34g4h-96、monitor-asus-xg32uqwms、monitor-dell-u3226q、monitor-samsung-ls32h704eacxzw、mouse-razer-basilisk-v3-35k、robot-tplink-tapo-rv50-pro-omni、smartlock-fibre-fb70k、smartlock-philips-ddl902-mfvp、standingdesk-cougar-e-odyssey-150、tv-tcl-65a400-pro、tv-toshiba-65m450rp、tv-toshiba-75m450rp、tv-toshiba-75z770st、tv-toshiba-75zxsp、waterdispenser-brita-mypure-gr1000-uvc、waterdispenser-sakura-p0533、waterheater-sakura-eh0810m6；本次增量沒有移除停產產品；品質替換 coffee-jura-ena-4-15344 → coffee-jura-e6-15465、monitorarm-extra-19-dcbb62a900fv397 → monitorarm-ergograde-egtc743q、soundbar-extra-15-dmaanj-a900hzbzv → soundbar-bose-smart-soundbar、vacuum-extra-12-dmax6f-a900k2nsv → vacuum-lg-a7-litemop。已逐類覆核取得的新品來源；尚未確認的逐型號後繼對照與來源限制詳見 categoryScan，所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
-- 圖片查核覆蓋 1258 筆；970 筆來源可由 exact model 或人工 SKU 綁定確認，288 筆來源例外與 0 筆圖片例外保留原資料。史低為 509 筆 `found`、749 筆 `not_found`，本輪下修 4 筆；102 筆來源可重現，其餘保留原逐筆證據且未臆測失效。
-- ExchangeRate-API 最新批次為 2026-11-04 00:02 UTC，USD/TWD 32.770816；39 筆外幣商品已重算。完整摘要與例外保存在 `catalog_maintenance_latest.json`。
+- 2026-11-05 09:36（台灣時間）完成 1258 筆商品、37 類價格與來源全量查核；541 筆 PChome SKU API 已完成（327 筆 exact model、62 筆人工 SKU 綁定可寫入，25 筆型號未自動確認），更新 98 筆公開價格（33 筆下修、65 筆上修），33 筆缺貨／預購保留狀態提醒。
+- 本次增量沒有納入新產品；本次增量沒有移除停產產品。已逐類覆核取得的新品來源；尚未確認的逐型號後繼對照與來源限制詳見 categoryScan，所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
+- 圖片查核覆蓋 1258 筆；797 筆來源可由 exact model 或人工 SKU 綁定確認，461 筆來源例外與 0 筆圖片例外保留原資料。史低為 509 筆 `found`、749 筆 `not_found`，本輪下修 6 筆、其他更正 5 筆；90 筆來源可重現，其餘保留原逐筆證據且未臆測失效。
+- ExchangeRate-API 最新批次為 2026-11-05 00:02 UTC，USD/TWD 32.824108；39 筆外幣商品已重算。完整摘要與例外保存在 `catalog_maintenance_latest.json`。
 <!-- catalog-maintenance-summary:end -->
 
 ## 驗證清單

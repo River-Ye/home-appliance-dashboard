@@ -404,8 +404,8 @@
     "price": {
       "currency": "USD",
       "amount": 99.98,
-      "converted": 3276,
-      "confidence": "2026-08-31 人工核對 SharkNinja 官方 BN701 公開可購主價 USD 99.98；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-11-04 匯率換算",
+      "converted": 3282,
+      "confidence": "2026-08-31 人工核對 SharkNinja 官方 BN701 公開可購主價 USD 99.98；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-11-05 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-04 午後人工覆核：原BN701官方購買網址本輪原生仍轉址IQ701SL TotalCrush 2-in-1，標題與主商品Model明示IQ701SL，USD129.99/原169.99屬IQ701SL而非BN701。保留BN701舊99.98美元參考、現售待確認；不由轉址推定原廠停產。海外未含國際運費、進口稅、電壓/插頭與台灣保固風險。"
     },
@@ -594,7 +594,7 @@
       "converted": 23375,
       "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-04 momo622427選定VITA PREP3，native主價23375、折前27500；新11/03–11/30滿1件85折、qty1–7、預計11/05出貨、1年保固，未延用過期24750。"
+      "note": "2026-11-05 人工覆核：momo原主品號公開限時折後價23375元，數量列可讀；實際選定規格、庫存與交期仍以下單前通路確認為準。 原頁明示：商品預計2026/11/06出貨 點點賺 我要推薦 熱門推薦 熱銷排行 購物車。 不扣個人化折價券、點數、信用卡回饋或贈品價值。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY9TA900G068X/000001_1782790517.jpg",
     "buyUrl": "https://www.momoshop.com.tw/product/622427",
@@ -990,7 +990,7 @@
       "amount": 28200,
       "converted": 28200,
       "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
-      "note": "Chrome原頁主商品Connoisseur 825／CONNOISSEUR 825 SpaceSaver 數位全能調理機可核對，公開主區售價28200元，購買按鈕可用；不扣個人券、信用卡、點數或贈品。"
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/QBAO0GA900A6DWK/000001_1782719457.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/QBAO0G-A900A6DWK",
@@ -1084,9 +1084,11 @@
     "name": "Designer 650 高效能食物調理機寶石紅",
     "price": {
       "currency": "TWD",
-      "amount": 26800,
-      "converted": 26800,
-      "confidence": "PChome 2026-07-21 API 公開價"
+      "amount": 22780,
+      "converted": 22780,
+      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAYBBA900K6VSY/000001_1783390508.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAYBB-A900K6VSY",
@@ -1665,9 +1667,11 @@
     "name": "超高速全營養調理機",
     "price": {
       "currency": "TWD",
-      "amount": 12900,
-      "converted": 12900,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 11739,
+      "converted": 11739,
+      "confidence": "PChome 2026-11-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "basis": "retailer_current",
+      "note": "2026-11-05 PChome原SKU API公開價 11739 TWD；先前促銷金額不沿用。未扣個人券、點數或信用卡回饋；實際配送與安裝條件依通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAYDLA900IH6GZ/000001_1782875037.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAYDL-A900IH6GZ",

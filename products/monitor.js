@@ -304,9 +304,11 @@
     "name": "27 型 2K 200Hz IPS Odyssey G5",
     "price": {
       "currency": "TWD",
-      "amount": 4990,
-      "converted": 4990,
-      "confidence": "PChome 2026-07-14 API 查核價"
+      "amount": 4740,
+      "converted": 4740,
+      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABONA900JZ7RG/000001_1777952241.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABON-A900JCGXY",
@@ -2694,10 +2696,10 @@
     "name": "27 型 QHD 260Hz IPS 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 4988,
-      "converted": 4988,
-      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
-      "note": "2026-11-04 晚間原生Chrome覆核：27M2N3500PF主商品公開顯示NT$4988，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。",
+      "amount": 4738,
+      "converted": 4738,
+      "confidence": "PChome 2026-11-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-05 PChome原SKU API公開價 4738 TWD；先前促銷金額不沿用。未扣個人券、點數或信用卡回饋；實際配送與安裝條件依通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABQIA900J82S0/000001_1757486726.jpg",
@@ -2734,16 +2736,16 @@
     "releaseDate": "2025-11",
     "historicalLow": {
       "status": "found",
-      "amount": 4833,
+      "amount": 4738,
       "currency": "TWD",
-      "converted": 4833,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1269024144&cgp=5088",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Philips 飛利浦】27M2N3500PF 27型 IPS QHD 16:9 260Hz電競螢幕(0.3ms/G-SYNC/HDMI)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Philips 飛利浦】27M2N3500PF 27型 IPS QHD 16:9 260Hz電競螢幕(0.3ms/G-SYNC/HDMI)」最低價為 NT$4,833，最低點日期 2026-05-13。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 4738,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DSABQI-A900J82S0",
+      "sourceTitle": "PChome 24h 購物：PHILIPS 27M2N3500PF 電競螢幕(27型/QHD/260Hz/0.3ms/IPS/HDMI)",
+      "evidenceSnippet": "PChome 24h 購物於 2026-11-05 顯示同型號可信新品公開價 NT$4,738，低於既有史低 NT$4,833。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-11-05",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -3580,12 +3582,12 @@
       "amount": 26888,
       "converted": 26888,
       "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-04 晚間Chrome主商品ROG Strix XG34WCDMS顯示26888元，按鈕為「有貨通知我」；保留既有參考價，不採API25543、未自行計算95折，不據缺貨推停產。",
+      "note": "2026-11-05 Chrome原頁主價26,888元，按鈕為「有貨通知我」；保留先前參考價。未採API或自行推算95折價，不據缺貨推停產。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABKBA900K0YA0/000001_1779246107.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABKB-A900K0YA0",
-    "buyLabel": "PChome 缺貨／有貨通知",
+    "buyLabel": "PChome 原頁缺貨／保留參考價",
     "specs": [
       "34 吋",
       "3440x1440",
@@ -3983,11 +3985,11 @@
     "name": "49 型 Odyssey OLED G9 Dual QHD 240Hz 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 34880,
-      "converted": 34880,
-      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
+      "amount": 36900,
+      "converted": 36900,
+      "confidence": "PChome 2026-11-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-04 晚間原生Chrome覆核：S49DG932SCXZW主商品公開顯示NT$34880，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。"
+      "note": "2026-11-05 PChome原SKU API公開價 36900 TWD；先前促銷金額不沿用。未扣個人券、點數或信用卡回饋；實際配送與安裝條件依通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900HZCPE/000001_1781766568.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900HZCPE",
@@ -4285,11 +4287,11 @@
     "name": "57 型 Odyssey Neo G9 Dual UHD 240Hz Mini LED 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 63990,
-      "converted": 63990,
-      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
+      "amount": 69900,
+      "converted": 69900,
+      "confidence": "PChome 2026-11-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-04 晚間原生Chrome覆核：S57CG952NC主商品公開顯示NT$63990，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。"
+      "note": "2026-11-05 PChome原SKU API公開價 69900 TWD；先前促銷金額不沿用。未扣個人券、點數或信用卡回饋；實際配送與安裝條件依通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900GQLSE/000001_1783054239.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900GQLSE",
@@ -6599,11 +6601,11 @@
     "name": "31.5 吋 4K Nano Matte 程式設計護眼螢幕（含 MoonHalo）",
     "price": {
       "currency": "TWD",
-      "amount": 18894,
-      "converted": 18894,
+      "amount": 19888,
+      "converted": 19888,
       "basis": "retailer_current",
-      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
-      "note": "2026-11-04 晚間原生Chrome覆核：RD320U主商品公開顯示NT$18894，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。"
+      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
+      "note": "2026-11-05 人工覆核：Yahoo同型號主商品公開價19888元，主區立即購買／加入購物車可見。 不扣個人化折價券、點數、信用卡回饋或贈品價值。"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/A547B09451-SP-17883815.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=11255959",

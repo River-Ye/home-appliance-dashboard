@@ -949,11 +949,11 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR0YA900FMAWF/000001_1692315551.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 22145,
-      "converted": 22145,
-      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
+      "amount": 23310,
+      "converted": 23310,
+      "confidence": "PChome 2026-11-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-04 晚間原生Chrome覆核：E-7682主商品公開顯示NT$22145，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。"
+      "note": "2026-11-05 PChome原SKU API公開價 23310 TWD；先前促銷金額不沿用。未扣個人券、點數或信用卡回饋；實際配送與安裝條件依通路確認。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1878,7 +1878,8 @@
       "currency": "TWD",
       "amount": 14990,
       "converted": 14990,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "confidence": "PChome 2026-07-11 API 查核價",
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR0PA900IAMAC/000001_1770171922.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR0P-A900IAMAC",
@@ -1973,10 +1974,10 @@
     "name": "桌上型洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 12349,
-      "converted": 12349,
-      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
-      "note": "2026-11-04 晚間原生Chrome覆核：桌上型洗碗機主商品公開顯示NT$12349，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。",
+      "amount": 12999,
+      "converted": 12999,
+      "confidence": "PChome 2026-11-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-05 PChome原SKU API公開價 12999 TWD；先前促銷金額不沿用。未扣個人券、點數或信用卡回饋；實際配送與安裝條件依通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR24A900JFSR7/000001_1762761618.jpg",
@@ -3213,11 +3214,11 @@
     "topPick": false,
     "price": {
       "currency": "TWD",
-      "amount": 80550,
-      "converted": 80550,
+      "amount": 73900,
+      "converted": 73900,
       "basis": "retailer_current",
-      "confidence": "2026-10-29 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
-      "note": "2026-11-04 PChome選定原SKU DMBR13-A900KIVV7-000本輪晚段重新請求，原主頁與exactID API一致公開價80550元、Qty=10，早段折扣已不重現；未扣券/點數/信用卡。"
+      "confidence": "PChome 2026-11-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-05 PChome原SKU API公開價 73900 TWD；先前促銷金額不沿用。未扣個人券、點數或信用卡回饋；實際配送與安裝條件依通路確認。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMBR13A900KIVV7/000001_1790912458.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR13-A900KIVV7",
@@ -3724,7 +3725,7 @@
     "converted": 28350,
     "basis": "retailer_current",
     "confidence": "2026-11-04原始PChome exact商品主購區SSR顯示28350／31000，主button product_button_addToCart無disabled，無熱銷一空；不是schema價或推薦卡。",
-    "note": "公開新品主價，不扣個人券、信用卡/點數/贈品。以原頁主購區實際HTTP內容查核，未操作購物車；主按鈕存在不承諾即時庫存或交期，安裝配送依通路聯繫。"
+    "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
   },
   "channel": "tw",
   "buyLabel": "PChome 24h購物",

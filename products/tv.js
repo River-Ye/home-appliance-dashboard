@@ -727,9 +727,11 @@
     "name": "65 型 4K 120Hz 量子點護眼 Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 26900,
-      "converted": 26900,
-      "confidence": "2026-10-26 人工覆核同型號同版本來源與銷售狀態；價格適用條件及保留舊參考價的原因見註記與維護報告。"
+      "amount": 25017,
+      "converted": 25017,
+      "confidence": "PChome 2026-11-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "basis": "retailer_current",
+      "note": "2026-11-05 PChome原SKU API公開價 25017 TWD；先前促銷金額不沿用。未扣個人券、點數或信用卡回饋；實際配送與安裝條件依通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD0O1900IEK5W/000001_1761401167.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAD0O-1900IEK5W",
@@ -826,10 +828,10 @@
     "name": "BRAVIA 8 65 型 XR OLED 4K HDR Google TV 顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 84510,
-      "converted": 84510,
-      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
-      "note": "2026-11-04 晚間原生Chrome覆核：Y-65XR80主商品公開顯示NT$84510，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。",
+      "amount": 93900,
+      "converted": 93900,
+      "confidence": "PChome 2026-11-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-05 PChome原SKU API公開價 93900 TWD；先前促銷金額不沿用。未扣個人券、點數或信用卡回饋；實際配送與安裝條件依通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD06A900HLBJO/000001_1776334113.jpg",
@@ -1027,10 +1029,11 @@
     "name": "65 型 4K 144Hz VRR OLED Google TV 顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 69900,
-      "converted": 69900,
-      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-04 晚間Chrome原頁65OLED809主價69900；11/04–11/30任選1件9折只顯示「下單再折」，未在主價重現62910，拒絕將API折扣或自行計算金額當主價。"
+      "amount": 62910,
+      "converted": 62910,
+      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
+      "note": "2026-11-05 Chrome原頁主區已顯示折扣價NT$62,910（網路價69,900），雙11任1件9折至11/30，加入購物車可用；未扣個人券或回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADIKA900HJGF2/000001_1782900149.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADIK-A900HJGF2",
@@ -1066,16 +1069,16 @@
     "releaseDate": "2024-05",
     "historicalLow": {
       "status": "found",
-      "amount": 69900,
+      "amount": 62910,
       "currency": "TWD",
-      "converted": 69900,
+      "converted": 62910,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DPADIK-A900HJGF2",
-      "sourceTitle": "PChome 24h 購物：Philips 飛利浦 65型4K 144Hz VRR OLED Google TV智慧聯網顯示器(65OLED809)",
-      "evidenceSnippet": "PChome 24h 購物於 2026-09-02 顯示同型號可信新品公開價 NT$69,900，低於既有史低 NT$74,900。",
+      "sourceTitle": "Philips 65OLED809 原SKU公開新品價",
+      "evidenceSnippet": "2026-11-05 人工核對公開新品價62910TWD，低於既有史低69900。Chrome原頁商品編號DPADIK-A900HJGF2，主商品65OLED809；商品價格明列折扣價62910、網路價69900，加入購物車可用；雙11任1件9折期間11/04–11/30。今日已實際顯示折扣價，非自行乘9折。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-09-02",
-      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
+      "checkedAt": "2026-11-05",
+      "note": "同型號可信新品公開價；不含個人券、點數、信用卡回饋、二手、福利、展示、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",

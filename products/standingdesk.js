@@ -17,11 +17,11 @@
     "name": "智慧記憶電動升降桌 120x60",
     "price": {
       "currency": "TWD",
-      "amount": 7649,
-      "converted": 7649,
-      "confidence": "2026-11-04 Chrome人工核對exact型號／選定版本主區公開折後價及可購CTA。",
+      "amount": 7569,
+      "converted": 7569,
+      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-04 momo12281947的F2 120×60cm選白色桌架+原木色桌板，公開單件9折主區7649元（促銷8499），11/04–11/11；CTA可用，送貨時間由專人聯絡，未含加購抽屜。"
+      "note": "2026-11-05 人工覆核：原生Chrome選定白桌架＋原木桌板F2 120x60，主價7569元、數量1、直接購買／放入購物車啟用；11/04–11/11滿1件9折已反映於主價，交期需專人約定。 不扣個人化折價券、點數、信用卡回饋或贈品價值。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBC1TA900HSZZ8/000001_1738574919.jpg",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=12281947",
@@ -807,10 +807,11 @@
     "name": "電動升降桌 UP006 1460WH/WH",
     "price": {
       "currency": "TWD",
-      "amount": 9379,
-      "converted": 9379,
-      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
-      "note": "Chrome原頁主商品UP006 1460／電動升降桌 UP006 1460WH/WH可核對，公開主區售價9379元，購買按鈕可用；不扣個人券、信用卡、點數或贈品。"
+      "amount": 8541,
+      "converted": 8541,
+      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DQCI0AA900K15T1/000001_1779269416.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQCI0A-A900K15T1",
@@ -1204,7 +1205,7 @@
       "amount": 13491,
       "converted": 13491,
       "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
-      "note": "Chrome原頁主商品LUMI 白色／LUMI 落地型鋼化玻璃電動升降桌 白色可核對，公開主區售價13491元，購買按鈕可用；不扣個人券、信用卡、點數或贈品。"
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQCBEMA900GJUOI/000001_1691116279.png",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQCBEM-A900GJUOI",
@@ -2716,7 +2717,7 @@
       "converted": 19990,
       "basis": "retailer_current",
       "confidence": "2026-11-04 Chrome人工核對PChome主商品公開網路價19990、建議23990與購買CTA；API正庫存。",
-      "note": "PChome DCBB6O-A900I85QU公開Price.P=19990、Qty=3，非會員券或卡回饋；標準宅配與上樓組裝費另依頁面。交期與庫存以原頁為準。"
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
     },
     "installation": {
       "status": "excluded",

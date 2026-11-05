@@ -415,8 +415,8 @@
     "price": {
       "currency": "USD",
       "amount": 499.95,
-      "converted": 16384,
-      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-11-04 匯率換算"
+      "converted": 16410,
+      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-11-05 匯率換算"
     },
     "image": "https://assets.breville.com/cdn-cgi/image/width=1300,format=auto/BOV950/BOV950BSS1BUS1/pdp3.png?pdp=",
     "buyUrl": "https://www.breville.com/en-us/product/bov950",
@@ -913,10 +913,10 @@
     "name": "20L 多功能蒸氣氣炸烤箱",
     "price": {
       "currency": "TWD",
-      "amount": 9499,
-      "converted": 9499,
-      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
-      "note": "2026-11-04 晚間原生Chrome覆核：CSO-500TW主商品公開顯示NT$9499，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。",
+      "amount": 9999,
+      "converted": 9999,
+      "confidence": "PChome 2026-11-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-05 PChome原SKU API公開價 9999 TWD；先前促銷金額不沿用。未扣個人券、點數或信用卡回饋；實際配送與安裝條件依通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900HF91A/000001_1768545220.jpg",
@@ -1906,11 +1906,11 @@
     "name": "蒸烘烤變頻微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 41724,
-      "converted": 41724,
-      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
+      "amount": 43920,
+      "converted": 43920,
+      "confidence": "PChome 2026-11-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-04 晚間原生Chrome覆核：VE8966主商品公開顯示NT$41724，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。"
+      "note": "2026-11-05 PChome原SKU API公開價 43920 TWD；先前促銷金額不沿用。未扣個人券、點數或信用卡回饋；實際配送與安裝條件依通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900H5125/000001_1783054719.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM0G-A900H5125",
@@ -2308,10 +2308,10 @@
     "price": {
       "currency": "USD",
       "amount": 449.99,
-      "converted": 14747,
-      "confidence": "2026-11-04 Chrome人工核對原商品主價、所選版本及購買／預購CTA；依當日匯率換算TWD。",
+      "converted": 14771,
+      "confidence": "2026-11-04 Chrome人工核對原商品主價、所選版本及購買／預購CTA；依當日匯率換算TWD。；ExchangeRate-API 2026-11-05 匯率換算",
       "basis": "retailer_current",
-      "note": "2026-11-04 MW101 Silver主商品價格USD449.99、數量1及Add to cart可用；未套用配件、分期或會員券。海外參考，未含國際運費、進口稅、電壓／插頭／變壓器與台灣保固風險。"
+      "note": "2026-11-05 人工覆核：原生Chrome原buyURL選定Silver MW101，主機主區449.99USD、Quantity1、主機Addtocart可見啟用，完整載入再次確認。黑色另為MW101BK1／449.99／OutofStock，未轉移。台灣配送未確認，未含國際運費、進口稅、電壓／插頭及台灣保固風險。 不扣個人化折價券、點數、信用卡回饋或贈品價值。"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/MW101_01.jpg",
     "buyUrl": "https://www.sharkninja.com/ninja-crispi-microwave/MW101.html",

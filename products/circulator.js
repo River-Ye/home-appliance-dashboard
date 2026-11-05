@@ -19,7 +19,8 @@
       "currency": "TWD",
       "amount": 4480,
       "converted": 4480,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "confidence": "PChome 2026-07-11 API 查核價",
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/QBAF31A9008YQOZ/000001_1765269816.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/QBAF31-A9008YQOZ",
@@ -197,9 +198,11 @@
     "name": "10 吋 DC 直流遙控空氣循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 4200,
-      "converted": 4200,
-      "confidence": "PChome 2026-08-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 3780,
+      "converted": 3780,
+      "confidence": "PChome 2026-11-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "basis": "retailer_current",
+      "note": "2026-11-05 PChome原SKU API公開價 3780 TWD；先前促銷金額不沿用。未扣個人券、點數或信用卡回饋；實際配送與安裝條件依通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABLYA900EV5DV/000001_1649666306.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMABLY-A900EV5DV",
@@ -232,16 +235,16 @@
     "releaseDate": "2021",
     "historicalLow": {
       "status": "found",
-      "amount": 3950,
+      "amount": 3780,
       "currency": "TWD",
-      "converted": 3950,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1257448606&cgp=4500",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【Panasonic 國際牌】Panasonic國際牌10吋循環扇電風扇F-E10HMD",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【Panasonic 國際牌】Panasonic國際牌10吋循環扇電風扇F-E10HMD」最低價為 NT$3,950，最低點日期 2025-08-08。",
-      "sourceKind": "price_history",
+      "converted": 3780,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMABLY-A900EV5DV",
+      "sourceTitle": "PChome 24h 購物：Panasonic國際牌 10吋DC直流遙控空氣循環扇 F-E10HMD",
+      "evidenceSnippet": "PChome 24h 購物於 2026-11-05 顯示同型號可信新品公開價 NT$3,780，低於既有史低 NT$3,950。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-11-05",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1240,9 +1243,11 @@
     "name": "DC 語音循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 3680,
-      "converted": 3680,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 3312,
+      "converted": 3312,
+      "confidence": "PChome 2026-11-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "basis": "retailer_current",
+      "note": "2026-11-05 PChome原SKU API公開價 3312 TWD；先前促銷金額不沿用。未扣個人券、點數或信用卡回饋；實際配送與安裝條件依通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABLXA900HI682/000001_1716457070.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMABLX-A900HI682",
@@ -1432,9 +1437,11 @@
     "name": "DC 直流雙渦輪多向循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 6400,
-      "converted": 6400,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 5760,
+      "converted": 5760,
+      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABLYA900H2H5C/000001_1782200669.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMABLY-A900H2H5C",

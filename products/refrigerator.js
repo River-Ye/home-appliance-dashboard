@@ -3293,11 +3293,11 @@
     "name": "Panasonic NR-C387HVLS-C 385L 3門霧面鋼板變頻冰箱（暖灰米／左開）",
     "price": {
       "currency": "TWD",
-      "amount": 29920,
-      "converted": 29920,
+      "amount": 30600,
+      "converted": 30600,
       "basis": "retailer_current",
-      "confidence": "2026-11-04 Chrome主頁選擇暖米灰(C)，公開限時折後價29920元，直接購買啟用。",
-      "note": "momo NR-C387HVLS-C 暖米灰(C)已選定，公開單件折後價29920元；活動標示11/04 15:37至11/05 09:00（台灣時間），折前34000元；不扣個人券、信用卡或點數，含標準安裝範圍依通路。"
+      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
+      "note": "2026-11-05 人工覆核：原生Chrome選定暖米灰(C) NR-C387HVLS-C，主價30600元、庫存1、直接購買與放入購物車可用；含標準安裝、交期需專人約定。 不扣個人化折價券、點數、信用卡回饋或贈品價值。"
     },
     "image": "https://i4.momoshop.com.tw/1792049388/goodsimg/0015/801/630/15801630_R_m.webp",
     "buyUrl": "https://www.momoshop.com.tw/product/15801630",

@@ -2012,9 +2012,9 @@
     "price": {
       "currency": "HKD",
       "amount": 9638,
-      "converted": 40257,
+      "converted": 40324,
       "basis": "retailer_current",
-      "confidence": "EasyLock 香港 2026-08-28 exact-model 公開促銷價；ExchangeRate-API 2026-11-04 匯率換算",
+      "confidence": "EasyLock 香港 2026-08-28 exact-model 公開促銷價；ExchangeRate-API 2026-11-05 匯率換算",
       "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。"
     },
     "installation": {
@@ -2290,11 +2290,11 @@
     "name": "ML660 四合一智能電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 22250,
-      "converted": 22250,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 25000,
+      "converted": 25000,
+      "confidence": "PChome 2026-11-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-03 PChome exact原SKU DECE4E-A900DXNUC，逐筆核對本輪主標題「dormakaba 四合一指紋/卡片/密碼/鑰匙_智能電子鎖(ML660)(附基本安裝) dormakaba 四合一指紋/卡片/密碼/鑰匙_智能電子鎖(ML660)(附基本安裝)」、Qty=4與公開主價22250。 原HTML HTTP429，採同輪可信exactID API並保留讀取限制。未扣券/點數/信用卡回饋。"
+      "note": "2026-11-05 PChome原SKU API公開價 25000 TWD；先前促銷金額不沿用。未扣個人券、點數或信用卡回饋；實際配送與安裝條件依通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DECE4EA900DXNUC/000001_1643338134.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DECE4E-A900DXNUC",
@@ -2880,7 +2880,7 @@
       "amount": 11111,
       "converted": 11111,
       "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
-      "note": "Chrome原頁主商品FB63M／FB63M 精簡電子智慧門鎖可核對，公開主區售價11111元，購買按鈕可用；不扣個人券、信用卡、點數或贈品。"
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900I8ITU/000001_1753416985.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900I8ITU",
@@ -2974,10 +2974,11 @@
     "name": "FB70X 樸實電子智慧門鎖",
     "price": {
       "currency": "TWD",
-      "amount": 20900,
-      "converted": 20900,
-      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-04 Chrome覆核：此連結主商品現為FB70K，與本筆FB70X不同；保留20900元舊參考價，不能用FB70K的17111元當作本款現價。官方未明示FB70X停產或K取代X，暫留待確認。"
+      "amount": 17111,
+      "converted": 17111,
+      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DQAT0IA900GXIHM/000001_1764834253.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQAT0I-A900GXIHM",
@@ -3265,10 +3266,11 @@
     "name": "和系列全自動七合一智慧鎖",
     "price": {
       "currency": "TWD",
-      "amount": 24900,
-      "converted": 24900,
-      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
-      "note": "Chrome原頁主商品HIT-FV70-T／和系列全自動七合一智慧鎖可核對，公開主區網路價24900元，購買按鈕可用；「下單再折」或其他結帳優惠另計，不以API較低數字替代主價。"
+      "amount": 22900,
+      "converted": 22900,
+      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900JLLZ3/000001_1782963047.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900JLLZ3",
@@ -3946,7 +3948,8 @@
       "currency": "TWD",
       "amount": 6490,
       "converted": 6490,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "confidence": "PChome 2026-07-11 API 查核價",
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS3CA900HOV94/000001_1722063380.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS3C-A900HOV94",
@@ -4337,7 +4340,7 @@
       "amount": 20826,
       "converted": 20826,
       "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
-      "note": "Chrome原頁主商品DJS-SK07／DJS-SK07 全自動智慧電子鎖可核對，公開主區售價20826元，購買按鈕可用；不扣個人券、信用卡、點數或贈品。"
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900J5GYW/000001_1755762130.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900J5GYW",

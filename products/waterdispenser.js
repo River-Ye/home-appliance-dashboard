@@ -223,11 +223,11 @@
     "image": "https://cs-a.ecimg.tw/items/DMAW25A900G453U/000001_1781668075.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 8333,
-      "converted": 8333,
-      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
+      "amount": 8590,
+      "converted": 8590,
+      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-04 晚間原生Chrome覆核：PURVIVE-H300NXT主商品公開顯示NT$8333，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。"
+      "note": "2026-11-05 人工覆核：Yahoo同型號主商品公開價8590元，主區立即購買／加入購物車可見。 不扣個人化折價券、點數、信用卡回饋或贈品價值。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -642,9 +642,11 @@
     "image": "https://cs-a.ecimg.tw/items/DMCI1IA900ICM86/000001_1739267875.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 16110,
-      "converted": 16110,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 14499,
+      "converted": 14499,
+      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
+      "basis": "retailer_current",
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1469,7 +1471,8 @@
       "currency": "TWD",
       "amount": 59800,
       "converted": 59800,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "confidence": "PChome 2026-07-11 API 查核價",
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -2063,10 +2066,10 @@
     "name": "廚下型飲用水加熱器",
     "price": {
       "currency": "TWD",
-      "amount": 21150,
-      "converted": 21150,
-      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
-      "note": "2026-11-04 晚間原生Chrome覆核：DWH30A主商品公開顯示NT$21150，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。",
+      "amount": 23500,
+      "converted": 23500,
+      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
+      "note": "2026-11-05 人工覆核：Yahoo同型號主商品公開價23500元，主區立即購買／加入購物車可見。 不扣個人化折價券、點數、信用卡回饋或贈品價值。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWB8A900BVEOG/000001_1760685693.jpg",
@@ -2162,8 +2165,8 @@
     "price": {
       "currency": "USD",
       "amount": 359.99,
-      "converted": 11797,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-04 匯率換算",
+      "converted": 11816,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-05 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-01 Brondell美國官方Circle主商品Sale Price USD359.99、原449.99，主商品BCData為instock:true/purchasable:true；排除頁尾替換濾芯及Open-Box商品。 海外參考；未含國際運費、進口稅、電壓／插頭與台灣保固風險。"
     },
@@ -2201,14 +2204,14 @@
       "status": "found",
       "amount": 289.99,
       "currency": "USD",
-      "converted": 9503,
+      "converted": 9519,
       "sourceUrl": "https://www.costco.com/CategoryDisplay?catalogId=10701&identifier=water-dispensers-filtration-water-filtration&storeId=10301",
       "sourceTitle": "Costco US：Brondell Circle Reverse Osmosis Water Filtration System",
       "evidenceSnippet": "Costco US exact-model 分類頁於 2026-08-28 顯示 Brondell Circle 折後 US$289.99，原價 US$369.99，優惠 US$80。",
       "sourceKind": "retailer_promo",
       "confidence": "medium",
       "checkedAt": "2026-08-28",
-      "note": "採 Costco US 公開 exact-model 折價作為本次可重現最低觀測價；未含國際運費、進口稅、耗材與台灣安裝／保固風險；依 2026-11-04 USD/TWD 匯率換算。"
+      "note": "採 Costco US 公開 exact-model 折價作為本次可重現最低觀測價；未含國際運費、進口稅、耗材與台灣安裝／保固風險；依 2026-11-05 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "common_issue",

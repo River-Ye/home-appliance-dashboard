@@ -119,7 +119,8 @@
       "currency": "TWD",
       "amount": 759,
       "converted": 759,
-      "confidence": "PChome 2026-07-18 API 公開價"
+      "confidence": "PChome 2026-07-18 API 公開價",
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -631,7 +632,8 @@
       "currency": "TWD",
       "amount": 4490,
       "converted": 4490,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "confidence": "PChome 2026-07-11 API 查核價",
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1036,11 +1038,11 @@
     "image": "https://cs-a.ecimg.tw/items/DEDG3BA900GQDVZ/000001_1776769920.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 968,
-      "converted": 968,
+      "amount": 1099,
+      "converted": 1099,
       "basis": "retailer_current",
-      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
-      "note": "2026-11-04 晚間原生Chrome覆核：饗樂系列不沾鍋具4件組主商品公開顯示NT$968，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。"
+      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
+      "note": "2026-11-05 人工覆核：Yahoo同型號主商品公開價1099元，主區立即購買／加入購物車可見。 不扣個人化折價券、點數、信用卡回饋或贈品價值。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1553,7 +1555,8 @@
       "currency": "TWD",
       "amount": 2288,
       "converted": 2288,
-      "confidence": "PChome 2026-07-16 API 公開價"
+      "confidence": "PChome 2026-07-16 API 公開價",
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DEAWMJA900J9BIR/000001_1758078020.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEAWMJ-A900J9BIR",
@@ -1746,7 +1749,8 @@
       "currency": "TWD",
       "amount": 6850,
       "converted": 6850,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "confidence": "PChome 2026-07-11 API 查核價",
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DEAWTGA900FCHLZ/000001_1745980849.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEAWTG-A900FCHLZ",
@@ -2131,11 +2135,11 @@
     "name": "A1 極致抗刮不沾單柄深煎鍋 26 公分",
     "price": {
       "currency": "TWD",
-      "amount": 2699,
-      "converted": 2699,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 2159,
+      "converted": 2159,
+      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
       "basis": "retailer_current",
-      "note": "2026-11-01 Costco同型A1 26cm主商品公開2699元、同SKU InStock與加入購物車；原2159優惠未在本輪主商品重現，頁首運動用品優惠不適用鍋具。"
+      "note": "2026-11-05 Chrome原頁已載入折扣小計NT$2159（含運），需Costco會員；未扣信用卡與黑鑽回饋。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h82/h10/325943411802142.jpg",
     "buyUrl": "https://www.costco.com.tw/Furniture-Kitchen/Kitchen-Dining/Cookware-Cutlery-Cutting-Boards/Circulon-A1-Non-Stick-Saute-Pan-With-Glass-Lid-26-cm/p/151585",

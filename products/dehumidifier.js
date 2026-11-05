@@ -17,11 +17,11 @@
     "name": "16 公升高效型變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 14608,
-      "converted": 14608,
-      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
+      "amount": 14256,
+      "converted": 14256,
+      "confidence": "PChome 2026-11-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-04 20:20台灣時間Chrome最終覆核：F-YV32NN主商品折扣價14608、網路價17600，10/31–11/30任選1件83折，數量1與加入購物車/立即購買可用。 不另扣貨物稅、個人券、點數、卡回饋或贈品價。"
+      "note": "2026-11-05 PChome原SKU API公開價 14256 TWD；先前促銷金額不沿用。未扣個人券、點數或信用卡回饋；實際配送與安裝條件依通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900J0L88/000001_1776323540.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3P-A900J0L88",
@@ -308,10 +308,10 @@
     "name": "19.6 公升 PuriCare 雙變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 19251,
-      "converted": 19251,
-      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
-      "note": "2026-11-04 晚間原生Chrome覆核：DD201MEE0主商品公開顯示NT$19251，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。",
+      "amount": 20924,
+      "converted": 20924,
+      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
+      "note": "2026-11-05 人工覆核：Yahoo同型號主商品公開價20924元，主區立即購買／加入購物車可見。 不扣個人化折價券、點數、信用卡回饋或贈品價值。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4OA900JX7GH/000001_1783563034.jpg",
@@ -797,11 +797,11 @@
     "name": "9 公升除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 7825,
-      "converted": 7825,
-      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
+      "amount": 7929,
+      "converted": 7929,
+      "confidence": "PChome 2026-11-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-04 20:20台灣時間Chrome最終覆核：F-Y18PN主商品折扣價7825、網路價9790，11/03–11/16任選1件7825，數量1與加入購物車/立即購買可用。 不另扣貨物稅、個人券、點數、卡回饋或贈品價。"
+      "note": "2026-11-05 PChome原SKU API公開價 7929 TWD；先前促銷金額不沿用。未扣個人券、點數或信用卡回饋；實際配送與安裝條件依通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ00A900JB38A/000001_1776329911.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ00-A900JB38A",
@@ -1380,10 +1380,10 @@
     "name": "20L 第六感智能除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 8792,
-      "converted": 8792,
-      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
-      "note": "2026-11-04 晚間原生Chrome覆核：WDEE20TW主商品公開顯示NT$8792，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。",
+      "amount": 9990,
+      "converted": 9990,
+      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
+      "note": "2026-11-05 人工覆核：Yahoo同型號主商品公開價9990元，主區立即購買／加入購物車可見。 不扣個人化折價券、點數、信用卡回饋或贈品價值。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3SA900K13ZR/000001_1779265654.jpg",
@@ -1673,11 +1673,11 @@
     "name": "6L 除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 5571,
-      "converted": 5571,
-      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 5013,
+      "converted": 5013,
+      "confidence": "PChome 2026-11-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-04 人工核對當日PChome exact商品ID DMBQ3P-A900J9FH9：Panasonic 國際牌 6L 除濕機 F-Y12PS；Panasonic 國際牌 6L 除濕機 F-Y12PS；Price.Low=5571元，Qty=20。原HTML主商品另讀。不扣個人券、點數、信用卡；送貨安裝請確認。"
+      "note": "2026-11-05 PChome原SKU API公開價 5013 TWD；先前促銷金額不沿用。未扣個人券、點數或信用卡回饋；實際配送與安裝條件依通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900J9FH9/000001_1776325410.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3P-A900J9FH9",
@@ -2164,11 +2164,11 @@
     "name": "23 公升超變頻清淨除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 21633,
-      "converted": 21633,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 20633,
+      "converted": 20633,
+      "confidence": "PChome 2026-11-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-01 人工逐筆核對PChome原產品API：HITACHI日立 一級能效23公升變頻清淨除濕機 RD-460VC；Price.P=21633元，Qty=20，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
+      "note": "2026-11-05 PChome原SKU API公開價 20633 TWD；先前促銷金額不沿用。未扣個人券、點數或信用卡回饋；實際配送與安裝條件依通路確認。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h2d/h02/421140862271518.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ4K-A900I752Z",
@@ -2204,15 +2204,15 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 21633,
+      "amount": 20633,
       "currency": "TWD",
-      "converted": 21633,
+      "converted": 20633,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DMBQ4K-A900I752Z",
       "sourceTitle": "PChome 24h 購物：HITACHI日立 一級能效23公升變頻清淨除濕機 RD-460VC",
-      "evidenceSnippet": "PChome 24h 購物於 2026-11-01 顯示同型號可信新品公開價 NT$21,633，低於既有史低 NT$22,039。",
+      "evidenceSnippet": "PChome 24h 購物於 2026-11-05 顯示同型號可信新品公開價 NT$20,633，低於既有史低 NT$21,633。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-11-01",
+      "checkedAt": "2026-11-05",
       "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
