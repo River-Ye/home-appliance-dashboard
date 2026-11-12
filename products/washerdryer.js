@@ -227,7 +227,9 @@
       "currency": "TWD",
       "amount": 17388,
       "converted": 17388,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "basis": "retailer_current",
+      "note": "Yahoo 原商品公開價 NT$17388，公開折扣截至 2026-12-31T23:59:59+08:00；原商品主區有購買按鈕。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -437,9 +439,9 @@
       "currency": "TWD",
       "amount": 17577,
       "converted": 17577,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "2026-11-01 Yahoo所選同型號主購買區公開價17577元，可訂購；由廠商聯絡約定送貨時間，交期未確認。不扣個人券、信用卡、點數及贈品。公開單件活動有效至2026-12-31T23:59:59+08:00。"
+      "note": "Yahoo 原商品公開價 NT$17577，公開折扣截至 2026-12-31T23:59:59+08:00；原商品主區有購買按鈕。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -541,9 +543,11 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/50A8962C97-SP-12443254.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 42336,
-      "converted": 42336,
-      "confidence": "Yahoo購物中心 2026-10-20 exact-model 公開結構化價格"
+      "amount": 40320,
+      "converted": 40320,
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "basis": "retailer_current",
+      "note": "Yahoo 原商品公開價 NT$40320，公開折扣截至 2026-11-12T23:59:59+08:00；原商品主區有購買按鈕。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -585,16 +589,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 42054,
+      "amount": 40320,
       "currency": "TWD",
-      "converted": 42054,
-      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic國際牌-17公斤-變頻溫水洗脫烘滾筒洗衣機-晶鑽白-NA-V170MDH-W-10287718.html",
-      "sourceTitle": "Yahoo購物中心：Panasonic國際牌  17公斤 變頻溫水洗脫烘滾筒洗衣機 晶鑽白 NA-V170MDH-W | 變頻16KG以上 | Yahoo購物中心",
-      "evidenceSnippet": "Yahoo購物中心商品頁 JSON-LD 在 2026-07-09 查核 NA-V170MDH-W 價格為 NT$42,054，低於先前記錄的 NT$43,032。",
+      "converted": 40320,
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic%E5%9C%8B%E9%9A%9B%E7%89%8C-17%E5%85%AC%E6%96%A4-%E8%AE%8A%E9%A0%BB%E6%BA%AB%E6%B0%B4%E6%B4%97%E8%84%AB%E7%83%98%E6%BB%BE%E7%AD%92%E6%B4%97%E8%A1%A3%E6%A9%9F-%E6%99%B6%E9%91%BD%E7%99%BD-NA-V170MDH-W-10287718.html",
+      "sourceTitle": "Panasonic NA-V170MDH-W 同型新品通路價",
+      "evidenceSnippet": "2026-11-12 Yahoo 原商品公開價 NT$40320，公開折扣截至 2026-11-12T23:59:59+08:00；原商品主區有購買按鈕。 此價低於已查得的同型歷史最低價。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 Yahoo購物中心公開商品頁本輪查核價；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-11-12",
+      "note": "採相同型號公開新品價；未計入個人券、點數、信用卡回饋、二手、福利品、展示品、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1392,10 +1396,10 @@
       "amount": 48900,
       "converted": 48900,
       "confidence": "Yahoo購物中心 2026-08-04 exact-model 公開結構化價格",
-      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
+      "note": "Yahoo 原商品主區顯示此賣場已停售；保留先前參考價，供貨待查。"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心（原通路缺貨，查看供貨）",
+    "buyLabel": "Yahoo購物中心（此賣場已停售）",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-18%E5%85%AC%E6%96%A4-%E8%92%B8%E6%B4%97%E8%84%AB%E7%83%98-%E6%BB%BE%E7%AD%92%E6%B4%97%E8%A1%A3%E6%A9%9F-%E5%86%B0%E7%93%B7%E7%99%BD-WD-S18VDW-10547430.html",
     "specs": [
       "洗烘衣機：LG 18公斤滾筒洗衣機 冰瓷白 AI DD 蒸洗脫烘 WD-S18VDW",
@@ -1602,7 +1606,9 @@
       "currency": "TWD",
       "amount": 18846,
       "converted": 18846,
-      "confidence": "Yahoo購物中心 2026-08-23 exact-model 公開結構化價格"
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "basis": "retailer_current",
+      "note": "Yahoo 原商品公開價 NT$18846，公開折扣截至 2026-12-31T23:59:59+08:00；原商品主區有購買按鈕。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -2738,10 +2744,10 @@
     "image": "https://pstw.panasonic.com.tw/shop/Upload/Product/20260514190222S44S2J5E.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 39111,
-      "converted": 39111,
-      "confidence": "PChome 2026-11-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-05 PChome原SKU API公開價 39111 TWD；先前促銷金額不沿用。未扣個人券、點數或信用卡回饋；實際配送與安裝條件依通路確認。",
+      "amount": 39512,
+      "converted": 39512,
+      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-12 PChome 原 SKU 公開價 NT$39512，API Qty 20；個人券、點數、信用卡回饋及配送安裝費另計。",
       "basis": "retailer_current"
     },
     "channel": "tw",

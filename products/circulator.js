@@ -20,7 +20,8 @@
       "amount": 4480,
       "converted": 4480,
       "confidence": "PChome 2026-07-11 API 查核價",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/QBAF31A9008YQOZ/000001_1765269816.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/QBAF31-A9008YQOZ",
@@ -198,11 +199,11 @@
     "name": "10 吋 DC 直流遙控空氣循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 3780,
-      "converted": 3780,
-      "confidence": "PChome 2026-11-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 4200,
+      "converted": 4200,
+      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-05 PChome原SKU API公開價 3780 TWD；先前促銷金額不沿用。未扣個人券、點數或信用卡回饋；實際配送與安裝條件依通路確認。"
+      "note": "2026-11-12 PChome 原 SKU 公開價 NT$4200，API Qty 6；個人券、點數、信用卡回饋及配送安裝費另計。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABLYA900EV5DV/000001_1649666306.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMABLY-A900EV5DV",
@@ -490,7 +491,9 @@
       "currency": "TWD",
       "amount": 5764,
       "converted": 5764,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "basis": "retailer_current",
+      "note": "Yahoo 原商品公開價 NT$5764，公開折扣截至 2027-04-30T23:59:59+08:00；原商品主區有購買按鈕。"
     },
     "image": "https://cs-a.ecimg.tw/items/QBAF31A900ARWXH/000001_1765269049.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/VORNADO-%E6%B2%83%E6%8B%BF%E5%A4%9A-%E5%BE%A9%E5%8F%A4%E6%AC%BE-V-FAN-%E7%B6%A0%E8%89%B2-%E7%99%BD%E8%89%B2-%E7%B4%85%E8%89%B2-9671726.html",
@@ -586,12 +589,13 @@
       "currency": "TWD",
       "amount": 4418,
       "converted": 4418,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價",
-      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "note": "Yahoo 原商品公開價 NT$4418，公開折扣截至 2027-04-30T23:59:59+08:00；原商品主區有購買按鈕。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB3XA900HNEWA/000001_1782713198.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/VORNADO-%E6%B2%83%E6%8B%BF%E5%A4%9A-RTRHD-TW%E6%B8%A6%E6%B5%81%E7%A9%BA%E6%B0%A3%E5%BE%AA%E7%92%B0%E6%A9%9F-11214006.html",
-    "buyLabel": "Yahoo購物中心（來源待確認）",
+    "buyLabel": "Yahoo購物中心",
     "specs": [
       "渦流循環",
       "高風量",
@@ -779,7 +783,9 @@
       "currency": "TWD",
       "amount": 5448,
       "converted": 5448,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "basis": "retailer_current",
+      "note": "Yahoo 原商品公開價 NT$5448，公開折扣截至 2027-04-30T23:59:59+08:00；原商品主區有購買按鈕。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB1OA900EQ6Z4/000001_1765275011.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E7%BE%8E%E5%9C%8BVORNADO%E6%B2%83%E6%8B%BF%E5%A4%9A-%E6%B8%A6%E6%B5%81%E7%A9%BA%E6%B0%A3%E5%BE%AA%E7%92%B0%E6%A9%9F735B-9938572.html",
@@ -875,7 +881,9 @@
       "currency": "TWD",
       "amount": 6160,
       "converted": 6160,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "basis": "retailer_current",
+      "note": "Yahoo 原商品公開價 NT$6160，公開折扣截至 2027-04-30T23:59:59+08:00；原商品主區有購買按鈕。"
     },
     "image": "https://cs-a.ecimg.tw/items/QBAF31A9008YBED/000001_1765269212.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E7%BE%8E%E5%9C%8BVORNADO-%E6%B2%83%E6%8B%BF%E5%A4%9A-DC%E7%9B%B4%E6%B5%81%E6%B8%A6%E6%B5%81%E7%A9%BA%E6%B0%A3%E5%BE%AA%E7%92%B0%E6%A9%9F6303DC-%E7%99%BD-%E9%81%A9%E7%94%A8%E5%9D%AA%E6%95%B88-12%E5%9D%AA-9554814.html",
@@ -957,7 +965,9 @@
       "currency": "TWD",
       "amount": 4383,
       "converted": 4383,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "basis": "retailer_current",
+      "note": "Yahoo 原商品公開價 NT$4383，公開折扣截至 2027-04-30T23:59:59+08:00；原商品主區有購買按鈕。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB3XA900HN9W0/000001_1782713517.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/VORNADO-%E6%B2%83%E6%8B%BF%E5%A4%9AEXO61HD-TW-%E6%B8%A6%E6%B5%81%E7%A9%BA%E6%B0%A3%E5%BE%AA%E7%92%B0%E6%A9%9F-11143058.html",
@@ -1053,7 +1063,8 @@
       "currency": "TWD",
       "amount": 1890,
       "converted": 1890,
-      "confidence": "Yahoo購物中心 2026-08-25 exact-model 公開結構化價格"
+      "confidence": "Yahoo購物中心 2026-08-25 exact-model 公開結構化價格",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBE18A900K5EJK/000001_1782367256.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/TECO%E6%9D%B1%E5%85%83-11%E5%90%8B%E6%99%BA%E8%83%BD%E8%81%B2%E6%8E%A7DC%E9%A6%AC%E9%81%943D%E5%BE%AA%E7%92%B0%E6%89%87-XYFXA1101CB-12063164.html",
@@ -1149,7 +1160,9 @@
       "currency": "TWD",
       "amount": 2455,
       "converted": 2455,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "basis": "retailer_current",
+      "note": "Yahoo 原商品公開價 NT$2455，公開折扣截至 2026-12-31T23:59:59+08:00；原商品主區有購買按鈕。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABLXA900GDS4D/000001_1685677114.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/I-COOL-18%E5%90%8B%E5%BE%AE%E9%9B%BB%E8%85%A6360%E5%BA%A6DC%E7%AF%80%E8%83%BD%E5%BE%AA%E7%92%B0%E6%89%87-MYDC-8877-10590383.html",
@@ -1243,11 +1256,11 @@
     "name": "DC 語音循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 3312,
-      "converted": 3312,
-      "confidence": "PChome 2026-11-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 3680,
+      "converted": 3680,
+      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-05 PChome原SKU API公開價 3312 TWD；先前促銷金額不沿用。未扣個人券、點數或信用卡回饋；實際配送與安裝條件依通路確認。"
+      "note": "2026-11-12 PChome 原 SKU 公開價 NT$3680，API Qty 20；個人券、點數、信用卡回饋及配送安裝費另計。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABLXA900HI682/000001_1716457070.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMABLX-A900HI682",
@@ -1437,11 +1450,11 @@
     "name": "DC 直流雙渦輪多向循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 5760,
-      "converted": 5760,
-      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
+      "amount": 6400,
+      "converted": 6400,
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
+      "note": "PChome 原 SKU DMABLY-A900H2H5C 的 Name 與 Nick 和前次人工獨立確認紀錄逐字一致，本次重查 Qty 19、公開價 NT$6400。原選定規格不變。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABLYA900H2H5C/000001_1782200669.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMABLY-A900H2H5C",
@@ -1828,10 +1841,10 @@
     "name": "360 度美型空氣循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 3690,
-      "converted": 3690,
-      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-04 下午覆核：原生IRIS台灣官方PCF-CDP18TEC主價3690、劃線3990，現庫存10件、加入購物車與立即購買可用；HTML售完字串屬動態模板。",
+      "amount": 2990,
+      "converted": 2990,
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "note": "IRIS 台灣官方 PCF-CDP18TEC 主區標價 NT$2,990，單件數量與購買按鈕可用，原價 NT$3,990。",
       "basis": "retailer_current"
     },
     "image": "https://img.shoplineapp.com/media/image_clips/69ccee7a1cf502b0b21ecdd0/original.jpg?1775038073=&owner_id=6976e3a5a39620001e911a08",

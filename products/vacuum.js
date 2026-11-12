@@ -215,7 +215,8 @@
       "amount": 11111,
       "converted": 11111,
       "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX8KA900JI8XJ/000001_1764582934.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAX8K-A900JI8XJ",
@@ -311,9 +312,9 @@
       "currency": "TWD",
       "amount": 15200,
       "converted": 15200,
-      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "2026-11-04 午後人工覆核：Yahoo同型號主商品公開價15200元；立即購買/加入購物車可用。 不扣個人化回饋或贈品。"
+      "note": "Yahoo 原商品公開價 NT$15200，公開折扣截至 2026-12-31T23:59:59+08:00；原商品主區有購買按鈕。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAXB5A900JFCJP/000001_1762402803.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Tineco-%E6%B7%BB%E5%8F%AF-Switch-S7-Stretch%E5%A4%9A%E5%B7%A5%E5%B9%B3%E8%BA%BA%E6%B4%97%E5%9C%B0%E5%90%B8%E5%A1%B5%E5%99%A8-22000Pa-5%E5%88%86%E9%90%98%E9%80%9F%E4%B9%BE-11979820.html",
@@ -891,11 +892,11 @@
     "name": "CordZero A9X 蒸氣濕拖自動集塵無線吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 25111,
-      "converted": 25111,
-      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 23000,
+      "converted": 23000,
+      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-04 人工核對當日PChome exact商品ID DMAX8K-A900HLXAQ：LG 樂金 CordZero™ A9X 蒸氣濕拖自動集塵無線吸塵器A9X-STEAM；LG 樂金 CordZero™ A9X 蒸氣濕拖自動集塵無線吸塵器 | 吸力280W x 吸頭收納 x LCD螢幕 x 除蟎 x 輕量化 A9X-STEAM(雪霧白)；Price.P=25111元，Qty=20。原HTML主商品另讀。不扣個人券、點數、信用卡；送貨安裝請確認。"
+      "note": "2026-11-12 PChome 原 SKU 公開價 NT$23000，API Qty 9；個人券、點數、信用卡回饋及配送安裝費另計。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX8KA900HLXAQ/000001_1744871444.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAX8K-A900HLXAQ",
@@ -992,7 +993,8 @@
       "amount": 7990,
       "converted": 7990,
       "confidence": "PChome 2026-07-11 API 查核價",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM2ZA900IUKMI/000001_1768459978.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM2Z-A900IUKMI",
@@ -1184,7 +1186,9 @@
       "currency": "TWD",
       "amount": 2841,
       "converted": 2841,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "basis": "retailer_current",
+      "note": "Yahoo 原商品公開價 NT$2841，公開折扣截至 2026-12-31T23:59:59+08:00；原商品主區有購買按鈕。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBE1AA900JJ4LU/000001_1765270758.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/siroca-%E8%B6%85%E8%BC%95%E9%87%8F%E7%84%A1%E7%B7%9A%E5%90%B8%E5%A1%B5%E5%99%A8SV-SP3710-11742436.html",
@@ -1474,7 +1478,9 @@
       "currency": "TWD",
       "amount": 14250,
       "converted": 14250,
-      "confidence": "Yahoo購物中心 2026-10-19 exact-model 公開結構化價格"
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "basis": "retailer_current",
+      "note": "Yahoo 原商品公開價 NT$14250，公開折扣截至 2026-12-31T23:59:59+08:00；原商品主區有購買按鈕。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAXB5A900JP6TZ/000001_1770084365.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Tineco-%E6%B7%BB%E5%8F%AF-S7-Stretch-Steam-%E8%92%B8%E6%B0%A3%E6%97%97%E8%89%A6%E6%B4%97%E5%9C%B0%E6%A9%9F-160%E5%BA%A6%E8%92%B8%E6%B0%A3%E7%A1%AC%E6%B1%A1%E6%B8%85%E6%BD%94-80mi-12078414.html",
@@ -1861,7 +1867,9 @@
       "currency": "TWD",
       "amount": 11600,
       "converted": 11600,
-      "confidence": "Yahoo購物中心 2026-10-19 exact-model 公開結構化價格"
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "basis": "retailer_current",
+      "note": "Yahoo 原商品公開價 NT$11600，公開折扣截至 2026-12-31T23:59:59+08:00；原商品主區有購買按鈕。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX0ZA900K4IQZ/000001_1781668428.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-%E7%84%A1%E7%B7%9A%E7%9B%B4%E7%AB%8B-%E6%89%8B%E6%8C%81%E5%BC%8F%E5%BE%AE%E5%A1%B5%E6%84%9F%E7%9F%A5%E6%A5%B5%E6%B7%A8%E5%85%89%E5%90%B8%E5%A1%B5%E5%99%A8-MC-SBR70-12134025.html",
@@ -2245,8 +2253,8 @@
     "price": {
       "currency": "USD",
       "amount": 679.99,
-      "converted": 22320,
-      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-11-05 匯率換算",
+      "converted": 22358,
+      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-11-12 匯率換算",
       "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
     },
     "image": "https://m.media-amazon.com/images/I/61Yuy5vtWFL._AC_SL1500_.jpg",
@@ -2286,14 +2294,14 @@
       "status": "found",
       "amount": 679.99,
       "currency": "USD",
-      "converted": 22320,
+      "converted": 22358,
       "sourceUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
       "sourceTitle": "Dreame Aero Ultra Steam Wet Dry Vacuum – Dreame Vacuum Mop",
       "evidenceSnippet": "Dreame 原廠美國商品頁於 2026-07-16 公開顯示特價 US$679.99、原價 US$799.99，且可 Add to Cart / Buy It Now。",
       "sourceKind": "official_sale",
       "confidence": "high",
       "checkedAt": "2026-07-16",
-      "note": "新上市商品目前可公開驗證的最低售價；未套用會員碼、信用卡、點數或個人化折扣，且未含國際運費、進口稅、插頭／供電與台灣保固風險；依 2026-11-05 USD/TWD 匯率換算。"
+      "note": "新上市商品目前可公開驗證的最低售價；未套用會員碼、信用卡、點數或個人化折扣，且未含國際運費、進口稅、插頭／供電與台灣保固風險；依 2026-11-12 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "no_common_issue",

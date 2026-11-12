@@ -117,7 +117,8 @@
       "amount": 5699,
       "converted": 5699,
       "confidence": "PChome 2026-07-11 API 查核價",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBC1TA900I6ACS/000001_1771826403.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSBC1T-A900I6ACS",
@@ -409,10 +410,10 @@
     "name": "BE11000 三頻 2.5G 真 Mesh 路由器二入組",
     "price": {
       "currency": "TWD",
-      "amount": 11111,
-      "converted": 11111,
-      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。",
+      "amount": 10888,
+      "converted": 10888,
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "note": "PChome 原 SKU DRAN08-A900H851Z 的 Name 與 Nick 和前次人工獨立確認紀錄逐字一致，本次重查 Qty 20、公開價 NT$10888。原選定規格不變。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAN08A900H851Z/000001_1782099268.jpg",
@@ -508,11 +509,11 @@
     "name": "BE17000 三頻 10G Wi-Fi 7 真 Mesh 路由器一入組",
     "price": {
       "currency": "TWD",
-      "amount": 7111,
-      "converted": 7111,
-      "confidence": "PChome 2026-11-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 6661,
+      "converted": 6661,
+      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-05 PChome原SKU API公開價 7111 TWD；先前促銷金額不沿用。未扣個人券、點數或信用卡回饋；實際配送與安裝條件依通路確認。"
+      "note": "2026-11-12 PChome 原 SKU 公開價 NT$6661，API Qty 20；個人券、點數、信用卡回饋及配送安裝費另計。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAN08A900JHOFL/000001_1782099138.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAN08-A900JHOFL",
@@ -899,8 +900,8 @@
     "price": {
       "currency": "USD",
       "amount": 208,
-      "converted": 6827,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。；ExchangeRate-API 2026-11-05 匯率換算",
+      "converted": 6839,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。；ExchangeRate-API 2026-11-12 匯率換算",
       "note": "2026-11-04 午後人工覆核：UniFi美國所選單台原生主頁基價189，強制附加費後總額208USD，Add to Cart可用；不採未含強制費用的schema基價。未含國際運費、進口稅、PoE供電配件與台灣保固風險。"
     },
     "image": "https://cdn.ecomm.ui.com/products/fa8dd4e4-36c8-4c79-a928-22c7bff2ce29/ab5bc8a4-6135-402e-a695-e3ea5e16d3e6.png",
@@ -980,8 +981,8 @@
     "price": {
       "currency": "USD",
       "amount": 175,
-      "converted": 5744,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-05 匯率換算",
+      "converted": 5754,
+      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-12 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-04 午後人工覆核：UniFi美國所選單台原生主頁基價159，強制附加費後總額175USD，Add to Cart可用；不採未含強制費用的schema基價。未含國際運費、進口稅、PoE供電配件與台灣保固風險。"
     },
@@ -1099,8 +1100,8 @@
     "price": {
       "currency": "USD",
       "amount": 109,
-      "converted": 3578,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-05 匯率換算",
+      "converted": 3584,
+      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-12 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-04 午後人工覆核：UniFi美國所選單台原生主頁基價99，強制附加費後總額109USD，Add to Cart可用；不採未含強制費用的schema基價。未含國際運費、進口稅、PoE供電配件與台灣保固風險。"
     },
@@ -1585,8 +1586,8 @@
     "price": {
       "currency": "USD",
       "amount": 142,
-      "converted": 4661,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-05 匯率換算",
+      "converted": 4669,
+      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-12 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-04 午後人工覆核：UniFi美國所選單台原生主頁基價129，強制附加費後總額142USD，Add to Cart可用；不採未含強制費用的schema基價。未含國際運費、進口稅、PoE供電配件與台灣保固風險。"
     },
@@ -1691,8 +1692,8 @@
     "price": {
       "currency": "USD",
       "amount": 307,
-      "converted": 10077,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。；ExchangeRate-API 2026-11-05 匯率換算",
+      "converted": 10094,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。；ExchangeRate-API 2026-11-12 匯率換算",
       "note": "2026-11-04 午後人工覆核：UniFi美國所選單台原生主頁基價279，強制附加費後總額307USD，Add to Cart可用；不採未含強制費用的schema基價。未含國際運費、進口稅、PoE供電配件與台灣保固風險。"
     },
     "image": "https://cdn.ecomm.ui.com/products/350070a0-ae43-431b-b052-8e849c3b0a75/bad94693-bc54-4ab4-b060-9b972401941c.png",
@@ -2180,11 +2181,11 @@
     "name": "AX3000 Wi-Fi 6 Mesh 網狀路由器三入組",
     "price": {
       "currency": "TWD",
-      "amount": 4999,
-      "converted": 4999,
-      "confidence": "PChome 2026-11-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 5499,
+      "converted": 5499,
+      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-05 PChome原SKU API公開價 4999 TWD；先前促銷金額不沿用。未扣個人券、點數或信用卡回饋；實際配送與安裝條件依通路確認。"
+      "note": "2026-11-12 PChome 原 SKU 公開價 NT$5499，API Qty 13；個人券、點數、信用卡回饋及配送安裝費另計。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFEMA900F9H1Y/000001_1774858877.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFEM-A900F9H1Y",
@@ -2363,11 +2364,11 @@
     "name": "BE3600 雙頻 Gigabit Wi-Fi 7 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 2099,
-      "converted": 2099,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 2299,
+      "converted": 2299,
+      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-01 人工核對PChome原始API同型號商品ID、名稱、正數庫存與公開網路價2099元；HTML另遇429限制，不把API當完整出貨承諾。"
+      "note": "2026-11-12 PChome 原 SKU 公開價 NT$2299，API Qty 20；個人券、點數、信用卡回饋及配送安裝費另計。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLVA900K13CR/000001_1779257487.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAN09-A900IK1F1",
@@ -2859,11 +2860,11 @@
       "amount": 10990,
       "converted": 10990,
       "confidence": "2026-11-04人工回讀Yahoo原賣場12019533：主10990元，標題明示MX5502-AH三入(3入)，實際已停售；僅留原三入參考。",
-      "note": "原賣場已停售，10990元只保留三入組參考價。此通路三入組與原廠標準MX5502二入不同，尚無法確認三入組組件；不套用二入價格，也不把賣場停售當成原廠停產。"
+      "note": "Yahoo 原商品主區顯示此賣場已停售；保留先前參考價，供貨待查。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFE5A900JUA8C/000001_1774227439.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E6%98%8C%E9%81%8B%E7%9B%A3%E8%A6%96%E5%99%A8Linksys-MX5502-AH-AX5400-Velop-Mesh-WiFi-6%E9%9B%99%E9%A0%BB%E7%B6%B2-12019533.html",
-    "buyLabel": "Yahoo原三入組賣場（已停售／組合內容待核）",
+    "buyLabel": "Yahoo購物中心（此賣場已停售）",
     "specs": [
       "Wi-Fi 6",
       "AX5400 雙頻",
@@ -3226,11 +3227,11 @@
     "name": "BE24000 四頻 10G Wi-Fi 7 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 16999,
-      "converted": 16999,
-      "confidence": "PChome 2026-11-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 16111,
+      "converted": 16111,
+      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-05 PChome原SKU API公開價 16999 TWD；先前促銷金額不沿用。未扣個人券、點數或信用卡回饋；實際配送與安裝條件依通路確認。"
+      "note": "2026-11-12 PChome 原 SKU 公開價 NT$16111，API Qty 14；個人券、點數、信用卡回饋及配送安裝費另計。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAN5BA900HF2LS/000001_1782099036.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAN5B-A900HF2LS",
@@ -3530,10 +3531,10 @@
     "name": "Wi-Fi 6E 三頻電競路由器",
     "price": {
       "currency": "TWD",
-      "amount": 3799,
-      "converted": 3799,
-      "confidence": "PChome 2026-11-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-05 PChome原SKU API公開價 3799 TWD；先前促銷金額不沿用。未扣個人券、點數或信用卡回饋；實際配送與安裝條件依通路確認。",
+      "amount": 3999,
+      "converted": 3999,
+      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-12 PChome 原 SKU 公開價 NT$3999，API Qty 13；個人券、點數、信用卡回饋及配送安裝費另計。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFKSA900HEQVN/000001_1713512948.jpg",
@@ -3629,10 +3630,11 @@
     "name": "Wi-Fi 7 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 2990,
-      "converted": 2990,
-      "confidence": "PChome 2026-07-11 API 查核價",
-      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
+      "amount": 2790,
+      "converted": 2790,
+      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-12 PChome 原 SKU 公開價 NT$2790，API Qty 12；個人券、點數、信用卡回饋及配送安裝費另計。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJ8A900JSZV4/000001_1773200906.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJ8-A900JSZV4",
@@ -3730,7 +3732,8 @@
       "amount": 1349,
       "converted": 1349,
       "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DYANAIA900HNETW/000001_1730700267.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DYANAI-A900HNETW",
@@ -4010,7 +4013,8 @@
       "amount": 1720,
       "converted": 1720,
       "confidence": "PChome 2026-07-11 API 查核價",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJ8A900JX7UY/000001_1776333176.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJ8-A900JX7UY",

@@ -19,7 +19,9 @@
       "currency": "TWD",
       "amount": 17460,
       "converted": 17460,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "basis": "retailer_current",
+      "note": "Yahoo 原商品公開價 NT$17460，公開折扣截至 2027-01-02T09:59:59+08:00；原商品主區有購買按鈕。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900IAG1Z/000001_1754276294.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Yale%E8%80%B6%E9%AD%AF-YMF-40A-%E5%9B%9B%E5%90%88%E4%B8%80%E9%9B%BB%E5%AD%90%E9%8E%96-%E9%99%84%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-11480544.html",
@@ -115,7 +117,9 @@
       "currency": "TWD",
       "amount": 16490,
       "converted": 16490,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "basis": "retailer_current",
+      "note": "Yahoo 原商品公開價 NT$16490，公開折扣截至 2027-01-02T09:59:59+08:00；原商品主區有購買按鈕。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900I5HGS/000001_1733814561.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Yale%E8%80%B6%E9%AD%AF-YMF-30A-%E5%9B%9B%E5%90%88%E4%B8%80%E9%9B%BB%E5%AD%90%E9%8E%96-%E9%99%84%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-11480538.html",
@@ -403,7 +407,9 @@
       "currency": "TWD",
       "amount": 18430,
       "converted": 18430,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "basis": "retailer_current",
+      "note": "Yahoo 原商品公開價 NT$18430，公開折扣截至 2027-01-02T09:59:59+08:00；原商品主區有購買按鈕。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900I5H7X/000001_1733811821.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Yale%E8%80%B6%E9%AD%AF-YDM-7216A-%E4%BA%94%E5%90%88%E4%B8%80%E9%9B%BB%E5%AD%90%E9%8E%96-%E9%99%84%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-11480545.html",
@@ -499,7 +505,9 @@
       "currency": "TWD",
       "amount": 7760,
       "converted": 7760,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "basis": "retailer_current",
+      "note": "Yahoo 原商品公開價 NT$7760，公開折扣截至 2027-01-02T09:59:59+08:00；原商品主區有購買按鈕。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900IAG3B/000001_1754286009.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Yale%E8%80%B6%E9%AD%AF-YDR-343A-%E9%9B%BB%E5%AD%90%E8%BC%94%E5%8A%A9%E9%8E%96-%E9%99%84%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-11480546.html",
@@ -1647,11 +1655,11 @@
     "name": "X9 指紋把手電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 10680,
-      "converted": 10680,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 10200,
+      "converted": 10200,
+      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-01 PChome主商品API商品ID DQBS4N-A900JJ8LG 相符，原標題「Lockin鹿客 指紋把手電子鎖 X9 Lockin鹿客 指紋把手電子鎖 X9」，Qty=4，公開折扣／主價 10680 元（網路價12000；Price.Low=10680）；未扣券、回饋或點數。 同輪HTML為HTTP429；以本輪可信商品API逐筆核對，保留HTML讀取限制，不推定停產。"
+      "note": "2026-11-12 PChome 原 SKU 公開價 NT$10200，API Qty 4；個人券、點數、信用卡回饋及配送安裝費另計。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900JJ8LG/000001_1765347346.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900JJ8LG",
@@ -2012,9 +2020,9 @@
     "price": {
       "currency": "HKD",
       "amount": 9638,
-      "converted": 40324,
+      "converted": 40395,
       "basis": "retailer_current",
-      "confidence": "EasyLock 香港 2026-08-28 exact-model 公開促銷價；ExchangeRate-API 2026-11-05 匯率換算",
+      "confidence": "EasyLock 香港 2026-08-28 exact-model 公開促銷價；ExchangeRate-API 2026-11-12 匯率換算",
       "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。"
     },
     "installation": {
@@ -2096,11 +2104,11 @@
     "name": "SHP-P52 推拉式電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 21805,
-      "converted": 21805,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 20825,
+      "converted": 20825,
+      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-01 PChome主商品API商品ID DQBS4N-A900JXYBS 相符，原標題「ZIGBANG   SHP-P52 推拉式電子鎖   APP/指紋/卡片/密碼/鑰匙 ZIGBANG   SHP-P52 推拉式電子鎖   APP/指紋/卡片/密碼/鑰匙」，Qty=5，公開折扣／主價 21805 元（網路價24500；Price.Low=21805）；未扣券、回饋或點數。 同輪HTML為HTTP429；以本輪可信商品API逐筆核對，保留HTML讀取限制，不推定停產。"
+      "note": "2026-11-12 PChome 原 SKU 公開價 NT$20825，API Qty 5；個人券、點數、信用卡回饋及配送安裝費另計。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900JXYBS/000001_1776909348.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900JXYBS",
@@ -2133,15 +2141,15 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 21805,
+      "amount": 20825,
       "currency": "TWD",
-      "converted": 21805,
+      "converted": 20825,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900JXYBS",
       "sourceTitle": "PChome 24h 購物：ZIGBANG SHP-P52 推拉式電子鎖 APP/指紋/卡片/密碼/鑰匙",
-      "evidenceSnippet": "PChome 24h 購物於 2026-11-01 顯示同型號可信新品公開價 NT$21,805，低於既有史低 NT$23,275。",
+      "evidenceSnippet": "PChome 24h 購物於 2026-11-12 顯示同型號可信新品公開價 NT$20,825，低於既有史低 NT$21,805。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-11-01",
+      "checkedAt": "2026-11-12",
       "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
@@ -2877,10 +2885,11 @@
     "name": "FB63M 精簡電子智慧門鎖",
     "price": {
       "currency": "TWD",
-      "amount": 11111,
-      "converted": 11111,
-      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
+      "amount": 10555,
+      "converted": 10555,
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "note": "PChome 原 SKU DQBS4N-A900I8ITU 的 Name 與 Nick 和前次人工獨立確認紀錄逐字一致，本次重查 Qty 20、公開價 NT$10555。原選定規格不變。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900I8ITU/000001_1753416985.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900I8ITU",
@@ -2913,16 +2922,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 11111,
+      "amount": 10555,
       "currency": "TWD",
-      "converted": 11111,
+      "converted": 10555,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900I8ITU",
-      "sourceTitle": "PChome 24h：FIBRE FB63M",
-      "evidenceSnippet": "2026-11-04 Chrome原頁同型號/版本可購主價NT$11111，低於先前可驗證低點NT$13775。",
+      "sourceTitle": "FIBRE FB63M 同型新品通路價",
+      "evidenceSnippet": "2026-11-12 PChome 原 SKU DQBS4N-A900I8ITU 的 Name 與 Nick 和前次人工獨立確認紀錄逐字一致，本次重查 Qty 20、公開價 NT$10555。原選定規格不變。 此價低於已查得的同型歷史最低價。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-11-04",
-      "note": "採本輪實際可公開重現的同型號新品單件主價；不扣個人券、會員個人折扣、信用卡、點數或贈品，不把其他版本/缺貨價當同款史低。"
+      "checkedAt": "2026-11-12",
+      "note": "採相同型號公開新品價；未計入個人券、點數、信用卡回饋、二手、福利品、展示品、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2974,10 +2983,10 @@
     "name": "FB70X 樸實電子智慧門鎖",
     "price": {
       "currency": "TWD",
-      "amount": 17111,
-      "converted": 17111,
-      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。",
+      "amount": 16255,
+      "converted": 16255,
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "note": "PChome 原 SKU DQAT0I-A900GXIHM 的 Name 與 Nick 和前次人工獨立確認紀錄逐字一致，本次重查 Qty 20、公開價 NT$16255。原選定規格不變。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DQAT0IA900GXIHM/000001_1764834253.jpg",
@@ -3072,11 +3081,11 @@
     "name": "FB90 築韻掌靜脈貓眼電子門鎖",
     "price": {
       "currency": "TWD",
-      "amount": 33111,
-      "converted": 33111,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 31455,
+      "converted": 31455,
+      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-03 PChome exact原SKU DQBS4N-A900J43AP，逐筆核對本輪主標題「FIBRE 琺博 築韻FB90 電子貓眼/掌靜脈/人臉電子門鎖 FIBRE 琺博 築韻FB90 電子貓眼/掌靜脈/人臉電子門鎖」、Qty=20與公開主價33111。 原HTML HTTP429，採同輪可信exactID API並保留讀取限制。未扣券/點數/信用卡回饋。"
+      "note": "2026-11-12 PChome 原 SKU 公開價 NT$31455，API Qty 20；個人券、點數、信用卡回饋及配送安裝費另計。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900J43AP/000001_1764829802.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900J43AP",
@@ -3946,10 +3955,11 @@
     "name": "3E 小島快鎖 Z 電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 6490,
-      "converted": 6490,
-      "confidence": "PChome 2026-07-11 API 查核價",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
+      "amount": 6165,
+      "converted": 6165,
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "note": "PChome 原 SKU DQBS3C-A900HOV94 的 Name 與 Nick 和前次人工獨立確認紀錄逐字一致，本次重查 Qty 3、公開價 NT$6165。原選定規格不變。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS3CA900HOV94/000001_1722063380.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS3C-A900HOV94",
@@ -4337,10 +4347,11 @@
     "name": "DJS-SK07 全自動智慧電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 20826,
-      "converted": 20826,
-      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
+      "amount": 19890,
+      "converted": 19890,
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "note": "PChome 原 SKU DQBS4N-A900J5GYW 的 Name 與 Nick 和前次人工獨立確認紀錄逐字一致，本次重查 Qty 15、公開價 NT$19890。原選定規格不變。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900J5GYW/000001_1755762130.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900J5GYW",
@@ -4373,16 +4384,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 20826,
+      "amount": 19890,
       "currency": "TWD",
-      "converted": 20826,
+      "converted": 19890,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900J5GYW",
-      "sourceTitle": "PChome 24h：KingNet DJS-SK07",
-      "evidenceSnippet": "2026-11-04 Chrome原頁同型號/版本可購主價NT$20826，低於先前可驗證低點NT$22230。",
+      "sourceTitle": "KingNet DJS-SK07 同型新品通路價",
+      "evidenceSnippet": "2026-11-12 PChome 原 SKU DQBS4N-A900J5GYW 的 Name 與 Nick 和前次人工獨立確認紀錄逐字一致，本次重查 Qty 15、公開價 NT$19890。原選定規格不變。 此價低於已查得的同型歷史最低價。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-11-04",
-      "note": "採本輪實際可公開重現的同型號新品單件主價；不扣個人券、會員個人折扣、信用卡、點數或贈品，不把其他版本/缺貨價當同款史低。"
+      "checkedAt": "2026-11-12",
+      "note": "採相同型號公開新品價；未計入個人券、點數、信用卡回饋、二手、福利品、展示品、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",

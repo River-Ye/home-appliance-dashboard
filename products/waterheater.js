@@ -3705,7 +3705,7 @@
       "confidence": "泰浦樂 2026-08-14 最後可驗證 exact-model 新品含基本安裝公開價；2026-08-15 Yahoo exact-model 頁明示已停售，僅供規格參考",
       "basis": "retailer_current",
       "scope": "single_unit",
-      "note": "2026-11-04 午後人工覆核：Yahoo AT-042AI主商品本輪展示70000元，但購買區明示「已停售」，沒有立即購買/加入購物車；保留58294元舊參考價，不採停售/缺貨展示價或自行乘算活動折扣。這是通路listing狀態，不能據此認定原廠整型停產。"
+      "note": "Yahoo 原商品主區顯示此賣場已停售；保留先前參考價，供貨待查。"
     },
     "installation": {
       "status": "included_basic",
@@ -3713,7 +3713,7 @@
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/323300CF95-SP-12269220.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Toppuror-%E6%B3%B0%E6%B5%A6%E6%A8%82-%E7%91%9E%E6%99%BA%E7%9B%B4%E7%86%B1%E5%BC%8F%E7%86%B1%E6%B3%B5%E7%86%B1%E6%B0%B4%E5%99%A8-%E5%90%AB%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-AT-042AI-10249571.html",
-    "buyLabel": "Yahoo購物（停售，現價待確認）",
+    "buyLabel": "Yahoo購物中心（此賣場已停售）",
     "specs": [
       "類型：一體直熱式空氣源熱泵熱水器",
       "能源／氣源：電力；R410A；內建 65 L 儲槽",

@@ -104,8 +104,8 @@
       description: "台灣官方 MEDIUM 確切 SKU 的雙面感溫枕，兼顧側睡與仰睡，並提供三年台灣保固。", pros: ["雙面支撐不同睡姿", "三年台灣保固", "可拆洗認證布套"], cons: ["價格高", "台灣頁未列尺寸與淨重", "感溫泡棉對怕熱者仍需試睡"], bestFor: "想在台灣門市／官方售後體系內選擇側睡與仰睡兼用感溫枕者。", recommendation: "台灣 Top Pick；先到門市試躺確認 MEDIUM 高度，不以系列其他尺寸推算。", warranty: "TEMPUR 台灣官方 3 年保固；保留購買憑證並依官網條款申請。", tags: ["台灣 Top Pick", "側睡推薦", "仰睡", "三年保固", "台灣官方"],
     },
     {
-      id: "pillow-3m-mz600", variantFamily: "3m-mz600", brand: "3M", model: "MZ600", name: "3M 防蟎可調式記憶枕 MZ600 側仰舒眠型", type: "memory_foam", typeSpec: "可調式記憶泡棉完整成品枕", budget: "premium", rank: 2, score: 91, price: 3490, priceConfidence: "2026-11-04 Chrome人工核對原商品主價格與可購狀態。", priceNote: "2026-11-04 晚間原生Chrome覆核：MZ600主商品公開顯示NT$3490，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。",
-      image: "https://img.91app.com/webapi/imagesV3/Original/SalePage/6213493/0/639237917199230000?v=1", buyUrl: "https://24h.pchome.com.tw/prod/DAAN5D-A900AJMFY", buyLabel: "PChome 24h（MZ600）",
+      id: "pillow-3m-mz600", variantFamily: "3m-mz600", brand: "3M", model: "MZ600", name: "3M 防蟎可調式記憶枕 MZ600 側仰舒眠型", type: "memory_foam", typeSpec: "可調式記憶泡棉完整成品枕", budget: "premium", rank: 2, score: 91, price: 2579, priceConfidence: "2026-11-12 人工核對原商品主區公開報價及供貨條件。", priceNote: "Yahoo 自營品號 8892209，主商品為 MZ600 側仰舒眠型，單入含原防蟎枕套。公開活動折後 NT$2,579、基準 NT$2,690，兩個購買按鈕可用，快速宅配滿 NT$480 免運。個人券、信用卡、OPENPOINT、搭配條件排除。 公開單件已達滿 NT$1,111 折 NT$111 門檻，活動 2026-11-13 09:59:59 台灣時間結束。 公開單件折扣至 2026-11-13T09:59:59+08:00。",
+      image: "https://img.91app.com/webapi/imagesV3/Original/SalePage/6213493/0/639237917199230000?v=1", buyUrl: "https://tw.buy.yahoo.com/gdsale/3M-%E9%98%B2%E8%B9%A3%E5%8F%AF%E8%AA%BF%E5%BC%8F%E8%A8%98%E6%86%B6%E6%9E%95-%E5%81%B4%E4%BB%B0%E8%88%92%E7%9C%A0%E5%9E%8B-%E5%85%A7%E9%99%84%E9%98%B2%E8%B9%A3%E6%9E%95%E5%A5%97-8892209.html", buyLabel: "Yahoo購物中心",
       sleep: "左右高包覆、側睡／仰睡；含 2 cm 可拆墊片調高", cover: "3M 物理防蟎可拆洗枕套", core: "記憶泡棉枕心與可拆式墊片", height: "高 7.5–11.5 cm＋2 cm 墊片／可調支撐", size: "長 64 x 寬 38 x 高 11.5 cm", weight: "查不到", thermal: "官方主打防蟎與包覆，未標示涼感等級", origin: "BSMI M34661；台灣製造", care: "防蟎枕套可拆洗；官方確切頁未列泡棉枕心洗滌方式，核心勿逕行機洗",
       description: "超寬輪廓搭配可拆墊片，讓同一枕芯在側睡與仰睡間微調高度。", pros: ["高度可調", "台灣製造與可信通路", "附物理防蟎枕套"], cons: ["官方頁未明示淨重", "泡棉核心不可由枕套洗法推定", "需自行找出合適墊片組合"], bestFor: "希望用墊片微調高度的仰睡或側睡成人。", recommendation: "列為仰睡推薦；先從不加墊片試睡，再逐步加高避免頸部過度屈曲。", warranty: "3M 台灣官方通路與客服；耐用保固年限未標示，退換依購買通路條款。", tags: ["仰睡推薦", "高度可調", "防蟎枕套", "台灣製造"],
     },
@@ -668,18 +668,6 @@
     product.buyLabel = "HOLA 官方（補貨中，查看供貨）";
   }
 
-  // 2026-11-04 MZ600 official-shop price update.
-  {
-    const product = products.find(({ id }) => id === "pillow-3m-mz600");
-    Object.assign(product.price, {
-      "amount": 3290,
-      "converted": 3290,
-      "confidence": "2026-11-04 Chrome人工核對3M台灣官方同SKU主價與啟用購買按鈕。",
-      "note": "只採主購區公開價，不採推薦卡或schema；不扣新會員、信用卡、點數、AFTEE新戶、租賃月付或未反映於主價的結帳優惠。 Native官方原頁MZ600側仰舒眠型，枕心64×38×7.5–11.5cm、墊片65×39×2cm，內附防蟎枕套；公開主價NT$3290；數量、加入購物車及立即結帳可用。"
-    });
-    product.buyUrl = "https://shop.3m.com.tw/SalePage/Index/6213493";
-    product.buyLabel = "3M 台灣官方商城";
-  }
 
   dashboard.registerProducts("pillow", products);
 })();

@@ -1810,11 +1810,11 @@
     "name": "32 型 4K USB-C 影音護眼螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 14143,
-      "converted": 14143,
-      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 14888,
+      "converted": 14888,
+      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-04 人工核對原始SKU API名稱、商品ID、正庫存與公開價14143元；原HTML遇429或動態限制時不當完整出貨承諾。"
+      "note": "2026-11-12 PChome 原 SKU 公開價 NT$14888，API Qty 20；個人券、點數、信用卡回饋及配送安裝費另計。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABF1A900I90FS/000001_1736480988.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABF1-A900I90FS",
@@ -2108,9 +2108,11 @@
     "name": "32 型 OLED 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 21212,
-      "converted": 21212,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 19888,
+      "converted": 19888,
+      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "basis": "retailer_current",
+      "note": "2026-11-12 PChome 原 SKU 公開價 NT$19888，API Qty 1；個人券、點數、信用卡回饋及配送安裝費另計。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABW5A900JNAEB/000001_1768452551.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABW5-A900JNAEB",
@@ -2146,16 +2148,16 @@
     "releaseDate": "2025-10-31",
     "historicalLow": {
       "status": "found",
-      "amount": 20888,
+      "amount": 19888,
       "currency": "TWD",
-      "converted": 20888,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=638526256&cgp=20888",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：ASUS華碩 32型 ROG Strix OLED XG32UCWG 電競螢幕",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - eclife良興購物網 / ASUS華碩 32型 ROG Strix OLED XG32UCWG 電競螢幕」最低價為 NT$20,888，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 19888,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DSABW5-A900JNAEB",
+      "sourceTitle": "PChome 24h 購物：ASUS 華碩 XG32UCWG 32型 OLED電競螢幕",
+      "evidenceSnippet": "PChome 24h 購物於 2026-11-12 顯示同型號可信新品公開價 NT$19,888，低於既有史低 NT$20,888。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-11-12",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2308,15 +2310,15 @@
     "name": "27 型 WQHD 360Hz QD-OLED 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 16055,
-      "converted": 16055,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-04 午後人工覆核：Yahoo MPG 271QRX主商品本輪展示16900元，但購買區明示「已售完，貨到通知我」，沒有立即購買/加入購物車；保留16055元舊參考價，不採停售/缺貨展示價或自行乘算活動折扣。這是通路listing狀態，不能據此認定原廠整型停產。",
+      "amount": 16900,
+      "converted": 16900,
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "note": "Yahoo 原商品公開價 NT$16900；原商品主區有購買按鈕。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBC1ZA900HE04M/000001_1757303897.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/MSI%E5%BE%AE%E6%98%9F-MPG-271QRX-QD-OLED-27%E5%9E%8B-2K-360Hz-HDR%E9%9B%BB%E7%AB%B6%E8%9E%A2%E5%B9%95-10958143.html",
-    "buyLabel": "Yahoo購物（缺貨，現價待確認）",
+    "buyLabel": "Yahoo購物中心",
     "specs": [
       "27 吋",
       "2K/QHD",
@@ -3278,11 +3280,11 @@
       "amount": 6588,
       "converted": 6588,
       "confidence": "Yahoo購物中心 2026-07-21 頁面公開價",
-      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
+      "note": "Yahoo 原商品主區顯示此賣場已停售；保留先前參考價，供貨待查。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABPFA900K0AJK/000001_1778658221.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/MSI%E5%BE%AE%E6%98%9FPRO-MP341CQW-E12-34%E5%9E%8B-VA-UWQHD-120Hz-%E6%9B%B2%E9%9D%A2%E8%9E%A2%E5%B9%95-1ms-12002868.html",
-    "buyLabel": "Yahoo購物中心（來源待確認）",
+    "buyLabel": "Yahoo購物中心（此賣場已停售）",
     "specs": [
       "34 吋",
       "UWQHD",
@@ -6117,10 +6119,11 @@
     "name": "ROG Strix XG27UCG Gen2 27 型 4K 162Hz／FHD 485Hz 雙模 Fast IPS 電競螢幕（黑色）",
     "price": {
       "currency": "TWD",
-      "amount": 10888,
-      "converted": 10888,
+      "amount": 9988,
+      "converted": 9988,
       "basis": "retailer_current",
-      "confidence": "myfone 網路門市 2026-09-07 exact XG27UCGR 黑色新品公開網路價 NT$10,888（定價 NT$11,888）；未扣會員、信用卡或點數回饋"
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "note": "myfone 台灣原商品 XG27UCGR 主區網路限定價 NT$9,988，原價 NT$10,888；配送與付款以通路為準。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DSABKBA900K47R9/000001_1781515856.jpg",
     "buyUrl": "https://www.myfone.com.tw/buy/prod/P0000203775885",

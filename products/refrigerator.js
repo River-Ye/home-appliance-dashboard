@@ -17,7 +17,9 @@
       "currency": "TWD",
       "amount": 15304,
       "converted": 15304,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "basis": "retailer_current",
+      "note": "Yahoo 原商品公開價 NT$15304，公開折扣截至 2026-12-31T23:59:59+08:00；原商品主區有購買按鈕。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -120,7 +122,9 @@
       "currency": "TWD",
       "amount": 11784,
       "converted": 11784,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "basis": "retailer_current",
+      "note": "Yahoo 原商品公開價 NT$11784，公開折扣截至 2026-12-31T23:59:59+08:00；原商品主區有購買按鈕。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -221,14 +225,14 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/5D663CB1FD-SP-22040968.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 9911,
-      "converted": 9911,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 11900,
+      "converted": 11900,
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "2026-11-04 原生Chrome Yahoo exact SKU11979117主商品雖顯示$11111及$14590，但按鈕明示「已售完，貨到通知我」。11111是缺貨展示價，拒絕寫入；保留先前9911參考價，揭露該通路缺貨，不據此推官方停產。 不另扣會員券、信用卡、點數或推算優惠；送貨及基本安裝條件依原頁。"
+      "note": "Yahoo 原商品公開價 NT$11900；原商品主區有購買按鈕。"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo 缺貨／貨到通知",
+    "buyLabel": "Yahoo購物中心",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-217%E5%85%AC%E5%8D%87-%E6%99%BA%E6%85%A7%E8%AE%8A%E9%A0%BB%E9%9B%99%E9%96%80%E5%86%B0%E7%AE%B1-%E6%98%9F%E8%BE%B0%E9%8A%80-GN-L217SVN-11979117.html",
     "specs": [
       "冰箱：LG樂金 217公升 智慧變頻雙門冰箱 星辰銀 GN-L217SVN",
@@ -434,10 +438,10 @@
       "amount": 36270,
       "converted": 36270,
       "confidence": "Yahoo購物中心 2026-09-14 exact-model 公開結構化價格",
-      "note": "2026-11-04 午後人工覆核：Yahoo NR-C505XV-W主商品本輪展示40300元，但購買區明示「已停售」，沒有立即購買/加入購物車；保留36270元舊參考價，不採停售/缺貨展示價或自行乘算活動折扣。這是通路listing狀態，不能據此認定原廠整型停產。"
+      "note": "Yahoo 原商品主區顯示此賣場已停售；保留先前參考價，供貨待查。"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物（停售，現價待確認）",
+    "buyLabel": "Yahoo購物中心（此賣場已停售）",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic%E5%9C%8B%E9%9A%9B%E7%89%8C-500%E5%85%AC%E5%8D%87%E4%B8%80%E7%B4%9A%E8%83%BD%E6%95%88%E4%B8%89%E9%96%80%E8%AE%8A%E9%A0%BB%E5%86%B0%E7%AE%B1%E9%9B%AA%E9%9C%A7%E7%99%BDNR-C505XV-W-11322787.html",
     "specs": [
       "冰箱：Panasonic國際牌 500公升一級能效無邊框鋼板系列三門變頻電冰箱NR-C505XV-W~含拆箱定位",
@@ -538,10 +542,10 @@
       "amount": 40185,
       "converted": 40185,
       "confidence": "Yahoo購物中心 2026-07-11 頁面查核價",
-      "note": "2026-11-04 午後人工覆核：Yahoo NR-D505XV-W主商品本輪展示42300元，但購買區明示「已停售」，沒有立即購買/加入購物車；保留40185元舊參考價，不採停售/缺貨展示價或自行乘算活動折扣。這是通路listing狀態，不能據此認定原廠整型停產。"
+      "note": "Yahoo 原商品主區顯示此賣場已停售；保留先前參考價，供貨待查。"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物（停售，現價待確認）",
+    "buyLabel": "Yahoo購物中心（此賣場已停售）",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic%E5%9C%8B%E9%9A%9B%E7%89%8C-500%E5%85%AC%E5%8D%87%E4%B8%80%E7%B4%9A%E8%83%BD%E6%95%88%E7%84%A1%E9%82%8A%E6%A1%86%E9%8B%BC%E6%9D%BF%E7%B3%BB%E5%88%97%E5%9B%9B%E9%96%80%E8%AE%8A%E9%A0%BB%E9%9B%BB%E5%86%B0%E7%AE%B1NR-D505XV-W-%E5%90%AB%E6%8B%86-11310319.html",
     "specs": [
       "冰箱：Panasonic國際牌 500公升一級能效無邊框鋼板系列四門變頻電冰箱NR-D505XV-W~含拆箱定位",
@@ -953,10 +957,10 @@
       "amount": 11900,
       "converted": 11900,
       "confidence": "Yahoo購物中心 2026-07-17 商品頁公開價",
-      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。 2026-11-01 Yahoo選定同型原主頁明示已售完／貨到通知，未採畫面報價作可購現價；原參考價保留，不能推定原廠停產。"
+      "note": "Yahoo 原商品主區顯示此賣場已售完；保留先前參考價，供貨待查。"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心｜已售完，查看供貨",
+    "buyLabel": "Yahoo購物中心（此賣場已售完）",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SAMSUNG%E4%B8%89%E6%98%9F-237%E5%85%AC%E5%8D%87-1%E7%B4%9A%E8%AE%8A%E9%A0%BB%E9%9B%99%E9%96%80%E9%9B%BB%E5%86%B0%E7%AE%B1-RT22M4015S8-TW-11647216.html",
     "specs": [
       "冰箱：SAMSUNG三星 237公升 1級變頻雙門電冰箱 RT22M4015S8/TW",
@@ -1056,8 +1060,9 @@
       "currency": "TWD",
       "amount": 11900,
       "converted": 11900,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價",
-      "note": "2026-11-04 Yahoo SR-F12GD本輪原主頁11900、立即購買/加車，現頁已無舊11/6預購文字；配送仍由出貨廠商聯絡約定時間，不承諾立即到貨。"
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "note": "Yahoo 原商品公開價 NT$11900，公開折扣截至 2026-12-31T23:59:59+08:00；原商品主區有購買按鈕。",
+      "basis": "retailer_current"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心｜專人約配",
@@ -1371,10 +1376,10 @@
       "amount": 12511,
       "converted": 12511,
       "confidence": "Yahoo購物中心 2026-07-11 頁面查核價",
-      "note": "2026-11-04 午後人工覆核：Yahoo SR-V150BF主商品本輪展示13169元，但購買區明示「已停售」，沒有立即購買/加入購物車；保留12511元舊參考價，不採停售/缺貨展示價或自行乘算活動折扣。這是通路listing狀態，不能據此認定原廠整型停產。"
+      "note": "Yahoo 原商品主區顯示此賣場已停售；保留先前參考價，供貨待查。"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物（停售，現價待確認）",
+    "buyLabel": "Yahoo購物中心（此賣場已停售）",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SANLUX-%E5%8F%B0%E7%81%A3%E4%B8%89%E6%B4%8B-156%E5%85%AC%E5%8D%87%E9%83%BD%E6%9C%83%E5%B0%8F%E5%AE%85%E9%9B%BB%E5%86%B0%E7%AE%B1-SR-V150BF-11777652.html",
     "specs": [
       "冰箱：【SANLUX 台灣三洋】 156公升都會小宅電冰箱(SR-V150BF)",
@@ -1475,10 +1480,10 @@
       "amount": 9499,
       "converted": 9499,
       "confidence": "Yahoo購物中心 2026-09-14 exact-model 公開結構化價格",
-      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。 2026-11-01 Yahoo選定原商品頁顯示已停售，零售下架不等同原廠整型停產；不採頁面殘留價格更新，保留原參考價及待查通路。"
+      "note": "Yahoo 原商品主區顯示此賣場已停售；保留先前參考價，供貨待查。"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心（原通路缺貨，查看供貨）",
+    "buyLabel": "Yahoo購物中心（此賣場已停售）",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SANLUX%E5%8F%B0%E7%81%A3%E4%B8%89%E6%B4%8B-192L-1%E7%B4%9A%E8%AE%8A%E9%A0%BB%E9%9B%99%E9%96%80%E9%9B%BB%E5%86%B0%E7%AE%B1SR-C192BV1-10126857.html",
     "specs": [
       "冰箱：【SANLUX 台灣三洋】192L 一級變頻雙門電冰箱 SR-C192BV1",
@@ -1683,10 +1688,10 @@
       "amount": 17910,
       "converted": 17910,
       "confidence": "Yahoo購物中心 2026-10-20 exact-model 公開結構化價格",
-      "note": "2026-11-04 午後人工覆核：Yahoo RT47CG662AS9主商品本輪展示19900元，但購買區明示「已停售」，沒有立即購買/加入購物車；保留17910元舊參考價，不採停售/缺貨展示價或自行乘算活動折扣。這是通路listing狀態，不能據此認定原廠整型停產。"
+      "note": "Yahoo 原商品主區顯示此賣場已停售；保留先前參考價，供貨待查。"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物（停售，現價待確認）",
+    "buyLabel": "Yahoo購物中心（此賣場已停售）",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SAMSUNG-%E4%B8%89%E6%98%9F-466%E5%85%AC%E5%8D%87-%E4%B8%80%E7%B4%9A%E8%83%BD%E6%95%88%E6%99%BA%E6%85%A7%E7%AF%80%E8%83%BD%E8%AE%8A%E9%A0%BB%E6%A5%B5%E7%B0%A1%E9%9B%99%E9%96%80%E5%86%B0%E7%AE%B1-RT47CG662AS9-11751994.html",
     "specs": [
       "冰箱：【SAMSUNG 三星】 466公升 一級能效智慧節能變頻極簡雙門冰箱 RT47CG662AS9",
@@ -1786,7 +1791,9 @@
       "currency": "TWD",
       "amount": 23310,
       "converted": 23310,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "basis": "retailer_current",
+      "note": "Yahoo 原商品公開價 NT$23310，公開折扣截至 2026-12-31T23:59:59+08:00；原商品主區有購買按鈕。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1889,7 +1896,9 @@
       "currency": "TWD",
       "amount": 19900,
       "converted": 19900,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "basis": "retailer_current",
+      "note": "Yahoo 原商品公開價 NT$19900，公開折扣截至 2026-12-31T23:59:59+08:00；原商品主區有購買按鈕。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1992,7 +2001,9 @@
       "currency": "TWD",
       "amount": 17900,
       "converted": 17900,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "basis": "retailer_current",
+      "note": "Yahoo 原商品公開價 NT$17900，公開折扣截至 2026-12-31T23:59:59+08:00；原商品主區有購買按鈕。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -2610,18 +2621,18 @@
     "name": "525L 日製六門玻璃鏡面變頻冰箱",
     "price": {
       "currency": "TWD",
-      "amount": 62230,
-      "converted": 62230,
-      "confidence": "雅光電器 2026-08-14 exact-model 新品頁公開售價並標示尚有庫存",
+      "amount": 62900,
+      "converted": 62900,
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。"
+      "note": "原雅光白色 SKU MRWX53CW。老王原商品頁水晶白 MR-WX53C-W-C，公開標價 NT$62,900。未登入原頁明示須登入看結帳價，不扣結帳折、政府補助、點數或匯款優惠。台灣可訂購約 3–7 天，門市無現貨，含標準安裝。"
     },
     "image": "https://cdn1-next.cybassets.com/media/W1siZiIsIjI3Njc0L3Byb2R1Y3RzLzQ0NjYyNTkzLzE3MDYxNTcxODVfYTJlOWQ3ZWJkYzE5NzZjNjk5NTYuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=04b5f131ce6672e3",
-    "buyUrl": "https://www.yk01.com.tw/products/mrwx53c",
-    "buyLabel": "雅光電器（來源待確認）",
+    "buyUrl": "https://www.unbox.tw/product/%E3%80%90mitsubishi-%E4%B8%89%E8%8F%B1%E3%80%91525l-%E8%AE%8A%E9%A0%BB%E5%85%AD%E9%96%80%E5%86%B0%E7%AE%B1-%E6%B0%B4%E6%99%B6%E7%99%BD-mr-wx53c-w-c",
+    "buyLabel": "老王電器（可訂購）",
     "installation": {
-      "status": "not_stated",
-      "note": "雅光 exact-model 現售頁未明確說明價格是否含基本安裝；大型家電配送定位、舊機回收、偏遠與無電梯樓層加價須下單前確認。"
+      "status": "included_basic",
+      "note": "含基本安裝及一般樓層搬運定位。同類舊機回收請下單時告知；特殊搬運、樓層、偏遠地區或離島可能加價或另行約配。"
     },
     "specs": [
       "總容量 525L、日製六門玻璃鏡面",
@@ -2826,10 +2837,11 @@
     "image": "https://img.pchome.com.tw/cs/items/DPACHEA900KIO2T/000001_1790827796.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 48500,
-      "converted": 48500,
+      "amount": 43650,
+      "converted": 43650,
       "basis": "retailer_current",
-      "confidence": "PChome商品API與原頁2026-10-19核對；公開網路價48500，未扣點數、信用卡或會員券"
+      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-12 PChome 原 SKU 公開價 NT$43650，API Qty 2；個人券、點數、信用卡回饋及配送安裝費另計。"
     },
     "channel": "tw",
     "buyLabel": "PChome 24h購物",
@@ -2855,7 +2867,7 @@
       "台灣公司貨110V／60Hz，可透過Panasonic台灣售後服務"
     ],
     "cons": [
-      "48,500元高於既有500L鋼板款，應比較價差與外觀需求",
+      "應與既有 500L 鋼板款比較即時價差與外觀需求",
       "72.1cm機身寬度仍須加留散熱及開門空間",
       "94kg淨重，樓層或特殊搬運可能加價；上市與可靠史低日期未確認"
     ],
@@ -3940,10 +3952,11 @@
     "image": "https://img.pchome.com.tw/cs/items/DPACHEA900KH8OJ/000001_1789983150.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 49500,
-      "converted": 49500,
+      "amount": 44550,
+      "converted": 44550,
       "basis": "retailer_current",
-      "confidence": "PChome 2026-10-20 原頁與 exact-model API 雙重核對；Price.Low 無正值，採公開網路價 Price.P，Qty 2；未扣會員券、點數或信用卡回饋"
+      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-12 PChome 原 SKU 公開價 NT$44550，API Qty 2；個人券、點數、信用卡回饋及配送安裝費另計。"
     },
     "channel": "tw",
     "buyLabel": "PChome（廠商約配）",
@@ -4219,10 +4232,11 @@
     "image": "https://img.pchome.com.tw/cs/items/DPACHEA900KH8WT/000001_1790239025.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 47500,
-      "converted": 47500,
+      "amount": 42750,
+      "converted": 42750,
       "basis": "retailer_current",
-      "confidence": "PChome 2026-10-20 原頁與 exact-model API 雙重核對；Price.Low 無正值，採公開網路價 Price.P，Qty 2；未扣會員券、點數或信用卡回饋"
+      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-12 PChome 原 SKU 公開價 NT$42750，API Qty 2；個人券、點數、信用卡回饋及配送安裝費另計。"
     },
     "channel": "tw",
     "buyLabel": "PChome（廠商約配）",
@@ -4594,8 +4608,8 @@
       "amount": 86950,
       "converted": 86950,
       "basis": "retailer_current",
-      "confidence": "Yahoo購物中心 2026-10-20 exact-model 公開結構化價格",
-      "note": "可下單約配，並非即時現貨或到貨日期保證；實際交期由出貨廠商確認。"
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "note": "Yahoo 原商品公開價 NT$86950，公開折扣截至 2026-12-31T13:12:59+08:00；原商品主區有購買按鈕。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo（可下單／約配）",
@@ -4688,8 +4702,8 @@
       "amount": 77984,
       "converted": 77984,
       "basis": "retailer_current",
-      "confidence": "Yahoo購物中心 2026-10-20 exact-model 公開結構化價格",
-      "note": "可下單約配，並非即時現貨或到貨日期保證；實際交期由出貨廠商確認。"
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "note": "Yahoo 原商品公開價 NT$77984，公開折扣截至 2026-12-31T13:12:59+08:00；原商品主區有購買按鈕。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo（可下單／約配）",

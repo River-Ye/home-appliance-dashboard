@@ -501,9 +501,11 @@
     "name": "14 吋 DC 微電腦定時電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 2995,
-      "converted": 2995,
-      "confidence": "PChome 2026-09-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 2611,
+      "converted": 2611,
+      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "basis": "retailer_current",
+      "note": "2026-11-12 PChome 原 SKU 公開價 NT$2611，API Qty 9；個人券、點數、信用卡回饋及配送安裝費另計。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABLMA900EOQ12/000001_1695005225.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMABLM-A900EOQ12",
@@ -536,15 +538,15 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 2699,
+      "amount": 2611,
       "currency": "TWD",
-      "converted": 2699,
+      "converted": 2611,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DMABLM-A900EOQ12",
       "sourceTitle": "PChome 24h 購物：Panasonic國際牌14吋DC微電腦定時立扇(負離子/ECO溫控)F-H14GND-K",
-      "evidenceSnippet": "PChome 24h 購物於 2026-09-09 顯示同型號可信新品公開價 NT$2,699，低於既有史低 NT$2,990。",
+      "evidenceSnippet": "PChome 24h 購物於 2026-11-12 顯示同型號可信新品公開價 NT$2,611，低於既有史低 NT$2,699。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-09-09",
+      "checkedAt": "2026-11-12",
       "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
@@ -791,11 +793,11 @@
     "name": "16 吋 DC 變頻高級型溫感遙控電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 2911,
-      "converted": 2911,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 2411,
+      "converted": 2411,
+      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-01 人工逐筆核對PChome原產品API：Panasonic國際牌 16吋DC變頻高級型溫感遙控立扇F-L16GMD；Price.Low=2911元，Qty=20，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
+      "note": "2026-11-12 PChome 原 SKU 公開價 NT$2411，API Qty 20；個人券、點數、信用卡回饋及配送安裝費另計。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB30A900EOQ5X/000001_1693793932.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAB30-A900EOQ5X",
@@ -828,15 +830,15 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 2911,
+      "amount": 2411,
       "currency": "TWD",
-      "converted": 2911,
+      "converted": 2411,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DMAB30-A900EOQ5X",
       "sourceTitle": "PChome 24h 購物：Panasonic國際牌 16吋DC變頻高級型溫感遙控立扇F-L16GMD",
-      "evidenceSnippet": "PChome 24h 購物於 2026-11-01 顯示同型號可信新品公開價 NT$2,911，低於既有史低 NT$3,090。",
+      "evidenceSnippet": "PChome 24h 購物於 2026-11-12 顯示同型號可信新品公開價 NT$2,411，低於既有史低 NT$2,911。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-11-01",
+      "checkedAt": "2026-11-12",
       "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
@@ -1968,11 +1970,11 @@
     "name": "14 吋 7 葉片 DC 遙控立扇",
     "price": {
       "currency": "TWD",
-      "amount": 2421,
-      "converted": 2421,
-      "confidence": "PChome 2026-11-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 2690,
+      "converted": 2690,
+      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-05 PChome原SKU API公開價 2421 TWD；先前促銷金額不沿用。未扣個人券、點數或信用卡回饋；實際配送與安裝條件依通路確認。"
+      "note": "2026-11-12 PChome 原 SKU 公開價 NT$2690，API Qty 20；個人券、點數、信用卡回饋及配送安裝費另計。"
     },
     "installation": {
       "status": "not_stated",

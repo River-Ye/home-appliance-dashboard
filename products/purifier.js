@@ -209,14 +209,15 @@
     "name": "Purifier Cool 二合一涼風智能空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 11900,
-      "converted": 11900,
-      "confidence": "Yahoo購物中心 2026-09-14 exact-model 公開結構化價格",
-      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
+      "amount": 12900,
+      "converted": 12900,
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "note": "Yahoo 原商品頁停售；改用 PChome 同型新品 SKU DMAU3C-A900J2MVZ。主商品和 API 型號一致，API Qty 12，公開價 NT$12900；未扣個人券、點數或信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3CA900K0T3T/000001_1779087672.jpg",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Dyson-%E6%88%B4%E6%A3%AE-Purifier-Cool-%E4%BA%8C%E5%90%88%E4%B8%80%E6%B6%BC%E9%A2%A8%E6%99%BA%E8%83%BD%E7%A9%BA%E6%B0%A3%E6%B8%85%E6%B7%A8%E6%A9%9FTP11-%E7%99%BD%E8%89%B2-12000846.html",
-    "buyLabel": "Yahoo購物中心（原通路缺貨，查看供貨）",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAU3C-A900J2MVZ",
+    "buyLabel": "PChome 24h 購物",
     "specs": [
       "清淨 + 涼風",
       "智慧偵測",
@@ -306,11 +307,11 @@
     "name": "17 坪 360 度高效過濾空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 6892,
-      "converted": 6892,
-      "confidence": "PChome 2026-11-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 6669,
+      "converted": 6669,
+      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-05 PChome原SKU API公開價 6892 TWD；先前促銷金額不沿用。未扣個人券、點數或信用卡回饋；實際配送與安裝條件依通路確認。"
+      "note": "2026-11-12 PChome 原 SKU 公開價 NT$6669，API Qty 20；個人券、點數、信用卡回饋及配送安裝費另計。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900GH5RL/000001_1781800112.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAC2O-A900GH5RL",
@@ -1187,12 +1188,13 @@
       "currency": "TWD",
       "amount": 14900,
       "converted": 14900,
-      "confidence": "Yahoo購物中心 2026-09-14 exact-model 公開結構化價格",
-      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "note": "Yahoo 原商品頁停售；改用 PChome 同型新品 SKU DMAU3C-A900J2MV6。主商品和 API 型號一致，API Qty 20，公開價 NT$14900；未扣個人券、點數或信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3CA900J2MV6/000001_1767758338.jpg",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Dyson%E6%88%B4%E6%A3%AE-Purifier-Hot-Cool-%E4%B8%89%E5%90%88%E4%B8%80%E6%B6%BC%E6%9A%96%E6%99%BA%E8%83%BD%E7%A9%BA%E6%B0%A3%E6%B8%85%E6%B7%A8%E6%A9%9F-HP11-%E7%99%BD%E8%89%B2-%E8%B4%88%E7%BE%8E%E9%AB%AE-11937837.html",
-    "buyLabel": "Yahoo購物中心（原通路缺貨，查看供貨）",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAU3C-A900J2MV6",
+    "buyLabel": "PChome 24h 購物",
     "specs": [
       "涼暖三合一",
       "空氣清淨",
@@ -1282,15 +1284,15 @@
     "name": "Purifier Cool De-NOx 甲醛 NOx 偵測涼風空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 20064,
-      "converted": 20064,
-      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-04 午後人工覆核：Yahoo同型號主商品公開價20064元；立即購買/加入購物車可用。TP12原頁仍明示預購，交期待確認；96折20064本輪實際新截止11/5 09:59:59。 不扣個人化回饋或贈品。",
+      "amount": 20900,
+      "converted": 20900,
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "note": "11/12 中午優惠結束後重新讀取 Yahoo 11903396，TP12 主購買區公開預購價 NT$20,900。配送以通路通知為準。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3CA900HTKRG/000001_1767758629.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Dyson-%E6%88%B4%E6%A3%AE-Purifier-Cool-%E7%94%B2%E9%86%9BNOx-%E5%81%B5%E6%B8%AC%E6%B6%BC%E9%A2%A8%E7%A9%BA%E6%B0%A3%E6%B8%85%E6%B7%A8%E6%A9%9FTP12-%E4%BA%8C%E8%89%B2%E5%8F%AF%E9%81%B8-11903396.html",
-    "buyLabel": "Yahoo購物（預購，交期請確認）",
+    "buyLabel": "Yahoo購物中心（預購）",
     "specs": [
       "涼風清淨",
       "甲醛/NOx 偵測",
@@ -1380,11 +1382,11 @@
     "name": "奈米級空氣清淨機 MUJI AC0650",
     "price": {
       "currency": "TWD",
-      "amount": 4640,
-      "converted": 4640,
-      "confidence": "PChome 2026-11-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 4491,
+      "converted": 4491,
+      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-05 PChome原SKU API公開價 4640 TWD；先前促銷金額不沿用。未扣個人券、點數或信用卡回饋；實際配送與安裝條件依通路確認。"
+      "note": "2026-11-12 PChome 原 SKU 公開價 NT$4491，API Qty 20；個人券、點數、信用卡回饋及配送安裝費另計。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900GD1ZV/000001_1781800174.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAC2O-A900GD1ZV",
@@ -1478,11 +1480,11 @@
     "name": "新氣几 UV 抑菌空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 12911,
-      "converted": 12911,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "amount": 13990,
+      "converted": 13990,
+      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。"
+      "note": "2026-11-12 PChome 原 SKU 公開價 NT$13990，API Qty 20；個人券、點數、信用卡回饋及配送安裝費另計。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU5EA900JYG1W/000001_1782872854.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU5E-A900JYG1W",
@@ -1770,11 +1772,11 @@
     "name": "寵物抗敏空氣清淨機輕量版",
     "price": {
       "currency": "TWD",
-      "amount": 10220,
-      "converted": 10220,
-      "confidence": "PChome 2026-11-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 9891,
+      "converted": 9891,
+      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-05 PChome原SKU API公開價 10220 TWD；先前促銷金額不沿用。未扣個人券、點數或信用卡回饋；實際配送與安裝條件依通路確認。"
+      "note": "2026-11-12 PChome 原 SKU 公開價 NT$9891，API Qty 20；個人券、點數、信用卡回饋及配送安裝費另計。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900J7SBO/000001_1781799851.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAC2O-A900J7SBO",
@@ -1868,9 +1870,11 @@
     "name": "PuriCare 超淨化大白空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 6881,
-      "converted": 6881,
-      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 6581,
+      "converted": 6581,
+      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "basis": "retailer_current",
+      "note": "2026-11-12 PChome 原 SKU 公開價 NT$6581，API Qty 10；個人券、點數、信用卡回饋及配送安裝費另計。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU0BA900GI0Q1/000001_1763349087.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU0B-A900GI0Q1",
@@ -2060,11 +2064,11 @@
     "name": "Big+Quiet 強效極靜抗敏空氣清淨機濾網組",
     "price": {
       "currency": "TWD",
-      "amount": 19999,
-      "converted": 19999,
-      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
+      "amount": 21999,
+      "converted": 21999,
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "2026-11-05 Chrome原頁已載入折扣小計NT$19999（含運），需Costco會員；未扣信用卡與黑鑽回饋。"
+      "note": "兩次瀏覽器核對 Costco 台灣原商品 156487，主購買區為 NT$21,999 含運、加入購物車可用。先前 NT$19,999 未於本次主區重現；需依 Costco 購買資格。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h88/h75/382511683305502.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Air-Purifiers-Filters-Accessories/Dyson-Purifier-BigQuiet-BP02-Filter-X-3-Pack/p/156487",
@@ -2263,11 +2267,11 @@
     "name": "迷你奈抗敏奈米級空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 7430,
-      "converted": 7430,
-      "confidence": "PChome 2026-11-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 7191,
+      "converted": 7191,
+      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-05 PChome原SKU API公開價 7430 TWD；先前促銷金額不沿用。未扣個人券、點數或信用卡回饋；實際配送與安裝條件依通路確認。"
+      "note": "2026-11-12 PChome 原 SKU 公開價 NT$7191，API Qty 7；個人券、點數、信用卡回饋及配送安裝費另計。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAUFVA900JZR3M/000001_1785203322.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUFV-A900JZR3M",
@@ -2582,11 +2586,11 @@
     "name": "4–8 坪抗敏系列空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 2737,
-      "converted": 2737,
-      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 3111,
+      "converted": 3111,
+      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-04 下午重新查核：PChome exact SKU DMAU00-A77331975；Price.Low=2737元，Qty=78。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。"
+      "note": "2026-11-12 PChome 原 SKU 公開價 NT$3111，API Qty 67；個人券、點數、信用卡回饋及配送安裝費另計。"
     },
     "installation": {
       "status": "not_stated",
@@ -2872,6 +2876,109 @@
       "自動刮毛",
       "15–17坪",
       "一級能效",
+      "台灣公司貨"
+    ]
+  },
+  {
+    "id": "purifier-sharp-fp-s72t-b",
+    "category": "purifier",
+    "brand": "SHARP",
+    "model": "FP-S72T-B",
+    "name": "SHARP 清淨方 Purefit Middle 雙向速淨智慧空氣清淨機（玄岩棕）",
+    "rank": 30,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "price": {
+      "currency": "TWD",
+      "amount": 14900,
+      "converted": 14900,
+      "basis": "retailer_current",
+      "confidence": "2026-11-12 實讀 momo 台灣原商品頁，核對玄岩棕 FP-S72T-B 單機、可選數量及可購按鈕。",
+      "note": "2026-11-12 momo 品號 15795994 顯示限時單件折後 NT$14,900，促銷基準 NT$16,900，可選 1 或 2 件並顯示宅配／離島配送。公開單件價已折 NT$2,000，優惠說明未明示截止；實際金額與交期以通路為準。"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "台灣 110V 插座供電，可自行裝妥濾網與定位；通路頁未標示到府安裝服務。"
+    },
+    "image": "https://i1.momoshop.com.tw/1793265220/goodsimg/0015/795/994/15795994_L.jpg",
+    "buyUrl": "https://www.momoshop.com.tw/product/15795994",
+    "buyLabel": "momo 購物網",
+    "specs": [
+      "潔淨空氣提供率：6.80 m³/min；最高風量 420 m³/h",
+      "適用面積：日本 JEM1467 最大 54 m²（約 16 坪）；台灣 CNS16098 為 35.3 m²（約 10.7 坪）",
+      "濾網：雙側吸氣，前置網、nanoHD Plus 集塵 FZ-S80H2E、活性碳 FZ-D40D2E",
+      "運轉：強／中／靜音 50／47／16 dB（JEM1467），36／24／4.5 W",
+      "智慧控制：Wi-Fi 2.4／5GHz、藍牙 LE，COCORO HOME 支援寵物及遠端定時",
+      "尺寸：28.5 寬 × 28.5 深 × 52.5 高 cm",
+      "重量：約 7.2 kg"
+    ],
+    "description": "Purefit Middle 增加具雙側三層過濾、寵物模式與 Wi-Fi 的中坪數選擇。可依台灣 CNS16098 標準，以約 10.7 坪估算單一房間的覆蓋範圍。",
+    "pros": [
+      "機身占地 28.5 × 28.5 cm，擺放較有彈性",
+      "原廠提供雙側集塵、活性碳與替換型號",
+      "具專屬寵物模式與遠端控制"
+    ],
+    "cons": [
+      "雙側進風需留空，濾網應按使用環境提早更換",
+      "遠端與排程功能需使用 App",
+      "強檔原廠噪音 50 dB，宜與靜音檔風量一同比較"
+    ],
+    "bestFor": "重視寵物異味與毛絮、需要中小坪數清淨及智慧控制的家庭。",
+    "recommendation": "適合可留雙側進風空間、偏好遠端排程及寵物模式的使用者。請按台灣適用面積與耗材價格比較。",
+    "releaseDate": "2026-10-01",
+    "historicalLow": {
+      "status": "found",
+      "amount": 14900,
+      "currency": "TWD",
+      "converted": 14900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1293632036&cgp=14900",
+      "sourceTitle": "LBJ 比價撿便宜歷史價格：momo SHARP FP-S72T-B 16坪 Purefit 清淨機",
+      "evidenceSnippet": "LBJ 品號 1293632036 對應 momo 單機品號 15795994。曲線列 2026-10-12、10-22 為 16,900 元，2026-10-28 為 14,900 元，11-12 再見 14,900 元。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-12",
+      "note": "採同一台灣 momo FP-S72T-B 玄岩棕單機歷史曲線，最低可驗證觀測點為 2026-10-28 NT$14,900。排除預購集資贈品方案、其他色碼、濾網及個人優惠。現查通路單件價與已查史低相同。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-11-12",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"FP-S72T-B\"",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22FP-S72T-B%22"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"FP-S72T-B\"",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22FP-S72T-B%22"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "site:dcard.tw \"FP-S72T-B\"",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22FP-S72T-B%22"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"FP-S72T-B\"",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22FP-S72T-B%22"
+        }
+      ]
+    },
+    "score": 84,
+    "voltage": "110V／60Hz 台灣公司貨",
+    "warranty": "momo 標示台灣 1 年保固；台灣夏普客服 0809-090-510",
+    "tags": [
+      "寵物模式",
+      "雙側進風",
+      "Wi-Fi",
       "台灣公司貨"
     ]
   }

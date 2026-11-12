@@ -17,9 +17,11 @@
     "name": "65 型 OLED evo C5 4K 智慧顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 52900,
-      "converted": 52900,
-      "confidence": "PChome 2026-09-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 49911,
+      "converted": 49911,
+      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "basis": "retailer_current",
+      "note": "2026-11-12 PChome 原 SKU 公開價 NT$49911，API Qty 20；個人券、點數、信用卡回饋及配送安裝費另計。"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADYE1900JG394/000001_1762971547.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADYE-A900JC4MY",
@@ -727,11 +729,11 @@
     "name": "65 型 4K 120Hz 量子點護眼 Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 25017,
-      "converted": 25017,
-      "confidence": "PChome 2026-11-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 25900,
+      "converted": 25900,
+      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-05 PChome原SKU API公開價 25017 TWD；先前促銷金額不沿用。未扣個人券、點數或信用卡回饋；實際配送與安裝條件依通路確認。"
+      "note": "2026-11-12 PChome 原 SKU 公開價 NT$25900，API Qty 20；個人券、點數、信用卡回饋及配送安裝費另計。"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD0O1900IEK5W/000001_1761401167.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAD0O-1900IEK5W",
@@ -3976,11 +3978,11 @@
     "name": "65 型 S-960 Mini LED 量子點 144Hz 遊戲 Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 37111,
-      "converted": 37111,
+      "amount": 44900,
+      "converted": 44900,
       "basis": "retailer_current",
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-01 人工逐筆核對PChome原產品API：BenQ 65型 Mini LED量子點遊戲Google TV S65-960；Price.Low=37111元，Qty=20，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
+      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-12 PChome 原 SKU 公開價 NT$44900，API Qty 20；個人券、點數、信用卡回饋及配送安裝費另計。"
     },
     "installation": {
       "status": "not_stated",

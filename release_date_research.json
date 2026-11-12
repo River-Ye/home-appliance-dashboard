@@ -1,20 +1,21 @@
 {
   "summary": {
-    "checkedAt": "2026-11-04T00:00:00+08:00",
-    "total": 1258,
-    "researchedThisRun": 27,
-    "found": 363,
-    "missing": 895,
+    "checkedAt": "2026-11-12T04:08:33.096Z",
+    "total": 1261,
+    "researchedThisRun": 3,
+    "found": 365,
+    "missing": 896,
     "byConfidence": {
       "official": 187,
-      "not_found": 892,
-      "retailer_explicit": 23,
+      "not_found": 893,
+      "retailer_explicit": 24,
       "credible_article": 52,
       "high": 81,
-      "medium": 20,
+      "medium": 21,
       "unknown": 3
     },
-    "sourcePolicy": "本輪僅新增/身份更正商品完成獨立上市日研究；既有逐筆證據及實際查核日期保留，不將來源維護範圍當成重新人工研究。"
+    "sourcePolicy": "本輪僅新增/身份更正商品完成獨立上市日研究；既有逐筆證據及實際查核日期保留，不將來源維護範圍當成重新人工研究。",
+    "scopeNote": "2026-11-12 僅新增型號完成上市查核；既有逐筆證據保留原查核日期。"
   },
   "results": [
     {
@@ -38586,6 +38587,120 @@
       ],
       "checkedAt": "2026-11-04",
       "checkedAtIso": "2026-11-04T16:09:22.390213Z"
+    },
+    {
+      "id": "purifier-sharp-fp-s72t-b",
+      "category": "purifier",
+      "brand": "SHARP",
+      "model": "FP-S72T-B",
+      "name": "SHARP 清淨方 Purefit Middle 雙向速淨智慧空氣清淨機（玄岩棕）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2026-10-01",
+      "sourceUrl": "https://survey.fashionguide.com.tw/doctors/16587",
+      "sourceTitle": "FashionGuide 醫師評鑑：SHARP 夏普 Purefit Middle 雙向速淨空氣美學機",
+      "evidenceSnippet": "詳細商品資料明列上市日期 2026-10-01，且在容量及參考售價欄列 FP-S72T-L/B。",
+      "confidence": "medium",
+      "checkedAt": "2026-11-12",
+      "query": "\"FP-S72T\" 上市 發售 台灣 夏普 2026",
+      "reason": "具名評鑑明列確切的上市欄位與兩色型號，上市日有別於 9/24 評鑑公布日。官方 5/22 為產品發表，嘖嘖 9/23 為預購首發。",
+      "checkedSources": [
+        {
+          "url": "https://survey.fashionguide.com.tw/doctors/16587",
+          "title": "FashionGuide 商品詳細資料",
+          "outcome": "直接列 FP-S72T-L/B 與 2026-10-01 上市"
+        },
+        {
+          "url": "https://tw.sharp/news/2026-05-20-3",
+          "title": "台灣夏普 2026 新品發表",
+          "outcome": "5/22 發表 FP-S70T/FP-S72T，未明示零售發售日"
+        },
+        {
+          "url": "https://www.zeczec.com/projects/sharp-purefit-middle",
+          "title": "展碁國際嘖嘖預購",
+          "outcome": "9/23 預購式首發，募集截止 10/15，不用作一般零售上市日"
+        }
+      ]
+    },
+    {
+      "id": "dishwasher-bosch-sms6ecw01x",
+      "category": "dishwasher",
+      "brand": "Bosch",
+      "model": "SMS6ECW01X",
+      "name": "6系列14人份獨立式蒸汽洗碗機（台灣110V版）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2026",
+      "sourceUrl": "https://blog.fuchia.tw/2026-bosch-%E6%B4%97%E7%A2%97%E6%A9%9F%E6%96%B0%E6%A9%9F%EF%BC%9A%E6%B2%B8%E7%9F%B3%E4%B9%BE%E7%87%A5%E3%80%81%E8%92%B8%E6%B1%BD%E9%A0%90%E6%B4%97%E3%80%81airdry-%E8%87%AA%E5%8B%95%E9%96%8B%E9%96%80/",
+      "sourceTitle": "甫佳電器：2026 BOSCH 洗碗機新機與台灣發表",
+      "evidenceSnippet": "甫佳電器明載 BOSCH 2026 新系列正式在台發表，七款新機中點名 SMS6ECW01X 獨立式 6 系列。官方商城列於洗碗機新品上市清單。",
+      "confidence": "retailer_explicit",
+      "query": "\"SMS6ECW01X\" 台灣 上市 發售",
+      "sourceKind": "retailer_explicit",
+      "reason": "可確認台灣 2026 發表，僅採年份；商場預購／到貨日期及文章發布日期不足以確定正式發售月日。",
+      "checkedAt": "2026-11-12",
+      "auditDisposition": "confirmed_found",
+      "checkedSources": [
+        {
+          "url": "https://blog.fuchia.tw/2026-bosch-%E6%B4%97%E7%A2%97%E6%A9%9F%E6%96%B0%E6%A9%9F%EF%BC%9A%E6%B2%B8%E7%9F%B3%E4%B9%BE%E7%87%A5%E3%80%81%E8%92%B8%E6%B1%BD%E9%A0%90%E6%B4%97%E3%80%81airdry-%E8%87%AA%E5%8B%95%E9%96%8B%E9%96%80/",
+          "title": "甫佳電器 2026 BOSCH 洗碗機台灣新機發表",
+          "outcome": "明示在台發表，七款新機含 exact 型號"
+        },
+        {
+          "url": "https://www.bosch-home-shop.com.tw/collections/newproducts",
+          "title": "Bosch 官方商城洗碗機新品上市",
+          "outcome": "新品上市名冊列 exact 型號，未明示月日"
+        },
+        {
+          "url": "https://www.bosch-home-shop.com.tw/products/sms6ecw01x",
+          "title": "Bosch 官方商城 SMS6ECW01X",
+          "outcome": "預計2026/09到貨文案不等於實際發售月日"
+        }
+      ],
+      "auditQueries": [
+        "\"SMS6ECW01X\" 台灣 上市 發售"
+      ]
+    },
+    {
+      "id": "bidet-panasonic-dl-rv50twws",
+      "category": "bidet",
+      "brand": "Panasonic",
+      "model": "DL-RV50TWWS",
+      "name": "智慧雙溫控瞬熱式洗淨便座",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"DL-RV50TWWS\" 台灣 上市 發售",
+      "sourceKind": "not_found_after_manual_recheck",
+      "reason": "台灣官方產品頁僅有促銷期間，Mobile01 對應 exact model 秋季展出，但未明示這個型號的實際上市／發售時間。信源電器為新品上架，未作上市日。",
+      "checkedAt": "2026-11-12",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.panasonic.com/tw/consumer/health/toilet/hotinstant/dl-rv50twws.html",
+          "title": "Panasonic台灣 DL-RV50TWWS",
+          "outcome": "官頁有2026/10/10～2027/02/26促銷期間，非上市日"
+        },
+        {
+          "url": "https://www.panasonic.com/tw/consumer/news/202609-news-1.html",
+          "title": "Panasonic台灣秋季新品公告",
+          "outcome": "原頁直接擷取403；可見搜尋原廠公告概述，未取得可重現的完整型號發售日期"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7302023",
+          "title": "Panasonic 秋季新品一次看：從洗衣、除濕、料理到毛孩日常，重新安排家的舒適感",
+          "outcome": "2026秋季展出提到完整型號，文章發布日不是其發售日"
+        },
+        {
+          "url": "https://www.3cu.com.tw/products/dlrv50twws",
+          "title": "信源電器 DL-RV50TWWS",
+          "outcome": "原頁有新品上架與贈品文案，無可核的上市日期"
+        }
+      ],
+      "auditQueries": [
+        "\"DL-RV50TWWS\" 台灣 上市 發售"
+      ]
     }
   ]
 }

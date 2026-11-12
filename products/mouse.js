@@ -2044,11 +2044,11 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 990,
-      "converted": 990,
+      "amount": 799,
+      "converted": 799,
       "basis": "retailer_current",
-      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
-      "note": "2026-10-31 Logi網路旗艦店同型號／既有選定SKU主購買區Sale公開價990元，可加車；保留原有語言／軸體／顏色所選版本，不採刪除原價或其他型號價格。"
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "note": "羅技台灣旗艦店 G304 910-005294 白色主選項特價 NT$799，原價 NT$1,090，主商品有加入購物車；單筆滿 NT$1,990 免運。"
     },
     "installation": {
       "status": "not_stated",

@@ -120,7 +120,8 @@
       "amount": 759,
       "converted": 759,
       "confidence": "PChome 2026-07-18 API 公開價",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。",
+      "basis": "retailer_current"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -633,7 +634,8 @@
       "amount": 4490,
       "converted": 4490,
       "confidence": "PChome 2026-07-11 API 查核價",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。",
+      "basis": "retailer_current"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -735,10 +737,10 @@
       "amount": 8999,
       "converted": 8999,
       "confidence": "Yahoo購物中心 2026-07-28 exact-model 公開結構化價格",
-      "note": "2026-11-04 下午覆核：原商品頁已停售/已售完/目前尚無庫存或官方OutOfStock；不將新結構化報價寫為可購現價，也沒有官方整型停產證據，保留既有參考。"
+      "note": "Yahoo 原商品主區顯示此賣場已停售；保留先前參考價，供貨待查。"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心",
+    "buyLabel": "Yahoo購物中心（此賣場已停售）",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Staub-%E5%9C%93%E5%BD%A2%E7%90%BA%E7%91%AF%E9%91%84%E9%90%B5%E9%8D%8B-26cm-5-2L-%E7%9F%B3-7909398.html",
     "specs": [
       "鍋具：Staub 圓形鑄鐵鍋 26cm 全色系 湯鍋 燉鍋 法國製 (電磁爐 IH爐可用)",
@@ -837,10 +839,10 @@
       "amount": 1980,
       "converted": 1980,
       "confidence": "Yahoo 購物中心 2026-08-07 exact-model 公開價",
-      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。 2026-11-01 Yahoo選定原商品頁顯示已停售，零售下架不等同原廠整型停產；不採頁面殘留價格更新，保留原參考價及待查通路。"
+      "note": "Yahoo 原商品主區顯示此賣場已停售；保留先前參考價，供貨待查。"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo 購物中心（來源待確認）",
+    "buyLabel": "Yahoo購物中心（此賣場已停售）",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=11965999",
     "specs": [
       "鍋具：WMF ASTORIA 低身湯鍋 20cm 2.5L",
@@ -939,10 +941,10 @@
       "amount": 2860,
       "converted": 2860,
       "confidence": "Yahoo購物中心 2026-08-15 exact-model 自營新品公開價",
-      "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。 2026-10-31 原Yahoo exact28cm頁HTTP404，未取得可確認的同型號替代供貨，不套用其他鍋款或推薦價。"
+      "note": "Yahoo 原頁 404；同商品標題的 PChome DEAWED-A900HZZIP API 空陣列，原頁顯示熱銷一空。輕頑味有現售 Levital Classic 28cm、3.0L、單平手把 F157121281000（NT$4,410、庫存15），須確認原 Yahoo 是此 Classic，避免混同 Levital Comfort 28cm。"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心（現售待確認）",
+    "buyLabel": "原通路連結失效（同型現售待確認）",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Fissler-Levital-%E7%B6%93%E5%85%B8%E4%B8%8D%E6%B2%BE%E5%B9%B3%E5%BA%95%E9%8D%8B-28cm-%E4%B8%8D%E6%B2%BE%E9%8D%8B-%E7%85%8E%E9%8D%8B-%E9%9B%BB%E7%A3%81%E7%88%90-IH%E7%88%90%E5%8F%AF%E7%94%A8-11325415.html",
     "specs": [
       "鍋具：Fissler Levital 經典不沾平底鍋 28cm 不沾鍋 煎鍋 (電磁爐 IH爐可用)",
@@ -1038,11 +1040,11 @@
     "image": "https://cs-a.ecimg.tw/items/DEDG3BA900GQDVZ/000001_1776769920.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1099,
-      "converted": 1099,
+      "amount": 988,
+      "converted": 988,
       "basis": "retailer_current",
-      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
-      "note": "2026-11-05 人工覆核：Yahoo同型號主商品公開價1099元，主區立即購買／加入購物車可見。 不扣個人化折價券、點數、信用卡回饋或贈品價值。"
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "note": "Yahoo 原商品公開價 NT$988，公開折扣截至 2026-11-12T18:59:59+08:00；原商品主區有購買按鈕。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1556,7 +1558,8 @@
       "amount": 2288,
       "converted": 2288,
       "confidence": "PChome 2026-07-16 API 公開價",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DEAWMJA900J9BIR/000001_1758078020.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEAWMJ-A900J9BIR",
@@ -1653,11 +1656,11 @@
       "amount": 6864,
       "converted": 6864,
       "confidence": "Yahoo購物中心 2026-08-28 自營 exact-model 新品頁公開價",
-      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。 2026-11-01 Yahoo選定原商品頁顯示已停售，零售下架不等同原廠整型停產；不採頁面殘留價格更新，保留原參考價及待查通路。"
+      "note": "Yahoo 原商品主區顯示此賣場已停售；保留先前參考價，供貨待查。"
     },
     "image": "https://cs-a.ecimg.tw/items/DEAWMJA900JMZA5/000001_1768290148.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/WMF%E5%BE%B7%E5%9C%8B%E8%A3%BDFusiontecMineral%E5%A3%BA%E5%9E%8B%E9%8D%8B12-5cm1-7L%E9%89%91%E9%87%91%E8%89%B2%E9%99%B6%E6%99%B6%E9%8D%8B-11964316.html",
-    "buyLabel": "Yahoo購物中心自營（來源待確認）",
+    "buyLabel": "Yahoo購物中心（此賣場已停售）",
     "specs": [
       "12.5cm",
       "1.7L",
@@ -1750,7 +1753,8 @@
       "amount": 6850,
       "converted": 6850,
       "confidence": "PChome 2026-07-11 API 查核價",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DEAWTGA900FCHLZ/000001_1745980849.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEAWTG-A900FCHLZ",
@@ -2135,11 +2139,11 @@
     "name": "A1 極致抗刮不沾單柄深煎鍋 26 公分",
     "price": {
       "currency": "TWD",
-      "amount": 2159,
-      "converted": 2159,
-      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
+      "amount": 2699,
+      "converted": 2699,
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "2026-11-05 Chrome原頁已載入折扣小計NT$2159（含運），需Costco會員；未扣信用卡與黑鑽回饋。"
+      "note": "兩次瀏覽器核對 Costco 台灣原商品 151585，主購買區為 NT$2,699 含運、加入購物車可用。先前 NT$2,159 未於本次主區重現；需依 Costco 購買資格。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h82/h10/325943411802142.jpg",
     "buyUrl": "https://www.costco.com.tw/Furniture-Kitchen/Kitchen-Dining/Cookware-Cutlery-Cutting-Boards/Circulon-A1-Non-Stick-Saute-Pan-With-Glass-Lid-26-cm/p/151585",

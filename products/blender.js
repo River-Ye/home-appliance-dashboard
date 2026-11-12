@@ -404,8 +404,8 @@
     "price": {
       "currency": "USD",
       "amount": 99.98,
-      "converted": 3282,
-      "confidence": "2026-08-31 人工核對 SharkNinja 官方 BN701 公開可購主價 USD 99.98；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-11-05 匯率換算",
+      "converted": 3287,
+      "confidence": "2026-08-31 人工核對 SharkNinja 官方 BN701 公開可購主價 USD 99.98；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-11-12 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-04 午後人工覆核：原BN701官方購買網址本輪原生仍轉址IQ701SL TotalCrush 2-in-1，標題與主商品Model明示IQ701SL，USD129.99/原169.99屬IQ701SL而非BN701。保留BN701舊99.98美元參考、現售待確認；不由轉址推定原廠停產。海外未含國際運費、進口稅、電壓/插頭與台灣保固風險。"
     },
@@ -1667,11 +1667,11 @@
     "name": "超高速全營養調理機",
     "price": {
       "currency": "TWD",
-      "amount": 11739,
-      "converted": 11739,
-      "confidence": "PChome 2026-11-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 11911,
+      "converted": 11911,
+      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-05 PChome原SKU API公開價 11739 TWD；先前促銷金額不沿用。未扣個人券、點數或信用卡回饋；實際配送與安裝條件依通路確認。"
+      "note": "2026-11-12 PChome 原 SKU 公開價 NT$11911，API Qty 1；個人券、點數、信用卡回饋及配送安裝費另計。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAYDLA900IH6GZ/000001_1782875037.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAYDL-A900IH6GZ",

@@ -745,11 +745,11 @@
     "image": "https://cs-a.ecimg.tw/items/DMAC6RA900IUC3J/000001_1761017834.png",
     "price": {
       "currency": "TWD",
-      "amount": 25999,
-      "converted": 25999,
+      "amount": 25900,
+      "converted": 25900,
       "basis": "retailer_current",
-      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-04 下午重新查核：PChome exact SKU DMAC6R-A900IUC3J；Price.P=25999元，Qty=20。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。"
+      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-12 PChome 原 SKU 公開價 NT$25900，API Qty 20；個人券、點數、信用卡回饋及配送安裝費另計。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -848,10 +848,10 @@
     "image": "https://cs-a.ecimg.tw/items/DMCI01A900JV0NP/000001_1774843160.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 14774,
-      "converted": 14774,
-      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
-      "note": "2026-11-04 晚間原生Chrome覆核：mypure GR1000主商品公開顯示NT$14774，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。",
+      "amount": 17800,
+      "converted": 17800,
+      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-12 PChome 原 SKU 公開價 NT$17800，API Qty 7；個人券、點數、信用卡回饋及配送安裝費另計。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -1472,7 +1472,8 @@
       "amount": 59800,
       "converted": 59800,
       "confidence": "PChome 2026-07-11 API 查核價",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。",
+      "basis": "retailer_current"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1872,10 +1873,10 @@
     "name": "廚下 RO 雙溫觸控飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 33865,
-      "converted": 33865,
-      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-04 下午重新查核：PChome exact SKU DMCI0O-A900JI1JA；Price.Low=33865元，Qty=2。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。",
+      "amount": 30266,
+      "converted": 30266,
+      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-12 PChome 原 SKU 公開價 NT$30266，API Qty 2；個人券、點數、信用卡回饋及配送安裝費另計。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMCI0OA900JT66N/000001_1773306819.png",
@@ -2165,8 +2166,8 @@
     "price": {
       "currency": "USD",
       "amount": 359.99,
-      "converted": 11816,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-05 匯率換算",
+      "converted": 11836,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-12 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-01 Brondell美國官方Circle主商品Sale Price USD359.99、原449.99，主商品BCData為instock:true/purchasable:true；排除頁尾替換濾芯及Open-Box商品。 海外參考；未含國際運費、進口稅、電壓／插頭與台灣保固風險。"
     },
@@ -2204,14 +2205,14 @@
       "status": "found",
       "amount": 289.99,
       "currency": "USD",
-      "converted": 9519,
+      "converted": 9535,
       "sourceUrl": "https://www.costco.com/CategoryDisplay?catalogId=10701&identifier=water-dispensers-filtration-water-filtration&storeId=10301",
       "sourceTitle": "Costco US：Brondell Circle Reverse Osmosis Water Filtration System",
       "evidenceSnippet": "Costco US exact-model 分類頁於 2026-08-28 顯示 Brondell Circle 折後 US$289.99，原價 US$369.99，優惠 US$80。",
       "sourceKind": "retailer_promo",
       "confidence": "medium",
       "checkedAt": "2026-08-28",
-      "note": "採 Costco US 公開 exact-model 折價作為本次可重現最低觀測價；未含國際運費、進口稅、耗材與台灣安裝／保固風險；依 2026-11-05 USD/TWD 匯率換算。"
+      "note": "採 Costco US 公開 exact-model 折價作為本次可重現最低觀測價；未含國際運費、進口稅、耗材與台灣安裝／保固風險；依 2026-11-12 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "common_issue",

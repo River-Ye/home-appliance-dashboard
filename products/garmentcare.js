@@ -792,8 +792,8 @@
     "price": {
       "currency": "USD",
       "amount": 2199,
-      "converted": 72180,
-      "confidence": "2026-08-31 人工核對 LG 美國官網 SC5GMR80H 公開可購主價 USD 2,199；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-11-05 匯率換算",
+      "converted": 72303,
+      "confidence": "2026-08-31 人工核對 LG 美國官網 SC5GMR80H 公開可購主價 USD 2,199；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-11-12 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-04 午後人工覆核：LG美國SC5GMR80H原生頁標題區USD1999/折800，但實際Review your selections與Selection Total仍USD2199/折600；主商品Add to Cart啟用、90210預估11/9送達，和原HTML OutOfStock互相矛盾。保留2199舊參考價，價格與供貨待確認；不取較低headline當選定可購價。未含國際運費、進口稅、電壓/插頭與台灣保固風險。"
     },
@@ -904,8 +904,8 @@
     "price": {
       "currency": "USD",
       "amount": 1799,
-      "converted": 59051,
-      "confidence": "2026-08-31 人工核對 LG 美國官網 SC5MAR4G 公開可購主價 USD 1,799；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-11-05 匯率換算",
+      "converted": 59151,
+      "confidence": "2026-08-31 人工核對 LG 美國官網 SC5MAR4G 公開可購主價 USD 1,799；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-11-12 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-04 LG美國SC5MAR4G原SKUOutOfStock，1999USD缺貨展示價不採，保留1799USD參考與海外運稅/電力/保固風險。未取得原廠台灣exact整型停產正證，不據此刪除。"
     },
@@ -1016,8 +1016,8 @@
     "price": {
       "currency": "USD",
       "amount": 1599,
-      "converted": 52486,
-      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-05 匯率換算",
+      "converted": 52575,
+      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-12 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-04 午後人工覆核：LG美國原生所選S3MFBN Mirror主商品與Review your selections/Selection Total一致為USD1599，主商品Add to Cart啟用；不扣bundle、保護方案、回收服務或會員優惠。未含國際運費、進口稅、電壓/插頭與台灣保固風險。"
     },
@@ -1128,8 +1128,8 @@
     "price": {
       "currency": "USD",
       "amount": 1399,
-      "converted": 45921,
-      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-05 匯率換算",
+      "converted": 45999,
+      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-12 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-04 午後人工覆核：LG美國原生所選S3WFBN White主商品與Review your selections/Selection Total一致為USD1399，主商品Add to Cart啟用；不扣bundle、保護方案、回收服務或會員優惠。未含國際運費、進口稅、電壓/插頭與台灣保固風險。"
     },
@@ -1240,8 +1240,8 @@
     "price": {
       "currency": "USD",
       "amount": 1499,
-      "converted": 49203,
-      "confidence": "LG 美國 2026-07-23 官方現售型錄公開價；ExchangeRate-API 2026-11-05 匯率換算",
+      "converted": 49287,
+      "confidence": "LG 美國 2026-07-23 官方現售型錄公開價；ExchangeRate-API 2026-11-12 匯率換算",
       "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
     },
     "image": "https://media.us.lg.com/transform/ecomm-PDPGallery-1100x730/d0843109-3129-40be-b3b9-325bb4ef78de/Styler-S3RFBN-gallery-01_5000x5000?io=transform:fill,width:1024",
@@ -1351,8 +1351,8 @@
     "price": {
       "currency": "KRW",
       "amount": 2327320,
-      "converted": 56996,
-      "confidence": "2026-11-04 Chrome人工核對Danawa exact-model一般購買(일반구매)公開最低比價；依當日KRW/TWD匯率換算。；ExchangeRate-API 2026-11-05 匯率換算",
+      "converted": 57251,
+      "confidence": "2026-11-04 Chrome人工核對Danawa exact-model一般購買(일반구매)公開最低比價；依當日KRW/TWD匯率換算。；ExchangeRate-API 2026-11-12 匯率換算",
       "note": "韓國Danawa一般購買最低比價快照，未採會員／卡友最高優惠價、點數、租賃月付或發售建議價；點入各零售商仍須確認可購總額與供貨。海外參考，未含國際運費、進口稅、電壓／插頭／變壓器與台灣保固風險。"
     },
     "image": "https://images.samsung.com/kdp/goods/2026/01/13/bcebeb93-4709-4c18-b685-e159e476dcfd.png",
@@ -1462,8 +1462,8 @@
     "price": {
       "currency": "KRW",
       "amount": 2061500,
-      "converted": 50486,
-      "confidence": "2026-11-04 Chrome人工核對Danawa exact-model一般購買(일반구매)公開最低比價；依當日KRW/TWD匯率換算。；ExchangeRate-API 2026-11-05 匯率換算",
+      "converted": 50712,
+      "confidence": "2026-11-04 Chrome人工核對Danawa exact-model一般購買(일반구매)公開最低比價；依當日KRW/TWD匯率換算。；ExchangeRate-API 2026-11-12 匯率換算",
       "note": "韓國Danawa一般購買最低比價快照，未採會員／卡友最高優惠價、點數、租賃月付或發售建議價；點入各零售商仍須確認可購總額與供貨。海外參考，未含國際運費、進口稅、電壓／插頭／變壓器與台灣保固風險。"
     },
     "image": "https://images.samsung.com/kdp/goods/2026/01/13/a5e2b9e4-2578-420b-a4e9-03f9af8a98a4.png",
@@ -1573,8 +1573,8 @@
     "price": {
       "currency": "KRW",
       "amount": 2061500,
-      "converted": 50486,
-      "confidence": "2026-11-04 Chrome人工核對Danawa exact-model一般購買(일반구매)公開最低比價；依當日KRW/TWD匯率換算。；ExchangeRate-API 2026-11-05 匯率換算",
+      "converted": 50712,
+      "confidence": "2026-11-04 Chrome人工核對Danawa exact-model一般購買(일반구매)公開最低比價；依當日KRW/TWD匯率換算。；ExchangeRate-API 2026-11-12 匯率換算",
       "note": "韓國Danawa一般購買最低比價快照，未採會員／卡友最高優惠價、點數、租賃月付或發售建議價；點入各零售商仍須確認可購總額與供貨。海外參考，未含國際運費、進口稅、電壓／插頭／變壓器與台灣保固風險。"
     },
     "image": "https://images.samsung.com/kdp/goods/2026/01/13/b79b910e-17e9-4844-b199-726f9a7a3810.png",
@@ -1684,8 +1684,8 @@
     "price": {
       "currency": "KRW",
       "amount": 1970600,
-      "converted": 48260,
-      "confidence": "2026-11-04 Chrome人工核對Danawa exact-model一般購買(일반구매)公開最低比價；依當日KRW/TWD匯率換算。；ExchangeRate-API 2026-11-05 匯率換算",
+      "converted": 48476,
+      "confidence": "2026-11-04 Chrome人工核對Danawa exact-model一般購買(일반구매)公開最低比價；依當日KRW/TWD匯率換算。；ExchangeRate-API 2026-11-12 匯率換算",
       "note": "韓國Danawa一般購買最低比價快照，未採會員／卡友最高優惠價、點數、租賃月付或發售建議價；點入各零售商仍須確認可購總額與供貨。海外參考，未含國際運費、進口稅、電壓／插頭／變壓器與台灣保固風險。"
     },
     "image": "https://images.samsung.com/kdp/goods/2026/01/13/76d4f74e-0c3a-42e1-89f8-426d5859c6d0.png",
@@ -1795,8 +1795,8 @@
     "price": {
       "currency": "KRW",
       "amount": 1919030,
-      "converted": 46997,
-      "confidence": "2026-11-04 Chrome人工核對Danawa exact-model一般購買(일반구매)公開最低比價；依當日KRW/TWD匯率換算。；ExchangeRate-API 2026-11-05 匯率換算",
+      "converted": 47208,
+      "confidence": "2026-11-04 Chrome人工核對Danawa exact-model一般購買(일반구매)公開最低比價；依當日KRW/TWD匯率換算。；ExchangeRate-API 2026-11-12 匯率換算",
       "note": "韓國Danawa一般購買最低比價快照，未採會員／卡友最高優惠價、點數、租賃月付或發售建議價；點入各零售商仍須確認可購總額與供貨。海外參考，未含國際運費、進口稅、電壓／插頭／變壓器與台灣保固風險。"
     },
     "image": "https://images.samsung.com/kdp/goods/2026/01/13/51d56ac5-a158-40ac-8c0a-40369bd7fd13.png",
@@ -1906,8 +1906,8 @@
     "price": {
       "currency": "KRW",
       "amount": 1694250,
-      "converted": 41492,
-      "confidence": "2026-11-04 Chrome人工核對Danawa exact-model一般購買(일반구매)公開最低比價；依當日KRW/TWD匯率換算。；ExchangeRate-API 2026-11-05 匯率換算",
+      "converted": 41678,
+      "confidence": "2026-11-04 Chrome人工核對Danawa exact-model一般購買(일반구매)公開最低比價；依當日KRW/TWD匯率換算。；ExchangeRate-API 2026-11-12 匯率換算",
       "note": "韓國Danawa一般購買最低比價快照，未採會員／卡友最高優惠價、點數、租賃月付或發售建議價；點入各零售商仍須確認可購總額與供貨。海外參考，未含國際運費、進口稅、電壓／插頭／變壓器與台灣保固風險。"
     },
     "image": "https://images.samsung.com/kdp/goods/2026/01/13/a6dfd1ea-ae12-4bd7-b437-8fbbab8ccbe7.png",
@@ -2017,8 +2017,8 @@
     "price": {
       "currency": "JPY",
       "amount": 328680,
-      "converted": 68120,
-      "confidence": "BicCamera 2026-07-23 exact-model 新品公開價；ExchangeRate-API 2026-11-05 匯率換算",
+      "converted": 67750,
+      "confidence": "BicCamera 2026-07-23 exact-model 新品公開價；ExchangeRate-API 2026-11-12 匯率換算",
       "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。"
     },
     "image": "https://panasonic.jp/content/experience-fragments/panasonic/jp/ja/content/smartcloset/products/HCC-R600AR/lp4_ind1_HCC-R600AR_cxf/master/_jcr_content/root/c_lay014/c_lay001_434717760_c_1343778137/c_lay011/c_gen003.coreimg.png/1743734842467/hcc-r600al-link-864x648-250403.png",
@@ -2133,11 +2133,11 @@
       "converted": 35820,
       "confidence": "Yahoo購物中心 2026-08-20 exact-model 台灣新品頁公開價，可加入購物車",
       "basis": "retailer_current",
-      "note": "2026-11-04 午後人工覆核：Yahoo N-RGB1R-W主商品本輪展示39800元，但購買區明示「已停售」，沒有立即購買/加入購物車；保留35820元舊參考價，不採停售/缺貨展示價或自行乘算活動折扣。這是通路listing狀態，不能據此認定原廠整型停產。"
+      "note": "Yahoo 原商品主區顯示此賣場已停售；保留先前參考價，供貨待查。"
     },
     "image": "https://panasonic.scene7.com/is/image/Panasonic/ast-1397271?fmt=png-alpha&wid=644&hei=644",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic%E5%9C%8B%E9%9A%9B%E7%89%8C-%E9%9B%BB%E5%AD%90%E8%A1%A3%E6%AB%A5-N-RGB1R-W-10015661.html",
-    "buyLabel": "Yahoo購物（停售，現價待確認）",
+    "buyLabel": "Yahoo購物中心（此賣場已停售）",
     "installation": {
       "status": "not_stated",
       "note": "Yahoo exact-model 頁載明由出貨廠商聯絡約定配送，但未清楚界定現價是否含基本定位／安裝；無電梯樓層、吊車／拆窗、超距搬運、現場改電與特殊固定費用須先確認。"
@@ -2228,10 +2228,11 @@
     "name": "鏡面黑 3 件式熱泵蒸氣電子衣櫥",
     "price": {
       "currency": "TWD",
-      "amount": 35890,
-      "converted": 35890,
+      "amount": 33510,
+      "converted": 33510,
       "basis": "retailer_current",
-      "confidence": "myfone 2026-09-07 exact N-R600AR-X1 公開價，Chrome 確認放入購物車按鈕可用；含標準安裝及舊機回收，不扣會員券、點數或回饋"
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "note": "myfone 台灣原商品 N-R600AR-X1 主區網路限定價 NT$33,510，原價 NT$36,861；配送及基本安裝範圍依通路。"
     },
     "installation": {
       "status": "included_basic",

@@ -17,10 +17,10 @@
     "name": "WASHLET 溫水洗淨便座",
     "price": {
       "currency": "TWD",
-      "amount": 9900,
-      "converted": 9900,
-      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-04 PChome原exact SKU DPAL2N-A900HYYVV，本輪人工核對主標題「【TOTO】TCF8342TW S2 WASHLET 溫水洗淨便座(智慧洗淨/溫熱無縫便座/免治馬桶座/S2) 新上市【TOTO】TCF8342TW S2 WASHLET 溫水洗淨便座(智慧洗淨/溫熱無縫便座/免治馬桶座/S2)」、Qty=20、主價9900；採公開Low優先，無Low用P，未扣券/點數/信用卡。HTML受限仍保留API與讀取限制。",
+      "amount": 9111,
+      "converted": 9111,
+      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-12 PChome 原 SKU 公開價 NT$9111，API Qty 20；個人券、點數、信用卡回饋及配送安裝費另計。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAL2NA900HYYVV/000001_1732173829.jpg",
@@ -414,7 +414,8 @@
       "amount": 23900,
       "converted": 23900,
       "confidence": "PChome 2026-07-11 API 查核價",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAL6WA900JNQF2/000001_1783412715.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAL6W-A900JNQF2",
@@ -610,7 +611,8 @@
       "amount": 17900,
       "converted": 17900,
       "confidence": "PChome 2026-07-11 API 查核價",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAL6WA900JVX5O/000001_1775638184.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAL6W-A900JVX5O",
@@ -705,10 +707,11 @@
     "name": "S2 標準款除菌溫水洗淨便座",
     "price": {
       "currency": "TWD",
-      "amount": 11900,
-      "converted": 11900,
-      "confidence": "PChome 2026-07-11 API 查核價",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
+      "amount": 11300,
+      "converted": 11300,
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "note": "PChome 原 SKU DMAL6W-A900JW0LW 的 Name 與 Nick 和前次人工獨立確認紀錄逐字一致，本次重查 Qty 4、公開價 NT$11300。原選定規格不變。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAL6WA900JW0LW/000001_1775705407.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAL6W-A900JW0LW",
@@ -806,7 +809,8 @@
       "amount": 34900,
       "converted": 34900,
       "confidence": "PChome 2026-07-11 API 查核價",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAL6IA900JEKAD/000001_1783410655.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAL6I-A900JEKAD",
@@ -998,11 +1002,11 @@
     "name": "儲熱式溫水洗淨便座含原廠基本安裝",
     "price": {
       "currency": "TWD",
-      "amount": 6190,
-      "converted": 6190,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 5990,
+      "converted": 5990,
+      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-03 PChome exact原SKU DMAL8L-A900GH6F4，逐筆核對本輪主標題「Panasonic國際牌儲熱式洗淨便座 DL-F610RTWS Panasonic 國際 儲熱式溫水洗淨便座DL-F610RTWS(含原廠基本安裝)」、Qty=20與公開主價6190。 原HTML HTTP429，採同輪可信exactID API並保留讀取限制。未扣券/點數/信用卡回饋。"
+      "note": "2026-11-12 PChome 原 SKU 公開價 NT$5990，API Qty 7；個人券、點數、信用卡回饋及配送安裝費另計。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAL8LA900GH6F4/000001_1724400418.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAL8L-A900GH6F4",
@@ -1392,7 +1396,8 @@
       "amount": 7088,
       "converted": 7088,
       "confidence": "PChome 2026-07-11 API 查核價",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0MA900G29JM/000001_1676948545.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM0M-A900G29JM",
@@ -1876,12 +1881,12 @@
     "price": {
       "currency": "USD",
       "amount": 479.99,
-      "converted": 15755,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-05 匯率換算",
+      "converted": 15782,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-12 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-01 Brondell美國官方新品CL1700主商品Current Price USD479.99，主商品BCData為instock:true/purchasable:true；未由首頁20%banner推定此SKU另享折扣，排除Open-Box299.99。 海外參考；未含國際運費、進口稅、電壓／插頭與台灣保固風險。"
     },
-    "image": "https://bfasset.costco-static.com/U447IH35/as/k83n76pfjhvqcf9gfrz74sx/1432187-847__1?auto=webp&format=jpg",
+    "image": "https://cdn11.bigcommerce.com/s-mpfo2gcqca/images/stencil/1280w/products/323/1888/brondell-swash-cl1700-bidet-toilet-seat__57018.1738792956.jpg?c=1",
     "buyUrl": "https://www.brondell.com/swash-cl1700-advanced-bidet-seat/",
     "buyLabel": "Brondell US 官方",
     "specs": [
@@ -1916,14 +1921,14 @@
       "status": "found",
       "amount": 383.99,
       "currency": "USD",
-      "converted": 12604,
+      "converted": 12626,
       "sourceUrl": "https://www.brondell.com/swash-cl1700-advanced-bidet-seat/",
       "sourceTitle": "Brondell US：Swash CL1700 Advanced Bidet Seat",
       "evidenceSnippet": "Brondell US 官方 exact-model 頁於 2026-08-28 顯示 Swash CL1700 sale price US$383.99。",
       "sourceKind": "official_sale",
       "confidence": "medium",
       "checkedAt": "2026-08-28",
-      "note": "採品牌官方公開特價作為本次可重現最低觀測價；同頁 US$299.99 為 Open-Box 開箱品，依規則排除。未含國際運費、進口稅、美規 elongated 尺寸、120V 插座與台灣保固風險；依 2026-11-05 USD/TWD 匯率換算。"
+      "note": "採品牌官方公開特價作為本次可重現最低觀測價；同頁 US$299.99 為 Open-Box 開箱品，依規則排除。未含國際運費、進口稅、美規 elongated 尺寸、120V 插座與台灣保固風險；依 2026-11-12 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2154,6 +2159,112 @@
         }
       ]
     }
+  },
+  {
+    "id": "bidet-panasonic-dl-rv50twws",
+    "category": "bidet",
+    "brand": "Panasonic",
+    "model": "DL-RV50TWWS",
+    "name": "智慧雙溫控瞬熱式洗淨便座",
+    "rank": 24,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "price": {
+      "currency": "TWD",
+      "amount": 22900,
+      "converted": 22900,
+      "basis": "retailer_current",
+      "confidence": "2026-11-12 PChome DMAL6W-A900KNISK 原頁主價與商品API一致；exact-model 可下單、API庫存10。",
+      "note": "PChome 公開價 NT$22,900 含標準安裝；廠商宅配另約，原頁估14–21個工作天。未扣P幣、券、信用卡回饋或其他通路結帳優惠。"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DMAL6WA900KNISK/000001_1793671641.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAL6W-A900KNISK",
+    "buyLabel": "PChome 24h購物（廠商出貨／含標準安裝）",
+    "installation": {
+      "status": "included_basic",
+      "note": "PChome 明載含標準安裝，以隨附零件定位；台灣本島先宅配，再電話約裝，原頁估 14–21 個工作天。外島與偏遠山區不配送，額外管線、插座與搬運施工另計；購前核對馬桶尺寸與孔距。"
+    },
+    "specs": [
+      "類型：瞬熱式溫水洗淨便座，白色；雙核心瞬熱與水溫／座溫智慧雙溫控",
+      "清潔：一體成形不鏽鋼噴嘴、噴嘴溫水洗淨",
+      "舒適：自動開／關蓋、雙風道烘乾、柔光照明",
+      "操作：手持式遙控器、4組用戶設定",
+      "尺寸：寬 40 x 深 51.7 x 高 11.2 cm",
+      "重量：3.9 kg（不含配件）",
+      "安裝：先核對馬桶孔距與本體相容性，預留接地110V插座與進水",
+      "電壓／頻率：110V／60Hz；870W"
+    ],
+    "description": "Panasonic 台灣瞬熱式便座，提供智慧雙溫控、自動開關蓋與雙風道烘乾。可與同系列 DL-RU60TWWS 比較功能及安裝報價。",
+    "pros": [
+      "溫水與便座智慧雙溫控，搭配4組個人設定。",
+      "自動開關蓋、雙風道烘乾與柔光照明。",
+      "台灣原廠提供機身尺寸及不含配件的淨重，所選通路含標準安裝。"
+    ],
+    "cons": [
+      "需先確認既有陶瓷馬桶孔距、形狀、進水與接地插座。",
+      "所選通路須另約到府安裝，原頁估14–21個工作天。",
+      "額外管線、插座或特殊施工可能另收費。"
+    ],
+    "bestFor": "想要自動開蓋與夜間照明，且已有合適馬桶、水路與接地110V插座的家庭。",
+    "recommendation": "購買前請先量測馬桶、確認供電位置及可安排的到府安裝時間。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-11-12",
+      "note": "比對PChome兩個完整型號、myfone、LBJ、飛比及FindPrice。比價頁22,900為現價，LBJ exact 查詢未提供可核日期的歷史曲線。myfone另有結帳折扣文案，未取得適用後金額與歷史價點；不由本次現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-11-12",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"DL-RV50TWWS\" site:mobile01.com/topicdetail.php",
+          "queryUrl": "https://www.google.com/search?q=%22DL-RV50TWWS%22%20site%3Amobile01.com%2Ftopicdetail.php"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "\"DL-RV50TWWS\" site:ptt.cc/bbs/",
+          "queryUrl": "https://www.google.com/search?q=%22DL-RV50TWWS%22%20site%3Aptt.cc%2Fbbs%2F"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "\"DL-RV50TWWS\" site:dcard.tw/f/",
+          "queryUrl": "https://www.google.com/search?q=%22DL-RV50TWWS%22%20site%3Adcard.tw%2Ff%2F"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "\"DL-RV50TWWS\" site:reddit.com",
+          "queryUrl": "https://www.google.com/search?q=%22DL-RV50TWWS%22%20site%3Areddit.com"
+        }
+      ]
+    },
+    "score": 87,
+    "voltage": "110V／60Hz、870W；浴廁應確認接地安全插座，避免直接淋水。",
+    "warranty": "PChome 原頁明示台灣原廠保固1年；myfone同型號亦列保固1年。",
+    "tags": [
+      "Panasonic",
+      "瞬熱式",
+      "智慧雙溫控",
+      "自動開蓋",
+      "雙風道烘乾",
+      "110V"
+    ]
   }
 ]);
 })();

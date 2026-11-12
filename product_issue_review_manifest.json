@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-04",
+  "checkedAt": "2026-11-12",
   "methodVersion": 3,
   "policy": "每筆決策須保存 exact-model 跨站查詢與人工 attestation；每個搜尋候選須逐頁保存摘要、獨立作者數與具體排除理由，研究工具不得自行生成拒絕結論。",
   "results": [
@@ -98329,6 +98329,166 @@
           "reviewedAtIso": "2026-11-04T16:09:22.390213Z"
         }
       ]
+    },
+    {
+      "id": "purifier-sharp-fp-s72t-b",
+      "category": "purifier",
+      "brand": "SHARP",
+      "model": "FP-S72T-B",
+      "reviewedAt": "2026-11-12",
+      "reviewBatch": "purifier",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT",
+        "Dcard",
+        "Reddit"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"FP-S72T-B\"",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22FP-S72T-B%22"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"FP-S72T-B\"",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22FP-S72T-B%22"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "site:dcard.tw \"FP-S72T-B\"",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22FP-S72T-B%22"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"FP-S72T-B\"",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22FP-S72T-B%22"
+        }
+      ],
+      "candidateDisposition": "人工逐站檢查 Mobile01、PTT、Dcard、Reddit 的 FP-S72T-B 完整型號查詢；Bing RSS 返回其他網域、保健品／水管／ETC／影音服務等無關項目。另以搜尋工具檢視本體型號 FP-S72T 的指定站點搜尋，所得品牌／比價／預購資料無該站同型號原頁候選。未借用相近機型、宣傳評鑑或品牌活動，亦未計入作者。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "reviewerNote": "人工逐站檢查 Mobile01、PTT、Dcard、Reddit 的 FP-S72T-B 完整型號查詢；Bing RSS 返回其他網域、保健品／水管／ETC／影音服務等無關項目。另以搜尋工具檢視本體型號 FP-S72T 的指定站點搜尋，所得品牌／比價／預購資料無該站同型號原頁候選。未借用相近機型、宣傳評鑑或品牌活動，亦未計入作者。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "checkedAt": "2026-11-12",
+      "status": "completed"
+    },
+    {
+      "id": "dishwasher-bosch-sms6ecw01x",
+      "category": "dishwasher",
+      "brand": "Bosch",
+      "model": "SMS6ECW01X",
+      "name": "6系列14人份獨立式蒸汽洗碗機（台灣110V版）",
+      "reviewedAt": "2026-11-12",
+      "reviewBatch": "dishwasher",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT",
+        "Dcard",
+        "Reddit"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"SMS6ECW01X\" site:mobile01.com/topicdetail.php",
+          "queryUrl": "https://www.google.com/search?q=%22SMS6ECW01X%22%20site%3Amobile01.com%2Ftopicdetail.php"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "\"SMS6ECW01X\" site:ptt.cc/bbs/",
+          "queryUrl": "https://www.google.com/search?q=%22SMS6ECW01X%22%20site%3Aptt.cc%2Fbbs%2F"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "\"SMS6ECW01X\" site:dcard.tw/f/",
+          "queryUrl": "https://www.google.com/search?q=%22SMS6ECW01X%22%20site%3Adcard.tw%2Ff%2F"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "\"SMS6ECW01X\" site:reddit.com",
+          "queryUrl": "https://www.google.com/search?q=%22SMS6ECW01X%22%20site%3Areddit.com"
+        }
+      ],
+      "candidateDisposition": "SMS6ECW01X：本次人工分別查詢 Mobile01、PTT、Dcard 及 Reddit 的完整型號，不加負評關鍵字，四組均回傳無結果，沒有通過型號邊界的原始論壇候選。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "reviewerNote": "SMS6ECW01X 已於 2026-11-12 實際以四個站點範圍搜尋完整型號，未找到原頁候選，未達同一問題六位獨立使用者跨兩站門檻。可按所列查詢字串重現。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate"
+    },
+    {
+      "id": "bidet-panasonic-dl-rv50twws",
+      "category": "bidet",
+      "brand": "Panasonic",
+      "model": "DL-RV50TWWS",
+      "name": "智慧雙溫控瞬熱式洗淨便座",
+      "reviewedAt": "2026-11-12",
+      "reviewBatch": "bidet",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT",
+        "Dcard",
+        "Reddit"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"DL-RV50TWWS\" site:mobile01.com/topicdetail.php",
+          "queryUrl": "https://www.google.com/search?q=%22DL-RV50TWWS%22%20site%3Amobile01.com%2Ftopicdetail.php"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "\"DL-RV50TWWS\" site:ptt.cc/bbs/",
+          "queryUrl": "https://www.google.com/search?q=%22DL-RV50TWWS%22%20site%3Aptt.cc%2Fbbs%2F"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "\"DL-RV50TWWS\" site:dcard.tw/f/",
+          "queryUrl": "https://www.google.com/search?q=%22DL-RV50TWWS%22%20site%3Adcard.tw%2Ff%2F"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "\"DL-RV50TWWS\" site:reddit.com",
+          "queryUrl": "https://www.google.com/search?q=%22DL-RV50TWWS%22%20site%3Areddit.com"
+        }
+      ],
+      "candidateDisposition": "DL-RV50TWWS 的 Mobile01 桌面與行動網址是同一文章，合併為一個原始候選。原文屬產品展區介紹；PTT、Dcard、Reddit exact 查詢沒有候選。",
+      "representativeSources": [
+        {
+          "platform": "Mobile01",
+          "title": "Panasonic 秋季新品一次看：從洗衣、除濕、料理到毛孩日常，重新安排家的舒適感",
+          "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7302023"
+        }
+      ],
+      "candidateReviews": [
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7302023",
+          "title": "Panasonic 秋季新品一次看：從洗衣、除濕、料理到毛孩日常，重新安排家的舒適感",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-11-12",
+          "sourceExcerpt": "衛浴段列出 DL-RU60TWWS、DL-RV50TWWS、DL-PU30TWWS 的瞬熱與座溫／水溫調整。",
+          "independentAuthors": 0,
+          "specificReason": "原文是台灣秋季新品展區導覽，DL-RV50TWWS內容為型號功能介紹，沒有作者自述持有後遇到故障。已讀回覆以其他家電或展品評論為主；第3頁擷取403，未對未讀回覆做判定。"
+        }
+      ],
+      "reviewerNote": "DL-RV50TWWS 於2026-11-12人工檢視四個站點查詢與 Mobile01 同一文章原頁，未取得符合條件的第一人稱故障作者。原文與第2頁可讀，第3頁擷取403。",
+      "attestation": "manual_original_pages_reviewed"
     }
   ]
 }

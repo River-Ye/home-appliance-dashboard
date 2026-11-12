@@ -118,9 +118,11 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/4249C08B3A-SP-8970385.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 7560,
-      "converted": 7560,
-      "confidence": "Yahoo購物中心 2026-10-19 exact-model 公開結構化價格"
+      "amount": 7731,
+      "converted": 7731,
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "basis": "retailer_current",
+      "note": "Yahoo 原商品公開價 NT$7731，公開折扣截至 2026-12-31T23:59:59+08:00；原商品主區有購買按鈕。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -533,10 +535,10 @@
       "converted": 32000,
       "confidence": "Yahoo購物中心 2026-09-14 exact-model 公開結構化價格",
       "basis": "retailer_current",
-      "note": "2026-11-04 下午覆核：原商品頁已停售/已售完/目前尚無庫存或官方OutOfStock；不將新結構化報價寫為可購現價，也沒有官方整型停產證據，保留既有參考。"
+      "note": "Yahoo 原商品主區顯示此賣場已售完；保留先前參考價，供貨待查。"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物（缺貨，現價待確認）",
+    "buyLabel": "Yahoo購物中心（此賣場已售完）",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool%E6%83%A0%E8%80%8C%E6%B5%A6-16%E5%85%AC%E6%96%A4-%E5%BF%AB%E7%83%98%E7%93%A6%E6%96%AF%E5%9E%8B%E6%BB%BE%E7%AD%92%E4%B9%BE%E8%A1%A3%E6%A9%9F-8TWGD5620HW-%E6%A1%B6%E8%A3%9D%E7%93%A6%E6%96%AF-10509173.html",
     "specs": [
       "烘衣機：Whirlpool 惠而浦16公斤快烘瓦斯型滾筒乾衣機8TWGD5620HW(桶裝瓦斯)",
@@ -939,10 +941,10 @@
       "amount": 35900,
       "converted": 35900,
       "confidence": "Yahoo購物中心 2026-07-14 頁面查核價",
-      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
+      "note": "Yahoo 原商品主區顯示此賣場已停售；保留先前參考價，供貨待查。"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心（原通路缺貨，查看供貨）",
+    "buyLabel": "Yahoo購物中心（此賣場已停售）",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-10kg%E6%B7%A8%E8%AD%B7%E5%AE%8C%E7%BE%8E%E4%B9%BE%E8%A1%A3%E6%A9%9FNH-VS100HP-%E5%90%AB%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-11874057.html",
     "specs": [
       "烘衣機：Panasonic 國際牌 10kg淨護完美乾衣機NH-VS100HP 含基本安裝",
@@ -1142,7 +1144,9 @@
       "currency": "TWD",
       "amount": 8490,
       "converted": 8490,
-      "confidence": "Yahoo購物中心 2026-10-19 exact-model 公開結構化價格"
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "basis": "retailer_current",
+      "note": "Yahoo 原商品公開價 NT$8490，公開折扣截至 2026-12-31T23:59:59+08:00；原商品主區有購買按鈕。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1243,7 +1247,9 @@
       "currency": "TWD",
       "amount": 35788,
       "converted": 35788,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "basis": "retailer_current",
+      "note": "Yahoo 原商品公開價 NT$35788，公開折扣截至 2026-12-31T23:59:59+08:00；原商品主區有購買按鈕。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1345,9 +1351,9 @@
       "currency": "TWD",
       "amount": 8440,
       "converted": 8440,
-      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "2026-11-04 晚間原生Chrome覆核：NH-L70G-L主商品公開顯示NT$8440，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。"
+      "note": "Yahoo 原商品公開價 NT$8440，公開折扣截至 2026-12-31T23:59:59+08:00；原商品主區有購買按鈕。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1449,7 +1455,9 @@
       "currency": "TWD",
       "amount": 8490,
       "converted": 8490,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "basis": "retailer_current",
+      "note": "Yahoo 原商品公開價 NT$8490，公開折扣截至 2026-12-31T23:59:59+08:00；原商品主區有購買按鈕。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1551,10 +1559,10 @@
       "amount": 6460,
       "converted": 6460,
       "confidence": "Yahoo購物中心 2026-07-11 頁面查核價",
-      "note": "2026-11-04 午後人工覆核：Yahoo TAW-D60T主商品本輪展示6800元，但購買區明示「已停售」，沒有立即購買/加入購物車；保留6460元舊參考價，不採停售/缺貨展示價或自行乘算活動折扣。這是通路listing狀態，不能據此認定原廠整型停產。"
+      "note": "Yahoo 原商品主區顯示此賣場已停售；保留先前參考價，供貨待查。"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物（停售，現價待確認）",
+    "buyLabel": "Yahoo購物中心（此賣場已停售）",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/TATUNG%E5%A4%A7%E5%90%8C-6KG%E4%B9%BE%E8%A1%A3%E6%A9%9F-TAW-D60T-11014360.html",
     "specs": [
       "烘衣機：TATUNG大同 6KG乾衣機(TAW-D60T)",
@@ -1651,10 +1659,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/C0FA586EC4-SP-18495887.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 7990,
-      "converted": 7990,
-      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
-      "note": "2026-11-05 人工覆核：Yahoo同型號主商品公開價7990元，主區立即購買／加入購物車可見。 不扣個人化折價券、點數、信用卡回饋或贈品價值。",
+      "amount": 7640,
+      "converted": 7640,
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "note": "Yahoo 原商品公開價 NT$7640；原商品主區有購買按鈕。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -1858,10 +1866,10 @@
       "amount": 36900,
       "converted": 36900,
       "confidence": "Yahoo購物中心 2026-09-01 exact-model 公開結構化價格",
-      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
+      "note": "Yahoo 原商品主區顯示此賣場已停售；保留先前參考價，供貨待查。"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心（原通路缺貨，查看供貨）",
+    "buyLabel": "Yahoo購物中心（此賣場已停售）",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SAMSUNG-%E4%B8%89%E6%98%9F-10KG-%E6%99%BA%E6%85%A7%E7%86%B1%E6%B3%B5%E4%B9%BE%E8%A1%A3%E6%A9%9F-DV10DB7440GB-DV10DB7440GW-11854932.html",
     "specs": [
       "烘衣機：SAMSUNG 三星 10KG 智慧熱泵乾衣機 DV10DB7440GB/DV10DB7440GW 黑白",
@@ -2794,11 +2802,11 @@
     "topPick": false,
     "price": {
       "currency": "TWD",
-      "amount": 26111,
-      "converted": 26111,
+      "amount": 24900,
+      "converted": 24900,
       "basis": "retailer_current",
-      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "note": "PChome 原 SKU DPAI3F-A900J14XI 的 Name 與 Nick 和前次人工獨立確認紀錄逐字一致，本次重查 Qty 19、公開價 NT$24900。原選定規格不變。"
     },
     "installation": {
       "status": "included_basic",

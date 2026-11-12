@@ -1,9 +1,9 @@
 {
   "summary": {
-    "checkedAt": "2026-11-04T00:00:00+08:00",
-    "total": 1258,
+    "checkedAt": "2026-11-12T00:00:00+08:00",
+    "total": 1261,
     "commonIssueProducts": 55,
-    "noCommonIssueProducts": 1203,
+    "noCommonIssueProducts": 1206,
     "pendingManualReview": 0,
     "commonIssues": 56,
     "searchUnavailable": 614,
@@ -12,7 +12,7 @@
       "minimumPlatforms": 2,
       "exactModelOnly": true
     },
-    "sourcePolicy": "本輪僅新增/身份更正商品完成獨立跨站人工負評研究；既有逐筆manifest、來源及實際查核日期保留，不能推定本日全部重新人工覆核。",
+    "sourcePolicy": "本次逐型人工負評研究涵蓋本輪新增商品。既有逐筆研究、原始來源與實際查核日期沿用。",
     "noIssueWording": "截至查核日，查無達門檻的集中負評／災情",
     "searchLimitations": [
       "2026-08-31 增量批次定向覆核7款既有商品（Flexus Core 100/200/300、U7 Pro、U7 Pro Max、AP22、AW3225QF），另研究Mobius 60候選但因台灣電力證據不足未正式納入。其餘逐型人工負評查核沿用既有日期；AP22及AW3225QF原逐人證據保留，該批次只補修正背景，不表示當時943款皆重新閱讀原始評價。",
@@ -40,9 +40,11 @@
       "2026-11-03僅新增本批1款的逐型跨站人工覆核；其他1232筆及392筆逐人報告保留原始研究日期與內容，不跨尺寸、版本、相近型號轉借結論。",
       "2026-11-04僅新增本批1款的逐型跨站人工覆核；其他1233筆及392筆逐人報告保留原始研究日期與內容，不跨尺寸、版本、相近型號轉借結論。",
       "2026-11-04下午只對新增HALO-NEO-1M人工覆核PTT、Mobile01、Dcard及Reddit完整型號查詢；四站均無exact原頁候選，未成立集中問題。既有1234款逐型問題決策、證據及日期原樣保留。",
-      "2026-11-04晚間僅對新增U3226Q、DDL902-MFVP-11HWS、CGR-E-ODYSSEY150完成逐型跨站人工覆核；Dell四個Reddit原頁逐一處置，另外兩款完整型號與系列別名查詢未見可確認原頁候選。既有1235款與392筆逐人回報保留原日期，不宣稱全站同日重新閱讀原始評價。"
+      "2026-11-04晚間僅對新增U3226Q、DDL902-MFVP-11HWS、CGR-E-ODYSSEY150完成逐型跨站人工覆核；Dell四個Reddit原頁逐一處置，另外兩款完整型號與系列別名查詢未見可確認原頁候選。既有1235款與392筆逐人回報保留原日期，不宣稱全站同日重新閱讀原始評價。",
+      "2026-11-12 新收錄型號逐款核對所列平台的 exact-model 查詢及候選；其餘商品的原查核日期保留。",
+      "2026-11-12 新收錄型號逐款核對所列平台的 exact-model 查詢及候選；其餘商品的原查核日期保留。"
     ],
-    "researchedThisRun": 27
+    "researchedThisRun": 3
   },
   "results": [
     {
@@ -228784,6 +228786,503 @@
           "reason": "已讀原始HTTP本文與推文（本地364.txt），真實負評屬舊NP-2KTBGR1TW。不得因同Panasonic或同嵌入外型跨款繼承；其他品牌家電評論亦排除。"
         }
       ],
+      "reports": []
+    },
+    {
+      "id": "purifier-sharp-fp-s72t-b",
+      "category": "purifier",
+      "brand": "SHARP",
+      "model": "FP-S72T-B",
+      "name": "SHARP 清淨方 Purefit Middle 雙向速淨智慧空氣清淨機（玄岩棕）",
+      "identity": {
+        "canonicalModel": "FP-S72T-B",
+        "lookupLabel": "SHARP FP-S72T-B",
+        "aliases": [
+          "SHARP FP-S72T-B",
+          "FP-S72T 玄岩棕"
+        ],
+        "evidenceUrl": "https://tw.sharp/sites/default/files/uploads_service/CS%E8%AA%AA%E6%98%8E%E6%9B%B8/%E9%99%A4%E6%BF%95%E6%A9%9F/FP-S72T-L%E3%80%81FP-S72T-B%E3%80%81FP-S70T-W%E3%80%81FP-S70T-H%E4%BD%BF%E7%94%A8%E8%AA%AA%E6%98%8E%E6%9B%B8.pdf"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "id": "purifier-sharp-fp-s72t-b",
+        "category": "purifier",
+        "brand": "SHARP",
+        "model": "FP-S72T-B",
+        "reviewedAt": "2026-11-12",
+        "reviewBatch": "purifier",
+        "decision": "no_common_issue",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT",
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"FP-S72T-B\"",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22FP-S72T-B%22"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"FP-S72T-B\"",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22FP-S72T-B%22"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"FP-S72T-B\"",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22FP-S72T-B%22"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"FP-S72T-B\"",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22FP-S72T-B%22"
+          }
+        ],
+        "candidateDisposition": "人工逐站檢查 Mobile01、PTT、Dcard、Reddit 的 FP-S72T-B 完整型號查詢；Bing RSS 返回其他網域、保健品／水管／ETC／影音服務等無關項目。另以搜尋工具檢視本體型號 FP-S72T 的指定站點搜尋，所得品牌／比價／預購資料無該站同型號原頁候選。未借用相近機型、宣傳評鑑或品牌活動，亦未計入作者。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "人工逐站檢查 Mobile01、PTT、Dcard、Reddit 的 FP-S72T-B 完整型號查詢；Bing RSS 返回其他網域、保健品／水管／ETC／影音服務等無關項目。另以搜尋工具檢視本體型號 FP-S72T 的指定站點搜尋，所得品牌／比價／預購資料無該站同型號原頁候選。未借用相近機型、宣傳評鑑或品牌活動，亦未計入作者。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate",
+        "checkedAt": "2026-11-12",
+        "status": "completed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-11-12",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"FP-S72T-B\"",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22FP-S72T-B%22"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"FP-S72T-B\"",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22FP-S72T-B%22"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"FP-S72T-B\"",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22FP-S72T-B%22"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"FP-S72T-B\"",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22FP-S72T-B%22"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "人工跨站搜尋：Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"FP-S72T-B\"",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22FP-S72T-B%22",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22FP-S72T-B%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-12T04:02:07.456Z"
+        },
+        {
+          "platform": "人工跨站搜尋：PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"FP-S72T-B\"",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22FP-S72T-B%22",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22FP-S72T-B%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-12T04:02:07.456Z"
+        },
+        {
+          "platform": "人工跨站搜尋：Dcard",
+          "targetHost": "dcard.tw",
+          "query": "site:dcard.tw \"FP-S72T-B\"",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22FP-S72T-B%22",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22FP-S72T-B%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-12T04:02:07.456Z"
+        },
+        {
+          "platform": "人工跨站搜尋：Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"FP-S72T-B\"",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22FP-S72T-B%22",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22FP-S72T-B%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-12T04:02:07.456Z"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [],
+      "reports": []
+    },
+    {
+      "id": "dishwasher-bosch-sms6ecw01x",
+      "category": "dishwasher",
+      "brand": "Bosch",
+      "model": "SMS6ECW01X",
+      "name": "6系列14人份獨立式蒸汽洗碗機（台灣110V版）",
+      "identity": {
+        "canonicalModel": "SMS6ECW01X",
+        "lookupLabel": "Bosch SMS6ECW01X",
+        "aliases": [
+          "SMS6ECW01X",
+          "Bosch SMS6ECW01X"
+        ],
+        "evidenceUrl": "https://www.bosch-home.com.tw/zh/mkt-product/dishwashers/freestanding-dishwashers/freestanding-dishwashers-with-60cm-width/SMS6ECW01X"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "id": "dishwasher-bosch-sms6ecw01x",
+        "category": "dishwasher",
+        "brand": "Bosch",
+        "model": "SMS6ECW01X",
+        "name": "6系列14人份獨立式蒸汽洗碗機（台灣110V版）",
+        "reviewedAt": "2026-11-12",
+        "reviewBatch": "dishwasher",
+        "decision": "no_common_issue",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT",
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "\"SMS6ECW01X\" site:mobile01.com/topicdetail.php",
+            "queryUrl": "https://www.google.com/search?q=%22SMS6ECW01X%22%20site%3Amobile01.com%2Ftopicdetail.php"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "\"SMS6ECW01X\" site:ptt.cc/bbs/",
+            "queryUrl": "https://www.google.com/search?q=%22SMS6ECW01X%22%20site%3Aptt.cc%2Fbbs%2F"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "\"SMS6ECW01X\" site:dcard.tw/f/",
+            "queryUrl": "https://www.google.com/search?q=%22SMS6ECW01X%22%20site%3Adcard.tw%2Ff%2F"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "\"SMS6ECW01X\" site:reddit.com",
+            "queryUrl": "https://www.google.com/search?q=%22SMS6ECW01X%22%20site%3Areddit.com"
+          }
+        ],
+        "candidateDisposition": "SMS6ECW01X：本次人工分別查詢 Mobile01、PTT、Dcard 及 Reddit 的完整型號，不加負評關鍵字，四組均回傳無結果，沒有通過型號邊界的原始論壇候選。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "SMS6ECW01X 已於 2026-11-12 實際以四個站點範圍搜尋完整型號，未找到原頁候選，未達同一問題六位獨立使用者跨兩站門檻。可按所列查詢字串重現。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate",
+        "status": "completed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-11-12",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "\"SMS6ECW01X\" site:mobile01.com/topicdetail.php",
+            "queryUrl": "https://www.google.com/search?q=%22SMS6ECW01X%22%20site%3Amobile01.com%2Ftopicdetail.php"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "\"SMS6ECW01X\" site:ptt.cc/bbs/",
+            "queryUrl": "https://www.google.com/search?q=%22SMS6ECW01X%22%20site%3Aptt.cc%2Fbbs%2F"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "\"SMS6ECW01X\" site:dcard.tw/f/",
+            "queryUrl": "https://www.google.com/search?q=%22SMS6ECW01X%22%20site%3Adcard.tw%2Ff%2F"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "\"SMS6ECW01X\" site:reddit.com",
+            "queryUrl": "https://www.google.com/search?q=%22SMS6ECW01X%22%20site%3Areddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"SMS6ECW01X\" site:mobile01.com/topicdetail.php",
+          "queryUrl": "https://www.google.com/search?q=%22SMS6ECW01X%22%20site%3Amobile01.com%2Ftopicdetail.php",
+          "searchUrl": "https://www.google.com/search?q=%22SMS6ECW01X%22%20site%3Amobile01.com%2Ftopicdetail.php",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-12T04:02:11.228Z",
+          "note": "人工檢視完整型號限定網站查詢，工具回傳無搜尋結果。"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "\"SMS6ECW01X\" site:ptt.cc/bbs/",
+          "queryUrl": "https://www.google.com/search?q=%22SMS6ECW01X%22%20site%3Aptt.cc%2Fbbs%2F",
+          "searchUrl": "https://www.google.com/search?q=%22SMS6ECW01X%22%20site%3Aptt.cc%2Fbbs%2F",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-12T04:02:11.228Z",
+          "note": "人工檢視完整型號限定網站查詢，工具回傳無搜尋結果。"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "\"SMS6ECW01X\" site:dcard.tw/f/",
+          "queryUrl": "https://www.google.com/search?q=%22SMS6ECW01X%22%20site%3Adcard.tw%2Ff%2F",
+          "searchUrl": "https://www.google.com/search?q=%22SMS6ECW01X%22%20site%3Adcard.tw%2Ff%2F",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-12T04:02:11.228Z",
+          "note": "人工檢視完整型號限定網站查詢，工具回傳無搜尋結果。"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "\"SMS6ECW01X\" site:reddit.com",
+          "queryUrl": "https://www.google.com/search?q=%22SMS6ECW01X%22%20site%3Areddit.com",
+          "searchUrl": "https://www.google.com/search?q=%22SMS6ECW01X%22%20site%3Areddit.com",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-12T04:02:11.228Z",
+          "note": "人工檢視完整型號限定網站查詢，工具回傳無搜尋結果。"
+        }
+      ],
+      "rejectedCandidates": [],
+      "evidence": [],
+      "reports": []
+    },
+    {
+      "id": "bidet-panasonic-dl-rv50twws",
+      "category": "bidet",
+      "brand": "Panasonic",
+      "model": "DL-RV50TWWS",
+      "name": "智慧雙溫控瞬熱式洗淨便座",
+      "identity": {
+        "canonicalModel": "DL-RV50TWWS",
+        "lookupLabel": "Panasonic DL-RV50TWWS",
+        "aliases": [
+          "DL-RV50TWWS",
+          "Panasonic DL-RV50TWWS"
+        ],
+        "evidenceUrl": "https://www.panasonic.com/tw/consumer/health/toilet/hotinstant/dl-rv50twws.html"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "id": "bidet-panasonic-dl-rv50twws",
+        "category": "bidet",
+        "brand": "Panasonic",
+        "model": "DL-RV50TWWS",
+        "name": "智慧雙溫控瞬熱式洗淨便座",
+        "reviewedAt": "2026-11-12",
+        "reviewBatch": "bidet",
+        "decision": "no_common_issue",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT",
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "\"DL-RV50TWWS\" site:mobile01.com/topicdetail.php",
+            "queryUrl": "https://www.google.com/search?q=%22DL-RV50TWWS%22%20site%3Amobile01.com%2Ftopicdetail.php"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "\"DL-RV50TWWS\" site:ptt.cc/bbs/",
+            "queryUrl": "https://www.google.com/search?q=%22DL-RV50TWWS%22%20site%3Aptt.cc%2Fbbs%2F"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "\"DL-RV50TWWS\" site:dcard.tw/f/",
+            "queryUrl": "https://www.google.com/search?q=%22DL-RV50TWWS%22%20site%3Adcard.tw%2Ff%2F"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "\"DL-RV50TWWS\" site:reddit.com",
+            "queryUrl": "https://www.google.com/search?q=%22DL-RV50TWWS%22%20site%3Areddit.com"
+          }
+        ],
+        "candidateDisposition": "DL-RV50TWWS 的 Mobile01 桌面與行動網址是同一文章，合併為一個原始候選。原文屬產品展區介紹；PTT、Dcard、Reddit exact 查詢沒有候選。",
+        "representativeSources": [
+          {
+            "platform": "Mobile01",
+            "title": "Panasonic 秋季新品一次看：從洗衣、除濕、料理到毛孩日常，重新安排家的舒適感",
+            "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7302023"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7302023",
+            "title": "Panasonic 秋季新品一次看：從洗衣、除濕、料理到毛孩日常，重新安排家的舒適感",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-11-12",
+            "sourceExcerpt": "衛浴段列出 DL-RU60TWWS、DL-RV50TWWS、DL-PU30TWWS 的瞬熱與座溫／水溫調整。",
+            "independentAuthors": 0,
+            "specificReason": "原文是台灣秋季新品展區導覽，DL-RV50TWWS內容為型號功能介紹，沒有作者自述持有後遇到故障。已讀回覆以其他家電或展品評論為主；第3頁擷取403，未對未讀回覆做判定。"
+          }
+        ],
+        "reviewerNote": "DL-RV50TWWS 於2026-11-12人工檢視四個站點查詢與 Mobile01 同一文章原頁，未取得符合條件的第一人稱故障作者。原文與第2頁可讀，第3頁擷取403。",
+        "attestation": "manual_original_pages_reviewed",
+        "status": "completed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-11-12",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "\"DL-RV50TWWS\" site:mobile01.com/topicdetail.php",
+            "queryUrl": "https://www.google.com/search?q=%22DL-RV50TWWS%22%20site%3Amobile01.com%2Ftopicdetail.php"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "\"DL-RV50TWWS\" site:ptt.cc/bbs/",
+            "queryUrl": "https://www.google.com/search?q=%22DL-RV50TWWS%22%20site%3Aptt.cc%2Fbbs%2F"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "\"DL-RV50TWWS\" site:dcard.tw/f/",
+            "queryUrl": "https://www.google.com/search?q=%22DL-RV50TWWS%22%20site%3Adcard.tw%2Ff%2F"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "\"DL-RV50TWWS\" site:reddit.com",
+            "queryUrl": "https://www.google.com/search?q=%22DL-RV50TWWS%22%20site%3Areddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"DL-RV50TWWS\" site:mobile01.com/topicdetail.php",
+          "queryUrl": "https://www.google.com/search?q=%22DL-RV50TWWS%22%20site%3Amobile01.com%2Ftopicdetail.php",
+          "searchUrl": "https://www.google.com/search?q=%22DL-RV50TWWS%22%20site%3Amobile01.com%2Ftopicdetail.php",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=168&t=7302023"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7302023",
+              "title": "Panasonic 秋季新品一次看：從洗衣、除濕、料理到毛孩日常，重新安排家的舒適感",
+              "exactModel": true
+            }
+          ],
+          "inspectedAt": "2026-11-12T04:08:12.638Z",
+          "note": "搜尋發現同一文章的桌面及行動別名，去重後於人工覆核列處置。"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "\"DL-RV50TWWS\" site:ptt.cc/bbs/",
+          "queryUrl": "https://www.google.com/search?q=%22DL-RV50TWWS%22%20site%3Aptt.cc%2Fbbs%2F",
+          "searchUrl": "https://www.google.com/search?q=%22DL-RV50TWWS%22%20site%3Aptt.cc%2Fbbs%2F",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-12T04:08:12.638Z",
+          "note": "人工檢視完整型號站點查詢，沒有通過型號邊界的原頁候選。"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "\"DL-RV50TWWS\" site:dcard.tw/f/",
+          "queryUrl": "https://www.google.com/search?q=%22DL-RV50TWWS%22%20site%3Adcard.tw%2Ff%2F",
+          "searchUrl": "https://www.google.com/search?q=%22DL-RV50TWWS%22%20site%3Adcard.tw%2Ff%2F",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-12T04:08:12.638Z",
+          "note": "人工檢視完整型號站點查詢，沒有通過型號邊界的原頁候選。"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "\"DL-RV50TWWS\" site:reddit.com",
+          "queryUrl": "https://www.google.com/search?q=%22DL-RV50TWWS%22%20site%3Areddit.com",
+          "searchUrl": "https://www.google.com/search?q=%22DL-RV50TWWS%22%20site%3Areddit.com",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-12T04:08:12.638Z",
+          "note": "人工檢視完整型號站點查詢，沒有通過型號邊界的原頁候選。"
+        }
+      ],
+      "rejectedCandidates": [
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7302023",
+          "title": "Panasonic 秋季新品一次看：從洗衣、除濕、料理到毛孩日常，重新安排家的舒適感",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-11-12",
+          "sourceExcerpt": "衛浴段列出 DL-RU60TWWS、DL-RV50TWWS、DL-PU30TWWS 的瞬熱與座溫／水溫調整。",
+          "independentAuthors": 0,
+          "specificReason": "原文是台灣秋季新品展區導覽，DL-RV50TWWS內容為型號功能介紹，沒有作者自述持有後遇到故障。已讀回覆以其他家電或展品評論為主；第3頁擷取403，未對未讀回覆做判定。",
+          "reason": "原文是台灣秋季新品展區導覽，DL-RV50TWWS內容為型號功能介紹，沒有作者自述持有後遇到故障。已讀回覆以其他家電或展品評論為主；第3頁擷取403，未對未讀回覆做判定。"
+        }
+      ],
+      "evidence": [],
       "reports": []
     }
   ]

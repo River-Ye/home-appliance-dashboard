@@ -334,10 +334,10 @@
       "amount": 21032,
       "converted": 21032,
       "confidence": "Yahoo購物中心 2026-07-21 頁面公開價",
-      "note": "2026-11-04 午後人工覆核：Yahoo NA-V190MT-PN主商品本輪展示23900元，但購買區明示「已停售」，沒有立即購買/加入購物車；保留21032元舊參考價，不採停售/缺貨展示價或自行乘算活動折扣。這是通路listing狀態，不能據此認定原廠整型停產。"
+      "note": "Yahoo 原商品主區顯示此賣場已停售；保留先前參考價，供貨待查。"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物（停售，現價待確認）",
+    "buyLabel": "Yahoo購物中心（此賣場已停售）",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic%E5%9C%8B%E9%9A%9B%E7%89%8C-19%E5%85%AC%E6%96%A4-%E9%9B%99%E7%A7%91%E6%8A%80%E8%AE%8A%E9%A0%BB%E7%9B%B4%E7%AB%8B%E5%BC%8F%E6%B4%97%E8%A1%A3%E6%A9%9F-NA-V190MT-PN-%E7%8E%AB%E7%91%B0%E9%87%91-10097010.html",
     "specs": [
       "洗衣機：Panasonic國際牌 19KG 變頻直立式洗衣機 NA-V190MT-PN 玫瑰金",
@@ -654,7 +654,9 @@
       "currency": "TWD",
       "amount": 26899,
       "converted": 26899,
-      "confidence": "Yahoo購物中心 2026-07-13 頁面查核價"
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "basis": "retailer_current",
+      "note": "Yahoo 原商品公開價 NT$26899，公開折扣截至 2026-12-31T23:59:59+08:00；原商品主區有購買按鈕。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -758,11 +760,12 @@
       "currency": "TWD",
       "amount": 7990,
       "converted": 7990,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-31 Yahoo主商品WM-MD10明示預購12/5出貨，7990元為單件95折公開報價，不視為現貨。 公開活動滿1件享95折，有效至2026-12-31T23:59:59+08:00。"
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "note": "Yahoo 原商品公開預購價 NT$7990，公開折扣截至 2026-12-31T23:59:59+08:00；主購買區可預購，實際交期依通路。",
+      "basis": "retailer_current"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo（預購12/05出貨）",
+    "buyLabel": "Yahoo購物中心（預購）",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SAMPO-%E8%81%B2%E5%AF%B610%E5%85%AC%E6%96%A4%E7%AA%84%E8%BA%AB%E8%AE%8A%E9%A0%BB%E5%96%AE%E6%A7%BD%E7%9B%B4%E7%AB%8B%E5%BC%8F%E6%B4%97%E8%A1%A3%E6%A9%9F-%E9%A6%99%E6%AA%B3%E9%87%91-%E5%90%AB%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-%E8%88%8A%E6%A9%9F%E5%9B%9E%E6%94%B6-10764299.html",
     "specs": [
       "洗衣機：SAMPO 聲寶10公斤窄身變頻單槽直立式洗衣機WM-MD10 香檳金含基本安裝+舊機回收",
@@ -1284,11 +1287,12 @@
       "currency": "TWD",
       "amount": 8990,
       "converted": 8990,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價",
-      "note": "2026-11-04 原商品為預購，頁面標示2026/12/05起出貨；保留8990元參考價，實際預購價格、交期及安裝範圍請依通路確認。"
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "note": "Yahoo 原商品公開預購價 NT$8990，公開折扣截至 2026-12-31T23:59:59+08:00；主購買區可預購，實際交期依通路。",
+      "basis": "retailer_current"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心（預購，12/05起出貨）",
+    "buyLabel": "Yahoo購物中心（預購）",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SAMPO-%E8%81%B2%E5%AF%B610%E5%85%AC%E6%96%A4%E7%AA%84%E8%BA%AB%E8%AE%8A%E9%A0%BB%E5%96%AE%E6%A7%BD%E7%9B%B4%E7%AB%8B%E5%BC%8F%E6%B4%97%E8%A1%A3%E6%A9%9F-ES-K10DF-%E9%A6%99%E6%AA%B3%E9%87%91-9713719.html",
     "specs": [
       "洗衣機：SAMPO聲寶 10公斤窄身變頻單槽直立式洗衣機ES- K10DF香檳金 含基本安裝+舊機回收",
@@ -1389,7 +1393,9 @@
       "currency": "TWD",
       "amount": 11900,
       "converted": 11900,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "basis": "retailer_current",
+      "note": "Yahoo 原商品公開價 NT$11900，公開折扣截至 2026-12-31T23:59:59+08:00；原商品主區有購買按鈕。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1806,9 +1812,11 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/df3ca3dcf3-Gd-10425979.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 5691,
-      "converted": 5691,
-      "confidence": "Yahoo購物中心 2026-10-19 exact-model 公開結構化價格"
+      "amount": 5453,
+      "converted": 5453,
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "basis": "retailer_current",
+      "note": "Yahoo 原商品公開價 NT$5453，公開折扣截至 2026-12-31T23:59:59+08:00；原商品主區有購買按鈕。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -2015,7 +2023,8 @@
       "currency": "TWD",
       "amount": 17873,
       "converted": 17873,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價",
+      "basis": "retailer_current"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -2525,10 +2534,11 @@
     "name": "17kg 變頻溫水直立式洗衣機",
     "price": {
       "currency": "TWD",
-      "amount": 22490,
-      "converted": 22490,
-      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "basis": "retailer_current"
+      "amount": 20690,
+      "converted": 20690,
+      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "basis": "retailer_current",
+      "note": "2026-11-12 PChome 原 SKU 公開價 NT$20690，API Qty 5；個人券、點數、信用卡回饋及配送安裝費另計。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMBM1PA900IE3KH/000001_1775150195.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM1P-A900IE3KH",
@@ -2633,11 +2643,11 @@
     "name": "15kg DDM 變頻直立式洗衣機",
     "price": {
       "currency": "TWD",
-      "amount": 18911,
-      "converted": 18911,
-      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
+      "amount": 18481,
+      "converted": 18481,
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
+      "note": "PChome 原 SKU DPAI1G-A900K9EPD 的 Name 與 Nick 和前次人工獨立確認紀錄逐字一致，本次重查 Qty 5、公開價 NT$18481。原選定規格不變。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DPAI1GA900K9EPD/000001_1785143567.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1G-A900K9EPD",

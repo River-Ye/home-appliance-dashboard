@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04",
+  "generatedAt": "2026-11-12",
   "sourcePolicy": "本站共 21 類尺寸、13 類重量研究，尺寸涵蓋 電視、Soundbar、冷氣、洗衣機、烘衣機、洗烘衣機(多功能型)、電子衣櫥（衣物護理機）、床包、棉被、枕頭、冰箱、咖啡機、多功能氣炸烤箱／微波爐、洗碗機、熱水器、免治馬桶、網路交換器、螢幕燈、滑鼠、鍵盤、滑鼠墊。優先採 exact-model／相同版本的官方產品頁、官方規格表或官方 PDF，其次為可信新品通路。只採本體／機身／明確組件的尺寸與淨重，排除包裝、外箱尺寸與毛重；來源沒有明示軸序時不自行推定。既有家電與床包、棉被、枕頭維持 cm／kg，滑鼠、鍵盤與滑鼠墊使用 mm／g 並保留來源軸序。滑鼠墊厚度、床包可包覆高度另列；棉被的填充重量與整件淨重分開記錄。冷氣分列室內機與室外機，熱泵複合熱水器分列主機與儲槽。generatedAt 為最新證據批次日期，既有逐筆 checkedAt 與 weightCheckedAt 保留原查核日期，不表示重新查核。",
   "results": [
     {
@@ -11230,6 +11230,48 @@
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
       "weightCheckedAt": "2026-11-04"
+    },
+    {
+      "id": "dishwasher-bosch-sms6ecw01x",
+      "category": "dishwasher",
+      "brand": "Bosch",
+      "model": "SMS6ECW01X",
+      "name": "6系列14人份獨立式蒸汽洗碗機（台灣110V版）",
+      "dimension": "尺寸：寬 60 x 深 60 x 高 84.5 cm",
+      "sourceUrl": "https://www.bosch-home.com.tw/zh/mkt-product/dishwashers/freestanding-dishwashers/freestanding-dishwashers-with-60cm-width/SMS6ECW01X",
+      "sourceTitle": "Bosch台灣SMS6ECW01X詳細規格",
+      "evidenceSnippet": "原廠機體明列高×寬×深 845×600×600 mm，換算為寬 60、深 60、高 84.5 cm；開門90度深1155mm。包裝尺寸另列，未採用。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-11-12",
+      "weight": "重量：50.7 kg",
+      "weightSourceUrl": "https://www.bosch-home.com.tw/zh/mkt-product/dishwashers/freestanding-dishwashers/freestanding-dishwashers-with-60cm-width/SMS6ECW01X",
+      "weightSourceTitle": "Bosch台灣SMS6ECW01X詳細規格",
+      "weightEvidenceSnippet": "原廠詳細規格尺寸和重量列淨重50.7kg；部分通路寫50.4kg，採台灣原廠 exact-model 規格。",
+      "weightConfidence": "high",
+      "weightIsOfficialSource": true,
+      "weightCheckedAt": "2026-11-12"
+    },
+    {
+      "id": "bidet-panasonic-dl-rv50twws",
+      "category": "bidet",
+      "brand": "Panasonic",
+      "model": "DL-RV50TWWS",
+      "name": "智慧雙溫控瞬熱式洗淨便座",
+      "dimension": "尺寸：寬 40 x 深 51.7 x 高 11.2 cm",
+      "sourceUrl": "https://www.panasonic.com/tw/consumer/health/toilet/hotinstant/dl-rv50twws.html",
+      "sourceTitle": "Panasonic台灣 DL-RV50TWWS 尺寸和重量",
+      "evidenceSnippet": "官方明示本體寬400、深517、高112 mm；換算為寬40、深51.7、高11.2 cm，未採用通路外箱數值。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-11-12",
+      "weight": "重量：3.9 kg（不含配件）",
+      "weightSourceUrl": "https://www.panasonic.com/tw/consumer/health/toilet/hotinstant/dl-rv50twws.html",
+      "weightSourceTitle": "Panasonic台灣 DL-RV50TWWS 尺寸和重量",
+      "weightEvidenceSnippet": "官方標示3.9 kg並註明不含配件，未採用通路外箱5.5 kg。",
+      "weightConfidence": "high",
+      "weightIsOfficialSource": true,
+      "weightCheckedAt": "2026-11-12"
     }
   ]
 }

@@ -1412,12 +1412,12 @@
       "amount": 4990,
       "converted": 4990,
       "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
-      "note": "2026-11-05 人工覆核：Yahoo同型號主商品公開價4990元，主區立即購買／加入購物車可見。 不扣個人化折價券、點數、信用卡回饋或贈品價值。",
+      "note": "Yahoo 原商品主區顯示此賣場已售完；保留先前參考價，供貨待查。",
       "basis": "retailer_current"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/69fb8a2ae4-Gd-11322933.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Philips-%E9%A3%9B%E5%88%A9%E6%B5%A6-Saeco%E5%8D%8A%E8%87%AA%E5%8B%95%E7%BE%A9%E5%BC%8F%E5%92%96%E5%95%A1%E6%A9%9F-EMS5110-02-11322933.html",
-    "buyLabel": "Yahoo購物中心自營",
+    "buyLabel": "Yahoo購物中心（此賣場已售完）",
     "specs": [
       "類型：半自動",
       "使用原料：咖啡豆研磨後的咖啡粉",

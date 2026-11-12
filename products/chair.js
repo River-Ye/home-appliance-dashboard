@@ -603,11 +603,11 @@
     "name": "Fujin 風靈網狀人體工學電競椅",
     "price": {
       "currency": "TWD",
-      "amount": 11691,
-      "converted": 11691,
-      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 11091,
+      "converted": 11091,
+      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-04 下午重新查核：PChome exact SKU DCBT0K-A900GSDTK；Price.Low=11691元，Qty=3。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。"
+      "note": "2026-11-12 PChome 原 SKU 公開價 NT$11091，API Qty 2；個人券、點數、信用卡回饋及配送安裝費另計。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBT0KA900GSDTK/000001_1762771347.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBT0K-A900GSDTK",
@@ -792,11 +792,11 @@
     "name": "Enki 電競椅",
     "price": {
       "currency": "TWD",
-      "amount": 13410,
-      "converted": 13410,
-      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 12810,
+      "converted": 12810,
+      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-04 下午重新查核：PChome exact SKU DCAKFO-A900BWWGS；Price.Low=13410元，Qty=10。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。"
+      "note": "2026-11-12 PChome 原 SKU 公開價 NT$12810，API Qty 8；個人券、點數、信用卡回饋及配送安裝費另計。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAKFOA900BWWGS/000001_1755481797.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAKFO-A900BWWGS",
@@ -885,7 +885,8 @@
       "amount": 38900,
       "converted": 38900,
       "confidence": "可信通路查核價",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
+      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBV09A900IUC3Q/000001_1754552553.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBV09-A900IUC3Q",
@@ -1078,10 +1079,10 @@
     "name": "Kangaroo Pro 人體工學椅",
     "price": {
       "currency": "TWD",
-      "amount": 7590,
-      "converted": 7590,
-      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。",
+      "amount": 7990,
+      "converted": 7990,
+      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "note": "PChome 原 SKU DQBJ0A-A900IGLW6 的 Name 與 Nick 和前次人工獨立確認紀錄逐字一致，本次重查 Qty 5、公開價 NT$7990。原選定規格不變。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ0AA900IGLW6/000001_1759990112.jpg",
@@ -1473,11 +1474,11 @@
     "name": "高彈力人體工學網椅",
     "price": {
       "currency": "TWD",
-      "amount": 6800,
-      "converted": 6800,
-      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "amount": 5890,
+      "converted": 5890,
+      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-10-31 CORSA原主商品6800元，6900劃線，Qty20及主CTA可加車；舊5890已變更。"
+      "note": "2026-11-12 PChome 原 SKU 公開價 NT$5890，API Qty 20；個人券、點數、信用卡回饋及配送安裝費另計。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ0AA900JSBYX/000001_1780972580.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ0A-A900JSBYX",

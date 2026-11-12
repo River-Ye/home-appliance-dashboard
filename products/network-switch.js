@@ -1954,11 +1954,11 @@
     "type": "2_5g",
     "price": {
       "currency": "TWD",
-      "amount": 13999,
-      "converted": 13999,
-      "confidence": "PChome 2026-11-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 12888,
+      "converted": 12888,
+      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-05 PChome原SKU API公開價 13999 TWD；先前促銷金額不沿用。未扣個人券、點數或信用卡回饋；實際配送與安裝條件依通路確認。"
+      "note": "2026-11-12 PChome 原 SKU 公開價 NT$12888，API Qty 2；個人券、點數、信用卡回饋及配送安裝費另計。"
     },
     "installation": {
       "status": "excluded",
