@@ -1159,11 +1159,11 @@
     "image": "https://cs-a.ecimg.tw/items/DPAL7PA900G5M47/000001_1783049805.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 36008,
-      "converted": 36008,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 35550,
+      "converted": 35550,
+      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$36008，API Qty 3；個人券、點數、信用卡回饋及配送安裝費另計。"
+      "note": "2026-11-13 PChome 原 SKU 公開價 NT$35550，API Qty 3。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1369,11 +1369,11 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR16A900HZZEG/000001_1763949344.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 67079,
-      "converted": 67079,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 68639,
+      "converted": 68639,
+      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$67079，API Qty 3；個人券、點數、信用卡回饋及配送安裝費另計。"
+      "note": "2026-11-13 PChome 原 SKU 公開價 NT$68639，API Qty 3。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。"
     },
     "channel": "tw",
     "buyLabel": "PChome",

@@ -4386,19 +4386,20 @@
     "name": "Atlantic EGEO 250 一體式空氣源熱泵熱水器",
     "price": {
       "currency": "TWD",
-      "amount": 145000,
-      "converted": 145000,
-      "basis": "official_suggested",
+      "amount": 108750,
+      "converted": 108750,
+      "basis": "retailer_current",
       "scope": "single_unit",
-      "confidence": "Atlantic 台灣代理熱海實業 Egeo 官方頁 2026-09-06 重查：EGEO250 建議售價145,000元"
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "玉山淨水 EGEO 250 同型新品公開價 NT$108,750，頁面顯示可下單，庫存 2。原頁型號圖片及規格明示 250L、71kg 與 220V。限宜花東配送，未含基本安裝，需先場勘。台灣代理原頁為 NT$145,000 建議售價。"
     },
     "installation": {
-      "status": "not_stated",
-      "note": "官方代理建議售價頁未清楚列出基本安裝範圍；須索取場勘明細"
+      "status": "excluded",
+      "note": "限宜蘭、花蓮、臺東配送。設備價不含基本安裝，需先場勘並另行報價。"
     },
-    "image": "https://www.taada.com.tw/legacy/%E7%B0%A1%E5%A0%B139.jpg",
-    "buyUrl": "https://www.taada.com.tw/products/atlantic-egeo-heat-pump/",
-    "buyLabel": "Atlantic 台灣代理熱海實業｜官方資料",
+    "image": "https://img.gogoshop.cloud/db5b8816/k_8AETsYwBa.png",
+    "buyUrl": "https://www.yushanwater.com.tw/products/atn_whegeo_250",
+    "buyLabel": "玉山淨水（限宜花東配送）",
     "specs": [
       "類型：一體式空氣源熱泵熱水器",
       "能源／氣源：電力；250 L 儲槽",
@@ -4411,7 +4412,7 @@
       "排氣／給排水：免燃燒排氣；需進排風、冷凝排水、冷熱水與洩壓排水",
       "安全裝置：壓縮機、過熱、漏電與洩壓保護",
       "溫控／操作：電子定溫與全自動熱泵運轉",
-      "安裝／加價：官方代理建議售價頁未清楚列出基本安裝範圍；須索取場勘明細"
+      "安裝／加價：限宜花東配送，場勘及基本安裝另計。"
     ],
     "description": "台灣住宅空氣源熱泵熱水系統；效率高，但設備、儲水與施工空間須先場勘。 本表價格採公開新品價或 exact-model 官方建議售價，實際施工總價仍以現場報價為準。",
     "pros": [
@@ -4480,7 +4481,7 @@
     },
     "score": 84,
     "voltage": "220V／60Hz（台灣代理規格，施工前再確認迴路） 台灣公司貨；須依原廠規範確認專用迴路、接地與斷路器",
-    "warranty": "Atlantic 台灣官方／公司貨保固；年限、到府範圍與施工責任依購買憑證及保證書",
+    "warranty": "玉山淨水台灣賣場標示機體 1 年、內膽 5 年、電熱管 3 年。",
     "tags": [
       "熱泵熱水器",
       "Atlantic",
@@ -4732,17 +4733,18 @@
       "currency": "TWD",
       "amount": 59850,
       "converted": 59850,
-      "confidence": "Yahoo 購物中心 exact-model 新品公開價 2026-08-14 exact-model 公開新品價",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "scope": "single_unit"
+      "scope": "single_unit",
+      "note": "由原多商品比較頁改為直接指向同型 HP-600。Yahoo 專頁主價 NT$59,850，立即購買與加入購物車可用，公開單件 95 折截至 2029-11-30T13:27:59+08:00；廠商聯絡約定送貨。"
     },
     "installation": {
       "status": "included_basic",
       "note": "通路公開價標示含基本安裝；偏遠、樓層、吊掛、基礎與超額配管配電另計"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/065612028A-SP-15288344.jpg",
-    "buyUrl": "https://tw.buy.yahoo.com/search/shopping/compare?enableDescription=1&productIds=10811863%2C10810847%2C10810848%2C10812025%2C10810316",
-    "buyLabel": "Yahoo 購物中心 exact-model 新品公開價",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E5%96%84%E9%A8%B0-%E5%AE%B6%E7%94%A8%E5%9E%8B%E4%B8%80%E9%AB%94%E5%BC%8F%E7%86%B1%E6%B3%B5%E7%86%B1%E6%B0%B4%E5%99%A8HP-600-10812025.html",
+    "buyLabel": "Yahoo購物中心（廠商約配）",
     "specs": [
       "類型：一體式空氣源熱泵熱水器",
       "能源／氣源：電力；150 L 儲槽；0.65 kW 額定輸入",

@@ -900,8 +900,8 @@
     "price": {
       "currency": "USD",
       "amount": 208,
-      "converted": 6839,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。；ExchangeRate-API 2026-11-12 匯率換算",
+      "converted": 6859,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。；ExchangeRate-API 2026-11-13 匯率換算",
       "note": "2026-11-04 午後人工覆核：UniFi美國所選單台原生主頁基價189，強制附加費後總額208USD，Add to Cart可用；不採未含強制費用的schema基價。未含國際運費、進口稅、PoE供電配件與台灣保固風險。"
     },
     "image": "https://cdn.ecomm.ui.com/products/fa8dd4e4-36c8-4c79-a928-22c7bff2ce29/ab5bc8a4-6135-402e-a695-e3ea5e16d3e6.png",
@@ -981,8 +981,8 @@
     "price": {
       "currency": "USD",
       "amount": 175,
-      "converted": 5754,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-12 匯率換算",
+      "converted": 5771,
+      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-13 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-04 午後人工覆核：UniFi美國所選單台原生主頁基價159，強制附加費後總額175USD，Add to Cart可用；不採未含強制費用的schema基價。未含國際運費、進口稅、PoE供電配件與台灣保固風險。"
     },
@@ -1100,8 +1100,8 @@
     "price": {
       "currency": "USD",
       "amount": 109,
-      "converted": 3584,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-12 匯率換算",
+      "converted": 3594,
+      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-13 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-04 午後人工覆核：UniFi美國所選單台原生主頁基價99，強制附加費後總額109USD，Add to Cart可用；不採未含強制費用的schema基價。未含國際運費、進口稅、PoE供電配件與台灣保固風險。"
     },
@@ -1586,8 +1586,8 @@
     "price": {
       "currency": "USD",
       "amount": 142,
-      "converted": 4669,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-12 匯率換算",
+      "converted": 4683,
+      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-13 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-04 午後人工覆核：UniFi美國所選單台原生主頁基價129，強制附加費後總額142USD，Add to Cart可用；不採未含強制費用的schema基價。未含國際運費、進口稅、PoE供電配件與台灣保固風險。"
     },
@@ -1692,8 +1692,8 @@
     "price": {
       "currency": "USD",
       "amount": 307,
-      "converted": 10094,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。；ExchangeRate-API 2026-11-12 匯率換算",
+      "converted": 10124,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。；ExchangeRate-API 2026-11-13 匯率換算",
       "note": "2026-11-04 午後人工覆核：UniFi美國所選單台原生主頁基價279，強制附加費後總額307USD，Add to Cart可用；不採未含強制費用的schema基價。未含國際運費、進口稅、PoE供電配件與台灣保固風險。"
     },
     "image": "https://cdn.ecomm.ui.com/products/350070a0-ae43-431b-b052-8e849c3b0a75/bad94693-bc54-4ab4-b060-9b972401941c.png",
@@ -1787,11 +1787,11 @@
     "name": "BE6500 雙頻 Wi-Fi 7 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 4990,
-      "converted": 4990,
-      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
+      "amount": 4699,
+      "converted": 4699,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "2026-11-05 人工覆核：Yahoo同型號主商品公開價4990元，主區立即購買／加入購物車可見。 不扣個人化折價券、點數、信用卡回饋或贈品價值。"
+      "note": "Yahoo 原 SKU 促銷到期後重查，主商品公開價 NT$4,699，主購買按鈕可用。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLPA900IV4B6/000001_1783556530.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/ASUS-%E8%8F%AF%E7%A2%A9-RT-BE82U-WiFi-7-%E9%9B%99%E9%A0%BB-BE6500-%E8%B7%AF%E7%94%B1%E5%99%A8-%E5%88%86%E4%BA%AB%E5%99%A8-11798654.html",
@@ -3531,10 +3531,10 @@
     "name": "Wi-Fi 6E 三頻電競路由器",
     "price": {
       "currency": "TWD",
-      "amount": 3999,
-      "converted": 3999,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$3999，API Qty 13；個人券、點數、信用卡回饋及配送安裝費另計。",
+      "amount": 7990,
+      "converted": 7990,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "PChome 原頁完整 RadiX AXE6600 型號及 SKU，主價 NT$7,990，加入購物車可用，API Qty 13；先前 11/12 前限時 NT$3,999 已結束。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFKSA900HEQVN/000001_1713512948.jpg",
@@ -3632,13 +3632,13 @@
       "currency": "TWD",
       "amount": 2790,
       "converted": 2790,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$2790，API Qty 12；個人券、點數、信用卡回饋及配送安裝費另計。",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "PChome 原頁 DRAFJ8-A900JSZV4 主標同型 Acer Connect Ovia T360，加入購物車及立即購買按鈕啟用，API Qty 12、公開網路價 NT$2,790。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJ8A900JSZV4/000001_1773200906.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJ8-A900JSZV4",
-    "buyLabel": "PChome（原商品已售完，查看供貨）",
+    "buyLabel": "PChome 24h購物",
     "specs": [
       "Wi-Fi 7",
       "BE3600 雙頻",
@@ -3668,16 +3668,16 @@
     "releaseDate": "2026-03",
     "historicalLow": {
       "status": "found",
-      "amount": 2590,
+      "amount": 2190,
       "currency": "TWD",
-      "converted": 2590,
+      "converted": 2190,
       "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1270863201&cgp=2590",
       "sourceTitle": "LBJ 比價撿便宜 歷史價格：【燦坤線上購物】Acer Connect Ovia T360 Wi-Fi 7雙頻路由器",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「燦坤線上購物 / 【燦坤線上購物】Acer Connect Ovia T360 Wi-Fi 7雙頻路由器」最低價為 NT$2,590，最低點日期 2026-07-09。",
+      "evidenceSnippet": "LBJ 燦坤 Acer Connect Ovia T360 同一新品 PID 於 2026-11-06 記錄 NT$2,190；燦坤速速GO 南勢角店、新營三民店同型商品卡均公開標示 NT$2,190。",
       "sourceKind": "price_history",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-11-13",
+      "note": "同型新品公開門市活動價；單品全站入口價格可能不同，門市自取與配送範圍依地址確認，未扣私人券或回饋。"
     },
     "issueResearch": {
       "status": "no_common_issue",

@@ -121,13 +121,13 @@
       "currency": "TWD",
       "amount": 18811,
       "converted": 18811,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "2026-11-01 Yahoo所選同型號主購買區公開價18811元，可訂購；由廠商聯絡約定送貨時間，交期未確認。不扣個人券、信用卡、點數及贈品。"
+      "note": "原 Yahoo 同款頁目前售完。PChome 原頁與 API 同為 WT-TD16HW 雲朵白，Qty 7、公開網路價 NT$18,811、加入購物車和立即購買可用。商品主區明示贈拆箱定位。六都快速安裝有區域與截單時間限制。"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG-%E6%A8%82%E9%87%91-16%E5%85%AC%E6%96%A4-AI-DD-%E8%92%B8%E6%B0%A3%E7%9B%B4%E9%A9%85%E8%AE%8A%E9%A0%BB%E6%B4%97%E8%A1%A3%E6%A9%9F-%E9%9B%B2%E6%9C%B5%E7%99%BD-WT-TD16HW-11981704.html",
+    "buyLabel": "PChome 24h 購物",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900JI135",
     "specs": [
       "洗衣機：LG 樂金 16公斤 AI DD 蒸氣直驅變頻洗衣機-雲朵白(WT-TD16HW)",
       "容量：16kg",
@@ -136,7 +136,7 @@
       "變頻：有標示",
       "溫水洗：依商品頁標示",
       "需確認進排水、插座、門向與安裝空間",
-      "Yahoo購物 可信通路低價；排除洗脫烘、福利品、展示機與配件頁"
+      "PChome 台灣同型新品；排除洗脫烘、福利品、展示機與配件頁"
     ],
     "description": "涵蓋直立式與滾筒式洗衣機，依容量、變頻、省水、省電、品牌售後與安裝門檻排序。",
     "pros": [
@@ -213,6 +213,10 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "PChome 原頁明示隨附拆箱定位。六都指定區域與下單時間適用快速安裝，其他區域依配送約定，額外工項及特殊搬運先確認。"
     }
   },
   {
@@ -654,9 +658,9 @@
       "currency": "TWD",
       "amount": 26899,
       "converted": 26899,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品公開價 NT$26899，公開折扣截至 2026-12-31T23:59:59+08:00；原商品主區有購買按鈕。"
+      "note": "Yahoo 原 SKU 主商品公開價 NT$26,899，主購買按鈕可用。公開活動截至 2026-12-31T23:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -760,8 +764,8 @@
       "currency": "TWD",
       "amount": 7990,
       "converted": 7990,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
-      "note": "Yahoo 原商品公開預購價 NT$7990，公開折扣截至 2026-12-31T23:59:59+08:00；主購買區可預購，實際交期依通路。",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "Yahoo 原 SKU 主商品公開價 NT$7,990，標題明示預購，交期依通路。公開活動截至 2026-12-31T23:59:59+08:00。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -1287,8 +1291,8 @@
       "currency": "TWD",
       "amount": 8990,
       "converted": 8990,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
-      "note": "Yahoo 原商品公開預購價 NT$8990，公開折扣截至 2026-12-31T23:59:59+08:00；主購買區可預購，實際交期依通路。",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "Yahoo 原 SKU 主商品公開價 NT$8,990，標題明示預購，交期依通路。公開活動截至 2026-12-31T23:59:59+08:00。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -1393,9 +1397,9 @@
       "currency": "TWD",
       "amount": 11900,
       "converted": 11900,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品公開價 NT$11900，公開折扣截至 2026-12-31T23:59:59+08:00；原商品主區有購買按鈕。"
+      "note": "Yahoo 原 SKU 主商品公開價 NT$11,900，主購買按鈕可用。公開活動截至 2026-12-31T23:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1812,11 +1816,11 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/df3ca3dcf3-Gd-10425979.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 5453,
-      "converted": 5453,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "amount": 5691,
+      "converted": 5691,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品公開價 NT$5453，公開折扣截至 2026-12-31T23:59:59+08:00；原商品主區有購買按鈕。"
+      "note": "Yahoo 原 SKU 主商品公開價 NT$5,691，主購買按鈕可用。公開活動截至 2026-12-31T23:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -2129,12 +2133,13 @@
       "currency": "TWD",
       "amount": 12199,
       "converted": 12199,
-      "confidence": "Costco 好市多 2026-07-11 頁面查核價",
-      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "Costco 台灣原商品 #122954 為 SHARP ES-ASF10T，主價 NT$12,199，原商品表單及可用的加入購物車按鈕均綁定 #122954，不借推薦品庫存。",
+      "basis": "retailer_current"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/hab/h23/12352726728734.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Washers-Dryers/SHARP-10-kg-Top-Load-Washer-ES-ASF10T/p/122954",
-    "buyLabel": "Costco 好市多（原通路缺貨，查看供貨）",
+    "buyLabel": "Costco 好市多",
     "specs": [
       "10 公斤洗衣容量",
       "直立式",
@@ -2229,11 +2234,11 @@
       "amount": 15999,
       "converted": 15999,
       "confidence": "Costco 好市多 2026-07-11 頁面查核價",
-      "note": "2026-11-04 Chrome開啟原精確商品URL後轉向同通路分類列表，沒有原商品編號的主區；不借列表其他型號價格或加入購物車判定本品現貨。 金額保留為舊參考價；未取得原廠停產證據。"
+      "note": "Costco 原 URL #155133 未呈現該 SKU 主商品與購買區，保留原參考價。好漾 exact 銀霧灰頁無購買按鈕，官方同型資料仍在。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h82/h09/384281302630430.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Washers-Dryers/Washer-Size-10-15-kg/Samsung-13-kg-AI-Top-Load-Washer-WA80F13S5LTW/p/155133",
-    "buyLabel": "Costco（原連結轉分類，供貨待確認）",
+    "buyLabel": "Costco（原頁供貨待確認）",
     "specs": [
       "13 公斤",
       "直立式",
@@ -2327,13 +2332,15 @@
     "name": "12 公斤洗脫變頻滾筒洗衣機",
     "price": {
       "currency": "TWD",
-      "amount": 20119,
-      "converted": 20119,
-      "confidence": "Costco 好市多 2026-07-11 頁面查核價"
+      "amount": 18810,
+      "converted": 18810,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "basis": "retailer_current",
+      "note": "Costco #136412 主商品規格明示晶漾銀、缺貨。Panasonic 台灣官方商城將晶漾銀同系列完整型號列作 NA-V120HW-G；PChome exact SKU 主區與 API 均為 NT$18,810，Qty 2，加入購物車可用，含基本運送、安裝及舊機回收。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/he0/h00/103644752314398.jpg",
-    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Washers-Dryers/Panasonic-12-kg-Inverter-Front-Load-Washer-NA-V120HW/p/136412",
-    "buyLabel": "Costco 好市多",
+    "buyUrl": "https://24h.pchome.com.tw/prod/QBAR29-A900A63AZ",
+    "buyLabel": "PChome 24h 購物",
     "specs": [
       "12 公斤",
       "滾筒式",
@@ -2414,6 +2421,10 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "原頁明示含基本運送、安裝及舊機回收，特殊搬運及超出標準工項另確認。"
     }
   },
   {

@@ -17,10 +17,10 @@
     "name": "11.1.4 聲道旗艦 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 42655,
-      "converted": 42655,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
-      "note": "Yahoo 原商品公開價 NT$42655，公開折扣截至 2026-11-12T12:59:59+08:00；原商品主區有購買按鈕。",
+      "amount": 44900,
+      "converted": 44900,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "Yahoo 原 SKU 促銷到期後重查，主商品公開價 NT$44,900，主購買按鈕可用。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900JMDR5/000001_1773978957.jpg",
@@ -801,11 +801,11 @@
     "name": "LG Soundbar S80TR 5.1.3 聲道立體環繞聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 23900,
-      "converted": 23900,
-      "confidence": "PChome 2026-11-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 19111,
+      "converted": 19111,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "2026-11-05 PChome原SKU API公開價 23900 TWD；先前促銷金額不沿用。未扣個人券、點數或信用卡回饋；實際配送與安裝條件依通路確認。"
+      "note": "PChome 原頁為全新 LG S80TR 5.1.3 聲道，網路價 NT$19,111、建議售價 NT$26,900，加入購物車可用，API Qty 3。非另售拆封福利品。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAAODA900JCHIM/000007_1769583526.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAOD-A900JCHIM",
@@ -901,15 +901,15 @@
     "name": "Q 系列 11.1.4 聲道 Soundbar 家庭劇院",
     "price": {
       "currency": "TWD",
-      "amount": 56905,
-      "converted": 56905,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
-      "note": "Yahoo 原商品公開價 NT$56905，公開折扣截至 2026-11-12T12:59:59+08:00；原商品主區有購買按鈕。",
+      "amount": 48519,
+      "converted": 48519,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "小蔡電器原頁以完整型號 HW-Q990H-ZW 標示無安裝，瀏覽器單件優惠價 NT$48,519、單一規格及加入購物車／立即購買控制；原頁所選型號同價，ShopEnable=true、IsNothing=false。優惠標題另外列出滿額折扣與贈品，均未從單件主價扣除；該刊登未明示宅配金額。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADO2A900K5VUT/000001_1782993730.jpg",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Samsung%E4%B8%89%E6%98%9F-11-1-4%E8%81%B2%E9%81%93-%E8%97%8D%E7%89%99%E8%81%B2%E9%9C%B8-HW-Q990H-ZW-12124621.html",
-    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://www.3c3c.com.tw/shop/itemDetail.aspx?m=16&mNo1=HW-Q990H-ZW&p=256",
+    "buyLabel": "小蔡電器",
     "specs": [
       "11.1.4 聲道",
       "重低音",
@@ -940,16 +940,16 @@
     "releaseDate": "2026-04",
     "historicalLow": {
       "status": "found",
-      "amount": 56905,
+      "amount": 48519,
       "currency": "TWD",
-      "converted": 56905,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282582786&cgp=56905",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Samsung三星 11.1.4聲道 藍牙聲霸(HW-Q990H/ZW)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / Samsung三星 11.1.4聲道 藍牙聲霸(HW-Q990H/ZW)」最低價為 NT$56,905，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
-      "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 48519,
+      "sourceUrl": "https://www.3c3c.com.tw/shop/itemDetail.aspx?m=16&mNo1=HW-Q990H-ZW&p=256",
+      "sourceTitle": "小蔡電器 HW-Q990H-ZW 單機新品公開優惠價",
+      "evidenceSnippet": "小蔡電器原頁以完整型號 HW-Q990H-ZW 標示無安裝，瀏覽器單件優惠價 NT$48,519、單一規格及加入購物車／立即購買控制；原頁所選型號同價，ShopEnable=true、IsNothing=false。優惠標題另外列出滿額折扣與贈品，均未從單件主價扣除；該刊登未明示宅配金額。",
+      "sourceKind": "retailer_page",
+      "confidence": "high",
+      "checkedAt": "2026-11-13",
+      "note": "同型號新品公開單件價，不含安裝，物流費未明示。未扣滿額活動、贈品或付款回饋。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -988,6 +988,10 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "installation": {
+      "status": "excluded",
+      "note": "賣場明示無安裝；此刊登未標示宅配金額。"
     }
   },
   {
@@ -1001,15 +1005,15 @@
     "name": "Q 系列 7.1.2 聲道 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 35055,
-      "converted": 35055,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
-      "note": "Yahoo 原商品公開價 NT$35055，公開折扣截至 2026-11-12T12:59:59+08:00；原商品主區有購買按鈕。",
+      "amount": 33210,
+      "converted": 33210,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "HOTAI購原頁以完整 HW-QS90H-ZW 型號標示新品單件主價 NT$33,210（正常價 NT$34,870）；瀏覽器顯示庫存少於 10 件且加入購物車與立即購買可用。小蔡電器出貨，常溫宅配滿 NT$349 免運，無安裝。需註冊和泰會員並以一般信用卡綁定和泰PAY，無車主、聯名卡或點數門檻；車主首購及滿額點數為分開列示的額外活動。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900K5489/000001_1782988490.jpg",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Samsung%E4%B8%89%E6%98%9F-7-1-2%E8%81%B2%E9%81%93-%E8%97%8D%E7%89%99%E8%81%B2%E9%9C%B8-HW-QS90H-ZW-12124562.html",
-    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://www.hotaigo.com.tw/productdetail/hotai1787919594-hw-qs90h-zw.html",
+    "buyLabel": "HOTAI購（小蔡電器）",
     "specs": [
       "7.1.2 聲道",
       "Q 系列",
@@ -1040,16 +1044,16 @@
     "releaseDate": "2026-04",
     "historicalLow": {
       "status": "found",
-      "amount": 35055,
+      "amount": 31550,
       "currency": "TWD",
-      "converted": 35055,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282582784&cgp=35055",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Samsung三星 7.1.2聲道 藍牙聲霸(HW-QS90H/ZW)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / Samsung三星 7.1.2聲道 藍牙聲霸(HW-QS90H/ZW)」最低價為 NT$35,055，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
-      "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 31550,
+      "sourceUrl": "https://www.3c3c.com.tw/shop/itemDetail.aspx?m=16&mNo1=HW-QS90H-ZW&p=256",
+      "sourceTitle": "小蔡電器 HW-QS90H-ZW 單機新品公開優惠價",
+      "evidenceSnippet": "小蔡電器原頁以完整型號 HW-QS90H-ZW 標示無安裝，瀏覽器單件優惠價 NT$31,550、單一規格及加入購物車／立即購買控制；原頁所選型號同價，ShopEnable=true、IsNothing=false。優惠標題另外列出滿額折扣與贈品，均未從單件主價扣除；該刊登未明示宅配金額。",
+      "sourceKind": "retailer_page",
+      "confidence": "high",
+      "checkedAt": "2026-11-13",
+      "note": "同型號新品公開單件價，不含安裝，物流費未明示。未扣滿額活動、贈品或付款回饋。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1088,6 +1092,10 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "installation": {
+      "status": "excluded",
+      "note": "此賣場為單機宅配，未含安裝；和泰PAY 可綁一般信用卡。"
     }
   },
   {
@@ -1101,10 +1109,10 @@
     "name": "5.1 聲道 Soundbar 家庭劇院組",
     "price": {
       "currency": "TWD",
-      "amount": 8067,
-      "converted": 8067,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
-      "note": "Yahoo 原商品公開價 NT$8067，公開折扣截至 2026-11-12T12:59:59+08:00；原商品主區有購買按鈕。",
+      "amount": 9016,
+      "converted": 9016,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "Yahoo 原 SKU 促銷到期後重查，主商品公開價 NT$9,016，主購買按鈕可用。現行公開活動截至 2026-11-13T19:58:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900GHTFE/000001_1776774078.jpg",
@@ -1399,10 +1407,10 @@
     "name": "7.1 聲道家庭劇院喇叭",
     "price": {
       "currency": "TWD",
-      "amount": 27161,
-      "converted": 27161,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
-      "note": "Yahoo 原商品公開價 NT$27161，公開折扣截至 2026-11-12T12:59:59+08:00；原商品主區有購買按鈕。",
+      "amount": 28590,
+      "converted": 28590,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "Yahoo 原 SKU 促銷到期後重查，主商品公開價 NT$28,590，主購買按鈕可用。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAHGA900J56OK/000001_1755250707.jpg",
@@ -1802,14 +1810,15 @@
     "name": "7.1.4 聲道家庭劇院聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 42900,
-      "converted": 42900,
-      "confidence": "PChome 2026-07-31 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
+      "amount": 39900,
+      "converted": 39900,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "PChome 新商品編號 DMAAHG-A900J5HT3 原頁明示「BAR 1000 MK2 聲霸 7.1.4聲道家庭劇院」，網路價 39900元，可加入購物車，API 庫存 2。金額未扣會員券、點數或信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAHGA900J5777/000001_1755253698.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMAAHG-A900J5777",
-    "buyLabel": "PChome（原商品已售完，查看供貨）",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAAHG-A900J5HT3",
+    "buyLabel": "PChome 24h 購物",
     "specs": [
       "7.1.4 聲道",
       "可拆式無線喇叭",
@@ -1840,16 +1849,16 @@
     "releaseDate": "2025-06",
     "historicalLow": {
       "status": "found",
-      "amount": 40755,
+      "amount": 39900,
       "currency": "TWD",
-      "converted": 40755,
-      "sourceUrl": "https://24h.pchome.com.tw/prod/DMAAHG-A900J5777",
-      "sourceTitle": "PChome 商品頁：JBL BAR 1000 MK2 聲霸 7.1.4聲道家庭劇院 / JBL BAR 1000 MK2 聲霸 7.1.4聲道家庭劇院",
-      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「JBL BAR 1000 MK2 聲霸 7.1.4聲道家庭劇院 / JBL BAR 1000 MK2 聲霸 7.1.4聲道家庭劇院」查核價 NT$40,755，低於原先記錄史低。",
+      "converted": 39900,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMAAHG-A900J5HT3",
+      "sourceTitle": "JBL BAR 1000 MK2 同型新品通路價",
+      "evidenceSnippet": "2026-11-13 PChome 新商品編號 DMAAHG-A900J5HT3 原頁明示「BAR 1000 MK2 聲霸 7.1.4聲道家庭劇院」，網路價 39900元，可加入購物車，API 庫存 2。金額未扣會員券、點數或信用卡回饋。 此價低於已查得的同型號史低。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-10",
-      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
+      "checkedAt": "2026-11-13",
+      "note": "採同型號可信新品公開價格，扣除額外回饋前。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2000,8 +2009,8 @@
     "price": {
       "currency": "USD",
       "amount": 1299.99,
-      "converted": 42744,
-      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-11-12 匯率換算"
+      "converted": 42869,
+      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-11-13 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/2C2sn9CKoKFdIyd94Gm9z5/f3019d4e721511167ebe5c229bf490dd/heston-120_plp.jpg",
     "buyUrl": "https://www.marshall.com/us/en/product/heston-120",
@@ -2100,8 +2109,8 @@
     "price": {
       "currency": "USD",
       "amount": 699.99,
-      "converted": 23016,
-      "confidence": "2026-10-24 人工核對 www.marshall.com 同型號與所選版本公開價 USD 699.99，可下單；未扣會員、信用卡或點數。；ExchangeRate-API 2026-11-12 匯率換算",
+      "converted": 23083,
+      "confidence": "2026-10-24 人工核對 www.marshall.com 同型號與所選版本公開價 USD 699.99，可下單；未扣會員、信用卡或點數。；ExchangeRate-API 2026-11-13 匯率換算",
       "basis": "retailer_current"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/3yitHqjPBTgQk5qRE72PSn/2788206646aa153f71f2c0ebefaff580/Heston-60-black_plp_800x800-v3.jpeg",
@@ -2396,10 +2405,10 @@
     "name": "2.0 聲道二合一分離式聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 602,
-      "converted": 602,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
-      "note": "Yahoo 原商品公開價 NT$602，公開折扣截至 2026-11-12T12:59:59+08:00；原商品主區有購買按鈕。",
+      "amount": 633,
+      "converted": 633,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "Yahoo 原 SKU 促銷到期後重查，主商品公開價 NT$633，主購買按鈕可用。",
       "basis": "retailer_current"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h21/hac/367883491278878.jpg",
@@ -2543,14 +2552,14 @@
       "status": "found",
       "amount": 176091,
       "currency": "JPY",
-      "converted": 36297,
+      "converted": 36339,
       "sourceUrl": "https://kakaku.com/item/K0001712395/pricehistory/",
       "sourceTitle": "価格.com：JBL BAR 1300MK2 [ブラック] 価格推移",
       "evidenceSnippet": "価格.com 日別價格歷史顯示 exact-model「JBL BAR 1300MK2 [ブラック]」於 2026-06-17 的新品最低價為 ¥176,091；2025-10 初始價格為 ¥205,306。",
       "sourceKind": "price_history",
       "confidence": "medium",
       "checkedAt": "2026-08-25",
-      "note": "採日本市場 exact-model 公開價格歷史並依 2026-11-12 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
+      "note": "採日本市場 exact-model 公開價格歷史並依 2026-11-13 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2824,7 +2833,7 @@
       "amount": 14399,
       "converted": 14399,
       "confidence": "Costco 好市多台灣於 2026-08-29 的 exact-model 可購公開售價 NT$14,399",
-      "basis": "retailer_current"
+      "note": "Costco 原頁 #148021 主商品為 Flexus Core 200 單聲霸，頁面顯示 NT$14,399 含運，主購買按鈕缺貨且停用，保留既有參考價。其他來源多為木紋款、重低音組合或福利品，未確認同款黑色單機公開可購。"
     },
     "installation": {
       "status": "not_stated",
@@ -2832,7 +2841,7 @@
     },
     "image": "https://klipsch.imgix.net/product-images/Klipsch-Flexus-CORE-200-Hero_2000x2000.png?crop=focalpoint&domain=klipsch.imgix.net&fit=crop&fm=webp&fp-x=0.5&fp-y=0.5&h=1000&ixlib=php-3.3.1&q=90&w=1000",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Soundbars-Home-Theater/Klipsch-Flexus-312-Channel-Dolby-Atmos-SoundBar-Core-200/p/148021",
-    "buyLabel": "Costco 好市多台灣 exact-model 新品",
+    "buyLabel": "Costco（原頁缺貨）",
     "specs": [
       "3.1.2 聲道；Dolby Atmos；Klipsch 號角中置高音與 2 組天空聲道單體",
       "185W RMS；頻率響應 43Hz–20kHz；內建 2 組 4 吋低音單體",
@@ -3098,11 +3107,11 @@
     "name": "ROG Gjallar 2.1.2 聲道電競 Soundbar 與無線重低音",
     "price": {
       "currency": "TWD",
-      "amount": 17300,
-      "converted": 17300,
-      "confidence": "2026-10-28 原商品頁人工覆核同型號、同版本公開價與銷售狀態；優惠條件見註記。",
+      "amount": 17900,
+      "converted": 17900,
+      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-10-28晚間原頁覆核：主商品17900元，10/28–11/2新周邊滿額活動滿5000折600元，單套17300元；這是本次新活動，不沿用8月促銷。不含個人券、點數或信用卡回饋。"
+      "note": "2026-11-13 PChome 原 SKU 公開價 NT$17900，API Qty 20。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。"
     },
     "installation": {
       "status": "not_stated",
@@ -3620,9 +3629,9 @@
     "price": {
       "currency": "USD",
       "amount": 699,
-      "converted": 22983,
+      "converted": 23050,
       "basis": "retailer_current",
-      "confidence": "2026-10-19 人工核對 Sonos US 官方黑色 BMULTUS1BLK 公開單機 US$699 與 Available now/Add to cart；ExchangeRate-API 2026-11-12 匯率換算，未含國際運費與進口稅。"
+      "confidence": "2026-10-19 人工核對 Sonos US 官方黑色 BMULTUS1BLK 公開單機 US$699 與 Available now/Add to cart；ExchangeRate-API 2026-11-13 匯率換算，未含國際運費與進口稅。"
     },
     "installation": {
       "status": "not_stated",

@@ -219,14 +219,15 @@
     "name": "BRAVIA 7 65 型 Mini LED 4K Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 56900,
-      "converted": 56900,
-      "confidence": "PChome 2026-09-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
+      "amount": 53910,
+      "converted": 53910,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "PChome 新商品編號 DPAD06-A900HKBUL 原頁明示「BRAVIA 7 65型 XR Mini LED 4K HDR Google TV 顯示器 Y-65XR70」，折扣價 53910元，可加入購物車，API 庫存 1。金額未扣會員券、點數或信用卡回饋。 PChome 新商品編號 DPAD06-A900HKBUL 原頁明示「BRAVIA 7 65型 XR Mini LED 4K HDR Google TV 顯示器 Y-65XR70」，折扣價 53910元，可加入購物車，API 庫存 1。金額未扣會員券、點數或信用卡回饋。公開折扣 NT$53,910，網路價 NT$56,900，主商品 directPromotions 截至 2026-11-13 09:00:59（台灣）。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADFNA900K7VQ8/000001_1784011502.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DPADFN-A900K7VQ8",
-    "buyLabel": "PChome（原商品已售完，查看供貨）",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPAD06-A900HKBUL",
+    "buyLabel": "PChome 24h 購物",
     "specs": [
       "尺寸：不含底座 約 寬 144.5 x 深 5.7 x 高 83.2 cm；含底座 約 寬 144.5 x 深 34.5 x 高 85.6 cm",
       "重量：不含底座 約 27.1 kg；含底座 約 28.3 kg",
@@ -306,6 +307,10 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "原頁列廠商出貨，未明示基本桌上安裝或壁掛服務，配送、安裝與費用請先確認。"
     }
   },
   {
@@ -830,10 +835,10 @@
     "name": "BRAVIA 8 65 型 XR OLED 4K HDR Google TV 顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 93900,
-      "converted": 93900,
-      "confidence": "PChome 2026-11-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-05 PChome原SKU API公開價 93900 TWD；先前促銷金額不沿用。未扣個人券、點數或信用卡回饋；實際配送與安裝條件依通路確認。",
+      "amount": 84510,
+      "converted": 84510,
+      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-13 PChome 原 SKU 公開價 NT$84510，API Qty 1。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD06A900HLBJO/000001_1776334113.jpg",
@@ -931,14 +936,15 @@
     "name": "65 型 OLED 智慧聯網顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 72072,
-      "converted": 72072,
-      "confidence": "PChome 2026-08-31 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
+      "amount": 81900,
+      "converted": 81900,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "PChome 新商品編號 DPADO2-A900JT6X6 原頁明示「TV-65Z90BGT 65吋 4K OLED 智慧顯示器 原廠公司貨」，網路價 81900元，可加入購物車，API 庫存 1。原頁標示含基本安裝及舊機回收。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD09A900J9FAZ/000001_1761888394.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DPAD09-A900J9FAZ",
-    "buyLabel": "PChome（原商品已售完，查看供貨）",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPADO2-A900JT6X6",
+    "buyLabel": "PChome 24h 購物",
     "specs": [
       "尺寸：不含底座 寬 144.4 x 深 5.8 x 高 89.2 cm；含底座 寬 144.4 x 深 34.8 x 高 91.5 cm",
       "重量：不含底座 25.5 kg；含底座 30.5 kg",
@@ -1018,6 +1024,10 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "原頁標示含基本安裝及舊機回收。"
     }
   },
   {
@@ -1031,15 +1041,15 @@
     "name": "65 型 4K 144Hz VRR OLED Google TV 顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 62910,
-      "converted": 62910,
-      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
-      "note": "2026-11-05 Chrome原頁主區已顯示折扣價NT$62,910（網路價69,900），雙11任1件9折至11/30，加入購物車可用；未扣個人券或回饋。",
+      "amount": 79900,
+      "converted": 79900,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "PChome 新商品編號 DMBM10-A900HNTKI 原頁明示「65吋 65OLED809 4K OLED 智慧聯網顯示器」，網路價 79900元，可加入購物車，API 庫存 5。原頁標示不含安裝及一樓簽收。 PChome 新商品編號 DMBM10-A900HNTKI 原頁明示「65吋 65OLED809 4K OLED 智慧聯網顯示器」，網路價 79900元，可加入購物車，API 庫存 5。原頁標示不含安裝及一樓簽收。主頁明示預購、預計 2026/11/16–11/18 出貨，仍可加入購物車；不含安裝及一樓簽收。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADIKA900HJGF2/000001_1782900149.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DPADIK-A900HJGF2",
-    "buyLabel": "PChome",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900HNTKI",
+    "buyLabel": "PChome 24h 購物（預購 11/16–11/18 出貨）",
     "specs": [
       "尺寸：不含底座 寬 144.4 x 深 6.8 x 高 83 cm；含底座 寬 144.4 x 深 28 x 高 89.6 cm",
       "重量：不含底座 23 kg；含底座 28 kg",
@@ -1119,6 +1129,10 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "installation": {
+      "status": "excluded",
+      "note": "原頁標示不含安裝及一樓簽收。"
     }
   },
   {
@@ -1531,12 +1545,13 @@
       "currency": "TWD",
       "amount": 89910,
       "converted": 89910,
-      "confidence": "PChome 2026-07-11 API 查核價",
-      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "PChome 新商品編號 DPADEW-A900IUOHY 原頁明示「65型 8K Neo QLED 165Hz Mini LED AI智慧顯示器 含超薄壁掛架 65QN900F (QA65QN900FXXZW)」，網路價 89910元，可加入購物車，API 庫存 1。附超薄壁掛架，原頁標示含桌上型基本安裝；壁掛施工費需另確認。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADEW1900JPY1S/000001_1770558909.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DPADEW-A900IZ244",
-    "buyLabel": "PChome（原商品已售完，查看供貨）",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPADEW-A900IUOHY",
+    "buyLabel": "PChome 24h 購物",
     "specs": [
       "尺寸：不含底座 寬 145.53 x 深 3.78 x 高 83.03 cm；含底座 寬 145.53 x 深 25.68 x 高 86.74 cm",
       "重量：不含底座 25.5 kg；含底座 25.9 kg",
@@ -1616,6 +1631,10 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "附超薄壁掛架，原頁標示含桌上型基本安裝；壁掛施工費需另確認。"
     }
   },
   {
@@ -1631,12 +1650,13 @@
       "currency": "TWD",
       "amount": 32900,
       "converted": 32900,
-      "confidence": "PChome 2026-07-11 API 查核價",
-      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "PChome 新商品編號 DPADRU-A900JZZ0E 原頁明示「65吋 量子點 GoogleTV J65-770｜送壁掛架 含基本桌上安裝」，網路價 32900元，可加入購物車，API 庫存 1。原頁主商品標示贈壁掛架、含基本桌上安裝，壁掛施工費需另確認。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD0O1900JL0Z8/000001_1766513999.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DPADY8-A900JI9B7",
-    "buyLabel": "PChome（原商品已售完，查看供貨）",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPADRU-A900JZZ0E",
+    "buyLabel": "PChome 24h 購物",
     "specs": [
       "尺寸：不含底座 寬 144.53 x 深 6.62 x 高 84.3 cm；含底座 寬 144.53 x 深 29.92 x 高 89.84 cm",
       "重量：不含底座 19.45 kg；含底座 19.75 kg",
@@ -1716,6 +1736,10 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "原頁主商品標示贈壁掛架、含基本桌上安裝，壁掛施工費需另確認。"
     }
   },
   {
@@ -1831,12 +1855,13 @@
       "currency": "TWD",
       "amount": 17999,
       "converted": 17999,
-      "confidence": "PChome 2026-07-11 API 查核價",
-      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "PChome 新商品編號 DPADZM-A900KNWEJ 原頁明示「65吋4K QLED連網智慧顯示器【65M450NT】」，17999元，可加入購物車，API 庫存 2。原頁標示含運、不含安裝。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADBHA900HWJZ7/000001_1780076528.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DPADBH-A900HWJZ7",
-    "buyLabel": "PChome（原商品已售完，查看供貨）",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPADZM-A900KNWEJ",
+    "buyLabel": "PChome 24h 購物",
     "specs": [
       "尺寸：不含底座 寬 145.3 x 深 7.6 x 高 83.8 cm；含底座 寬 145.3 x 深 31.8 x 高 89.3 cm",
       "重量：不含底座 15.7 kg；含底座 15.9 kg",
@@ -1849,7 +1874,7 @@
     "description": "Toshiba 65M450NT 補進本分類比較池，重點是65 吋、4K、QLED，適合和同類 Top Pick 依預算、售後與規格一起比較。",
     "pros": [
       "REGZA 品牌調校有口碑",
-      "含壁掛安裝方案可參考"
+      "支援壁掛，安裝服務需另洽"
     ],
     "cons": [
       "非 Mini LED/OLED",
@@ -1916,6 +1941,10 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "installation": {
+      "status": "excluded",
+      "note": "原頁標示含運、不含安裝。"
     }
   },
   {
@@ -2030,14 +2059,15 @@
     "name": "65型 4K QLED Google TV 顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 21411,
-      "converted": 21411,
-      "confidence": "PChome 2026-07-17 API 公開價",
-      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
+      "amount": 21500,
+      "converted": 21500,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "PChome 新商品編號 DMBM10-A900IFXK7 原頁明示「65型 4K QLED GOOGLE TV液晶顯示器 TL65QU1TRE」，網路價 21500元，可加入購物車，API 庫存 6。原頁標示不含安裝及一樓簽收。 PChome 新商品編號 DMBM10-A900IFXK7 原頁明示「65型 4K QLED GOOGLE TV液晶顯示器 TL65QU1TRE」，網路價 21500元，可加入購物車，API 庫存 6。原頁標示不含安裝及一樓簽收。主頁明示預購、預計 2026/11/16–11/18 出貨，仍可加入購物車；不含安裝及一樓簽收。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD0WA900I9LNS/000001_1769648262.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DPAD0W-A900I9LNS",
-    "buyLabel": "PChome（原商品已售完，查看供貨）",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900IFXK7",
+    "buyLabel": "PChome 24h 購物（預購 11/16–11/18 出貨）",
     "specs": [
       "尺寸：不含底座 寬 144.53 x 深 9.17 x 高 83.19 cm；含底座 寬 144.53 x 深 30.09 x 高 89.47 cm",
       "重量：查不到",
@@ -2117,6 +2147,10 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "installation": {
+      "status": "excluded",
+      "note": "原頁標示不含安裝及一樓簽收。"
     }
   },
   {
@@ -2334,14 +2368,15 @@
     "name": "65 吋 C8K QD-Mini LED Google TV 顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 45999,
-      "converted": 45999,
-      "confidence": "Costco 好市多 2026-07-11 頁面查核價",
-      "note": "2026-11-04 Chrome開啟原精確商品URL後轉向同通路分類列表，沒有原商品編號的主區；不借列表其他型號價格或加入購物車判定本品現貨。 金額保留為舊參考價；未取得原廠停產證據。"
+      "amount": 49990,
+      "converted": 49990,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "Costco #154789 原頁未提供主商品。PChome TCL 官方旗艦館 exact 65C8K 原頁與 API 同為 NT$49,990、Qty 9，加入購物車可用；含基本運送、拆箱定位與舊機回收，偏遠另計。",
+      "basis": "retailer_current"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h2d/ha5/438072223236126.jpg",
-    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Televisions-TV-Accessories/60-69-TVs/TCL-65-inch-premium-QD-Mini-LED-Google-TV-Smart-Monitor-without-STB-65C8K/p/154789",
-    "buyLabel": "Costco（原連結轉分類，供貨待確認）",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPADT3-A900IXUIE",
+    "buyLabel": "PChome TCL 官方旗艦館",
     "specs": [
       "尺寸：不含底座 寬 143.4 x 深 5 x 高 82.4 cm；含底座 寬 143.4 x 深 36.8 x 高 86 cm",
       "重量：不含底座 21.2 kg；含底座 23.1 kg",
@@ -2423,6 +2458,10 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "含基本運送、拆箱定位與舊機回收。偏遠地區運送及壁掛施工可能另計，廠商約配。"
     }
   },
   {
@@ -4173,11 +4212,11 @@
     "name": "75 吋 X11L SQD-Mini LED 4K Google TV 旗艦顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 148491,
-      "converted": 148491,
+      "amount": 164990,
+      "converted": 164990,
       "basis": "retailer_current",
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-01 人工逐筆核對PChome原產品API：TCL 75吋 X11L 頂級 SQD-Mini LED 量子智能連網液晶顯示器(75X11L)；Price.Low=148491元，Qty=3，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
+      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-13 PChome 原 SKU 公開價 NT$164990，API Qty 10。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。"
     },
     "installation": {
       "status": "included_basic",
@@ -4284,11 +4323,11 @@
   "topPick": false,
   "price": {
     "currency": "TWD",
-    "amount": 28791,
-    "converted": 28791,
+    "amount": 31990,
+    "converted": 31990,
     "basis": "retailer_current",
-    "confidence": "2026-11-04 人工讀exact原頁主價格與主購買按鈕HTML，主CTA非disabled；不是schema或分類價格。",
-    "note": "11/01–01/29任選1件9折主價已顯示28791，網路31990；未扣P幣、刷卡回饋、折價券或贈品。"
+    "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+    "note": "PChome TCL 官方旗艦館原頁 DPADT3-A900K7NI4 主標同型 65A400 Pro，加入購物車啟用，API Qty 10；Price.Low 無數值，公開網路價 NT$31,990。廠商出貨。"
   },
   "installation": {
     "status": "included_basic",
@@ -4296,7 +4335,7 @@
   },
   "image": "https://img.pchome.com.tw/cs/items/DPADT3A900K7NI4/000001_1783742219.jpg",
   "buyUrl": "https://24h.pchome.com.tw/prod/DPADT3-A900K7NI4",
-  "buyLabel": "PChome（限時公開單件折扣）",
+  "buyLabel": "PChome 官方旗艦館（廠商出貨）",
   "specs": [
     "尺寸：不含底座 寬 145.2 x 深 4 x 高 83.2 cm；含底座 寬 145.2 x 深 29.5 x 高 88.5 cm",
     "重量：整機 18.5 kg",

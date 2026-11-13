@@ -17,11 +17,11 @@
     "name": "16 公升高效型變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 14608,
-      "converted": 14608,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 15488,
+      "converted": 15488,
+      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$14608，API Qty 20；個人券、點數、信用卡回饋及配送安裝費另計。"
+      "note": "2026-11-13 PChome 原 SKU 公開價 NT$15488，API Qty 20。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900J0L88/000001_1776323540.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3P-A900J0L88",
@@ -117,12 +117,13 @@
       "currency": "TWD",
       "amount": 20900,
       "converted": 20900,
-      "confidence": "PChome 2026-09-03 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "PChome 新商品編號 DMBQ07-A900JOMT2 原頁明示「22公升WiFi雙變頻除濕機-時尚款 DE221MWE0」，網路價 20900元，可加入購物車，API 庫存 20。金額未扣會員券、點數或信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4NA900JMY77/000001_1783337653.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ4N-A900JMY77",
-    "buyLabel": "PChome（原商品已售完，查看供貨）",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ07-A900JOMT2",
+    "buyLabel": "PChome 24h 購物",
     "specs": [
       "22L 級",
       "雙變頻",
@@ -505,8 +506,8 @@
       "currency": "TWD",
       "amount": 15680,
       "converted": 15680,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
-      "note": "Yahoo 原商品公開價 NT$15680，公開折扣截至 2026-11-16T09:59:59+08:00；原商品主區有購買按鈕。",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "Yahoo 原 SKU 主商品公開價 NT$15,680，主購買按鈕可用。公開活動截至 2026-11-16T09:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4YA900IKOCC/000001_1744795213.jpg",
@@ -603,8 +604,8 @@
       "currency": "TWD",
       "amount": 19432,
       "converted": 19432,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
-      "note": "Yahoo 原商品公開價 NT$19432，公開折扣截至 2026-11-16T09:59:59+08:00；原商品主區有購買按鈕。",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "Yahoo 原 SKU 主商品公開價 NT$19,432，主購買按鈕可用。公開活動截至 2026-11-16T09:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900GTPHC/000001_1699597155.jpg",
@@ -701,8 +702,8 @@
       "currency": "TWD",
       "amount": 11192,
       "converted": 11192,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
-      "note": "Yahoo 原商品公開價 NT$11192，公開折扣截至 2026-11-16T09:59:59+08:00；原商品主區有購買按鈕。",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "Yahoo 原 SKU 主商品公開價 NT$11,192，主購買按鈕可用。公開活動截至 2026-11-16T09:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU0FA900B1HPU/000001_1782813379.jpg",
@@ -797,11 +798,11 @@
     "name": "9 公升除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 7711,
-      "converted": 7711,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 8615,
+      "converted": 8615,
+      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$7711，API Qty 20；個人券、點數、信用卡回饋及配送安裝費另計。"
+      "note": "2026-11-13 PChome 原 SKU 公開價 NT$8615，API Qty 20。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ00A900JB38A/000001_1776329911.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ00-A900JB38A",
@@ -895,11 +896,11 @@
     "name": "PuriCare WiFi 變頻除濕機粉紅 16 公升",
     "price": {
       "currency": "TWD",
-      "amount": 13011,
-      "converted": 13011,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 13900,
+      "converted": 13900,
+      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$13011，API Qty 20；個人券、點數、信用卡回饋及配送安裝費另計。"
+      "note": "2026-11-13 PChome 原 SKU 公開價 NT$13900，API Qty 20。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ07A900HQ3L5/000001_1761827365.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ07-A900HQ3L5",
@@ -993,11 +994,11 @@
     "name": "PuriCare 12 公升雙變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 13231,
-      "converted": 13231,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "amount": 12967,
+      "converted": 12967,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品公開價 NT$13231；原商品主區有購買按鈕。"
+      "note": "Yahoo 原 SKU 主商品公開價 NT$12,967，主購買按鈕可用。公開活動截至 2026-11-13T09:19:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4NA900JF9HP/000001_1778165423.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-12%E5%85%AC%E5%8D%87-%E6%97%A5UV%E6%AE%BA%E8%8F%8C%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9FDD121QWE0-11864251.html",
@@ -1187,14 +1188,15 @@
     "name": "PuriCare 雙變頻除濕機 25.6 公升曜黑",
     "price": {
       "currency": "TWD",
-      "amount": 18522,
-      "converted": 18522,
-      "confidence": "Yahoo購物中心 2026-09-02 exact-model 公開結構化價格",
-      "note": "Yahoo 原商品主區顯示此賣場已停售；保留先前參考價，供貨待查。"
+      "amount": 21900,
+      "converted": 21900,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "Yahoo 原賣場停售；雅光電器主商品 WD261VKF0、NT$21,900、庫存 1、加入購物車與立即購買可用。賣場標題寫 26.5L，但同頁規格日除濕量 25.6L、BSMI R3A062，與 LG 原廠及 exact SKU 一致，配送費依通路。PChome DMBQ3G-A900KHLRM Qty 0。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ07A900GFBVP/000001_1767340170.jpg",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-PuriCare-%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9F-25-6%E5%85%AC%E5%8D%87-%E6%9B%9C%E9%BB%91-WD261VKF0-11970685.html",
-    "buyLabel": "Yahoo購物中心（此賣場已停售）",
+    "buyUrl": "https://www.yk01.com.tw/products/wd261vkf0",
+    "buyLabel": "雅光電器",
     "specs": [
       "25.6 公升",
       "雙變頻",
@@ -1214,7 +1216,7 @@
     "recommendation": "同類推薦：補入不同公升數與清淨除濕款，方便依坪數和耗能取捨。",
     "score": 80,
     "voltage": "110V 台灣通路",
-    "warranty": "依 PChome/供應商頁面",
+    "warranty": "台灣公司貨，保固與送修依雅光電器及 LG 台灣商品條款。",
     "tags": [
       "LG",
       "大容量",
@@ -1284,11 +1286,11 @@
     "name": "18 公升一級能效 PuriCare 雙變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 17500,
-      "converted": 17500,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "amount": 17150,
+      "converted": 17150,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品公開價 NT$17500；原商品主區有購買按鈕。"
+      "note": "Yahoo 原 SKU 主商品公開價 NT$17,150，主購買按鈕可用。公開活動截至 2026-11-13T09:19:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4NA900JCHFZ/000001_1783342859.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-PuriCare-18%E5%85%AC%E5%8D%87%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9F-%E7%99%BD%E8%89%B2-DD181MWE0-11971018.html",
@@ -1382,10 +1384,10 @@
     "name": "20L 第六感智能除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 8990,
-      "converted": 8990,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
-      "note": "Yahoo 原商品公開價 NT$8990；原商品主區有購買按鈕。",
+      "amount": 8271,
+      "converted": 8271,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "Yahoo 原 SKU 主商品公開價 NT$8,271，主購買按鈕可用。公開活動截至 2026-11-13T09:20:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3SA900K13ZR/000001_1779265654.jpg",
@@ -1577,11 +1579,11 @@
     "name": "6公升高效除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 3800,
-      "converted": 3800,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 4390,
+      "converted": 4390,
+      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$3800，API Qty 20；個人券、點數、信用卡回饋及配送安裝費另計。"
+      "note": "2026-11-13 PChome 原 SKU 公開價 NT$4390，API Qty 20。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ08A900IXL3K/000001_1753349026.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ08-A900IXL3K",
@@ -1675,11 +1677,11 @@
     "name": "6L 除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 5111,
-      "converted": 5111,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 5447,
+      "converted": 5447,
+      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$5111，API Qty 20；個人券、點數、信用卡回饋及配送安裝費另計。"
+      "note": "2026-11-13 PChome 原 SKU 公開價 NT$5447，API Qty 20。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900J9FH9/000001_1776325410.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3P-A900J9FH9",
@@ -2066,14 +2068,15 @@
     "name": "20 公升雙效空氣清淨除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 16989,
-      "converted": 16989,
-      "confidence": "Costco 好市多 2026-07-11 頁面查核價",
-      "note": "2026-11-04 Chrome開啟原精確商品URL後轉向同通路分類列表，沒有原商品編號的主區；不借列表其他型號價格或加入購物車判定本品現貨。 金額保留為舊參考價；未取得原廠停產證據。"
+      "amount": 19900,
+      "converted": 19900,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "Costco #133200 原頁未提供主商品。史泰博 exact FD-Y200L 20 L 單台公開 NT$19,900，Chrome 主區顯示正常供貨、可立即出貨及加入購物車；缺貨模板處於隱藏狀態，宅配依配送地區。",
+      "basis": "retailer_current"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/hf8/hd0/64882598379550.jpg",
-    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Dehumidifiers-Dry-Cabinets/3M-Filtrete-20-L-Air-Purifier-Dehumidifier-FD-Y200L/p/133200",
-    "buyLabel": "Costco（原連結轉分類，供貨待確認）",
+    "buyUrl": "https://www.stapro.com.tw/product_detail.php?id=290810",
+    "buyLabel": "史泰博購物網",
     "specs": [
       "20 公升/日",
       "水箱 6.2 公升",
@@ -2593,8 +2596,7 @@
       "amount": 20700,
       "converted": 20700,
       "confidence": "HOTAI購於 2026-08-28 的 exact-model 現貨公開價",
-      "basis": "retailer_current",
-      "note": "2026-11-01 HOTAI購所選DW-UW25HT-W主商品20700元且明示缺貨、補貨中；保留20700元參考價，不當作可購現價，不視為停產。"
+      "note": "HOTAI購原頁主商品及完整型號為 SHARP DW-UW25HT-W，顯示商品售價 NT$20,700；主購買區按鈕標示補貨中且 disabled。保留先前參考價，不作可購現價。"
     },
     "installation": {
       "status": "not_stated",
@@ -2602,7 +2604,7 @@
     },
     "image": "https://tw.sharp/sites/default/files/2026-04/DW-UW25HT-W_1.png",
     "buyUrl": "https://www.hotaigo.com.tw/productdetail/hotai1785980593-4550556198233.html",
-    "buyLabel": "HOTAI購（缺貨，現價待確認）",
+    "buyLabel": "HOTAI購（補貨中，保留參考價）",
     "specs": [
       "除濕能力：25 L／日；官方標示適用約 31 坪",
       "雙變頻壓縮機與風扇；Plasmacluster PCI 25000 淨化離子",

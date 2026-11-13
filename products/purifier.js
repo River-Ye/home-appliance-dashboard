@@ -1286,8 +1286,8 @@
       "currency": "TWD",
       "amount": 20900,
       "converted": 20900,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
-      "note": "11/12 中午優惠結束後重新讀取 Yahoo 11903396，TP12 主購買區公開預購價 NT$20,900。配送以通路通知為準。",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "Yahoo 原 SKU 主商品公開價 NT$20,900，標題明示預購，交期依通路。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3CA900HTKRG/000001_1767758629.jpg",
@@ -1675,14 +1675,15 @@
     "name": "10坪圓嘟嘟空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 4999,
-      "converted": 4999,
-      "confidence": "PChome 2026-08-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
+      "amount": 5097,
+      "converted": 5097,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "Yahoo 自營同型 FU-J41T-W 白色，主區可立即購買及加車，宅配免運；原公開價 NT$5,422、單件活動後 NT$5,097 至 2026-11-16T09:59:59+08:00。偏遠地區及外島不配送。舊 PChome 售完。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU6TA900IVWE0/000001_1748922662.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMAU6T-A900IVWE0",
-    "buyLabel": "PChome（原商品已售完，查看供貨）",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=12292952",
+    "buyLabel": "Yahoo 購物中心（自營）",
     "specs": [
       "10 坪",
       "空氣清淨",
@@ -1970,11 +1971,12 @@
       "currency": "TWD",
       "amount": 15499,
       "converted": 15499,
-      "confidence": "Costco 好市多 2026-10-19 exact-model 公開結構化價格"
+      "confidence": "Costco 好市多 2026-10-19 exact-model 公開結構化價格",
+      "note": "Costco 原頁 #136662 主商品為 AS651DWH0，頁面顯示 NT$15,499 含運，主購買按鈕缺貨且停用，保留既有參考價。創億購連結實際載入店面其他商品，未呈現同 SKU 主購買區。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/hfb/h8d/115203619782686.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Air-Purifiers-Filters-Accessories/LG-PuriCare-360-Air-Purifier-AS651DWH0/p/136662",
-    "buyLabel": "Costco 好市多",
+    "buyLabel": "Costco（原頁缺貨）",
     "specs": [
       "360° 進風",
       "PuriCare 系列",

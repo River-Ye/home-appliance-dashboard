@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12",
+  "generatedAt": "2026-11-13",
   "sourcePolicy": "本站共 21 類尺寸、13 類重量研究，尺寸涵蓋 電視、Soundbar、冷氣、洗衣機、烘衣機、洗烘衣機(多功能型)、電子衣櫥（衣物護理機）、床包、棉被、枕頭、冰箱、咖啡機、多功能氣炸烤箱／微波爐、洗碗機、熱水器、免治馬桶、網路交換器、螢幕燈、滑鼠、鍵盤、滑鼠墊。優先採 exact-model／相同版本的官方產品頁、官方規格表或官方 PDF，其次為可信新品通路。只採本體／機身／明確組件的尺寸與淨重，排除包裝、外箱尺寸與毛重；來源沒有明示軸序時不自行推定。既有家電與床包、棉被、枕頭維持 cm／kg，滑鼠、鍵盤與滑鼠墊使用 mm／g 並保留來源軸序。滑鼠墊厚度、床包可包覆高度另列；棉被的填充重量與整件淨重分開記錄。冷氣分列室內機與室外機，熱泵複合熱水器分列主機與儲槽。generatedAt 為最新證據批次日期，既有逐筆 checkedAt 與 weightCheckedAt 保留原查核日期，不表示重新查核。",
   "results": [
     {
@@ -11272,6 +11272,27 @@
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
       "weightCheckedAt": "2026-11-12"
+    },
+    {
+      "id": "washerdryer-toshiba-twd-t33b135uwta-ws",
+      "category": "washerdryer",
+      "brand": "Toshiba",
+      "model": "TWD-T33B135UWTA(WS)",
+      "name": "12.5／8公斤沖浪洗淨2.0變頻滾筒洗脫烘（極地白）",
+      "dimension": "尺寸：寬 59.5 x 深 62 x 高 85 cm",
+      "sourceUrl": "https://www.toshiba-lifestyle.com/tw/washing-machine/laundry/front-loading/toshiba-12-5kg-the-great-waves-2-0-inverter-iot-front-load-washing-machine-twd-t33b135uwta-ws",
+      "sourceTitle": "Toshiba 台灣 TWD-T33B135UWTA(WS) 詳細規格",
+      "evidenceSnippet": "原廠機體尺寸表列寬×深×高 595×620×850 mm，外箱 680×740×890 mm 另列。手冊 660 mm 屬參考尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-11-13",
+      "weight": "重量：72 kg",
+      "weightSourceUrl": "https://www.toshiba-lifestyle.com/content/dam/toshiba-aem/tw/twd-t33b135uwta%28ws%29/TWD-T33B135UWTA-WS-%E8%AA%AA%E6%98%8E%E6%9B%B8.pdf",
+      "weightSourceTitle": "Toshiba 台灣 TWD-T33B135UWTA(WS) 使用說明書第 35 頁",
+      "weightEvidenceSnippet": "原廠手冊技術規格列本機重量 72kg、110V／60Hz、最大 10A。PChome 一處文字列 77kg，同行規格圖與官方說明書皆列 72kg，依原廠手冊。",
+      "weightConfidence": "high",
+      "weightIsOfficialSource": true,
+      "weightCheckedAt": "2026-11-13"
     }
   ]
 }

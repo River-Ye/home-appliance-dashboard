@@ -491,9 +491,9 @@
       "currency": "TWD",
       "amount": 5764,
       "converted": 5764,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品公開價 NT$5764，公開折扣截至 2027-04-30T23:59:59+08:00；原商品主區有購買按鈕。"
+      "note": "Yahoo 原 SKU 主商品公開價 NT$5,764，主購買按鈕可用。公開活動截至 2027-04-30T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/QBAF31A900ARWXH/000001_1765269049.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/VORNADO-%E6%B2%83%E6%8B%BF%E5%A4%9A-%E5%BE%A9%E5%8F%A4%E6%AC%BE-V-FAN-%E7%B6%A0%E8%89%B2-%E7%99%BD%E8%89%B2-%E7%B4%85%E8%89%B2-9671726.html",
@@ -589,8 +589,8 @@
       "currency": "TWD",
       "amount": 4418,
       "converted": 4418,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
-      "note": "Yahoo 原商品公開價 NT$4418，公開折扣截至 2027-04-30T23:59:59+08:00；原商品主區有購買按鈕。",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "Yahoo 原 SKU 主商品公開價 NT$4,418，主購買按鈕可用。公開活動截至 2027-04-30T23:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB3XA900HNEWA/000001_1782713198.jpg",
@@ -783,9 +783,9 @@
       "currency": "TWD",
       "amount": 5448,
       "converted": 5448,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品公開價 NT$5448，公開折扣截至 2027-04-30T23:59:59+08:00；原商品主區有購買按鈕。"
+      "note": "Yahoo 原 SKU 主商品公開價 NT$5,448，主購買按鈕可用。公開活動截至 2027-04-30T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB1OA900EQ6Z4/000001_1765275011.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E7%BE%8E%E5%9C%8BVORNADO%E6%B2%83%E6%8B%BF%E5%A4%9A-%E6%B8%A6%E6%B5%81%E7%A9%BA%E6%B0%A3%E5%BE%AA%E7%92%B0%E6%A9%9F735B-9938572.html",
@@ -881,9 +881,9 @@
       "currency": "TWD",
       "amount": 6160,
       "converted": 6160,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品公開價 NT$6160，公開折扣截至 2027-04-30T23:59:59+08:00；原商品主區有購買按鈕。"
+      "note": "Yahoo 原 SKU 主商品公開價 NT$6,160，主購買按鈕可用。公開活動截至 2027-04-30T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/QBAF31A9008YBED/000001_1765269212.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E7%BE%8E%E5%9C%8BVORNADO-%E6%B2%83%E6%8B%BF%E5%A4%9A-DC%E7%9B%B4%E6%B5%81%E6%B8%A6%E6%B5%81%E7%A9%BA%E6%B0%A3%E5%BE%AA%E7%92%B0%E6%A9%9F6303DC-%E7%99%BD-%E9%81%A9%E7%94%A8%E5%9D%AA%E6%95%B88-12%E5%9D%AA-9554814.html",
@@ -965,9 +965,9 @@
       "currency": "TWD",
       "amount": 4383,
       "converted": 4383,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品公開價 NT$4383，公開折扣截至 2027-04-30T23:59:59+08:00；原商品主區有購買按鈕。"
+      "note": "Yahoo 原 SKU 主商品公開價 NT$4,383，主購買按鈕可用。公開活動截至 2027-04-30T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB3XA900HN9W0/000001_1782713517.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/VORNADO-%E6%B2%83%E6%8B%BF%E5%A4%9AEXO61HD-TW-%E6%B8%A6%E6%B5%81%E7%A9%BA%E6%B0%A3%E5%BE%AA%E7%92%B0%E6%A9%9F-11143058.html",
@@ -1160,9 +1160,9 @@
       "currency": "TWD",
       "amount": 2455,
       "converted": 2455,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品公開價 NT$2455，公開折扣截至 2026-12-31T23:59:59+08:00；原商品主區有購買按鈕。"
+      "note": "Yahoo 原 SKU 主商品公開價 NT$2,455，主購買按鈕可用。公開活動截至 2026-12-31T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABLXA900GDS4D/000001_1685677114.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/I-COOL-18%E5%90%8B%E5%BE%AE%E9%9B%BB%E8%85%A6360%E5%BA%A6DC%E7%AF%80%E8%83%BD%E5%BE%AA%E7%92%B0%E6%89%87-MYDC-8877-10590383.html",

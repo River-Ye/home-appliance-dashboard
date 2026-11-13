@@ -154,16 +154,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 7980,
+      "amount": 7556,
       "currency": "TWD",
-      "converted": 7980,
+      "converted": 7556,
       "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1132502153&cgp=8990",
       "sourceTitle": "LBJ 比價撿便宜 歷史價格：【TOTO】C2 基本款 溫水洗淨便座 TCF23710ATW(噴嘴自潔/智慧洗淨/溫熱便座/WASHLET/免治馬桶座)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【TOTO】C2 基本款 溫水洗淨便座 TCF23710ATW(噴嘴自潔/智慧洗淨/溫熱便座/WASHLET/免治馬桶座)」最低價為 NT$7,980，最低點日期 2025-11-14。",
+      "evidenceSnippet": "LBJ 既有 momo TOTO TCF23710ATW C2 同一 PID 的公開歷史曲線於 2026-11-11 顯示 NT$7,556。LBJ 同款比價刊登標示單件折 NT$434，momo 品號 10280729 對應同一款便座。",
       "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "confidence": "medium",
+      "checkedAt": "2026-11-13",
+      "note": "同型號單機新品單件活動價，未含安裝。momo 商品頁目前促銷金額未獨立重現。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -315,12 +315,13 @@
       "currency": "TWD",
       "amount": 12900,
       "converted": 12900,
-      "confidence": "PChome 2026-07-11 API 查核價",
-      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "PChome 新商品編號 DMALE4-A900FQOYE 原頁明示「C3-430 瞬熱式電腦免治馬桶蓋(三檔溫控/UV除菌/免治馬桶座)」，網路價 12900元，可加入購物車，API 庫存 8。金額未扣會員券、點數或信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DEDW1HA900FW2KD/000001_1672380333.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DEDW1H-A900FW2KD",
-    "buyLabel": "PChome（原商品已售完，查看供貨）",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMALE4-A900FQOYE",
+    "buyLabel": "PChome 24h 購物",
     "specs": [
       "瞬熱式",
       "UV 除菌",
@@ -1103,12 +1104,13 @@
       "currency": "TWD",
       "amount": 15752,
       "converted": 15752,
-      "confidence": "PChome 2026-08-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "PChome 新商品編號 DMAL8L-A900JB2RC 原頁明示「溫水微電腦瞬熱式洗淨便座 DL-RT30TWWS-TW 含基本安裝」，網路價 15752元，可加入購物車，API 庫存 8。含基本安裝，通路先配送再約安裝，約 14 至 21 個工作天；額外管線、插座另計。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAL6WA900I0L73/000001_1729761324.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMAL6W-A900I0L73",
-    "buyLabel": "PChome（原商品已售完，查看供貨）",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAL8L-A900JB2RC",
+    "buyLabel": "PChome 24h 購物",
     "specs": [
       "瞬熱式",
       "纖薄設計",
@@ -1186,6 +1188,10 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "含基本安裝，通路先配送再約安裝，約 14 至 21 個工作天；額外管線、插座另計。"
     }
   },
   {
@@ -1881,8 +1887,8 @@
     "price": {
       "currency": "USD",
       "amount": 479.99,
-      "converted": 15782,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-12 匯率換算",
+      "converted": 15828,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-13 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-01 Brondell美國官方新品CL1700主商品Current Price USD479.99，主商品BCData為instock:true/purchasable:true；未由首頁20%banner推定此SKU另享折扣，排除Open-Box299.99。 海外參考；未含國際運費、進口稅、電壓／插頭與台灣保固風險。"
     },
@@ -1921,14 +1927,14 @@
       "status": "found",
       "amount": 383.99,
       "currency": "USD",
-      "converted": 12626,
+      "converted": 12663,
       "sourceUrl": "https://www.brondell.com/swash-cl1700-advanced-bidet-seat/",
       "sourceTitle": "Brondell US：Swash CL1700 Advanced Bidet Seat",
       "evidenceSnippet": "Brondell US 官方 exact-model 頁於 2026-08-28 顯示 Swash CL1700 sale price US$383.99。",
       "sourceKind": "official_sale",
       "confidence": "medium",
       "checkedAt": "2026-08-28",
-      "note": "採品牌官方公開特價作為本次可重現最低觀測價；同頁 US$299.99 為 Open-Box 開箱品，依規則排除。未含國際運費、進口稅、美規 elongated 尺寸、120V 插座與台灣保固風險；依 2026-11-12 USD/TWD 匯率換算。"
+      "note": "採品牌官方公開特價作為本次可重現最低觀測價；同頁 US$299.99 為 Open-Box 開箱品，依規則排除。未含國際運費、進口稅、美規 elongated 尺寸、120V 插座與台灣保固風險；依 2026-11-13 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "no_common_issue",

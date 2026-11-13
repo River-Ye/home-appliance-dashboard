@@ -17,9 +17,9 @@
       "currency": "TWD",
       "amount": 15304,
       "converted": 15304,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品公開價 NT$15304，公開折扣截至 2026-12-31T23:59:59+08:00；原商品主區有購買按鈕。"
+      "note": "Yahoo 原 SKU 主商品公開價 NT$15,304，主購買按鈕可用。公開活動截至 2026-12-31T23:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -122,9 +122,9 @@
       "currency": "TWD",
       "amount": 11784,
       "converted": 11784,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品公開價 NT$11784，公開折扣截至 2026-12-31T23:59:59+08:00；原商品主區有購買按鈕。"
+      "note": "Yahoo 原 SKU 主商品公開價 NT$11,784，主購買按鈕可用。公開活動截至 2026-12-31T23:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1060,8 +1060,8 @@
       "currency": "TWD",
       "amount": 11900,
       "converted": 11900,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
-      "note": "Yahoo 原商品公開價 NT$11900，公開折扣截至 2026-12-31T23:59:59+08:00；原商品主區有購買按鈕。",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "Yahoo 原 SKU 主商品公開價 NT$11,900，主購買按鈕可用。公開活動截至 2026-12-31T23:59:59+08:00。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -1791,9 +1791,9 @@
       "currency": "TWD",
       "amount": 23310,
       "converted": 23310,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品公開價 NT$23310，公開折扣截至 2026-12-31T23:59:59+08:00；原商品主區有購買按鈕。"
+      "note": "Yahoo 原 SKU 主商品公開價 NT$23,310，主購買按鈕可用。公開活動截至 2026-12-31T23:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1896,9 +1896,9 @@
       "currency": "TWD",
       "amount": 19900,
       "converted": 19900,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品公開價 NT$19900，公開折扣截至 2026-12-31T23:59:59+08:00；原商品主區有購買按鈕。"
+      "note": "Yahoo 原 SKU 主商品公開價 NT$19,900，主購買按鈕可用。公開活動截至 2026-12-31T23:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -2001,9 +2001,9 @@
       "currency": "TWD",
       "amount": 17900,
       "converted": 17900,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品公開價 NT$17900，公開折扣截至 2026-12-31T23:59:59+08:00；原商品主區有購買按鈕。"
+      "note": "Yahoo 原 SKU 主商品公開價 NT$17,900，主購買按鈕可用。公開活動截至 2026-12-31T23:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -2203,14 +2203,15 @@
     "name": "351 公升極簡雙門冰箱",
     "price": {
       "currency": "TWD",
-      "amount": 19999,
-      "converted": 19999,
-      "confidence": "Costco 好市多 2026-07-11 頁面查核價",
-      "note": "2026-11-04 Chrome開啟原精確商品URL後轉向同通路分類列表，沒有原商品編號的主區；不借列表其他型號價格或加入購物車判定本品現貨。 金額保留為舊參考價；未取得原廠停產證據。"
+      "amount": 21900,
+      "converted": 21900,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "Costco 原頁導向冰箱分類。老王電器 exact 台灣版石墨黑 351 L 主區公開 NT$21,900，加入購物車可用，明示可訂購約 3–7 天及含標準安裝；三家門市現貨標示無。德昌富鴻 NT$19,900 主區標示售完。",
+      "basis": "retailer_current"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h97/h26/257772363972638.jpg",
-    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Fridges-Freezers/Samsung-Top-Mount-Freezer-Fridge-351-L-RT35CG562CB1TW/p/146868",
-    "buyLabel": "Costco（原連結轉分類，供貨待確認）",
+    "buyUrl": "https://www.unbox.tw/product/%E3%80%90samsung-%E4%B8%89%E6%98%9F%E3%80%91351l-%E6%A5%B5%E7%B0%A1%E9%9B%99%E9%96%80%E5%86%B0%E7%AE%B1-%E7%9F%B3%E5%A2%A8%E9%BB%91-rt35cg562cb1-tw-%E5%90%AB%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D",
+    "buyLabel": "老王電器",
     "specs": [
       "351L（冷藏269L / 冷凍82L）",
       "上冷凍雙門",
@@ -2291,6 +2292,10 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "含標準安裝，約 3–7 天配送，偏遠及額外工項需向通路確認。"
     }
   },
   {
@@ -2306,11 +2311,12 @@
       "currency": "TWD",
       "amount": 27899,
       "converted": 27899,
-      "confidence": "Costco 好市多 2026-07-09 查核價"
+      "confidence": "Costco 好市多 2026-07-09 查核價",
+      "note": "Costco 原頁 #138021 主商品為 NR-B65CV-S 晶漾銀，頁面顯示 NT$27,899 含運，主購買按鈕缺貨且停用，保留既有參考價。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h27/h0a/121680122413086.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Fridges-Freezers/Panasonic-650-L-Double-Door-Inverter-Fridge-NR-B65CV-S/p/138021",
-    "buyLabel": "Costco 好市多",
+    "buyLabel": "Costco（原頁缺貨）",
     "specs": [
       "650L 級雙門變頻",
       "110V",
@@ -2730,11 +2736,11 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 64515,
-      "converted": 64515,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 66000,
+      "converted": 66000,
+      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-01 PChome主商品API商品ID DPAC34-A900KEBDC 相符，原標題「MITSUBISHI 三菱電機543公升變頻SMART AI日本製六門電冰箱MR-WZ54N-W-C星光白 MITSUBISHI 三菱電機543公升變頻SMART AI日本製六門電冰箱MR-WZ54N-W-C星光白」，Qty=5，公開折扣／主價 64515 元（網路價64515；Price.Low=無）；未扣券、回饋或點數。 同輪原商品HTML價格與可購入口已核對。"
+      "note": "2026-11-13 PChome 原 SKU 公開價 NT$66000，API Qty 4。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DPAC34A900KEBDC/000001_1788243890.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAC34-A900KEBDC",
@@ -4326,13 +4332,14 @@
     "image": "https://img.pchome.com.tw/cs/items/DPACHEA900KIXNF/000001_1790931200.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 46500,
-      "converted": 46500,
+      "amount": 41850,
+      "converted": 41850,
       "basis": "retailer_current",
-      "confidence": "PChome 2026-10-20 原頁與 exact-model API 雙重核對；Price.Low 無正值，採公開網路價 Price.P，Qty 2；未扣會員券、點數或信用卡回饋"
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "PChome 原頁主商品與商品編號均明示 NR-C507XGS-W 沐霜白，公開網路價 NT$41,850，建議售價 NT$46,500，加入購物車可用。API Name 與原頁同為白色、Qty 2；Nick 為銀色，不以 Nick 判定此頁版本。含基本運送、拆箱定位及回收舊機，廠商約配，偏遠或特殊搬運可能加價。"
     },
     "channel": "tw",
-    "buyLabel": "PChome（廠商約配）",
+    "buyLabel": "PChome 24h購物（沐霜白／廠商出貨）",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KIXNF",
     "installation": {
       "status": "included_basic",
@@ -4608,8 +4615,8 @@
       "amount": 86950,
       "converted": 86950,
       "basis": "retailer_current",
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
-      "note": "Yahoo 原商品公開價 NT$86950，公開折扣截至 2026-12-31T13:12:59+08:00；原商品主區有購買按鈕。"
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "Yahoo 原 SKU 主商品公開價 NT$86,950，主購買按鈕可用。公開活動截至 2026-12-31T13:12:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo（可下單／約配）",
@@ -4702,8 +4709,8 @@
       "amount": 77984,
       "converted": 77984,
       "basis": "retailer_current",
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
-      "note": "Yahoo 原商品公開價 NT$77984，公開折扣截至 2026-12-31T13:12:59+08:00；原商品主區有購買按鈕。"
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "Yahoo 原 SKU 主商品公開價 NT$77,984，主購買按鈕可用。公開活動截至 2026-12-31T13:12:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo（可下單／約配）",

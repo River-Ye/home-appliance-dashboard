@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-12",
+  "checkedAt": "2026-11-13",
   "methodVersion": 3,
   "policy": "每筆決策須保存 exact-model 跨站查詢與人工 attestation；每個搜尋候選須逐頁保存摘要、獨立作者數與具體排除理由，研究工具不得自行生成拒絕結論。",
   "results": [
@@ -98489,6 +98489,559 @@
       ],
       "reviewerNote": "DL-RV50TWWS 於2026-11-12人工檢視四個站點查詢與 Mobile01 同一文章原頁，未取得符合條件的第一人稱故障作者。原文與第2頁可讀，第3頁擷取403。",
       "attestation": "manual_original_pages_reviewed"
+    },
+    {
+      "id": "monitor-sony-sdm-27q102",
+      "category": "monitor",
+      "brand": "Sony",
+      "model": "SDM-27Q102",
+      "name": "INZONE M10S II 27吋 QHD 540Hz OLED 電競螢幕",
+      "reviewedAt": "2026-11-13",
+      "reviewBatch": "monitor",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT",
+        "Reddit"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"SDM-27Q102\" \"INZONE M10S II\" 問題 故障",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22SDM-27Q102%22%20%22INZONE%20M10S%20II%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"SDM-27Q102\" \"INZONE M10S II\" 問題 故障",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22SDM-27Q102%22%20%22INZONE%20M10S%20II%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "\"SDM-27Q102\" site:reddit.com (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.google.com/search?q=%22SDM-27Q102%22%20site%3Areddit.com%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)"
+        }
+      ],
+      "candidateDisposition": "SDM-27Q102：先查三站完整台灣型號，再以一對一的商品名 INZONE M10S II 擴查並核對原頁。Mobile01 是第一代與 M9 II；PTT 是獎項名單；Reddit 有一位明顯灰階條紋退貨、另一位輕微灰階條紋觀察，來源仍只一站。",
+      "representativeSources": [
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7273506",
+          "title": "Sony Taiwan夏季限時優惠開跑"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=685&t=7031217",
+          "title": "Sony INZONE M10S / M9 II 體驗報告"
+        },
+        {
+          "platform": "PTT",
+          "url": "https://www.ptt.cc/bbs/C_Chat/M.1790388481.A.C79.html",
+          "title": "[情報] 金搖桿獎2026 完整入圍名單"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/OLED_Gaming/comments/1uxwvgq/ama_just_received_my_brand_new_sony_inzone_m10s/",
+          "title": "(AMA) just received my brand new Sony Inzone M10s II"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/OLED_Gaming/comments/1wnqiaz/sony_inzone_m10s_ii/",
+          "title": "Sony Inzone M10S II"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/OLED_Gaming/comments/1wcwmgh/i_got_a_sony_inzone_m10s_ii_at_795_and_an_msi/",
+          "title": "I got a sony inzone M10s ii at 795 and an msi mpg271 qr qd oled x50"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/OLED_Gaming/comments/1w516du/mag_321up_x24_extreme_vrr_flicker/",
+          "title": "MAG 321UP X24 - Extreme VRR Flicker"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/OLED_Gaming/comments/1vg9i1u/lg_27gx790bb_pixelated_grainy_texture/",
+          "title": "[LG 27GX790B-B] Pixelated Grainy Texture"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/OLED_Gaming/comments/1wv3ekw/sony_inzone_m10s_ii_power_on_time/",
+          "title": "Sony inzone M10S II power on time"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/OLED_Gaming/comments/1wv3t29/matte_oled_options/",
+          "title": "Matte OLED options"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/OLED_Gaming/comments/1u9k42u/msi_mpg_271qr_qdoled_x50_review_finally_a_winner/",
+          "title": "MSI MPG 271QR QD-OLED X50 Review"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/PS5pro/comments/1ucqs62/monitor_recommendations_for_ps5_pro/",
+          "title": "Monitor recommendations for PS5 Pro"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/OLED_Gaming/comments/1ttfsop/lg_display_to_showcase_worlds_largest_gaming_oled/",
+          "title": "LG Display to showcase world’s largest Gaming OLED lineup in Taiwan"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/sony/comments/1slfa28/new_sony_inzone_products_officially_announced/",
+          "title": "New Sony INZONE products officially announced"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/OLED_Gaming/comments/1gbab6q/my_experience_with_the_rog_swift_oled_pg32ucdm/",
+          "title": "My experience with the ROG Swift OLED PG32UCDM and ROG Swift OLED PG32UCDP"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/OLED_Gaming/comments/1folkjl/",
+          "title": "Sony unveils INZONE M10S OLED and M9 II IPS monitors"
+        }
+      ],
+      "candidateReviews": [
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7273506",
+          "title": "Sony Taiwan夏季限時優惠開跑",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "春生"
+          ],
+          "sourceExcerpt": "春生轉貼 2026 年 6 月夏季活動，螢幕款是 INZONE M10S，回覆談 H9 II 耳機與主機。",
+          "specificReason": "型號為第一代 M10S，H9 II 是耳機，沒有第二代螢幕的第一人稱問題。",
+          "locator": "主文 #1，文章編號 93288558，及回覆 #2、#3",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-13",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=685&t=7031217",
+          "title": "Sony INZONE M10S / M9 II 體驗報告",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "Bryan.S"
+          ],
+          "sourceExcerpt": "2024 年文章測的是 M10S 480Hz 與 M9 II 4K IPS。",
+          "specificReason": "兩款皆非 SDM-27Q102，M9 II 的 II 字尾不能套到 M10S II。",
+          "locator": "主文 #1，文章編號 90497133",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-13",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "platform": "PTT",
+          "url": "https://www.ptt.cc/bbs/C_Chat/M.1790388481.A.C79.html",
+          "title": "[情報] 金搖桿獎2026 完整入圍名單",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "PapayaApple"
+          ],
+          "sourceExcerpt": "正文最佳電競硬體列 Sony INZONE M10S II；回覆有型號疑問與轉述低延遲。",
+          "specificReason": "為入圍名單，正文及回覆沒有同型號擁有者描述故障；轉錄與稱號不算回報。",
+          "locator": "主文作者 PapayaApple，最佳電競硬體段及 Sony 螢幕相關推文",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-13",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/OLED_Gaming/comments/1uxwvgq/ama_just_received_my_brand_new_sony_inzone_m10s/",
+          "title": "(AMA) just received my brand new Sony Inzone M10s II",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "reviewedAuthors": [
+            "knacks-nibbe",
+            "verlinho",
+            "PappyPete"
+          ],
+          "sourceExcerpt": "樓主確認測試三段抗 VRR 閃爍未察覺閃爍，後稱灰色均勻性仍略可見；另有使用者詢問清潔，有留言提到個人霧面偏好。",
+          "specificReason": "同一樓主的多則回覆只算一人。其他螢幕死點及其他廠牌條紋不可轉用；霧面偏好、清潔問法及正面體驗不能與明顯灰階條紋退貨合併成同一故障。",
+          "locator": "主文與 G-SYNC Pendulum、DSE、清潔及 VRR 留言串",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-13",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/OLED_Gaming/comments/1wnqiaz/sony_inzone_m10s_ii/",
+          "title": "Sony Inzone M10S II",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "wilc00",
+            "nickjacobsss"
+          ],
+          "sourceExcerpt": "討論者詢問關注度與價格，並轉述 YouTube 對 VRR 閃爍的觀察。",
+          "specificReason": "作者未自述持有同型號；價格比較及轉述 YouTube 評測，均不構成第一人稱故障。",
+          "locator": "正文、nickjacobsss 與 wilc00 回覆",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-13",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/OLED_Gaming/comments/1wcwmgh/i_got_a_sony_inzone_m10s_ii_at_795_and_an_msi/",
+          "title": "I got a sony inzone M10s ii at 795 and an msi mpg271 qr qd oled x50",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "reviewedAuthors": [
+            "verlinho",
+            "baacke"
+          ],
+          "sourceExcerpt": "verlinho 回報其 M10S II 因明顯灰階條紋退貨。baacke 的半屏異常換機是第一代 M10S。",
+          "specificReason": "有一位可辨識的第二代第一人稱個案，來自比利時購買。第一代半屏訊號不能合併，亦無跨站六人證據。",
+          "locator": "verlinho 9/23 Update 與 baacke 9/19 前代回覆",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-13",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/OLED_Gaming/comments/1w516du/mag_321up_x24_extreme_vrr_flicker/",
+          "title": "MAG 321UP X24 - Extreme VRR Flicker",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "reviewedAuthors": [],
+          "sourceExcerpt": "主文的閃爍是 MSI MAG 321UP X24，Sony 第二代僅為留言中的防閃爍設計比較。",
+          "specificReason": "症狀發生在不同品牌型號，Sony 經驗是第三方轉述。",
+          "locator": "標題、首段及 Sony 防閃爍留言",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-13",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/OLED_Gaming/comments/1vg9i1u/lg_27gx790bb_pixelated_grainy_texture/",
+          "title": "[LG 27GX790B-B] Pixelated Grainy Texture",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "reviewedAuthors": [
+            "lotharrock"
+          ],
+          "sourceExcerpt": "LG 主文描述 LG 面板顆粒，lotharrock 留言換用 M10S II 後其灰階條紋幾不可見且不影響暗場。",
+          "specificReason": "可辨識的 Sony 使用者描述輕微現象且不影響使用，與主文 LG 顆粒及另一篇明顯到退貨的條紋分開；即採寬分類亦僅單站少數。",
+          "locator": "lotharrock 的 Sony 換機原留言",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-13",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/OLED_Gaming/comments/1wv3ekw/sony_inzone_m10s_ii_power_on_time/",
+          "title": "Sony inzone M10S II power on time",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "reviewedAuthors": [
+            "bguerre1ro"
+          ],
+          "sourceExcerpt": "bguerre1ro 購入包裝未封的 M10S II，詢問如何從 OSD 查開機時數。",
+          "specificReason": "未封箱為通路個案，原文未描述顯示、啟動或供電故障。",
+          "locator": "原貼正文及 lotharrock 回覆",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-13",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/OLED_Gaming/comments/1wv3t29/matte_oled_options/",
+          "title": "Matte OLED options",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "_eMoRaL"
+          ],
+          "sourceExcerpt": "作者因環境亮度無法控制，考慮購買 Gigabyte MO27Q28G 或 Sony M10S II。",
+          "specificReason": "原文為兩款霧面螢幕的購買前詢價，沒有已使用 Sony 第二代螢幕的故障回報。",
+          "locator": "_eMoRaL 主文與 Banned_Bardia 選購回覆",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-13",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/OLED_Gaming/comments/1u9k42u/msi_mpg_271qr_qdoled_x50_review_finally_a_winner/",
+          "title": "MSI MPG 271QR QD-OLED X50 Review",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "VanaBleak",
+            "verlinho"
+          ],
+          "sourceExcerpt": "主文為 MSI MPG 271QR QD-OLED X50 體驗，提到上一台 Gigabyte 的條紋；Sony 只在留言被詢問。",
+          "specificReason": "原文實際缺點不屬 Sony，verlinho 的 Sony 購買比較是其另一篇同一作者個案，不新增人數。",
+          "locator": "原貼首段及 verlinho 的比較留言",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-13",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/PS5pro/comments/1ucqs62/monitor_recommendations_for_ps5_pro/",
+          "title": "Monitor recommendations for PS5 Pro",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "Guilty_Tonight1140"
+          ],
+          "sourceExcerpt": "Guilty_Tonight1140 只列 M10S II 作為購買選項；另一留言 HDMI 握手偏慢的是前代 M9。",
+          "specificReason": "只提型號及意見，沒有本款故障；M9 連接問題不算。",
+          "locator": "Guilty_Tonight1140 與前代 M9 的獨立留言",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-13",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/OLED_Gaming/comments/1ttfsop/lg_display_to_showcase_worlds_largest_gaming_oled/",
+          "title": "LG Display to showcase world’s largest Gaming OLED lineup in Taiwan",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "Adi-C"
+          ],
+          "sourceExcerpt": "留言引用 Sony 發表的 BFI 亮度補償並討論 LG 面板展示。",
+          "specificReason": "新聞與功能推測未報告持有的 M10S II 故障。",
+          "locator": "LG 展示主文與 BFI 討論串",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-13",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/sony/comments/1slfa28/new_sony_inzone_products_officially_announced/",
+          "title": "New Sony INZONE products officially announced",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "reviewedAuthors": [],
+          "sourceExcerpt": "上市消息貼文列 Sony 英國頁 SKU SDM27Q102B.CEI，另列多項耳機、滑鼠墊。",
+          "specificReason": "是英國區域公告，未記錄同台灣型號第一人稱使用問題。",
+          "locator": "主文條目 3 與 Sony 英國 SKU 連結",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-13",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/OLED_Gaming/comments/1gbab6q/my_experience_with_the_rog_swift_oled_pg32ucdm/",
+          "title": "My experience with the ROG Swift OLED PG32UCDM and ROG Swift OLED PG32UCDP",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "reviewedAuthors": [],
+          "sourceExcerpt": "原文比較兩台 ASUS 螢幕，留言只提第一代 Sony M10S。",
+          "specificReason": "原文故障在 ASUS；Sony 第二代型號未被識別。",
+          "locator": "正文兩個章節及 Inzone M10S 留言",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-13",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/OLED_Gaming/comments/1folkjl/",
+          "title": "Sony unveils INZONE M10S OLED and M9 II IPS monitors",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "reviewedAuthors": [],
+          "sourceExcerpt": "2024 年第一代 Sony M10S 與 M9 II 發表討論。",
+          "specificReason": "年份與型號屬第一代，不能拿來判斷 2026 第二代。",
+          "locator": "標題、原貼日期及正文",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-13",
+          "reviewBasis": "manual_web_original_page"
+        }
+      ],
+      "reviewerNote": "SDM-27Q102：同型號灰階均勻性回報少於六人且未跨兩原始網站。未把第一代半屏、其他品牌閃爍、包裝未封、轉述或選購評論計為同型號故障。比利時使用者以品牌一對一型名識別二代，台灣供貨批次未確認。",
+      "attestation": "manual_original_pages_reviewed",
+      "status": "completed"
+    },
+    {
+      "id": "washerdryer-toshiba-twd-t33b135uwta-ws",
+      "category": "washerdryer",
+      "brand": "Toshiba",
+      "model": "TWD-T33B135UWTA(WS)",
+      "name": "12.5／8公斤沖浪洗淨2.0變頻滾筒洗脫烘（極地白）",
+      "reviewedAt": "2026-11-13",
+      "reviewBatch": "washerdryer",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT",
+        "Dcard",
+        "Reddit"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"TWD-T33B135UWTA(WS)\" site:mobile01.com/topicdetail.php",
+          "queryUrl": "https://www.google.com/search?q=%22TWD-T33B135UWTA(WS)%22%20site%3Amobile01.com%2Ftopicdetail.php"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "\"TWD-T33B135UWTA(WS)\" site:ptt.cc/bbs/",
+          "queryUrl": "https://www.google.com/search?q=%22TWD-T33B135UWTA(WS)%22%20site%3Aptt.cc%2Fbbs%2F"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "\"TWD-T33B135UWTA(WS)\" site:dcard.tw/f/",
+          "queryUrl": "https://www.google.com/search?q=%22TWD-T33B135UWTA(WS)%22%20site%3Adcard.tw%2Ff%2F"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "\"TWD-T33B135UWTA(WS)\" site:reddit.com",
+          "queryUrl": "https://www.google.com/search?q=%22TWD-T33B135UWTA(WS)%22%20site%3Areddit.com"
+        }
+      ],
+      "candidateDisposition": "TWD-T33B135UWTA(WS)：四站完整型號搜尋無直接結果，再以省略顏色碼的原廠型號字根補查，開啟 PTT 一篇同容量選購文，逐則判讀後沒有可計入的同型號第一人稱問題回報。",
+      "representativeSources": [
+        {
+          "platform": "PTT",
+          "url": "https://www.ptt.cc/bbs/E-appliance/M.1789049503.A.694.html",
+          "title": "[挑選] 20K左右洗脫烘挑選"
+        }
+      ],
+      "candidateReviews": [
+        {
+          "platform": "PTT",
+          "url": "https://www.ptt.cc/bbs/E-appliance/M.1789049503.A.694.html",
+          "title": "[挑選] 20K左右洗脫烘挑選",
+          "reviewedAt": "2026-11-13",
+          "outcome": "excluded",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "sourceExcerpt": "選購文把東芝 TWD-T33B135UWTA 列為第3台，作者說仍想徵求實際使用心得。留言有第3台「用了一年是沒有大問題」，另有不具型號的東芝 App 與自投放意見。",
+          "specificReason": "正文只有型號字根並未列極地白 (WS)；作者正在選購，噪音與耐用是事前疑慮。第3台留言為正面且無可獨立確認的完整機型，品牌 App 意見未建立此型號或第一人稱使用關係，均不可計入災情人數。"
+        }
+      ],
+      "reviewerNote": "TWD-T33B135UWTA(WS)：實查 Mobile01、PTT、Dcard、Reddit 的完整 SKU 與型號字根，PTT 原文 HTTP 200 已人工讀過正文和留言，無六位獨立使用者跨兩站回報同一問題。",
+      "attestation": "manual_original_pages_reviewed"
+    },
+    {
+      "id": "waterdispenser-sakura-p0265",
+      "category": "waterdispenser",
+      "brand": "SAKURA",
+      "model": "P0265",
+      "name": "雙效雙出水廚下 RO 淨水器 600G",
+      "reviewedAt": "2026-11-13",
+      "reviewBatch": "waterdispenser",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT",
+        "Dcard",
+        "Reddit"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com/topicdetail.php \"P0265\" \"櫻花\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%2Ftopicdetail.php%20%22P0265%22%20%22%E6%AB%BB%E8%8A%B1%22"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc/bbs/ \"P0265\" \"櫻花\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%2Fbbs%2F%20%22P0265%22%20%22%E6%AB%BB%E8%8A%B1%22"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "site:dcard.tw/f/ \"P0265\" \"櫻花\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%2Ff%2F%20%22P0265%22%20%22%E6%AB%BB%E8%8A%B1%22"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"P0265\" \"櫻花\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22P0265%22%20%22%E6%AB%BB%E8%8A%B1%22"
+        }
+      ],
+      "candidateDisposition": "P0265：Dcard 1 個同型號原頁已讀正文與 7 則可見回覆。Mobile01 結果是汽車故障碼或 P0532 文章附帶濾心相容清單，PTT、Reddit 無可確認原頁。",
+      "representativeSources": [
+        {
+          "platform": "Dcard",
+          "title": "求助 櫻花淨水器評價(P0265)",
+          "url": "https://www.dcard.tw/f/house/p/258642804"
+        }
+      ],
+      "candidateReviews": [
+        {
+          "platform": "Dcard",
+          "url": "https://www.dcard.tw/f/house/p/258642804",
+          "title": "求助 櫻花淨水器評價(P0265)",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-11-13",
+          "sourceExcerpt": "發文者詢問 P0265 實際使用及售後。B5 自述的是前一代，B7 回報剛安裝且正面。",
+          "independentAuthors": 0,
+          "specificReason": "原發文為購買前詢問。B4 評論專用濾心成本，未自述使用 P0265。B7 安裝心得為正面，其餘可讀回覆未出現同型號第一人稱故障。"
+        }
+      ],
+      "reviewerNote": "P0265：Dcard 1 個同型號原頁已讀正文與 7 則可見回覆。Mobile01 結果是汽車故障碼或 P0532 文章附帶濾心相容清單，PTT、Reddit 無可確認原頁。可讀結果未達同型號同一問題 6 位獨立使用者、跨 2 個原始網站。",
+      "attestation": "manual_original_pages_reviewed"
+    },
+    {
+      "id": "waterdispenser-sakura-p0266",
+      "category": "waterdispenser",
+      "brand": "SAKURA",
+      "model": "P0266",
+      "name": "雙效雙出水廚下 RO 淨水器 800G",
+      "reviewedAt": "2026-11-13",
+      "reviewBatch": "waterdispenser",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT",
+        "Dcard",
+        "Reddit"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com/topicdetail.php \"P0266\" \"櫻花\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%2Ftopicdetail.php%20%22P0266%22%20%22%E6%AB%BB%E8%8A%B1%22"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc/bbs/ \"P0266\" \"櫻花\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%2Fbbs%2F%20%22P0266%22%20%22%E6%AB%BB%E8%8A%B1%22"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "site:dcard.tw/f/ \"P0266\" \"櫻花\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%2Ff%2F%20%22P0266%22%20%22%E6%AB%BB%E8%8A%B1%22"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"P0266\" \"櫻花\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22P0266%22%20%22%E6%AB%BB%E8%8A%B1%22"
+        }
+      ],
+      "candidateDisposition": "Mobile01 搜尋中的 P0266 字串屬汽車診斷碼。Mobile01、PTT、Dcard 與 Reddit 均未找到可確認為這款櫻花 RO 整機的使用者原頁。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "reviewerNote": "Mobile01 搜尋中的 P0266 字串屬汽車診斷碼。Mobile01、PTT、Dcard 與 Reddit 均未找到可確認為這款櫻花 RO 整機的使用者原頁。可讀結果未達同型號同一問題 6 位獨立使用者、跨 2 個原始網站。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate"
     }
   ]
 }

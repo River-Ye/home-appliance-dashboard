@@ -120,9 +120,9 @@
       "currency": "TWD",
       "amount": 7731,
       "converted": 7731,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品公開價 NT$7731，公開折扣截至 2026-12-31T23:59:59+08:00；原商品主區有購買按鈕。"
+      "note": "Yahoo 原 SKU 主商品公開價 NT$7,731，主購買按鈕可用。公開活動截至 2026-12-31T23:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -326,11 +326,12 @@
       "currency": "TWD",
       "amount": 20599,
       "converted": 20599,
-      "confidence": "Costco 好市多 2026-07-11 頁面查核價",
-      "note": "2026-11-04 Chrome開啟原精確商品URL後轉向同通路分類列表，沒有原商品編號的主區；不借列表其他型號價格或加入購物車判定本品現貨。 金額保留為舊參考價；未取得原廠停產證據。"
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "Costco 台灣原商品 #159758 為 Whirlpool 8TWGD5050PW，主價 NT$20,599，已恢復原精確商品頁，表單及可用的加入購物車按鈕均綁定 #159758，不借推薦品庫存。",
+      "basis": "retailer_current"
     },
     "channel": "tw",
-    "buyLabel": "Costco（原連結轉分類，供貨待確認）",
+    "buyLabel": "Costco 好市多",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Washers-Dryers/Dryer-Size-11-13-kg/Whirlpool-12-kg-Gas-Dryer-8TWGD5050PW/p/159758",
     "specs": [
       "烘衣機：Whirlpool惠而浦 12公斤 快烘瓦斯型乾衣機 8TWGD5050PW 含基本安裝",
@@ -534,8 +535,7 @@
       "amount": 32000,
       "converted": 32000,
       "confidence": "Yahoo購物中心 2026-09-14 exact-model 公開結構化價格",
-      "basis": "retailer_current",
-      "note": "Yahoo 原商品主區顯示此賣場已售完；保留先前參考價，供貨待查。"
+      "note": "Yahoo 同 SKU 主商品無可用的立即購買／加入購物車，保留既有參考價。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心（此賣場已售完）",
@@ -938,21 +938,22 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/D9F56C9991-SP-21442967.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 35900,
-      "converted": 35900,
-      "confidence": "Yahoo購物中心 2026-07-14 頁面查核價",
-      "note": "Yahoo 原商品主區顯示此賣場已停售；保留先前參考價，供貨待查。"
+      "amount": 28490,
+      "converted": 28490,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "Yahoo 原頁停售；Panasonic 台灣官方對應銀河藍 NH-VS100HP-B，既有史低研究也明示此版本。PChome 原頁完整型號與 API 一致，Qty 20、公開折扣價 NT$28,490、網路價 NT$35,900，加入購物車可用，附拆箱定位。單機不含疊架或堆疊安裝，大材積按配送條件。",
+      "basis": "retailer_current"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心（此賣場已停售）",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-10kg%E6%B7%A8%E8%AD%B7%E5%AE%8C%E7%BE%8E%E4%B9%BE%E8%A1%A3%E6%A9%9FNH-VS100HP-%E5%90%AB%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-11874057.html",
+    "buyLabel": "PChome 24h 購物",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1H-A900HH7L6",
     "specs": [
-      "烘衣機：Panasonic 國際牌 10kg淨護完美乾衣機NH-VS100HP 含基本安裝",
+      "烘衣機：Panasonic 國際牌 10kg淨護完美乾衣機NH-VS100HP-B 銀河藍，含拆箱定位",
       "容量：10kg",
       "尺寸：寬 59.6 x 深 66.7 x 高 84.5 cm",
       "乾衣方式：依商品頁標示",
       "需確認排風/排水、瓦斯或專用迴路；疊放需另查同品牌疊架",
-      "Yahoo購物 可信通路低價；排除洗脫烘、福利品、展示機、底座與配件頁"
+      "PChome 銀河藍 NH-VS100HP-B，含拆箱定位，疊放施工另洽。"
     ],
     "description": "聚焦獨立烘衣/乾衣機，依熱泵節能、瓦斯效率、容量、安裝條件、品牌售後與耗材維護排序。",
     "pros": [
@@ -980,16 +981,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 31920,
+      "amount": 28111,
       "currency": "TWD",
-      "converted": 31920,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1281361673&cgp=32310",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Panasonic NH-VS100HP-B淨護熱泵乾衣機10kg(銀河藍)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「家樂福線上購物網 / Panasonic NH-VS100HP-B淨護熱泵乾衣機10kg(銀河藍)」最低價為 NT$31,920，最低點日期 2026-05-24。",
-      "sourceKind": "price_history",
+      "converted": 28111,
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic%E5%9C%8B%E9%9A%9B%E7%89%8C-10%E5%85%AC%E6%96%A4%E6%B7%A8%E8%AD%B7%E5%AE%8C%E7%BE%8E%E7%86%B1%E6%B3%B5%E5%BC%8F%E4%B9%BE%E8%A1%A3%E6%A9%9F-NH-VS100HP-B-11072253.html",
+      "sourceTitle": "Yahoo 購物中心 Panasonic NH-VS100HP-B 單機新品公開活動價",
+      "evidenceSnippet": "Yahoo 自營 11072253 完整標示台灣銀河藍 NH-VS100HP-B 單機，公開任選 1 件 NT$28,111 至 2026-12-31 23:59:59。商品原頁同時顯示 InStock、可加入購物車與免運。",
+      "sourceKind": "retailer_page",
       "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-11-13",
+      "note": "同型單機新品公開售價。此 Yahoo 刊登由廠商聯繫配送，安裝與拆箱定位範圍未標示，現有 PChome 現價與贈拆箱定位可保留。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1028,6 +1029,10 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "PChome 原頁標示贈拆箱定位；台灣本島宅配，疊放安裝不適用此單機賣場，特殊搬運或額外施工先確認。"
     }
   },
   {
@@ -1144,9 +1149,9 @@
       "currency": "TWD",
       "amount": 8490,
       "converted": 8490,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品公開價 NT$8490，公開折扣截至 2026-12-31T23:59:59+08:00；原商品主區有購買按鈕。"
+      "note": "Yahoo 原 SKU 主商品公開價 NT$8,490，主購買按鈕可用。公開活動截至 2026-12-31T23:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1247,9 +1252,9 @@
       "currency": "TWD",
       "amount": 35788,
       "converted": 35788,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品公開價 NT$35788，公開折扣截至 2026-12-31T23:59:59+08:00；原商品主區有購買按鈕。"
+      "note": "Yahoo 原 SKU 主商品公開價 NT$35,788，主購買按鈕可用。公開活動截至 2026-12-31T23:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1351,9 +1356,9 @@
       "currency": "TWD",
       "amount": 8440,
       "converted": 8440,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品公開價 NT$8440，公開折扣截至 2026-12-31T23:59:59+08:00；原商品主區有購買按鈕。"
+      "note": "Yahoo 原 SKU 主商品公開價 NT$8,440，主購買按鈕可用。公開活動截至 2026-12-31T23:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1455,9 +1460,9 @@
       "currency": "TWD",
       "amount": 8490,
       "converted": 8490,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品公開價 NT$8490，公開折扣截至 2026-12-31T23:59:59+08:00；原商品主區有購買按鈕。"
+      "note": "Yahoo 原 SKU 主商品公開價 NT$8,490，主購買按鈕可用。公開活動截至 2026-12-31T23:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1659,10 +1664,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/C0FA586EC4-SP-18495887.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 7640,
-      "converted": 7640,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
-      "note": "Yahoo 原商品公開價 NT$7640；原商品主區有購買按鈕。",
+      "amount": 7990,
+      "converted": 7990,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "Yahoo 原 SKU 主商品公開價 NT$7,990，主購買按鈕可用。",
       "basis": "retailer_current"
     },
     "channel": "tw",

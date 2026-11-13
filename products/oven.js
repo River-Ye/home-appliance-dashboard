@@ -17,13 +17,15 @@
     "name": "27L 蒸烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 14310,
-      "converted": 14310,
-      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 12600,
+      "converted": 12600,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "basis": "retailer_current",
+      "note": "PChome 新商品編號 DMBJ02-A900IXECX 原頁明示「27L蒸烘烤微波爐 NN-BS607」，折扣價 12600元，可加入購物車，API 庫存 8。金額未扣會員券、點數或信用卡回饋。 PChome 新商品編號 DMBJ02-A900IXECX 原頁明示「27L蒸烘烤微波爐 NN-BS607」，折扣價 12600元，可加入購物車，API 庫存 8。金額未扣會員券、點數或信用卡回饋。原頁公開任選一件折 NT$3,300（PR26111000143436），網路價 NT$15,900，折後 NT$12,600，截至 2026-11-16 07:59:59（台灣）。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ02A900G62BM/000001_1756899692.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ02-A900G62BM",
-    "buyLabel": "PChome",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ02-A900IXECX",
+    "buyLabel": "PChome 24h 購物",
     "specs": [
       "27L",
       "尺寸：寬 50 x 深 45.6 x 高 34.7 cm",
@@ -118,8 +120,8 @@
       "amount": 17955,
       "converted": 17955,
       "basis": "retailer_current",
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
-      "note": "Yahoo 原商品公開價 NT$17955，公開折扣截至 2026-11-16T09:59:59+08:00；原商品主區有購買按鈕。"
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "Yahoo 原 SKU 主商品公開價 NT$17,955，主購買按鈕可用。公開活動截至 2026-11-16T09:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ02A900J1WEX/000001_1753093870.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool%E6%83%A0%E8%80%8C%E6%B5%A6-Coloris%E7%B3%BB%E5%88%97-26%E5%85%AC%E5%8D%878%E5%90%88%E4%B8%80%E5%85%A8%E8%83%BD%E8%AE%8A%E9%A0%BB%E6%B0%A3%E7%82%B8%E8%92%B8%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-%E9%9B%B2%E9%9C%A7%E7%99%BD-MWP2-11705976.html",
@@ -314,15 +316,15 @@
     "name": "30L Healsio 炙燒水波爐",
     "price": {
       "currency": "TWD",
-      "amount": 26900,
-      "converted": 26900,
-      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 29900,
+      "converted": 29900,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品主區顯示此賣場已售完；保留先前參考價，供貨待查。"
+      "note": "Yahoo 原頁番茄紅和洋蔥白兩個選項 availableStock 均為 0。特力屋同機型原洋蔥白版本 AX-XP10T(W)，主區公開價 NT$29,900、立即購買和加入購物車可用，廠商宅配，額外地區費用依供應商。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ021900I5KFC/000001_1779346148.jpg",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/SHARP%E5%A4%8F%E6%99%AE-HEALSIO-%E6%97%97%E8%89%A6%E6%B0%B4%E6%B3%A2%E7%88%90-AX-XP10T-12039766.html",
-    "buyLabel": "Yahoo購物中心（此賣場已售完）",
+    "buyUrl": "https://www.trplus.com.tw/p/026010418",
+    "buyLabel": "特力屋（洋蔥白，廠商宅配）",
     "specs": [
       "30L",
       "尺寸：寬 50 x 深 46.5 x 高 42 cm",
@@ -415,8 +417,8 @@
     "price": {
       "currency": "USD",
       "amount": 499.95,
-      "converted": 16438,
-      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-11-12 匯率換算"
+      "converted": 16486,
+      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-11-13 匯率換算"
     },
     "image": "https://assets.breville.com/cdn-cgi/image/width=1300,format=auto/BOV950/BOV950BSS1BUS1/pdp3.png?pdp=",
     "buyUrl": "https://www.breville.com/en-us/product/bov950",
@@ -712,13 +714,13 @@
       "currency": "TWD",
       "amount": 29610,
       "converted": 29610,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$29610，API Qty 2；個人券、點數、信用卡回饋及配送安裝費另計。",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "PChome 原頁 DMBJ02-A900FP6N8 主標同型 Panasonic NN-BS1700，加入購物車及立即購買按鈕啟用，API Qty 2、公開折扣價 NT$29,610，網路價 NT$32,900。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ7P1900HCI3E/000001_1782972848.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ02-A900FP6N8",
-    "buyLabel": "PChome（原商品已售完，查看供貨）",
+    "buyLabel": "PChome 24h購物",
     "specs": [
       "30L",
       "尺寸：寬 49.4 x 深 48.6 x 高 37 cm",
@@ -812,9 +814,9 @@
       "currency": "TWD",
       "amount": 21111,
       "converted": 21111,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品公開價 NT$21111，公開折扣截至 2026-11-16T09:59:59+08:00；原商品主區有購買按鈕。"
+      "note": "Yahoo 原 SKU 主商品公開價 NT$21,111，主購買按鈕可用。公開活動截至 2026-11-16T09:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ03A900IYX0L/000001_1750758530.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool-%E6%83%A0%E8%80%8C%E6%B5%A6Coloris%E7%B3%BB%E5%88%97-32%E5%85%AC%E5%8D%878%E5%90%88%E4%B8%80%E5%85%A8%E8%83%BD%E8%AE%8A%E9%A0%BB%E6%B0%A3%E7%82%B8%E8%92%B8%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-%E5%A4%A7%E5%9C%B0%E6%A3%95-MWP3-12006007.html",
@@ -1017,8 +1019,8 @@
       "amount": 9500,
       "converted": 9500,
       "basis": "retailer_current",
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
-      "note": "Yahoo 原商品公開價 NT$9500，公開折扣截至 2026-11-16T09:59:59+08:00；原商品主區有購買按鈕。"
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "Yahoo 原 SKU 主商品公開價 NT$9,500，主購買按鈕可用。公開活動截至 2026-11-16T09:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ6QA900EO5DH/000001_1704094465.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool%E6%83%A0%E8%80%8C%E6%B5%A6-25%E5%85%AC%E5%8D%87%E7%8D%A8%E7%AB%8B%E5%BC%8F%E8%92%B8%E7%83%A4%E7%88%90-WSO2500B-9918063.html",
@@ -1512,11 +1514,11 @@
     "name": "39L 智慧變頻蒸烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 13351,
-      "converted": 13351,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "amount": 14155,
+      "converted": 14155,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品公開價 NT$13351，公開折扣截至 2026-11-13T09:59:59+08:00；原商品主區有購買按鈕。"
+      "note": "Yahoo 原 SKU 主商品公開價 NT$14,155，主購買按鈕可用。公開活動截至 2026-11-13T09:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ8JA900H3U40/000001_1749176905.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG-%E6%A8%82%E9%87%91-NeoChef-%E6%99%BA%E6%85%A7%E8%AE%8A%E9%A0%BB%E8%92%B8%E7%83%98%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-39%E5%85%AC%E5%8D%87-MJ3965BCP-11971476.html",
@@ -1714,8 +1716,8 @@
       "amount": 21763,
       "converted": 21763,
       "basis": "retailer_current",
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
-      "note": "Yahoo 原商品公開價 NT$21763，公開折扣截至 2026-11-16T09:59:59+08:00；原商品主區有購買按鈕。"
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "Yahoo 原 SKU 主商品公開價 NT$21,763，主購買按鈕可用。公開活動截至 2026-11-16T09:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ031900I80DM/000001_1778655849.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/HITACHI-%E6%97%A5%E7%AB%8B-%E9%81%8E%E7%86%B1%E6%B0%B4%E8%92%B8%E6%B0%A3%E7%83%98%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-%E7%88%B5%E8%89%B2%E9%BB%91-MROS800AT-11995105.html",
@@ -1814,8 +1816,8 @@
       "amount": 46111,
       "converted": 46111,
       "basis": "retailer_current",
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
-      "note": "Yahoo 原商品公開價 NT$46111，公開折扣截至 2026-11-16T09:59:59+08:00；原商品主區有購買按鈕。"
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "Yahoo 原 SKU 主商品公開價 NT$46,111，主購買按鈕可用。公開活動截至 2026-11-16T09:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ5PA900GN8PM/000001_1750840663.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/HITACHI-%E6%97%A5%E7%AB%8B-%E9%81%8E%E7%86%B1%E6%B0%B4%E8%92%B8%E6%B0%A3%E7%83%98%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-MROBK5000AT-11995474.html",
@@ -1911,15 +1913,15 @@
     "name": "蒸烘烤變頻微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 43920,
-      "converted": 43920,
-      "confidence": "PChome 2026-11-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 41724,
+      "converted": 41724,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "2026-11-05 PChome原SKU API公開價 43920 TWD；先前促銷金額不沿用。未扣個人券、點數或信用卡回饋；實際配送與安裝條件依通路確認。"
+      "note": "PChome 新商品編號 DMBJ7E-A900GKOOI 原頁明示「Svago 蒸烘烤變頻微波爐(全省安裝)(贈7-11商品卡2200元)【VE8966】」，折扣價 41724元，可加入購物車，API 庫存 2。主商品頁明示含標準安裝，特殊搬運及額外施工另行報價。金額不扣贈品。 PChome 新商品編號 DMBJ7E-A900GKOOI 原頁明示「Svago 蒸烘烤變頻微波爐(全省安裝)(贈7-11商品卡2200元)【VE8966】」，折扣價 41724元，可加入購物車，API 庫存 2。主商品頁明示含標準安裝，特殊搬運及額外施工另行報價。金額不扣贈品。公開折扣 NT$41,724，網路價 NT$43,920，主商品 directPromotions 截至 2026-11-30 23:59:59（台灣）。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900H5125/000001_1783054719.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMBM0G-A900H5125",
-    "buyLabel": "PChome 24h購物",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ7E-A900GKOOI",
+    "buyLabel": "PChome 24h 購物",
     "specs": [
       "蒸烘烤",
       "尺寸：寬 59.5 x 深 49.5 x 高 45.7 cm",
@@ -1998,6 +2000,10 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "主商品頁明示含標準安裝，特殊搬運及額外施工另行報價。金額不扣贈品。"
     }
   },
   {
@@ -2111,11 +2117,12 @@
       "currency": "TWD",
       "amount": 1749,
       "converted": 1749,
-      "confidence": "Costco 好市多 2026-07-22 exact-model 公開結構化價格"
+      "confidence": "Costco 好市多 2026-07-22 exact-model 公開結構化價格",
+      "note": "Costco 原頁 #6232432 主商品為 GAF858 7.5 L 台灣 110V／60Hz，頁面顯示 NT$1,749 含運，主購買按鈕缺貨且停用，保留既有參考價。其他搜尋結果為代購或 GAF858TW 名稱，未確認可替代的同版可信台灣現售。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/hd8/h30/308063201099806.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Kitchen-Appliances/Cookers-Oven-Microwaves-Food-Waste-Machine/Gourmia-Digital-Air-Fryer-GAF858/p/6232432",
-    "buyLabel": "Costco 好市多",
+    "buyLabel": "Costco（原頁缺貨）",
     "specs": [
       "8qt / 7.5L",
       "尺寸：寬 29.7 x 深 38.7 x 高 29.2 cm",
@@ -2313,8 +2320,8 @@
     "price": {
       "currency": "USD",
       "amount": 449.99,
-      "converted": 14796,
-      "confidence": "2026-11-04 Chrome人工核對原商品主價、所選版本及購買／預購CTA；依當日匯率換算TWD。；ExchangeRate-API 2026-11-12 匯率換算",
+      "converted": 14839,
+      "confidence": "2026-11-04 Chrome人工核對原商品主價、所選版本及購買／預購CTA；依當日匯率換算TWD。；ExchangeRate-API 2026-11-13 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-05 人工覆核：原生Chrome原buyURL選定Silver MW101，主機主區449.99USD、Quantity1、主機Addtocart可見啟用，完整載入再次確認。黑色另為MW101BK1／449.99／OutofStock，未轉移。台灣配送未確認，未含國際運費、進口稅、電壓／插頭及台灣保固風險。 不扣個人化折價券、點數、信用卡回饋或贈品價值。"
     },

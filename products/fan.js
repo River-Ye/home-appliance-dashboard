@@ -404,14 +404,15 @@
     "name": "16 吋 DC 變頻電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 2279,
-      "converted": 2279,
-      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
+      "amount": 3050,
+      "converted": 3050,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "PChome 新商品編號 DMBM3G-A900G8DK5 原頁明示「F-S16LMD 16吋DC直流馬達電風扇」，網路價 3050元，可加入購物車，API 庫存 1。金額未扣會員券、點數或信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABLMA900EOROV/000001_1757038312.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMABLM-A900EOROV",
-    "buyLabel": "PChome（原商品已售完，查看供貨）",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBM3G-A900G8DK5",
+    "buyLabel": "PChome 24h 購物",
     "specs": [
       "16 吋",
       "DC 變頻",
@@ -599,14 +600,15 @@
     "name": "14 吋 DC 微電腦定時電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 3896,
-      "converted": 3896,
-      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
+      "amount": 4780,
+      "converted": 4780,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "PChome 新商品編號 DMABIP-A900EV59K 原頁明示「14吋奈米水離子DC直流遙控立扇 F-H14LXD-K」，網路價 4780元，可加入購物車，API 庫存 9。金額未扣會員券、點數或信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABLMA900EORP0/000001_1697161466.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMABLM-A900EORP0",
-    "buyLabel": "PChome（原商品已售完，查看供貨）",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMABIP-A900EV59K",
+    "buyLabel": "PChome 24h 購物",
     "specs": [
       "14 吋",
       "DC 馬達",
@@ -696,14 +698,15 @@
     "name": "14 吋微電腦 DC 直流電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 1350,
-      "converted": 1350,
-      "confidence": "PChome 2026-09-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
+      "amount": 1480,
+      "converted": 1480,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "PChome 新商品編號 DMAB1F-A900IMD5C 原頁明示「14吋微電腦DC直流電風扇 F-S14KM」，網路價 1480元，可加入購物車，API 庫存 2。金額未扣會員券、點數或信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB1FA900EZLVB/000001_1685607577.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMAB1F-A900EZLVB",
-    "buyLabel": "PChome（原商品已售完，查看供貨）",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAB1F-A900IMD5C",
+    "buyLabel": "PChome 24h 購物",
     "specs": [
       "14 吋",
       "DC 直流",
@@ -1665,11 +1668,11 @@
       "amount": 2999,
       "converted": 2999,
       "confidence": "Costco 好市多 2026-08-24 exact-model 公開結構化價格",
-      "note": "2026-11-04 Chrome開啟原精確商品URL後轉向同通路分類列表，沒有原商品編號的主區；不借列表其他型號價格或加入購物車判定本品現貨。 金額保留為舊參考價；未取得原廠停產證據。"
+      "note": "Costco 原 URL #9631000 未呈現該 SKU 主商品與購買區，保留原參考價。另查來源主要為個人代購及別國電規，未確認同版台灣可信通路。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/hc9/h49/348867521806366.webp",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Heating-Cooling/DeWALT-40-cm-Drum-Fan/p/9631000",
-    "buyLabel": "Costco（原連結轉分類，供貨待確認）",
+    "buyLabel": "Costco（原頁供貨待確認）",
     "specs": [
       "40 公分鼓風扇",
       "重量：約7.05公斤",

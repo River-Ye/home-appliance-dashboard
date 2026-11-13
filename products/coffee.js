@@ -448,13 +448,13 @@
       "currency": "TWD",
       "amount": 26550,
       "converted": 26550,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "2026-11-04 全國電子2149579 EP3347/84主頁明示預購接單、依排單順序出貨；26550為原參考，實際出貨需確認。"
+      "note": "全國電子原商品 #2149579 為 Philips EP3347/84，主區公開預購價 NT$26,550、加入購物車可用；商品主區明示預購接單，依排單順序出貨。"
     },
     "image": "https://images.philips.com/is/image/philipsconsumer/vrs_635dc934_7995_4bd3_9be963f05e9b68b4?$pnglarge$",
     "buyUrl": "https://www.elifemall.com.tw/product/2149579",
-    "buyLabel": "全國電子｜預購，依排單順序出貨",
+    "buyLabel": "全國電子（預購，依排單順序出貨）",
     "specs": [
       "類型：全自動",
       "使用原料：咖啡豆；另設咖啡粉槽",
@@ -1412,8 +1412,7 @@
       "amount": 4990,
       "converted": 4990,
       "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
-      "note": "Yahoo 原商品主區顯示此賣場已售完；保留先前參考價，供貨待查。",
-      "basis": "retailer_current"
+      "note": "Yahoo 同 SKU 主商品未提供有效購買按鈕，保留既有參考價。"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/69fb8a2ae4-Gd-11322933.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Philips-%E9%A3%9B%E5%88%A9%E6%B5%A6-Saeco%E5%8D%8A%E8%87%AA%E5%8B%95%E7%BE%A9%E5%BC%8F%E5%92%96%E5%95%A1%E6%A9%9F-EMS5110-02-11322933.html",
@@ -1989,16 +1988,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 11111,
+      "amount": 9911,
       "currency": "TWD",
-      "converted": 11111,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1221659333&cgp=13900",
-      "sourceTitle": "LBJ momo Electrolux E7EC1-610P exact-model 新品價格曲線",
-      "evidenceSnippet": "momo exact-model 曲線自 2025-10-25 至 2026-08-04 多次記錄 11,111 元；原頁亦保留公開件數折扣。",
-      "sourceKind": "price_history",
+      "converted": 9911,
+      "sourceUrl": "https://www.momoshop.com.tw/product/12813998",
+      "sourceTitle": "momo Electrolux E7EC1-610P 公開雙11單件活動",
+      "evidenceSnippet": "momo 品號 12813998 的 Electrolux E7EC1-610P 原頁顯示 11/01–11/16 滿一件折 NT$9,989，從 NT$19,900 降至公開折後價 NT$9,911，每人可買一組。",
+      "sourceKind": "retailer_page",
       "confidence": "high",
-      "checkedAt": "2026-08-04",
-      "note": "LBJ 可重現 momo exact-model 新品自 2025-10-25 至 2026-08-04 多次為 11,111 元；單日 6,000 元曲線與原 listing 價格範圍不一致，未採。"
+      "checkedAt": "2026-11-13",
+      "note": "同型新品公開件數活動價，不需卡別、折價券或點數。既有 LBJ 10/22 曲線也見同價，本次只以原通路驗證的活動期間記錄。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2169,11 +2168,11 @@
     "name": "La Specialista Arte Evo 半自動義式咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 25900,
-      "converted": 25900,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 26900,
+      "converted": 26900,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "2026-11-01 DeLonghi台灣官方選定EC9255M／EC9255MEX2主商品25900元，原頁同SKU結構化InStock；未採其他推薦型號或會員點數。"
+      "note": "stilus A 台灣官方 EC9255MEX2 主商品公開價 NT$26,900，原頁核對同 SKU 購買按鈕可用。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAT03A900K4F0K/000007_1781601666.jpg",
     "buyUrl": "https://www.stilusa.com.tw/zh-TW/products/ec9255m",

@@ -2326,9 +2326,8 @@
       "currency": "TWD",
       "amount": 3088,
       "converted": 3088,
-      "basis": "retailer_current",
       "confidence": "Chrome黑色SoldOut，選復古白背光熱插拔矮紅軸；先茶再紅取得真實variant46960807969027，SKU1T3088可加入購物車；主圖1T800px。白背光熱插拔選項與舊正文僅RGB可熱插拔矛盾，明示按選定SKU並保留疑義。",
-      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。 2026-10-31 Keychron台灣所選KBKCK3MQ1T／復古白背光熱插拔矮紅軸原頁售完／到貨通知，3490元是此選定版本展示價；保留3088元舊參考價，不借2990/3790元其他版本庫存或價格。"
+      "note": "Keychron 台灣原商品頁已選定本版本，主購買按鈕停用並標示售完，保留先前參考價。"
     },
     "installation": {
       "status": "not_stated",
@@ -3416,9 +3415,8 @@
       "currency": "TWD",
       "amount": 6990,
       "converted": 6990,
-      "basis": "retailer_current",
       "confidence": "2026/10/29 Chrome重開官方variant49296165470467，確認KBKCQ11UM1黑色英文SilkPOM紅軸6990元、加車按鈕可用；台灣官方一般出貨說明1–2工作天，實際交期依原店。",
-      "note": "2026-11-04 Chrome已選KBKCQ11UM1、黑色RGB熱插拔Keychron Silk POM紅軸，主價6990但「售完」按鈕停用；不能借同頁茶軸庫存當紅軸可購。保留既有參考價，不推原廠停產。"
+      "note": "Keychron 台灣原商品頁已選定本版本，主購買按鈕停用並標示售完，保留先前參考價。"
     },
     "installation": {
       "status": "not_stated",

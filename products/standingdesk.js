@@ -117,11 +117,11 @@
     "name": "D01-SL-DX 電動升降桌 120x80",
     "price": {
       "currency": "TWD",
-      "amount": 14463,
-      "converted": 14463,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 14911,
+      "converted": 14911,
+      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$14463，API Qty 8；個人券、點數、信用卡回饋及配送安裝費另計。"
+      "note": "2026-11-13 PChome 原 SKU 公開價 NT$14911，API Qty 8。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900I9XVY/000001_1773043590.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4C-A900I9XVY",
@@ -217,11 +217,11 @@
     "name": "D01-SL-DX 電動升降桌 150x80",
     "price": {
       "currency": "TWD",
-      "amount": 15433,
-      "converted": 15433,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 15911,
+      "converted": 15911,
+      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$15433，API Qty 20；個人券、點數、信用卡回饋及配送安裝費另計。"
+      "note": "2026-11-13 PChome 原 SKU 公開價 NT$15911，API Qty 20。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900HUG3C/000001_1773043903.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4C-A900HUG3C",
@@ -317,11 +317,11 @@
     "name": "D01-SL-DX 電動升降桌 160x80",
     "price": {
       "currency": "TWD",
-      "amount": 15724,
-      "converted": 15724,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 16211,
+      "converted": 16211,
+      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$15724，API Qty 15；個人券、點數、信用卡回饋及配送安裝費另計。"
+      "note": "2026-11-13 PChome 原 SKU 公開價 NT$16211，API Qty 15。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900ITV12/000001_1773043461.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4C-A900ITV12",
@@ -417,11 +417,11 @@
     "name": "D01-SL-DX 電動升降桌 180x80",
     "price": {
       "currency": "TWD",
-      "amount": 16403,
-      "converted": 16403,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 16911,
+      "converted": 16911,
+      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$16403，API Qty 20；個人券、點數、信用卡回饋及配送安裝費另計。"
+      "note": "2026-11-13 PChome 原 SKU 公開價 NT$16911，API Qty 20。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900HUGSO/000001_1773043706.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4C-A900HUGSO",
@@ -519,8 +519,8 @@
       "currency": "TWD",
       "amount": 7486,
       "converted": 7486,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
-      "note": "Yahoo 原商品公開價 NT$7486，公開折扣截至 2027-01-02T09:59:59+08:00；原商品主區有購買按鈕。",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "Yahoo 原 SKU 主商品公開價 NT$7,486，主購買按鈕可用。公開活動截至 2027-01-02T09:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBAGMA900FN1YH/000001_1665647044.jpg",
@@ -916,11 +916,11 @@
     "name": "ROYAL MOSSA 150 加大電動升降桌",
     "price": {
       "currency": "TWD",
-      "amount": 10660,
-      "converted": 10660,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 10990,
+      "converted": 10990,
+      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$10660，API Qty 2；個人券、點數、信用卡回饋及配送安裝費另計。"
+      "note": "2026-11-13 PChome 原 SKU 公開價 NT$10990，API Qty 2。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBB6OA900HZWA5/000001_1783085629.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBB6O-A900HZWA5",
@@ -1016,14 +1016,15 @@
     "name": "E-Ares 120 RGB 電動升降桌",
     "price": {
       "currency": "TWD",
-      "amount": 9990,
-      "converted": 9990,
-      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
+      "amount": 12990,
+      "converted": 12990,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "PChome 新商品編號 DCBB6O-A900KKHI5 原頁明示「E-Ares 120 RGB 電動升降桌 電競桌 電腦桌」，網路價 12990元，可加入購物車，API 庫存 3。金額未扣會員券、點數或信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBB6OA900JPZTQ/000001_1774958562.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DCBB6O-A900JPZTQ",
-    "buyLabel": "PChome（原商品已售完，查看供貨）",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DCBB6O-A900KKHI5",
+    "buyLabel": "PChome 24h 購物",
     "specs": [
       "電動升降",
       "120cm 級桌面",
@@ -1115,11 +1116,11 @@
     "name": "E-GRAV 160 雙馬達電動升降桌",
     "price": {
       "currency": "TWD",
-      "amount": 14540,
-      "converted": 14540,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 14990,
+      "converted": 14990,
+      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$14540，API Qty 3；個人券、點數、信用卡回饋及配送安裝費另計。"
+      "note": "2026-11-13 PChome 原 SKU 公開價 NT$14990，API Qty 3。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBB6OA900JHYFV/000001_1764230649.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBB6O-A900JHYFV",
@@ -1414,11 +1415,11 @@
     "name": "E-GRAV 180 雙馬達電動升降桌",
     "price": {
       "currency": "TWD",
-      "amount": 15510,
-      "converted": 15510,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 15990,
+      "converted": 15990,
+      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$15510，API Qty 3；個人券、點數、信用卡回饋及配送安裝費另計。"
+      "note": "2026-11-13 PChome 原 SKU 公開價 NT$15990，API Qty 3。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBB6OA900JHYGC/000001_1764230983.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBB6O-A900JHYGC",
@@ -1709,11 +1710,11 @@
     "name": "電競電動升降桌",
     "price": {
       "currency": "TWD",
-      "amount": 10660,
-      "converted": 10660,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 10990,
+      "converted": 10990,
+      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$10660，API Qty 2；個人券、點數、信用卡回饋及配送安裝費另計。"
+      "note": "2026-11-13 PChome 原 SKU 公開價 NT$10990，API Qty 2。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBB6OA900HSVT2/000001_1782822944.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBB6O-A900HSVT2",
@@ -1810,8 +1811,8 @@
       "currency": "TWD",
       "amount": 6755,
       "converted": 6755,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
-      "note": "Yahoo 原商品公開價 NT$6755，公開折扣截至 2027-01-01T09:59:59+08:00；原商品主區有購買按鈕。",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "Yahoo 原 SKU 主商品公開價 NT$6,755，主購買按鈕可用。公開活動截至 2027-01-01T09:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBB6OA900FRSK6/000001_1669107568.jpg",
@@ -1909,11 +1910,12 @@
       "currency": "TWD",
       "amount": 8999,
       "converted": 8999,
-      "confidence": "Costco 好市多 2026-10-19 exact-model 公開結構化價格"
+      "confidence": "Costco 好市多 2026-10-19 exact-model 公開結構化價格",
+      "note": "Costco 原 URL #141578 未呈現該 SKU 主商品與購買區，保留原參考價。品牌分類頁未見白色 #141578，Water3F 白色玻璃變體原始選項為無庫存。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/hc9/hb9/261465662193694.jpg",
     "buyUrl": "https://www.costco.com.tw/Furniture-Kitchen/Furniture/Computer-Desk-Chair-Sets/Loctek-Adjustable-Desk-ET200-White/p/141578",
-    "buyLabel": "Costco 好市多",
+    "buyLabel": "Costco（原頁供貨待確認）",
     "specs": [
       "桌面 120 x 60 公分",
       "升降範圍 71-121 公分",
@@ -2730,11 +2732,11 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 19390,
-      "converted": 19390,
+      "amount": 19990,
+      "converted": 19990,
       "basis": "retailer_current",
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
-      "note": "PChome 原 SKU DCBB6O-A900I85QU 的 Name 與 Nick 和前次人工獨立確認紀錄逐字一致，本次重查 Qty 3、公開價 NT$19390。原選定規格不變。"
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "PChome E-ODYSSEY 原頁同 150×70 cm、桌板 2.5 cm，公開 NT$19,990（NT$23,990 已折），可下單，API Qty 3。"
     },
     "installation": {
       "status": "excluded",

@@ -941,7 +941,7 @@
       "amount": 2860,
       "converted": 2860,
       "confidence": "Yahoo購物中心 2026-08-15 exact-model 自營新品公開價",
-      "note": "Yahoo 原頁 404；同商品標題的 PChome DEAWED-A900HZZIP API 空陣列，原頁顯示熱銷一空。輕頑味有現售 Levital Classic 28cm、3.0L、單平手把 F157121281000（NT$4,410、庫存15），須確認原 Yahoo 是此 Classic，避免混同 Levital Comfort 28cm。"
+      "note": "Yahoo 原頁 404；原主圖仍為有效 JPEG，與 PChome DEAWED-A900HZZIP 主圖是同一張商品照片，但 PChome 熱銷一空、API 無 SKU。輕頑味同系列標準款 F157121281000（EAN 4009209389233、28cm／3.0L、NT$4,410、庫存 15）及嘉儀資料確認目前款式，原 Yahoo/PChome 賣場皆未顯示可銜接的 SKU 或條碼。保留原商品身份與歷史紀錄，等待確切現售證據。"
     },
     "channel": "tw",
     "buyLabel": "原通路連結失效（同型現售待確認）",
@@ -1040,11 +1040,11 @@
     "image": "https://cs-a.ecimg.tw/items/DEDG3BA900GQDVZ/000001_1776769920.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 988,
-      "converted": 988,
+      "amount": 1097,
+      "converted": 1097,
       "basis": "retailer_current",
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
-      "note": "Yahoo 原商品公開價 NT$988，公開折扣截至 2026-11-12T18:59:59+08:00；原商品主區有購買按鈕。"
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "Yahoo 原 SKU 促銷到期後重查，主商品公開價 NT$1,097，主購買按鈕可用。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -2242,11 +2242,12 @@
       "currency": "TWD",
       "amount": 3999,
       "converted": 3999,
-      "confidence": "Costco 好市多 2026-07-11 頁面查核價"
+      "confidence": "Costco 好市多 2026-07-11 頁面查核價",
+      "note": "Costco 原頁 #141472 主商品為 Ingenio 奶茶粉含蓋六件組，頁面顯示 NT$3,999 含運，主購買按鈕缺貨且停用，保留既有參考價。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h61/h4b/367883333861406.jpg",
     "buyUrl": "https://www.costco.com.tw/Furniture-Kitchen/Kitchen-Dining/Cookware-Cutlery-Cutting-Boards/Tefal-Ingenio-Non-Stick-Cookware-with-Lid-6-Piece-Set-Milk-Tea-Pink/p/141472",
-    "buyLabel": "Costco 好市多",
+    "buyLabel": "Costco（原頁缺貨）",
     "specs": [
       "28cm 平底鍋",
       "26cm 炒鍋",

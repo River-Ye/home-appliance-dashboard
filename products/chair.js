@@ -114,10 +114,10 @@
     "name": "特仕版 2.0 人體工學椅",
     "price": {
       "currency": "TWD",
-      "amount": 9999,
-      "converted": 9999,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-03 人工核對原始SKU API名稱、商品ID、正庫存與公開價9999元。同型原頁可加車且金額一致。",
+      "amount": 11900,
+      "converted": 11900,
+      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-13 PChome 原 SKU 公開價 NT$11900，API Qty 20。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAKHPA900HEQ4H/000001_1760581993.jpg",
@@ -408,14 +408,15 @@
     "name": "T05 PLUS 人體工學辦公椅",
     "price": {
       "currency": "TWD",
-      "amount": 15280,
-      "converted": 15280,
-      "confidence": "PChome 2026-08-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
+      "amount": 11800,
+      "converted": 11800,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "PChome 新商品編號 DEBH2S-A900AWIZ2 原頁明示「irocks T05 Plus 人體工學 辦公椅」，折扣價 11800元，可加入購物車，API 庫存 20。金額未扣會員券、點數或信用卡回饋。 PChome 新商品編號 DEBH2S-A900AWIZ2 原頁明示「irocks T05 Plus 人體工學 辦公椅」，折扣價 11800元，可加入購物車，API 庫存 20。金額未扣會員券、點數或信用卡回饋。原頁公開滿 NT$10,000 折 NT$1,111（PR26111200144761），單件網路價 NT$12,911 符合，折後 NT$11,800，截至 2026-11-15 23:59:59（台灣）。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/QABD80A900AS2SD/000001_1773039881.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/QABD80-A900AS2SD",
-    "buyLabel": "PChome（原商品已售完，查看供貨）",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DEBH2S-A900AWIZ2",
+    "buyLabel": "PChome 24h 購物",
     "specs": [
       "人體工學",
       "台灣製造",
@@ -445,16 +446,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 12510,
+      "amount": 11800,
       "currency": "TWD",
-      "converted": 12510,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1105168968&cgp=15800",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：irocks T05 Plus 人體工學 辦公椅",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / irocks T05 Plus 人體工學 辦公椅」最低價為 NT$12,510，最低點日期 2026-04-29。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 11800,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DEBH2S-A900AWIZ2",
+      "sourceTitle": "iRocks T05 Plus 同型新品通路價",
+      "evidenceSnippet": "2026-11-13 PChome 新商品編號 DEBH2S-A900AWIZ2 原頁明示「irocks T05 Plus 人體工學 辦公椅」，折扣價 11800元，可加入購物車，API 庫存 20。金額未扣會員券、點數或信用卡回饋。 PChome 新商品編號 DEBH2S-A900AWIZ2 原頁明示「irocks T05 Plus 人體工學 辦公椅」，折扣價 11800元，可加入購物車，API 庫存 20。金額未扣會員券、點數或信用卡回饋。原頁公開滿 NT$10,000 折 NT$1,111（PR26111200144761），單件網路價 NT$12,911 符合，折後 NT$11,800，截至 2026-11-15 23:59:59（台灣）。 此價低於已查得的同型號史低。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-11-13",
+      "note": "採同型號可信新品公開價格，扣除額外回饋前。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -603,11 +604,11 @@
     "name": "Fujin 風靈網狀人體工學電競椅",
     "price": {
       "currency": "TWD",
-      "amount": 11091,
-      "converted": 11091,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 11691,
+      "converted": 11691,
+      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$11091，API Qty 2；個人券、點數、信用卡回饋及配送安裝費另計。"
+      "note": "2026-11-13 PChome 原 SKU 公開價 NT$11691，API Qty 2。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBT0KA900GSDTK/000001_1762771347.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBT0K-A900GSDTK",
@@ -794,13 +795,13 @@
       "currency": "TWD",
       "amount": 12810,
       "converted": 12810,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$12810，API Qty 8；個人券、點數、信用卡回饋及配送安裝費另計。"
+      "note": "PChome 原頁 DCAKFO-A900BWWGS 主標為 Razer Enki 黑色 RZ38-03720300-R3U1。原頁明示預購，預計 2026/11/15–11/17 出貨；結構化主商品及原 SKU API 折扣價均為 NT$12,810，網路價 NT$14,900。預購庫存數不代表已可出貨。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAKFOA900BWWGS/000001_1755481797.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAKFO-A900BWWGS",
-    "buyLabel": "PChome（預購11/02–11/04出貨）",
+    "buyLabel": "PChome（預購 11/15–11/17 出貨）",
     "specs": [
       "電競椅",
       "高背",
@@ -1276,11 +1277,11 @@
     "name": "OC2 SEAT SET 坐躺兩用電腦椅",
     "price": {
       "currency": "TWD",
-      "amount": 3499,
-      "converted": 3499,
-      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 3324,
+      "converted": 3324,
+      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current",
-      "note": "2026-11-02 人工讀取PChome同型號主商品及原始API：公開3499元、Qty11；不扣個人券或回饋，實際配送依通路。"
+      "note": "2026-11-13 PChome 原 SKU 公開價 NT$3324，API Qty 7。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。"
     },
     "image": "https://cs-a.ecimg.tw/items/DEBHA6A9007ZPEF/000001_1768553712.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEBHA6-A9007ZPEF",
@@ -2058,11 +2059,11 @@
       "amount": 4389,
       "converted": 4389,
       "confidence": "Costco 好市多 2026-07-09 查核價",
-      "note": "2026-11-04 Chrome開啟原精確商品URL後轉向同通路分類列表，沒有原商品編號的主區；不借列表其他型號價格或加入購物車判定本品現貨。 金額保留為舊參考價；未取得原廠停產證據。"
+      "note": "Costco 原 URL #1861987 未呈現該 SKU 主商品與購買區，保留原參考價。未找到同款黑紅 #52851-BLKRED 可信台灣現售。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h6a/hd8/384789238284318.jpg",
     "buyUrl": "https://www.costco.com.tw/Furniture-Kitchen/Furniture/Computer-Desk-Chair-Sets/True-Innovations-Insight-Gaming-Chair-Black-Red/p/1861987",
-    "buyLabel": "Costco（原連結轉分類，供貨待確認）",
+    "buyLabel": "Costco（原頁供貨待確認）",
     "specs": [
       "電競椅",
       "高度 116-126 公分",
@@ -2158,12 +2159,11 @@
       "amount": 6599,
       "converted": 6599,
       "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "basis": "retailer_current",
-      "note": "2026-11-01 Costco台灣同型號主商品頁公開售價6599元（含運），主SKU可加車；會員購買條件依通路，不扣個人折扣。"
+      "note": "Costco #151433 原頁及規格對應 Anda Seat PHANTOM 3 PRO 灰色布面。價格與購買需登入，保留參考價，供貨待查。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/hd2/h2a/344500471693342.jpg",
     "buyUrl": "https://www.costco.com.tw/Furniture-Kitchen/Furniture/Computer-Desk-Chair-Sets/Anda-Seat-Fabric-Gaming-Chair-Gray/p/151433",
-    "buyLabel": "Costco 好市多",
+    "buyLabel": "Costco（登入看價／供貨待確認）",
     "specs": [
       "布面電競椅",
       "高約 140 公分",

@@ -312,9 +312,9 @@
       "currency": "TWD",
       "amount": 15200,
       "converted": 15200,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品公開價 NT$15200，公開折扣截至 2026-12-31T23:59:59+08:00；原商品主區有購買按鈕。"
+      "note": "Yahoo 原 SKU 主商品公開價 NT$15,200，主購買按鈕可用。公開活動截至 2026-12-31T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAXB5A900JFCJP/000001_1762402803.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Tineco-%E6%B7%BB%E5%8F%AF-Switch-S7-Stretch%E5%A4%9A%E5%B7%A5%E5%B9%B3%E8%BA%BA%E6%B4%97%E5%9C%B0%E5%90%B8%E5%A1%B5%E5%99%A8-22000Pa-5%E5%88%86%E9%90%98%E9%80%9F%E4%B9%BE-11979820.html",
@@ -1186,9 +1186,9 @@
       "currency": "TWD",
       "amount": 2841,
       "converted": 2841,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品公開價 NT$2841，公開折扣截至 2026-12-31T23:59:59+08:00；原商品主區有購買按鈕。"
+      "note": "Yahoo 原 SKU 主商品公開價 NT$2,841，主購買按鈕可用。公開活動截至 2026-12-31T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBE1AA900JJ4LU/000001_1765270758.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/siroca-%E8%B6%85%E8%BC%95%E9%87%8F%E7%84%A1%E7%B7%9A%E5%90%B8%E5%A1%B5%E5%99%A8SV-SP3710-11742436.html",
@@ -1478,9 +1478,9 @@
       "currency": "TWD",
       "amount": 14250,
       "converted": 14250,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品公開價 NT$14250，公開折扣截至 2026-12-31T23:59:59+08:00；原商品主區有購買按鈕。"
+      "note": "Yahoo 原 SKU 主商品公開價 NT$14,250，主購買按鈕可用。公開活動截至 2026-12-31T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAXB5A900JP6TZ/000001_1770084365.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Tineco-%E6%B7%BB%E5%8F%AF-S7-Stretch-Steam-%E8%92%B8%E6%B0%A3%E6%97%97%E8%89%A6%E6%B4%97%E5%9C%B0%E6%A9%9F-160%E5%BA%A6%E8%92%B8%E6%B0%A3%E7%A1%AC%E6%B1%A1%E6%B8%85%E6%BD%94-80mi-12078414.html",
@@ -1867,9 +1867,9 @@
       "currency": "TWD",
       "amount": 11600,
       "converted": 11600,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品公開價 NT$11600，公開折扣截至 2026-12-31T23:59:59+08:00；原商品主區有購買按鈕。"
+      "note": "Yahoo 原 SKU 主商品公開價 NT$11,600，主購買按鈕可用。公開活動截至 2026-12-31T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX0ZA900K4IQZ/000001_1781668428.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-%E7%84%A1%E7%B7%9A%E7%9B%B4%E7%AB%8B-%E6%89%8B%E6%8C%81%E5%BC%8F%E5%BE%AE%E5%A1%B5%E6%84%9F%E7%9F%A5%E6%A5%B5%E6%B7%A8%E5%85%89%E5%90%B8%E5%A1%B5%E5%99%A8-MC-SBR70-12134025.html",
@@ -2253,8 +2253,8 @@
     "price": {
       "currency": "USD",
       "amount": 679.99,
-      "converted": 22358,
-      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-11-12 匯率換算",
+      "converted": 22423,
+      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-11-13 匯率換算",
       "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
     },
     "image": "https://m.media-amazon.com/images/I/61Yuy5vtWFL._AC_SL1500_.jpg",
@@ -2294,14 +2294,14 @@
       "status": "found",
       "amount": 679.99,
       "currency": "USD",
-      "converted": 22358,
+      "converted": 22423,
       "sourceUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
       "sourceTitle": "Dreame Aero Ultra Steam Wet Dry Vacuum – Dreame Vacuum Mop",
       "evidenceSnippet": "Dreame 原廠美國商品頁於 2026-07-16 公開顯示特價 US$679.99、原價 US$799.99，且可 Add to Cart / Buy It Now。",
       "sourceKind": "official_sale",
       "confidence": "high",
       "checkedAt": "2026-07-16",
-      "note": "新上市商品目前可公開驗證的最低售價；未套用會員碼、信用卡、點數或個人化折扣，且未含國際運費、進口稅、插頭／供電與台灣保固風險；依 2026-11-12 USD/TWD 匯率換算。"
+      "note": "新上市商品目前可公開驗證的最低售價；未套用會員碼、信用卡、點數或個人化折扣，且未含國際運費、進口稅、插頭／供電與台灣保固風險；依 2026-11-13 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2756,15 +2756,15 @@
     "name": "F25 ACE Pro 石沫吸泡沫洗地機",
     "price": {
       "currency": "TWD",
-      "amount": 14999,
-      "converted": 14999,
-      "confidence": "WD5M14A 官方商品頁 2026-09-05 人工核對 exact-model 公開現價及可購狀態；非會員券、紅利或加購價",
+      "amount": 14811,
+      "converted": 14811,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "2026-11-04 RoborockF25ACEPro主價15888，但售罄/缺貨且原SKUOutOfStock，保留14999舊參考價。未取得原廠台灣exact整型停產正證，不據此刪除。"
+      "note": "原 Roborock 官網 F25 ACE Pro 主區顯示缺貨。PChome 原廠授權賣場（CH-R26-A0017）主商品為 F25 ACE Pro 石沫吸，規格 400W、1000mL 清水箱對應原廠 WD5M14A 使用手冊。原頁網路價 NT$14,811、加入購物車可用，API Qty 16。"
     },
-    "image": "https://taiwan.roborock.com/cdn/shop/files/F25_ACE_Pro_1_1200x1200.jpg?v=1787311249",
-    "buyUrl": "https://taiwan.roborock.com/products/roborock-f25-ace-pro",
-    "buyLabel": "Roborock台灣（缺貨，現價待確認）",
+    "image": "https://taiwan.roborock.com/cdn/shop/files/Roborock_F25_ACE_Pro_ID.png?v=1766373303&width=600",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAXB4-A900JVG3T",
+    "buyLabel": "PChome 24h 購物",
     "installation": {
       "status": "not_stated",
       "note": "台灣官方與通路未列到府安裝；本品為手持洗地機，使用者需依原廠說明放置充電座、注水並清潔污水箱。"
@@ -2943,13 +2943,13 @@
       "currency": "TWD",
       "amount": 12900,
       "converted": 12900,
-      "confidence": "Dyson 台灣官方商城 2026-08-29 exact product/SKU 637244-01 顯示單購 NT$12,900、全新現貨並可加入購物車",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "2026-11-01 原Dyson PencilWash 637244-01網址已回到洗地吸塵器分類頁，未見WR04-A所選主商品；金石堂替代頁為動態殼，無本輪可讀主價及供貨證據，保留12900元舊參考價，不稱停產。"
+      "note": "Dyson 台灣官方原商品 637244-01 恢復為 PencilWash WR04-A 產品頁。主商品單購 NT$12,900、加入購物車可用，與套組及領券活動分列。"
     },
     "image": "https://dysonshop.blob.core.windows.net/products/dyson-pencilwash/hero-1780482874-480x480.jpg",
     "buyUrl": "https://shop.dyson.tw/vacuums/wet-and-dry-vacuums/dyson-pencilwash-637244-01",
-    "buyLabel": "Dyson 官方（原主商品未確認）",
+    "buyLabel": "Dyson 台灣官方商城",
     "installation": {
       "status": "not_stated",
       "note": "官方商城未列到府安裝；本品為手持硬地板洗地機，使用者需依說明書組裝握把、放置充電座，並於每次使用後清洗水箱、吸頭與滾筒。"

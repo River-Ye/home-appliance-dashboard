@@ -642,11 +642,11 @@
     "image": "https://cs-a.ecimg.tw/items/DMCI1IA900ICM86/000001_1739267875.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 14499,
-      "converted": 14499,
-      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
+      "amount": 16110,
+      "converted": 16110,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
+      "note": "PChome P0261／P-0261 600G 原頁公開 NT$16,110，含標準安裝，主商品可購，API Qty 15。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -745,11 +745,11 @@
     "image": "https://cs-a.ecimg.tw/items/DMAC6RA900IUC3J/000001_1761017834.png",
     "price": {
       "currency": "TWD",
-      "amount": 25900,
-      "converted": 25900,
+      "amount": 25999,
+      "converted": 25999,
       "basis": "retailer_current",
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$25900，API Qty 20；個人券、點數、信用卡回饋及配送安裝費另計。"
+      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-13 PChome 原 SKU 公開價 NT$25999，API Qty 20。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -788,16 +788,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 25500,
+      "amount": 22800,
       "currency": "TWD",
-      "converted": 25500,
+      "converted": 22800,
       "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1269639153&cgp=28999",
       "sourceTitle": "比價撿便宜：Momo Philips AUT7005 RO 廚下型瞬熱淨水器完整主機價格歷史",
-      "evidenceSnippet": "2026-08-31 以 Philips AUT7005 查詢，卡片1269639153明確對應 Momo RO廚下型瞬熱淨水器(AUT7005)完整主機，轉往Momo14917456；13筆歷史價格點中2026-08-11為NT$25,500，Chrome同卡片歷史圖亦可見此低點。不是相容濾芯，也不是cgp=28999所帶入的查核現價。",
+      "evidenceSnippet": "LBJ 既有 momo 品號 14917456、PID 1269639153 的 Philips AUT7005 完整主機價格曲線，2026-11-12 出現 NT$22,800。momo 原頁本次仍顯示同型促銷價 NT$22,800、2 年保固和庫存低於 4 組。",
       "sourceKind": "price_history",
-      "confidence": "medium",
-      "checkedAt": "2026-08-31",
-      "note": "採可驗證的Momo同型號完整新品追蹤低點，不保證涵蓋全網或終身最低價；未計信用卡、點數或個人化優惠。限量30台是被追蹤賣場名稱，不代表目前仍有該低價庫存。AUT821/AUT822/AUT823濾芯pid1281366826仍排除，現價另依PChome公開頁。"
+      "confidence": "high",
+      "checkedAt": "2026-11-13",
+      "note": "完整主機公開促銷價，限量 30 台，未扣刷卡、折價券或點數。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1469,10 +1469,10 @@
     "image": "https://cs-a.ecimg.tw/items/DMCI1NA900J5L16/000001_1782878655.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 59800,
-      "converted": 59800,
-      "confidence": "PChome 2026-07-11 API 查核價",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。",
+      "amount": 53820,
+      "converted": 53820,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "PChome CHP-3140N 原頁同原廠安裝 220V 極美智感龍頭選項，11/12–11/13 單件九折，API 公開 NT$53,820、Qty 5，加入購物車可用。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -1873,10 +1873,10 @@
     "name": "廚下 RO 雙溫觸控飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 30266,
-      "converted": 30266,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$30266，API Qty 2；個人券、點數、信用卡回饋及配送安裝費另計。",
+      "amount": 36810,
+      "converted": 36810,
+      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "note": "2026-11-13 PChome 原 SKU 公開價 NT$36810，API Qty 2。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMCI0OA900JT66N/000001_1773306819.png",
@@ -2165,11 +2165,11 @@
     "name": "Circle Reverse Osmosis Water Filtration System",
     "price": {
       "currency": "USD",
-      "amount": 359.99,
-      "converted": 11836,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-12 匯率換算",
+      "amount": 449.99,
+      "converted": 14839,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。；ExchangeRate-API 2026-11-13 匯率換算",
       "basis": "retailer_current",
-      "note": "2026-11-01 Brondell美國官方Circle主商品Sale Price USD359.99、原449.99，主商品BCData為instock:true/purchasable:true；排除頁尾替換濾芯及Open-Box商品。 海外參考；未含國際運費、進口稅、電壓／插頭與台灣保固風險。"
+      "note": "Brondell 美國 Circle RC100 原商品公開 USD 449.99，主商品購買狀態可用。海外參考，未含國際運費、進口稅、電壓／插頭及台灣保固風險。"
     },
     "image": "https://cdn11.bigcommerce.com/s-mpfo2gcqca/images/stencil/1280x1280/products/560/5775/brondell-circle-rc100-reverse-osmosis-system-faucet.jpg__76718.1789593792.jpg?c=1",
     "buyUrl": "https://www.brondell.com/circle-reverse-osmosis-water-filter-system/",
@@ -2205,14 +2205,14 @@
       "status": "found",
       "amount": 289.99,
       "currency": "USD",
-      "converted": 9535,
+      "converted": 9563,
       "sourceUrl": "https://www.costco.com/CategoryDisplay?catalogId=10701&identifier=water-dispensers-filtration-water-filtration&storeId=10301",
       "sourceTitle": "Costco US：Brondell Circle Reverse Osmosis Water Filtration System",
       "evidenceSnippet": "Costco US exact-model 分類頁於 2026-08-28 顯示 Brondell Circle 折後 US$289.99，原價 US$369.99，優惠 US$80。",
       "sourceKind": "retailer_promo",
       "confidence": "medium",
       "checkedAt": "2026-08-28",
-      "note": "採 Costco US 公開 exact-model 折價作為本次可重現最低觀測價；未含國際運費、進口稅、耗材與台灣安裝／保固風險；依 2026-11-12 USD/TWD 匯率換算。"
+      "note": "採 Costco US 公開 exact-model 折價作為本次可重現最低觀測價；未含國際運費、進口稅、耗材與台灣安裝／保固風險；依 2026-11-13 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "common_issue",
@@ -2774,12 +2774,11 @@
       "amount": 42900,
       "converted": 42900,
       "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。",
-      "basis": "retailer_current",
-      "note": "2026-11-04 原生Chrome主商品：現省NT$7000、NT$42900；連結「立即購買」可用。 不另扣會員券、信用卡、點數或推算優惠；送貨及基本安裝條件依原頁。"
+      "note": "2026-11-13 LG 台灣直接商品頁原始與 Chrome 均回 403，較早官方推薦文案為 NT$42,900／44,900；怡沃拉 NT$44,900 原頁未核到可下單，賈維斯舊頁 404。 金額保留為先前參考價。"
     },
     "image": "https://www.lg.com/content/dam/channel/wcms/tw/images/water-purifier/all-water-purifier/wu525bs/gallery/basic.jpg",
     "buyUrl": "https://www.lg.com/tw/water-purifier/all-water-purifier/wu525bs/",
-    "buyLabel": "LG 台灣官方",
+    "buyLabel": "LG 台灣官網（現價／供貨待確認）",
     "specs": [
       "無水箱廚下型；瞬冰、瞬熱與常溫水",
       "40／75／85°C 熱水；120／250／500 mL 定量",
@@ -4718,6 +4717,210 @@
     "status": "included_basic",
     "note": "康泉exact頁明示免費到府專業安裝；需自來水、排水、廚下110V插座及UVC龍頭鑽孔，偏遠地區/特殊檯面/水壓調整、舊機拆卸與額外材料費依場勘報價，不推免全部施工。"
   }
+},
+{
+  "id": "waterdispenser-sakura-p0265",
+  "category": "waterdispenser",
+  "brand": "SAKURA",
+  "model": "P0265",
+  "name": "雙效雙出水廚下 RO 淨水器 600G",
+  "rank": 47,
+  "topPick": false,
+  "budget": "mid",
+  "channel": "tw",
+  "price": {
+    "currency": "TWD",
+    "amount": 18810,
+    "converted": 18810,
+    "basis": "retailer_current",
+    "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+    "note": "PChome 原商品頁與 SKU API 公開網路價 NT$18,810，含基本安裝。配送及特殊施工依原頁。"
+  },
+  "installation": {
+    "status": "included_basic",
+    "note": "PChome 此 SKU 含基本安裝。購前確認廚下接地電源、冷水及排水點、龍頭鑽孔及濾芯更換空間。偏遠配送、額外鑽孔或管線依通路報價。"
+  },
+  "image": "https://img.pchome.com.tw/cs/items/DMCI0OA900KIEKX/000001_1790734157.jpg",
+  "buyUrl": "https://24h.pchome.com.tw/prod/DMCI0O-A900KIEKX",
+  "buyLabel": "PChome 24h購物（含基本安裝）",
+  "specs": [
+    "類型：廚下無桶直出 RO、純水與過濾水分流、電子顯屏龍頭",
+    "流量：日造水量 600G，純水 1.5 L/min、過濾水 2.0 L/min（官方規格）",
+    "濾材：F0162 雙效複合式濾心（6–12 個月）、F0186 RO 膜（24–30 個月），依用水及水質調整",
+    "主機尺寸：寬 13 x 深 44.2 x 高 39.5 cm",
+    "安裝條件：進水 5–38°C、1–3.5 kg/cm²，須設廢水排水管，冰箱等設備串接另需穩壓器",
+    "電力：110V／60Hz 轉 24V DC，75W"
+  ],
+  "description": "台灣櫻花 600G 廚下 RO，純水和洗滌用過濾水分流，主機採無儲水桶設計。",
+  "pros": [
+    "可在同一龍頭選擇 RO 純水或過濾水。",
+    "13 cm 寬主機便於安排櫥下空間，含電子顯屏龍頭。"
+  ],
+  "cons": [
+    "須預留排水與換芯空間，主機深度為 44.2 cm。",
+    "專用濾材要定期更換，另外串接熱飲機需確認相容性。"
+  ],
+  "bestFor": "想保留純水飲用與過濾水洗滌分流，並需要最高標示 1.5 L/min 純水流量的家庭。",
+  "recommendation": "與 P0261 的同為 600G 機種相比，多一個過濾水出水模式。先量廚下深度並估算兩道濾芯費用。",
+  "releaseDate": "找不到",
+  "historicalLow": {
+    "status": "found",
+    "amount": 16553,
+    "currency": "TWD",
+    "converted": 16553,
+    "sourceUrl": "https://price.shhwa.cc/product/pchome/DMCI0O-A900KIEKX",
+    "sourceTitle": "Lowcast 比價趨勢：PChome P0265 600G 含基本安裝",
+    "evidenceSnippet": "Lowcast 的 PChome DMCI0O-A900KIEKX 同型新品價格紀錄顯示 2026-11-10 為 NT$16,553，原商品連結與本次所查 SKU 一致。",
+    "sourceKind": "price_history",
+    "confidence": "medium",
+    "checkedAt": "2026-11-13",
+    "note": "為可核對的同型號含基本安裝新品價點。momo 11/6–11/9 顯示 NT$15,424，但原頁在該期快照顯示售完補貨中，當時可購性未能證實。個人折價券、點數及信用卡回饋未列入。"
+  },
+  "issueResearch": {
+    "status": "no_common_issue",
+    "checkedAt": "2026-11-13",
+    "summary": "截至查核日，查無達門檻的集中負評／災情",
+    "issues": [],
+    "checkedSources": [
+      {
+        "platform": "Mobile01",
+        "targetHost": "mobile01.com",
+        "query": "site:mobile01.com/topicdetail.php \"P0265\" \"櫻花\"",
+        "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%2Ftopicdetail.php%20%22P0265%22%20%22%E6%AB%BB%E8%8A%B1%22"
+      },
+      {
+        "platform": "PTT",
+        "targetHost": "ptt.cc",
+        "query": "site:ptt.cc/bbs/ \"P0265\" \"櫻花\"",
+        "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%2Fbbs%2F%20%22P0265%22%20%22%E6%AB%BB%E8%8A%B1%22"
+      },
+      {
+        "platform": "Dcard",
+        "targetHost": "dcard.tw",
+        "query": "site:dcard.tw/f/ \"P0265\" \"櫻花\"",
+        "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%2Ff%2F%20%22P0265%22%20%22%E6%AB%BB%E8%8A%B1%22"
+      },
+      {
+        "platform": "Reddit",
+        "targetHost": "reddit.com",
+        "query": "site:reddit.com \"P0265\" \"櫻花\"",
+        "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22P0265%22%20%22%E6%AB%BB%E8%8A%B1%22"
+      }
+    ]
+  },
+  "score": 85,
+  "voltage": "110V／60Hz（原廠變壓器輸出 24V DC，額定 75W）",
+  "warranty": "台灣通路同型號標示主機一年，耗材例外，實際依所購通路與原廠保證書。",
+  "tags": [
+    "SAKURA",
+    "廚下型",
+    "RO",
+    "雙出水",
+    "600G",
+    "台灣保固"
+  ]
+},
+{
+  "id": "waterdispenser-sakura-p0266",
+  "category": "waterdispenser",
+  "brand": "SAKURA",
+  "model": "P0266",
+  "name": "雙效雙出水廚下 RO 淨水器 800G",
+  "rank": 48,
+  "topPick": false,
+  "budget": "mid",
+  "channel": "tw",
+  "price": {
+    "currency": "TWD",
+    "amount": 21510,
+    "converted": 21510,
+    "basis": "retailer_current",
+    "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+    "note": "PChome 原商品頁與 SKU API 公開網路價 NT$21,510，含基本安裝。配送及特殊施工依原頁。"
+  },
+  "installation": {
+    "status": "included_basic",
+    "note": "PChome 此 SKU 含基本安裝。購前確認廚下接地電源、冷水及排水點、龍頭鑽孔及濾芯更換空間。偏遠配送、額外鑽孔或管線依通路報價。"
+  },
+  "image": "https://img.pchome.com.tw/cs/items/DMCI0OA900KIEP3/000001_1790734798.jpg",
+  "buyUrl": "https://24h.pchome.com.tw/prod/DMCI0O-A900KIEP3",
+  "buyLabel": "PChome 24h購物（含基本安裝）",
+  "specs": [
+    "類型：廚下無桶直出 RO、純水與過濾水分流、電子顯屏龍頭",
+    "流量：日造水量 800G，純水 2.0 L/min、過濾水 2.0 L/min（官方規格）",
+    "濾材：F0162 雙效複合式濾心（6–12 個月）、F0187 RO 膜（24–30 個月），依用水及水質調整",
+    "主機尺寸：寬 13 x 深 44.2 x 高 39.5 cm",
+    "安裝條件：進水 5–38°C、1–3.5 kg/cm²，須設廢水排水管，冰箱等設備串接另需穩壓器",
+    "電力：110V／60Hz 轉 24V DC，85W"
+  ],
+  "description": "台灣櫻花 800G 廚下 RO，純水和洗滌用過濾水分流，主機採無儲水桶設計。",
+  "pros": [
+    "可在同一龍頭選擇 RO 純水或過濾水。",
+    "13 cm 寬主機便於安排櫥下空間，含電子顯屏龍頭。"
+  ],
+  "cons": [
+    "須預留排水與換芯空間，主機深度為 44.2 cm。",
+    "專用濾材要定期更換，另外串接熱飲機需確認相容性。"
+  ],
+  "bestFor": "想保留純水飲用與過濾水洗滌分流，並需要最高標示 2.0 L/min 純水流量的家庭。",
+  "recommendation": "相較 P0265，RO 膜與標示純水流量都不同。需要較快裝水時可比較價差及 F0187 耗材。",
+  "releaseDate": "找不到",
+  "historicalLow": {
+    "status": "found",
+    "amount": 19359,
+    "currency": "TWD",
+    "converted": 19359,
+    "sourceUrl": "https://price.shhwa.cc/product/pchome/DMCI0O-A900KIEP3",
+    "sourceTitle": "Lowcast 比價趨勢：PChome P0266 800G 含基本安裝",
+    "evidenceSnippet": "Lowcast 的 PChome DMCI0O-A900KIEP3 同型新品價格紀錄顯示 2026-10-03 為 NT$19,359，原商品連結與本次所查 SKU 一致。",
+    "sourceKind": "price_history",
+    "confidence": "medium",
+    "checkedAt": "2026-11-13",
+    "note": "為可核對的同型號含基本安裝新品價點。Yahoo 列表 NT$18,929 帶挑戰低價券，未取得可對應單一原商品及適用時段的無券歷史價。個人折價券、點數及信用卡回饋未列入。"
+  },
+  "issueResearch": {
+    "status": "no_common_issue",
+    "checkedAt": "2026-11-13",
+    "summary": "截至查核日，查無達門檻的集中負評／災情",
+    "issues": [],
+    "checkedSources": [
+      {
+        "platform": "Mobile01",
+        "targetHost": "mobile01.com",
+        "query": "site:mobile01.com/topicdetail.php \"P0266\" \"櫻花\"",
+        "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%2Ftopicdetail.php%20%22P0266%22%20%22%E6%AB%BB%E8%8A%B1%22"
+      },
+      {
+        "platform": "PTT",
+        "targetHost": "ptt.cc",
+        "query": "site:ptt.cc/bbs/ \"P0266\" \"櫻花\"",
+        "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%2Fbbs%2F%20%22P0266%22%20%22%E6%AB%BB%E8%8A%B1%22"
+      },
+      {
+        "platform": "Dcard",
+        "targetHost": "dcard.tw",
+        "query": "site:dcard.tw/f/ \"P0266\" \"櫻花\"",
+        "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%2Ff%2F%20%22P0266%22%20%22%E6%AB%BB%E8%8A%B1%22"
+      },
+      {
+        "platform": "Reddit",
+        "targetHost": "reddit.com",
+        "query": "site:reddit.com \"P0266\" \"櫻花\"",
+        "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22P0266%22%20%22%E6%AB%BB%E8%8A%B1%22"
+      }
+    ]
+  },
+  "score": 85,
+  "voltage": "110V／60Hz（原廠變壓器輸出 24V DC，額定 85W）",
+  "warranty": "台灣通路同型號標示主機一年，耗材例外，實際依所購通路與原廠保證書。",
+  "tags": [
+    "SAKURA",
+    "廚下型",
+    "RO",
+    "雙出水",
+    "800G",
+    "台灣保固"
+  ]
 }
 ]);
 })();

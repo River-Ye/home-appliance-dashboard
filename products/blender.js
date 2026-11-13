@@ -209,15 +209,15 @@
     "name": "免清洗多功能破壁調理機",
     "price": {
       "currency": "TWD",
-      "amount": 9592,
-      "converted": 9592,
-      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 9440,
+      "converted": 9440,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "2026-11-04 下午重新查核：PChome exact SKU DMAY4Y-A900HB8CN；Price.Low=9592元，Qty=4。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。"
+      "note": "PChome 新商品編號 DMAY51-A900JD9LY 原頁明示「1200mL 大容量 破壁調理機 DJ12M-K8S 免清洗」，折扣價 9440元，可加入購物車，API 庫存 20。金額未扣會員券、點數或信用卡回饋。 PChome 新商品編號 DMAY51-A900JD9LY 原頁明示「1200mL 大容量 破壁調理機 DJ12M-K8S 免清洗」，折扣價 9440元，可加入購物車，API 庫存 20。金額未扣會員券、點數或信用卡回饋。公開折扣 NT$9,440，網路價 NT$11,800，主商品 directPromotions 截至 2026-11-30 23:59:59（台灣）。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY4YA900HB8CN/000001_1780309793.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMAY4Y-A900HB8CN",
-    "buyLabel": "PChome",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAY51-A900JD9LY",
+    "buyLabel": "PChome 24h 購物",
     "specs": [
       "冷熱調理",
       "豆漿/濃湯",
@@ -246,16 +246,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 9592,
+      "amount": 9440,
       "currency": "TWD",
-      "converted": 9592,
-      "sourceUrl": "https://24h.pchome.com.tw/prod/DMAY4Y-A900HB8CN",
-      "sourceTitle": "PChome 24h 購物：【Joyoung九陽】免清洗多功能破壁調理機 DJ12M-K8S",
-      "evidenceSnippet": "PChome 24h 購物於 2026-11-04 顯示同型號可信新品公開價 NT$9,592，低於既有史低 NT$10,115。",
+      "converted": 9440,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMAY51-A900JD9LY",
+      "sourceTitle": "Joyoung DJ12M-K8S 同型新品通路價",
+      "evidenceSnippet": "2026-11-13 PChome 新商品編號 DMAY51-A900JD9LY 原頁明示「1200mL 大容量 破壁調理機 DJ12M-K8S 免清洗」，折扣價 9440元，可加入購物車，API 庫存 20。金額未扣會員券、點數或信用卡回饋。 PChome 新商品編號 DMAY51-A900JD9LY 原頁明示「1200mL 大容量 破壁調理機 DJ12M-K8S 免清洗」，折扣價 9440元，可加入購物車，API 庫存 20。金額未扣會員券、點數或信用卡回饋。公開折扣 NT$9,440，網路價 NT$11,800，主商品 directPromotions 截至 2026-11-30 23:59:59（台灣）。 此價低於已查得的同型號史低。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-11-04",
-      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
+      "checkedAt": "2026-11-13",
+      "note": "採同型號可信新品公開價格，扣除額外回饋前。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -404,8 +404,8 @@
     "price": {
       "currency": "USD",
       "amount": 99.98,
-      "converted": 3287,
-      "confidence": "2026-08-31 人工核對 SharkNinja 官方 BN701 公開可購主價 USD 99.98；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-11-12 匯率換算",
+      "converted": 3297,
+      "confidence": "2026-08-31 人工核對 SharkNinja 官方 BN701 公開可購主價 USD 99.98；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-11-13 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-04 午後人工覆核：原BN701官方購買網址本輪原生仍轉址IQ701SL TotalCrush 2-in-1，標題與主商品Model明示IQ701SL，USD129.99/原169.99屬IQ701SL而非BN701。保留BN701舊99.98美元參考、現售待確認；不由轉址推定原廠停產。海外未含國際運費、進口稅、電壓/插頭與台灣保固風險。"
     },
@@ -2355,18 +2355,18 @@
     "name": "冷熱兩用降噪破壁調理機",
     "price": {
       "currency": "TWD",
-      "amount": 4667,
-      "converted": 4667,
-      "confidence": "PChome 24h 2026-08-14 exact-model 新品頁公開售價",
+      "amount": 4270,
+      "converted": 4270,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
+      "note": "myfone 原頁型號 MX-HG4401、網路限定價 NT$4,270，主購買按鈕可用，原頁狀態為 10 件、原標 NT$5,990。原 PChome 賣場售完；未扣信用卡、會員券或點數。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAYEUA900K4DML/000001_1781585781.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMAYEU-A900K4DML",
-    "buyLabel": "PChome（原商品已售完，查看供貨）",
+    "buyUrl": "https://www.myfone.com.tw/mfo/buy/prod/P0000203791886",
+    "buyLabel": "myfone 網路門市",
     "installation": {
       "status": "not_stated",
-      "note": "PChome 商品頁未列安裝服務；本品為檯面式調理機，需自行組裝杯體並依說明書確認耐熱容量與清潔方式。"
+      "note": "myfone 商品頁未列安裝服務；本品為檯面式調理機，需自行組裝杯體並依說明書確認耐熱容量與清潔方式。"
     },
     "specs": [
       "冷熱兩用、六葉不鏽鋼刀、最高約 21,000 rpm",
@@ -2379,7 +2379,7 @@
     "pros": [
       "冷飲、熱湯與豆漿等行程整合",
       "容量、尺寸、重量與功率資料完整",
-      "台灣 110V／60Hz 公司貨且 PChome 現售"
+      "台灣 110V／60Hz 公司貨且 myfone 現售"
     ],
     "cons": [
       "玻璃杯與整機 5kg，搬洗較費力",

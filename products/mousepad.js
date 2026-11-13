@@ -2245,16 +2245,16 @@
       "amount": 1099,
       "converted": 1099,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 Chrome原頁核對所選版本新品公開售價；不扣會員、信用卡、點數或加購優惠。",
-      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "PChome 新商品編號 DHAG9F-A900HACFH 原頁明示「205 Sanitizable Desk Mat 桌墊 滑鼠墊 (8X597AA/防潑水可消毒/四邊防磨損縫線/環保材質)」，網路價 1099元，可加入購物車，API 庫存 1。金額未扣會員券、點數或信用卡回饋。"
     },
     "installation": {
       "status": "not_stated",
       "note": "成品滑鼠墊，無到府安裝；需確認桌面空間、滑鼠感測器及鼠腳相容性。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DCBANWA900HACFX/000001_1709718759.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DCBANW-A900HACFX",
-    "buyLabel": "PChome（原商品已售完，查看供貨）",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DHAG9F-A900HACFH",
+    "buyLabel": "PChome 24h 購物",
     "specs": [
       "類型：布面長桌墊；HP 205 8X597AA，灰面黑底",
       "表面材質：rPET聚酯纖維",

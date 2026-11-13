@@ -19,9 +19,9 @@
       "currency": "TWD",
       "amount": 17460,
       "converted": 17460,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品公開價 NT$17460，公開折扣截至 2027-01-02T09:59:59+08:00；原商品主區有購買按鈕。"
+      "note": "Yahoo 原 SKU 主商品公開價 NT$17,460，主購買按鈕可用。公開活動截至 2027-01-02T09:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900IAG1Z/000001_1754276294.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Yale%E8%80%B6%E9%AD%AF-YMF-40A-%E5%9B%9B%E5%90%88%E4%B8%80%E9%9B%BB%E5%AD%90%E9%8E%96-%E9%99%84%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-11480544.html",
@@ -117,9 +117,9 @@
       "currency": "TWD",
       "amount": 16490,
       "converted": 16490,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品公開價 NT$16490，公開折扣截至 2027-01-02T09:59:59+08:00；原商品主區有購買按鈕。"
+      "note": "Yahoo 原 SKU 主商品公開價 NT$16,490，主購買按鈕可用。公開活動截至 2027-01-02T09:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900I5HGS/000001_1733814561.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Yale%E8%80%B6%E9%AD%AF-YMF-30A-%E5%9B%9B%E5%90%88%E4%B8%80%E9%9B%BB%E5%AD%90%E9%8E%96-%E9%99%84%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-11480538.html",
@@ -407,9 +407,9 @@
       "currency": "TWD",
       "amount": 18430,
       "converted": 18430,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品公開價 NT$18430，公開折扣截至 2027-01-02T09:59:59+08:00；原商品主區有購買按鈕。"
+      "note": "Yahoo 原 SKU 主商品公開價 NT$18,430，主購買按鈕可用。公開活動截至 2027-01-02T09:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900I5H7X/000001_1733811821.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Yale%E8%80%B6%E9%AD%AF-YDM-7216A-%E4%BA%94%E5%90%88%E4%B8%80%E9%9B%BB%E5%AD%90%E9%8E%96-%E9%99%84%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-11480545.html",
@@ -505,9 +505,9 @@
       "currency": "TWD",
       "amount": 7760,
       "converted": 7760,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品公開價 NT$7760，公開折扣截至 2027-01-02T09:59:59+08:00；原商品主區有購買按鈕。"
+      "note": "Yahoo 原 SKU 主商品公開價 NT$7,760，主購買按鈕可用。公開活動截至 2027-01-02T09:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900IAG3B/000001_1754286009.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Yale%E8%80%B6%E9%AD%AF-YDR-343A-%E9%9B%BB%E5%AD%90%E8%BC%94%E5%8A%A9%E9%8E%96-%E9%99%84%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-11480546.html",
@@ -2020,9 +2020,9 @@
     "price": {
       "currency": "HKD",
       "amount": 9638,
-      "converted": 40395,
+      "converted": 40513,
       "basis": "retailer_current",
-      "confidence": "EasyLock 香港 2026-08-28 exact-model 公開促銷價；ExchangeRate-API 2026-11-12 匯率換算",
+      "confidence": "EasyLock 香港 2026-08-28 exact-model 公開促銷價；ExchangeRate-API 2026-11-13 匯率換算",
       "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。"
     },
     "installation": {
@@ -2985,33 +2985,32 @@
       "currency": "TWD",
       "amount": 16255,
       "converted": 16255,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
-      "note": "PChome 原 SKU DQAT0I-A900GXIHM 的 Name 與 Nick 和前次人工獨立確認紀錄逐字一致，本次重查 Qty 20、公開價 NT$16255。原選定規格不變。",
-      "basis": "retailer_current"
+      "confidence": "FB70X 舊通路參考價，現售未確認。",
+      "note": "PChome 原商品頁現為 FB70K，API 尚列 FB70X。連結改至琺博官方同型號資料，舊 FB70X 金額為先前參考價，未確認現行供貨。"
     },
-    "image": "https://cs-a.ecimg.tw/items/DQAT0IA900GXIHM/000001_1764834253.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DQAT0I-A900GXIHM",
-    "buyLabel": "PChome（頁面已改FB70K，FB70X供貨待確認）",
+    "image": "https://firenews.com.tw/wp-content/uploads/2023/07/%E9%8A%80%E9%9B%A2%E5%AD%90%E6%8A%97%E8%8F%8CFB70X-1.jpg",
+    "buyUrl": "https://www.fibrekey.com/tw/BlogDetail/7/FIBREF-B70X",
+    "buyLabel": "琺博官方 FB70X 資料（供貨待確認）",
     "specs": [
       "APP/指紋/感應卡",
       "密碼/鑰匙",
       "抗菌塗層",
-      "含基本安裝"
+      "安裝：門厚、門向及施工費向台灣琺博確認"
     ],
     "description": "電子鎖購買前要先確認門厚、門向、鎖體、天地栓與安裝條件；本清單僅列可信通路正常新品。",
     "pros": [
       "FIBRE 通路能見度高",
-      "原FIBRE樸實系列比較資料；目前通路頁型號已變，購買前需確認exact model"
+      "原廠提供 FB70X 功能與安裝資料。"
     ],
     "cons": [
       "安裝前需確認門型與加價項目",
-      "實際保固與基本安裝範圍以購買頁為準"
+      "台灣實際供貨、保固及安裝費向琺博確認。"
     ],
     "bestFor": "想要台灣通路、抗菌塗層與 APP 功能的家庭。",
     "recommendation": "FIBRE 均衡款：功能完整且重視抗菌塗層，價格略高於純入門款。",
     "score": 85,
     "voltage": "多為電池供電；需確認門厚、門向、鎖體與是否有天地栓",
-    "warranty": "依 PChome 商品頁、原廠或台灣代理保固與安裝條款",
+    "warranty": "本型號保固與到府安裝範圍請洽台灣琺博。",
     "tags": [
       "FIBRE",
       "APP",
@@ -4945,7 +4944,7 @@
       "status": "included_basic",
       "note": "總代理原頁標示免費到府安裝；下單前由官方LINE確認門厚、門向、鎖體、天地栓、門框及現場施工條件，特殊加工與追加施工費用先確認。"
     },
-    "image": "https://cdn.shopify.com/s/files/1/0649/8235/2081/files/720FVP-GIFT2.jpg?v=1791787754",
+    "image": "https://www.ljtwm.com/wp-content/uploads/2025/12/DDL720-FVP_1-768x768.jpg.webp",
     "buyUrl": "https://shop.ljtwm.com/products/philips-ddl720-fvp",
     "buyLabel": "飛利浦台灣總代理立傑商城",
     "specs": [
@@ -5044,7 +5043,7 @@
       "status": "included_basic",
       "note": "總代理原頁標示免費到府安裝；下單前由官方LINE確認門厚、門向、鎖體、天地栓、門框及現場施工條件，特殊加工與追加施工費用先確認。"
     },
-    "image": "https://cdn.shopify.com/s/files/1/0649/8235/2081/files/720MVP-GIFT2.jpg?v=1791788235",
+    "image": "https://www.ljtwm.com/wp-content/uploads/2025/12/DDL720-MVP-17HWS_KB_PUP-768x768.jpg",
     "buyUrl": "https://shop.ljtwm.com/products/philips-ddl720-mvp",
     "buyLabel": "飛利浦台灣總代理立傑商城（來源待確認）",
     "specs": [
@@ -5137,8 +5136,8 @@
       "amount": 31500,
       "converted": 31500,
       "basis": "retailer_current",
-      "confidence": "2026-11-04 人工核對立傑台灣總代理商城選定曜石黑variant 43280997449937公開預購價31500元及可下單狀態；手冊與總代理技術頁確認完整型號DDL902-MFVP-11HWS。",
-      "note": "預購商品：官方標示11月按下單順序陸續出貨，並非現貨；交期與安裝日須向代理確認。31500元是公開整機預購價，未扣會員／輸碼／信用卡或分期回饋；42000元為劃線原價，不作現價或史低。"
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "飛利浦台灣總代理原頁 variant 43280997449937 為曜石黑 DDL902-MFVP-11HWS，主區公開 NT$31,500、加入購物車可用，頁面明示預購商品，交期和安裝日請向代理確認。"
     },
     "installation": {
       "status": "included_basic",
@@ -5146,7 +5145,7 @@
     },
     "image": "https://shop.ljtwm.com/cdn/shop/files/DDL902-2.jpg?v=1788414392",
     "buyUrl": "https://shop.ljtwm.com/products/philips-ddl902-mfvp?variant=43280997449937",
-    "buyLabel": "飛利浦台灣總代理（預購／11月依序出貨）",
+    "buyLabel": "飛利浦台灣總代理（預購）",
     "specs": [
       "類型：全自動推拉式電子鎖；台灣總代理完整型號DDL902-MFVP-11HWS，曜石黑",
       "解鎖：掌靜脈、3D人臉、指紋、密碼、卡片、機械鑰匙與App遠端功能；雙重驗證與虛位密碼",

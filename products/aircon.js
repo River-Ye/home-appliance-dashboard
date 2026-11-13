@@ -1536,11 +1536,12 @@
     "name": "SANLUX SAE-V28HJ3 / SAC-V28HJ3 一對一分離式變頻冷暖",
     "price": {
       "currency": "TWD",
-      "amount": 18300,
-      "converted": 18300,
-      "confidence": "玉明電器 exact-pair 完整室內外機新品公開價 2026-08-14 可公開重現現價；型號與室內外機完整組合已核對",
+      "amount": 19200,
+      "converted": 19200,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "scope": "complete_system"
+      "scope": "complete_system",
+      "note": "2026-11-13 玉明電器主區 完整 4 坪室內／室外套組公開價 NT$19,200，頁面可加入購物車；含 5 米內銅管與控制線及安全範圍舊機回收，鑽孔、吊架、遮雨棚、排水器與超長另計。"
     },
     "installation": {
       "status": "included_basic",
@@ -1660,11 +1661,12 @@
     "name": "SANLUX SAE-V63HJ3 / SAC-V63HJ3 一對一分離式變頻冷暖",
     "price": {
       "currency": "TWD",
-      "amount": 38800,
-      "converted": 38800,
-      "confidence": "玉明電器 exact-pair 完整室內外機新品公開價 2026-08-14 可公開重現現價；型號與室內外機完整組合已核對",
+      "amount": 39800,
+      "converted": 39800,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "scope": "complete_system"
+      "scope": "complete_system",
+      "note": "2026-11-13 玉明電器主區 完整 10 坪室內／室外套組公開價 NT$39,800，頁面可加入購物車；含 5 米內銅管與控制線及安全範圍舊機回收，鑽孔、吊架、遮雨棚、排水器與超長另計。"
     },
     "installation": {
       "status": "included_basic",
@@ -1784,11 +1786,12 @@
     "name": "SANLUX SAE-V72HJ3 / SAC-V72HJ3 一對一分離式變頻冷暖",
     "price": {
       "currency": "TWD",
-      "amount": 41800,
-      "converted": 41800,
-      "confidence": "玉明電器 exact-pair 完整室內外機新品公開價 2026-08-14 可公開重現現價；型號與室內外機完整組合已核對",
+      "amount": 42800,
+      "converted": 42800,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "scope": "complete_system"
+      "scope": "complete_system",
+      "note": "2026-11-13 玉明電器主區 完整 12 坪室內／室外套組公開價 NT$42,800，頁面可加入購物車；含 5 米內銅管與控制線及安全範圍舊機回收，鑽孔、吊架、遮雨棚、排水器與超長另計。"
     },
     "installation": {
       "status": "included_basic",

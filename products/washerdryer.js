@@ -227,9 +227,9 @@
       "currency": "TWD",
       "amount": 17388,
       "converted": 17388,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品公開價 NT$17388，公開折扣截至 2026-12-31T23:59:59+08:00；原商品主區有購買按鈕。"
+      "note": "Yahoo 原 SKU 主商品公開價 NT$17,388，主購買按鈕可用。公開活動截至 2026-12-31T23:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -439,9 +439,9 @@
       "currency": "TWD",
       "amount": 17577,
       "converted": 17577,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品公開價 NT$17577，公開折扣截至 2026-12-31T23:59:59+08:00；原商品主區有購買按鈕。"
+      "note": "Yahoo 原 SKU 主商品公開價 NT$17,577，主購買按鈕可用。公開活動截至 2026-12-31T23:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -543,11 +543,11 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/50A8962C97-SP-12443254.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 40320,
-      "converted": 40320,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "amount": 42336,
+      "converted": 42336,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品公開價 NT$40320，公開折扣截至 2026-11-12T23:59:59+08:00；原商品主區有購買按鈕。"
+      "note": "Yahoo 原 SKU 促銷到期後重查，主商品公開價 NT$42,336，主購買按鈕可用。現行公開活動截至 2026-12-31T23:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -967,15 +967,15 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/953C366DCA-SP-17994282.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 49111,
-      "converted": 49111,
-      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-04 原生Chrome主商品：現省NT$6789、NT$55900劃線、NT$49111；連結「立即購買」可用。 不另扣會員券、信用卡、點數或推算優惠；送貨及基本安裝條件依原頁。",
+      "amount": 46111,
+      "converted": 46111,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "2026-11-13 PChome DPAI1L-A900HWROD 主商品為同型號夜墨灰 NT$46,111，可加入購物車及立即購買，API Qty 2。六都指定區域快速安裝，實際配送與安裝以地址及通路說明為準。原 LG 官網讀取 403，未採僅結構化報價。",
       "basis": "retailer_current"
     },
     "channel": "tw",
-    "buyLabel": "LG 官方商城",
-    "buyUrl": "https://www.lg.com/tw/washer-dryers/front-loading-washing-machines/wd-s18ndb/",
+    "buyLabel": "PChome 24h購物（原廠指定通路）",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900HWROD",
     "specs": [
       "洗烘衣機：LG樂金 18公斤 蒸洗脫烘 AI DD蒸氣滾筒洗衣機 夜墨灰 WD-S18NDB",
       "洗/乾容量：18kg / 10kg",
@@ -984,7 +984,7 @@
       "蒸氣/除菌：有標示",
       "自動投入：依商品頁標示",
       "乾衣容量通常低於洗衣容量；需確認散熱、排水與門向",
-      "Yahoo購物 可信通路低價；排除福利品、展示機、底座與配件頁"
+      "PChome 台灣同型新品；排除福利品、展示機、底座與配件頁"
     ],
     "description": "聚焦洗衣與烘乾整合機，依洗/乾容量、熱泵或冷凝方式、洗程時間、空間節省、價格與售後排序。",
     "pros": [
@@ -1606,9 +1606,9 @@
       "currency": "TWD",
       "amount": 18846,
       "converted": 18846,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品公開價 NT$18846，公開折扣截至 2026-12-31T23:59:59+08:00；原商品主區有購買按鈕。"
+      "note": "Yahoo 原 SKU 主商品公開價 NT$18,846，主購買按鈕可用。公開活動截至 2026-12-31T23:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -2960,18 +2960,18 @@
     "name": "17公斤 Heat Pump 智慧聯網洗脫烘（夜幕黑）",
     "price": {
       "currency": "TWD",
-      "amount": 55990,
-      "converted": 55990,
-      "confidence": "2026-08-31 人工核對 myfone 商品P0000203670244，Panasonic NA-V170RPH-K 夜幕黑網路限定價 NT$55,990，含基本定位安裝；額外施工與搬運依通路規則。未採白色款或定價。",
+      "amount": 58432,
+      "converted": 58432,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
       "basis": "retailer_current",
-      "note": "2026-11-01 myfone所選NA-V170RPH-K商品55990元但主商品schema OutOfStock，不能由推薦區或泛用加車模板推現貨；保留55990元參考價。"
+      "note": "myfone 夜幕黑原 SKU 目前無庫存；PChome 原頁與 API 同為 NA-V170RPH-K 夜幕黑，Qty 3，公開折扣價 NT$58,432，加入購物車可用。標準安裝與合格舊機回收，約 3–7 個工作日內聯絡。任選一件享 88 折活動 PR26111200144926 截至 2026-11-13 09:00:59 台灣時間。"
     },
     "image": "https://www.myfone.com.tw/website_twmf/uploads_product/website_2041/036/699/ECP0204103669957_1_20458150.jpg",
-    "buyUrl": "https://www.myfone.com.tw/mfo/buy/prod/P0000203670244",
-    "buyLabel": "myfone（缺貨，現價待確認）",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPAIER-A900KLOGO",
+    "buyLabel": "PChome 24h 購物",
     "installation": {
       "status": "included_basic",
-      "note": "myfone exact-model 頁明載含配送、基本安裝與舊機回收；僅限台灣本島，偏遠地區、無電梯樓層與超出原廠附件的拉線／換插座等施工另計，並建議搬運通道至少比機身寬 10–15cm。"
+      "note": "PChome 原頁明示標準安裝與符合廢四機範圍的舊機回收。約 3–7 個工作日內聯絡配送，偏遠及外島不送，特殊搬運與追加施工先確認。"
     },
     "specs": [
       "洗/乾容量：17kg / 10kg",
@@ -2987,7 +2987,7 @@
     "pros": [
       "17kg 洗衣、10kg 熱泵乾衣，適合大家庭日常洗乾整合",
       "低溫熱泵、nanoe X、溫水洗與雙效自動槽洗淨功能完整",
-      "官方本體尺寸與開門深度明確，myfone 含基本安裝和舊機回收"
+      "官方本體尺寸與開門深度明確，PChome 含標準安裝與舊機回收"
     ],
     "cons": [
       "乾衣 10kg 小於洗衣 17kg，滿載洗衣時通常需分批乾燥",
@@ -3255,11 +3255,11 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 67860,
-      "converted": 67860,
+      "amount": 64201,
+      "converted": 64201,
       "basis": "retailer_current",
-      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
-      "note": "2026-11-05 人工覆核：原生Chrome myfone P0000203745173左開NA-LX128EL主區網路限定67860、定價73900、數量1、放入購物車啟用；含基本安裝舊機回收。原廠登錄3000不扣，未重現昨日64201或自行推算結帳價。 不扣個人化折價券、點數、信用卡回饋或贈品價值。"
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "2026-11-13 myfone 原頁左開 NA-LX128EL 公開網路價 NT$64,201，Chrome 主商品有放入購物車，含基本安裝與舊機回收。原廠登錄回饋另計；旺季安裝約 14–21 個工作天以上，偏遠及超出標準施工另計。"
     },
     "installation": {
       "status": "included_basic",
@@ -3369,8 +3369,8 @@
       "amount": 34900,
       "converted": 34900,
       "basis": "retailer_current",
-      "confidence": "PChome 24h 2026-10-20 exact-model API Price.P=34900、Low=null；Qty=10，頁面同價",
-      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "note": "PChome 原頁 DMBH1R-A900IQMPQ 主標同型 EWW1143R7WC，加入購物車及立即購買按鈕啟用，API Qty 20、公開網路價 NT$34,900，廠商出貨；依原頁與現場確認安裝。"
     },
     "installation": {
       "status": "not_stated",
@@ -3378,7 +3378,7 @@
     },
     "image": "https://img.pchome.com.tw/cs/items/DMBH1RA900IQMPQ/000001_1746415086.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBH1R-A900IQMPQ",
-    "buyLabel": "PChome 24h購物（原通路缺貨，查看供貨）",
+    "buyLabel": "PChome 24h購物（廠商出貨）",
     "specs": [
       "類型：獨立式滾筒洗脫烘；左開門",
       "洗/乾容量：11kg / 7kg",
@@ -3638,6 +3638,109 @@
           "query": "\"NA-V1715SP\" site:ptt.cc",
           "queryUrl": "https://www.google.com/search?q=%22NA-V1715SP%22%20site%3Aptt.cc",
           "targetHost": "ptt.cc"
+        }
+      ]
+    }
+  },
+  {
+    "id": "washerdryer-toshiba-twd-t33b135uwta-ws",
+    "category": "washerdryer",
+    "brand": "Toshiba",
+    "model": "TWD-T33B135UWTA(WS)",
+    "name": "12.5／8公斤沖浪洗淨2.0變頻滾筒洗脫烘（極地白）",
+    "rank": 36,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "price": {
+      "currency": "TWD",
+      "amount": 20900,
+      "converted": 20900,
+      "confidence": "2026-11-13 人工核對 PChome exact-model 主頁可加入購物車，商品 API Qty 7，公開價與頁面相符。",
+      "basis": "retailer_current",
+      "note": "PChome 原廠直營品項公開價 NT$20,900，含基本安裝。PChome 另一同型號品項查核時為 NT$19,011，列基本運送、定位及舊機回收，跨區／偏遠另計，安裝範圍依所選賣場。"
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "主購買頁含基本安裝、拆箱定位及舊機回收。拆門窗、額外配線、變更電壓、特殊搬運及其他超出基本安裝範圍的服務依現場報價，偏遠地區與外島配送受限。"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DPAI1GA900KDERC/000001_1788258107.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1G-A900KDERC",
+    "buyLabel": "PChome 24h購物（原廠直營／含基本安裝）",
+    "specs": [
+      "類型：變頻滾筒洗脫烘，密閉內循環冷凝烘乾",
+      "洗/乾容量：12.5kg / 8kg",
+      "洗衣：沖浪洗淨 2.0、ColorAlive 冷水護衣、蒸氣洗淨、BLDC 變頻馬達",
+      "控制：TSmartLife Wi-Fi 遠端操控及完成提醒",
+      "尺寸：寬 59.5 x 深 62 x 高 85 cm",
+      "重量：72 kg",
+      "電力：台灣 110V／60Hz，最大 10A，額定洗滌與烘乾各 900W",
+      "水壓：0.05–1 MPa，原廠手冊另列參考深度 66 cm、開門參考深度 113 cm"
+    ],
+    "description": "12.5 公斤洗脫與 8 公斤冷凝烘乾整合在同一台機器，另有蒸氣洗淨與 App 通知。適合希望以一台設備完成日常洗烘的家庭。",
+    "pros": [
+      "12.5／8 kg 一機處理，支援蒸氣洗與遠端通知",
+      "台灣 110V／60Hz，官方手冊列明機身及開門參考尺寸"
+    ],
+    "cons": [
+      "烘衣容量低於洗衣容量，滿桶洗完需減量才能接續烘衣",
+      "冷凝烘乾，烘衣需求高時應一併比較熱泵機種和實際可用空間"
+    ],
+    "bestFor": "希望在約 60 cm 寬的機身空間內配置 110V 洗脫烘，平常以分批烘衣為主的家庭。",
+    "recommendation": "在相近價位的 TWD-BJ130M4G 旁提供 12.5／8 kg、沖浪洗淨 2.0 與 Wi-Fi 連網選擇，選購前核對開門、進排水與標準安裝範圍。",
+    "score": 86,
+    "voltage": "台灣 110V／60Hz，最大 10A，需依原廠手冊使用有接地電源。",
+    "warranty": "台灣原廠全機 1 年、主要機板與軸心 3 年、變頻馬達本體 10 年，依保固卡條件。",
+    "tags": [
+      "洗脫烘",
+      "冷凝烘乾",
+      "蒸氣洗淨",
+      "Wi-Fi",
+      "台灣通路"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-11-13",
+      "note": "以完整型號及 PChome 商品編號查 BigGo、LBJ 和 FindPrice。BigGo 同型號圖表 API 回 429，LBJ 精準原頁只回網站驗證，FindPrice 及 LBJ 可讀索引為比價或含折扣條件，沒有可重現的公開新品歷史低點。PChome 另一精確品項 NT$19,011 為本輪即時報價，未以現價推定歷史最低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-11-13",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"TWD-T33B135UWTA(WS)\" site:mobile01.com/topicdetail.php",
+          "queryUrl": "https://www.google.com/search?q=%22TWD-T33B135UWTA(WS)%22%20site%3Amobile01.com%2Ftopicdetail.php"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "\"TWD-T33B135UWTA(WS)\" site:ptt.cc/bbs/",
+          "queryUrl": "https://www.google.com/search?q=%22TWD-T33B135UWTA(WS)%22%20site%3Aptt.cc%2Fbbs%2F"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "\"TWD-T33B135UWTA(WS)\" site:dcard.tw/f/",
+          "queryUrl": "https://www.google.com/search?q=%22TWD-T33B135UWTA(WS)%22%20site%3Adcard.tw%2Ff%2F"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "\"TWD-T33B135UWTA(WS)\" site:reddit.com",
+          "queryUrl": "https://www.google.com/search?q=%22TWD-T33B135UWTA(WS)%22%20site%3Areddit.com"
         }
       ]
     }
