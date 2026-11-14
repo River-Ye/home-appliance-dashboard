@@ -1,9 +1,9 @@
 {
   "summary": {
-    "checkedAt": "2026-11-13T00:00:00+08:00",
-    "total": 1265,
+    "checkedAt": "2026-11-14T00:00:00+08:00",
+    "total": 1266,
     "commonIssueProducts": 55,
-    "noCommonIssueProducts": 1210,
+    "noCommonIssueProducts": 1211,
     "pendingManualReview": 0,
     "commonIssues": 56,
     "searchUnavailable": 614,
@@ -43,9 +43,10 @@
       "2026-11-04晚間僅對新增U3226Q、DDL902-MFVP-11HWS、CGR-E-ODYSSEY150完成逐型跨站人工覆核；Dell四個Reddit原頁逐一處置，另外兩款完整型號與系列別名查詢未見可確認原頁候選。既有1235款與392筆逐人回報保留原日期，不宣稱全站同日重新閱讀原始評價。",
       "2026-11-12 新收錄型號逐款核對所列平台的 exact-model 查詢及候選；其餘商品的原查核日期保留。",
       "2026-11-12 新收錄型號逐款核對所列平台的 exact-model 查詢及候選；其餘商品的原查核日期保留。",
-      "2026-11-13 新收錄型號逐款核對所列平台的 exact-model 查詢及候選；其餘商品的原查核日期保留。"
+      "2026-11-13 新收錄型號逐款核對所列平台的 exact-model 查詢及候選；其餘商品的原查核日期保留。",
+      "2026-11-14 新收錄型號逐款核對所列平台的 exact-model 查詢及候選；其餘商品的原查核日期保留。"
     ],
-    "researchedThisRun": 4
+    "researchedThisRun": 5
   },
   "results": [
     {
@@ -18199,123 +18200,6 @@
       "rejectedCandidates": []
     },
     {
-      "id": "dehumidifier-extra-13-dmbq07-a900gfbvp",
-      "category": "dehumidifier",
-      "brand": "LG",
-      "model": "WD261VKF0",
-      "name": "PuriCare 雙變頻除濕機 25.6 公升曜黑",
-      "identity": {
-        "canonicalModel": "WD261VKF0",
-        "lookupLabel": "LG WD261VKF0",
-        "aliases": [
-          "LG WD261VKF0"
-        ],
-        "evidenceUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-PuriCare-%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9F-25-6%E5%85%AC%E5%8D%87-%E6%9B%9C%E9%BB%91-WD261VKF0-11970685.html"
-      },
-      "workflowStatus": "completed",
-      "manualReview": {
-        "status": "completed",
-        "decision": "no_common_issue",
-        "reviewedAt": "2026-08-29",
-        "checkedPlatforms": [
-          "Reddit",
-          "Mobile01",
-          "PTT",
-          "Dcard",
-          "YouTube"
-        ],
-        "queries": [
-          {
-            "platform": "Reddit",
-            "query": "site:reddit.com \"LG WD261VKF0\" (problem OR issue OR defect OR failure)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20WD261VKF0%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-            "targetHost": "reddit.com"
-          },
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"LG WD261VKF0\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20WD261VKF0%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com"
-          },
-          {
-            "platform": "PTT",
-            "query": "site:ptt.cc \"LG WD261VKF0\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22LG%20WD261VKF0%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "ptt.cc"
-          },
-          {
-            "platform": "Dcard",
-            "query": "site:dcard.tw \"LG WD261VKF0\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22LG%20WD261VKF0%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "dcard.tw"
-          },
-          {
-            "platform": "YouTube",
-            "query": "\"LG WD261VKF0\" problem issue defect failure broken 災情 故障 異常",
-            "queryUrl": "https://www.youtube.com/results?search_query=%22LG%20WD261VKF0%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
-            "targetHost": "youtube.com"
-          }
-        ],
-        "candidateDisposition": "WD261VKF0：Yahoo Search 本輪 exact-model discovery 已完成；未發現可確認的 exact-model 原頁候選，未達同一問題至少 6 人／2 個原始網站門檻（不代表完全沒有負評）。",
-        "representativeSources": [],
-        "candidateReviews": [],
-        "reviewerNote": "WD261VKF0：Yahoo Search 本輪 exact-model discovery 已完成；未發現可確認的 exact-model 原頁候選，未達同一問題至少 6 人／2 個原始網站門檻（不代表完全沒有負評）。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
-      },
-      "issueResearch": {
-        "status": "no_common_issue",
-        "checkedAt": "2026-08-29",
-        "summary": "截至查核日，查無達門檻的集中負評／災情",
-        "issues": [],
-        "checkedSources": [
-          {
-            "platform": "Reddit",
-            "query": "site:reddit.com \"LG WD261VKF0\" (problem OR issue OR defect OR failure)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20WD261VKF0%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-            "targetHost": "reddit.com"
-          },
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"LG WD261VKF0\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20WD261VKF0%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com"
-          },
-          {
-            "platform": "PTT",
-            "query": "site:ptt.cc \"LG WD261VKF0\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22LG%20WD261VKF0%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "ptt.cc"
-          },
-          {
-            "platform": "Dcard",
-            "query": "site:dcard.tw \"LG WD261VKF0\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22LG%20WD261VKF0%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "dcard.tw"
-          },
-          {
-            "platform": "YouTube",
-            "query": "\"LG WD261VKF0\" problem issue defect failure broken 災情 故障 異常",
-            "queryUrl": "https://www.youtube.com/results?search_query=%22LG%20WD261VKF0%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
-            "targetHost": "youtube.com"
-          }
-        ]
-      },
-      "searchChecks": [
-        {
-          "platform": "Yahoo Search",
-          "query": "(\"LG WD261VKF0\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
-          "searchUrl": "https://search.yahoo.com/search?p=(%22LG%20WD261VKF0%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
-          "result": "no_exact_model_result",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-08-29T00:00:00+08:00"
-        }
-      ],
-      "evidence": [],
-      "rejectedCandidates": []
-    },
-    {
       "id": "dehumidifier-extra-14-dmbq4n-a900jchfz",
       "category": "dehumidifier",
       "brand": "LG",
@@ -22740,123 +22624,6 @@
           "platform": "Yahoo Search",
           "query": "(\"LG AS601HWG0\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
           "searchUrl": "https://search.yahoo.com/search?p=(%22LG%20AS601HWG0%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
-          "result": "no_exact_model_result",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-08-29T00:00:00+08:00"
-        }
-      ],
-      "evidence": [],
-      "rejectedCandidates": []
-    },
-    {
-      "id": "purifier-costco-lg-as651dwh0",
-      "category": "purifier",
-      "brand": "LG",
-      "model": "AS651DWH0",
-      "name": "PuriCare 360° 空氣清淨機",
-      "identity": {
-        "canonicalModel": "AS651DWH0",
-        "lookupLabel": "LG AS651DWH0",
-        "aliases": [
-          "LG AS651DWH0"
-        ],
-        "evidenceUrl": "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Air-Purifiers-Filters-Accessories/LG-PuriCare-360-Air-Purifier-AS651DWH0/p/136662"
-      },
-      "workflowStatus": "completed",
-      "manualReview": {
-        "status": "completed",
-        "decision": "no_common_issue",
-        "reviewedAt": "2026-08-29",
-        "checkedPlatforms": [
-          "Reddit",
-          "Mobile01",
-          "PTT",
-          "Dcard",
-          "YouTube"
-        ],
-        "queries": [
-          {
-            "platform": "Reddit",
-            "query": "site:reddit.com \"LG AS651DWH0\" (problem OR issue OR defect OR failure)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20AS651DWH0%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-            "targetHost": "reddit.com"
-          },
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"LG AS651DWH0\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20AS651DWH0%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com"
-          },
-          {
-            "platform": "PTT",
-            "query": "site:ptt.cc \"LG AS651DWH0\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22LG%20AS651DWH0%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "ptt.cc"
-          },
-          {
-            "platform": "Dcard",
-            "query": "site:dcard.tw \"LG AS651DWH0\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22LG%20AS651DWH0%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "dcard.tw"
-          },
-          {
-            "platform": "YouTube",
-            "query": "\"LG AS651DWH0\" problem issue defect failure broken 災情 故障 異常",
-            "queryUrl": "https://www.youtube.com/results?search_query=%22LG%20AS651DWH0%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
-            "targetHost": "youtube.com"
-          }
-        ],
-        "candidateDisposition": "AS651DWH0：Yahoo Search 本輪 exact-model discovery 已完成；未發現可確認的 exact-model 原頁候選，未達同一問題至少 6 人／2 個原始網站門檻（不代表完全沒有負評）。",
-        "representativeSources": [],
-        "candidateReviews": [],
-        "reviewerNote": "AS651DWH0：Yahoo Search 本輪 exact-model discovery 已完成；未發現可確認的 exact-model 原頁候選，未達同一問題至少 6 人／2 個原始網站門檻（不代表完全沒有負評）。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
-      },
-      "issueResearch": {
-        "status": "no_common_issue",
-        "checkedAt": "2026-08-29",
-        "summary": "截至查核日，查無達門檻的集中負評／災情",
-        "issues": [],
-        "checkedSources": [
-          {
-            "platform": "Reddit",
-            "query": "site:reddit.com \"LG AS651DWH0\" (problem OR issue OR defect OR failure)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20AS651DWH0%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-            "targetHost": "reddit.com"
-          },
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"LG AS651DWH0\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20AS651DWH0%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com"
-          },
-          {
-            "platform": "PTT",
-            "query": "site:ptt.cc \"LG AS651DWH0\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22LG%20AS651DWH0%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "ptt.cc"
-          },
-          {
-            "platform": "Dcard",
-            "query": "site:dcard.tw \"LG AS651DWH0\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22LG%20AS651DWH0%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "dcard.tw"
-          },
-          {
-            "platform": "YouTube",
-            "query": "\"LG AS651DWH0\" problem issue defect failure broken 災情 故障 異常",
-            "queryUrl": "https://www.youtube.com/results?search_query=%22LG%20AS651DWH0%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
-            "targetHost": "youtube.com"
-          }
-        ]
-      },
-      "searchChecks": [
-        {
-          "platform": "Yahoo Search",
-          "query": "(\"LG AS651DWH0\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
-          "searchUrl": "https://search.yahoo.com/search?p=(%22LG%20AS651DWH0%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
           "result": "no_exact_model_result",
           "resultCount": 0,
           "candidateUrls": [],
@@ -46110,155 +45877,6 @@
       ]
     },
     {
-      "id": "washerdryer-lg-wd-s18vdw",
-      "category": "washerdryer",
-      "brand": "LG",
-      "model": "WD-S18VDW",
-      "name": "LG WD-S18VDW",
-      "identity": {
-        "canonicalModel": "WD-S18VDW",
-        "lookupLabel": "LG WD-S18VDW",
-        "aliases": [
-          "LG WD-S18VDW"
-        ],
-        "evidenceUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-18%E5%85%AC%E6%96%A4-%E8%92%B8%E6%B4%97%E8%84%AB%E7%83%98-%E6%BB%BE%E7%AD%92%E6%B4%97%E8%A1%A3%E6%A9%9F-%E5%86%B0%E7%93%B7%E7%99%BD-WD-S18VDW-10547430.html"
-      },
-      "workflowStatus": "completed",
-      "manualReview": {
-        "status": "completed",
-        "decision": "no_common_issue",
-        "reviewedAt": "2026-08-29",
-        "checkedPlatforms": [
-          "Reddit",
-          "Mobile01",
-          "PTT",
-          "Dcard",
-          "YouTube"
-        ],
-        "queries": [
-          {
-            "platform": "Reddit",
-            "query": "site:reddit.com \"LG WD-S18VDW\" (problem OR issue OR defect OR failure)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20WD-S18VDW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-            "targetHost": "reddit.com"
-          },
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"LG WD-S18VDW\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20WD-S18VDW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com"
-          },
-          {
-            "platform": "PTT",
-            "query": "site:ptt.cc \"LG WD-S18VDW\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22LG%20WD-S18VDW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "ptt.cc"
-          },
-          {
-            "platform": "Dcard",
-            "query": "site:dcard.tw \"LG WD-S18VDW\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22LG%20WD-S18VDW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "dcard.tw"
-          },
-          {
-            "platform": "YouTube",
-            "query": "\"LG WD-S18VDW\" problem issue defect failure broken 災情 故障 異常",
-            "queryUrl": "https://www.youtube.com/results?search_query=%22LG%20WD-S18VDW%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
-            "targetHost": "youtube.com"
-          }
-        ],
-        "candidateDisposition": "WD-S18VDW：Yahoo Search 本輪回應失敗，已改以獨立網頁索引重跑 exact-model 查詢；候選原頁已逐頁人工覆核，未形成同一問題至少 6 人且跨 2 個原始網站的門檻（不代表完全沒有負評）。",
-        "representativeSources": [
-          {
-            "platform": "Mobile01",
-            "title": "幫挑選國際LG洗烘脫洗衣機 NA-V170MDH跟WD-S18VDW 與LG小洗衣機心得請益",
-            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=6961597"
-          }
-        ],
-        "candidateReviews": [
-          {
-            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=6961597",
-            "title": "幫挑選國際LG洗烘脫洗衣機 NA-V170MDH跟WD-S18VDW 與LG小洗衣機心得請益",
-            "outcome": "excluded",
-            "reviewedAt": "2026-07-11",
-            "exactModel": true,
-            "sourceExcerpt": "樓主把 WD-S18VDW 列為候選，明確表示找不到該型號開箱或評價，並詢問臭味與棉絮；回覆只有蝦皮滿分轉述與洗脫烘泛稱，無人自述持有 WD-S18VDW 後發生同一故障。",
-            "independentAuthors": 0,
-            "specificReason": "原頁是購買前選型請益，不是 WD-S18VDW 使用者的第一人稱故障報告；沒有可計入作者，也沒有第二個原始網站的同問題案例。",
-            "platform": "Mobile01"
-          }
-        ],
-        "reviewerNote": "WD-S18VDW：Yahoo Search 本輪回應失敗，已改以獨立網頁索引重跑 exact-model 查詢；候選原頁已逐頁人工覆核，未形成同一問題至少 6 人且跨 2 個原始網站的門檻（不代表完全沒有負評）。",
-        "attestation": "manual_original_pages_reviewed"
-      },
-      "issueResearch": {
-        "status": "no_common_issue",
-        "checkedAt": "2026-08-29",
-        "summary": "截至查核日，查無達門檻的集中負評／災情",
-        "issues": [],
-        "checkedSources": [
-          {
-            "platform": "Reddit",
-            "query": "site:reddit.com \"LG WD-S18VDW\" (problem OR issue OR defect OR failure)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20WD-S18VDW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-            "targetHost": "reddit.com"
-          },
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"LG WD-S18VDW\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20WD-S18VDW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com"
-          },
-          {
-            "platform": "PTT",
-            "query": "site:ptt.cc \"LG WD-S18VDW\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22LG%20WD-S18VDW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "ptt.cc"
-          },
-          {
-            "platform": "Dcard",
-            "query": "site:dcard.tw \"LG WD-S18VDW\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22LG%20WD-S18VDW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "dcard.tw"
-          },
-          {
-            "platform": "YouTube",
-            "query": "\"LG WD-S18VDW\" problem issue defect failure broken 災情 故障 異常",
-            "queryUrl": "https://www.youtube.com/results?search_query=%22LG%20WD-S18VDW%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
-            "targetHost": "youtube.com"
-          }
-        ]
-      },
-      "searchChecks": [
-        {
-          "platform": "Yahoo Search",
-          "query": "(\"LG WD-S18VDW\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
-          "searchUrl": "https://search.yahoo.com/search?p=(%22LG%20WD-S18VDW%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
-          "result": "search_unavailable",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-08-29T00:00:00+08:00",
-          "error": "fetch failed"
-        }
-      ],
-      "evidence": [],
-      "rejectedCandidates": [
-        {
-          "url": "https://www.mobile01.com/topicdetail.php?f=730&t=6961597",
-          "title": "幫挑選國際LG洗烘脫洗衣機 NA-V170MDH跟WD-S18VDW 與LG小洗衣機心得請益",
-          "outcome": "excluded",
-          "reviewedAt": "2026-07-11",
-          "exactModel": true,
-          "sourceExcerpt": "樓主把 WD-S18VDW 列為候選，明確表示找不到該型號開箱或評價，並詢問臭味與棉絮；回覆只有蝦皮滿分轉述與洗脫烘泛稱，無人自述持有 WD-S18VDW 後發生同一故障。",
-          "independentAuthors": 0,
-          "specificReason": "原頁是購買前選型請益，不是 WD-S18VDW 使用者的第一人稱故障報告；沒有可計入作者，也沒有第二個原始網站的同問題案例。",
-          "platform": "Mobile01",
-          "reason": "原頁是購買前選型請益，不是 WD-S18VDW 使用者的第一人稱故障報告；沒有可計入作者，也沒有第二個原始網站的同問題案例。"
-        }
-      ]
-    },
-    {
       "id": "washerdryer-whirlpool-8twfc6810lw",
       "category": "washerdryer",
       "brand": "Whirlpool",
@@ -49132,124 +48750,6 @@
           "platform": "Yahoo Search",
           "query": "(\"LG R723MG\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
           "searchUrl": "https://search.yahoo.com/search?p=(%22LG%20R723MG%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
-          "result": "search_unavailable",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-08-29T00:00:00+08:00",
-          "error": "fetch failed"
-        }
-      ],
-      "evidence": [],
-      "rejectedCandidates": []
-    },
-    {
-      "id": "garmentcare-lg-e523mr",
-      "category": "garmentcare",
-      "brand": "LG",
-      "model": "E523MR",
-      "name": "LG Styler 蒸氣電子衣櫥 奢華鏡面",
-      "identity": {
-        "canonicalModel": "E523MR",
-        "lookupLabel": "LG E523MR",
-        "aliases": [
-          "LG E523MR"
-        ],
-        "evidenceUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900AMBO4"
-      },
-      "workflowStatus": "completed",
-      "manualReview": {
-        "status": "completed",
-        "decision": "no_common_issue",
-        "reviewedAt": "2026-08-29",
-        "checkedPlatforms": [
-          "Reddit",
-          "Mobile01",
-          "PTT",
-          "Dcard",
-          "YouTube"
-        ],
-        "queries": [
-          {
-            "platform": "Reddit",
-            "query": "site:reddit.com \"LG E523MR\" (problem OR issue OR defect OR failure)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20E523MR%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-            "targetHost": "reddit.com"
-          },
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"LG E523MR\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20E523MR%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com"
-          },
-          {
-            "platform": "PTT",
-            "query": "site:ptt.cc \"LG E523MR\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22LG%20E523MR%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "ptt.cc"
-          },
-          {
-            "platform": "Dcard",
-            "query": "site:dcard.tw \"LG E523MR\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22LG%20E523MR%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "dcard.tw"
-          },
-          {
-            "platform": "YouTube",
-            "query": "\"LG E523MR\" problem issue defect failure broken 災情 故障 異常",
-            "queryUrl": "https://www.youtube.com/results?search_query=%22LG%20E523MR%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
-            "targetHost": "youtube.com"
-          }
-        ],
-        "candidateDisposition": "E523MR：Yahoo Search 本輪回應失敗，已改以獨立網頁索引重跑 exact-model 查詢；未發現可確認的 exact-model 原頁候選，未達同一問題至少 6 人／2 個原始網站門檻（不代表完全沒有負評）。",
-        "representativeSources": [],
-        "candidateReviews": [],
-        "reviewerNote": "E523MR：Yahoo Search 本輪回應失敗，已改以獨立網頁索引重跑 exact-model 查詢；未發現可確認的 exact-model 原頁候選，未達同一問題至少 6 人／2 個原始網站門檻（不代表完全沒有負評）。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
-      },
-      "issueResearch": {
-        "status": "no_common_issue",
-        "checkedAt": "2026-08-29",
-        "summary": "截至查核日，查無達門檻的集中負評／災情",
-        "issues": [],
-        "checkedSources": [
-          {
-            "platform": "Reddit",
-            "query": "site:reddit.com \"LG E523MR\" (problem OR issue OR defect OR failure)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20E523MR%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-            "targetHost": "reddit.com"
-          },
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"LG E523MR\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20E523MR%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com"
-          },
-          {
-            "platform": "PTT",
-            "query": "site:ptt.cc \"LG E523MR\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22LG%20E523MR%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "ptt.cc"
-          },
-          {
-            "platform": "Dcard",
-            "query": "site:dcard.tw \"LG E523MR\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22LG%20E523MR%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "dcard.tw"
-          },
-          {
-            "platform": "YouTube",
-            "query": "\"LG E523MR\" problem issue defect failure broken 災情 故障 異常",
-            "queryUrl": "https://www.youtube.com/results?search_query=%22LG%20E523MR%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
-            "targetHost": "youtube.com"
-          }
-        ]
-      },
-      "searchChecks": [
-        {
-          "platform": "Yahoo Search",
-          "query": "(\"LG E523MR\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
-          "searchUrl": "https://search.yahoo.com/search?p=(%22LG%20E523MR%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
           "result": "search_unavailable",
           "resultCount": 0,
           "candidateUrls": [],
@@ -230719,6 +230219,2305 @@
       ],
       "rejectedCandidates": [],
       "evidence": [],
+      "reports": []
+    },
+    {
+      "id": "soundbar-sony-ht-b500",
+      "category": "soundbar",
+      "brand": "Sony",
+      "model": "HT-B500",
+      "name": "BRAVIA Theatre Bar 5 3.1 聲道 Soundbar（含無線重低音）",
+      "identity": {
+        "canonicalModel": "HT-B500",
+        "lookupLabel": "Sony HT-B500",
+        "aliases": [
+          "HT-B500",
+          "Sony HT-B500",
+          "BRAVIA Theatre Bar 5",
+          "HT-B500//Z TW2"
+        ],
+        "evidenceUrl": "https://www.sony.com.tw/zh/home-theatre-sound-bars/products/bravia-theatre-bar-5"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "id": "soundbar-sony-ht-b500",
+        "category": "soundbar",
+        "brand": "Sony",
+        "model": "HT-B500",
+        "name": "BRAVIA Theatre Bar 5 3.1 聲道 Soundbar（含無線重低音）",
+        "reviewedAt": "2026-11-14",
+        "reviewBatch": "soundbar",
+        "decision": "no_common_issue",
+        "checkedPlatforms": [
+          "PTT",
+          "Mobile01",
+          "Dcard",
+          "Reddit",
+          "価格.com"
+        ],
+        "queries": [
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "\"HT-B500\" site:ptt.cc",
+            "queryUrl": "https://www.google.com/search?q=%22HT-B500%22%20site%3Aptt.cc"
+          },
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "\"HT-B500\" site:mobile01.com",
+            "queryUrl": "https://www.google.com/search?q=%22HT-B500%22%20site%3Amobile01.com"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "\"HT-B500\" site:dcard.tw",
+            "queryUrl": "https://www.google.com/search?q=%22HT-B500%22%20site%3Adcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "\"HT-B500\" site:reddit.com soundbar power subwoofer Sony",
+            "queryUrl": "https://www.google.com/search?q=%22HT-B500%22%20site%3Areddit.com%20soundbar%20power%20subwoofer%20Sony"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "\"HT-B500\" site:reddit.com/r/SonyBravia \"HT-B500\"",
+            "queryUrl": "https://www.google.com/search?q=%22HT-B500%22%20site%3Areddit.com%2Fr%2FSonyBravia%20%22HT-B500%22"
+          }
+        ],
+        "candidateDisposition": "HT-B500 完整型號查詢後打開 Reddit 及価格.com 原頁。選購、正面使用、同作者附圖及不同機型不計入；一則 PCM 輸出設定與一則手機初始設定提醒屬不同現象。",
+        "representativeSources": [
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/Soundbars/comments/1wsxh4s/subwoofer_difference_hts400_vs_bravia_theater_bar/",
+            "title": "Subwoofer difference? HT-S400 vs. BRAVIA Theater Bar 5"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/Soundbars/comments/1uk7q3z/sony_hta3000_vs_htb500/",
+            "title": "Sony HT-A3000 vs HT-B500"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/Soundbars/comments/1x37zce/what_to_do_to_get_pcmlpcm_audio_blurays_not_lossy/",
+            "title": "What to do to get PCM/LPCM audio blu-rays, not lossy DTS or Dolby?"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/SonyBravia/comments/1wh1mp5/latest_update_fixes_sound_delay_issues/",
+            "title": "LATEST UPDATE FIXES SOUND DELAY ISSUES"
+          },
+          {
+            "platform": "価格.com",
+            "url": "https://review.kakaku.com/review/K0001780188/",
+            "title": "BRAVIA Theatre Bar 5 HT-B500 [ブラック] レビュー・評価"
+          },
+          {
+            "platform": "価格.com",
+            "url": "https://review.kakaku.com/review/K0001780188/ReviewCD%3D2029088/ImageID%3D819254/",
+            "title": "saika724 HT-B500 レビュー・評価投稿画像"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/Soundbars/comments/1wsxh4s/subwoofer_difference_hts400_vs_bravia_theater_bar/",
+            "title": "Subwoofer difference? HT-S400 vs. BRAVIA Theater Bar 5",
+            "reviewedAt": "2026-11-14",
+            "outcome": "excluded",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "sourceExcerpt": "發文者仍在 JBL 與 Sony 選購比較，4Masked_Demon4 認為 HT-S400 低頻較重。",
+            "specificReason": "購買前提問與偏好比較均未交代 HT-B500 第一人稱故障；未採用留言臆測的連線規格。"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/Soundbars/comments/1uk7q3z/sony_hta3000_vs_htb500/",
+            "title": "Sony HT-A3000 vs HT-B500",
+            "reviewedAt": "2026-11-14",
+            "outcome": "excluded",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "sourceExcerpt": "Books2568 正在比較 HT-A3000 與 HT-B500，手邊實機是入門型 HT-S100F。",
+            "specificReason": "原帖為購買前選型，未提供 HT-B500 使用經驗；對其他型號退役的說法也不是原廠整機停產證據。"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/Soundbars/comments/1x37zce/what_to_do_to_get_pcmlpcm_audio_blurays_not_lossy/",
+            "title": "What to do to get PCM/LPCM audio blu-rays, not lossy DTS or Dolby?",
+            "reviewedAt": "2026-11-14",
+            "outcome": "excluded",
+            "exactModel": true,
+            "independentAuthors": 1,
+            "sourceExcerpt": "Paulseph-J-2000 說明其 HT-B500 搭配 K-43S20M2 與 UBP-X700/U，有一張藍光片走到 DTS/Dolby Digital，正在確認播放器輸出選項。",
+            "specificReason": "有一位具型號的第一人稱設定案例，來源牽涉碟片音軌與播放器輸出；同帖無其他獨立使用者，也沒有聲霸本體故障佐證。"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/SonyBravia/comments/1wh1mp5/latest_update_fixes_sound_delay_issues/",
+            "title": "LATEST UPDATE FIXES SOUND DELAY ISSUES",
+            "reviewedAt": "2026-11-14",
+            "outcome": "excluded",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "sourceExcerpt": "buckteevibes 點名 HT-B500 並表示 eARC 搭配 PS5、Apple TV 正常；他人回覆討論的是 BRAVIA 電視韌體與不同搭配。",
+            "specificReason": "HT-B500 回報本身為正面；其他留言未建立該聲霸型號，不能把電視延遲或其他聲霸的狀況計入。"
+          },
+          {
+            "platform": "価格.com",
+            "url": "https://review.kakaku.com/review/K0001780188/",
+            "title": "BRAVIA Theatre Bar 5 HT-B500 [ブラック] レビュー・評価",
+            "reviewedAt": "2026-11-14",
+            "outcome": "excluded",
+            "exactModel": true,
+            "independentAuthors": 1,
+            "sourceExcerpt": "saika724 用 HT-B500 取代舊 5.1 系統，整體評價四星，提醒首次設定需準備手機。",
+            "specificReason": "有一位實際使用者提出設定限制；屬一則使用注意，而非重複故障。跨站未見同一問題達人數門檻。"
+          },
+          {
+            "platform": "価格.com",
+            "url": "https://review.kakaku.com/review/K0001780188/ReviewCD%3D2029088/ImageID%3D819254/",
+            "title": "saika724 HT-B500 レビュー・評価投稿画像",
+            "reviewedAt": "2026-11-14",
+            "outcome": "excluded",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "sourceExcerpt": "圖片頁列作者 saika724 與同一篇使用心得編號 2029088；圖片為前述換機評論所附。",
+            "specificReason": "同一作者同一評論的附圖頁，沒有獨立敘述或另一名使用者。"
+          }
+        ],
+        "reviewerNote": "HT-B500 逐頁覆核原文與可見評論。PTT、Mobile01、Dcard 完整型號未見候選；英文及日本原始評價各有不同使用設定提醒，未找到同一現象達六位獨立使用者且跨兩站。Sony 官方另有針對部分條件下 Voice Zoom 或開機的韌體修正說明，與第一人稱門檻分開。",
+        "attestation": "manual_original_pages_reviewed",
+        "status": "completed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-11-14",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "\"HT-B500\" site:ptt.cc",
+            "queryUrl": "https://www.google.com/search?q=%22HT-B500%22%20site%3Aptt.cc"
+          },
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "\"HT-B500\" site:mobile01.com",
+            "queryUrl": "https://www.google.com/search?q=%22HT-B500%22%20site%3Amobile01.com"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "\"HT-B500\" site:dcard.tw",
+            "queryUrl": "https://www.google.com/search?q=%22HT-B500%22%20site%3Adcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "\"HT-B500\" site:reddit.com soundbar power subwoofer Sony",
+            "queryUrl": "https://www.google.com/search?q=%22HT-B500%22%20site%3Areddit.com%20soundbar%20power%20subwoofer%20Sony"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "\"HT-B500\" site:reddit.com/r/SonyBravia \"HT-B500\"",
+            "queryUrl": "https://www.google.com/search?q=%22HT-B500%22%20site%3Areddit.com%2Fr%2FSonyBravia%20%22HT-B500%22"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "\"HT-B500\" site:ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=%22HT-B500%22%20site%3Aptt.cc",
+          "searchUrl": "https://www.google.com/search?q=%22HT-B500%22%20site%3Aptt.cc",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-13T23:33:09.468Z",
+          "note": "人工查看站點限定的完整型號搜尋，頁面未見符合的原文候選。"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"HT-B500\" site:mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=%22HT-B500%22%20site%3Amobile01.com",
+          "searchUrl": "https://www.google.com/search?q=%22HT-B500%22%20site%3Amobile01.com",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-13T23:33:09.469Z",
+          "note": "人工查看站點限定的完整型號搜尋，頁面未見符合的原文候選。"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "\"HT-B500\" site:dcard.tw",
+          "queryUrl": "https://www.google.com/search?q=%22HT-B500%22%20site%3Adcard.tw",
+          "searchUrl": "https://www.google.com/search?q=%22HT-B500%22%20site%3Adcard.tw",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-13T23:33:09.469Z",
+          "note": "人工查看站點限定的完整型號搜尋，頁面未見符合的原文候選。"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "\"HT-B500\" site:reddit.com soundbar power subwoofer Sony",
+          "queryUrl": "https://www.google.com/search?q=%22HT-B500%22%20site%3Areddit.com%20soundbar%20power%20subwoofer%20Sony",
+          "searchUrl": "https://www.google.com/search?q=%22HT-B500%22%20site%3Areddit.com%20soundbar%20power%20subwoofer%20Sony",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 3,
+          "candidateUrls": [
+            "https://www.reddit.com/r/Soundbars/comments/1wsxh4s/subwoofer_difference_hts400_vs_bravia_theater_bar/",
+            "https://www.reddit.com/r/Soundbars/comments/1uk7q3z/sony_hta3000_vs_htb500/",
+            "https://www.reddit.com/r/Soundbars/comments/1x37zce/what_to_do_to_get_pcmlpcm_audio_blurays_not_lossy/"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.reddit.com/r/Soundbars/comments/1wsxh4s/subwoofer_difference_hts400_vs_bravia_theater_bar/",
+              "title": "Subwoofer difference? HT-S400 vs. BRAVIA Theater Bar 5",
+              "snippet": "發文者仍在 JBL 與 Sony 選購比較，4Masked_Demon4 認為 HT-S400 低頻較重。"
+            },
+            {
+              "url": "https://www.reddit.com/r/Soundbars/comments/1uk7q3z/sony_hta3000_vs_htb500/",
+              "title": "Sony HT-A3000 vs HT-B500",
+              "snippet": "Books2568 正在比較 HT-A3000 與 HT-B500，手邊實機是入門型 HT-S100F。"
+            },
+            {
+              "url": "https://www.reddit.com/r/Soundbars/comments/1x37zce/what_to_do_to_get_pcmlpcm_audio_blurays_not_lossy/",
+              "title": "What to do to get PCM/LPCM audio blu-rays, not lossy DTS or Dolby?",
+              "snippet": "Paulseph-J-2000 說明其 HT-B500 搭配 K-43S20M2 與 UBP-X700/U，有一張藍光片走到 DTS/Dolby Digital，正在確認播放器輸出選項。"
+            }
+          ],
+          "inspectedAt": "2026-11-13T23:33:09.469Z",
+          "note": "搜尋用於發現候選，原文與各候選處置另逐頁記錄。"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "\"HT-B500\" site:reddit.com/r/SonyBravia \"HT-B500\"",
+          "queryUrl": "https://www.google.com/search?q=%22HT-B500%22%20site%3Areddit.com%2Fr%2FSonyBravia%20%22HT-B500%22",
+          "searchUrl": "https://www.google.com/search?q=%22HT-B500%22%20site%3Areddit.com%2Fr%2FSonyBravia%20%22HT-B500%22",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.reddit.com/r/SonyBravia/comments/1wh1mp5/latest_update_fixes_sound_delay_issues/"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.reddit.com/r/SonyBravia/comments/1wh1mp5/latest_update_fixes_sound_delay_issues/",
+              "title": "LATEST UPDATE FIXES SOUND DELAY ISSUES",
+              "snippet": "buckteevibes 點名 HT-B500 並表示 eARC 搭配 PS5、Apple TV 正常；他人回覆討論的是 BRAVIA 電視韌體與不同搭配。"
+            }
+          ],
+          "inspectedAt": "2026-11-13T23:33:09.469Z",
+          "note": "搜尋用於發現候選，原文與各候選處置另逐頁記錄。"
+        },
+        {
+          "platform": "価格.com",
+          "targetHost": "kakaku.com",
+          "query": "site:review.kakaku.com/review/K0001780188/ \"HT-B500\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Areview.kakaku.com%2Freview%2FK0001780188%2F%20%22HT-B500%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Areview.kakaku.com%2Freview%2FK0001780188%2F%20%22HT-B500%22",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 2,
+          "candidateUrls": [
+            "https://review.kakaku.com/review/K0001780188/",
+            "https://review.kakaku.com/review/K0001780188/ReviewCD%3D2029088/ImageID%3D819254/"
+          ],
+          "candidates": [
+            {
+              "url": "https://review.kakaku.com/review/K0001780188/",
+              "title": "BRAVIA Theatre Bar 5 HT-B500 [ブラック] レビュー・評価",
+              "snippet": "saika724 用 HT-B500 取代舊 5.1 系統，整體評價四星，提醒首次設定需準備手機。"
+            },
+            {
+              "url": "https://review.kakaku.com/review/K0001780188/ReviewCD%3D2029088/ImageID%3D819254/",
+              "title": "saika724 HT-B500 レビュー・評価投稿画像",
+              "snippet": "圖片頁列作者 saika724 與同一篇使用心得編號 2029088；圖片為前述換機評論所附。"
+            }
+          ],
+          "inspectedAt": "2026-11-13T23:33:09.469Z",
+          "note": "搜尋用於發現候選，原文與各候選處置另逐頁記錄。"
+        }
+      ],
+      "rejectedCandidates": [
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Soundbars/comments/1wsxh4s/subwoofer_difference_hts400_vs_bravia_theater_bar/",
+          "title": "Subwoofer difference? HT-S400 vs. BRAVIA Theater Bar 5",
+          "reviewedAt": "2026-11-14",
+          "outcome": "excluded",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "sourceExcerpt": "發文者仍在 JBL 與 Sony 選購比較，4Masked_Demon4 認為 HT-S400 低頻較重。",
+          "specificReason": "購買前提問與偏好比較均未交代 HT-B500 第一人稱故障；未採用留言臆測的連線規格。",
+          "reason": "購買前提問與偏好比較均未交代 HT-B500 第一人稱故障；未採用留言臆測的連線規格。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Soundbars/comments/1uk7q3z/sony_hta3000_vs_htb500/",
+          "title": "Sony HT-A3000 vs HT-B500",
+          "reviewedAt": "2026-11-14",
+          "outcome": "excluded",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "sourceExcerpt": "Books2568 正在比較 HT-A3000 與 HT-B500，手邊實機是入門型 HT-S100F。",
+          "specificReason": "原帖為購買前選型，未提供 HT-B500 使用經驗；對其他型號退役的說法也不是原廠整機停產證據。",
+          "reason": "原帖為購買前選型，未提供 HT-B500 使用經驗；對其他型號退役的說法也不是原廠整機停產證據。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Soundbars/comments/1x37zce/what_to_do_to_get_pcmlpcm_audio_blurays_not_lossy/",
+          "title": "What to do to get PCM/LPCM audio blu-rays, not lossy DTS or Dolby?",
+          "reviewedAt": "2026-11-14",
+          "outcome": "excluded",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "sourceExcerpt": "Paulseph-J-2000 說明其 HT-B500 搭配 K-43S20M2 與 UBP-X700/U，有一張藍光片走到 DTS/Dolby Digital，正在確認播放器輸出選項。",
+          "specificReason": "有一位具型號的第一人稱設定案例，來源牽涉碟片音軌與播放器輸出；同帖無其他獨立使用者，也沒有聲霸本體故障佐證。",
+          "reason": "有一位具型號的第一人稱設定案例，來源牽涉碟片音軌與播放器輸出；同帖無其他獨立使用者，也沒有聲霸本體故障佐證。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/SonyBravia/comments/1wh1mp5/latest_update_fixes_sound_delay_issues/",
+          "title": "LATEST UPDATE FIXES SOUND DELAY ISSUES",
+          "reviewedAt": "2026-11-14",
+          "outcome": "excluded",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "sourceExcerpt": "buckteevibes 點名 HT-B500 並表示 eARC 搭配 PS5、Apple TV 正常；他人回覆討論的是 BRAVIA 電視韌體與不同搭配。",
+          "specificReason": "HT-B500 回報本身為正面；其他留言未建立該聲霸型號，不能把電視延遲或其他聲霸的狀況計入。",
+          "reason": "HT-B500 回報本身為正面；其他留言未建立該聲霸型號，不能把電視延遲或其他聲霸的狀況計入。"
+        },
+        {
+          "platform": "価格.com",
+          "url": "https://review.kakaku.com/review/K0001780188/",
+          "title": "BRAVIA Theatre Bar 5 HT-B500 [ブラック] レビュー・評価",
+          "reviewedAt": "2026-11-14",
+          "outcome": "excluded",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "sourceExcerpt": "saika724 用 HT-B500 取代舊 5.1 系統，整體評價四星，提醒首次設定需準備手機。",
+          "specificReason": "有一位實際使用者提出設定限制；屬一則使用注意，而非重複故障。跨站未見同一問題達人數門檻。",
+          "reason": "有一位實際使用者提出設定限制；屬一則使用注意，而非重複故障。跨站未見同一問題達人數門檻。"
+        },
+        {
+          "platform": "価格.com",
+          "url": "https://review.kakaku.com/review/K0001780188/ReviewCD%3D2029088/ImageID%3D819254/",
+          "title": "saika724 HT-B500 レビュー・評価投稿画像",
+          "reviewedAt": "2026-11-14",
+          "outcome": "excluded",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "sourceExcerpt": "圖片頁列作者 saika724 與同一篇使用心得編號 2029088；圖片為前述換機評論所附。",
+          "specificReason": "同一作者同一評論的附圖頁，沒有獨立敘述或另一名使用者。",
+          "reason": "同一作者同一評論的附圖頁，沒有獨立敘述或另一名使用者。"
+        }
+      ],
+      "reports": [],
+      "evidence": []
+    },
+    {
+      "id": "dehumidifier-panasonic-f-yv20qbh",
+      "category": "dehumidifier",
+      "brand": "Panasonic",
+      "model": "F-YV20QBH",
+      "name": "Smart Dry 10L 變頻高效型除濕機",
+      "identity": {
+        "canonicalModel": "F-YV20QBH",
+        "lookupLabel": "Panasonic F-YV20QBH",
+        "aliases": [
+          "F-YV20QBH",
+          "Panasonic F-YV20QBH"
+        ],
+        "evidenceUrl": "https://www.panasonic.com/tw/consumer/air-conditioner/dehumidifier/f-yv20qbh.html"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "id": "dehumidifier-panasonic-f-yv20qbh",
+        "category": "dehumidifier",
+        "brand": "Panasonic",
+        "model": "F-YV20QBH",
+        "name": "Smart Dry 10L 變頻高效型除濕機",
+        "reviewedAt": "2026-11-14",
+        "reviewBatch": "dehumidifier",
+        "decision": "no_common_issue",
+        "checkedPlatforms": [
+          "PTT",
+          "Mobile01",
+          "Dcard",
+          "Reddit",
+          "PChome",
+          "momo"
+        ],
+        "queries": [
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "\"F-YV20QBH\" site:ptt.cc/bbs/",
+            "queryUrl": "https://www.google.com/search?q=%22F-YV20QBH%22%20site%3Aptt.cc%2Fbbs%2F"
+          },
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "\"F-YV20QBH\" site:mobile01.com/topicdetail.php",
+            "queryUrl": "https://www.google.com/search?q=%22F-YV20QBH%22%20site%3Amobile01.com%2Ftopicdetail.php"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "\"F-YV20QBH\" site:dcard.tw",
+            "queryUrl": "https://www.google.com/search?q=%22F-YV20QBH%22%20site%3Adcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "\"F-YV20QBH\" site:reddit.com",
+            "queryUrl": "https://www.google.com/search?q=%22F-YV20QBH%22%20site%3Areddit.com"
+          }
+        ],
+        "candidateDisposition": "F-YV20QBH 逐站完整型號查詢及原始零售評價核對；PTT、Mobile01、Dcard、Reddit 未出現可對應討論，PChome 為正面購買經驗，momo 原頁無逐人問題敘述。",
+        "representativeSources": [
+          {
+            "platform": "PChome",
+            "url": "https://24h.pchome.com.tw/prod/DMBQ00-A900KIWQG",
+            "title": "Panasonic 國際牌 10公升變頻高效除濕機 F-YV20QBH"
+          },
+          {
+            "platform": "momo",
+            "url": "https://www.momoshop.com.tw/product/15864982",
+            "title": "momo Panasonic F-YV20QBH 一級能效變頻高效型極速除濕機"
+          },
+          {
+            "platform": "momo",
+            "url": "https://www.momoshop.com.tw/TP/TP0008973/goodsDetail/TP00089730000672",
+            "title": "momo 店+ Panasonic F-YV20QBH 10公升變頻高效型除濕機"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "platform": "PChome",
+            "url": "https://24h.pchome.com.tw/prod/DMBQ00-A900KIWQG",
+            "title": "Panasonic 國際牌 10公升變頻高效除濕機 F-YV20QBH",
+            "reviewedAt": "2026-11-14",
+            "outcome": "excluded",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "sourceExcerpt": "當日原頁顯示四則全五星。郭** 說主臥加衛浴使用三天、覺得低噪且提水方便，另外可見的評價未附可判讀故障敘述。",
+            "specificReason": "同 SKU 已購買評價內容為正面，其餘可見星等或暱稱無故障敘述，故障與負評作者數為零。"
+          },
+          {
+            "platform": "momo",
+            "url": "https://www.momoshop.com.tw/product/15864982",
+            "title": "momo Panasonic F-YV20QBH 一級能效變頻高效型極速除濕機",
+            "reviewedAt": "2026-11-14",
+            "outcome": "excluded",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "sourceExcerpt": "原頁同型號與品號 15864982，列 3 年保固、11/06–11/13 品牌活動以及 10 L 型的產品說明；可見原始內容未有逐人問題回報。",
+            "specificReason": "此來源供應規格及期間價格，原頁可讀內容沒有可核對的第一人稱故障或負評。"
+          },
+          {
+            "platform": "momo",
+            "url": "https://www.momoshop.com.tw/TP/TP0008973/goodsDetail/TP00089730000672",
+            "title": "momo 店+ Panasonic F-YV20QBH 10公升變頻高效型除濕機",
+            "reviewedAt": "2026-11-14",
+            "outcome": "excluded",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "sourceExcerpt": "同型號商品頁列 3 年保固、4L 對應系列商品；商品評價區明示目前尚無評價。",
+            "specificReason": "同店+ 精確品號的原頁無任何作者評價，沒有可納入的故障敘述或獨立作者。"
+          }
+        ],
+        "reviewerNote": "F-YV20QBH 的 PChome 原頁四則公開評價為五星，詳讀可見文字；momo 兩個品項各自檢查原頁。不同品牌機種與頁面自動推薦都排除。未見至少六位獨立使用者跨兩站同一問題。",
+        "attestation": "manual_original_pages_reviewed",
+        "status": "completed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-11-14",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "\"F-YV20QBH\" site:ptt.cc/bbs/",
+            "queryUrl": "https://www.google.com/search?q=%22F-YV20QBH%22%20site%3Aptt.cc%2Fbbs%2F"
+          },
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "\"F-YV20QBH\" site:mobile01.com/topicdetail.php",
+            "queryUrl": "https://www.google.com/search?q=%22F-YV20QBH%22%20site%3Amobile01.com%2Ftopicdetail.php"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "\"F-YV20QBH\" site:dcard.tw",
+            "queryUrl": "https://www.google.com/search?q=%22F-YV20QBH%22%20site%3Adcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "\"F-YV20QBH\" site:reddit.com",
+            "queryUrl": "https://www.google.com/search?q=%22F-YV20QBH%22%20site%3Areddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "\"F-YV20QBH\" site:ptt.cc/bbs/",
+          "queryUrl": "https://www.google.com/search?q=%22F-YV20QBH%22%20site%3Aptt.cc%2Fbbs%2F",
+          "searchUrl": "https://www.google.com/search?q=%22F-YV20QBH%22%20site%3Aptt.cc%2Fbbs%2F",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-13T23:41:12.142Z",
+          "note": "人工查看站點限定的完整型號搜尋，未見 exact model 原文候選。"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"F-YV20QBH\" site:mobile01.com/topicdetail.php",
+          "queryUrl": "https://www.google.com/search?q=%22F-YV20QBH%22%20site%3Amobile01.com%2Ftopicdetail.php",
+          "searchUrl": "https://www.google.com/search?q=%22F-YV20QBH%22%20site%3Amobile01.com%2Ftopicdetail.php",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-13T23:41:12.142Z",
+          "note": "人工查看站點限定的完整型號搜尋，未見 exact model 原文候選。"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "\"F-YV20QBH\" site:dcard.tw",
+          "queryUrl": "https://www.google.com/search?q=%22F-YV20QBH%22%20site%3Adcard.tw",
+          "searchUrl": "https://www.google.com/search?q=%22F-YV20QBH%22%20site%3Adcard.tw",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-13T23:41:12.142Z",
+          "note": "人工查看站點限定的完整型號搜尋，未見 exact model 原文候選。"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "\"F-YV20QBH\" site:reddit.com",
+          "queryUrl": "https://www.google.com/search?q=%22F-YV20QBH%22%20site%3Areddit.com",
+          "searchUrl": "https://www.google.com/search?q=%22F-YV20QBH%22%20site%3Areddit.com",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-13T23:41:12.142Z",
+          "note": "人工查看站點限定的完整型號搜尋，未見 exact model 原文候選。"
+        },
+        {
+          "platform": "PChome",
+          "targetHost": "pchome.com.tw",
+          "query": "\"F-YV20QBH\" site:24h.pchome.com.tw/prod/DMBQ00-A900KIWQG",
+          "queryUrl": "https://www.google.com/search?q=%22F-YV20QBH%22%20site%3A24h.pchome.com.tw%2Fprod%2FDMBQ00-A900KIWQG",
+          "searchUrl": "https://www.google.com/search?q=%22F-YV20QBH%22%20site%3A24h.pchome.com.tw%2Fprod%2FDMBQ00-A900KIWQG",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://24h.pchome.com.tw/prod/DMBQ00-A900KIWQG"
+          ],
+          "candidates": [
+            {
+              "url": "https://24h.pchome.com.tw/prod/DMBQ00-A900KIWQG",
+              "title": "Panasonic 國際牌 10公升變頻高效除濕機 F-YV20QBH",
+              "snippet": "當日原頁顯示四則全五星。郭** 說主臥加衛浴使用三天、覺得低噪且提水方便，另外可見的評價未附可判讀故障敘述。"
+            }
+          ],
+          "inspectedAt": "2026-11-13T23:41:12.142Z",
+          "note": "實查搜尋後開啟 exact model 原頁並讀取公開可見評價，補查同型 momo 店+。"
+        },
+        {
+          "platform": "momo",
+          "targetHost": "momoshop.com.tw",
+          "query": "\"F-YV20QBH\" site:momoshop.com.tw/product/15864982",
+          "queryUrl": "https://www.google.com/search?q=%22F-YV20QBH%22%20site%3Amomoshop.com.tw%2Fproduct%2F15864982",
+          "searchUrl": "https://www.google.com/search?q=%22F-YV20QBH%22%20site%3Amomoshop.com.tw%2Fproduct%2F15864982",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.momoshop.com.tw/product/15864982"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.momoshop.com.tw/product/15864982",
+              "title": "momo Panasonic F-YV20QBH 一級能效變頻高效型極速除濕機",
+              "snippet": "原頁同型號與品號 15864982，列 3 年保固、11/06–11/13 品牌活動以及 10 L 型的產品說明；可見原始內容未有逐人問題回報。"
+            }
+          ],
+          "inspectedAt": "2026-11-13T23:41:12.142Z",
+          "note": "實查搜尋後開啟 exact model 原頁並讀取公開可見評價，補查同型 momo 店+。"
+        }
+      ],
+      "rejectedCandidates": [
+        {
+          "platform": "PChome",
+          "url": "https://24h.pchome.com.tw/prod/DMBQ00-A900KIWQG",
+          "title": "Panasonic 國際牌 10公升變頻高效除濕機 F-YV20QBH",
+          "reviewedAt": "2026-11-14",
+          "outcome": "excluded",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "sourceExcerpt": "當日原頁顯示四則全五星。郭** 說主臥加衛浴使用三天、覺得低噪且提水方便，另外可見的評價未附可判讀故障敘述。",
+          "specificReason": "同 SKU 已購買評價內容為正面，其餘可見星等或暱稱無故障敘述，故障與負評作者數為零。",
+          "reason": "同 SKU 已購買評價內容為正面，其餘可見星等或暱稱無故障敘述，故障與負評作者數為零。"
+        },
+        {
+          "platform": "momo",
+          "url": "https://www.momoshop.com.tw/product/15864982",
+          "title": "momo Panasonic F-YV20QBH 一級能效變頻高效型極速除濕機",
+          "reviewedAt": "2026-11-14",
+          "outcome": "excluded",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "sourceExcerpt": "原頁同型號與品號 15864982，列 3 年保固、11/06–11/13 品牌活動以及 10 L 型的產品說明；可見原始內容未有逐人問題回報。",
+          "specificReason": "此來源供應規格及期間價格，原頁可讀內容沒有可核對的第一人稱故障或負評。",
+          "reason": "此來源供應規格及期間價格，原頁可讀內容沒有可核對的第一人稱故障或負評。"
+        },
+        {
+          "platform": "momo",
+          "url": "https://www.momoshop.com.tw/TP/TP0008973/goodsDetail/TP00089730000672",
+          "title": "momo 店+ Panasonic F-YV20QBH 10公升變頻高效型除濕機",
+          "reviewedAt": "2026-11-14",
+          "outcome": "excluded",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "sourceExcerpt": "同型號商品頁列 3 年保固、4L 對應系列商品；商品評價區明示目前尚無評價。",
+          "specificReason": "同店+ 精確品號的原頁無任何作者評價，沒有可納入的故障敘述或獨立作者。",
+          "reason": "同店+ 精確品號的原頁無任何作者評價，沒有可納入的故障敘述或獨立作者。"
+        }
+      ],
+      "reports": [],
+      "evidence": []
+    },
+    {
+      "id": "refrigerator-panasonic-nr-f553wx-w1",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-F553WX-W1",
+      "name": "日本製550L日系上質玻璃六門變頻冰箱（霧晶白）",
+      "identity": {
+        "canonicalModel": "NR-F553WX-W1",
+        "lookupLabel": "Panasonic NR-F553WX-W1",
+        "aliases": [
+          "NR-F553WX-W1",
+          "Panasonic NR-F553WX-W1"
+        ],
+        "evidenceUrl": "https://www.panasonic.com/tw/consumer/refrigerator/six-door/nr-f553wx.html"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "id": "refrigerator-panasonic-nr-f553wx-w1",
+        "category": "refrigerator",
+        "brand": "Panasonic",
+        "model": "NR-F553WX-W1",
+        "name": "日本製550L日系上質玻璃六門變頻冰箱（霧晶白）",
+        "reviewedAt": "2026-11-14",
+        "reviewBatch": "refrigerator",
+        "decision": "no_common_issue",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT",
+          "Dcard"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com/topicdetail.php \"NR-F553WX-W1\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%2Ftopicdetail.php%20%22NR-F553WX-W1%22"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc/bbs/ \"NR-F553WX-W1\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%2Fbbs%2F%20%22NR-F553WX-W1%22"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw/f/ \"NR-F553WX-W1\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%2Ff%2F%20%22NR-F553WX-W1%22"
+          }
+        ],
+        "candidateDisposition": "以 NR-F553WX-W1 含顏色後綴完整型號逐站搜尋 Mobile01、PTT、Dcard。三組獨立原始網站查詢均無同型號候選，無原頁可回讀。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "以 NR-F553WX-W1 含顏色後綴完整型號逐站搜尋 Mobile01、PTT、Dcard。三組獨立原始網站查詢均無同型號候選，無原頁可回讀。 未達同一問題至少 6 位獨立同型使用者、跨 2 個原始網站的門檻。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate",
+        "status": "completed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-11-14",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com/topicdetail.php \"NR-F553WX-W1\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%2Ftopicdetail.php%20%22NR-F553WX-W1%22"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc/bbs/ \"NR-F553WX-W1\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%2Fbbs%2F%20%22NR-F553WX-W1%22"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw/f/ \"NR-F553WX-W1\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%2Ff%2F%20%22NR-F553WX-W1%22"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com/topicdetail.php \"NR-F553WX-W1\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%2Ftopicdetail.php%20%22NR-F553WX-W1%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%2Ftopicdetail.php%20%22NR-F553WX-W1%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-13T23:34:48.336Z",
+          "note": "逐站查詢完整原廠型號後人工確認結果無可回讀候選。"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc/bbs/ \"NR-F553WX-W1\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%2Fbbs%2F%20%22NR-F553WX-W1%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Aptt.cc%2Fbbs%2F%20%22NR-F553WX-W1%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-13T23:34:48.336Z",
+          "note": "逐站查詢完整原廠型號後人工確認結果無可回讀候選。"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "site:dcard.tw/f/ \"NR-F553WX-W1\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%2Ff%2F%20%22NR-F553WX-W1%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Adcard.tw%2Ff%2F%20%22NR-F553WX-W1%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-13T23:34:48.336Z",
+          "note": "逐站查詢完整原廠型號後人工確認結果無可回讀候選。"
+        }
+      ],
+      "rejectedCandidates": [],
+      "evidence": [],
+      "reports": []
+    },
+    {
+      "id": "refrigerator-panasonic-nr-f523hx-h1",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-F523HX-H1",
+      "name": "日本製520L日系上質玻璃六門變頻冰箱（霧晶灰）",
+      "identity": {
+        "canonicalModel": "NR-F523HX-H1",
+        "lookupLabel": "Panasonic NR-F523HX-H1",
+        "aliases": [
+          "NR-F523HX-H1",
+          "Panasonic NR-F523HX-H1"
+        ],
+        "evidenceUrl": "https://www.panasonic.com/tw/consumer/refrigerator/six-door/nr-f523hx.html"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "id": "refrigerator-panasonic-nr-f523hx-h1",
+        "category": "refrigerator",
+        "brand": "Panasonic",
+        "model": "NR-F523HX-H1",
+        "name": "日本製520L日系上質玻璃六門變頻冰箱（霧晶灰）",
+        "reviewedAt": "2026-11-14",
+        "reviewBatch": "refrigerator",
+        "decision": "no_common_issue",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT",
+          "Dcard"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com/topicdetail.php \"NR-F523HX-H1\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%2Ftopicdetail.php%20%22NR-F523HX-H1%22"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc/bbs/ \"NR-F523HX-H1\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%2Fbbs%2F%20%22NR-F523HX-H1%22"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw/f/ \"NR-F523HX-H1\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%2Ff%2F%20%22NR-F523HX-H1%22"
+          }
+        ],
+        "candidateDisposition": "以 NR-F523HX-H1 含顏色後綴完整型號逐站搜尋 Mobile01、PTT、Dcard。三組獨立原始網站查詢均無同型號候選，無原頁可回讀。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "以 NR-F523HX-H1 含顏色後綴完整型號逐站搜尋 Mobile01、PTT、Dcard。三組獨立原始網站查詢均無同型號候選，無原頁可回讀。 未達同一問題至少 6 位獨立同型使用者、跨 2 個原始網站的門檻。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate",
+        "status": "completed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-11-14",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com/topicdetail.php \"NR-F523HX-H1\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%2Ftopicdetail.php%20%22NR-F523HX-H1%22"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc/bbs/ \"NR-F523HX-H1\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%2Fbbs%2F%20%22NR-F523HX-H1%22"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw/f/ \"NR-F523HX-H1\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%2Ff%2F%20%22NR-F523HX-H1%22"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com/topicdetail.php \"NR-F523HX-H1\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%2Ftopicdetail.php%20%22NR-F523HX-H1%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%2Ftopicdetail.php%20%22NR-F523HX-H1%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-13T23:34:48.336Z",
+          "note": "逐站查詢完整原廠型號後人工確認結果無可回讀候選。"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc/bbs/ \"NR-F523HX-H1\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%2Fbbs%2F%20%22NR-F523HX-H1%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Aptt.cc%2Fbbs%2F%20%22NR-F523HX-H1%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-13T23:34:48.336Z",
+          "note": "逐站查詢完整原廠型號後人工確認結果無可回讀候選。"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "site:dcard.tw/f/ \"NR-F523HX-H1\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%2Ff%2F%20%22NR-F523HX-H1%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Adcard.tw%2Ff%2F%20%22NR-F523HX-H1%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-13T23:34:48.336Z",
+          "note": "逐站查詢完整原廠型號後人工確認結果無可回讀候選。"
+        }
+      ],
+      "rejectedCandidates": [],
+      "evidence": [],
+      "reports": []
+    },
+    {
+      "id": "mouse-asus-rog-harpe-ii-ace",
+      "category": "mouse",
+      "brand": "ASUS",
+      "model": "90MP0490-BMUA00",
+      "name": "ROG Harpe II Ace 黑色三模無線電競滑鼠",
+      "identity": {
+        "canonicalModel": "90MP0490-BMUA00",
+        "lookupLabel": "ASUS ROG Harpe II Ace 黑色",
+        "aliases": [
+          "90MP0490-BMUA00",
+          "P723",
+          "ROG Harpe II Ace"
+        ],
+        "evidenceUrl": "https://shop.asus.com/tw/90mp0490-bmua00-rog-harpe-ii-ace.html"
+      },
+      "workflowStatus": "completed",
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-11-14",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"90MP0490-BMUA00\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%2290MP0490-BMUA00%22"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"90MP0490-BMUA00\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%2290MP0490-BMUA00%22"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"90MP0490-BMUA00\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%2290MP0490-BMUA00%22"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"90MP0490-BMUA00\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%2290MP0490-BMUA00%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%2290MP0490-BMUA00%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-14"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"90MP0490-BMUA00\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%2290MP0490-BMUA00%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%2290MP0490-BMUA00%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-14"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"90MP0490-BMUA00\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%2290MP0490-BMUA00%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Areddit.com%20%2290MP0490-BMUA00%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-14"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "\"Harpe II Ace\" site:ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=%22Harpe%20II%20Ace%22%20site%3Aptt.cc",
+          "searchUrl": "https://www.google.com/search?q=%22Harpe%20II%20Ace%22%20site%3Aptt.cc",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 5,
+          "candidateUrls": [
+            "https://www.ptt.cc/bbs/Key_Mou_Pad/M.1756745592.A.73F.html",
+            "https://www.ptt.cc/bbs/HardwareSale/M.1791620067.A.3DC.html",
+            "https://www.ptt.cc/bbs/Lifeismoney/M.1780472043.A.7BA.html",
+            "https://www.ptt.cc/bbs/PC_Shopping/M.1767930323.A.165.html",
+            "https://www.ptt.cc/bbs/Key_Mou_Pad/M.1751041806.A.0A0.html"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.ptt.cc/bbs/Key_Mou_Pad/M.1756745592.A.73F.html",
+              "title": "大手抓握新王者？華碩 Harpe II ACE"
+            },
+            {
+              "url": "https://www.ptt.cc/bbs/HardwareSale/M.1791620067.A.3DC.html",
+              "title": "雙北面交：技嘉 2080、ROG Harpe II Ace"
+            },
+            {
+              "url": "https://www.ptt.cc/bbs/Lifeismoney/M.1780472043.A.7BA.html",
+              "title": "華碩 ROG 618 特賣省 1000"
+            },
+            {
+              "url": "https://www.ptt.cc/bbs/PC_Shopping/M.1767930323.A.165.html",
+              "title": "ROG Azoth 96 HE 磁軸鍵盤上市"
+            },
+            {
+              "url": "https://www.ptt.cc/bbs/Key_Mou_Pad/M.1751041806.A.0A0.html",
+              "title": "淘寶啟動！雷柏 VT3 MAX 右手無線電競滑鼠"
+            }
+          ],
+          "inspectedAt": "2026-11-14"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"Harpe II Ace\" site:mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=%22Harpe%20II%20Ace%22%20site%3Amobile01.com",
+          "searchUrl": "https://www.google.com/search?q=%22Harpe%20II%20Ace%22%20site%3Amobile01.com",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 7,
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=497&t=7164775",
+            "https://www.mobile01.com/topicdetail.php?f=497&t=7244181",
+            "https://www.mobile01.com/topicdetail.php?f=497&t=7213603",
+            "https://www.mobile01.com/topicdetail.php?f=497&t=7306711",
+            "https://www.mobile01.com/topicdetail.php?f=497&t=7313845",
+            "https://www.mobile01.com/topicdetail.php?f=497&t=7173196",
+            "https://www.mobile01.com/topicdetail.php?f=497&t=7307347"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7164775",
+              "title": "大手抓握新王者？華碩 Harpe II ACE 無線電競滑鼠"
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7244181",
+              "title": "ROG Harpe II Ace簡易開箱+心得"
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7213603",
+              "title": "ROG Harpe Ace升級請益"
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7306711",
+              "title": "ROG Gladius IV Ace vs Harpe II ACE"
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7313845",
+              "title": "ROG x 影之刃零系列周邊開箱"
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7173196",
+              "title": "三模+輕的電競滑鼠請益"
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7307347",
+              "title": "ROG Gladius IV Ace 56g 可調配重與真 8K 無線滑鼠"
+            }
+          ],
+          "inspectedAt": "2026-11-14"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "\"Harpe II Ace\" site:reddit.com/r/MouseReview click disconnect creaking ASUS",
+          "queryUrl": "https://www.google.com/search?q=%22Harpe%20II%20Ace%22%20site%3Areddit.com%2Fr%2FMouseReview%20click%20disconnect%20creaking%20ASUS",
+          "searchUrl": "https://www.google.com/search?q=%22Harpe%20II%20Ace%22%20site%3Areddit.com%2Fr%2FMouseReview%20click%20disconnect%20creaking%20ASUS",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 12,
+          "candidateUrls": [
+            "https://www.reddit.com/r/MouseReview/comments/1mlp0a8/harpe_ii_ace_impressions_asus_cooked_here/",
+            "https://www.reddit.com/r/MouseReview/comments/1qe5nir/nearly_perfect_harpe_ace_ii_review/",
+            "https://www.reddit.com/r/MouseReview/comments/1vy92o0/harpe_ii_ace_1_year_later/",
+            "https://www.reddit.com/r/MouseReview/comments/1ui6ocs/asus_rog_harpe_ii_ace_did_demon1_cook_review/",
+            "https://www.reddit.com/r/MouseReview/comments/1u8z1kx/sharing_some_thoughts_on_few_on_some_of_the_mice/",
+            "https://www.reddit.com/r/MouseReview/comments/1jib7fa",
+            "https://www.reddit.com/r/MouseReview/comments/1mar3md/harpe_2_ace_via_asus_amazon_us_site_but_not_yet/",
+            "https://www.reddit.com/r/MouseReview/comments/1p834jt/the_asus_rog_harpe_ii_ace_review_the_demon/",
+            "https://www.reddit.com/r/MouseReview/comments/1mifhfe/asus_rog_harpe_ii_ace_worth_the_wait/",
+            "https://www.reddit.com/r/MouseReview/comments/1mq3a48/asus_rog_keris_ii_origin_the_techpowerup_review/",
+            "https://www.reddit.com/r/MouseReview/comments/1pucep6/announcing_the_rog_harpe_ii_ace_lava_red_gaming/",
+            "https://www.reddit.com/r/ASUSROG/comments/1sfl0ie/monthly_rog_gaming_gear_support_megathread_april/"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.reddit.com/r/MouseReview/comments/1mlp0a8/harpe_ii_ace_impressions_asus_cooked_here/",
+              "title": "Harpe II Ace Impressions - ASUS Cooked Here!"
+            },
+            {
+              "url": "https://www.reddit.com/r/MouseReview/comments/1qe5nir/nearly_perfect_harpe_ace_ii_review/",
+              "title": "Nearly Perfect Harpe Ace II Review"
+            },
+            {
+              "url": "https://www.reddit.com/r/MouseReview/comments/1vy92o0/harpe_ii_ace_1_year_later/",
+              "title": "Harpe II Ace 1 year later"
+            },
+            {
+              "url": "https://www.reddit.com/r/MouseReview/comments/1ui6ocs/asus_rog_harpe_ii_ace_did_demon1_cook_review/",
+              "title": "Asus ROG Harpe II Ace | Did Demon1 cook? | Review"
+            },
+            {
+              "url": "https://www.reddit.com/r/MouseReview/comments/1u8z1kx/sharing_some_thoughts_on_few_on_some_of_the_mice/",
+              "title": "Sharing some thoughts on few on some of the mice I own"
+            },
+            {
+              "url": "https://www.reddit.com/r/MouseReview/comments/1jib7fa",
+              "title": "ASUS firmware updates and other Harpe mice"
+            },
+            {
+              "url": "https://www.reddit.com/r/MouseReview/comments/1mar3md/harpe_2_ace_via_asus_amazon_us_site_but_not_yet/",
+              "title": "Harpe 2 ace via ASUS Amazon US site (but not yet available)"
+            },
+            {
+              "url": "https://www.reddit.com/r/MouseReview/comments/1p834jt/the_asus_rog_harpe_ii_ace_review_the_demon/",
+              "title": "The Asus ROG Harpe II Ace Review | The Demon"
+            },
+            {
+              "url": "https://www.reddit.com/r/MouseReview/comments/1mifhfe/asus_rog_harpe_ii_ace_worth_the_wait/",
+              "title": "Asus Rog Harpe II Ace - worth the wait!"
+            },
+            {
+              "url": "https://www.reddit.com/r/MouseReview/comments/1mq3a48/asus_rog_keris_ii_origin_the_techpowerup_review/",
+              "title": "ASUS ROG Keris II Origin: The TechPowerUp Review"
+            },
+            {
+              "url": "https://www.reddit.com/r/MouseReview/comments/1pucep6/announcing_the_rog_harpe_ii_ace_lava_red_gaming/",
+              "title": "Announcing the ROG Harpe II Ace Lava Red Gaming Mouse"
+            },
+            {
+              "url": "https://www.reddit.com/r/ASUSROG/comments/1sfl0ie/monthly_rog_gaming_gear_support_megathread_april/",
+              "title": "Monthly ROG Gaming Gear Support Megathread - April 2026"
+            }
+          ],
+          "inspectedAt": "2026-11-14"
+        },
+        {
+          "platform": "PChome",
+          "targetHost": "24h.pchome.com.tw",
+          "query": "\"Harpe II Ace\" site:24h.pchome.com.tw/prod",
+          "queryUrl": "https://www.google.com/search?q=%22Harpe%20II%20Ace%22%20site%3A24h.pchome.com.tw%2Fprod",
+          "searchUrl": "https://www.google.com/search?q=%22Harpe%20II%20Ace%22%20site%3A24h.pchome.com.tw%2Fprod",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 4,
+          "candidateUrls": [
+            "https://24h.pchome.com.tw/prod/DCANCA-A900J5GHR",
+            "https://24h.pchome.com.tw/prod/DCANCA-A900K1XX7",
+            "https://24h.pchome.com.tw/prod/DSBC0X-A900J7AO2",
+            "https://24h.pchome.com.tw/prod/DCANCA-A900J5RLU"
+          ],
+          "candidates": [
+            {
+              "url": "https://24h.pchome.com.tw/prod/DCANCA-A900J5GHR",
+              "title": "ASUS ROG Harpe II Ace 無線三模電競滑鼠"
+            },
+            {
+              "url": "https://24h.pchome.com.tw/prod/DCANCA-A900K1XX7",
+              "title": "ASUS ROG Harpe II Ace 無線三模電競滑鼠（三色）"
+            },
+            {
+              "url": "https://24h.pchome.com.tw/prod/DSBC0X-A900J7AO2",
+              "title": "南紡 Harpe II Ace 無線電競滑鼠 三模連線"
+            },
+            {
+              "url": "https://24h.pchome.com.tw/prod/DCANCA-A900J5RLU",
+              "title": "ASUS ROG Harpe II Ace 無線電競滑鼠賣場"
+            }
+          ],
+          "inspectedAt": "2026-11-14"
+        }
+      ],
+      "manualReview": {
+        "id": "mouse-asus-rog-harpe-ii-ace",
+        "category": "mouse",
+        "brand": "ASUS",
+        "model": "90MP0490-BMUA00",
+        "name": "ROG Harpe II Ace 黑色三模無線電競滑鼠",
+        "reviewedAt": "2026-11-14",
+        "reviewBatch": "mouse",
+        "decision": "no_common_issue",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT",
+          "Reddit",
+          "PChome"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"90MP0490-BMUA00\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%2290MP0490-BMUA00%22"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"90MP0490-BMUA00\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%2290MP0490-BMUA00%22"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"90MP0490-BMUA00\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%2290MP0490-BMUA00%22"
+          }
+        ],
+        "candidateDisposition": "90MP0490-BMUA00 跨站先查完整黑色料號，再查 Harpe II Ace。原頁顯示按鍵鬆動／連點、休眠延遲、塗層指紋等零星情況，另排除紅白、Extreme／Mini 及 P731 聯名版本。",
+        "representativeSources": [
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/Key_Mou_Pad/M.1756745592.A.73F.html",
+            "title": "大手抓握新王者？華碩 Harpe II ACE"
+          },
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/HardwareSale/M.1791620067.A.3DC.html",
+            "title": "雙北面交：技嘉 2080、ROG Harpe II Ace"
+          },
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/Lifeismoney/M.1780472043.A.7BA.html",
+            "title": "華碩 ROG 618 特賣省 1000"
+          },
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/PC_Shopping/M.1767930323.A.165.html",
+            "title": "ROG Azoth 96 HE 磁軸鍵盤上市"
+          },
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/Key_Mou_Pad/M.1751041806.A.0A0.html",
+            "title": "淘寶啟動！雷柏 VT3 MAX 右手無線電競滑鼠"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7164775",
+            "title": "大手抓握新王者？華碩 Harpe II ACE 無線電競滑鼠"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7244181",
+            "title": "ROG Harpe II Ace簡易開箱+心得"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7213603",
+            "title": "ROG Harpe Ace升級請益"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7306711",
+            "title": "ROG Gladius IV Ace vs Harpe II ACE"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7313845",
+            "title": "ROG x 影之刃零系列周邊開箱"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7173196",
+            "title": "三模+輕的電競滑鼠請益"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7307347",
+            "title": "ROG Gladius IV Ace 56g 可調配重與真 8K 無線滑鼠"
+          },
+          {
+            "platform": "PChome",
+            "url": "https://24h.pchome.com.tw/prod/DCANCA-A900J5GHR",
+            "title": "ASUS ROG Harpe II Ace 無線三模電競滑鼠"
+          },
+          {
+            "platform": "PChome",
+            "url": "https://24h.pchome.com.tw/prod/DCANCA-A900K1XX7",
+            "title": "ASUS ROG Harpe II Ace 無線三模電競滑鼠（三色）"
+          },
+          {
+            "platform": "PChome",
+            "url": "https://24h.pchome.com.tw/prod/DSBC0X-A900J7AO2",
+            "title": "南紡 Harpe II Ace 無線電競滑鼠 三模連線"
+          },
+          {
+            "platform": "PChome",
+            "url": "https://24h.pchome.com.tw/prod/DCANCA-A900J5RLU",
+            "title": "ASUS ROG Harpe II Ace 無線電競滑鼠賣場"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/MouseReview/comments/1mlp0a8/harpe_ii_ace_impressions_asus_cooked_here/",
+            "title": "Harpe II Ace Impressions - ASUS Cooked Here!"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/MouseReview/comments/1qe5nir/nearly_perfect_harpe_ace_ii_review/",
+            "title": "Nearly Perfect Harpe Ace II Review"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/MouseReview/comments/1vy92o0/harpe_ii_ace_1_year_later/",
+            "title": "Harpe II Ace 1 year later"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/MouseReview/comments/1ui6ocs/asus_rog_harpe_ii_ace_did_demon1_cook_review/",
+            "title": "Asus ROG Harpe II Ace | Did Demon1 cook? | Review"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/MouseReview/comments/1u8z1kx/sharing_some_thoughts_on_few_on_some_of_the_mice/",
+            "title": "Sharing some thoughts on few on some of the mice I own"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/MouseReview/comments/1jib7fa",
+            "title": "ASUS firmware updates and other Harpe mice"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/MouseReview/comments/1mar3md/harpe_2_ace_via_asus_amazon_us_site_but_not_yet/",
+            "title": "Harpe 2 ace via ASUS Amazon US site (but not yet available)"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/MouseReview/comments/1p834jt/the_asus_rog_harpe_ii_ace_review_the_demon/",
+            "title": "The Asus ROG Harpe II Ace Review | The Demon"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/MouseReview/comments/1mifhfe/asus_rog_harpe_ii_ace_worth_the_wait/",
+            "title": "Asus Rog Harpe II Ace - worth the wait!"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/MouseReview/comments/1mq3a48/asus_rog_keris_ii_origin_the_techpowerup_review/",
+            "title": "ASUS ROG Keris II Origin: The TechPowerUp Review"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/MouseReview/comments/1pucep6/announcing_the_rog_harpe_ii_ace_lava_red_gaming/",
+            "title": "Announcing the ROG Harpe II Ace Lava Red Gaming Mouse"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/ASUSROG/comments/1sfl0ie/monthly_rog_gaming_gear_support_megathread_april/",
+            "title": "Monthly ROG Gaming Gear Support Megathread - April 2026"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/Key_Mou_Pad/M.1756745592.A.73F.html",
+            "title": "大手抓握新王者？華碩 Harpe II ACE",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "Ohmy",
+              "kevinHo",
+              "oiukjyhntgb"
+            ],
+            "sourceExcerpt": "Ohmy 試用黑色、3.x 版未遇啟動延遲，轉述早期外地影片。",
+            "specificReason": "短期試用沒有重現，轉述及留言的 Harpe Ace Mini 經驗不能算同型號第一人稱故障。",
+            "locator": "Ohmy 心得節末段及 9/2–9/3 推文",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-14",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/HardwareSale/M.1791620067.A.3DC.html",
+            "title": "雙北面交：技嘉 2080、ROG Harpe II Ace",
+            "exactModel": false,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "nekoron1209"
+            ],
+            "sourceExcerpt": "出售的是試過通電的白色贈品，故障／風扇噪音段在另一件 RTX 2080。",
+            "specificReason": "白色非本次黑色 SKU，私人轉賣與另一項商品的噪音均不得計入。",
+            "locator": "商品清單第 2 項與品樣狀況",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-14",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/Lifeismoney/M.1780472043.A.7BA.html",
+            "title": "華碩 ROG 618 特賣省 1000",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAuthors": [],
+            "sourceExcerpt": "版友轉貼 Harpe II Ace 特賣價 NT$3,990 及活動資訊。",
+            "specificReason": "促銷資訊只列系列名，沒有使用故障或黑色 SKU 購買憑證。",
+            "locator": "主文 HARPE II ACE 折扣段",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-14",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/PC_Shopping/M.1767930323.A.165.html",
+            "title": "ROG Azoth 96 HE 磁軸鍵盤上市",
+            "exactModel": false,
+            "independentAuthors": 0,
+            "reviewedAuthors": [],
+            "sourceExcerpt": "主文是 Azoth 96 HE 鍵盤上市，附註 Harpe II Ace Lava Red。",
+            "specificReason": "提及的是紅色支線的新品消息，沒有黑色 SKU 的第一人稱使用問題。",
+            "locator": "主文末段 Lava Red 補充",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-14",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/Key_Mou_Pad/M.1751041806.A.0A0.html",
+            "title": "淘寶啟動！雷柏 VT3 MAX 右手無線電競滑鼠",
+            "exactModel": false,
+            "independentAuthors": 0,
+            "reviewedAuthors": [],
+            "sourceExcerpt": "主文測試雷柏 VT3 MAX，留言提 Harpe II Ace 為下一款選購選項。",
+            "specificReason": "塗層或手感描述以雷柏現有機為主，Harpe II Ace 沒有持有者故障資料。",
+            "locator": "主文與 Harpe II Ace 選購回覆",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-14",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7164775",
+            "title": "大手抓握新王者？華碩 Harpe II ACE 無線電競滑鼠",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "ohmybear"
+            ],
+            "sourceExcerpt": "同 PTT 黑色試用內容，作者使用 3.x 韌體未遇啟動延遲。",
+            "specificReason": "作者文句、照片與 PTT Ohmy 內容重複，其他地區影片的問題也非作者實測。",
+            "locator": "樓主 #1／92085976 的心得與韌體段",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-14",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7244181",
+            "title": "ROG Harpe II Ace簡易開箱+心得",
+            "exactModel": false,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "大懶熊愛耍懶"
+            ],
+            "sourceExcerpt": "紅色款使用數日，稱微動較重但喜歡，未述按鍵故障。",
+            "specificReason": "紅色版本不轉入黑色，喜好描述也無失靈、重複輸入或異音故障。",
+            "locator": "樓主 #1／92974364，微動與回覆配色",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-14",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7213603",
+            "title": "ROG Harpe Ace升級請益",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAuthors": [],
+            "sourceExcerpt": "一代持有人詢問升級第二代，回覆稱第二代較輕且回饋有所調整。",
+            "specificReason": "第一代和選購疑問無法證實黑色第二代故障，第二代回覆未報失靈。",
+            "locator": "樓主開頭及升級建議回覆",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-14",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7306711",
+            "title": "ROG Gladius IV Ace vs Harpe II ACE",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "pipi123456789",
+              "stainyu"
+            ],
+            "sourceExcerpt": "樓主詢問兩款差異，stainyu 回覆自己在用 Harpe II，主要談報價與選購。",
+            "specificReason": "只有比較、使用感受及價格，未提供黑色 Harpe II 同一項具體故障。",
+            "locator": "樓主 #1／93632973，stainyu #2／93633221",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-14",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7313845",
+            "title": "ROG x 影之刃零系列周邊開箱",
+            "exactModel": false,
+            "independentAuthors": 0,
+            "reviewedAuthors": [],
+            "sourceExcerpt": "本體是 49 g 雕刻外殼的影之刃零聯名，原稿談配件沿用。",
+            "specificReason": "P731 聯名版不同於 P723 黑色，開箱和外觀意見不可移用。",
+            "locator": "ROG Harpe II Ace 聯名款段",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-14",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7173196",
+            "title": "三模+輕的電競滑鼠請益",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAuthors": [],
+            "sourceExcerpt": "求推薦者使用的羅技舊滑鼠曾連點，有回覆建議 Harpe II Ace。",
+            "specificReason": "連點屬其他品牌，Harpe II Ace 只是選購建議並未指明故障。",
+            "locator": "樓主連點描述及 Harpe II Ace 推薦留言",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-14",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7307347",
+            "title": "ROG Gladius IV Ace 56g 可調配重與真 8K 無線滑鼠",
+            "exactModel": false,
+            "independentAuthors": 0,
+            "reviewedAuthors": [],
+            "sourceExcerpt": "主文測試 Gladius IV Ace 配重，提及和 Harpe II Ace 的用料相似。",
+            "specificReason": "主產品及配重機構皆與 P723 不同，相似用料不足以轉移問題。",
+            "locator": "配重與外殼用料章節",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-14",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "PChome",
+            "url": "https://24h.pchome.com.tw/prod/DCANCA-A900J5GHR",
+            "title": "ASUS ROG Harpe II Ace 無線三模電競滑鼠",
+            "exactModel": true,
+            "independentAuthors": 1,
+            "reviewedAuthors": [
+              "陳**"
+            ],
+            "sourceExcerpt": "2025-10-01 黑色買家提到乾爽塗層較易留下油指紋、難擦，仍可正常使用。",
+            "specificReason": "單一台灣零售留言是黑色塗層表面觀察，無法與其他版本變亮或按鍵異常合併。",
+            "locator": "商品評價最相關，陳** 2025-10-01 黑色",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-14",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "PChome",
+            "url": "https://24h.pchome.com.tw/prod/DCANCA-A900K1XX7",
+            "title": "ASUS ROG Harpe II Ace 無線三模電競滑鼠（三色）",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAuthors": [],
+            "sourceExcerpt": "同系列混黑白紅，評價摘要列正評，內容另有原廠機身圖。",
+            "specificReason": "僅依可識別的評價原文判讀，同時以顏色和型號排除廣告及混合選項。",
+            "locator": "主商品規格與商品評價區",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-14",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "PChome",
+            "url": "https://24h.pchome.com.tw/prod/DSBC0X-A900J7AO2",
+            "title": "南紡 Harpe II Ace 無線電競滑鼠 三模連線",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAuthors": [],
+            "sourceExcerpt": "黑、白、紅及贈品選項共用一頁，商品說明展示三模與開箱影片。",
+            "specificReason": "通路商品敘述及宣傳影片不是可辨識的黑色買家故障回報。",
+            "locator": "規格選擇與商品詳情",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-14",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "PChome",
+            "url": "https://24h.pchome.com.tw/prod/DCANCA-A900J5RLU",
+            "title": "ASUS ROG Harpe II Ace 無線電競滑鼠賣場",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAuthors": [],
+            "sourceExcerpt": "頁內容為同系列廣告與購買規格，未呈現可歸屬黑色 SKU 故障的原文。",
+            "specificReason": "商品促銷和品牌規格圖不作第一人稱回報，顏色不明的評論不外推。",
+            "locator": "主商品頁與商品說明",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-14",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/MouseReview/comments/1mlp0a8/harpe_ii_ace_impressions_asus_cooked_here/",
+            "title": "Harpe II Ace Impressions - ASUS Cooked Here!",
+            "exactModel": true,
+            "independentAuthors": 4,
+            "reviewedAuthors": [
+              "pervysage19",
+              "Klutzy_Grand_3583",
+              "-VLLN-",
+              "Macrackle",
+              "-m4gg0t-"
+            ],
+            "sourceExcerpt": "用戶分別提 Zone 游標抖動、休眠喚醒延遲、按鍵晃動和淘寶黑色 click chattering，樓主稱更新後穩定。",
+            "specificReason": "不同情況不能合併，兩個按鍵回報來自同一站且台灣供貨批次未核，樓主未重現。",
+            "locator": "Klutzy_Grand_3583、-VLLN-、Macrackle 及 -m4gg0t- 各自留言",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-14",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/MouseReview/comments/1qe5nir/nearly_perfect_harpe_ace_ii_review/",
+            "title": "Nearly Perfect Harpe Ace II Review",
+            "exactModel": true,
+            "independentAuthors": 1,
+            "reviewedAuthors": [
+              "ProwlerCaboose",
+              "vjlle"
+            ],
+            "sourceExcerpt": "vjlle 指按鍵有 rattling 和較長空行程，樓主的兩台沒有同感。",
+            "specificReason": "單一同系列按鍵異音描述，地域／顏色未標，與功能性重複輸入分開。",
+            "locator": "vjlle 2026-01-21 留言與 ProwlerCaboose 回應",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-14",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/MouseReview/comments/1vy92o0/harpe_ii_ace_1_year_later/",
+            "title": "Harpe II Ace 1 year later",
+            "exactModel": true,
+            "independentAuthors": 2,
+            "reviewedAuthors": [
+              "Jahdill",
+              "Not_in_my_mouth"
+            ],
+            "sourceExcerpt": "Jahdill 指塗層局部變亮和按鍵聲偏空，Not_in_my_mouth 稱自己的兩台都連點。",
+            "specificReason": "同一帳號兩台只算一人，手感、塗層與連點是不同問題，黑色台灣批次未確認。",
+            "locator": "Small Cons 與 Not_in_my_mouth 的 double click 回覆",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-14",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/MouseReview/comments/1ui6ocs/asus_rog_harpe_ii_ace_did_demon1_cook_review/",
+            "title": "Asus ROG Harpe II Ace | Did Demon1 cook? | Review",
+            "exactModel": false,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "Hi_Im_Licious"
+            ],
+            "sourceExcerpt": "使用者測試明示白色版本，只有很特定按壓位置有些許側向晃動。",
+            "specificReason": "白色且有特定施力位置，不能外推黑色原廠 SKU 使用時故障。",
+            "locator": "主文首段配色及 Main Clicks",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-14",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/MouseReview/comments/1u8z1kx/sharing_some_thoughts_on_few_on_some_of_the_mice/",
+            "title": "Sharing some thoughts on few on some of the mice I own",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "I_like_GILFssss",
+              "Jahdill"
+            ],
+            "sourceExcerpt": "原作者喜歡 Harpe II，外殼聲音多屬其他型號。Jahdill 在此回稱自己的 Harpe II 自上市使用正常。",
+            "specificReason": "其他品牌與型號的異音排除，重複出現的 Jahdill 不是新的獨立故障人數。",
+            "locator": "主文各型號段落、Jahdill 回覆",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-14",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/MouseReview/comments/1jib7fa",
+            "title": "ASUS firmware updates and other Harpe mice",
+            "exactModel": false,
+            "independentAuthors": 0,
+            "reviewedAuthors": [],
+            "sourceExcerpt": "原文是 Keris AimPoint／原版 Harpe Ace，跟進提 Harpe Ace Mini、Keris II Ace。",
+            "specificReason": "原文早於本款台灣正式上市，近似系列型號韌體問題不可延伸。",
+            "locator": "主文標題與型號列舉",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-14",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/MouseReview/comments/1mar3md/harpe_2_ace_via_asus_amazon_us_site_but_not_yet/",
+            "title": "Harpe 2 ace via ASUS Amazon US site (but not yet available)",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAuthors": [],
+            "sourceExcerpt": "上市前美國選購貼，留言對比 Harpe Mini、DeathAdder 及 Viper。",
+            "specificReason": "舊 Mini 外殼聲音與上市期待均未證實本收錄黑色 SKU 存在故障。",
+            "locator": "主文標題及討論 Mini 的回覆",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-14",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/MouseReview/comments/1p834jt/the_asus_rog_harpe_ii_ace_review_the_demon/",
+            "title": "The Asus ROG Harpe II Ace Review | The Demon",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "Aithecaninternet"
+            ],
+            "sourceExcerpt": "作者測試玻璃滑鼠墊時追蹤正常，形容受測本體無外殼異音。",
+            "specificReason": "屬同系列原用戶對手感和測試條件的描述，無同一項負面故障。",
+            "locator": "Aithecaninternet 的 Sensor 與 Build 章節",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-14",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/MouseReview/comments/1mifhfe/asus_rog_harpe_ii_ace_worth_the_wait/",
+            "title": "Asus Rog Harpe II Ace - worth the wait!",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAuthors": [],
+            "sourceExcerpt": "討論滑鼠設計、按鍵聲音與其他對比款，Viper V3 Pro 的按鍵聲另述。",
+            "specificReason": "比較型號的聲音不歸入 Harpe II Ace，也沒有可核的本黑色 SKU 連點。",
+            "locator": "回覆討論 Viper V3 Pro 的聲音",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-14",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/MouseReview/comments/1mq3a48/asus_rog_keris_ii_origin_the_techpowerup_review/",
+            "title": "ASUS ROG Keris II Origin: The TechPowerUp Review",
+            "exactModel": true,
+            "independentAuthors": 1,
+            "reviewedAuthors": [
+              "Ok-Cress-249"
+            ],
+            "sourceExcerpt": "留言 Ok-Cress-249 自述 Harpe II 滾輪鬆動、左鍵不平而退貨。",
+            "specificReason": "一人回報兩個部位的裝配現象，其他留言提 Keris 的換軸故障不可合併，台灣批次不明。",
+            "locator": "Ok-Cress-249 提及 Harpe Ace II 的獨立留言",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-14",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/MouseReview/comments/1pucep6/announcing_the_rog_harpe_ii_ace_lava_red_gaming/",
+            "title": "Announcing the ROG Harpe II Ace Lava Red Gaming Mouse",
+            "exactModel": false,
+            "independentAuthors": 0,
+            "reviewedAuthors": [],
+            "sourceExcerpt": "品牌公告 Lava Red，留言也談原版 Harpe Ace Mini。",
+            "specificReason": "紅配色新品與 Mini 分支不能當本次黑色 SKU 的故障來源。",
+            "locator": "主文標題與 Ace Mini 回覆",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-14",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/ASUSROG/comments/1sfl0ie/monthly_rog_gaming_gear_support_megathread_april/",
+            "title": "Monthly ROG Gaming Gear Support Megathread - April 2026",
+            "exactModel": false,
+            "independentAuthors": 0,
+            "reviewedAuthors": [],
+            "sourceExcerpt": "滾輪點按後滑鼠失效的該則貼文自稱 Harpe Ace Extreme。",
+            "specificReason": "Extreme 不是 P723 Harpe II Ace，品牌相同不足以當同型號事件。",
+            "locator": "Harpe Ace Extreme 使用者留言",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-14",
+            "reviewBasis": "manual_web_original_page"
+          }
+        ],
+        "reviewerNote": "90MP0490-BMUA00：黑色台灣通路一位買家描述指紋，Reddit 有幾則按鍵鬆動、連點、左鍵不平或異音，報告涵蓋不同型態，多數未明地區或顏色，未達兩個獨立網站各自能重現的同一問題六人門檻。PTT／Mobile01 的黑色試用為同篇跨站且未重現啟動延遲。",
+        "attestation": "manual_original_pages_reviewed",
+        "status": "completed"
+      },
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "platform": "PTT",
+          "url": "https://www.ptt.cc/bbs/Key_Mou_Pad/M.1756745592.A.73F.html",
+          "title": "大手抓握新王者？華碩 Harpe II ACE",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "Ohmy",
+            "kevinHo",
+            "oiukjyhntgb"
+          ],
+          "sourceExcerpt": "Ohmy 試用黑色、3.x 版未遇啟動延遲，轉述早期外地影片。",
+          "specificReason": "短期試用沒有重現，轉述及留言的 Harpe Ace Mini 經驗不能算同型號第一人稱故障。",
+          "locator": "Ohmy 心得節末段及 9/2–9/3 推文",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-14",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "短期試用沒有重現，轉述及留言的 Harpe Ace Mini 經驗不能算同型號第一人稱故障。"
+        },
+        {
+          "platform": "PTT",
+          "url": "https://www.ptt.cc/bbs/HardwareSale/M.1791620067.A.3DC.html",
+          "title": "雙北面交：技嘉 2080、ROG Harpe II Ace",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "nekoron1209"
+          ],
+          "sourceExcerpt": "出售的是試過通電的白色贈品，故障／風扇噪音段在另一件 RTX 2080。",
+          "specificReason": "白色非本次黑色 SKU，私人轉賣與另一項商品的噪音均不得計入。",
+          "locator": "商品清單第 2 項與品樣狀況",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-14",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "白色非本次黑色 SKU，私人轉賣與另一項商品的噪音均不得計入。"
+        },
+        {
+          "platform": "PTT",
+          "url": "https://www.ptt.cc/bbs/Lifeismoney/M.1780472043.A.7BA.html",
+          "title": "華碩 ROG 618 特賣省 1000",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [],
+          "sourceExcerpt": "版友轉貼 Harpe II Ace 特賣價 NT$3,990 及活動資訊。",
+          "specificReason": "促銷資訊只列系列名，沒有使用故障或黑色 SKU 購買憑證。",
+          "locator": "主文 HARPE II ACE 折扣段",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-14",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "促銷資訊只列系列名，沒有使用故障或黑色 SKU 購買憑證。"
+        },
+        {
+          "platform": "PTT",
+          "url": "https://www.ptt.cc/bbs/PC_Shopping/M.1767930323.A.165.html",
+          "title": "ROG Azoth 96 HE 磁軸鍵盤上市",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "reviewedAuthors": [],
+          "sourceExcerpt": "主文是 Azoth 96 HE 鍵盤上市，附註 Harpe II Ace Lava Red。",
+          "specificReason": "提及的是紅色支線的新品消息，沒有黑色 SKU 的第一人稱使用問題。",
+          "locator": "主文末段 Lava Red 補充",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-14",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "提及的是紅色支線的新品消息，沒有黑色 SKU 的第一人稱使用問題。"
+        },
+        {
+          "platform": "PTT",
+          "url": "https://www.ptt.cc/bbs/Key_Mou_Pad/M.1751041806.A.0A0.html",
+          "title": "淘寶啟動！雷柏 VT3 MAX 右手無線電競滑鼠",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "reviewedAuthors": [],
+          "sourceExcerpt": "主文測試雷柏 VT3 MAX，留言提 Harpe II Ace 為下一款選購選項。",
+          "specificReason": "塗層或手感描述以雷柏現有機為主，Harpe II Ace 沒有持有者故障資料。",
+          "locator": "主文與 Harpe II Ace 選購回覆",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-14",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "塗層或手感描述以雷柏現有機為主，Harpe II Ace 沒有持有者故障資料。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7164775",
+          "title": "大手抓握新王者？華碩 Harpe II ACE 無線電競滑鼠",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "ohmybear"
+          ],
+          "sourceExcerpt": "同 PTT 黑色試用內容，作者使用 3.x 韌體未遇啟動延遲。",
+          "specificReason": "作者文句、照片與 PTT Ohmy 內容重複，其他地區影片的問題也非作者實測。",
+          "locator": "樓主 #1／92085976 的心得與韌體段",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-14",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "作者文句、照片與 PTT Ohmy 內容重複，其他地區影片的問題也非作者實測。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7244181",
+          "title": "ROG Harpe II Ace簡易開箱+心得",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "大懶熊愛耍懶"
+          ],
+          "sourceExcerpt": "紅色款使用數日，稱微動較重但喜歡，未述按鍵故障。",
+          "specificReason": "紅色版本不轉入黑色，喜好描述也無失靈、重複輸入或異音故障。",
+          "locator": "樓主 #1／92974364，微動與回覆配色",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-14",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "紅色版本不轉入黑色，喜好描述也無失靈、重複輸入或異音故障。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7213603",
+          "title": "ROG Harpe Ace升級請益",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [],
+          "sourceExcerpt": "一代持有人詢問升級第二代，回覆稱第二代較輕且回饋有所調整。",
+          "specificReason": "第一代和選購疑問無法證實黑色第二代故障，第二代回覆未報失靈。",
+          "locator": "樓主開頭及升級建議回覆",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-14",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "第一代和選購疑問無法證實黑色第二代故障，第二代回覆未報失靈。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7306711",
+          "title": "ROG Gladius IV Ace vs Harpe II ACE",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "pipi123456789",
+            "stainyu"
+          ],
+          "sourceExcerpt": "樓主詢問兩款差異，stainyu 回覆自己在用 Harpe II，主要談報價與選購。",
+          "specificReason": "只有比較、使用感受及價格，未提供黑色 Harpe II 同一項具體故障。",
+          "locator": "樓主 #1／93632973，stainyu #2／93633221",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-14",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "只有比較、使用感受及價格，未提供黑色 Harpe II 同一項具體故障。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7313845",
+          "title": "ROG x 影之刃零系列周邊開箱",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "reviewedAuthors": [],
+          "sourceExcerpt": "本體是 49 g 雕刻外殼的影之刃零聯名，原稿談配件沿用。",
+          "specificReason": "P731 聯名版不同於 P723 黑色，開箱和外觀意見不可移用。",
+          "locator": "ROG Harpe II Ace 聯名款段",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-14",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "P731 聯名版不同於 P723 黑色，開箱和外觀意見不可移用。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7173196",
+          "title": "三模+輕的電競滑鼠請益",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [],
+          "sourceExcerpt": "求推薦者使用的羅技舊滑鼠曾連點，有回覆建議 Harpe II Ace。",
+          "specificReason": "連點屬其他品牌，Harpe II Ace 只是選購建議並未指明故障。",
+          "locator": "樓主連點描述及 Harpe II Ace 推薦留言",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-14",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "連點屬其他品牌，Harpe II Ace 只是選購建議並未指明故障。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7307347",
+          "title": "ROG Gladius IV Ace 56g 可調配重與真 8K 無線滑鼠",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "reviewedAuthors": [],
+          "sourceExcerpt": "主文測試 Gladius IV Ace 配重，提及和 Harpe II Ace 的用料相似。",
+          "specificReason": "主產品及配重機構皆與 P723 不同，相似用料不足以轉移問題。",
+          "locator": "配重與外殼用料章節",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-14",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "主產品及配重機構皆與 P723 不同，相似用料不足以轉移問題。"
+        },
+        {
+          "platform": "PChome",
+          "url": "https://24h.pchome.com.tw/prod/DCANCA-A900J5GHR",
+          "title": "ASUS ROG Harpe II Ace 無線三模電競滑鼠",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "reviewedAuthors": [
+            "陳**"
+          ],
+          "sourceExcerpt": "2025-10-01 黑色買家提到乾爽塗層較易留下油指紋、難擦，仍可正常使用。",
+          "specificReason": "單一台灣零售留言是黑色塗層表面觀察，無法與其他版本變亮或按鍵異常合併。",
+          "locator": "商品評價最相關，陳** 2025-10-01 黑色",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-14",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "單一台灣零售留言是黑色塗層表面觀察，無法與其他版本變亮或按鍵異常合併。"
+        },
+        {
+          "platform": "PChome",
+          "url": "https://24h.pchome.com.tw/prod/DCANCA-A900K1XX7",
+          "title": "ASUS ROG Harpe II Ace 無線三模電競滑鼠（三色）",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [],
+          "sourceExcerpt": "同系列混黑白紅，評價摘要列正評，內容另有原廠機身圖。",
+          "specificReason": "僅依可識別的評價原文判讀，同時以顏色和型號排除廣告及混合選項。",
+          "locator": "主商品規格與商品評價區",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-14",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "僅依可識別的評價原文判讀，同時以顏色和型號排除廣告及混合選項。"
+        },
+        {
+          "platform": "PChome",
+          "url": "https://24h.pchome.com.tw/prod/DSBC0X-A900J7AO2",
+          "title": "南紡 Harpe II Ace 無線電競滑鼠 三模連線",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [],
+          "sourceExcerpt": "黑、白、紅及贈品選項共用一頁，商品說明展示三模與開箱影片。",
+          "specificReason": "通路商品敘述及宣傳影片不是可辨識的黑色買家故障回報。",
+          "locator": "規格選擇與商品詳情",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-14",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "通路商品敘述及宣傳影片不是可辨識的黑色買家故障回報。"
+        },
+        {
+          "platform": "PChome",
+          "url": "https://24h.pchome.com.tw/prod/DCANCA-A900J5RLU",
+          "title": "ASUS ROG Harpe II Ace 無線電競滑鼠賣場",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [],
+          "sourceExcerpt": "頁內容為同系列廣告與購買規格，未呈現可歸屬黑色 SKU 故障的原文。",
+          "specificReason": "商品促銷和品牌規格圖不作第一人稱回報，顏色不明的評論不外推。",
+          "locator": "主商品頁與商品說明",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-14",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "商品促銷和品牌規格圖不作第一人稱回報，顏色不明的評論不外推。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/MouseReview/comments/1mlp0a8/harpe_ii_ace_impressions_asus_cooked_here/",
+          "title": "Harpe II Ace Impressions - ASUS Cooked Here!",
+          "exactModel": true,
+          "independentAuthors": 4,
+          "reviewedAuthors": [
+            "pervysage19",
+            "Klutzy_Grand_3583",
+            "-VLLN-",
+            "Macrackle",
+            "-m4gg0t-"
+          ],
+          "sourceExcerpt": "用戶分別提 Zone 游標抖動、休眠喚醒延遲、按鍵晃動和淘寶黑色 click chattering，樓主稱更新後穩定。",
+          "specificReason": "不同情況不能合併，兩個按鍵回報來自同一站且台灣供貨批次未核，樓主未重現。",
+          "locator": "Klutzy_Grand_3583、-VLLN-、Macrackle 及 -m4gg0t- 各自留言",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-14",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "不同情況不能合併，兩個按鍵回報來自同一站且台灣供貨批次未核，樓主未重現。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/MouseReview/comments/1qe5nir/nearly_perfect_harpe_ace_ii_review/",
+          "title": "Nearly Perfect Harpe Ace II Review",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "reviewedAuthors": [
+            "ProwlerCaboose",
+            "vjlle"
+          ],
+          "sourceExcerpt": "vjlle 指按鍵有 rattling 和較長空行程，樓主的兩台沒有同感。",
+          "specificReason": "單一同系列按鍵異音描述，地域／顏色未標，與功能性重複輸入分開。",
+          "locator": "vjlle 2026-01-21 留言與 ProwlerCaboose 回應",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-14",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "單一同系列按鍵異音描述，地域／顏色未標，與功能性重複輸入分開。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/MouseReview/comments/1vy92o0/harpe_ii_ace_1_year_later/",
+          "title": "Harpe II Ace 1 year later",
+          "exactModel": true,
+          "independentAuthors": 2,
+          "reviewedAuthors": [
+            "Jahdill",
+            "Not_in_my_mouth"
+          ],
+          "sourceExcerpt": "Jahdill 指塗層局部變亮和按鍵聲偏空，Not_in_my_mouth 稱自己的兩台都連點。",
+          "specificReason": "同一帳號兩台只算一人，手感、塗層與連點是不同問題，黑色台灣批次未確認。",
+          "locator": "Small Cons 與 Not_in_my_mouth 的 double click 回覆",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-14",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "同一帳號兩台只算一人，手感、塗層與連點是不同問題，黑色台灣批次未確認。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/MouseReview/comments/1ui6ocs/asus_rog_harpe_ii_ace_did_demon1_cook_review/",
+          "title": "Asus ROG Harpe II Ace | Did Demon1 cook? | Review",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "Hi_Im_Licious"
+          ],
+          "sourceExcerpt": "使用者測試明示白色版本，只有很特定按壓位置有些許側向晃動。",
+          "specificReason": "白色且有特定施力位置，不能外推黑色原廠 SKU 使用時故障。",
+          "locator": "主文首段配色及 Main Clicks",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-14",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "白色且有特定施力位置，不能外推黑色原廠 SKU 使用時故障。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/MouseReview/comments/1u8z1kx/sharing_some_thoughts_on_few_on_some_of_the_mice/",
+          "title": "Sharing some thoughts on few on some of the mice I own",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "I_like_GILFssss",
+            "Jahdill"
+          ],
+          "sourceExcerpt": "原作者喜歡 Harpe II，外殼聲音多屬其他型號。Jahdill 在此回稱自己的 Harpe II 自上市使用正常。",
+          "specificReason": "其他品牌與型號的異音排除，重複出現的 Jahdill 不是新的獨立故障人數。",
+          "locator": "主文各型號段落、Jahdill 回覆",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-14",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "其他品牌與型號的異音排除，重複出現的 Jahdill 不是新的獨立故障人數。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/MouseReview/comments/1jib7fa",
+          "title": "ASUS firmware updates and other Harpe mice",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "reviewedAuthors": [],
+          "sourceExcerpt": "原文是 Keris AimPoint／原版 Harpe Ace，跟進提 Harpe Ace Mini、Keris II Ace。",
+          "specificReason": "原文早於本款台灣正式上市，近似系列型號韌體問題不可延伸。",
+          "locator": "主文標題與型號列舉",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-14",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "原文早於本款台灣正式上市，近似系列型號韌體問題不可延伸。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/MouseReview/comments/1mar3md/harpe_2_ace_via_asus_amazon_us_site_but_not_yet/",
+          "title": "Harpe 2 ace via ASUS Amazon US site (but not yet available)",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [],
+          "sourceExcerpt": "上市前美國選購貼，留言對比 Harpe Mini、DeathAdder 及 Viper。",
+          "specificReason": "舊 Mini 外殼聲音與上市期待均未證實本收錄黑色 SKU 存在故障。",
+          "locator": "主文標題及討論 Mini 的回覆",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-14",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "舊 Mini 外殼聲音與上市期待均未證實本收錄黑色 SKU 存在故障。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/MouseReview/comments/1p834jt/the_asus_rog_harpe_ii_ace_review_the_demon/",
+          "title": "The Asus ROG Harpe II Ace Review | The Demon",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "Aithecaninternet"
+          ],
+          "sourceExcerpt": "作者測試玻璃滑鼠墊時追蹤正常，形容受測本體無外殼異音。",
+          "specificReason": "屬同系列原用戶對手感和測試條件的描述，無同一項負面故障。",
+          "locator": "Aithecaninternet 的 Sensor 與 Build 章節",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-14",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "屬同系列原用戶對手感和測試條件的描述，無同一項負面故障。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/MouseReview/comments/1mifhfe/asus_rog_harpe_ii_ace_worth_the_wait/",
+          "title": "Asus Rog Harpe II Ace - worth the wait!",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [],
+          "sourceExcerpt": "討論滑鼠設計、按鍵聲音與其他對比款，Viper V3 Pro 的按鍵聲另述。",
+          "specificReason": "比較型號的聲音不歸入 Harpe II Ace，也沒有可核的本黑色 SKU 連點。",
+          "locator": "回覆討論 Viper V3 Pro 的聲音",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-14",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "比較型號的聲音不歸入 Harpe II Ace，也沒有可核的本黑色 SKU 連點。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/MouseReview/comments/1mq3a48/asus_rog_keris_ii_origin_the_techpowerup_review/",
+          "title": "ASUS ROG Keris II Origin: The TechPowerUp Review",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "reviewedAuthors": [
+            "Ok-Cress-249"
+          ],
+          "sourceExcerpt": "留言 Ok-Cress-249 自述 Harpe II 滾輪鬆動、左鍵不平而退貨。",
+          "specificReason": "一人回報兩個部位的裝配現象，其他留言提 Keris 的換軸故障不可合併，台灣批次不明。",
+          "locator": "Ok-Cress-249 提及 Harpe Ace II 的獨立留言",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-14",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "一人回報兩個部位的裝配現象，其他留言提 Keris 的換軸故障不可合併，台灣批次不明。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/MouseReview/comments/1pucep6/announcing_the_rog_harpe_ii_ace_lava_red_gaming/",
+          "title": "Announcing the ROG Harpe II Ace Lava Red Gaming Mouse",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "reviewedAuthors": [],
+          "sourceExcerpt": "品牌公告 Lava Red，留言也談原版 Harpe Ace Mini。",
+          "specificReason": "紅配色新品與 Mini 分支不能當本次黑色 SKU 的故障來源。",
+          "locator": "主文標題與 Ace Mini 回覆",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-14",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "紅配色新品與 Mini 分支不能當本次黑色 SKU 的故障來源。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/ASUSROG/comments/1sfl0ie/monthly_rog_gaming_gear_support_megathread_april/",
+          "title": "Monthly ROG Gaming Gear Support Megathread - April 2026",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "reviewedAuthors": [],
+          "sourceExcerpt": "滾輪點按後滑鼠失效的該則貼文自稱 Harpe Ace Extreme。",
+          "specificReason": "Extreme 不是 P723 Harpe II Ace，品牌相同不足以當同型號事件。",
+          "locator": "Harpe Ace Extreme 使用者留言",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-14",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "Extreme 不是 P723 Harpe II Ace，品牌相同不足以當同型號事件。"
+        }
+      ],
       "reports": []
     }
   ]

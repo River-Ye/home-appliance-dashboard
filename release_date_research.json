@@ -1,21 +1,21 @@
 {
   "summary": {
-    "checkedAt": "2026-11-12T23:42:01.002Z",
-    "total": 1265,
-    "researchedThisRun": 4,
-    "found": 366,
-    "missing": 899,
+    "checkedAt": "2026-11-13T23:42:33.794Z",
+    "total": 1266,
+    "researchedThisRun": 5,
+    "found": 368,
+    "missing": 898,
     "byConfidence": {
-      "official": 187,
-      "not_found": 896,
+      "official": 188,
+      "not_found": 895,
       "retailer_explicit": 24,
       "credible_article": 52,
-      "high": 82,
+      "high": 83,
       "medium": 21,
       "unknown": 3
     },
     "sourcePolicy": "本輪僅新增/身份更正商品完成獨立上市日研究；既有逐筆證據及實際查核日期保留，不將來源維護範圍當成重新人工研究。",
-    "scopeNote": "2026-11-13 僅新增型號完成上市查核；既有逐筆證據保留原查核日期。"
+    "scopeNote": "2026-11-14 僅新增型號完成上市查核；既有逐筆證據保留原查核日期。"
   },
   "results": [
     {
@@ -3553,40 +3553,6 @@
       ]
     },
     {
-      "id": "dehumidifier-extra-13-dmbq07-a900gfbvp",
-      "category": "dehumidifier",
-      "brand": "LG",
-      "model": "WD261VKF0",
-      "name": "PuriCare 雙變頻除濕機 25.6 公升曜黑",
-      "previousReleaseDate": "2026-03-05",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "\"LG WD261VKF0\" release date launch launched available 上市 發售 開賣 推出",
-      "auditQueries": [
-        "\"LG WD261VKF0\" release date launch launched available",
-        "\"LG WD261VKF0\" 上市 發售 開賣 推出"
-      ],
-      "sourceKind": "not_found",
-      "reason": "Re-searched the exact model and checked the old source plus original product/retailer pages. The former date was not supported by an admissible exact-model launch/release statement (often a mismatched product, search-snippet claim, article publication date, support/manual date or generic listing), so it is conservatively degraded to 找不到.",
-      "checkedAt": "2026-08-28",
-      "auditDisposition": "degraded_to_not_found",
-      "checkedSources": [
-        {
-          "url": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-PuriCare-%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9F-25-6%E5%85%AC%E5%8D%87-%E6%9B%9C%E9%BB%91-WD261VKF0-11970685.html",
-          "title": "Yahoo購物中心: LG WD261VKF0",
-          "outcome": "Re-opened the trusted exact-model purchase page. It confirms the listed product but gives no explicit launch/release statement; listing, stock and promotion dates were excluded."
-        },
-        {
-          "url": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1269683437&cgp=18900",
-          "title": "LBJ 比價撿便宜 歷史價格：LG 樂金 PuriCare 雙變頻除濕機 25.6公升 曜黑 WD261VKF0",
-          "outcome": "Re-opened the trusted exact-model price record. It confirms the exact product/retailer history but does not explicitly state a launch/release date; price-history dates were excluded."
-        }
-      ]
-    },
-    {
       "id": "dehumidifier-extra-14-dmbq4n-a900jchfz",
       "category": "dehumidifier",
       "brand": "LG",
@@ -4666,40 +4632,6 @@
         {
           "url": "https://www.lbj.tw/BJ/Query.aspx?k=DMAU0B-A900GI0Q1",
           "title": "LG AS601HWG0 exact-model retailer/price page",
-          "outcome": "Re-opened this trusted retailer or price-comparison page for the exact model. It did not contain an admissible explicit launch/release statement; listing and price-history dates were excluded."
-        }
-      ]
-    },
-    {
-      "id": "purifier-costco-lg-as651dwh0",
-      "category": "purifier",
-      "brand": "LG",
-      "model": "AS651DWH0",
-      "name": "PuriCare 360° 空氣清淨機",
-      "previousReleaseDate": "找不到",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "\"LG AS651DWH0\" release date launch launched available 上市 發售 開賣 推出",
-      "auditQueries": [
-        "\"LG AS651DWH0\" release date launch launched available",
-        "\"LG AS651DWH0\" 上市 發售 開賣 推出"
-      ],
-      "sourceKind": "not_found",
-      "reason": "Re-searched the exact model in English and Chinese and checked at least two original product/retailer pages. They identify the product but do not provide an explicit launch/release statement; publication, support/manual, listing, stock, promotion and model-year dates were excluded.",
-      "checkedAt": "2026-08-28",
-      "auditDisposition": "confirmed_not_found",
-      "checkedSources": [
-        {
-          "url": "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Air-Purifiers-Filters-Accessories/LG-PuriCare-360-Air-Purifier-AS651DWH0/p/136662",
-          "title": "Costco 好市多: LG AS651DWH0",
-          "outcome": "Re-opened the trusted exact-model purchase page. It confirms the listed product but gives no explicit launch/release statement; listing, stock and promotion dates were excluded."
-        },
-        {
-          "url": "https://www.lbj.tw/BJ/Query.aspx?k=LG%20AS651DWH0",
-          "title": "LG AS651DWH0 exact-model retailer/price page",
           "outcome": "Re-opened this trusted retailer or price-comparison page for the exact model. It did not contain an admissible explicit launch/release statement; listing and price-history dates were excluded."
         }
       ]
@@ -10313,40 +10245,6 @@
       ]
     },
     {
-      "id": "washerdryer-lg-wd-s18vdw",
-      "category": "washerdryer",
-      "brand": "LG",
-      "model": "WD-S18VDW",
-      "name": "LG WD-S18VDW",
-      "previousReleaseDate": "找不到",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "\"LG WD-S18VDW\" (release OR launch OR 上市 OR 發售)",
-      "sourceKind": "not_found_after_full_recheck",
-      "reason": "重新以 exact model「WD-S18VDW」查詢官方發表／上市／發售公告，並開啟下列原廠或可信新品通路原頁；頁面只有規格、現售、庫存或促銷資訊，沒有可歸屬於 exact model 的明確上市／發售日期。已排除文章發布日、商品上架日、型號年份及手冊／韌體／文件日期。",
-      "checkedAt": "2026-08-28",
-      "auditDisposition": "confirmed_not_found",
-      "auditQueries": [
-        "\"LG WD-S18VDW\" (release OR launch OR 上市 OR 發售)",
-        "site:lg.com \"WD-S18VDW\" (release OR launch OR 上市 OR 發售)"
-      ],
-      "checkedSources": [
-        {
-          "url": "https://www.lg.com/tw/washer-dryers/front-loading-washing-machines/wd-s18vdw/",
-          "title": "18公斤滾筒洗衣機｜冰瓷白｜蒸洗脫烘 (洗18+烘10公斤) - WD-S18VDW | LG 台灣",
-          "outcome": "原廠 exact-model／明確型號家族頁可確認商品；頁面可讀內容未見明確上市／發售日期，且未採手冊、韌體或文件日期。"
-        },
-        {
-          "url": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-18%E5%85%AC%E6%96%A4-%E8%92%B8%E6%B4%97%E8%84%AB%E7%83%98-%E6%BB%BE%E7%AD%92%E6%B4%97%E8%A1%A3%E6%A9%9F-%E5%86%B0%E7%93%B7%E7%99%BD-WD-S18VDW-10547430.html",
-          "title": "LG WD-S18VDW — Yahoo購物中心",
-          "outcome": "可信新品通路的 exact-model 原頁可確認商品；頁面未明示上市／發售日期，且未採上架、庫存或促銷日期。"
-        }
-      ]
-    },
-    {
       "id": "washerdryer-whirlpool-8twfc6810lw",
       "category": "washerdryer",
       "brand": "Whirlpool",
@@ -11022,45 +10920,6 @@
       "auditQueries": [
         "\"LG R723MG\" (release OR launch OR 上市 OR 發售)",
         "site:lg.com \"R723MG\" (release OR launch OR 上市 OR 發售)"
-      ]
-    },
-    {
-      "id": "garmentcare-lg-e523mr",
-      "category": "garmentcare",
-      "brand": "LG",
-      "model": "E523MR",
-      "name": "LG Styler 蒸氣電子衣櫥 奢華鏡面",
-      "previousReleaseDate": "找不到",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "\"LG E523MR\" (release OR launch OR 上市 OR 發售)",
-      "sourceKind": "not_found_after_full_recheck",
-      "reason": "重新以 exact model「E523MR」查詢官方發表／上市／發售公告，並開啟下列原廠或可信新品通路原頁；頁面只有規格、現售、庫存或促銷資訊，沒有可歸屬於 exact model 的明確上市／發售日期。已排除文章發布日、商品上架日、型號年份及手冊／韌體／文件日期。",
-      "checkedAt": "2026-08-28",
-      "auditDisposition": "confirmed_not_found",
-      "auditQueries": [
-        "\"LG E523MR\" (release OR launch OR 上市 OR 發售)",
-        "site:lg.com \"E523MR\" (release OR launch OR 上市 OR 發售)"
-      ],
-      "checkedSources": [
-        {
-          "url": "https://www.lg.com/tw/washer-dryers/styler/e523mr/",
-          "title": "LG E523MR 官方產品／規格頁",
-          "outcome": "原廠 exact-model／明確型號家族頁可確認商品；頁面可讀內容未見明確上市／發售日期，且未採手冊、韌體或文件日期。"
-        },
-        {
-          "url": "https://24h.pchome.com.tw/prod/DPAI1L-A900AMBO4",
-          "title": "LG E523MR — PChome 24h",
-          "outcome": "可信新品通路的 exact-model 原頁可確認商品；頁面未明示上市／發售日期，且未採上架、庫存或促銷日期。"
-        },
-        {
-          "url": "https://ecapi-cdn.pchome.com.tw/ecshop/prodapi/v2/prod?id=DPAI1L-A900AMBO4&fields=Id,Name,Nick,Price,Qty",
-          "title": "LG E523MR — PChome exact-SKU original data",
-          "outcome": "PChome exact-SKU 原始資料可確認同一商品；回傳欄位沒有上市／發售日期。 "
-        }
       ]
     },
     {
@@ -38851,6 +38710,181 @@
           "url": "https://24h.pchome.com.tw/prod/DMCI0O-A900KIEP3",
           "title": "PChome P0266 原商品",
           "outcome": "現售與促銷日期，未見上市日"
+        }
+      ]
+    },
+    {
+      "id": "soundbar-sony-ht-b500",
+      "category": "soundbar",
+      "brand": "Sony",
+      "model": "HT-B500",
+      "name": "BRAVIA Theatre Bar 5 3.1 聲道 Soundbar（含無線重低音）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2026-04-25",
+      "sourceUrl": "https://www.sony.jp/CorporateCruise/Press/202604/26-0409/",
+      "sourceTitle": "Sony 日本新聞稿：2026 春季 BRAVIA Theatre 聲霸發售",
+      "evidenceSnippet": "正式發售表中，HT-A7100 與 HT-B500 共用 4月25日欄位（rowspan=2）；這是 2026-04-25 日本發售日。",
+      "confidence": "official",
+      "query": "Sony HT-B500 発売日 Sony 2026",
+      "auditQueries": [
+        "\"HT-B500\" 台灣 上市 發售",
+        "Sony HT-B500 発売日 Sony 2026"
+      ],
+      "sourceKind": "official_launch_announcement",
+      "reason": "台灣規格與商城頁證實同機型，台灣 Bar 7 新聞稿無此型號台灣發售日；採原廠明示的日本發售日並標清市場。",
+      "checkedAt": "2026-11-14",
+      "auditDisposition": "confirmed_exact_model_release",
+      "checkedSources": [
+        {
+          "url": "https://www.sony.jp/CorporateCruise/Press/202604/26-0409/",
+          "title": "Sony 日本原廠新聞稿",
+          "outcome": "正式表格以 rowspan=2 將日本 4月25日發售對到 HT-B500。"
+        },
+        {
+          "url": "https://store.sony.com.tw/product/show/8a818bc39e389695019e3f2ab3c405d0",
+          "title": "Sony 台灣官方商城 HT-B500",
+          "outcome": "同型號與台灣型號可確認，該頁未列台灣發售日期。"
+        },
+        {
+          "url": "https://www.sony.com.tw/corporate/home/NewsCenter/Detail/BRAVIATheatreBar7",
+          "title": "Sony 台灣 BRAVIA Theatre Bar 7 新聞稿",
+          "outcome": "只載 Bar 7 的台灣新聞，未給 Bar 5 發售日期。"
+        }
+      ]
+    },
+    {
+      "id": "dehumidifier-panasonic-f-yv20qbh",
+      "category": "dehumidifier",
+      "brand": "Panasonic",
+      "model": "F-YV20QBH",
+      "name": "Smart Dry 10L 變頻高效型除濕機",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"F-YV20QBH\" 台灣 上市 發售",
+      "auditQueries": [
+        "\"F-YV20QBH\" 上市 開賣 Panasonic 10公升 2026 台灣",
+        "Panasonic F-YV20QBH 台灣 販售 2026 10月 正式推出"
+      ],
+      "sourceKind": "not_found",
+      "reason": "原廠型號頁及官方商城無上市日，秋季新聞稿提到 QX 旗艦但無明示本型號。MIT 標章 2026-09-15 為首次認證，PChome 新機文案與消費者評價不作正式發售日。",
+      "checkedAt": "2026-11-14",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.panasonic.com/tw/consumer/air-conditioner/dehumidifier/f-yv20qbh.html",
+          "title": "Panasonic 台灣原廠規格",
+          "outcome": "原頁無上市日。"
+        },
+        {
+          "url": "https://pstw.panasonic.com.tw/Shop/Product/Detail/AQ83JJRB6GQBXCVGYWPH",
+          "title": "Panasonic 台灣官方商店完整型號",
+          "outcome": "產品原頁無上市日。"
+        },
+        {
+          "url": "https://keid.nat.gov.tw/mittw/products/prod_more?id=289538",
+          "title": "臺灣製產品 MIT 微笑標章",
+          "outcome": "2026-09-15 為首次通過認證。"
+        },
+        {
+          "url": "https://24h.pchome.com.tw/prod/DMBQ00-A900KIWQG",
+          "title": "PChome 完整品號",
+          "outcome": "新機行銷未對應正式上市時間。"
+        }
+      ]
+    },
+    {
+      "id": "refrigerator-panasonic-nr-f553wx-w1",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-F553WX-W1",
+      "name": "日本製550L日系上質玻璃六門變頻冰箱（霧晶白）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "https://www.panasonic.com/tw/consumer/refrigerator/six-door/nr-f553wx.html",
+      "sourceTitle": "Panasonic 台灣 NR-F553WX 官方商品頁",
+      "evidenceSnippet": "官方台灣商品資料列出當代型號及規格，未標示型號獨立上市／發售日期。秋季發表會、促銷日期及零售頁上架分類不能轉為發售日。",
+      "confidence": "not_found",
+      "checkedAt": "2026-11-14",
+      "reason": "未找到原廠或可信媒體明示本型號的上市／發售日期。",
+      "checkedSources": [
+        {
+          "url": "https://www.panasonic.com/tw/consumer/refrigerator/six-door/nr-f553wx.html",
+          "title": "Panasonic 台灣 NR-F553WX",
+          "outcome": "現行規格，未列上市時間。"
+        },
+        {
+          "url": "https://www.panasonic.com/tw/consumer/news/202609-news-1.html",
+          "title": "Panasonic 2026 秋季新品發表會",
+          "outcome": "秋季發布系列資訊，未證實該 SKU 的銷售起始日期。"
+        },
+        {
+          "url": "https://www.fuchia.tw/v2/news/index/63",
+          "title": "甫佳電器 Panasonic 感恩有禮賞",
+          "outcome": "促銷起始日期為 2026/10/10，同時列出舊代及新代型號，不當作上市時間。"
+        }
+      ]
+    },
+    {
+      "id": "refrigerator-panasonic-nr-f523hx-h1",
+      "category": "refrigerator",
+      "brand": "Panasonic",
+      "model": "NR-F523HX-H1",
+      "name": "日本製520L日系上質玻璃六門變頻冰箱（霧晶灰）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "https://www.panasonic.com/tw/consumer/refrigerator/six-door/nr-f523hx.html",
+      "sourceTitle": "Panasonic 台灣 NR-F523HX 官方商品頁",
+      "evidenceSnippet": "官方台灣商品資料列出當代型號及規格，未標示型號獨立上市／發售日期。秋季發表會、促銷日期及零售頁上架分類不能轉為發售日。",
+      "confidence": "not_found",
+      "checkedAt": "2026-11-14",
+      "reason": "未找到原廠或可信媒體明示本型號的上市／發售日期。",
+      "checkedSources": [
+        {
+          "url": "https://www.panasonic.com/tw/consumer/refrigerator/six-door/nr-f523hx.html",
+          "title": "Panasonic 台灣 NR-F523HX",
+          "outcome": "現行規格，未列上市時間。"
+        },
+        {
+          "url": "https://www.panasonic.com/tw/consumer/news/202609-news-1.html",
+          "title": "Panasonic 2026 秋季新品發表會",
+          "outcome": "秋季發布系列資訊，未證實該 SKU 的銷售起始日期。"
+        },
+        {
+          "url": "https://www.fuchia.tw/v2/news/index/63",
+          "title": "甫佳電器 Panasonic 感恩有禮賞",
+          "outcome": "促銷起始日期為 2026/10/10，同時列出舊代及新代型號，不當作上市時間。"
+        }
+      ]
+    },
+    {
+      "id": "mouse-asus-rog-harpe-ii-ace",
+      "category": "mouse",
+      "brand": "ASUS",
+      "model": "90MP0490-BMUA00",
+      "name": "ROG Harpe II Ace 黑色三模無線電競滑鼠",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2025-08-28",
+      "sourceUrl": "https://press.asus.com/tw/news/press-releases/rog-harpe-ii-ace-falcata-gaming-keyboard-mouse/",
+      "sourceTitle": "華碩新聞中心：FPS玩家首選！ROG全新電競鍵鼠",
+      "evidenceSnippet": "2025-08-28 華碩台灣新聞內文明示 Harpe II Ace 即日起在台上市，導向本系列原廠規格。",
+      "confidence": "high",
+      "checkedAt": "2026-11-14",
+      "query": "\"ROG Harpe II Ace\" 90MP0490-BMUA00 台灣 上市",
+      "reason": "台灣上市日期取華碩原始新聞，商城型號確認一般黑色 P723。",
+      "checkedSources": [
+        {
+          "url": "https://press.asus.com/tw/news/press-releases/rog-harpe-ii-ace-falcata-gaming-keyboard-mouse/",
+          "title": "華碩台灣 2025-08-28 新聞",
+          "outcome": "原文宣布同日台灣上市"
+        },
+        {
+          "url": "https://shop.asus.com/tw/90mp0490-bmua00-rog-harpe-ii-ace.html",
+          "title": "ASUS Store 台灣黑色精確料號",
+          "outcome": "P723 黑色 90MP0490-BMUA00"
         }
       ]
     }

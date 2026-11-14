@@ -17,11 +17,11 @@
     "name": "27L 蒸烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 12600,
-      "converted": 12600,
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "amount": 13992,
+      "converted": 13992,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
       "basis": "retailer_current",
-      "note": "PChome 新商品編號 DMBJ02-A900IXECX 原頁明示「27L蒸烘烤微波爐 NN-BS607」，折扣價 12600元，可加入購物車，API 庫存 8。金額未扣會員券、點數或信用卡回饋。 PChome 新商品編號 DMBJ02-A900IXECX 原頁明示「27L蒸烘烤微波爐 NN-BS607」，折扣價 12600元，可加入購物車，API 庫存 8。金額未扣會員券、點數或信用卡回饋。原頁公開任選一件折 NT$3,300（PR26111000143436），網路價 NT$15,900，折後 NT$12,600，截至 2026-11-16 07:59:59（台灣）。"
+      "note": "PChome 原商品主區及 SKU DMBJ02-A900IXECX 公開折扣價 NT$13,992，頁列活動 11/10 至 11/16。API Qty 8，以通路配送、安裝條件為準。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ02A900G62BM/000001_1756899692.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ02-A900IXECX",
@@ -417,8 +417,8 @@
     "price": {
       "currency": "USD",
       "amount": 499.95,
-      "converted": 16486,
-      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-11-13 匯率換算"
+      "converted": 16455,
+      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-11-14 匯率換算"
     },
     "image": "https://assets.breville.com/cdn-cgi/image/width=1300,format=auto/BOV950/BOV950BSS1BUS1/pdp3.png?pdp=",
     "buyUrl": "https://www.breville.com/en-us/product/bov950",
@@ -916,10 +916,10 @@
     "name": "20L 多功能蒸氣氣炸烤箱",
     "price": {
       "currency": "TWD",
-      "amount": 9999,
-      "converted": 9999,
-      "confidence": "PChome 2026-11-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-05 PChome原SKU API公開價 9999 TWD；先前促銷金額不沿用。未扣個人券、點數或信用卡回饋；實際配送與安裝條件依通路確認。",
+      "amount": 9499,
+      "converted": 9499,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "note": "PChome 原商品主區及 SKU DMBM0G-A900HF91A 公開折扣價 NT$9,499，頁列活動 11/13 至 11/16。API Qty 2，以通路配送、安裝條件為準。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900HF91A/000001_1768545220.jpg",
@@ -1415,14 +1415,15 @@
     "name": "32 公升獨立式萬用蒸烤爐",
     "price": {
       "currency": "TWD",
-      "amount": 14852,
-      "converted": 14852,
-      "confidence": "Yahoo購物中心 2026-07-21 頁面公開價",
-      "note": "Yahoo 原商品主區顯示此賣場已售完；保留先前參考價，供貨待查。"
+      "amount": 12111,
+      "converted": 12111,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "note": "PChome 32L WSO322EB 同型新品主區公開折扣 NT$12,111（網路價 NT$15,800），API 同型 Qty 8，加購與立即購買按鈕可用。大材積倉庫出貨，頁面滿 NT$490 宅配免運。公開折扣截至 2026/11/16 08:00:59。",
+      "basis": "retailer_current"
     },
-    "image": "https://cs-a.ecimg.tw/items/DMBJ6QA900EO9M8/000001_1716271473.jpg",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool%E6%83%A0%E8%80%8C%E6%B5%A6-32%E5%85%AC%E5%8D%87%E7%8D%A8%E7%AB%8B%E5%BC%8F%E8%92%B8%E7%83%A4%E7%88%90-WSO322EB-9918064.html",
-    "buyLabel": "Yahoo購物中心（此賣場已售完）",
+    "image": "https://img.pchome.com.tw/cs/items/DMBJ6QA900EO9M8/000001_1716271473.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ6Q-A900EO9M8",
+    "buyLabel": "PChome 24h購物（可下單）",
     "specs": [
       "32L",
       "尺寸：寬 53 x 深 45.7 x 高 40.5 cm",
@@ -1453,16 +1454,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 13800,
+      "amount": 12111,
       "currency": "TWD",
-      "converted": 13800,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1220958919&cgp=14800",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Whirlpool 惠而浦】32公升獨立式萬用蒸烤爐WSO322EB(蒸氣.烘烤.旋風.發酵.烘培.附食譜)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Whirlpool 惠而浦】32公升獨立式萬用蒸烤爐WSO322EB(蒸氣.烘烤.旋風.發酵.烘培.附食譜)」最低價為 NT$13,800，最低點日期 2026-06-09。",
+      "converted": 12111,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DMBJ6Q-A900EO9M8",
+      "sourceTitle": "Lowcast 比價趨勢：PChome WSO322EB",
+      "evidenceSnippet": "Lowcast 原頁列 WSO322EB 且原商品連結為 PChome DMBJ6Q-A900EO9M8，逐日價格於 2026-11-11 至 2026-11-14 顯示 NT$12,111。",
       "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "confidence": "medium",
+      "checkedAt": "2026-11-14",
+      "note": "採同型與同 PChome SKU 的日期價格紀錄。個人折價券、信用卡回饋及點數未納入。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1516,9 +1517,9 @@
       "currency": "TWD",
       "amount": 14155,
       "converted": 14155,
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
       "basis": "retailer_current",
-      "note": "Yahoo 原 SKU 主商品公開價 NT$14,155，主購買按鈕可用。公開活動截至 2026-11-13T09:59:59+08:00。"
+      "note": "Yahoo 原商品主區可下單，公開折後價 NT$14,155，活動到 2026-11-16 09:59:59（台灣）。金額未扣會員券、點數及信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ8JA900H3U40/000001_1749176905.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG-%E6%A8%82%E9%87%91-NeoChef-%E6%99%BA%E6%85%A7%E8%AE%8A%E9%A0%BB%E8%92%B8%E7%83%98%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-39%E5%85%AC%E5%8D%87-MJ3965BCP-11971476.html",
@@ -2320,8 +2321,8 @@
     "price": {
       "currency": "USD",
       "amount": 449.99,
-      "converted": 14839,
-      "confidence": "2026-11-04 Chrome人工核對原商品主價、所選版本及購買／預購CTA；依當日匯率換算TWD。；ExchangeRate-API 2026-11-13 匯率換算",
+      "converted": 14811,
+      "confidence": "2026-11-04 Chrome人工核對原商品主價、所選版本及購買／預購CTA；依當日匯率換算TWD。；ExchangeRate-API 2026-11-14 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-05 人工覆核：原生Chrome原buyURL選定Silver MW101，主機主區449.99USD、Quantity1、主機Addtocart可見啟用，完整載入再次確認。黑色另為MW101BK1／449.99／OutofStock，未轉移。台灣配送未確認，未含國際運費、進口稅、電壓／插頭及台灣保固風險。 不扣個人化折價券、點數、信用卡回饋或贈品價值。"
     },

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13",
+  "generatedAt": "2026-11-14",
   "sourcePolicy": "本站共 21 類尺寸、13 類重量研究，尺寸涵蓋 電視、Soundbar、冷氣、洗衣機、烘衣機、洗烘衣機(多功能型)、電子衣櫥（衣物護理機）、床包、棉被、枕頭、冰箱、咖啡機、多功能氣炸烤箱／微波爐、洗碗機、熱水器、免治馬桶、網路交換器、螢幕燈、滑鼠、鍵盤、滑鼠墊。優先採 exact-model／相同版本的官方產品頁、官方規格表或官方 PDF，其次為可信新品通路。只採本體／機身／明確組件的尺寸與淨重，排除包裝、外箱尺寸與毛重；來源沒有明示軸序時不自行推定。既有家電與床包、棉被、枕頭維持 cm／kg，滑鼠、鍵盤與滑鼠墊使用 mm／g 並保留來源軸序。滑鼠墊厚度、床包可包覆高度另列；棉被的填充重量與整件淨重分開記錄。冷氣分列室內機與室外機，熱泵複合熱水器分列主機與儲槽。generatedAt 為最新證據批次日期，既有逐筆 checkedAt 與 weightCheckedAt 保留原查核日期，不表示重新查核。",
   "results": [
     {
@@ -2300,16 +2300,6 @@
       "checkedAt": "2026-07-09"
     },
     {
-      "id": "washerdryer-lg-wd-s18vdw",
-      "dimension": "尺寸：寬 70 x 深 77 x 高 99 cm",
-      "sourceUrl": "https://www.lg.com/tw/washer-dryers/front-loading-washing-machines/wd-s18vdw/",
-      "sourceTitle": "18公斤滾筒洗衣機｜冰瓷白｜蒸洗脫烘 (洗18+烘10公斤) - WD-S18VDW | LG 台灣",
-      "evidenceSnippet": "LG 台灣官方主要規格標示產品尺寸（寬x高x深 mm）700 x 990 x 770，已轉為寬 70 x 深 77 x 高 99 cm。",
-      "confidence": "high",
-      "isOfficialSource": true,
-      "checkedAt": "2026-07-11"
-    },
-    {
       "id": "washerdryer-whirlpool-8twfc6810lw",
       "dimension": "尺寸：寬 68.6 x 深 80.2 x 高 98.2 cm",
       "sourceUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool-惠而浦-15-KG-變頻洗脫烘滾筒式洗衣機-8TWFC6810LW-11724574.html",
@@ -2525,16 +2515,6 @@
       "sourceUrl": "https://www.lg.com/tw/washer-dryers/styler/r723mg/",
       "sourceTitle": "LG R723MG 官方產品／規格頁",
       "evidenceSnippet": "R723MG 官方規格列出機身尺寸；本列轉為「寬 x 深 x 高 cm」格式，未使用包裝或外箱尺寸。",
-      "confidence": "high",
-      "isOfficialSource": true,
-      "checkedAt": "2026-07-23"
-    },
-    {
-      "id": "garmentcare-lg-e523mr",
-      "dimension": "尺寸：寬 44.5 x 深 58.5 x 高 185 cm",
-      "sourceUrl": "https://www.lg.com/tw/washer-dryers/styler/e523mr/",
-      "sourceTitle": "LG E523MR 官方產品／規格頁",
-      "evidenceSnippet": "E523MR 官方規格列出機身尺寸；本列轉為「寬 x 深 x 高 cm」格式，未使用包裝或外箱尺寸。",
       "confidence": "high",
       "isOfficialSource": true,
       "checkedAt": "2026-07-23"
@@ -11293,6 +11273,78 @@
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
       "weightCheckedAt": "2026-11-13"
+    },
+    {
+      "id": "soundbar-sony-ht-b500",
+      "dimension": "尺寸：主機 寬 90 x 深 10 x 高 6.4 cm；重低音 寬 19.2 x 深 40 x 高 38.8 cm",
+      "sourceUrl": "https://helpguide.sony.net/ht/2104/v1/en/print.pdf",
+      "sourceTitle": "Sony BRAVIA Theatre Bar 5 操作指南，規格 pp. 65–66",
+      "evidenceSnippet": "主機 900×64×100 mm，重低音 192×388×400 mm，皆以 W×H×D 標示，不含突出部；Costco 台灣同型頁以相同數值明確列寬深高。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-11-14",
+      "weight": "重量：主機 3 kg；重低音 7.3 kg",
+      "weightSourceUrl": "https://www.sony.com.tw/zh/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-b500/specifications",
+      "weightSourceTitle": "HT-B500 規格 - Sony 台灣",
+      "weightEvidenceSnippet": "Sony 台灣規格表列單件式喇叭 3 kg、重低音 7.3 kg。",
+      "weightConfidence": "high",
+      "weightIsOfficialSource": true,
+      "weightCheckedAt": "2026-11-14"
+    },
+    {
+      "id": "refrigerator-panasonic-nr-f553wx-w1",
+      "dimension": "尺寸：寬 68.5 x 深 69.9 x 高 182.8 cm",
+      "sourceUrl": "https://pxbox.es.pxmart.com.tw/product/981416",
+      "sourceTitle": "全聯全電商 NR-F553WX-W1 商品本體規格",
+      "evidenceSnippet": "該頁顏色／條碼表包含 NR-F553WX-W1，EAN 4550719181935，以獨立「商品尺寸」欄明示寬 685、深 699、高 1828 mm。",
+      "confidence": "high",
+      "isOfficialSource": false,
+      "checkedAt": "2026-11-14",
+      "weight": "重量：113 kg",
+      "weightSourceUrl": "https://pxbox.es.pxmart.com.tw/product/981416",
+      "weightSourceTitle": "全聯全電商 NR-F553WX-W1 淨重規格",
+      "weightEvidenceSnippet": "來源「商品重量」欄明示淨重 113 kg，另列毛重。",
+      "weightConfidence": "high",
+      "weightIsOfficialSource": false,
+      "weightCheckedAt": "2026-11-14"
+    },
+    {
+      "id": "refrigerator-panasonic-nr-f523hx-h1",
+      "dimension": "尺寸：寬 65 x 深 69.9 x 高 182.8 cm",
+      "sourceUrl": "https://pxbox.es.pxmart.com.tw/product/981412",
+      "sourceTitle": "全聯全電商 NR-F523HX-H1 商品本體規格",
+      "evidenceSnippet": "該頁顏色／條碼表包含 NR-F523HX-H1，EAN 4550719181898，以獨立「商品尺寸」欄明示寬 650、深 699、高 1828 mm。",
+      "confidence": "high",
+      "isOfficialSource": false,
+      "checkedAt": "2026-11-14",
+      "weight": "重量：106 kg",
+      "weightSourceUrl": "https://pxbox.es.pxmart.com.tw/product/981412",
+      "weightSourceTitle": "全聯全電商 NR-F523HX-H1 淨重規格",
+      "weightEvidenceSnippet": "來源「商品重量」欄明示淨重 106 kg，另列毛重。",
+      "weightConfidence": "high",
+      "weightIsOfficialSource": false,
+      "weightCheckedAt": "2026-11-14"
+    },
+    {
+      "id": "mouse-asus-rog-harpe-ii-ace",
+      "category": "mouse",
+      "brand": "ASUS",
+      "model": "90MP0490-BMUA00",
+      "name": "ROG Harpe II Ace 黑色三模無線電競滑鼠",
+      "dimension": "尺寸：長 126.1 x 寬 63.9 x 高 39.7 mm",
+      "sourceUrl": "https://shop.asus.com/tw/90mp0490-bmua00-rog-harpe-ii-ace.html",
+      "sourceTitle": "ASUS Store 台灣 P723 黑色商品規格",
+      "evidenceSnippet": "黑色 90MP0490-BMUA00 規格中的尺寸依 L、W、H 列 126.1、63.9、39.7 mm，為本體。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-11-14",
+      "weight": "重量：不含線材與接收器 48 g",
+      "weightSourceUrl": "https://shop.asus.com/tw/90mp0490-bmua00-rog-harpe-ii-ace.html",
+      "weightSourceTitle": "ASUS Store 台灣 P723 黑色商品規格",
+      "weightEvidenceSnippet": "重量欄為不含電纜，並明示 48 g without dongle，未採包裝。",
+      "weightConfidence": "high",
+      "weightIsOfficialSource": true,
+      "weightCheckedAt": "2026-11-14"
     }
   ]
 }

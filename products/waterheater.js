@@ -4501,20 +4501,20 @@
     "name": "A.O. Smith CAHP-1.5DT-80 一體式空氣源熱泵熱水器",
     "price": {
       "currency": "TWD",
-      "amount": 135300,
-      "converted": 135300,
-      "confidence": "A.O. Smith 台灣官網 2026-09-05 exact-model 公開售價",
+      "amount": 131400,
+      "converted": 131400,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
       "basis": "retailer_current",
       "scope": "single_unit",
-      "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。 2026-10-31 原購買頁TLS憑證鏈驗證失敗，未繞過憑證驗證；本輪無可讀現價，保留既有參考且不推定停產。"
+      "note": "原台灣總代理 HTTPS 正常回應，精確 CAHP-1.5DT-80 單一整機公開折後價 NT$131,400，定價 NT$151,800，與主商品的購物車規格欄一致。基本安裝另加 NT$8,300；實際交期、特殊施工及折扣結束時間未標示。"
     },
     "installation": {
       "status": "excluded",
-      "note": "公開價未含基本安裝；官網列基本安裝費 NT$8,300，吊運、基礎、配管配電另計"
+      "note": "台灣官網基本安裝另選加購 NT$8,300，含進出水管共 5 m、排水軟管 5 m、電源線 3 m；超出材料、吊運與樓層搬運另計。"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/88AEBD5AF9-SP-20236556.jpg",
     "buyUrl": "https://www.aosmith.com.tw/product/?id=8&mode=detail&top=12&type_id=3",
-    "buyLabel": "A.O. Smith官網（現價／供貨待確認）",
+    "buyLabel": "A.O. Smith 台灣官網",
     "specs": [
       "類型：一體式空氣源熱泵熱水器",
       "能源／氣源：電力；80 加侖／約 300 L 儲槽",
@@ -4616,20 +4616,20 @@
     "name": "A.O. Smith CAHP-1.5DT-120 一體式空氣源熱泵熱水器",
     "price": {
       "currency": "TWD",
-      "amount": 145300,
-      "converted": 145300,
-      "confidence": "A.O. Smith 台灣官網 2026-09-05 exact-model 公開售價",
+      "amount": 141040,
+      "converted": 141040,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
       "basis": "retailer_current",
       "scope": "single_unit",
-      "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。 2026-10-31 原購買頁TLS憑證鏈驗證失敗，未繞過憑證驗證；本輪無可讀現價，保留既有參考且不推定停產。"
+      "note": "原台灣總代理 HTTPS 正常回應，精確 CAHP-1.5DT-120 單一整機公開折後價 NT$141,040，定價 NT$162,800，與主商品的購物車規格欄一致。基本安裝另加 NT$8,300；實際交期、特殊施工及折扣結束時間未標示。"
     },
     "installation": {
       "status": "excluded",
-      "note": "公開價未含基本安裝；官網列基本安裝費 NT$8,300，吊運、基礎、配管配電另計"
+      "note": "台灣官網基本安裝另選加購 NT$8,300，含進出水管共 5 m、排水軟管 5 m、電源線 3 m；超出材料、吊運與樓層搬運另計。"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/D705377CA1-SP-20236626.jpg",
     "buyUrl": "https://www.aosmith.com.tw/product/?id=54&mode=detail&top=4&type_id=3",
-    "buyLabel": "A.O. Smith官網（現價／供貨待確認）",
+    "buyLabel": "A.O. Smith 台灣官網",
     "specs": [
       "類型：一體式空氣源熱泵熱水器",
       "能源／氣源：電力；120 加侖／約 455 L 儲槽",

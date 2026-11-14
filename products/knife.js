@@ -323,11 +323,11 @@
     "image": "https://cs-a.ecimg.tw/items/DEAGRWA900JUUQL/000001_1774596210.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 729,
-      "converted": 729,
-      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "amount": 811,
+      "converted": 811,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
       "basis": "retailer_current",
-      "note": "2026-10-31 原頁同型號公開價格729元；不扣會員券、信用卡、點數或贈品，銷售／出貨條件依原通路。"
+      "note": "PChome 原商品主區及 SKU DEAGRW-A900JUUQL 公開價格 NT$811。API Qty 2，以通路配送、安裝條件為準。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -735,10 +735,10 @@
     "image": "https://cs-a.ecimg.tw/items/DEES09A900HK440/000001_1718174769.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 621,
-      "converted": 621,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-01 PChome主商品API商品ID DEES09-A900HK440 相符，原標題「Tefal法國特福 冰鑄不鏽鋼系列主廚刀15CM Tefal法國特福 冰鑄不鏽鋼系列主廚刀15CM」，Qty=1，公開折扣／主價 621 元（網路價690；Price.Low=621）；未扣券、回饋或點數。 同輪原商品HTML價格與可購入口已核對。",
+      "amount": 690,
+      "converted": 690,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "note": "PChome 原商品主區及 SKU DEES09-A900HK440 公開價格 NT$690。API Qty 3，以通路配送、安裝條件為準。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -938,11 +938,11 @@
     "image": "https://cs-a.ecimg.tw/items/DEAGRWA900GMT17/000001_1714111453.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1539,
-      "converted": 1539,
-      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "amount": 1711,
+      "converted": 1711,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
       "basis": "retailer_current",
-      "note": "2026-10-31 KAI職人槌目紋18cm牛刀主商品1539，10/31–11/13單件9折，網路1711；不採16.5cm或套組，預計11/02出貨。"
+      "note": "PChome 原商品主區及 SKU DEAGRW-A900GMT17 公開價格 NT$1,711。API Qty 20，以通路配送、安裝條件為準。"
     },
     "channel": "tw",
     "buyLabel": "PChome",

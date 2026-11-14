@@ -941,20 +941,20 @@
       "amount": 2860,
       "converted": 2860,
       "confidence": "Yahoo購物中心 2026-08-15 exact-model 自營新品公開價",
-      "note": "Yahoo 原頁 404；原主圖仍為有效 JPEG，與 PChome DEAWED-A900HZZIP 主圖是同一張商品照片，但 PChome 熱銷一空、API 無 SKU。輕頑味同系列標準款 F157121281000（EAN 4009209389233、28cm／3.0L、NT$4,410、庫存 15）及嘉儀資料確認目前款式，原 Yahoo/PChome 賣場皆未顯示可銜接的 SKU 或條碼。保留原商品身份與歷史紀錄，等待確切現售證據。"
+      "note": "Yahoo 舊頁本輪仍回傳 404。PChome 商品參考頁標示同一 Fissler Levital 經典 28cm，主圖與舊頁同款，原 API 無可購記錄。保留先前 Yahoo 參考價與史低；尚未確認嘉儀輕頑味的完整 SKU 與舊刊登對應。"
     },
     "channel": "tw",
-    "buyLabel": "原通路連結失效（同型現售待確認）",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Fissler-Levital-%E7%B6%93%E5%85%B8%E4%B8%8D%E6%B2%BE%E5%B9%B3%E5%BA%95%E9%8D%8B-28cm-%E4%B8%8D%E6%B2%BE%E9%8D%8B-%E7%85%8E%E9%8D%8B-%E9%9B%BB%E7%A3%81%E7%88%90-IH%E7%88%90%E5%8F%AF%E7%94%A8-11325415.html",
+    "buyLabel": "PChome 商品參考（供貨未確認）",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DEAWED-A900HZZIP",
     "specs": [
       "鍋具：Fissler Levital 經典不沾平底鍋 28cm 不沾鍋 煎鍋 (電磁爐 IH爐可用)",
       "尺寸與材質依商品頁標示",
-      "Yahoo購物中心自營新品",
+      "PChome 參考頁可核對，現售待確認",
       "排除福利品/配件/旋鈕"
     ],
     "description": "以台灣家庭常見瓦斯爐、IH 與日常煎炒煮燉需求篩選，優先保留品牌穩定、價格合理、容易補買或維修的鍋具。",
     "pros": [
-      "品牌知名度與通路穩定",
+      "IH 相容與 CookStar 鍋底可在同款商品參考頁核對",
       "涵蓋入門不沾到高階不鏽鋼/鑄鐵",
       "同類低價以可信通路查核"
     ],
@@ -966,7 +966,7 @@
     "bestFor": "想一次比較日常不沾鍋、湯鍋、不鏽鋼鍋與鑄鐵鍋的家庭。",
     "recommendation": "鍋具第 10 推薦：Fissler Levital 28cm 在價格、評價、品牌通路與售後取得性之間表現均衡，適合納入同類比較。",
     "voltage": "無電壓需求；IH/電磁爐相容性依商品頁與鍋底標示",
-    "warranty": "依 Yahoo購物中心與品牌/供應商頁面標示",
+    "warranty": "依品牌或實際購買通路條款，現售及保固待確認。",
     "score": 85,
     "budget": "mid",
     "tags": [
@@ -1040,11 +1040,11 @@
     "image": "https://cs-a.ecimg.tw/items/DEDG3BA900GQDVZ/000001_1776769920.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1097,
-      "converted": 1097,
+      "amount": 988,
+      "converted": 988,
       "basis": "retailer_current",
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
-      "note": "Yahoo 原 SKU 促銷到期後重查，主商品公開價 NT$1,097，主購買按鈕可用。"
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "note": "Yahoo 原商品主區可下單，公開折後價 NT$988，活動到 2026-11-16 07:59:59（台灣）。金額未扣會員券、點數及信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1848,10 +1848,10 @@
     "name": "醇火系列不沾炒鍋",
     "price": {
       "currency": "TWD",
-      "amount": 1439,
-      "converted": 1439,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-01 PChome主商品API商品ID DEES01-A900IQ6X3 相符，原標題「Tefal法國特福 Espresso醇火系列34CM不沾炒鍋(加蓋) Tefal法國特福 Espresso醇火系列34CM不沾炒鍋(加蓋)」，Qty=6，公開折扣／主價 1439 元（網路價1599；Price.Low=1439）；未扣券、回饋或點數。 同輪原商品HTML價格與可購入口已核對。",
+      "amount": 1599,
+      "converted": 1599,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "note": "PChome 原商品主區及 SKU DEES01-A900IQ6X3 公開價格 NT$1,599。API Qty 4，以通路配送、安裝條件為準。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DEES01A900IQ6X3/000001_1764832269.jpg",

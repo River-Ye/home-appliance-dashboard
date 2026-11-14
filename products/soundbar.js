@@ -19,8 +19,8 @@
       "currency": "TWD",
       "amount": 44900,
       "converted": 44900,
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
-      "note": "Yahoo 原 SKU 促銷到期後重查，主商品公開價 NT$44,900，主購買按鈕可用。",
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "note": "Yahoo 同商品原頁於上一活動屆期後可下單，目前公開網路價 NT$44,900。未扣個人券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900JMDR5/000001_1773978957.jpg",
@@ -801,11 +801,11 @@
     "name": "LG Soundbar S80TR 5.1.3 聲道立體環繞聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 19111,
-      "converted": 19111,
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "amount": 21111,
+      "converted": 21111,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
       "basis": "retailer_current",
-      "note": "PChome 原頁為全新 LG S80TR 5.1.3 聲道，網路價 NT$19,111、建議售價 NT$26,900，加入購物車可用，API Qty 3。非另售拆封福利品。"
+      "note": "PChome 原商品主區及 SKU DMAAOD-A900JCHIM 公開價格 NT$21,111。API Qty 3，以通路配送、安裝條件為準。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAAODA900JCHIM/000007_1769583526.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAOD-A900JCHIM",
@@ -1109,10 +1109,10 @@
     "name": "5.1 聲道 Soundbar 家庭劇院組",
     "price": {
       "currency": "TWD",
-      "amount": 9016,
-      "converted": 9016,
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
-      "note": "Yahoo 原 SKU 促銷到期後重查，主商品公開價 NT$9,016，主購買按鈕可用。現行公開活動截至 2026-11-13T19:58:59+08:00。",
+      "amount": 8352,
+      "converted": 8352,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "note": "Yahoo 原商品主區可下單，公開折後價 NT$8,352，活動到 2026-11-16 07:59:59（台灣）。金額未扣會員券、點數及信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900GHTFE/000001_1776774078.jpg",
@@ -1409,8 +1409,8 @@
       "currency": "TWD",
       "amount": 28590,
       "converted": 28590,
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
-      "note": "Yahoo 原 SKU 促銷到期後重查，主商品公開價 NT$28,590，主購買按鈕可用。",
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "note": "Yahoo 同商品原頁於上一活動屆期後可下單，目前公開網路價 NT$28,590。未扣個人券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAHGA900J56OK/000001_1755250707.jpg",
@@ -2009,8 +2009,8 @@
     "price": {
       "currency": "USD",
       "amount": 1299.99,
-      "converted": 42869,
-      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-11-13 匯率換算"
+      "converted": 42788,
+      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-11-14 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/2C2sn9CKoKFdIyd94Gm9z5/f3019d4e721511167ebe5c229bf490dd/heston-120_plp.jpg",
     "buyUrl": "https://www.marshall.com/us/en/product/heston-120",
@@ -2109,8 +2109,8 @@
     "price": {
       "currency": "USD",
       "amount": 699.99,
-      "converted": 23083,
-      "confidence": "2026-10-24 人工核對 www.marshall.com 同型號與所選版本公開價 USD 699.99，可下單；未扣會員、信用卡或點數。；ExchangeRate-API 2026-11-13 匯率換算",
+      "converted": 23039,
+      "confidence": "2026-10-24 人工核對 www.marshall.com 同型號與所選版本公開價 USD 699.99，可下單；未扣會員、信用卡或點數。；ExchangeRate-API 2026-11-14 匯率換算",
       "basis": "retailer_current"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/3yitHqjPBTgQk5qRE72PSn/2788206646aa153f71f2c0ebefaff580/Heston-60-black_plp_800x800-v3.jpeg",
@@ -2407,8 +2407,8 @@
       "currency": "TWD",
       "amount": 633,
       "converted": 633,
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
-      "note": "Yahoo 原 SKU 促銷到期後重查，主商品公開價 NT$633，主購買按鈕可用。",
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "note": "Yahoo 同商品原頁於上一活動屆期後可下單，目前公開網路價 NT$633。未扣個人券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h21/hac/367883491278878.jpg",
@@ -2552,14 +2552,14 @@
       "status": "found",
       "amount": 176091,
       "currency": "JPY",
-      "converted": 36339,
+      "converted": 36270,
       "sourceUrl": "https://kakaku.com/item/K0001712395/pricehistory/",
       "sourceTitle": "価格.com：JBL BAR 1300MK2 [ブラック] 価格推移",
       "evidenceSnippet": "価格.com 日別價格歷史顯示 exact-model「JBL BAR 1300MK2 [ブラック]」於 2026-06-17 的新品最低價為 ¥176,091；2025-10 初始價格為 ¥205,306。",
       "sourceKind": "price_history",
       "confidence": "medium",
       "checkedAt": "2026-08-25",
-      "note": "採日本市場 exact-model 公開價格歷史並依 2026-11-13 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
+      "note": "採日本市場 exact-model 公開價格歷史並依 2026-11-14 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -3379,16 +3379,16 @@
     "releaseDate": "2025-06-05",
     "historicalLow": {
       "status": "found",
-      "amount": 15660,
+      "amount": 15210,
       "currency": "TWD",
-      "converted": 15660,
-      "sourceUrl": "https://m.momoshop.com.tw/goods.momo?i_code=14080920",
-      "sourceTitle": "momo：Sony BRAVIA Theatre System 6 HT-S60 公司貨保固12個月",
-      "evidenceSnippet": "momo exact-model 商品頁的 2026 年 5 月公開快照列滿 1 件享 9 折、限時折後價 NT$15,660、促銷價 NT$17,400、市售價 NT$19,900；特惠商品不適用折價券。",
-      "sourceKind": "retailer_promo",
+      "converted": 15210,
+      "sourceUrl": "https://price.shhwa.cc/product/momo/14080920",
+      "sourceTitle": "Lowcast：momo Sony HT-S60 公司貨 14080920 價格走勢",
+      "evidenceSnippet": "Lowcast 原頁對應 momo 同品號 14080920、台灣公司貨 HT-S60，列 2026-10-08 至 10-12 等日期的 NT$15,210；momo 同品號頁再現 11/13 19:00 至 11/16 08:30 公開單件 9 折 NT$15,210。",
+      "sourceKind": "price_history",
       "confidence": "high",
-      "checkedAt": "2026-09-02",
-      "note": "採 exact-model 台灣公司貨公開滿件折；FindPrice exact 商品群與 Yahoo 購物中心歷史頁亦顯示 NT$15,660。排除會員個人券、信用卡回饋、點數、二手、福利、展示與拆封品。"
+      "checkedAt": "2026-11-14",
+      "note": "採同型號、同品號的可核對公開售價走勢，現價來源 Sony Store 另列。未扣贈券、點數、個人券、信用卡回饋或混入其他品號。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -3629,9 +3629,9 @@
     "price": {
       "currency": "USD",
       "amount": 699,
-      "converted": 23050,
+      "converted": 23007,
       "basis": "retailer_current",
-      "confidence": "2026-10-19 人工核對 Sonos US 官方黑色 BMULTUS1BLK 公開單機 US$699 與 Available now/Add to cart；ExchangeRate-API 2026-11-13 匯率換算，未含國際運費與進口稅。"
+      "confidence": "2026-10-19 人工核對 Sonos US 官方黑色 BMULTUS1BLK 公開單機 US$699 與 Available now/Add to cart；ExchangeRate-API 2026-11-14 匯率換算，未含國際運費與進口稅。"
     },
     "installation": {
       "status": "not_stated",
@@ -3808,6 +3808,113 @@
     "installation": {
       "status": "not_stated",
       "note": "PChome單機購買頁未明示含基本安裝；壁掛架、佈線與施工費用需另行確認。機身尺寸與重量由官方英吋／磅換算為約值。"
+    }
+  },
+  {
+    "id": "soundbar-sony-ht-b500",
+    "category": "soundbar",
+    "brand": "Sony",
+    "model": "HT-B500",
+    "name": "BRAVIA Theatre Bar 5 3.1 聲道 Soundbar（含無線重低音）",
+    "rank": 39,
+    "budget": "value",
+    "channel": "tw",
+    "price": {
+      "currency": "TWD",
+      "amount": 11949,
+      "converted": 11949,
+      "confidence": "Costco 台灣同型號 #162420 主商品公開含運價與 SKU 級在庫資訊一致。",
+      "basis": "retailer_current",
+      "note": "2026-11-14 Costco 好市多 #162420 主商品 NT$11,949 含運，網頁可加入購物車；需好市多會員，離島不配送。採頁面一般網路價。"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "原頁列廠商出貨與隨附壁掛板，未標含到府設定或壁掛施工；如需施工，費用需另洽。"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h0d/hd1/504582150520862.jpg",
+    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Soundbars-Home-Theater/Sony-31-Channel-BRAVIA-Theatre-Bar-5-Soundbar-with-Wireless-Subwoofer-HT-B500/p/162420",
+    "buyLabel": "Costco 好市多（含運）",
+    "specs": [
+      "3.1 聲道／4 揚聲器單體，含專用中置與無線重低音",
+      "Dolby Atmos／DTS:X；S-Force PRO／Vertical Surround Engine 虛擬環繞",
+      "HDMI eARC／ARC 輸出、光纖輸入、Bluetooth 5.3（SBC／AAC）",
+      "支援 BRAVIA Connect 與相容 BRAVIA Voice Zoom 3",
+      "尺寸：主機 寬 90 x 深 10 x 高 6.4 cm；重低音 寬 19.2 x 深 40 x 高 38.8 cm",
+      "重量：主機 3 kg；重低音 7.3 kg",
+      "發售：日本 2026-04-25。台灣發售日未查得。"
+    ],
+    "description": "一條 90 cm 聲霸配無線重低音，專用中置強化對白，適合未預留後聲道的配置。",
+    "pros": [
+      "專用中置與獨立重低音一起提供",
+      "支援 HDMI eARC 與光纖，附壁掛板"
+    ],
+    "cons": [
+      "3.1 聲道的高度與環繞效果仰賴虛擬處理",
+      "僅一個 HDMI eARC／ARC 輸出，遊戲機等訊源需先接電視",
+      "重低音 40 cm 深，仍需要獨立插座及擺位"
+    ],
+    "bestFor": "想加強人聲和低頻、沒有位置放後環繞的中小客廳。",
+    "recommendation": "以 90 cm 寬機身與專用中置補足中小客廳；同價附近也可比較具實體高度聲道的 HT-B600。",
+    "score": 83,
+    "voltage": "110V 台灣公司貨",
+    "warranty": "1 年台灣原廠保固",
+    "tags": [
+      "3.1 聲道",
+      "對白",
+      "重低音",
+      "Atmos"
+    ],
+    "releaseDate": "2026-04-25",
+    "historicalLow": {
+      "status": "found",
+      "amount": 11949,
+      "currency": "TWD",
+      "converted": 11949,
+      "sourceUrl": "https://cost.twgoodie.com/product/162420",
+      "sourceTitle": "Costco 好市多必買推薦：Sony HT-B500 #162420 價格紀錄",
+      "evidenceSnippet": "同款 Costco 網購貨號 #162420 開始記錄於 2026-10-25，該筆公開網購價 NT$11,949。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-14",
+      "note": "採同 SKU 可重現的公開網購歷史紀錄，現有資料始於 2026 年 10 月且只有一筆。另列 NT$11,799 為未附分店與收據的賣場網友回報，未採用；亦未扣會員專屬券、回饋或點數。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-11-14",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "\"HT-B500\" site:ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=%22HT-B500%22%20site%3Aptt.cc"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"HT-B500\" site:mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=%22HT-B500%22%20site%3Amobile01.com"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "\"HT-B500\" site:dcard.tw",
+          "queryUrl": "https://www.google.com/search?q=%22HT-B500%22%20site%3Adcard.tw"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "\"HT-B500\" site:reddit.com soundbar power subwoofer Sony",
+          "queryUrl": "https://www.google.com/search?q=%22HT-B500%22%20site%3Areddit.com%20soundbar%20power%20subwoofer%20Sony"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "\"HT-B500\" site:reddit.com/r/SonyBravia \"HT-B500\"",
+          "queryUrl": "https://www.google.com/search?q=%22HT-B500%22%20site%3Areddit.com%2Fr%2FSonyBravia%20%22HT-B500%22"
+        }
+      ]
     }
   }
 ]);

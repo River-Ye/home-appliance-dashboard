@@ -3655,6 +3655,110 @@
     "checkedAt": "2026-11-04",
     "note": "可驗證同黑色有線35K的歷史促銷低點2012元，未再扣92–97折限量券或回饋；不保證涵蓋所有期間與通路。FindPrice1961為未能回原Coupang頁核條件的現價索引（轉址403），不採為史低；普通V3/Pro/組合包不混比。"
   }
+},
+{
+  "id": "mouse-asus-rog-harpe-ii-ace",
+  "category": "mouse",
+  "brand": "ASUS",
+  "model": "90MP0490-BMUA00",
+  "name": "ROG Harpe II Ace 黑色三模無線電競滑鼠",
+  "type": "standard",
+  "rank": 36,
+  "budget": "premium",
+  "channel": "tw",
+  "topPick": false,
+  "price": {
+    "currency": "TWD",
+    "amount": 3911,
+    "converted": 3911,
+    "basis": "retailer_current",
+    "confidence": "2026-11-14 核對三井黑色單品 MAAS051 原頁，黑色價格與主購買按鈕均對應該料號。",
+    "note": "單台公開促銷 NT$3,911（原網路價 NT$4,990），頁列 2026-10-26 至 11-16。一般單筆滿 NT$588 免運，實際配送以通路為準，未扣回饋金或贈品。"
+  },
+  "installation": {
+    "status": "not_stated",
+    "note": "通路頁未列到府安裝，隨附 USB 線與接收器，可自行連接。"
+  },
+  "image": "https://shop.asus.com/media/catalog/product/5/3/53c1a25da96a63ad3bfc3b0e2d96848e.png",
+  "buyUrl": "https://www.sanjing3c.com.tw/prod-MAAS051.html",
+  "buyLabel": "三井3C 購物網",
+  "specs": [
+    "類型：標準型無線電競滑鼠，P723 黑色，料號 90MP0490-BMUA00",
+    "握型／慣用手：右手半對稱；側腰收窄，建議依手長和抓握習慣試握",
+    "連線：2.4 GHz RF、Bluetooth 5.1、USB-C 滑鼠端對 USB-A 主機端有線",
+    "感測器／解析度：ROG AimPoint Pro 光學，最高 42000 DPI、750 IPS／50 G，支援玻璃表面追蹤",
+    "回報率：原廠列有線及 2.4 GHz 最高 8000 Hz，附 SpeedNova 8K 接收器",
+    "按鍵／滾輪：光學左右鍵，五個可編程按鍵含滾輪按壓，另有 DPI 與配對鍵",
+    "供電／續航：內建鋰離子電池，USB 充電 2.5 W；官方 2.4 GHz 1000 Hz 或藍牙關燈最長 101 小時、預設開燈 84 小時",
+    "系統／軟體：官方列 Windows 10／11、ROG Gear Link 網頁設定",
+    "尺寸：長 126.1 x 寬 63.9 x 高 39.7 mm",
+    "重量：不含線材與接收器 48 g",
+    "隨附配件：無線接收器、接收器延長座、2 m ROG Paracord 線、防滑貼、替換鼠腳、保固卡及文件"
+  ],
+  "description": "48 g 中大手右手半對稱滑鼠，整合 8K 接收器與三模連線，適合需要頻繁抬鼠與切換多裝置的 FPS 玩家。",
+  "pros": [
+    "48 g 本體與收腰外形適合快速抬鼠",
+    "無線與有線都有最高 8000 Hz，接收器隨附",
+    "兩年台灣原廠保固，能用 Gear Link 網頁調整"
+  ],
+  "cons": [
+    "最高回報率的耗電與主機負載須依設定，101 小時為 1000 Hz 或藍牙的關燈條件",
+    "個別用戶提及按鍵鬆動、連點、或黑色塗層易留指紋，跨站同一問題未達門檻",
+    "右手側鍵配置，手小或掌握者應先比較握持尺寸"
+  ],
+  "bestFor": "想要中大手抓握、48 g 輕量和三模的 FPS 玩家。",
+  "recommendation": "在 1000 Hz 與高回報率間自行比較續航及遊戲幀率，並先確認握型、主鍵及滾輪手感。",
+  "releaseDate": "2025-08-28",
+  "historicalLow": {
+    "status": "not_found",
+    "amount": null,
+    "currency": "TWD",
+    "converted": null,
+    "sourceUrl": "",
+    "sourceTitle": "",
+    "evidenceSnippet": "",
+    "sourceKind": "not_found",
+    "confidence": "not_found",
+    "checkedAt": "2026-11-14",
+    "note": "BigGo 完整料號未取得可驗證的黑色歷史曲線；LBJ 原頁顯示網站驗證中。 飛比較低的 NT$3,671 未能綁定可重現的黑色 90MP0490-BMUA00 同條件原頁；PChome NT$3,711 紅色另列。 六月 PTT 轉貼 NT$3,990 未列黑色料號，華碩活動頁未提供該價；PC PARTY 額外九折限會員。 三井與順發標示 NT$3,911 為本輪觀測的現價；原價屋雙 11 的相同促銷未提供獨立歷史低點。"
+  },
+  "issueResearch": {
+    "status": "no_common_issue",
+    "checkedAt": "2026-11-14",
+    "summary": "截至查核日，查無達門檻的集中負評／災情",
+    "issues": [],
+    "checkedSources": [
+      {
+        "platform": "Mobile01",
+        "targetHost": "mobile01.com",
+        "query": "site:mobile01.com \"90MP0490-BMUA00\"",
+        "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%2290MP0490-BMUA00%22"
+      },
+      {
+        "platform": "PTT",
+        "targetHost": "ptt.cc",
+        "query": "site:ptt.cc \"90MP0490-BMUA00\"",
+        "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%2290MP0490-BMUA00%22"
+      },
+      {
+        "platform": "Reddit",
+        "targetHost": "reddit.com",
+        "query": "site:reddit.com \"90MP0490-BMUA00\"",
+        "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%2290MP0490-BMUA00%22"
+      }
+    ]
+  },
+  "score": 87,
+  "voltage": "內建鋰離子電池、USB-C 充電。P723 隨附快速指南明示 USB 充電功率 2.5 W；未列額定電壓或隨附市電變壓器。",
+  "warranty": "ASUS Store 台灣標示兩年原廠保固，防滑貼與鼠腳等耗材依原廠條款辦理。",
+  "tags": [
+    "電競推薦",
+    "台灣公司貨",
+    "48g",
+    "8K",
+    "三模",
+    "光學微動"
+  ]
 }
 ]);
 })();

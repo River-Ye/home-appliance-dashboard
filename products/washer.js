@@ -229,11 +229,11 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/7A7EBA14D6-SP-22052251.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 20811,
-      "converted": 20811,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 20064,
+      "converted": 20064,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-01 Yahoo所選同型號主購買區公開價20811元，可訂購；由廠商聯絡約定送貨時間，交期未確認。不扣個人券、信用卡、點數及贈品。"
+      "note": "Yahoo 原商品主區可下單，公開折後價 NT$20,064，活動到 2026-11-16 07:00:59（台灣）。金額未扣會員券、點數及信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",

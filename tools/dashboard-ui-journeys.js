@@ -8,6 +8,7 @@ const {
   COFFEE_TYPE_COUNTS,
   PERIPHERAL_TYPES,
   BEDDING_TYPES,
+  GARMENTCARE_CHANNEL_COUNTS,
 } = require("./dashboard-contract");
 const { readDashboardProducts } = require("./read-dashboard-products");
 const { attachRuntimeIssueCollector: collectRuntimeIssues } = require("./ui-runtime-issues");
@@ -320,13 +321,16 @@ async function assertCommonIssueJourney(page, name) {
 }
 
 async function assertGarmentCareJourney(page, name) {
+  const productCount = EXPECTED_CATEGORY_PRODUCT_COUNTS.get("garmentcare");
+  const taiwanCount = GARMENTCARE_CHANNEL_COUNTS.get("tw");
+  const overseasCount = GARMENTCARE_CHANNEL_COUNTS.get("global");
   await selectComboboxOption(
     page,
     "#categoryInput",
     '#categoryOptions [data-value="garmentcare"]',
     "電子衣櫥",
   );
-  await waitForVisibleCount(page, 21);
+  await waitForVisibleCount(page, productCount);
   await page.locator("#brandInput").click();
   const brands = await page.$$eval(
     "#brandOptions [data-value]",
@@ -338,13 +342,13 @@ async function assertGarmentCareJourney(page, name) {
   }
 
   await selectComboboxOption(page, "#channelInput", '#channelOptions [data-value="tw"]', "台灣");
-  await waitForVisibleCount(page, 9);
-  await waitForProductCards(page, 9);
+  await waitForVisibleCount(page, taiwanCount);
+  await waitForProductCards(page, taiwanCount);
   await selectComboboxOption(page, "#channelInput", '#channelOptions [data-value="global"]', "海外");
-  await waitForVisibleCount(page, 12);
+  await waitForVisibleCount(page, overseasCount);
   await loadAllVisibleProducts(page);
   const overseasCards = await page.$$eval(".product-card", (cards) => cards.map((card) => card.textContent || ""));
-  if (overseasCards.length !== 12) throw new Error(`${name}: garmentcare overseas count should be 12`);
+  if (overseasCards.length !== overseasCount) throw new Error(`${name}: garmentcare overseas count should be ${overseasCount}`);
   for (const [index, text] of overseasCards.entries()) {
     for (const warning of ["國際運費", "進口稅", "台灣保固"]) {
       if (!text.includes(warning)) throw new Error(`${name}: garmentcare overseas card ${index + 1} missing ${warning}`);
@@ -359,7 +363,7 @@ async function assertGarmentCareJourney(page, name) {
     '#categoryOptions [data-value="garmentcare"]',
     "電子衣櫥",
   );
-  await waitForVisibleCount(page, 21);
+  await waitForVisibleCount(page, productCount);
   await waitForProductCards(page, 12);
   if (!await page.locator('.product-card[data-product-id="garmentcare-lg-e523mw"]', { hasText: "入門推薦" }).count()) {
     throw new Error(`${name}: garmentcare E523MW entry recommendation is missing`);

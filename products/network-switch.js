@@ -1954,11 +1954,11 @@
     "type": "2_5g",
     "price": {
       "currency": "TWD",
-      "amount": 12888,
-      "converted": 12888,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 13999,
+      "converted": 13999,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$12888，API Qty 2；個人券、點數、信用卡回饋及配送安裝費另計。"
+      "note": "PChome 原商品主區及 SKU DRAN4X-A900JA0J0 公開價格 NT$13,999。API Qty 2，以通路配送、安裝條件為準。"
     },
     "installation": {
       "status": "excluded",

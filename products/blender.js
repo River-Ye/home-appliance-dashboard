@@ -16,11 +16,11 @@
     "name": "Ascent 領航者全食物調理機",
     "price": {
       "currency": "TWD",
-      "amount": 35024,
-      "converted": 35024,
-      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 39800,
+      "converted": 39800,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-04 下午重新查核：PChome exact SKU DMAYE8-A900BKOKK；Price.P=35024元，Qty=3。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。"
+      "note": "PChome 原商品主區及 SKU DMAYE8-A900BKOKK 公開價格 NT$39,800。API Qty 3，以通路配送、安裝條件為準。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAYE8A900BKOKK/000001_1782889462.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAYE8-A900BKOKK",
@@ -52,17 +52,17 @@
     ],
     "releaseDate": "2017-01-04",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 35024,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Vitamix A3500i: 蝦皮商城 - 點點蜜│點亮你的健康新生活 美國Vitamix Ascent 調理杯/磨粉杯1.4L-A2500i/A3500i專用-台灣官方公司貨 型號/規格不相符；LBJ Vitamix A3500i: Momo富邦購物 美國Vitamix Ascent 調理杯/磨粉杯1.4L-A2500i/A3500i專用(台灣官方公司貨) 型號/規格不相符；LBJ Vitamix A3500i: 蝦皮商城 - 美國Vitamix 台灣館 美國Vitamix Ascent 調理杯/磨粉杯1.4L-A2500i/A3500i專用-台灣官方公司貨 型號/規格不相符。"
+      "converted": 35024,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DMAYE8-A900BKOKK",
+      "sourceTitle": "Lowcast 比價趨勢：PChome Vitamix A3500i 髮絲銀",
+      "evidenceSnippet": "Lowcast 逐日紀錄的原商品是 DMAYE8-A900BKOKK、A3500i 髮絲銀台灣公司貨整機，2026-11-12 為 NT$35,024。2026-11-13 PChome 同 PID 原 API 以 NT$35,024 刊售，Qty 3。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-14",
+      "note": "採比價站可重現的同一 PChome 新品商品價格和 2026-11-13 同型歷史可購佐證。扣除信用卡回饋、會員／個人券與點數的價格不採。只採該髮絲銀 SKU 的公開整機價，沒有引入不同顏色、其他型號、單獨調理杯或贈品折抵。"
     },
     "issueResearch": {
       "status": "common_issue",
@@ -111,11 +111,11 @@
     "name": "Ascent 領航者全食物調理機",
     "price": {
       "currency": "TWD",
-      "amount": 26048,
-      "converted": 26048,
-      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 29600,
+      "converted": 29600,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-04 下午重新查核：PChome exact SKU QBAO0F-A900AS2G7；Price.P=26048元，Qty=1。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。"
+      "note": "PChome 原商品主區及 SKU QBAO0F-A900AS2G7 公開價格 NT$29,600。API Qty 1，以通路配送、安裝條件為準。"
     },
     "image": "https://cs-a.ecimg.tw/items/QBAO0FA900AS2G7/000001_1782460590.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/QBAO0F-A900AS2G7",
@@ -147,17 +147,17 @@
     ],
     "releaseDate": "2017-01-04",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 26048,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Vitamix A2500i: 蝦皮商城 - 點點蜜│點亮你的健康新生活 美國Vitamix Ascent 調理杯/磨粉杯1.4L-A2500i/A3500i專用-台灣官方公司貨 型號/規格不相符；LBJ Vitamix A2500i: Momo富邦購物 美國Vitamix Ascent 調理杯/磨粉杯1.4L-A2500i/A3500i專用(台灣官方公司貨) 型號/規格不相符；LBJ Vitamix A2500i: 蝦皮商城 - 美國Vitamix 台灣館 美國Vitamix Ascent 調理杯/磨粉杯1.4L-A2500i/A3500i專用-台灣官方公司貨 型號/規格不相符。"
+      "converted": 26048,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/QBAO0F-A900AS2G7",
+      "sourceTitle": "Lowcast 比價趨勢：PChome Vitamix A2500i 紅色",
+      "evidenceSnippet": "Lowcast 逐日紀錄的原商品是 QBAO0F-A900AS2G7、A2500i 紅色整機，2026-11-12 為 NT$26,048。2026-11-13 PChome 同 PID 原 API 以 NT$26,048 刊售，Qty 1。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-14",
+      "note": "採比價站可重現的同一 PChome 新品商品價格和 2026-11-13 同型歷史可購佐證。扣除信用卡回饋、會員／個人券與點數的價格不採。同一系列白色和其他整機 SKU 或單獨調理杯均未用於此筆。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -404,8 +404,8 @@
     "price": {
       "currency": "USD",
       "amount": 99.98,
-      "converted": 3297,
-      "confidence": "2026-08-31 人工核對 SharkNinja 官方 BN701 公開可購主價 USD 99.98；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-11-13 匯率換算",
+      "converted": 3291,
+      "confidence": "2026-08-31 人工核對 SharkNinja 官方 BN701 公開可購主價 USD 99.98；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-11-14 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-04 午後人工覆核：原BN701官方購買網址本輪原生仍轉址IQ701SL TotalCrush 2-in-1，標題與主商品Model明示IQ701SL，USD129.99/原169.99屬IQ701SL而非BN701。保留BN701舊99.98美元參考、現售待確認；不由轉址推定原廠停產。海外未含國際運費、進口稅、電壓/插頭與台灣保固風險。"
     },
@@ -688,11 +688,11 @@
     "name": "E320 Explorian 探索者調理機雙杯組黑色",
     "price": {
       "currency": "TWD",
-      "amount": 21736,
-      "converted": 21736,
-      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 24700,
+      "converted": 24700,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-04 下午重新查核：PChome exact SKU DMAY0G-A900AGMD8；Price.P=21736元，Qty=3。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。"
+      "note": "PChome 原商品主區及 SKU DMAY0G-A900AGMD8 公開價格 NT$24,700。API Qty 2，以通路配送、安裝條件為準。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY0GA900AGMD8/000001_1782460348.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAY0G-A900AGMD8",
@@ -792,11 +792,11 @@
     "name": "Ascent A2500i 全食物調理機白色",
     "price": {
       "currency": "TWD",
-      "amount": 26048,
-      "converted": 26048,
-      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 29600,
+      "converted": 29600,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-04 下午重新查核：PChome exact SKU QBAO0F-A900AS2DJ；Price.P=26048元，Qty=1。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。"
+      "note": "PChome 原商品主區及 SKU QBAO0F-A900AS2DJ 公開價格 NT$29,600。API Qty 1，以通路配送、安裝條件為準。"
     },
     "image": "https://cs-a.ecimg.tw/items/QBAO0FA900AS2DJ/000001_1782460671.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/QBAO0F-A900AS2DJ",

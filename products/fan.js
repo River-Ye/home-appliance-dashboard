@@ -502,11 +502,11 @@
     "name": "14 吋 DC 微電腦定時電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 2611,
-      "converted": 2611,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 2995,
+      "converted": 2995,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$2611，API Qty 9；個人券、點數、信用卡回饋及配送安裝費另計。"
+      "note": "PChome 原商品主區及 SKU DMABLM-A900EOQ12 公開折扣價 NT$2,995，頁列活動 11/01 至 11/16。API Qty 3，以通路配送、安裝條件為準。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABLMA900EOQ12/000001_1695005225.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMABLM-A900EOQ12",

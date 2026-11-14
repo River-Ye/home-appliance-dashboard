@@ -223,11 +223,11 @@
     "image": "https://cs-a.ecimg.tw/items/DMAW25A900G453U/000001_1781668075.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 8590,
-      "converted": 8590,
-      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
+      "amount": 8333,
+      "converted": 8333,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-05 人工覆核：Yahoo同型號主商品公開價8590元，主區立即購買／加入購物車可見。 不扣個人化折價券、點數、信用卡回饋或贈品價值。"
+      "note": "Yahoo 原商品主區可下單，公開折後價 NT$8,333，活動到 2026-11-16 07:00:59（台灣）。金額未扣會員券、點數及信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -848,10 +848,10 @@
     "image": "https://cs-a.ecimg.tw/items/DMCI01A900JV0NP/000001_1774843160.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 17800,
-      "converted": 17800,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$17800，API Qty 7；個人券、點數、信用卡回饋及配送安裝費另計。",
+      "amount": 16020,
+      "converted": 16020,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "note": "PChome 原商品主區及 SKU DMCI24-A900K16I2 公開折扣價 NT$16,020，頁列活動 11/13 至 11/16。API Qty 7，以通路配送、安裝條件為準。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -1361,10 +1361,10 @@
     "image": "https://cs-a.ecimg.tw/items/DMBM2HA900GH7MW/000001_1770018742.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 27800,
-      "converted": 27800,
-      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-04 下午重新查核：PChome exact SKU DMAWFM-A900H55UK；Price.P=27800元，Qty=20。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。",
+      "amount": 25020,
+      "converted": 25020,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "note": "PChome 原商品主區及 SKU DMAWFM-A900H55UK 公開折扣價 NT$25,020，頁列活動 11/13 至 11/16。API Qty 20，以通路配送、安裝條件為準。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -1575,10 +1575,10 @@
     "name": "櫥下型雙溫 UV 觸控飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 34000,
-      "converted": 34000,
-      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-04 下午重新查核：PChome exact SKU DMCI17-A900I6OFW；Price.P=34000元，Qty=4。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。",
+      "amount": 30600,
+      "converted": 30600,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "note": "PChome 原商品主區及 SKU DMCI17-A900I6OFW 公開折扣價 NT$30,600，頁列活動 11/13 至 11/16。API Qty 4，以通路配送、安裝條件為準。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBE1FA900GSOLN/000001_1698896380.jpg",
@@ -1673,11 +1673,11 @@
     "name": "聲控櫥下 RO 瞬熱飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 41220,
-      "converted": 41220,
-      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 45800,
+      "converted": 45800,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-04 下午重新查核：PChome exact SKU DMCI2F-A900JBNK6；Price.Low=41220元，Qty=5。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。"
+      "note": "PChome 原商品主區及 SKU DMCI2F-A900JBNK6 公開價格 NT$45,800。API Qty 5，以通路配送、安裝條件為準。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMCI2FA900JBNK6/000001_1782095017.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMCI2F-A900JBNK6",
@@ -1710,17 +1710,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 41220,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Culligan US-201C-TW: 蝦皮商城 - OASIS | Culligan 官方旗艦館 【美國Culligan康麗根】聲控櫥下RO瞬熱飲水機 US-201C-TW 免費原廠基本安裝 220V 型號/規格不相符；LBJ Culligan US-201C-TW: Momo富邦購物 【Culligan 康麗根】聲控櫥下RO瞬熱飲水機 US-201C-TW(大水量/多溫/瞬熱/免費基本安裝/RO) 型號/規格不相符；LBJ Culligan US-201C-TW: Yahoo購物中心 【美國culligan 康麗根】 聲控櫥下RO瞬熱飲水機 US-201C-TW(含原廠免費基本安裝) 型號/規格不相符。"
+      "converted": 41220,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DMCI2F-A900JBNK6",
+      "sourceTitle": "Lowcast 比價趨勢：PChome Culligan US-201C-TW",
+      "evidenceSnippet": "Lowcast 逐日紀錄的原商品是 DMCI2F-A900JBNK6、Culligan US-201C-TW 聲控櫥下 RO 瞬熱飲水機整機，2026-11-05 至 11-11 多日為 NT$41,220。2026-11-13 PChome 同 PID 原 API 折扣 NT$41,220，Qty 5。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-14",
+      "note": "採比價站可重現的同一 PChome 新品商品價格和 2026-11-13 同型歷史可購佐證。扣除信用卡回饋、會員／個人券與點數的價格不採。只採該 PChome SKU 整機原價史，不將其他通路安裝、配件或不同電力選項合併；未扣個人券或點數。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1873,10 +1873,10 @@
     "name": "廚下 RO 雙溫觸控飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 36810,
-      "converted": 36810,
-      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-13 PChome 原 SKU 公開價 NT$36810，API Qty 2。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。",
+      "amount": 33129,
+      "converted": 33129,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "note": "PChome 原商品主區及 SKU DMCI0O-A900JI1JA 公開折扣價 NT$33,129，頁列活動 11/13 至 11/16。API Qty 2，以通路配送、安裝條件為準。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMCI0OA900JT66N/000001_1773306819.png",
@@ -2067,10 +2067,10 @@
     "name": "廚下型飲用水加熱器",
     "price": {
       "currency": "TWD",
-      "amount": 23500,
-      "converted": 23500,
-      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
-      "note": "2026-11-05 人工覆核：Yahoo同型號主商品公開價23500元，主區立即購買／加入購物車可見。 不扣個人化折價券、點數、信用卡回饋或贈品價值。",
+      "amount": 21150,
+      "converted": 21150,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "note": "Yahoo 原商品主區可下單，公開折後價 NT$21,150，活動到 2026-11-16 07:00:59（台灣）。金額未扣會員券、點數及信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWB8A900BVEOG/000001_1760685693.jpg",
@@ -2166,8 +2166,8 @@
     "price": {
       "currency": "USD",
       "amount": 449.99,
-      "converted": 14839,
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。；ExchangeRate-API 2026-11-13 匯率換算",
+      "converted": 14811,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。；ExchangeRate-API 2026-11-14 匯率換算",
       "basis": "retailer_current",
       "note": "Brondell 美國 Circle RC100 原商品公開 USD 449.99，主商品購買狀態可用。海外參考，未含國際運費、進口稅、電壓／插頭及台灣保固風險。"
     },
@@ -2205,14 +2205,14 @@
       "status": "found",
       "amount": 289.99,
       "currency": "USD",
-      "converted": 9563,
+      "converted": 9545,
       "sourceUrl": "https://www.costco.com/CategoryDisplay?catalogId=10701&identifier=water-dispensers-filtration-water-filtration&storeId=10301",
       "sourceTitle": "Costco US：Brondell Circle Reverse Osmosis Water Filtration System",
       "evidenceSnippet": "Costco US exact-model 分類頁於 2026-08-28 顯示 Brondell Circle 折後 US$289.99，原價 US$369.99，優惠 US$80。",
       "sourceKind": "retailer_promo",
       "confidence": "medium",
       "checkedAt": "2026-08-28",
-      "note": "採 Costco US 公開 exact-model 折價作為本次可重現最低觀測價；未含國際運費、進口稅、耗材與台灣安裝／保固風險；依 2026-11-13 USD/TWD 匯率換算。"
+      "note": "採 Costco US 公開 exact-model 折價作為本次可重現最低觀測價；未含國際運費、進口稅、耗材與台灣安裝／保固風險；依 2026-11-14 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "common_issue",
@@ -2563,10 +2563,10 @@
     "name": "極熱 廚下五段溫控瞬熱飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 28800,
-      "converted": 28800,
-      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-04 下午重新查核：PChome exact SKU DMAWHT-A900JVB6I；Price.P=28800元，Qty=5。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。",
+      "amount": 25920,
+      "converted": 25920,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "note": "PChome 原商品主區及 SKU DMAWHT-A900JVB6I 公開折扣價 NT$25,920，頁列活動 11/13 至 11/16。API Qty 5，以通路配送、安裝條件為準。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWHTA900JVB6I/000001_1775031754.jpg",
@@ -2786,10 +2786,10 @@
       "主機淨重 11.8 kg；ThinQ、UVnano 與機內管線高溫清潔",
       "220V 專用 T 型插座、至少 15A；官方未公開頻率與額定功率"
     ],
-    "description": "WU525BS 是 LG 台灣官方現售的廚下冰溫熱旗艦，提供無水箱、感應加熱、ThinQ、UVnano 與自動管線高溫清潔。",
+    "description": "WU525BS 是 LG 台灣曾推出的廚下冰溫熱旗艦，提供無水箱、感應加熱、ThinQ、UVnano 與自動管線高溫清潔。",
     "pros": [
       "冰水、常溫與瞬熱整合",
-      "LG 官方直購、規格與售後政策清楚",
+      "LG 台灣官方產品資訊、規格與售後政策清楚",
       "ThinQ、UVnano 與自動高溫清潔便於維護"
     ],
     "cons": [
@@ -4730,11 +4730,11 @@
   "channel": "tw",
   "price": {
     "currency": "TWD",
-    "amount": 18810,
-    "converted": 18810,
+    "amount": 16929,
+    "converted": 16929,
     "basis": "retailer_current",
-    "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-    "note": "PChome 原商品頁與 SKU API 公開網路價 NT$18,810，含基本安裝。配送及特殊施工依原頁。"
+    "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+    "note": "PChome 原商品主區及 SKU DMCI0O-A900KIEKX 公開折扣價 NT$16,929，頁列活動 11/13 至 11/16。API Qty 10，以通路配送、安裝條件為準。"
   },
   "installation": {
     "status": "included_basic",
@@ -4832,11 +4832,11 @@
   "channel": "tw",
   "price": {
     "currency": "TWD",
-    "amount": 21510,
-    "converted": 21510,
+    "amount": 19359,
+    "converted": 19359,
     "basis": "retailer_current",
-    "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-    "note": "PChome 原商品頁與 SKU API 公開網路價 NT$21,510，含基本安裝。配送及特殊施工依原頁。"
+    "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+    "note": "PChome 原商品主區及 SKU DMCI0O-A900KIEP3 公開折扣價 NT$19,359，頁列活動 11/13 至 11/16。API Qty 19，以通路配送、安裝條件為準。"
   },
   "installation": {
     "status": "included_basic",

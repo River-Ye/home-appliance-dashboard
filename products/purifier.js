@@ -17,11 +17,11 @@
     "name": "5-10 坪綠淨力玩美雙禦空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 5411,
-      "converted": 5411,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 5900,
+      "converted": 5900,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-03 人工核對PChome exact商品ID與當日API原資料：Coway 綠淨力玩美雙禦空氣清淨機 AP-1019C 純淨白；【Coway】5-10坪 綠淨力玩美雙禦空氣清淨機 AP-1019C(純淨白)；Price.P=5411元，Qty=7。原商品頁可讀並對照主商品。不扣個人券、點數、信用卡，實際配送安裝請確認。"
+      "note": "PChome 原商品主區及 SKU DMAU3E-A900AU9PA 公開價格 NT$5,900。API Qty 4，以通路配送、安裝條件為準。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3EA900AU9PA/000001_1782107657.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU3E-A900AU9PA",
@@ -111,11 +111,11 @@
     "name": "14-29 坪智能 Wi-Fi 空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 9490,
-      "converted": 9490,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 9990,
+      "converted": 9990,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-03 人工核對PChome exact商品ID與當日API原資料：Blueair BlueMax空氣清淨機3450i；瑞典居家   淨在咫尺；Price.Low=9490元，Qty=8。原商品頁可讀並對照主商品。不扣個人券、點數、信用卡，實際配送安裝請確認。"
+      "note": "PChome 原商品主區及 SKU DMAUE4-A900I5SSZ 公開價格 NT$9,990。API Qty 6，以通路配送、安裝條件為準。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAUE4A900I5SSZ/000001_1780654673.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUE4-A900I5SSZ",
@@ -320,7 +320,10 @@
       "17 坪",
       "360 度進風",
       "奈米級濾網",
-      "空氣品質顯示"
+      "空氣品質顯示",
+      "原通路能源標籤：AC2936/86，CADR 360 m³/h",
+      "原通路能源標籤：AC2936/86，CADR 360 m³/h",
+      "原通路能源標籤：AC2936/86，CADR 360 m³/h"
     ],
     "description": "常見品牌、價位合理、坪數覆蓋實用，適合中型房間。",
     "pros": [
@@ -502,11 +505,11 @@
     "name": "ClassicPro CP9i 空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 24990,
-      "converted": 24990,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 26990,
+      "converted": 26990,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-03 人工核對PChome exact商品ID與當日API原資料：Blueair ClassicPro空氣清淨機CP9i(最大適用41坪)；手術室級紫藍光  定義空氣新淨；Price.Low=24990元，Qty=8。原商品頁可讀並對照主商品。不扣個人券、點數、信用卡，實際配送安裝請確認。"
+      "note": "PChome 原商品主區及 SKU DMAUE4-A900IJCAP 公開價格 NT$26,990。API Qty 6，以通路配送、安裝條件為準。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAUE4A900IJCAP/000001_1780654528.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUE4-A900IJCAP",
@@ -600,11 +603,11 @@
     "name": "Blue Signature SP4i 極夜藍空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 18490,
-      "converted": 18490,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 19990,
+      "converted": 19990,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-03 人工核對PChome exact商品ID與當日API原資料：Blueair Blue Signature空氣清淨機SP4i-極夜藍(L)；Blueair Blue Signature空氣清淨機SP4i-極夜藍(L)；Price.Low=18490元，Qty=4。原商品頁可讀並對照主商品。不扣個人券、點數、信用卡，實際配送安裝請確認。"
+      "note": "PChome 原商品主區及 SKU DMAUE4-A900J9KNK 公開價格 NT$19,990。API Qty 4，以通路配送、安裝條件為準。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAUE4A900J9KNK/000001_1780654611.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUE4-A900J9KNK",
@@ -796,11 +799,11 @@
     "name": "BlueMax 智能 WiFi 空氣清淨機 3350i",
     "price": {
       "currency": "TWD",
-      "amount": 7490,
-      "converted": 7490,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 7990,
+      "converted": 7990,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-03 人工核對PChome exact商品ID與當日API原資料：Blueair BlueMax空氣清淨機3350i；瑞典居家 淨在咫尺；Price.Low=7490元，Qty=3。原商品頁可讀並對照主商品。不扣個人券、點數、信用卡，實際配送安裝請確認。"
+      "note": "PChome 原商品主區及 SKU DMAUE4-A900I7DN1 公開價格 NT$7,990。API Qty 3，以通路配送、安裝條件為準。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAUE4A900I7DN1/000001_1780654653.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUE4-A900I7DN1",
@@ -894,11 +897,11 @@
     "name": "ComfortPure 智能三合一涼暖空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 16490,
-      "converted": 16490,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 17990,
+      "converted": 17990,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-03 人工核對PChome exact商品ID與當日API原資料：Blueair ComfortPure智能三合一涼暖空氣清淨機T20i(17坪)；Blueair ComfortPure智能三合一涼暖空氣清淨機T20i(17坪)；Price.Low=16490元，Qty=5。原商品頁可讀並對照主商品。不扣個人券、點數、信用卡，實際配送安裝請確認。"
+      "note": "PChome 原商品主區及 SKU DMAUE4-A900J40NE 公開價格 NT$17,990。API Qty 4，以通路配送、安裝條件為準。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAUE4A900J40NE/000001_1780654570.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUE4-A900J40NE",
@@ -1675,10 +1678,10 @@
     "name": "10坪圓嘟嘟空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 5097,
-      "converted": 5097,
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
-      "note": "Yahoo 自營同型 FU-J41T-W 白色，主區可立即購買及加車，宅配免運；原公開價 NT$5,422、單件活動後 NT$5,097 至 2026-11-16T09:59:59+08:00。偏遠地區及外島不配送。舊 PChome 售完。",
+      "amount": 5314,
+      "converted": 5314,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "note": "Yahoo 原商品主區可下單，公開折後價 NT$5,314，活動到 2026-11-16 06:59:59（台灣）。金額未扣會員券、點數及信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU6TA900IVWE0/000001_1748922662.jpg",
@@ -1953,103 +1956,6 @@
           "platform": "YouTube",
           "query": "\"LG AS601HWG0\" problem issue defect failure broken 災情 故障 異常",
           "queryUrl": "https://www.youtube.com/results?search_query=%22LG%20AS601HWG0%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
-          "targetHost": "youtube.com"
-        }
-      ]
-    }
-  },
-  {
-    "id": "purifier-costco-lg-as651dwh0",
-    "category": "purifier",
-    "rank": 21,
-    "budget": "premium",
-    "channel": "tw",
-    "brand": "LG",
-    "model": "AS651DWH0",
-    "name": "PuriCare 360° 空氣清淨機",
-    "price": {
-      "currency": "TWD",
-      "amount": 15499,
-      "converted": 15499,
-      "confidence": "Costco 好市多 2026-10-19 exact-model 公開結構化價格",
-      "note": "Costco 原頁 #136662 主商品為 AS651DWH0，頁面顯示 NT$15,499 含運，主購買按鈕缺貨且停用，保留既有參考價。創億購連結實際載入店面其他商品，未呈現同 SKU 主購買區。"
-    },
-    "image": "https://www.costco.com.tw/medias/sys_master/images/hfb/h8d/115203619782686.jpg",
-    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Air-Purifiers-Filters-Accessories/LG-PuriCare-360-Air-Purifier-AS651DWH0/p/136662",
-    "buyLabel": "Costco（原頁缺貨）",
-    "specs": [
-      "360° 進風",
-      "PuriCare 系列",
-      "大坪數取向",
-      "Costco 評價 4.6 / 37 則"
-    ],
-    "description": "LG PuriCare 360° 是 Costco 上評價穩定的高階空氣清淨機，適合客廳與開放空間。",
-    "pros": [
-      "360° 進風設計",
-      "Costco 評論數與評分都具參考性"
-    ],
-    "cons": [
-      "機身較大",
-      "耗材成本需另估"
-    ],
-    "bestFor": "客廳、開放式餐廚或想集中處理空氣品質的家庭。",
-    "recommendation": "好市多補充推薦：AS651DWH0 可和 Philips、POIEMA 與 Dyson 候選比較大坪數清淨效率。",
-    "score": 86,
-    "voltage": "110V 台灣通路",
-    "warranty": "依 Costco 好市多商品頁、品牌保固與退貨政策",
-    "tags": [
-      "Costco",
-      "大坪數",
-      "360進風"
-    ],
-    "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ LG AS651DWH0: Yahoo購物中心 LG樂金 超級大白 PuriCare 360空氣清淨機 複合一體過濾網/濾芯(副廠) AS651DSS0 AS651DWH0 AS601HWG0 AS651DBY0 最低價 NT$748 低於現價合理比例，疑似月付/配件/錯類；LBJ LG AS651DWH0: 蝦皮商城 - Renza Filtration 濾網專家 適用LG樂金 超級大白 AS651DBY0 AS651DWH0 AS601HWG0 空氣清淨機 抗菌HEPA活性碳 濾網 非採用通路或含排除條件；LBJ LG AS651DWH0: Momo富邦購物 【PUREBURG】適用 LG樂金 超級大白空氣清淨機AS601DPT0 AS951DPT0 AS651DWH0 副廠濾網組 最低價 NT$760 低於現價合理比例，疑似月付/配件/錯類。"
-    },
-    "issueResearch": {
-      "status": "no_common_issue",
-      "checkedAt": "2026-08-29",
-      "summary": "截至查核日，查無達門檻的集中負評／災情",
-      "issues": [],
-      "checkedSources": [
-        {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"LG AS651DWH0\" (problem OR issue OR defect OR failure)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20AS651DWH0%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-          "targetHost": "reddit.com"
-        },
-        {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"LG AS651DWH0\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20AS651DWH0%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "mobile01.com"
-        },
-        {
-          "platform": "PTT",
-          "query": "site:ptt.cc \"LG AS651DWH0\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22LG%20AS651DWH0%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "ptt.cc"
-        },
-        {
-          "platform": "Dcard",
-          "query": "site:dcard.tw \"LG AS651DWH0\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22LG%20AS651DWH0%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "dcard.tw"
-        },
-        {
-          "platform": "YouTube",
-          "query": "\"LG AS651DWH0\" problem issue defect failure broken 災情 故障 異常",
-          "queryUrl": "https://www.youtube.com/results?search_query=%22LG%20AS651DWH0%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
           "targetHost": "youtube.com"
         }
       ]
@@ -2588,11 +2494,11 @@
     "name": "4–8 坪抗敏系列空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 3111,
-      "converted": 3111,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 3990,
+      "converted": 3990,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$3111，API Qty 67；個人券、點數、信用卡回饋及配送安裝費另計。"
+      "note": "PChome 原商品主區及 SKU DMAU00-A77331975 公開價格 NT$3,990。API Qty 66，以通路配送、安裝條件為準。"
     },
     "installation": {
       "status": "not_stated",

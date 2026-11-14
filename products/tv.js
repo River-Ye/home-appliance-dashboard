@@ -221,8 +221,8 @@
       "currency": "TWD",
       "amount": 53910,
       "converted": 53910,
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
-      "note": "PChome 新商品編號 DPAD06-A900HKBUL 原頁明示「BRAVIA 7 65型 XR Mini LED 4K HDR Google TV 顯示器 Y-65XR70」，折扣價 53910元，可加入購物車，API 庫存 1。金額未扣會員券、點數或信用卡回饋。 PChome 新商品編號 DPAD06-A900HKBUL 原頁明示「BRAVIA 7 65型 XR Mini LED 4K HDR Google TV 顯示器 Y-65XR70」，折扣價 53910元，可加入購物車，API 庫存 1。金額未扣會員券、點數或信用卡回饋。公開折扣 NT$53,910，網路價 NT$56,900，主商品 directPromotions 截至 2026-11-13 09:00:59（台灣）。",
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "note": "PChome 原商品主區及 SKU DPAD06-A900HKBUL 公開折扣價 NT$53,910，活動至 2026/11/16 08:00:59（台灣）。API Qty 1，以通路配送、安裝條件為準。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADFNA900K7VQ8/000001_1784011502.jpg",
@@ -734,11 +734,11 @@
     "name": "65 型 4K 120Hz 量子點護眼 Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 25900,
-      "converted": 25900,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 26900,
+      "converted": 26900,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$25900，API Qty 20；個人券、點數、信用卡回饋及配送安裝費另計。"
+      "note": "PChome 原商品主區及 SKU DPAD0O-1900IEK5W 公開價格 NT$26,900。API Qty 20，以通路配送、安裝條件為準。"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD0O1900IEK5W/000001_1761401167.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAD0O-1900IEK5W",

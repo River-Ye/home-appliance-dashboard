@@ -1421,11 +1421,11 @@
     "name": "17-32 吋 2-9KG 人體工學螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 711,
-      "converted": 711,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
+      "amount": 800,
+      "converted": 800,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品公開價 NT$711；原商品主區有購買按鈕。"
+      "note": "Yahoo 原商品主區可下單，公開折後價 NT$800，活動到 2026-11-23 23:59:59（台灣）。金額未扣會員券、點數及信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGQ5A900JUC1W/000001_1774344481.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E6%A8%82%E6%AD%8CLoctek-%E4%BA%BA%E9%AB%94%E5%B7%A5%E5%AD%B8-%E8%9E%A2%E5%B9%95%E6%94%AF%E6%9E%B6D5S-12033991.html",
@@ -1525,8 +1525,7 @@
       "amount": 3141,
       "converted": 3141,
       "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "basis": "retailer_current",
-      "note": "2026-11-13 PChome 原 SKU 公開價 NT$3141，API Qty 20。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。"
+      "note": "PChome 原商品頁主價 NT$3,490 與 API 確認值或原頁購買狀態未能完整互證，保留既有參考資料。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGU1A900I6WCY/000001_1754374453.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAGU1-A900I6WCY",
@@ -2155,14 +2154,14 @@
       "status": "found",
       "amount": 282,
       "currency": "GBP",
-      "converted": 12314,
+      "converted": 12271,
       "sourceUrl": "https://pricespy.co.uk/product.php?p=16273588",
       "sourceTitle": "PriceSpy UK：Dell HDA26 Single Monitor Arm",
       "evidenceSnippet": "PriceSpy exact-model 頁的 Price History 明示新品最低價 £282，且商品名稱、品牌與 GTIN 對應 Dell HDA26。",
       "sourceKind": "price_history",
       "confidence": "medium",
       "checkedAt": "2026-08-25",
-      "note": "採英國市場 exact-model 公開價格歷史並依 2026-11-13 GBP/TWD 匯率換算；未含國際運費、進口稅、退換貨與台灣保固風險，不能直接視為台灣到手價。"
+      "note": "採英國市場 exact-model 公開價格歷史並依 2026-11-14 GBP/TWD 匯率換算；未含國際運費、進口稅、退換貨與台灣保固風險，不能直接視為台灣到手價。"
     },
     "issueResearch": {
       "status": "no_common_issue",

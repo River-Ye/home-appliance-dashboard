@@ -106,14 +106,15 @@
     "name": "遙控空氣循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 1771,
-      "converted": 1771,
-      "confidence": "2026-08-31 人工查核：PCF-SC15T 沙黑雖顯示單件 9 折 NT$2,061、數量 1 與到貨日期，但載入後只有『可訂購時通知我』，沒有直接購買／購物車；不以數量選單或預計到貨文字推定現售。保留原紀錄價 1,771，不因缺貨移除。",
-      "note": "2026-11-04 Chrome逐筆查核：Chrome原來源頁明示「商品目前無展售／網頁不存在」或「查無商品資料，商品不存在或已下架」；沒有可購主商品價格；不是原廠停產證據。 保留既有參考價，另查可信現售連結。"
+      "amount": 2176,
+      "converted": 2176,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "note": "舊 momo 原頁無法重現展售。Yahoo 自營 8331428 主區標 IRIS PCF-SC15T（原基本單機款），主區公開活動折後與同 SKU 結構化價均為 NT$2,176，購買按鈕可用且 InStock，達 NT$480 宅配免運；一般滿一件95折期限 2026-12-31 23:59:59 台灣時間。未計個人券、點數或刷卡回饋。",
+      "basis": "retailer_current"
     },
-    "image": "https://cs-a.ecimg.tw/items/DSBE18A900J27XM/000001_1754619793.jpg",
-    "buyUrl": "https://www.momoshop.com.tw/product/8033074",
-    "buyLabel": "momo（原來源無展售，查看供貨）",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/84AF7BD589-SP-6895694.jpg",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=8331428",
+    "buyLabel": "Yahoo購物中心（自營）",
     "specs": [
       "桌上型",
       "遙控",

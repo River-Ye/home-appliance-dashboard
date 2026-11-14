@@ -529,24 +529,25 @@
     "brand": "Whirlpool",
     "model": "8TWGD5620HW",
     "name": "Whirlpool 8TWGD5620HW",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/1178FF80D6-SP-21903027.jpg",
+    "image": "https://cs-a.ecimg.tw/items/DPAI1PA900B8S4H/000001_1762877677.jpg",
     "price": {
       "currency": "TWD",
       "amount": 32000,
       "converted": 32000,
-      "confidence": "Yahoo購物中心 2026-09-14 exact-model 公開結構化價格",
-      "note": "Yahoo 同 SKU 主商品無可用的立即購買／加入購物車，保留既有參考價。"
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "note": "舊 Yahoo 同型桶裝瓦斯賣場售完。PChome 原頁標題、規格及 API 均是 8TWGD5620HW 桶裝瓦斯版，Qty 7、主區 NT$32,000、加入購物車與立即購買可用。超大材積倉庫出貨，原頁滿 NT$490 免運；排風管、瓦斯管及束環未隨附。金額未計入點數、信用卡或其他回饋。",
+      "basis": "retailer_current"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心（此賣場已售完）",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool%E6%83%A0%E8%80%8C%E6%B5%A6-16%E5%85%AC%E6%96%A4-%E5%BF%AB%E7%83%98%E7%93%A6%E6%96%AF%E5%9E%8B%E6%BB%BE%E7%AD%92%E4%B9%BE%E8%A1%A3%E6%A9%9F-8TWGD5620HW-%E6%A1%B6%E8%A3%9D%E7%93%A6%E6%96%AF-10509173.html",
+    "buyLabel": "PChome 24h購物（桶裝瓦斯款）",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1P-A900B8S4H",
     "specs": [
       "烘衣機：Whirlpool 惠而浦16公斤快烘瓦斯型滾筒乾衣機8TWGD5620HW(桶裝瓦斯)",
       "容量：16kg",
       "尺寸：寬 68.6 x 深 78.7 x 高 96.8 cm",
       "乾衣方式：瓦斯",
       "需確認排風/排水、瓦斯或專用迴路；疊放需另查同品牌疊架",
-      "Yahoo購物 可信通路低價；排除洗脫烘、福利品、展示機、底座與配件頁"
+      "PChome 桶裝瓦斯版台灣新品；排風管、瓦斯管及束環另備。"
     ],
     "description": "聚焦獨立烘衣/乾衣機，依熱泵節能、瓦斯效率、容量、安裝條件、品牌售後與耗材維護排序。",
     "pros": [
@@ -623,6 +624,10 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "PChome 商品規格列基本安裝。排風管、瓦斯管及束環未附，換門及追加材料／施工另行報價；外島不配送，偏遠區域依安裝商確認。"
     }
   },
   {
@@ -1558,24 +1563,25 @@
     "brand": "TATUNG",
     "model": "TAW-D60T",
     "name": "TATUNG TAW-D60T",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/7F32C23042-SP-16513735.jpg",
+    "image": "https://cs-a.ecimg.tw/items/DPAI2SA900HDQZZ/000001_1712889414.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 6460,
-      "converted": 6460,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價",
-      "note": "Yahoo 原商品主區顯示此賣場已停售；保留先前參考價，供貨待查。"
+      "amount": 6999,
+      "converted": 6999,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "note": "舊 Yahoo 賣場停售。PChome 主區大同 TAW-D60T 6kg 冷熱風滾筒乾衣機 NT$6,999，API 同型 Qty 10，加入購物車可用。主頁明示含基本安裝，偏遠地區、山區及離島依配送條款，廠商出貨無 24 小時承諾。金額未扣個人券或回饋。",
+      "basis": "retailer_current"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心（此賣場已停售）",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/TATUNG%E5%A4%A7%E5%90%8C-6KG%E4%B9%BE%E8%A1%A3%E6%A9%9F-TAW-D60T-11014360.html",
+    "buyLabel": "PChome 24h購物（含基本安裝）",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPAI2S-A900HDQZZ",
     "specs": [
       "烘衣機：TATUNG大同 6KG乾衣機(TAW-D60T)",
       "容量：6kg",
       "尺寸：寬 60 x 深 48 x 高 69 cm",
       "乾衣方式：電熱",
       "需確認排風/排水、瓦斯或專用迴路；疊放需另查同品牌疊架",
-      "Yahoo購物 可信通路低價；排除洗脫烘、福利品、展示機、底座與配件頁"
+      "PChome 同型台灣新品，含基本安裝；偏遠配送依通路。"
     ],
     "description": "聚焦獨立烘衣/乾衣機，依熱泵節能、瓦斯效率、容量、安裝條件、品牌售後與耗材維護排序。",
     "pros": [
@@ -1652,6 +1658,10 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "PChome 主頁明示含基本安裝，不含偏遠地區及山區。特殊搬運、樓層與空趟費依通路條款，離島不配送。"
     }
   },
   {
@@ -1664,10 +1674,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/C0FA586EC4-SP-18495887.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 7990,
-      "converted": 7990,
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
-      "note": "Yahoo 原 SKU 主商品公開價 NT$7,990，主購買按鈕可用。",
+      "amount": 7591,
+      "converted": 7591,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "note": "Yahoo 原商品主區可下單，公開折後價 NT$7,591，活動到 2026-11-16 07:30:59（台灣）。金額未扣會員券、點數及信用卡回饋。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -1971,10 +1981,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/254DF81A1E-SP-20893325.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 49900,
-      "converted": 49900,
-      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
-      "note": "2026-11-05 人工覆核：Yahoo同型號主商品公開價49900元，主區立即購買／加入購物車可見。 不扣個人化折價券、點數、信用卡回饋或贈品價值。",
+      "amount": 45908,
+      "converted": 45908,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "note": "Yahoo 原商品主區可下單，公開折後價 NT$45,908，活動到 2026-11-16 07:30:59（台灣）。金額未扣會員券、點數及信用卡回饋。",
       "basis": "retailer_current"
     },
     "channel": "tw",

@@ -2244,9 +2244,8 @@
       "currency": "TWD",
       "amount": 1099,
       "converted": 1099,
-      "basis": "retailer_current",
       "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
-      "note": "PChome 新商品編號 DHAG9F-A900HACFH 原頁明示「205 Sanitizable Desk Mat 桌墊 滑鼠墊 (8X597AA/防潑水可消毒/四邊防磨損縫線/環保材質)」，網路價 1099元，可加入購物車，API 庫存 1。金額未扣會員券、點數或信用卡回饋。"
+      "note": "PChome 原商品頁主價 NT$1,099 與 API 確認值或原頁購買狀態未能完整互證，保留既有參考資料。"
     },
     "installation": {
       "status": "not_stated",

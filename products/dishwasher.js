@@ -536,8 +536,7 @@
       "amount": 29900,
       "converted": 29900,
       "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "basis": "retailer_current",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$29900，API Qty 20；個人券、點數、信用卡回饋及配送安裝費另計。"
+      "note": "PChome 原商品頁主價 NT$28,888 與 API 確認值或原頁購買狀態未能完整互證，保留既有參考資料。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1055,11 +1054,11 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR2HA900K4KMO/000001_1782874928.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 34900,
-      "converted": 34900,
-      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
+      "amount": 34999,
+      "converted": 34999,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-04 晚間原生Chrome覆核：SJU4EKW00W主商品公開顯示NT$34900，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。"
+      "note": "PChome 原商品主區及 SKU DMBR2H-A900K4KMO 公開價格 NT$34,999。API Qty 5，以通路配送、安裝條件為準。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1261,22 +1260,22 @@
     "brand": "LG",
     "model": "DFB335HS",
     "name": "LG DFB335HS",
-    "image": "https://cs-a.ecimg.tw/items/DMBR14A900G0F7J/000001_1779679396.jpg",
+    "image": "https://img.pchome.com.tw/cs/items/DMBR14A900G0F7J/000001_1779679396.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 47900,
-      "converted": 47900,
-      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開預購報價；非現貨，交期見註記。",
-      "note": "2026-11-04 原生Chrome主商品：NT$66900劃線、NT$47900、連結「預購」，並明示將於2026年11月13日按購買次序發貨。 不另扣會員券、信用卡、點數或推算優惠；送貨及基本安裝條件依原頁。",
+      "amount": 45505,
+      "converted": 45505,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "note": "PChome 主區 LG DFB335HS 14 人份消光銀公開折扣 NT$45,505（網路價 NT$47,900），API 同型 Qty 4，購買按鈕可用，主商品沒有預購標示。超大材積倉庫出貨、未承諾 24h 送達。API 副商品名提到基本安裝，主頁未列範圍，購前確認安裝條件與可能加價。公開折扣截至 2026/11/30 00:00:59。",
       "basis": "retailer_current"
     },
     "channel": "tw",
-    "buyLabel": "LG 官方預購（11/13 起按序出貨）",
-    "buyUrl": "https://www.lg.com/tw/dishwashers/all-dishwashers/dfb335hs/",
+    "buyLabel": "PChome 24h購物（可下單）",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBR14-A900G0F7J",
     "specs": [
       "洗碗機：LG樂金 DFB335HS【QuadWash™ Steam四方洗蒸氣洗碗機】消光銀/自動開門烘乾/觸控面板",
       "尺寸：寬 60 x 深 60 x 高 85 cm",
-      "LG 樂金 DFB335HS【四方洗蒸氣洗碗機】消光銀/上觸控面板/自動開門烘乾 (含基本安裝)",
+      "LG 樂金 DFB335HS【四方洗蒸氣洗碗機】消光銀/上觸控面板/自動開門烘乾",
       "容量/安裝型式依商品頁標示",
       "PChome 24h 可信通路低價",
       "排除福利品與配件"
@@ -1309,16 +1308,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 46906,
+      "amount": 45505,
       "currency": "TWD",
-      "converted": 46906,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1269683447&cgp=47904",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：LG 樂金 14人份 QuadWash Steam 四方洗蒸氣洗碗機-消光銀(DFB335HS)(可預約場刊)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / LG 樂金 14人份 QuadWash Steam 四方洗蒸氣洗碗機-消光銀(DFB335HS)(可預約場刊)」最低價為 NT$46,906，最低點日期 2026-06-10。",
+      "converted": 45505,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DMBR14-A900G0F7J",
+      "sourceTitle": "Lowcast 比價趨勢：PChome DFB335HS",
+      "evidenceSnippet": "Lowcast 原頁列 DFB335HS 且原商品連結為 PChome DMBR14-A900G0F7J，逐日價格於 2026-11-12 至 2026-11-13 顯示 NT$45,505。",
       "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "confidence": "medium",
+      "checkedAt": "2026-11-14",
+      "note": "採同型與同 PChome SKU 的日期價格紀錄。個人折價券、信用卡回饋及點數未納入。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1357,6 +1356,10 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "PChome 原頁主商品未載基本安裝範圍，購前須確認到府安裝與加價。"
     }
   },
   {
@@ -1473,11 +1476,11 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR1WA900K4MYS/000001_1781748945.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 79000,
-      "converted": 79000,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 73470,
+      "converted": 73470,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$79000，API Qty 10；個人券、點數、信用卡回饋及配送安裝費另計。"
+      "note": "PChome 原商品主區及 SKU DMBR1W-A900K4MYS 公開折扣價 NT$73,470。API Qty 10，以通路配送、安裝條件為準。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -2687,18 +2690,18 @@
     "name": "8 人份抽屜式洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 44704,
-      "converted": 44704,
-      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 44460,
+      "converted": 44460,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-04 momo13272372 RKW-601C-SV-TR含基本安裝，native主價44704、折前50800，新11/03–11/30滿1件88折，110V/60cm/qty1–9，專人約配。"
+      "note": "PChome 同型南紡商品明示 60 cm、約 8 人份、含標準安裝，公開單件折後 NT$44,460（網路價 NT$49,400），API 同型 Qty 3，購買按鈕可用。公開折扣截至 2026/11/30 00:00:59。下單前確認櫥櫃、管線、電力及額外施工。"
     },
-    "image": "https://i4.momoshop.com.tw/1772634123/goodsimg/0013/272/372/13272372_R_m.webp",
-    "buyUrl": "https://www.momoshop.com.tw/product/13272372",
-    "buyLabel": "momo 購物（基本安裝）",
+    "image": "https://img.pchome.com.tw/cs/items/DMBM1KA900FRWDQ/000001_1669194535.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBM1K-A900FRWDQ",
+    "buyLabel": "PChome 24h購物（含標準安裝）",
     "installation": {
       "status": "included_basic",
-      "note": "momo exact-model 標題明載基本安裝；櫥櫃開孔、門板／櫃體修改、遠距進排水、專用插座與額外材料不應自行視為包含，須依現場評估確認。"
+      "note": "PChome 主商品明示含標準安裝，現場改櫃、改管或加料另確認。"
     },
     "specs": [
       "抽屜式、8 人份；6 種洗程",
@@ -2711,7 +2714,7 @@
     "pros": [
       "8 人份與抽屜式操作比小型桌上機有更大裝載彈性",
       "110V 台灣規格，不必直接假設需 220V",
-      "官方明列本體與安裝開口尺寸，momo 標示基本安裝"
+      "官方明列本體與安裝開口尺寸，PChome 標示含標準安裝"
     ],
     "cons": [
       "必須預留 60cm 櫃寬與足夠 63.9cm 機身深度",
@@ -3215,11 +3218,11 @@
     "topPick": false,
     "price": {
       "currency": "TWD",
-      "amount": 73900,
-      "converted": 73900,
+      "amount": 80550,
+      "converted": 80550,
       "basis": "retailer_current",
-      "confidence": "PChome 2026-11-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-05 PChome原SKU API公開價 73900 TWD；先前促銷金額不沿用。未扣個人券、點數或信用卡回饋；實際配送與安裝條件依通路確認。"
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "note": "PChome 原商品主區及 SKU DMBR13-A900KIVV7 公開價格 NT$80,550。API Qty 10，以通路配送、安裝條件為準。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMBR13A900KIVV7/000001_1790912458.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR13-A900KIVV7",
@@ -3324,9 +3327,8 @@
       "currency": "TWD",
       "amount": 39900,
       "converted": 39900,
-      "basis": "retailer_current",
       "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$39900，API Qty 20；個人券、點數、信用卡回饋及配送安裝費另計。"
+      "note": "PChome 原商品頁主價 NT$39,888 與 API 確認值或原頁購買狀態未能完整互證，保留既有參考資料。"
     },
     "installation": {
       "status": "included_basic",
@@ -3424,9 +3426,8 @@
       "currency": "TWD",
       "amount": 46888,
       "converted": 46888,
-      "basis": "retailer_current",
       "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$46888，API Qty 10；個人券、點數、信用卡回饋及配送安裝費另計。"
+      "note": "PChome 原商品頁主價 NT$49,888 與 API 確認值或原頁購買狀態未能完整互證，保留既有參考資料。"
     },
     "installation": {
       "status": "included_basic",

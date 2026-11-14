@@ -563,116 +563,6 @@
     ]
   },
   {
-    "id": "garmentcare-lg-e523mr",
-    "category": "garmentcare",
-    "rank": 6,
-    "budget": "mid",
-    "channel": "tw",
-    "brand": "LG",
-    "model": "E523MR",
-    "name": "LG Styler 蒸氣電子衣櫥 奢華鏡面",
-    "price": {
-      "currency": "TWD",
-      "amount": 38811,
-      "converted": 38811,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "basis": "retailer_current",
-      "note": "2026-11-01 人工逐筆核對PChome原產品API：LG樂金 WiFi styler 智慧電子衣櫥 (奢華鏡面款) E523MR；Price.P=38811元，Qty=3，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
-    },
-    "image": "https://cs-a.ecimg.tw/items/DPAI1LA900AMBO4/000001_1762826021.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900AMBO4",
-    "buyLabel": "PChome 24h",
-    "specs": [
-      "容量：3 件吊掛衣物＋褲管護理",
-      "護理技術：TrueSteam 蒸氣護理與 Moving Hanger 動態衣架",
-      "行程：除味除皺、衛生護理、褲管、柔護乾燥與空間除濕",
-      "乾燥方式：Heat Pump 熱泵柔護乾燥",
-      "尺寸：寬 44.5 x 深 58.5 x 高 185 cm",
-      "重量：78 kg",
-      "水箱／給排水：內建可拆式給水／排水箱，免固定給排水",
-      "電壓／頻率：110V／60Hz",
-      "耗電：1300W",
-      "噪音：官方頁未標示",
-      "連線功能：LG ThinQ／Wi-Fi",
-      "門向：依原廠門向變更服務與現場條件確認",
-      "安裝間距：後方 5–10 cm、頂部及側邊 2–3 cm；開門深度約 101 cm",
-      "材質限制：依衣物洗標與原廠行程使用；皮革、毛皮、黏合飾件及不耐熱材質不得自行推定可處理。"
-    ],
-    "description": "封閉式吊掛衣物護理櫃，以蒸氣、氣流與柔護乾燥減少異味、皺褶及部分過敏原；不能取代洗衣、乾洗、熨燙或大量烘衣。",
-    "pros": [
-      "44.5 cm 窄機身",
-      "台灣 110V 與品牌售後",
-      "蒸氣、動態衣架與褲管護理"
-    ],
-    "cons": [
-      "容量僅 3 件",
-      "不能處理明顯污漬或取代洗衣",
-      "需定期補水、倒水與清潔濾網"
-    ],
-    "bestFor": "空間有限、以少量制服、西裝或外套日常護理為主的人。",
-    "recommendation": "3 件鏡面款，適合重視窄機身、褲管護理與 ThinQ 的使用者。",
-    "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-23",
-      "note": "已查核 E523MR 的官方產品頁、可信新品通路與公開比價入口；未找到可重現、符合 exact-model 且排除會員個人化折扣、信用卡回饋、點數、福利品、展示機、拆封品、二手及整新品的歷史最低價，因此不以本輪現價推定史低。"
-    },
-    "issueResearch": {
-      "status": "no_common_issue",
-      "checkedAt": "2026-08-29",
-      "summary": "截至查核日，查無達門檻的集中負評／災情",
-      "issues": [],
-      "checkedSources": [
-        {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"LG E523MR\" (problem OR issue OR defect OR failure)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20E523MR%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-          "targetHost": "reddit.com"
-        },
-        {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"LG E523MR\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20E523MR%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "mobile01.com"
-        },
-        {
-          "platform": "PTT",
-          "query": "site:ptt.cc \"LG E523MR\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22LG%20E523MR%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "ptt.cc"
-        },
-        {
-          "platform": "Dcard",
-          "query": "site:dcard.tw \"LG E523MR\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22LG%20E523MR%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "dcard.tw"
-        },
-        {
-          "platform": "YouTube",
-          "query": "\"LG E523MR\" problem issue defect failure broken 災情 故障 異常",
-          "queryUrl": "https://www.youtube.com/results?search_query=%22LG%20E523MR%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
-          "targetHost": "youtube.com"
-        }
-      ]
-    },
-    "score": 90,
-    "voltage": "110V／60Hz 台灣版本；需接地插座並確認防傾倒固定",
-    "warranty": "LG 台灣與PChome 24h標示保固；安裝及額外施工依通路",
-    "tags": [
-      "3 件",
-      "鏡面",
-      "褲管護理"
-    ]
-  },
-  {
     "id": "garmentcare-lg-e523ir",
     "category": "garmentcare",
     "rank": 7,
@@ -792,8 +682,8 @@
     "price": {
       "currency": "USD",
       "amount": 2199,
-      "converted": 72515,
-      "confidence": "2026-08-31 人工核對 LG 美國官網 SC5GMR80H 公開可購主價 USD 2,199；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-11-13 匯率換算",
+      "converted": 72378,
+      "confidence": "2026-08-31 人工核對 LG 美國官網 SC5GMR80H 公開可購主價 USD 2,199；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-11-14 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-04 午後人工覆核：LG美國SC5GMR80H原生頁標題區USD1999/折800，但實際Review your selections與Selection Total仍USD2199/折600；主商品Add to Cart啟用、90210預估11/9送達，和原HTML OutOfStock互相矛盾。保留2199舊參考價，價格與供貨待確認；不取較低headline當選定可購價。未含國際運費、進口稅、電壓/插頭與台灣保固風險。"
     },
@@ -904,8 +794,8 @@
     "price": {
       "currency": "USD",
       "amount": 1799,
-      "converted": 59324,
-      "confidence": "2026-08-31 人工核對 LG 美國官網 SC5MAR4G 公開可購主價 USD 1,799；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-11-13 匯率換算",
+      "converted": 59212,
+      "confidence": "2026-08-31 人工核對 LG 美國官網 SC5MAR4G 公開可購主價 USD 1,799；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-11-14 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-04 LG美國SC5MAR4G原SKUOutOfStock，1999USD缺貨展示價不採，保留1799USD參考與海外運稅/電力/保固風險。未取得原廠台灣exact整型停產正證，不據此刪除。"
     },
@@ -1016,8 +906,8 @@
     "price": {
       "currency": "USD",
       "amount": 1599,
-      "converted": 52729,
-      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-13 匯率換算",
+      "converted": 52629,
+      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-14 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-04 午後人工覆核：LG美國原生所選S3MFBN Mirror主商品與Review your selections/Selection Total一致為USD1599，主商品Add to Cart啟用；不扣bundle、保護方案、回收服務或會員優惠。未含國際運費、進口稅、電壓/插頭與台灣保固風險。"
     },
@@ -1128,8 +1018,8 @@
     "price": {
       "currency": "USD",
       "amount": 1399,
-      "converted": 46134,
-      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-13 匯率換算",
+      "converted": 46047,
+      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-14 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-04 午後人工覆核：LG美國原生所選S3WFBN White主商品與Review your selections/Selection Total一致為USD1399，主商品Add to Cart啟用；不扣bundle、保護方案、回收服務或會員優惠。未含國際運費、進口稅、電壓/插頭與台灣保固風險。"
     },
@@ -1240,8 +1130,8 @@
     "price": {
       "currency": "USD",
       "amount": 1499,
-      "converted": 49431,
-      "confidence": "LG 美國 2026-07-23 官方現售型錄公開價；ExchangeRate-API 2026-11-13 匯率換算",
+      "converted": 49338,
+      "confidence": "LG 美國 2026-07-23 官方現售型錄公開價；ExchangeRate-API 2026-11-14 匯率換算",
       "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
     },
     "image": "https://media.us.lg.com/transform/ecomm-PDPGallery-1100x730/d0843109-3129-40be-b3b9-325bb4ef78de/Styler-S3RFBN-gallery-01_5000x5000?io=transform:fill,width:1024",
@@ -1351,8 +1241,8 @@
     "price": {
       "currency": "KRW",
       "amount": 2327320,
-      "converted": 57523,
-      "confidence": "2026-11-04 Chrome人工核對Danawa exact-model一般購買(일반구매)公開最低比價；依當日KRW/TWD匯率換算。；ExchangeRate-API 2026-11-13 匯率換算",
+      "converted": 57329,
+      "confidence": "2026-11-04 Chrome人工核對Danawa exact-model一般購買(일반구매)公開最低比價；依當日KRW/TWD匯率換算。；ExchangeRate-API 2026-11-14 匯率換算",
       "note": "韓國Danawa一般購買最低比價快照，未採會員／卡友最高優惠價、點數、租賃月付或發售建議價；點入各零售商仍須確認可購總額與供貨。海外參考，未含國際運費、進口稅、電壓／插頭／變壓器與台灣保固風險。"
     },
     "image": "https://images.samsung.com/kdp/goods/2026/01/13/bcebeb93-4709-4c18-b685-e159e476dcfd.png",
@@ -1462,8 +1352,8 @@
     "price": {
       "currency": "KRW",
       "amount": 2061500,
-      "converted": 50953,
-      "confidence": "2026-11-04 Chrome人工核對Danawa exact-model一般購買(일반구매)公開最低比價；依當日KRW/TWD匯率換算。；ExchangeRate-API 2026-11-13 匯率換算",
+      "converted": 50781,
+      "confidence": "2026-11-04 Chrome人工核對Danawa exact-model一般購買(일반구매)公開最低比價；依當日KRW/TWD匯率換算。；ExchangeRate-API 2026-11-14 匯率換算",
       "note": "韓國Danawa一般購買最低比價快照，未採會員／卡友最高優惠價、點數、租賃月付或發售建議價；點入各零售商仍須確認可購總額與供貨。海外參考，未含國際運費、進口稅、電壓／插頭／變壓器與台灣保固風險。"
     },
     "image": "https://images.samsung.com/kdp/goods/2026/01/13/a5e2b9e4-2578-420b-a4e9-03f9af8a98a4.png",
@@ -1573,8 +1463,8 @@
     "price": {
       "currency": "KRW",
       "amount": 2061500,
-      "converted": 50953,
-      "confidence": "2026-11-04 Chrome人工核對Danawa exact-model一般購買(일반구매)公開最低比價；依當日KRW/TWD匯率換算。；ExchangeRate-API 2026-11-13 匯率換算",
+      "converted": 50781,
+      "confidence": "2026-11-04 Chrome人工核對Danawa exact-model一般購買(일반구매)公開最低比價；依當日KRW/TWD匯率換算。；ExchangeRate-API 2026-11-14 匯率換算",
       "note": "韓國Danawa一般購買最低比價快照，未採會員／卡友最高優惠價、點數、租賃月付或發售建議價；點入各零售商仍須確認可購總額與供貨。海外參考，未含國際運費、進口稅、電壓／插頭／變壓器與台灣保固風險。"
     },
     "image": "https://images.samsung.com/kdp/goods/2026/01/13/b79b910e-17e9-4844-b199-726f9a7a3810.png",
@@ -1684,8 +1574,8 @@
     "price": {
       "currency": "KRW",
       "amount": 1970600,
-      "converted": 48706,
-      "confidence": "2026-11-04 Chrome人工核對Danawa exact-model一般購買(일반구매)公開最低比價；依當日KRW/TWD匯率換算。；ExchangeRate-API 2026-11-13 匯率換算",
+      "converted": 48542,
+      "confidence": "2026-11-04 Chrome人工核對Danawa exact-model一般購買(일반구매)公開最低比價；依當日KRW/TWD匯率換算。；ExchangeRate-API 2026-11-14 匯率換算",
       "note": "韓國Danawa一般購買最低比價快照，未採會員／卡友最高優惠價、點數、租賃月付或發售建議價；點入各零售商仍須確認可購總額與供貨。海外參考，未含國際運費、進口稅、電壓／插頭／變壓器與台灣保固風險。"
     },
     "image": "https://images.samsung.com/kdp/goods/2026/01/13/76d4f74e-0c3a-42e1-89f8-426d5859c6d0.png",
@@ -1795,8 +1685,8 @@
     "price": {
       "currency": "KRW",
       "amount": 1919030,
-      "converted": 47431,
-      "confidence": "2026-11-04 Chrome人工核對Danawa exact-model一般購買(일반구매)公開最低比價；依當日KRW/TWD匯率換算。；ExchangeRate-API 2026-11-13 匯率換算",
+      "converted": 47271,
+      "confidence": "2026-11-04 Chrome人工核對Danawa exact-model一般購買(일반구매)公開最低比價；依當日KRW/TWD匯率換算。；ExchangeRate-API 2026-11-14 匯率換算",
       "note": "韓國Danawa一般購買最低比價快照，未採會員／卡友最高優惠價、點數、租賃月付或發售建議價；點入各零售商仍須確認可購總額與供貨。海外參考，未含國際運費、進口稅、電壓／插頭／變壓器與台灣保固風險。"
     },
     "image": "https://images.samsung.com/kdp/goods/2026/01/13/51d56ac5-a158-40ac-8c0a-40369bd7fd13.png",
@@ -1906,8 +1796,8 @@
     "price": {
       "currency": "KRW",
       "amount": 1694250,
-      "converted": 41876,
-      "confidence": "2026-11-04 Chrome人工核對Danawa exact-model一般購買(일반구매)公開最低比價；依當日KRW/TWD匯率換算。；ExchangeRate-API 2026-11-13 匯率換算",
+      "converted": 41734,
+      "confidence": "2026-11-04 Chrome人工核對Danawa exact-model一般購買(일반구매)公開最低比價；依當日KRW/TWD匯率換算。；ExchangeRate-API 2026-11-14 匯率換算",
       "note": "韓國Danawa一般購買最低比價快照，未採會員／卡友最高優惠價、點數、租賃月付或發售建議價；點入各零售商仍須確認可購總額與供貨。海外參考，未含國際運費、進口稅、電壓／插頭／變壓器與台灣保固風險。"
     },
     "image": "https://images.samsung.com/kdp/goods/2026/01/13/a6dfd1ea-ae12-4bd7-b437-8fbbab8ccbe7.png",
@@ -2017,13 +1907,14 @@
     "price": {
       "currency": "JPY",
       "amount": 328680,
-      "converted": 67828,
-      "confidence": "BicCamera 2026-07-23 exact-model 新品公開價；ExchangeRate-API 2026-11-13 匯率換算",
-      "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。"
+      "converted": 67698,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件；ExchangeRate-API 2026-11-14 匯率換算",
+      "note": "Sofmap 日本主商品 HCC-R600AL-X 左開鏡面，同 JAN 4549980730478 公開含日本消費稅 ¥328,680，可加入購物車，原頁顯示調貨約兩週。免運以其日本配送地區為限；台灣配送未確認，未含國際運費及進口稅，100V 插頭、變壓器與台灣保固風險另計。",
+      "basis": "retailer_current"
     },
     "image": "https://panasonic.jp/content/experience-fragments/panasonic/jp/ja/content/smartcloset/products/HCC-R600AR/lp4_ind1_HCC-R600AR_cxf/master/_jcr_content/root/c_lay014/c_lay001_434717760_c_1343778137/c_lay011/c_gen003.coreimg.png/1743734842467/hcc-r600al-link-864x648-250403.png",
-    "buyUrl": "https://www.biccamera.com/bc/item/11581815/",
-    "buyLabel": "BicCamera 日本（來源待確認）",
+    "buyUrl": "https://www.sofmap.com/product_detail.aspx?sku=24993039",
+    "buyLabel": "Sofmap 日本（約兩週調貨）",
     "specs": [
       "容量：3 件吊掛衣物",
       "護理技術：nanoe X 除菌消臭與蒸氣皺褶伸展",

@@ -408,8 +408,7 @@
       "amount": 2990,
       "converted": 2990,
       "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-13 PChome 原 SKU 公開價 NT$2990，API Qty 4。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。",
-      "basis": "retailer_current"
+      "note": "PChome 原商品頁主價 NT$2,990 與 API 確認值或原頁購買狀態未能完整互證，保留既有參考資料。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABPDA900JTLEG/000001_1773715062.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABPD-A900JTLEG",
@@ -911,8 +910,7 @@
       "amount": 29900,
       "converted": 29900,
       "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "basis": "retailer_current",
-      "note": "2026-11-13 PChome 原 SKU 公開價 NT$29900，API Qty 2。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。"
+      "note": "PChome 原商品頁主價 NT$29,900 與 API 確認值或原頁購買狀態未能完整互證，保留既有參考資料。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABGVA900JG58D/000001_1763013340.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABGV-A900JG58D",
@@ -1714,13 +1712,15 @@
     "name": "27 型 4K Mac 外接護眼螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 14888,
-      "converted": 14888,
-      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 13697,
+      "converted": 13697,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "basis": "retailer_current",
+      "note": "Yahoo 自營 exact MA270U 台灣單台商品（11264826／35807676；GTIN 4718755094538），主區可立即購買與加車。公開滿 1 件 92 折 NT$13,697，至台灣 11/16 07:59:59；原頁快速宅配滿 NT$480 免運，加購與滿額贈無須選擇。未計回饋、點數或個人折價券。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABF1A900HW6JB/000001_1754623836.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DSABF1-A900HW6JB",
-    "buyLabel": "PChome",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=11264826",
+    "buyLabel": "Yahoo購物中心（自營）",
     "specs": [
       "27 吋",
       "4K/UHD",
@@ -1743,7 +1743,7 @@
     "recommendation": "Mac 外接推薦：不想研究相容性與色彩調校時，MA 系列省心。",
     "score": 89,
     "voltage": "110V 台灣通路",
-    "warranty": "依 PChome/供應商頁面",
+    "warranty": "Yahoo 原商品頁列原廠保固 3 年（產品故障）；依 BenQ 台灣保固條款辦理。",
     "tags": [
       "Mac",
       "4K",
@@ -1752,16 +1752,16 @@
     "releaseDate": "2024-09-27",
     "historicalLow": {
       "status": "found",
-      "amount": 14144,
+      "amount": 13697,
       "currency": "TWD",
-      "converted": 14144,
+      "converted": 13697,
       "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1245308262&cgp=14144",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：BenQ MA270U 27型 4K 最適合MAC外接護眼螢幕(IPS/HDMI/USB-C/HDR400)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / BenQ MA270U 27型 4K 最適合MAC外接護眼螢幕(IPS/HDMI/USB-C/HDR400)」最低價為 NT$14,144，最低點日期 2026-07-09。",
+      "sourceTitle": "LBJ 比價撿便宜：BenQ MA270U 27 型 4K Mac 外接護眼螢幕價格歷史",
+      "evidenceSnippet": "LBJ 原頁 PID 1245308262 曾在 2026-10-15、10-17、10-23、11-08、11-11 記錄 NT$13,697。Yahoo 同型原商品 11264826／35807676 再現公開單件 92 折 NT$13,697，兩個購買按鈕可用。",
       "sourceKind": "price_history",
       "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-11-14",
+      "note": "同型台灣自營完整單台螢幕，未扣會員券、點數、登記或信用卡。近期同價促銷至台灣 2026-11-16 07:59:59；快速宅配達原頁 NT$480 免運門檻。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2313,10 +2313,10 @@
     "name": "27 型 WQHD 360Hz QD-OLED 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 16900,
-      "converted": 16900,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
-      "note": "Yahoo 原商品公開價 NT$16900；原商品主區有購買按鈕。",
+      "amount": 16055,
+      "converted": 16055,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "note": "Yahoo 原商品主區可下單，公開折後價 NT$16,055，活動到 2026-11-16 07:59:59（台灣）。金額未扣會員券、點數及信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBC1ZA900HE04M/000001_1757303897.jpg",
@@ -2994,8 +2994,7 @@
       "amount": 33888,
       "converted": 33888,
       "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-13 PChome 原 SKU 公開價 NT$33888，API Qty 2。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。",
-      "basis": "retailer_current"
+      "note": "PChome 原商品頁主價 NT$33,888 與 API 確認值或原頁購買狀態未能完整互證，保留既有參考資料。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOKA900HB1B5/000001_1710325731.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABOK-A900HB1B5",
@@ -3792,8 +3791,7 @@
       "amount": 28800,
       "converted": 28800,
       "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-13 PChome 原 SKU 公開價 NT$28800，API Qty 1。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。",
-      "basis": "retailer_current"
+      "note": "PChome 原商品頁主價 NT$28,800 與 API 確認值或原頁購買狀態未能完整互證，保留既有參考資料。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABQRA900K5BI4/000001_1782298311.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABQR-A900K5BI4",
@@ -4498,8 +4496,7 @@
       "amount": 32900,
       "converted": 32900,
       "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-13 PChome 原 SKU 公開價 NT$32900，API Qty 1。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。",
-      "basis": "retailer_current"
+      "note": "PChome 原商品頁主價 NT$32,900 與 API 確認值或原頁購買狀態未能完整互證，保留既有參考資料。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABPDA900H9PEB/000001_1709257135.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABPD-A900H9PEB",
@@ -5326,8 +5323,7 @@
       "amount": 27900,
       "converted": 27900,
       "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-13 PChome 原 SKU 公開價 NT$27900，API Qty 4。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。",
-      "basis": "retailer_current"
+      "note": "PChome 原商品頁主價 NT$27,900 與 API 確認值或原頁購買狀態未能完整互證，保留既有參考資料。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABSKA900K0G32/000001_1778746645.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABSK-A900K0G32",
@@ -6608,11 +6604,11 @@
     "name": "31.5 吋 4K Nano Matte 程式設計護眼螢幕（含 MoonHalo）",
     "price": {
       "currency": "TWD",
-      "amount": 19888,
-      "converted": 19888,
+      "amount": 18894,
+      "converted": 18894,
       "basis": "retailer_current",
-      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
-      "note": "2026-11-05 人工覆核：Yahoo同型號主商品公開價19888元，主區立即購買／加入購物車可見。 不扣個人化折價券、點數、信用卡回饋或贈品價值。"
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "note": "Yahoo 原商品主區可下單，公開折後價 NT$18,894，活動到 2026-11-16 07:59:59（台灣）。金額未扣會員券、點數及信用卡回饋。"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/A547B09451-SP-17883815.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=11255959",

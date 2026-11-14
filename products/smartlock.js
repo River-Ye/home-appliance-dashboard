@@ -2020,9 +2020,9 @@
     "price": {
       "currency": "HKD",
       "amount": 9638,
-      "converted": 40513,
+      "converted": 40431,
       "basis": "retailer_current",
-      "confidence": "EasyLock 香港 2026-08-28 exact-model 公開促銷價；ExchangeRate-API 2026-11-13 匯率換算",
+      "confidence": "EasyLock 香港 2026-08-28 exact-model 公開促銷價；ExchangeRate-API 2026-11-14 匯率換算",
       "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。"
     },
     "installation": {
@@ -2986,7 +2986,7 @@
       "amount": 16255,
       "converted": 16255,
       "confidence": "FB70X 舊通路參考價，現售未確認。",
-      "note": "PChome 原商品頁現為 FB70K，API 尚列 FB70X。連結改至琺博官方同型號資料，舊 FB70X 金額為先前參考價，未確認現行供貨。"
+      "note": "琺博台灣原頁為 FB70X 產品介紹，可核對型號與安裝資料，未列售價或購買控制。"
     },
     "image": "https://firenews.com.tw/wp-content/uploads/2023/07/%E9%8A%80%E9%9B%A2%E5%AD%90%E6%8A%97%E8%8F%8CFB70X-1.jpg",
     "buyUrl": "https://www.fibrekey.com/tw/BlogDetail/7/FIBREF-B70X",

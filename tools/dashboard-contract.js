@@ -1,24 +1,24 @@
 const EXPECTED_CATEGORY_COUNT = 37;
-const EXPECTED_PRODUCT_COUNT = 1265;
+const EXPECTED_PRODUCT_COUNT = 1266;
 const MIN_PRODUCTS_PER_CATEGORY = 20;
 const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["tv", 47],
-  ["soundbar", 38],
+  ["soundbar", 39],
   ["fan", 21],
   ["circulator", 23],
   ["dehumidifier", 30],
-  ["purifier", 30],
+  ["purifier", 29],
   ["aircon", 30],
   ["robot", 51],
   ["vacuum", 35],
   ["washer", 27],
   ["dryer", 28],
-  ["washerdryer", 36],
-  ["garmentcare", 21],
+  ["washerdryer", 35],
+  ["garmentcare", 20],
   ["bedsheet", 30],
   ["comforter", 32],
   ["pillow", 33],
-  ["refrigerator", 50],
+  ["refrigerator", 52],
   ["cookware", 29],
   ["knife", 23],
   ["blender", 26],
@@ -36,7 +36,7 @@ const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["monitor", 72],
   ["monitor-light", 20],
   ["monitorarm", 26],
-  ["mouse", 35],
+  ["mouse", 36],
   ["keyboard", 36],
   ["mousepad", 33],
 ]);
@@ -44,15 +44,15 @@ const DATE_PATTERN = /^(找不到|\d{4}(?:[-/.]\d{1,2}(?:[-/.]\d{1,2})?)?)$/;
 const WASHER_DRYER_CAPACITY_PATTERN = /^洗\/乾容量：\d+(?:\.\d+)?kg \/ \d+(?:\.\d+)?kg$/;
 const DIMENSION_CATEGORY_COUNTS = new Map([
   ["tv", 47],
-  ["soundbar", 38],
+  ["soundbar", 39],
   ["washer", 27],
   ["dryer", 28],
-  ["washerdryer", 36],
-  ["garmentcare", 21],
+  ["washerdryer", 35],
+  ["garmentcare", 20],
   ["bedsheet", 30],
   ["comforter", 32],
   ["pillow", 33],
-  ["refrigerator", 50],
+  ["refrigerator", 52],
   ["coffee", 25],
   ["oven", 28],
   ["dishwasher", 40],
@@ -61,7 +61,7 @@ const DIMENSION_CATEGORY_COUNTS = new Map([
   ["waterheater", 48],
   ["network-switch", 20],
   ["monitor-light", 20],
-  ["mouse", 35],
+  ["mouse", 36],
   ["keyboard", 36],
   ["mousepad", 33],
 ]);
@@ -77,13 +77,13 @@ const DIMENSION_PATTERN = new RegExp(`^尺寸：${FORBIDDEN_MEASUREMENT_LABEL_PA
 const DIMENSION_CONFIDENCE_VALUES = new Set(["high", "medium", "low", "not_found"]);
 const WEIGHT_CATEGORY_COUNTS = new Map([
   ["tv", 47],
-  ["soundbar", 38],
+  ["soundbar", 39],
   ["coffee", 25],
   ["oven", 28],
   ["aircon", 30],
   ["waterheater", 48],
   ["monitor-light", 20],
-  ["mouse", 35],
+  ["mouse", 36],
   ["keyboard", 36],
   ["mousepad", 33],
   ["bedsheet", 30],
@@ -102,7 +102,7 @@ const PERIPHERAL_TYPES = {
   mousepad: ["cloth", "hard", "glass"],
 };
 const PERIPHERAL_BUDGET_COUNTS = {
-  mouse: new Map([["value", 6], ["mid", 14], ["premium", 15]]),
+  mouse: new Map([["value", 6], ["mid", 14], ["premium", 16]]),
   keyboard: new Map([["value", 6], ["mid", 14], ["premium", 16]]),
   mousepad: new Map([["value", 6], ["mid", 12], ["premium", 15]]),
 };
@@ -355,7 +355,6 @@ const GARMENTCARE_MODELS = new Set([
   "R723MG",
   "R723WG",
   "E523MW",
-  "E523MR",
   "E523IR",
   "SC5GMR80H",
   "SC5MAR4G",
@@ -373,12 +372,12 @@ const GARMENTCARE_MODELS = new Set([
   "N-R600AR-X1",
 ]);
 const GARMENTCARE_BRAND_COUNTS = new Map([
-  ["LG", 12],
+  ["LG", 11],
   ["Samsung", 6],
   ["Panasonic", 3],
 ]);
 const GARMENTCARE_CHANNEL_COUNTS = new Map([
-  ["tw", 9],
+  ["tw", 8],
   ["global", 12],
 ]);
 const GARMENTCARE_SPEC_PREFIXES = [

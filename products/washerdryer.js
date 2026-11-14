@@ -755,11 +755,11 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/1f2a33ce70-Gd-10053955.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 43900,
-      "converted": 43900,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 44910,
+      "converted": 44910,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-03 Yahoo 8TWFC6820LW所選17/10kg主價43900，可立即購買/加車，由廠商聯絡約定送貨，不扣回饋。"
+      "note": "Yahoo 原商品主區可下單，公開網路價 NT$44,910。金額未扣會員券、點數及信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1384,111 +1384,6 @@
     }
   },
   {
-    "id": "washerdryer-lg-wd-s18vdw",
-    "rank": 14,
-    "topPick": false,
-    "brand": "LG",
-    "model": "WD-S18VDW",
-    "name": "LG WD-S18VDW",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/BCB950DBF0-SP-13742246.jpg",
-    "price": {
-      "currency": "TWD",
-      "amount": 48900,
-      "converted": 48900,
-      "confidence": "Yahoo購物中心 2026-08-04 exact-model 公開結構化價格",
-      "note": "Yahoo 原商品主區顯示此賣場已停售；保留先前參考價，供貨待查。"
-    },
-    "channel": "tw",
-    "buyLabel": "Yahoo購物中心（此賣場已停售）",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-18%E5%85%AC%E6%96%A4-%E8%92%B8%E6%B4%97%E8%84%AB%E7%83%98-%E6%BB%BE%E7%AD%92%E6%B4%97%E8%A1%A3%E6%A9%9F-%E5%86%B0%E7%93%B7%E7%99%BD-WD-S18VDW-10547430.html",
-    "specs": [
-      "洗烘衣機：LG 18公斤滾筒洗衣機 冰瓷白 AI DD 蒸洗脫烘 WD-S18VDW",
-      "洗/乾容量：18kg / 10kg",
-      "尺寸：寬 70 x 深 77 x 高 99 cm",
-      "烘乾方式：品牌頁未明確標示",
-      "蒸氣/除菌：Steam 蒸氣洗",
-      "自動投入：無",
-      "乾衣容量通常低於洗衣容量；需確認散熱、排水與門向",
-      "Yahoo購物中心公開售價；排除福利品、展示機、底座、配件頁與不同套裝"
-    ],
-    "description": "聚焦洗衣與烘乾整合機，依洗/乾容量、熱泵或冷凝方式、洗程時間、空間節省、價格與售後排序。",
-    "pros": [
-      "一機完成洗脫烘，對小空間更友善",
-      "免另找烘衣機與疊架空間",
-      "高階機型有熱泵、自動投入或蒸氣功能"
-    ],
-    "cons": [
-      "乾衣容量通常低於洗衣容量",
-      "全程洗烘時間比獨立洗衣機加烘衣機更長",
-      "高階多功能機維修成本與機身重量較高"
-    ],
-    "bestFor": "家中空間有限、希望少搬衣服並接受較長洗烘時間的人。",
-    "recommendation": "洗烘衣機第 14 推薦：LG WD-S18VDW 以 18/10kg 洗乾容量、蒸氣洗、價格與台灣售後綜合評估，適合需要大容量一機洗烘的家庭比較。",
-    "voltage": "多數為 110V 台灣通路；需確認進排水、烘乾容量、門向、散熱與安裝空間",
-    "warranty": "依可信通路與品牌/供應商頁面標示；大型家電安裝與搬運費依通路方案",
-    "score": 83,
-    "budget": "mid",
-    "tags": [
-      "洗/乾容量：18kg / 10kg",
-      "蒸氣",
-      "洗脫烘",
-      "多功能"
-    ],
-    "category": "washerdryer",
-    "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-11",
-      "note": "已查 LG 官方、Yahoo購物中心、FindPrice、BigGo 與 Costco 可發現候選；未找到 WD-S18VDW 單機同套裝可公開驗證的可信新品史低。排除展品出清、需來電或私訊取得的非公開價，以及另含 MiniWash 的不同套裝。"
-    },
-    "issueResearch": {
-      "status": "no_common_issue",
-      "checkedAt": "2026-08-29",
-      "summary": "截至查核日，查無達門檻的集中負評／災情",
-      "issues": [],
-      "checkedSources": [
-        {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"LG WD-S18VDW\" (problem OR issue OR defect OR failure)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20WD-S18VDW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-          "targetHost": "reddit.com"
-        },
-        {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"LG WD-S18VDW\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20WD-S18VDW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "mobile01.com"
-        },
-        {
-          "platform": "PTT",
-          "query": "site:ptt.cc \"LG WD-S18VDW\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22LG%20WD-S18VDW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "ptt.cc"
-        },
-        {
-          "platform": "Dcard",
-          "query": "site:dcard.tw \"LG WD-S18VDW\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22LG%20WD-S18VDW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "dcard.tw"
-        },
-        {
-          "platform": "YouTube",
-          "query": "\"LG WD-S18VDW\" problem issue defect failure broken 災情 故障 異常",
-          "queryUrl": "https://www.youtube.com/results?search_query=%22LG%20WD-S18VDW%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
-          "targetHost": "youtube.com"
-        }
-      ]
-    }
-  },
-  {
     "id": "washerdryer-whirlpool-8twfc6810lw",
     "rank": 15,
     "topPick": false,
@@ -1498,11 +1393,11 @@
     "image": "https://cs-a.ecimg.tw/items/DPAI1PA900F1KXB/000001_1762877683.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 32900,
-      "converted": 32900,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 35910,
+      "converted": 35910,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-01 人工逐筆核對PChome原產品API：Whirlpool惠而浦 15公斤洗脫烘滾筒洗衣機 8TWFC6810LW；Price.P=32900元，Qty=2，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
+      "note": "PChome 原商品主區及 SKU DPAI1P-A900F1KXB 公開價格 NT$35,910。API Qty 2，以通路配送、安裝條件為準。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -2426,14 +2321,15 @@
     "image": "https://www.lg.com/content/dam/channel/wcms/tw/images/washer-dryers/washtower/wd-s1818pb/basic.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 86900,
-      "converted": 86900,
-      "confidence": "全聯全電商 2026-07-18 exact-model 公開現貨價",
-      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。 2026-11-01 原全聯WD-S1818PB連結回覆spu_has_ended，現價與可購未確認；保留86900元舊參考價，無官方整型停產正證。"
+      "amount": 79111,
+      "converted": 79111,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "note": "舊全聯原頁無法確認可買，PChome 同型 WD-S1818PB 夜光黑洗18／烘18kg 主商品公開折扣 NT$79,111，API Qty 8，兩個購買按鈕可用，商品主區未標預購。PChome 超大材積倉庫出貨，網頁滿 NT$490 宅配免運；基本安裝、拆箱定位及符合範圍的舊機回收依原頁安裝規則。活動 PR26111300145650 截至 2026-11-16 08:59:59 台灣時間，未扣個人券、點數或刷卡回饋。",
+      "basis": "retailer_current"
     },
     "channel": "tw",
-    "buyLabel": "全聯（原頁失效，現價待確認）",
-    "buyUrl": "https://pxbox.es.pxmart.com.tw/product/772533",
+    "buyLabel": "PChome 24h購物（含基本安裝）",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900KAQP8",
     "specs": [
       "WashTower 一體式上下雙筒，可同步洗衣與乾衣",
       "洗/乾容量：18kg / 18kg",
@@ -2521,6 +2417,10 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "PChome 原頁列基本安裝、定位和符合回收範圍的舊機拆除回收。離島不配送，偏遠區域和追加施工費由安裝商確認。"
     }
   },
   {
@@ -2962,9 +2862,9 @@
       "currency": "TWD",
       "amount": 58432,
       "converted": 58432,
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
       "basis": "retailer_current",
-      "note": "myfone 夜幕黑原 SKU 目前無庫存；PChome 原頁與 API 同為 NA-V170RPH-K 夜幕黑，Qty 3，公開折扣價 NT$58,432，加入購物車可用。標準安裝與合格舊機回收，約 3–7 個工作日內聯絡。任選一件享 88 折活動 PR26111200144926 截至 2026-11-13 09:00:59 台灣時間。"
+      "note": "PChome 原商品主區及 SKU DPAIER-A900KLOGO 公開折扣價 NT$58,432，活動至 2026/11/16 08:59:59（台灣）。API Qty 3，以通路配送、安裝條件為準。"
     },
     "image": "https://www.myfone.com.tw/website_twmf/uploads_product/website_2041/036/699/ECP0204103669957_1_20458150.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAIER-A900KLOGO",
@@ -3072,11 +2972,11 @@
     "name": "10/7kg i-DOS 智慧聯網洗脫烘",
     "price": {
       "currency": "TWD",
-      "amount": 50000,
-      "converted": 50000,
-      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
+      "amount": 46000,
+      "converted": 46000,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-05 人工覆核：Yahoo同型號主商品公開價50000元，主區立即購買／加入購物車可見。 不扣個人化折價券、點數、信用卡回饋或贈品價值。"
+      "note": "Yahoo 原商品主區可下單，公開折後價 NT$46,000，活動到 2026-11-16 07:30:59（台灣）。金額未扣會員券、點數及信用卡回饋。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DPAID7A900IHEVX/000001_1776657918.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/BOSCH%E5%8D%9A%E4%B8%96-10-7%E5%85%AC%E6%96%A4%E9%AB%98%E6%95%88%E6%99%BA%E6%85%A7%E6%BB%BE%E7%AD%92%E6%B4%97%E8%84%AB%E7%83%98-%E5%90%AB%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-220V%E6%8B%89%E9%9B%BB-WNC554A0TC-11546320.html",

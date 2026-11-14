@@ -53,16 +53,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 10350,
+      "amount": 10111,
       "currency": "TWD",
-      "converted": 10350,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1136687394&cgp=12500",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：irocks T07 Plus 人體工學椅",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / irocks T07 Plus 人體工學椅」最低價為 NT$10,350，最低點日期 2026-06-21。",
-      "sourceKind": "price_history",
+      "converted": 10111,
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=11846172",
+      "sourceTitle": "Yahoo 購物中心：i-rocks T07 Plus 星空藍 人體工學椅（11846172）",
+      "evidenceSnippet": "同型星空藍完整椅原商品主區公開折後 NT$10,111，主購買與購物車按鈕皆可用。商品價 NT$11,111，單件達促銷門檻折 NT$1,000。LBJ 同型 Yahoo 刊登 2026-11-12 亦記錄 NT$10,111。",
+      "sourceKind": "retailer_page",
       "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-11-14",
+      "note": "原頁商品含 T07 Plus 椅體及組裝配件，需自行組裝；台灣本島宅配顯示免運，部分大型商品特定地區或無電梯樓層可能另收費。優惠期間為 2026-11-11 18:00 至 11-16 09:59:59（台灣）；未扣登記、信用卡、點數或個人券。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -793,11 +793,11 @@
     "name": "Enki 電競椅",
     "price": {
       "currency": "TWD",
-      "amount": 12810,
-      "converted": 12810,
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "amount": 13410,
+      "converted": 13410,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
       "basis": "retailer_current",
-      "note": "PChome 原頁 DCAKFO-A900BWWGS 主標為 Razer Enki 黑色 RZ38-03720300-R3U1。原頁明示預購，預計 2026/11/15–11/17 出貨；結構化主商品及原 SKU API 折扣價均為 NT$12,810，網路價 NT$14,900。預購庫存數不代表已可出貨。"
+      "note": "PChome 黑色 RZ38-03720300-R3U1 於主區可預購，原頁顯示公開折扣 NT$13,410。出貨依原預購排程。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAKFOA900BWWGS/000001_1755481797.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAKFO-A900BWWGS",
@@ -1376,11 +1376,11 @@
     "name": "TITAN PRO V2 電競椅",
     "price": {
       "currency": "TWD",
-      "amount": 15990,
-      "converted": 15990,
-      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 15350,
+      "converted": 15350,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-02 人工讀取PChome同型號主商品及原始API：公開15990元、Qty3；不扣個人券或回饋，實際配送依通路。"
+      "note": "PChome 原商品主區及 SKU DQBJ6Z-A900JIKKR 公開折扣價 NT$15,350，頁列活動 11/13 至 11/16。API Qty 3，以通路配送、安裝條件為準。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ6ZA900JIKKR/000001_1782824760.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ6Z-A900JIKKR",
@@ -2458,11 +2458,11 @@
     "name": "STRYDER 高椅背可上掀扶手人體工學椅",
     "price": {
       "currency": "TWD",
-      "amount": 4990,
-      "converted": 4990,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "amount": 4790,
+      "converted": 4790,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
       "basis": "retailer_current",
-      "note": "2026-10-31 STRYDER黑色主商品4990元，6990劃線，Qty4及主CTA可加車。"
+      "note": "PChome 原商品主區及 SKU DQBJ0A-A900JCVY5 公開折扣價 NT$4,790，頁列活動 11/13 至 11/16。API Qty 4，以通路配送、安裝條件為準。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ0AA900JCVY5/000001_1785087796.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ0A-A900JCVY5",

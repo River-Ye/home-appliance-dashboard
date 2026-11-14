@@ -313,9 +313,9 @@
       "currency": "TWD",
       "amount": 3699,
       "converted": 3699,
-      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-05 人工覆核：Yahoo同型號主商品公開價3699元，主區立即購買／加入購物車可見。 不扣個人化折價券、點數、信用卡回饋或贈品價值。"
+      "note": "Yahoo 同商品原頁於上一活動屆期後可下單，目前公開網路價 NT$3,699。未扣個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLPA900JKWXK/000001_1783555436.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/ASUS-%E8%8F%AF%E7%A2%A9-RT-BE58U-V2-BE3600-%E9%9B%99%E9%A0%BB-Wi-Fi-7-%E5%8F%AF%E6%93%B4%E5%85%85%E5%BC%8F%E8%B7%AF%E7%94%B1%E5%99%A8-12005854.html",
@@ -509,11 +509,11 @@
     "name": "BE17000 三頻 10G Wi-Fi 7 真 Mesh 路由器一入組",
     "price": {
       "currency": "TWD",
-      "amount": 6661,
-      "converted": 6661,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 7111,
+      "converted": 7111,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$6661，API Qty 20；個人券、點數、信用卡回饋及配送安裝費另計。"
+      "note": "PChome 原商品主區及 SKU DRAN08-A900JHOFL 公開價格 NT$7,111。API Qty 20，以通路配送、安裝條件為準。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAN08A900JHOFL/000001_1782099138.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAN08-A900JHOFL",
@@ -609,11 +609,11 @@
     "name": "BE5000 Wi-Fi 7 Mesh 延伸系統路由器+2衛星",
     "price": {
       "currency": "TWD",
-      "amount": 10933,
-      "converted": 10933,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 12863,
+      "converted": 12863,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-01 人工核對PChome原始API同型號商品ID、名稱、正數庫存與公開折扣價10933元；HTML另遇429限制，不把API當完整出貨承諾。"
+      "note": "PChome 原商品主區及 SKU DRAFJA-A900JG5AK 公開價格 NT$12,863。API Qty 13，以通路配送、安裝條件為準。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJAA900JG5AK/000001_1763014538.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJA-A900JG5AK",
@@ -900,8 +900,8 @@
     "price": {
       "currency": "USD",
       "amount": 208,
-      "converted": 6859,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。；ExchangeRate-API 2026-11-13 匯率換算",
+      "converted": 6846,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。；ExchangeRate-API 2026-11-14 匯率換算",
       "note": "2026-11-04 午後人工覆核：UniFi美國所選單台原生主頁基價189，強制附加費後總額208USD，Add to Cart可用；不採未含強制費用的schema基價。未含國際運費、進口稅、PoE供電配件與台灣保固風險。"
     },
     "image": "https://cdn.ecomm.ui.com/products/fa8dd4e4-36c8-4c79-a928-22c7bff2ce29/ab5bc8a4-6135-402e-a695-e3ea5e16d3e6.png",
@@ -981,8 +981,8 @@
     "price": {
       "currency": "USD",
       "amount": 175,
-      "converted": 5771,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-13 匯率換算",
+      "converted": 5760,
+      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-14 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-04 午後人工覆核：UniFi美國所選單台原生主頁基價159，強制附加費後總額175USD，Add to Cart可用；不採未含強制費用的schema基價。未含國際運費、進口稅、PoE供電配件與台灣保固風險。"
     },
@@ -1100,8 +1100,8 @@
     "price": {
       "currency": "USD",
       "amount": 109,
-      "converted": 3594,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-13 匯率換算",
+      "converted": 3588,
+      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-14 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-04 午後人工覆核：UniFi美國所選單台原生主頁基價99，強制附加費後總額109USD，Add to Cart可用；不採未含強制費用的schema基價。未含國際運費、進口稅、PoE供電配件與台灣保固風險。"
     },
@@ -1586,8 +1586,8 @@
     "price": {
       "currency": "USD",
       "amount": 142,
-      "converted": 4683,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-13 匯率換算",
+      "converted": 4674,
+      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-14 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-04 午後人工覆核：UniFi美國所選單台原生主頁基價129，強制附加費後總額142USD，Add to Cart可用；不採未含強制費用的schema基價。未含國際運費、進口稅、PoE供電配件與台灣保固風險。"
     },
@@ -1692,8 +1692,8 @@
     "price": {
       "currency": "USD",
       "amount": 307,
-      "converted": 10124,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。；ExchangeRate-API 2026-11-13 匯率換算",
+      "converted": 10105,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。；ExchangeRate-API 2026-11-14 匯率換算",
       "note": "2026-11-04 午後人工覆核：UniFi美國所選單台原生主頁基價279，強制附加費後總額307USD，Add to Cart可用；不採未含強制費用的schema基價。未含國際運費、進口稅、PoE供電配件與台灣保固風險。"
     },
     "image": "https://cdn.ecomm.ui.com/products/350070a0-ae43-431b-b052-8e849c3b0a75/bad94693-bc54-4ab4-b060-9b972401941c.png",
@@ -1789,9 +1789,9 @@
       "currency": "TWD",
       "amount": 4699,
       "converted": 4699,
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
       "basis": "retailer_current",
-      "note": "Yahoo 原 SKU 促銷到期後重查，主商品公開價 NT$4,699，主購買按鈕可用。"
+      "note": "Yahoo 同商品原頁於上一活動屆期後可下單，目前公開網路價 NT$4,699。未扣個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLPA900IV4B6/000001_1783556530.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/ASUS-%E8%8F%AF%E7%A2%A9-RT-BE82U-WiFi-7-%E9%9B%99%E9%A0%BB-BE6500-%E8%B7%AF%E7%94%B1%E5%99%A8-%E5%88%86%E4%BA%AB%E5%99%A8-11798654.html",
@@ -2181,11 +2181,11 @@
     "name": "AX3000 Wi-Fi 6 Mesh 網狀路由器三入組",
     "price": {
       "currency": "TWD",
-      "amount": 5499,
-      "converted": 5499,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 4699,
+      "converted": 4699,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$5499，API Qty 13；個人券、點數、信用卡回饋及配送安裝費另計。"
+      "note": "PChome 原商品主區及 SKU DRAFEM-A900F9H1Y 公開價格 NT$4,699。API Qty 11，以通路配送、安裝條件為準。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFEMA900F9H1Y/000001_1774858877.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFEM-A900F9H1Y",
@@ -2758,11 +2758,11 @@
     "name": "BE3600 雙頻 Wi-Fi 7 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 2999,
-      "converted": 2999,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 4095,
+      "converted": 4095,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-01 人工核對PChome原始API同型號商品ID、名稱、正數庫存與公開網路價2999元；HTML另遇429限制，不把API當完整出貨承諾。"
+      "note": "PChome 原商品主區及 SKU DRAFJA-A900JUQYP 公開價格 NT$4,095。API Qty 20，以通路配送、安裝條件為準。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJAA900JUQYP/000001_1774520642.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJA-A900JUQYP",
@@ -3227,11 +3227,11 @@
     "name": "BE24000 四頻 10G Wi-Fi 7 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 16111,
-      "converted": 16111,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 16999,
+      "converted": 16999,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$16111，API Qty 14；個人券、點數、信用卡回饋及配送安裝費另計。"
+      "note": "PChome 原商品主區及 SKU DRAN5B-A900HF2LS 公開價格 NT$16,999。API Qty 14，以通路配送、安裝條件為準。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAN5BA900HF2LS/000001_1782099036.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAN5B-A900HF2LS",
@@ -3432,15 +3432,15 @@
     "name": "AX6000 Wi-Fi 6 雲端安全路由器",
     "price": {
       "currency": "TWD",
-      "amount": 5990,
-      "converted": 5990,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 5311,
+      "converted": 5311,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-01 人工核對PChome原始API同型號商品ID、名稱、正數庫存與公開網路價5990元；HTML另遇429限制，不把API當完整出貨承諾。"
+      "note": "Yahoo 自營 exact USG LITE 60AX 單台新品（12327907／41234370，BSMI D41163）在 11/14 08:01（台灣）重新讀取正式商品主區，公開 NT$5,311、可立即購買及加車。快速宅配滿 NT$480 免運；超商取貨滿 NT$288 免運。較早單台 9 折優惠已結束，未扣回饋或個人券。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAF0IA900HO2DR/000001_1777023675.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DRAF0I-A900HO2DR",
-    "buyLabel": "PChome",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=12327907",
+    "buyLabel": "Yahoo購物中心（自營）",
     "specs": [
       "Wi-Fi 6",
       "AX6000 雙頻",
@@ -3460,7 +3460,7 @@
     "recommendation": "資安管理候選：功能取向和一般家用 Mesh 不同，適合需要防護/控管的人。",
     "score": 76,
     "voltage": "110V 台灣通路；多數使用外接變壓器",
-    "warranty": "依 PChome/供應商頁面",
+    "warranty": "Yahoo 原商品頁列原廠保固 1 年（新品瑕疵）；依 Zyxel 台灣保固條款辦理。",
     "tags": [
       "資安",
       "Zyxel",
@@ -3470,16 +3470,16 @@
     "releaseDate": "2024-06-03",
     "historicalLow": {
       "status": "found",
-      "amount": 5661,
+      "amount": 4780,
       "currency": "TWD",
-      "converted": 5661,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1235454560&cgp=6480",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Zyxel 合勤 USG LITE 60AX AX6000 WiFi6 免費資安防護雲端安全路由器",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / Zyxel 合勤 USG LITE 60AX AX6000 WiFi6 免費資安防護雲端安全路由器」最低價為 NT$5,661，最低點日期 2025-06-16。",
-      "sourceKind": "price_history",
+      "converted": 4780,
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=12327907",
+      "sourceTitle": "Yahoo 購物中心：Zyxel 合勤 USG LITE 60AX AX6000 Wi-Fi 6 資安路由器（12327907）",
+      "evidenceSnippet": "2026-11-14 07:54:07（台灣）擷取同型 Yahoo 自營完整單台商品 12327907／41234370；主區顯示可購，公開單件 9 折 NT$4,780，原頁活動資料至同日 08:00:59。",
+      "sourceKind": "retailer_page",
       "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-11-14",
+      "note": "該檔原價 NT$5,311，國內快速宅配及超取達原頁免運門檻；不扣點數、信用卡、會員券或登記活動。LBJ 原同型刊登在 2026-11-02 為 NT$5,391，另作參考。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -3911,10 +3911,10 @@
     "name": "Wi-Fi 6 雙 10GbE SD-WAN 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 7490,
-      "converted": 7490,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-01 人工核對PChome原始API同型號商品ID、名稱、正數庫存與公開折扣價7490元；HTML另遇429限制，不把API當完整出貨承諾。",
+      "amount": 7990,
+      "converted": 7990,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "note": "PChome 原商品主區及 SKU DRAG6J-A900AUW3D 公開價格 NT$7,990。API Qty 3，以通路配送、安裝條件為準。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAG6JA900AUW3D/000001_1626400932.jpg",
@@ -4783,9 +4783,9 @@
       "currency": "TWD",
       "amount": 27990,
       "converted": 27990,
-      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-05 人工覆核：Yahoo同型號主商品公開價27990元，主區立即購買／加入購物車可見。 不扣個人化折價券、點數、信用卡回饋或贈品價值。"
+      "note": "Yahoo 同商品原頁於上一活動屆期後可下單，目前公開網路價 NT$27,990。未扣個人券、點數或信用卡回饋。"
     },
     "image": "https://dlcdnwebimgs.asus.com/gain/FF5DB299-9708-4259-ABF9-167FDC7166BD",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E6%98%8C%E9%81%8B%E7%9B%A3%E8%A6%96%E5%99%A8-ASUS-%E8%8F%AF%E7%A2%A9-ROG-Rapture-GT-BE19000AI-WiFi-7-%E4%B8%89%E9%A0%BB%E9%9B%BB%E7%AB%B6-12032656.html",
@@ -4890,11 +4890,11 @@
     "name": "BE9700 三頻 Wi-Fi 7 10G 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 4711,
-      "converted": 4711,
-      "confidence": "PChome 2026-11-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 6999,
+      "converted": 6999,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-05 PChome原SKU API公開價 4711 TWD；先前促銷金額不沿用。未扣個人券、點數或信用卡回饋；實際配送與安裝條件依通路確認。"
+      "note": "PChome 原商品主區及 SKU DRAFKP-A900JM7MV 公開價格 NT$6,999。API Qty 20，以通路配送、安裝條件為準。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFKPA900JM7MV/000001_1782098969.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFKP-A900JM7MV",
@@ -5536,11 +5536,11 @@
     "name": "AQUILA PRO AI BE9500 三頻 Wi-Fi 7 2.5G Mesh 路由器（單台）",
     "price": {
       "currency": "TWD",
-      "amount": 5311,
-      "converted": 5311,
+      "amount": 5499,
+      "converted": 5499,
       "basis": "retailer_current",
-      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
-      "note": "2026-11-05 人工覆核：Yahoo同型號主商品公開價5311元，主區立即購買／加入購物車可見。 不扣個人化折價券、點數、信用卡回饋或贈品價值。"
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "note": "Yahoo 同商品原頁於上一活動屆期後可下單，目前公開網路價 NT$5,499。未扣個人券、點數或信用卡回饋。"
     },
     "installation": {
       "status": "excluded",

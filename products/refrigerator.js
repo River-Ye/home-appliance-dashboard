@@ -330,11 +330,11 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/4455399AAF-SP-22083802.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 14500,
-      "converted": 14500,
-      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開可訂報價；出貨與到貨時程待確認。",
+      "amount": 13920,
+      "converted": 13920,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-04 午後人工覆核：Yahoo同型號主商品公開價14500元；立即購買/加入購物車可用。GN-L266SVN主價14500由廠商約配；11/30為贈點活動截止，不把贈點期限當價格截止。 不扣個人化回饋或贈品。"
+      "note": "Yahoo 原商品主區可下單，公開折後價 NT$13,920，活動到 2026-11-16 07:00:59（台灣）。金額未扣會員券、點數及信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心自營",
@@ -432,17 +432,18 @@
     "brand": "Panasonic",
     "model": "NR-C505XV-W",
     "name": "Panasonic NR-C505XV-W",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/554C25E292-SP-18069150.jpg",
+    "image": "https://img.pchome.com.tw/cs/items/DPACEMA900KNVHL/000001_1793858129.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 36270,
-      "converted": 36270,
-      "confidence": "Yahoo購物中心 2026-09-14 exact-model 公開結構化價格",
-      "note": "Yahoo 原商品主區顯示此賣場已停售；保留先前參考價，供貨待查。"
+      "amount": 35063,
+      "converted": 35063,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "note": "PChome 主商品 500L 三門雪霧白 NR-C505XV-W 公開 NT$35,063；API 同 PID 及 Name、Qty 11，Nick 誤混另一款黑色 NR-C505XGS-B，以原頁 H1、商品規格及圖確認。按鈕可用，含標準安裝及舊機回收，通常 3–7 個工作天聯絡，偏遠地區和外島不送、無電梯搬運依通路加價。此商品頁不參加原廠贈品活動。",
+      "basis": "retailer_current"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心（此賣場已停售）",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic%E5%9C%8B%E9%9A%9B%E7%89%8C-500%E5%85%AC%E5%8D%87%E4%B8%80%E7%B4%9A%E8%83%BD%E6%95%88%E4%B8%89%E9%96%80%E8%AE%8A%E9%A0%BB%E5%86%B0%E7%AE%B1%E9%9B%AA%E9%9C%A7%E7%99%BDNR-C505XV-W-11322787.html",
+    "buyLabel": "PChome 24h購物（含標準安裝）",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPACEM-A900KNVHL",
     "specs": [
       "冰箱：Panasonic國際牌 500公升一級能效無邊框鋼板系列三門變頻電冰箱NR-C505XV-W~含拆箱定位",
       "容量：500L",
@@ -450,7 +451,7 @@
       "門型：三門",
       "變頻：有標示",
       "節能：一級能效有標示",
-      "Yahoo購物 可信通路低價；排除福利品、展示機與配件頁"
+      "PChome 台灣公司貨，含標準安裝及舊機回收"
     ],
     "description": "聚焦台灣可信通路新品，依容量、門型、變頻節能、品牌售後與大型家電安裝便利性排序。",
     "pros": [
@@ -479,16 +480,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 34658,
+      "amount": 34526,
       "currency": "TWD",
-      "converted": 34658,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1233351614&cgp=35464",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Panasonic 國際牌】500公升一級能效無邊框鋼板系列三門變頻冰箱(NR-C505XV-W)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Panasonic 國際牌】500公升一級能效無邊框鋼板系列三門變頻冰箱(NR-C505XV-W)」最低價為 NT$34,658，最低點日期 2025-11-11。",
+      "converted": 34526,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DPACEM-A900KNVHL",
+      "sourceTitle": "Lowcast 比價趨勢：PChome Panasonic 國際牌 NR-C505XV-W",
+      "evidenceSnippet": "Lowcast 原頁列 NR-C505XV-W 且原商品連結為 PChome DPACEM-A900KNVHL，逐日價格於 2026-11-06 至 2026-11-10 顯示 NT$34,526。",
       "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "confidence": "medium",
+      "checkedAt": "2026-11-14",
+      "note": "採同型與同 PChome SKU 的日期價格紀錄。個人折價券、信用卡回饋及點數未納入。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -527,6 +528,10 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "含標準安裝與舊機回收。通路約 3–7 個工作天聯絡。偏遠地區、外島不送，無電梯搬運依通路加價。"
     }
   },
   {
@@ -536,25 +541,26 @@
     "brand": "Panasonic",
     "model": "NR-D505XV-W",
     "name": "Panasonic NR-D505XV-W",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/D2C078706D-SP-18068745.jpg",
+    "image": "https://img.pchome.com.tw/cs/items/DPACEMA900KNVLA/000001_1793858863.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 40185,
-      "converted": 40185,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價",
-      "note": "Yahoo 原商品主區顯示此賣場已停售；保留先前參考價，供貨待查。"
+      "amount": 36345,
+      "converted": 36345,
+      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "note": "PChome 主商品 500L 四門雪霧白 NR-D505XV-W 公開 NT$36,345；API 同 PID、Name 及 Nick、Qty 9，原購買按鈕可用。含標準安裝及舊機回收，通常 3–7 個工作天聯絡，偏遠地區和外島不送、無電梯搬運依通路加價。此商品頁不參加原廠贈品活動。",
+      "basis": "retailer_current"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心（此賣場已停售）",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic%E5%9C%8B%E9%9A%9B%E7%89%8C-500%E5%85%AC%E5%8D%87%E4%B8%80%E7%B4%9A%E8%83%BD%E6%95%88%E7%84%A1%E9%82%8A%E6%A1%86%E9%8B%BC%E6%9D%BF%E7%B3%BB%E5%88%97%E5%9B%9B%E9%96%80%E8%AE%8A%E9%A0%BB%E9%9B%BB%E5%86%B0%E7%AE%B1NR-D505XV-W-%E5%90%AB%E6%8B%86-11310319.html",
+    "buyLabel": "PChome 24h購物（含標準安裝）",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPACEM-A900KNVLA",
     "specs": [
       "冰箱：Panasonic國際牌 500公升一級能效無邊框鋼板系列四門變頻電冰箱NR-D505XV-W~含拆箱定位",
       "容量：500L",
       "尺寸：寬 72.5 x 深 69.5 x 高 183.4 cm",
-      "門型：對開",
+      "門型：四門（上層法式對開）",
       "變頻：有標示",
       "節能：一級能效有標示",
-      "Yahoo購物 可信通路低價；排除福利品、展示機與配件頁"
+      "PChome 台灣公司貨，含標準安裝及舊機回收"
     ],
     "description": "聚焦台灣可信通路新品，依容量、門型、變頻節能、品牌售後與大型家電安裝便利性排序。",
     "pros": [
@@ -583,16 +589,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 36378,
+      "amount": 35789,
       "currency": "TWD",
-      "converted": 36378,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1283168079&cgp=36378",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Panasonic NR-D505XV-W 500L 四門變頻冰箱",
-      "evidenceSnippet": "LBJ 比價撿便宜歷史價格顯示 Yahoo購物中心同型號新品最低價為 NT$36,378，最低點日期 2026-07-10。",
+      "converted": 35789,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DPACEM-A900KNVLA",
+      "sourceTitle": "Lowcast 比價趨勢：PChome Panasonic 國際牌 NR-D505XV-W",
+      "evidenceSnippet": "Lowcast 原頁列 NR-D505XV-W 且原商品連結為 PChome DPACEM-A900KNVLA，逐日價格於 2026-11-06 至 2026-11-10 顯示 NT$35,789。",
       "sourceKind": "price_history",
       "confidence": "medium",
-      "checkedAt": "2026-07-18",
-      "note": "採用 LBJ 比價撿便宜可公開查核的價格歷史；同型號／規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-11-14",
+      "note": "採同型與同 PChome SKU 的日期價格紀錄。個人折價券、信用卡回饋及點數未納入。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -631,6 +637,10 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "含標準安裝與舊機回收。通路約 3–7 個工作天聯絡。偏遠地區、外島不送，無電梯搬運依通路加價。"
     }
   },
   {
@@ -4984,6 +4994,206 @@
       "窄身56cm",
       "一級能效",
       "台灣公司貨"
+    ]
+  },
+  {
+    "id": "refrigerator-panasonic-nr-f553wx-w1",
+    "category": "refrigerator",
+    "brand": "Panasonic",
+    "model": "NR-F553WX-W1",
+    "name": "日本製550L日系上質玻璃六門變頻冰箱（霧晶白）",
+    "rank": 51,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "price": {
+      "currency": "TWD",
+      "amount": 68490,
+      "converted": 68490,
+      "basis": "retailer_current",
+      "confidence": "2026-11-14 核對 PChome 主商品名稱、圖片、公開價及商品 API（同 PID、Qty 2）。",
+      "note": "PChome 原商品公開價 NT$68,490，可下單由廠商約配。官方登錄贈品、個人優惠券與信用卡回饋未折入。"
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "通路頁明示含基本運送、拆箱定位與舊機回收。廠商約配，未承諾 24 小時內到貨。偏遠地區、跨區配送、樓層或特殊搬運可能另計，先確認門道、開門與散熱空間。"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DPACHEA900KO2J4/000001_1793948265.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KO2J4",
+    "buyLabel": "PChome 24h購物（可下單／廠商約配）",
+    "specs": [
+      "容量：550L。冷藏室 267L、冷凍室 103L、蔬果室 115L，日本製六門。",
+      "尺寸：寬 68.5 x 深 69.9 x 高 182.8 cm",
+      "重量：113 kg",
+      "保鮮：全幅抑霜鮮凍、新鮮急凍結、-3°C 微凍結、智慧保濕蔬果室、nanoe X。",
+      "節能：符合 2027 年新 1 級，年耗電 276 度，AI ECONAVI 變頻。",
+      "便利：自動製冰、IoT 智慧家電、玻璃門板。",
+      "電壓／頻率：110V／60Hz。",
+      "安裝：含基本運送、拆箱定位及舊機回收，廠商約配。"
+    ],
+    "description": "台灣 Panasonic 日系上質系列 550L 日本製六門玻璃冰箱，機身寬 68.5 cm，整合抑霜鮮凍、急凍結與自動製冰。",
+    "pros": [
+      "提供 550L 六門分區，保留獨立微凍與蔬果室。",
+      "台灣官方標示符合 2027 年新 1 級能效。",
+      "台灣公司貨，原賣場提供基本運送、拆箱定位與舊機回收。"
+    ],
+    "cons": [
+      "約 113 kg，搬運路徑及樓層施工須事先確認。",
+      "機身以外需預留散熱及開門空間，實際到貨日由通路聯繫。"
+    ],
+    "bestFor": "希望在約 68.5 cm 機身寬下選購 550L 玻璃六門變頻冰箱，且能配合廠商安排配送的家庭。",
+    "recommendation": "比較同系列其他容量與上一代 NR-F551WX 的機身尺寸、能效及實付差價，先確認門道和散熱空間。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "found",
+      "amount": 68490,
+      "currency": "TWD",
+      "converted": 68490,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DPACHE-A900KO2J4",
+      "sourceTitle": "Lowcast 比價趨勢：PChome Panasonic 國際牌 NR-F553WX-W1",
+      "evidenceSnippet": "Lowcast 原頁連到 PChome DPACHE-A900KO2J4 並列完整 NR-F553WX-W1 及同一配送組合。2026 年 11/7 至 11/11 共 5 日 的逐日最低皆為 NT$68,490。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-14",
+      "note": "為比價站收錄 5 日與本次可核對的同一 PChome 新品刊登低點，未納入個人券、信用卡、登錄贈品及點數。另有 momo 條目被 LBJ 摘要顯示 NT$66,968，未由原賣場的歷史紀錄確定當時可購且折扣公開，暫不採用。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-11-14",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com/topicdetail.php \"NR-F553WX-W1\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%2Ftopicdetail.php%20%22NR-F553WX-W1%22"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc/bbs/ \"NR-F553WX-W1\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%2Fbbs%2F%20%22NR-F553WX-W1%22"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "site:dcard.tw/f/ \"NR-F553WX-W1\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%2Ff%2F%20%22NR-F553WX-W1%22"
+        }
+      ]
+    },
+    "score": 86,
+    "voltage": "110V／60Hz（台灣通路同型號資料明示）",
+    "warranty": "台灣 Panasonic 家庭用保固，全機 1 年、印刷電路板及冷媒流通系統 3 年、壓縮機 5 年，依保證書。台灣客服 0800-098-800。",
+    "tags": [
+      "550L",
+      "日本製",
+      "六門",
+      "2027新1級",
+      "IoT",
+      "含基本配送",
+      "台灣保固"
+    ]
+  },
+  {
+    "id": "refrigerator-panasonic-nr-f523hx-h1",
+    "category": "refrigerator",
+    "brand": "Panasonic",
+    "model": "NR-F523HX-H1",
+    "name": "日本製520L日系上質玻璃六門變頻冰箱（霧晶灰）",
+    "rank": 52,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "price": {
+      "currency": "TWD",
+      "amount": 63990,
+      "converted": 63990,
+      "basis": "retailer_current",
+      "confidence": "2026-11-14 核對 PChome 主商品名稱、圖片、公開價及商品 API（同 PID、Qty 2）。",
+      "note": "PChome 原商品公開價 NT$63,990，可下單由廠商約配。官方登錄贈品、個人優惠券與信用卡回饋未折入。"
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "通路頁明示含基本運送、拆箱定位與舊機回收。廠商約配，未承諾 24 小時內到貨。偏遠地區、跨區配送、樓層或特殊搬運可能另計，先確認門道、開門與散熱空間。"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DPACHEA900KNVOR/000001_1793944278.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPACHE-A900KNVOR",
+    "buyLabel": "PChome 24h購物（可下單／廠商約配）",
+    "specs": [
+      "容量：520L。冷藏室 253L、冷凍室 98L、蔬果室 110L，日本製六門。",
+      "尺寸：寬 65 x 深 69.9 x 高 182.8 cm",
+      "重量：106 kg",
+      "保鮮：全幅抑霜鮮凍、新鮮急凍結、-3°C 微凍結、智慧保濕蔬果室、nanoe X。",
+      "節能：符合 2027 年新 1 級，年耗電 276 度，AI ECONAVI 變頻。",
+      "便利：自動製冰、IoT 智慧家電、玻璃門板。",
+      "電壓／頻率：110V／60Hz。",
+      "安裝：含基本運送、拆箱定位及舊機回收，廠商約配。"
+    ],
+    "description": "台灣 Panasonic 日系上質系列 520L 日本製六門玻璃冰箱，機身寬 65 cm，整合抑霜鮮凍、急凍結與自動製冰。",
+    "pros": [
+      "提供 520L 六門分區，保留獨立微凍與蔬果室。",
+      "台灣官方標示符合 2027 年新 1 級能效。",
+      "台灣公司貨，原賣場提供基本運送、拆箱定位與舊機回收。"
+    ],
+    "cons": [
+      "約 106 kg，搬運路徑及樓層施工須事先確認。",
+      "機身以外需預留散熱及開門空間，實際到貨日由通路聯繫。"
+    ],
+    "bestFor": "希望在約 65 cm 機身寬下選購 520L 玻璃六門變頻冰箱，且能配合廠商安排配送的家庭。",
+    "recommendation": "比較同系列其他容量與上一代 NR-F521HX 的機身尺寸、能效及實付差價，先確認門道和散熱空間。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "found",
+      "amount": 63990,
+      "currency": "TWD",
+      "converted": 63990,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DPACHE-A900KNVOR",
+      "sourceTitle": "Lowcast 比價趨勢：PChome Panasonic 國際牌 NR-F523HX-H1",
+      "evidenceSnippet": "Lowcast 原頁連到 PChome DPACHE-A900KNVOR 並列完整 NR-F523HX-H1 及同一配送組合。2026 年 11/7 至 11/13 共 7 日 的逐日最低皆為 NT$63,990。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-14",
+      "note": "為比價站收錄 8 日與本次可核對的同一 PChome 新品刊登低點，未納入個人券、信用卡、登錄贈品及點數。Yahoo 分類頁的 NT$62,643 為未重現原頁條件的過去顯示價；PChome NT$62,568 候選為 X1 鑽石黑且有預購條件，均暫不採用。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-11-14",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com/topicdetail.php \"NR-F523HX-H1\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%2Ftopicdetail.php%20%22NR-F523HX-H1%22"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc/bbs/ \"NR-F523HX-H1\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%2Fbbs%2F%20%22NR-F523HX-H1%22"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "site:dcard.tw/f/ \"NR-F523HX-H1\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%2Ff%2F%20%22NR-F523HX-H1%22"
+        }
+      ]
+    },
+    "score": 86,
+    "voltage": "110V／60Hz（台灣通路同型號資料明示）",
+    "warranty": "台灣 Panasonic 家庭用保固，全機 1 年、印刷電路板及冷媒流通系統 3 年、壓縮機 5 年，依保證書。台灣客服 0800-098-800。",
+    "tags": [
+      "520L",
+      "日本製",
+      "六門",
+      "2027新1級",
+      "IoT",
+      "含基本配送",
+      "台灣保固"
     ]
   }
 ]);
