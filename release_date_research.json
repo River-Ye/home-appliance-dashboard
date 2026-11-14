@@ -1,21 +1,21 @@
 {
   "summary": {
-    "checkedAt": "2026-11-13T23:42:33.794Z",
-    "total": 1266,
-    "researchedThisRun": 5,
-    "found": 368,
-    "missing": 898,
+    "checkedAt": "2026-11-14T23:39:00.932Z",
+    "total": 1269,
+    "researchedThisRun": 3,
+    "found": 369,
+    "missing": 900,
     "byConfidence": {
       "official": 188,
-      "not_found": 895,
+      "not_found": 897,
       "retailer_explicit": 24,
       "credible_article": 52,
-      "high": 83,
+      "high": 84,
       "medium": 21,
       "unknown": 3
     },
     "sourcePolicy": "本輪僅新增/身份更正商品完成獨立上市日研究；既有逐筆證據及實際查核日期保留，不將來源維護範圍當成重新人工研究。",
-    "scopeNote": "2026-11-14 僅新增型號完成上市查核；既有逐筆證據保留原查核日期。"
+    "scopeNote": "2026-11-15 僅新增型號完成上市查核；既有逐筆證據保留原查核日期。"
   },
   "results": [
     {
@@ -38886,6 +38886,106 @@
           "title": "ASUS Store 台灣黑色精確料號",
           "outcome": "P723 黑色 90MP0490-BMUA00"
         }
+      ]
+    },
+    {
+      "id": "dryer-lg-wr-10xw",
+      "category": "dryer",
+      "brand": "LG",
+      "model": "WR-10XW",
+      "name": "10公斤雙變頻熱泵免曬衣乾衣機（雲朵白）",
+      "previousReleaseDate": "找不到",
+      "checkedAt": "2026-11-15",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"WR-10XW\" 台灣 上市 發售",
+      "auditQueries": [
+        "\"WR-10XW\" 台灣 上市 發售",
+        "\"WR-10XW\" site:lg.com/tw 2026 新品 乾衣機"
+      ],
+      "sourceKind": "not_found",
+      "reason": "LG 台灣原頁與官店確認新品及型號，但未列明確上市日；電商預購頁、第三方 10/13 文案收錄日及促銷期不等同發售日。",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.lg.com/tw/washer-dryers/dryers/wr-10xw/",
+          "title": "LG 台灣 WR-10XW 規格",
+          "outcome": "完整型號與規格已確認，沒有上市日期。"
+        },
+        {
+          "url": "https://www.lg.com/tw/shop-the-latest/lgsubscribe-buy/",
+          "title": "LG 台灣購買最新產品",
+          "outcome": "同款標新品，未標具體上市日期。"
+        },
+        {
+          "url": "https://www.dealbureau.tw/deal/deal-approved-cmv67q1tb002fjq06kgavrj1p",
+          "title": "全國電子新品促銷轉錄",
+          "outcome": "標 2026/10/13 為收錄日、10/1–10/31 為門市優惠期間，不能當正式上市日。"
+        }
+      ]
+    },
+    {
+      "id": "washerdryer-hitachi-bd-sz150kj",
+      "category": "washerdryer",
+      "brand": "HITACHI",
+      "model": "BD-SZ150KJ",
+      "name": "15／8公斤日製熱泵滾筒洗脫烘（曜墨灰左開）",
+      "previousReleaseDate": "找不到",
+      "checkedAt": "2026-11-15",
+      "releaseDate": "2026-04-14",
+      "sourceUrl": "https://www.mobile01.com/topicdetail.php?f=730&t=7251279",
+      "sourceTitle": "Mobile01：日立日本製熱泵洗脫烘滾筒洗衣機在台上市",
+      "evidenceSnippet": "到場報導明述 BD-SZ150KJ 在台灣 4 月 14 日全通路正式上市；刊期 2026 年，並有同日媒體報導印證。",
+      "confidence": "high",
+      "query": "\"BD-SZ150KJ\" 台灣 上市 2026",
+      "auditQueries": [
+        "\"BD-SZ150KJ\" 台灣 上市 2026",
+        "\"BD-SZ150KJ\" site:hitachi-homeappliances.com.tw/press"
+      ],
+      "sourceKind": "media_release_report",
+      "reason": "原廠型號頁未標日期，原廠新聞中心找到的 6 月洗衣膠囊公告是促銷；以親赴發表會的媒體正文與同日具名報導交叉核對台灣確切上市。",
+      "auditDisposition": "confirmed_exact_model_release",
+      "checkedSources": [
+        {
+          "url": "https://hitachi-homeappliances.com.tw/products/products_feature.php?pid=BDSZ150KJ",
+          "title": "HITACHI 台灣型號原頁",
+          "outcome": "左開／右開型號可確證，無上市日。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7251279",
+          "title": "Mobile01 現場發表報導",
+          "outcome": "正文明示 2026-04-14 全通路在台上市。"
+        },
+        {
+          "url": "https://news.nextapple.com/aitech/20260414/8F9DDB5F61F012B78CA37AF17E542CBD",
+          "title": "壹蘋新聞網當日報導",
+          "outcome": "2026-04-14 報導正文也明示日立即日起上市。"
+        }
+      ]
+    },
+    {
+      "id": "monitor-asus-xg27ucmg",
+      "category": "monitor",
+      "brand": "ASUS",
+      "model": "XG27UCMG",
+      "name": "ROG Strix XG27UCMG 27吋 4K 240Hz／QHD 400Hz／FHD 488Hz 三模 Fast IPS 電競螢幕",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "checkedAt": "2026-11-15",
+      "query": "\"XG27UCMG\" ASUS 台灣 上市 發售",
+      "reason": "華碩台灣 Gamescom 原文介紹規格，未給本型號台灣上市日期。PChome 及 Yahoo 證實現售，買家評價日期及賣場資料不足以證明上市日期。",
+      "checkedSources": [
+        "https://rog.asus.com/tw/articles/product-news/a8b63ba1-ba29-46a3-9c78-e7dd86cada1a/",
+        "https://rog.asus.com/tw/monitors/27-to-31-5-inches/rog-strix-xg27ucmg/spec/",
+        "https://24h.pchome.com.tw/prod/DSABKB-A900KGP0K",
+        "https://tw.buy.yahoo.com/gdsale/ROG-Strix-XG27UCMG-%E9%9B%BB%E7%AB%B6%E8%9E%A2%E5%B9%95-27%E5%90%8B-240Hz-4K-0-3ms-%E5%8F%AF%E6%97%8B%E8%BD%89-%E9%9B%BB%E8%85%A6%E8%9E%A2-12337045.html"
       ]
     }
   ]

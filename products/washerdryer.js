@@ -164,17 +164,17 @@
     "category": "washerdryer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 16900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Whirlpool WWEB10701BS: 誠品線上 惠而浦【WWEB10701BS】10.5公斤洗脫烘滾筒洗衣機(含含標準安裝) 型號/規格不相符；LBJ Whirlpool WWEB10701BS: Yahoo購物中心 Whirlpool惠而浦 10.5公斤洗脫烘滾筒洗衣機 WWEB10701BS 型號/規格不相符；LBJ Whirlpool WWEB10701BS: 順發線上購物 【順發線上購物】Whirlpool WWEB10701BS 10.5KG 滾筒洗脫烘洗衣機 非採用通路或含排除條件。"
+      "converted": 16900,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DPAI1P-A900E4O8Q",
+      "sourceTitle": "Lowcast 比價趨勢：PChome Whirlpool 惠而浦 10.5公斤洗脫烘滾筒洗衣機 WWEB10701BS",
+      "evidenceSnippet": "Lowcast 同刊登 DPAI1P-A900E4O8Q 逐日價格於 2026-11-14 收在 NT$16,900。同日 PChome 同 SKU 原商品公開價格相同，API Qty 10。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-15",
+      "note": "依同型號台灣新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -694,17 +694,17 @@
     "category": "washerdryer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 29811,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ LG WD-S13VDW: 博客來 LG樂金13公斤滾筒洗衣機 (蒸洗脫烘)WD-S13VDW(冰瓷白) 型號/規格不相符；LBJ LG WD-S13VDW: Yahoo購物中心 LG樂金 WD-S13VDW 13公斤 蒸洗脫烘 蒸氣滾筒洗衣機 型號/規格不相符；LBJ LG WD-S13VDW: 博客來 【限時優惠】LG 樂金 WD-S13VDW 13公斤 蒸洗脫烘 蒸氣滾筒洗衣機 型號/規格不相符。"
+      "converted": 29811,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DPAI1L-A900EP6CY",
+      "sourceTitle": "Lowcast 比價趨勢：PChome LG 樂金 13公斤WiFi蒸洗脫烘變頻滾筒洗衣機(WD-S13VDW)(冰磁白)",
+      "evidenceSnippet": "Lowcast 同刊登 DPAI1L-A900EP6CY 逐日價格於 2026-11-14 收在 NT$29,811。同日 PChome 同 SKU 原商品公開價格相同，API Qty 13。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-15",
+      "note": "依同型號台灣新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1605,10 +1605,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/41046DB844-SP-12334280.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 37260,
-      "converted": 37260,
-      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
-      "note": "2026-11-05 人工覆核：Yahoo同型號主商品公開價37260元，主區立即購買／加入購物車可見。 不扣個人化折價券、點數、信用卡回饋或贈品價值。",
+      "amount": 34652,
+      "converted": 34652,
+      "confidence": "2026-11-15 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "Yahoo 原商品主區可下單，公開價 NT$34,652；公開單件活動至 2026-11-16T07:30:59+08:00。未扣會員券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -2368,17 +2368,17 @@
     "category": "washerdryer",
     "releaseDate": "2026-07-16",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 79111,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-18",
-      "note": "WD-S1818PB 於 2026-07-16 新上市；查核 LG、全聯全電商、PChome、Feebee 與 FindPrice 僅見上市後現價或比價，未找到可公開驗證的可信新品歷史最低價。現價不得直接推定為史低。"
+      "converted": 79111,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DPAI1L-A900KAQP8",
+      "sourceTitle": "Lowcast 比價趨勢：PChome LG 樂金 18公斤+18公斤 WashTower AI智控熱泵洗乾衣機(WD-S1818PB)",
+      "evidenceSnippet": "Lowcast 同刊登 DPAI1L-A900KAQP8 逐日價格於 2026-11-14 收在 NT$79,111。同日 PChome 同 SKU 原商品主區公開價格相同，API Qty 8。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-15",
+      "note": "依同型號台灣新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2909,17 +2909,17 @@
     ],
     "releaseDate": "2024",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 58432,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-08-14",
-      "note": "已查 Panasonic 台灣 exact-model 官方頁、myfone、PChome 與 exact-model 價格搜尋；myfone NT$54,800 與 PChome NT$58,410 都是本輪現價，未找到同型號可公開重現且具日期的可信新品歷史價格，因此不以現價推定史低。"
+      "converted": 58432,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DPAIER-A900KLOGO",
+      "sourceTitle": "Lowcast 比價趨勢：PChome Panasonic 國際牌 17公斤熱泵式滾筒洗脫烘夜幕黑洗衣機【NA-V170RPH-K】",
+      "evidenceSnippet": "Lowcast 同刊登 DPAIER-A900KLOGO 逐日價格於 2026-11-14 收在 NT$58,432。同日 PChome 同 SKU 原商品主區公開價格相同，API Qty 3。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-15",
+      "note": "依同型號台灣新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -3315,17 +3315,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 34900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-10-20",
-      "note": "2026-10-20 查核 exact EWW1143R7WC 的飛比、FindPrice、LBJ與可信通路；比價頁顯示跨商家當下報價，未取得可重現日期與同型號新品價格歷史，不以現價、個人賣家、詢價或回饋推定史低。"
+      "converted": 34900,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DMBH1R-A900IQMPQ",
+      "sourceTitle": "Lowcast 比價趨勢：PChome Electrolux 伊萊克斯 歐規11/7kg 極淨呵護700系列 洗脫烘洗衣機(EWW1143R7WC)",
+      "evidenceSnippet": "Lowcast 同刊登 DMBH1R-A900IQMPQ 逐日價格於 2026-11-14 收在 NT$34,900。同日 PChome 同 SKU 原商品公開價格相同，API Qty 20。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-15",
+      "note": "依同型號台灣新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -3600,17 +3600,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 20900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-11-13",
-      "note": "以完整型號及 PChome 商品編號查 BigGo、LBJ 和 FindPrice。BigGo 同型號圖表 API 回 429，LBJ 精準原頁只回網站驗證，FindPrice 及 LBJ 可讀索引為比價或含折扣條件，沒有可重現的公開新品歷史低點。PChome 另一精確品項 NT$19,011 為本輪即時報價，未以現價推定歷史最低。"
+      "converted": 20900,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DPAI1G-A900KDERC",
+      "sourceTitle": "Lowcast 比價趨勢：PChome TOSHIBA 東芝 12.5kg 沖浪洗淨變頻滾筒洗衣機_TWD-T33B135UWTA(WS)",
+      "evidenceSnippet": "Lowcast 同刊登 DPAI1G-A900KDERC 逐日價格於 2026-11-14 收在 NT$20,900。同日 PChome 同 SKU 原商品公開價格相同，API Qty 7。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-15",
+      "note": "依同型號台灣新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -3641,6 +3641,98 @@
           "targetHost": "reddit.com",
           "query": "\"TWD-T33B135UWTA(WS)\" site:reddit.com",
           "queryUrl": "https://www.google.com/search?q=%22TWD-T33B135UWTA(WS)%22%20site%3Areddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "washerdryer-hitachi-bd-sz150kj",
+    "category": "washerdryer",
+    "brand": "HITACHI",
+    "model": "BD-SZ150KJ",
+    "name": "15／8公斤日製熱泵滾筒洗脫烘（曜墨灰左開）",
+    "rank": 37,
+    "budget": "premium",
+    "channel": "tw",
+    "price": {
+      "currency": "TWD",
+      "amount": 64308,
+      "converted": 64308,
+      "basis": "retailer_current",
+      "confidence": "PChome 同貨號 DPAI1K-A900JWLH4 原頁主價、可購按鈕與精確 SKU API 核對。",
+      "note": "2026-11-15 PChome 同型左開主價 NT$64,308，網路原價 NT$69,900，公開 11/01–11/30 任一件 92 折活動且頁面可加入購物車；API Qty 9。 不扣信用卡回饋、點數、個人化折價券或贈品價值。"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "PChome 原頁標示廠商出貨、可宅配；未見基本安裝工項或樓層費明列。安裝尺寸原廠標寬 62 x 深 73 x 高 126.5 cm，仍需比對外觀與搬運尺寸、留洗衣門動線並先確認排水、接地及追加費用。"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DPAI1KA900JWLH4/000001_1790827469.png",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1K-A900JWLH4",
+    "buyLabel": "PChome 24h購物",
+    "specs": [
+      "洗/乾容量：15kg / 8kg",
+      "日製滾筒、曜墨灰左開",
+      "熱泵除濕風熨斗 2.0、約 65°C 護衣烘乾",
+      "尼加拉飛瀑 2.0、洗衣膠囊行程、AI 智能感測",
+      "自主環淨 2.0、3D 自動槽洗淨，需定期清理濾網",
+      "尺寸：含水管 寬 63 x 深 72 x 高 106.5 cm",
+      "本體寬度：60 cm",
+      "重量：約 93 kg",
+      "電源：110V／60Hz；洗衣 230W，手冊 30°C 條件標準乾衣 1,240W"
+    ],
+    "description": "日立日本製熱泵洗脫烘；左開版 BD-SZ150KJ 適合需要 15 kg 大容量洗衣、同時希望縮減室內佔地的家庭。",
+    "pros": [
+      "15 kg 洗衣、8 kg 熱泵乾衣",
+      "具洗衣膠囊專用行程與實體按鍵",
+      "包含自動潔淨熱交換器功能"
+    ],
+    "cons": [
+      "完整洗脫烘需遵守 8 kg 乾衣上限",
+      "約 93 kg，須先量搬運路線與左開空間",
+      "沒有洗劑自動投入，也沒有 IoT 遠控"
+    ],
+    "bestFor": "需要單機洗衣與烘衣、偏好實體按鍵且能容納左開門動線的家庭。",
+    "recommendation": "洗 15 kg 與烘 8 kg 不同；常滿桶清洗和烘衣，事前比較分開式 10 kg 以上乾衣機。",
+    "score": 87,
+    "voltage": "110V／60Hz 台灣規格",
+    "warranty": "台灣原廠全機 1 年，機板／運轉組 3 年，主馬達 5 年",
+    "tags": [
+      "熱泵",
+      "日本製",
+      "左開",
+      "15／8 kg"
+    ],
+    "releaseDate": "2026-04-14",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-11-15",
+      "note": "同型號比價頁找到可下單報價線索；LBJ 6 個同型獨立歷史端點回 HTTP 429，未取得可核對日期與條件的實際低點曲線。PChome 本期活動價與論壇未具名詢價不當史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-11-15",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"BD-SZ150KJ\" site:mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=%22BD-SZ150KJ%22%20site%3Amobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "\"BD-SZ150KJ\" site:ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=%22BD-SZ150KJ%22%20site%3Aptt.cc"
         }
       ]
     }

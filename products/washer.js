@@ -164,17 +164,17 @@
     "category": "washer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 18811,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ LG WT-TD16HW: Yahoo購物中心 LG 樂金 16公斤 AI DD 蒸氣直驅變頻洗衣機-雲朵白(WT-TD16HW) 型號/規格不相符；LBJ LG WT-TD16HW: Momo富邦購物 (店+)【LG 樂金】WT-TD16HW 16公斤直立式洗衣機 EZ 系列｜雲朵白｜AI DD™ 蒸氣直驅變頻 (含基本安裝) 型號/規格不相符；LBJ LG WT-TD16HW: Yahoo購物中心 LG樂金 16公斤 AI DD 蒸氣直驅變頻洗衣機 雲朵白 WT-TD16HW 型號/規格不相符。"
+      "converted": 18811,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DPAI1L-A900JI135",
+      "sourceTitle": "Lowcast 比價趨勢：PChome LG 樂金 16公斤AI DD 蒸氣直驅變頻直立洗衣機 WT-TD16HW(雲朵白)",
+      "evidenceSnippet": "Lowcast 同刊登 DPAI1L-A900JI135 逐日價格於 2026-11-14 收在 NT$18,811。同日 PChome 同 SKU 原商品公開價格相同，API Qty 7。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-15",
+      "note": "依同型號台灣新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2372,17 +2372,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 18810,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Panasonic NA-V120HW: 樂天市場 - Panasonic授權台南東區東隆電器 Panasonic授權台南東區東隆電器 Panasonic 滾筒洗衣機 NA-V120HW 型號/規格不相符；LBJ Panasonic NA-V120HW: 樂天市場 - Panasonic授權澎湖上眾電器 Panasonic授權澎湖上眾電器 領券獨家最高9折 Panasonic 滾筒洗衣機 NA-V120HW 型號/規格不相符；LBJ Panasonic NA-V120HW: 樂天市場 - Panasonic授權宜蘭頭城群大電器 Panasonic授權宜蘭頭城群大電器 Panasonic 滾筒洗衣機 NA-V120HW 型號/規格不相符。"
+      "converted": 18810,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/QBAR29-A900A63AZ",
+      "sourceTitle": "Lowcast 比價趨勢：PChome Panasonic 國際牌 變頻12公斤洗脫滾筒洗衣機 NA-V120HW-G",
+      "evidenceSnippet": "Lowcast 同刊登 QBAR29-A900A63AZ 逐日價格於 2026-11-14 收在 NT$18,810。同日 PChome 同 SKU 原商品公開價格相同，API Qty 2。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-15",
+      "note": "依同型號台灣新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2818,17 +2818,17 @@
       ]
     },
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 31860,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-09-09",
-      "note": "今日人工查BigGo exact-model比價、LBJ與FindPrice歷史價入口及PChome原頁。BigGo顯示當下29,400起/29,700/29,832等，不具可還原日期低點；部分為券價，LBJ/FindPrice入口受阻，未取得可靠同SKU历史最低。PChome30,510元僅現價，不推定史低。"
+      "converted": 31860,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DPAIGJ-A900JLZ3V",
+      "sourceTitle": "Lowcast 比價趨勢：PChome Panasonic 國際牌 變頻15公斤滾筒洗脫洗衣機 NA-V150SW-W(冰鑽白)",
+      "evidenceSnippet": "Lowcast 同刊登 DPAIGJ-A900JLZ3V 逐日價格於 2026-11-14 收在 NT$31,860。同日 PChome 同 SKU 原商品公開價格相同，API Qty 18。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-15",
+      "note": "依同型號台灣新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     }
   }
 ]);

@@ -734,17 +734,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 1480,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-16",
-      "note": "原 momo 史低頁已不再呈現 F-S14KM 商品與價格，逐型號重查 LBJ、FindPrice、PChome、Yahoo 與 momo 後仍找不到可公開重現的同型號可信新品史低；因此撤銷原 NT$1,319 證據，不以現價推定史低。"
+      "converted": 1480,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DMAB1F-A900IMD5C",
+      "sourceTitle": "Lowcast 比價趨勢：PChome Panasonic 國際牌 14吋微電腦DC直流電風扇 F-S14KM",
+      "evidenceSnippet": "Lowcast 同刊登 DMAB1F-A900IMD5C 逐日價格於 2026-11-14 收在 NT$1,480。同日 PChome 同 SKU 原商品公開價格相同，API Qty 14。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-15",
+      "note": "依同型號台灣新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",

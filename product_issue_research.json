@@ -1,9 +1,9 @@
 {
   "summary": {
-    "checkedAt": "2026-11-14T00:00:00+08:00",
-    "total": 1266,
+    "checkedAt": "2026-11-15T00:00:00+08:00",
+    "total": 1269,
     "commonIssueProducts": 55,
-    "noCommonIssueProducts": 1211,
+    "noCommonIssueProducts": 1214,
     "pendingManualReview": 0,
     "commonIssues": 56,
     "searchUnavailable": 614,
@@ -44,9 +44,10 @@
       "2026-11-12 新收錄型號逐款核對所列平台的 exact-model 查詢及候選；其餘商品的原查核日期保留。",
       "2026-11-12 新收錄型號逐款核對所列平台的 exact-model 查詢及候選；其餘商品的原查核日期保留。",
       "2026-11-13 新收錄型號逐款核對所列平台的 exact-model 查詢及候選；其餘商品的原查核日期保留。",
-      "2026-11-14 新收錄型號逐款核對所列平台的 exact-model 查詢及候選；其餘商品的原查核日期保留。"
+      "2026-11-14 新收錄型號逐款核對所列平台的 exact-model 查詢及候選；其餘商品的原查核日期保留。",
+      "2026-11-15 新收錄型號逐款核對所列平台的 exact-model 查詢及候選；其餘商品的原查核日期保留。"
     ],
-    "researchedThisRun": 5
+    "researchedThisRun": 3
   },
   "results": [
     {
@@ -232519,6 +232520,1036 @@
         }
       ],
       "reports": []
+    },
+    {
+      "id": "dryer-lg-wr-10xw",
+      "category": "dryer",
+      "brand": "LG",
+      "model": "WR-10XW",
+      "name": "10公斤雙變頻熱泵免曬衣乾衣機（雲朵白）",
+      "identity": {
+        "canonicalModel": "WR-10XW",
+        "lookupLabel": "LG WR-10XW",
+        "aliases": [
+          "WR-10XW",
+          "LG WR-10XW",
+          "WR-10XW.AGWBTST.EATT.TW.C"
+        ],
+        "evidenceUrl": "https://www.lg.com/tw/washer-dryers/dryers/wr-10xw/"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "id": "dryer-lg-wr-10xw",
+        "category": "dryer",
+        "brand": "LG",
+        "model": "WR-10XW",
+        "name": "10公斤雙變頻熱泵免曬衣乾衣機（雲朵白）",
+        "reviewedAt": "2026-11-15",
+        "reviewBatch": "dryer",
+        "decision": "no_common_issue",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT",
+          "Dcard",
+          "Reddit",
+          "PChome"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "\"WR-10XW\" site:mobile01.com",
+            "queryUrl": "https://www.google.com/search?q=%22WR-10XW%22%20site%3Amobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "\"WR-10XW\" site:ptt.cc",
+            "queryUrl": "https://www.google.com/search?q=%22WR-10XW%22%20site%3Aptt.cc"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "\"WR-10XW\" site:dcard.tw",
+            "queryUrl": "https://www.google.com/search?q=%22WR-10XW%22%20site%3Adcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "\"WR-10XW\" site:reddit.com",
+            "queryUrl": "https://www.google.com/search?q=%22WR-10XW%22%20site%3Areddit.com"
+          }
+        ],
+        "candidateDisposition": "WR-10XW 查到 Dcard 選購彙整與 PChome exact SKU 原頁；逐頁看片與正文，Dcard 的使用問題屬 WR-100VW，商品原頁未見具作者的問題。",
+        "representativeSources": [
+          {
+            "platform": "Dcard",
+            "url": "https://www.dcard.tw/@shopee_go/post/262371696",
+            "title": "租屋房東不給挖洞，整理了5款烘衣機網友踩雷點（1千多到3萬）"
+          },
+          {
+            "platform": "PChome",
+            "url": "https://24h.pchome.com.tw/prod/DPAI1L-A900KI8KB",
+            "title": "LG WR-10XW PChome 24h 主商品頁"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "platform": "Dcard",
+            "url": "https://www.dcard.tw/@shopee_go/post/262371696",
+            "title": "租屋房東不給挖洞，整理了5款烘衣機網友踩雷點（1千多到3萬）",
+            "reviewedAt": "2026-11-15",
+            "outcome": "excluded",
+            "exactModel": false,
+            "independentAuthors": 0,
+            "sourceExcerpt": "文章第 5 款實際是 LG WR-100VW，WR-10XW 被提為同容量新機。發文者說內容是各平台彙整。",
+            "specificReason": "同頁引用的感測延遲與衣物打結皆指前一世代 WR-100VW；既非此 SKU，也非作者親用 WR-10XW 的報告。"
+          },
+          {
+            "platform": "PChome",
+            "url": "https://24h.pchome.com.tw/prod/DPAI1L-A900KI8KB",
+            "title": "LG WR-10XW PChome 24h 主商品頁",
+            "reviewedAt": "2026-11-15",
+            "outcome": "excluded",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "sourceExcerpt": "主商品完整型號為 WR-10XW（雲朵白），原頁未顯示可讀取、具內容的買家評價。",
+            "specificReason": "已核對 exact SKU 商品評價區；未見具作者及內容的第一人稱故障，不以無文字星等或商品文案推定使用結果。"
+          }
+        ],
+        "reviewerNote": "WR-10XW 對 Mobile01、PTT、Dcard、Reddit 與 PChome 作完整型號查詢並開原頁。沒有將舊款 WR-100VW／同代 WR-10XB 的回報移植，也未查到跨兩站可合計六位的同一第一人稱問題。",
+        "attestation": "manual_original_pages_reviewed",
+        "status": "completed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-11-15",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "\"WR-10XW\" site:mobile01.com",
+            "queryUrl": "https://www.google.com/search?q=%22WR-10XW%22%20site%3Amobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "\"WR-10XW\" site:ptt.cc",
+            "queryUrl": "https://www.google.com/search?q=%22WR-10XW%22%20site%3Aptt.cc"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "\"WR-10XW\" site:dcard.tw",
+            "queryUrl": "https://www.google.com/search?q=%22WR-10XW%22%20site%3Adcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "\"WR-10XW\" site:reddit.com",
+            "queryUrl": "https://www.google.com/search?q=%22WR-10XW%22%20site%3Areddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"WR-10XW\" site:mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=%22WR-10XW%22%20site%3Amobile01.com",
+          "searchUrl": "https://www.google.com/search?q=%22WR-10XW%22%20site%3Amobile01.com",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-14T23:36:06.046Z",
+          "note": "逐一核對此站搜尋結果，未見該型號原頁候選。"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "\"WR-10XW\" site:ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=%22WR-10XW%22%20site%3Aptt.cc",
+          "searchUrl": "https://www.google.com/search?q=%22WR-10XW%22%20site%3Aptt.cc",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-14T23:36:06.046Z",
+          "note": "逐一核對此站搜尋結果，未見該型號原頁候選。"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "\"WR-10XW\" site:dcard.tw",
+          "queryUrl": "https://www.google.com/search?q=%22WR-10XW%22%20site%3Adcard.tw",
+          "searchUrl": "https://www.google.com/search?q=%22WR-10XW%22%20site%3Adcard.tw",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.dcard.tw/@shopee_go/post/262371696"
+          ],
+          "candidates": [
+            {
+              "platform": "Dcard",
+              "url": "https://www.dcard.tw/@shopee_go/post/262371696",
+              "title": "租屋房東不給挖洞，整理了5款烘衣機網友踩雷點（1千多到3萬）"
+            }
+          ],
+          "inspectedAt": "2026-11-14T23:36:06.046Z",
+          "note": "已調閱原始商品評價或討論，逐頁處置詳見人工覆核。"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "\"WR-10XW\" site:reddit.com",
+          "queryUrl": "https://www.google.com/search?q=%22WR-10XW%22%20site%3Areddit.com",
+          "searchUrl": "https://www.google.com/search?q=%22WR-10XW%22%20site%3Areddit.com",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-14T23:36:06.046Z",
+          "note": "逐一核對此站搜尋結果，未見該型號原頁候選。"
+        }
+      ],
+      "rejectedCandidates": [
+        {
+          "platform": "Dcard",
+          "url": "https://www.dcard.tw/@shopee_go/post/262371696",
+          "title": "租屋房東不給挖洞，整理了5款烘衣機網友踩雷點（1千多到3萬）",
+          "reviewedAt": "2026-11-15",
+          "outcome": "excluded",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "sourceExcerpt": "文章第 5 款實際是 LG WR-100VW，WR-10XW 被提為同容量新機。發文者說內容是各平台彙整。",
+          "specificReason": "同頁引用的感測延遲與衣物打結皆指前一世代 WR-100VW；既非此 SKU，也非作者親用 WR-10XW 的報告。",
+          "reason": "同頁引用的感測延遲與衣物打結皆指前一世代 WR-100VW；既非此 SKU，也非作者親用 WR-10XW 的報告。"
+        },
+        {
+          "platform": "PChome",
+          "url": "https://24h.pchome.com.tw/prod/DPAI1L-A900KI8KB",
+          "title": "LG WR-10XW PChome 24h 主商品頁",
+          "reviewedAt": "2026-11-15",
+          "outcome": "excluded",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "sourceExcerpt": "主商品完整型號為 WR-10XW（雲朵白），原頁未顯示可讀取、具內容的買家評價。",
+          "specificReason": "已核對 exact SKU 商品評價區；未見具作者及內容的第一人稱故障，不以無文字星等或商品文案推定使用結果。",
+          "reason": "已核對 exact SKU 商品評價區；未見具作者及內容的第一人稱故障，不以無文字星等或商品文案推定使用結果。"
+        }
+      ],
+      "reports": [],
+      "evidence": []
+    },
+    {
+      "id": "washerdryer-hitachi-bd-sz150kj",
+      "category": "washerdryer",
+      "brand": "HITACHI",
+      "model": "BD-SZ150KJ",
+      "name": "15／8公斤日製熱泵滾筒洗脫烘（曜墨灰左開）",
+      "identity": {
+        "canonicalModel": "BD-SZ150KJ",
+        "lookupLabel": "HITACHI BD-SZ150KJ",
+        "aliases": [
+          "BD-SZ150KJ",
+          "BDSZ150KJ",
+          "BD-SZ150KJ-H",
+          "HITACHI BD-SZ150KJ"
+        ],
+        "evidenceUrl": "https://hitachi-homeappliances.com.tw/products/products_feature.php?pid=BDSZ150KJ"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "id": "washerdryer-hitachi-bd-sz150kj",
+        "category": "washerdryer",
+        "brand": "HITACHI",
+        "model": "BD-SZ150KJ",
+        "name": "15／8公斤日製熱泵滾筒洗脫烘（曜墨灰左開）",
+        "reviewedAt": "2026-11-15",
+        "reviewBatch": "washerdryer",
+        "decision": "no_common_issue",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT",
+          "PChome"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "\"BD-SZ150KJ\" site:mobile01.com",
+            "queryUrl": "https://www.google.com/search?q=%22BD-SZ150KJ%22%20site%3Amobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "\"BD-SZ150KJ\" site:ptt.cc",
+            "queryUrl": "https://www.google.com/search?q=%22BD-SZ150KJ%22%20site%3Aptt.cc"
+          }
+        ],
+        "candidateDisposition": "BD-SZ150KJ 核對 Mobile01、PTT 選購文與 PChome 左開 SKU 購物原頁；同一買前提問跨貼去重，日版容量與他型報修排除。單一安裝糾紛分列。",
+        "representativeSources": [
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7285170",
+            "title": "[挑選] 6萬預算熱泵洗脫烘 LG WashTower／日立怎麼選？"
+          },
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/E-appliance/M.1785597302.A.EDB.html",
+            "title": "[挑選] 6萬預算熱泵洗脫烘 LG WashTower／日立怎麼選？"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&p=1&t=7297047",
+            "title": "熱泵洗脫烘會建議買多大？Panasonic、LG、Hitachi？"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7269045",
+            "title": "Hitachi 滾筒洗脫烘 BD-SZ150KJ 實測體驗"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&p=2&t=7269045",
+            "title": "Hitachi 滾筒洗脫烘 BD-SZ150KJ 實測體驗（第 2 頁）"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7270839",
+            "title": "滾筒式洗衣機推薦（內有選手）"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7251279",
+            "title": "三核心功能迎戰梅雨季 日立日本製熱泵洗脫烘滾筒洗衣機在台上市"
+          },
+          {
+            "platform": "PChome",
+            "url": "https://24h.pchome.com.tw/prod/DPAI1K-A900JWLH4",
+            "title": "PChome 台灣 BD-SZ150KJ 左開商品評價"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7285170",
+            "title": "[挑選] 6萬預算熱泵洗脫烘 LG WashTower／日立怎麼選？",
+            "reviewedAt": "2026-11-15",
+            "outcome": "excluded",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "sourceExcerpt": "作者為 1.61 坪陽台比較 BD-SZ150KJ 和 LG WD-S1310GB，尚在詢價。",
+            "specificReason": "提問為購買前比較，留言對 LG 二代與分體效率不能挪為日立故障；正文與 PTT 同日同句及同額詢價，視為同一跨貼。"
+          },
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/E-appliance/M.1785597302.A.EDB.html",
+            "title": "[挑選] 6萬預算熱泵洗脫烘 LG WashTower／日立怎麼選？",
+            "reviewedAt": "2026-11-15",
+            "outcome": "excluded",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "sourceExcerpt": "lingling0522 想詢問長期心得；ehomese 稱日立 KJ 有風熨斗，衣物較不皺。",
+            "specificReason": "作者仍未購買；同日 Mobile01 交叉貼文只算一個提問。稱讚風熨斗未明示本人的機器或使用，LG 報修非此 SKU。"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&p=1&t=7297047",
+            "title": "熱泵洗脫烘會建議買多大？Panasonic、LG、Hitachi？",
+            "reviewedAt": "2026-11-15",
+            "outcome": "excluded",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "sourceExcerpt": "原作者把 BD-SZ150KJ 列為三名選手之一，提出膠囊殘留的買前疑慮。",
+            "specificReason": "沒有確認的此型號故障；原帖不是實際使用洗衣膠囊後的殘留回報，品牌與容量選擇建議不能入列。"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7269045",
+            "title": "Hitachi 滾筒洗脫烘 BD-SZ150KJ 實測體驗",
+            "reviewedAt": "2026-11-15",
+            "outcome": "excluded",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "sourceExcerpt": "Deelin 展示日立 BD-SZ150KJ 的面板膠囊行程與自清潔濾網；文末及次頁回覆多為功能討論。",
+            "specificReason": "開箱體驗談的是各功能操作；沒有達門檻的同型獨立負面報告，留言中的其他日立滾筒機也不能轉用。"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&p=2&t=7269045",
+            "title": "Hitachi 滾筒洗脫烘 BD-SZ150KJ 實測體驗（第 2 頁）",
+            "reviewedAt": "2026-11-15",
+            "outcome": "excluded",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "sourceExcerpt": "第 2 頁延續前文，同一開箱主樓，回覆包含外觀與行程意見。",
+            "specificReason": "是前列開箱同一討論串附頁，無獨立發文者的同型號可辨識故障；不與主頁複計。"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7270839",
+            "title": "滾筒式洗衣機推薦（內有選手）",
+            "reviewedAt": "2026-11-15",
+            "outcome": "excluded",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "sourceExcerpt": "草莓優酪乳列 BD-SZ150KJ 比較，留言把日本規格 13kg 與台灣型號並談。",
+            "specificReason": "買前空間與容量對照並非故障回報；留言實際購入的為 Panasonic，且不能以日本型額定容量覆蓋台灣版。"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7251279",
+            "title": "三核心功能迎戰梅雨季 日立日本製熱泵洗脫烘滾筒洗衣機在台上市",
+            "reviewedAt": "2026-11-15",
+            "outcome": "excluded",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "sourceExcerpt": "原頁為上市現場報導，後續留言評價實體按鍵、售價及日本版本。",
+            "specificReason": "記者與留言均未提出可計入的本機第一人稱故障；上市原文可作日期來源，不能當獨立使用者。"
+          },
+          {
+            "platform": "PChome",
+            "url": "https://24h.pchome.com.tw/prod/DPAI1K-A900JWLH4",
+            "title": "PChome 台灣 BD-SZ150KJ 左開商品評價",
+            "reviewedAt": "2026-11-15",
+            "outcome": "excluded",
+            "exactModel": true,
+            "independentAuthors": 1,
+            "sourceExcerpt": "2026-07-14 劉**稱拆裝時舊機進水編織管及三通裂開；2026-05-05 蔡**另說此機兩週實用、牛仔褲洗烘約四小時且全乾。",
+            "specificReason": "一位買家說明具體到府安裝糾紛，發生在拆舊機／進水接頭，未測試並未證實新機故障；沒有其他網站對應足量的同一情況。"
+          }
+        ],
+        "reviewerNote": "BD-SZ150KJ 確認 PChome 1 則具作者與日期的到府安裝問題；正文說舊管線破裂且新機未測，沒有跨站同一款本體問題達六人。其他選購、開箱與上市原文均分開處置。",
+        "attestation": "manual_original_pages_reviewed",
+        "status": "completed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-11-15",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "\"BD-SZ150KJ\" site:mobile01.com",
+            "queryUrl": "https://www.google.com/search?q=%22BD-SZ150KJ%22%20site%3Amobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "\"BD-SZ150KJ\" site:ptt.cc",
+            "queryUrl": "https://www.google.com/search?q=%22BD-SZ150KJ%22%20site%3Aptt.cc"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"BD-SZ150KJ\" site:mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=%22BD-SZ150KJ%22%20site%3Amobile01.com",
+          "searchUrl": "https://www.google.com/search?q=%22BD-SZ150KJ%22%20site%3Amobile01.com",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 6,
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=730&t=7285170",
+            "https://www.mobile01.com/topicdetail.php?f=730&p=1&t=7297047",
+            "https://www.mobile01.com/topicdetail.php?f=730&t=7269045",
+            "https://www.mobile01.com/topicdetail.php?f=730&p=2&t=7269045",
+            "https://www.mobile01.com/topicdetail.php?f=730&t=7270839",
+            "https://www.mobile01.com/topicdetail.php?f=730&t=7251279"
+          ],
+          "candidates": [
+            {
+              "platform": "Mobile01",
+              "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7285170",
+              "title": "[挑選] 6萬預算熱泵洗脫烘 LG WashTower／日立怎麼選？"
+            },
+            {
+              "platform": "Mobile01",
+              "url": "https://www.mobile01.com/topicdetail.php?f=730&p=1&t=7297047",
+              "title": "熱泵洗脫烘會建議買多大？Panasonic、LG、Hitachi？"
+            },
+            {
+              "platform": "Mobile01",
+              "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7269045",
+              "title": "Hitachi 滾筒洗脫烘 BD-SZ150KJ 實測體驗"
+            },
+            {
+              "platform": "Mobile01",
+              "url": "https://www.mobile01.com/topicdetail.php?f=730&p=2&t=7269045",
+              "title": "Hitachi 滾筒洗脫烘 BD-SZ150KJ 實測體驗（第 2 頁）"
+            },
+            {
+              "platform": "Mobile01",
+              "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7270839",
+              "title": "滾筒式洗衣機推薦（內有選手）"
+            },
+            {
+              "platform": "Mobile01",
+              "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7251279",
+              "title": "三核心功能迎戰梅雨季 日立日本製熱泵洗脫烘滾筒洗衣機在台上市"
+            }
+          ],
+          "inspectedAt": "2026-11-14T23:36:06.046Z",
+          "note": "已調閱原始商品評價或討論，逐頁處置詳見人工覆核。"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "\"BD-SZ150KJ\" site:ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=%22BD-SZ150KJ%22%20site%3Aptt.cc",
+          "searchUrl": "https://www.google.com/search?q=%22BD-SZ150KJ%22%20site%3Aptt.cc",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.ptt.cc/bbs/E-appliance/M.1785597302.A.EDB.html"
+          ],
+          "candidates": [
+            {
+              "platform": "PTT",
+              "url": "https://www.ptt.cc/bbs/E-appliance/M.1785597302.A.EDB.html",
+              "title": "[挑選] 6萬預算熱泵洗脫烘 LG WashTower／日立怎麼選？"
+            }
+          ],
+          "inspectedAt": "2026-11-14T23:36:06.046Z",
+          "note": "已調閱原始商品評價或討論，逐頁處置詳見人工覆核。"
+        }
+      ],
+      "rejectedCandidates": [
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7285170",
+          "title": "[挑選] 6萬預算熱泵洗脫烘 LG WashTower／日立怎麼選？",
+          "reviewedAt": "2026-11-15",
+          "outcome": "excluded",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "sourceExcerpt": "作者為 1.61 坪陽台比較 BD-SZ150KJ 和 LG WD-S1310GB，尚在詢價。",
+          "specificReason": "提問為購買前比較，留言對 LG 二代與分體效率不能挪為日立故障；正文與 PTT 同日同句及同額詢價，視為同一跨貼。",
+          "reason": "提問為購買前比較，留言對 LG 二代與分體效率不能挪為日立故障；正文與 PTT 同日同句及同額詢價，視為同一跨貼。"
+        },
+        {
+          "platform": "PTT",
+          "url": "https://www.ptt.cc/bbs/E-appliance/M.1785597302.A.EDB.html",
+          "title": "[挑選] 6萬預算熱泵洗脫烘 LG WashTower／日立怎麼選？",
+          "reviewedAt": "2026-11-15",
+          "outcome": "excluded",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "sourceExcerpt": "lingling0522 想詢問長期心得；ehomese 稱日立 KJ 有風熨斗，衣物較不皺。",
+          "specificReason": "作者仍未購買；同日 Mobile01 交叉貼文只算一個提問。稱讚風熨斗未明示本人的機器或使用，LG 報修非此 SKU。",
+          "reason": "作者仍未購買；同日 Mobile01 交叉貼文只算一個提問。稱讚風熨斗未明示本人的機器或使用，LG 報修非此 SKU。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&p=1&t=7297047",
+          "title": "熱泵洗脫烘會建議買多大？Panasonic、LG、Hitachi？",
+          "reviewedAt": "2026-11-15",
+          "outcome": "excluded",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "sourceExcerpt": "原作者把 BD-SZ150KJ 列為三名選手之一，提出膠囊殘留的買前疑慮。",
+          "specificReason": "沒有確認的此型號故障；原帖不是實際使用洗衣膠囊後的殘留回報，品牌與容量選擇建議不能入列。",
+          "reason": "沒有確認的此型號故障；原帖不是實際使用洗衣膠囊後的殘留回報，品牌與容量選擇建議不能入列。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7269045",
+          "title": "Hitachi 滾筒洗脫烘 BD-SZ150KJ 實測體驗",
+          "reviewedAt": "2026-11-15",
+          "outcome": "excluded",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "sourceExcerpt": "Deelin 展示日立 BD-SZ150KJ 的面板膠囊行程與自清潔濾網；文末及次頁回覆多為功能討論。",
+          "specificReason": "開箱體驗談的是各功能操作；沒有達門檻的同型獨立負面報告，留言中的其他日立滾筒機也不能轉用。",
+          "reason": "開箱體驗談的是各功能操作；沒有達門檻的同型獨立負面報告，留言中的其他日立滾筒機也不能轉用。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&p=2&t=7269045",
+          "title": "Hitachi 滾筒洗脫烘 BD-SZ150KJ 實測體驗（第 2 頁）",
+          "reviewedAt": "2026-11-15",
+          "outcome": "excluded",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "sourceExcerpt": "第 2 頁延續前文，同一開箱主樓，回覆包含外觀與行程意見。",
+          "specificReason": "是前列開箱同一討論串附頁，無獨立發文者的同型號可辨識故障；不與主頁複計。",
+          "reason": "是前列開箱同一討論串附頁，無獨立發文者的同型號可辨識故障；不與主頁複計。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7270839",
+          "title": "滾筒式洗衣機推薦（內有選手）",
+          "reviewedAt": "2026-11-15",
+          "outcome": "excluded",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "sourceExcerpt": "草莓優酪乳列 BD-SZ150KJ 比較，留言把日本規格 13kg 與台灣型號並談。",
+          "specificReason": "買前空間與容量對照並非故障回報；留言實際購入的為 Panasonic，且不能以日本型額定容量覆蓋台灣版。",
+          "reason": "買前空間與容量對照並非故障回報；留言實際購入的為 Panasonic，且不能以日本型額定容量覆蓋台灣版。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7251279",
+          "title": "三核心功能迎戰梅雨季 日立日本製熱泵洗脫烘滾筒洗衣機在台上市",
+          "reviewedAt": "2026-11-15",
+          "outcome": "excluded",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "sourceExcerpt": "原頁為上市現場報導，後續留言評價實體按鍵、售價及日本版本。",
+          "specificReason": "記者與留言均未提出可計入的本機第一人稱故障；上市原文可作日期來源，不能當獨立使用者。",
+          "reason": "記者與留言均未提出可計入的本機第一人稱故障；上市原文可作日期來源，不能當獨立使用者。"
+        },
+        {
+          "platform": "PChome",
+          "url": "https://24h.pchome.com.tw/prod/DPAI1K-A900JWLH4",
+          "title": "PChome 台灣 BD-SZ150KJ 左開商品評價",
+          "reviewedAt": "2026-11-15",
+          "outcome": "excluded",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "sourceExcerpt": "2026-07-14 劉**稱拆裝時舊機進水編織管及三通裂開；2026-05-05 蔡**另說此機兩週實用、牛仔褲洗烘約四小時且全乾。",
+          "specificReason": "一位買家說明具體到府安裝糾紛，發生在拆舊機／進水接頭，未測試並未證實新機故障；沒有其他網站對應足量的同一情況。",
+          "reason": "一位買家說明具體到府安裝糾紛，發生在拆舊機／進水接頭，未測試並未證實新機故障；沒有其他網站對應足量的同一情況。"
+        }
+      ],
+      "reports": [],
+      "evidence": []
+    },
+    {
+      "id": "monitor-asus-xg27ucmg",
+      "category": "monitor",
+      "brand": "ASUS",
+      "model": "XG27UCMG",
+      "name": "ROG Strix XG27UCMG 27吋 4K 240Hz／QHD 400Hz／FHD 488Hz 三模 Fast IPS 電競螢幕",
+      "identity": {
+        "canonicalModel": "XG27UCMG",
+        "lookupLabel": "ASUS ROG Strix XG27UCMG",
+        "aliases": [
+          "XG27UCMG",
+          "ROG Strix XG27UCMG"
+        ],
+        "evidenceUrl": "https://rog.asus.com/tw/monitors/27-to-31-5-inches/rog-strix-xg27ucmg/spec/"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-11-15",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"XG27UCMG\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22XG27UCMG%22"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"XG27UCMG\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22XG27UCMG%22"
+          },
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"XG27UCMG\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22XG27UCMG%22"
+          }
+        ]
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "id": "monitor-asus-xg27ucmg",
+        "category": "monitor",
+        "brand": "ASUS",
+        "model": "XG27UCMG",
+        "name": "ROG Strix XG27UCMG 27吋 4K 240Hz／QHD 400Hz／FHD 488Hz 三模 Fast IPS 電競螢幕",
+        "reviewedAt": "2026-11-15",
+        "reviewBatch": "monitor",
+        "decision": "no_common_issue",
+        "checkedPlatforms": [
+          "PTT",
+          "Reddit",
+          "Mobile01",
+          "ROG Forum",
+          "PChome"
+        ],
+        "queries": [
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"XG27UCMG\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22XG27UCMG%22"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"XG27UCMG\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22XG27UCMG%22"
+          },
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"XG27UCMG\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22XG27UCMG%22"
+          }
+        ],
+        "candidateDisposition": "XG27UCMG 回查 PTT、Reddit、ROG Forum 的展會原文與原始留言，並核 PChome 評價。加查 Mobile01 exact model 未找到原頁候選。",
+        "representativeSources": [
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/PC_Shopping/M.1787712832.A.FA3.html",
+            "title": "[情報] ROG Gamescom 2026 新品矚目亮相"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/Monitors/comments/1w0837q/asus_at_gamescom_2026_rog_oled_esports_monitors/",
+            "title": "ASUS at Gamescom 2026 – r/Monitors"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/ASUS/comments/1w082qh/asus_at_gamescom_2026_rog_oled_esports_monitors/",
+            "title": "ASUS at Gamescom 2026 – r/ASUS"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/ASUSROG/comments/1w082wq/asus_at_gamescom_2026_rog_oled_esports_monitors/",
+            "title": "ASUS at Gamescom 2026 – r/ASUSROG"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/RTINGS/comments/1w08y07/asus_at_gamescom_2026_rog_oled_esports_monitors/",
+            "title": "ASUS at Gamescom 2026 – r/RTINGS"
+          },
+          {
+            "platform": "ROG Forum",
+            "url": "https://rog-forum.asus.com/t5/news-announcements/rog-forum-newswire-august-30th/ta-p/1159912",
+            "title": "ROG Forum Newswire August 30th"
+          },
+          {
+            "platform": "PChome",
+            "url": "https://24h.pchome.com.tw/prod/DSABKB-A900KGP0K",
+            "title": "PChome ASUS ROG Strix XG27UCMG 評價"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/PC_Shopping/M.1787712832.A.FA3.html",
+            "title": "[情報] ROG Gamescom 2026 新品矚目亮相",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "click2258"
+            ],
+            "sourceExcerpt": "原帖列出 XG27UCMG 和 XG27ACNS 三模電競螢幕，留言在討論發表產品。",
+            "specificReason": "這是展會產品列表與一般留言，沒有作者自述本型號的使用或故障。",
+            "locator": "PC_Shopping 原帖顯示器名單與推文",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-15",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/Monitors/comments/1w0837q/asus_at_gamescom_2026_rog_oled_esports_monitors/",
+            "title": "ASUS at Gamescom 2026 – r/Monitors",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "ASUS_MKTLeeM",
+              "InsertCookiesHere"
+            ],
+            "sourceExcerpt": "品牌貼文列三模規格，InsertCookiesHere 表示如果有 Mini LED 背光會更感興趣。",
+            "specificReason": "Mini LED 是選購偏好。留言沒有聲稱持有這款螢幕，其他留言的 OLED 黑位討論也不能計入。",
+            "locator": "r/Monitors 原帖 XG27UCMG 段及 InsertCookiesHere 回覆",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-15",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/ASUS/comments/1w082qh/asus_at_gamescom_2026_rog_oled_esports_monitors/",
+            "title": "ASUS at Gamescom 2026 – r/ASUS",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "ASUS_MKTLeeM"
+            ],
+            "sourceExcerpt": "原帖提供 XG27UCMG 待售時程、產品頁與技術頁。",
+            "specificReason": "同一品牌作者跨貼展會資訊，原頁未見同型號第一人稱故障回報。",
+            "locator": "r/ASUS 原帖 Triple Mode 段及分享區",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-15",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/ASUSROG/comments/1w082wq/asus_at_gamescom_2026_rog_oled_esports_monitors/",
+            "title": "ASUS at Gamescom 2026 – r/ASUSROG",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "ASUS_MKTLeeM",
+              "TeeDee144",
+              "AccomplishedPoet6088"
+            ],
+            "sourceExcerpt": "同一品牌展會貼文。留言在問中國價格或提到正在使用不同的 PG32UCDM。",
+            "specificReason": "詢價未聲稱購買，PG32UCDM 屬別款。品牌跨貼不能增加獨立使用者。",
+            "locator": "r/ASUSROG 原帖三模規格段和價格、PG32UCDM 回覆",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-15",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/RTINGS/comments/1w08y07/asus_at_gamescom_2026_rog_oled_esports_monitors/",
+            "title": "ASUS at Gamescom 2026 – r/RTINGS",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "ASUS_MKTLeeM"
+            ],
+            "sourceExcerpt": "XG27UCMG 三模產品規格列於品牌展會貼文。",
+            "specificReason": "同篇品牌發表轉貼於另一個 subreddit，不是另一網站或獨立使用者回報。",
+            "locator": "r/RTINGS 原帖的 XG27UCMG 三模規格與連結",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-15",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "ROG Forum",
+            "url": "https://rog-forum.asus.com/t5/news-announcements/rog-forum-newswire-august-30th/ta-p/1159912",
+            "title": "ROG Forum Newswire August 30th",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAuthors": [],
+            "sourceExcerpt": "品牌新聞稿以 4K 240Hz、QHD 400Hz OC、FHD 488Hz OC 介紹 XG27UCMG。",
+            "specificReason": "頁面屬原廠展會資訊，沒有可比對為購買後故障的個別回報。",
+            "locator": "TRIPLE MODE 段 XG27UCMG 條目",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-15",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "PChome",
+            "url": "https://24h.pchome.com.tw/prod/DSABKB-A900KGP0K",
+            "title": "PChome ASUS ROG Strix XG27UCMG 評價",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "黃**",
+              "游**"
+            ],
+            "sourceExcerpt": "原頁 2 則五星評價，其中黃**提到從舊 IPS 換到這台後對色彩滿意。",
+            "specificReason": "正面評論與無文字的評分不能計為故障資料，也無法由兩則評分推出所有使用者狀況。",
+            "locator": "PChome 商品評價，2026/11/05 黃**和 2026/10/02 游**",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-15",
+            "reviewBasis": "manual_web_original_page"
+          }
+        ],
+        "reviewerNote": "XG27UCMG 的 PTT、ROG Forum 及 Reddit 原頁只有展會資訊、規格討論、選購偏好或他款經驗，PChome 原頁共二則五星評價，未取得足以計入特定問題的第一人稱故障回報。",
+        "attestation": "manual_original_pages_reviewed",
+        "status": "completed"
+      },
+      "evidence": [],
+      "reports": [],
+      "rejectedCandidates": [
+        {
+          "platform": "PTT",
+          "url": "https://www.ptt.cc/bbs/PC_Shopping/M.1787712832.A.FA3.html",
+          "title": "[情報] ROG Gamescom 2026 新品矚目亮相",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "click2258"
+          ],
+          "sourceExcerpt": "原帖列出 XG27UCMG 和 XG27ACNS 三模電競螢幕，留言在討論發表產品。",
+          "specificReason": "這是展會產品列表與一般留言，沒有作者自述本型號的使用或故障。",
+          "locator": "PC_Shopping 原帖顯示器名單與推文",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-15",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "這是展會產品列表與一般留言，沒有作者自述本型號的使用或故障。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Monitors/comments/1w0837q/asus_at_gamescom_2026_rog_oled_esports_monitors/",
+          "title": "ASUS at Gamescom 2026 – r/Monitors",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "ASUS_MKTLeeM",
+            "InsertCookiesHere"
+          ],
+          "sourceExcerpt": "品牌貼文列三模規格，InsertCookiesHere 表示如果有 Mini LED 背光會更感興趣。",
+          "specificReason": "Mini LED 是選購偏好。留言沒有聲稱持有這款螢幕，其他留言的 OLED 黑位討論也不能計入。",
+          "locator": "r/Monitors 原帖 XG27UCMG 段及 InsertCookiesHere 回覆",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-15",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "Mini LED 是選購偏好。留言沒有聲稱持有這款螢幕，其他留言的 OLED 黑位討論也不能計入。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/ASUS/comments/1w082qh/asus_at_gamescom_2026_rog_oled_esports_monitors/",
+          "title": "ASUS at Gamescom 2026 – r/ASUS",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "ASUS_MKTLeeM"
+          ],
+          "sourceExcerpt": "原帖提供 XG27UCMG 待售時程、產品頁與技術頁。",
+          "specificReason": "同一品牌作者跨貼展會資訊，原頁未見同型號第一人稱故障回報。",
+          "locator": "r/ASUS 原帖 Triple Mode 段及分享區",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-15",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "同一品牌作者跨貼展會資訊，原頁未見同型號第一人稱故障回報。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/ASUSROG/comments/1w082wq/asus_at_gamescom_2026_rog_oled_esports_monitors/",
+          "title": "ASUS at Gamescom 2026 – r/ASUSROG",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "ASUS_MKTLeeM",
+            "TeeDee144",
+            "AccomplishedPoet6088"
+          ],
+          "sourceExcerpt": "同一品牌展會貼文。留言在問中國價格或提到正在使用不同的 PG32UCDM。",
+          "specificReason": "詢價未聲稱購買，PG32UCDM 屬別款。品牌跨貼不能增加獨立使用者。",
+          "locator": "r/ASUSROG 原帖三模規格段和價格、PG32UCDM 回覆",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-15",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "詢價未聲稱購買，PG32UCDM 屬別款。品牌跨貼不能增加獨立使用者。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/RTINGS/comments/1w08y07/asus_at_gamescom_2026_rog_oled_esports_monitors/",
+          "title": "ASUS at Gamescom 2026 – r/RTINGS",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "ASUS_MKTLeeM"
+          ],
+          "sourceExcerpt": "XG27UCMG 三模產品規格列於品牌展會貼文。",
+          "specificReason": "同篇品牌發表轉貼於另一個 subreddit，不是另一網站或獨立使用者回報。",
+          "locator": "r/RTINGS 原帖的 XG27UCMG 三模規格與連結",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-15",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "同篇品牌發表轉貼於另一個 subreddit，不是另一網站或獨立使用者回報。"
+        },
+        {
+          "platform": "ROG Forum",
+          "url": "https://rog-forum.asus.com/t5/news-announcements/rog-forum-newswire-august-30th/ta-p/1159912",
+          "title": "ROG Forum Newswire August 30th",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [],
+          "sourceExcerpt": "品牌新聞稿以 4K 240Hz、QHD 400Hz OC、FHD 488Hz OC 介紹 XG27UCMG。",
+          "specificReason": "頁面屬原廠展會資訊，沒有可比對為購買後故障的個別回報。",
+          "locator": "TRIPLE MODE 段 XG27UCMG 條目",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-15",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "頁面屬原廠展會資訊，沒有可比對為購買後故障的個別回報。"
+        },
+        {
+          "platform": "PChome",
+          "url": "https://24h.pchome.com.tw/prod/DSABKB-A900KGP0K",
+          "title": "PChome ASUS ROG Strix XG27UCMG 評價",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "黃**",
+            "游**"
+          ],
+          "sourceExcerpt": "原頁 2 則五星評價，其中黃**提到從舊 IPS 換到這台後對色彩滿意。",
+          "specificReason": "正面評論與無文字的評分不能計為故障資料，也無法由兩則評分推出所有使用者狀況。",
+          "locator": "PChome 商品評價，2026/11/05 黃**和 2026/10/02 游**",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-15",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "正面評論與無文字的評分不能計為故障資料，也無法由兩則評分推出所有使用者狀況。"
+        }
+      ],
+      "searchChecks": [
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"XG27UCMG\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22XG27UCMG%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22XG27UCMG%22",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidates": [
+            {
+              "url": "https://www.ptt.cc/bbs/PC_Shopping/M.1787712832.A.FA3.html",
+              "title": "[情報] ROG Gamescom 2026 新品矚目亮相"
+            }
+          ],
+          "candidateUrls": [
+            "https://www.ptt.cc/bbs/PC_Shopping/M.1787712832.A.FA3.html"
+          ],
+          "inspectedAt": "2026-11-15"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"XG27UCMG\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22XG27UCMG%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22XG27UCMG%22",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 4,
+          "candidates": [
+            {
+              "url": "https://www.reddit.com/r/Monitors/comments/1w0837q/asus_at_gamescom_2026_rog_oled_esports_monitors/",
+              "title": "ASUS at Gamescom 2026 – r/Monitors"
+            },
+            {
+              "url": "https://www.reddit.com/r/ASUS/comments/1w082qh/asus_at_gamescom_2026_rog_oled_esports_monitors/",
+              "title": "ASUS at Gamescom 2026 – r/ASUS"
+            },
+            {
+              "url": "https://www.reddit.com/r/ASUSROG/comments/1w082wq/asus_at_gamescom_2026_rog_oled_esports_monitors/",
+              "title": "ASUS at Gamescom 2026 – r/ASUSROG"
+            },
+            {
+              "url": "https://www.reddit.com/r/RTINGS/comments/1w08y07/asus_at_gamescom_2026_rog_oled_esports_monitors/",
+              "title": "ASUS at Gamescom 2026 – r/RTINGS"
+            }
+          ],
+          "candidateUrls": [
+            "https://www.reddit.com/r/Monitors/comments/1w0837q/asus_at_gamescom_2026_rog_oled_esports_monitors/",
+            "https://www.reddit.com/r/ASUS/comments/1w082qh/asus_at_gamescom_2026_rog_oled_esports_monitors/",
+            "https://www.reddit.com/r/ASUSROG/comments/1w082wq/asus_at_gamescom_2026_rog_oled_esports_monitors/",
+            "https://www.reddit.com/r/RTINGS/comments/1w08y07/asus_at_gamescom_2026_rog_oled_esports_monitors/"
+          ],
+          "inspectedAt": "2026-11-15"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"XG27UCMG\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22XG27UCMG%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22XG27UCMG%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidates": [],
+          "candidateUrls": [],
+          "inspectedAt": "2026-11-15"
+        }
+      ]
     }
   ]
 }

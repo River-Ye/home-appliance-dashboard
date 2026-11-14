@@ -2360,17 +2360,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 3830,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-08-20",
-      "note": "已查 PChome exact SKU、momo、Coupang、FindPrice、BigGo 與 exact-model 價格搜尋；搜尋摘要中的更低數字缺乏具日期可重現新品原頁，未採為歷史最低價。"
+      "converted": 3830,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DPADWE-A900HHYU2",
+      "sourceTitle": "Lowcast 比價趨勢：PChome NB 27-45吋桌上型氣壓式液晶螢幕架 適用各尺寸螢幕 / G50",
+      "evidenceSnippet": "Lowcast 同刊登 DPADWE-A900HHYU2 逐日價格於 2026-11-14 收在 NT$3,830。同日 PChome 同 SKU 原商品公開價格相同，API Qty 3。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-15",
+      "note": "依同型號台灣新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",

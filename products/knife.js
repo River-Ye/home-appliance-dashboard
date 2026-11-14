@@ -1248,10 +1248,10 @@
     "image": "https://cs-a.ecimg.tw/items/DEES09A900IWZUQ/000001_1749456278.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1439,
-      "converted": 1439,
-      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。",
+      "amount": 1599,
+      "converted": 1599,
+      "confidence": "2026-11-15 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DEES09-A900IWZUQ 原商品主區公開價 NT$1,599，購買按鈕可用，API Qty 4。會員券、點數與卡回饋未計入。",
       "basis": "retailer_current"
     },
     "channel": "tw",

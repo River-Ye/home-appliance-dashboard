@@ -575,17 +575,17 @@
     "category": "dryer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 32000,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Whirlpool 8TWGD5620HW: 蝦皮商城 - Whirlpool 惠而浦旗艦館 Whirlpool惠而浦 8TWGD5620HW 天然氣 瓦斯滾筒乾衣機 16公斤【福利品】 型號/規格不相符；LBJ Whirlpool 8TWGD5620HW: 生活市集 【生活市集】【Whirlpool 惠而浦】8TWGD5620HW 16公斤快烘瓦斯型滾筒乾衣 型號/規格不相符；LBJ Whirlpool 8TWGD5620HW: 博客來 Whirlpool 惠而浦 16公斤 8TWGD5620HW 快烘瓦斯型滾筒乾衣機 含標準安裝 型號/規格不相符。"
+      "converted": 32000,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DPAI1P-A900B8S4H",
+      "sourceTitle": "Lowcast 比價趨勢：PChome Whirlpool 惠而浦 16公斤快烘瓦斯型滾筒乾衣機(桶裝瓦斯) 8TWGD5620HW",
+      "evidenceSnippet": "Lowcast 同刊登 DPAI1P-A900B8S4H 逐日價格於 2026-11-14 收在 NT$32,000。同日 PChome 同 SKU 原商品主區公開價格相同，API Qty 7。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-15",
+      "note": "依同型號台灣新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2817,11 +2817,11 @@
     "topPick": false,
     "price": {
       "currency": "TWD",
-      "amount": 24900,
-      "converted": 24900,
+      "amount": 29900,
+      "converted": 29900,
       "basis": "retailer_current",
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
-      "note": "PChome 原 SKU DPAI3F-A900J14XI 的 Name 與 Nick 和前次人工獨立確認紀錄逐字一致，本次重查 Qty 19、公開價 NT$24900。原選定規格不變。"
+      "confidence": "2026-11-15 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DPAI3F-A900J14XI 原商品主區公開價 NT$29,900，購買按鈕可用，API Qty 19。會員券、點數與卡回饋未計入。"
     },
     "installation": {
       "status": "included_basic",
@@ -2907,6 +2907,109 @@
       "獨立水箱",
       "基本定位"
     ]
+  },
+  {
+    "id": "dryer-lg-wr-10xw",
+    "category": "dryer",
+    "brand": "LG",
+    "model": "WR-10XW",
+    "name": "10公斤雙變頻熱泵免曬衣乾衣機（雲朵白）",
+    "rank": 29,
+    "budget": "premium",
+    "channel": "tw",
+    "price": {
+      "currency": "TWD",
+      "amount": 32111,
+      "converted": 32111,
+      "basis": "retailer_current",
+      "confidence": "PChome 同貨號 DPAI1L-A900KI8KB 原頁主價、可購按鈕與精確 SKU API 核對。",
+      "note": "2026-11-15 PChome 同型雲朵白公開主價 NT$32,111、可加入購物車，API Qty 8；倉庫出貨時程與可配區以通路確認。 不扣信用卡回饋、點數、個人化折價券或贈品價值。"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "PChome 標示指定區域可快速配達安裝，原頁未列本商品標準工項與加價細目。先確認接地插座、排水或水箱方案、堆疊架相容性與樓梯搬運費；加裝插座、延長線路等電工不在通路安裝範圍。"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DPAI1LA900KI8KB/000001_1793689019.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900KI8KB",
+    "buyLabel": "PChome 24h購物",
+    "specs": [
+      "形式：獨立式滾筒熱泵除濕乾衣機，最大乾衣 10 kg",
+      "AI Dry 濕度／重量感測，雙迴轉變頻壓縮機",
+      "雙層棉絮濾網、自動清潔冷凝器與筒槽保養行程",
+      "LG ThinQ Wi-Fi，支援與相容洗衣機配對",
+      "尺寸：寬 60 x 深 66 x 高 85 cm",
+      "開門空間：門開啟 90° 時深 114 cm",
+      "重量：55 kg",
+      "電源：110V／60Hz，免接瓦斯與排風管"
+    ],
+    "description": "LG 10 kg 獨立熱泵乾衣機，可搭配既有洗衣機；雲朵白版本採濕度感測與雙層棉絮濾網。",
+    "pros": [
+      "熱泵除濕乾衣，無須引出排風管",
+      "具冷凝器自動清潔與棉絮濾網",
+      "可搭配相容 LG 洗衣機做行程配對"
+    ],
+    "cons": [
+      "55 kg，搬運與堆疊需先確認",
+      "門打開至 90° 時需要約 114 cm 深度",
+      "仍要定期清理棉絮濾網"
+    ],
+    "bestFor": "有 60 cm 寬機位、想保留既有洗衣機並增加獨立熱泵乾衣的家庭。",
+    "recommendation": "優先確認開門動線與集水或直接排水方式；需要更大乾衣容量可比較 WR-20DW。",
+    "score": 86,
+    "voltage": "110V／60Hz 台灣規格",
+    "warranty": "LG 台灣全機 1 年、主機板 3 年、變頻壓縮機與變頻馬達 10 年（零件範圍依原廠條款）",
+    "tags": [
+      "熱泵",
+      "10kg",
+      "免排風",
+      "ThinQ"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "found",
+      "amount": 32111,
+      "currency": "TWD",
+      "converted": 32111,
+      "sourceUrl": "https://price.shhwa.cc/product/momo/15765404",
+      "sourceTitle": "公開價格追蹤：momo 15765404 雲朵白 WR-10XW",
+      "evidenceSnippet": "同型 momo 15765404 的 14 天歷史記錄顯示 10/23–10/31 NT$35,900，2026-11-01 起 NT$32,111；同頁比對 PChome 同款同期也曾為 NT$32,111。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-15",
+      "note": "採有日期變動的 momo 同型號新品歷史而非本日現價推定。只涵蓋來源的 14 天記錄；同頁排除黑色 WR-10XB 與組合品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-11-15",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"WR-10XW\" site:mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=%22WR-10XW%22%20site%3Amobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "\"WR-10XW\" site:ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=%22WR-10XW%22%20site%3Aptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "\"WR-10XW\" site:dcard.tw",
+          "queryUrl": "https://www.google.com/search?q=%22WR-10XW%22%20site%3Adcard.tw"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "\"WR-10XW\" site:reddit.com",
+          "queryUrl": "https://www.google.com/search?q=%22WR-10XW%22%20site%3Areddit.com"
+        }
+      ]
+    }
   }
 ]);
 })();

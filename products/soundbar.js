@@ -839,17 +839,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 21111,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-10-22",
-      "note": "舊NT$18,905紀錄僅有2026-07-11商品API價與型號，未保存新品條件；2026-10-22原頁明示拆封福利品，故人工撤回無法證成的新品史低，不推定當年必為福利品。原始紀錄保留於史低研究檔；本輪23900元新品現價不作史低。"
+      "converted": 21111,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DMAAOD-A900JCHIM",
+      "sourceTitle": "Lowcast 比價趨勢：PChome LG 樂金 S80TR 5.1.3聲道立體環繞音效 Soundbar 家庭劇院",
+      "evidenceSnippet": "Lowcast 同刊登 DMAAOD-A900JCHIM 逐日價格於 2026-11-14 收在 NT$21,111。同日 PChome 同 SKU 原商品主區公開價格相同，API Qty 3。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-15",
+      "note": "依同型號台灣新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1605,11 +1605,11 @@
     "name": "BRAVIA Theatre Bar 8 聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 27900,
-      "converted": 27900,
-      "confidence": "PChome 2026-11-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 25110,
+      "converted": 25110,
+      "confidence": "2026-11-15 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-05 PChome原SKU API公開價 27900 TWD；先前促銷金額不沿用。未扣個人券、點數或信用卡回饋；實際配送與安裝條件依通路確認。"
+      "note": "PChome DMBM1D-A900HTC64 原商品主區公開價 NT$25,110，購買按鈕可用，API Qty 3。會員券、點數與卡回饋未計入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900HTC64/000001_1781747501.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM1D-A900HTC64",
@@ -3767,17 +3767,17 @@
     ],
     "releaseDate": "2024-09-18",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 19900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-11-04",
-      "note": "重新以2024無編號Bose Smart Soundbar人工核對BigGo、FindPrice、LBJ與PChome；比價頁顯示台灣單機多為19900元，亦混有600/Ultra、遙控器、二手、低音套組及不同賣家／選項，未取得可重現的台灣同款新品歷史日期與價格點。LBJ靜態正文僅有查看歷史價格按鈕，BigGo僅顯示價格持平／現價，未據此推定史低。海外US399促銷為不同市場SKU與服務條件，不直接套用台灣公司貨；未將本次19900現價當史低。"
+      "converted": 19900,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DMAANJ-A900HZBZV",
+      "sourceTitle": "Lowcast 比價趨勢：PChome Bose 家庭娛樂揚聲器 聲霸 Smart Soundbar",
+      "evidenceSnippet": "Lowcast 同刊登 DMAANJ-A900HZBZV 逐日價格於 2026-11-14 收在 NT$19,900。同日 PChome 同 SKU 原商品公開價格相同，API Qty 2。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-15",
+      "note": "依同型號台灣新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",

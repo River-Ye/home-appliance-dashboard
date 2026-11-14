@@ -220,11 +220,11 @@
       "amount": 22406,
       "converted": 22406,
       "confidence": "Yahoo購物中心 2026-07-11 頁面查核價",
-      "note": "Yahoo 原商品主區顯示此賣場已停售；保留先前參考價，供貨待查。"
+      "note": "Yahoo 舊賣場已下架；PChome 同機型原頁開啟正常，API Qty 0 且主區只提供到貨通知。保留先前可購參考價；未以斷貨價或相近型號替代。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ02A900IXED0/000001_1749708993.jpg",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic%E5%9C%8B%E9%9A%9B%E7%89%8C30%E5%85%AC%E5%8D%87%E8%92%B8%E6%B0%A3%E7%83%98%E7%83%A4%E6%B0%B4%E6%B3%A2%E7%88%90%E5%BE%AE%E6%B3%A2%E7%88%90NN-BS807-9823005.html",
-    "buyLabel": "Yahoo購物中心（此賣場已停售）",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ02-A900IXED0",
+    "buyLabel": "PChome 同型商品（到貨通知）",
     "specs": [
       "30L",
       "尺寸：寬 49.4 x 深 47.9 x 高 37 cm",

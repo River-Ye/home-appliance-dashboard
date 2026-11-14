@@ -5935,10 +5935,11 @@
     "name": "27 吋 5K 180Hz／QHD 330Hz 雙模式電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 19888,
-      "converted": 19888,
-      "confidence": "PChome 2026-08-28 exact-model 公開價且可加入購物車",
-      "basis": "retailer_current"
+      "amount": 17888,
+      "converted": 17888,
+      "confidence": "2026-11-15 核對原商品主區及同一商品公開價和供貨條件",
+      "basis": "retailer_current",
+      "note": "PChome DSABKB-A900JO7QP 原商品主區公開價 NT$17,888，購買按鈕可用，API Qty 9。會員券、點數與卡回饋未計入。"
     },
     "image": "https://dlcdnwebimgs.asus.com/gain/8A87687D-B574-4D77-A9E2-D14D960EBE84",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABKB-A900JO7QP",
@@ -6370,17 +6371,17 @@
     ],
     "releaseDate": "2024-12-19",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 36900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-09-08",
-      "note": "已人工查BigGo台灣比價與Kakaku exact型號價格歷史，另查PChome兩個新品頁、MSI台灣商城、LBJ/FindPrice/飛比入口。BigGo的35055/35900屬當下折扣或券資訊，未還原可重現日期低點；Kakaku只確認日本2026/8/13–17為197990日圓，且30日範圍/日本JAN不代表台灣9S6-3FA84T-019全歷史最低，未採。台灣可靠同SKU歷史低點找不到，維持not_found；不以36900現價推定史低，未跨用491CQP144Hz價格。"
+      "converted": 36900,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DSABW5-A900JI0US",
+      "sourceTitle": "Lowcast 比價趨勢：PChome MSI 微星 MPG 491CQPX QD-OLED 49型 曲面電競螢幕",
+      "evidenceSnippet": "Lowcast 同刊登 DSABW5-A900JI0US 逐日價格於 2026-11-14 收在 NT$36,900。同日 PChome 同 SKU 原商品公開價格相同，API Qty 1。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-15",
+      "note": "依同型號台灣新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -7199,6 +7200,108 @@
     "OLED",
     "FPS",
     "抗眩光"
+  ]
+},
+{
+  "id": "monitor-asus-xg27ucmg",
+  "category": "monitor",
+  "brand": "ASUS",
+  "model": "XG27UCMG",
+  "name": "ROG Strix XG27UCMG 27吋 4K 240Hz／QHD 400Hz／FHD 488Hz 三模 Fast IPS 電競螢幕",
+  "rank": 77,
+  "budget": "premium",
+  "channel": "tw",
+  "price": {
+    "currency": "TWD",
+    "amount": 14144,
+    "converted": 14144,
+    "basis": "retailer_current",
+    "confidence": "2026-11-15 核對 Yahoo 自營 12337045 同型原頁，主區顯示 NT$14,144，宅配免運且購買按鈕可用。",
+    "note": "公開單件 95 折至 2026-11-16 07:59:59（台灣），原價 NT$14,888。未扣回饋或個人券。"
+  },
+  "image": "https://img.pchome.com.tw/cs/items/DSABKBA900KGP0K/000001_1790136338.jpg",
+  "buyUrl": "https://tw.buy.yahoo.com/gdsale/ROG-Strix-XG27UCMG-%E9%9B%BB%E7%AB%B6%E8%9E%A2%E5%B9%95-27%E5%90%8B-240Hz-4K-0-3ms-%E5%8F%AF%E6%97%8B%E8%BD%89-%E9%9B%BB%E8%85%A6%E8%9E%A2-12337045.html",
+  "buyLabel": "Yahoo購物中心自營",
+  "installation": {
+    "status": "not_stated",
+    "note": "附原廠可調底座，通路未載到府安裝，壁掛與支架須另行安排。"
+  },
+  "specs": [
+    "27吋 16:9 Fast IPS，三模 4K 240Hz／QHD 400Hz（超頻）／FHD 488Hz（超頻）",
+    "反應時間：1ms GTG、最低 0.3ms，實際隨設定而異",
+    "畫質：VESA DisplayHDR 400、HDR10、DCI-P3 95%、典型對比 1300:1、亮度 400 cd/m²",
+    "同步：AMD FreeSync Premium、G-SYNC 相容，支援 ELMB Sync",
+    "介面：DisplayPort 1.4 DSC、HDMI 2.1 FRL、USB-C DP Alt Mode（15W PD）、2 個 USB 3.2 Gen 2 Type-A、耳機孔",
+    "調整：升降 110mm、俯仰 +20°／-5°、左右旋轉 ±40°、直立旋轉 ±90°、VESA 100 × 100mm",
+    "尺寸：不含底座 61.4 × 36.7 × 8.6 cm，含底座 61.4 × 50.3 × 18.8 cm（寬 × 高 × 深）",
+    "重量：4.3 kg（不含底座），6.5 kg（含底座）",
+    "供電：AC 100–240V／50–60Hz，典型 40W",
+    "配件：DisplayPort 線、電源線、USB Type-B 轉 Type-A 線、快速手冊、ROG 收納袋、貼紙、保固卡"
+  ],
+  "description": "同一片 27 吋 Fast IPS 面板可在 4K 高刷新桌面、QHD 高刷新與 FHD 競技三種模式切換，也可用 KVM 共用兩台主機的周邊。",
+  "pros": [
+    "4K 240Hz、QHD 400Hz 與 FHD 488Hz 可依遊戲切換",
+    "原廠底座可升降與轉直，亦支援 100 × 100mm VESA",
+    "有 USB 集線器與 KVM，適合兩台主機共用"
+  ],
+  "cons": [
+    "QHD 400Hz 與 FHD 488Hz 都需要啟用超頻並確認訊號與顯示卡支援",
+    "USB-C 供電 15W，筆電通常仍需自己的充電器",
+    "HDR 400 和典型對比 1300:1，適合以刷新率和桌面清晰度為主的選擇"
+  ],
+  "bestFor": "想保留 4K 的桌面細緻度，又會在競技遊戲切換到極高刷新的玩家。",
+  "recommendation": "與 XG27UCGR 雙模相比，此款適合會使用 4K 240Hz 或 QHD 400Hz 的人。只需一個高刷競技模式時，也可比較雙模式的價格。",
+  "releaseDate": "找不到",
+  "historicalLow": {
+    "status": "not_found",
+    "amount": null,
+    "currency": "TWD",
+    "converted": null,
+    "sourceUrl": "",
+    "sourceTitle": "",
+    "evidenceSnippet": "",
+    "sourceKind": "not_found",
+    "confidence": "not_found",
+    "checkedAt": "2026-11-15",
+    "note": "LBJ 型號查詢回 429。BigGo 可核對 PChome 與 Yahoo 同型頁，歷史資料請求回 429 並要求登入。未取得可核對日期、原始新品賣場及付款條件的歷史低點，Yahoo NT$14,144 是本輪可購促銷。"
+  },
+  "issueResearch": {
+    "status": "no_common_issue",
+    "checkedAt": "2026-11-15",
+    "summary": "截至查核日，查無達門檻的集中負評／災情",
+    "issues": [],
+    "checkedSources": [
+      {
+        "platform": "PTT",
+        "targetHost": "ptt.cc",
+        "query": "site:ptt.cc \"XG27UCMG\"",
+        "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22XG27UCMG%22"
+      },
+      {
+        "platform": "Reddit",
+        "targetHost": "reddit.com",
+        "query": "site:reddit.com \"XG27UCMG\"",
+        "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22XG27UCMG%22"
+      },
+      {
+        "platform": "Mobile01",
+        "targetHost": "mobile01.com",
+        "query": "site:mobile01.com \"XG27UCMG\"",
+        "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22XG27UCMG%22"
+      }
+    ]
+  },
+  "score": 89,
+  "voltage": "ASUS 台灣同型規格列 AC 100–240V ／ 50–60Hz，支援台灣 110V／60Hz。",
+  "warranty": "PChome 同型台灣公司貨列原廠三年保固，Yahoo 的保固細項視通路及 ASUS 台灣條款。",
+  "tags": [
+    "三模",
+    "Fast IPS",
+    "4K 240Hz",
+    "QHD 400Hz",
+    "FHD 488Hz",
+    "KVM",
+    "台灣公司貨"
   ]
 }
 ]);

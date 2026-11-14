@@ -539,17 +539,17 @@
     "recommendation": "RGB 生態系候選：照度與夾具證據較完整，但沒有自動調光確認與精確保固年限，不能取代台灣綜合首選。",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 4688,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-08-31",
-      "note": "已查exact-model價格搜尋及PriceHistory.app Amazon ASIN B0CTJ1DRKW紀錄；海外美元紀錄與本次台灣新品來源的地區／保固條件不同，未驗證同條件台灣史低。箱損低價排除，現價NT$4,688不推定為史低。"
+      "converted": 4688,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DSBC1T-A900I27TY",
+      "sourceTitle": "Lowcast 比價趨勢：PChome ASUS 華碩 ROG Aura Monitor Light Bar ALB01 螢幕掛燈",
+      "evidenceSnippet": "Lowcast 同刊登 DSBC1T-A900I27TY 逐日價格於 2026-11-14 收在 NT$4,688。同日 PChome 同 SKU 原商品公開價格相同，API Qty 5。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-15",
+      "note": "依同型號台灣新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",

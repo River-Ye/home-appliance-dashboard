@@ -2393,17 +2393,17 @@
     ],
     "releaseDate": "2026",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 30900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-30",
-      "note": "已查 Dyson 官方、PChome exact-model、BigGo、FindPrice、Feebee 與 LBJ；只取得上市後現價／比價快照，沒有可重現的 exact-model 可信新品歷史曲線與明確最低點日期，現價不得推定為史低。Feebee 曾列全國電子 NT$27,900 與一般蝦皮 NT$28,800，但前者缺可重現原頁／最低點日期、後者非可信通路，均不採。"
+      "converted": 30900,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DMAX00-A900K78B0",
+      "sourceTitle": "Lowcast 比價趨勢：PChome Dyson 戴森 V16 Piston Animal SV53-A 強勁雙錐吸塵器 (長達70分鐘續航力/雙錐無纏結吸頭/智慧光學吸頭/寵物家庭)",
+      "evidenceSnippet": "Lowcast 同刊登 DMAX00-A900K78B0 逐日價格於 2026-11-14 收在 NT$30,900。同日 PChome 同 SKU 原商品公開價格相同，API Qty 2。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-15",
+      "note": "依同型號台灣新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",

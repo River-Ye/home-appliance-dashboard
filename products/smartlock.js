@@ -3697,17 +3697,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 17800,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ SHARP Tiko One: 博客來 【限時優惠】SHARP 夏普 把手式電子鎖 Tiko One 指紋/卡片/密碼/鑰匙 原廠公司貨 型號/規格不相符；LBJ SHARP Tiko One: 樂天市場 - 秀翔電器SS3C 秀翔電器SS3C SHARP 夏普 Tiko One 指紋/卡片/密碼/鑰匙 含基本安裝 型號/規格不相符；LBJ SHARP Tiko One: Momo富邦購物 【SHARP 夏普】Tiko One 指紋/卡片/密碼/鑰匙(免費基本安裝/總代理公司貨) 型號/規格不相符。"
+      "converted": 17800,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DQBS4N-A900K0KZV",
+      "sourceTitle": "Lowcast 比價趨勢：PChome SHARP 夏普 Tiko One 指紋/卡片/密碼/鑰匙 電子鎖 原廠公司貨",
+      "evidenceSnippet": "Lowcast 同刊登 DQBS4N-A900K0KZV 逐日價格於 2026-11-14 收在 NT$17,800。同日 PChome 同 SKU 原商品公開價格相同，API Qty 2。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-15",
+      "note": "依同型號台灣新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",

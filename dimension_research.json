@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14",
+  "generatedAt": "2026-11-15",
   "sourcePolicy": "本站共 21 類尺寸、13 類重量研究，尺寸涵蓋 電視、Soundbar、冷氣、洗衣機、烘衣機、洗烘衣機(多功能型)、電子衣櫥（衣物護理機）、床包、棉被、枕頭、冰箱、咖啡機、多功能氣炸烤箱／微波爐、洗碗機、熱水器、免治馬桶、網路交換器、螢幕燈、滑鼠、鍵盤、滑鼠墊。優先採 exact-model／相同版本的官方產品頁、官方規格表或官方 PDF，其次為可信新品通路。只採本體／機身／明確組件的尺寸與淨重，排除包裝、外箱尺寸與毛重；來源沒有明示軸序時不自行推定。既有家電與床包、棉被、枕頭維持 cm／kg，滑鼠、鍵盤與滑鼠墊使用 mm／g 並保留來源軸序。滑鼠墊厚度、床包可包覆高度另列；棉被的填充重量與整件淨重分開記錄。冷氣分列室內機與室外機，熱泵複合熱水器分列主機與儲槽。generatedAt 為最新證據批次日期，既有逐筆 checkedAt 與 weightCheckedAt 保留原查核日期，不表示重新查核。",
   "results": [
     {
@@ -11345,6 +11345,48 @@
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
       "weightCheckedAt": "2026-11-14"
+    },
+    {
+      "id": "dryer-lg-wr-10xw",
+      "category": "dryer",
+      "brand": "LG",
+      "model": "WR-10XW",
+      "name": "10公斤雙變頻熱泵免曬衣乾衣機（雲朵白）",
+      "dimension": "尺寸：寬 60 x 深 66 x 高 85 cm",
+      "sourceUrl": "https://www.lg.com/tw/washer-dryers/dryers/wr-10xw/",
+      "sourceTitle": "LG 台灣 WR-10XW 所有規格",
+      "evidenceSnippet": "原廠產品尺寸標 W×H×D 600×850×660 mm，門開啟 90° 深度 1,140 mm；依明示軸序換算。",
+      "weight": "重量：55 kg",
+      "weightSourceUrl": "https://www.lg.com/tw/washer-dryers/dryers/wr-10xw/",
+      "weightSourceTitle": "LG 台灣 WR-10XW 所有規格",
+      "weightEvidenceSnippet": "原廠尺寸與重量欄為 55.0 kg，非包裝。",
+      "checkedAt": "2026-11-15",
+      "weightCheckedAt": "2026-11-15",
+      "confidence": "high",
+      "weightConfidence": "high",
+      "isOfficialSource": true,
+      "weightIsOfficialSource": true
+    },
+    {
+      "id": "washerdryer-hitachi-bd-sz150kj",
+      "category": "washerdryer",
+      "brand": "HITACHI",
+      "model": "BD-SZ150KJ",
+      "name": "15／8公斤日製熱泵滾筒洗脫烘（曜墨灰左開）",
+      "dimension": "尺寸：含水管 寬 63 x 深 72 x 高 106.5 cm",
+      "sourceUrl": "https://hitachi-homeappliances.com.tw/products/products_feature.php?pid=BDSZ150KJ",
+      "sourceTitle": "HITACHI 台灣 BD-SZ150KJ 規格功能表",
+      "evidenceSnippet": "原廠外觀尺寸（含水管）列 W×D×H 630×720×1065 mm，本體寬另列 600 mm。安裝尺寸另外列示，兩者不混用。",
+      "weight": "重量：約 93 kg",
+      "weightSourceUrl": "https://www.hitachi-homeappliances.com.tw/image/hsct/service/download/manual/User_manual_BD-SZ150KJ.pdf",
+      "weightSourceTitle": "HITACHI 台灣 BD-SZ150KJ／BD-SZ150KJR 使用說明書規格",
+      "weightEvidenceSnippet": "原廠手冊規格表列質量約 93 kg，屬整機且非外箱毛重，也列 110 V 60 Hz。",
+      "checkedAt": "2026-11-15",
+      "weightCheckedAt": "2026-11-15",
+      "confidence": "high",
+      "weightConfidence": "high",
+      "isOfficialSource": true,
+      "weightIsOfficialSource": true
     }
   ]
 }

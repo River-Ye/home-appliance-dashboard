@@ -1116,10 +1116,10 @@
   {
     const product = products.find(({ id }) => id === "comforter-best-tencel-qfav6za9009hy1d");
     Object.assign(product.price, {
-      "amount": 1056,
-      "converted": 1056,
-      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
-      "note": "主標題現為雙人2.5kg，與既有180×210cm/約2.5kg版本相符；API Name殘留3KG未採用。滿1件95折主區已明示1056。"
+      "amount": 1012,
+      "converted": 1012,
+      "confidence": "2026-11-15 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome QFAV6Z-A9009HY1D 原商品主區公開價 NT$1,012，購買按鈕可用，API Qty 20，商品主區活動 11/13 至 11/30。會員券、點數與卡回饋未計入。"
     });
   }
 
@@ -1142,10 +1142,10 @@
   {
     const product = products.find(({ id }) => id === "comforter-tanaka-silk-deatiwa900ayfmu");
     Object.assign(product.price, {
-      "amount": 4428,
-      "converted": 4428,
-      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
-      "note": "Chrome原頁主商品DEATIW-A900AYFMU／100%長纖蠶絲夏被 3台斤 180×210 cm（DEATIW-A900AYFMU）可核對，公開主區售價4428元，購買按鈕可用；不扣個人券、信用卡、點數或贈品。"
+      "amount": 4421,
+      "converted": 4421,
+      "confidence": "2026-11-15 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DEATIW-A900AYFMU 原商品主區公開價 NT$4,421，購買按鈕可用，API Qty 1，商品主區活動 11/13 至 11/30。會員券、點數與卡回饋未計入。"
     });
   }
 
