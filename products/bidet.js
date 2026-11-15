@@ -54,17 +54,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 9111,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ TOTO TCF8342TW S2: 樂天市場 - 洗樂適衛浴 洗樂適衛浴 【TOTO東陶】S2瞬熱型溫水洗淨便座 /電壓110V/噴嘴自潔/溫熱便座/新上市 TCF8342TW 型號/規格不相符；LBJ TOTO TCF8342TW S2: Momo富邦購物 【TOTO】S2 基本款 溫水洗淨便座 TCF8342TW(智慧洗淨/溫熱無縫便座/WASHLET/免治馬桶座) 型號/規格不相符；LBJ TOTO TCF8342TW S2: PCHome購物 TOTO TCF8342TW S2 WASHLET 溫水洗淨便座(智慧洗淨/溫熱無縫便座/免治馬桶座/S2) 型號/規格不相符。"
+      "converted": 9111,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DPAL2N-A900HYYVV",
+      "sourceTitle": "Lowcast 比價趨勢：PChome TOTO TCF8342TW S2 WASHLET 溫水洗淨便座(智慧洗淨/溫熱無縫便座/免治馬桶座/S2)",
+      "evidenceSnippet": "Lowcast 同一刊登 DPAL2N-A900HYYVV 於 2026-11-03 收盤價為 NT$9,111。當日 PChome 同 SKU 公開價格同值，API Qty 20。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-16",
+      "note": "同型號新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1887,8 +1887,8 @@
     "price": {
       "currency": "USD",
       "amount": 479.99,
-      "converted": 15798,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-14 匯率換算",
+      "converted": 15799,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-15 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-01 Brondell美國官方新品CL1700主商品Current Price USD479.99，主商品BCData為instock:true/purchasable:true；未由首頁20%banner推定此SKU另享折扣，排除Open-Box299.99。 海外參考；未含國際運費、進口稅、電壓／插頭與台灣保固風險。"
     },
@@ -1934,7 +1934,7 @@
       "sourceKind": "official_sale",
       "confidence": "medium",
       "checkedAt": "2026-08-28",
-      "note": "採品牌官方公開特價作為本次可重現最低觀測價；同頁 US$299.99 為 Open-Box 開箱品，依規則排除。未含國際運費、進口稅、美規 elongated 尺寸、120V 插座與台灣保固風險；依 2026-11-14 USD/TWD 匯率換算。"
+      "note": "採品牌官方公開特價作為本次可重現最低觀測價；同頁 US$299.99 為 Open-Box 開箱品，依規則排除。未含國際運費、進口稅、美規 elongated 尺寸、120V 插座與台灣保固風險；依 2026-11-15 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "no_common_issue",

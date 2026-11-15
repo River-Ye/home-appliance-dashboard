@@ -105,9 +105,11 @@
     "name": "27 吋 QHD 144Hz IPS 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 3599,
-      "converted": 3599,
-      "confidence": "PChome 2026-10-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 3999,
+      "converted": 3999,
+      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
+      "basis": "retailer_current",
+      "note": "PChome DSABTC-A900K0ABK 原商品主區公開價 NT$3,999，購買按鈕可用，API Qty 2。會員券、點數與卡回饋未計入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABTCA900K0ABK/000001_1781756574.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABTC-A900K0ABK",
@@ -2601,10 +2603,10 @@
     "name": "27 型 4K 160Hz IPS 雙模電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 6911,
-      "converted": 6911,
-      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-13 PChome 原 SKU 公開價 NT$6911，API Qty 8。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。",
+      "amount": 8999,
+      "converted": 8999,
+      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DSABOI-A900K129O 原商品主區公開價 NT$8,999，購買按鈕可用，API Qty 8。會員券、點數與卡回饋未計入。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOIA900K129O/000001_1779250013.jpg",

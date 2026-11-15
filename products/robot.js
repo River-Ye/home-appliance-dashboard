@@ -53,16 +53,16 @@
     "releaseDate": "2025-05-09",
     "historicalLow": {
       "status": "found",
-      "amount": 33111,
+      "amount": 31124,
       "currency": "TWD",
-      "converted": 33111,
+      "converted": 31124,
       "sourceUrl": "https://price.shhwa.cc/product/pchome/DMBL1C-A900IGHHM",
       "sourceTitle": "Lowcast 比價趨勢：PChome Roborock 石頭科技 Saros Z70 全能機械手臂旗艦掃拖王者(機械手臂/零纏繞/22000Pa/7.98超薄/80度高溫洗)",
-      "evidenceSnippet": "Lowcast 同刊登 DMBL1C-A900IGHHM 逐日價格於 2026-11-14 收在 NT$33,111。同日 PChome 同 SKU 原商品公開價格相同，API Qty 20。",
+      "evidenceSnippet": "Lowcast 同一刊登 DMBL1C-A900IGHHM 於 2026-11-01 收盤價為 NT$31,124。當日 PChome 同 SKU 公開價格同值，API Qty 20。",
       "sourceKind": "price_history",
       "confidence": "medium",
-      "checkedAt": "2026-11-15",
-      "note": "依同型號台灣新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
+      "checkedAt": "2026-11-16",
+      "note": "同型號新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -151,16 +151,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 32111,
+      "amount": 30184,
       "currency": "TWD",
-      "converted": 32111,
+      "converted": 30184,
       "sourceUrl": "https://price.shhwa.cc/product/pchome/DMBL1C-A900JNELR",
       "sourceTitle": "Lowcast 比價趨勢：PChome Roborock 石頭科技 Saros 20水立方 跨越奇兵 (100度高溫洗/4.5+4.3公分雙門檻越障/36000Pa)",
-      "evidenceSnippet": "Lowcast 同刊登 DMBL1C-A900JNELR 逐日價格於 2026-11-14 收在 NT$32,111。同日 PChome 同 SKU 原商品公開價格相同，API Qty 20。",
+      "evidenceSnippet": "Lowcast 同一刊登 DMBL1C-A900JNELR 於 2026-11-01 收盤價為 NT$30,184。當日 PChome 同 SKU 公開價格同值，API Qty 13。",
       "sourceKind": "price_history",
       "confidence": "medium",
-      "checkedAt": "2026-11-15",
-      "note": "依同型號台灣新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
+      "checkedAt": "2026-11-16",
+      "note": "同型號新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -436,16 +436,16 @@
     "releaseDate": "2026-02-17",
     "historicalLow": {
       "status": "found",
-      "amount": 24911,
+      "amount": 23416,
       "currency": "TWD",
-      "converted": 24911,
+      "converted": 23416,
       "sourceUrl": "https://price.shhwa.cc/product/pchome/DMBL1C-A900JPHOP",
       "sourceTitle": "Lowcast 比價趨勢：PChome Roborock 石頭科技 Qrevo Edge 2 Pro 白馬王子掃拖機器人(7.98cm超薄機身/25000Pa/100度高溫洗/雙門檻越障3+1cm)",
-      "evidenceSnippet": "Lowcast 同刊登 DMBL1C-A900JPHOP 逐日價格於 2026-11-14 收在 NT$24,911。同日 PChome 同 SKU 原商品公開價格相同，API Qty 20。",
+      "evidenceSnippet": "Lowcast 同一刊登 DMBL1C-A900JPHOP 於 2026-11-01 收盤價為 NT$23,416。當日 PChome 同 SKU 公開價格同值，API Qty 20。",
       "sourceKind": "price_history",
       "confidence": "medium",
-      "checkedAt": "2026-11-15",
-      "note": "依同型號台灣新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
+      "checkedAt": "2026-11-16",
+      "note": "同型號新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1023,17 +1023,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 12999,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Ecovacs DEEBOT N50: Momo富邦購物 【ECOVACS 科沃斯】掃地機器人專用_原廠豪華耗材配件禮盒(DEEBOT T50/N50系列 專用) 型號/規格不相符；LBJ Ecovacs DEEBOT N50: 蝦皮商城 - ECOVACS 科沃斯 官方旗艦店 ECOVACS 科沃斯 DEEBOT T50/N50系列 豪華耗材禮盒 型號/規格不相符；LBJ Ecovacs DEEBOT N50: HOTAI購 【HOTAI購】【ECOVACS 科沃斯】DEEBOT T50/N50系列 豪華耗材禮盒 型號/規格不相符。"
+      "converted": 12999,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DMBL0L-A900J0KF3",
+      "sourceTitle": "Lowcast 比價趨勢：PChome ECOVACS 科沃斯 DEEBOT N50 強清潔全能掃拖機器人(20000Pa/雙恆貼邊/全能基站)",
+      "evidenceSnippet": "Lowcast 同一刊登 DMBL0L-A900J0KF3 於 2026-10-20 收盤價為 NT$12,999。當日 PChome 同 SKU 公開價格同值，API Qty 2。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-16",
+      "note": "同型號新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1121,17 +1121,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 28719,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Dreame X60 Master: Momo富邦購物 【Dreame 追覓科技】X60 Master AI藍光辨識超薄掃拖旗艦機（低矮版）AI藍光髒污檢測/7.95公分超薄機身 型號/規格不相符；LBJ Dreame X60 Master: 蝦皮商城 - Dreame 追覓台灣 【Dreame追覓】X60 Master AI藍光辨識超薄掃拖旗艦機（低矮版）｜台灣公司貨 型號/規格不相符；LBJ Dreame X60 Master: 蝦皮商城 - Dreame 追覓台灣 【Dreame追覓】X60 Master AI藍光辨識超薄掃拖旗艦機（低矮版） Complete｜一年份耗材 台灣公司貨 型號/規格不相符。"
+      "converted": 28719,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DMBL3E-A900JZ3SP",
+      "sourceTitle": "Lowcast 比價趨勢：PChome Dreame 追覓科技 X60 Master AI藍光辨識超薄掃拖旗艦機(低矮版/7.95cm超薄機身/36000Pa超強吸力)",
+      "evidenceSnippet": "Lowcast 同一刊登 DMBL3E-A900JZ3SP 於 2026-11-02 收盤價為 NT$28,719。當日 PChome 同 SKU 公開價格同值，API Qty 9。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-16",
+      "note": "同型號新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1380,8 +1380,8 @@
     "price": {
       "currency": "EUR",
       "amount": 999,
-      "converted": 36294,
-      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-14 匯率換算",
+      "converted": 36295,
+      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-15 匯率換算",
       "note": "2026-11-04 下午覆核：原生Narwal德國URL variant52366680523028選中Schwarz Basisstation及Standardpaket；主價999EUR、劃線1299EUR，In den Warenkorb可用、2–5Tage Lieferzeit。與上午所選缺貨不同，仍未保證台灣寄送。未含國際運費、進口稅、電壓/插頭與台灣保固風險。",
       "basis": "retailer_current"
     },
@@ -1478,8 +1478,8 @@
     "price": {
       "currency": "USD",
       "amount": 551.69,
-      "converted": 18158,
-      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-11-14 匯率換算"
+      "converted": 18159,
+      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-11-15 匯率換算"
     },
     "image": "https://img.gkbcdn.com/p/2025-04-11/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438-0._w315_.jpg",
     "buyUrl": "https://www.geekbuying.com/item/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438.html",
@@ -1573,11 +1573,11 @@
     "name": "全能滾筒旗艦機皇掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 18991,
-      "converted": 18991,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "amount": 24681,
+      "converted": 24681,
+      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome 原商品主區及 SKU DMBL0J-A900JCCJT 公開折扣價 NT$18,991，活動至 2026/11/17 00:00:59（台灣）。API Qty 14，以通路配送、安裝條件為準。"
+      "note": "PChome DMBL0J-A900JCCJT 原商品主區公開價 NT$24,681，購買按鈕可用，API Qty 13。會員券、點數與卡回饋未計入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0JA900JCCJT/000001_1782802020.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0J-A900JCCJT",
@@ -1760,10 +1760,10 @@
     "name": "旋風全能掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 13111,
-      "converted": 13111,
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
-      "note": "PChome 原頁 DMBL0J-A900ITF88 主標同型 Roomba Plus 405 Combo，加入購物車及立即購買按鈕啟用，API Qty 5、公開網路價 NT$13,111，廠商出貨；配送時間依原頁。",
+      "amount": 12999,
+      "converted": 12999,
+      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DMBL0J-A900ITF88 原商品主區公開價 NT$12,999，購買按鈕可用，API Qty 5。會員券、點數與卡回饋未計入。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0JA900ITF88/000001_1782803241.jpg",
@@ -1797,16 +1797,16 @@
     "releaseDate": "2025-03-23",
     "historicalLow": {
       "status": "found",
-      "amount": 13111,
+      "amount": 12111,
       "currency": "TWD",
-      "converted": 13111,
+      "converted": 12111,
       "sourceUrl": "https://price.shhwa.cc/product/pchome/DMBL0J-A900ITF88",
       "sourceTitle": "Lowcast 比價趨勢：PChome iRobot 【美國機器人】Roomba Plus 405 Combo 旋風全能掃拖機器人",
-      "evidenceSnippet": "Lowcast 同刊登 DMBL0J-A900ITF88 逐日價格於 2026-11-14 收在 NT$13,111。同日 PChome 同 SKU 原商品公開價格相同，API Qty 5。",
+      "evidenceSnippet": "Lowcast 同一刊登 DMBL0J-A900ITF88 於 2026-10-23 收盤價為 NT$12,111。當日 PChome 同 SKU 公開價格同值，API Qty 5。",
       "sourceKind": "price_history",
       "confidence": "medium",
-      "checkedAt": "2026-11-15",
-      "note": "依同型號台灣新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
+      "checkedAt": "2026-11-16",
+      "note": "同型號新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2640,8 +2640,8 @@
     "price": {
       "currency": "USD",
       "amount": 549.99,
-      "converted": 18102,
-      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-14 匯率換算",
+      "converted": 18103,
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-15 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-04 Shark美國所選黑色RV2820ZE當日原variationAPI549.99USD，available/readyToOrder均true、inStockDate為2026-11-26，交期待確認；不混白色缺貨SKU，不稱即時現貨。未含國際運費、進口稅、電壓/插頭與台灣保固風險。"
     },
@@ -2838,8 +2838,8 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 13165,
-      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-11-14 匯率換算",
+      "converted": 13166,
+      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-11-15 匯率換算",
       "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。 2026-11-01 原Costco美國QXRevo頁HTTP404，現貨與現價未確認；保留USD399.99舊參考價，含海外運稅、電力與台灣保固風險，不能推定原廠整型停產。"
     },
     "image": "https://cdn.cs.1worldsync.com/syndication/mediaserverredirect/aaaa71b7b115f7d0cbeb119d8fc3ad7b/width%281200%29.jpg",
@@ -3964,18 +3964,19 @@
     "name": "LDS 雷射濕拖掃地機器人（香檳金／無自動集塵）",
     "price": {
       "currency": "TWD",
-      "amount": 6099,
-      "converted": 6099,
+      "amount": 6990,
+      "converted": 6990,
       "basis": "retailer_current",
-      "confidence": "信源電器 3cu 2026-08-31 exact-model 公開售價；原頁 JSON-LD TWD6099／InStock，香檳金變體庫存3件，is_preorder=false、sold_out=false；未扣LINE會員購物金或回饋，實際出貨依通路確認。"
+      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "原信源電器單品連結轉回首頁。遠東百貨 182262 原頁訂購代碼 RV-X20P，公開特惠價 NT$6,990、可下單宅配，未扣卡回饋。"
     },
     "installation": {
       "status": "not_stated",
       "note": "含原廠充電底座與電源供應器；通路未明列到府設定服務。底座置於硬質水平地面，前方保留1.5m、左右各0.5m，使用獨立110V插座，水箱與拖布由使用者手動維護。"
     },
     "image": "https://img.shoplineapp.com/media/image_clips/691575d90fcefd9c855f48f0/original.png?1763014105=&owner_id=660818d6bfec170041bd5ec5",
-    "buyUrl": "https://www.3cu.com.tw/products/rvx20prvx20p",
-    "buyLabel": "信源電器（台灣原廠授權通路）",
+    "buyUrl": "https://aws.feds.com.tw/tw/1/Shop/Detail/182262",
+    "buyLabel": "遠東百貨線上購物",
     "specs": [
       "LDS 雷射導航；HomeDirect App，最多保存5張地圖",
       "最高吸力5,000Pa、4段吸力；電子水量控制，越障最高2cm",
@@ -4601,10 +4602,11 @@
     "name": "Roomba Plus 675 Combo AI高壓噴灑滾筒掃拖機器人（極夜黑）",
     "price": {
       "currency": "TWD",
-      "amount": 18711,
-      "converted": 18711,
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
-      "note": "PChome 原商品頁主價 NT$19,999 與 API 確認值或原頁購買狀態未能完整互證，保留既有參考資料。"
+      "amount": 21831,
+      "converted": 21831,
+      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DMBL0J-A900KKP0O 原商品主區公開價 NT$21,831，購買按鈕可用，API Qty 14。會員券、點數與卡回饋未計入。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0JA900KIEP4/000001_1792650810.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0J-A900KKP0O",
@@ -4694,10 +4696,11 @@
     "name": "Roomba 115 Combo 自動集塵纖薄延邊掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 10999,
-      "converted": 10999,
-      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "PChome 原商品頁主價 NT$10,999 與 API 確認值或原頁購買狀態未能完整互證，保留既有參考資料。"
+      "amount": 10431,
+      "converted": 10431,
+      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DMBL0J-A900KG6A1 原商品主區公開價 NT$10,431，購買按鈕可用，API Qty 20。會員券、點數與卡回饋未計入。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0JA900KG6A1/000001_1792650840.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0J-A900KG6A1",
@@ -5060,6 +5063,108 @@
     "自動拆卸拖布",
     "免費到府設定"
   ]
+},
+{
+  "id": "robot-ecovacs-deebot-mini-2",
+  "category": "robot",
+  "brand": "Ecovacs",
+  "model": "DEEBOT mini 2",
+  "name": "ECOVACS DEEBOT mini 2 迷你掃拖機器人（白色／水箱版）",
+  "rank": 53,
+  "budget": "value",
+  "channel": "tw",
+  "price": {
+    "currency": "TWD",
+    "amount": 9999,
+    "converted": 9999,
+    "basis": "retailer_current",
+    "confidence": "ECOVACS 台灣商城主商品可購 NT$9,999、選定變體 48602180157655 的商品 JSON 為 available。",
+    "note": "2026-11-16 查核主商品公開在售價 NT$9,999。同期雙 11 活動至當日 23:59，未扣新人折扣、登錄贈品或點數。"
+  },
+  "installation": {
+    "status": "not_stated",
+    "note": "水箱版須自行選位置、補清水及倒污水。預留基站上方開蓋及前方回充空間；商城未標含到府安裝。"
+  },
+  "image": "https://storetw.ecovacs.com/cdn/shop/files/mini-2__-01.jpg?v=1778671102&width=640",
+  "buyUrl": "https://storetw.ecovacs.com/zh-tw/products/deebot-mini-2?variant=48602180157655",
+  "buyLabel": "ECOVACS 台灣官方商城",
+  "specs": [
+    "型式：台灣白色 DEEBOT mini 2 主機 DJX28＋水箱版全能基站 CH2536",
+    "原廠標示最高 10,000Pa，搭配 ZeroTangle 4.0 與 OZMO TURBO 2.0 雙旋拖布",
+    "TrueMapping 2.0 導航、TrueDetect 3D 避障、6 mm 拖布抬升與 ECOVACS HOME App",
+    "全能基站支援自動集塵、拖布清洗、最高 63°C 熱風烘乾及 18 色氣氛燈",
+    "機身直徑 28.6 cm、高 9.5 cm；基站占地約 0.13 m²（台灣原廠估值）",
+    "基站輸入 110V／50–60Hz，主機額定輸入 20V／1A"
+  ],
+  "description": "mini 2 保留迷你圓形機身，台灣版加入 10,000Pa、防纏主邊刷與含自動集塵、洗拖布、烘乾的基站，適合桌椅與家具間距緊密的空間。",
+  "pros": [
+    "28.6 cm 直徑適合通過較窄的桌椅間距",
+    "基站同時提供集塵及洗烘拖布",
+    "台灣原廠手冊核實 110V 基站和主機型號"
+  ],
+  "cons": [
+    "水箱仍需手動補水、倒污水並清潔",
+    "6 mm 拖布抬升對較厚地毯空間有限",
+    "購前需量家具底部及門檻高度"
+  ],
+  "bestFor": "想用萬元左右比較具自動集塵、洗烘拖布的窄機身掃拖機器人的小宅或家具密集家庭。",
+  "recommendation": "優先量桌椅腳間距與擺放基站的空間。若家中厚地毯多或門檻較高，應對照其他機型的拖布抬升與越障條件。",
+  "score": 83,
+  "voltage": "台灣 CH2536 基站 110V／50–60Hz，DJX28 主機 20V／1A（台灣手冊產品參數）",
+  "warranty": "PChome 台灣同型規格保固 1 年，ECOVACS 台灣原廠條款提供保固期台灣本島免費收送，活動延長保固依購買資格。",
+  "tags": [
+    "台灣公司貨",
+    "小宅",
+    "水箱基站",
+    "雙旋拖布",
+    "自動集塵"
+  ],
+  "releaseDate": "找不到",
+  "historicalLow": {
+    "status": "not_found",
+    "amount": null,
+    "currency": "TWD",
+    "converted": null,
+    "sourceUrl": "",
+    "sourceTitle": "",
+    "evidenceSnippet": "",
+    "sourceKind": "not_found",
+    "confidence": "not_found",
+    "checkedAt": "2026-11-16",
+    "note": "Lowcast 的 PChome 同刊登 DMBL0L-A900K0EOR 曲線顯示 11/12 NT$7,910；Siftily 同刊登快照標示已售完，當時無法驗證可購及單件公開優惠條件。品牌商城與 PChome 的已核對現價 NT$9,999 不代作史低。"
+  },
+  "issueResearch": {
+    "status": "no_common_issue",
+    "checkedAt": "2026-11-16",
+    "summary": "截至查核日，查無達門檻的集中負評／災情",
+    "issues": [],
+    "checkedSources": [
+      {
+        "platform": "Mobile01",
+        "targetHost": "mobile01.com",
+        "query": "site:mobile01.com \"DEEBOT mini 2\"",
+        "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22DEEBOT%20mini%202%22"
+      },
+      {
+        "platform": "PTT",
+        "targetHost": "ptt.cc",
+        "query": "site:ptt.cc \"DEEBOT mini 2\"",
+        "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22DEEBOT%20mini%202%22"
+      },
+      {
+        "platform": "Dcard",
+        "targetHost": "dcard.tw",
+        "query": "site:dcard.tw \"DEEBOT mini 2\"",
+        "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22DEEBOT%20mini%202%22"
+      },
+      {
+        "platform": "Reddit",
+        "targetHost": "reddit.com",
+        "query": "site:reddit.com \"DEEBOT mini 2\"",
+        "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22DEEBOT%20mini%202%22"
+      }
+    ]
+  }
 }
 ]);
 })();

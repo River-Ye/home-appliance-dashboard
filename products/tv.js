@@ -4256,16 +4256,16 @@
     "releaseDate": "2026-05-13",
     "historicalLow": {
       "status": "found",
-      "amount": 164990,
+      "amount": 148491,
       "currency": "TWD",
-      "converted": 164990,
+      "converted": 148491,
       "sourceUrl": "https://price.shhwa.cc/product/pchome/DPADT3-A900K7NOX",
       "sourceTitle": "Lowcast 比價趨勢：PChome TCL 官方旗艦館 75吋 X11L 頂級 SQD-Mini LED 量子智能連網液晶顯示器(75X11L)",
-      "evidenceSnippet": "Lowcast 同刊登 DPADT3-A900K7NOX 逐日價格於 2026-11-14 收在 NT$164,990。同日 PChome 同 SKU 原商品公開價格相同，API Qty 10。",
+      "evidenceSnippet": "Lowcast 同一刊登 DPADT3-A900K7NOX 於 2026-11-01 收盤價為 NT$148,491。當日 PChome 同 SKU 公開價格同值，API Qty 3。",
       "sourceKind": "price_history",
       "confidence": "medium",
-      "checkedAt": "2026-11-15",
-      "note": "依同型號台灣新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
+      "checkedAt": "2026-11-16",
+      "note": "同型號新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "score": 90,
     "voltage": "AC100–240V、50/60Hz、4.8A；480W；相容台灣110V/60Hz",

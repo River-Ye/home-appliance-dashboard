@@ -119,11 +119,11 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/2E9A754FA4-SP-22052141.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 18811,
-      "converted": 18811,
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "amount": 19900,
+      "converted": 19900,
+      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "原 Yahoo 同款頁目前售完。PChome 原頁與 API 同為 WT-TD16HW 雲朵白，Qty 7、公開網路價 NT$18,811、加入購物車和立即購買可用。商品主區明示贈拆箱定位。六都快速安裝有區域與截單時間限制。"
+      "note": "PChome DPAI1L-A900JI135 原商品主區公開價 NT$19,900，購買按鈕可用，API Qty 7。會員券、點數與卡回饋未計入。"
     },
     "channel": "tw",
     "buyLabel": "PChome 24h 購物",
@@ -229,11 +229,11 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/7A7EBA14D6-SP-22052251.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 20064,
-      "converted": 20064,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "amount": 20900,
+      "converted": 20900,
+      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品主區可下單，公開折後價 NT$20,064，活動到 2026-11-16 07:00:59（台灣）。金額未扣會員券、點數及信用卡回饋。"
+      "note": "Yahoo 原商品主區可下單，公開價 NT$20,900。未扣會員券、點數與信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",

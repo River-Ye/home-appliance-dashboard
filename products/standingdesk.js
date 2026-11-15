@@ -816,10 +816,10 @@
     "name": "電動升降桌 UP006 1460WH/WH",
     "price": {
       "currency": "TWD",
-      "amount": 8541,
-      "converted": 8541,
-      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。",
+      "amount": 9490,
+      "converted": 9490,
+      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DQCI0A-A900K15T1 原商品主區公開價 NT$9,490，購買按鈕可用，API Qty 4。會員券、點數與卡回饋未計入。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DQCI0AA900K15T1/000001_1779269416.jpg",
@@ -1054,17 +1054,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 12990,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ COUGAR E-Ares 120 RGB: 光華商場3C專賣店 【光華商場3C專賣店】COUGAR 美洲獅 E-Ares 120 RGB 120x60cm 電動升降電競桌 型號/規格不相符；LBJ COUGAR E-Ares 120 RGB: 原價屋 【原價屋】Cougar E-Ares 120 電競桌-電動升降/四組高度記憶/安全防護設計/承載80公斤/Rgb 非採用通路或含排除條件；LBJ COUGAR E-Ares 120 RGB: PCHome購物 COUGAR 美洲獅 E-Ares 120 RGB 電動升降桌 電競桌 電腦桌 型號/規格不相符。"
+      "converted": 12990,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DCBB6O-A900KKHI5",
+      "sourceTitle": "Lowcast 比價趨勢：PChome COUGAR 美洲獅 E-Ares 120 RGB 電動升降桌 電競桌 電腦桌",
+      "evidenceSnippet": "Lowcast 同一刊登 DCBB6O-A900KKHI5 於 2026-11-15 收盤價為 NT$12,990。當日 PChome 同 SKU 公開價格同值，API Qty 3。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-16",
+      "note": "同型號新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",

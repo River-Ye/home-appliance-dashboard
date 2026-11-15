@@ -1581,11 +1581,11 @@
     "name": "桌上型洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 8910,
-      "converted": 8910,
-      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
+      "amount": 11000,
+      "converted": 11000,
+      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-04 晚間原生Chrome覆核：KDW-156W主商品公開顯示NT$8910，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。"
+      "note": "PChome DMBR0P-A900JBV02 原商品主區公開價 NT$11,000，購買按鈕可用，API Qty 13。會員券、點數與卡回饋未計入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR0PA900JBV02/000001_1762938951.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR0P-A900JBV02",
@@ -3269,16 +3269,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 80550,
+      "amount": 73900,
       "currency": "TWD",
-      "converted": 80550,
+      "converted": 73900,
       "sourceUrl": "https://price.shhwa.cc/product/pchome/DMBR13-A900KIVV7",
       "sourceTitle": "Lowcast 比價趨勢：PChome BOSCH 博世 14人份 獨立式沸石洗碗機(SMS8ZCI02X)",
-      "evidenceSnippet": "Lowcast 同刊登 DMBR13-A900KIVV7 逐日價格於 2026-11-14 收在 NT$80,550。同日 PChome 同 SKU 原商品主區公開價格相同，API Qty 10。",
+      "evidenceSnippet": "Lowcast 同一刊登 DMBR13-A900KIVV7 於 2026-11-13 收盤價為 NT$73,900。當日 PChome 同 SKU 公開價格同值，API Qty 10。",
       "sourceKind": "price_history",
       "confidence": "medium",
-      "checkedAt": "2026-11-15",
-      "note": "依同型號台灣新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
+      "checkedAt": "2026-11-16",
+      "note": "同型號新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -3373,17 +3373,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 39900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-10-23",
-      "note": "已人工查PChome exact新品公開價、台灣官方現售頁及FindPrice／飛比完整型號價格搜尋。比價頁只有現價索引且擷取日期有差異，未取得可確認的同型號可信新品歷史最低價時間點；不以今日現價推定史低。"
+      "converted": 39900,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DMBH1Q-A900I2KMQ",
+      "sourceTitle": "Lowcast 比價趨勢：PChome Electrolux 伊萊克斯 極淨呵護 500系列 獨立式洗碗機(60公分/15人份)-自動開門 (EFF5581SXA )",
+      "evidenceSnippet": "Lowcast 同一刊登 DMBH1Q-A900I2KMQ 於 2026-11-13 收盤價為 NT$39,900。當日 PChome 同 SKU 公開價格同值，API Qty 20。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-16",
+      "note": "同型號新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -3671,16 +3671,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 28704,
+      "amount": 25200,
       "currency": "TWD",
-      "converted": 28704,
+      "converted": 25200,
       "sourceUrl": "https://price.shhwa.cc/product/pchome/DMBR25-A900IUN3O",
       "sourceTitle": "Lowcast 比價趨勢：PChome Haier 海爾 16人份 變頻獨嵌兩用洗碗機H600(HDWE16-46SC6SA 不含安裝)",
-      "evidenceSnippet": "Lowcast 同刊登 DMBR25-A900IUN3O 逐日價格於 2026-11-14 收在 NT$28,704。同日 PChome 同 SKU 原商品公開價格相同，API Qty 2。",
+      "evidenceSnippet": "Lowcast 同一刊登 DMBR25-A900IUN3O 於 2026-10-29 收盤價為 NT$25,200。當日 PChome 同 SKU 公開價格同值，API Qty 2。",
       "sourceKind": "price_history",
       "confidence": "medium",
-      "checkedAt": "2026-11-15",
-      "note": "依同型號台灣新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
+      "checkedAt": "2026-11-16",
+      "note": "同型號新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -3857,16 +3857,16 @@
   "releaseDate": "2026",
   "historicalLow": {
     "status": "found",
-    "amount": 21807,
+    "amount": 21474,
     "currency": "TWD",
-    "converted": 21807,
+    "converted": 21474,
     "sourceUrl": "https://price.shhwa.cc/product/pchome/DMBR24-A900KN2DX",
     "sourceTitle": "Lowcast 比價趨勢：PChome Panasonic 國際牌 6人份桌上型洗碗機【NP-TMB1K5-1H】",
-    "evidenceSnippet": "Lowcast 同刊登 DMBR24-A900KN2DX 逐日價格於 2026-11-14 收在 NT$21,807。同日 PChome 同 SKU 原商品公開價格相同，API Qty 1。",
+    "evidenceSnippet": "Lowcast 同一刊登 DMBR24-A900KN2DX 於 2026-11-05 收盤價為 NT$21,474。當日 PChome 同 SKU 公開價格同值，API Qty 2。",
     "sourceKind": "price_history",
     "confidence": "medium",
-    "checkedAt": "2026-11-15",
-    "note": "依同型號台灣新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
+    "checkedAt": "2026-11-16",
+    "note": "同型號新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
   },
   "issueResearch": {
     "status": "no_common_issue",

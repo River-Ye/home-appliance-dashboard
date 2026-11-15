@@ -309,10 +309,10 @@
     "name": "19.6 公升 PuriCare 雙變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 18832,
-      "converted": 18832,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
-      "note": "Yahoo 原商品主區可下單，公開折後價 NT$18,832，活動到 2026-11-16 06:59:59（台灣）。金額未扣會員券、點數及信用卡回饋。",
+      "amount": 20924,
+      "converted": 20924,
+      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "Yahoo 原商品主區可下單，公開價 NT$20,924。未扣會員券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4OA900JX7GH/000001_1783563034.jpg",
@@ -504,10 +504,10 @@
     "name": "16 公升變頻高效型除濕機磁石黑",
     "price": {
       "currency": "TWD",
-      "amount": 16378,
-      "converted": 16378,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
-      "note": "Yahoo 原商品主區可下單，公開折後價 NT$16,378，活動到 2026-11-16 06:59:59（台灣）。金額未扣會員券、點數及信用卡回饋。",
+      "amount": 17240,
+      "converted": 17240,
+      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "Yahoo 原商品主區可下單，公開價 NT$17,240。未扣會員券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4YA900IKOCC/000001_1744795213.jpg",
@@ -602,10 +602,10 @@
     "name": "16 公升變頻高效型清淨除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 20302,
-      "converted": 20302,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
-      "note": "Yahoo 原商品主區可下單，公開折後價 NT$20,302，活動到 2026-11-16 06:59:59（台灣）。金額未扣會員券、點數及信用卡回饋。",
+      "amount": 21370,
+      "converted": 21370,
+      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "Yahoo 原商品主區可下單，公開價 NT$21,370。未扣會員券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900GTPHC/000001_1699597155.jpg",
@@ -700,10 +700,10 @@
     "name": "8 公升清淨除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 11828,
-      "converted": 11828,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
-      "note": "Yahoo 原商品主區可下單，公開折後價 NT$11,828，活動到 2026-11-16 06:59:59（台灣）。金額未扣會員券、點數及信用卡回饋。",
+      "amount": 12450,
+      "converted": 12450,
+      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "Yahoo 原商品主區可下單，公開價 NT$12,450。未扣會員券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU0FA900B1HPU/000001_1782813379.jpg",
@@ -798,11 +798,11 @@
     "name": "9 公升除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 8615,
-      "converted": 8615,
-      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 9790,
+      "converted": 9790,
+      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-13 PChome 原 SKU 公開價 NT$8615，API Qty 20。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。"
+      "note": "PChome DMBQ00-A900JB38A 原商品主區公開價 NT$9,790，購買按鈕可用，API Qty 20。會員券、點數與卡回饋未計入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ00A900JB38A/000001_1776329911.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ00-A900JB38A",
@@ -932,17 +932,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 13110,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ LG MD161QPK3: Momo富邦購物 【Have Green Days 綠綠好日】6片組_適用 LG 除濕機 MD161QBK3 MD161QPK3 MD171QPK3 HEPA抗菌濾網*6(濾芯) 最低價 NT$443 低於現價合理比例，疑似月付/配件/錯類；LBJ LG MD161QPK3: Momo富邦購物 【綠綠好日】6片組_適用 LG 除濕機 MD161QBK3 MD161QPK3 MD171QPK3 HEPA抗菌濾網(濾芯) 最低價 NT$502 低於現價合理比例，疑似月付/配件/錯類；LBJ LG MD161QPK3: Momo富邦購物 (店+)【Mitewithmom 著媽】適用 LG 樂金 除濕機 MD161QBK3 MD161QPK3 MD181QWE0 外掛框 濾網 空氣清淨 蟎著媽 最低價 NT$580 低於現價合理比例，疑似月付/配件/錯類。"
+      "converted": 13110,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DMBQ07-A900HQ3L5",
+      "sourceTitle": "Lowcast 比價趨勢：PChome LG 樂金 PuriCare WiFi變頻除濕機-粉紅/16公升(MD161QPK3)",
+      "evidenceSnippet": "Lowcast 同一刊登 DMBQ07-A900HQ3L5 於 2026-11-04 收盤價為 NT$13,110。當日 PChome 同 SKU 公開價格同值，API Qty 20。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-16",
+      "note": "同型號新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1188,11 +1188,11 @@
     "name": "18 公升一級能效 PuriCare 雙變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 17005,
-      "converted": 17005,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "amount": 17900,
+      "converted": 17900,
+      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品主區可下單，公開折後價 NT$17,005，活動到 2026-11-16 06:59:59（台灣）。金額未扣會員券、點數及信用卡回饋。"
+      "note": "Yahoo 原商品主區可下單，公開價 NT$17,900。未扣會員券、點數與信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4NA900JCHFZ/000001_1783342859.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-PuriCare-18%E5%85%AC%E5%8D%87%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9F-%E7%99%BD%E8%89%B2-DD181MWE0-11971018.html",
@@ -2730,16 +2730,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 19900,
+      "amount": 18900,
       "currency": "TWD",
-      "converted": 19900,
+      "converted": 18900,
       "sourceUrl": "https://price.shhwa.cc/product/pchome/DMBQ08-A900KFFAP",
       "sourceTitle": "Lowcast 比價趨勢：PChome SHARP 夏普 19公升 乾淨方PRO+ 雙氣流AIoT變頻美學除濕機-奶茶色(DW-UX19HT-C)",
-      "evidenceSnippet": "Lowcast 同刊登 DMBQ08-A900KFFAP 逐日價格於 2026-11-14 收在 NT$19,900。同日 PChome 同 SKU 原商品公開價格相同，API Qty 20。",
+      "evidenceSnippet": "Lowcast 同一刊登 DMBQ08-A900KFFAP 於 2026-10-24 收盤價為 NT$18,900。當日 PChome 同 SKU 公開價格同值，API Qty 20。",
       "sourceKind": "price_history",
       "confidence": "medium",
-      "checkedAt": "2026-11-15",
-      "note": "依同型號台灣新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
+      "checkedAt": "2026-11-16",
+      "note": "同型號新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "score": 87,
     "voltage": "台灣官方110V／60Hz；插電落地除濕機，連續排水需外接管，不使用海外電壓規格。",

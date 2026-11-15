@@ -408,10 +408,10 @@
     "name": "T05 PLUS 人體工學辦公椅",
     "price": {
       "currency": "TWD",
-      "amount": 11800,
-      "converted": 11800,
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
-      "note": "PChome 新商品編號 DEBH2S-A900AWIZ2 原頁明示「irocks T05 Plus 人體工學 辦公椅」，折扣價 11800元，可加入購物車，API 庫存 20。金額未扣會員券、點數或信用卡回饋。 PChome 新商品編號 DEBH2S-A900AWIZ2 原頁明示「irocks T05 Plus 人體工學 辦公椅」，折扣價 11800元，可加入購物車，API 庫存 20。金額未扣會員券、點數或信用卡回饋。原頁公開滿 NT$10,000 折 NT$1,111（PR26111200144761），單件網路價 NT$12,911 符合，折後 NT$11,800，截至 2026-11-15 23:59:59（台灣）。",
+      "amount": 12911,
+      "converted": 12911,
+      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DEBH2S-A900AWIZ2 原商品主區公開價 NT$12,911，購買按鈕可用，API Qty 20。會員券、點數與卡回饋未計入。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/QABD80A900AS2SD/000001_1773039881.jpg",
@@ -641,17 +641,17 @@
     ],
     "releaseDate": "2023-09-21",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 11691,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Razer Fujin: Momo富邦購物 (店+)【Razer 雷蛇】Razer 雷蛇 Fujin/Fujin Pro 風靈 人體工學電競椅 透氣網布 3D軟墊扶手 電競椅 電腦椅 辦公椅 型號/規格不相符；LBJ Razer Fujin: Momo富邦購物 (店+)【Razer 雷蛇】Razer 雷蛇 Fujin/Fujin Pro 風靈 人體工學電競椅 3D軟墊扶手 透氣網布 辦公椅 電腦椅 電競椅 型號/規格不相符；LBJ Razer Fujin: 蝦皮商城 - PCHOT 線上電競 | 3C旗艦店 Razer 雷蛇 Fujin Headrest 風靈頭枕 透氣立體支撐 人體工學 頭枕 透氣網布 3D曲線設計 型號/規格不相符。"
+      "converted": 11691,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DCBT0K-A900GSDTK",
+      "sourceTitle": "Lowcast 比價趨勢：PChome RAZER 雷蛇 Fujin 風靈網狀人體工學電競椅",
+      "evidenceSnippet": "Lowcast 同一刊登 DCBT0K-A900GSDTK 於 2026-10-28 收盤價為 NT$11,691。當日 PChome 同 SKU 公開價格同值，API Qty 3。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-16",
+      "note": "同型號新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -830,17 +830,17 @@
     ],
     "releaseDate": "2021-10-21",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 13410,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Razer Enki: Momo富邦購物 【Razer 雷蛇】Enki X人體工學設計電競椅/電腦椅/(黑/綠/RZ38-R3U1) 最低價 NT$6,430 低於現價合理比例，疑似月付/配件/錯類；LBJ Razer Enki: 蝦皮商城 - 雷蛇 PRO-X 電競專門店｜授權經銷 雷蛇Razer Enki X 電競椅【需自行組裝、超大型商品僅提供本島配送】 非採用通路或含排除條件；LBJ Razer Enki: 順發線上購物 【順發線上購物】Razer Enki 電競椅4D扶手(粉色)(免費宅配不含組裝) 非採用通路或含排除條件。"
+      "converted": 13410,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DCAKFO-A900BWWGS",
+      "sourceTitle": "Lowcast 比價趨勢：PChome RAZER 雷蛇 Enki 電競椅(黑) RZ38-03720300-R3U1",
+      "evidenceSnippet": "Lowcast 同一刊登 DCAKFO-A900BWWGS 於 2026-10-28 收盤價為 NT$13,410。當日 PChome 同 SKU 公開價格同值，API Qty 10。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-16",
+      "note": "同型號新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "common_issue",
@@ -1277,11 +1277,11 @@
     "name": "OC2 SEAT SET 坐躺兩用電腦椅",
     "price": {
       "currency": "TWD",
-      "amount": 3324,
-      "converted": 3324,
-      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 3499,
+      "converted": 3499,
+      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-13 PChome 原 SKU 公開價 NT$3324，API Qty 7。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。"
+      "note": "PChome DEBHA6-A9007ZPEF 原商品主區公開價 NT$3,499，購買按鈕可用，API Qty 7。會員券、點數與卡回饋未計入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DEBHA6A9007ZPEF/000001_1768553712.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEBHA6-A9007ZPEF",
@@ -2946,6 +2946,111 @@
         }
       ]
     }
+  },
+  {
+    "id": "chair-razer-iskur-v2-x-newgen",
+    "category": "chair",
+    "brand": "Razer",
+    "model": "Iskur V2 X NewGen",
+    "name": "Iskur V2 X NewGen 電競椅（黑綠 RZ38-05310700-R3CA）",
+    "rank": 32,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "price": {
+      "currency": "TWD",
+      "amount": 11990,
+      "converted": 11990,
+      "basis": "retailer_current",
+      "confidence": "PChome DQBJ6Z-A900K1MUE 原頁主標黑綠、主價 NT$11,990、API Qty 1；PC PARTY 獨立標示黑綠完整料號。",
+      "note": "台灣黑綠新品，廠商出貨。單一通路庫存與配送日期按下單頁再次確認。沒有扣除贈品、個人折扣或信用卡回饋。"
+    },
+    "installation": {
+      "status": "excluded",
+      "note": "同型台灣通路說明需自行組裝，PChome 本商品區為廠商配送。下單前確認樓梯運送與組裝服務是否另購。"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DQBJ6ZA900K1MUE/000001_1793240583.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ6Z-A900K1MUE",
+    "buyLabel": "PChome 24h購物",
+    "specs": [
+      "類型：完整電競椅，黑綠 RZ38-05310700-R3CA，Iskur V2 X NewGen",
+      "椅面：第二代 EPU 皮革，CoolTouch 表面，高密度冷固化泡棉坐墊",
+      "腰靠：固定內置支撐，2D 扶手，坐背最多後仰 152°，沒有獨立頭枕",
+      "承重：最多 136 kg。台灣原廠 FAQ 建議身高 160–200 cm，海外支援表列 160–190 cm，接近上限建議先試坐",
+      "尺寸：台灣 PChome 主商品規格圖底座寬／深各約 70 cm、整椅高 126–136 cm，坐高 41–51 cm，椅背寬 54 × 高 85 cm；PC PARTY 同料號文字整體高度另列 130–140 cm，低桌面宜量實物確認",
+      "重量：PC PARTY 同料號規格列成品約 27.6 kg",
+      "保固：台灣購買頁列 3 年機構零件保固，不含正常磨損"
+    ],
+    "description": "Iskur V2 X NewGen 採內置腰靠及 2D 扶手，黑綠版本具第二代 EPU 皮革和高密度泡棉坐墊。",
+    "pros": [
+      "固定腰部支撐與 152° 椅背角度",
+      "黑綠版同型台灣供貨及三年機構保固可查",
+      "2D 扶手可提供基本桌高配合"
+    ],
+    "cons": [
+      "腰靠為固定形狀，需親身比對腰部落點",
+      "通路總高標法有落差，桌下及搬運空間須先量",
+      "約 27.6 kg 且需自行組裝"
+    ],
+    "bestFor": "能先試坐並核實桌面淨空、需要皮面電競椅及固定腰靠的使用者。",
+    "recommendation": "先量座深、桌下高度與搬運動線。需要腰靠多向調節可另外比較同系列 Iskur V2 NewGen。",
+    "releaseDate": "2026",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-11-16",
+      "note": "FindPrice 與飛比只有通路報價與零售索引，指定 PChome PID 的日期價格追蹤未取得。DCBT0K-A900JNMJP 當天 API 雖列 Low 8,990 元但 Qty 0，未取得可成交同規格歷史事件。促銷、套組、粉晶與無 X 旗艦版均未移用。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-11-16",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"Iskur V2 X NewGen\" site:mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=%22Iskur%20V2%20X%20NewGen%22%20site%3Amobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "\"Iskur V2 X NewGen\" site:ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=%22Iskur%20V2%20X%20NewGen%22%20site%3Aptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "\"Iskur V2 X NewGen\" site:dcard.tw",
+          "queryUrl": "https://www.google.com/search?q=%22Iskur%20V2%20X%20NewGen%22%20site%3Adcard.tw"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "\"Iskur V2 X NewGen\" site:reddit.com",
+          "queryUrl": "https://www.google.com/search?q=%22Iskur%20V2%20X%20NewGen%22%20site%3Areddit.com"
+        }
+      ]
+    },
+    "score": 84,
+    "voltage": "無需供電，座椅以機械方式手動調整",
+    "warranty": "PChome 同型台灣商品頁列 3 年機構零件保固（不含正常磨損）。保留發票並經原購買通路核對送修流程。",
+    "tags": [
+      "電競椅",
+      "內置腰靠",
+      "2D 扶手",
+      "136kg",
+      "自行組裝",
+      "台灣通路"
+    ]
   }
 ]);
 })();

@@ -840,16 +840,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 21111,
+      "amount": 19111,
       "currency": "TWD",
-      "converted": 21111,
+      "converted": 19111,
       "sourceUrl": "https://price.shhwa.cc/product/pchome/DMAAOD-A900JCHIM",
       "sourceTitle": "Lowcast 比價趨勢：PChome LG 樂金 S80TR 5.1.3聲道立體環繞音效 Soundbar 家庭劇院",
-      "evidenceSnippet": "Lowcast 同刊登 DMAAOD-A900JCHIM 逐日價格於 2026-11-14 收在 NT$21,111。同日 PChome 同 SKU 原商品主區公開價格相同，API Qty 3。",
+      "evidenceSnippet": "Lowcast 同一刊登 DMAAOD-A900JCHIM 於 2026-11-13 收盤價為 NT$19,111。當日 PChome 同 SKU 公開價格同值，API Qty 3。",
       "sourceKind": "price_history",
       "confidence": "medium",
-      "checkedAt": "2026-11-15",
-      "note": "依同型號台灣新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
+      "checkedAt": "2026-11-16",
+      "note": "同型號新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2009,8 +2009,8 @@
     "price": {
       "currency": "USD",
       "amount": 1299.99,
-      "converted": 42788,
-      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-11-14 匯率換算"
+      "converted": 42790,
+      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-11-15 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/2C2sn9CKoKFdIyd94Gm9z5/f3019d4e721511167ebe5c229bf490dd/heston-120_plp.jpg",
     "buyUrl": "https://www.marshall.com/us/en/product/heston-120",
@@ -2109,8 +2109,8 @@
     "price": {
       "currency": "USD",
       "amount": 699.99,
-      "converted": 23039,
-      "confidence": "2026-10-24 人工核對 www.marshall.com 同型號與所選版本公開價 USD 699.99，可下單；未扣會員、信用卡或點數。；ExchangeRate-API 2026-11-14 匯率換算",
+      "converted": 23041,
+      "confidence": "2026-10-24 人工核對 www.marshall.com 同型號與所選版本公開價 USD 699.99，可下單；未扣會員、信用卡或點數。；ExchangeRate-API 2026-11-15 匯率換算",
       "basis": "retailer_current"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/3yitHqjPBTgQk5qRE72PSn/2788206646aa153f71f2c0ebefaff580/Heston-60-black_plp_800x800-v3.jpeg",
@@ -2552,14 +2552,14 @@
       "status": "found",
       "amount": 176091,
       "currency": "JPY",
-      "converted": 36270,
+      "converted": 36276,
       "sourceUrl": "https://kakaku.com/item/K0001712395/pricehistory/",
       "sourceTitle": "価格.com：JBL BAR 1300MK2 [ブラック] 価格推移",
       "evidenceSnippet": "価格.com 日別價格歷史顯示 exact-model「JBL BAR 1300MK2 [ブラック]」於 2026-06-17 的新品最低價為 ¥176,091；2025-10 初始價格為 ¥205,306。",
       "sourceKind": "price_history",
       "confidence": "medium",
       "checkedAt": "2026-08-25",
-      "note": "採日本市場 exact-model 公開價格歷史並依 2026-11-14 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
+      "note": "採日本市場 exact-model 公開價格歷史並依 2026-11-15 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -3146,17 +3146,17 @@
     "recommendation": "桌面電競比較候選，非Top Pick：接口與完整2.1.2套裝有特色，但先確認正式韌體、退換貨及電源規格，再以實際訊源測試重低音與HDMI穩定性；追求低維護成本或實體後環繞者宜優先比較其他成熟方案。",
     "releaseDate": "2026-07",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 17900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-08-31",
-      "note": "已查ROG Gjallar官方台灣公告、PChome兩個exact-model新品SKU與飛比/BigGo價格搜尋；現價NT$17,300及其他頁的NT$17,900均未提供可重現的歷史價格曲線。飛比及BigGo原搜尋頁讀取失敗，搜尋摘要僅作發現線索；不把現價、會員券、卡片回饋或二手價格冒充史低。"
+      "converted": 17900,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DCAIAM-A900K9HQX",
+      "sourceTitle": "Lowcast 比價趨勢：PChome ASUS 華碩 ROG Gjallar Soundbar 聲霸音箱系統 重低音喇叭",
+      "evidenceSnippet": "Lowcast 同一刊登 DCAIAM-A900K9HQX 於 2026-11-14 收盤價為 NT$17,900。當日 PChome 同 SKU 公開價格同值，API Qty 20。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-16",
+      "note": "同型號新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "common_issue",
@@ -3629,9 +3629,9 @@
     "price": {
       "currency": "USD",
       "amount": 699,
-      "converted": 23007,
+      "converted": 23008,
       "basis": "retailer_current",
-      "confidence": "2026-10-19 人工核對 Sonos US 官方黑色 BMULTUS1BLK 公開單機 US$699 與 Available now/Add to cart；ExchangeRate-API 2026-11-14 匯率換算，未含國際運費與進口稅。"
+      "confidence": "2026-10-19 人工核對 Sonos US 官方黑色 BMULTUS1BLK 公開單機 US$699 與 Available now/Add to cart；ExchangeRate-API 2026-11-15 匯率換算，未含國際運費與進口稅。"
     },
     "installation": {
       "status": "not_stated",

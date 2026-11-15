@@ -891,17 +891,17 @@
     "category": "waterdispenser",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 16020,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ BRITA mypure GR1000: 蝦皮商城 - 源泉淨水【3M、BRITA、愛惠浦、SAKURA、EVERPOLL 授權經銷商】 【BRITA】mypure GR 4in1濾芯一支【下單領10%蝦幣回饋】【適用GR600/GR1000第一道】 非採用通路或含排除條件；LBJ BRITA mypure GR1000: 蝦皮商城 - winner water淨水生活館 【BRITA】mypure GR 4in1四重過濾濾芯PCF4in1【適用GR600/GR1000】 非採用通路或含排除條件；LBJ BRITA mypure GR1000: Momo富邦購物 (店+)【BRITA】【適用GR600 / GR1000 UVC】德國BRITA mypure GR PCF4in1 四重過濾濾心 非採用通路或含排除條件。"
+      "converted": 16020,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DMCI24-A900K16I2",
+      "sourceTitle": "Lowcast 比價趨勢：PChome BRITA mypure GR1000 RO直輸淨水系統(免費基本到府安裝)",
+      "evidenceSnippet": "Lowcast 同一刊登 DMCI24-A900K16I2 於 2026-10-28 收盤價為 NT$16,020。當日 PChome 同 SKU 公開價格同值，API Qty 7。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-16",
+      "note": "同型號新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1156,10 +1156,10 @@
     "image": "https://cs-a.ecimg.tw/items/DMAWEMA900GDIXH/000001_1774485785.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 20900,
-      "converted": 20900,
-      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-02 PChome UW-2262HW-1主商品20900元、可加車，原25000；本體110V選定版本與原SKU相符，不把舊滿額折優惠延用。",
+      "amount": 18810,
+      "converted": 18810,
+      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DMAWEM-A900GDIXH 原商品主區公開價 NT$18,810，購買按鈕可用，API Qty 20，商品主區活動 11/15 至 11/16。會員券、點數與卡回饋未計入。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -1909,17 +1909,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 33129,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ SAKURA P0531: Momo富邦購物 【SAKURA 櫻花】雙效RO淨水器專用濾心2支入一年份 適用機型P0531/P0235/P0233(F2192) 非採用通路或含排除條件；LBJ SAKURA P0531: Momo富邦購物 (店+)【SAKURA 櫻花】(無安裝)一年份2入組(不含RO膜)適用P0233/P0235/P0531濾心F2192 非採用通路或含排除條件；LBJ SAKURA P0531: Momo富邦購物 (店+)【SAKURA 櫻花】F2192 雙效RO淨水器專用濾心(一年份2支入) 適用P0531、P0532、P0266、P0265 非採用通路或含排除條件。"
+      "converted": 33129,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DMCI0O-A900JI1JA",
+      "sourceTitle": "Lowcast 比價趨勢：PChome SAKURA 櫻花 廚下RO雙溫淨熱飲P0531(贈到府基本安裝)",
+      "evidenceSnippet": "Lowcast 同一刊登 DMCI0O-A900JI1JA 於 2026-10-28 收盤價為 NT$33,129。當日 PChome 同 SKU 公開價格同值，API Qty 2。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-16",
+      "note": "同型號新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2067,10 +2067,10 @@
     "name": "廚下型飲用水加熱器",
     "price": {
       "currency": "TWD",
-      "amount": 21150,
-      "converted": 21150,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
-      "note": "Yahoo 原商品主區可下單，公開折後價 NT$21,150，活動到 2026-11-16 07:00:59（台灣）。金額未扣會員券、點數及信用卡回饋。",
+      "amount": 23500,
+      "converted": 23500,
+      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "Yahoo 原商品主區可下單，公開價 NT$23,500。未扣會員券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWB8A900BVEOG/000001_1760685693.jpg",
@@ -2166,8 +2166,8 @@
     "price": {
       "currency": "USD",
       "amount": 449.99,
-      "converted": 14811,
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。；ExchangeRate-API 2026-11-14 匯率換算",
+      "converted": 14812,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。；ExchangeRate-API 2026-11-15 匯率換算",
       "basis": "retailer_current",
       "note": "Brondell 美國 Circle RC100 原商品公開 USD 449.99，主商品購買狀態可用。海外參考，未含國際運費、進口稅、電壓／插頭及台灣保固風險。"
     },
@@ -2212,7 +2212,7 @@
       "sourceKind": "retailer_promo",
       "confidence": "medium",
       "checkedAt": "2026-08-28",
-      "note": "採 Costco US 公開 exact-model 折價作為本次可重現最低觀測價；未含國際運費、進口稅、耗材與台灣安裝／保固風險；依 2026-11-14 USD/TWD 匯率換算。"
+      "note": "採 Costco US 公開 exact-model 折價作為本次可重現最低觀測價；未含國際運費、進口稅、耗材與台灣安裝／保固風險；依 2026-11-15 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "common_issue",
@@ -2355,10 +2355,10 @@
     "name": "PREMIER 廚下冰溫瞬熱旗艦飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 36800,
-      "converted": 36800,
-      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-02 PChome UR-3902AW-1 110V主商品36800元、可加車，原49800；未以220V版本或舊滿額折優惠代價。",
+      "amount": 33120,
+      "converted": 33120,
+      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DMAWI0-A900ITF3M 原商品主區公開價 NT$33,120，購買按鈕可用，API Qty 20，商品主區活動 11/15 至 11/16。會員券、點數與卡回饋未計入。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWI0A900ITF3M/000001_1781688918.jpg",
@@ -3968,16 +3968,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 37200,
+      "amount": 31992,
       "currency": "TWD",
-      "converted": 37200,
+      "converted": 31992,
       "sourceUrl": "https://price.shhwa.cc/product/pchome/DMAW2C-A900BV90K",
       "sourceTitle": "Lowcast 比價趨勢：PChome Rinnai 林內 冰冷熱加熱器飲水機(全省安裝)【RWP-H300】",
-      "evidenceSnippet": "Lowcast 同刊登 DMAW2C-A900BV90K 逐日價格於 2026-11-14 收在 NT$37,200。同日 PChome 同 SKU 原商品公開價格相同，API Qty 2。",
+      "evidenceSnippet": "Lowcast 同一刊登 DMAW2C-A900BV90K 於 2026-11-01 收盤價為 NT$31,992。當日 PChome 同 SKU 公開價格同值，API Qty 2。",
       "sourceKind": "price_history",
       "confidence": "medium",
-      "checkedAt": "2026-11-15",
-      "note": "依同型號台灣新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
+      "checkedAt": "2026-11-16",
+      "note": "同型號新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -4080,16 +4080,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 42228,
+      "amount": 38005,
       "currency": "TWD",
-      "converted": 42228,
+      "converted": 38005,
       "sourceUrl": "https://price.shhwa.cc/product/pchome/DMAWFH-A900F2DDI",
       "sourceTitle": "Lowcast 比價趨勢：PChome Buder 普德 年原廠保固逆滲透 冷熱煮沸廚下型飲水機(免費標準安裝 BD-3006BF-RO)",
-      "evidenceSnippet": "Lowcast 同刊登 DMAWFH-A900F2DDI 逐日價格於 2026-11-14 收在 NT$42,228。同日 PChome 同 SKU 原商品公開價格相同，API Qty 10。",
+      "evidenceSnippet": "Lowcast 同一刊登 DMAWFH-A900F2DDI 於 2026-11-04 收盤價為 NT$38,005。當日 PChome 同 SKU 公開價格同值，API Qty 10。",
       "sourceKind": "price_history",
       "confidence": "medium",
-      "checkedAt": "2026-11-15",
-      "note": "依同型號台灣新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
+      "checkedAt": "2026-11-16",
+      "note": "同型號新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -4485,16 +4485,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 28100,
+      "amount": 25290,
       "currency": "TWD",
-      "converted": 28100,
+      "converted": 25290,
       "sourceUrl": "https://price.shhwa.cc/product/pchome/DPAL47-A900KCQT6",
       "sourceTitle": "Lowcast 比價趨勢：PChome Rinnai 林內 冷熱觸控式廚下型飲水機 (全省安裝) 【RWP-H201】",
-      "evidenceSnippet": "Lowcast 同刊登 DPAL47-A900KCQT6 逐日價格於 2026-11-14 收在 NT$28,100。同日 PChome 同 SKU 原商品公開價格相同，API Qty 2。",
+      "evidenceSnippet": "Lowcast 同一刊登 DPAL47-A900KCQT6 於 2026-11-04 收盤價為 NT$25,290。當日 PChome 同 SKU 公開價格同值，API Qty 2。",
       "sourceKind": "price_history",
       "confidence": "medium",
-      "checkedAt": "2026-11-15",
-      "note": "依同型號台灣新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
+      "checkedAt": "2026-11-16",
+      "note": "同型號新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",

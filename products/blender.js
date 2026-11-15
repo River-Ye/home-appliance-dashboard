@@ -403,15 +403,15 @@
     "name": "Professional Plus Blender",
     "price": {
       "currency": "USD",
-      "amount": 99.98,
-      "converted": 3291,
-      "confidence": "2026-08-31 人工核對 SharkNinja 官方 BN701 公開可購主價 USD 99.98；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-11-14 匯率換算",
+      "amount": 79.99,
+      "converted": 2633,
+      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件；ExchangeRate-API 2026-11-15 匯率換算",
       "basis": "retailer_current",
-      "note": "2026-11-04 午後人工覆核：原BN701官方購買網址本輪原生仍轉址IQ701SL TotalCrush 2-in-1，標題與主商品Model明示IQ701SL，USD129.99/原169.99屬IQ701SL而非BN701。保留BN701舊99.98美元參考、現售待確認；不由轉址推定原廠停產。海外未含國際運費、進口稅、電壓/插頭與台灣保固風險。"
+      "note": "SharkNinja 舊頁改導 IQ701SL。Abt 原頁同型 BN701（UPC 622356561884）可購，公開售價 US$79.99 已含原廠折讓，頁面標示至 2026-11-21。未含國際運費、進口稅，須確認 120V／插頭、轉運及台灣保固風險。"
     },
     "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/d1c25153baa2aa99eae7831be826d2a51d87c485/Ninja-BN701-Professional-Plus-Blender-with-Auto-iQ.jpg",
-    "buyUrl": "https://www.sharkninja.com/ninja-professional-plus-blender-with-auto-iq/BN701.html",
-    "buyLabel": "海外型號／現售待確認",
+    "buyUrl": "https://www.abt.com/Ninja-Professional-Plus-Blender-with-Auto-iQ-in-Gray-BN701/p/230106.html",
+    "buyLabel": "Abt 美國（海外）",
     "specs": [
       "1400W 級",
       "72oz 容杯",

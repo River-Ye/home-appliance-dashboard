@@ -1508,17 +1508,17 @@
     "recommendation": "硬墊中較低門檻的辦公兼遊戲選項。先確認桌面平整；不要把夜光標誌誤認為可設定燈效。",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 690,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-08-31",
-      "note": "PriceInfo同款價格比較原頁只能還原Hiq24於2024-10-14標價24.90EUR、Datatronic於2024-08-26標價31.90EUR；未呈現可核當時新品賣家及全期最低點。搜尋摘要的15EUR不在實讀原頁，不採；現价690元非史低。"
+      "converted": 690,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DSBC0X-A900BY2DP",
+      "sourceTitle": "Lowcast 比價趨勢：PChome ASUS 華碩 【南紡購物中心】   ROG Strix Slice 電競鼠墊",
+      "evidenceSnippet": "Lowcast 同一刊登 DSBC0X-A900BY2DP 於 2026-10-20 收盤價為 NT$690。當日 PChome 同 SKU 公開價格同值，API Qty 1。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-16",
+      "note": "同型號新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",

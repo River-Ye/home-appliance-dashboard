@@ -1,9 +1,9 @@
 {
   "summary": {
-    "checkedAt": "2026-11-15T00:00:00+08:00",
-    "total": 1269,
+    "checkedAt": "2026-11-16T00:00:00+08:00",
+    "total": 1272,
     "commonIssueProducts": 55,
-    "noCommonIssueProducts": 1214,
+    "noCommonIssueProducts": 1217,
     "pendingManualReview": 0,
     "commonIssues": 56,
     "searchUnavailable": 614,
@@ -45,7 +45,9 @@
       "2026-11-12 新收錄型號逐款核對所列平台的 exact-model 查詢及候選；其餘商品的原查核日期保留。",
       "2026-11-13 新收錄型號逐款核對所列平台的 exact-model 查詢及候選；其餘商品的原查核日期保留。",
       "2026-11-14 新收錄型號逐款核對所列平台的 exact-model 查詢及候選；其餘商品的原查核日期保留。",
-      "2026-11-15 新收錄型號逐款核對所列平台的 exact-model 查詢及候選；其餘商品的原查核日期保留。"
+      "2026-11-15 新收錄型號逐款核對所列平台的 exact-model 查詢及候選；其餘商品的原查核日期保留。",
+      "2026-11-16 新收錄型號逐款核對所列平台的 exact-model 查詢及候選；其餘商品的原查核日期保留。",
+      "2026-11-16 新收錄型號逐款核對所列平台的 exact-model 查詢及候選；其餘商品的原查核日期保留。"
     ],
     "researchedThisRun": 3
   },
@@ -233550,6 +233552,662 @@
           "inspectedAt": "2026-11-15"
         }
       ]
+    },
+    {
+      "id": "robot-ecovacs-deebot-mini-2",
+      "category": "robot",
+      "brand": "Ecovacs",
+      "model": "DEEBOT mini 2",
+      "name": "ECOVACS DEEBOT mini 2 迷你掃拖機器人（白色／水箱版）",
+      "identity": {
+        "canonicalModel": "DEEBOT mini 2",
+        "lookupLabel": "Ecovacs DEEBOT mini 2",
+        "aliases": [
+          "DEEBOT mini 2",
+          "DEEBOT mini2",
+          "DJX28"
+        ],
+        "evidenceUrl": "https://www.ecovacs.com/tw/deebot-robotic-vacuum-cleaner/deebot-mini-2-white"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "id": "robot-ecovacs-deebot-mini-2",
+        "category": "robot",
+        "brand": "Ecovacs",
+        "model": "DEEBOT mini 2",
+        "name": "ECOVACS DEEBOT mini 2 迷你掃拖機器人（白色／水箱版）",
+        "reviewedAt": "2026-11-16",
+        "reviewBatch": "robot",
+        "decision": "no_common_issue",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT",
+          "Dcard",
+          "Reddit",
+          "PChome"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"DEEBOT mini 2\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22DEEBOT%20mini%202%22"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"DEEBOT mini 2\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22DEEBOT%20mini%202%22"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"DEEBOT mini 2\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22DEEBOT%20mini%202%22"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"DEEBOT mini 2\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22DEEBOT%20mini%202%22"
+          }
+        ],
+        "candidateDisposition": "DEEBOT mini 2：核對 Reddit 原始四串與 PChome 原商品評價。僅看到一人換水操作取捨，另有小吸口的體積取捨與個別正面體驗。",
+        "representativeSources": [
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/RobotVacuums/comments/1ut6hhn/got_the_ecovacs_deebot_mini_2/",
+            "title": "Got the Ecovacs DEEBOT MINI 2"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/RobotVacuums/comments/1u3okux/ecovacs_deebot_mini_2/",
+            "title": "Ecovacs deebot mini 2"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/RobotVacuums/comments/1w8b5wa/small_robot_vacuums/",
+            "title": "Small robot vacuums"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/RobotVacuums/comments/1t51hym/can_the_ecovas_deboot_mini_actually_mop/",
+            "title": "Can the ecovas deboot mini actually mop?"
+          },
+          {
+            "platform": "PChome",
+            "url": "https://24h.pchome.com.tw/prod/DMBL0L-A900K0EOR",
+            "title": "PChome 24h DEEBOT mini2 DMBL0L-A900K0EOR 原商品評價"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/RobotVacuums/comments/1ut6hhn/got_the_ecovacs_deebot_mini_2/",
+            "title": "Got the Ecovacs DEEBOT MINI 2",
+            "reviewedAt": "2026-11-16",
+            "outcome": "excluded",
+            "exactModel": true,
+            "independentAuthors": 1,
+            "sourceExcerpt": "Fun_Negotiation6221 表示實際使用時間不長，清潔效果不錯，換水時要一起提兩個水箱。",
+            "specificReason": "一位同名機種使用者提出換水便利性，未能確認市場版且未見獨立重複回報。"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/RobotVacuums/comments/1u3okux/ecovacs_deebot_mini_2/",
+            "title": "Ecovacs deebot mini 2",
+            "reviewedAt": "2026-11-16",
+            "outcome": "excluded",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "sourceExcerpt": "YarnsNYams 想找英文評測並描述椅腳狹窄；回覆談對拖地的期待及歐洲供貨。",
+            "specificReason": "原作者仍在評估購買；對拖地能力的評論未連到第一人稱使用或具體故障。"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/RobotVacuums/comments/1w8b5wa/small_robot_vacuums/",
+            "title": "Small robot vacuums",
+            "reviewedAt": "2026-11-16",
+            "outcome": "excluded",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "sourceExcerpt": "發文者住歐洲，問小台機種；goAwayUCreep 只留下 Ecovacs deebot mini 2 型號名稱。",
+            "specificReason": "型號推薦沒有使用情境、瑕疵或自述經歷。，不計為同型號同一問題的獨立回報。"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/RobotVacuums/comments/1t51hym/can_the_ecovas_deboot_mini_actually_mop/",
+            "title": "Can the ecovas deboot mini actually mop?",
+            "reviewedAt": "2026-11-16",
+            "outcome": "excluded",
+            "exactModel": false,
+            "independentAuthors": 0,
+            "sourceExcerpt": "原發文問初代 mini 拖地表現，另一帳號引用 Gemini，順帶寫出 mini 2。",
+            "specificReason": "討論目標是第一代，次代只有 AI 轉述，沒有使用者自己的同款報告。"
+          },
+          {
+            "platform": "PChome",
+            "url": "https://24h.pchome.com.tw/prod/DMBL0L-A900K0EOR",
+            "title": "PChome 24h DEEBOT mini2 DMBL0L-A900K0EOR 原商品評價",
+            "reviewedAt": "2026-11-16",
+            "outcome": "excluded",
+            "exactModel": true,
+            "independentAuthors": 3,
+            "sourceExcerpt": "侯** 在 9/2 描述 18 色基站並表示使用數次滿意；陳** 9/6 明寫從 X1 換 mini2 後使用一週。慈** 11/2 提到進氣口小，建議小宅考慮。",
+            "specificReason": "兩則是以完整型號或 18 色基站可定位的正面體驗。另一則是尺寸取捨，沒有故障；頁面星等也不作獨立問題人數。"
+          }
+        ],
+        "reviewerNote": "DEEBOT mini 2：比對台灣商品頁與 PChome 買家內容，並搜尋 Mobile01、PTT、Dcard、Reddit；將 DEEBOT mini 第一代、WINBOT mini 2 擦窗機、海外未明市場版及等待購買文字分開。未形成同一問題六位可辨識作者、跨兩站的證據。",
+        "attestation": "manual_original_pages_reviewed",
+        "status": "completed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-11-16",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"DEEBOT mini 2\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22DEEBOT%20mini%202%22"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"DEEBOT mini 2\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22DEEBOT%20mini%202%22"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"DEEBOT mini 2\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22DEEBOT%20mini%202%22"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"DEEBOT mini 2\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22DEEBOT%20mini%202%22"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"DEEBOT mini 2\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22DEEBOT%20mini%202%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22DEEBOT%20mini%202%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-15T23:37:06.821Z",
+          "note": "人工檢視此站完整型號查詢回傳，未見可比對的原頁候選。"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"DEEBOT mini 2\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22DEEBOT%20mini%202%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22DEEBOT%20mini%202%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-15T23:37:06.821Z",
+          "note": "人工檢視此站完整型號查詢回傳，未見可比對的原頁候選。"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "site:dcard.tw \"DEEBOT mini 2\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22DEEBOT%20mini%202%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22DEEBOT%20mini%202%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-15T23:37:06.821Z",
+          "note": "人工檢視此站完整型號查詢回傳，未見可比對的原頁候選。"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"DEEBOT mini 2\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22DEEBOT%20mini%202%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22DEEBOT%20mini%202%22",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 4,
+          "candidateUrls": [
+            "https://www.reddit.com/r/RobotVacuums/comments/1ut6hhn/got_the_ecovacs_deebot_mini_2/",
+            "https://www.reddit.com/r/RobotVacuums/comments/1u3okux/ecovacs_deebot_mini_2/",
+            "https://www.reddit.com/r/RobotVacuums/comments/1w8b5wa/small_robot_vacuums/",
+            "https://www.reddit.com/r/RobotVacuums/comments/1t51hym/can_the_ecovas_deboot_mini_actually_mop/"
+          ],
+          "candidates": [
+            {
+              "platform": "Reddit",
+              "url": "https://www.reddit.com/r/RobotVacuums/comments/1ut6hhn/got_the_ecovacs_deebot_mini_2/",
+              "title": "Got the Ecovacs DEEBOT MINI 2"
+            },
+            {
+              "platform": "Reddit",
+              "url": "https://www.reddit.com/r/RobotVacuums/comments/1u3okux/ecovacs_deebot_mini_2/",
+              "title": "Ecovacs deebot mini 2"
+            },
+            {
+              "platform": "Reddit",
+              "url": "https://www.reddit.com/r/RobotVacuums/comments/1w8b5wa/small_robot_vacuums/",
+              "title": "Small robot vacuums"
+            },
+            {
+              "platform": "Reddit",
+              "url": "https://www.reddit.com/r/RobotVacuums/comments/1t51hym/can_the_ecovas_deboot_mini_actually_mop/",
+              "title": "Can the ecovas deboot mini actually mop?"
+            }
+          ],
+          "inspectedAt": "2026-11-15T23:37:06.821Z",
+          "note": "原始頁已調閱並記錄可定位文章、評價與逐頁處置。"
+        },
+        {
+          "platform": "PChome",
+          "targetHost": "24h.pchome.com.tw",
+          "query": "site:24h.pchome.com.tw/prod \"DEEBOT mini 2\" \"DMBL0L-A900K0EOR\"",
+          "queryUrl": "https://www.google.com/search?q=site%3A24h.pchome.com.tw%2Fprod%20%22DEEBOT%20mini%202%22%20%22DMBL0L-A900K0EOR%22",
+          "searchUrl": "https://www.google.com/search?q=site%3A24h.pchome.com.tw%2Fprod%20%22DEEBOT%20mini%202%22%20%22DMBL0L-A900K0EOR%22",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://24h.pchome.com.tw/prod/DMBL0L-A900K0EOR"
+          ],
+          "candidates": [
+            {
+              "platform": "PChome",
+              "url": "https://24h.pchome.com.tw/prod/DMBL0L-A900K0EOR",
+              "title": "PChome 24h DEEBOT mini2 DMBL0L-A900K0EOR 原商品評價"
+            }
+          ],
+          "inspectedAt": "2026-11-15T23:37:06.821Z",
+          "note": "原始頁已調閱並記錄可定位文章、評價與逐頁處置。"
+        }
+      ],
+      "rejectedCandidates": [
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/RobotVacuums/comments/1ut6hhn/got_the_ecovacs_deebot_mini_2/",
+          "title": "Got the Ecovacs DEEBOT MINI 2",
+          "reviewedAt": "2026-11-16",
+          "outcome": "excluded",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "sourceExcerpt": "Fun_Negotiation6221 表示實際使用時間不長，清潔效果不錯，換水時要一起提兩個水箱。",
+          "specificReason": "一位同名機種使用者提出換水便利性，未能確認市場版且未見獨立重複回報。",
+          "reason": "一位同名機種使用者提出換水便利性，未能確認市場版且未見獨立重複回報。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/RobotVacuums/comments/1u3okux/ecovacs_deebot_mini_2/",
+          "title": "Ecovacs deebot mini 2",
+          "reviewedAt": "2026-11-16",
+          "outcome": "excluded",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "sourceExcerpt": "YarnsNYams 想找英文評測並描述椅腳狹窄；回覆談對拖地的期待及歐洲供貨。",
+          "specificReason": "原作者仍在評估購買；對拖地能力的評論未連到第一人稱使用或具體故障。",
+          "reason": "原作者仍在評估購買；對拖地能力的評論未連到第一人稱使用或具體故障。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/RobotVacuums/comments/1w8b5wa/small_robot_vacuums/",
+          "title": "Small robot vacuums",
+          "reviewedAt": "2026-11-16",
+          "outcome": "excluded",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "sourceExcerpt": "發文者住歐洲，問小台機種；goAwayUCreep 只留下 Ecovacs deebot mini 2 型號名稱。",
+          "specificReason": "型號推薦沒有使用情境、瑕疵或自述經歷。，不計為同型號同一問題的獨立回報。",
+          "reason": "型號推薦沒有使用情境、瑕疵或自述經歷。，不計為同型號同一問題的獨立回報。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/RobotVacuums/comments/1t51hym/can_the_ecovas_deboot_mini_actually_mop/",
+          "title": "Can the ecovas deboot mini actually mop?",
+          "reviewedAt": "2026-11-16",
+          "outcome": "excluded",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "sourceExcerpt": "原發文問初代 mini 拖地表現，另一帳號引用 Gemini，順帶寫出 mini 2。",
+          "specificReason": "討論目標是第一代，次代只有 AI 轉述，沒有使用者自己的同款報告。",
+          "reason": "討論目標是第一代，次代只有 AI 轉述，沒有使用者自己的同款報告。"
+        },
+        {
+          "platform": "PChome",
+          "url": "https://24h.pchome.com.tw/prod/DMBL0L-A900K0EOR",
+          "title": "PChome 24h DEEBOT mini2 DMBL0L-A900K0EOR 原商品評價",
+          "reviewedAt": "2026-11-16",
+          "outcome": "excluded",
+          "exactModel": true,
+          "independentAuthors": 3,
+          "sourceExcerpt": "侯** 在 9/2 描述 18 色基站並表示使用數次滿意；陳** 9/6 明寫從 X1 換 mini2 後使用一週。慈** 11/2 提到進氣口小，建議小宅考慮。",
+          "specificReason": "兩則是以完整型號或 18 色基站可定位的正面體驗。另一則是尺寸取捨，沒有故障；頁面星等也不作獨立問題人數。",
+          "reason": "兩則是以完整型號或 18 色基站可定位的正面體驗。另一則是尺寸取捨，沒有故障；頁面星等也不作獨立問題人數。"
+        }
+      ],
+      "reports": [],
+      "evidence": []
+    },
+    {
+      "id": "smartlock-fibre-fb79x",
+      "category": "smartlock",
+      "brand": "FIBRE",
+      "model": "FB79X",
+      "name": "FB79X 極靜 6合1 把手式指紋電子鎖",
+      "identity": {
+        "canonicalModel": "FB79X",
+        "lookupLabel": "FIBRE FB79X",
+        "aliases": [
+          "FB79X",
+          "FIBRE FB79X",
+          "FB79X 極靜"
+        ],
+        "evidenceUrl": "https://www.fibrekey.com/tw/ProductDetail/11/FB79X"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "id": "smartlock-fibre-fb79x",
+        "category": "smartlock",
+        "brand": "FIBRE",
+        "model": "FB79X",
+        "name": "FB79X 極靜 6合1 把手式指紋電子鎖",
+        "reviewedAt": "2026-11-16",
+        "reviewBatch": "smartlock",
+        "decision": "no_common_issue",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT",
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"FB79X\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22FB79X%22"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"FB79X\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22FB79X%22"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"FB79X\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22FB79X%22"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"FB79X\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22FB79X%22"
+          }
+        ],
+        "candidateDisposition": "逐站查 Mobile01、PTT、Dcard 及 Reddit 的 FB79X 完整型號，未取得可辨識的原頁討論候選。另讀台灣原廠及萬家福，同型頁是產品與安裝說明，未發現具作者的問題敘述。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "逐站查 Mobile01、PTT、Dcard 及 Reddit 的 FB79X 完整型號，未取得可辨識的原頁討論候選。另讀台灣原廠及萬家福，同型頁是產品與安裝說明，未發現具作者的問題敘述。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate",
+        "status": "completed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-11-16",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"FB79X\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22FB79X%22"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"FB79X\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22FB79X%22"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"FB79X\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22FB79X%22"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"FB79X\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22FB79X%22"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"FB79X\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22FB79X%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22FB79X%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-15T23:38:09.367Z",
+          "note": "以完整型號核對本次搜尋結果，沒有此站可回查的 exact-model 原討論頁。"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"FB79X\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22FB79X%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22FB79X%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-15T23:38:09.367Z",
+          "note": "以完整型號核對本次搜尋結果，沒有此站可回查的 exact-model 原討論頁。"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "site:dcard.tw \"FB79X\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22FB79X%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22FB79X%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-15T23:38:09.367Z",
+          "note": "以完整型號核對本次搜尋結果，沒有此站可回查的 exact-model 原討論頁。"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"FB79X\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22FB79X%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22FB79X%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-15T23:38:09.367Z",
+          "note": "以完整型號核對本次搜尋結果，沒有此站可回查的 exact-model 原討論頁。"
+        }
+      ],
+      "rejectedCandidates": [],
+      "reports": [],
+      "evidence": []
+    },
+    {
+      "id": "chair-razer-iskur-v2-x-newgen",
+      "category": "chair",
+      "brand": "Razer",
+      "model": "Iskur V2 X NewGen",
+      "name": "Iskur V2 X NewGen 電競椅（黑綠 RZ38-05310700-R3CA）",
+      "identity": {
+        "canonicalModel": "Iskur V2 X NewGen",
+        "lookupLabel": "Razer Iskur V2 X NewGen",
+        "aliases": [
+          "Iskur V2 X NewGen",
+          "Razer Iskur V2 X NewGen",
+          "RZ38-05310700-R3CA"
+        ],
+        "evidenceUrl": "https://www.razer.com/tw-zh/gaming-chairs/razer-iskur-v2-x-newgen"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "id": "chair-razer-iskur-v2-x-newgen",
+        "category": "chair",
+        "brand": "Razer",
+        "model": "Iskur V2 X NewGen",
+        "name": "Iskur V2 X NewGen 電競椅（黑綠 RZ38-05310700-R3CA）",
+        "reviewedAt": "2026-11-16",
+        "reviewBatch": "chair",
+        "decision": "no_common_issue",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT",
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "\"Iskur V2 X NewGen\" site:mobile01.com",
+            "queryUrl": "https://www.google.com/search?q=%22Iskur%20V2%20X%20NewGen%22%20site%3Amobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "\"Iskur V2 X NewGen\" site:ptt.cc",
+            "queryUrl": "https://www.google.com/search?q=%22Iskur%20V2%20X%20NewGen%22%20site%3Aptt.cc"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "\"Iskur V2 X NewGen\" site:dcard.tw",
+            "queryUrl": "https://www.google.com/search?q=%22Iskur%20V2%20X%20NewGen%22%20site%3Adcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "\"Iskur V2 X NewGen\" site:reddit.com",
+            "queryUrl": "https://www.google.com/search?q=%22Iskur%20V2%20X%20NewGen%22%20site%3Areddit.com"
+          }
+        ],
+        "candidateDisposition": "逐站以 Iskur V2 X NewGen 完整名稱查 Mobile01、PTT、Dcard、Reddit，未找到原始 exact-model 使用討論；另查完整黑綠料號，未見這四站候選。逐頁核過的台灣商品原頁以及 PC PARTY 無可歸因本型的第一人稱問題；原 Iskur V2 X、旗艦 V2 NewGen 或不同外皮不共用。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "逐站以 Iskur V2 X NewGen 完整名稱查 Mobile01、PTT、Dcard、Reddit，未找到原始 exact-model 使用討論；另查完整黑綠料號，未見這四站候選。逐頁核過的台灣商品原頁以及 PC PARTY 無可歸因本型的第一人稱問題；原 Iskur V2 X、旗艦 V2 NewGen 或不同外皮不共用。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate",
+        "status": "completed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-11-16",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "\"Iskur V2 X NewGen\" site:mobile01.com",
+            "queryUrl": "https://www.google.com/search?q=%22Iskur%20V2%20X%20NewGen%22%20site%3Amobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "\"Iskur V2 X NewGen\" site:ptt.cc",
+            "queryUrl": "https://www.google.com/search?q=%22Iskur%20V2%20X%20NewGen%22%20site%3Aptt.cc"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "\"Iskur V2 X NewGen\" site:dcard.tw",
+            "queryUrl": "https://www.google.com/search?q=%22Iskur%20V2%20X%20NewGen%22%20site%3Adcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "\"Iskur V2 X NewGen\" site:reddit.com",
+            "queryUrl": "https://www.google.com/search?q=%22Iskur%20V2%20X%20NewGen%22%20site%3Areddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "\"Iskur V2 X NewGen\" site:mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=%22Iskur%20V2%20X%20NewGen%22%20site%3Amobile01.com",
+          "searchUrl": "https://www.google.com/search?q=%22Iskur%20V2%20X%20NewGen%22%20site%3Amobile01.com",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-15T23:42:20.545Z",
+          "note": "本次完整名稱／料號搜尋未見該站精確原頁候選。"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "\"Iskur V2 X NewGen\" site:ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=%22Iskur%20V2%20X%20NewGen%22%20site%3Aptt.cc",
+          "searchUrl": "https://www.google.com/search?q=%22Iskur%20V2%20X%20NewGen%22%20site%3Aptt.cc",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-15T23:42:20.545Z",
+          "note": "本次完整名稱／料號搜尋未見該站精確原頁候選。"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "\"Iskur V2 X NewGen\" site:dcard.tw",
+          "queryUrl": "https://www.google.com/search?q=%22Iskur%20V2%20X%20NewGen%22%20site%3Adcard.tw",
+          "searchUrl": "https://www.google.com/search?q=%22Iskur%20V2%20X%20NewGen%22%20site%3Adcard.tw",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-15T23:42:20.545Z",
+          "note": "本次完整名稱／料號搜尋未見該站精確原頁候選。"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "\"Iskur V2 X NewGen\" site:reddit.com",
+          "queryUrl": "https://www.google.com/search?q=%22Iskur%20V2%20X%20NewGen%22%20site%3Areddit.com",
+          "searchUrl": "https://www.google.com/search?q=%22Iskur%20V2%20X%20NewGen%22%20site%3Areddit.com",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-15T23:42:20.545Z",
+          "note": "本次完整名稱／料號搜尋未見該站精確原頁候選。"
+        }
+      ],
+      "rejectedCandidates": [],
+      "reports": [],
+      "evidence": []
     }
   ]
 }

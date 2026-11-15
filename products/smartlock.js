@@ -2020,9 +2020,9 @@
     "price": {
       "currency": "HKD",
       "amount": 9638,
-      "converted": 40431,
+      "converted": 40433,
       "basis": "retailer_current",
-      "confidence": "EasyLock 香港 2026-08-28 exact-model 公開促銷價；ExchangeRate-API 2026-11-14 匯率換算",
+      "confidence": "EasyLock 香港 2026-08-28 exact-model 公開促銷價；ExchangeRate-API 2026-11-15 匯率換算",
       "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。"
     },
     "installation": {
@@ -2298,11 +2298,11 @@
     "name": "ML660 四合一智能電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 25000,
-      "converted": 25000,
-      "confidence": "PChome 2026-11-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 23750,
+      "converted": 23750,
+      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-05 PChome原SKU API公開價 25000 TWD；先前促銷金額不沿用。未扣個人券、點數或信用卡回饋；實際配送與安裝條件依通路確認。"
+      "note": "PChome DECE4E-A900DXNUC 原商品主區公開價 NT$23,750，購買按鈕可用，API Qty 4，商品主區活動 11/16 至 11/17。會員券、點數與卡回饋未計入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DECE4EA900DXNUC/000001_1643338134.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DECE4E-A900DXNUC",
@@ -2725,17 +2725,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 14250,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Milre MI-6450: 樂天市場 - 愛購智能 愛購智能 Milre 美樂 三合一密碼/卡片/鑰匙智能電子門鎖(MI-6450)(附基本安裝) 型號/規格不相符；LBJ Milre MI-6450: Momo富邦購物 【Milre 美樂】MI-6450 三合一電子鎖 卡片/密碼/鑰匙(附基本安裝) 型號/規格不相符；LBJ Milre MI-6450: 樂天市場 - 昌運監視器官方旗艦店 昌運監視器 Milre 美樂 MI-6450 三合一密碼/卡片/鑰匙智能電子門鎖 輔助鎖(請來電洽詢) 型號/規格不相符。"
+      "converted": 14250,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DQBS4N-A900ILR3T",
+      "sourceTitle": "Lowcast 比價趨勢：PChome Milre美樂 MI-6450 三合一電子鎖 卡片/密碼/鑰匙 (附基本安裝)",
+      "evidenceSnippet": "Lowcast 同一刊登 DQBS4N-A900ILR3T 於 2026-11-04 收盤價為 NT$14,250。當日 PChome 同 SKU 公開價格同值，API Qty 1。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-16",
+      "note": "同型號新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -5316,6 +5316,112 @@
       "Wi-Fi選配",
       "安裝先評估"
     ]
+  },
+  {
+    "id": "smartlock-fibre-fb79x",
+    "category": "smartlock",
+    "brand": "FIBRE",
+    "model": "FB79X",
+    "name": "FB79X 極靜 6合1 把手式指紋電子鎖",
+    "rank": 56,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "price": {
+      "currency": "TWD",
+      "amount": 19900,
+      "converted": 19900,
+      "basis": "retailer_current",
+      "confidence": "萬家福 B042005675801 原頁以 FB79X 品名、主價 NT$19,900、購買控制及同 SKU InStock Offer 交叉核對。",
+      "note": "台灣原廠供貨，整組鎖匣及基本舊改安裝 NT$19,900。促銷點數與支付回饋不計入。顏色、門況及可施工日期需向原廠確認。"
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "萬家福列基本舊改安裝。特殊門扇改孔、遮舊孔、附加材料及偏遠交通另計。門向、鎖匣、天地栓與既有孔位先請原廠評估。安裝收貨後先預約，依通路要求由技師拆封。"
+    },
+    "image": "https://www.fibrekey.com/images/pdt2/tw/0202407091503236469.webp",
+    "buyUrl": "https://online.uni-prosperity.com.tw/zh/fibre%E7%90%BA%E5%8D%9A/B042005675801.html",
+    "buyLabel": "萬家福線上購物（含基本安裝）",
+    "specs": [
+      "類型：把手式指紋電子鎖，具兒童安全鈕及原廠靜音鎖體設計",
+      "開門：藍牙 App、指紋、感應卡、密碼、一次性密碼、機械鑰匙",
+      "連線：藍牙 App，Wi-Fi 遠端開門需選配",
+      "供電：4 顆 AA 鹼性電池，專用鋰電池選配",
+      "防護：原廠標示前面板 IPX6；實際暴露程度與門扇排水請安裝方評估",
+      "門厚：原廠規格 45–70 mm 或 71–91 mm，91 mm 以上另訂；向內／外及左右開向須核對套件",
+      "安裝：玄關／大門鎖匣版，基本舊改安裝包含於報價；改孔、遮舊孔、天地栓與偏遠交通可能加價",
+      "包裝內容：通路列前後面板、鎖匣、三枚卡扣、三把鑰匙、四顆 AA 電池及說明書"
+    ],
+    "description": "FIBRE 琺博 FB79X 極靜把手式電子鎖。保留一般把手操作及機械鑰匙備援，提供兒童安全鈕和一次性密碼。",
+    "pros": [
+      "把手式指紋搭配兒童安全鈕",
+      "前面板標示 IPX6，適合先由安裝方評估戶外潑水環境",
+      "台灣品牌有當地安裝及維修窗口"
+    ],
+    "cons": [
+      "有線路需求的 Wi-Fi 遠端功能須另購配件",
+      "門厚、孔位和天地栓相容須現勘，部分門型另收工料",
+      "通路及原廠的面板尺寸文案不一致，改孔前以原廠現勘和開孔圖為準"
+    ],
+    "bestFor": "希望保留傳統把手、需要指紋和兒童安全鈕，且能先請原廠確認門型的家庭。",
+    "recommendation": "以 NT$19,900 含基本安裝作比較基準，先量門扇厚度並提供開向及鎖匣照片確認總價。",
+    "score": 83,
+    "voltage": "4 顆 3 號 AA 鹼性電池，專用鋰電池為選配",
+    "warranty": "萬家福直供商品頁載明機械零件 3 年、電子零件 2 年，不含電池漏液。FIBRE 台灣客服 03-5359846。",
+    "tags": [
+      "把手式",
+      "指紋",
+      "兒童安全",
+      "AA電池",
+      "基本安裝",
+      "台灣通路"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-11-16",
+      "note": "FindPrice 及飛比的 FIBRE 品牌結果列同型萬家福含安裝 NT$19,900 現價，未取得可重現日期與金額的歷史走勢。LBJ exact query 原頁連線未取得資料。飛比 NT$18,900 名稱為 FB79 無 X，排除不同型號。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-11-16",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"FB79X\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22FB79X%22"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"FB79X\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22FB79X%22"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "site:dcard.tw \"FB79X\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22FB79X%22"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"FB79X\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22FB79X%22"
+        }
+      ]
+    }
   }
 ]);
 })();

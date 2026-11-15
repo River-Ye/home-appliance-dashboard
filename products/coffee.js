@@ -2059,10 +2059,10 @@
     "name": "Barista EX 系列經典義式濃縮咖啡機（爵士灰）",
     "price": {
       "currency": "TWD",
-      "amount": 6911,
-      "converted": 6911,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-03 PChome exact原SKU DMAT09-A900IXUVD，逐筆核對本輪主標題「【義大利Giaretti 珈樂堤】Barista EX系列 經典義式濃縮咖啡機 爵士灰 GL-5700 【義大利Giaretti 珈樂堤】義式磨豆咖啡機-爵士灰 GL-5700」、Qty=5與公開主價6911。 同輪原頁主商品價格/購買入口已閱讀。未扣券/點數/信用卡回饋。",
+      "amount": 6990,
+      "converted": 6990,
+      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DMAT09-A900IXUVD 原商品主區公開價 NT$6,990，購買按鈕可用，API Qty 3，商品主區活動 11/01 至 11/16。會員券、點數與卡回饋未計入。",
       "basis": "retailer_current"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAT09A900IXUVD/000001_1769478978.jpg",

@@ -901,7 +901,7 @@
       "currency": "USD",
       "amount": 208,
       "converted": 6846,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。；ExchangeRate-API 2026-11-14 匯率換算",
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。；ExchangeRate-API 2026-11-15 匯率換算",
       "note": "2026-11-04 午後人工覆核：UniFi美國所選單台原生主頁基價189，強制附加費後總額208USD，Add to Cart可用；不採未含強制費用的schema基價。未含國際運費、進口稅、PoE供電配件與台灣保固風險。"
     },
     "image": "https://cdn.ecomm.ui.com/products/fa8dd4e4-36c8-4c79-a928-22c7bff2ce29/ab5bc8a4-6135-402e-a695-e3ea5e16d3e6.png",
@@ -982,7 +982,7 @@
       "currency": "USD",
       "amount": 175,
       "converted": 5760,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-14 匯率換算",
+      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-15 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-04 午後人工覆核：UniFi美國所選單台原生主頁基價159，強制附加費後總額175USD，Add to Cart可用；不採未含強制費用的schema基價。未含國際運費、進口稅、PoE供電配件與台灣保固風險。"
     },
@@ -1101,7 +1101,7 @@
       "currency": "USD",
       "amount": 109,
       "converted": 3588,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-14 匯率換算",
+      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-15 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-04 午後人工覆核：UniFi美國所選單台原生主頁基價99，強制附加費後總額109USD，Add to Cart可用；不採未含強制費用的schema基價。未含國際運費、進口稅、PoE供電配件與台灣保固風險。"
     },
@@ -1587,7 +1587,7 @@
       "currency": "USD",
       "amount": 142,
       "converted": 4674,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-14 匯率換算",
+      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-15 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-04 午後人工覆核：UniFi美國所選單台原生主頁基價129，強制附加費後總額142USD，Add to Cart可用；不採未含強制費用的schema基價。未含國際運費、進口稅、PoE供電配件與台灣保固風險。"
     },
@@ -1693,7 +1693,7 @@
       "currency": "USD",
       "amount": 307,
       "converted": 10105,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。；ExchangeRate-API 2026-11-14 匯率換算",
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。；ExchangeRate-API 2026-11-15 匯率換算",
       "note": "2026-11-04 午後人工覆核：UniFi美國所選單台原生主頁基價279，強制附加費後總額307USD，Add to Cart可用；不採未含強制費用的schema基價。未含國際運費、進口稅、PoE供電配件與台灣保固風險。"
     },
     "image": "https://cdn.ecomm.ui.com/products/350070a0-ae43-431b-b052-8e849c3b0a75/bad94693-bc54-4ab4-b060-9b972401941c.png",
@@ -2402,16 +2402,16 @@
     "releaseDate": "2024-11-07",
     "historicalLow": {
       "status": "found",
-      "amount": 2299,
+      "amount": 2099,
       "currency": "TWD",
-      "converted": 2299,
+      "converted": 2099,
       "sourceUrl": "https://price.shhwa.cc/product/pchome/DRAN09-A900IK1F1",
       "sourceTitle": "Lowcast 比價趨勢：PChome TP-Link Archer BE220 WiFi 7 BE3600 雙頻 Gigabit 路由器 wifi分享器 EasyMesh 支援MOD VPN 3年保固",
-      "evidenceSnippet": "Lowcast 同刊登 DRAN09-A900IK1F1 逐日價格於 2026-11-14 收在 NT$2,299。同日 PChome 同 SKU 原商品公開價格相同，API Qty 20。",
+      "evidenceSnippet": "Lowcast 同一刊登 DRAN09-A900IK1F1 於 2026-10-20 收盤價為 NT$2,099。當日 PChome 同 SKU 公開價格同值，API Qty 20。",
       "sourceKind": "price_history",
       "confidence": "medium",
-      "checkedAt": "2026-11-15",
-      "note": "依同型號台灣新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
+      "checkedAt": "2026-11-16",
+      "note": "同型號新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -3265,16 +3265,16 @@
     "releaseDate": "2023-04-17",
     "historicalLow": {
       "status": "found",
-      "amount": 16999,
+      "amount": 16111,
       "currency": "TWD",
-      "converted": 16999,
+      "converted": 16111,
       "sourceUrl": "https://price.shhwa.cc/product/pchome/DRAN5B-A900HF2LS",
       "sourceTitle": "Lowcast 比價趨勢：PChome TP-Link Archer BE900 Wi-Fi 7 BE24000四頻16串流 雙10G路由器 wifi分享器 EasyMesh 支援MOD VPN",
-      "evidenceSnippet": "Lowcast 同刊登 DRAN5B-A900HF2LS 逐日價格於 2026-11-14 收在 NT$16,999。同日 PChome 同 SKU 原商品主區公開價格相同，API Qty 14。",
+      "evidenceSnippet": "Lowcast 同一刊登 DRAN5B-A900HF2LS 於 2026-11-13 收盤價為 NT$16,111。當日 PChome 同 SKU 公開價格同值，API Qty 14。",
       "sourceKind": "price_history",
       "confidence": "medium",
-      "checkedAt": "2026-11-15",
-      "note": "依同型號台灣新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
+      "checkedAt": "2026-11-16",
+      "note": "同型號新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "common_issue",
@@ -4147,16 +4147,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 2290,
+      "amount": 1790,
       "currency": "TWD",
-      "converted": 2290,
+      "converted": 1790,
       "sourceUrl": "https://price.shhwa.cc/product/pchome/DRAFLT-A900JMCU4",
       "sourceTitle": "Lowcast 比價趨勢：PChome cudy WR3600 BE3600 Wi-Fi 7 雙頻無線路由器",
-      "evidenceSnippet": "Lowcast 同刊登 DRAFLT-A900JMCU4 逐日價格於 2026-11-14 收在 NT$2,290。同日 PChome 同 SKU 原商品公開價格相同，API Qty 18。",
+      "evidenceSnippet": "Lowcast 同一刊登 DRAFLT-A900JMCU4 於 2026-10-20 收盤價為 NT$1,790。當日 PChome 同 SKU 公開價格同值，API Qty 18。",
       "sourceKind": "price_history",
       "confidence": "medium",
-      "checkedAt": "2026-11-15",
-      "note": "依同型號台灣新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
+      "checkedAt": "2026-11-16",
+      "note": "同型號新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -5137,17 +5137,17 @@
     ],
     "releaseDate": "2024-08-21",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 7199,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-09-02",
-      "note": "已跨 PChome、Yahoo購物中心、ASUS 台灣官方商城與比價來源查核 RT-BE86U exact model；Yahoo NT$6,999／活動價 NT$6,618 是本輪仍顯示的即時促銷，沒有可回溯的歷史最低日期，其他更低候選亦無法同時確認新品、賣家與台灣保固，因此不以現價或促銷價推定史低。"
+      "converted": 7199,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DRAFJ5-A900HUUKE",
+      "sourceTitle": "Lowcast 比價趨勢：PChome ASUS 華碩 RT-BE86U BE6800 WiFi 7 無線Gigabit 雙頻電競路由器(分享器)",
+      "evidenceSnippet": "Lowcast 同一刊登 DRAFJ5-A900HUUKE 於 2026-10-20 收盤價為 NT$7,199。當日 PChome 同 SKU 公開價格同值，API Qty 6。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-16",
+      "note": "同型號新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "common_issue",

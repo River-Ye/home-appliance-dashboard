@@ -376,17 +376,17 @@
     "category": "washerdryer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 11111,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Whirlpool WEHC10BBS: Momo富邦購物 【Whirlpool 惠而浦】家電快配10公斤Essential Clean溫水洗脫烘變頻滾筒洗衣機(WEHC10BBS) 型號/規格不相符；LBJ Whirlpool WEHC10BBS: Yahoo購物中心 Whirlpool惠而浦 10公斤洗脫烘滾筒洗衣機 WEHC10BBS 型號/規格不相符；LBJ Whirlpool WEHC10BBS: 順發線上購物 【順發線上購物】Whirlpool WEHC10BBS 10KG 滾筒洗脫烘洗衣機 非採用通路或含排除條件。"
+      "converted": 11111,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DPAI1P-A900BAABZ",
+      "sourceTitle": "Lowcast 比價趨勢：PChome Whirlpool 惠而浦 10公斤Essential Clean溫水洗脫烘變頻滾筒洗衣機(WEHC10BBS)",
+      "evidenceSnippet": "Lowcast 同一刊登 DPAI1P-A900BAABZ 於 2026-11-01 收盤價為 NT$11,111。當日 PChome 同 SKU 公開價格同值，API Qty 20。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-16",
+      "note": "同型號新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -649,11 +649,11 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/88F364AB6B-SP-11096810.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 29811,
-      "converted": 29811,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 29900,
+      "converted": 29900,
+      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-01 人工逐筆核對PChome原產品API：【LG 樂金】 WiFi滾筒洗衣機(蒸洗脫烘) 冰磁白 / 13公斤 WD-S13VDW；Price.P=29811元，Qty=17，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
+      "note": "PChome DPAI1L-A900EP6CY 原商品主區公開價 NT$29,900，購買按鈕可用，API Qty 13。會員券、點數與卡回饋未計入。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -967,10 +967,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/953C366DCA-SP-17994282.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 46111,
-      "converted": 46111,
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
-      "note": "2026-11-13 PChome DPAI1L-A900HWROD 主商品為同型號夜墨灰 NT$46,111，可加入購物車及立即購買，API Qty 2。六都指定區域快速安裝，實際配送與安裝以地址及通路說明為準。原 LG 官網讀取 403，未採僅結構化報價。",
+      "amount": 46900,
+      "converted": 46900,
+      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DPAI1L-A900HWROD 原商品主區公開價 NT$46,900，購買按鈕可用，API Qty 2。會員券、點數與卡回饋未計入。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -1605,10 +1605,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/41046DB844-SP-12334280.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 34652,
-      "converted": 34652,
-      "confidence": "2026-11-15 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "Yahoo 原商品主區可下單，公開價 NT$34,652；公開單件活動至 2026-11-16T07:30:59+08:00。未扣會員券、點數與信用卡回饋。",
+      "amount": 37260,
+      "converted": 37260,
+      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "Yahoo 原商品主區可下單，公開價 NT$37,260。未扣會員券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -2433,11 +2433,11 @@
     "image": "https://img.pchome.com.tw/cs/items/DPAI1LA900IXKBU/000007_1752484626.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 88111,
-      "converted": 88111,
-      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 92900,
+      "converted": 92900,
+      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-04 人工核對當日PChome exact商品ID DPAI1L-A900IXKBU：LG樂金 22公斤+20公斤 WashTower AI 智控熱泵除濕洗乾衣機WD-S2220B(尊爵黑)；LG 22公斤+20公斤 WashTower AI 智控熱泵除濕洗乾衣機WD-S2220B(尊爵黑)；Price.P=88111元，Qty=5。原HTML主商品另讀。不扣個人券、點數、信用卡；送貨安裝請確認。"
+      "note": "PChome DPAI1L-A900IXKBU 原商品主區公開價 NT$92,900，購買按鈕可用，API Qty 2。會員券、點數與卡回饋未計入。"
     },
     "channel": "tw",
     "buyLabel": "PChome",

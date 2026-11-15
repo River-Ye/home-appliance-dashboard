@@ -532,10 +532,10 @@
     "image": "https://cs-a.ecimg.tw/items/DPAI1PA900B8S4H/000001_1762877677.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 32000,
-      "converted": 32000,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
-      "note": "舊 Yahoo 同型桶裝瓦斯賣場售完。PChome 原頁標題、規格及 API 均是 8TWGD5620HW 桶裝瓦斯版，Qty 7、主區 NT$32,000、加入購物車與立即購買可用。超大材積倉庫出貨，原頁滿 NT$490 免運；排風管、瓦斯管及束環未隨附。金額未計入點數、信用卡或其他回饋。",
+      "amount": 29911,
+      "converted": 29911,
+      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DPAI1P-A900B8S4H 原商品主區公開價 NT$29,911，購買按鈕可用，API Qty 7，商品主區活動 11/14 至 11/16。會員券、點數與卡回饋未計入。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -576,16 +576,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 32000,
+      "amount": 29911,
       "currency": "TWD",
-      "converted": 32000,
-      "sourceUrl": "https://price.shhwa.cc/product/pchome/DPAI1P-A900B8S4H",
-      "sourceTitle": "Lowcast 比價趨勢：PChome Whirlpool 惠而浦 16公斤快烘瓦斯型滾筒乾衣機(桶裝瓦斯) 8TWGD5620HW",
-      "evidenceSnippet": "Lowcast 同刊登 DPAI1P-A900B8S4H 逐日價格於 2026-11-14 收在 NT$32,000。同日 PChome 同 SKU 原商品主區公開價格相同，API Qty 7。",
-      "sourceKind": "price_history",
+      "converted": 29911,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DPAI1P-A900B8S4H",
+      "sourceTitle": "Whirlpool 8TWGD5620HW 原商品頁",
+      "evidenceSnippet": "2026-11-16 PChome DPAI1P-A900B8S4H 原商品主區公開價 NT$29,911，購買按鈕可用，API Qty 7，商品主區活動 11/14 至 11/16。會員券、點數與卡回饋未計入。 低於原有同款紀錄。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-11-15",
-      "note": "依同型號台灣新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
+      "checkedAt": "2026-11-16",
+      "note": "採同型號同規格可信新品公開價，不含個人券、點數、會員特價與信用卡回饋。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2400,11 +2400,11 @@
     "name": "20kg AI Heat Pump 免曬衣乾衣機",
     "price": {
       "currency": "TWD",
-      "amount": 41111,
-      "converted": 41111,
-      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
+      "amount": 41900,
+      "converted": 41900,
+      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
+      "note": "PChome DPAI1L-A900HQ772 原商品主區公開價 NT$41,900，購買按鈕可用，API Qty 6。會員券、點數與卡回饋未計入。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DPAI1LA900HQ772/000001_1762826049.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900HQ772",
@@ -2919,11 +2919,11 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 32111,
-      "converted": 32111,
+      "amount": 32900,
+      "converted": 32900,
       "basis": "retailer_current",
-      "confidence": "PChome 同貨號 DPAI1L-A900KI8KB 原頁主價、可購按鈕與精確 SKU API 核對。",
-      "note": "2026-11-15 PChome 同型雲朵白公開主價 NT$32,111、可加入購物車，API Qty 8；倉庫出貨時程與可配區以通路確認。 不扣信用卡回饋、點數、個人化折價券或贈品價值。"
+      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DPAI1L-A900KI8KB 原商品主區公開價 NT$32,900，購買按鈕可用，API Qty 8。會員券、點數與卡回饋未計入。"
     },
     "installation": {
       "status": "not_stated",

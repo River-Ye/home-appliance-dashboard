@@ -54,16 +54,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 5900,
+      "amount": 5411,
       "currency": "TWD",
-      "converted": 5900,
+      "converted": 5411,
       "sourceUrl": "https://price.shhwa.cc/product/pchome/DMAU3E-A900AU9PA",
       "sourceTitle": "Lowcast 比價趨勢：PChome Coway 5-10坪 綠淨力玩美雙禦空氣清淨機 AP-1019C(純淨白)(贈活性碳濾網)",
-      "evidenceSnippet": "Lowcast 同刊登 DMAU3E-A900AU9PA 逐日價格於 2026-11-14 收在 NT$5,900。同日 PChome 同 SKU 原商品主區公開價格相同，API Qty 4。",
+      "evidenceSnippet": "Lowcast 同一刊登 DMAU3E-A900AU9PA 於 2026-11-13 收盤價為 NT$5,411。當日 PChome 同 SKU 公開價格同值，API Qty 6。",
       "sourceKind": "price_history",
       "confidence": "medium",
-      "checkedAt": "2026-11-15",
-      "note": "依同型號台灣新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
+      "checkedAt": "2026-11-16",
+      "note": "同型號新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "common_issue",
@@ -346,17 +346,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 6151,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Philips AC2936: Momo富邦購物 【RENZA】適用PHILIPS 飛利浦 AC2936 AC2936/83 空氣清淨機(2合1HEPA+活性碳濾網 濾芯) 型號/規格不相符；LBJ Philips AC2936: Momo富邦購物 (店+)【MIKOCA】適用 Philips 飛利浦 AC2936/83 空氣清淨機 HEPA 活性碳濾網 FY2180/30 奈米級 濾芯 型號/規格不相符；LBJ Philips AC2936: 蝦皮商城 - 怡悅健康生活館 怡悅 HEPA 濾心 濾網 適用 PHILIPS 飛利浦 AC2936 AC2936/86 空氣清淨機 FY2180 型號/規格不相符。"
+      "converted": 6151,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DMAC2O-A900GH5RL",
+      "sourceTitle": "Lowcast 比價趨勢：PChome PHILIPS 飛利浦 奈米級空氣清淨機-360度高效過濾★適用17坪(AC2936)",
+      "evidenceSnippet": "Lowcast 同一刊登 DMAC2O-A900GH5RL 於 2026-11-01 收盤價為 NT$6,151。當日 PChome 同 SKU 公開價格同值，API Qty 20。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-16",
+      "note": "同型號新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2218,17 +2218,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 6631,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-08-01",
-      "note": "已查 Philips 台灣官方、PChome、momo 與公開比價入口；NT$7,350 是本次 PChome exact-model 公開折扣現價，但沒有可重現的同型號歷史價格曲線或明確最低點日期，因此不以現價推定史低。"
+      "converted": 6631,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DMAUFV-A900JZR3M",
+      "sourceTitle": "Lowcast 比價趨勢：PChome PHILIPS 飛利浦 抗敏奈米級空氣清淨機－迷你奈(AC0921/84)",
+      "evidenceSnippet": "Lowcast 同一刊登 DMAUFV-A900JZR3M 於 2026-11-01 收盤價為 NT$6,631。當日 PChome 同 SKU 公開價格同值，API Qty 7。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-16",
+      "note": "同型號新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2531,16 +2531,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 3990,
+      "amount": 2737,
       "currency": "TWD",
-      "converted": 3990,
+      "converted": 2737,
       "sourceUrl": "https://price.shhwa.cc/product/pchome/DMAU00-A77331975",
       "sourceTitle": "Lowcast 比價趨勢：PChome Honeywell 抗敏系列空氣清淨機 HPA-100APTW(適用坪數4-8坪)",
-      "evidenceSnippet": "Lowcast 同刊登 DMAU00-A77331975 逐日價格於 2026-11-14 收在 NT$3,990。同日 PChome 同 SKU 原商品主區公開價格相同，API Qty 66。",
+      "evidenceSnippet": "Lowcast 同一刊登 DMAU00-A77331975 於 2026-11-01 收盤價為 NT$2,737。當日 PChome 同 SKU 公開價格同值，API Qty 78。",
       "sourceKind": "price_history",
       "confidence": "medium",
-      "checkedAt": "2026-11-15",
-      "note": "依同型號台灣新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
+      "checkedAt": "2026-11-16",
+      "note": "同型號新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",

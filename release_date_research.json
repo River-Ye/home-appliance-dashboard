@@ -1,13 +1,13 @@
 {
   "summary": {
-    "checkedAt": "2026-11-14T23:39:00.932Z",
-    "total": 1269,
+    "checkedAt": "2026-11-15T23:43:31.578Z",
+    "total": 1272,
     "researchedThisRun": 3,
-    "found": 369,
-    "missing": 900,
+    "found": 370,
+    "missing": 902,
     "byConfidence": {
-      "official": 188,
-      "not_found": 897,
+      "official": 189,
+      "not_found": 899,
       "retailer_explicit": 24,
       "credible_article": 52,
       "high": 84,
@@ -15,7 +15,7 @@
       "unknown": 3
     },
     "sourcePolicy": "本輪僅新增/身份更正商品完成獨立上市日研究；既有逐筆證據及實際查核日期保留，不將來源維護範圍當成重新人工研究。",
-    "scopeNote": "2026-11-15 僅新增型號完成上市查核；既有逐筆證據保留原查核日期。"
+    "scopeNote": "2026-11-16 僅新增型號完成上市查核；既有逐筆證據保留原查核日期。"
   },
   "results": [
     {
@@ -38986,6 +38986,123 @@
         "https://rog.asus.com/tw/monitors/27-to-31-5-inches/rog-strix-xg27ucmg/spec/",
         "https://24h.pchome.com.tw/prod/DSABKB-A900KGP0K",
         "https://tw.buy.yahoo.com/gdsale/ROG-Strix-XG27UCMG-%E9%9B%BB%E7%AB%B6%E8%9E%A2%E5%B9%95-27%E5%90%8B-240Hz-4K-0-3ms-%E5%8F%AF%E6%97%8B%E8%BD%89-%E9%9B%BB%E8%85%A6%E8%9E%A2-12337045.html"
+      ]
+    },
+    {
+      "id": "robot-ecovacs-deebot-mini-2",
+      "category": "robot",
+      "brand": "Ecovacs",
+      "model": "DEEBOT mini 2",
+      "name": "ECOVACS DEEBOT mini 2 迷你掃拖機器人（白色／水箱版）",
+      "previousReleaseDate": "找不到",
+      "checkedAt": "2026-11-16",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"DEEBOT mini 2\" 科沃斯 台灣 2026 上市",
+      "auditQueries": [
+        "\"DEEBOT mini 2\" 科沃斯 台灣 2026 發表 8月 上市 9月",
+        "\"DEEBOT mini2\" 科沃斯 台灣 \"開賣\" 2026"
+      ],
+      "sourceKind": "not_found",
+      "reason": "台灣原廠產品與新品集合證明現售，沒有明確台灣上市日；比價或媒體的官店上架紀錄、手冊日期及日本發表不當台灣上市日。",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.ecovacs.com/tw/deebot-robotic-vacuum-cleaner/deebot-mini-2-white",
+          "title": "ECOVACS 台灣 DEEBOT mini 2",
+          "outcome": "取得台灣 SKU 規格，產品頁未列上市日。"
+        },
+        {
+          "url": "https://storetw.ecovacs.com/zh-tw/collections/all-products-campaign",
+          "title": "ECOVACS 台灣 Product Launch",
+          "outcome": "新品集合列名但未標確切上市時間。"
+        },
+        {
+          "url": "https://festivefuns.com/ecovacs-robot/",
+          "title": "2026 科沃斯掃地機器人款式比較",
+          "outcome": "明稱官方商城上架月份，無台灣上市發布原文。"
+        },
+        {
+          "url": "https://prtimes.jp/a/?c=17926&f=d17926-157-6260f82773733f0ca1f5188d6fd22dbf.pdf&r=157",
+          "title": "ECOVACS Japan 發表稿",
+          "outcome": "日本發表日無法外推台灣。"
+        }
+      ]
+    },
+    {
+      "id": "smartlock-fibre-fb79x",
+      "category": "smartlock",
+      "brand": "FIBRE",
+      "model": "FB79X",
+      "name": "FB79X 極靜 6合1 把手式指紋電子鎖",
+      "previousReleaseDate": "找不到",
+      "checkedAt": "2026-11-16",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "query": "\"FB79X\" \"上市\" 發表 琺博",
+      "auditQueries": [
+        "\"FB79X\" \"上市\" 發表 琺博",
+        "\"FB79X\" 歷史價格 比價撿便宜 lowcast 史低 台灣 上市"
+      ],
+      "reason": "台灣官頁有完整型號，但沒有正式上市日。2026 型錄只能證明收錄，飛比與萬家福的活動標籤亦未綁定明確首次發售日期。",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.fibrekey.com/tw/ProductDetail/11/FB79X",
+          "title": "FIBRE 台灣 FB79X 官方商品",
+          "outcome": "查到 exact 型號，未列上市日。"
+        },
+        {
+          "url": "https://online.uni-prosperity.com.tw/zh/fibre%E7%90%BA%E5%8D%9A/B042005675801.html",
+          "title": "萬家福 FB79X 台灣商品",
+          "outcome": "同型已可購，沒有正式上市日期。"
+        },
+        {
+          "url": "https://feebee.com.tw/s/fibre%E7%90%BA%E5%8D%9A/",
+          "title": "飛比 FIBRE 比價",
+          "outcome": "新品上市屬通路活動文字，不使用為型號上市日。"
+        }
+      ]
+    },
+    {
+      "id": "chair-razer-iskur-v2-x-newgen",
+      "category": "chair",
+      "brand": "Razer",
+      "model": "Iskur V2 X NewGen",
+      "name": "Iskur V2 X NewGen 電競椅（黑綠 RZ38-05310700-R3CA）",
+      "previousReleaseDate": "找不到",
+      "checkedAt": "2026-11-16",
+      "releaseDate": "2026",
+      "sourceUrl": "https://www.razer.com/newsroom/product-news/razer-iskur-v2-newgen",
+      "sourceTitle": "Razer Newsroom — Iskur V2 NewGen 與 Iskur V2 X NewGen",
+      "evidenceSnippet": "Razer 2026-01-06 的產品新聞在 EXPANDING THE LINEUP 段直接對 Iskur V2 X NewGen 列出供應配色 Black/Green、Black、Quartz。",
+      "confidence": "official",
+      "sourceKind": "official_news",
+      "query": "Razer \"Iskur V2 X NewGen\" official launch news release site:razer.com",
+      "auditQueries": [
+        "Razer \"Iskur V2 X NewGen\" official launch news release site:razer.com",
+        "\"Iskur V2 X NewGen\" \"上市\" 台灣"
+      ],
+      "reason": "原廠在 2026 年的供應發表明列此款及黑綠配色。僅採全球世代推出年份，不以新聞發佈日當型號正式首售日。台灣現售另由通路核實。",
+      "auditDisposition": "new_found",
+      "checkedSources": [
+        {
+          "url": "https://www.razer.com/newsroom/product-news/razer-iskur-v2-newgen",
+          "title": "Razer 2026-01-06 原廠發布",
+          "outcome": "內文展開 Iskur V2 X NewGen、明示 available 的黑綠配色。"
+        },
+        {
+          "url": "https://www.razer.com/tw-zh/gaming-chairs/razer-iskur-v2-x-newgen",
+          "title": "Razer 台灣 Iskur V2 X NewGen",
+          "outcome": "台灣原廠規格確認同型，無另載台灣上市日期。"
+        }
       ]
     }
   ]

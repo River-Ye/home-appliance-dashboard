@@ -935,21 +935,22 @@
     "brand": "Fissler",
     "model": "Levital 28cm",
     "name": "Fissler Levital 28cm",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/2693875B21-SP-18128306.jpg",
+    "image": "https://cheerwants.com/image/cache/catalog/products/B200F157121281000/B200F157121281000_a01-600x315w.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 2860,
-      "converted": 2860,
-      "confidence": "Yahoo購物中心 2026-08-15 exact-model 自營新品公開價",
-      "note": "Yahoo 舊頁本輪仍回傳 404。PChome 商品參考頁標示同一 Fissler Levital 經典 28cm，主圖與舊頁同款，原 API 無可購記錄。保留先前 Yahoo 參考價與史低；尚未確認嘉儀輕頑味的完整 SKU 與舊刊登對應。"
+      "amount": 4410,
+      "converted": 4410,
+      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "輕頑味原頁 NT$4,410、庫存 15。原廠 28cm 變體與舊刊登追溯同為 157-121-28-100-0／EAN 4009209389233；台灣頁標 3.0L、原廠型錄標 2.6L，請以貨號與直徑辨識。",
+      "basis": "retailer_current"
     },
     "channel": "tw",
-    "buyLabel": "PChome 商品參考（供貨未確認）",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DEAWED-A900HZZIP",
+    "buyLabel": "輕頑味 CheerWants",
+    "buyUrl": "https://cheerwants.com/fissler-cooker-fry-pan-28cm-3-0l",
     "specs": [
       "鍋具：Fissler Levital 經典不沾平底鍋 28cm 不沾鍋 煎鍋 (電磁爐 IH爐可用)",
       "尺寸與材質依商品頁標示",
-      "PChome 參考頁可核對，現售待確認",
+      "原廠貨號 157-121-28-100-0／EAN 4009209389233，台灣同型可購",
       "排除福利品/配件/旋鈕"
     ],
     "description": "以台灣家庭常見瓦斯爐、IH 與日常煎炒煮燉需求篩選，優先保留品牌穩定、價格合理、容易補買或維修的鍋具。",
