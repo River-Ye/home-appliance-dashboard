@@ -4293,11 +4293,11 @@
     "name": "57 型 Odyssey Neo G9 Dual UHD 240Hz Mini LED 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 69900,
-      "converted": 69900,
-      "confidence": "PChome 2026-11-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 63990,
+      "converted": 63990,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-05 PChome原SKU API公開價 69900 TWD；先前促銷金額不沿用。未扣個人券、點數或信用卡回饋；實際配送與安裝條件依通路確認。"
+      "note": "PChome DMBM10-A900GQLSE 原商品主區公開價 NT$63,990，購買按鈕可用，API Qty 2。會員券、點數與卡回饋未計入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900GQLSE/000001_1783054239.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900GQLSE",
@@ -4395,9 +4395,11 @@
     "name": "34 型 21:9 IPS Black 120Hz USB-C 商務曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 37893,
-      "converted": 37893,
-      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 39888,
+      "converted": 39888,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
+      "basis": "retailer_current",
+      "note": "PChome DSABOM-A900HIJN3 原商品主區公開價 NT$39,888，購買按鈕可用，API Qty 2。會員券、點數與卡回饋未計入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOMA900HIJN3/000001_1716881117.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABOM-A900HIJN3",
@@ -7215,15 +7217,15 @@
   "channel": "tw",
   "price": {
     "currency": "TWD",
-    "amount": 14144,
-    "converted": 14144,
+    "amount": 14888,
+    "converted": 14888,
     "basis": "retailer_current",
-    "confidence": "2026-11-15 核對 Yahoo 自營 12337045 同型原頁，主區顯示 NT$14,144，宅配免運且購買按鈕可用。",
-    "note": "公開單件 95 折至 2026-11-16 07:59:59（台灣），原價 NT$14,888。未扣回饋或個人券。"
+    "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
+    "note": "PChome DSABKB-A900KGP0K 同型新品公開常態 NT$14,888，API Qty 12，可直接購買；Yahoo NT$14,144 屬本日 07:59:59 到期短促。個人券及回饋未計。"
   },
   "image": "https://img.pchome.com.tw/cs/items/DSABKBA900KGP0K/000001_1790136338.jpg",
-  "buyUrl": "https://tw.buy.yahoo.com/gdsale/ROG-Strix-XG27UCMG-%E9%9B%BB%E7%AB%B6%E8%9E%A2%E5%B9%95-27%E5%90%8B-240Hz-4K-0-3ms-%E5%8F%AF%E6%97%8B%E8%BD%89-%E9%9B%BB%E8%85%A6%E8%9E%A2-12337045.html",
-  "buyLabel": "Yahoo購物中心自營",
+  "buyUrl": "https://24h.pchome.com.tw/prod/DSABKB-A900KGP0K",
+  "buyLabel": "PChome 24h 購物",
   "installation": {
     "status": "not_stated",
     "note": "附原廠可調底座，通路未載到府安裝，壁掛與支架須另行安排。"

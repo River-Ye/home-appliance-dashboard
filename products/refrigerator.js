@@ -2115,9 +2115,11 @@
     "name": "253公升 變頻雙門冰箱",
     "price": {
       "currency": "TWD",
-      "amount": 13999,
-      "converted": 13999,
-      "confidence": "Costco 好市多 2026-07-11 頁面查核價"
+      "amount": 11199,
+      "converted": 11199,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
+      "basis": "retailer_current",
+      "note": "Costco 主商品 SJ-H25Y-WH（#137098）原價 NT$13,999，公開折扣 NT$2,800，小計 NT$11,199 含運；主商品可加購。未扣補助、卡回饋或黑鑽回饋。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h3f/h56/115073136033822.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Fridges-Freezers/SHARP-253-L-Top-Mount-Inverter-Fridge-SJ-H25Y-WH/p/137098",
@@ -5195,6 +5197,109 @@
       "含基本配送",
       "台灣保固"
     ]
+  },
+  {
+    "id": "refrigerator-hitachi-r-gg670yj",
+    "category": "refrigerator",
+    "brand": "HITACHI",
+    "model": "R-GG670YJ",
+    "name": "662 公升日製六門琉璃變頻冰箱（紫霧琉璃鏡）",
+    "rank": 53,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "price": {
+      "currency": "TWD",
+      "amount": 89608,
+      "converted": 89608,
+      "basis": "retailer_current",
+      "confidence": "PChome 原頁同刊登 RGG670YJXM 具加入購物車，SKU API Price.P NT$89,608、Qty 2。",
+      "note": "2026-11-17 PChome 原頁標準安裝刊登公開 NT$89,608，另有同色自營刊登同價，未扣點數、信用卡及原廠登錄禮。"
+    },
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPACEM-A900KNLS0",
+    "buyLabel": "PChome 24h",
+    "image": "https://img.pchome.com.tw/cs/items/DPACEMA900KNLS0/000001_1793703115.jpg",
+    "installation": {
+      "status": "included_basic",
+      "note": "原頁標示價格含標準安裝。廠商約配，偏遠地區及外島不送。搬運、門寬、樓層與回收應在配送前確認。"
+    },
+    "specs": [
+      "日本製六門、總有效容量 662 L：冷藏 344 L、製冰 29 L、上層冷凍 31 L、下層冷凍 134 L、蔬果 124 L",
+      "雙循環冷卻、約 -1°C 真空冰溫室、約 2°C 獨立低溫冷藏室、即鮮冷凍",
+      "尺寸：寬 88 x 深 65 x 高 184.3 cm",
+      "開門及抽屜最大深度 101.2 cm。機身左右各留 0.5 cm、上方 5 cm，原廠標示後方 0 cm",
+      "一級能源效率，原廠列每月耗電 25 kWh",
+      "110 V／60 Hz，原廠手冊淨重 144 kg"
+    ],
+    "description": "662 L 的日本製六門冰箱，65 cm 機身適合深度受限的櫥櫃配置，雙循環冷卻與獨立冰溫室方便分區保鮮。",
+    "pros": [
+      "65 cm 機身深度兼顧 662 L 容量",
+      "獨立雙循環冷卻及真空冰溫室",
+      "台灣 110 V／60 Hz 規格與本地原廠保固"
+    ],
+    "cons": [
+      "機身寬 88 cm，開門與抽屜仍需預留前方和側向空間",
+      "原廠手冊列淨重 144 kg，需先確認搬運動線與樓層",
+      "琉璃門面有不同色款，這個報價對應紫霧琉璃鏡 XM"
+    ],
+    "bestFor": "想比較 600 L 以上日製六門冰箱，且希望機身深度接近 65 cm 櫥櫃的家庭。",
+    "recommendation": "先確認櫃體開口、搬運路徑及開門抽屜深度，再比較同一色款的安裝和報價。",
+    "score": 91,
+    "voltage": "110 V／60 Hz，原廠手冊要求獨立 15 A 以上插座",
+    "warranty": "同型 PChome 刊登標示原廠全機 1 年、機板與運轉組 3 年、馬達 5 年，依 HITACHI 台灣公告。",
+    "tags": [
+      "662L",
+      "日製",
+      "六門",
+      "65cm 機深",
+      "一級能效"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-11-17",
+      "note": "Lowcast 對相同紫霧琉璃鏡 XM 另一 PChome 刊登連續記錄 NT$89,608，但查無舊日同刊登現貨及公開優惠的獨立快照。FindPrice 同色低價無原頁核實，未以本輪現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-11-17",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"R-GG670YJ\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22R-GG670YJ%22"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"R-GG670YJ\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22R-GG670YJ%22"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "site:dcard.tw \"R-GG670YJ\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22R-GG670YJ%22"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"R-GG670YJ\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22R-GG670YJ%22"
+        }
+      ]
+    }
   }
 ]);
 })();

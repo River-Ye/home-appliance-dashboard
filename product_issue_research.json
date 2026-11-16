@@ -1,9 +1,9 @@
 {
   "summary": {
-    "checkedAt": "2026-11-16T00:00:00+08:00",
-    "total": 1272,
+    "checkedAt": "2026-11-17T00:00:00+08:00",
+    "total": 1277,
     "commonIssueProducts": 55,
-    "noCommonIssueProducts": 1217,
+    "noCommonIssueProducts": 1222,
     "pendingManualReview": 0,
     "commonIssues": 56,
     "searchUnavailable": 614,
@@ -47,9 +47,10 @@
       "2026-11-14 新收錄型號逐款核對所列平台的 exact-model 查詢及候選；其餘商品的原查核日期保留。",
       "2026-11-15 新收錄型號逐款核對所列平台的 exact-model 查詢及候選；其餘商品的原查核日期保留。",
       "2026-11-16 新收錄型號逐款核對所列平台的 exact-model 查詢及候選；其餘商品的原查核日期保留。",
-      "2026-11-16 新收錄型號逐款核對所列平台的 exact-model 查詢及候選；其餘商品的原查核日期保留。"
+      "2026-11-16 新收錄型號逐款核對所列平台的 exact-model 查詢及候選；其餘商品的原查核日期保留。",
+      "2026-11-17 新收錄型號逐款核對所列平台的 exact-model 查詢及候選；其餘商品的原查核日期保留。"
     ],
-    "researchedThisRun": 3
+    "researchedThisRun": 5
   },
   "results": [
     {
@@ -234208,6 +234209,1035 @@
       "rejectedCandidates": [],
       "reports": [],
       "evidence": []
+    },
+    {
+      "id": "tv-sony-bravia-3-ii-65",
+      "category": "tv",
+      "brand": "Sony",
+      "model": "Y-65XR30M2",
+      "name": "BRAVIA 3 II 65 型 4K 120Hz Google TV",
+      "identity": {
+        "canonicalModel": "Y-65XR30M2",
+        "aliases": [
+          "Y-65XR30M2",
+          "65XR30M2",
+          "Sony BRAVIA 3 II 65 型"
+        ],
+        "lookupLabel": "Sony Y-65XR30M2",
+        "evidenceUrl": "https://store.sony.com.tw/product/Y-65XR30M2"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "id": "tv-sony-bravia-3-ii-65",
+        "category": "tv",
+        "brand": "Sony",
+        "model": "Y-65XR30M2",
+        "name": "BRAVIA 3 II 65 型 4K 120Hz Google TV",
+        "reviewedAt": "2026-11-17",
+        "reviewBatch": "tv",
+        "decision": "no_common_issue",
+        "checkedPlatforms": [
+          "PTT",
+          "Mobile01",
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"Y-65XR30M2\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22Y-65XR30M2%22"
+          },
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"Y-65XR30M2\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Y-65XR30M2%22"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"Y-65XR30M2\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22Y-65XR30M2%22"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"Y-65XR30M2\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Y-65XR30M2%22"
+          }
+        ],
+        "candidateDisposition": "Y-65XR30M2 的 PTT 原頁是業代銷售文，Mobile01 同尺寸是記者會報導，Yahoo 同商品評價區尚無發文。",
+        "representativeSources": [
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/Digitalhome/M.1785594472.A.200.html",
+            "title": "[業代] LG電視家電 SONY電視"
+          },
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/Digitalhome/M.1780328201.A.D3D.html",
+            "title": "Digitalhome 業代多品牌電視報價"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://m.mobile01.com/topicdetail.php?f=347&t=7271016",
+            "title": "Sony 發表 BRAVIA True RGB 系列 三原色獨立控光黑科技再創視覺新標竿"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/Digitalhome/M.1785594472.A.200.html",
+            "title": "[業代] LG電視家電 SONY電視",
+            "reviewedAt": "2026-11-17",
+            "outcome": "excluded",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "sourceExcerpt": "作者 boma3958 的多型號銷售表列 65XR30M2、39,900 元和原廠公司貨兩年保固。",
+            "specificReason": "作者為銷售業代，內容是報價、到府安裝和原廠保固，無同型號使用或故障回報。"
+          },
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/Digitalhome/M.1780328201.A.D3D.html",
+            "title": "Digitalhome 業代多品牌電視報價",
+            "reviewedAt": "2026-11-17",
+            "outcome": "excluded",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "sourceExcerpt": "發文將 Y-65XR30M2 列在 2026 Sony 新機清單並報 39,900 元，後段描述賣場驗收與配送條件。",
+            "specificReason": "原頁所列破片、亮線與無過電是賣方的一般驗收政策，未指稱發生在該原型號。"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://m.mobile01.com/topicdetail.php?f=347&t=7271016",
+            "title": "Sony 發表 BRAVIA True RGB 系列 三原色獨立控光黑科技再創視覺新標竿",
+            "reviewedAt": "2026-11-17",
+            "outcome": "excluded",
+            "exactModel": false,
+            "independentAuthors": 0,
+            "sourceExcerpt": "原文為記者會報導，上市投影片列 BRAVIA 3 II 65 吋 7 月起開賣，未列完整台灣 SKU。",
+            "specificReason": "現場報導與留言未描述使用該完整台灣型號後的故障，不把記者會或其它 BRAVIA 機型當購買使用經驗。"
+          }
+        ],
+        "reviewerNote": "切分台灣 Y-65XR30M2、海外 K-65XR30M2、其它尺寸及初代 BRAVIA 3。Sony 9/3 連動公告屬官方相容條件，已在商品取捨揭露，無可計入的使用者回報。",
+        "attestation": "manual_original_pages_reviewed",
+        "status": "completed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-11-17",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"Y-65XR30M2\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22Y-65XR30M2%22"
+          },
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"Y-65XR30M2\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Y-65XR30M2%22"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"Y-65XR30M2\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22Y-65XR30M2%22"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"Y-65XR30M2\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Y-65XR30M2%22"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"Y-65XR30M2\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22Y-65XR30M2%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22Y-65XR30M2%22",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 2,
+          "candidateUrls": [
+            "https://www.ptt.cc/bbs/Digitalhome/M.1785594472.A.200.html",
+            "https://www.ptt.cc/bbs/Digitalhome/M.1780328201.A.D3D.html"
+          ],
+          "candidates": [
+            {
+              "platform": "PTT",
+              "url": "https://www.ptt.cc/bbs/Digitalhome/M.1785594472.A.200.html",
+              "title": "[業代] LG電視家電 SONY電視"
+            },
+            {
+              "platform": "PTT",
+              "url": "https://www.ptt.cc/bbs/Digitalhome/M.1780328201.A.D3D.html",
+              "title": "Digitalhome 業代多品牌電視報價"
+            }
+          ],
+          "inspectedAt": "2026-11-16T23:36:03.511Z",
+          "note": "人工開啟原頁核對上市報導、業代報價或買家評價，處置見候選記錄。"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"Y-65XR30M2\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Y-65XR30M2%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Y-65XR30M2%22",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://m.mobile01.com/topicdetail.php?f=347&t=7271016"
+          ],
+          "candidates": [
+            {
+              "platform": "Mobile01",
+              "url": "https://m.mobile01.com/topicdetail.php?f=347&t=7271016",
+              "title": "Sony 發表 BRAVIA True RGB 系列 三原色獨立控光黑科技再創視覺新標竿"
+            }
+          ],
+          "inspectedAt": "2026-11-16T23:36:03.511Z",
+          "note": "人工開啟原頁核對上市報導、業代報價或買家評價，處置見候選記錄。"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "site:dcard.tw \"Y-65XR30M2\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22Y-65XR30M2%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22Y-65XR30M2%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-16T23:36:03.511Z",
+          "note": "人工檢視完整台灣型號查詢回傳，未見該站的同款原始使用回報。"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"Y-65XR30M2\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Y-65XR30M2%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Y-65XR30M2%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-16T23:36:03.511Z",
+          "note": "人工檢視完整台灣型號查詢回傳，未見該站的同款原始使用回報。"
+        }
+      ],
+      "rejectedCandidates": [
+        {
+          "platform": "PTT",
+          "url": "https://www.ptt.cc/bbs/Digitalhome/M.1785594472.A.200.html",
+          "title": "[業代] LG電視家電 SONY電視",
+          "reviewedAt": "2026-11-17",
+          "outcome": "excluded",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "sourceExcerpt": "作者 boma3958 的多型號銷售表列 65XR30M2、39,900 元和原廠公司貨兩年保固。",
+          "specificReason": "作者為銷售業代，內容是報價、到府安裝和原廠保固，無同型號使用或故障回報。",
+          "reason": "作者為銷售業代，內容是報價、到府安裝和原廠保固，無同型號使用或故障回報。"
+        },
+        {
+          "platform": "PTT",
+          "url": "https://www.ptt.cc/bbs/Digitalhome/M.1780328201.A.D3D.html",
+          "title": "Digitalhome 業代多品牌電視報價",
+          "reviewedAt": "2026-11-17",
+          "outcome": "excluded",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "sourceExcerpt": "發文將 Y-65XR30M2 列在 2026 Sony 新機清單並報 39,900 元，後段描述賣場驗收與配送條件。",
+          "specificReason": "原頁所列破片、亮線與無過電是賣方的一般驗收政策，未指稱發生在該原型號。",
+          "reason": "原頁所列破片、亮線與無過電是賣方的一般驗收政策，未指稱發生在該原型號。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://m.mobile01.com/topicdetail.php?f=347&t=7271016",
+          "title": "Sony 發表 BRAVIA True RGB 系列 三原色獨立控光黑科技再創視覺新標竿",
+          "reviewedAt": "2026-11-17",
+          "outcome": "excluded",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "sourceExcerpt": "原文為記者會報導，上市投影片列 BRAVIA 3 II 65 吋 7 月起開賣，未列完整台灣 SKU。",
+          "specificReason": "現場報導與留言未描述使用該完整台灣型號後的故障，不把記者會或其它 BRAVIA 機型當購買使用經驗。",
+          "reason": "現場報導與留言未描述使用該完整台灣型號後的故障，不把記者會或其它 BRAVIA 機型當購買使用經驗。"
+        }
+      ],
+      "reports": [],
+      "evidence": []
+    },
+    {
+      "id": "robot-xiaomi-s60-pv81",
+      "category": "robot",
+      "brand": "Xiaomi",
+      "model": "PV81",
+      "name": "Xiaomi 掃拖機器人 S60 聲波震動拖（台灣版）",
+      "identity": {
+        "canonicalModel": "PV81",
+        "aliases": [
+          "PV81",
+          "Xiaomi 掃拖機器人 S60 聲波震動拖（台灣版）",
+          "Xiaomi Robot Vacuum S60"
+        ],
+        "lookupLabel": "Xiaomi S60 PV81",
+        "evidenceUrl": "https://www.mi.com/tw/product/xiaomi-robot-vacuum-s60/specs/"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "id": "robot-xiaomi-s60-pv81",
+        "category": "robot",
+        "brand": "Xiaomi",
+        "model": "PV81",
+        "name": "Xiaomi 掃拖機器人 S60 聲波震動拖（台灣版）",
+        "reviewedAt": "2026-11-17",
+        "reviewBatch": "robot",
+        "decision": "no_common_issue",
+        "checkedPlatforms": [
+          "PTT",
+          "Mobile01",
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"Xiaomi 掃拖機器人 S60\" \"PV81\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22Xiaomi%20%E6%8E%83%E6%8B%96%E6%A9%9F%E5%99%A8%E4%BA%BA%20S60%22%20%22PV81%22"
+          },
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"Xiaomi 掃拖機器人 S60\" \"PV81\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Xiaomi%20%E6%8E%83%E6%8B%96%E6%A9%9F%E5%99%A8%E4%BA%BA%20S60%22%20%22PV81%22"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"Xiaomi 掃拖機器人 S60\" \"PV81\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22Xiaomi%20%E6%8E%83%E6%8B%96%E6%A9%9F%E5%99%A8%E4%BA%BA%20S60%22%20%22PV81%22"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"Xiaomi Robot Vacuum S60\" \"PV81\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Xiaomi%20Robot%20Vacuum%20S60%22%20%22PV81%22"
+          }
+        ],
+        "candidateDisposition": "逐站讀取含 PV81 的 S60 完整名稱查詢，未見辨識到台灣 SKU 的原始使用回報。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "PV81 為台灣官方 S60 主機。逐站查詢原始論壇，檢視回傳結果後排除同名的 Rowenta S60、Xiaomi S60+、小米初代及 X20 系列，無型號邊界符合的候選；商城星等總數不計作者。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate",
+        "status": "completed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-11-17",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"Xiaomi 掃拖機器人 S60\" \"PV81\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22Xiaomi%20%E6%8E%83%E6%8B%96%E6%A9%9F%E5%99%A8%E4%BA%BA%20S60%22%20%22PV81%22"
+          },
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"Xiaomi 掃拖機器人 S60\" \"PV81\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Xiaomi%20%E6%8E%83%E6%8B%96%E6%A9%9F%E5%99%A8%E4%BA%BA%20S60%22%20%22PV81%22"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"Xiaomi 掃拖機器人 S60\" \"PV81\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22Xiaomi%20%E6%8E%83%E6%8B%96%E6%A9%9F%E5%99%A8%E4%BA%BA%20S60%22%20%22PV81%22"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"Xiaomi Robot Vacuum S60\" \"PV81\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Xiaomi%20Robot%20Vacuum%20S60%22%20%22PV81%22"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"Xiaomi 掃拖機器人 S60\" \"PV81\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22Xiaomi%20%E6%8E%83%E6%8B%96%E6%A9%9F%E5%99%A8%E4%BA%BA%20S60%22%20%22PV81%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22Xiaomi%20%E6%8E%83%E6%8B%96%E6%A9%9F%E5%99%A8%E4%BA%BA%20S60%22%20%22PV81%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-16T23:41:25.694Z",
+          "note": "人工核對含台灣主機 PV81 的完整名稱查詢，無可追溯的原始使用回報。"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"Xiaomi 掃拖機器人 S60\" \"PV81\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Xiaomi%20%E6%8E%83%E6%8B%96%E6%A9%9F%E5%99%A8%E4%BA%BA%20S60%22%20%22PV81%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Xiaomi%20%E6%8E%83%E6%8B%96%E6%A9%9F%E5%99%A8%E4%BA%BA%20S60%22%20%22PV81%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-16T23:41:25.694Z",
+          "note": "人工核對含台灣主機 PV81 的完整名稱查詢，無可追溯的原始使用回報。"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "site:dcard.tw \"Xiaomi 掃拖機器人 S60\" \"PV81\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22Xiaomi%20%E6%8E%83%E6%8B%96%E6%A9%9F%E5%99%A8%E4%BA%BA%20S60%22%20%22PV81%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22Xiaomi%20%E6%8E%83%E6%8B%96%E6%A9%9F%E5%99%A8%E4%BA%BA%20S60%22%20%22PV81%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-16T23:41:25.694Z",
+          "note": "人工核對含台灣主機 PV81 的完整名稱查詢，無可追溯的原始使用回報。"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"Xiaomi Robot Vacuum S60\" \"PV81\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Xiaomi%20Robot%20Vacuum%20S60%22%20%22PV81%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Xiaomi%20Robot%20Vacuum%20S60%22%20%22PV81%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-16T23:41:25.694Z",
+          "note": "人工核對含台灣主機 PV81 的完整名稱查詢，無可追溯的原始使用回報。"
+        }
+      ],
+      "rejectedCandidates": [],
+      "reports": [],
+      "evidence": []
+    },
+    {
+      "id": "refrigerator-hitachi-r-gg670yj",
+      "category": "refrigerator",
+      "brand": "HITACHI",
+      "model": "R-GG670YJ",
+      "name": "662 公升日製六門琉璃變頻冰箱（紫霧琉璃鏡）",
+      "identity": {
+        "canonicalModel": "R-GG670YJ",
+        "lookupLabel": "HITACHI R-GG670YJ",
+        "aliases": [
+          "R-GG670YJ",
+          "RGG670YJ",
+          "RGG670YJXM",
+          "RGG670YJ-XM"
+        ],
+        "evidenceUrl": "https://www.hitachi-homeappliances.com.tw/products/products_03.php?pid=RGG670YJ"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "id": "refrigerator-hitachi-r-gg670yj",
+        "category": "refrigerator",
+        "brand": "HITACHI",
+        "model": "R-GG670YJ",
+        "name": "662 公升日製六門琉璃變頻冰箱（紫霧琉璃鏡）",
+        "reviewedAt": "2026-11-17",
+        "reviewBatch": "refrigerator",
+        "decision": "no_common_issue",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT",
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"R-GG670YJ\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22R-GG670YJ%22"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"R-GG670YJ\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22R-GG670YJ%22"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"R-GG670YJ\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22R-GG670YJ%22"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"R-GG670YJ\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22R-GG670YJ%22"
+          }
+        ],
+        "candidateDisposition": "R-GG670YJ 逐站查 Mobile01、PTT、Dcard、Reddit 的完整台灣型號，四站均未見同型號的原始使用者候選。另核對通路原商品與同系列差異，沒有同型號第一人稱問題可計入。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "R-GG670YJ 逐站查 Mobile01、PTT、Dcard、Reddit 的完整台灣型號，四站均未見同型號的原始使用者候選。另核對通路原商品與同系列差異，沒有同型號第一人稱問題可計入。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate",
+        "status": "completed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-11-17",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"R-GG670YJ\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22R-GG670YJ%22"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"R-GG670YJ\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22R-GG670YJ%22"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"R-GG670YJ\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22R-GG670YJ%22"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"R-GG670YJ\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22R-GG670YJ%22"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"R-GG670YJ\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22R-GG670YJ%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22R-GG670YJ%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-16T23:35:37.442Z",
+          "note": "此次逐站完整型號搜尋無原始使用者候選。"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"R-GG670YJ\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22R-GG670YJ%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22R-GG670YJ%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-16T23:35:37.442Z",
+          "note": "此次逐站完整型號搜尋無原始使用者候選。"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "site:dcard.tw \"R-GG670YJ\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22R-GG670YJ%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22R-GG670YJ%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-16T23:35:37.442Z",
+          "note": "此次逐站完整型號搜尋無原始使用者候選。"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"R-GG670YJ\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22R-GG670YJ%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22R-GG670YJ%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-16T23:35:37.442Z",
+          "note": "此次逐站完整型號搜尋無原始使用者候選。"
+        }
+      ],
+      "rejectedCandidates": [],
+      "reports": [],
+      "evidence": []
+    },
+    {
+      "id": "washerdryer-hitachi-bd-sv130jjr",
+      "category": "washerdryer",
+      "brand": "HITACHI",
+      "model": "BD-SV130JJR",
+      "name": "13／8 公斤日製滾筒洗脫烘（雪霧白右開）",
+      "identity": {
+        "canonicalModel": "BD-SV130JJR",
+        "lookupLabel": "HITACHI BD-SV130JJR",
+        "aliases": [
+          "BD-SV130JJR",
+          "BDSV130JJR",
+          "BDSV130JJRW",
+          "BD-SV130JJR-W"
+        ],
+        "evidenceUrl": "https://www.hitachi-homeappliances.com.tw/products/products_feature.php?pid=BDSV130JJ"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "id": "washerdryer-hitachi-bd-sv130jjr",
+        "category": "washerdryer",
+        "brand": "HITACHI",
+        "model": "BD-SV130JJR",
+        "name": "13／8 公斤日製滾筒洗脫烘（雪霧白右開）",
+        "reviewedAt": "2026-11-17",
+        "reviewBatch": "washerdryer",
+        "decision": "no_common_issue",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT",
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"BD-SV130JJR\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22BD-SV130JJR%22"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"BD-SV130JJR\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22BD-SV130JJR%22"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"BD-SV130JJR\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22BD-SV130JJR%22"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"BD-SV130JJR\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22BD-SV130JJR%22"
+          }
+        ],
+        "candidateDisposition": "BD-SV130JJR 逐站查 Mobile01、PTT、Dcard、Reddit 的完整台灣型號，四站均未見同型號的原始使用者候選。另核對通路原商品與同系列差異，沒有同型號第一人稱問題可計入。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "BD-SV130JJR 逐站查 Mobile01、PTT、Dcard、Reddit 的完整台灣型號，四站均未見同型號的原始使用者候選。另核對通路原商品與同系列差異，沒有同型號第一人稱問題可計入。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate",
+        "status": "completed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-11-17",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"BD-SV130JJR\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22BD-SV130JJR%22"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"BD-SV130JJR\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22BD-SV130JJR%22"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"BD-SV130JJR\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22BD-SV130JJR%22"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"BD-SV130JJR\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22BD-SV130JJR%22"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"BD-SV130JJR\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22BD-SV130JJR%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22BD-SV130JJR%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-16T23:35:37.442Z",
+          "note": "此次逐站完整型號搜尋無原始使用者候選。"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"BD-SV130JJR\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22BD-SV130JJR%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22BD-SV130JJR%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-16T23:35:37.442Z",
+          "note": "此次逐站完整型號搜尋無原始使用者候選。"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "site:dcard.tw \"BD-SV130JJR\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22BD-SV130JJR%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22BD-SV130JJR%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-16T23:35:37.442Z",
+          "note": "此次逐站完整型號搜尋無原始使用者候選。"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"BD-SV130JJR\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22BD-SV130JJR%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22BD-SV130JJR%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-16T23:35:37.442Z",
+          "note": "此次逐站完整型號搜尋無原始使用者候選。"
+        }
+      ],
+      "rejectedCandidates": [],
+      "reports": [],
+      "evidence": []
+    },
+    {
+      "id": "chair-razer-soma-chroma",
+      "category": "chair",
+      "brand": "Razer",
+      "model": "Soma Chroma",
+      "name": "Soma Chroma RGB 電競椅（黑色 RZ38-04260100-R3CA）",
+      "identity": {
+        "canonicalModel": "Soma Chroma",
+        "lookupLabel": "Razer Soma Chroma",
+        "aliases": [
+          "Soma Chroma",
+          "Razer Soma Chroma",
+          "RZ38-04260100-R3CA"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DCBT0K-A900KA99K"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "id": "chair-razer-soma-chroma",
+        "category": "chair",
+        "brand": "Razer",
+        "model": "Soma Chroma",
+        "name": "Soma Chroma RGB 電競椅（黑色 RZ38-04260100-R3CA）",
+        "reviewedAt": "2026-11-17",
+        "reviewBatch": "chair",
+        "decision": "no_common_issue",
+        "checkedPlatforms": [
+          "Reddit",
+          "Mobile01",
+          "Razer Insider",
+          "PTT"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"Razer\" \"Soma Chroma\" \"chair\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Razer%22%20%22Soma%20Chroma%22%20%22chair%22"
+          },
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"Razer\" \"Soma Chroma\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Razer%22%20%22Soma%20Chroma%22"
+          },
+          {
+            "platform": "Razer Insider",
+            "targetHost": "insider.razer.com",
+            "query": "site:insider.razer.com \"Soma Chroma\" chair",
+            "queryUrl": "https://www.google.com/search?q=site%3Ainsider.razer.com%20%22Soma%20Chroma%22%20chair"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"Soma Chroma\" Razer",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22Soma%20Chroma%22%20Razer"
+          }
+        ],
+        "candidateDisposition": "Soma Chroma 以精確系列名與完整 RZ38-04260100-R3CA 料號跨站核對。Reddit 僅 Many-Error792 一位描述實際 OLED 反光，同人的另一帖去重，未標明台灣完整料號。Mobile01 三頁均未見第一人稱同型問題，其他原始社群查無候選；Soma Pro、Soma Sensa HD Haptics 及其他椅不共用證據。",
+        "representativeSources": [
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/razer/comments/1wkc1id/my_about_80_complete_setup/",
+            "title": "My about %80 complete setup"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/razer/comments/1vj5rb5/review_5_gaming_razer_chair_corsair_secretlab/",
+            "title": "Review 5 gaming razer chair + Corsair + secretlab."
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/gamingchairs/comments/1vjx4qn/review_5_gaming_razer_chair_corsair_secretlab/",
+            "title": "Review 5 gaming razer chair + Corsair + secretlab."
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=685&t=7275163",
+            "title": "〖新訊〗願望成真！ Razer 推出 Soma Chroma RGB 電競椅提供最強沈浸式遊戲體驗"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "platform": "Reddit",
+            "title": "My about %80 complete setup",
+            "url": "https://www.reddit.com/r/razer/comments/1wkc1id/my_about_80_complete_setup/",
+            "exactModel": true,
+            "sourceExcerpt": "Wild-Measurement9307 展示個人電腦，說還在存錢買 Soma Chroma，當時使用折疊椅。",
+            "independentAuthors": 0,
+            "specificReason": "正文明示還沒有這張椅子，亦沒有歸因 Soma Chroma 的第一人稱使用問題。",
+            "reviewedAt": "2026-11-17",
+            "outcome": "excluded"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Review 5 gaming razer chair + Corsair + secretlab.",
+            "url": "https://www.reddit.com/r/razer/comments/1vj5rb5/review_5_gaming_razer_chair_corsair_secretlab/",
+            "exactModel": true,
+            "sourceExcerpt": "Many-Error792 表示親自試坐比較多款椅子，Soma Chroma 的 LED 會反射在自己的 32 吋 Alienware OLED 上。",
+            "independentAuthors": 1,
+            "specificReason": "第一人稱使用層級為同名 Soma Chroma，未標區域料號。即使納入寬鬆計數也只有一位，未達六人／兩站。",
+            "reviewedAt": "2026-11-17",
+            "outcome": "excluded"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Review 5 gaming razer chair + Corsair + secretlab.",
+            "url": "https://www.reddit.com/r/gamingchairs/comments/1vjx4qn/review_5_gaming_razer_chair_corsair_secretlab/",
+            "exactModel": true,
+            "sourceExcerpt": "Many-Error792 將相同的多款電競椅比較和 Alienware OLED 反光經驗重貼在 r/gamingchairs。",
+            "independentAuthors": 0,
+            "specificReason": "兩篇原文的帳號與反光經歷相同。同一 Reddit 網站的不同討論版，去重後不增加作者或網站。",
+            "reviewedAt": "2026-11-17",
+            "outcome": "excluded"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "〖新訊〗願望成真！ Razer 推出 Soma Chroma RGB 電競椅提供最強沈浸式遊戲體驗",
+            "url": "https://www.mobile01.com/topicdetail.php?f=685&t=7275163",
+            "exactModel": true,
+            "sourceExcerpt": "前後三頁為 Bryan.S 台灣新訊及讀者反應。樓主說尚未拿到產品，其他留言為對燈效、透氣度或外觀的預期。",
+            "independentAuthors": 0,
+            "specificReason": "查閱三頁未見作者明確持有該型並第一人稱回報故障。對一般電競椅或對產品圖片的感想不計。",
+            "reviewedAt": "2026-11-17",
+            "outcome": "excluded"
+          }
+        ],
+        "reviewerNote": "Soma Chroma 以精確系列名與完整 RZ38-04260100-R3CA 料號跨站核對。Reddit 僅 Many-Error792 一位描述實際 OLED 反光，同人的另一帖去重，未標明台灣完整料號。Mobile01 三頁均未見第一人稱同型問題，其他原始社群查無候選；Soma Pro、Soma Sensa HD Haptics 及其他椅不共用證據。",
+        "attestation": "manual_original_pages_reviewed",
+        "status": "completed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-11-17",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"Razer\" \"Soma Chroma\" \"chair\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Razer%22%20%22Soma%20Chroma%22%20%22chair%22"
+          },
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"Razer\" \"Soma Chroma\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Razer%22%20%22Soma%20Chroma%22"
+          },
+          {
+            "platform": "Razer Insider",
+            "targetHost": "insider.razer.com",
+            "query": "site:insider.razer.com \"Soma Chroma\" chair",
+            "queryUrl": "https://www.google.com/search?q=site%3Ainsider.razer.com%20%22Soma%20Chroma%22%20chair"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"Soma Chroma\" Razer",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22Soma%20Chroma%22%20Razer"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"Razer\" \"Soma Chroma\" \"chair\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Razer%22%20%22Soma%20Chroma%22%20%22chair%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Razer%22%20%22Soma%20Chroma%22%20%22chair%22",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 3,
+          "candidateUrls": [
+            "https://www.reddit.com/r/razer/comments/1wkc1id/my_about_80_complete_setup/",
+            "https://www.reddit.com/r/razer/comments/1vj5rb5/review_5_gaming_razer_chair_corsair_secretlab/",
+            "https://www.reddit.com/r/gamingchairs/comments/1vjx4qn/review_5_gaming_razer_chair_corsair_secretlab/"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.reddit.com/r/razer/comments/1wkc1id/my_about_80_complete_setup/",
+              "title": "My about %80 complete setup",
+              "snippet": "Wild-Measurement9307 展示個人電腦，說還在存錢買 Soma Chroma，當時使用折疊椅。"
+            },
+            {
+              "url": "https://www.reddit.com/r/razer/comments/1vj5rb5/review_5_gaming_razer_chair_corsair_secretlab/",
+              "title": "Review 5 gaming razer chair + Corsair + secretlab.",
+              "snippet": "Many-Error792 表示親自試坐比較多款椅子，Soma Chroma 的 LED 會反射在自己的 32 吋 Alienware OLED 上。"
+            },
+            {
+              "url": "https://www.reddit.com/r/gamingchairs/comments/1vjx4qn/review_5_gaming_razer_chair_corsair_secretlab/",
+              "title": "Review 5 gaming razer chair + Corsair + secretlab.",
+              "snippet": "Many-Error792 將相同的多款電競椅比較和 Alienware OLED 反光經驗重貼在 r/gamingchairs。"
+            }
+          ],
+          "inspectedAt": "2026-11-16T23:35:55.659Z",
+          "note": "已開原頁並核對作者、原文與型號。"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"Razer\" \"Soma Chroma\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Razer%22%20%22Soma%20Chroma%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Razer%22%20%22Soma%20Chroma%22",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=685&t=7275163"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=685&t=7275163",
+              "title": "〖新訊〗願望成真！ Razer 推出 Soma Chroma RGB 電競椅提供最強沈浸式遊戲體驗",
+              "snippet": "前後三頁為 Bryan.S 台灣新訊及讀者反應。樓主說尚未拿到產品，其他留言為對燈效、透氣度或外觀的預期。"
+            }
+          ],
+          "inspectedAt": "2026-11-16T23:35:55.659Z",
+          "note": "已開原頁並核對作者、原文與型號。"
+        },
+        {
+          "platform": "Razer Insider",
+          "targetHost": "insider.razer.com",
+          "query": "site:insider.razer.com \"Soma Chroma\" chair",
+          "queryUrl": "https://www.google.com/search?q=site%3Ainsider.razer.com%20%22Soma%20Chroma%22%20chair",
+          "searchUrl": "https://www.google.com/search?q=site%3Ainsider.razer.com%20%22Soma%20Chroma%22%20chair",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-16T23:35:55.659Z",
+          "note": "台灣料號及完整名稱查詢未找到該平台同型原始頁。"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"Soma Chroma\" Razer",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22Soma%20Chroma%22%20Razer",
+          "searchUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22Soma%20Chroma%22%20Razer",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-16T23:35:55.659Z",
+          "note": "台灣料號及完整名稱查詢未找到該平台同型原始頁。"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "platform": "Reddit",
+          "title": "My about %80 complete setup",
+          "url": "https://www.reddit.com/r/razer/comments/1wkc1id/my_about_80_complete_setup/",
+          "exactModel": true,
+          "sourceExcerpt": "Wild-Measurement9307 展示個人電腦，說還在存錢買 Soma Chroma，當時使用折疊椅。",
+          "independentAuthors": 0,
+          "specificReason": "正文明示還沒有這張椅子，亦沒有歸因 Soma Chroma 的第一人稱使用問題。",
+          "reviewedAt": "2026-11-17",
+          "outcome": "excluded",
+          "reason": "正文明示還沒有這張椅子，亦沒有歸因 Soma Chroma 的第一人稱使用問題。"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Review 5 gaming razer chair + Corsair + secretlab.",
+          "url": "https://www.reddit.com/r/razer/comments/1vj5rb5/review_5_gaming_razer_chair_corsair_secretlab/",
+          "exactModel": true,
+          "sourceExcerpt": "Many-Error792 表示親自試坐比較多款椅子，Soma Chroma 的 LED 會反射在自己的 32 吋 Alienware OLED 上。",
+          "independentAuthors": 1,
+          "specificReason": "第一人稱使用層級為同名 Soma Chroma，未標區域料號。即使納入寬鬆計數也只有一位，未達六人／兩站。",
+          "reviewedAt": "2026-11-17",
+          "outcome": "excluded",
+          "reason": "第一人稱使用層級為同名 Soma Chroma，未標區域料號。即使納入寬鬆計數也只有一位，未達六人／兩站。"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Review 5 gaming razer chair + Corsair + secretlab.",
+          "url": "https://www.reddit.com/r/gamingchairs/comments/1vjx4qn/review_5_gaming_razer_chair_corsair_secretlab/",
+          "exactModel": true,
+          "sourceExcerpt": "Many-Error792 將相同的多款電競椅比較和 Alienware OLED 反光經驗重貼在 r/gamingchairs。",
+          "independentAuthors": 0,
+          "specificReason": "兩篇原文的帳號與反光經歷相同。同一 Reddit 網站的不同討論版，去重後不增加作者或網站。",
+          "reviewedAt": "2026-11-17",
+          "outcome": "excluded",
+          "reason": "兩篇原文的帳號與反光經歷相同。同一 Reddit 網站的不同討論版，去重後不增加作者或網站。"
+        },
+        {
+          "platform": "Mobile01",
+          "title": "〖新訊〗願望成真！ Razer 推出 Soma Chroma RGB 電競椅提供最強沈浸式遊戲體驗",
+          "url": "https://www.mobile01.com/topicdetail.php?f=685&t=7275163",
+          "exactModel": true,
+          "sourceExcerpt": "前後三頁為 Bryan.S 台灣新訊及讀者反應。樓主說尚未拿到產品，其他留言為對燈效、透氣度或外觀的預期。",
+          "independentAuthors": 0,
+          "specificReason": "查閱三頁未見作者明確持有該型並第一人稱回報故障。對一般電競椅或對產品圖片的感想不計。",
+          "reviewedAt": "2026-11-17",
+          "outcome": "excluded",
+          "reason": "查閱三頁未見作者明確持有該型並第一人稱回報故障。對一般電競椅或對產品圖片的感想不計。"
+        }
+      ],
+      "reports": []
     }
   ]
 }

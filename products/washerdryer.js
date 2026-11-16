@@ -2321,10 +2321,10 @@
     "image": "https://www.lg.com/content/dam/channel/wcms/tw/images/washer-dryers/washtower/wd-s1818pb/basic.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 79111,
-      "converted": 79111,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
-      "note": "舊全聯原頁無法確認可買，PChome 同型 WD-S1818PB 夜光黑洗18／烘18kg 主商品公開折扣 NT$79,111，API Qty 8，兩個購買按鈕可用，商品主區未標預購。PChome 超大材積倉庫出貨，網頁滿 NT$490 宅配免運；基本安裝、拆箱定位及符合範圍的舊機回收依原頁安裝規則。活動 PR26111300145650 截至 2026-11-16 08:59:59 台灣時間，未扣個人券、點數或刷卡回饋。",
+      "amount": 82900,
+      "converted": 82900,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DPAI1L-A900KAQP8 原商品主區公開價 NT$82,900，購買按鈕可用，API Qty 8。會員券、點數與卡回饋未計入。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -3733,6 +3733,109 @@
           "targetHost": "ptt.cc",
           "query": "\"BD-SZ150KJ\" site:ptt.cc",
           "queryUrl": "https://www.google.com/search?q=%22BD-SZ150KJ%22%20site%3Aptt.cc"
+        }
+      ]
+    }
+  },
+  {
+    "id": "washerdryer-hitachi-bd-sv130jjr",
+    "category": "washerdryer",
+    "brand": "HITACHI",
+    "model": "BD-SV130JJR",
+    "name": "13／8 公斤日製滾筒洗脫烘（雪霧白右開）",
+    "rank": 38,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "price": {
+      "currency": "TWD",
+      "amount": 53990,
+      "converted": 53990,
+      "basis": "retailer_current",
+      "confidence": "全聯全電商原頁同型右開雪霧白 SKU 1000750，主商品公開 NT$53,990，結構化 NewCondition 與 InStock。",
+      "note": "2026-11-17 全電商約配主商品特價 NT$53,990，原價 NT$59,990。實際配送由專人確認，未扣會員、刷卡與登錄回饋。"
+    },
+    "buyUrl": "https://pxbox.es.pxmart.com.tw/product/1000750",
+    "buyLabel": "全電商",
+    "image": "https://b2eimg.pxec.com.tw/00525195/ddef6f51df244792b783ce3f88029eb4.jpg",
+    "installation": {
+      "status": "not_stated",
+      "note": "全電商此刊登列約配與廠商確認地址和安裝環境，未逐品明列基本安裝費是否內含。PChome 同型 NT$56,028 刊登列含標準安裝，可對照。"
+    },
+    "specs": [
+      "洗/乾容量：13kg / 8kg",
+      "洗劑與柔軟劑自動投入、尼加拉飛瀑洗淨、65°C 低溫風熨斗烘衣",
+      "尺寸：寬 62 x 深 71.6 x 高 106.5 cm",
+      "型錄標示安裝空間 寬 62 × 深 72.6 × 高 136.5 cm。門向與門扇迴轉空間須另量",
+      "重量：約 82 kg",
+      "110 V／60 Hz，手冊列標準洗衣 190 W、標準烘衣 1350 W（30°C）"
+    ],
+    "description": "日本製 13／8 kg 右開一體機，有洗劑自動投入、65°C 低溫烘衣與管道、膠圈自動清潔，適合受門向限制的洗衣空間。",
+    "pros": [
+      "右開對部分牆面或走道配置更方便",
+      "具洗劑及柔軟劑自動投入",
+      "原廠手冊明列台灣電力、外觀尺寸及淨重"
+    ],
+    "cons": [
+      "乾衣上限 8 kg，滿載洗衣須分批烘乾",
+      "原廠將風熨斗與熱泵 2.0 分列，能耗與機型選擇要另比較",
+      "約 82 kg，需先量搬運動線、供排水與門扇空間"
+    ],
+    "bestFor": "希望有自動投劑與一體式洗脫烘，且機位適合右開門的家庭。",
+    "recommendation": "右開型號尾碼是 JJR。依走道和牆面確認開門方向，再對照約配、基本安裝與追加費。",
+    "score": 88,
+    "voltage": "110 V／60 Hz，原廠手冊要求獨立 15 A 以上插座",
+    "warranty": "PChome 同型標示原廠全機 1 年、機板及運轉組 3 年、主馬達 5 年，依 HITACHI 台灣公告。",
+    "tags": [
+      "13／8 kg",
+      "日製",
+      "右開",
+      "自動投劑",
+      "一體洗脫烘"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-11-17",
+      "note": "Lowcast 的 PChome 同型刊登有 NT$56,028 逐日記錄，但無當時正庫存可獨立核實，且本輪全電商有公開更低現價。無同門向可重現的合格舊價，未以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-11-17",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"BD-SV130JJR\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22BD-SV130JJR%22"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"BD-SV130JJR\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22BD-SV130JJR%22"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "site:dcard.tw \"BD-SV130JJR\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22BD-SV130JJR%22"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"BD-SV130JJR\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22BD-SV130JJR%22"
         }
       ]
     }

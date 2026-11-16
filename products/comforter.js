@@ -1116,10 +1116,10 @@
   {
     const product = products.find(({ id }) => id === "comforter-best-tencel-qfav6za9009hy1d");
     Object.assign(product.price, {
-      "amount": 1012,
-      "converted": 1012,
-      "confidence": "2026-11-15 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome QFAV6Z-A9009HY1D 原商品主區公開價 NT$1,012，購買按鈕可用，API Qty 20，商品主區活動 11/13 至 11/30。會員券、點數與卡回饋未計入。"
+      "amount": 1056,
+      "converted": 1056,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome QFAV6Z-A9009HY1D 原商品主區公開價 NT$1,056，購買按鈕可用，API Qty 20，商品主區活動 11/17 至 11/30。會員券、點數與卡回饋未計入。"
     });
   }
 
@@ -1142,10 +1142,10 @@
   {
     const product = products.find(({ id }) => id === "comforter-tanaka-silk-deatiwa900ayfmu");
     Object.assign(product.price, {
-      "amount": 4421,
-      "converted": 4421,
-      "confidence": "2026-11-15 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DEATIW-A900AYFMU 原商品主區公開價 NT$4,421，購買按鈕可用，API Qty 1，商品主區活動 11/13 至 11/30。會員券、點數與卡回饋未計入。"
+      "amount": 4428,
+      "converted": 4428,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DEATIW-A900AYFMU 原商品主區公開價 NT$4,428，購買按鈕可用，API Qty 1，商品主區活動 11/17 至 11/30。會員券、點數與卡回饋未計入。"
     });
   }
 

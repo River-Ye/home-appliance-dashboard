@@ -1,6 +1,6 @@
 # 家電推薦比較工作台
 
-純前端靜態頁面，整理 2026-11-16 查核的家電推薦清單，並保留好市多可購買候選，涵蓋價格、歷史最低價、負評／災情、入手時機、規格、優缺點、通路連結與海外價格 TWD 換算。
+純前端靜態頁面，整理 2026-11-17 查核的家電推薦清單，並保留好市多可購買候選，涵蓋價格、歷史最低價、負評／災情、入手時機、規格、優缺點、通路連結與海外價格 TWD 換算。
 
 > 本專案由 AI 協助研究、整理資料並製作網頁；內容僅供採購比較參考，購買前請再以通路與品牌官方資訊為準。
 
@@ -12,13 +12,13 @@
 
 ## 內容
 
-- 共 37 類商品，每種商品至少 20 個，共 1272 筆。
-- 另由現有分類與商品資料產生 37 個可獨立索引的 `/categories/<id>/` 選購指南頁；每頁的初始 HTML 均含前 5 名詳細推薦與該類全部型號索引，不為 1272 筆商品建立重複、薄內容的獨立頁面。
+- 共 37 類商品，每種商品至少 20 個，共 1277 筆。
+- 另由現有分類與商品資料產生 37 個可獨立索引的 `/categories/<id>/` 選購指南頁；每頁的初始 HTML 均含前 5 名詳細推薦與該類全部型號索引，不為 1277 筆商品建立重複、薄內容的獨立頁面。
 - 床包 30 款、棉被 32 款、枕頭 33 款；CP 值／均衡／旗艦分別為床包 6／12／12、棉被6／12／14、枕頭6／12／15，位於獨立「臥室寢具」群組，各一款台灣 Top Pick。床包涵蓋單件與床包加枕套組，棉被涵蓋五種主要填充，枕頭只收成人睡眠枕；同系列最多三個官方獨立尺寸或高度／軟硬度 SKU，顏色、花色、件數與贈品不增加款數。
 - 滑鼠 36 款、鍵盤 36 款、滑鼠墊 33 款；CP 值／均衡／旗艦分別為 6／14／16、6／14／16、6／12／15，辦公與電競並重，各一款台灣 Top Pick。完整成品優先台灣可信新品通路；鍵盤不同軸體、滑鼠墊不同平面尺寸可依官方型號／SKU 分列，同款最多三版，純顏色、語言、背光或套裝不增加款數。2026-09-01 01:56 的周邊增量批次以原 943 款為固定 baseline，只新增 90 款。
 - 周邊品牌涵蓋 Logitech、Razer、Sony；鍵盤另含 Keychron、HyperX、Ducky、SteelSeries、ASUS、MSI、Corsair、NuPhy、Wooting，滑鼠墊另含 ASUS、ELECOM、KINYO、HP、IKEA、darkFlash、ZOWIE、SteelSeries。品牌篩選依各分類實際收錄顯示，不表示每個品牌都有三類商品。
 - 螢幕燈精選 20 款桌機掛燈，台灣通路優先、可信海外通路補充；排除一般檯燈、筆電燈、單純氣氛燈與配件，不以顏色或套組重複湊數。該次螢幕燈擴充僅新增 20 款，原 923 款沿用固定基準版本；後續全量維護另依最新摘要記錄。
-- 掃拖機器人共 52 款；新增 MOVA Z70 Ultra Roller Complete 台灣 R5765U，核對 110V／50–60Hz、兩年保固與現售價格，明示組合台階越障及海外個別回報限制。保留既有 S70 與其他型號；E20 依先前官方停止生產公告移除。
+- 掃拖機器人共 53 款；新增 MOVA Z70 Ultra Roller Complete 台灣 R5765U，核對 110V／50–60Hz、兩年保固與現售價格，明示組合台階越障及海外個別回報限制。保留既有 S70 與其他型號；E20 依先前官方停止生產公告移除。
 - 洗衣機共 27 款；新增 Panasonic NA-V150SW 15kg 前開溫水單洗款，補充不同容量與型態，保留既有直立與 12kg 滾筒機。
 - 洗碗機共 40 款；新增 Bosch SMI6ECS00X 14人份半嵌式自動開門款，台灣110V／60Hz、36kg、含標準安裝但門板施工另計；保留 Bosch SMS8ZCI02X 14人份獨立式沸石款，台灣110V／60Hz、51.7kg，原廠派裝但所選通路基本安裝含價範圍待確認。新增 Haier W32／HDWE16-58GY3TW，明列去檯面後 76.5cm 機高、最低 76.8cm 開孔、220V／60Hz 與另計安裝費；淨重查不到，搬運前需確認。
 - 本輪補齊 Dreame X60 Track 的台灣官方現售、主機 RLR82DE／基站 RCZE0204 與 110V／50–60Hz 手冊證據，保留 Aqua 10 Pro Track 比較；分件淨重、上市日及可靠史低仍查不到，未列 Top Pick。
@@ -28,9 +28,9 @@
 - 烘衣機共 29 款；新增 Panasonic NH-V150SP 15kg獨立熱泵款，台灣110V／60Hz、64kg、含基本安裝與同賣場一年保固；原廠要求15A專用接地插座、漏電斷路器與排水，原24款保留。
 - 洗烘衣機共 36 款，含 Toshiba TWD-T33B135UWTA(WS) 12.5/8kg。另有 Electrolux EWW1143R7WC 11/7kg，110V／60Hz、原廠全機兩年保固，所選 PChome 頁面基本安裝含價範圍待確認。新增 Panasonic NA-LX128EL 左開 12/6kg 日本製熱泵款，核對 110V／60Hz、80kg 與含基本安裝的台灣新品價格，保留既有型號。
 - 無線路由器共 58 款；新增 ASUS ROG Rapture GT-BN98 四頻 Wi-Fi 8 草案款，台灣上市日為 2026-11-03，所選通路公開價 NT$27,990、三年保固。明示 AiMesh、雙 10G、草案相容性及單一作者韌體問題線索，不列為 Top Pick；保留 D-Link M95、R95、M36 與其他合格舊款。
-- 電視共 47 款；新增 TCL 75X11L 75 吋 SQD-Mini LED，核對台灣供電、含／不含底座尺寸、40.5kg 整機淨重與三年保固，既有型號保留比較。
+- 電視共 48 款；新增 TCL 75X11L 75 吋 SQD-Mini LED，核對台灣供電、含／不含底座尺寸、40.5kg 整機淨重與三年保固，既有型號保留比較。
 - Soundbar 共 39 款，含 Sony HT-B500 3.1 聲道雙件組。Sonos Beam Ultra 美國黑色版核對 2026-09-29 發售、7.1.2 聲道、100–240V／50–60Hz 與本體尺寸／淨重，只作海外參考並揭露跨境費用、台灣保固及個別問題回報。保留 Philips TAB8750/96 與其他既有型號。
-- 冰箱共 52 款，含 Panasonic 550L NR-F553WX-W1、520L NR-F523HX-H1，以及既有的 19 款 Panasonic 秋季通路型號與 HITACHI HRBN5366DF1 330L 下冷凍窄身款。HITACHI HRTN5275MF1 260L 與本輪補入的 HRTN5255MF1 240L 窄身雙門款並列比較；240L 款台灣官方手冊明示 110V／60Hz、寬 56 × 深 63.5 × 高 158 cm，myfone 公開主價 NT$14,300，含基本安裝與舊機回收、專人約配。未推算結帳折扣，上市日、淨重與史低未確認；手冊的總重量不當作淨重。HRBN5366DF1 的 NT$27,400 仍為原廠右開建議售價，現貨交期與實際成交價待確認。
+- 冰箱共 53 款，含 Panasonic 550L NR-F553WX-W1、520L NR-F523HX-H1，以及既有的 19 款 Panasonic 秋季通路型號與 HITACHI HRBN5366DF1 330L 下冷凍窄身款。HITACHI HRTN5275MF1 260L 與本輪補入的 HRTN5255MF1 240L 窄身雙門款並列比較；240L 款台灣官方手冊明示 110V／60Hz、寬 56 × 深 63.5 × 高 158 cm，myfone 公開主價 NT$14,300，含基本安裝與舊機回收、專人約配。未推算結帳折扣，上市日、淨重與史低未確認；手冊的總重量不當作淨重。HRBN5366DF1 的 NT$27,400 仍為原廠右開建議售價，現貨交期與實際成交價待確認。
 - 免治馬桶共 22 款；新增 Panasonic DL-RU60TWWS，核對 nanoe X、智慧雙溫控、自動開蓋及台灣電力規格；所選優惠頁未明載含基本安裝，需先確認施工費與馬桶相容性。
 - 電風扇共 21 款；依 Philips 台灣 exact-model 官方「已停產」標示移除 ACR3142CF、ACR3144WTF 與 AHR5164FD，保留其他可比較型號；不以通路缺貨或舊頁失效推定停產。
 - 電子衣櫥共 20 款；新增 Panasonic N-R600AR-X1 台灣 110V／60Hz 鏡面款，保留既有窄機身與海外型號。
@@ -43,7 +43,7 @@
 - 冷氣固定 30 組台灣住宅一對一分離式完整室內／室外機組，冷專、冷暖各至少 12 組，且小／中／大／客餐廳四個坪數帶各至少 6 組；熱水器目前精確收錄 48 台，瓦斯 17 台、電熱 16 台、熱泵 15 台，其中電熱為儲熱式 9 台、瞬熱式 7 台。
 - Sony、Panasonic、HITACHI、Mitsubishi Electric、Daikin、GENERAL、Rinnai、Noritz、TOTO 以 37 類 × 9 品牌完整矩陣保存人工盤點結果；只在有台灣合格 exact model 且確實增加比較價值時補代表款。完整維護重新盤點 333 格；僅新增批次保留基準與真實覆核日期。品牌已有商品不代表全部世代已核實，來源阻擋與未確定後繼的缺口另列於逐類紀錄。
 - 咖啡機共 25 款台灣現售義式機，全自動 12 款、半自動 13 款；入門／均衡／旗艦依序為全自動 4／4／4、半自動 4／4／5，半自動含內建磨豆 6 款與需外接磨豆 7 款。補入台灣 110V／60Hz 的 Lelit MaraX3，保留現售 Mara X V2 比較。
-- 本輪依使用者明確要求補入合格新版，保留現售舊款；主要新增包括 BenQ MA270S／MA320UG、Panasonic NA-V1515SP／NA-V1715SP、SAMPO SD-10DH、Electrolux EFF5581SXA／EFF7591SXA、Philips DDL720-FVP／MVP、TEMPUR SmartCool 千禧／夢幻枕與 SAKURA DH1670H／DH1693H。電腦椅共 31 款、電子鎖共 56 款；完整新增與候選處置以維護摘要為準。
+- 本輪依使用者明確要求補入合格新版，保留現售舊款；主要新增包括 BenQ MA270S／MA320UG、Panasonic NA-V1515SP／NA-V1715SP、SAMPO SD-10DH、Electrolux EFF5581SXA／EFF7591SXA、Philips DDL720-FVP／MVP、TEMPUR SmartCool 千禧／夢幻枕與 SAKURA DH1670H／DH1693H。電腦椅共 32 款、電子鎖共 56 款；完整新增與候選處置以維護摘要為準。
 - 原初固定配額可隨使用者明確要求的合格新版擴充，精確款數與分型／預算配額仍由 `tools/dashboard-contract.js` 嚴格驗證；電力、台灣通路與保固、版本、史低和負評證據門檻不變。缺台灣 exact 60Hz 證據的 Philips EP8557/20、尚未確認台灣供電與交貨條件的 Vitamix Ascent X5 繼續列待查。
 - 每類「綜合推薦」以 CP 值、評價口碑、價格、可信通路、台灣售後/保固風險綜合判斷，並附簡短推薦原因。
 - 支援分類、冷氣／熱水器型態、網路交換器 1G／2.5G／10G 速率、滑鼠握持型態、鍵盤機構、滑鼠墊與寢具材質／填充、品牌、選購定位、通路、自然多詞搜尋、排序、active filter chips、可分享 URL 篩選狀態與比較清單；既有 `budget` query key 維持相容。
@@ -51,10 +51,10 @@
 - 針對桌機與手機操作最佳化，包含群組化分類列、sticky 分類列、手機快速操作列、收合式商品細節與重設篩選。
 - 21 類尺寸與 13 類新增重量規格／證據對齊，含螢幕燈、三類鍵鼠周邊與三類寢具；既有家電及寢具使用 cm／kg，周邊使用 mm／g 並保留來源明示軸序。滑鼠墊厚度、床包可包覆高度、棉被填充重量另列；無法確認時明示「查不到」，不使用包裝、毛重或猜測缺漏資料。
 <!-- catalog-maintenance-summary:start -->
-- 2026-11-16 07:43（台灣時間）完成 1272 筆商品、37 類價格與來源全量查核；562 筆 PChome SKU API 已完成（295 筆 exact model、97 筆人工 SKU 綁定可寫入，35 筆型號未自動確認），更新 39 筆公開價格（7 筆下修、32 筆上修），39 筆缺貨／預購保留狀態提醒。
-- 本次增量新增 chair-razer-iskur-v2-x-newgen、robot-ecovacs-deebot-mini-2、smartlock-fibre-fb79x；本次增量沒有移除停產產品。已逐類覆核取得的新品來源；尚未確認的逐型號後繼對照與來源限制詳見 categoryScan，所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
-- 圖片查核覆蓋 1272 筆；849 筆來源可由 exact model 或人工 SKU 綁定確認，423 筆來源例外與 0 筆圖片例外保留原資料。史低為 622 筆 `found`、650 筆 `not_found`，本輪下修 20 筆、其他更正 23 筆；272 筆來源可重現，其餘保留原逐筆證據且未臆測失效。
-- ExchangeRate-API 最新批次為 2026-11-15 00:02 UTC，USD/TWD 32.915595；39 筆外幣商品已重算。完整摘要與例外保存在 `catalog_maintenance_latest.json`。
+- 2026-11-17 07:43（台灣時間）完成 1277 筆商品、37 類價格與來源全量查核；562 筆 PChome SKU API 已完成（300 筆 exact model、99 筆人工 SKU 綁定可寫入，36 筆型號未自動確認），更新 67 筆公開價格（12 筆下修、55 筆上修），36 筆缺貨／預購保留狀態提醒。
+- 本次增量新增 chair-razer-soma-chroma、refrigerator-hitachi-r-gg670yj、robot-xiaomi-s60-pv81、tv-sony-bravia-3-ii-65、washerdryer-hitachi-bd-sv130jjr；本次增量沒有移除停產產品。已逐類覆核取得的新品來源；尚未確認的逐型號後繼對照與來源限制詳見 categoryScan，所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
+- 圖片查核覆蓋 1277 筆；894 筆來源可由 exact model 或人工 SKU 綁定確認，383 筆來源例外與 0 筆圖片例外保留原資料。史低為 626 筆 `found`、651 筆 `not_found`，本輪其他更正 8 筆；216 筆來源可重現，其餘保留原逐筆證據且未臆測失效。
+- ExchangeRate-API 最新批次為 2026-11-16 00:02 UTC，USD/TWD 32.919339；39 筆外幣商品已重算。完整摘要與例外保存在 `catalog_maintenance_latest.json`。
 <!-- catalog-maintenance-summary:end -->
 
 2026-10-24 已重查 37 類官方新品入口與 333 格日系品牌邊界，但既有型號與後繼型號的逐筆對應尚未全部完成。各類 `successorReview` 保留實際查到的對應與來源限制；無法存取或確認的部分不視為「沒有後繼款」，既有上市、尺寸與負評證據也保留原查核日期。
@@ -72,7 +72,7 @@
 ## GEO / AI 搜尋維護
 
 - `tools/category-guides.js` 是 37 類導讀、選購重點與 FAQ 的人工維護來源；商品事實仍以 `assets/js/config.js` 與 `products/*.js` 為準。
-- 每個分類頁會從同一份商品資料產生可直接擷取的「完整型號索引」，讓無 JavaScript 爬蟲也能讀到全部 1272 款的品牌、型號、名稱、參考價、上市日期與摘要。
+- 每個分類頁會從同一份商品資料產生可直接擷取的「完整型號索引」，讓無 JavaScript 爬蟲也能讀到全部 1277 款的品牌、型號、名稱、參考價、上市日期與摘要。
 - 站名、首頁 title、description、H1 與 AI 揭露契約集中在 `tools/geo-config.js`，供首頁檢查、JSON-LD、分類產生器與 `llms.txt` 共用。
 - 修改商品、分類、分類指南或首頁 CSS 來源後，先執行 `npm run generate:categories`。`assets/css/app.css`、`categories/<id>/index.html`、`sitemap.xml`、`llms.txt`，以及 `index.html` 內 `geo-structured-data`／`geo-category-links` marker 之間的區塊都是產生結果，不可手動修改。
 - `llms.txt` 只是提供網站用途、查核方式與分類入口的補充說明，不保證任何搜尋排名、AI 引用或收錄結果。
@@ -87,9 +87,9 @@ npm run check
 
 - `npm run check:syntax`：檢查公開 JS 與維護工具語法。
 - `npm run check:logic`：檢查排序、篩選、URL 狀態、史低／負評文案、問題摘要搜尋、來源 URL 安全、HTML escape 與商品 loader 純邏輯。
-- `npm run check:data`：檢查 37 類、1272 筆、必要欄位、日期格式、21 類尺寸與 13 類新增重量規格／證據對齊、鍵鼠與寢具逐分類精確款數及預算配額、同款最多三版、型態與版本重複、螢幕燈 20 款、網路交換器 20 款、冷氣 30 組、熱水器 48 台、333 格日系品牌矩陣、價格／安裝 enum、歷史最低價與負評 research 對齊、人工覆核完成清單、逐位反映者、6 人／2 平台門檻、每類至少 20 筆、重複型號與重複購買 URL。
+- `npm run check:data`：檢查 37 類、1277 筆、必要欄位、日期格式、21 類尺寸與 13 類新增重量規格／證據對齊、鍵鼠與寢具逐分類精確款數及預算配額、同款最多三版、型態與版本重複、螢幕燈 20 款、網路交換器 20 款、冷氣 30 組、熱水器 48 台、333 格日系品牌矩陣、價格／安裝 enum、歷史最低價與負評 research 對齊、人工覆核完成清單、逐位反映者、6 人／2 平台門檻、每類至少 20 筆、重複型號與重複購買 URL。
 - `npm run check:docs`：檢查 README、AGENTS、index/config 的商品數、分類數、日期與 cache version 沒有漂移。
-- `npm run check:geo`：檢查 37 個分類頁、1272 款靜態型號索引、metadata、結構化資料、內部連結、sitemap、llms、證據檔、Pages artifact、38 個 canonical IndexNow URL contract 與所有產生結果沒有漂移。
+- `npm run check:geo`：檢查 37 個分類頁、1277 款靜態型號索引、metadata、結構化資料、內部連結、sitemap、llms、證據檔、Pages artifact、38 個 canonical IndexNow URL contract 與所有產生結果沒有漂移。
 - `npm run check:ui`：用 Playwright 驗證桌機/手機搜尋、篩選、排序、lazy loading、比較清單、負評警示與推薦卡高亮。
 - `npm run check:quality`：用 Lighthouse 驗證首頁與代表分類頁；Performance、LCP、CLS、Accessibility 與 SEO 採瀏覽器行動 throttling，TBT 採 Lantern 標準化模擬以排除 CI runner 硬體差異，門檻仍為 200ms。
 - `npm run audit:pchome-prices`：唯讀重查所有 PChome SKU；有正值 `Price.Low` 時優先採折扣價，否則採 `Price.P`。人工確認輸出後才可加 `-- --write --date=YYYY-MM-DD` 寫回。

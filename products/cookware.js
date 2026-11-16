@@ -221,11 +221,11 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWMWA900JMZB6/000001_1768290450.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1119,
-      "converted": 1119,
-      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "amount": 1147,
+      "converted": 1147,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-10-31 KFM-030D-R30cm主商品1119，10/30–11/03單件8折，網路1399；可購預計11/02出貨。"
+      "note": "PChome DEAWMW-A900JMZB6 原商品主區公開價 NT$1,147，購買按鈕可用，API Qty 4，商品主區活動 11/16 至 11/30。會員券、點數與卡回饋未計入。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -426,11 +426,11 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWN3A900JSN52/000001_1772965996.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1992,
-      "converted": 1992,
-      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "amount": 2041,
+      "converted": 2041,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-10-31 瓷安28CM附蓋主商品1992，10/30–11/03單件8折，網路2490；可購24小時到貨。"
+      "note": "PChome DEAWN3-A900JSN52 原商品主區公開價 NT$2,041，購買按鈕可用，API Qty 8，商品主區活動 11/16 至 11/30。會員券、點數與卡回饋未計入。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -734,10 +734,11 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWMQA900JO5Y3/000001_1769140380.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 8999,
-      "converted": 8999,
-      "confidence": "Yahoo購物中心 2026-07-28 exact-model 公開結構化價格",
-      "note": "Yahoo 原商品主區顯示此賣場已停售；保留先前參考價，供貨待查。"
+      "amount": 13616,
+      "converted": 13616,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "Yahoo 原商品主區可下單，公開價 NT$13,616；公開單件活動至 2026-12-01T09:59:59+08:00。未扣會員券、點數與信用卡回饋。",
+      "basis": "retailer_current"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心（此賣場已停售）",
@@ -1350,11 +1351,11 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWGAA900B4V1I/000001_1670815636.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1341,
-      "converted": 1341,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 1415,
+      "converted": 1415,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-03 PChome exact原SKU DEAWGA-A900B4V1I，逐筆核對本輪主標題「【CookPower鍋寶】微晶透明湯鍋(黑底) OG-42BK 【CookPower鍋寶】微晶透明湯鍋(黑底) OG-42BK」、Qty=19與公開主價1341。 同輪原頁主商品價格/購買入口已閱讀。未扣券/點數/信用卡回饋。"
+      "note": "PChome DEAWGA-A900B4V1I 原商品主區公開價 NT$1,415，購買按鈕可用，API Qty 19，商品主區活動 11/16 至 11/30。會員券、點數與卡回饋未計入。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1849,10 +1850,10 @@
     "name": "醇火系列不沾炒鍋",
     "price": {
       "currency": "TWD",
-      "amount": 1599,
-      "converted": 1599,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
-      "note": "PChome 原商品主區及 SKU DEES01-A900IQ6X3 公開價格 NT$1,599。API Qty 4，以通路配送、安裝條件為準。",
+      "amount": 1439,
+      "converted": 1439,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DEES01-A900IQ6X3 原商品主區公開價 NT$1,439，購買按鈕可用，API Qty 3，商品主區活動 11/16 至 11/19。會員券、點數與卡回饋未計入。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DEES01A900IQ6X3/000001_1764832269.jpg",

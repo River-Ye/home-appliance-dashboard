@@ -323,11 +323,11 @@
     "image": "https://cs-a.ecimg.tw/items/DEAGRWA900JUUQL/000001_1774596210.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 811,
-      "converted": 811,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "amount": 729,
+      "converted": 729,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome 原商品主區及 SKU DEAGRW-A900JUUQL 公開價格 NT$811。API Qty 2，以通路配送、安裝條件為準。"
+      "note": "PChome DEAGRW-A900JUUQL 原商品主區公開價 NT$729，購買按鈕可用，API Qty 2，商品主區活動 11/16 至 11/30。會員券、點數與卡回饋未計入。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -530,11 +530,11 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWRUA900HDL2T/000001_1712729313.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 3559,
-      "converted": 3559,
-      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "amount": 3747,
+      "converted": 3747,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-10-31 WMF卓越18cm主商品3559，10/30–11/03單件95折，網路3747；預計11/02出貨。"
+      "note": "PChome DEAWRU-A900HDL2T 原商品主區公開價 NT$3,747，購買按鈕可用，API Qty 3。會員券、點數與卡回饋未計入。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -735,10 +735,10 @@
     "image": "https://cs-a.ecimg.tw/items/DEES09A900HK440/000001_1718174769.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 690,
-      "converted": 690,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
-      "note": "PChome 原商品主區及 SKU DEES09-A900HK440 公開價格 NT$690。API Qty 3，以通路配送、安裝條件為準。",
+      "amount": 621,
+      "converted": 621,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DEES09-A900HK440 原商品主區公開價 NT$621，購買按鈕可用，API Qty 3，商品主區活動 11/16 至 11/19。會員券、點數與卡回饋未計入。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -938,11 +938,11 @@
     "image": "https://cs-a.ecimg.tw/items/DEAGRWA900GMT17/000001_1714111453.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1711,
-      "converted": 1711,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "amount": 1539,
+      "converted": 1539,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome 原商品主區及 SKU DEAGRW-A900GMT17 公開價格 NT$1,711。API Qty 20，以通路配送、安裝條件為準。"
+      "note": "PChome DEAGRW-A900GMT17 原商品主區公開價 NT$1,539，購買按鈕可用，API Qty 20，商品主區活動 11/16 至 11/30。會員券、點數與卡回饋未計入。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1248,10 +1248,10 @@
     "image": "https://cs-a.ecimg.tw/items/DEES09A900IWZUQ/000001_1749456278.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1599,
-      "converted": 1599,
-      "confidence": "2026-11-15 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DEES09-A900IWZUQ 原商品主區公開價 NT$1,599，購買按鈕可用，API Qty 4。會員券、點數與卡回饋未計入。",
+      "amount": 1439,
+      "converted": 1439,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DEES09-A900IWZUQ 原商品主區公開價 NT$1,439，購買按鈕可用，API Qty 4，商品主區活動 11/16 至 11/19。會員券、點數與卡回饋未計入。",
       "basis": "retailer_current"
     },
     "channel": "tw",

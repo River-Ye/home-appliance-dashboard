@@ -4501,12 +4501,12 @@
     "name": "A.O. Smith CAHP-1.5DT-80 一體式空氣源熱泵熱水器",
     "price": {
       "currency": "TWD",
-      "amount": 131400,
-      "converted": 131400,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "amount": 151800,
+      "converted": 151800,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
       "scope": "single_unit",
-      "note": "原台灣總代理 HTTPS 正常回應，精確 CAHP-1.5DT-80 單一整機公開折後價 NT$131,400，定價 NT$151,800，與主商品的購物車規格欄一致。基本安裝另加 NT$8,300；實際交期、特殊施工及折扣結束時間未標示。"
+      "note": "台灣總代理原頁同型整機現售 NT$151,800，購買控制可用；基本安裝另計 NT$8,300，吊運、搬運及追加材料另計，交期須問通路。"
     },
     "installation": {
       "status": "excluded",
@@ -4616,12 +4616,12 @@
     "name": "A.O. Smith CAHP-1.5DT-120 一體式空氣源熱泵熱水器",
     "price": {
       "currency": "TWD",
-      "amount": 141040,
-      "converted": 141040,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "amount": 162800,
+      "converted": 162800,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
       "scope": "single_unit",
-      "note": "原台灣總代理 HTTPS 正常回應，精確 CAHP-1.5DT-120 單一整機公開折後價 NT$141,040，定價 NT$162,800，與主商品的購物車規格欄一致。基本安裝另加 NT$8,300；實際交期、特殊施工及折扣結束時間未標示。"
+      "note": "台灣總代理原頁同型整機現售 NT$162,800，購買控制可用；基本安裝另計 NT$8,300，吊運、搬運及追加材料另計，交期須問通路。"
     },
     "installation": {
       "status": "excluded",

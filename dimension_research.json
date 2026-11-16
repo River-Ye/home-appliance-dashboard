@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15",
+  "generatedAt": "2026-11-17",
   "sourcePolicy": "本站共 21 類尺寸、13 類重量研究，尺寸涵蓋 電視、Soundbar、冷氣、洗衣機、烘衣機、洗烘衣機(多功能型)、電子衣櫥（衣物護理機）、床包、棉被、枕頭、冰箱、咖啡機、多功能氣炸烤箱／微波爐、洗碗機、熱水器、免治馬桶、網路交換器、螢幕燈、滑鼠、鍵盤、滑鼠墊。優先採 exact-model／相同版本的官方產品頁、官方規格表或官方 PDF，其次為可信新品通路。只採本體／機身／明確組件的尺寸與淨重，排除包裝、外箱尺寸與毛重；來源沒有明示軸序時不自行推定。既有家電與床包、棉被、枕頭維持 cm／kg，滑鼠、鍵盤與滑鼠墊使用 mm／g 並保留來源軸序。滑鼠墊厚度、床包可包覆高度另列；棉被的填充重量與整件淨重分開記錄。冷氣分列室內機與室外機，熱泵複合熱水器分列主機與儲槽。generatedAt 為最新證據批次日期，既有逐筆 checkedAt 與 weightCheckedAt 保留原查核日期，不表示重新查核。",
   "results": [
     {
@@ -11386,6 +11386,58 @@
       "confidence": "high",
       "weightConfidence": "high",
       "isOfficialSource": true,
+      "weightIsOfficialSource": true
+    },
+    {
+      "id": "tv-sony-bravia-3-ii-65",
+      "dimension": "尺寸：不含底座 約 寬 144.7 x 深 7.0 x 高 84.1 cm；含底座 約 寬 144.7 x 深 29.0 x 高 90.4 cm",
+      "sourceUrl": "https://www.sony.com.tw/zh/electronics/support/televisions-projectors-monitors/y-65xr30m2/specifications",
+      "sourceTitle": "Y-65XR30M2 規格 | Sony TW",
+      "evidenceSnippet": "台灣官方規格依寬×高×深列出不含底座 1447×841×70 mm，含底座 1447×904×290 mm。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-11-17",
+      "weight": "重量：不含底座 約 20.8 kg；含底座 約 21.2 kg",
+      "weightSourceUrl": "https://www.sony.com.tw/zh/electronics/support/televisions-projectors-monitors/y-65xr30m2/specifications",
+      "weightSourceTitle": "Y-65XR30M2 規格 | Sony TW",
+      "weightEvidenceSnippet": "台灣官方規格列不含底座 20.8 kg，附底座 21.2 kg。",
+      "weightConfidence": "high",
+      "weightIsOfficialSource": true,
+      "weightCheckedAt": "2026-11-17"
+    },
+    {
+      "id": "refrigerator-hitachi-r-gg670yj",
+      "category": "refrigerator",
+      "brand": "HITACHI",
+      "model": "R-GG670YJ",
+      "name": "662 公升日製六門琉璃變頻冰箱（紫霧琉璃鏡）",
+      "dimension": "尺寸：寬 88 x 深 65 x 高 184.3 cm",
+      "sourceUrl": "https://www.hitachi-homeappliances.com.tw/image/hsct/service/download/manual/Instruction_Manual_R-GG670YJ_M.pdf",
+      "sourceTitle": "HITACHI 台灣 R-GG670YJ 使用說明書規格",
+      "evidenceSnippet": "原廠 exact-model 手冊規格列外型寬 880 mm、高 1843 mm、深 650 mm。官方型錄另外列散熱與開門空間。",
+      "checkedAt": "2026-11-17",
+      "confidence": "high",
+      "isOfficialSource": true
+    },
+    {
+      "id": "washerdryer-hitachi-bd-sv130jjr",
+      "category": "washerdryer",
+      "brand": "HITACHI",
+      "model": "BD-SV130JJR",
+      "name": "13／8 公斤日製滾筒洗脫烘（雪霧白右開）",
+      "dimension": "尺寸：寬 62 x 深 71.6 x 高 106.5 cm",
+      "sourceUrl": "https://www.hitachi-homeappliances.com.tw/image/hsct/service/download/manual/User_manual_BD-SV130JJ_250319.pdf",
+      "sourceTitle": "HITACHI 台灣 BD-SV130JJ／BD-SV130JJR 使用說明書規格",
+      "evidenceSnippet": "原廠右開共用手冊規格列外觀寬 620 × 深 716 × 高 1065 mm，安裝及外箱尺寸另列。",
+      "checkedAt": "2026-11-17",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "weight": "重量：約 82 kg",
+      "weightSourceUrl": "https://www.hitachi-homeappliances.com.tw/image/hsct/service/download/manual/User_manual_BD-SV130JJ_250319.pdf",
+      "weightSourceTitle": "HITACHI 台灣 BD-SV130JJ／BD-SV130JJR 使用說明書規格",
+      "weightEvidenceSnippet": "原廠右開共用手冊規格列質量約 82 kg，非外箱重量。",
+      "weightCheckedAt": "2026-11-17",
+      "weightConfidence": "high",
       "weightIsOfficialSource": true
     }
   ]

@@ -4775,6 +4775,110 @@
     "VIDAA",
     "QLED"
   ]
+},
+{
+  "id": "tv-sony-bravia-3-ii-65",
+  "category": "tv",
+  "brand": "Sony",
+  "model": "Y-65XR30M2",
+  "name": "BRAVIA 3 II 65 型 4K 120Hz Google TV",
+  "rank": 49,
+  "budget": "mid",
+  "channel": "tw",
+  "price": {
+    "currency": "TWD",
+    "amount": 34257,
+    "converted": 34257,
+    "basis": "retailer_current",
+    "confidence": "2026-11-17 Yahoo 自營同型號賣場主商品 structured offer 與頁面定價皆為 NT$34,257、可加車。",
+    "note": "2026-11-17 查核公開售價 NT$34,257 含標準安裝及舊機回收，雙 11 96 折已不在現時商品原頁，未扣禮券、點數和刷卡回饋。"
+  },
+  "installation": {
+    "status": "included_basic",
+    "note": "Yahoo 原頁含標準安裝及舊機回收，偏遠及外島不送，壁掛與額外施工請先確認。"
+  },
+  "image": "https://img.yec.tw/zp/MerchandiseImages/E2AF7A0322-SP-23018490.jpg",
+  "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=12159447",
+  "buyLabel": "Yahoo 購物中心",
+  "specs": [
+    "65 型 3840 × 2160 LCD，原生 120 Hz，直下式 LED 與全域背光控制",
+    "XR Processor，支援 HDR10、HLG、Dolby Vision",
+    "4 組 HDMI 2.1，支援 4K120、VRR、ALLM 及 eARC/ARC",
+    "手機投影：Google Cast、Apple AirPlay 2",
+    "Google TV、Wi-Fi 6E、內建 20 W 喇叭，支援 Dolby Atmos、DTS:X",
+    "桌面底座外寬約 125.5 cm，VESA 300 × 300 mm",
+    "尺寸：不含底座 約 寬 144.7 x 深 7.0 x 高 84.1 cm；含底座 約 寬 144.7 x 深 29.0 x 高 90.4 cm",
+    "重量：不含底座 約 20.8 kg；含底座 約 21.2 kg"
+  ],
+  "description": "BRAVIA 3 II 將原生 120 Hz、XR 影像處理與 4 組 HDMI 2.1 帶到 Sony 65 型直下式 LED，比較以遊戲及串流為主的客廳用途。",
+  "pros": [
+    "原生 120 Hz 和 HDMI 2.1 便於連接多部遊戲主機",
+    "Google TV、Google Cast 和 Apple AirPlay 2 可搭配不同手機",
+    "台灣規格與底座、壁掛承重資料完整"
+  ],
+  "cons": [
+    "全域背光，暗場控光可與分區背光或 OLED 機種比較",
+    "底座外寬約 125.5 cm，窄電視櫃應預先量尺寸",
+    "Sony 台灣另說明通用 HDMI-CEC 連動效果取決於外接裝置、系統版本和設定"
+  ],
+  "bestFor": "尋找 Sony 65 型、希望接 4K120 遊戲主機兼顧串流的家庭。",
+  "recommendation": "有既有劇院設備時先確認 HDMI-CEC 和 eARC 連動，選購時核對櫃面寬度及支架承重。",
+  "score": 84,
+  "voltage": "台灣規格 AC 110V／60Hz",
+  "warranty": "Sony 台灣官店標示 24 個月保固。",
+  "tags": [
+    "120Hz",
+    "HDMI 2.1",
+    "Google TV",
+    "AirPlay",
+    "台灣公司貨"
+  ],
+  "releaseDate": "2026-07",
+  "historicalLow": {
+    "status": "not_found",
+    "amount": null,
+    "currency": "TWD",
+    "converted": null,
+    "sourceUrl": "",
+    "sourceTitle": "",
+    "evidenceSnippet": "",
+    "sourceKind": "not_found",
+    "confidence": "not_found",
+    "checkedAt": "2026-11-17",
+    "note": "查核 Yahoo 12159447 及兩筆 PChome 同型 SKU 歷史。Yahoo 搜尋索引曾顯示 NT$32,887 單件 96 折，但未取得可保存的原始活動日期與舊頁，當日原頁可購 NT$34,257；PChome 曲線最低可讀點 NT$36,000 高於目前可購價，無可信較低的完整歷史證據。"
+  },
+  "issueResearch": {
+    "status": "no_common_issue",
+    "checkedAt": "2026-11-17",
+    "summary": "截至查核日，查無達門檻的集中負評／災情",
+    "issues": [],
+    "checkedSources": [
+      {
+        "platform": "PTT",
+        "targetHost": "ptt.cc",
+        "query": "site:ptt.cc \"Y-65XR30M2\"",
+        "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22Y-65XR30M2%22"
+      },
+      {
+        "platform": "Mobile01",
+        "targetHost": "mobile01.com",
+        "query": "site:mobile01.com \"Y-65XR30M2\"",
+        "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Y-65XR30M2%22"
+      },
+      {
+        "platform": "Dcard",
+        "targetHost": "dcard.tw",
+        "query": "site:dcard.tw \"Y-65XR30M2\"",
+        "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22Y-65XR30M2%22"
+      },
+      {
+        "platform": "Reddit",
+        "targetHost": "reddit.com",
+        "query": "site:reddit.com \"Y-65XR30M2\"",
+        "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Y-65XR30M2%22"
+      }
+    ]
+  }
 }
 ]);
 })();

@@ -17,11 +17,11 @@
     "name": "27L 蒸烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 13992,
-      "converted": 13992,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "amount": 14310,
+      "converted": 14310,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome 原商品主區及 SKU DMBJ02-A900IXECX 公開折扣價 NT$13,992，頁列活動 11/10 至 11/16。API Qty 8，以通路配送、安裝條件為準。"
+      "note": "PChome DMBJ02-A900IXECX 原商品主區公開價 NT$14,310，購買按鈕可用，API Qty 8，商品主區活動 11/01 至 11/30。會員券、點數與卡回饋未計入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ02A900G62BM/000001_1756899692.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ02-A900IXECX",
@@ -117,11 +117,11 @@
     "name": "26L 8 合 1 變頻氣炸蒸烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 17955,
-      "converted": 17955,
+      "amount": 18900,
+      "converted": 18900,
       "basis": "retailer_current",
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
-      "note": "Yahoo 原 SKU 主商品公開價 NT$17,955，主購買按鈕可用。公開活動截至 2026-11-16T09:59:59+08:00。"
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "Yahoo 原商品主區可下單，公開價 NT$18,900。未扣會員券、點數與信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ02A900J1WEX/000001_1753093870.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool%E6%83%A0%E8%80%8C%E6%B5%A6-Coloris%E7%B3%BB%E5%88%97-26%E5%85%AC%E5%8D%878%E5%90%88%E4%B8%80%E5%85%A8%E8%83%BD%E8%AE%8A%E9%A0%BB%E6%B0%A3%E7%82%B8%E8%92%B8%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-%E9%9B%B2%E9%9C%A7%E7%99%BD-MWP2-11705976.html",
@@ -417,8 +417,8 @@
     "price": {
       "currency": "USD",
       "amount": 499.95,
-      "converted": 16456,
-      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-11-15 匯率換算"
+      "converted": 16458,
+      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-11-16 匯率換算"
     },
     "image": "https://assets.breville.com/cdn-cgi/image/width=1300,format=auto/BOV950/BOV950BSS1BUS1/pdp3.png?pdp=",
     "buyUrl": "https://www.breville.com/en-us/product/bov950",
@@ -812,11 +812,11 @@
     "name": "Coloris 系列 32L 8 合 1 變頻氣炸蒸烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 21111,
-      "converted": 21111,
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "amount": 22222,
+      "converted": 22222,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "Yahoo 原 SKU 主商品公開價 NT$21,111，主購買按鈕可用。公開活動截至 2026-11-16T09:59:59+08:00。"
+      "note": "Yahoo 原商品主區可下單，公開價 NT$22,222。未扣會員券、點數與信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ03A900IYX0L/000001_1750758530.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool-%E6%83%A0%E8%80%8C%E6%B5%A6Coloris%E7%B3%BB%E5%88%97-32%E5%85%AC%E5%8D%878%E5%90%88%E4%B8%80%E5%85%A8%E8%83%BD%E8%AE%8A%E9%A0%BB%E6%B0%A3%E7%82%B8%E8%92%B8%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-%E5%A4%A7%E5%9C%B0%E6%A3%95-MWP3-12006007.html",
@@ -1016,11 +1016,11 @@
     "name": "25 公升獨立式蒸烤爐",
     "price": {
       "currency": "TWD",
-      "amount": 9500,
-      "converted": 9500,
+      "amount": 9999,
+      "converted": 9999,
       "basis": "retailer_current",
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
-      "note": "Yahoo 原 SKU 主商品公開價 NT$9,500，主購買按鈕可用。公開活動截至 2026-11-16T09:59:59+08:00。"
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "Yahoo 原商品主區可下單，公開價 NT$9,999。未扣會員券、點數與信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ6QA900EO5DH/000001_1704094465.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool%E6%83%A0%E8%80%8C%E6%B5%A6-25%E5%85%AC%E5%8D%87%E7%8D%A8%E7%AB%8B%E5%BC%8F%E8%92%B8%E7%83%A4%E7%88%90-WSO2500B-9918063.html",
@@ -1515,11 +1515,11 @@
     "name": "39L 智慧變頻蒸烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 14155,
-      "converted": 14155,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "amount": 14900,
+      "converted": 14900,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品主區可下單，公開折後價 NT$14,155，活動到 2026-11-16 09:59:59（台灣）。金額未扣會員券、點數及信用卡回饋。"
+      "note": "Yahoo 原商品主區可下單，公開價 NT$14,900。未扣會員券、點數與信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ8JA900H3U40/000001_1749176905.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG-%E6%A8%82%E9%87%91-NeoChef-%E6%99%BA%E6%85%A7%E8%AE%8A%E9%A0%BB%E8%92%B8%E7%83%98%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-39%E5%85%AC%E5%8D%87-MJ3965BCP-11971476.html",
@@ -1714,11 +1714,11 @@
     "name": "過熱水蒸氣烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 21763,
-      "converted": 21763,
+      "amount": 22908,
+      "converted": 22908,
       "basis": "retailer_current",
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
-      "note": "Yahoo 原 SKU 主商品公開價 NT$21,763，主購買按鈕可用。公開活動截至 2026-11-16T09:59:59+08:00。"
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "Yahoo 原商品主區可下單，公開價 NT$22,908。未扣會員券、點數與信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ031900I80DM/000001_1778655849.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/HITACHI-%E6%97%A5%E7%AB%8B-%E9%81%8E%E7%86%B1%E6%B0%B4%E8%92%B8%E6%B0%A3%E7%83%98%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-%E7%88%B5%E8%89%B2%E9%BB%91-MROS800AT-11995105.html",
@@ -1814,11 +1814,11 @@
     "name": "過熱水蒸氣烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 46111,
-      "converted": 46111,
+      "amount": 48668,
+      "converted": 48668,
       "basis": "retailer_current",
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
-      "note": "Yahoo 原 SKU 主商品公開價 NT$46,111，主購買按鈕可用。公開活動截至 2026-11-16T09:59:59+08:00。"
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "Yahoo 原商品主區可下單，公開價 NT$48,668。未扣會員券、點數與信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ5PA900GN8PM/000001_1750840663.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/HITACHI-%E6%97%A5%E7%AB%8B-%E9%81%8E%E7%86%B1%E6%B0%B4%E8%92%B8%E6%B0%A3%E7%83%98%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-MROBK5000AT-11995474.html",
@@ -2321,8 +2321,8 @@
     "price": {
       "currency": "USD",
       "amount": 449.99,
-      "converted": 14812,
-      "confidence": "2026-11-04 Chrome人工核對原商品主價、所選版本及購買／預購CTA；依當日匯率換算TWD。；ExchangeRate-API 2026-11-15 匯率換算",
+      "converted": 14813,
+      "confidence": "2026-11-04 Chrome人工核對原商品主價、所選版本及購買／預購CTA；依當日匯率換算TWD。；ExchangeRate-API 2026-11-16 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-05 人工覆核：原生Chrome原buyURL選定Silver MW101，主機主區449.99USD、Quantity1、主機Addtocart可見啟用，完整載入再次確認。黑色另為MW101BK1／449.99／OutofStock，未轉移。台灣配送未確認，未含國際運費、進口稅、電壓／插頭及台灣保固風險。 不扣個人化折價券、點數、信用卡回饋或贈品價值。"
     },

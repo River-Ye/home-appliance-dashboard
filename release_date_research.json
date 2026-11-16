@@ -1,21 +1,21 @@
 {
   "summary": {
-    "checkedAt": "2026-11-15T23:43:31.578Z",
-    "total": 1272,
-    "researchedThisRun": 3,
-    "found": 370,
-    "missing": 902,
+    "checkedAt": "2026-11-16T23:41:53.186Z",
+    "total": 1277,
+    "researchedThisRun": 5,
+    "found": 373,
+    "missing": 904,
     "byConfidence": {
-      "official": 189,
-      "not_found": 899,
+      "official": 190,
+      "not_found": 901,
       "retailer_explicit": 24,
       "credible_article": 52,
       "high": 84,
-      "medium": 21,
+      "medium": 23,
       "unknown": 3
     },
     "sourcePolicy": "本輪僅新增/身份更正商品完成獨立上市日研究；既有逐筆證據及實際查核日期保留，不將來源維護範圍當成重新人工研究。",
-    "scopeNote": "2026-11-16 僅新增型號完成上市查核；既有逐筆證據保留原查核日期。"
+    "scopeNote": "2026-11-17 僅新增型號完成上市查核；既有逐筆證據保留原查核日期。"
   },
   "results": [
     {
@@ -39102,6 +39102,176 @@
           "url": "https://www.razer.com/tw-zh/gaming-chairs/razer-iskur-v2-x-newgen",
           "title": "Razer 台灣 Iskur V2 X NewGen",
           "outcome": "台灣原廠規格確認同型，無另載台灣上市日期。"
+        }
+      ]
+    },
+    {
+      "id": "tv-sony-bravia-3-ii-65",
+      "category": "tv",
+      "brand": "Sony",
+      "model": "Y-65XR30M2",
+      "name": "BRAVIA 3 II 65 型 4K 120Hz Google TV",
+      "previousReleaseDate": "找不到",
+      "checkedAt": "2026-11-17",
+      "releaseDate": "2026-07",
+      "sourceUrl": "https://m.mobile01.com/topicdetail.php?f=347&t=7271016",
+      "sourceTitle": "Mobile01：Sony 發表 BRAVIA True RGB 系列",
+      "evidenceSnippet": "台灣上市發表會投影片〈2026 BRAVIA 新品上市資訊〉的 BRAVIA 3 II 65 型欄寫 7 月起上市，Sony 台灣商品頁將 65 型對應 Y-65XR30M2。",
+      "confidence": "medium",
+      "query": "Sony Y-65XR30M2 台灣上市日期",
+      "sourceKind": "trusted_media",
+      "checkedSources": [
+        {
+          "url": "https://m.mobile01.com/topicdetail.php?f=347&t=7271016",
+          "title": "Mobile01 台灣發表會現場報導",
+          "outcome": "敘明 50/55″ 6/27 開賣，其它尺寸七月陸續上市。"
+        },
+        {
+          "url": "https://attach.mobile01.com/attach/202606/mobile01-f027df67d4a7ed04b325f6581c47e978.jpg",
+          "title": "Mobile01 拍攝 Sony 2026 BRAVIA 台灣上市投影片",
+          "outcome": "65″ BRAVIA 3 II 欄明示七月起及建議售價 NT$39,900。"
+        },
+        {
+          "url": "https://store.sony.com.tw/product/Y-65XR30M2",
+          "title": "Sony 台灣 65 型頁",
+          "outcome": "核對與 65 型上市說明相符的完整台灣型號。"
+        }
+      ]
+    },
+    {
+      "id": "robot-xiaomi-s60-pv81",
+      "category": "robot",
+      "brand": "Xiaomi",
+      "model": "PV81",
+      "name": "Xiaomi 掃拖機器人 S60 聲波震動拖（台灣版）",
+      "previousReleaseDate": "找不到",
+      "checkedAt": "2026-11-17",
+      "releaseDate": "2026-11-06",
+      "sourceUrl": "https://www.ioiotimes.com/p157156-%E8%9D%A6%E7%9A%AE%E8%B3%BC%E7%89%A911-11%E6%9C%80%E5%BC%B7%E8%B3%BC%E7%89%A9%E7%AF%80-%E8%B2%B7%E6%B0%A3%E5%BC%95%E7%88%86-%E9%A6%96%E5%88%86%E9%90%98%E8%B2%B7%E6%B0%A3%E9%A3%86%E5%B9%B3%E6%97%A573%E5%80%8D-%E5%96%AE%E4%B8%80%E8%B2%B7%E5%AE%B6%E7%8B%82%E4%B8%8B%E7%A0%B4%E7%99%BE%E7%AD%86%E8%A8%82%E5%96%AE",
+      "sourceTitle": "ioioTimes：蝦皮購物 11.11 最強購物節與 Xiaomi S60 台灣上市",
+      "evidenceSnippet": "原文明寫全新 Xiaomi 掃拖機器人 S60 於 11 月 6 日登場、蝦皮官方線上首發售價 NT$4,999，台灣小米規格將 S60 綁定主機 PV81。",
+      "confidence": "medium",
+      "query": "Xiaomi 掃拖機器人 S60 PV81 台灣上市",
+      "sourceKind": "trusted_media",
+      "checkedSources": [
+        {
+          "url": "https://www.ioiotimes.com/p157156-%E8%9D%A6%E7%9A%AE%E8%B3%BC%E7%89%A911-11%E6%9C%80%E5%BC%B7%E8%B3%BC%E7%89%A9%E7%AF%80-%E8%B2%B7%E6%B0%A3%E5%BC%95%E7%88%86-%E9%A6%96%E5%88%86%E9%90%98%E8%B2%B7%E6%B0%A3%E9%A3%86%E5%B9%B3%E6%97%A573%E5%80%8D-%E5%96%AE%E4%B8%80%E8%B2%B7%E5%AE%B6%E7%8B%82%E4%B8%8B%E7%A0%B4%E7%99%BE%E7%AD%86%E8%A8%82%E5%96%AE",
+          "title": "ioioTimes 台灣新聞原頁",
+          "outcome": "明示同款 2026/11/6 開賣。"
+        },
+        {
+          "url": "https://www.newspie.com.tw/shopee-1111-20261112/",
+          "title": "News Pie 首發報導",
+          "outcome": "另有同款 2026/11/6 與發售價 NT$4,999 的報導。"
+        },
+        {
+          "url": "https://www.mi.com/tw/product/xiaomi-robot-vacuum-s60/specs/",
+          "title": "小米台灣 S60 規格",
+          "outcome": "明示台灣主機 PV81 與 NCC，未列發售日。"
+        }
+      ]
+    },
+    {
+      "id": "refrigerator-hitachi-r-gg670yj",
+      "category": "refrigerator",
+      "brand": "HITACHI",
+      "model": "R-GG670YJ",
+      "name": "662 公升日製六門琉璃變頻冰箱（紫霧琉璃鏡）",
+      "previousReleaseDate": "找不到",
+      "checkedAt": "2026-11-17",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"R-GG670YJ\" HITACHI 台灣 2026 上市",
+      "sourceKind": "not_found",
+      "reason": "台灣原廠原頁明列 NEW，未標上市日。10 月型錄與活動只能證明型號及銷售時點，零售頁的 9 月／10 月上市文字不一致，無法確認台灣正式上市月份。",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.hitachi-homeappliances.com.tw/products/products_03.php?pid=RGG670YJ",
+          "title": "HITACHI 台灣 R-GG670YJ 六門琉璃冰箱",
+          "outcome": "台灣原頁證明 exact-model 規格，未列正式上市日。"
+        },
+        {
+          "url": "https://www.hitachi-homeappliances.com.tw/image/hsct/service/download/catalog/REF_catalog_2610.pdf",
+          "title": "HITACHI 台灣官方產品型錄",
+          "outcome": "列款名及規格，未標可採用的上市日。"
+        },
+        {
+          "url": "https://www.guting5.com.tw/product/56442",
+          "title": "同型號台灣通路頁",
+          "outcome": "通路資料不具官方明確上市時點。"
+        }
+      ]
+    },
+    {
+      "id": "washerdryer-hitachi-bd-sv130jjr",
+      "category": "washerdryer",
+      "brand": "HITACHI",
+      "model": "BD-SV130JJR",
+      "name": "13／8 公斤日製滾筒洗脫烘（雪霧白右開）",
+      "previousReleaseDate": "找不到",
+      "checkedAt": "2026-11-17",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"BD-SV130JJR\" HITACHI 台灣 2026 上市",
+      "sourceKind": "not_found",
+      "reason": "台灣原廠型錄標示近期上市，未提供正式日期；活動與通路上架、預計出貨日均未標明實際發售時點。",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.hitachi-homeappliances.com.tw/products/products_feature.php?pid=BDSV130JJ",
+          "title": "HITACHI 台灣 BD-SV130JJ 左開／BD-SV130JJR 右開",
+          "outcome": "台灣原頁證明 exact-model 規格，未列正式上市日。"
+        },
+        {
+          "url": "https://www.hitachi-homeappliances.com.tw/image/hsct/service/download/catalog/full_catalog_2606.pdf",
+          "title": "HITACHI 台灣官方產品型錄",
+          "outcome": "列款名及規格，未標可採用的上市日。"
+        },
+        {
+          "url": "https://www.kingstone.com.tw/basic/3030000103652/",
+          "title": "同型號台灣通路頁",
+          "outcome": "通路資料不具官方明確上市時點。"
+        }
+      ]
+    },
+    {
+      "id": "chair-razer-soma-chroma",
+      "category": "chair",
+      "brand": "Razer",
+      "model": "Soma Chroma",
+      "name": "Soma Chroma RGB 電競椅（黑色 RZ38-04260100-R3CA）",
+      "previousReleaseDate": "找不到",
+      "checkedAt": "2026-11-17",
+      "releaseDate": "2026-06",
+      "sourceUrl": "https://www.razer.com/newsroom/product-news/soma-chroma",
+      "sourceTitle": "Razer Newsroom — Introducing the Razer Soma Chroma",
+      "evidenceSnippet": "原廠 2026-06-25 發表 Soma Chroma 椅，台灣媒體 2026-06-30 明示同型已正式在台上市，僅採共同月份 2026-06。",
+      "confidence": "official",
+      "sourceKind": "official_news",
+      "query": "\"Razer Soma Chroma\" launch Razer Newsroom 2026",
+      "auditQueries": [
+        "\"Razer Soma Chroma\" launch Razer Newsroom 2026",
+        "\"Soma Chroma\" 台灣 上市"
+      ],
+      "reason": "原廠發表月與本地確認供應月相同。公告日與發文日均未直接當作首賣日。",
+      "auditDisposition": "new_found",
+      "checkedSources": [
+        {
+          "url": "https://www.razer.com/newsroom/product-news/soma-chroma",
+          "title": "Razer Newsroom Soma Chroma 發表",
+          "outcome": "原廠 2026-06-25 發表同型整椅。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=685&t=7275163",
+          "title": "Mobile01 Soma Chroma 台灣上市消息",
+          "outcome": "6 月 30 日已明示在台正式上市。"
         }
       ]
     }

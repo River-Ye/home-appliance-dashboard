@@ -1481,11 +1481,11 @@
     "name": "6公升高效除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 3800,
-      "converted": 3800,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "amount": 4390,
+      "converted": 4390,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome 原商品主區及 SKU DMBQ08-A900IXL3K 公開折扣價 NT$3,800，頁列活動 11/13 至 11/16。API Qty 20，以通路配送、安裝條件為準。"
+      "note": "PChome DMBQ08-A900IXL3K 原商品主區公開價 NT$4,390，購買按鈕可用，API Qty 20，商品主區活動 11/12 至 11/30。會員券、點數與卡回饋未計入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ08A900IXL3K/000001_1753349026.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ08-A900IXL3K",
@@ -1677,11 +1677,11 @@
     "name": "12公升 PCI 自動除菌離子除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 7511,
-      "converted": 7511,
-      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 9499,
+      "converted": 9499,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-04 人工核對當日PChome exact商品ID DMBQ08-A900JPCL1：【SHARP 夏普】12公升PCI自動除菌離子除濕機(DW-PT12HT-W)；【SHARP 夏普】12公升PCI自動除菌離子除濕機(DW-PT12HT-W)；Price.Low=7511元，Qty=20。原HTML主商品另讀。不扣個人券、點數、信用卡；送貨安裝請確認。"
+      "note": "PChome DMBQ08-A900JPCL1 原商品主區公開價 NT$9,499，購買按鈕可用，API Qty 20。會員券、點數與卡回饋未計入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ08A900JPCL1/000001_1770962000.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ08-A900JPCL1",
@@ -2071,11 +2071,11 @@
     "name": "23 公升超變頻清淨除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 23039,
-      "converted": 23039,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 23575,
+      "converted": 23575,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$23039，API Qty 18；個人券、點數、信用卡回饋及配送安裝費另計。"
+      "note": "PChome DMBQ4K-A900I752Z 原商品主區公開價 NT$23,575，購買按鈕可用，API Qty 17。會員券、點數與卡回饋未計入。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h2d/h02/421140862271518.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ4K-A900I752Z",

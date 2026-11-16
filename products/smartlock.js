@@ -601,11 +601,11 @@
     "name": "7300 五合一把手式電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 15200,
-      "converted": 15200,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "amount": 16000,
+      "converted": 16000,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-10-31 同一主商品7300 WiFi版16000元，單件95折15200元；CTA加入購物車與立即購買，非相關商品價格。 活動10/30至11/15 23:59:59，不計會員券、點數或信用卡回饋。"
+      "note": "PChome DQBS4N-A900I7LS6 原商品主區公開價 NT$16,000，購買按鈕可用，API Qty 9。會員券、點數與卡回饋未計入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900I7LS6/000001_1768190214.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900I7LS6",
@@ -699,11 +699,11 @@
     "name": "DDL610 防潑水五合一電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 17765,
-      "converted": 17765,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "amount": 18700,
+      "converted": 18700,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-10-31 DDL610原主商品18700元，單件95折17765元；含安裝／原廠三年保固。 活動10/30至11/15 23:59:59，不計會員券、點數或信用卡回饋。"
+      "note": "PChome DQBS4N-A900JPZMY 原商品主區公開價 NT$18,700，購買按鈕可用，API Qty 5。會員券、點數與卡回饋未計入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900JPZMY/000001_1770615435.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900JPZMY",
@@ -797,11 +797,11 @@
     "name": "ALPHA VP 貓眼推拉電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 22325,
-      "converted": 22325,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "amount": 23500,
+      "converted": 23500,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-10-31 ALPHA VP主商品23500元，單件95折22325元；非其他鎖型推薦價。 活動10/30至11/15 23:59:59，不計會員券、點數或信用卡回饋。"
+      "note": "PChome DQBS4N-A900I7PXH 原商品主區公開價 NT$23,500，購買按鈕可用，API Qty 17。會員券、點數與卡回饋未計入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900I7PXH/000001_1782804290.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900I7PXH",
@@ -895,11 +895,11 @@
     "name": "702 FVP 人臉貓眼智能門鎖",
     "price": {
       "currency": "TWD",
-      "amount": 23750,
-      "converted": 23750,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "amount": 25000,
+      "converted": 25000,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-10-31 702 FVP主商品25000元，單件95折23750元；同頁明示人臉／貓眼／WiFi版。 活動10/30至11/15 23:59:59，不計會員券、點數或信用卡回饋。"
+      "note": "PChome DQBS4N-A900IZX3T 原商品主區公開價 NT$25,000，購買按鈕可用，API Qty 12。會員券、點數與卡回饋未計入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900IZX3T/000001_1782804390.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900IZX3T",
@@ -993,11 +993,11 @@
     "name": "709-FVP 人臉貓眼七合一電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 30875,
-      "converted": 30875,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "amount": 32500,
+      "converted": 32500,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-10-31 709-FVP主商品32500元，單件95折30875元。 活動10/30至11/15 23:59:59，不計會員券、點數或信用卡回饋。"
+      "note": "PChome DQBS4N-A900I7PXE 原商品主區公開價 NT$32,500，購買按鈕可用，API Qty 12。會員券、點數與卡回饋未計入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900I7PXE/000001_1779064763.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900I7PXE",
@@ -1091,11 +1091,11 @@
     "name": "EASYKEY DDL801 推拉式智能門鎖",
     "price": {
       "currency": "TWD",
-      "amount": 20852,
-      "converted": 20852,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "amount": 21950,
+      "converted": 21950,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-10-31 DDL801星空灰主商品21950元，頁實顯折扣價20852元，不自行改寫四捨五入。 活動10/30至11/15 23:59:59，不計會員券、點數或信用卡回饋。"
+      "note": "PChome DQBS4N-A900JBQF3 原商品主區公開價 NT$21,950，購買按鈕可用，API Qty 20。會員券、點數與卡回饋未計入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900JBQF3/000001_1782804231.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900JBQF3",
@@ -2020,9 +2020,9 @@
     "price": {
       "currency": "HKD",
       "amount": 9638,
-      "converted": 40433,
+      "converted": 40440,
       "basis": "retailer_current",
-      "confidence": "EasyLock 香港 2026-08-28 exact-model 公開促銷價；ExchangeRate-API 2026-11-15 匯率換算",
+      "confidence": "EasyLock 香港 2026-08-28 exact-model 公開促銷價；ExchangeRate-API 2026-11-16 匯率換算",
       "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。"
     },
     "installation": {

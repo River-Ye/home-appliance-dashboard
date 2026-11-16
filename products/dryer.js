@@ -532,10 +532,10 @@
     "image": "https://cs-a.ecimg.tw/items/DPAI1PA900B8S4H/000001_1762877677.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 29911,
-      "converted": 29911,
-      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DPAI1P-A900B8S4H 原商品主區公開價 NT$29,911，購買按鈕可用，API Qty 7，商品主區活動 11/14 至 11/16。會員券、點數與卡回饋未計入。",
+      "amount": 32000,
+      "converted": 32000,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DPAI1P-A900B8S4H 原商品主區公開價 NT$32,000，購買按鈕可用，API Qty 7。會員券、點數與卡回饋未計入。",
       "basis": "retailer_current"
     },
     "channel": "tw",

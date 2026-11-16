@@ -1475,11 +1475,11 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR1WA900K4MYS/000001_1781748945.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 73470,
-      "converted": 73470,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "amount": 79000,
+      "converted": 79000,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome 原商品主區及 SKU DMBR1W-A900K4MYS 公開折扣價 NT$73,470。API Qty 10，以通路配送、安裝條件為準。"
+      "note": "PChome DMBR1W-A900K4MYS 原商品主區公開價 NT$79,000，購買按鈕可用，API Qty 10。會員券、點數與卡回饋未計入。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1680,11 +1680,11 @@
     "name": "免安裝自動 6 人份洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 14959,
-      "converted": 14959,
-      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
+      "amount": 16999,
+      "converted": 16999,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-04 晚間原生Chrome覆核：DGF-601主商品公開顯示NT$14959，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。"
+      "note": "PChome DMBR17-A900IHTZ3 原商品主區公開價 NT$16,999，購買按鈕可用，API Qty 13。會員券、點數與卡回饋未計入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR17A900IHTZ3/000001_1777540146.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR17-A900IHTZ3",
@@ -3629,11 +3629,11 @@
     "topPick": false,
     "price": {
       "currency": "TWD",
-      "amount": 28704,
-      "converted": 28704,
+      "amount": 31200,
+      "converted": 31200,
       "basis": "retailer_current",
-      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-02 PChome H600主商品28704元、可訂購，非快速出貨及安裝；10/1–10/31贈鎖活動已過期不當新贈品承諾，H500相關品25600不混價。"
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DMBR25-A900IUN3O 原商品主區公開價 NT$31,200，購買按鈕可用，API Qty 2。會員券、點數與卡回饋未計入。"
     },
     "installation": {
       "status": "excluded",

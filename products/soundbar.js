@@ -1005,15 +1005,15 @@
     "name": "Q 系列 7.1.2 聲道 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 33210,
-      "converted": 33210,
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
-      "note": "HOTAI購原頁以完整 HW-QS90H-ZW 型號標示新品單件主價 NT$33,210（正常價 NT$34,870）；瀏覽器顯示庫存少於 10 件且加入購物車與立即購買可用。小蔡電器出貨，常溫宅配滿 NT$349 免運，無安裝。需註冊和泰會員並以一般信用卡綁定和泰PAY，無車主、聯名卡或點數門檻；車主首購及滿額點數為分開列示的額外活動。",
+      "amount": 31550,
+      "converted": 31550,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "小蔡電器同型無安裝單機，原頁選定唯一規格公開 NT$31,550；頁面購買資料 ShopEnable=true、IsNothing=false。到府運費未明示，點數、滿額折抵及贈品未計。原 HOTAI購 同型主價 NT$33,210。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900K5489/000001_1782988490.jpg",
-    "buyUrl": "https://www.hotaigo.com.tw/productdetail/hotai1787919594-hw-qs90h-zw.html",
-    "buyLabel": "HOTAI購（小蔡電器）",
+    "buyUrl": "https://www.3c3c.com.tw/shop/itemDetail.aspx?m=16&mNo1=HW-QS90H-ZW&p=256",
+    "buyLabel": "小蔡電器",
     "specs": [
       "7.1.2 聲道",
       "Q 系列",
@@ -1095,7 +1095,7 @@
     },
     "installation": {
       "status": "excluded",
-      "note": "此賣場為單機宅配，未含安裝；和泰PAY 可綁一般信用卡。"
+      "note": "小蔡電器刊登明示無安裝；壁掛施工另行安排，宅配費用下單前確認。"
     }
   },
   {
@@ -1209,10 +1209,10 @@
     "name": "2.0 聲道單件式藍牙 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 7990,
-      "converted": 7990,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
-      "note": "Yahoo 原商品頁停售；改用 PChome 同型新品 SKU DMAAMT-A900I5HHO。主商品和 API 型號一致，API Qty 17，公開價 NT$7990；未扣個人券、點數或信用卡回饋。",
+      "amount": 7590,
+      "converted": 7590,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DMAAMT-A900I5HHO 原商品主區公開價 NT$7,590，購買按鈕可用，API Qty 17，商品主區活動 11/02 至 12/01。會員券、點數與卡回饋未計入。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAMTA900I5HHO/000001_1778661010.jpg",
@@ -2009,8 +2009,8 @@
     "price": {
       "currency": "USD",
       "amount": 1299.99,
-      "converted": 42790,
-      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-11-15 匯率換算"
+      "converted": 42795,
+      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-11-16 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/2C2sn9CKoKFdIyd94Gm9z5/f3019d4e721511167ebe5c229bf490dd/heston-120_plp.jpg",
     "buyUrl": "https://www.marshall.com/us/en/product/heston-120",
@@ -2109,8 +2109,8 @@
     "price": {
       "currency": "USD",
       "amount": 699.99,
-      "converted": 23041,
-      "confidence": "2026-10-24 人工核對 www.marshall.com 同型號與所選版本公開價 USD 699.99，可下單；未扣會員、信用卡或點數。；ExchangeRate-API 2026-11-15 匯率換算",
+      "converted": 23043,
+      "confidence": "2026-10-24 人工核對 www.marshall.com 同型號與所選版本公開價 USD 699.99，可下單；未扣會員、信用卡或點數。；ExchangeRate-API 2026-11-16 匯率換算",
       "basis": "retailer_current"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/3yitHqjPBTgQk5qRE72PSn/2788206646aa153f71f2c0ebefaff580/Heston-60-black_plp_800x800-v3.jpeg",
@@ -2552,14 +2552,14 @@
       "status": "found",
       "amount": 176091,
       "currency": "JPY",
-      "converted": 36276,
+      "converted": 36279,
       "sourceUrl": "https://kakaku.com/item/K0001712395/pricehistory/",
       "sourceTitle": "価格.com：JBL BAR 1300MK2 [ブラック] 価格推移",
       "evidenceSnippet": "価格.com 日別價格歷史顯示 exact-model「JBL BAR 1300MK2 [ブラック]」於 2026-06-17 的新品最低價為 ¥176,091；2025-10 初始價格為 ¥205,306。",
       "sourceKind": "price_history",
       "confidence": "medium",
       "checkedAt": "2026-08-25",
-      "note": "採日本市場 exact-model 公開價格歷史並依 2026-11-15 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
+      "note": "採日本市場 exact-model 公開價格歷史並依 2026-11-16 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -3629,9 +3629,9 @@
     "price": {
       "currency": "USD",
       "amount": 699,
-      "converted": 23008,
+      "converted": 23011,
       "basis": "retailer_current",
-      "confidence": "2026-10-19 人工核對 Sonos US 官方黑色 BMULTUS1BLK 公開單機 US$699 與 Available now/Add to cart；ExchangeRate-API 2026-11-15 匯率換算，未含國際運費與進口稅。"
+      "confidence": "2026-10-19 人工核對 Sonos US 官方黑色 BMULTUS1BLK 公開單機 US$699 與 Available now/Add to cart；ExchangeRate-API 2026-11-16 匯率換算，未含國際運費與進口稅。"
     },
     "installation": {
       "status": "not_stated",

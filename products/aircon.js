@@ -3535,18 +3535,18 @@
       "currency": "TWD",
       "amount": 45900,
       "converted": 45900,
-      "confidence": "PChome 24h exact-pair 完整室內外機新品價 2026-08-14 可公開重現現價；型號與室內外機完整組合已核對",
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
       "scope": "complete_system",
-      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
+      "note": "原 PChome API 不再回傳刊登商品。Yahoo 自營原頁整組 MS63IC-HS8 / MA63IC-HS8 仍可下單，公開單件 NT$45,900，含標準安裝與舊機回收；額外配管、鑽孔、室外機架、樓層、配電另計。偏遠與外島不配送。"
     },
     "installation": {
       "status": "included_basic",
-      "note": "PChome 公開完整組價標示含運、基本安裝與舊機回收；超額配管、鑽孔、室外機架、樓層、配電與危險施工另計。"
+      "note": "Yahoo 自營完整室內外機組含標準安裝及舊機回收；超額配管、鑽孔、室外機架、樓層、配電與危險施工另計。偏遠與外島不配送。"
     },
     "image": "https://www.tecohome.com.tw/upload/products/01_air_con/HS8%E5%8E%BB%E8%83%8C.png",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DPAFFS-A900I4U5B",
-    "buyLabel": "PChome（原商品已售完，查看供貨）",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=12339265",
+    "buyLabel": "Yahoo購物中心",
     "specs": [
       "型式：一對一分離式變頻冷專",
       "組合型號：室內機 MS63IC-HS8；室外機 MA63IC-HS8",
@@ -3658,20 +3658,20 @@
     "name": "TECO MS80IC-HS8 / MA80IC-HS8 一對一分離式變頻冷專",
     "price": {
       "currency": "TWD",
-      "amount": 60900,
-      "converted": 60900,
-      "confidence": "PChome 24h exact-pair 完整室內外機新品價 2026-08-14 可公開重現現價；型號與室內外機完整組合已核對",
+      "amount": 52900,
+      "converted": 52900,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
       "scope": "complete_system",
-      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
+      "note": "原 PChome API 不再回傳刊登商品。Yahoo 自營原頁整組 MS80IC-HS8 / MA80IC-HS8 仍可下單，公開單件 NT$52,900，含標準安裝與舊機回收；額外配管、鑽孔、室外機架、樓層、配電另計。偏遠與外島不配送。"
     },
     "installation": {
       "status": "included_basic",
-      "note": "PChome 公開完整組價標示含運、基本安裝與舊機回收；超額配管、鑽孔、室外機架、樓層、配電與危險施工另計。"
+      "note": "Yahoo 自營完整室內外機組含標準安裝及舊機回收；超額配管、鑽孔、室外機架、樓層、配電與危險施工另計。偏遠與外島不配送。"
     },
     "image": "https://www.tecohome.com.tw/upload/products/01_air_con/HS8%E5%8E%BB%E8%83%8C.png",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DPAFFS-A900I4UD2",
-    "buyLabel": "PChome（原商品已售完，查看供貨）",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=12339269",
+    "buyLabel": "Yahoo購物中心",
     "specs": [
       "型式：一對一分離式變頻冷專",
       "組合型號：室內機 MS80IC-HS8；室外機 MA80IC-HS8",

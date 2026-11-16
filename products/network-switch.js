@@ -147,17 +147,17 @@
       "currency": "TWD",
       "amount": 1260,
       "converted": 1260,
-      "confidence": "PChome 24h 2026-08-24 exact-model 台灣原廠保固新品公開價",
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
+      "note": "原 PChome 刊登未回傳商品。替代刊登 GS308 台灣公司貨，公開價 NT$1,260、API Qty 20；原頁規格圖核對 v3 的 3.04 W 最大功耗、158×101×29 mm、0–40°C 和台灣三年保固。"
     },
     "installation": {
       "status": "excluded",
       "note": "通路價格只含交換器本體，不含弱電箱施工、機架固定、網路配線、插座增設或通風改造。"
     },
-    "image": "https://cs-a.ecimg.tw/items/DRAF4HA9008XMTH/000001_1606809222.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DRAF4H-A9008XMTH",
-    "buyLabel": "PChome 24h（原通路缺貨，查看供貨）",
+    "image": "https://img.pchome.com.tw/cs/items/DRAFBYA900KAR24/000001_1785747183.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DRAFBY-A900KAR24",
+    "buyLabel": "PChome 24h 購物",
     "switchProfile": {
       "rj45PortCount": 8,
       "speedTier": "1g",
@@ -2354,19 +2354,19 @@
     "type": "10g",
     "price": {
       "currency": "TWD",
-      "amount": 19500,
-      "converted": 19500,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "amount": 24990,
+      "converted": 24990,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-10-28晚間原頁覆核：非網管QSW-3216R-8S8T網路20500元；公開每滿3000折200、最高1000，單台19500元，10/27–10/31。不含個人券、點數或信用卡回饋。"
+      "note": "原 PChome 刊登已無可購動作。PChome 同型無網管 QSW-3216R-8S8T 台灣新品公開單件 89 折 NT$24,990（11/01–11/30），API Qty 19；排除折價券、點數及持卡回饋。"
     },
     "installation": {
       "status": "excluded",
       "note": "通路價格只含交換器本體，不含弱電箱施工、機架固定、Cat 6A 配線、SFP+ 模組、光纖／DAC 線材、插座增設或主動通風改造。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFE2A900JCMNO/000001_1760585227.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DRAFE2-A900JCMNO",
-    "buyLabel": "PChome 24h",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4V-A900J952I",
+    "buyLabel": "PChome 24h 購物",
     "switchProfile": {
       "rj45PortCount": 8,
       "speedTier": "10g",

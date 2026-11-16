@@ -17,14 +17,15 @@
     "name": "16 吋 DC 微電腦定時電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 3149,
-      "converted": 3149,
-      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
+      "amount": 3913,
+      "converted": 3913,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "原 PChome API 不再回傳該刊登。myfone 網路門市同型 F-H16GND 主商品，公開網路限定價 NT$3,913，放入購物車可用；登記贈與分期金額不計。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB30A900EOQ24/000001_1753338098.png",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMAB30-A900EOQ24",
-    "buyLabel": "PChome（原通路缺貨，查看供貨）",
+    "buyUrl": "https://www.myfone.com.tw/mfo/buy/prod/P0000203018419",
+    "buyLabel": "myfone 網路門市",
     "specs": [
       "16 吋",
       "DC 變頻",

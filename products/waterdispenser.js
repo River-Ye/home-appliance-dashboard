@@ -437,9 +437,11 @@
     "image": "https://cs-a.ecimg.tw/items/DMCI0PA900HEQ1J/000001_1756977419.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 11352,
-      "converted": 11352,
-      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 12900,
+      "converted": 12900,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
+      "basis": "retailer_current",
+      "note": "PChome DMCI0P-A900HEQ1J 原商品主區公開價 NT$12,900，購買按鈕可用，API Qty 4。會員券、點數與卡回饋未計入。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1156,10 +1158,10 @@
     "image": "https://cs-a.ecimg.tw/items/DMAWEMA900GDIXH/000001_1774485785.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 18810,
-      "converted": 18810,
-      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DMAWEM-A900GDIXH 原商品主區公開價 NT$18,810，購買按鈕可用，API Qty 20，商品主區活動 11/15 至 11/16。會員券、點數與卡回饋未計入。",
+      "amount": 20900,
+      "converted": 20900,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DMAWEM-A900GDIXH 原商品主區公開價 NT$20,900，購買按鈕可用，API Qty 20。會員券、點數與卡回饋未計入。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -2166,8 +2168,8 @@
     "price": {
       "currency": "USD",
       "amount": 449.99,
-      "converted": 14812,
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。；ExchangeRate-API 2026-11-15 匯率換算",
+      "converted": 14813,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。；ExchangeRate-API 2026-11-16 匯率換算",
       "basis": "retailer_current",
       "note": "Brondell 美國 Circle RC100 原商品公開 USD 449.99，主商品購買狀態可用。海外參考，未含國際運費、進口稅、電壓／插頭及台灣保固風險。"
     },
@@ -2205,14 +2207,14 @@
       "status": "found",
       "amount": 289.99,
       "currency": "USD",
-      "converted": 9545,
+      "converted": 9546,
       "sourceUrl": "https://www.costco.com/CategoryDisplay?catalogId=10701&identifier=water-dispensers-filtration-water-filtration&storeId=10301",
       "sourceTitle": "Costco US：Brondell Circle Reverse Osmosis Water Filtration System",
       "evidenceSnippet": "Costco US exact-model 分類頁於 2026-08-28 顯示 Brondell Circle 折後 US$289.99，原價 US$369.99，優惠 US$80。",
       "sourceKind": "retailer_promo",
       "confidence": "medium",
       "checkedAt": "2026-08-28",
-      "note": "採 Costco US 公開 exact-model 折價作為本次可重現最低觀測價；未含國際運費、進口稅、耗材與台灣安裝／保固風險；依 2026-11-15 USD/TWD 匯率換算。"
+      "note": "採 Costco US 公開 exact-model 折價作為本次可重現最低觀測價；未含國際運費、進口稅、耗材與台灣安裝／保固風險；依 2026-11-16 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "common_issue",
@@ -2355,10 +2357,10 @@
     "name": "PREMIER 廚下冰溫瞬熱旗艦飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 33120,
-      "converted": 33120,
-      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DMAWI0-A900ITF3M 原商品主區公開價 NT$33,120，購買按鈕可用，API Qty 20，商品主區活動 11/15 至 11/16。會員券、點數與卡回饋未計入。",
+      "amount": 36800,
+      "converted": 36800,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DMAWI0-A900ITF3M 原商品主區公開價 NT$36,800，購買按鈕可用，API Qty 20。會員券、點數與卡回饋未計入。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWI0A900ITF3M/000001_1781688918.jpg",

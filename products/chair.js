@@ -1080,10 +1080,10 @@
     "name": "Kangaroo Pro 人體工學椅",
     "price": {
       "currency": "TWD",
-      "amount": 7590,
-      "converted": 7590,
-      "confidence": "2026-11-15 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DQBJ0A-A900IGLW6 原商品主區公開價 NT$7,590，購買按鈕可用，API Qty 5，商品主區活動 11/13 至 11/16。會員券、點數與卡回饋未計入。",
+      "amount": 7990,
+      "converted": 7990,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DQBJ0A-A900IGLW6 原商品主區公開價 NT$7,990，購買按鈕可用，API Qty 5。會員券、點數與卡回饋未計入。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ0AA900IGLW6/000001_1759990112.jpg",
@@ -2996,17 +2996,17 @@
     "recommendation": "先量座深、桌下高度與搬運動線。需要腰靠多向調節可另外比較同系列 Iskur V2 NewGen。",
     "releaseDate": "2026",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 11990,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-11-16",
-      "note": "FindPrice 與飛比只有通路報價與零售索引，指定 PChome PID 的日期價格追蹤未取得。DCBT0K-A900JNMJP 當天 API 雖列 Low 8,990 元但 Qty 0，未取得可成交同規格歷史事件。促銷、套組、粉晶與無 X 旗艦版均未移用。"
+      "converted": 11990,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DQBJ6Z-A900K1MUE",
+      "sourceTitle": "Lowcast 比價趨勢：PChome RAZER 雷蛇 Iskur V2 X NewGen 電競椅 黑綠色",
+      "evidenceSnippet": "Lowcast 同一刊登 DQBJ6Z-A900K1MUE 於 2026-11-16 收盤價為 NT$11,990。當日 PChome 同 SKU 公開價格同值，API Qty 1。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-17",
+      "note": "同型號新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -3048,6 +3048,113 @@
       "內置腰靠",
       "2D 扶手",
       "136kg",
+      "自行組裝",
+      "台灣通路"
+    ]
+  },
+  {
+    "id": "chair-razer-soma-chroma",
+    "category": "chair",
+    "brand": "Razer",
+    "model": "Soma Chroma",
+    "name": "Soma Chroma RGB 電競椅（黑色 RZ38-04260100-R3CA）",
+    "rank": 33,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "price": {
+      "currency": "TWD",
+      "amount": 16461,
+      "converted": 16461,
+      "basis": "retailer_current",
+      "confidence": "PChome 同料號原頁可購，公開折扣價 NT$16,461、網路價 NT$18,290，API Qty 10。",
+      "note": "PChome 11/04–11/30 電競椅一件九折，廠商宅配，折扣期限與配送以原賣場為準。未扣點數或信用卡回饋。"
+    },
+    "installation": {
+      "status": "excluded",
+      "note": "同料號 PC PARTY 標明自行安裝，PChome 商品採廠商宅配。下單前先確認搬運樓層與有無加購組裝。"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DCBT0KA900KA99K/000001_1785405854.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DCBT0K-A900KA99K",
+    "buyLabel": "PChome 24h購物",
+    "specs": [
+      "類型：完整 RGB 電競椅，黑色 RZ38-04260100-R3CA",
+      "椅面：布料與雙密度冷固化泡棉坐墊，鋼製骨架及五星底座",
+      "腰靠：固定弧形支撐，2D 扶手，椅背最大後仰 155°",
+      "承重：原廠最多 150 kg，建議身高 160–200 cm",
+      "尺寸：寬 67 × 深 71.5 × 高 125–135 cm，坐高 41–51 cm，座深 47 cm",
+      "重量：整椅約 24.5 kg",
+      "燈效：Chroma RGB，可經 2.4 GHz USB 接收器連接電腦或以 Bluetooth LE 連接手機控制",
+      "保固：台灣通路標示機構三年，電子零件兩年，除外項目依保固條款"
+    ],
+    "description": "具固定弧形腰靠、2D 扶手、鋼製底座與布面泡棉。Soma Chroma 著重 Chroma RGB 燈效，可由椅上面板與連線裝置控制。",
+    "pros": [
+      "固定弧形腰靠與最大 155° 後仰",
+      "台灣官網明示 150 kg 最大承重與座面尺寸",
+      "燈光可在椅上面板調整，另支援 Synapse"
+    ],
+    "cons": [
+      "腰靠固定、2D 扶手的調整幅度較有限",
+      "燈效所需行動電源、變壓器與延長線另購",
+      "亮面螢幕可能反射椅上燈光，整椅約 24.5 kg"
+    ],
+    "bestFor": "重視 Chroma RGB 整套燈效、可先試坐固定腰靠並有足夠桌下與搬運空間的使用者。",
+    "recommendation": "先量座深與桌下高度。使用亮面螢幕或常玩暗場遊戲時，可先從較低燈光亮度測試反射。",
+    "releaseDate": "2026-06",
+    "historicalLow": {
+      "status": "found",
+      "amount": 16461,
+      "currency": "TWD",
+      "converted": 16461,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DCBT0K-A900KA99K",
+      "sourceTitle": "Lowcast PChome 比價 — Razer Soma Chroma RZ38-04260100-R3CA（DCBT0K-A900KA99K）",
+      "evidenceSnippet": "同料號、同 PChome PID 的走勢列 2026-11-04 至 11-11 公開價 NT$16,461，與原通路 11/04–11/30 滿一件九折條款及 11/17 同 SKU 可購折扣價一致。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-17",
+      "note": "價格走勢個別早期日的庫存未獨立存檔。本日同通路、同一件即享九折活動可購，PChome API Qty 10，未扣點數、信用卡回饋或個人券。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-11-17",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"Razer\" \"Soma Chroma\" \"chair\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Razer%22%20%22Soma%20Chroma%22%20%22chair%22"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"Razer\" \"Soma Chroma\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Razer%22%20%22Soma%20Chroma%22"
+        },
+        {
+          "platform": "Razer Insider",
+          "targetHost": "insider.razer.com",
+          "query": "site:insider.razer.com \"Soma Chroma\" chair",
+          "queryUrl": "https://www.google.com/search?q=site%3Ainsider.razer.com%20%22Soma%20Chroma%22%20chair"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"Soma Chroma\" Razer",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22Soma%20Chroma%22%20Razer"
+        }
+      ]
+    },
+    "score": 85,
+    "voltage": "座椅機構手動調整。燈效由 USB-C PD 2.0 以上、20 W 以上供電。若用行動電源，原廠另要求至少 20,000 mAh。電源與延長線未隨附，市電變壓器須自行確認台灣 110 V／60 Hz 相容。",
+    "warranty": "PChome 台灣同料號商品圖列機構三年、電子零件兩年，正常磨損與外觀損傷依保固條款排除。保留發票經原購買通路確認捷元送修。",
+    "tags": [
+      "電競椅",
+      "Chroma RGB",
+      "固定腰靠",
+      "2D 扶手",
+      "150kg",
       "自行組裝",
       "台灣通路"
     ]

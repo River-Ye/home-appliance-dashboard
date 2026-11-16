@@ -1,24 +1,24 @@
 const EXPECTED_CATEGORY_COUNT = 37;
-const EXPECTED_PRODUCT_COUNT = 1272;
+const EXPECTED_PRODUCT_COUNT = 1277;
 const MIN_PRODUCTS_PER_CATEGORY = 20;
 const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
-  ["tv", 47],
+  ["tv", 48],
   ["soundbar", 39],
   ["fan", 21],
   ["circulator", 23],
   ["dehumidifier", 30],
   ["purifier", 29],
   ["aircon", 30],
-  ["robot", 52],
+  ["robot", 53],
   ["vacuum", 35],
   ["washer", 27],
   ["dryer", 29],
-  ["washerdryer", 36],
+  ["washerdryer", 37],
   ["garmentcare", 20],
   ["bedsheet", 30],
   ["comforter", 32],
   ["pillow", 33],
-  ["refrigerator", 52],
+  ["refrigerator", 53],
   ["cookware", 29],
   ["knife", 23],
   ["blender", 26],
@@ -32,7 +32,7 @@ const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["wifi", 58],
   ["network-switch", 20],
   ["standingdesk", 28],
-  ["chair", 31],
+  ["chair", 32],
   ["monitor", 73],
   ["monitor-light", 20],
   ["monitorarm", 26],
@@ -43,16 +43,16 @@ const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
 const DATE_PATTERN = /^(找不到|\d{4}(?:[-/.]\d{1,2}(?:[-/.]\d{1,2})?)?)$/;
 const WASHER_DRYER_CAPACITY_PATTERN = /^洗\/乾容量：\d+(?:\.\d+)?kg \/ \d+(?:\.\d+)?kg$/;
 const DIMENSION_CATEGORY_COUNTS = new Map([
-  ["tv", 47],
+  ["tv", 48],
   ["soundbar", 39],
   ["washer", 27],
   ["dryer", 29],
-  ["washerdryer", 36],
+  ["washerdryer", 37],
   ["garmentcare", 20],
   ["bedsheet", 30],
   ["comforter", 32],
   ["pillow", 33],
-  ["refrigerator", 52],
+  ["refrigerator", 53],
   ["coffee", 25],
   ["oven", 28],
   ["dishwasher", 40],
@@ -76,7 +76,7 @@ const FORBIDDEN_MEASUREMENT_LABEL_PATTERN = "(?!.*(?:包裝|外箱|紙箱|毛重
 const DIMENSION_PATTERN = new RegExp(`^尺寸：${FORBIDDEN_MEASUREMENT_LABEL_PATTERN}(未標示|查不到|${DIMENSION_SEGMENT_PATTERN}(?:；${DIMENSION_SEGMENT_PATTERN})*)$`, "i");
 const DIMENSION_CONFIDENCE_VALUES = new Set(["high", "medium", "low", "not_found"]);
 const WEIGHT_CATEGORY_COUNTS = new Map([
-  ["tv", 47],
+  ["tv", 48],
   ["soundbar", 39],
   ["coffee", 25],
   ["oven", 28],

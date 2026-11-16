@@ -16,10 +16,10 @@
     "name": "全能機械手臂旗艦掃拖王者",
     "price": {
       "currency": "TWD",
-      "amount": 33111,
-      "converted": 33111,
-      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-04 下午重新查核：PChome exact SKU DMBL1C-A900IGHHM；Price.P=33111元，Qty=20。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。",
+      "amount": 36980,
+      "converted": 36980,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DMBL1C-A900IGHHM 原商品主區公開價 NT$36,980，購買按鈕可用，API Qty 20。會員券、點數與卡回饋未計入。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900IGHHM/000001_1782870336.jpg",
@@ -114,11 +114,11 @@
     "name": "跨越奇兵旗艦掃拖王者水立方版",
     "price": {
       "currency": "TWD",
-      "amount": 32111,
-      "converted": 32111,
-      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 34980,
+      "converted": 34980,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-04 下午重新查核：PChome exact SKU DMBL1C-A900JNELR；Price.P=32111元，Qty=20。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。"
+      "note": "PChome DMBL1C-A900JNELR 原商品主區公開價 NT$34,980，購買按鈕可用，API Qty 20。會員券、點數與卡回饋未計入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JNELR/000001_1769062030.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JNELR",
@@ -399,11 +399,11 @@
     "name": "雙越野高智商旗艦級掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 24911,
-      "converted": 24911,
-      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 26980,
+      "converted": 26980,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-02 人工核對PChome原主商品與API：石頭掃地機器人 Roborock Qrevo Edge 2 Pro；Price.P=24911元、Qty=20，商品ID/原頁主價一致，可訂購；不扣個人券、點數或信用卡回饋。實際配送安裝以通路確認。"
+      "note": "PChome DMBL1C-A900JPHOP 原商品主區公開價 NT$26,980，購買按鈕可用，API Qty 20。會員券、點數與卡回饋未計入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JPHOP/000001_1782870240.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JPHOP",
@@ -498,11 +498,11 @@
     "name": "滾筒全自動洗拖烘掃地機器人",
     "price": {
       "currency": "TWD",
-      "amount": 17911,
-      "converted": 17911,
-      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 19999,
+      "converted": 19999,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-04 下午重新查核：PChome exact SKU DMBL1C-A900JA04J；Price.P=17911元，Qty=20。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。"
+      "note": "PChome DMBL1C-A900JA04J 原商品主區公開價 NT$19,999，購買按鈕可用，API Qty 20。會員券、點數與卡回饋未計入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JA04J/000001_1783562731.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JA04J",
@@ -1380,8 +1380,8 @@
     "price": {
       "currency": "EUR",
       "amount": 999,
-      "converted": 36295,
-      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-15 匯率換算",
+      "converted": 36274,
+      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-16 匯率換算",
       "note": "2026-11-04 下午覆核：原生Narwal德國URL variant52366680523028選中Schwarz Basisstation及Standardpaket；主價999EUR、劃線1299EUR，In den Warenkorb可用、2–5Tage Lieferzeit。與上午所選缺貨不同，仍未保證台灣寄送。未含國際運費、進口稅、電壓/插頭與台灣保固風險。",
       "basis": "retailer_current"
     },
@@ -1478,8 +1478,8 @@
     "price": {
       "currency": "USD",
       "amount": 551.69,
-      "converted": 18159,
-      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-11-15 匯率換算"
+      "converted": 18161,
+      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-11-16 匯率換算"
     },
     "image": "https://img.gkbcdn.com/p/2025-04-11/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438-0._w315_.jpg",
     "buyUrl": "https://www.geekbuying.com/item/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438.html",
@@ -2249,11 +2249,11 @@
     "name": "極薄滾筒掃拖機器人旗艦版",
     "price": {
       "currency": "TWD",
-      "amount": 24911,
-      "converted": 24911,
-      "confidence": "2026-11-03 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 25980,
+      "converted": 25980,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-03 人工核對PChome exact商品ID與當日API原資料：MOAV S70 Ultra Roller 極薄滾筒掃拖機器人(旗艦版)；MOAV S70 Ultra Roller 極薄滾筒掃拖機器人-旗艦版；Price.P=24911元，Qty=20。原商品頁可讀並對照主商品。不扣個人券、點數、信用卡，實際配送安裝請確認。"
+      "note": "PChome DMBL5W-A900JXBY3 原商品主區公開價 NT$25,980，購買按鈕可用，API Qty 20。會員券、點數與卡回饋未計入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL5WA900JXBY3/000001_1776393356.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL5W-A900JXBY3",
@@ -2640,8 +2640,8 @@
     "price": {
       "currency": "USD",
       "amount": 549.99,
-      "converted": 18103,
-      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-15 匯率換算",
+      "converted": 18105,
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-16 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-04 Shark美國所選黑色RV2820ZE當日原variationAPI549.99USD，available/readyToOrder均true、inStockDate為2026-11-26，交期待確認；不混白色缺貨SKU，不稱即時現貨。未含國際運費、進口稅、電壓/插頭與台灣保固風險。"
     },
@@ -2838,8 +2838,8 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 13166,
-      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-11-15 匯率換算",
+      "converted": 13167,
+      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-11-16 匯率換算",
       "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。 2026-11-01 原Costco美國QXRevo頁HTTP404，現貨與現價未確認；保留USD399.99舊參考價，含海外運稅、電力與台灣保固風險，不能推定原廠整型停產。"
     },
     "image": "https://cdn.cs.1worldsync.com/syndication/mediaserverredirect/aaaa71b7b115f7d0cbeb119d8fc3ad7b/width%281200%29.jpg",
@@ -3452,11 +3452,11 @@
     "name": "搖滾天王超薄活水滾筒掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 23911,
-      "converted": 23911,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 25980,
+      "converted": 25980,
+      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$23911，API Qty 35；個人券、點數、信用卡回饋及配送安裝費另計。"
+      "note": "PChome DMBL1C-A900K7R6R 原商品主區公開價 NT$25,980，購買按鈕可用，API Qty 20。會員券、點數與卡回饋未計入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900K7R6R/000001_1785985365.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900K7R6R",
@@ -4665,17 +4665,17 @@
       ]
     },
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 21831,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-10-23",
-      "note": "Roomba Plus 675 Combo：已查exact-model史低/歷史價格與台灣現售/預購來源，搜尋價目混含海外版本、不同基座、會員點數與現價；未核實台灣本配置可重現歷史最低點，不以本輪現價推史低。"
+      "converted": 21831,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DMBL0J-A900KKP0O",
+      "sourceTitle": "Lowcast 比價趨勢：PChome iRobot 【美國機器人】Roomba Plus 675 Combo AI高壓噴灑滾筒掃拖機器人 極夜黑",
+      "evidenceSnippet": "Lowcast 同一刊登 DMBL0J-A900KKP0O 於 2026-11-16 收盤價為 NT$21,831。當日 PChome 同 SKU 公開價格同值，API Qty 14。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-17",
+      "note": "同型號新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     }
   },
   {
@@ -4759,17 +4759,17 @@
       ]
     },
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 10431,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-10-23",
-      "note": "Roomba 115 Combo：已查exact-model史低/歷史價格與台灣現售/預購來源，搜尋價目混含海外版本、不同基座、會員點數與現價；未核實台灣本配置可重現歷史最低點，不以本輪現價推史低。"
+      "converted": 10431,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DMBL0J-A900KG6A1",
+      "sourceTitle": "Lowcast 比價趨勢：PChome iRobot 【美國機器人】Roomba 115 Combo 自動集塵纖薄延邊掃拖機器人",
+      "evidenceSnippet": "Lowcast 同一刊登 DMBL0J-A900KG6A1 於 2026-11-16 收盤價為 NT$10,431。當日 PChome 同 SKU 公開價格同值，API Qty 20。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-17",
+      "note": "同型號新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     }
   },
   {
@@ -5162,6 +5162,108 @@
         "targetHost": "reddit.com",
         "query": "site:reddit.com \"DEEBOT mini 2\"",
         "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22DEEBOT%20mini%202%22"
+      }
+    ]
+  }
+},
+{
+  "id": "robot-xiaomi-s60-pv81",
+  "category": "robot",
+  "brand": "Xiaomi",
+  "model": "PV81",
+  "name": "Xiaomi 掃拖機器人 S60 聲波震動拖（台灣版）",
+  "rank": 54,
+  "budget": "value",
+  "channel": "tw",
+  "price": {
+    "currency": "TWD",
+    "amount": 4999,
+    "converted": 4999,
+    "basis": "retailer_current",
+    "confidence": "2026-11-17 小米台灣商城獨立 S60 列 NT$4,999，貨號 4223732183 為可購。",
+    "note": "台灣小米官店標示公開售價 NT$4,999，免運優惠須依結帳條件，未計新用戶專享 95 折。"
+  },
+  "installation": {
+    "status": "not_stated",
+    "note": "配備小型充電座，使用者需自行找位置放置及接電，商品頁未標到府安裝。"
+  },
+  "image": "https://i02.appmifile.com/157_operatorx_operatorx_xm/13/08/2026/b2a7735d1a8fd8d7abed222d3ac80747.png?width=200&height=200",
+  "buyUrl": "https://buy.mi.com/tw/item/3223735413",
+  "buyLabel": "小米台灣官方商城",
+  "specs": [
+    "台灣 PV81 主機搭配 PV81CDZ 充電座，NCC CCAB26LP095AT9",
+    "原廠最高 28,000 Pa 吸力與每分鐘最高 15,000 次聲波震動拖",
+    "LDS 雷射導航，米家 App 支援分區清潔，主刷與邊刷抗糾結",
+    "270 mL 水箱、520 mL 集塵盒，標稱電池 5,200 mAh",
+    "主機標示 340 × 342 × 98 mm，充電座 130 × 121 × 95 mm（依原廠順序），淨重含配件約 4 kg",
+    "台規供電器 AC 100–240V／50–60Hz，使用 2.4GHz Wi-Fi"
+  ],
+  "description": "小米 S60 將聲波震動平板拖布與基本充電座帶到入門價位，體積較小，但須自行清理集塵盒和拖布。",
+  "pros": [
+    "單一小型充電座容易安排空間",
+    "支援預約、分區及選擇三段給水",
+    "台版充電器支援 100–240V／50–60Hz"
+  ],
+  "cons": [
+    "需手動清空集塵盒、洗布及補水",
+    "原廠 285 分鐘數據採不裝水箱的靜音吸塵測試",
+    "門檻 2 cm 測值有條件，應先核對家中高度"
+  ],
+  "bestFor": "預算約五千元，想自動定時吸塵並比較聲波拖地，能接受手動清潔耗材的家庭。",
+  "recommendation": "量家中門檻與家具底部，預留基座前方回充路徑。需要自動集塵或熱水洗拖布，可以比較同品牌 6 系列。",
+  "score": 82,
+  "voltage": "台規電源供應器 AC 100–240V／50–60Hz，充電座 DC 20V／1A。",
+  "warranty": "依小米台灣掃地機器人保固政策，主機和充電器 1 年，耗材不列保固。",
+  "tags": [
+    "台灣公司貨",
+    "入門掃拖",
+    "聲波震動拖",
+    "LDS",
+    "小型充電座"
+  ],
+  "releaseDate": "2026-11-06",
+  "historicalLow": {
+    "status": "not_found",
+    "amount": null,
+    "currency": "TWD",
+    "converted": null,
+    "sourceUrl": "",
+    "sourceTitle": "",
+    "evidenceSnippet": "",
+    "sourceKind": "not_found",
+    "confidence": "not_found",
+    "checkedAt": "2026-11-17",
+    "note": "台灣官店與兩站比價只支持當前掛售，媒體另有 11/6 發售報價但未取得獨立的同一新品 SKU 帶日期可購價格歷史。排除新戶折扣、S60+ 和耗材。"
+  },
+  "issueResearch": {
+    "status": "no_common_issue",
+    "checkedAt": "2026-11-17",
+    "summary": "截至查核日，查無達門檻的集中負評／災情",
+    "issues": [],
+    "checkedSources": [
+      {
+        "platform": "PTT",
+        "targetHost": "ptt.cc",
+        "query": "site:ptt.cc \"Xiaomi 掃拖機器人 S60\" \"PV81\"",
+        "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22Xiaomi%20%E6%8E%83%E6%8B%96%E6%A9%9F%E5%99%A8%E4%BA%BA%20S60%22%20%22PV81%22"
+      },
+      {
+        "platform": "Mobile01",
+        "targetHost": "mobile01.com",
+        "query": "site:mobile01.com \"Xiaomi 掃拖機器人 S60\" \"PV81\"",
+        "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Xiaomi%20%E6%8E%83%E6%8B%96%E6%A9%9F%E5%99%A8%E4%BA%BA%20S60%22%20%22PV81%22"
+      },
+      {
+        "platform": "Dcard",
+        "targetHost": "dcard.tw",
+        "query": "site:dcard.tw \"Xiaomi 掃拖機器人 S60\" \"PV81\"",
+        "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22Xiaomi%20%E6%8E%83%E6%8B%96%E6%A9%9F%E5%99%A8%E4%BA%BA%20S60%22%20%22PV81%22"
+      },
+      {
+        "platform": "Reddit",
+        "targetHost": "reddit.com",
+        "query": "site:reddit.com \"Xiaomi Robot Vacuum S60\" \"PV81\"",
+        "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Xiaomi%20Robot%20Vacuum%20S60%22%20%22PV81%22"
       }
     ]
   }
