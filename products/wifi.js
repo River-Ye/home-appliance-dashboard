@@ -900,8 +900,8 @@
     "price": {
       "currency": "USD",
       "amount": 208,
-      "converted": 6847,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。；ExchangeRate-API 2026-11-16 匯率換算",
+      "converted": 6859,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。；ExchangeRate-API 2026-11-17 匯率換算",
       "note": "2026-11-04 午後人工覆核：UniFi美國所選單台原生主頁基價189，強制附加費後總額208USD，Add to Cart可用；不採未含強制費用的schema基價。未含國際運費、進口稅、PoE供電配件與台灣保固風險。"
     },
     "image": "https://cdn.ecomm.ui.com/products/fa8dd4e4-36c8-4c79-a928-22c7bff2ce29/ab5bc8a4-6135-402e-a695-e3ea5e16d3e6.png",
@@ -981,8 +981,8 @@
     "price": {
       "currency": "USD",
       "amount": 175,
-      "converted": 5761,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-16 匯率換算",
+      "converted": 5771,
+      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-17 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-04 午後人工覆核：UniFi美國所選單台原生主頁基價159，強制附加費後總額175USD，Add to Cart可用；不採未含強制費用的schema基價。未含國際運費、進口稅、PoE供電配件與台灣保固風險。"
     },
@@ -1100,8 +1100,8 @@
     "price": {
       "currency": "USD",
       "amount": 109,
-      "converted": 3588,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-16 匯率換算",
+      "converted": 3595,
+      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-17 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-04 午後人工覆核：UniFi美國所選單台原生主頁基價99，強制附加費後總額109USD，Add to Cart可用；不採未含強制費用的schema基價。未含國際運費、進口稅、PoE供電配件與台灣保固風險。"
     },
@@ -1199,15 +1199,15 @@
     "name": "HPE Aruba Instant On Wi-Fi 6 室內 AP",
     "price": {
       "currency": "TWD",
-      "amount": 14112,
-      "converted": 14112,
-      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。",
+      "amount": 11500,
+      "converted": 11500,
+      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "商工登記在案的彩雲科技官網原頁同型 R4W02A（商品號 4438），公開 NT$11,500、10 件庫存與購物車按鈕。原廠 R4W02A 為單台 AP，需另備 PoE 或 DC 電源，價格未計點數或會員券。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJRA900JB5WP/000001_1759461654.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJR-A900JB5WP",
-    "buyLabel": "PChome",
+    "buyUrl": "https://3dc-design.com/product/aruba-instant-on-ap22-r4w02a-%E7%84%A1%E7%B7%9A%E5%9F%BA%E5%9C%B0%E5%8F%B0-%E5%AE%A4%E5%85%A7%E5%9E%8B/",
+    "buyLabel": "彩雲科技",
     "specs": [
       "Wi‑Fi 6",
       "室內型 AP",
@@ -1217,7 +1217,7 @@
     "description": "Aruba Instant On AP22 是國際商用網路品牌的 Wi-Fi 6 AP，適合想把家用分享器升級成多 AP 漫遊架構的人。",
     "pros": [
       "國際商用網路品牌，適合多 AP 漫遊與集中管理",
-      "台灣 PChome 可信通路新品，價格與圖片可查核"
+      "台灣通路同型 R4W02A 單台新品可查"
     ],
     "cons": [
       "屬商用無線基地台，不是家用一體式 NAT 路由器",
@@ -1226,8 +1226,8 @@
     "bestFor": "願意用商用 AP 佈建、重視穩定漫遊與品牌售後的小型辦公室或大坪數住宅。",
     "recommendation": "Aruba 綜合推薦：AP22 是 Instant On Wi-Fi 6 的主流均衡款，比 AP25 便宜、比 AP21 更有餘裕。",
     "score": 82,
-    "voltage": "多為 PoE/外接電源；台灣 PChome 通路，需確認是否含變壓器與安裝條件",
-    "warranty": "依 PChome/供應商頁面",
+    "voltage": "R4W02A 須另備 802.3af PoE 或相容 12V DC 電源；本報價不含供電配件",
+    "warranty": "台灣通路及原廠保固條件購前確認",
     "tags": [
       "Aruba",
       "HPE",
@@ -1586,8 +1586,8 @@
     "price": {
       "currency": "USD",
       "amount": 142,
-      "converted": 4675,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-16 匯率換算",
+      "converted": 4683,
+      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-17 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-04 午後人工覆核：UniFi美國所選單台原生主頁基價129，強制附加費後總額142USD，Add to Cart可用；不採未含強制費用的schema基價。未含國際運費、進口稅、PoE供電配件與台灣保固風險。"
     },
@@ -1692,8 +1692,8 @@
     "price": {
       "currency": "USD",
       "amount": 307,
-      "converted": 10106,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。；ExchangeRate-API 2026-11-16 匯率換算",
+      "converted": 10124,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。；ExchangeRate-API 2026-11-17 匯率換算",
       "note": "2026-11-04 午後人工覆核：UniFi美國所選單台原生主頁基價279，強制附加費後總額307USD，Add to Cart可用；不採未含強制費用的schema基價。未含國際運費、進口稅、PoE供電配件與台灣保固風險。"
     },
     "image": "https://cdn.ecomm.ui.com/products/350070a0-ae43-431b-b052-8e849c3b0a75/bad94693-bc54-4ab4-b060-9b972401941c.png",
@@ -1984,15 +1984,15 @@
     "name": "BE9500 Wi-Fi 7 三頻 2.5G Mesh 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 4899,
-      "converted": 4899,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 5499,
+      "converted": 5499,
+      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。 2026-11-01 人工核對PChome原始API同型號商品ID、名稱、正數庫存與公開網路價4899元；HTML另遇429限制，不把API當完整出貨承諾。"
+      "note": "原 PChome 頁沒有可購動作、API 無 SKU；替代主頁 DRAF09-A900IXX1D 確認 R95 單台新品和公開 NT$5,499，有效購買按鈕，同 SKU API Qty 20。二入組另有刊登，不採。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJ6A900IZ71A/000001_1755490950.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJ6-A900IZ71A",
-    "buyLabel": "PChome（原通路缺貨，查看供貨）",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DRAF09-A900IXX1D",
+    "buyLabel": "PChome 24h購物（單台）",
     "specs": [
       "Wi-Fi 7",
       "BE9500 三頻",

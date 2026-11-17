@@ -17,11 +17,11 @@
     "name": "16 公升高效型變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 15488,
-      "converted": 15488,
-      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 14608,
+      "converted": 14608,
+      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-13 PChome 原 SKU 公開價 NT$15488，API Qty 20。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。"
+      "note": "PChome DMBQ3P-A900J0L88 原商品主區公開價 NT$14,608，購買按鈕可用，API Qty 20，商品主區活動 11/17 至 11/30。會員券、點數與卡回饋未計入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900J0L88/000001_1776323540.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3P-A900J0L88",
@@ -504,10 +504,10 @@
     "name": "16 公升變頻高效型除濕機磁石黑",
     "price": {
       "currency": "TWD",
-      "amount": 17240,
-      "converted": 17240,
-      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "Yahoo 原商品主區可下單，公開價 NT$17,240。未扣會員券、點數與信用卡回饋。",
+      "amount": 15516,
+      "converted": 15516,
+      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "Yahoo 原商品主區可下單，公開價 NT$15,516；公開單件活動至 2026-12-01T06:59:59+08:00。未扣會員券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4YA900IKOCC/000001_1744795213.jpg",
@@ -602,10 +602,10 @@
     "name": "16 公升變頻高效型清淨除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 21370,
-      "converted": 21370,
-      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "Yahoo 原商品主區可下單，公開價 NT$21,370。未扣會員券、點數與信用卡回饋。",
+      "amount": 19233,
+      "converted": 19233,
+      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "Yahoo 原商品主區可下單，公開價 NT$19,233；公開單件活動至 2026-12-01T06:59:59+08:00。未扣會員券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900GTPHC/000001_1699597155.jpg",
@@ -700,10 +700,10 @@
     "name": "8 公升清淨除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 12450,
-      "converted": 12450,
-      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "Yahoo 原商品主區可下單，公開價 NT$12,450。未扣會員券、點數與信用卡回饋。",
+      "amount": 11205,
+      "converted": 11205,
+      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "Yahoo 原商品主區可下單，公開價 NT$11,205；公開單件活動至 2026-12-01T06:59:59+08:00。未扣會員券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU0FA900B1HPU/000001_1782813379.jpg",
@@ -798,11 +798,11 @@
     "name": "9 公升除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 9790,
-      "converted": 9790,
-      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 8125,
+      "converted": 8125,
+      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMBQ00-A900JB38A 原商品主區公開價 NT$9,790，購買按鈕可用，API Qty 20。會員券、點數與卡回饋未計入。"
+      "note": "PChome DMBQ00-A900JB38A 原商品主區公開價 NT$8,125，購買按鈕可用，API Qty 20，商品主區活動 11/17 至 11/30。會員券、點數與卡回饋未計入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ00A900JB38A/000001_1776329911.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ00-A900JB38A",
@@ -1579,11 +1579,11 @@
     "name": "6L 除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 5447,
-      "converted": 5447,
-      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 5137,
+      "converted": 5137,
+      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-13 PChome 原 SKU 公開價 NT$5447，API Qty 20。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。"
+      "note": "PChome DMBQ3P-A900J9FH9 原商品主區公開價 NT$5,137，購買按鈕可用，API Qty 20，商品主區活動 11/17 至 11/30。會員券、點數與卡回饋未計入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900J9FH9/000001_1776325410.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3P-A900J9FH9",
@@ -2968,6 +2968,108 @@
           "targetHost": "reddit.com",
           "query": "\"F-YV20QBH\" site:reddit.com",
           "queryUrl": "https://www.google.com/search?q=%22F-YV20QBH%22%20site%3Areddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "dehumidifier-sanlux-sdh-v160n",
+    "category": "dehumidifier",
+    "brand": "SANLUX",
+    "model": "SDH-V160N",
+    "name": "16L 變頻 WiFi 除濕機",
+    "rank": 32,
+    "budget": "mid",
+    "channel": "tw",
+    "price": {
+      "basis": "retailer_current",
+      "currency": "TWD",
+      "amount": 12540,
+      "converted": 12540,
+      "confidence": "全聯全電商 SDH-V160N 商品編號 00419511，同型號新品原頁可購，結構化庫存與主區價格一致。",
+      "note": "2026-11-18 查核：全聯全電商新品公開價 NT$12,540（原價 NT$13,340，單件 94 折至 2026-11-30 23:59:59 台灣時間）。免運，廠商預計 5 個工作天出貨；不扣券、點數、刷卡回饋或貨物稅減徵。"
+    },
+    "installation": {
+      "status": "excluded",
+      "note": "通路只含運送到府，不含搬運上樓或安裝；偏遠與離島配送有限制。獨立插電式，可依說明書接連續排水，先確認排水路徑。"
+    },
+    "image": "https://www.sanyo.com.tw/storage/app/uploads/public/686/5df/373/6865df373370d420892856.png",
+    "buyUrl": "https://pxbox.es.pxmart.com.tw/product/641144",
+    "buyLabel": "全聯全電商",
+    "specs": [
+      "除濕力：16 L／日（27°C／60% RH）；原廠建議 16–20 坪",
+      "變頻除濕、能效一級；EF 2.98 L/kWh、額定 224 W",
+      "5.2 L 水箱，水滿自動停機，支援外接連續排水",
+      "Wi‑Fi 遙控、35%–85% 濕度設定、5 種除濕模式與 4 段風速",
+      "HEPA 12 與複合功能濾網；具 UV 功能",
+      "尺寸：寬 42 x 深 26.5 x 高 66.2 cm",
+      "重量：19 kg"
+    ],
+    "description": "台灣三洋 16 L 變頻除濕機，以一級能效、5.2 L 水箱及 Wi‑Fi 控制補充中大空間的選項，也可外接排水。實際除濕表現受溫度、濕度及隔間影響。",
+    "pros": [
+      "16 L／日與一級能效，適合濕氣較重的中大空間",
+      "水箱 5.2 L，亦能外接連續排水",
+      "支援 Wi‑Fi，濕度、模式與風速可調"
+    ],
+    "cons": [
+      "機重 19 kg，跨樓層搬動前要先安排",
+      "門市建議坪數是參考；雖有複合濾網，仍應按需求另比獨立空清機"
+    ],
+    "bestFor": "需要兼顧客廳或開放區除濕、遠端控制與較大水箱的家庭。",
+    "recommendation": "列為 16 L 級均衡款；比較大空間除濕時，優先看實際濕度、擺放空間、排水條件及搬運需求。",
+    "score": 83,
+    "voltage": "AC 110V／60Hz，額定 224 W（台灣三洋原廠規格）。",
+    "warranty": "台灣三洋原廠；按官方規則購買日起 180 天內完成線上或郵寄保證書登錄可享全機 3 年，未登錄按一般 1 年保固。",
+    "tags": [
+      "16L",
+      "變頻",
+      "一級能效",
+      "WiFi",
+      "連續排水"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-11-18",
+      "note": "已核對同型號 Lowcast PChome 與 LBJ Yahoo 日期曲線、各原通路及 BigGo。Lowcast 同 PID 曾記 NT$13,580；LBJ 同 Yahoo 刊登有 NT$12,665，兩曲線均無當日庫存及折扣條件存檔，未作可信可購史低。全聯本輪公開單件價 NT$12,540 為現價，不直接作歷史最低點。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-11-18",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"SDH-V160N\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22SDH-V160N%22"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"SDH-V160N\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22SDH-V160N%22"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "site:dcard.tw \"SDH-V160N\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22SDH-V160N%22"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"SDH-V160N\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22SDH-V160N%22"
         }
       ]
     }

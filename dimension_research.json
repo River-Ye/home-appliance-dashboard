@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17",
+  "generatedAt": "2026-11-18",
   "sourcePolicy": "本站共 21 類尺寸、13 類重量研究，尺寸涵蓋 電視、Soundbar、冷氣、洗衣機、烘衣機、洗烘衣機(多功能型)、電子衣櫥（衣物護理機）、床包、棉被、枕頭、冰箱、咖啡機、多功能氣炸烤箱／微波爐、洗碗機、熱水器、免治馬桶、網路交換器、螢幕燈、滑鼠、鍵盤、滑鼠墊。優先採 exact-model／相同版本的官方產品頁、官方規格表或官方 PDF，其次為可信新品通路。只採本體／機身／明確組件的尺寸與淨重，排除包裝、外箱尺寸與毛重；來源沒有明示軸序時不自行推定。既有家電與床包、棉被、枕頭維持 cm／kg，滑鼠、鍵盤與滑鼠墊使用 mm／g 並保留來源軸序。滑鼠墊厚度、床包可包覆高度另列；棉被的填充重量與整件淨重分開記錄。冷氣分列室內機與室外機，熱泵複合熱水器分列主機與儲槽。generatedAt 為最新證據批次日期，既有逐筆 checkedAt 與 weightCheckedAt 保留原查核日期，不表示重新查核。",
   "results": [
     {
@@ -11437,6 +11437,48 @@
       "weightSourceTitle": "HITACHI 台灣 BD-SV130JJ／BD-SV130JJR 使用說明書規格",
       "weightEvidenceSnippet": "原廠右開共用手冊規格列質量約 82 kg，非外箱重量。",
       "weightCheckedAt": "2026-11-17",
+      "weightConfidence": "high",
+      "weightIsOfficialSource": true
+    },
+    {
+      "id": "washerdryer-hitachi-bd-sz150kjr",
+      "category": "washerdryer",
+      "brand": "HITACHI",
+      "model": "BD-SZ150KJR",
+      "name": "15／8 公斤日製滾筒洗脫烘（曜墨灰右開）",
+      "dimension": "尺寸：含水管 寬 63 x 深 72 x 高 106.5 cm",
+      "sourceUrl": "https://hitachi-homeappliances.com.tw/products/products_feature.php?pid=BDSZ150KJ",
+      "sourceTitle": "HITACHI 台灣 BD-SZ150KJR 右開規格表",
+      "evidenceSnippet": "官方明列右開型號、外觀含水管寬 630 × 深 720 × 高 1065 mm、本體寬 600 mm，安裝尺寸獨立標示。",
+      "checkedAt": "2026-11-18",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "weight": "重量：約 93 kg",
+      "weightSourceUrl": "https://www.hitachi-homeappliances.com.tw/image/hsct/service/download/manual/User_manual_BD-SZ150KJ.pdf",
+      "weightSourceTitle": "HITACHI 台灣 BD-SZ150KJ／BD-SZ150KJR 共用原廠手冊",
+      "weightEvidenceSnippet": "手冊規格表列質量約 93 kg，為整機。本體額定 110 V／60 Hz。",
+      "weightCheckedAt": "2026-11-18",
+      "weightConfidence": "high",
+      "weightIsOfficialSource": true
+    },
+    {
+      "id": "washerdryer-chimei-ws-h139wd",
+      "category": "washerdryer",
+      "brand": "CHIMEI",
+      "model": "WS-H139WD",
+      "name": "13／9 公斤熱泵式智能護衣滾筒洗脫烘",
+      "dimension": "尺寸：寬 61.3 x 深 69.5 x 高 98.5 cm",
+      "sourceUrl": "https://electronics.chimei.com.tw/top-load-washing-machine/roller/ws-h139wd",
+      "sourceTitle": "CHIMEI 台灣 WS-H139WD 官方規格",
+      "evidenceSnippet": "原廠外型尺寸標寬 X 深 X 高 613 × 695 × 985 mm，換算為 cm。",
+      "checkedAt": "2026-11-18",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "weight": "重量：80 kg",
+      "weightSourceUrl": "https://electronics.chimei.com.tw/top-load-washing-machine/roller/ws-h139wd",
+      "weightSourceTitle": "CHIMEI 台灣 WS-H139WD 官方規格",
+      "weightEvidenceSnippet": "同一官方型號明列製品重量 80 kg。",
+      "weightCheckedAt": "2026-11-18",
       "weightConfidence": "high",
       "weightIsOfficialSource": true
     }

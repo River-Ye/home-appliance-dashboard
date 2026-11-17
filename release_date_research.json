@@ -1,13 +1,13 @@
 {
   "summary": {
-    "checkedAt": "2026-11-16T23:41:53.186Z",
-    "total": 1277,
-    "researchedThisRun": 5,
+    "checkedAt": "2026-11-17T23:45:07.805Z",
+    "total": 1280,
+    "researchedThisRun": 3,
     "found": 373,
-    "missing": 904,
+    "missing": 907,
     "byConfidence": {
       "official": 190,
-      "not_found": 901,
+      "not_found": 904,
       "retailer_explicit": 24,
       "credible_article": 52,
       "high": 84,
@@ -15,7 +15,7 @@
       "unknown": 3
     },
     "sourcePolicy": "本輪僅新增/身份更正商品完成獨立上市日研究；既有逐筆證據及實際查核日期保留，不將來源維護範圍當成重新人工研究。",
-    "scopeNote": "2026-11-17 僅新增型號完成上市查核；既有逐筆證據保留原查核日期。"
+    "scopeNote": "2026-11-18 僅新增型號完成上市查核；既有逐筆證據保留原查核日期。"
   },
   "results": [
     {
@@ -36102,7 +36102,7 @@
       "category": "robot",
       "brand": "iRobot",
       "model": "Roomba Max 875 Combo",
-      "name": "Roomba Max 875 Combo 巨無霸滾筒掃拖機器人（預購）",
+      "name": "Roomba Max 875 Combo 巨無霸滾筒掃拖機器人",
       "previousReleaseDate": "找不到",
       "releaseDate": "找不到",
       "sourceUrl": "",
@@ -39272,6 +39272,115 @@
           "url": "https://www.mobile01.com/topicdetail.php?f=685&t=7275163",
           "title": "Mobile01 Soma Chroma 台灣上市消息",
           "outcome": "6 月 30 日已明示在台正式上市。"
+        }
+      ]
+    },
+    {
+      "id": "washerdryer-hitachi-bd-sz150kjr",
+      "category": "washerdryer",
+      "brand": "HITACHI",
+      "model": "BD-SZ150KJR",
+      "name": "15／8 公斤日製滾筒洗脫烘（曜墨灰右開）",
+      "previousReleaseDate": "找不到",
+      "checkedAt": "2026-11-18",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"BD-SZ150KJR\" HITACHI 台灣 2026 上市",
+      "sourceKind": "not_found",
+      "reason": "Mobile01 明載 4 月 14 日上市的是左開 BD-SZ150KJ；News Pie 同場報導確認右開 BD-SZ150KJR 已上市，但未明示該 SKU 的發售日期。台灣原廠規格亦不載右開發售日，不用報導刊登日或左開日期推算。",
+      "auditDisposition": "checked_exact_model_date_not_found",
+      "checkedSources": [
+        {
+          "url": "https://hitachi-homeappliances.com.tw/products/products_feature.php?pid=BDSZ150KJ",
+          "title": "HITACHI 台灣型號規格",
+          "outcome": "左開／右開型號可確證，頁面未標上市日。"
+        },
+        {
+          "url": "https://www.newspie.com.tw/hitachi-bd-sz150kj-20260414/",
+          "title": "News Pie 4 月 14 日上市報導",
+          "outcome": "明列右開完整型號與同步正式上市。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7251279",
+          "title": "Mobile01 4 月 14 日現場報導",
+          "outcome": "同系列 4 月 14 日全通路上市，正文側重左開。"
+        }
+      ]
+    },
+    {
+      "id": "washerdryer-chimei-ws-h139wd",
+      "category": "washerdryer",
+      "brand": "CHIMEI",
+      "model": "WS-H139WD",
+      "name": "13／9 公斤熱泵式智能護衣滾筒洗脫烘",
+      "previousReleaseDate": "找不到",
+      "checkedAt": "2026-11-18",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"WS-H139WD\" CHIMEI 台灣正式上市 2026",
+      "sourceKind": "not_found",
+      "reason": "原廠完整型號頁未明列正式上市時點，通路的「新機上市」文字沒有可據以判斷的日期，索引上架／截圖時間不當上市日。",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://electronics.chimei.com.tw/top-load-washing-machine/roller/ws-h139wd",
+          "title": "奇美官方型號頁",
+          "outcome": "型號規格可核，未列正式上市日期。"
+        },
+        {
+          "url": "https://pxbox.es.pxmart.com.tw/product/997069",
+          "title": "全聯新品單機頁",
+          "outcome": "可購與公開價格，未列正式上市日期。"
+        },
+        {
+          "url": "https://24h.pchome.com.tw/store/DPAO0G?p=2",
+          "title": "PChome 滾筒洗乾衣機",
+          "outcome": "通路分類標示「新機上市」，未列可核實發售日期。"
+        }
+      ]
+    },
+    {
+      "id": "dehumidifier-sanlux-sdh-v160n",
+      "category": "dehumidifier",
+      "brand": "SANLUX",
+      "model": "SDH-V160N",
+      "name": "16L 變頻 WiFi 除濕機",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "未找到明示台灣上市／發售時間的原廠或可信報導。節能證書 2026-02-04 是有效起日；更早的刊登時間證明曾有商品頁，不等於原廠上市日。",
+      "query": "\"SDH-V160N\" 台灣 上市 發售",
+      "auditQueries": [
+        "\"SDH-V160N\" 台灣 上市 發售",
+        "\"SDH-V160N\" SANLUX 三洋 2025 新品"
+      ],
+      "checkedAt": "2026-11-18",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.sanyo.com.tw/index.php/product-detail/875",
+          "title": "台灣三洋 SDH-V160N",
+          "outcome": "有完整原廠規格，無上市日。"
+        },
+        {
+          "url": "https://ea03.moeaea.gov.tw/e0410/01/purchasing/product/item.aspx?itemp0=72822",
+          "title": "能源署 1150091 節能資料",
+          "outcome": "2026-02-04 是證書有效日起，不當上市。"
+        },
+        {
+          "url": "https://www.ruten.com.tw/item/22536770406642/",
+          "title": "露天同型號舊刊登",
+          "outcome": "原頁註明 2025-09-02 上架；不當成原廠發售，也不採為買連結。"
         }
       ]
     }

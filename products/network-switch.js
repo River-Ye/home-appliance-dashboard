@@ -145,11 +145,11 @@
     "type": "1g",
     "price": {
       "currency": "TWD",
-      "amount": 1260,
-      "converted": 1260,
-      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 1155,
+      "converted": 1155,
+      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "原 PChome 刊登未回傳商品。替代刊登 GS308 台灣公司貨，公開價 NT$1,260、API Qty 20；原頁規格圖核對 v3 的 3.04 W 最大功耗、158×101×29 mm、0–40°C 和台灣三年保固。"
+      "note": "PChome DRAFBY-A900KAR24 原商品主區公開價 NT$1,155，購買按鈕可用，API Qty 20。會員券、點數與卡回饋未計入。"
     },
     "installation": {
       "status": "excluded",

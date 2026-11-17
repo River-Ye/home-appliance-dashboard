@@ -532,10 +532,10 @@
     "image": "https://cs-a.ecimg.tw/items/DPAI1PA900B8S4H/000001_1762877677.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 32000,
-      "converted": 32000,
-      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DPAI1P-A900B8S4H 原商品主區公開價 NT$32,000，購買按鈕可用，API Qty 7。會員券、點數與卡回饋未計入。",
+      "amount": 29911,
+      "converted": 29911,
+      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DPAI1P-A900B8S4H 原商品主區公開價 NT$29,911，購買按鈕可用，API Qty 7。會員券、點數與卡回饋未計入。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -1674,10 +1674,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/C0FA586EC4-SP-18495887.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 7591,
-      "converted": 7591,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
-      "note": "Yahoo 原商品主區可下單，公開折後價 NT$7,591，活動到 2026-11-16 07:30:59（台灣）。金額未扣會員券、點數及信用卡回饋。",
+      "amount": 7990,
+      "converted": 7990,
+      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "Yahoo 原商品主區可下單，公開價 NT$7,990。未扣會員券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -1981,10 +1981,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/254DF81A1E-SP-20893325.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 45908,
-      "converted": 45908,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
-      "note": "Yahoo 原商品主區可下單，公開折後價 NT$45,908，活動到 2026-11-16 07:30:59（台灣）。金額未扣會員券、點數及信用卡回饋。",
+      "amount": 49900,
+      "converted": 49900,
+      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "Yahoo 原商品主區可下單，公開價 NT$49,900。未扣會員券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "channel": "tw",

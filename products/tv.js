@@ -17,11 +17,11 @@
     "name": "65 型 OLED evo C5 4K 智慧顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 49911,
-      "converted": 49911,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 52900,
+      "converted": 52900,
+      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$49911，API Qty 20；個人券、點數、信用卡回饋及配送安裝費另計。"
+      "note": "PChome DPADYE-A900JC4MY 原商品主區公開價 NT$52,900，購買按鈕可用，API Qty 20，商品主區活動 11/17 至 11/30。會員券、點數與卡回饋未計入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADYE1900JG394/000001_1762971547.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADYE-A900JC4MY",

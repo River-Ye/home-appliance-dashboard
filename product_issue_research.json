@@ -1,9 +1,9 @@
 {
   "summary": {
-    "checkedAt": "2026-11-17T00:00:00+08:00",
-    "total": 1277,
+    "checkedAt": "2026-11-18T00:00:00+08:00",
+    "total": 1280,
     "commonIssueProducts": 55,
-    "noCommonIssueProducts": 1222,
+    "noCommonIssueProducts": 1225,
     "pendingManualReview": 0,
     "commonIssues": 56,
     "searchUnavailable": 614,
@@ -48,9 +48,10 @@
       "2026-11-15 新收錄型號逐款核對所列平台的 exact-model 查詢及候選；其餘商品的原查核日期保留。",
       "2026-11-16 新收錄型號逐款核對所列平台的 exact-model 查詢及候選；其餘商品的原查核日期保留。",
       "2026-11-16 新收錄型號逐款核對所列平台的 exact-model 查詢及候選；其餘商品的原查核日期保留。",
-      "2026-11-17 新收錄型號逐款核對所列平台的 exact-model 查詢及候選；其餘商品的原查核日期保留。"
+      "2026-11-17 新收錄型號逐款核對所列平台的 exact-model 查詢及候選；其餘商品的原查核日期保留。",
+      "2026-11-18 新收錄型號逐款核對所列平台的 exact-model 查詢及候選；其餘商品的原查核日期保留。"
     ],
-    "researchedThisRun": 5
+    "researchedThisRun": 3
   },
   "results": [
     {
@@ -209171,7 +209172,7 @@
       "category": "robot",
       "brand": "iRobot",
       "model": "Roomba Max 875 Combo",
-      "name": "Roomba Max 875 Combo 巨無霸滾筒掃拖機器人（預購）",
+      "name": "Roomba Max 875 Combo 巨無霸滾筒掃拖機器人",
       "identity": {
         "canonicalModel": "Roomba Max 875 Combo",
         "lookupLabel": "iRobot Roomba Max 875 Combo",
@@ -235238,6 +235239,482 @@
         }
       ],
       "reports": []
+    },
+    {
+      "id": "washerdryer-hitachi-bd-sz150kjr",
+      "category": "washerdryer",
+      "brand": "HITACHI",
+      "model": "BD-SZ150KJR",
+      "name": "15／8 公斤日製滾筒洗脫烘（曜墨灰右開）",
+      "identity": {
+        "canonicalModel": "BD-SZ150KJR",
+        "lookupLabel": "HITACHI BD-SZ150KJR",
+        "aliases": [
+          "BD-SZ150KJR",
+          "BDSZ150KJR",
+          "BD-SZ150KJR-H",
+          "BDSZ150KJRH"
+        ],
+        "evidenceUrl": "https://hitachi-homeappliances.com.tw/products/products_feature.php?pid=BDSZ150KJ"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "id": "washerdryer-hitachi-bd-sz150kjr",
+        "category": "washerdryer",
+        "brand": "HITACHI",
+        "model": "BD-SZ150KJR",
+        "name": "15／8 公斤日製滾筒洗脫烘（曜墨灰右開）",
+        "reviewedAt": "2026-11-18",
+        "reviewBatch": "washerdryer",
+        "decision": "no_common_issue",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT",
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"BD-SZ150KJR\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22BD-SZ150KJR%22"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"BD-SZ150KJR\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22BD-SZ150KJR%22"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"BD-SZ150KJR\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22BD-SZ150KJR%22"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"BD-SZ150KJR\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22BD-SZ150KJR%22"
+          }
+        ],
+        "candidateDisposition": "BD-SZ150KJR 完整台灣右開型號逐站搜尋。PTT 原始挑選貼文及留言已逐段讀過，型號 2 無第一人稱問題回報。Mobile01、Dcard、Reddit 的型號限定查詢沒有同型號的原始使用者候選。",
+        "representativeSources": [
+          {
+            "platform": "PTT",
+            "title": "[挑選] 滾筒洗脫烘洗衣機 - PTT E-appliance",
+            "url": "https://www.ptt.cc/bbs/E-appliance/M.1774193810.A.84D.html"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "url": "https://www.ptt.cc/bbs/E-appliance/M.1774193810.A.84D.html",
+            "title": "[挑選] 滾筒洗脫烘洗衣機 - PTT E-appliance",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-11-18",
+            "sourceExcerpt": "樓主將 BD-SZ150KJR 列為商品 2，希望挑選可右開的機種。首篇敘述的實用經驗是舊 BD-SX115FJ，部分留言明確用的是商品 3。",
+            "independentAuthors": 0,
+            "specificReason": "樓主只是詢問型號 2，自己使用過的是 BD-SX115FJ；使用者留言提到的是商品 3、Panasonic 或未寫完整型號的日立機種。原頁沒有型號 2 的第一人稱故障回報。",
+            "platform": "PTT"
+          }
+        ],
+        "reviewerNote": "BD-SZ150KJR 完整台灣右開型號逐站搜尋。PTT 原始挑選貼文及留言已逐段讀過，型號 2 無第一人稱問題回報。Mobile01、Dcard、Reddit 的型號限定查詢沒有同型號的原始使用者候選。",
+        "attestation": "manual_original_pages_reviewed",
+        "status": "completed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-11-18",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"BD-SZ150KJR\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22BD-SZ150KJR%22"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"BD-SZ150KJR\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22BD-SZ150KJR%22"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"BD-SZ150KJR\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22BD-SZ150KJR%22"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"BD-SZ150KJR\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22BD-SZ150KJR%22"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"BD-SZ150KJR\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22BD-SZ150KJR%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22BD-SZ150KJR%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-17T23:37:53.599Z",
+          "note": "本次型號限定搜尋未見目標平台同型號第一人稱原始候選。"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"BD-SZ150KJR\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22BD-SZ150KJR%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22BD-SZ150KJR%22",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.ptt.cc/bbs/E-appliance/M.1774193810.A.84D.html"
+          ],
+          "candidates": [
+            {
+              "title": "[挑選] 滾筒洗脫烘洗衣機 - PTT E-appliance",
+              "url": "https://www.ptt.cc/bbs/E-appliance/M.1774193810.A.84D.html"
+            }
+          ],
+          "inspectedAt": "2026-11-17T23:37:53.599Z",
+          "note": "樓主只是詢問型號 2，自己使用過的是 BD-SX115FJ；使用者留言提到的是商品 3、Panasonic 或未寫完整型號的日立機種。原頁沒有型號 2 的第一人稱故障回報。"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "site:dcard.tw \"BD-SZ150KJR\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22BD-SZ150KJR%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22BD-SZ150KJR%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-17T23:37:53.599Z",
+          "note": "本次型號限定搜尋未見目標平台同型號第一人稱原始候選。"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"BD-SZ150KJR\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22BD-SZ150KJR%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22BD-SZ150KJR%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-17T23:37:53.599Z",
+          "note": "本次型號限定搜尋未見目標平台同型號第一人稱原始候選。"
+        }
+      ],
+      "rejectedCandidates": [
+        {
+          "url": "https://www.ptt.cc/bbs/E-appliance/M.1774193810.A.84D.html",
+          "title": "[挑選] 滾筒洗脫烘洗衣機 - PTT E-appliance",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-11-18",
+          "sourceExcerpt": "樓主將 BD-SZ150KJR 列為商品 2，希望挑選可右開的機種。首篇敘述的實用經驗是舊 BD-SX115FJ，部分留言明確用的是商品 3。",
+          "independentAuthors": 0,
+          "specificReason": "樓主只是詢問型號 2，自己使用過的是 BD-SX115FJ；使用者留言提到的是商品 3、Panasonic 或未寫完整型號的日立機種。原頁沒有型號 2 的第一人稱故障回報。",
+          "platform": "PTT",
+          "reason": "樓主只是詢問型號 2，自己使用過的是 BD-SX115FJ；使用者留言提到的是商品 3、Panasonic 或未寫完整型號的日立機種。原頁沒有型號 2 的第一人稱故障回報。"
+        }
+      ],
+      "reports": [],
+      "evidence": []
+    },
+    {
+      "id": "washerdryer-chimei-ws-h139wd",
+      "category": "washerdryer",
+      "brand": "CHIMEI",
+      "model": "WS-H139WD",
+      "name": "13／9 公斤熱泵式智能護衣滾筒洗脫烘",
+      "identity": {
+        "canonicalModel": "WS-H139WD",
+        "lookupLabel": "CHIMEI WS-H139WD",
+        "aliases": [
+          "WS-H139WD",
+          "WSH139WD"
+        ],
+        "evidenceUrl": "https://electronics.chimei.com.tw/top-load-washing-machine/roller/ws-h139wd"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "id": "washerdryer-chimei-ws-h139wd",
+        "category": "washerdryer",
+        "brand": "CHIMEI",
+        "model": "WS-H139WD",
+        "name": "13／9 公斤熱泵式智能護衣滾筒洗脫烘",
+        "reviewedAt": "2026-11-18",
+        "reviewBatch": "washerdryer",
+        "decision": "no_common_issue",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT",
+          "Dcard"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"WS-H139WD\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22WS-H139WD%22"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"WS-H139WD\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22WS-H139WD%22"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"WS-H139WD\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22WS-H139WD%22"
+          }
+        ],
+        "candidateDisposition": "WS-H139WD 以完整台灣型號獨立搜尋 Mobile01、PTT、Dcard 的公開結果，各站均無同型號原始候選。可見販售與規格頁不屬第一人稱問題回報。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "WS-H139WD 以完整台灣型號獨立搜尋 Mobile01、PTT、Dcard 的公開結果，各站均無同型號原始候選。可見販售與規格頁不屬第一人稱問題回報。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate",
+        "status": "completed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-11-18",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"WS-H139WD\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22WS-H139WD%22"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"WS-H139WD\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22WS-H139WD%22"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"WS-H139WD\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22WS-H139WD%22"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"WS-H139WD\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22WS-H139WD%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22WS-H139WD%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-17T23:43:41.961Z",
+          "note": "此次獨立網站型號查詢未出現原始使用者候選。"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"WS-H139WD\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22WS-H139WD%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22WS-H139WD%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-17T23:43:41.962Z",
+          "note": "此次獨立網站型號查詢未出現原始使用者候選。"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "site:dcard.tw \"WS-H139WD\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22WS-H139WD%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22WS-H139WD%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-17T23:43:41.962Z",
+          "note": "此次獨立網站型號查詢未出現原始使用者候選。"
+        }
+      ],
+      "rejectedCandidates": [],
+      "reports": [],
+      "evidence": []
+    },
+    {
+      "id": "dehumidifier-sanlux-sdh-v160n",
+      "category": "dehumidifier",
+      "brand": "SANLUX",
+      "model": "SDH-V160N",
+      "name": "16L 變頻 WiFi 除濕機",
+      "identity": {
+        "canonicalModel": "SDH-V160N",
+        "aliases": [
+          "SDH-V160N",
+          "SANLUX 台灣三洋 SDH-V160N"
+        ],
+        "lookupLabel": "SANLUX 台灣三洋 SDH-V160N",
+        "evidenceUrl": "https://www.sanyo.com.tw/index.php/product-detail/875"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "id": "dehumidifier-sanlux-sdh-v160n",
+        "category": "dehumidifier",
+        "brand": "SANLUX",
+        "model": "SDH-V160N",
+        "name": "16L 變頻 WiFi 除濕機",
+        "reviewedAt": "2026-11-18",
+        "reviewBatch": "dehumidifier",
+        "decision": "no_common_issue",
+        "checkedPlatforms": [
+          "PTT",
+          "Mobile01",
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"SDH-V160N\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22SDH-V160N%22"
+          },
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"SDH-V160N\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22SDH-V160N%22"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"SDH-V160N\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22SDH-V160N%22"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"SDH-V160N\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22SDH-V160N%22"
+          }
+        ],
+        "candidateDisposition": "SDH-V160N：逐站檢視完整型號搜尋：PTT、Mobile01、Dcard、Reddit 均無同型號使用回報候選。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "在 PTT、Mobile01、Dcard、Reddit 各自查完整 SDH-V160N，亦用三洋及不含連字號的寫法交叉查找；結果只在廣泛搜尋中指向官方規格、賣場與選購文章，未見四站原始回報。賣場的規格敘述、星等和其他三洋型號不計入。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate",
+        "status": "completed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-11-18",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"SDH-V160N\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22SDH-V160N%22"
+          },
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"SDH-V160N\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22SDH-V160N%22"
+          },
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"SDH-V160N\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22SDH-V160N%22"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"SDH-V160N\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22SDH-V160N%22"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"SDH-V160N\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22SDH-V160N%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22SDH-V160N%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-17T23:39:21.177Z",
+          "note": "人工檢視 PTT 完整型號查詢，未見同型號原始使用回報。"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"SDH-V160N\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22SDH-V160N%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22SDH-V160N%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-17T23:39:21.177Z",
+          "note": "人工檢視 Mobile01 完整型號查詢，未見同型號原始使用回報。"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "site:dcard.tw \"SDH-V160N\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22SDH-V160N%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22SDH-V160N%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-17T23:39:21.177Z",
+          "note": "人工檢視 Dcard 完整型號查詢，未見同型號原始使用回報。"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"SDH-V160N\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22SDH-V160N%22",
+          "searchUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22SDH-V160N%22",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-17T23:39:21.177Z",
+          "note": "人工檢視 Reddit 完整型號查詢，未見同型號原始使用回報。"
+        }
+      ],
+      "rejectedCandidates": [],
+      "reports": [],
+      "evidence": []
     }
   ]
 }

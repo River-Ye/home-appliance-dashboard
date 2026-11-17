@@ -1393,11 +1393,11 @@
     "image": "https://cs-a.ecimg.tw/items/DPAI1PA900F1KXB/000001_1762877683.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 35910,
-      "converted": 35910,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "amount": 32900,
+      "converted": 32900,
+      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome 原商品主區及 SKU DPAI1P-A900F1KXB 公開價格 NT$35,910。API Qty 2，以通路配送、安裝條件為準。"
+      "note": "PChome DPAI1P-A900F1KXB 原商品主區公開價 NT$32,900，購買按鈕可用，API Qty 2。會員券、點數與卡回饋未計入。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -2972,11 +2972,11 @@
     "name": "10/7kg i-DOS 智慧聯網洗脫烘",
     "price": {
       "currency": "TWD",
-      "amount": 46000,
-      "converted": 46000,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "amount": 50000,
+      "converted": 50000,
+      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品主區可下單，公開折後價 NT$46,000，活動到 2026-11-16 07:30:59（台灣）。金額未扣會員券、點數及信用卡回饋。"
+      "note": "Yahoo 原商品主區可下單，公開價 NT$50,000。未扣會員券、點數與信用卡回饋。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DPAID7A900IHEVX/000001_1776657918.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/BOSCH%E5%8D%9A%E4%B8%96-10-7%E5%85%AC%E6%96%A4%E9%AB%98%E6%95%88%E6%99%BA%E6%85%A7%E6%BB%BE%E7%AD%92%E6%B4%97%E8%84%AB%E7%83%98-%E5%90%AB%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-220V%E6%8B%89%E9%9B%BB-WNC554A0TC-11546320.html",
@@ -3836,6 +3836,208 @@
           "targetHost": "reddit.com",
           "query": "site:reddit.com \"BD-SV130JJR\"",
           "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22BD-SV130JJR%22"
+        }
+      ]
+    }
+  },
+  {
+    "id": "washerdryer-hitachi-bd-sz150kjr",
+    "category": "washerdryer",
+    "brand": "HITACHI",
+    "model": "BD-SZ150KJR",
+    "name": "15／8 公斤日製滾筒洗脫烘（曜墨灰右開）",
+    "rank": 39,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "price": {
+      "currency": "TWD",
+      "amount": 64210,
+      "converted": 64210,
+      "basis": "retailer_current",
+      "confidence": "商品主頁、主價、下單按鈕與同一右開 SKU 結構化 InStock 一致。",
+      "note": "2026-11-18 樂天市場家電生活館右開整機公開 NT$64,210，含基本安裝和舊機回收。配送處理及最終運費依通路顯示。未扣樂天點數、信用卡回饋、個人折券或贈品。"
+    },
+    "buyUrl": "https://www.rakuten.com.tw/shop/dianqilife/product/fu0uxriv4/",
+    "buyLabel": "樂天市場 家電生活館",
+    "image": "https://tshop.r10s.com/d25/642/e87d/16a3/02dd/ad99/dd4a/4aa5f0b6a10748f462393f.jpg?_ex=486x486",
+    "installation": {
+      "status": "included_basic",
+      "note": "右開 SKU 刊登明示含基本安裝及舊機回收。通路預估約 7–14 天送達，最終運費依訂單。請先確認樓層搬運、進排水、接地、門向與加作費用。"
+    },
+    "specs": [
+      "洗/乾容量：15kg / 8kg",
+      "曜墨灰右開，日製滾筒與實體按鍵",
+      "烘乾：原廠型號頁標示熱泵風熨斗 2.0 與約 65°C，手冊故障排除另載烘乾時會用水",
+      "尼加拉飛瀑 2.0、洗衣膠囊行程、AI 智能感測",
+      "自主環淨 2.0 與 3D 自動槽洗淨",
+      "尺寸：含水管 寬 63 x 深 72 x 高 106.5 cm",
+      "本體寬度：60 cm",
+      "重量：約 93 kg",
+      "電源：110V／60Hz，手冊要求獨立 15A 以上插座。洗衣 230W，手冊 30°C 條件標準乾衣 1,240W"
+    ],
+    "description": "右開門提供不同的安裝動線。同系列既有 BD-SZ150KJ 是左開，兩款有各自型號與通路貨號。台灣規格為 15 kg 洗衣及 8 kg 烘衣。",
+    "pros": [
+      "可配合需要右開的洗衣空間",
+      "15 kg 洗衣及 8 kg 烘衣",
+      "實體按鍵、洗衣膠囊行程及自動清潔熱交換器"
+    ],
+    "cons": [
+      "約 93 kg，需要先確認搬運與門片開啟空間",
+      "洗完直接烘乾時須遵守 8 kg 上限",
+      "官網標示熱泵，手冊另描述水冷除濕與烘乾時用水。若在意用水請向原廠確認。"
+    ],
+    "bestFor": "洗衣區靠牆或旁有機櫃，需要右開門並希望單機洗烘的家庭。",
+    "recommendation": "先依官方安裝圖量右開門及搬運動線，確認給排水與獨立插座。常整批烘乾時，按 8 kg 容量估算。",
+    "score": 87,
+    "voltage": "110V／60Hz 台灣規格，獨立 15A 以上插座",
+    "warranty": "台灣原廠全機 1 年、機板／運轉組 3 年、主馬達 5 年",
+    "tags": [
+      "日立官網標示熱泵",
+      "日本製",
+      "右開",
+      "15／8 kg"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-11-18",
+      "note": "同門向 Lowcast PChome SKU 的歷史曲線低點 NT$65,228，高於本次已核實含基本安裝的公開現價；比價撿便宜與飛比的較低數字尚無同日同款可購、價格條件與配送安裝證據。現價不直接推為史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-11-18",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"BD-SZ150KJR\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22BD-SZ150KJR%22"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"BD-SZ150KJR\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22BD-SZ150KJR%22"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "site:dcard.tw \"BD-SZ150KJR\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22BD-SZ150KJR%22"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"BD-SZ150KJR\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22BD-SZ150KJR%22"
+        }
+      ]
+    }
+  },
+  {
+    "id": "washerdryer-chimei-ws-h139wd",
+    "category": "washerdryer",
+    "brand": "CHIMEI",
+    "model": "WS-H139WD",
+    "name": "13／9 公斤熱泵式智能護衣滾筒洗脫烘",
+    "rank": 40,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "price": {
+      "currency": "TWD",
+      "amount": 39999,
+      "converted": 39999,
+      "basis": "retailer_current",
+      "confidence": "全聯全電商 997069 原始主頁公開特價 NT$39,999、同 SKU JSON-LD NewCondition/InStock。",
+      "note": "2026-11-18 查核台灣完整機台含基本安裝及舊機回收，未扣頁面另列優惠、點數或回饋。"
+    },
+    "buyUrl": "https://pxbox.es.pxmart.com.tw/product/997069",
+    "buyLabel": "全聯全電商",
+    "image": "https://b2eimg.pxec.com.tw/00524086/d61fd19673354831af524615664d3c30.jpg",
+    "installation": {
+      "status": "included_basic",
+      "note": "全聯全電商 997069 刊登含基本安裝及舊機回收。現貨由專人約配確認安裝環境，偏遠地區、樓層搬運或特殊施工依通路確認。"
+    },
+    "specs": [
+      "洗/乾容量：13kg / 9kg",
+      "滾筒洗脫烘，熱泵除濕式乾衣",
+      "洗劑自動投入、DD 直驅變頻、溫泡洗",
+      "烘衣管道及濾網有清潔機制，仍須依手冊保養",
+      "尺寸：寬 61.3 x 深 69.5 x 高 98.5 cm",
+      "重量：80 kg",
+      "電源：110V／60Hz（台灣通路同型規格）；原廠列溫水洗衣 1,150W／乾衣 1,100W"
+    ],
+    "description": "奇美 13 kg 滾筒洗脫烘，以熱泵除濕乾衣，支援洗劑自動投入與溫水洗衣。官方規格列最大乾衣 9 kg。",
+    "pros": [
+      "13 kg 洗衣、9 kg 熱泵乾衣",
+      "支援自動投放洗劑與溫泡洗",
+      "在約 61.3 cm 寬的外形提供完整洗脫烘功能"
+    ],
+    "cons": [
+      "整機約 80 kg，需先量搬運路徑、門片空間及水管走線",
+      "完成洗衣後直接烘乾須控制在 9 kg 以內",
+      "通路約配才會核算偏遠、無電梯與增作費用"
+    ],
+    "bestFor": "想用一台 110 V 設備洗衣與乾衣，並希望免除逐次量洗劑的家庭。",
+    "recommendation": "先量 61.3 x 69.5 x 98.5 cm 外形與門片、管線空間，並以 9 kg 規劃滿載乾衣。",
+    "score": 86,
+    "voltage": "110V／60Hz 台灣通路同型規格",
+    "warranty": "台灣原廠全機 1 年、電子機板及軸受運轉組 3 年、馬達 10 年",
+    "tags": [
+      "熱泵",
+      "洗劑自動投入",
+      "13／9 kg",
+      "基本安裝"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-11-18",
+      "note": "查過同型號飛比及比價撿便宜，新品通路有目前公開報價但未取得更早同 SKU 同服務條件並可驗證庫存的低點。比價搜尋中個人拍賣與未核安裝組合不作史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-11-18",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"WS-H139WD\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22WS-H139WD%22"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"WS-H139WD\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22WS-H139WD%22"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "site:dcard.tw \"WS-H139WD\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22WS-H139WD%22"
         }
       ]
     }

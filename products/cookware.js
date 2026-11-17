@@ -2659,13 +2659,13 @@
       "currency": "TWD",
       "amount": 7900,
       "converted": 7900,
-      "confidence": "台灣林內官方 exact-model 頁公開建議售價 NT$7,900",
-      "basis": "official_suggested",
-      "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。"
+      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
+      "basis": "retailer_current",
+      "note": "主商品符合 22cm 白色 RBO-MN22(WH)，公開 NT$7,900，購物車按鈕可用，列可訂購約 3–7 天；未計登入折價。"
     },
     "image": "https://www.cbk.tw/rwd1033/Store/oImages/RBO-MN22WH.jpg",
-    "buyUrl": "https://www.rinnai.com.tw/Product/V3/378",
-    "buyLabel": "台灣林內官方資料（建議售價）（來源待確認）",
+    "buyUrl": "https://www.unbox.tw/product/%E3%80%90rinnai-%E6%9E%97%E5%85%A7%E3%80%91leggiero-%E7%84%A1%E6%B0%B4%E8%AA%BF%E7%90%86%E9%8D%8B-22cm-%E7%99%BD%E8%89%B2-rbo-mn22wh",
+    "buyLabel": "老王電器",
     "installation": {
       "status": "not_stated",
       "note": "鍋具不需到府安裝；官方頁未提供安裝服務，首次使用與清潔保養應依說明書。"

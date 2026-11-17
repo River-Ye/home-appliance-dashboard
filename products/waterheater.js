@@ -5289,11 +5289,12 @@
     "type": "gas",
     "price": {
       "currency": "TWD",
-      "amount": 22599,
-      "converted": 22599,
+      "amount": 25110,
+      "converted": 25110,
       "basis": "retailer_current",
       "scope": "single_unit",
-      "confidence": "PChome exact DH1693H NG1 Qty2；Price.P25110、公開9折Price.Low22599，未計點數回饋；2026-10-23人工核對"
+      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DPAL1N-A900KIFI0 原商品主區公開價 NT$25,110，購買按鈕可用，API Qty 20。會員券、點數與卡回饋未計入。"
     },
     "installation": {
       "status": "not_stated",

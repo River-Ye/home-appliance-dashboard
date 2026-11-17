@@ -404,8 +404,8 @@
     "price": {
       "currency": "USD",
       "amount": 79.99,
-      "converted": 2633,
-      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件；ExchangeRate-API 2026-11-16 匯率換算",
+      "converted": 2638,
+      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件；ExchangeRate-API 2026-11-17 匯率換算",
       "basis": "retailer_current",
       "note": "SharkNinja 舊頁改導 IQ701SL。Abt 原頁同型 BN701（UPC 622356561884）可購，公開售價 US$79.99 已含原廠折讓，頁面標示至 2026-11-21。未含國際運費、進口稅，須確認 120V／插頭、轉運及台灣保固風險。"
     },
@@ -439,17 +439,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 79.99,
       "currency": "USD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Ninja BN701: 露天拍賣 - 代世電子~~無低消！可開發票！可刷卡！ (12860個評價) Ninja BL610 BN701 Blender XL Ninja BL710WM 72oz Pitcher 的 的 非採用通路或含排除條件；LBJ Ninja BN701: 露天拍賣 - 世代電子商行~~可開發票/報價單/可刷卡 (42094個評價) Ninja BL610 BN701 Blender XL Ninja BL710WM 72oz Pitcher 的 的 非採用通路或含排除條件；LBJ BN701: 蝦皮商城 - B.V.D. D&G 襪子專賣 【BVD】超低襪口男隱形襪-BN701 男襪 低口襪 非採用通路或含排除條件。"
+      "converted": 2638,
+      "sourceUrl": "https://deal.ai/p/ninja-bn701-professional-plus-blender-6aef3cebb87d9ffb97235f94",
+      "sourceTitle": "Deal.ai – Ninja BN701 Professional Plus Blender price history (Abt Electronics)",
+      "evidenceSnippet": "Deal.ai 的 BN701 72 oz 逐店紀錄於 2026-11-15 20:34 UTC 擷取 Abt Electronics 新品有貨 US$79.99。Abt 美國原商品頁同型 BN701、UPC 622356561884，11/18 仍為公開售價 US$79.99（原廠即時折讓至 11/21）。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-18",
+      "note": "採同型同規格新品通路公開價，中介歷史紀錄已與同一原通路 SKU、金額及可購狀態核對。未含國際運費與進口稅；須確認 120V 電壓、插頭或轉運條件及台灣保固；依 2026-11-17 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "common_issue",
@@ -990,11 +990,11 @@
       "amount": 28200,
       "converted": 28200,
       "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
+      "note": "原刊登目前無可購主區，金額保留為先前參考價。其他 825 SpaceSaver 通路的程式或容杯組合不同，未代入。"
     },
     "image": "https://cs-a.ecimg.tw/items/QBAO0GA900A6DWK/000001_1782719457.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/QBAO0G-A900A6DWK",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原刊登供貨未確認）",
     "specs": [
       "3.8 匹",
       "數位控制",

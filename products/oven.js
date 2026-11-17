@@ -17,11 +17,11 @@
     "name": "27L 蒸烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 14310,
-      "converted": 14310,
-      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 13992,
+      "converted": 13992,
+      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMBJ02-A900IXECX 原商品主區公開價 NT$14,310，購買按鈕可用，API Qty 8，商品主區活動 11/01 至 11/30。會員券、點數與卡回饋未計入。"
+      "note": "PChome DMBJ02-A900IXECX 原商品主區公開價 NT$13,992，購買按鈕可用，API Qty 8，商品主區活動 11/17 至 11/30。會員券、點數與卡回饋未計入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ02A900G62BM/000001_1756899692.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ02-A900IXECX",
@@ -417,8 +417,8 @@
     "price": {
       "currency": "USD",
       "amount": 499.95,
-      "converted": 16458,
-      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-11-16 匯率換算"
+      "converted": 16487,
+      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-11-17 匯率換算"
     },
     "image": "https://assets.breville.com/cdn-cgi/image/width=1300,format=auto/BOV950/BOV950BSS1BUS1/pdp3.png?pdp=",
     "buyUrl": "https://www.breville.com/en-us/product/bov950",
@@ -1019,12 +1019,12 @@
       "amount": 9999,
       "converted": 9999,
       "basis": "retailer_current",
-      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "Yahoo 原商品主區可下單，公開價 NT$9,999。未扣會員券、點數與信用卡回饋。"
+      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "Yahoo 9918063 主商品顯示已售完、貨到通知，促銷價未採用。PChome 同型主商品公開 NT$9,999，加入購物車與立即購買按鈕可用，同 PID API Qty 1。未扣券、點數或卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ6QA900EO5DH/000001_1704094465.jpg",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool%E6%83%A0%E8%80%8C%E6%B5%A6-25%E5%85%AC%E5%8D%87%E7%8D%A8%E7%AB%8B%E5%BC%8F%E8%92%B8%E7%83%A4%E7%88%90-WSO2500B-9918063.html",
-    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ6Q-A900EO5DH",
+    "buyLabel": "PChome 24h購物",
     "specs": [
       "25L",
       "尺寸：寬 50 x 深 44.1 x 高 33 cm",
@@ -2321,8 +2321,8 @@
     "price": {
       "currency": "USD",
       "amount": 449.99,
-      "converted": 14813,
-      "confidence": "2026-11-04 Chrome人工核對原商品主價、所選版本及購買／預購CTA；依當日匯率換算TWD。；ExchangeRate-API 2026-11-16 匯率換算",
+      "converted": 14840,
+      "confidence": "2026-11-04 Chrome人工核對原商品主價、所選版本及購買／預購CTA；依當日匯率換算TWD。；ExchangeRate-API 2026-11-17 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-05 人工覆核：原生Chrome原buyURL選定Silver MW101，主機主區449.99USD、Quantity1、主機Addtocart可見啟用，完整載入再次確認。黑色另為MW101BK1／449.99／OutofStock，未轉移。台灣配送未確認，未含國際運費、進口稅、電壓／插頭及台灣保固風險。 不扣個人化折價券、點數、信用卡回饋或贈品價值。"
     },
