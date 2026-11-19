@@ -307,11 +307,11 @@
     "name": "17 坪 360 度高效過濾空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 7199,
-      "converted": 7199,
-      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 7999,
+      "converted": 7999,
+      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMAC2O-A900GH5RL 原商品主區公開價 NT$7,199，購買按鈕可用，API Qty 20，商品主區活動 11/17 至 11/18。會員券、點數與卡回饋未計入。"
+      "note": "PChome DMAC2O-A900GH5RL 原商品主區公開價 NT$7,999，購買按鈕可用，API Qty 20。會員券、點數與卡回饋未計入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900GH5RL/000001_1781800112.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAC2O-A900GH5RL",
@@ -1385,11 +1385,11 @@
     "name": "奈米級空氣清淨機 MUJI AC0650",
     "price": {
       "currency": "TWD",
-      "amount": 4491,
-      "converted": 4491,
-      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 4990,
+      "converted": 4990,
+      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMAC2O-A900GD1ZV 原商品主區公開價 NT$4,491，購買按鈕可用，API Qty 20，商品主區活動 11/17 至 11/18。會員券、點數與卡回饋未計入。"
+      "note": "PChome DMAC2O-A900GD1ZV 原商品主區公開價 NT$4,990，購買按鈕可用，API Qty 20。會員券、點數與卡回饋未計入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900GD1ZV/000001_1781800174.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAC2O-A900GD1ZV",
@@ -1776,11 +1776,11 @@
     "name": "寵物抗敏空氣清淨機輕量版",
     "price": {
       "currency": "TWD",
-      "amount": 9891,
-      "converted": 9891,
-      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 10990,
+      "converted": 10990,
+      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMAC2O-A900J7SBO 原商品主區公開價 NT$9,891，購買按鈕可用，API Qty 20，商品主區活動 11/17 至 11/18。會員券、點數與卡回饋未計入。"
+      "note": "PChome DMAC2O-A900J7SBO 原商品主區公開價 NT$10,990，購買按鈕可用，API Qty 20。會員券、點數與卡回饋未計入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900J7SBO/000001_1781799851.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAC2O-A900J7SBO",
@@ -1874,11 +1874,11 @@
     "name": "PuriCare 超淨化大白空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 6581,
-      "converted": 6581,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 6911,
+      "converted": 6911,
+      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$6581，API Qty 10；個人券、點數、信用卡回饋及配送安裝費另計。"
+      "note": "PChome DMAU0B-A900GI0Q1 原商品主區公開價 NT$6,911，購買按鈕可用，API Qty 10，商品主區活動 11/09 至 11/30。會員券、點數與卡回饋未計入。 活動 PR26110900141945（任選1件$6,911）至 2026-11-30T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU0BA900GI0Q1/000001_1763349087.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU0B-A900GI0Q1",
@@ -2175,11 +2175,11 @@
     "name": "迷你奈抗敏奈米級空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 7191,
-      "converted": 7191,
-      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 7990,
+      "converted": 7990,
+      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMAUFV-A900JZR3M 原商品主區公開價 NT$7,191，購買按鈕可用，API Qty 9，商品主區活動 11/17 至 11/18。會員券、點數與卡回饋未計入。"
+      "note": "PChome DMAUFV-A900JZR3M 原商品主區公開價 NT$7,990，購買按鈕可用，API Qty 9。會員券、點數與卡回饋未計入。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAUFVA900JZR3M/000001_1785203322.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUFV-A900JZR3M",

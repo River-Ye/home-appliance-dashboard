@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-18",
+  "checkedAt": "2026-11-19",
   "methodVersion": 3,
   "policy": "每筆決策須保存 exact-model 跨站查詢與人工 attestation；每個搜尋候選須逐頁保存摘要、獨立作者數與具體排除理由，研究工具不得自行生成拒絕結論。",
   "results": [
@@ -100922,6 +100922,490 @@
       "candidateReviews": [],
       "reviewerNote": "在 PTT、Mobile01、Dcard、Reddit 各自查完整 SDH-V160N，亦用三洋及不含連字號的寫法交叉查找；結果只在廣泛搜尋中指向官方規格、賣場與選購文章，未見四站原始回報。賣場的規格敘述、星等和其他三洋型號不計入。",
       "attestation": "manual_cross_site_search_reviewed_no_candidate"
+    },
+    {
+      "id": "dehumidifier-whirlpool-wdev200mtw",
+      "category": "dehumidifier",
+      "brand": "Whirlpool",
+      "model": "WDEV200MTW",
+      "name": "Coloris 20L 雙變頻清淨除濕機（雲霧白）",
+      "reviewedAt": "2026-11-19",
+      "reviewBatch": "dehumidifier",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT",
+        "Dcard"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com/topicdetail.php \"WDEV200MTW\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%2Ftopicdetail.php%20%22WDEV200MTW%22"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc/bbs/ \"WDEV200MTW\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%2Fbbs%2F%20%22WDEV200MTW%22"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "site:dcard.tw/f/ \"WDEV200MTW\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%2Ff%2F%20%22WDEV200MTW%22"
+        }
+      ],
+      "candidateDisposition": "在 Mobile01、PTT、Dcard 逐站查完整 WDEV200MTW，三站皆無完全同型號原始使用回報候選。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "reviewerNote": "WDEV200MTW：人工檢視三個論壇的 exact-model 搜尋結果。泛查只出現證書、零售及比價資訊，不能當作使用回報。另核對 Yahoo 12348612 同型號原商品頁顯示尚無任何評價，PChome 原頁結構化資料沒有評價。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate"
+    },
+    {
+      "id": "dehumidifier-whirlpool-wdev150mtw",
+      "category": "dehumidifier",
+      "brand": "Whirlpool",
+      "model": "WDEV150MTW",
+      "name": "Coloris 15L 雙變頻清淨除濕機（雲霧白）",
+      "reviewedAt": "2026-11-19",
+      "reviewBatch": "dehumidifier",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT",
+        "Dcard"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com/topicdetail.php \"WDEV150MTW\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%2Ftopicdetail.php%20%22WDEV150MTW%22"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc/bbs/ \"WDEV150MTW\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%2Fbbs%2F%20%22WDEV150MTW%22"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "site:dcard.tw/f/ \"WDEV150MTW\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%2Ff%2F%20%22WDEV150MTW%22"
+        }
+      ],
+      "candidateDisposition": "在 Mobile01、PTT、Dcard 分別檢視 WDEV150MTW 完整型號搜尋，沒有原始同型號使用回報候選。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "reviewerNote": "WDEV150MTW：逐站檢視三個論壇的完整型號搜尋，官網／能源標章、通路與比價頁只作識別，其他 WDEE 型號排除；PChome 本次主 SKU 結構化資料未列商品評價。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate"
+    },
+    {
+      "id": "vacuum-xiaomi-f204",
+      "category": "vacuum",
+      "brand": "Xiaomi",
+      "model": "F204",
+      "name": "米家無線吸塵器 4 Pro",
+      "reviewedAt": "2026-11-19",
+      "reviewBatch": "vacuum",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "Reddit",
+        "PTT",
+        "Dcard"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com (\"F204\" OR \"米家無線吸塵器 4 Pro\") 小米",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20(%22F204%22%20OR%20%22%E7%B1%B3%E5%AE%B6%E7%84%A1%E7%B7%9A%E5%90%B8%E5%A1%B5%E5%99%A8%204%20Pro%22)%20%E5%B0%8F%E7%B1%B3"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com (\"F204\" OR \"Mijia Vacuum Cleaner 4 Pro\") Xiaomi",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20(%22F204%22%20OR%20%22Mijia%20Vacuum%20Cleaner%204%20Pro%22)%20Xiaomi"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"F204\" \"米家無線吸塵器 4 Pro\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22F204%22%20%22%E7%B1%B3%E5%AE%B6%E7%84%A1%E7%B7%9A%E5%90%B8%E5%A1%B5%E5%99%A8%204%20Pro%22"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "site:dcard.tw \"F204\" \"米家無線吸塵器 4 Pro\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22F204%22%20%22%E7%B1%B3%E5%AE%B6%E7%84%A1%E7%B7%9A%E5%90%B8%E5%A1%B5%E5%99%A8%204%20Pro%22"
+        }
+      ],
+      "candidateDisposition": "F204：Mobile01 有一位讀者表示測試出問題需退回，未提症狀及確切購入型號。Reddit 同款只有購前詢問和比價機器人，未見相同問題重現。",
+      "representativeSources": [
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=728&t=7298875",
+          "title": "小米米家無線吸塵器 4 Pro｜智慧塵垢偵測、180° 廣角藍光照明"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=728&p=2&t=7298875",
+          "title": "小米米家無線吸塵器 4 Pro（第2頁）"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=728&p=3&t=7298875",
+          "title": "小米米家無線吸塵器 4 Pro（第3頁）"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7295036",
+          "title": "米家智慧滾筒洗衣機 Pro 在台上市｜附無線吸塵器 4 Pro 發表"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=728&t=7296354",
+          "title": "米家無線吸塵器4C評價"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/roFrugal/comments/1xnmail/aspirato_xiaomi_4_pro_clean/",
+          "title": "Aspirato xiaomi 4 pro clean"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/VacuumCleaners/comments/1xk440b/any_personal_experience_with_the_new_xiaomi_mijia/",
+          "title": "Any personal experience with the new Xiaomi Mijia Vacuum Cleaner 4? (r/VacuumCleaners)"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/RobotVacuums/comments/1xki7rf/any_personal_experience_with_the_new_xiaomi_mijia/",
+          "title": "Any personal experience with the new Xiaomi Mijia Vacuum Cleaner 4? (r/RobotVacuums)"
+        }
+      ],
+      "candidateReviews": [
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=728&t=7298875",
+          "title": "小米米家無線吸塵器 4 Pro｜智慧塵垢偵測、180° 廣角藍光照明",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-11-19",
+          "sourceExcerpt": "Deelin 實測 280 AW 的 4 Pro，指出隨附掛座需固定於牆面。1–10 樓回應是功能或購買看法。",
+          "independentAuthors": 0,
+          "specificReason": "原文為編輯實測，掛座固定是設計限制；本頁回覆沒有可辨識的同型號故障第一人稱。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=728&p=2&t=7298875",
+          "title": "小米米家無線吸塵器 4 Pro（第2頁）",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-11-19",
+          "sourceExcerpt": "18 樓 use.wang（文章 93552439）表示測試遇到問題，需要盒子寄回。19 樓 j0125303 還在三款間選購，詢問重量。",
+          "independentAuthors": 1,
+          "specificReason": "保留一則同主題第一人稱疑似退回個案，但未寫症狀、確切購入型號或原因，不能與其他故障合計；重量是購前提問。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=728&p=3&t=7298875",
+          "title": "小米米家無線吸塵器 4 Pro（第3頁）",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-11-19",
+          "sourceExcerpt": "23 樓是對小米通用售後的猜測；24 樓稱無法換電池；26 樓覺得沒有自動集塵可惜。",
+          "independentAuthors": 0,
+          "specificReason": "24 樓未寫購買或實作，且原廠 F204 可拆電池。26 樓指產品配置，23 樓談品牌，均未描述同型號故障。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7295036",
+          "title": "米家智慧滾筒洗衣機 Pro 在台上市｜附無線吸塵器 4 Pro 發表",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-11-19",
+          "sourceExcerpt": "Deelin 記錄活動展示的 4 Pro 建議售價 7,999 元、280AW 與雙重抗糾結。",
+          "independentAuthors": 0,
+          "specificReason": "主文是上市介紹，其他原頁回覆集中於洗衣機尺寸、價格及售後，沒有同型號吸塵器第一人稱故障。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=728&t=7296354",
+          "title": "米家無線吸塵器4C評價",
+          "outcome": "excluded",
+          "exactModel": false,
+          "reviewedAt": "2026-11-19",
+          "sourceExcerpt": "主文及購前提問均指較入門的米家無線吸塵器 4C，沒有指向 4 Pro F204。",
+          "independentAuthors": 0,
+          "specificReason": "4C 是分開販售的款式，電池、吸力及刷頭均不同，不合併至 4 Pro 同型號。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/roFrugal/comments/1xnmail/aspirato_xiaomi_4_pro_clean/",
+          "title": "Aspirato xiaomi 4 pro clean",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-11-19",
+          "sourceExcerpt": "羅馬尼亞詢價者徵詢購買心得，連到 280AW 4 Pro；唯一可見回覆為 xprice_bot 報價。",
+          "independentAuthors": 0,
+          "specificReason": "沒有作者自述使用或遇上問題，機器人價格不能作為證據；所連是海外銷售 SKU。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/VacuumCleaners/comments/1xk440b/any_personal_experience_with_the_new_xiaomi_mijia/",
+          "title": "Any personal experience with the new Xiaomi Mijia Vacuum Cleaner 4? (r/VacuumCleaners)",
+          "outcome": "excluded",
+          "exactModel": false,
+          "reviewedAt": "2026-11-19",
+          "sourceExcerpt": "主文徵詢基本款 Mijia Vacuum Cleaner 4，回覆提到沒有自立鎖定導致機身傾倒。",
+          "independentAuthors": 0,
+          "specificReason": "原文只確認 4 基本款，未辨識 F204 或 4 Pro，不能轉計該傾倒敘述。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/RobotVacuums/comments/1xki7rf/any_personal_experience_with_the_new_xiaomi_mijia/",
+          "title": "Any personal experience with the new Xiaomi Mijia Vacuum Cleaner 4? (r/RobotVacuums)",
+          "outcome": "excluded",
+          "exactModel": false,
+          "reviewedAt": "2026-11-19",
+          "sourceExcerpt": "主文同樣詢問 Mijia Vacuum Cleaner 4，唯一可見回覆只說自己有第六代。",
+          "independentAuthors": 0,
+          "specificReason": "不同型號的跨版購前詢問，沒有 F204 自用、故障症狀或維修證據。"
+        }
+      ],
+      "reviewerNote": "F204：PTT、Dcard 完整型號查詢沒有同型候選。Mobile01、Reddit 以完整型號與中英文商品名查核原頁。Mobile01 開箱主文與 27 樓、發表新聞及其他四頁回覆均核對。4／4C 等別款、價格機器人與購前猜測不作故障回報。",
+      "attestation": "manual_original_pages_reviewed"
+    },
+    {
+      "id": "mouse-zowie-za12-dw",
+      "category": "mouse",
+      "brand": "ZOWIE",
+      "model": "ZA12-DW",
+      "name": "ZA12-DW 淺灰 4K 無線電競滑鼠",
+      "reviewedAt": "2026-11-19",
+      "reviewBatch": "mouse",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "巴哈姆特",
+        "Reddit"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"ZA12-DW\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22ZA12-DW%22"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"ZA12-DW\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22ZA12-DW%22"
+        }
+      ],
+      "candidateDisposition": "ZA12-DW：台灣雙站開箱為同作者個案，另核得一篇原始正面心得；Reddit 只核得一名延遲與韌體辨識個案。各現象不同，無達門檻的集中問題。",
+      "representativeSources": [
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7276173",
+          "title": "【開箱】ZOWIE全新塗層與配色嘗試 | ZOWIE FK1-DW & ZOWIE ZA12-DW"
+        },
+        {
+          "platform": "巴哈姆特",
+          "url": "https://forum.gamer.com.tw/C.php?bsn=60030&snA=685212",
+          "title": "【心得】【開箱】ZOWIE全新塗層與配色嘗試 | ZOWIE FK1-DW & ZOWIE ZA12-DW"
+        },
+        {
+          "platform": "巴哈姆特",
+          "url": "https://forum.gamer.com.tw/C.php?bsn=60030&snA=687895",
+          "title": "【心得】ZOWIE ''ZA12-DW'' 使用心得"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Zowie/comments/1xjx4wf/major_issues_with_my_za12_dw/",
+          "title": "Major Issues with my ZA12 DW"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/MouseReview/comments/1whyf2a/zowie_za12dw/",
+          "title": "Zowie ZA12-DW"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Zowie/comments/1wd92hc/anyone_received_their_za12dw_fk1dw_yet/",
+          "title": "Anyone received their ZA12-DW / FK1-DW yet?"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/MouseReview/comments/1wd9c2b/anyone_received_their_za12dw_fk1dw_yet/",
+          "title": "Anyone received their ZA12-DW / FK1-DW yet?"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Zowie/comments/1u3pbo0/introducing_the_new_fk1dw_and_za12dw_wireless_mice/",
+          "title": "Introducing the new FK1-DW and ZA12-DW wireless mice"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Zowie/comments/1uljy0s/tech_support_megathread/",
+          "title": "Tech Support Megathread"
+        }
+      ],
+      "candidateReviews": [
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7276173",
+          "title": "【開箱】ZOWIE全新塗層與配色嘗試 | ZOWIE FK1-DW & ZOWIE ZA12-DW",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "reviewedAuthors": [
+            "Rickwang0412（同文帳號以巴哈姆特核對）"
+          ],
+          "locator": "總結的上下蓋組裝瑕疵段落",
+          "sourceExcerpt": "作者收到淺灰 ZA12-DW 實測，寫到用力壓尾端時上殼兩側組裝處外擴。",
+          "specificReason": "同一位試用品作者的單件外殼現象，與巴哈姆特同文同人物去重，沒有第二站獨立同問題。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-19",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "platform": "巴哈姆特",
+          "url": "https://forum.gamer.com.tw/C.php?bsn=60030&snA=685212",
+          "title": "【心得】【開箱】ZOWIE全新塗層與配色嘗試 | ZOWIE FK1-DW & ZOWIE ZA12-DW",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "Rickwang0412"
+          ],
+          "locator": "一樓作者與總結末段",
+          "sourceExcerpt": "Rickwang0412 分列 FK1-DW 和 ZA12-DW，後者的尾端殼體在用力擠壓時外擴。",
+          "specificReason": "同作者同照片及文句的 Mobile01 開箱跨貼，不新增獨立作者，且與 Reddit 延遲個案不同。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-19",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "platform": "巴哈姆特",
+          "url": "https://forum.gamer.com.tw/C.php?bsn=60030&snA=687895",
+          "title": "【心得】ZOWIE ''ZA12-DW'' 使用心得",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "chang1031",
+            "八津愛子"
+          ],
+          "locator": "一樓 Johnny 使用段與 B1",
+          "sourceExcerpt": "chang1031 實際用淺灰 ZA12-DW 打射擊遊戲，未述故障；B1 評論主控及相對續航。",
+          "specificReason": "原作者未回報故障，留言未證為同型實測或量測，且不能與外殼或延遲個案合併。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-19",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Zowie/comments/1xjx4wf/major_issues_with_my_za12_dw/",
+          "title": "Major Issues with my ZA12 DW",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "reviewedAuthors": [
+            "National_Mode_4224"
+          ],
+          "locator": "原貼正文及作者回覆兩顆接收器的段落",
+          "sourceExcerpt": "National_Mode_4224 自述 CS2 浮動延遲和韌體工具無法辨識，稱兩個接收器均試過。",
+          "specificReason": "單一使用者的同型號個案，台灣市場來源未明，其他帳號提供建議或客服回覆且未自述相同故障。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-19",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/MouseReview/comments/1whyf2a/zowie_za12dw/",
+          "title": "Zowie ZA12-DW",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "nchvn"
+          ],
+          "locator": "原貼圖片與到貨心得、滾輪討論",
+          "sourceExcerpt": "nchvn 收貨後稱重量、顏色與握型接近需求；其他品牌滾輪抱怨指 Lamzu Atlantis。",
+          "specificReason": "同型號為正面到貨心得，其餘滑鼠的滾輪回報與 ZA12-DW 無關，沒有可合併的同型故障。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-19",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Zowie/comments/1wd92hc/anyone_received_their_za12dw_fk1dw_yet/",
+          "title": "Anyone received their ZA12-DW / FK1-DW yet?",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "Next-Examination-811"
+          ],
+          "locator": "首篇 Amazon Germany 訂單與兩型號混合到貨留言",
+          "sourceExcerpt": "作者向 Amazon 德國預購 ZA12-DW，原定到貨時間未實現，留言同時談兩款到貨。",
+          "specificReason": "德國預購與物流進度不是產品故障；未指名 ZA12-DW 的續航評語不能綁定該型。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-19",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/MouseReview/comments/1wd9c2b/anyone_received_their_za12dw_fk1dw_yet/",
+          "title": "Anyone received their ZA12-DW / FK1-DW yet?",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "Next-Examination-811"
+          ],
+          "locator": "原貼連回 r/Zowie 的跨貼框",
+          "sourceExcerpt": "原發文者把同一份德國預購討論貼至另一 subreddit。",
+          "specificReason": "相同作者、相同訂單與同一網站的跨版貼文，不能新增作者或當品質回報。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-19",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Zowie/comments/1u3pbo0/introducing_the_new_fk1dw_and_za12dw_wireless_mice/",
+          "title": "Introducing the new FK1-DW and ZA12-DW wireless mice",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "ZOWIESupport"
+          ],
+          "locator": "原廠公告及地區修訂",
+          "sourceExcerpt": "ZOWIESupport 發表兩款新尺寸並更改美國與歐洲預計供應時間。",
+          "specificReason": "原廠發表與海外物流修訂不屬使用者故障，也沒有可核對的台灣確切上市日。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-19",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Zowie/comments/1uljy0s/tech_support_megathread/",
+          "title": "Tech Support Megathread",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "Jauris",
+            "ZOWIESupport"
+          ],
+          "locator": "首篇與可見 EC2-CW 斷線、XL2566X+ 直線留言",
+          "sourceExcerpt": "板主開通全品牌支援串，原頁可見精確故障例是 EC2-CW 斷線及 XL2566X+ 螢幕異常。",
+          "specificReason": "多型號支援討論，已讀故障段落明示為其他型號，不能轉用到 ZA12-DW。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-19",
+          "reviewBasis": "manual_web_original_page"
+        }
+      ],
+      "reviewerNote": "ZA12-DW：逐站查完整型號並回看原頁，將外殼擠壓、海外預購延遲、CS2 操作與韌體問題分開。Mobile01 與巴哈姆特相同圖文去重；不把重複留言、客服、星級或相近型號當成獨立故障者。",
+      "attestation": "manual_original_pages_reviewed"
     }
   ]
 }

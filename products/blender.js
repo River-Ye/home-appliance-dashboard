@@ -405,7 +405,7 @@
       "currency": "USD",
       "amount": 79.99,
       "converted": 2638,
-      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件；ExchangeRate-API 2026-11-17 匯率換算",
+      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件；ExchangeRate-API 2026-11-19 匯率換算",
       "basis": "retailer_current",
       "note": "SharkNinja 舊頁改導 IQ701SL。Abt 原頁同型 BN701（UPC 622356561884）可購，公開售價 US$79.99 已含原廠折讓，頁面標示至 2026-11-21。未含國際運費、進口稅，須確認 120V／插頭、轉運及台灣保固風險。"
     },
@@ -449,7 +449,7 @@
       "sourceKind": "price_history",
       "confidence": "medium",
       "checkedAt": "2026-11-18",
-      "note": "採同型同規格新品通路公開價，中介歷史紀錄已與同一原通路 SKU、金額及可購狀態核對。未含國際運費與進口稅；須確認 120V 電壓、插頭或轉運條件及台灣保固；依 2026-11-17 USD/TWD 匯率換算。"
+      "note": "採同型同規格新品通路公開價，中介歷史紀錄已與同一原通路 SKU、金額及可購狀態核對。未含國際運費與進口稅；須確認 120V 電壓、插頭或轉運條件及台灣保固；依 2026-11-19 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "common_issue",
@@ -1473,11 +1473,11 @@
     "name": "免清洗多功能破壁豆漿機",
     "price": {
       "currency": "TWD",
-      "amount": 8342,
-      "converted": 8342,
-      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 9480,
+      "converted": 9480,
+      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-04 下午重新查核：PChome exact SKU DMAY01-A900GFJCO；Price.Low=8342元，Qty=9。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。"
+      "note": "PChome DMAY01-A900GFJCO 原商品主區公開價 NT$9,480，購買按鈕可用，API Qty 9。會員券、點數與卡回饋未計入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY01A900GFJCO/000001_1780310319.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAY01-A900GFJCO",

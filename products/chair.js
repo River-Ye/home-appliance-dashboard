@@ -114,10 +114,10 @@
     "name": "特仕版 2.0 人體工學椅",
     "price": {
       "currency": "TWD",
-      "amount": 11900,
-      "converted": 11900,
-      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-13 PChome 原 SKU 公開價 NT$11900，API Qty 20。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。",
+      "amount": 9999,
+      "converted": 9999,
+      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DCAKHP-A900HEQ4H 原商品主區公開價 NT$9,999，購買按鈕可用，API Qty 20。會員券、點數與卡回饋未計入。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAKHPA900HEQ4H/000001_1760581993.jpg",

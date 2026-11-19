@@ -17,11 +17,11 @@
     "name": "16 公升高效型變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 14608,
-      "converted": 14608,
-      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 15488,
+      "converted": 15488,
+      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMBQ3P-A900J0L88 原商品主區公開價 NT$14,608，購買按鈕可用，API Qty 20，商品主區活動 11/17 至 11/30。會員券、點數與卡回饋未計入。"
+      "note": "PChome DMBQ3P-A900J0L88 原商品主區公開價 NT$15,488，購買按鈕可用，API Qty 20，商品主區活動 11/12 至 11/30。會員券、點數與卡回饋未計入。 活動 PR26111200144700（任選1件享88折）至 2026-11-30T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900J0L88/000001_1776323540.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3P-A900J0L88",
@@ -798,11 +798,11 @@
     "name": "9 公升除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 8125,
-      "converted": 8125,
-      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 9790,
+      "converted": 9790,
+      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMBQ00-A900JB38A 原商品主區公開價 NT$8,125，購買按鈕可用，API Qty 20，商品主區活動 11/17 至 11/30。會員券、點數與卡回饋未計入。"
+      "note": "PChome DMBQ00-A900JB38A 原商品主區公開價 NT$9,790，購買按鈕可用，API Qty 20。會員券、點數與卡回饋未計入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ00A900JB38A/000001_1776329911.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ00-A900JB38A",
@@ -1579,11 +1579,11 @@
     "name": "6L 除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 5137,
-      "converted": 5137,
-      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 5447,
+      "converted": 5447,
+      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMBQ3P-A900J9FH9 原商品主區公開價 NT$5,137，購買按鈕可用，API Qty 20，商品主區活動 11/17 至 11/30。會員券、點數與卡回饋未計入。"
+      "note": "PChome DMBQ3P-A900J9FH9 原商品主區公開價 NT$5,447，購買按鈕可用，API Qty 20，商品主區活動 11/12 至 11/30。會員券、點數與卡回饋未計入。 活動 PR26111200144700（任選1件享88折）至 2026-11-30T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900J9FH9/000001_1776325410.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3P-A900J9FH9",
@@ -1677,11 +1677,11 @@
     "name": "12公升 PCI 自動除菌離子除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 9499,
-      "converted": 9499,
-      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 7911,
+      "converted": 7911,
+      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMBQ08-A900JPCL1 原商品主區公開價 NT$9,499，購買按鈕可用，API Qty 20。會員券、點數與卡回饋未計入。"
+      "note": "PChome DMBQ08-A900JPCL1 原商品主區公開價 NT$7,911，購買按鈕可用，API Qty 20，商品主區活動 11/18 至 11/30。會員券、點數與卡回饋未計入。 活動 PR26111800146602（任選1件$7,911）至 2026-11-30T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ08A900JPCL1/000001_1770962000.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ08-A900JPCL1",
@@ -3070,6 +3070,200 @@
           "targetHost": "reddit.com",
           "query": "site:reddit.com \"SDH-V160N\"",
           "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22SDH-V160N%22"
+        }
+      ]
+    }
+  },
+  {
+    "id": "dehumidifier-whirlpool-wdev200mtw",
+    "category": "dehumidifier",
+    "brand": "Whirlpool",
+    "model": "WDEV200MTW",
+    "name": "Coloris 20L 雙變頻清淨除濕機（雲霧白）",
+    "rank": 33,
+    "budget": "mid",
+    "channel": "tw",
+    "price": {
+      "basis": "retailer_current",
+      "currency": "TWD",
+      "amount": 16911,
+      "converted": 16911,
+      "confidence": "PChome DMBQ05-A900KLTQL-000 完整型號新品，API Qty 20，主商品 InStock 及公開折扣價一致。",
+      "note": "2026-11-19 查核：PChome 單件公開價 NT$16,911，原網路價 NT$17,900，活動至 2026-11-30 23:59:59 台灣時間。頁面列宅配滿 NT$490 免運。金額未扣退稅、點數、個人券或刷卡回饋。"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "通路頁列宅配到府，未標列安裝服務。獨立式插電機，使用連續排水時須先確認排水管路與防水。"
+    },
+    "image": "https://img.yec.tw/zp/MerchandiseImages/C9F58FC1EE-SP-23829622.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ05-A900KLTQL",
+    "buyLabel": "PChome 24h",
+    "specs": [
+      "除濕力：20 L／日（室溫 27°C／相對濕度 60%）；原廠建議約 25 坪",
+      "壓縮機與風扇雙變頻；2026 新制能源效率一級，標示能源因數 3.00 L/kWh",
+      "水箱標示 8 L、水滿容量 6.5 L，支援外接連續排水",
+      "30%–80% 濕度設定、三段出風角度、1–24 小時定時；最低風量除濕 43 dBA（原廠標示）",
+      "第 6 感、乾衣、夜間、寵物及烘乾模式，支援 UVC 與負離子功能",
+      "尺寸：寬 39 x 高 62 x 深 28 cm",
+      "重量：15.7 kg"
+    ],
+    "description": "Whirlpool Coloris 雲霧白雙變頻除濕機，20 L／日與新制一級能效適合做客廳、開放空間或晾衣區的比較。6.5 L 水滿容量可減少倒水次數，也能接管連續排水。",
+    "pros": [
+      "20 L／日與雙變頻，一級能效標示可用於同級比較",
+      "水滿容量 6.5 L，也可外接排水",
+      "三段出風角度和定時可搭配夜間、乾衣等情境"
+    ],
+    "cons": [
+      "15.7 kg，跨樓層搬運需要安排",
+      "43 dBA 是最低風量除濕值；高風速及壓縮機運轉音量應現場確認",
+      "清淨功能應依需求和獨立清淨機比較"
+    ],
+    "bestFor": "重視大客廳或開放區除濕、較大水箱與可接連續排水的家庭。",
+    "recommendation": "列為 20 L 級雙變頻新機。比較時以實際濕度、擺放位置和排水條件評估，跨隔間使用應逐區測試。",
+    "score": 84,
+    "voltage": "110V／60Hz，額定消耗電功率 278 W（同型號原廠規格圖）。",
+    "warranty": "台灣原廠 3 年產品故障保固，PChome 與 Yahoo 同型號頁均標 3 年，售後由台灣惠而浦提供。",
+    "tags": [
+      "20L",
+      "雙變頻",
+      "一級能效",
+      "連續排水",
+      "乾衣"
+    ],
+    "releaseDate": "2026-11",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-11-19",
+      "note": "Lowcast 同 PChome PID 記錄 2026-11-17 和 11-18 各日 NT$16,911，與本輪公開促銷相符，但未取得先前兩日的原通路現貨存檔。LBJ 對應刊登只查到 NT$17,900。保留 16,911 元為本輪可驗證現價。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-11-19",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com/topicdetail.php \"WDEV200MTW\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%2Ftopicdetail.php%20%22WDEV200MTW%22"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc/bbs/ \"WDEV200MTW\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%2Fbbs%2F%20%22WDEV200MTW%22"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "site:dcard.tw/f/ \"WDEV200MTW\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%2Ff%2F%20%22WDEV200MTW%22"
+        }
+      ]
+    }
+  },
+  {
+    "id": "dehumidifier-whirlpool-wdev150mtw",
+    "category": "dehumidifier",
+    "brand": "Whirlpool",
+    "model": "WDEV150MTW",
+    "name": "Coloris 15L 雙變頻清淨除濕機（雲霧白）",
+    "rank": 34,
+    "budget": "mid",
+    "channel": "tw",
+    "price": {
+      "basis": "retailer_current",
+      "currency": "TWD",
+      "amount": 13911,
+      "converted": 13911,
+      "confidence": "PChome DMBQ05-A900KLTP7-000 完整型號新品，API Qty20，主商品 InStock 與公開折扣一致。",
+      "note": "2026-11-19 查核：PChome 單件公開價 NT$13,911，網路價 NT$14,900，活動至 2026-11-30 23:59:59 台灣時間。通路列宅配滿 NT$490 免運；未扣個人券、點數、刷卡回饋或貨物稅退稅。"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "通路頁列宅配到府，未標列安裝服務。獨立式插電機，使用連續排水時須先確認排水管路與防水。"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DMBQ05A900KLTP7/i010008_1793260637.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ05-A900KLTP7",
+    "buyLabel": "PChome 24h",
+    "specs": [
+      "除濕力：15 L／日（室溫 27°C／相對濕度 60%）；原廠建議約 20 坪",
+      "壓縮機與風扇雙變頻；2026 新制能源效率一級，標示能源因數 3.00 L/kWh",
+      "水箱標示 8 L、水滿容量 6.5 L，支援外接連續排水",
+      "30%–80% 濕度設定、三段出風角度、1–24 小時定時；最低風量除濕 43 dBA（原廠標示）",
+      "第 6 感、乾衣、夜間、寵物及烘乾模式；通路列 HEPA、活性碳複合濾網",
+      "尺寸：寬 39 x 高 62 x 深 28 cm",
+      "重量：15.7 kg"
+    ],
+    "description": "Whirlpool Coloris 15 L／日雙變頻清淨除濕機，附 6.5 L 水滿容量並支援連續排水。可按空間大小比較 15 L 與 20 L，兩款佔地相同。",
+    "pros": [
+      "15 L／日與雙變頻，新制一級能效",
+      "水滿容量 6.5 L，也可外接排水",
+      "三段出風、定時及睡眠／乾衣模式適合中型空間"
+    ],
+    "cons": [
+      "機重 15.7 kg，單人跨樓層搬運要先安排",
+      "品牌標稱 43 dBA 為最低風量，不能當作高風速噪音",
+      "與 20 L 款機身相同，購買前應按實際除濕量需求選擇"
+    ],
+    "bestFor": "需要中型空間除濕、較大水箱與連續排水的家庭。",
+    "recommendation": "列為 15 L 級雙變頻新機，適合與同系列 20 L 及其他 16 L 機型依除濕量、機身、排水與價格挑選。",
+    "score": 82,
+    "voltage": "110V／60Hz，額定消耗電功率 278 W（同型號原廠規格圖）。",
+    "warranty": "PChome 同型號頁明列 3 年保固，品牌售後聯絡資訊由台灣惠而浦提供。",
+    "tags": [
+      "15L",
+      "雙變頻",
+      "一級能效",
+      "連續排水",
+      "乾衣"
+    ],
+    "releaseDate": "2026-11",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-11-19",
+      "note": "Lowcast 同 PChome 刊登記錄 2026-11-17 和 11-18 各日 NT$13,911，與本輪公開折扣相符，但未取得先前兩日的原通路現貨存檔。飛比的同型號 NT$14,900 為通路索引價，其他 WDEE15TW 及二手來源不採。保留 NT$13,911 為本輪現價。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-11-19",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com/topicdetail.php \"WDEV150MTW\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%2Ftopicdetail.php%20%22WDEV150MTW%22"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc/bbs/ \"WDEV150MTW\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%2Fbbs%2F%20%22WDEV150MTW%22"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "site:dcard.tw/f/ \"WDEV150MTW\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%2Ff%2F%20%22WDEV150MTW%22"
         }
       ]
     }

@@ -1,21 +1,21 @@
 {
   "summary": {
-    "checkedAt": "2026-11-17T23:45:07.805Z",
-    "total": 1280,
-    "researchedThisRun": 3,
-    "found": 373,
-    "missing": 907,
+    "checkedAt": "2026-11-19T00:18:24.020Z",
+    "total": 1284,
+    "researchedThisRun": 4,
+    "found": 376,
+    "missing": 908,
     "byConfidence": {
       "official": 190,
-      "not_found": 904,
-      "retailer_explicit": 24,
+      "not_found": 905,
+      "retailer_explicit": 26,
       "credible_article": 52,
       "high": 84,
-      "medium": 23,
+      "medium": 24,
       "unknown": 3
     },
     "sourcePolicy": "本輪僅新增/身份更正商品完成獨立上市日研究；既有逐筆證據及實際查核日期保留，不將來源維護範圍當成重新人工研究。",
-    "scopeNote": "2026-11-18 僅新增型號完成上市查核；既有逐筆證據保留原查核日期。"
+    "scopeNote": "2026-11-19 僅新增型號完成上市查核；既有逐筆證據保留原查核日期。"
   },
   "results": [
     {
@@ -39381,6 +39381,161 @@
           "url": "https://www.ruten.com.tw/item/22536770406642/",
           "title": "露天同型號舊刊登",
           "outcome": "原頁註明 2025-09-02 上架；不當成原廠發售，也不採為買連結。"
+        }
+      ]
+    },
+    {
+      "id": "dehumidifier-whirlpool-wdev200mtw",
+      "category": "dehumidifier",
+      "brand": "Whirlpool",
+      "model": "WDEV200MTW",
+      "name": "Coloris 20L 雙變頻清淨除濕機（雲霧白）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2026-11",
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMBQ05-A900KLTQL",
+      "sourceTitle": "PChome 24h Whirlpool WDEV200MTW 20L 雙變頻清淨除濕機",
+      "evidenceSnippet": "同型號主商品明示「2026/11月新機上市」，足以確立台灣上市月份。",
+      "confidence": "retailer_explicit",
+      "sourceKind": "retailer_explicit_launch",
+      "reason": "未找到原廠明示發售日期。採用台灣可信通路對同型號的明確上市月份文字，能源署證書起日和比價最早觀測點均排除。",
+      "query": "\"WDEV200MTW\" 台灣 上市 發售",
+      "auditQueries": [
+        "\"WDEV200MTW\" 台灣 上市 發售",
+        "\"WDEV200MTW\" Whirlpool 台灣官網 2026 新機"
+      ],
+      "checkedAt": "2026-11-19",
+      "auditDisposition": "new_found",
+      "checkedSources": [
+        {
+          "url": "https://24h.pchome.com.tw/prod/DMBQ05-A900KLTQL",
+          "title": "PChome WDEV200MTW exact listing",
+          "outcome": "商品主區明示上市年月 2026/11。"
+        },
+        {
+          "url": "https://ea03.moeaea.gov.tw/e0410/01/purchasing/product/item.aspx?itemp0=77112",
+          "title": "能源署 WDEV200MTW 節能標章資料",
+          "outcome": "證書生效 2026/11/17，與上市月份分開。"
+        },
+        {
+          "url": "https://www.whirlpool.com.tw/",
+          "title": "台灣惠而浦官網",
+          "outcome": "本輪未取得同型號發售日公告。"
+        }
+      ]
+    },
+    {
+      "id": "dehumidifier-whirlpool-wdev150mtw",
+      "category": "dehumidifier",
+      "brand": "Whirlpool",
+      "model": "WDEV150MTW",
+      "name": "Coloris 15L 雙變頻清淨除濕機（雲霧白）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2026-11",
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMBQ05-A900KLTP7",
+      "sourceTitle": "PChome 24h Whirlpool WDEV150MTW 15L 雙變頻清淨除濕機",
+      "evidenceSnippet": "同型號主商品明示「2026/11月新機上市」，採台灣上市月份。",
+      "confidence": "retailer_explicit",
+      "sourceKind": "retailer_explicit_launch",
+      "reason": "採台灣可信通路精確型號的明確上市文字，未找到原廠發售日；不使用證書日期或價格曲線日期。",
+      "query": "\"WDEV150MTW\" 台灣 上市 發售",
+      "auditQueries": [
+        "\"WDEV150MTW\" 台灣 上市 發售",
+        "\"WDEV150MTW\" Whirlpool 台灣 2026 新機"
+      ],
+      "checkedAt": "2026-11-19",
+      "auditDisposition": "new_found",
+      "checkedSources": [
+        {
+          "url": "https://24h.pchome.com.tw/prod/DMBQ05-A900KLTP7",
+          "title": "PChome WDEV150MTW exact listing",
+          "outcome": "商品主區明示 2026/11 上市。"
+        },
+        {
+          "url": "https://ea03.moeaea.gov.tw/e0410/01/purchasing/product/item.aspx?itemp0=77111",
+          "title": "能源署 WDEV150MTW 節能標章資料",
+          "outcome": "證書有效起日為 2026/11/17，不是發售日。"
+        },
+        {
+          "url": "https://www.whirlpool.com.tw/",
+          "title": "台灣惠而浦官網",
+          "outcome": "本次原頁未找到同型號上市日。"
+        }
+      ]
+    },
+    {
+      "id": "vacuum-xiaomi-f204",
+      "category": "vacuum",
+      "brand": "Xiaomi",
+      "model": "F204",
+      "name": "米家無線吸塵器 4 Pro",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2026-08-28",
+      "sourceUrl": "https://ahui3c.com/147141/xiaomi-washmachine/amp",
+      "sourceTitle": "3C 達人廖阿輝 台灣小米無線吸塵器 4 系列新品上市",
+      "evidenceSnippet": "上市資訊列旗艦 4 Pro 的 280 AW／NT$7,999，並明示系列三款同於 8 月 28 日 13:30 開賣。",
+      "confidence": "medium",
+      "sourceKind": "trusted_media",
+      "reason": "取明示台灣正式發售時間。小米台灣上市專區另列同一個 4 Pro。",
+      "query": "米家無線吸塵器 4 Pro F204 台灣 上市",
+      "auditQueries": [
+        "米家無線吸塵器 4 Pro F204 台灣 上市",
+        "米家無線吸塵器 4 Pro 台灣 正式開賣 8月28日"
+      ],
+      "checkedAt": "2026-11-19",
+      "checkedSources": [
+        {
+          "url": "https://www.mi.com/tw/launch/redmi-note-17-series/",
+          "title": "小米台灣 REDMI Note 17 系列新品專區",
+          "outcome": "全新吸塵器區有 280AW 4 Pro，頁面未單列該款發售時間。"
+        },
+        {
+          "url": "https://twline365.com/2026/08/1213490/",
+          "title": "台灣線報 小米洗衣機及三款無線吸塵器在台發表",
+          "outcome": "三款吸塵器（含 4 Pro）於 8 月 28 日 13:30 在台上市相符。"
+        }
+      ]
+    },
+    {
+      "id": "mouse-zowie-za12-dw",
+      "category": "mouse",
+      "brand": "ZOWIE",
+      "model": "ZA12-DW",
+      "name": "ZA12-DW 淺灰 4K 無線電競滑鼠",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "台灣原廠產品頁未列上市日；原廠社群六月發布國際系列及海外供應期，未列台灣確切發售。台灣開箱內容明示早於正式到貨，亦不當上市日。",
+      "query": "\"ZA12-DW\" 台灣 上市 開賣",
+      "auditQueries": [
+        "\"ZA12-DW\" 台灣 上市 開賣",
+        "\"ZA12-DW\" site:zowie.benq.com/zh-tw/news"
+      ],
+      "checkedAt": "2026-11-19",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://zowie.benq.com/zh-tw/mouse/za12-dw.html",
+          "title": "ZOWIE 台灣 ZA12-DW",
+          "outcome": "完整台灣規格，未列日期。"
+        },
+        {
+          "url": "https://www.reddit.com/r/Zowie/comments/1u3pbo0/introducing_the_new_fk1dw_and_za12dw_wireless_mice/",
+          "title": "ZOWIESupport 國際新品發表",
+          "outcome": "發表與各海外供應期，沒列台灣實際發售。"
+        },
+        {
+          "url": "https://forum.gamer.com.tw/C.php?bsn=60030&snA=685212",
+          "title": "【心得】【開箱】ZOWIE全新塗層與配色嘗試 | ZOWIE FK1-DW & ZOWIE ZA12-DW",
+          "outcome": "2026-07-03 為試用文編輯日期，內文呼籲等待到貨上市。"
+        },
+        {
+          "url": "https://www.inpad.com.tw/product.php?act=view&id=14042",
+          "title": "硬派精璽同型淺灰新品頁",
+          "outcome": "原頁顯示售完，無明示上市日。"
         }
       ]
     }

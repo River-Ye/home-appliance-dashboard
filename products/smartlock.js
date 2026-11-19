@@ -2020,9 +2020,9 @@
     "price": {
       "currency": "HKD",
       "amount": 9638,
-      "converted": 40504,
+      "converted": 40505,
       "basis": "retailer_current",
-      "confidence": "EasyLock 香港 2026-08-28 exact-model 公開促銷價；ExchangeRate-API 2026-11-17 匯率換算",
+      "confidence": "EasyLock 香港 2026-08-28 exact-model 公開促銷價；ExchangeRate-API 2026-11-19 匯率換算",
       "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。"
     },
     "installation": {

@@ -417,8 +417,8 @@
     "price": {
       "currency": "USD",
       "amount": 499.95,
-      "converted": 16487,
-      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-11-17 匯率換算"
+      "converted": 16485,
+      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-11-19 匯率換算"
     },
     "image": "https://assets.breville.com/cdn-cgi/image/width=1300,format=auto/BOV950/BOV950BSS1BUS1/pdp3.png?pdp=",
     "buyUrl": "https://www.breville.com/en-us/product/bov950",
@@ -916,10 +916,10 @@
     "name": "20L 多功能蒸氣氣炸烤箱",
     "price": {
       "currency": "TWD",
-      "amount": 9499,
-      "converted": 9499,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
-      "note": "PChome 原商品主區及 SKU DMBM0G-A900HF91A 公開折扣價 NT$9,499，頁列活動 11/13 至 11/16。API Qty 2，以通路配送、安裝條件為準。",
+      "amount": 9999,
+      "converted": 9999,
+      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DMBM0G-A900HF91A 原商品主區公開價 NT$9,999，購買按鈕可用，API Qty 2。會員券、點數與卡回饋未計入。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900HF91A/000001_1768545220.jpg",
@@ -2321,8 +2321,8 @@
     "price": {
       "currency": "USD",
       "amount": 449.99,
-      "converted": 14840,
-      "confidence": "2026-11-04 Chrome人工核對原商品主價、所選版本及購買／預購CTA；依當日匯率換算TWD。；ExchangeRate-API 2026-11-17 匯率換算",
+      "converted": 14838,
+      "confidence": "2026-11-04 Chrome人工核對原商品主價、所選版本及購買／預購CTA；依當日匯率換算TWD。；ExchangeRate-API 2026-11-19 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-05 人工覆核：原生Chrome原buyURL選定Silver MW101，主機主區449.99USD、Quantity1、主機Addtocart可見啟用，完整載入再次確認。黑色另為MW101BK1／449.99／OutofStock，未轉移。台灣配送未確認，未含國際運費、進口稅、電壓／插頭及台灣保固風險。 不扣個人化折價券、點數、信用卡回饋或贈品價值。"
     },

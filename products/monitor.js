@@ -1009,11 +1009,11 @@
     "name": "27 型 2K 120Hz 電腦螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 3199,
-      "converted": 3199,
-      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 3299,
+      "converted": 3299,
+      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DSABVO-A900JMD8B 原商品主區公開價 NT$3,199，購買按鈕可用，API Qty 20。會員券、點數與卡回饋未計入。"
+      "note": "PChome DSABVO-A900JMD8B 原商品主區公開價 NT$3,299，購買按鈕可用，API Qty 20。會員券、點數與卡回饋未計入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABVOA900JMD8B/000001_1768285501.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABVO-A900JMD8B",
@@ -1714,11 +1714,11 @@
     "name": "27 型 4K Mac 外接護眼螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 13697,
-      "converted": 13697,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "amount": 14888,
+      "converted": 14888,
+      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "Yahoo 自營 exact MA270U 台灣單台商品（11264826／35807676；GTIN 4718755094538），主區可立即購買與加車。公開滿 1 件 92 折 NT$13,697，至台灣 11/16 07:59:59；原頁快速宅配滿 NT$480 免運，加購與滿額贈無須選擇。未計回饋、點數或個人折價券。"
+      "note": "Yahoo 原商品主區可下單，公開價 NT$14,888。未扣會員券、點數與信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABF1A900HW6JB/000001_1754623836.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=11264826",
@@ -4293,11 +4293,11 @@
     "name": "57 型 Odyssey Neo G9 Dual UHD 240Hz Mini LED 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 63990,
-      "converted": 63990,
-      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 69900,
+      "converted": 69900,
+      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMBM10-A900GQLSE 原商品主區公開價 NT$63,990，購買按鈕可用，API Qty 2。會員券、點數與卡回饋未計入。"
+      "note": "PChome DMBM10-A900GQLSE 原商品主區公開價 NT$69,900，購買按鈕可用，API Qty 2。會員券、點數與卡回饋未計入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900GQLSE/000001_1783054239.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900GQLSE",
@@ -6609,11 +6609,11 @@
     "name": "31.5 吋 4K Nano Matte 程式設計護眼螢幕（含 MoonHalo）",
     "price": {
       "currency": "TWD",
-      "amount": 18894,
-      "converted": 18894,
+      "amount": 19888,
+      "converted": 19888,
       "basis": "retailer_current",
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
-      "note": "Yahoo 原商品主區可下單，公開折後價 NT$18,894，活動到 2026-11-16 07:59:59（台灣）。金額未扣會員券、點數及信用卡回饋。"
+      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "Yahoo 原商品主區可下單，公開價 NT$19,888。未扣會員券、點數與信用卡回饋。"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/A547B09451-SP-17883815.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=11255959",

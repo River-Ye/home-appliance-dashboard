@@ -1680,11 +1680,11 @@
     "name": "免安裝自動 6 人份洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 16999,
-      "converted": 16999,
-      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 14959,
+      "converted": 14959,
+      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMBR17-A900IHTZ3 原商品主區公開價 NT$16,999，購買按鈕可用，API Qty 13。會員券、點數與卡回饋未計入。"
+      "note": "PChome DMBR17-A900IHTZ3 原商品主區公開價 NT$14,959，購買按鈕可用，API Qty 13，商品主區活動 11/18 至 11/30。會員券、點數與卡回饋未計入。 活動 PR26111800146734（任選1件折$2,040）至 2026-11-30T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR17A900IHTZ3/000001_1777540146.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR17-A900IHTZ3",
@@ -3324,10 +3324,11 @@
     "name": "極淨呵護500系列15人份獨立式洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 39900,
-      "converted": 39900,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "PChome 原商品頁主價 NT$39,888 與 API 確認值或原頁購買狀態未能完整互證，保留既有參考資料。"
+      "amount": 36777,
+      "converted": 36777,
+      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DMBH1Q-A900I2KMQ 原商品主區公開價 NT$36,777，購買按鈕可用，API Qty 20，商品主區活動 11/18 至 11/30。會員券、點數與卡回饋未計入。 活動 PR26111800146902（任選1件折$2,111）至 2026-11-30T23:59:59+08:00。",
+      "basis": "retailer_current"
     },
     "installation": {
       "status": "included_basic",
@@ -3374,16 +3375,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 39900,
+      "amount": 36777,
       "currency": "TWD",
-      "converted": 39900,
-      "sourceUrl": "https://price.shhwa.cc/product/pchome/DMBH1Q-A900I2KMQ",
-      "sourceTitle": "Lowcast 比價趨勢：PChome Electrolux 伊萊克斯 極淨呵護 500系列 獨立式洗碗機(60公分/15人份)-自動開門 (EFF5581SXA )",
-      "evidenceSnippet": "Lowcast 同一刊登 DMBH1Q-A900I2KMQ 於 2026-11-13 收盤價為 NT$39,900。當日 PChome 同 SKU 公開價格同值，API Qty 20。",
-      "sourceKind": "price_history",
+      "converted": 36777,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMBH1Q-A900I2KMQ",
+      "sourceTitle": "Electrolux EFF5581SXA 原商品頁",
+      "evidenceSnippet": "2026-11-19 PChome DMBH1Q-A900I2KMQ 原商品主區公開價 NT$36,777，購買按鈕可用，API Qty 20，商品主區活動 11/18 至 11/30。會員券、點數與卡回饋未計入。 活動 PR26111800146902（任選1件折$2,111）至 2026-11-30T23:59:59+08:00。 低於原有同款紀錄。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-11-16",
-      "note": "同型號新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
+      "checkedAt": "2026-11-19",
+      "note": "採同型號同規格可信新品公開價，不含個人券、點數、會員特價與信用卡回饋。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -3629,11 +3630,11 @@
     "topPick": false,
     "price": {
       "currency": "TWD",
-      "amount": 31200,
-      "converted": 31200,
+      "amount": 28704,
+      "converted": 28704,
       "basis": "retailer_current",
-      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DMBR25-A900IUN3O 原商品主區公開價 NT$31,200，購買按鈕可用，API Qty 2。會員券、點數與卡回饋未計入。"
+      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DMBR25-A900IUN3O 原商品主區公開價 NT$28,704，購買按鈕可用，API Qty 2。會員券、點數與卡回饋未計入。"
     },
     "installation": {
       "status": "excluded",

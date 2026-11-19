@@ -542,11 +542,11 @@
     "image": "https://cs-a.ecimg.tw/items/QFAX6BA9009Y2C3/000001_1760596937.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 19500,
-      "converted": 19500,
-      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 17550,
+      "converted": 17550,
+      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome QFAX6B-A9009Y2C3 原商品主區公開價 NT$19,500，購買按鈕可用，API Qty 17。會員券、點數與卡回饋未計入。"
+      "note": "PChome QFAX6B-A9009Y2C3 原商品主區公開價 NT$17,550，購買按鈕可用，API Qty 17，商品主區活動 11/18 至 11/30。會員券、點數與卡回饋未計入。 活動 PR26111800146698（任選1件享9折）至 2026-11-30T23:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -852,10 +852,10 @@
     "image": "https://cs-a.ecimg.tw/items/DMCI01A900JV0NP/000001_1774843160.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 16020,
-      "converted": 16020,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
-      "note": "PChome 原商品主區及 SKU DMCI24-A900K16I2 公開折扣價 NT$16,020，頁列活動 11/13 至 11/16。API Qty 7，以通路配送、安裝條件為準。",
+      "amount": 17800,
+      "converted": 17800,
+      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DMCI24-A900K16I2 原商品主區公開價 NT$17,800，購買按鈕可用，API Qty 7。會員券、點數與卡回饋未計入。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -956,11 +956,11 @@
     "image": "https://cs-a.ecimg.tw/items/QFAX6BA9009Y2E9/000001_1760596811.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 26800,
-      "converted": 26800,
-      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 24120,
+      "converted": 24120,
+      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome QFAX6B-A9009Y2E9 原商品主區公開價 NT$26,800，購買按鈕可用，API Qty 19。會員券、點數與卡回饋未計入。"
+      "note": "PChome QFAX6B-A9009Y2E9 原商品主區公開價 NT$24,120，購買按鈕可用，API Qty 19，商品主區活動 11/18 至 11/30。會員券、點數與卡回饋未計入。 活動 PR26111800146698（任選1件享9折）至 2026-11-30T23:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -2172,8 +2172,8 @@
     "price": {
       "currency": "USD",
       "amount": 449.99,
-      "converted": 14840,
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。；ExchangeRate-API 2026-11-17 匯率換算",
+      "converted": 14838,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。；ExchangeRate-API 2026-11-19 匯率換算",
       "basis": "retailer_current",
       "note": "Brondell 美國 Circle RC100 原商品公開 USD 449.99，主商品購買狀態可用。海外參考，未含國際運費、進口稅、電壓／插頭及台灣保固風險。"
     },
@@ -2211,14 +2211,14 @@
       "status": "found",
       "amount": 289.99,
       "currency": "USD",
-      "converted": 9563,
+      "converted": 9562,
       "sourceUrl": "https://www.costco.com/CategoryDisplay?catalogId=10701&identifier=water-dispensers-filtration-water-filtration&storeId=10301",
       "sourceTitle": "Costco US：Brondell Circle Reverse Osmosis Water Filtration System",
       "evidenceSnippet": "Costco US exact-model 分類頁於 2026-08-28 顯示 Brondell Circle 折後 US$289.99，原價 US$369.99，優惠 US$80。",
       "sourceKind": "retailer_promo",
       "confidence": "medium",
       "checkedAt": "2026-08-28",
-      "note": "採 Costco US 公開 exact-model 折價作為本次可重現最低觀測價；未含國際運費、進口稅、耗材與台灣安裝／保固風險；依 2026-11-17 USD/TWD 匯率換算。"
+      "note": "採 Costco US 公開 exact-model 折價作為本次可重現最低觀測價；未含國際運費、進口稅、耗材與台灣安裝／保固風險；依 2026-11-19 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "common_issue",

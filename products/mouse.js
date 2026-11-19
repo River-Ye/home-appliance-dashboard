@@ -3672,8 +3672,8 @@
     "amount": 3911,
     "converted": 3911,
     "basis": "retailer_current",
-    "confidence": "2026-11-14 核對三井黑色單品 MAAS051 原頁，黑色價格與主購買按鈕均對應該料號。",
-    "note": "單台公開促銷 NT$3,911（原網路價 NT$4,990），頁列 2026-10-26 至 11-16。一般單筆滿 NT$588 免運，實際配送以通路為準，未扣回饋金或贈品。"
+    "confidence": "2026-11-19 核對三井黑色單品 MAAS051 原頁、公開價與購買按鈕。",
+    "note": "三井黑色 MAAS051 單台公開促銷 NT$3,911（原網路價 NT$4,990），商品頁列 2026-11-17 至 11-22。未扣另領折價券或點數，實際配送依通路。"
   },
   "installation": {
     "status": "not_stated",
@@ -3758,6 +3758,104 @@
     "8K",
     "三模",
     "光學微動"
+  ]
+},
+{
+  "id": "mouse-zowie-za12-dw",
+  "category": "mouse",
+  "brand": "ZOWIE",
+  "model": "ZA12-DW",
+  "name": "ZA12-DW 淺灰 4K 無線電競滑鼠",
+  "type": "standard",
+  "rank": 37,
+  "budget": "premium",
+  "channel": "tw",
+  "topPick": false,
+  "price": {
+    "currency": "TWD",
+    "amount": 4750,
+    "converted": 4750,
+    "basis": "retailer_current",
+    "confidence": "2026-11-19 核對 PChome DCAN33-A900K2FUA-000 同型新品的 Price.Low、Qty 20、商品優惠連結與機底型號。",
+    "note": "PChome 網路價 NT$4,990，單件符合滿 NT$2,000 折 NT$240 的公開活動，折後 NT$4,750，活動至 2026-11-23 23:59:59（台灣時間）。未扣點數、券或刷卡回饋。賣場主圖文字誤寫 FK1-DW，商品名稱及圖庫機底標示為 ZA12-DW。"
+  },
+  "installation": {
+    "status": "not_stated",
+    "note": "通路未列安裝，隨附接收器及 USB 線可自行連接。"
+  },
+  "image": "https://image.benq.com/is/image/benqco/za12-dw-front-left-45?wid=1000&hei=1000&fmt=png-alpha",
+  "buyUrl": "https://24h.pchome.com.tw/prod/DCAN33-A900K2FUA",
+  "buyLabel": "PChome 24h 購物",
+  "specs": [
+    "類型：標準型無線電競滑鼠，淺灰 ZA12-DW",
+    "握型／慣用手：中型對稱機身，右手側鍵，後段高背適合抓握",
+    "連線：2.4 GHz 無線（小接收器或增強型接收器）、USB 有線，未列藍牙",
+    "感測器／解析度：光學，原廠 DPI 400／800／1000／1200／1600／3200",
+    "回報率：125／500／1000／2000／4000 Hz，4K 使用增強型接收器",
+    "按鍵／滾輪：7 個按鈕、24 段滾輪、Fast／Normal 點擊回應",
+    "供電／續航：USB-C 線或增強型接收器充電；官方 1000／2000／4000 Hz 約 80／30／24 小時",
+    "系統／軟體：USB 隨插即用，DPI、回報率及設定可由硬體切換",
+    "尺寸：長 125.8 x 寬 64.6 x 高 41.4 mm（全長與最寬最高處）；前高 29.1 mm",
+    "重量：本體 55 g",
+    "隨附配件：增強型無線接收器、小型無線接收器、USB-C 線、轉接器與替換滑鼠腳貼"
+  ],
+  "description": "ZA12-DW 是 ZA 系列的中型高背無線款，55 g 機身、硬體設定與隨附 4K 接收器，適合偏好尾部支撐感的右手抓握玩家。",
+  "pros": [
+    "高背中型，與 ZA13-DW 小型及 FK1-DW 大型低背有實質握型差異",
+    "55 g 本體，增強接收器可兼作充電座",
+    "DPI 與回報率可由硬體調整"
+  ],
+  "cons": [
+    "4K 續航約 24 小時，較 1K 的 80 小時短",
+    "較高鼠背的支撐位置因手型而異，建議先試握",
+    "原始討論分別有個別裝配公差與延遲／韌體辨識回報，尚未證實為集中問題"
+  ],
+  "bestFor": "喜歡中型高背、抓握與免驅動設定的右手 FPS 玩家。",
+  "recommendation": "可與小型 ZA13-DW 和大型低背 FK1-DW 比較握型；4K 使用者可按續航需求切回較低回報率。",
+  "releaseDate": "找不到",
+  "historicalLow": {
+    "status": "not_found",
+    "amount": null,
+    "currency": "TWD",
+    "converted": null,
+    "sourceUrl": "",
+    "sourceTitle": "",
+    "evidenceSnippet": "",
+    "sourceKind": "not_found",
+    "confidence": "not_found",
+    "checkedAt": "2026-11-19",
+    "note": "Lowcast 同 PChome 刊登的 2026-11-10 日內最低為 NT$4,750、收盤 NT$4,990，未取得該日可購存檔與折扣條件；不把本次 11/17 起的現行優惠回推為前一日證據。BigGo 其他通路價缺同日交易證據，個人賣場也排除。"
+  },
+  "issueResearch": {
+    "status": "no_common_issue",
+    "checkedAt": "2026-11-19",
+    "summary": "截至查核日，查無達門檻的集中負評／災情",
+    "issues": [],
+    "checkedSources": [
+      {
+        "platform": "Mobile01",
+        "targetHost": "mobile01.com",
+        "query": "site:mobile01.com \"ZA12-DW\"",
+        "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22ZA12-DW%22"
+      },
+      {
+        "platform": "Reddit",
+        "targetHost": "reddit.com",
+        "query": "site:reddit.com \"ZA12-DW\"",
+        "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22ZA12-DW%22"
+      }
+    ]
+  },
+  "score": 84,
+  "voltage": "滑鼠透過 USB-C 線或增強型接收器充電；原廠台灣頁未列額定充電電流或隨附市電變壓器。",
+  "warranty": "BenQ 台灣合法經銷購買，滑鼠本體自發票日起原廠保固一年，附屬耗材依條款。",
+  "tags": [
+    "電競推薦",
+    "台灣公司貨",
+    "55g",
+    "4K",
+    "抓握",
+    "高背"
   ]
 }
 ]);

@@ -2253,8 +2253,8 @@
     "price": {
       "currency": "USD",
       "amount": 679.99,
-      "converted": 22424,
-      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-11-17 匯率換算",
+      "converted": 22421,
+      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-11-19 匯率換算",
       "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
     },
     "image": "https://m.media-amazon.com/images/I/61Yuy5vtWFL._AC_SL1500_.jpg",
@@ -2294,14 +2294,14 @@
       "status": "found",
       "amount": 679.99,
       "currency": "USD",
-      "converted": 22424,
+      "converted": 22421,
       "sourceUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
       "sourceTitle": "Dreame Aero Ultra Steam Wet Dry Vacuum – Dreame Vacuum Mop",
       "evidenceSnippet": "Dreame 原廠美國商品頁於 2026-07-16 公開顯示特價 US$679.99、原價 US$799.99，且可 Add to Cart / Buy It Now。",
       "sourceKind": "official_sale",
       "confidence": "high",
       "checkedAt": "2026-07-16",
-      "note": "新上市商品目前可公開驗證的最低售價；未套用會員碼、信用卡、點數或個人化折扣，且未含國際運費、進口稅、插頭／供電與台灣保固風險；依 2026-11-17 USD/TWD 匯率換算。"
+      "note": "新上市商品目前可公開驗證的最低售價；未套用會員碼、信用卡、點數或個人化折扣，且未含國際運費、進口稅、插頭／供電與台灣保固風險；依 2026-11-19 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -3404,6 +3404,107 @@
       "台灣公司貨",
       "非洗地機"
     ]
+  },
+  {
+    "id": "vacuum-xiaomi-f204",
+    "category": "vacuum",
+    "brand": "Xiaomi",
+    "model": "F204",
+    "name": "米家無線吸塵器 4 Pro",
+    "rank": 36,
+    "budget": "mid",
+    "channel": "tw",
+    "price": {
+      "basis": "retailer_current",
+      "currency": "TWD",
+      "amount": 6565,
+      "converted": 6565,
+      "confidence": "PChome exact SKU API Qty 20、折扣價與同 PID 原頁 95 折活動一致。",
+      "note": "2026-11-19 查核：PChome 同款公開單件 95 折 NT$6,565（一般網路價 NT$6,911），至 11/24 23:59:59 台灣時間。未扣新客券、點數或刷卡回饋。"
+    },
+    "installation": {
+      "status": "excluded",
+      "note": "通路商品頁為吸塵器出貨，未含掛架安裝服務。附壁掛充電座與固定套件，需自行確認牆面材質與孔位。"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DMAXAZA900KCKGP/000001_1787816254.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAXAZ-A900KCKGP",
+    "buyLabel": "PChome 24h 購物",
+    "specs": [
+      "乾式無線直立／手持式，內建智慧塵量偵測與 LCD 顯示",
+      "最高吸力 280 AW、最大真空壓力 27,000 Pa，依原廠測試條件",
+      "180° 藍光顯塵主刷、迷你電動刷、沙發刷、寵物浮毛刷、縫隙刷與彎管",
+      "3750 mAh 電池可拆換，隨附一顆。經濟模式搭縫隙刷最長 90 分鐘、地刷約 60 分鐘，地刷高功率約 12 分鐘",
+      "五段過濾、H14 過濾元件，指定配件水洗後須完全乾燥",
+      "重量：原廠同型號 FAQ 主機含電池 2.15 kg，裝延長桿與主地刷約 3.2 kg"
+    ],
+    "description": "搭配藍光顯塵、彎管與不同刷頭的乾式吸塵器。主地刷可清理硬地及地毯，附件涵蓋沙發、床墊、櫥櫃及寵物浮毛，需手動清空集塵盒。",
+    "pros": [
+      "藍光顯塵、智慧吸力與右側貼邊清掃",
+      "電池可自行拆換，台灣官方商城有電池與濾芯",
+      "彎管可深入低矮家具下，具地板、織物及寵物刷頭"
+    ],
+    "cons": [
+      "整機接主地刷約 3.2 kg，樓層多或常手持者宜留意",
+      "無自動集塵站，附壁掛式充電架需自行固定"
+    ],
+    "bestFor": "想用同一台乾式無線機打掃地板、沙發與寵物毛的家庭。",
+    "recommendation": "約七千元乾式多刷頭選擇。比較實際拿起的重量、主刷續航及壁掛條件。",
+    "score": 83,
+    "voltage": "主機 DC 25.9V／800W，隨附電源供應器 AC 100–240V／50–60Hz／1.2A，可用台灣市電。",
+    "warranty": "台灣小米主機 2 年維修保固，電源線 1 年，耗材與其他配件依官方條款。",
+    "tags": [
+      "乾式吸塵",
+      "無線直立",
+      "藍光顯塵",
+      "可拆電池",
+      "寵物浮毛"
+    ],
+    "releaseDate": "2026-08-28",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-11-19",
+      "note": "PChome 前期 11/14–11/16 同額促銷以及飛比索引的 NT$6,511，均缺當日原始可購與交易條件。小米雙 11 NT$6,711 要先付訂金再付尾款，當期供貨及交易未另證。本輪 NT$6,565 列作現價，等待獨立歷史記錄。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-11-19",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com (\"F204\" OR \"米家無線吸塵器 4 Pro\") 小米",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20(%22F204%22%20OR%20%22%E7%B1%B3%E5%AE%B6%E7%84%A1%E7%B7%9A%E5%90%B8%E5%A1%B5%E5%99%A8%204%20Pro%22)%20%E5%B0%8F%E7%B1%B3"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com (\"F204\" OR \"Mijia Vacuum Cleaner 4 Pro\") Xiaomi",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20(%22F204%22%20OR%20%22Mijia%20Vacuum%20Cleaner%204%20Pro%22)%20Xiaomi"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"F204\" \"米家無線吸塵器 4 Pro\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22F204%22%20%22%E7%B1%B3%E5%AE%B6%E7%84%A1%E7%B7%9A%E5%90%B8%E5%A1%B5%E5%99%A8%204%20Pro%22"
+        },
+        {
+          "platform": "Dcard",
+          "targetHost": "dcard.tw",
+          "query": "site:dcard.tw \"F204\" \"米家無線吸塵器 4 Pro\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22F204%22%20%22%E7%B1%B3%E5%AE%B6%E7%84%A1%E7%B7%9A%E5%90%B8%E5%A1%B5%E5%99%A8%204%20Pro%22"
+        }
+      ]
+    }
   }
 ]);
 })();

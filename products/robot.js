@@ -16,10 +16,10 @@
     "name": "全能機械手臂旗艦掃拖王者",
     "price": {
       "currency": "TWD",
-      "amount": 33000,
-      "converted": 33000,
-      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DMBL1C-A900IGHHM 原商品主區公開價 NT$33,000，購買按鈕可用，API Qty 20。會員券、點數與卡回饋未計入。",
+      "amount": 32181,
+      "converted": 32181,
+      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DMBL1C-A900IGHHM 原商品主區公開價 NT$32,181，購買按鈕可用，API Qty 20。會員券、點數與卡回饋未計入。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900IGHHM/000001_1782870336.jpg",
@@ -114,11 +114,11 @@
     "name": "跨越奇兵旗艦掃拖王者水立方版",
     "price": {
       "currency": "TWD",
-      "amount": 32111,
-      "converted": 32111,
-      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 31261,
+      "converted": 31261,
+      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMBL1C-A900JNELR 原商品主區公開價 NT$32,111，購買按鈕可用，API Qty 20。會員券、點數與卡回饋未計入。"
+      "note": "PChome DMBL1C-A900JNELR 原商品主區公開價 NT$31,261，購買按鈕可用，API Qty 20。會員券、點數與卡回饋未計入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JNELR/000001_1769062030.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JNELR",
@@ -301,11 +301,11 @@
     "name": "跨越奇兵旗艦越障掃拖王者",
     "price": {
       "currency": "TWD",
-      "amount": 29911,
-      "converted": 29911,
-      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 29421,
+      "converted": 29421,
+      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-04 下午重新查核：PChome exact SKU DMBL1C-A900JMMCO；Price.P=29911元，Qty=20。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。"
+      "note": "PChome DMBL1C-A900JMMCO 原商品主區公開價 NT$29,421，購買按鈕可用，API Qty 49。會員券、點數與卡回饋未計入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JMMCO/000001_1769061975.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JMMCO",
@@ -399,11 +399,11 @@
     "name": "雙越野高智商旗艦級掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 24911,
-      "converted": 24911,
-      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 23901,
+      "converted": 23901,
+      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMBL1C-A900JPHOP 原商品主區公開價 NT$24,911，購買按鈕可用，API Qty 20。會員券、點數與卡回饋未計入。"
+      "note": "PChome DMBL1C-A900JPHOP 原商品主區公開價 NT$23,901，購買按鈕可用，API Qty 20。會員券、點數與卡回饋未計入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JPHOP/000001_1782870240.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JPHOP",
@@ -599,7 +599,7 @@
       "amount": 24700,
       "converted": 24700,
       "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
-      "note": "Yahoo 同型上下水款仍標示新品預購，依訂單順序出貨，主區公開折後 NT$24,700。活動至 11/16 08:00:59（台灣）。",
+      "note": "Yahoo 原商品主區 2026-11-19 仍明示預購及依序出貨，標示 NT$25,999，實際出貨及下單再折以原頁為準。卡片保留上次參考價。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900JRDAS/000001_1771917633.jpg",
@@ -1380,8 +1380,8 @@
     "price": {
       "currency": "EUR",
       "amount": 999,
-      "converted": 36259,
-      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-17 匯率換算",
+      "converted": 36148,
+      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-19 匯率換算",
       "note": "2026-11-04 下午覆核：原生Narwal德國URL variant52366680523028選中Schwarz Basisstation及Standardpaket；主價999EUR、劃線1299EUR，In den Warenkorb可用、2–5Tage Lieferzeit。與上午所選缺貨不同，仍未保證台灣寄送。未含國際運費、進口稅、電壓/插頭與台灣保固風險。",
       "basis": "retailer_current"
     },
@@ -1478,8 +1478,8 @@
     "price": {
       "currency": "USD",
       "amount": 551.69,
-      "converted": 18193,
-      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-11-17 匯率換算"
+      "converted": 18191,
+      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-11-19 匯率換算"
     },
     "image": "https://img.gkbcdn.com/p/2025-04-11/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438-0._w315_.jpg",
     "buyUrl": "https://www.geekbuying.com/item/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438.html",
@@ -1955,11 +1955,11 @@
     "name": "12 合 1 自清潔 AI 掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 27911,
-      "converted": 27911,
-      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 27111,
+      "converted": 27111,
+      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMBL2D-A900JOEN3 原商品主區公開價 NT$27,911，購買按鈕可用，API Qty 7。會員券、點數與卡回饋未計入。"
+      "note": "PChome DMBL2D-A900JOEN3 原商品主區公開價 NT$27,111，購買按鈕可用，API Qty 7。會員券、點數與卡回饋未計入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL2DA900JOEN3/000001_1782120334.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL2D-A900JOEN3",
@@ -2640,8 +2640,8 @@
     "price": {
       "currency": "USD",
       "amount": 549.99,
-      "converted": 18137,
-      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-17 匯率換算",
+      "converted": 18135,
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-19 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-04 Shark美國所選黑色RV2820ZE當日原variationAPI549.99USD，available/readyToOrder均true、inStockDate為2026-11-26，交期待確認；不混白色缺貨SKU，不稱即時現貨。未含國際運費、進口稅、電壓/插頭與台灣保固風險。"
     },
@@ -2838,8 +2838,8 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 13191,
-      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-11-17 匯率換算",
+      "converted": 13189,
+      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-11-19 匯率換算",
       "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。 2026-11-01 原Costco美國QXRevo頁HTTP404，現貨與現價未確認；保留USD399.99舊參考價，含海外運稅、電力與台灣保固風險，不能推定原廠整型停產。"
     },
     "image": "https://cdn.cs.1worldsync.com/syndication/mediaserverredirect/aaaa71b7b115f7d0cbeb119d8fc3ad7b/width%281200%29.jpg",
@@ -3452,11 +3452,11 @@
     "name": "搖滾天王超薄活水滾筒掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 23911,
-      "converted": 23911,
-      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 22981,
+      "converted": 22981,
+      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMBL1C-A900K7R6R 原商品主區公開價 NT$23,911，購買按鈕可用，API Qty 20。會員券、點數與卡回饋未計入。"
+      "note": "PChome DMBL1C-A900K7R6R 原商品主區公開價 NT$22,981，購買按鈕可用，API Qty 20。會員券、點數與卡回饋未計入。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900K7R6R/000001_1785985365.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900K7R6R",
@@ -4063,19 +4063,19 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 9590,
-      "converted": 9590,
+      "amount": 9900,
+      "converted": 9900,
       "basis": "retailer_current",
-      "confidence": "www.yk01.com.tw 2026-09-05 人工核對 exact-model 公開單件價及可購狀態；非會員券、紅利或加購價",
-      "note": "雅光頁面標示尚有庫存1；與門市共用庫存，下單前須致電(02)2796-5866確認，實際出貨以通路確認為準。"
+      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "雅光原刊登回應 404。全國電子 2153296 為同款香檳金 BKCG 含自動集塵基座，主頁可加入購物車或直接購買，公開價 NT$9,900，與新品 InStock 資料相符。主頁列 3 個工作天出貨，可宅配或門市取貨。實際到貨依通路及地址。"
     },
     "installation": {
       "status": "not_stated",
       "note": "附自動集塵與充電站；通路未明載到府設定服務。底座放於硬質水平地面，前方保留1.5m、左右各0.5m，依台灣說明書使用獨立110V插座，不用延長線；水箱與拖布須手動維護。"
     },
     "image": "https://cdn1-next.cybassets.com/media/W1siZiIsIjI3Njc0L3Byb2R1Y3RzLzU4MDIxNDA0LzE3NTM5NDk5NzNfZWUyODg4NmIxYTg2Y2FhODAzM2MucG5nIl0sWyJwIiwidGh1bWIiLCI2MDB4NjAwIl1d.png?sha=5790e10d1db1f9b6",
-    "buyUrl": "https://www.yk01.com.tw/products/rvx20dpabkcg",
-    "buyLabel": "雅光電器（購前電話確認庫存）",
+    "buyUrl": "https://www.elifemall.com.tw/product/2153296",
+    "buyLabel": "全國電子",
     "specs": [
       "LDS 雷射導航；HomeDirect App，最多保存5張地圖",
       "最高吸力5,000Pa、4段吸力；App 調整水量，越障最高2cm",
@@ -4086,7 +4086,7 @@
       "附自動集塵與充電站、拖地工具、拖布x2、邊刷x2、濾網x2、清潔刷與集塵袋x3",
       "集塵座輸入100–120V／50–60Hz，充電狀態0.6A、集塵狀態9A，輸出24V DC／1.5A；台灣說明書指定獨立110V插座"
     ],
-    "description": "HITACHI RV-X20DPA 是台灣官方仍列示的自動集塵雷射掃拖款，以4L集塵站與既有無自動集塵的RV-X20P區隔；不是2026新發表，也不具自動洗布或烘布。雅光公開頁標示庫存1，但與實體門市共用庫存，頁首要求購前電話確認，不能當成保證立即出貨。",
+    "description": "HITACHI RV-X20DPA 是台灣官方仍列示的自動集塵雷射掃拖款，4 L 集塵站是與 RV-X20P 的主要差異。拖布仍須手洗晾乾。全國電子同型號刊登提供宅配或門市取貨，可依地址和門市確認出貨。",
     "pros": [
       "自動回收集塵盒灰塵，可減少手動倒塵頻率",
       "LDS 地圖、分區及App吸力／水量調整適合基本日常掃拖",
@@ -4098,7 +4098,7 @@
       "通路要求購前電話確認庫存，且未單列本型保固年限；耗材型號與供應也應先問清楚"
     ],
     "bestFor": "偏好日立台灣公司貨、希望減少倒塵但可接受手洗拖布，且可先向門市確認供貨與保固的家庭。",
-    "recommendation": "日系自動集塵比較款，不列Top Pick。購前致電雅光確認與門市共用的庫存、原廠保證書及耗材供應；NT$10,500為查核時頁面主價，不代表保留庫存或保證出貨。重視拖地自動化者應同時比較洗布／烘布型。",
+    "recommendation": "適合想減少倒塵次數、可接受手洗拖布的人。下單前向全國電子確認交付、隨附原廠保證書與集塵袋供應。重視拖地自動化可比較有自動洗布／烘布的型號。",
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
@@ -4141,7 +4141,7 @@
     },
     "score": 82,
     "voltage": "集塵座100–120V／50–60Hz，充電0.6A／集塵9A，輸出24V DC／1.5A；台灣說明書指定獨立110V插座",
-    "warranty": "雅光台灣原廠公司貨；依隨附原廠保證書，商品頁未明載本型號保固年限，下單前須確認",
+    "warranty": "日立台灣公司貨。全國電子同型號商品主頁未明載保固年限，請以隨附原廠保證書及通路確認為準。",
     "tags": [
       "日系品牌",
       "LDS雷射導航",
@@ -4508,11 +4508,11 @@
     "name": "Roomba Max 875 Combo 巨無霸滾筒掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 33250,
-      "converted": 33250,
+      "amount": 37031,
+      "converted": 37031,
       "basis": "retailer_current",
-      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "Yahoo 自營 Gdid 12314929 台灣 Roomba Max 875 Combo + AutoWash 基座整機，主區 NT$33,250 與 JSON-LD InStock、可加購、無此商品預購交期。一般價 NT$34,999，原頁滿一件 95 折（活動 793446 至 2026/12/31 23:59:59 台灣時間）；不扣券、點數或持卡回饋。台灣本島宅配免運；原頁一般配送說明排除外島，實際依地址與庫存。台灣總代理 HDC 原頁 Z185010+RP10B 同機現貨 8 台、NT$37,030 含非必要贈品；全聯同款 NT$38,980、商品編號 00523028，同頁補足尺寸重量。原 momo 原頁直接請求 403，舊預購價格與交期不採。"
+      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "Yahoo 原商品主區可下單，公開價 NT$37,031；公開單件活動至 2026-12-31T23:59:59+08:00。未扣會員券、點數與信用卡回饋。"
     },
     "image": "https://irobot.tw/wp-content/uploads/2026/09/Roomba-Max-875-Combo-%E7%94%A2%E5%93%81%E5%9C%96.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=12314929",
@@ -4569,17 +4569,17 @@
       ]
     },
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 33250,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-10-23",
-      "note": "Roomba Max 875 Combo：已查exact-model史低/歷史價格與台灣現售/預購來源，搜尋價目混含海外版本、不同基座、會員點數與現價；未核實台灣本配置可重現歷史最低點，不以本輪現價推史低。"
+      "converted": 33250,
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=12314929",
+      "sourceTitle": "Yahoo 自營 iRobot Roomba Max 875 Combo 同一賣場公開活動",
+      "evidenceSnippet": "2026-11-18（台灣）保存的 Yahoo 商品原頁，賣場 12314929／商品 41171763 的台灣 Max 875 Combo 含 AutoWash 基座，標示 InStock、可下單及公開滿一件 95 折，NT$34,999 折為 NT$33,250。2026-11-19 重查同一賣場為 NT$37,031。",
+      "sourceKind": "retailer_promo",
+      "confidence": "medium",
+      "checkedAt": "2026-11-19",
+      "note": "採前一日留存的同一台灣新品刊登公開價及有貨證據，排除個人折價券、點數與信用卡回饋。原賣場現價會變動，可由前一版目錄的永久連結核對查核紀錄。"
     }
   },
   {
