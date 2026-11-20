@@ -2782,7 +2782,7 @@
       "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。",
       "note": "2026-11-13 LG 台灣直接商品頁原始與 Chrome 均回 403，較早官方推薦文案為 NT$42,900／44,900；怡沃拉 NT$44,900 原頁未核到可下單，賈維斯舊頁 404。 金額保留為先前參考價。"
     },
-    "image": "https://www.lg.com/content/dam/channel/wcms/tw/images/water-purifier/all-water-purifier/wu525bs/gallery/basic.jpg",
+    "image": "https://img.shoplineapp.com/media/image_clips/6a804134b3229c7ed3e5b867/original.jpg?1786790196=&owner_id=68a29a8bdcaaa0001d99fdb7",
     "buyUrl": "https://www.lg.com/tw/water-purifier/all-water-purifier/wu525bs/",
     "buyLabel": "LG 台灣官網（現價／供貨待確認）",
     "specs": [

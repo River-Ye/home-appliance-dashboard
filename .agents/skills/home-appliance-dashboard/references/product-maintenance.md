@@ -27,6 +27,7 @@ https://ecapi-cdn.pchome.com.tw/ecshop/prodapi/v2/prod?id=<PID>&fields=Id,Name,N
 - New researched products use `price.basis: retailer_current | official_suggested` and `installation: { status, note }`, where status is `included_basic | excluded | not_stated`. An official suggested price is allowed only when the exact Taiwan model has a public numeric price; it must remain labeled as suggested price and must not become a retailer-current or historical-low claim.
 - Treat PChome `Qty: 0` as no-stock tracking, not discontinuation by itself.
 - For Yahoo image failures on old `img.yec.tw/zp/MerchandiseImages/...` URLs, inspect the product page schema and prefer the current `cl/api/res/.../https://img.yec.tw/fy/...jpg` image when available.
+- HTTP 200 and an image MIME type do not prove browser embedding works. Verify representative live cards and every changed image with native desktop/mobile image loading (`naturalWidth > 0`). If Chrome ORB or hotlink protection blocks a host, audit sibling images on that host and use a trusted exact-model alternative; do not disable browser security or deploy a proxy/local copy to bypass it.
 - Do not remove a product unless the brand's official page or announcement explicitly establishes discontinuation for the exact model. A missing page, retailer no-stock signal, fetch block, stale image, or repeated network failure is not sufficient.
 
 ## Exchange Rates And Foreign Prices

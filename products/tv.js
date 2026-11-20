@@ -3207,7 +3207,7 @@
       "basis": "retailer_current",
       "note": "2026-10-31 LG台灣商城在冊OLED65G6PTA原主商品104900元，114900元是刪除參考價；可立即購買，實際配送安裝依原店確認。"
     },
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tw/ms/lgcom/2026/tv-audio-video/tv/oled-evo/g6/gp1/gallery/65-g6/basic/lg-oled-evo-g6-2026-65-gallery-basic.jpg",
+    "image": "https://img.pchome.com.tw/cs/items/DPADZ5A900K4XRO/l000002_1784204502.jpg",
     "buyUrl": "https://www.lg.com/tw/tv-soundbars/oled-evo/oled65g6pta/",
     "buyLabel": "LG 官方商城",
     "specs": [

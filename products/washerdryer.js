@@ -2318,7 +2318,7 @@
     "brand": "LG",
     "model": "WD-S1818PB",
     "name": "LG WashTower WD-S1818PB",
-    "image": "https://www.lg.com/content/dam/channel/wcms/tw/images/washer-dryers/washtower/wd-s1818pb/basic.jpg",
+    "image": "https://cs-a.ecimg.tw/items/DPAI1LA900KAQP8/000007_1794412889.jpg",
     "price": {
       "currency": "TWD",
       "amount": 82900,
@@ -2748,7 +2748,7 @@
     "brand": "LG",
     "model": "WD-S22FHDB",
     "name": "22公斤 WashCombo AI 熱泵滾筒洗衣機 蒸洗脫烘 22+15kg",
-    "image": "https://www.lg.com/content/dam/channel/wcms/tw/images/washer-dryers/washer-dryer-combos/wd-s22fhdb/gallery/new/WD-S22FHDB-450.jpg",
+    "image": "https://cs-a.ecimg.tw/items/DPAI1LA900JQKW2/000007_1772511081.jpg",
     "price": {
       "currency": "TWD",
       "amount": 85111,

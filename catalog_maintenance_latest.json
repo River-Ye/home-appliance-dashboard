@@ -1,7 +1,7 @@
 {
   "schemaVersion": 3,
   "dataDate": "2026-11-20",
-  "checkedAt": "2026-11-20T00:06:40.370Z",
+  "checkedAt": "2026-11-20T00:27:06.054Z",
   "baselineRef": "64b92baa643c0070e7bbc945819dc1ff5dabb24f",
   "policy": {
     "exactModelOrReviewedSourceBindingOnly": true,
@@ -35,7 +35,7 @@
     "priceDrops": 21,
     "priceRises": 28,
     "linkChanges": 6,
-    "imageChanges": 0,
+    "imageChanges": 5,
     "historicalLowChanges": 3,
     "historicalLowPriceChanges": 3,
     "historicalFound": 629,
@@ -32860,7 +32860,33 @@
         "afterLabel": "PChome 24h購物（含基本安裝）（預購／交期待確認）"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "id": "tv-lg-g6-65",
+        "before": "https://www.lg.com/content/dam/channel/wcms/1-channel/tw/ms/lgcom/2026/tv-audio-video/tv/oled-evo/g6/gp1/gallery/65-g6/basic/lg-oled-evo-g6-2026-65-gallery-basic.jpg",
+        "after": "https://img.pchome.com.tw/cs/items/DPADZ5A900K4XRO/l000002_1784204502.jpg"
+      },
+      {
+        "id": "vacuum-lg-a7-litemop",
+        "before": "https://www.lg.com/content/dam/channel/wcms/tw/images/small-appliances/a7-litemop/2010-01.jpg/jcr:content/renditions/thum-1600x1062.jpeg?w=800",
+        "after": "https://i3.momoshop.com.tw/1794985107/goodsimg/0009/861/645/9861645_O_m.webp"
+      },
+      {
+        "id": "washerdryer-lg-wd-s1818pb",
+        "before": "https://www.lg.com/content/dam/channel/wcms/tw/images/washer-dryers/washtower/wd-s1818pb/basic.jpg",
+        "after": "https://cs-a.ecimg.tw/items/DPAI1LA900KAQP8/000007_1794412889.jpg"
+      },
+      {
+        "id": "washerdryer-lg-wd-s22fhdb",
+        "before": "https://www.lg.com/content/dam/channel/wcms/tw/images/washer-dryers/washer-dryer-combos/wd-s22fhdb/gallery/new/WD-S22FHDB-450.jpg",
+        "after": "https://cs-a.ecimg.tw/items/DPAI1LA900JQKW2/000007_1772511081.jpg"
+      },
+      {
+        "id": "waterdispenser-lg-wu525bs",
+        "before": "https://www.lg.com/content/dam/channel/wcms/tw/images/water-purifier/all-water-purifier/wu525bs/gallery/basic.jpg",
+        "after": "https://img.shoplineapp.com/media/image_clips/6a804134b3229c7ed3e5b867/original.jpg?1786790196=&owner_id=68a29a8bdcaaa0001d99fdb7"
+      }
+    ],
     "historicalLows": [
       {
         "id": "monitor-asus-xg27ucmg",
@@ -44802,7 +44828,7 @@
     "carriedEvidence": true
   },
   "manualPriceReview": {
-    "checkedAt": "2026-11-20T00:06:40.370Z",
+    "checkedAt": "2026-11-20T00:27:06.054Z",
     "scope": "original_product_page_and_exact_sku_api",
     "rows": [
       {
@@ -46134,7 +46160,7 @@
     ]
   },
   "reviewScope": {
-    "checkedAt": "2026-11-20T00:06:40.370Z",
+    "checkedAt": "2026-11-20T00:27:06.054Z",
     "completePerExistingModelSuccessorMapping": false,
     "fullGenerationResearchComplete": false,
     "japaneseBrandBoundaryCells": 333,
@@ -46146,6 +46172,49 @@
     "officialLifeCycleSourcesRequested": 9,
     "limitations": "全目錄重取購買來源、圖片及已知史低來源。來源可讀與同型號可復核不代表歷史成交價每筆重新成立。限流、區域差異及原廠未披露換代關係，逐型台灣後繼對照仍未完成。到期活動均在08:01後以原頁重查；仍有效的短期公開活動保留實際截止時間。原頁與API無法交叉驗證者保留例外。",
     "exchangeLimitation": "本輪重新取得供應商最新批次仍為 2026-11-19 00:02 UTC；保留實際供應商時間戳與匯率。下一次供應商預告更新為 Fri, 20 Nov 2026 00:35:41 +0000。",
+    "nativeImageReview": {
+      "checkedAt": "2026-11-20T00:27:06.054Z",
+      "imageUrlsChanged": 5,
+      "replacements": [
+        {
+          "id": "washerdryer-lg-wd-s1818pb",
+          "image": "https://cs-a.ecimg.tw/items/DPAI1LA900KAQP8/000007_1794412889.jpg",
+          "sourceUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900KAQP8",
+          "sourceTitle": "LG 樂金18公斤+18公斤 WashTower AI智控熱泵洗乾衣機(WD-S1818PB)",
+          "evidence": "已目視檢查 API Pic.B 與 Pic.W。B 圖明示 WD-S1818PB、洗18KG／烘18KG；W 為同一黑色雙筒 WashTower 的純白底正面照，中央共用控制面板一致，沒有售價、優惠或活動海報。採用乾淨的 Pic.W。 已核對桌機及390px手機正式站來源的原生圖片載入。"
+        },
+        {
+          "id": "washerdryer-lg-wd-s22fhdb",
+          "image": "https://cs-a.ecimg.tw/items/DPAI1LA900JQKW2/000007_1772511081.jpg",
+          "sourceUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900JQKW2",
+          "sourceTitle": "LG樂金 WashCombo™ 22公斤AI熱泵除濕滾筒洗衣機(蒸洗脫烘)WD-S22FHDB(尊爵黑)",
+          "evidence": "已目視檢查 API Pic.B 與 Pic.W。B 明示 WD-S22FHDB、洗22KG／烘15KG，W 為相同尊爵黑單筒 WashCombo 本體白底正面照，旋鈕／螢幕、洗劑盒與下方保養蓋位置一致，沒有售價、優惠或活動海報。採 Pic.W。 已核對桌機及390px手機正式站來源的原生圖片載入。"
+        },
+        {
+          "id": "tv-lg-g6-65",
+          "image": "https://img.pchome.com.tw/cs/items/DPADZ5A900K4XRO/l000002_1784204502.jpg",
+          "sourceUrl": "https://24h.pchome.com.tw/prod/DPADZ5-A900K4XRO",
+          "sourceTitle": "PChome24h LG65吋OLED evo AI4K智慧顯示器OLED65G6PTA",
+          "evidence": "Exact listing DPADZ5-A900K4XRO HTML title and each gallery img alt name OLED65G6PTA. Selected gallery2 own picture explicitly prints OLED65G6PTA,65吋,2026 and G6 front panel. 已逐張目視：選第二張圖庫1000x1000，正面顯示器、LG OLED evoAI2026屏幕圖與65吋完整型號文字；無價格、贈品或到期活動。保留品牌規格邊框，未剪裁或改圖。 已核對正式站來源、no-referrer、桌機及390px手機原生載入。"
+        },
+        {
+          "id": "vacuum-lg-a7-litemop",
+          "image": "https://i3.momoshop.com.tw/1794985107/goodsimg/0009/861/645/9861645_O_m.webp",
+          "sourceUrl": "https://www.momoshop.com.tw/product/9861645",
+          "sourceTitle": "momo LG CordZero A9 Air濕拖無線吸塵器A7-LITEMOP雲朵白",
+          "evidence": "Existing buy listing9861645 original page explicitly names exactA7-LITEMOP雲朵白; chosen original galleryO image exposed as gallery7 on same page, different from promotionalR lead. 已目視1000x1000白底本體與配件圖：雲朵白主機/長管、乾式地板吸頭、雙旋濕拖頭、二合一刷及縫隙頭、電池與濾網；無價格、贈品、文字或ThinQ圖示。與原LG exactA7-LITEMOP雲朵白圖片造型和濕拖版本一致。 已核對正式站來源、no-referrer、桌機及390px手機原生載入。"
+        },
+        {
+          "id": "waterdispenser-lg-wu525bs",
+          "image": "https://img.shoplineapp.com/media/image_clips/6a804134b3229c7ed3e5b867/original.jpg?1786790196=&owner_id=68a29a8bdcaaa0001d99fdb7",
+          "sourceUrl": "https://www.evora.com.tw/products/【lg】淨水-bar-廚下型冰溫熱飲水機冰常溫瞬熱｜-wu525bs-1",
+          "sourceTitle": "【LG】淨水 Bar 廚下型冰溫熱飲水機|冰/常溫/瞬熱｜ WU525BS",
+          "evidence": "LG Taiwan WU525BS official product page lists EVORA 旗艦體驗館 among trial shops. Both original LG basic photograph and proposed primary retail photograph show the same Taiwan black cylindrical ThinQ faucet with flat oval control head, silver spout/base rings, cold-blue snowflake and 40/75/85°C and120/250/500ml controls; replacement is alternate perspective of same body. No price, promotional poster or watermark. Secondary retailer close-up confirms Traditional Chinese controls. 桌機與390px手機原生載入皆通過。"
+        }
+      ],
+      "testedLgDomainPhotos": 10,
+      "reason": "www.lg.com原圖可HTTP下載但Chrome原生影像以ERR_BLOCKED_BY_ORB阻擋；以exact-model可信通路圖片逐張替換並核對desktop/mobile原生載入，未變更瀏覽器安全設定。"
+    },
     "postExpiryPriceReview": {
       "checkedAt": "2026-11-20T00:02:31.878Z",
       "originalPagesReviewed": 26,

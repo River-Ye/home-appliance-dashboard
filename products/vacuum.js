@@ -1099,7 +1099,7 @@
       "status": "not_stated",
       "note": "單機含收納立架，未明示到府安裝；擺位、充電插座與組裝依說明書。"
     },
-    "image": "https://www.lg.com/content/dam/channel/wcms/tw/images/small-appliances/a7-litemop/2010-01.jpg/jcr:content/renditions/thum-1600x1062.jpeg?w=800",
+    "image": "https://i3.momoshop.com.tw/1794985107/goodsimg/0009/861/645/9861645_O_m.webp",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=9861645",
     "buyLabel": "momo（A7-LITEMOP 雲朵白；限時價至11/12）",
     "specs": [
