@@ -1082,13 +1082,13 @@
       "currency": "TWD",
       "amount": 7990,
       "converted": 7990,
-      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DQBJ0A-A900IGLW6 原商品主區公開價 NT$7,990，購買按鈕可用，API Qty 5。會員券、點數與卡回饋未計入。",
+      "confidence": "2026-11-20 核對原商品預購／供貨狀態，保留上次參考價",
+      "note": "完整商品主區配送資訊明示預購，預計 2026/12/01 至 12/03 出貨；金額為先前參考價，實際下單與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ0AA900IGLW6/000001_1759990112.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ0A-A900IGLW6",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（預購／交期待確認）",
     "specs": [
       "人體工學",
       "透氣網椅",
@@ -1277,11 +1277,11 @@
     "name": "OC2 SEAT SET 坐躺兩用電腦椅",
     "price": {
       "currency": "TWD",
-      "amount": 3499,
-      "converted": 3499,
-      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 3111,
+      "converted": 3111,
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DEBHA6-A9007ZPEF 原商品主區公開價 NT$3,499，購買按鈕可用，API Qty 7。會員券、點數與卡回饋未計入。"
+      "note": "PChome DEBHA6-A9007ZPEF 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$3,111。"
     },
     "image": "https://cs-a.ecimg.tw/items/DEBHA6A9007ZPEF/000001_1768553712.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEBHA6-A9007ZPEF",
@@ -1376,11 +1376,11 @@
     "name": "TITAN PRO V2 電競椅",
     "price": {
       "currency": "TWD",
-      "amount": 15350,
-      "converted": 15350,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "amount": 15990,
+      "converted": 15990,
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome 原商品主區及 SKU DQBJ6Z-A900JIKKR 公開折扣價 NT$15,350，頁列活動 11/13 至 11/16。API Qty 3，以通路配送、安裝條件為準。"
+      "note": "PChome DQBJ6Z-A900JIKKR 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$15,990。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ6ZA900JIKKR/000001_1782824760.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ6Z-A900JIKKR",
@@ -2458,11 +2458,11 @@
     "name": "STRYDER 高椅背可上掀扶手人體工學椅",
     "price": {
       "currency": "TWD",
-      "amount": 4790,
-      "converted": 4790,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "amount": 4990,
+      "converted": 4990,
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome 原商品主區及 SKU DQBJ0A-A900JCVY5 公開折扣價 NT$4,790，頁列活動 11/13 至 11/16。API Qty 4，以通路配送、安裝條件為準。"
+      "note": "PChome DQBJ0A-A900JCVY5 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$4,990。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ0AA900JCVY5/000001_1785087796.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ0A-A900JCVY5",

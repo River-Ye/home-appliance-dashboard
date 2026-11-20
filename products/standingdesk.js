@@ -818,13 +818,13 @@
       "currency": "TWD",
       "amount": 9490,
       "converted": 9490,
-      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DQCI0A-A900K15T1 原商品主區公開價 NT$9,490，購買按鈕可用，API Qty 4。會員券、點數與卡回饋未計入。",
+      "confidence": "2026-11-20 核對原商品預購／供貨狀態，保留上次參考價",
+      "note": "完整商品主區配送資訊仍明示預購，預計 2026/11/30 至 12/02 出貨；金額為先前參考價，實際下單與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DQCI0AA900K15T1/000001_1779269416.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQCI0A-A900K15T1",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（預購／交期待確認）",
     "specs": [
       "電動升降",
       "146cm 級桌面",

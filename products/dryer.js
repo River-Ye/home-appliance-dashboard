@@ -2400,11 +2400,11 @@
     "name": "20kg AI Heat Pump 免曬衣乾衣機",
     "price": {
       "currency": "TWD",
-      "amount": 41900,
-      "converted": 41900,
-      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 41111,
+      "converted": 41111,
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DPAI1L-A900HQ772 原商品主區公開價 NT$41,900，購買按鈕可用，API Qty 6。會員券、點數與卡回饋未計入。"
+      "note": "PChome DPAI1L-A900HQ772 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$41,111。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DPAI1LA900HQ772/000001_1762826049.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900HQ772",
@@ -2919,11 +2919,11 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 32900,
-      "converted": 32900,
+      "amount": 32111,
+      "converted": 32111,
       "basis": "retailer_current",
-      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DPAI1L-A900KI8KB 原商品主區公開價 NT$32,900，購買按鈕可用，API Qty 8。會員券、點數與卡回饋未計入。"
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DPAI1L-A900KI8KB 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$32,111。"
     },
     "installation": {
       "status": "not_stated",

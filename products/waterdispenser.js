@@ -223,11 +223,11 @@
     "image": "https://cs-a.ecimg.tw/items/DMAW25A900G453U/000001_1781668075.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 8333,
-      "converted": 8333,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "amount": 8590,
+      "converted": 8590,
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品主區可下單，公開折後價 NT$8,333，活動到 2026-11-16 07:00:59（台灣）。金額未扣會員券、點數及信用卡回饋。"
+      "note": "Yahoo 原商品主區賣場 12063907 已核對同型號／選定組合、可用購買按鈕與公開價 NT$8,590。未計入個人券、點數及信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -437,11 +437,11 @@
     "image": "https://cs-a.ecimg.tw/items/DMCI0PA900HEQ1J/000001_1756977419.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 12900,
-      "converted": 12900,
-      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 12255,
+      "converted": 12255,
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMCI0P-A900HEQ1J 原商品主區公開價 NT$12,900，購買按鈕可用，API Qty 4。會員券、點數與卡回饋未計入。"
+      "note": "PChome DMCI0P-A900HEQ1J 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$12,255。 下單再折可由同頁公開單件／門檻活動及同型號刊登互證，未計入個人券、點數與信用卡回饋。 公開活動至 2026-11-30T23:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "PChome",

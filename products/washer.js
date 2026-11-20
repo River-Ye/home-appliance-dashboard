@@ -119,11 +119,11 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/2E9A754FA4-SP-22052141.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 19900,
-      "converted": 19900,
-      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 18811,
+      "converted": 18811,
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DPAI1L-A900JI135 原商品主區公開價 NT$19,900，購買按鈕可用，API Qty 7。會員券、點數與卡回饋未計入。"
+      "note": "PChome DPAI1L-A900JI135 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$18,811。"
     },
     "channel": "tw",
     "buyLabel": "PChome 24h 購物",

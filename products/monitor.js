@@ -3991,11 +3991,11 @@
     "name": "49 型 Odyssey OLED G9 Dual QHD 240Hz 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 36900,
-      "converted": 36900,
-      "confidence": "PChome 2026-11-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 34800,
+      "converted": 34800,
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-05 PChome原SKU API公開價 36900 TWD；先前促銷金額不沿用。未扣個人券、點數或信用卡回饋；實際配送與安裝條件依通路確認。"
+      "note": "PChome DMBM10-A900HZCPE 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$34,800。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900HZCPE/000001_1781766568.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900HZCPE",
@@ -4293,11 +4293,11 @@
     "name": "57 型 Odyssey Neo G9 Dual UHD 240Hz Mini LED 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 69900,
-      "converted": 69900,
-      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 63990,
+      "converted": 63990,
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMBM10-A900GQLSE 原商品主區公開價 NT$69,900，購買按鈕可用，API Qty 2。會員券、點數與卡回饋未計入。"
+      "note": "PChome DMBM10-A900GQLSE 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$63,990。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900GQLSE/000001_1783054239.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900GQLSE",
@@ -7257,17 +7257,17 @@
   "recommendation": "與 XG27UCGR 雙模相比，此款適合會使用 4K 240Hz 或 QHD 400Hz 的人。只需一個高刷競技模式時，也可比較雙模式的價格。",
   "releaseDate": "找不到",
   "historicalLow": {
-    "status": "not_found",
-    "amount": null,
+    "status": "found",
+    "amount": 14144,
     "currency": "TWD",
-    "converted": null,
-    "sourceUrl": "",
-    "sourceTitle": "",
-    "evidenceSnippet": "",
-    "sourceKind": "not_found",
-    "confidence": "not_found",
-    "checkedAt": "2026-11-15",
-    "note": "LBJ 型號查詢回 429。BigGo 可核對 PChome 與 Yahoo 同型頁，歷史資料請求回 429 並要求登入。未取得可核對日期、原始新品賣場及付款條件的歷史低點，Yahoo NT$14,144 是本輪可購促銷。"
+    "converted": 14144,
+    "sourceUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=12337045",
+    "sourceTitle": "Yahoo 自營 ROG Strix XG27UCMG 同型公開滿一件95折活動",
+    "evidenceSnippet": "2026-11-15（台灣）保存的 Yahoo 原商品頁，賣場12337045／商品41271885的XG27UCMG，標示InStock、宅配免運與可購買，公開滿1件95折將NT$14,888折為NT$14,144。2026-11-16的原頁快照仍顯示同價及購買按鈕，活動已結束。",
+    "sourceKind": "retailer_promo",
+    "confidence": "medium",
+    "checkedAt": "2026-11-20",
+    "note": "採既有原通路查核日的同型新品公開促銷與庫存佐證；不含個人券、點數或信用卡回饋。可由2026-11-15版目錄永久連結核對當時可購紀錄，非本日現價，也不代表通路全歷史皆完整。"
   },
   "issueResearch": {
     "status": "no_common_issue",

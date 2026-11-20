@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19",
+  "generatedAt": "2026-11-20",
   "sourcePolicy": "本站共 21 類尺寸、13 類重量研究，尺寸涵蓋 電視、Soundbar、冷氣、洗衣機、烘衣機、洗烘衣機(多功能型)、電子衣櫥（衣物護理機）、床包、棉被、枕頭、冰箱、咖啡機、多功能氣炸烤箱／微波爐、洗碗機、熱水器、免治馬桶、網路交換器、螢幕燈、滑鼠、鍵盤、滑鼠墊。優先採 exact-model／相同版本的官方產品頁、官方規格表或官方 PDF，其次為可信新品通路。只採本體／機身／明確組件的尺寸與淨重，排除包裝、外箱尺寸與毛重；來源沒有明示軸序時不自行推定。既有家電與床包、棉被、枕頭維持 cm／kg，滑鼠、鍵盤與滑鼠墊使用 mm／g 並保留來源軸序。滑鼠墊厚度、床包可包覆高度另列；棉被的填充重量與整件淨重分開記錄。冷氣分列室內機與室外機，熱泵複合熱水器分列主機與儲槽。generatedAt 為最新證據批次日期，既有逐筆 checkedAt 與 weightCheckedAt 保留原查核日期，不表示重新查核。",
   "results": [
     {
@@ -11500,6 +11500,27 @@
       "weightSourceTitle": "BenQ ZOWIE 台灣 ZA12-DW 規格",
       "weightEvidenceSnippet": "ZA12-DW (M) 與尺寸圖各自標示重量 55 g，為滑鼠本體。",
       "weightCheckedAt": "2026-11-19",
+      "weightConfidence": "high",
+      "weightIsOfficialSource": true
+    },
+    {
+      "id": "mouse-zowie-fk1-dw",
+      "category": "mouse",
+      "brand": "ZOWIE",
+      "model": "FK1-DW",
+      "name": "FK1-DW 淺灰 4K 無線電競滑鼠",
+      "dimension": "尺寸：長 128.9 x 寬 66.8 x 高 37.3 mm（全長與最寬最高處）；前高 29.2 mm",
+      "sourceUrl": "https://image.benq.com/is/image/benqco/fk1-dw-measurement?wid=1400&fmt=png-alpha",
+      "sourceTitle": "BenQ ZOWIE 台灣 FK1-DW 機身標尺圖",
+      "evidenceSnippet": "原廠尺寸圖俯視前寬61.7、腰寬60.9、最大寬66.8 mm；側視全長128.9、最高37.3、前高29.2 mm，並明示本體55g。",
+      "checkedAt": "2026-11-20",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "weight": "重量：本體 55 g",
+      "weightSourceUrl": "https://zowie.benq.com/zh-tw/mouse/fk1-dw.html",
+      "weightSourceTitle": "BenQ ZOWIE 台灣 FK1-DW 規格",
+      "weightEvidenceSnippet": "FK1-DW (L) 與尺寸圖均明示本體55g，不採PChome包裝重量0.56kg。",
+      "weightCheckedAt": "2026-11-20",
       "weightConfidence": "high",
       "weightIsOfficialSource": true
     }

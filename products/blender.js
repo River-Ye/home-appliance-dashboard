@@ -1084,11 +1084,11 @@
     "name": "Designer 650 高效能食物調理機寶石紅",
     "price": {
       "currency": "TWD",
-      "amount": 22780,
-      "converted": 22780,
-      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
+      "amount": 24120,
+      "converted": 24120,
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
+      "note": "PChome DMAYBB-A900K6VSY 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$24,120。 公開活動至 2026-11-23T07:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAYBBA900K6VSY/000001_1783390508.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAYBB-A900K6VSY",

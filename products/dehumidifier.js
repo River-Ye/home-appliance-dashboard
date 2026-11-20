@@ -798,11 +798,11 @@
     "name": "9 公升除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 9790,
-      "converted": 9790,
-      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 8125,
+      "converted": 8125,
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMBQ00-A900JB38A 原商品主區公開價 NT$9,790，購買按鈕可用，API Qty 20。會員券、點數與卡回饋未計入。"
+      "note": "PChome DMBQ00-A900JB38A 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$8,125。 公開活動至 2026-11-30T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ00A900JB38A/000001_1776329911.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ00-A900JB38A",
@@ -898,9 +898,9 @@
       "currency": "TWD",
       "amount": 13900,
       "converted": 13900,
-      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-13 PChome 原 SKU 公開價 NT$13900，API Qty 20。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。"
+      "note": "2026-11-20 08:01:13（台灣）優惠期限後重查 PChome DMBQ07-A900HQ3L5 原商品主價、完整配送區及可用購買動作；同一 SKU API Qty 1，公開單件價 NT$13,900。 此公開單件活動有效至 2026-11-30T23:59:59+08:00，到期請以原頁新價為準。 未計入個人券、點數及信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ07A900HQ3L5/000001_1761827365.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ07-A900HQ3L5",
@@ -994,11 +994,11 @@
     "name": "PuriCare 12 公升雙變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 12967,
-      "converted": 12967,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "amount": 13231,
+      "converted": 13231,
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品主區可下單，公開折後價 NT$12,967，活動到 2026-11-16 06:59:59（台灣）。金額未扣會員券、點數及信用卡回饋。"
+      "note": "Yahoo 原商品主區賣場 11864251 已核對同型號／選定組合、可用購買按鈕與公開價 NT$13,231。未計入個人券、點數及信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4NA900JF9HP/000001_1778165423.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-12%E5%85%AC%E5%8D%87-%E6%97%A5UV%E6%AE%BA%E8%8F%8C%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9FDD121QWE0-11864251.html",
@@ -1481,11 +1481,11 @@
     "name": "6公升高效除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 4390,
-      "converted": 4390,
-      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 4090,
+      "converted": 4090,
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMBQ08-A900IXL3K 原商品主區公開價 NT$4,390，購買按鈕可用，API Qty 20，商品主區活動 11/12 至 11/30。會員券、點數與卡回饋未計入。"
+      "note": "PChome DMBQ08-A900IXL3K 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$4,090。 下單再折可由同頁公開單件／門檻活動及同型號刊登互證，未計入個人券、點數與信用卡回饋。 公開活動至 2026-11-30T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ08A900IXL3K/000001_1753349026.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ08-A900IXL3K",

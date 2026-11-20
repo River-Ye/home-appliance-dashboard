@@ -649,11 +649,11 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/88F364AB6B-SP-11096810.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 29900,
-      "converted": 29900,
-      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 30900,
+      "converted": 30900,
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DPAI1L-A900EP6CY 原商品主區公開價 NT$29,900，購買按鈕可用，API Qty 13。會員券、點數與卡回饋未計入。"
+      "note": "PChome DPAI1L-A900EP6CY 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$30,900。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -755,11 +755,11 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/1f2a33ce70-Gd-10053955.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 44910,
-      "converted": 44910,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "amount": 43900,
+      "converted": 43900,
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品主區可下單，公開網路價 NT$44,910。金額未扣會員券、點數及信用卡回饋。"
+      "note": "Yahoo 原商品主區賣場 10053955 已核對同型號／選定組合、可用購買按鈕與公開價 NT$43,900。未計入個人券、點數及信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -2323,12 +2323,12 @@
       "currency": "TWD",
       "amount": 82900,
       "converted": 82900,
-      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DPAI1L-A900KAQP8 原商品主區公開價 NT$82,900，購買按鈕可用，API Qty 8。會員券、點數與卡回饋未計入。",
+      "confidence": "2026-11-20 核對原商品預購／供貨狀態，保留上次參考價",
+      "note": "完整商品主區配送資訊明示預購，接單後陸續安排出貨、最晚 2026/11/30；金額為先前參考價，實際下單與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "channel": "tw",
-    "buyLabel": "PChome 24h購物（含基本安裝）",
+    "buyLabel": "PChome 24h購物（含基本安裝）（預購／交期待確認）",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900KAQP8",
     "specs": [
       "WashTower 一體式上下雙筒，可同步洗衣與乾衣",
@@ -2433,11 +2433,11 @@
     "image": "https://img.pchome.com.tw/cs/items/DPAI1LA900IXKBU/000007_1752484626.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 92900,
-      "converted": 92900,
-      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 88111,
+      "converted": 88111,
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DPAI1L-A900IXKBU 原商品主區公開價 NT$92,900，購買按鈕可用，API Qty 2。會員券、點數與卡回饋未計入。"
+      "note": "PChome DPAI1L-A900IXKBU 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$88,111。"
     },
     "channel": "tw",
     "buyLabel": "PChome",

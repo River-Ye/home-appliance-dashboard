@@ -2242,10 +2242,11 @@
     "topPick": false,
     "price": {
       "currency": "TWD",
-      "amount": 1099,
-      "converted": 1099,
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
-      "note": "PChome 原商品頁主價 NT$1,099 與 API 確認值或原頁購買狀態未能完整互證，保留既有參考資料。"
+      "amount": 1039,
+      "converted": 1039,
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DHAG9F-A900HACFH 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$1,039。 下單再折可由同頁公開單件／門檻活動及同型號刊登互證，未計入個人券、點數與信用卡回饋。 公開活動至 2026-11-23T23:59:59+08:00。",
+      "basis": "retailer_current"
     },
     "installation": {
       "status": "not_stated",

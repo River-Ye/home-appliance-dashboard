@@ -903,10 +903,11 @@
     "type": "1g",
     "price": {
       "currency": "TWD",
-      "amount": 4620,
-      "converted": 4620,
-      "confidence": "PChome 2026-08-27 exact-model 公開價；Price.Low 無正值，採 Price.P",
-      "basis": "retailer_current"
+      "amount": 4725,
+      "converted": 4725,
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
+      "basis": "retailer_current",
+      "note": "PChome DRAFBY-A900HAYMQ 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$4,725。"
     },
     "installation": {
       "status": "excluded",
@@ -1566,11 +1567,11 @@
     "type": "2_5g",
     "price": {
       "currency": "TWD",
-      "amount": 8694,
-      "converted": 8694,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 9870,
+      "converted": 9870,
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-01 人工核對PChome原始API同型號商品ID、名稱、正數庫存與公開折扣價8694元；HTML另遇429限制，不把API當完整出貨承諾。"
+      "note": "PChome DRAFJA-A900HY46J 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$9,870。"
     },
     "installation": {
       "status": "excluded",
@@ -1827,11 +1828,11 @@
     "type": "2_5g",
     "price": {
       "currency": "TWD",
-      "amount": 9922,
-      "converted": 9922,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 11445,
+      "converted": 11445,
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-01 人工核對PChome原始API同型號商品ID、名稱、正數庫存與公開折扣價9922元；HTML另遇429限制，不把API當完整出貨承諾。"
+      "note": "PChome DRAFJA-A900HYYPE 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$11,445。"
     },
     "installation": {
       "status": "excluded",

@@ -1678,10 +1678,10 @@
     "name": "10坪圓嘟嘟空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 5314,
-      "converted": 5314,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
-      "note": "Yahoo 原商品主區可下單，公開折後價 NT$5,314，活動到 2026-11-16 06:59:59（台灣）。金額未扣會員券、點數及信用卡回饋。",
+      "amount": 5422,
+      "converted": 5422,
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "Yahoo 原商品主區賣場 12292952 已核對同型號／選定組合、可用購買按鈕與公開價 NT$5,422。未計入個人券、點數及信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU6TA900IVWE0/000001_1748922662.jpg",
@@ -2496,9 +2496,9 @@
       "currency": "TWD",
       "amount": 3990,
       "converted": 3990,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "confidence": "2026-11-20 核對原商品預購／供貨狀態，保留上次參考價",
       "basis": "retailer_current",
-      "note": "PChome 原商品主區及 SKU DMAU00-A77331975 公開價格 NT$3,990。API Qty 66，以通路配送、安裝條件為準。"
+      "note": "完整商品主區配送資訊明示預購，接單後陸續安排出貨、最晚 2026/11/25；金額為先前參考價，實際下單與交期請向通路確認。"
     },
     "installation": {
       "status": "not_stated",
@@ -2506,7 +2506,7 @@
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU00A77331975/000001_1747044686.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU00-A77331975",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（預購／交期待確認）",
     "specs": [
       "適用坪數：約 4–8 坪；CADR 100 cfm（約 170 m³/h）",
       "True HEPA 濾網搭配活性碳前置濾網",

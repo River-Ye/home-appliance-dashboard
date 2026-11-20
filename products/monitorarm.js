@@ -1522,10 +1522,11 @@
     "name": "45吋 20KG 氣壓式螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 3141,
-      "converted": 3141,
-      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "PChome 原商品頁主價 NT$3,490 與 API 確認值或原頁購買狀態未能完整互證，保留既有參考資料。"
+      "amount": 2901,
+      "converted": 2901,
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DCAGU1-A900I6WCY 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$2,901。 下單再折可由同頁公開單件／門檻活動及同型號刊登互證，未計入個人券、點數與信用卡回饋。 公開活動至 2026-11-23T23:59:59+08:00。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGU1A900I6WCY/000001_1754374453.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAGU1-A900I6WCY",
@@ -1619,10 +1620,10 @@
     "name": "35吋 20KG 雙臂氣壓式螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 5391,
-      "converted": 5391,
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
-      "note": "PChome 同型 BenQ BDH01 雙臂主價 NT$5,391，網路價 NT$5,990，原頁可購，API Qty 5。",
+      "amount": 4791,
+      "converted": 4791,
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DCAGU1-A900IX2MD 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$4,791。 下單再折可由同頁公開單件／門檻活動及同型號刊登互證，未計入個人券、點數與信用卡回饋。 公開活動至 2026-11-23T23:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGU1A900IX2MD/000001_1749518938.jpg",

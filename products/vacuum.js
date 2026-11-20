@@ -892,11 +892,11 @@
     "name": "CordZero A9X 蒸氣濕拖自動集塵無線吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 25111,
-      "converted": 25111,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "amount": 24000,
+      "converted": 24000,
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome 原商品主區及 SKU DMAX8K-A900HLXAQ 公開價格 NT$25,111。API Qty 18，以通路配送、安裝條件為準。"
+      "note": "PChome DMAX8K-A900HLXAQ 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$24,000。 公開活動至 2026-11-30T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX8KA900HLXAQ/000001_1744871444.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAX8K-A900HLXAQ",

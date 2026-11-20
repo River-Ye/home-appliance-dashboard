@@ -394,9 +394,11 @@
     "name": "62-TW 黑色渦流空氣循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 3880,
-      "converted": 3880,
-      "confidence": "PChome 2026-09-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 3686,
+      "converted": 3686,
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
+      "basis": "retailer_current",
+      "note": "PChome DMAB3X-A900IIGO1 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$3,686。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB3XA900IIGO1/000001_1765272569.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAB3X-A900IIGO1",

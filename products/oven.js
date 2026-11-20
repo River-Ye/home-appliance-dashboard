@@ -117,11 +117,11 @@
     "name": "26L 8 合 1 變頻氣炸蒸烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 18900,
-      "converted": 18900,
+      "amount": 17955,
+      "converted": 17955,
       "basis": "retailer_current",
-      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "Yahoo 原商品主區可下單，公開價 NT$18,900。未扣會員券、點數與信用卡回饋。"
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "Yahoo 原商品主區賣場 11705976 已核對同型號／選定組合、可用購買按鈕與公開價 NT$17,955。公開單件活動至 2026-12-01T02:59:59+08:00。未計入個人券、點數及信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ02A900J1WEX/000001_1753093870.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool%E6%83%A0%E8%80%8C%E6%B5%A6-Coloris%E7%B3%BB%E5%88%97-26%E5%85%AC%E5%8D%878%E5%90%88%E4%B8%80%E5%85%A8%E8%83%BD%E8%AE%8A%E9%A0%BB%E6%B0%A3%E7%82%B8%E8%92%B8%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-%E9%9B%B2%E9%9C%A7%E7%99%BD-MWP2-11705976.html",
@@ -812,11 +812,11 @@
     "name": "Coloris 系列 32L 8 合 1 變頻氣炸蒸烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 22222,
-      "converted": 22222,
-      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 21111,
+      "converted": 21111,
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品主區可下單，公開價 NT$22,222。未扣會員券、點數與信用卡回饋。"
+      "note": "Yahoo 原商品主區賣場 12006007 已核對同型號／選定組合、可用購買按鈕與公開價 NT$21,111。公開單件活動至 2026-12-01T02:59:59+08:00。未計入個人券、點數及信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ03A900IYX0L/000001_1750758530.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool-%E6%83%A0%E8%80%8C%E6%B5%A6Coloris%E7%B3%BB%E5%88%97-32%E5%85%AC%E5%8D%878%E5%90%88%E4%B8%80%E5%85%A8%E8%83%BD%E8%AE%8A%E9%A0%BB%E6%B0%A3%E7%82%B8%E8%92%B8%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-%E5%A4%A7%E5%9C%B0%E6%A3%95-MWP3-12006007.html",
@@ -1415,10 +1415,10 @@
     "name": "32 公升獨立式萬用蒸烤爐",
     "price": {
       "currency": "TWD",
-      "amount": 12111,
-      "converted": 12111,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
-      "note": "PChome 32L WSO322EB 同型新品主區公開折扣 NT$12,111（網路價 NT$15,800），API 同型 Qty 8，加購與立即購買按鈕可用。大材積倉庫出貨，頁面滿 NT$490 宅配免運。公開折扣截至 2026/11/16 08:00:59。",
+      "amount": 15800,
+      "converted": 15800,
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-20 08:01:16（台灣）優惠期限後重查 PChome DMBJ6Q-A900EO9M8 原商品主價、完整配送區及可用購買動作；同一 SKU API Qty 8，公開單件價 NT$15,800。 先前夜間快閃已結束，採當前主商品價。 未計入個人券、點數及信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMBJ6QA900EO9M8/000001_1716271473.jpg",
@@ -1714,11 +1714,11 @@
     "name": "過熱水蒸氣烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 22908,
-      "converted": 22908,
+      "amount": 21763,
+      "converted": 21763,
       "basis": "retailer_current",
-      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "Yahoo 原商品主區可下單，公開價 NT$22,908。未扣會員券、點數與信用卡回饋。"
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "Yahoo 原商品主區賣場 11995105 已核對同型號／選定組合、可用購買按鈕與公開價 NT$21,763。公開單件活動至 2026-12-01T02:59:59+08:00。未計入個人券、點數及信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ031900I80DM/000001_1778655849.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/HITACHI-%E6%97%A5%E7%AB%8B-%E9%81%8E%E7%86%B1%E6%B0%B4%E8%92%B8%E6%B0%A3%E7%83%98%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-%E7%88%B5%E8%89%B2%E9%BB%91-MROS800AT-11995105.html",

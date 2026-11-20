@@ -1,13 +1,13 @@
 {
   "summary": {
-    "checkedAt": "2026-11-19T00:18:24.020Z",
-    "total": 1284,
-    "researchedThisRun": 4,
+    "checkedAt": "2026-11-19T23:39:07.703Z",
+    "total": 1285,
+    "researchedThisRun": 1,
     "found": 376,
-    "missing": 908,
+    "missing": 909,
     "byConfidence": {
       "official": 190,
-      "not_found": 905,
+      "not_found": 906,
       "retailer_explicit": 26,
       "credible_article": 52,
       "high": 84,
@@ -15,7 +15,7 @@
       "unknown": 3
     },
     "sourcePolicy": "本輪僅新增/身份更正商品完成獨立上市日研究；既有逐筆證據及實際查核日期保留，不將來源維護範圍當成重新人工研究。",
-    "scopeNote": "2026-11-19 僅新增型號完成上市查核；既有逐筆證據保留原查核日期。"
+    "scopeNote": "2026-11-20 僅新增型號完成上市查核；既有逐筆證據保留原查核日期。"
   },
   "results": [
     {
@@ -39536,6 +39536,50 @@
           "url": "https://www.inpad.com.tw/product.php?act=view&id=14042",
           "title": "硬派精璽同型淺灰新品頁",
           "outcome": "原頁顯示售完，無明示上市日。"
+        }
+      ]
+    },
+    {
+      "id": "mouse-zowie-fk1-dw",
+      "category": "mouse",
+      "brand": "ZOWIE",
+      "model": "FK1-DW",
+      "name": "FK1-DW 淺灰 4K 無線電競滑鼠",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "台灣官方 exact-model 頁沒有上市日；原廠社群提供的是海外供應期；Mobile01 2026/07/03 是試用文日期且請讀者等待正式到貨，不當台灣上市日。日本11月發售新聞亦不轉作台灣日期。",
+      "query": "\"FK1-DW\" 台灣 上市 開賣",
+      "auditQueries": [
+        "\"FK1-DW\" 台灣 上市 開賣",
+        "\"FK1-DW\" site:zowie.benq.com/zh-tw/news"
+      ],
+      "checkedAt": "2026-11-20",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://zowie.benq.com/zh-tw/mouse/fk1-dw.html",
+          "title": "ZOWIE 台灣 FK1-DW",
+          "outcome": "台灣完整規格，未列台灣上市日。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7276173",
+          "title": "【開箱】ZOWIE全新塗層與配色嘗試 | ZOWIE FK1-DW & ZOWIE ZA12-DW",
+          "outcome": "試用文，結尾等待正式到貨。"
+        },
+        {
+          "url": "https://www.reddit.com/r/Zowie/comments/1u3pbo0/introducing_the_new_fk1dw_and_za12dw_wireless_mice/",
+          "title": "Introducing the new FK1-DW and ZA12-DW wireless mice",
+          "outcome": "官方原貼列海外日期，台灣日期未載。"
+        },
+        {
+          "url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2157268.html",
+          "title": "日本 FK1-DW / ZA12-DW 發售報導",
+          "outcome": "日本通路發售，非台灣日期。"
         }
       ]
     }

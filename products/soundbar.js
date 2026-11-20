@@ -1111,8 +1111,8 @@
       "currency": "TWD",
       "amount": 9016,
       "converted": 9016,
-      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "Yahoo 原商品主區可下單，公開價 NT$9,016；公開單件活動至 2026-11-19T19:58:59+08:00。未扣會員券、點數與信用卡回饋。",
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-20 08:01:49（台灣）重查 Yahoo 原賣場 10067449 主商品公開價 NT$9,016，購買按鈕可用、原頁無預購標示；已排除過期夜間活動。 此公開單件活動有效至 2026-11-20T19:58:59+08:00，到期請以原頁新價為準。 未計入個人券、點數及信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900GHTFE/000001_1776774078.jpg",
@@ -3107,11 +3107,11 @@
     "name": "ROG Gjallar 2.1.2 聲道電競 Soundbar 與無線重低音",
     "price": {
       "currency": "TWD",
-      "amount": 17900,
-      "converted": 17900,
-      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 17300,
+      "converted": 17300,
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-13 PChome 原 SKU 公開價 NT$17900，API Qty 20。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。"
+      "note": "PChome DCAIAM-A900K9HQX 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$17,300。 下單再折可由同頁公開單件／門檻活動及同型號刊登互證，未計入個人券、點數與信用卡回饋。 公開活動至 2026-11-23T23:59:59+08:00。"
     },
     "installation": {
       "status": "not_stated",
@@ -3147,16 +3147,16 @@
     "releaseDate": "2026-07",
     "historicalLow": {
       "status": "found",
-      "amount": 17900,
+      "amount": 17300,
       "currency": "TWD",
-      "converted": 17900,
-      "sourceUrl": "https://price.shhwa.cc/product/pchome/DCAIAM-A900K9HQX",
-      "sourceTitle": "Lowcast 比價趨勢：PChome ASUS 華碩 ROG Gjallar Soundbar 聲霸音箱系統 重低音喇叭",
-      "evidenceSnippet": "Lowcast 同一刊登 DCAIAM-A900K9HQX 於 2026-11-14 收盤價為 NT$17,900。當日 PChome 同 SKU 公開價格同值，API Qty 20。",
-      "sourceKind": "price_history",
+      "converted": 17300,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DCAIAM-A900K9HQX",
+      "sourceTitle": "ASUS ROG Gjallar 原商品頁",
+      "evidenceSnippet": "2026-11-20 PChome DCAIAM-A900K9HQX 原商品主區、完整型號／選定版本及可用購買動作已人工核對，API Qty 20；採公開價 NT$17,300。 下單再折可由同頁公開單件／門檻活動與 SKU API 互證，未計入個人券、點數與信用卡回饋。 公開活動至 2026-11-23T23:59:59+08:00。 低於原有同款紀錄。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-11-16",
-      "note": "同型號新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
+      "checkedAt": "2026-11-20",
+      "note": "採同型號同規格可信新品公開價，不含個人券、點數、會員特價與信用卡回饋。"
     },
     "issueResearch": {
       "status": "common_issue",

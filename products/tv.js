@@ -1958,10 +1958,10 @@
     "name": "65型 4K QLED 120Hz Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 14111,
-      "converted": 14111,
-      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-04 人工核對當日PChome exact商品ID DPADTO-A900JNMOP：【CHiQ 啟客】65型4K QLED 120Hz DLG google TV智慧聯網液晶顯示器CQ-65QX250；<font color=#FF0000><b>含運送+基本安裝+舊機回收</font></b><BR>【CHiQ 啟客】65型4K QLED 120Hz DLG google TV智慧聯網液晶顯示器CQ-65QX250；Price.Low=14111元，Qty=20。原HTML主商品另讀。不扣個人券、點數、信用卡；送貨安裝請確認。",
+      "amount": 14391,
+      "converted": 14391,
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-20 08:01:17（台灣）優惠期限後重查 PChome DPADTO-A900JNMOP 原商品主價、完整配送區及可用購買動作；同一 SKU API Qty 20，公開單件價 NT$14,391。 此公開單件活動有效至 2026-11-20T08:59:59+08:00，到期請以原頁新價為準。 未計入個人券、點數及信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADTOA900JNE73/000001_1768523868.jpg",

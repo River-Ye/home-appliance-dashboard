@@ -1042,11 +1042,11 @@
     "image": "https://cs-a.ecimg.tw/items/DEDG3BA900GQDVZ/000001_1776769920.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 988,
-      "converted": 988,
+      "amount": 1099,
+      "converted": 1099,
       "basis": "retailer_current",
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
-      "note": "Yahoo 原商品主區可下單，公開折後價 NT$988，活動到 2026-11-16 07:59:59（台灣）。金額未扣會員券、點數及信用卡回饋。"
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "Yahoo 原商品主區賣場 10238240 已核對同型號／選定組合、可用購買按鈕與公開價 NT$1,099。未計入個人券、點數及信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1850,10 +1850,10 @@
     "name": "醇火系列不沾炒鍋",
     "price": {
       "currency": "TWD",
-      "amount": 1439,
-      "converted": 1439,
-      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DEES01-A900IQ6X3 原商品主區公開價 NT$1,439，購買按鈕可用，API Qty 3，商品主區活動 11/16 至 11/19。會員券、點數與卡回饋未計入。",
+      "amount": 1599,
+      "converted": 1599,
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DEES01-A900IQ6X3 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$1,599。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DEES01A900IQ6X3/000001_1764832269.jpg",

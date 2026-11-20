@@ -16,10 +16,10 @@
     "name": "全能機械手臂旗艦掃拖王者",
     "price": {
       "currency": "TWD",
-      "amount": 32181,
-      "converted": 32181,
-      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DMBL1C-A900IGHHM 原商品主區公開價 NT$32,181，購買按鈕可用，API Qty 20。會員券、點數與卡回饋未計入。",
+      "amount": 35480,
+      "converted": 35480,
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DMBL1C-A900IGHHM 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$35,480。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900IGHHM/000001_1782870336.jpg",
@@ -116,13 +116,13 @@
       "currency": "TWD",
       "amount": 31261,
       "converted": 31261,
-      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-20 核對原商品預購／供貨狀態，保留上次參考價",
       "basis": "retailer_current",
-      "note": "PChome DMBL1C-A900JNELR 原商品主區公開價 NT$31,261，購買按鈕可用，API Qty 20。會員券、點數與卡回饋未計入。"
+      "note": "完整商品主區配送資訊明示預購，預計 2027/01/10 至 01/12 出貨；金額為先前參考價，實際下單與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JNELR/000001_1769062030.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JNELR",
-    "buyLabel": "PChome 24h購物（可訂購，交期請確認）",
+    "buyLabel": "PChome 24h購物（可訂購，交期請確認）（預購／交期待確認）",
     "specs": [
       "36000Pa",
       "100 度熱水洗",
@@ -303,13 +303,13 @@
       "currency": "TWD",
       "amount": 29421,
       "converted": 29421,
-      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-20 核對原商品預購／供貨狀態，保留上次參考價",
       "basis": "retailer_current",
-      "note": "PChome DMBL1C-A900JMMCO 原商品主區公開價 NT$29,421，購買按鈕可用，API Qty 49。會員券、點數與卡回饋未計入。"
+      "note": "完整商品主區配送資訊明示預購，接單後陸續安排出貨、最晚 2026/12/18；金額為先前參考價，實際下單與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JMMCO/000001_1769061975.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JMMCO",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（預購／交期待確認）",
     "specs": [
       "36000Pa",
       "8.8cm 雙門檻越障",
@@ -399,11 +399,11 @@
     "name": "雙越野高智商旗艦級掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 23901,
-      "converted": 23901,
-      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 25480,
+      "converted": 25480,
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMBL1C-A900JPHOP 原商品主區公開價 NT$23,901，購買按鈕可用，API Qty 20。會員券、點數與卡回饋未計入。"
+      "note": "PChome DMBL1C-A900JPHOP 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$25,480。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JPHOP/000001_1782870240.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JPHOP",
@@ -498,11 +498,11 @@
     "name": "滾筒全自動洗拖烘掃地機器人",
     "price": {
       "currency": "TWD",
-      "amount": 17911,
-      "converted": 17911,
-      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 19999,
+      "converted": 19999,
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMBL1C-A900JA04J 原商品主區公開價 NT$17,911，購買按鈕可用，API Qty 20。會員券、點數與卡回饋未計入。"
+      "note": "PChome DMBL1C-A900JA04J 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$19,999。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JA04J/000001_1783562731.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JA04J",
@@ -598,8 +598,8 @@
       "currency": "TWD",
       "amount": 24700,
       "converted": 24700,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
-      "note": "Yahoo 原商品主區 2026-11-19 仍明示預購及依序出貨，標示 NT$25,999，實際出貨及下單再折以原頁為準。卡片保留上次參考價。",
+      "confidence": "2026-11-20 核對原商品預購／供貨狀態，保留上次參考價",
+      "note": "原商品主區仍明示預購並依序出貨，金額為先前參考價，實際下單與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900JRDAS/000001_1771917633.jpg",
@@ -3235,10 +3235,10 @@
     "name": "Xiaomi 掃拖機器人 H50 Pro",
     "price": {
       "currency": "TWD",
-      "amount": 10788,
-      "converted": 10788,
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
-      "note": "Yahoo 原 SKU 主商品公開價 NT$10,788，主購買按鈕可用。公開活動截至 2026-11-16T07:59:59+08:00。",
+      "amount": 10799,
+      "converted": 10799,
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "Yahoo 原商品主區賣場 12052496 已核對同型號／選定組合、可用購買按鈕與公開價 NT$10,799。公開單件活動至 2026-11-30T07:59:59+08:00。未計入個人券、點數及信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/DBA14833A1-SP-22450109.jpg",
@@ -3452,11 +3452,11 @@
     "name": "搖滾天王超薄活水滾筒掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 22981,
-      "converted": 22981,
-      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 24980,
+      "converted": 24980,
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMBL1C-A900K7R6R 原商品主區公開價 NT$22,981，購買按鈕可用，API Qty 20。會員券、點數與卡回饋未計入。"
+      "note": "PChome DMBL1C-A900K7R6R 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$24,980。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900K7R6R/000001_1785985365.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900K7R6R",

@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-19",
+  "checkedAt": "2026-11-20",
   "methodVersion": 3,
   "policy": "每筆決策須保存 exact-model 跨站查詢與人工 attestation；每個搜尋候選須逐頁保存摘要、獨立作者數與具體排除理由，研究工具不得自行生成拒絕結論。",
   "results": [
@@ -101406,6 +101406,130 @@
       ],
       "reviewerNote": "ZA12-DW：逐站查完整型號並回看原頁，將外殼擠壓、海外預購延遲、CS2 操作與韌體問題分開。Mobile01 與巴哈姆特相同圖文去重；不把重複留言、客服、星級或相近型號當成獨立故障者。",
       "attestation": "manual_original_pages_reviewed"
+    },
+    {
+      "id": "mouse-zowie-fk1-dw",
+      "category": "mouse",
+      "brand": "ZOWIE",
+      "model": "FK1-DW",
+      "name": "FK1-DW 淺灰 4K 無線電競滑鼠",
+      "reviewedAt": "2026-11-20",
+      "reviewBatch": "mouse",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PChome",
+        "Reddit"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"FK1-DW\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22FK1-DW%22"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"FK1-DW\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22FK1-DW%22"
+        }
+      ],
+      "candidateDisposition": "FK1-DW：尾殼裝配公差一名、按鍵／握型偏好一名、主觀續航一名；不同現象分開，未達相同 exact model 同一問題六人且兩站門檻。",
+      "representativeSources": [
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7276173",
+          "title": "【開箱】ZOWIE全新塗層與配色嘗試 | ZOWIE FK1-DW & ZOWIE ZA12-DW"
+        },
+        {
+          "platform": "PChome",
+          "url": "https://24h.pchome.com.tw/prod/DCAN33-A900K2FU6",
+          "title": "ZOWIE FK1-DW 4K 無線電競滑鼠／原 SKU 商品評價"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Zowie/comments/1wd92hc/anyone_received_their_za12dw_fk1dw_yet/",
+          "title": "Anyone received their ZA12-DW / FK1-DW yet?"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Zowie/comments/1u3pbo0/introducing_the_new_fk1dw_and_za12dw_wireless_mice/",
+          "title": "Introducing the new FK1-DW and ZA12-DW wireless mice"
+        }
+      ],
+      "candidateReviews": [
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7276173",
+          "title": "【開箱】ZOWIE全新塗層與配色嘗試 | ZOWIE FK1-DW & ZOWIE ZA12-DW",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "reviewedAuthors": [
+            "前鋒（同文作者 Rickwang0412）"
+          ],
+          "locator": "文章93321189／#1 的 FK1-DW 段落與總結",
+          "sourceExcerpt": "作者實測淺灰 FK1-DW，尾端兩側上下蓋有裝配公差；其餘按鍵、滾輪及塗層評價大致正面。",
+          "specificReason": "一名試用作者的一顆 FK1-DW 尾殼裝配個案；與同作者的其他站跨貼去重，不能把 ZA12-DW 擠壓外擴當另一名同型故障。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-20",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "platform": "PChome",
+          "url": "https://24h.pchome.com.tw/prod/DCAN33-A900K2FU6",
+          "title": "ZOWIE FK1-DW 4K 無線電競滑鼠／原 SKU 商品評價",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "reviewedAuthors": [
+            "謝**（ReviewsId 1cd104db3976b56a9b0117fac2b8cfea）",
+            "許**（僅星級不計故障者）"
+          ],
+          "locator": "商品評價：謝** 2026/08/29；許** 2026/08/31",
+          "sourceExcerpt": "謝**覺得按鍵稍硬、長機身滑動跟手感尚待適應，並提到之前預購延後；許**沒有可讀的文字故障描述。",
+          "specificReason": "按鍵手感與低背長機身適應不是與尾殼裝配相同的故障；海外或過去預購配送延誤不證明今日商品故障，空白星級不計作者。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-20",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Zowie/comments/1wd92hc/anyone_received_their_za12dw_fk1dw_yet/",
+          "title": "Anyone received their ZA12-DW / FK1-DW yet?",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "reviewedAuthors": [
+            "NoTourist435",
+            "aGamingPenguin",
+            "Next-Examination-811"
+          ],
+          "locator": "NoTourist435 首則到貨及續航回覆；aGamingPenguin 英國預購留言",
+          "sourceExcerpt": "NoTourist435 明示收到 FK1-DW 一週並認為整體良好、續航普通；aGamingPenguin 的 FK1-DW 英國 Amazon 預購延遲，首篇是別款 ZA12-DW。",
+          "specificReason": "續航評論沒有實測時數或異常耗電證據，僅一人主觀取捨；其餘為配送資訊或不同型號，與尾殼裝配不同。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-20",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Zowie/comments/1u3pbo0/introducing_the_new_fk1dw_and_za12dw_wireless_mice/",
+          "title": "Introducing the new FK1-DW and ZA12-DW wireless mice",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "ZOWIESupport"
+          ],
+          "locator": "官方原貼、新品尺寸及地區供應修訂",
+          "sourceExcerpt": "官方帳號列 FK1-DW 為低背新尺寸，並修訂美國與歐洲供應時間。",
+          "specificReason": "原廠發表與上市供應期不屬獨立消費者故障；有線 FK1 的舊滾輪留言是不同型號。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-20",
+          "reviewBasis": "manual_web_original_page"
+        }
+      ],
+      "reviewerNote": "FK1-DW：本次人工閱讀 Mobile01 試用文、PChome 同 SKU 的兩則評價及 Reddit 同型號到貨留言。尾殼裝配公差、按鍵硬度／適應與主觀續航分開判讀，沒有跨站六名同問題。Mobile01 同文在巴哈姆特／ePrice 的跨貼不新增作者；巴哈姆特直讀403不作故障排除依據，原始主文已於 Mobile01 讀取。",
+      "attestation": "manual_original_pages_reviewed",
+      "status": "completed"
     }
   ]
 }

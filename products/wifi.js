@@ -2181,11 +2181,11 @@
     "name": "AX3000 Wi-Fi 6 Mesh 網狀路由器三入組",
     "price": {
       "currency": "TWD",
-      "amount": 4699,
-      "converted": 4699,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "amount": 5499,
+      "converted": 5499,
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome 原商品主區及 SKU DRAFEM-A900F9H1Y 公開價格 NT$4,699。API Qty 11，以通路配送、安裝條件為準。"
+      "note": "PChome DRAFEM-A900F9H1Y 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$5,499。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFEMA900F9H1Y/000001_1774858877.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFEM-A900F9H1Y",
@@ -4208,9 +4208,11 @@
     "name": "BE3600 Wi-Fi 7 AiMesh 雙頻可擴充路由器",
     "price": {
       "currency": "TWD",
-      "amount": 3299,
-      "converted": 3299,
-      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 2999,
+      "converted": 2999,
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
+      "basis": "retailer_current",
+      "note": "PChome DRAFJ5-A900K6OV8 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$2,999。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJ5A900K6OV8/000001_1783069758.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJ5-A900K6OV8",
@@ -4244,16 +4246,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 3299,
+      "amount": 2999,
       "currency": "TWD",
-      "converted": 3299,
-      "sourceUrl": "https://price.shhwa.cc/product/pchome/DRAFJ5-A900K6OV8",
-      "sourceTitle": "Lowcast 比價趨勢：PChome ASUS 華碩 RT-BE3600HP WiFi 7 AiMesh 雙頻可擴充路由器",
-      "evidenceSnippet": "Lowcast 同刊登 DRAFJ5-A900K6OV8 逐日價格於 2026-11-14 收在 NT$3,299。同日 PChome 同 SKU 原商品公開價格相同，API Qty 20。",
-      "sourceKind": "price_history",
+      "converted": 2999,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DRAFJ5-A900K6OV8",
+      "sourceTitle": "ASUS RT-BE3600HP 原商品頁",
+      "evidenceSnippet": "2026-11-20 PChome DRAFJ5-A900K6OV8 原商品主區、完整型號／選定版本及可用購買動作已人工核對，API Qty 20；採公開價 NT$2,999。 低於原有同款紀錄。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-11-15",
-      "note": "依同型號台灣新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
+      "checkedAt": "2026-11-20",
+      "note": "採同型號同規格可信新品公開價，不含個人券、點數、會員特價與信用卡回饋。"
     },
     "issueResearch": {
       "status": "no_common_issue",

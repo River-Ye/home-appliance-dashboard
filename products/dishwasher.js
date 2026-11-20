@@ -1779,11 +1779,11 @@
     "name": "VORTEX KW1 桌上型全自動洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 14385,
-      "converted": 14385,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 15990,
+      "converted": 15990,
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$14385，API Qty 20；個人券、點數、信用卡回饋及配送安裝費另計。"
+      "note": "PChome DMBR25-A900J5BGP 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$15,990。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR25A900J5BGP/000001_1782112645.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR25-A900J5BGP",
@@ -3324,10 +3324,10 @@
     "name": "極淨呵護500系列15人份獨立式洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 36777,
-      "converted": 36777,
-      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DMBH1Q-A900I2KMQ 原商品主區公開價 NT$36,777，購買按鈕可用，API Qty 20，商品主區活動 11/18 至 11/30。會員券、點數與卡回饋未計入。 活動 PR26111800146902（任選1件折$2,111）至 2026-11-30T23:59:59+08:00。",
+      "amount": 37777,
+      "converted": 37777,
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DMBH1Q-A900I2KMQ 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$37,777。 下單再折可由同頁公開單件／門檻活動及同型號刊登互證，未計入個人券、點數與信用卡回饋。 公開活動至 2027-01-29T23:59:59+08:00。",
       "basis": "retailer_current"
     },
     "installation": {
@@ -3424,10 +3424,11 @@
     "name": "極淨呵護700系列15人份獨立式洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 46888,
-      "converted": 46888,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "PChome 原商品頁主價 NT$49,888 與 API 確認值或原頁購買狀態未能完整互證，保留既有參考資料。"
+      "amount": 47777,
+      "converted": 47777,
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DMBH1Q-A900I20R4 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$47,777。 下單再折可由同頁公開單件／門檻活動及同型號刊登互證，未計入個人券、點數與信用卡回饋。 公開活動至 2026-11-30T23:59:59+08:00。",
+      "basis": "retailer_current"
     },
     "installation": {
       "status": "included_basic",

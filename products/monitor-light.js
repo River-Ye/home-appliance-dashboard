@@ -37,11 +37,11 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 3611,
-      "converted": 3611,
+      "amount": 4290,
+      "converted": 4290,
       "basis": "retailer_current",
-      "confidence": "2026-11-05 Chrome人工重讀已知單日促銷截止後的同商品主價格。",
-      "note": "Native PChome同DSABP4-A900HGJLQ太空黑主價仍3611。另11/05–11/05任選單件95折只顯示下單再折，不再自行預扣；贈品/信用卡/P幣不減現價。 未扣會員券、點數、信用卡或未顯示於主價的結帳折扣。"
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DSABP4-A900HGJLQ 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$4,290。"
     },
     "installation": {
       "status": "not_stated",

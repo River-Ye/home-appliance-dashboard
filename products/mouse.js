@@ -3857,6 +3857,104 @@
     "抓握",
     "高背"
   ]
+},
+{
+  "id": "mouse-zowie-fk1-dw",
+  "category": "mouse",
+  "brand": "ZOWIE",
+  "model": "FK1-DW",
+  "name": "FK1-DW 淺灰 4K 無線電競滑鼠",
+  "type": "standard",
+  "rank": 38,
+  "budget": "premium",
+  "channel": "tw",
+  "topPick": false,
+  "price": {
+    "currency": "TWD",
+    "amount": 4750,
+    "converted": 4750,
+    "basis": "retailer_current",
+    "confidence": "2026-11-20 核對 PChome 同型台灣新品的公開單件價、可下單狀態及供貨條件。",
+    "note": "PChome 網路價 NT$4,990，單品符合滿 NT$2,000 折 NT$240，折後 NT$4,750；活動至 2026-11-23 23:59:59（台灣時間）。未扣券、點數或刷卡回饋。"
+  },
+  "installation": {
+    "status": "not_stated",
+    "note": "通路未列安裝，隨附接收器及 USB 線可自行連接。"
+  },
+  "image": "https://image.benq.com/is/image/benqco/fk1-dw-front-left-45?wid=1000&hei=1000&fmt=png-alpha",
+  "buyUrl": "https://24h.pchome.com.tw/prod/DCAN33-A900K2FU6",
+  "buyLabel": "PChome 24h 購物",
+  "specs": [
+    "類型：標準型無線電競滑鼠，淺灰 FK1-DW",
+    "握型／慣用手：大型對稱機身，右手側鍵，低鼠背適合趴握或抓握微調",
+    "連線：2.4 GHz 無線（小接收器或增強型接收器）、USB 有線，未列藍牙",
+    "感測器／解析度：光學，原廠 DPI 400／800／1000／1200／1600／3200",
+    "回報率：125／500／1000／2000／4000 Hz，4K 使用增強型接收器",
+    "按鍵／滾輪：7 個按鈕、24 段滾輪、Fast／Normal 點擊回應",
+    "供電／續航：USB-C 線或增強型接收器充電；官方 1000／2000／4000 Hz 約 80／30／24 小時",
+    "系統／軟體：USB 隨插即用，DPI、回報率及設定可由硬體切換",
+    "尺寸：長 128.9 x 寬 66.8 x 高 37.3 mm（全長與最寬最高處）；前高 29.2 mm",
+    "重量：本體 55 g",
+    "隨附配件：增強型無線接收器、小型無線接收器、1.8 m USB-C 線、轉接器與黑白替換滑鼠腳貼"
+  ],
+  "description": "FK1-DW 將 FK 系列大型低背握型無線化，以 55 g 機身和隨附 4K 充電接收器，補足偏好長機身、掌心保有微調空間的右手玩家選擇。",
+  "pros": [
+    "大型低背與高背 ZA12-DW 有實質握型差異",
+    "55 g 本體，增強接收器可兼作充電座",
+    "免驅動硬體設定可調 DPI 與回報率"
+  ],
+  "cons": [
+    "4K 續航約 24 小時，較 1K 的 80 小時短",
+    "長 128.9 mm 低背握型仍需試握，未必適合小手",
+    "原始開箱有一顆尾殼裝配公差回報，尚未達集中問題門檻"
+  ],
+  "bestFor": "偏好大型低背、趴握或抓握微調與免驅動設定的右手 FPS 玩家。",
+  "recommendation": "和高背 ZA12-DW、較小 FK2-DW 試握比較，依手掌長度和掌心支撐選擇；4K 回報率會縮短續航。",
+  "releaseDate": "找不到",
+  "historicalLow": {
+    "status": "not_found",
+    "amount": null,
+    "currency": "TWD",
+    "converted": null,
+    "sourceUrl": "",
+    "sourceTitle": "",
+    "evidenceSnippet": "",
+    "sourceKind": "not_found",
+    "confidence": "not_found",
+    "checkedAt": "2026-11-20",
+    "note": "Lowcast 同 PChome SKU 11/10 日內最低 NT$4,750，但未取得當日可購庫存與優惠條件；現行 11/17–11/23 活動只證明本次現價，不回推過去。Yahoo 4,990 為本次備援現價；BigGo 原頁受阻，不採個人賣場、券、點數及信用卡回饋。"
+  },
+  "issueResearch": {
+    "status": "no_common_issue",
+    "checkedAt": "2026-11-20",
+    "summary": "截至查核日，查無達門檻的集中負評／災情",
+    "issues": [],
+    "checkedSources": [
+      {
+        "platform": "Mobile01",
+        "targetHost": "mobile01.com",
+        "query": "site:mobile01.com \"FK1-DW\"",
+        "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22FK1-DW%22"
+      },
+      {
+        "platform": "Reddit",
+        "targetHost": "reddit.com",
+        "query": "site:reddit.com \"FK1-DW\"",
+        "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22FK1-DW%22"
+      }
+    ]
+  },
+  "score": 84,
+  "voltage": "滑鼠透過 USB-C 線或增強型接收器充電；原廠台灣頁未列額定充電電流或隨附市電變壓器。",
+  "warranty": "BenQ 台灣合法經銷購買，滑鼠本體自發票日起原廠保固一年，附屬耗材依條款。",
+  "tags": [
+    "電競推薦",
+    "台灣公司貨",
+    "55g",
+    "4K",
+    "低背",
+    "大型"
+  ]
 }
 ]);
 })();

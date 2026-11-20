@@ -735,10 +735,10 @@
     "image": "https://cs-a.ecimg.tw/items/DEES09A900HK440/000001_1718174769.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 621,
-      "converted": 621,
-      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DEES09-A900HK440 原商品主區公開價 NT$621，購買按鈕可用，API Qty 3，商品主區活動 11/16 至 11/19。會員券、點數與卡回饋未計入。",
+      "amount": 690,
+      "converted": 690,
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DEES09-A900HK440 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$690。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -1248,10 +1248,10 @@
     "image": "https://cs-a.ecimg.tw/items/DEES09A900IWZUQ/000001_1749456278.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1439,
-      "converted": 1439,
-      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DEES09-A900IWZUQ 原商品主區公開價 NT$1,439，購買按鈕可用，API Qty 4，商品主區活動 11/16 至 11/19。會員券、點數與卡回饋未計入。",
+      "amount": 1599,
+      "converted": 1599,
+      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DEES09-A900IWZUQ 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$1,599。",
       "basis": "retailer_current"
     },
     "channel": "tw",
