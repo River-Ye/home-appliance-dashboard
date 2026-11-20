@@ -417,8 +417,8 @@
     "price": {
       "currency": "USD",
       "amount": 499.95,
-      "converted": 16485,
-      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-11-19 匯率換算"
+      "converted": 16492,
+      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-11-20 匯率換算"
     },
     "image": "https://assets.breville.com/cdn-cgi/image/width=1300,format=auto/BOV950/BOV950BSS1BUS1/pdp3.png?pdp=",
     "buyUrl": "https://www.breville.com/en-us/product/bov950",
@@ -2321,8 +2321,8 @@
     "price": {
       "currency": "USD",
       "amount": 449.99,
-      "converted": 14838,
-      "confidence": "2026-11-04 Chrome人工核對原商品主價、所選版本及購買／預購CTA；依當日匯率換算TWD。；ExchangeRate-API 2026-11-19 匯率換算",
+      "converted": 14844,
+      "confidence": "2026-11-04 Chrome人工核對原商品主價、所選版本及購買／預購CTA；依當日匯率換算TWD。；ExchangeRate-API 2026-11-20 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-05 人工覆核：原生Chrome原buyURL選定Silver MW101，主機主區449.99USD、Quantity1、主機Addtocart可見啟用，完整載入再次確認。黑色另為MW101BK1／449.99／OutofStock，未轉移。台灣配送未確認，未含國際運費、進口稅、電壓／插頭及台灣保固風險。 不扣個人化折價券、點數、信用卡回饋或贈品價值。"
     },

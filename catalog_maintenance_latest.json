@@ -1,7 +1,7 @@
 {
   "schemaVersion": 3,
   "dataDate": "2026-11-20",
-  "checkedAt": "2026-11-20T00:27:06.054Z",
+  "checkedAt": "2026-11-20T00:32:51.387Z",
   "baselineRef": "64b92baa643c0070e7bbc945819dc1ff5dabb24f",
   "policy": {
     "exactModelOrReviewedSourceBindingOnly": true,
@@ -36,7 +36,7 @@
     "priceRises": 28,
     "linkChanges": 6,
     "imageChanges": 5,
-    "historicalLowChanges": 3,
+    "historicalLowChanges": 9,
     "historicalLowPriceChanges": 3,
     "historicalFound": 629,
     "historicalMissing": 656,
@@ -67,15 +67,15 @@
   },
   "exchange": {
     "source": "ExchangeRate-API",
-    "date": "2026-11-19 00:02 UTC",
-    "timeLastUpdateUnix": 1795046551,
-    "USD_TWD": 32.973188,
-    "GBP_TWD": 43.38480323466449,
-    "EUR_TWD": 36.18444932417232,
-    "JPY_TWD": 0.20690904603663945,
-    "CNY_TWD": 4.935531161191107,
-    "HKD_TWD": 4.2026755594517855,
-    "KRW_TWD": 0.024750617203972532
+    "date": "2026-11-20 00:02 UTC",
+    "timeLastUpdateUnix": 1795132952,
+    "USD_TWD": 32.986624,
+    "GBP_TWD": 43.26840964778349,
+    "EUR_TWD": 36.21922615341878,
+    "JPY_TWD": 0.20648967248788433,
+    "CNY_TWD": 4.92927713471947,
+    "HKD_TWD": 4.205180792837381,
+    "KRW_TWD": 0.024783842247314166
   },
   "categoryReviewProvenance": "current_run",
   "categoryScan": [
@@ -32889,6 +32889,20 @@
     ],
     "historicalLows": [
       {
+        "id": "bidet-costco-us-brondell-cl1700",
+        "before": 383.99,
+        "after": 383.99,
+        "status": "found",
+        "source": "https://www.brondell.com/swash-cl1700-advanced-bidet-seat/"
+      },
+      {
+        "id": "blender-ninja-bn701",
+        "before": 79.99,
+        "after": 79.99,
+        "status": "found",
+        "source": "https://deal.ai/p/ninja-bn701-professional-plus-blender-6aef3cebb87d9ffb97235f94"
+      },
+      {
         "id": "monitor-asus-xg27ucmg",
         "before": null,
         "after": 14144,
@@ -32896,11 +32910,39 @@
         "source": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=12337045"
       },
       {
+        "id": "monitorarm-dell-hda26",
+        "before": 282,
+        "after": 282,
+        "status": "found",
+        "source": "https://pricespy.co.uk/product.php?p=16273588"
+      },
+      {
         "id": "soundbar-asus-rog-gjallar",
         "before": 17900,
         "after": 17300,
         "status": "found",
         "source": "https://24h.pchome.com.tw/prod/DCAIAM-A900K9HQX"
+      },
+      {
+        "id": "soundbar-jbl-bar-1300-mk2",
+        "before": 176091,
+        "after": 176091,
+        "status": "found",
+        "source": "https://kakaku.com/item/K0001712395/pricehistory/"
+      },
+      {
+        "id": "vacuum-dreame-aero-ultra-steam",
+        "before": 679.99,
+        "after": 679.99,
+        "status": "found",
+        "source": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum"
+      },
+      {
+        "id": "waterdispenser-costco-us-brondell-circle",
+        "before": 289.99,
+        "after": 289.99,
+        "status": "found",
+        "source": "https://www.costco.com/CategoryDisplay?catalogId=10701&identifier=water-dispensers-filtration-water-filtration&storeId=10301"
       },
       {
         "id": "wifi-asus-rt-be3600hp",
@@ -32916,312 +32958,312 @@
         "currency": "USD",
         "amount": 1299.99,
         "before": 42865,
-        "after": 42865,
-        "rate": 32.973188
+        "after": 42882,
+        "rate": 32.986624
       },
       {
         "id": "soundbar-marshall-heston-60",
         "currency": "USD",
         "amount": 699.99,
         "before": 23081,
-        "after": 23081,
-        "rate": 32.973188
+        "after": 23090,
+        "rate": 32.986624
       },
       {
         "id": "soundbar-sonos-beam-ultra",
         "currency": "USD",
         "amount": 699,
         "before": 23048,
-        "after": 23048,
-        "rate": 32.973188
+        "after": 23058,
+        "rate": 32.986624
       },
       {
         "id": "robot-narwal-flow-2",
         "currency": "EUR",
         "amount": 999,
         "before": 36148,
-        "after": 36148,
-        "rate": 36.18444932417232
+        "after": 36183,
+        "rate": 36.21922615341878
       },
       {
         "id": "robot-narwal-freo-z10-ultra",
         "currency": "USD",
         "amount": 551.69,
         "before": 18191,
-        "after": 18191,
-        "rate": 32.973188
+        "after": 18198,
+        "rate": 32.986624
       },
       {
         "id": "robot-shark-powerdetect-nevertouch-pro",
         "currency": "USD",
         "amount": 549.99,
         "before": 18135,
-        "after": 18135,
-        "rate": 32.973188
+        "after": 18142,
+        "rate": 32.986624
       },
       {
         "id": "robot-costco-us-roborock-qx-revo",
         "currency": "USD",
         "amount": 399.99,
         "before": 13189,
-        "after": 13189,
-        "rate": 32.973188
+        "after": 13194,
+        "rate": 32.986624
       },
       {
         "id": "vacuum-dreame-aero-ultra-steam",
         "currency": "USD",
         "amount": 679.99,
         "before": 22421,
-        "after": 22421,
-        "rate": 32.973188
+        "after": 22431,
+        "rate": 32.986624
       },
       {
         "id": "garmentcare-lg-sc5gmr80h",
         "currency": "USD",
         "amount": 2199,
         "before": 72508,
-        "after": 72508,
-        "rate": 32.973188
+        "after": 72538,
+        "rate": 32.986624
       },
       {
         "id": "garmentcare-lg-sc5mar4g",
         "currency": "USD",
         "amount": 1799,
         "before": 59319,
-        "after": 59319,
-        "rate": 32.973188
+        "after": 59343,
+        "rate": 32.986624
       },
       {
         "id": "garmentcare-lg-s3mfbn",
         "currency": "USD",
         "amount": 1599,
         "before": 52724,
-        "after": 52724,
-        "rate": 32.973188
+        "after": 52746,
+        "rate": 32.986624
       },
       {
         "id": "garmentcare-lg-s3wfbn",
         "currency": "USD",
         "amount": 1399,
         "before": 46129,
-        "after": 46129,
-        "rate": 32.973188
+        "after": 46148,
+        "rate": 32.986624
       },
       {
         "id": "garmentcare-lg-s3rfbn",
         "currency": "USD",
         "amount": 1499,
         "before": 49427,
-        "after": 49427,
-        "rate": 32.973188
+        "after": 49447,
+        "rate": 32.986624
       },
       {
         "id": "garmentcare-samsung-df90h24r5c",
         "currency": "KRW",
         "amount": 2327320,
         "before": 57603,
-        "after": 57603,
-        "rate": 0.024750617203972532
+        "after": 57680,
+        "rate": 0.024783842247314166
       },
       {
         "id": "garmentcare-samsung-df90h24r4d",
         "currency": "KRW",
         "amount": 2061500,
         "before": 51023,
-        "after": 51023,
-        "rate": 0.024750617203972532
+        "after": 51092,
+        "rate": 0.024783842247314166
       },
       {
         "id": "garmentcare-samsung-df90h24r4p",
         "currency": "KRW",
         "amount": 2061500,
         "before": 51023,
-        "after": 51023,
-        "rate": 0.024750617203972532
+        "after": 51092,
+        "rate": 0.024783842247314166
       },
       {
         "id": "garmentcare-samsung-df90h24r4b",
         "currency": "KRW",
         "amount": 1970600,
         "before": 48774,
-        "after": 48774,
-        "rate": 0.024750617203972532
+        "after": 48839,
+        "rate": 0.024783842247314166
       },
       {
         "id": "garmentcare-samsung-df80h24r1c",
         "currency": "KRW",
         "amount": 1919030,
         "before": 47497,
-        "after": 47497,
-        "rate": 0.024750617203972532
+        "after": 47561,
+        "rate": 0.024783842247314166
       },
       {
         "id": "garmentcare-samsung-df80h24r1d",
         "currency": "KRW",
         "amount": 1694250,
         "before": 41934,
-        "after": 41934,
-        "rate": 0.024750617203972532
+        "after": 41990,
+        "rate": 0.024783842247314166
       },
       {
         "id": "garmentcare-panasonic-hcc-r600al-x",
         "currency": "JPY",
         "amount": 328680,
         "before": 68007,
-        "after": 68007,
-        "rate": 0.20690904603663945
+        "after": 67869,
+        "rate": 0.20648967248788433
       },
       {
         "id": "blender-ninja-bn701",
         "currency": "USD",
         "amount": 79.99,
         "before": 2638,
-        "after": 2638,
-        "rate": 32.973188
+        "after": 2639,
+        "rate": 32.986624
       },
       {
         "id": "oven-breville-joule",
         "currency": "USD",
         "amount": 499.95,
         "before": 16485,
-        "after": 16485,
-        "rate": 32.973188
+        "after": 16492,
+        "rate": 32.986624
       },
       {
         "id": "oven-ninja-crispi-mw101",
         "currency": "USD",
         "amount": 449.99,
         "before": 14838,
-        "after": 14838,
-        "rate": 32.973188
+        "after": 14844,
+        "rate": 32.986624
       },
       {
         "id": "waterdispenser-costco-us-brondell-circle",
         "currency": "USD",
         "amount": 449.99,
         "before": 14838,
-        "after": 14838,
-        "rate": 32.973188
+        "after": 14844,
+        "rate": 32.986624
       },
       {
         "id": "bidet-costco-us-brondell-cl1700",
         "currency": "USD",
         "amount": 479.99,
         "before": 15827,
-        "after": 15827,
-        "rate": 32.973188
+        "after": 15833,
+        "rate": 32.986624
       },
       {
         "id": "smartlock-lockin-v7-max",
         "currency": "HKD",
         "amount": 9638,
         "before": 40505,
-        "after": 40505,
-        "rate": 4.2026755594517855
+        "after": 40530,
+        "rate": 4.205180792837381
       },
       {
         "id": "wifi-unifi-u7-pro",
         "currency": "USD",
         "amount": 208,
         "before": 6858,
-        "after": 6858,
-        "rate": 32.973188
+        "after": 6861,
+        "rate": 32.986624
       },
       {
         "id": "wifi-unifi-u6-pro",
         "currency": "USD",
         "amount": 175,
         "before": 5770,
-        "after": 5770,
-        "rate": 32.973188
+        "after": 5773,
+        "rate": 32.986624
       },
       {
         "id": "wifi-unifi-u7-lite",
         "currency": "USD",
         "amount": 109,
         "before": 3594,
-        "after": 3594,
-        "rate": 32.973188
+        "after": 3596,
+        "rate": 32.986624
       },
       {
         "id": "wifi-unifi-u6-plus",
         "currency": "USD",
         "amount": 142,
         "before": 4682,
-        "after": 4682,
-        "rate": 32.973188
+        "after": 4684,
+        "rate": 32.986624
       },
       {
         "id": "wifi-unifi-u7-pro-max",
         "currency": "USD",
         "amount": 307,
         "before": 10123,
-        "after": 10123,
-        "rate": 32.973188
+        "after": 10127,
+        "rate": 32.986624
       },
       {
         "id": "monitor-light-yeelight-yltd003",
         "currency": "USD",
         "amount": 103.99,
         "before": 3429,
-        "after": 3429,
-        "rate": 32.973188
+        "after": 3430,
+        "rate": 32.986624
       },
       {
         "id": "monitor-light-quntis-f51bk",
         "currency": "USD",
         "amount": 79.99,
         "before": 2638,
-        "after": 2638,
-        "rate": 32.973188
+        "after": 2639,
+        "rate": 32.986624
       },
       {
         "id": "monitor-light-quntis-fr52gy",
         "currency": "USD",
         "amount": 75.99,
         "before": 2506,
-        "after": 2506,
-        "rate": 32.973188
+        "after": 2507,
+        "rate": 32.986624
       },
       {
         "id": "monitor-light-quntis-f45bk",
         "currency": "USD",
         "amount": 69.99,
         "before": 2308,
-        "after": 2308,
-        "rate": 32.973188
+        "after": 2309,
+        "rate": 32.986624
       },
       {
         "id": "monitor-light-quntis-i51gy",
         "currency": "USD",
         "amount": 66.99,
         "before": 2209,
-        "after": 2209,
-        "rate": 32.973188
+        "after": 2210,
+        "rate": 32.986624
       },
       {
         "id": "monitor-light-quntis-g66bk",
         "currency": "USD",
         "amount": 75.99,
         "before": 2506,
-        "after": 2506,
-        "rate": 32.973188
+        "after": 2507,
+        "rate": 32.986624
       },
       {
         "id": "monitor-light-quntis-i66bk",
         "currency": "USD",
         "amount": 75.99,
         "before": 2506,
-        "after": 2506,
-        "rate": 32.973188
+        "after": 2507,
+        "rate": 32.986624
       },
       {
         "id": "monitor-light-quntis-ims45bk",
         "currency": "USD",
         "amount": 79.99,
         "before": 2638,
-        "after": 2638,
-        "rate": 32.973188
+        "after": 2639,
+        "rate": 32.986624
       }
     ]
   },
@@ -44828,7 +44870,7 @@
     "carriedEvidence": true
   },
   "manualPriceReview": {
-    "checkedAt": "2026-11-20T00:27:06.054Z",
+    "checkedAt": "2026-11-20T00:32:51.387Z",
     "scope": "original_product_page_and_exact_sku_api",
     "rows": [
       {
@@ -46160,7 +46202,7 @@
     ]
   },
   "reviewScope": {
-    "checkedAt": "2026-11-20T00:27:06.054Z",
+    "checkedAt": "2026-11-20T00:32:51.387Z",
     "completePerExistingModelSuccessorMapping": false,
     "fullGenerationResearchComplete": false,
     "japaneseBrandBoundaryCells": 333,
@@ -46171,9 +46213,8 @@
     "alternateSkuSearches": 0,
     "officialLifeCycleSourcesRequested": 9,
     "limitations": "全目錄重取購買來源、圖片及已知史低來源。來源可讀與同型號可復核不代表歷史成交價每筆重新成立。限流、區域差異及原廠未披露換代關係，逐型台灣後繼對照仍未完成。到期活動均在08:01後以原頁重查；仍有效的短期公開活動保留實際截止時間。原頁與API無法交叉驗證者保留例外。",
-    "exchangeLimitation": "本輪重新取得供應商最新批次仍為 2026-11-19 00:02 UTC；保留實際供應商時間戳與匯率。下一次供應商預告更新為 Fri, 20 Nov 2026 00:35:41 +0000。",
     "nativeImageReview": {
-      "checkedAt": "2026-11-20T00:27:06.054Z",
+      "checkedAt": "2026-11-20T00:32:51.387Z",
       "imageUrlsChanged": 5,
       "replacements": [
         {

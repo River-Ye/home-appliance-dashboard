@@ -1380,8 +1380,8 @@
     "price": {
       "currency": "EUR",
       "amount": 999,
-      "converted": 36148,
-      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-19 匯率換算",
+      "converted": 36183,
+      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-20 匯率換算",
       "note": "2026-11-04 下午覆核：原生Narwal德國URL variant52366680523028選中Schwarz Basisstation及Standardpaket；主價999EUR、劃線1299EUR，In den Warenkorb可用、2–5Tage Lieferzeit。與上午所選缺貨不同，仍未保證台灣寄送。未含國際運費、進口稅、電壓/插頭與台灣保固風險。",
       "basis": "retailer_current"
     },
@@ -1478,8 +1478,8 @@
     "price": {
       "currency": "USD",
       "amount": 551.69,
-      "converted": 18191,
-      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-11-19 匯率換算"
+      "converted": 18198,
+      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-11-20 匯率換算"
     },
     "image": "https://img.gkbcdn.com/p/2025-04-11/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438-0._w315_.jpg",
     "buyUrl": "https://www.geekbuying.com/item/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438.html",
@@ -2640,8 +2640,8 @@
     "price": {
       "currency": "USD",
       "amount": 549.99,
-      "converted": 18135,
-      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-19 匯率換算",
+      "converted": 18142,
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-20 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-04 Shark美國所選黑色RV2820ZE當日原variationAPI549.99USD，available/readyToOrder均true、inStockDate為2026-11-26，交期待確認；不混白色缺貨SKU，不稱即時現貨。未含國際運費、進口稅、電壓/插頭與台灣保固風險。"
     },
@@ -2838,8 +2838,8 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 13189,
-      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-11-19 匯率換算",
+      "converted": 13194,
+      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-11-20 匯率換算",
       "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。 2026-11-01 原Costco美國QXRevo頁HTTP404，現貨與現價未確認；保留USD399.99舊參考價，含海外運稅、電力與台灣保固風險，不能推定原廠整型停產。"
     },
     "image": "https://cdn.cs.1worldsync.com/syndication/mediaserverredirect/aaaa71b7b115f7d0cbeb119d8fc3ad7b/width%281200%29.jpg",
