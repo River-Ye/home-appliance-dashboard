@@ -1844,10 +1844,10 @@
     "name": "360 度美型空氣循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 2990,
-      "converted": 2990,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
-      "note": "IRIS 台灣官方 PCF-CDP18TEC 主區標價 NT$2,990，單件數量與購買按鈕可用，原價 NT$3,990。",
+      "amount": 3690,
+      "converted": 3690,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-21 IRIS台灣官方同PCF-CDP18TEC新品主價NT$3,690，NT$3,990為原價；主區當日可下單。未另扣會員券、點數或信用卡回饋。 原廠台灣群光IRIS同PCF-CDP18TEC主商品Sale NT$3690、劃線3990；今日原生頁主區明示庫存8件，加入購物車/立即購買皆啟用。排除全站福利良品導覽及其他相關商品。",
       "basis": "retailer_current"
     },
     "image": "https://img.shoplineapp.com/media/image_clips/69ccee7a1cf502b0b21ecdd0/original.jpg?1775038073=&owner_id=6976e3a5a39620001e911a08",

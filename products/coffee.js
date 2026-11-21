@@ -555,9 +555,11 @@
     "name": "Philips 飛利浦 EP5547/90 LatteGo 雙溫萃取全自動義式咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 33900,
-      "converted": 33900,
-      "confidence": "2026-10-24 人工核對 www.philips-da.com.tw 同型號與所選版本公開價 TWD 33900，可下單；未扣會員、信用卡或點數。"
+      "amount": 36900,
+      "converted": 36900,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "basis": "retailer_current",
+      "note": "2026-11-21 飛利浦台灣家電官店EP5547/90星光銀主價NT$36,900，原價NT$49,900；所選主商品可下單，實際交期待確認。贈品依結帳與剩餘數量，未扣回饋或贈品價值；不沿用頁面已過期11/15贈品活動。 原頁主購買區星光銀EP5547/90公開36900、原價49900；productVariantsInfo綁69694817/EP5547/90/36900，purchaseEligibility.required=false/eligible=true，salesModePurchasable=true，主商品Chrome購買CTA啟用；詳細規格仍120V/60Hz、1400W、8kg。"
     },
     "image": "https://images.philips.com/is/image/philipsconsumer/vrs_8236e6d7_84b6_4a40_a27587047fae427e?$pnglarge$",
     "buyUrl": "https://www.philips-da.com.tw/products/ep554790",
@@ -662,11 +664,11 @@
     "name": "De'Longhi ECAM290.43.SB Magnifica Evo 全自動義式咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 23900,
-      "converted": 23900,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "amount": 25900,
+      "converted": 25900,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-01 DeLonghi台灣官方ECAM29043SB原SKU主價23900元、InStock；未以同頁推薦ECAM290.84.SB混價。"
+      "note": "2026-11-21 DeLonghi台灣官店同ECAM29043SB主商品NT$25,900、原價NT$37,900，可下單；不採同頁推薦ECAM290.84.SB或加購商品價格，未扣券/點數/回饋。 原頁主商品ECAM29043SB主價25900、原價37900；productVariantsInfo綁50463628/ECAM29043SB/25900/10/deny；免登入可購且Chrome主CTA啟用。同頁290.84.SB為推薦連結，不是採價商品。既有台灣120V/60Hz合格SKU沒有更換。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAT03A900GX8R8/000007_1700470715.jpg",
     "buyUrl": "https://www.idelonghi.com.tw/ja/products/ecam29043",
@@ -1517,10 +1519,10 @@
     "name": "啡行家半自動義式咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 6490,
-      "converted": 6490,
-      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "Yahoo 原商品主區賣場 11985428 已核對同型號／選定組合、可用購買按鈕與公開價 NT$6,490。未計入個人券、點數及信用卡回饋。",
+      "amount": 5990,
+      "converted": 5990,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "Yahoo 原商品主區賣場 11985428 已核對同型號／選定組合、可用購買按鈕與公開價 NT$5,990。未計入個人券、點數及信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAT03A900J5HMT/000007_1755771859.jpg",
@@ -2168,11 +2170,11 @@
     "name": "La Specialista Arte Evo 半自動義式咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 26900,
-      "converted": 26900,
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "amount": 27900,
+      "converted": 27900,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "stilus A 台灣官方 EC9255MEX2 主商品公開價 NT$26,900，原頁核對同 SKU 購買按鈕可用。"
+      "note": "2026-11-21 stilus A台灣總代理同EC9255MEX2主商品NT$27,900、原價NT$41,900，可下單；未另扣券、點數、回饋或加購配件。 原頁主商品EC9255MEX2公開27900、原價41900；與既有price.note明載的EC9255MEX2相同。productVariantsInfo80712323/EC9255MEX2/27900/10/deny；免登入可購、Chrome主CTA啟用。頁面110V/1150W/9.3kg與在冊相同，沒有改為其他地區版本。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAT03A900K4F0K/000007_1781601666.jpg",
     "buyUrl": "https://www.stilusa.com.tw/zh-TW/products/ec9255m",

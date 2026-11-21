@@ -1207,11 +1207,12 @@
       "currency": "TWD",
       "amount": 13900,
       "converted": 13900,
-      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "2026-11-21 核對原商品預購／供貨狀態，保留上次參考價",
+      "note": "原商品配送主區明示預購；配送資訊；廠商出貨；本商品不受24h到貨限制；預購；預計出貨日 2026/12/16 - 2026/12/18；可宅配到府；。金額為先前參考價，實際下單與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAL6WA900JEEZE/000001_1776140283.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAL6W-A900JEEZE",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（預購／交期待確認）",
     "specs": [
       "瞬熱式",
       "溫水洗淨",

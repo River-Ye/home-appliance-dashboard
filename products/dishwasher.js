@@ -535,8 +535,9 @@
       "currency": "TWD",
       "amount": 29900,
       "converted": 29900,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "PChome 原商品頁主價 NT$28,888 與 API 確認值或原頁購買狀態未能完整互證，保留既有參考資料。"
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DMBR35-A900JVAOT 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$29,900。 08:01後已重新核對原頁供貨與當前價，排除較早已結束的短期活動。",
+      "basis": "retailer_current"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -576,16 +577,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 27777,
+      "amount": 27733,
       "currency": "TWD",
-      "converted": 27777,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1269270387&cgp=27777",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Electrolux 伊萊克斯】60cm 13人份 300系列自動開門獨立式洗碗機(EFF3360VWB)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Electrolux 伊萊克斯】60cm 13人份 300系列自動開門獨立式洗碗機(EFF3360VWB)」最低價為 NT$27,777，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 27733,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMBR35-A900JVAOT",
+      "sourceTitle": "Electrolux EFF3360VWB 原商品頁",
+      "evidenceSnippet": "2026-11-21 07:35（台灣）原商品頁 EFF3360VWB 直接顯示公開折扣價NT$27,733，單件可加入購物車／立即購買，非預購；同SKU API Qty19且Price.Low=27733。08:02重查主價及API均已回NT$29,900，較早實際公開價保留為過往紀錄。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-11-21",
+      "note": "採本日較早原商品主區與同SKU API存檔，不含個人券、回饋、點數或贈品。此折扣已於查核期間結束，現價以價格欄為準；未推定其他日期或其他通路價格。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1475,11 +1476,11 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR1WA900K4MYS/000001_1781748945.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 79000,
-      "converted": 79000,
-      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 73470,
+      "converted": 73470,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMBR1W-A900K4MYS 原商品主區公開價 NT$79,000，購買按鈕可用，API Qty 10。會員券、點數與卡回饋未計入。"
+      "note": "PChome DMBR1W-A900K4MYS 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$73,470。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1779,11 +1780,11 @@
     "name": "VORTEX KW1 桌上型全自動洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 15990,
-      "converted": 15990,
-      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 14391,
+      "converted": 14391,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMBR25-A900J5BGP 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$15,990。"
+      "note": "PChome DMBR25-A900J5BGP 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$14,391。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR25A900J5BGP/000001_1782112645.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR25-A900J5BGP",
@@ -1880,13 +1881,13 @@
       "currency": "TWD",
       "amount": 14990,
       "converted": 14990,
-      "confidence": "PChome 2026-07-11 API 查核價",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。",
+      "confidence": "2026-11-21 核對原商品預購／供貨狀態，保留上次參考價",
+      "note": "原商品配送主區明示預購；配送資訊；廠商出貨；本商品不受24h到貨限制；獨立結帳；本商品無法與其他商品合併結帳；預購；預計出貨日 2026/11/24 - 2026/11/26；可宅配到府；。金額為先前參考價，實際下單與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR0PA900IAMAC/000001_1770171922.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR0P-A900IAMAC",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（預購／交期待確認）",
     "specs": [
       "6-8 人份",
       "尺寸：寬 55 x 深 50 x 高 43.8 cm",

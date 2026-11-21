@@ -229,11 +229,11 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/7A7EBA14D6-SP-22052251.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 20900,
-      "converted": 20900,
-      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 19855,
+      "converted": 19855,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品主區可下單，公開價 NT$20,900。未扣會員券、點數與信用卡回饋。"
+      "note": "Yahoo 原商品主區賣場 11981706 已核對同型號／選定組合、可用購買按鈕與公開價 NT$19,855。公開單件活動至 2026-11-23T07:00:59+08:00。未計入個人券、點數及信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -548,9 +548,9 @@
       "currency": "TWD",
       "amount": 17512,
       "converted": 17512,
-      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
+      "note": "PChome DPAI1H-A900BRSFN 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$17,512。 公開活動至 2026-11-23T09:00:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "PChome 24h 購物",
@@ -764,8 +764,8 @@
       "currency": "TWD",
       "amount": 7990,
       "converted": 7990,
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
-      "note": "Yahoo 原 SKU 主商品公開價 NT$7,990，標題明示預購，交期依通路。公開活動截至 2026-12-31T23:59:59+08:00。",
+      "confidence": "2026-11-21 核對原商品預購／供貨狀態，保留上次參考價",
+      "note": "原商品配送主區明示預購；[預購12/5出貨]SAMPO 聲寶10公斤窄身變頻單槽直立式洗衣機WM-MD10 香檳金 含基本安裝+舊機回收。金額為先前參考價，實際下單與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -1291,8 +1291,8 @@
       "currency": "TWD",
       "amount": 8990,
       "converted": 8990,
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
-      "note": "Yahoo 原 SKU 主商品公開價 NT$8,990，標題明示預購，交期依通路。公開活動截至 2026-12-31T23:59:59+08:00。",
+      "confidence": "2026-11-21 核對原商品預購／供貨狀態，保留上次參考價",
+      "note": "原商品配送主區明示預購；[預購12/5出貨]SAMPO聲寶 10公斤窄身變頻單槽直立式洗衣機ES- K10DF香檳金 含基本安裝+舊機回收。金額為先前參考價，實際下單與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "channel": "tw",

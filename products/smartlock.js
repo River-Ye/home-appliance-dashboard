@@ -2887,8 +2887,8 @@
       "currency": "TWD",
       "amount": 10555,
       "converted": 10555,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
-      "note": "PChome 原 SKU DQBS4N-A900I8ITU 的 Name 與 Nick 和前次人工獨立確認紀錄逐字一致，本次重查 Qty 20、公開價 NT$10555。原選定規格不變。",
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DQBS4N-A900I8ITU 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$10,555。 公開活動至 2026-11-22T23:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900I8ITU/000001_1753416985.jpg",
@@ -3276,8 +3276,8 @@
       "currency": "TWD",
       "amount": 22900,
       "converted": 22900,
-      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。",
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DQBS4N-A900JLLZ3 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$22,900。 下單再折可由同頁公開單件／門檻活動及同型號刊登互證，未計入個人券、點數與信用卡回饋。 公開活動至 2027-02-01T23:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900JLLZ3/000001_1782963047.jpg",
@@ -3956,8 +3956,8 @@
       "currency": "TWD",
       "amount": 6165,
       "converted": 6165,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
-      "note": "PChome 原 SKU DQBS3C-A900HOV94 的 Name 與 Nick 和前次人工獨立確認紀錄逐字一致，本次重查 Qty 3、公開價 NT$6165。原選定規格不變。",
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DQBS3C-A900HOV94 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$6,165。 公開活動至 2026-11-22T23:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS3CA900HOV94/000001_1722063380.jpg",
@@ -4348,8 +4348,8 @@
       "currency": "TWD",
       "amount": 19890,
       "converted": 19890,
-      "confidence": "2026-11-12 人工核對原商品主區公開報價及供貨條件。",
-      "note": "PChome 原 SKU DQBS4N-A900J5GYW 的 Name 與 Nick 和前次人工獨立確認紀錄逐字一致，本次重查 Qty 15、公開價 NT$19890。原選定規格不變。",
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DQBS4N-A900J5GYW 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$19,890。 公開活動至 2026-11-22T23:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900J5GYW/000001_1755762130.jpg",

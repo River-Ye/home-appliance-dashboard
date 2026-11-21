@@ -19,8 +19,8 @@
       "currency": "TWD",
       "amount": 44900,
       "converted": 44900,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
-      "note": "Yahoo 同商品原頁於上一活動屆期後可下單，目前公開網路價 NT$44,900。未扣個人券、點數或信用卡回饋。",
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "Yahoo 原商品主區賣場 11688500 已核對同型號／選定組合、可用購買按鈕與公開價 NT$44,900。未計入個人券、點數及信用卡回饋。 08:01後已重新核對原頁供貨與當前價，排除較早已結束的短期活動。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900JMDR5/000001_1773978957.jpg",
@@ -313,11 +313,11 @@
     "name": "BRAVIA Theatre Bar 7 5.0.2 聲道 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 20330,
-      "converted": 20330,
-      "confidence": "PChome 2026-11-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 19260,
+      "converted": 19260,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-05 PChome原SKU API公開價 20330 TWD；先前促銷金額不沿用。未扣個人券、點數或信用卡回饋；實際配送與安裝條件依通路確認。"
+      "note": "PChome DMAAN8-A900K0Y8L 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$19,260。 08:01後已重新核對原頁供貨與當前價，排除較早已結束的短期活動。 公開活動至 2026-11-23T07:59:59+08:00。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAAN8A900K0Y8L/000001_1779181877.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAN8-A900K0Y8L",
@@ -1109,10 +1109,10 @@
     "name": "5.1 聲道 Soundbar 家庭劇院組",
     "price": {
       "currency": "TWD",
-      "amount": 9016,
-      "converted": 9016,
-      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-20 08:01:49（台灣）重查 Yahoo 原賣場 10067449 主商品公開價 NT$9,016，購買按鈕可用、原頁無預購標示；已排除過期夜間活動。 此公開單件活動有效至 2026-11-20T19:58:59+08:00，到期請以原頁新價為準。 未計入個人券、點數及信用卡回饋。",
+      "amount": 8067,
+      "converted": 8067,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "Yahoo 原商品主區賣場 10067449 已核對同型號／選定組合、可用購買按鈕與公開價 NT$8,067。公開單件活動至 2026-11-23T07:59:59+08:00。未計入個人券、點數及信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900GHTFE/000001_1776774078.jpg",
@@ -1409,8 +1409,8 @@
       "currency": "TWD",
       "amount": 28590,
       "converted": 28590,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
-      "note": "Yahoo 同商品原頁於上一活動屆期後可下單，目前公開網路價 NT$28,590。未扣個人券、點數或信用卡回饋。",
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "Yahoo 原商品主區賣場 12156647 已核對同型號／選定組合、可用購買按鈕與公開價 NT$28,590。未計入個人券、點數及信用卡回饋。 08:01後已重新核對原頁供貨與當前價，排除較早已結束的短期活動。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAHGA900J56OK/000001_1755250707.jpg",
@@ -2407,8 +2407,8 @@
       "currency": "TWD",
       "amount": 633,
       "converted": 633,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
-      "note": "Yahoo 同商品原頁於上一活動屆期後可下單，目前公開網路價 NT$633。未扣個人券、點數或信用卡回饋。",
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "Yahoo 原商品主區賣場 11633433 已核對同型號／選定組合、可用購買按鈕與公開價 NT$633。未計入個人券、點數及信用卡回饋。 08:01後已重新核對原頁供貨與當前價，排除較早已結束的短期活動。",
       "basis": "retailer_current"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h21/hac/367883491278878.jpg",

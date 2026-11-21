@@ -916,10 +916,10 @@
     "name": "20L 多功能蒸氣氣炸烤箱",
     "price": {
       "currency": "TWD",
-      "amount": 9999,
-      "converted": 9999,
-      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DMBM0G-A900HF91A 原商品主區公開價 NT$9,999，購買按鈕可用，API Qty 2。會員券、點數與卡回饋未計入。",
+      "amount": 9499,
+      "converted": 9499,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DMBM0G-A900HF91A 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$9,499。 公開活動至 2026-11-23T07:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900HF91A/000001_1768545220.jpg",
@@ -1415,10 +1415,10 @@
     "name": "32 公升獨立式萬用蒸烤爐",
     "price": {
       "currency": "TWD",
-      "amount": 15800,
-      "converted": 15800,
-      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-20 08:01:16（台灣）優惠期限後重查 PChome DMBJ6Q-A900EO9M8 原商品主價、完整配送區及可用購買動作；同一 SKU API Qty 8，公開單件價 NT$15,800。 先前夜間快閃已結束，採當前主商品價。 未計入個人券、點數及信用卡回饋。",
+      "amount": 15484,
+      "converted": 15484,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DMBJ6Q-A900EO9M8 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$15,484。 公開活動至 2026-11-23T07:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMBJ6QA900EO9M8/000001_1716271473.jpg",
@@ -1814,11 +1814,11 @@
     "name": "過熱水蒸氣烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 48668,
-      "converted": 48668,
+      "amount": 46111,
+      "converted": 46111,
       "basis": "retailer_current",
-      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "Yahoo 原商品主區可下單，公開價 NT$48,668。未扣會員券、點數與信用卡回饋。"
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "Yahoo 原商品主區賣場 11995474 已核對同型號／選定組合、可用購買按鈕與公開價 NT$46,111。公開單件活動至 2026-11-23T07:59:59+08:00。未計入個人券、點數及信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ5PA900GN8PM/000001_1750840663.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/HITACHI-%E6%97%A5%E7%AB%8B-%E9%81%8E%E7%86%B1%E6%B0%B4%E8%92%B8%E6%B0%A3%E7%83%98%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-MROBK5000AT-11995474.html",
@@ -2427,11 +2427,11 @@
     "name": "Combi 14 合 1 多功能氣炸蒸烤箱",
     "price": {
       "currency": "TWD",
-      "amount": 9911,
-      "converted": 9911,
-      "confidence": "2026-11-04 Chrome人工核對台灣代理官網主價格。",
+      "amount": 12900,
+      "converted": 12900,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-04 晚間覆核：SFP701TW主價9911、劃線12900、數量1與加入購物車可用；電子報95折券未扣。"
+      "note": "2026-11-21 SharkNinja台灣原商品SFP701TW公開主價NT$12,900，可下單；不另扣訂閱電子報95折券或其他個人化優惠。 原HTML主標SFP701TW及12900、加入購物車；Shopify template suffix=in-stock；同商品唯一variant44018600247338/SFP701TW/1290000分available=true，未改台灣機型或配件組合。訂閱95折需額外領券未扣。"
     },
     "image": "https://sharkninja.tw/cdn/shop/files/1_814ff1dc-2e54-41b6-84b8-bf2af373ecac.jpg?v=1769416258",
     "buyUrl": "https://sharkninja.tw/products/combi-sfp701tw",

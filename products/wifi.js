@@ -313,9 +313,9 @@
       "currency": "TWD",
       "amount": 3699,
       "converted": 3699,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "Yahoo 同商品原頁於上一活動屆期後可下單，目前公開網路價 NT$3,699。未扣個人券、點數或信用卡回饋。"
+      "note": "Yahoo 原商品主區賣場 12005854 已核對同型號／選定組合、可用購買按鈕與公開價 NT$3,699。未計入個人券、點數及信用卡回饋。 08:01後已重新核對原頁供貨與當前價，排除較早已結束的短期活動。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLPA900JKWXK/000001_1783555436.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/ASUS-%E8%8F%AF%E7%A2%A9-RT-BE58U-V2-BE3600-%E9%9B%99%E9%A0%BB-Wi-Fi-7-%E5%8F%AF%E6%93%B4%E5%85%85%E5%BC%8F%E8%B7%AF%E7%94%B1%E5%99%A8-12005854.html",
@@ -1287,8 +1287,8 @@
       "currency": "TWD",
       "amount": 21112,
       "converted": 21112,
-      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。",
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DRAFJR-A900JB5QX 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$21,112。 下單再折可由同頁公開單件／門檻活動及同型號刊登互證，未計入個人券、點數與信用卡回饋。 公開活動至 2026-11-30T23:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJRA900JB5QX/000001_1759459286.jpg",
@@ -1387,8 +1387,8 @@
       "currency": "TWD",
       "amount": 19111,
       "converted": 19111,
-      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。",
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DRAFJR-A900JB5RW 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$19,111。 下單再折可由同頁公開單件／門檻活動及同型號刊登互證，未計入個人券、點數與信用卡回饋。 公開活動至 2026-11-30T23:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJRA900JB5RW/000001_1759459789.jpg",
@@ -1487,8 +1487,8 @@
       "currency": "TWD",
       "amount": 9912,
       "converted": 9912,
-      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。",
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DRAFJR-A900JB6BU 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$9,912。 下單再折可由同頁公開單件／門檻活動及同型號刊登互證，未計入個人券、點數與信用卡回饋。 公開活動至 2026-11-30T23:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJRA900JB6BU/000001_1759470005.jpg",
@@ -1789,9 +1789,9 @@
       "currency": "TWD",
       "amount": 4990,
       "converted": 4990,
-      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品主區可下單，公開價 NT$4,990。未扣會員券、點數與信用卡回饋。"
+      "note": "Yahoo 原商品主區賣場 11798654 已核對同型號／選定組合、可用購買按鈕與公開價 NT$4,990。未計入個人券、點數及信用卡回饋。 08:01後已重新核對原頁供貨與當前價，排除較早已結束的短期活動。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLPA900IV4B6/000001_1783556530.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/ASUS-%E8%8F%AF%E7%A2%A9-RT-BE82U-WiFi-7-%E9%9B%99%E9%A0%BB-BE6500-%E8%B7%AF%E7%94%B1%E5%99%A8-%E5%88%86%E4%BA%AB%E5%99%A8-11798654.html",
@@ -3434,9 +3434,9 @@
       "currency": "TWD",
       "amount": 5311,
       "converted": 5311,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "Yahoo 自營 exact USG LITE 60AX 單台新品（12327907／41234370，BSMI D41163）在 11/14 08:01（台灣）重新讀取正式商品主區，公開 NT$5,311、可立即購買及加車。快速宅配滿 NT$480 免運；超商取貨滿 NT$288 免運。較早單台 9 折優惠已結束，未扣回饋或個人券。"
+      "note": "Yahoo 原商品主區賣場 12327907 已核對同型號／選定組合、可用購買按鈕與公開價 NT$5,311。未計入個人券、點數及信用卡回饋。 08:01後已重新核對原頁供貨與當前價，排除較早已結束的短期活動。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAF0IA900HO2DR/000001_1777023675.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=12327907",
@@ -4785,9 +4785,9 @@
       "currency": "TWD",
       "amount": 27990,
       "converted": 27990,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "Yahoo 同商品原頁於上一活動屆期後可下單，目前公開網路價 NT$27,990。未扣個人券、點數或信用卡回饋。"
+      "note": "Yahoo 原商品主區賣場 12032656 已核對同型號／選定組合、可用購買按鈕與公開價 NT$27,990。未計入個人券、點數及信用卡回饋。 08:01後已重新核對原頁供貨與當前價，排除較早已結束的短期活動。"
     },
     "image": "https://dlcdnwebimgs.asus.com/gain/FF5DB299-9708-4259-ABF9-167FDC7166BD",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E6%98%8C%E9%81%8B%E7%9B%A3%E8%A6%96%E5%99%A8-ASUS-%E8%8F%AF%E7%A2%A9-ROG-Rapture-GT-BE19000AI-WiFi-7-%E4%B8%89%E9%A0%BB%E9%9B%BB%E7%AB%B6-12032656.html",

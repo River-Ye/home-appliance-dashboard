@@ -119,8 +119,8 @@
       "currency": "TWD",
       "amount": 759,
       "converted": 759,
-      "confidence": "PChome 2026-07-18 API 公開價",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。",
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DEAWN3-A900JOVE3 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$759。 公開活動至 2026-11-30T23:59:59+08:00。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -633,8 +633,8 @@
       "currency": "TWD",
       "amount": 4490,
       "converted": 4490,
-      "confidence": "PChome 2026-07-11 API 查核價",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。",
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DEAWTG-A900FCFJC 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$4,490。 公開活動至 2026-11-30T23:59:59+08:00。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -1042,11 +1042,11 @@
     "image": "https://cs-a.ecimg.tw/items/DEDG3BA900GQDVZ/000001_1776769920.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1099,
-      "converted": 1099,
+      "amount": 990,
+      "converted": 990,
       "basis": "retailer_current",
-      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "Yahoo 原商品主區賣場 10238240 已核對同型號／選定組合、可用購買按鈕與公開價 NT$1,099。未計入個人券、點數及信用卡回饋。"
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "Yahoo 原商品主區賣場 10238240 已核對同型號／選定組合、可用購買按鈕與公開價 NT$990。公開單件活動至 2026-11-23T07:00:59+08:00。未計入個人券、點數及信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1754,8 +1754,8 @@
       "currency": "TWD",
       "amount": 6850,
       "converted": 6850,
-      "confidence": "PChome 2026-07-11 API 查核價",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。",
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DEAWTG-A900FCHLZ 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$6,850。 公開活動至 2026-11-30T23:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DEAWTGA900FCHLZ/000001_1745980849.jpg",

@@ -114,10 +114,10 @@
     "name": "特仕版 2.0 人體工學椅",
     "price": {
       "currency": "TWD",
-      "amount": 9999,
-      "converted": 9999,
-      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DCAKHP-A900HEQ4H 原商品主區公開價 NT$9,999，購買按鈕可用，API Qty 20。會員券、點數與卡回饋未計入。",
+      "amount": 11900,
+      "converted": 11900,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DCAKHP-A900HEQ4H 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$11,900。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAKHPA900HEQ4H/000001_1760581993.jpg",
@@ -795,9 +795,9 @@
       "currency": "TWD",
       "amount": 13410,
       "converted": 13410,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "confidence": "2026-11-21 核對原商品預購／供貨狀態，保留上次參考價",
       "basis": "retailer_current",
-      "note": "PChome 黑色 RZ38-03720300-R3U1 於主區可預購，原頁顯示公開折扣 NT$13,410。出貨依原預購排程。"
+      "note": "原商品配送主區明示預購；配送資訊；廠商出貨；本商品不受24h到貨限制；獨立結帳；本商品無法與其他商品合併結帳；預購；預計出貨日 2026/11/23 - 2026/11/25；可宅配到府；。金額為先前參考價，實際下單與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAKFOA900BWWGS/000001_1755481797.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAKFO-A900BWWGS",
@@ -1082,8 +1082,8 @@
       "currency": "TWD",
       "amount": 7990,
       "converted": 7990,
-      "confidence": "2026-11-20 核對原商品預購／供貨狀態，保留上次參考價",
-      "note": "完整商品主區配送資訊明示預購，預計 2026/12/01 至 12/03 出貨；金額為先前參考價，實際下單與交期請向通路確認。",
+      "confidence": "2026-11-21 核對原商品預購／供貨狀態，保留上次參考價",
+      "note": "原商品配送主區明示預購；配送資訊；廠商出貨；本商品不受24h到貨限制；預購；預計出貨日 2026/12/02 - 2026/12/04；可宅配到府；。金額為先前參考價，實際下單與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ0AA900IGLW6/000001_1759990112.jpg",
@@ -1376,11 +1376,11 @@
     "name": "TITAN PRO V2 電競椅",
     "price": {
       "currency": "TWD",
-      "amount": 15990,
-      "converted": 15990,
-      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 15350,
+      "converted": 15350,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DQBJ6Z-A900JIKKR 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$15,990。"
+      "note": "PChome DQBJ6Z-A900JIKKR 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$15,350。 公開活動至 2026-11-24T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ6ZA900JIKKR/000001_1782824760.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ6Z-A900JIKKR",
@@ -2458,11 +2458,11 @@
     "name": "STRYDER 高椅背可上掀扶手人體工學椅",
     "price": {
       "currency": "TWD",
-      "amount": 4990,
-      "converted": 4990,
-      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 4790,
+      "converted": 4790,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DQBJ0A-A900JCVY5 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$4,990。"
+      "note": "PChome DQBJ0A-A900JCVY5 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$4,790。 公開活動至 2026-11-24T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ0AA900JCVY5/000001_1785087796.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ0A-A900JCVY5",
@@ -2771,11 +2771,11 @@
     "score": 87,
     "price": {
       "currency": "TWD",
-      "amount": 10499,
-      "converted": 10499,
+      "amount": 9999,
+      "converted": 9999,
       "basis": "retailer_current",
-      "confidence": "2026-10-23 SIDIZ台灣官店exact原生黑色variant及SKU由Chrome核對，公開價10499且schema InStock、加入購物車與立即買可用；非舊代或裸座墊。",
-      "note": "2026-11-04 SIDIZ台灣所選料號公開10499元可加車，但同時已缺貨、一旦有貨立即出貨；交期待確認。"
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-21 SIDIZ台灣官方原連結同黑色T51HLDA0KT-5F6ABK公開價NT$9,999、原價NT$14,999，可下單；實際交期請向通路確認，外島不配送/安裝。未另扣券或回饋。 原連結選定46548627980484黑色，原HTML selected option同ID、主價9999且submit可用，公開.js同SKU999900分/available=true。已缺貨一旦有貨出貨文案位於class=backorder hidden的備用模板，不作當前可見缺貨宣告；沒有宣稱庫存件數或即時現貨。"
     },
     "installation": {
       "status": "not_stated",
@@ -2865,11 +2865,11 @@
     "score": 88,
     "price": {
       "currency": "TWD",
-      "amount": 11499,
-      "converted": 11499,
+      "amount": 10999,
+      "converted": 10999,
       "basis": "retailer_current",
-      "confidence": "2026-10-23 SIDIZ台灣官店exact原生黑色variant及SKU由Chrome核對，公開價11499且schema InStock、加入購物車與立即買可用；非舊代或裸座墊。",
-      "note": "2026-11-04 SIDIZ台灣所選料號公開11499元可加車，但同時已缺貨、一旦有貨立即出貨；交期待確認。"
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-21 SIDIZ台灣官方原連結同黑色T53HLDA0KT-5H6BBK公開價NT$10,999、原價NT$15,999，可下單；實際交期請向通路確認，外島不配送/安裝。未另扣券或回饋。 原連結選定46552049778884黑色，原HTML selected option同ID、主價10999且submit可用，公開.js同SKU1099900分/available=true。已缺貨一旦有貨出貨文案位於class=backorder hidden備用模板，沒有當當前缺貨或現貨件數判斷。"
     },
     "installation": {
       "status": "not_stated",

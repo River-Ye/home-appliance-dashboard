@@ -818,8 +818,8 @@
       "currency": "TWD",
       "amount": 9490,
       "converted": 9490,
-      "confidence": "2026-11-20 核對原商品預購／供貨狀態，保留上次參考價",
-      "note": "完整商品主區配送資訊仍明示預購，預計 2026/11/30 至 12/02 出貨；金額為先前參考價，實際下單與交期請向通路確認。",
+      "confidence": "2026-11-21 核對原商品預購／供貨狀態，保留上次參考價",
+      "note": "原商品配送主區明示預購；配送資訊；廠商出貨；本商品不受24h到貨限制；預購；預計出貨日 2026/11/30 - 2026/12/02；可宅配到府；。金額為先前參考價，實際下單與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DQCI0AA900K15T1/000001_1779269416.jpg",
@@ -1218,8 +1218,8 @@
       "currency": "TWD",
       "amount": 13491,
       "converted": 13491,
-      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。",
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DQCBEM-A900GJUOI 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$13,491。 公開活動至 2026-11-30T23:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DQCBEMA900GJUOI/000001_1691116279.png",
@@ -1614,8 +1614,9 @@
       "currency": "TWD",
       "amount": 6201,
       "converted": 6201,
-      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
-      "note": "Chrome原頁主商品人體工學電動升降桌／柚木色電動升降桌可核對，公開主區售價6201元，購買按鈕可用；不扣個人券、信用卡、點數或贈品。"
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DEBHCT-A900BW2X6 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$6,201。 公開活動至 2026-11-30T23:59:59+08:00。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DEBHCTA900BW2X6/000001_1634603420.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEBHCT-A900BW2X6",

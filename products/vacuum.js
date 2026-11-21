@@ -1282,14 +1282,15 @@
     "name": "正負零 XJC-Y011 無線手持吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 2990,
-      "converted": 2990,
-      "confidence": "XJC-Y011 官方商品頁 2026-09-05 人工核對 exact-model 公開現價及可購狀態；非會員券、紅利或加購價",
-      "note": "2026-11-04 Chrome核官方XJC-Y011原頁顯示4990元，但主區明示「目前尚無庫存。」且無購買按鈕；未採為可購現價，保留2990元先前參考。缺貨不代表原廠停產。"
+      "amount": 3280,
+      "converted": 3280,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-21 正負零台灣官方XJC-Y011單機白色公開NT$3,280，活動11/20–11/30；白色可購，粉色目前無庫存。未另扣會員券/回饋，未將粉色缺貨推定整型停產。 正負零台灣原頁主區現貨銷售中，原價4990/促銷3280，活動2026.11/20–11/30_Y011單機3280；白色選項可選、粉色明示目前尚無庫存，Chrome主加車啟用。原目錄未鎖色，generic XJC-Y011原商品連結不變，未改套件/代別/電力或圖片。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBE1AA900J8H81/000001_1757576197.jpg",
     "buyUrl": "https://plusminuszero.com.tw/shop-d.php?Key=1&W=Index",
-    "buyLabel": "正負零台灣官方（目前無庫存）",
+    "buyLabel": "正負零台灣官方（白色可購）",
     "specs": [
       "無線手持",
       "輕量",
@@ -2455,9 +2456,11 @@
     "name": "H60 掃震地刷無線吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 3999,
-      "converted": 3999,
-      "confidence": "Roborock 台灣官網 2026-08-05 exact-model H10A3A 公開價；available=true 且可加入購物車"
+      "amount": 4199,
+      "converted": 4199,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "basis": "retailer_current",
+      "note": "2026-11-21 Roborock石頭台灣官方同H60/H10A3A單機公開NT$4,199，原價NT$6,488，可下單；未扣首購500元、LINE折扣或另購寵物套組。 原HTML同H60主價4199、selected option同variant62145601503603、data-inventoryquantity=12、data-availability=加入購物車；公開.js同H10A3A單一variant419900分available=true。未採同頁H60Hub Plus/Pro與F25加購寵物套組990元。"
     },
     "image": "https://i2.momoshop.com.tw/1781023801/goodsimg/0014/440/294/14440294_R_m.webp",
     "buyUrl": "https://taiwan.roborock.com/products/roborock-h60",

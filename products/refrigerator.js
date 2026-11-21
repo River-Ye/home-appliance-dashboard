@@ -330,11 +330,11 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/4455399AAF-SP-22083802.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 14500,
-      "converted": 14500,
-      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 13775,
+      "converted": 13775,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品主區可下單，公開價 NT$14,500。未扣會員券、點數與信用卡回饋。"
+      "note": "Yahoo 原商品主區賣場 11988613 已核對同型號／選定組合、可用購買按鈕與公開價 NT$13,775。公開單件活動至 2026-11-23T07:00:59+08:00。未計入個人券、點數及信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心自營",

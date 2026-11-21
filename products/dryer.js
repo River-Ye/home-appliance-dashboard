@@ -1674,10 +1674,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/C0FA586EC4-SP-18495887.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 7990,
-      "converted": 7990,
-      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "Yahoo 原商品主區可下單，公開價 NT$7,990。未扣會員券、點數與信用卡回饋。",
+      "amount": 7591,
+      "converted": 7591,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "Yahoo 原商品主區賣場 11396347 已核對同型號／選定組合、可用購買按鈕與公開價 NT$7,591。公開單件活動至 2026-11-23T07:30:59+08:00。未計入個人券、點數及信用卡回饋。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -1981,10 +1981,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/254DF81A1E-SP-20893325.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 49900,
-      "converted": 49900,
-      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "Yahoo 原商品主區可下單，公開價 NT$49,900。未扣會員券、點數與信用卡回饋。",
+      "amount": 45908,
+      "converted": 45908,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "Yahoo 原商品主區賣場 11757116 已核對同型號／選定組合、可用購買按鈕與公開價 NT$45,908。公開單件活動至 2026-11-23T07:30:59+08:00。未計入個人券、點數及信用卡回饋。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -2817,11 +2817,11 @@
     "topPick": false,
     "price": {
       "currency": "TWD",
-      "amount": 29900,
-      "converted": 29900,
+      "amount": 24111,
+      "converted": 24111,
       "basis": "retailer_current",
-      "confidence": "2026-11-15 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DPAI3F-A900J14XI 原商品主區公開價 NT$29,900，購買按鈕可用，API Qty 19。會員券、點數與卡回饋未計入。"
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DPAI3F-A900J14XI 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$24,111。"
     },
     "installation": {
       "status": "included_basic",
@@ -2919,11 +2919,11 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 32111,
-      "converted": 32111,
+      "amount": 32000,
+      "converted": 32000,
       "basis": "retailer_current",
-      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DPAI1L-A900KI8KB 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$32,111。"
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DPAI1L-A900KI8KB 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$32,000。 公開活動至 2026-11-30T23:59:59+08:00。"
     },
     "installation": {
       "status": "not_stated",
@@ -2967,16 +2967,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 32111,
+      "amount": 32000,
       "currency": "TWD",
-      "converted": 32111,
-      "sourceUrl": "https://price.shhwa.cc/product/momo/15765404",
-      "sourceTitle": "公開價格追蹤：momo 15765404 雲朵白 WR-10XW",
-      "evidenceSnippet": "同型 momo 15765404 的 14 天歷史記錄顯示 10/23–10/31 NT$35,900，2026-11-01 起 NT$32,111；同頁比對 PChome 同款同期也曾為 NT$32,111。",
-      "sourceKind": "price_history",
+      "converted": 32000,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900KI8KB",
+      "sourceTitle": "LG WR-10XW 原商品頁",
+      "evidenceSnippet": "2026-11-21 PChome DPAI1L-A900KI8KB 原商品主區、完整型號／選定版本及可用購買動作已人工核對，API Qty 8；採公開價 NT$32,000。 公開活動至 2026-11-30T23:59:59+08:00。 低於原有同款紀錄。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-11-15",
-      "note": "採有日期變動的 momo 同型號新品歷史而非本日現價推定。只涵蓋來源的 14 天記錄；同頁排除黑色 WR-10XB 與組合品。"
+      "checkedAt": "2026-11-21",
+      "note": "採同型號同規格可信新品公開價，不含個人券、點數、會員特價與信用卡回饋。"
     },
     "issueResearch": {
       "status": "no_common_issue",

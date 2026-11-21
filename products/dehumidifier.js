@@ -17,11 +17,11 @@
     "name": "16 公升高效型變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 15488,
-      "converted": 15488,
-      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 14608,
+      "converted": 14608,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMBQ3P-A900J0L88 原商品主區公開價 NT$15,488，購買按鈕可用，API Qty 20，商品主區活動 11/12 至 11/30。會員券、點數與卡回饋未計入。 活動 PR26111200144700（任選1件享88折）至 2026-11-30T23:59:59+08:00。"
+      "note": "PChome DMBQ3P-A900J0L88 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$14,608。 公開活動至 2026-11-30T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900J0L88/000001_1776323540.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3P-A900J0L88",
@@ -309,10 +309,10 @@
     "name": "19.6 公升 PuriCare 雙變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 20924,
-      "converted": 20924,
-      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "Yahoo 原商品主區可下單，公開價 NT$20,924。未扣會員券、點數與信用卡回饋。",
+      "amount": 18832,
+      "converted": 18832,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "Yahoo 原商品主區賣場 11884613 已核對同型號／選定組合、可用購買按鈕與公開價 NT$18,832。公開單件活動至 2026-11-23T06:59:59+08:00。未計入個人券、點數及信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4OA900JX7GH/000001_1783563034.jpg",
@@ -896,11 +896,11 @@
     "name": "PuriCare WiFi 變頻除濕機粉紅 16 公升",
     "price": {
       "currency": "TWD",
-      "amount": 13900,
-      "converted": 13900,
-      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 14111,
+      "converted": 14111,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-20 08:01:13（台灣）優惠期限後重查 PChome DMBQ07-A900HQ3L5 原商品主價、完整配送區及可用購買動作；同一 SKU API Qty 1，公開單件價 NT$13,900。 此公開單件活動有效至 2026-11-30T23:59:59+08:00，到期請以原頁新價為準。 未計入個人券、點數及信用卡回饋。"
+      "note": "PChome DMBQ07-A900HQ3L5 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$14,111。 公開活動至 2026-11-30T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ07A900HQ3L5/000001_1761827365.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ07-A900HQ3L5",
@@ -994,11 +994,11 @@
     "name": "PuriCare 12 公升雙變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 13231,
-      "converted": 13231,
-      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 12967,
+      "converted": 12967,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品主區賣場 11864251 已核對同型號／選定組合、可用購買按鈕與公開價 NT$13,231。未計入個人券、點數及信用卡回饋。"
+      "note": "Yahoo 原商品主區賣場 11864251 已核對同型號／選定組合、可用購買按鈕與公開價 NT$12,967。公開單件活動至 2026-11-23T06:59:59+08:00。未計入個人券、點數及信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4NA900JF9HP/000001_1778165423.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-12%E5%85%AC%E5%8D%87-%E6%97%A5UV%E6%AE%BA%E8%8F%8C%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9FDD121QWE0-11864251.html",
@@ -1579,11 +1579,11 @@
     "name": "6L 除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 5447,
-      "converted": 5447,
-      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 5137,
+      "converted": 5137,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMBQ3P-A900J9FH9 原商品主區公開價 NT$5,447，購買按鈕可用，API Qty 20，商品主區活動 11/12 至 11/30。會員券、點數與卡回饋未計入。 活動 PR26111200144700（任選1件享88折）至 2026-11-30T23:59:59+08:00。"
+      "note": "PChome DMBQ3P-A900J9FH9 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$5,137。 公開活動至 2026-11-30T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900J9FH9/000001_1776325410.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3P-A900J9FH9",
@@ -2883,11 +2883,11 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 9411,
-      "converted": 9411,
-      "confidence": "環球 Online 同型號主商品價、總額及新品在庫資料一致。",
+      "amount": 9388,
+      "converted": 9388,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-14 環球 Online 主商品貨號 2EC0320950000302 公開 NT$9,411，可加入購物車；商品頁未標單品配送費，配送依通路規則。未扣個人券、點數、回饋或貨物稅減徵。"
+      "note": "2026-11-21 環球Online同F-YV20QBH主商品總金額NT$9,388、原價NT$11,600，可宅配並加入購物車；未另扣會員券、信用卡或點數。 環球Online同商品貨號2EC0320950000302/F-YV20QBH主區總金額9388、劃線11600，宅配常溫及主加入購物車啟用；原頁JSON-LD同價InStock。10L/適用13坪型號與原商品相符，沒有改容量。"
     },
     "installation": {
       "status": "not_stated",

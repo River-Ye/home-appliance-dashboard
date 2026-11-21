@@ -116,9 +116,9 @@
       "currency": "TWD",
       "amount": 31261,
       "converted": 31261,
-      "confidence": "2026-11-20 核對原商品預購／供貨狀態，保留上次參考價",
+      "confidence": "2026-11-21 核對原商品預購／供貨狀態，保留上次參考價",
       "basis": "retailer_current",
-      "note": "完整商品主區配送資訊明示預購，預計 2027/01/10 至 01/12 出貨；金額為先前參考價，實際下單與交期請向通路確認。"
+      "note": "原商品配送主區明示預購；配送資訊；廠商出貨；本商品不受24h到貨限制；預購；預計出貨日 2027/01/10 - 2027/01/12；可宅配到府；。金額為先前參考價，實際下單與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JNELR/000001_1769062030.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JNELR",
@@ -303,9 +303,9 @@
       "currency": "TWD",
       "amount": 29421,
       "converted": 29421,
-      "confidence": "2026-11-20 核對原商品預購／供貨狀態，保留上次參考價",
+      "confidence": "2026-11-21 核對原商品預購／供貨狀態，保留上次參考價",
       "basis": "retailer_current",
-      "note": "完整商品主區配送資訊明示預購，接單後陸續安排出貨、最晚 2026/12/18；金額為先前參考價，實際下單與交期請向通路確認。"
+      "note": "原商品配送主區明示預購；配送資訊；大材積；PChome 倉庫出貨，本商品不受24h到貨限制；說明；預購；接單後陸續安排出貨，最晚出貨日為 2026/12/18；可宅配到府，滿 $490 起免運；。金額為先前參考價，實際下單與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JMMCO/000001_1769061975.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JMMCO",
@@ -498,11 +498,11 @@
     "name": "滾筒全自動洗拖烘掃地機器人",
     "price": {
       "currency": "TWD",
-      "amount": 19999,
-      "converted": 19999,
-      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 17911,
+      "converted": 17911,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMBL1C-A900JA04J 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$19,999。"
+      "note": "PChome DMBL1C-A900JA04J 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$17,911。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JA04J/000001_1783562731.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JA04J",
@@ -598,8 +598,8 @@
       "currency": "TWD",
       "amount": 24700,
       "converted": 24700,
-      "confidence": "2026-11-20 核對原商品預購／供貨狀態，保留上次參考價",
-      "note": "原商品主區仍明示預購並依序出貨，金額為先前參考價，實際下單與交期請向通路確認。",
+      "confidence": "2026-11-21 核對原商品預購／供貨狀態，保留上次參考價",
+      "note": "原商品配送主區明示預購；新品預購中，到貨後依訂單順序依序發貨。金額為先前參考價，實際下單與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900JRDAS/000001_1771917633.jpg",
@@ -2921,10 +2921,10 @@
     "name": "Xiaomi 掃拖機器人 6 Max",
     "price": {
       "currency": "TWD",
-      "amount": 21911,
-      "converted": 21911,
-      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "Yahoo 原商品主區可下單，公開價 NT$21,911。未扣會員券、點數與信用卡回饋。",
+      "amount": 20816,
+      "converted": 20816,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "Yahoo 原商品主區賣場 12134974 已核對同型號／選定組合、可用購買按鈕與公開價 NT$20,816。公開單件活動至 2026-11-23T07:30:59+08:00。未計入個人券、點數及信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/5A801ABE6A-SP-22823743.jpg",
@@ -3452,11 +3452,11 @@
     "name": "搖滾天王超薄活水滾筒掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 24980,
-      "converted": 24980,
-      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 23911,
+      "converted": 23911,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMBL1C-A900K7R6R 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$24,980。"
+      "note": "PChome DMBL1C-A900K7R6R 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$23,911。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900K7R6R/000001_1785985365.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900K7R6R",
@@ -4600,10 +4600,10 @@
     "name": "Roomba Plus 675 Combo AI高壓噴灑滾筒掃拖機器人（極夜黑）",
     "price": {
       "currency": "TWD",
-      "amount": 21831,
-      "converted": 21831,
-      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DMBL0J-A900KKP0O 原商品主區公開價 NT$21,831，購買按鈕可用，API Qty 14。會員券、點數與卡回饋未計入。",
+      "amount": 21781,
+      "converted": 21781,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DMBL0J-A900KKP0O 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$21,781。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0JA900KIEP4/000001_1792650810.jpg",
@@ -4664,16 +4664,16 @@
     },
     "historicalLow": {
       "status": "found",
-      "amount": 21831,
+      "amount": 21781,
       "currency": "TWD",
-      "converted": 21831,
-      "sourceUrl": "https://price.shhwa.cc/product/pchome/DMBL0J-A900KKP0O",
-      "sourceTitle": "Lowcast 比價趨勢：PChome iRobot 【美國機器人】Roomba Plus 675 Combo AI高壓噴灑滾筒掃拖機器人 極夜黑",
-      "evidenceSnippet": "Lowcast 同一刊登 DMBL0J-A900KKP0O 於 2026-11-16 收盤價為 NT$21,831。當日 PChome 同 SKU 公開價格同值，API Qty 14。",
-      "sourceKind": "price_history",
+      "converted": 21781,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMBL0J-A900KKP0O",
+      "sourceTitle": "iRobot Roomba Plus 675 Combo 原商品頁",
+      "evidenceSnippet": "2026-11-21 PChome DMBL0J-A900KKP0O 原商品主區、完整型號／選定版本及可用購買動作已人工核對，API Qty 14；採公開價 NT$21,781。 低於原有同款紀錄。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-11-17",
-      "note": "同型號新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
+      "checkedAt": "2026-11-21",
+      "note": "採同型號同規格可信新品公開價，不含個人券、點數、會員特價與信用卡回饋。"
     }
   },
   {

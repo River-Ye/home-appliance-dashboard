@@ -22,8 +22,8 @@
       "amount": 499,
       "converted": 499,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 Chrome 原頁核對所選台灣新品版本公開售價；不扣會員、信用卡、點數或加購優惠。",
-      "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "今日原商品HTML與公開同商品Shopify JSON皆HTTP200，所選SKU可售且價格相同，解除本輪429來源限制。玫瑰粉956-000045原先來源待確認註記可改為已確認可購；滿2000免運門檻仍適用。 exact SKU 956-000045／玫瑰粉，公開價NT$499，未扣個人券、點數或信用卡回饋。"
     },
     "installation": {
       "status": "not_stated",
@@ -31,7 +31,7 @@
     },
     "image": "https://store.logitech.tw/cdn/shop/products/desk-mat-709232.jpg?v=1752142078&width=1220",
     "buyUrl": "https://store.logitech.tw/collections/%E6%BB%91%E9%BC%A0%E5%A2%8A%E5%92%8C%E6%A1%8C%E5%A2%8A/products/deskmat",
-    "buyLabel": "Logitech 台灣官方商城（來源待確認）",
+    "buyLabel": "Logitech 台灣官方商城（玫瑰粉）",
     "specs": [
       "類型：布面滑鼠墊；DESK MAT - Studio Series 956-000045",
       "表面材質：100% 回收聚酯纖維表面與內層（占整品重量16%）",

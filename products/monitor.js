@@ -407,10 +407,11 @@
     "name": "27 型 FHD 144Hz IPS 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 2990,
-      "converted": 2990,
-      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "PChome 原商品頁主價 NT$2,990 與 API 確認值或原頁購買狀態未能完整互證，保留既有參考資料。"
+      "amount": 2840,
+      "converted": 2840,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DSABPD-A900JTLEG 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$2,840。 下單再折可由同頁公開單件／門檻活動及同型號刊登互證，未計入個人券、點數與信用卡回饋。 公開活動至 2026-11-23T08:00:59+08:00。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABPDA900JTLEG/000001_1773715062.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABPD-A900JTLEG",
@@ -707,10 +708,10 @@
     "name": "27 型 QHD 260Hz IPS 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 4288,
-      "converted": 4288,
-      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-13 PChome 原 SKU 公開價 NT$4288，API Qty 20。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。",
+      "amount": 4073,
+      "converted": 4073,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DSABQR-A900JJPCW 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$4,073。 下單再折可由同頁公開單件／門檻活動及同型號刊登互證，未計入個人券、點數與信用卡回饋。 公開活動至 2026-11-23T08:00:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABQRA900JJPCW/000001_1765505711.jpg",
@@ -808,10 +809,10 @@
     "name": "27 型 2K 144Hz IPS 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 3888,
-      "converted": 3888,
-      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-13 PChome 原 SKU 公開價 NT$3888，API Qty 6。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。",
+      "amount": 3693,
+      "converted": 3693,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DSABQQ-A900K2OE1 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$3,693。 下單再折可由同頁公開單件／門檻活動及同型號刊登互證，未計入個人券、點數與信用卡回饋。 公開活動至 2026-11-23T08:00:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABQQA900K2OE1/000001_1780474188.jpg",
@@ -909,10 +910,11 @@
     "name": "27 型 4K USB-C 70W 商務螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 29900,
-      "converted": 29900,
-      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "PChome 原商品頁主價 NT$29,900 與 API 確認值或原頁購買狀態未能完整互證，保留既有參考資料。"
+      "amount": 28405,
+      "converted": 28405,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DSABGV-A900JG58D 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$28,405。 下單再折可由同頁公開單件／門檻活動及同型號刊登互證，未計入個人券、點數與信用卡回饋。 公開活動至 2026-11-23T08:00:59+08:00。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABGVA900JG58D/000001_1763013340.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABGV-A900JG58D",
@@ -1009,11 +1011,11 @@
     "name": "27 型 2K 120Hz 電腦螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 3299,
-      "converted": 3299,
-      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 3134,
+      "converted": 3134,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DSABVO-A900JMD8B 原商品主區公開價 NT$3,299，購買按鈕可用，API Qty 20。會員券、點數與卡回饋未計入。"
+      "note": "PChome DSABVO-A900JMD8B 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$3,134。 下單再折可由同頁公開單件／門檻活動及同型號刊登互證，未計入個人券、點數與信用卡回饋。 公開活動至 2026-11-23T08:00:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABVOA900JMD8B/000001_1768285501.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABVO-A900JMD8B",
@@ -1512,11 +1514,11 @@
     "name": "27 型 2K 180Hz QD-OLED Odyssey G5",
     "price": {
       "currency": "TWD",
-      "amount": 9900,
-      "converted": 9900,
-      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 9405,
+      "converted": 9405,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-13 PChome 原 SKU 公開價 NT$9900，API Qty 2。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。"
+      "note": "PChome DSABON-A900JTSHY 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$9,405。 下單再折可由同頁公開單件／門檻活動及同型號刊登互證，未計入個人券、點數與信用卡回饋。 公開活動至 2026-11-23T08:00:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABONA900JTSHY/000001_1773805820.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABON-A900JTSHY",
@@ -1815,11 +1817,11 @@
     "name": "32 型 4K USB-C 影音護眼螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 14888,
-      "converted": 14888,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 14143,
+      "converted": 14143,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$14888，API Qty 20；個人券、點數、信用卡回饋及配送安裝費另計。"
+      "note": "PChome DSABF1-A900I90FS 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$14,143。 下單再折可由同頁公開單件／門檻活動及同型號刊登互證，未計入個人券、點數與信用卡回饋。 公開活動至 2026-11-23T08:00:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABF1A900I90FS/000001_1736480988.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABF1-A900I90FS",
@@ -1916,10 +1918,10 @@
     "name": "27 型 2K IPS USB-C UltraSharp 螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 12588,
-      "converted": 12588,
-      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-13 PChome 原 SKU 公開價 NT$12588，API Qty 17。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。",
+      "amount": 11958,
+      "converted": 11958,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DSABOM-A900GS1DN 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$11,958。 下單再折可由同頁公開單件／門檻活動及同型號刊登互證，未計入個人券、點數與信用卡回饋。 公開活動至 2026-11-23T08:00:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOMA900GS1DN/000001_1699955230.jpg",
@@ -2017,10 +2019,11 @@
     "name": "27 型 4K Thunderbolt USB-C UltraSharp 螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 24888,
-      "converted": 24888,
-      "confidence": "PChome 2026-09-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
+      "amount": 23643,
+      "converted": 23643,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DSABOL-A900IIFQG 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$23,643。 下單再折可由同頁公開單件／門檻活動及同型號刊登互證，未計入個人券、點數與信用卡回饋。 公開活動至 2026-11-23T08:00:59+08:00。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOLA900IIFQG/000001_1744702043.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABOL-A900IIFQG",
@@ -2315,10 +2318,10 @@
     "name": "27 型 WQHD 360Hz QD-OLED 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 16900,
-      "converted": 16900,
-      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "Yahoo 原商品主區可下單，公開價 NT$16,900。未扣會員券、點數與信用卡回饋。",
+      "amount": 16055,
+      "converted": 16055,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "Yahoo 原商品主區賣場 10958143 已核對同型號／選定組合、可用購買按鈕與公開價 NT$16,055。公開單件活動至 2026-11-23T07:59:59+08:00。未計入個人券、點數及信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBC1ZA900HE04M/000001_1757303897.jpg",
@@ -2502,10 +2505,10 @@
     "name": "27 型 4K IPS USB-C 人體工學螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 7799,
-      "converted": 7799,
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
-      "note": "PChome 主頁與 API Name 同為 VG2719U-4K（27 吋 4K、96W USB-C）；新 ID DSABEZ-A900K0W5Y 主價 NT$7,799、Qty=3，加入購物車／立即購買可用，倉庫出貨，滿 NT$490 宅配免運。API Nick 舊存不同 2K 型號，以主頁商品 ID、主品名、4K 詳情與主價為準；不採當日上午 07:59:59 到期的 Yahoo 折價。舊 PChome ID 無可購資料。",
+      "amount": 7409,
+      "converted": 7409,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DSABEZ-A900K0W5Y 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$7,409。 下單再折可由同頁公開單件／門檻活動及同型號刊登互證，未計入個人券、點數與信用卡回饋。 公開活動至 2026-11-23T08:00:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABEZA900K1N6R/000001_1782816950.jpg",
@@ -2603,10 +2606,10 @@
     "name": "27 型 4K 160Hz IPS 雙模電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 8999,
-      "converted": 8999,
-      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DSABOI-A900K129O 原商品主區公開價 NT$8,999，購買按鈕可用，API Qty 8。會員券、點數與卡回饋未計入。",
+      "amount": 8549,
+      "converted": 8549,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DSABOI-A900K129O 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$8,549。 下單再折可由同頁公開單件／門檻活動及同型號刊登互證，未計入個人券、點數與信用卡回饋。 公開活動至 2026-11-23T08:00:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOIA900K129O/000001_1779250013.jpg",
@@ -2704,10 +2707,10 @@
     "name": "27 型 QHD 260Hz IPS 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 4988,
-      "converted": 4988,
-      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-13 PChome 原 SKU 公開價 NT$4988，API Qty 13。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。",
+      "amount": 4738,
+      "converted": 4738,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DSABQI-A900J82S0 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$4,738。 下單再折可由同頁公開單件／門檻活動及同型號刊登互證，未計入個人券、點數與信用卡回饋。 公開活動至 2026-11-23T08:00:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABQIA900J82S0/000001_1757486726.jpg",
@@ -2805,10 +2808,10 @@
     "name": "27 型 2K 180Hz Mini LED 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 7111,
-      "converted": 7111,
-      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-13 PChome 原 SKU 公開價 NT$7111，API Qty 3。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。",
+      "amount": 6755,
+      "converted": 6755,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DSABTA-A900JBMD6 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$6,755。 下單再折可由同頁公開單件／門檻活動及同型號刊登互證，未計入個人券、點數與信用卡回饋。 公開活動至 2026-11-23T08:00:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABTAA900JBMD6/000001_1759809326.jpg",
@@ -3181,10 +3184,10 @@
     "name": "34 型 21:9 WQHD 120Hz 1500R 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 7490,
-      "converted": 7490,
-      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-13 PChome 原 SKU 公開價 NT$7490，API Qty 2。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。",
+      "amount": 7115,
+      "converted": 7115,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DSABSZ-A900JOMA1 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$7,115。 下單再折可由同頁公開單件／門檻活動及同型號刊登互證，未計入個人券、點數與信用卡回饋。 公開活動至 2026-11-23T08:00:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABSZA900JOMA1/000001_1769572714.jpg",
@@ -3587,10 +3590,11 @@
     "name": "34 型 UWQHD 280Hz QD-OLED 曲面電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 26888,
-      "converted": 26888,
-      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "PChome 原頁確為 XG34WCDMS 280Hz，主價 NT$26,888，只有有貨通知我。API Name 同型，Nick 列不同款 XG34WCDMTG，Qty 0。順發現列客訂品，良興缺貨，不以它們宣稱現貨。 金額保留為先前參考價。"
+      "amount": 25543,
+      "converted": 25543,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DSABKB-A900K0YA0 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$25,543。 下單再折可由同頁公開單件／門檻活動及同型號刊登互證，未計入個人券、點數與信用卡回饋。 公開活動至 2026-11-23T08:00:59+08:00。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABKBA900K0YA0/000001_1779246107.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABKB-A900K0YA0",
@@ -3790,10 +3794,11 @@
     "name": "34 型 Porsche Design 240Hz QD-OLED 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 28800,
-      "converted": 28800,
-      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "PChome 原商品頁主價 NT$28,800 與 API 確認值或原頁購買狀態未能完整互證，保留既有參考資料。"
+      "amount": 27360,
+      "converted": 27360,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DSABQR-A900K5BI4 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$27,360。 下單再折可由同頁公開單件／門檻活動及同型號刊登互證，未計入個人券、點數與信用卡回饋。 公開活動至 2026-11-23T08:00:59+08:00。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABQRA900K5BI4/000001_1782298311.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABQR-A900K5BI4",
@@ -3991,11 +3996,11 @@
     "name": "49 型 Odyssey OLED G9 Dual QHD 240Hz 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 34800,
-      "converted": 34800,
-      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 36900,
+      "converted": 36900,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMBM10-A900HZCPE 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$34,800。"
+      "note": "PChome DMBM10-A900HZCPE 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$36,900。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900HZCPE/000001_1781766568.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900HZCPE",
@@ -4293,11 +4298,11 @@
     "name": "57 型 Odyssey Neo G9 Dual UHD 240Hz Mini LED 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 63990,
-      "converted": 63990,
-      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 69900,
+      "converted": 69900,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMBM10-A900GQLSE 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$63,990。"
+      "note": "PChome DMBM10-A900GQLSE 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$69,900。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900GQLSE/000001_1783054239.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900GQLSE",
@@ -4395,11 +4400,11 @@
     "name": "34 型 21:9 IPS Black 120Hz USB-C 商務曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 39888,
-      "converted": 39888,
-      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 37893,
+      "converted": 37893,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DSABOM-A900HIJN3 原商品主區公開價 NT$39,888，購買按鈕可用，API Qty 2。會員券、點數與卡回饋未計入。"
+      "note": "PChome DSABOM-A900HIJN3 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$37,893。 下單再折可由同頁公開單件／門檻活動及同型號刊登互證，未計入個人券、點數與信用卡回饋。 公開活動至 2026-11-23T08:00:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOMA900HIJN3/000001_1716881117.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABOM-A900HIJN3",
@@ -4497,10 +4502,11 @@
     "name": "49 型 DQHD QD-OLED 144Hz Type-C 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 32900,
-      "converted": 32900,
-      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "PChome 原商品頁主價 NT$32,900 與 API 確認值或原頁購買狀態未能完整互證，保留既有參考資料。"
+      "amount": 31255,
+      "converted": 31255,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DSABPD-A900H9PEB 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$31,255。 下單再折可由同頁公開單件／門檻活動及同型號刊登互證，未計入個人券、點數與信用卡回饋。 公開活動至 2026-11-23T08:00:59+08:00。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABPDA900H9PEB/000001_1709257135.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABPD-A900H9PEB",
@@ -5324,10 +5330,11 @@
     "name": "32 型 Odyssey G8 G80HS 6K 165Hz／3K 330Hz 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 27900,
-      "converted": 27900,
-      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "PChome 原商品頁主價 NT$27,900 與 API 確認值或原頁購買狀態未能完整互證，保留既有參考資料。"
+      "amount": 26505,
+      "converted": 26505,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DSABSK-A900K0G32 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$26,505。 下單再折可由同頁公開單件／門檻活動及同型號刊登互證，未計入個人券、點數與信用卡回饋。 公開活動至 2026-11-23T08:00:59+08:00。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABSKA900K0G32/000001_1778746645.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABSK-A900K0G32",
@@ -5939,11 +5946,11 @@
     "name": "27 吋 5K 180Hz／QHD 330Hz 雙模式電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 17888,
-      "converted": 17888,
-      "confidence": "2026-11-15 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 16993,
+      "converted": 16993,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DSABKB-A900JO7QP 原商品主區公開價 NT$17,888，購買按鈕可用，API Qty 9。會員券、點數與卡回饋未計入。"
+      "note": "PChome DSABKB-A900JO7QP 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$16,993。 下單再折可由同頁公開單件／門檻活動及同型號刊登互證，未計入個人券、點數與信用卡回饋。 公開活動至 2026-11-23T08:00:59+08:00。"
     },
     "image": "https://dlcdnwebimgs.asus.com/gain/8A87687D-B574-4D77-A9E2-D14D960EBE84",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABKB-A900JO7QP",
@@ -5986,16 +5993,16 @@
     "releaseDate": "2026",
     "historicalLow": {
       "status": "found",
-      "amount": 17800,
+      "amount": 16993,
       "currency": "TWD",
-      "converted": 17800,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=585700558&cgp=17800",
-      "sourceTitle": "LBJ 比價撿便宜歷史價格：ASUS ROG Strix 5K XG27JCG",
-      "evidenceSnippet": "LBJ 的 eclife 良興蝦皮商城 exact-model 歷史曲線在 2026-07-28、08-08、08-28 均記錄 NT$17,800。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-28",
-      "note": "排除 ASUS 授權店 NT$17,500 候選，因同一商品頁混有福利品／已拆封選項；採良興新品 exact-model 歷史。"
+      "converted": 16993,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DSABKB-A900JO7QP",
+      "sourceTitle": "ASUS ROG Strix 5K XG27JCG 原商品頁",
+      "evidenceSnippet": "2026-11-21 PChome DSABKB-A900JO7QP 原商品主區、完整型號／選定版本及可用購買動作已人工核對，API Qty 8；採公開價 NT$16,993。 下單再折可由同頁公開單件／門檻活動與 SKU API 互證，未計入個人券、點數與信用卡回饋。 公開活動至 2026-11-23T08:00:59+08:00。 低於原有同款紀錄。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-11-21",
+      "note": "採同型號同規格可信新品公開價，不含個人券、點數、會員特價與信用卡回饋。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -6609,11 +6616,11 @@
     "name": "31.5 吋 4K Nano Matte 程式設計護眼螢幕（含 MoonHalo）",
     "price": {
       "currency": "TWD",
-      "amount": 19888,
-      "converted": 19888,
+      "amount": 18894,
+      "converted": 18894,
       "basis": "retailer_current",
-      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "Yahoo 原商品主區可下單，公開價 NT$19,888。未扣會員券、點數與信用卡回饋。"
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "Yahoo 原商品主區賣場 11255959 已核對同型號／選定組合、可用購買按鈕與公開價 NT$18,894。公開單件活動至 2026-11-23T07:59:59+08:00。未計入個人券、點數及信用卡回饋。"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/A547B09451-SP-17883815.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=11255959",
@@ -7217,11 +7224,11 @@
   "channel": "tw",
   "price": {
     "currency": "TWD",
-    "amount": 14888,
-    "converted": 14888,
+    "amount": 14143,
+    "converted": 14143,
     "basis": "retailer_current",
-    "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
-    "note": "PChome DSABKB-A900KGP0K 同型新品公開常態 NT$14,888，API Qty 12，可直接購買；Yahoo NT$14,144 屬本日 07:59:59 到期短促。個人券及回饋未計。"
+    "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+    "note": "PChome DSABKB-A900KGP0K 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$14,143。 下單再折可由同頁公開單件／門檻活動及同型號刊登互證，未計入個人券、點數與信用卡回饋。 公開活動至 2026-11-23T08:00:59+08:00。"
   },
   "image": "https://img.pchome.com.tw/cs/items/DSABKBA900KGP0K/000001_1790136338.jpg",
   "buyUrl": "https://24h.pchome.com.tw/prod/DSABKB-A900KGP0K",
@@ -7258,16 +7265,16 @@
   "releaseDate": "找不到",
   "historicalLow": {
     "status": "found",
-    "amount": 14144,
+    "amount": 14143,
     "currency": "TWD",
-    "converted": 14144,
-    "sourceUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=12337045",
-    "sourceTitle": "Yahoo 自營 ROG Strix XG27UCMG 同型公開滿一件95折活動",
-    "evidenceSnippet": "2026-11-15（台灣）保存的 Yahoo 原商品頁，賣場12337045／商品41271885的XG27UCMG，標示InStock、宅配免運與可購買，公開滿1件95折將NT$14,888折為NT$14,144。2026-11-16的原頁快照仍顯示同價及購買按鈕，活動已結束。",
-    "sourceKind": "retailer_promo",
+    "converted": 14143,
+    "sourceUrl": "https://24h.pchome.com.tw/prod/DSABKB-A900KGP0K",
+    "sourceTitle": "ASUS XG27UCMG 原商品頁",
+    "evidenceSnippet": "2026-11-21 PChome DSABKB-A900KGP0K 原商品主區、完整型號／選定版本及可用購買動作已人工核對，API Qty 10；採公開價 NT$14,143。 下單再折可由同頁公開單件／門檻活動與 SKU API 互證，未計入個人券、點數與信用卡回饋。 公開活動至 2026-11-23T08:00:59+08:00。 低於原有同款紀錄。",
+    "sourceKind": "retailer_page",
     "confidence": "medium",
-    "checkedAt": "2026-11-20",
-    "note": "採既有原通路查核日的同型新品公開促銷與庫存佐證；不含個人券、點數或信用卡回饋。可由2026-11-15版目錄永久連結核對當時可購紀錄，非本日現價，也不代表通路全歷史皆完整。"
+    "checkedAt": "2026-11-21",
+    "note": "採同型號同規格可信新品公開價，不含個人券、點數、會員特價與信用卡回饋。"
   },
   "issueResearch": {
     "status": "no_common_issue",

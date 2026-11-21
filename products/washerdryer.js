@@ -649,11 +649,11 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/88F364AB6B-SP-11096810.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 30900,
-      "converted": 30900,
-      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 29811,
+      "converted": 29811,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DPAI1L-A900EP6CY 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$30,900。"
+      "note": "PChome DPAI1L-A900EP6CY 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$29,811。 公開活動至 2026-11-30T23:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -755,11 +755,11 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/1f2a33ce70-Gd-10053955.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 43900,
-      "converted": 43900,
-      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 44910,
+      "converted": 44910,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品主區賣場 10053955 已核對同型號／選定組合、可用購買按鈕與公開價 NT$43,900。未計入個人券、點數及信用卡回饋。"
+      "note": "Yahoo 原商品主區賣場 10053955 已核對同型號／選定組合、可用購買按鈕與公開價 NT$44,910。未計入個人券、點數及信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1393,11 +1393,11 @@
     "image": "https://cs-a.ecimg.tw/items/DPAI1PA900F1KXB/000001_1762877683.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 32900,
-      "converted": 32900,
-      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 35910,
+      "converted": 35910,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DPAI1P-A900F1KXB 原商品主區公開價 NT$32,900，購買按鈕可用，API Qty 2。會員券、點數與卡回饋未計入。"
+      "note": "PChome DPAI1P-A900F1KXB 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$35,910。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1605,10 +1605,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/41046DB844-SP-12334280.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 37260,
-      "converted": 37260,
-      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "Yahoo 原商品主區可下單，公開價 NT$37,260。未扣會員券、點數與信用卡回饋。",
+      "amount": 34652,
+      "converted": 34652,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "Yahoo 原商品主區賣場 10266758 已核對同型號／選定組合、可用購買按鈕與公開價 NT$34,652。公開單件活動至 2026-11-23T07:30:59+08:00。未計入個人券、點數及信用卡回饋。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -2323,8 +2323,8 @@
       "currency": "TWD",
       "amount": 82900,
       "converted": 82900,
-      "confidence": "2026-11-20 核對原商品預購／供貨狀態，保留上次參考價",
-      "note": "完整商品主區配送資訊明示預購，接單後陸續安排出貨、最晚 2026/11/30；金額為先前參考價，實際下單與交期請向通路確認。",
+      "confidence": "2026-11-21 核對原商品預購／供貨狀態，保留上次參考價",
+      "note": "原商品配送主區明示預購；配送資訊；超大材積；PChome 倉庫出貨，本商品不受24h到貨限制；說明；預購；接單後陸續安排出貨，最晚出貨日為 2026/11/30；可宅配到府，滿 $490 起免運；。金額為先前參考價，實際下單與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -2972,11 +2972,11 @@
     "name": "10/7kg i-DOS 智慧聯網洗脫烘",
     "price": {
       "currency": "TWD",
-      "amount": 50000,
-      "converted": 50000,
-      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 46000,
+      "converted": 46000,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品主區可下單，公開價 NT$50,000。未扣會員券、點數與信用卡回饋。"
+      "note": "Yahoo 原商品主區賣場 11546320 已核對同型號／選定組合、可用購買按鈕與公開價 NT$46,000。公開單件活動至 2026-11-23T07:30:59+08:00。未計入個人券、點數及信用卡回饋。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DPAID7A900IHEVX/000001_1776657918.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/BOSCH%E5%8D%9A%E4%B8%96-10-7%E5%85%AC%E6%96%A4%E9%AB%98%E6%95%88%E6%99%BA%E6%85%A7%E6%BB%BE%E7%AD%92%E6%B4%97%E8%84%AB%E7%83%98-%E5%90%AB%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-220V%E6%8B%89%E9%9B%BB-WNC554A0TC-11546320.html",
@@ -3554,11 +3554,11 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 20900,
-      "converted": 20900,
-      "confidence": "2026-11-13 人工核對 PChome exact-model 主頁可加入購物車，商品 API Qty 7，公開價與頁面相符。",
+      "amount": 19011,
+      "converted": 19011,
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome 原廠直營品項公開價 NT$20,900，含基本安裝。PChome 另一同型號品項查核時為 NT$19,011，列基本運送、定位及舊機回收，跨區／偏遠另計，安裝範圍依所選賣場。"
+      "note": "PChome DPAI1G-A900KDERC 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$19,011。 公開活動至 2026-11-30T23:59:59+08:00。"
     },
     "installation": {
       "status": "included_basic",
@@ -3601,16 +3601,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 20900,
+      "amount": 19011,
       "currency": "TWD",
-      "converted": 20900,
-      "sourceUrl": "https://price.shhwa.cc/product/pchome/DPAI1G-A900KDERC",
-      "sourceTitle": "Lowcast 比價趨勢：PChome TOSHIBA 東芝 12.5kg 沖浪洗淨變頻滾筒洗衣機_TWD-T33B135UWTA(WS)",
-      "evidenceSnippet": "Lowcast 同刊登 DPAI1G-A900KDERC 逐日價格於 2026-11-14 收在 NT$20,900。同日 PChome 同 SKU 原商品公開價格相同，API Qty 7。",
-      "sourceKind": "price_history",
+      "converted": 19011,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DPAI1G-A900KDERC",
+      "sourceTitle": "Toshiba TWD-T33B135UWTA(WS) 原商品頁",
+      "evidenceSnippet": "2026-11-21 PChome DPAI1G-A900KDERC 原商品主區、完整型號／選定版本及可用購買動作已人工核對，API Qty 2；採公開價 NT$19,011。 公開活動至 2026-11-30T23:59:59+08:00。 低於原有同款紀錄。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-11-15",
-      "note": "依同型號台灣新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
+      "checkedAt": "2026-11-21",
+      "note": "採同型號同規格可信新品公開價，不含個人券、點數、會員特價與信用卡回饋。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -3659,8 +3659,8 @@
       "amount": 64308,
       "converted": 64308,
       "basis": "retailer_current",
-      "confidence": "PChome 同貨號 DPAI1K-A900JWLH4 原頁主價、可購按鈕與精確 SKU API 核對。",
-      "note": "2026-11-15 PChome 同型左開主價 NT$64,308，網路原價 NT$69,900，公開 11/01–11/30 任一件 92 折活動且頁面可加入購物車；API Qty 9。 不扣信用卡回饋、點數、個人化折價券或贈品價值。"
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "PChome DPAI1K-A900JWLH4 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$64,308。 公開活動至 2026-11-30T23:59:59+08:00。"
     },
     "installation": {
       "status": "not_stated",
@@ -3957,11 +3957,11 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 39999,
-      "converted": 39999,
+      "amount": 39900,
+      "converted": 39900,
       "basis": "retailer_current",
-      "confidence": "全聯全電商 997069 原始主頁公開特價 NT$39,999、同 SKU JSON-LD NewCondition/InStock。",
-      "note": "2026-11-18 查核台灣完整機台含基本安裝及舊機回收，未扣頁面另列優惠、點數或回饋。"
+      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-21 全聯全電商997069同WS-H139WD完整機公開特價NT$39,900，含基本安裝與舊機回收；大型家電專人約配。未另扣再折回饋500元、會員券、信用卡或點數。 全聯全電商997069原頁主價39900、原價54900，主標WS-H139WD且含基本安裝+舊機回收，約配由專人聯絡；Chrome主加車啟用，JSON-LD同SKU NewCondition/InStock。另列再折回饋-500與券不扣入39900。"
     },
     "buyUrl": "https://pxbox.es.pxmart.com.tw/product/997069",
     "buyLabel": "全聯全電商",
