@@ -686,6 +686,9 @@ async function assertIndexNowResponseHandling(expectedCanonicalCount) {
 
 function assertPagesWorkflow(categories) {
   const workflow = read(".github/workflows/pages.yml");
+  const [buildJob, deployJob = ""] = workflow.split("\n  deploy:\n");
+  assert(/^  build:$/m.test(buildJob) && buildJob.includes("uses: actions/upload-pages-artifact@"), "Pages artifact upload must finish in the build job");
+  assert(/^    needs: build$/m.test(deployJob), "Pages deployment must depend on the completed build job");
   const artifactStep = workflow.match(/- name: Prepare Pages artifact([\s\S]*?)(?=\n\s+- name:)/)?.[1] || "";
   assert(artifactStep, "Pages artifact preparation step is missing");
   assert(/\bcategories\b/.test(artifactStep), "Pages artifact should include categories/");
