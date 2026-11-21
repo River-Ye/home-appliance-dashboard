@@ -2431,7 +2431,7 @@
       "converted": 12900,
       "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-21 SharkNinja台灣原商品SFP701TW公開主價NT$12,900，可下單；不另扣訂閱電子報95折券或其他個人化優惠。 原HTML主標SFP701TW及12900、加入購物車；Shopify template suffix=in-stock；同商品唯一variant44018600247338/SFP701TW/1290000分available=true，未改台灣機型或配件組合。訂閱95折需額外領券未扣。"
+      "note": "2026-11-21 SharkNinja台灣原商品SFP701TW公開主價NT$12,900，可下單；不另扣訂閱電子報95折券或其他個人化優惠。"
     },
     "image": "https://sharkninja.tw/cdn/shop/files/1_814ff1dc-2e54-41b6-84b8-bf2af373ecac.jpg?v=1769416258",
     "buyUrl": "https://sharkninja.tw/products/combi-sfp701tw",

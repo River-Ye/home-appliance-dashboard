@@ -2887,7 +2887,7 @@
       "converted": 9388,
       "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-21 環球Online同F-YV20QBH主商品總金額NT$9,388、原價NT$11,600，可宅配並加入購物車；未另扣會員券、信用卡或點數。 環球Online同商品貨號2EC0320950000302/F-YV20QBH主區總金額9388、劃線11600，宅配常溫及主加入購物車啟用；原頁JSON-LD同價InStock。10L/適用13坪型號與原商品相符，沒有改容量。"
+      "note": "2026-11-21 環球Online同F-YV20QBH主商品總金額NT$9,388、原價NT$11,600，可宅配並加入購物車；未另扣會員券、信用卡或點數。"
     },
     "installation": {
       "status": "not_stated",

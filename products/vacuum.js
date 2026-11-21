@@ -1285,7 +1285,7 @@
       "amount": 3280,
       "converted": 3280,
       "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-21 正負零台灣官方XJC-Y011單機白色公開NT$3,280，活動11/20–11/30；白色可購，粉色目前無庫存。未另扣會員券/回饋，未將粉色缺貨推定整型停產。 正負零台灣原頁主區現貨銷售中，原價4990/促銷3280，活動2026.11/20–11/30_Y011單機3280；白色選項可選、粉色明示目前尚無庫存，Chrome主加車啟用。原目錄未鎖色，generic XJC-Y011原商品連結不變，未改套件/代別/電力或圖片。",
+      "note": "2026-11-21 正負零台灣官方XJC-Y011單機白色公開NT$3,280，活動11/20–11/30；白色可購，粉色目前無庫存。未另扣會員券/回饋，未將粉色缺貨推定整型停產。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBE1AA900J8H81/000001_1757576197.jpg",
@@ -2460,7 +2460,7 @@
       "converted": 4199,
       "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-21 Roborock石頭台灣官方同H60/H10A3A單機公開NT$4,199，原價NT$6,488，可下單；未扣首購500元、LINE折扣或另購寵物套組。 原HTML同H60主價4199、selected option同variant62145601503603、data-inventoryquantity=12、data-availability=加入購物車；公開.js同H10A3A單一variant419900分available=true。未採同頁H60Hub Plus/Pro與F25加購寵物套組990元。"
+      "note": "2026-11-21 Roborock石頭台灣官方同H60/H10A3A單機公開NT$4,199，原價NT$6,488，可下單；未扣首購500元、LINE折扣或另購寵物套組。"
     },
     "image": "https://i2.momoshop.com.tw/1781023801/goodsimg/0014/440/294/14440294_R_m.webp",
     "buyUrl": "https://taiwan.roborock.com/products/roborock-h60",

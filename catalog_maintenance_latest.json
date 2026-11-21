@@ -1,7 +1,7 @@
 {
   "schemaVersion": 3,
   "dataDate": "2026-11-21",
-  "checkedAt": "2026-11-21T00:36:23.573Z",
+  "checkedAt": "2026-11-21T00:45:39.938Z",
   "baselineRef": "e51764bdcbe03bac640f1e8d8eb028926971666f",
   "policy": {
     "exactModelOrReviewedSourceBindingOnly": true,
@@ -45738,7 +45738,7 @@
     "carriedEvidence": true
   },
   "manualPriceReview": {
-    "checkedAt": "2026-11-21T00:36:23.573Z",
+    "checkedAt": "2026-11-21T00:45:39.938Z",
     "scope": "original_product_page_and_exact_sku_api",
     "rows": [
       {
@@ -45896,7 +45896,8 @@
         "amount": 3690,
         "evidence": "2026-11-21 IRIS台灣官方同PCF-CDP18TEC新品主價NT$3,690，NT$3,990為原價；主區當日可下單。未另扣會員券、點數或信用卡回饋。 原廠台灣群光IRIS同PCF-CDP18TEC主商品Sale NT$3690、劃線3990；今日原生頁主區明示庫存8件，加入購物車/立即購買皆啟用。排除全站福利良品導覽及其他相關商品。",
         "exactSku": "PCF-CDP18TEC",
-        "availability": "orderable; browser main stock says8"
+        "availability": "orderable; browser main stock says8",
+        "priceNote": "2026-11-21 IRIS台灣官方同PCF-CDP18TEC新品主價NT$3,690，NT$3,990為原價；主區當日可下單。未另扣會員券、點數或信用卡回饋。"
       },
       {
         "id": "dh-panasonic-yv32nn",
@@ -45978,7 +45979,8 @@
         "amount": 9388,
         "evidence": "2026-11-21 環球Online同F-YV20QBH主商品總金額NT$9,388、原價NT$11,600，可宅配並加入購物車；未另扣會員券、信用卡或點數。 環球Online同商品貨號2EC0320950000302/F-YV20QBH主區總金額9388、劃線11600，宅配常溫及主加入購物車啟用；原頁JSON-LD同價InStock。10L/適用13坪型號與原商品相符，沒有改容量。",
         "exactSku": "F-YV20QBH;GlobalMall2EC0320950000302",
-        "availability": "orderable; home delivery"
+        "availability": "orderable; home delivery",
+        "priceNote": "2026-11-21 環球Online同F-YV20QBH主商品總金額NT$9,388、原價NT$11,600，可宅配並加入購物車；未另扣會員券、信用卡或點數。"
       },
       {
         "id": "ap-philips-ac2936",
@@ -46231,7 +46233,8 @@
         "evidence": "2026-11-21 正負零台灣官方XJC-Y011單機白色公開NT$3,280，活動11/20–11/30；白色可購，粉色目前無庫存。未另扣會員券/回饋，未將粉色缺貨推定整型停產。 正負零台灣原頁主區現貨銷售中，原價4990/促銷3280，活動2026.11/20–11/30_Y011單機3280；白色選項可選、粉色明示目前尚無庫存，Chrome主加車啟用。原目錄未鎖色，generic XJC-Y011原商品連結不變，未改套件/代別/電力或圖片。",
         "buyLabel": "正負零台灣官方（白色可購）",
         "exactSku": "XJC-Y011 白（同原選購頁）",
-        "availability": "white variant orderable; pink out of stock"
+        "availability": "white variant orderable; pink out of stock",
+        "priceNote": "2026-11-21 正負零台灣官方XJC-Y011單機白色公開NT$3,280，活動11/20–11/30；白色可購，粉色目前無庫存。未另扣會員券/回饋，未將粉色缺貨推定整型停產。"
       },
       {
         "id": "vacuum-roborock-h60-h10a3a",
@@ -46244,7 +46247,8 @@
         "amount": 4199,
         "evidence": "2026-11-21 Roborock石頭台灣官方同H60/H10A3A單機公開NT$4,199，原價NT$6,488，可下單；未扣首購500元、LINE折扣或另購寵物套組。 原HTML同H60主價4199、selected option同variant62145601503603、data-inventoryquantity=12、data-availability=加入購物車；公開.js同H10A3A單一variant419900分available=true。未採同頁H60Hub Plus/Pro與F25加購寵物套組990元。",
         "exactSku": "H10A3A",
-        "availability": "same SKU orderable; delivery date not independently promised"
+        "availability": "same SKU orderable; delivery date not independently promised",
+        "priceNote": "2026-11-21 Roborock石頭台灣官方同H60/H10A3A單機公開NT$4,199，原價NT$6,488，可下單；未扣首購500元、LINE折扣或另購寵物套組。"
       },
       {
         "id": "washer-lg-wt-td18ob",
@@ -46459,7 +46463,8 @@
         "amount": 39900,
         "evidence": "2026-11-21 全聯全電商997069同WS-H139WD完整機公開特價NT$39,900，含基本安裝與舊機回收；大型家電專人約配。未另扣再折回饋500元、會員券、信用卡或點數。 全聯全電商997069原頁主價39900、原價54900，主標WS-H139WD且含基本安裝+舊機回收，約配由專人聯絡；Chrome主加車啟用，JSON-LD同SKU NewCondition/InStock。另列再折回饋-500與券不扣入39900。",
         "exactSku": "WS-H139WD;PXMart00524086/product997069",
-        "availability": "orderable; appliance delivery appointment, not preorder"
+        "availability": "orderable; appliance delivery appointment, not preorder",
+        "priceNote": "2026-11-21 全聯全電商997069同WS-H139WD完整機公開特價NT$39,900，含基本安裝與舊機回收；大型家電專人約配。未另扣再折回饋500元、會員券、信用卡或點數。"
       },
       {
         "id": "comforter-best-tencel-qfav6za9009hy1d",
@@ -46642,7 +46647,8 @@
         "amount": 36900,
         "evidence": "2026-11-21 飛利浦台灣家電官店EP5547/90星光銀主價NT$36,900，原價NT$49,900；所選主商品可下單，實際交期待確認。贈品依結帳與剩餘數量，未扣回饋或贈品價值；不沿用頁面已過期11/15贈品活動。 原頁主購買區星光銀EP5547/90公開36900、原價49900；productVariantsInfo綁69694817/EP5547/90/36900，purchaseEligibility.required=false/eligible=true，salesModePurchasable=true，主商品Chrome購買CTA啟用；詳細規格仍120V/60Hz、1400W、8kg。",
         "exactSku": "EP5547/90;variant69694817",
-        "availability": "orderable; continue inventory policy means stock count not claimed; ETA confirm"
+        "availability": "orderable; continue inventory policy means stock count not claimed; ETA confirm",
+        "priceNote": "2026-11-21 飛利浦台灣家電官店EP5547/90星光銀主價NT$36,900，原價NT$49,900；所選主商品可下單，實際交期待確認。贈品依結帳與剩餘數量，未扣回饋或贈品價值；不沿用頁面已過期11/15贈品活動。"
       },
       {
         "id": "coffee-delonghi-ecam290-43-sb",
@@ -46655,7 +46661,8 @@
         "amount": 25900,
         "evidence": "2026-11-21 DeLonghi台灣官店同ECAM29043SB主商品NT$25,900、原價NT$37,900，可下單；不採同頁推薦ECAM290.84.SB或加購商品價格，未扣券/點數/回饋。 原頁主商品ECAM29043SB主價25900、原價37900；productVariantsInfo綁50463628/ECAM29043SB/25900/10/deny；免登入可購且Chrome主CTA啟用。同頁290.84.SB為推薦連結，不是採價商品。既有台灣120V/60Hz合格SKU沒有更換。",
         "exactSku": "ECAM29043SB;variant50463628",
-        "availability": "orderable; original same SKU positive quantity, denied oversell"
+        "availability": "orderable; original same SKU positive quantity, denied oversell",
+        "priceNote": "2026-11-21 DeLonghi台灣官店同ECAM29043SB主商品NT$25,900、原價NT$37,900，可下單；不採同頁推薦ECAM290.84.SB或加購商品價格，未扣券/點數/回饋。"
       },
       {
         "id": "coffee-delonghi-em450-m",
@@ -46679,7 +46686,8 @@
         "amount": 27900,
         "evidence": "2026-11-21 stilus A台灣總代理同EC9255MEX2主商品NT$27,900、原價NT$41,900，可下單；未另扣券、點數、回饋或加購配件。 原頁主商品EC9255MEX2公開27900、原價41900；與既有price.note明載的EC9255MEX2相同。productVariantsInfo80712323/EC9255MEX2/27900/10/deny；免登入可購、Chrome主CTA啟用。頁面110V/1150W/9.3kg與在冊相同，沒有改為其他地區版本。",
         "exactSku": "EC9255MEX2;variant80712323",
-        "availability": "orderable; original same SKU positive quantity, denied oversell"
+        "availability": "orderable; original same SKU positive quantity, denied oversell",
+        "priceNote": "2026-11-21 stilus A台灣總代理同EC9255MEX2主商品NT$27,900、原價NT$41,900，可下單；未另扣券、點數、回饋或加購配件。"
       },
       {
         "id": "oven-extra-10-dmbm0g-a900hf91a",
@@ -46734,7 +46742,8 @@
         "amount": 12900,
         "evidence": "2026-11-21 SharkNinja台灣原商品SFP701TW公開主價NT$12,900，可下單；不另扣訂閱電子報95折券或其他個人化優惠。 原HTML主標SFP701TW及12900、加入購物車；Shopify template suffix=in-stock；同商品唯一variant44018600247338/SFP701TW/1290000分available=true，未改台灣機型或配件組合。訂閱95折需額外領券未扣。",
         "exactSku": "SFP701TW",
-        "availability": "same SKU orderable; delivery date not independently promised"
+        "availability": "same SKU orderable; delivery date not independently promised",
+        "priceNote": "2026-11-21 SharkNinja台灣原商品SFP701TW公開主價NT$12,900，可下單；不另扣訂閱電子報95折券或其他個人化優惠。"
       },
       {
         "id": "waterdispenser-everpure-purvive-h300nxt",
@@ -47370,7 +47379,8 @@
         "amount": 9999,
         "evidence": "2026-11-21 SIDIZ台灣官方原連結同黑色T51HLDA0KT-5F6ABK公開價NT$9,999、原價NT$14,999，可下單；實際交期請向通路確認，外島不配送/安裝。未另扣券或回饋。 原連結選定46548627980484黑色，原HTML selected option同ID、主價9999且submit可用，公開.js同SKU999900分/available=true。已缺貨一旦有貨出貨文案位於class=backorder hidden的備用模板，不作當前可見缺貨宣告；沒有宣稱庫存件數或即時現貨。",
         "exactSku": "T51HLDA0KT-5F6ABK",
-        "availability": "same SKU orderable; delivery date not independently promised"
+        "availability": "same SKU orderable; delivery date not independently promised",
+        "priceNote": "2026-11-21 SIDIZ台灣官方原連結同黑色T51HLDA0KT-5F6ABK公開價NT$9,999、原價NT$14,999，可下單；實際交期請向通路確認，外島不配送/安裝。未另扣券或回饋。"
       },
       {
         "id": "chair-sidiz-t50-air-2nd",
@@ -47383,7 +47393,8 @@
         "amount": 10999,
         "evidence": "2026-11-21 SIDIZ台灣官方原連結同黑色T53HLDA0KT-5H6BBK公開價NT$10,999、原價NT$15,999，可下單；實際交期請向通路確認，外島不配送/安裝。未另扣券或回饋。 原連結選定46552049778884黑色，原HTML selected option同ID、主價10999且submit可用，公開.js同SKU1099900分/available=true。已缺貨一旦有貨出貨文案位於class=backorder hidden備用模板，沒有當當前缺貨或現貨件數判斷。",
         "exactSku": "T53HLDA0KT-5H6BBK",
-        "availability": "same SKU orderable; delivery date not independently promised"
+        "availability": "same SKU orderable; delivery date not independently promised",
+        "priceNote": "2026-11-21 SIDIZ台灣官方原連結同黑色T53HLDA0KT-5H6BBK公開價NT$10,999、原價NT$15,999，可下單；實際交期請向通路確認，外島不配送/安裝。未另扣券或回饋。"
       },
       {
         "id": "monitor-samsung-g5-s27fg532",
@@ -47802,7 +47813,8 @@
             "AA供電免充電等待，USB接收器可收納",
             "HERO感應器、六鍵自訂及1000Hz規格完整"
           ]
-        }
+        },
+        "priceNote": "2026-11-21 Logi網路旗艦店原選定G304白色910-005294公開NT$990、原價NT$1,090，可下單；未扣會員券/回饋，未改其他配色版本。"
       },
       {
         "id": "mouse-logitech-mx-master-4",
@@ -47828,7 +47840,8 @@
         "amount": 990,
         "evidence": "2026-11-21 Logi網路旗艦店同K380S石墨灰中文920-011745公開Sale NT$990、原價NT$1,090，可下單；未扣券、信用卡或點數。 原頁主區920-011745石墨灰Sale990/劃線1090，加入購物車；公開同產品.js的variant40721802330135/920-011745為99000分availabletrue。既有名稱固定石墨灰中文注音，沒有套用其他色/語言/套裝價。",
         "exactSku": "920-011745",
-        "availability": "sameSKU orderable; actual delivery time follows store policy"
+        "availability": "sameSKU orderable; actual delivery time follows store policy",
+        "priceNote": "2026-11-21 Logi網路旗艦店同K380S石墨灰中文920-011745公開Sale NT$990、原價NT$1,090，可下單；未扣券、信用卡或點數。"
       },
       {
         "id": "keyboard-logitech-mx-keys-s",
@@ -47873,7 +47886,8 @@
         "buyLabel": "Logi 台灣官方旗艦店",
         "productPatch": {
           "recommendation": "人體工學辦公推薦：包含Bolt接收器及三機切換。先確認弧形配列、腕托邊緣與桌面高度適合手型；不是醫療矯正設備，鍵感也不是機械軸。"
-        }
+        },
+        "priceNote": "2026-11-21 Logi網路旗艦店同石墨黑中文920-012313主商品Sale公開NT$1,890、原價NT$2,490，可下單；未扣會員券、信用卡、點數或加購價。"
       },
       {
         "id": "mousepad-logitech-desk-mat-studio",
@@ -47893,7 +47907,7 @@
     ]
   },
   "reviewScope": {
-    "checkedAt": "2026-11-21T00:36:23.573Z",
+    "checkedAt": "2026-11-21T00:45:39.938Z",
     "completePerExistingModelSuccessorMapping": false,
     "fullGenerationResearchComplete": false,
     "japaneseBrandBoundaryCells": 333,

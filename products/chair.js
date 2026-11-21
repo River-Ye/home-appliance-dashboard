@@ -2775,7 +2775,7 @@
       "converted": 9999,
       "basis": "retailer_current",
       "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-21 SIDIZ台灣官方原連結同黑色T51HLDA0KT-5F6ABK公開價NT$9,999、原價NT$14,999，可下單；實際交期請向通路確認，外島不配送/安裝。未另扣券或回饋。 原連結選定46548627980484黑色，原HTML selected option同ID、主價9999且submit可用，公開.js同SKU999900分/available=true。已缺貨一旦有貨出貨文案位於class=backorder hidden的備用模板，不作當前可見缺貨宣告；沒有宣稱庫存件數或即時現貨。"
+      "note": "2026-11-21 SIDIZ台灣官方原連結同黑色T51HLDA0KT-5F6ABK公開價NT$9,999、原價NT$14,999，可下單；實際交期請向通路確認，外島不配送/安裝。未另扣券或回饋。"
     },
     "installation": {
       "status": "not_stated",
@@ -2869,7 +2869,7 @@
       "converted": 10999,
       "basis": "retailer_current",
       "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-21 SIDIZ台灣官方原連結同黑色T53HLDA0KT-5H6BBK公開價NT$10,999、原價NT$15,999，可下單；實際交期請向通路確認，外島不配送/安裝。未另扣券或回饋。 原連結選定46552049778884黑色，原HTML selected option同ID、主價10999且submit可用，公開.js同SKU1099900分/available=true。已缺貨一旦有貨出貨文案位於class=backorder hidden備用模板，沒有當當前缺貨或現貨件數判斷。"
+      "note": "2026-11-21 SIDIZ台灣官方原連結同黑色T53HLDA0KT-5H6BBK公開價NT$10,999、原價NT$15,999，可下單；實際交期請向通路確認，外島不配送/安裝。未另扣券或回饋。"
     },
     "installation": {
       "status": "not_stated",

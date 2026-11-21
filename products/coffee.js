@@ -559,7 +559,7 @@
       "converted": 36900,
       "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-21 飛利浦台灣家電官店EP5547/90星光銀主價NT$36,900，原價NT$49,900；所選主商品可下單，實際交期待確認。贈品依結帳與剩餘數量，未扣回饋或贈品價值；不沿用頁面已過期11/15贈品活動。 原頁主購買區星光銀EP5547/90公開36900、原價49900；productVariantsInfo綁69694817/EP5547/90/36900，purchaseEligibility.required=false/eligible=true，salesModePurchasable=true，主商品Chrome購買CTA啟用；詳細規格仍120V/60Hz、1400W、8kg。"
+      "note": "2026-11-21 飛利浦台灣家電官店EP5547/90星光銀主價NT$36,900，原價NT$49,900；所選主商品可下單，實際交期待確認。贈品依結帳與剩餘數量，未扣回饋或贈品價值；不沿用頁面已過期11/15贈品活動。"
     },
     "image": "https://images.philips.com/is/image/philipsconsumer/vrs_8236e6d7_84b6_4a40_a27587047fae427e?$pnglarge$",
     "buyUrl": "https://www.philips-da.com.tw/products/ep554790",
@@ -668,7 +668,7 @@
       "converted": 25900,
       "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-21 DeLonghi台灣官店同ECAM29043SB主商品NT$25,900、原價NT$37,900，可下單；不採同頁推薦ECAM290.84.SB或加購商品價格，未扣券/點數/回饋。 原頁主商品ECAM29043SB主價25900、原價37900；productVariantsInfo綁50463628/ECAM29043SB/25900/10/deny；免登入可購且Chrome主CTA啟用。同頁290.84.SB為推薦連結，不是採價商品。既有台灣120V/60Hz合格SKU沒有更換。"
+      "note": "2026-11-21 DeLonghi台灣官店同ECAM29043SB主商品NT$25,900、原價NT$37,900，可下單；不採同頁推薦ECAM290.84.SB或加購商品價格，未扣券/點數/回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAT03A900GX8R8/000007_1700470715.jpg",
     "buyUrl": "https://www.idelonghi.com.tw/ja/products/ecam29043",
@@ -2174,7 +2174,7 @@
       "converted": 27900,
       "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-21 stilus A台灣總代理同EC9255MEX2主商品NT$27,900、原價NT$41,900，可下單；未另扣券、點數、回饋或加購配件。 原頁主商品EC9255MEX2公開27900、原價41900；與既有price.note明載的EC9255MEX2相同。productVariantsInfo80712323/EC9255MEX2/27900/10/deny；免登入可購、Chrome主CTA啟用。頁面110V/1150W/9.3kg與在冊相同，沒有改為其他地區版本。"
+      "note": "2026-11-21 stilus A台灣總代理同EC9255MEX2主商品NT$27,900、原價NT$41,900，可下單；未另扣券、點數、回饋或加購配件。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAT03A900K4F0K/000007_1781601666.jpg",
     "buyUrl": "https://www.stilusa.com.tw/zh-TW/products/ec9255m",
