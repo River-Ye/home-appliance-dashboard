@@ -1,7 +1,7 @@
 {
   "schemaVersion": 3,
   "dataDate": "2026-11-21",
-  "checkedAt": "2026-11-21T00:06:19.289Z",
+  "checkedAt": "2026-11-21T00:36:23.573Z",
   "baselineRef": "e51764bdcbe03bac640f1e8d8eb028926971666f",
   "policy": {
     "exactModelOrReviewedSourceBindingOnly": true,
@@ -45738,7 +45738,7 @@
     "carriedEvidence": true
   },
   "manualPriceReview": {
-    "checkedAt": "2026-11-21T00:06:19.289Z",
+    "checkedAt": "2026-11-21T00:36:23.573Z",
     "scope": "original_product_page_and_exact_sku_api",
     "rows": [
       {
@@ -47884,7 +47884,7 @@
         "httpStatus": 200,
         "status": "verified_available",
         "amount": 499,
-        "evidence": "今日原商品HTML與公開同商品Shopify JSON皆HTTP200，所選SKU可售且價格相同，解除本輪429來源限制。玫瑰粉956-000045原先來源待確認註記可改為已確認可購；滿2000免運門檻仍適用。 exact SKU 956-000045／玫瑰粉，公開價NT$499，未扣個人券、點數或信用卡回饋。",
+        "evidence": "2026-11-21 Logitech 台灣官方商城玫瑰粉 956-000045 公開價NT$499，可下單；官店滿NT$2,000免運，實際運費依結帳。未扣會員券、點數或信用卡回饋。",
         "apiSourceUrl": "https://store.logitech.tw/collections/%E6%BB%91%E9%BC%A0%E5%A2%8A%E5%92%8C%E6%A1%8C%E5%A2%8A/products/deskmat.js",
         "exactSku": "956-000045",
         "buyLabel": "Logitech 台灣官方商城（玫瑰粉）",
@@ -47893,7 +47893,7 @@
     ]
   },
   "reviewScope": {
-    "checkedAt": "2026-11-21T00:06:19.289Z",
+    "checkedAt": "2026-11-21T00:36:23.573Z",
     "completePerExistingModelSuccessorMapping": false,
     "fullGenerationResearchComplete": false,
     "japaneseBrandBoundaryCells": 333,
