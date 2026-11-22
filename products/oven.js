@@ -19,9 +19,9 @@
       "currency": "TWD",
       "amount": 13992,
       "converted": 13992,
-      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMBJ02-A900IXECX 原商品主區公開價 NT$13,992，購買按鈕可用，API Qty 8，商品主區活動 11/17 至 11/30。會員券、點數與卡回饋未計入。"
+      "note": "2026-11-22 PChome 同NN-BS607公開價NT$13,992，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ02A900G62BM/000001_1756899692.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ02-A900IXECX",
@@ -714,8 +714,8 @@
       "currency": "TWD",
       "amount": 29610,
       "converted": 29610,
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
-      "note": "PChome 原頁 DMBJ02-A900FP6N8 主標同型 Panasonic NN-BS1700，加入購物車及立即購買按鈕啟用，API Qty 2、公開折扣價 NT$29,610，網路價 NT$32,900。",
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-22 PChome 同NN-BS1700公開價NT$29,610，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ7P1900HCI3E/000001_1782972848.jpg",

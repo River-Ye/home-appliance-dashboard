@@ -222,9 +222,9 @@
       "currency": "TWD",
       "amount": 1510,
       "converted": 1510,
-      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-10-31 VICTORINOX Swiss Classic黑6.8503.17B主商品1510，10/30–11/03單件95折，網路1590；預計11/02出貨。"
+      "note": "2026-11-22 PChome 同Swiss Classic 三德刀公開價NT$1,510，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -325,9 +325,9 @@
       "currency": "TWD",
       "amount": 729,
       "converted": 729,
-      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DEAGRW-A900JUUQL 原商品主區公開價 NT$729，購買按鈕可用，API Qty 2，商品主區活動 11/16 至 11/30。會員券、點數與卡回饋未計入。"
+      "note": "2026-11-22 PChome 同關孫六若竹 16.5cm公開價NT$729，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -429,9 +429,9 @@
       "currency": "TWD",
       "amount": 2166,
       "converted": 2166,
-      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-10-31 京瓷陶瓷廚房三件組主商品2166，10/30–11/03單件95折，網路2280；不採相關磨刀器/刀套，預計11/02出貨。"
+      "note": "2026-11-22 PChome 同陶瓷刀具廚房三件組公開價NT$2,166，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -940,9 +940,9 @@
       "currency": "TWD",
       "amount": 1539,
       "converted": 1539,
-      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DEAGRW-A900GMT17 原商品主區公開價 NT$1,539，購買按鈕可用，API Qty 20，商品主區活動 11/16 至 11/30。會員券、點數與卡回饋未計入。"
+      "note": "2026-11-22 PChome 同關孫六槌目紋 18cm公開價NT$1,539，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1147,9 +1147,9 @@
       "currency": "TWD",
       "amount": 1104,
       "converted": 1104,
-      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-10-31 VICTORINOX楓木5.2000.15主商品1104，10/30–11/03單件95折，網路1163；預計11/02出貨。"
+      "note": "2026-11-22 PChome 同5.2000.15公開價NT$1,104，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "PChome",

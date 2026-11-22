@@ -40,8 +40,8 @@
       "amount": 4290,
       "converted": 4290,
       "basis": "retailer_current",
-      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DSABP4-A900HGJLQ 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$4,290。"
+      "confidence": "2026-11-22 核對原商品供貨狀態，保留上次參考價",
+      "note": "2026-11-22 原同款刊登顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "installation": {
       "status": "not_stated",
@@ -49,7 +49,7 @@
     },
     "image": "https://image.benq.com/is/image/benqco/screenbar-pro-black-01?$ResponsivePreset$&fmt=png-alpha",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABP4-A900HGJLQ",
-    "buyLabel": "PChome 24h 太空黑新品",
+    "buyLabel": "PChome（原刊登已售完，查看供貨）",
     "specs": [
       "類型：桌機螢幕掛燈",
       "配光：ASYM-Light 非對稱前向桌面照明",

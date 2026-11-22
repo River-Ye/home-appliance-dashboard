@@ -223,9 +223,9 @@
       "currency": "TWD",
       "amount": 1147,
       "converted": 1147,
-      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DEAWMW-A900JMZB6 原商品主區公開價 NT$1,147，購買按鈕可用，API Qty 4，商品主區活動 11/16 至 11/30。會員券、點數與卡回饋未計入。"
+      "note": "2026-11-22 PChome 同KFM-030D-R 30cm公開價NT$1,147，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -327,7 +327,9 @@
       "currency": "TWD",
       "amount": 2555,
       "converted": 2555,
-      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
+      "basis": "retailer_current",
+      "note": "2026-11-22 PChome 同Durado 24cm公開價NT$2,555，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -428,9 +430,9 @@
       "currency": "TWD",
       "amount": 2041,
       "converted": 2041,
-      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DEAWN3-A900JSN52 原商品主區公開價 NT$2,041，購買按鈕可用，API Qty 8，商品主區活動 11/16 至 11/30。會員券、點數與卡回饋未計入。"
+      "note": "2026-11-22 PChome 同Cianmic 28cm公開價NT$2,041，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -531,7 +533,9 @@
       "currency": "TWD",
       "amount": 3021,
       "converted": 3021,
-      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
+      "basis": "retailer_current",
+      "note": "2026-11-22 PChome 同Joy Plus 24cm公開價NT$3,021，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1250,9 +1254,9 @@
       "currency": "TWD",
       "amount": 6118,
       "converted": 6118,
-      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-10-31 Titan雙耳附蓋28cm主商品6118，10/30–11/03單件95折，網路6440；可購預計11/02出貨。"
+      "note": "2026-11-22 PChome 同Titan 28cm公開價NT$6,118，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1353,9 +1357,9 @@
       "currency": "TWD",
       "amount": 1415,
       "converted": 1415,
-      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DEAWGA-A900B4V1I 原商品主區公開價 NT$1,415，購買按鈕可用，API Qty 19，商品主區活動 11/16 至 11/30。會員券、點數與卡回饋未計入。"
+      "note": "2026-11-22 PChome 同OG-42BK公開價NT$1,415，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "PChome",

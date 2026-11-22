@@ -19,9 +19,9 @@
       "currency": "TWD",
       "amount": 52900,
       "converted": 52900,
-      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DPADYE-A900JC4MY 原商品主區公開價 NT$52,900，購買按鈕可用，API Qty 20，商品主區活動 11/17 至 11/30。會員券、點數與卡回饋未計入。"
+      "note": "2026-11-22 PChome 同OLED65C5PTA公開價NT$52,900，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADYE1900JG394/000001_1762971547.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADYE-A900JC4MY",
@@ -324,11 +324,11 @@
     "name": "65 型 OLED evo C6 4K 智慧顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 69900,
-      "converted": 69900,
-      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
+      "amount": 74900,
+      "converted": 74900,
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-02 LG原exact型號schema出現65600但本輪正文主價未呈現；未確認是否與所選主購買區相符，保留69900舊參考價。"
+      "note": "2026-11-22 LG台灣官方同OLED65C6PTA 65吋主商品公開NT$74,900，原價NT$84,900，可下單；未另扣會員券或回饋，配送安裝條件依通路。"
     },
     "image": "https://i6.momoshop.com.tw/1781278602/goodsimg/TP000/9148/0000/554/TP00091480000554_L.webp",
     "buyUrl": "https://www.lg.com/tw/tv-soundbars/oled-evo/oled65c6pta/",
@@ -535,9 +535,9 @@
       "currency": "TWD",
       "amount": 102900,
       "converted": 102900,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-01 人工逐筆核對PChome原產品API：(P幣回饋) SAMSUNG 三星 65吋 QA65S95HAXXZW OLED 4K Vision AI 智慧顯示器；Price.Low=102900元，Qty=1，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
+      "note": "2026-11-22 PChome 同QA65S95HAXXZW公開價NT$102,900，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DPADO2A900K6OWZ/000001_1783614430.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADO2-A900K6OWZ",
@@ -1043,13 +1043,13 @@
       "currency": "TWD",
       "amount": 79900,
       "converted": 79900,
-      "confidence": "2026-11-21 核對原商品預購／供貨狀態，保留上次參考價",
-      "note": "原商品配送主區明示預購；配送資訊；廠商出貨；本商品不受24h到貨限制；預購；預計出貨日 2026/11/24 - 2026/11/26；可宅配到府；。金額為先前參考價，實際下單與交期請向通路確認。",
+      "confidence": "2026-11-22 核對原商品供貨狀態，保留上次參考價",
+      "note": "2026-11-22 原商品頁仍為預購，預計2026/11/25 - 2026/11/27出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADIKA900HJGF2/000001_1782900149.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900HNTKI",
-    "buyLabel": "PChome 24h 購物（預購 11/16–11/18 出貨）",
+    "buyLabel": "PChome（預購／交期待確認）",
     "specs": [
       "尺寸：不含底座 寬 144.4 x 深 6.8 x 高 83 cm；含底座 寬 144.4 x 深 28 x 高 89.6 cm",
       "重量：不含底座 23 kg；含底座 28 kg",
@@ -2061,13 +2061,13 @@
       "currency": "TWD",
       "amount": 21500,
       "converted": 21500,
-      "confidence": "2026-11-21 核對原商品預購／供貨狀態，保留上次參考價",
-      "note": "原商品配送主區明示預購；配送資訊；廠商出貨；本商品不受24h到貨限制；預購；預計出貨日 2026/11/24 - 2026/11/26；可宅配到府；。金額為先前參考價，實際下單與交期請向通路確認。",
+      "confidence": "2026-11-22 核對原商品供貨狀態，保留上次參考價",
+      "note": "2026-11-22 原商品頁仍為預購，預計2026/11/25 - 2026/11/27出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD0WA900I9LNS/000001_1769648262.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900IFXK7",
-    "buyLabel": "PChome 24h 購物（預購 11/16–11/18 出貨）",
+    "buyLabel": "PChome（預購／交期待確認）",
     "specs": [
       "尺寸：不含底座 寬 144.53 x 深 9.17 x 高 83.19 cm；含底座 寬 144.53 x 深 30.09 x 高 89.47 cm",
       "重量：查不到",
@@ -3622,7 +3622,7 @@
       "status": "included_basic",
       "note": "Sony Store exact-model 頁連到全系列電視精緻安裝說明，包含專人約送、開箱定位、隨附配件安裝／連接、頻道設定、功能測試、操作說明、包材與舊機回收；不含壁掛等特殊安裝方式。"
     },
-    "image": "https://store.sony.com.tw/resource/product_files/Y-65XR80M2/Y-65XR80M2_pi.jpg",
+    "image": "https://sony.scene7.com/is/image/sonyglobalsolutions/TVFY25_BRAVIA8II_Primary_image?$primaryshotPreset$&fmt=png-alpha",
     "buyUrl": "https://store.sony.com.tw/product/Y-65XR80M2",
     "buyLabel": "Sony Store 台灣官方購物網站",
     "specs": [
@@ -3722,7 +3722,7 @@
       "status": "not_stated",
       "note": "Sony Store exact-model 頁未在商品主頁明示本款安裝內容；桌上擺放、壁掛、特殊牆面與舊機回收範圍應於下單前確認。"
     },
-    "image": "https://store.sony.com.tw/resource/product_files/Y-65XR70M2/Y-65XR70M2_pis.jpg",
+    "image": "https://sony.scene7.com/is/image/sonyglobalsolutions/TVFY26_B7II_Primary_image?$primaryshotPreset$&fmt=png-alpha",
     "buyUrl": "https://store.sony.com.tw/product/Y-65XR70M2",
     "buyLabel": "Sony Store 台灣官方購物網站",
     "specs": [

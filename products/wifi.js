@@ -114,10 +114,10 @@
     "name": "BE5000 雙頻 Wi-Fi 7 真 Mesh 網狀路由器二入組",
     "price": {
       "currency": "TWD",
-      "amount": 5699,
-      "converted": 5699,
-      "confidence": "PChome 2026-07-11 API 查核價",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。",
+      "amount": 5299,
+      "converted": 5299,
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-22 PChome 同Deco BE25 2入公開價NT$5,299，未另扣個人券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBC1TA900I6ACS/000001_1771826403.jpg",
@@ -611,9 +611,9 @@
       "currency": "TWD",
       "amount": 11663,
       "converted": 11663,
-      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DRAFJA-A900JG5AK 原商品主區公開價 NT$11,663，購買按鈕可用，API Qty 13，商品主區活動 11/16 至 11/30。會員券、點數與卡回饋未計入。"
+      "note": "2026-11-22 PChome 同Orbi RBE373公開價NT$11,663，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJAA900JG5AK/000001_1763014538.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJA-A900JG5AK",
@@ -2760,9 +2760,9 @@
       "currency": "TWD",
       "amount": 3695,
       "converted": 3695,
-      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DRAFJA-A900JUQYP 原商品主區公開價 NT$3,695，購買按鈕可用，API Qty 20，商品主區活動 11/16 至 11/30。會員券、點數與卡回饋未計入。"
+      "note": "2026-11-22 PChome 同Nighthawk RS100公開價NT$3,695，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJAA900JUQYP/000001_1774520642.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJA-A900JUQYP",
@@ -5200,12 +5200,12 @@
       "amount": 8484,
       "converted": 8484,
       "basis": "retailer_current",
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-11-04 午後人工覆核：UniFi台灣所選單台原生主頁基價7699，營業稅及強制附加費後總額8484TWD，加入購物車可用；不採未含強制費用的schema基價。"
+      "confidence": "2026-11-22 核對原商品供貨或版本邊界，保留上次參考價",
+      "note": "2026-11-22 UniFi台灣官方原選黑色U7-Pro-XG-B目前售罄，頁面預計11月26日補貨；本卡NT$8,484為原含營業稅及強制附加費參考，未採NT$7,699未含費基價，實際供貨請向通路確認。"
     },
     "image": "https://cdn.ecomm.ui.com/products/a433b9e5-4dd1-4784-adf8-9d12bcba4c87/45a6a9f0-1596-46f3-bebd-9f98c0dfde21.png",
     "buyUrl": "https://tw.store.ui.com/tw/zh-tw/products/u7-pro-xg?variant=u7-pro-xg-b",
-    "buyLabel": "Ubiquiti 台灣官方商店",
+    "buyLabel": "Ubiquiti 台灣官方商店（黑色缺貨／預計11月26日補貨）",
     "installation": {
       "status": "excluded",
       "note": "AP 單台與 Lite Mount 安裝板；PoE 供電器／交換器、Gateway、網路線、控制器主機及現場配線安裝另計。"

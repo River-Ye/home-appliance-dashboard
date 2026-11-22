@@ -681,11 +681,11 @@
     "name": "LG Styler Smart Steam Closet Mirror with HandySteamer",
     "price": {
       "currency": "USD",
-      "amount": 2199,
-      "converted": 72538,
-      "confidence": "2026-08-31 人工核對 LG 美國官網 SC5GMR80H 公開可購主價 USD 2,199；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-11-20 匯率換算",
+      "amount": 1999,
+      "converted": 65940,
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件；ExchangeRate-API 2026-11-20 匯率換算",
       "basis": "retailer_current",
-      "note": "2026-11-04 午後人工覆核：LG美國SC5GMR80H原生頁標題區USD1999/折800，但實際Review your selections與Selection Total仍USD2199/折600；主商品Add to Cart啟用、90210預估11/9送達，和原HTML OutOfStock互相矛盾。保留2199舊參考價，價格與供貨待確認；不取較低headline當選定可購價。未含國際運費、進口稅、電壓/插頭與台灣保固風險。"
+      "note": "2026-11-22 LG美國官方同SC5GMR80H公開US$1,999，原頁所示美國90210地區可下單；未含國際運費、進口稅、電壓／插頭與台灣保固風險，延保、安裝及搬運加購另計，台灣運送與交期未確認。"
     },
     "image": "https://media.us.lg.com/transform/ecomm-PDPGallery-1100x730/80ff5e54-eada-4b61-a822-7b8e27555153/Styler-SC5GMR80H-gallery-01_5000x5000?io=transform:fill,width:1024",
     "buyUrl": "https://www.lg.com/us/washers-dryers/lg-sc5gmr80h-styler-steam-closet",

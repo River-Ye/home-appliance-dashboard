@@ -1,21 +1,21 @@
 {
   "summary": {
-    "checkedAt": "2026-11-19T23:39:07.703Z",
-    "total": 1285,
+    "checkedAt": "2026-11-22",
+    "total": 1286,
     "researchedThisRun": 1,
-    "found": 376,
+    "found": 377,
     "missing": 909,
     "byConfidence": {
       "official": 190,
       "not_found": 906,
       "retailer_explicit": 26,
       "credible_article": 52,
-      "high": 84,
+      "high": 85,
       "medium": 24,
       "unknown": 3
     },
     "sourcePolicy": "本輪僅新增/身份更正商品完成獨立上市日研究；既有逐筆證據及實際查核日期保留，不將來源維護範圍當成重新人工研究。",
-    "scopeNote": "2026-11-20 僅新增型號完成上市查核；既有逐筆證據保留原查核日期。"
+    "scopeNote": "2026-11-22 僅新增Mobi Fold完成獨立上市查核；既有逐筆證據保留原查核日期。"
   },
   "results": [
     {
@@ -39580,6 +39580,40 @@
           "url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2157268.html",
           "title": "日本 FK1-DW / ZA12-DW 發售報導",
           "outcome": "日本通路發售，非台灣日期。"
+        }
+      ]
+    },
+    {
+      "id": "mouse-logitech-mobi-fold",
+      "category": "mouse",
+      "brand": "Logitech",
+      "model": "Mobi Fold",
+      "name": "Mobi Fold 珍珠白 910-007634 無線折疊滑鼠（不附接收器）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2026-06-12",
+      "sourceUrl": "https://corp.pchome.tw/%E7%BE%85%E6%8A%80-%E9%9B%BB%E5%95%86%E9%80%9A%E8%B7%AF%E9%A6%96%E7%99%BC%E9%96%8B%E8%B3%A3-mobi-%E7%84%A1%E7%B7%9A%E6%91%BA%E7%96%8A%E6%BB%91%E9%BC%A0/",
+      "sourceTitle": "PChome 24h購物攜手羅技 電商通路首發開賣 Mobi 無線摺疊滑鼠",
+      "evidenceSnippet": "PChome官方首發公告明示於6月12日開賣Mobi，三款配色包含珍珠白；頁面日期2026-06-12，並非以文章日期推測。",
+      "confidence": "high",
+      "sourceKind": "official_launch",
+      "reason": "台灣首發零售商第一手開賣公告，品牌台灣型號頁交叉確認910-007634珍珠白。",
+      "query": "\"Mobi Fold\" 台灣 首發 開賣",
+      "auditQueries": [
+        "\"Mobi Fold\" 台灣 首發 開賣",
+        "\"Mobi\" \"910-007634\" 上市"
+      ],
+      "checkedAt": "2026-11-22",
+      "auditDisposition": "confirmed",
+      "checkedSources": [
+        {
+          "url": "https://corp.pchome.tw/%E7%BE%85%E6%8A%80-%E9%9B%BB%E5%95%86%E9%80%9A%E8%B7%AF%E9%A6%96%E7%99%BC%E9%96%8B%E8%B3%A3-mobi-%E7%84%A1%E7%B7%9A%E6%91%BA%E7%96%8A%E6%BB%91%E9%BC%A0/",
+          "title": "PChome集團Mobi首發開賣公告",
+          "outcome": "明示2026-06-12台灣開賣，包含珍珠白。"
+        },
+        {
+          "url": "https://www.logitech.com/zh-tw/shop/p/mobi-fold-mouse.910-007634",
+          "title": "Logitech台灣Mobi Fold珍珠白910-007634",
+          "outcome": "確認台灣consumer型號與顏色，產品頁本身沒有日期。"
         }
       ]
     }

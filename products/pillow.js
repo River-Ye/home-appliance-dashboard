@@ -638,7 +638,14 @@
 
   {
     const product = products.find(({ id }) => id === "pillow-emma-black-diamond");
-    product.price.note = "2026-11-04 原官方頁已顯示40×70cm雙入買一送一總價5599元（每顆均價2799.50），未見單入版本可選；原3199元單入價保留為先前參考，不能以雙入總價或均價當單入可購價。";
+    Object.assign(product.price, {
+      "currency": "TWD",
+      "amount": 3199,
+      "converted": 3199,
+      "basis": "retailer_current",
+      "confidence": "2026-11-22 核對原商品供貨或版本邊界，保留上次參考價",
+      "note": "2026-11-22 Emma原官方頁目前只提供40×70cm雙入買一送一總價NT$5,599（每顆均價NT$2,799.50），未見單入版本可選；本卡NT$3,199保留為單顆先前參考，不能以雙入總價或均價當單入現價。"
+    });
     product.buyLabel = "Emma 台灣官方（原頁改為雙入，單入價待確認）";
   }
 

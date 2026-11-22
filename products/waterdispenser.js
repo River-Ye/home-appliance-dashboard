@@ -544,9 +544,9 @@
       "currency": "TWD",
       "amount": 17550,
       "converted": 17550,
-      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome QFAX6B-A9009Y2C3 原商品主區公開價 NT$17,550，購買按鈕可用，API Qty 17，商品主區活動 11/18 至 11/30。會員券、點數與卡回饋未計入。 活動 PR26111800146698（任選1件享9折）至 2026-11-30T23:59:59+08:00。"
+      "note": "2026-11-22 PChome 同Slim 3公開價NT$17,550，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-23T07:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -958,9 +958,9 @@
       "currency": "TWD",
       "amount": 24120,
       "converted": 24120,
-      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome QFAX6B-A9009Y2E9 原商品主區公開價 NT$24,120，購買按鈕可用，API Qty 19，商品主區活動 11/18 至 11/30。會員券、點數與卡回饋未計入。 活動 PR26111800146698（任選1件享9折）至 2026-11-30T23:59:59+08:00。"
+      "note": "2026-11-22 PChome 同Slim RO DF公開價NT$24,120，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-23T07:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1881,8 +1881,8 @@
       "currency": "TWD",
       "amount": 33129,
       "converted": 33129,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
-      "note": "PChome 原商品主區及 SKU DMCI0O-A900JI1JA 公開折扣價 NT$33,129，頁列活動 11/13 至 11/16。API Qty 2，以通路配送、安裝條件為準。",
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-22 PChome 同P0531公開價NT$33,129，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-23T07:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMCI0OA900JT66N/000001_1773306819.png",
@@ -2777,10 +2777,11 @@
     "name": "PuriCare 淨水 Bar 廚下型冰溫熱飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 42900,
-      "converted": 42900,
-      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-13 LG 台灣直接商品頁原始與 Chrome 均回 403，較早官方推薦文案為 NT$42,900／44,900；怡沃拉 NT$44,900 原頁未核到可下單，賈維斯舊頁 404。 金額保留為先前參考價。"
+      "amount": 44900,
+      "converted": 44900,
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-22 LG台灣官方同WU525BS冰溫熱飲水機主商品公開NT$44,900，原價NT$49,900，可下單；未扣個人券、點數或信用卡回饋，安裝條件依通路。",
+      "basis": "retailer_current"
     },
     "image": "https://img.shoplineapp.com/media/image_clips/6a804134b3229c7ed3e5b867/original.jpg?1786790196=&owner_id=68a29a8bdcaaa0001d99fdb7",
     "buyUrl": "https://www.lg.com/tw/water-purifier/all-water-purifier/wu525bs/",

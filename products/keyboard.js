@@ -49,7 +49,7 @@
       "status": "not_stated",
       "note": "USB有線周邊，不涉及到府施工；原頁未列安裝服務，先確認Windows相容性與USB連接。"
     },
-    "image": "https://store.sony.com.tw/resource/file/product_files/KBD-G900-B/01_f1d911817.jpg",
+    "image": "https://sony.scene7.com/is/image/sonyglobalsolutions/GG25_KBD-G900_Primary_image?$primaryshotPreset$&fmt=png-alpha",
     "buyUrl": "https://store.sony.com.tw/product/KBD-G900/B",
     "buyLabel": "Sony Store 台灣官方商城",
     "specs": [
@@ -2128,11 +2128,11 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 1890,
-      "converted": 1890,
+      "amount": 1990,
+      "converted": 1990,
       "basis": "retailer_current",
-      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-21 Logi網路旗艦店同石墨黑中文920-012313主商品Sale公開NT$1,890、原價NT$2,490，可下單；未扣會員券、信用卡、點數或加購價。"
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-22 Logi網路旗艦店同石墨黑中文920-012313公開NT$1,990，原價NT$2,490，可下單；未扣會員券、信用卡、點數或加購價。"
     },
     "installation": {
       "status": "not_stated",

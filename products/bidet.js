@@ -1005,13 +1005,13 @@
       "currency": "TWD",
       "amount": 5990,
       "converted": 5990,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "confidence": "2026-11-22 核對原商品供貨狀態，保留上次參考價",
       "basis": "retailer_current",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$5990，API Qty 7；個人券、點數、信用卡回饋及配送安裝費另計。"
+      "note": "2026-11-22 原同款刊登顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAL8LA900GH6F4/000001_1724400418.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAL8L-A900GH6F4",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原刊登已售完，查看供貨）",
     "specs": [
       "儲熱式",
       "溫水洗淨",
@@ -1104,13 +1104,13 @@
       "currency": "TWD",
       "amount": 15752,
       "converted": 15752,
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
-      "note": "PChome 新商品編號 DMAL8L-A900JB2RC 原頁明示「溫水微電腦瞬熱式洗淨便座 DL-RT30TWWS-TW 含基本安裝」，網路價 15752元，可加入購物車，API 庫存 8。含基本安裝，通路先配送再約安裝，約 14 至 21 個工作天；額外管線、插座另計。",
+      "confidence": "2026-11-22 核對原商品供貨狀態，保留上次參考價",
+      "note": "2026-11-22 原同款刊登顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAL6WA900I0L73/000001_1729761324.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAL8L-A900JB2RC",
-    "buyLabel": "PChome 24h 購物",
+    "buyLabel": "PChome（原刊登已售完，查看供貨）",
     "specs": [
       "瞬熱式",
       "纖薄設計",
@@ -1207,8 +1207,8 @@
       "currency": "TWD",
       "amount": 13900,
       "converted": 13900,
-      "confidence": "2026-11-21 核對原商品預購／供貨狀態，保留上次參考價",
-      "note": "原商品配送主區明示預購；配送資訊；廠商出貨；本商品不受24h到貨限制；預購；預計出貨日 2026/12/16 - 2026/12/18；可宅配到府；。金額為先前參考價，實際下單與交期請向通路確認。"
+      "confidence": "2026-11-22 核對原商品供貨狀態，保留上次參考價",
+      "note": "2026-11-22 原商品頁仍為預購，預計2026/12/17 - 2026/12/21出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAL6WA900JEEZE/000001_1776140283.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAL6W-A900JEEZE",
@@ -2084,7 +2084,8 @@
       "amount": 21032,
       "converted": 21032,
       "basis": "retailer_current",
-      "confidence": "PChome 2026-10-19 exact-model API Price.Low=21032、Qty=5；原頁2026/09/11 16:20至2026/12/09 23:59:59任選1件折2868，未扣個人優惠"
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-22 PChome 同DL-RU60TWWS公開價NT$21,032，未另扣個人券、點數與信用卡回饋。公開活動至2026-12-09T23:59:59+08:00。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAL8LA900J5KLF/000001_1777432730.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAL8L-A900J5KLF",

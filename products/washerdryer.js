@@ -15,10 +15,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/3a594d8137-Gd-10216764.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 19900,
-      "converted": 19900,
-      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-04 原生Chrome主商品：現省NT$9000、NT$28900劃線、NT$19900；連結「立即購買」可用。 不另扣會員券、信用卡、點數或推算優惠；送貨及基本安裝條件依原頁。",
+      "amount": 20900,
+      "converted": 20900,
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-22 LG台灣官方同WD-S90VDW 9公斤洗脫烘主商品公開NT$20,900，原價NT$28,900，可下單；未扣會員券或回饋，交期與安裝加價依通路。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -333,9 +333,9 @@
       "currency": "TWD",
       "amount": 11111,
       "converted": 11111,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-01 人工逐筆核對PChome原產品API：Whirlpool惠而浦 10公斤溫水洗脫烘滾筒洗衣機 WEHC10BBS；Price.Low=11111元，Qty=20，商品ID相符；不是會員券、點數或信用卡回饋。實際配送／安裝由通路確認。"
+      "note": "2026-11-22 PChome 同WEHC10BBS公開價NT$11,111，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-25T23:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1285,9 +1285,9 @@
       "currency": "TWD",
       "amount": 21912,
       "converted": 21912,
-      "confidence": "2026-11-04 Chrome人工核對原商品主價格與可購狀態。",
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-04 晚間原生Chrome覆核：NA-V120HDH主商品公開顯示NT$21912，加入購物車可用；如頁面有活動折後/折扣價，僅採已顯示金額，不另扣會員券、點數、信用卡或登錄回饋。限時活動及出貨條件依原頁。"
+      "note": "2026-11-22 PChome 同NA-V120HDH公開價NT$21,912，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-23T09:00:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -2323,12 +2323,12 @@
       "currency": "TWD",
       "amount": 82900,
       "converted": 82900,
-      "confidence": "2026-11-21 核對原商品預購／供貨狀態，保留上次參考價",
-      "note": "原商品配送主區明示預購；配送資訊；超大材積；PChome 倉庫出貨，本商品不受24h到貨限制；說明；預購；接單後陸續安排出貨，最晚出貨日為 2026/11/30；可宅配到府，滿 $490 起免運；。金額為先前參考價，實際下單與交期請向通路確認。",
+      "confidence": "2026-11-22 核對原商品供貨狀態，保留上次參考價",
+      "note": "2026-11-22 原商品頁仍為預購，預計2026/11/30出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "channel": "tw",
-    "buyLabel": "PChome 24h購物（含基本安裝）（預購／交期待確認）",
+    "buyLabel": "PChome（預購／交期待確認）",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900KAQP8",
     "specs": [
       "WashTower 一體式上下雙筒，可同步洗衣與乾衣",
@@ -2646,8 +2646,8 @@
       "currency": "TWD",
       "amount": 39512,
       "converted": 39512,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$39512，API Qty 20；個人券、點數、信用卡回饋及配送安裝費另計。",
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-22 PChome 同NA-SD10TB公開價NT$39,512，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-23T09:00:59+08:00。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -2753,12 +2753,12 @@
       "currency": "TWD",
       "amount": 85111,
       "converted": 85111,
-      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。",
+      "confidence": "2026-11-22 核對原商品供貨或版本邊界，保留上次參考價",
       "basis": "retailer_current",
-      "note": "2026-11-04 原生Chrome主商品：現省NT$7789、NT$92900劃線、NT$85111；連結「立即購買」可用。 不另扣會員券、信用卡、點數或推算優惠；送貨及基本安裝條件依原頁。"
+      "note": "2026-11-22 LG台灣原WD-S22FHDB頁仍為預購，預告2026年11月23日按購買次序發貨；頁面預購報價NT$86,900，本卡NT$85,111為先前參考，實際交期請向通路確認。"
     },
     "channel": "tw",
-    "buyLabel": "LG 台灣官方商城",
+    "buyLabel": "LG 台灣官方（預購／交期待確認）",
     "buyUrl": "https://www.lg.com/tw/washer-dryers/front-loading-washing-machines/wd-s22fhdb/",
     "specs": [
       "洗/乾容量：22kg / 15kg",
@@ -2862,9 +2862,9 @@
       "currency": "TWD",
       "amount": 58432,
       "converted": 58432,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome 原商品主區及 SKU DPAIER-A900KLOGO 公開折扣價 NT$58,432，活動至 2026/11/16 08:59:59（台灣）。API Qty 3，以通路配送、安裝條件為準。"
+      "note": "2026-11-22 PChome 同NA-V170RPH-K公開價NT$58,432，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-23T09:00:59+08:00。"
     },
     "image": "https://www.myfone.com.tw/website_twmf/uploads_product/website_2041/036/699/ECP0204103669957_1_20458150.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAIER-A900KLOGO",

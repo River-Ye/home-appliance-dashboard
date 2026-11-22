@@ -313,11 +313,11 @@
     "name": "BRAVIA Theatre Bar 7 5.0.2 聲道 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 19260,
-      "converted": 19260,
-      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 22900,
+      "converted": 22900,
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMAAN8-A900K0Y8L 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$19,260。 08:01後已重新核對原頁供貨與當前價，排除較早已結束的短期活動。 公開活動至 2026-11-23T07:59:59+08:00。"
+      "note": "2026-11-22 PChome 同HT-A7100公開價NT$22,900，未另扣個人券、點數與信用卡回饋。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAAN8A900K0Y8L/000001_1779181877.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAN8-A900K0Y8L",
@@ -1211,8 +1211,8 @@
       "currency": "TWD",
       "amount": 7590,
       "converted": 7590,
-      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DMAAMT-A900I5HHO 原商品主區公開價 NT$7,590，購買按鈕可用，API Qty 17，商品主區活動 11/02 至 12/01。會員券、點數與卡回饋未計入。",
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-22 PChome 同HT-S100F公開價NT$7,590，未另扣個人券、點數與信用卡回饋。公開活動至2026-12-01T09:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAMTA900I5HHO/000001_1778661010.jpg",
@@ -2108,10 +2108,11 @@
     "name": "5.1 聲道 Dolby Atmos 緊湊型 Soundbar",
     "price": {
       "currency": "USD",
-      "amount": 699.99,
-      "converted": 23090,
-      "confidence": "2026-10-24 人工核對 www.marshall.com 同型號與所選版本公開價 USD 699.99，可下單；未扣會員、信用卡或點數。；ExchangeRate-API 2026-11-20 匯率換算",
-      "basis": "retailer_current"
+      "amount": 499.99,
+      "converted": 16493,
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件；ExchangeRate-API 2026-11-20 匯率換算",
+      "basis": "retailer_current",
+      "note": "2026-11-22 Marshall美國官方同Heston 60 Black公開US$499.99，原價US$699.99，可下單；未含國際運費、進口稅、電壓／插頭與台灣保固風險，美國當地免運與兩工作日配送不適用台灣。"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/3yitHqjPBTgQk5qRE72PSn/2788206646aa153f71f2c0ebefaff580/Heston-60-black_plp_800x800-v3.jpeg",
     "buyUrl": "https://www.marshall.com/us/en/product/heston-60?pid=1008949",
@@ -3240,7 +3241,7 @@
       "status": "not_stated",
       "note": "Sony Store 台灣未標示到府安裝；三件揚聲器各自供電。桌面設定依 BRAVIA Connect 指引；壁掛應由 Sony 經銷商或合格承包商施工，壁材適用螺絲未隨附，中央揚聲器至少兩人安裝。"
     },
-    "image": "https://store.sony.com.tw/resource/product_files/HT-A8/HT-A8_pi.jpg",
+    "image": "https://sony.scene7.com/is/image/sonyglobalsolutions/HT-A8_Primary_image?$primaryshotPreset$&fmt=png-alpha",
     "buyUrl": "https://store.sony.com.tw/product/HT-A8",
     "buyLabel": "Sony Store 台灣（洽專屬展售店）",
     "specs": [
@@ -3337,7 +3338,7 @@
       "status": "not_stated",
       "note": "Sony Store 台灣未標示到府安裝；聲霸、後環繞與無線擴大機可依官方指引桌放／壁掛，壁掛固定件與施工條件應另向 Sony 經銷商或合格承包商確認。"
     },
-    "image": "https://store.sony.com.tw/resource/product_files/HT-S60/HT-S60_pi.jpg",
+    "image": "https://sony.scene7.com/is/image/sonyglobalsolutions/HAVFY25_EG1_Primary_image?$primaryshotPreset$&fmt=png-alpha",
     "buyUrl": "https://store.sony.com.tw/product/HT-S60",
     "buyLabel": "Sony Store 台灣",
     "specs": [

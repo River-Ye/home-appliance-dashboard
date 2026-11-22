@@ -1091,10 +1091,10 @@
     "name": "Purifier Hot+Cool De-NOx 甲醛 NOx 偵測涼暖空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 24900,
-      "converted": 24900,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。",
-      "note": "2026-11-01 Dyson官方HP12白金所選單機特價24900元，29900是原價；本次原主購買區可加車，已無舊11/03預購日，實際交期仍向通路確認。",
+      "amount": 26900,
+      "converted": 26900,
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-22 Dyson台灣官方同HP12白金色單機公開特價NT$26,900，原價NT$29,900，可下單；未扣領券折1,111元、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3CA900I7ORK/000001_1782810487.jpg",
@@ -1874,11 +1874,11 @@
     "name": "PuriCare 超淨化大白空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 6911,
-      "converted": 6911,
-      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 6511,
+      "converted": 6511,
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMAU0B-A900GI0Q1 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$6,911。 08:01後已重新核對原頁供貨與當前價，排除較早已結束的短期活動。 公開活動至 2026-11-30T23:59:59+08:00。"
+      "note": "2026-11-22 08:01核對PChome同AS601HWG0白色公開單件活動價NT$6,511（網路價NT$12,900），活動至2026-11-22T08:59:59+08:00（台灣時間）；此為查核時價格，逾期價格與供貨須重查。未扣個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU0BA900GI0Q1/000001_1763349087.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU0B-A900GI0Q1",
@@ -2496,9 +2496,9 @@
       "currency": "TWD",
       "amount": 3990,
       "converted": 3990,
-      "confidence": "2026-11-21 核對原商品預購／供貨狀態，保留上次參考價",
+      "confidence": "2026-11-22 核對原商品供貨狀態，保留上次參考價",
       "basis": "retailer_current",
-      "note": "原商品配送主區明示預購；配送資訊；PChome 倉庫出貨，本商品不受24h到貨限制；說明；預購；接單後陸續安排出貨，最晚出貨日為 2026/11/25；可宅配到府，滿 $490 起免運；可超商取貨，滿 $350 起免運；。金額為先前參考價，實際下單與交期請向通路確認。"
+      "note": "2026-11-22 原同款刊登顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "installation": {
       "status": "not_stated",
@@ -2506,7 +2506,7 @@
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU00A77331975/000001_1747044686.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU00-A77331975",
-    "buyLabel": "PChome（預購／交期待確認）",
+    "buyLabel": "PChome（原刊登已售完，查看供貨）",
     "specs": [
       "適用坪數：約 4–8 坪；CADR 100 cfm（約 170 m³/h）",
       "True HEPA 濾網搭配活性碳前置濾網",

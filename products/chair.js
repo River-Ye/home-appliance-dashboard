@@ -114,10 +114,10 @@
     "name": "特仕版 2.0 人體工學椅",
     "price": {
       "currency": "TWD",
-      "amount": 11900,
-      "converted": 11900,
-      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DCAKHP-A900HEQ4H 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$11,900。",
+      "amount": 9999,
+      "converted": 9999,
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-22 PChome 同特仕版 2.0公開價NT$9,999，未另扣個人券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAKHPA900HEQ4H/000001_1760581993.jpg",
@@ -606,9 +606,9 @@
       "currency": "TWD",
       "amount": 11691,
       "converted": 11691,
-      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-13 PChome 原 SKU 公開價 NT$11691，API Qty 2。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。"
+      "note": "2026-11-22 PChome 同Fujin公開價NT$11,691，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBT0KA900GSDTK/000001_1762771347.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBT0K-A900GSDTK",
@@ -795,13 +795,13 @@
       "currency": "TWD",
       "amount": 13410,
       "converted": 13410,
-      "confidence": "2026-11-21 核對原商品預購／供貨狀態，保留上次參考價",
+      "confidence": "2026-11-22 核對原商品供貨狀態，保留上次參考價",
       "basis": "retailer_current",
-      "note": "原商品配送主區明示預購；配送資訊；廠商出貨；本商品不受24h到貨限制；獨立結帳；本商品無法與其他商品合併結帳；預購；預計出貨日 2026/11/23 - 2026/11/25；可宅配到府；。金額為先前參考價，實際下單與交期請向通路確認。"
+      "note": "2026-11-22 原商品頁仍為預購，預計2026/11/24 - 2026/11/26出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAKFOA900BWWGS/000001_1755481797.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAKFO-A900BWWGS",
-    "buyLabel": "PChome（預購 11/15–11/17 出貨）",
+    "buyLabel": "PChome（預購／交期待確認）",
     "specs": [
       "電競椅",
       "高背",
@@ -1082,8 +1082,8 @@
       "currency": "TWD",
       "amount": 7990,
       "converted": 7990,
-      "confidence": "2026-11-21 核對原商品預購／供貨狀態，保留上次參考價",
-      "note": "原商品配送主區明示預購；配送資訊；廠商出貨；本商品不受24h到貨限制；預購；預計出貨日 2026/12/02 - 2026/12/04；可宅配到府；。金額為先前參考價，實際下單與交期請向通路確認。",
+      "confidence": "2026-11-22 核對原商品供貨狀態，保留上次參考價",
+      "note": "2026-11-22 原商品頁仍為預購，預計2026/12/03 - 2026/12/07出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ0AA900IGLW6/000001_1759990112.jpg",
@@ -3067,8 +3067,8 @@
       "amount": 16461,
       "converted": 16461,
       "basis": "retailer_current",
-      "confidence": "PChome 同料號原頁可購，公開折扣價 NT$16,461、網路價 NT$18,290，API Qty 10。",
-      "note": "PChome 11/04–11/30 電競椅一件九折，廠商宅配，折扣期限與配送以原賣場為準。未扣點數或信用卡回饋。"
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-22 PChome 同Soma Chroma公開價NT$16,461，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "installation": {
       "status": "excluded",

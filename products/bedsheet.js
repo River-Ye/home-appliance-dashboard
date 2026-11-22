@@ -1065,12 +1065,14 @@
   {
     const product = products.find(({ id }) => id === "bedsheet-nitori-2115100119403");
     Object.assign(product.price, {
+      "currency": "TWD",
       "amount": 799,
       "converted": 799,
-      "confidence": "2026-11-21 核對原商品預購／供貨狀態，保留上次參考價",
-      "note": "原商品配送主區明示預購；配送資訊；廠商出貨；本商品不受24h到貨限制；預購；預計出貨日 2026/11/30 - 2026/12/02；可宅配到府；。金額為先前參考價，實際下單與交期請向通路確認。"
+      "basis": "retailer_current",
+      "confidence": "2026-11-22 核對原商品供貨狀態，保留上次參考價",
+      "note": "2026-11-22 原商品頁仍為預購，預計2026/11/30 - 2026/12/02出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     });
-    product.buyLabel = "PChome 24h NITORI 宜得利新品頁（預購／交期待確認）";
+    product.buyLabel = "PChome（預購／交期待確認）";
   }
 
   {

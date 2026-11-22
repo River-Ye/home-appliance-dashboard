@@ -19,12 +19,12 @@
       "currency": "TWD",
       "amount": 2549,
       "converted": 2549,
-      "confidence": "PChome 2026-07-14 API 查核價",
-      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
+      "confidence": "2026-11-22 核對原商品供貨狀態，保留上次參考價",
+      "note": "2026-11-22 原同款刊登顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBBC5A900JM6ZN/000001_1767687719.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBBC5-A900JM6ZN",
-    "buyLabel": "PChome（原通路缺貨，查看供貨）",
+    "buyLabel": "PChome（原刊登已售完，查看供貨）",
     "specs": [
       "支援 24-57 吋",
       "承重最高 30kg",
@@ -420,12 +420,12 @@
       "currency": "TWD",
       "amount": 2459,
       "converted": 2459,
-      "confidence": "可信通路查核價",
-      "note": "2026-11-04 原來源本輪顯示無庫存／售完，尚未確認其他可信通路可購現價；金額保留為先前參考價，通路缺貨不等同原廠停產。"
+      "confidence": "2026-11-22 核對原商品供貨狀態，保留上次參考價",
+      "note": "2026-11-22 原同款刊登顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGRJA900JZFGW/000001_1778056158.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAGRJ-A900JZFGW",
-    "buyLabel": "PChome（原通路缺貨，查看供貨）",
+    "buyLabel": "PChome（原刊登已售完，查看供貨）",
     "specs": [
       "支援 57 吋級距",
       "承重 27kg",
@@ -819,9 +819,9 @@
       "currency": "TWD",
       "amount": 1349,
       "converted": 1349,
-      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-04 人工核對原始SKU API名稱、商品ID、正庫存與公開價1349元；原HTML遇429或動態限制時不當完整出貨承諾。"
+      "note": "2026-11-22 PChome 同TC92-10公開價NT$1,349，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBB69A900IHPC0/000001_1742812418.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBB69-A900IHPC0",

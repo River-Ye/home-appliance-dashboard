@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20",
+  "generatedAt": "2026-11-22",
   "sourcePolicy": "本站共 21 類尺寸、13 類重量研究，尺寸涵蓋 電視、Soundbar、冷氣、洗衣機、烘衣機、洗烘衣機(多功能型)、電子衣櫥（衣物護理機）、床包、棉被、枕頭、冰箱、咖啡機、多功能氣炸烤箱／微波爐、洗碗機、熱水器、免治馬桶、網路交換器、螢幕燈、滑鼠、鍵盤、滑鼠墊。優先採 exact-model／相同版本的官方產品頁、官方規格表或官方 PDF，其次為可信新品通路。只採本體／機身／明確組件的尺寸與淨重，排除包裝、外箱尺寸與毛重；來源沒有明示軸序時不自行推定。既有家電與床包、棉被、枕頭維持 cm／kg，滑鼠、鍵盤與滑鼠墊使用 mm／g 並保留來源軸序。滑鼠墊厚度、床包可包覆高度另列；棉被的填充重量與整件淨重分開記錄。冷氣分列室內機與室外機，熱泵複合熱水器分列主機與儲槽。generatedAt 為最新證據批次日期，既有逐筆 checkedAt 與 weightCheckedAt 保留原查核日期，不表示重新查核。",
   "results": [
     {
@@ -11523,6 +11523,28 @@
       "weightCheckedAt": "2026-11-20",
       "weightConfidence": "high",
       "weightIsOfficialSource": true
+    },
+    {
+      "id": "mouse-logitech-mobi-fold",
+      "category": "mouse",
+      "brand": "Logitech",
+      "model": "Mobi Fold",
+      "name": "Mobi Fold 珍珠白 910-007634 無線折疊滑鼠（不附接收器）",
+      "dimension": "尺寸：高 33 x 寬 57 x 深 122 mm",
+      "sourceUrl": "https://www.logitech.com/zh-tw/shop/p/mobi-fold-mouse.910-007634",
+      "sourceTitle": "Logitech台灣 Mobi Fold 珍珠白910-007634 規格與相容性",
+      "evidenceSnippet": "今日原頁展開規格明示高度33、寬57、深度122公釐；折疊時僅列高度21、深度66公釐，不補未列寬度。",
+      "checkedAt": "2026-11-22",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "weight": "重量：本體 79 g",
+      "weightSourceUrl": "https://www.logitech.com/zh-tw/shop/p/mobi-fold-mouse.910-007634",
+      "weightSourceTitle": "Logitech台灣 Mobi Fold 珍珠白910-007634 規格",
+      "weightEvidenceSnippet": "規格與相容性尺寸區列本體重量79公克；不是包裝重量。",
+      "weightCheckedAt": "2026-11-22",
+      "weightConfidence": "high",
+      "weightIsOfficialSource": true,
+      "foldedDimensions": "高21、深66 mm；官方未列折疊寬度"
     }
   ]
 }

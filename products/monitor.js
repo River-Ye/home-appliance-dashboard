@@ -2996,10 +2996,11 @@
     "name": "32 型 4K 240Hz OLED Alienware 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 33888,
-      "converted": 33888,
-      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "PChome 原商品頁主價 NT$33,888 與 API 確認值或原頁購買狀態未能完整互證，保留既有參考資料。"
+      "amount": 32193,
+      "converted": 32193,
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-22 PChome 同Alienware AW3225QF公開價NT$32,193，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-23T08:00:59+08:00。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOKA900HB1B5/000001_1710325731.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABOK-A900HB1B5",
@@ -3996,11 +3997,11 @@
     "name": "49 型 Odyssey OLED G9 Dual QHD 240Hz 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 36900,
-      "converted": 36900,
-      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 34800,
+      "converted": 34800,
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMBM10-A900HZCPE 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$36,900。"
+      "note": "2026-11-22 PChome 同S49DG932SCXZW公開價NT$34,800，未另扣個人券、點數與信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900HZCPE/000001_1781766568.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900HZCPE",
@@ -4298,11 +4299,11 @@
     "name": "57 型 Odyssey Neo G9 Dual UHD 240Hz Mini LED 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 69900,
-      "converted": 69900,
-      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 63990,
+      "converted": 63990,
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMBM10-A900GQLSE 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$69,900。"
+      "note": "2026-11-22 PChome 同S57CG952NC公開價NT$63,990，未另扣個人券、點數與信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900GQLSE/000001_1783054239.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900GQLSE",
@@ -5444,7 +5445,7 @@
       "basis": "retailer_current",
       "note": "2026-11-04 午後人工覆核：Sony台灣所選單機限時優惠價19990元、可加車；未混鍵鼠組合8980。 不扣個人化回饋或贈品。"
     },
-    "image": "https://store.sony.com.tw/resource/product_files/SDM-27U9M2/SDM-27U9M2_pi.jpg",
+    "image": "https://sony.scene7.com/is/image/sonyglobalsolutions/Primary_image_1200-42?$primaryshotPreset$&fmt=png-alpha",
     "buyUrl": "https://store.sony.com.tw/product/SDM-27U9M2",
     "buyLabel": "Sony 台灣官方購物網站",
     "installation": {
@@ -7133,7 +7134,7 @@
     "status": "not_stated",
     "note": "通路未標示到府安裝，桌面組裝用隨附底座；若改用支架，核對 VESA 100×100 mm、面板約 4.2 kg 及線材空間。"
   },
-  "image": "https://store.sony.com.tw/resource/file/product_files/SDM-27Q102/01_a00c64829.jpg",
+  "image": "https://sony.scene7.com/is/image/sonyglobalsolutions/primary-image_1200x1200?$primaryshotPreset$&fmt=png-alpha",
   "buyUrl": "https://store.sony.com.tw/product/show/8a818bc39f35d242019f362d428300c5",
   "buyLabel": "Sony Store 台灣官方購物網站",
   "specs": [

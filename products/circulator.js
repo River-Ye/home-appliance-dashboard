@@ -108,8 +108,8 @@
       "currency": "TWD",
       "amount": 2176,
       "converted": 2176,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
-      "note": "舊 momo 原頁無法重現展售。Yahoo 自營 8331428 主區標 IRIS PCF-SC15T（原基本單機款），主區公開活動折後與同 SKU 結構化價均為 NT$2,176，購買按鈕可用且 InStock，達 NT$480 宅配免運；一般滿一件95折期限 2026-12-31 23:59:59 台灣時間。未計個人券、點數或刷卡回饋。",
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-22 Yahoo購物中心同PCF-SC15T公開價NT$2,176，未另扣個人券、點數與信用卡回饋。公開活動至2026-12-31T23:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/84AF7BD589-SP-6895694.jpg",

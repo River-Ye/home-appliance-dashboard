@@ -3108,7 +3108,7 @@
       "status": "not_stated",
       "note": "USB／接收器即插即用，不涉及到府施工；購買頁未列到府安裝。"
     },
-    "image": "https://store.sony.com.tw/resource/file/product_files/MSE-G500-B/01_d207e5452.jpg",
+    "image": "https://sony.scene7.com/is/image/sonyglobalsolutions/GG25_MSE-G500_Primary_image?$primaryshotPreset$&fmt=png-alpha",
     "buyUrl": "https://store.sony.com.tw/product/MSE-G500/B",
     "buyLabel": "Sony 台灣官方購物網站",
     "specs": [
@@ -3776,8 +3776,8 @@
     "amount": 4750,
     "converted": 4750,
     "basis": "retailer_current",
-    "confidence": "2026-11-19 核對 PChome DCAN33-A900K2FUA-000 同型新品的 Price.Low、Qty 20、商品優惠連結與機底型號。",
-    "note": "PChome 網路價 NT$4,990，單件符合滿 NT$2,000 折 NT$240 的公開活動，折後 NT$4,750，活動至 2026-11-23 23:59:59（台灣時間）。未扣點數、券或刷卡回饋。賣場主圖文字誤寫 FK1-DW，商品名稱及圖庫機底標示為 ZA12-DW。"
+    "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
+    "note": "2026-11-22 PChome 同ZA12-DW公開價NT$4,750，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-23T23:59:59+08:00。"
   },
   "installation": {
     "status": "not_stated",
@@ -3874,8 +3874,8 @@
     "amount": 4750,
     "converted": 4750,
     "basis": "retailer_current",
-    "confidence": "2026-11-20 核對 PChome 同型台灣新品的公開單件價、可下單狀態及供貨條件。",
-    "note": "PChome 網路價 NT$4,990，單品符合滿 NT$2,000 折 NT$240，折後 NT$4,750；活動至 2026-11-23 23:59:59（台灣時間）。未扣券、點數或刷卡回饋。"
+    "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
+    "note": "2026-11-22 PChome 同FK1-DW公開價NT$4,750，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-23T23:59:59+08:00。"
   },
   "installation": {
     "status": "not_stated",
@@ -3954,6 +3954,104 @@
     "4K",
     "低背",
     "大型"
+  ]
+},
+{
+  "id": "mouse-logitech-mobi-fold",
+  "category": "mouse",
+  "brand": "Logitech",
+  "model": "Mobi Fold",
+  "name": "Mobi Fold 珍珠白 910-007634 無線折疊滑鼠（不附接收器）",
+  "type": "standard",
+  "rank": 39,
+  "budget": "mid",
+  "channel": "tw",
+  "topPick": false,
+  "price": {
+    "currency": "TWD",
+    "amount": 2690,
+    "converted": 2690,
+    "basis": "retailer_current",
+    "confidence": "2026-11-22 核對PChome同珍珠白、不附Bolt版本的公開價與配送資訊。",
+    "note": "PChome公開新品價NT$2,690，廠商出貨、不受24h到貨限制；未扣券、點數或刷卡回饋。"
+  },
+  "installation": {
+    "status": "not_stated",
+    "note": "無需到府安裝，藍牙自行配對；Bolt接收器及USB-C充電線另購。"
+  },
+  "image": "https://resource.logitech.com/c_fill,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/mice/mobi-fold-mouse/gallery/mobi-fold-off-white-top-angle-gallery-1.png",
+  "buyUrl": "https://24h.pchome.com.tw/prod/DCAN87-A900K9KMM",
+  "buyLabel": "PChome 24h 購物（廠商出貨）",
+  "specs": [
+    "類型：標準型可折疊行動辦公滑鼠，台灣consumer珍珠白910-007634",
+    "握型／慣用手：左右手通用對稱機身，展開使用、單方向折疊收納，不可強行攤平",
+    "連線：Bluetooth Low Energy 5.1，Easy-Switch最多3台；相容另購Logi Bolt接收器",
+    "感測器／解析度：PAW3222光學，400–4000 DPI、100 DPI遞增，額定800 DPI",
+    "回報率：台灣官方未標示",
+    "按鍵／滾輪：4鍵（左右鍵及觸控面板下的前進／後退），2鍵可自訂；自適應觸控捲動，無實體滾輪",
+    "供電／續航：100mAh充電式鋰電池、USB-C充電；官方估計藍牙32天／Bolt33天，依使用情境而異",
+    "系統／軟體：Windows、macOS、ChromeOS、Linux、Android、iPadOS；Options+進階功能限支援的Windows/macOS，觸控tap與中鍵功能依系統而異",
+    "尺寸：高 33 x 寬 57 x 深 122 mm",
+    "重量：本體 79 g",
+    "隨附配件：滑鼠、使用者文件；不附Logi Bolt接收器、USB-C線或市電充電器"
+  ],
+  "description": "以折疊開關機、79g本體及三裝置藍牙切換補足行動辦公用途；珍珠白consumer版不附Bolt接收器，適合收納空間優先的通勤或出差。 官方折疊尺寸僅列高21、深66 mm，折疊寬度未列，不自行推定。",
+  "pros": [
+    "折疊即可收納並關機，79g本體便於攜帶",
+    "左右手通用，最多配對3台裝置",
+    "可透過Options+自訂兩個中間實體鍵並調整指標及捲動速度"
+  ],
+  "cons": [
+    "觸控捲動需適應，已有少數不順或不回應回報，未達集中問題門檻",
+    "中鍵按住及touch tap映射有特定系統回報；最新Options+正式修復尚未確認，CAD拖曳者應先試用",
+    "Bolt接收器、USB-C線另購，USB僅用於充電；不能強行攤平"
+  ],
+  "bestFor": "重視薄小收納、左右手通用及跨筆電／平板切換的短時行動辦公。",
+  "recommendation": "作為出差或通勤副滑鼠較合適；長時間桌面工作、精準捲動或依賴中鍵按住拖曳者，應先比較實體滾輪款並測試常用軟體。",
+  "releaseDate": "2026-06-12",
+  "historicalLow": {
+    "status": "not_found",
+    "amount": null,
+    "currency": "TWD",
+    "converted": null,
+    "sourceUrl": "",
+    "sourceTitle": "",
+    "evidenceSnippet": "",
+    "sourceKind": "not_found",
+    "confidence": "not_found",
+    "checkedAt": "2026-11-22",
+    "note": "Lowcast同PChome SKU無歷史頁；BigGo同珍珠白SKU僅顯示今日2690，飛比2490候選與momo原頁2690不一致，且含不同顏色/Business/套裝。Mobile01的2483含卡與支付回饋，不採。尚無同台灣版本可回溯、公開新品條件完整的歷史最低價證據。"
+  },
+  "issueResearch": {
+    "status": "no_common_issue",
+    "checkedAt": "2026-11-22",
+    "summary": "截至查核日，查無達門檻的集中負評／災情",
+    "issues": [],
+    "checkedSources": [
+      {
+        "platform": "Mobile01",
+        "targetHost": "mobile01.com",
+        "query": "site:mobile01.com \"Mobi Fold\"",
+        "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Mobi%20Fold%22"
+      },
+      {
+        "platform": "Reddit",
+        "targetHost": "reddit.com",
+        "query": "site:reddit.com \"Mobi Fold\"",
+        "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Mobi%20Fold%22"
+      }
+    ]
+  },
+  "score": 76,
+  "voltage": "USB-C充電、內建100mAh鋰電池；台灣官方未列額定充電電壓／電流，不附市電充電器，請依原廠指示使用相容USB電源。",
+  "warranty": "Logitech台灣官方1年有限硬體保固；PChome台灣新品頁同列一年有限硬體保固，可循羅技台灣支援申請。",
+  "tags": [
+    "辦公推薦",
+    "台灣公司貨",
+    "折疊收納",
+    "左右手通用",
+    "三裝置",
+    "79g"
   ]
 }
 ]);

@@ -1,13 +1,13 @@
 {
   "summary": {
-    "checkedAt": "2026-11-21T00:00:00.000+08:00",
-    "sourcePolicy": "2026-11-21 重取購買與圖片、既有史低來源；新增史低採同一刊登公開新品價及有日期的供貨佐證；低於既有史低的查核日可購價亦保留原頁。無法重現的低點不補列。",
-    "total": 1285,
-    "researchedThisRun": 1285,
+    "checkedAt": "2026-11-22T00:00:00.000+08:00",
+    "sourcePolicy": "2026-11-22 重取購買與圖片、既有史低來源；新增史低採同一刊登公開新品價及有日期的供貨佐證；低於既有史低的查核日可購價亦保留原頁。無法重現的低點不補列。",
+    "total": 1286,
+    "researchedThisRun": 1286,
     "found": 631,
-    "missing": 654,
+    "missing": 655,
     "byConfidence": {
-      "not_found": 654,
+      "not_found": 655,
       "medium": 347,
       "high": 284
     },
@@ -21,19 +21,19 @@
       "HKD_TWD": 4.205180792837381,
       "KRW_TWD": 0.024783842247314166
     },
-    "lastMaintenanceCheckAt": "2026-11-21T00:45:39.938Z",
-    "currentPriceChanged": 92,
-    "currentBuyLinkChanged": 6,
-    "currentPriceDrops": 77,
-    "currentPriceRises": 15,
+    "lastMaintenanceCheckAt": "2026-11-22T00:04:10.560Z",
+    "currentPriceChanged": 18,
+    "currentBuyLinkChanged": 23,
+    "currentPriceDrops": 8,
+    "currentPriceRises": 10,
     "currentPriceFallbacks": 0,
-    "historicalLowUpdated": 8,
+    "historicalLowUpdated": 0,
     "historicalLowInvalidated": 0,
     "catalogEntriesReplaced": 0,
     "catalogReplacementNotes": [],
-    "currentImageChanged": 0,
+    "currentImageChanged": 10,
     "discontinuedRemoved": 0,
-    "newProductsAdded": 0,
+    "newProductsAdded": 1,
     "discontinuedRemovalNotes": [],
     "catalogEntriesRemoved": 0,
     "catalogRemovalNotes": [],
@@ -242,7 +242,7 @@
       "brand": "LG",
       "model": "OLED65C6PTA",
       "name": "65 型 OLED evo C6 4K 智慧顯示器",
-      "currentPrice": 69900,
+      "currentPrice": 74900,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://www.lg.com/tw/tv-soundbars/oled-evo/oled65c6pta/",
       "currentBuyLabel": "LG 官方商城",
@@ -529,7 +529,7 @@
       "currentPrice": 79900,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900HNTKI",
-      "currentBuyLabel": "PChome 24h 購物（預購 11/16–11/18 出貨）",
+      "currentBuyLabel": "PChome（預購／交期待確認）",
       "historicalLow": {
         "status": "found",
         "amount": 62910,
@@ -990,7 +990,7 @@
       "currentPrice": 21500,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900IFXK7",
-      "currentBuyLabel": "PChome 24h 購物（預購 11/16–11/18 出貨）",
+      "currentBuyLabel": "PChome（預購／交期待確認）",
       "historicalLow": {
         "status": "found",
         "amount": 16489,
@@ -1763,7 +1763,7 @@
       "brand": "Sony",
       "model": "HT-A7100",
       "name": "BRAVIA Theatre Bar 7 5.0.2 聲道 Soundbar",
-      "currentPrice": 19260,
+      "currentPrice": 22900,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMAAN8-A900K0Y8L",
       "currentBuyLabel": "PChome",
@@ -2699,7 +2699,7 @@
       "brand": "Marshall",
       "model": "Heston 60",
       "name": "5.1 聲道 Dolby Atmos 緊湊型 Soundbar",
-      "currentPrice": 23090,
+      "currentPrice": 16493,
       "currentCurrency": "USD",
       "currentBuyUrl": "https://www.marshall.com/us/en/product/heston-60?pid=1008949",
       "currentBuyLabel": "Marshall US 官方",
@@ -3407,10 +3407,10 @@
       "brand": "Panasonic",
       "model": "F-H14GND-K",
       "name": "14 吋 DC 微電腦定時電風扇",
-      "currentPrice": 2995,
+      "currentPrice": 3580,
       "currentCurrency": "TWD",
-      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMABLM-A900EOQ12",
-      "currentBuyLabel": "PChome",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/QBAF5V-A9009ZZPS",
+      "currentBuyLabel": "PChome 24h購物",
       "historicalLow": {
         "status": "found",
         "amount": 2611,
@@ -5981,7 +5981,7 @@
       "currentPrice": 15500,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMBQ4Y-A900JBQP2",
-      "currentBuyLabel": "PChome",
+      "currentBuyLabel": "PChome（原刊登已售完，查看供貨）",
       "historicalLow": {
         "status": "found",
         "amount": 14220,
@@ -7300,7 +7300,7 @@
       "brand": "Dyson",
       "model": "HP12",
       "name": "Purifier Hot+Cool De-NOx 甲醛 NOx 偵測涼暖空氣清淨機",
-      "currentPrice": 24900,
+      "currentPrice": 26900,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://shop.dyson.tw/fans-and-heaters/air-purifier-heaters/dyson-purifier-hot-cool-de-nox-purifying-fan-heater-white-gold-546388-01",
       "currentBuyLabel": "Dyson 官方（交期請確認）",
@@ -7722,7 +7722,7 @@
       "brand": "LG",
       "model": "AS601HWG0",
       "name": "PuriCare 超淨化大白空氣清淨機",
-      "currentPrice": 6911,
+      "currentPrice": 6511,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMAU0B-A900GI0Q1",
       "currentBuyLabel": "PChome",
@@ -8005,7 +8005,7 @@
       "currentPrice": 3990,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMAU00-A77331975",
-      "currentBuyLabel": "PChome（預購／交期待確認）",
+      "currentBuyLabel": "PChome（原刊登已售完，查看供貨）",
       "historicalLow": {
         "status": "found",
         "amount": 2737,
@@ -9616,7 +9616,7 @@
       "currentPrice": 31261,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JNELR",
-      "currentBuyLabel": "PChome 24h購物（可訂購，交期請確認）（預購／交期待確認）",
+      "currentBuyLabel": "PChome（預購／交期待確認）",
       "historicalLow": {
         "status": "found",
         "amount": 30184,
@@ -11762,7 +11762,7 @@
       "currentPrice": 17111,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMAX8K-A900HLX9W",
-      "currentBuyLabel": "PChome",
+      "currentBuyLabel": "PChome（原刊登已售完，查看供貨）",
       "historicalLow": {
         "status": "not_found",
         "amount": null,
@@ -11802,7 +11802,7 @@
       "currentPrice": 11111,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMAX8K-A900JI8XJ",
-      "currentBuyLabel": "PChome",
+      "currentBuyLabel": "PChome（原刊登已售完，查看供貨）",
       "historicalLow": {
         "status": "found",
         "amount": 10790,
@@ -13171,10 +13171,10 @@
       "brand": "Panasonic",
       "model": "NA-V190MT-PN",
       "name": "Panasonic NA-V190MT-PN",
-      "currentPrice": 21032,
+      "currentPrice": 23900,
       "currentCurrency": "TWD",
-      "currentBuyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic%E5%9C%8B%E9%9A%9B%E7%89%8C-19%E5%85%AC%E6%96%A4-%E9%9B%99%E7%A7%91%E6%8A%80%E8%AE%8A%E9%A0%BB%E7%9B%B4%E7%AB%8B%E5%BC%8F%E6%B4%97%E8%A1%A3%E6%A9%9F-NA-V190MT-PN-%E7%8E%AB%E7%91%B0%E9%87%91-10097010.html",
-      "currentBuyLabel": "Yahoo購物中心（此賣場已停售）",
+      "currentBuyUrl": "https://www.jarvis.com.tw/appliances/panasonic/washing-machine/panasonic-na-v190mt-pn/",
+      "currentBuyLabel": "賈維斯智能家居（同型號玫瑰金）",
       "historicalLow": {
         "status": "found",
         "amount": 20554,
@@ -13213,8 +13213,8 @@
         "LBJ NA-V190MT-PN: Yahoo購物中心 Panasonic國際牌 19公斤 雙科技變頻直立式洗衣機 NA-V190MT-PN 玫瑰金 型號/規格不相符",
         "LBJ NA-V190MT-PN: Momo富邦購物 【Panasonic 國際牌】19公斤強效抑菌變頻直立式洗衣機(NA-V190MT-PN) 型號/規格不相符"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "washer-panasonic-na-v150nm-pn",
@@ -13544,7 +13544,7 @@
       "currentPrice": 8190,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DPAIB6-A900IM3H3",
-      "currentBuyLabel": "PChome",
+      "currentBuyLabel": "PChome（原刊登已售完，查看供貨）",
       "historicalLow": {
         "status": "found",
         "amount": 7800,
@@ -14053,7 +14053,7 @@
       "currentPrice": 18810,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/QBAR29-A900A63AZ",
-      "currentBuyLabel": "PChome 24h 購物",
+      "currentBuyLabel": "PChome（原刊登已售完，查看供貨）",
       "historicalLow": {
         "status": "found",
         "amount": 18810,
@@ -15386,7 +15386,7 @@
       "brand": "LG",
       "model": "WD-S90VDW",
       "name": "LG WD-S90VDW",
-      "currentPrice": 19900,
+      "currentPrice": 20900,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://www.lg.com/tw/washer-dryers/front-loading-washing-machines/wd-s90vdw/",
       "currentBuyLabel": "LG 官方商城",
@@ -16452,7 +16452,7 @@
       "currentPrice": 82900,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900KAQP8",
-      "currentBuyLabel": "PChome 24h購物（含基本安裝）（預購／交期待確認）",
+      "currentBuyLabel": "PChome（預購／交期待確認）",
       "historicalLow": {
         "status": "found",
         "amount": 79111,
@@ -16617,7 +16617,7 @@
       "currentPrice": 85111,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://www.lg.com/tw/washer-dryers/front-loading-washing-machines/wd-s22fhdb/",
-      "currentBuyLabel": "LG 台灣官方商城",
+      "currentBuyLabel": "LG 台灣官方（預購／交期待確認）",
       "historicalLow": {
         "status": "not_found",
         "amount": null,
@@ -17040,7 +17040,7 @@
       "brand": "LG",
       "model": "SC5GMR80H",
       "name": "LG Styler Smart Steam Closet Mirror with HandySteamer",
-      "currentPrice": 72538,
+      "currentPrice": 65940,
       "currentCurrency": "USD",
       "currentBuyUrl": "https://www.lg.com/us/washers-dryers/lg-sc5gmr80h-styler-steam-closet",
       "currentBuyLabel": "LG 美國（價格及供貨待確認）",
@@ -18889,8 +18889,8 @@
         "BigGo DEAWMW-A900JCBKJ: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/DEAWMW-A900JCBKJ/product?p=1",
         "BigGo WMF Durado 24cm: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/WMF%20Durado%2024cm/product?p=1"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "cookware-fissler-cianmic-28cm",
@@ -18967,8 +18967,8 @@
         "BigGo DEAWMW-A900J5MY9: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/DEAWMW-A900J5MY9/product?p=1",
         "BigGo ZWILLING Joy Plus 24cm: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/ZWILLING%20Joy%20Plus%2024cm/product?p=1"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "cookware-le-creuset-tns-28cm",
@@ -25783,7 +25783,7 @@
       "brand": "LG",
       "model": "WU525BS",
       "name": "PuriCare 淨水 Bar 廚下型冰溫熱飲水機",
-      "currentPrice": 42900,
+      "currentPrice": 44900,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://www.lg.com/tw/water-purifier/all-water-purifier/wu525bs/",
       "currentBuyLabel": "LG 台灣官網（現價／供貨待確認）",
@@ -25809,8 +25809,8 @@
       "rejectedCandidates": [
         "本輪公開售價只能證明 2026-08-08 現價；沒有可重現歷史曲線與明確最低點日期，因此不採現價或條件式優惠推定史低。"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "waterdispenser-rewatt-yo-50",
@@ -29883,7 +29883,7 @@
       "brand": "Dajinan 大金安",
       "model": "DJNHP-200L",
       "name": "Dajinan 大金安 DJNHP-200L 一體式空氣源熱泵熱水器",
-      "currentPrice": 48200,
+      "currentPrice": 49000,
       "currentCurrency": "TWD",
       "priceBasis": "retailer_current",
       "priceLabel": "通路現價",
@@ -30472,7 +30472,7 @@
       "currentPrice": 5990,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMAL8L-A900GH6F4",
-      "currentBuyLabel": "PChome",
+      "currentBuyLabel": "PChome（原刊登已售完，查看供貨）",
       "historicalLow": {
         "status": "found",
         "amount": 5911,
@@ -30519,7 +30519,7 @@
       "currentPrice": 15752,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMAL8L-A900JB2RC",
-      "currentBuyLabel": "PChome 24h 購物",
+      "currentBuyLabel": "PChome（原刊登已售完，查看供貨）",
       "historicalLow": {
         "status": "found",
         "amount": 15111,
@@ -31113,8 +31113,8 @@
         "[2026-07-11] momo購物網：authoritative page price could not be verified；【Yale 耶魯】ByYou Pro Apple 認證解鎖智能/電子鎖(指紋│卡片│密碼│藍芽│Wifi│鑰匙/送安裝) https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=13831858",
         "[2026-07-11] PChome EC API：型號欄位不是唯一料號，跨頁候選無法證明尺寸／變體完全一致；【Yale 耶魯】ByYou Pro Apple 認證解鎖智能/電子鎖(指紋│卡片│密碼│藍芽│Wifi│鑰匙/送安裝) https://24h.pchome.com.tw/prod/DQBS40-A900J3HFJ"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "smartlock-yale-luna-pro-plus",
@@ -32580,8 +32580,8 @@
         "BigGo DECE2S-A900B5V4Y: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/DECE2S-A900B5V4Y/product?p=1",
         "BigGo Lockly Latch Plus: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/Lockly%20Latch%20Plus/product?p=1"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "smartlock-waferlock-d310",
@@ -33259,7 +33259,7 @@
       "brand": "TP-Link",
       "model": "Deco BE25 2入",
       "name": "BE5000 雙頻 Wi-Fi 7 真 Mesh 網狀路由器二入組",
-      "currentPrice": 5699,
+      "currentPrice": 5299,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DSBC1T-A900I6ACS",
       "currentBuyLabel": "PChome",
@@ -36272,7 +36272,7 @@
       "brand": "NETGEAR",
       "model": "XS508TM",
       "name": "NETGEAR XS508TM 8 埠 10G Smart Managed 交換器",
-      "currentPrice": 52080,
+      "currentPrice": 53760,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://store.netbridgetech.com.tw/products/xs508tm",
       "currentBuyLabel": "NetBridge 台灣代理商城",
@@ -37577,7 +37577,7 @@
       "brand": "Ergohuman",
       "model": "特仕版 2.0",
       "name": "特仕版 2.0 人體工學椅",
-      "currentPrice": 11900,
+      "currentPrice": 9999,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DCAKHP-A900HEQ4H",
       "currentBuyLabel": "PChome",
@@ -37937,7 +37937,7 @@
       "currentPrice": 13410,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DCAKFO-A900BWWGS",
-      "currentBuyLabel": "PChome（預購 11/15–11/17 出貨）",
+      "currentBuyLabel": "PChome（預購／交期待確認）",
       "historicalLow": {
         "status": "found",
         "amount": 13410,
@@ -40228,7 +40228,7 @@
       "brand": "Dell",
       "model": "Alienware AW3225QF",
       "name": "32 型 4K 240Hz OLED Alienware 電競螢幕",
-      "currentPrice": 33888,
+      "currentPrice": 32193,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DSABOK-A900HB1B5",
       "currentBuyLabel": "PChome",
@@ -40268,8 +40268,8 @@
         "[2026-07-11] 現價查核例外：BigGo: HTTP 429",
         "[2026-07-11] 現價查核例外：No in-stock exact-model authoritative offer was verified; preserved the existing catalog offer."
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "monitor-acer-ed343cur-j0",
@@ -40708,7 +40708,7 @@
       "brand": "Samsung",
       "model": "S49DG932SCXZW",
       "name": "49 型 Odyssey OLED G9 Dual QHD 240Hz 曲面螢幕",
-      "currentPrice": 36900,
+      "currentPrice": 34800,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900HZCPE",
       "currentBuyLabel": "PChome",
@@ -40855,7 +40855,7 @@
       "brand": "Samsung",
       "model": "S57CG952NC",
       "name": "57 型 Odyssey Neo G9 Dual UHD 240Hz Mini LED 曲面螢幕",
-      "currentPrice": 69900,
+      "currentPrice": 63990,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900GQLSE",
       "currentBuyLabel": "PChome",
@@ -41555,7 +41555,7 @@
       "currentPrice": 2549,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DCBBC5-A900JM6ZN",
-      "currentBuyLabel": "PChome（原通路缺貨，查看供貨）",
+      "currentBuyLabel": "PChome（原刊登已售完，查看供貨）",
       "historicalLow": {
         "status": "found",
         "amount": 2549,
@@ -41724,7 +41724,7 @@
       "currentPrice": 2459,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DCAGRJ-A900JZFGW",
-      "currentBuyLabel": "PChome（原通路缺貨，查看供貨）",
+      "currentBuyLabel": "PChome（原刊登已售完，查看供貨）",
       "historicalLow": {
         "status": "found",
         "amount": 2459,
@@ -42557,7 +42557,7 @@
       "name": "ScreenBar Pro 入席偵測螢幕掛燈",
       "currentPrice": 4290,
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DSABP4-A900HGJLQ",
-      "currentBuyLabel": "PChome 24h 太空黑新品",
+      "currentBuyLabel": "PChome（原刊登已售完，查看供貨）",
       "category": "monitor-light",
       "currentCurrency": "TWD",
       "priceBasis": "retailer_current",
@@ -46234,7 +46234,7 @@
       "brand": "Logitech",
       "model": "920-012313",
       "name": "Wave Keys 人體工學鍵盤（石墨灰中文注音）",
-      "currentPrice": 1890,
+      "currentPrice": 1990,
       "currentBuyUrl": "https://store.logitech.tw/collections/%E7%84%A1%E7%B7%9A%E9%8D%B5%E7%9B%A4/products/wavekeys",
       "currentBuyLabel": "Logi 台灣官方旗艦店",
       "currentCurrency": "TWD",
@@ -49957,7 +49957,7 @@
       "currentPrice": 799,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DQCI0J-A900JTB2E",
-      "currentBuyLabel": "PChome 24h NITORI 宜得利新品頁（預購／交期待確認）",
+      "currentBuyLabel": "PChome（預購／交期待確認）",
       "priceBasis": "retailer_current",
       "priceLabel": "通路現價",
       "historicalLow": {
@@ -53329,7 +53329,7 @@
       "priceBasis": "retailer_current",
       "priceLabel": "通路現價",
       "currentBuyUrl": "https://tw.store.ui.com/tw/zh-tw/products/u7-pro-xg?variant=u7-pro-xg-b",
-      "currentBuyLabel": "Ubiquiti 台灣官方商店",
+      "currentBuyLabel": "Ubiquiti 台灣官方商店（黑色缺貨／預計11月26日補貨）",
       "historicalLow": {
         "status": "not_found",
         "amount": null,
@@ -56787,7 +56787,7 @@
       "currentPrice": 17111,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://taiwan.roborock.com/products/roborock-f25-ultra-steam-gen2",
-      "currentBuyLabel": "Roborock台灣（預購，11月中旬陸續出貨）",
+      "currentBuyLabel": "Roborock 石頭台灣官方（預購／交期待確認）",
       "historicalLow": {
         "status": "not_found",
         "amount": null,
@@ -58887,7 +58887,7 @@
       "currentPrice": 31500,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://shop.ljtwm.com/products/philips-ddl902-mfvp?variant=43280997449937",
-      "currentBuyLabel": "飛利浦台灣總代理（預購）",
+      "currentBuyLabel": "飛利浦台灣總代理商城（預購／交期待確認）",
       "historicalLow": {
         "status": "not_found",
         "amount": null,
@@ -62313,6 +62313,82 @@
       "rejectedCandidates": [
         "11/10 曲線缺當日庫存或條件。",
         "個人賣場、券、點數與信用卡回饋排除。"
+      ]
+    },
+    {
+      "id": "mouse-logitech-mobi-fold",
+      "category": "mouse",
+      "brand": "Logitech",
+      "model": "Mobi Fold",
+      "name": "Mobi Fold 珍珠白 910-007634 無線折疊滑鼠（不附接收器）",
+      "currentPrice": 2690,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DCAN87-A900K9KMM",
+      "currentBuyLabel": "PChome 24h 購物（廠商出貨）",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-11-22",
+        "note": "Lowcast同PChome SKU無歷史頁；BigGo同珍珠白SKU僅顯示今日2690，飛比2490候選與momo原頁2690不一致，且含不同顏色/Business/套裝。Mobile01的2483含卡與支付回饋，不採。尚無同台灣版本可回溯、公開新品條件完整的歷史最低價證據。"
+      },
+      "checkedSources": [
+        "https://price.shhwa.cc/product/pchome/DCAN87-A900K9KMM",
+        "https://biggo.com.tw/s/910-007634/",
+        "https://feebee.com.tw/s/logitech%20mobi/",
+        "https://www.momoshop.com.tw/product/15333007",
+        "https://www.mobile01.com/topicdetail.php?f=497&t=7270956",
+        ""
+      ],
+      "priceChecks": [
+        {
+          "query": "DCAN87-A900K9KMM",
+          "url": "https://price.shhwa.cc/product/pchome/DCAN87-A900K9KMM",
+          "purpose": "同SKU歷史價格查詢",
+          "outcome": "HTTP404，沒有可採歷史。"
+        },
+        {
+          "query": "910-007634",
+          "url": "https://biggo.com.tw/s/910-007634/",
+          "purpose": "同SKU跨通路比價/歷史候選",
+          "outcome": "今日原頁HTTP200只列酷澎同珍珠白2690且價格持平；不當史低證據。"
+        },
+        {
+          "query": "Logitech Mobi",
+          "url": "https://feebee.com.tw/s/logitech%20mobi/",
+          "purpose": "價格變化及跨通路候選",
+          "outcome": "今日原頁列momo2490與其他顏色優惠；momo實際原頁2690不一致，未採2490。"
+        },
+        {
+          "query": "Mobi",
+          "url": "https://www.momoshop.com.tw/product/15333007",
+          "purpose": "原零售商驗證比較來源候選",
+          "outcome": "原頁2690，含三色選項；尚未確認同珍珠白的2490與日期條件，保留PChome精確色現價。"
+        },
+        {
+          "query": "Mobi",
+          "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7270956",
+          "purpose": "歷史促銷條件判讀",
+          "outcome": "2483包含107元信用卡及100元支付回饋，排除。"
+        },
+        {
+          "url": "",
+          "query": "Mobi Fold 公開價格",
+          "kind": "retailer_price",
+          "outcome": "採用：exact-model 公開新品價 TWD null"
+        }
+      ],
+      "rejectedCandidates": [
+        "2483為卡與支付回饋。",
+        "飛比momo2490與原頁2690不一致，且不同顏色和套裝不可混用。"
       ]
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-20",
+  "checkedAt": "2026-11-22",
   "methodVersion": 3,
   "policy": "每筆決策須保存 exact-model 跨站查詢與人工 attestation；每個搜尋候選須逐頁保存摘要、獨立作者數與具體排除理由，研究工具不得自行生成拒絕結論。",
   "results": [
@@ -101528,6 +101528,525 @@
         }
       ],
       "reviewerNote": "FK1-DW：本次人工閱讀 Mobile01 試用文、PChome 同 SKU 的兩則評價及 Reddit 同型號到貨留言。尾殼裝配公差、按鍵硬度／適應與主觀續航分開判讀，沒有跨站六名同問題。Mobile01 同文在巴哈姆特／ePrice 的跨貼不新增作者；巴哈姆特直讀403不作故障排除依據，原始主文已於 Mobile01 讀取。",
+      "attestation": "manual_original_pages_reviewed",
+      "status": "completed"
+    },
+    {
+      "id": "mouse-logitech-mobi-fold",
+      "category": "mouse",
+      "brand": "Logitech",
+      "model": "Mobi Fold",
+      "name": "Mobi Fold 珍珠白 910-007634 無線折疊滑鼠（不附接收器）",
+      "reviewedAt": "2026-11-22",
+      "reviewBatch": "mouse",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "Reddit"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"Mobi Fold\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Mobi%20Fold%22"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"Mobi Fold\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Mobi%20Fold%22"
+        }
+      ],
+      "candidateDisposition": "Mobi Fold：逐頁讀取兩個原始網站並區分觸控捲動（4位；把區域適應併入亦僅5位）、中鍵按住（7位、僅Reddit）、tap映射及折疊誤觸。廣義同款亦未達同一問題6位且2站，台灣910-007634與未知SKU不擅自互換。",
+      "representativeSources": [
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7269182&p=2",
+          "title": "羅技 Mobi 無線摺疊滑鼠採訪與回覆（第2頁）"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7269182&p=3",
+          "title": "羅技 Mobi 無線摺疊滑鼠採訪與回覆（第3頁）"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7269182&p=4",
+          "title": "羅技 Mobi 無線摺疊滑鼠採訪與回覆（第4頁）"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7269182&p=5",
+          "title": "羅技 Mobi 無線摺疊滑鼠採訪與回覆（第5頁）"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7270956",
+          "title": "網家618羅技 Mobi 無線折疊滑鼠特價"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7270956&p=2",
+          "title": "網家618羅技 Mobi 無線折疊滑鼠特價（第2頁）"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7270956&p=3",
+          "title": "網家618羅技 Mobi 無線折疊滑鼠特價（第3頁）"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/logitech/comments/1vhvrby/mobi_fold_new_user/",
+          "title": "Mobi Fold new user"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/logitech/comments/1u9ngvl/just_got_the_mobi_fold_but_wait_no_middle_click/",
+          "title": "Just got the Mobi Fold, but wait... no middle click?"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/logitech/comments/1ucq3a6/mobi_fold_click_and_hold_middle_button/",
+          "title": "Mobi Fold Click and Hold - Middle Button"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/logitech/comments/1ve7cil/the_mobi_fold_is_a_wasted_opportunity/",
+          "title": "The Mobi fold is a wasted opportunity"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/logitech/comments/1x8rjl6/4month_review_of_the_mobi_fold/",
+          "title": "4-Month Review of the Mobi Fold (r/logitech)"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/MouseReview/comments/1xgsk8y/4month_review_of_the_mobi_fold/",
+          "title": "4-Month Review of the Mobi Fold (r/MouseReview)"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/logitech/comments/1v6swvm/comment/p0az6y6/?force-legacy-sct=1",
+          "title": "Mobi Fold Not Connecting To Windows 11? 原作者解決回覆"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/bluetooth/comments/1v71vkf/mobi_fold_not_connecting_to_windows_11/",
+          "title": "Mobi Fold Not Connecting To Windows 11? (r/bluetooth)"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/logitech/comments/1vgv54h/mobi_fold_review/",
+          "title": "Mobi Fold review"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/MouseReview/comments/1u236db/logitech_mobi_fold/",
+          "title": "logitech mobi fold"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/logitech/comments/1ugqjmt/i_bought_the_logitech_mobi_fold_but/",
+          "title": "I bought the Logitech 'Mobi Fold', but..."
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/logitech/comments/1xc5jq1/suggestion_how_to_enable_the_action_ring_feature/",
+          "title": "Suggestion: How to enable the Action Ring feature by tapping the center of the Mobi Fold?"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/logitech/comments/1xspkfy/logi_options_cant_map_all_functions/",
+          "title": "Logi Options+ - Can't map all functions?"
+        }
+      ],
+      "candidateReviews": [
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7269182&p=2",
+          "title": "羅技 Mobi 無線摺疊滑鼠採訪與回覆（第2頁）",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "Kang-Wei Tzou",
+            "Motor123",
+            "fhd01",
+            "唬唬生瘋",
+            "KHeresy"
+          ],
+          "locator": "文章93241594、93241649、93241853、93242129、93242133",
+          "sourceExcerpt": "Kang-Wei Tzou及唬唬生瘋談微軟Arc；Motor123只說曾用過；fhd01詢問耐用性，KHeresy只說過往類似設計手感差。",
+          "specificReason": "原文沒有這幾名作者發生Mobi同一故障的敘述；Arc回報、未發生的耐用疑慮與未使用前印象不能計入Mobi故障。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-22",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7269182&p=3",
+          "title": "羅技 Mobi 無線摺疊滑鼠採訪與回覆（第3頁）",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "戀上微風",
+            "星辰之夜",
+            "ra1xp"
+          ],
+          "locator": "文章93244539／#28、#23、#25",
+          "sourceExcerpt": "戀上微風明確說自己持有的是MS ARC，抱怨難握與固定後來失效；其餘是價格、外型或未使用前感想。",
+          "specificReason": "原頁明示故障屬MS ARC而非Mobi Fold，不能將競品的握感或支架故障轉用本款。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-22",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7269182&p=4",
+          "title": "羅技 Mobi 無線摺疊滑鼠採訪與回覆（第4頁）",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "reviewedAuthors": [
+            "sonozaki",
+            "jimmyyeh2009",
+            "mopandarock",
+            "hbpk5310"
+          ],
+          "locator": "#40文章93272739、#32文章93248317、#39文章93267834",
+          "sourceExcerpt": "sonozaki明說買了一顆，指出折起變厚、不能攤平、沒有滾輪震動，並正在拆解；類皮革未來會黏是預測。jimmyyeh2009明說自己買微軟Arc。",
+          "specificReason": "只有一位可確認Mobi購買者的設計取捨；無震動不是捲動不回應，預測塗層變黏不是已發生故障。其他作者談Arc、想像坐壞或尚未用過，不合併。",
+          "variantBoundary": "原文未列台灣910-007634／consumer或Business，不假定精確SKU。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-22",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7269182&p=5",
+          "title": "羅技 Mobi 無線摺疊滑鼠採訪與回覆（第5頁）",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "reviewedAuthors": [
+            "koalaaa5"
+          ],
+          "locator": "#43文章93372506，2026-07-19",
+          "sourceExcerpt": "koalaaa5明示購買，認為滾輪部分不好用，並肯定折疊後小且方便攜帶。",
+          "specificReason": "一位Mobi觸控捲動體驗回報，未列SKU、作業系統或韌體。即將廣義同款候選都納入上限，跨站同現象僅4人，仍低於6人門檻。",
+          "variantBoundary": "未能直接綁定910-007634，保留症狀而不補造版本。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-22",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7270956",
+          "title": "網家618羅技 Mobi 無線折疊滑鼠特價",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "bossDanny3",
+            "夜色尚淺",
+            "本因坊46段",
+            "kookd"
+          ],
+          "locator": "文章93261590／#1及回覆",
+          "sourceExcerpt": "主文是2690元減聯名卡107與行動支付100的2483元計算，其他回覆主要問握感或談價格。",
+          "specificReason": "信用卡回饋不得當公開史低；價格與未使用前握感問題沒有同一產品故障敘述，無可計獨立故障作者。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-22",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7270956&p=2",
+          "title": "網家618羅技 Mobi 無線折疊滑鼠特價（第2頁）",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "supernovayes",
+            "luckyfullhouse",
+            "shiangheng",
+            "kenshin1001",
+            "M013761093",
+            "AKGGG",
+            "AKA阿翰",
+            "大王王David",
+            "bossDanny3"
+          ],
+          "locator": "第2頁 #11–#20；原生瀏覽器2026-11-22重開",
+          "sourceExcerpt": "shiangheng明說這款不考慮，自己正在用M720；luckyfullhouse偏好常規滑鼠但未述買Mobi。其他回覆討論刻字、烤箱、Acer/MSI筆電及卡回饋。",
+          "specificReason": "今日web讀取失敗後以原生瀏覽器讀原頁；不能把促銷聊天、其他商品價格與先前未使用者提問視為Mobi故障。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-22",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7270956&p=3",
+          "title": "網家618羅技 Mobi 無線折疊滑鼠特價（第3頁）",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "bossDanny3"
+          ],
+          "locator": "#21文章93310145、#22文章93310147、#23文章93310148",
+          "sourceExcerpt": "樓主三則回覆談MSI筆電遊戲用途、羅技價格及蘋果漲價，沒有Mobi使用故障。",
+          "specificReason": "此頁沒有第一人稱Mobi同一問題證據；同一作者連續回覆也不能當多位使用者。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-22",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/logitech/comments/1vhvrby/mobi_fold_new_user/",
+          "title": "Mobi Fold new user",
+          "exactModel": true,
+          "independentAuthors": 2,
+          "reviewedAuthors": [
+            "ToNeG24",
+            "InMyHumbleOpin",
+            "Logi_Emily",
+            "Swiftstormers",
+            "mrdmp1"
+          ],
+          "locator": "ToNeG24使用後回覆；InMyHumbleOpin末則回覆",
+          "sourceExcerpt": "ToNeG24描述必須手指置中且捲動不一致；InMyHumbleOpin描述摩擦疲勞與滑動常不產生捲動。Swiftstormers補充Linux與Windows中鍵設定不同。",
+          "specificReason": "可辨識兩位觸控捲動候選；Logi_Emily為員工不計。與gvracer、koalaaa5合計上限4位跨兩站，仍不達六位；軟體版本與SKU不明如實保留。",
+          "variantBoundary": "未列台灣910-007634；不拿不同OS的正向回覆否定其他人的症狀。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-22",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/logitech/comments/1u9ngvl/just_got_the_mobi_fold_but_wait_no_middle_click/",
+          "title": "Just got the Mobi Fold, but wait... no middle click?",
+          "exactModel": true,
+          "independentAuthors": 5,
+          "reviewedAuthors": [
+            "Relevant-Recover7709",
+            "No-Ingenuity5166",
+            "Siostra_Basen",
+            "Same-Gap-9",
+            "gvracer",
+            "nickthaskater_",
+            "Fancybanshee1",
+            "TungstenOrchid",
+            "Swiftstormers"
+          ],
+          "locator": "主文及AdvancedClick、中鍵hold、gvracer及nickthaskater_分支",
+          "sourceExcerpt": "樓主找到AdvancedClick可映射中鍵。No-Ingenuity5166、Siostra_Basen與Same-Gap-9描述按住只成單擊；gvracer說捲動延遲。nickthaskater_是Windows/Android觸控tap未映射與設定不跨裝置。",
+          "specificReason": "三位中鍵按住者與另串去重後共7位且只Reddit；gvracer另列觸控捲動。nickthaskater_不能誤算中鍵按住；Fancybanshee1只問解法，TungstenOrchid是耐用疑慮。樓主跨貼去重。",
+          "variantBoundary": "白色包裝照片未讀出910-007634；其他作者未明示consumer/Business與軟體版本，不能推定台灣SKU。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-22",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/logitech/comments/1ucq3a6/mobi_fold_click_and_hold_middle_button/",
+          "title": "Mobi Fold Click and Hold - Middle Button",
+          "exactModel": true,
+          "independentAuthors": 5,
+          "reviewedAuthors": [
+            "No-Ingenuity5166",
+            "PrincessKaylee",
+            "Top-Worldliness-6688",
+            "chrisbezd",
+            "TheRealCaptainFist",
+            "Fancybanshee1",
+            "logi_sm"
+          ],
+          "locator": "主文、各作者回覆及TheRealCaptainFist的XMouse後續",
+          "sourceExcerpt": "五名作者分別在Revit、Genshin、SolidWorks、Fusion360及AutoCAD說中鍵無法按住。TheRealCaptainFist另以XMouse重映射可工作；官方給workaround。",
+          "specificReason": "No-Ingenuity5166與另一串是同人，兩串合計7名且全Reddit，不達跨2站。官方回應及提問者不算獨立作者，XMouse workaround不代表Options+正式修復。",
+          "variantBoundary": "各自SKU與版本未完整明示；不把廣義同款症狀抹除，也不聲稱每個台灣SKU必然有此問題。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-22",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/logitech/comments/1ve7cil/the_mobi_fold_is_a_wasted_opportunity/",
+          "title": "The Mobi fold is a wasted opportunity",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "reviewedAuthors": [
+            "davidmmx",
+            "Logi_Emily",
+            "mingkee",
+            "Swiftstormers"
+          ],
+          "locator": "davidmmx主文及Swiftstormers Linux回覆",
+          "sourceExcerpt": "davidmmx習慣T630/Arc整片可捲，使用Mobi常把手指留在左側；Swiftstormers偏好中間分區及Linux按鈕配置。",
+          "specificReason": "作者抱怨觸控有效區域與習慣，和置中仍不回應的症狀分開；即保守併為第五位廣義觸控取捨，仍不足六人。Logi_Emily員工排除。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-22",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/logitech/comments/1x8rjl6/4month_review_of_the_mobi_fold/",
+          "title": "4-Month Review of the Mobi Fold (r/logitech)",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "reviewedAuthors": [
+            "Relevant-Recover7709",
+            "Logi_Emily"
+          ],
+          "locator": "主文四段與官方員工回覆",
+          "sourceExcerpt": "樓主明說中鍵指派已變容易；另談腳貼吸塵、折疊會誤觸及缺水平捲動，並仍肯定旅行用途。",
+          "specificReason": "同一樓主早期缺中鍵文章及另一subreddit同文去重。腳貼、折疊誤觸與功能取捨是不同現象，不與觸控捲動不回應或中鍵hold湊數；員工不計。",
+          "crossPostKey": "reddit-relevant-recover7709-mobi-4month",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-22",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/MouseReview/comments/1xgsk8y/4month_review_of_the_mobi_fold/",
+          "title": "4-Month Review of the Mobi Fold (r/MouseReview)",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "Relevant-Recover7709",
+            "paulvincent07"
+          ],
+          "locator": "主文與paulvincent07唯一可見回覆",
+          "sourceExcerpt": "主文與r/logitech四月心得逐段相同且作者相同；paulvincent07只問不同折疊滑鼠是否有相同功能。",
+          "specificReason": "完全同作者跨貼使用同一crossPostKey，不新增作者或網站。功能提問沒有第一人稱同故障。",
+          "crossPostKey": "reddit-relevant-recover7709-mobi-4month",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-22",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/logitech/comments/1v6swvm/comment/p0az6y6/?force-legacy-sct=1",
+          "title": "Mobi Fold Not Connecting To Windows 11? 原作者解決回覆",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "reviewedAuthors": [
+            "Her0brine605",
+            "logi_sm"
+          ],
+          "locator": "Her0brine605 p0az6y6",
+          "sourceExcerpt": "作者原先電腦找不到滑鼠但手機可連；後續確認忘了更新PC藍牙驅動，更新後已能正常使用。",
+          "specificReason": "原作者已回報驅動更新解決，不能以未讀的早期主文指稱持續性產品藍牙故障；客服不算獨立消費者。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-22",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/bluetooth/comments/1v71vkf/mobi_fold_not_connecting_to_windows_11/",
+          "title": "Mobi Fold Not Connecting To Windows 11? (r/bluetooth)",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "Her0brine605"
+          ],
+          "locator": "主文與r/logitech主文逐字相同",
+          "sourceExcerpt": "與Her0brine605在r/logitech的Windows11無法發現滑鼠貼文同文。",
+          "specificReason": "同一作者相同藍牙個案跨貼，原作者在r/logitech後續已解決；Reddit不同subreddit仍是同一網站。",
+          "crossPostKey": "reddit-her0brine605-mobi-bluetooth",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-22",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/logitech/comments/1vgv54h/mobi_fold_review/",
+          "title": "Mobi Fold review",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "reviewedAuthors": [
+            "mingkee",
+            "Logi_Emily"
+          ],
+          "locator": "mingkee主文與Logi_Emily版本說明",
+          "sourceExcerpt": "mingkee稱讚快捲、三裝置、易攜與左右手通用，缺點為USB僅充電及需適應；員工說明只有Business版隨附Bolt。",
+          "specificReason": "用途與操作取捨沒有可合併同故障；員工說明用來區分包裝，不計獨立作者，也不拿Business附件規格套用台灣consumer版。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-22",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/MouseReview/comments/1u236db/logitech_mobi_fold/",
+          "title": "logitech mobi fold",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "devilung",
+            "paulvincent07"
+          ],
+          "locator": "主文及可見兩則供應地區回覆",
+          "sourceExcerpt": "devilung只連韓國官方產品頁，paulvincent07問是否僅韓國供貨，樓主答全球。",
+          "specificReason": "海外發表/供貨轉貼沒有第一人稱使用問題或台灣精確SKU證據，不作災情作者。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-22",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/logitech/comments/1ugqjmt/i_bought_the_logitech_mobi_fold_but/",
+          "title": "I bought the Logitech 'Mobi Fold', but...",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "reviewedAuthors": [
+            "Obvious-Medicine8775",
+            "Logitech_Alex",
+            "jsjxyz",
+            "PCchampion"
+          ],
+          "locator": "Obvious-Medicine8775主文及後續",
+          "sourceExcerpt": "樓主想讓中央touch功能不只放大縮小；稱易攜且電池充電快、續航長。其他人問能否玻璃表面使用。",
+          "specificReason": "這是觸控tap功能選擇需求，和觸控捲動不回應、中鍵hold不同。玻璃相容詢問不是實際故障；官方員工不計。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-22",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/logitech/comments/1xc5jq1/suggestion_how_to_enable_the_action_ring_feature/",
+          "title": "Suggestion: How to enable the Action Ring feature by tapping the center of the Mobi Fold?",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "Obvious-Medicine8775",
+            "logi_sm"
+          ],
+          "locator": "主文與logi_sm回覆",
+          "sourceExcerpt": "同一Obvious-Medicine8775再提SmartZoom用途有限，希望中央觸控能開ActionsRing；客服承諾轉交。",
+          "specificReason": "同作者同一功能願望去重，不是新增硬體故障。搜尋摘要與原頁可見後續不一致，不用摘要宣稱修復或已新增功能。",
+          "crossPostKey": "reddit-obviousmedicine8775-mobi-touch-mapping",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-22",
+          "reviewBasis": "manual_web_original_page"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/logitech/comments/1xspkfy/logi_options_cant_map_all_functions/",
+          "title": "Logi Options+ - Can't map all functions?",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "reviewedAuthors": [
+            "jayceedental",
+            "Logi_Emily",
+            "MatterOk1923",
+            "Kobe4582445",
+            "cosmicwebby"
+          ],
+          "locator": "jayceedental主文、Windows11設定兩張圖及回覆",
+          "sourceExcerpt": "jayceedental在Windows11的Options+能改實體中間鍵但不能映射touch tap；LogiTune反而可映射tap而不能改實體鍵，兩app不能同時用。",
+          "specificReason": "一名特定Windows11軟體映射取捨，與按住只成單擊及滑動不回應分開；無同現象跨站六名。員工/第三方工具建議/提問不算故障作者。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-22",
+          "reviewBasis": "manual_web_original_page"
+        }
+      ],
+      "reviewerNote": "Mobi Fold：官方台灣910-007634頁確認consumer珍珠白、Options+支援及不附Bolt；跨站精確型號查詢後手讀原頁，擴大保留同款但SKU/OS/版本不明的症狀。7位中鍵hold皆Reddit，nickthaskater_實為tap/跨裝置問題，已自hold計數移除。官方2026-11-17 Options+3.0.1024647/48將中鍵hold症狀放在New features下，語意不足以證明修復，原頁無更新版本逐人確認，故不宣稱已解決。不同現象、員工、同作者與跨貼去重；本判定只表示未達門檻，少數症狀列於產品cons。",
       "attestation": "manual_original_pages_reviewed",
       "status": "completed"
     }

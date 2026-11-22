@@ -335,14 +335,15 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/7fef7b5a3d-Gd-10538421.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 21032,
-      "converted": 21032,
-      "confidence": "Yahoo購物中心 2026-07-21 頁面公開價",
-      "note": "Yahoo 原商品主區顯示此賣場已停售；保留先前參考價，供貨待查。"
+      "amount": 23900,
+      "converted": 23900,
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-22 賈維斯同NA-V190MT-PN玫瑰金19kg公開NT$23,900，可下單；含基礎配送，未明示是否含標準安裝或舊機回收。無電梯2樓起每樓200元、跨區/偏遠及拆門等另計；原頁寫原廠授權保固但未列年期，送貨範圍及保固細節依商家確認。未扣會員、點數或私訊價。",
+      "basis": "retailer_current"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心（此賣場已停售）",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic%E5%9C%8B%E9%9A%9B%E7%89%8C-19%E5%85%AC%E6%96%A4-%E9%9B%99%E7%A7%91%E6%8A%80%E8%AE%8A%E9%A0%BB%E7%9B%B4%E7%AB%8B%E5%BC%8F%E6%B4%97%E8%A1%A3%E6%A9%9F-NA-V190MT-PN-%E7%8E%AB%E7%91%B0%E9%87%91-10097010.html",
+    "buyLabel": "賈維斯智能家居（同型號玫瑰金）",
+    "buyUrl": "https://www.jarvis.com.tw/appliances/panasonic/washing-machine/panasonic-na-v190mt-pn/",
     "specs": [
       "洗衣機：Panasonic國際牌 19KG 變頻直立式洗衣機 NA-V190MT-PN 玫瑰金",
       "容量：19kg",
@@ -351,7 +352,7 @@
       "變頻：有標示",
       "溫水洗：依商品頁標示",
       "需確認進排水、插座、門向與安裝空間",
-      "Yahoo購物 可信通路低價；排除洗脫烘、福利品、展示機與配件頁"
+      "賈維斯同型號玫瑰金新品頁；排除洗脫烘、福利品、展示機與配件頁"
     ],
     "description": "涵蓋直立式與滾筒式洗衣機，依容量、變頻、省水、省電、品牌售後與安裝門檻排序。",
     "pros": [
@@ -367,7 +368,7 @@
     "bestFor": "想依家庭人口、衣物量與空間限制挑選單洗功能的人。",
     "recommendation": "洗衣機第 4 推薦：Panasonic NA-V190MT-PN 以容量、可信通路價格與台灣售後風險綜合評估，適合納入比較。",
     "voltage": "110V 台灣通路；需確認進排水、專用插座、地面水平與安裝空間",
-    "warranty": "依可信通路與品牌/供應商頁面標示；大型家電安裝與搬運費依通路方案",
+    "warranty": "賈維斯原頁標示「原廠授權保固」，年限未標示；以商家與Panasonic台灣保固條件確認為準。基本配送已含，標準安裝、舊機回收是否含於售價未標示，樓層、偏遠與拆門等另計。",
     "score": 93,
     "budget": "mid",
     "tags": [
@@ -428,6 +429,10 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "原頁僅明示已包含基礎配送，未明示標準安裝或舊機回收包含於NT$23,900；無電梯2樓起每樓200元，跨區/偏遠、拆門、吊運、舊機移機等依原頁另計，配送區域需向服務人員確認。"
     }
   },
   {
@@ -764,8 +769,8 @@
       "currency": "TWD",
       "amount": 7990,
       "converted": 7990,
-      "confidence": "2026-11-21 核對原商品預購／供貨狀態，保留上次參考價",
-      "note": "原商品配送主區明示預購；[預購12/5出貨]SAMPO 聲寶10公斤窄身變頻單槽直立式洗衣機WM-MD10 香檳金 含基本安裝+舊機回收。金額為先前參考價，實際下單與交期請向通路確認。",
+      "confidence": "2026-11-22 核對原商品供貨狀態，保留上次參考價",
+      "note": "2026-11-22 原商品頁仍為預購，預計12/5出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -975,8 +980,8 @@
       "currency": "TWD",
       "amount": 6511,
       "converted": 6511,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-10-31 原頁同型號主商品公開價，可購；不把參考刪除價、相關商品、加價配件、個人券、點數或信用卡回饋扣入。",
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-22 PChome 同WM10KW公開價NT$6,511，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-25T23:59:59+08:00。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -1187,10 +1192,11 @@
       "currency": "TWD",
       "amount": 8190,
       "converted": 8190,
-      "confidence": "PChome 2026-10-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "2026-11-22 核對原商品供貨狀態，保留上次參考價",
+      "note": "2026-11-22 原同款刊登顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "channel": "tw",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原刊登已售完，查看供貨）",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAIB6-A900IM3H3",
     "specs": [
       "洗衣機：【HERAN 禾聯】10KG變頻 銀離子抗菌直立式洗衣機HWM-1061V",
@@ -1291,8 +1297,8 @@
       "currency": "TWD",
       "amount": 8990,
       "converted": 8990,
-      "confidence": "2026-11-21 核對原商品預購／供貨狀態，保留上次參考價",
-      "note": "原商品配送主區明示預購；[預購12/5出貨]SAMPO聲寶 10公斤窄身變頻單槽直立式洗衣機ES- K10DF香檳金 含基本安裝+舊機回收。金額為先前參考價，實際下單與交期請向通路確認。",
+      "confidence": "2026-11-22 核對原商品供貨狀態，保留上次參考價",
+      "note": "2026-11-22 原商品頁仍為預購，預計12/5出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -2334,13 +2340,13 @@
       "currency": "TWD",
       "amount": 18810,
       "converted": 18810,
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "confidence": "2026-11-22 核對原商品供貨狀態，保留上次參考價",
       "basis": "retailer_current",
-      "note": "Costco #136412 主商品規格明示晶漾銀、缺貨。Panasonic 台灣官方商城將晶漾銀同系列完整型號列作 NA-V120HW-G；PChome exact SKU 主區與 API 均為 NT$18,810，Qty 2，加入購物車可用，含基本運送、安裝及舊機回收。"
+      "note": "2026-11-22 原同款刊登顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/he0/h00/103644752314398.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/QBAR29-A900A63AZ",
-    "buyLabel": "PChome 24h 購物",
+    "buyLabel": "PChome（原刊登已售完，查看供貨）",
     "specs": [
       "12 公斤",
       "滾筒式",
@@ -2547,9 +2553,9 @@
       "currency": "TWD",
       "amount": 20690,
       "converted": 20690,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$20690，API Qty 5；個人券、點數、信用卡回饋及配送安裝費另計。"
+      "note": "2026-11-22 PChome 同SF-170ZHV公開價NT$20,690，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMBM1PA900IE3KH/000001_1775150195.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM1P-A900IE3KH",

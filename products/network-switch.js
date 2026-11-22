@@ -1168,8 +1168,9 @@
       "currency": "TWD",
       "amount": 6900,
       "converted": 6900,
-      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "basis": "retailer_current"
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
+      "basis": "retailer_current",
+      "note": "2026-11-22 PChome 同QSW-L2110-2S8T公開價NT$6,900，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "installation": {
       "status": "excluded",
@@ -2219,10 +2220,11 @@
     "type": "10g",
     "price": {
       "currency": "TWD",
-      "amount": 52080,
-      "converted": 52080,
-      "confidence": "2026-10-24 人工核對 store.netbridgetech.com.tw 同型號與所選版本公開價 TWD 52080，可下單；未扣會員、信用卡或點數。",
-      "basis": "retailer_current"
+      "amount": 53760,
+      "converted": 53760,
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
+      "basis": "retailer_current",
+      "note": "2026-11-22 NetBridge台灣代理原商品XS508TM公開NT$53,760，可下單，台灣公司貨及五年保固；未扣個人券、回饋或配件組合。"
     },
     "installation": {
       "status": "excluded",
@@ -2357,9 +2359,9 @@
       "currency": "TWD",
       "amount": 24990,
       "converted": 24990,
-      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "原 PChome 刊登已無可購動作。PChome 同型無網管 QSW-3216R-8S8T 台灣新品公開單件 89 折 NT$24,990（11/01–11/30），API Qty 19；排除折價券、點數及持卡回饋。"
+      "note": "2026-11-22 PChome 同QSW-3216R-8S8T公開價NT$24,990，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "installation": {
       "status": "excluded",

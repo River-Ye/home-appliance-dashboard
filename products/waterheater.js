@@ -4961,11 +4961,12 @@
     "name": "Dajinan 大金安 DJNHP-200L 一體式空氣源熱泵熱水器",
     "price": {
       "currency": "TWD",
-      "amount": 48200,
-      "converted": 48200,
-      "confidence": "Dajinan 大金安品牌直營 DJNHP-200L exact-model 新品公開價 2026-08-14 exact-model 公開新品價",
+      "amount": 49000,
+      "converted": 49000,
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "scope": "single_unit"
+      "scope": "single_unit",
+      "note": "2026-11-22 Dajinan 大金安原商品DJNHP-200L完整一體機公開NT$49,000，含送貨、不含安裝；標準安裝另NT$6,000，樓層搬運及吊車另計，實際施工依現場。"
     },
     "installation": {
       "status": "excluded",

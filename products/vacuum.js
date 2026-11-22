@@ -116,13 +116,13 @@
       "currency": "TWD",
       "amount": 17111,
       "converted": 17111,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "confidence": "2026-11-22 核對原商品供貨狀態，保留上次參考價",
       "basis": "retailer_current",
-      "note": "PChome 原商品主區及 SKU DMAX8K-A900HLX9W 公開價格 NT$17,111。API Qty 1，以通路配送、安裝條件為準。"
+      "note": "2026-11-22 原同款刊登顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX8KA900HLX9W/000001_1744871467.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAX8K-A900HLX9W",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原刊登已售完，查看供貨）",
     "specs": [
       "280W 吸力",
       "自動集塵",
@@ -214,13 +214,13 @@
       "currency": "TWD",
       "amount": 11111,
       "converted": 11111,
-      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。",
+      "confidence": "2026-11-22 核對原商品供貨狀態，保留上次參考價",
+      "note": "2026-11-22 原同款刊登顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX8KA900JI8XJ/000001_1764582934.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAX8K-A900JI8XJ",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原刊登已售完，查看供貨）",
     "specs": [
       "無線吸塵",
       "濕拖吸頭",
@@ -3231,12 +3231,12 @@
       "amount": 17111,
       "converted": 17111,
       "basis": "retailer_current",
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-04 Roborock所選F25UltraSteamGen2主商品17111，本輪SKUInStock且庫存25、可加車；原頁仍明示預購、預計11月中旬依訂單陸續出貨，不稱即時現貨。"
+      "confidence": "2026-11-22 核對原商品供貨或版本邊界，保留上次參考價",
+      "note": "2026-11-22 Roborock原頁WD6Y8A仍標預購，並保留「預計11月中旬依訂單陸續出貨」說明；頁面預購報價NT$17,888，本卡NT$17,111為先前參考，實際交期請向通路確認。"
     },
     "image": "https://taiwan.roborock.com/cdn/shop/files/F25_Ultra_Steam_Gen_2_1_1200x1200.png?v=1790784065",
     "buyUrl": "https://taiwan.roborock.com/products/roborock-f25-ultra-steam-gen2",
-    "buyLabel": "Roborock台灣（預購，11月中旬陸續出貨）",
+    "buyLabel": "Roborock 石頭台灣官方（預購／交期待確認）",
     "installation": {
       "status": "not_stated",
       "note": "需自行依說明書組裝及放置充電自清潔底座，官方未列到府安裝；需預留污水箱拆裝、清水補充及熱風排散空間。"

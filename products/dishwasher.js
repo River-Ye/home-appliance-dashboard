@@ -1374,9 +1374,9 @@
       "currency": "TWD",
       "amount": 68639,
       "converted": 68639,
-      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-13 PChome 原 SKU 公開價 NT$68639，API Qty 3。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。"
+      "note": "2026-11-22 PChome 同DBI544ID.W.TW公開價NT$68,639，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1881,8 +1881,8 @@
       "currency": "TWD",
       "amount": 14990,
       "converted": 14990,
-      "confidence": "2026-11-21 核對原商品預購／供貨狀態，保留上次參考價",
-      "note": "原商品配送主區明示預購；配送資訊；廠商出貨；本商品不受24h到貨限制；獨立結帳；本商品無法與其他商品合併結帳；預購；預計出貨日 2026/11/24 - 2026/11/26；可宅配到府；。金額為先前參考價，實際下單與交期請向通路確認。",
+      "confidence": "2026-11-22 核對原商品供貨狀態，保留上次參考價",
+      "note": "2026-11-22 原商品頁仍為預購，預計2026/11/24 - 2026/11/26出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR0PA900IAMAC/000001_1770171922.jpg",

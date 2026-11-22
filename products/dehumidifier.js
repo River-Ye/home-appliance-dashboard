@@ -1094,11 +1094,12 @@
       "currency": "TWD",
       "amount": 15500,
       "converted": 15500,
-      "confidence": "PChome 2026-07-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "2026-11-22 核對原商品供貨狀態，保留上次參考價",
+      "note": "2026-11-22 原同款刊登顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4YA900JBQP2/000001_1759892926.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ4Y-A900JBQP2",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原刊登已售完，查看供貨）",
     "specs": [
       "14 公升級",
       "雙變頻",
@@ -1288,8 +1289,8 @@
       "currency": "TWD",
       "amount": 8541,
       "converted": 8541,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
-      "note": "Yahoo 原商品主區可下單，公開折後價 NT$8,541，活動到 2026-12-01 06:59:59（台灣）。金額未扣會員券、點數及信用卡回饋。",
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-22 Yahoo購物中心同WDEE20TW公開價NT$8,541，未另扣個人券、點數與信用卡回饋。公開活動至2026-12-01T06:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3SA900K13ZR/000001_1779265654.jpg",
@@ -2498,8 +2499,8 @@
       "currency": "TWD",
       "amount": 20805,
       "converted": 20805,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
-      "note": "舊 HOTAI 賣場補貨中。Yahoo 自營 12103939 商品主區精確 DW-UW25HT-W 25L，主區活動折後及原商品結構化價同為 NT$20,805，主購買按鈕可用且同 SKU InStock，宅配免運；普通滿一件95折活動至 2026-12-01 06:59:59（台灣），未用個人券、貨物稅減免、點數或刷卡回饋。",
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-22 Yahoo購物中心同DW-UW25HT-W公開價NT$20,805，未另扣個人券、點數與信用卡回饋。公開活動至2026-12-01T06:59:59+08:00。",
       "basis": "retailer_current"
     },
     "installation": {
@@ -3088,8 +3089,8 @@
       "currency": "TWD",
       "amount": 16911,
       "converted": 16911,
-      "confidence": "PChome DMBQ05-A900KLTQL-000 完整型號新品，API Qty 20，主商品 InStock 及公開折扣價一致。",
-      "note": "2026-11-19 查核：PChome 單件公開價 NT$16,911，原網路價 NT$17,900，活動至 2026-11-30 23:59:59 台灣時間。頁面列宅配滿 NT$490 免運。金額未扣退稅、點數、個人券或刷卡回饋。"
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-22 PChome 同WDEV200MTW公開價NT$16,911，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "installation": {
       "status": "not_stated",
@@ -3185,8 +3186,8 @@
       "currency": "TWD",
       "amount": 13911,
       "converted": 13911,
-      "confidence": "PChome DMBQ05-A900KLTP7-000 完整型號新品，API Qty20，主商品 InStock 與公開折扣一致。",
-      "note": "2026-11-19 查核：PChome 單件公開價 NT$13,911，網路價 NT$14,900，活動至 2026-11-30 23:59:59 台灣時間。通路列宅配滿 NT$490 免運；未扣個人券、點數、刷卡回饋或貨物稅退稅。"
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-22 PChome 同WDEV150MTW公開價NT$13,911，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "installation": {
       "status": "not_stated",

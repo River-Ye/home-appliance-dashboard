@@ -215,7 +215,9 @@
       "currency": "TWD",
       "amount": 24129,
       "converted": 24129,
-      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
+      "basis": "retailer_current",
+      "note": "2026-11-22 PChome 同ByYou Pro Apple公開價NT$24,129，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-22T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS40A900ITUBT/000001_1747374050.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS40-A900ITUBT",
@@ -1657,9 +1659,9 @@
       "currency": "TWD",
       "amount": 10200,
       "converted": 10200,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$10200，API Qty 4；個人券、點數、信用卡回饋及配送安裝費另計。"
+      "note": "2026-11-22 PChome 同X9公開價NT$10,200，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-22T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900JJ8LG/000001_1765347346.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900JJ8LG",
@@ -1755,9 +1757,9 @@
       "currency": "TWD",
       "amount": 25175,
       "converted": 25175,
-      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-04 PChome原exact SKU DQBS4N-A900JUBVW，本輪人工核對主標題「Lockin_鹿客 Halo 指靜脈人臉辨識電子鎖 Lockin_鹿客 Halo 指靜脈人臉辨識電子鎖」、Qty=3、主價25175；採公開Low優先，無Low用P，未扣券/點數/信用卡。HTML受限仍保留API與讀取限制。"
+      "note": "2026-11-22 PChome 同Halo公開價NT$25,175，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-22T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900JUBVW/000001_1774253039.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900JUBVW",
@@ -2106,9 +2108,9 @@
       "currency": "TWD",
       "amount": 20825,
       "converted": 20825,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$20825，API Qty 5；個人券、點數、信用卡回饋及配送安裝費另計。"
+      "note": "2026-11-22 PChome 同SHP-P52公開價NT$20,825，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-22T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900JXYBS/000001_1776909348.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900JXYBS",
@@ -2495,9 +2497,9 @@
       "currency": "TWD",
       "amount": 27540,
       "converted": 27540,
-      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-04 PChome原exact SKU DQBS4N-A900IAVXZ，本輪人工核對主標題「dormakaba FA9000 dormakaba FA9000」、Qty=20、主價27540；採公開Low優先，無Low用P，未扣券/點數/信用卡。HTML受限仍保留API與讀取限制。"
+      "note": "2026-11-22 PChome 同FA9000公開價NT$27,540，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-22T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900IAVXZ/000001_1740465068.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900IAVXZ",
@@ -2593,9 +2595,9 @@
       "currency": "TWD",
       "amount": 9025,
       "converted": 9025,
-      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-04 PChome原exact SKU DQBS4N-A900ILR7A，本輪人工核對主標題「Milre美樂 MI-510F 三合一輔助型電子鎖 Milre美樂 MDL-510F 三合一輔助型電子鎖 密碼/指紋/卡片(附基本安裝)」、Qty=1、主價9025；採公開Low優先，無Low用P，未扣券/點數/信用卡。HTML受限仍保留API與讀取限制。"
+      "note": "2026-11-22 PChome 同MI-510F公開價NT$9,025，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-22T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900ILR7A/000001_1767853677.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900ILR7A",
@@ -2691,9 +2693,9 @@
       "currency": "TWD",
       "amount": 14250,
       "converted": 14250,
-      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-04 PChome原exact SKU DQBS4N-A900ILR3T，本輪人工核對主標題「Milre美樂 MI-6450 三合一電子鎖 Milre美樂 MI-6450 三合一電子鎖 卡片/密碼/鑰匙 (附基本安裝)」、Qty=1、主價14250；採公開Low優先，無Low用P，未扣券/點數/信用卡。HTML受限仍保留API與讀取限制。"
+      "note": "2026-11-22 PChome 同MI-6450公開價NT$14,250，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-22T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900ILR3T/000001_1767087495.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900ILR3T",
@@ -2789,9 +2791,9 @@
       "currency": "TWD",
       "amount": 18050,
       "converted": 18050,
-      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-04 PChome原exact SKU DQBS4N-A900IOJ43，本輪人工核對主標題「Milre美樂 MI-7150+ 四合一電子鎖 Milre美樂 MI-7150+ 四合一電子鎖 指紋/卡片/密碼/鑰匙 (附基本安裝)」、Qty=1、主價18050；採公開Low優先，無Low用P，未扣券/點數/信用卡。HTML受限仍保留API與讀取限制。"
+      "note": "2026-11-22 PChome 同MI-7150+公開價NT$18,050，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-22T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900IOJ43/000001_1766741547.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900IOJ43",
@@ -3082,9 +3084,9 @@
       "currency": "TWD",
       "amount": 31455,
       "converted": 31455,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$31455，API Qty 20；個人券、點數、信用卡回饋及配送安裝費另計。"
+      "note": "2026-11-22 PChome 同FB90公開價NT$31,455，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-22T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900J43AP/000001_1764829802.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900J43AP",
@@ -3472,7 +3474,9 @@
       "currency": "TWD",
       "amount": 11400,
       "converted": 11400,
-      "confidence": "PChome 2026-10-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
+      "basis": "retailer_current",
+      "note": "2026-11-22 PChome 同Latch Plus公開價NT$11,400，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-22T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DECE2SA900B5V4Y/000001_1614234907.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DECE2S-A900B5V4Y",
@@ -4054,9 +4058,9 @@
       "currency": "TWD",
       "amount": 23750,
       "converted": 23750,
-      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-04 PChome原exact SKU DQBS4N-A900K03FM，本輪人工核對主標題「3E小島快鎖 WIFI版掌靜脈辨識九合一電子鎖(T9 Plus+)(附基本安裝) 3E小島快鎖 WIFI版掌靜脈辨識九合一電子鎖(T9 Plus+)(附基本安裝)」、Qty=2、主價23750；採公開Low優先，無Low用P，未扣券/點數/信用卡。HTML受限仍保留API與讀取限制。"
+      "note": "2026-11-22 PChome 同T9 Plus+公開價NT$23,750，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-22T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900K03FM/000001_1778558520.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900K03FM",
@@ -4152,9 +4156,9 @@
       "currency": "TWD",
       "amount": 30248,
       "converted": 30248,
-      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-04 PChome原exact SKU DQBS4N-A900JG66I，本輪人工核對主標題「E小島快鎖 TK 九合一電子鎖 3E小島快鎖 TK 九合一電子鎖」、Qty=1、主價30248；採公開Low優先，無Low用P，未扣券/點數/信用卡。HTML受限仍保留API與讀取限制。"
+      "note": "2026-11-22 PChome 同TK公開價NT$30,248，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-22T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900JG66I/000001_1771990337.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900JG66I",
@@ -4250,9 +4254,9 @@
       "currency": "TWD",
       "amount": 14155,
       "converted": 14155,
-      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-04 PChome原exact SKU DQBS4N-A900IDEPI，本輪人工核對主標題「moorgen T12 五合一把手式 快開大把手一握開」、Qty=20、主價14155；採公開Low優先，無Low用P，未扣券/點數/信用卡。HTML受限仍保留API與讀取限制。"
+      "note": "2026-11-22 PChome 同T12公開價NT$14,155，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-22T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900IDEPI/000001_1748323634.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900IDEPI",
@@ -4446,9 +4450,9 @@
       "currency": "TWD",
       "amount": 32138,
       "converted": 32138,
-      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-04 PChome原exact SKU DQBS4N-A900JISCM，本輪人工核對主標題「【arpha】Z2 金融級指靜脈辨識貓眼智慧靜音電子鎖 【arpha】Z2 金融級指靜脈辨識貓眼智慧靜音電子鎖」、Qty=9、主價32138；採公開Low優先，無Low用P，未扣券/點數/信用卡。HTML受限仍保留API與讀取限制。"
+      "note": "2026-11-22 PChome 同Z2公開價NT$32,138，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-22T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900JISCM/000001_1780306235.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900JISCM",
@@ -4544,9 +4548,9 @@
       "currency": "TWD",
       "amount": 31160,
       "converted": 31160,
-      "confidence": "2026-11-04 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-04 PChome原exact SKU DQBS4N-A900K2WIC，本輪人工核對主標題「【Chatlock】日本製頂級電子門鎖 AI 智慧 A50 - 摩卡棕 【Chatlock】日本製頂級電子門鎖 AI 智慧 A50 - 摩卡棕」、Qty=5、主價31160；採公開Low優先，無Low用P，未扣券/點數/信用卡。HTML受限仍保留API與讀取限制。"
+      "note": "2026-11-22 PChome 同A50公開價NT$31,160，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-22T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900K2WIC/000001_1783308785.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900K2WIC",
@@ -5136,8 +5140,8 @@
       "amount": 31500,
       "converted": 31500,
       "basis": "retailer_current",
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
-      "note": "飛利浦台灣總代理原頁 variant 43280997449937 為曜石黑 DDL902-MFVP-11HWS，主區公開 NT$31,500、加入購物車可用，頁面明示預購商品，交期和安裝日請向代理確認。"
+      "confidence": "2026-11-22 核對原商品供貨或版本邊界，保留上次參考價",
+      "note": "2026-11-22 飛利浦原選曜石黑頁仍明示預購，11月底按下單順序陸續出貨；頁面預購報價NT$33,180，本卡NT$31,500保留為先前參考，實際下單與安裝排程請向通路確認。"
     },
     "installation": {
       "status": "included_basic",
@@ -5145,7 +5149,7 @@
     },
     "image": "https://shop.ljtwm.com/cdn/shop/files/DDL902-2.jpg?v=1788414392",
     "buyUrl": "https://shop.ljtwm.com/products/philips-ddl902-mfvp?variant=43280997449937",
-    "buyLabel": "飛利浦台灣總代理（預購）",
+    "buyLabel": "飛利浦台灣總代理商城（預購／交期待確認）",
     "specs": [
       "類型：全自動推拉式電子鎖；台灣總代理完整型號DDL902-MFVP-11HWS，曜石黑",
       "解鎖：掌靜脈、3D人臉、指紋、密碼、卡片、機械鑰匙與App遠端功能；雙重驗證與虛位密碼",

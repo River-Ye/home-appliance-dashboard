@@ -704,7 +704,7 @@
       "status": "not_stated",
       "note": "成品滑鼠墊，無固定配線或到府安裝；桌面空間與滑鼠感測相容性需自行確認。"
     },
-    "image": "https://store.sony.com.tw/resource/file/product_files/MPD-F900-B/01_100eb3620.jpg",
+    "image": "https://sony.scene7.com/is/image/sonyglobalsolutions/GG25_MPD-F900_Primary_image-1?$primaryshotPreset$&fmt=png-alpha",
     "buyUrl": "https://store.sony.com.tw/product/MPD-F900/B",
     "buyLabel": "Sony Store 台灣官方商城",
     "specs": [
@@ -800,7 +800,7 @@
       "status": "not_stated",
       "note": "成品滑鼠墊，無固定配線或到府安裝；桌面空間與滑鼠感測相容性需自行確認。"
     },
-    "image": "https://store.sony.com.tw/resource/file/product_files/MPD-D700-Z/01_6054f3124.jpg",
+    "image": "https://sony.scene7.com/is/image/sonyglobalsolutions/GG25_MPD-D700_Primary_image?$primaryshotPreset$&fmt=png-alpha",
     "buyUrl": "https://store.sony.com.tw/product/MPD-D700/Z",
     "buyLabel": "Sony Store 台灣官方商城",
     "specs": [
@@ -2633,8 +2633,8 @@
       "amount": 1090,
       "converted": 1090,
       "basis": "retailer_current",
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。",
-      "note": "2026-11-01 人工核對PChome原始API同型號商品ID、名稱、正數庫存與公開折扣價1090元；HTML另遇429限制，不把API當完整出貨承諾。"
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-22 PChome 同G-SR-SE Rouge II公開價NT$1,090，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-23T23:59:59+08:00。"
     },
     "installation": {
       "status": "not_stated",
