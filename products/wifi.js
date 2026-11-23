@@ -3042,13 +3042,13 @@
       "currency": "TWD",
       "amount": 8999,
       "converted": 8999,
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-24 核對原刊登供貨條件，金額保留為先前參考價",
       "basis": "retailer_current",
-      "note": "2026-11-23 PChome 同RT-BE88U公開價NT$8,999，未另扣個人券、點數與信用卡回饋。"
+      "note": "2026-11-24 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJ5A900HRBD9/000001_1760580708.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJ5-A900HRBD9",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原刊登已售完，查看供貨）",
     "specs": [
       "Wi-Fi 7",
       "BE7200 雙頻",
@@ -3336,8 +3336,8 @@
       "currency": "TWD",
       "amount": 7777,
       "converted": 7777,
-      "confidence": "2026-11-23 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-23 原同款刊登顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
+      "confidence": "2026-11-24 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-24 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJAA900IFBVA/000001_1780997121.jpg",
@@ -3533,10 +3533,10 @@
     "name": "Wi-Fi 6E 三頻電競路由器",
     "price": {
       "currency": "TWD",
-      "amount": 7990,
-      "converted": 7990,
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
-      "note": "PChome 原頁完整 RadiX AXE6600 型號及 SKU，主價 NT$7,990，加入購物車可用，API Qty 13；先前 11/12 前限時 NT$3,999 已結束。",
+      "amount": 7490,
+      "converted": 7490,
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-24 PChome 同RadiX AXE6600公開價NT$7,490，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-24T23:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFKSA900HEQVN/000001_1713512948.jpg",
@@ -3634,8 +3634,8 @@
       "currency": "TWD",
       "amount": 2790,
       "converted": 2790,
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
-      "note": "PChome 原頁 DRAFJ8-A900JSZV4 主標同型 Acer Connect Ovia T360，加入購物車及立即購買按鈕啟用，API Qty 12、公開網路價 NT$2,790。",
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-24 PChome 同Connect Ovia T360公開價NT$2,790，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-24T23:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJ8A900JSZV4/000001_1773200906.jpg",
@@ -3913,10 +3913,10 @@
     "name": "Wi-Fi 6 雙 10GbE SD-WAN 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 7990,
-      "converted": 7990,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
-      "note": "PChome 原商品主區及 SKU DRAG6J-A900AUW3D 公開價格 NT$7,990。API Qty 3，以通路配送、安裝條件為準。",
+      "amount": 7490,
+      "converted": 7490,
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-24 PChome 同QHora-301W公開價NT$7,490，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-24T23:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAG6JA900AUW3D/000001_1626400932.jpg",
@@ -4441,17 +4441,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 4699,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-11",
-      "note": "既有史低證據同頁混列 2／3 入規格，無法確認最低價屬於目標 2 入套裝；應撤銷 found 並重新查核相同套裝史低。 已撤銷錯誤史低；本輪重新查核仍找不到同型號、同尺寸／容量／規格且可公開驗證的可信新品整機史低。"
+      "converted": 4699,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DRAFLT-A900K123M",
+      "sourceTitle": "Lowcast 比價趨勢：PChome Mercusys 水星 Halo H25BE Wi-Fi7 雙頻 BE3600全1G埠 真Mesh (2入組)",
+      "evidenceSnippet": "Lowcast 同一 PChome SKU DRAFLT-A900K123M 的 63 天價格記錄最低為 NT$4,699，2026-11-23 歷史點同額；當日原頁同款主商品公開價、可購動作及配送可重現，API Qty 4。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-24",
+      "note": "同型號同規格新品、同一PChome SKU過往公開單件價，未扣個人券、點數、刷卡回饋或贈品；屬可驗證記錄最低，非保證全網或上市以來最低。"
     },
     "issueResearch": {
       "status": "no_common_issue",

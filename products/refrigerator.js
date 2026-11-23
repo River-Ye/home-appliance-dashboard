@@ -2115,11 +2115,11 @@
     "name": "253公升 變頻雙門冰箱",
     "price": {
       "currency": "TWD",
-      "amount": 11199,
-      "converted": 11199,
-      "confidence": "2026-11-17 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 13999,
+      "converted": 13999,
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "Costco 主商品 SJ-H25Y-WH（#137098）原價 NT$13,999，公開折扣 NT$2,800，小計 NT$11,199 含運；主商品可加購。未扣補助、卡回饋或黑鑽回饋。"
+      "note": "2026-11-24 Costco好市多同SJ-H25Y-WH公開單品價NT$13,999（含運），需具好市多會員資格；未扣聯名卡好多金、黑鑽會員回饋或個人優惠。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h3f/h56/115073136033822.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Fridges-Freezers/SHARP-253-L-Top-Mount-Inverter-Fridge-SJ-H25Y-WH/p/137098",
@@ -2323,12 +2323,12 @@
       "currency": "TWD",
       "amount": 27899,
       "converted": 27899,
-      "confidence": "Costco 好市多 2026-07-09 查核價",
-      "note": "Costco 原頁 #138021 主商品為 NR-B65CV-S 晶漾銀，頁面顯示 NT$27,899 含運，主購買按鈕缺貨且停用，保留既有參考價。"
+      "confidence": "2026-11-24 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-24 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h27/h0a/121680122413086.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Fridges-Freezers/Panasonic-650-L-Double-Door-Inverter-Fridge-NR-B65CV-S/p/138021",
-    "buyLabel": "Costco（原頁缺貨）",
+    "buyLabel": "Costco 好市多（原刊登缺貨，查看供貨）",
     "specs": [
       "650L 級雙門變頻",
       "110V",

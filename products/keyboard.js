@@ -1770,17 +1770,17 @@
     "recommendation": "適合在中階預算保留完整數字区與遊戲燈效；若重視無線、熱插拔或精確桌面占位，應先核實限制再選。",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 2790,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-09-01",
-      "note": "已核所選LR TC新品2790元、飛比同型號比價與MSI双十一活動。官方活動有DUSK1990元，但可讀內文未明示有效年月日及LR TC版本映射；飛比是混合通路/條件的現價，不以較低標價或URL中的202411推定可驗證史低。"
+      "converted": 2790,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DSBC1T-A900GRO89",
+      "sourceTitle": "Lowcast 比價趨勢：PChome MSI 微星 VIGOR GK41 DUSK LR TC 電競鍵盤 線性紅軸",
+      "evidenceSnippet": "Lowcast 同一 PChome SKU DSBC1T-A900GRO89 的 65 天價格記錄最低為 NT$2,790，2026-11-23 歷史點同額；當日原頁同款主商品公開價、可購動作及配送可重現，API Qty 1。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-24",
+      "note": "同型號同規格新品、同一PChome SKU過往公開單件價，未扣個人券、點數、刷卡回饋或贈品；屬可驗證記錄最低，非保證全網或上市以來最低。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2328,8 +2328,8 @@
       "currency": "TWD",
       "amount": 3088,
       "converted": 3088,
-      "confidence": "2026-11-23 核對原商品版本與供貨條件，金額保留先前參考價",
-      "note": "2026-11-23 Keychron原頁同復古色矮紅軸KBKCK3MQ1T已售完，保留先前NT$3,088參考價；目前顯示NT$3,490但不可下單，不改採黑色或其他軸體價格。"
+      "confidence": "2026-11-24 核對原商品版本與供貨條件，金額保留先前參考價",
+      "note": "2026-11-24 Keychron原頁同復古色矮紅軸KBKCK3MQ1T已售完，保留先前NT$3,088參考價；目前顯示NT$3,490但不可下單，不改採黑色或其他軸體價格。"
     },
     "installation": {
       "status": "not_stated",

@@ -219,12 +219,12 @@
       "currency": "TWD",
       "amount": 22406,
       "converted": 22406,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價",
-      "note": "Yahoo 舊賣場已下架；PChome 同機型原頁開啟正常，API Qty 0 且主區只提供到貨通知。保留先前可購參考價；未以斷貨價或相近型號替代。"
+      "confidence": "2026-11-24 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-24 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ02A900IXED0/000001_1749708993.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ02-A900IXED0",
-    "buyLabel": "PChome 同型商品（到貨通知）",
+    "buyLabel": "PChome（原刊登已售完，查看供貨）",
     "specs": [
       "30L",
       "尺寸：寬 49.4 x 深 47.9 x 高 37 cm",
@@ -918,8 +918,8 @@
       "currency": "TWD",
       "amount": 9999,
       "converted": 9999,
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-23 PChome 同CSO-500TW公開價NT$9,999，未另扣個人券、點數與信用卡回饋。",
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-24 PChome 同CSO-500TW採同頁網路常態參考價NT$9,999，未另扣個人券、點數與信用卡回饋。查核時另有短期限時價NT$9,499，活動至2026/11/24 07:59:59（台灣時間），未納入常態參考，下單前請重查原頁活動。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900HF91A/000001_1768545220.jpg",
@@ -1417,8 +1417,8 @@
       "currency": "TWD",
       "amount": 15800,
       "converted": 15800,
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-23 PChome 同WSO322EB公開價NT$15,800，未另扣個人券、點數與信用卡回饋。",
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-24 PChome 同WSO322EB採同頁網路常態參考價NT$15,800，未另扣個人券、點數與信用卡回饋。查核時另有短期限時價NT$15,484，活動至2026/11/24 07:59:59（台灣時間），未納入常態參考，下單前請重查原頁活動。",
       "basis": "retailer_current"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMBJ6QA900EO9M8/000001_1716271473.jpg",
@@ -1916,13 +1916,13 @@
       "currency": "TWD",
       "amount": 41724,
       "converted": 41724,
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "confidence": "2026-11-24 原商品頁的實際下單折扣未完整確認，保留先前參考價",
       "basis": "retailer_current",
-      "note": "PChome 新商品編號 DMBJ7E-A900GKOOI 原頁明示「Svago 蒸烘烤變頻微波爐(全省安裝)(贈7-11商品卡2200元)【VE8966】」，折扣價 41724元，可加入購物車，API 庫存 2。主商品頁明示含標準安裝，特殊搬運及額外施工另行報價。金額不扣贈品。 PChome 新商品編號 DMBJ7E-A900GKOOI 原頁明示「Svago 蒸烘烤變頻微波爐(全省安裝)(贈7-11商品卡2200元)【VE8966】」，折扣價 41724元，可加入購物車，API 庫存 2。主商品頁明示含標準安裝，特殊搬運及額外施工另行報價。金額不扣贈品。公開折扣 NT$41,724，網路價 NT$43,920，主商品 directPromotions 截至 2026-11-30 23:59:59（台灣）。"
+      "note": "2026-11-24 原商品頁網路價NT$43,920；另顯示「下單再折」，公開單件折扣的完整條件尚未確認，卡片保留先前NT$41,724參考價。下單前請確認實際折扣；未扣個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900H5125/000001_1783054719.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ7E-A900GKOOI",
-    "buyLabel": "PChome 24h 購物",
+    "buyLabel": "PChome（下單折扣待確認／先前參考價）",
     "specs": [
       "蒸烘烤",
       "尺寸：寬 59.5 x 深 49.5 x 高 45.7 cm",
@@ -2118,12 +2118,12 @@
       "currency": "TWD",
       "amount": 1749,
       "converted": 1749,
-      "confidence": "Costco 好市多 2026-07-22 exact-model 公開結構化價格",
-      "note": "Costco 原頁 #6232432 主商品為 GAF858 7.5 L 台灣 110V／60Hz，頁面顯示 NT$1,749 含運，主購買按鈕缺貨且停用，保留既有參考價。其他搜尋結果為代購或 GAF858TW 名稱，未確認可替代的同版可信台灣現售。"
+      "confidence": "2026-11-24 原同款刊登需登入查價，保留先前參考價",
+      "note": "2026-11-24 Costco原同款商品頁主區顯示「登入顯示價格」，公開單品價與當日可購條件待確認；本卡金額保留為先前參考價。需好市多會員資格，下單前請登入原頁確認實際價格與供貨。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/hd8/h30/308063201099806.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Kitchen-Appliances/Cookers-Oven-Microwaves-Food-Waste-Machine/Gourmia-Digital-Air-Fryer-GAF858/p/6232432",
-    "buyLabel": "Costco（原頁缺貨）",
+    "buyLabel": "Costco 好市多（需登入查價／先前參考價）",
     "specs": [
       "8qt / 7.5L",
       "尺寸：寬 29.7 x 深 38.7 x 高 29.2 cm",
@@ -2581,17 +2581,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 7994,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-10-21",
-      "note": "已查PChome原始商品/API、Yahoo自營、BigGo/飛比/比價撿便宜的同型號價格；比價僅現價/漲跌和第三方商家，沒有可核同台灣版本、可信新品通路的歷史最低點及日期。Yahoo7591原頁售完，不作現貨價；不拿本次7994現價推定史低。"
+      "converted": 7994,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DMBJ5P-A900HSLQT",
+      "sourceTitle": "Lowcast 比價趨勢：PChome HITACHI 日立 27L變頻氣炸微波烤箱HMRDA2713",
+      "evidenceSnippet": "Lowcast 同一 PChome SKU DMBJ5P-A900HSLQT 的 63 天價格記錄最低為 NT$7,994，2026-11-23 歷史點同額；當日原頁同款主商品公開價、可購動作及配送可重現，API Qty 2。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-24",
+      "note": "同型號同規格新品、同一PChome SKU過往公開單件價，未扣個人券、點數、刷卡回饋或贈品；屬可驗證記錄最低，非保證全網或上市以來最低。"
     },
     "issueResearch": {
       "status": "no_common_issue",

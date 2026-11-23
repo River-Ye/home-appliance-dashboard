@@ -65,8 +65,8 @@
       "evidenceSnippet": "",
       "sourceKind": "not_found",
       "confidence": "not_found",
-      "checkedAt": "2026-11-23",
-      "note": "2026-11-23 查得同一PChome SKU較低歷史圖表點，但未取得該低價當時的單件公開價／供貨條件完整原頁證據；維持找不到可靠史低，不以現價或較高過往價格推定。"
+      "checkedAt": "2026-11-24",
+      "note": "2026-11-24 重查同一PChome SKU較低歷史點，未取得該低價當時的單件公開價及供貨條件完整原頁證據；維持找不到可靠史低。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -221,8 +221,8 @@
       "currency": "TWD",
       "amount": 53910,
       "converted": 53910,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
-      "note": "PChome 原商品主區及 SKU DPAD06-A900HKBUL 公開折扣價 NT$53,910，活動至 2026/11/16 08:00:59（台灣）。API Qty 1，以通路配送、安裝條件為準。",
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-24 PChome 同Y-65XR70公開價NT$53,910，未另扣個人券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADFNA900K7VQ8/000001_1784011502.jpg",
@@ -1043,13 +1043,13 @@
       "currency": "TWD",
       "amount": 79900,
       "converted": 79900,
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-23 PChome同65OLED809公開價NT$79,900，廠商出貨、不受24h到貨限制，實際交期仍需確認；未扣個人券、點數或信用卡回饋。",
+      "confidence": "2026-11-24 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-24 原商品頁仍為預購，預計2026/11/27 - 2026/12/01出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADIKA900HJGF2/000001_1782900149.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900HNTKI",
-    "buyLabel": "PChome（廠商出貨／交期待確認）",
+    "buyLabel": "PChome（預購／交期待確認）",
     "specs": [
       "尺寸：不含底座 寬 144.4 x 深 6.8 x 高 83 cm；含底座 寬 144.4 x 深 28 x 高 89.6 cm",
       "重量：不含底座 23 kg；含底座 28 kg",
@@ -1960,8 +1960,8 @@
       "currency": "TWD",
       "amount": 14391,
       "converted": 14391,
-      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DPADTO-A900JNMOP 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$14,391。 公開活動至 2026-11-23T08:59:59+08:00。",
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-24 PChome 同CQ-65QX250公開價NT$14,391，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-24T08:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADTOA900JNE73/000001_1768523868.jpg",
@@ -2061,8 +2061,8 @@
       "currency": "TWD",
       "amount": 21500,
       "converted": 21500,
-      "confidence": "2026-11-23 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-23 原商品頁仍為預購，預計2026/11/26 - 2026/11/30出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
+      "confidence": "2026-11-24 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-24 原商品頁仍為預購，預計2026/11/27 - 2026/12/01出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD0WA900I9LNS/000001_1769648262.jpg",
@@ -2269,9 +2269,11 @@
     "name": "Regza 75型 4K QLED 144Hz 全陣列背光智慧顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 38299,
-      "converted": 38299,
-      "confidence": "Costco 好市多 2026-09-01 exact-model 公開結構化價格"
+      "amount": 30599,
+      "converted": 30599,
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
+      "basis": "retailer_current",
+      "note": "2026-11-24 Costco好市多同75Z670NT公開單品價NT$30,599（含運），需具好市多會員資格；未扣聯名卡好多金、黑鑽會員回饋或個人優惠。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/hfe/ha8/438072160518174.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Televisions-TV-Accessories/70-79-TVs/Toshiba-Regza-75-inch-Full-Array-4K-QLED-144Hz-Smart-Monitor-75Z670NT/p/152535",
@@ -2307,16 +2309,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 31999,
+      "amount": 30599,
       "currency": "TWD",
-      "converted": 31999,
+      "converted": 30599,
       "sourceUrl": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Televisions-TV-Accessories/70-79-TVs/Toshiba-Regza-75-inch-Full-Array-4K-QLED-144Hz-Smart-Monitor-75Z670NT/p/152535",
-      "sourceTitle": "Costco 商品頁：東芝 Regza 75型 4K QLED 144Hz 全陣列背光智慧顯示器 75Z670NT | Costco 好市多",
-      "evidenceSnippet": "Costco 商品頁 於 2026-07-10 回傳同一商品頁「東芝 Regza 75型 4K QLED 144Hz 全陣列背光智慧顯示器 75Z670NT | Costco 好市多」查核價 NT$31,999，低於原先記錄史低。",
+      "sourceTitle": "Toshiba 75Z670NT 原商品頁",
+      "evidenceSnippet": "2026-11-24 Costco同一商品編號#152535原主區完整型號、主價30,599（含運）及本商品加入購物車已核對；不是頁尾推薦商品、模板庫存或個人會員回饋價。 低於原有同款紀錄。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-10",
-      "note": "採用可信通路同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
+      "checkedAt": "2026-11-24",
+      "note": "採同型號同規格可信新品公開價，不含個人券、點數、會員特價與信用卡回饋。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -4417,8 +4419,8 @@
     "amount": 23999,
     "converted": 23999,
     "basis": "retailer_current",
-    "confidence": "2026-11-04 人工讀exact原頁主價格與主購買按鈕HTML，主CTA非disabled；不是schema或分類價格。",
-    "note": "好市多公開主價含運，購買需有效好市多會員；未扣黑鑽回饋或個人化折扣。"
+    "confidence": "2026-11-24 原同款刊登需登入查價，保留先前參考價",
+    "note": "2026-11-24 Costco原同款商品頁主區顯示「登入顯示價格」，公開單品價與當日可購條件待確認；本卡金額保留為先前參考價。需好市多會員資格，下單前請登入原頁確認實際價格與供貨。"
   },
   "installation": {
     "status": "included_basic",
@@ -4426,7 +4428,7 @@
   },
   "image": "https://www.costco.com.tw/medias/sys_master/images/hba/h81/504582071123998.jpg",
   "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Televisions-TV-Accessories/60-69-TVs/TOSHIBA-65-inch-4K-QLED-VIDAA-Smart-Monitor-65M450RP/p/162412",
-  "buyLabel": "Costco好市多（需有效會員）",
+  "buyLabel": "Costco 好市多（需登入查價／先前參考價）",
   "specs": [
     "尺寸：不含底座 寬 145.2 x 深 7.2 x 高 83.7 cm；含底座 寬 145.2 x 深 31.8 x 高 89.3 cm",
     "重量：不含底座 13.1 kg；含底座 13.3 kg",

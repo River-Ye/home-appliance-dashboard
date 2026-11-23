@@ -648,8 +648,8 @@
       "evidenceSnippet": "",
       "sourceKind": "not_found",
       "confidence": "not_found",
-      "checkedAt": "2026-11-23",
-      "note": "2026-11-23 查得同一PChome SKU較低歷史圖表點，但未取得該低價當時的單件公開價／供貨條件完整原頁證據；維持找不到可靠史低，不以現價或較高過往價格推定。"
+      "checkedAt": "2026-11-24",
+      "note": "2026-11-24 重查同一PChome SKU較低歷史點，未取得該低價當時的單件公開價及供貨條件完整原頁證據；維持找不到可靠史低。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -844,8 +844,8 @@
       "evidenceSnippet": "",
       "sourceKind": "not_found",
       "confidence": "not_found",
-      "checkedAt": "2026-11-23",
-      "note": "2026-11-23 查得同一PChome SKU較低歷史圖表點，但未取得該低價當時的單件公開價／供貨條件完整原頁證據；維持找不到可靠史低，不以現價或較高過往價格推定。"
+      "checkedAt": "2026-11-24",
+      "note": "2026-11-24 重查同一PChome SKU較低歷史點，未取得該低價當時的單件公開價及供貨條件完整原頁證據；維持找不到可靠史低。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1693,17 +1693,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 10200,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Lockin X9: Momo富邦購物 (店+)【Lockin 鹿客】Lockin鹿客 指紋把手電子鎖 X9 型號/規格不相符；LBJ Lockin X9: 電子鎖大師 【電子鎖大師】Lockin鹿客 X9 ai指紋藍芽 含基本安裝（公司貨） 型號/規格不相符；LBJ Lockin X9: PCHome購物 Lockin 鹿客 指紋把手電子鎖 X9 型號/規格不相符。"
+      "converted": 10200,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DQBS4N-A900JJ8LG",
+      "sourceTitle": "Lowcast 比價趨勢：PChome Lockin 鹿客 指紋把手電子鎖 X9",
+      "evidenceSnippet": "Lowcast 同一 PChome SKU DQBS4N-A900JJ8LG 的 61 天記錄最低為 NT$10,200，2026-11-23 歷史點同額；當日原頁顯示任選單件85折、可宅配及可用購買動作，API Qty 4。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-24",
+      "note": "同型號新品、同一 PChome SKU 過往公開單件價，未扣個人券、點數、刷卡回饋或贈品；屬可驗證價格記錄的最低值，非保證全網或上市以來最低。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -3278,8 +3278,8 @@
       "currency": "TWD",
       "amount": 22900,
       "converted": 22900,
-      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DQBS4N-A900JLLZ3 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$22,900。 下單再折可由同頁公開單件／門檻活動及同型號刊登互證，未計入個人券、點數與信用卡回饋。 公開活動至 2027-02-01T23:59:59+08:00。",
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-24 PChome 同HIT-FV70-T公開價NT$22,900，未另扣個人券、點數與信用卡回饋。公開活動至2027-02-01T23:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900JLLZ3/000001_1782963047.jpg",
@@ -4644,10 +4644,11 @@
     "name": "AI 智慧 A90 頂級電子門鎖",
     "price": {
       "currency": "TWD",
-      "amount": 32110,
-      "converted": 32110,
-      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
+      "amount": 33800,
+      "converted": 33800,
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-24 PChome 同A90公開價NT$33,800，未另扣個人券、點數與信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900K2STR/000001_1783309040.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900K2STR",
@@ -5140,8 +5141,8 @@
       "amount": 31500,
       "converted": 31500,
       "basis": "retailer_current",
-      "confidence": "2026-11-23 核對原商品版本與供貨條件，金額保留先前參考價",
-      "note": "2026-11-23 台灣總代理同DDL902-MFVP-11HWS曜石黑原頁仍為預購，預計11月底依序出貨；保留先前NT$31,500參考價，頁面NT$33,180預購價不當成現貨價或史低。"
+      "confidence": "2026-11-24 核對原商品版本與供貨條件，金額保留先前參考價",
+      "note": "2026-11-24 台灣總代理同DDL902-MFVP-11HWS曜石黑原頁仍為預購，預計11月底依序出貨；保留先前NT$31,500參考價，頁面NT$33,180預購價不當成現貨價或史低。"
     },
     "installation": {
       "status": "included_basic",

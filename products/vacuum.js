@@ -116,9 +116,9 @@
       "currency": "TWD",
       "amount": 17111,
       "converted": 17111,
-      "confidence": "2026-11-23 核對原刊登供貨條件，金額保留為先前參考價",
+      "confidence": "2026-11-24 核對原刊登供貨條件，金額保留為先前參考價",
       "basis": "retailer_current",
-      "note": "2026-11-23 原同款刊登顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "note": "2026-11-24 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX8KA900HLX9W/000001_1744871467.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAX8K-A900HLX9W",
@@ -214,8 +214,8 @@
       "currency": "TWD",
       "amount": 11111,
       "converted": 11111,
-      "confidence": "2026-11-23 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-23 原同款刊登顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
+      "confidence": "2026-11-24 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-24 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX8KA900JI8XJ/000001_1764582934.jpg",
@@ -894,9 +894,9 @@
       "currency": "TWD",
       "amount": 24000,
       "converted": 24000,
-      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMAX8K-A900HLXAQ 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$24,000。 公開活動至 2026-11-30T23:59:59+08:00。"
+      "note": "2026-11-24 PChome 同CordZero A9X-STEAM公開價NT$24,000，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX8KA900HLXAQ/000001_1744871444.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAX8K-A900HLXAQ",
@@ -1026,17 +1026,17 @@
     ],
     "releaseDate": "2024-06-11",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 7990,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ LG CordZero A9 Air A7-LITE: Momo富邦購物 【LG 樂金】CordZero A9 Air濕拖無線吸塵器/乾吸濕拖x超輕盈x超美型xmomo獨家(A7-LITEMOP 雲朵白) 型號/規格不相符；LBJ LG CordZero A9 Air A7-LITE: Momo富邦購物 (店+)【LG 樂金】下殺促銷!! CordZero™ A9 Air快清式無線吸塵器 A7-LITE 型號/規格不相符；LBJ LG CordZero A9 Air A7-LITE: Yahoo購物中心 【LG樂金】CordZero A9 Air快清式無線吸塵器 A7-LITE 型號/規格不相符。"
+      "converted": 7990,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DMBM2Z-A900IUKMI",
+      "sourceTitle": "Lowcast 比價趨勢：PChome LG 樂金 CordZero A9 Air快清式無線吸塵器 A7-LITE",
+      "evidenceSnippet": "Lowcast 同一 PChome SKU DMBM2Z-A900IUKMI 的 63 天價格記錄最低為 NT$7,990，2026-11-23 歷史點同額；當日原頁同款主商品公開價、可購動作及配送可重現，API Qty 3。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-24",
+      "note": "同型號同規格新品、同一PChome SKU過往公開單件價，未扣個人券、點數、刷卡回饋或贈品；屬可驗證記錄最低，非保證全網或上市以來最低。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -3084,17 +3084,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 8270,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-09-02",
-      "note": "已查 BigGo exact-model 當日現價、FindPrice、PChome 與 Yahoo 原頁；無具日期且可重現的可信新品歷史價格序列。Yahoo 95 折為當期活動現價，不作史低；排除會員券、點數、信用卡回饋、二手、福利、展示、拆封、整新及配件。"
+      "converted": 8270,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DMAX03-A900K8PLW",
+      "sourceTitle": "Lowcast 比價趨勢：PChome HITACHI 日立 多合一全能吸塵器PVXH4Q",
+      "evidenceSnippet": "Lowcast 同一 PChome SKU DMAX03-A900K8PLW 的 63 天價格記錄最低為 NT$8,270，2026-11-23 歷史點同額；當日原頁同款主商品公開價、可購動作及配送可重現，API Qty 15。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-24",
+      "note": "同型號同規格新品、同一PChome SKU過往公開單件價，未扣個人券、點數、刷卡回饋或贈品；屬可驗證記錄最低，非保證全網或上市以來最低。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -3231,8 +3231,8 @@
       "amount": 17111,
       "converted": 17111,
       "basis": "retailer_current",
-      "confidence": "2026-11-23 核對原商品版本與供貨條件，金額保留先前參考價",
-      "note": "2026-11-23 石頭台灣官方原頁仍標預購、預計11月中旬依序出貨，交期需確認；保留先前NT$17,111參考價，原頁NT$17,888不當成可即時供貨現價或史低。"
+      "confidence": "2026-11-24 核對原商品版本與供貨條件，金額保留先前參考價",
+      "note": "2026-11-24 石頭台灣官方原頁仍標預購、預計11月中旬依序出貨，交期需確認；保留先前NT$17,111參考價，原頁NT$17,888不當成可即時供貨現價或史低。"
     },
     "image": "https://taiwan.roborock.com/cdn/shop/files/F25_Ultra_Steam_Gen_2_1_1200x1200.png?v=1790784065",
     "buyUrl": "https://taiwan.roborock.com/products/roborock-f25-ultra-steam-gen2",
@@ -3621,8 +3621,8 @@
       "amount": 10099,
       "converted": 10099,
       "basis": "retailer_current",
-      "confidence": "2026-11-23 Costco162023主商品同套組、公開價格與可用加入購物車按鈕；非推薦列。",
-      "note": "Costco公開NT$10,099含運，需好市多會員；未扣個人券、點數或刷卡回饋。廠商原箱配送，未配送離島；實際庫存與交期依訂單。"
+      "confidence": "2026-11-24 原同款刊登需登入查價，保留先前參考價",
+      "note": "2026-11-24 Costco原同款商品頁主區顯示「登入顯示價格」，公開單品價與當日可購條件待確認；本卡金額保留為先前參考價。需好市多會員資格，下單前請登入原頁確認實際價格與供貨。"
     },
     "installation": {
       "status": "not_stated",
@@ -3630,7 +3630,7 @@
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/hd7/h19/486580192968734.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Small-Appliances/Vacuums-Floor-Care/Roborock-Cordless-Vacuum-H60-Hub-Plus/p/162023",
-    "buyLabel": "Costco台灣新品（需會員／含運）",
+    "buyLabel": "Costco 好市多（需登入查價／先前參考價）",
     "specs": [
       "類型：無線直立／手持乾式吸塵器＋自動集塵半基座；H60 Hub Plus主機H9A4A、底座MDS34LRR",
       "清潔：台灣官方標示最大170AW；三檔手動模式，不可吸液體",

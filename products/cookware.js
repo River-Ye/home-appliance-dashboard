@@ -1294,17 +1294,17 @@
     "category": "cookware",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 6118,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-11",
-      "note": "未找到 Sambonet Titan 雙耳平底鍋附蓋 28cm 可公開驗證的可信新品史低；已排除 Pro Green 單柄平底鍋，因系列、把手與套裝不同。"
+      "converted": 6118,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DEAW03-A900BSUA7",
+      "sourceTitle": "Lowcast 比價趨勢：PChome 【Sambonet】Titan/雙耳平底鍋附蓋/28cm",
+      "evidenceSnippet": "Lowcast 同一 PChome SKU DEAW03-A900BSUA7 的 64 天價格記錄最低為 NT$6,118，2026-11-23 歷史點同額；當日原頁同款主商品公開價、可購動作及配送可重現，API Qty 4。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-24",
+      "note": "同型號同規格新品、同一PChome SKU過往公開單件價，未扣個人券、點數、刷卡回饋或贈品；屬可驗證記錄最低，非保證全網或上市以來最低。"
     },
     "issueResearch": {
       "status": "no_common_issue",

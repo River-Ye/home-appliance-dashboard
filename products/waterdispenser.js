@@ -328,11 +328,11 @@
     "image": "https://cs-a.ecimg.tw/items/DMCI1NA900HIJUW/000001_1785391790.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 8910,
-      "converted": 8910,
+      "amount": 9900,
+      "converted": 9900,
       "basis": "retailer_current",
-      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DMCI1N-A900HIJUW 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$8,910。 公開活動至 2026-11-25T07:59:59+08:00。"
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-24 PChome 同P-150N公開價NT$9,900，未另扣個人券、點數與信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "PChome 24h購物",
@@ -439,9 +439,9 @@
       "currency": "TWD",
       "amount": 12255,
       "converted": 12255,
-      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMCI0P-A900HEQ1J 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$12,255。 下單再折可由同頁公開單件／門檻活動及同型號刊登互證，未計入個人券、點數與信用卡回饋。 公開活動至 2026-11-30T23:59:59+08:00。"
+      "note": "2026-11-24 PChome 同TK-CB30公開價NT$12,255，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -854,8 +854,8 @@
       "currency": "TWD",
       "amount": 17800,
       "converted": 17800,
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-23 PChome 同mypure GR1000公開價NT$17,800，未另扣個人券、點數與信用卡回饋。",
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-24 PChome 同mypure GR1000採同頁網路常態參考價NT$17,800，未另扣個人券、點數與信用卡回饋。查核時另有短期限時價NT$16,020，活動至2026/11/24 07:59:59（台灣時間），未納入常態參考，下單前請重查原頁活動。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -1369,8 +1369,8 @@
       "currency": "TWD",
       "amount": 27800,
       "converted": 27800,
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-23 PChome 同P0563公開價NT$27,800，未另扣個人券、點數與信用卡回饋。",
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-24 PChome 同P0563採同頁網路常態參考價NT$27,800，未另扣個人券、點數與信用卡回饋。查核時另有短期限時價NT$25,020，活動至2026/11/24 07:59:59（台灣時間），未納入常態參考，下單前請重查原頁活動。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -1475,10 +1475,10 @@
     "image": "https://cs-a.ecimg.tw/items/DMCI1NA900J5L16/000001_1782878655.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 53820,
-      "converted": 53820,
-      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DMCI1N-A900J5L16 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$53,820。 公開活動至 2026-11-25T07:59:59+08:00。",
+      "amount": 59800,
+      "converted": 59800,
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-24 PChome 同NOBLE CHP-3140N公開價NT$59,800，未另扣個人券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -1519,17 +1519,17 @@
     "category": "waterdispenser",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 53820,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-11",
-      "note": "未找到 NOBLE CHP-3140N 單機加原廠安裝可公開驗證的可信新品史低；已排除另含美膳雅蒸鮮鍋的不同套裝。"
+      "converted": 53820,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DMCI1N-A900J5L16",
+      "sourceTitle": "Lowcast 比價趨勢：PChome Coway NOBLE 智感櫥下型瞬冰瞬熱飲水機 CHP-3140N (極美智感龍頭/原廠安裝/配置前置軟水濾芯/220V)",
+      "evidenceSnippet": "Lowcast 同一 PChome SKU DMCI1N-A900J5L16 的 63 天價格記錄最低為 NT$53,820，2026-11-23 歷史點同額；當日原頁同款主商品公開價、可購動作及配送可重現，API Qty 5。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-24",
+      "note": "同型號同規格新品、同一PChome SKU過往公開單件價，未扣個人券、點數、刷卡回饋或贈品；屬可驗證記錄最低，非保證全網或上市以來最低。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1583,8 +1583,8 @@
       "currency": "TWD",
       "amount": 34000,
       "converted": 34000,
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-23 PChome 同EVB-298-E公開價NT$34,000，未另扣個人券、點數與信用卡回饋。",
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-24 PChome 同EVB-298-E採同頁網路常態參考價NT$34,000，未另扣個人券、點數與信用卡回饋。查核時另有短期限時價NT$30,600，活動至2026/11/24 07:59:59（台灣時間），未納入常態參考，下單前請重查原頁活動。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBE1FA900GSOLN/000001_1698896380.jpg",
@@ -1679,11 +1679,11 @@
     "name": "聲控櫥下 RO 瞬熱飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 41220,
-      "converted": 41220,
-      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 45800,
+      "converted": 45800,
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMCI2F-A900JBNK6 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$41,220。 公開活動至 2026-11-25T07:59:59+08:00。"
+      "note": "2026-11-24 PChome 同US-201C-TW公開價NT$45,800，未另扣個人券、點數與信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMCI2FA900JBNK6/000001_1782095017.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMCI2F-A900JBNK6",
@@ -1881,8 +1881,8 @@
       "currency": "TWD",
       "amount": 36810,
       "converted": 36810,
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-23 PChome 同P0531公開價NT$36,810，未另扣個人券、點數與信用卡回饋。",
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-24 PChome 同P0531採同頁網路常態參考價NT$36,810，未另扣個人券、點數與信用卡回饋。查核時另有短期限時價NT$33,129，活動至2026/11/24 07:59:59（台灣時間），未納入常態參考，下單前請重查原頁活動。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMCI0OA900JT66N/000001_1773306819.png",
@@ -2571,8 +2571,8 @@
       "currency": "TWD",
       "amount": 28800,
       "converted": 28800,
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-23 PChome 同USB10B公開價NT$28,800，未另扣個人券、點數與信用卡回饋。",
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-24 PChome 同USB10B採同頁網路常態參考價NT$28,800，未另扣個人券、點數與信用卡回饋。查核時另有短期限時價NT$25,920，活動至2026/11/24 07:59:59（台灣時間），未納入常態參考，下單前請重查原頁活動。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWHTA900JVB6I/000001_1775031754.jpg",

@@ -1489,17 +1489,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 6400,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ DELTA 雙渦輪多向循環扇: Momo富邦購物 (店+)【台達電子】DELTA台達電子 吹地機 DC直流雙渦輪多向循環扇 大風量 雙葉輪 獨特專利雙輪葉 弧形工學把手輕鬆移動 三年保固 型號/規格不相符；LBJ DELTA 雙渦輪多向循環扇: 蝦皮商城 - 好室HOUSING 【DELTA台達電子】吹地機 DC直流雙渦輪多向循環扇(安靜．節能．大風量) 型號/規格不相符；LBJ DELTA 雙渦輪多向循環扇: Yahoo購物中心 【DELTA台達電子】 吹地機 DC直流雙渦輪多向循環扇(安靜．節能．大風量) 型號/規格不相符。"
+      "converted": 6400,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DMABLY-A900H2H5C",
+      "sourceTitle": "Lowcast 比價趨勢：PChome DELTA 台達電子 吹地機 DC直流雙渦輪多向循環扇 (安靜節能大風量)",
+      "evidenceSnippet": "Lowcast 同一 PChome SKU DMABLY-A900H2H5C 的 59 天價格記錄最低為 NT$6,400，2026-11-23 歷史點同額；當日原頁同款主商品公開價、可購動作及配送可重現，API Qty 19。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-24",
+      "note": "同型號同規格新品、同一PChome SKU過往公開單件價，未扣個人券、點數、刷卡回饋或贈品；屬可驗證記錄最低，非保證全網或上市以來最低。"
     },
     "issueResearch": {
       "status": "no_common_issue",

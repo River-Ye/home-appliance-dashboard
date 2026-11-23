@@ -114,10 +114,10 @@
     "name": "特仕版 2.0 人體工學椅",
     "price": {
       "currency": "TWD",
-      "amount": 11900,
-      "converted": 11900,
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-23 PChome 同特仕版 2.0公開價NT$11,900，未另扣個人券、點數與信用卡回饋。",
+      "amount": 9999,
+      "converted": 9999,
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-24 PChome 同特仕版 2.0公開價NT$9,999，未另扣個人券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAKHPA900HEQ4H/000001_1760581993.jpg",
@@ -795,9 +795,9 @@
       "currency": "TWD",
       "amount": 13410,
       "converted": 13410,
-      "confidence": "2026-11-23 核對原刊登供貨條件，金額保留為先前參考價",
+      "confidence": "2026-11-24 核對原刊登供貨條件，金額保留為先前參考價",
       "basis": "retailer_current",
-      "note": "2026-11-23 原商品頁仍為預購，預計2026/11/25 - 2026/11/27出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "note": "2026-11-24 原商品頁仍為預購，預計2026/11/26 - 2026/11/30出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAKFOA900BWWGS/000001_1755481797.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAKFO-A900BWWGS",
@@ -1082,8 +1082,8 @@
       "currency": "TWD",
       "amount": 7990,
       "converted": 7990,
-      "confidence": "2026-11-23 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-23 原商品頁仍為預購，預計2026/12/04 - 2026/12/08出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
+      "confidence": "2026-11-24 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-24 原商品頁仍為預購，預計2026/12/05 - 2026/12/08出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ0AA900IGLW6/000001_1759990112.jpg",
@@ -1378,9 +1378,9 @@
       "currency": "TWD",
       "amount": 15350,
       "converted": 15350,
-      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DQBJ6Z-A900JIKKR 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$15,350。 公開活動至 2026-11-24T23:59:59+08:00。"
+      "note": "2026-11-24 PChome 同TITAN PRO V2公開價NT$15,350，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-24T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ6ZA900JIKKR/000001_1782824760.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ6Z-A900JIKKR",
@@ -2460,9 +2460,9 @@
       "currency": "TWD",
       "amount": 4790,
       "converted": 4790,
-      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DQBJ0A-A900JCVY5 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$4,790。 公開活動至 2026-11-24T23:59:59+08:00。"
+      "note": "2026-11-24 PChome 同CGR-STD-BLB公開價NT$4,790，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-24T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ0AA900JCVY5/000001_1785087796.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ0A-A900JCVY5",
@@ -2501,17 +2501,17 @@
     ],
     "releaseDate": "2025-10",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 4790,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-08-06",
-      "note": "已查 COUGAR 官方料號頁、PChome／momo STRYDER 商品頁、BigGo、FindPrice 與海外價格頁；NT$6,990 只證明本輪台灣同名產品現價，沒有同一台灣料號可重現的可信新品歷史曲線或明確最低點日期。"
+      "converted": 4790,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DQBJ0A-A900JCVY5",
+      "sourceTitle": "Lowcast 比價趨勢：PChome COUGAR 美洲獅 STRYDER 高椅背 人體工學椅 可上掀扶手 黑色",
+      "evidenceSnippet": "Lowcast 同一 PChome SKU DQBJ0A-A900JCVY5 的 59 天價格記錄最低為 NT$4,790，2026-11-23 歷史點同額；當日原頁同款主商品公開價、可購動作及配送可重現，API Qty 2。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-24",
+      "note": "同型號同規格新品、同一PChome SKU過往公開單件價，未扣個人券、點數、刷卡回饋或贈品；屬可驗證記錄最低，非保證全網或上市以來最低。"
     },
     "issueResearch": {
       "status": "no_common_issue",

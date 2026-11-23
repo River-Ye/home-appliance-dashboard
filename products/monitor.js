@@ -3044,8 +3044,8 @@
       "evidenceSnippet": "",
       "sourceKind": "not_found",
       "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Dell Alienware AW3225QF: 樂天市場 - 良興EcLife購物網 良興EcLife購物網 DELL 32型 Alienware QD-OLED 4K 曲面遊戲專用顯示器 AW3225QF 非採用通路或含排除條件；LBJ Dell Alienware AW3225QF: 良興購物網 【良興購物網】DELL 32型 Alienware QD-OLED 4K 曲面遊戲專用顯示器 AW3225QF 非採用通路或含排除條件；LBJ Dell Alienware AW3225QF: 全聯線上購 【全聯線上購】【DELL 戴爾】DELL 32型 Alienware QD-OLED 4K 曲面遊戲專用顯示器 AW3225QF(DELL 32型 Alienware QD-OLED 4K 曲面遊戲專用顯示器 AW3225QF) 非採用通路或含排除條件。"
+      "checkedAt": "2026-11-24",
+      "note": "2026-11-24 查得Lowcast同SKU歷史記錄，但原先主頁另有下單再折促銷與未折價疑義；未完整核定更低結算價格，保留找不到可靠史低。"
     },
     "issueResearch": {
       "status": "common_issue",

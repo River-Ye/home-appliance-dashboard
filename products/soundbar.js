@@ -315,9 +315,9 @@
       "currency": "TWD",
       "amount": 22900,
       "converted": 22900,
-      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-22 PChome 同HT-A7100公開價NT$22,900，未另扣個人券、點數與信用卡回饋。"
+      "note": "2026-11-24 PChome 同HT-A7100採同頁網路常態參考價NT$22,900，未另扣個人券、點數與信用卡回饋。查核時另有短期限時價NT$20,152，活動至2026/11/24 07:59:59（台灣時間），未納入常態參考，下單前請重查原頁活動。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAAN8A900K0Y8L/000001_1779181877.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAN8-A900K0Y8L",
@@ -1109,10 +1109,10 @@
     "name": "5.1 聲道 Soundbar 家庭劇院組",
     "price": {
       "currency": "TWD",
-      "amount": 9016,
-      "converted": 9016,
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-23 Yahoo購物中心同HT-S40R公開價NT$9,016，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-23T19:58:59+08:00。",
+      "amount": 9490,
+      "converted": 9490,
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-24 Yahoo購物中心同HT-S40R公開價NT$9,490，未另扣個人券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900GHTFE/000001_1776774078.jpg",
@@ -1605,11 +1605,11 @@
     "name": "BRAVIA Theatre Bar 8 聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 27900,
-      "converted": 27900,
-      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 29900,
+      "converted": 29900,
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMBM1D-A900HTC64 原商品主區公開價 NT$27,900，購買按鈕可用，API Qty 3。會員券、點數與卡回饋未計入。"
+      "note": "2026-11-24 PChome 同HT-A8000公開價NT$29,900，未另扣個人券、點數與信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900HTC64/000001_1781747501.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM1D-A900HTC64",
@@ -1912,12 +1912,12 @@
       "currency": "TWD",
       "amount": 34930,
       "converted": 34930,
-      "confidence": "2026-11-23 原商品頁的實際下單折扣未完整確認，金額保留為先前參考價",
-      "note": "2026-11-23 原商品頁網路價NT$38,900，但「下單再折」金額與公開活動條件未能完整互證。本卡NT$34,930保留為先前參考價，實際下單價格請看通路；未以個人券、點數或信用卡回饋推定公開折價。"
+      "confidence": "2026-11-24 原商品頁的實際下單折扣未完整確認，保留先前參考價",
+      "note": "2026-11-24 原商品頁網路價NT$38,900；另顯示「下單再折」，公開單件折扣的完整條件尚未確認，卡片保留先前NT$34,930參考價。下單前請確認實際折扣；未扣個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAF02A900H2G5R/000001_1704612188.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAF02-A900H2G5R",
-    "buyLabel": "PChome（折扣待確認／先前參考價）",
+    "buyLabel": "PChome（下單折扣待確認／先前參考價）",
     "specs": [
       "7.1.2 聲道",
       "Dolby Atmos",
@@ -2214,11 +2214,12 @@
       "currency": "TWD",
       "amount": 14999,
       "converted": 14999,
-      "confidence": "Costco 好市多 2026-07-11 頁面查核價"
+      "confidence": "2026-11-24 原同款刊登需登入查價，保留先前參考價",
+      "note": "2026-11-24 Costco原同款商品頁主區顯示「登入顯示價格」，公開單品價與當日可購條件待確認；本卡金額保留為先前參考價。需好市多會員資格，下單前請登入原頁確認實際價格與供貨。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h40/hc8/204392561901598.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Soundbars-Home-Theater/Denon-312-CH-Soundbar-with-Dolby-Atmos-and-Wireless-Subwoofer-DHT-S517/p/144030",
-    "buyLabel": "Costco 好市多",
+    "buyLabel": "Costco 好市多（需登入查價／先前參考價）",
     "specs": [
       "3.1.2 聲道",
       "Dolby Atmos",
@@ -2834,8 +2835,8 @@
       "currency": "TWD",
       "amount": 14399,
       "converted": 14399,
-      "confidence": "Costco 好市多台灣於 2026-08-29 的 exact-model 可購公開售價 NT$14,399",
-      "note": "Costco 原頁 #148021 主商品為 Flexus Core 200 單聲霸，頁面顯示 NT$14,399 含運，主購買按鈕缺貨且停用，保留既有參考價。其他來源多為木紋款、重低音組合或福利品，未確認同款黑色單機公開可購。"
+      "confidence": "2026-11-24 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-24 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "installation": {
       "status": "not_stated",
@@ -2843,7 +2844,7 @@
     },
     "image": "https://klipsch.imgix.net/product-images/Klipsch-Flexus-CORE-200-Hero_2000x2000.png?crop=focalpoint&domain=klipsch.imgix.net&fit=crop&fm=webp&fp-x=0.5&fp-y=0.5&h=1000&ixlib=php-3.3.1&q=90&w=1000",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Soundbars-Home-Theater/Klipsch-Flexus-312-Channel-Dolby-Atmos-SoundBar-Core-200/p/148021",
-    "buyLabel": "Costco（原頁缺貨）",
+    "buyLabel": "Costco 好市多（原刊登缺貨，查看供貨）",
     "specs": [
       "3.1.2 聲道；Dolby Atmos；Klipsch 號角中置高音與 2 組天空聲道單體",
       "185W RMS；頻率響應 43Hz–20kHz；內建 2 組 4 吋低音單體",
@@ -3111,9 +3112,9 @@
       "currency": "TWD",
       "amount": 17300,
       "converted": 17300,
-      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DCAIAM-A900K9HQX 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$17,300。 下單再折可由同頁公開單件／門檻活動及同型號刊登互證，未計入個人券、點數與信用卡回饋。 公開活動至 2026-11-23T23:59:59+08:00。"
+      "note": "2026-11-24 PChome 同ROG Gjallar公開價NT$17,300，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "installation": {
       "status": "not_stated",

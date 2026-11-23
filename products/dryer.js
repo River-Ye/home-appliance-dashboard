@@ -17,8 +17,8 @@
       "currency": "TWD",
       "amount": 9143,
       "converted": 9143,
-      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-22 PChome 同NH-80RZ-W公開價NT$9,143，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-23T09:00:59+08:00。",
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-24 PChome 同NH-80RZ-W公開價NT$9,143，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-24T08:59:59+08:00。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -1052,10 +1052,11 @@
       "currency": "TWD",
       "amount": 38999,
       "converted": 38999,
-      "confidence": "Costco 好市多 2026-07-12 頁面查核價"
+      "confidence": "2026-11-24 原同款刊登需登入查價，保留先前參考價",
+      "note": "2026-11-24 Costco原同款商品頁主區顯示「登入顯示價格」，公開單品價與當日可購條件待確認；本卡金額保留為先前參考價。需好市多會員資格，下單前請登入原頁確認實際價格與供貨。"
     },
     "channel": "tw",
-    "buyLabel": "Costco 好市多",
+    "buyLabel": "Costco 好市多（需登入查價／先前參考價）",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Washers-Dryers/Whirlpool-16-kg-Gas-Dryer-8TWGD6622HW/p/125469",
     "specs": [
       "烘衣機：Whirlpool惠而浦 16公斤 快烘瓦斯型滾筒乾衣機 8TWGD6622HW 含基本安裝",
@@ -2447,17 +2448,17 @@
     ],
     "releaseDate": "2024-09-12",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 41111,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-08-20",
-      "note": "已查 LG 台灣官方、PChome exact-model SKU API 與價格搜尋；只能確認本輪 NT$42,900 新品現價，未找到具日期且可重現的可信新品史低。"
+      "converted": 41111,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DPAI1L-A900HQ772",
+      "sourceTitle": "Lowcast 比價趨勢：PChome LG 樂金 AI Dry 20公斤熱泵式免曬衣乾衣機WR-20DW(冰瓷白)",
+      "evidenceSnippet": "Lowcast 同一 PChome SKU DPAI1L-A900HQ772 的 63 天價格記錄最低為 NT$41,111，2026-11-23 歷史點同額；當日原頁同款主商品公開價、可購動作及配送可重現，API Qty 4。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-24",
+      "note": "同型號同規格新品、同一PChome SKU過往公開單件價，未扣個人券、點數、刷卡回饋或贈品；屬可驗證記錄最低，非保證全網或上市以來最低。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2540,17 +2541,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 41310,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-10-23",
-      "note": "當日查NH-V150SP-W歷史價格與exact-model比價，FindPrice原頁有現價/分期/會員券等混合結果，不能當史低；LBJ exact查詢原頁無法取得可驗證歷史曲線，不採搜尋快取價格，亦不以本次現價41310推史低。"
+      "converted": 41310,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DPAIGJ-A900JTI62",
+      "sourceTitle": "Lowcast 比價趨勢：PChome Panasonic 國際牌 15kg 熱泵除濕式乾衣機NH-V150SP -含基本安裝",
+      "evidenceSnippet": "Lowcast 同一 PChome SKU DPAIGJ-A900JTI62 的 63 天價格記錄最低為 NT$41,310，2026-11-23 歷史點同額；當日原頁同款主商品公開價、可購動作及配送可重現，API Qty 18。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-24",
+      "note": "同型號同規格新品、同一PChome SKU過往公開單件價，未扣個人券、點數、刷卡回饋或贈品；屬可驗證記錄最低，非保證全網或上市以來最低。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2859,17 +2860,17 @@
     "recommendation": "作為台灣現售10kg熱泵乾衣補充選項；以水箱/排水配置、搬運空間和日常棉絮維護評估，不列Top Pick。",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 24111,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-10-31",
-      "note": "實讀FindPrice完整型號比價、LBJ exact查詢、PChome及momo原頁；月繳69元、3000元層架與洗乾組合排除。未取得可信新品通路可重現日期的獨立歷史最低點；不以當前27900元、折扣標示或未知追價網站自動記錄推定史低。"
+      "converted": 24111,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DPAI3F-A900J14XI",
+      "sourceTitle": "Lowcast 比價趨勢：PChome SHARP 夏普 10公斤熱泵式滾筒乾衣機KD-FKH10DT(烘布郎)",
+      "evidenceSnippet": "Lowcast 同一 PChome SKU DPAI3F-A900J14XI 的 63 天價格記錄最低為 NT$24,111，2026-11-23 歷史點同額；當日原頁同款主商品公開價、可購動作及配送可重現，API Qty 19。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-24",
+      "note": "同型號同規格新品、同一PChome SKU過往公開單件價，未扣個人券、點數、刷卡回饋或贈品；屬可驗證記錄最低，非保證全網或上市以來最低。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2922,8 +2923,8 @@
       "amount": 32000,
       "converted": 32000,
       "basis": "retailer_current",
-      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DPAI1L-A900KI8KB 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$32,000。 公開活動至 2026-11-30T23:59:59+08:00。"
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-24 PChome 同WR-10XW公開價NT$32,000，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "installation": {
       "status": "not_stated",

@@ -526,8 +526,9 @@
       "currency": "TWD",
       "amount": 604,
       "converted": 604,
-      "confidence": "PChome 24h 2026-08-24 exact-model 台灣原廠保固新品公開價",
-      "basis": "retailer_current"
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
+      "basis": "retailer_current",
+      "note": "2026-11-24 PChome 同GS-108B v5公開價NT$604，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-29T23:59:59+08:00。"
     },
     "installation": {
       "status": "excluded",
@@ -1245,17 +1246,17 @@
     "recommendation": "新款 2.5G／10G 均衡推薦：12 W 無風扇全金屬機身、雙 SFP+ 與 Lite 管理，價格低於多數完整 L2 同級機。",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 6900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-08-27",
-      "note": "已查核 QSW-L2110-2S8T 的 PChome exact SKU、QNAP 台灣官方頁、LBJ、BigGo 與飛比；新款可見現售價格但找不到具日期、可重現且排除個人化優惠的 exact-model 歷史價格曲線，因此不以現價推定史低。"
+      "converted": 6900,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DRAF9S-A900K8WTX",
+      "sourceTitle": "Lowcast 比價趨勢：PChome QNAP 威聯通 昌運監視器 QSW-L2110-2S8T Lite 管理型交換器 IEEE 802.3az (EEE)",
+      "evidenceSnippet": "Lowcast 同一 PChome SKU DRAF9S-A900K8WTX 的 63 天價格記錄最低為 NT$6,900，2026-11-23 歷史點同額；當日原頁同款主商品公開價、可購動作及配送可重現，API Qty 19。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-24",
+      "note": "同型號同規格新品、同一PChome SKU過往公開單件價，未扣個人券、點數、刷卡回饋或贈品；屬可驗證記錄最低，非保證全網或上市以來最低。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1695,10 +1696,11 @@
     "type": "2_5g",
     "price": {
       "currency": "TWD",
-      "amount": 3568,
-      "converted": 3568,
-      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "basis": "retailer_current"
+      "amount": 3389,
+      "converted": 3389,
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
+      "basis": "retailer_current",
+      "note": "2026-11-24 PChome 同XMG-108公開價NT$3,389，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-29T23:59:59+08:00。"
     },
     "installation": {
       "status": "excluded",

@@ -1765,10 +1765,10 @@
     "name": "多功能變頻輕音冷熱調理機",
     "price": {
       "currency": "TWD",
-      "amount": 8091,
-      "converted": 8091,
-      "confidence": "PChome 2026-11-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-04 下午重新查核：PChome exact SKU DMAY4Y-A900I3ILD；Price.Low=8091元，Qty=20。本輪報價取代先前活動報價；不另扣個人券、點數、信用卡回饋或贈品。供電、保固與安裝邊界仍依商品卡，實際配送安裝需由通路確認。",
+      "amount": 8990,
+      "converted": 8990,
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-24 PChome 同L18M-Y6G公開價NT$8,990，未另扣個人券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY4YA900I3ILD/000001_1783328441.jpg",

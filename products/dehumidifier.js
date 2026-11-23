@@ -19,9 +19,9 @@
       "currency": "TWD",
       "amount": 14608,
       "converted": 14608,
-      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMBQ3P-A900J0L88 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$14,608。 公開活動至 2026-11-30T23:59:59+08:00。"
+      "note": "2026-11-24 PChome 同F-YV32NN公開價NT$14,608，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900J0L88/000001_1776323540.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3P-A900J0L88",
@@ -115,10 +115,10 @@
     "name": "22 公升 PuriCare 雙變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 20900,
-      "converted": 20900,
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
-      "note": "PChome 新商品編號 DMBQ07-A900JOMT2 原頁明示「22公升WiFi雙變頻除濕機-時尚款 DE221MWE0」，網路價 20900元，可加入購物車，API 庫存 20。金額未扣會員券、點數或信用卡回饋。",
+      "amount": 20111,
+      "converted": 20111,
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-24 PChome 同DE221MWE0公開價NT$20,111，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4NA900JMY77/000001_1783337653.jpg",
@@ -800,9 +800,9 @@
       "currency": "TWD",
       "amount": 8125,
       "converted": 8125,
-      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMBQ00-A900JB38A 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$8,125。 公開活動至 2026-11-30T23:59:59+08:00。"
+      "note": "2026-11-24 PChome 同F-Y18PN公開價NT$8,125，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ00A900JB38A/000001_1776329911.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ00-A900JB38A",
@@ -896,11 +896,11 @@
     "name": "PuriCare WiFi 變頻除濕機粉紅 16 公升",
     "price": {
       "currency": "TWD",
-      "amount": 14111,
-      "converted": 14111,
-      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 13900,
+      "converted": 13900,
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMBQ07-A900HQ3L5 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$14,111。 公開活動至 2026-11-30T23:59:59+08:00。"
+      "note": "2026-11-24 PChome 同MD161QPK3公開價NT$13,900，未另扣個人券、點數與信用卡回饋。公開活動至2026-12-31T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ07A900HQ3L5/000001_1761827365.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ07-A900HQ3L5",
@@ -1094,8 +1094,8 @@
       "currency": "TWD",
       "amount": 15500,
       "converted": 15500,
-      "confidence": "2026-11-23 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-23 原同款刊登顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "confidence": "2026-11-24 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-24 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4YA900JBQP2/000001_1759892926.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ4Y-A900JBQP2",
@@ -1484,9 +1484,9 @@
       "currency": "TWD",
       "amount": 4090,
       "converted": 4090,
-      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMBQ08-A900IXL3K 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$4,090。 下單再折可由同頁公開單件／門檻活動及同型號刊登互證，未計入個人券、點數與信用卡回饋。 公開活動至 2026-11-30T23:59:59+08:00。"
+      "note": "2026-11-24 PChome 同DW-WL6NT-W公開價NT$4,090，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ08A900IXL3K/000001_1753349026.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ08-A900IXL3K",
@@ -1582,9 +1582,9 @@
       "currency": "TWD",
       "amount": 5137,
       "converted": 5137,
-      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMBQ3P-A900J9FH9 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$5,137。 公開活動至 2026-11-30T23:59:59+08:00。"
+      "note": "2026-11-24 PChome 同F-Y12PS公開價NT$5,137，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900J9FH9/000001_1776325410.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3P-A900J9FH9",
@@ -2497,10 +2497,10 @@
     "name": "乾淨方 Pro 雙氣流變頻美學 25L 除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 20805,
-      "converted": 20805,
-      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-22 Yahoo購物中心同DW-UW25HT-W公開價NT$20,805，未另扣個人券、點數與信用卡回饋。公開活動至2026-12-01T06:59:59+08:00。",
+      "amount": 21900,
+      "converted": 21900,
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-24 Yahoo購物中心同DW-UW25HT-W公開價NT$21,900，未另扣個人券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "installation": {

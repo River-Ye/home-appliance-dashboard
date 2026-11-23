@@ -651,9 +651,9 @@
       "currency": "TWD",
       "amount": 29811,
       "converted": 29811,
-      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DPAI1L-A900EP6CY 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$29,811。 公開活動至 2026-11-30T23:59:59+08:00。"
+      "note": "2026-11-24 PChome 同WD-S13VDW公開價NT$29,811，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1285,9 +1285,9 @@
       "currency": "TWD",
       "amount": 21912,
       "converted": 21912,
-      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-22 PChome 同NA-V120HDH公開價NT$21,912，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-23T09:00:59+08:00。"
+      "note": "2026-11-24 PChome 同NA-V120HDH公開價NT$21,912，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-24T08:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -2323,8 +2323,8 @@
       "currency": "TWD",
       "amount": 82900,
       "converted": 82900,
-      "confidence": "2026-11-23 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-23 原商品頁仍為預購，接單後陸續安排，最晚2026/11/30出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
+      "confidence": "2026-11-24 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-24 原商品頁仍為預購，接單後陸續安排，最晚2026/11/30出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -2646,8 +2646,8 @@
       "currency": "TWD",
       "amount": 39512,
       "converted": 39512,
-      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-22 PChome 同NA-SD10TB公開價NT$39,512，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-23T09:00:59+08:00。",
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-24 PChome 同NA-SD10TB公開價NT$39,512，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-24T08:59:59+08:00。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -2860,11 +2860,11 @@
     "name": "17公斤 Heat Pump 智慧聯網洗脫烘（夜幕黑）",
     "price": {
       "currency": "TWD",
-      "amount": 58432,
-      "converted": 58432,
-      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 66400,
+      "converted": 66400,
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-22 PChome 同NA-V170RPH-K公開價NT$58,432，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-23T09:00:59+08:00。"
+      "note": "2026-11-24 PChome 同NA-V170RPH-K公開價NT$66,400，未另扣個人券、點數與信用卡回饋。"
     },
     "image": "https://www.myfone.com.tw/website_twmf/uploads_product/website_2041/036/699/ECP0204103669957_1_20458150.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAIER-A900KLOGO",
@@ -3556,9 +3556,9 @@
       "currency": "TWD",
       "amount": 19011,
       "converted": 19011,
-      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DPAI1G-A900KDERC 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$19,011。 公開活動至 2026-11-30T23:59:59+08:00。"
+      "note": "2026-11-24 PChome 同TWD-T33B135UWTA(WS)公開價NT$19,011，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "installation": {
       "status": "included_basic",
@@ -3659,8 +3659,8 @@
       "amount": 64308,
       "converted": 64308,
       "basis": "retailer_current",
-      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DPAI1K-A900JWLH4 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$64,308。 公開活動至 2026-11-30T23:59:59+08:00。"
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-24 PChome 同BD-SZ150KJ公開價NT$64,308，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "installation": {
       "status": "not_stated",
@@ -3704,17 +3704,17 @@
     ],
     "releaseDate": "2026-04-14",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 64308,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-11-15",
-      "note": "同型號比價頁找到可下單報價線索；LBJ 6 個同型獨立歷史端點回 HTTP 429，未取得可核對日期與條件的實際低點曲線。PChome 本期活動價與論壇未具名詢價不當史低。"
+      "converted": 64308,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DPAI1K-A900JWLH4",
+      "sourceTitle": "Lowcast 比價趨勢：PChome HITACHI 日立 15公斤日本製AI智能感測熱泵滾筒式洗脫烘洗衣機BDSZ150KJ左開 (BD-SZ150KJ)",
+      "evidenceSnippet": "Lowcast 同一 PChome SKU DPAI1K-A900JWLH4 的 63 天價格記錄最低為 NT$64,308，2026-11-23 歷史點同額；當日原頁同款主商品公開價、可購動作及配送可重現，API Qty 8。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-24",
+      "note": "同型號同規格新品、同一PChome SKU過往公開單件價，未扣個人券、點數、刷卡回饋或贈品；屬可驗證記錄最低，非保證全網或上市以來最低。"
     },
     "issueResearch": {
       "status": "no_common_issue",

@@ -16,10 +16,10 @@
     "name": "全能機械手臂旗艦掃拖王者",
     "price": {
       "currency": "TWD",
-      "amount": 34980,
-      "converted": 34980,
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-23 PChome 同Saros Z70公開價NT$34,980，未另扣個人券、點數與信用卡回饋。",
+      "amount": 33000,
+      "converted": 33000,
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-24 PChome 同Saros Z70公開價NT$33,000，未另扣個人券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900IGHHM/000001_1782870336.jpg",
@@ -116,9 +116,9 @@
       "currency": "TWD",
       "amount": 31261,
       "converted": 31261,
-      "confidence": "2026-11-23 核對原刊登供貨條件，金額保留為先前參考價",
+      "confidence": "2026-11-24 核對原刊登供貨條件，金額保留為先前參考價",
       "basis": "retailer_current",
-      "note": "2026-11-23 原商品頁仍為預購，預計2027/01/10 - 2027/01/12出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "note": "2026-11-24 原商品頁仍為預購，預計2027/01/10 - 2027/01/12出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JNELR/000001_1769062030.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JNELR",
@@ -303,9 +303,9 @@
       "currency": "TWD",
       "amount": 29421,
       "converted": 29421,
-      "confidence": "2026-11-23 核對原刊登供貨條件，金額保留為先前參考價",
+      "confidence": "2026-11-24 核對原刊登供貨條件，金額保留為先前參考價",
       "basis": "retailer_current",
-      "note": "2026-11-23 原商品頁仍為預購，接單後陸續安排，最晚2026/12/18出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "note": "2026-11-24 原商品頁仍為預購，接單後陸續安排，最晚2026/12/18出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JMMCO/000001_1769061975.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JMMCO",
@@ -598,8 +598,8 @@
       "currency": "TWD",
       "amount": 24700,
       "converted": 24700,
-      "confidence": "2026-11-23 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-23 原商品頁仍為預購，到貨後依訂單順序安排；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
+      "confidence": "2026-11-24 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-24 原商品頁仍為預購，到貨後依訂單順序安排；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900JRDAS/000001_1771917633.jpg",
@@ -1317,17 +1317,17 @@
     ],
     "releaseDate": "2024-09-06",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 14911,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Narwal Freo Z Ultra: 蝦皮商城 - Narwal 雲鯨台灣 Narwal 雲鯨掃地機機器人專用邊刷一對（Freo X Ultra/Freo X Plus/Freo Z Ultra） 型號/規格不相符；LBJ Narwal Freo Z Ultra: 蝦皮商城 - Narwal 雲鯨台灣 Narwal 雲鯨掃地機專用銀離子抗菌拖布2入(Freo X Ultra/Freo Z Ultra/ Freo Z10) 型號/規格不相符；LBJ Narwal Freo Z Ultra: 蝦皮商城 - Narwal 雲鯨台灣 Narwal 雲鯨 Freo Z Ultra專用一次性塵袋二入 型號/規格不相符。"
+      "converted": 14911,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DMBL4U-A900JA072",
+      "sourceTitle": "Lowcast 比價趨勢：PChome narwal 雲鯨 Freo Z Ultra《靚睛鯨》真雙目AI掃拖機器人-銀白色(熱水熱烘/零纏繞2.0/自動集塵/8核心雙晶片)",
+      "evidenceSnippet": "Lowcast 同一 PChome SKU DMBL4U-A900JA072 的 63 天價格記錄最低為 NT$14,911，2026-11-23 歷史點同額；當日原頁同款主商品公開價、可購動作及配送可重現，API Qty 5。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-24",
+      "note": "同型號同規格新品、同一PChome SKU過往公開單件價，未扣個人券、點數、刷卡回饋或贈品；屬可驗證記錄最低，非保證全網或上市以來最低。"
     },
     "issueResearch": {
       "status": "no_common_issue",

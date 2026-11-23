@@ -737,17 +737,17 @@
     ],
     "releaseDate": "2023",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 4990,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Blueair BlueMax 3250i: 蝦皮商城 - Blueair | 恆隆行官方旗艦館 Blueair BlueMax空氣清淨機3250i(最大適用10坪)福利品 型號/規格不相符；LBJ Blueair BlueMax 3250i: Momo富邦購物 (店+)【Blueair】(A級福利品僅盒微損 商品全新)BlueMax 智能 wifi 空氣清淨機 3250i (最大適用12坪) 型號/規格不相符；LBJ Blueair BlueMax 3250i: Momo富邦購物 【Blueair】BlueMax智能wifi空氣清淨機3250i(輕巧/安靜/除異味/適用8-12坪) 型號/規格不相符。"
+      "converted": 4990,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DMAUE4-A900I7DJ1",
+      "sourceTitle": "Lowcast 比價趨勢：PChome Blueair BlueMax智能wifi空氣清淨機3250i(輕巧/安靜/除異味)(適用8-12坪)",
+      "evidenceSnippet": "Lowcast 同一 PChome SKU DMAUE4-A900I7DJ1 的 62 天價格記錄最低為 NT$4,990，2026-11-23 歷史點同額；當日原頁同款主商品公開價、可購動作及配送可重現，API Qty 9。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-24",
+      "note": "同型號同規格新品、同一PChome SKU過往公開單件價，未扣個人券、點數、刷卡回饋或贈品；屬可驗證記錄最低，非保證全網或上市以來最低。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1874,11 +1874,11 @@
     "name": "PuriCare 超淨化大白空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 6911,
-      "converted": 6911,
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 6511,
+      "converted": 6511,
+      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-23 PChome 同AS601HWG0公開價NT$6,911，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
+      "note": "2026-11-24 PChome 同AS601HWG0公開價NT$6,511，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-25T10:00:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU0BA900GI0Q1/000001_1763349087.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU0B-A900GI0Q1",
@@ -2496,9 +2496,9 @@
       "currency": "TWD",
       "amount": 3990,
       "converted": 3990,
-      "confidence": "2026-11-23 核對原刊登供貨條件，金額保留為先前參考價",
+      "confidence": "2026-11-24 核對原刊登供貨條件，金額保留為先前參考價",
       "basis": "retailer_current",
-      "note": "2026-11-23 原同款刊登顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "note": "2026-11-24 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "installation": {
       "status": "not_stated",
