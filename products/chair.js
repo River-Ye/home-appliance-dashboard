@@ -114,10 +114,10 @@
     "name": "特仕版 2.0 人體工學椅",
     "price": {
       "currency": "TWD",
-      "amount": 9999,
-      "converted": 9999,
-      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-22 PChome 同特仕版 2.0公開價NT$9,999，未另扣個人券、點數與信用卡回饋。",
+      "amount": 11900,
+      "converted": 11900,
+      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-23 PChome 同特仕版 2.0公開價NT$11,900，未另扣個人券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAKHPA900HEQ4H/000001_1760581993.jpg",
@@ -795,9 +795,9 @@
       "currency": "TWD",
       "amount": 13410,
       "converted": 13410,
-      "confidence": "2026-11-22 核對原商品供貨狀態，保留上次參考價",
+      "confidence": "2026-11-23 核對原刊登供貨條件，金額保留為先前參考價",
       "basis": "retailer_current",
-      "note": "2026-11-22 原商品頁仍為預購，預計2026/11/24 - 2026/11/26出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "note": "2026-11-23 原商品頁仍為預購，預計2026/11/25 - 2026/11/27出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAKFOA900BWWGS/000001_1755481797.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAKFO-A900BWWGS",
@@ -1082,8 +1082,8 @@
       "currency": "TWD",
       "amount": 7990,
       "converted": 7990,
-      "confidence": "2026-11-22 核對原商品供貨狀態，保留上次參考價",
-      "note": "2026-11-22 原商品頁仍為預購，預計2026/12/03 - 2026/12/07出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
+      "confidence": "2026-11-23 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-23 原商品頁仍為預購，預計2026/12/04 - 2026/12/08出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ0AA900IGLW6/000001_1759990112.jpg",

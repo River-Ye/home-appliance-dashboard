@@ -16,10 +16,10 @@
     "name": "全能機械手臂旗艦掃拖王者",
     "price": {
       "currency": "TWD",
-      "amount": 35480,
-      "converted": 35480,
-      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DMBL1C-A900IGHHM 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$35,480。",
+      "amount": 34980,
+      "converted": 34980,
+      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-23 PChome 同Saros Z70公開價NT$34,980，未另扣個人券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900IGHHM/000001_1782870336.jpg",
@@ -116,9 +116,9 @@
       "currency": "TWD",
       "amount": 31261,
       "converted": 31261,
-      "confidence": "2026-11-22 核對原商品供貨狀態，保留上次參考價",
+      "confidence": "2026-11-23 核對原刊登供貨條件，金額保留為先前參考價",
       "basis": "retailer_current",
-      "note": "2026-11-22 原商品頁仍為預購，預計2027/01/10 - 2027/01/12出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "note": "2026-11-23 原商品頁仍為預購，預計2027/01/10 - 2027/01/12出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JNELR/000001_1769062030.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JNELR",
@@ -303,9 +303,9 @@
       "currency": "TWD",
       "amount": 29421,
       "converted": 29421,
-      "confidence": "2026-11-22 核對原商品供貨狀態，保留上次參考價",
+      "confidence": "2026-11-23 核對原刊登供貨條件，金額保留為先前參考價",
       "basis": "retailer_current",
-      "note": "2026-11-22 原商品頁仍為預購，預計2026/12/18出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "note": "2026-11-23 原商品頁仍為預購，接單後陸續安排，最晚2026/12/18出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JMMCO/000001_1769061975.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JMMCO",
@@ -399,11 +399,11 @@
     "name": "雙越野高智商旗艦級掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 25480,
-      "converted": 25480,
-      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 24911,
+      "converted": 24911,
+      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMBL1C-A900JPHOP 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$25,480。"
+      "note": "2026-11-23 PChome 同Qrevo Edge 2 Pro公開價NT$24,911，未另扣個人券、點數與信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JPHOP/000001_1782870240.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JPHOP",
@@ -598,8 +598,8 @@
       "currency": "TWD",
       "amount": 24700,
       "converted": 24700,
-      "confidence": "2026-11-22 核對原商品供貨狀態，保留上次參考價",
-      "note": "2026-11-22 原商品頁仍為預購，到貨後依訂單順序安排；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
+      "confidence": "2026-11-23 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-23 原商品頁仍為預購，到貨後依訂單順序安排；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900JRDAS/000001_1771917633.jpg",
@@ -1380,8 +1380,8 @@
     "price": {
       "currency": "EUR",
       "amount": 999,
-      "converted": 36183,
-      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-20 匯率換算",
+      "converted": 36147,
+      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-23 匯率換算",
       "note": "2026-11-04 下午覆核：原生Narwal德國URL variant52366680523028選中Schwarz Basisstation及Standardpaket；主價999EUR、劃線1299EUR，In den Warenkorb可用、2–5Tage Lieferzeit。與上午所選缺貨不同，仍未保證台灣寄送。未含國際運費、進口稅、電壓/插頭與台灣保固風險。",
       "basis": "retailer_current"
     },
@@ -1478,8 +1478,8 @@
     "price": {
       "currency": "USD",
       "amount": 551.69,
-      "converted": 18198,
-      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-11-20 匯率換算"
+      "converted": 18188,
+      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-11-23 匯率換算"
     },
     "image": "https://img.gkbcdn.com/p/2025-04-11/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438-0._w315_.jpg",
     "buyUrl": "https://www.geekbuying.com/item/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438.html",
@@ -2640,8 +2640,8 @@
     "price": {
       "currency": "USD",
       "amount": 549.99,
-      "converted": 18142,
-      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-20 匯率換算",
+      "converted": 18132,
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-23 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-04 Shark美國所選黑色RV2820ZE當日原variationAPI549.99USD，available/readyToOrder均true、inStockDate為2026-11-26，交期待確認；不混白色缺貨SKU，不稱即時現貨。未含國際運費、進口稅、電壓/插頭與台灣保固風險。"
     },
@@ -2838,8 +2838,8 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 13194,
-      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-11-20 匯率換算",
+      "converted": 13187,
+      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-11-23 匯率換算",
       "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。 2026-11-01 原Costco美國QXRevo頁HTTP404，現貨與現價未確認；保留USD399.99舊參考價，含海外運稅、電力與台灣保固風險，不能推定原廠整型停產。"
     },
     "image": "https://cdn.cs.1worldsync.com/syndication/mediaserverredirect/aaaa71b7b115f7d0cbeb119d8fc3ad7b/width%281200%29.jpg",
@@ -2921,10 +2921,10 @@
     "name": "Xiaomi 掃拖機器人 6 Max",
     "price": {
       "currency": "TWD",
-      "amount": 20816,
-      "converted": 20816,
-      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "Yahoo 原商品主區賣場 12134974 已核對同型號／選定組合、可用購買按鈕與公開價 NT$20,816。公開單件活動至 2026-11-23T07:30:59+08:00。未計入個人券、點數及信用卡回饋。",
+      "amount": 21911,
+      "converted": 21911,
+      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-23 Yahoo購物中心同6 Max公開價NT$21,911，未另扣個人券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/5A801ABE6A-SP-22823743.jpg",

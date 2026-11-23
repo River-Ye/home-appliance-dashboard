@@ -19,13 +19,13 @@
       "currency": "TWD",
       "amount": 9900,
       "converted": 9900,
-      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DPAL2N-A900HYYVV 原商品主區公開價 NT$9,900，購買按鈕可用，API Qty 20。會員券、點數與卡回饋未計入。",
+      "confidence": "2026-11-23 核對原頁網路價，實際下單折扣未完整確認",
+      "note": "2026-11-23 原商品頁網路價NT$9,900；另顯示「下單再折」，公開單件折扣的完整條件尚未確認，卡片保留此網路參考價。下單前請確認實際折扣；未扣個人券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAL2NA900HYYVV/000001_1732173829.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAL2N-A900HYYVV",
-    "buyLabel": "PChome 24h購物",
+    "buyLabel": "PChome 24h購物（下單折扣待確認）",
     "specs": [
       "溫水洗淨",
       "溫熱無縫便座",
@@ -414,13 +414,13 @@
       "currency": "TWD",
       "amount": 23900,
       "converted": 23900,
-      "confidence": "PChome 2026-07-11 API 查核價",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。",
+      "confidence": "2026-11-23 核對原頁網路價，實際下單折扣未完整確認",
+      "note": "2026-11-23 原商品頁網路價NT$23,900；另顯示「下單再折」，公開單件折扣的完整條件尚未確認，卡片保留此網路參考價。下單前請確認實際折扣；未扣個人券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAL6WA900JNQF2/000001_1783412715.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAL6W-A900JNQF2",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（下單折扣待確認）",
     "specs": [
       "WASHLET",
       "電解除菌水",
@@ -611,13 +611,13 @@
       "currency": "TWD",
       "amount": 17900,
       "converted": 17900,
-      "confidence": "PChome 2026-07-11 API 查核價",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。",
+      "confidence": "2026-11-23 核對原頁網路價，實際下單折扣未完整確認",
+      "note": "2026-11-23 原商品頁網路價NT$17,900；另顯示「下單再折」，公開單件折扣的完整條件尚未確認，卡片保留此網路參考價。下單前請確認實際折扣；未扣個人券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAL6WA900JVX5O/000001_1775638184.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAL6W-A900JVX5O",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（下單折扣待確認）",
     "specs": [
       "電解除菌水",
       "強力除臭",
@@ -1005,9 +1005,9 @@
       "currency": "TWD",
       "amount": 5990,
       "converted": 5990,
-      "confidence": "2026-11-22 核對原商品供貨狀態，保留上次參考價",
+      "confidence": "2026-11-23 核對原刊登供貨條件，金額保留為先前參考價",
       "basis": "retailer_current",
-      "note": "2026-11-22 原同款刊登顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "note": "2026-11-23 原同款刊登顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAL8LA900GH6F4/000001_1724400418.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAL8L-A900GH6F4",
@@ -1104,8 +1104,8 @@
       "currency": "TWD",
       "amount": 15752,
       "converted": 15752,
-      "confidence": "2026-11-22 核對原商品供貨狀態，保留上次參考價",
-      "note": "2026-11-22 原同款刊登顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
+      "confidence": "2026-11-23 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-23 原同款刊登顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAL6WA900I0L73/000001_1729761324.jpg",
@@ -1207,8 +1207,8 @@
       "currency": "TWD",
       "amount": 13900,
       "converted": 13900,
-      "confidence": "2026-11-22 核對原商品供貨狀態，保留上次參考價",
-      "note": "2026-11-22 原商品頁仍為預購，預計2026/12/17 - 2026/12/21出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "confidence": "2026-11-23 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-23 原商品頁仍為預購，預計2026/12/18 - 2026/12/22出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAL6WA900JEEZE/000001_1776140283.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAL6W-A900JEEZE",
@@ -1888,8 +1888,8 @@
     "price": {
       "currency": "USD",
       "amount": 479.99,
-      "converted": 15833,
-      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-20 匯率換算",
+      "converted": 15824,
+      "confidence": "2026-11-01 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-23 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-01 Brondell美國官方新品CL1700主商品Current Price USD479.99，主商品BCData為instock:true/purchasable:true；未由首頁20%banner推定此SKU另享折扣，排除Open-Box299.99。 海外參考；未含國際運費、進口稅、電壓／插頭與台灣保固風險。"
     },
@@ -1928,14 +1928,14 @@
       "status": "found",
       "amount": 383.99,
       "currency": "USD",
-      "converted": 12667,
+      "converted": 12659,
       "sourceUrl": "https://www.brondell.com/swash-cl1700-advanced-bidet-seat/",
       "sourceTitle": "Brondell US：Swash CL1700 Advanced Bidet Seat",
       "evidenceSnippet": "Brondell US 官方 exact-model 頁於 2026-08-28 顯示 Swash CL1700 sale price US$383.99。",
       "sourceKind": "official_sale",
       "confidence": "medium",
       "checkedAt": "2026-08-28",
-      "note": "採品牌官方公開特價作為本次可重現最低觀測價；同頁 US$299.99 為 Open-Box 開箱品，依規則排除。未含國際運費、進口稅、美規 elongated 尺寸、120V 插座與台灣保固風險；依 2026-11-20 USD/TWD 匯率換算。"
+      "note": "採品牌官方公開特價作為本次可重現最低觀測價；同頁 US$299.99 為 Open-Box 開箱品，依規則排除。未含國際運費、進口稅、美規 elongated 尺寸、120V 插座與台灣保固風險；依 2026-11-23 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2129,17 +2129,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 21032,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-10-19",
-      "note": "已查 PChome exact-model 現價、FindPrice、飛比及LINE購物歷史價格入口；LINE標示23160歷史低價但原頁未提供可定位日期與完整序列，且現價21032更低。比價頁混會員券、個人賣場與不同含安裝條件，未取得具日期的可信新品史低，不以本次現價推定。"
+      "converted": 21032,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DMAL8L-A900J5KLF",
+      "sourceTitle": "Lowcast 比價趨勢：PChome Panasonic 國際牌 瞬熱式溫水洗淨便座 DL-RU60TWWS",
+      "evidenceSnippet": "Lowcast 同一刊登 DMAL8L-A900J5KLF 於 2026-11-22 收盤價為 NT$21,032。當日 PChome 同 SKU 公開價格同值，API Qty 4。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-23",
+      "note": "同型號新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",

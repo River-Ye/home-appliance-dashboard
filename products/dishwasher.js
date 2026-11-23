@@ -533,10 +533,10 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR35A900JVAOT/000001_1782872320.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 29900,
-      "converted": 29900,
-      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DMBR35-A900JVAOT 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$29,900。 08:01後已重新核對原頁供貨與當前價，排除較早已結束的短期活動。",
+      "amount": 28888,
+      "converted": 28888,
+      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-23 PChome 同EFF3360VWB公開價NT$28,888，未另扣個人券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -1056,12 +1056,12 @@
       "currency": "TWD",
       "amount": 34999,
       "converted": 34999,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "confidence": "2026-11-23 核對原頁網路價，實際下單折扣未完整確認",
       "basis": "retailer_current",
-      "note": "PChome 原商品主區及 SKU DMBR2H-A900K4KMO 公開價格 NT$34,999。API Qty 5，以通路配送、安裝條件為準。"
+      "note": "2026-11-23 原商品頁網路價NT$34,999；另顯示「下單再折」，公開單件折扣的完整條件尚未確認，卡片保留此網路參考價。下單前請確認實際折扣；未扣個人券、點數或信用卡回饋。"
     },
     "channel": "tw",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（下單折扣待確認）",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR2H-A900K4KMO",
     "specs": [
       "洗碗機：【BOSCH 博世】15人份 自動開門嵌櫃式洗碗機(SJU4EKW00W)",
@@ -1160,12 +1160,12 @@
       "currency": "TWD",
       "amount": 39500,
       "converted": 39500,
-      "confidence": "2026-11-15 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-23 核對原頁網路價，實際下單折扣未完整確認",
       "basis": "retailer_current",
-      "note": "PChome DPAL7P-A900G5M47 原商品主區公開價 NT$39,500，購買按鈕可用，API Qty 3。會員券、點數與卡回饋未計入。"
+      "note": "2026-11-23 原商品頁網路價NT$39,500；另顯示「下單再折」，公開單件折扣的完整條件尚未確認，卡片保留此網路參考價。下單前請確認實際折扣；未扣個人券、點數或信用卡回饋。"
     },
     "channel": "tw",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（下單折扣待確認）",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAL7P-A900G5M47",
     "specs": [
       "洗碗機：Fisher＆Paykel 菲雪品克 DD60SHI9 單層設計師款抽屜式洗碗機 (7人份)",
@@ -1881,8 +1881,8 @@
       "currency": "TWD",
       "amount": 14990,
       "converted": 14990,
-      "confidence": "2026-11-22 核對原商品供貨狀態，保留上次參考價",
-      "note": "2026-11-22 原商品頁仍為預購，預計2026/11/24 - 2026/11/26出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
+      "confidence": "2026-11-23 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-23 原商品頁仍為預購，預計2026/11/24 - 2026/11/26出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR0PA900IAMAC/000001_1770171922.jpg",
@@ -3632,11 +3632,11 @@
     "topPick": false,
     "price": {
       "currency": "TWD",
-      "amount": 28704,
-      "converted": 28704,
+      "amount": 31200,
+      "converted": 31200,
       "basis": "retailer_current",
-      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DMBR25-A900IUN3O 原商品主區公開價 NT$28,704，購買按鈕可用，API Qty 2。會員券、點數與卡回饋未計入。"
+      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-23 PChome 同HDWE16-46SC6SA公開價NT$31,200，未另扣個人券、點數與信用卡回饋。"
     },
     "installation": {
       "status": "excluded",
@@ -4017,12 +4017,12 @@
     "amount": 54900,
     "converted": 54900,
     "basis": "retailer_current",
-    "confidence": "2026-11-12 PChome exact-model 原頁主價與商品API一致；主頁可下單，API庫存10。",
-    "note": "PChome 台灣公司貨公開現價 NT$54,900，含標準安裝；廠商出貨、另約送裝日期，偏遠配送與追加施工可能加價。未扣點數、優惠券或信用卡回饋。"
+    "confidence": "2026-11-23 核對原頁網路價，實際下單折扣未完整確認",
+    "note": "2026-11-23 原商品頁網路價NT$54,900；另顯示「下單再折」，公開單件折扣的完整條件尚未確認，卡片保留此網路參考價。下單前請確認實際折扣；未扣個人券、點數或信用卡回饋。"
   },
   "image": "https://img.pchome.com.tw/cs/items/DMBR13A900KEYFN/000001_1793352223.jpg",
   "buyUrl": "https://24h.pchome.com.tw/prod/DMBR13-A900KEYFN",
-  "buyLabel": "PChome 24h購物（廠商出貨／含標準安裝）",
+  "buyLabel": "PChome 24h購物（廠商出貨／含標準安裝）（下單折扣待確認）",
   "installation": {
     "status": "included_basic",
     "note": "所選 PChome 頁明示台灣本島基本配送與標準安裝。場勘後另約送裝日期，樓層搬運、偏遠地區、額外進排水管、開孔與改櫃可加價，依原廠施工條款。"

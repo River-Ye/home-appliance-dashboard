@@ -403,11 +403,11 @@
     "name": "Professional Plus Blender",
     "price": {
       "currency": "USD",
-      "amount": 79.99,
-      "converted": 2639,
-      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件；ExchangeRate-API 2026-11-20 匯率換算",
+      "amount": 99.99,
+      "converted": 3296,
+      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件；ExchangeRate-API 2026-11-23 匯率換算",
       "basis": "retailer_current",
-      "note": "SharkNinja 舊頁改導 IQ701SL。Abt 原頁同型 BN701（UPC 622356561884）可購，公開售價 US$79.99 已含原廠折讓，頁面標示至 2026-11-21。未含國際運費、進口稅，須確認 120V／插頭、轉運及台灣保固風險。"
+      "note": "2026-11-23 Abt美國同BN701公開US$99.99，已含廠商公開折扣至2026-12-05（美國通路日期），未含國際運費、進口稅、電壓／插頭及台灣保固風險。美國配送與退換貨條件以原頁為準。"
     },
     "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/d1c25153baa2aa99eae7831be826d2a51d87c485/Ninja-BN701-Professional-Plus-Blender-with-Auto-iQ.jpg",
     "buyUrl": "https://www.abt.com/Ninja-Professional-Plus-Blender-with-Auto-iQ-in-Gray-BN701/p/230106.html",
@@ -442,14 +442,14 @@
       "status": "found",
       "amount": 79.99,
       "currency": "USD",
-      "converted": 2639,
+      "converted": 2637,
       "sourceUrl": "https://deal.ai/p/ninja-bn701-professional-plus-blender-6aef3cebb87d9ffb97235f94",
       "sourceTitle": "Deal.ai – Ninja BN701 Professional Plus Blender price history (Abt Electronics)",
       "evidenceSnippet": "Deal.ai 的 BN701 72 oz 逐店紀錄於 2026-11-15 20:34 UTC 擷取 Abt Electronics 新品有貨 US$79.99。Abt 美國原商品頁同型 BN701、UPC 622356561884，11/18 仍為公開售價 US$79.99（原廠即時折讓至 11/21）。",
       "sourceKind": "price_history",
       "confidence": "medium",
       "checkedAt": "2026-11-18",
-      "note": "採同型同規格新品通路公開價，中介歷史紀錄已與同一原通路 SKU、金額及可購狀態核對。未含國際運費與進口稅；須確認 120V 電壓、插頭或轉運條件及台灣保固；依 2026-11-20 USD/TWD 匯率換算。"
+      "note": "採同型同規格新品通路公開價，中介歷史紀錄已與同一原通路 SKU、金額及可購狀態核對。未含國際運費與進口稅；須確認 120V 電壓、插頭或轉運條件及台灣保固；依 2026-11-23 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "common_issue",
@@ -528,17 +528,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 22300,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Vitamix VITA PREP: 露天拍賣 - chen_rumi的賣場 (2355個評價) 便宜賣全新 Vitamix Vita Prep 3 紅 型號/規格不相符；LBJ Vitamix VITA PREP: PCHome購物 Vitamix 維他美仕 美國製維他美仕最新款獨立電源開關生機調理機果汁機冰沙機 VITA PREP(2.3匹馬力)美國原廠貨 型號/規格不相符；LBJ Vitamix VITA PREP: Yahoo拍賣 - 鑫和小舖 (262個評價) 維他美仕VITAMIX全新VITA-PREP 3超強三匹馬力vitamix vita prep 3 全營養調理機專業商用 型號/規格不相符。"
+      "converted": 22300,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/QBAO0F-A9008QMG3",
+      "sourceTitle": "Lowcast 比價趨勢：PChome Vitamix 維他美仕 美國製維他美仕最新款獨立電源開關生機調理機果汁機冰沙機 VITA PREP(2.3匹馬力)美國原廠貨",
+      "evidenceSnippet": "Lowcast 同一刊登 QBAO0F-A9008QMG3 於 2026-11-22 收盤價為 NT$22,300。當日 PChome 同 SKU 公開價格同值，API Qty 7。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-23",
+      "note": "同型號新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1084,11 +1084,11 @@
     "name": "Designer 650 高效能食物調理機寶石紅",
     "price": {
       "currency": "TWD",
-      "amount": 24120,
-      "converted": 24120,
-      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 22780,
+      "converted": 22780,
+      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMAYBB-A900K6VSY 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$24,120。 公開活動至 2026-11-23T07:59:59+08:00。"
+      "note": "2026-11-23 PChome 同Designer 650公開價NT$22,780，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAYBBA900K6VSY/000001_1783390508.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAYBB-A900K6VSY",

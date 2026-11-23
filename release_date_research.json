@@ -1,21 +1,21 @@
 {
   "summary": {
-    "checkedAt": "2026-11-22",
-    "total": 1286,
-    "researchedThisRun": 1,
-    "found": 377,
-    "missing": 909,
+    "checkedAt": "2026-11-23",
+    "total": 1289,
+    "researchedThisRun": 3,
+    "found": 378,
+    "missing": 911,
     "byConfidence": {
       "official": 190,
-      "not_found": 906,
+      "not_found": 908,
       "retailer_explicit": 26,
       "credible_article": 52,
-      "high": 85,
+      "high": 86,
       "medium": 24,
       "unknown": 3
     },
     "sourcePolicy": "本輪僅新增/身份更正商品完成獨立上市日研究；既有逐筆證據及實際查核日期保留，不將來源維護範圍當成重新人工研究。",
-    "scopeNote": "2026-11-22 僅新增Mobi Fold完成獨立上市查核；既有逐筆證據保留原查核日期。"
+    "scopeNote": "2026-11-23 僅新增M850 L、F25 GEN2 WD5M21A及H60 Hub Plus H9A4A完成上市查核；未找到的兩台灣清潔型號不以說明書日期、海外上市或影片上傳日補推；既有逐筆證據原樣保留。"
   },
   "results": [
     {
@@ -39614,6 +39614,123 @@
           "url": "https://www.logitech.com/zh-tw/shop/p/mobi-fold-mouse.910-007634",
           "title": "Logitech台灣Mobi Fold珍珠白910-007634",
           "outcome": "確認台灣consumer型號與顏色，產品頁本身沒有日期。"
+        }
+      ]
+    },
+    {
+      "id": "mouse-logitech-m850-l",
+      "category": "mouse",
+      "brand": "Logitech",
+      "model": "M850 L",
+      "name": "Signature Comfort Plus M850 L 石墨黑 910-007723 多工舒適無線滑鼠（不附接收器）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2026-06",
+      "sourceUrl": "https://ir.logitech.com/news/news-details/2026/Long-Desk-Days-Made-More-Comfortable-Logitech-Introduces-Signature-Comfort-Plus-Lineup/default.aspx",
+      "sourceTitle": "Logitech官方Signature Comfort Plus系列發布公告",
+      "evidenceSnippet": "Logitech於2026-05-26公告M850 L等consumer系列starting June, 2026全球開售；不使用公告刊登日當上市日。台灣PChome寫6/1新品上市但未單列年份，故保守採官方明示的2026-06月份。",
+      "confidence": "high",
+      "sourceKind": "official_launch",
+      "reason": "官方明示發售月份；台灣exact consumer SKU產品頁確認版本；日本6/25不同區域日期不轉用。",
+      "query": "Logitech M850 L launch June 2026",
+      "auditQueries": [
+        "Logitech M850 L launch June 2026",
+        "M850 L 910-007723 上市"
+      ],
+      "checkedAt": "2026-11-23",
+      "auditDisposition": "confirmed",
+      "checkedSources": [
+        {
+          "url": "https://ir.logitech.com/news/news-details/2026/Long-Desk-Days-Made-More-Comfortable-Logitech-Introduces-Signature-Comfort-Plus-Lineup/default.aspx",
+          "title": "Logitech官方發布",
+          "outcome": "2026-05-26公告，明示consumer M850 L自2026年6月開售。"
+        },
+        {
+          "url": "https://24h.pchome.com.tw/prod/DSAR0S-A900K1F9T",
+          "title": "PChome台灣M850 L",
+          "outcome": "頁面明示6/1新品上市，但缺單獨年份，不自行補成特定日。"
+        },
+        {
+          "url": "https://secure.logitech.com/zh-tw/shop/p/signature-comfort-plus-m850l.910-007723",
+          "title": "Logitech台灣consumer SKU",
+          "outcome": "910-007723石墨灰對應consumer本款，與日本型號、Business分開。"
+        }
+      ]
+    },
+    {
+      "id": "vacuum-roborock-f25-gen2-wd5m21a",
+      "category": "vacuum",
+      "brand": "Roborock",
+      "model": "WD5M21A",
+      "name": "F25 GEN2 乾濕分離前驅助力洗地機（台灣110V版）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found_after_original_page_review",
+      "reason": "已查Costco台灣WD5M21A原頁、台灣說明書及台灣上市搜尋；未取得明確首次上市／發售公告。全球CE版、RT/LT子型號、日本上市及說明書2026年3月編修日期都不能代替台灣本版本首次發售日期。",
+      "query": "Roborock WD5M21A F25 GEN2 台灣 上市",
+      "auditQueries": [
+        "WD5M21A 上市",
+        "F25 GEN2 台灣 上市"
+      ],
+      "checkedAt": "2026-11-23",
+      "auditDisposition": "not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.costco.com.tw/Televisions-Appliances/Small-Appliances/Vacuums-Floor-Care/Roborock-Floor-Scrubber-F25-GEN2-WD5M21A/p/161292",
+          "title": "Costco exact-model台灣新品",
+          "outcome": "目前可購與台灣套裝，沒有明確首次上市日期"
+        },
+        {
+          "url": "https://www.costco.com.tw/medias/sys_master/images/h5d/h17/473818772111390.pdf",
+          "title": "Costco連結台灣原廠說明書",
+          "outcome": "核對本體與底座型號電力；文件編修／上傳日期不是上市日期"
+        }
+      ]
+    },
+    {
+      "id": "vacuum-roborock-h60-hub-plus-h9a4a",
+      "category": "vacuum",
+      "brand": "Roborock",
+      "model": "H9A4A",
+      "name": "H60 Hub Plus 自動集塵半基座無線吸塵器（台灣110V版）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found_after_original_page_review",
+      "reason": "已查台灣官方、Costco、台灣說明書與官方限時上市影片搜尋；未找到明確台灣正式發售年月日。影片2026-07-10為上傳日不能直接採用，韓國6/15上市不是台灣日期；保守填找不到。",
+      "query": "Roborock H9A4A H60 Hub Plus 台灣 上市",
+      "auditQueries": [
+        "H9A4A 上市",
+        "H60 Hub Plus 台灣 上市"
+      ],
+      "checkedAt": "2026-11-23",
+      "auditDisposition": "not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.costco.com.tw/Televisions-Appliances/Small-Appliances/Vacuums-Floor-Care/Roborock-Cordless-Vacuum-H60-Hub-Plus/p/162023",
+          "title": "Costco exact-model台灣新品",
+          "outcome": "目前可購與台灣套裝，沒有明確首次上市日期"
+        },
+        {
+          "url": "https://www.costco.com.tw/medias/sys_master/images/h68/hf7/486679481614366.pdf",
+          "title": "Costco連結台灣原廠說明書",
+          "outcome": "核對本體與底座型號電力；文件編修／上傳日期不是上市日期"
+        },
+        {
+          "url": "https://taiwan.roborock.com/products/roborock-h60-hub-plus",
+          "title": "Roborock台灣H60 Hub Plus",
+          "outcome": "可購但未列明確正式發售日"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=GijLMyt3I9M",
+          "title": "台灣官方限時上市影片",
+          "outcome": "搜尋發現7/10上傳日期；原頁工具throttled，且未有明確上市年月日，不能以影片上傳日代替上市日"
         }
       ]
     }

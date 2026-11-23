@@ -223,11 +223,11 @@
     "image": "https://cs-a.ecimg.tw/items/DMAW25A900G453U/000001_1781668075.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 8333,
-      "converted": 8333,
-      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 8590,
+      "converted": 8590,
+      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品主區賣場 12063907 已核對同型號／選定組合、可用購買按鈕與公開價 NT$8,333。公開單件活動至 2026-11-23T07:00:59+08:00。未計入個人券、點數及信用卡回饋。"
+      "note": "2026-11-23 Yahoo購物中心同PURVIVE-H300NXT公開價NT$8,590，未另扣個人券、點數與信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -544,9 +544,9 @@
       "currency": "TWD",
       "amount": 17550,
       "converted": 17550,
-      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-22 PChome 同Slim 3公開價NT$17,550，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-23T07:59:59+08:00。"
+      "note": "2026-11-23 PChome 同Slim 3公開價NT$17,550，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -852,10 +852,10 @@
     "image": "https://cs-a.ecimg.tw/items/DMCI01A900JV0NP/000001_1774843160.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 16020,
-      "converted": 16020,
-      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DMCI24-A900K16I2 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$16,020。 公開活動至 2026-11-23T07:59:59+08:00。",
+      "amount": 17800,
+      "converted": 17800,
+      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-23 PChome 同mypure GR1000公開價NT$17,800，未另扣個人券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -958,9 +958,9 @@
       "currency": "TWD",
       "amount": 24120,
       "converted": 24120,
-      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-22 PChome 同Slim RO DF公開價NT$24,120，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-23T07:59:59+08:00。"
+      "note": "2026-11-23 PChome 同Slim RO DF公開價NT$24,120，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1367,10 +1367,10 @@
     "image": "https://cs-a.ecimg.tw/items/DMBM2HA900GH7MW/000001_1770018742.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 25020,
-      "converted": 25020,
-      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DMAWFM-A900H55UK 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$25,020。 公開活動至 2026-11-23T07:59:59+08:00。",
+      "amount": 27800,
+      "converted": 27800,
+      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-23 PChome 同P0563公開價NT$27,800，未另扣個人券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -1581,10 +1581,10 @@
     "name": "櫥下型雙溫 UV 觸控飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 30600,
-      "converted": 30600,
-      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DMCI17-A900I6OFW 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$30,600。 公開活動至 2026-11-23T07:59:59+08:00。",
+      "amount": 34000,
+      "converted": 34000,
+      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-23 PChome 同EVB-298-E公開價NT$34,000，未另扣個人券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBE1FA900GSOLN/000001_1698896380.jpg",
@@ -1879,10 +1879,10 @@
     "name": "廚下 RO 雙溫觸控飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 33129,
-      "converted": 33129,
-      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-22 PChome 同P0531公開價NT$33,129，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-23T07:59:59+08:00。",
+      "amount": 36810,
+      "converted": 36810,
+      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-23 PChome 同P0531公開價NT$36,810，未另扣個人券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMCI0OA900JT66N/000001_1773306819.png",
@@ -2073,10 +2073,10 @@
     "name": "廚下型飲用水加熱器",
     "price": {
       "currency": "TWD",
-      "amount": 21855,
-      "converted": 21855,
-      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "Yahoo 原商品主區賣場 9802406 已核對同型號／選定組合、可用購買按鈕與公開價 NT$21,855。公開單件活動至 2026-11-23T07:00:59+08:00。未計入個人券、點數及信用卡回饋。",
+      "amount": 23500,
+      "converted": 23500,
+      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-23 Yahoo購物中心同DWH30A公開價NT$23,500，未另扣個人券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWB8A900BVEOG/000001_1760685693.jpg",
@@ -2172,8 +2172,8 @@
     "price": {
       "currency": "USD",
       "amount": 449.99,
-      "converted": 14844,
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。；ExchangeRate-API 2026-11-20 匯率換算",
+      "converted": 14835,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。；ExchangeRate-API 2026-11-23 匯率換算",
       "basis": "retailer_current",
       "note": "Brondell 美國 Circle RC100 原商品公開 USD 449.99，主商品購買狀態可用。海外參考，未含國際運費、進口稅、電壓／插頭及台灣保固風險。"
     },
@@ -2211,14 +2211,14 @@
       "status": "found",
       "amount": 289.99,
       "currency": "USD",
-      "converted": 9566,
+      "converted": 9560,
       "sourceUrl": "https://www.costco.com/CategoryDisplay?catalogId=10701&identifier=water-dispensers-filtration-water-filtration&storeId=10301",
       "sourceTitle": "Costco US：Brondell Circle Reverse Osmosis Water Filtration System",
       "evidenceSnippet": "Costco US exact-model 分類頁於 2026-08-28 顯示 Brondell Circle 折後 US$289.99，原價 US$369.99，優惠 US$80。",
       "sourceKind": "retailer_promo",
       "confidence": "medium",
       "checkedAt": "2026-08-28",
-      "note": "採 Costco US 公開 exact-model 折價作為本次可重現最低觀測價；未含國際運費、進口稅、耗材與台灣安裝／保固風險；依 2026-11-20 USD/TWD 匯率換算。"
+      "note": "採 Costco US 公開 exact-model 折價作為本次可重現最低觀測價；未含國際運費、進口稅、耗材與台灣安裝／保固風險；依 2026-11-23 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "common_issue",
@@ -2569,10 +2569,10 @@
     "name": "極熱 廚下五段溫控瞬熱飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 25920,
-      "converted": 25920,
-      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DMAWHT-A900JVB6I 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$25,920。 公開活動至 2026-11-23T07:59:59+08:00。",
+      "amount": 28800,
+      "converted": 28800,
+      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-23 PChome 同USB10B公開價NT$28,800，未另扣個人券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWHTA900JVB6I/000001_1775031754.jpg",
@@ -4037,11 +4037,11 @@
     "name": "BD-3006BF 冷水煮沸飲水機＋RO-2604 逆滲透系統",
     "price": {
       "currency": "TWD",
-      "amount": 38005,
-      "converted": 38005,
-      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 42228,
+      "converted": 42228,
+      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMAWFH-A900F2DDI 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$38,005。 公開活動至 2026-11-23T07:59:59+08:00。"
+      "note": "2026-11-23 PChome 同BD-3006BF-RO公開價NT$42,228，未另扣個人券、點數與信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWFHA900F2DDI/000001_1692262957.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAWFH-A900F2DDI",
@@ -4737,11 +4737,11 @@
   "channel": "tw",
   "price": {
     "currency": "TWD",
-    "amount": 16929,
-    "converted": 16929,
+    "amount": 18810,
+    "converted": 18810,
     "basis": "retailer_current",
-    "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
-    "note": "PChome DMCI0O-A900KIEKX 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$16,929。 公開活動至 2026-11-23T07:59:59+08:00。"
+    "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+    "note": "2026-11-23 PChome 同P0265公開價NT$18,810，未另扣個人券、點數與信用卡回饋。"
   },
   "installation": {
     "status": "included_basic",
@@ -4839,11 +4839,11 @@
   "channel": "tw",
   "price": {
     "currency": "TWD",
-    "amount": 19359,
-    "converted": 19359,
+    "amount": 21510,
+    "converted": 21510,
     "basis": "retailer_current",
-    "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
-    "note": "PChome DMCI0O-A900KIEP3 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$19,359。 公開活動至 2026-11-23T07:59:59+08:00。"
+    "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+    "note": "2026-11-23 PChome 同P0266公開價NT$21,510，未另扣個人券、點數與信用卡回饋。"
   },
   "installation": {
     "status": "included_basic",

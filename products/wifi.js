@@ -900,8 +900,8 @@
     "price": {
       "currency": "USD",
       "amount": 208,
-      "converted": 6861,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。；ExchangeRate-API 2026-11-20 匯率換算",
+      "converted": 6857,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。；ExchangeRate-API 2026-11-23 匯率換算",
       "note": "2026-11-04 午後人工覆核：UniFi美國所選單台原生主頁基價189，強制附加費後總額208USD，Add to Cart可用；不採未含強制費用的schema基價。未含國際運費、進口稅、PoE供電配件與台灣保固風險。"
     },
     "image": "https://cdn.ecomm.ui.com/products/fa8dd4e4-36c8-4c79-a928-22c7bff2ce29/ab5bc8a4-6135-402e-a695-e3ea5e16d3e6.png",
@@ -981,8 +981,8 @@
     "price": {
       "currency": "USD",
       "amount": 175,
-      "converted": 5773,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-20 匯率換算",
+      "converted": 5769,
+      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-23 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-04 午後人工覆核：UniFi美國所選單台原生主頁基價159，強制附加費後總額175USD，Add to Cart可用；不採未含強制費用的schema基價。未含國際運費、進口稅、PoE供電配件與台灣保固風險。"
     },
@@ -1100,8 +1100,8 @@
     "price": {
       "currency": "USD",
       "amount": 109,
-      "converted": 3596,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-20 匯率換算",
+      "converted": 3594,
+      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-23 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-04 午後人工覆核：UniFi美國所選單台原生主頁基價99，強制附加費後總額109USD，Add to Cart可用；不採未含強制費用的schema基價。未含國際運費、進口稅、PoE供電配件與台灣保固風險。"
     },
@@ -1586,8 +1586,8 @@
     "price": {
       "currency": "USD",
       "amount": 142,
-      "converted": 4684,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-20 匯率換算",
+      "converted": 4681,
+      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-23 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-04 午後人工覆核：UniFi美國所選單台原生主頁基價129，強制附加費後總額142USD，Add to Cart可用；不採未含強制費用的schema基價。未含國際運費、進口稅、PoE供電配件與台灣保固風險。"
     },
@@ -1692,8 +1692,8 @@
     "price": {
       "currency": "USD",
       "amount": 307,
-      "converted": 10127,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。；ExchangeRate-API 2026-11-20 匯率換算",
+      "converted": 10121,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。；ExchangeRate-API 2026-11-23 匯率換算",
       "note": "2026-11-04 午後人工覆核：UniFi美國所選單台原生主頁基價279，強制附加費後總額307USD，Add to Cart可用；不採未含強制費用的schema基價。未含國際運費、進口稅、PoE供電配件與台灣保固風險。"
     },
     "image": "https://cdn.ecomm.ui.com/products/350070a0-ae43-431b-b052-8e849c3b0a75/bad94693-bc54-4ab4-b060-9b972401941c.png",
@@ -1984,11 +1984,11 @@
     "name": "BE9500 Wi-Fi 7 三頻 2.5G Mesh 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 5499,
-      "converted": 5499,
-      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 4899,
+      "converted": 4899,
+      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "原 PChome 頁沒有可購動作、API 無 SKU；替代主頁 DRAF09-A900IXX1D 確認 R95 單台新品和公開 NT$5,499，有效購買按鈕，同 SKU API Qty 20。二入組另有刊登，不採。"
+      "note": "2026-11-23 PChome 同R95公開價NT$4,899，未另扣個人券、點數與信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJ6A900IZ71A/000001_1755490950.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAF09-A900IXX1D",
@@ -3040,9 +3040,11 @@
     "name": "BE7200 Wi-Fi 7 AiMesh 雙頻電競路由器",
     "price": {
       "currency": "TWD",
-      "amount": 9999,
-      "converted": 9999,
-      "confidence": "PChome 2026-10-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 8999,
+      "converted": 8999,
+      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "basis": "retailer_current",
+      "note": "2026-11-23 PChome 同RT-BE88U公開價NT$8,999，未另扣個人券、點數與信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJ5A900HRBD9/000001_1760580708.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJ5-A900HRBD9",
@@ -3334,13 +3336,13 @@
       "currency": "TWD",
       "amount": 7777,
       "converted": 7777,
-      "confidence": "2026-11-15 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DRAFJA-A900IFBVA 原商品主區公開價 NT$7,777，購買按鈕可用，API Qty 1。會員券、點數與卡回饋未計入。",
+      "confidence": "2026-11-23 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-23 原同款刊登顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJAA900IFBVA/000001_1780997121.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJA-A900IFBVA",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原刊登已售完，查看供貨）",
     "specs": [
       "Wi-Fi 7",
       "BE9300 三頻",

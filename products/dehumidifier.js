@@ -309,10 +309,10 @@
     "name": "19.6 公升 PuriCare 雙變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 18832,
-      "converted": 18832,
-      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "Yahoo 原商品主區賣場 11884613 已核對同型號／選定組合、可用購買按鈕與公開價 NT$18,832。公開單件活動至 2026-11-23T06:59:59+08:00。未計入個人券、點數及信用卡回饋。",
+      "amount": 20924,
+      "converted": 20924,
+      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-23 Yahoo購物中心同DD201MEE0公開價NT$20,924，未另扣個人券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4OA900JX7GH/000001_1783563034.jpg",
@@ -994,11 +994,11 @@
     "name": "PuriCare 12 公升雙變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 12967,
-      "converted": 12967,
-      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 13231,
+      "converted": 13231,
+      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品主區賣場 11864251 已核對同型號／選定組合、可用購買按鈕與公開價 NT$12,967。公開單件活動至 2026-11-23T06:59:59+08:00。未計入個人券、點數及信用卡回饋。"
+      "note": "2026-11-23 Yahoo購物中心同DD121QWE0公開價NT$13,231，未另扣個人券、點數與信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4NA900JF9HP/000001_1778165423.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-12%E5%85%AC%E5%8D%87-%E6%97%A5UV%E6%AE%BA%E8%8F%8C%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9FDD121QWE0-11864251.html",
@@ -1094,8 +1094,8 @@
       "currency": "TWD",
       "amount": 15500,
       "converted": 15500,
-      "confidence": "2026-11-22 核對原商品供貨狀態，保留上次參考價",
-      "note": "2026-11-22 原同款刊登顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "confidence": "2026-11-23 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-23 原同款刊登顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4YA900JBQP2/000001_1759892926.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ4Y-A900JBQP2",
@@ -3133,17 +3133,17 @@
     ],
     "releaseDate": "2026-11",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 16911,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-11-19",
-      "note": "Lowcast 同 PChome PID 記錄 2026-11-17 和 11-18 各日 NT$16,911，與本輪公開促銷相符，但未取得先前兩日的原通路現貨存檔。LBJ 對應刊登只查到 NT$17,900。保留 16,911 元為本輪可驗證現價。"
+      "converted": 16911,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DMBQ05-A900KLTQL",
+      "sourceTitle": "Lowcast 比價趨勢：PChome Whirlpool 惠而浦 20公升雙變頻清淨除濕機 WDEV200MTW",
+      "evidenceSnippet": "Lowcast 同一刊登 DMBQ05-A900KLTQL 於 2026-11-22 收盤價為 NT$16,911。當日 PChome 同 SKU 公開價格同值，API Qty 20。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-23",
+      "note": "同型號新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -3230,17 +3230,17 @@
     ],
     "releaseDate": "2026-11",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 13911,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-11-19",
-      "note": "Lowcast 同 PChome 刊登記錄 2026-11-17 和 11-18 各日 NT$13,911，與本輪公開折扣相符，但未取得先前兩日的原通路現貨存檔。飛比的同型號 NT$14,900 為通路索引價，其他 WDEE15TW 及二手來源不採。保留 NT$13,911 為本輪現價。"
+      "converted": 13911,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DMBQ05-A900KLTP7",
+      "sourceTitle": "Lowcast 比價趨勢：PChome Whirlpool 惠而浦 15公升雙變頻清淨除濕機 WDEV150MTW",
+      "evidenceSnippet": "Lowcast 同一刊登 DMBQ05-A900KLTP7 於 2026-11-22 收盤價為 NT$13,911。當日 PChome 同 SKU 公開價格同值，API Qty 20。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-23",
+      "note": "同型號新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
     },
     "issueResearch": {
       "status": "no_common_issue",

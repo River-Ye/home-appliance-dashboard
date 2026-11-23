@@ -1605,10 +1605,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/41046DB844-SP-12334280.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 34652,
-      "converted": 34652,
-      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "Yahoo 原商品主區賣場 10266758 已核對同型號／選定組合、可用購買按鈕與公開價 NT$34,652。公開單件活動至 2026-11-23T07:30:59+08:00。未計入個人券、點數及信用卡回饋。",
+      "amount": 37260,
+      "converted": 37260,
+      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-23 Yahoo購物中心同NA-V150MDH公開價NT$37,260，未另扣個人券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -2323,8 +2323,8 @@
       "currency": "TWD",
       "amount": 82900,
       "converted": 82900,
-      "confidence": "2026-11-22 核對原商品供貨狀態，保留上次參考價",
-      "note": "2026-11-22 原商品頁仍為預購，預計2026/11/30出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
+      "confidence": "2026-11-23 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-23 原商品頁仍為預購，接單後陸續安排，最晚2026/11/30出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -2972,11 +2972,11 @@
     "name": "10/7kg i-DOS 智慧聯網洗脫烘",
     "price": {
       "currency": "TWD",
-      "amount": 46000,
-      "converted": 46000,
-      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 50000,
+      "converted": 50000,
+      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "Yahoo 原商品主區賣場 11546320 已核對同型號／選定組合、可用購買按鈕與公開價 NT$46,000。公開單件活動至 2026-11-23T07:30:59+08:00。未計入個人券、點數及信用卡回饋。"
+      "note": "2026-11-23 Yahoo購物中心同WNC554A0TC公開價NT$50,000，未另扣個人券、點數與信用卡回饋。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DPAID7A900IHEVX/000001_1776657918.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/BOSCH%E5%8D%9A%E4%B8%96-10-7%E5%85%AC%E6%96%A4%E9%AB%98%E6%95%88%E6%99%BA%E6%85%A7%E6%BB%BE%E7%AD%92%E6%B4%97%E8%84%AB%E7%83%98-%E5%90%AB%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-220V%E6%8B%89%E9%9B%BB-WNC554A0TC-11546320.html",

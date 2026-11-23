@@ -65,8 +65,8 @@
       "evidenceSnippet": "",
       "sourceKind": "not_found",
       "confidence": "not_found",
-      "checkedAt": "2026-07-11",
-      "note": "未找到台灣型號 OLED65C5PTA 可公開驗證的可信新品史低；已排除 Amazon 美國版 65 吋 C5，因區域 SKU 並非完全相同型號。"
+      "checkedAt": "2026-11-23",
+      "note": "2026-11-23 查得同一PChome SKU較低歷史圖表點，但未取得該低價當時的單件公開價／供貨條件完整原頁證據；維持找不到可靠史低，不以現價或較高過往價格推定。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1043,13 +1043,13 @@
       "currency": "TWD",
       "amount": 79900,
       "converted": 79900,
-      "confidence": "2026-11-22 核對原商品供貨狀態，保留上次參考價",
-      "note": "2026-11-22 原商品頁仍為預購，預計2026/11/25 - 2026/11/27出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
+      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-23 PChome同65OLED809公開價NT$79,900，廠商出貨、不受24h到貨限制，實際交期仍需確認；未扣個人券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADIKA900HJGF2/000001_1782900149.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900HNTKI",
-    "buyLabel": "PChome（預購／交期待確認）",
+    "buyLabel": "PChome（廠商出貨／交期待確認）",
     "specs": [
       "尺寸：不含底座 寬 144.4 x 深 6.8 x 高 83 cm；含底座 寬 144.4 x 深 28 x 高 89.6 cm",
       "重量：不含底座 23 kg；含底座 28 kg",
@@ -2061,8 +2061,8 @@
       "currency": "TWD",
       "amount": 21500,
       "converted": 21500,
-      "confidence": "2026-11-22 核對原商品供貨狀態，保留上次參考價",
-      "note": "2026-11-22 原商品頁仍為預購，預計2026/11/25 - 2026/11/27出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
+      "confidence": "2026-11-23 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-23 原商品頁仍為預購，預計2026/11/26 - 2026/11/30出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD0WA900I9LNS/000001_1769648262.jpg",
@@ -4787,11 +4787,11 @@
   "channel": "tw",
   "price": {
     "currency": "TWD",
-    "amount": 33572,
-    "converted": 33572,
+    "amount": 34257,
+    "converted": 34257,
     "basis": "retailer_current",
-    "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
-    "note": "Yahoo 原商品主區賣場 12159447 已核對同型號／選定組合、可用購買按鈕與公開價 NT$33,572。公開單件活動至 2026-11-23T06:59:59+08:00。未計入個人券、點數及信用卡回饋。"
+    "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+    "note": "2026-11-23 Yahoo購物中心同Y-65XR30M2公開價NT$34,257，未另扣個人券、點數與信用卡回饋。"
   },
   "installation": {
     "status": "included_basic",

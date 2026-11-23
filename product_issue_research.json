@@ -1,9 +1,9 @@
 {
   "summary": {
-    "checkedAt": "2026-11-22T00:00:00+08:00",
-    "total": 1286,
+    "checkedAt": "2026-11-23T00:00:00+08:00",
+    "total": 1289,
     "commonIssueProducts": 55,
-    "noCommonIssueProducts": 1231,
+    "noCommonIssueProducts": 1234,
     "pendingManualReview": 0,
     "commonIssues": 56,
     "searchUnavailable": 614,
@@ -52,9 +52,11 @@
       "2026-11-18 新收錄型號逐款核對所列平台的 exact-model 查詢及候選；其餘商品的原查核日期保留。",
       "2026-11-19 新收錄型號逐款核對所列平台的 exact-model 查詢及候選；其餘商品的原查核日期保留。",
       "2026-11-20 新收錄型號逐款核對所列平台的 exact-model 查詢及候選；其餘商品的原查核日期保留。",
-      "2026-11-22 新增Mobi Fold珍珠白910-007634，人工核對20個原頁候選。觸控捲動4位跨兩站，中鍵按住7位僅Reddit；未達同問題6人且跨2站門檻。未知SKU與修復未確認限制保留。既有逐筆研究日期不變。"
+      "2026-11-22 新增Mobi Fold珍珠白910-007634，人工核對20個原頁候選。觸控捲動4位跨兩站，中鍵按住7位僅Reddit；未達同問題6人且跨2站門檻。未知SKU與修復未確認限制保留。既有逐筆研究日期不變。",
+      "2026-11-23 新增M850 Lconsumer石墨黑910-007723，人工處置14個候選（11頁原文可重現，另三個二手/影片頁未能獨立重現並排除為證據）；品牌泛論、其他型號、未知SKU與OpenLogi個案分開，未達同問題6人且跨2站。既有逐筆研究日期不變。",
+      "2026-11-23 新增WD5M21A／H9A4A人工查詢Mobile01及Reddit硬體型號＋商品名，並延伸PTT、商品名；F25逐讀Costco兩評（僅一名負向一站）、Hatena非實機、EFTM其他LT型；H60逐讀Kukinews單一韓國評測與Nate同文，均不足同問題六名跨兩原始網站。查詢稀少不表示完全無負評。舊逐筆日期不變。"
     ],
-    "researchedThisRun": 1
+    "researchedThisRun": 3
   },
   "results": [
     {
@@ -238209,6 +238211,1105 @@
           "reviewedAt": "2026-11-22",
           "reviewBasis": "manual_web_original_page",
           "reason": "一名特定Windows11軟體映射取捨，與按住只成單擊及滑動不回應分開；無同現象跨站六名。員工/第三方工具建議/提問不算故障作者。"
+        }
+      ],
+      "reports": [],
+      "evidence": []
+    },
+    {
+      "id": "mouse-logitech-m850-l",
+      "category": "mouse",
+      "brand": "Logitech",
+      "model": "M850 L",
+      "name": "Signature Comfort Plus M850 L 石墨黑 910-007723 多工舒適無線滑鼠（不附接收器）",
+      "identity": {
+        "canonicalModel": "M850 L",
+        "lookupLabel": "Logitech M850 L consumer 910-007723",
+        "aliases": [
+          "M850L",
+          "Signature Comfort Plus M850 L"
+        ],
+        "evidenceUrl": "https://secure.logitech.com/zh-tw/shop/p/signature-comfort-plus-m850l.910-007723"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "id": "mouse-logitech-m850-l",
+        "category": "mouse",
+        "brand": "Logitech",
+        "model": "M850 L",
+        "name": "Signature Comfort Plus M850 L 石墨黑 910-007723 多工舒適無線滑鼠（不附接收器）",
+        "reviewedAt": "2026-11-23",
+        "reviewBatch": "mouse",
+        "decision": "no_common_issue",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit",
+          "PTT",
+          "GitHub",
+          "note",
+          "Official support",
+          "YouTube"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"M850 L\" (問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22M850%20L%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95%29"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"M850 L\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22M850%20L%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20failure%29"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"M850 L\" (問題 OR 故障 OR 心得)",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22M850%20L%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97%29"
+          }
+        ],
+        "candidateDisposition": "M850 L：人工讀取Mobile01三頁新聞回覆與M840L心得、Reddit贈測、GitHub兩個OpenLogi個案及日本原文；分開處理品牌泛論、不同型號、不同台灣SKU、握型限制與第三方軟體。即放寬未知SKU，OpenLogi最多2位且只在GitHub，尺寸適配僅1位，未有同一問題六位且跨兩原始網站。",
+        "representativeSources": [
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7265417",
+            "title": "羅技Signature M840L／M850L台灣發布與回覆第1頁"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7265417&p=2",
+            "title": "羅技Signature M840L／M850L台灣發布與回覆第2頁"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7265417&p=3",
+            "title": "羅技Signature M840L／M850L台灣發布與回覆第3頁"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7271924",
+            "title": "需要大手的滑鼠嗎？羅技M840L"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/actutech/comments/1tnz9me/adieu_les_douleurs_aux_poignets_mon_avis_sur_le/",
+            "title": "Adieu les douleurs aux poignets – MK880評測"
+          },
+          {
+            "platform": "GitHub",
+            "url": "https://github.com/AprilNEA/OpenLogi/issues/2590",
+            "title": "M850 L預設側鍵數與前進後退反向"
+          },
+          {
+            "platform": "GitHub",
+            "url": "https://github.com/AprilNEA/OpenLogi/issues/1878",
+            "title": "M850 mouse has no gesture button but GUI has"
+          },
+          {
+            "platform": "note",
+            "url": "https://note.com/super_ivy966/n/nbbe9e5d75430",
+            "title": "マウスが大きすぎた"
+          },
+          {
+            "platform": "note",
+            "url": "https://note.com/deskhiyori/n/n0a1e720b3712",
+            "title": "Signature Comfort Plus M850とは？"
+          },
+          {
+            "platform": "note",
+            "url": "https://note.com/sutero/n/neb03e5f7fe32",
+            "title": "クッション付きマウスが気になる"
+          },
+          {
+            "platform": "note",
+            "url": "https://note.com/gadget_techo/n/n52f88afd9266",
+            "title": "静音マウスおすすめ10選2026"
+          },
+          {
+            "platform": "note",
+            "url": "https://note.com/pc_masami/n/n233491d72823",
+            "title": "Signature Comfort Plus M850 L掌墊比較"
+          },
+          {
+            "platform": "Official support",
+            "url": "https://support.logi.com/hc/en-us/articles/44650303911063-How-to-fix-tracking-issues-and-erratic-movement-on-your-Signature-Comfort-Plus-M850-L-mouse",
+            "title": "How to fix tracking issues and erratic movement on M850 L"
+          },
+          {
+            "platform": "YouTube",
+            "url": "https://www.youtube.com/watch?v=pI8W4AIhTV4",
+            "title": "Logitech Next Great Mouse M850 L/M840 L review"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7265417",
+            "title": "羅技Signature M840L／M850L台灣發布與回覆第1頁",
+            "exactModel": false,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "陳拔",
+              "robertwu0518",
+              "kiki1196"
+            ],
+            "locator": "主文93194219；#4 93194896；#9 93195511",
+            "sourceExcerpt": "主文介紹台灣新品及掌墊；robertwu0518談以前好幾隻羅技按鍵壞掉，kiki1196概述一兩年壞了換，均沒有明示自己M850 L故障。",
+            "specificReason": "品牌一般耐用抱怨、發布介紹及購買前印象不是本款第一人稱故障，不轉為M850 L連點災情。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-23",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7265417&p=2",
+            "title": "羅技Signature M840L／M850L台灣發布與回覆第2頁",
+            "exactModel": false,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "systemctl",
+              "亞甜莎",
+              "有錢人小迷糊",
+              "coldfish"
+            ],
+            "locator": "#12 93196436；#15 93199370；#18 93206681；#20 93236000",
+            "sourceExcerpt": "討論商務版兩年保固、Easy-Switch文字疑義與白色可能泛黃；未有人自述M850 L本機泛黃或故障。",
+            "specificReason": "商務版與consumer保固不混用；擔心白色日後變黃是推測而非本石墨黑SKU回報，功能文字誤述亦不是故障。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-23",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7265417&p=3",
+            "title": "羅技Signature M840L／M850L台灣發布與回覆第3頁",
+            "exactModel": false,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "cliff020202"
+            ],
+            "locator": "#21 93251039",
+            "sourceExcerpt": "使用者比對購物平台與文章對M840L Easy-Switch的差異，尚打算618購買。",
+            "specificReason": "是M840 L購買前功能提問，不是已使用M850 L發生的故障。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-23",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7271924",
+            "title": "需要大手的滑鼠嗎？羅技M840L",
+            "exactModel": false,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "cliff020202",
+              "buddy0328",
+              "奇點降臨",
+              "撿到國中生"
+            ],
+            "locator": "主文93271427及#2–4；主文M850L軟墊一句",
+            "sourceExcerpt": "作者實買M840L，說擔心M850L掌墊將來出問題；前文電源／連點涉及M750與M720。",
+            "specificReason": "原文明確是M840 L心得與未發生的M850 L軟墊擔憂；不同型號歷史故障、推測及一般品牌意見均排除。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-23",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/actutech/comments/1tnz9me/adieu_les_douleurs_aux_poignets_mon_avis_sur_le/",
+            "title": "Adieu les douleurs aux poignets – MK880評測",
+            "exactModel": false,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "romain34230"
+            ],
+            "locator": "主文開頭贈測揭露與La souris M850 L段",
+            "sourceExcerpt": "作者揭露品牌提供MK880套組贈測；使用藍牙、不附dongle，M850 L段為正向舒適評價及自訂功能。",
+            "specificReason": "品牌提供的MK880套組測試，不是台灣910-007723獨立購買負評；原頁沒有M850 L故障敘述，亦不將贈測當獨立普遍滿意證據。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-23",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "GitHub",
+            "url": "https://github.com/AprilNEA/OpenLogi/issues/2590",
+            "title": "M850 L預設側鍵數與前進後退反向",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "elliclee"
+            ],
+            "locator": "issue正文問題描述、環境與openlogi list",
+            "sourceExcerpt": "作者自述M850 L藍牙直連在OpenLogi0.9.0出現多一個側鍵及前後鍵反向；有046d/b049識別，未列台灣SKU。",
+            "specificReason": "屬第三方OpenLogi介面映射個案，不可推成Options+或硬體故障；即採廣義M850 L仍僅一位、GitHub一站。台灣910-007723未確認，不計為exactSKU災情。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-23",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "GitHub",
+            "url": "https://github.com/AprilNEA/OpenLogi/issues/1878",
+            "title": "M850 mouse has no gesture button but GUI has",
+            "exactModel": false,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "alexceltare2"
+            ],
+            "locator": "issue正文Device model與What happened",
+            "sourceExcerpt": "作者在OpenLogi0.8.14看到不存在的gesture button，型號僅寫M850；OS欄macOS與Windows10 x86互相矛盾。",
+            "specificReason": "未確認M850 L完整身份／台灣SKU，第三方軟體預設布局個案，不能與其他症狀合併成硬體問題。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-23",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "note",
+            "url": "https://note.com/super_ivy966/n/nbbe9e5d75430",
+            "title": "マウスが大きすぎた",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "マサミクス"
+            ],
+            "locator": "2026-10-09；Lしかなかった、クッションは悪くない兩節",
+            "sourceExcerpt": "日本off-white買家覺得L機身對小手過大、攜帶佔空間；電源不順的段落指舊M750。",
+            "specificReason": "是不同地區off-white的尺寸適配個案，無M850 L電源故障或掌墊失效；不移植日本SKU到台灣石墨黑或將M750症狀誤歸本款。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-23",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "note",
+            "url": "https://note.com/deskhiyori/n/n0a1e720b3712",
+            "title": "Signature Comfort Plus M850とは？",
+            "exactModel": false,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "デスク日和"
+            ],
+            "locator": "原頁稍早web結果可讀，獨立重現及現時原頁請求404；不以不可重現正文做證據",
+            "sourceExcerpt": "原頁目前404，未保留可重現完整原文，不採正文推論、不把搜尋摘要變成逐人負評。",
+            "specificReason": "未能獨立重現此原頁，不採用其任何第一人稱身份、症狀或數量；不將失效頁當沒有負評。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-23",
+            "reviewBasis": "original_page_unavailable_not_counted"
+          },
+          {
+            "platform": "note",
+            "url": "https://note.com/sutero/n/neb03e5f7fe32",
+            "title": "クッション付きマウスが気になる",
+            "exactModel": false,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "sutero"
+            ],
+            "locator": "Signature Comfort Plus M850 L、マウスが必要になったら兩節",
+            "sourceExcerpt": "作者目前使用軌跡球，只對M850 L掌墊感興趣，說若需要滑鼠會考慮並打算到店體驗。",
+            "specificReason": "未購買使用本款，屬購買前興趣，不是M850 L症狀回報。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-23",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "note",
+            "url": "https://note.com/gadget_techo/n/n52f88afd9266",
+            "title": "静音マウスおすすめ10選2026",
+            "exactModel": false,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "ガジェット手帖"
+            ],
+            "locator": "2026-08-31綜合10款推薦與比較表",
+            "sourceExcerpt": "整篇是多型號價格／功能比較，主推M840 L，M850 L僅出現在系列發布敘述。",
+            "specificReason": "無本款第一人稱故障，規格整理與推薦不是獨立回報。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-23",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "note",
+            "url": "https://note.com/pc_masami/n/n233491d72823",
+            "title": "Signature Comfort Plus M850 L掌墊比較",
+            "exactModel": false,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "pc_masami"
+            ],
+            "locator": "原頁請求404；發現摘要明示品牌調查與第三方比較",
+            "sourceExcerpt": "原文端點404，未取得可核對的第一人稱內容；不把搜尋摘要轉為負評或作者計數。",
+            "specificReason": "未驗證的二手比較線索不具逐人原文證據，本次不採任何症狀／人數；可讀原頁均不足六人，不以404宣稱沒有負評。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-23",
+            "reviewBasis": "original_page_unavailable_not_counted"
+          },
+          {
+            "platform": "Official support",
+            "url": "https://support.logi.com/hc/en-us/articles/44650303911063-How-to-fix-tracking-issues-and-erratic-movement-on-your-Signature-Comfort-Plus-M850-L-mouse",
+            "title": "How to fix tracking issues and erratic movement on M850 L",
+            "exactModel": false,
+            "independentAuthors": 0,
+            "reviewedAuthors": [],
+            "locator": "標題與troubleshooting清單",
+            "sourceExcerpt": "官方列一般清感應器、電池、平面非反光鼠墊及重新配對等排解程序。",
+            "specificReason": "支援說明沒有可辨識消費者與獨立報告，不當災情發生數；也不把舊LGS停用通則當本款停產。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-23",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "YouTube",
+            "url": "https://www.youtube.com/watch?v=pI8W4AIhTV4",
+            "title": "Logitech Next Great Mouse M850 L/M840 L review",
+            "exactModel": false,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "Cameron Dougherty Tech"
+            ],
+            "locator": "原頁請求throttled；發現description列affiliate與握型限制",
+            "sourceExcerpt": "未取得可重現的完整原頁影片／逐字稿，因此不將描述摘要當逐人災情。",
+            "specificReason": "媒體/聯盟評測及不同SKU不能充作台灣consumer硬體負評；不把搜尋摘要中的握型／軟體論點計入報告人數。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-23",
+            "reviewBasis": "original_page_unavailable_not_counted"
+          }
+        ],
+        "reviewerNote": "M850 L：人工讀取Mobile01三頁新聞回覆與M840L心得、Reddit贈測、GitHub兩個OpenLogi個案及日本原文；分開處理品牌泛論、不同型號、不同台灣SKU、握型限制與第三方軟體。即放寬未知SKU，OpenLogi最多2位且只在GitHub，尺寸適配僅1位，未有同一問題六位且跨兩原始網站。 三個二手/影片候選原頁未能獨立重現，僅記來源失效且不採其摘要；沒有以模板或批次搜尋自動下判。掌墊長期耐久沒有足夠原文，不宣稱通病或保證耐久。",
+        "attestation": "manual_original_pages_reviewed",
+        "status": "completed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-11-23",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"M850 L\" (問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22M850%20L%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95%29"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"M850 L\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22M850%20L%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20failure%29"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"M850 L\" (問題 OR 故障 OR 心得)",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22M850%20L%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97%29"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"M850 L\" (問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22M850%20L%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95%29",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22M850%20L%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95%29",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-22T23:40:44.071851+00:00",
+          "searchResultNote": "本條完整空白分隔M850 L加問題關鍵字查詢未回傳可確認原頁候選；另以M850L、完整系列及已知原頁鏈結進行廣義發現，14個候選全部保存於人工candidateReviews，不由空查詢自動推定無問題。"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"M850 L\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22M850%20L%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20failure%29",
+          "searchUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22M850%20L%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20failure%29",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-22T23:40:44.071851+00:00",
+          "searchResultNote": "本條完整空白分隔M850 L加問題關鍵字查詢未回傳可確認原頁候選；另以M850L、完整系列及已知原頁鏈結進行廣義發現，14個候選全部保存於人工candidateReviews，不由空查詢自動推定無問題。"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"M850 L\" (問題 OR 故障 OR 心得)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22M850%20L%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97%29",
+          "searchUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22M850%20L%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97%29",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-22T23:40:44.071851+00:00",
+          "searchResultNote": "本條完整空白分隔M850 L加問題關鍵字查詢未回傳可確認原頁候選；另以M850L、完整系列及已知原頁鏈結進行廣義發現，14個候選全部保存於人工candidateReviews，不由空查詢自動推定無問題。"
+        }
+      ],
+      "rejectedCandidates": [
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7265417",
+          "title": "羅技Signature M840L／M850L台灣發布與回覆第1頁",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "陳拔",
+            "robertwu0518",
+            "kiki1196"
+          ],
+          "locator": "主文93194219；#4 93194896；#9 93195511",
+          "sourceExcerpt": "主文介紹台灣新品及掌墊；robertwu0518談以前好幾隻羅技按鍵壞掉，kiki1196概述一兩年壞了換，均沒有明示自己M850 L故障。",
+          "specificReason": "品牌一般耐用抱怨、發布介紹及購買前印象不是本款第一人稱故障，不轉為M850 L連點災情。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-23",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "品牌一般耐用抱怨、發布介紹及購買前印象不是本款第一人稱故障，不轉為M850 L連點災情。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7265417&p=2",
+          "title": "羅技Signature M840L／M850L台灣發布與回覆第2頁",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "systemctl",
+            "亞甜莎",
+            "有錢人小迷糊",
+            "coldfish"
+          ],
+          "locator": "#12 93196436；#15 93199370；#18 93206681；#20 93236000",
+          "sourceExcerpt": "討論商務版兩年保固、Easy-Switch文字疑義與白色可能泛黃；未有人自述M850 L本機泛黃或故障。",
+          "specificReason": "商務版與consumer保固不混用；擔心白色日後變黃是推測而非本石墨黑SKU回報，功能文字誤述亦不是故障。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-23",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "商務版與consumer保固不混用；擔心白色日後變黃是推測而非本石墨黑SKU回報，功能文字誤述亦不是故障。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7265417&p=3",
+          "title": "羅技Signature M840L／M850L台灣發布與回覆第3頁",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "cliff020202"
+          ],
+          "locator": "#21 93251039",
+          "sourceExcerpt": "使用者比對購物平台與文章對M840L Easy-Switch的差異，尚打算618購買。",
+          "specificReason": "是M840 L購買前功能提問，不是已使用M850 L發生的故障。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-23",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "是M840 L購買前功能提問，不是已使用M850 L發生的故障。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=497&t=7271924",
+          "title": "需要大手的滑鼠嗎？羅技M840L",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "cliff020202",
+            "buddy0328",
+            "奇點降臨",
+            "撿到國中生"
+          ],
+          "locator": "主文93271427及#2–4；主文M850L軟墊一句",
+          "sourceExcerpt": "作者實買M840L，說擔心M850L掌墊將來出問題；前文電源／連點涉及M750與M720。",
+          "specificReason": "原文明確是M840 L心得與未發生的M850 L軟墊擔憂；不同型號歷史故障、推測及一般品牌意見均排除。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-23",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "原文明確是M840 L心得與未發生的M850 L軟墊擔憂；不同型號歷史故障、推測及一般品牌意見均排除。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/actutech/comments/1tnz9me/adieu_les_douleurs_aux_poignets_mon_avis_sur_le/",
+          "title": "Adieu les douleurs aux poignets – MK880評測",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "romain34230"
+          ],
+          "locator": "主文開頭贈測揭露與La souris M850 L段",
+          "sourceExcerpt": "作者揭露品牌提供MK880套組贈測；使用藍牙、不附dongle，M850 L段為正向舒適評價及自訂功能。",
+          "specificReason": "品牌提供的MK880套組測試，不是台灣910-007723獨立購買負評；原頁沒有M850 L故障敘述，亦不將贈測當獨立普遍滿意證據。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-23",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "品牌提供的MK880套組測試，不是台灣910-007723獨立購買負評；原頁沒有M850 L故障敘述，亦不將贈測當獨立普遍滿意證據。"
+        },
+        {
+          "platform": "GitHub",
+          "url": "https://github.com/AprilNEA/OpenLogi/issues/2590",
+          "title": "M850 L預設側鍵數與前進後退反向",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "elliclee"
+          ],
+          "locator": "issue正文問題描述、環境與openlogi list",
+          "sourceExcerpt": "作者自述M850 L藍牙直連在OpenLogi0.9.0出現多一個側鍵及前後鍵反向；有046d/b049識別，未列台灣SKU。",
+          "specificReason": "屬第三方OpenLogi介面映射個案，不可推成Options+或硬體故障；即採廣義M850 L仍僅一位、GitHub一站。台灣910-007723未確認，不計為exactSKU災情。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-23",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "屬第三方OpenLogi介面映射個案，不可推成Options+或硬體故障；即採廣義M850 L仍僅一位、GitHub一站。台灣910-007723未確認，不計為exactSKU災情。"
+        },
+        {
+          "platform": "GitHub",
+          "url": "https://github.com/AprilNEA/OpenLogi/issues/1878",
+          "title": "M850 mouse has no gesture button but GUI has",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "alexceltare2"
+          ],
+          "locator": "issue正文Device model與What happened",
+          "sourceExcerpt": "作者在OpenLogi0.8.14看到不存在的gesture button，型號僅寫M850；OS欄macOS與Windows10 x86互相矛盾。",
+          "specificReason": "未確認M850 L完整身份／台灣SKU，第三方軟體預設布局個案，不能與其他症狀合併成硬體問題。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-23",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "未確認M850 L完整身份／台灣SKU，第三方軟體預設布局個案，不能與其他症狀合併成硬體問題。"
+        },
+        {
+          "platform": "note",
+          "url": "https://note.com/super_ivy966/n/nbbe9e5d75430",
+          "title": "マウスが大きすぎた",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "マサミクス"
+          ],
+          "locator": "2026-10-09；Lしかなかった、クッションは悪くない兩節",
+          "sourceExcerpt": "日本off-white買家覺得L機身對小手過大、攜帶佔空間；電源不順的段落指舊M750。",
+          "specificReason": "是不同地區off-white的尺寸適配個案，無M850 L電源故障或掌墊失效；不移植日本SKU到台灣石墨黑或將M750症狀誤歸本款。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-23",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "是不同地區off-white的尺寸適配個案，無M850 L電源故障或掌墊失效；不移植日本SKU到台灣石墨黑或將M750症狀誤歸本款。"
+        },
+        {
+          "platform": "note",
+          "url": "https://note.com/deskhiyori/n/n0a1e720b3712",
+          "title": "Signature Comfort Plus M850とは？",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "デスク日和"
+          ],
+          "locator": "原頁稍早web結果可讀，獨立重現及現時原頁請求404；不以不可重現正文做證據",
+          "sourceExcerpt": "原頁目前404，未保留可重現完整原文，不採正文推論、不把搜尋摘要變成逐人負評。",
+          "specificReason": "未能獨立重現此原頁，不採用其任何第一人稱身份、症狀或數量；不將失效頁當沒有負評。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-23",
+          "reviewBasis": "original_page_unavailable_not_counted",
+          "reason": "未能獨立重現此原頁，不採用其任何第一人稱身份、症狀或數量；不將失效頁當沒有負評。"
+        },
+        {
+          "platform": "note",
+          "url": "https://note.com/sutero/n/neb03e5f7fe32",
+          "title": "クッション付きマウスが気になる",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "sutero"
+          ],
+          "locator": "Signature Comfort Plus M850 L、マウスが必要になったら兩節",
+          "sourceExcerpt": "作者目前使用軌跡球，只對M850 L掌墊感興趣，說若需要滑鼠會考慮並打算到店體驗。",
+          "specificReason": "未購買使用本款，屬購買前興趣，不是M850 L症狀回報。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-23",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "未購買使用本款，屬購買前興趣，不是M850 L症狀回報。"
+        },
+        {
+          "platform": "note",
+          "url": "https://note.com/gadget_techo/n/n52f88afd9266",
+          "title": "静音マウスおすすめ10選2026",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "ガジェット手帖"
+          ],
+          "locator": "2026-08-31綜合10款推薦與比較表",
+          "sourceExcerpt": "整篇是多型號價格／功能比較，主推M840 L，M850 L僅出現在系列發布敘述。",
+          "specificReason": "無本款第一人稱故障，規格整理與推薦不是獨立回報。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-23",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "無本款第一人稱故障，規格整理與推薦不是獨立回報。"
+        },
+        {
+          "platform": "note",
+          "url": "https://note.com/pc_masami/n/n233491d72823",
+          "title": "Signature Comfort Plus M850 L掌墊比較",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "pc_masami"
+          ],
+          "locator": "原頁請求404；發現摘要明示品牌調查與第三方比較",
+          "sourceExcerpt": "原文端點404，未取得可核對的第一人稱內容；不把搜尋摘要轉為負評或作者計數。",
+          "specificReason": "未驗證的二手比較線索不具逐人原文證據，本次不採任何症狀／人數；可讀原頁均不足六人，不以404宣稱沒有負評。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-23",
+          "reviewBasis": "original_page_unavailable_not_counted",
+          "reason": "未驗證的二手比較線索不具逐人原文證據，本次不採任何症狀／人數；可讀原頁均不足六人，不以404宣稱沒有負評。"
+        },
+        {
+          "platform": "Official support",
+          "url": "https://support.logi.com/hc/en-us/articles/44650303911063-How-to-fix-tracking-issues-and-erratic-movement-on-your-Signature-Comfort-Plus-M850-L-mouse",
+          "title": "How to fix tracking issues and erratic movement on M850 L",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "reviewedAuthors": [],
+          "locator": "標題與troubleshooting清單",
+          "sourceExcerpt": "官方列一般清感應器、電池、平面非反光鼠墊及重新配對等排解程序。",
+          "specificReason": "支援說明沒有可辨識消費者與獨立報告，不當災情發生數；也不把舊LGS停用通則當本款停產。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-23",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "支援說明沒有可辨識消費者與獨立報告，不當災情發生數；也不把舊LGS停用通則當本款停產。"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=pI8W4AIhTV4",
+          "title": "Logitech Next Great Mouse M850 L/M840 L review",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "Cameron Dougherty Tech"
+          ],
+          "locator": "原頁請求throttled；發現description列affiliate與握型限制",
+          "sourceExcerpt": "未取得可重現的完整原頁影片／逐字稿，因此不將描述摘要當逐人災情。",
+          "specificReason": "媒體/聯盟評測及不同SKU不能充作台灣consumer硬體負評；不把搜尋摘要中的握型／軟體論點計入報告人數。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-23",
+          "reviewBasis": "original_page_unavailable_not_counted",
+          "reason": "媒體/聯盟評測及不同SKU不能充作台灣consumer硬體負評；不把搜尋摘要中的握型／軟體論點計入報告人數。"
+        }
+      ],
+      "reports": [],
+      "evidence": []
+    },
+    {
+      "id": "vacuum-roborock-f25-gen2-wd5m21a",
+      "category": "vacuum",
+      "brand": "Roborock",
+      "model": "WD5M21A",
+      "name": "F25 GEN2 乾濕分離前驅助力洗地機（台灣110V版）",
+      "identity": {
+        "canonicalModel": "WD5M21A",
+        "lookupLabel": "Roborock F25 GEN2 乾濕分離前驅助力洗地機（台灣110V版）",
+        "aliases": [
+          "F25 GEN2",
+          "F25 Gen 2"
+        ],
+        "evidenceUrl": "https://www.costco.com.tw/Televisions-Appliances/Small-Appliances/Vacuums-Floor-Care/Roborock-Floor-Scrubber-F25-GEN2-WD5M21A/p/161292"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "id": "vacuum-roborock-f25-gen2-wd5m21a",
+        "category": "vacuum",
+        "brand": "Roborock",
+        "model": "WD5M21A",
+        "name": "F25 GEN2 乾濕分離前驅助力洗地機（台灣110V版）",
+        "status": "completed",
+        "reviewedAt": "2026-11-23",
+        "reviewBatch": "vacuum",
+        "decision": "no_common_issue",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit",
+          "PTT",
+          "Costco",
+          "EFTM",
+          "Hatena"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"F25 GEN2\" \"WD5M21A\" (問題 OR 故障 OR 心得)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22F25%20GEN2%22%20%22WD5M21A%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97%29"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"F25 GEN2\" \"WD5M21A\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22F25%20GEN2%22%20%22WD5M21A%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20failure%29"
+          }
+        ],
+        "candidateDisposition": "WD5M21A：逐項人工判讀跨站exact-model查詢及行銷名稱延伸結果；原生Chrome逐讀Costco兩評，簡小姐一星有重量／清潔／剪髮功能期待不滿，Jensen五星無內容，僅一位負向回報一站；Hatena非實機購入考慮、EFTM不同LT Gen2不計入。未達同一問題六名獨立使用者且跨兩原始網站，保留查詢稀少的限制。",
+        "representativeSources": [
+          {
+            "platform": "Costco",
+            "url": "https://www.costco.com.tw/Televisions-Appliances/Small-Appliances/Vacuums-Floor-Care/Roborock-Floor-Scrubber-F25-GEN2-WD5M21A/p/161292",
+            "title": "Costco161292 F25 GEN2兩筆原始使用者評價"
+          },
+          {
+            "platform": "Hatena",
+            "url": "https://gadget-lab.hatenablog.com/entry/B0GYWT1XB6",
+            "title": "F25 Gen 2 購入検討メモ"
+          },
+          {
+            "platform": "EFTM",
+            "url": "https://eftm.com/2026/09/review-the-roborock-f25-lt-gen-2-competent-in-wet-or-dry-conditions-280525",
+            "title": "Roborock F25 LT Gen 2 review"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "platform": "Costco",
+            "url": "https://www.costco.com.tw/Televisions-Appliances/Small-Appliances/Vacuums-Floor-Care/Roborock-Floor-Scrubber-F25-GEN2-WD5M21A/p/161292",
+            "title": "Costco161292 F25 GEN2兩筆原始使用者評價",
+            "exactModel": true,
+            "independentAuthors": 1,
+            "reviewedAuthors": [
+              "簡小姐",
+              "Jensen"
+            ],
+            "locator": "主SKU161292 → Read 2 reviews → 商品評價region1/2與2/2；bv-jsonld-reviews-data同步署名與日期",
+            "sourceExcerpt": "簡小姐一星回報機身重、使用不便、清潔普通及沒有截斷毛髮；Jensen五星無文字，沒有故障症狀。",
+            "specificReason": "已逐讀同商品兩評，只有簡小姐一位有具體負向使用回報且僅Costco一站，未達同一問題六人跨兩站；防纏不等於剪斷毛髮，不能把功能期待視為宣稱失效。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-23",
+            "reviewBasis": "manual_native_original_page",
+            "reviewEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-23/new-products/f25gen2-independent-review-originals.json",
+            "negativeReportAuthors": [
+              "簡小姐"
+            ]
+          },
+          {
+            "platform": "Hatena",
+            "url": "https://gadget-lab.hatenablog.com/entry/B0GYWT1XB6",
+            "title": "F25 Gen 2 購入検討メモ",
+            "exactModel": false,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "38歳ITパパ"
+            ],
+            "locator": "開頭公開聲明、購入検討及維護段落",
+            "sourceExcerpt": "作者明示不是實機評測，而是公開規格與市場評論的購買考慮；正文討論搬運與清理污水箱。",
+            "specificReason": "未親自使用的市場評論彙整，沒有本台灣WD5M21A可辨識第一人稱故障回報；不把重複轉述或推測計成人數。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-23",
+            "reviewBasis": "manual_web_original_page"
+          },
+          {
+            "platform": "EFTM",
+            "url": "https://eftm.com/2026/09/review-the-roborock-f25-lt-gen-2-competent-in-wet-or-dry-conditions-280525",
+            "title": "Roborock F25 LT Gen 2 review",
+            "exactModel": false,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "Rob Rigby"
+            ],
+            "locator": "標題、Operation及Water段落",
+            "sourceExcerpt": "評測名稱為F25 LT Gen 2；作者實測清潔與水箱使用取捨，並非台灣WD5M21A的型號驗證。",
+            "specificReason": "明示LT Gen 2而非本GEN2 WD5M21A，缺原廠等同版本證據；單一媒體作者的其他型號使用情況不轉用為本款災情。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-23",
+            "reviewBasis": "manual_web_original_page"
+          }
+        ],
+        "attestation": "manual_original_pages_reviewed",
+        "reviewerNote": "WD5M21A：逐項人工判讀跨站exact-model查詢及行銷名稱延伸結果；原生Chrome逐讀Costco兩評，簡小姐一星有重量／清潔／剪髮功能期待不滿，Jensen五星無內容，僅一位負向回報一站；Hatena非實機購入考慮、EFTM不同LT Gen2不計入。未達同一問題六名獨立使用者且跨兩原始網站，保留查詢稀少的限制。 本次為人工逐原頁覆核，並非批次搜尋自動推定；搜尋稀少不等於完全沒有負評。"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-11-23",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"F25 GEN2\" \"WD5M21A\" (問題 OR 故障 OR 心得)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22F25%20GEN2%22%20%22WD5M21A%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97%29"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"F25 GEN2\" \"WD5M21A\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22F25%20GEN2%22%20%22WD5M21A%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20failure%29"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"F25 GEN2\" \"WD5M21A\" (問題 OR 故障 OR 心得)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22F25%20GEN2%22%20%22WD5M21A%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97%29",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22F25%20GEN2%22%20%22WD5M21A%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97%29",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-23T00:04:15.033333+00:00",
+          "note": "實際執行本query未回exact台灣硬體候選；延伸行銷名稱的候選另逐頁人工排除，未由空搜尋推定零負評。"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"F25 GEN2\" \"WD5M21A\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22F25%20GEN2%22%20%22WD5M21A%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20failure%29",
+          "searchUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22F25%20GEN2%22%20%22WD5M21A%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20failure%29",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-23T00:04:15.033333+00:00",
+          "note": "實際執行本query未回exact台灣硬體候選；延伸行銷名稱的候選另逐頁人工排除，未由空搜尋推定零負評。"
+        }
+      ],
+      "rejectedCandidates": [
+        {
+          "platform": "Costco",
+          "url": "https://www.costco.com.tw/Televisions-Appliances/Small-Appliances/Vacuums-Floor-Care/Roborock-Floor-Scrubber-F25-GEN2-WD5M21A/p/161292",
+          "title": "Costco161292 F25 GEN2兩筆原始使用者評價",
+          "exactModel": true,
+          "independentAuthors": 1,
+          "reviewedAuthors": [
+            "簡小姐",
+            "Jensen"
+          ],
+          "locator": "主SKU161292 → Read 2 reviews → 商品評價region1/2與2/2；bv-jsonld-reviews-data同步署名與日期",
+          "sourceExcerpt": "簡小姐一星回報機身重、使用不便、清潔普通及沒有截斷毛髮；Jensen五星無文字，沒有故障症狀。",
+          "specificReason": "已逐讀同商品兩評，只有簡小姐一位有具體負向使用回報且僅Costco一站，未達同一問題六人跨兩站；防纏不等於剪斷毛髮，不能把功能期待視為宣稱失效。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-23",
+          "reviewBasis": "manual_native_original_page",
+          "reviewEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-23/new-products/f25gen2-independent-review-originals.json",
+          "negativeReportAuthors": [
+            "簡小姐"
+          ],
+          "reason": "已逐讀同商品兩評，只有簡小姐一位有具體負向使用回報且僅Costco一站，未達同一問題六人跨兩站；防纏不等於剪斷毛髮，不能把功能期待視為宣稱失效。"
+        },
+        {
+          "platform": "Hatena",
+          "url": "https://gadget-lab.hatenablog.com/entry/B0GYWT1XB6",
+          "title": "F25 Gen 2 購入検討メモ",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "38歳ITパパ"
+          ],
+          "locator": "開頭公開聲明、購入検討及維護段落",
+          "sourceExcerpt": "作者明示不是實機評測，而是公開規格與市場評論的購買考慮；正文討論搬運與清理污水箱。",
+          "specificReason": "未親自使用的市場評論彙整，沒有本台灣WD5M21A可辨識第一人稱故障回報；不把重複轉述或推測計成人數。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-23",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "未親自使用的市場評論彙整，沒有本台灣WD5M21A可辨識第一人稱故障回報；不把重複轉述或推測計成人數。"
+        },
+        {
+          "platform": "EFTM",
+          "url": "https://eftm.com/2026/09/review-the-roborock-f25-lt-gen-2-competent-in-wet-or-dry-conditions-280525",
+          "title": "Roborock F25 LT Gen 2 review",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "Rob Rigby"
+          ],
+          "locator": "標題、Operation及Water段落",
+          "sourceExcerpt": "評測名稱為F25 LT Gen 2；作者實測清潔與水箱使用取捨，並非台灣WD5M21A的型號驗證。",
+          "specificReason": "明示LT Gen 2而非本GEN2 WD5M21A，缺原廠等同版本證據；單一媒體作者的其他型號使用情況不轉用為本款災情。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-23",
+          "reviewBasis": "manual_web_original_page",
+          "reason": "明示LT Gen 2而非本GEN2 WD5M21A，缺原廠等同版本證據；單一媒體作者的其他型號使用情況不轉用為本款災情。"
+        }
+      ],
+      "reports": [],
+      "evidence": []
+    },
+    {
+      "id": "vacuum-roborock-h60-hub-plus-h9a4a",
+      "category": "vacuum",
+      "brand": "Roborock",
+      "model": "H9A4A",
+      "name": "H60 Hub Plus 自動集塵半基座無線吸塵器（台灣110V版）",
+      "identity": {
+        "canonicalModel": "H9A4A",
+        "lookupLabel": "Roborock H60 Hub Plus 自動集塵半基座無線吸塵器（台灣110V版）",
+        "aliases": [
+          "H60 Hub Plus"
+        ],
+        "evidenceUrl": "https://www.costco.com.tw/Televisions-Appliances/Small-Appliances/Vacuums-Floor-Care/Roborock-Cordless-Vacuum-H60-Hub-Plus/p/162023"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "id": "vacuum-roborock-h60-hub-plus-h9a4a",
+        "category": "vacuum",
+        "brand": "Roborock",
+        "model": "H9A4A",
+        "name": "H60 Hub Plus 自動集塵半基座無線吸塵器（台灣110V版）",
+        "status": "completed",
+        "reviewedAt": "2026-11-23",
+        "reviewBatch": "vacuum",
+        "decision": "no_common_issue",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit",
+          "PTT",
+          "Kukinews",
+          "Nate"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"H60 Hub Plus\" \"H9A4A\" (問題 OR 故障 OR 心得)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22H60%20Hub%20Plus%22%20%22H9A4A%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97%29"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"H60 Hub Plus\" \"H9A4A\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22H60%20Hub%20Plus%22%20%22H9A4A%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20failure%29"
+          }
+        ],
+        "candidateDisposition": "H9A4A：逐項人工判讀跨站exact-model查詢及行銷名稱延伸結果；Kukinews為一位韓國媒體作者，Nate為同文轉載，沒有台灣H9A4A硬體對應；不將轉載或未知區域SKU計為第二站使用者。未達同一問題六名獨立使用者且跨兩原始網站，保留查詢稀少的限制。",
+        "representativeSources": [
+          {
+            "platform": "Kukinews",
+            "url": "https://www.kukinews.com/article/view/kuk202607270173",
+            "title": "H60 Hub Plus 三週實測 Review Log"
+          },
+          {
+            "platform": "Nate",
+            "url": "https://m.news.nate.com/view/20260728n02563?cpcd=&list=recent&mid=m02",
+            "title": "Nate 轉載 Kukinews H60 Hub Plus Review Log"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "platform": "Kukinews",
+            "url": "https://www.kukinews.com/article/view/kuk202607270173",
+            "title": "H60 Hub Plus 三週實測 Review Log",
+            "exactModel": false,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "이혜민"
+            ],
+            "locator": "原文64–86行、噪音／重量與總評段落",
+            "sourceExcerpt": "原作者報告約三週韓國H60 Hub Plus實用，稱集塵聲較大且持續手持有負擔；原頁未標台灣H9A4A/MDS34LRR。",
+            "specificReason": "原作者為一位媒體評測者，韓國版本未核對台灣硬體與110V底座；即使視為同功能也只有一人一站，不足同一問題六位且跨兩站。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-23",
+            "reviewBasis": "manual_web_original_page",
+            "accessNote": "web工具原頁可讀306行；本機HTTP403未用來冒稱缺少原頁。"
+          },
+          {
+            "platform": "Nate",
+            "url": "https://m.news.nate.com/view/20260728n02563?cpcd=&list=recent&mid=m02",
+            "title": "Nate 轉載 Kukinews H60 Hub Plus Review Log",
+            "exactModel": false,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "이혜민"
+            ],
+            "locator": "署名與原文35–58行",
+            "sourceExcerpt": "Nate清楚標示Kukinews來源、相同이혜민署名及同一篇三週評測。",
+            "specificReason": "同一Kukinews文章跨站轉載，不能當第二網站的獨立使用者；未證實台灣H9A4A版本，零新增計入人數。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-23",
+            "reviewBasis": "manual_web_original_page",
+            "crossPostKey": "kukinews-kuk202607270173-ihyemin"
+          }
+        ],
+        "attestation": "manual_original_pages_reviewed",
+        "reviewerNote": "H9A4A：逐項人工判讀跨站exact-model查詢及行銷名稱延伸結果；Kukinews為一位韓國媒體作者，Nate為同文轉載，沒有台灣H9A4A硬體對應；不將轉載或未知區域SKU計為第二站使用者。未達同一問題六名獨立使用者且跨兩原始網站，保留查詢稀少的限制。 本次為人工逐原頁覆核，並非批次搜尋自動推定；搜尋稀少不等於完全沒有負評。"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-11-23",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"H60 Hub Plus\" \"H9A4A\" (問題 OR 故障 OR 心得)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22H60%20Hub%20Plus%22%20%22H9A4A%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97%29"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"H60 Hub Plus\" \"H9A4A\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22H60%20Hub%20Plus%22%20%22H9A4A%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20failure%29"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"H60 Hub Plus\" \"H9A4A\" (問題 OR 故障 OR 心得)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22H60%20Hub%20Plus%22%20%22H9A4A%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97%29",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22H60%20Hub%20Plus%22%20%22H9A4A%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97%29",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-23T00:04:15.033333+00:00",
+          "note": "實際執行本query未回exact台灣硬體候選；延伸行銷名稱的候選另逐頁人工排除，未由空搜尋推定零負評。"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"H60 Hub Plus\" \"H9A4A\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22H60%20Hub%20Plus%22%20%22H9A4A%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20failure%29",
+          "searchUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22H60%20Hub%20Plus%22%20%22H9A4A%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20failure%29",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-23T00:04:15.033333+00:00",
+          "note": "實際執行本query未回exact台灣硬體候選；延伸行銷名稱的候選另逐頁人工排除，未由空搜尋推定零負評。"
+        }
+      ],
+      "rejectedCandidates": [
+        {
+          "platform": "Kukinews",
+          "url": "https://www.kukinews.com/article/view/kuk202607270173",
+          "title": "H60 Hub Plus 三週實測 Review Log",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "이혜민"
+          ],
+          "locator": "原文64–86行、噪音／重量與總評段落",
+          "sourceExcerpt": "原作者報告約三週韓國H60 Hub Plus實用，稱集塵聲較大且持續手持有負擔；原頁未標台灣H9A4A/MDS34LRR。",
+          "specificReason": "原作者為一位媒體評測者，韓國版本未核對台灣硬體與110V底座；即使視為同功能也只有一人一站，不足同一問題六位且跨兩站。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-23",
+          "reviewBasis": "manual_web_original_page",
+          "accessNote": "web工具原頁可讀306行；本機HTTP403未用來冒稱缺少原頁。",
+          "reason": "原作者為一位媒體評測者，韓國版本未核對台灣硬體與110V底座；即使視為同功能也只有一人一站，不足同一問題六位且跨兩站。"
+        },
+        {
+          "platform": "Nate",
+          "url": "https://m.news.nate.com/view/20260728n02563?cpcd=&list=recent&mid=m02",
+          "title": "Nate 轉載 Kukinews H60 Hub Plus Review Log",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "이혜민"
+          ],
+          "locator": "署名與原文35–58行",
+          "sourceExcerpt": "Nate清楚標示Kukinews來源、相同이혜민署名及同一篇三週評測。",
+          "specificReason": "同一Kukinews文章跨站轉載，不能當第二網站的獨立使用者；未證實台灣H9A4A版本，零新增計入人數。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-23",
+          "reviewBasis": "manual_web_original_page",
+          "crossPostKey": "kukinews-kuk202607270173-ihyemin",
+          "reason": "同一Kukinews文章跨站轉載，不能當第二網站的獨立使用者；未證實台灣H9A4A版本，零新增計入人數。"
         }
       ],
       "reports": [],

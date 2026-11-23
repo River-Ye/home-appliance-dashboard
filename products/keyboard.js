@@ -39,11 +39,11 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 6490,
-      "converted": 6490,
+      "amount": 8990,
+      "converted": 8990,
       "basis": "retailer_current",
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-11-04 午後人工覆核：Sony台灣所選單機限時優惠價6490元、可加車；未混鍵鼠組合8980。 不扣個人化回饋或贈品。"
+      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-23 Sony KBD-G900 同型號原購買頁公開NT$8,990，可下單；未另扣個人券、點數或信用卡回饋。"
     },
     "installation": {
       "status": "not_stated",
@@ -704,11 +704,11 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 4990,
-      "converted": 4990,
+      "amount": 4790,
+      "converted": 4790,
       "basis": "retailer_current",
-      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
-      "note": "Chrome原頁主商品RZ03-04981500-R3T1／Huntsman V3 Pro Tenkeyless 第二代類比光軸鍵盤（中文黑色，非8K）可核對，公開主區網路價4990元，購買按鈕可用；「下單再折」或其他結帳優惠另計，不以API較低數字替代主價。"
+      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-23 PChome 同RZ03-04981500-R3T1公開價NT$4,790，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "installation": {
       "status": "not_stated",
@@ -756,16 +756,16 @@
     "releaseDate": "2023-10",
     "historicalLow": {
       "status": "found",
-      "amount": 4990,
+      "amount": 4790,
       "currency": "TWD",
-      "converted": 4990,
+      "converted": 4790,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DCBF02-A900GQNOQ",
-      "sourceTitle": "PChome 24h：Razer RZ03-04981500-R3T1",
-      "evidenceSnippet": "2026-11-04 Chrome原頁同型號/版本可購主價NT$4990，低於先前可驗證低點NT$5211。",
+      "sourceTitle": "Razer RZ03-04981500-R3T1 原商品頁",
+      "evidenceSnippet": "2026-11-23 PChome DCBF02-A900GQNOQ 原商品主區、完整型號／選定版本及可用購買動作已人工核對，API Qty 4；採公開價 NT$4,790。 下單再折可由同頁公開單件／門檻活動與 SKU API 互證，未計入個人券、點數與信用卡回饋。 本輪直接讀取精技台灣代理原頁ID37731，品號RZ03-04981500-R3T1明列Huntsman V3 Pro Tenkeyless/中文、第二代類比光軸與1000Hz。PChome主標題及商品圖同TKL光學軸中文，非8K/全尺寸；4990單件已達公開滿3000折200門檻，4790與同SKU API一致。 公開活動至 2026-11-30T23:59:59+08:00。 低於原有同款紀錄。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-11-04",
-      "note": "採本輪實際可公開重現的同型號新品單件主價；不扣個人券、會員個人折扣、信用卡、點數或贈品，不把其他版本/缺貨價當同款史低。"
+      "checkedAt": "2026-11-23",
+      "note": "採同型號同規格可信新品公開價，不含個人券、點數、會員特價與信用卡回饋。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1194,10 +1194,11 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 16490,
-      "converted": 16490,
+      "amount": 16290,
+      "converted": 16290,
       "basis": "retailer_current",
-      "confidence": "2026-08-31 根代理Chrome核PChome雪軸中文單品16490；不自扣滿額200，贈Sheath桌墊不當第二個型號或優惠史低。"
+      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-23 PChome 同90MP03MA-BKTA01公開價NT$16,290，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "installation": {
       "status": "not_stated",
@@ -2327,8 +2328,8 @@
       "currency": "TWD",
       "amount": 3088,
       "converted": 3088,
-      "confidence": "Chrome黑色SoldOut，選復古白背光熱插拔矮紅軸；先茶再紅取得真實variant46960807969027，SKU1T3088可加入購物車；主圖1T800px。白背光熱插拔選項與舊正文僅RGB可熱插拔矛盾，明示按選定SKU並保留疑義。",
-      "note": "Keychron 台灣原商品頁已選定本版本，主購買按鈕停用並標示售完，保留先前參考價。"
+      "confidence": "2026-11-23 核對原商品版本與供貨條件，金額保留先前參考價",
+      "note": "2026-11-23 Keychron原頁同復古色矮紅軸KBKCK3MQ1T已售完，保留先前NT$3,088參考價；目前顯示NT$3,490但不可下單，不改採黑色或其他軸體價格。"
     },
     "installation": {
       "status": "not_stated",
@@ -2336,7 +2337,7 @@
     },
     "image": "https://www.keychron.com.tw/cdn/shop/files/K3MQ1T-CN_81247ba9-f27d-4648-ac31-240993019826.jpg?v=1750833069&width=1214",
     "buyUrl": "https://www.keychron.com.tw/products/keychron-k3-max-qmk-via-wireless-custom-mechanical-keyboard?variant=46960807969027",
-    "buyLabel": "Keychron 官方（已售完）",
+    "buyLabel": "Keychron 官方（同版本已售完）",
     "specs": [
       "類型：低矮機械式三模鍵盤",
       "配列：75% ANSI 84鍵，無數字區",

@@ -3003,11 +3003,11 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 3390,
-      "converted": 3390,
+      "amount": 3590,
+      "converted": 3590,
       "basis": "retailer_current",
-      "confidence": "2026-10-31 人工核對同型號、同版本原商品頁公開報價與銷售狀態；優惠與交期見註記。",
-      "note": "2026-10-31 Logi網路旗艦店同型號／既有選定SKU主購買區Sale公開價3390元，可加車；保留原有語言／軸體／顏色所選版本，不採刪除原價或其他型號價格。"
+      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-23 Logitech MX Master 4 同型號原購買頁公開NT$3,590，可下單；未另扣個人券、點數或信用卡回饋。"
     },
     "installation": {
       "status": "not_stated",
@@ -3098,11 +3098,11 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 3290,
-      "converted": 3290,
+      "amount": 4990,
+      "converted": 4990,
       "basis": "retailer_current",
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
-      "note": "2026-11-04 午後人工覆核：Sony台灣所選單機限時優惠價3290元、可加車；未混鍵鼠組合8980。 不扣個人化回饋或贈品。"
+      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-23 Sony MSE-G500 同型號原購買頁公開NT$4,990，可下單；未另扣個人券、點數或信用卡回饋。"
     },
     "installation": {
       "status": "not_stated",
@@ -3570,11 +3570,11 @@
   "topPick": false,
   "price": {
     "currency": "TWD",
-    "amount": 2290,
-    "converted": 2290,
+    "amount": 2190,
+    "converted": 2190,
     "basis": "retailer_current",
-    "confidence": "2026-11-04 Native Chrome核PChome DCBF01-A900HWOG2黑色有線35K主商品網路價2290、數量可選、下單再折主按鈕155/156可用。",
-    "note": "單台黑色有線35K版；11/04頁面另列滿1990享88折，下單再折未在主價顯示，不預扣，依結帳確認；未扣會員、信用卡、點數。"
+    "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+    "note": "2026-11-23 PChome 同RZ01-05230100-R3M1公開價NT$2,190，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
   },
   "installation": {
     "status": "not_stated",
@@ -3669,11 +3669,11 @@
   "topPick": false,
   "price": {
     "currency": "TWD",
-    "amount": 3911,
-    "converted": 3911,
+    "amount": 4990,
+    "converted": 4990,
     "basis": "retailer_current",
-    "confidence": "2026-11-19 核對三井黑色單品 MAAS051 原頁、公開價與購買按鈕。",
-    "note": "三井黑色 MAAS051 單台公開促銷 NT$3,911（原網路價 NT$4,990），商品頁列 2026-11-17 至 11-22。未扣另領折價券或點數，實際配送依通路。"
+    "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+    "note": "2026-11-23 三井3C同ROG Harpe II Ace黑色MAAS051公開NT$4,990，可下單；未另扣會員券、點數或信用卡回饋。"
   },
   "installation": {
     "status": "not_stated",
@@ -4052,6 +4052,110 @@
     "左右手通用",
     "三裝置",
     "79g"
+  ]
+},
+{
+  "id": "mouse-logitech-m850-l",
+  "category": "mouse",
+  "brand": "Logitech",
+  "model": "M850 L",
+  "name": "Signature Comfort Plus M850 L 石墨黑 910-007723 多工舒適無線滑鼠（不附接收器）",
+  "type": "standard",
+  "rank": 40,
+  "budget": "mid",
+  "channel": "tw",
+  "topPick": false,
+  "price": {
+    "currency": "TWD",
+    "amount": 1790,
+    "converted": 1790,
+    "basis": "retailer_current",
+    "confidence": "2026-11-23 原生Chrome核對羅技台灣旗艦店石墨黑SKU910-007723選項、公開價格與可用購買按鈕，Shopify同variant available=true佐證。",
+    "note": "羅技台灣旗艦店石墨黑910-007723公開單件NT$1,790，未扣會員券、點數或刷卡回饋。滿NT$2,000免運，本單未達門檻，實際運費依結帳顯示；週一至週四原則次日安排出貨。"
+  },
+  "installation": {
+    "status": "not_stated",
+    "note": "無需到府安裝，自行藍牙配對；Logi Bolt接收器另購。"
+  },
+  "image": "https://resource.logitech.com/w_544,h_466,ar_7:6,c_pad,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/mice/signature-comfort-plus-m850l/gallery/graphite/signature-comfort-plus-m850-l-mouse-graphite-top-angle-gallery-1.png",
+  "buyUrl": "https://store.logitech.tw/products/m850l?variant=45152965689367",
+  "buyLabel": "羅技台灣旗艦店（石墨黑）",
+  "specs": [
+    "類型：標準型右手辦公滑鼠；台灣consumer石墨黑910-007723",
+    "握型／慣用手：右手塑形、掌墊與拇指托，大手掌握較適合；小手先試握",
+    "連線：Bluetooth Low Energy，Easy-Switch最多3台；相容另購Logi Bolt接收器，不支援Unifying",
+    "感測器／解析度：Pluto ONE／羅技先進光學；400–4000 DPI、100 DPI遞增，額定1000 DPI",
+    "回報率：台灣官方未標示",
+    "按鍵／滾輪：6鍵、4鍵可自訂；SmartWheel逐行／快速捲動，虛擬水平捲動；無拇指輪或手勢實體鍵",
+    "供電／續航：1顆3號AA鹼性電池；藍牙／Bolt官方最長24個月，依使用情況而異",
+    "系統／軟體：Windows10/11、macOS12、ChromeOS、Linux、iPadOS15、Android12以上；Options+／Logi Tune自訂，非Windows/macOS以基本功能為主",
+    "尺寸：高 121.8 x 寬 74.3 x 深 44.2 mm",
+    "重量：本體不含電池／接收器 82.9 g；含電池不含接收器 107.9 g",
+    "隨附配件：滑鼠、1顆AA電池、使用者文件；不附Logi Bolt接收器"
+  ],
+  "description": "用掌心軟墊、右手塑形與SmartWheel補充大手長時間辦公選項；三裝置藍牙切換方便桌機、筆電與平板共用。採用台灣consumer石墨黑，不混入附Bolt與兩年保固的Business版；保留仍現售舊款。",
+  "pros": [
+    "掌墊、拇指托與橡膠側握把提供掌握支撐",
+    "SmartWheel兼顧逐行與快速捲動，點擊較安靜",
+    "3台Easy-Switch、AA電池可更換，台灣一年有限硬體保固"
+  ],
+  "cons": [
+    "含AA電池107.9g且僅右手大機身，小手及輕量行動用途應先試握",
+    "Logi Bolt接收器另購，無有線USB操作與充電功能",
+    "進階按鍵／水平捲動需支援的軟體與系統；掌墊舒適度依握型而異"
+  ],
+  "bestFor": "重視掌握支撐、安靜點擊與三裝置切換的大手右手辦公族。",
+  "recommendation": "適合固定桌面長時間文書；先試握掌墊位置，並確認公司電腦可安裝Options+。有Bolt需求時把另購接收器與運費一併比較，不把Business版附品及保固套入本款。",
+  "releaseDate": "2026-06",
+  "historicalLow": {
+    "status": "not_found",
+    "amount": null,
+    "currency": "TWD",
+    "converted": null,
+    "sourceUrl": "",
+    "sourceTitle": "",
+    "evidenceSnippet": "",
+    "sourceKind": "not_found",
+    "confidence": "not_found",
+    "checkedAt": "2026-11-23",
+    "note": "人工查FindPrice、飛比及Lowcast同PChome主SKU；Lowcast記錄2026/11/9–11/11 NT$1590，但原始頁為多色主SKU，歷史未綁定台灣石墨黑910-007723／單件公開條件，不逕用為本選定版本史低。兩站現價索引含M840L、企業版、MK880與不同顏色，均不可混用；未以1790現價推定史低。"
+  },
+  "issueResearch": {
+    "status": "no_common_issue",
+    "checkedAt": "2026-11-23",
+    "summary": "截至查核日，查無達門檻的集中負評／災情",
+    "issues": [],
+    "checkedSources": [
+      {
+        "platform": "Mobile01",
+        "targetHost": "mobile01.com",
+        "query": "site:mobile01.com \"M850 L\" (問題 OR 故障 OR 負評)",
+        "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22M850%20L%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95%29"
+      },
+      {
+        "platform": "Reddit",
+        "targetHost": "reddit.com",
+        "query": "site:reddit.com \"M850 L\" (problem OR issue OR defect OR failure)",
+        "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22M850%20L%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20failure%29"
+      },
+      {
+        "platform": "PTT",
+        "targetHost": "ptt.cc",
+        "query": "site:ptt.cc \"M850 L\" (問題 OR 故障 OR 心得)",
+        "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22M850%20L%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97%29"
+      }
+    ]
+  },
+  "score": 82,
+  "voltage": "1顆AA鹼性電池供電，不需台灣市電；不可對一次性電池充電。無USB有線供電或充電功能。",
+  "warranty": "Logitech台灣consumer 910-007723官方1年有限硬體保固，可循羅技台灣支援申請；非Business版2年保固。",
+  "tags": [
+    "辦公推薦",
+    "台灣公司貨",
+    "掌墊支撐",
+    "右手大手",
+    "三裝置",
+    "可換AA電池"
   ]
 }
 ]);

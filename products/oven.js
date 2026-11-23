@@ -417,8 +417,8 @@
     "price": {
       "currency": "USD",
       "amount": 499.95,
-      "converted": 16492,
-      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-11-20 匯率換算"
+      "converted": 16482,
+      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-11-23 匯率換算"
     },
     "image": "https://assets.breville.com/cdn-cgi/image/width=1300,format=auto/BOV950/BOV950BSS1BUS1/pdp3.png?pdp=",
     "buyUrl": "https://www.breville.com/en-us/product/bov950",
@@ -916,10 +916,10 @@
     "name": "20L 多功能蒸氣氣炸烤箱",
     "price": {
       "currency": "TWD",
-      "amount": 9499,
-      "converted": 9499,
-      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DMBM0G-A900HF91A 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$9,499。 公開活動至 2026-11-23T07:59:59+08:00。",
+      "amount": 9999,
+      "converted": 9999,
+      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-23 PChome 同CSO-500TW公開價NT$9,999，未另扣個人券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900HF91A/000001_1768545220.jpg",
@@ -1415,10 +1415,10 @@
     "name": "32 公升獨立式萬用蒸烤爐",
     "price": {
       "currency": "TWD",
-      "amount": 15484,
-      "converted": 15484,
-      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DMBJ6Q-A900EO9M8 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$15,484。 公開活動至 2026-11-23T07:59:59+08:00。",
+      "amount": 15800,
+      "converted": 15800,
+      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-23 PChome 同WSO322EB公開價NT$15,800，未另扣個人券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMBJ6QA900EO9M8/000001_1716271473.jpg",
@@ -1814,11 +1814,11 @@
     "name": "過熱水蒸氣烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 46111,
-      "converted": 46111,
+      "amount": 48668,
+      "converted": 48668,
       "basis": "retailer_current",
-      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "Yahoo 原商品主區賣場 11995474 已核對同型號／選定組合、可用購買按鈕與公開價 NT$46,111。公開單件活動至 2026-11-23T07:59:59+08:00。未計入個人券、點數及信用卡回饋。"
+      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-23 Yahoo購物中心同MROBK5000AT公開價NT$48,668，未另扣個人券、點數與信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ5PA900GN8PM/000001_1750840663.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/HITACHI-%E6%97%A5%E7%AB%8B-%E9%81%8E%E7%86%B1%E6%B0%B4%E8%92%B8%E6%B0%A3%E7%83%98%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-MROBK5000AT-11995474.html",
@@ -2321,8 +2321,8 @@
     "price": {
       "currency": "USD",
       "amount": 449.99,
-      "converted": 14844,
-      "confidence": "2026-11-04 Chrome人工核對原商品主價、所選版本及購買／預購CTA；依當日匯率換算TWD。；ExchangeRate-API 2026-11-20 匯率換算",
+      "converted": 14835,
+      "confidence": "2026-11-04 Chrome人工核對原商品主價、所選版本及購買／預購CTA；依當日匯率換算TWD。；ExchangeRate-API 2026-11-23 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-05 人工覆核：原生Chrome原buyURL選定Silver MW101，主機主區449.99USD、Quantity1、主機Addtocart可見啟用，完整載入再次確認。黑色另為MW101BK1／449.99／OutofStock，未轉移。台灣配送未確認，未含國際運費、進口稅、電壓／插頭及台灣保固風險。 不扣個人化折價券、點數、信用卡回饋或贈品價值。"
     },

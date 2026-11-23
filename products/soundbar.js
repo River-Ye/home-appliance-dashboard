@@ -1109,10 +1109,10 @@
     "name": "5.1 聲道 Soundbar 家庭劇院組",
     "price": {
       "currency": "TWD",
-      "amount": 8067,
-      "converted": 8067,
-      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "Yahoo 原商品主區賣場 10067449 已核對同型號／選定組合、可用購買按鈕與公開價 NT$8,067。公開單件活動至 2026-11-23T07:59:59+08:00。未計入個人券、點數及信用卡回饋。",
+      "amount": 9016,
+      "converted": 9016,
+      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-23 Yahoo購物中心同HT-S40R公開價NT$9,016，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-23T19:58:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900GHTFE/000001_1776774078.jpg",
@@ -1705,11 +1705,11 @@
     "name": "BRAVIA Theatre Bar 9 旗艦聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 40900,
-      "converted": 40900,
-      "confidence": "2026-11-04 人工核對原頁主商品售價、版本與購買狀態。",
+      "amount": 42900,
+      "converted": 42900,
+      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-04 晚間覆核：限時優惠價$40,900；原價$42,900；加入購物車；機型：HT-A9000；Sony當期9/15至11/22秋季限時優惠，未扣贈品、點數、合購或信用卡回饋。"
+      "note": "2026-11-23 Sony HT-A9000 同型號原購買頁公開NT$42,900，可下單；未另扣個人券、點數或信用卡回饋。"
     },
     "installation": {
       "status": "not_stated",
@@ -1912,11 +1912,12 @@
       "currency": "TWD",
       "amount": 34930,
       "converted": 34930,
-      "confidence": "PChome 2026-08-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "2026-11-23 原商品頁的實際下單折扣未完整確認，金額保留為先前參考價",
+      "note": "2026-11-23 原商品頁網路價NT$38,900，但「下單再折」金額與公開活動條件未能完整互證。本卡NT$34,930保留為先前參考價，實際下單價格請看通路；未以個人券、點數或信用卡回饋推定公開折價。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAF02A900H2G5R/000001_1704612188.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAF02-A900H2G5R",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（折扣待確認／先前參考價）",
     "specs": [
       "7.1.2 聲道",
       "Dolby Atmos",
@@ -2009,8 +2010,8 @@
     "price": {
       "currency": "USD",
       "amount": 1299.99,
-      "converted": 42882,
-      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-11-20 匯率換算"
+      "converted": 42858,
+      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-11-23 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/2C2sn9CKoKFdIyd94Gm9z5/f3019d4e721511167ebe5c229bf490dd/heston-120_plp.jpg",
     "buyUrl": "https://www.marshall.com/us/en/product/heston-120",
@@ -2109,8 +2110,8 @@
     "price": {
       "currency": "USD",
       "amount": 499.99,
-      "converted": 16493,
-      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件；ExchangeRate-API 2026-11-20 匯率換算",
+      "converted": 16484,
+      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件；ExchangeRate-API 2026-11-23 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-22 Marshall美國官方同Heston 60 Black公開US$499.99，原價US$699.99，可下單；未含國際運費、進口稅、電壓／插頭與台灣保固風險，美國當地免運與兩工作日配送不適用台灣。"
     },
@@ -2553,14 +2554,14 @@
       "status": "found",
       "amount": 176091,
       "currency": "JPY",
-      "converted": 36361,
+      "converted": 36581,
       "sourceUrl": "https://kakaku.com/item/K0001712395/pricehistory/",
       "sourceTitle": "価格.com：JBL BAR 1300MK2 [ブラック] 価格推移",
       "evidenceSnippet": "価格.com 日別價格歷史顯示 exact-model「JBL BAR 1300MK2 [ブラック]」於 2026-06-17 的新品最低價為 ¥176,091；2025-10 初始價格為 ¥205,306。",
       "sourceKind": "price_history",
       "confidence": "medium",
       "checkedAt": "2026-08-25",
-      "note": "採日本市場 exact-model 公開價格歷史並依 2026-11-20 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
+      "note": "採日本市場 exact-model 公開價格歷史並依 2026-11-23 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -3328,11 +3329,11 @@
     "name": "BRAVIA Theatre System 6 實體 5.1 聲道家庭劇院",
     "price": {
       "currency": "TWD",
-      "amount": 16900,
-      "converted": 16900,
-      "confidence": "2026-11-04 人工核對原頁主商品售價、版本與購買狀態。",
+      "amount": 18900,
+      "converted": 18900,
+      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-04 晚間覆核：限時優惠價$16,900；原價$18,900；加入購物車；機型：HT-S60；公開主商品限時優惠，未扣Sony單筆滿額贈品/信用卡分期或其他配件合購。"
+      "note": "2026-11-23 Sony HT-S60 同型號原購買頁公開NT$18,900，可下單；未另扣個人券、點數或信用卡回饋。"
     },
     "installation": {
       "status": "not_stated",
@@ -3424,11 +3425,11 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 39900,
-      "converted": 39900,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。",
+      "amount": 42000,
+      "converted": 42000,
+      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-10-28晚間原頁覆核：黑色LifeStyleUltraSoundbar單機39900元可加車；不採資料端較低但原頁無法重現的折扣，也不混用相關多件套。不含個人券、點數或信用卡回饋。"
+      "note": "2026-11-23 PChome 同Lifestyle Ultra Soundbar公開價NT$42,000，未另扣個人券、點數與信用卡回饋。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAANJA900K048L/000001_1778571515.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAANJ-A900K048L",
@@ -3630,9 +3631,9 @@
     "price": {
       "currency": "USD",
       "amount": 699,
-      "converted": 23058,
+      "converted": 23045,
       "basis": "retailer_current",
-      "confidence": "2026-10-19 人工核對 Sonos US 官方黑色 BMULTUS1BLK 公開單機 US$699 與 Available now/Add to cart；ExchangeRate-API 2026-11-20 匯率換算，未含國際運費與進口稅。"
+      "confidence": "2026-10-19 人工核對 Sonos US 官方黑色 BMULTUS1BLK 公開單機 US$699 與 Available now/Add to cart；ExchangeRate-API 2026-11-23 匯率換算，未含國際運費與進口稅。"
     },
     "installation": {
       "status": "not_stated",

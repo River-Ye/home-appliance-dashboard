@@ -116,9 +116,9 @@
       "currency": "TWD",
       "amount": 17111,
       "converted": 17111,
-      "confidence": "2026-11-22 核對原商品供貨狀態，保留上次參考價",
+      "confidence": "2026-11-23 核對原刊登供貨條件，金額保留為先前參考價",
       "basis": "retailer_current",
-      "note": "2026-11-22 原同款刊登顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "note": "2026-11-23 原同款刊登顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX8KA900HLX9W/000001_1744871467.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAX8K-A900HLX9W",
@@ -214,8 +214,8 @@
       "currency": "TWD",
       "amount": 11111,
       "converted": 11111,
-      "confidence": "2026-11-22 核對原商品供貨狀態，保留上次參考價",
-      "note": "2026-11-22 原同款刊登顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
+      "confidence": "2026-11-23 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-23 原同款刊登顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX8KA900JI8XJ/000001_1764582934.jpg",
@@ -2254,8 +2254,8 @@
     "price": {
       "currency": "USD",
       "amount": 679.99,
-      "converted": 22431,
-      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-11-20 匯率換算",
+      "converted": 22418,
+      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-11-23 匯率換算",
       "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
     },
     "image": "https://m.media-amazon.com/images/I/61Yuy5vtWFL._AC_SL1500_.jpg",
@@ -2295,14 +2295,14 @@
       "status": "found",
       "amount": 679.99,
       "currency": "USD",
-      "converted": 22431,
+      "converted": 22418,
       "sourceUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
       "sourceTitle": "Dreame Aero Ultra Steam Wet Dry Vacuum – Dreame Vacuum Mop",
       "evidenceSnippet": "Dreame 原廠美國商品頁於 2026-07-16 公開顯示特價 US$679.99、原價 US$799.99，且可 Add to Cart / Buy It Now。",
       "sourceKind": "official_sale",
       "confidence": "high",
       "checkedAt": "2026-07-16",
-      "note": "新上市商品目前可公開驗證的最低售價；未套用會員碼、信用卡、點數或個人化折扣，且未含國際運費、進口稅、插頭／供電與台灣保固風險；依 2026-11-20 USD/TWD 匯率換算。"
+      "note": "新上市商品目前可公開驗證的最低售價；未套用會員碼、信用卡、點數或個人化折扣，且未含國際運費、進口稅、插頭／供電與台灣保固風險；依 2026-11-23 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2759,18 +2759,18 @@
     "name": "F25 ACE Pro 石沫吸泡沫洗地機",
     "price": {
       "currency": "TWD",
-      "amount": 14811,
-      "converted": 14811,
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "amount": 12499,
+      "converted": 12499,
+      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "原 Roborock 官網 F25 ACE Pro 主區顯示缺貨。PChome 原廠授權賣場（CH-R26-A0017）主商品為 F25 ACE Pro 石沫吸，規格 400W、1000mL 清水箱對應原廠 WD5M14A 使用手冊。原頁網路價 NT$14,811、加入購物車可用，API Qty 16。"
+      "note": "2026-11-23 Costco好市多台灣同WD5M14A完整單機組公開價NT$12,499（含運），需有效好市多會員。廠商原箱配送、不送離島；未扣聯名卡好多金或黑鑽回饋。含主機、基座、2個濾網（1個已裝機）、清潔毛刷及480ml原廠泡沫清潔劑，保固期限1年；安裝與電池／耗材保固細則請先確認。"
     },
     "image": "https://taiwan.roborock.com/cdn/shop/files/Roborock_F25_ACE_Pro_ID.png?v=1766373303&width=600",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMAXB4-A900JVG3T",
-    "buyLabel": "PChome 24h 購物",
+    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Small-Appliances/Vacuums-Floor-Care/Roborock-Floor-Scrubber-F25-ACE-Pro-WD5M14A/p/163011",
+    "buyLabel": "Costco 好市多（需會員／含運）",
     "installation": {
       "status": "not_stated",
-      "note": "台灣官方與通路未列到府安裝；本品為手持洗地機，使用者需依原廠說明放置充電座、注水並清潔污水箱。"
+      "note": "Costco所選頁明示含運、廠商原箱配送且不送離島，未列到府安裝；需自行依原廠說明放置充電座、注水並清潔污水箱。"
     },
     "specs": [
       "JetFoaming 超微能量泡沫洗；1ml 清潔液可產生 1.67 億個微米級泡沫",
@@ -2796,7 +2796,7 @@
     "recommendation": "值得納入但不取代乾式吸塵器；差異化在泡沫去污與 95°C 自清潔／烘乾，購買前要確認 5.1kg 重量、耗材與座充銘牌。",
     "score": 91,
     "voltage": "台灣燦坤 exact-model WD5M14A 頁標 110V／60Hz、400W；Roborock FCC 手冊將 WD5M14A 配對 MDS29LRR 並標座充 120V／60Hz，實際以台灣公司貨銘牌為準",
-    "warranty": "Roborock 台灣原廠保固 1 年；台灣官方商城與燦坤 exact-model 頁均有公開保固資訊",
+    "warranty": "Costco台灣所選商品頁明示保固期限1年；Roborock台灣原廠既有保固為1年。電池及清潔液、滾刷等耗材細則需依原廠與通路條款確認。",
     "tags": [
       "JetFoaming",
       "25,000Pa",
@@ -3231,8 +3231,8 @@
       "amount": 17111,
       "converted": 17111,
       "basis": "retailer_current",
-      "confidence": "2026-11-22 核對原商品供貨或版本邊界，保留上次參考價",
-      "note": "2026-11-22 Roborock原頁WD6Y8A仍標預購，並保留「預計11月中旬依訂單陸續出貨」說明；頁面預購報價NT$17,888，本卡NT$17,111為先前參考，實際交期請向通路確認。"
+      "confidence": "2026-11-23 核對原商品版本與供貨條件，金額保留先前參考價",
+      "note": "2026-11-23 石頭台灣官方原頁仍標預購、預計11月中旬依序出貨，交期需確認；保留先前NT$17,111參考價，原頁NT$17,888不當成可即時供貨現價或史低。"
     },
     "image": "https://taiwan.roborock.com/cdn/shop/files/F25_Ultra_Steam_Gen_2_1_1200x1200.png?v=1790784065",
     "buyUrl": "https://taiwan.roborock.com/products/roborock-f25-ultra-steam-gen2",
@@ -3422,8 +3422,8 @@
       "currency": "TWD",
       "amount": 6565,
       "converted": 6565,
-      "confidence": "PChome exact SKU API Qty 20、折扣價與同 PID 原頁 95 折活動一致。",
-      "note": "2026-11-19 查核：PChome 同款公開單件 95 折 NT$6,565（一般網路價 NT$6,911），至 11/24 23:59:59 台灣時間。未扣新客券、點數或刷卡回饋。"
+      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-23 PChome 同F204公開價NT$6,565，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-24T23:59:59+08:00。"
     },
     "installation": {
       "status": "excluded",
@@ -3505,6 +3505,198 @@
           "targetHost": "dcard.tw",
           "query": "site:dcard.tw \"F204\" \"米家無線吸塵器 4 Pro\"",
           "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22F204%22%20%22%E7%B1%B3%E5%AE%B6%E7%84%A1%E7%B7%9A%E5%90%B8%E5%A1%B5%E5%99%A8%204%20Pro%22"
+        }
+      ]
+    }
+  },
+  {
+    "id": "vacuum-roborock-f25-gen2-wd5m21a",
+    "category": "vacuum",
+    "rank": 37,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Roborock",
+    "model": "WD5M21A",
+    "name": "F25 GEN2 乾濕分離前驅助力洗地機（台灣110V版）",
+    "price": {
+      "currency": "TWD",
+      "amount": 10999,
+      "converted": 10999,
+      "basis": "retailer_current",
+      "confidence": "2026-11-23 Costco161292主商品同型號、公開價格及可用加入購物車按鈕；非推薦列。",
+      "note": "Costco公開NT$10,999含運，需好市多會員；未扣個人券、點數或刷卡回饋。廠商原箱配送，未配送離島；實際庫存及交期依訂單。"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "未列到府安裝；自行組裝把手及設置充電洗烘底座，預留補水、污水箱拆裝與散熱空間。"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h04/h27/483940575150110.jpg",
+    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Small-Appliances/Vacuums-Floor-Care/Roborock-Floor-Scrubber-F25-GEN2-WD5M21A/p/161292",
+    "buyLabel": "Costco台灣新品（需會員／含運）",
+    "specs": [
+      "類型：直立乾濕洗地機；台灣WD5M21A，專用多功能充電座MDS48LRR",
+      "清潔：原廠標示20,000Pa、20N拖地下壓力；AI髒污檢測",
+      "移動／貼地：前驅助力、大輔助輪、70°轉向；180°平躺高度12.5cm",
+      "滾刷／集污：鯊齒防纏、污水箱乾濕分離；長髮防纏為實驗條件標示，仍需日常清理",
+      "自清潔／烘乾：原廠標示90°C高溫清洗、90°C熱風5分鐘快烘；不是90°C熱水洗地",
+      "電池：21.6V／4000mAh鋰離子；主機額定21.6V DC、18.52A",
+      "尺寸：主機置於底座 長 35.2 x 寬 31.6 x 高 116.2 cm；非外箱尺寸",
+      "重量：通路標示商品4.2 kg；未將含水重量或包裝重量補入",
+      "電力：MDS48LRR底座110V／50–60Hz；充電0.55A、烘乾5.75A，輸出30V DC／1A",
+      "隨附配件：主機、基座、濾網2個（1個已裝）、清潔毛刷；清潔液未列入此套裝",
+      "保養：每次清空並沖洗污水箱、乾濕分離件，濾網依說明晾乾；只用原廠允許清潔液"
+    ],
+    "description": "F25 GEN2以乾濕分離污水箱、前驅助力及高溫洗烘補充台灣現售中階洗地選項。它與泡沫清潔的F25 ACE Pro、蒸氣線Ultra有不同取捨，保留現售舊款比較。",
+    "pros": [
+      "乾濕分離可分開處理固體殘渣與污水",
+      "前驅助力、平躺與靈活轉向方便家具下硬地清潔",
+      "台灣exact硬體與110V底座可核對，完整新品套裝含一年保固"
+    ],
+    "cons": [
+      "Costco一位使用者反映重量與清潔感受不佳；僅單人單站，未達集中負評門檻",
+      "污水箱與乾濕分離件仍需每次清理，熱洗烘不等於免維護",
+      "4.2kg機身搬樓梯需考慮負擔，不能代替地毯乾吸工具",
+      "前驅助力與ACE系列全向助力、泡沫／蒸氣功能不同，不能把GEN2名稱當全面升級"
+    ],
+    "bestFor": "以硬地為主，常清理毛髮與餐後乾濕碎屑，想將固體垃圾分離的家庭。",
+    "recommendation": "先比較乾濕分離、回拉手感與污水箱維護，再決定是否需要ACE Pro泡沫或Ultra蒸氣；熱洗溫度屬底座自清潔，不可當熱水洗地能力。購前確認會員資格及底座空間。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-11-23",
+      "note": "已人工讀取FindPrice、飛比WD5M21A原始比價頁；可信索引現價與Costco均為10999，較高價多為代購，另混濾網配件。未取得具日期與可重現條件的同台灣版本可信新品歷史最低點，未將現價當史低；排除代購、拍賣、會員券、點數、刷卡回饋、二手及不同RT/LT/ACE/Ultra版本。"
+    },
+    "score": 84,
+    "voltage": "台灣WD5M21A主機21.6V DC／4000mAh；Costco連結台灣說明書明示僅用MDS48LRR底座，額定110V AC／50–60Hz，充電0.55A、烘乾5.75A；不可套用海外MDS48HRR 220–240V版本。",
+    "warranty": "Costco台灣161292 exact WD5M21A新品頁列一年保固；耗材、使用不當及維修範圍依台灣售後條款。",
+    "tags": [
+      "台灣公司貨",
+      "乾濕分離",
+      "前驅助力",
+      "20,000Pa",
+      "110V底座"
+    ],
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-11-23",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"F25 GEN2\" \"WD5M21A\" (問題 OR 故障 OR 心得)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22F25%20GEN2%22%20%22WD5M21A%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97%29"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"F25 GEN2\" \"WD5M21A\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22F25%20GEN2%22%20%22WD5M21A%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20failure%29"
+        }
+      ]
+    }
+  },
+  {
+    "id": "vacuum-roborock-h60-hub-plus-h9a4a",
+    "category": "vacuum",
+    "rank": 38,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Roborock",
+    "model": "H9A4A",
+    "name": "H60 Hub Plus 自動集塵半基座無線吸塵器（台灣110V版）",
+    "price": {
+      "currency": "TWD",
+      "amount": 10099,
+      "converted": 10099,
+      "basis": "retailer_current",
+      "confidence": "2026-11-23 Costco162023主商品同套組、公開價格與可用加入購物車按鈕；非推薦列。",
+      "note": "Costco公開NT$10,099含運，需好市多會員；未扣個人券、點數或刷卡回饋。廠商原箱配送，未配送離島；實際庫存與交期依訂單。"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "未列到府安裝；依說明自行組裝伸縮管、吸頭及集塵底座，需在插座旁保留取放與配件收納空間。"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/hd7/h19/486580192968734.jpg",
+    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Small-Appliances/Vacuums-Floor-Care/Roborock-Cordless-Vacuum-H60-Hub-Plus/p/162023",
+    "buyLabel": "Costco台灣新品（需會員／含運）",
+    "specs": [
+      "類型：無線直立／手持乾式吸塵器＋自動集塵半基座；H60 Hub Plus主機H9A4A、底座MDS34LRR",
+      "清潔：台灣官方標示最大170AW；三檔手動模式，不可吸液體",
+      "主吸頭：防纏地板／地毯兩用刷、140°綠光顯塵；防纏與過濾率為原廠測試條件",
+      "集塵／過濾：手動／自動集塵、2L塵袋、約10秒集塵；9錐氣旋與H13濾網，塵袋／濾網需更換維護",
+      "電池／續航：可拆28.8V／2500mAh PF082ULK電池；原廠最高80分鐘為低功率條件，非強力／電動地刷實用續航",
+      "尺寸：通路帶樁組合 長 35.8 x 寬 26.2 x 高 106 cm；非外箱尺寸，取放需額外空間",
+      "重量：查不到明確主機淨重；通路商品重量7.3kg未分主機與基座，不當成手持重量",
+      "電力：MDS34LRR底座110V／50–60Hz；充電0.6A、集塵＋充電5A，輸出34.5V DC／1A",
+      "隨附配件：主機、二合一刷頭、除蟎刷、塵袋、基站、配件支架；寵物刷／軟管等未列附件另購",
+      "保養：定期更換集塵袋、清理滾刷與濾網；可水洗件須依說明完全晾乾後安裝"
+    ],
+    "description": "H60 Hub Plus以170AW乾吸、2L密封塵袋與自動集塵底座，補充既有H60可彎折115AW款的另一種使用取向；手持除蟎與家具清潔附品齊備，不把Hub Pro／Ultra基座規格混入。",
+    "pros": [
+      "放回底座後可自動集塵與充電，減少日常倒塵接觸",
+      "170AW、綠光顯塵與地板／地毯兩用吸頭",
+      "台灣完整新品套裝、110V自集塵底座與原廠一年保固"
+    ],
+    "cons": [
+      "需持續購買2L集塵袋，集塵短時運作有馬達聲",
+      "集塵底座佔用固定地面與插座，官方不同配置尺寸與通路帶樁量法不可混算",
+      "乾式吸塵不可吸水；主機淨重未明，購前試拿床刷／高處手持負擔"
+    ],
+    "bestFor": "希望減少倒塵揚塵與收尾動作，同時清潔硬地、地毯及床墊的家庭。",
+    "recommendation": "與保留的H60相比，重點是自集塵與170AW；仍需比較手持負擔、耗材成本和底座位置。官方不同頁面標示最高60／90天，條件與實際更袋頻率依垃圾量，不視為免維護保證。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-11-23",
+      "note": "已人工讀取FindPrice、飛比H60 Hub Plus原始比價頁及台灣官方；索引混代購和其他H60版本，Costco10099與官網11999只證明當日現價，未有可重現的過去日期最低點。未以現價當史低；排除代購、拍賣、會員券、點數、刷卡回饋、福利品及H60/H60 Hub Pro/Ultra不同硬體。"
+    },
+    "score": 84,
+    "voltage": "H60 Hub Plus台灣說明書主機H9A4A額定28.8V DC／16.6A、2500mAh；專用MDS34LRR自動集塵充電座輸入110V AC／50–60Hz，充電0.6A、集塵＋充電5A，輸出34.5V DC／1A。",
+    "warranty": "Costco台灣162023 H60 Hub Plus新品頁明列原廠一年保固，台灣官方亦提供本款售後；耗材及非保固事項依原廠條款。",
+    "tags": [
+      "台灣公司貨",
+      "自動集塵",
+      "2L塵袋",
+      "170AW",
+      "110V底座"
+    ],
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-11-23",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"H60 Hub Plus\" \"H9A4A\" (問題 OR 故障 OR 心得)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22H60%20Hub%20Plus%22%20%22H9A4A%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97%29"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"H60 Hub Plus\" \"H9A4A\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22H60%20Hub%20Plus%22%20%22H9A4A%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20failure%29"
         }
       ]
     }

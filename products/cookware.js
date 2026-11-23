@@ -1046,11 +1046,11 @@
     "image": "https://cs-a.ecimg.tw/items/DEDG3BA900GQDVZ/000001_1776769920.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 990,
-      "converted": 990,
+      "amount": 1099,
+      "converted": 1099,
       "basis": "retailer_current",
-      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "Yahoo 原商品主區賣場 10238240 已核對同型號／選定組合、可用購買按鈕與公開價 NT$990。公開單件活動至 2026-11-23T07:00:59+08:00。未計入個人券、點數及信用卡回饋。"
+      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-23 Yahoo購物中心同饗樂系列不沾鍋具4件組公開價NT$1,099，未另扣個人券、點數與信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1854,10 +1854,10 @@
     "name": "醇火系列不沾炒鍋",
     "price": {
       "currency": "TWD",
-      "amount": 1599,
-      "converted": 1599,
-      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DEES01-A900IQ6X3 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$1,599。",
+      "amount": 1439,
+      "converted": 1439,
+      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-23 PChome 同Espresso 34cm公開價NT$1,439，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-26T23:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DEES01A900IQ6X3/000001_1764832269.jpg",

@@ -19,12 +19,12 @@
       "currency": "TWD",
       "amount": 2549,
       "converted": 2549,
-      "confidence": "2026-11-22 核對原商品供貨狀態，保留上次參考價",
-      "note": "2026-11-22 原同款刊登顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "confidence": "2026-11-23 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-23 原同款刊登主區顯示尚未開賣，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBBC5A900JM6ZN/000001_1767687719.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBBC5-A900JM6ZN",
-    "buyLabel": "PChome（原刊登已售完，查看供貨）",
+    "buyLabel": "PChome（原刊登尚未開賣，查看供貨）",
     "specs": [
       "支援 24-57 吋",
       "承重最高 30kg",
@@ -420,12 +420,12 @@
       "currency": "TWD",
       "amount": 2459,
       "converted": 2459,
-      "confidence": "2026-11-22 核對原商品供貨狀態，保留上次參考價",
-      "note": "2026-11-22 原同款刊登顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "confidence": "2026-11-23 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-23 原同款刊登主區顯示尚未開賣，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGRJA900JZFGW/000001_1778056158.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAGRJ-A900JZFGW",
-    "buyLabel": "PChome（原刊登已售完，查看供貨）",
+    "buyLabel": "PChome（原刊登尚未開賣，查看供貨）",
     "specs": [
       "支援 57 吋級距",
       "承重 27kg",
@@ -2155,14 +2155,14 @@
       "status": "found",
       "amount": 282,
       "currency": "GBP",
-      "converted": 12202,
+      "converted": 12176,
       "sourceUrl": "https://pricespy.co.uk/product.php?p=16273588",
       "sourceTitle": "PriceSpy UK：Dell HDA26 Single Monitor Arm",
       "evidenceSnippet": "PriceSpy exact-model 頁的 Price History 明示新品最低價 £282，且商品名稱、品牌與 GTIN 對應 Dell HDA26。",
       "sourceKind": "price_history",
       "confidence": "medium",
       "checkedAt": "2026-08-25",
-      "note": "採英國市場 exact-model 公開價格歷史並依 2026-11-20 GBP/TWD 匯率換算；未含國際運費、進口稅、退換貨與台灣保固風險，不能直接視為台灣到手價。"
+      "note": "採英國市場 exact-model 公開價格歷史並依 2026-11-23 GBP/TWD 匯率換算；未含國際運費、進口稅、退換貨與台灣保固風險，不能直接視為台灣到手價。"
     },
     "issueResearch": {
       "status": "no_common_issue",
