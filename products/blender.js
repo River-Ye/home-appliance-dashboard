@@ -404,8 +404,8 @@
     "price": {
       "currency": "USD",
       "amount": 99.99,
-      "converted": 3296,
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件；ExchangeRate-API 2026-11-23 匯率換算",
+      "converted": 3284,
+      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件；ExchangeRate-API 2026-11-24 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-23 Abt美國同BN701公開US$99.99，已含廠商公開折扣至2026-12-05（美國通路日期），未含國際運費、進口稅、電壓／插頭及台灣保固風險。美國配送與退換貨條件以原頁為準。"
     },
@@ -442,14 +442,14 @@
       "status": "found",
       "amount": 79.99,
       "currency": "USD",
-      "converted": 2637,
+      "converted": 2627,
       "sourceUrl": "https://deal.ai/p/ninja-bn701-professional-plus-blender-6aef3cebb87d9ffb97235f94",
       "sourceTitle": "Deal.ai – Ninja BN701 Professional Plus Blender price history (Abt Electronics)",
       "evidenceSnippet": "Deal.ai 的 BN701 72 oz 逐店紀錄於 2026-11-15 20:34 UTC 擷取 Abt Electronics 新品有貨 US$79.99。Abt 美國原商品頁同型 BN701、UPC 622356561884，11/18 仍為公開售價 US$79.99（原廠即時折讓至 11/21）。",
       "sourceKind": "price_history",
       "confidence": "medium",
       "checkedAt": "2026-11-18",
-      "note": "採同型同規格新品通路公開價，中介歷史紀錄已與同一原通路 SKU、金額及可購狀態核對。未含國際運費與進口稅；須確認 120V 電壓、插頭或轉運條件及台灣保固；依 2026-11-23 USD/TWD 匯率換算。"
+      "note": "採同型同規格新品通路公開價，中介歷史紀錄已與同一原通路 SKU、金額及可購狀態核對。未含國際運費與進口稅；須確認 120V 電壓、插頭或轉運條件及台灣保固；依 2026-11-24 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "common_issue",
@@ -2158,11 +2158,12 @@
       "currency": "TWD",
       "amount": 9999,
       "converted": 9999,
-      "confidence": "Costco 好市多 2026-08-08 exact-model 公開結構化價格"
+      "confidence": "2026-11-25 原商品主區需登入顯示價格，保留先前參考價",
+      "note": "2026-11-25 Costco同一SKU原商品主區需登入顯示價格，當日沒有可重現的公開單品價；本卡金額保留為先前參考價，實際會員可購金額與供貨請登入原頁確認。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/he0/hb8/400499548815390.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Kitchen-Appliances/Coffee-Machines-Blenders-Juicers/Ninja-Detect-Food-Processor-TB401TW/p/156889",
-    "buyLabel": "Costco 好市多",
+    "buyLabel": "Costco 好市多（登入確認價格／先前參考價）",
     "specs": [
       "2.1L 調理壺 / 1.9L 調理碗 / 700ml 隨行杯",
       "1200W",

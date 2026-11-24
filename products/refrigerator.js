@@ -1801,12 +1801,12 @@
       "currency": "TWD",
       "amount": 23310,
       "converted": 23310,
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。",
+      "confidence": "2026-11-25 核對原刊登供貨條件，金額保留為先前參考價",
       "basis": "retailer_current",
-      "note": "Yahoo 原 SKU 主商品公開價 NT$23,310，主購買按鈕可用。公開活動截至 2026-12-31T23:59:59+08:00。"
+      "note": "2026-11-25 原商品頁仍為預購，預購12/7出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心",
+    "buyLabel": "Yahoo購物中心（預購）",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SAMPO%E8%81%B2%E5%AF%B6-%E4%B8%80%E7%B4%9A%E8%AE%8A%E9%A0%BB350L%E7%8E%BB%E7%92%83%E5%85%A9%E9%96%80%E8%A7%B8%E6%8E%A7%E9%9D%A2%E6%9D%BF%E4%B8%8A%E5%86%B7%E8%97%8F%E4%B8%8B%E5%86%B7%E5%87%8D%E5%86%B0%E7%AE%B1-SR-C35GD-%E7%90%89%E7%92%83%E7%99%BD%E5%90%AB%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-11166110.html",
     "specs": [
       "冰箱：SAMPO聲寶 一級變頻350L玻璃兩門觸控面板上冷藏下冷凍冰箱 SR-C35GD 琉璃白含基本安裝+舊機回收",
@@ -2323,12 +2323,13 @@
       "currency": "TWD",
       "amount": 27899,
       "converted": 27899,
-      "confidence": "2026-11-24 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-24 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-25 Costco好市多同NR-B65CV-S公開單品價NT$27,899（含運），需具好市多會員資格；未扣聯名卡好多金、黑鑽會員回饋或個人優惠。",
+      "basis": "retailer_current"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h27/h0a/121680122413086.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Fridges-Freezers/Panasonic-650-L-Double-Door-Inverter-Fridge-NR-B65CV-S/p/138021",
-    "buyLabel": "Costco 好市多（原刊登缺貨，查看供貨）",
+    "buyLabel": "Costco 好市多",
     "specs": [
       "650L 級雙門變頻",
       "110V",

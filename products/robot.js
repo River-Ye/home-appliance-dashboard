@@ -116,9 +116,9 @@
       "currency": "TWD",
       "amount": 31261,
       "converted": 31261,
-      "confidence": "2026-11-24 核對原刊登供貨條件，金額保留為先前參考價",
+      "confidence": "2026-11-25 核對原刊登供貨條件，金額保留為先前參考價",
       "basis": "retailer_current",
-      "note": "2026-11-24 原商品頁仍為預購，預計2027/01/10 - 2027/01/12出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "note": "2026-11-25 原商品頁仍為預購，預計出貨日 2027/01/10 - 2027/01/12；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JNELR/000001_1769062030.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JNELR",
@@ -303,9 +303,9 @@
       "currency": "TWD",
       "amount": 29421,
       "converted": 29421,
-      "confidence": "2026-11-24 核對原刊登供貨條件，金額保留為先前參考價",
+      "confidence": "2026-11-25 核對原刊登供貨條件，金額保留為先前參考價",
       "basis": "retailer_current",
-      "note": "2026-11-24 原商品頁仍為預購，接單後陸續安排，最晚2026/12/18出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "note": "2026-11-25 原商品頁仍為預購，接單後陸續安排出貨，最晚出貨日為 2026/12/18；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JMMCO/000001_1769061975.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JMMCO",
@@ -598,8 +598,8 @@
       "currency": "TWD",
       "amount": 24700,
       "converted": 24700,
-      "confidence": "2026-11-24 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-24 原商品頁仍為預購，到貨後依訂單順序安排；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
+      "confidence": "2026-11-25 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-25 原商品頁仍為預購，新品預購中，到貨後依訂單順序依序發貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900JRDAS/000001_1771917633.jpg",
@@ -1380,8 +1380,8 @@
     "price": {
       "currency": "EUR",
       "amount": 999,
-      "converted": 36147,
-      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-23 匯率換算",
+      "converted": 35831,
+      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-24 匯率換算",
       "note": "2026-11-04 下午覆核：原生Narwal德國URL variant52366680523028選中Schwarz Basisstation及Standardpaket；主價999EUR、劃線1299EUR，In den Warenkorb可用、2–5Tage Lieferzeit。與上午所選缺貨不同，仍未保證台灣寄送。未含國際運費、進口稅、電壓/插頭與台灣保固風險。",
       "basis": "retailer_current"
     },
@@ -1478,8 +1478,8 @@
     "price": {
       "currency": "USD",
       "amount": 551.69,
-      "converted": 18188,
-      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-11-23 匯率換算"
+      "converted": 18118,
+      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-11-24 匯率換算"
     },
     "image": "https://img.gkbcdn.com/p/2025-04-11/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438-0._w315_.jpg",
     "buyUrl": "https://www.geekbuying.com/item/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438.html",
@@ -2640,8 +2640,8 @@
     "price": {
       "currency": "USD",
       "amount": 549.99,
-      "converted": 18132,
-      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-23 匯率換算",
+      "converted": 18062,
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-24 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-04 Shark美國所選黑色RV2820ZE當日原variationAPI549.99USD，available/readyToOrder均true、inStockDate為2026-11-26，交期待確認；不混白色缺貨SKU，不稱即時現貨。未含國際運費、進口稅、電壓/插頭與台灣保固風險。"
     },
@@ -2838,8 +2838,8 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 13187,
-      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-11-23 匯率換算",
+      "converted": 13136,
+      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-11-24 匯率換算",
       "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。 2026-11-01 原Costco美國QXRevo頁HTTP404，現貨與現價未確認；保留USD399.99舊參考價，含海外運稅、電力與台灣保固風險，不能推定原廠整型停產。"
     },
     "image": "https://cdn.cs.1worldsync.com/syndication/mediaserverredirect/aaaa71b7b115f7d0cbeb119d8fc3ad7b/width%281200%29.jpg",
@@ -3780,11 +3780,11 @@
     "name": "Xiaomi 掃拖機器人 6",
     "price": {
       "currency": "TWD",
-      "amount": 14911,
-      "converted": 14911,
-      "confidence": "2026-11-04 Chrome逐筆核對同型號／所選版本的主商品公開價；折價券、信用卡、點數與未反映於主價的結帳優惠另計。",
+      "amount": 14111,
+      "converted": 14111,
+      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "主區小米掃拖機器人6，規格圖PV32GL；不混用同頁6 Pro/6 Max/5系列價格。"
+      "note": "2026-11-25 PChome 同PV32GL公開價NT$14,111，未另扣個人券、點數與信用卡回饋。"
     },
     "installation": {
       "status": "not_stated",

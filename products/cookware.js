@@ -2248,12 +2248,12 @@
       "currency": "TWD",
       "amount": 3999,
       "converted": 3999,
-      "confidence": "Costco 好市多 2026-07-11 頁面查核價",
-      "note": "Costco 原頁 #141472 主商品為 Ingenio 奶茶粉含蓋六件組，頁面顯示 NT$3,999 含運，主購買按鈕缺貨且停用，保留既有參考價。"
+      "confidence": "2026-11-25 原商品主區需登入顯示價格，保留先前參考價",
+      "note": "2026-11-25 Costco同一SKU原商品主區需登入顯示價格，當日沒有可重現的公開單品價；本卡金額保留為先前參考價，實際會員可購金額與供貨請登入原頁確認。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h61/h4b/367883333861406.jpg",
     "buyUrl": "https://www.costco.com.tw/Furniture-Kitchen/Kitchen-Dining/Cookware-Cutlery-Cutting-Boards/Tefal-Ingenio-Non-Stick-Cookware-with-Lid-6-Piece-Set-Milk-Tea-Pink/p/141472",
-    "buyLabel": "Costco（原頁缺貨）",
+    "buyLabel": "Costco 好市多（登入確認價格／先前參考價）",
     "specs": [
       "28cm 平底鍋",
       "26cm 炒鍋",

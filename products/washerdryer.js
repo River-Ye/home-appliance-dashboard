@@ -1285,9 +1285,9 @@
       "currency": "TWD",
       "amount": 21912,
       "converted": 21912,
-      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-24 PChome 同NA-V120HDH公開價NT$21,912，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-24T08:59:59+08:00。"
+      "note": "2026-11-25 PChome 同NA-V120HDH公開價NT$21,912，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-25T08:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -2223,9 +2223,11 @@
     "name": "11 公斤 / 7 公斤 Ultimate Care 500 洗脫烘衣機",
     "price": {
       "currency": "TWD",
-      "amount": 24999,
-      "converted": 24999,
-      "confidence": "Costco 好市多 2026-07-11 頁面查核價"
+      "amount": 18999,
+      "converted": 18999,
+      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
+      "basis": "retailer_current",
+      "note": "2026-11-25 Costco好市多同EWW1123P5WC公開單品價NT$18,999（含運），需具好市多會員資格；未扣聯名卡好多金、黑鑽會員回饋或個人優惠。原主區明示2026/11/25–2026/11/29限購期間，每帳號每5天限購1組；此處保守以期間結束為參考價截止，下單前請重查。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h62/h7f/332442479263774.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Washers-Dryers/Washer-Size-10-15-kg/Electrolux-11-kg-7-kg-Ultimate-Care-500-Washer-Dryer-EWW1123P5WC/p/151339",
@@ -2261,16 +2263,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 19999,
+      "amount": 18999,
       "currency": "TWD",
-      "converted": 19999,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1246144685&cgp=24999",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Costco好市多】伊萊克斯 11公斤/7公斤 極淨呵護系列 Ultimate Care 500 洗脫烘衣機 EWW1123P5WC Electrolux 11 kg / 7 kg Ultimate Care 500 Washer Dryer EWW1123P5WC",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Costco好市多 / 【Costco好市多】伊萊克斯 11公斤/7公斤 極淨呵護系列 Ultimate Care 500 洗脫烘衣機 EWW1123P5WC Electrolux 11 kg / 7 kg Ultimate Care 500 Washer Dryer EWW1123P5WC」最低價為 NT$19,999，最低點日期 2026-05-11。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 18999,
+      "sourceUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Washers-Dryers/Washer-Size-10-15-kg/Electrolux-11-kg-7-kg-Ultimate-Care-500-Washer-Dryer-EWW1123P5WC/p/151339",
+      "sourceTitle": "Electrolux EWW1123P5WC 原商品頁",
+      "evidenceSnippet": "2026-11-25 Costco同一商品編號#151339原主區完整型號、主價18,999（含運）及本商品加入購物車已核對；不是頁尾推薦商品、模板庫存或個人會員回饋價。 原主區明示2026/11/25–2026/11/29限購期間，每帳號每5天限購1組；原價NT$24,999、公開折扣NT$6,000、小計NT$18,999。 公開活動至 2026-11-29T23:59:59+08:00。 低於原有同款紀錄。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-11-25",
+      "note": "採同型號同規格可信新品公開價，不含個人券、點數、會員個人化折扣與信用卡回饋。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2323,8 +2325,8 @@
       "currency": "TWD",
       "amount": 82900,
       "converted": 82900,
-      "confidence": "2026-11-24 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-24 原商品頁仍為預購，接單後陸續安排，最晚2026/11/30出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
+      "confidence": "2026-11-25 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-25 原商品頁仍為預購，接單後陸續安排出貨，最晚出貨日為 2026/11/30；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -2646,8 +2648,8 @@
       "currency": "TWD",
       "amount": 39512,
       "converted": 39512,
-      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-24 PChome 同NA-SD10TB公開價NT$39,512，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-24T08:59:59+08:00。",
+      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-25 PChome 同NA-SD10TB公開價NT$39,512，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-25T08:59:59+08:00。",
       "basis": "retailer_current"
     },
     "channel": "tw",

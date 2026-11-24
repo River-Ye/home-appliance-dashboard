@@ -17,8 +17,8 @@
       "currency": "TWD",
       "amount": 9143,
       "converted": 9143,
-      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-24 PChome 同NH-80RZ-W公開價NT$9,143，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-24T08:59:59+08:00。",
+      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-25 PChome 同NH-80RZ-W公開價NT$9,143，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-25T08:59:59+08:00。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -532,10 +532,10 @@
     "image": "https://cs-a.ecimg.tw/items/DPAI1PA900B8S4H/000001_1762877677.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 29911,
-      "converted": 29911,
-      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DPAI1P-A900B8S4H 原商品主區公開價 NT$29,911，購買按鈕可用，API Qty 7。會員券、點數與卡回饋未計入。",
+      "amount": 32000,
+      "converted": 32000,
+      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-25 PChome 同8TWGD5620HW公開價NT$32,000，未另扣個人券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -1052,11 +1052,12 @@
       "currency": "TWD",
       "amount": 38999,
       "converted": 38999,
-      "confidence": "2026-11-24 原同款刊登需登入查價，保留先前參考價",
-      "note": "2026-11-24 Costco原同款商品頁主區顯示「登入顯示價格」，公開單品價與當日可購條件待確認；本卡金額保留為先前參考價。需好市多會員資格，下單前請登入原頁確認實際價格與供貨。"
+      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-25 Costco好市多同8TWGD6622HW公開單品價NT$38,999（含運），需具好市多會員資格；未扣聯名卡好多金、黑鑽會員回饋或個人優惠。",
+      "basis": "retailer_current"
     },
     "channel": "tw",
-    "buyLabel": "Costco 好市多（需登入查價／先前參考價）",
+    "buyLabel": "Costco 好市多",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Washers-Dryers/Whirlpool-16-kg-Gas-Dryer-8TWGD6622HW/p/125469",
     "specs": [
       "烘衣機：Whirlpool惠而浦 16公斤 快烘瓦斯型滾筒乾衣機 8TWGD6622HW 含基本安裝",

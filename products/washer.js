@@ -553,9 +553,9 @@
       "currency": "TWD",
       "amount": 17512,
       "converted": 17512,
-      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-24 PChome 同NA-V130LB-L公開價NT$17,512，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-24T08:59:59+08:00。"
+      "note": "2026-11-25 PChome 同NA-V130LB-L公開價NT$17,512，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-25T08:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "PChome 24h 購物",
@@ -769,12 +769,12 @@
       "currency": "TWD",
       "amount": 7990,
       "converted": 7990,
-      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-24 Yahoo購物中心同WM-MD10公開價NT$7,990，未另扣個人券、點數與信用卡回饋。公開活動至2026-12-31T23:59:59+08:00。",
+      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-25 Yahoo購物中心同WM-MD10公開價NT$7,990，未另扣個人券、點數與信用卡回饋。公開活動至2026-12-31T23:59:59+08:00。",
       "basis": "retailer_current"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心（預購）",
+    "buyLabel": "Yahoo購物中心",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SAMPO-%E8%81%B2%E5%AF%B610%E5%85%AC%E6%96%A4%E7%AA%84%E8%BA%AB%E8%AE%8A%E9%A0%BB%E5%96%AE%E6%A7%BD%E7%9B%B4%E7%AB%8B%E5%BC%8F%E6%B4%97%E8%A1%A3%E6%A9%9F-%E9%A6%99%E6%AA%B3%E9%87%91-%E5%90%AB%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-%E8%88%8A%E6%A9%9F%E5%9B%9E%E6%94%B6-10764299.html",
     "specs": [
       "洗衣機：SAMPO 聲寶10公斤窄身變頻單槽直立式洗衣機WM-MD10 香檳金含基本安裝+舊機回收",
@@ -1192,11 +1192,12 @@
       "currency": "TWD",
       "amount": 8190,
       "converted": 8190,
-      "confidence": "2026-11-24 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-24 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-25 PChome 同HWM-1061V公開價NT$8,190，未另扣個人券、點數與信用卡回饋。",
+      "basis": "retailer_current"
     },
     "channel": "tw",
-    "buyLabel": "PChome（原刊登已售完，查看供貨）",
+    "buyLabel": "PChome",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAIB6-A900IM3H3",
     "specs": [
       "洗衣機：【HERAN 禾聯】10KG變頻 銀離子抗菌直立式洗衣機HWM-1061V",
@@ -1297,8 +1298,8 @@
       "currency": "TWD",
       "amount": 8990,
       "converted": 8990,
-      "confidence": "2026-11-24 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-24 原商品頁仍為預購，預計12/5出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
+      "confidence": "2026-11-25 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-25 原商品頁仍為預購，預購12/5出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -2340,9 +2341,9 @@
       "currency": "TWD",
       "amount": 18810,
       "converted": 18810,
-      "confidence": "2026-11-24 核對原刊登供貨條件，金額保留為先前參考價",
+      "confidence": "2026-11-25 核對原刊登供貨條件，金額保留為先前參考價",
       "basis": "retailer_current",
-      "note": "2026-11-24 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "note": "2026-11-25 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/he0/h00/103644752314398.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/QBAR29-A900A63AZ",

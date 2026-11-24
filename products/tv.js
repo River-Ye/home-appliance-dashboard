@@ -65,8 +65,8 @@
       "evidenceSnippet": "",
       "sourceKind": "not_found",
       "confidence": "not_found",
-      "checkedAt": "2026-11-24",
-      "note": "2026-11-24 重查同一PChome SKU較低歷史點，未取得該低價當時的單件公開價及供貨條件完整原頁證據；維持找不到可靠史低。"
+      "checkedAt": "2026-11-25",
+      "note": "2026-11-25 重查同一PChome SKU較低歷史點，未取得該低價當時的單件公開價及供貨條件完整原頁證據；維持找不到可靠史低。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1043,8 +1043,8 @@
       "currency": "TWD",
       "amount": 79900,
       "converted": 79900,
-      "confidence": "2026-11-24 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-24 原商品頁仍為預購，預計2026/11/27 - 2026/12/01出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
+      "confidence": "2026-11-25 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-25 原商品頁仍為預購，預計出貨日 2026/11/28 - 2026/12/01；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADIKA900HJGF2/000001_1782900149.jpg",
@@ -1960,8 +1960,8 @@
       "currency": "TWD",
       "amount": 14391,
       "converted": 14391,
-      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-24 PChome 同CQ-65QX250公開價NT$14,391，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-24T08:59:59+08:00。",
+      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-25 PChome 同CQ-65QX250公開價NT$14,391，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-25T08:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADTOA900JNE73/000001_1768523868.jpg",
@@ -2061,8 +2061,8 @@
       "currency": "TWD",
       "amount": 21500,
       "converted": 21500,
-      "confidence": "2026-11-24 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-24 原商品頁仍為預購，預計2026/11/27 - 2026/12/01出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
+      "confidence": "2026-11-25 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-25 原商品頁仍為預購，預計出貨日 2026/11/28 - 2026/12/01；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD0WA900I9LNS/000001_1769648262.jpg",
@@ -4419,8 +4419,8 @@
     "amount": 23999,
     "converted": 23999,
     "basis": "retailer_current",
-    "confidence": "2026-11-24 原同款刊登需登入查價，保留先前參考價",
-    "note": "2026-11-24 Costco原同款商品頁主區顯示「登入顯示價格」，公開單品價與當日可購條件待確認；本卡金額保留為先前參考價。需好市多會員資格，下單前請登入原頁確認實際價格與供貨。"
+    "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
+    "note": "2026-11-25 Costco好市多同65M450RP公開單品價NT$23,999（含運），需具好市多會員資格；未扣聯名卡好多金、黑鑽會員回饋或個人優惠。"
   },
   "installation": {
     "status": "included_basic",
@@ -4428,7 +4428,7 @@
   },
   "image": "https://www.costco.com.tw/medias/sys_master/images/hba/h81/504582071123998.jpg",
   "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Televisions-TV-Accessories/60-69-TVs/TOSHIBA-65-inch-4K-QLED-VIDAA-Smart-Monitor-65M450RP/p/162412",
-  "buyLabel": "Costco 好市多（需登入查價／先前參考價）",
+  "buyLabel": "Costco 好市多",
   "specs": [
     "尺寸：不含底座 寬 145.2 x 深 7.2 x 高 83.7 cm；含底座 寬 145.2 x 深 31.8 x 高 89.3 cm",
     "重量：不含底座 13.1 kg；含底座 13.3 kg",

@@ -117,11 +117,11 @@
     "name": "D01-SL-DX 電動升降桌 120x80",
     "price": {
       "currency": "TWD",
-      "amount": 14911,
-      "converted": 14911,
-      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 15990,
+      "converted": 15990,
+      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DQBJ4C-A900I9XVY 原商品主區公開價 NT$14,911，購買按鈕可用，API Qty 8。會員券、點數與卡回饋未計入。"
+      "note": "2026-11-25 PChome 同D01-SL-DX 120x80公開價NT$15,990，未另扣個人券、點數與信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900I9XVY/000001_1773043590.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4C-A900I9XVY",
@@ -217,11 +217,11 @@
     "name": "D01-SL-DX 電動升降桌 150x80",
     "price": {
       "currency": "TWD",
-      "amount": 15911,
-      "converted": 15911,
-      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 16790,
+      "converted": 16790,
+      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DQBJ4C-A900HUG3C 原商品主區公開價 NT$15,911，購買按鈕可用，API Qty 20。會員券、點數與卡回饋未計入。"
+      "note": "2026-11-25 PChome 同D01-SL-DX 150x80公開價NT$16,790，未另扣個人券、點數與信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900HUG3C/000001_1773043903.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4C-A900HUG3C",
@@ -317,11 +317,11 @@
     "name": "D01-SL-DX 電動升降桌 160x80",
     "price": {
       "currency": "TWD",
-      "amount": 16211,
-      "converted": 16211,
-      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 17290,
+      "converted": 17290,
+      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DQBJ4C-A900ITV12 原商品主區公開價 NT$16,211，購買按鈕可用，API Qty 15。會員券、點數與卡回饋未計入。"
+      "note": "2026-11-25 PChome 同D01-SL-DX 160x80公開價NT$17,290，未另扣個人券、點數與信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900ITV12/000001_1773043461.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4C-A900ITV12",
@@ -417,11 +417,11 @@
     "name": "D01-SL-DX 電動升降桌 180x80",
     "price": {
       "currency": "TWD",
-      "amount": 16911,
-      "converted": 16911,
-      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 17990,
+      "converted": 17990,
+      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DQBJ4C-A900HUGSO 原商品主區公開價 NT$16,911，購買按鈕可用，API Qty 20。會員券、點數與卡回饋未計入。"
+      "note": "2026-11-25 PChome 同D01-SL-DX 180x80公開價NT$17,990，未另扣個人券、點數與信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900HUGSO/000001_1773043706.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4C-A900HUGSO",
@@ -818,8 +818,8 @@
       "currency": "TWD",
       "amount": 9490,
       "converted": 9490,
-      "confidence": "2026-11-24 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-24 原商品頁仍為預購，預計2026/12/07 - 2026/12/09出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
+      "confidence": "2026-11-25 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-25 原商品頁仍為預購，預計出貨日 2026/12/02 - 2026/12/04；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DQCI0AA900K15T1/000001_1779269416.jpg",

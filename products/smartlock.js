@@ -215,9 +215,9 @@
       "currency": "TWD",
       "amount": 24129,
       "converted": 24129,
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-23 PChome 同ByYou Pro Apple公開價NT$24,129，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-24T23:59:59+08:00。"
+      "note": "2026-11-25 PChome 同ByYou Pro Apple公開價NT$24,129，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-26T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS40A900ITUBT/000001_1747374050.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS40-A900ITUBT",
@@ -648,8 +648,8 @@
       "evidenceSnippet": "",
       "sourceKind": "not_found",
       "confidence": "not_found",
-      "checkedAt": "2026-11-24",
-      "note": "2026-11-24 重查同一PChome SKU較低歷史點，未取得該低價當時的單件公開價及供貨條件完整原頁證據；維持找不到可靠史低。"
+      "checkedAt": "2026-11-25",
+      "note": "2026-11-25 重查同一PChome SKU較低歷史點，未取得該低價當時的單件公開價及供貨條件完整原頁證據；維持找不到可靠史低。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -844,8 +844,8 @@
       "evidenceSnippet": "",
       "sourceKind": "not_found",
       "confidence": "not_found",
-      "checkedAt": "2026-11-24",
-      "note": "2026-11-24 重查同一PChome SKU較低歷史點，未取得該低價當時的單件公開價及供貨條件完整原頁證據；維持找不到可靠史低。"
+      "checkedAt": "2026-11-25",
+      "note": "2026-11-25 重查同一PChome SKU較低歷史點，未取得該低價當時的單件公開價及供貨條件完整原頁證據；維持找不到可靠史低。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1659,9 +1659,9 @@
       "currency": "TWD",
       "amount": 10200,
       "converted": 10200,
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-23 PChome 同X9公開價NT$10,200，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-24T23:59:59+08:00。"
+      "note": "2026-11-25 PChome 同X9公開價NT$10,200，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-26T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900JJ8LG/000001_1765347346.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900JJ8LG",
@@ -1757,9 +1757,9 @@
       "currency": "TWD",
       "amount": 25175,
       "converted": 25175,
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-23 PChome 同Halo公開價NT$25,175，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-24T23:59:59+08:00。"
+      "note": "2026-11-25 PChome 同Halo公開價NT$25,175，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-26T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900JUBVW/000001_1774253039.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900JUBVW",
@@ -2022,9 +2022,9 @@
     "price": {
       "currency": "HKD",
       "amount": 9638,
-      "converted": 40534,
+      "converted": 40361,
       "basis": "retailer_current",
-      "confidence": "EasyLock 香港 2026-08-28 exact-model 公開促銷價；ExchangeRate-API 2026-11-23 匯率換算",
+      "confidence": "EasyLock 香港 2026-08-28 exact-model 公開促銷價；ExchangeRate-API 2026-11-24 匯率換算",
       "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。"
     },
     "installation": {
@@ -2108,9 +2108,9 @@
       "currency": "TWD",
       "amount": 20825,
       "converted": 20825,
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-23 PChome 同SHP-P52公開價NT$20,825，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-24T23:59:59+08:00。"
+      "note": "2026-11-25 PChome 同SHP-P52公開價NT$20,825，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-26T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900JXYBS/000001_1776909348.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900JXYBS",
@@ -2302,9 +2302,9 @@
       "currency": "TWD",
       "amount": 23750,
       "converted": 23750,
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-23 PChome 同ML660公開價NT$23,750，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-24T23:59:59+08:00。"
+      "note": "2026-11-25 PChome 同ML660公開價NT$23,750，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-26T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DECE4EA900DXNUC/000001_1643338134.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DECE4E-A900DXNUC",
@@ -2497,9 +2497,9 @@
       "currency": "TWD",
       "amount": 27540,
       "converted": 27540,
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-23 PChome 同FA9000公開價NT$27,540，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-24T23:59:59+08:00。"
+      "note": "2026-11-25 PChome 同FA9000公開價NT$27,540，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-26T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900IAVXZ/000001_1740465068.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900IAVXZ",
@@ -2595,9 +2595,9 @@
       "currency": "TWD",
       "amount": 9025,
       "converted": 9025,
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-23 PChome 同MI-510F公開價NT$9,025，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-24T23:59:59+08:00。"
+      "note": "2026-11-25 PChome 同MI-510F公開價NT$9,025，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-26T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900ILR7A/000001_1767853677.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900ILR7A",
@@ -2693,9 +2693,9 @@
       "currency": "TWD",
       "amount": 14250,
       "converted": 14250,
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-23 PChome 同MI-6450公開價NT$14,250，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-24T23:59:59+08:00。"
+      "note": "2026-11-25 PChome 同MI-6450公開價NT$14,250，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-26T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900ILR3T/000001_1767087495.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900ILR3T",
@@ -2791,9 +2791,9 @@
       "currency": "TWD",
       "amount": 18050,
       "converted": 18050,
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-23 PChome 同MI-7150+公開價NT$18,050，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-24T23:59:59+08:00。"
+      "note": "2026-11-25 PChome 同MI-7150+公開價NT$18,050，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-26T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900IOJ43/000001_1766741547.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900IOJ43",
@@ -3084,9 +3084,9 @@
       "currency": "TWD",
       "amount": 31455,
       "converted": 31455,
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-23 PChome 同FB90公開價NT$31,455，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-24T23:59:59+08:00。"
+      "note": "2026-11-25 PChome 同FB90公開價NT$31,455，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-26T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900J43AP/000001_1764829802.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900J43AP",
@@ -3474,9 +3474,9 @@
       "currency": "TWD",
       "amount": 11400,
       "converted": 11400,
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-23 PChome 同Latch Plus公開價NT$11,400，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-24T23:59:59+08:00。"
+      "note": "2026-11-25 PChome 同Latch Plus公開價NT$11,400，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-26T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DECE2SA900B5V4Y/000001_1614234907.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DECE2S-A900B5V4Y",
@@ -4058,9 +4058,9 @@
       "currency": "TWD",
       "amount": 23750,
       "converted": 23750,
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-23 PChome 同T9 Plus+公開價NT$23,750，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-24T23:59:59+08:00。"
+      "note": "2026-11-25 PChome 同T9 Plus+公開價NT$23,750，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-26T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900K03FM/000001_1778558520.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900K03FM",
@@ -4156,9 +4156,9 @@
       "currency": "TWD",
       "amount": 30248,
       "converted": 30248,
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-23 PChome 同TK公開價NT$30,248，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-24T23:59:59+08:00。"
+      "note": "2026-11-25 PChome 同TK公開價NT$30,248，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-26T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900JG66I/000001_1771990337.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900JG66I",
@@ -4254,9 +4254,9 @@
       "currency": "TWD",
       "amount": 14155,
       "converted": 14155,
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-23 PChome 同T12公開價NT$14,155，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-24T23:59:59+08:00。"
+      "note": "2026-11-25 PChome 同T12公開價NT$14,155，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-26T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900IDEPI/000001_1748323634.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900IDEPI",
@@ -4450,9 +4450,9 @@
       "currency": "TWD",
       "amount": 32138,
       "converted": 32138,
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-23 PChome 同Z2公開價NT$32,138，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-24T23:59:59+08:00。"
+      "note": "2026-11-25 PChome 同Z2公開價NT$32,138，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-26T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900JISCM/000001_1780306235.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900JISCM",
@@ -4548,9 +4548,9 @@
       "currency": "TWD",
       "amount": 31160,
       "converted": 31160,
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-23 PChome 同A50公開價NT$31,160，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-24T23:59:59+08:00。"
+      "note": "2026-11-25 PChome 同A50公開價NT$31,160，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-26T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900K2WIC/000001_1783308785.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900K2WIC",
@@ -4644,15 +4644,15 @@
     "name": "AI 智慧 A90 頂級電子門鎖",
     "price": {
       "currency": "TWD",
-      "amount": 33800,
-      "converted": 33800,
-      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-24 PChome 同A90公開價NT$33,800，未另扣個人券、點數與信用卡回饋。",
+      "amount": 32110,
+      "converted": 32110,
+      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-25 PChome 同A90公開價NT$32,110，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-26T23:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900K2STR/000001_1783309040.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900K2STR",
-    "buyLabel": "PChome（原商品已售完，查看供貨）",
+    "buyLabel": "PChome",
     "specs": [
       "13 合 1",
       "人臉/指紋/掌靜脈",
@@ -5141,8 +5141,8 @@
       "amount": 31500,
       "converted": 31500,
       "basis": "retailer_current",
-      "confidence": "2026-11-24 核對原商品版本與供貨條件，金額保留先前參考價",
-      "note": "2026-11-24 台灣總代理同DDL902-MFVP-11HWS曜石黑原頁仍為預購，預計11月底依序出貨；保留先前NT$31,500參考價，頁面NT$33,180預購價不當成現貨價或史低。"
+      "confidence": "2026-11-25 核對原商品版本與供貨條件，金額保留先前參考價",
+      "note": "2026-11-25 台灣總代理同DDL902-MFVP-11HWS曜石黑原頁仍為預購，預計11月底依序出貨；保留先前NT$31,500參考價，頁面NT$33,180預購價不當成現貨價或史低。"
     },
     "installation": {
       "status": "included_basic",
@@ -5236,17 +5236,17 @@
     "channel": "tw",
     "price": {
       "currency": "TWD",
-      "amount": 17111,
-      "converted": 17111,
+      "amount": 22000,
+      "converted": 22000,
       "basis": "retailer_current",
-      "confidence": "2026-11-04 人工讀取FIBRE台灣官方現行商品清單與FB70K原商品主區，皆公開17111元且提供門厚、門向、顏色及加入購物車；不是沿用FB70X價格。",
-      "note": "官方11/1–11/22主宣傳圖與主價格17111元，圖文明示含安裝；不另扣會員、信用卡、點數或贈品。未承諾即時庫存或固定出貨日，先確認門型、安裝範圍及額外工程報價。原頁顏色選單僅列深紅古，實際外觀請下單前確認。"
+      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-25 FIBRE台灣官方FB70K主區公開價NT$22,000，提供門厚、門向、顏色及加入購物車；11/1–11/22的NT$17,111優惠已結束。現頁未再明示22,000元含基本安裝，請先確認安裝總額與交期；未扣會員、信用卡或點數。"
     },
     "installation": {
-      "status": "included_basic",
-      "note": "官方FB70K商品頁當期11/1–11/22主宣傳圖明示17111元含安裝；此圖經root原生下載與目視覆核。標準安裝範圍與額外工程統一價表未明示，門向、鎖體、天地栓、既有孔位、補孔及門扇調整須先現勘報價；官方條款明示超出安裝規範可另收費。規格表門厚45–70/71–90mm、91mm以上另訂；下單選單另列30–55/56–80/80mm以上，兩處不一致，須原廠依實際門厚確認套件。"
+      "status": "not_stated",
+      "note": "2026-11-25官方FB70K主價22,000元，新主圖未明示含安裝；11/1–11/22的17,111元含安裝方案已結束。基本安裝是否含價、門厚套件、特殊鎖體、天地栓、既有孔位、補孔及門扇調整須先現勘報價；規格表與下單選單的門厚區間不同，仍需原廠確認。"
     },
-    "image": "https://www.fibrekey.com/images/pdt2/tw/0202610301117124263.webp",
+    "image": "https://www.fibrekey.com/images/pdt2/tw/0202611240824499499.webp",
     "buyUrl": "https://www.fibrekey.com/tw/ProductDetail/2/FB70K",
     "buyLabel": "FIBRE台灣官方商城（門型／安裝先確認）",
     "specs": [
@@ -5260,7 +5260,7 @@
       "面板：官方原序65×225×22mm，未自行補寬高深軸序；鋅合金與模內塑造面板",
       "保固：機械結構與塗裝3年、電子器件2年；安裝完成14日內至官方LINE登錄，未登錄依出貨日起算；電池誤用/漏液依除外條款",
       "維護：每半年檢查電池盒/電量，至少每年換電池；夜間、假日與偏遠地區出勤可能另收派工費，現場教學與保固外維修依條款",
-      "安裝費：官方當期11/1–11/22主宣傳圖明示17111元含安裝；特殊鎖體、天地栓、改門補孔、門扇調整等是否加價及標準範圍需先現勘確認"
+      "安裝費：2026-11-25官方主價22,000元；當期主圖未再明示含安裝，基本安裝是否含價及特殊鎖體、天地栓、補孔等加價須先現勘確認。"
     ],
     "description": "FIBRE台灣官方仍公開可選購的FB70K樸實，採AA電池與把手一體指紋，適合希望維持傳統把手操作的家庭。它與在冊FB70X是不同官方型號；原PChome商品頁已改為K型，不能把X款的價格、負評或世代關係直接繼承。官方沒有明示FB70K取代FB70X或X停產。",
     "pros": [
@@ -5275,7 +5275,7 @@
       "官方沒有公開確切上市日與可信史低；新舊型號不能共用負評證據"
     ],
     "bestFor": "偏好把手指紋與AA電池、能先完成台灣原廠門型評估的家庭。",
-    "recommendation": "台灣官方把手式參考款；17111元為11/1–11/22公開整機含安裝方案，門厚套件與特殊工程需先確認。保留FB70X的原參考資料並明示來源改型號，不據K款出現推定X停產。",
+    "recommendation": "台灣官方把手式參考款；目前公開主價22,000元，含安裝範圍、門厚套件與特殊工程總額須先確認。保留FB70X的原參考資料，未據K款出現推定X停產。",
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",

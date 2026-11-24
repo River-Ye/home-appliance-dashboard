@@ -533,10 +533,10 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR35A900JVAOT/000001_1782872320.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 28888,
-      "converted": 28888,
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-23 PChome 同EFF3360VWB公開價NT$28,888，未另扣個人券、點數與信用卡回饋。",
+      "amount": 27733,
+      "converted": 27733,
+      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-25 PChome 同EFF3360VWB公開價NT$27,733，未另扣個人券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -1056,9 +1056,9 @@
       "currency": "TWD",
       "amount": 34999,
       "converted": 34999,
-      "confidence": "2026-11-24 原商品頁的實際下單折扣未完整確認，保留先前參考價",
+      "confidence": "2026-11-25 原商品頁的實際下單折扣未完整確認，保留先前參考價",
       "basis": "retailer_current",
-      "note": "2026-11-24 原商品頁網路價NT$34,999；另顯示「下單再折」，公開單件折扣的完整條件尚未確認，卡片保留先前NT$34,999參考價。下單前請確認實際折扣；未扣個人券、點數或信用卡回饋。"
+      "note": "2026-11-25 原商品頁網路價NT$34,999；另顯示「下單再折」，公開單件折扣的完整條件尚未確認，卡片保留先前NT$34,999參考價。下單前請確認實際折扣；未扣個人券、點數或信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "PChome（下單折扣待確認／先前參考價）",
@@ -1158,14 +1158,14 @@
     "image": "https://cs-a.ecimg.tw/items/DPAL7PA900G5M47/000001_1783049805.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 39500,
-      "converted": 39500,
-      "confidence": "2026-11-24 原商品頁的實際下單折扣未完整確認，保留先前參考價",
+      "amount": 37525,
+      "converted": 37525,
+      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-24 原商品頁網路價NT$39,500；另顯示「下單再折」，公開單件折扣的完整條件尚未確認，卡片保留先前NT$39,500參考價。下單前請確認實際折扣；未扣個人券、點數或信用卡回饋。"
+      "note": "2026-11-25 PChome 同DD60SHI9公開價NT$37,525，未另扣個人券、點數與信用卡回饋。公開活動至2027-02-21T23:59:59+08:00。"
     },
     "channel": "tw",
-    "buyLabel": "PChome（下單折扣待確認／先前參考價）",
+    "buyLabel": "PChome",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAL7P-A900G5M47",
     "specs": [
       "洗碗機：Fisher＆Paykel 菲雪品克 DD60SHI9 單層設計師款抽屜式洗碗機 (7人份)",
@@ -1582,11 +1582,11 @@
     "name": "桌上型洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 11000,
-      "converted": 11000,
-      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 9900,
+      "converted": 9900,
+      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMBR0P-A900JBV02 原商品主區公開價 NT$11,000，購買按鈕可用，API Qty 13。會員券、點數與卡回饋未計入。"
+      "note": "2026-11-25 PChome 同KDW-156W公開價NT$9,900，未另扣個人券、點數與信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR0PA900JBV02/000001_1762938951.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR0P-A900JBV02",
@@ -1780,11 +1780,11 @@
     "name": "VORTEX KW1 桌上型全自動洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 14391,
-      "converted": 14391,
-      "confidence": "2026-11-21 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 15990,
+      "converted": 15990,
+      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMBR25-A900J5BGP 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$14,391。"
+      "note": "2026-11-25 PChome 同KW534-60W公開價NT$15,990，未另扣個人券、點數與信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR25A900J5BGP/000001_1782112645.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR25-A900J5BGP",
@@ -1980,8 +1980,8 @@
       "currency": "TWD",
       "amount": 12999,
       "converted": 12999,
-      "confidence": "2026-11-24 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-24 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
+      "confidence": "2026-11-25 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-25 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR24A900JFSR7/000001_1762761618.jpg",
@@ -4017,8 +4017,8 @@
     "amount": 54900,
     "converted": 54900,
     "basis": "retailer_current",
-    "confidence": "2026-11-24 原商品頁的實際下單折扣未完整確認，保留先前參考價",
-    "note": "2026-11-24 原商品頁網路價NT$54,900；另顯示「下單再折」，公開單件折扣的完整條件尚未確認，卡片保留先前NT$54,900參考價。下單前請確認實際折扣；未扣個人券、點數或信用卡回饋。"
+    "confidence": "2026-11-25 原商品頁的實際下單折扣未完整確認，保留先前參考價",
+    "note": "2026-11-25 原商品頁網路價NT$54,900；另顯示「下單再折」，公開單件折扣的完整條件尚未確認，卡片保留先前NT$54,900參考價。下單前請確認實際折扣；未扣個人券、點數或信用卡回饋。"
   },
   "image": "https://img.pchome.com.tw/cs/items/DMBR13A900KEYFN/000001_1793352223.jpg",
   "buyUrl": "https://24h.pchome.com.tw/prod/DMBR13-A900KEYFN",

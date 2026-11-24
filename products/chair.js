@@ -19,11 +19,12 @@
       "currency": "TWD",
       "amount": 11111,
       "converted": 11111,
-      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "2026-11-25 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-25 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900JM0HG/000001_1783562693.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4C-A900JM0HG",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原刊登已售完，查看供貨）",
     "specs": [
       "人體工學",
       "BIFMA X5.1",
@@ -509,11 +510,12 @@
       "currency": "TWD",
       "amount": 12911,
       "converted": 12911,
-      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "2026-11-25 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-25 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBE2LA900HA2WP/000001_1783563647.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBE2L-A900HA2WP",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原刊登已售完，查看供貨）",
     "specs": [
       "人體工學",
       "雲岩網",
@@ -795,9 +797,9 @@
       "currency": "TWD",
       "amount": 13410,
       "converted": 13410,
-      "confidence": "2026-11-24 核對原刊登供貨條件，金額保留為先前參考價",
+      "confidence": "2026-11-25 核對原刊登供貨條件，金額保留為先前參考價",
       "basis": "retailer_current",
-      "note": "2026-11-24 原商品頁仍為預購，預計2026/11/26 - 2026/11/30出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "note": "2026-11-25 原商品頁仍為預購，預計出貨日 2026/11/27 - 2026/12/01；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAKFOA900BWWGS/000001_1755481797.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAKFO-A900BWWGS",
@@ -1082,8 +1084,8 @@
       "currency": "TWD",
       "amount": 7990,
       "converted": 7990,
-      "confidence": "2026-11-24 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-24 原商品頁仍為預購，預計2026/12/05 - 2026/12/08出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
+      "confidence": "2026-11-25 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-25 原商品頁仍為預購，預計出貨日 2026/12/06 - 2026/12/08；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ0AA900IGLW6/000001_1759990112.jpg",
@@ -1277,11 +1279,11 @@
     "name": "OC2 SEAT SET 坐躺兩用電腦椅",
     "price": {
       "currency": "TWD",
-      "amount": 3111,
-      "converted": 3111,
-      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 3499,
+      "converted": 3499,
+      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DEBHA6-A9007ZPEF 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$3,111。"
+      "note": "2026-11-25 PChome 同OC2公開價NT$3,499，未另扣個人券、點數與信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DEBHA6A9007ZPEF/000001_1768553712.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEBHA6-A9007ZPEF",
@@ -1378,9 +1380,9 @@
       "currency": "TWD",
       "amount": 15350,
       "converted": 15350,
-      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-24 PChome 同TITAN PRO V2公開價NT$15,350，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-24T23:59:59+08:00。"
+      "note": "2026-11-25 PChome 同TITAN PRO V2公開價NT$15,350，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ6ZA900JIKKR/000001_1782824760.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ6Z-A900JIKKR",
@@ -2460,9 +2462,9 @@
       "currency": "TWD",
       "amount": 4790,
       "converted": 4790,
-      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-24 PChome 同CGR-STD-BLB公開價NT$4,790，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-24T23:59:59+08:00。"
+      "note": "2026-11-25 PChome 同CGR-STD-BLB公開價NT$4,790，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ0AA900JCVY5/000001_1785087796.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ0A-A900JCVY5",
