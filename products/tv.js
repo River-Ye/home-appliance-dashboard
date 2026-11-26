@@ -65,8 +65,8 @@
       "evidenceSnippet": "",
       "sourceKind": "not_found",
       "confidence": "not_found",
-      "checkedAt": "2026-11-26",
-      "note": "2026-11-26 重查同一PChome SKU較低歷史點，未取得該低價當時的單件公開價及供貨條件完整原頁證據；維持找不到可靠史低。"
+      "checkedAt": "2026-11-27",
+      "note": "2026-11-27 重查同一PChome SKU較低歷史點，未取得該低價當時的單件公開價及供貨條件完整原頁證據；維持找不到可靠史低。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -219,10 +219,10 @@
     "name": "BRAVIA 7 65 型 Mini LED 4K Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 56900,
-      "converted": 56900,
-      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-26 PChome 同Y-65XR70公開價NT$56,900，未另扣個人券、點數與信用卡回饋。",
+      "amount": 53910,
+      "converted": 53910,
+      "confidence": "2026-11-27 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-27 PChome 同Y-65XR70公開價NT$53,910，未另扣個人券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADFNA900K7VQ8/000001_1784011502.jpg",
@@ -326,13 +326,13 @@
       "currency": "TWD",
       "amount": 74900,
       "converted": 74900,
-      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-27 原頁瀏覽器403，金額保留先前參考價",
       "basis": "retailer_current",
-      "note": "2026-11-22 LG台灣官方同OLED65C6PTA 65吋主商品公開NT$74,900，原價NT$84,900，可下單；未另扣會員券或回饋，配送安裝條件依通路。"
+      "note": "2026-11-27 LG台灣原頁瀏覽器兩次回傳HTTP403，當日主商品價格與供貨未能重現；本卡金額保留為先前參考價，實際價格、安裝與交期請向官方確認。"
     },
     "image": "https://i6.momoshop.com.tw/1781278602/goodsimg/TP000/9148/0000/554/TP00091480000554_L.webp",
     "buyUrl": "https://www.lg.com/tw/tv-soundbars/oled-evo/oled65c6pta/",
-    "buyLabel": "LG 官方商城",
+    "buyLabel": "LG 台灣官方（當日價格／供貨待確認）",
     "specs": [
       "尺寸：不含底座 寬 144.1 x 深 4.51 x 高 82.6 cm；含底座 寬 144.1 x 深 23 x 高 88 cm",
       "重量：不含底座 16.6 kg；含底座 18.4 kg",
@@ -835,10 +835,10 @@
     "name": "BRAVIA 8 65 型 XR OLED 4K HDR Google TV 顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 93900,
-      "converted": 93900,
-      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-26 PChome 同Y-65XR80公開價NT$93,900，未另扣個人券、點數與信用卡回饋。",
+      "amount": 84510,
+      "converted": 84510,
+      "confidence": "2026-11-27 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-27 PChome 同Y-65XR80公開價NT$84,510，未另扣個人券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD06A900HLBJO/000001_1776334113.jpg",
@@ -1043,8 +1043,8 @@
       "currency": "TWD",
       "amount": 79900,
       "converted": 79900,
-      "confidence": "2026-11-26 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-26 原商品頁仍為預購，預計出貨日 2026/11/29 - 2026/12/01；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
+      "confidence": "2026-11-27 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-27 原商品頁仍為預購，預計出貨日 2026/11/30 - 2026/12/02；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADIKA900HJGF2/000001_1782900149.jpg",
@@ -1958,10 +1958,10 @@
     "name": "65型 4K QLED 120Hz Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 15990,
-      "converted": 15990,
-      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-26 PChome 同CQ-65QX250公開價NT$15,990，未另扣個人券、點數與信用卡回饋。",
+      "amount": 14391,
+      "converted": 14391,
+      "confidence": "2026-11-27 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-27 PChome 同CQ-65QX250公開價NT$14,391，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-27T08:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADTOA900JNE73/000001_1768523868.jpg",
@@ -2061,8 +2061,8 @@
       "currency": "TWD",
       "amount": 21500,
       "converted": 21500,
-      "confidence": "2026-11-26 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-26 原商品頁仍為預購，預計出貨日 2026/11/29 - 2026/12/01；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
+      "confidence": "2026-11-27 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-27 原商品頁仍為預購，預計出貨日 2026/11/30 - 2026/12/02；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD0WA900I9LNS/000001_1769648262.jpg",
@@ -2271,9 +2271,9 @@
       "currency": "TWD",
       "amount": 30599,
       "converted": 30599,
-      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-27 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-26 Costco好市多同75Z670NT公開單品價NT$30,599（含運），需具好市多會員資格；未扣聯名卡好多金、黑鑽會員回饋或個人優惠。 原主區明示2026/11/23–2026/11/29限購期間，每帳號每7天限購1組；此處保守以期間結束為參考價截止，下單前請重查。"
+      "note": "2026-11-27 Costco好市多同75Z670NT公開單品價NT$30,599（含運），需具好市多會員資格；未扣聯名卡好多金、黑鑽會員回饋或個人優惠。 原主區明示2026/11/23–2026/11/29限購期間，每帳號每7天限購1組；此處保守以期間結束為參考價截止，下單前請重查。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/hfe/ha8/438072160518174.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Televisions-TV-Accessories/70-79-TVs/Toshiba-Regza-75-inch-Full-Array-4K-QLED-144Hz-Smart-Monitor-75Z670NT/p/152535",
@@ -4217,8 +4217,8 @@
       "amount": 164990,
       "converted": 164990,
       "basis": "retailer_current",
-      "confidence": "2026-11-26 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-26 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "confidence": "2026-11-27 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-27 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "installation": {
       "status": "included_basic",

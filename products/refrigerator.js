@@ -1801,9 +1801,9 @@
       "currency": "TWD",
       "amount": 23310,
       "converted": 23310,
-      "confidence": "2026-11-26 核對原刊登供貨條件，金額保留為先前參考價",
+      "confidence": "2026-11-27 核對原刊登供貨條件，金額保留為先前參考價",
       "basis": "retailer_current",
-      "note": "2026-11-26 原商品頁仍為預購，預購12/7出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "note": "2026-11-27 原商品頁仍為預購，預購12/7出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心（預購）",
@@ -2323,13 +2323,13 @@
       "currency": "TWD",
       "amount": 27899,
       "converted": 27899,
-      "confidence": "2026-11-26 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-26 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
+      "confidence": "2026-11-27 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-27 Costco好市多同NR-B65CV-S公開單品價NT$27,899（含運），需具好市多會員資格；未扣聯名卡好多金、黑鑽會員回饋或個人優惠。",
       "basis": "retailer_current"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h27/h0a/121680122413086.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Fridges-Freezers/Panasonic-650-L-Double-Door-Inverter-Fridge-NR-B65CV-S/p/138021",
-    "buyLabel": "Costco 好市多（原刊登缺貨，查看供貨）",
+    "buyLabel": "Costco 好市多",
     "specs": [
       "650L 級雙門變頻",
       "110V",

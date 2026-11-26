@@ -818,8 +818,8 @@
       "currency": "TWD",
       "amount": 9490,
       "converted": 9490,
-      "confidence": "2026-11-26 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-26 原商品頁仍為預購，預計出貨日 2026/12/03 - 2026/12/07；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
+      "confidence": "2026-11-27 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-27 原商品頁仍為預購，預計出貨日 2026/12/04 - 2026/12/08；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DQCI0AA900K15T1/000001_1779269416.jpg",
@@ -1263,8 +1263,8 @@
       "evidenceSnippet": "",
       "sourceKind": "not_found",
       "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Apexgaming LUMI 白色: 露天拍賣 - 宅配滿$490免運｜ PC24h購物 露天旗艦店 (71076個評價) 【PChome 24h購物】美商艾湃 Apexgaming LUMI 落地型 時尚鋼化玻璃版 電動升降桌 白色 R99N 型號/規格不相符；BigGo DQCBEM-A900GJUOI: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/DQCBEM-A900GJUOI/product?p=1；BigGo Apexgaming LUMI 白色: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/Apexgaming%20LUMI%20%E7%99%BD%E8%89%B2/product?p=1。"
+      "checkedAt": "2026-11-27",
+      "note": "2026-11-27 同SKU歷史最低13,491及11/21供貨可互證，但原日與今日文字沒有明示白色版本；僅憑產品照或既有名冊名稱不補足顏色身分，維持not_found。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2108,11 +2108,12 @@
       "currency": "TWD",
       "amount": 5489,
       "converted": 5489,
-      "confidence": "Costco 好市多 2026-08-21 exact-model 公開結構化價格"
+      "confidence": "2026-11-27 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-27 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h8a/h61/386020263100446.jpg",
     "buyUrl": "https://www.costco.com.tw/Furniture-Kitchen/Furniture/Computer-Desk-Chair-Sets/FlexiSpot-Adjustable-Desk-GET156E-14070/p/156015",
-    "buyLabel": "Costco 好市多",
+    "buyLabel": "Costco 好市多（原刊登缺貨，查看供貨）",
     "specs": [
       "140 x 70 公分",
       "升降 73.5-117 公分",

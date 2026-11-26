@@ -17,12 +17,12 @@
       "currency": "TWD",
       "amount": 20900,
       "converted": 20900,
-      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-22 LG台灣官方同WD-S90VDW 9公斤洗脫烘主商品公開NT$20,900，原價NT$28,900，可下單；未扣會員券或回饋，交期與安裝加價依通路。",
+      "confidence": "2026-11-27 原頁瀏覽器403，金額保留先前參考價",
+      "note": "2026-11-27 LG台灣原頁瀏覽器兩次回傳HTTP403，當日主商品價格與供貨未能重現；本卡金額保留為先前參考價，實際價格、安裝與交期請向官方確認。",
       "basis": "retailer_current"
     },
     "channel": "tw",
-    "buyLabel": "LG 官方商城",
+    "buyLabel": "LG 台灣官方（當日價格／供貨待確認）",
     "buyUrl": "https://www.lg.com/tw/washer-dryers/front-loading-washing-machines/wd-s90vdw/",
     "specs": [
       "洗烘衣機：LG樂金 9公斤WiFi蒸洗脫烘滾筒洗衣機 WD-S90VDW 贈基本安裝 (獨家送好禮)",
@@ -2027,9 +2027,11 @@
     "name": "12公斤/9公斤 UltimateCare 700 洗脫烘衣機",
     "price": {
       "currency": "TWD",
-      "amount": 31999,
-      "converted": 31999,
-      "confidence": "Costco 好市多 2026-07-11 頁面查核價"
+      "amount": 25599,
+      "converted": 25599,
+      "confidence": "2026-11-27 核對原商品主區及同一商品公開價和供貨條件",
+      "basis": "retailer_current",
+      "note": "2026-11-27 Costco好市多同EWW1243R7WC公開單品價NT$25,599（含運），需具好市多會員資格；未扣聯名卡好多金、黑鑽會員回饋或個人優惠。 原主區明示2026/11/27–2026/11/29限購期間，每帳號每3天限購1組；此處保守以期間結束為參考價截止，下單前請重查。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h7b/h3c/346620867051550.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Washers-Dryers/Washer-Size-10-15-kg/Electrolux-12-kg-9-kg-UltimateCare-700-Washer-Dryer-EWW1243R7WC/p/152411",
@@ -2063,16 +2065,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 28099,
+      "amount": 25599,
       "currency": "TWD",
-      "converted": 28099,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1248513180&cgp=31999",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Costco好市多】伊萊克斯 12公斤/9公斤 極淨呵護系列 UltimateCare 700 洗脫烘衣機 EWW1243R7WC Electrolux 12 kg / 9 kg UltimateCare 700 Washer Dryer EWW1243R7WC",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Costco好市多 / 【Costco好市多】伊萊克斯 12公斤/9公斤 極淨呵護系列 UltimateCare 700 洗脫烘衣機 EWW1243R7WC Electrolux 12 kg / 9 kg UltimateCare 700 Washer Dryer EWW1243R7WC」最低價為 NT$28,099，最低點日期 2025-11-28。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 25599,
+      "sourceUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Washers-Dryers/Washer-Size-10-15-kg/Electrolux-12-kg-9-kg-UltimateCare-700-Washer-Dryer-EWW1243R7WC/p/152411",
+      "sourceTitle": "Electrolux EWW1243R7WC 原商品頁",
+      "evidenceSnippet": "2026-11-27 Costco同一商品編號#152411原主區完整型號、主價25,599（含運）及本商品加入購物車已核對；不是頁尾推薦商品、模板庫存或個人會員回饋價。 原主區明示2026/11/27–2026/11/29限購期間，每帳號每3天限購1組；此處保守以期間結束為參考價截止，下單前請重查。 公開活動至 2026-11-29T23:59:59+08:00。 低於原有同款紀錄。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-11-27",
+      "note": "採同型號同規格可信新品公開價，不含個人券、點數、會員個人化折扣與信用卡回饋。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2225,9 +2227,9 @@
       "currency": "TWD",
       "amount": 18999,
       "converted": 18999,
-      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-27 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-26 Costco好市多同EWW1123P5WC公開單品價NT$18,999（含運），需具好市多會員資格；未扣聯名卡好多金、黑鑽會員回饋或個人優惠。 原主區明示2026/11/25–2026/11/29限購期間，每帳號每5天限購1組；此處保守以期間結束為參考價截止，下單前請重查。"
+      "note": "2026-11-27 Costco好市多同EWW1123P5WC公開單品價NT$18,999（含運），需具好市多會員資格；未扣聯名卡好多金、黑鑽會員回饋或個人優惠。 原主區明示2026/11/25–2026/11/29限購期間，每帳號每5天限購1組；此處保守以期間結束為參考價截止，下單前請重查。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h62/h7f/332442479263774.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Washers-Dryers/Washer-Size-10-15-kg/Electrolux-11-kg-7-kg-Ultimate-Care-500-Washer-Dryer-EWW1123P5WC/p/151339",
@@ -2323,10 +2325,10 @@
     "image": "https://cs-a.ecimg.tw/items/DPAI1LA900KAQP8/000007_1794412889.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 79111,
-      "converted": 79111,
-      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-26 PChome 同WD-S1818PB公開價NT$79,111，未另扣個人券、點數與信用卡回饋。",
+      "amount": 80910,
+      "converted": 80910,
+      "confidence": "2026-11-27 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-27 PChome 同WD-S1818PB公開價NT$80,910，未另扣個人券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -2755,12 +2757,12 @@
       "currency": "TWD",
       "amount": 85111,
       "converted": 85111,
-      "confidence": "2026-11-26 核對原商品供貨條件，金額保留先前參考價",
+      "confidence": "2026-11-27 原頁瀏覽器403，金額保留先前參考價",
       "basis": "retailer_current",
-      "note": "2026-11-26 LG台灣原WD-S22FHDB仍為預購，改預告2026年11月27日按購買次序發貨；頁面預購報價NT$86,900，本卡NT$85,111保留先前參考，實際交期請向通路確認。"
+      "note": "2026-11-27 LG台灣原頁瀏覽器兩次回傳HTTP403，當日主商品價格與供貨未能重現；本卡金額保留為先前參考價，實際價格、安裝與交期請向官方確認。"
     },
     "channel": "tw",
-    "buyLabel": "LG 台灣官方（預購／交期待確認）",
+    "buyLabel": "LG 台灣官方（當日價格／供貨待確認）",
     "buyUrl": "https://www.lg.com/tw/washer-dryers/front-loading-washing-machines/wd-s22fhdb/",
     "specs": [
       "洗/乾容量：22kg / 15kg",

@@ -17,8 +17,8 @@
       "currency": "TWD",
       "amount": 2890,
       "converted": 2890,
-      "confidence": "2026-11-26 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-26 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "confidence": "2026-11-27 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-27 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "channel": "tw",
     "buyLabel": "PChome（原刊登已售完，查看供貨）",
@@ -735,10 +735,10 @@
     "image": "https://cs-a.ecimg.tw/items/DEES09A900HK440/000001_1718174769.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 621,
-      "converted": 621,
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-23 PChome 同Ice Force 15cm公開價NT$621，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-26T23:59:59+08:00。",
+      "amount": 690,
+      "converted": 690,
+      "confidence": "2026-11-27 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-27 PChome 同Ice Force 15cm公開價NT$690，未另扣個人券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -1248,10 +1248,10 @@
     "image": "https://cs-a.ecimg.tw/items/DEES09A900IWZUQ/000001_1749456278.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1439,
-      "converted": 1439,
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-23 PChome 同Ice Force 三件組公開價NT$1,439，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-26T23:59:59+08:00。",
+      "amount": 1599,
+      "converted": 1599,
+      "confidence": "2026-11-27 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-27 PChome 同Ice Force 三件組公開價NT$1,599，未另扣個人券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "channel": "tw",

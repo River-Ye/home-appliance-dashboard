@@ -896,11 +896,11 @@
     "name": "PuriCare WiFi 變頻除濕機粉紅 16 公升",
     "price": {
       "currency": "TWD",
-      "amount": 13900,
-      "converted": 13900,
-      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 14111,
+      "converted": 14111,
+      "confidence": "2026-11-27 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-26 PChome 同MD161QPK3公開價NT$13,900，未另扣個人券、點數與信用卡回饋。公開活動至2026-12-31T23:59:59+08:00。"
+      "note": "2026-11-27 PChome 同MD161QPK3公開價NT$14,111，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ07A900HQ3L5/000001_1761827365.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ07-A900HQ3L5",
@@ -1094,8 +1094,8 @@
       "currency": "TWD",
       "amount": 15500,
       "converted": 15500,
-      "confidence": "2026-11-26 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-26 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "confidence": "2026-11-27 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-27 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4YA900JBQP2/000001_1759892926.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ4Y-A900JBQP2",
@@ -2072,11 +2072,11 @@
     "name": "23 公升超變頻清淨除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 23039,
-      "converted": 23039,
-      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 22771,
+      "converted": 22771,
+      "confidence": "2026-11-27 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-25 PChome 同RD-460VC公開價NT$23,039，未另扣個人券、點數與信用卡回饋。"
+      "note": "2026-11-27 PChome 同RD-460VC公開價NT$22,771，未另扣個人券、點數與信用卡回饋。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h2d/h02/421140862271518.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ4K-A900I752Z",
@@ -2687,11 +2687,11 @@
     "name": "乾淨方PRO+ 19L 雙氣流AIoT雙變頻除濕機（奶茶棕）",
     "price": {
       "currency": "TWD",
-      "amount": 19900,
-      "converted": 19900,
+      "amount": 18900,
+      "converted": 18900,
       "basis": "retailer_current",
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$19900，API Qty 20；個人券、點數、信用卡回饋及配送安裝費另計。"
+      "confidence": "2026-11-27 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-27 PChome 同DW-UX19HT-C公開價NT$18,900，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "installation": {
       "status": "not_stated",

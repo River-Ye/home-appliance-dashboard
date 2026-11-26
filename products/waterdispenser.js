@@ -372,17 +372,17 @@
     "category": "waterdispenser",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 8910,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-11",
-      "note": "既有史低證據是相容濾芯／耗材，而不是目標整機；應撤銷 found 並重新查核整機史低。 已撤銷錯誤史低；本輪重新查核仍找不到同型號、同尺寸／容量／規格且可公開驗證的可信新品整機史低。"
+      "converted": 8910,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DMCI1N-A900HIJUW",
+      "sourceTitle": "Lowcast 比價趨勢：PChome Coway 奈米超淨化櫥下型淨水器P-150N(含龍頭,原廠到府安裝)",
+      "evidenceSnippet": "Lowcast 同一 PChome SKU DMCI1N-A900HIJUW 的66天記錄摘要最低為 NT$8,910，2026-11-23歷史點同額；當日原主頁同P-150N公開單件價8,910、可宅配與可用購買動作，API Qty 2。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-27",
+      "note": "僅為同型號同規格、同一PChome新品刊登66天可驗證價格記錄最低，不保證全網或上市以來最低；66天為來源摘要明示範圍，初始圖表載入29天。未扣個人券、點數、信用卡回饋、贈品或會員個人優惠。原日為公開單件活動價，保留為過去記錄，是否仍適用以現行購買頁為準。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -542,11 +542,11 @@
     "image": "https://cs-a.ecimg.tw/items/QFAX6BA9009Y2C3/000001_1760596937.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 17550,
-      "converted": 17550,
-      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 19500,
+      "converted": 19500,
+      "confidence": "2026-11-27 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-26 PChome 同Slim 3公開價NT$17,550，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
+      "note": "2026-11-27 PChome 同Slim 3採同頁網路常態參考價NT$19,500，未另扣個人券、點數與信用卡回饋。查核時另有短期限時價NT$17,550，活動至2026/11/27 07:59:59（台灣時間），未納入常態參考，下單前請重查原頁活動。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -854,8 +854,8 @@
       "currency": "TWD",
       "amount": 17800,
       "converted": 17800,
-      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-26 PChome 同mypure GR1000公開價NT$17,800，未另扣個人券、點數與信用卡回饋。",
+      "confidence": "2026-11-27 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-27 PChome 同mypure GR1000採同頁網路常態參考價NT$17,800，未另扣個人券、點數與信用卡回饋。查核時另有短期限時價NT$16,020，活動至2026/11/27 07:59:59（台灣時間），未納入常態參考，下單前請重查原頁活動。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -956,11 +956,11 @@
     "image": "https://cs-a.ecimg.tw/items/QFAX6BA9009Y2E9/000001_1760596811.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 24120,
-      "converted": 24120,
-      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 26800,
+      "converted": 26800,
+      "confidence": "2026-11-27 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-26 PChome 同Slim RO DF公開價NT$24,120，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
+      "note": "2026-11-27 PChome 同Slim RO DF採同頁網路常態參考價NT$26,800，未另扣個人券、點數與信用卡回饋。查核時另有短期限時價NT$24,120，活動至2026/11/27 07:59:59（台灣時間），未納入常態參考，下單前請重查原頁活動。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1268,8 +1268,8 @@
       "currency": "TWD",
       "amount": 16800,
       "converted": 16800,
-      "confidence": "2026-11-26 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-26 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "confidence": "2026-11-27 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-27 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "channel": "tw",
     "buyLabel": "PChome（原刊登已售完，查看供貨）",
@@ -1370,8 +1370,8 @@
       "currency": "TWD",
       "amount": 27800,
       "converted": 27800,
-      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-26 PChome 同P0563公開價NT$27,800，未另扣個人券、點數與信用卡回饋。",
+      "confidence": "2026-11-27 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-27 PChome 同P0563採同頁網路常態參考價NT$27,800，未另扣個人券、點數與信用卡回饋。查核時另有短期限時價NT$25,020，活動至2026/11/27 07:59:59（台灣時間），未納入常態參考，下單前請重查原頁活動。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -1478,8 +1478,8 @@
       "currency": "TWD",
       "amount": 59800,
       "converted": 59800,
-      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-26 PChome 同NOBLE CHP-3140N公開價NT$59,800，未另扣個人券、點數與信用卡回饋。",
+      "confidence": "2026-11-27 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-27 PChome 同NOBLE CHP-3140N採同頁網路常態參考價NT$59,800，未另扣個人券、點數與信用卡回饋。查核時另有短期限時價NT$53,820，活動至2026/11/27 07:59:59（台灣時間），未納入常態參考，下單前請重查原頁活動。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -1584,8 +1584,8 @@
       "currency": "TWD",
       "amount": 34000,
       "converted": 34000,
-      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-26 PChome 同EVB-298-E公開價NT$34,000，未另扣個人券、點數與信用卡回饋。",
+      "confidence": "2026-11-27 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-27 PChome 同EVB-298-E採同頁網路常態參考價NT$34,000，未另扣個人券、點數與信用卡回饋。查核時另有短期限時價NT$30,600，活動至2026/11/27 07:59:59（台灣時間），未納入常態參考，下單前請重查原頁活動。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBE1FA900GSOLN/000001_1698896380.jpg",
@@ -1618,17 +1618,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 30600,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ EVERPOLL EVB-298-E: 蝦皮商城 - 天溢淨水館TENFULL｜3M｜BRITA｜宮黛｜櫻花Sakura｜海爾 【EVERPOLL】櫥下型雙溫UV觸控飲水機EVB-298-E 【專利UV滅菌模組｜贈全台安裝】 型號/規格不相符；LBJ EVERPOLL EVB-298-E: 蝦皮商城 - SWEETCOM思維康淨水設備旗艦店 【思維康SWEETCOM】EVERPOLL愛科濾淨 櫥下型雙溫UV觸控飲水機EVB-298-E 熱水 加熱 調溫 型號/規格不相符；LBJ EVERPOLL EVB-298-E: 樂天市場 - 天溢淨水設計館 天溢淨水設計館 【EVERPOLL】櫥下型雙溫UV觸控飲水機EVB-298-E 【單機版｜專利UV滅菌模組｜贈全台安裝】 型號/規格不相符。"
+      "converted": 30600,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DMCI17-A900I6OFW",
+      "sourceTitle": "Lowcast 比價趨勢：PChome 麗水生活 EVERPOLL愛科濾淨EVB-298-E廚下雙溫UV觸控飲水機 廚下加熱 廚房飲水機",
+      "evidenceSnippet": "Lowcast 同一 PChome SKU DMCI17-A900I6OFW 的64天記錄摘要最低為 NT$30,600，2026-11-22歷史點同額；當日原主頁同EVB-298-E公開單件價30,600、可宅配與可用購買動作，API Qty 4。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-27",
+      "note": "僅為同型號同規格、同一PChome新品刊登64天可驗證價格記錄最低，不保證全網或上市以來最低；64天為來源摘要明示範圍，初始圖表載入29天。未扣個人券、點數、信用卡回饋、贈品或會員個人優惠。原日為公開單件活動價，保留為過去記錄，是否仍適用以現行購買頁為準。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1682,9 +1682,9 @@
       "currency": "TWD",
       "amount": 45800,
       "converted": 45800,
-      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-27 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-26 PChome 同US-201C-TW公開價NT$45,800，未另扣個人券、點數與信用卡回饋。"
+      "note": "2026-11-27 PChome 同US-201C-TW採同頁網路常態參考價NT$45,800，未另扣個人券、點數與信用卡回饋。查核時另有短期限時價NT$41,220，活動至2026/11/27 07:59:59（台灣時間），未納入常態參考，下單前請重查原頁活動。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMCI2FA900JBNK6/000001_1782095017.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMCI2F-A900JBNK6",
@@ -1882,8 +1882,8 @@
       "currency": "TWD",
       "amount": 36810,
       "converted": 36810,
-      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-26 PChome 同P0531公開價NT$36,810，未另扣個人券、點數與信用卡回饋。",
+      "confidence": "2026-11-27 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-27 PChome 同P0531採同頁網路常態參考價NT$36,810，未另扣個人券、點數與信用卡回饋。查核時另有短期限時價NT$33,129，活動至2026/11/27 07:59:59（台灣時間），未納入常態參考，下單前請重查原頁活動。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMCI0OA900JT66N/000001_1773306819.png",
@@ -2173,8 +2173,8 @@
     "price": {
       "currency": "USD",
       "amount": 449.99,
-      "converted": 14813,
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。；ExchangeRate-API 2026-11-25 匯率換算",
+      "converted": 14921,
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。；ExchangeRate-API 2026-11-26 匯率換算",
       "basis": "retailer_current",
       "note": "Brondell 美國 Circle RC100 原商品公開 USD 449.99，主商品購買狀態可用。海外參考，未含國際運費、進口稅、電壓／插頭及台灣保固風險。"
     },
@@ -2212,14 +2212,14 @@
       "status": "found",
       "amount": 289.99,
       "currency": "USD",
-      "converted": 9546,
+      "converted": 9615,
       "sourceUrl": "https://www.costco.com/CategoryDisplay?catalogId=10701&identifier=water-dispensers-filtration-water-filtration&storeId=10301",
       "sourceTitle": "Costco US：Brondell Circle Reverse Osmosis Water Filtration System",
       "evidenceSnippet": "Costco US exact-model 分類頁於 2026-08-28 顯示 Brondell Circle 折後 US$289.99，原價 US$369.99，優惠 US$80。",
       "sourceKind": "retailer_promo",
       "confidence": "medium",
       "checkedAt": "2026-08-28",
-      "note": "採 Costco US 公開 exact-model 折價作為本次可重現最低觀測價；未含國際運費、進口稅、耗材與台灣安裝／保固風險；依 2026-11-25 USD/TWD 匯率換算。"
+      "note": "採 Costco US 公開 exact-model 折價作為本次可重現最低觀測價；未含國際運費、進口稅、耗材與台灣安裝／保固風險；依 2026-11-26 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "common_issue",
@@ -2470,8 +2470,8 @@
       "currency": "TWD",
       "amount": 32600,
       "converted": 32600,
-      "confidence": "2026-11-26 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-26 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "confidence": "2026-11-27 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-27 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DSBE1FA900IHRME/000001_1742870958.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSBE1F-A900IHRME",
@@ -2573,8 +2573,8 @@
       "currency": "TWD",
       "amount": 28800,
       "converted": 28800,
-      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-26 PChome 同USB10B公開價NT$28,800，未另扣個人券、點數與信用卡回饋。",
+      "confidence": "2026-11-27 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-27 PChome 同USB10B採同頁網路常態參考價NT$28,800，未另扣個人券、點數與信用卡回饋。查核時另有短期限時價NT$25,920，活動至2026/11/27 07:59:59（台灣時間），未納入常態參考，下單前請重查原頁活動。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWHTA900JVB6I/000001_1775031754.jpg",
@@ -2781,13 +2781,13 @@
       "currency": "TWD",
       "amount": 43901,
       "converted": 43901,
-      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-26 LG台灣官方WU525BS完整機公開NT$43,901，原價NT$49,900，可下單；未扣會員券、銀行回饋或點數，安裝範圍、加價與交期依原頁確認。",
+      "confidence": "2026-11-27 原頁瀏覽器403，金額保留先前參考價",
+      "note": "2026-11-27 LG台灣原頁瀏覽器兩次回傳HTTP403，當日主商品價格與供貨未能重現；本卡金額保留為先前參考價，實際價格、安裝與交期請向官方確認。",
       "basis": "retailer_current"
     },
     "image": "https://img.shoplineapp.com/media/image_clips/6a804134b3229c7ed3e5b867/original.jpg?1786790196=&owner_id=68a29a8bdcaaa0001d99fdb7",
     "buyUrl": "https://www.lg.com/tw/water-purifier/all-water-purifier/wu525bs/",
-    "buyLabel": "LG 台灣官網（現價／供貨待確認）",
+    "buyLabel": "LG 台灣官方（當日價格／供貨待確認）",
     "specs": [
       "無水箱廚下型；瞬冰、瞬熱與常溫水",
       "40／75／85°C 熱水；120／250／500 mL 定量",
@@ -3091,8 +3091,8 @@
       "currency": "TWD",
       "amount": 28000,
       "converted": 28000,
-      "confidence": "2026-11-26 原商城仍暫停購物，金額保留先前參考價",
-      "note": "2026-11-26 嘉儀官方商城維護公告延長至2026-12-01 14:00（台灣時間），購物與會員登入仍暫停；NT$28,000保留先前參考價，恢復後請確認售價、交期與安裝。"
+      "confidence": "2026-11-27 原商城仍暫停購物，金額保留先前參考價",
+      "note": "2026-11-27 嘉儀官方商城維護公告延長至2026-12-01 14:00（台灣時間），購物與會員登入仍暫停；NT$28,000保留先前參考價，恢復後請確認售價、交期與安裝。"
     },
     "image": "https://ketw.kenk.com.tw/archive/image/product1/images/1751011984578.jpg",
     "buyUrl": "https://shop.kenk.com.tw/product-detail1417.htm",
@@ -4743,8 +4743,8 @@
     "amount": 18810,
     "converted": 18810,
     "basis": "retailer_current",
-    "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
-    "note": "2026-11-26 PChome 同P0265公開價NT$18,810，未另扣個人券、點數與信用卡回饋。"
+    "confidence": "2026-11-27 核對原商品主區及同一商品公開價和供貨條件",
+    "note": "2026-11-27 PChome 同P0265採同頁網路常態參考價NT$18,810，未另扣個人券、點數與信用卡回饋。查核時另有短期限時價NT$16,929，活動至2026/11/27 07:59:59（台灣時間），未納入常態參考，下單前請重查原頁活動。"
   },
   "installation": {
     "status": "included_basic",
@@ -4845,8 +4845,8 @@
     "amount": 21510,
     "converted": 21510,
     "basis": "retailer_current",
-    "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
-    "note": "2026-11-26 PChome 同P0266公開價NT$21,510，未另扣個人券、點數與信用卡回饋。"
+    "confidence": "2026-11-27 核對原商品主區及同一商品公開價和供貨條件",
+    "note": "2026-11-27 PChome 同P0266採同頁網路常態參考價NT$21,510，未另扣個人券、點數與信用卡回饋。查核時另有短期限時價NT$19,359，活動至2026/11/27 07:59:59（台灣時間），未納入常態參考，下單前請重查原頁活動。"
   },
   "installation": {
     "status": "included_basic",

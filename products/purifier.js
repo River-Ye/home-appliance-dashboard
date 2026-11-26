@@ -111,11 +111,11 @@
     "name": "14-29 坪智能 Wi-Fi 空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 9990,
-      "converted": 9990,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
+      "amount": 12990,
+      "converted": 12990,
+      "confidence": "2026-11-27 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome 原商品主區及 SKU DMAUE4-A900I5SSZ 公開價格 NT$9,990。API Qty 6，以通路配送、安裝條件為準。"
+      "note": "2026-11-27 PChome 同BlueMax 3450i公開價NT$12,990，未另扣個人券、點數與信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAUE4A900I5SSZ/000001_1780654673.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUE4-A900I5SSZ",
@@ -2698,8 +2698,8 @@
       "amount": 12139,
       "converted": 12139,
       "basis": "retailer_current",
-      "confidence": "2026-11-26 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-26 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "confidence": "2026-11-27 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-27 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "installation": {
       "status": "not_stated",

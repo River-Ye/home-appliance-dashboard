@@ -116,9 +116,9 @@
       "currency": "TWD",
       "amount": 17111,
       "converted": 17111,
-      "confidence": "2026-11-26 核對原刊登供貨條件，金額保留為先前參考價",
+      "confidence": "2026-11-27 核對原刊登供貨條件，金額保留為先前參考價",
       "basis": "retailer_current",
-      "note": "2026-11-26 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "note": "2026-11-27 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX8KA900HLX9W/000001_1744871467.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAX8K-A900HLX9W",
@@ -214,8 +214,8 @@
       "currency": "TWD",
       "amount": 11111,
       "converted": 11111,
-      "confidence": "2026-11-26 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-26 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
+      "confidence": "2026-11-27 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-27 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX8KA900JI8XJ/000001_1764582934.jpg",
@@ -992,13 +992,13 @@
       "currency": "TWD",
       "amount": 7990,
       "converted": 7990,
-      "confidence": "PChome 2026-07-11 API 查核價",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。",
+      "confidence": "2026-11-27 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-27 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM2ZA900IUKMI/000001_1768459978.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM2Z-A900IUKMI",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原刊登已售完，查看供貨）",
     "specs": [
       "無線吸塵",
       "輕量",
@@ -1575,10 +1575,10 @@
     "name": "PencilVac Fluffycones 筆型吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 16999,
-      "converted": 16999,
-      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-25 Dyson SV50 同型號原購買頁公開NT$16,999，可下單；未另扣個人券、點數或信用卡回饋。",
+      "amount": 19900,
+      "converted": 19900,
+      "confidence": "2026-11-27 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-27 Dyson SV50 同型號原購買頁公開NT$19,900，可下單；未另扣個人券、點數或信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX00A900JPJ7H/000001_1777291832.jpg",
@@ -2255,8 +2255,8 @@
     "price": {
       "currency": "USD",
       "amount": 679.99,
-      "converted": 22384,
-      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-11-25 匯率換算",
+      "converted": 22547,
+      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-11-26 匯率換算",
       "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
     },
     "image": "https://m.media-amazon.com/images/I/61Yuy5vtWFL._AC_SL1500_.jpg",
@@ -2296,14 +2296,14 @@
       "status": "found",
       "amount": 679.99,
       "currency": "USD",
-      "converted": 22384,
+      "converted": 22547,
       "sourceUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
       "sourceTitle": "Dreame Aero Ultra Steam Wet Dry Vacuum – Dreame Vacuum Mop",
       "evidenceSnippet": "Dreame 原廠美國商品頁於 2026-07-16 公開顯示特價 US$679.99、原價 US$799.99，且可 Add to Cart / Buy It Now。",
       "sourceKind": "official_sale",
       "confidence": "high",
       "checkedAt": "2026-07-16",
-      "note": "新上市商品目前可公開驗證的最低售價；未套用會員碼、信用卡、點數或個人化折扣，且未含國際運費、進口稅、插頭／供電與台灣保固風險；依 2026-11-25 USD/TWD 匯率換算。"
+      "note": "新上市商品目前可公開驗證的最低售價；未套用會員碼、信用卡、點數或個人化折扣，且未含國際運費、進口稅、插頭／供電與台灣保固風險；依 2026-11-26 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -3232,8 +3232,8 @@
       "amount": 17111,
       "converted": 17111,
       "basis": "retailer_current",
-      "confidence": "2026-11-26 核對原商品版本與供貨條件，金額保留先前參考價",
-      "note": "2026-11-26 石頭台灣官方原頁仍標預購、預計11月中旬依序出貨，交期需確認；保留先前NT$17,111參考價，原頁NT$17,888不當成可即時供貨現價或史低。"
+      "confidence": "2026-11-27 核對原商品版本與供貨條件，金額保留先前參考價",
+      "note": "2026-11-27 石頭台灣官方原頁仍標預購、預計11月中旬依序出貨，交期需確認；保留先前NT$17,111參考價，原頁NT$17,888不當成可即時供貨現價或史低。"
     },
     "image": "https://taiwan.roborock.com/cdn/shop/files/F25_Ultra_Steam_Gen_2_1_1200x1200.png?v=1790784065",
     "buyUrl": "https://taiwan.roborock.com/products/roborock-f25-ultra-steam-gen2",
@@ -3525,8 +3525,8 @@
       "amount": 10999,
       "converted": 10999,
       "basis": "retailer_current",
-      "confidence": "2026-11-23 Costco161292主商品同型號、公開價格及可用加入購物車按鈕；非推薦列。",
-      "note": "Costco公開NT$10,999含運，需好市多會員；未扣個人券、點數或刷卡回饋。廠商原箱配送，未配送離島；實際庫存及交期依訂單。"
+      "confidence": "2026-11-27 原商品主區需登入顯示價格，保留先前參考價",
+      "note": "2026-11-27 Costco同一SKU原商品主區需登入顯示價格，當日沒有可重現的公開單品價；本卡金額保留為先前參考價，實際會員可購金額與供貨請登入原頁確認。"
     },
     "installation": {
       "status": "not_stated",
@@ -3534,7 +3534,7 @@
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h04/h27/483940575150110.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Small-Appliances/Vacuums-Floor-Care/Roborock-Floor-Scrubber-F25-GEN2-WD5M21A/p/161292",
-    "buyLabel": "Costco台灣新品（需會員／含運）",
+    "buyLabel": "Costco 好市多（登入確認價格／先前參考價）",
     "specs": [
       "類型：直立乾濕洗地機；台灣WD5M21A，專用多功能充電座MDS48LRR",
       "清潔：原廠標示20,000Pa、20N拖地下壓力；AI髒污檢測",

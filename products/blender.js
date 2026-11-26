@@ -404,8 +404,8 @@
     "price": {
       "currency": "USD",
       "amount": 99.99,
-      "converted": 3291,
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件；ExchangeRate-API 2026-11-25 匯率換算",
+      "converted": 3315,
+      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件；ExchangeRate-API 2026-11-26 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-23 Abt美國同BN701公開US$99.99，已含廠商公開折扣至2026-12-05（美國通路日期），未含國際運費、進口稅、電壓／插頭及台灣保固風險。美國配送與退換貨條件以原頁為準。"
     },
@@ -442,14 +442,14 @@
       "status": "found",
       "amount": 79.99,
       "currency": "USD",
-      "converted": 2633,
+      "converted": 2652,
       "sourceUrl": "https://deal.ai/p/ninja-bn701-professional-plus-blender-6aef3cebb87d9ffb97235f94",
       "sourceTitle": "Deal.ai – Ninja BN701 Professional Plus Blender price history (Abt Electronics)",
       "evidenceSnippet": "Deal.ai 的 BN701 72 oz 逐店紀錄於 2026-11-15 20:34 UTC 擷取 Abt Electronics 新品有貨 US$79.99。Abt 美國原商品頁同型 BN701、UPC 622356561884，11/18 仍為公開售價 US$79.99（原廠即時折讓至 11/21）。",
       "sourceKind": "price_history",
       "confidence": "medium",
       "checkedAt": "2026-11-18",
-      "note": "採同型同規格新品通路公開價，中介歷史紀錄已與同一原通路 SKU、金額及可購狀態核對。未含國際運費與進口稅；須確認 120V 電壓、插頭或轉運條件及台灣保固；依 2026-11-25 USD/TWD 匯率換算。"
+      "note": "採同型同規格新品通路公開價，中介歷史紀錄已與同一原通路 SKU、金額及可購狀態核對。未含國際運費與進口稅；須確認 120V 電壓、插頭或轉運條件及台灣保固；依 2026-11-26 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "common_issue",

@@ -417,8 +417,8 @@
     "price": {
       "currency": "USD",
       "amount": 499.95,
-      "converted": 16457,
-      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-11-25 匯率換算"
+      "converted": 16577,
+      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-11-26 匯率換算"
     },
     "image": "https://assets.breville.com/cdn-cgi/image/width=1300,format=auto/BOV950/BOV950BSS1BUS1/pdp3.png?pdp=",
     "buyUrl": "https://www.breville.com/en-us/product/bov950",
@@ -918,8 +918,8 @@
       "currency": "TWD",
       "amount": 9999,
       "converted": 9999,
-      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-26 PChome 同CSO-500TW公開價NT$9,999，未另扣個人券、點數與信用卡回饋。",
+      "confidence": "2026-11-27 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-27 PChome 同CSO-500TW採同頁網路常態參考價NT$9,999，未另扣個人券、點數與信用卡回饋。查核時另有短期限時價NT$9,499，活動至2026/11/27 07:59:59（台灣時間），未納入常態參考，下單前請重查原頁活動。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900HF91A/000001_1768545220.jpg",
@@ -1417,8 +1417,8 @@
       "currency": "TWD",
       "amount": 15800,
       "converted": 15800,
-      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-26 PChome 同WSO322EB公開價NT$15,800，未另扣個人券、點數與信用卡回饋。",
+      "confidence": "2026-11-27 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-27 PChome 同WSO322EB採同頁網路常態參考價NT$15,800，未另扣個人券、點數與信用卡回饋。查核時另有短期限時價NT$15,484，活動至2026/11/27 07:59:59（台灣時間），未納入常態參考，下單前請重查原頁活動。",
       "basis": "retailer_current"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMBJ6QA900EO9M8/000001_1716271473.jpg",
@@ -1916,9 +1916,9 @@
       "currency": "TWD",
       "amount": 41724,
       "converted": 41724,
-      "confidence": "2026-11-26 原商品頁的實際下單折扣未完整確認，保留先前參考價",
+      "confidence": "2026-11-27 原商品頁的實際下單折扣未完整確認，保留先前參考價",
       "basis": "retailer_current",
-      "note": "2026-11-26 原商品頁網路價NT$43,920；另顯示「下單再折」，公開單件折扣的完整條件尚未確認，卡片保留先前NT$41,724參考價。下單前請確認實際折扣；未扣個人券、點數或信用卡回饋。"
+      "note": "2026-11-27 原商品頁網路價NT$43,920；另顯示「下單再折」，公開單件折扣的完整條件尚未確認，卡片保留先前NT$41,724參考價。下單前請確認實際折扣；未扣個人券、點數或信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900H5125/000001_1783054719.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ7E-A900GKOOI",
@@ -2118,8 +2118,8 @@
       "currency": "TWD",
       "amount": 1749,
       "converted": 1749,
-      "confidence": "2026-11-26 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-26 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "confidence": "2026-11-27 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-27 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/hd8/h30/308063201099806.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Kitchen-Appliances/Cookers-Oven-Microwaves-Food-Waste-Machine/Gourmia-Digital-Air-Fryer-GAF858/p/6232432",
@@ -2321,8 +2321,8 @@
     "price": {
       "currency": "USD",
       "amount": 449.99,
-      "converted": 14813,
-      "confidence": "2026-11-04 Chrome人工核對原商品主價、所選版本及購買／預購CTA；依當日匯率換算TWD。；ExchangeRate-API 2026-11-25 匯率換算",
+      "converted": 14921,
+      "confidence": "2026-11-04 Chrome人工核對原商品主價、所選版本及購買／預購CTA；依當日匯率換算TWD。；ExchangeRate-API 2026-11-26 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-05 人工覆核：原生Chrome原buyURL選定Silver MW101，主機主區449.99USD、Quantity1、主機Addtocart可見啟用，完整載入再次確認。黑色另為MW101BK1／449.99／OutofStock，未轉移。台灣配送未確認，未含國際運費、進口稅、電壓／插頭及台灣保固風險。 不扣個人化折價券、點數、信用卡回饋或贈品價值。"
     },

@@ -799,9 +799,9 @@
       "currency": "TWD",
       "amount": 13410,
       "converted": 13410,
-      "confidence": "2026-11-26 核對原刊登供貨條件，金額保留為先前參考價",
+      "confidence": "2026-11-27 核對原刊登供貨條件，金額保留為先前參考價",
       "basis": "retailer_current",
-      "note": "2026-11-26 原商品頁仍為預購，預計出貨日 2026/11/28 - 2026/12/01；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "note": "2026-11-27 原商品頁仍為預購，預計出貨日 2026/11/29 - 2026/12/01；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAKFOA900BWWGS/000001_1755481797.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAKFO-A900BWWGS",
@@ -924,17 +924,17 @@
     ],
     "releaseDate": "1994",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 38900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Herman Miller Aeron C Size: Momo富邦購物 【Herman Miller】Aeron 2.0 人體工學椅 全功能 一般腳座 石墨黑 DW扶手 C size(平行輸入) 型號/規格不相符；LBJ Herman Miller Aeron C Size: Momo富邦購物 【Herman Miller】Aeron 2.0 人體工學椅 全功能 金屬腳座 鋁合金材質 碳灰色 DW扶手 C size(平行輸入) 型號/規格不相符；LBJ Herman Miller Aeron C Size: Momo富邦購物 【Herman Miller】Aeron 全功能 - 石墨黑｜C SIZE｜世代家具｜原廠授權代理商(人體工學椅/電腦椅/辦公椅) 型號/規格不相符。"
+      "converted": 38900,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DCBV09-A900IUC3Q",
+      "sourceTitle": "Lowcast 比價趨勢：PChome Herman Miller 【世代家具】Aeron 人體工學椅 - 全功能｜石墨黑｜C SIZE｜原廠授權代理商",
+      "evidenceSnippet": "Lowcast 同一 PChome SKU DCBV09-A900IUC3Q 的67天記錄摘要最低為 NT$38,900，2026-11-21歷史點同額；當日原主頁同Aeron C Size公開單件價38,900、可宅配與可用購買動作，API Qty 1。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-27",
+      "note": "僅為同型號同規格、同一PChome新品刊登67天可驗證價格記錄最低，不保證全網或上市以來最低；67天為來源摘要明示範圍，初始圖表載入29天。未扣個人券、點數、信用卡回饋、贈品或會員個人優惠。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1086,8 +1086,8 @@
       "currency": "TWD",
       "amount": 7990,
       "converted": 7990,
-      "confidence": "2026-11-26 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-26 原商品頁仍為預購，預計出貨日 2026/12/07 - 2026/12/09；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
+      "confidence": "2026-11-27 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-27 原商品頁仍為預購，預計出貨日 2026/12/08 - 2026/12/10；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ0AA900IGLW6/000001_1759990112.jpg",
@@ -1130,8 +1130,8 @@
       "evidenceSnippet": "",
       "sourceKind": "not_found",
       "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Backbone Kangaroo Pro: 蝦皮商城 - 臺灣高空旗艦館 Backbone Kangaroo Pro™ & Punch｜人體工學椅 型號/規格不相符；LBJ Backbone Kangaroo Pro: Momo富邦購物 【Backbone】Kangaroo Pro™人體工學椅 升級款(袋鼠椅/電腦椅/辦公椅/透氣網椅) 型號/規格不相符；LBJ Backbone Kangaroo Pro: PCHome購物 Backbone Kangaroo Pro人體工學椅｜升級款｜袋鼠椅/電腦椅/辦公椅/透氣網椅 型號/規格不相符。"
+      "checkedAt": "2026-11-27",
+      "note": "2026-11-27 同SKU過去11/15最低7,590與公開價及CTA一致，但該日原頁存證沒有完整配送／預購條件，不能由API Qty或今天交期回推當日可交付，維持not_found。"
     },
     "issueResearch": {
       "status": "no_common_issue",

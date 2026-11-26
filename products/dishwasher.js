@@ -120,9 +120,9 @@
       "currency": "TWD",
       "amount": 6711,
       "converted": 6711,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "confidence": "2026-11-27 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$6711，API Qty 20；個人券、點數、信用卡回饋及配送安裝費另計。"
+      "note": "2026-11-27 PChome 同XYFYW-5001CBW公開價NT$6,711，未另扣個人券、點數與信用卡回饋。公開活動至2026-12-31T23:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -533,10 +533,10 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR35A900JVAOT/000001_1782872320.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 29900,
-      "converted": 29900,
-      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-26 PChome 同EFF3360VWB公開價NT$29,900，未另扣個人券、點數與信用卡回饋。",
+      "amount": 28888,
+      "converted": 28888,
+      "confidence": "2026-11-27 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-27 PChome 同EFF3360VWB公開價NT$28,888，未另扣個人券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -843,11 +843,11 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR25A900IUNDB/000001_1747970581.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 25600,
-      "converted": 25600,
-      "confidence": "PChome 2026-11-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 20480,
+      "converted": 20480,
+      "confidence": "2026-11-27 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-12 PChome 原 SKU 公開價 NT$25600，API Qty 1；個人券、點數、信用卡回饋及配送安裝費另計。"
+      "note": "2026-11-27 PChome 同H500公開價NT$20,480，未另扣個人券、點數與信用卡回饋。公開活動至2026-12-31T23:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -888,16 +888,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 21667,
+      "amount": 20480,
       "currency": "TWD",
-      "converted": 21667,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1246131979&cgp=23040",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Haier 海爾】16人份 自動開門 AI變頻獨嵌兩用洗碗機H500(HDWE16-48SC5SA 不含安裝)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Haier 海爾】16人份 自動開門 AI變頻獨嵌兩用洗碗機H500(HDWE16-48SC5SA 不含安裝)」最低價為 NT$21,667，最低點日期 2026-03-20。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 20480,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMBR25-A900IUNDB",
+      "sourceTitle": "Haier H500 原商品頁",
+      "evidenceSnippet": "2026-11-27 PChome DMBR25-A900IUNDB 原商品主區、完整型號／選定版本及可用購買動作已人工核對，API Qty 1；採公開價 NT$20,480。 公開活動至 2026-12-31T23:59:59+08:00。 低於原有同款紀錄。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-11-27",
+      "note": "採同型號同規格可信新品公開價，不含個人券、點數、會員個人化折扣與信用卡回饋。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1980,8 +1980,8 @@
       "currency": "TWD",
       "amount": 12999,
       "converted": 12999,
-      "confidence": "2026-11-26 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-26 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
+      "confidence": "2026-11-27 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-27 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR24A900JFSR7/000001_1762761618.jpg",
@@ -2077,9 +2077,11 @@
     "name": "45公分 獨立式洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 25599,
-      "converted": 25599,
-      "confidence": "Costco 好市多 2026-08-17 exact-model 公開結構化價格"
+      "amount": 20769,
+      "converted": 20769,
+      "confidence": "2026-11-27 核對原商品主區及同一商品公開價和供貨條件",
+      "basis": "retailer_current",
+      "note": "2026-11-27 Costco好市多同SPS2IKW00X公開單品價NT$20,769（含運），需具好市多會員資格；未扣聯名卡好多金、黑鑽會員回饋或個人優惠。 原主區明示2026/11/27–2026/11/29限購期間，每帳號每3天限購1組；此處保守以期間結束為參考價截止，下單前請重查。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h3d/h7a/66317147242526.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Kitchen-Appliances/Dishwashers-Dish-Dryers/BOSCH-45-cm-Freestanding-Dishwasher-SPS2IKW00X/p/131781",
@@ -2176,9 +2178,9 @@
       "currency": "TWD",
       "amount": 26859,
       "converted": 26859,
-      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-27 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-26 Costco好市多同SMS4ITW00X公開單品價NT$26,859（含運），需具好市多會員資格；未扣聯名卡好多金、黑鑽會員回饋或個人優惠。 原主區明示2026/11/26–2026/11/29限購期間，每帳號每4天限購1組；此處保守以期間結束為參考價截止，下單前請重查。"
+      "note": "2026-11-27 Costco好市多同SMS4ITW00X公開單品價NT$26,859（含運），需具好市多會員資格；未扣聯名卡好多金、黑鑽會員回饋或個人優惠。 原主區明示2026/11/26–2026/11/29限購期間，每帳號每4天限購1組；此處保守以期間結束為參考價截止，下單前請重查。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h60/hd2/205293596377118.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Kitchen-Appliances/Dishwashers-Dish-Dryers/BOSCH-60-cm-Series-4-Freestanding-Dishwasher-SMS4ITW00X/p/143549",
