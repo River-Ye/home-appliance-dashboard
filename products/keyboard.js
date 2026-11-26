@@ -2328,8 +2328,8 @@
       "currency": "TWD",
       "amount": 3088,
       "converted": 3088,
-      "confidence": "2026-11-25 核對原商品版本與供貨條件，金額保留先前參考價",
-      "note": "2026-11-25 Keychron原頁同復古色矮紅軸KBKCK3MQ1T已售完，保留先前NT$3,088參考價；目前顯示NT$3,490但不可下單，不改採黑色或其他軸體價格。"
+      "confidence": "2026-11-26 核對原商品版本與供貨條件，金額保留先前參考價",
+      "note": "2026-11-26 Keychron原頁同復古色矮紅軸KBKCK3MQ1T已售完，保留先前NT$3,088參考價；目前顯示NT$3,490但不可下單，不改採黑色或其他軸體價格。"
     },
     "installation": {
       "status": "not_stated",

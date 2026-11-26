@@ -15,10 +15,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/AC7DC27581-SP-22704432.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 9143,
-      "converted": 9143,
-      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-25 PChome 同NH-80RZ-W公開價NT$9,143，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-25T08:59:59+08:00。",
+      "amount": 9351,
+      "converted": 9351,
+      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-26 PChome 同NH-80RZ-W公開價NT$9,351，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。",
       "basis": "retailer_current"
     },
     "channel": "tw",

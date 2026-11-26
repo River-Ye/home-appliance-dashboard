@@ -1,9 +1,9 @@
 {
   "summary": {
-    "checkedAt": "2026-11-23T00:00:00+08:00",
-    "total": 1289,
+    "checkedAt": "2026-11-26T00:00:00+08:00",
+    "total": 1290,
     "commonIssueProducts": 55,
-    "noCommonIssueProducts": 1234,
+    "noCommonIssueProducts": 1235,
     "pendingManualReview": 0,
     "commonIssues": 56,
     "searchUnavailable": 614,
@@ -54,9 +54,10 @@
       "2026-11-20 新收錄型號逐款核對所列平台的 exact-model 查詢及候選；其餘商品的原查核日期保留。",
       "2026-11-22 新增Mobi Fold珍珠白910-007634，人工核對20個原頁候選。觸控捲動4位跨兩站，中鍵按住7位僅Reddit；未達同問題6人且跨2站門檻。未知SKU與修復未確認限制保留。既有逐筆研究日期不變。",
       "2026-11-23 新增M850 Lconsumer石墨黑910-007723，人工處置14個候選（11頁原文可重現，另三個二手/影片頁未能獨立重現並排除為證據）；品牌泛論、其他型號、未知SKU與OpenLogi個案分開，未達同問題6人且跨2站。既有逐筆研究日期不變。",
-      "2026-11-23 新增WD5M21A／H9A4A人工查詢Mobile01及Reddit硬體型號＋商品名，並延伸PTT、商品名；F25逐讀Costco兩評（僅一名負向一站）、Hatena非實機、EFTM其他LT型；H60逐讀Kukinews單一韓國評測與Nate同文，均不足同問題六名跨兩原始網站。查詢稀少不表示完全無負評。舊逐筆日期不變。"
+      "2026-11-23 新增WD5M21A／H9A4A人工查詢Mobile01及Reddit硬體型號＋商品名，並延伸PTT、商品名；F25逐讀Costco兩評（僅一名負向一站）、Hatena非實機、EFTM其他LT型；H60逐讀Kukinews單一韓國評測與Nate同文，均不足同問題六名跨兩原始網站。查詢稀少不表示完全無負評。舊逐筆日期不變。",
+      "2026-11-26 新增TCL65C7L，逐項人工覆核PTT、Mobile01及Costco共18筆原頁候選，未達同問題6人且跨2站；既有1289筆逐型號研究日期不變。"
     ],
-    "researchedThisRun": 3
+    "researchedThisRun": 1
   },
   "results": [
     {
@@ -239310,6 +239311,967 @@
           "reviewBasis": "manual_web_original_page",
           "crossPostKey": "kukinews-kuk202607270173-ihyemin",
           "reason": "同一Kukinews文章跨站轉載，不能當第二網站的獨立使用者；未證實台灣H9A4A版本，零新增計入人數。"
+        }
+      ],
+      "reports": [],
+      "evidence": []
+    },
+    {
+      "id": "tv-tcl-65c7l",
+      "category": "tv",
+      "brand": "TCL",
+      "model": "65C7L",
+      "name": "65 吋 C7L SQD-Mini LED 4K Google TV 顯示器",
+      "identity": {
+        "canonicalModel": "65C7L",
+        "lookupLabel": "TCL 65C7L",
+        "aliases": [
+          "65 C7L"
+        ],
+        "evidenceUrl": "https://www.tcl-shop.com.tw/item/218/?W=Shop"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "id": "tv-tcl-65c7l",
+        "category": "tv",
+        "brand": "TCL",
+        "model": "65C7L",
+        "name": "65 吋 C7L SQD-Mini LED 4K Google TV 顯示器",
+        "status": "completed",
+        "reviewedAt": "2026-11-26",
+        "reviewBatch": "tv",
+        "decision": "no_common_issue",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT",
+          "Reddit",
+          "Costco"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"TCL\" \"65C7L\" (問題 OR 故障 OR 心得)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22TCL%22%20%2265C7L%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97%29",
+            "searchProvider": "Bing RSS; alternate web search domain queries and native original-page review",
+            "queryEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-query-mobile01.json"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"TCL\" \"65C7L\" (問題 OR 故障 OR 心得)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22TCL%22%20%2265C7L%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97%29",
+            "searchProvider": "Bing RSS; alternate web search domain queries and native original-page review",
+            "queryEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-query-ptt.json"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"TCL\" \"65C7L\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TCL%22%20%2265C7L%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20failure%29",
+            "searchProvider": "Bing RSS; alternate web search domain queries and native original-page review",
+            "queryEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-query-reddit.json"
+          }
+        ],
+        "candidateDisposition": "65C7L：本輪原生Chrome逐讀PTT三篇前次403候選並補四篇業代原文；Mobile01六組選購候選及必要分頁逐項核對，Costco同SKU一筆五星無文。所見負面症狀為Sony X90J、三星、C8K或未指型號的Mini LED泛論，不能轉用本65C7L；未達同一問題六位可辨識獨立使用者且跨兩原始網站。Bing RSS曾回無關TCL廣泛結果、Google有CAPTCHA，另以實際web搜尋完整型號發現上述原頁；不把阻擋或空搜尋當零負評。",
+        "representativeSources": [
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/Digitalhome/M.1793262928.A.130.html",
+            "title": "[問題] TCL 65吋電視推薦 - 看板 Digitalhome - 批踢踢實業坊"
+          },
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/Digitalhome/M.1792655158.A.D39.html",
+            "title": "[問題] 好市多特價三星75吋跟奇美新出的miniLED - 看板 Digitalhome - 批踢踢實業坊"
+          },
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/Digitalhome/M.1788108104.A.2FE.html",
+            "title": "[情報] 好市多 TCL 65C8L 特價 - 看板 Digitalhome - 批踢踢實業坊"
+          },
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/Digitalhome/M.1775026907.A.129.html",
+            "title": "[業代] 各電視品牌優惠，原廠公司貨，非代購 - 看板 Digitalhome - 批踢踢實業坊"
+          },
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/Digitalhome/M.1785598290.A.B5D.html",
+            "title": "[業代] 把拔節就搬台電視回家吧 各大品牌促銷中 - 看板 Digitalhome - 批踢踢實業坊"
+          },
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/Digitalhome/M.1782915195.A.D2B.html",
+            "title": "[業代] 電視促銷來了LG TCL TOSHIBA SONY SAMSUN - 看板 Digitalhome - 批踢踢實業坊"
+          },
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/Digitalhome/M.1780327374.A.413.html",
+            "title": "[業代] 618電視促銷節來了！LG TCL TOSHIBA SONY - 看板 Digitalhome - 批踢踢實業坊"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=347&p=1&t=7314536",
+            "title": "Q7D Pro跟C7L會差很多嗎? - Mobile01"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7309015",
+            "title": "65吋電視抉擇 有選手 - Mobile01"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7309015&p=2",
+            "title": "65吋電視抉擇 有選手 (第2頁) - Mobile01"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7307465",
+            "title": "65吋四萬內MiniLED推薦 - Mobile01"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7307465&p=2",
+            "title": "65吋四萬內MiniLED推薦 (第2頁) - Mobile01"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7307465&p=3",
+            "title": "65吋四萬內MiniLED推薦 (第3頁) - Mobile01"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=347&p=1&t=7312407",
+            "title": "2026年 台灣市場 各品牌次旗艦 65吋QD-Mini LED 電視推薦 選購建議 - Mobile01"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7288328",
+            "title": "煩請推薦電視，感激不盡🙏 - Mobile01"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7288328&p=2",
+            "title": "煩請推薦電視，感激不盡🙏 (第2頁) - Mobile01"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=347&p=8&t=7271396",
+            "title": "Tcl 55 c7l與sony 55 bravia3 II 都是3萬內該選那台好？ (第8頁) - Mobile01"
+          },
+          {
+            "platform": "Costco",
+            "url": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Televisions-TV-Accessories/60-69-TVs/TCL-65-inch-C7L-Premium-SQD-Mini-LED-Smart-Monitor-without-Tuner-Box-65C7L/p/161712",
+            "title": "Costco161712 65C7L唯一原始評價"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/Digitalhome/M.1793262928.A.130.html",
+            "title": "[問題] TCL 65吋電視推薦 - 看板 Digitalhome - 批踢踢實業坊",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "coco2262",
+              "nickname1o1",
+              "jokago",
+              "TsaoJJ",
+              "pesta0121"
+            ],
+            "negativeReportAuthors": [],
+            "locator": "主文及10/30–11/07推文",
+            "sourceExcerpt": "樓主尚在選購；nickname1o1提好市多65C7L特價，jokago推薦；TsaoJJ及pesta0121只談momo短時價格。",
+            "specificReason": "沒有本型號第一人稱故障；LG舊機故障、價格與是否值得買均不計入65C7L負評。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-26",
+            "reviewBasis": "manual_native_original_page",
+            "reviewEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-ptt-1793262928.json"
+          },
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/Digitalhome/M.1792655158.A.D39.html",
+            "title": "[問題] 好市多特價三星75吋跟奇美新出的miniLED - 看板 Digitalhome - 批踢踢實業坊",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "karta2320228",
+              "skybird0414",
+              "neowfish"
+            ],
+            "negativeReportAuthors": [],
+            "locator": "主文與skybird0414 10/22 17:33推文",
+            "sourceExcerpt": "skybird0414只說好市多65C7L活動價不錯；主文比較三星75吋與奇美，後續冷筍/過保故障討論指三星。",
+            "specificReason": "65C7L僅被推薦；不得把三星或品牌泛稱可靠性議論當65C7L第一人稱故障。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-26",
+            "reviewBasis": "manual_native_original_page",
+            "reviewEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-ptt-1792655158.json"
+          },
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/Digitalhome/M.1788108104.A.2FE.html",
+            "title": "[情報] 好市多 TCL 65C8L 特價 - 看板 Digitalhome - 批踢踢實業坊",
+            "exactModel": false,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "yoyo2237",
+              "feverpt",
+              "azurecup"
+            ],
+            "negativeReportAuthors": [],
+            "locator": "主文65C8L及feverpt 09/01 11:23推文",
+            "sourceExcerpt": "主商品是65C8L特價；feverpt說價格與65C7L相同，自己C8K太早買。",
+            "specificReason": "65C7L只用於價格對照；下訂/安裝與疑問皆對65C8L/C8K，不轉用為本型號故障。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-26",
+            "reviewBasis": "manual_native_original_page",
+            "reviewEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-ptt-1788108104.json"
+          },
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/Digitalhome/M.1775026907.A.129.html",
+            "title": "[業代] 各電視品牌優惠，原廠公司貨，非代購 - 看板 Digitalhome - 批踢踢實業坊",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "a10060428"
+            ],
+            "negativeReportAuthors": [],
+            "locator": "原文標題[業代]與TCL價格表",
+            "sourceExcerpt": "業代價格表含65C7L 38900，說明為公司貨與安裝販售。",
+            "specificReason": "商業價目表，非買家第一人稱使用回報，亦無過去固定版本條件可用來建立史低。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-26",
+            "reviewBasis": "manual_native_original_page",
+            "reviewEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-ptt-1775026907.json"
+          },
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/Digitalhome/M.1785598290.A.B5D.html",
+            "title": "[業代] 把拔節就搬台電視回家吧 各大品牌促銷中 - 看板 Digitalhome - 批踢踢實業坊",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "BestCaviar"
+            ],
+            "negativeReportAuthors": [],
+            "locator": "原文[業代]與2026 NEW-SQD MINI LED價表",
+            "sourceExcerpt": "BestCaviar列65C7L 42990及運送桌放安裝。",
+            "specificReason": "商業販售與價格表，無本型號第一人稱故障；同一賣家跨篇不算獨立使用者。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-26",
+            "reviewBasis": "manual_native_original_page",
+            "reviewEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-ptt-1785598290.json"
+          },
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/Digitalhome/M.1782915195.A.D2B.html",
+            "title": "[業代] 電視促銷來了LG TCL TOSHIBA SONY SAMSUN - 看板 Digitalhome - 批踢踢實業坊",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "BestCaviar"
+            ],
+            "negativeReportAuthors": [],
+            "locator": "原文[業代]TCL價表",
+            "sourceExcerpt": "BestCaviar列65C7L 49990，另寫現金優惠加賴報價。",
+            "specificReason": "商業報價、非原始使用者故障，私訊議價也不作公開史低證據。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-26",
+            "reviewBasis": "manual_native_original_page",
+            "reviewEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-ptt-1782915195.json"
+          },
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/Digitalhome/M.1780327374.A.413.html",
+            "title": "[業代] 618電視促銷節來了！LG TCL TOSHIBA SONY - 看板 Digitalhome - 批踢踢實業坊",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "BestCaviar"
+            ],
+            "negativeReportAuthors": [],
+            "locator": "原文[業代]TCL各世代價表",
+            "sourceExcerpt": "BestCaviar列65C7L 49990，文中C7K停產敘述為業代而非品牌官方公告。",
+            "specificReason": "沒有本型號第一人稱故障；不得將C7K訊息、賣家多篇轉載或推銷計入本款災情。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-26",
+            "reviewBasis": "manual_native_original_page",
+            "reviewEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-ptt-1780327374.json"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=347&p=1&t=7314536",
+            "title": "Q7D Pro跟C7L會差很多嗎? - Mobile01",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "丹尼斯90803",
+              "01user0w0",
+              "mickyteng"
+            ],
+            "negativeReportAuthors": [],
+            "locator": "#1–8",
+            "sourceExcerpt": "樓主原43吋遙控器壞掉後想換機；回覆討論65C7L與Q7D Pro價差，mickyteng回顧好市多上月31999。",
+            "specificReason": "損壞是原先43吋舊機；本款討論為選購/價格，無65C7L第一人稱故障。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-26",
+            "reviewBasis": "manual_native_original_page",
+            "reviewEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-mobile01-7314536.json"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7309015",
+            "title": "65吋電視抉擇 有選手 - Mobile01",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "ByYaDoFu",
+              "01user0w0",
+              "gogoswimev"
+            ],
+            "negativeReportAuthors": [],
+            "locator": "#1–10",
+            "sourceExcerpt": "ByYaDoFu列65C7L31999候選；回覆推薦規格與黑位，沒有故障症狀。",
+            "specificReason": "價格正確性後續p2另有修正，沒有本型號第一人稱負向故障；不將推薦或推測當人數。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-26",
+            "reviewBasis": "manual_native_original_page",
+            "reviewEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-mobile01-7309015.json"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7309015&p=2",
+            "title": "65吋電視抉擇 有選手 (第2頁) - Mobile01",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "一天吃一餐的貓",
+              "wind0083",
+              "dirtsa"
+            ],
+            "negativeReportAuthors": [],
+            "locator": "#11–15及wind0083留言",
+            "sourceExcerpt": "wind0083指出31000是代購，原PO31999是蝦皮55吋最低選項誤看；其他回覆討論選購。",
+            "specificReason": "低價候選存在不同尺寸/代購風險，不作65C7L史低；未有本型號故障回報。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-26",
+            "reviewBasis": "manual_native_original_page",
+            "reviewEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-mobile01-7309015-p2.json"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7307465",
+            "title": "65吋四萬內MiniLED推薦 - Mobile01",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "otherwalk",
+              "01user0w0",
+              "wete",
+              "快樂1號"
+            ],
+            "negativeReportAuthors": [],
+            "locator": "#1–10及#3下wete留言",
+            "sourceExcerpt": "wete說剛刷好市多31999、需求C7L足夠；快樂1號使用的是Q7C；其餘畫質與品牌選購。",
+            "specificReason": "wete僅購買分享且無缺陷；Q7C/其他品牌負評與使用回報不轉用65C7L。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-26",
+            "reviewBasis": "manual_native_original_page",
+            "reviewEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-mobile01-7307465.json"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7307465&p=2",
+            "title": "65吋四萬內MiniLED推薦 (第2頁) - Mobile01",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "Su Li Ocean",
+              "yoyo4456",
+              "春生"
+            ],
+            "negativeReportAuthors": [],
+            "locator": "#11–20",
+            "sourceExcerpt": "Su Li Ocean稱C7L實機表現不錯；yoyo4456推薦會員31999方案；春生討論OLED世代與烙印。",
+            "specificReason": "未見65C7L第一人稱故障；OLED風險及C8L價格是不同產品議論。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-26",
+            "reviewBasis": "manual_native_original_page",
+            "reviewEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-mobile01-7307465-p2.json"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7307465&p=3",
+            "title": "65吋四萬內MiniLED推薦 (第3頁) - Mobile01",
+            "exactModel": false,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "matrixix",
+              "春江水暖鴨先知"
+            ],
+            "negativeReportAuthors": [],
+            "locator": "#21–23",
+            "sourceExcerpt": "matrixix泛稱Sony外Mini LED可能刺眼或顏色假，建議現場看；未指65C7L自己持有。",
+            "specificReason": "缺exact-model與第一人稱確認，不把泛品牌觀感算65C7L缺陷或獨立使用人數。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-26",
+            "reviewBasis": "manual_native_original_page",
+            "reviewEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-mobile01-7307465-p3.json"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=347&p=1&t=7312407",
+            "title": "2026年 台灣市場 各品牌次旗艦 65吋QD-Mini LED 電視推薦 選購建議 - Mobile01",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "AspJava",
+              "dirtsa",
+              "3C陌客"
+            ],
+            "negativeReportAuthors": [],
+            "locator": "#1作者身分及資料聲明、#2–4",
+            "sourceExcerpt": "AspJava自述為商店整理官網、AI與網紅資料，列65C7L規格；回覆為OLED與CP比較。",
+            "specificReason": "非原始買家故障回報；規格彙整與AI內容不計災情人數，也不用它建立規格事實。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-26",
+            "reviewBasis": "manual_native_original_page",
+            "reviewEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-mobile01-7312407.json"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7288328",
+            "title": "煩請推薦電視，感激不盡🙏 - Mobile01",
+            "exactModel": false,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "cjack_one",
+              "eno03",
+              "奈森德瑞克"
+            ],
+            "negativeReportAuthors": [],
+            "locator": "#1、#7–10",
+            "sourceExcerpt": "樓主Sony X90J搬家後面板橫線；eno03只推薦65C7L/C8K，奈森德瑞克買的是C8K。",
+            "specificReason": "原機Sony故障與C8K評論均不同型號；本款只作替代選購，不能算65C7L缺陷。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-26",
+            "reviewBasis": "manual_native_original_page",
+            "reviewEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-mobile01-7288328.json"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7288328&p=2",
+            "title": "煩請推薦電視，感激不盡🙏 (第2頁) - Mobile01",
+            "exactModel": false,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "01user0w0",
+              "春生",
+              "3C陌客"
+            ],
+            "negativeReportAuthors": [],
+            "locator": "#11–13",
+            "sourceExcerpt": "討論Sony原故障機是否值得修與其他品牌替代方案。",
+            "specificReason": "沒有65C7L原始使用回報；不同產品維修爭論不計。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-26",
+            "reviewBasis": "manual_native_original_page",
+            "reviewEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-mobile01-7288328-p2.json"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=347&p=8&t=7271396",
+            "title": "Tcl 55 c7l與sony 55 bravia3 II 都是3萬內該選那台好？ (第8頁) - Mobile01",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "Liner",
+              "春生",
+              "tamama2015tw"
+            ],
+            "negativeReportAuthors": [],
+            "locator": "#75及#71–80上下文",
+            "sourceExcerpt": "Liner說家人比較後買65C7L，安裝後畫質滿意；其餘多為55C7L/Sony/OLED的爭論。",
+            "specificReason": "Liner為正向使用分享，未報缺陷；55吋和Sony/OLED負評、轉述RTINGS不轉用本65吋型號。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-26",
+            "reviewBasis": "manual_native_original_page",
+            "reviewEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-mobile01-7271396-p8.json"
+          },
+          {
+            "platform": "Costco",
+            "url": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Televisions-TV-Accessories/60-69-TVs/TCL-65-inch-C7L-Premium-SQD-Mini-LED-Smart-Monitor-without-Tuner-Box-65C7L/p/161712",
+            "title": "Costco161712 65C7L唯一原始評價",
+            "exactModel": true,
+            "independentAuthors": 0,
+            "reviewedAuthors": [
+              "匿名"
+            ],
+            "negativeReportAuthors": [],
+            "locator": "主SKU161712 bv-jsonld-reviews-data；一筆五星、headline/reviewBody均null",
+            "sourceExcerpt": "原SKU一筆五星匿名評價，沒有評論文字或故障症狀。",
+            "specificReason": "五星空白評分不能證明零負評，也沒有可辨識的第一人稱故障可計入人數。",
+            "outcome": "excluded",
+            "reviewedAt": "2026-11-26",
+            "reviewBasis": "manual_native_original_page",
+            "reviewEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-costco-specification-native.json"
+          }
+        ],
+        "attestation": "manual_original_pages_reviewed",
+        "reviewerNote": "65C7L：本輪原生Chrome逐讀PTT三篇前次403候選並補四篇業代原文；Mobile01六組選購候選及必要分頁逐項核對，Costco同SKU一筆五星無文。所見負面症狀為Sony X90J、三星、C8K或未指型號的Mini LED泛論，不能轉用本65C7L；未達同一問題六位可辨識獨立使用者且跨兩原始網站。Bing RSS曾回無關TCL廣泛結果、Google有CAPTCHA，另以實際web搜尋完整型號發現上述原頁；不把阻擋或空搜尋當零負評。 本次人工逐頁判讀；不宣稱完全沒有負評。"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-11-26",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"TCL\" \"65C7L\" (問題 OR 故障 OR 心得)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22TCL%22%20%2265C7L%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97%29",
+            "searchProvider": "Bing RSS; alternate web search domain queries and native original-page review",
+            "queryEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-query-mobile01.json"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"TCL\" \"65C7L\" (問題 OR 故障 OR 心得)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22TCL%22%20%2265C7L%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97%29",
+            "searchProvider": "Bing RSS; alternate web search domain queries and native original-page review",
+            "queryEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-query-ptt.json"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"TCL\" \"65C7L\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TCL%22%20%2265C7L%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20failure%29",
+            "searchProvider": "Bing RSS; alternate web search domain queries and native original-page review",
+            "queryEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-query-reddit.json"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"TCL\" \"65C7L\" (問題 OR 故障 OR 心得)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22TCL%22%20%2265C7L%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97%29",
+          "searchProvider": "Bing RSS; alternate web search domain queries and native original-page review",
+          "queryEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-query-mobile01.json",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22TCL%22%20%2265C7L%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97%29",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-26T02:26:01.952169+00:00",
+          "note": "本筆實際Bing RSS精確查詢回廣泛TCL無關結果，經型號及目標網站邊界過濾為0個exact-model候選；不代表沒有負評或沒有人工覆核。另以實際web搜尋 site:mobile01.com \"65C7L\" 等替代查詢發現原頁，18筆candidateReviews已逐頁人工核對，結果詳manualReview。"
+        },
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"TCL\" \"65C7L\" (問題 OR 故障 OR 心得)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22TCL%22%20%2265C7L%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97%29",
+          "searchProvider": "Bing RSS; alternate web search domain queries and native original-page review",
+          "queryEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-query-ptt.json",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22TCL%22%20%2265C7L%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97%29",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-26T02:26:01.952169+00:00",
+          "note": "本筆實際Bing RSS精確查詢回廣泛TCL無關結果，經型號及目標網站邊界過濾為0個exact-model候選；不代表沒有負評或沒有人工覆核。另以實際web搜尋 site:ptt.cc \"65C7L\" 等替代查詢發現原頁，18筆candidateReviews已逐頁人工核對，結果詳manualReview。"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"TCL\" \"65C7L\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TCL%22%20%2265C7L%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20failure%29",
+          "searchProvider": "Bing RSS; alternate web search domain queries and native original-page review",
+          "queryEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-query-reddit.json",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TCL%22%20%2265C7L%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20failure%29",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-11-26T02:26:01.952169+00:00",
+          "note": "本筆實際Bing RSS精確查詢回廣泛TCL無關結果，經型號及目標網站邊界過濾為0個exact-model候選；不代表沒有負評或沒有人工覆核。另以實際web搜尋 site:reddit.com \"65C7L\" 等替代查詢發現原頁，18筆candidateReviews已逐頁人工核對，結果詳manualReview。"
+        }
+      ],
+      "rejectedCandidates": [
+        {
+          "platform": "PTT",
+          "url": "https://www.ptt.cc/bbs/Digitalhome/M.1793262928.A.130.html",
+          "title": "[問題] TCL 65吋電視推薦 - 看板 Digitalhome - 批踢踢實業坊",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "coco2262",
+            "nickname1o1",
+            "jokago",
+            "TsaoJJ",
+            "pesta0121"
+          ],
+          "negativeReportAuthors": [],
+          "locator": "主文及10/30–11/07推文",
+          "sourceExcerpt": "樓主尚在選購；nickname1o1提好市多65C7L特價，jokago推薦；TsaoJJ及pesta0121只談momo短時價格。",
+          "specificReason": "沒有本型號第一人稱故障；LG舊機故障、價格與是否值得買均不計入65C7L負評。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-26",
+          "reviewBasis": "manual_native_original_page",
+          "reviewEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-ptt-1793262928.json",
+          "reason": "沒有本型號第一人稱故障；LG舊機故障、價格與是否值得買均不計入65C7L負評。"
+        },
+        {
+          "platform": "PTT",
+          "url": "https://www.ptt.cc/bbs/Digitalhome/M.1792655158.A.D39.html",
+          "title": "[問題] 好市多特價三星75吋跟奇美新出的miniLED - 看板 Digitalhome - 批踢踢實業坊",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "karta2320228",
+            "skybird0414",
+            "neowfish"
+          ],
+          "negativeReportAuthors": [],
+          "locator": "主文與skybird0414 10/22 17:33推文",
+          "sourceExcerpt": "skybird0414只說好市多65C7L活動價不錯；主文比較三星75吋與奇美，後續冷筍/過保故障討論指三星。",
+          "specificReason": "65C7L僅被推薦；不得把三星或品牌泛稱可靠性議論當65C7L第一人稱故障。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-26",
+          "reviewBasis": "manual_native_original_page",
+          "reviewEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-ptt-1792655158.json",
+          "reason": "65C7L僅被推薦；不得把三星或品牌泛稱可靠性議論當65C7L第一人稱故障。"
+        },
+        {
+          "platform": "PTT",
+          "url": "https://www.ptt.cc/bbs/Digitalhome/M.1788108104.A.2FE.html",
+          "title": "[情報] 好市多 TCL 65C8L 特價 - 看板 Digitalhome - 批踢踢實業坊",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "yoyo2237",
+            "feverpt",
+            "azurecup"
+          ],
+          "negativeReportAuthors": [],
+          "locator": "主文65C8L及feverpt 09/01 11:23推文",
+          "sourceExcerpt": "主商品是65C8L特價；feverpt說價格與65C7L相同，自己C8K太早買。",
+          "specificReason": "65C7L只用於價格對照；下訂/安裝與疑問皆對65C8L/C8K，不轉用為本型號故障。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-26",
+          "reviewBasis": "manual_native_original_page",
+          "reviewEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-ptt-1788108104.json",
+          "reason": "65C7L只用於價格對照；下訂/安裝與疑問皆對65C8L/C8K，不轉用為本型號故障。"
+        },
+        {
+          "platform": "PTT",
+          "url": "https://www.ptt.cc/bbs/Digitalhome/M.1775026907.A.129.html",
+          "title": "[業代] 各電視品牌優惠，原廠公司貨，非代購 - 看板 Digitalhome - 批踢踢實業坊",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "a10060428"
+          ],
+          "negativeReportAuthors": [],
+          "locator": "原文標題[業代]與TCL價格表",
+          "sourceExcerpt": "業代價格表含65C7L 38900，說明為公司貨與安裝販售。",
+          "specificReason": "商業價目表，非買家第一人稱使用回報，亦無過去固定版本條件可用來建立史低。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-26",
+          "reviewBasis": "manual_native_original_page",
+          "reviewEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-ptt-1775026907.json",
+          "reason": "商業價目表，非買家第一人稱使用回報，亦無過去固定版本條件可用來建立史低。"
+        },
+        {
+          "platform": "PTT",
+          "url": "https://www.ptt.cc/bbs/Digitalhome/M.1785598290.A.B5D.html",
+          "title": "[業代] 把拔節就搬台電視回家吧 各大品牌促銷中 - 看板 Digitalhome - 批踢踢實業坊",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "BestCaviar"
+          ],
+          "negativeReportAuthors": [],
+          "locator": "原文[業代]與2026 NEW-SQD MINI LED價表",
+          "sourceExcerpt": "BestCaviar列65C7L 42990及運送桌放安裝。",
+          "specificReason": "商業販售與價格表，無本型號第一人稱故障；同一賣家跨篇不算獨立使用者。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-26",
+          "reviewBasis": "manual_native_original_page",
+          "reviewEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-ptt-1785598290.json",
+          "reason": "商業販售與價格表，無本型號第一人稱故障；同一賣家跨篇不算獨立使用者。"
+        },
+        {
+          "platform": "PTT",
+          "url": "https://www.ptt.cc/bbs/Digitalhome/M.1782915195.A.D2B.html",
+          "title": "[業代] 電視促銷來了LG TCL TOSHIBA SONY SAMSUN - 看板 Digitalhome - 批踢踢實業坊",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "BestCaviar"
+          ],
+          "negativeReportAuthors": [],
+          "locator": "原文[業代]TCL價表",
+          "sourceExcerpt": "BestCaviar列65C7L 49990，另寫現金優惠加賴報價。",
+          "specificReason": "商業報價、非原始使用者故障，私訊議價也不作公開史低證據。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-26",
+          "reviewBasis": "manual_native_original_page",
+          "reviewEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-ptt-1782915195.json",
+          "reason": "商業報價、非原始使用者故障，私訊議價也不作公開史低證據。"
+        },
+        {
+          "platform": "PTT",
+          "url": "https://www.ptt.cc/bbs/Digitalhome/M.1780327374.A.413.html",
+          "title": "[業代] 618電視促銷節來了！LG TCL TOSHIBA SONY - 看板 Digitalhome - 批踢踢實業坊",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "BestCaviar"
+          ],
+          "negativeReportAuthors": [],
+          "locator": "原文[業代]TCL各世代價表",
+          "sourceExcerpt": "BestCaviar列65C7L 49990，文中C7K停產敘述為業代而非品牌官方公告。",
+          "specificReason": "沒有本型號第一人稱故障；不得將C7K訊息、賣家多篇轉載或推銷計入本款災情。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-26",
+          "reviewBasis": "manual_native_original_page",
+          "reviewEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-ptt-1780327374.json",
+          "reason": "沒有本型號第一人稱故障；不得將C7K訊息、賣家多篇轉載或推銷計入本款災情。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=347&p=1&t=7314536",
+          "title": "Q7D Pro跟C7L會差很多嗎? - Mobile01",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "丹尼斯90803",
+            "01user0w0",
+            "mickyteng"
+          ],
+          "negativeReportAuthors": [],
+          "locator": "#1–8",
+          "sourceExcerpt": "樓主原43吋遙控器壞掉後想換機；回覆討論65C7L與Q7D Pro價差，mickyteng回顧好市多上月31999。",
+          "specificReason": "損壞是原先43吋舊機；本款討論為選購/價格，無65C7L第一人稱故障。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-26",
+          "reviewBasis": "manual_native_original_page",
+          "reviewEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-mobile01-7314536.json",
+          "reason": "損壞是原先43吋舊機；本款討論為選購/價格，無65C7L第一人稱故障。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7309015",
+          "title": "65吋電視抉擇 有選手 - Mobile01",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "ByYaDoFu",
+            "01user0w0",
+            "gogoswimev"
+          ],
+          "negativeReportAuthors": [],
+          "locator": "#1–10",
+          "sourceExcerpt": "ByYaDoFu列65C7L31999候選；回覆推薦規格與黑位，沒有故障症狀。",
+          "specificReason": "價格正確性後續p2另有修正，沒有本型號第一人稱負向故障；不將推薦或推測當人數。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-26",
+          "reviewBasis": "manual_native_original_page",
+          "reviewEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-mobile01-7309015.json",
+          "reason": "價格正確性後續p2另有修正，沒有本型號第一人稱負向故障；不將推薦或推測當人數。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7309015&p=2",
+          "title": "65吋電視抉擇 有選手 (第2頁) - Mobile01",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "一天吃一餐的貓",
+            "wind0083",
+            "dirtsa"
+          ],
+          "negativeReportAuthors": [],
+          "locator": "#11–15及wind0083留言",
+          "sourceExcerpt": "wind0083指出31000是代購，原PO31999是蝦皮55吋最低選項誤看；其他回覆討論選購。",
+          "specificReason": "低價候選存在不同尺寸/代購風險，不作65C7L史低；未有本型號故障回報。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-26",
+          "reviewBasis": "manual_native_original_page",
+          "reviewEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-mobile01-7309015-p2.json",
+          "reason": "低價候選存在不同尺寸/代購風險，不作65C7L史低；未有本型號故障回報。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7307465",
+          "title": "65吋四萬內MiniLED推薦 - Mobile01",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "otherwalk",
+            "01user0w0",
+            "wete",
+            "快樂1號"
+          ],
+          "negativeReportAuthors": [],
+          "locator": "#1–10及#3下wete留言",
+          "sourceExcerpt": "wete說剛刷好市多31999、需求C7L足夠；快樂1號使用的是Q7C；其餘畫質與品牌選購。",
+          "specificReason": "wete僅購買分享且無缺陷；Q7C/其他品牌負評與使用回報不轉用65C7L。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-26",
+          "reviewBasis": "manual_native_original_page",
+          "reviewEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-mobile01-7307465.json",
+          "reason": "wete僅購買分享且無缺陷；Q7C/其他品牌負評與使用回報不轉用65C7L。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7307465&p=2",
+          "title": "65吋四萬內MiniLED推薦 (第2頁) - Mobile01",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "Su Li Ocean",
+            "yoyo4456",
+            "春生"
+          ],
+          "negativeReportAuthors": [],
+          "locator": "#11–20",
+          "sourceExcerpt": "Su Li Ocean稱C7L實機表現不錯；yoyo4456推薦會員31999方案；春生討論OLED世代與烙印。",
+          "specificReason": "未見65C7L第一人稱故障；OLED風險及C8L價格是不同產品議論。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-26",
+          "reviewBasis": "manual_native_original_page",
+          "reviewEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-mobile01-7307465-p2.json",
+          "reason": "未見65C7L第一人稱故障；OLED風險及C8L價格是不同產品議論。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7307465&p=3",
+          "title": "65吋四萬內MiniLED推薦 (第3頁) - Mobile01",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "matrixix",
+            "春江水暖鴨先知"
+          ],
+          "negativeReportAuthors": [],
+          "locator": "#21–23",
+          "sourceExcerpt": "matrixix泛稱Sony外Mini LED可能刺眼或顏色假，建議現場看；未指65C7L自己持有。",
+          "specificReason": "缺exact-model與第一人稱確認，不把泛品牌觀感算65C7L缺陷或獨立使用人數。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-26",
+          "reviewBasis": "manual_native_original_page",
+          "reviewEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-mobile01-7307465-p3.json",
+          "reason": "缺exact-model與第一人稱確認，不把泛品牌觀感算65C7L缺陷或獨立使用人數。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=347&p=1&t=7312407",
+          "title": "2026年 台灣市場 各品牌次旗艦 65吋QD-Mini LED 電視推薦 選購建議 - Mobile01",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "AspJava",
+            "dirtsa",
+            "3C陌客"
+          ],
+          "negativeReportAuthors": [],
+          "locator": "#1作者身分及資料聲明、#2–4",
+          "sourceExcerpt": "AspJava自述為商店整理官網、AI與網紅資料，列65C7L規格；回覆為OLED與CP比較。",
+          "specificReason": "非原始買家故障回報；規格彙整與AI內容不計災情人數，也不用它建立規格事實。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-26",
+          "reviewBasis": "manual_native_original_page",
+          "reviewEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-mobile01-7312407.json",
+          "reason": "非原始買家故障回報；規格彙整與AI內容不計災情人數，也不用它建立規格事實。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7288328",
+          "title": "煩請推薦電視，感激不盡🙏 - Mobile01",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "cjack_one",
+            "eno03",
+            "奈森德瑞克"
+          ],
+          "negativeReportAuthors": [],
+          "locator": "#1、#7–10",
+          "sourceExcerpt": "樓主Sony X90J搬家後面板橫線；eno03只推薦65C7L/C8K，奈森德瑞克買的是C8K。",
+          "specificReason": "原機Sony故障與C8K評論均不同型號；本款只作替代選購，不能算65C7L缺陷。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-26",
+          "reviewBasis": "manual_native_original_page",
+          "reviewEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-mobile01-7288328.json",
+          "reason": "原機Sony故障與C8K評論均不同型號；本款只作替代選購，不能算65C7L缺陷。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7288328&p=2",
+          "title": "煩請推薦電視，感激不盡🙏 (第2頁) - Mobile01",
+          "exactModel": false,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "01user0w0",
+            "春生",
+            "3C陌客"
+          ],
+          "negativeReportAuthors": [],
+          "locator": "#11–13",
+          "sourceExcerpt": "討論Sony原故障機是否值得修與其他品牌替代方案。",
+          "specificReason": "沒有65C7L原始使用回報；不同產品維修爭論不計。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-26",
+          "reviewBasis": "manual_native_original_page",
+          "reviewEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-mobile01-7288328-p2.json",
+          "reason": "沒有65C7L原始使用回報；不同產品維修爭論不計。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=347&p=8&t=7271396",
+          "title": "Tcl 55 c7l與sony 55 bravia3 II 都是3萬內該選那台好？ (第8頁) - Mobile01",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "Liner",
+            "春生",
+            "tamama2015tw"
+          ],
+          "negativeReportAuthors": [],
+          "locator": "#75及#71–80上下文",
+          "sourceExcerpt": "Liner說家人比較後買65C7L，安裝後畫質滿意；其餘多為55C7L/Sony/OLED的爭論。",
+          "specificReason": "Liner為正向使用分享，未報缺陷；55吋和Sony/OLED負評、轉述RTINGS不轉用本65吋型號。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-26",
+          "reviewBasis": "manual_native_original_page",
+          "reviewEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-mobile01-7271396-p8.json",
+          "reason": "Liner為正向使用分享，未報缺陷；55吋和Sony/OLED負評、轉述RTINGS不轉用本65吋型號。"
+        },
+        {
+          "platform": "Costco",
+          "url": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Televisions-TV-Accessories/60-69-TVs/TCL-65-inch-C7L-Premium-SQD-Mini-LED-Smart-Monitor-without-Tuner-Box-65C7L/p/161712",
+          "title": "Costco161712 65C7L唯一原始評價",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "reviewedAuthors": [
+            "匿名"
+          ],
+          "negativeReportAuthors": [],
+          "locator": "主SKU161712 bv-jsonld-reviews-data；一筆五星、headline/reviewBody均null",
+          "sourceExcerpt": "原SKU一筆五星匿名評價，沒有評論文字或故障症狀。",
+          "specificReason": "五星空白評分不能證明零負評，也沒有可辨識的第一人稱故障可計入人數。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-11-26",
+          "reviewBasis": "manual_native_original_page",
+          "reviewEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-costco-specification-native.json",
+          "reason": "五星空白評分不能證明零負評，也沒有可辨識的第一人稱故障可計入人數。"
         }
       ],
       "reports": [],

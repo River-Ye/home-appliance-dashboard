@@ -648,8 +648,8 @@
       "evidenceSnippet": "",
       "sourceKind": "not_found",
       "confidence": "not_found",
-      "checkedAt": "2026-11-25",
-      "note": "2026-11-25 重查同一PChome SKU較低歷史點，未取得該低價當時的單件公開價及供貨條件完整原頁證據；維持找不到可靠史低。"
+      "checkedAt": "2026-11-26",
+      "note": "2026-11-26 重查同一PChome SKU較低歷史點，未取得該低價當時的單件公開價及供貨條件完整原頁證據；維持找不到可靠史低。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -844,8 +844,8 @@
       "evidenceSnippet": "",
       "sourceKind": "not_found",
       "confidence": "not_found",
-      "checkedAt": "2026-11-25",
-      "note": "2026-11-25 重查同一PChome SKU較低歷史點，未取得該低價當時的單件公開價及供貨條件完整原頁證據；維持找不到可靠史低。"
+      "checkedAt": "2026-11-26",
+      "note": "2026-11-26 重查同一PChome SKU較低歷史點，未取得該低價當時的單件公開價及供貨條件完整原頁證據；維持找不到可靠史低。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2022,9 +2022,9 @@
     "price": {
       "currency": "HKD",
       "amount": 9638,
-      "converted": 40361,
+      "converted": 40458,
       "basis": "retailer_current",
-      "confidence": "EasyLock 香港 2026-08-28 exact-model 公開促銷價；ExchangeRate-API 2026-11-24 匯率換算",
+      "confidence": "EasyLock 香港 2026-08-28 exact-model 公開促銷價；ExchangeRate-API 2026-11-25 匯率換算",
       "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。"
     },
     "installation": {
@@ -3082,11 +3082,11 @@
     "name": "FB90 築韻掌靜脈貓眼電子門鎖",
     "price": {
       "currency": "TWD",
-      "amount": 31455,
-      "converted": 31455,
-      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 42000,
+      "converted": 42000,
+      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-25 PChome 同FB90公開價NT$31,455，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-26T23:59:59+08:00。"
+      "note": "2026-11-26 PChome 同FB90公開價NT$42,000，未另扣個人券、點數與信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900J43AP/000001_1764829802.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900J43AP",
@@ -3763,14 +3763,15 @@
     "name": "G-11 指紋密碼電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 11210,
-      "converted": 11210,
-      "confidence": "PChome 2026-07-31 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-04 Chrome逐筆開啟原商品頁，頁面明示「本商品已熱銷一空，歡迎您繼續瀏覽其他商品」。此金額保留為先前參考價，未確認可購現價；通路售完不等同原廠停產。"
+      "amount": 9800,
+      "converted": 9800,
+      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-26 PChome 同G-11公開價NT$9,800，未另扣個人券、點數與信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900K1WBU/000001_1779862478.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900K1WBU",
-    "buyLabel": "PChome（原商品已售完，查看供貨）",
+    "buyLabel": "PChome",
     "specs": [
       "指紋/密碼",
       "卡片",
@@ -5138,11 +5139,11 @@
     "name": "DDL902-MFVP 掌靜脈人臉三鏡可視電子鎖（預購）",
     "price": {
       "currency": "TWD",
-      "amount": 31500,
-      "converted": 31500,
+      "amount": 33180,
+      "converted": 33180,
       "basis": "retailer_current",
-      "confidence": "2026-11-25 核對原商品版本與供貨條件，金額保留先前參考價",
-      "note": "2026-11-25 台灣總代理同DDL902-MFVP-11HWS曜石黑原頁仍為預購，預計11月底依序出貨；保留先前NT$31,500參考價，頁面NT$33,180預購價不當成現貨價或史低。"
+      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-26 台灣總代理同DDL902-MFVP-11HWS曜石黑公開NT$33,180，原頁已改現貨陸續寄出，可下單；安裝安排與交期請先確認，未扣輸碼、個人券、點數或信用卡回饋。"
     },
     "installation": {
       "status": "included_basic",
@@ -5150,7 +5151,7 @@
     },
     "image": "https://shop.ljtwm.com/cdn/shop/files/DDL902-2.jpg?v=1788414392",
     "buyUrl": "https://shop.ljtwm.com/products/philips-ddl902-mfvp?variant=43280997449937",
-    "buyLabel": "飛利浦台灣總代理商城（預購／11月底依序出貨）",
+    "buyLabel": "飛利浦台灣總代理商城",
     "specs": [
       "類型：全自動推拉式電子鎖；台灣總代理完整型號DDL902-MFVP-11HWS，曜石黑",
       "解鎖：掌靜脈、3D人臉、指紋、密碼、卡片、機械鑰匙與App遠端功能；雙重驗證與虛位密碼",

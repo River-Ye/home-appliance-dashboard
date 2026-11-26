@@ -17,11 +17,11 @@
       "currency": "TWD",
       "amount": 2890,
       "converted": 2890,
-      "confidence": "PChome 2026-07-11 API 查核價",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
+      "confidence": "2026-11-26 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-26 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "channel": "tw",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原刊登已售完，查看供貨）",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSBE0M-A900JD4AE",
     "specs": [
       "刀具：日本製 藤次郎 DP 牛刀 210mm F-808 VG10 主廚刀",
@@ -839,11 +839,11 @@
       "currency": "TWD",
       "amount": 2480,
       "converted": 2480,
-      "confidence": "PChome 2026-07-11 API 查核價",
-      "note": "2026-11-05 人工核對PChome原SKU/API型號、套組與公開價格；不含個人券、點數或信用卡回饋。"
+      "confidence": "2026-11-26 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-26 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "channel": "tw",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原刊登已售完，查看供貨）",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSBE0M-A900JDNTT",
     "specs": [
       "刀具：Global 具良治 G-1 萬用 蔬果刀 主廚刀 210mm",

@@ -1,13 +1,13 @@
 {
   "summary": {
-    "checkedAt": "2026-11-23",
-    "total": 1289,
-    "researchedThisRun": 3,
+    "checkedAt": "2026-11-26T00:00:00+08:00",
+    "total": 1290,
+    "researchedThisRun": 1,
     "found": 378,
-    "missing": 911,
+    "missing": 912,
     "byConfidence": {
       "official": 190,
-      "not_found": 908,
+      "not_found": 909,
       "retailer_explicit": 26,
       "credible_article": 52,
       "high": 86,
@@ -15,7 +15,7 @@
       "unknown": 3
     },
     "sourcePolicy": "本輪僅新增/身份更正商品完成獨立上市日研究；既有逐筆證據及實際查核日期保留，不將來源維護範圍當成重新人工研究。",
-    "scopeNote": "2026-11-23 僅新增M850 L、F25 GEN2 WD5M21A及H60 Hub Plus H9A4A完成上市查核；未找到的兩台灣清潔型號不以說明書日期、海外上市或影片上傳日補推；既有逐筆證據原樣保留。"
+    "scopeNote": "2026-11-26 新增65C7L上市查核；基準1289筆逐筆證據及日期保留。"
   },
   "results": [
     {
@@ -39731,6 +39731,45 @@
           "url": "https://www.youtube.com/watch?v=GijLMyt3I9M",
           "title": "台灣官方限時上市影片",
           "outcome": "搜尋發現7/10上傳日期；原頁工具throttled，且未有明確上市年月日，不能以影片上傳日代替上市日"
+        }
+      ]
+    },
+    {
+      "id": "tv-tcl-65c7l",
+      "category": "tv",
+      "brand": "TCL",
+      "model": "65C7L",
+      "name": "65 吋 C7L SQD-Mini LED 4K Google TV 顯示器",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found_after_original_page_review",
+      "reason": "已讀台灣官方65C7L頁及連結C7L-TW說明書，另查上市公告；官頁推出年份2026屬型號年度，並無明確首次上市/發售日期。不能以論壇六月購入、通路上架、PDF日期或香港版本日期代替台灣首次上市日。",
+      "query": "TCL 65C7L 台灣 上市",
+      "auditQueries": [
+        "TCL 65C7L 上市 2026",
+        "TCL C7L 上市 site:tcl-shop.com.tw"
+      ],
+      "checkedAt": "2026-11-26",
+      "auditDisposition": "not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.tcl-shop.com.tw/item/218/?W=Shop",
+          "title": "TCL台灣65C7L",
+          "outcome": "有推出年份2026但沒有明確上市公告日期"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1hLcx89BlBQ7WlJuOgUl323cOpiiL9sYw/view",
+          "title": "官網連結C7L-TW說明書",
+          "outcome": "核對台灣型號電力，不以文件日期當上市日"
+        },
+        {
+          "url": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Televisions-TV-Accessories/60-69-TVs/TCL-65-inch-C7L-Premium-SQD-Mini-LED-Smart-Monitor-without-Tuner-Box-65C7L/p/161712",
+          "title": "Costco台灣161712",
+          "outcome": "現售不等於首次上市日期"
         }
       ]
     }

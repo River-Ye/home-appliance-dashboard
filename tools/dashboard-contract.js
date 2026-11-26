@@ -1,8 +1,8 @@
 const EXPECTED_CATEGORY_COUNT = 37;
-const EXPECTED_PRODUCT_COUNT = 1289;
+const EXPECTED_PRODUCT_COUNT = 1290;
 const MIN_PRODUCTS_PER_CATEGORY = 20;
 const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
-  ["tv", 48],
+  ["tv", 49],
   ["soundbar", 39],
   ["fan", 21],
   ["circulator", 23],
@@ -43,7 +43,7 @@ const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
 const DATE_PATTERN = /^(找不到|\d{4}(?:[-/.]\d{1,2}(?:[-/.]\d{1,2})?)?)$/;
 const WASHER_DRYER_CAPACITY_PATTERN = /^洗\/乾容量：\d+(?:\.\d+)?kg \/ \d+(?:\.\d+)?kg$/;
 const DIMENSION_CATEGORY_COUNTS = new Map([
-  ["tv", 48],
+  ["tv", 49],
   ["soundbar", 39],
   ["washer", 27],
   ["dryer", 29],
@@ -76,7 +76,7 @@ const FORBIDDEN_MEASUREMENT_LABEL_PATTERN = "(?!.*(?:包裝|外箱|紙箱|毛重
 const DIMENSION_PATTERN = new RegExp(`^尺寸：${FORBIDDEN_MEASUREMENT_LABEL_PATTERN}(未標示|查不到|${DIMENSION_SEGMENT_PATTERN}(?:；${DIMENSION_SEGMENT_PATTERN})*)$`, "i");
 const DIMENSION_CONFIDENCE_VALUES = new Set(["high", "medium", "low", "not_found"]);
 const WEIGHT_CATEGORY_COUNTS = new Map([
-  ["tv", 48],
+  ["tv", 49],
   ["soundbar", 39],
   ["coffee", 25],
   ["oven", 28],

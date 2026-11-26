@@ -19,12 +19,13 @@
       "currency": "TWD",
       "amount": 11111,
       "converted": 11111,
-      "confidence": "2026-11-25 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-25 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-26 PChome 同T07 Plus公開價NT$11,111，未另扣個人券、點數與信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900JM0HG/000001_1783562693.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4C-A900JM0HG",
-    "buyLabel": "PChome（原刊登已售完，查看供貨）",
+    "buyLabel": "PChome",
     "specs": [
       "人體工學",
       "BIFMA X5.1",
@@ -510,12 +511,13 @@
       "currency": "TWD",
       "amount": 12911,
       "converted": 12911,
-      "confidence": "2026-11-25 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-25 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-26 PChome 同T27公開價NT$12,911，未另扣個人券、點數與信用卡回饋。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBE2LA900HA2WP/000001_1783563647.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBE2L-A900HA2WP",
-    "buyLabel": "PChome（原刊登已售完，查看供貨）",
+    "buyLabel": "PChome",
     "specs": [
       "人體工學",
       "雲岩網",
@@ -797,9 +799,9 @@
       "currency": "TWD",
       "amount": 13410,
       "converted": 13410,
-      "confidence": "2026-11-25 核對原刊登供貨條件，金額保留為先前參考價",
+      "confidence": "2026-11-26 核對原刊登供貨條件，金額保留為先前參考價",
       "basis": "retailer_current",
-      "note": "2026-11-25 原商品頁仍為預購，預計出貨日 2026/11/27 - 2026/12/01；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "note": "2026-11-26 原商品頁仍為預購，預計出貨日 2026/11/28 - 2026/12/01；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAKFOA900BWWGS/000001_1755481797.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAKFO-A900BWWGS",
@@ -1084,8 +1086,8 @@
       "currency": "TWD",
       "amount": 7990,
       "converted": 7990,
-      "confidence": "2026-11-25 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-25 原商品頁仍為預購，預計出貨日 2026/12/06 - 2026/12/08；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
+      "confidence": "2026-11-26 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-26 原商品頁仍為預購，預計出貨日 2026/12/07 - 2026/12/09；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ0AA900IGLW6/000001_1759990112.jpg",

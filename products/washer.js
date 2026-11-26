@@ -551,11 +551,11 @@
     "image": "https://cs-a.ecimg.tw/items/DPAI1HA900BRSFN/000001_1761009178.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 17512,
-      "converted": 17512,
-      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 17910,
+      "converted": 17910,
+      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-25 PChome 同NA-V130LB-L公開價NT$17,512，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-25T08:59:59+08:00。"
+      "note": "2026-11-26 PChome 同NA-V130LB-L公開價NT$17,910，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "PChome 24h 購物",
@@ -980,8 +980,8 @@
       "currency": "TWD",
       "amount": 6511,
       "converted": 6511,
-      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-22 PChome 同WM10KW公開價NT$6,511，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-25T23:59:59+08:00。",
+      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-26 PChome 同WM10KW公開價NT$6,511，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -1298,8 +1298,8 @@
       "currency": "TWD",
       "amount": 8990,
       "converted": 8990,
-      "confidence": "2026-11-25 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-25 原商品頁仍為預購，預購12/5出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
+      "confidence": "2026-11-26 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-26 原商品頁仍為預購，預購12/5出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -2341,9 +2341,9 @@
       "currency": "TWD",
       "amount": 18810,
       "converted": 18810,
-      "confidence": "2026-11-25 核對原刊登供貨條件，金額保留為先前參考價",
+      "confidence": "2026-11-26 核對原刊登供貨條件，金額保留為先前參考價",
       "basis": "retailer_current",
-      "note": "2026-11-25 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "note": "2026-11-26 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/he0/h00/103644752314398.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/QBAR29-A900A63AZ",
@@ -2707,17 +2707,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 18481,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-08-20",
-      "note": "已查 Toshiba 台灣官方、PChome exact-model SKU API 與價格搜尋；本輪 NT$19,490 是現價，未找到同型號具日期且可重現的可信新品史低。"
+      "converted": 18481,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DPAI1G-A900K9EPD",
+      "sourceTitle": "Lowcast 比價趨勢：PChome TOSHIBA 東芝 15kg變頻直立護色洗×沖浪洗淨洗衣機AW-T26D1600XTA(MG)",
+      "evidenceSnippet": "Lowcast 同一 PChome SKU DPAI1G-A900K9EPD 的64天記錄摘要最低為 NT$18,481，2026-11-25歷史點同額；當日原主頁同AW-T26D1600XTA(MG)公開單件價18,481、可宅配及可用購買動作，API Qty 5。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-26",
+      "note": "僅為同型號同規格、同一PChome新品刊登64天可驗證價格記錄最低，非保證全網或上市以來最低；64天為來源明示記錄範圍，本次初始圖表載入近30天；未扣個人券、點數、信用卡回饋、贈品或會員個人優惠。"
     },
     "issueResearch": {
       "status": "no_common_issue",

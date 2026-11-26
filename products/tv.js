@@ -17,11 +17,11 @@
     "name": "65 型 OLED evo C5 4K 智慧顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 52900,
-      "converted": 52900,
-      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 50900,
+      "converted": 50900,
+      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-22 PChome 同OLED65C5PTA公開價NT$52,900，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
+      "note": "2026-11-26 PChome 同OLED65C5PTA公開價NT$50,900，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADYE1900JG394/000001_1762971547.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADYE-A900JC4MY",
@@ -65,8 +65,8 @@
       "evidenceSnippet": "",
       "sourceKind": "not_found",
       "confidence": "not_found",
-      "checkedAt": "2026-11-25",
-      "note": "2026-11-25 重查同一PChome SKU較低歷史點，未取得該低價當時的單件公開價及供貨條件完整原頁證據；維持找不到可靠史低。"
+      "checkedAt": "2026-11-26",
+      "note": "2026-11-26 重查同一PChome SKU較低歷史點，未取得該低價當時的單件公開價及供貨條件完整原頁證據；維持找不到可靠史低。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -219,10 +219,10 @@
     "name": "BRAVIA 7 65 型 Mini LED 4K Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 53910,
-      "converted": 53910,
-      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-24 PChome 同Y-65XR70公開價NT$53,910，未另扣個人券、點數與信用卡回饋。",
+      "amount": 56900,
+      "converted": 56900,
+      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-26 PChome 同Y-65XR70公開價NT$56,900，未另扣個人券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADFNA900K7VQ8/000001_1784011502.jpg",
@@ -835,10 +835,10 @@
     "name": "BRAVIA 8 65 型 XR OLED 4K HDR Google TV 顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 84510,
-      "converted": 84510,
-      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-13 PChome 原 SKU 公開價 NT$84510，API Qty 1。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。",
+      "amount": 93900,
+      "converted": 93900,
+      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-26 PChome 同Y-65XR80公開價NT$93,900，未另扣個人券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD06A900HLBJO/000001_1776334113.jpg",
@@ -1043,8 +1043,8 @@
       "currency": "TWD",
       "amount": 79900,
       "converted": 79900,
-      "confidence": "2026-11-25 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-25 原商品頁仍為預購，預計出貨日 2026/11/28 - 2026/12/01；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
+      "confidence": "2026-11-26 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-26 原商品頁仍為預購，預計出貨日 2026/11/29 - 2026/12/01；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADIKA900HJGF2/000001_1782900149.jpg",
@@ -1958,10 +1958,10 @@
     "name": "65型 4K QLED 120Hz Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 14391,
-      "converted": 14391,
-      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-25 PChome 同CQ-65QX250公開價NT$14,391，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-25T08:59:59+08:00。",
+      "amount": 15990,
+      "converted": 15990,
+      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-26 PChome 同CQ-65QX250公開價NT$15,990，未另扣個人券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADTOA900JNE73/000001_1768523868.jpg",
@@ -2061,8 +2061,8 @@
       "currency": "TWD",
       "amount": 21500,
       "converted": 21500,
-      "confidence": "2026-11-25 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-25 原商品頁仍為預購，預計出貨日 2026/11/28 - 2026/12/01；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
+      "confidence": "2026-11-26 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-26 原商品頁仍為預購，預計出貨日 2026/11/29 - 2026/12/01；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD0WA900I9LNS/000001_1769648262.jpg",
@@ -2271,9 +2271,9 @@
       "currency": "TWD",
       "amount": 30599,
       "converted": 30599,
-      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-24 Costco好市多同75Z670NT公開單品價NT$30,599（含運），需具好市多會員資格；未扣聯名卡好多金、黑鑽會員回饋或個人優惠。"
+      "note": "2026-11-26 Costco好市多同75Z670NT公開單品價NT$30,599（含運），需具好市多會員資格；未扣聯名卡好多金、黑鑽會員回饋或個人優惠。 原主區明示2026/11/23–2026/11/29限購期間，每帳號每7天限購1組；此處保守以期間結束為參考價截止，下單前請重查。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/hfe/ha8/438072160518174.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Televisions-TV-Accessories/70-79-TVs/Toshiba-Regza-75-inch-Full-Array-4K-QLED-144Hz-Smart-Monitor-75Z670NT/p/152535",
@@ -4217,8 +4217,8 @@
       "amount": 164990,
       "converted": 164990,
       "basis": "retailer_current",
-      "confidence": "PChome 2026-11-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
-      "note": "2026-11-13 PChome 原 SKU 公開價 NT$164990，API Qty 10。未扣會員券、點數或信用卡回饋，配送及安裝依原頁。"
+      "confidence": "2026-11-26 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-26 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "installation": {
       "status": "included_basic",
@@ -4226,7 +4226,7 @@
     },
     "image": "https://cs-a.ecimg.tw/items/DPADT3A900K7NOX/000001_1783749208.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADT3-A900K7NOX",
-    "buyLabel": "PChome 官方旗艦館（含桌上基本安裝）",
+    "buyLabel": "PChome（原刊登已售完，查看供貨）",
     "specs": [
       "75 吋 SQD-Mini LED／4K UHD 3840 x 2160；WHVA 2.0 Ultra 面板",
       "背光：11,520 區精準控光；官方HDR峰值亮度9000 nits（測試值）",
@@ -4881,6 +4881,114 @@
       }
     ]
   }
+},
+{
+  "id": "tv-tcl-65c7l",
+  "category": "tv",
+  "brand": "TCL",
+  "model": "65C7L",
+  "name": "65 吋 C7L SQD-Mini LED 4K Google TV 顯示器",
+  "rank": 50,
+  "topPick": false,
+  "budget": "mid",
+  "channel": "tw",
+  "price": {
+    "currency": "TWD",
+    "amount": 39999,
+    "converted": 39999,
+    "basis": "retailer_current",
+    "confidence": "2026-11-26 Costco161712原主商品同65C7L公開價及可用主SKU加入購物車。",
+    "note": "Costco公開NT$39,999含運，需好市多會員；含基本桌放定位與運轉檢測，不含壁掛、拆門、偏遠及可能樓層加價，離島不送。未扣個人券、點數、刷卡或會員回饋；實際庫存與交期依訂單。"
+  },
+  "installation": {
+    "status": "included_basic",
+    "note": "含配送到府、桌放定位與運轉檢測；不含拆門與壁掛。偏遠地區、花東、樓層等可能加價，離島不送，預約前確認報價。"
+  },
+  "image": "https://www.costco.com.tw/medias/sys_master/images/hd1/hea/490097896554526.jpg",
+  "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Televisions-TV-Accessories/60-69-TVs/TCL-65-inch-C7L-Premium-SQD-Mini-LED-Smart-Monitor-without-Tuner-Box-65C7L/p/161712",
+  "buyLabel": "Costco台灣新品（需會員／含基本安裝）",
+  "specs": [
+    "尺寸：不含底座 寬 144.4 x 深 5.6 x 高 83.2 cm；含底座 寬 144.4 x 深 36.9 x 高 86.9 cm",
+    "重量：官頁／Costco整機淨重 19.9 kg；台灣說明書整機淨重 21.1 kg",
+    "65 吋 SQD-Mini LED／HVA 2.0 Pro；1,152區控光",
+    "4K 3840 x 2160／原生144Hz；288Hz為DLG／VRR遊戲加速模式，非原生4K 288Hz",
+    "台灣65C7L說明書標示峰值亮度2700 nits；不同尺寸及系列文宣不可混用",
+    "Google TV／Dolby Vision IQ／HDR10+／FreeSync Premium Pro",
+    "音效：Audio by Bang & Olufsen／2.2聲道；HDMI eARC",
+    "手機投影：Miracast／Google Cast／AirPlay 2；需相容裝置及網路",
+    "電力：100–240V／50–60Hz，350W；待機≤0.5W",
+    "台灣公司貨／3年保固；不含視訊盒"
+  ],
+  "description": "C7L以SQD-Mini LED、1,152區控光與原生144Hz補充台灣現售65吋新世代選項；搭配Google TV與B&O音效，保留現售C8K及C8L供不同預算比較。",
+  "pros": [
+    "具台灣exact型號、官方電力與三年保固，可查到可信新品供貨",
+    "1,152區控光、4K 144Hz與遊戲功能適合HDR和主機用途",
+    "Costco會員價含配送及基本桌放安裝，安裝範圍明示"
+  ],
+  "cons": [
+    "官頁／Costco整機19.9kg、台灣說明書21.1kg互有差異，無法據此分列含座與無座；搬運及支架承重前須向台灣代理確認",
+    "台灣型號說明書標2700nits，系列文宣有3000nits，不能把標示數字當跨條件實測",
+    "288Hz是DLG遊戲加速，不能視為原生4K 288Hz",
+    "需會員；壁掛、偏遠、拆門及部分樓層施工可能另計"
+  ],
+  "bestFor": "想比較65吋SQD-Mini LED、4K高刷新與台灣保固，並可接受會員及安裝條件的客廳。",
+  "recommendation": "先用自己的串流、低解析度第四台及遊戲訊源看實機，再比較C8K、C8L與OLED價差；本款官網與手冊重量矛盾須先確認，壁掛不包含在基本安裝。",
+  "releaseDate": "找不到",
+  "historicalLow": {
+    "status": "not_found",
+    "amount": null,
+    "currency": "TWD",
+    "converted": null,
+    "sourceUrl": "",
+    "sourceTitle": "",
+    "evidenceSnippet": "",
+    "sourceKind": "not_found",
+    "confidence": "not_found",
+    "checkedAt": "2026-11-26",
+    "note": "已讀FindPrice、飛比原始比價頁與PTT/Mobile01原文；Costco目前39999不是歷史最低證據。過去31999、32887等論壇價格缺完整原通路當日單件/供貨條件，另有55吋選項與代購誤配；Lowcast PChome同SKU DPAD8R-A900KOGP6目前404，未取得可採可信新品史低。排除分期每期886、點數、個人券、刷卡、聊聊議價、代購與其他尺寸。"
+  },
+  "issueResearch": {
+    "status": "no_common_issue",
+    "checkedAt": "2026-11-26",
+    "summary": "截至查核日，查無達門檻的集中負評／災情",
+    "issues": [],
+    "checkedSources": [
+      {
+        "platform": "Mobile01",
+        "targetHost": "mobile01.com",
+        "query": "site:mobile01.com \"TCL\" \"65C7L\" (問題 OR 故障 OR 心得)",
+        "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22TCL%22%20%2265C7L%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97%29",
+        "searchProvider": "Bing RSS; alternate web search domain queries and native original-page review",
+        "queryEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-query-mobile01.json"
+      },
+      {
+        "platform": "PTT",
+        "targetHost": "ptt.cc",
+        "query": "site:ptt.cc \"TCL\" \"65C7L\" (問題 OR 故障 OR 心得)",
+        "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22TCL%22%20%2265C7L%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E5%BF%83%E5%BE%97%29",
+        "searchProvider": "Bing RSS; alternate web search domain queries and native original-page review",
+        "queryEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-query-ptt.json"
+      },
+      {
+        "platform": "Reddit",
+        "targetHost": "reddit.com",
+        "query": "site:reddit.com \"TCL\" \"65C7L\" (problem OR issue OR defect OR failure)",
+        "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TCL%22%20%2265C7L%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20failure%29",
+        "searchProvider": "Bing RSS; alternate web search domain queries and native original-page review",
+        "queryEvidenceSnapshot": "/Users/riverye/.codex/automations/automation/artifacts/catalog-2026-11-26/tcl-query-reddit.json"
+      }
+    ]
+  },
+  "score": 89,
+  "voltage": "台灣官方連結C7L-TW說明書第19頁65C7L明示100–240V／50–60Hz、3.5A、350W；台灣110V／60Hz範圍內。",
+  "warranty": "Costco台灣161712 exact 65C7L列3年保固；台灣總代理群光電子，線上報修及0800-828-772，實際保固範圍依條款。",
+  "tags": [
+    "SQD-Mini LED",
+    "144Hz",
+    "Google TV",
+    "台灣公司貨",
+    "3年保固"
+  ]
 }
 ]);
 })();

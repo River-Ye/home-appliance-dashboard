@@ -333,9 +333,9 @@
       "currency": "TWD",
       "amount": 11111,
       "converted": 11111,
-      "confidence": "2026-11-22 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-22 PChome 同WEHC10BBS公開價NT$11,111，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-25T23:59:59+08:00。"
+      "note": "2026-11-26 PChome 同WEHC10BBS公開價NT$11,111，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1283,11 +1283,11 @@
     "image": "https://cs-a.ecimg.tw/items/DPAI1HA900AMJJK/000001_1761009175.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 21912,
-      "converted": 21912,
-      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 22410,
+      "converted": 22410,
+      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-25 PChome 同NA-V120HDH公開價NT$21,912，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-25T08:59:59+08:00。"
+      "note": "2026-11-26 PChome 同NA-V120HDH公開價NT$22,410，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -2225,9 +2225,9 @@
       "currency": "TWD",
       "amount": 18999,
       "converted": 18999,
-      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-25 Costco好市多同EWW1123P5WC公開單品價NT$18,999（含運），需具好市多會員資格；未扣聯名卡好多金、黑鑽會員回饋或個人優惠。原主區明示2026/11/25–2026/11/29限購期間，每帳號每5天限購1組；此處保守以期間結束為參考價截止，下單前請重查。"
+      "note": "2026-11-26 Costco好市多同EWW1123P5WC公開單品價NT$18,999（含運），需具好市多會員資格；未扣聯名卡好多金、黑鑽會員回饋或個人優惠。 原主區明示2026/11/25–2026/11/29限購期間，每帳號每5天限購1組；此處保守以期間結束為參考價截止，下單前請重查。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h62/h7f/332442479263774.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Washers-Dryers/Washer-Size-10-15-kg/Electrolux-11-kg-7-kg-Ultimate-Care-500-Washer-Dryer-EWW1123P5WC/p/151339",
@@ -2323,14 +2323,14 @@
     "image": "https://cs-a.ecimg.tw/items/DPAI1LA900KAQP8/000007_1794412889.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 82900,
-      "converted": 82900,
-      "confidence": "2026-11-25 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-25 原商品頁仍為預購，接單後陸續安排出貨，最晚出貨日為 2026/11/30；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
+      "amount": 79111,
+      "converted": 79111,
+      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-26 PChome 同WD-S1818PB公開價NT$79,111，未另扣個人券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "channel": "tw",
-    "buyLabel": "PChome（預購／交期待確認）",
+    "buyLabel": "PChome",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900KAQP8",
     "specs": [
       "WashTower 一體式上下雙筒，可同步洗衣與乾衣",
@@ -2646,10 +2646,10 @@
     "image": "https://pstw.panasonic.com.tw/shop/Upload/Product/20260514190222S44S2J5E.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 39512,
-      "converted": 39512,
-      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-25 PChome 同NA-SD10TB公開價NT$39,512，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-25T08:59:59+08:00。",
+      "amount": 40410,
+      "converted": 40410,
+      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-26 PChome 同NA-SD10TB公開價NT$40,410，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -2755,9 +2755,9 @@
       "currency": "TWD",
       "amount": 85111,
       "converted": 85111,
-      "confidence": "2026-11-22 核對原商品供貨或版本邊界，保留上次參考價",
+      "confidence": "2026-11-26 核對原商品供貨條件，金額保留先前參考價",
       "basis": "retailer_current",
-      "note": "2026-11-22 LG台灣原WD-S22FHDB頁仍為預購，預告2026年11月23日按購買次序發貨；頁面預購報價NT$86,900，本卡NT$85,111為先前參考，實際交期請向通路確認。"
+      "note": "2026-11-26 LG台灣原WD-S22FHDB仍為預購，改預告2026年11月27日按購買次序發貨；頁面預購報價NT$86,900，本卡NT$85,111保留先前參考，實際交期請向通路確認。"
     },
     "channel": "tw",
     "buyLabel": "LG 台灣官方（預購／交期待確認）",

@@ -1747,12 +1747,13 @@
       "currency": "TWD",
       "amount": 1269,
       "converted": 1269,
-      "confidence": "2026-11-25 原商品主區需登入顯示價格，保留先前參考價",
-      "note": "2026-11-25 Costco同一SKU原商品主區需登入顯示價格，當日沒有可重現的公開單品價；本卡金額保留為先前參考價，實際會員可購金額與供貨請登入原頁確認。"
+      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-26 Costco好市多同PCF-SC15T-CT公開單品價NT$1,269（含運），需具好市多會員資格；未扣聯名卡好多金、黑鑽會員回饋或個人優惠。",
+      "basis": "retailer_current"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/hc9/hb1/329850798964766.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Heating-Cooling/IRIS-Woozoo-Circulator-Fan-PCF-SC15T-CT/p/2354207",
-    "buyLabel": "Costco 好市多（登入確認價格／先前參考價）",
+    "buyLabel": "Costco 好市多",
     "specs": [
       "小型循環扇",
       "110V / 60Hz",

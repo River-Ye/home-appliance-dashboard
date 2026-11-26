@@ -116,9 +116,9 @@
       "currency": "TWD",
       "amount": 31261,
       "converted": 31261,
-      "confidence": "2026-11-25 核對原刊登供貨條件，金額保留為先前參考價",
+      "confidence": "2026-11-26 核對原刊登供貨條件，金額保留為先前參考價",
       "basis": "retailer_current",
-      "note": "2026-11-25 原商品頁仍為預購，預計出貨日 2027/01/10 - 2027/01/12；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "note": "2026-11-26 原商品頁仍為預購，預計出貨日 2027/01/10 - 2027/01/12；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JNELR/000001_1769062030.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JNELR",
@@ -303,9 +303,9 @@
       "currency": "TWD",
       "amount": 29421,
       "converted": 29421,
-      "confidence": "2026-11-25 核對原刊登供貨條件，金額保留為先前參考價",
+      "confidence": "2026-11-26 核對原刊登供貨條件，金額保留為先前參考價",
       "basis": "retailer_current",
-      "note": "2026-11-25 原商品頁仍為預購，接單後陸續安排出貨，最晚出貨日為 2026/12/18；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "note": "2026-11-26 原商品頁仍為預購，接單後陸續安排出貨，最晚出貨日為 2026/12/18；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JMMCO/000001_1769061975.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JMMCO",
@@ -598,8 +598,8 @@
       "currency": "TWD",
       "amount": 24700,
       "converted": 24700,
-      "confidence": "2026-11-25 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-25 原商品頁仍為預購，新品預購中，到貨後依訂單順序依序發貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
+      "confidence": "2026-11-26 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-26 原商品頁仍為預購，新品預購中，到貨後依訂單順序依序發貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900JRDAS/000001_1771917633.jpg",
@@ -1380,8 +1380,8 @@
     "price": {
       "currency": "EUR",
       "amount": 999,
-      "converted": 35831,
-      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-24 匯率換算",
+      "converted": 36041,
+      "confidence": "2026-11-04 下午人工核對同型號原商品頁公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-25 匯率換算",
       "note": "2026-11-04 下午覆核：原生Narwal德國URL variant52366680523028選中Schwarz Basisstation及Standardpaket；主價999EUR、劃線1299EUR，In den Warenkorb可用、2–5Tage Lieferzeit。與上午所選缺貨不同，仍未保證台灣寄送。未含國際運費、進口稅、電壓/插頭與台灣保固風險。",
       "basis": "retailer_current"
     },
@@ -1478,8 +1478,8 @@
     "price": {
       "currency": "USD",
       "amount": 551.69,
-      "converted": 18118,
-      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-11-24 匯率換算"
+      "converted": 18161,
+      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-11-25 匯率換算"
     },
     "image": "https://img.gkbcdn.com/p/2025-04-11/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438-0._w315_.jpg",
     "buyUrl": "https://www.geekbuying.com/item/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438.html",
@@ -1573,11 +1573,11 @@
     "name": "全能滾筒旗艦機皇掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 24681,
-      "converted": 24681,
-      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 22912,
+      "converted": 22912,
+      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMBL0J-A900JCCJT 原商品主區公開價 NT$24,681，購買按鈕可用，API Qty 13。會員券、點數與卡回饋未計入。"
+      "note": "2026-11-26 PChome 同Roomba Max 705 Combo公開價NT$22,912，未另扣個人券、點數與信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0JA900JCCJT/000001_1782802020.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0J-A900JCCJT",
@@ -1955,11 +1955,11 @@
     "name": "12 合 1 自清潔 AI 掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 27111,
-      "converted": 27111,
-      "confidence": "2026-11-19 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 28911,
+      "converted": 28911,
+      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMBL2D-A900JOEN3 原商品主區公開價 NT$27,111，購買按鈕可用，API Qty 7。會員券、點數與卡回饋未計入。"
+      "note": "2026-11-26 PChome 同Omni S2公開價NT$28,911，未另扣個人券、點數與信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL2DA900JOEN3/000001_1782120334.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL2D-A900JOEN3",
@@ -2053,11 +2053,11 @@
     "name": "自清潔掃拖一體全能機器人",
     "price": {
       "currency": "TWD",
-      "amount": 11111,
-      "converted": 11111,
-      "confidence": "2026-11-18 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 12111,
+      "converted": 12111,
+      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMBL2D-A900IUBA2 原商品主區公開價 NT$11,111，購買按鈕可用，API Qty 1。會員券、點數與卡回饋未計入。"
+      "note": "2026-11-26 PChome 同Omni E25公開價NT$12,111，未另扣個人券、點數與信用卡回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL2DA900IUBA2/000001_1782120226.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL2D-A900IUBA2",
@@ -2640,8 +2640,8 @@
     "price": {
       "currency": "USD",
       "amount": 549.99,
-      "converted": 18062,
-      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-24 匯率換算",
+      "converted": 18105,
+      "confidence": "2026-11-02 人工核對同型號、同版本原商品頁或官方SKU API公開報價；供貨、優惠與交期見註記。；ExchangeRate-API 2026-11-25 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-04 Shark美國所選黑色RV2820ZE當日原variationAPI549.99USD，available/readyToOrder均true、inStockDate為2026-11-26，交期待確認；不混白色缺貨SKU，不稱即時現貨。未含國際運費、進口稅、電壓/插頭與台灣保固風險。"
     },
@@ -2838,8 +2838,8 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 13136,
-      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-11-24 匯率換算",
+      "converted": 13167,
+      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-11-25 匯率換算",
       "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。 2026-11-01 原Costco美國QXRevo頁HTTP404，現貨與現價未確認；保留USD399.99舊參考價，含海外運稅、電力與台灣保固風險，不能推定原廠整型停產。"
     },
     "image": "https://cdn.cs.1worldsync.com/syndication/mediaserverredirect/aaaa71b7b115f7d0cbeb119d8fc3ad7b/width%281200%29.jpg",
@@ -3135,11 +3135,12 @@
       "currency": "TWD",
       "amount": 24999,
       "converted": 24999,
-      "confidence": "PChome 2026-10-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "2026-11-26 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-26 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900JS61Y/000001_1772592930.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0L-A900JS61Y",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原刊登已售完，查看供貨）",
     "specs": [
       "FocusJet 定點增壓洗地",
       "27cm OZMO Roller 3.0；32 路活水",
@@ -3780,11 +3781,11 @@
     "name": "Xiaomi 掃拖機器人 6",
     "price": {
       "currency": "TWD",
-      "amount": 14111,
-      "converted": 14111,
-      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 14911,
+      "converted": 14911,
+      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-25 PChome 同PV32GL公開價NT$14,111，未另扣個人券、點數與信用卡回饋。"
+      "note": "2026-11-26 PChome 同PV32GL公開價NT$14,911，未另扣個人券、點數與信用卡回饋。"
     },
     "installation": {
       "status": "not_stated",
@@ -4694,10 +4695,10 @@
     "name": "Roomba 115 Combo 自動集塵纖薄延邊掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 10431,
-      "converted": 10431,
-      "confidence": "2026-11-16 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "PChome DMBL0J-A900KG6A1 原商品主區公開價 NT$10,431，購買按鈕可用，API Qty 20。會員券、點數與卡回饋未計入。",
+      "amount": 9931,
+      "converted": 9931,
+      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-26 PChome 同Roomba 115 Combo公開價NT$9,931，未另扣個人券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0JA900KG6A1/000001_1792650840.jpg",
@@ -4758,16 +4759,16 @@
     },
     "historicalLow": {
       "status": "found",
-      "amount": 10431,
+      "amount": 9931,
       "currency": "TWD",
-      "converted": 10431,
-      "sourceUrl": "https://price.shhwa.cc/product/pchome/DMBL0J-A900KG6A1",
-      "sourceTitle": "Lowcast 比價趨勢：PChome iRobot 【美國機器人】Roomba 115 Combo 自動集塵纖薄延邊掃拖機器人",
-      "evidenceSnippet": "Lowcast 同一刊登 DMBL0J-A900KG6A1 於 2026-11-16 收盤價為 NT$10,431。當日 PChome 同 SKU 公開價格同值，API Qty 20。",
-      "sourceKind": "price_history",
+      "converted": 9931,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMBL0J-A900KG6A1",
+      "sourceTitle": "iRobot Roomba 115 Combo 原商品頁",
+      "evidenceSnippet": "2026-11-26 PChome DMBL0J-A900KG6A1 原商品主區、完整型號／選定版本及可用購買動作已人工核對，API Qty 19；採公開價 NT$9,931。 低於原有同款紀錄。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-11-17",
-      "note": "同型號新品、同一 PChome SKU 過往公開價格，未加計個人券、點數、刷卡回饋或贈品折抵。"
+      "checkedAt": "2026-11-26",
+      "note": "採同型號同規格可信新品公開價，不含個人券、點數、會員個人化折扣與信用卡回饋。"
     }
   },
   {

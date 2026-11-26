@@ -533,10 +533,10 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR35A900JVAOT/000001_1782872320.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 27733,
-      "converted": 27733,
-      "confidence": "2026-11-25 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-25 PChome 同EFF3360VWB公開價NT$27,733，未另扣個人券、點數與信用卡回饋。",
+      "amount": 29900,
+      "converted": 29900,
+      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-26 PChome 同EFF3360VWB公開價NT$29,900，未另扣個人券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -637,11 +637,11 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR0OA900IFXRC/000001_1780551938.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 28111,
-      "converted": 28111,
-      "confidence": "2026-11-15 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 29900,
+      "converted": 29900,
+      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "PChome DMBR0O-A900IFXRC 原商品主區公開價 NT$28,111，購買按鈕可用，API Qty 4。會員券、點數與卡回饋未計入。"
+      "note": "2026-11-26 PChome 同DFB533FW公開價NT$29,900，未另扣個人券、點數與信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1056,12 +1056,12 @@
       "currency": "TWD",
       "amount": 34999,
       "converted": 34999,
-      "confidence": "2026-11-25 原商品頁的實際下單折扣未完整確認，保留先前參考價",
+      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-25 原商品頁網路價NT$34,999；另顯示「下單再折」，公開單件折扣的完整條件尚未確認，卡片保留先前NT$34,999參考價。下單前請確認實際折扣；未扣個人券、點數或信用卡回饋。"
+      "note": "2026-11-26 PChome 同SJU4EKW00W公開價NT$34,999，未另扣個人券、點數與信用卡回饋。"
     },
     "channel": "tw",
-    "buyLabel": "PChome（下單折扣待確認／先前參考價）",
+    "buyLabel": "PChome",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR2H-A900K4KMO",
     "specs": [
       "洗碗機：【BOSCH 博世】15人份 自動開門嵌櫃式洗碗機(SJU4EKW00W)",
@@ -1263,10 +1263,10 @@
     "image": "https://img.pchome.com.tw/cs/items/DMBR14A900G0F7J/000001_1779679396.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 45505,
-      "converted": 45505,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
-      "note": "PChome 主區 LG DFB335HS 14 人份消光銀公開折扣 NT$45,505（網路價 NT$47,900），API 同型 Qty 4，購買按鈕可用，主商品沒有預購標示。超大材積倉庫出貨、未承諾 24h 送達。API 副商品名提到基本安裝，主頁未列範圍，購前確認安裝條件與可能加價。公開折扣截至 2026/11/30 00:00:59。",
+      "amount": 47900,
+      "converted": 47900,
+      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-26 PChome 同DFB335HS公開價NT$47,900，未另扣個人券、點數與信用卡回饋。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -1980,8 +1980,8 @@
       "currency": "TWD",
       "amount": 12999,
       "converted": 12999,
-      "confidence": "2026-11-25 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-25 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
+      "confidence": "2026-11-26 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-26 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR24A900JFSR7/000001_1762761618.jpg",
@@ -2174,9 +2174,11 @@
     "name": "60 公分 4 系列獨立式洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 33999,
-      "converted": 33999,
-      "confidence": "Costco 好市多 2026-07-11 頁面查核價"
+      "amount": 26859,
+      "converted": 26859,
+      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
+      "basis": "retailer_current",
+      "note": "2026-11-26 Costco好市多同SMS4ITW00X公開單品價NT$26,859（含運），需具好市多會員資格；未扣聯名卡好多金、黑鑽會員回饋或個人優惠。 原主區明示2026/11/26–2026/11/29限購期間，每帳號每4天限購1組；此處保守以期間結束為參考價截止，下單前請重查。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h60/hd2/205293596377118.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Kitchen-Appliances/Dishwashers-Dish-Dryers/BOSCH-60-cm-Series-4-Freestanding-Dishwasher-SMS4ITW00X/p/143549",
@@ -2213,16 +2215,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 27199,
+      "amount": 26859,
       "currency": "TWD",
-      "converted": 27199,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1212192259&cgp=33999",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Costco好市多】BOSCH 60公分 4系列獨立式洗碗機 SMS4ITW00X BOSCH 60 cm Series 4 Freestanding Dishwasher SMS4ITW00X",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Costco好市多 / 【Costco好市多】BOSCH 60公分 4系列獨立式洗碗機 SMS4ITW00X BOSCH 60 cm Series 4 Freestanding Dishwasher SMS4ITW00X」最低價為 NT$27,199，最低點日期 2026-04-09。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 26859,
+      "sourceUrl": "https://www.costco.com.tw/Televisions-Appliances/Kitchen-Appliances/Dishwashers-Dish-Dryers/BOSCH-60-cm-Series-4-Freestanding-Dishwasher-SMS4ITW00X/p/143549",
+      "sourceTitle": "Bosch SMS4ITW00X 原商品頁",
+      "evidenceSnippet": "2026-11-26 Costco同一商品編號#143549原主區完整型號、主價26,859（含運）及本商品加入購物車已核對；不是頁尾推薦商品、模板庫存或個人會員回饋價。 原主區明示2026/11/26–2026/11/29限購期間，每帳號每4天限購1組；此處保守以期間結束為參考價截止，下單前請重查。 公開活動至 2026-11-29T23:59:59+08:00。 低於原有同款紀錄。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-11-26",
+      "note": "採同型號同規格可信新品公開價，不含個人券、點數、會員個人化折扣與信用卡回饋。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -4017,12 +4019,12 @@
     "amount": 54900,
     "converted": 54900,
     "basis": "retailer_current",
-    "confidence": "2026-11-25 原商品頁的實際下單折扣未完整確認，保留先前參考價",
-    "note": "2026-11-25 原商品頁網路價NT$54,900；另顯示「下單再折」，公開單件折扣的完整條件尚未確認，卡片保留先前NT$54,900參考價。下單前請確認實際折扣；未扣個人券、點數或信用卡回饋。"
+    "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
+    "note": "2026-11-26 PChome 同SMS6ECW01X公開價NT$54,900，未另扣個人券、點數與信用卡回饋。"
   },
   "image": "https://img.pchome.com.tw/cs/items/DMBR13A900KEYFN/000001_1793352223.jpg",
   "buyUrl": "https://24h.pchome.com.tw/prod/DMBR13-A900KEYFN",
-  "buyLabel": "PChome（下單折扣待確認／先前參考價）",
+  "buyLabel": "PChome",
   "installation": {
     "status": "included_basic",
     "note": "所選 PChome 頁明示台灣本島基本配送與標準安裝。場勘後另約送裝日期，樓層搬運、偏遠地區、額外進排水管、開孔與改櫃可加價，依原廠施工條款。"

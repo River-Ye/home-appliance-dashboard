@@ -1874,11 +1874,11 @@
     "name": "PuriCare 超淨化大白空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 6511,
-      "converted": 6511,
-      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 6911,
+      "converted": 6911,
+      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-24 PChome 同AS601HWG0公開價NT$6,511，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-25T10:00:59+08:00。"
+      "note": "2026-11-26 PChome 同AS601HWG0公開價NT$6,911，未另扣個人券、點數與信用卡回饋。公開活動至2026-12-01T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU0BA900GI0Q1/000001_1763349087.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU0B-A900GI0Q1",
@@ -1910,17 +1910,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 6511,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ LG AS601HWG0: 蝦皮商城 - 愛濾屋-清淨專家 濾網領航 台灣製造 品質出眾 HEPA 抗病毒 除臭濾網 適用 LG 超級大白 AS601HWG0/101DWH0/651DWH0/651DSS0 非採用通路或含排除條件；LBJ LG AS601HWG0: Momo富邦購物 (店+)LG 抗病毒HEPA除臭濾網濾芯濾心 適用LG超級大白AS601HWG0/101DWH0/651DWH0/651DSS0 非採用通路或含排除條件；LBJ LG AS601HWG0: Yahoo購物中心 LG樂金 超級大白 PuriCare 360空氣清淨機 複合一體過濾網/濾芯(副廠) AS651DSS0 AS651DWH0 AS601HWG0 AS651DBY0 最低價 NT$748 低於現價合理比例，疑似月付/配件/錯類。"
+      "converted": 6511,
+      "sourceUrl": "https://price.shhwa.cc/product/pchome/DMAU0B-A900GI0Q1",
+      "sourceTitle": "Lowcast 比價趨勢：PChome LG 樂金 PuriCare 超淨化大白空氣清淨機-Hit  AS601HWG0(白色)",
+      "evidenceSnippet": "Lowcast 同一 PChome SKU DMAU0B-A900GI0Q1 的64天記錄摘要最低為 NT$6,511，2026-11-25歷史點同額；當日原主頁同AS601HWG0公開單件價6,511、可宅配及可用購買動作，API Qty 10。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-11-26",
+      "note": "僅為同型號同規格、同一PChome新品刊登64天可驗證價格記錄最低，非保證全網或上市以來最低；64天為來源明示記錄範圍，本次初始圖表載入近30天；未扣個人券、點數、信用卡回饋、贈品或會員個人優惠。原公開單件活動已於2026-11-25T10:00:59+08:00結束，保留為過去史低，不當成目前售價。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2496,9 +2496,9 @@
       "currency": "TWD",
       "amount": 3990,
       "converted": 3990,
-      "confidence": "2026-11-25 核對原刊登供貨條件，金額保留為先前參考價",
+      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-25 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "note": "2026-11-26 PChome 同HPA-100APTW公開價NT$3,990，未另扣個人券、點數與信用卡回饋。"
     },
     "installation": {
       "status": "not_stated",
@@ -2506,7 +2506,7 @@
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU00A77331975/000001_1747044686.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU00-A77331975",
-    "buyLabel": "PChome（原刊登已售完，查看供貨）",
+    "buyLabel": "PChome",
     "specs": [
       "適用坪數：約 4–8 坪；CADR 100 cfm（約 170 m³/h）",
       "True HEPA 濾網搭配活性碳前置濾網",
@@ -2698,7 +2698,8 @@
       "amount": 12139,
       "converted": 12139,
       "basis": "retailer_current",
-      "confidence": "Costco 2026-09-06 主SKU155617公開現價，JSON-LD LimitedAvailability/NewCondition，含運；未扣個人優惠或回饋"
+      "confidence": "2026-11-26 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-26 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "installation": {
       "status": "not_stated",
@@ -2706,7 +2707,7 @@
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h00/h26/418236463743006.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Air-Purifiers-Filters-Accessories/Philips-Pet-Air-Purifier-AC368181/p/155617",
-    "buyLabel": "Costco 好市多",
+    "buyLabel": "Costco 好市多（原刊登缺貨，查看供貨）",
     "specs": [
       "CADR：360 m³/h；官方建議適用 15–17 坪",
       "濾網：前置濾網、奈米級 HEPA 與寵物活性碳濾網；替換型號 FY3129",

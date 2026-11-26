@@ -40,8 +40,8 @@
       "amount": 4290,
       "converted": 4290,
       "basis": "retailer_current",
-      "confidence": "2026-11-25 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-25 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "confidence": "2026-11-26 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-26 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "installation": {
       "status": "not_stated",
@@ -1175,9 +1175,9 @@
     "price": {
       "currency": "USD",
       "amount": 103.99,
-      "converted": 3415,
+      "converted": 3423,
       "basis": "retailer_current",
-      "confidence": "Yeelight 美國官方商店 2026-08-31 Chrome原頁USD公開新品單件價（1-pack）。本輪重取ExchangeRate-API同批次USD/TWD 31.649299（2026-08-31 00:02 UTC）換算；海外新品價格未含國際運費、進口稅；需核對電壓、插頭與USB變壓器額定，台灣保固及跨國送修不保證。；ExchangeRate-API 2026-11-24 匯率換算",
+      "confidence": "Yeelight 美國官方商店 2026-08-31 Chrome原頁USD公開新品單件價（1-pack）。本輪重取ExchangeRate-API同批次USD/TWD 31.649299（2026-08-31 00:02 UTC）換算；海外新品價格未含國際運費、進口稅；需核對電壓、插頭與USB變壓器額定，台灣保固及跨國送修不保證。；ExchangeRate-API 2026-11-25 匯率換算",
       "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
     },
     "installation": {
@@ -1272,9 +1272,9 @@
     "price": {
       "currency": "USD",
       "amount": 79.99,
-      "converted": 2627,
+      "converted": 2633,
       "basis": "retailer_current",
-      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。；ExchangeRate-API 2026-11-24 匯率換算",
+      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。；ExchangeRate-API 2026-11-25 匯率換算",
       "note": "2026-11-05 人工覆核：原生ChromeQuntis主商品VariantCodeF51BK公開79.99USD、InStock，預估美國境內5–7日；未確認台灣配送。未含國際運費、進口稅、供電／插頭與台灣保固風險。 不扣個人化折價券、點數、信用卡回饋或贈品價值。"
     },
     "installation": {
@@ -1369,9 +1369,9 @@
     "price": {
       "currency": "USD",
       "amount": 75.99,
-      "converted": 2496,
+      "converted": 2501,
       "basis": "retailer_current",
-      "confidence": "2026-09-07 下午官方FR52GY顯示USD72.99，但購物區仍標 Ship by September 30th；保留先前USD75.99參考價，較低延後交貨價只追蹤，不作即時現貨價或史低。海外價未含國際運費、進口稅；須核對電壓／插頭／USB 供電，台灣保固及跨國送修不保證。；ExchangeRate-API 2026-11-24 匯率換算"
+      "confidence": "2026-09-07 下午官方FR52GY顯示USD72.99，但購物區仍標 Ship by September 30th；保留先前USD75.99參考價，較低延後交貨價只追蹤，不作即時現貨價或史低。海外價未含國際運費、進口稅；須核對電壓／插頭／USB 供電，台灣保固及跨國送修不保證。；ExchangeRate-API 2026-11-25 匯率換算"
     },
     "installation": {
       "status": "not_stated",
@@ -1465,9 +1465,9 @@
     "price": {
       "currency": "USD",
       "amount": 69.99,
-      "converted": 2299,
+      "converted": 2304,
       "basis": "retailer_current",
-      "confidence": "2026-10-24人工核對www.quntis.com同型號同版本公開USD 69.99；未扣個人化券、信用卡或點數。；ExchangeRate-API 2026-11-24 匯率換算",
+      "confidence": "2026-10-24人工核對www.quntis.com同型號同版本公開USD 69.99；未扣個人化券、信用卡或點數。；ExchangeRate-API 2026-11-25 匯率換算",
       "note": "2026-10-24官方F45BK黑色45cm單燈公開USD69.99；未含國際運費、進口稅，另須確認USB供電、台灣保固與跨國送修風險。"
     },
     "installation": {
@@ -1562,9 +1562,9 @@
     "price": {
       "currency": "USD",
       "amount": 66.99,
-      "converted": 2200,
+      "converted": 2205,
       "basis": "retailer_current",
-      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。；ExchangeRate-API 2026-11-24 匯率換算",
+      "confidence": "2026-11-05 人工核對同型號原SKU公開報價；供貨與優惠條件見註記。；ExchangeRate-API 2026-11-25 匯率換算",
       "note": "2026-11-05 人工覆核：原生ChromeQuntis灰色I51GY主品66.99USD、原69.99、庫存402、主表單Addtocart可見啟用；未確認台灣配送，未含國際運費、進口稅、供電／插頭與台灣保固風險。 不扣個人化折價券、點數、信用卡回饋或贈品價值。"
     },
     "installation": {
@@ -1659,9 +1659,9 @@
     "price": {
       "currency": "USD",
       "amount": 75.99,
-      "converted": 2496,
+      "converted": 2501,
       "basis": "retailer_current",
-      "confidence": "Quntis 官方商店 2026-08-31 Chrome原頁USD公開新品單件價（Warmwhite／US）。本輪重取ExchangeRate-API同批次USD/TWD 31.649299（2026-08-31 00:02 UTC）換算；海外新品價格未含國際運費、進口稅；需核對電壓、插頭與USB變壓器額定，台灣保固及跨國送修不保證。；ExchangeRate-API 2026-11-24 匯率換算",
+      "confidence": "Quntis 官方商店 2026-08-31 Chrome原頁USD公開新品單件價（Warmwhite／US）。本輪重取ExchangeRate-API同批次USD/TWD 31.649299（2026-08-31 00:02 UTC）換算；海外新品價格未含國際運費、進口稅；需核對電壓、插頭與USB變壓器額定，台灣保固及跨國送修不保證。；ExchangeRate-API 2026-11-25 匯率換算",
       "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。"
     },
     "installation": {
@@ -1756,9 +1756,9 @@
     "price": {
       "currency": "USD",
       "amount": 75.99,
-      "converted": 2496,
+      "converted": 2501,
       "basis": "retailer_current",
-      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。；ExchangeRate-API 2026-11-24 匯率換算",
+      "confidence": "2026-11-13 人工核對原商品主區公開報價及供貨條件。；ExchangeRate-API 2026-11-25 匯率換算",
       "note": "2026-11-13 實讀 Playwright 原頁：RGB 選中、美規插頭 US checked、Variant Code I66BK、Sale price USD 75.99、Add to cart 可用，與當日主商品結構價相符；較舊索引 USD 69.99，保留原幣價，台灣配送與運費未確認。"
     },
     "installation": {
@@ -1853,9 +1853,9 @@
     "price": {
       "currency": "USD",
       "amount": 79.99,
-      "converted": 2627,
+      "converted": 2633,
       "basis": "retailer_current",
-      "confidence": "Quntis 官方商店 2026-08-31 Chrome原頁USD公開新品單件價。本輪重取ExchangeRate-API同批次USD/TWD 31.649299（2026-08-31 00:02 UTC）換算；海外新品價格未含國際運費、進口稅；需核對電壓、插頭與USB變壓器額定，台灣保固及跨國送修不保證。；ExchangeRate-API 2026-11-24 匯率換算"
+      "confidence": "Quntis 官方商店 2026-08-31 Chrome原頁USD公開新品單件價。本輪重取ExchangeRate-API同批次USD/TWD 31.649299（2026-08-31 00:02 UTC）換算；海外新品價格未含國際運費、進口稅；需核對電壓、插頭與USB變壓器額定，台灣保固及跨國送修不保證。；ExchangeRate-API 2026-11-25 匯率換算"
     },
     "installation": {
       "status": "not_stated",

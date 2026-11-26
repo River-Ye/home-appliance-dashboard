@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23",
+  "generatedAt": "2026-11-26",
   "sourcePolicy": "本站共 21 類尺寸、13 類重量研究，尺寸涵蓋 電視、Soundbar、冷氣、洗衣機、烘衣機、洗烘衣機(多功能型)、電子衣櫥（衣物護理機）、床包、棉被、枕頭、冰箱、咖啡機、多功能氣炸烤箱／微波爐、洗碗機、熱水器、免治馬桶、網路交換器、螢幕燈、滑鼠、鍵盤、滑鼠墊。優先採 exact-model／相同版本的官方產品頁、官方規格表或官方 PDF，其次為可信新品通路。只採本體／機身／明確組件的尺寸與淨重，排除包裝、外箱尺寸與毛重；來源沒有明示軸序時不自行推定。既有家電與床包、棉被、枕頭維持 cm／kg，滑鼠、鍵盤與滑鼠墊使用 mm／g 並保留來源軸序。滑鼠墊厚度、床包可包覆高度另列；棉被的填充重量與整件淨重分開記錄。冷氣分列室內機與室外機，熱泵複合熱水器分列主機與儲槽。generatedAt 為最新證據批次日期，既有逐筆 checkedAt 與 weightCheckedAt 保留原查核日期，不表示重新查核。",
   "results": [
     {
@@ -11566,6 +11566,32 @@
       "weightCheckedAt": "2026-11-23",
       "weightConfidence": "high",
       "weightIsOfficialSource": true
+    },
+    {
+      "id": "tv-tcl-65c7l",
+      "category": "tv",
+      "brand": "TCL",
+      "model": "65C7L",
+      "name": "65 吋 C7L SQD-Mini LED 4K Google TV 顯示器",
+      "dimension": "尺寸：不含底座 寬 144.4 x 深 5.6 x 高 83.2 cm；含底座 寬 144.4 x 深 36.9 x 高 86.9 cm",
+      "sourceUrl": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Televisions-TV-Accessories/60-69-TVs/TCL-65-inch-C7L-Premium-SQD-Mini-LED-Smart-Monitor-without-Tuner-Box-65C7L/p/161712",
+      "sourceTitle": "Costco台灣161712 65C7L商品規格",
+      "evidenceSnippet": "Costco exact 65C7L規格明示不含底座寬144.4公分×深5.6公分×高83.2公分；含底座寬144.4公分×深36.9公分×高86.9公分。官網WxHxD標籤和值順序有矛盾，未自行換軸；手冊同值但無軸序，僅作交叉核對。",
+      "confidence": "high",
+      "isOfficialSource": false,
+      "checkedAt": "2026-11-26",
+      "weight": "重量：官頁／Costco整機淨重 19.9 kg；台灣說明書整機淨重 21.1 kg",
+      "weightSourceUrl": "https://www.tcl-shop.com.tw/item/218/?W=Shop",
+      "weightSourceTitle": "TCL台灣官網65C7L與連結C7L-TW說明書第19頁",
+      "weightEvidenceSnippet": "台灣官方65C7L頁與Costco商品標19.9kg，Costco品牌規格圖明示整機重量不含包裝19.9kg；官網連結TW說明書第19頁65C7L則明示整機重量不含包裝21.1kg。保留兩個原始來源及矛盾，不據此分列含座/無座、不取平均、不推算面板重量，也不使用27.5/28.7kg包裝值；搬運與壁掛前向台灣代理確認。 台灣官方產品頁內說明書連結：https://drive.google.com/file/d/1hLcx89BlBQ7WlJuOgUl323cOpiiL9sYw/view（本輪已下載並目視第19頁）。",
+      "weightConfidence": "medium",
+      "weightIsOfficialSource": true,
+      "weightCheckedAt": "2026-11-26",
+      "checkedSources": [
+        "https://www.tcl-shop.com.tw/item/218/?W=Shop",
+        "https://drive.google.com/file/d/1hLcx89BlBQ7WlJuOgUl323cOpiiL9sYw/view",
+        "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Televisions-TV-Accessories/60-69-TVs/TCL-65-inch-C7L-Premium-SQD-Mini-LED-Smart-Monitor-without-Tuner-Box-65C7L/p/161712"
+      ]
     }
   ]
 }
