@@ -116,9 +116,9 @@
       "currency": "TWD",
       "amount": 17111,
       "converted": 17111,
-      "confidence": "2026-11-27 核對原刊登供貨條件，金額保留為先前參考價",
+      "confidence": "2026-11-28 核對原刊登供貨條件，金額保留為先前參考價",
       "basis": "retailer_current",
-      "note": "2026-11-27 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "note": "2026-11-28 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX8KA900HLX9W/000001_1744871467.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAX8K-A900HLX9W",
@@ -214,8 +214,8 @@
       "currency": "TWD",
       "amount": 11111,
       "converted": 11111,
-      "confidence": "2026-11-27 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-27 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
+      "confidence": "2026-11-28 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-28 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX8KA900JI8XJ/000001_1764582934.jpg",
@@ -992,8 +992,8 @@
       "currency": "TWD",
       "amount": 7990,
       "converted": 7990,
-      "confidence": "2026-11-27 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-27 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
+      "confidence": "2026-11-28 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-28 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM2ZA900IUKMI/000001_1768459978.jpg",
@@ -2255,8 +2255,8 @@
     "price": {
       "currency": "USD",
       "amount": 679.99,
-      "converted": 22547,
-      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-11-26 匯率換算",
+      "converted": 22405,
+      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-11-27 匯率換算",
       "note": "2026-11-04 本輪尚無法由原來源重新核對此完整型號／所選版本與可購價格；金額保留為先前參考價，購前請確認型號、版本及供貨。"
     },
     "image": "https://m.media-amazon.com/images/I/61Yuy5vtWFL._AC_SL1500_.jpg",
@@ -2296,14 +2296,14 @@
       "status": "found",
       "amount": 679.99,
       "currency": "USD",
-      "converted": 22547,
+      "converted": 22405,
       "sourceUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
       "sourceTitle": "Dreame Aero Ultra Steam Wet Dry Vacuum – Dreame Vacuum Mop",
       "evidenceSnippet": "Dreame 原廠美國商品頁於 2026-07-16 公開顯示特價 US$679.99、原價 US$799.99，且可 Add to Cart / Buy It Now。",
       "sourceKind": "official_sale",
       "confidence": "high",
       "checkedAt": "2026-07-16",
-      "note": "新上市商品目前可公開驗證的最低售價；未套用會員碼、信用卡、點數或個人化折扣，且未含國際運費、進口稅、插頭／供電與台灣保固風險；依 2026-11-26 USD/TWD 匯率換算。"
+      "note": "新上市商品目前可公開驗證的最低售價；未套用會員碼、信用卡、點數或個人化折扣，且未含國際運費、進口稅、插頭／供電與台灣保固風險；依 2026-11-27 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -3232,8 +3232,8 @@
       "amount": 17111,
       "converted": 17111,
       "basis": "retailer_current",
-      "confidence": "2026-11-27 核對原商品版本與供貨條件，金額保留先前參考價",
-      "note": "2026-11-27 石頭台灣官方原頁仍標預購、預計11月中旬依序出貨，交期需確認；保留先前NT$17,111參考價，原頁NT$17,888不當成可即時供貨現價或史低。"
+      "confidence": "2026-11-28 核對原商品版本與供貨條件，金額保留先前參考價",
+      "note": "2026-11-28 石頭台灣官方原頁仍標預購、預計11月中旬依序出貨，交期需確認；保留先前NT$17,111參考價，原頁NT$17,888不當成可即時供貨現價或史低。"
     },
     "image": "https://taiwan.roborock.com/cdn/shop/files/F25_Ultra_Steam_Gen_2_1_1200x1200.png?v=1790784065",
     "buyUrl": "https://taiwan.roborock.com/products/roborock-f25-ultra-steam-gen2",
@@ -3423,8 +3423,8 @@
       "currency": "TWD",
       "amount": 6911,
       "converted": 6911,
-      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-26 PChome 同F204公開價NT$6,911，未另扣個人券、點數與信用卡回饋。"
+      "confidence": "2026-11-28 當日來源覆核未完整，保留先前參考價",
+      "note": "2026-11-28 原商品當日價格／活動條件仍待確認，本輪較早SKU來源列未完整留存、後續API回傳HTTP403；本卡金額保留為先前參考價，實際下單前請向通路確認。"
     },
     "installation": {
       "status": "excluded",
@@ -3432,7 +3432,7 @@
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAXAZA900KCKGP/000001_1787816254.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAXAZ-A900KCKGP",
-    "buyLabel": "PChome 24h 購物",
+    "buyLabel": "PChome（當日價格／供貨待確認，先前參考價）",
     "specs": [
       "乾式無線直立／手持式，內建智慧塵量偵測與 LCD 顯示",
       "最高吸力 280 AW、最大真空壓力 27,000 Pa，依原廠測試條件",
@@ -3525,8 +3525,8 @@
       "amount": 10999,
       "converted": 10999,
       "basis": "retailer_current",
-      "confidence": "2026-11-27 原商品主區需登入顯示價格，保留先前參考價",
-      "note": "2026-11-27 Costco同一SKU原商品主區需登入顯示價格，當日沒有可重現的公開單品價；本卡金額保留為先前參考價，實際會員可購金額與供貨請登入原頁確認。"
+      "confidence": "2026-11-28 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-28 Costco好市多同WD5M21A公開單品價NT$10,999（含運），需具好市多會員資格；未扣聯名卡好多金、黑鑽會員回饋或個人優惠。"
     },
     "installation": {
       "status": "not_stated",
@@ -3534,7 +3534,7 @@
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h04/h27/483940575150110.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Small-Appliances/Vacuums-Floor-Care/Roborock-Floor-Scrubber-F25-GEN2-WD5M21A/p/161292",
-    "buyLabel": "Costco 好市多（登入確認價格／先前參考價）",
+    "buyLabel": "Costco 好市多",
     "specs": [
       "類型：直立乾濕洗地機；台灣WD5M21A，專用多功能充電座MDS48LRR",
       "清潔：原廠標示20,000Pa、20N拖地下壓力；AI髒污檢測",

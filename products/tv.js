@@ -65,8 +65,8 @@
       "evidenceSnippet": "",
       "sourceKind": "not_found",
       "confidence": "not_found",
-      "checkedAt": "2026-11-27",
-      "note": "2026-11-27 重查同一PChome SKU較低歷史點，未取得該低價當時的單件公開價及供貨條件完整原頁證據；維持找不到可靠史低。"
+      "checkedAt": "2026-11-28",
+      "note": "2026-11-28 同一PChome SKU記錄仍顯示較低NT$49,911；該低價原日單件公開價與配送條件完整證據未取得，不以較高已存證價冒充史低。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -326,9 +326,9 @@
       "currency": "TWD",
       "amount": 74900,
       "converted": 74900,
-      "confidence": "2026-11-27 原頁瀏覽器403，金額保留先前參考價",
+      "confidence": "2026-11-28 原頁瀏覽器403，金額保留先前參考價",
       "basis": "retailer_current",
-      "note": "2026-11-27 LG台灣原頁瀏覽器兩次回傳HTTP403，當日主商品價格與供貨未能重現；本卡金額保留為先前參考價，實際價格、安裝與交期請向官方確認。"
+      "note": "2026-11-28 LG台灣原頁瀏覽器兩次回傳HTTP403，當日主商品價格與供貨未能重現；本卡金額保留為先前參考價，實際價格、安裝與交期請向官方確認。"
     },
     "image": "https://i6.momoshop.com.tw/1781278602/goodsimg/TP000/9148/0000/554/TP00091480000554_L.webp",
     "buyUrl": "https://www.lg.com/tw/tv-soundbars/oled-evo/oled65c6pta/",
@@ -1043,8 +1043,8 @@
       "currency": "TWD",
       "amount": 79900,
       "converted": 79900,
-      "confidence": "2026-11-27 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-27 原商品頁仍為預購，預計出貨日 2026/11/30 - 2026/12/02；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
+      "confidence": "2026-11-28 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-28 原商品頁仍為預購，預計出貨日 2026/12/01 - 2026/12/03；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADIKA900HJGF2/000001_1782900149.jpg",
@@ -1347,11 +1347,12 @@
       "currency": "TWD",
       "amount": 30990,
       "converted": 30990,
-      "confidence": "PChome 2026-07-31 exact-model API 公開價"
+      "confidence": "2026-11-28 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-28 原商品頁仍為預購，預計出貨日 2027/01/27 - 2027/01/29；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADO2A900K39X4/000001_1781238906.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADO2-A900K39X4",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（預購／交期待確認）",
     "specs": [
       "尺寸：不含底座 寬 144.6 x 深 3.99 x 高 83.3 cm；含底座 寬 144.6 x 深 29.5 x 高 88.3 cm",
       "重量：不含底座 17.7 kg；含底座 18.1 kg",
@@ -1960,13 +1961,13 @@
       "currency": "TWD",
       "amount": 14391,
       "converted": 14391,
-      "confidence": "2026-11-27 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-27 PChome 同CQ-65QX250公開價NT$14,391，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-27T08:59:59+08:00。",
+      "confidence": "2026-11-28 當日來源覆核未完整，保留先前參考價",
+      "note": "2026-11-28 原商品當日價格／活動條件仍待確認，本輪較早SKU來源列未完整留存、後續API回傳HTTP403；本卡金額保留為先前參考價，實際下單前請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADTOA900JNE73/000001_1768523868.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADTO-A900JNMOP",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（當日價格／供貨待確認，先前參考價）",
     "specs": [
       "尺寸：不含底座 寬 144.53 x 深 6.73 x 高 83.15 cm；含底座 寬 144.53 x 深 27.7 x 高 89 cm",
       "重量：查不到",
@@ -2061,8 +2062,8 @@
       "currency": "TWD",
       "amount": 21500,
       "converted": 21500,
-      "confidence": "2026-11-27 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-27 原商品頁仍為預購，預計出貨日 2026/11/30 - 2026/12/02；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
+      "confidence": "2026-11-28 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-28 原商品頁仍為預購，預計出貨日 2026/12/01 - 2026/12/03；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD0WA900I9LNS/000001_1769648262.jpg",
@@ -2271,9 +2272,9 @@
       "currency": "TWD",
       "amount": 30599,
       "converted": 30599,
-      "confidence": "2026-11-27 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-28 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-27 Costco好市多同75Z670NT公開單品價NT$30,599（含運），需具好市多會員資格；未扣聯名卡好多金、黑鑽會員回饋或個人優惠。 原主區明示2026/11/23–2026/11/29限購期間，每帳號每7天限購1組；此處保守以期間結束為參考價截止，下單前請重查。"
+      "note": "2026-11-28 Costco好市多同75Z670NT公開單品價NT$30,599（含運），需具好市多會員資格；未扣聯名卡好多金、黑鑽會員回饋或個人優惠。 原主區明示2026/11/23–2026/11/29限購期間，每帳號每7天限購1組；此處保守以期間結束為參考價截止，下單前請重查。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/hfe/ha8/438072160518174.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Televisions-TV-Accessories/70-79-TVs/Toshiba-Regza-75-inch-Full-Array-4K-QLED-144Hz-Smart-Monitor-75Z670NT/p/152535",
@@ -4217,8 +4218,8 @@
       "amount": 164990,
       "converted": 164990,
       "basis": "retailer_current",
-      "confidence": "2026-11-27 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-27 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "confidence": "2026-11-28 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-28 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "installation": {
       "status": "included_basic",
@@ -4789,11 +4790,11 @@
   "channel": "tw",
   "price": {
     "currency": "TWD",
-    "amount": 34257,
-    "converted": 34257,
+    "amount": 33572,
+    "converted": 33572,
     "basis": "retailer_current",
-    "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
-    "note": "2026-11-23 Yahoo購物中心同Y-65XR30M2公開價NT$34,257，未另扣個人券、點數與信用卡回饋。"
+    "confidence": "2026-11-28 核對原商品主區及同一商品公開價和供貨條件",
+    "note": "2026-11-28 Yahoo購物中心同Y-65XR30M2公開價NT$33,572，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T06:59:59+08:00。"
   },
   "installation": {
     "status": "included_basic",

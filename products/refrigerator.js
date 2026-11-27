@@ -435,10 +435,10 @@
     "image": "https://img.pchome.com.tw/cs/items/DPACEMA900KNVHL/000001_1793858129.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 35063,
-      "converted": 35063,
-      "confidence": "2026-11-14 核對原商品公開價及同型供貨條件",
-      "note": "PChome 主商品 500L 三門雪霧白 NR-C505XV-W 公開 NT$35,063；API 同 PID 及 Name、Qty 11，Nick 誤混另一款黑色 NR-C505XGS-B，以原頁 H1、商品規格及圖確認。按鈕可用，含標準安裝及舊機回收，通常 3–7 個工作天聯絡，偏遠地區和外島不送、無電梯搬運依通路加價。此商品頁不參加原廠贈品活動。",
+      "amount": 34011,
+      "converted": 34011,
+      "confidence": "2026-11-28 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-28 PChome 同NR-C505XV-W公開價NT$34,011，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -480,16 +480,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 34526,
+      "amount": 34011,
       "currency": "TWD",
-      "converted": 34526,
-      "sourceUrl": "https://price.shhwa.cc/product/pchome/DPACEM-A900KNVHL",
-      "sourceTitle": "Lowcast 比價趨勢：PChome Panasonic 國際牌 NR-C505XV-W",
-      "evidenceSnippet": "Lowcast 原頁列 NR-C505XV-W 且原商品連結為 PChome DPACEM-A900KNVHL，逐日價格於 2026-11-06 至 2026-11-10 顯示 NT$34,526。",
-      "sourceKind": "price_history",
+      "converted": 34011,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DPACEM-A900KNVHL",
+      "sourceTitle": "Panasonic NR-C505XV-W 原商品頁",
+      "evidenceSnippet": "2026-11-28 PChome DPACEM-A900KNVHL 原商品主區、完整型號／選定版本及可用購買動作已人工核對，API Qty 11；採公開價 NT$34,011。 同一SKU較早API200來源列留存在initial-audit.json（本輪批次2026-11-27T23:34:14.390Z）；原商品主區另於2026-11-27T23:36:16.024Z核對完整型號、價格、購買動作及配送。稍後2026-11-27T23:40:44.234Z API回傳HTTP403，僅保留本輪較早成功來源，不稱為最新API成功或推定後續供貨。 公開活動至 2026-11-30T23:59:59+08:00。 低於原有同款紀錄。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-11-14",
-      "note": "採同型與同 PChome SKU 的日期價格紀錄。個人折價券、信用卡回饋及點數未納入。"
+      "checkedAt": "2026-11-28",
+      "note": "採同型號同規格可信新品公開價，不含個人券、點數、會員個人化折扣與信用卡回饋。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1801,9 +1801,9 @@
       "currency": "TWD",
       "amount": 23310,
       "converted": 23310,
-      "confidence": "2026-11-27 核對原刊登供貨條件，金額保留為先前參考價",
+      "confidence": "2026-11-28 核對原刊登供貨條件，金額保留為先前參考價",
       "basis": "retailer_current",
-      "note": "2026-11-27 原商品頁仍為預購，預購12/7出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "note": "2026-11-28 原商品頁仍為預購，預購12/7出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心（預購）",
@@ -2117,13 +2117,13 @@
       "currency": "TWD",
       "amount": 13999,
       "converted": 13999,
-      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-28 原商品主區需登入顯示價格，保留先前參考價",
       "basis": "retailer_current",
-      "note": "2026-11-24 Costco好市多同SJ-H25Y-WH公開單品價NT$13,999（含運），需具好市多會員資格；未扣聯名卡好多金、黑鑽會員回饋或個人優惠。"
+      "note": "2026-11-28 Costco同一SKU原商品主區需登入顯示價格，當日沒有可重現的公開單品價；本卡金額保留為先前參考價，實際會員可購金額與供貨請登入原頁確認。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h3f/h56/115073136033822.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Fridges-Freezers/SHARP-253-L-Top-Mount-Inverter-Fridge-SJ-H25Y-WH/p/137098",
-    "buyLabel": "Costco 好市多",
+    "buyLabel": "Costco 好市多（登入確認價格／先前參考價）",
     "specs": [
       "253 公升",
       "雙門上冷凍",
@@ -2323,13 +2323,13 @@
       "currency": "TWD",
       "amount": 27899,
       "converted": 27899,
-      "confidence": "2026-11-27 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-27 Costco好市多同NR-B65CV-S公開單品價NT$27,899（含運），需具好市多會員資格；未扣聯名卡好多金、黑鑽會員回饋或個人優惠。",
+      "confidence": "2026-11-28 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-28 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h27/h0a/121680122413086.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Fridges-Freezers/Panasonic-650-L-Double-Door-Inverter-Fridge-NR-B65CV-S/p/138021",
-    "buyLabel": "Costco 好市多",
+    "buyLabel": "Costco 好市多（原刊登缺貨，查看供貨）",
     "specs": [
       "650L 級雙門變頻",
       "110V",

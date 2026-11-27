@@ -1676,10 +1676,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/C0FA586EC4-SP-18495887.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 7990,
-      "converted": 7990,
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-23 Yahoo購物中心同HDM-0841公開價NT$7,990，未另扣個人券、點數與信用卡回饋。",
+      "amount": 7591,
+      "converted": 7591,
+      "confidence": "2026-11-28 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-28 Yahoo購物中心同HDM-0841公開價NT$7,591，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T07:30:59+08:00。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -1983,10 +1983,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/254DF81A1E-SP-20893325.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 49900,
-      "converted": 49900,
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-23 Yahoo購物中心同WQB245A0TC公開價NT$49,900，未另扣個人券、點數與信用卡回饋。",
+      "amount": 45908,
+      "converted": 45908,
+      "confidence": "2026-11-28 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-28 Yahoo購物中心同WQB245A0TC公開價NT$45,908，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T07:30:59+08:00。",
       "basis": "retailer_current"
     },
     "channel": "tw",

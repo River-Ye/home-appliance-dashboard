@@ -17,8 +17,8 @@
       "currency": "TWD",
       "amount": 20900,
       "converted": 20900,
-      "confidence": "2026-11-27 原頁瀏覽器403，金額保留先前參考價",
-      "note": "2026-11-27 LG台灣原頁瀏覽器兩次回傳HTTP403，當日主商品價格與供貨未能重現；本卡金額保留為先前參考價，實際價格、安裝與交期請向官方確認。",
+      "confidence": "2026-11-28 原頁瀏覽器403，金額保留先前參考價",
+      "note": "2026-11-28 LG台灣原頁瀏覽器兩次回傳HTTP403，當日主商品價格與供貨未能重現；本卡金額保留為先前參考價，實際價格、安裝與交期請向官方確認。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -1605,10 +1605,10 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/41046DB844-SP-12334280.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 37260,
-      "converted": 37260,
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-23 Yahoo購物中心同NA-V150MDH公開價NT$37,260，未另扣個人券、點數與信用卡回饋。",
+      "amount": 34652,
+      "converted": 34652,
+      "confidence": "2026-11-28 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-28 Yahoo購物中心同NA-V150MDH公開價NT$34,652，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T07:30:59+08:00。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -2029,9 +2029,9 @@
       "currency": "TWD",
       "amount": 25599,
       "converted": 25599,
-      "confidence": "2026-11-27 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-28 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-27 Costco好市多同EWW1243R7WC公開單品價NT$25,599（含運），需具好市多會員資格；未扣聯名卡好多金、黑鑽會員回饋或個人優惠。 原主區明示2026/11/27–2026/11/29限購期間，每帳號每3天限購1組；此處保守以期間結束為參考價截止，下單前請重查。"
+      "note": "2026-11-28 Costco好市多同EWW1243R7WC公開單品價NT$25,599（含運），需具好市多會員資格；未扣聯名卡好多金、黑鑽會員回饋或個人優惠。 原主區明示2026/11/27–2026/11/29限購期間，每帳號每3天限購1組；此處保守以期間結束為參考價截止，下單前請重查。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h7b/h3c/346620867051550.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Washers-Dryers/Washer-Size-10-15-kg/Electrolux-12-kg-9-kg-UltimateCare-700-Washer-Dryer-EWW1243R7WC/p/152411",
@@ -2227,9 +2227,9 @@
       "currency": "TWD",
       "amount": 18999,
       "converted": 18999,
-      "confidence": "2026-11-27 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-28 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-27 Costco好市多同EWW1123P5WC公開單品價NT$18,999（含運），需具好市多會員資格；未扣聯名卡好多金、黑鑽會員回饋或個人優惠。 原主區明示2026/11/25–2026/11/29限購期間，每帳號每5天限購1組；此處保守以期間結束為參考價截止，下單前請重查。"
+      "note": "2026-11-28 Costco好市多同EWW1123P5WC公開單品價NT$18,999（含運），需具好市多會員資格；未扣聯名卡好多金、黑鑽會員回饋或個人優惠。 原主區明示2026/11/25–2026/11/29限購期間，每帳號每5天限購1組；此處保守以期間結束為參考價截止，下單前請重查。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h62/h7f/332442479263774.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Washers-Dryers/Washer-Size-10-15-kg/Electrolux-11-kg-7-kg-Ultimate-Care-500-Washer-Dryer-EWW1123P5WC/p/151339",
@@ -2757,9 +2757,9 @@
       "currency": "TWD",
       "amount": 85111,
       "converted": 85111,
-      "confidence": "2026-11-27 原頁瀏覽器403，金額保留先前參考價",
+      "confidence": "2026-11-28 原頁瀏覽器403，金額保留先前參考價",
       "basis": "retailer_current",
-      "note": "2026-11-27 LG台灣原頁瀏覽器兩次回傳HTTP403，當日主商品價格與供貨未能重現；本卡金額保留為先前參考價，實際價格、安裝與交期請向官方確認。"
+      "note": "2026-11-28 LG台灣原頁瀏覽器兩次回傳HTTP403，當日主商品價格與供貨未能重現；本卡金額保留為先前參考價，實際價格、安裝與交期請向官方確認。"
     },
     "channel": "tw",
     "buyLabel": "LG 台灣官方（當日價格／供貨待確認）",
@@ -2976,11 +2976,11 @@
     "name": "10/7kg i-DOS 智慧聯網洗脫烘",
     "price": {
       "currency": "TWD",
-      "amount": 50000,
-      "converted": 50000,
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 46000,
+      "converted": 46000,
+      "confidence": "2026-11-28 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-23 Yahoo購物中心同WNC554A0TC公開價NT$50,000，未另扣個人券、點數與信用卡回饋。"
+      "note": "2026-11-28 Yahoo購物中心同WNC554A0TC公開價NT$46,000，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T07:30:59+08:00。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DPAID7A900IHEVX/000001_1776657918.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/BOSCH%E5%8D%9A%E4%B8%96-10-7%E5%85%AC%E6%96%A4%E9%AB%98%E6%95%88%E6%99%BA%E6%85%A7%E6%BB%BE%E7%AD%92%E6%B4%97%E8%84%AB%E7%83%98-%E5%90%AB%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-220V%E6%8B%89%E9%9B%BB-WNC554A0TC-11546320.html",

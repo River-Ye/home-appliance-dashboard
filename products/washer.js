@@ -229,11 +229,11 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/7A7EBA14D6-SP-22052251.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 20811,
-      "converted": 20811,
-      "confidence": "2026-11-27 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 19771,
+      "converted": 19771,
+      "confidence": "2026-11-28 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-27 Yahoo購物中心同WT-TD18OB公開價NT$20,811，未另扣個人券、點數與信用卡回饋。"
+      "note": "2026-11-28 Yahoo購物中心同WT-TD18OB公開價NT$19,771，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T07:00:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1298,8 +1298,8 @@
       "currency": "TWD",
       "amount": 8990,
       "converted": 8990,
-      "confidence": "2026-11-27 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-27 原商品頁仍為預購，預購12/5出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
+      "confidence": "2026-11-28 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-28 原商品頁仍為預購，預購12/5出貨；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "channel": "tw",
@@ -2341,9 +2341,9 @@
       "currency": "TWD",
       "amount": 18810,
       "converted": 18810,
-      "confidence": "2026-11-27 核對原刊登供貨條件，金額保留為先前參考價",
+      "confidence": "2026-11-28 核對原刊登供貨條件，金額保留為先前參考價",
       "basis": "retailer_current",
-      "note": "2026-11-27 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "note": "2026-11-28 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/he0/h00/103644752314398.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/QBAR29-A900A63AZ",

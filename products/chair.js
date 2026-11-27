@@ -799,9 +799,9 @@
       "currency": "TWD",
       "amount": 13410,
       "converted": 13410,
-      "confidence": "2026-11-27 核對原刊登供貨條件，金額保留為先前參考價",
+      "confidence": "2026-11-28 核對原刊登供貨條件，金額保留為先前參考價",
       "basis": "retailer_current",
-      "note": "2026-11-27 原商品頁仍為預購，預計出貨日 2026/11/29 - 2026/12/01；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "note": "2026-11-28 原商品頁仍為預購，預計出貨日 2026/11/30 - 2026/12/02；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAKFOA900BWWGS/000001_1755481797.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAKFO-A900BWWGS",
@@ -1086,8 +1086,8 @@
       "currency": "TWD",
       "amount": 7990,
       "converted": 7990,
-      "confidence": "2026-11-27 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-27 原商品頁仍為預購，預計出貨日 2026/12/08 - 2026/12/10；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
+      "confidence": "2026-11-28 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-28 原商品頁仍為預購，預計出貨日 2026/12/09 - 2026/12/11；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ0AA900IGLW6/000001_1759990112.jpg",
@@ -1130,8 +1130,8 @@
       "evidenceSnippet": "",
       "sourceKind": "not_found",
       "confidence": "not_found",
-      "checkedAt": "2026-11-27",
-      "note": "2026-11-27 同SKU過去11/15最低7,590與公開價及CTA一致，但該日原頁存證沒有完整配送／預購條件，不能由API Qty或今天交期回推當日可交付，維持not_found。"
+      "checkedAt": "2026-11-28",
+      "note": "2026-11-28 同SKU11/15最低NT$7,590與當日公開價/可用購買動作一致，但原日存證缺完整配送或預購條件，不能用API Qty或今天交期回推，維持找不到可靠史低。"
     },
     "issueResearch": {
       "status": "no_common_issue",

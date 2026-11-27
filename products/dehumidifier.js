@@ -309,10 +309,10 @@
     "name": "19.6 公升 PuriCare 雙變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 20924,
-      "converted": 20924,
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-23 Yahoo購物中心同DD201MEE0公開價NT$20,924，未另扣個人券、點數與信用卡回饋。",
+      "amount": 18832,
+      "converted": 18832,
+      "confidence": "2026-11-28 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-28 Yahoo購物中心同DD201MEE0公開價NT$18,832，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T06:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4OA900JX7GH/000001_1783563034.jpg",
@@ -602,10 +602,10 @@
     "name": "16 公升變頻高效型清淨除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 21370,
-      "converted": 21370,
-      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-26 Yahoo購物中心同F-YV32MH公開價NT$21,370，未另扣個人券、點數與信用卡回饋。",
+      "amount": 19233,
+      "converted": 19233,
+      "confidence": "2026-11-28 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-28 Yahoo購物中心同F-YV32MH公開價NT$19,233，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T06:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900GTPHC/000001_1699597155.jpg",
@@ -700,10 +700,10 @@
     "name": "8 公升清淨除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 12450,
-      "converted": 12450,
-      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-26 Yahoo購物中心同F-Y16FH公開價NT$12,450，未另扣個人券、點數與信用卡回饋。",
+      "amount": 11205,
+      "converted": 11205,
+      "confidence": "2026-11-28 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-28 Yahoo購物中心同F-Y16FH公開價NT$11,205，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T06:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU0FA900B1HPU/000001_1782813379.jpg",
@@ -994,11 +994,11 @@
     "name": "PuriCare 12 公升雙變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 13231,
-      "converted": 13231,
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 12967,
+      "converted": 12967,
+      "confidence": "2026-11-28 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-23 Yahoo購物中心同DD121QWE0公開價NT$13,231，未另扣個人券、點數與信用卡回饋。"
+      "note": "2026-11-28 Yahoo購物中心同DD121QWE0公開價NT$12,967，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T06:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4NA900JF9HP/000001_1778165423.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-12%E5%85%AC%E5%8D%87-%E6%97%A5UV%E6%AE%BA%E8%8F%8C%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9FDD121QWE0-11864251.html",
@@ -1094,8 +1094,8 @@
       "currency": "TWD",
       "amount": 15500,
       "converted": 15500,
-      "confidence": "2026-11-27 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-27 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "confidence": "2026-11-28 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-28 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4YA900JBQP2/000001_1759892926.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ4Y-A900JBQP2",
@@ -2497,10 +2497,10 @@
     "name": "乾淨方 Pro 雙氣流變頻美學 25L 除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 21900,
-      "converted": 21900,
-      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-24 Yahoo購物中心同DW-UW25HT-W公開價NT$21,900，未另扣個人券、點數與信用卡回饋。",
+      "amount": 20805,
+      "converted": 20805,
+      "confidence": "2026-11-28 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-28 Yahoo購物中心同DW-UW25HT-W公開價NT$20,805，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T06:59:59+08:00。",
       "basis": "retailer_current"
     },
     "installation": {

@@ -818,8 +818,8 @@
       "currency": "TWD",
       "amount": 9490,
       "converted": 9490,
-      "confidence": "2026-11-27 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-27 原商品頁仍為預購，預計出貨日 2026/12/04 - 2026/12/08；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
+      "confidence": "2026-11-28 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-28 原商品頁仍為預購，預計出貨日 2026/12/05 - 2026/12/08；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DQCI0AA900K15T1/000001_1779269416.jpg",
@@ -1263,8 +1263,8 @@
       "evidenceSnippet": "",
       "sourceKind": "not_found",
       "confidence": "not_found",
-      "checkedAt": "2026-11-27",
-      "note": "2026-11-27 同SKU歷史最低13,491及11/21供貨可互證，但原日與今日文字沒有明示白色版本；僅憑產品照或既有名冊名稱不補足顏色身分，維持not_found。"
+      "checkedAt": "2026-11-28",
+      "note": "2026-11-28 同SKU最低NT$13,491及11/21公開價/供貨可互證，但原日與當日原頁文字均未明示白色版本；不憑照片或名冊名稱推定，維持找不到可靠史低。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2009,11 +2009,12 @@
       "currency": "TWD",
       "amount": 6699,
       "converted": 6699,
-      "confidence": "Costco 好市多 2026-07-09 查核價"
+      "confidence": "2026-11-28 原商品主區需登入顯示價格，保留先前參考價",
+      "note": "2026-11-28 Costco同一SKU原商品主區需登入顯示價格，當日沒有可重現的公開單品價；本卡金額保留為先前參考價，實際會員可購金額與供貨請登入原頁確認。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h73/h6d/345529950470174.jpg",
     "buyUrl": "https://www.costco.com.tw/Furniture-Kitchen/Furniture/Computer-Desk-Chair-Sets/Backbone-Dyback-Lite-Adjustable-Desk-100-cm-X-60-cm/p/149174",
-    "buyLabel": "Costco 好市多",
+    "buyLabel": "Costco 好市多（登入確認價格／先前參考價）",
     "specs": [
       "100 x 60 公分",
       "升降 72-118 公分",
@@ -2108,8 +2109,8 @@
       "currency": "TWD",
       "amount": 5489,
       "converted": 5489,
-      "confidence": "2026-11-27 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-27 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "confidence": "2026-11-28 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-28 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h8a/h61/386020263100446.jpg",
     "buyUrl": "https://www.costco.com.tw/Furniture-Kitchen/Furniture/Computer-Desk-Chair-Sets/FlexiSpot-Adjustable-Desk-GET156E-14070/p/156015",

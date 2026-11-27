@@ -1046,11 +1046,11 @@
     "image": "https://cs-a.ecimg.tw/items/DEDG3BA900GQDVZ/000001_1776769920.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1099,
-      "converted": 1099,
+      "amount": 990,
+      "converted": 990,
       "basis": "retailer_current",
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-23 Yahoo購物中心同饗樂系列不沾鍋具4件組公開價NT$1,099，未另扣個人券、點數與信用卡回饋。"
+      "confidence": "2026-11-28 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-28 Yahoo購物中心同饗樂系列不沾鍋具4件組公開價NT$990，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T07:59:59+08:00。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",

@@ -648,8 +648,8 @@
       "evidenceSnippet": "",
       "sourceKind": "not_found",
       "confidence": "not_found",
-      "checkedAt": "2026-11-27",
-      "note": "2026-11-27 重查同一PChome SKU較低歷史點，未取得該低價當時的單件公開價及供貨條件完整原頁證據；維持找不到可靠史低。"
+      "checkedAt": "2026-11-28",
+      "note": "2026-11-28 同一PChome SKU記錄仍顯示較低NT$15,200；該低價原日單件公開價與配送條件完整證據未取得，維持找不到可靠史低。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -844,8 +844,8 @@
       "evidenceSnippet": "",
       "sourceKind": "not_found",
       "confidence": "not_found",
-      "checkedAt": "2026-11-27",
-      "note": "2026-11-27 重查同一PChome SKU較低歷史點，未取得該低價當時的單件公開價及供貨條件完整原頁證據；維持找不到可靠史低。"
+      "checkedAt": "2026-11-28",
+      "note": "2026-11-28 同一PChome SKU記錄仍顯示較低NT$22,325；該低價原日單件公開價與配送條件完整證據未取得，維持找不到可靠史低。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2022,9 +2022,9 @@
     "price": {
       "currency": "HKD",
       "amount": 9638,
-      "converted": 40770,
+      "converted": 40519,
       "basis": "retailer_current",
-      "confidence": "EasyLock 香港 2026-08-28 exact-model 公開促銷價；ExchangeRate-API 2026-11-26 匯率換算",
+      "confidence": "EasyLock 香港 2026-08-28 exact-model 公開促銷價；ExchangeRate-API 2026-11-27 匯率換算",
       "note": "2026-11-04 本輪來源讀取受限或未成功回應，現價及供貨尚未重新確認；金額保留為先前參考價，不能據頁面錯誤推定停產。"
     },
     "installation": {
@@ -2593,15 +2593,15 @@
     "name": "MI-510F 三合一輔助型電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 9025,
-      "converted": 9025,
-      "confidence": "2026-11-27 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 9500,
+      "converted": 9500,
+      "confidence": "2026-11-28 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-27 PChome 同MI-510F公開價NT$9,025，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-29T23:59:59+08:00。"
+      "note": "2026-11-28 愛購智能+同MI-510F新品公開價NT$9,500，主區明示尚有庫存；含基本安裝、台灣三年保固。配送限台灣本島；運費未單列，額外材料與施工按現場報價，需先確認門型。未扣紅利、個人券與信用卡回饋。"
     },
-    "image": "https://cs-a.ecimg.tw/items/DQBS4NA900ILR7A/000001_1767853677.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900ILR7A",
-    "buyLabel": "PChome",
+    "image": "https://cdn-general.cybassets.com/media/W1siZiIsIjE3NDQ0L3Byb2R1Y3RzLzMzMzg5MDQwLzE2MTgxMTM5NTFfMzJjNTU0OGExZGVmODgyYmYxNmYuanBlZyJdLFsicCIsInRodW1iIiwiNjAweDYwMCJdXQ.jpeg?sha=e30c25f2ec7d6014",
+    "buyUrl": "https://www.lovebuyigo.com.tw/products/milre-mi510f",
+    "buyLabel": "愛購智能+",
     "specs": [
       "密碼/指紋/卡片",
       "輔助鎖",
@@ -2611,7 +2611,7 @@
     "description": "電子鎖購買前要先確認門厚、門向、鎖體、天地栓與安裝條件；本清單僅列可信通路正常新品。",
     "pros": [
       "Milre 通路能見度高",
-      "PChome 正常新品頁，價格與圖片可查核"
+      "愛購智能+正常新品頁，價格與圖片可查核"
     ],
     "cons": [
       "安裝前需確認門型與加價項目",
@@ -2621,7 +2621,7 @@
     "recommendation": "Milre 低價指紋款：適合輔助鎖需求，不建議當作高安防主鎖期待。",
     "score": 81,
     "voltage": "多為電池供電；需確認門厚、門向、鎖體與是否有天地栓",
-    "warranty": "依 PChome 商品頁、原廠或台灣代理保固與安裝條款",
+    "warranty": "愛購智能+商品頁明示自購買日起保固三年；需保留保固卡，非人為損壞及安裝、材料加價依通路條款。",
     "tags": [
       "輔助鎖",
       "低價",
@@ -2638,8 +2638,8 @@
       "evidenceSnippet": "",
       "sourceKind": "not_found",
       "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Milre MI-510F: Momo富邦購物 【Milre 美樂】MI-510F 三合一 密碼/指紋/卡片智能電子門鎖(密碼/指紋/卡片) 型號/規格不相符；LBJ Milre MI-510F: 樂天市場 - 愛購智能 愛購智能 【促銷】Milre 美樂 三合一密碼/指紋/卡片智能電子門鎖(MI-510F)(附基本安裝) 型號/規格不相符；LBJ Milre MI-510F: 蝦皮購物 - 門禁專賣家 免運 含稅 美樂 Milre MI-480S 感應/密碼電子鎖 MI-510S卡片 指紋 MI-510F 三星可參考 型號/規格不相符。"
+      "checkedAt": "2026-11-28",
+      "note": "2026-11-28 同SKU記錄最低NT$9,025，但原商品標題與規格明示MDL-510F，名冊為MI-510F；未取得原廠同款別名證據，不跨型號採用史低。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2678,6 +2678,10 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "商品規格明示附基本安裝，配送限台灣本島；超出隨附零件的材料及施工費依現場環境另行報價，購買前須確認門型。"
     }
   },
   {
@@ -5142,8 +5146,8 @@
       "amount": 33180,
       "converted": 33180,
       "basis": "retailer_current",
-      "confidence": "2026-11-27 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-27 台灣總代理同DDL902-MFVP-11HWS曜石黑公開NT$33,180，原頁已改現貨陸續寄出，可下單；安裝安排與交期請先確認，未扣輸碼、個人券、點數或信用卡回饋。"
+      "confidence": "2026-11-28 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-28 台灣總代理同DDL902-MFVP-11HWS曜石黑公開NT$33,180，原頁已改現貨陸續寄出，可下單；安裝安排與交期請先確認，未扣輸碼、個人券、點數或信用卡回饋。"
     },
     "installation": {
       "status": "included_basic",

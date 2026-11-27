@@ -900,8 +900,8 @@
     "price": {
       "currency": "USD",
       "amount": 208,
-      "converted": 6897,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。；ExchangeRate-API 2026-11-26 匯率換算",
+      "converted": 6853,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。；ExchangeRate-API 2026-11-27 匯率換算",
       "note": "2026-11-04 午後人工覆核：UniFi美國所選單台原生主頁基價189，強制附加費後總額208USD，Add to Cart可用；不採未含強制費用的schema基價。未含國際運費、進口稅、PoE供電配件與台灣保固風險。"
     },
     "image": "https://cdn.ecomm.ui.com/products/fa8dd4e4-36c8-4c79-a928-22c7bff2ce29/ab5bc8a4-6135-402e-a695-e3ea5e16d3e6.png",
@@ -981,8 +981,8 @@
     "price": {
       "currency": "USD",
       "amount": 175,
-      "converted": 5803,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-26 匯率換算",
+      "converted": 5766,
+      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-27 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-04 午後人工覆核：UniFi美國所選單台原生主頁基價159，強制附加費後總額175USD，Add to Cart可用；不採未含強制費用的schema基價。未含國際運費、進口稅、PoE供電配件與台灣保固風險。"
     },
@@ -1100,8 +1100,8 @@
     "price": {
       "currency": "USD",
       "amount": 109,
-      "converted": 3614,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-26 匯率換算",
+      "converted": 3591,
+      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-27 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-04 午後人工覆核：UniFi美國所選單台原生主頁基價99，強制附加費後總額109USD，Add to Cart可用；不採未含強制費用的schema基價。未含國際運費、進口稅、PoE供電配件與台灣保固風險。"
     },
@@ -1586,8 +1586,8 @@
     "price": {
       "currency": "USD",
       "amount": 142,
-      "converted": 4708,
-      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-26 匯率換算",
+      "converted": 4679,
+      "confidence": "2026-10-30 人工核對同型號、同版本原商品頁公開報價與銷售狀態；條件及交期見註記。；ExchangeRate-API 2026-11-27 匯率換算",
       "basis": "retailer_current",
       "note": "2026-11-04 午後人工覆核：UniFi美國所選單台原生主頁基價129，強制附加費後總額142USD，Add to Cart可用；不採未含強制費用的schema基價。未含國際運費、進口稅、PoE供電配件與台灣保固風險。"
     },
@@ -1692,8 +1692,8 @@
     "price": {
       "currency": "USD",
       "amount": 307,
-      "converted": 10180,
-      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。；ExchangeRate-API 2026-11-26 匯率換算",
+      "converted": 10115,
+      "confidence": "2026-10-28 人工覆核同型號同版本公開價與銷售狀態；價格條件與保留參考價原因見註記。；ExchangeRate-API 2026-11-27 匯率換算",
       "note": "2026-11-04 午後人工覆核：UniFi美國所選單台原生主頁基價279，強制附加費後總額307USD，Add to Cart可用；不採未含強制費用的schema基價。未含國際運費、進口稅、PoE供電配件與台灣保固風險。"
     },
     "image": "https://cdn.ecomm.ui.com/products/350070a0-ae43-431b-b052-8e849c3b0a75/bad94693-bc54-4ab4-b060-9b972401941c.png",
@@ -3042,9 +3042,9 @@
       "currency": "TWD",
       "amount": 8999,
       "converted": 8999,
-      "confidence": "2026-11-27 核對原刊登供貨條件，金額保留為先前參考價",
+      "confidence": "2026-11-28 核對原刊登供貨條件，金額保留為先前參考價",
       "basis": "retailer_current",
-      "note": "2026-11-27 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "note": "2026-11-28 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJ5A900HRBD9/000001_1760580708.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJ5-A900HRBD9",
@@ -4212,13 +4212,13 @@
       "currency": "TWD",
       "amount": 2999,
       "converted": 2999,
-      "confidence": "2026-11-20 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-28 核對原刊登供貨條件，金額保留為先前參考價",
       "basis": "retailer_current",
-      "note": "PChome DRAFJ5-A900K6OV8 原商品主區、完整型號／選定版本及可用購買動作已人工核對，已確認供貨；採公開價 NT$2,999。"
+      "note": "2026-11-28 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJ5A900K6OV8/000001_1783069758.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJ5-A900K6OV8",
-    "buyLabel": "PChome",
+    "buyLabel": "PChome（原刊登已售完，查看供貨）",
     "specs": [
       "Wi-Fi 7",
       "BE3600 雙頻",

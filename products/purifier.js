@@ -307,11 +307,11 @@
     "name": "17 坪 360 度高效過濾空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 7999,
-      "converted": 7999,
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 7499,
+      "converted": 7499,
+      "confidence": "2026-11-28 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-23 PChome 同AC2936公開價NT$7,999，未另扣個人券、點數與信用卡回饋。"
+      "note": "2026-11-28 PChome 同AC2936公開價NT$7,499，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900GH5RL/000001_1781800112.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAC2O-A900GH5RL",
@@ -1287,10 +1287,10 @@
     "name": "Purifier Cool De-NOx 甲醛 NOx 偵測涼風空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 20900,
-      "converted": 20900,
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-23 Yahoo購物中心同TP12公開價NT$20,900，未另扣個人券、點數與信用卡回饋。",
+      "amount": 20482,
+      "converted": 20482,
+      "confidence": "2026-11-28 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-28 Yahoo購物中心同TP12公開價NT$20,482，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T06:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3CA900HTKRG/000001_1767758629.jpg",
@@ -1385,11 +1385,11 @@
     "name": "奈米級空氣清淨機 MUJI AC0650",
     "price": {
       "currency": "TWD",
-      "amount": 4990,
-      "converted": 4990,
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 4690,
+      "converted": 4690,
+      "confidence": "2026-11-28 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-23 PChome 同MUJI AC0650公開價NT$4,990，未另扣個人券、點數與信用卡回饋。"
+      "note": "2026-11-28 PChome 同MUJI AC0650公開價NT$4,690，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900GD1ZV/000001_1781800174.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAC2O-A900GD1ZV",
@@ -1678,10 +1678,10 @@
     "name": "10坪圓嘟嘟空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 5422,
-      "converted": 5422,
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
-      "note": "2026-11-23 Yahoo購物中心同FU-J41T-W公開價NT$5,422，未另扣個人券、點數與信用卡回饋。",
+      "amount": 5314,
+      "converted": 5314,
+      "confidence": "2026-11-28 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-28 Yahoo購物中心同FU-J41T-W公開價NT$5,314，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T06:59:59+08:00。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU6TA900IVWE0/000001_1748922662.jpg",
@@ -1776,11 +1776,11 @@
     "name": "寵物抗敏空氣清淨機輕量版",
     "price": {
       "currency": "TWD",
-      "amount": 10990,
-      "converted": 10990,
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 10290,
+      "converted": 10290,
+      "confidence": "2026-11-28 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-23 PChome 同AC3360/80公開價NT$10,990，未另扣個人券、點數與信用卡回饋。"
+      "note": "2026-11-28 PChome 同AC3360/80公開價NT$10,290，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900J7SBO/000001_1781799851.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAC2O-A900J7SBO",
@@ -1874,11 +1874,11 @@
     "name": "PuriCare 超淨化大白空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 6911,
-      "converted": 6911,
-      "confidence": "2026-11-26 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 6511,
+      "converted": 6511,
+      "confidence": "2026-11-28 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-26 PChome 同AS601HWG0公開價NT$6,911，未另扣個人券、點數與信用卡回饋。公開活動至2026-12-01T23:59:59+08:00。"
+      "note": "2026-11-28 PChome 同AS601HWG0公開價NT$6,511，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-28T08:59:59+08:00。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU0BA900GI0Q1/000001_1763349087.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU0B-A900GI0Q1",
@@ -2175,11 +2175,11 @@
     "name": "迷你奈抗敏奈米級空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 7990,
-      "converted": 7990,
-      "confidence": "2026-11-23 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 7490,
+      "converted": 7490,
+      "confidence": "2026-11-28 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-23 PChome 同AC0921/84公開價NT$7,990，未另扣個人券、點數與信用卡回饋。"
+      "note": "2026-11-28 PChome 同AC0921/84公開價NT$7,490，未另扣個人券、點數與信用卡回饋。公開活動至2026-11-30T23:59:59+08:00。"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAUFVA900JZR3M/000001_1785203322.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUFV-A900JZR3M",
@@ -2698,8 +2698,8 @@
       "amount": 12139,
       "converted": 12139,
       "basis": "retailer_current",
-      "confidence": "2026-11-27 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-27 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。"
+      "confidence": "2026-11-28 核對原商品主區及同一商品公開價和供貨條件",
+      "note": "2026-11-28 Costco好市多同AC3681/81公開單品價NT$12,139（含運），需具好市多會員資格；未扣聯名卡好多金、黑鑽會員回饋或個人優惠。"
     },
     "installation": {
       "status": "not_stated",
@@ -2707,7 +2707,7 @@
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h00/h26/418236463743006.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Air-Purifiers-Filters-Accessories/Philips-Pet-Air-Purifier-AC368181/p/155617",
-    "buyLabel": "Costco 好市多（原刊登缺貨，查看供貨）",
+    "buyLabel": "Costco 好市多",
     "specs": [
       "CADR：360 m³/h；官方建議適用 15–17 坪",
       "濾網：前置濾網、奈米級 HEPA 與寵物活性碳濾網；替換型號 FY3129",

@@ -1476,11 +1476,11 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR1WA900K4MYS/000001_1781748945.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 79000,
-      "converted": 79000,
-      "confidence": "2026-11-24 核對原商品主區及同一商品公開價和供貨條件",
+      "amount": 73470,
+      "converted": 73470,
+      "confidence": "2026-11-28 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-24 PChome 同G5314 C SCI公開價NT$79,000，未另扣個人券、點數與信用卡回饋。"
+      "note": "2026-11-28 PChome 同G5314 C SCI公開價NT$73,470，未另扣個人券、點數與信用卡回饋。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1980,8 +1980,8 @@
       "currency": "TWD",
       "amount": 12999,
       "converted": 12999,
-      "confidence": "2026-11-27 核對原刊登供貨條件，金額保留為先前參考價",
-      "note": "2026-11-27 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
+      "confidence": "2026-11-28 核對原刊登供貨條件，金額保留為先前參考價",
+      "note": "2026-11-28 原同款刊登主區顯示已售完或有貨通知，當日未能下單；本卡金額保留為先前參考價，實際下單金額與交期請向通路確認。",
       "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR24A900JFSR7/000001_1762761618.jpg",
@@ -2079,9 +2079,9 @@
       "currency": "TWD",
       "amount": 20769,
       "converted": 20769,
-      "confidence": "2026-11-27 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-28 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-27 Costco好市多同SPS2IKW00X公開單品價NT$20,769（含運），需具好市多會員資格；未扣聯名卡好多金、黑鑽會員回饋或個人優惠。 原主區明示2026/11/27–2026/11/29限購期間，每帳號每3天限購1組；此處保守以期間結束為參考價截止，下單前請重查。"
+      "note": "2026-11-28 Costco好市多同SPS2IKW00X公開單品價NT$20,769（含運），需具好市多會員資格；未扣聯名卡好多金、黑鑽會員回饋或個人優惠。 原主區明示2026/11/27–2026/11/29限購期間，每帳號每3天限購1組；此處保守以期間結束為參考價截止，下單前請重查。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h3d/h7a/66317147242526.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Kitchen-Appliances/Dishwashers-Dish-Dryers/BOSCH-45-cm-Freestanding-Dishwasher-SPS2IKW00X/p/131781",
@@ -2178,9 +2178,9 @@
       "currency": "TWD",
       "amount": 26859,
       "converted": 26859,
-      "confidence": "2026-11-27 核對原商品主區及同一商品公開價和供貨條件",
+      "confidence": "2026-11-28 核對原商品主區及同一商品公開價和供貨條件",
       "basis": "retailer_current",
-      "note": "2026-11-27 Costco好市多同SMS4ITW00X公開單品價NT$26,859（含運），需具好市多會員資格；未扣聯名卡好多金、黑鑽會員回饋或個人優惠。 原主區明示2026/11/26–2026/11/29限購期間，每帳號每4天限購1組；此處保守以期間結束為參考價截止，下單前請重查。"
+      "note": "2026-11-28 Costco好市多同SMS4ITW00X公開單品價NT$26,859（含運），需具好市多會員資格；未扣聯名卡好多金、黑鑽會員回饋或個人優惠。 原主區明示2026/11/26–2026/11/29限購期間，每帳號每4天限購1組；此處保守以期間結束為參考價截止，下單前請重查。"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h60/hd2/205293596377118.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Kitchen-Appliances/Dishwashers-Dish-Dryers/BOSCH-60-cm-Series-4-Freestanding-Dishwasher-SMS4ITW00X/p/143549",
